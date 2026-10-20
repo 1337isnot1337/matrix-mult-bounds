@@ -40,3 +40,24 @@ rerun. Future discovery data is saved under this worktree's results directory.
 
 Floating residuals and condition numbers are discovery diagnostics. No
 floating run is a construction certificate or an exponent bound.
+
+The maintained discovery and exact verifier now also allow integer directions
+`(alpha,beta)`. For a monomial coordinate let e denote the exponent of s.
+The tested power is
+
+    alpha*(deg(y)+deg(z)-(a-1)) + beta*(i-e(y)-e(z)).
+
+This is induced by weights beta*i on X, alpha*deg(y)-beta*e(y) on Y, and
+alpha*deg(z)-beta*e(z)-alpha*(a-1) on Z. All target terms have power zero.
+The exact verifier rejects any nonzero negative coefficient, incorrect
+constant coefficient, or floating input entry. It permits an arbitrary
+constant shared matrix G. A successful exact target would itself force the
+necessary shared rank because the target is concise.
+
+Completed a=4,B=10 runs use directions (1,0), (1,-1), (1,1), and (1,2).
+Their final descriptive residuals are approximately 5.43e-5, 1.86e-4,
+3.68e-4, and 6.94e-4. Their matrices, diagnostics, seeds, and stopping budgets
+are retained under `results/concavity-equivalence-2026-10-20/graded-shared-a4*`.
+None is an exact certificate. Small partial residuals are especially weak
+evidence here: for the first fit, the best full scaled tensor error in a
+separate epsilon sweep remained about 1.03 relative to the target norm.

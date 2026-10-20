@@ -94,3 +94,20 @@ homomorphism-kernel counts and two explicit graded coefficient controls,
 including deliberate coefficient rejection. Numerical discovery scripts
 additionally check their analytic Jacobian against finite differences; their
 residuals are not used for mathematical acceptance.
+
+The SL(2,7) source checkpoint passes 59 tests under the owned worktree's
+virtual environment (Python 3.14.8, SymPy 1.14.0). Its three new controls derive
+the complex block dimensions, check exact integer root intervals including
+boundary cases, and reject a deliberately excessive source cost. The graded
+verifier also rejects floating entries. The recorded transcript is
+`results/sl2-seven-2026-10-20/tests.txt`.
+
+```sh
+.venv/bin/python research/ai/2026-10-20-sl2-seven/source_certificate.py \
+  --output results/sl2-seven-2026-10-20/source-certificate.json
+```
+
+The source calculation uses exact SymPy arithmetic. Search discovery additionally
+uses NumPy, SciPy and python-sat 1.9.dev17; accepted group potentials are checked
+by the pinned integer-only verifier. No SAT timeout, floating fit, or source
+cost certificate supplies the missing target degeneration.

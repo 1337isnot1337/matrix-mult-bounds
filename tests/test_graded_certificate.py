@@ -23,6 +23,12 @@ class GradedCertificateTests(unittest.TestCase):
         self.assertFalse(report['exact'])
         self.assertTrue(report['constant_coefficient_failures'])
 
+    def test_float_entries_are_rejected(self):
+        p, q = certificate.small_control(2)
+        p[0, 0] = 1.0
+        with self.assertRaises(ValueError):
+            certificate.verify(2, p.rows, p, q)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -85,6 +85,19 @@ discovery therefore includes an unrestricted shared basis. The completed
 Chebyshev search covers 18,440 candidates and gives no finite profile violation.
 No floating fit is accepted as a certificate.
 
+## Selected SL(2,7) finite target
+
+The [SL(2,7) lane](research/ai/2026-10-20-sl2-seven/README.md) derives its
+complex group algebra block sizes through exact rational class-algebra
+idempotents, without importing a character table. Integer root intervals
+certify that a degeneration to M(16,16,17) would imply omega < 2247/1000.
+**No such degeneration is constructed.** The source cost comparison is
+conditional evidence for selecting this finite target, not an exponent bound.
+Its SAT adapter credits and pins the concurrent group worker's implementation.
+The exact source and graded-verifier checkpoint passes all 59 local tests.
+The first 600-second run ended at its time limit with zero pair-injective
+models and no witness. It provides no impossibility proof.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)

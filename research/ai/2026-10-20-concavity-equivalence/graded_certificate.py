@@ -8,20 +8,32 @@ target = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(target)
 
 
-def verify(a, b, p, q):
+def verify(a, b, p, q, g=None, alpha=1, beta=0):
     dims, terms = target.tensor(a)
     n = dims[1]
     if p.shape != (b, n) or q.shape != (n, b+a-1):
         raise ValueError('incorrect coefficient map dimensions')
+    g = sp.eye(a) if g is None else g
+    if g.shape != (a, a):
+        raise ValueError('incorrect shared map dimension')
+    if not all(value.is_Rational for matrix in (p, q, g) for value in matrix):
+        raise ValueError('certificate entries must be exact rationals')
     degrees = [d for d in range(a) for _ in range(d+1)]
+    exponents = [i for d in range(a) for i in range(d+1)]
     desired = set(terms)
     bad_negative, bad_constant = [], []
     count = 0
+    basis = [q[:, h:h+b]*p for h in range(a)]
     for i in range(a):
-        coefficients = q[:, i:i+b]*p
+        coefficients = sp.zeros(n, n)
+        for h in range(a):
+            coefficients += g[i, h]*basis[h]
         for y in range(n):
             for z in range(n):
-                power = degrees[y]+degrees[z]-(a-1)
+                power = (alpha*(degrees[y]+degrees[z]-(a-1))
+                         + beta*(i-exponents[y]-exponents[z]))
+                if (i, y, z) in desired and power != 0:
+                    raise ValueError('target terms must have weight zero')
                 if power > 0:
                     continue
                 count += 1

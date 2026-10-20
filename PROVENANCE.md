@@ -64,3 +64,16 @@ rescaling; the note attributes that prior work and uses the external
 replication construction. The local scalar proof, endpoint rigidity and
 conditional criterion remain unreviewed. No positive curvature or character
 exclusion is claimed.
+
+The `research/ai/2026-10-20-sl2-seven/` lane separately enumerates SL(2,7)
+and derives its complex block dimensions using rational central idempotents.
+This is a local calculation using standard finite-group representation theory,
+with no historical priority claim. Its source-to-target exponent comparison
+uses the external Cohn--Umans group algebra framework and standard border
+conversion. The required tensor degeneration is missing.
+
+The SAT/Farkas implementation in its `imported/` directory is copied
+byte-for-byte from the concurrent entropy/group worker at `75f453b`; exact
+paths and hashes are recorded in `import.json`. The separate p=7 adapter and
+source derivation are new to this branch. Importing and using that verifier
+does not constitute independent mathematical review of its full search method.
