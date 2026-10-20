@@ -35,3 +35,21 @@ The checkpoint includes draft homogeneous-profile rigidity and curvature criteri
 The temporary second-pass files were not retained in the current runtime. Reconstructed programs and regenerated reports are labeled accordingly. All eight new checkpoint tests passed. The first-pass archive remains unchanged.
 
 The [external source review](docs/external_followups.md) covers the three repositories suggested by the owner. It includes Filmus's finite identities-to-exponent criterion with its hypotheses. No external Lean rebuild is claimed.
+
+## Koszul research pass
+
+[General proof and scope](research/ai/2026-10-20-koszul/research_note.md) |
+[Exact candidate audit](results/koszul-2026-10-20/candidate_audit.json)
+
+Written, unreviewed formulas now give every Koszul-flattening rank of a
+convolution in every leg orientation, including padding of the shared space.
+They reject **all 85 specific packings** saved by the second-pass dimension
+search. This does not exclude alternative packings for those sources.
+
+In particular, the former best candidate needs border rank at least 30 while
+its source has rank 21. The all-size proof permits arbitrary independent
+identifications of the shared block spaces. Exact coefficient matrices check
+180 oriented cases and 27 padded cases; those finite checks are not the proof.
+
+The matrix-multiplication exponent remains unchanged. New constructions must
+pass these tests and still provide actual tensor identities.

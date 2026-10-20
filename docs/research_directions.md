@@ -18,6 +18,11 @@ Prove compatibility for all positive parameters or provide an exact counterexamp
 
 Status: open. The flattening obstruction closes only shorter single-convolution sources with identical targets and the stated shared leg.
 
+Update, October 20: [closed Koszul rank formulas](../research/ai/2026-10-20-koszul/research_note.md)
+reject all 85 saved second-pass packings, including the former optimum. Use
+these necessary tests before trying to realize another packing. They do not
+exclude all alternatives or establish sufficiency.
+
 Investigate unequal sectors, tensor-product sources, or explicit basis changes. State all source and target leg dimensions. Certify the resulting coefficient identities or degeneration weights exactly. Account for any auxiliary tensor rather than cancelling it without justification.
 
 The initial monomial search omits arbitrary basis changes and uses weak estimates for unrecognized sectors. Stronger block recognition is a concrete computational task. Record whether a new score comes from a new degeneration or from a stronger estimate on an old sector.

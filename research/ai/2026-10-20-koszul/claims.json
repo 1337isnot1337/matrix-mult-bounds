@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "origin": "Codex research directed by repository owner",
+  "new_exponent_established": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "claims": [
+    {
+      "id": "AI-KOSZUL-012",
+      "status": "proof-written-unreviewed",
+      "statement": "Equations (1)-(3) give all Koszul ranks of convolutions, in all leg orientations and with a padded shared space, over C.",
+      "evidence": "research_note.md",
+      "limitations": "Standard constructions rederived here; no historical priority claim. Not a complete degeneration criterion."
+    },
+    {
+      "id": "AI-OUTPUT-SECTORS-013",
+      "status": "proof-written-unreviewed",
+      "statement": "k copies of C(a,b) sharing their full output space with arbitrary invertible identifications and disjoint input spaces have rank and border rank k(a+b-1).",
+      "evidence": "research_note.md, Section 2",
+      "limitations": "Does not assert border-rank additivity for arbitrary shared-leg sums."
+    },
+    {
+      "id": "EXP-KOSZUL-014",
+      "status": "finite-experiment",
+      "statement": "All 85 specific candidate packings in the archived dimension search violate a Koszul-rank inequality; 180 oriented and 27 padded direct matrix checks agree with the formulas.",
+      "evidence": "../../../results/koszul-2026-10-20/candidate_audit.json",
+      "limitations": "Alternative packings are not exhausted. The general rank formulas rely on the written proofs."
+    }
+  ]
+}

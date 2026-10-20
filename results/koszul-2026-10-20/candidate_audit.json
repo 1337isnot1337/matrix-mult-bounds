@@ -1,0 +1,8542 @@
+{
+  "status": "exact necessary tests; general formulas have an unreviewed written proof",
+  "new_exponent_established": false,
+  "archive_path": "results/session2-2026-10-20/dimension_search.json.gz",
+  "archive_sha256": "1481900f332555a2bd7971a57cb87a7b80423b0e806b2bd88d5c5333f558f1d5",
+  "coverage": "2 <= a <= 10; a <= b <= 12; all three shared axes",
+  "candidate_cases": 85,
+  "excluded_cases": 85,
+  "surviving_cases": 0,
+  "cases": [
+    {
+      "source": [
+        3,
+        3
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "57/56",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        3,
+        8,
+        5
+      ],
+      "sector_ranks": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          6,
+          2
+        ]
+      ],
+      "target_ranks": [
+        3,
+        9,
+        5
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        3
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 3,
+      "profile_ratio": "57/56",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        3,
+        8,
+        5
+      ],
+      "sector_ranks": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          6,
+          2
+        ]
+      ],
+      "target_ranks": [
+        3,
+        9,
+        5
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        4
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "36/35",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        4,
+        10,
+        6
+      ],
+      "sector_ranks": [
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4
+        ]
+      ],
+      "target_ranks": [
+        4,
+        12,
+        6
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        5
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "29/28",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        5,
+        12,
+        7
+      ],
+      "sector_ranks": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ]
+      ],
+      "target_ranks": [
+        5,
+        15,
+        7
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        6
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "51/49",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        6,
+        14,
+        8
+      ],
+      "sector_ranks": [
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4
+        ]
+      ],
+      "target_ranks": [
+        6,
+        18,
+        8
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        7
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "117/112",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        7,
+        16,
+        9
+      ],
+      "sector_ranks": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ]
+      ],
+      "target_ranks": [
+        7,
+        21,
+        9
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        8
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "22/21",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        8,
+        18,
+        10
+      ],
+      "sector_ranks": [
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4
+        ]
+      ],
+      "target_ranks": [
+        8,
+        24,
+        10
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "21/20",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        9,
+        20,
+        11
+      ],
+      "sector_ranks": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ]
+      ],
+      "target_ranks": [
+        9,
+        27,
+        11
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "81/77",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        10,
+        22,
+        12
+      ],
+      "sector_ranks": [
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4
+        ]
+      ],
+      "target_ranks": [
+        10,
+        30,
+        12
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "59/56",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        11,
+        24,
+        13
+      ],
+      "sector_ranks": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ]
+      ],
+      "target_ranks": [
+        11,
+        33,
+        13
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        3,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 3,
+      "profile_ratio": "96/91",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 3
+        }
+      ],
+      "source_ranks": [
+        12,
+        26,
+        14
+      ],
+      "sector_ranks": [
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4
+        ]
+      ],
+      "target_ranks": [
+        12,
+        36,
+        14
+      ],
+      "obstructing_degrees": [
+        1
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        5
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "459/455",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        5,
+        18,
+        21,
+        8
+      ],
+      "sector_ranks": [
+        [
+          1,
+          4,
+          5,
+          2
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ]
+      ],
+      "target_ranks": [
+        5,
+        20,
+        29,
+        8
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        5
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 5,
+      "profile_ratio": "486/455",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        4,
+        20,
+        36,
+        28,
+        8
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          4
+        ],
+        [
+          2,
+          10,
+          20,
+          20,
+          4
+        ]
+      ],
+      "target_ranks": [
+        4,
+        20,
+        40,
+        40,
+        8
+      ],
+      "obstructing_degrees": [
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        6
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "27/25",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        6,
+        21,
+        24,
+        9
+      ],
+      "sector_ranks": [
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ]
+      ],
+      "target_ranks": [
+        6,
+        24,
+        36,
+        9
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        6
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 6,
+      "profile_ratio": "36/35",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        4,
+        24,
+        60,
+        70,
+        40,
+        9
+      ],
+      "sector_ranks": [
+        [
+          2,
+          12,
+          30,
+          40,
+          24,
+          4
+        ],
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          5
+        ]
+      ],
+      "target_ranks": [
+        4,
+        24,
+        60,
+        80,
+        54,
+        9
+      ],
+      "obstructing_degrees": [
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        7
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "621/595",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            2
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        7,
+        24,
+        27,
+        10
+      ],
+      "sector_ranks": [
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ],
+        [
+          2,
+          8,
+          12,
+          5
+        ]
+      ],
+      "target_ranks": [
+        7,
+        28,
+        32,
+        10
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        8
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "702/665",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            2
+          ],
+          "score": "10/3",
+          "convolution": [
+            2,
+            2
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        8,
+        27,
+        30,
+        11
+      ],
+      "sector_ranks": [
+        [
+          2,
+          8,
+          8,
+          2
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ]
+      ],
+      "target_ranks": [
+        8,
+        32,
+        44,
+        11
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "109/105",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            2
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        9,
+        30,
+        33,
+        12
+      ],
+      "sector_ranks": [
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ],
+        [
+          4,
+          15,
+          18,
+          7
+        ]
+      ],
+      "target_ranks": [
+        9,
+        35,
+        38,
+        12
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "837/805",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            2
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        10,
+        33,
+        36,
+        13
+      ],
+      "sector_ranks": [
+        [
+          1,
+          4,
+          5,
+          2
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "target_ranks": [
+        10,
+        40,
+        49,
+        13
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "27/25",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            2
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        11,
+        36,
+        39,
+        14
+      ],
+      "sector_ranks": [
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "target_ranks": [
+        11,
+        44,
+        56,
+        14
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        4,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 4,
+      "profile_ratio": "37/35",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            2
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            2
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 4
+        }
+      ],
+      "source_ranks": [
+        12,
+        39,
+        42,
+        15
+      ],
+      "sector_ranks": [
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ],
+        [
+          2,
+          8,
+          12,
+          5
+        ]
+      ],
+      "target_ranks": [
+        12,
+        48,
+        52,
+        15
+      ],
+      "obstructing_degrees": [
+        1,
+        2
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        5
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "3294/3185",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        5,
+        24,
+        42,
+        32,
+        9
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          6
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ]
+      ],
+      "target_ranks": [
+        5,
+        25,
+        50,
+        35,
+        9
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        5
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 5,
+      "profile_ratio": "3294/3185",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        5,
+        24,
+        42,
+        32,
+        9
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          6
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ]
+      ],
+      "target_ranks": [
+        5,
+        25,
+        50,
+        35,
+        9
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        6
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "27/26",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        6,
+        28,
+        48,
+        36,
+        10
+      ],
+      "sector_ranks": [
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          24,
+          7
+        ]
+      ],
+      "target_ranks": [
+        6,
+        30,
+        60,
+        39,
+        10
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        6
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 6,
+      "profile_ratio": "459/455",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        5,
+        30,
+        70,
+        80,
+        45,
+        10
+      ],
+      "sector_ranks": [
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          5
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        5,
+        30,
+        75,
+        100,
+        54,
+        9
+      ],
+      "obstructing_degrees": [
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        7
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "492/455",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        7,
+        32,
+        54,
+        40,
+        11
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          4
+        ],
+        [
+          2,
+          10,
+          20,
+          20,
+          4
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ]
+      ],
+      "target_ranks": [
+        7,
+        35,
+        70,
+        55,
+        11
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        7
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 7,
+      "profile_ratio": "486/455",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "26/3",
+          "convolution": [
+            2,
+            6
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        5,
+        35,
+        105,
+        160,
+        135,
+        60,
+        11
+      ],
+      "sector_ranks": [
+        [
+          2,
+          14,
+          42,
+          70,
+          70,
+          42,
+          6
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ]
+      ],
+      "target_ranks": [
+        5,
+        35,
+        105,
+        175,
+        175,
+        77,
+        11
+      ],
+      "obstructing_degrees": [
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        8
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "2403/2275",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        8,
+        36,
+        60,
+        44,
+        12
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          6
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ]
+      ],
+      "target_ranks": [
+        8,
+        40,
+        80,
+        50,
+        12
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        8
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 8,
+      "profile_ratio": "2376/2275",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "26/3",
+          "convolution": [
+            2,
+            6
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        5,
+        40,
+        140,
+        280,
+        315,
+        210,
+        77,
+        12
+      ],
+      "sector_ranks": [
+        [
+          2,
+          16,
+          56,
+          112,
+          140,
+          112,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ]
+      ],
+      "target_ranks": [
+        5,
+        40,
+        140,
+        280,
+        350,
+        280,
+        96,
+        12
+      ],
+      "obstructing_degrees": [
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "756/715",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        9,
+        40,
+        66,
+        48,
+        13
+      ],
+      "sector_ranks": [
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          24,
+          7
+        ]
+      ],
+      "target_ranks": [
+        9,
+        45,
+        90,
+        54,
+        13
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        9
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 9,
+      "profile_ratio": "1026/1001",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "26/3",
+          "convolution": [
+            2,
+            6
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        5,
+        45,
+        180,
+        420,
+        630,
+        560,
+        308,
+        96,
+        13
+      ],
+      "sector_ranks": [
+        [
+          2,
+          18,
+          72,
+          168,
+          252,
+          252,
+          160,
+          54,
+          6
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ]
+      ],
+      "target_ranks": [
+        5,
+        45,
+        180,
+        420,
+        630,
+        630,
+        412,
+        117,
+        13
+      ],
+      "obstructing_degrees": [
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "99/91",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        10,
+        44,
+        72,
+        52,
+        14
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          4
+        ],
+        [
+          2,
+          10,
+          20,
+          20,
+          4
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ]
+      ],
+      "target_ranks": [
+        10,
+        50,
+        100,
+        70,
+        14
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        10
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 10,
+      "profile_ratio": "459/455",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "26/3",
+          "convolution": [
+            2,
+            6
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            8
+          ],
+          "score": "14",
+          "convolution": [
+            3,
+            8
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        5,
+        50,
+        225,
+        600,
+        1050,
+        1260,
+        924,
+        432,
+        117,
+        14
+      ],
+      "sector_ranks": [
+        [
+          2,
+          20,
+          90,
+          240,
+          420,
+          504,
+          412,
+          214,
+          60,
+          6
+        ],
+        [
+          3,
+          30,
+          135,
+          360,
+          630,
+          756,
+          630,
+          360,
+          80,
+          8
+        ]
+      ],
+      "target_ranks": [
+        5,
+        50,
+        225,
+        600,
+        1050,
+        1260,
+        1042,
+        574,
+        140,
+        14
+      ],
+      "obstructing_degrees": [
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "486/455",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            6
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        11,
+        48,
+        78,
+        56,
+        15
+      ],
+      "sector_ranks": [
+        [
+          2,
+          10,
+          20,
+          20,
+          6
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ]
+      ],
+      "target_ranks": [
+        11,
+        55,
+        110,
+        65,
+        15
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        5,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 5,
+      "profile_ratio": "486/455",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 5
+        }
+      ],
+      "source_ranks": [
+        12,
+        52,
+        84,
+        60,
+        16
+      ],
+      "sector_ranks": [
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          15,
+          3
+        ],
+        [
+          3,
+          15,
+          30,
+          24,
+          7
+        ]
+      ],
+      "target_ranks": [
+        12,
+        60,
+        120,
+        69,
+        16
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        6
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "891/884",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        6,
+        35,
+        80,
+        90,
+        50,
+        11
+      ],
+      "sector_ranks": [
+        [
+          1,
+          6,
+          14,
+          16,
+          9,
+          2
+        ],
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          5
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        6,
+        36,
+        89,
+        116,
+        63,
+        11
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        6
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 6,
+      "profile_ratio": "891/884",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        6,
+        35,
+        80,
+        90,
+        50,
+        11
+      ],
+      "sector_ranks": [
+        [
+          1,
+          6,
+          14,
+          16,
+          9,
+          2
+        ],
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          5
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        6,
+        36,
+        89,
+        116,
+        63,
+        11
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        7
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "7209/6916",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        7,
+        40,
+        90,
+        100,
+        55,
+        12
+      ],
+      "sector_ranks": [
+        [
+          2,
+          12,
+          30,
+          35,
+          18,
+          3
+        ],
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          5
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        7,
+        42,
+        105,
+        135,
+        72,
+        12
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        7
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 7,
+      "profile_ratio": "3555/3458",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            8
+          ],
+          "score": "10",
+          "convolution": [
+            2,
+            7
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        6,
+        42,
+        120,
+        180,
+        150,
+        66,
+        12
+      ],
+      "sector_ranks": [
+        [
+          2,
+          14,
+          42,
+          70,
+          70,
+          42,
+          8
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ]
+      ],
+      "target_ranks": [
+        6,
+        42,
+        126,
+        210,
+        154,
+        70,
+        12
+      ],
+      "obstructing_degrees": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        8
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "2781/2548",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        8,
+        45,
+        100,
+        110,
+        60,
+        13
+      ],
+      "sector_ranks": [
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          5
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        8,
+        48,
+        120,
+        160,
+        78,
+        13
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        8
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 8,
+      "profile_ratio": "27/26",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        6,
+        48,
+        168,
+        315,
+        350,
+        231,
+        84,
+        13
+      ],
+      "sector_ranks": [
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ]
+      ],
+      "target_ranks": [
+        6,
+        48,
+        168,
+        336,
+        420,
+        336,
+        96,
+        12
+      ],
+      "obstructing_degrees": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "8829/8372",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            7
+          ],
+          "score": "26/3",
+          "convolution": [
+            2,
+            6
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            4,
+            3
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        9,
+        50,
+        110,
+        120,
+        65,
+        14
+      ],
+      "sector_ranks": [
+        [
+          2,
+          12,
+          30,
+          40,
+          30,
+          7
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          4,
+          24,
+          60,
+          45,
+          18,
+          3
+        ]
+      ],
+      "target_ranks": [
+        9,
+        54,
+        135,
+        145,
+        72,
+        14
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        9
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 9,
+      "profile_ratio": "324/299",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        6,
+        54,
+        216,
+        504,
+        700,
+        616,
+        336,
+        104,
+        14
+      ],
+      "sector_ranks": [
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ]
+      ],
+      "target_ranks": [
+        6,
+        54,
+        216,
+        504,
+        756,
+        756,
+        504,
+        126,
+        14
+      ],
+      "obstructing_degrees": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "1377/1300",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            4,
+            3
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            8
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        10,
+        55,
+        120,
+        130,
+        70,
+        15
+      ],
+      "sector_ranks": [
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          4,
+          24,
+          60,
+          45,
+          18,
+          3
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          35,
+          8
+        ]
+      ],
+      "target_ranks": [
+        10,
+        60,
+        150,
+        165,
+        77,
+        15
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        10
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 10,
+      "profile_ratio": "1377/1300",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            3,
+            8
+          ],
+          "score": "14",
+          "convolution": [
+            3,
+            8
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        6,
+        60,
+        270,
+        720,
+        1260,
+        1386,
+        1008,
+        468,
+        126,
+        15
+      ],
+      "sector_ranks": [
+        [
+          3,
+          30,
+          135,
+          360,
+          630,
+          756,
+          630,
+          315,
+          70,
+          7
+        ],
+        [
+          3,
+          30,
+          135,
+          360,
+          630,
+          756,
+          630,
+          360,
+          80,
+          8
+        ]
+      ],
+      "target_ranks": [
+        6,
+        60,
+        270,
+        720,
+        1260,
+        1512,
+        1260,
+        675,
+        150,
+        15
+      ],
+      "obstructing_degrees": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "99/91",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        11,
+        60,
+        130,
+        140,
+        75,
+        16
+      ],
+      "sector_ranks": [
+        [
+          2,
+          12,
+          30,
+          40,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        11,
+        66,
+        165,
+        220,
+        96,
+        16
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        11
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 11,
+      "profile_ratio": "27/26",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "140/9",
+          "convolution": [
+            3,
+            9
+          ],
+          "shared_dimension": 11
+        }
+      ],
+      "source_ranks": [
+        6,
+        66,
+        330,
+        990,
+        1980,
+        2772,
+        2520,
+        1560,
+        630,
+        150,
+        16
+      ],
+      "sector_ranks": [
+        [
+          3,
+          33,
+          165,
+          495,
+          990,
+          1386,
+          1386,
+          945,
+          385,
+          77,
+          7
+        ],
+        [
+          3,
+          33,
+          165,
+          495,
+          990,
+          1386,
+          1386,
+          990,
+          495,
+          99,
+          9
+        ]
+      ],
+      "target_ranks": [
+        6,
+        66,
+        330,
+        990,
+        1980,
+        2772,
+        2772,
+        1935,
+        880,
+        176,
+        16
+      ],
+      "obstructing_degrees": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 6,
+      "profile_ratio": "405/377",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        }
+      ],
+      "source_ranks": [
+        12,
+        65,
+        140,
+        150,
+        80,
+        17
+      ],
+      "sector_ranks": [
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ],
+        [
+          3,
+          18,
+          45,
+          60,
+          24,
+          4
+        ]
+      ],
+      "target_ranks": [
+        12,
+        72,
+        180,
+        240,
+        96,
+        16
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        6,
+        12
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 12,
+      "profile_ratio": "1539/1508",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            3,
+            10
+          ],
+          "score": "154/9",
+          "convolution": [
+            3,
+            10
+          ],
+          "shared_dimension": 12
+        }
+      ],
+      "source_ranks": [
+        6,
+        72,
+        396,
+        1320,
+        2970,
+        4752,
+        5544,
+        4290,
+        2310,
+        825,
+        176,
+        17
+      ],
+      "sector_ranks": [
+        [
+          3,
+          36,
+          198,
+          660,
+          1485,
+          2376,
+          2772,
+          2331,
+          1330,
+          462,
+          84,
+          7
+        ],
+        [
+          3,
+          36,
+          198,
+          660,
+          1485,
+          2376,
+          2772,
+          2376,
+          1485,
+          660,
+          120,
+          10
+        ]
+      ],
+      "target_ranks": [
+        6,
+        72,
+        396,
+        1320,
+        2970,
+        4752,
+        5544,
+        4707,
+        2815,
+        1122,
+        204,
+        17
+      ],
+      "obstructing_degrees": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        7
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 7,
+      "profile_ratio": "10287/9880",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        7,
+        48,
+        135,
+        200,
+        165,
+        72,
+        13
+      ],
+      "sector_ranks": [
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          48,
+          9
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ]
+      ],
+      "target_ranks": [
+        7,
+        49,
+        147,
+        245,
+        189,
+        76,
+        13
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        7
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 7,
+      "profile_ratio": "10287/9880",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        7,
+        48,
+        135,
+        200,
+        165,
+        72,
+        13
+      ],
+      "sector_ranks": [
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          48,
+          9
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ]
+      ],
+      "target_ranks": [
+        7,
+        49,
+        147,
+        245,
+        189,
+        76,
+        13
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        8
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 7,
+      "profile_ratio": "80919/76076",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        8,
+        54,
+        150,
+        220,
+        180,
+        78,
+        14
+      ],
+      "sector_ranks": [
+        [
+          2,
+          14,
+          42,
+          70,
+          64,
+          28,
+          4
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ]
+      ],
+      "target_ranks": [
+        8,
+        56,
+        168,
+        280,
+        274,
+        98,
+        14
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        8
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 8,
+      "profile_ratio": "78003/76076",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        7,
+        56,
+        189,
+        350,
+        385,
+        252,
+        91,
+        14
+      ],
+      "sector_ranks": [
+        [
+          1,
+          8,
+          27,
+          50,
+          55,
+          36,
+          13,
+          2
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ]
+      ],
+      "target_ranks": [
+        7,
+        56,
+        195,
+        386,
+        475,
+        372,
+        109,
+        14
+      ],
+      "obstructing_degrees": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 7,
+      "profile_ratio": "2187/1976",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        9,
+        60,
+        165,
+        240,
+        195,
+        84,
+        15
+      ],
+      "sector_ranks": [
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ]
+      ],
+      "target_ranks": [
+        9,
+        63,
+        189,
+        315,
+        315,
+        105,
+        15
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        9
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 9,
+      "profile_ratio": "56619/55328",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            1
+          ],
+          "score": "1",
+          "convolution": [
+            1,
+            1
+          ],
+          "shared_dimension": 1
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        7,
+        63,
+        252,
+        560,
+        770,
+        672,
+        364,
+        112,
+        15
+      ],
+      "sector_ranks": [
+        [
+          1,
+          8,
+          28,
+          56,
+          70,
+          56,
+          28,
+          8,
+          1
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ]
+      ],
+      "target_ranks": [
+        7,
+        62,
+        244,
+        560,
+        826,
+        812,
+        532,
+        134,
+        15
+      ],
+      "obstructing_degrees": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 7,
+      "profile_ratio": "95175/89908",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            8
+          ],
+          "score": "10",
+          "convolution": [
+            2,
+            7
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        10,
+        66,
+        180,
+        260,
+        210,
+        90,
+        16
+      ],
+      "sector_ranks": [
+        [
+          2,
+          14,
+          42,
+          70,
+          70,
+          42,
+          8
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ]
+      ],
+      "target_ranks": [
+        10,
+        70,
+        210,
+        350,
+        238,
+        98,
+        16
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        10
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 10,
+      "profile_ratio": "6723/6422",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            8
+          ],
+          "score": "14",
+          "convolution": [
+            3,
+            8
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        7,
+        70,
+        315,
+        840,
+        1386,
+        1512,
+        1092,
+        504,
+        135,
+        16
+      ],
+      "sector_ranks": [
+        [
+          3,
+          30,
+          135,
+          360,
+          630,
+          756,
+          630,
+          360,
+          80,
+          8
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        7,
+        70,
+        315,
+        840,
+        1470,
+        1764,
+        1470,
+        675,
+        150,
+        15
+      ],
+      "obstructing_degrees": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 7,
+      "profile_ratio": "81/76",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            4,
+            4
+          ],
+          "score": "770/81",
+          "convolution": [
+            4,
+            4
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        11,
+        72,
+        195,
+        280,
+        225,
+        96,
+        17
+      ],
+      "sector_ranks": [
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          48,
+          9
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ],
+        [
+          4,
+          28,
+          84,
+          140,
+          84,
+          28,
+          4
+        ]
+      ],
+      "target_ranks": [
+        11,
+        77,
+        231,
+        385,
+        273,
+        104,
+        17
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        11
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 11,
+      "profile_ratio": "14985/13832",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "140/9",
+          "convolution": [
+            3,
+            9
+          ],
+          "shared_dimension": 11
+        },
+        {
+          "nonshared": [
+            4,
+            8
+          ],
+          "score": "1330/81",
+          "convolution": [
+            4,
+            8
+          ],
+          "shared_dimension": 11
+        }
+      ],
+      "source_ranks": [
+        7,
+        77,
+        385,
+        1155,
+        2310,
+        3024,
+        2730,
+        1680,
+        675,
+        160,
+        17
+      ],
+      "sector_ranks": [
+        [
+          3,
+          33,
+          165,
+          495,
+          990,
+          1386,
+          1386,
+          990,
+          495,
+          99,
+          9
+        ],
+        [
+          4,
+          44,
+          220,
+          660,
+          1320,
+          1848,
+          1848,
+          1320,
+          440,
+          88,
+          8
+        ]
+      ],
+      "target_ranks": [
+        7,
+        77,
+        385,
+        1155,
+        2310,
+        3234,
+        3234,
+        2310,
+        935,
+        187,
+        17
+      ],
+      "obstructing_degrees": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 7,
+      "profile_ratio": "2673/2470",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            3
+          ],
+          "score": "56/9",
+          "convolution": [
+            3,
+            3
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        }
+      ],
+      "source_ranks": [
+        12,
+        78,
+        210,
+        300,
+        240,
+        102,
+        18
+      ],
+      "sector_ranks": [
+        [
+          3,
+          21,
+          63,
+          90,
+          63,
+          21,
+          3
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ],
+        [
+          3,
+          21,
+          63,
+          105,
+          105,
+          35,
+          5
+        ]
+      ],
+      "target_ranks": [
+        12,
+        84,
+        252,
+        405,
+        378,
+        126,
+        18
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        7,
+        12
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 12,
+      "profile_ratio": "81/76",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "140/9",
+          "convolution": [
+            3,
+            9
+          ],
+          "shared_dimension": 11
+        },
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        }
+      ],
+      "source_ranks": [
+        7,
+        84,
+        462,
+        1540,
+        3465,
+        5544,
+        6006,
+        4620,
+        2475,
+        880,
+        187,
+        18
+      ],
+      "sector_ranks": [
+        [
+          3,
+          36,
+          198,
+          660,
+          1485,
+          2376,
+          2772,
+          2376,
+          1485,
+          594,
+          108,
+          9
+        ],
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ]
+      ],
+      "target_ranks": [
+        7,
+        84,
+        462,
+        1540,
+        3465,
+        5544,
+        6468,
+        5544,
+        3465,
+        1188,
+        216,
+        18
+      ],
+      "obstructing_degrees": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        8
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 8,
+      "profile_ratio": "260253/249964",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        8,
+        63,
+        210,
+        385,
+        420,
+        273,
+        98,
+        15
+      ],
+      "sector_ranks": [
+        [
+          2,
+          16,
+          56,
+          107,
+          118,
+          74,
+          24,
+          3
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ]
+      ],
+      "target_ranks": [
+        8,
+        64,
+        224,
+        443,
+        538,
+        410,
+        120,
+        15
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        8
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 8,
+      "profile_ratio": "260253/249964",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        8,
+        63,
+        210,
+        385,
+        420,
+        273,
+        98,
+        15
+      ],
+      "sector_ranks": [
+        [
+          2,
+          16,
+          56,
+          107,
+          118,
+          74,
+          24,
+          3
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ]
+      ],
+      "target_ranks": [
+        8,
+        64,
+        224,
+        443,
+        538,
+        410,
+        120,
+        15
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 8,
+      "profile_ratio": "15309/14300",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            4
+          ],
+          "score": "70/9",
+          "convolution": [
+            3,
+            4
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        9,
+        70,
+        231,
+        420,
+        455,
+        294,
+        105,
+        16
+      ],
+      "sector_ranks": [
+        [
+          3,
+          24,
+          84,
+          168,
+          189,
+          112,
+          32,
+          4
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ]
+      ],
+      "target_ranks": [
+        9,
+        72,
+        252,
+        504,
+        609,
+        448,
+        128,
+        16
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        9
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 9,
+      "profile_ratio": "112833/108680",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            11
+          ],
+          "score": "140/9",
+          "convolution": [
+            3,
+            9
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            5,
+            5
+          ],
+          "score": "3185/243",
+          "convolution": [
+            5,
+            5
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        8,
+        72,
+        280,
+        616,
+        840,
+        728,
+        392,
+        120,
+        16
+      ],
+      "sector_ranks": [
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          80,
+          11
+        ],
+        [
+          5,
+          45,
+          180,
+          420,
+          630,
+          420,
+          180,
+          45,
+          5
+        ]
+      ],
+      "target_ranks": [
+        8,
+        72,
+        288,
+        672,
+        1008,
+        798,
+        432,
+        125,
+        16
+      ],
+      "obstructing_degrees": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 8,
+      "profile_ratio": "12033/10868",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            4,
+            5
+          ],
+          "score": "910/81",
+          "convolution": [
+            4,
+            5
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        10,
+        77,
+        252,
+        455,
+        490,
+        315,
+        112,
+        17
+      ],
+      "sector_ranks": [
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          4,
+          32,
+          112,
+          224,
+          280,
+          140,
+          40,
+          5
+        ]
+      ],
+      "target_ranks": [
+        10,
+        80,
+        280,
+        560,
+        700,
+        476,
+        136,
+        17
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        10
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 10,
+      "profile_ratio": "1017/988",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            3,
+            8
+          ],
+          "score": "14",
+          "convolution": [
+            3,
+            8
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        8,
+        80,
+        360,
+        924,
+        1512,
+        1638,
+        1176,
+        540,
+        144,
+        17
+      ],
+      "sector_ranks": [
+        [
+          1,
+          10,
+          44,
+          112,
+          182,
+          196,
+          140,
+          64,
+          17,
+          2
+        ],
+        [
+          3,
+          30,
+          135,
+          360,
+          630,
+          756,
+          630,
+          360,
+          80,
+          8
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        8,
+        80,
+        359,
+        952,
+        1652,
+        1960,
+        1610,
+        739,
+        167,
+        17
+      ],
+      "obstructing_degrees": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 8,
+      "profile_ratio": "1215/1144",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            1
+          ],
+          "score": "1",
+          "convolution": [
+            1,
+            1
+          ],
+          "shared_dimension": 1
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            4,
+            5
+          ],
+          "score": "910/81",
+          "convolution": [
+            4,
+            5
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        11,
+        84,
+        273,
+        490,
+        525,
+        336,
+        119,
+        18
+      ],
+      "sector_ranks": [
+        [
+          1,
+          7,
+          21,
+          35,
+          35,
+          21,
+          7,
+          1
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          48,
+          6
+        ],
+        [
+          4,
+          32,
+          112,
+          224,
+          280,
+          140,
+          40,
+          5
+        ]
+      ],
+      "target_ranks": [
+        11,
+        87,
+        301,
+        595,
+        735,
+        497,
+        143,
+        18
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        11
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 11,
+      "profile_ratio": "649053/630344",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            1
+          ],
+          "score": "1",
+          "convolution": [
+            1,
+            1
+          ],
+          "shared_dimension": 1
+        },
+        {
+          "nonshared": [
+            3,
+            9
+          ],
+          "score": "140/9",
+          "convolution": [
+            3,
+            9
+          ],
+          "shared_dimension": 11
+        },
+        {
+          "nonshared": [
+            4,
+            8
+          ],
+          "score": "1330/81",
+          "convolution": [
+            4,
+            8
+          ],
+          "shared_dimension": 11
+        }
+      ],
+      "source_ranks": [
+        8,
+        88,
+        440,
+        1320,
+        2520,
+        3276,
+        2940,
+        1800,
+        720,
+        170,
+        18
+      ],
+      "sector_ranks": [
+        [
+          1,
+          10,
+          45,
+          120,
+          210,
+          252,
+          210,
+          120,
+          45,
+          10,
+          1
+        ],
+        [
+          3,
+          33,
+          165,
+          495,
+          990,
+          1386,
+          1386,
+          990,
+          495,
+          99,
+          9
+        ],
+        [
+          4,
+          44,
+          220,
+          660,
+          1320,
+          1848,
+          1848,
+          1320,
+          440,
+          88,
+          8
+        ]
+      ],
+      "target_ranks": [
+        8,
+        87,
+        430,
+        1275,
+        2520,
+        3486,
+        3444,
+        2430,
+        980,
+        197,
+        18
+      ],
+      "obstructing_degrees": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 8,
+      "profile_ratio": "358911/336908",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            10
+          ],
+          "score": "14",
+          "convolution": [
+            3,
+            8
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            4,
+            5
+          ],
+          "score": "910/81",
+          "convolution": [
+            4,
+            5
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            5,
+            4
+          ],
+          "score": "910/81",
+          "convolution": [
+            4,
+            5
+          ],
+          "shared_dimension": 8
+        }
+      ],
+      "source_ranks": [
+        12,
+        91,
+        294,
+        525,
+        560,
+        357,
+        126,
+        19
+      ],
+      "sector_ranks": [
+        [
+          3,
+          24,
+          84,
+          168,
+          210,
+          168,
+          63,
+          10
+        ],
+        [
+          4,
+          32,
+          112,
+          224,
+          280,
+          140,
+          40,
+          5
+        ],
+        [
+          5,
+          40,
+          140,
+          280,
+          224,
+          112,
+          32,
+          4
+        ]
+      ],
+      "target_ranks": [
+        12,
+        96,
+        336,
+        672,
+        714,
+        420,
+        135,
+        19
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        8,
+        12
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 12,
+      "profile_ratio": "178605/168454",
+      "sectors": [
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        },
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        }
+      ],
+      "source_ranks": [
+        8,
+        96,
+        528,
+        1760,
+        3960,
+        6006,
+        6468,
+        4950,
+        2640,
+        935,
+        198,
+        19
+      ],
+      "sector_ranks": [
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ],
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ]
+      ],
+      "target_ranks": [
+        8,
+        96,
+        528,
+        1760,
+        3960,
+        6336,
+        7392,
+        6336,
+        3960,
+        1188,
+        216,
+        18
+      ],
+      "obstructing_degrees": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        9
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 9,
+      "profile_ratio": "927288/883025",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        9,
+        80,
+        308,
+        672,
+        910,
+        784,
+        420,
+        128,
+        17
+      ],
+      "sector_ranks": [
+        [
+          2,
+          18,
+          72,
+          168,
+          246,
+          226,
+          124,
+          36,
+          4
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ]
+      ],
+      "target_ranks": [
+        9,
+        81,
+        324,
+        756,
+        1128,
+        1108,
+        592,
+        153,
+        17
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        9
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 9,
+      "profile_ratio": "927288/883025",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        9,
+        80,
+        308,
+        672,
+        910,
+        784,
+        420,
+        128,
+        17
+      ],
+      "sector_ranks": [
+        [
+          2,
+          18,
+          72,
+          168,
+          246,
+          226,
+          124,
+          36,
+          4
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ]
+      ],
+      "target_ranks": [
+        9,
+        81,
+        324,
+        756,
+        1128,
+        1108,
+        592,
+        153,
+        17
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 9,
+      "profile_ratio": "146529/135850",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            5
+          ],
+          "score": "28/3",
+          "convolution": [
+            3,
+            5
+          ],
+          "shared_dimension": 7
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        10,
+        88,
+        336,
+        728,
+        980,
+        840,
+        448,
+        136,
+        18
+      ],
+      "sector_ranks": [
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          350,
+          180,
+          45,
+          5
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ]
+      ],
+      "target_ranks": [
+        10,
+        90,
+        360,
+        840,
+        1260,
+        1232,
+        648,
+        162,
+        18
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        10
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 10,
+      "profile_ratio": "37908/36575",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            4
+          ],
+          "score": "4",
+          "convolution": [
+            1,
+            4
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        9,
+        90,
+        396,
+        1008,
+        1638,
+        1764,
+        1260,
+        576,
+        153,
+        18
+      ],
+      "sector_ranks": [
+        [
+          1,
+          10,
+          45,
+          120,
+          209,
+          246,
+          195,
+          100,
+          30,
+          4
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        9,
+        90,
+        405,
+        1080,
+        1889,
+        2262,
+        1875,
+        730,
+        170,
+        18
+      ],
+      "obstructing_degrees": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 9,
+      "profile_ratio": "377622/339625",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        11,
+        96,
+        364,
+        784,
+        1050,
+        896,
+        476,
+        144,
+        19
+      ],
+      "sector_ranks": [
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ]
+      ],
+      "target_ranks": [
+        11,
+        99,
+        396,
+        924,
+        1386,
+        1386,
+        684,
+        171,
+        19
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        11
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 11,
+      "profile_ratio": "705429/679250",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            3
+          ],
+          "score": "3",
+          "convolution": [
+            1,
+            3
+          ],
+          "shared_dimension": 3
+        },
+        {
+          "nonshared": [
+            4,
+            8
+          ],
+          "score": "1330/81",
+          "convolution": [
+            4,
+            8
+          ],
+          "shared_dimension": 11
+        },
+        {
+          "nonshared": [
+            4,
+            8
+          ],
+          "score": "1330/81",
+          "convolution": [
+            4,
+            8
+          ],
+          "shared_dimension": 11
+        }
+      ],
+      "source_ranks": [
+        9,
+        99,
+        495,
+        1440,
+        2730,
+        3528,
+        3150,
+        1920,
+        765,
+        180,
+        19
+      ],
+      "sector_ranks": [
+        [
+          1,
+          11,
+          55,
+          164,
+          322,
+          434,
+          406,
+          260,
+          109,
+          27,
+          3
+        ],
+        [
+          4,
+          44,
+          220,
+          660,
+          1320,
+          1848,
+          1848,
+          1320,
+          440,
+          88,
+          8
+        ],
+        [
+          4,
+          44,
+          220,
+          660,
+          1320,
+          1848,
+          1848,
+          1320,
+          440,
+          88,
+          8
+        ]
+      ],
+      "target_ranks": [
+        9,
+        99,
+        495,
+        1484,
+        2962,
+        4130,
+        4102,
+        2900,
+        989,
+        203,
+        19
+      ],
+      "obstructing_degrees": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 9,
+      "profile_ratio": "2324781/2173600",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            1
+          ],
+          "score": "1",
+          "convolution": [
+            1,
+            1
+          ],
+          "shared_dimension": 1
+        },
+        {
+          "nonshared": [
+            3,
+            7
+          ],
+          "score": "112/9",
+          "convolution": [
+            3,
+            7
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        },
+        {
+          "nonshared": [
+            4,
+            6
+          ],
+          "score": "350/27",
+          "convolution": [
+            4,
+            6
+          ],
+          "shared_dimension": 9
+        }
+      ],
+      "source_ranks": [
+        12,
+        104,
+        392,
+        840,
+        1120,
+        952,
+        504,
+        152,
+        20
+      ],
+      "sector_ranks": [
+        [
+          1,
+          8,
+          28,
+          56,
+          70,
+          56,
+          28,
+          8,
+          1
+        ],
+        [
+          3,
+          27,
+          108,
+          252,
+          378,
+          378,
+          252,
+          63,
+          7
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ],
+        [
+          4,
+          36,
+          144,
+          336,
+          504,
+          504,
+          216,
+          54,
+          6
+        ]
+      ],
+      "target_ranks": [
+        12,
+        107,
+        424,
+        980,
+        1456,
+        1442,
+        712,
+        179,
+        20
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        9,
+        12
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 12,
+      "profile_ratio": "102789/98800",
+      "sectors": [
+        {
+          "nonshared": [
+            1,
+            2
+          ],
+          "score": "2",
+          "convolution": [
+            1,
+            2
+          ],
+          "shared_dimension": 2
+        },
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        },
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        }
+      ],
+      "source_ranks": [
+        9,
+        108,
+        594,
+        1980,
+        4290,
+        6468,
+        6930,
+        5280,
+        2805,
+        990,
+        209,
+        20
+      ],
+      "sector_ranks": [
+        [
+          1,
+          12,
+          65,
+          210,
+          450,
+          672,
+          714,
+          540,
+          285,
+          100,
+          21,
+          2
+        ],
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ],
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ]
+      ],
+      "target_ranks": [
+        9,
+        108,
+        593,
+        1970,
+        4410,
+        7008,
+        8106,
+        6876,
+        4245,
+        1288,
+        237,
+        20
+      ],
+      "obstructing_degrees": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        10,
+        10
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 10,
+      "profile_ratio": "29268621/27577550",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        10,
+        99,
+        432,
+        1092,
+        1764,
+        1890,
+        1344,
+        612,
+        162,
+        19
+      ],
+      "sector_ranks": [
+        [
+          2,
+          20,
+          90,
+          240,
+          420,
+          497,
+          390,
+          190,
+          50,
+          5
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        10,
+        100,
+        450,
+        1200,
+        2100,
+        2513,
+        2070,
+        820,
+        190,
+        19
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        10,
+        10
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 10,
+      "profile_ratio": "29268621/27577550",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            5
+          ],
+          "score": "22/3",
+          "convolution": [
+            2,
+            5
+          ],
+          "shared_dimension": 6
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        10,
+        99,
+        432,
+        1092,
+        1764,
+        1890,
+        1344,
+        612,
+        162,
+        19
+      ],
+      "sector_ranks": [
+        [
+          2,
+          20,
+          90,
+          240,
+          420,
+          497,
+          390,
+          190,
+          50,
+          5
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        10,
+        100,
+        450,
+        1200,
+        2100,
+        2513,
+        2070,
+        820,
+        190,
+        19
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        10,
+        11
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 10,
+      "profile_ratio": "4586139/4211350",
+      "sectors": [
+        {
+          "nonshared": [
+            3,
+            6
+          ],
+          "score": "98/9",
+          "convolution": [
+            3,
+            6
+          ],
+          "shared_dimension": 8
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        11,
+        108,
+        468,
+        1176,
+        1890,
+        2016,
+        1428,
+        648,
+        171,
+        20
+      ],
+      "sector_ranks": [
+        [
+          3,
+          30,
+          135,
+          360,
+          630,
+          756,
+          594,
+          270,
+          60,
+          6
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        11,
+        110,
+        495,
+        1320,
+        2310,
+        2772,
+        2274,
+        900,
+        200,
+        20
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        10,
+        11
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 11,
+      "profile_ratio": "216513/206150",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            4
+          ],
+          "score": "6",
+          "convolution": [
+            2,
+            4
+          ],
+          "shared_dimension": 5
+        },
+        {
+          "nonshared": [
+            4,
+            8
+          ],
+          "score": "1330/81",
+          "convolution": [
+            4,
+            8
+          ],
+          "shared_dimension": 11
+        },
+        {
+          "nonshared": [
+            4,
+            8
+          ],
+          "score": "1330/81",
+          "convolution": [
+            4,
+            8
+          ],
+          "shared_dimension": 11
+        }
+      ],
+      "source_ranks": [
+        10,
+        110,
+        540,
+        1560,
+        2940,
+        3780,
+        3360,
+        2040,
+        810,
+        190,
+        20
+      ],
+      "sector_ranks": [
+        [
+          2,
+          22,
+          110,
+          330,
+          654,
+          886,
+          822,
+          510,
+          200,
+          44,
+          4
+        ],
+        [
+          4,
+          44,
+          220,
+          660,
+          1320,
+          1848,
+          1848,
+          1320,
+          440,
+          88,
+          8
+        ],
+        [
+          4,
+          44,
+          220,
+          660,
+          1320,
+          1848,
+          1848,
+          1320,
+          440,
+          88,
+          8
+        ]
+      ],
+      "target_ranks": [
+        10,
+        110,
+        550,
+        1650,
+        3294,
+        4582,
+        4518,
+        3150,
+        1080,
+        220,
+        20
+      ],
+      "obstructing_degrees": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        10,
+        12
+      ],
+      "shared_axis": 0,
+      "shared_dimension": 10,
+      "profile_ratio": "334611/298870",
+      "sectors": [
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        },
+        {
+          "nonshared": [
+            4,
+            7
+          ],
+          "score": "1190/81",
+          "convolution": [
+            4,
+            7
+          ],
+          "shared_dimension": 10
+        }
+      ],
+      "source_ranks": [
+        12,
+        117,
+        504,
+        1260,
+        2016,
+        2142,
+        1512,
+        684,
+        180,
+        21
+      ],
+      "sector_ranks": [
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ],
+        [
+          4,
+          40,
+          180,
+          480,
+          840,
+          1008,
+          840,
+          315,
+          70,
+          7
+        ]
+      ],
+      "target_ranks": [
+        12,
+        120,
+        540,
+        1440,
+        2520,
+        3024,
+        2520,
+        945,
+        210,
+        21
+      ],
+      "obstructing_degrees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "excluded": true
+    },
+    {
+      "source": [
+        10,
+        12
+      ],
+      "shared_axis": 1,
+      "shared_dimension": 12,
+      "profile_ratio": "1554957/1494350",
+      "sectors": [
+        {
+          "nonshared": [
+            2,
+            3
+          ],
+          "score": "14/3",
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_dimension": 4
+        },
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        },
+        {
+          "nonshared": [
+            4,
+            9
+          ],
+          "score": "490/27",
+          "convolution": [
+            4,
+            9
+          ],
+          "shared_dimension": 12
+        }
+      ],
+      "source_ranks": [
+        10,
+        120,
+        660,
+        2145,
+        4620,
+        6930,
+        7392,
+        5610,
+        2970,
+        1045,
+        220,
+        21
+      ],
+      "sector_ranks": [
+        [
+          2,
+          24,
+          132,
+          435,
+          948,
+          1428,
+          1512,
+          1122,
+          570,
+          188,
+          36,
+          3
+        ],
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ],
+        [
+          4,
+          48,
+          264,
+          880,
+          1980,
+          3168,
+          3696,
+          3168,
+          1980,
+          594,
+          108,
+          9
+        ]
+      ],
+      "target_ranks": [
+        10,
+        120,
+        660,
+        2195,
+        4908,
+        7764,
+        8904,
+        7458,
+        4530,
+        1376,
+        252,
+        21
+      ],
+      "obstructing_degrees": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded": true
+    }
+  ]
+}

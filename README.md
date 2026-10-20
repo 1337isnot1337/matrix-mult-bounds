@@ -12,6 +12,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
 - [Research directions and acceptance criteria](docs/research_directions.md)
 - [Attribution and provenance](PROVENANCE.md)
+- [Koszul obstruction and mixed-sector research](research/ai/2026-10-20-koszul/research_note.md)
 
 The field map is a curated starting point, not an exhaustive survey. Its source snapshot is **October 20, 2026**.
 
