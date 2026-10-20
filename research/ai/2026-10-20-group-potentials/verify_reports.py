@@ -13,7 +13,23 @@ from group_exact import group,affine_group,extra_relations,verify_witness,verify
 
 def verify_run(report):
     affine=report.get('affine_parameters')
-    G=affine_group(*affine) if affine else group(5)
+    quaternary=report.get('source_family')=='quaternary-affine'
+    if quaternary:
+        from quaternary_group import group as quaternary_group,plane_family,coset_representatives,scale
+        G=quaternary_group()
+        planes=plane_family(report.get('plane_pattern','covariant'))
+        representatives=[{a:coset_representatives(P) for a,P in row.items()} for row in planes]
+        if 'plane_pattern' in report:
+            expected_planes=[{str(a):list(P) for a,P in row.items()} for row in planes]
+            expected_reps=[{str(a):v for a,v in row.items()} for row in representatives]
+        else:
+            # First discovery run predates per-coset plane directions.
+            expected_planes=[list(row[1]) for row in planes]
+            expected_reps=[row[1] for row in representatives]
+        if report['normal_planes']!=expected_planes or report['normal_offset_representatives']!=expected_reps:
+            raise ValueError('quaternary ansatz data mismatch')
+    else:
+        G=affine_group(*affine) if affine else group(5)
     shape=report['shape']
     total=0
     for cut in report['cuts']:
@@ -35,6 +51,17 @@ def verify_run(report):
                             (2,sets[2][u]),(2,sets[2][uu])])
         if sorted(members)!=[tuple(x) for x in cut['members']]:
             raise ValueError('learned membership clause differs from exact circuit')
+        if quaternary:
+            cells={(f,G['matrices'][g][0]) for f,g in members}
+            recorded=cut['offset_choice_cut']
+            if len(recorded)!=len(cells) or {(f,a) for f,a,o in recorded}!=cells:
+                raise ValueError('offset clause omits or repeats a circuit cell')
+            for f,a,o in recorded:
+                if not 0<=o<len(representatives[f][a]):raise ValueError('invalid offset')
+                offset=representatives[f][a][o]
+                points={(a,scale(a,v^offset)) for v in planes[f][a]}
+                actual_points={G['matrices'][g] for g in sets[f] if G['matrices'][g][0]==a}
+                if points!=actual_points:raise ValueError('offset clause does not preserve its circuit')
         if not verify_farkas(relations,indices,cut['weights']):
             raise ValueError('Farkas sum is not exactly zero with positive integer weights')
         if cut['extra_relations']!=len(relations) or cut['intended_terms']!=intended:

@@ -72,3 +72,31 @@ Other agents' latest fetched branches at the time of this note:
 construction threshold is about 1.020472 source overhead; the source
 degenerations remain unconstructed. The last branch owns off-leading
 recoupling work; do not duplicate it without inspecting its current state.
+
+## Later checkpoint: normal-subgroup Fourier screen
+
+`ternary_fourier_proof.md` proves, with an integer Fourier certificate, that
+C3^4 has no three four-point sets with an injective sum map. The elementary
+lower bound is 1232 against the required 1088; an independent 64-inequality
+certificate gives 1682. It excludes coordinate-potential (16,16,16) searches
+in every group containing this subgroup with index four. It is a written,
+unreviewed proof and does not exclude arbitrary tensor degeneration.
+
+`candidate_frontier.py` screens all 45 affine C_p:C_r groups with p<=61 and
+order<=250: 22,178 sorted shapes, 428 strict degree-sum gates, 58 survivors
+after the coset and rank-locus screens. Three scheduled batches finished
+34 cases with no pair model; one additional case was interrupted after a
+CaDiCaL conflict-budget call substantially overran its requested time. The
+manifests retain that distinction. Time limits are cooperative, not hard
+wall-clock guarantees. No untraced negative is a theorem.
+
+`quaternary_group.py` defines F4^3:C3 of order 192. The restricted offset
+searches for (12,12,12) found 167 and 259 pair-injective models, respectively;
+all 426 have exact positive Farkas circuits. `verify_reports.py` replays the
+group products and verifies that each learned offset clause preserves its
+whole circuit. No successful target exists in these reports. A cyclic-shear
+direction screen is new discovery work, not a general group exclusion.
+
+Latest fetched other-worker tips: Koszul `6bdab15`, product-filtration
+`f6f307c`, filtration-compatibility `cf79709`. Their unrestricted source
+degeneration gap remains open. The target exponent is still unbeaten.

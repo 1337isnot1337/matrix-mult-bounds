@@ -24,6 +24,7 @@ from pysat.solvers import Glucose4,Cadical195
 
 from group_exact import group,affine_group,borel_anchor_certificate,extra_relations,verify_witness,verify_farkas
 from abelian_tables import normal_tables
+from symmetry_cnf import lex_geq
 
 
 def integerize(values):
@@ -69,7 +70,7 @@ def potential_or_circuit(relations, width):
     return {'indices':indices,'weights':weights}
 
 
-def build_solver(G,shape,seed,engine='glucose4'):
+def build_solver(G,shape,seed,engine='glucose4',sl2_anchor=None,right_lex=False):
     pool=IDPool()
     N=len(G['matrices'])
     members=[[pool.id(('member',f,g)) for g in range(N)] for f in range(3)]
@@ -174,10 +175,42 @@ def build_solver(G,shape,seed,engine='glucose4'):
                 lower[f],vpool=pool,encoding=EncType.seqcounter).clauses)
         if shape[0]>cert['index']:
             clauses.append([members[0][g] for g in cert['anchors']])
+        chosen_anchor=None
+        if sl2_anchor is not None:
+            names=['central','unipotent','negative-unipotent','order4']
+            chosen_anchor=cert['anchors'][names.index(sl2_anchor)]
+            clauses.append([members[0][chosen_anchor]])
+        lex_start=len(clauses)
+        if right_lex:
+            cosets={}
+            for h in range(N):
+                cosets[h]={G['mul'][g][h] for g in cert['members']}
+            for f in range(3):
+                if f==0 and chosen_anchor is None:continue
+                if lower[f]>2:continue
+                for h in range(1,N):
+                    if f==0:
+                        other=G['mul'][chosen_anchor][h]
+                        guard=pool.id(('right-eligible',f,h))
+                        clauses.extend([[-guard,members[f][h]],[-guard,members[f][other]],
+                                        [-members[f][h],-members[f][other],guard]])
+                    elif lower[f]==1:
+                        guard=members[f][h]
+                    else:
+                        guard=pool.id(('right-eligible',f,h))
+                        others=[members[f][g] for g in cosets[h] if g!=h]
+                        clauses.extend([[-guard,members[f][h]],[-guard,*others]])
+                        clauses.extend([[-members[f][h],-x,guard] for x in others])
+                    translated=[members[f][G['mul'][g][h]] for g in range(N)]
+                    clauses.extend(lex_geq(members[f],translated,guard,
+                                          lambda:pool.id()))
         borel_normalization={'order':cert['order'],'index':cert['index'],
              'identity_coset_lower':lower,
              'first_set_anchor_disjunction':cert['anchors'] if shape[0]>cert['index'] else [],
-             'quotient_orbits_verified':len(cert['quotient_orbit_witnesses'])}
+             'quotient_orbits_verified':len(cert['quotient_orbit_witnesses']),
+             'anchor_branch':sl2_anchor,
+             'right_translation_lex_leaders':right_lex,
+             'lex_leader_clauses':len(clauses)-lex_start}
     for q in reps:
         for f,h in combinations(range(3),2):
             clauses.append([-owners[f][q],-owners[h][q]])
@@ -207,9 +240,9 @@ def build_solver(G,shape,seed,engine='glucose4'):
                            'independent_right_translations':'identity fixed in all sets'}
 
 
-def run(shape,seconds,seed,output,max_models,affine=None,engine='glucose4'):
+def run(shape,seconds,seed,output,max_models,affine=None,engine='glucose4',sl2_anchor=None,right_lex=False):
     G=affine_group(*affine) if affine else group(5)
-    solver,members,encoding=build_solver(G,shape,seed,engine)
+    solver,members,encoding=build_solver(G,shape,seed,engine,sl2_anchor,right_lex)
     started=time.monotonic()
     result={'group':G['name'],'affine_parameters':affine,'shape':shape,'seed':seed,
             'solver':engine,'encoding':encoding,
@@ -230,7 +263,9 @@ def run(shape,seconds,seed,output,max_models,affine=None,engine='glucose4'):
         if remaining<=0:
             result['status']='time-limit';break
         if engine=='cadical195':
-            solver.conf_budget(10000)
+            # A conflict budget is cooperative, not a hard wall-clock limit.
+            # Smaller batches avoid long unreported overruns on dense cases.
+            solver.conf_budget(500)
             solved=solver.solve_limited()
             if solved is None:
                 checkpoint()
@@ -290,7 +325,10 @@ if __name__=='__main__':
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--affine',type=int,nargs=2,metavar=('PRIME','INDEX'))
     parser.add_argument('--solver',choices=['glucose4','cadical195'],default='glucose4')
+    parser.add_argument('--sl2-anchor',choices=['central','unipotent','negative-unipotent','order4'])
+    parser.add_argument('--right-lex',action='store_true')
     args=parser.parse_args()
     if min(args.shape)<1 or max(args.shape)>120 or args.seconds<=0 or args.max_models<1:
         parser.error('invalid positive shape or limits')
-    run(args.shape,args.seconds,args.seed,args.output,args.max_models,args.affine,args.solver)
+    if args.affine and (args.sl2_anchor or args.right_lex):parser.error('SL2 symmetry options require SL2 source')
+    run(args.shape,args.seconds,args.seed,args.output,args.max_models,args.affine,args.solver,args.sl2_anchor,args.right_lex)

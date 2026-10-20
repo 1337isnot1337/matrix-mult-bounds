@@ -93,3 +93,14 @@ screen removes several affine cases that had only untraced SAT negatives.
 The abelian-coset ceiling lemma and exact normal-subgroup tables further
 strengthen discovery constraints; these restrictions do not constitute an
 exponent improvement.
+
+The [normal-subgroup Fourier proof](research/ai/2026-10-20-group-potentials/ternary_fourier_proof.md)
+excludes three four-point unique-sum sets in C3^4. Its elementary integer
+bound is 1232 versus the Parseval requirement 1088. This excludes the
+coordinate-potential (16,16,16) ansatz in index-four extensions of that group;
+it does not exclude arbitrary complex degeneration. The proof is unreviewed.
+
+An exact finite affine-source frontier leaves 58 conditional candidate shapes
+among 45 groups of order at most 250 with normal prime subgroup at most 61.
+New F4^3:C3 offset searches checked 426 pair-injective candidates, all rejected
+by exactly replayed Farkas circuits. No qualifying degeneration was found.

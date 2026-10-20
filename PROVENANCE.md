@@ -69,4 +69,11 @@ group-algebra application and exact frontier calculation were derived in this
 session, with no priority or independent-review claim. It supplies a separate
 written exclusion for cases that had only untraced SAT outcomes before.
 
+The later C3^4 Fourier obstruction and F4^3:C3 direction/offset searches are
+local AI-derived work. Fourier orthogonality and Parseval are standard;
+the companion proof supplies the all-set reduction and the code checks the
+integer spectrum and scalar inequalities. No priority or independent review
+is claimed. Finite-field operations label a finite group; the target field
+remains C. Replayed failed candidates do not establish an improved bound.
+
 An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.

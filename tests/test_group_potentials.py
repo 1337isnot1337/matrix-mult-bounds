@@ -19,6 +19,9 @@ import determinant_obstruction as determinant
 import verify_reports as verify
 import abelian_tables as tables
 import rank_locus_obstruction as rank_locus
+import symmetry_cnf as symmetry
+import ternary_fourier as ternary
+import quaternary_group as quaternary
 
 
 class GroupPotentialTests(unittest.TestCase):
@@ -180,6 +183,57 @@ class GroupPotentialTests(unittest.TestCase):
             k=row['low_rank_locus']['block_ranks']
             self.assertEqual(sum(d*x for d,x in zip(degrees,k)),row['low_rank_locus']['actual_regular_rank'])
             self.assertEqual(sum(x*(2*d-x) for d,x in zip(degrees,k)),row['low_rank_locus']['dimension'])
+
+    def test_guarded_lex_cnf_against_complete_boolean_enumeration(self):
+        from itertools import product
+        counter=[5]
+        def fresh():counter[0]+=1;return counter[0]
+        clauses=symmetry.lex_geq([1,2,3,4],[4,3,2,1],5,fresh)
+        for bits in product([False,True],repeat=5):
+            expected=(not bits[4]) or bits[:4]>=tuple(reversed(bits[:4]))
+            possible=False
+            for extra in product([False,True],repeat=counter[0]-5):
+                values=(False,)+bits+extra
+                if all(any(values[abs(lit)]==(lit>0) for lit in clause) for clause in clauses):
+                    possible=True;break
+            self.assertEqual(possible,expected)
+
+    def test_ternary_fourier_spectrum_and_scalar_certificates(self):
+        from itertools import product
+        saved=json.loads((RESULTS/'ternary_fourier_obstruction.json').read_text())
+        self.assertEqual(ternary.certificate(),saved)
+        # Independent character evaluation in Q(omega), omega^2=-omega-1.
+        spectrum={}
+        powers=[(1,0),(0,1),(-1,-1)]
+        for dual in product(range(3),repeat=4):
+            if not any(dual):continue
+            u,v=map(sum,zip(*(powers[e] for e in (0,*dual[:3]))))
+            norm=u*u-u*v+v*v
+            spectrum[norm]=spectrum.get(norm,0)+1
+        self.assertEqual(spectrum,{1:36,4:18,7:24,16:2})
+        self.assertGreater(saved['elementary_lower_bound'],saved['unique_sum_parseval_required'])
+        self.assertEqual(saved['stronger_lower_bound'],1682)
+
+    def test_quaternary_group_and_offset_certificates(self):
+        from itertools import product
+        G=quaternary.group()
+        self.assertEqual(len(G['matrices']),192)
+        for g in range(192):
+            self.assertEqual(G['mul'][g][G['inv'][g]],0)
+            self.assertEqual(G['mul'][G['inv'][g]][g],0)
+        for a,b,c in product(range(4),repeat=3):
+            self.assertEqual(quaternary.fm(a,quaternary.fm(b,c)),
+                             quaternary.fm(quaternary.fm(a,b),c))
+            self.assertEqual(quaternary.fm(a,b^c),quaternary.fm(a,b)^quaternary.fm(a,c))
+        counts=[]
+        for name in ['quaternary-fixed-planes-offsets.json','quaternary-one-shear-offsets.json']:
+            report=json.loads((RESULTS/name).read_text())
+            result=verify.verify_run(report)
+            counts.append(result['exact_cuts_replayed'])
+            broken=copy.deepcopy(report)
+            broken['cuts'][0]['offset_choice_cut'][0][2]^=1
+            with self.assertRaises(ValueError):verify.verify_run(broken)
+        self.assertEqual(counts,[167,259])
 
 
 if __name__=='__main__':unittest.main()
