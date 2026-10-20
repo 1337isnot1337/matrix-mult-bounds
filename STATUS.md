@@ -142,6 +142,17 @@ identifications of the shared block spaces. Exact coefficient matrices check
 The matrix-multiplication exponent remains unchanged. New constructions must
 pass these tests and still provide actual tensor identities.
 
+The [intermediate-weight slice covers](research/ai/2026-10-20-koszul/intermediate_weights.md)
+(AI-INTERMEDIATE-WEIGHT-COVERS-033) give exact source-cost constraints for
+constant matrices followed by the specified shared and monomial weights.
+For slopes alpha/beta tending to r in [1,2], the asymptotic source ratio is
+at least 2-r/2. At the balanced direction (2,1), the finite bound is
+B>=k*(N+floor(m/2))-(m-1). Thus the m=4,B=10k target is excluded for k>=2
+within this class, including the previous k>=53 finite-profile target.
+Single-copy m=4 and the growing-m balanced route remain open. The proof is
+written and unreviewed; exact covers and small independent matching checks
+validate finite cases without establishing an exponent improvement.
+
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
