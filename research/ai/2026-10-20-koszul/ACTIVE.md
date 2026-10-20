@@ -4,8 +4,9 @@ Goal active: prove an arithmetic exponent strictly below 9/4. No such bound
 has been established. The user directed continued work beyond checkpoints.
 
 Checkout `/home/cinna/matrix-mult-koszul-20261020`, branch
-`research/koszul-and-scaling-20261020`, draft PR 1. Preserve the two historical
-archives. Fetch the other branches before selecting a new substantial task.
+`research/intermediate-weights-20261020`. PR 1 was merged at `1c8b4f1` and its
+branch was removed locally and remotely. Preserve the two historical archives.
+Fetch the other branches before selecting a new substantial task.
 
 Current mathematical gap: construct C(m,B_m) -> T_(m,k_m) along an unbounded
 sequence of m with asymptotic overhead below 9/(7*cuberoot(2))-1. The precise
@@ -68,11 +69,21 @@ of `arbitrary_shared_basis.md`. Its first-stage blocks have no zero divisors,
 so the broadened catalecticant proof applies. Section 7 also excludes
 0<alpha<=beta by an explicit support cover for the X_0 slice. Ten completed
 floating fits are retained as diagnostics, with no exact certificate.
-Do not rerun either excluded region. Remaining graded directions include
-(alpha,beta)=(2,1) at m=4 (equivalent by coefficient reversal to (1,-1)).
+Do not rerun either excluded region. The subsequent exact covers in
+`intermediate_weights.md` give asymptotic overhead at least 2-alpha/(2*beta)
+for beta<=alpha<=2*beta. The balanced (2,1) direction requires
+B>=k*(N+floor(m/2))-(m-1); it excludes the m=4,B=10k target for k>=2,
+including the previously selected k>=53 target, but leaves k=1 open.
 The scalar worker already owns mixed-direction numerical fitting; avoid
 duplicating its completed runs. Our next question is an analytic condition
-on these intermediate slopes or on arbitrary singular shared maps.
+on the remaining larger slopes or on arbitrary singular shared maps.
+
+The next finite construction model is m=4,B=10,(alpha,beta)=(5,2), with a
+nonaffine shared permutation and arbitrary constant dense P,Q. This differs
+from the completed scalar-worker directions and the product worker's Y
+coordinate injection model. An exact coefficient witness is required; a
+bounded numerical fit is discovery only. A finite m=4,k=1 construction would
+still not establish the unbounded family or an exponent improvement.
 
 Other agents own full/off-leading Clebsch--Gordan and truncated-algebra source
 searches (`f6f307c`) and the group-potential search (`f7aa680`). The scalar
