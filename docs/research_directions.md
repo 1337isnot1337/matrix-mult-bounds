@@ -83,6 +83,12 @@ all-power coordinate matrix-extraction method is also excluded at a=5 by
 an entropy refinement; repeating that class at these diagonals cannot
 supply the finite gain.
 
+A [smaller sufficient target](../research/ai/2026-10-20-koszul/cyclic_finite_target.md)
+is A_4 to M(10,10,11), where A_4 has leg dimension 112. The minimum-slice-rank
+proof excludes all constant linear maps, so a construction needs a singular
+limit as well as input mixing. At a=5, four improving single-matrix shapes
+still pass the maintained constant-map screens; none is constructed.
+
 ## R5: Compare external formulations before duplicating work
 
 Status: open synthesis task. Compare the spectral route, the block-identities route, and the polynomial-separation improvement. Identify precisely which constraints survive symmetrization and which information the scalar relaxation discards.
