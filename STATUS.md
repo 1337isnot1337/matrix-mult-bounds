@@ -112,6 +112,10 @@ all 1,394 saved parity circuits replay using integer group arithmetic.
 No candidate has reached a full degeneration witness. Ten focused controls
 check the source, subgroup normalization, lift equations against exhaustive
 small sign choices, certificate tampering and the cyclic-eight fiber rule.
+The fiber-strengthened run separately rejected 149 candidates by replayed
+circuits. Verified small parity cores can now be reused across independent
+right translations and set permutations, with source hashes and explicit
+occurrence clauses. These finite rejections are not a complete exclusion.
 
 ## Second-pass checkpoint
 

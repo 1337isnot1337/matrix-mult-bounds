@@ -41,3 +41,14 @@ circuits. The two center-pruned direct variants also timed out without a
 pair-injective model. None supplies a degeneration or a nonexistence proof.
 The fiber-strengthened projection encoding is a further bounded experiment;
 it adds abelian-preimage occupancy clauses and the center-free C8 rule.
+
+That fiber run has now finished: 149 projected candidates all fail exact lift
+equations, and all circuits replay. The next run reuses verified circuits
+and their independent right-translation orbits; its source hashes and exact
+template counts are recorded by the search. No running report is committed
+as a completed result.
+
+The external [ordinary TPP screen](ordinary_tpp_screen.md) excludes unweighted
+triples of this shape by the published representation-theoretic bound. It
+does not exclude the weighted degeneration search. A successful witness must
+use its positive weights to delete unwanted terms.
