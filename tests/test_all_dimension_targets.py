@@ -54,13 +54,14 @@ class AllDimensionTests(unittest.TestCase):
 
     def test_integral_and_threshold(self):
         x, d = sp.symbols("x d", positive=True)
-        integral = 2 * sp.integrate(x ** (d - 1) * (1 - x / 2), (x, 0, sp.Rational(1, 2)))
-        expected = 2 ** (-d - 1) * (3 * d + 4) / (d * (d + 1))
+        integral = 2 * sp.integrate(x ** (d - 1) * (1 + (2 / d - 2) * x),
+                                    (x, 0, sp.Rational(1, 2)))
+        expected = 2 ** (2 - d) / (d * (d + 1))
         self.assertEqual(sp.simplify(integral - expected), 0)
-        q = 8 * expected / (3 * d)
+        q = 2 * expected
         self.assertEqual(sp.simplify(q.subs(d, sp.Rational(4, 3)) ** 3), sp.Rational(729, 686))
-        self.assertGreater(Fraction(3, 1) / Fraction(13423, 10000), Fraction(2))
-        self.assertLess(Fraction(3, 1) / Fraction(13423, 10000), Fraction(9, 4))
+        self.assertGreater(Fraction(3, 1) / Fraction(168, 125), Fraction(2))
+        self.assertLess(Fraction(3, 1) / Fraction(168, 125), Fraction(9, 4))
 
 
 if __name__ == "__main__":

@@ -19,7 +19,9 @@ explicit border-rank certificates, survival of all full-space Koszul tests,
 an all-size coordinate-weight obstruction, and a quantitative implication
 from an **unconstructed** convolution degeneration. Less than 2.04721048 percent
 asymptotic source overhead would suffice. Zero overhead would conditionally
-give omega<=30000/13423, but no such source degeneration is established.
+give omega<=125/56, but no such source degeneration is established.
+The stronger limiting-slope bound is adopted from the concurrent `cf79709`
+proof, with the overlap and joint-sequence quantifiers reconciled in the note.
 
 [Source obstructions](source_obstructions.md) rule out low-overhead ordinary
 linear restrictions and shared-coefficient-preserving degenerations with

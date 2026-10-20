@@ -89,9 +89,10 @@
     {
       "id": "AI-ALL-DIMENSION-CRITERION-023",
       "status": "conditional-implication",
-      "statement": "An unbounded sequence of the specified convolution degenerations with asymptotic overhead below 9/(7*cuberoot(2))-1 implies omega<9/4; zero overhead implies omega<=30000/13423.",
+      "statement": "An unbounded sequence of the specified convolution degenerations with asymptotic overhead below 9/(7*cuberoot(2))-1 implies omega<9/4; zero overhead implies omega<=125/56.",
       "evidence": "all_dimension_targets.md, Section 4",
-      "limitations": "The source-degeneration premise H(rho) is unproved; no new exponent is established."
+      "limitations": "The source-degeneration premise H(rho) is unproved; no new exponent is established.",
+      "attribution": "The stronger limiting-slope estimate is adopted from concurrent commit cf79709; this note verifies it for the single joint-sequence H(rho) premise."
     },
     {
       "id": "AI-LINEAR-SOURCE-OBSTRUCTION-024",

@@ -87,9 +87,9 @@ def gap_check(m, k):
 
 
 def exact_conditional_exponent():
-    a, b = 13423, 10000
-    lhs = (1 << (2 * b - a)) * (b * b * (3 * a + 4 * b)) ** b
-    rhs = (3 * a * a * (a + b)) ** b
+    a, b = 168, 125
+    lhs = (1 << (3 * b)) * (b * b) ** b
+    rhs = (1 << a) * (a * (a + b)) ** b
     assert lhs > rhs
     return {"premise": "H(1), the unconstructed sequence of source degenerations",
             "d_lower_bound": str(Fraction(a, b)),

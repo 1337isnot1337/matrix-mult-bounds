@@ -168,12 +168,19 @@ let d_rho>4/3 be the unique positive solution of
 
 \[
 Q(d_\rho)=\rho,\qquad
-Q(d)=\frac{2^{2-d}(3d+4)}{3d^2(d+1)}. \tag{8}
+Q(d)=\frac{8}{d(d+1)2^d}. \tag{8}
 \]
 
 **Conditional theorem.** H(rho) implies omega<=3/d_rho<9/4. In particular,
-H(1) implies omega<=2.234845837...; an exact, slightly weaker consequence is
-omega<=30000/13423=2.234969828... . These are conditional conclusions only.
+H(1) implies omega<=2.231837587...; an exact, slightly weaker consequence is
+omega<=125/56=2.232142857... . These are conditional conclusions only.
+
+The improved limiting-slope estimate is attributed to the concurrent agent's
+[cf79709](https://github.com/1337isnot1337/matrix-mult-bounds/commit/cf79709).
+It strengthens our earlier tangent-based estimate at `292ba18`. The argument
+below also verifies it for the single joint sequence (7), without requiring a
+separate k-to-infinity construction at every fixed m. This reconciliation is
+not another independent discovery of the common critical cost threshold.
 
 **Proof.** Use the actual symmetrized profile P and rescaled profile F from
 [the analytic bridge](scaling_rigidity.md), and put d=1/t. The external baseline
@@ -193,25 +200,21 @@ one, to obtain the symmetrized sum (9). Thus no additivity of P on a shared-leg
 sum is assumed.
 
 Replication and the rescaling limit give P(a,b)<=F(a,b) for every integer pair.
-Put f(s)=F(1,s), c=f(1)>0. Symmetry, homogeneity and one-sided concavity give
-f'_+(1)<=dc/2, hence
+Put f(s)=F(1,s), c=f(1)>0, and L=lim_{s->infinity} f(s)/s. Concavity makes L
+finite. Iterated tripling at 1, followed by concavity between the resulting
+points, gives f(s)>=(2c/3)(s+1/2) for s>=1, so L>0. Every secant slope is at
+least L. Symmetry and one-sided concavity give
 
 \[
-F(m,B_m)\le c m^d\left(1+\frac d2(B_m/m-1)\right). \tag{10}
+L\le f'_+(1)\le dc/2,\qquad
+f(s)\ge c+L(s-1)\ge L(s+2/d-1). \tag{10}
 \]
 
-Here B_m>=k_m N by the Y flattening, so B_m/m>=1. Iterating tripling at 1
-gives f((3^{j+1}-1)/2)>=3^j c. Concavity between these consecutive points gives
+By symmetry and homogeneity this becomes
 
 \[
-f(s)\ge\frac{2c}{3}(s+1/2)\quad(s\ge1).
-\]
-
-By symmetry and homogeneity,
-
-\[
-F(x,y)\ge\frac{2c}{3}\min(x,y)^{d-1}
-                         (\max(x,y)+\min(x,y)/2). \tag{11}
+F(x,y)\ge L\min(x,y)^{d-1}
+                         (\max(x,y)+(2/d-1)\min(x,y)). \tag{11}
 \]
 
 The rescaling limit and Fatou's lemma, applied to the nonnegative step function
@@ -220,39 +223,47 @@ with value m^{-d}P(u,m+1-u) on ((u-1)/m,u/m], show
 \[
 \liminf\frac{\sum_{u=1}^m P(u,m+1-u)}{m^{d+1}}
 \ge\int_0^1 F(x,1-x)\,dx
-\ge\frac{2c}{3}J(d),
+\ge L J(d),
 \]
 
 where the pointwise limit on 0<x<1 follows by monotonicity and the continuous
 rescaling limit, and
 
 \[
-J(d)=2\int_0^{1/2}x^{d-1}(1-x/2)\,dx
-=\frac{2^{-d-1}(3d+4)}{d(d+1)}.
+J(d)=2\int_0^{1/2}x^{d-1}(1+(2/d-2)x)\,dx
+=\frac{2^{2-d}}{d(d+1)}.
 \]
 
-Divide (9)-(10) by k_m m^{d+1} and take limits using (7). This yields
-rho dc/4 >= (2c/3)J(d), or rho>=Q(d). The function Q is strictly decreasing:
+The Y flattening gives B_m>=k_m N, so B_m/m tends to infinity even when k_m
+stays bounded. By homogeneity and the definition of L,
 
 \[
-(\log Q)'=-\log2+\frac3{3d+4}-\frac2d-\frac1{d+1}<0.
+\frac{P(m,B_m)}{k_m m^{d+1}}
+\le\frac{B_m}{k_m m^2}\frac{f(B_m/m)}{B_m/m},
+\qquad\limsup\frac{P(m,B_m)}{k_m m^{d+1}}\le\frac{\rho L}{2}.
 \]
 
-Also Q(4/3)=rho_c and Q(3/2)=68 sqrt(2)/135<1, so 4/3<d_rho<3/2 for the stated
+Divide (9) by k_m m^{d+1} and combine these bounds to get rho L/2>=L J(d),
+or rho>=Q(d). The function Q is strictly decreasing:
+
+\[
+(\log Q)'=-\log2-\frac1d-\frac1{d+1}<0.
+\]
+
+Also Q(4/3)=rho_c and Q(3/2)=8 sqrt(2)/15<1, so 4/3<d_rho<3/2 for the stated
 rho range. Every relevant character has d>=d_rho. The external detecting-
 character/spectral argument therefore gives omega<=3/d_rho, in the same exact
 complex division-free arithmetic model and with the usual arbitrary epsilon
 in the running-time exponent.
 
 For the rational consequence at rho=1, the verifier proves Q(a/b)>1 with
-a=13423, b=10000 by the integer comparison
+a=168, b=125 by the integer comparison
 
 \[
-2^{2b-a}\bigl(b^2(3a+4b)\bigr)^b
->\bigl(3a^2(a+b)\bigr)^b.
+2^{3b}(b^2)^b>2^a\bigl(a(a+b)\bigr)^b.
 \]
 
-Thus d_1>13423/10000, yielding the displayed rational exponent. The decimal
+Thus d_1>168/125, yielding the displayed rational exponent. The decimal
 root is descriptive, not the acceptance certificate. This proves the
 conditional implication, not its premise. In fact, (5) excludes H(rho) for
 rho<3/2 within the specified coordinate-weight ansatz.

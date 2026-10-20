@@ -82,7 +82,7 @@ now provides explicit targets T_m of dimensions (m,N,N), N=m(m+1)/2,
 with border rank N and an all-size full-space Koszul survival proof. A source
 degeneration C(m,B_m) to repeated copies, at asymptotic overhead below
 9/(7*cuberoot(2))-1, would imply a smaller exponent. At zero overhead the
-proved **conditional** implication gives omega<=30000/13423. The source
+proved **conditional** implication gives omega<=125/56. The source
 degenerations are unconstructed. Coordinate selection and diagonal weights
 require asymptotically 50 percent overhead, so that ansatz cannot meet the
 criterion. Exact replay covers 20,153 interpolation coefficients, 3,276
