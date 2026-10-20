@@ -160,6 +160,23 @@ Single-copy m=4 and the growing-m balanced route remain open. The proof is
 written and unreviewed; exact covers and small independent matching checks
 validate finite cases without establishing an exponent improvement.
 
+The [finite amplitude criterion](research/ai/2026-10-20-koszul/finite_amplitude.md)
+(AI-FINITE-AMPLITUDE-CRITERION-034) offers a separate target: a universal
+13/12 improvement over P_*(4,4) for near-endpoint characters would imply
+omega<=2.249. **That finite lower bound is unproved.** An exact integer
+certificate checks the conditional implication only. The accompanying
+dimension screen (AI-MATRIX-EXTRACTION-DIMENSION-035) closes the analogous
+direct-sum matrix-product extraction method for symmetrized C(a,a) at
+a=2,3; a=4 survives the screen. Eleven retained floating permutation fits
+in a different construction class supplied no exact witness.
+The concrete finite alternative is to degenerate the product of all six
+leg permutations of C(4,4) to M(106,106,106). That unconstructed target
+would also imply omega<=2.249. The source/target leg dimensions pass, but
+the group worker's abelian opposite-relation argument excludes coordinate
+maps with diagonal weights. A Holder bound also excludes all-power
+coordinate extractions into independent matrix products at this diagonal
+(AI-COORDINATE-MATRIX-EXTRACTION-037). General linear cancellation remains open.
+
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search

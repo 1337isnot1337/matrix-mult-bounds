@@ -167,6 +167,37 @@
       "statement": "Exact slice covers give asymptotic source ratio at least 2-r/2 when alpha/beta tends to r in [1,2]. The balanced (2,1) direction requires B>=k*(N+floor(m/2))-(m-1), excluding m=4,B=10k for k>=2.",
       "evidence": "intermediate_weights.md; ../../../results/koszul-2026-10-20/weight_slice_covers.json; tests/test_weight_slice_covers.py",
       "limitations": "Constant P,Q,G followed by the specified weights only. The single-copy balanced m=4 case, its growing-m analogue, larger intermediate slopes and general Laurent maps are not excluded. No exponent improvement is established."
+    },
+    {
+      "id": "AI-FINITE-AMPLITUDE-CRITERION-034",
+      "status": "conditional-implication",
+      "statement": "Existing tripling and two-sector constructions imply 6P(a,a)<=(6a-2)^(1/t). Either the stated universal near-endpoint lower bound P(4,4)>=5005/486, or a degeneration of the product of all six leg permutations of C(4,4) to M(106,106,106), implies omega<=2249/1000 with exact integer certificates.",
+      "evidence": "finite_amplitude.md, Sections 1-2; ../../../results/koszul-2026-10-20/finite_amplitude.json",
+      "limitations": "The new universal profile lower bound is unproved and the M(106,106,106) degeneration is unconstructed. The displayed smaller exponent is conditional and not established.",
+      "attribution": "Combines OpenAI's shifted tripling and detection with the concurrent two-sector construction at f6f307c."
+    },
+    {
+      "id": "AI-MATRIX-EXTRACTION-DIMENSION-035",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "At an endpoint character, extracting independent matrix products from any power of the fully symmetrized C(a,a) can force a profile lower bound no greater than sqrt(a*a*(2a-1)). This cannot cross the finite endpoint ceiling for a=1,2,3; a=4 is the first diagonal not excluded by the screen.",
+      "evidence": "finite_amplitude.md, Section 3; tests/test_finite_amplitude.py",
+      "limitations": "Only this source and direct-sum matrix targets without extra source tensors are covered. No surviving extraction or exponent improvement is constructed.",
+      "dependencies": ["Uznański arXiv:2610.10494v2 Proposition 5.2", "Elementary Holder and flattening-rank bounds"]
+    },
+    {
+      "id": "EXP-INTERMEDIATE-PERMUTATIONS-036",
+      "status": "bounded-floating-exploration",
+      "statement": "Eleven nonaffine shared permutations at m=4,B=10,direction (5,2) completed 600-evaluation fits each. No exact witness was obtained; saved full-tensor diagnostics do not show a small tensor error.",
+      "evidence": "permutation_probe.md; ../../../results/koszul-2026-10-20/intermediate-permutations/summary.json",
+      "limitations": "Floating fits and sampled epsilon errors are neither exact certificates nor impossibility proofs."
+    },
+    {
+      "id": "AI-COORDINATE-MATRIX-EXTRACTION-037",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For powers of the fully symmetrized C(a,a), coordinate injections and diagonal weights into independent matrix products can force a profile lower bound no greater than (a^8*(2a-1)^5)^(1/9). At a=4 this is below the finite endpoint ceiling, excluding that route at every power; a single square target is at most M49.",
+      "evidence": "finite_amplitude.md, Section 5; tests/test_finite_amplitude.py",
+      "limitations": "General linear combinations and cancellations are not covered. This is a limitation on the extraction method, not an upper bound on the actual character profile or an exponent result.",
+      "attribution": "Applies the abelian opposite-relation argument of concurrent dcfc1ef, with explicit label factorization, group embedding, and Holder dimension accounting."
     }
   ]
 }
