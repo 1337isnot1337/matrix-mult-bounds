@@ -11,7 +11,7 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 ## R2: Decide compatibility with the product-filtration family
 
 Status: settled for the three stated two-source, fixed-label families by
-[AI-FILTRATION-007](../research/ai/2026-10-20-filtration/research_note.md).
+[AI-FILTRATION-007](../research/ai/2026-10-20-concavity-equivalence/research_note.md).
 They are equivalent to separate concavity including the zero boundary for
 positive, symmetric, edge-normalized profiles. The matching profile satisfies
 them at all positive integer sizes. Actual character profiles already have
@@ -37,6 +37,14 @@ The initial monomial search omits arbitrary basis changes and uses weak estimate
 ## R4: Establish a uniform gain or an alternative growth mechanism
 
 Status: open. The target $P(a,4a-1)\ge(3+\eta)P(a,a)$ with a character-independent $\eta>0$ is sufficient for improvement. It is not necessary, and it is not proved.
+
+The [completed scaling and rigidity argument](../research/ai/2026-10-20-concavity-equivalence/homogeneous_rigidity.md)
+now supplies the earlier curvature draft's analytic bridge from replication,
+rank and concavity. No differentiability assumption is needed. An endpoint
+character must have limiting shape
+`K min(x,y)^(1/3)(max(x,y)+min(x,y)/2)` for some `K>0`.
+Find a new asymptotic tensor constraint excluding every such amplitude, or
+prove a positive normalized curvature gain. Neither is currently proved.
 
 A proposed solution must state its quantifiers and scale propagation. A single-size gain, a larger prefactor, or a character-dependent gain tending to zero does not establish the displayed uniform conclusion.
 

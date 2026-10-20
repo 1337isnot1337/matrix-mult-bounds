@@ -35,8 +35,8 @@ It proves compatibility of the matching profile for all sizes. The written
 argument is unreviewed; no exponent improvement is established.
 
 ```sh
-python research/ai/2026-10-20-filtration/verify.py \
-  --output results/filtration-2026-10-20/verification.json
+python research/ai/2026-10-20-concavity-equivalence/verify.py \
+  --output results/concavity-equivalence-2026-10-20/verification.json
 ```
 
 The result closes R2 for these families and is tracked as AI-FILTRATION-007.
@@ -50,3 +50,24 @@ can differentiability be removed? Uznański v2 already proves rescaling for
 oriented profiles (Lemma 4.1); this pass will attribute that prior result and
 give a self-contained scalar argument tied to the local hypotheses. A positive
 curvature gain remains a separate, unproved tensor question.
+
+The follow-up is written in [homogeneous_rigidity.md](homogeneous_rigidity.md).
+It supplies a direct scalar limit proof, one-sided derivatives, the critical
+shape and conditional curvature bound. A compactness argument explains why
+excluding all endpoint characters would imply some strict improvement. No
+positive gain or endpoint exclusion is proved.
+
+## Concurrent work and integration
+
+A later fetch found `research/product-filtration-20261020` at `712c91a` and
+the updated Koszul branch at `30219d0`, with overlapping compatibility and
+rigidity conclusions. The notes cite these commits and distinguish the extra
+equivalence, boundary counterexample, scalar limit proof, and compactness
+argument. The full-filtration entropy branch at `f5b42e1` studies a different
+analytic score and reports an additional balanced-family barrier. These are
+concurrent AI-derived reports, not independent reviews.
+
+This directory and its results were renamed to avoid colliding with the other
+filtration worker's files. Shared status/ledger edits still need ordinary
+integration when the branches are combined. No other worker's checkout was
+modified.

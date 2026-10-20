@@ -26,8 +26,8 @@ The current next steps are listed in [research directions](docs/research_directi
 
 ## All-size product-filtration result
 
-[Written proof](research/ai/2026-10-20-filtration/research_note.md) |
-[Exact proof-chain checks](results/filtration-2026-10-20/verification.json)
+[Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
+[Exact proof-chain checks](results/concavity-equivalence-2026-10-20/verification.json)
 
 AI-FILTRATION-007 settles R2 for the three fixed-label two-source families:
 for every positive, symmetric profile with `F(1,b)=b`, those families are
@@ -42,6 +42,31 @@ plus 4,860 inequalities at six larger or unequal sources. This rules out an
 improvement based only on adding these families to the matching-profile
 relaxation; it does not exclude coupled-fiber or oriented tensor constructions.
 The exponent remains unchanged.
+
+## Scaling and critical-shape bridge
+
+[Analytic argument](research/ai/2026-10-20-concavity-equivalence/homogeneous_rigidity.md)
+completes the second-pass draft under the stated replication and rank
+assumptions. AI-HOMOGENEOUS-008 gives the full homogeneous limit and forces
+the displayed unique shape, up to amplitude, at `t=3/4`, without assuming
+differentiability. The diagonal derivatives agree as a conclusion at equality.
+Uznański's earlier oriented rescaling is explicitly attributed.
+
+AI-CURVATURE-009 proves the conditional criterion
+`omega <= 9/(4(1+delta_0))` if the normalized limiting curvature is at least
+the same positive `delta_0` for every relevant character. The limit and
+derivative bridge are supplied; **the positive curvature premise remains
+unproved**. Compactness also explains why excluding every endpoint character
+would suffice for some strict, potentially nonnumerical improvement. No such
+exclusion or smaller exponent is established. These written arguments have
+no independent review or Lean formalization.
+
+Concurrent reports at `712c91a` (fixed-label compatibility) and `30219d0`
+(actual-character rigidity/curvature) overlap these conclusions and are
+explicitly credited in the notes. Additional content here includes the
+filtration converse and boundary counterexample, direct scalar limit proof,
+and compactness consequence. These overlapping conclusions are not counted
+as independent new advances or independent review.
 
 ## Second-pass checkpoint
 

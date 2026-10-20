@@ -18,6 +18,18 @@ inequalities (11)-(12) of the first-pass note. It does not exclude extracting
 several label fibers together, using oriented character data, or using tensor
 identities outside this family. It is not a lower bound on matrix multiplication.
 
+## Concurrent overlap found during the investigation
+
+A later fetch found the parallel compatibility proof at
+[`712c91a`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/712c91a)
+on `research/product-filtration-20261020`. Its proof also uses Jensen, with
+subadditivity rather than the endpoint log-concavity lemma below. Both notes
+reach the same compatibility conclusion. This note additionally proves the
+converse and thus the equivalence, and supplies the boundary counterexample
+and elementary restriction for actual characters. No priority or independent
+review credit is claimed. Files were moved to a distinct directory after
+discovering the concurrent path collision.
+
 ## 1. Precise theorem
 
 Let `F` be a positive function on pairs of positive integers with

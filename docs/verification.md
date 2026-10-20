@@ -54,20 +54,31 @@ regressions also check the necessary zero boundary, other normalized concave
 profiles, and the elementary dot-product restriction in coefficients.
 
 ```sh
-python research/ai/2026-10-20-filtration/verify.py \
-  --output results/filtration-2026-10-20/verification.json
+python research/ai/2026-10-20-concavity-equivalence/verify.py \
+  --output results/concavity-equivalence-2026-10-20/verification.json
 python -m unittest discover -s tests -p test_filtration.py -v
 ```
 
 The recorded run uses Python 3.14.8. It covers 1,296 grid sources, 11,808
 filtration inequalities and 5,184 intermediate bounds, plus six stress sources
-with 4,860 inequalities. The [written proof](../research/ai/2026-10-20-filtration/research_note.md)
+with 4,860 inequalities. The [written proof](../research/ai/2026-10-20-concavity-equivalence/research_note.md)
 establishes the all-size result; enumeration is not a replacement for its
 argument. No independent review or Lean build is recorded.
 
 The complete suite passed all 40 tests in the existing project virtual
 environment (Python 3.14.8, SymPy 1.14.0). The five archived experiments also
 replayed successfully and all ten manifest hashes matched before and after.
-Receipts are under `results/filtration-2026-10-20/`. The first system-Python
+Receipts are under `results/concavity-equivalence-2026-10-20/`. The first system-Python
 attempt failed because SymPy was absent; its test log is retained separately.
 That dependency failure was resolved by using the existing virtual environment.
+
+The follow-up analytic note has four exact symbolic/rational controls for an
+actual flattening character, the critical shape, and the conditional fraction.
+The initial control run compared two identical SymPy expressions structurally
+and failed; the test now simplifies their difference before comparing to zero.
+Both the initial failure and corrected result are retained. Those controls do
+not prove the analytic limit, endpoint rigidity, or the uniform gain premise.
+
+After the follow-up and path reconciliation, the full suite passed 44 tests
+in the same virtual environment. The archived programs were not edited after
+their successful replay; no redundant second full archive replay was run.

@@ -7,7 +7,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location(
-    'filtration', ROOT/'research/ai/2026-10-20-filtration/verify.py')
+    'filtration', ROOT/'research/ai/2026-10-20-concavity-equivalence/verify.py')
 filtration = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(filtration)
 

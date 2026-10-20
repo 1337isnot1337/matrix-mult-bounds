@@ -14,7 +14,8 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Attribution and provenance](PROVENANCE.md)
 - [Koszul obstruction and mixed-sector research](research/ai/2026-10-20-koszul/research_note.md)
 - [Agent-board findings and checked finite-rank correction](docs/agent_board_review.md)
-- [All-size characterization of the product-filtration inequalities](research/ai/2026-10-20-filtration/research_note.md)
+- [All-size characterization of the product-filtration inequalities](research/ai/2026-10-20-concavity-equivalence/research_note.md)
+- [Replication-to-rigidity bridge and a conditional curvature test](research/ai/2026-10-20-concavity-equivalence/homogeneous_rigidity.md)
 
 The field map is a curated starting point, not an exhaustive survey. Its source snapshot is **October 20, 2026**.
 

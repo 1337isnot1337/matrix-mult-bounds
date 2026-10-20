@@ -50,10 +50,17 @@ Its formulas are local rederivations using standard Koszul flattenings and
 polynomial interpolation, with no historical priority or independent review
 claim. The original archives remain byte-for-byte preserved.
 
-The `research/ai/2026-10-20-filtration/` investigation begins at `5d831b4`
+The `research/ai/2026-10-20-concavity-equivalence/` investigation begins at `5d831b4`
 in an owned worktree. It supplies an AI-derived all-size characterization of
 the previously proposed product-filtration inequalities using standard
 concavity and Jensen arguments. The proof is written and unreviewed; the exact
 checks are finite evidence. OpenAI's theorem, character rules, and shared-leg
 construction remain external dependencies, and no exponent improvement is
 attributed to this pass.
+
+Its follow-up note completes the local homogeneous-limit and curvature drafts
+without assuming differentiability. Uznański v2 already establishes oriented
+rescaling; the note attributes that prior work and uses the external
+replication construction. The local scalar proof, endpoint rigidity and
+conditional criterion remain unreviewed. No positive curvature or character
+exclusion is claimed.

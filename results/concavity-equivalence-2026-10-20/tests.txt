@@ -7,6 +7,10 @@ test_elementary_restriction_coefficients (test_filtration.FiltrationTests.test_e
 test_other_profiles_use_same_proof_chain (test_filtration.FiltrationTests.test_other_profiles_use_same_proof_chain) ... ok
 test_profile_against_independent_closed_product (test_filtration.FiltrationTests.test_profile_against_independent_closed_product) ... ok
 test_zero_boundary_and_concavity (test_filtration.FiltrationTests.test_zero_boundary_and_concavity) ... ok
+test_actual_flattening_character_scaling (test_homogeneous.HomogeneousControls.test_actual_flattening_character_scaling) ... ok
+test_conditional_exponent_example (test_homogeneous.HomogeneousControls.test_conditional_exponent_example) ... ok
+test_critical_shape_and_diagonal_join (test_homogeneous.HomogeneousControls.test_critical_shape_and_diagonal_join) ... ok
+test_flattening_character_curvature_bound (test_homogeneous.HomogeneousControls.test_flattening_character_curvature_bound) ... ok
 test_archive_audit (test_koszul.KoszulTests.test_archive_audit) ... ok
 test_formulas_against_exact_coefficient_matrices (test_koszul.KoszulTests.test_formulas_against_exact_coefficient_matrices) ... ok
 test_invalid_dimensions (test_koszul.KoszulTests.test_invalid_dimensions) ... ok
@@ -40,6 +44,6 @@ test_small_candidate (test_session2_checkpoint.CheckpointTests.test_small_candid
 test_tensor_replay (test_session2_checkpoint.CheckpointTests.test_tensor_replay) ... ok
 
 ----------------------------------------------------------------------
-Ran 40 tests in 37.337s
+Ran 44 tests in 59.665s
 
 OK
