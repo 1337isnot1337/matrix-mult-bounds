@@ -1,13 +1,13 @@
 {
-  "base_main": "71e836e",
+  "base_main": "42bc17a",
   "exact_environment": {
     "python": "3.12.3",
     "sympy": "1.14.0"
   },
   "unit_tests": {
-    "count": 201,
+    "count": 208,
     "passed": true,
-    "log": "results/singular-flags-2026-10-20/tests-main-71e836e.txt"
+    "log": "results/singular-flags-2026-10-20/tests-after-42bc17a.txt"
   },
   "archive_replay": {
     "passed": true,
@@ -19,5 +19,13 @@
   "claim_ids": [
     "AI-POLYNOMIAL-FLAGS-001",
     "EXP-SINGULAR-FLAGS-002"
-  ]
+  ],
+  "previous_validation": {
+    "base_main": "71e836e",
+    "unit_tests": {
+      "count": 201,
+      "passed": true,
+      "log": "results/singular-flags-2026-10-20/tests-main-71e836e.txt"
+    }
+  }
 }
