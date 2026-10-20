@@ -23,6 +23,7 @@ checks = load("check")
 collision = load("collision_search")
 combinatorics = load("collision_combinatorics")
 quantitative = load("quantitative_capacity")
+laurent = load("laurent_coordinates")
 
 
 class MixedRestrictionTests(unittest.TestCase):
@@ -140,6 +141,40 @@ class MixedRestrictionTests(unittest.TestCase):
                     for r in range(q+1) for a in range(u)])
                 actual += matrix.rank()
             self.assertGreaterEqual(actual, quantitative.projected_target_formula(m, ell, p0, q))
+
+    def test_laurent_output_exact_control(self):
+        witness = json.loads((RESULTS / 'laurent-m3-control.json').read_text())
+        actual = laurent.verify(witness)
+        self.assertEqual(actual, witness['verification'])
+        self.assertEqual(actual['coefficients_checked'], 108)
+        self.assertEqual(actual['retained_terms'], 10)
+        self.assertEqual(actual['active_output_excess'], 1)
+
+    def test_laurent_control_reaches_nonarithmetic_shared_weights(self):
+        witness = json.loads((RESULTS / 'laurent-m3-control.json').read_text())
+        wx = witness['input_weights']['x']
+        self.assertNotEqual(wx[2]-wx[1], wx[1]-wx[0])
+        self.assertEqual(witness['output_rows'][2], [[4, 0], [7, -4]])
+
+    def test_laurent_wrong_entry_valuation_rejected(self):
+        witness = json.loads((RESULTS / 'laurent-m3-control.json').read_text())
+        witness['output_rows'][2][1][1] += 1
+        with self.assertRaises(ArithmeticError):
+            laurent.verify(witness)
+
+    def test_joint_word_run_bound(self):
+        alphabet = [(0, 0), (0, 1), (1, 0), (1, 1)]
+        for n in range(1, 7):
+            for word in product(alphabet, repeat=n):
+                longest = quantitative.longest_constant_run(word)
+                self.assertGreaterEqual(combinatorics.word_defect(word), (n-longest)**2//4)
+
+    def test_joint_word_matches_control_capacity(self):
+        witness = json.loads((RESULTS / 'laurent-m3-control.json').read_text())
+        x, w = witness['source_x_indices'], witness['input_weights']['x']
+        joint = [(x[i+1]-x[i], w[i+1]-w[i]) for i in range(len(x)-1)]
+        self.assertEqual(combinatorics.word_defect(joint), 1)
+        self.assertEqual(laurent.verify(witness)['active_output_excess'], 1)
 
 
 if __name__ == "__main__":
