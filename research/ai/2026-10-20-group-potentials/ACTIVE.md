@@ -125,8 +125,10 @@ smallest circuit verify exactly; their hole-hitting SAT run timed out.
 `test_group_streams.py` adds six passing local tests (integer backtracking
 against small brute force, field/group laws, sparse-circuit replay, full
 stream verification, actual group-operation normalization and frontier
-controls). The previous full suite had 49 passes; rerun the expanded full
-suite after the next checkpoint. No hosted CI pass is implied.
+controls). The expanded full suite passes all 55 tests. The first 30
+normalized direction classes returned untraced SAT UNSAT; eleven discovered
+models have exact circuits. These are experiments, not certified all-class
+exclusions. No hosted CI pass is implied.
 
 Latest fetched other-worker tips: Koszul `8e0a766`, compatibility `0108d62`,
 product filtration `2c76b59`. The live leaderboard still shows 9/4. Continue
