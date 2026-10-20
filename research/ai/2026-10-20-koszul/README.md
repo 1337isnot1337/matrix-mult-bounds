@@ -38,6 +38,12 @@ two-row enumeration excludes nonidentity orders through m=38; independent
 small enumeration and exact normalized witnesses validate the implementation.
 The finite range is explicit and the general shared-factor problem remains open.
 
+The subsequent [arbitrary shared-basis proof](arbitrary_shared_basis.md)
+extends the catalecticant obstruction to every constant invertible shared
+basis, by bounding the derivative spaces of a biform with invertible
+coefficient matrix. This also excludes the concurrent constant-G graded
+ansatz at low overhead. Genuinely singular shared maps remain the gap.
+
 ## Next mathematical question
 
 Continuation selected after fetching the other research branches on October 20:
@@ -65,8 +71,8 @@ limiting-slope estimate and the minimum-slice restriction obstruction.
 
 ## Verification boundary
 
-The latest local regression has 56 passing tests, including five new basis
-and minimum-slice checks; the original archive replay previously passed. The first and
+The latest local regression has 61 passing tests, including exact rotated
+catalecticant and basis checks; the original archive replay previously passed. The first and
 second archives are unchanged from the starting revision. GitHub Actions run
 [39490536693](https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39490536693)
 at `fc4cc70` did not start any test steps: GitHub reported an account payment or

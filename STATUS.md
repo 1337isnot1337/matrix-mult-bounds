@@ -110,6 +110,14 @@ The latter is a finite enumeration, not an all-size theorem. Independent
 small enumerations and normalized small construction controls pass. General
 shared-factor transformations remain open.
 
+A further [biform proof](research/ai/2026-10-20-koszul/arbitrary_shared_basis.md)
+shows that the same catalecticant lower bound survives **every constant
+invertible shared basis**, including independent identifications of the target
+blocks. It therefore closes the enlarged constant-G graded search as well.
+The proof uses a standard projective-dimension argument and remains unreviewed;
+360 exact transformed-block ranks and independent coefficient checks support
+its implementation. A genuinely singular shared map is still outside it.
+
 Concurrent results are indexed with pinned commits in
 [the collaboration review](docs/concurrent_research.md). They close the old
 fixed-label filtration question and supply additional constructions and

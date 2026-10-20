@@ -112,9 +112,14 @@ For every nonzero parameter these induced maps are invertible, and the rank
 bound passes to the tensor limit.
 
 An arbitrary GL(m) change on X need not intertwine Delta_q and may increase
-the source rank in (4). Equation (6) is therefore **not** an obstruction to
-the full construction premise H(rho). No claim is made that a general
-degeneration can be reduced to the restricted form used here.
+the source rank in (4). However, the subsequent
+[biform argument](arbitrary_shared_basis.md) moves a constant shared change
+onto the target and proves that its flattening rank cannot fall below (5).
+Thus (6) also holds for arbitrary constant shared bases, or regular shared
+maps with invertible limit, even with independent shared identifications
+for the target sectors. This closes a broader class than the argument above.
+A genuinely singular shared limit remains outside the proof, so (6) still
+does not reject the full construction premise H(rho).
 
 ## 3. Why a broad class of shared-factor flattenings cannot help
 

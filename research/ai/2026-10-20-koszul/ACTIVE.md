@@ -17,7 +17,11 @@ Completed exclusions in `source_obstructions.md`:
 - Ordinary linear restrictions require asymptotically 100 percent overhead,
   after adopting the concurrent minimum-slice strengthening at `d2d505c`.
 - Polynomial Y/Z changes preserving the shared binary-form coefficient
-  structure require the same asymptotic overhead.
+  structure require asymptotically 50 percent overhead.
+- The later biform proof in `arbitrary_shared_basis.md` strengthens this to
+  all constant shared GL(m) bases, and regular shared maps with invertible
+  limit, with asymptotically 50 percent overhead. It also closes the other
+  worker's constant-G graded ansatz at the desired cost.
 - Projected shared Koszul and linear equivariant shared Young/Pieri maps
   cannot reject this border-rank-B target, by the polynomial-matrix lemma.
 
@@ -49,6 +53,15 @@ Ordinary structured flattenings can become vacuous when their own coefficient
 maps degenerate. Any proposed nonlinear test must control that loss explicitly,
 or yield an actual source construction. Merely importing a nondegenerate
 Schwarzenberger classification does not answer this boundary question.
+
+Concrete construction experiment now selected: add nonzero shared weights
+w(X_i)=i and target monomial weights w(Y_(a,b))=-a+gamma*(a+b),
+w(Z_(c,d))=-c+gamma*(c+d)-gamma*(m-1), with gamma>m. Allow a constant dense
+shared basis before those weights. This prescribes the negative-weight
+coefficients to zero and the zero-weight coefficients to the target, while
+positive-weight coefficients are free. It is distinct from the excluded
+constant-G search, which has zero shared weights. Exact coefficient replay
+is required for acceptance; small numerical residuals do not suffice.
 
 Other agents own full/off-leading Clebsch--Gordan and truncated-algebra source
 searches (`f6f307c`) and the group-potential search (`f7aa680`). The scalar

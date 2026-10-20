@@ -136,6 +136,16 @@
       "statement": "For every m=4,...,38, each nonidentity shared Chebyshev ordering with degree zero first admits at most one center for a C(2,m-1) block. The written reduction excludes that coordinate construction of T_(m,k) at low overhead for all k and admissible B at these m.",
       "evidence": "orthogonal_bases.md, Sections 4-5; ../../../results/koszul-2026-10-20/chebyshev_centers.json",
       "limitations": "Not an all-size center-uniqueness theorem. Discovery at m=39 timed out. Reduction and code remain subject to independent review. Small normalized controls are not exponent improvements."
+    },
+    {
+      "id": "AI-ARBITRARY-CONSTANT-SHARED-OBSTRUCTION-030",
+      "status": "proof-written-unreviewed",
+      "statement": "The catalecticant cost bound holds for arbitrary constant invertible shared bases, and regular shared maps with invertible limit, even with independently rotated target sectors. Its asymptotic overhead is 50 percent.",
+      "evidence": "arbitrary_shared_basis.md; ../../../results/koszul-2026-10-20/rotated_catalecticants.json",
+      "limitations": "Genuinely singular shared maps remain outside the proof. The biform dimension lemma is not a new exponent bound.",
+      "dependencies": [
+        "Standard projective dimension theorem, Stacks Project tag 0B2R"
+      ]
     }
   ]
 }

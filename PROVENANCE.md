@@ -56,3 +56,8 @@ ordinary-restriction bound is explicitly adopted from the concurrent scalar
 worker at `d2d505c`, not credited as a new result of this branch. Further
 concurrent amplitude and group obstructions are attributed with commit pins
 and inspection limits in `docs/concurrent_research.md`.
+
+The arbitrary-constant-shared-basis strengthening is a local biform argument.
+It uses the standard projective dimension theorem (Stacks Project, tag 0B2R)
+to give the elementary nonvanishing-bilinear-map dimension bound. The exact
+coefficient/rank tests do not constitute independent review of the proof.

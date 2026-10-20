@@ -59,3 +59,11 @@ Additional source-pinned review on October 20:
 
 These are other workers' written, unreviewed results. Reading an argument and
 checking its displayed arithmetic is not independent formal verification.
+
+**Scope correction for the constant-G graded task.** Our subsequent
+[`arbitrary_shared_basis.md`](../research/ai/2026-10-20-koszul/arbitrary_shared_basis.md)
+proves that the target catalecticant rank lower bound survives every constant
+invertible shared GL(m) change. It closes the low-overhead constant-G ansatz
+in `d2d505c`, not only the earlier G=I ansatz. The next search must permit a
+singular shared map. This is a new written argument, not a replay or a claim
+of failure of the other worker's optimizer implementation.
