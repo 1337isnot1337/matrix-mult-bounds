@@ -71,3 +71,15 @@ This directory and its results were renamed to avoid colliding with the other
 filtration worker's files. Shared status/ledger edits still need ordinary
 integration when the branches are combined. No other worker's checkout was
 modified.
+
+## Active construction route
+
+[fatpoint_growth_route.md](fatpoint_growth_route.md) extends the other
+worker's degree-three target to all degrees and derives an explicit cost
+threshold for a sufficient degeneration. The required construction remains
+open. The exact report in `fatpoint-route.json` records necessary Koszul
+screens and the conditional rational root certificate. It is not a new bound.
+
+The next experiment investigates matrix-space bases and possible degenerations
+of `C(a,B)` to these targets. Coordinate/diagonal-weight packing alone is
+already obstructed; interpolation from a diagonal tensor is insufficient.

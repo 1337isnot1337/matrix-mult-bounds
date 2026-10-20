@@ -68,6 +68,14 @@ filtration converse and boundary counterexample, direct scalar limit proof,
 and compactness consequence. These overlapping conclusions are not counted
 as independent new advances or independent review.
 
+AI-FATPOINT-GROWTH-010 gives a concrete conditional target using the all-degree
+extension of the Koszul worker's fat-point tensor. A source cost factor below
+`9/(7*2^(1/3))`, about `1.020472`, would beat 9/4. The cost-one case would imply
+the rational bound `125/56`. **The source degeneration is unconstructed**, so
+neither number is a new exponent result. The proof, exact threshold certificate
+and 528 finite rank-identity checks are in the
+[construction route](research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)

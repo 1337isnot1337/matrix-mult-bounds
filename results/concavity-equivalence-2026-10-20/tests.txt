@@ -1,6 +1,9 @@
 test_corrected_window (test_board_thresholds.ThresholdTests.test_corrected_window) ... ok
 test_report_replay (test_board_thresholds.ThresholdTests.test_report_replay) ... ok
 test_strict_power_boundary (test_board_thresholds.ThresholdTests.test_strict_power_boundary) ... ok
+test_integral_of_lower_envelope (test_fatpoint_route.FatpointRouteTests.test_integral_of_lower_envelope) ... ok
+test_root_certificate_and_negative_controls (test_fatpoint_route.FatpointRouteTests.test_root_certificate_and_negative_controls) ... ok
+test_small_target_matrices (test_fatpoint_route.FatpointRouteTests.test_small_target_matrices) ... ok
 test_boundary_hypothesis_is_needed (test_filtration.FiltrationTests.test_boundary_hypothesis_is_needed) ... ok
 test_converse_recovers_boundary_and_interior (test_filtration.FiltrationTests.test_converse_recovers_boundary_and_interior) ... ok
 test_elementary_restriction_coefficients (test_filtration.FiltrationTests.test_elementary_restriction_coefficients) ... ok
@@ -44,6 +47,6 @@ test_small_candidate (test_session2_checkpoint.CheckpointTests.test_small_candid
 test_tensor_replay (test_session2_checkpoint.CheckpointTests.test_tensor_replay) ... ok
 
 ----------------------------------------------------------------------
-Ran 44 tests in 59.665s
+Ran 47 tests in 34.075s
 
 OK

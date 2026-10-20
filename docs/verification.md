@@ -82,3 +82,9 @@ not prove the analytic limit, endpoint rigidity, or the uniform gain premise.
 After the follow-up and path reconciliation, the full suite passed 44 tests
 in the same virtual environment. The archived programs were not edited after
 their successful replay; no redundant second full archive replay was run.
+
+The all-degree fat-point follow-up adds three controls, bringing the passing
+suite to 47 tests. Fifteen independent coefficient matrices (`a=1,...,5`,
+every exterior degree) agree with the target rank formula. A symbolic integral
+checks the lower envelope, and integer powers certify the conditional root
+bound. These tests supply no convolution-source degeneration.

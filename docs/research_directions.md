@@ -64,6 +64,12 @@ A useful patch demonstrates an incorrect ranking, stronger certified block score
 
 ## Work selection
 
+The active fat-point construction question is quantified in the
+[all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
+It requires a genuine convolution-source degeneration at cost below
+`9/(7*2^(1/3))`; no such construction is supplied. New linear bases and
+matrix-space degenerations are open. The finite rank screens do not decide it.
+
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
