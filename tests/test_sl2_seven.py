@@ -8,6 +8,10 @@ spec = importlib.util.spec_from_file_location('sl2_seven_source',
     ROOT/'research/ai/2026-10-20-sl2-seven/source_certificate.py')
 source = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(source)
+spec_center = importlib.util.spec_from_file_location('sl2_seven_center',
+    ROOT/'research/ai/2026-10-20-sl2-seven/central_involution.py')
+center = importlib.util.module_from_spec(spec_center)
+spec_center.loader.exec_module(center)
 
 
 class SL2SevenTests(unittest.TestCase):
@@ -28,6 +32,26 @@ class SL2SevenTests(unittest.TestCase):
     def test_bad_source_cost_rejected(self):
         with self.assertRaises(ArithmeticError):
             source.exponent_gate([20]*11)
+
+    def test_center_pair_count_and_strict_threshold(self):
+        G = source.group(7)
+        exclusions = center.forced_center_pair_exclusions(G, [16, 16, 17])
+        self.assertEqual([x['set'] for x in exclusions], [0, 1, 2])
+        self.assertEqual([len(x['pairs']) for x in exclusions], [168]*3)
+        self.assertEqual(len(center.forced_center_pair_exclusions(G, [12, 14, 14])), 1)
+        self.assertFalse(center.forced_center_pair_exclusions(G, [12, 12, 12]))
+
+    def test_central_collision_gives_opposite_supported_terms(self):
+        G = source.group(7)
+        z = center.forced_center_pair_exclusions(G, [16, 16, 17])[0]['central_involution']
+        checked = 0
+        for g in range(1, 336):
+            if g == z:
+                continue
+            # t0=u0=s0=identity, s1=z, t1=g, u1=z*g.
+            center.opposite_trade(G, 0, z, 0, g, 0, G['mul'][z][g])
+            checked += 1
+        self.assertEqual(checked, 334)
 
 
 if __name__ == '__main__':

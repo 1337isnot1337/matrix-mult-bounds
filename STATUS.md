@@ -98,6 +98,14 @@ The exact source and graded-verifier checkpoint passes all 59 local tests.
 The first 600-second run ended at its time limit with zero pair-injective
 models and no witness. It provides no impossibility proof.
 
+The follow-up [central-involution argument](research/ai/2026-10-20-sl2-seven/central_involution_proof.md)
+shows that a pair differing by a central involution in one set forces the
+other pair map to inject into the central quotient. For shape (16,16,17),
+all three sets must therefore avoid central pairs. This adds 504 sound binary
+clauses to coordinate-potential discovery. Exact checks cover 334 cancelling
+two-term trades and the strict counting threshold. The claim concerns this
+construction class, not every complex tensor degeneration.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)

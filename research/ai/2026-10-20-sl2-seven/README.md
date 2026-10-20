@@ -27,3 +27,9 @@ accepted witness. It generated about 2.5 million conflicts. This is search
 diagnostic data, with no proof trace and no nonexistence conclusion.
 The source certificate, Borel coverage and final report are retained under
 `results/sl2-seven-2026-10-20/`.
+
+The [central-involution lemma](central_involution_proof.md) supplies 504
+additional necessary binary clauses for this target. The center-pruned run
+uses the same seed and budget, so any changed behavior is attributable to
+the strengthened encoding rather than a seed reroll. Its outcome will be
+recorded separately; no running checkpoint is a completed result.

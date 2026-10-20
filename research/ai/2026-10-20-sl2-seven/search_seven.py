@@ -8,6 +8,7 @@ sys.path.insert(0, str(Path(__file__).with_name('imported')))
 import group_exact
 import search as upstream
 from pysat.card import CardEnc, EncType
+from central_involution import forced_center_pair_exclusions
 
 
 def borel_certificate(G):
@@ -81,6 +82,16 @@ def main():
         metadata['variables_after_borel'] = top
         metadata['SL2_7_borel_lower'] = [(size+7)//8 for size in shape]
         metadata['SL2_7_anchor_count'] = len(cert['anchors'])
+        exclusions = forced_center_pair_exclusions(group, shape)
+        for item in exclusions:
+            f = item['set']
+            for g, h in item['pairs']:
+                solver.add_clause([-members[f][g], -members[f][h]])
+        metadata['central_involution_exclusions'] = [
+            {k: v for k, v in item.items() if k != 'pairs'}
+            for item in exclusions]
+        metadata['central_involution_binary_clauses'] = sum(
+            len(item['pairs']) for item in exclusions)
         return solver, members, metadata
 
     # The pinned run routine chooses group(5); this adapter replaces that
