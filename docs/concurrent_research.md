@@ -67,3 +67,12 @@ invertible shared GL(m) change. It closes the low-overhead constant-G ansatz
 in `d2d505c`, not only the earlier G=I ansatz. The next search must permit a
 singular shared map. This is a new written argument, not a replay or a claim
 of failure of the other worker's optimizer implementation.
+
+The same note now proves a nonsingular-block extension and two graded-weight
+obstructions. The dominant-degree region alpha>(m-1)*abs(beta), including
+our ten retained exploratory fits, is excluded. An X_0-slice support cover
+also excludes 0<alpha<=beta at low overhead; at m=4 it needs B>=12 and
+therefore rejects the worker's (1,1) and (1,2) runs at B=10. The (1,-1)
+direction recorded in `0108d62` remains outside these arguments. Its partial
+residual is not an exact certificate. These are analytic scope updates, not
+new numerical search claims.

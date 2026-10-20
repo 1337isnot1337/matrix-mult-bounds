@@ -146,6 +146,20 @@
       "dependencies": [
         "Standard projective dimension theorem, Stacks Project tag 0B2R"
       ]
+    },
+    {
+      "id": "AI-NONSINGULAR-BLOCK-OBSTRUCTION-031",
+      "status": "proof-written-unreviewed",
+      "statement": "The structured flattening lower bound extends from convolution blocks to every bilinear block with no zero divisors and dimensions (j+1,m-j,m). The matched all-degree family still requires asymptotic 50 percent overhead with constant shared basis.",
+      "evidence": "arbitrary_shared_basis.md, Section 5",
+      "limitations": "This is a construction-class obstruction, not a border-rank lower bound or an exponent improvement."
+    },
+    {
+      "id": "AI-GRADED-WEIGHT-REGIONS-032",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For constant P,Q,G followed by the specified monomial degree weights, alpha>(m-1)*abs(beta) has the catalecticant cost obstruction; 0<alpha<=beta requires B>=k*(2N-floor(m^2/4)-1)-(m-1).",
+      "evidence": "arbitrary_shared_basis.md, Sections 6-7; tests/test_rotated_catalecticants.py",
+      "limitations": "Intermediate slopes and arbitrary parameter-dependent shared maps remain open. Ten retained floating runs are diagnostics in the now-excluded dominant-degree class, not certificates."
     }
   ]
 }

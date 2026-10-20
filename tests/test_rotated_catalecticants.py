@@ -65,6 +65,38 @@ class RotatedCatalecticantTests(unittest.TestCase):
             self.assertEqual(ranks, [1] * m)
             self.assertLess(sum(ranks), m * (m + 1) // 2 + m - 2)
 
+    def test_triangular_nonsingular_blocks(self):
+        for m in range(2, 6):
+            p = rotated.bases(m)["vandermonde"]
+            for j in range(m):
+                # Nonzero entries above the leading convolution degree.
+                def coefficient(i, a, c):
+                    if i < a + c:
+                        return 0
+                    if i == a + c:
+                        return 1
+                    return (17 * i + 5 * a - 3 * c) % 7 - 3
+
+                for q in range(m):
+                    matrix = sp.Matrix([
+                        [sum(p[r+s, i] * coefficient(i, a, c) for i in range(m))
+                         for s in range(m-q) for c in range(m-j)]
+                        for r in range(q+1) for a in range(j+1)])
+                    self.assertGreaterEqual(matrix.rank(), rotated.lower_bound(m-1, q, j))
+
+    def test_small_slope_support_cover(self):
+        for m in range(2, 16):
+            d = m - 1
+            t = d // 2
+            nodes, _, _ = family.target(m)
+            rows = {(a, b) for a, b in nodes if b > t or (a, b) == (0, t)}
+            cols = {(c, e) for c, e in nodes if e > d - t}
+            self.assertEqual(len(rows) + len(cols), m * m // 4 + 1)
+            for a, b in nodes:
+                for c, e in nodes:
+                    if b + e > d or (a == c == 0 and b + e == d):
+                        self.assertTrue((a, b) in rows or (c, e) in cols)
+
 
 if __name__ == "__main__":
     unittest.main()
