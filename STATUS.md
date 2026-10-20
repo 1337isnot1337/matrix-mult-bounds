@@ -35,3 +35,16 @@ The checkpoint includes draft homogeneous-profile rigidity and curvature criteri
 The temporary second-pass files were not retained in the current runtime. Reconstructed programs and regenerated reports are labeled accordingly. All eight new checkpoint tests passed. The first-pass archive remains unchanged.
 
 The [external source review](docs/external_followups.md) covers the three repositories suggested by the owner. It includes Filmus's finite identities-to-exponent criterion with its hypotheses. No external Lean rebuild is claimed.
+
+## Product-filtration compatibility, all sizes
+
+The [new concavity proof](research/ai/2026-10-20-filtration/research_note.md)
+settles R2 for every displayed fixed-label product-filtration inequality:
+all positive integer parameters preserve the matching profile P_*.
+This replaces the earlier finite-only knowledge for that family. The proof is
+AI-derived, written and unreviewed; it does not construct a tensor character.
+
+The exact regression certificates check 81,648 comparisons over 4,096 source
+quadruples, plus six dedicated tests. The universal statement rests on the
+written proof. Full direct sums involving multiple labels remain outside this
+theorem. No exponent improvement is established.
