@@ -92,6 +92,27 @@
       "statement": "An unbounded sequence of the specified convolution degenerations with asymptotic overhead below 9/(7*cuberoot(2))-1 implies omega<9/4; zero overhead implies omega<=30000/13423.",
       "evidence": "all_dimension_targets.md, Section 4",
       "limitations": "The source-degeneration premise H(rho) is unproved; no new exponent is established."
+    },
+    {
+      "id": "AI-LINEAR-SOURCE-OBSTRUCTION-024",
+      "status": "proof-written-unreviewed",
+      "statement": "Any ordinary linear restriction C(m,B) to T_(m,k) requires B>=k*N+k*floor(m^2/4)-m+1, with N=m(m+1)/2.",
+      "evidence": "source_obstructions.md, Section 1",
+      "limitations": "The rank argument does not extend to arbitrary polynomial degenerations."
+    },
+    {
+      "id": "AI-FIXED-SHARED-OBSTRUCTION-025",
+      "status": "proof-written-unreviewed",
+      "statement": "The catalecticant obstruction extends the coordinate overhead bound to arbitrary polynomial Y/Z changes when the shared X coefficient structure is fixed or transformed by its binary-form GL(2) action.",
+      "evidence": "source_obstructions.md, Section 2",
+      "limitations": "General GL(m) changes of the shared factor are outside the scope."
+    },
+    {
+      "id": "EXP-SOURCE-CONTROLS-026",
+      "status": "exact-coefficient-controls-and-exploration",
+      "statement": "Explicit coordinate degenerations prove the m=2 all-k and m=3,k=1 positive controls; 32 bounded real/complex m=4 fits produced no certificate.",
+      "evidence": "source_obstructions.md, Section 3; ../../../results/koszul-2026-10-20/orbit_probe_summary.json",
+      "limitations": "Numerical failures are not orbit-closure exclusions; fixed-m controls do not meet H(rho)."
     }
   ]
 }

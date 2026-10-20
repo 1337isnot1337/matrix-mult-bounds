@@ -21,6 +21,12 @@ from an **unconstructed** convolution degeneration. Less than 2.04721048 percent
 asymptotic source overhead would suffice. Zero overhead would conditionally
 give omega<=30000/13423, but no such source degeneration is established.
 
+[Source obstructions](source_obstructions.md) rule out low-overhead ordinary
+linear restrictions and shared-coefficient-preserving degenerations with
+arbitrary transformations on the other two factors. The unrestricted shared
+factor is the current unresolved construction variable. Fixed-dimension
+positive controls and bounded, unsuccessful numerical fits are retained.
+
 ## Next mathematical question
 
 Continuation selected after fetching the other research branches on October 20:

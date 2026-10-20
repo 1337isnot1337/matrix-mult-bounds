@@ -88,6 +88,14 @@ require asymptotically 50 percent overhead, so that ansatz cannot meet the
 criterion. Exact replay covers 20,153 interpolation coefficients, 3,276
 shared-leg Koszul degrees, and 495 gap-formula cases; five dedicated tests pass.
 
+[Broader source obstructions](research/ai/2026-10-20-koszul/source_obstructions.md)
+now exclude ordinary linear restrictions at low overhead, even with arbitrary
+bases. A catalecticant argument also excludes arbitrary polynomial Y/Z changes
+when X keeps its binary-form coefficient structure. General shared-factor
+changes remain open. Exact coefficient controls construct the m=2 all-k and
+m=3,k=1 cases; these fixed dimensions do not meet the growth criterion.
+Bounded real/complex orbit fits found no new certificate and are not exclusions.
+
 Concurrent results are indexed with pinned commits in
 [the collaboration review](docs/concurrent_research.md). They close the old
 fixed-label filtration question and supply additional constructions and
