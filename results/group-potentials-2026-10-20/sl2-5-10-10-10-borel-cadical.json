@@ -1,0 +1,50 @@
+{
+  "group": "SL(2,5)",
+  "affine_parameters": null,
+  "shape": [
+    10,
+    10,
+    10
+  ],
+  "seed": 20261026,
+  "solver": "cadical195",
+  "encoding": {
+    "variables": 7248,
+    "clauses": 35333,
+    "inverse_classes": 60,
+    "commuting_trade_cuts": 361,
+    "coset_normalization": null,
+    "borel_normalization": {
+      "order": 20,
+      "index": 6,
+      "identity_coset_lower": [
+        2,
+        2,
+        2
+      ],
+      "first_set_anchor_disjunction": [
+        95,
+        25,
+        100,
+        45
+      ],
+      "quotient_orbits_verified": 19
+    },
+    "independent_right_translations": "identity fixed in all sets"
+  },
+  "seconds_limit": 180.0,
+  "models_limit": 5000,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "cuts": [],
+  "status": "time-limit",
+  "witness": null,
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 181.11341191499378,
+  "sat_statistics": {
+    "restarts": 57700,
+    "conflicts": 1240119,
+    "decisions": 3167763,
+    "propagations": 301367192
+  }
+}

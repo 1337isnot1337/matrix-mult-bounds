@@ -1,0 +1,133 @@
+{
+  "group": "SL(2,5)",
+  "shape": [
+    3,
+    3,
+    3
+  ],
+  "seed": 20261020,
+  "encoding": {
+    "variables": 2646,
+    "clauses": 25815,
+    "inverse_classes": 60,
+    "independent_right_translations": "identity fixed in all sets"
+  },
+  "seconds_limit": 30.0,
+  "models_limit": 20,
+  "pair_injective_models": 1,
+  "exact_farkas_cuts": 0,
+  "cuts": [],
+  "status": "exact-degeneration-witness",
+  "witness": {
+    "sets": [
+      [
+        0,
+        4,
+        6
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        118,
+        119
+      ]
+    ],
+    "matrices": [
+      [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          4,
+          3
+        ],
+        [
+          0,
+          2,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          4,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          4,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ]
+      ]
+    ],
+    "potentials": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "verification": {
+      "shape": [
+        3,
+        3,
+        3
+      ],
+      "intended_terms": 27,
+      "extra_relations": 1,
+      "minimum_extra_weight": 1,
+      "verified": true,
+      "meaning": "Exact group products, three injective pair maps, zero intended weights and strictly positive extra weights. No exponent claim is part of this verifier."
+    }
+  },
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 0.0056314530011150055,
+  "sat_statistics": {
+    "restarts": 1,
+    "conflicts": 3,
+    "decisions": 267,
+    "propagations": 3440
+  }
+}

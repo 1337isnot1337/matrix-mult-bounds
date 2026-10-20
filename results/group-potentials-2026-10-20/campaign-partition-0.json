@@ -1,0 +1,158 @@
+{
+  "partition": 0,
+  "partitions": 3,
+  "frontier_sha256": "f6a6d7d71a41a9dc0b13cf03a996743c85c1662d452fed68f01b7f119cfd29f7",
+  "seconds_per_case": 25.0,
+  "max_cases": 12,
+  "source_frontier_count": 58,
+  "skipped_already_attempted_cases": 2,
+  "assigned_cases": 19,
+  "completed": [
+    {
+      "path": "affine-31-3-shape8-9-9-campaign0.json",
+      "group": "C31:C3",
+      "shape": [
+        8,
+        9,
+        9
+      ],
+      "status": "solver-reported-unsatisfiable; no proof trace exported",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-37-3-shape8-9-11-campaign0.json",
+      "group": "C37:C3",
+      "shape": [
+        8,
+        9,
+        11
+      ],
+      "status": "solver-reported-unsatisfiable; no proof trace exported",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-19-6-shape10-10-10-campaign0.json",
+      "group": "C19:C6",
+      "shape": [
+        10,
+        10,
+        10
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-37-4-shape10-11-12-campaign0.json",
+      "group": "C37:C4",
+      "shape": [
+        10,
+        11,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-31-5-shape11-11-12-campaign0.json",
+      "group": "C31:C5",
+      "shape": [
+        11,
+        11,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-4-shape11-11-12-campaign0.json",
+      "group": "C41:C4",
+      "shape": [
+        11,
+        11,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-4-shape12-12-12-campaign0.json",
+      "group": "C41:C4",
+      "shape": [
+        12,
+        12,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-31-6-shape12-13-13-campaign0.json",
+      "group": "C31:C6",
+      "shape": [
+        12,
+        13,
+        13
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-5-shape12-12-15-campaign0.json",
+      "group": "C41:C5",
+      "shape": [
+        12,
+        12,
+        15
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-5-shape13-13-14-campaign0.json",
+      "group": "C41:C5",
+      "shape": [
+        13,
+        13,
+        14
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-53-4-shape12-13-13-campaign0.json",
+      "group": "C53:C4",
+      "shape": [
+        12,
+        13,
+        13
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-53-4-shape11-13-15-campaign0.json",
+      "group": "C53:C4",
+      "shape": [
+        11,
+        13,
+        15
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    }
+  ],
+  "status": "assigned bounded batch finished; no witness",
+  "scope": "Discovery scheduling only. No skipped, timed-out or untraced UNSAT case is promoted to a nonexistence theorem."
+}

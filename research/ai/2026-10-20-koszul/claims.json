@@ -25,6 +25,141 @@
       "statement": "All 85 specific candidate packings in the archived dimension search violate a Koszul-rank inequality; 180 oriented and 27 padded direct matrix checks agree with the formulas.",
       "evidence": "../../../results/koszul-2026-10-20/candidate_audit.json",
       "limitations": "Alternative packings are not exhausted. The general rank formulas rely on the written proofs."
+    },
+    {
+      "id": "AI-KOSZUL-SURVIVOR-015",
+      "status": "proof-written-unreviewed",
+      "statement": "The canonical mixed family passes all full-space Koszul tests on all three legs for every k>=1; its P_* score surplus is (4k-210)/81.",
+      "evidence": "research_note.md, Sections 6-7",
+      "limitations": "Source degeneration unconstructed; projected and other Young flattenings not covered; no exponent implication established."
+    },
+    {
+      "id": "AI-FATPOINT-CERTIFICATE-016",
+      "status": "proof-written-unreviewed-with-exact-certificate",
+      "statement": "The canonical four-block target T has border rank 10 via ten-point triangular-grid interpolation; T tensor B_X(k) has border rank 10k.",
+      "evidence": "research_note.md, Section 7; ../../../results/koszul-2026-10-20/fatpoint.json",
+      "limitations": "Certificate starts from a diagonal tensor, not from C(4,10k); no priority claim for the interpolation construction."
+    },
+    {
+      "id": "AI-MONOMIAL-OBSTRUCTION-017",
+      "status": "proof-written-unreviewed",
+      "statement": "Coordinate selection, rescaling and diagonal weights realizing the four-type target from C(4,B) require B>=12k-1.",
+      "evidence": "research_note.md, Section 8",
+      "limitations": "Arbitrary linear changes of basis are excluded from this obstruction."
+    },
+    {
+      "id": "AI-ACTUAL-RIGIDITY-018",
+      "status": "proof-written-unreviewed",
+      "statement": "For every actual tensor character at t=3/4, the rescaled symmetrized convolution profile has the forced homogeneous form, without a C1 assumption.",
+      "evidence": "scaling_rigidity.md, Sections 1-3",
+      "dependencies": [
+        "UZ26 v2 Lemma 4.1 and Appendix F",
+        "OAI26 discrete concavity and tripling"
+      ],
+      "limitations": "Does not construct or exclude a critical character. External rescaling theorem is imported, not re-formalized."
+    },
+    {
+      "id": "AI-ACTUAL-CURVATURE-019",
+      "status": "conditional-implication",
+      "statement": "A uniform positive normalized curvature delta0 for actual characters with t>=t0<3/4 implies omega<=max(3t0,9/(4(1+delta0))).",
+      "evidence": "scaling_rigidity.md, Section 4",
+      "limitations": "The positive curvature premise remains unproved."
+    },
+    {
+      "id": "EXP-BOARD-THRESHOLD-020",
+      "status": "exact-consequence-of-external-theorem",
+      "statement": "Massarenti-Raviolo Remark 3.3 excludes exact-rank schemes beating 9/4 at n=34..37; at n=38 only rank 3585 survives the two bounds used.",
+      "evidence": "../../../docs/agent_board_review.md",
+      "limitations": "External exact-rank premise; not a border-rank bound or an exhaustive literature frontier."
+    },
+    {
+      "id": "AI-ALL-DIMENSION-TARGETS-021",
+      "status": "proof-written-unreviewed-with-exact-certificates",
+      "statement": "For every m>=2 and k>=1, the canonical mixed target has border rank k*m*(m+1)/2 and passes every full-space Koszul test against C(m,k*m*(m+1)/2).",
+      "evidence": "all_dimension_targets.md, Sections 1-2; ../../../results/koszul-2026-10-20/all_dimension_targets.json",
+      "limitations": "No source degeneration or general projected/Young-flattening criterion is supplied."
+    },
+    {
+      "id": "AI-ALL-DIMENSION-MONOMIAL-022",
+      "status": "proof-written-unreviewed",
+      "statement": "The specified coordinate-weight ansatz requires B>=k*m*(m+1)/2+k*floor((m-1)^2/4)-floor((m-1)/2), asymptotically 50 percent overhead.",
+      "evidence": "all_dimension_targets.md, Section 3",
+      "limitations": "Arbitrary linear changes of basis and coordinate collisions are outside the ansatz."
+    },
+    {
+      "id": "AI-ALL-DIMENSION-CRITERION-023",
+      "status": "conditional-implication",
+      "statement": "An unbounded sequence of the specified convolution degenerations with asymptotic overhead below 9/(7*cuberoot(2))-1 implies omega<9/4; zero overhead implies omega<=125/56.",
+      "evidence": "all_dimension_targets.md, Section 4",
+      "limitations": "The source-degeneration premise H(rho) is unproved; no new exponent is established.",
+      "attribution": "The stronger limiting-slope estimate is adopted from concurrent commit cf79709; this note verifies it for the single joint-sequence H(rho) premise."
+    },
+    {
+      "id": "AI-LINEAR-SOURCE-OBSTRUCTION-024",
+      "status": "proof-written-unreviewed",
+      "statement": "Any ordinary linear restriction C(m,B) to the canonical T_(m,k) requires B>=k*m*m-m+1, asymptotically 100 percent overhead.",
+      "evidence": "source_obstructions.md, Section 1",
+      "limitations": "The rank argument does not extend to arbitrary polynomial degenerations.",
+      "attribution": "Strengthened using the minimum-slice argument of concurrent commit d2d505c; the previous maximum-slice bound gave 50 percent overhead."
+    },
+    {
+      "id": "AI-FIXED-SHARED-OBSTRUCTION-025",
+      "status": "proof-written-unreviewed",
+      "statement": "The catalecticant obstruction extends the coordinate overhead bound to arbitrary polynomial Y/Z changes when the shared X coefficient structure is fixed or transformed by its binary-form GL(2) action.",
+      "evidence": "source_obstructions.md, Section 2",
+      "limitations": "General GL(m) changes of the shared factor are outside the scope."
+    },
+    {
+      "id": "EXP-SOURCE-CONTROLS-026",
+      "status": "exact-coefficient-controls-and-exploration",
+      "statement": "Explicit coordinate degenerations prove the m=2 all-k and m=3,k=1 positive controls; 32 bounded real/complex m=4 fits produced no certificate.",
+      "evidence": "source_obstructions.md, Section 4; ../../../results/koszul-2026-10-20/orbit_probe_summary.json",
+      "limitations": "Numerical failures are not orbit-closure exclusions; fixed-m controls do not meet H(rho)."
+    },
+    {
+      "id": "AI-SHARED-LINEAR-FLATTENING-BARRIER-027",
+      "status": "proof-written-unreviewed",
+      "statement": "If L(v(z)) has its global maximum rank r on the coefficient rational normal curve, the source C(m,B) flattening has rank at least Br; every border-rank-B target has rank at most Br. This includes all projected shared Koszul and linear equivariant shared Young/Pieri maps of the stated form.",
+      "evidence": "source_obstructions.md, Section 3",
+      "limitations": "Other-factor and nonlinear invariants are not exhausted; the curve-rank hypothesis is essential and fails for the structured catalecticant obstruction."
+    },
+    {
+      "id": "AI-ORTHOGONAL-BASIS-OBSTRUCTION-028",
+      "status": "proof-written-unreviewed",
+      "statement": "For degree-ordered shared coordinates, coordinate selection/rescaling/diagonal-weight degenerations in any degree-graded orthogonal polynomial basis require asymptotically at least 50 percent overhead for the canonical all-degree target.",
+      "evidence": "orthogonal_bases.md, Sections 1-3",
+      "limitations": "Arbitrary shared permutations and general linear combinations are outside this all-size statement."
+    },
+    {
+      "id": "EXP-CHEBYSHEV-CENTERS-029",
+      "status": "finite-exact-enumeration-with-written-reduction",
+      "statement": "For every m=4,...,38, each nonidentity shared Chebyshev ordering with degree zero first admits at most one center for a C(2,m-1) block. The written reduction excludes that coordinate construction of T_(m,k) at low overhead for all k and admissible B at these m.",
+      "evidence": "orthogonal_bases.md, Sections 4-5; ../../../results/koszul-2026-10-20/chebyshev_centers.json",
+      "limitations": "Not an all-size center-uniqueness theorem. Discovery at m=39 timed out. Reduction and code remain subject to independent review. Small normalized controls are not exponent improvements."
+    },
+    {
+      "id": "AI-ARBITRARY-CONSTANT-SHARED-OBSTRUCTION-030",
+      "status": "proof-written-unreviewed",
+      "statement": "The catalecticant cost bound holds for arbitrary constant invertible shared bases, and regular shared maps with invertible limit, even with independently rotated target sectors. Its asymptotic overhead is 50 percent.",
+      "evidence": "arbitrary_shared_basis.md; ../../../results/koszul-2026-10-20/rotated_catalecticants.json",
+      "limitations": "Genuinely singular shared maps remain outside the proof. The biform dimension lemma is not a new exponent bound.",
+      "dependencies": [
+        "Standard projective dimension theorem, Stacks Project tag 0B2R"
+      ]
+    },
+    {
+      "id": "AI-NONSINGULAR-BLOCK-OBSTRUCTION-031",
+      "status": "proof-written-unreviewed",
+      "statement": "The structured flattening lower bound extends from convolution blocks to every bilinear block with no zero divisors and dimensions (j+1,m-j,m). The matched all-degree family still requires asymptotic 50 percent overhead with constant shared basis.",
+      "evidence": "arbitrary_shared_basis.md, Section 5",
+      "limitations": "This is a construction-class obstruction, not a border-rank lower bound or an exponent improvement."
+    },
+    {
+      "id": "AI-GRADED-WEIGHT-REGIONS-032",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For constant P,Q,G followed by the specified monomial degree weights, alpha>(m-1)*abs(beta) has the catalecticant cost obstruction; 0<alpha<=beta requires B>=k*(2N-floor(m^2/4)-1)-(m-1).",
+      "evidence": "arbitrary_shared_basis.md, Sections 6-7; tests/test_rotated_catalecticants.py",
+      "limitations": "Intermediate slopes and arbitrary parameter-dependent shared maps remain open. Ten retained floating runs are diagnostics in the now-excluded dominant-degree class, not certificates."
     }
   ]
 }

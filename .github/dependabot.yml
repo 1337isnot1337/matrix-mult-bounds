@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      github-actions:
+        patterns: ['*']
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    # Research archives are evidence; update only the maintained environment.
+    exclude-paths:
+      - research/**
+      - results/**
+    open-pull-requests-limit: 5
+    groups:
+      verification-dependencies:
+        patterns: ['sympy', 'mpmath']
