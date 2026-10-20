@@ -16,7 +16,14 @@ give the precise results and limitations. The exponent remains 9/4.
 
 ## Next mathematical question
 
-Determine whether C(4,10k) can degenerate to the canonical four-block target
+Continuation selected after fetching the other research branches on October 20:
+extend the four-block target to all shared dimensions m, determine an explicit
+source-overhead threshold that would contradict the actual critical profile,
+and investigate the required degeneration. This stays separate from the other
+agents' product-filtration and scalar-rescaling tasks. The threshold is a
+conditional construction target, not an achieved exponent improvement.
+
+The finite precursor is to determine whether C(4,10k) can degenerate to the canonical four-block target
 T tensor B_X(k) for some k>=53 using general changes of basis. The target's
 border rank is 10k and all full-space Koszul tests pass, while coordinate
 selection and diagonal weights require source length at least 12k-1 and fail.
