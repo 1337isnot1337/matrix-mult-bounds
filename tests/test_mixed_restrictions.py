@@ -22,6 +22,7 @@ def load(name):
 checks = load("check")
 collision = load("collision_search")
 combinatorics = load("collision_combinatorics")
+quantitative = load("quantitative_capacity")
 
 
 class MixedRestrictionTests(unittest.TestCase):
@@ -80,8 +81,11 @@ class MixedRestrictionTests(unittest.TestCase):
         for alphabet, maximum in [(2, 9), (3, 7)]:
             for n in range(5, maximum+1):
                 for word in product(range(alphabet), repeat=n):
+                    defect = combinatorics.word_defect(word)
+                    longest = quantitative.longest_constant_run(word)
+                    self.assertGreaterEqual(defect, (n-longest)**2//4)
                     if not combinatorics.end_exception_word(word):
-                        self.assertGreaterEqual(combinatorics.word_defect(word), 2*n-4)
+                        self.assertGreaterEqual(defect, 2*n-4)
 
     def test_permutation_classification(self):
         for m in range(6, 9):
@@ -102,6 +106,40 @@ class MixedRestrictionTests(unittest.TestCase):
     def test_all_size_endpoint_capacity(self):
         for m in range(10, 300):
             self.assertGreater((m-5)*(m+1)+2, m*(m+1)//2)
+
+    def test_projected_target_integer_matrices(self):
+        report = quantitative.run(6)
+        self.assertEqual(report["explicit_target_matrix_cases"], 126)
+        self.assertEqual(report["explicit_source_matrix_cases"], 63)
+
+    def test_projected_minimum_rank_and_balanced_choice(self):
+        for m in range(2, 40):
+            for ell in range(1, m+1):
+                q = (ell-1)//2
+                for p0 in [0, (m-ell)//2, m-ell]:
+                    rank = quantitative.projected_target_formula(m, ell, p0, q)
+                    self.assertGreaterEqual(rank, ell*m-ell*ell//4)
+
+    def test_exact_overhead_separation(self):
+        self.assertLess(675, 676)  # sqrt(3)<26/15, hence kappa>16/15.
+        self.assertLess((9*15)**3, 2*(7*16)**3)  # rho_c<16/15.
+        self.assertLess(729*4, 686*5)  # rho_c^3<5/4.
+        self.assertLess(3*16, 7*7)  # 3-sqrt(3)>5/4.
+
+    def test_nonzero_shared_rescaling_keeps_rank_lower_bound(self):
+        import sympy as sp
+        for m, ell, p0, q in [(4, 3, 0, 1), (6, 4, 1, 1), (6, 6, 0, 2)]:
+            h = ell-1-q
+            coefficients = [(-1)**r*(r+2) for r in range(ell)]
+            actual = 0
+            for u in range(1, m+1):
+                v = m+1-u
+                matrix = sp.Matrix([
+                    [coefficients[r+s] if p0+r+s == a+c else 0
+                     for s in range(h+1) for c in range(v)]
+                    for r in range(q+1) for a in range(u)])
+                actual += matrix.rank()
+            self.assertGreaterEqual(actual, quantitative.projected_target_formula(m, ell, p0, q))
 
 
 if __name__ == "__main__":

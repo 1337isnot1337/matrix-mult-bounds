@@ -34,6 +34,21 @@ checkout or publication target. Pull requests whose heads are included in
 main can be closed as merged; unmerged work must be preserved. The temporary
 integration branch itself does not need a remote branch or pull request.
 
+## Quantitative capacity follow-up
+
+The capacity branch integrates main `a83bc24` into its exact checkpoint
+`e1ec7b1`, preserving all 39 claim records. The historical filtration entry
+retains main's attribution to both overlapping all-size arguments. The
+status additions are combined, with no archived research changes. All 164
+combined tests pass locally under the pinned SymPy 1.14.0 environment; the
+log is `results/mixed-restrictions-2026-10-20/combined-tests-164.txt`.
+
+The new written, unreviewed asymptotic coordinate-input capacity bound is
+`3/2-sqrt(3)/4`; it is not a smaller matrix exponent. Its claim ID is
+AI-MIXED-ASYM-CAPACITY-001 and its exact scope is recorded in the linked
+mixed-restrictions package. The next construction still requires singular,
+nondiagonal shared behavior beyond the closed coordinate-input family.
+
 The central-projection follow-up integrates `a0b602f` with the current PR
 workflow. It passes all 170 combined tests in the existing Python 3.14.8
 environment containing only the maintained SymPy/mpmath dependencies and
@@ -54,3 +69,16 @@ The full baseline replay also passed on the Koszul source before integration;
 the prior four-lane replay receipt above remains intact. Exact receipts for
 the update are `graded-update-tests.txt` and `graded-update-summary.json` in
 the same results directory. No theorem status or exponent was promoted.
+
+The next update integrates protected-workflow main `6cfa5a9` and the latest
+source-obstruction work. All 169 combined tests pass; the distinct report is
+`results/mixed-restrictions-2026-10-20/combined-tests-169.txt`. Both historical
+archives remain unchanged. The capacity PR follows the newly required CI
+and squash-merge policy; no rule bypass or direct main push is used.
+
+The capacity branch subsequently integrates main `424dd92` and its exact
+projected-group/central-lift certificates. All 174 combined tests pass in
+`results/mixed-restrictions-2026-10-20/combined-tests-after-424dd92.txt`.
+All 40 claim records are preserved. The capacity claim is placed beside its
+related earlier claim, avoiding a collision with future appended group
+records. No proof status changes and neither archive changes.

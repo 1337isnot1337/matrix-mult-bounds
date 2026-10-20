@@ -103,3 +103,21 @@ recovers SAT at m=2,3 and independently replays both witnesses. It changes
 the m=5 minimum-length query from timeout to UNSAT. The m=6 refined query
 still times out. The zero-internal-slope m=4 query is also UNSAT. Each new
 query is retained separately, preserving the original records.
+
+## Quantitative asymptotic barrier
+
+The [quantitative proof](asymptotic_capacity.md) now requires overhead at
+least `3/2-sqrt(3)/4`, about 1.066987, for coordinate input
+maps with arbitrary nonzero scalar coefficients, arbitrary constant output mixing and diagonal weights. This allows
+arbitrary target-copy counts and shared source dimension up to 5m/4
+asymptotically. It closes the proposed improvement criterion in this entire
+ansatz, including B=N+O(m). General input mixing remains open.
+
+The new ingredient combines a repeated-window deficit with a long consecutive
+shared interval and a projected catalecticant bound. Independent explicit
+integer matrices verify 1,365 target cases and 234 source cases through m=12;
+exact integer comparisons separate the resulting overhead from the required
+criterion. These checks support the implementation; the universal claim
+rests on the written proof. Concurrent 8e0a766 instead handles a regular
+invertible shared limit with unrestricted other-leg Laurent maps. The two
+results are complementary and retain their separate hypotheses.
