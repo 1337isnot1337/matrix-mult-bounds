@@ -292,6 +292,15 @@ The proof is written and unreviewed; near-unit asymptotic overhead remains
 open. Proved solver cuts preserve the m=2,3 SAT controls and resolve the
 m=5 query as UNSAT. The m=6 run times out; it supplies no exclusion.
 
+The [quantitative capacity theorem](research/ai/2026-10-20-mixed-restrictions/asymptotic_capacity.md)
+strengthens the obstruction to asymptotic overhead at least
+`3/2-sqrt(3)/4` (about 1.066987) for the coordinate-input and constant-output
+ansatz, even with arbitrary canonical target-copy counts and shared source
+length asymptotically at most 5m/4. This exceeds the needed approximately
+1.020472. General input mixing and general Laurent shared maps remain open.
+The result is written and unreviewed, with 1,599 explicit integer-matrix
+controls and exact algebraic comparisons. It does not improve the exponent.
+
 ## Whole-filtration entropy investigation
 
 Branch `research/full-filtration-entropy-20261020` studies the whole support
