@@ -23,6 +23,13 @@ reject all 85 saved second-pass packings, including the former optimum. Use
 these necessary tests before trying to realize another packing. They do not
 exclude all alternatives or establish sufficiency.
 
+The [four-dimensional mixed family](../research/ai/2026-10-20-koszul/research_note.md#6-an-all-size-family-that-these-necessary-tests-do-not-exclude)
+survives all three full-space Koszul families and beats P_* for k>=53. Its
+canonical target has a border-rank certificate, while the coordinate-weight
+source ansatz is excluded by B>=12k-1. Determine its degeneration status under
+general basis changes. Passing the rank screens is not a construction; a finite
+model refutation still needs a growth argument.
+
 Investigate unequal sectors, tensor-product sources, or explicit basis changes. State all source and target leg dimensions. Certify the resulting coefficient identities or degeneration weights exactly. Account for any auxiliary tensor rather than cancelling it without justification.
 
 The initial monomial search omits arbitrary basis changes and uses weak estimates for unrecognized sectors. Stronger block recognition is a concrete computational task. Record whether a new score comes from a new degeneration or from a stronger estimate on an old sector.
@@ -30,6 +37,12 @@ The initial monomial search omits arbitrary basis changes and uses weak estimate
 ## R4: Establish a uniform gain or an alternative growth mechanism
 
 Status: open. The target $P(a,4a-1)\ge(3+\eta)P(a,a)$ with a character-independent $\eta>0$ is sufficient for improvement. It is not necessary, and it is not proved.
+
+The [completed analytic bridge](../research/ai/2026-10-20-koszul/scaling_rigidity.md)
+now establishes the endpoint profile and the curvature implication for actual
+characters without assuming continuous differentiability. A positive curvature
+bound uniform over characters with t>=t0 for some t0<3/4 would suffice; proving
+that bound remains the task.
 
 A proposed solution must state its quantifiers and scale propagation. A single-size gain, a larger prefactor, or a character-dependent gain tending to zero does not establish the displayed uniform conclusion.
 

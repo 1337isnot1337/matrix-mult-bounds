@@ -39,7 +39,8 @@ The [external source review](docs/external_followups.md) covers the three reposi
 ## Koszul research pass
 
 [General proof and scope](research/ai/2026-10-20-koszul/research_note.md) |
-[Exact candidate audit](results/koszul-2026-10-20/candidate_audit.json)
+[Exact candidate audit](results/koszul-2026-10-20/candidate_audit.json) |
+[Supplementary claim ledger](research/ai/2026-10-20-koszul/claims.json)
 
 Written, unreviewed formulas now give every Koszul-flattening rank of a
 convolution in every leg orientation, including padding of the shared space.
@@ -59,3 +60,19 @@ research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
 window. At n=38 only rank 3585 survives the two lower bounds used here. This
 does not exclude or construct border-rank algorithms.
+
+Two further results sharpen the next construction target:
+
+- [Mixed-sector survivor](research/ai/2026-10-20-koszul/research_note.md#6-an-all-size-family-that-these-necessary-tests-do-not-exclude):
+  an explicit all-k family passes every full-space Koszul test on all three legs. Its score exceeds
+  P_* from k=53 onward (first source C(4,530), ratio 37206/37205). The degeneration
+  is unconstructed. Its canonical target has an explicit border-rank-10k
+  certificate, but coordinate selection plus diagonal weights cannot realize it
+  from that source: this restricted ansatz requires source length at least
+  12k-1. Arbitrary changes of basis remain outside the obstruction.
+- [Actual-profile rigidity](research/ai/2026-10-20-koszul/scaling_rigidity.md):
+  Uznański's rescaling theorem and a one-sided derivative proof remove the second
+  pass's missing analytic bridge and global C1 assumption. Every critical
+  character must have the stated homogeneous profile. The curvature criterion
+  now applies to actual characters, but a uniform positive curvature gain remains
+  unproved. No exponent improvement follows yet.

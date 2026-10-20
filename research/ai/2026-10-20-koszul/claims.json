@@ -25,6 +25,52 @@
       "statement": "All 85 specific candidate packings in the archived dimension search violate a Koszul-rank inequality; 180 oriented and 27 padded direct matrix checks agree with the formulas.",
       "evidence": "../../../results/koszul-2026-10-20/candidate_audit.json",
       "limitations": "Alternative packings are not exhausted. The general rank formulas rely on the written proofs."
+    },
+    {
+      "id": "AI-KOSZUL-SURVIVOR-015",
+      "status": "proof-written-unreviewed",
+      "statement": "The canonical mixed family passes all full-space Koszul tests on all three legs for every k>=1; its P_* score surplus is (4k-210)/81.",
+      "evidence": "research_note.md, Sections 6-7",
+      "limitations": "Source degeneration unconstructed; projected and other Young flattenings not covered; no exponent implication established."
+    },
+    {
+      "id": "AI-FATPOINT-CERTIFICATE-016",
+      "status": "proof-written-unreviewed-with-exact-certificate",
+      "statement": "The canonical four-block target T has border rank 10 via ten-point triangular-grid interpolation; T tensor B_X(k) has border rank 10k.",
+      "evidence": "research_note.md, Section 7; ../../../results/koszul-2026-10-20/fatpoint.json",
+      "limitations": "Certificate starts from a diagonal tensor, not from C(4,10k); no priority claim for the interpolation construction."
+    },
+    {
+      "id": "AI-MONOMIAL-OBSTRUCTION-017",
+      "status": "proof-written-unreviewed",
+      "statement": "Coordinate selection, rescaling and diagonal weights realizing the four-type target from C(4,B) require B>=12k-1.",
+      "evidence": "research_note.md, Section 8",
+      "limitations": "Arbitrary linear changes of basis are excluded from this obstruction."
+    },
+    {
+      "id": "AI-ACTUAL-RIGIDITY-018",
+      "status": "proof-written-unreviewed",
+      "statement": "For every actual tensor character at t=3/4, the rescaled symmetrized convolution profile has the forced homogeneous form, without a C1 assumption.",
+      "evidence": "scaling_rigidity.md, Sections 1-3",
+      "dependencies": [
+        "UZ26 v2 Lemma 4.1 and Appendix F",
+        "OAI26 discrete concavity and tripling"
+      ],
+      "limitations": "Does not construct or exclude a critical character. External rescaling theorem is imported, not re-formalized."
+    },
+    {
+      "id": "AI-ACTUAL-CURVATURE-019",
+      "status": "conditional-implication",
+      "statement": "A uniform positive normalized curvature delta0 for actual characters with t>=t0<3/4 implies omega<=max(3t0,9/(4(1+delta0))).",
+      "evidence": "scaling_rigidity.md, Section 4",
+      "limitations": "The positive curvature premise remains unproved."
+    },
+    {
+      "id": "EXP-BOARD-THRESHOLD-020",
+      "status": "exact-consequence-of-external-theorem",
+      "statement": "Massarenti-Raviolo Remark 3.3 excludes exact-rank schemes beating 9/4 at n=34..37; at n=38 only rank 3585 survives the two bounds used.",
+      "evidence": "../../../docs/agent_board_review.md",
+      "limitations": "External exact-rank premise; not a border-rank bound or an exhaustive literature frontier."
     }
   ]
 }

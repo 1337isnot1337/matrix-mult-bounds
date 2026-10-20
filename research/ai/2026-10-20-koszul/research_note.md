@@ -153,6 +153,169 @@ python research/ai/2026-10-20-koszul/koszul.py \
 python -m unittest discover -s tests -p test_koszul.py -v
 ```
 
+## 6. An all-size family that these necessary tests do not exclude
+
+The preceding rejection must not be extrapolated to all mixed-sector packings.
+For every integer $k\ge1$, consider source $C(4,10k)$, with dimensions
+$(4,10k,10k+3)$ and the four-dimensional input as shared leg. The proposed
+target has $k$ blocks of each of these ordered nonshared dimensions:
+
+$$ (1,4),\quad(4,1),\quad(2,3),\quad(3,2).$$
+
+Each block is a convolution with its **output** identified with the common
+four-dimensional leg. The other two legs are disjoint across all $4k$ blocks.
+Each of their total dimensions is $10k$, so all three ordinary flattening
+dimensions fit. Arbitrary invertible identifications of the shared outputs give
+the same shared-leg Koszul ranks.
+
+In increasing exterior degrees $p=0,1,2,3$, formulas (1)-(2) give
+
+$$\operatorname{rank}K_p(\mathrm{source})
+  =(10k,30k+3,30k+6,10k+3),$$
+$$\operatorname{rank}K_p(\mathrm{target})
+  =(10k,30k,30k,10k).$$
+
+Thus **every shared-leg Koszul inequality passes for every k**, with slack
+$(0,3,6,3)$. This is a proof of a limitation of this screening family, not proof
+of the proposed degeneration. Section 7 also certifies the full-space Koszul
+tests on the other two legs for the canonical common coefficient basis.
+
+Its matching-profile scores are
+
+$$P_*(4,10k)=\frac{1400k+210}{81},\qquad
+\sum_iP_*(T_i)=k\left(2\cdot4+2\cdot\frac{14}3\right)=\frac{52k}3.$$
+
+The target-minus-source surplus is exactly
+
+$$\boxed{\frac{4k-210}{81}},$$
+
+which is positive precisely for integers $k\ge53$. At $k=53$ the source is
+$C(4,530)$, the target has 212 blocks, and the scores are $74410/81$ and
+$74412/81$. The ratio is $37206/37205$. As $k\to\infty$, the ratio tends to
+$351/350$.
+
+This family was obtained analytically by balancing the interior Koszul ranks
+of output-oriented dot-product and $C(2,3)$ blocks. It is not one of the 85
+archived optima. The report `mixed_family.json` checks the displayed formulas
+at $k=1,52,53,54,100$; the proof above supplies the all-k assertion.
+
+**Remaining construction question:** does $C(4,10k)$ degenerate to such a target
+for any $k\ge53$, allowing independent shared-output basis choices? No such
+degeneration is constructed here, and no impossibility theorem is claimed.
+Section 8 excludes the coordinate-selection and diagonal-weight ansatz; a
+successful construction would have to use more general changes of basis.
+Any construction would refute the pointwise scalar model $P_*$, because the
+shared-leg inequality gives the sum of block profiles. A finite refutation
+alone would not lower the exponent: the asymptotic growth implication must
+still be proved. Even constructions for every k in this fixed-shared-dimension
+family would first improve a thin-profile coefficient, not automatically the
+diagonal growth exponent.
+
+```sh
+python research/ai/2026-10-20-koszul/mixed_family.py \
+  --output results/koszul-2026-10-20/mixed_family.json
+```
+
+## 7. A target certificate and survival of all three full-leg Koszul families
+
+Use the same coefficient basis of binary cubics for the shared outputs. The
+four-block tensor for $k=1$ is
+
+$$T=\sum_{a+b+c+d=3}X_{a+c}Y_{a,b}Z_{c,d},$$
+
+where each input has the ten monomials of total degree at most three. It is the
+degree-three part of the product of two such polynomials. Splitting by input
+degrees gives precisely the four blocks in Section 6. The target for general
+k is $T\otimes B_X(k)$.
+
+**Explicit certificate.** Evaluate polynomials of total degree at most three
+at the ten integer nodes $(s,t)$ with $s,t\ge0$ and $s+t\le3$. Their evaluation
+matrix $V$ is invertible. For example, the falling-factorial basis indexed by
+the same lower set makes the matrix triangular with nonzero factorial diagonal.
+Let $w_{x,h}$ be the coefficient of $s^xt^{3-x}$ in the h-th interpolation basis
+polynomial, equivalently the corresponding entry of $V^{-1}$.
+
+The following sum has ten rank-one terms for every nonzero epsilon:
+
+$$\sum_{h=1}^{10}\epsilon^{-3}
+ \left(\sum_{x=0}^3w_{x,h}X_x\right)
+ F(\epsilon s_h,\epsilon t_h)G(\epsilon s_h,\epsilon t_h). \tag{4}$$
+
+For an input monomial product of total degree d, its contribution has power
+$\epsilon^{d-3}$. Interpolation reproduces degrees at most three, so all
+coefficients with $d<3$ vanish, and the degree-three coefficients are exactly
+the required ones. Degrees above three vanish in the limit. Thus (4) is a
+border-rank-ten certificate for T, with polynomial error of degree at most
+three after cancellation. Its Y-flattening has rank ten: each Y row has a
+nonempty support disjoint from every other row. Therefore
+
+$$\underline R(T)=10,\qquad
+\underline R(T\otimes B_X(k))=10k.$$
+
+The second equality follows from concatenating k copies of (4) for the upper
+bound and the $10k$-dimensional input flattening for the lower bound. It does
+not invoke general additivity of border rank. `fatpoint.py` exports the ten
+nodes, all rational weights and the exact leading tensor, checking all 400
+coefficient positions, including 60 negative-power cancellations and 80
+constant-coefficient comparisons.
+
+**Other-leg Koszul tests.** Write $B=10k$. Along the B-dimensional source input,
+formula (2) is full column rank $4\binom Bp$ for $p\le B-4$, so no target in
+the same spaces can exceed it. For $p\ge B-3$, it is
+$(p+4)\binom{B-1}p$. The target's border rank B bounds its Koszul rank by
+$B\binom{B-1}p$, strictly smaller. Along the $(B+3)$-dimensional source output,
+formula (1) is maximal matrix rank in every degree; padding the target by three
+zero output coordinates cannot exceed that rank. Section 6 handled the remaining
+four-dimensional leg.
+
+Hence the canonical target passes **all full-space Koszul flattenings on all
+three legs**, as well as the ordinary flattenings and border-rank comparison.
+This does not cover projected Koszul tests, other Young flattenings, or other
+orbit-closure equations. Certificate (4) starts from a diagonal tensor of rank
+ten, not from $C(4,10k)$; it does not supply the missing source degeneration.
+
+## 8. Why coordinate selection and diagonal weights cannot realize it
+
+Here the allowed maps retain subsets of the source monomial coordinates,
+rescale them, and apply integer weights; each target block must be recognized
+by coordinate reindexing. Arbitrary linear combinations of coordinates are
+outside this obstruction.
+
+A block with nonshared sizes $(u,v)$, $u+v=5$, and shared output size four has
+a full $u\times v$ rectangle of terms. In $C(4,B)$ a supported pair obeys
+$0\le z-y\le3$. If its retained Y and Z coordinates have widths $w_Y,w_Z$,
+then $w_Y+w_Z\le3$, while their cardinalities give
+$w_Y+w_Z\ge(u-1)+(v-1)=3$. Thus both coordinate sets are intervals, and if its
+Y interval starts at b, its Z interval is $[b+u-1,b+3]$.
+
+One surviving $C(2,3)$ rectangle forces the four X weights to be affine in
+their index: subtracting its zero-weight equations gives
+$w_X(1)-w_X(0)=w_X(2)-w_X(1)=w_X(3)-w_X(2)$. The affine part can be absorbed
+into Y and Z weights using $x=z-y$. In the resulting weights every block has
+a constant Y weight $c_i$ and a constant Z weight $-c_i$. Every cross term
+from block i's Y interval to block j's Z interval has weight $c_i-c_j$.
+If cross terms exist in both directions, neither can be retained, so both
+$c_i-c_j>0$ and $c_j-c_i>0$ would be required. This is impossible.
+
+Order the blocks by their disjoint Y intervals. Take adjacent blocks of widths
+$u,u'\le3$. If they have no unused Y coordinate between them, the source has
+cross terms in both directions: the first Y interval reaches the next Z
+interval since $u'\le3$, and the next Y interval reaches the first Z interval
+since $u\le3$. If their Z intervals overlap, the target is already invalid.
+Therefore each adjacency between two blocks of Y width at most three requires
+at least one unused Y coordinate.
+
+There are $3k$ such blocks and only k width-four blocks. The small blocks form
+at most $k+1$ runs, leaving at least $3k-(k+1)=2k-1$ small-small adjacencies.
+Their occupied Y coordinates total $10k$. Consequently any degeneration in
+this ansatz requires
+
+$$\boxed{B\ge10k+(2k-1)=12k-1>10k.} \tag{5}$$
+
+This eliminates the candidate family from the monomial search class at every
+k. It does not eliminate arbitrary basis changes. The construction problem in
+Section 6 is deliberately left at that sharper boundary.
+
 ## Sources
 
 - OpenAI, *An Upper Bound of 9/4 for the Matrix Multiplication Exponent*,

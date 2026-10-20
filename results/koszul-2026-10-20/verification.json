@@ -1,0 +1,74 @@
+{
+  "status": "39 regression tests passed; exact certificate replays passed; written proofs unreviewed",
+  "new_exponent_established": false,
+  "test_command": "python -m unittest discover -s tests -v",
+  "test_count": 39,
+  "direct_coefficient_matrix_checks": {
+    "oriented_convolutions": 180,
+    "padded_convolutions": 27,
+    "four_block_target": 4
+  },
+  "saved_packings_checked": 85,
+  "saved_packings_excluded": 85,
+  "fatpoint_coefficient_positions_checked": 400,
+  "mixed_family_report_k": [
+    1,
+    52,
+    53,
+    54,
+    100
+  ],
+  "board_rank_scan_n": [
+    3,
+    40
+  ],
+  "baseline_archive_replay": {
+    "status": "passed",
+    "python": "3.14.8",
+    "sympy": "1.14.0",
+    "platform": "Linux-7.2.10-arch1-1-x86_64-with-glibc2.44",
+    "archive_files_verified": 10,
+    "runs": [
+      {
+        "report": "profile_checks.json",
+        "total_exact_grid_checks": 73856,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 1.129192944004899
+      },
+      {
+        "report": "product_filtration_checks.json",
+        "exact_inequalities_checked": 353664,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 10.327519431011751
+      },
+      {
+        "report": "binary_search.json",
+        "cases_tested": 12976,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 2.01799332399969
+      },
+      {
+        "report": "ternary_search.json",
+        "cases_tested": 209692,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 38.33921122600441
+      },
+      {
+        "report": "random_search.json",
+        "cases_tested": 20000,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 5.6154567649937235
+      }
+    ],
+    "limits": "Finite reproduction only. No independent proof review or Lean build.",
+    "elapsed_seconds": 59.68869104901387,
+    "total_weight_candidates": 242668
+  },
+  "limits": [
+    "General statements rely on unreviewed written proofs and attributed external theorems.",
+    "No C(4,10k) to mixed-target degeneration is constructed.",
+    "The monomial obstruction permits no arbitrary basis changes.",
+    "No positive uniform curvature bound is established.",
+    "No external Lean proof was rebuilt."
+  ]
+}
