@@ -41,10 +41,29 @@ The capacity branch integrates main `a83bc24` into its exact checkpoint
 retains main's attribution to both overlapping all-size arguments. The
 status additions are combined, with no archived research changes. All 164
 combined tests pass locally under the pinned SymPy 1.14.0 environment; the
-log is `results/mixed-restrictions-2026-10-20/combined-tests.txt`.
+log is `results/mixed-restrictions-2026-10-20/combined-tests-164.txt`.
 
 The new written, unreviewed asymptotic coordinate-input capacity bound is
 `3/2-sqrt(3)/4`; it is not a smaller matrix exponent. Its claim ID is
 AI-MIXED-ASYM-CAPACITY-001 and its exact scope is recorded in the linked
 mixed-restrictions package. The next construction still requires singular,
 nondiagonal shared behavior beyond the closed coordinate-input family.
+
+## Follow-up graded-obstruction integration
+
+The Koszul worker then integrated main at `a83bc24` with its newer proof
+checkpoint `635bf48` and PR #1 head `3898d54`. This adds the nonsingular-block
+extension and the two graded-weight-region obstructions. All 162 tests pass
+on the combined tree; the only merge conflicts were in `STATUS.md` and
+`docs/research_directions.md`, and both source packages' conclusions and
+attributions were retained. The historical archive bytes remain unchanged.
+The full baseline replay also passed on the Koszul source before integration;
+the prior four-lane replay receipt above remains intact. Exact receipts for
+the update are `graded-update-tests.txt` and `graded-update-summary.json` in
+the same results directory. No theorem status or exponent was promoted.
+
+The next update integrates protected-workflow main `6cfa5a9` and the latest
+source-obstruction work. All 169 combined tests pass; the distinct report is
+`results/mixed-restrictions-2026-10-20/combined-tests-169.txt`. Both historical
+archives remain unchanged. The capacity PR follows the newly required CI
+and squash-merge policy; no rule bypass or direct main push is used.

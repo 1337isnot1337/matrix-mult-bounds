@@ -3,6 +3,9 @@ test_minimum_interval_gap_by_all_orderings (test_all_dimension_targets.AllDimens
 test_report_replay (test_all_dimension_targets.AllDimensionTests.test_report_replay) ... ok
 test_shared_koszul_matrices (test_all_dimension_targets.AllDimensionTests.test_shared_koszul_matrices) ... ok
 test_weights_against_evaluation_inverse (test_all_dimension_targets.AllDimensionTests.test_weights_against_evaluation_inverse) ... ok
+test_session2_archive_hashes (test_archive_integrity.ArchiveIntegrityTests.test_session2_archive_hashes) ... ok
+test_session2_manifest_covers_all_archived_files (test_archive_integrity.ArchiveIntegrityTests.test_session2_manifest_covers_all_archived_files) ... ok
+test_session2_manifest_unchanged (test_archive_integrity.ArchiveIntegrityTests.test_session2_manifest_unchanged) ... ok
 test_corrected_window (test_board_thresholds.ThresholdTests.test_corrected_window) ... ok
 test_report_replay (test_board_thresholds.ThresholdTests.test_report_replay) ... ok
 test_strict_power_boundary (test_board_thresholds.ThresholdTests.test_strict_power_boundary) ... ok
@@ -131,6 +134,8 @@ test_identity_is_sharp_in_every_tested_degree (test_rotated_catalecticants.Rotat
 test_independent_tensor_assembly (test_rotated_catalecticants.RotatedCatalecticantTests.test_independent_tensor_assembly) ... ok
 test_replay_rank_report (test_rotated_catalecticants.RotatedCatalecticantTests.test_replay_rank_report) ... ok
 test_singular_basis_is_outside_the_lemma (test_rotated_catalecticants.RotatedCatalecticantTests.test_singular_basis_is_outside_the_lemma) ... ok
+test_small_slope_support_cover (test_rotated_catalecticants.RotatedCatalecticantTests.test_small_slope_support_cover) ... ok
+test_triangular_nonsingular_blocks (test_rotated_catalecticants.RotatedCatalecticantTests.test_triangular_nonsingular_blocks) ... ok
 test_draft_status (test_session2_checkpoint.CheckpointTests.test_draft_status) ... ok
 test_full_dimension_replay (test_session2_checkpoint.CheckpointTests.test_full_dimension_replay) ... ok
 test_invalid_inputs (test_session2_checkpoint.CheckpointTests.test_invalid_inputs) ... ok
@@ -164,6 +169,6 @@ test_standard_cw_border_coefficients (test_truncated_algebras.TruncatedAlgebraTe
 test_two_sector_coefficients (test_truncated_algebras.TruncatedAlgebraTests.test_two_sector_coefficients) ... ok
 
 ----------------------------------------------------------------------
-Ran 164 tests in 43.641s
+Ran 169 tests in 42.471s
 
 OK

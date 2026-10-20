@@ -22,9 +22,9 @@ extracting several label fibers together. A new constraint must force stronger
 growth for every relevant character before it can affect $\omega$.
 
 The concurrent proof at `712c91a` supplies another compatibility argument;
-see [the pinned comparison](concurrent_research.md).
-
-
+see [the pinned comparison](concurrent_research.md) and its
+[local proof](../research/ai/2026-10-20-affine-direct-sums/research_note.md).
+Extending the completed fixed-label grid cannot produce a smaller exponent.
 
 ## R3: Search outside identical single-source sectors
 
