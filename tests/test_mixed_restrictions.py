@@ -5,6 +5,7 @@ import importlib.util
 import json
 from pathlib import Path
 import unittest
+from itertools import product
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "research/ai/2026-10-20-mixed-restrictions"
@@ -20,6 +21,7 @@ def load(name):
 
 checks = load("check")
 collision = load("collision_search")
+combinatorics = load("collision_combinatorics")
 
 
 class MixedRestrictionTests(unittest.TestCase):
@@ -73,6 +75,33 @@ class MixedRestrictionTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(path.with_suffix(".smt2").read_bytes()).hexdigest(),
                              report["query_sha256"])
             self.assertFalse(report["unrestricted_nonexistence_claim"])
+
+    def test_word_gap_lemma_exact_controls(self):
+        for alphabet, maximum in [(2, 9), (3, 7)]:
+            for n in range(5, maximum+1):
+                for word in product(range(alphabet), repeat=n):
+                    if not combinatorics.end_exception_word(word):
+                        self.assertGreaterEqual(combinatorics.word_defect(word), 2*n-4)
+
+    def test_permutation_classification(self):
+        for m in range(6, 9):
+            actual = combinatorics.normalized_permutations(m, m-1)
+            expected = combinatorics.endpoint_candidates(m)
+            self.assertEqual(sorted(actual), sorted(expected))
+
+    def test_witness_output_capacity(self):
+        for name in ["collision-m2-control", "collision-m3-control", "collision-m4-B11"]:
+            witness = json.loads((RESULTS / (name + ".json")).read_text())["witness"]
+            m, B = witness["m"], witness["B"]
+            rows = [set(row) for row in witness["output_source_indices"]]
+            self.assertEqual(sum(map(len, rows)), len(set.union(*rows)))
+            excess = sum(len(row)-1 for row in rows)
+            self.assertGreaterEqual(excess, combinatorics.repetition_defect(witness["source_x_indices"]))
+            self.assertLessEqual(excess, B+m-1-m*(m+1)//2)
+
+    def test_all_size_endpoint_capacity(self):
+        for m in range(10, 300):
+            self.assertGreater((m-5)*(m+1)+2, m*(m+1)//2)
 
 
 if __name__ == "__main__":

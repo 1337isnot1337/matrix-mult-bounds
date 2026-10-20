@@ -1,0 +1,20 @@
+{
+  "m": 5,
+  "source_A": 5,
+  "B": 15,
+  "N": 15,
+  "slope": 1,
+  "solver": "4.15.3",
+  "solver_seed": 812870228,
+  "timeout_ms": 30000,
+  "collision_implications": 2520,
+  "query_sha256": "65fae50458c8c5a51d0acd7ba7d46d084f3811c122de1e33c5bf85c4a2b16669",
+  "result": "unsat",
+  "unrestricted_nonexistence_claim": false,
+  "scope": "Coordinate injections on both input legs, arbitrary output-coordinate sums, target-compatible affine internal weights.",
+  "capacity_cuts": {
+    "active_sets_disjoint": true,
+    "excess_capacity": 4,
+    "normalized_shared_candidates": 9
+  }
+}

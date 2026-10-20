@@ -97,3 +97,9 @@ a C(4,11) to T_4 degeneration. Z3 reports UNSAT for m=4,B=10 in this larger
 finite ansatz; m=5,B=15 timed out. No unbounded construction or smaller
 exponent is proved. The local restriction and equivariant-flattening notes
 independently overlap concurrent results, which are explicitly credited.
+
+The [capacity refinement](research/ai/2026-10-20-mixed-restrictions/collision_capacity.md)
+now excludes the exact-length permutation/collision ansatz for all m>=10.
+The proof is written and unreviewed; near-unit asymptotic overhead remains
+open. Proved solver cuts preserve the m=2,3 SAT controls and resolve the
+m=5 query as UNSAT. The m=6 run times out; it supplies no exclusion.

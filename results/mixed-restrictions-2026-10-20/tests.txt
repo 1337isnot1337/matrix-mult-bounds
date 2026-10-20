@@ -20,13 +20,17 @@ test_degenerate_lines_rejected (test_full_direct_sums.FullDirectSumTests.test_de
 test_interval_fourth_power_certificate (test_full_direct_sums.FullDirectSumTests.test_interval_fourth_power_certificate) ... ok
 test_recorded_report_and_weights (test_full_direct_sums.FullDirectSumTests.test_recorded_report_and_weights) ... ok
 test_small_exhaustive_matching_bound (test_full_direct_sums.FullDirectSumTests.test_small_exhaustive_matching_bound) ... ok
+test_all_size_endpoint_capacity (test_mixed_restrictions.MixedRestrictionTests.test_all_size_endpoint_capacity) ... ok
 test_duplicate_output_coefficient_is_rejected (test_mixed_restrictions.MixedRestrictionTests.test_duplicate_output_coefficient_is_rejected) ... ok
 test_m2_control_requires_a_real_output_collision (test_mixed_restrictions.MixedRestrictionTests.test_m2_control_requires_a_real_output_collision) ... ok
 test_minimum_and_maximum_target_slices (test_mixed_restrictions.MixedRestrictionTests.test_minimum_and_maximum_target_slices) ... ok
 test_negative_supported_weight_is_rejected (test_mixed_restrictions.MixedRestrictionTests.test_negative_supported_weight_is_rejected) ... ok
+test_permutation_classification (test_mixed_restrictions.MixedRestrictionTests.test_permutation_classification) ... ok
 test_saved_queries_match_report_hashes (test_mixed_restrictions.MixedRestrictionTests.test_saved_queries_match_report_hashes) ... ok
 test_saved_sat_witnesses_without_solver (test_mixed_restrictions.MixedRestrictionTests.test_saved_sat_witnesses_without_solver) ... ok
 test_source_slices_and_canonical_cost (test_mixed_restrictions.MixedRestrictionTests.test_source_slices_and_canonical_cost) ... ok
+test_witness_output_capacity (test_mixed_restrictions.MixedRestrictionTests.test_witness_output_capacity) ... ok
+test_word_gap_lemma_exact_controls (test_mixed_restrictions.MixedRestrictionTests.test_word_gap_lemma_exact_controls) ... ok
 test_closed_product_matches_recurrence (test_research.ProfileTests.test_closed_product_matches_recurrence) ... ok
 test_concavity_identity (test_research.ProfileTests.test_concavity_identity) ... ok
 test_conditional_numeric_example (test_research.ProfileTests.test_conditional_numeric_example) ... ok
@@ -65,6 +69,6 @@ test_standard_cw_border_coefficients (test_truncated_algebras.TruncatedAlgebraTe
 test_two_sector_coefficients (test_truncated_algebras.TruncatedAlgebraTests.test_two_sector_coefficients) ... ok
 
 ----------------------------------------------------------------------
-Ran 65 tests in 12.355s
+Ran 69 tests in 12.648s
 
 OK

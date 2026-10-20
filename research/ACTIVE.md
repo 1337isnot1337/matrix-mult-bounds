@@ -36,7 +36,7 @@ the first-pass archive unchanged; do not change repository visibility.
 
 Validation environment: `/tmp/matrix-mult-research-venv/bin/python`, Python
 3.12.3, SymPy 1.14.0. The host SymPy 1.12 does not satisfy archive replay.
-The earlier full archive replay passed locally. The current 65-test suite also passed; its log is in results/mixed-restrictions-2026-10-20/tests.txt.
+The earlier full archive replay passed locally. The current 69-test suite also passed; its log is in results/mixed-restrictions-2026-10-20/tests.txt.
 Hosted job 118867495049 at `89ebb78` ran zero steps: GitHub reported failed
 account payments or a spending limit. That is unavailable CI infrastructure,
 not evidence that tests ran and failed. No billing changes were attempted.
@@ -49,8 +49,9 @@ coordinate permutations and output-coordinate sums. Exact witnesses pass for
 m=2,3 and m=4 at B=11; the m=4,B=10 query is UNSAT, while m=5,B=15 timed
 out. Allowing A=m+1 also gives UNSAT at m=4 and a timeout at m=5.
 This has no asymptotic short-leg cost if an unbounded family can be found.
-No such family is proved. Next: exploit the necessary disjointness of
-source output sets belonging to distinct target output coordinates, then
-move beyond this coordinate ansatz if its overhead remains too large. The independently rediscovered ordinary-restriction and shared-leg
+No such family is proved. The active-output and word-repetition proof now excludes B=N at all m>=10.
+Refined SMT cuts preserve the m=2,3 SAT controls, resolve m=5 as UNSAT and
+time out at m=6. Next: quantify the repetition bound for B>N, then move
+beyond coordinate input maps if its overhead remains too large. The independently rediscovered ordinary-restriction and shared-leg
 flattening arguments overlap concurrent d2d505c and 6bdab15, respectively.
 See research/ai/2026-10-20-mixed-restrictions/README.md for precise coverage.

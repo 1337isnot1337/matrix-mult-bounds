@@ -64,7 +64,8 @@ def verify_witness(witness):
             "discarded_positive_terms": positive, "coefficient_verified": True}
 
 
-def search(m, B, timeout_ms=60000, seed=0, slope=1, query_path=None, source_A=None):
+def search(m, B, timeout_ms=60000, seed=0, slope=1, query_path=None, source_A=None,
+           capacity_cuts=False):
     import z3
 
     D = m - 1
@@ -79,6 +80,29 @@ def search(m, B, timeout_ms=60000, seed=0, slope=1, query_path=None, source_A=No
     s.add(*[z3.And(v >= 0, v < A) for v in xp], z3.Distinct(*xp))
     s.add(*[z3.And(v >= 0, v < B) for v in yp], z3.Distinct(*yp))
     s.add(eta[0] == 0)
+    capacity_metadata = None
+    if capacity_cuts:
+        import collision_combinatorics as combinatorics
+
+        s.add(xp[0] < xp[-1])  # Reflect both source inputs if necessary.
+        active = []
+        for z, (gamma, delta) in enumerate(coordinates):
+            sector = m-gamma-delta
+            for i, (a, b) in enumerate(coordinates):
+                if a+b+1 == sector:
+                    active.append((z, yp[i]+xp[a+gamma]))
+        for index, (z, value) in enumerate(active):
+            for other_z, other_value in active[index+1:]:
+                if z != other_z:
+                    s.add(value != other_value)
+        capacity_metadata = {"active_sets_disjoint": True,
+                             "excess_capacity": A+B-1-N}
+        if A == m and B == N:
+            candidates = (combinatorics.endpoint_candidates(m) if m >= 6 else
+                          combinatorics.normalized_permutations(m, m-1))
+            s.add(z3.Or(*[z3.And(*[xp[i] == value for i, value in enumerate(candidate)])
+                          for candidate in candidates]))
+            capacity_metadata["normalized_shared_candidates"] = len(candidates)
     count = 0
     for z, (gamma, delta) in enumerate(coordinates):
         sector = m - gamma - delta
@@ -105,6 +129,8 @@ def search(m, B, timeout_ms=60000, seed=0, slope=1, query_path=None, source_A=No
               "query_sha256": hashlib.sha256(query.encode()).hexdigest(),
               "result": str(result), "unrestricted_nonexistence_claim": False,
               "scope": "Coordinate injections on both input legs, arbitrary output-coordinate sums, target-compatible affine internal weights."}
+    if capacity_metadata is not None:
+        report["capacity_cuts"] = capacity_metadata
     if result == z3.sat:
         model = s.model()
         xi = [model.eval(v).as_long() for v in xp]
@@ -135,6 +161,7 @@ if __name__ == "__main__":
     parser.add_argument("--m", type=int, default=4)
     parser.add_argument("--B", type=int)
     parser.add_argument("--source-A", type=int)
+    parser.add_argument("--capacity-cuts", action="store_true")
     parser.add_argument("--timeout-ms", type=int, default=60000)
     parser.add_argument("--seed", type=int)
     parser.add_argument("--slope", type=int, default=1)
@@ -144,6 +171,7 @@ if __name__ == "__main__":
     B = args.B if args.B is not None else args.m*(args.m+1)//2
     args.output.parent.mkdir(parents=True, exist_ok=True)
     result = search(args.m, B, args.timeout_ms, seed, args.slope,
-                    args.output.with_suffix(".smt2"), source_A=args.source_A)
+                    args.output.with_suffix(".smt2"), source_A=args.source_A,
+                    capacity_cuts=args.capacity_cuts)
     args.output.write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps({key: value for key, value in result.items() if key != "witness"}, indent=2))

@@ -89,3 +89,17 @@ shared-leg equivariant flattening argument is subsumed by `6bdab15`.
 Neither excludes general Laurent-parameter degenerations. The actual
 construction problem remains open; repeating this ansatz unchanged is not
 the next step.
+
+## Capacity refinement
+
+The [active-output capacity proof](collision_capacity.md) closes the exact
+C(m,N) permutation/collision ansatz for every m>=10. It allows arbitrary
+shared-coordinate permutations, extending beyond the fixed polynomial-space
+identification. It remains a written, unreviewed restricted-ansatz theorem;
+B=N+O(m) and general input mixing are left open.
+
+Adding the proved disjoint-output and repetition cuts to the SMT queries
+recovers SAT at m=2,3 and independently replays both witnesses. It changes
+the m=5 minimum-length query from timeout to UNSAT. The m=6 refined query
+still times out. The zero-internal-slope m=4 query is also UNSAT. Each new
+query is retained separately, preserving the original records.
