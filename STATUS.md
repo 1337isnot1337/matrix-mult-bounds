@@ -121,7 +121,8 @@ The [external source review](docs/external_followups.md) covers the three reposi
 ## Koszul research pass
 
 [General proof and scope](research/ai/2026-10-20-koszul/research_note.md) |
-[Exact candidate audit](results/koszul-2026-10-20/candidate_audit.json)
+[Exact candidate audit](results/koszul-2026-10-20/candidate_audit.json) |
+[Supplementary claim ledger](research/ai/2026-10-20-koszul/claims.json)
 
 Written, unreviewed formulas now give every Koszul-flattening rank of a
 convolution in every leg orientation, including padding of the shared space.
@@ -141,3 +142,66 @@ research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
 window. At n=38 only rank 3585 survives the two lower bounds used here. This
 does not exclude or construct border-rank algorithms.
+
+Two further results sharpen the next construction target:
+
+- [Mixed-sector survivor](research/ai/2026-10-20-koszul/research_note.md#6-an-all-size-family-that-these-necessary-tests-do-not-exclude):
+  an explicit all-k family passes every full-space Koszul test on all three legs. Its score exceeds
+  P_* from k=53 onward (first source C(4,530), ratio 37206/37205). The degeneration
+  is unconstructed. Its canonical target has an explicit border-rank-10k
+  certificate, but coordinate selection plus diagonal weights cannot realize it
+  from that source: this restricted ansatz requires source length at least
+  12k-1. Arbitrary changes of basis remain outside the obstruction.
+- [Actual-profile rigidity](research/ai/2026-10-20-koszul/scaling_rigidity.md):
+  Uznański's rescaling theorem and a one-sided derivative proof remove the second
+  pass's missing analytic bridge and global C1 assumption. Every critical
+  character must have the stated homogeneous profile. The curvature criterion
+  now applies to actual characters, but a uniform positive curvature gain remains
+  unproved. No exponent improvement follows yet.
+
+The [all-dimension extension](research/ai/2026-10-20-koszul/all_dimension_targets.md)
+now provides explicit targets T_m of dimensions (m,N,N), N=m(m+1)/2,
+with border rank N and an all-size full-space Koszul survival proof. A source
+degeneration C(m,B_m) to repeated copies, at asymptotic overhead below
+9/(7*cuberoot(2))-1, would imply a smaller exponent. At zero overhead the
+proved **conditional** implication gives omega<=125/56. The source
+degenerations are unconstructed. Coordinate selection and diagonal weights
+require asymptotically 50 percent overhead, so that ansatz cannot meet the
+criterion. Exact replay covers 20,153 interpolation coefficients, 3,276
+shared-leg Koszul degrees, and 495 gap-formula cases; five dedicated tests pass.
+
+[Broader source obstructions](research/ai/2026-10-20-koszul/source_obstructions.md)
+now exclude ordinary linear restrictions at low overhead, even with arbitrary
+bases. A catalecticant argument also excludes arbitrary polynomial Y/Z changes
+when X keeps its binary-form coefficient structure. General shared-factor
+changes remain open. Exact coefficient controls construct the m=2 all-k and
+m=3,k=1 cases; these fixed dimensions do not meet the growth criterion.
+Bounded real/complex orbit fits found no new certificate and are not exclusions.
+The polynomial-matrix argument in that note also shows why every projected
+shared Koszul test and every linear equivariant Young/Pieri test of its stated
+form must pass against this border-rank-B target. It does not cover all
+other-factor or nonlinear invariants.
+
+The concurrent minimum-slice argument strengthens the ordinary-restriction
+overhead to asymptotically 100 percent; it is adopted with attribution to
+`d2d505c`. A new [polynomial-basis audit](research/ai/2026-10-20-koszul/orthogonal_bases.md)
+excludes degree-ordered orthogonal coordinate degenerations at low overhead
+for all dimensions. Its exact Chebyshev permutation reduction additionally
+excludes nonidentity shared orders for m=4,...,38, for every k and admissible B.
+The latter is a finite enumeration, not an all-size theorem. Independent
+small enumerations and normalized small construction controls pass. General
+shared-factor transformations remain open.
+
+A further [biform proof](research/ai/2026-10-20-koszul/arbitrary_shared_basis.md)
+shows that the same catalecticant lower bound survives **every constant
+invertible shared basis**, including independent identifications of the target
+blocks. It therefore closes the enlarged constant-G graded search as well.
+The proof uses a standard projective-dimension argument and remains unreviewed;
+360 exact transformed-block ranks and independent coefficient checks support
+its implementation. A genuinely singular shared map is still outside it.
+
+Concurrent results are indexed with pinned commits in
+[the collaboration review](docs/concurrent_research.md). They close the old
+fixed-label filtration question and supply additional constructions and
+obstructions, with their stated review and verification limits. They do not
+establish an exponent improvement.

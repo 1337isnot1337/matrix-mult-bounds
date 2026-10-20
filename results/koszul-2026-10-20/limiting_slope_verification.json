@@ -1,0 +1,15 @@
+{
+  "status": "five relevant tests pass after adopting the stronger conditional estimate",
+  "adopted_source_commit": "cf79709",
+  "test_command": "python -m unittest discover -s tests -p test_all_dimension_targets.py -v",
+  "tests_passed": 5,
+  "previous_full_suite": {
+    "head": "9373e89",
+    "tests_passed": 49,
+    "log": "source_obstruction_tests.txt"
+  },
+  "exact_conditional_bound": "125/56",
+  "new_exponent_established": false,
+  "construction_premise": "H(1) remains unconstructed",
+  "quantifier_review": "The limiting-slope estimate applies to a single unbounded joint sequence (m,k_m,B_m), since B_m/m tends to infinity by flattening dimensions."
+}

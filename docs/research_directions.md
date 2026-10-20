@@ -21,6 +21,10 @@ Further work must retain information absent from these families, for example
 extracting several label fibers together. A new constraint must force stronger
 growth for every relevant character before it can affect $\omega$.
 
+The concurrent proof at `712c91a` supplies another compatibility argument;
+see [the pinned comparison](concurrent_research.md).
+
+
 ## R3: Search outside identical single-source sectors
 
 Status: open. The flattening obstruction closes only shorter single-convolution sources with identical targets and the stated shared leg.
@@ -29,6 +33,20 @@ Update, October 20: [closed Koszul rank formulas](../research/ai/2026-10-20-kosz
 reject all 85 saved second-pass packings, including the former optimum. Use
 these necessary tests before trying to realize another packing. They do not
 exclude all alternatives or establish sufficiency.
+
+The [four-dimensional mixed family](../research/ai/2026-10-20-koszul/research_note.md#6-an-all-size-family-that-these-necessary-tests-do-not-exclude)
+survives all three full-space Koszul families and beats P_* for k>=53. Its
+canonical target has a border-rank certificate, while the coordinate-weight
+source ansatz is excluded by B>=12k-1. Determine its degeneration status under
+general basis changes. Passing the rank screens is not a construction; a finite
+model refutation still needs a growth argument.
+
+The [all-dimension extension](../research/ai/2026-10-20-koszul/all_dimension_targets.md)
+supplies that growth argument for a specific unbounded sequence: realizing its
+targets with source overhead below 2.04721048 percent would force omega<9/4.
+No such sequence is constructed. The coordinate-weight ansatz has an all-size
+50 percent asymptotic overhead obstruction; investigate general bases or a
+different construction.
 
 Investigate unequal sectors, tensor-product sources, or explicit basis changes. State all source and target leg dimensions. Certify the resulting coefficient identities or degeneration weights exactly. Account for any auxiliary tensor rather than cancelling it without justification.
 
@@ -45,6 +63,10 @@ character must have limiting shape
 `K min(x,y)^(1/3)(max(x,y)+min(x,y)/2)` for some `K>0`.
 Find a new asymptotic tensor constraint excluding every such amplitude, or
 prove a positive normalized curvature gain. Neither is currently proved.
+
+The [actual-character bridge](../research/ai/2026-10-20-koszul/scaling_rigidity.md)
+supplies an overlapping proof with the external rescaling theorem.
+
 
 A proposed solution must state its quantifiers and scale propagation. A single-size gain, a larger prefactor, or a character-dependent gain tending to zero does not establish the displayed uniform conclusion.
 

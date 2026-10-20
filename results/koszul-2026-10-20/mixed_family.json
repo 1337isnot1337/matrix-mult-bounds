@@ -1,0 +1,543 @@
+{
+  "status": "necessary-test survivor; not a tensor degeneration or exponent bound",
+  "proof": "research_note.md, Section 6",
+  "first_positive_surplus_in_this_family": 53,
+  "limiting_profile_ratio": "351/350",
+  "cases": [
+    {
+      "k": 1,
+      "source_convolution": [
+        4,
+        10
+      ],
+      "source_dimensions": [
+        4,
+        10,
+        13
+      ],
+      "target_dimensions": [
+        4,
+        10,
+        10
+      ],
+      "shared_identification": "All outputs use the same coefficient basis s^x t^(3-x).",
+      "target_border_rank": 10,
+      "sector_types": [
+        {
+          "convolution": [
+            1,
+            4
+          ],
+          "shared_axis": "output",
+          "multiplicity": 1
+        },
+        {
+          "convolution": [
+            4,
+            1
+          ],
+          "shared_axis": "output",
+          "multiplicity": 1
+        },
+        {
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_axis": "output",
+          "multiplicity": 1
+        },
+        {
+          "convolution": [
+            3,
+            2
+          ],
+          "shared_axis": "output",
+          "multiplicity": 1
+        }
+      ],
+      "block_ranks": [
+        [
+          1,
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          4,
+          1
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "source_ranks": [
+        10,
+        33,
+        36,
+        13
+      ],
+      "target_ranks": [
+        10,
+        30,
+        30,
+        10
+      ],
+      "rank_slack": [
+        0,
+        3,
+        6,
+        3
+      ],
+      "source_profile": "1610/81",
+      "target_profile": "52/3",
+      "profile_surplus": "-206/81",
+      "profile_ratio": "702/805",
+      "passes_shared_leg_koszul": true,
+      "passes_other_full_leg_koszul": true,
+      "other_leg_justification": "research_note.md Section 7: maximal source ranks or the target border-rank bound",
+      "coordinate_weight_source_length_lower_bound": 11,
+      "coordinate_weight_degeneration_excluded": true,
+      "degeneration_constructed": false
+    },
+    {
+      "k": 52,
+      "source_convolution": [
+        4,
+        520
+      ],
+      "source_dimensions": [
+        4,
+        520,
+        523
+      ],
+      "target_dimensions": [
+        4,
+        520,
+        520
+      ],
+      "shared_identification": "All outputs use the same coefficient basis s^x t^(3-x).",
+      "target_border_rank": 520,
+      "sector_types": [
+        {
+          "convolution": [
+            1,
+            4
+          ],
+          "shared_axis": "output",
+          "multiplicity": 52
+        },
+        {
+          "convolution": [
+            4,
+            1
+          ],
+          "shared_axis": "output",
+          "multiplicity": 52
+        },
+        {
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_axis": "output",
+          "multiplicity": 52
+        },
+        {
+          "convolution": [
+            3,
+            2
+          ],
+          "shared_axis": "output",
+          "multiplicity": 52
+        }
+      ],
+      "block_ranks": [
+        [
+          1,
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          4,
+          1
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "source_ranks": [
+        520,
+        1563,
+        1566,
+        523
+      ],
+      "target_ranks": [
+        520,
+        1560,
+        1560,
+        520
+      ],
+      "rank_slack": [
+        0,
+        3,
+        6,
+        3
+      ],
+      "source_profile": "73010/81",
+      "target_profile": "2704/3",
+      "profile_surplus": "-2/81",
+      "profile_ratio": "36504/36505",
+      "passes_shared_leg_koszul": true,
+      "passes_other_full_leg_koszul": true,
+      "other_leg_justification": "research_note.md Section 7: maximal source ranks or the target border-rank bound",
+      "coordinate_weight_source_length_lower_bound": 623,
+      "coordinate_weight_degeneration_excluded": true,
+      "degeneration_constructed": false
+    },
+    {
+      "k": 53,
+      "source_convolution": [
+        4,
+        530
+      ],
+      "source_dimensions": [
+        4,
+        530,
+        533
+      ],
+      "target_dimensions": [
+        4,
+        530,
+        530
+      ],
+      "shared_identification": "All outputs use the same coefficient basis s^x t^(3-x).",
+      "target_border_rank": 530,
+      "sector_types": [
+        {
+          "convolution": [
+            1,
+            4
+          ],
+          "shared_axis": "output",
+          "multiplicity": 53
+        },
+        {
+          "convolution": [
+            4,
+            1
+          ],
+          "shared_axis": "output",
+          "multiplicity": 53
+        },
+        {
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_axis": "output",
+          "multiplicity": 53
+        },
+        {
+          "convolution": [
+            3,
+            2
+          ],
+          "shared_axis": "output",
+          "multiplicity": 53
+        }
+      ],
+      "block_ranks": [
+        [
+          1,
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          4,
+          1
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "source_ranks": [
+        530,
+        1593,
+        1596,
+        533
+      ],
+      "target_ranks": [
+        530,
+        1590,
+        1590,
+        530
+      ],
+      "rank_slack": [
+        0,
+        3,
+        6,
+        3
+      ],
+      "source_profile": "74410/81",
+      "target_profile": "2756/3",
+      "profile_surplus": "2/81",
+      "profile_ratio": "37206/37205",
+      "passes_shared_leg_koszul": true,
+      "passes_other_full_leg_koszul": true,
+      "other_leg_justification": "research_note.md Section 7: maximal source ranks or the target border-rank bound",
+      "coordinate_weight_source_length_lower_bound": 635,
+      "coordinate_weight_degeneration_excluded": true,
+      "degeneration_constructed": false
+    },
+    {
+      "k": 54,
+      "source_convolution": [
+        4,
+        540
+      ],
+      "source_dimensions": [
+        4,
+        540,
+        543
+      ],
+      "target_dimensions": [
+        4,
+        540,
+        540
+      ],
+      "shared_identification": "All outputs use the same coefficient basis s^x t^(3-x).",
+      "target_border_rank": 540,
+      "sector_types": [
+        {
+          "convolution": [
+            1,
+            4
+          ],
+          "shared_axis": "output",
+          "multiplicity": 54
+        },
+        {
+          "convolution": [
+            4,
+            1
+          ],
+          "shared_axis": "output",
+          "multiplicity": 54
+        },
+        {
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_axis": "output",
+          "multiplicity": 54
+        },
+        {
+          "convolution": [
+            3,
+            2
+          ],
+          "shared_axis": "output",
+          "multiplicity": 54
+        }
+      ],
+      "block_ranks": [
+        [
+          1,
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          4,
+          1
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "source_ranks": [
+        540,
+        1623,
+        1626,
+        543
+      ],
+      "target_ranks": [
+        540,
+        1620,
+        1620,
+        540
+      ],
+      "rank_slack": [
+        0,
+        3,
+        6,
+        3
+      ],
+      "source_profile": "25270/27",
+      "target_profile": "936",
+      "profile_surplus": "2/27",
+      "profile_ratio": "12636/12635",
+      "passes_shared_leg_koszul": true,
+      "passes_other_full_leg_koszul": true,
+      "other_leg_justification": "research_note.md Section 7: maximal source ranks or the target border-rank bound",
+      "coordinate_weight_source_length_lower_bound": 647,
+      "coordinate_weight_degeneration_excluded": true,
+      "degeneration_constructed": false
+    },
+    {
+      "k": 100,
+      "source_convolution": [
+        4,
+        1000
+      ],
+      "source_dimensions": [
+        4,
+        1000,
+        1003
+      ],
+      "target_dimensions": [
+        4,
+        1000,
+        1000
+      ],
+      "shared_identification": "All outputs use the same coefficient basis s^x t^(3-x).",
+      "target_border_rank": 1000,
+      "sector_types": [
+        {
+          "convolution": [
+            1,
+            4
+          ],
+          "shared_axis": "output",
+          "multiplicity": 100
+        },
+        {
+          "convolution": [
+            4,
+            1
+          ],
+          "shared_axis": "output",
+          "multiplicity": 100
+        },
+        {
+          "convolution": [
+            2,
+            3
+          ],
+          "shared_axis": "output",
+          "multiplicity": 100
+        },
+        {
+          "convolution": [
+            3,
+            2
+          ],
+          "shared_axis": "output",
+          "multiplicity": 100
+        }
+      ],
+      "block_ranks": [
+        [
+          1,
+          4,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          4,
+          1
+        ],
+        [
+          2,
+          8,
+          12,
+          3
+        ],
+        [
+          3,
+          12,
+          8,
+          2
+        ]
+      ],
+      "source_ranks": [
+        1000,
+        3003,
+        3006,
+        1003
+      ],
+      "target_ranks": [
+        1000,
+        3000,
+        3000,
+        1000
+      ],
+      "rank_slack": [
+        0,
+        3,
+        6,
+        3
+      ],
+      "source_profile": "140210/81",
+      "target_profile": "5200/3",
+      "profile_surplus": "190/81",
+      "profile_ratio": "14040/14021",
+      "passes_shared_leg_koszul": true,
+      "passes_other_full_leg_koszul": true,
+      "other_leg_justification": "research_note.md Section 7: maximal source ranks or the target border-rank bound",
+      "coordinate_weight_source_length_lower_bound": 1199,
+      "coordinate_weight_degeneration_excluded": true,
+      "degeneration_constructed": false
+    }
+  ]
+}
