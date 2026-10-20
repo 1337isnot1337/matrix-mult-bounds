@@ -106,6 +106,13 @@ clauses to coordinate-potential discovery. Exact checks cover 334 cancelling
 two-term trades and the strict counting threshold. The claim concerns this
 construction class, not every complex tensor degeneration.
 
+The subsequent exact projection/lift reduction found 1,394 projected
+SL(2,7) candidates in its first 600-second run. All fail the lift equations;
+all 1,394 saved parity circuits replay using integer group arithmetic.
+No candidate has reached a full degeneration witness. Ten focused controls
+check the source, subgroup normalization, lift equations against exhaustive
+small sign choices, certificate tampering and the cyclic-eight fiber rule.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)
