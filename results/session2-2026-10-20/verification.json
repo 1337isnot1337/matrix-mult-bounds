@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-20",
+  "status": "local checkpoint verification passed",
+  "tests_passed": 8,
+  "dimension_source_pairs": 63,
+  "dimension_orientation_cases": 189,
+  "dimension_candidate_cases": 85,
+  "candidate_meaning": "dimension-only scores, not tensor degenerations",
+  "koszul_cases": 12,
+  "enhanced_search_completed_runs": 0,
+  "new_exponent_established": false,
+  "external_lean_builds_run": 0,
+  "provenance": "Programs reconstructed from the recorded second-pass code; outputs regenerated in this checkpoint.",
+  "limits": "This run covers the new checkpoint tests. It does not rerun the initial repository suite or audit the external Lean proofs.",
+  "initial_failure": "A replay compared Python tuples against JSON arrays. JSON-normalizing the replay fixed the serialization mismatch. Numerical results did not change."
+}

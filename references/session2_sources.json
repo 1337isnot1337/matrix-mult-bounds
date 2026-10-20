@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "scope": "README source review; additionally inspected Filmus frozen theorem declaration; no Lean rebuild",
+  "repositories": [
+    {
+      "repository": "selanavot/matrix-multiplication-all-fields",
+      "commit": "08481ef22bca7dc9ffba091083b7c1e81e537220",
+      "inspected": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "Hugin-Hilbert/rectangular-matmul-rings",
+      "commit": "285f513384dee8f933d941ed5e8770ddfbdcaae2",
+      "inspected": [
+        "README.md"
+      ],
+      "readme_blob": "f9fc18814ac14dc41cfb5785b439b30f9a910d21"
+    },
+    {
+      "repository": "YuvalFilmus/matrix-multiplication-block-identities",
+      "commit": "8e38460c2c04617692a64a826b09e8995ac8717d",
+      "inspected": [
+        "README.md",
+        "BlockIdentities/Frozen/identities_to_exponent_v2.lean"
+      ],
+      "readme_blob": "06cab6441f44afd899d7e7586f3134abdf20ff71",
+      "theorem_blob": "6789991b21545636620548794c2e72205b8b3d6f"
+    }
+  ]
+}

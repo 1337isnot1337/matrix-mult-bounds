@@ -1,0 +1,78 @@
+# INCOMPLETE, INERT RESEARCH FRAGMENT. This is not an executable search.
+# Reconstructed from the recorded partial implementation. No run is claimed.
+# The original loop was interrupted before a complete artifact was retained.
+# The tight-support theorem and its hypotheses remain a review dependency.
+from fractions import Fraction as Q
+from functools import lru_cache
+from collections import Counter
+from itertools import product
+from math import prod
+from sympy import integer_nthroot
+
+SCALE = 10**12
+
+
+def lower_root(x: Q, n: int) -> Q:
+    if x < 0:
+        raise ValueError("negative radicand")
+    if not x:
+        return Q(0)
+    z = (x.numerator * SCALE**n) // x.denominator
+    r = int(integer_nthroot(z, n)[0])
+    assert Q(r, SCALE)**n <= x < Q(r + 1, SCALE)**n
+    return Q(r, SCALE)
+
+
+def full_sum(vals):
+    s = sum((lower_root(v**3, 4) for v in vals), Q(0))
+    return lower_root(s**4, 3)
+
+
+def canon(ts):
+    ts = tuple(ts)
+    if not ts:
+        return ()
+    maps = [{x: i for i, x in enumerate(sorted({t[k] for t in ts}))}
+            for k in range(3)]
+    return tuple(sorted(tuple(maps[k][t[k]] for k in range(3)) for t in ts))
+
+
+def groups(ts, axes):
+    nodes = {(k, t[k]) for t in ts for k in axes}
+    par = {q: q for q in nodes}
+    def root(q):
+        while par[q] != q:
+            par[q] = par[par[q]]
+            q = par[q]
+        return q
+    for t in ts:
+        rr = root((axes[0], t[axes[0]]))
+        for k in axes[1:]:
+            par[root((k, t[k]))] = rr
+    out = {}
+    for t in ts:
+        out.setdefault(root((axes[0], t[axes[0]])), []).append(t)
+    return [canon(s) for s in out.values()]
+
+
+@lru_cache(None)
+def proposed_uniform_entropy_score(ts):
+    # NOT APPROVED: the tensor-theoretic lower bound needs source-level review.
+    # The integer-root operation alone does not certify that lower bound.
+    q = len(ts)
+    if not q:
+        return Q(0)
+    D = max(prod(c**c for c in Counter(t[k] for t in ts).values())
+            for k in range(3))
+    return lower_root(Q(q**(4*q), D**4), 3*q)
+
+
+# Planned integration:
+# - use the original convolution recognizer and rational profile;
+# - score full components with full_sum;
+# - score matched components on each shared leg with ordinary addition;
+# - preserve support certificates for coordinate deletions;
+# - use exact comparisons for candidate acceptance and ordering;
+# - compare a profile violation separately from an exponent certificate;
+# - review the entropy theorem before enabling its score.
+# No completed search loop, report, witness, or exhaustive coverage is asserted.

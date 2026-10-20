@@ -1,0 +1,23 @@
+test_draft_status (test_session2_checkpoint.CheckpointTests.test_draft_status) ... ok
+test_full_dimension_replay (test_session2_checkpoint.CheckpointTests.test_full_dimension_replay) ... ok
+test_invalid_inputs (test_session2_checkpoint.CheckpointTests.test_invalid_inputs) ... ok
+test_profile (test_session2_checkpoint.CheckpointTests.test_profile) ... ok
+test_rank_one_koszul_bound (test_session2_checkpoint.CheckpointTests.test_rank_one_koszul_bound) ... ok
+test_shared_sector_koszul_direct_sum (test_session2_checkpoint.CheckpointTests.test_shared_sector_koszul_direct_sum) ... ok
+test_small_candidate (test_session2_checkpoint.CheckpointTests.test_small_candidate) ... ok
+test_tensor_replay (test_session2_checkpoint.CheckpointTests.test_tensor_replay) ... FAIL
+
+======================================================================
+FAIL: test_tensor_replay (test_session2_checkpoint.CheckpointTests.test_tensor_replay)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/matrix_mult_checkpoint/tests/test_session2_checkpoint.py", line 46, in test_tensor_replay
+    self.assertEqual(actual, expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: {'sta[1711 chars]s': [(0, 0, 0), (1, 0, 1), (1, 1, 0), (2, 1, 1[215 chars] 9]}} != {'sta[1711 chars]s': [[0, 0, 0], [1, 0, 1], [1, 1, 0], [2, 1, 1[215 chars] 9]}}
+Diff is 5214 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 8 tests in 10.868s
+
+FAILED (failures=1)
