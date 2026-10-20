@@ -63,6 +63,17 @@ positive-weight coefficients are free. It is distinct from the excluded
 constant-G search, which has zero shared weights. Exact coefficient replay
 is required for acceptance; small numerical residuals do not suffice.
 
+Update: that concrete dominant-degree region is now excluded by Sections 5-6
+of `arbitrary_shared_basis.md`. Its first-stage blocks have no zero divisors,
+so the broadened catalecticant proof applies. Section 7 also excludes
+0<alpha<=beta by an explicit support cover for the X_0 slice. Ten completed
+floating fits are retained as diagnostics, with no exact certificate.
+Do not rerun either excluded region. Remaining graded directions include
+(alpha,beta)=(2,1) at m=4 (equivalent by coefficient reversal to (1,-1)).
+The scalar worker already owns mixed-direction numerical fitting; avoid
+duplicating its completed runs. Our next question is an analytic condition
+on these intermediate slopes or on arbitrary singular shared maps.
+
 Other agents own full/off-leading Clebsch--Gordan and truncated-algebra source
 searches (`f6f307c`) and the group-potential search (`f7aa680`). The scalar
 agent's all-degree target/threshold work overlaps ours; retain attribution

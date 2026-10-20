@@ -42,7 +42,9 @@ The subsequent [arbitrary shared-basis proof](arbitrary_shared_basis.md)
 extends the catalecticant obstruction to every constant invertible shared
 basis, by bounding the derivative spaces of a biform with invertible
 coefficient matrix. This also excludes the concurrent constant-G graded
-ansatz at low overhead. Genuinely singular shared maps remain the gap.
+ansatz at low overhead. Its nonsingular-block extension and explicit slice
+cover also exclude two regions of mixed shared/nonshared weights. Genuinely
+singular shared maps and intermediate weight slopes remain the gap.
 
 ## Next mathematical question
 
@@ -71,7 +73,7 @@ limiting-slope estimate and the minimum-slice restriction obstruction.
 
 ## Verification boundary
 
-The latest local regression has 61 passing tests, including exact rotated
+The latest local regression has 63 passing tests, including exact rotated
 catalecticant and basis checks; the original archive replay previously passed. The first and
 second archives are unchanged from the starting revision. GitHub Actions run
 [39490536693](https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39490536693)
@@ -79,3 +81,8 @@ at `fc4cc70` did not start any test steps: GitHub reported an account payment or
 spending-limit gate. It is not a remote test pass or a mathematical test failure.
 No billing setting was changed. The general proofs still need independent
 review or formalization.
+
+The earlier CI limitation has since cleared: hosted replay run
+[39504501053](https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39504501053)
+passed at the exact head `8e0a766`. This is artifact verification, not theorem
+review. The historical failed-to-start run remains recorded accurately above.

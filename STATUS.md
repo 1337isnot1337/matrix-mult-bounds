@@ -117,6 +117,12 @@ blocks. It therefore closes the enlarged constant-G graded search as well.
 The proof uses a standard projective-dimension argument and remains unreviewed;
 360 exact transformed-block ranks and independent coefficient checks support
 its implementation. A genuinely singular shared map is still outside it.
+The same proof extends to all matched bilinear blocks with no zero divisors.
+It excludes the dominant-degree weight region alpha>(m-1)*abs(beta).
+A separate explicit slice support cover excludes 0<alpha<=beta, requiring
+B>=k*(2N-floor(m^2/4)-1)-(m-1). These close the recorded dominant-degree
+experiment and two concurrent mixed-weight directions. Intermediate slopes
+and general singular shared maps remain open; no exponent is improved.
 
 Concurrent results are indexed with pinned commits in
 [the collaboration review](docs/concurrent_research.md). They close the old

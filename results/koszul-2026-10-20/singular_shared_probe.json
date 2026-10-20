@@ -1,0 +1,229 @@
+{
+  "status": "floating diagnostics in an analytically excluded ansatz",
+  "alpha": "m+1",
+  "beta": 1,
+  "cycles_per_case": 1000,
+  "new_exponent_established": false,
+  "records": [
+    {
+      "m": 3,
+      "B": 6,
+      "seed": 0,
+      "basis": "random",
+      "free_g": false,
+      "cycles": 1000,
+      "equations": 35,
+      "residual": 8.240514973074406e-05,
+      "smallest_singular_values": [
+        0.0010519580649530672,
+        0.28576839815174465,
+        0.9999999999999999
+      ],
+      "norms": [
+        68.83083811280744,
+        68.83083811280744,
+        1.7320508075688772
+      ],
+      "seconds": 0.23387888999991446,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 3,
+      "B": 6,
+      "seed": 0,
+      "basis": "random",
+      "free_g": true,
+      "cycles": 1000,
+      "equations": 35,
+      "residual": 0.0002684471270272225,
+      "smallest_singular_values": [
+        0.07505100137004429,
+        0.5353314387062547,
+        0.0008977371593479036
+      ],
+      "norms": [
+        17.53051889428389,
+        17.530518894283887,
+        93.07793860017655
+      ],
+      "seconds": 0.3402611839999281,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 1,
+      "basis": "random",
+      "free_g": false,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.0050507405853688495,
+      "smallest_singular_values": [
+        0.0038463152278887507,
+        0.0038389392541633804,
+        0.9999999999999999
+      ],
+      "norms": [
+        144.99547739972917,
+        144.99547739972908,
+        2.0
+      ],
+      "seconds": 2.913816931999918,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 1,
+      "basis": "random",
+      "free_g": true,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.01141379479354344,
+      "smallest_singular_values": [
+        0.00023795815479605607,
+        0.7016525598596093,
+        0.0077793944216849745
+      ],
+      "norms": [
+        101.18762376326876,
+        101.1876237632688,
+        385.7572231411184
+      ],
+      "seconds": 2.968761948000065,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 2,
+      "basis": "random",
+      "free_g": false,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.0038476173445850846,
+      "smallest_singular_values": [
+        0.0022714350416475665,
+        0.015725089195402286,
+        0.9999999999999999
+      ],
+      "norms": [
+        162.56806482158976,
+        162.56806482158973,
+        2.0
+      ],
+      "seconds": 3.183345403999965,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 2,
+      "basis": "random",
+      "free_g": true,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.004726524220955475,
+      "smallest_singular_values": [
+        0.00018232658734437728,
+        0.40960119250591664,
+        0.014758917067282782
+      ],
+      "norms": [
+        53.062948182736065,
+        53.06294818273605,
+        734.6449526452731
+      ],
+      "seconds": 2.762074701000074,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 3,
+      "basis": "random",
+      "free_g": false,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.008370908814222226,
+      "smallest_singular_values": [
+        0.001576745764927683,
+        0.01338771597650433,
+        0.9999999999999997
+      ],
+      "norms": [
+        86.89839450700867,
+        86.8983945070087,
+        1.9999999999999998
+      ],
+      "seconds": 2.7698684720000983,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 3,
+      "basis": "random",
+      "free_g": true,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.012883731703892209,
+      "smallest_singular_values": [
+        0.00045409673616227233,
+        0.7737007977620934,
+        0.01339879643150736
+      ],
+      "norms": [
+        49.63118126800649,
+        49.63118126800646,
+        223.23132768866148
+      ],
+      "seconds": 3.407115196999939,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 0,
+      "basis": "vandermonde",
+      "free_g": false,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.013312325969877567,
+      "smallest_singular_values": [
+        0.052540361943206056,
+        0.17250773860064061,
+        0.0031746562572292567
+      ],
+      "norms": [
+        401.81004137073853,
+        401.81004137073876,
+        1.9999999999999998
+      ],
+      "seconds": 3.0517780509999284,
+      "status": "floating exploration only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "seed": 0,
+      "basis": "identity",
+      "free_g": false,
+      "cycles": 1000,
+      "equations": 110,
+      "residual": 0.005052937488012093,
+      "smallest_singular_values": [
+        0.0020059063855217972,
+        0.01394345366268477,
+        1.0
+      ],
+      "norms": [
+        188.24133339517468,
+        188.24133339517468,
+        2.0
+      ],
+      "seconds": 2.9454128229999696,
+      "status": "floating exploration only; no exact certificate"
+    }
+  ]
+}
