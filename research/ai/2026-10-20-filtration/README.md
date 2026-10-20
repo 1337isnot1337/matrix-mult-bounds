@@ -40,3 +40,13 @@ python research/ai/2026-10-20-filtration/verify.py \
 ```
 
 The result closes R2 for these families and is tracked as AI-FILTRATION-007.
+
+## Follow-up question
+
+After the first milestone, investigate the analytic gap in the second-pass
+R4 draft: do replication, the rank bound and separate concavity automatically
+give the homogeneous limit used by its rigidity and curvature criteria, and
+can differentiability be removed? Uznański v2 already proves rescaling for
+oriented profiles (Lemma 4.1); this pass will attribute that prior result and
+give a self-contained scalar argument tied to the local hypotheses. A positive
+curvature gain remains a separate, unproved tensor question.
