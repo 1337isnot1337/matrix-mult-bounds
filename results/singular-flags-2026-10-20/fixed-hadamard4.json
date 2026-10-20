@@ -1,0 +1,39 @@
+{
+  "m": 4,
+  "B": 10,
+  "shared_matrix": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1
+    ]
+  ],
+  "solver": "4.15.3",
+  "seed": 1048324923,
+  "timeout_ms": 45000,
+  "result": "unsat",
+  "query_sha256": "6c7eb7e4b9e5d4b09f19f5012fa2bd66d663128da9862c77848711ce87c7a585",
+  "scope": "Fixed shared basis followed by singular diagonal weights; coordinate injection on Y; arbitrary constant output matrix.",
+  "improves_omega": false,
+  "retained_query": "fixed-hadamard4.smt2.gz",
+  "query_digest_applies_to": "Decompressed exact SMT text"
+}

@@ -1,0 +1,126 @@
+{
+  "m": 4,
+  "B": 10,
+  "eta": [
+    "7",
+    "14",
+    "21",
+    "0"
+  ],
+  "beta": "1",
+  "forced_nonzero_entries": 34,
+  "forbidden_entries": [
+    {
+      "p": 1,
+      "y": [
+        0,
+        3
+      ],
+      "z": [
+        0,
+        3
+      ],
+      "source_input_degrees": [
+        2,
+        6
+      ],
+      "source_output_pivot": 8,
+      "weight": "-6",
+      "target_coefficient": 0
+    },
+    {
+      "p": 2,
+      "y": [
+        0,
+        3
+      ],
+      "z": [
+        1,
+        2
+      ],
+      "source_input_degrees": [
+        1,
+        6
+      ],
+      "source_output_pivot": 7,
+      "weight": "-6",
+      "target_coefficient": 0
+    },
+    {
+      "p": 2,
+      "y": [
+        1,
+        2
+      ],
+      "z": [
+        0,
+        3
+      ],
+      "source_input_degrees": [
+        1,
+        7
+      ],
+      "source_output_pivot": 8,
+      "weight": "-6",
+      "target_coefficient": 0
+    },
+    {
+      "p": 3,
+      "y": [
+        0,
+        3
+      ],
+      "z": [
+        2,
+        1
+      ],
+      "source_input_degrees": [
+        0,
+        6
+      ],
+      "source_output_pivot": 6,
+      "weight": "-6",
+      "target_coefficient": 0
+    },
+    {
+      "p": 3,
+      "y": [
+        1,
+        2
+      ],
+      "z": [
+        1,
+        2
+      ],
+      "source_input_degrees": [
+        0,
+        7
+      ],
+      "source_output_pivot": 7,
+      "weight": "-6",
+      "target_coefficient": 0
+    },
+    {
+      "p": 3,
+      "y": [
+        2,
+        1
+      ],
+      "z": [
+        0,
+        3
+      ],
+      "source_input_degrees": [
+        0,
+        8
+      ],
+      "source_output_pivot": 8,
+      "weight": "-6",
+      "target_coefficient": 0
+    }
+  ],
+  "excluded_in_stated_constant_matrix_class": true,
+  "proof_status": "Written proof, unreviewed; normal_form.md",
+  "excludes_general_Laurent_inputs": false,
+  "improves_omega": false
+}

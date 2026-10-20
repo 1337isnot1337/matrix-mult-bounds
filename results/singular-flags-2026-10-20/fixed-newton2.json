@@ -1,0 +1,86 @@
+{
+  "m": 2,
+  "B": 3,
+  "shared_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "basis_model": "reverse-Newton",
+  "solver": "4.15.3",
+  "seed": 1515042641,
+  "timeout_ms": 45000,
+  "result": "sat",
+  "query_sha256": "02efa46c3cb0e8be3d3225c14c4cd7cd8d23d9ece51d3c5e01e66495c55b3040",
+  "scope": "Reverse falling-factorial shared basis followed by singular diagonal weights; coordinate selection relative to a falling-factorial Y basis; arbitrary constant output in that basis.",
+  "improves_omega": false,
+  "witness": {
+    "m": 2,
+    "B": 3,
+    "shared_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "basis_model": "reverse-Newton",
+    "source_y_indices": [
+      1,
+      2,
+      0
+    ],
+    "output_matrix": [
+      [
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "-1/4",
+        "-1/4",
+        "5/4",
+        "-1/4"
+      ],
+      [
+        "1",
+        "1",
+        "-1",
+        "1"
+      ]
+    ],
+    "weights": {
+      "x": [
+        0,
+        4
+      ],
+      "y": [
+        0,
+        9,
+        5
+      ],
+      "z": [
+        -9,
+        0,
+        -4
+      ]
+    }
+  },
+  "verification": {
+    "coefficients_checked": 18,
+    "exact_rational_verified": true
+  },
+  "retained_query": "fixed-newton2.smt2.gz",
+  "query_digest_applies_to": "Decompressed exact SMT text",
+  "original_scope_metadata": "Fixed shared basis followed by singular diagonal weights; coordinate injection on Y; arbitrary constant output matrix.",
+  "metadata_correction": "The earlier coordinate-Y wording referred to the fixed Newton basis, not the monomial source basis. The mathematical query and result are unchanged."
+}

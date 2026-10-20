@@ -33,12 +33,14 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/singular-shared-laurent-20261020`.
+Branch: `research/polynomial-flags-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
 PR #4 merged the quantitative capacity theorem at `34c2367` after the
 required CI check passed. Its incorporated branch was removed as well.
 The merged `research/product-filtration-20261020` branch was removed.
+PR #10 merged the Laurent-output extension at `7d97155` after current CI;
+its fully incorporated local and remote task branches were removed.
 Preserve other workers' active branches and the first-pass archive.
 
 Current results:
@@ -59,6 +61,14 @@ Current results:
    remains outside the proof.
 
 Current queue:
+
+The polynomial-flag checkpoint now excludes the old eta=(7,14,21,0)
+constant-matrix grading. Exact m=2,3,4 controls preserve their full limits
+through the normal-form transformations. Balanced orders remain open.
+The complex balanced pilot has a tiny masked residual but a large full-tensor
+error, so it supplies no construction. See ai/2026-10-20-singular-flags/.
+The immediate next question is exact coefficient matching in those flag
+coordinates; arbitrary Laurent input mixing remains a separate open route.
 
 1. Search a genuinely nondiagonal shared basis followed by nontrivial shared
    weights. A fixed shared basis with regular invertible limit is already
