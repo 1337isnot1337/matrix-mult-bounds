@@ -1,0 +1,43 @@
+# Attribution and provenance
+
+## External research
+
+All results in [the literature map](docs/literature.md) belong to the credited authors or projects. OpenAI's published 9/4 proof is external work. It is not a contribution of this repository's ChatGPT session.
+
+The source registry records bibliographic versions, inspection scope, and three inspected Git blob hashes. A link to `main` is mutable. An access date alone is not an immutable proof snapshot.
+
+No external paper, external Lean proof tree, or third-party source file is vendored at initialization. The bibliography contains links and original annotations. External software and manuscripts retain their own licenses.
+
+## Research generated in this conversation
+
+The files under `research/ai/2026-10-20/` came from a ChatGPT research session directed by repository owner `1337isnot1337`. The owner requested the investigation and repository setup. This attribution does not imply that the owner wrote or independently reviewed the proofs.
+
+The session produced the research note, three Python programs, and five experiment reports. The proofs have no independent review and no Lean formalization in this repository. Their precise status appears in [the claim ledger](research/claims.json). The generating model's exact build identifier was not recorded in the artifact.
+
+The product recurrence and its asymptotic prefactor precede this session in OpenAI's paper. The local analysis concerns its matching-profile extension and sharpness. Determinant filtration is an existing mathematical construction. No priority claim is made for it or for the local formulas.
+
+## Immutable import
+
+The supplied archive was `matmul_research_bundle.zip`, with SHA-256:
+
+```text
+f9657632343b3f948f484593f1fd09bb487ac90b715cf0912e36ed0ba0d83df1
+```
+
+Its eleven members are unpacked under `research/ai/2026-10-20/`. The original `manifest.json` records hashes for the other ten files. All ten matched during import and after replay. No imported bytes were changed.
+
+New documentation, the replay harness, and regression tests were generated during repository initialization. They are not part of the historical research bundle. New reports are stored separately under `results/bootstrap-2026-10-20/`.
+
+## Interpretation corrections
+
+The historical note uses the word "proved" for its written arguments. The repository classifies those arguments as written, AI-derived, and unreviewed. Successful reproduction is not an independent mathematical audit.
+
+The original monomial search uses exact rational arithmetic for witness acceptance. Its displayed best-case ordering uses floating-point ratios. Those displayed rankings are not exact optimization certificates. The replay ignores display-only floats when comparing reports.
+
+The historical note's mention of a possible $t=0$ case is unnecessary for the external character setup, which has $t>0$. Its scalar theorem does not depend on that aside. The immutable note retains its original wording.
+
+## Licenses and review claims
+
+No repository license is selected at initialization. No license for linked papers is inferred from a code repository's license.
+
+An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.
