@@ -4,6 +4,11 @@ Date: October 20, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
+The [main integration checkpoint](docs/integration_2026-10-20.md) combines the
+four research lanes and passes 160 local tests plus the five original archive
+replays. Written proofs remain unreviewed, and conditional constructions remain
+unproved. Active worker branches continue to carry new experiments.
+
 | ID | Local statement | Evidence status |
 | --- | --- | --- |
 | AI-SCALAR-001 | Exact pointwise-minimal profile for S1-S3 | Written proof; unreviewed |

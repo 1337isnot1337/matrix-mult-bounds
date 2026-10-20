@@ -12,6 +12,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
 - [Research directions and acceptance criteria](docs/research_directions.md)
 - [Attribution and provenance](PROVENANCE.md)
+- [Main integration checkpoint and combined validation](docs/integration_2026-10-20.md)
 - [Koszul obstruction and mixed-sector research](research/ai/2026-10-20-koszul/research_note.md)
 - [All-dimension targets and conditional exponent criterion](research/ai/2026-10-20-koszul/all_dimension_targets.md)
 - [Pinned concurrent research review](docs/concurrent_research.md)
