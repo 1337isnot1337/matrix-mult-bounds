@@ -45,3 +45,29 @@ The Python tests do not validate the full shared-leg theorem, the external spect
 ## Regression tests and continuous integration
 
 The regression suite covers archive integrity, independent profile formulas, selected support invariants, exact recorded scores, and ledger consistency. The workflow runs those tests and the full replay. Its runtime status is separate from the local run recorded here.
+
+## Product-filtration proof-chain checks
+
+The maintained verifier checks the endpoint product bound, both Jensen bounds,
+and domination of every label fiber, using exact rational arithmetic. Its six
+regressions also check the necessary zero boundary, other normalized concave
+profiles, and the elementary dot-product restriction in coefficients.
+
+```sh
+python research/ai/2026-10-20-filtration/verify.py \
+  --output results/filtration-2026-10-20/verification.json
+python -m unittest discover -s tests -p test_filtration.py -v
+```
+
+The recorded run uses Python 3.14.8. It covers 1,296 grid sources, 11,808
+filtration inequalities and 5,184 intermediate bounds, plus six stress sources
+with 4,860 inequalities. The [written proof](../research/ai/2026-10-20-filtration/research_note.md)
+establishes the all-size result; enumeration is not a replacement for its
+argument. No independent review or Lean build is recorded.
+
+The complete suite passed all 40 tests in the existing project virtual
+environment (Python 3.14.8, SymPy 1.14.0). The five archived experiments also
+replayed successfully and all ten manifest hashes matched before and after.
+Receipts are under `results/filtration-2026-10-20/`. The first system-Python
+attempt failed because SymPy was absent; its test log is retained separately.
+That dependency failure was resolved by using the existing virtual environment.

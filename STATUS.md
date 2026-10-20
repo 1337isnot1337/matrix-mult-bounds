@@ -24,6 +24,25 @@ The matching-profile result rules out improving the exponent from only its liste
 
 The current next steps are listed in [research directions](docs/research_directions.md). Repeating a completed finite search with the same parameters is reproduction, not new research progress.
 
+## All-size product-filtration result
+
+[Written proof](research/ai/2026-10-20-filtration/research_note.md) |
+[Exact proof-chain checks](results/filtration-2026-10-20/verification.json)
+
+AI-FILTRATION-007 settles R2 for the three fixed-label two-source families:
+for every positive, symmetric profile with `F(1,b)=b`, those families are
+equivalent to separate concavity including the zero boundary. The matching
+profile satisfies that boundary, so it survives **all positive integer
+quadruples**, beyond the previous finite grid. Actual character profiles have
+the boundary from the elementary restriction `B_Y(a) tensor B_X(b) >= C(a,b)`.
+
+The written proof is unreviewed and not formalized. New exact checks cover
+11,808 inequalities and 5,184 intermediate bounds on 1,296 source quadruples,
+plus 4,860 inequalities at six larger or unequal sources. This rules out an
+improvement based only on adding these families to the matching-profile
+relaxation; it does not exclude coupled-fiber or oriented tensor constructions.
+The exponent remains unchanged.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)

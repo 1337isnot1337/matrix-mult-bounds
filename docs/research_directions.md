@@ -10,9 +10,16 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 
 ## R2: Decide compatibility with the product-filtration family
 
-Status: open beyond the completed grid. The three inequalities in Section 4 of the note survive all tested source lengths through 12.
+Status: settled for the three stated two-source, fixed-label families by
+[AI-FILTRATION-007](../research/ai/2026-10-20-filtration/research_note.md).
+They are equivalent to separate concavity including the zero boundary for
+positive, symmetric, edge-normalized profiles. The matching profile satisfies
+them at all positive integer sizes. Actual character profiles already have
+the boundary from the elementary `P(a,b)<=ab` restriction.
 
-Prove compatibility for all positive parameters or provide an exact counterexample. An exact counterexample excludes this profile only. To affect $\omega$, explain how the new constraint forces stronger growth for every actual character.
+Further work must retain information absent from these families, for example
+extracting several label fibers together. A new constraint must force stronger
+growth for every relevant character before it can affect $\omega$.
 
 ## R3: Search outside identical single-source sectors
 

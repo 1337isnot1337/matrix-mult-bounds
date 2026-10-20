@@ -27,6 +27,16 @@ of OpenAI and classical polynomial algebra, as attributed in the source
 registry. The matching profile is the earlier local analysis. New results will
 be labeled by their actual proof and verification status.
 
-## Initial status
+## Completed first milestone
 
-Investigation selected; no new theorem or exponent improvement claimed.
+[Research note](research_note.md): an all-size proof characterizes the three
+filtration families as precisely separate concavity including the zero boundary.
+It proves compatibility of the matching profile for all sizes. The written
+argument is unreviewed; no exponent improvement is established.
+
+```sh
+python research/ai/2026-10-20-filtration/verify.py \
+  --output results/filtration-2026-10-20/verification.json
+```
+
+The result closes R2 for these families and is tracked as AI-FILTRATION-007.
