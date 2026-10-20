@@ -1,0 +1,26 @@
+{
+  "base_main": "0d2ccb2d1cf4cff15db3ec3b81e35f4a01c8b248",
+  "unit_tests": {
+    "count": 214,
+    "passed": true,
+    "log": "results/balanced-coefficients-2026-10-20/tests-main-0d2ccb2.txt"
+  },
+  "archive_replay": {
+    "passed": true,
+    "log": "results/balanced-coefficients-2026-10-20/archive-replay.txt"
+  },
+  "exact_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "new_exact_test_count": 6,
+  "claim_ids": [
+    "AI-BALANCED-EQUATIONS-003"
+  ],
+  "construction_obtained": false,
+  "improves_omega": false,
+  "independent_review": false,
+  "query_hashes_apply_to": "Decompressed exact .smt2 text; .gz timestamps fixed to zero.",
+  "retained_query_hashes_verified": 4,
+  "discovery_source_hashes_verified": 6
+}

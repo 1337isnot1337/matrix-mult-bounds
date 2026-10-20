@@ -1,0 +1,404 @@
+{
+  "m": 4,
+  "B": 10,
+  "eta": [
+    0,
+    201,
+    403,
+    607
+  ],
+  "beta": 100,
+  "all_pivots_one": true,
+  "ansatz_is_lossless": false,
+  "initial_complex_variables": 125,
+  "retained_complex_parameters": 57,
+  "polynomial_conditions": 53,
+  "levels": [
+    {
+      "distance": 1,
+      "variables": 21,
+      "equations": 0,
+      "eliminated": 0,
+      "free": 21,
+      "conditions": 0
+    },
+    {
+      "distance": 2,
+      "variables": 20,
+      "equations": 0,
+      "eliminated": 0,
+      "free": 20,
+      "conditions": 0
+    },
+    {
+      "distance": 3,
+      "variables": 18,
+      "equations": 6,
+      "eliminated": 5,
+      "free": 13,
+      "conditions": 1
+    },
+    {
+      "distance": 4,
+      "variables": 15,
+      "equations": 16,
+      "eliminated": 12,
+      "free": 3,
+      "conditions": 4
+    },
+    {
+      "distance": 5,
+      "variables": 13,
+      "equations": 25,
+      "eliminated": 13,
+      "free": 0,
+      "conditions": 12
+    },
+    {
+      "distance": 6,
+      "variables": 11,
+      "equations": 22,
+      "eliminated": 11,
+      "free": 0,
+      "conditions": 11
+    },
+    {
+      "distance": 7,
+      "variables": 9,
+      "equations": 18,
+      "eliminated": 9,
+      "free": 0,
+      "conditions": 9
+    },
+    {
+      "distance": 8,
+      "variables": 7,
+      "equations": 14,
+      "eliminated": 7,
+      "free": 0,
+      "conditions": 7
+    },
+    {
+      "distance": 9,
+      "variables": 5,
+      "equations": 10,
+      "eliminated": 5,
+      "free": 0,
+      "conditions": 5
+    },
+    {
+      "distance": 10,
+      "variables": 3,
+      "equations": 6,
+      "eliminated": 3,
+      "free": 0,
+      "conditions": 3
+    },
+    {
+      "distance": 11,
+      "variables": 2,
+      "equations": 3,
+      "eliminated": 2,
+      "free": 0,
+      "conditions": 1
+    },
+    {
+      "distance": 12,
+      "variables": 1,
+      "equations": 1,
+      "eliminated": 1,
+      "free": 0,
+      "conditions": 0
+    }
+  ],
+  "free_coordinates": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      1,
+      5,
+      1
+    ],
+    [
+      1,
+      7,
+      1
+    ],
+    [
+      1,
+      8,
+      1
+    ],
+    [
+      1,
+      9,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      4,
+      1
+    ],
+    [
+      2,
+      5,
+      1
+    ],
+    [
+      2,
+      6,
+      1
+    ],
+    [
+      2,
+      7,
+      1
+    ],
+    [
+      2,
+      8,
+      1
+    ],
+    [
+      2,
+      9,
+      1
+    ],
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      3,
+      2
+    ],
+    [
+      1,
+      4,
+      2
+    ],
+    [
+      1,
+      5,
+      2
+    ],
+    [
+      1,
+      8,
+      2
+    ],
+    [
+      1,
+      9,
+      2
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      2,
+      5,
+      2
+    ],
+    [
+      2,
+      6,
+      2
+    ],
+    [
+      2,
+      7,
+      2
+    ],
+    [
+      2,
+      8,
+      2
+    ],
+    [
+      2,
+      9,
+      2
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      1,
+      4,
+      3
+    ],
+    [
+      1,
+      5,
+      3
+    ],
+    [
+      1,
+      9,
+      3
+    ],
+    [
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      4,
+      3
+    ],
+    [
+      2,
+      5,
+      3
+    ],
+    [
+      2,
+      8,
+      3
+    ],
+    [
+      2,
+      9,
+      3
+    ],
+    [
+      1,
+      4,
+      4
+    ],
+    [
+      2,
+      4,
+      4
+    ],
+    [
+      2,
+      9,
+      4
+    ]
+  ],
+  "coefficient_denominators_depend_on_parameters": false,
+  "exact_solution_found": false,
+  "improves_omega": false
+}
