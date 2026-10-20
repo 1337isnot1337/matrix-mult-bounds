@@ -1,0 +1,120 @@
+{
+  "python": "3.12.3",
+  "sympy": "1.14.0",
+  "cases": [
+    {
+      "source": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "line": [
+        1,
+        -1,
+        0
+      ],
+      "coefficients_checked": 144,
+      "nonzero_coefficients": 18,
+      "surviving_coefficients": 10,
+      "retained_labels": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "source": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "line": [
+        1,
+        -1,
+        0
+      ],
+      "coefficients_checked": 576,
+      "nonzero_coefficients": 47,
+      "surviving_coefficients": 20,
+      "retained_labels": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "source": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "line": [
+        2,
+        -1,
+        0
+      ],
+      "coefficients_checked": 2025,
+      "nonzero_coefficients": 101,
+      "surviving_coefficients": 28,
+      "retained_labels": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "source": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "line": [
+        2,
+        1,
+        -2
+      ],
+      "coefficients_checked": 2025,
+      "nonzero_coefficients": 101,
+      "surviving_coefficients": 20,
+      "retained_labels": [
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "total_coefficients_checked": 4770,
+  "scope": "Exact finite coefficients; the general construction has a separate written proof."
+}

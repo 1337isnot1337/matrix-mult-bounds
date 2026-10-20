@@ -10,13 +10,17 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 
 ## R2: Decide compatibility with the product-filtration family
 
-Status: settled by concurrent written proofs at `73b2d20` and `712c91a`; see
-[the pinned review](concurrent_research.md). The fixed-label families preserve
-P_* at every positive integer size. The stronger equivalence result includes
-the necessary zero-boundary concavity condition.
+Status: resolved by written, unreviewed all-size proofs at `73b2d20` and
+`712c91a`; see [the pinned review](concurrent_research.md) and the
+[local concavity proof](../research/ai/2026-10-20-affine-direct-sums/research_note.md).
+Every fixed-i, fixed-j and fixed-k family preserves P_* for all positive
+integer parameters. The stronger equivalence result includes the necessary
+zero-boundary concavity condition. The archived finite grid is unchanged.
 
-The remaining task must use additional tensor information. Do not repeat the
-completed fixed-label compatibility search as a route to a smaller exponent.
+The proof does not cover full direct sums with distinct labels on all three
+legs. Such extractions and oriented character constraints remain candidates
+for R3/R5. The next task must use additional tensor information; extending
+the completed fixed-label grid cannot produce a smaller exponent.
 
 ## R3: Search outside identical single-source sectors
 

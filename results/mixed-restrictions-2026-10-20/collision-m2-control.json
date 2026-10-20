@@ -1,0 +1,61 @@
+{
+  "m": 2,
+  "B": 3,
+  "N": 3,
+  "slope": 1,
+  "solver": "4.15.3",
+  "solver_seed": 308302950,
+  "timeout_ms": 10000,
+  "collision_implications": 18,
+  "query_sha256": "e210e8cde5114fb439584c357f3b3dcb8b4c9af6c740872b6a6f04398da581f3",
+  "result": "sat",
+  "unrestricted_nonexistence_claim": false,
+  "scope": "Coordinate input injection/permutation, arbitrary output-coordinate sums, target-compatible affine internal weights.",
+  "witness": {
+    "m": 2,
+    "B": 3,
+    "source_x_indices": [
+      0,
+      1
+    ],
+    "source_y_indices": [
+      1,
+      0,
+      2
+    ],
+    "output_source_indices": [
+      [
+        0,
+        3
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "weights": {
+      "x": [
+        0,
+        1
+      ],
+      "y": [
+        0,
+        3,
+        2
+      ],
+      "z": [
+        -3,
+        0,
+        -1
+      ]
+    }
+  },
+  "verification": {
+    "coefficients_checked": 18,
+    "retained_terms": 4,
+    "discarded_positive_terms": 2,
+    "coefficient_verified": true
+  }
+}
