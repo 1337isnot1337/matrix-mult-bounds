@@ -1,0 +1,38 @@
+{
+  "group": "F8^2:C7",
+  "target_shape": [
+    19,
+    19,
+    19
+  ],
+  "base_seed": 617,
+  "base_columns": [
+    14,
+    47,
+    61,
+    9,
+    24,
+    60
+  ],
+  "local_packings": [
+    {
+      "families": [
+        0,
+        1
+      ],
+      "quotient": 1,
+      "satisfiable": false,
+      "selected_masks": null,
+      "search_counts": {
+        "nodes": 34,
+        "branches": 33,
+        "memo_hits": 0
+      },
+      "failed_states": 34,
+      "method": "Complete exact backtracking with first-mask translation normalization"
+    }
+  ],
+  "improves_omega": false,
+  "scope": "Local relaxation only; no global group subsets or positive potentials.",
+  "elapsed_seconds": 0.0023000569926807657
+}

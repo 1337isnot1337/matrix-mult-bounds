@@ -1,0 +1,142 @@
+{
+  "status": "target certificates and conditional implication; construction open",
+  "source_degeneration_constructed": false,
+  "new_exponent_established": false,
+  "proof": "research/ai/2026-10-20-koszul/all_dimension_targets.md",
+  "interpolation": [
+    {
+      "m": 2,
+      "dimensions": [
+        2,
+        3,
+        3
+      ],
+      "border_rank": 3,
+      "constant_support_terms": 4,
+      "coefficient_checks": 18,
+      "negative_power_coefficients_checked": 2,
+      "constant_coefficients_checked": 8,
+      "nonzero_positive_power_coefficients": 2
+    },
+    {
+      "m": 3,
+      "dimensions": [
+        3,
+        6,
+        6
+      ],
+      "border_rank": 6,
+      "constant_support_terms": 10,
+      "coefficient_checks": 108,
+      "negative_power_coefficients_checked": 15,
+      "constant_coefficients_checked": 30,
+      "nonzero_positive_power_coefficients": 21
+    },
+    {
+      "m": 4,
+      "dimensions": [
+        4,
+        10,
+        10
+      ],
+      "border_rank": 10,
+      "constant_support_terms": 20,
+      "coefficient_checks": 400,
+      "negative_power_coefficients_checked": 60,
+      "constant_coefficients_checked": 80,
+      "nonzero_positive_power_coefficients": 94
+    },
+    {
+      "m": 5,
+      "dimensions": [
+        5,
+        15,
+        15
+      ],
+      "border_rank": 15,
+      "constant_support_terms": 35,
+      "coefficient_checks": 1125,
+      "negative_power_coefficients_checked": 175,
+      "constant_coefficients_checked": 175,
+      "nonzero_positive_power_coefficients": 289
+    },
+    {
+      "m": 6,
+      "dimensions": [
+        6,
+        21,
+        21
+      ],
+      "border_rank": 21,
+      "constant_support_terms": 56,
+      "coefficient_checks": 2646,
+      "negative_power_coefficients_checked": 420,
+      "constant_coefficients_checked": 336,
+      "nonzero_positive_power_coefficients": 714
+    },
+    {
+      "m": 7,
+      "dimensions": [
+        7,
+        28,
+        28
+      ],
+      "border_rank": 28,
+      "constant_support_terms": 84,
+      "coefficient_checks": 5488,
+      "negative_power_coefficients_checked": 882,
+      "constant_coefficients_checked": 588,
+      "nonzero_positive_power_coefficients": 1526
+    },
+    {
+      "m": 8,
+      "dimensions": [
+        8,
+        36,
+        36
+      ],
+      "border_rank": 36,
+      "constant_support_terms": 120,
+      "coefficient_checks": 10368,
+      "negative_power_coefficients_checked": 1680,
+      "constant_coefficients_checked": 960,
+      "nonzero_positive_power_coefficients": 2940
+    }
+  ],
+  "total_interpolation_coefficient_checks": 20153,
+  "koszul_cases": 156,
+  "koszul_shared_degrees_checked": 3276,
+  "koszul_m_range": [
+    2,
+    40
+  ],
+  "koszul_k_values": [
+    1,
+    2,
+    7,
+    53
+  ],
+  "gap_formula_cases": 495,
+  "gap_m_range": [
+    2,
+    100
+  ],
+  "gap_k_values": [
+    1,
+    2,
+    3,
+    7,
+    53
+  ],
+  "critical_overhead_cube": "729/686",
+  "conditional_exponent": {
+    "premise": "H(1), the unconstructed sequence of source degenerations",
+    "d_lower_bound": "168/125",
+    "Q_at_d_exceeds_one_by_exact_integer_comparison": true,
+    "left_integer_bit_length": 2117,
+    "right_integer_bit_length": 2117,
+    "conditional_exponent_upper_bound": "125/56",
+    "conditional_exponent_decimal": 2.232142857142857,
+    "exponent_bound_achieved": false
+  }
+}

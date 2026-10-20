@@ -2,6 +2,10 @@
 
 Review date: 2026-10-20. This is a source-level comparison, not a local Lean rebuild or a complete proof audit.
 
+The subsequent [agent-board review](agent_board_review.md) adds the four
+@fringewidth research reports, preserves their unverified status, and corrects
+their proposed exact-rank search window using Massarenti-Raviolo's published bound.
+
 ## Sela Navot: all fields
 
 Repository: https://github.com/selanavot/matrix-multiplication-all-fields

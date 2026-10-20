@@ -1,0 +1,31 @@
+{
+  "group": "SL(2,5)",
+  "shape": [
+    9,
+    10,
+    11
+  ],
+  "seed": 20261021,
+  "encoding": {
+    "variables": 7136,
+    "clauses": 35156,
+    "inverse_classes": 60,
+    "commuting_trade_cuts": 361,
+    "independent_right_translations": "identity fixed in all sets"
+  },
+  "seconds_limit": 180.0,
+  "models_limit": 1000,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "cuts": [],
+  "status": "time-limit",
+  "witness": null,
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 180.9699856590014,
+  "sat_statistics": {
+    "restarts": 2810,
+    "conflicts": 732054,
+    "decisions": 1259038,
+    "propagations": 311492347
+  }
+}

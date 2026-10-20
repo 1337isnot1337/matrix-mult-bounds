@@ -1,0 +1,172 @@
+{
+  "examples": [
+    {
+      "source": "C5:C4",
+      "degrees": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "screen": {
+        "order": 20,
+        "target": [
+          4,
+          4,
+          5
+        ],
+        "square_slice_size": 20,
+        "codimension": 0,
+        "excluded": true,
+        "obstructing_irrep_degrees": [
+          1
+        ],
+        "reason": "A source degree d>codimension forces a homogeneous determinant divisor of degree d; target divisors have degrees divisible by n.",
+        "proof_status": "written proof, unreviewed; see research_note.md",
+        "improves_omega": false
+      }
+    },
+    {
+      "source": "C7:C3",
+      "degrees": [
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "screen": {
+        "order": 21,
+        "target": [
+          4,
+          4,
+          5
+        ],
+        "square_slice_size": 20,
+        "codimension": 1,
+        "excluded": true,
+        "obstructing_irrep_degrees": [
+          3
+        ],
+        "reason": "A source degree d>codimension forces a homogeneous determinant divisor of degree d; target divisors have degrees divisible by n.",
+        "proof_status": "written proof, unreviewed; see research_note.md",
+        "improves_omega": false
+      }
+    },
+    {
+      "source": "C13:C4",
+      "degrees": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        4,
+        4
+      ],
+      "screen": {
+        "order": 52,
+        "target": [
+          7,
+          7,
+          7
+        ],
+        "square_slice_size": 49,
+        "codimension": 3,
+        "excluded": true,
+        "obstructing_irrep_degrees": [
+          4
+        ],
+        "reason": "A source degree d>codimension forces a homogeneous determinant divisor of degree d; target divisors have degrees divisible by n.",
+        "proof_status": "written proof, unreviewed; see research_note.md",
+        "improves_omega": false
+      }
+    },
+    {
+      "source": "C13:C3",
+      "degrees": [
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      "screen": {
+        "order": 39,
+        "target": [
+          6,
+          6,
+          6
+        ],
+        "square_slice_size": 36,
+        "codimension": 3,
+        "excluded": false,
+        "obstructing_irrep_degrees": [],
+        "reason": "This necessary determinant screen does not exclude the target.",
+        "proof_status": "written proof, unreviewed; see research_note.md",
+        "improves_omega": false
+      }
+    },
+    {
+      "source": "C17:C4",
+      "degrees": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        4,
+        4,
+        4
+      ],
+      "screen": {
+        "order": 68,
+        "target": [
+          8,
+          8,
+          8
+        ],
+        "square_slice_size": 64,
+        "codimension": 4,
+        "excluded": false,
+        "obstructing_irrep_degrees": [],
+        "reason": "This necessary determinant screen does not exclude the target.",
+        "proof_status": "written proof, unreviewed; see research_note.md",
+        "improves_omega": false
+      }
+    },
+    {
+      "source": "C19:C3",
+      "degrees": [
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "screen": {
+        "order": 57,
+        "target": [
+          7,
+          7,
+          7
+        ],
+        "square_slice_size": 49,
+        "codimension": 8,
+        "excluded": false,
+        "obstructing_irrep_degrees": [],
+        "reason": "This necessary determinant screen does not exclude the target.",
+        "proof_status": "written proof, unreviewed; see research_note.md",
+        "improves_omega": false
+      }
+    }
+  ],
+  "scope": "All-size necessary theorem; examples do not exhaust groups or targets."
+}

@@ -1,0 +1,25 @@
+{
+  "target_source": {
+    "repository": "1337isnot1337/matrix-mult-bounds",
+    "commit": "292ba18",
+    "path": "research/ai/2026-10-20-koszul/all_dimension_targets.md",
+    "inspection": "Target definition, explicit border-rank certificate and conditional overhead criterion; credited to the concurrent worker."
+  },
+  "external_source": {
+    "url": "https://arxiv.org/pdf/0810.4542v3",
+    "sha256": "43fe5337c0a34b8583a63b069cf228e32a1193db60aa1eafe95155a3c5b50615",
+    "title": "Computing Gorenstein Colength",
+    "author": "H. Ananthnarayan",
+    "inspection": "Theorem 3.1 and its power-of-maximal-ideal specialization; used only for an actual quotient-cover bound, not arbitrary tensor degenerations."
+  },
+  "concurrent_overlap": [
+    {
+      "commit": "d2d505c57aaf8939db2746d98b37b7d9fc7a6e92",
+      "scope": "Canonical minimum-slice exact-restriction barrier independently rediscovered here."
+    },
+    {
+      "commit": "6bdab15eac78fdc49d7b8f693bd5c3a45acd2905",
+      "scope": "Shared-leg equivariant linear-flattening barrier, with a stronger polynomial-matrix formulation; finite positive controls and fixed-basis catalecticant obstruction."
+    }
+  ]
+}

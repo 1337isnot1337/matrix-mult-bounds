@@ -1,0 +1,86 @@
+{
+  "max_source_dimension": 9,
+  "source_quadruples": 6561,
+  "single_block_cases_exact_rational": 2465,
+  "nontrivial_matching_cases_certified": 4096,
+  "maximal_relaxed_matchings_covered": 9600473,
+  "interval_bits": 96,
+  "violations": 0,
+  "best_nontrivial_upper_bound": {
+    "source": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_profile_product": "100/9",
+    "chosen_matching": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "block_dimensions": [
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "block_profile_values": [
+      "56/9",
+      "1"
+    ],
+    "sum_upper_units": 391360469247767811708080803971,
+    "source_lower_units": 482167242208308832159057976249,
+    "source_upper_units": 482167242208308832159057976250,
+    "ratio_upper_bound": "391360469247767811708080803971/482167242208308832159057976249"
+  },
+  "smallest_diagonal_extraction": {
+    "source": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "line": [
+      1,
+      -1,
+      0
+    ],
+    "x_weights": [
+      0,
+      -7
+    ],
+    "y_weights": [
+      0,
+      -7
+    ],
+    "z_weights": [
+      0,
+      8,
+      14
+    ],
+    "separation_multiplier": 9,
+    "retained_labels": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ]
+  },
+  "scope": "Finite whole-block matching upper bounds; no all-size or omega claim."
+}
