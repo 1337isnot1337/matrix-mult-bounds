@@ -33,9 +33,11 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/asymptotic-capacity-20261020`.
+Branch: `research/singular-shared-laurent-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
+PR #4 merged the quantitative capacity theorem at `34c2367` after the
+required CI check passed. Its incorporated branch was removed as well.
 The merged `research/product-filtration-20261020` branch was removed.
 Preserve other workers' active branches and the first-pass archive.
 
@@ -52,7 +54,9 @@ Current results:
    arbitrary nonzero scalars, constant output mixing and diagonal weights.
    It permits arbitrary canonical target-copy counts and limsup A/m<=5/4.
    This exceeds the required approximately 1.020472. The proof is written
-   and unreviewed; general constant input mixing remains outside its scope.
+   and unreviewed. The joint-word extension now allows arbitrary Laurent
+   output maps while retaining monomial input maps. Actual input mixing
+   remains outside the proof.
 
 Current queue:
 
@@ -72,7 +76,11 @@ Current queue:
 3. If this ansatz is also obstructed, move to general Laurent shared maps or
    a different source-wide mechanism. Do not repeat unchanged closed grids.
 
-Latest local validation: 174 combined tests after integrating 424dd92;
+Latest local extension validation: 184 combined tests pass after integrating
+main daeae6e, with its intermediate-weight covers. The report is
+results/mixed-restrictions-2026-10-20/tests-laurent-after-daeae6e.txt.
+The earlier standalone extension checkpoint passed 179 tests.
+Latest merged validation: 174 combined tests after integrating 424dd92;
 the earlier standalone capacity checkpoint passed 73 tests and the full
 five-part archive replay
 under Python 3.12.3 / SymPy 1.14.0. Logs are in

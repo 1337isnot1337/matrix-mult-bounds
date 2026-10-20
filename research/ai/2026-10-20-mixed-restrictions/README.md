@@ -121,3 +121,24 @@ criterion. These checks support the implementation; the universal claim
 rests on the written proof. Concurrent 8e0a766 instead handles a regular
 invertible shared limit with unrestricted other-leg Laurent maps. The two
 results are complementary and retain their separate hypotheses.
+
+## Arbitrary Laurent output maps
+
+The [joint index-and-valuation argument](laurent_capacity.md) extends the
+same overhead bound to arbitrary Laurent output matrices, retaining only
+monomial input maps with arbitrary nonzero Laurent scalar entries. This
+removes the earlier common-output-row-weight and global arithmetic-shared-
+weight assumptions. Arbitrary input mixing is still outside the proof.
+
+An exact m=3 control uses shared weights (0,0,4) and an output row
+`source_Z_4+epsilon^(-4)*source_Z_7`. The independent standard-library
+verifier checks all 108 coefficients and retains ten target terms. It is a
+control for the broader model, not a new existence theorem. Replay it with:
+
+```
+python3 research/ai/2026-10-20-mixed-restrictions/laurent_coordinates.py results/mixed-restrictions-2026-10-20/laurent-m3-control.json
+```
+
+PR #4 merged the earlier quantitative proof into main at `34c2367` after
+all 174 combined local tests and the required hosted CI check passed. Its
+incorporated branch was removed. This extension is the next checkpoint.
