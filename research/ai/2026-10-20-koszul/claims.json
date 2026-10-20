@@ -190,6 +190,14 @@
       "statement": "Eleven nonaffine shared permutations at m=4,B=10,direction (5,2) completed 600-evaluation fits each. No exact witness was obtained; saved full-tensor diagnostics do not show a small tensor error.",
       "evidence": "permutation_probe.md; ../../../results/koszul-2026-10-20/intermediate-permutations/summary.json",
       "limitations": "Floating fits and sampled epsilon errors are neither exact certificates nor impossibility proofs."
+    },
+    {
+      "id": "AI-COORDINATE-MATRIX-EXTRACTION-037",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For powers of the fully symmetrized C(a,a), coordinate injections and diagonal weights into independent matrix products can force a profile lower bound no greater than (a^8*(2a-1)^5)^(1/9). At a=4 this is below the finite endpoint ceiling, excluding that route at every power; a single square target is at most M49.",
+      "evidence": "finite_amplitude.md, Section 5; tests/test_finite_amplitude.py",
+      "limitations": "General linear combinations and cancellations are not covered. This is a limitation on the extraction method, not an upper bound on the actual character profile or an exponent result.",
+      "attribution": "Applies the abelian opposite-relation argument of concurrent dcfc1ef, with explicit label factorization, group embedding, and Holder dimension accounting."
     }
   ]
 }

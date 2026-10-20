@@ -27,7 +27,10 @@ def report():
         records.append({"a": a, "matching_diagonal": str(d),
             "endpoint_ceiling_ratio_cubed": str(Fraction((6*a-2)**4)/(6*d)**3),
             "matrix_dimension_screen_difference": difference,
-            "matrix_extraction_dimension_screen_excludes": difference >= 0})
+            "matrix_extraction_dimension_screen_excludes": difference >= 0,
+            "coordinate_screen_difference": (6*a-2)**12-6**9*a**8*(2*a-1)**5,
+            "coordinate_matrix_extraction_excludes":
+                (6*a-2)**12 >= 6**9*a**8*(2*a-1)**5})
     return {"status": "conditional implication; universal lower-bound premise unproved",
         "new_exponent_established": False,
         "premise": {"minimum_t": "749/1000", "P_4_4_lower": str(required),
@@ -42,7 +45,10 @@ def report():
             "constructed": False, "integer_certificate": "3816**2249 > 22**6000",
             "integer_certificate_passes": 3816**2249 > 22**6000,
             "n105_endpoint_test": (36*105)**3 > 22**8,
-            "n106_endpoint_test": (36*106)**3 > 22**8},
+            "n106_endpoint_test": (36*106)**3 > 22**8,
+            "coordinate_weight_class_excluded": True,
+            "maximum_coordinate_square_target": 49,
+            "all_power_coordinate_certificate": "6**9*4**8*7**5 < 22**12"},
         "records": records}
 
 

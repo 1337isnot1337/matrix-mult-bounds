@@ -171,8 +171,11 @@ a=2,3; a=4 survives the screen. Eleven retained floating permutation fits
 in a different construction class supplied no exact witness.
 The concrete finite alternative is to degenerate the product of all six
 leg permutations of C(4,4) to M(106,106,106). That unconstructed target
-would also imply omega<=2.249; its source/target leg dimensions pass only
-the elementary screen so far.
+would also imply omega<=2.249. The source/target leg dimensions pass, but
+the group worker's abelian opposite-relation argument excludes coordinate
+maps with diagonal weights. A Holder bound also excludes all-power
+coordinate extractions into independent matrix products at this diagonal
+(AI-COORDINATE-MATRIX-EXTRACTION-037). General linear cancellation remains open.
 
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published

@@ -163,15 +163,84 @@ leg-dimension test. This finite target does not require a separate all-size
 family once its actual degeneration is supplied; tensor-character detection
 and the existing convolution inequalities provide that implication.
 
-## 5. Validation and next task
+## 5. Coordinate maps with diagonal weights cannot supply this target
+
+There is a stronger obstruction for a specific class. Embed C(a,a) as a
+coordinate restriction of the group tensor of Z/(2a-1): label its inputs
+by i,j and its output by -k. Since 0<=i+j<=2a-2, the group condition
+i+j-k=0 is exactly the original convolution condition. Consequently S_a^q
+is a coordinate restriction of the tensor of the abelian group
+
+    G=(Z/(2a-1))^(6q), with |G|=(2a-1)^(6q).         (9)
+
+Suppose coordinate injections, arbitrary nonzero scalar coefficients, and
+diagonal weights extract a matrix product of shape (l,m,r). The intended
+group labels satisfy alpha_(i,j)+beta_(j,k)+gamma_(k,i)=0. Subtracting
+intended equations at fixed reference vertices shows
+
+    alpha_(i,j)=u_i+v_j,
+    beta_(j,k)=-v_j+w_k,
+    gamma_(k,i)=-w_k-u_i.
+
+The same factorization holds for the real or integer weights, since every
+intended term has weight zero. Any collision
+u_i+v_j+w_k=u_i'+v_j'+w_k' with unequal triples creates two unintended
+source terms, one with each sign of the corresponding potential difference.
+Both coefficients are nonzero, so both would need strictly positive weight,
+which is impossible. Thus the map from the l*m*r triples into G is injective:
+
+    l*m*r <= |G|.                                    (10)
+
+This is the concurrent group worker's abelian opposite-relation argument,
+Section 4.1 of `2026-10-20-group-potentials/research_note.md`, introduced at
+`dcfc1ef1f80558c8e7b6c3f8c1f02e4dced94226`. The label factorization above
+makes its applicability to arbitrary coordinate injections explicit. The
+argument is adopted with attribution, not counted as a new group theorem.
+
+For S_4 itself, (10) bounds every square matrix target by n<=49, because
+49^3=7^6. Hence it excludes (H106) in this coordinate-and-weight class.
+General constant linear combinations can cancel extra terms and are not
+covered by this proof.
+
+More strongly, even independent sums of differently shaped matrix products
+from arbitrary powers cannot force a profile value above the finite ceiling
+at a=4 by this method. At an endpoint character, each summand has value
+
+    (l*m*r)^(3/4)
+    <= |G|^(1/12) * (A B C)^(1/3),
+
+where A=l*m, B=m*r, C=r*l. Sum over blocks and use Holder together with the
+source leg dimension V_a^(2q). This gives
+
+    lambda(target) <= (V_a^2 * sqrt(2a-1))^q.
+
+Therefore the largest profile lower bound obtainable from such an extraction
+is at most
+
+    B_a := (a^8*(2a-1)^5)^(1/9).                     (11)
+
+At a=4 this is about 10.107956, less than U_4, about 10.274144. The exact
+comparison is
+
+    6^9 * 4^8 * 7^5 < 22^12.                         (12)
+
+This closes the entire coordinate-injection and diagonal-weight
+matrix-extraction route at a=4, not merely one finite search or one tensor
+power. It does not bound P(4,4) itself and does not exclude arbitrary
+linear or Laurent maps. At a=5 the bound (11) is slightly above the ceiling,
+so this same calculation does not close every larger diagonal.
+
+## 6. Validation and next task
 
 `finite_amplitude.py` records the exact rational ceilings, the integer
 certificate (5), and the small dimension comparisons. No gamma or floating
 logarithm is used to accept a bound. The all-character premise remains
 unproved, and the written implications have no independent review.
 
-The next question is whether (H106) can be constructed, or a stronger tensor
-obstruction excludes it; (H4) remains a more general finite spectral target.
+The next question is whether (H106) can be constructed with non-coordinate
+maps, or a stronger tensor obstruction excludes it; (H4) remains a more
+general finite spectral target. Section 5 means an unchanged coordinate
+or vertex-potential search at a=4 cannot answer that question positively.
 The previous full determinant-filtration entropy score already
 passes the matching profile with a gap; repeating that score is not a way
 to establish (H4). Any proposed extraction must retain its actual tensor

@@ -34,6 +34,19 @@ class FiniteAmplitudeTests(unittest.TestCase):
         self.assertGreater((36*106)**3, 22**8)
         self.assertGreater(3816**2249, 22**6000)
 
+    def test_abelian_embedding_and_coordinate_bound(self):
+        for a in range(2, 9):
+            modulus = 2*a-1
+            for i in range(a):
+                for j in range(a):
+                    for k in range(modulus):
+                        self.assertEqual((i+j-k)%modulus == 0, i+j == k)
+        self.assertEqual(49**3, 7**6)
+        self.assertGreater(106**3, 7**6)
+        self.assertLess(6**9*4**8*7**5, 22**12)
+        # This particular inequality does not close the next diagonal.
+        self.assertGreater(6**9*5**8*9**5, 28**12)
+
     def test_matching_profile_does_not_supply_the_premise(self):
         for a in range(1, 65):
             self.assertLess((6*amplitude.diagonal(a))**3, (6*a-2)**4)
