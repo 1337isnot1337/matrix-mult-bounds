@@ -45,6 +45,10 @@ coefficient matrix. This also excludes the concurrent constant-G graded
 ansatz at low overhead. Its nonsingular-block extension and explicit slice
 cover also exclude two regions of mixed shared/nonshared weights. Genuinely
 singular shared maps and intermediate weight slopes remain the gap.
+The [intermediate-weight slice covers](intermediate_weights.md) quantify a
+further range of slopes and exclude the replicated m=4 balanced-direction
+target for k>=2. They leave the single-copy case and the growing-m balanced
+route open; no construction or exponent improvement follows.
 
 ## Next mathematical question
 

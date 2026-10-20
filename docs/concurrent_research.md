@@ -76,3 +76,11 @@ therefore rejects the worker's (1,1) and (1,2) runs at B=10. The (1,-1)
 direction recorded in `0108d62` remains outside these arguments. Its partial
 residual is not an exact certificate. These are analytic scope updates, not
 new numerical search claims.
+
+The subsequent [intermediate-weight covers](../research/ai/2026-10-20-koszul/intermediate_weights.md)
+give a sharper scope update for (1,-1), equivalently (2,1): at m=4 they
+require B>=12k-3. Thus the replicated B=10k target is excluded for k>=2,
+although the worker's single-copy fit remains outside this exclusion.
+The all-dimension normalized bound tends to one in this direction and does
+not close the growing-family premise. The new tests independently check the
+support covers and small bipartite matchings; they are not exponent evidence.
