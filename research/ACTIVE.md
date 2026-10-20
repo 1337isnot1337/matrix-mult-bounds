@@ -35,15 +35,17 @@ Current queue:
    The selected exact discovery model fixes an integer shared basis, searches
    a Y coordinate injection and arbitrary rational output coefficients, and
    accepts only an independently replayed coefficient witness. Identity m=2
-   is its positive control. The dense Hadamard m=4 pilot is UNSAT; its query/result remain in the
-   discovery scratch area pending a separate experiment package.
+   is its positive control. The dense Hadamard m=4 pilot is UNSAT; an opposite Newton-basis pilot
+   adds nondiagonal input mixing. Its m=2 control is SAT and independently
+   replayed. The m=4 query remains a discovery experiment, not a theorem.
 2. If a finite witness appears, extract its structural pattern, quantify all
    source overhead and prove the required unbounded family. A single finite
    matching-profile violation does not establish an exponent.
 3. If this ansatz is also obstructed, move to general Laurent shared maps or
    a different source-wide mechanism. Do not repeat unchanged closed grids.
 
-Latest local validation: 73 tests and the full five-part archive replay pass
+Latest local validation: 164 combined tests after integrating a83bc24;
+the earlier standalone capacity checkpoint passed 73 tests and the full five-part archive replay pass
 under Python 3.12.3 / SymPy 1.14.0. Logs are in
 results/mixed-restrictions-2026-10-20/. Hosted run 39505129621 executed both
 unittest and archive-replay steps successfully at 20734a9. An earlier billing

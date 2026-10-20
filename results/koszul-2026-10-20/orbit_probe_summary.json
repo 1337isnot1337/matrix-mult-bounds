@@ -1,0 +1,75 @@
+{
+  "status": "exploratory fits only; no source degeneration or numerical exclusion certificate",
+  "numpy_version": "2.5.4",
+  "known_positive_controls": "Exact coefficient tests for C(2,3k) -> T_(2,k) and C(3,6) -> T_(3,1) are in tests/test_source_obstructions.py.",
+  "calibration_log": "orbit_probe.jsonl",
+  "calibration_scope": {
+    "m": [
+      2,
+      3,
+      4
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "cycles": 3000,
+    "coefficients": "real"
+  },
+  "m4_log": "orbit_probe_m4.jsonl",
+  "m4_scope": {
+    "m": 4,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "cycles": 6000,
+    "coefficients": [
+      "real",
+      "complex"
+    ]
+  },
+  "best_m4": {
+    "real": {
+      "seed": 6,
+      "final": {
+        "cycle": 6000,
+        "relative_residual": 0.2236900074890622,
+        "factor_norm": 36.53074216289588,
+        "condition_A": 11.252375576548678,
+        "condition_B": 36150.973938550924
+      }
+    },
+    "complex": {
+      "seed": 11,
+      "final": {
+        "cycle": 6000,
+        "relative_residual": 0.22368634616280647,
+        "factor_norm": 22.0101649420325,
+        "condition_A": 9.141658493961241,
+        "condition_B": 6086.867506574197
+      }
+    }
+  },
+  "limitations": [
+    "Alternating least squares is a local floating-point search.",
+    "Residuals and factor growth do not establish orbit-closure membership or nonmembership.",
+    "Some known-positive control fits stall far from zero; failed fits are not obstructions.",
+    "No numerical result is used in any theorem or conditional exponent certificate."
+  ]
+}

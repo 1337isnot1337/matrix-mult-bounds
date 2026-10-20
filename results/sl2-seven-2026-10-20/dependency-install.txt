@@ -1,0 +1,17 @@
+Collecting python-sat
+  Downloading python_sat-1.9.dev17-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (1.8 kB)
+Collecting sympy==1.14.0
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy==1.14.0)
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Requirement already satisfied: six in /usr/lib/python3.14/site-packages (from python-sat) (1.17.0)
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Downloading python_sat-1.9.dev17-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (4.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/4.1 MB 15.5 MB/s  0:00:00
+Installing collected packages: mpmath, sympy, python-sat
+
+Successfully installed mpmath-1.3.0 python-sat-1.9.dev17 sympy-1.14.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: /home/cinna/matrix-mult-filtration-20261020/.venv/bin/python -m pip install --upgrade pip
