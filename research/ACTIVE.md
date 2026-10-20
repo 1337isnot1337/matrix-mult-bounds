@@ -1,57 +1,55 @@
 # Active research checkpoint
 
 Goal: continue until a rigorously supported matrix multiplication exponent
-strictly below 9/4 is obtained. **ACTIVE / INCOMPLETE.** No such bound exists
-in this branch. The user explicitly instructed not to stop at checkpoints.
+strictly below 9/4 is obtained. **ACTIVE / INCOMPLETE.** No such bound exists.
+The user explicitly instructed not to stop at checkpoints and to merge
+verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/product-filtration-20261020`.
-Review: PR #2. Earlier pushed checkpoints: `712c91a`, `89ebb78`.
+Branch: `research/asymptotic-capacity-20261020`.
+PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
+Its tree equals the locally and remotely verified `20734a9` checkpoint.
+The merged `research/product-filtration-20261020` branch was removed.
+Preserve other workers' active branches and the first-pass archive.
 
-Completed owned work is documented in the affine-direct-sums and
-Clebsch--Gordan packages. Coordinate paths differ from the other workers'.
-The fixed-label proof independently overlaps their stronger result; it is
-not counted twice. New recoupling searches retain k>i+j terms. No scored
-profile violation has been found.
+Current results:
 
-Current mathematical queue:
+1. The two-sector inequality narrows the hypothetical critical amplitude to
+   1/Gamma(4/3)<=K<=(16/9)^(1/3), a nonempty interval. P_* survives the
+   whole family with cubed score at most 27/32. No unchanged grid is needed.
+2. Full recoupling coefficients, scalar tight-support certificates, explicit
+   affine direct sums, W/CW source certificates and exact finite screens are
+   retained in their own packages. No scored profile violation was found.
+3. Active-output disjointness and repetition capacity now give an asymptotic
+   overhead lower bound 3/2-sqrt(3)/4 for coordinate input injections with
+   arbitrary nonzero scalars, constant output mixing and diagonal weights.
+   It permits arbitrary canonical target-copy counts and limsup A/m<=5/4.
+   This exceeds the required approximately 1.020472. The proof is written
+   and unreviewed; general constant input mixing remains outside its scope.
 
-1. Products W_a tensor W_b and standard CW sources now have exact source-cost
-   certificates and finite coupled-weight screens. Those screens found no
-   violation. Move beyond unchanged sampled weight families.
-2. Scalar tight-support uniform-marginal certificates now strengthen all 101
-   recoupling blocks in six sources. Additional outer restrictions still find
-   no violation. Investigate non-coordinate constructions and global endpoint
-   constraints instead of repeating these supports.
-3. Investigate whether critical-profile rigidity plus upper decompositions
-   of W_r can conflict with its tight-support subrank bound. This is only a
-   proposed bridge; no weighted extraction theorem or contradiction is proved.
-4. If a strict source-rank violation appears, independently replay the
-   coefficient witness and turn the strict margin into an explicit bound
-   on every detecting character's t, then the stated arithmetic exponent.
+Current queue:
 
-Do not repeat unchanged completed grids as new research. Save the actual
-coverage and exact next question at every commit. Keep other branches and
-the first-pass archive unchanged; do not change repository visibility.
+1. Search a genuinely nondiagonal shared basis followed by nontrivial shared
+   weights. A fixed shared basis with regular invertible limit is already
+   excluded by concurrent 8e0a766. Shared weights are therefore essential.
+   The selected exact discovery model fixes an integer shared basis, searches
+   a Y coordinate injection and arbitrary rational output coefficients, and
+   accepts only an independently replayed coefficient witness. Identity m=2
+   is its positive control. The dense Hadamard m=4 pilot is UNSAT; its query/result remain in the
+   discovery scratch area pending a separate experiment package.
+2. If a finite witness appears, extract its structural pattern, quantify all
+   source overhead and prove the required unbounded family. A single finite
+   matching-profile violation does not establish an exponent.
+3. If this ansatz is also obstructed, move to general Laurent shared maps or
+   a different source-wide mechanism. Do not repeat unchanged closed grids.
 
-Validation environment: `/tmp/matrix-mult-research-venv/bin/python`, Python
-3.12.3, SymPy 1.14.0. The host SymPy 1.12 does not satisfy archive replay.
-The earlier full archive replay passed locally. The current 69-test suite also passed; its log is in results/mixed-restrictions-2026-10-20/tests.txt.
-Hosted job 118867495049 at `89ebb78` ran zero steps: GitHub reported failed
-account payments or a spending limit. That is unavailable CI infrastructure,
-not evidence that tests ran and failed. No billing changes were attempted.
+Latest local validation: 73 tests and the full five-part archive replay pass
+under Python 3.12.3 / SymPy 1.14.0. Logs are in
+results/mixed-restrictions-2026-10-20/. Hosted run 39505129621 executed both
+unittest and archive-replay steps successfully at 20734a9. An earlier billing
+failure was historical infrastructure unavailability, not a test failure.
 
-The all-size two-sector source-rank inequality narrows the hypothetical
-critical amplitude to 1/Gamma(4/3)<=K<=(16/9)^(1/3). It does not close the
-interval. P_* survives this family with cubed score at most 27/32 at every
-size. Current follow-up: the mixed-target collision search permits arbitrary shared
-coordinate permutations and output-coordinate sums. Exact witnesses pass for
-m=2,3 and m=4 at B=11; the m=4,B=10 query is UNSAT, while m=5,B=15 timed
-out. Allowing A=m+1 also gives UNSAT at m=4 and a timeout at m=5.
-This has no asymptotic short-leg cost if an unbounded family can be found.
-No such family is proved. The active-output and word-repetition proof now excludes B=N at all m>=10.
-Refined SMT cuts preserve the m=2,3 SAT controls, resolve m=5 as UNSAT and
-time out at m=6. Next: quantify the repetition bound for B>N, then move
-beyond coordinate input maps if its overhead remains too large. The independently rediscovered ordinary-restriction and shared-leg
-flattening arguments overlap concurrent d2d505c and 6bdab15, respectively.
-See research/ai/2026-10-20-mixed-restrictions/README.md for precise coverage.
+Concurrent overlaps are credited in package notes and sources.json. In
+particular, canonical exact-restriction and equivariant-flattening arguments
+independently overlapped d2d505c and 6bdab15. The quantitative capacity bound
+is complementary to 8e0a766, retaining distinct hypotheses.
