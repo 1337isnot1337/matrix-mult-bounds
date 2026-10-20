@@ -1,0 +1,108 @@
+{
+  "a": 3,
+  "mode": "scalar-sampled",
+  "seed": 202610207,
+  "input_weight_pairs": 3000,
+  "distinct_scored_supports": 23110,
+  "interval_bits": 80,
+  "source_matching_profile_cubed": "175616/729",
+  "global_ratio_upper": "11518550860391536831190112213/53076679184360679286299951104",
+  "violations": [],
+  "unresolved_interval_comparisons": [],
+  "new_exponent_established": false,
+  "best": {
+    "weights": {
+      "x": [
+        -4,
+        7,
+        7,
+        -2,
+        -6,
+        -1,
+        1,
+        3,
+        7
+      ],
+      "y": [
+        -7,
+        2,
+        -4,
+        4,
+        0,
+        1,
+        7,
+        2,
+        -2
+      ],
+      "z": [
+        13,
+        9,
+        11,
+        8,
+        11,
+        11,
+        10,
+        11,
+        11
+      ],
+      "output_mask": 511
+    },
+    "retained_blocks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      152,
+      192,
+      196,
+      214
+    ],
+    "score_interval": [
+      "63201925159898693175254385/1208925819614629174706176",
+      "15800481289974673293813597/302231454903657293676544"
+    ],
+    "ratio_interval": [
+      "46074203441566147324760446665/212306716737442717145199804416",
+      "11518550860391536831190112213/53076679184360679286299951104"
+    ],
+    "expression": {
+      "type": "shared",
+      "axes": [
+        0,
+        2
+      ],
+      "children": [
+        {
+          "type": "block",
+          "index": 3
+        },
+        {
+          "type": "block",
+          "index": 152
+        },
+        {
+          "type": "shared",
+          "axes": [
+            1,
+            2
+          ],
+          "children": [
+            {
+              "type": "block",
+              "index": 192
+            },
+            {
+              "type": "block",
+              "index": 196
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "index": 214
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "a": 2,
+  "mode": "scalar-sampled",
+  "seed": 202610206,
+  "input_weight_pairs": 3000,
+  "distinct_scored_supports": 3108,
+  "interval_bits": 80,
+  "source_matching_profile_cubed": "1000/27",
+  "global_ratio_upper": "540174912726518791955244621/1208925819614629174706176000",
+  "violations": [],
+  "unresolved_interval_comparisons": [],
+  "new_exponent_established": false,
+  "best": {
+    "weights": {
+      "x": [
+        -7,
+        3,
+        -2,
+        3
+      ],
+      "y": [
+        5,
+        6,
+        -2,
+        6
+      ],
+      "z": [
+        9,
+        1,
+        4,
+        2
+      ],
+      "output_mask": 15
+    },
+    "retained_blocks": [
+      2,
+      3,
+      5,
+      7,
+      22
+    ],
+    "score_interval": [
+      "20006478249130325627972021/1208925819614629174706176",
+      "20006478249130325627972023/1208925819614629174706176"
+    ],
+    "ratio_interval": [
+      "540174912726518791955244567/1208925819614629174706176000",
+      "540174912726518791955244621/1208925819614629174706176000"
+    ],
+    "expression": {
+      "type": "shared",
+      "axes": [
+        0,
+        2
+      ],
+      "children": [
+        {
+          "type": "shared",
+          "axes": [
+            1,
+            2
+          ],
+          "children": [
+            {
+              "type": "block",
+              "index": 2
+            },
+            {
+              "type": "block",
+              "index": 3
+            },
+            {
+              "type": "block",
+              "index": 5
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "index": 22
+        }
+      ]
+    }
+  }
+}

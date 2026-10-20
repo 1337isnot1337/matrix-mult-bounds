@@ -200,6 +200,15 @@ All 4095 nonzero F2 slices at a=2 agree with the minimum-rank formula;
 the 27 equality cases agree exactly with the stated factorization.
 These written proofs are unreviewed and leave singular degenerations open.
 
+The [cyclic recoupling experiment](research/ai/2026-10-20-cyclic-recoupling/README.md)
+(EXP-CYCLIC-RECOUPLING-044) now computes exact coefficients after a basis
+change mixing all three factors on each leg. At a=4 its 2539 scalar blocks
+factor into 175 representation-degree blocks. Sampled searches using exact
+scores find no matching-profile violation. The full a=4 grouped binary
+weight enumeration has 1797505 supports; scoring is still in progress.
+This finite experiment supplies reusable coefficient data, not a degeneration
+achieving the required gain.
+
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
