@@ -329,6 +329,13 @@ length asymptotically at most 5m/4. This exceeds the needed approximately
 The result is written and unreviewed, with 1,599 explicit integer-matrix
 controls and exact algebraic comparisons. It does not improve the exponent.
 
+The [Laurent-output extension](research/ai/2026-10-20-mixed-restrictions/laurent_capacity.md)
+retains the same overhead lower bound when the output matrix is an arbitrary
+Laurent family and the two inputs remain coordinate injections with Laurent
+scalars. A joint index-and-valuation word supplies one common arithmetic
+interval for the rank argument. An exact size-three control verifies the
+broader model. This written proof leaves actual input mixing open.
+
 ## Whole-filtration entropy investigation
 
 Branch `research/full-filtration-entropy-20261020` studies the whole support
