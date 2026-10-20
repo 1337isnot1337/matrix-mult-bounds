@@ -17,6 +17,8 @@ import group_exact as exact
 import fourier_certificate as fourier
 import determinant_obstruction as determinant
 import verify_reports as verify
+import abelian_tables as tables
+import rank_locus_obstruction as rank_locus
 
 
 class GroupPotentialTests(unittest.TestCase):
@@ -36,6 +38,18 @@ class GroupPotentialTests(unittest.TestCase):
                 self.assertEqual(G['mul'][g][0],g)
         with self.assertRaises(ValueError): exact.affine_group(9,4)
         with self.assertRaises(ValueError): exact.affine_group(7,4)
+
+    def test_borel_anchor_orbits_by_independent_matrix_conjugation(self):
+        report=exact.borel_anchor_certificate(self.G)
+        self.assertEqual(len(report['members']),20)
+        self.assertEqual(len(report['quotient_orbit_witnesses']),19)
+        for row in report['quotient_orbit_witnesses']:
+            P=sp.Matrix(2,2,row['conjugator'])
+            q=self.G['inv'][row['quotient']] if row['reverse_pair'] else row['quotient']
+            Qmat=sp.Matrix(2,2,self.G['matrices'][q])
+            conjugated=(P*Qmat*P.inv_mod(5)).applyfunc(lambda x:x%5)
+            target=sp.Matrix(2,2,self.G['matrices'][row['anchor']])
+            self.assertEqual(conjugated,target)
 
     def test_control_by_independent_edge_weight_enumeration(self):
         witness=self.control['witness'];S,T,U=witness['sets']
@@ -126,6 +140,46 @@ class GroupPotentialTests(unittest.TestCase):
         self.assertEqual(boundary['max_coset_size_upper'],[2,3,3])
         self.assertFalse(determinant.abelian_coset_bounds(17,4,[8,8,8])['excluded'])
         with self.assertRaises(ValueError):determinant.abelian_coset_bounds(17,0,[8,8,8])
+
+    def test_normal_table_completeness_by_independent_small_bruteforce(self):
+        p=11
+        expected=set()
+        for b in range(1,p):
+            for c in range(1,p):
+                row=((0,1),(0,b),(0,c))
+                if len({(x+y+z)%p for x in row[0] for y in row[1] for z in row[2]})==8:
+                    expected.add(row)
+        self.assertEqual(set(tables.normal_tables(p,2,2,2)),expected)
+        rows=tables.normal_tables(29,3,3,3)
+        self.assertEqual(len(rows),162)
+        self.assertTrue(all(tables.verify_table_entry(29,row) for row in rows))
+
+    def test_rank_locus_knapsack_matches_exhaustive_choices(self):
+        from itertools import product
+        degrees=[1,2,3]
+        computed=rank_locus.profile(degrees)
+        for budget,row in enumerate(computed):
+            choices=[ks for ks in product(*(range(d+1) for d in degrees))
+                     if sum(d*k for d,k in zip(degrees,ks))<=budget]
+            value=max(sum(k*(2*d-k) for d,k in zip(degrees,ks)) for ks in choices)
+            self.assertEqual(row['dimension'],value)
+            self.assertLessEqual(row['actual_regular_rank'],budget)
+            self.assertEqual(sum(k*(2*d-k) for d,k in zip(degrees,row['block_ranks'])),value)
+
+    def test_rank_locus_frontier_and_block_witnesses(self):
+        saved=json.loads((RESULTS/'rank_locus_obstruction.json').read_text())
+        self.assertEqual(rank_locus.report(),saved)
+        self.assertEqual(saved['surviving_shapes'],[[10,10,10]])
+        self.assertEqual(len(saved['potential_improvement_shapes']),7)
+        degrees=saved['source_degrees']
+        for row in saved['potential_improvement_shapes']:
+            if row['shape'] in ([9,9,12],[9,10,11]):
+                self.assertTrue(row['excluded'])
+                self.assertEqual(row['low_rank_locus']['dimension'],14)
+                self.assertEqual(row['low_rank_locus']['actual_regular_rank'],8)
+            k=row['low_rank_locus']['block_ranks']
+            self.assertEqual(sum(d*x for d,x in zip(degrees,k)),row['low_rank_locus']['actual_regular_rank'])
+            self.assertEqual(sum(x*(2*d-x) for d,x in zip(degrees,k)),row['low_rank_locus']['dimension'])
 
 
 if __name__=='__main__':unittest.main()

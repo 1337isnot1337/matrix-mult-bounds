@@ -78,3 +78,18 @@ The exact search has a genuine (3,3,3) control degeneration and 479 verified
 Farkas cuts across two control/candidate runs. The larger target runs timed out
 or returned SAT-solver UNSAT without proof traces; these are not independently
 checked nonexistence results. Construction research continues.
+
+The [rank-locus dimension proof](research/ai/2026-10-20-group-potentials/rank_locus_proof.md)
+now excludes the original SL(2,5) shapes **(9,9,12)** and **(9,10,11)** under
+arbitrary complex tensor degeneration. The explicit source rank-eight variety
+has dimension 14, forcing required source dimensions 122 and 124, respectively,
+against the actual dimension 120. This is a written, unreviewed proof, not a
+SAT-derived exclusion.
+
+An exact finite enumeration of every sorted shape passing the degree-sum gate
+at 9/4 leaves only **(10,10,10)** after this screen. That shape and selected
+larger affine-group candidates remain unconstructed. The same rank-locus
+screen removes several affine cases that had only untraced SAT negatives.
+The abelian-coset ceiling lemma and exact normal-subgroup tables further
+strengthen discovery constraints; these restrictions do not constitute an
+exponent improvement.

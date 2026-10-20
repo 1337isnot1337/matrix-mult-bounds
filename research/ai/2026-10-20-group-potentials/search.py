@@ -8,7 +8,7 @@ from __future__ import annotations
 import argparse
 from fractions import Fraction
 from functools import reduce
-from itertools import combinations,permutations
+from itertools import combinations,permutations,product
 import json
 from math import gcd,lcm
 from pathlib import Path
@@ -20,9 +20,10 @@ import numpy as np
 from scipy.optimize import linprog
 from pysat.card import CardEnc, EncType
 from pysat.formula import IDPool
-from pysat.solvers import Glucose4
+from pysat.solvers import Glucose4,Cadical195
 
-from group_exact import group,affine_group,extra_relations,verify_witness,verify_farkas
+from group_exact import group,affine_group,borel_anchor_certificate,extra_relations,verify_witness,verify_farkas
+from abelian_tables import normal_tables
 
 
 def integerize(values):
@@ -68,7 +69,7 @@ def potential_or_circuit(relations, width):
     return {'indices':indices,'weights':weights}
 
 
-def build_solver(G,shape,seed):
+def build_solver(G,shape,seed,engine='glucose4'):
     pool=IDPool()
     N=len(G['matrices'])
     members=[[pool.id(('member',f,g)) for g in range(N)] for f in range(3)]
@@ -83,7 +84,7 @@ def build_solver(G,shape,seed):
             q=G['mul'][g][G['inv'][h]]
             q=min(q,G['inv'][q])
             clauses.append([-members[f][g],-members[f][h],owners[f][q]])
-    coset_normalization=None
+    coset_normalization=None;borel_normalization=None
     if 'index' in G:
         r=G['index'];p=G['p']
         lower=[(size+r-1)//r for size in shape]
@@ -101,15 +102,82 @@ def build_solver(G,shape,seed):
                     if upper[f]<len(fiber):
                         clauses.extend(CardEnc.atmost([members[f][g] for g in fiber],
                             upper[f],vpool=pool,encoding=EncType.seqcounter).clauses)
+            # Normalize the largest coset into the identity fiber, record its
+            # exact size, and apply the product bound to those actual maxima.
+            ranges=[list(range(lower[f],min(upper[f],shape[f])+1)) for f in range(3)]
+            selectors=[{k:pool.id(('fiber-maximum',f,k)) for k in ranges[f]} for f in range(3)]
+            for f in range(3):
+                clauses.extend(CardEnc.equals(list(selectors[f].values()),1,
+                              vpool=pool,encoding=EncType.seqcounter).clauses)
+                for k,selector in selectors[f].items():
+                    exact=CardEnc.equals([members[f][g] for g in fibers[1]],k,
+                                         vpool=pool,encoding=EncType.seqcounter)
+                    clauses.extend([[-selector,*clause] for clause in exact.clauses])
+                    for a,fiber in fibers.items():
+                        if a==1:continue
+                        maximum=CardEnc.atmost([members[f][g] for g in fiber],k,
+                                              vpool=pool,encoding=EncType.seqcounter)
+                        clauses.extend([[-selector,*clause] for clause in maximum.clauses])
+                # A closest pair on a cyclic fiber can be translated to 0,t
+                # with 1<=t<=floor(p/lower). Keep this translation normalization.
+                if lower[f]>=2:
+                    clauses.append([members[f][G['matrices'].index((1,t,0,1))]
+                                    for t in range(1,p//lower[f]+1)])
+            table_entries=0;table_cases=0
+            for sizes in product(*ranges):
+                forbidden=(any(shape[f]==shape[h] and sizes[f]>sizes[h]
+                               for f,h in combinations(range(3),2)))
+                if (sizes[0]*sizes[1]*sizes[2]>p or
+                    forbidden or
+                    (shape[0]==shape[1]==shape[2] and
+                     sizes!=min(sizes,sizes[1:]+sizes[:1],sizes[2:]+sizes[:2]))):
+                    clauses.append([-selectors[f][sizes[f]] for f in range(3)])
+                    continue
+                if p<=53 and sizes[0]<=3 and max(sizes)<=5:
+                    rows=normal_tables(p,*sizes)
+                    table_cases+=1;table_entries+=len(rows)
+                    row_selectors=[]
+                    for rowid,row in enumerate(rows):
+                        selected=pool.id(('normal-table',sizes,rowid))
+                        row_selectors.append(selected)
+                        for f in range(3):
+                            clauses.append([-selected,selectors[f][sizes[f]]])
+                            for t in row[f]:
+                                clauses.append([-selected,members[f][G['matrices'].index((1,t,0,1))]])
+                    clauses.append([-selectors[f][sizes[f]] for f in range(3)]+row_selectors)
             anchor=None
             if shape[0]>r:
                 anchor=G['matrices'].index((1,1,0,1))
                 clauses.append([members[0][anchor]])
+            # Translation conjugation fixes every pure translation. If S has
+            # any element of nonidentity scale, normalize one such element's
+            # translation coordinate to zero using the remaining automorphism.
+            pure_multipliers=[members[0][G['matrices'].index((a,0,0,1))]
+                              for a in fibers if a!=1]
+            for g,x in enumerate(G['matrices']):
+                if x[0]!=1:clauses.append([-members[0][g],*pure_multipliers])
             coset_normalization={'subgroup_order':p,'index':r,
                  'identity_fiber_lower':lower,'all_fibers_upper':upper,
                  'first_set_translation_one_anchor':anchor,
+                 'identity_fiber_is_maximum':True,
+                 'cyclic_maximum_tuple_normalization':shape[0]==shape[1]==shape[2],
+                 'equal_shape_maxima_sorted':True,
+                 'complete_normal_table_cases':table_cases,
+                 'complete_normal_table_rows':table_entries,
                  'justification':'independent right translations, normal-translation '
                    'coset ceiling bound, and simultaneous translation-coordinate scaling'}
+    elif G['name']=='SL(2,5)':
+        cert=borel_anchor_certificate(G)
+        lower=[(size+cert['index']-1)//cert['index'] for size in shape]
+        for f in range(3):
+            clauses.extend(CardEnc.atleast([members[f][g] for g in cert['members']],
+                lower[f],vpool=pool,encoding=EncType.seqcounter).clauses)
+        if shape[0]>cert['index']:
+            clauses.append([members[0][g] for g in cert['anchors']])
+        borel_normalization={'order':cert['order'],'index':cert['index'],
+             'identity_coset_lower':lower,
+             'first_set_anchor_disjunction':cert['anchors'] if shape[0]>cert['index'] else [],
+             'quotient_orbits_verified':len(cert['quotient_orbit_witnesses'])}
     for q in reps:
         for f,h in combinations(range(3),2):
             clauses.append([-owners[f][q],-owners[h][q]])
@@ -129,19 +197,22 @@ def build_solver(G,shape,seed):
     clauses.extend(sorted(commuting_cuts))
     rng=random.Random(seed)
     rng.shuffle(clauses)
-    solver=Glucose4(bootstrap_with=clauses,use_timer=True)
+    solver_type=Cadical195 if engine=='cadical195' else Glucose4
+    solver=solver_type(bootstrap_with=clauses,use_timer=True)
     solver.set_phases([v if rng.randrange(2) else -v for row in members for v in row])
     return solver,members,{'variables':pool.top,'clauses':len(clauses),
                            'inverse_classes':len(reps),'commuting_trade_cuts':len(commuting_cuts),
                            'coset_normalization':coset_normalization,
+                           'borel_normalization':borel_normalization,
                            'independent_right_translations':'identity fixed in all sets'}
 
 
-def run(shape,seconds,seed,output,max_models,affine=None):
+def run(shape,seconds,seed,output,max_models,affine=None,engine='glucose4'):
     G=affine_group(*affine) if affine else group(5)
-    solver,members,encoding=build_solver(G,shape,seed)
+    solver,members,encoding=build_solver(G,shape,seed,engine)
     started=time.monotonic()
-    result={'group':G['name'],'affine_parameters':affine,'shape':shape,'seed':seed,'encoding':encoding,
+    result={'group':G['name'],'affine_parameters':affine,'shape':shape,'seed':seed,
+            'solver':engine,'encoding':encoding,
             'seconds_limit':seconds,'models_limit':max_models,
             'pair_injective_models':0,'exact_farkas_cuts':0,'cuts':[],
             'status':'running','witness':None,'scope':'Bounded search. SAT '
@@ -158,10 +229,17 @@ def run(shape,seconds,seed,output,max_models,affine=None):
         remaining=seconds-(time.monotonic()-started)
         if remaining<=0:
             result['status']='time-limit';break
-        timer=threading.Timer(remaining,solver.interrupt)
-        timer.start()
-        try: solved=solver.solve_limited(expect_interrupt=True)
-        finally: timer.cancel()
+        if engine=='cadical195':
+            solver.conf_budget(10000)
+            solved=solver.solve_limited()
+            if solved is None:
+                checkpoint()
+                continue
+        else:
+            timer=threading.Timer(remaining,solver.interrupt)
+            timer.start()
+            try: solved=solver.solve_limited(expect_interrupt=True)
+            finally: timer.cancel()
         if solved is None:
             result['status']='time-limit';break
         if solved is False:
@@ -211,7 +289,8 @@ if __name__=='__main__':
     parser.add_argument('--max-models',type=int,default=1000)
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--affine',type=int,nargs=2,metavar=('PRIME','INDEX'))
+    parser.add_argument('--solver',choices=['glucose4','cadical195'],default='glucose4')
     args=parser.parse_args()
     if min(args.shape)<1 or max(args.shape)>120 or args.seconds<=0 or args.max_models<1:
         parser.error('invalid positive shape or limits')
-    run(args.shape,args.seconds,args.seed,args.output,args.max_models,args.affine)
+    run(args.shape,args.seconds,args.seed,args.output,args.max_models,args.affine,args.solver)

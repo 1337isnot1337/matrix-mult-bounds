@@ -57,6 +57,14 @@ also requires its own proof; the scalar subrank formula is insufficient by itsel
 
 ## Work selection
 
+The [finite-group construction campaign](../research/ai/2026-10-20-group-potentials/README.md)
+is owned on `research/full-filtration-entropy-20261020`. Rank-locus dimensions
+exclude two previously reported SL(2,5) targets under general degeneration;
+only (10,10,10) survives the finite degree-sum/rank-locus frontier. Constructing
+that degeneration would give a smaller exponent, but no witness exists here.
+Affine-group searches use exact abelian-coset and normal-table constraints.
+Avoid repeating the earlier unnormalized searches without a new reason.
+
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.

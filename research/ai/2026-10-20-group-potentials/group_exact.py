@@ -43,6 +43,41 @@ def affine_group(p: int, r: int) -> dict:
             'identity':0,'name':f'C{p}:C{r}'}
 
 
+def borel_anchor_certificate(G: dict) -> dict:
+    if G['name']!='SL(2,5)':raise ValueError('this certificate is specific to SL(2,5)')
+    p=5;matrices=G['matrices'];index={x:i for i,x in enumerate(matrices)}
+    H=[i for i,x in enumerate(matrices) if x[2]==0]
+    anchors=[index[x] for x in [(4,0,0,4),(1,1,0,1),(4,1,0,4),(2,0,0,3)]]
+    def mm(x,y):
+        a,b,c,d=x;e,f,g,h=y
+        return ((a*e+b*g)%p,(a*f+b*h)%p,(c*e+d*g)%p,(c*f+d*h)%p)
+    conjugators=[(a,b,0,d) for a in range(1,p) for d in range(1,p) for b in range(p)]
+    witnesses=[]
+    for q in H:
+        if q==0:continue
+        witness=None
+        for reverse in [False,True]:
+            candidate=matrices[G['inv'][q] if reverse else q]
+            for P in conjugators:
+                a,b,c,d=P;iv=pow((a*d-b*c)%p,-1,p)
+                Pinv=((d*iv)%p,(-b*iv)%p,(-c*iv)%p,(a*iv)%p)
+                target=index[mm(mm(P,candidate),Pinv)]
+                if target in anchors:
+                    witness={'quotient':q,'reverse_pair':reverse,
+                             'conjugator':list(P),'anchor':target}
+                    break
+            if witness:break
+        if not witness:raise ArithmeticError('Borel quotient orbit not covered')
+        witnesses.append(witness)
+    if len(H)!=20 or len(witnesses)!=19:raise ArithmeticError('Borel size mismatch')
+    return {'group':'SL(2,5)','subgroup':'upper triangular Borel','order':20,'index':6,
+            'members':H,'anchors':anchors,'quotient_orbit_witnesses':witnesses,
+            'justification':'Every nonidentity Borel quotient is conjugate under an '
+                 'upper-triangular GL2(5) matrix, possibly after pair reversal, to '
+                 'one of the four anchors. Conjugations preserve the Borel.',
+            'verified':True}
+
+
 def pair_map(G: dict, left: list[int], right: list[int]) -> dict:
     result = {}
     for i,x in enumerate(left):

@@ -29,3 +29,9 @@ obstruction, exact source and conditional endpoint certificates, and actual
 bounded-search outcomes. An independent integer-only verifier checks witnesses
 and learned cuts. The small (3,3,3) control succeeds; no target shape beating
 9/4 has succeeded. Timeouts and untraced SAT UNSAT outcomes remain unresolved.
+
+The [rank-locus proof](rank_locus_proof.md) subsequently excludes two of the
+original SL(2,5) shapes under arbitrary complex degeneration. Only (10,10,10)
+survives the exact finite gate plus rank-locus screen. It is still open here.
+The general source obstruction is mathematical; the SAT run outcomes remain
+separate and do not supply its proof.

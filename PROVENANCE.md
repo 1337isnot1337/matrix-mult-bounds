@@ -63,4 +63,10 @@ No external source code, private solver service or imported character table
 was used. SAT and LP are discovery tools; their untraced negative outcomes are
 not mathematical certificates. No smaller exponent is established.
 
+The later rank-locus proof uses standard determinantal-variety dimensions,
+the projective dimension theorem and proper incidence projection. Its concrete
+group-algebra application and exact frontier calculation were derived in this
+session, with no priority or independent-review claim. It supplies a separate
+written exclusion for cases that had only untraced SAT outcomes before.
+
 An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.

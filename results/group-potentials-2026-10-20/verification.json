@@ -6,7 +6,7 @@
     "command": "python -m unittest discover -s tests -v"
   },
   "current_group_suite": {
-    "tests": 8,
+    "tests": 12,
     "failed": 0,
     "command": "python -m unittest discover -s tests -p test_group_potentials.py -v"
   },
@@ -23,11 +23,43 @@
   },
   "proof_status": "written, AI-derived, unreviewed; no Lean formalization",
   "sha256": {
+    "research/ai/2026-10-20-group-potentials/abelian_tables.py": "105fe0eb2f0ae8d3d0e4e8186674a07b770fd1e41c01531673c8cb5e0b4ee8f8",
     "research/ai/2026-10-20-group-potentials/determinant_obstruction.py": "b8a6b4d28ccad4489c2a3740e1c91c4f0ae89c537346bd3d6ee841532804663e",
     "research/ai/2026-10-20-group-potentials/fourier_certificate.py": "0ad4f5cf18507f069b368f776325e3c522083386c01e48df0a30be58f18bc4f9",
-    "research/ai/2026-10-20-group-potentials/group_exact.py": "7dade0caa8e77924eadb8fef318ffb14727f1ab6c5544fc3faa49cba02b987a2",
-    "research/ai/2026-10-20-group-potentials/search.py": "bb862df5dc7a2d5cf7ed57bd5a8daeace1f255196b2bc17b68a45052e850bb94",
+    "research/ai/2026-10-20-group-potentials/group_exact.py": "fcd93741ba37d7104b6e5abe234e48e8fbf9513aaffd65ddff6b98066628dfb1",
+    "research/ai/2026-10-20-group-potentials/rank_locus_obstruction.py": "7b583b03d07f6e884569047bbaf7140045ed41002b1b9665582b2ef3ab34dd48",
+    "research/ai/2026-10-20-group-potentials/search.py": "681e7a977ce5e69c8ba33cc1e9b7f6c937919c37f0fdb8f90ef7d51bf079dfd7",
     "research/ai/2026-10-20-group-potentials/verify_reports.py": "e02fcc77e44cc5e9745d800c12daf90890c1434bdc9282278727f47c692f970f",
-    "tests/test_group_potentials.py": "f3af7a3d7060ae72dce8a2d570b980eddd8b03420d3114146110a47ed5f5990e"
+    "tests/test_group_potentials.py": "692e9ed93c363a2f4e95a27c83bdf5ec9672e4a00f8e488b590e0b82384d7d18"
+  },
+  "current_full_suite": {
+    "tests": 44,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "rank_locus_certificate": {
+    "rank_budget": 8,
+    "source_variety_dimension": 14,
+    "excluded_SL2_shapes": [
+      [
+        9,
+        9,
+        12
+      ],
+      [
+        9,
+        10,
+        11
+      ]
+    ],
+    "all_gate_passing_shapes": 7,
+    "surviving_shapes": [
+      [
+        10,
+        10,
+        10
+      ]
+    ],
+    "status": "unreviewed written proof plus exact finite witnesses"
   }
 }
