@@ -39,6 +39,15 @@ class FatpointRouteTests(unittest.TestCase):
         self.assertTrue(route.rational_below_root(Fraction(4, 3)))
         self.assertFalse(route.rational_below_root(Fraction(4, 3), Fraction(103, 100)))
 
+    def test_special_slice_for_exact_restriction_barrier(self):
+        for a in range(1, 13):
+            dims, terms = route.tensor(a)
+            special = sp.zeros(dims[2], dims[1])
+            for x, y, z in terms:
+                if x == 0:
+                    special[z, y] += 1
+            self.assertEqual(special.rank(), a)
+
 
 if __name__ == '__main__':
     unittest.main()

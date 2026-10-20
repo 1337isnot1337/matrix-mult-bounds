@@ -1,15 +1,23 @@
 test_corrected_window (test_board_thresholds.ThresholdTests.test_corrected_window) ... ok
 test_report_replay (test_board_thresholds.ThresholdTests.test_report_replay) ... ok
 test_strict_power_boundary (test_board_thresholds.ThresholdTests.test_strict_power_boundary) ... ok
+test_basis_and_product_coefficients (test_chebyshev_search.ChebyshevSearchTests.test_basis_and_product_coefficients) ... ok
+test_slice_bound_against_rational_matrices (test_chebyshev_search.ChebyshevSearchTests.test_slice_bound_against_rational_matrices) ... ok
+test_zero_terms_and_disjoint_nonshared_spaces (test_chebyshev_search.ChebyshevSearchTests.test_zero_terms_and_disjoint_nonshared_spaces) ... ok
 test_integral_of_lower_envelope (test_fatpoint_route.FatpointRouteTests.test_integral_of_lower_envelope) ... ok
 test_root_certificate_and_negative_controls (test_fatpoint_route.FatpointRouteTests.test_root_certificate_and_negative_controls) ... ok
 test_small_target_matrices (test_fatpoint_route.FatpointRouteTests.test_small_target_matrices) ... ok
+test_special_slice_for_exact_restriction_barrier (test_fatpoint_route.FatpointRouteTests.test_special_slice_for_exact_restriction_barrier) ... ok
 test_boundary_hypothesis_is_needed (test_filtration.FiltrationTests.test_boundary_hypothesis_is_needed) ... ok
 test_converse_recovers_boundary_and_interior (test_filtration.FiltrationTests.test_converse_recovers_boundary_and_interior) ... ok
 test_elementary_restriction_coefficients (test_filtration.FiltrationTests.test_elementary_restriction_coefficients) ... ok
 test_other_profiles_use_same_proof_chain (test_filtration.FiltrationTests.test_other_profiles_use_same_proof_chain) ... ok
 test_profile_against_independent_closed_product (test_filtration.FiltrationTests.test_profile_against_independent_closed_product) ... ok
 test_zero_boundary_and_concavity (test_filtration.FiltrationTests.test_zero_boundary_and_concavity) ... ok
+test_padded_target_and_cost_one_rejection (test_fixed_shared_hom.FixedSharedHomTests.test_padded_target_and_cost_one_rejection) ... ok
+test_source_formula (test_fixed_shared_hom.FixedSharedHomTests.test_source_formula) ... ok
+test_explicit_small_degenerations (test_graded_certificate.GradedCertificateTests.test_explicit_small_degenerations) ... ok
+test_wrong_coefficient_is_rejected (test_graded_certificate.GradedCertificateTests.test_wrong_coefficient_is_rejected) ... ok
 test_actual_flattening_character_scaling (test_homogeneous.HomogeneousControls.test_actual_flattening_character_scaling) ... ok
 test_conditional_exponent_example (test_homogeneous.HomogeneousControls.test_conditional_exponent_example) ... ok
 test_critical_shape_and_diagonal_join (test_homogeneous.HomogeneousControls.test_critical_shape_and_diagonal_join) ... ok
@@ -47,6 +55,6 @@ test_small_candidate (test_session2_checkpoint.CheckpointTests.test_small_candid
 test_tensor_replay (test_session2_checkpoint.CheckpointTests.test_tensor_replay) ... ok
 
 ----------------------------------------------------------------------
-Ran 47 tests in 34.075s
+Ran 55 tests in 14.106s
 
 OK

@@ -17,10 +17,10 @@ dimension `a`. Splitting according to the degree of Y gives `a` matched sectors
 whose tensors are `C(u,a+1-u)`, with their outputs as the common shared space.
 The case `a=4` is the Koszul worker's target at branch revision `30219d0`.
 
-Can one construct, for arbitrarily large `a` and sufficiently large `k`,
+Can one construct, along unbounded integers `a`, with some integers `k_a>=1`,
 
-$$C(a,B_{a,k})\ \unrhd\ T_a\otimes B_X(k),\qquad
-\limsup_{k\to\infty}\frac{B_{a,k}}{kN_a}\le\rho,$$
+$$C(a,B_a)\ \unrhd\ T_a\otimes B_X(k_a),\qquad
+\limsup_{a\to\infty}\frac{B_a}{k_aN_a}\le\rho,$$
 
 with the same `rho < 9/(7*2^(1/3))`, approximately `1.02047`?
 
@@ -68,14 +68,15 @@ $$F(x,y)\ge L\min(x,y)^{d-1}
 If the proposed degeneration exists at cost `rho`, multiplicativity, the
 dot-product value and shared-leg entropy give
 
-$$P(a,B_{a,k})\ge k\sum_{u=1}^aP(u,a+1-u).$$
+$$P(a,B_a)\ge k_a\sum_{u=1}^aP(u,a+1-u).$$
 
-Take `k` to infinity at fixed `a`:
+The target Y flattening forces `B_a>=k_a N_a`, hence `B_a/a` tends to infinity
+along the constructed sequence. The upper bound `P<=F` and homogeneity give
 
-$$\rho N_a S_a\ge\sum_{u=1}^aP(u,a+1-u).$$
+$$\frac{P(a,B_a)}{k_a a^{d+1}}
+\le\frac{B_a}{k_a a^2}\frac{f(B_a/a)}{B_a/a}.$$
 
-Now take the unbounded sequence of admissible `a` to infinity. Divide by
-`a^(d+1)` and use (2). On the right, the scaling limit and rank bound permit
+Its upper limit is at most `rho L/2`. On the target side, the scaling limit and rank bound permit
 bounded convergence for the step functions on `0<x<1`: each scaled term is
 at most one, and the limiting profile is continuous in the interior. Hence
 
@@ -105,6 +106,19 @@ places the root above `d=168/125`. Thus that construction would certify
 `omega<=125/56`, approximately `2.23214`. This is solely a conditional target.
 The finer root can be displayed numerically, but acceptance needs no floating
 point arithmetic.
+
+This argument only needs one `k_a` at each admissible `a`, not a separate
+large-`k` limit at fixed `a`. The thin-slope identity (2) is independently
+useful but is not required for this weaker construction premise.
+
+The concurrent Koszul note at
+[`292ba18`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/292ba18)
+studies the same all-degree targets and critical cost threshold. Its
+quantitative criterion uses a diagonal tangent bound and a tripling lower
+envelope. The present argument uses the exact asymptotic slope `L` on both
+sides, giving the stronger conditional cost-one rational consequence
+`125/56` under the same sequence premise. Neither note supplies the premise;
+the overlapping targets and critical threshold are not counted twice.
 
 ## Initial obstruction checks and unresolved work
 

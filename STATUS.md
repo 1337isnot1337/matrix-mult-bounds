@@ -76,6 +76,15 @@ neither number is a new exponent result. The proof, exact threshold certificate
 and 528 finite rank-identity checks are in the
 [construction route](research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 
+The same branch now proves an arbitrary exact-restriction cost of at least two
+for the canonical fat-point targets, using their special rank-`ka` slice.
+This strengthens the concurrent maximum-slice estimate. The construction
+must be singular. Fixed-shared-coordinate attempts are closed by the other
+worker's stronger catalecticant obstruction at `6bdab15`; the active graded
+discovery therefore includes an unrestricted shared basis. The completed
+Chebyshev search covers 18,440 candidates and gives no finite profile violation.
+No floating fit is accepted as a certificate.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)

@@ -88,3 +88,9 @@ suite to 47 tests. Fifteen independent coefficient matrices (`a=1,...,5`,
 every exterior degree) agree with the target rank formula. A symbolic integral
 checks the lower envelope, and integer powers certify the conditional root
 bound. These tests supply no convolution-source degeneration.
+
+The following checkpoint passes 55 tests. It adds independent exact
+homomorphism-kernel counts and two explicit graded coefficient controls,
+including deliberate coefficient rejection. Numerical discovery scripts
+additionally check their analytic Jacobian against finite differences; their
+residuals are not used for mathematical acceptance.

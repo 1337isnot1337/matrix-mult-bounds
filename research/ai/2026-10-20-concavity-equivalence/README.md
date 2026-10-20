@@ -83,3 +83,12 @@ screens and the conditional rational root certificate. It is not a new bound.
 The next experiment investigates matrix-space bases and possible degenerations
 of `C(a,B)` to these targets. Coordinate/diagonal-weight packing alone is
 already obstructed; interpolation from a diagonal tensor is insufficient.
+
+[exact_restriction_barrier.md](exact_restriction_barrier.md) proves that
+arbitrary constant linear restrictions from `C(A,B)` to the canonical target
+need `B>=k a^2-A+1`. At bounded `A/a`, their asymptotic cost is at least two.
+The low-cost construction must therefore use a singular degeneration.
+
+The first [Chebyshev basis search](chebyshev_search.md) completed 18,440
+candidates, with no scored matching-profile violation. Its best exact ratio
+was `10/11`; the archived monomial-basis search was not modified.
