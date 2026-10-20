@@ -35,3 +35,24 @@ The checkpoint includes draft homogeneous-profile rigidity and curvature criteri
 The temporary second-pass files were not retained in the current runtime. Reconstructed programs and regenerated reports are labeled accordingly. All eight new checkpoint tests passed. The first-pass archive remains unchanged.
 
 The [external source review](docs/external_followups.md) covers the three repositories suggested by the owner. It includes Filmus's finite identities-to-exponent criterion with its hypotheses. No external Lean rebuild is claimed.
+
+## Whole-filtration entropy investigation
+
+Branch `research/full-filtration-entropy-20261020` studies the whole support
+`i+j=k`, separately from the other workers' Koszul and matched-row audits.
+[Written proof](research/ai/2026-10-20-full-filtration/research_note.md) |
+[Exact certificates](results/full-filtration-2026-10-20/entropy_certificate.json).
+
+- AI-FULL-ENTROPY-001: an analytic dual certificate bounds every probability
+  distribution in the explicitly defined optimistic entropy score.
+- AI-BALANCED-ENTROPY-002: for every integer `n>=2`, that score for the balanced
+  source `C(n,n)^2` is at most `39/40` of its matching source profile. The proof
+  uses 3,794 exact block tests for sizes 2--22 and a positive-coefficient
+  polynomial for every size at least 23.
+- EXP-FULL-ENTROPY-001: all 20,736 source tuples through size 12 admit exact
+  upper certificates over their entire probability simplex.
+
+These are unreviewed analytic results and exact finite certificates. The
+optimistic score is not claimed as a proved weighted block-extraction theorem.
+The all-size unequal-source inequality remains open. This rules out one
+proposed escape in the stated scope; the exponent remains `9/4`.

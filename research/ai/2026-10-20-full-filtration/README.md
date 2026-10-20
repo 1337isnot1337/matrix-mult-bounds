@@ -22,5 +22,8 @@ Christandl--Vrana--Zuiddam, arXiv:1609.07476v2, Theorem 1.1.31. The weighted
 block version needs an explicit argument; the scalar subrank theorem alone
 must not silently be used for non-scalar blocks.
 
-Status at selection: no new theorem, completed entropy run or exponent
-improvement. The archived first and second research passes are unchanged.
+Result: the [research note](research_note.md) proves an analytic dual bound
+and an all-size `39/40` obstruction for balanced sources. The exact report
+covers every distribution for all 20,736 source tuples through size 12.
+No exponent improvement or weighted block-extraction theorem is claimed.
+The archived first and second research passes are unchanged.

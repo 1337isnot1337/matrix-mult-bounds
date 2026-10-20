@@ -42,6 +42,19 @@ Status: open. Replace floating best-case ordering in a maintained search copy wi
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
 
+## R7: Whole-filtration entropy beyond the balanced obstruction
+
+Owned on `research/full-filtration-entropy-20261020`. The [new note](../research/ai/2026-10-20-full-filtration/research_note.md)
+defines the optimistic full-support entropy score and proves an all-size
+`39/40` upper bound for balanced sources. Exact certificates cover every
+distribution at every unequal-source tuple through size 12.
+
+The next precise question is whether its explicit upper bound `U(a,b,c,d)`
+never exceeds `P_*(a,b)P_*(c,d)` for arbitrary positive lengths, or even has the
+same `39/40` factor when all four lengths exceed one. This is a conjecture,
+not an all-size consequence of the grid. A weighted block-extraction theorem
+also requires its own proof; the scalar subrank formula is insufficient by itself.
+
 ## Work selection
 
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
