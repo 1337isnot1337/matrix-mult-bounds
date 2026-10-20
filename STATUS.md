@@ -104,3 +104,11 @@ An exact finite affine-source frontier leaves 58 conditional candidate shapes
 among 45 groups of order at most 250 with normal prime subgroup at most 61.
 New F4^3:C3 offset searches checked 426 pair-injective candidates, all rejected
 by exactly replayed Farkas circuits. No qualifying degeneration was found.
+
+A further [fiber-mean argument](research/ai/2026-10-20-group-potentials/crossed_means_proof.md)
+excludes an entire affine-plane base family in F4^3:C3, including arbitrary
+other plane directions and offsets. Its hypothesis is scalar invariance of
+two complementary base-plane sums. Two opposite strict mean inequalities
+give the contradiction. This written proof is unreviewed and has a narrower
+scope than arbitrary group-algebra degeneration. Another 2000 discovered
+direction assignments have exactly replayed mean certificates.

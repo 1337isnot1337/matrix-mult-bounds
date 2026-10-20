@@ -100,3 +100,12 @@ direction screen is new discovery work, not a general group exclusion.
 Latest fetched other-worker tips: Koszul `6bdab15`, product-filtration
 `f6f307c`, filtration-compatibility `cf79709`. Their unrestricted source
 degeneration gap remains open. The target exponent is still unbeaten.
+
+`crossed_means_proof.md` now supplies necessary strict inequalities on nine
+fiber-mean potentials. A positive integer zero dependence excludes the
+chosen directions for every offset. The coordinate-base run reached 2000
+models, all with exactly replayed mean circuits. A separate written argument
+excludes this whole base family whenever two complementary four-spaces are
+F4-scalar invariant. Other cyclic/random bases returned untraced SAT UNSAT;
+those outcomes remain experiments. `verify_mean_reports.py` checks the two
+bijections and every integer circuit with no SAT/LP dependencies.

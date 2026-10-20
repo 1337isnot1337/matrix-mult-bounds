@@ -22,6 +22,7 @@ import rank_locus_obstruction as rank_locus
 import symmetry_cnf as symmetry
 import ternary_fourier as ternary
 import quaternary_group as quaternary
+import verify_mean_reports as mean_verify
 
 
 class GroupPotentialTests(unittest.TestCase):
@@ -234,6 +235,38 @@ class GroupPotentialTests(unittest.TestCase):
             broken['cuts'][0]['offset_choice_cut'][0][2]^=1
             with self.assertRaises(ValueError):verify.verify_run(broken)
         self.assertEqual(counts,[167,259])
+
+    def test_crossed_mean_certificates_and_tampering(self):
+        report=json.loads((RESULTS/'quaternary-linear-planes.json').read_text())
+        result=mean_verify.verify_report(report)
+        self.assertEqual(result['mean_cuts_replayed'],2000)
+        self.assertEqual(result['point_cuts_replayed'],0)
+        broken=copy.deepcopy(report['mean_cuts'][0])
+        broken['weights'][0]*=2
+        with self.assertRaises(ValueError):
+            mean_verify.verify_mean_circuit(broken['actual_planes'],broken['rows'],broken['weights'])
+        broken=copy.deepcopy(report['mean_cuts'][0])
+        broken['rows'][0]['row'][0]+=1
+        with self.assertRaises(ValueError):
+            mean_verify.verify_mean_circuit(broken['actual_planes'],broken['rows'],broken['weights'])
+
+    def test_opposite_mean_rows_for_varying_transverse_planes(self):
+        # The base-family proof is independent of offset choices. For every
+        # possible graph A_2 transverse to B_1+C_1 (all 256 maps), verify its
+        # two opposed crossed rows against the standard-library checker.
+        from itertools import product
+        A=[0,1,2,3];B=[0,4,8,12];C=[0,16,32,48]
+        other=[v for v in range(64) if v&3==0]
+        rows=[{'row':[-1,1,0,1,-1,0,0,0,0],
+               'scalar_indices':[2,2,1,1,1,1]},
+              {'row':[1,-1,0,-1,1,0,0,0,0],
+               'scalar_indices':[1,1,2,1,1,2]}]
+        for u,v in product(other,repeat=2):
+            A2=[0,1^u,2^v,3^u^v]
+            planes=[{'1':A,'2':A2,'3':A},
+                    {str(a):B for a in [1,2,3]},
+                    {str(a):C for a in [1,2,3]}]
+            self.assertTrue(mean_verify.verify_mean_circuit(planes,rows,[1,1]))
 
 
 if __name__=='__main__':unittest.main()
