@@ -348,6 +348,25 @@ scalars. A joint index-and-valuation word supplies one common arithmetic
 interval for the rank argument. An exact size-three control verifies the
 broader model. This written proof leaves actual input mixing open.
 
+## Polynomial flags and numerical calibration
+
+The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)
+reduces arbitrary constant matrices followed by strict target-compatible
+weights to decreasing input-degree flags and increasing output-pivot flags.
+An equal-degree coefficient is a product of nonzero pivots. This excludes
+the earlier m=4,B=10 grading eta=(7,14,21,0), and forces B>=N+m-1 in the
+stated separated cone. The proof is written and unreviewed. Balanced orders
+and arbitrary Laurent input mixing remain open; the additive cost does not
+close the asymptotic construction question.
+
+An [exact source-family calibration](research/ai/2026-10-20-singular-flags/masked_residuals.md)
+has partial squared error t^(-6) while full squared error is
+t^(-6)+2t^2+t^8. The retained balanced complex pilot likewise has no valid
+certificate: its smallest partial residual is about 5.25e-8, but the full
+relative error is about 61501 at the best parameter in the recorded interval.
+All discovery reports remain experiments. Exact controls preserve known
+m=2,3,4 limits through the full normal-form reduction.
+
 ## Whole-filtration entropy investigation
 
 Branch `research/full-filtration-entropy-20261020` studies the whole support

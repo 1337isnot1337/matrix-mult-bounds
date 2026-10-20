@@ -1,0 +1,38 @@
+{
+  "input": "complex-balanced-m4.json",
+  "input_sha256": "1b74d908ba551c01730e3294054cd0694553ae5197e68771cd35c7b2ce949180",
+  "scope": "Floating full-error diagnostic on a bounded log-parameter interval.",
+  "reports": [
+    {
+      "index": 0,
+      "epsilon": 0.9623627722812109,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 273.53239627986875,
+      "masked_relative_error": 1.3942229177359607e-05
+    },
+    {
+      "index": 1,
+      "epsilon": 0.961589117726739,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 9164.864361258715,
+      "masked_relative_error": 0.0009800288170808786
+    },
+    {
+      "index": 2,
+      "epsilon": 0.9478086153496104,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 61501.26560581941,
+      "masked_relative_error": 5.2528297855762235e-08
+    }
+  ],
+  "certified_degeneration": false
+}
