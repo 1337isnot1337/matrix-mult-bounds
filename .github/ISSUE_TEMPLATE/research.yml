@@ -1,0 +1,31 @@
+name: Research question or correction
+description: Propose a focused investigation or identify a gap in a claim.
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or correction
+      description: State the mathematical question or the precise claim that needs correction.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant claims and prior work
+      description: Link claim IDs, files, source versions, and related issues or pull requests.
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and assumptions
+      description: Include the argument, counterexample, or experiment. State hypotheses and distinguish proved statements from conjectures.
+    validations:
+      required: true
+  - type: textarea
+    id: next_step
+    attributes:
+      label: Proposed next step
+      description: Describe a concrete output and the claim or decision it would affect.
+    validations:
+      required: false
