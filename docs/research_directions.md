@@ -73,6 +73,16 @@ A proposed solution must state its quantifiers and scale propagation. A single-s
 
 Deliver a proved gain, a rigorous obstruction to this particular gain, or another complete route from a tensor inequality to a smaller exponent.
 
+The [finite amplitude route](../research/ai/2026-10-20-koszul/finite_amplitude.md)
+selects S_4 to M106 as a sufficient, unconstructed degeneration. Its
+[necessary tests](../research/ai/2026-10-20-koszul/finite_target_screens.md)
+pass all singleton quantum functionals but exclude coordinate inputs even
+with arbitrary Laurent output. The next question is a construction with
+actual input mixing or a necessary test that covers such mixing. The
+all-power coordinate matrix-extraction method is also excluded at a=5 by
+an entropy refinement; repeating that class at these diagonals cannot
+supply the finite gain.
+
 ## R5: Compare external formulations before duplicating work
 
 Status: open synthesis task. Compare the spectral route, the block-identities route, and the polynomial-separation improvement. Identify precisely which constraints survive symmetrization and which information the scalar relaxation discards.
