@@ -182,7 +182,10 @@
       "statement": "At an endpoint character, extracting independent matrix products from any power of the fully symmetrized C(a,a) can force a profile lower bound no greater than sqrt(a*a*(2a-1)). This cannot cross the finite endpoint ceiling for a=1,2,3; a=4 is the first diagonal not excluded by the screen.",
       "evidence": "finite_amplitude.md, Section 3; tests/test_finite_amplitude.py",
       "limitations": "Only this source and direct-sum matrix targets without extra source tensors are covered. No surviving extraction or exponent improvement is constructed.",
-      "dependencies": ["Uznański arXiv:2610.10494v2 Proposition 5.2", "Elementary Holder and flattening-rank bounds"]
+      "dependencies": [
+        "Uzna\u0144ski arXiv:2610.10494v2 Proposition 5.2",
+        "Elementary Holder and flattening-rank bounds"
+      ]
     },
     {
       "id": "EXP-INTERMEDIATE-PERMUTATIONS-036",
@@ -198,6 +201,30 @@
       "evidence": "finite_amplitude.md, Section 5; tests/test_finite_amplitude.py",
       "limitations": "General linear combinations and cancellations are not covered. This is a limitation on the extraction method, not an upper bound on the actual character profile or an exponent result.",
       "attribution": "Applies the abelian opposite-relation argument of concurrent dcfc1ef, with explicit label factorization, group embedding, and Holder dimension accounting."
+    },
+    {
+      "id": "AI-QUANTUM-CONVOLUTION-SCREEN-038",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Explicit invertible diagonal scaling gives uniform marginals for every complex C(a,b). Every singleton quantum functional has value V_a^2 on the six-permutation product S_a and n^2 on M(n,n,n), so this whole family permits the H106 finite target.",
+      "evidence": "finite_target_screens.md, Section 1; ../../../results/koszul-2026-10-20/finite_target_screens.json; tests/test_finite_target_screens.py",
+      "limitations": "These spectral points need not exhaust the spectrum; their necessary inequalities do not construct a degeneration.",
+      "attribution": "Uses Christandl-Vrana-Zuiddam arXiv:1709.07851v3 Definition 3.16 and Theorem 3.30; elementary binomial normalization rederived with no priority claim."
+    },
+    {
+      "id": "AI-COORDINATE-ENTROPY-LOSS-039",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Every diagonal-weight coordinate extraction of independent matrix products from S_a^q has endpoint profile-certificate ceiling (a^8*(2a-1)^5)^(1/9)*exp(-2/[81*(2a-1)^2]). This is below the finite critical ceiling also at a=5, for all powers q.",
+      "evidence": "finite_target_screens.md, Section 2; ../../../results/koszul-2026-10-20/finite_target_screens.json; tests/test_finite_target_screens.py",
+      "limitations": "A ceiling on this extraction method, not on actual character values. Does not exclude general linear input mixing or arbitrary Laurent maps, and the stated finite comparison does not close all a>=6.",
+      "attribution": "Extends the adopted abelian opposite-relation bound from concurrent dcfc1ef using integer potential widths and an elementary entropy deficit."
+    },
+    {
+      "id": "AI-LAURENT-OUTPUT-MATRIX-SCREEN-040",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For a coordinate restriction of an abelian group tensor G with third-leg dimension d, coordinate injections with nonzero Laurent scalars on the first two legs and arbitrary Laurent output can degenerate to M(l,h,n) only if h*(3*l*n-2*d)<=|G|. For S_4 this forces square targets n<=93 and excludes H106 in that class.",
+      "evidence": "finite_target_screens.md, Section 3; ../../../results/koszul-2026-10-20/finite_target_screens.json; tests/test_finite_target_screens.py",
+      "limitations": "Neither a construction of M93 nor an obstruction to arbitrary mixing of input coordinates. Written proof remains unreviewed.",
+      "attribution": "Adopts the Laurent active-set disjointness lemma merged at 7d97155 and the abelian opposite-relation lemma at dcfc1ef; adds the dense singleton-component argument."
     }
   ]
 }
