@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "python": "3.12.3",
+  "claim_status": "AI-derived written proofs; unreviewed; not Lean formalized; no smaller omega",
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 32,
+    "failed": 0
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "passed_reports": [
+      "profile_checks.json",
+      "product_filtration_checks.json",
+      "binary_search.json",
+      "ternary_search.json",
+      "random_search.json"
+    ],
+    "archived_bytes_unchanged": true
+  },
+  "exact_certificate": {
+    "command": "python3 research/ai/2026-10-20-full-filtration/entropy_certificate.py --max-size 12 --output results/full-filtration-2026-10-20/entropy_certificate.json",
+    "source_quadruples": 20736,
+    "failed": 0,
+    "balanced_small_block_checks": 3794,
+    "balanced_tail_start": 23,
+    "positive_tail_coefficients": 11
+  },
+  "external_source_pins": {
+    "OAI26": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "CVZ": "arXiv:1609.07476v2; definitions and scalar theorem inspected only"
+  },
+  "sha256": {
+    "research/ai/2026-10-20-full-filtration/entropy_certificate.py": "963dc12bc15f7e35671f2064f6820fa462432091a0eedc7c2cf9d6b782588af8",
+    "research/ai/2026-10-20-full-filtration/research_note.md": "7287ff4a09907ae5ce910ee28107f2a2647d0c9970795e7c8217939b54d50709",
+    "results/full-filtration-2026-10-20/entropy_certificate.json": "81f1c34c77d5f3936d004e64ed117eedbc24740879440a2253243c4dbc962d0d",
+    "tests/test_full_filtration_entropy.py": "4fd44abc3b2eed42731d3142398a757745a3afe9cfb914bc4ae1c1e1065c851a"
+  },
+  "github_actions": {
+    "run_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39490598953",
+    "tested_commit": "e6d33e7d4275af4283086262850287f426578812",
+    "conclusion": "failure",
+    "execution_started": false,
+    "steps_executed": 0,
+    "classification": "account-billing-infrastructure",
+    "annotation": "The job was not started because recent account payments have failed or your spending limit needs to be increased.",
+    "evidence": "check-runs/118862427145/annotations",
+    "interpretation": "No hosted test result. Local passes above are separate evidence."
+  }
+}

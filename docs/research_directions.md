@@ -85,6 +85,19 @@ Status: open. Replace floating best-case ordering in a maintained search copy wi
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
 
+## R7: Whole-filtration entropy beyond the balanced obstruction
+
+Owned on `research/full-filtration-entropy-20261020`. The [new note](../research/ai/2026-10-20-full-filtration/research_note.md)
+defines the optimistic full-support entropy score and proves an all-size
+`39/40` upper bound for balanced sources. Exact certificates cover every
+distribution at every unequal-source tuple through size 12.
+
+The next precise question is whether its explicit upper bound `U(a,b,c,d)`
+never exceeds `P_*(a,b)P_*(c,d)` for arbitrary positive lengths, or even has the
+same `39/40` factor when all four lengths exceed one. This is a conjecture,
+not an all-size consequence of the grid. A weighted block-extraction theorem
+also requires its own proof; the scalar subrank formula is insufficient by itself.
+
 ## Work selection
 
 The active fat-point construction question is quantified in the
@@ -92,6 +105,13 @@ The active fat-point construction question is quantified in the
 It requires a genuine convolution-source degeneration at cost below
 `9/(7*2^(1/3))`; no such construction is supplied. New linear bases and
 matrix-space degenerations are open. The finite rank screens do not decide it.
+The [finite-group construction campaign](../research/ai/2026-10-20-group-potentials/README.md)
+is owned on `research/full-filtration-entropy-20261020`. Rank-locus dimensions
+exclude two previously reported SL(2,5) targets under general degeneration;
+only (10,10,10) survives the finite degree-sum/rank-locus frontier. Constructing
+that degeneration would give a smaller exponent, but no witness exists here.
+Affine-group searches use exact abelian-coset and normal-table constraints.
+Avoid repeating the earlier unnormalized searches without a new reason.
 
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
