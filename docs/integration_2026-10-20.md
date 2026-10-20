@@ -34,6 +34,14 @@ checkout or publication target. Pull requests whose heads are included in
 main can be closed as merged; unmerged work must be preserved. The temporary
 integration branch itself does not need a remote branch or pull request.
 
+The central-projection follow-up integrates `a0b602f` with the current PR
+workflow. It passes all 170 combined tests in the existing Python 3.14.8
+environment containing only the maintained SymPy/mpmath dependencies and
+replays all 1,394 parity circuits without optional search packages. These
+receipts are `central-projection-tests.txt` and `central-projection-replay.json`
+under the integration results directory. This finite search reduction adds
+no tensor witness or exponent improvement.
+
 ## Follow-up graded-obstruction integration
 
 The Koszul worker then integrated main at `a83bc24` with its newer proof
