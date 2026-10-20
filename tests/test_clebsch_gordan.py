@@ -65,6 +65,22 @@ class ClebschGordanTests(unittest.TestCase):
         self.assertEqual(result["violations"], [])
         self.assertEqual(result["unresolved_interval_comparisons"], [])
 
+    def test_uniform_scalar_tight_certificates(self):
+        for dims in [(2, 2, 2, 2), (3, 3, 3, 3), (2, 3, 3, 2)]:
+            for block in cg.full_blocks(*dims):
+                certificate = cg.tight_uniform_certificate(block)
+                self.assertEqual(sum(map(Fraction, certificate["probabilities"])), 1)
+                self.assertEqual(certificate["asymptotic_subrank"], min(block["dims"]))
+
+    def test_uniform_certificate_rejects_corruption(self):
+        block = next(b for b in cg.full_blocks(3, 3, 3, 3) if b["labels"] == (0, 0, 2))
+        bad = dict(block)
+        bad["terms"] = list(block["terms"])
+        i, j, k, value = bad["terms"][0]
+        bad["terms"][0] = (i, j, k, 2 * value)
+        with self.assertRaises(ArithmeticError):
+            cg.tight_uniform_certificate(bad)
+
 
 if __name__ == "__main__":
     unittest.main()

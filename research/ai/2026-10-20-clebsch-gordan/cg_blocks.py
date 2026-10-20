@@ -117,6 +117,35 @@ def dot_slice_bound(block):
     return best
 
 
+def tight_uniform_certificate(block):
+    """Certify tight support and exact simultaneous uniform marginals.
+
+    For scalar coefficients the cited tight-support asymptotic-subrank theorem
+    then supplies the lower bound min(dimensions), valid for every character.
+    """
+    a, b, c = block["dims"]
+    constants = {i + j - k for i, j, k, value in block["terms"]}
+    if len(constants) != 1:
+        raise ArithmeticError("support is not tight in the stated coordinates")
+    masses = [value**2 * Fraction(comb(a - 1, i) * comb(b - 1, j), comb(c - 1, k))
+              for i, j, k, value in block["terms"]]
+    total = sum(masses, Fraction())
+    if total <= 0:
+        raise ArithmeticError("empty probability certificate")
+    marginals = []
+    for axis, dimension in enumerate((a, b, c)):
+        marginal = [sum((mass for term, mass in zip(block["terms"], masses)
+                         if term[axis] == coordinate), Fraction()) / total
+                    for coordinate in range(dimension)]
+        if any(value != Fraction(1, dimension) for value in marginal):
+            raise ArithmeticError("nonuniform marginal")
+        marginals.append(list(map(str, marginal)))
+    return {"tight_weights": ["i", "j", "-k"], "constant": constants.pop(),
+            "probabilities": [str(mass / total) for mass in masses],
+            "marginals": marginals, "asymptotic_subrank": min(a, b, c),
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"}
+
+
 if __name__ == "__main__":
     for dims in [(2, 2, 2, 2), (3, 3, 3, 3), (2, 3, 3, 2)]:
         print("SOURCE", dims)

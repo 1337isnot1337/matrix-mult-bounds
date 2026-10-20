@@ -84,3 +84,9 @@ The search does not exhaust rational weights, changes of basis inside a
 block, partitions into subblocks, tensor powers, or all character profiles.
 The next active source family uses a smaller rank bound rather than simply
 increasing this grid; see the truncated-algebra investigation.
+
+A later [scalar tight-support certificate](subrank_blocks.md) strengthens
+every irreducible block with exact uniform marginal distributions. This uses
+the external theorem only for individual scalar tensors. The stronger run
+also permits recursive outer-label deletion; its full coverage is recorded
+in that note and its reports.

@@ -10,7 +10,7 @@ from math import isqrt
 from pathlib import Path
 import sys
 
-from cg_blocks import full_blocks, convolution_isomorphism, dot_slice_bound
+from cg_blocks import full_blocks, convolution_isomorphism, dot_slice_bound, tight_uniform_certificate
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "2026-10-20-affine-direct-sums"))
 from verify_filtration import profile
@@ -98,7 +98,7 @@ def components(blocks, selected, axes):
     return list(parts.values())
 
 
-def search_source(dims, alphabet=(0, 1), bits=80, strengthen=False):
+def search_source(dims, alphabet=(0, 1), bits=80, strengthen=False, subrank=False, all_restrictions=False):
     blocks = full_blocks(*dims)
     q = 1 << bits
     leaf_intervals = []
@@ -119,6 +119,13 @@ def search_source(dims, alphabet=(0, 1), bits=80, strengthen=False):
                                        "lower_bound": str(value), "restriction": witness}
         lower = value.numerator * q // value.denominator
         upper = lower + (lower * value.denominator != value.numerator * q)
+        if subrank:
+            certificate = tight_uniform_certificate(block)
+            rank = certificate["asymptotic_subrank"]
+            root = cuberoot(rank**4 * q**3)
+            root_upper = root + (root**3 != rank**4 * q**3)
+            lower, upper = max(lower, root), max(upper, root_upper)
+            recognition[-1]["tight_subrank_certificate"] = certificate
         leaf_intervals.append((lower, upper))
 
     @cache
@@ -138,6 +145,15 @@ def search_source(dims, alphabet=(0, 1), bits=80, strengthen=False):
                 if kind == "direct":
                     interval = direct_sum_interval(bounds, bits)
                 options.append((interval, {"type": kind, "children": [child[1] for child in children]}))
+            if all_restrictions:
+                for axis in range(3):
+                    for label in {blocks[i]["labels"][axis] for i in chosen}:
+                        restricted = sum(1 << i for i in chosen if blocks[i]["labels"][axis] != label)
+                        if not restricted:
+                            continue
+                        child = score(restricted)
+                        options.append((child[0], {"type": "restriction", "axis": axis,
+                                                   "deleted_label": label, "child": child[1]}))
         best = max(options, key=lambda option: option[0][0])
         return (max(v[0][0] for v in options), max(v[0][1] for v in options)), best[1]
 
@@ -189,7 +205,10 @@ def search_source(dims, alphabet=(0, 1), bits=80, strengthen=False):
             "off_leading_blocks": sum(b["labels"][2] > sum(b["labels"][:2]) for b in blocks),
             "recognized_convolution_blocks": sum(v["kind"] == "convolution" for v in recognition),
             "distinct_scored_supports": len(records), "interval_bits": bits,
+            "recursive_supports_evaluated": score.cache_info().currsize,
             "coordinate_restrictions_enabled": strengthen,
+            "scalar_tight_subrank_enabled": subrank,
+            "all_outer_coordinate_restrictions": all_restrictions,
             "best": best, "violations": violations, "unresolved_interval_comparisons": ambiguous,
             "blocks": [{"labels": b["labels"], "dimensions": b["dims"],
                         "terms": [[i, j, k, str(v)] for i, j, k, v in b["terms"]],
@@ -202,11 +221,15 @@ if __name__ == "__main__":
     parser.add_argument("--alphabet", default="0,1")
     parser.add_argument("--output", type=Path)
     parser.add_argument("--strengthen", action="store_true")
+    parser.add_argument("--subrank", action="store_true")
+    parser.add_argument("--all-restrictions", action="store_true")
     args = parser.parse_args()
     reports = []
     for source in args.sources.split(";"):
         dims = tuple(map(int, source.split(",")))
-        report = search_source(dims, tuple(map(int, args.alphabet.split(","))), strengthen=args.strengthen)
+        report = search_source(dims, tuple(map(int, args.alphabet.split(","))),
+                               strengthen=args.strengthen, subrank=args.subrank,
+                               all_restrictions=args.all_restrictions)
         reports.append(report)
         print({key: value for key, value in report.items() if key not in ("blocks", "best")}, flush=True)
     data = {"scope": "Finite full-CG outer-weight supports and recursive component scores; no omega bound.",

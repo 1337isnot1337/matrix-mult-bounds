@@ -75,3 +75,15 @@ have explicit border-rank certificates and permit a direct critical-parameter
 test against r^(4/3). Completed binary runs through r=7, including a stronger
 output-deletion score, found no violation. Work on algebra products and
 nonseparable weights remains active. See [the live queue](research/ACTIVE.md).
+
+The [two-sector source-rank inequality](research/ai/2026-10-20-truncated-algebras/two_sector_bound.md)
+now gives `2P(a,b)<=(a+2b-1)^(1/t)` at all sizes. With the concurrent
+critical-shape theorem, the remaining t=3/4 amplitude must satisfy
+`1/Gamma(4/3)<=K<=(16/9)^(1/3)`. The interval is nonempty. A separate
+all-size argument proves P_* survives this entire inequality family with
+cubed score at most 27/32, so a larger grid cannot exclude it.
+
+[Exact scalar tight-support certificates](research/ai/2026-10-20-clebsch-gordan/subrank_blocks.md)
+strengthen all 101 recoupling blocks in six sources. This uses the external
+scalar theorem, without assuming a weighted block-transfer theorem. Added
+outer-coordinate restrictions improve a finite score but do not violate P_*.

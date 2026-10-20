@@ -67,3 +67,23 @@ inequality are external dependencies from OpenAI's October 2 proof,
 revision fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb. The comparison lower
 profile is the local first-pass result. No historical priority, independent
 review, or formal verification is claimed for this investigation.
+
+## Later source certificates and coupled samples
+
+`source_certificates.py` verifies W_ab -> W_a tensor W_b and the standard
+q+2-term Coppersmith--Winograd border construction. In the latter every
+negative Laurent coefficient cancels and the constant coefficient is CW_q;
+q=1..8 were checked. This reproduces the standard construction.
+
+Completed sampled runs use four product sources with 2,000 weight pairs
+each; five CW sources with 2,000 each and output deletions; and four product
+sources with 256 each and output deletions. OS-random seeds are recorded.
+None gives a strict critical violation. The first two reports initially
+inherited a misleading binary-alphabet metadata field. It was corrected to
+"supplied arrays": samples use the recorded weight bound 3. Samples,
+scores and seeds are unchanged.
+
+The [two-sector argument](two_sector_bound.md) gives an all-size constraint
+and the sharper endpoint amplitude bound K^3<=16/9. P_* survives its entire
+family with uniform cubed score bound 27/32. Extending that finite grid is
+therefore unnecessary; the remaining amplitude interval is still nonempty.

@@ -1,0 +1,1002 @@
+{
+  "seed": 198063289466731205317450505831832934614,
+  "seed_origin": "os.urandom(16)",
+  "samples_per_source": 256,
+  "max_input_weight": 3,
+  "sources": [
+    {
+      "source": "product-truncated-polynomial",
+      "r": 4,
+      "border_rank_upper": 4,
+      "alphabet": null,
+      "weight_family": "supplied arrays",
+      "candidate_cases": 256,
+      "distinct_supports": 60,
+      "interval_bits": 80,
+      "recursive_output_deletions": true,
+      "best": {
+        "x_weights": [
+          3,
+          3,
+          1,
+          0
+        ],
+        "y_weights": [
+          3,
+          3,
+          1,
+          0
+        ],
+        "z_weights": [
+          -3,
+          -4,
+          -6,
+          -6
+        ],
+        "score_lower": "6",
+        "score_upper": "6",
+        "expression": {
+          "type": "restriction",
+          "axis": 2,
+          "deleted_label": 3,
+          "child": {
+            "type": "shared",
+            "children": [
+              {
+                "type": "convolution",
+                "terms": [
+                  [
+                    0,
+                    1,
+                    2
+                  ],
+                  [
+                    0,
+                    2,
+                    1
+                  ],
+                  [
+                    0,
+                    3,
+                    0
+                  ]
+                ],
+                "isomorphism": {
+                  "convolution_lengths": [
+                    1,
+                    3
+                  ],
+                  "axes": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "reversals": [
+                    false,
+                    false,
+                    true
+                  ],
+                  "x_factors": [
+                    "1"
+                  ],
+                  "y_factors": [
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "z_factors": [
+                    "1",
+                    "1",
+                    "1"
+                  ]
+                }
+              },
+              {
+                "type": "convolution",
+                "terms": [
+                  [
+                    1,
+                    0,
+                    2
+                  ],
+                  [
+                    2,
+                    0,
+                    1
+                  ],
+                  [
+                    3,
+                    0,
+                    0
+                  ]
+                ],
+                "isomorphism": {
+                  "convolution_lengths": [
+                    3,
+                    1
+                  ],
+                  "axes": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "reversals": [
+                    false,
+                    false,
+                    true
+                  ],
+                  "x_factors": [
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "y_factors": [
+                    "1"
+                  ],
+                  "z_factors": [
+                    "1",
+                    "1",
+                    "1"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "strict_critical_parameter_violations": [],
+      "unresolved_interval_comparisons": [],
+      "scope": "Finite normalized input-weight arrays, optional coordinate output deletions; no arbitrary bases.",
+      "factor_sizes": [
+        2,
+        2
+      ]
+    },
+    {
+      "source": "product-truncated-polynomial",
+      "r": 6,
+      "border_rank_upper": 6,
+      "alphabet": null,
+      "weight_family": "supplied arrays",
+      "candidate_cases": 256,
+      "distinct_supports": 217,
+      "interval_bits": 80,
+      "recursive_output_deletions": true,
+      "best": {
+        "x_weights": [
+          2,
+          3,
+          1,
+          0,
+          1,
+          2
+        ],
+        "y_weights": [
+          3,
+          2,
+          3,
+          2,
+          0,
+          3
+        ],
+        "z_weights": [
+          -3,
+          -2,
+          -3,
+          -4,
+          -4,
+          -5
+        ],
+        "score_lower": "8",
+        "score_upper": "8",
+        "expression": {
+          "type": "shared",
+          "children": [
+            {
+              "type": "convolution",
+              "terms": [
+                [
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  2,
+                  0,
+                  3
+                ],
+                [
+                  3,
+                  0,
+                  2
+                ]
+              ],
+              "isomorphism": {
+                "convolution_lengths": [
+                  3,
+                  1
+                ],
+                "axes": [
+                  0,
+                  1,
+                  2
+                ],
+                "reversals": [
+                  false,
+                  false,
+                  true
+                ],
+                "x_factors": [
+                  "1",
+                  "1",
+                  "1"
+                ],
+                "y_factors": [
+                  "1"
+                ],
+                "z_factors": [
+                  "1",
+                  "1",
+                  "1"
+                ]
+              }
+            },
+            {
+              "type": "shared",
+              "children": [
+                {
+                  "type": "restriction",
+                  "axis": 2,
+                  "deleted_label": 1,
+                  "child": {
+                    "type": "shared",
+                    "children": [
+                      {
+                        "type": "convolution",
+                        "terms": [
+                          [
+                            0,
+                            1,
+                            4
+                          ]
+                        ],
+                        "isomorphism": {
+                          "convolution_lengths": [
+                            1,
+                            1
+                          ],
+                          "axes": [
+                            0,
+                            1,
+                            2
+                          ],
+                          "reversals": [
+                            false,
+                            false,
+                            false
+                          ],
+                          "x_factors": [
+                            "1"
+                          ],
+                          "y_factors": [
+                            "1"
+                          ],
+                          "z_factors": [
+                            "1"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "convolution",
+                        "terms": [
+                          [
+                            1,
+                            4,
+                            0
+                          ],
+                          [
+                            3,
+                            2,
+                            0
+                          ],
+                          [
+                            4,
+                            1,
+                            0
+                          ]
+                        ],
+                        "isomorphism": {
+                          "convolution_lengths": [
+                            3,
+                            1
+                          ],
+                          "axes": [
+                            0,
+                            2,
+                            1
+                          ],
+                          "reversals": [
+                            false,
+                            false,
+                            true
+                          ],
+                          "x_factors": [
+                            "1",
+                            "1",
+                            "1"
+                          ],
+                          "y_factors": [
+                            "1"
+                          ],
+                          "z_factors": [
+                            "1",
+                            "1",
+                            "1"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "convolution",
+                  "terms": [
+                    [
+                      2,
+                      3,
+                      0
+                    ]
+                  ],
+                  "isomorphism": {
+                    "convolution_lengths": [
+                      1,
+                      1
+                    ],
+                    "axes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "reversals": [
+                      false,
+                      false,
+                      false
+                    ],
+                    "x_factors": [
+                      "1"
+                    ],
+                    "y_factors": [
+                      "1"
+                    ],
+                    "z_factors": [
+                      "1"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "strict_critical_parameter_violations": [],
+      "unresolved_interval_comparisons": [],
+      "scope": "Finite normalized input-weight arrays, optional coordinate output deletions; no arbitrary bases.",
+      "factor_sizes": [
+        2,
+        3
+      ]
+    },
+    {
+      "source": "product-truncated-polynomial",
+      "r": 8,
+      "border_rank_upper": 8,
+      "alphabet": null,
+      "weight_family": "supplied arrays",
+      "candidate_cases": 256,
+      "distinct_supports": 252,
+      "interval_bits": 80,
+      "recursive_output_deletions": true,
+      "best": {
+        "x_weights": [
+          3,
+          2,
+          2,
+          1,
+          0,
+          2,
+          2,
+          2
+        ],
+        "y_weights": [
+          3,
+          3,
+          3,
+          2,
+          1,
+          0,
+          0,
+          2
+        ],
+        "z_weights": [
+          -2,
+          -3,
+          -3,
+          -3,
+          -4,
+          -5,
+          -5,
+          -6
+        ],
+        "score_lower": "12",
+        "score_upper": "12",
+        "expression": {
+          "type": "shared",
+          "children": [
+            {
+              "type": "convolution",
+              "terms": [
+                [
+                  0,
+                  0,
+                  7
+                ],
+                [
+                  1,
+                  0,
+                  6
+                ],
+                [
+                  2,
+                  0,
+                  5
+                ],
+                [
+                  3,
+                  0,
+                  4
+                ],
+                [
+                  4,
+                  0,
+                  3
+                ]
+              ],
+              "isomorphism": {
+                "convolution_lengths": [
+                  5,
+                  1
+                ],
+                "axes": [
+                  0,
+                  1,
+                  2
+                ],
+                "reversals": [
+                  false,
+                  false,
+                  true
+                ],
+                "x_factors": [
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1"
+                ],
+                "y_factors": [
+                  "1"
+                ],
+                "z_factors": [
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1"
+                ]
+              }
+            },
+            {
+              "type": "shared",
+              "children": [
+                {
+                  "type": "restriction",
+                  "axis": 2,
+                  "deleted_label": 0,
+                  "child": {
+                    "type": "shared",
+                    "children": [
+                      {
+                        "type": "convolution",
+                        "terms": [
+                          [
+                            0,
+                            5,
+                            2
+                          ],
+                          [
+                            0,
+                            6,
+                            1
+                          ]
+                        ],
+                        "isomorphism": {
+                          "convolution_lengths": [
+                            1,
+                            2
+                          ],
+                          "axes": [
+                            0,
+                            1,
+                            2
+                          ],
+                          "reversals": [
+                            false,
+                            false,
+                            true
+                          ],
+                          "x_factors": [
+                            "1"
+                          ],
+                          "y_factors": [
+                            "1",
+                            "1"
+                          ],
+                          "z_factors": [
+                            "1",
+                            "1"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "convolution",
+                        "terms": [
+                          [
+                            1,
+                            4,
+                            2
+                          ],
+                          [
+                            2,
+                            4,
+                            1
+                          ]
+                        ],
+                        "isomorphism": {
+                          "convolution_lengths": [
+                            2,
+                            1
+                          ],
+                          "axes": [
+                            0,
+                            1,
+                            2
+                          ],
+                          "reversals": [
+                            false,
+                            false,
+                            true
+                          ],
+                          "x_factors": [
+                            "1",
+                            "1"
+                          ],
+                          "y_factors": [
+                            "1"
+                          ],
+                          "z_factors": [
+                            "1",
+                            "1"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "convolution",
+                  "terms": [
+                    [
+                      4,
+                      1,
+                      2
+                    ],
+                    [
+                      4,
+                      2,
+                      1
+                    ],
+                    [
+                      4,
+                      3,
+                      0
+                    ]
+                  ],
+                  "isomorphism": {
+                    "convolution_lengths": [
+                      1,
+                      3
+                    ],
+                    "axes": [
+                      0,
+                      1,
+                      2
+                    ],
+                    "reversals": [
+                      false,
+                      false,
+                      true
+                    ],
+                    "x_factors": [
+                      "1"
+                    ],
+                    "y_factors": [
+                      "1",
+                      "1",
+                      "1"
+                    ],
+                    "z_factors": [
+                      "1",
+                      "1",
+                      "1"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "strict_critical_parameter_violations": [],
+      "unresolved_interval_comparisons": [],
+      "scope": "Finite normalized input-weight arrays, optional coordinate output deletions; no arbitrary bases.",
+      "factor_sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "source": "product-truncated-polynomial",
+      "r": 9,
+      "border_rank_upper": 9,
+      "alphabet": null,
+      "weight_family": "supplied arrays",
+      "candidate_cases": 256,
+      "distinct_supports": 254,
+      "interval_bits": 80,
+      "recursive_output_deletions": true,
+      "best": {
+        "x_weights": [
+          0,
+          1,
+          0,
+          3,
+          2,
+          1,
+          2,
+          2,
+          1
+        ],
+        "y_weights": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          3,
+          2,
+          1
+        ],
+        "z_weights": [
+          -1,
+          -2,
+          -2,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "score_lower": "12",
+        "score_upper": "12",
+        "expression": {
+          "type": "restriction",
+          "axis": 2,
+          "deleted_label": 2,
+          "child": {
+            "type": "restriction",
+            "axis": 2,
+            "deleted_label": 5,
+            "child": {
+              "type": "restriction",
+              "axis": 2,
+              "deleted_label": 7,
+              "child": {
+                "type": "shared",
+                "children": [
+                  {
+                    "type": "restriction",
+                    "axis": 2,
+                    "deleted_label": 8,
+                    "child": {
+                      "type": "shared",
+                      "children": [
+                        {
+                          "type": "convolution",
+                          "terms": [
+                            [
+                              0,
+                              2,
+                              6
+                            ],
+                            [
+                              0,
+                              4,
+                              4
+                            ],
+                            [
+                              0,
+                              7,
+                              1
+                            ],
+                            [
+                              0,
+                              8,
+                              0
+                            ]
+                          ],
+                          "isomorphism": {
+                            "convolution_lengths": [
+                              1,
+                              4
+                            ],
+                            "axes": [
+                              0,
+                              1,
+                              2
+                            ],
+                            "reversals": [
+                              false,
+                              false,
+                              true
+                            ],
+                            "x_factors": [
+                              "1"
+                            ],
+                            "y_factors": [
+                              "1",
+                              "1",
+                              "1",
+                              "1"
+                            ],
+                            "z_factors": [
+                              "1",
+                              "1",
+                              "1",
+                              "1"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "shared",
+                          "children": [
+                            {
+                              "type": "convolution",
+                              "terms": [
+                                [
+                                  1,
+                                  3,
+                                  4
+                                ]
+                              ],
+                              "isomorphism": {
+                                "convolution_lengths": [
+                                  1,
+                                  1
+                                ],
+                                "axes": [
+                                  0,
+                                  1,
+                                  2
+                                ],
+                                "reversals": [
+                                  false,
+                                  false,
+                                  false
+                                ],
+                                "x_factors": [
+                                  "1"
+                                ],
+                                "y_factors": [
+                                  "1"
+                                ],
+                                "z_factors": [
+                                  "1"
+                                ]
+                              }
+                            },
+                            {
+                              "type": "convolution",
+                              "terms": [
+                                [
+                                  2,
+                                  0,
+                                  6
+                                ],
+                                [
+                                  2,
+                                  3,
+                                  3
+                                ]
+                              ],
+                              "isomorphism": {
+                                "convolution_lengths": [
+                                  1,
+                                  2
+                                ],
+                                "axes": [
+                                  0,
+                                  1,
+                                  2
+                                ],
+                                "reversals": [
+                                  false,
+                                  false,
+                                  true
+                                ],
+                                "x_factors": [
+                                  "1"
+                                ],
+                                "y_factors": [
+                                  "1",
+                                  "1"
+                                ],
+                                "z_factors": [
+                                  "1",
+                                  "1"
+                                ]
+                              }
+                            },
+                            {
+                              "type": "convolution",
+                              "terms": [
+                                [
+                                  4,
+                                  3,
+                                  1
+                                ],
+                                [
+                                  7,
+                                  0,
+                                  1
+                                ]
+                              ],
+                              "isomorphism": {
+                                "convolution_lengths": [
+                                  2,
+                                  1
+                                ],
+                                "axes": [
+                                  0,
+                                  2,
+                                  1
+                                ],
+                                "reversals": [
+                                  false,
+                                  false,
+                                  true
+                                ],
+                                "x_factors": [
+                                  "1",
+                                  "1"
+                                ],
+                                "y_factors": [
+                                  "1"
+                                ],
+                                "z_factors": [
+                                  "1",
+                                  "1"
+                                ]
+                              }
+                            },
+                            {
+                              "type": "convolution",
+                              "terms": [
+                                [
+                                  5,
+                                  3,
+                                  0
+                                ],
+                                [
+                                  8,
+                                  0,
+                                  0
+                                ]
+                              ],
+                              "isomorphism": {
+                                "convolution_lengths": [
+                                  2,
+                                  1
+                                ],
+                                "axes": [
+                                  0,
+                                  2,
+                                  1
+                                ],
+                                "reversals": [
+                                  false,
+                                  false,
+                                  true
+                                ],
+                                "x_factors": [
+                                  "1",
+                                  "1"
+                                ],
+                                "y_factors": [
+                                  "1"
+                                ],
+                                "z_factors": [
+                                  "1",
+                                  "1"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "convolution",
+                    "terms": [
+                      [
+                        6,
+                        1,
+                        1
+                      ]
+                    ],
+                    "isomorphism": {
+                      "convolution_lengths": [
+                        1,
+                        1
+                      ],
+                      "axes": [
+                        0,
+                        1,
+                        2
+                      ],
+                      "reversals": [
+                        false,
+                        false,
+                        false
+                      ],
+                      "x_factors": [
+                        "1"
+                      ],
+                      "y_factors": [
+                        "1"
+                      ],
+                      "z_factors": [
+                        "1"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "strict_critical_parameter_violations": [],
+      "unresolved_interval_comparisons": [],
+      "scope": "Finite normalized input-weight arrays, optional coordinate output deletions; no arbitrary bases.",
+      "factor_sizes": [
+        3,
+        3
+      ]
+    }
+  ],
+  "scope": "Finite seeded weight samples; arbitrary supplied source-rank bounds need separate certificates."
+}

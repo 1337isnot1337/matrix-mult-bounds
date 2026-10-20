@@ -16,11 +16,13 @@ profile violation has been found.
 
 Current mathematical queue:
 
-1. Expand truncated-algebra source searches to products W_a tensor W_b,
-   using nonseparable digit-pair weights and exact source rank ab.
-2. Strengthen interior transvectant lower values with explicit restrictions
-   and matched decompositions; avoid assigning convolution values from
-   dimensions alone.
+1. Products W_a tensor W_b and standard CW sources now have exact source-cost
+   certificates and finite coupled-weight screens. Those screens found no
+   violation. Move beyond unchanged sampled weight families.
+2. Scalar tight-support uniform-marginal certificates now strengthen all 101
+   recoupling blocks in six sources. Additional outer restrictions still find
+   no violation. Investigate non-coordinate constructions and global endpoint
+   constraints instead of repeating these supports.
 3. Investigate whether critical-profile rigidity plus upper decompositions
    of W_r can conflict with its tight-support subrank bound. This is only a
    proposed bridge; no weighted extraction theorem or contradiction is proved.
@@ -34,7 +36,15 @@ the first-pass archive unchanged; do not change repository visibility.
 
 Validation environment: `/tmp/matrix-mult-research-venv/bin/python`, Python
 3.12.3, SymPy 1.14.0. The host SymPy 1.12 does not satisfy archive replay.
-The earlier full archive replay passed locally. The current 49-test suite also passed; its log is in results/clebsch-gordan-2026-10-20/tests.txt.
+The earlier full archive replay passed locally. The current 58-test suite also passed; its log is in results/truncated-algebras-2026-10-20/tests.txt.
 Hosted job 118867495049 at `89ebb78` ran zero steps: GitHub reported failed
 account payments or a spending limit. That is unavailable CI infrastructure,
 not evidence that tests ran and failed. No billing changes were attempted.
+
+The all-size two-sector source-rank inequality narrows the hypothetical
+critical amplitude to 1/Gamma(4/3)<=K<=(16/9)^(1/3). It does not close the
+interval. P_* survives this family with cubed score at most 27/32 at every
+size. Current follow-up: investigate the all-dimension mixed target T_m from
+concurrent commit 292ba18, including curvilinear/Gorenstein-cover ideas,
+without assuming that algebra smoothability controls the source short leg.
+No required construction or general obstruction has been proved.

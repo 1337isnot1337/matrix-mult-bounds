@@ -1,0 +1,8326 @@
+{
+  "scope": "Finite full-CG outer-weight supports and recursive component scores; no omega bound.",
+  "sources": [
+    {
+      "source": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "source_profile": "3136/81",
+      "outer_nonzero_blocks": 14,
+      "off_leading_blocks": 5,
+      "recognized_convolution_blocks": 13,
+      "distinct_scored_supports": 923,
+      "interval_bits": 80,
+      "recursive_supports_evaluated": 1350,
+      "coordinate_restrictions_enabled": true,
+      "scalar_tight_subrank_enabled": true,
+      "all_outer_coordinate_restrictions": true,
+      "best": {
+        "ratio_lower": "3394260726204673846183373307/3791191370311477091878567936",
+        "ratio_upper": "242447194728905274727383825/270799383593676935134183424",
+        "weights": {
+          "x": [
+            1,
+            0,
+            1
+          ],
+          "y": [
+            1,
+            1,
+            0
+          ],
+          "z": [
+            -2,
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          "kept_output_labels": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "support_mask": 9057,
+        "expression": {
+          "type": "shared",
+          "children": [
+            {
+              "type": "shared",
+              "children": [
+                {
+                  "type": "block",
+                  "index": 0
+                },
+                {
+                  "type": "block",
+                  "index": 6
+                }
+              ]
+            },
+            {
+              "type": "shared",
+              "children": [
+                {
+                  "type": "shared",
+                  "children": [
+                    {
+                      "type": "block",
+                      "index": 5
+                    },
+                    {
+                      "type": "block",
+                      "index": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "block",
+                  "index": 8
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "violations": [],
+      "unresolved_interval_comparisons": [],
+      "blocks": [
+        {
+          "labels": [
+            0,
+            0,
+            0
+          ],
+          "dimensions": [
+            5,
+            5,
+            9
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              3,
+              3,
+              6,
+              "1"
+            ],
+            [
+              3,
+              4,
+              7,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ],
+            [
+              4,
+              3,
+              7,
+              "1"
+            ],
+            [
+              4,
+              4,
+              8,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/9",
+              "1/18",
+              "1/42",
+              "1/126",
+              "1/630",
+              "1/18",
+              "4/63",
+              "1/21",
+              "8/315",
+              "1/126",
+              "1/42",
+              "1/21",
+              "2/35",
+              "1/21",
+              "1/42",
+              "1/126",
+              "8/315",
+              "1/21",
+              "4/63",
+              "1/18",
+              "1/630",
+              "1/126",
+              "1/42",
+              "1/18",
+              "1/9"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            0,
+            2
+          ],
+          "dimensions": [
+            5,
+            5,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/21"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-1/7"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-2/7"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/28"
+            ],
+            [
+              1,
+              2,
+              1,
+              "1/42"
+            ],
+            [
+              1,
+              3,
+              2,
+              "-1/28"
+            ],
+            [
+              1,
+              4,
+              3,
+              "-1/7"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/21"
+            ],
+            [
+              2,
+              1,
+              1,
+              "1/42"
+            ],
+            [
+              2,
+              2,
+              2,
+              "1/21"
+            ],
+            [
+              2,
+              3,
+              3,
+              "1/42"
+            ],
+            [
+              2,
+              4,
+              4,
+              "-1/21"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-1/7"
+            ],
+            [
+              3,
+              1,
+              2,
+              "-1/28"
+            ],
+            [
+              3,
+              2,
+              3,
+              "1/42"
+            ],
+            [
+              3,
+              3,
+              4,
+              "1/28"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-2/7"
+            ],
+            [
+              4,
+              1,
+              3,
+              "-1/7"
+            ],
+            [
+              4,
+              2,
+              4,
+              "-1/21"
+            ]
+          ],
+          "kind": "coordinate-convolution-restriction",
+          "lower_bound": "56/9",
+          "restriction": {
+            "source_axes": [
+              0,
+              1,
+              2
+            ],
+            "starts": [
+              1,
+              1,
+              0
+            ],
+            "target_dimensions": [
+              3,
+              3,
+              5
+            ],
+            "isomorphism": {
+              "convolution_lengths": [
+                3,
+                3
+              ],
+              "axes": [
+                0,
+                1,
+                2
+              ],
+              "reversals": [
+                false,
+                false,
+                false
+              ],
+              "x_factors": [
+                "1",
+                "1/42",
+                "-1/2352"
+              ],
+              "y_factors": [
+                "1",
+                "1/42",
+                "-1/2352"
+              ],
+              "z_factors": [
+                "1/28",
+                "1",
+                "84",
+                "-2352",
+                "197568"
+              ]
+            }
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "2/35",
+              "3/35",
+              "2/35",
+              "3/35",
+              "1/70",
+              "1/70",
+              "3/35",
+              "2/35",
+              "1/70",
+              "2/35",
+              "1/70",
+              "2/35",
+              "3/35",
+              "1/70",
+              "1/70",
+              "3/35",
+              "2/35",
+              "3/35",
+              "2/35"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            0,
+            4
+          ],
+          "dimensions": [
+            5,
+            5,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              4,
+              0,
+              "1/30"
+            ],
+            [
+              1,
+              3,
+              0,
+              "-1/120"
+            ],
+            [
+              2,
+              2,
+              0,
+              "1/180"
+            ],
+            [
+              3,
+              1,
+              0,
+              "-1/120"
+            ],
+            [
+              4,
+              0,
+              0,
+              "1/30"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              1
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              false,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1/30",
+              "-1/120",
+              "1/180",
+              "-1/120",
+              "1/30"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 4,
+            "probabilities": [
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            1,
+            1
+          ],
+          "dimensions": [
+            5,
+            3,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/7",
+              "1/21",
+              "1/105",
+              "2/21",
+              "8/105",
+              "1/35",
+              "2/35",
+              "3/35",
+              "2/35",
+              "1/35",
+              "8/105",
+              "2/21",
+              "1/105",
+              "1/21",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            1,
+            3
+          ],
+          "dimensions": [
+            5,
+            3,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/5"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/20"
+            ],
+            [
+              1,
+              2,
+              1,
+              "-1/10"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/30"
+            ],
+            [
+              2,
+              1,
+              1,
+              "1/15"
+            ],
+            [
+              2,
+              2,
+              2,
+              "-1/30"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-1/10"
+            ],
+            [
+              3,
+              1,
+              2,
+              "1/20"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-1/5"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              3
+            ],
+            "axes": [
+              1,
+              2,
+              0
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1/20",
+              "1/400"
+            ],
+            "y_factors": [
+              "1",
+              "-1/10",
+              "1/400"
+            ],
+            "z_factors": [
+              "-1/5",
+              "1",
+              "-40/3",
+              "400",
+              "-32000"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/5",
+              "1/10",
+              "1/10",
+              "1/30",
+              "2/15",
+              "1/30",
+              "1/10",
+              "1/10",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            2,
+            2
+          ],
+          "dimensions": [
+            5,
+            1,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            0,
+            1
+          ],
+          "dimensions": [
+            3,
+            5,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/7",
+              "2/21",
+              "2/35",
+              "1/35",
+              "1/105",
+              "1/21",
+              "8/105",
+              "3/35",
+              "8/105",
+              "1/21",
+              "1/105",
+              "1/35",
+              "2/35",
+              "2/21",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            0,
+            3
+          ],
+          "dimensions": [
+            3,
+            5,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/30"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-1/10"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-1/5"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/20"
+            ],
+            [
+              1,
+              2,
+              1,
+              "1/15"
+            ],
+            [
+              1,
+              3,
+              2,
+              "1/20"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/5"
+            ],
+            [
+              2,
+              1,
+              1,
+              "-1/10"
+            ],
+            [
+              2,
+              2,
+              2,
+              "-1/30"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              3
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1/20",
+              "1/400"
+            ],
+            "y_factors": [
+              "1",
+              "-1/10",
+              "1/400"
+            ],
+            "z_factors": [
+              "-1/5",
+              "1",
+              "-40/3",
+              "400",
+              "-32000"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/30",
+              "1/10",
+              "1/5",
+              "1/10",
+              "2/15",
+              "1/10",
+              "1/5",
+              "1/10",
+              "1/30"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            1,
+            2
+          ],
+          "dimensions": [
+            3,
+            3,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/5",
+              "1/10",
+              "1/30",
+              "1/10",
+              "2/15",
+              "1/10",
+              "1/30",
+              "1/10",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            1,
+            4
+          ],
+          "dimensions": [
+            3,
+            3,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/6"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/12"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/6"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              1
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              false,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "-1/6",
+              "1/12",
+              "-1/6"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/3",
+              "1/3",
+              "1/3"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            2,
+            3
+          ],
+          "dimensions": [
+            3,
+            1,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/3",
+              "1/3",
+              "1/3"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            0,
+            2
+          ],
+          "dimensions": [
+            1,
+            5,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            1,
+            3
+          ],
+          "dimensions": [
+            1,
+            3,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/3",
+              "1/3",
+              "1/3"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            2,
+            4
+          ],
+          "dimensions": [
+            1,
+            1,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        }
+      ]
+    },
+    {
+      "source": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "source_profile": "592900/6561",
+      "outer_nonzero_blocks": 30,
+      "off_leading_blocks": 14,
+      "recognized_convolution_blocks": 25,
+      "distinct_scored_supports": 20581,
+      "interval_bits": 80,
+      "recursive_supports_evaluated": 58266,
+      "coordinate_restrictions_enabled": true,
+      "scalar_tight_subrank_enabled": true,
+      "all_outer_coordinate_restrictions": true,
+      "best": {
+        "ratio_lower": "283502776106187458501995913517/358386059224756818841645875200",
+        "ratio_upper": "283502776106187458501995926639/358386059224756818841645875200",
+        "weights": {
+          "x": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "y": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "z": [
+            -2,
+            -1,
+            -1,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "kept_output_labels": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "support_mask": 553952385,
+        "expression": {
+          "type": "shared",
+          "children": [
+            {
+              "type": "shared",
+              "children": [
+                {
+                  "type": "block",
+                  "index": 0
+                },
+                {
+                  "type": "block",
+                  "index": 10
+                }
+              ]
+            },
+            {
+              "type": "shared",
+              "children": [
+                {
+                  "type": "shared",
+                  "children": [
+                    {
+                      "type": "block",
+                      "index": 7
+                    },
+                    {
+                      "type": "block",
+                      "index": 24
+                    }
+                  ]
+                },
+                {
+                  "type": "restriction",
+                  "axis": 0,
+                  "deleted_label": 3,
+                  "child": {
+                    "type": "shared",
+                    "children": [
+                      {
+                        "type": "block",
+                        "index": 13
+                      },
+                      {
+                        "type": "block",
+                        "index": 18
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "violations": [],
+      "unresolved_interval_comparisons": [],
+      "blocks": [
+        {
+          "labels": [
+            0,
+            0,
+            0
+          ],
+          "dimensions": [
+            7,
+            7,
+            13
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              0,
+              5,
+              5,
+              "1"
+            ],
+            [
+              0,
+              6,
+              6,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              1,
+              5,
+              6,
+              "1"
+            ],
+            [
+              1,
+              6,
+              7,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ],
+            [
+              2,
+              5,
+              7,
+              "1"
+            ],
+            [
+              2,
+              6,
+              8,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              3,
+              3,
+              6,
+              "1"
+            ],
+            [
+              3,
+              4,
+              7,
+              "1"
+            ],
+            [
+              3,
+              5,
+              8,
+              "1"
+            ],
+            [
+              3,
+              6,
+              9,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ],
+            [
+              4,
+              3,
+              7,
+              "1"
+            ],
+            [
+              4,
+              4,
+              8,
+              "1"
+            ],
+            [
+              4,
+              5,
+              9,
+              "1"
+            ],
+            [
+              4,
+              6,
+              10,
+              "1"
+            ],
+            [
+              5,
+              0,
+              5,
+              "1"
+            ],
+            [
+              5,
+              1,
+              6,
+              "1"
+            ],
+            [
+              5,
+              2,
+              7,
+              "1"
+            ],
+            [
+              5,
+              3,
+              8,
+              "1"
+            ],
+            [
+              5,
+              4,
+              9,
+              "1"
+            ],
+            [
+              5,
+              5,
+              10,
+              "1"
+            ],
+            [
+              5,
+              6,
+              11,
+              "1"
+            ],
+            [
+              6,
+              0,
+              6,
+              "1"
+            ],
+            [
+              6,
+              1,
+              7,
+              "1"
+            ],
+            [
+              6,
+              2,
+              8,
+              "1"
+            ],
+            [
+              6,
+              3,
+              9,
+              "1"
+            ],
+            [
+              6,
+              4,
+              10,
+              "1"
+            ],
+            [
+              6,
+              5,
+              11,
+              "1"
+            ],
+            [
+              6,
+              6,
+              12,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              7,
+              7
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/13",
+              "1/26",
+              "5/286",
+              "1/143",
+              "1/429",
+              "1/1716",
+              "1/12012",
+              "1/26",
+              "6/143",
+              "9/286",
+              "8/429",
+              "5/572",
+              "3/1001",
+              "1/1716",
+              "5/286",
+              "9/286",
+              "5/143",
+              "25/858",
+              "75/4004",
+              "5/572",
+              "1/429",
+              "1/143",
+              "8/429",
+              "25/858",
+              "100/3003",
+              "25/858",
+              "8/429",
+              "1/143",
+              "1/429",
+              "5/572",
+              "75/4004",
+              "25/858",
+              "5/143",
+              "9/286",
+              "5/286",
+              "1/1716",
+              "3/1001",
+              "5/572",
+              "8/429",
+              "9/286",
+              "6/143",
+              "1/26",
+              "1/12012",
+              "1/1716",
+              "1/429",
+              "1/143",
+              "5/286",
+              "1/26",
+              "1/13"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13",
+                "1/13"
+              ]
+            ],
+            "asymptotic_subrank": 7,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            0,
+            2
+          ],
+          "dimensions": [
+            7,
+            7,
+            9
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-3/110"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-9/110"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-9/55"
+            ],
+            [
+              0,
+              5,
+              3,
+              "-3/11"
+            ],
+            [
+              0,
+              6,
+              4,
+              "-9/22"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/44"
+            ],
+            [
+              1,
+              2,
+              1,
+              "1/55"
+            ],
+            [
+              1,
+              3,
+              2,
+              "-3/220"
+            ],
+            [
+              1,
+              4,
+              3,
+              "-4/55"
+            ],
+            [
+              1,
+              5,
+              4,
+              "-7/44"
+            ],
+            [
+              1,
+              6,
+              5,
+              "-3/11"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-3/110"
+            ],
+            [
+              2,
+              1,
+              1,
+              "1/55"
+            ],
+            [
+              2,
+              2,
+              2,
+              "2/55"
+            ],
+            [
+              2,
+              3,
+              3,
+              "3/110"
+            ],
+            [
+              2,
+              4,
+              4,
+              "-1/110"
+            ],
+            [
+              2,
+              5,
+              5,
+              "-4/55"
+            ],
+            [
+              2,
+              6,
+              6,
+              "-9/55"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-9/110"
+            ],
+            [
+              3,
+              1,
+              2,
+              "-3/220"
+            ],
+            [
+              3,
+              2,
+              3,
+              "3/110"
+            ],
+            [
+              3,
+              3,
+              4,
+              "9/220"
+            ],
+            [
+              3,
+              4,
+              5,
+              "3/110"
+            ],
+            [
+              3,
+              5,
+              6,
+              "-3/220"
+            ],
+            [
+              3,
+              6,
+              7,
+              "-9/110"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-9/55"
+            ],
+            [
+              4,
+              1,
+              3,
+              "-4/55"
+            ],
+            [
+              4,
+              2,
+              4,
+              "-1/110"
+            ],
+            [
+              4,
+              3,
+              5,
+              "3/110"
+            ],
+            [
+              4,
+              4,
+              6,
+              "2/55"
+            ],
+            [
+              4,
+              5,
+              7,
+              "1/55"
+            ],
+            [
+              4,
+              6,
+              8,
+              "-3/110"
+            ],
+            [
+              5,
+              0,
+              3,
+              "-3/11"
+            ],
+            [
+              5,
+              1,
+              4,
+              "-7/44"
+            ],
+            [
+              5,
+              2,
+              5,
+              "-4/55"
+            ],
+            [
+              5,
+              3,
+              6,
+              "-3/220"
+            ],
+            [
+              5,
+              4,
+              7,
+              "1/55"
+            ],
+            [
+              5,
+              5,
+              8,
+              "1/44"
+            ],
+            [
+              6,
+              0,
+              4,
+              "-9/22"
+            ],
+            [
+              6,
+              1,
+              5,
+              "-3/11"
+            ],
+            [
+              6,
+              2,
+              6,
+              "-9/55"
+            ],
+            [
+              6,
+              3,
+              7,
+              "-9/110"
+            ],
+            [
+              6,
+              4,
+              8,
+              "-3/110"
+            ]
+          ],
+          "kind": "coordinate-convolution-restriction",
+          "lower_bound": "10",
+          "restriction": {
+            "source_axes": [
+              0,
+              1,
+              2
+            ],
+            "starts": [
+              3,
+              0,
+              1
+            ],
+            "target_dimensions": [
+              2,
+              7,
+              8
+            ],
+            "isomorphism": {
+              "convolution_lengths": [
+                2,
+                7
+              ],
+              "axes": [
+                0,
+                1,
+                2
+              ],
+              "reversals": [
+                false,
+                false,
+                false
+              ],
+              "x_factors": [
+                "1",
+                "-9/55"
+              ],
+              "y_factors": [
+                "1",
+                "-3/220",
+                "-81/96800",
+                "-6561/10648000",
+                "59049/585640000",
+                "1594323/257681600000",
+                "129140163/28344976000000"
+              ],
+              "z_factors": [
+                "-9/110",
+                "1",
+                "-880/27",
+                "-48400/729",
+                "5324000/19683",
+                "-1171280000/531441",
+                "-257681600000/14348907",
+                "14172488000000/387420489"
+              ]
+            }
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/33",
+              "1/22",
+              "3/77",
+              "5/231",
+              "1/154",
+              "5/99",
+              "1/99",
+              "1/462",
+              "16/693",
+              "7/198",
+              "5/231",
+              "1/33",
+              "1/99",
+              "20/693",
+              "5/462",
+              "1/1386",
+              "16/693",
+              "3/77",
+              "1/22",
+              "1/462",
+              "5/462",
+              "2/77",
+              "5/462",
+              "1/462",
+              "1/22",
+              "3/77",
+              "16/693",
+              "1/1386",
+              "5/462",
+              "20/693",
+              "1/99",
+              "1/33",
+              "5/231",
+              "7/198",
+              "16/693",
+              "1/462",
+              "1/99",
+              "5/99",
+              "1/154",
+              "5/231",
+              "3/77",
+              "1/22",
+              "1/33"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9"
+              ]
+            ],
+            "asymptotic_subrank": 7,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            0,
+            4
+          ],
+          "dimensions": [
+            7,
+            7,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              4,
+              0,
+              "1/210"
+            ],
+            [
+              0,
+              5,
+              1,
+              "1/42"
+            ],
+            [
+              0,
+              6,
+              2,
+              "1/14"
+            ],
+            [
+              1,
+              3,
+              0,
+              "-1/420"
+            ],
+            [
+              1,
+              4,
+              1,
+              "-1/210"
+            ],
+            [
+              1,
+              6,
+              3,
+              "1/42"
+            ],
+            [
+              2,
+              2,
+              0,
+              "1/525"
+            ],
+            [
+              2,
+              3,
+              1,
+              "1/1050"
+            ],
+            [
+              2,
+              4,
+              2,
+              "-1/350"
+            ],
+            [
+              2,
+              5,
+              3,
+              "-1/210"
+            ],
+            [
+              2,
+              6,
+              4,
+              "1/210"
+            ],
+            [
+              3,
+              1,
+              0,
+              "-1/420"
+            ],
+            [
+              3,
+              2,
+              1,
+              "1/1050"
+            ],
+            [
+              3,
+              3,
+              2,
+              "1/350"
+            ],
+            [
+              3,
+              4,
+              3,
+              "1/1050"
+            ],
+            [
+              3,
+              5,
+              4,
+              "-1/420"
+            ],
+            [
+              4,
+              0,
+              0,
+              "1/210"
+            ],
+            [
+              4,
+              1,
+              1,
+              "-1/210"
+            ],
+            [
+              4,
+              2,
+              2,
+              "-1/350"
+            ],
+            [
+              4,
+              3,
+              3,
+              "1/1050"
+            ],
+            [
+              4,
+              4,
+              4,
+              "1/525"
+            ],
+            [
+              5,
+              0,
+              1,
+              "1/42"
+            ],
+            [
+              5,
+              2,
+              3,
+              "-1/210"
+            ],
+            [
+              5,
+              3,
+              4,
+              "-1/420"
+            ],
+            [
+              6,
+              0,
+              2,
+              "1/14"
+            ],
+            [
+              6,
+              1,
+              3,
+              "1/42"
+            ],
+            [
+              6,
+              2,
+              4,
+              "1/210"
+            ]
+          ],
+          "kind": "coordinate-convolution-restriction",
+          "lower_bound": "22/3",
+          "restriction": {
+            "source_axes": [
+              0,
+              2,
+              1
+            ],
+            "starts": [
+              3,
+              0,
+              0
+            ],
+            "target_dimensions": [
+              2,
+              5,
+              6
+            ],
+            "isomorphism": {
+              "convolution_lengths": [
+                2,
+                5
+              ],
+              "axes": [
+                0,
+                1,
+                2
+              ],
+              "reversals": [
+                false,
+                true,
+                true
+              ],
+              "x_factors": [
+                "1",
+                "1/525"
+              ],
+              "y_factors": [
+                "1",
+                "1/1050",
+                "1/183750",
+                "-1/289406250",
+                "-1/303876562500"
+              ],
+              "z_factors": [
+                "-1/420",
+                "1",
+                "525",
+                "-275625",
+                "723515625",
+                "-759691406250"
+              ]
+            }
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 4,
+            "probabilities": [
+              "1/42",
+              "5/84",
+              "5/84",
+              "1/21",
+              "1/28",
+              "5/84",
+              "2/35",
+              "1/210",
+              "3/140",
+              "1/28",
+              "1/42",
+              "1/21",
+              "1/210",
+              "4/105",
+              "1/210",
+              "1/21",
+              "1/42",
+              "1/28",
+              "3/140",
+              "1/210",
+              "2/35",
+              "5/84",
+              "1/28",
+              "1/21",
+              "5/84",
+              "5/84",
+              "1/42"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            0,
+            6
+          ],
+          "dimensions": [
+            7,
+            7,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              6,
+              0,
+              "-1/140"
+            ],
+            [
+              1,
+              5,
+              0,
+              "1/840"
+            ],
+            [
+              2,
+              4,
+              0,
+              "-1/2100"
+            ],
+            [
+              3,
+              3,
+              0,
+              "1/2800"
+            ],
+            [
+              4,
+              2,
+              0,
+              "-1/2100"
+            ],
+            [
+              5,
+              1,
+              0,
+              "1/840"
+            ],
+            [
+              6,
+              0,
+              0,
+              "-1/140"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              7,
+              1
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              false,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "-1/140",
+              "1/840",
+              "-1/2100",
+              "1/2800",
+              "-1/2100",
+              "1/840",
+              "-1/140"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 6,
+            "probabilities": [
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            1,
+            1
+          ],
+          "dimensions": [
+            7,
+            5,
+            11
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              3,
+              3,
+              6,
+              "1"
+            ],
+            [
+              3,
+              4,
+              7,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ],
+            [
+              4,
+              3,
+              7,
+              "1"
+            ],
+            [
+              4,
+              4,
+              8,
+              "1"
+            ],
+            [
+              5,
+              0,
+              5,
+              "1"
+            ],
+            [
+              5,
+              1,
+              6,
+              "1"
+            ],
+            [
+              5,
+              2,
+              7,
+              "1"
+            ],
+            [
+              5,
+              3,
+              8,
+              "1"
+            ],
+            [
+              5,
+              4,
+              9,
+              "1"
+            ],
+            [
+              6,
+              0,
+              6,
+              "1"
+            ],
+            [
+              6,
+              1,
+              7,
+              "1"
+            ],
+            [
+              6,
+              2,
+              8,
+              "1"
+            ],
+            [
+              6,
+              3,
+              9,
+              "1"
+            ],
+            [
+              6,
+              4,
+              10,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              7,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/11",
+              "2/55",
+              "2/165",
+              "1/330",
+              "1/2310",
+              "3/55",
+              "8/165",
+              "3/110",
+              "4/385",
+              "1/462",
+              "1/33",
+              "1/22",
+              "3/77",
+              "5/231",
+              "1/154",
+              "1/66",
+              "8/231",
+              "10/231",
+              "8/231",
+              "1/66",
+              "1/154",
+              "5/231",
+              "3/77",
+              "1/22",
+              "1/33",
+              "1/462",
+              "4/385",
+              "3/110",
+              "8/165",
+              "3/55",
+              "1/2310",
+              "1/330",
+              "2/165",
+              "2/55",
+              "1/11"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            1,
+            3
+          ],
+          "dimensions": [
+            7,
+            5,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/18"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-1/6"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-1/3"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/36"
+            ],
+            [
+              1,
+              3,
+              2,
+              "-1/12"
+            ],
+            [
+              1,
+              4,
+              3,
+              "-2/9"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/45"
+            ],
+            [
+              2,
+              1,
+              1,
+              "1/30"
+            ],
+            [
+              2,
+              2,
+              2,
+              "1/30"
+            ],
+            [
+              2,
+              3,
+              3,
+              "-1/45"
+            ],
+            [
+              2,
+              4,
+              4,
+              "-2/15"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-1/15"
+            ],
+            [
+              3,
+              1,
+              2,
+              "1/60"
+            ],
+            [
+              3,
+              2,
+              3,
+              "2/45"
+            ],
+            [
+              3,
+              3,
+              4,
+              "1/60"
+            ],
+            [
+              3,
+              4,
+              5,
+              "-1/15"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-2/15"
+            ],
+            [
+              4,
+              1,
+              3,
+              "-1/45"
+            ],
+            [
+              4,
+              2,
+              4,
+              "1/30"
+            ],
+            [
+              4,
+              3,
+              5,
+              "1/30"
+            ],
+            [
+              4,
+              4,
+              6,
+              "-1/45"
+            ],
+            [
+              5,
+              0,
+              3,
+              "-2/9"
+            ],
+            [
+              5,
+              1,
+              4,
+              "-1/12"
+            ],
+            [
+              5,
+              3,
+              6,
+              "1/36"
+            ],
+            [
+              6,
+              0,
+              4,
+              "-1/3"
+            ],
+            [
+              6,
+              1,
+              5,
+              "-1/6"
+            ],
+            [
+              6,
+              2,
+              6,
+              "-1/18"
+            ]
+          ],
+          "kind": "coordinate-convolution-restriction",
+          "lower_bound": "22/3",
+          "restriction": {
+            "source_axes": [
+              0,
+              1,
+              2
+            ],
+            "starts": [
+              3,
+              0,
+              1
+            ],
+            "target_dimensions": [
+              2,
+              5,
+              6
+            ],
+            "isomorphism": {
+              "convolution_lengths": [
+                2,
+                5
+              ],
+              "axes": [
+                0,
+                1,
+                2
+              ],
+              "reversals": [
+                false,
+                false,
+                false
+              ],
+              "x_factors": [
+                "1",
+                "-2/15"
+              ],
+              "y_factors": [
+                "1",
+                "1/60",
+                "1/225",
+                "-1/3375",
+                "-4/50625"
+              ],
+              "z_factors": [
+                "-1/15",
+                "1",
+                "10",
+                "-225/4",
+                "3375/4",
+                "-16875/8"
+              ]
+            }
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "5/84",
+              "5/84",
+              "1/42",
+              "5/84",
+              "1/28",
+              "1/21",
+              "1/42",
+              "1/28",
+              "3/140",
+              "1/210",
+              "2/35",
+              "1/21",
+              "1/210",
+              "4/105",
+              "1/210",
+              "1/21",
+              "2/35",
+              "1/210",
+              "3/140",
+              "1/28",
+              "1/42",
+              "1/21",
+              "1/28",
+              "5/84",
+              "1/42",
+              "5/84",
+              "5/84"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            1,
+            5
+          ],
+          "dimensions": [
+            7,
+            5,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              4,
+              0,
+              "3/70"
+            ],
+            [
+              1,
+              3,
+              0,
+              "-1/140"
+            ],
+            [
+              1,
+              4,
+              1,
+              "1/70"
+            ],
+            [
+              2,
+              2,
+              0,
+              "1/350"
+            ],
+            [
+              2,
+              3,
+              1,
+              "-1/175"
+            ],
+            [
+              2,
+              4,
+              2,
+              "1/350"
+            ],
+            [
+              3,
+              1,
+              0,
+              "-3/1400"
+            ],
+            [
+              3,
+              2,
+              1,
+              "3/700"
+            ],
+            [
+              3,
+              3,
+              2,
+              "-3/1400"
+            ],
+            [
+              4,
+              0,
+              0,
+              "1/350"
+            ],
+            [
+              4,
+              1,
+              1,
+              "-1/175"
+            ],
+            [
+              4,
+              2,
+              2,
+              "1/350"
+            ],
+            [
+              5,
+              0,
+              1,
+              "1/70"
+            ],
+            [
+              5,
+              1,
+              2,
+              "-1/140"
+            ],
+            [
+              6,
+              0,
+              2,
+              "3/70"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              3
+            ],
+            "axes": [
+              1,
+              2,
+              0
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "-1/140",
+              "1/19600",
+              "-1/2744000",
+              "1/384160000"
+            ],
+            "y_factors": [
+              "1",
+              "1/70",
+              "1/19600"
+            ],
+            "z_factors": [
+              "3/70",
+              "1",
+              "56",
+              "5880",
+              "1097600",
+              "384160000",
+              "322694400000"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 4,
+            "probabilities": [
+              "1/7",
+              "2/21",
+              "1/21",
+              "2/35",
+              "8/105",
+              "1/105",
+              "1/35",
+              "3/35",
+              "1/35",
+              "1/105",
+              "8/105",
+              "2/35",
+              "1/21",
+              "2/21",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            2,
+            2
+          ],
+          "dimensions": [
+            7,
+            3,
+            9
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ],
+            [
+              5,
+              0,
+              5,
+              "1"
+            ],
+            [
+              5,
+              1,
+              6,
+              "1"
+            ],
+            [
+              5,
+              2,
+              7,
+              "1"
+            ],
+            [
+              6,
+              0,
+              6,
+              "1"
+            ],
+            [
+              6,
+              1,
+              7,
+              "1"
+            ],
+            [
+              6,
+              2,
+              8,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              7,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/9",
+              "1/36",
+              "1/252",
+              "1/12",
+              "1/21",
+              "1/84",
+              "5/84",
+              "5/84",
+              "1/42",
+              "5/126",
+              "4/63",
+              "5/126",
+              "1/42",
+              "5/84",
+              "5/84",
+              "1/84",
+              "1/21",
+              "1/12",
+              "1/252",
+              "1/36",
+              "1/9"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            2,
+            4
+          ],
+          "dimensions": [
+            7,
+            3,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-3/14"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/28"
+            ],
+            [
+              1,
+              2,
+              1,
+              "-1/7"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/70"
+            ],
+            [
+              2,
+              1,
+              1,
+              "2/35"
+            ],
+            [
+              2,
+              2,
+              2,
+              "-3/35"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-3/70"
+            ],
+            [
+              3,
+              1,
+              2,
+              "9/140"
+            ],
+            [
+              3,
+              2,
+              3,
+              "-3/70"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-3/35"
+            ],
+            [
+              4,
+              1,
+              3,
+              "2/35"
+            ],
+            [
+              4,
+              2,
+              4,
+              "-1/70"
+            ],
+            [
+              5,
+              0,
+              3,
+              "-1/7"
+            ],
+            [
+              5,
+              1,
+              4,
+              "1/28"
+            ],
+            [
+              6,
+              0,
+              4,
+              "-3/14"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              5
+            ],
+            "axes": [
+              1,
+              2,
+              0
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1/28",
+              "1/784"
+            ],
+            "y_factors": [
+              "1",
+              "-1/7",
+              "3/392",
+              "-1/5488",
+              "1/614656"
+            ],
+            "z_factors": [
+              "-3/14",
+              "1",
+              "-56/5",
+              "1176/5",
+              "-43904/5",
+              "614656",
+              "-103262208"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/7",
+              "1/21",
+              "2/21",
+              "1/105",
+              "8/105",
+              "2/35",
+              "1/35",
+              "3/35",
+              "1/35",
+              "2/35",
+              "8/105",
+              "1/105",
+              "2/21",
+              "1/21",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            0,
+            3,
+            3
+          ],
+          "dimensions": [
+            7,
+            1,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              5,
+              0,
+              5,
+              "1"
+            ],
+            [
+              6,
+              0,
+              6,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              7,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            0,
+            1
+          ],
+          "dimensions": [
+            5,
+            7,
+            11
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              0,
+              5,
+              5,
+              "1"
+            ],
+            [
+              0,
+              6,
+              6,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              1,
+              5,
+              6,
+              "1"
+            ],
+            [
+              1,
+              6,
+              7,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ],
+            [
+              2,
+              5,
+              7,
+              "1"
+            ],
+            [
+              2,
+              6,
+              8,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              3,
+              3,
+              6,
+              "1"
+            ],
+            [
+              3,
+              4,
+              7,
+              "1"
+            ],
+            [
+              3,
+              5,
+              8,
+              "1"
+            ],
+            [
+              3,
+              6,
+              9,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ],
+            [
+              4,
+              3,
+              7,
+              "1"
+            ],
+            [
+              4,
+              4,
+              8,
+              "1"
+            ],
+            [
+              4,
+              5,
+              9,
+              "1"
+            ],
+            [
+              4,
+              6,
+              10,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              7
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/11",
+              "3/55",
+              "1/33",
+              "1/66",
+              "1/154",
+              "1/462",
+              "1/2310",
+              "2/55",
+              "8/165",
+              "1/22",
+              "8/231",
+              "5/231",
+              "4/385",
+              "1/330",
+              "2/165",
+              "3/110",
+              "3/77",
+              "10/231",
+              "3/77",
+              "3/110",
+              "2/165",
+              "1/330",
+              "4/385",
+              "5/231",
+              "8/231",
+              "1/22",
+              "8/165",
+              "2/55",
+              "1/2310",
+              "1/462",
+              "1/154",
+              "1/66",
+              "1/33",
+              "3/55",
+              "1/11"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11",
+                "1/11"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            0,
+            3
+          ],
+          "dimensions": [
+            5,
+            7,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/45"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-1/15"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-2/15"
+            ],
+            [
+              0,
+              5,
+              3,
+              "-2/9"
+            ],
+            [
+              0,
+              6,
+              4,
+              "-1/3"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/36"
+            ],
+            [
+              1,
+              2,
+              1,
+              "1/30"
+            ],
+            [
+              1,
+              3,
+              2,
+              "1/60"
+            ],
+            [
+              1,
+              4,
+              3,
+              "-1/45"
+            ],
+            [
+              1,
+              5,
+              4,
+              "-1/12"
+            ],
+            [
+              1,
+              6,
+              5,
+              "-1/6"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/18"
+            ],
+            [
+              2,
+              2,
+              2,
+              "1/30"
+            ],
+            [
+              2,
+              3,
+              3,
+              "2/45"
+            ],
+            [
+              2,
+              4,
+              4,
+              "1/30"
+            ],
+            [
+              2,
+              6,
+              6,
+              "-1/18"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-1/6"
+            ],
+            [
+              3,
+              1,
+              2,
+              "-1/12"
+            ],
+            [
+              3,
+              2,
+              3,
+              "-1/45"
+            ],
+            [
+              3,
+              3,
+              4,
+              "1/60"
+            ],
+            [
+              3,
+              4,
+              5,
+              "1/30"
+            ],
+            [
+              3,
+              5,
+              6,
+              "1/36"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-1/3"
+            ],
+            [
+              4,
+              1,
+              3,
+              "-2/9"
+            ],
+            [
+              4,
+              2,
+              4,
+              "-2/15"
+            ],
+            [
+              4,
+              3,
+              5,
+              "-1/15"
+            ],
+            [
+              4,
+              4,
+              6,
+              "-1/45"
+            ]
+          ],
+          "kind": "coordinate-convolution-restriction",
+          "lower_bound": "22/3",
+          "restriction": {
+            "source_axes": [
+              0,
+              1,
+              2
+            ],
+            "starts": [
+              3,
+              0,
+              1
+            ],
+            "target_dimensions": [
+              2,
+              5,
+              6
+            ],
+            "isomorphism": {
+              "convolution_lengths": [
+                2,
+                5
+              ],
+              "axes": [
+                0,
+                1,
+                2
+              ],
+              "reversals": [
+                false,
+                false,
+                false
+              ],
+              "x_factors": [
+                "1",
+                "-1/3"
+              ],
+              "y_factors": [
+                "1",
+                "-1/12",
+                "1/360",
+                "1/8640",
+                "1/51840"
+              ],
+              "z_factors": [
+                "-1/6",
+                "1",
+                "-8",
+                "144",
+                "1728",
+                "3456"
+              ]
+            }
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/42",
+              "1/21",
+              "2/35",
+              "1/21",
+              "1/42",
+              "5/84",
+              "1/28",
+              "1/210",
+              "1/210",
+              "1/28",
+              "5/84",
+              "5/84",
+              "3/140",
+              "4/105",
+              "3/140",
+              "5/84",
+              "5/84",
+              "1/28",
+              "1/210",
+              "1/210",
+              "1/28",
+              "5/84",
+              "1/42",
+              "1/21",
+              "2/35",
+              "1/21",
+              "1/42"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            0,
+            5
+          ],
+          "dimensions": [
+            5,
+            7,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              4,
+              0,
+              "1/350"
+            ],
+            [
+              0,
+              5,
+              1,
+              "1/70"
+            ],
+            [
+              0,
+              6,
+              2,
+              "3/70"
+            ],
+            [
+              1,
+              3,
+              0,
+              "-3/1400"
+            ],
+            [
+              1,
+              4,
+              1,
+              "-1/175"
+            ],
+            [
+              1,
+              5,
+              2,
+              "-1/140"
+            ],
+            [
+              2,
+              2,
+              0,
+              "1/350"
+            ],
+            [
+              2,
+              3,
+              1,
+              "3/700"
+            ],
+            [
+              2,
+              4,
+              2,
+              "1/350"
+            ],
+            [
+              3,
+              1,
+              0,
+              "-1/140"
+            ],
+            [
+              3,
+              2,
+              1,
+              "-1/175"
+            ],
+            [
+              3,
+              3,
+              2,
+              "-3/1400"
+            ],
+            [
+              4,
+              0,
+              0,
+              "3/70"
+            ],
+            [
+              4,
+              1,
+              1,
+              "1/70"
+            ],
+            [
+              4,
+              2,
+              2,
+              "1/350"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              3
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "-1/140",
+              "1/19600",
+              "-1/2744000",
+              "1/384160000"
+            ],
+            "y_factors": [
+              "1",
+              "1/70",
+              "1/19600"
+            ],
+            "z_factors": [
+              "3/70",
+              "1",
+              "56",
+              "5880",
+              "1097600",
+              "384160000",
+              "322694400000"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 4,
+            "probabilities": [
+              "1/105",
+              "1/21",
+              "1/7",
+              "1/35",
+              "8/105",
+              "2/21",
+              "2/35",
+              "3/35",
+              "2/35",
+              "2/21",
+              "8/105",
+              "1/35",
+              "1/7",
+              "1/21",
+              "1/105"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            1,
+            2
+          ],
+          "dimensions": [
+            5,
+            5,
+            9
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              3,
+              3,
+              6,
+              "1"
+            ],
+            [
+              3,
+              4,
+              7,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ],
+            [
+              4,
+              3,
+              7,
+              "1"
+            ],
+            [
+              4,
+              4,
+              8,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/9",
+              "1/18",
+              "1/42",
+              "1/126",
+              "1/630",
+              "1/18",
+              "4/63",
+              "1/21",
+              "8/315",
+              "1/126",
+              "1/42",
+              "1/21",
+              "2/35",
+              "1/21",
+              "1/42",
+              "1/126",
+              "8/315",
+              "1/21",
+              "4/63",
+              "1/18",
+              "1/630",
+              "1/126",
+              "1/42",
+              "1/18",
+              "1/9"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            1,
+            4
+          ],
+          "dimensions": [
+            5,
+            5,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/21"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-1/7"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-2/7"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/28"
+            ],
+            [
+              1,
+              2,
+              1,
+              "1/42"
+            ],
+            [
+              1,
+              3,
+              2,
+              "-1/28"
+            ],
+            [
+              1,
+              4,
+              3,
+              "-1/7"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/21"
+            ],
+            [
+              2,
+              1,
+              1,
+              "1/42"
+            ],
+            [
+              2,
+              2,
+              2,
+              "1/21"
+            ],
+            [
+              2,
+              3,
+              3,
+              "1/42"
+            ],
+            [
+              2,
+              4,
+              4,
+              "-1/21"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-1/7"
+            ],
+            [
+              3,
+              1,
+              2,
+              "-1/28"
+            ],
+            [
+              3,
+              2,
+              3,
+              "1/42"
+            ],
+            [
+              3,
+              3,
+              4,
+              "1/28"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-2/7"
+            ],
+            [
+              4,
+              1,
+              3,
+              "-1/7"
+            ],
+            [
+              4,
+              2,
+              4,
+              "-1/21"
+            ]
+          ],
+          "kind": "coordinate-convolution-restriction",
+          "lower_bound": "56/9",
+          "restriction": {
+            "source_axes": [
+              0,
+              1,
+              2
+            ],
+            "starts": [
+              1,
+              1,
+              0
+            ],
+            "target_dimensions": [
+              3,
+              3,
+              5
+            ],
+            "isomorphism": {
+              "convolution_lengths": [
+                3,
+                3
+              ],
+              "axes": [
+                0,
+                1,
+                2
+              ],
+              "reversals": [
+                false,
+                false,
+                false
+              ],
+              "x_factors": [
+                "1",
+                "1/42",
+                "-1/2352"
+              ],
+              "y_factors": [
+                "1",
+                "1/42",
+                "-1/2352"
+              ],
+              "z_factors": [
+                "1/28",
+                "1",
+                "84",
+                "-2352",
+                "197568"
+              ]
+            }
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "2/35",
+              "3/35",
+              "2/35",
+              "3/35",
+              "1/70",
+              "1/70",
+              "3/35",
+              "2/35",
+              "1/70",
+              "2/35",
+              "1/70",
+              "2/35",
+              "3/35",
+              "1/70",
+              "1/70",
+              "3/35",
+              "2/35",
+              "3/35",
+              "2/35"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 5,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            1,
+            6
+          ],
+          "dimensions": [
+            5,
+            5,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              4,
+              0,
+              "1/30"
+            ],
+            [
+              1,
+              3,
+              0,
+              "-1/120"
+            ],
+            [
+              2,
+              2,
+              0,
+              "1/180"
+            ],
+            [
+              3,
+              1,
+              0,
+              "-1/120"
+            ],
+            [
+              4,
+              0,
+              0,
+              "1/30"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              1
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              false,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1/30",
+              "-1/120",
+              "1/180",
+              "-1/120",
+              "1/30"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 4,
+            "probabilities": [
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            2,
+            3
+          ],
+          "dimensions": [
+            5,
+            3,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              3,
+              1,
+              4,
+              "1"
+            ],
+            [
+              3,
+              2,
+              5,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ],
+            [
+              4,
+              1,
+              5,
+              "1"
+            ],
+            [
+              4,
+              2,
+              6,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/7",
+              "1/21",
+              "1/105",
+              "2/21",
+              "8/105",
+              "1/35",
+              "2/35",
+              "3/35",
+              "2/35",
+              "1/35",
+              "8/105",
+              "2/21",
+              "1/105",
+              "1/21",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            2,
+            5
+          ],
+          "dimensions": [
+            5,
+            3,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/5"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/20"
+            ],
+            [
+              1,
+              2,
+              1,
+              "-1/10"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/30"
+            ],
+            [
+              2,
+              1,
+              1,
+              "1/15"
+            ],
+            [
+              2,
+              2,
+              2,
+              "-1/30"
+            ],
+            [
+              3,
+              0,
+              1,
+              "-1/10"
+            ],
+            [
+              3,
+              1,
+              2,
+              "1/20"
+            ],
+            [
+              4,
+              0,
+              2,
+              "-1/5"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              3
+            ],
+            "axes": [
+              1,
+              2,
+              0
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1/20",
+              "1/400"
+            ],
+            "y_factors": [
+              "1",
+              "-1/10",
+              "1/400"
+            ],
+            "z_factors": [
+              "-1/5",
+              "1",
+              "-40/3",
+              "400",
+              "-32000"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/5",
+              "1/10",
+              "1/10",
+              "1/30",
+              "2/15",
+              "1/30",
+              "1/10",
+              "1/10",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            1,
+            3,
+            4
+          ],
+          "dimensions": [
+            5,
+            1,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              3,
+              0,
+              3,
+              "1"
+            ],
+            [
+              4,
+              0,
+              4,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              5,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            0,
+            2
+          ],
+          "dimensions": [
+            3,
+            7,
+            9
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              0,
+              5,
+              5,
+              "1"
+            ],
+            [
+              0,
+              6,
+              6,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              1,
+              5,
+              6,
+              "1"
+            ],
+            [
+              1,
+              6,
+              7,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ],
+            [
+              2,
+              5,
+              7,
+              "1"
+            ],
+            [
+              2,
+              6,
+              8,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              7
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/9",
+              "1/12",
+              "5/84",
+              "5/126",
+              "1/42",
+              "1/84",
+              "1/252",
+              "1/36",
+              "1/21",
+              "5/84",
+              "4/63",
+              "5/84",
+              "1/21",
+              "1/36",
+              "1/252",
+              "1/84",
+              "1/42",
+              "5/126",
+              "5/84",
+              "1/12",
+              "1/9"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9",
+                "1/9"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            0,
+            4
+          ],
+          "dimensions": [
+            3,
+            7,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/70"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-3/70"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-3/35"
+            ],
+            [
+              0,
+              5,
+              3,
+              "-1/7"
+            ],
+            [
+              0,
+              6,
+              4,
+              "-3/14"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/28"
+            ],
+            [
+              1,
+              2,
+              1,
+              "2/35"
+            ],
+            [
+              1,
+              3,
+              2,
+              "9/140"
+            ],
+            [
+              1,
+              4,
+              3,
+              "2/35"
+            ],
+            [
+              1,
+              5,
+              4,
+              "1/28"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-3/14"
+            ],
+            [
+              2,
+              1,
+              1,
+              "-1/7"
+            ],
+            [
+              2,
+              2,
+              2,
+              "-3/35"
+            ],
+            [
+              2,
+              3,
+              3,
+              "-3/70"
+            ],
+            [
+              2,
+              4,
+              4,
+              "-1/70"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              5
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1/28",
+              "1/784"
+            ],
+            "y_factors": [
+              "1",
+              "-1/7",
+              "3/392",
+              "-1/5488",
+              "1/614656"
+            ],
+            "z_factors": [
+              "-3/14",
+              "1",
+              "-56/5",
+              "1176/5",
+              "-43904/5",
+              "614656",
+              "-103262208"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/105",
+              "1/35",
+              "2/35",
+              "2/21",
+              "1/7",
+              "1/21",
+              "8/105",
+              "3/35",
+              "8/105",
+              "1/21",
+              "1/7",
+              "2/21",
+              "2/35",
+              "1/35",
+              "1/105"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            1,
+            3
+          ],
+          "dimensions": [
+            3,
+            5,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              1,
+              3,
+              4,
+              "1"
+            ],
+            [
+              1,
+              4,
+              5,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ],
+            [
+              2,
+              3,
+              5,
+              "1"
+            ],
+            [
+              2,
+              4,
+              6,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/7",
+              "2/21",
+              "2/35",
+              "1/35",
+              "1/105",
+              "1/21",
+              "8/105",
+              "3/35",
+              "8/105",
+              "1/21",
+              "1/105",
+              "1/35",
+              "2/35",
+              "2/21",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            1,
+            5
+          ],
+          "dimensions": [
+            3,
+            5,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/30"
+            ],
+            [
+              0,
+              3,
+              1,
+              "-1/10"
+            ],
+            [
+              0,
+              4,
+              2,
+              "-1/5"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/20"
+            ],
+            [
+              1,
+              2,
+              1,
+              "1/15"
+            ],
+            [
+              1,
+              3,
+              2,
+              "1/20"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/5"
+            ],
+            [
+              2,
+              1,
+              1,
+              "-1/10"
+            ],
+            [
+              2,
+              2,
+              2,
+              "-1/30"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              3
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              true,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1/20",
+              "1/400"
+            ],
+            "y_factors": [
+              "1",
+              "-1/10",
+              "1/400"
+            ],
+            "z_factors": [
+              "-1/5",
+              "1",
+              "-40/3",
+              "400",
+              "-32000"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/30",
+              "1/10",
+              "1/5",
+              "1/10",
+              "2/15",
+              "1/10",
+              "1/5",
+              "1/10",
+              "1/30"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            2,
+            4
+          ],
+          "dimensions": [
+            3,
+            3,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              1,
+              2,
+              "1"
+            ],
+            [
+              1,
+              2,
+              3,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              1,
+              3,
+              "1"
+            ],
+            [
+              2,
+              2,
+              4,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/5",
+              "1/10",
+              "1/30",
+              "1/10",
+              "2/15",
+              "1/10",
+              "1/30",
+              "1/10",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 3,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            2,
+            6
+          ],
+          "dimensions": [
+            3,
+            3,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              2,
+              0,
+              "-1/6"
+            ],
+            [
+              1,
+              1,
+              0,
+              "1/12"
+            ],
+            [
+              2,
+              0,
+              0,
+              "-1/6"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              1
+            ],
+            "axes": [
+              0,
+              2,
+              1
+            ],
+            "reversals": [
+              false,
+              false,
+              true
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "-1/6",
+              "1/12",
+              "-1/6"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 2,
+            "probabilities": [
+              "1/3",
+              "1/3",
+              "1/3"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            2,
+            3,
+            5
+          ],
+          "dimensions": [
+            3,
+            1,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              0,
+              1,
+              "1"
+            ],
+            [
+              2,
+              0,
+              2,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              3,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/3",
+              "1/3",
+              "1/3"
+            ],
+            "marginals": [
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            3,
+            0,
+            3
+          ],
+          "dimensions": [
+            1,
+            7,
+            7
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ],
+            [
+              0,
+              5,
+              5,
+              "1"
+            ],
+            [
+              0,
+              6,
+              6,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              7
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7",
+              "1/7"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ],
+              [
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7",
+                "1/7"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            3,
+            1,
+            4
+          ],
+          "dimensions": [
+            1,
+            5,
+            5
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ],
+            [
+              0,
+              3,
+              3,
+              "1"
+            ],
+            [
+              0,
+              4,
+              4,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              5
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "1/5"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            3,
+            2,
+            5
+          ],
+          "dimensions": [
+            1,
+            3,
+            3
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ],
+            [
+              0,
+              1,
+              1,
+              "1"
+            ],
+            [
+              0,
+              2,
+              2,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              3
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1",
+              "1",
+              "1"
+            ],
+            "z_factors": [
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1/3",
+              "1/3",
+              "1/3"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              [
+                "1/3",
+                "1/3",
+                "1/3"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        },
+        {
+          "labels": [
+            3,
+            3,
+            6
+          ],
+          "dimensions": [
+            1,
+            1,
+            1
+          ],
+          "terms": [
+            [
+              0,
+              0,
+              0,
+              "1"
+            ]
+          ],
+          "kind": "convolution",
+          "isomorphism": {
+            "convolution_lengths": [
+              1,
+              1
+            ],
+            "axes": [
+              0,
+              1,
+              2
+            ],
+            "reversals": [
+              false,
+              false,
+              false
+            ],
+            "x_factors": [
+              "1"
+            ],
+            "y_factors": [
+              "1"
+            ],
+            "z_factors": [
+              "1"
+            ]
+          },
+          "tight_subrank_certificate": {
+            "tight_weights": [
+              "i",
+              "j",
+              "-k"
+            ],
+            "constant": 0,
+            "probabilities": [
+              "1"
+            ],
+            "marginals": [
+              [
+                "1"
+              ],
+              [
+                "1"
+              ],
+              [
+                "1"
+              ]
+            ],
+            "asymptotic_subrank": 1,
+            "theorem": "Strassen tight scalar support formula; CVZ arXiv:1609.07476v2 Theorem 1.1.31"
+          }
+        }
+      ]
+    }
+  ]
+}
