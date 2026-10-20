@@ -4,6 +4,10 @@ Date: 2026-10-20. AI-derived research by this Codex session, directed by the
 repository owner. Base: `e0d7ed5`. Written proof; no independent review or Lean
 formalization. No smaller matrix multiplication exponent is established.
 
+Concurrent work independently obtained a stronger equivalence theorem in
+commit `73b2d20` on `research/filtration-compatibility-20261020`.
+This implication is corroborating work. See [coordination and scope](COORDINATION.md).
+
 ## Question and dependencies
 
 R2 asks whether the three families (11)--(12) in the immutable
@@ -120,7 +124,7 @@ and no improvement of the external upper bound 9/4.
 
 ## Reproduction
 
-Run `python research/ai/2026-10-20-filtration/verify_filtration.py` from the
+Run `python research/ai/2026-10-20-affine-direct-sums/verify_filtration.py` from the
 repository root. Its exact rational certificates check each step of (3),
 top-row/top-column domination, and the displayed profile hypotheses on a
 finite regression domain. The written argument proves the universal claim;

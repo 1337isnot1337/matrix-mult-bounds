@@ -1,0 +1,21 @@
+{
+  "python": "3.12.3",
+  "sympy": "1.14.0",
+  "tests": 38,
+  "tests_passed": true,
+  "archive_replay": {
+    "profile_grid": 73856,
+    "filtration_inequalities": 353664,
+    "binary_candidates": 12976,
+    "ternary_candidates": 209692,
+    "random_candidates": 20000,
+    "all_passed": true
+  },
+  "environment_note": "System SymPy 1.12 was rejected by the replay preflight; the complete replay passed in /tmp/matrix-mult-research-venv with pinned SymPy 1.14.0.",
+  "local_new_results": [
+    "All-size fixed-label compatibility implication; overlaps the stronger concurrent 73b2d20 equivalence.",
+    "Explicit affine-line full-direct-sum weights and 4770 exact coefficient checks.",
+    "6561 exact source certificates covering 9600473 relaxed whole-block matchings."
+  ],
+  "new_exponent_established": false
+}

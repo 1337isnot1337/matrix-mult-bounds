@@ -38,7 +38,7 @@ The [external source review](docs/external_followups.md) covers the three reposi
 
 ## Product-filtration compatibility, all sizes
 
-The [new concavity proof](research/ai/2026-10-20-filtration/research_note.md)
+The [new concavity proof](research/ai/2026-10-20-affine-direct-sums/research_note.md)
 settles R2 for every displayed fixed-label product-filtration inequality:
 all positive integer parameters preserve the matching profile P_*.
 This replaces the earlier finite-only knowledge for that family. The proof is
@@ -48,3 +48,15 @@ The exact regression certificates check 81,648 comparisons over 4,096 source
 quadruples, plus six dedicated tests. The universal statement rests on the
 written proof. Full direct sums involving multiple labels remain outside this
 theorem. No exponent improvement is established.
+
+The [affine-line construction](research/ai/2026-10-20-affine-direct-sums/direct_sums.md)
+adds explicit integer-weight degenerations retaining full direct sums across
+several labels. Four exact determinant-basis examples check all 4,770
+coefficients. A finite assignment upper bound covers 9,600,473 maximal
+relaxed matchings on 6,561 ordered source quadruples through dimension 9;
+none violates P_* at t=3/4.
+
+Other agents independently pushed a stronger fixed-label equivalence theorem
+at `73b2d20` and broader entropy-score bounds at `e6d33e7`.
+[The overlap record](research/ai/2026-10-20-affine-direct-sums/COORDINATION.md)
+separates their work from the distinct coefficient construction here.

@@ -7,7 +7,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location(
     "filtration_compatibility",
-    ROOT / "research/ai/2026-10-20-filtration/verify_filtration.py",
+    ROOT / "research/ai/2026-10-20-affine-direct-sums/verify_filtration.py",
 )
 filtration = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(filtration)

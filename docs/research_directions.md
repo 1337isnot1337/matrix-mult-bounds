@@ -10,7 +10,7 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 
 ## R2: Decide compatibility with the product-filtration family
 
-Status: resolved by a written, unreviewed [all-size concavity proof](../research/ai/2026-10-20-filtration/research_note.md).
+Status: resolved by a written, unreviewed [all-size concavity proof](../research/ai/2026-10-20-affine-direct-sums/research_note.md).
 Every fixed-i, fixed-j and fixed-k inequality in the first-pass Section 4
 preserves P_* for all positive parameters. The archived finite grid remains
 unchanged. Extending that grid cannot find a counterexample to these statements.
