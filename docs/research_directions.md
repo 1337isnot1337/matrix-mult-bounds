@@ -25,6 +25,7 @@ The concurrent proof at `712c91a` supplies another compatibility argument;
 see [the pinned comparison](concurrent_research.md).
 
 
+
 ## R3: Search outside identical single-source sectors
 
 Status: open. The flattening obstruction closes only shorter single-convolution sources with identical targets and the stated shared leg.
