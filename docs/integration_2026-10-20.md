@@ -49,6 +49,14 @@ AI-MIXED-ASYM-CAPACITY-001 and its exact scope is recorded in the linked
 mixed-restrictions package. The next construction still requires singular,
 nondiagonal shared behavior beyond the closed coordinate-input family.
 
+The central-projection follow-up integrates `a0b602f` with the current PR
+workflow. It passes all 170 combined tests in the existing Python 3.14.8
+environment containing only the maintained SymPy/mpmath dependencies and
+replays all 1,394 parity circuits without optional search packages. These
+receipts are `central-projection-tests.txt` and `central-projection-replay.json`
+under the integration results directory. This finite search reduction adds
+no tensor witness or exponent improvement.
+
 ## Follow-up graded-obstruction integration
 
 The Koszul worker then integrated main at `a83bc24` with its newer proof
@@ -67,3 +75,10 @@ source-obstruction work. All 169 combined tests pass; the distinct report is
 `results/mixed-restrictions-2026-10-20/combined-tests-169.txt`. Both historical
 archives remain unchanged. The capacity PR follows the newly required CI
 and squash-merge policy; no rule bypass or direct main push is used.
+
+The capacity branch subsequently integrates main `424dd92` and its exact
+projected-group/central-lift certificates. All 174 combined tests pass in
+`results/mixed-restrictions-2026-10-20/combined-tests-after-424dd92.txt`.
+All 40 claim records are preserved. The capacity claim is placed beside its
+related earlier claim, avoiding a collision with future appended group
+records. No proof status changes and neither archive changes.

@@ -72,7 +72,7 @@ Current queue:
 3. If this ansatz is also obstructed, move to general Laurent shared maps or
    a different source-wide mechanism. Do not repeat unchanged closed grids.
 
-Latest local validation: 169 combined tests after integrating 6cfa5a9;
+Latest local validation: 174 combined tests after integrating 424dd92;
 the earlier standalone capacity checkpoint passed 73 tests and the full
 five-part archive replay
 under Python 3.12.3 / SymPy 1.14.0. Logs are in

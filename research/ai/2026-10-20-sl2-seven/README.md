@@ -33,3 +33,11 @@ additional necessary binary clauses for this target. The center-pruned run
 uses the same seed and budget, so any changed behavior is attributable to
 the strengthened encoding rather than a seed reroll. Its outcome will be
 recorded separately; no running checkpoint is a completed result.
+
+The [projection reduction](projected_proof.md) now separates projected
+membership from exact F2 lift constraints. Its first completed 600-second
+run found 1,394 projected candidates, all rejected by saved, replayed parity
+circuits. The two center-pruned direct variants also timed out without a
+pair-injective model. None supplies a degeneration or a nonexistence proof.
+The fiber-strengthened projection encoding is a further bounded experiment;
+it adds abelian-preimage occupancy clauses and the center-free C8 rule.
