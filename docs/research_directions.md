@@ -10,9 +10,15 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 
 ## R2: Decide compatibility with the product-filtration family
 
-Status: open beyond the completed grid. The three inequalities in Section 4 of the note survive all tested source lengths through 12.
+Status: resolved by a written, unreviewed [all-size concavity proof](../research/ai/2026-10-20-affine-direct-sums/research_note.md).
+Every fixed-i, fixed-j and fixed-k inequality in the first-pass Section 4
+preserves P_* for all positive parameters. The archived finite grid remains
+unchanged. Extending that grid cannot find a counterexample to these statements.
 
-Prove compatibility for all positive parameters or provide an exact counterexample. An exact counterexample excludes this profile only. To affect $\omega$, explain how the new constraint forces stronger growth for every actual character.
+The proof does not cover full direct sums with distinct labels on all three
+legs. Such extractions and oriented character constraints remain candidates
+for R3/R5. A new constraint must force stronger growth for every actual character
+before it can affect $\omega$.
 
 ## R3: Search outside identical single-source sectors
 
