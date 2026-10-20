@@ -150,3 +150,9 @@ The separate fiber-strengthened 600-second run ended with 149 projected
 candidates, all rejected by replayed parity circuits. Its candidates are not
 asserted distinct from those of the first run. The run reusing translation
 templates is retained separately, with no outcome inferred before completion.
+
+That 600-second template run has now completed: it found 619 projected
+candidates, and all 619 fail the exact lift equations. All saved circuits
+replay. It produced no pair-injective lift or potential witness. These are
+bounded rejections, without a distinctness claim across runs or a complete
+exclusion of the target.

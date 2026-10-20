@@ -52,3 +52,8 @@ The external [ordinary TPP screen](ordinary_tpp_screen.md) excludes unweighted
 triples of this shape by the published representation-theoretic bound. It
 does not exclude the weighted degeneration search. A successful witness must
 use its positive weights to delete unwanted terms.
+
+The first template run is complete and has 619 replayed parity rejections,
+with no pair-injective lift or tensor witness. Its exact source hashes and
+template counts are retained with the report. This closes the current
+bounded run, not the mathematical construction question.
