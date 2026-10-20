@@ -56,3 +56,25 @@ These are unreviewed analytic results and exact finite certificates. The
 optimistic score is not claimed as a proved weighted block-extraction theorem.
 The all-size unequal-source inequality remains open. This rules out one
 proposed escape in the stated scope; the exponent remains `9/4`.
+
+## Exact finite-group construction campaign
+
+[Research note](research/ai/2026-10-20-group-potentials/research_note.md) |
+[Reports](results/group-potentials-2026-10-20/) |
+[Integer-only verifier](research/ai/2026-10-20-group-potentials/verify_reports.py).
+
+The SL(2,5) source degrees are now checked from nine primitive central
+idempotents, with all 81 products verified over Q(sqrt(5)). Exact integer-root
+intervals show that a degeneration of one of the three reported target shapes
+would imply `omega <= 2249/1000`. **That degeneration is unconstructed.**
+
+A new written, unreviewed determinant-divisor argument excludes a target
+`M(n,n,p)` whenever a source irrep degree `d>N-np` is not divisible by `n`.
+It removes three small affine-group candidates under arbitrary basis changes,
+beyond the coordinate-potential search class. It does not exclude the SL(2,5)
+targets or establish a smaller exponent.
+
+The exact search has a genuine (3,3,3) control degeneration and 479 verified
+Farkas cuts across two control/candidate runs. The larger target runs timed out
+or returned SAT-solver UNSAT without proof traces; these are not independently
+checked nonexistence results. Construction research continues.

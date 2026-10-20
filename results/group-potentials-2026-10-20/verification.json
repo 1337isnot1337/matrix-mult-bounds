@@ -1,0 +1,33 @@
+{
+  "status": "local checks passed; bound unbeaten",
+  "full_suite_before_coset_helper": {
+    "tests": 39,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "current_group_suite": {
+    "tests": 8,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_group_potentials.py -v"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5,
+    "archived_bytes_unchanged": true
+  },
+  "exact_certificates": {
+    "farkas_cuts_replayed": 479,
+    "central_idempotent_products": 81,
+    "small_control_extra_terms": 1,
+    "all_three_strict_conditional_gates": "2249/1000; target degeneration absent"
+  },
+  "proof_status": "written, AI-derived, unreviewed; no Lean formalization",
+  "sha256": {
+    "research/ai/2026-10-20-group-potentials/determinant_obstruction.py": "b8a6b4d28ccad4489c2a3740e1c91c4f0ae89c537346bd3d6ee841532804663e",
+    "research/ai/2026-10-20-group-potentials/fourier_certificate.py": "0ad4f5cf18507f069b368f776325e3c522083386c01e48df0a30be58f18bc4f9",
+    "research/ai/2026-10-20-group-potentials/group_exact.py": "7dade0caa8e77924eadb8fef318ffb14727f1ab6c5544fc3faa49cba02b987a2",
+    "research/ai/2026-10-20-group-potentials/search.py": "bb862df5dc7a2d5cf7ed57bd5a8daeace1f255196b2bc17b68a45052e850bb94",
+    "research/ai/2026-10-20-group-potentials/verify_reports.py": "e02fcc77e44cc5e9745d800c12daf90890c1434bdc9282278727f47c692f970f",
+    "tests/test_group_potentials.py": "f3af7a3d7060ae72dce8a2d570b980eddd8b03420d3114146110a47ed5f5990e"
+  }
+}

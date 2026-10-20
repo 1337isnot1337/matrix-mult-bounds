@@ -1,0 +1,35 @@
+{
+  "group": "C19:C3",
+  "affine_parameters": [
+    19,
+    3
+  ],
+  "shape": [
+    6,
+    7,
+    8
+  ],
+  "seed": 20261020,
+  "encoding": {
+    "variables": 2351,
+    "clauses": 9239,
+    "inverse_classes": 28,
+    "commuting_trade_cuts": 172,
+    "independent_right_translations": "identity fixed in all sets"
+  },
+  "seconds_limit": 180.0,
+  "models_limit": 1000,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "cuts": [],
+  "status": "time-limit",
+  "witness": null,
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 180.58713917899877,
+  "sat_statistics": {
+    "restarts": 4200,
+    "conflicts": 1364765,
+    "decisions": 1915786,
+    "propagations": 253970335
+  }
+}

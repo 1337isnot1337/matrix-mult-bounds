@@ -23,3 +23,9 @@ finite searches will retain their actual scope and will not be called exclusions
 This is separate from the other agents' polynomial-filtration, profile-rigidity
 and Koszul work. The preserved research archives remain unchanged. No private
 repository data is sent to an external solver.
+
+Checkpoint: [research note](research_note.md) gives a general determinant-divisor
+obstruction, exact source and conditional endpoint certificates, and actual
+bounded-search outcomes. An independent integer-only verifier checks witnesses
+and learned cuts. The small (3,3,3) control succeeds; no target shape beating
+9/4 has succeeded. Timeouts and untraced SAT UNSAT outcomes remain unresolved.
