@@ -189,6 +189,17 @@ These are written, unreviewed proofs. Exact controls cover 256 marginal
 normalizations, 4877 rational convolution pairs and 43681 four-type bipartite
 component count pairs. No new degeneration or smaller exponent is established.
 
+The [smaller cyclic target](research/ai/2026-10-20-koszul/cyclic_finite_target.md)
+uses three convolution factors and leg dimension 112. Its unconstructed
+M(10,10,11) target would imply omega<=2.248 (AI-CYCLIC-FINITE-TARGET-041).
+Every nonzero source slice has matrix rank at least 16, which excludes
+constant linear maps to this target (AI-CYCLIC-MINIMUM-SLICE-RANK-042).
+The all-a minimum-rank locus is also classified; its dimension excludes
+constant restriction A_5 to M(13,13,17) (AI-CYCLIC-MINIMUM-RANK-LOCUS-043).
+All 4095 nonzero F2 slices at a=2 agree with the minimum-rank formula;
+the 27 equality cases agree exactly with the stated factorization.
+These written proofs are unreviewed and leave singular degenerations open.
+
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
