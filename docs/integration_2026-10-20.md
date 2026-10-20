@@ -33,3 +33,16 @@ be removed only when its work is included and it is no longer an active worker
 checkout or publication target. Pull requests whose heads are included in
 main can be closed as merged; unmerged work must be preserved. The temporary
 integration branch itself does not need a remote branch or pull request.
+
+## Follow-up graded-obstruction integration
+
+The Koszul worker then integrated main at `a83bc24` with its newer proof
+checkpoint `635bf48` and PR #1 head `3898d54`. This adds the nonsingular-block
+extension and the two graded-weight-region obstructions. All 162 tests pass
+on the combined tree; the only merge conflicts were in `STATUS.md` and
+`docs/research_directions.md`, and both source packages' conclusions and
+attributions were retained. The historical archive bytes remain unchanged.
+The full baseline replay also passed on the Koszul source before integration;
+the prior four-lane replay receipt above remains intact. Exact receipts for
+the update are `graded-update-tests.txt` and `graded-update-summary.json` in
+the same results directory. No theorem status or exponent was promoted.

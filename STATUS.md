@@ -216,6 +216,7 @@ Concurrent results are indexed with pinned commits in
 fixed-label filtration question and supply additional constructions and
 obstructions, with their stated review and verification limits. They do not
 establish an exponent improvement.
+
 ## Concurrent product-filtration constructions
 
 The [new concavity proof](research/ai/2026-10-20-affine-direct-sums/research_note.md)
@@ -283,6 +284,7 @@ now excludes the exact-length permutation/collision ansatz for all m>=10.
 The proof is written and unreviewed; near-unit asymptotic overhead remains
 open. Proved solver cuts preserve the m=2,3 SAT controls and resolve the
 m=5 query as UNSAT. The m=6 run times out; it supplies no exclusion.
+
 ## Whole-filtration entropy investigation
 
 Branch `research/full-filtration-entropy-20261020` studies the whole support

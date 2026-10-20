@@ -1,4 +1,31 @@
-# Active research checkpoint
+# Integrated research coordination
+
+The exponent-improvement goal is active; no bound below 9/4 is established.
+The user requests frequent integration of completed work into main and cleanup
+of fully merged task branches. Preserve proof status and source attribution
+when merging; integration is not theorem acceptance.
+
+The subsequent four-lane main integration at `a83bc24`, combined with the
+graded-obstruction checkpoint `635bf48`, passes 162 tests. The new proofs
+close two graded-weight regions but leave intermediate slopes and arbitrary
+singular shared maps open. See `../docs/integration_2026-10-20.md` for pins.
+
+The product/recoupling package entered main through PR #2 at `93f8f8a`.
+PR #1 adds the Koszul/scaling/source-obstruction package and reconciles the
+shared status and research-direction documents. Its combined local replay
+with that main revision passes 106 tests. Both historical archives are
+unchanged. Current package pointers:
+
+- `ai/2026-10-20-koszul/ACTIVE.md`: singular shared-map and intermediate-weight
+  questions; read the newly excluded constant-basis and graded regions first.
+- `ai/2026-10-20-mixed-restrictions/README.md`: collision-capacity questions.
+- `../docs/concurrent_research.md`: pinned results on the other active branches,
+  including which proofs were inspected or adopted.
+
+Do not delete a worker branch with unmerged commits. Fetch before starting
+new work or publishing an integration, and test the combined tree.
+
+## Product-filtration worker checkpoint retained from PR #2
 
 Goal: continue until a rigorously supported matrix multiplication exponent
 strictly below 9/4 is obtained. **ACTIVE / INCOMPLETE.** No such bound exists
