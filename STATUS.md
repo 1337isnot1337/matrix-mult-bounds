@@ -177,6 +177,18 @@ maps with diagonal weights. A Holder bound also excludes all-power
 coordinate extractions into independent matrix products at this diagonal
 (AI-COORDINATE-MATRIX-EXTRACTION-037). General linear cancellation remains open.
 
+The [finite-target screens](research/ai/2026-10-20-koszul/finite_target_screens.md)
+sharpen that distinction. An explicit binomial scaling gives uniform quantum
+marginals for every C(a,b), so all singleton quantum functionals permit H106
+(AI-QUANTUM-CONVOLUTION-SCREEN-038). An elementary entropy deficit excludes
+all-power coordinate-and-weight independent-matrix extraction also at a=5
+(AI-COORDINATE-ENTROPY-LOSS-039). Allowing arbitrary Laurent output maps while
+retaining coordinate inputs still bounds square targets from S_4 by n<=93
+(AI-LAURENT-OUTPUT-MATRIX-SCREEN-040); thus H106 needs input mixing.
+These are written, unreviewed proofs. Exact controls cover 256 marginal
+normalizations, 4877 rational convolution pairs and 43681 four-type bipartite
+component count pairs. No new degeneration or smaller exponent is established.
+
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published
 Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
