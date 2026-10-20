@@ -53,3 +53,9 @@ identifications of the shared block spaces. Exact coefficient matrices check
 
 The matrix-multiplication exponent remains unchanged. New constructions must
 pass these tests and still provide actual tensor identities.
+
+The [agent-board review](docs/agent_board_review.md) attributes four external
+research reports and records a checked correction: the published
+Massarenti-Raviolo exact-rank bound excludes the board's n=34 through 37 search
+window. At n=38 only rank 3585 survives the two lower bounds used here. This
+does not exclude or construct border-rank algorithms.
