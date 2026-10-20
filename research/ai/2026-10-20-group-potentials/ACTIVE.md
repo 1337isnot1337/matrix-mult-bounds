@@ -109,3 +109,25 @@ excludes this whole base family whenever two complementary four-spaces are
 F4-scalar invariant. Other cyclic/random bases returned untraced SAT UNSAT;
 those outcomes remain experiments. `verify_mean_reports.py` checks the two
 bijections and every integer circuit with no SAT/LP dependencies.
+
+## F8 checkpoint
+
+Read `octal_research.md` for the new source and normalization arguments.
+The exact local F8^2:C7 frontier has 6720 normalized pair cases, 126 local
+survivors, 3942 complementary direction triples and 342 normalized classes.
+Two global cases have untraced negative SAT outcomes; no qualifying witness.
+F8^3:C7 has an explicit pair-injective 56-point parent. Deleting eight per
+family produced 87 exactly replayed Farkas cuts, with no positive witness.
+The feasible 20000-row prefix was not a witness and was superseded by that
+full-constraint discovery. All 10752 symmetry-transformed copies of the
+smallest circuit verify exactly; their hole-hitting SAT run timed out.
+
+`test_group_streams.py` adds six passing local tests (integer backtracking
+against small brute force, field/group laws, sparse-circuit replay, full
+stream verification, actual group-operation normalization and frontier
+controls). The previous full suite had 49 passes; rerun the expanded full
+suite after the next checkpoint. No hosted CI pass is implied.
+
+Latest fetched other-worker tips: Koszul `8e0a766`, compatibility `0108d62`,
+product filtration `2c76b59`. The live leaderboard still shows 9/4. Continue
+construction work; the user's target remains unachieved.

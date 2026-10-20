@@ -112,3 +112,12 @@ two complementary base-plane sums. Two opposite strict mean inequalities
 give the contradiction. This written proof is unreviewed and has a narrower
 scope than arbitrary group-algebra degeneration. Another 2000 discovered
 direction assignments have exactly replayed mean certificates.
+
+The [F8 source campaign](research/ai/2026-10-20-group-potentials/octal_research.md)
+now has exact local packing frontiers and a streaming whole-support verifier.
+The F8^2:C7 frontier reduces 3942 local direction triples to 342 classes;
+global constructions remain unresolved. In F8^3:C7, 87 proposed deletions
+from an explicit pair-injective parent fail exactly replayed potential
+constraints. Another 10752 symmetry-transformed circuits verify exactly.
+The resulting hole-hitting search timed out. No target degeneration or
+exponent improvement follows from these source and obstruction certificates.

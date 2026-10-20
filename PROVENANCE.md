@@ -76,4 +76,12 @@ integer spectrum and scalar inequalities. No priority or independent review
 is claimed. Finite-field operations label a finite group; the target field
 remains C. Replayed failed candidates do not establish an improved bound.
 
+The F8 source/offset/deletion work is also local AI-derived research. Its
+normal subgroup orbit counts use the standard complex representation theory
+of a fixed-point-free semidirect product. The finite local frontiers, offset
+normalizations, streaming verifier and transformed Farkas certificates were
+derived and checked here. No external solver service or character table was
+used. All displayed smaller-exponent gates retain an unconstructed target
+premise. SAT timeouts and untraced UNSAT remain experiment outcomes.
+
 An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.
