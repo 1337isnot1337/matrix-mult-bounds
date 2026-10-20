@@ -1,0 +1,47 @@
+{
+  "status": "44 local regression tests passed; general proofs written and unreviewed",
+  "test_command": "python -m unittest discover -s tests -v",
+  "test_count": 44,
+  "test_log": "all_dimension_tests.txt",
+  "dedicated_tests": 5,
+  "dedicated_exact_matrix_degrees": 10,
+  "independent_interpolation_inverses_m": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "combinatorial_ordering_parameters": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ]
+  ],
+  "first_and_second_archives_unchanged_from": "e0d7ed5",
+  "new_exponent_established": false,
+  "source_degeneration_constructed": false,
+  "external_lean_rebuilt": false,
+  "limits": [
+    "The exponent consequence is conditional on the unconstructed H(rho) sequence.",
+    "The coordinate obstruction excludes general basis changes from its scope.",
+    "The full-space Koszul survival proof is not a complete degeneration criterion.",
+    "Hosted CI previously did not start due an account payment or spending-limit gate."
+  ]
+}

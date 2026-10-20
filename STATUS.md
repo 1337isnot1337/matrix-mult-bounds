@@ -76,3 +76,20 @@ Two further results sharpen the next construction target:
   character must have the stated homogeneous profile. The curvature criterion
   now applies to actual characters, but a uniform positive curvature gain remains
   unproved. No exponent improvement follows yet.
+
+The [all-dimension extension](research/ai/2026-10-20-koszul/all_dimension_targets.md)
+now provides explicit targets T_m of dimensions (m,N,N), N=m(m+1)/2,
+with border rank N and an all-size full-space Koszul survival proof. A source
+degeneration C(m,B_m) to repeated copies, at asymptotic overhead below
+9/(7*cuberoot(2))-1, would imply a smaller exponent. At zero overhead the
+proved **conditional** implication gives omega<=30000/13423. The source
+degenerations are unconstructed. Coordinate selection and diagonal weights
+require asymptotically 50 percent overhead, so that ansatz cannot meet the
+criterion. Exact replay covers 20,153 interpolation coefficients, 3,276
+shared-leg Koszul degrees, and 495 gap-formula cases; five dedicated tests pass.
+
+Concurrent results are indexed with pinned commits in
+[the collaboration review](docs/concurrent_research.md). They close the old
+fixed-label filtration question and supply additional constructions and
+obstructions, with their stated review and verification limits. They do not
+establish an exponent improvement.

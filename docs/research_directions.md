@@ -10,9 +10,13 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 
 ## R2: Decide compatibility with the product-filtration family
 
-Status: open beyond the completed grid. The three inequalities in Section 4 of the note survive all tested source lengths through 12.
+Status: settled by concurrent written proofs at `73b2d20` and `712c91a`; see
+[the pinned review](concurrent_research.md). The fixed-label families preserve
+P_* at every positive integer size. The stronger equivalence result includes
+the necessary zero-boundary concavity condition.
 
-Prove compatibility for all positive parameters or provide an exact counterexample. An exact counterexample excludes this profile only. To affect $\omega$, explain how the new constraint forces stronger growth for every actual character.
+The remaining task must use additional tensor information. Do not repeat the
+completed fixed-label compatibility search as a route to a smaller exponent.
 
 ## R3: Search outside identical single-source sectors
 
@@ -29,6 +33,13 @@ canonical target has a border-rank certificate, while the coordinate-weight
 source ansatz is excluded by B>=12k-1. Determine its degeneration status under
 general basis changes. Passing the rank screens is not a construction; a finite
 model refutation still needs a growth argument.
+
+The [all-dimension extension](../research/ai/2026-10-20-koszul/all_dimension_targets.md)
+supplies that growth argument for a specific unbounded sequence: realizing its
+targets with source overhead below 2.04721048 percent would force omega<9/4.
+No such sequence is constructed. The coordinate-weight ansatz has an all-size
+50 percent asymptotic overhead obstruction; investigate general bases or a
+different construction.
 
 Investigate unequal sectors, tensor-product sources, or explicit basis changes. State all source and target leg dimensions. Certify the resulting coefficient identities or degeneration weights exactly. Account for any auxiliary tensor rather than cancelling it without justification.
 

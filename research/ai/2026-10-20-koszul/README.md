@@ -14,6 +14,13 @@ The [research note](research_note.md), [analytic bridge](scaling_rigidity.md),
 [claim ledger](claims.json), and [verification record](../../../results/koszul-2026-10-20/verification.json)
 give the precise results and limitations. The exponent remains 9/4.
 
+The continuation adds [all-dimension mixed targets](all_dimension_targets.md):
+explicit border-rank certificates, survival of all full-space Koszul tests,
+an all-size coordinate-weight obstruction, and a quantitative implication
+from an **unconstructed** convolution degeneration. Less than 2.04721048 percent
+asymptotic source overhead would suffice. Zero overhead would conditionally
+give omega<=30000/13423, but no such source degeneration is established.
+
 ## Next mathematical question
 
 Continuation selected after fetching the other research branches on October 20:

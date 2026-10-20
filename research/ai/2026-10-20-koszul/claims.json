@@ -71,6 +71,27 @@
       "statement": "Massarenti-Raviolo Remark 3.3 excludes exact-rank schemes beating 9/4 at n=34..37; at n=38 only rank 3585 survives the two bounds used.",
       "evidence": "../../../docs/agent_board_review.md",
       "limitations": "External exact-rank premise; not a border-rank bound or an exhaustive literature frontier."
+    },
+    {
+      "id": "AI-ALL-DIMENSION-TARGETS-021",
+      "status": "proof-written-unreviewed-with-exact-certificates",
+      "statement": "For every m>=2 and k>=1, the canonical mixed target has border rank k*m*(m+1)/2 and passes every full-space Koszul test against C(m,k*m*(m+1)/2).",
+      "evidence": "all_dimension_targets.md, Sections 1-2; ../../../results/koszul-2026-10-20/all_dimension_targets.json",
+      "limitations": "No source degeneration or general projected/Young-flattening criterion is supplied."
+    },
+    {
+      "id": "AI-ALL-DIMENSION-MONOMIAL-022",
+      "status": "proof-written-unreviewed",
+      "statement": "The specified coordinate-weight ansatz requires B>=k*m*(m+1)/2+k*floor((m-1)^2/4)-floor((m-1)/2), asymptotically 50 percent overhead.",
+      "evidence": "all_dimension_targets.md, Section 3",
+      "limitations": "Arbitrary linear changes of basis and coordinate collisions are outside the ansatz."
+    },
+    {
+      "id": "AI-ALL-DIMENSION-CRITERION-023",
+      "status": "conditional-implication",
+      "statement": "An unbounded sequence of the specified convolution degenerations with asymptotic overhead below 9/(7*cuberoot(2))-1 implies omega<9/4; zero overhead implies omega<=30000/13423.",
+      "evidence": "all_dimension_targets.md, Section 4",
+      "limitations": "The source-degeneration premise H(rho) is unproved; no new exponent is established."
     }
   ]
 }
