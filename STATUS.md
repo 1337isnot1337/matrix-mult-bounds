@@ -118,6 +118,21 @@ No candidate has reached a full degeneration witness. Ten focused controls
 check the source, subgroup normalization, lift equations against exhaustive
 small sign choices, certificate tampering and the cyclic-eight fiber rule.
 
+## Selected direct-product group target
+
+The [SL(2,5) x C2 lane](research/ai/2026-10-20-sl2-five-c2/README.md)
+selects M(13,13,15). Exact rational central idempotents derive the first
+factor's degrees; the standard direct-product theorem repeats them twice.
+Integer root intervals give a conditional omega < 2247/1000 comparison, and
+the concurrent rank-locus screen requires 217<=240, so it does not exclude
+the target. **The target degeneration is unconstructed.**
+
+The adapter checks an order-48 subgroup and 60 center orbits, applies the
+central-pair exclusions and reuses the pinned integer acceptance verifier.
+Four exact controls pass, including an embedded positive weighted control
+and equality of the original complete SL(2,7) source certificate. A bounded
+target search is running; no outcome is inferred from a live checkpoint.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)
