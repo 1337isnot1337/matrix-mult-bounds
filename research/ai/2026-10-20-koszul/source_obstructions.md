@@ -104,7 +104,52 @@ the source rank in (4). Equation (6) is therefore **not** an obstruction to
 the full construction premise H(rho). No claim is made that a general
 degeneration can be reduced to the restricted form used here.
 
-## 3. Remaining scope
+## 3. Why a broad class of shared-factor flattenings cannot help
+
+The survival of shared Koszul tests has a more general explanation. Let
+L:X->Hom(U,V) be any linear map, let r=max_{x in X} rank L(x), and set
+
+\[
+M(z)=\sum_{i=0}^{m-1}z^iL(X_i).
+\]
+
+Suppose rank over C(z) of M(z) is r. Form a linear tensor flattening by
+applying L on X and grouping (U,Y) against (V,Z). Then, for every B>=1,
+
+\[
+\operatorname{rank}K_L(C(m,B))\ge Br. \tag{7}
+\]
+
+Indeed, the source map is multiplication by the polynomial matrix M(z), from
+U-valued polynomials of degree <B to V-valued polynomials of degree <B+m-1.
+Choose r columns independent over C(z). The map on polynomials supported on
+these columns is injective, giving a Br-dimensional subspace of the image.
+This elementary polynomial-matrix argument is a local rederivation, with no
+priority claim.
+
+Every rank-one tensor has K_L rank at most r. Consequently **every target of
+border rank at most B** has K_L rank at most Br. Such a target cannot violate
+this source flattening inequality. In particular this applies to T_{m,k}
+when B=kN.
+
+If L is GL(X)-equivariant between fixed representations, its rank is constant
+on all nonzero x, so the hypothesis holds automatically. This covers every
+linear equivariant Young/Pieri flattening of this form on the shared factor.
+It also covers every projected shared Koszul flattening: for a nonzero linear
+projection pi, the polynomial vector pi(1,z,...,z^(m-1)) is not identically
+zero, because the rational-normal-curve vectors span X. Wedge multiplication
+by that vector has the same rank as wedge multiplication by any nonzero
+vector in the projected space. No choice of that projection can exclude the
+border-rank-B target by this shared-factor rank test.
+
+The curve-rank hypothesis is essential. For the catalecticant map Delta_q,
+the vectors (1,z,...,z^(m-1)) map to rank-one matrices, while an arbitrary x
+can give rank greater than one. Section 2 exploits exactly this gap. It uses
+extra polynomial structure, which an arbitrary shared-factor basis change
+need not preserve. This result does not cover every nonlinear invariant or
+flattenings based on the other factors.
+
+## 4. Remaining scope
 
 A useful positive control is that C(2,3k) does degenerate to T_{2,k} for every
 k>=1. Order the source Y intervals with lengths (1,2) repeated k times. Give

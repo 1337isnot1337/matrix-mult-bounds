@@ -95,6 +95,10 @@ when X keeps its binary-form coefficient structure. General shared-factor
 changes remain open. Exact coefficient controls construct the m=2 all-k and
 m=3,k=1 cases; these fixed dimensions do not meet the growth criterion.
 Bounded real/complex orbit fits found no new certificate and are not exclusions.
+The polynomial-matrix argument in that note also shows why every projected
+shared Koszul test and every linear equivariant Young/Pieri test of its stated
+form must pass against this border-rank-B target. It does not cover all
+other-factor or nonlinear invariants.
 
 Concurrent results are indexed with pinned commits in
 [the collaboration review](docs/concurrent_research.md). They close the old

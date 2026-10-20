@@ -28,6 +28,8 @@ linear restrictions and shared-coefficient-preserving degenerations with
 arbitrary transformations on the other two factors. The unrestricted shared
 factor is the current unresolved construction variable. Fixed-dimension
 positive controls and bounded, unsuccessful numerical fits are retained.
+The shared-factor polynomial-matrix lemma rules out further progress from
+projected shared Koszul or linear equivariant Young/Pieri tests of that form.
 
 ## Next mathematical question
 

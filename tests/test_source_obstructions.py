@@ -21,6 +21,15 @@ def catalecticant(m, ysize, zsize, terms, q):
     return matrix
 
 
+def polynomial_matrix_flattening(coefficients, length):
+    rows, cols = coefficients[0].shape
+    result = sp.zeros(rows * (length + len(coefficients) - 1), cols * length)
+    for i, matrix in enumerate(coefficients):
+        for j in range(length):
+            result[(i + j) * rows:(i + j + 1) * rows, j * cols:(j + 1) * cols] += matrix
+    return result
+
+
 def monomial_control(m, k, lengths, weights):
     """Build the source map explicitly and check every surviving coefficient."""
     nodes, _, target = family.target(m)
@@ -95,6 +104,25 @@ class SourceObstructionTests(unittest.TestCase):
         for k in range(1, 5):
             self.assertEqual(monomial_control(2, k, [1, 2] * k, [0, 1] * k), 4 * k)
         self.assertEqual(monomial_control(3, 1, [2, 3, 1], [0, 1, 0]), 10)
+
+    def test_projected_shared_koszul_barrier(self):
+        projection = sp.Matrix([[1, 0, 1, 2], [0, 1, 1, -1], [1, 1, 0, 1]])
+        coefficients = []
+        for i in range(4):
+            a, b, c = projection[:, i]
+            coefficients.append(sp.Matrix([[0, -c, b], [c, 0, -a], [-b, a, 0]]))
+        matrix = polynomial_matrix_flattening(coefficients, 10)
+        self.assertGreaterEqual(matrix.rank(), 20)
+
+    def test_polynomial_curve_rank_hypothesis_is_essential(self):
+        length = 10
+        generic = [sp.eye(2), sp.Matrix([[0, 1], [0, 0]]),
+                   sp.Matrix([[0, 0], [1, 0]]), sp.zeros(2)]
+        self.assertEqual(polynomial_matrix_flattening(generic, length).rank(), 2 * length)
+        # M(z)=[[1,z],[z^2,z^3]] has rank one, although L(x) generically has rank two.
+        exceptional = [sp.Matrix([[1, 0], [0, 0]]), sp.Matrix([[0, 1], [0, 0]]),
+                       sp.Matrix([[0, 0], [1, 0]]), sp.Matrix([[0, 0], [0, 1]])]
+        self.assertEqual(polynomial_matrix_flattening(exceptional, length).rank(), length + 1)
 
 
 if __name__ == "__main__":

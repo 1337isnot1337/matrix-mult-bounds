@@ -112,8 +112,15 @@
       "id": "EXP-SOURCE-CONTROLS-026",
       "status": "exact-coefficient-controls-and-exploration",
       "statement": "Explicit coordinate degenerations prove the m=2 all-k and m=3,k=1 positive controls; 32 bounded real/complex m=4 fits produced no certificate.",
-      "evidence": "source_obstructions.md, Section 3; ../../../results/koszul-2026-10-20/orbit_probe_summary.json",
+      "evidence": "source_obstructions.md, Section 4; ../../../results/koszul-2026-10-20/orbit_probe_summary.json",
       "limitations": "Numerical failures are not orbit-closure exclusions; fixed-m controls do not meet H(rho)."
+    },
+    {
+      "id": "AI-SHARED-LINEAR-FLATTENING-BARRIER-027",
+      "status": "proof-written-unreviewed",
+      "statement": "If L(v(z)) has its global maximum rank r on the coefficient rational normal curve, the source C(m,B) flattening has rank at least Br; every border-rank-B target has rank at most Br. This includes all projected shared Koszul and linear equivariant shared Young/Pieri maps of the stated form.",
+      "evidence": "source_obstructions.md, Section 3",
+      "limitations": "Other-factor and nonlinear invariants are not exhausted; the curve-rank hypothesis is essential and fails for the structured catalecticant obstruction."
     }
   ]
 }

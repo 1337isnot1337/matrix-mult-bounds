@@ -94,8 +94,11 @@ For p>=B-m the source rank is (m+p) binom(B-1,p), at least
 B binom(B-1,p). The latter is an upper bound for the target by its border rank B.
 For the (B+m-1)-dimensional source output, the source has maximal Koszul rank
 in every degree by the output formula, again at least the padded target rank.
-These arguments cover all three full-space families. They do not cover every
-projected or Young flattening and do not prove degeneration existence.
+These arguments cover all three full-space families. A subsequent
+[polynomial-matrix argument](source_obstructions.md#3-why-a-broad-class-of-shared-factor-flattenings-cannot-help)
+also covers every projected shared Koszul map and every linear equivariant
+Young/Pieri map of the stated shared-factor form. Other-factor and nonlinear
+invariants are not exhausted; none of these survival results proves existence.
 
 ## 3. A general coordinate-weight obstruction
 
