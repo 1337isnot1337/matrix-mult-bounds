@@ -60,3 +60,18 @@ Other agents independently pushed a stronger fixed-label equivalence theorem
 at `73b2d20` and broader entropy-score bounds at `e6d33e7`.
 [The overlap record](research/ai/2026-10-20-affine-direct-sums/COORDINATION.md)
 separates their work from the distinct coefficient construction here.
+
+## Off-leading recoupling blocks and low-border-rank sources
+
+[Full Clebsch--Gordan coefficients and coverage](research/ai/2026-10-20-clebsch-gordan/README.md)
+now retain actual k>i+j blocks discarded by the old filtration. Exact axis
+and diagonal-factor certificates recognize convolution blocks. One interior
+five-dimensional transvectant contains C(3,3), improving its lower score from
+5 to 56/9. Completed binary/ternary outer-weight screens found no matching
+profile violation; their exact scopes and overlapping counts are recorded.
+
+[Truncated-polynomial algebra sources](research/ai/2026-10-20-truncated-algebras/README.md)
+have explicit border-rank certificates and permit a direct critical-parameter
+test against r^(4/3). Completed binary runs through r=7, including a stronger
+output-deletion score, found no violation. Work on algebra products and
+nonseparable weights remains active. See [the live queue](research/ACTIVE.md).
