@@ -94,6 +94,15 @@ class SourceObstructionTests(unittest.TestCase):
                 matrix[y, z] = sp.Rational(1, x + 1)
             self.assertEqual(matrix.rank(), (m + 1) ** 2 // 4)
 
+    def test_minimum_target_slice_rank(self):
+        for m in range(2, 9):
+            nodes, _, terms = family.target(m)
+            matrix = sp.zeros(len(nodes), len(nodes))
+            for x, y, z in terms:
+                if x == 0:
+                    matrix[y, z] = 1
+            self.assertEqual(matrix.rank(), m)
+
     def test_optimized_catalecticant_bound(self):
         for m in range(2, 101):
             for k in (1, 2, 7, 53):

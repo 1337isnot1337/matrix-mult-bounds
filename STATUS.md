@@ -100,6 +100,16 @@ shared Koszul test and every linear equivariant Young/Pieri test of its stated
 form must pass against this border-rank-B target. It does not cover all
 other-factor or nonlinear invariants.
 
+The concurrent minimum-slice argument strengthens the ordinary-restriction
+overhead to asymptotically 100 percent; it is adopted with attribution to
+`d2d505c`. A new [polynomial-basis audit](research/ai/2026-10-20-koszul/orthogonal_bases.md)
+excludes degree-ordered orthogonal coordinate degenerations at low overhead
+for all dimensions. Its exact Chebyshev permutation reduction additionally
+excludes nonidentity shared orders for m=4,...,38, for every k and admissible B.
+The latter is a finite enumeration, not an all-size theorem. Independent
+small enumerations and normalized small construction controls pass. General
+shared-factor transformations remain open.
+
 Concurrent results are indexed with pinned commits in
 [the collaboration review](docs/concurrent_research.md). They close the old
 fixed-label filtration question and supply additional constructions and

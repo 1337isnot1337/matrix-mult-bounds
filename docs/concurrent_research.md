@@ -26,3 +26,36 @@ small transvectant restrictions, and truncated-algebra source searches. Its
 reported finite runs found no matching-profile violation. We read the active
 queue and status; these new coefficient packages have not been replayed here.
 Our branch retains the source-construction and source-obstruction task.
+
+Additional source-pinned review on October 20:
+
+- [`d2d505c`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/d2d505c)
+  strengthens the canonical target's ordinary-restriction overhead from
+  asymptotically 50 percent to 100 percent, by using its minimum nonzero slice
+  rank km instead of the maximum. We read the proof and adopt it with exact
+  slice controls in `source_obstructions.md`. Its separate fixed-shared
+  homomorphism obstruction is weaker than our catalecticant bound, as that
+  branch explicitly records. Its finite Chebyshev search overlaps our basis
+  choice; our orthogonal-basis proof and center enumeration are distinct.
+  That branch's search tests were not replayed here.
+- [`f6f307c`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/f6f307c)
+  proves the two-sector inequality 2P(a,b)<=(a+2b-1)^(1/t). Combining this
+  with critical-profile rigidity gives the nonempty amplitude interval
+  1/Gamma(4/3)<=K<=(16/9)^(1/3). We read the explicit weights, all-size
+  matching-profile compatibility factorization and amplitude optimization;
+  this narrows a necessary interval without excluding a critical character.
+- [`75f453b`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/75f453b)
+  gives a projective rank-locus obstruction to general complex degenerations
+  from semisimple algebra tensors. We read the dimension and closed-incidence
+  proof. It excludes SL2(5) targets (9,9,12) and (9,10,11); only (10,10,10)
+  survives that branch's finite dimension/source-cost screen. This supersedes
+  the earlier list of three open shapes, without constructing the survivor.
+- [`4abb9e4`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/4abb9e4)
+  excludes injective triple sums of three four-point sets in F3^4, using
+  affine dimension and an explicit Fourier-moment inequality. We read the
+  argument, including its 1232>1088 contradiction. Its consequence concerns
+  coordinate-potential constructions with such an abelian subgroup, not all
+  tensor degenerations. The group search certificates were not replayed here.
+
+These are other workers' written, unreviewed results. Reading an argument and
+checking its displayed arithmetic is not independent formal verification.

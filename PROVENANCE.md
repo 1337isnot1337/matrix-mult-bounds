@@ -49,3 +49,10 @@ request to continue research and commit/push progress. It begins at `e0d7ed5`.
 Its formulas are local rederivations using standard Koszul flattenings and
 polynomial interpolation, with no historical priority or independent review
 claim. The original archives remain byte-for-byte preserved.
+
+The subsequent orthogonal-polynomial basis obstruction and exact Chebyshev
+center enumeration are local work in that same directory. The stronger
+ordinary-restriction bound is explicitly adopted from the concurrent scalar
+worker at `d2d505c`, not credited as a new result of this branch. Further
+concurrent amplitude and group obstructions are attributed with commit pins
+and inspection limits in `docs/concurrent_research.md`.

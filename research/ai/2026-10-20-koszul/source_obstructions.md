@@ -4,12 +4,12 @@ October 20, 2026. Written proofs, unreviewed. These restrict construction
 methods; they do not exclude all polynomial degenerations or improve omega.
 Use T_{m,k} and N=m(m+1)/2 from [the target note](all_dimension_targets.md).
 
-## 1. Arbitrary linear restrictions need about 50 percent overhead
+## 1. Arbitrary linear restrictions need about 100 percent overhead
 
 If an ordinary linear restriction C(m,B) >= T_{m,k} exists, then
 
 \[
-\boxed{B\ge kN+k\lfloor m^2/4\rfloor-m+1.} \tag{1}
+\boxed{B\ge 2kN-km-m+1=km^2-m+1.} \tag{1}
 \]
 
 No basis restriction is imposed in this statement. Contract C(m,B) by any
@@ -25,7 +25,19 @@ at most B+m-1-kN. Thus every nonzero target slice has rank at least
 2kN-B-m+1. \tag{2}
 \]
 
-The maximum slice rank of T_{m,k} is
+Contracting X_0 in the target leaves exactly one entry in each sector, hence
+has rank km. Comparing this particular slice with (2) proves (1). In fact
+km is the minimum nonzero slice rank: every nonzero shared covector gives a
+nonzero matrix in every sector, and these matrices have disjoint rows and
+columns. The overhead in (1) tends to 100 percent uniformly for k>=1.
+
+This strengthening is adopted from the concurrent scalar worker's
+[`d2d505c`](https://github.com/1337isnot1337/matrix-mult-bounds/commit/d2d505c),
+`exact_restriction_barrier.md`. That worker also permits a larger first
+source dimension A and obtains B>=2kN-km-A+1 by the same argument. The
+earlier version of this section used the maximum target slice, giving the
+weaker asymptotic 50-percent bound. The maximum-rank calculation remains
+useful for noncanonical shared identifications:
 
 \[
 k\sum_{u=1}^m\min(u,m+1-u)
@@ -35,8 +47,8 @@ k\sum_{u=1}^m\min(u,m+1-u)
 Every block is bounded by its smaller dimension. Equality holds simultaneously:
 take X_i=1/(i+1), making each block a rectangular Hilbert matrix with a
 nonsingular leading square minor. Comparing (2)-(3), and using
-N-floor((m+1)^2/4)=floor(m^2/4), proves (1).
-The overhead in (1) tends to 50 percent uniformly for k>=1 as m grows.
+N-floor((m+1)^2/4)=floor(m^2/4), gives the earlier weaker bound
+B>=kN+k floor(m^2/4)-m+1.
 In particular, general linear restrictions cannot meet the construction
 criterion. This argument does not extend to degenerations by replacing
 restriction matrices with their limits: those matrices may become singular,

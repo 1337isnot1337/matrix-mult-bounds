@@ -14,7 +14,8 @@ stronger limiting-slope estimate is adopted from concurrent commit `cf79709`.
 
 Completed exclusions in `source_obstructions.md`:
 
-- Ordinary linear restrictions require asymptotically 50 percent overhead.
+- Ordinary linear restrictions require asymptotically 100 percent overhead,
+  after adopting the concurrent minimum-slice strengthening at `d2d505c`.
 - Polynomial Y/Z changes preserving the shared binary-form coefficient
   structure require the same asymptotic overhead.
 - Projected shared Koszul and linear equivariant shared Young/Pieri maps
@@ -35,7 +36,21 @@ nonzero hyperdeterminant; they do not classify our degenerate padded target.
 No new obstruction is inferred from those theorems. Investigate the boundary
 carefully before importing a classification result.
 
+The Chebyshev experiment is complete at its stated scope. See
+`orthogonal_bases.md`: the degree-ordered orthogonal class has an all-size
+obstruction, and a necessary permutation/center enumeration is exhaustive for
+m=4,...,38. The m=39 discovery timed out. Independent small enumeration and
+exact coefficient-normalized m=2,3 controls pass. Do not rerun unchanged
+searches as progress. General shared linear combinations remain outside it.
+
+Selected next question: does a singular shared-factor transformation preserve
+a nontrivial limiting rational-normal-curve incidence condition on the source?
+Ordinary structured flattenings can become vacuous when their own coefficient
+maps degenerate. Any proposed nonlinear test must control that loss explicitly,
+or yield an actual source construction. Merely importing a nondegenerate
+Schwarzenberger classification does not answer this boundary question.
+
 Other agents own full/off-leading Clebsch--Gordan and truncated-algebra source
-searches (`b7cfb60`) and the SL2(5) potential search (`dcfc1ef`). The scalar
+searches (`f6f307c`) and the group-potential search (`f7aa680`). The scalar
 agent's all-degree target/threshold work overlaps ours; retain attribution
 and avoid counting the common formulas twice. See `docs/concurrent_research.md`.

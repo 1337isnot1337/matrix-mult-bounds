@@ -97,9 +97,10 @@
     {
       "id": "AI-LINEAR-SOURCE-OBSTRUCTION-024",
       "status": "proof-written-unreviewed",
-      "statement": "Any ordinary linear restriction C(m,B) to T_(m,k) requires B>=k*N+k*floor(m^2/4)-m+1, with N=m(m+1)/2.",
+      "statement": "Any ordinary linear restriction C(m,B) to the canonical T_(m,k) requires B>=k*m*m-m+1, asymptotically 100 percent overhead.",
       "evidence": "source_obstructions.md, Section 1",
-      "limitations": "The rank argument does not extend to arbitrary polynomial degenerations."
+      "limitations": "The rank argument does not extend to arbitrary polynomial degenerations.",
+      "attribution": "Strengthened using the minimum-slice argument of concurrent commit d2d505c; the previous maximum-slice bound gave 50 percent overhead."
     },
     {
       "id": "AI-FIXED-SHARED-OBSTRUCTION-025",
@@ -121,6 +122,20 @@
       "statement": "If L(v(z)) has its global maximum rank r on the coefficient rational normal curve, the source C(m,B) flattening has rank at least Br; every border-rank-B target has rank at most Br. This includes all projected shared Koszul and linear equivariant shared Young/Pieri maps of the stated form.",
       "evidence": "source_obstructions.md, Section 3",
       "limitations": "Other-factor and nonlinear invariants are not exhausted; the curve-rank hypothesis is essential and fails for the structured catalecticant obstruction."
+    },
+    {
+      "id": "AI-ORTHOGONAL-BASIS-OBSTRUCTION-028",
+      "status": "proof-written-unreviewed",
+      "statement": "For degree-ordered shared coordinates, coordinate selection/rescaling/diagonal-weight degenerations in any degree-graded orthogonal polynomial basis require asymptotically at least 50 percent overhead for the canonical all-degree target.",
+      "evidence": "orthogonal_bases.md, Sections 1-3",
+      "limitations": "Arbitrary shared permutations and general linear combinations are outside this all-size statement."
+    },
+    {
+      "id": "EXP-CHEBYSHEV-CENTERS-029",
+      "status": "finite-exact-enumeration-with-written-reduction",
+      "statement": "For every m=4,...,38, each nonidentity shared Chebyshev ordering with degree zero first admits at most one center for a C(2,m-1) block. The written reduction excludes that coordinate construction of T_(m,k) at low overhead for all k and admissible B at these m.",
+      "evidence": "orthogonal_bases.md, Sections 4-5; ../../../results/koszul-2026-10-20/chebyshev_centers.json",
+      "limitations": "Not an all-size center-uniqueness theorem. Discovery at m=39 timed out. Reduction and code remain subject to independent review. Small normalized controls are not exponent improvements."
     }
   ]
 }
