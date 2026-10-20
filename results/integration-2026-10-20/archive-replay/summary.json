@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "platform": "Linux-7.2.10-arch1-1-x86_64-with-glibc2.44",
+  "archive_files_verified": 10,
+  "runs": [
+    {
+      "report": "profile_checks.json",
+      "total_exact_grid_checks": 73856,
+      "exact_payload_matches_archive": true,
+      "elapsed_seconds": 0.5995194880001691
+    },
+    {
+      "report": "product_filtration_checks.json",
+      "exact_inequalities_checked": 353664,
+      "exact_payload_matches_archive": true,
+      "elapsed_seconds": 4.8437770499999715
+    },
+    {
+      "report": "binary_search.json",
+      "cases_tested": 12976,
+      "exact_payload_matches_archive": true,
+      "elapsed_seconds": 0.9055376199999046
+    },
+    {
+      "report": "ternary_search.json",
+      "cases_tested": 209692,
+      "exact_payload_matches_archive": true,
+      "elapsed_seconds": 16.78883910500008
+    },
+    {
+      "report": "random_search.json",
+      "cases_tested": 20000,
+      "exact_payload_matches_archive": true,
+      "elapsed_seconds": 2.389750455000012
+    }
+  ],
+  "limits": "Finite reproduction only. No independent proof review or Lean build.",
+  "elapsed_seconds": 26.453538154999933,
+  "total_weight_candidates": 242668
+}

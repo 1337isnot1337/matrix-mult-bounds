@@ -1,0 +1,53 @@
+{
+  "group": "C37:C3",
+  "affine_parameters": [
+    37,
+    3
+  ],
+  "shape": [
+    8,
+    9,
+    12
+  ],
+  "seed": 20261023,
+  "encoding": {
+    "variables": 9049,
+    "clauses": 36691,
+    "inverse_classes": 55,
+    "commuting_trade_cuts": 667,
+    "coset_normalization": {
+      "subgroup_order": 37,
+      "index": 3,
+      "identity_fiber_lower": [
+        3,
+        3,
+        4
+      ],
+      "all_fibers_upper": [
+        3,
+        3,
+        4
+      ],
+      "first_set_translation_one_anchor": 1,
+      "identity_fiber_is_maximum": true,
+      "cyclic_maximum_tuple_normalization": false,
+      "justification": "independent right translations, normal-translation coset ceiling bound, and simultaneous translation-coordinate scaling"
+    },
+    "independent_right_translations": "identity fixed in all sets"
+  },
+  "seconds_limit": 180.0,
+  "models_limit": 5000,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "cuts": [],
+  "status": "solver-reported-unsatisfiable; no proof trace exported",
+  "witness": null,
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 5.240381889001583,
+  "sat_statistics": {
+    "restarts": 168,
+    "conflicts": 49998,
+    "decisions": 79733,
+    "propagations": 13771471
+  }
+}

@@ -1,0 +1,20 @@
+test_actual_flattening_character_scaling (test_homogeneous.HomogeneousControls.test_actual_flattening_character_scaling) ... ok
+test_conditional_exponent_example (test_homogeneous.HomogeneousControls.test_conditional_exponent_example) ... ok
+test_critical_shape_and_diagonal_join (test_homogeneous.HomogeneousControls.test_critical_shape_and_diagonal_join) ... FAIL
+test_flattening_character_curvature_bound (test_homogeneous.HomogeneousControls.test_flattening_character_curvature_bound) ... ok
+
+======================================================================
+FAIL: test_critical_shape_and_diagonal_join (test_homogeneous.HomogeneousControls.test_critical_shape_and_diagonal_join)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/cinna/matrix-mult-filtration-20261020/tests/test_homogeneous.py", line 34, in test_critical_shape_and_diagonal_join
+    self.assertEqual(sp.factor(sp.diff(below, r, 2)),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     2*(r-1)/(9*r**sp.Rational(5, 3)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2*(r - 1)/(9*r**(5/3)) != (2*r - 2)/(9*r**(5/3))
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.425s
+
+FAILED (failures=1)

@@ -5,6 +5,11 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+The subsequent four-lane main integration at `a83bc24`, combined with the
+graded-obstruction checkpoint `635bf48`, passes 162 tests. The new proofs
+close two graded-weight regions but leave intermediate slopes and arbitrary
+singular shared maps open. See `../docs/integration_2026-10-20.md` for pins.
+
 The product/recoupling package entered main through PR #2 at `93f8f8a`.
 PR #1 adds the Koszul/scaling/source-obstruction package and reconciles the
 shared status and research-direction documents. Its combined local replay

@@ -45,3 +45,69 @@ The Python tests do not validate the full shared-leg theorem, the external spect
 ## Regression tests and continuous integration
 
 The regression suite covers archive integrity, independent profile formulas, selected support invariants, exact recorded scores, and ledger consistency. The workflow runs those tests and the full replay. Its runtime status is separate from the local run recorded here.
+
+## Product-filtration proof-chain checks
+
+The maintained verifier checks the endpoint product bound, both Jensen bounds,
+and domination of every label fiber, using exact rational arithmetic. Its six
+regressions also check the necessary zero boundary, other normalized concave
+profiles, and the elementary dot-product restriction in coefficients.
+
+```sh
+python research/ai/2026-10-20-concavity-equivalence/verify.py \
+  --output results/concavity-equivalence-2026-10-20/verification.json
+python -m unittest discover -s tests -p test_filtration.py -v
+```
+
+The recorded run uses Python 3.14.8. It covers 1,296 grid sources, 11,808
+filtration inequalities and 5,184 intermediate bounds, plus six stress sources
+with 4,860 inequalities. The [written proof](../research/ai/2026-10-20-concavity-equivalence/research_note.md)
+establishes the all-size result; enumeration is not a replacement for its
+argument. No independent review or Lean build is recorded.
+
+The complete suite passed all 40 tests in the existing project virtual
+environment (Python 3.14.8, SymPy 1.14.0). The five archived experiments also
+replayed successfully and all ten manifest hashes matched before and after.
+Receipts are under `results/concavity-equivalence-2026-10-20/`. The first system-Python
+attempt failed because SymPy was absent; its test log is retained separately.
+That dependency failure was resolved by using the existing virtual environment.
+
+The follow-up analytic note has four exact symbolic/rational controls for an
+actual flattening character, the critical shape, and the conditional fraction.
+The initial control run compared two identical SymPy expressions structurally
+and failed; the test now simplifies their difference before comparing to zero.
+Both the initial failure and corrected result are retained. Those controls do
+not prove the analytic limit, endpoint rigidity, or the uniform gain premise.
+
+After the follow-up and path reconciliation, the full suite passed 44 tests
+in the same virtual environment. The archived programs were not edited after
+their successful replay; no redundant second full archive replay was run.
+
+The all-degree fat-point follow-up adds three controls, bringing the passing
+suite to 47 tests. Fifteen independent coefficient matrices (`a=1,...,5`,
+every exterior degree) agree with the target rank formula. A symbolic integral
+checks the lower envelope, and integer powers certify the conditional root
+bound. These tests supply no convolution-source degeneration.
+
+The following checkpoint passes 55 tests. It adds independent exact
+homomorphism-kernel counts and two explicit graded coefficient controls,
+including deliberate coefficient rejection. Numerical discovery scripts
+additionally check their analytic Jacobian against finite differences; their
+residuals are not used for mathematical acceptance.
+
+The SL(2,7) source checkpoint passes 59 tests under the owned worktree's
+virtual environment (Python 3.14.8, SymPy 1.14.0). Its three new controls derive
+the complex block dimensions, check exact integer root intervals including
+boundary cases, and reject a deliberately excessive source cost. The graded
+verifier also rejects floating entries. The recorded transcript is
+`results/sl2-seven-2026-10-20/tests.txt`.
+
+```sh
+.venv/bin/python research/ai/2026-10-20-sl2-seven/source_certificate.py \
+  --output results/sl2-seven-2026-10-20/source-certificate.json
+```
+
+The source calculation uses exact SymPy arithmetic. Search discovery additionally
+uses NumPy, SciPy and python-sat 1.9.dev17; accepted group potentials are checked
+by the pinned integer-only verifier. No SAT timeout, floating fit, or source
+cost certificate supplies the missing target degeneration.

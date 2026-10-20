@@ -1,0 +1,127 @@
+{
+  "new_exponent_established": false,
+  "seed": 20261020,
+  "max_sum": 11,
+  "requested_samples": 10000,
+  "completed_counts": {
+    "binary": 8440,
+    "distance_to_cuts": 5000,
+    "random": 5000
+  },
+  "best": {
+    "source": [
+      2,
+      5
+    ],
+    "x_weights": [
+      0,
+      1
+    ],
+    "y_weights": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "y_coordinate_labels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "z_weights": {
+      "1": -1,
+      "2": 0,
+      "3": 0,
+      "4": -1,
+      "0": -2,
+      "5": -2
+    },
+    "blocks": [
+      {
+        "kind": "convolution",
+        "a": 2,
+        "b": 2,
+        "output_axis": 2,
+        "reversals": [
+          false,
+          true,
+          true
+        ],
+        "dimensions": [
+          2,
+          2,
+          3
+        ],
+        "terms": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ],
+        "value_exact": "10/3"
+      },
+      {
+        "kind": "convolution",
+        "a": 2,
+        "b": 2,
+        "output_axis": 2,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          2,
+          3
+        ],
+        "terms": [
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ],
+        "value_exact": "10/3"
+      }
+    ],
+    "source_exact": "22/3",
+    "target_exact": "20/3",
+    "ratio_exact": "10/11",
+    "profile_violation": false
+  },
+  "witness": null,
+  "scope": "Exact rational scoring after an explicit Chebyshev basis change. Unrecognized blocks use a valid F2 slice-rank lower bound. Finite profile exclusion would require a separate all-scale implication."
+}

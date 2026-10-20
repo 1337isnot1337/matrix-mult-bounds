@@ -1,0 +1,74 @@
+test_corrected_window (test_board_thresholds.ThresholdTests.test_corrected_window) ... ok
+test_report_replay (test_board_thresholds.ThresholdTests.test_report_replay) ... ok
+test_strict_power_boundary (test_board_thresholds.ThresholdTests.test_strict_power_boundary) ... ok
+test_boundary_hypothesis_is_needed (test_filtration.FiltrationTests.test_boundary_hypothesis_is_needed) ... ok
+test_converse_recovers_boundary_and_interior (test_filtration.FiltrationTests.test_converse_recovers_boundary_and_interior) ... ok
+test_elementary_restriction_coefficients (test_filtration.FiltrationTests.test_elementary_restriction_coefficients) ... ok
+test_other_profiles_use_same_proof_chain (test_filtration.FiltrationTests.test_other_profiles_use_same_proof_chain) ... ok
+test_profile_against_independent_closed_product (test_filtration.FiltrationTests.test_profile_against_independent_closed_product) ... ok
+test_zero_boundary_and_concavity (test_filtration.FiltrationTests.test_zero_boundary_and_concavity) ... ok
+test_koszul (unittest.loader._FailedTest.test_koszul) ... ERROR
+test_closed_product_matches_recurrence (test_research.ProfileTests.test_closed_product_matches_recurrence) ... ok
+test_concavity_identity (test_research.ProfileTests.test_concavity_identity) ... ok
+test_conditional_numeric_example (test_research.ProfileTests.test_conditional_numeric_example) ... ok
+test_diagonal_join (test_research.ProfileTests.test_diagonal_join) ... ok
+test_exact_rank_bound (test_research.ProfileTests.test_exact_rank_bound) ... ok
+test_normalization (test_research.ProfileTests.test_normalization) ... ok
+test_replication (test_research.ProfileTests.test_replication) ... ok
+test_tripling_equality_above_diagonal (test_research.ProfileTests.test_tripling_equality_above_diagonal) ... ok
+test_archive_manifest (test_research.RepositoryTests.test_archive_manifest) ... ok
+test_claim_ledger_status (test_research.RepositoryTests.test_claim_ledger_status) ... ok
+test_normalization_retains_exact_evidence (test_research.RepositoryTests.test_normalization_retains_exact_evidence) ... ok
+test_relative_markdown_links (test_research.RepositoryTests.test_relative_markdown_links) ... ok
+test_replayed_coverage (test_research.RepositoryTests.test_replayed_coverage) ... ok
+test_source_registry (test_research.RepositoryTests.test_source_registry) ... ok
+test_full_convolution_recognition (test_research.SupportTests.test_full_convolution_recognition) ... ok
+test_nonnegative_weights_and_exact_zero_support (test_research.SupportTests.test_nonnegative_weights_and_exact_zero_support) ... ok
+test_nonshared_legs_are_disjoint (test_research.SupportTests.test_nonshared_legs_are_disjoint) ... ok
+test_recorded_witness_scores_are_exact (test_research.SupportTests.test_recorded_witness_scores_are_exact) ... ok
+test_session2_checkpoint (unittest.loader._FailedTest.test_session2_checkpoint) ... ERROR
+
+======================================================================
+ERROR: test_koszul (unittest.loader._FailedTest.test_koszul)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_koszul
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.14/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/home/cinna/matrix-mult-filtration-20261020/tests/test_koszul.py", line 19, in <module>
+    tensor = load("archived_tensor_checks", ROOT / "research/ai/2026-10-20-session2/tensor_checks.py")
+  File "/home/cinna/matrix-mult-filtration-20261020/tests/test_koszul.py", line 14, in load
+    spec.loader.exec_module(module)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/cinna/matrix-mult-filtration-20261020/research/ai/2026-10-20-session2/tensor_checks.py", line 11, in <module>
+    import sympy as sp
+ModuleNotFoundError: No module named 'sympy'
+
+
+======================================================================
+ERROR: test_session2_checkpoint (unittest.loader._FailedTest.test_session2_checkpoint)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_session2_checkpoint
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.14/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/home/cinna/matrix-mult-filtration-20261020/tests/test_session2_checkpoint.py", line 22, in <module>
+    tensor = load("tensor_checks")
+  File "/home/cinna/matrix-mult-filtration-20261020/tests/test_session2_checkpoint.py", line 17, in load
+    spec.loader.exec_module(module)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/cinna/matrix-mult-filtration-20261020/research/ai/2026-10-20-session2/tensor_checks.py", line 11, in <module>
+    import sympy as sp
+ModuleNotFoundError: No module named 'sympy'
+
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.395s
+
+FAILED (errors=2)

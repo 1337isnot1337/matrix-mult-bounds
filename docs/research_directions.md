@@ -10,17 +10,21 @@ Deliver a proof review tied to a commit, a corrected proof, or a counterexample.
 
 ## R2: Decide compatibility with the product-filtration family
 
-Status: resolved by written, unreviewed all-size proofs at `73b2d20` and
-`712c91a`; see [the pinned review](concurrent_research.md) and the
-[local concavity proof](../research/ai/2026-10-20-affine-direct-sums/research_note.md).
-Every fixed-i, fixed-j and fixed-k family preserves P_* for all positive
-integer parameters. The stronger equivalence result includes the necessary
-zero-boundary concavity condition. The archived finite grid is unchanged.
+Status: settled for the three stated two-source, fixed-label families by
+[AI-FILTRATION-007](../research/ai/2026-10-20-concavity-equivalence/research_note.md).
+They are equivalent to separate concavity including the zero boundary for
+positive, symmetric, edge-normalized profiles. The matching profile satisfies
+them at all positive integer sizes. Actual character profiles already have
+the boundary from the elementary `P(a,b)<=ab` restriction.
 
-The proof does not cover full direct sums with distinct labels on all three
-legs. Such extractions and oriented character constraints remain candidates
-for R3/R5. The next task must use additional tensor information; extending
-the completed fixed-label grid cannot produce a smaller exponent.
+Further work must retain information absent from these families, for example
+extracting several label fibers together. A new constraint must force stronger
+growth for every relevant character before it can affect $\omega$.
+
+The concurrent proof at `712c91a` supplies another compatibility argument;
+see [the pinned comparison](concurrent_research.md) and its
+[local proof](../research/ai/2026-10-20-affine-direct-sums/research_note.md).
+Extending the completed fixed-label grid cannot produce a smaller exponent.
 
 ## R3: Search outside identical single-source sectors
 
@@ -53,11 +57,17 @@ The initial monomial search omits arbitrary basis changes and uses weak estimate
 
 Status: open. The target $P(a,4a-1)\ge(3+\eta)P(a,a)$ with a character-independent $\eta>0$ is sufficient for improvement. It is not necessary, and it is not proved.
 
-The [completed analytic bridge](../research/ai/2026-10-20-koszul/scaling_rigidity.md)
-now establishes the endpoint profile and the curvature implication for actual
-characters without assuming continuous differentiability. A positive curvature
-bound uniform over characters with t>=t0 for some t0<3/4 would suffice; proving
-that bound remains the task.
+The [completed scaling and rigidity argument](../research/ai/2026-10-20-concavity-equivalence/homogeneous_rigidity.md)
+now supplies the earlier curvature draft's analytic bridge from replication,
+rank and concavity. No differentiability assumption is needed. An endpoint
+character must have limiting shape
+`K min(x,y)^(1/3)(max(x,y)+min(x,y)/2)` for some `K>0`.
+Find a new asymptotic tensor constraint excluding every such amplitude, or
+prove a positive normalized curvature gain. Neither is currently proved.
+
+The [actual-character bridge](../research/ai/2026-10-20-koszul/scaling_rigidity.md)
+supplies an overlapping proof with the external rescaling theorem.
+
 
 A proposed solution must state its quantifiers and scale propagation. A single-size gain, a larger prefactor, or a character-dependent gain tending to zero does not establish the displayed uniform conclusion.
 
@@ -75,7 +85,33 @@ Status: open. Replace floating best-case ordering in a maintained search copy wi
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
 
+## R7: Whole-filtration entropy beyond the balanced obstruction
+
+Owned on `research/full-filtration-entropy-20261020`. The [new note](../research/ai/2026-10-20-full-filtration/research_note.md)
+defines the optimistic full-support entropy score and proves an all-size
+`39/40` upper bound for balanced sources. Exact certificates cover every
+distribution at every unequal-source tuple through size 12.
+
+The next precise question is whether its explicit upper bound `U(a,b,c,d)`
+never exceeds `P_*(a,b)P_*(c,d)` for arbitrary positive lengths, or even has the
+same `39/40` factor when all four lengths exceed one. This is a conjecture,
+not an all-size consequence of the grid. A weighted block-extraction theorem
+also requires its own proof; the scalar subrank formula is insufficient by itself.
+
 ## Work selection
+
+The active fat-point construction question is quantified in the
+[all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
+It requires a genuine convolution-source degeneration at cost below
+`9/(7*2^(1/3))`; no such construction is supplied. New linear bases and
+matrix-space degenerations are open. The finite rank screens do not decide it.
+The [finite-group construction campaign](../research/ai/2026-10-20-group-potentials/README.md)
+is owned on `research/full-filtration-entropy-20261020`. Rank-locus dimensions
+exclude two previously reported SL(2,5) targets under general degeneration;
+only (10,10,10) survives the finite degree-sum/rank-locus frontier. Constructing
+that degeneration would give a smaller exponent, but no witness exists here.
+Affine-group searches use exact abelian-coset and normal-table constraints.
+Avoid repeating the earlier unnormalized searches without a new reason.
 
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 

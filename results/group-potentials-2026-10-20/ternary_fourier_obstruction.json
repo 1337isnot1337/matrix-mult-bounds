@@ -1,0 +1,544 @@
+{
+  "ambient_group": "C3^4",
+  "target_set_sizes": [
+    4,
+    4,
+    4
+  ],
+  "nontrivial_spectrum": {
+    "1": 36,
+    "4": 18,
+    "7": 24,
+    "16": 2
+  },
+  "nontrivial_character_count": 80,
+  "spectrum_sum": 308,
+  "spectrum_values_above_one_count": 44,
+  "unique_sum_parseval_required": 1088,
+  "elementary_lower_bound": 1232,
+  "stronger_scalar_weights": {
+    "1": -26,
+    "4": 37,
+    "7": 73,
+    "16": 100
+  },
+  "stronger_lower_bound": 1682,
+  "scalar_inequalities": [
+    {
+      "values": [
+        1,
+        1,
+        1
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        1,
+        1,
+        4
+      ],
+      "threefold_margin": 27
+    },
+    {
+      "values": [
+        1,
+        1,
+        7
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        1,
+        16
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        4,
+        1
+      ],
+      "threefold_margin": 27
+    },
+    {
+      "values": [
+        1,
+        4,
+        4
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        4,
+        7
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        4,
+        16
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        1,
+        7,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        7,
+        4
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        7,
+        7
+      ],
+      "threefold_margin": 27
+    },
+    {
+      "values": [
+        1,
+        7,
+        16
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        1,
+        16,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        1,
+        16,
+        4
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        1,
+        16,
+        7
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        1,
+        16,
+        16
+      ],
+      "threefold_margin": 594
+    },
+    {
+      "values": [
+        4,
+        1,
+        1
+      ],
+      "threefold_margin": 27
+    },
+    {
+      "values": [
+        4,
+        1,
+        4
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        4,
+        1,
+        7
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        4,
+        1,
+        16
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        4,
+        4,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        4,
+        4,
+        4
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        4,
+        4,
+        7
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        4,
+        4,
+        16
+      ],
+      "threefold_margin": 594
+    },
+    {
+      "values": [
+        4,
+        7,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        4,
+        7,
+        4
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        4,
+        7,
+        7
+      ],
+      "threefold_margin": 405
+    },
+    {
+      "values": [
+        4,
+        7,
+        16
+      ],
+      "threefold_margin": 1134
+    },
+    {
+      "values": [
+        4,
+        16,
+        1
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        4,
+        16,
+        4
+      ],
+      "threefold_margin": 594
+    },
+    {
+      "values": [
+        4,
+        16,
+        7
+      ],
+      "threefold_margin": 1134
+    },
+    {
+      "values": [
+        4,
+        16,
+        16
+      ],
+      "threefold_margin": 2835
+    },
+    {
+      "values": [
+        7,
+        1,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        7,
+        1,
+        4
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        7,
+        1,
+        7
+      ],
+      "threefold_margin": 27
+    },
+    {
+      "values": [
+        7,
+        1,
+        16
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        7,
+        4,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        7,
+        4,
+        4
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        7,
+        4,
+        7
+      ],
+      "threefold_margin": 405
+    },
+    {
+      "values": [
+        7,
+        4,
+        16
+      ],
+      "threefold_margin": 1134
+    },
+    {
+      "values": [
+        7,
+        7,
+        1
+      ],
+      "threefold_margin": 27
+    },
+    {
+      "values": [
+        7,
+        7,
+        4
+      ],
+      "threefold_margin": 405
+    },
+    {
+      "values": [
+        7,
+        7,
+        7
+      ],
+      "threefold_margin": 810
+    },
+    {
+      "values": [
+        7,
+        7,
+        16
+      ],
+      "threefold_margin": 2106
+    },
+    {
+      "values": [
+        7,
+        16,
+        1
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        7,
+        16,
+        4
+      ],
+      "threefold_margin": 1134
+    },
+    {
+      "values": [
+        7,
+        16,
+        7
+      ],
+      "threefold_margin": 2106
+    },
+    {
+      "values": [
+        7,
+        16,
+        16
+      ],
+      "threefold_margin": 5103
+    },
+    {
+      "values": [
+        16,
+        1,
+        1
+      ],
+      "threefold_margin": 0
+    },
+    {
+      "values": [
+        16,
+        1,
+        4
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        16,
+        1,
+        7
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        16,
+        1,
+        16
+      ],
+      "threefold_margin": 594
+    },
+    {
+      "values": [
+        16,
+        4,
+        1
+      ],
+      "threefold_margin": 81
+    },
+    {
+      "values": [
+        16,
+        4,
+        4
+      ],
+      "threefold_margin": 594
+    },
+    {
+      "values": [
+        16,
+        4,
+        7
+      ],
+      "threefold_margin": 1134
+    },
+    {
+      "values": [
+        16,
+        4,
+        16
+      ],
+      "threefold_margin": 2835
+    },
+    {
+      "values": [
+        16,
+        7,
+        1
+      ],
+      "threefold_margin": 189
+    },
+    {
+      "values": [
+        16,
+        7,
+        4
+      ],
+      "threefold_margin": 1134
+    },
+    {
+      "values": [
+        16,
+        7,
+        7
+      ],
+      "threefold_margin": 2106
+    },
+    {
+      "values": [
+        16,
+        7,
+        16
+      ],
+      "threefold_margin": 5103
+    },
+    {
+      "values": [
+        16,
+        16,
+        1
+      ],
+      "threefold_margin": 594
+    },
+    {
+      "values": [
+        16,
+        16,
+        4
+      ],
+      "threefold_margin": 2835
+    },
+    {
+      "values": [
+        16,
+        16,
+        7
+      ],
+      "threefold_margin": 5103
+    },
+    {
+      "values": [
+        16,
+        16,
+        16
+      ],
+      "threefold_margin": 11988
+    }
+  ],
+  "conclusion": "No three four-element subsets have an injective sum map.",
+  "proof_status": "written-unreviewed; all-set reduction in companion proof",
+  "scope": "An abelian-subgroup obstruction to coordinate-potential group constructions; not an obstruction to arbitrary degeneration.",
+  "improves_omega": false
+}

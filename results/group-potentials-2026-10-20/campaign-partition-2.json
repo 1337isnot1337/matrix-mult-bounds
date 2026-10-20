@@ -1,0 +1,138 @@
+{
+  "partition": 2,
+  "partitions": 3,
+  "frontier_sha256": "f6a6d7d71a41a9dc0b13cf03a996743c85c1662d452fed68f01b7f119cfd29f7",
+  "seconds_per_case": 25.0,
+  "max_cases": 12,
+  "source_frontier_count": 58,
+  "skipped_already_attempted_cases": 2,
+  "assigned_cases": 19,
+  "completed": [
+    {
+      "path": "affine-37-3-shape8-8-12-campaign2.json",
+      "group": "C37:C3",
+      "shape": [
+        8,
+        8,
+        12
+      ],
+      "status": "solver-reported-unsatisfiable; no proof trace exported",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-37-3-shape9-9-11-campaign2.json",
+      "group": "C37:C3",
+      "shape": [
+        9,
+        9,
+        11
+      ],
+      "status": "solver-reported-unsatisfiable; no proof trace exported",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-29-4-shape9-10-10-campaign2.json",
+      "group": "C29:C4",
+      "shape": [
+        9,
+        10,
+        10
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-37-4-shape10-10-13-campaign2.json",
+      "group": "C37:C4",
+      "shape": [
+        10,
+        10,
+        13
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-37-4-shape11-11-12-campaign2.json",
+      "group": "C37:C4",
+      "shape": [
+        11,
+        11,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-4-shape10-12-12-campaign2.json",
+      "group": "C41:C4",
+      "shape": [
+        10,
+        12,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-4-shape11-12-12-campaign2.json",
+      "group": "C41:C4",
+      "shape": [
+        11,
+        12,
+        12
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-31-6-shape12-12-14-campaign2.json",
+      "group": "C31:C6",
+      "shape": [
+        12,
+        12,
+        14
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-5-shape11-11-17-campaign2.json",
+      "group": "C41:C5",
+      "shape": [
+        11,
+        11,
+        17
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    },
+    {
+      "path": "affine-41-5-shape13-13-13-campaign2.json",
+      "group": "C41:C5",
+      "shape": [
+        13,
+        13,
+        13
+      ],
+      "status": "time-limit",
+      "pair_injective_models": 0,
+      "exact_farkas_cuts": 0
+    }
+  ],
+  "status": "batch interrupted during one cooperative-budget SAT call; no witness",
+  "scope": "Discovery scheduling only. No skipped, timed-out or untraced UNSAT case is promoted to a nonexistence theorem.",
+  "interrupted_case": {
+    "path": "affine-53-4-shape12-12-14-campaign2.json",
+    "reason": "CaDiCaL conflict budget substantially overran requested wall time; process interrupted. Last saved report does not certify completion."
+  }
+}
