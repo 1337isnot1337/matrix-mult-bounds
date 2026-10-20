@@ -1,0 +1,247 @@
+{
+  "target_slice_cases": [
+    {
+      "m": 2,
+      "minimum_slice_rank": 2,
+      "maximum_slice_rank": 2
+    },
+    {
+      "m": 3,
+      "minimum_slice_rank": 3,
+      "maximum_slice_rank": 4
+    },
+    {
+      "m": 4,
+      "minimum_slice_rank": 4,
+      "maximum_slice_rank": 6
+    },
+    {
+      "m": 5,
+      "minimum_slice_rank": 5,
+      "maximum_slice_rank": 9
+    },
+    {
+      "m": 6,
+      "minimum_slice_rank": 6,
+      "maximum_slice_rank": 12
+    },
+    {
+      "m": 7,
+      "minimum_slice_rank": 7,
+      "maximum_slice_rank": 16
+    },
+    {
+      "m": 8,
+      "minimum_slice_rank": 8,
+      "maximum_slice_rank": 20
+    }
+  ],
+  "large_formula_cases": [
+    {
+      "m": 2,
+      "k": 1,
+      "N": 3,
+      "canonical_B_lower": 3,
+      "canonical_overhead_lower": "1",
+      "independent_identifications_B_lower": 3,
+      "independent_overhead_lower": "1",
+      "per_factor_gorenstein_cover_minimum_length": 4
+    },
+    {
+      "m": 2,
+      "k": 3,
+      "N": 3,
+      "canonical_B_lower": 11,
+      "canonical_overhead_lower": "11/9",
+      "independent_identifications_B_lower": 11,
+      "independent_overhead_lower": "11/9",
+      "per_factor_gorenstein_cover_minimum_length": 4
+    },
+    {
+      "m": 3,
+      "k": 1,
+      "N": 6,
+      "canonical_B_lower": 7,
+      "canonical_overhead_lower": "7/6",
+      "independent_identifications_B_lower": 6,
+      "independent_overhead_lower": "1",
+      "per_factor_gorenstein_cover_minimum_length": 9
+    },
+    {
+      "m": 3,
+      "k": 3,
+      "N": 6,
+      "canonical_B_lower": 25,
+      "canonical_overhead_lower": "25/18",
+      "independent_identifications_B_lower": 22,
+      "independent_overhead_lower": "11/9",
+      "per_factor_gorenstein_cover_minimum_length": 9
+    },
+    {
+      "m": 4,
+      "k": 1,
+      "N": 10,
+      "canonical_B_lower": 13,
+      "canonical_overhead_lower": "13/10",
+      "independent_identifications_B_lower": 11,
+      "independent_overhead_lower": "11/10",
+      "per_factor_gorenstein_cover_minimum_length": 16
+    },
+    {
+      "m": 4,
+      "k": 3,
+      "N": 10,
+      "canonical_B_lower": 45,
+      "canonical_overhead_lower": "3/2",
+      "independent_identifications_B_lower": 39,
+      "independent_overhead_lower": "13/10",
+      "per_factor_gorenstein_cover_minimum_length": 16
+    },
+    {
+      "m": 8,
+      "k": 1,
+      "N": 36,
+      "canonical_B_lower": 57,
+      "canonical_overhead_lower": "19/12",
+      "independent_identifications_B_lower": 45,
+      "independent_overhead_lower": "5/4",
+      "per_factor_gorenstein_cover_minimum_length": 64
+    },
+    {
+      "m": 8,
+      "k": 3,
+      "N": 36,
+      "canonical_B_lower": 185,
+      "canonical_overhead_lower": "185/108",
+      "independent_identifications_B_lower": 149,
+      "independent_overhead_lower": "149/108",
+      "per_factor_gorenstein_cover_minimum_length": 64
+    },
+    {
+      "m": 16,
+      "k": 1,
+      "N": 136,
+      "canonical_B_lower": 241,
+      "canonical_overhead_lower": "241/136",
+      "independent_identifications_B_lower": 185,
+      "independent_overhead_lower": "185/136",
+      "per_factor_gorenstein_cover_minimum_length": 256
+    },
+    {
+      "m": 16,
+      "k": 3,
+      "N": 136,
+      "canonical_B_lower": 753,
+      "canonical_overhead_lower": "251/136",
+      "independent_identifications_B_lower": 585,
+      "independent_overhead_lower": "195/136",
+      "per_factor_gorenstein_cover_minimum_length": 256
+    },
+    {
+      "m": 32,
+      "k": 1,
+      "N": 528,
+      "canonical_B_lower": 993,
+      "canonical_overhead_lower": "331/176",
+      "independent_identifications_B_lower": 753,
+      "independent_overhead_lower": "251/176",
+      "per_factor_gorenstein_cover_minimum_length": 1024
+    },
+    {
+      "m": 32,
+      "k": 3,
+      "N": 528,
+      "canonical_B_lower": 3041,
+      "canonical_overhead_lower": "3041/1584",
+      "independent_identifications_B_lower": 2321,
+      "independent_overhead_lower": "211/144",
+      "per_factor_gorenstein_cover_minimum_length": 1024
+    },
+    {
+      "m": 53,
+      "k": 1,
+      "N": 1431,
+      "canonical_B_lower": 2757,
+      "canonical_overhead_lower": "919/477",
+      "independent_identifications_B_lower": 2081,
+      "independent_overhead_lower": "2081/1431",
+      "per_factor_gorenstein_cover_minimum_length": 2809
+    },
+    {
+      "m": 53,
+      "k": 3,
+      "N": 1431,
+      "canonical_B_lower": 8375,
+      "canonical_overhead_lower": "8375/4293",
+      "independent_identifications_B_lower": 6347,
+      "independent_overhead_lower": "6347/4293",
+      "per_factor_gorenstein_cover_minimum_length": 2809
+    },
+    {
+      "m": 64,
+      "k": 1,
+      "N": 2080,
+      "canonical_B_lower": 4033,
+      "canonical_overhead_lower": "4033/2080",
+      "independent_identifications_B_lower": 3041,
+      "independent_overhead_lower": "3041/2080",
+      "per_factor_gorenstein_cover_minimum_length": 4096
+    },
+    {
+      "m": 64,
+      "k": 3,
+      "N": 2080,
+      "canonical_B_lower": 12225,
+      "canonical_overhead_lower": "815/416",
+      "independent_identifications_B_lower": 9249,
+      "independent_overhead_lower": "3083/2080",
+      "per_factor_gorenstein_cover_minimum_length": 4096
+    },
+    {
+      "m": 128,
+      "k": 1,
+      "N": 8256,
+      "canonical_B_lower": 16257,
+      "canonical_overhead_lower": "5419/2752",
+      "independent_identifications_B_lower": 12225,
+      "independent_overhead_lower": "4075/2752",
+      "per_factor_gorenstein_cover_minimum_length": 16384
+    },
+    {
+      "m": 128,
+      "k": 3,
+      "N": 8256,
+      "canonical_B_lower": 49025,
+      "canonical_overhead_lower": "49025/24768",
+      "independent_identifications_B_lower": 36929,
+      "independent_overhead_lower": "36929/24768",
+      "per_factor_gorenstein_cover_minimum_length": 16384
+    },
+    {
+      "m": 512,
+      "k": 1,
+      "N": 131328,
+      "canonical_B_lower": 261633,
+      "canonical_overhead_lower": "87211/43776",
+      "independent_identifications_B_lower": 196353,
+      "independent_overhead_lower": "21817/14592",
+      "per_factor_gorenstein_cover_minimum_length": 262144
+    },
+    {
+      "m": 512,
+      "k": 3,
+      "N": 131328,
+      "canonical_B_lower": 785921,
+      "canonical_overhead_lower": "785921/393984",
+      "independent_identifications_B_lower": 590081,
+      "independent_overhead_lower": "590081/393984",
+      "per_factor_gorenstein_cover_minimum_length": 262144
+    }
+  ],
+  "ordinary_restriction_limiting_overhead": {
+    "canonical": 2,
+    "independent": "3/2"
+  },
+  "does_not_exclude": "Arbitrary Laurent-parameter tensor degenerations",
+  "new_exponent_established": false
+}

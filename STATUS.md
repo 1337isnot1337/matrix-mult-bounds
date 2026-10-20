@@ -87,3 +87,13 @@ cubed score at most 27/32, so a larger grid cannot exclude it.
 strengthen all 101 recoupling blocks in six sources. This uses the external
 scalar theorem, without assuming a weighted block-transfer theorem. Added
 outer-coordinate restrictions improve a finite score but do not violate P_*.
+
+## Exact mixed-target collision experiments
+
+The [new mixed-target package](research/ai/2026-10-20-mixed-restrictions/README.md)
+allows arbitrary shared-coordinate permutations and output-coordinate sums.
+Independent integer coefficient replay verifies the saved m=2,3 controls and
+a C(4,11) to T_4 degeneration. Z3 reports UNSAT for m=4,B=10 in this larger
+finite ansatz; m=5,B=15 timed out. No unbounded construction or smaller
+exponent is proved. The local restriction and equivariant-flattening notes
+independently overlap concurrent results, which are explicitly credited.
