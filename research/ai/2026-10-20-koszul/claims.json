@@ -160,6 +160,13 @@
       "statement": "For constant P,Q,G followed by the specified monomial degree weights, alpha>(m-1)*abs(beta) has the catalecticant cost obstruction; 0<alpha<=beta requires B>=k*(2N-floor(m^2/4)-1)-(m-1).",
       "evidence": "arbitrary_shared_basis.md, Sections 6-7; tests/test_rotated_catalecticants.py",
       "limitations": "Intermediate slopes and arbitrary parameter-dependent shared maps remain open. Ten retained floating runs are diagnostics in the now-excluded dominant-degree class, not certificates."
+    },
+    {
+      "id": "AI-INTERMEDIATE-WEIGHT-COVERS-033",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Exact slice covers give asymptotic source ratio at least 2-r/2 when alpha/beta tends to r in [1,2]. The balanced (2,1) direction requires B>=k*(N+floor(m/2))-(m-1), excluding m=4,B=10k for k>=2.",
+      "evidence": "intermediate_weights.md; ../../../results/koszul-2026-10-20/weight_slice_covers.json; tests/test_weight_slice_covers.py",
+      "limitations": "Constant P,Q,G followed by the specified weights only. The single-copy balanced m=4 case, its growing-m analogue, larger intermediate slopes and general Laurent maps are not excluded. No exponent improvement is established."
     }
   ]
 }
