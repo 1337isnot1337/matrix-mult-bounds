@@ -76,8 +76,10 @@ Current queue:
 3. If this ansatz is also obstructed, move to general Laurent shared maps or
    a different source-wide mechanism. Do not repeat unchanged closed grids.
 
-Latest local extension validation: 179 tests pass in
-results/mixed-restrictions-2026-10-20/tests-laurent-extension.txt.
+Latest local extension validation: 184 combined tests pass after integrating
+main daeae6e, with its intermediate-weight covers. The report is
+results/mixed-restrictions-2026-10-20/tests-laurent-after-daeae6e.txt.
+The earlier standalone extension checkpoint passed 179 tests.
 Latest merged validation: 174 combined tests after integrating 424dd92;
 the earlier standalone capacity checkpoint passed 73 tests and the full
 five-part archive replay
