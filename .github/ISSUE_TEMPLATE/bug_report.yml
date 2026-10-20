@@ -1,0 +1,35 @@
+name: Bug or reproduction failure
+description: Report a script error, failed check, or mismatch with a recorded result.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a security vulnerability, read [SECURITY.md](https://github.com/1337isnot1337/matrix-mult-bounds/blob/main/SECURITY.md) before posting details.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What failed?
+      description: Identify the script, test, or recorded result.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact commands, inputs, and parameters needed to reproduce the failure.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: Include the relevant error output. Remove credentials and private data.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Commit and environment
+      description: Include the commit SHA, operating system, Python version, and dependency versions.
+    validations:
+      required: true
