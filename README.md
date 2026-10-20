@@ -1,5 +1,7 @@
 # Matrix multiplication bounds
 
+[![Verification](https://github.com/1337isnot1337/matrix-mult-bounds/actions/workflows/verify.yml/badge.svg?branch=main)](https://github.com/1337isnot1337/matrix-mult-bounds/actions/workflows/verify.yml)
+
 A research workspace for the arithmetic exponent of matrix multiplication. The goal is a rigorously supported improvement below $\omega\le9/4$.
 
 **This repository does not establish a smaller exponent.** Its initial contribution is an AI-derived analysis of a scalar relaxation, with exact finite experiments. The written proofs have no independent review or local Lean formalization.
@@ -42,13 +44,17 @@ The profile satisfies the stated scalar constraints at $t=3/4$. This is a barrie
 
 ## Reproduce the initial experiments
 
-Use Python 3.10 or later. The recorded local run used Python 3.13.5 and SymPy 1.14.0.
+Use Python 3.10 or later in a virtual environment. CI runs the regression suite on Python 3.10 and 3.14. It replays the historical experiments on Python 3.13. The original recorded run used Python 3.13.5 and SymPy 1.14.0.
 
 ```sh
-python -m pip install -r research/ai/2026-10-20/requirements.txt
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python tools/replay.py
 ```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead. The root `requirements.txt` records maintained dependencies. Historical dependency files remain part of the archives.
 
 The replay uses temporary copies and leaves the archived files unchanged. It requires no network after dependency installation. Do not use Python's `-O` option: the archived verifier uses assertions.
 
@@ -66,6 +72,10 @@ The scalar program also verifies four symbolic identities. The filtration run co
 
 ## Contribute
 
+Anyone can contribute through an issue or pull request, including contributors who use AI agents. Changes to `main` go through pull requests.
+
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before changing a claim. Each contribution must identify its external dependencies, precise quantifiers, proof status, and reproducible evidence. Preserve failed searches with their actual scope.
+
+The [verification workflow](.github/workflows/verify.yml) reports one aggregate `CI` check. It passes only after every test job and the archive replay succeed. [Repository settings](docs/repository-settings.md) define the corresponding merge policy and its administrative setup.
 
 No license for this repository is selected at initialization. Linked publications and external code retain their own licenses. See [PROVENANCE.md](PROVENANCE.md).

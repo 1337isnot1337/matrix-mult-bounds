@@ -9,6 +9,7 @@ import group_exact
 import search as upstream
 from pysat.card import CardEnc, EncType
 from central_involution import forced_center_pair_exclusions
+from subgroup_normalization import octahedral_certificate, verify_certificate
 
 
 def borel_certificate(G):
@@ -63,11 +64,16 @@ def main():
     parser.add_argument('--seconds', type=float, default=600)
     parser.add_argument('--seed', type=int, default=20261320)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--normalization', choices=['borel', 'octahedral'], default='borel')
     args = parser.parse_args()
     G = group_exact.group(7)
-    cert = borel_certificate(G)
+    cert = (borel_certificate(G) if args.normalization == 'borel'
+            else octahedral_certificate(G))
+    if args.normalization == 'octahedral' and not verify_certificate(G, cert):
+        raise ArithmeticError('subgroup normalization certificate failed')
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.with_name('borel-certificate.json').write_text(json.dumps(cert, indent=2)+'\n')
+    args.output.with_name(args.normalization+'-certificate.json').write_text(
+        json.dumps(cert, indent=2)+'\n')
     original_build = upstream.build_solver
 
     def build(group, shape, seed, engine):
@@ -75,13 +81,15 @@ def main():
         top = metadata['variables']
         for f, size in enumerate(shape):
             card = CardEnc.atleast([members[f][g] for g in cert['members']],
-                (size+7)//8, top_id=top, encoding=EncType.seqcounter)
+                (size+cert['index']-1)//cert['index'], top_id=top, encoding=EncType.seqcounter)
             solver.append_formula(card.clauses)
             top = card.nv
         solver.add_clause([members[0][g] for g in cert['anchors']])
-        metadata['variables_after_borel'] = top
-        metadata['SL2_7_borel_lower'] = [(size+7)//8 for size in shape]
-        metadata['SL2_7_anchor_count'] = len(cert['anchors'])
+        metadata['variables_after_subgroup'] = top
+        metadata['SL2_7_subgroup_normalization'] = {
+            'type': args.normalization, 'order': cert['order'], 'index': cert['index'],
+            'identity_fiber_lower': [(size+cert['index']-1)//cert['index'] for size in shape],
+            'anchors': cert['anchors']}
         exclusions = forced_center_pair_exclusions(group, shape)
         for item in exclusions:
             f = item['set']

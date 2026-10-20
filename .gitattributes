@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Preserve archived research and exact reports without line-ending conversion.
+research/ai/** -text
+results/** -text
+*.gz -text
