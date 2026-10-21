@@ -15,12 +15,13 @@ annihilator. The complete bilinear tensor vanishes on these spaces.
 Two coordinate mixed pencils attain dimensions14 and6. Initial exact
 normal equations leave16 directions, including the four common-plane
 motions. Full first-jet and off-diagonal second-jet equations have a
-144-dimensional solution space, with16 normal directions. The last
-numbers are a discovery checkpoint; reproducible certificates and the
-remaining top-block quadratic equations are not yet packaged here.
+144-dimensional solution space, with16 normal directions. These dimension
+counts are discovery information, not a claimed complete classification
+in this package. The retained sixteen independent normal directions now
+have a complete polynomial two-jet certificate: every linear and quadratic
+combination lifts, with explicit second maps and regular first-row corrections.
 
-Next: solve those quadratic compatibility equations, export complete
-second jets when they exist, and test third-order growth. A formal jet
+Next: solve the third-order equations and test further growth. A formal jet
 or a low truncated residual is not a matrix-target construction. This
 branch does not duplicate the other worker's boundary-spanning family
 or external preprint audit.

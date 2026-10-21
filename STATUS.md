@@ -860,6 +860,18 @@ d8de82f already gives the stronger conditions W2=W0 and rank sum at most
 24 (at most20 with mixed directions); the rank-four certificate is retained
 as auxiliary structure, with no claim to improve that target frontier.
 
+## Exact mixed second-order family
+
+[EXP-MIXED-TWOJET-FAMILY-079](research/ai/2026-10-21-mixed-first-jets/family.md)
+constructs sixteen independent leading-row directions with first-extension
+quotient ranks14 and6. Explicit maps and regular first-row corrections
+solve every coefficient equation through order two for every combination
+of the parameters. The separate constructor and full coefficient verifier
+retain all136 quadratic monomials. The active output formats are18 and10;
+later growth and a matrix target remain unconstructed. An exact nonzero
+third coefficient is retained as an order-boundary check. This finite
+polynomial certificate does not improve the exponent.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
