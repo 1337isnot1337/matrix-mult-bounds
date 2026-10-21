@@ -517,6 +517,18 @@ Bini border bridge and the ordinary simultaneous group-algebra statement
 in Cohn--Kleinberg--Szegedy--Umans (2005), Theorem5.5. Local packets do not
 supply the missing joint degeneration or an exponent improvement.
 
+The subsequent semisimple slice-span and determinant-factor arguments are
+locally written, unreviewed work. The column argument concerns ordinary
+restrictions. The separate Cauchy--Binet and projective-factor argument
+extends its numerical inequality to square-block border targets with
+nonzero generic slice determinant; it does not use closedness of reduced
+rank-locus spans. These are elementary derivations without a historical
+priority claim. The mixed Laurent packet uses a cyclic-permutation
+symmetry of the existing local parent tensor and an exact inverse with
+denominator2. Complete coefficient sums verify the map, including all
+negative-power cancellation. It constructs no larger or simultaneous
+target and changes no exponent claim.
+
 The full-space semisimple continuation imports the existing matrix Koszul
 formulas and proves the padding/direct-sum rank expression used in its
 finite frontiers. It does not claim a new general matrix-rank formula.

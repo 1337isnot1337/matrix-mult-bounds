@@ -1,0 +1,544 @@
+{
+  "smaller_trade": {
+    "source_degrees": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "target_blocks": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        3
+      ],
+      [
+        4,
+        4,
+        4
+      ],
+      [
+        9,
+        9,
+        9
+      ],
+      [
+        9,
+        9,
+        9
+      ]
+    ],
+    "ordinary_span_screen": {
+      "legs": [
+        {
+          "leg": 0,
+          "source_dimension": 196,
+          "target_dimension": 191,
+          "codimension": 5,
+          "dimension_exclusion": false,
+          "rank_budgets": [
+            {
+              "slice_rank_budget": 0,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 2,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 4,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 3,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 13,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 4,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 29,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 7,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 29,
+              "excludes_ordinary_restriction": true
+            },
+            {
+              "slice_rank_budget": 9,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 191,
+              "excludes_ordinary_restriction": false
+            }
+          ]
+        },
+        {
+          "leg": 1,
+          "source_dimension": 196,
+          "target_dimension": 191,
+          "codimension": 5,
+          "dimension_exclusion": false,
+          "rank_budgets": [
+            {
+              "slice_rank_budget": 0,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 2,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 4,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 3,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 13,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 4,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 29,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 7,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 29,
+              "excludes_ordinary_restriction": true
+            },
+            {
+              "slice_rank_budget": 9,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 191,
+              "excludes_ordinary_restriction": false
+            }
+          ]
+        },
+        {
+          "leg": 2,
+          "source_dimension": 196,
+          "target_dimension": 191,
+          "codimension": 5,
+          "dimension_exclusion": false,
+          "rank_budgets": [
+            {
+              "slice_rank_budget": 0,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 2,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 4,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 3,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 13,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 4,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 29,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 7,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 29,
+              "excludes_ordinary_restriction": true
+            },
+            {
+              "slice_rank_budget": 9,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 191,
+              "excludes_ordinary_restriction": false
+            }
+          ]
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "general_border_degeneration_excluded": false
+    },
+    "border_factor_screen": {
+      "applicable": true,
+      "source_determinant_factors": [
+        {
+          "degree": 7,
+          "forced_exponent": 2
+        },
+        {
+          "degree": 7,
+          "forced_exponent": 2
+        },
+        {
+          "degree": 7,
+          "forced_exponent": 2
+        },
+        {
+          "degree": 7,
+          "forced_exponent": 2
+        }
+      ],
+      "degree_budget_certificate": {
+        "legs": [
+          {
+            "leg": 0,
+            "source_dimension": 196,
+            "target_dimension": 191,
+            "codimension": 5,
+            "dimension_exclusion": false,
+            "rank_budgets": [
+              {
+                "slice_rank_budget": 0,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 0,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 2,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 4,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 3,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 13,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 4,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 29,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 7,
+                "source_low_rank_span_lower": 56,
+                "target_low_rank_span_dimension": 29,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "slice_rank_budget": 9,
+                "source_low_rank_span_lower": 56,
+                "target_low_rank_span_dimension": 191,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          },
+          {
+            "leg": 1,
+            "source_dimension": 196,
+            "target_dimension": 191,
+            "codimension": 5,
+            "dimension_exclusion": false,
+            "rank_budgets": [
+              {
+                "slice_rank_budget": 0,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 0,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 2,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 4,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 3,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 13,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 4,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 29,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 7,
+                "source_low_rank_span_lower": 56,
+                "target_low_rank_span_dimension": 29,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "slice_rank_budget": 9,
+                "source_low_rank_span_lower": 56,
+                "target_low_rank_span_dimension": 191,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          },
+          {
+            "leg": 2,
+            "source_dimension": 196,
+            "target_dimension": 191,
+            "codimension": 5,
+            "dimension_exclusion": false,
+            "rank_budgets": [
+              {
+                "slice_rank_budget": 0,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 0,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 2,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 4,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 3,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 13,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 4,
+                "source_low_rank_span_lower": 0,
+                "target_low_rank_span_dimension": 29,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "slice_rank_budget": 7,
+                "source_low_rank_span_lower": 56,
+                "target_low_rank_span_dimension": 29,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "slice_rank_budget": 9,
+                "source_low_rank_span_lower": 56,
+                "target_low_rank_span_dimension": 191,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          }
+        ],
+        "ordinary_restriction_excluded": true,
+        "general_border_degeneration_excluded": false
+      },
+      "general_border_degeneration_excluded": true,
+      "proof": "Cauchy--Binet minor divisibility and projectively closed homogeneous factorization."
+    },
+    "other_necessary_tests": {
+      "full_Koszul_powers": 99,
+      "Koszul_exclusions": [],
+      "rank_locus_budgets": 197,
+      "maximum_rank_locus_excess": 0,
+      "leg_coverage": "The block multiset is cyclically invariant; exterior duality covers remaining powers."
+    },
+    "conditional_gate": {
+      "tau": "56/25",
+      "scale": 10000000000,
+      "source_upper_terms": [
+        781663098106,
+        781663098106,
+        781663098106,
+        781663098106
+      ],
+      "target_lower_terms": [
+        47239706457,
+        117152513440,
+        223158986616,
+        1372471140531,
+        1372471140531
+      ],
+      "strict_margin_numerator": 5841095151,
+      "derivative_lower_bound_on_2_to_9_fourths": "11/1458"
+    }
+  },
+  "larger_packet_target": {
+    "source_degrees": [
+      1,
+      7,
+      7,
+      7,
+      7,
+      8,
+      9,
+      9,
+      9
+    ],
+    "target_blocks": [
+      [
+        8,
+        9,
+        9
+      ],
+      [
+        9,
+        8,
+        9
+      ],
+      [
+        9,
+        9,
+        8
+      ],
+      [
+        8,
+        9,
+        9
+      ],
+      [
+        9,
+        8,
+        9
+      ],
+      [
+        9,
+        9,
+        8
+      ],
+      [
+        7,
+        7,
+        7
+      ]
+    ],
+    "ordinary_span_screen": {
+      "legs": [
+        {
+          "leg": 0,
+          "source_dimension": 504,
+          "target_dimension": 499,
+          "codimension": 5,
+          "dimension_exclusion": false,
+          "rank_budgets": [
+            {
+              "slice_rank_budget": 0,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 1,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 7,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 49,
+              "excludes_ordinary_restriction": true
+            },
+            {
+              "slice_rank_budget": 8,
+              "source_low_rank_span_lower": 80,
+              "target_low_rank_span_dimension": 211,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 9,
+              "source_low_rank_span_lower": 188,
+              "target_low_rank_span_dimension": 499,
+              "excludes_ordinary_restriction": false
+            }
+          ]
+        },
+        {
+          "leg": 1,
+          "source_dimension": 504,
+          "target_dimension": 499,
+          "codimension": 5,
+          "dimension_exclusion": false,
+          "rank_budgets": [
+            {
+              "slice_rank_budget": 0,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 1,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 7,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 49,
+              "excludes_ordinary_restriction": true
+            },
+            {
+              "slice_rank_budget": 8,
+              "source_low_rank_span_lower": 80,
+              "target_low_rank_span_dimension": 211,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 9,
+              "source_low_rank_span_lower": 188,
+              "target_low_rank_span_dimension": 499,
+              "excludes_ordinary_restriction": false
+            }
+          ]
+        },
+        {
+          "leg": 2,
+          "source_dimension": 504,
+          "target_dimension": 499,
+          "codimension": 5,
+          "dimension_exclusion": false,
+          "rank_budgets": [
+            {
+              "slice_rank_budget": 0,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 1,
+              "source_low_rank_span_lower": 0,
+              "target_low_rank_span_dimension": 0,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 7,
+              "source_low_rank_span_lower": 56,
+              "target_low_rank_span_dimension": 49,
+              "excludes_ordinary_restriction": true
+            },
+            {
+              "slice_rank_budget": 8,
+              "source_low_rank_span_lower": 80,
+              "target_low_rank_span_dimension": 211,
+              "excludes_ordinary_restriction": false
+            },
+            {
+              "slice_rank_budget": 9,
+              "source_low_rank_span_lower": 188,
+              "target_low_rank_span_dimension": 499,
+              "excludes_ordinary_restriction": false
+            }
+          ]
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "general_border_degeneration_excluded": false
+    }
+  },
+  "proof_status": "written, unreviewed; ordinary rectangular screen and closed square determinant-factor screen",
+  "missing_premise": "The smaller square trade is excluded even for border maps. No general singular degeneration to the larger rectangular target has been constructed.",
+  "improves_omega": false
+}

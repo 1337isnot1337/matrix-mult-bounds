@@ -1,5 +1,19 @@
 # Research status
 
+## Closed determinant factors for square semisimple targets
+
+The [low-rank span proof](research/ai/2026-10-21-semisimple-low-slices/proof.md)
+excludes arbitrary ordinary restrictions to the conditional499-dimensional
+rectangular packet target. A separate determinant-factor proof persists
+under singular limits for square-block targets. It excludes
+4*M7 ->2*M9+M4+M3+M2, although every full Koszul and rank-locus dimension
+test passes. The rectangular packet target has zero generic slice
+determinant and remains outside that border obstruction. An exact
+[mixed local map](research/ai/2026-10-21-semisimple-low-slices/mixed_packet.md)
+has complete Laurent coefficient cancellation; it is equivalent to one
+earlier punctured packet and supplies no joint assembly. Claims024-026
+are written and unreviewed. No smaller exponent is established.
+
 ## SL(2,F8) local packets and a conditional joint target
 
 The [torus packet proof](research/ai/2026-10-21-sl2-f8-ideals/torus_note.md)
