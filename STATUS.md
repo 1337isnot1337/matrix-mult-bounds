@@ -1065,6 +1065,19 @@ concurrent third-boundary proof at `1068ce9`, Section 5, independently
 proves a broader target-side third-rank ceiling; that overlap is credited
 in the pencil note.
 
+## Simultaneous mixed first projections
+
+[AI-BOTH-MIXED-FIRST-SPACES-082](research/ai/2026-10-21-both-mixed-first-spaces/proof.md)
+shows that when both mixed projections are nonzero, each must be a line,
+even with arbitrary boundary graph corrections. Rank-one lines have a
+unique partner relation and quotient ranks at most 7 each. Invertible
+mixed lines force quotient ranks exactly 1 each. The necessary sum in
+this case drops from 16 to **14**. Exact compatible 7-by-7 and 1-by-1
+first spaces are retained; their polynomial maps still have first rank 12.
+The invertible-line example leaves 72 normal directions before further
+lifting equations. This is a written, unreviewed local classification,
+not a matrix target or exponent improvement.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
