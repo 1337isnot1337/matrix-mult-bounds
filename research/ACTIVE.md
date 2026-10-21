@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
+mixed five-spaces opposite the full seven-frame force only plane normals.
+The exact elimination uses low-rank source slices, cubic minors and
+mixedness; it closes the former four-source residual at this point.
+The two-parameter virtual tensor is constructed, but direct coordinate
+support covers do not extend the elimination uniformly. Adapted source
+combinations and the other partner points remain under investigation.
+PR62 merged at99ce778 with equal source/squash trees and its completed
+branches removed. PR63 is queued after current checks. No exponent gain.
+
 The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
 now uses the existing polynomial and higher Hankel gates. Every improving
 single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
