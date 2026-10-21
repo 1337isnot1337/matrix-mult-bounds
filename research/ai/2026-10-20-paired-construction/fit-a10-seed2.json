@@ -1,0 +1,62 @@
+{
+  "a": 10,
+  "seed": 2,
+  "iterations_completed": 200,
+  "ridge": 1e-07,
+  "history": [
+    {
+      "iteration": 0,
+      "relative_residual": 2.9333492026654353,
+      "map_frobenius_norms": [
+        9.965897948000372,
+        12.789155039183228,
+        13.684919819011075
+      ],
+      "elapsed_seconds": 0.029299706000074366
+    },
+    {
+      "iteration": 50,
+      "relative_residual": 0.8682056971281018,
+      "map_frobenius_norms": [
+        31.920788866043317,
+        31.920788866043317,
+        31.920788866043313
+      ],
+      "elapsed_seconds": 3.4763956940000753
+    },
+    {
+      "iteration": 100,
+      "relative_residual": 0.8608260954071513,
+      "map_frobenius_norms": [
+        77.69427740144477,
+        77.69427740144477,
+        77.69427740144477
+      ],
+      "elapsed_seconds": 7.031302919999689
+    },
+    {
+      "iteration": 150,
+      "relative_residual": 0.85773439127249,
+      "map_frobenius_norms": [
+        167.12139305373083,
+        167.12139305373083,
+        167.1213930537308
+      ],
+      "elapsed_seconds": 10.88905389699994
+    },
+    {
+      "iteration": 200,
+      "relative_residual": 0.8559544680247823,
+      "map_frobenius_norms": [
+        306.0026064962134,
+        306.00260649621345,
+        306.0026064962134
+      ],
+      "elapsed_seconds": 15.043841326999882
+    }
+  ],
+  "method": "graded alternating least squares over float64",
+  "degeneration_constructed": false,
+  "improves_omega": false,
+  "scope": "Numerical search only. Residuals are not existence or nonexistence certificates."
+}

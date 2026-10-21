@@ -1,0 +1,39 @@
+{
+  "claim_id": "AI-NARROW-QUANTUM-001",
+  "base_commit": "89c0287",
+  "status": "Exact finite families and written interpretation; unreviewed",
+  "improves_omega": false,
+  "external_sources": [
+    {
+      "title": "Arun Ram, Quantum SL2",
+      "url": "https://soimeme.org/~arunram/Notes/QuantumSL2.html",
+      "adopted": "Quantum conventions inherited through the exact generic source-equivalence core."
+    },
+    {
+      "title": "Stacks Project, Section 29.44, Projective morphisms",
+      "url": "https://stacks.math.columbia.edu/tag/01W7",
+      "adopted": "Projective morphisms are proper; used for the closed rank-one slice incidence projection."
+    },
+    {
+      "title": "Stacks Project, Section 29.42, Proper morphisms",
+      "url": "https://stacks.math.columbia.edu/tag/01W0",
+      "adopted": "Proper morphisms are universally closed."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-paired-quantum/screens.py",
+      "sha256": "2090881b9418835ab0db989918f35cb6663a74649ebd70e8461996f004a949be"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/quantum.py",
+      "sha256": "1a08abc90157539398cb749ab174d7118fbd905e6b4c014f2f321a731def12e2"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-sources/all_ranks.py",
+      "sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
+    }
+  ],
+  "discovery": "1000 numerical LP objectives produced the 23 fixed weight vectors. All acceptance is exact over Q(q) and Q(zeta8); no numerical solver is required for verification.",
+  "scope": "An all-length explicit unequal source equivalence, two root-eight regular-map calibrations, and 23 fixed coupled Laurent limits of Q(3,2). Every fixed limit is excluded from further degeneration to M(3,2,3). The original source target and other bases/weights remain open."
+}

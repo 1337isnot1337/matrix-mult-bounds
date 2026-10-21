@@ -1,0 +1,100 @@
+{
+  "n": 3,
+  "b": 2,
+  "source": "Q_(3,2) direct_sum 1 scalar tensor(s)",
+  "target": "M(3,2,3)",
+  "source_shape": [
+    10,
+    9,
+    9
+  ],
+  "target_shape": [
+    9,
+    6,
+    6
+  ],
+  "source_terms": 37,
+  "target_terms": 18,
+  "tensor_equations": 324,
+  "parameters": 198,
+  "seed": 202610260,
+  "maximum_iterations": 1000,
+  "iterations_completed": 1000,
+  "ridge": 1e-12,
+  "numpy_version": "2.3.5",
+  "history": [
+    {
+      "iteration": 0,
+      "relative_coefficient_error": 1.56144574797757,
+      "maximum_absolute_coefficient_error": 1.718189042051966,
+      "map_frobenius_norms": [
+        3.4954998036037557,
+        2.5357783324763337,
+        2.670895922306294
+      ],
+      "elapsed_seconds": 0.0002782600004138658
+    },
+    {
+      "iteration": 200,
+      "relative_coefficient_error": 0.24774934628853115,
+      "maximum_absolute_coefficient_error": 0.42389631307789233,
+      "map_frobenius_norms": [
+        11.7027200398284,
+        11.702720039828401,
+        11.702720039828401
+      ],
+      "elapsed_seconds": 0.05832217599981959
+    },
+    {
+      "iteration": 400,
+      "relative_coefficient_error": 0.24114665474315924,
+      "maximum_absolute_coefficient_error": 0.43489430238330096,
+      "map_frobenius_norms": [
+        20.859143346130598,
+        20.859143346130605,
+        20.8591433461306
+      ],
+      "elapsed_seconds": 0.11753474400029518
+    },
+    {
+      "iteration": 600,
+      "relative_coefficient_error": 0.2391450018607228,
+      "maximum_absolute_coefficient_error": 0.4374348388766053,
+      "map_frobenius_norms": [
+        28.818438795302953,
+        28.81843879530296,
+        28.818438795302953
+      ],
+      "elapsed_seconds": 0.1773740850003378
+    },
+    {
+      "iteration": 800,
+      "relative_coefficient_error": 0.2382096373884347,
+      "maximum_absolute_coefficient_error": 0.4383795771954936,
+      "map_frobenius_norms": [
+        35.921713757920486,
+        35.92171375792049,
+        35.92171375792049
+      ],
+      "elapsed_seconds": 0.2341461550004169
+    },
+    {
+      "iteration": 1000,
+      "relative_coefficient_error": 0.2376728522135205,
+      "maximum_absolute_coefficient_error": 0.438804178593003,
+      "map_frobenius_norms": [
+        42.406970561203664,
+        42.40697056120366,
+        42.40697056120365
+      ],
+      "elapsed_seconds": 0.2944027060002554
+    }
+  ],
+  "best_relative_coefficient_error": 0.2376728522135205,
+  "method": "unrestricted real constant-map ALS, full coefficient objective",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite search on the explicitly enlarged source. No restriction of Q_(n,b) alone or exponent improvement follows.",
+  "scalar_summands": 1
+}

@@ -1,0 +1,139 @@
+{
+  "verified_commit": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+  "verified_tree": "59dbe72146c671b09d48c95658348b2c25fc13f5",
+  "integrated_main": "11aca0fb09c038084e0fc5386e0d14f71a90f005",
+  "checkout": "isolated detached worktree",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S -m unittest discover -s tests -v (equivalent explicit TextTestRunner with a completion record)",
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S tools/replay.py"
+  ],
+  "tests": {
+    "count": 485,
+    "passed": 485,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "status": "passed",
+    "completion_record": {
+      "completed": true,
+      "success": true,
+      "count": 485,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed_seconds": 329.736299745,
+      "commit": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "failure_details": [],
+      "error_details": []
+    },
+    "log": "checkpoint10-tests.txt",
+    "sha256": "9dbbb24bcade61e5115244b32a5d0c95f474fb969403edb43edc893c7637375f",
+    "observed_text_log_is_incomplete": true,
+    "count_source": "Explicit unittest result written after the full run to the completed machine-readable record",
+    "site_packages_disabled": true
+  },
+  "archive": {
+    "runs": 5,
+    "status": "passed",
+    "exact_payloads_match": true,
+    "protected_archive_diff_empty": true,
+    "report": "checkpoint10-archive.json",
+    "sha256": "ea2ceaa43af44269b1684ab536956cf8042d01b7c797dee91258271e38881c64"
+  },
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "hosted_checks_observed": [
+    {
+      "id": 119055916068,
+      "name": "CI",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549166516/job/119055916068",
+      "started_at": "2026-10-21T05:28:14Z",
+      "completed_at": "2026-10-21T05:28:17Z"
+    },
+    {
+      "id": 119054332782,
+      "name": "CodeQL",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/runs/119054332782",
+      "started_at": "2026-10-21T05:22:55Z",
+      "completed_at": "2026-10-21T05:22:58Z"
+    },
+    {
+      "id": 119054150698,
+      "name": "Tests (Python 3.14)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549166516/job/119054150698",
+      "started_at": "2026-10-21T05:22:20Z",
+      "completed_at": "2026-10-21T05:28:11Z"
+    },
+    {
+      "id": 119054150598,
+      "name": "Tests (Python 3.10)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549166516/job/119054150598",
+      "started_at": "2026-10-21T05:22:20Z",
+      "completed_at": "2026-10-21T05:28:03Z"
+    },
+    {
+      "id": 119054150460,
+      "name": "Archive replay (Python 3.13)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549166516/job/119054150460",
+      "started_at": "2026-10-21T05:22:21Z",
+      "completed_at": "2026-10-21T05:23:03Z"
+    },
+    {
+      "id": 119054141780,
+      "name": "Analyze (actions)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549162319/job/119054141780",
+      "started_at": "2026-10-21T05:22:19Z",
+      "completed_at": "2026-10-21T05:23:05Z"
+    },
+    {
+      "id": 119054141761,
+      "name": "Analyze (c-cpp)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549162319/job/119054141761",
+      "started_at": "2026-10-21T05:22:19Z",
+      "completed_at": "2026-10-21T05:23:24Z"
+    },
+    {
+      "id": 119054141672,
+      "name": "Analyze (python)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549162319/job/119054141672",
+      "started_at": "2026-10-21T05:22:19Z",
+      "completed_at": "2026-10-21T05:23:27Z"
+    },
+    {
+      "id": 119054141409,
+      "name": "Analyze (javascript-typescript)",
+      "head_sha": "9d8b240780110fc1b75be226cb3b8174a0953fa9",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39549162319/job/119054141409",
+      "started_at": "2026-10-21T05:22:19Z",
+      "completed_at": "2026-10-21T05:23:14Z"
+    }
+  ],
+  "limits": "All485 tests completed successfully according to the final machine-readable unittest result. The retained live text stream ends before the full summary and is explicitly not a complete transcript. All five archives and nine hosted checks passed. This receipt applies only to the stated commit; later metadata repairs and new research need separate verification. Same-session checks are not independent mathematical review and do not establish a smaller exponent."
+}

@@ -1,0 +1,55 @@
+{
+  "controls": {
+    "integer_Q22_control": {
+      "all_integer_positions_checked": 64,
+      "exact_positive_control_passed": true,
+      "deliberate_sign_error_detected": true
+    },
+    "laurent_control_source": "Q(6,4) direct sum D_101; all Q columns map to zero",
+    "laurent_control_scalar_cost": 101,
+    "all_integer_positions_checked": 10000,
+    "nonzero_positive_power_permitted": true,
+    "negative_power_error_detected": true,
+    "control_is_exponent_improvement": false
+  },
+  "replays": [
+    {
+      "artifact": "q64-m1-fixed-leading-checkpoint.json",
+      "artifact_sha256": "5fe22812c2f7d77085c873e1d19eb0468def8c2eb8b38e75ed03fc49c4e5d2dd",
+      "source": "Q(6,4) direct sum D_r",
+      "auxiliary_rank": 0,
+      "target": "M(5,4,5)",
+      "base_source_terms_reconstructed": 576,
+      "scalar_terms_reconstructed": 0,
+      "all_target_positions_accounted": 10000,
+      "coefficient_position_counts_by_degree": {
+        "-2": 256,
+        "-1": 2176,
+        "0": 5136,
+        "1": 2176,
+        "2": 256
+      },
+      "all_nonpositive_positions_checked": 7568,
+      "relative_nonpositive_coefficient_error": 0.031212190728841096,
+      "maximum_nonpositive_coefficient_error": 0.05132152833150739,
+      "reported_residual_difference": 3.469446951953614e-18,
+      "coefficient_norms_by_degree": {
+        "-2": 5.566106760071235e-17,
+        "-1": 0.29743742455206224,
+        "0": 9.989803129564468,
+        "1": 157.25649554752948,
+        "2": 391.1097824872632
+      },
+      "map_frobenius_norms": [
+        29.999999999975845,
+        29.999999999998806,
+        29.999999999999083
+      ],
+      "numerical_replay_passes": true,
+      "numerical_candidate_below_1e_minus_12": false,
+      "exact_coefficient_certificate": false,
+      "nonexistence_proved": false,
+      "improves_omega": false
+    }
+  ]
+}

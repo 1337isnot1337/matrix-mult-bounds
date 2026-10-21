@@ -1,0 +1,45 @@
+{
+  "known_integer_source_floating_layout_control": {
+    "source": "Q(5,4)",
+    "target": "M(4,4,4)",
+    "all_positions_checked": 4096,
+    "source_terms_reconstructed": 400,
+    "floating_image_of_known_integer_control_error": 1.818296302967523e-15,
+    "three_block_design_control_errors": [
+      1.818296302967523e-15,
+      1.79956178009881e-15,
+      1.7995617800988096e-15
+    ],
+    "operator_basis_dimension": 12,
+    "random_all_operator_block_design_relative_errors": [
+      0.0,
+      4.0306513717943335e-16,
+      4.012450897356286e-16
+    ],
+    "new_exact_certificate": false,
+    "improves_omega": false
+  },
+  "initializations": [
+    {
+      "artifact": "q-metaplectic-n6-checkpoint.json",
+      "initial_maps_sha256": "4fd29f12d923e55bb09eff4f807a9cae674e48efb2e795fd93e88280a6919b51",
+      "matches_original_initial_arrays_in_recorded_runtime": true,
+      "optimization_updates_rerun": 0
+    },
+    {
+      "artifact": "q-metaplectic-n7-checkpoint.json",
+      "initial_maps_sha256": "8f17e0bbbe357de3eb7ebec83f49a8560e415d53f9b3b117354b064855e3ead5",
+      "matches_original_initial_arrays_in_recorded_runtime": true,
+      "optimization_updates_rerun": 0
+    },
+    {
+      "artifact": "q-metaplectic-n6-nonproduct-checkpoint.json",
+      "initial_maps_sha256": "9436345c8b9a9815f33eeba4c9cc13371748de9a4fa3f3a809ef608a0c0929a2",
+      "matches_original_initial_arrays_in_recorded_runtime": true,
+      "optimization_updates_rerun": 0
+    }
+  ],
+  "different_linear_algebra_runtimes_may_not_match_array_hashes": true,
+  "saved_coefficient_replays_are_separate": true,
+  "improves_omega": false
+}

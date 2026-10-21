@@ -31,16 +31,6 @@
     "seconds": 0.396,
     "link_and_ledger_checks_passed": 2
   },
-  "CI_budget_update": {
-    "run_id": 39622521064,
-    "source_commit": "26357da459eafa2ed211b90855252e5c7f9727e6",
-    "python_3_14": "passed",
-    "python_3_10": "cancelled at the workflow execution limit",
-    "github_annotation": "The job has exceeded the maximum execution time of 20m0s",
-    "old_test_job_minutes": 20,
-    "new_test_job_minutes": 30,
-    "required_CI_gate_unchanged": true
-  },
   "pre_hankel_integration_CI": {
     "source_commit": "071ce74dfadc8b0098fa6f3c3a2d405c1d63ed79",
     "run_id": 39626591383,
@@ -56,5 +46,36 @@
     "additional_tests_passed": 7,
     "seconds": 5.37,
     "link_and_ledger_checks_passed": 2
+  },
+  "historical_monolithic_budget_update": {
+    "run_id": 39622521064,
+    "source_commit": "26357da459eafa2ed211b90855252e5c7f9727e6",
+    "python_3_14": "passed",
+    "python_3_10": "cancelled at the workflow execution limit",
+    "github_annotation": "The job has exceeded the maximum execution time of 20m0s",
+    "old_test_job_minutes": 20,
+    "new_test_job_minutes": 30,
+    "required_CI_gate_unchanged": true
+  },
+  "latest_main_integration": {
+    "main_commit": "03383adc742f25ebac2c79ef4b3a4c62d4e96bf2",
+    "sharding_checks_passed": 4,
+    "link_and_ledger_checks_passed": 2,
+    "coverage": {
+      "total_tests": 713,
+      "modules": 173,
+      "groups": 4,
+      "tests_per_group": [
+        189,
+        186,
+        182,
+        156
+      ],
+      "complete_disjoint_union": true,
+      "import_errors": 0,
+      "own_module_cases": 4
+    },
+    "per_group_minutes": 20,
+    "workflow_matches_main": true
   }
 }

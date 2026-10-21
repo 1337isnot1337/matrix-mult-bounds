@@ -1,0 +1,45 @@
+{
+  "claim_id": "AI-PAIRED-QUANTUM-002",
+  "base_commit": "6761a17e6e1c0b0263531b0471888c669fe44567",
+  "status": "Explicit tensor degenerations and written scope arguments, unreviewed",
+  "improves_omega": false,
+  "external_sources": [
+    {
+      "title": "Arun Ram, Quantum SL2",
+      "url": "https://soimeme.org/~arunram/Notes/QuantumSL2.html",
+      "adopted": "Coproduct convention via the maintained quantum source-equivalence derivation."
+    },
+    {
+      "title": "Stacks Project, Section 29.44, Projective morphisms",
+      "url": "https://stacks.math.columbia.edu/tag/01W7",
+      "accessed_utc": "2026-10-21",
+      "adopted": "Lemma 29.44.5: projective morphisms are proper; used to project the closed low-rank slice incidence."
+    },
+    {
+      "title": "Stacks Project, Section 29.42, Proper morphisms",
+      "url": "https://stacks.math.columbia.edu/tag/01W0",
+      "accessed_utc": "2026-10-21",
+      "adopted": "Proper maps are universally closed."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-paired-quantum/screens.py",
+      "sha256": "2090881b9418835ab0db989918f35cb6663a74649ebd70e8461996f004a949be"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/quantum.py",
+      "sha256": "1a08abc90157539398cb749ab174d7118fbd905e6b4c014f2f321a731def12e2"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-sources/all_ranks.py",
+      "sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-sources/matrix_euler.md",
+      "sha256": "e8d088dfac2e3d741dc95c824f9c9be6d936bf8b90faad4dea36aba4560164e8"
+    }
+  ],
+  "discovery": "Numerical LP proposed the two integer weight vectors; all acceptance uses exact Q(q) contractions, valuations, residues and rational ranks. No random seed or solver is needed for replay.",
+  "scope": "P3 degenerates to two specified rational intermediate tensors. Neither has an ordinary restriction to M(1,3,3) plus M(3,3,2). Face1 admits no such further degeneration retaining concise A dimension9; face0 remains open."
+}

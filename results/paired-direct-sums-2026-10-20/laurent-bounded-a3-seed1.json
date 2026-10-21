@@ -1,0 +1,50 @@
+{
+  "a": 3,
+  "seed": 202610211,
+  "coefficient_bound": 10.0,
+  "maximum_function_evaluations": 300,
+  "function_evaluations": 300,
+  "jacobian_evaluations": 296,
+  "elapsed_seconds": 11.445750914999735,
+  "source_start": "results/paired-direct-sums-2026-10-20/laurent-a3-seed3.npz",
+  "parameters": 170,
+  "coefficient_equations": 468,
+  "gauge_equations": 6,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "leading_coefficient_norm": 0.09747169017213121,
+    "constant_relative_error": 2.4541179132883064,
+    "combined_coefficient_relative_error": 2.454189603764489,
+    "maximum_absolute_coefficient_error": 7.27605301353118,
+    "maximum_absolute_gauge_error": 9.659117924071566,
+    "first_derivative_map_norms": [
+      42.00712829616751,
+      49.57862757058862,
+      48.813926894182835
+    ],
+    "maximum_absolute_parameter": 9.9
+  },
+  "final": {
+    "leading_coefficient_norm": 0.18852821377597634,
+    "constant_relative_error": 0.2056473541305766,
+    "combined_coefficient_relative_error": 0.20882346012255704,
+    "maximum_absolute_coefficient_error": 0.24261661119951253,
+    "maximum_absolute_gauge_error": 0.23428018512673887,
+    "first_derivative_map_norms": [
+      29.96763745409698,
+      36.07745384785257,
+      25.237816492311516
+    ],
+    "maximum_absolute_parameter": 9.999999999999998
+  },
+  "solver_status": 0,
+  "solver_message": "The maximum number of function evaluations is exceeded.",
+  "solver_optimality": 0.03592823344799852,
+  "method": "bounded real least squares, analytic Jacobian, full tensor and gauge equations",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite bounded real first-order graded jet discovery; no existence or nonexistence conclusion.",
+  "equivalent_start_json": "results/paired-direct-sums-2026-10-20/laurent-a3-seed3-checkpoint.json"
+}
