@@ -655,3 +655,13 @@ triple survives an exhaustive 89-case integer coefficient search. This
 selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
+
+## Size-five Cartan frontier
+
+[AI-CYCLIC-CARTAN-SCREENS-052](research/ai/2026-10-20-cyclic-equivariant/a5.md)
+uses exhaustive character factorizations and a five-inequality dual certificate
+to exclude three of the four size-five targets that passed the general
+constant-map screens, within the specified Cartan-intertwining class.
+M(14,14,15) still passes the displayed character and extreme-slice tests.
+An actual degeneration to it would imply omega<2.245; it is unconstructed.
+Completed 32-start size-three and six-start size-five pilots produced no exact witness.

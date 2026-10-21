@@ -1,0 +1,936 @@
+{
+  "field": "C",
+  "source_action": "Specified diagonal Cartan action",
+  "full_leg_screen": {
+    "full_leg_dimension": 225,
+    "vertex_dimensions": [
+      15,
+      15
+    ],
+    "positive_factor_pairs": [
+      [
+        [
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          1
+        ]
+      ]
+    ],
+    "coefficient_search_nodes": 16111,
+    "third_vertex_weight_range": [
+      2,
+      8
+    ],
+    "dual_constraint_rows": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        3,
+        3,
+        3,
+        2,
+        1
+      ]
+    ],
+    "dual_right_sides": [
+      1,
+      3,
+      3,
+      1,
+      25
+    ],
+    "sum_of_rows": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "sum_of_right_sides": 33,
+    "maximum_third_vertex_dimension_upper_bound": 11
+  },
+  "one_missing_dimension_screen": {
+    "target_leg_dimension": 224,
+    "vertex_dimensions": [
+      14,
+      16
+    ],
+    "records": [
+      {
+        "deficit_exponent": 0,
+        "reduced_coefficients": [
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 1,
+        "coefficient_search_nodes": 1371,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 1,
+        "reduced_coefficients": [
+          1,
+          2,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 14959,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 2,
+        "reduced_coefficients": [
+          1,
+          3,
+          5,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 16619,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 3,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          9,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 13766,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 4,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          14,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 17167,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 5,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          18,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 14463,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 6,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          21,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15620,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 7,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          23,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15721,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 8,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          24,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 16107,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 9,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          23,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15971,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 10,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          21,
+          19,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15964,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 11,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          18,
+          15,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15965,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 12,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          14,
+          10,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15965,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 13,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          9,
+          6,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15965,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 14,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          5,
+          3,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15965,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 15,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          2,
+          1
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 15965,
+        "positive_factor_pairs": []
+      },
+      {
+        "deficit_exponent": 16,
+        "reduced_coefficients": [
+          1,
+          3,
+          6,
+          10,
+          15,
+          19,
+          22,
+          24,
+          25,
+          24,
+          22,
+          19,
+          15,
+          10,
+          6,
+          3
+        ],
+        "monomial_shift": 0,
+        "coefficient_search_nodes": 13058,
+        "positive_factor_pairs": []
+      }
+    ],
+    "total_coefficient_search_nodes": 250611,
+    "surviving_pair_characters": 0
+  },
+  "candidate_family": [
+    {
+      "a": 3,
+      "shape": [
+        6,
+        6,
+        7
+      ],
+      "U_and_V": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "W": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "source_character": [
+        1,
+        3,
+        6,
+        8,
+        9,
+        8,
+        6,
+        3,
+        1
+      ],
+      "target_pair_characters": [
+        [
+          1,
+          2,
+          5,
+          6,
+          8,
+          6,
+          5,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          5,
+          8,
+          8,
+          8,
+          5,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          5,
+          8,
+          8,
+          8,
+          5,
+          3,
+          1
+        ]
+      ],
+      "extreme_source_slice_rank": 3,
+      "extreme_source_slice_nonzero_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "other_source_weight_dimension": 6,
+      "other_target_weight_dimension": 5,
+      "ordinary_compressed_rank_lower_bound": 1,
+      "target_extreme_slice_rank": 1,
+      "ordinary_extreme_slice_test_excludes": false,
+      "passes_finite_exponent_threshold": false,
+      "constructed": false
+    },
+    {
+      "a": 4,
+      "shape": [
+        10,
+        10,
+        11
+      ],
+      "U_and_V": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "W": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1
+      ],
+      "source_character": [
+        1,
+        3,
+        6,
+        10,
+        13,
+        15,
+        16,
+        15,
+        13,
+        10,
+        6,
+        3,
+        1
+      ],
+      "target_pair_characters": [
+        [
+          1,
+          2,
+          5,
+          8,
+          12,
+          14,
+          16,
+          14,
+          12,
+          8,
+          5,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          6,
+          9,
+          13,
+          15,
+          16,
+          15,
+          13,
+          9,
+          6,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          6,
+          9,
+          13,
+          15,
+          16,
+          15,
+          13,
+          9,
+          6,
+          3,
+          1
+        ]
+      ],
+      "extreme_source_slice_rank": 4,
+      "extreme_source_slice_nonzero_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "other_source_weight_dimension": 10,
+      "other_target_weight_dimension": 9,
+      "ordinary_compressed_rank_lower_bound": 2,
+      "target_extreme_slice_rank": 1,
+      "ordinary_extreme_slice_test_excludes": true,
+      "passes_finite_exponent_threshold": true,
+      "constructed": false
+    },
+    {
+      "a": 5,
+      "shape": [
+        14,
+        14,
+        15
+      ],
+      "U_and_V": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "W": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "source_character": [
+        1,
+        3,
+        6,
+        10,
+        15,
+        19,
+        22,
+        24,
+        25,
+        24,
+        22,
+        19,
+        15,
+        10,
+        6,
+        3,
+        1
+      ],
+      "target_pair_characters": [
+        [
+          1,
+          2,
+          5,
+          8,
+          12,
+          16,
+          20,
+          22,
+          24,
+          22,
+          20,
+          16,
+          12,
+          8,
+          5,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          6,
+          10,
+          13,
+          17,
+          20,
+          23,
+          24,
+          23,
+          20,
+          17,
+          13,
+          10,
+          6,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          6,
+          10,
+          13,
+          17,
+          20,
+          23,
+          24,
+          23,
+          20,
+          17,
+          13,
+          10,
+          6,
+          3,
+          1
+        ]
+      ],
+      "extreme_source_slice_rank": 5,
+      "extreme_source_slice_nonzero_positions": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          14,
+          14
+        ]
+      ],
+      "other_source_weight_dimension": 15,
+      "other_target_weight_dimension": 13,
+      "ordinary_compressed_rank_lower_bound": 1,
+      "target_extreme_slice_rank": 1,
+      "ordinary_extreme_slice_test_excludes": false,
+      "passes_finite_exponent_threshold": true,
+      "constructed": false
+    }
+  ],
+  "excluded_a5_previously_unexcluded_constant_shapes_with_this_action": [
+    [
+      13,
+      14,
+      16
+    ],
+    [
+      13,
+      15,
+      15
+    ],
+    [
+      14,
+      15,
+      15
+    ]
+  ],
+  "remaining_shape_with_exhibited_necessary_characters": [
+    14,
+    14,
+    15
+  ],
+  "conditional_exponent_upper_bound": "449/200",
+  "conditional_integer_certificate": "635040**449 > 28**1800",
+  "required_matrix_degeneration_constructed": false,
+  "general_degeneration_excluded": false,
+  "new_exponent_established": false
+}
