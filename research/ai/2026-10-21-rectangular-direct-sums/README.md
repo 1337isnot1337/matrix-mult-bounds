@@ -157,7 +157,7 @@ will be recorded separately. Finite checks do not constitute independent review.
 The strengthened projection lemma in `saturation.md` and the proof in
 `second_boundary.md` extend the search through N<=1500. There are 24 extra
 formats above 960. The only remaining necessary-test formats are A(8,9),
-A(8,10), and A(9,9), with 62, 3687, and 1263 normalized retained pairs.
+A(8,10), and A(9,9), with 50, 3425, and 994 normalized retained pairs.
 All 1143 initial A(7,10) candidates are now excluded. These counts include
 possible symmetry duplicates; none is a constructed restriction.
 
@@ -173,7 +173,7 @@ lists are regenerated in memory rather than committed as a 19 MB artifact.
 `equality_next.md` records the next obstruction question and an exact
 counterexample to an overly broad full-row-rank equality conjecture.
 
-The final counts above include `block_hankel_dimension.md`. This excludes
+An intermediate checkpoint used `block_hankel_dimension.md`. This excludes
 306 additional candidates, including M30 plus M3 across the three remaining formats.
 The dimension proof requires the exact equality threshold; `equality_one_step.py`
 certifies that a one-unit rank excess is genuinely possible. The first remaining
@@ -181,6 +181,13 @@ source format is still A(8,9), and no surviving target has been constructed.
 
 `quantitative_crossed_rank.md` strengthens the equality statement to
 rank(M_F)>=(ab-1)rank(B_F)+rank(T_F). The proof uses an elementary
-polynomial-span growth lemma. It is written and unreviewed. Higher crossed
-rank bounds do not enter the finite screen without corresponding proved
-block-Hankel dimension bounds; no threshold is rounded upward.
+polynomial-span growth lemma. It is written and unreviewed. The later bundle-extension proof supplies the higher-rank dimension bound
+used in the current screen; no threshold is rounded upward.
+
+The latest `bundle_hankel_dimension.md` uses the classical splitting theorem
+for bundles on P1 to bound every crossed-Hankel rank stratum. Its Cech map,
+framed-extension dimension count, and integer inequality are supplied explicitly.
+It removes543 more candidates (12 A89,262 A810,269 A99), giving the current
+counts50,3425,994. The implementation retains the lower-symbol-rank prerequisite
+and exact finite certificate. This is an unreviewed written obstruction proof,
+not an exponent-improving construction.

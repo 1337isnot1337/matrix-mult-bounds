@@ -14,7 +14,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -37,7 +38,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -60,7 +62,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -83,7 +86,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -106,7 +110,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -129,7 +134,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -152,7 +158,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -183,7 +190,8 @@
     "excluded_counts": {
       "saturation": 543,
       "second_boundary": 600,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "79eb2c9ba5836f51c5695993d108a50b02a7ff0a7267ebf641cb4e4ffb32f7a0",
@@ -214,11 +222,12 @@
     "excluded_counts": {
       "saturation": 16006,
       "second_boundary": 0,
-      "crossed_dimension": 11
+      "crossed_dimension": 11,
+      "bundle_dimension": 12
     },
-    "remaining_count": 62,
-    "excluded_sha256": "2af8832e66d184d123f66a741436cd9749e13548e375480678d60b4bb1433f46",
-    "remaining_sha256": "412b2971fae40a74703dded4ba7b3bb87ffe2959018d51031bd8cb48fda80b01",
+    "remaining_count": 50,
+    "excluded_sha256": "3cf4a02e97e1b9d06f370b8be772ee28df903576619c7a52babe65eaebfbdb3b",
+    "remaining_sha256": "d48639bfb656d871a188301ce7aa5c095efe84335a32c09f1060e42f51f447f4",
     "remaining_first_20": [
       {
         "shapes": [
@@ -385,30 +394,6 @@
         "score_interval_numerators": [
           118918537903,
           118918537905
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            30,
-            30,
-            30
-          ],
-          [
-            1,
-            1,
-            8
-          ]
-        ],
-        "leg_dimensions": [
-          901,
-          908,
-          908
-        ],
-        "score_interval_numerators": [
-          118944078847,
-          118944078849
         ],
         "strict_score_gain_certified": true
       },
@@ -613,30 +598,6 @@
           ],
           [
             1,
-            3,
-            4
-          ]
-        ],
-        "leg_dimensions": [
-          903,
-          912,
-          904
-        ],
-        "score_interval_numerators": [
-          119039331899,
-          119039331901
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            30,
-            30,
-            30
-          ],
-          [
-            1,
             4,
             1
           ]
@@ -685,18 +646,66 @@
           ],
           [
             1,
-            4,
-            3
+            5,
+            1
           ]
         ],
         "leg_dimensions": [
-          904,
-          912,
-          903
+          905,
+          905,
+          901
         ],
         "score_interval_numerators": [
-          119039331899,
-          119039331901
+          118864458973,
+          118864458975
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            30,
+            30,
+            30
+          ],
+          [
+            1,
+            5,
+            2
+          ]
+        ],
+        "leg_dimensions": [
+          905,
+          910,
+          902
+        ],
+        "score_interval_numerators": [
+          118992904873,
+          118992904875
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            30,
+            30,
+            30
+          ],
+          [
+            1,
+            6,
+            1
+          ]
+        ],
+        "leg_dimensions": [
+          906,
+          906,
+          901
+        ],
+        "score_interval_numerators": [
+          118892064648,
+          118892064649
         ],
         "strict_score_gain_certified": true
       }
@@ -718,7 +727,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -741,7 +751,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -764,7 +775,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -787,7 +799,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -810,7 +823,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -833,7 +847,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -856,7 +871,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -879,7 +895,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -902,7 +919,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -933,11 +951,12 @@
     "excluded_counts": {
       "saturation": 3467,
       "second_boundary": 0,
-      "crossed_dimension": 217
+      "crossed_dimension": 217,
+      "bundle_dimension": 262
     },
-    "remaining_count": 3687,
-    "excluded_sha256": "41d069760d8f4686dfbe444a743bab5771c9eab3f7a8f1a747ada8dc8cabaacd",
-    "remaining_sha256": "3a77d7eac71182f8cd77fcdecf5b43dd9ad5ea135d4819e7e6aedd3bfa7ccee1",
+    "remaining_count": 3425,
+    "excluded_sha256": "d56ffad0a59b8109c6e9fd7afcb8e6adf2fd63115a1a99cf0a9bd02bf581ab68",
+    "remaining_sha256": "c3f412d55080d88a8b0ff9a1569bba6ded5c6ac382515f398212f02eafc841d8",
     "remaining_first_20": [
       {
         "shapes": [
@@ -1308,30 +1327,6 @@
           ],
           [
             1,
-            1,
-            16
-          ]
-        ],
-        "leg_dimensions": [
-          1057,
-          1105,
-          1072
-        ],
-        "score_interval_numerators": [
-          144156349198,
-          144156349200
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
             2,
             1
           ]
@@ -1418,6 +1413,30 @@
           143973619040
         ],
         "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            1,
+            2,
+            5
+          ]
+        ],
+        "leg_dimensions": [
+          1058,
+          1099,
+          1061
+        ],
+        "score_interval_numerators": [
+          144022445064,
+          144022445066
+        ],
+        "strict_score_gain_certified": true
       }
     ],
     "scope": "Necessary tests only; no maps constructed; proofs unreviewed."
@@ -1445,11 +1464,12 @@
     "excluded_counts": {
       "saturation": 18194,
       "second_boundary": 0,
-      "crossed_dimension": 78
+      "crossed_dimension": 78,
+      "bundle_dimension": 269
     },
-    "remaining_count": 1263,
-    "excluded_sha256": "8587ca59d6c1b85388608b1b83534e9b06e0decdef78d993800a557a9d2530f0",
-    "remaining_sha256": "ff89c2ca5079691773b231cd9ebf634eb822e77e0c5bc181b395c2cb30683a73",
+    "remaining_count": 994,
+    "excluded_sha256": "9b8fd719d87728bb012bd564c544d148eeedcb7ef57531b5753a32fd742eb825",
+    "remaining_sha256": "73e84eb5be142a8d36ddd93b0252fc3212cbe99d9f950355e35471e1310a0db4",
     "remaining_first_20": [
       {
         "shapes": [
@@ -1532,14 +1552,38 @@
           ],
           [
             1,
-            1,
-            4
+            2,
+            1
           ]
         ],
         "leg_dimensions": [
-          1057,
+          1058,
+          1091,
+          1057
+        ],
+        "score_interval_numerators": [
+          143800362167,
+          143800362169
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            1,
+            2,
+            2
+          ]
+        ],
+        "leg_dimensions": [
+          1058,
           1093,
-          1060
+          1058
         ],
         "score_interval_numerators": [
           143864967035,
@@ -1556,13 +1600,157 @@
           ],
           [
             1,
-            1,
-            5
+            3,
+            1
           ]
         ],
         "leg_dimensions": [
-          1057,
-          1094,
+          1059,
+          1092,
+          1057
+        ],
+        "score_interval_numerators": [
+          143834039207,
+          143834039209
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "leg_dimensions": [
+          1058,
+          1090,
+          1058
+        ],
+        "score_interval_numerators": [
+          143800362167,
+          143800362169
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            2,
+            1,
+            2
+          ]
+        ],
+        "leg_dimensions": [
+          1058,
+          1091,
+          1060
+        ],
+        "score_interval_numerators": [
+          143864967035,
+          143864967037
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        "leg_dimensions": [
+          1060,
+          1091,
+          1058
+        ],
+        "score_interval_numerators": [
+          143864967035,
+          143864967037
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "leg_dimensions": [
+          1059,
+          1090,
+          1059
+        ],
+        "score_interval_numerators": [
+          143834039207,
+          143834039209
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "leg_dimensions": [
+          1060,
+          1090,
+          1060
+        ],
+        "score_interval_numerators": [
+          143864967035,
+          143864967037
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            33,
+            33
+          ],
+          [
+            5,
+            1,
+            1
+          ]
+        ],
+        "leg_dimensions": [
+          1061,
+          1090,
           1061
         ],
         "score_interval_numerators": [
@@ -1579,355 +1767,187 @@
             33
           ],
           [
+            6,
             1,
-            2,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1058,
-          1091,
-          1057
-        ],
-        "score_interval_numerators": [
-          143800362167,
-          143800362169
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
-            2,
-            2
-          ]
-        ],
-        "leg_dimensions": [
-          1058,
-          1093,
-          1058
-        ],
-        "score_interval_numerators": [
-          143864967035,
-          143864967037
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
-            2,
-            3
-          ]
-        ],
-        "leg_dimensions": [
-          1058,
-          1095,
-          1059
-        ],
-        "score_interval_numerators": [
-          143921604839,
-          143921604840
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
-            3,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1059,
-          1092,
-          1057
-        ],
-        "score_interval_numerators": [
-          143834039207,
-          143834039209
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
-            3,
-            2
-          ]
-        ],
-        "leg_dimensions": [
-          1059,
-          1095,
-          1058
-        ],
-        "score_interval_numerators": [
-          143921604839,
-          143921604840
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
-            4,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1060,
-          1093,
-          1057
-        ],
-        "score_interval_numerators": [
-          143864967035,
-          143864967037
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            1,
-            5,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1061,
-          1094,
-          1057
-        ],
-        "score_interval_numerators": [
-          143893999164,
-          143893999166
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            2,
-            1,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1058,
-          1090,
-          1058
-        ],
-        "score_interval_numerators": [
-          143800362167,
-          143800362169
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            2,
-            1,
-            2
-          ]
-        ],
-        "leg_dimensions": [
-          1058,
-          1091,
-          1060
-        ],
-        "score_interval_numerators": [
-          143864967035,
-          143864967037
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            2,
-            1,
-            3
-          ]
-        ],
-        "leg_dimensions": [
-          1058,
-          1092,
-          1062
-        ],
-        "score_interval_numerators": [
-          143921604839,
-          143921604840
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            2,
-            2,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1060,
-          1091,
-          1058
-        ],
-        "score_interval_numerators": [
-          143864967035,
-          143864967037
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            2,
-            2,
-            2
-          ]
-        ],
-        "leg_dimensions": [
-          1060,
-          1093,
-          1060
-        ],
-        "score_interval_numerators": [
-          143973619038,
-          143973619040
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            2,
-            3,
             1
           ]
         ],
         "leg_dimensions": [
           1062,
-          1092,
-          1058
-        ],
-        "score_interval_numerators": [
-          143921604839,
-          143921604840
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            3,
-            1,
-            1
-          ]
-        ],
-        "leg_dimensions": [
-          1059,
           1090,
-          1059
-        ],
-        "score_interval_numerators": [
-          143834039207,
-          143834039209
-        ],
-        "strict_score_gain_certified": true
-      },
-      {
-        "shapes": [
-          [
-            32,
-            33,
-            33
-          ],
-          [
-            3,
-            1,
-            2
-          ]
-        ],
-        "leg_dimensions": [
-          1059,
-          1091,
           1062
         ],
         "score_interval_numerators": [
           143921604839,
           143921604840
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            5
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1061,
+          1061
+        ],
+        "score_interval_numerators": [
+          140615432420,
+          140615432422
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            6
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1062,
+          1062
+        ],
+        "score_interval_numerators": [
+          140643038095,
+          140643038096
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            7
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1063,
+          1063
+        ],
+        "score_interval_numerators": [
+          140669511350,
+          140669511352
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            8
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1064,
+          1064
+        ],
+        "score_interval_numerators": [
+          140695052294,
+          140695052296
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            9
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1065,
+          1065
+        ],
+        "score_interval_numerators": [
+          140719805144,
+          140719805146
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            10
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1066,
+          1066
+        ],
+        "score_interval_numerators": [
+          140743878320,
+          140743878322
+        ],
+        "strict_score_gain_certified": true
+      },
+      {
+        "shapes": [
+          [
+            32,
+            32,
+            33
+          ],
+          [
+            1,
+            1,
+            11
+          ]
+        ],
+        "leg_dimensions": [
+          1025,
+          1067,
+          1067
+        ],
+        "score_interval_numerators": [
+          140767356022,
+          140767356024
         ],
         "strict_score_gain_certified": true
       }
@@ -1949,7 +1969,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -1972,7 +1993,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -1995,7 +2017,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -2018,7 +2041,8 @@
     "excluded_counts": {
       "saturation": 0,
       "second_boundary": 0,
-      "crossed_dimension": 0
+      "crossed_dimension": 0,
+      "bundle_dimension": 0
     },
     "remaining_count": 0,
     "excluded_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",

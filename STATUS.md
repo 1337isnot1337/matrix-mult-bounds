@@ -1164,7 +1164,7 @@ improvement is established.
 The [second-boundary proof](research/ai/2026-10-21-rectangular-direct-sums/second_boundary.md)
 and a strengthened low-rank projection argument extend the ordinary necessary
 conditions. The completed additional 24-format search through source dimension
-1500 leaves 62 normalized candidates for A(8,9), 3687 for A(8,10), and 1263
+1500 leaves 50 normalized candidates for A(8,9), 3425 for A(8,10), and 994
 for A(9,9); all other formats in this extension are excluded by these tests.
 A(7,10)'s 1143 initial candidates are all excluded. The first remaining source
 is now dimension 1152, after the later crossed-dimension exclusion of M30 plus M3.
@@ -1253,7 +1253,7 @@ The [block-Hankel dimension proof](research/ai/2026-10-21-rectangular-direct-sum
 now excludes ordinary A89 to M30 plus M3: its171-dimensional rank-three
 parameter variety would inject into a crossed-Hankel variety of dimension136.
 The proof includes both common-input and common-output exceptional components.
-The updated screen excludes11 further A89,217 A810, and78 A99 candidates,
+That checkpoint excluded11 further A89,217 A810, and78 A99 candidates,
 leaving62,3687,1263 respectively. A source slice of exact rank577 also shows
 why576 cannot be rounded upward. All these general proofs remain unreviewed;
 no smaller exponent or actual improved target maps have been established.
@@ -1271,3 +1271,11 @@ first-rank sum at these flags is now at most20. Pure boundary pairs12,8
 and10,10 remain at that threshold; a retained general losses2,2 control
 shows why the new projection lemma alone cannot close them. These are
 written unreviewed proofs, not an exponent improvement.
+
+The [bundle-extension dimension proof](research/ai/2026-10-21-rectangular-direct-sums/bundle_hankel_dimension.md)
+supplies an all-rank crossed-Hankel bound, with classical P1 splitting credited.
+It removes543 more ordinary candidates beyond the exact equality screen.
+The current retained counts are50 A89,3425 A810,994 A99. Its geometric argument
+is written and unreviewed; finite controls verify10544 splitting-type arithmetic
+cases,23402 Cech entries, and495 generic-matrix comparisons. No exponent gain
+or surviving target construction is established.

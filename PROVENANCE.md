@@ -284,3 +284,12 @@ coefficient globally. Unique factorization and polynomial multiplication
 are standard. The explicit local basis identification, sharp controls and
 source application are same-session AI-derived written work, with no
 independent review, historical-priority claim or exponent improvement.
+
+The later `bundle_hankel_dimension.md` explicitly imports the classical
+Birkhoff-Grothendieck splitting theorem, line-bundle cohomology, and extension
+classification on P1. The inspected reference for splitting and cohomology is
+MIT18.721, September2020 notes, Theorem8.4.1 and its following formulas.
+The local note supplies the Cech coefficient identification, framed-extension
+parameter count, and integer estimate. It makes no historical-priority claim;
+the written argument remains unreviewed. Exact controls are not a formal or
+independent verification of those geometric inputs.

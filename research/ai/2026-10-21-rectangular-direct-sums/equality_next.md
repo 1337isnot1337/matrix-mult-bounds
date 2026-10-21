@@ -1,6 +1,7 @@
-# The remaining A(8,9) equality case
+# The A(8,9) equality investigation
 
-October 21, 2026. Research question only. No new theorem is asserted here.
+October 21, 2026. Historical investigation and exact counterexamples.
+The later `block_hankel_dimension.md` excludes the M30 plus M3 ordinary target.
 
 The candidate M(30,30,30) plus M(3,3,3) has all target leg dimensions 909.
 For A(8,9), N=1152 and ab=72, so each output kernel has dimension 243.
@@ -51,7 +52,7 @@ to the smaller format size without additional hypotheses. In general, setting
 all z-coefficients except s=0 to zero makes the full slice split into a copies
 of an ab-by-bm matrix, giving rank at most a^2 b. Thus that equality threshold
 contains a substantial family which cannot be classified by merely repeating
-the lower-rank proof. The specific A(8,9) target remains unresolved.
+the lower-rank proof. The later block-Hankel dimension proof excludes M30 plus M3 by a different argument.
 
 ## Counterexample in the actual frontier format
 

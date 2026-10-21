@@ -51,12 +51,16 @@ B_F. The same growth lemma therefore gives
 Combining (2), (3), and rho>=ar yields
  d+(a-1)r+(b-1)ar = d+(ab-1)r, proving (1).
 
-## Current limitation
+## Original open step, subsequently addressed
 
 For a full-symbol-rank A89 slice with rank at most578, (1) gives crossed
-rank at most10. The proved block-Hankel dimension theorem only covers ranks
+rank at most10. The elementary block-Hankel dimension theorem only covers ranks
 up to the smaller block-window size, eight. It cannot currently convert this
 rank-ten bound into a dimension obstruction. A dimension bound for higher
 rank block-Hankel strata would be a genuinely new required input, and the
 finite frontier does not assume one. The analogous issue occurs one unit
 above the full-symbol equality threshold for A810.
+
+**Later update:** `bundle_hankel_dimension.md` supplies an all-rank upper bound
+using the external Birkhoff-Grothendieck theorem and an explicit extension-space
+parameter count. The current screen uses that later written, unreviewed proof.

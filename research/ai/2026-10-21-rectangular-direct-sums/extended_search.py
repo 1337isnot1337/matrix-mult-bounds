@@ -14,7 +14,7 @@ def module(name):
  result=importlib.util.module_from_spec(spec);spec.loader.exec_module(result)
  return result
 
-screen=module('screen');sat=module('saturation');boundary=module('second_boundary');blockdim=module('block_hankel_dimension')
+screen=module('screen');sat=module('saturation');boundary=module('second_boundary');blockdim=module('block_hankel_dimension');bundle=module('bundle_hankel_dimension')
 
 def saturation_witness(a,b,target):
  ab=a*b;N=ab*(a+b-1);r=a-1;k=isqrt(2*r+1);D=target['leg_dimensions']
@@ -32,7 +32,7 @@ def digest(rows):
  return hashlib.sha256(json.dumps(rows,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 
 def refine(a,b,survivors):
- excluded=[];remaining=[];counts={'saturation':0,'second_boundary':0,'crossed_dimension':0}
+ excluded=[];remaining=[];counts={'saturation':0,'second_boundary':0,'crossed_dimension':0,'bundle_dimension':0}
  for row in survivors:
   w=saturation_witness(a,b,row)
   method='saturation'
@@ -42,6 +42,9 @@ def refine(a,b,survivors):
   if w is None:
    w=blockdim.exclusion(a,b,row['shapes'],row['leg_dimensions'])
    method='crossed_dimension'
+  if w is None:
+   w=bundle.exclusion(a,b,row['shapes'],row['leg_dimensions'])
+   method='bundle_dimension'
   if w is None:remaining.append(row)
   else:
    counts[method]+=1
