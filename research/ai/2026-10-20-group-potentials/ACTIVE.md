@@ -5,9 +5,11 @@ explicitly requested continued work without ending at a partial checkpoint.
 The active goal is not achieved. Do not mark it complete for a conditional
 number, a finite profile violation, an exclusion, or successful verification.
 
-Workspace: `/home/user/matrix-mult-bounds`, owned branch
-`research/full-filtration-entropy-20261020`. Earlier pushed group checkpoint:
-`dcfc1ef`. Read live git status and remote branches before editing; other
+Owned continuation branch: `research/octal-variable-planes-20261020`, created
+from refreshed main `02936b7`. PR #3 merged the prior entropy/group branch at
+`0f7a57f`; all its claims are present in main. Its fully incorporated local
+and remote task branches were removed. Read live status and remote branches
+before editing; other
 workers use their own branches. The archived passes stay byte-for-byte intact.
 
 ## Established in this branch, with actual status
@@ -130,6 +132,20 @@ normalized direction classes returned untraced SAT UNSAT; eleven discovered
 models have exact circuits. These are experiments, not certified all-class
 exclusions. No hosted CI pass is implied.
 
-Latest fetched other-worker tips: Koszul `8e0a766`, compatibility `0108d62`,
-product filtration `2c76b59`. The live leaderboard still shows 9/4. Continue
-construction work; the user's target remains unachieved.
+The refreshed main passed 234 local tests before this continuation. Current
+other-worker lanes include paired-source Koszul kernels, SL2(5) x C2, and
+SL2(7) parity templates. Do not duplicate those tasks. Main and the live
+leaderboard still report no bound below 9/4.
+
+`octal_variable_planes.py` now permits independent affine planes in the
+three-point fibers and independent short directions, over a fixed base.
+See the new section of `octal_research.md`. A full known-model audit checks
+the plain CNF and native parity encodings. The first completed native run
+checks four candidates, including the reused control; all fail exactly
+replayed potential constraints. Three-point planes remain unchanged in those
+four candidates, while short directions vary. Required-plane-change queries
+are the next construction experiments. A timeout is not a no-go theorem.
+
+Continue until a genuine improved arithmetic bound is proved. The goal is
+active and unachieved; source certificates, engine improvements and green
+tests are not completion.

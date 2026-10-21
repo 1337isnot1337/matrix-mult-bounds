@@ -109,3 +109,81 @@ nor nonexistence of a 48-point construction.
 
 The written proofs and exact finite frontiers narrow these ansatzes. They do
 not settle arbitrary group-algebra degeneration or improve the exponent.
+
+## Fixed-parent deletion route closed by an orbit count
+
+The earlier hitting-search timeout is superseded, within the fixed cubic
+parent class, by the [orbit-hole proof](../2026-10-20-octal-parent-barrier/research_note.md).
+It proves a volume bound of 92,928 for all rectangular vertex-subset targets
+with strict coordinate potentials. These all fail the usual 9/4 degree-sum
+gate. The proof is written and unreviewed. Independent-plane searches in the
+two-dimensional source and general degenerations are outside this obstruction.
+
+## Variable planes after the first main integration
+
+The next question is whether M(19,19,19) can be obtained when each normal
+fiber chooses its own affine direction. `octal_variable_planes.py` keeps the
+five-three-point/two-two-point size pattern and one complementary base triple,
+but permits all twelve other three-point planes and six short directions to
+vary independently. This goes beyond the constant-direction frontier above.
+It still does not cover all size-19 subsets or all choices of base triples.
+
+Here is why its graph parameterization loses no plane choices over the fixed
+base. In characteristic two the difference set of any three-point set is its
+full two-dimensional F2 direction plane. The difference set of a two-point
+set is its one-dimensional direction. Thus three fibers have unique sums if
+and only if their three direction spaces have direct sum. A nonzero linear
+dependence supplies a difference in each fiber and hence a collision; the
+converse follows by subtracting a collision.
+
+In particular, any three-point plane in the first family must be transverse
+to the sum of the other two base planes. Projection onto its own base plane
+is an isomorphism, so it is the graph of an arbitrary 2-by-4 binary matrix.
+An arbitrary three-point subset of its affine coset is represented by an
+offset and the two graph basis columns: its missing point determines the
+offset. The short direction is an arbitrary six-bit vector, with the mixed
+fiber conditions enforcing transversality. There are 240 initial Boolean
+parameters: 96 graph entries, 108 offset bits and 36 short-direction bits.
+Six offset bits are fixed by the earlier common-conjugation normalization.
+
+All 343 mixed normal-fiber conditions are encoded as exact independence
+constraints. Pair-label injectivity is encoded separately. The standard-library
+`affine_fiber_certificate.py` independently compares full difference-space
+sums with direct triple-sum enumeration, checks the gauges, and checks the
+three group pair maps. It accepts no potential or exponent claim.
+
+For the first base, plain CNF has 265167 variables and 1105586 clauses.
+The native parity encoding has 79393 variables, 65850 ordinary clauses and
+74160 XOR equations. Both encodings were checked on a previously verified
+pair-injective control by evaluating every Boolean variable and constraint.
+The native API is from [CryptoMiniSat](https://github.com/msoos/cryptominisat),
+with the installed Python binding pinned separately in
+`requirements-discovery.txt`. Maintained verification still needs only root
+`requirements.txt`; neither SAT engine is an acceptance authority.
+
+Completed bounded runs on that base are:
+
+| Discovery run | Requested seconds | Completed candidate checks | Result |
+| --- | --- | --- | --- |
+| Plain CNF, unseeded | 180 | 0 | timeout |
+| Plain CNF, known-control phases | 120 | 1 | exact rejection, then timeout |
+| Native XOR, explicit known control | 120 | 4 | four exact rejections, then timeout |
+
+The first candidate in each control-seeded run is reused evidence, not a new
+construction. In the native run the three-point planes all remain the base
+planes; later candidates change one or two short directions. The independent
+checker verifies all 343 normal triples and all three 361-label pair maps for
+each candidate. Every rejection circuit is replayable using
+`verify_stream_reports.py`. No positive potential is found.
+
+The `--vary-plane` option imposes a nonzero graph entry after checking the
+known control, forcing all subsequent candidates to change at least one
+three-point plane. A control audit covers the initial encoding before this
+additional search constraint. Actual run status and completed coverage belong
+to each exported report; an unfinished or timed-out query is not an exclusion.
+
+The first required-plane-change trials, based on normalized classes 000 and
+007, each checked the reused control and then timed out without an additional
+candidate. Their requested budgets were 120 seconds; actual elapsed times
+were about 155 and 140 seconds, respectively. These are cooperative solver
+limits. Neither run is evidence that a changed-plane solution does not exist.
