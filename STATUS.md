@@ -1,5 +1,17 @@
 # Research status
 
+## S5 split-source continuation
+
+The [S5 x C2 package](research/ai/2026-10-21-s5-split/README.md) derives
+an exact conditional2.247 comparison for M(13,14,14), with margin verified
+using integer root intervals. Its actual weighted3-by3 control passes.
+Two SAT runs reached their600-second limits without a projected model;
+the local runs exported32 exact parity contradictions and no lift, all
+replayed. A finite F2 ideal certificate checks the radical
+powers and leaves the target unexcluded by that filtration. Claims
+`AI-S5-SPLIT-028` and `EXP-S5-RADICAL-029` are conditional/finite. The target
+and any smaller exponent remain unconstructed.
+
 ## Joint central-sign search in SL(2,5)
 
 The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)

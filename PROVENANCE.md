@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-21-s5-split` continuation is owner-directed Codex work. It
+reuses the exact rational class-algebra, central-cover, parity and accepted
+witness helpers with their original credits. The S5 permutation/module
+calculations, finite ideal-power certificates, canonicalization and local
+discovery implementation are local work. Standard group representation,
+radical, averaging and modular filtration facts retain their usual and
+explicit external attribution. No independent review or exponent gain is
+claimed.
+
 The `2026-10-20-sl2-five-native-parity` package is owner-directed Codex
 work in the same session as the central-product and Heisenberg packages.
 It reuses the existing SL(2,5) source certificate, central-quotient helpers,

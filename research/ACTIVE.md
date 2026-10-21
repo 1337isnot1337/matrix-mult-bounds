@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The central-group worker's current constructive source is S5 x C2 with
+target M(13,14,14), on `research/s5-split-20261021`. The exact2.247 comparison
+and weighted3-by3 control pass, and the defining-characteristic ideal-power
+calculation does not exclude this target. Two bounded SAT runs found no
+projection; the local runs exported32 exact parity contradictions.
+Verified parity learning and broader central-color constructions are the
+next questions. No smaller exponent is established. Preserve the active
+discovery reports and source certificates when integrating or cleaning.
+
 The mixed-frame worker now studies
 `ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
 closes uniformly for every a and nonzero t: auxiliary projection relations

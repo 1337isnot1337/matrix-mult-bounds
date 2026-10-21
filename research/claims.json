@@ -910,6 +910,60 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-S5-SPLIT-028",
+      "title": "Exact S5 x C2 source and conditional M(13,14,14) target",
+      "status": "conditional-implication",
+      "evidence": "research/ai/2026-10-21-s5-split/README.md",
+      "section": "Exact complex source",
+      "statement": "Exact rational central-idempotent calculation gives S5 degrees [1,1,4,4,5,5,6]; the direct C2 factor doubles this list. The usual degree-cost comparison for M(13,14,14) passes at2247/1000, and the existing rank-locus screen leaves22 dimensions of slack. A faithful five-coset embedding transfers an actual weighted3-by3 control. All28560 endpoint sign colors and the23-point subgroup normalization coverage are checked. The improving target is still missing.",
+      "dependencies": [
+        "Maintained exact rational class-algebra source derivation and source/target root intervals",
+        "Direct-product character rule and explicit S5 permutation multiplication",
+        "Missing strict-potential M(13,14,14) degeneration"
+      ],
+      "limitations": "Conditional source lead only. Necessary-test survivors and small positive controls do not construct the improving target. No independent review, formalization or exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-S5-RADICAL-029",
+      "title": "Finite binary S5 radical-power certificate and a non-exclusion test",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-21-s5-split/README.md",
+      "section": "A finite characteristic-two certificate",
+      "statement": "Two explicit four-dimensional F2 permutation-module representations and augmentation have algebra image rank33 and kernel dimension87. Direct representation checks and independent group convolution verify successive ideal powers with dimensions120,87,62,53,35,26,17,0. The exported bases check28800 representation products and24360 group-algebra products. The corresponding split-source filtration bound does not exclude M(13,14,14).",
+      "dependencies": [
+        "Explicit even-vertex and even-cycle quotient modules over F2",
+        "Exact bit-vector bases, homomorphism identities and ideal-product span certificates",
+        "Standard nilpotent-kernel/semisimple-quotient characterization and credited modular slice-counting method"
+      ],
+      "limitations": "Finite exact calculation and non-exclusion only. No optimality of the filtration, source degeneration, global search completeness, independent review or exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-S5-PARITY-030",
+      "title": "Exact S5 split-cover parity circuits from incremental local discovery",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-21-s5-split/README.md",
+      "section": "Search and exact acceptance",
+      "statement": "The120-second projected local sampler reached two capacity-feasible model events, both with exact induced parity contradictions. A600-second warm-started continuation reused those circuits and exported30 further exact parity contradictions. All32 replay in the actual S5 x C2 quotient; no pair-injective lift was found. Two separate600-second SAT runs found no projected model.",
+      "dependencies": [
+        "Exact projected pair capacities, inverse-class capacities and induced central parity equations",
+        "Exported group-induced circuit rows and their integer xor checks",
+        "Optional SAT/LP discovery packages; acceptance and replay use maintained dependencies"
+      ],
+      "limitations": "Bounded stochastic and solver discovery only. Dynamic energy values and model events are not a sourcewide exclusion, target degeneration or exponent improvement. No independent review or formalization.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }
