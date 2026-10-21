@@ -1,0 +1,132 @@
+{
+  "claim": "Exact cyclic quotient lifts have volume at most (a+b-1)^3.",
+  "rank_certificate_prime": 1000003,
+  "sharp_triangular_projections": [
+    {
+      "a": 2,
+      "b": 2,
+      "quotient_dimension": 3,
+      "short_row_support_dimension_over_Q": 2,
+      "projection_rank_mod_prime": 3,
+      "block_image_rank_mod_prime": 6,
+      "proved_rational_block_rank_upper_bound": 6,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 12,
+      "volume_bound_attained": true
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "quotient_dimension": 4,
+      "short_row_support_dimension_over_Q": 2,
+      "projection_rank_mod_prime": 4,
+      "block_image_rank_mod_prime": 8,
+      "proved_rational_block_rank_upper_bound": 8,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 24,
+      "volume_bound_attained": true
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "quotient_dimension": 5,
+      "short_row_support_dimension_over_Q": 3,
+      "projection_rank_mod_prime": 5,
+      "block_image_rank_mod_prime": 15,
+      "proved_rational_block_rank_upper_bound": 15,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 45,
+      "volume_bound_attained": true
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "quotient_dimension": 6,
+      "short_row_support_dimension_over_Q": 3,
+      "projection_rank_mod_prime": 6,
+      "block_image_rank_mod_prime": 18,
+      "proved_rational_block_rank_upper_bound": 18,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 72,
+      "volume_bound_attained": true
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "quotient_dimension": 7,
+      "short_row_support_dimension_over_Q": 4,
+      "projection_rank_mod_prime": 7,
+      "block_image_rank_mod_prime": 28,
+      "proved_rational_block_rank_upper_bound": 28,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 112,
+      "volume_bound_attained": true
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "quotient_dimension": 10,
+      "short_row_support_dimension_over_Q": 5,
+      "projection_rank_mod_prime": 10,
+      "block_image_rank_mod_prime": 50,
+      "proved_rational_block_rank_upper_bound": 50,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 300,
+      "volume_bound_attained": true
+    },
+    {
+      "a": 8,
+      "b": 8,
+      "quotient_dimension": 15,
+      "short_row_support_dimension_over_Q": 8,
+      "projection_rank_mod_prime": 15,
+      "block_image_rank_mod_prime": 120,
+      "proved_rational_block_rank_upper_bound": 120,
+      "rational_block_rank_certified_exact": true,
+      "direct_physical_block_coefficients_checked": 960,
+      "volume_bound_attained": true
+    }
+  ],
+  "oversized_coordinate_quotients": [
+    {
+      "a": 2,
+      "b": 3,
+      "quotient_dimension": 5,
+      "short_row_support_dimension_over_Q": 2,
+      "source_block_dimension_over_Q": 7,
+      "required_target_block_dimension_over_Q": 10,
+      "source_plus_target_block_dimension_over_Q": 10,
+      "source_block_dimension_upper_bound": 8,
+      "exact_common_block_inclusion_fails": true,
+      "direct_physical_block_coefficients_checked": 30
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "quotient_dimension": 6,
+      "short_row_support_dimension_over_Q": 2,
+      "source_block_dimension_over_Q": 10,
+      "required_target_block_dimension_over_Q": 12,
+      "source_plus_target_block_dimension_over_Q": 18,
+      "source_block_dimension_upper_bound": 10,
+      "exact_common_block_inclusion_fails": true,
+      "direct_physical_block_coefficients_checked": 54
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "quotient_dimension": 8,
+      "short_row_support_dimension_over_Q": 2,
+      "source_block_dimension_over_Q": 14,
+      "required_target_block_dimension_over_Q": 16,
+      "source_plus_target_block_dimension_over_Q": 26,
+      "source_block_dimension_upper_bound": 14,
+      "exact_common_block_inclusion_fails": true,
+      "direct_physical_block_coefficients_checked": 128
+    }
+  ],
+  "critical_volume_ratio_at_smallest_source": "729/1250",
+  "arbitrary_restrictions_excluded": false,
+  "arbitrary_degenerations_excluded": false,
+  "new_exponent_established": false
+}

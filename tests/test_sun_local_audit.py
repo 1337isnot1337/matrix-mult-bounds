@@ -33,5 +33,22 @@ class SunLocalAuditTests(unittest.TestCase):
         self.assertFalse(expected['improves_omega'])
 
 
+    def test_packet_lift_obstruction_and_exact_positive_control(self):
+        spec = importlib.util.spec_from_file_location(
+            'sun_packet_verifier', ROOT / 'research/ai/2026-10-21-sun-local-audit/packet_lift.py')
+        packet = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(packet)
+        expected = json.loads((ROOT / 'results/sun-local-audit-2026-10-21/packet-lift.json').read_text())
+        self.assertEqual(packet.verify(), expected)
+        self.assertEqual(expected['pointwise_checks_including_both_chart_representatives'], 1536)
+        self.assertEqual(expected['M2_coefficient_Koszul']['rank'], 32)
+        self.assertTrue(expected['packetwise_C3_or_D4_lift_excluded'])
+        self.assertTrue(expected['optimistic_Strassen_replacement_bookkeeping']['Strassen_integer_coefficient_identity_verified'])
+        self.assertLess(2435 ** 4, 32 ** 9)
+        self.assertLess(32 ** 9, 2436 ** 4)
+        self.assertFalse(expected['full_preprint_impossibility_claim'])
+        self.assertFalse(expected['improves_omega'])
+
+
 if __name__ == '__main__':
     unittest.main()

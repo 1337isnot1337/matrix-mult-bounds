@@ -1,0 +1,239 @@
+{
+  "claim": "A(a,a+1) -> M(2a-2) direct-sum A(2,a-2), all a>=5",
+  "evidence": "written all-size proof and exact finite coefficient replays",
+  "full_examples": [
+    {
+      "a": 5,
+      "b": 6,
+      "gamma": 1,
+      "kernel_coefficient_determinant": 2,
+      "pencil_basis_determinant": 2,
+      "P_denominator": 2,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true,
+      "source_format": [
+        300,
+        300,
+        300
+      ],
+      "source_terms": 27000,
+      "matrix_block": 8,
+      "residual_parameters": [
+        2,
+        3
+      ],
+      "target_format": [
+        88,
+        88,
+        88
+      ],
+      "target_terms": 728,
+      "matrix_block_terms": 512,
+      "residual_terms": 216,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "numerator_nonzero_counts": [
+        768,
+        768,
+        768
+      ],
+      "numerator_max_absolute_entry": 1
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "gamma": 1,
+      "kernel_coefficient_determinant": -4,
+      "pencil_basis_determinant": 4,
+      "P_denominator": 2,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true,
+      "source_format": [
+        504,
+        504,
+        504
+      ],
+      "source_terms": 74088,
+      "matrix_block": 10,
+      "residual_parameters": [
+        2,
+        4
+      ],
+      "target_format": [
+        140,
+        140,
+        140
+      ],
+      "target_terms": 1512,
+      "matrix_block_terms": 1000,
+      "residual_terms": 512,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "numerator_nonzero_counts": [
+        840,
+        840,
+        840
+      ],
+      "numerator_max_absolute_entry": 1
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "gamma": 1,
+      "kernel_coefficient_determinant": 2,
+      "pencil_basis_determinant": -2,
+      "P_denominator": 2,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true,
+      "source_format": [
+        784,
+        784,
+        784
+      ],
+      "source_terms": 175616,
+      "matrix_block": 12,
+      "residual_parameters": [
+        2,
+        5
+      ],
+      "target_format": [
+        204,
+        204,
+        204
+      ],
+      "target_terms": 2728,
+      "matrix_block_terms": 1728,
+      "residual_terms": 1000,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "numerator_nonzero_counts": [
+        2624,
+        2624,
+        2624
+      ],
+      "numerator_max_absolute_entry": 1
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "gamma": 2,
+      "kernel_coefficient_determinant": -235929600,
+      "pencil_basis_determinant": -235929600,
+      "P_denominator": 960,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true,
+      "source_format": [
+        1152,
+        1152,
+        1152
+      ],
+      "source_terms": 373248,
+      "matrix_block": 14,
+      "residual_parameters": [
+        2,
+        6
+      ],
+      "target_format": [
+        280,
+        280,
+        280
+      ],
+      "target_terms": 4472,
+      "matrix_block_terms": 2744,
+      "residual_terms": 1728,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "numerator_nonzero_counts": [
+        2232,
+        2232,
+        2232
+      ],
+      "numerator_max_absolute_entry": 65536
+    }
+  ],
+  "gamma_two_local_examples": [
+    {
+      "a": 5,
+      "b": 6,
+      "gamma": 2,
+      "kernel_coefficient_determinant": 1056,
+      "pencil_basis_determinant": 1056,
+      "P_denominator": 264,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "gamma": 2,
+      "kernel_coefficient_determinant": -41472,
+      "pencil_basis_determinant": 41472,
+      "P_denominator": 144,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "gamma": 2,
+      "kernel_coefficient_determinant": 2113536,
+      "pencil_basis_determinant": -2113536,
+      "P_denominator": 4128,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "gamma": 2,
+      "kernel_coefficient_determinant": -235929600,
+      "pencil_basis_determinant": -235929600,
+      "P_denominator": 960,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "gamma": 2,
+      "kernel_coefficient_determinant": 68853694464,
+      "pencil_basis_determinant": 68853694464,
+      "P_denominator": 65664,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "gamma": 2,
+      "kernel_coefficient_determinant": -37417755082752,
+      "pencil_basis_determinant": 37417755082752,
+      "P_denominator": 8448,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "gamma": 2,
+      "kernel_coefficient_determinant": 36046389205008384,
+      "pencil_basis_determinant": -36046389205008384,
+      "P_denominator": 1049088,
+      "both_core_inverse_identities_exact": true,
+      "polynomial_kernel_identity_exact": true,
+      "full_residual_convolution_identity_exact": true
+    }
+  ],
+  "original_gamma_one_d7_coefficient_basis_singular": true,
+  "new_exponent_established": false
+}

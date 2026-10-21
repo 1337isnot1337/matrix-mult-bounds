@@ -7,9 +7,9 @@ smaller exponent is claimed.
 ## Result
 
 Within every cyclic source A(a,b) with 2<=a<=b and common leg dimension
-N=ab(a+b-1)<784, no ordinary restriction to a direct sum of square
+N=ab(a+b-1)<960, no ordinary restriction to a direct sum of square
 matrix multiplication tensors can pass this package's finite 9/4 score
-test. The enumeration covers all 51 such integer source formats and
+test. The enumeration covers all 60 such integer source formats and
 all square partitions of their available target leg dimensions.
 
 The necessary conditions give the following exact upper bounds. They
@@ -19,7 +19,9 @@ are maxima of a relaxation; the listed partitions are not constructions.
 | --- | ---: | --- | ---: | ---: | ---: |
 | A(5,5) | 225 | (13,3,1,1,1) | 181 | 18916.994428 | 21952 |
 | A(5,6) | 300 | (15,4,2,1,1) | 247 | 26604.167197 | 29791 |
-| A(7,8) | 784 | (25,5,2,1,1) | 656 | 81228.811889 | 79507 |
+| A(7,8) | 784 | (25,1,1,1) | 628 | 78910.828146 | 79507 |
+| A(7,9) | 945 | (27,6,2) | 769 | 97071.207486 | 97336 |
+| A(8,8) | 960 | (27,7,1,1,1) | 781 | 98288.351249 | 97336 |
 
 Each score is the sum of (6n)^(9/4) over the square block sizes n.
 The displayed upper bounds have exact denominator 10^6. For example,
@@ -32,15 +34,15 @@ The displayed upper bounds have exact denominator 10^6. For example,
 
 for every ordinary square direct-sum target of A(5,5).
 
-The first surviving source format is A(7,8). A simpler two-block target
+The first surviving source format is A(8,8). A simpler two-block target
 that passes these necessary tests is
 
 \[
-A(7,8)\longrightarrow M_{25}\oplus M_5,             \tag{1}
+A(8,8)\longrightarrow M_{27}\oplus M_7,             \tag{1}
 \]
 
-with total leg dimension 650. The maps in (1) are missing. If constructed,
-they would imply omega<2247/1000=2.247 through the existing character
+with total leg dimension 778. The maps in (1) are missing. If constructed,
+they would imply omega<4497/2000=2.2485 through the existing character
 comparison. This number is conditional, not an attained exponent.
 
 The negative result concerns ordinary restrictions and the stated square
@@ -89,13 +91,26 @@ at most r. Selecting r long coordinates then injects the entire lifted
 block into r copies of the ab-dimensional polynomial coefficient space.
 The supporting scheme may depend on x,z; constancy is not assumed.
 
+The separately proved
+[first-boundary theorem](hankel_boundary_dimension.md) adds exactly
+the next sequence length, with a different dimension cap when r<4:
+
+\[
+2\le r<\min(a,b),\quad a+b-1=3r-1,\quad n^2>\max(r,4)ab
+\quad\Longrightarrow\quad n+2k\ge(r+1)ab.             \tag{6}
+\]
+
+Its proof classifies moving linear spaces at this boundary using a
+Chinese remainder argument and the unique relation among 3r jets.
+It does not justify any extension to a+b-1<3r-1.
+
 There is also a narrow equality refinement. The
 [rank-two equality theorem](parity_structure_equality.md) and
 [three-leg argument](hankel_rank_two.md) show that, when a,b>=3 and
 a+b-1>=6, an n>=3 block must satisfy
 
 \[
-n+2k>2ab.                                          \tag{6}
+n+2k>2ab.                                          \tag{7}
 \]
 
 At equality, the lifted rank-one parameters have constant length-two
@@ -125,7 +140,7 @@ computed by two applications of integer square root, with the defining
 inequalities explicitly checked. No floating-point sign decides an
 acceptance comparison.
 
-At each fixed D, let L be the block sizes allowed by (2)--(6). Starting
+At each fixed D, let L be the block sizes allowed by (2)--(7). Starting
 from F(0)=0 and marking other positions unreachable, use
 
 \[
@@ -138,11 +153,13 @@ scalar is allowed but two are not, run the recurrence without scalars
 and compare F(D) with F(D-1)+U_1. This enforces the exact multiplicity
 condition. Unreachable dimensions are recorded explicitly.
 
-The report contains 52 source records through N=784, the complete
+The report contains 62 source records through N=960, the complete
 225-row dimension frontier for A(5,5), and the first passing source.
-All 51 smaller source formats have maximum upper bounds strictly below
+All 60 smaller source formats have maximum upper bounds strictly below
 [3(a+b)-2]^3. Each record includes the exact score denominator, permitted
-Hankel rank levels, and a maximizing relaxed partition.
+Hankel rank levels, the separate first-boundary cap when applicable,
+and a maximizing relaxed partition. The other format at N=960,
+A(5,12), also remains below its critical score threshold.
 
 ## Conditional surviving target
 
@@ -150,29 +167,35 @@ For (1), the existing two-orientation character argument gives the
 necessary comparison
 
 \[
-150^{\omega}+30^{\omega}\le43^3
+162^{\omega}+42^{\omega}\le46^3
 \]
 
 in the detecting-character implication described in the package README.
 More precisely, a strict violation at an exponent c excludes detecting
-characters with total dot-product parameter at least c. At c=2247/1000,
+characters with total dot-product parameter at least c. At c=4497/2000,
 the following integer checks give the strict violation:
 
 \[
-150^{2247}>77567^{1000},\qquad
-30^{2247}>2084^{1000},\qquad
-77567+2084=79651>79507=43^3.
+162^{4497}>92916^{2000},\qquad
+42^{4497}>4465^{2000},\qquad
+92916+4465=97381>97336=46^3.
 \]
 
-The scalar equation has a numerical root near 2.24663342185635.
+The scalar equation has a numerical root near 2.248405133592566.
 That estimate is not the certificate. The integer comparisons prove the
-conditional bound 2.247; no maps establishing its premise are given.
+conditional bound 2.2485; no maps establishing its premise are given.
 
 ## Change from the preceding checkpoint
 
-The earlier checkpoint used only the strict low-rank classification and
+The preceding checkpoint left A(7,8) to M25 plus M5 as an ordinary
+candidate with a conditional exponent below 2.247. Equation (6), with
+r=5, closes that target: 25+2(784-650)=293<336, while 625>5*56.
+The full partition screen also closes every square direct sum from
+A(7,8), by the exact maximum 78910.828146<79507 above.
+
+An older checkpoint used only the strict low-rank classification and
 left A(5,6) to M16 plus M4 as a candidate. Equation (5), with r=3,
-now excludes even a single ordinary M16 block from that source:
+excludes even a single ordinary M16 block from that source:
 
 \[
 16+2(300-256)=104<120,\qquad16^2>3\cdot30.

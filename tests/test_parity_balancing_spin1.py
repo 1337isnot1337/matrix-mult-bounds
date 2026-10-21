@@ -43,6 +43,12 @@ class SpinOneScalarConstructionTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             VERIFY.verify_certificate(altered)
 
+    def test_full_a23_composition(self):
+        path = ROOT / 'results/anisotropic-constructions-2026-10-20/parity_balancing_a23_m3.json'
+        report = VERIFY.verify_a23_certificate(json.loads(path.read_text()))
+        self.assertTrue(report['full_A23_exact_M3_identity'])
+        self.assertFalse(report['extra_scalar_source'])
+
 
 if __name__ == '__main__':
     unittest.main()

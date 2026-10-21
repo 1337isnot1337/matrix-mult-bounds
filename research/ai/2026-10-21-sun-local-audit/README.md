@@ -113,3 +113,21 @@ Only the Python standard library is required. The external mathematical data and
 
 The inspected HTML snapshot has SHA256
 `9c811f797344442cabe78f3b793ed74e0d986274567ec77e3ef1e23f8565171b`.
+
+## Follow-up: a packetwise lifting obstruction
+
+The [packet audit](packet_lift.md) reconstructs each printed generic
+layer-one packet contribution on a 4-by-4-by-4 target subspace. It is
+exactly one sixteenth of M2, including both representatives of every
+chart. A directly assembled Koszul map has rank 32, greater than the
+rank-30 ceiling for that packet's stated border cost five. Thus those
+individual printed summands cannot each be supplied by the assigned C3
+or D4 source packet.
+
+This excludes a packet-by-packet lift preserving the printed contributions.
+It does not exclude constructions that mix contributions or cancel
+negative Laurent coefficients across different packets. The exact replay
+covers 1,536 chart coefficients and also diagnoses the narrower additive
+linear phase assignment. A straightforward Strassen replacement would
+raise the recorded budget to 2512 before the other unresolved gluing
+conditions are met; this bookkeeping is not a construction.
