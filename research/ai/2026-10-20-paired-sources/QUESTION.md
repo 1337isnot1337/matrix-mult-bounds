@@ -15,10 +15,20 @@ and excludes the promising full-format size-five direct sum below. A finite
 integer budget certificate bounds all one-copy matrix-block extraction
 scores at a=4. These are source and method obstructions, not exponent gains.
 
-Selected open construction: P_6 degenerating to M(6,10,6), in formats
+The initially selected construction was P_6 degenerating to M(6,10,6), in formats
 (36,66,66) to (36,60,60). It would imply omega<=2.235 by the existing
 spectral and convolution inequalities. The source has border rank at most
 121. Ordinary restrictions and the adopted coordinate-input ansatz are
 excluded; a construction must use genuine input mixing and a singular
-family. The first Koszul ranks do not exclude it. Stronger necessary tests
-and an actual coefficient construction remain open.
+family. The first Koszul ranks do not exclude it. The later all-power
+formula now excludes it at power seven, with target rank exceeding source
+rank by 1456180.
+
+Current question: locate the first improving paired matrix target that
+survives every first-leg Koszul test, or move to joint extraction and
+general Laurent input families. The full finite frontier through a=13
+has 239 improving dimension-compatible shapes modulo B/C exchange; all are
+excluded. The frontier is complete through a=16, with 28 survivors first appearing
+at a=14. For example P_14 to M(14,18,14) passes every first-leg power
+and the ordinary minimum-slice necessary test. It is unconstructed. No
+surviving necessary test will be treated as a construction.

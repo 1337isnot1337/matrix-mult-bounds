@@ -371,7 +371,7 @@ scalars. A joint index-and-valuation word supplies one common arithmetic
 interval for the rank argument. An exact size-three control verifies the
 broader model. This written proof leaves actual input mixing open.
 
-## Paired convolution source kernel
+## Paired convolution source ranks
 
 The [paired-source proof](research/ai/2026-10-20-paired-sources/research_note.md)
 computes an exact first Koszul kernel of dimension 3a-2 for two oppositely
@@ -382,10 +382,17 @@ the one-copy size-four factorwise matrix-block method below the finite
 profile-improvement threshold. These written and finite results do not
 exclude joint extraction from the full source or its powers.
 
-The selected open target P_6 to M(6,10,6) would imply omega<=2.235, with
-an exact integer threshold certificate. No such degeneration is constructed.
-Ordinary restrictions and the adopted coordinate-input models are excluded;
-all three first Koszul ranks leave the genuinely mixed singular case open.
+The [all-power formula](research/ai/2026-10-20-paired-sources/all_koszul.md)
+now gives every first-leg source rank. A separately derived matrix formula,
+crediting Landsberg--Ottaviani's kernel inclusion, supplies exact comparison
+ranks over C, and a second cohomological argument gives the same ranks
+over every field. These written, unreviewed arguments exclude the initially
+selected P_6 to M(6,10,6) target at power seven. Its former conditional
+2.235 implication therefore has an excluded premise. The complete finite
+frontier through a=13 contains 239 improving dimension-compatible single
+matrix targets, modulo B/C exchange; all are excluded by saved rank
+witnesses. The frontier through a=16 has 28 survivors, first at a=14.
+No surviving target is constructed; joint extraction remains open.
 
 ## Polynomial flags and numerical calibration
 

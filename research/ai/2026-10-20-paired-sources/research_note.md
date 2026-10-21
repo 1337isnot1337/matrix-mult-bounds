@@ -7,6 +7,11 @@ ceiling is the concurrent Koszul worker's existing finite-amplitude result.
 
 ## 1. Source and exact first Koszul kernel
 
+The subsequent [all-power calculation](all_koszul.md) now gives every
+first-leg Koszul rank and excludes the size-six target considered in
+Section 4. Its matrix comparison is derived in [matrix_koszul.md](matrix_koszul.md).
+The earlier first-rank and budget arguments remain valid.
+
 Put D=a-1 and h=2a-1. Pair two copies of C(a,a) with their second and third
 legs exchanged. Their tensor P_a has first coordinates A_(p,q), second
 coordinates B_(y,j), and third coordinates C_(z,v), and coefficients
@@ -135,13 +140,16 @@ needed finite profile gain. This is a limitation on the method, not an
 upper bound on actual P(4,4), and not a proof that S_4 cannot degenerate
 to M106. Joint extraction from paired factors or their powers remains open.
 
-## 4. A smaller open construction implying an exponent gain
+## 4. A finite target subsequently excluded by higher Koszul ranks
 
-The next single-matrix paired target is
+The initial next single-matrix paired target was
 
     P_6 -> M(6,10,6),                               (H)
 
-in formats (36,66,66) to (36,60,60). No such degeneration is constructed.
+in formats (36,66,66) to (36,60,60). It is now excluded by the all-power
+formula: at power 7 the source rank is 499196720 and the target rank is
+500652900. The conditional exponent calculation is retained to explain
+the target selection; its premise is impossible under the written proof.
 Three cyclic copies would give S_6 -> M(360,360,360). By the existing
 spectral rules this implies P(6,6)>=sqrt(360). Combining it with the
 existing finite upper bound 6P(6,6)<=34^(1/t) gives
@@ -152,9 +160,9 @@ The final strict comparison has the exact certificate
 
     12960^2235 > 34^6000.
 
-Thus (H) is a sufficient finite construction target for omega<=2.235.
-It needs no separate unbounded family once the actual degeneration is
-proved. The first Koszul ranks are 2360 on the source and 2160 on the
+Thus (H) would have been sufficient for omega<=2.235 without a separate
+unbounded family. It is not an active construction target after the
+higher-rank exclusion. The first Koszul ranks are 2360 on the source and 2160 on the
 target, so that necessary test does not exclude it. On the other two legs,
 both source and padded target have injective first Koszul maps of rank
 2376, as certified by modular full-column ranks. The recorded higher
@@ -191,7 +199,9 @@ tensor (Z/11)^2. The previously proved Laurent coordinate-input screen,
 adopted from `../2026-10-20-koszul/finite_target_screens.md`, excludes any
 two coordinate input maps even with arbitrary Laurent mixing on the third
 leg: its left side is 288>121 for a large output leg, or 360>121 for the
-small output leg. General mixed input families remain open.
+small output leg. These weaker screens alone leave general mixed input
+families open; the later power-seven comparison excludes this specific
+target even with general complex Laurent maps.
 
 The triangular-minor argument is the same elementary mechanism used in
 the concurrent `cyclic_finite_target.md`, Section 2, for its three-factor

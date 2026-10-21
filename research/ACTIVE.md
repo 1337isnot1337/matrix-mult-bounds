@@ -71,12 +71,14 @@ open, with no Hensel certificate from the completed small-field pilots.
    Koszul kernel for every size. It excludes full-capacity M(a,2a-1,a) and
    the otherwise promising size-five matrix direct sum. The complete size-four
    one-copy matrix-block score certificate is below the needed finite gain.
-2. Selected construction question: P_6 to M(6,10,6), in formats (36,66,66)
-   to (36,60,60). This would imply omega<=2.235 once an actual degeneration
-   is proved. Ordinary restrictions and any two coordinate-input maps with
-   arbitrary Laurent output are excluded. All three first Koszul ranks leave
-   it open. Investigate genuinely mixed singular maps and stronger tests;
-   coarse higher grading bounds are not actual Koszul ranks.
+2. The new all-power formula excludes the former P_6 to M(6,10,6) target
+   at power seven, with rank gap 1,456,180. The complete first-leg frontier
+   through a=13 excludes all 239 improving dimension-compatible single
+   matrix shapes modulo B/C exchange. The source proof works over every
+   field. A separate cohomological matrix proof now gives an efficient
+   alternating sum over every field, agreeing with the complex Casimir
+   calculation. The complete frontier through a=16 has 28 survivors,
+   first at a=14. No surviving target is constructed; proofs are unreviewed.
 3. Joint extraction from paired factors or their powers, general nonmonic
    balanced coefficients, and arbitrary Laurent input families remain open.
    Do not repeat the closed regular-shared and separated-weight experiments.

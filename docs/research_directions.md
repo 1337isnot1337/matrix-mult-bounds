@@ -117,13 +117,13 @@ also requires its own proof; the scalar subrank formula is insufficient by itsel
 ## Work selection
 
 The product worker's [paired-source calculation](../research/ai/2026-10-20-paired-sources/research_note.md)
-gives a smaller finite construction question: P_6 to M(6,10,6), in formats
-(36,66,66) to (36,60,60). It would imply omega<=2.235, but no degeneration
-is constructed. The new all-size first Koszul kernel excludes the full-capacity
-pair and a size-five direct sum. Ordinary restrictions and coordinate-input
-models are also excluded for the selected target; general mixed singular
-maps remain open. Coordinate recoupling and arbitrary Laurent maps are
-different search classes, so state which is being investigated.
+now includes an [all-power rank formula](../research/ai/2026-10-20-paired-sources/all_koszul.md).
+It excludes the initially selected P_6 to M(6,10,6) target at power seven.
+The complete finite frontier through a=13 excludes all 239 improving,
+dimension-compatible single matrix shapes modulo B/C exchange. Do not fit
+those closed targets. Larger paired matrix targets, joint extraction from
+paired factors, and genuinely varying recoupling bases remain construction
+questions. Passing a necessary rank test would not supply a degeneration.
 
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
