@@ -12,6 +12,14 @@ package checks those blocks with Koszul flattenings and records a
 [root-of-unity realization](root_quotient.md) of the formal vertex character.
 Neither supplies the missing simultaneous maps.
 
+The [stronger ordinary-map screen](../2026-10-20-anisotropic-constructions/polynomial_rank_locus.md),
+now integrated from PR28, excludes ordinary restrictions for all three
+selected targets. Its first-leg tests are 7+3+3<18 at a=3,
+11+2+2<32 at a=4, and 15+15+15<50 at a=5, with the target
+first-leg dimensions exceeding a squared. Thus further construction work
+on these targets requires singular maps; passing the block tests below
+does not reopen the ordinary class.
+
 ## Block conventions and exact rank directions
 
 Use source coordinates A=(i,k,s), B=(j,p,L), C=(H,q,r), with terms at
