@@ -836,6 +836,18 @@ A separate necessary bound caps the second partial saturated space at
 outside those spaces remains open, and compatible first-order directions
 that do so exist. These written proofs are unreviewed.
 
+## Maximal first jets with moving leading rows
+
+[AI-QUANTUM-MAXIMAL-JET-077](research/ai/2026-10-21-moving-boundary-flags/proof.md)
+extends the boundary obstruction to moving leading rows when both outside
+first-jet quotient ranks are 16. Exact linear systems leave only four
+normal directions. They move a common polynomial plane, and a formal
+induction confines the full maps to spaces of dimension 56. Thus these
+maximal first extensions cannot reach M(10,10,11) at any order. At least
+one first extension must be rank-deficient for a possible construction
+with the same leading maps. The written proof is unreviewed; delayed
+growth and other flags remain open, and the exponent is unchanged.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
