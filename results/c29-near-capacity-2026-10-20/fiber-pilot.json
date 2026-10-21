@@ -1,0 +1,54 @@
+{
+  "group": "C29:C4",
+  "shape": [
+    10,
+    10,
+    10
+  ],
+  "large_scalars": [
+    1,
+    28
+  ],
+  "large_directions": [
+    1,
+    3,
+    9
+  ],
+  "short_direction_domains": [
+    [
+      1,
+      2,
+      4,
+      7,
+      10,
+      13
+    ],
+    [
+      3,
+      4,
+      5,
+      6,
+      14
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  ],
+  "short_direction_choices_checked": 180,
+  "normal_triple_choices_passing": 103,
+  "first_pair_failures": {
+    "0,1,q=1": 69,
+    "1,2,q=1": 20,
+    "2,0,q=1": 2,
+    "0,1,q=12": 12
+  },
+  "survivors": [],
+  "search_nodes": 1080,
+  "scope": "Finite C29:C4 local pilot: opposite large fibers, constant AP directions.\n\nThree-point fibers lie over 1,-1 and use directions 1,3,9. Two-point fibers\nlie over the other two scalar cosets and share a direction within a family.\nOffsets are relaxed independently in every pair quotient. A local survivor\nis not a global construction or a positive-potential witness.\n",
+  "improves_omega": false
+}
