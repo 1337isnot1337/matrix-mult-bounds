@@ -13,7 +13,7 @@ sys.path.insert(0,str(PACKAGE))
 sys.path.insert(0,str(PACKAGE.parent/'2026-10-20-paired-sources'))
 import koszul_tables
 import pair_averaging
-import source_frontier
+import f8_source_frontier
 import graph_certificate
 from all_ranks import matrix_basic_rank
 from verify_stream_reports import verify_report
@@ -72,8 +72,8 @@ class UnequalF8Tests(unittest.TestCase):
         with self.assertRaises(ValueError):
             pair_averaging.coverage(pair_averaging.classes(16)[:-1],16)
 
-    def test_source_frontier_and_unconstructed_count_survivor(self):
-        result = source_frontier.report()
+    def test_f8_source_frontier_and_unconstructed_count_survivor(self):
+        result = f8_source_frontier.report()
         self.assertEqual(result,load('source-frontier.json'))
         self.assertEqual(len(result['rank_locus_surviving_shapes']),26)
         self.assertEqual(len(result['minimal_surviving_shapes']),12)
