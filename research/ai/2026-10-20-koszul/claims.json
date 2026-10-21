@@ -160,6 +160,108 @@
       "statement": "For constant P,Q,G followed by the specified monomial degree weights, alpha>(m-1)*abs(beta) has the catalecticant cost obstruction; 0<alpha<=beta requires B>=k*(2N-floor(m^2/4)-1)-(m-1).",
       "evidence": "arbitrary_shared_basis.md, Sections 6-7; tests/test_rotated_catalecticants.py",
       "limitations": "Intermediate slopes and arbitrary parameter-dependent shared maps remain open. Ten retained floating runs are diagnostics in the now-excluded dominant-degree class, not certificates."
+    },
+    {
+      "id": "AI-INTERMEDIATE-WEIGHT-COVERS-033",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Exact slice covers give asymptotic source ratio at least 2-r/2 when alpha/beta tends to r in [1,2]. The balanced (2,1) direction requires B>=k*(N+floor(m/2))-(m-1), excluding m=4,B=10k for k>=2.",
+      "evidence": "intermediate_weights.md; ../../../results/koszul-2026-10-20/weight_slice_covers.json; tests/test_weight_slice_covers.py",
+      "limitations": "Constant P,Q,G followed by the specified weights only. The single-copy balanced m=4 case, its growing-m analogue, larger intermediate slopes and general Laurent maps are not excluded. No exponent improvement is established."
+    },
+    {
+      "id": "AI-FINITE-AMPLITUDE-CRITERION-034",
+      "status": "conditional-implication",
+      "statement": "Existing tripling and two-sector constructions imply 6P(a,a)<=(6a-2)^(1/t). Either the stated universal near-endpoint lower bound P(4,4)>=5005/486, or a degeneration of the product of all six leg permutations of C(4,4) to M(106,106,106), implies omega<=2249/1000 with exact integer certificates.",
+      "evidence": "finite_amplitude.md, Sections 1-2; ../../../results/koszul-2026-10-20/finite_amplitude.json",
+      "limitations": "The new universal profile lower bound is unproved and the M(106,106,106) degeneration is unconstructed. The displayed smaller exponent is conditional and not established.",
+      "attribution": "Combines OpenAI's shifted tripling and detection with the concurrent two-sector construction at f6f307c."
+    },
+    {
+      "id": "AI-MATRIX-EXTRACTION-DIMENSION-035",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "At an endpoint character, extracting independent matrix products from any power of the fully symmetrized C(a,a) can force a profile lower bound no greater than sqrt(a*a*(2a-1)). This cannot cross the finite endpoint ceiling for a=1,2,3; a=4 is the first diagonal not excluded by the screen.",
+      "evidence": "finite_amplitude.md, Section 3; tests/test_finite_amplitude.py",
+      "limitations": "Only this source and direct-sum matrix targets without extra source tensors are covered. No surviving extraction or exponent improvement is constructed.",
+      "dependencies": [
+        "Uzna\u0144ski arXiv:2610.10494v2 Proposition 5.2",
+        "Elementary Holder and flattening-rank bounds"
+      ]
+    },
+    {
+      "id": "EXP-INTERMEDIATE-PERMUTATIONS-036",
+      "status": "bounded-floating-exploration",
+      "statement": "Eleven nonaffine shared permutations at m=4,B=10,direction (5,2) completed 600-evaluation fits each. No exact witness was obtained; saved full-tensor diagnostics do not show a small tensor error.",
+      "evidence": "permutation_probe.md; ../../../results/koszul-2026-10-20/intermediate-permutations/summary.json",
+      "limitations": "Floating fits and sampled epsilon errors are neither exact certificates nor impossibility proofs."
+    },
+    {
+      "id": "AI-COORDINATE-MATRIX-EXTRACTION-037",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For powers of the fully symmetrized C(a,a), coordinate injections and diagonal weights into independent matrix products can force a profile lower bound no greater than (a^8*(2a-1)^5)^(1/9). At a=4 this is below the finite endpoint ceiling, excluding that route at every power; a single square target is at most M49.",
+      "evidence": "finite_amplitude.md, Section 5; tests/test_finite_amplitude.py",
+      "limitations": "General linear combinations and cancellations are not covered. This is a limitation on the extraction method, not an upper bound on the actual character profile or an exponent result.",
+      "attribution": "Applies the abelian opposite-relation argument of concurrent dcfc1ef, with explicit label factorization, group embedding, and Holder dimension accounting."
+    },
+    {
+      "id": "AI-QUANTUM-CONVOLUTION-SCREEN-038",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Explicit invertible diagonal scaling gives uniform marginals for every complex C(a,b). Every singleton quantum functional has value V_a^2 on the six-permutation product S_a and n^2 on M(n,n,n), so this whole family permits the H106 finite target.",
+      "evidence": "finite_target_screens.md, Section 1; ../../../results/koszul-2026-10-20/finite_target_screens.json; tests/test_finite_target_screens.py",
+      "limitations": "These spectral points need not exhaust the spectrum; their necessary inequalities do not construct a degeneration.",
+      "attribution": "Uses Christandl-Vrana-Zuiddam arXiv:1709.07851v3 Definition 3.16 and Theorem 3.30; elementary binomial normalization rederived with no priority claim."
+    },
+    {
+      "id": "AI-COORDINATE-ENTROPY-LOSS-039",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Every diagonal-weight coordinate extraction of independent matrix products from S_a^q has endpoint profile-certificate ceiling (a^8*(2a-1)^5)^(1/9)*exp(-2/[81*(2a-1)^2]). This is below the finite critical ceiling also at a=5, for all powers q.",
+      "evidence": "finite_target_screens.md, Section 2; ../../../results/koszul-2026-10-20/finite_target_screens.json; tests/test_finite_target_screens.py",
+      "limitations": "A ceiling on this extraction method, not on actual character values. Does not exclude general linear input mixing or arbitrary Laurent maps, and the stated finite comparison does not close all a>=6.",
+      "attribution": "Extends the adopted abelian opposite-relation bound from concurrent dcfc1ef using integer potential widths and an elementary entropy deficit."
+    },
+    {
+      "id": "AI-LAURENT-OUTPUT-MATRIX-SCREEN-040",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "For a coordinate restriction of an abelian group tensor G with third-leg dimension d, coordinate injections with nonzero Laurent scalars on the first two legs and arbitrary Laurent output can degenerate to M(l,h,n) only if h*(3*l*n-2*d)<=|G|. For S_4 this forces square targets n<=93 and excludes H106 in that class.",
+      "evidence": "finite_target_screens.md, Section 3; ../../../results/koszul-2026-10-20/finite_target_screens.json; tests/test_finite_target_screens.py",
+      "limitations": "Neither a construction of M93 nor an obstruction to arbitrary mixing of input coordinates. Written proof remains unreviewed.",
+      "attribution": "Adopts the Laurent active-set disjointness lemma merged at 7d97155 and the abelian opposite-relation lemma at dcfc1ef; adds the dense singleton-component argument."
+    },
+    {
+      "id": "AI-CYCLIC-FINITE-TARGET-041",
+      "status": "conditional-implication",
+      "statement": "A degeneration of the cyclic product A_4 of three C(4,4) tensors to M(10,10,11) would imply omega<=281/125=2.248. This is the only sorted single-matrix target passing both the leg budget and strict endpoint gain at this source.",
+      "evidence": "cyclic_finite_target.md, Section 1; ../../../results/koszul-2026-10-20/cyclic_finite_target.json",
+      "limitations": "The degeneration is unconstructed. Source leg dimension 112 and border rank at most 343 are necessary data, not existence evidence.",
+      "attribution": "Uses the previously attributed convolution inequalities and character detection; leg symmetry permits the geometric mean over unequal matrix-character parameters."
+    },
+    {
+      "id": "AI-CYCLIC-MINIMUM-SLICE-RANK-042",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "The minimum matrix rank of a nonzero slice of A_a is exactly a^2 over every field. Consequently constant linear restrictions to M(l,h,n) require all three cyclic inequalities n*(l+h-1)<=2*a^2*(2*a-1)-a^2. This excludes A_4 to M(10,10,11) by constant maps.",
+      "evidence": "cyclic_finite_target.md, Sections 2-3; tests/test_cyclic_finite_target.py",
+      "limitations": "Minimum nonzero matrix-slice rank is not the tensor slice-rank invariant. This constant-map obstruction does not exclude genuinely singular degeneration."
+    },
+    {
+      "id": "AI-CYCLIC-MINIMUM-RANK-LOCUS-043",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "Over C and a>=2, minimum-rank slices of A_a are precisely the products u_i*h_k*v_s with rank-one Hankel h. Their affine cone has dimension 2a. The resulting projective dimension obstruction excludes constant linear restriction A_5 to M(13,13,17).",
+      "evidence": "cyclic_finite_target.md, Section 4; ../../../results/koszul-2026-10-20/cyclic_finite_target.json",
+      "limitations": "The classification proof is unreviewed. The complete 4095-slice F2 control at a=2 checks finite cases, not the complex all-size theorem. Arbitrary degeneration remains open."
+    },
+    {
+      "id": "EXP-CYCLIC-RECOUPLING-044",
+      "status": "finite-exact-experiment",
+      "statement": "Exact cyclic-source recoupling at a=2,3,4 supplies complete coefficients, uniform scalar marginals and verified multiplicity factorizations. Sampled path and grouped searches have no matching-profile violation. Exhaustive normalized binary input weights and all output subsets give 253, 24156 and 1797505 distinct grouped supports, all strictly below the comparison under the stated exact scorer.",
+      "evidence": "../2026-10-20-cyclic-recoupling/README.md; ../../../results/cyclic-recoupling-2026-10-20/",
+      "limitations": "Only the stated finite sources, sampled and binary supports, and certified scoring grammar are covered. No other weights, multiplicity-basis changes or stronger proved block values are excluded. No exponent improvement is established.",
+      "attribution": "Reuses the concurrent rational CG and exact scoring utilities; scalar subrank uses Strassen through CVZ arXiv:1609.07476v2 Theorem 1.1.31."
+    },
+    {
+      "id": "AI-CYCLIC-CENTRAL-MULTIPLICITY-045",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "The central (6,6,6) recoupling multiplicity tensor at a=4 has dimensions (4,4,4) but admits no ordinary restriction to M(2,2,2): its slice determinant has a squarefree quartic specialization, whereas the M2 determinant is a quadratic square.",
+      "evidence": "../2026-10-20-cyclic-recoupling/README.md; ../../../results/cyclic-recoupling-2026-10-20/central-multiplicity-screen.json",
+      "limitations": "The determinant argument excludes constant invertible changes and ordinary restrictions in the same concise format; it does not exclude arbitrary degeneration or establish a smaller exponent."
     }
   ]
 }

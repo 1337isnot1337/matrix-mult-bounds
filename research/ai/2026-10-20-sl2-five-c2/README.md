@@ -18,3 +18,8 @@ product, excludes all central pairs by the proved quotient rule, introduces
 60 central-orbit presence variables per leg, and normalizes a large fiber
 into an explicitly checked order-48 subgroup of index five. Acceptance still
 checks every group product and integer weight. A timeout is no exclusion.
+
+The [structured parent note](structured_note.md) records an exact exclusion
+of 1,000 explicitly enumerated ten-point section triples. Every rejection
+has an independently replayed positive integer Farkas circuit. This closes
+that finite parent class, while the selected (13,13,15) target remains open.

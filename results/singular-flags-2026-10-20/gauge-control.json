@@ -1,0 +1,84 @@
+{
+  "scope": "Exact source-family negative calibration; not an exponent or source nonexistence result.",
+  "cases": [
+    {
+      "scale": "1",
+      "coefficients_checked": 18,
+      "masked_squared_error": "1",
+      "full_squared_error": "4",
+      "unwanted_weights": [
+        -3,
+        1,
+        1,
+        4
+      ],
+      "pole_in_original_parameter_direction": true
+    },
+    {
+      "scale": "2",
+      "coefficients_checked": 18,
+      "masked_squared_error": "1/64",
+      "full_squared_error": "16897/64",
+      "unwanted_weights": [
+        -3,
+        1,
+        1,
+        4
+      ],
+      "pole_in_original_parameter_direction": true
+    },
+    {
+      "scale": "4",
+      "coefficients_checked": 18,
+      "masked_squared_error": "1/4096",
+      "full_squared_error": "268566529/4096",
+      "unwanted_weights": [
+        -3,
+        1,
+        1,
+        4
+      ],
+      "pole_in_original_parameter_direction": true
+    },
+    {
+      "scale": "8",
+      "coefficients_checked": 18,
+      "masked_squared_error": "1/262144",
+      "full_squared_error": "4398080065537/262144",
+      "unwanted_weights": [
+        -3,
+        1,
+        1,
+        4
+      ],
+      "pole_in_original_parameter_direction": true
+    },
+    {
+      "scale": "16",
+      "coefficients_checked": 18,
+      "masked_squared_error": "1/16777216",
+      "full_squared_error": "72057602627862529/16777216",
+      "unwanted_weights": [
+        -3,
+        1,
+        1,
+        4
+      ],
+      "pole_in_original_parameter_direction": true
+    },
+    {
+      "scale": "32",
+      "coefficients_checked": 18,
+      "masked_squared_error": "1/1073741824",
+      "full_squared_error": "1180591622916434558977/1073741824",
+      "unwanted_weights": [
+        -3,
+        1,
+        1,
+        4
+      ],
+      "pole_in_original_parameter_direction": true
+    }
+  ],
+  "floating_values_used_for_acceptance": false
+}

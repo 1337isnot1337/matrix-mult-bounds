@@ -33,10 +33,14 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/asymptotic-capacity-20261020`.
+Branch: `research/paired-source-kernel-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
+PR #4 merged the quantitative capacity theorem at `34c2367` after the
+required CI check passed. Its incorporated branch was removed as well.
 The merged `research/product-filtration-20261020` branch was removed.
+PR #10 merged the Laurent-output extension at `7d97155` after current CI;
+its fully incorporated local and remote task branches were removed.
 Preserve other workers' active branches and the first-pass archive.
 
 Current results:
@@ -52,27 +56,42 @@ Current results:
    arbitrary nonzero scalars, constant output mixing and diagonal weights.
    It permits arbitrary canonical target-copy counts and limsup A/m<=5/4.
    This exceeds the required approximately 1.020472. The proof is written
-   and unreviewed; general constant input mixing remains outside its scope.
+   and unreviewed. The joint-word extension now allows arbitrary Laurent
+   output maps while retaining monomial input maps. Actual input mixing
+   remains outside the proof.
 
 Current queue:
 
-1. Search a genuinely nondiagonal shared basis followed by nontrivial shared
-   weights. A fixed shared basis with regular invertible limit is already
-   excluded by concurrent 8e0a766. Shared weights are therefore essential.
-   The selected exact discovery model fixes an integer shared basis, searches
-   a Y coordinate injection and arbitrary rational output coefficients, and
-   accepts only an independently replayed coefficient witness. Identity m=2
-   is its positive control. The dense Hadamard m=4 pilot is UNSAT; an opposite Newton-basis pilot
-   adds nondiagonal input mixing. Its m=2 control is SAT and independently
-   replayed. Its m=4 query is also UNSAT; the result is finite and does not
-   exclude general nondiagonal shared maps.
-2. If a finite witness appears, extract its structural pattern, quantify all
-   source overhead and prove the required unbounded family. A single finite
-   matching-profile violation does not establish an exponent.
-3. If this ansatz is also obstructed, move to general Laurent shared maps or
-   a different source-wide mechanism. Do not repeat unchanged closed grids.
+PR #15 merged the balanced coefficient reduction at `9b2fcc3` after current
+CI and 219 combined tests. The merged tree matches the verified head; its
+local and remote task branches were removed. The monic equations remain
+open, with no Hensel certificate from the completed small-field pilots.
 
-Latest local validation: 174 combined tests after integrating 424dd92;
+1. The new paired-source calculation proves an exact 3a-2 dimensional first
+   Koszul kernel for every size. It excludes full-capacity M(a,2a-1,a) and
+   the otherwise promising size-five matrix direct sum. The complete size-four
+   one-copy matrix-block score certificate is below the needed finite gain.
+2. The new all-power formula excludes the former P_6 to M(6,10,6) target
+   at power seven, with rank gap 1,456,180. The complete first-leg frontier
+   through a=13 excludes all 239 improving dimension-compatible single
+   matrix shapes modulo B/C exchange. The source proof works over every
+   field. A separate cohomological matrix proof now gives an efficient
+   alternating sum over every field, agreeing with the complex Casimir
+   calculation. The complete frontier through a=16 has 28 survivors,
+   first at a=14. No surviving target is constructed; proofs are unreviewed.
+3. Joint extraction from paired factors or their powers, general nonmonic
+   balanced coefficients, and arbitrary Laurent input families remain open.
+   Do not repeat the closed regular-shared and separated-weight experiments.
+
+The paired proof, exact kernel controls, finite budget potential and target
+implication are in ai/2026-10-20-paired-sources/. Both conditional exponents
+and all failed numerical fits remain nonclaims of an achieved bound.
+
+Historical local extension validation: 184 combined tests pass after integrating
+main daeae6e, with its intermediate-weight covers. The report is
+results/mixed-restrictions-2026-10-20/tests-laurent-after-daeae6e.txt.
+The earlier standalone extension checkpoint passed 179 tests.
+Earlier merged validation: 174 combined tests after integrating 424dd92;
 the earlier standalone capacity checkpoint passed 73 tests and the full
 five-part archive replay
 under Python 3.12.3 / SymPy 1.14.0. Logs are in

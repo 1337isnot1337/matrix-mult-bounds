@@ -1,0 +1,182 @@
+{
+  "source_kernel_controls": [
+    {
+      "a": 2,
+      "format": [
+        4,
+        6,
+        6
+      ],
+      "kernel_dimension": 4,
+      "first_koszul_rank": 20,
+      "three_mod2_ranks": [
+        20,
+        24,
+        24
+      ]
+    },
+    {
+      "a": 3,
+      "format": [
+        9,
+        15,
+        15
+      ],
+      "kernel_dimension": 7,
+      "first_koszul_rank": 128,
+      "three_mod2_ranks": [
+        128,
+        135,
+        135
+      ]
+    },
+    {
+      "a": 4,
+      "format": [
+        16,
+        28,
+        28
+      ],
+      "kernel_dimension": 10,
+      "first_koszul_rank": 438,
+      "three_mod2_ranks": [
+        438,
+        448,
+        448
+      ]
+    },
+    {
+      "a": 5,
+      "format": [
+        25,
+        45,
+        45
+      ],
+      "kernel_dimension": 13,
+      "first_koszul_rank": 1112,
+      "three_mod2_ranks": [
+        1112,
+        1125,
+        1125
+      ]
+    },
+    {
+      "a": 6,
+      "format": [
+        36,
+        66,
+        66
+      ],
+      "kernel_dimension": 16,
+      "first_koszul_rank": 2360,
+      "three_mod2_ranks": [
+        2360,
+        2376,
+        2376
+      ]
+    }
+  ],
+  "excluded_size_five_target": {
+    "shapes": [
+      [
+        4,
+        9,
+        4
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "format": [
+      25,
+      45,
+      45
+    ],
+    "target_mod2_rank": 1125,
+    "source_exact_rank": 1112
+  },
+  "conditional_threshold_integer_checks": {
+    "excluded_size_five_2_2497": true,
+    "unconstructed_size_six_2_235": true
+  },
+  "historical_size_six_first_tests": {
+    "a": 6,
+    "b": 10,
+    "source_format": [
+      36,
+      66,
+      66
+    ],
+    "target_format": [
+      36,
+      60,
+      60
+    ],
+    "constructed": false,
+    "current_status": "Excluded at power seven; see all-power-controls.json.",
+    "source_first_rank": 2360,
+    "target_first_rank": 2160,
+    "source_three_first_ranks": [
+      2360,
+      2376,
+      2376
+    ],
+    "target_three_padded_first_ranks": [
+      2160,
+      2376,
+      2376
+    ],
+    "ordinary_restriction_test": [
+      110,
+      96
+    ],
+    "adopted_coordinate_input_screen": [
+      288,
+      121,
+      360,
+      121
+    ],
+    "coarse_higher_tests": [
+      {
+        "power": 0,
+        "source_grading_upper": 66,
+        "target_injective_rank": 60,
+        "rejected_by_this_coarse_bound": false
+      },
+      {
+        "power": 1,
+        "source_grading_upper": 2376,
+        "target_injective_rank": 2160,
+        "rejected_by_this_coarse_bound": false
+      },
+      {
+        "power": 2,
+        "source_grading_upper": 41580,
+        "target_injective_rank": 37800,
+        "rejected_by_this_coarse_bound": false
+      },
+      {
+        "power": 3,
+        "source_grading_upper": 471238,
+        "target_injective_rank": 428400,
+        "rejected_by_this_coarse_bound": false
+      },
+      {
+        "power": 4,
+        "source_grading_upper": 3887662,
+        "target_injective_rank": 3534300,
+        "rejected_by_this_coarse_bound": false
+      },
+      {
+        "power": 5,
+        "source_grading_upper": 24880720,
+        "target_injective_rank": 22619520,
+        "rejected_by_this_coarse_bound": false
+      }
+    ]
+  },
+  "proof_status": "Written, unreviewed; finite controls do not prove the all-size formula.",
+  "improves_omega": false
+}

@@ -73,6 +73,22 @@ A proposed solution must state its quantifiers and scale propagation. A single-s
 
 Deliver a proved gain, a rigorous obstruction to this particular gain, or another complete route from a tensor inequality to a smaller exponent.
 
+The [finite amplitude route](../research/ai/2026-10-20-koszul/finite_amplitude.md)
+selects S_4 to M106 as a sufficient, unconstructed degeneration. Its
+[necessary tests](../research/ai/2026-10-20-koszul/finite_target_screens.md)
+pass all singleton quantum functionals but exclude coordinate inputs even
+with arbitrary Laurent output. The next question is a construction with
+actual input mixing or a necessary test that covers such mixing. The
+all-power coordinate matrix-extraction method is also excluded at a=5 by
+an entropy refinement; repeating that class at these diagonals cannot
+supply the finite gain.
+
+A [smaller sufficient target](../research/ai/2026-10-20-koszul/cyclic_finite_target.md)
+is A_4 to M(10,10,11), where A_4 has leg dimension 112. The minimum-slice-rank
+proof excludes all constant linear maps, so a construction needs a singular
+limit as well as input mixing. At a=5, four improving single-matrix shapes
+still pass the maintained constant-map screens; none is constructed.
+
 ## R5: Compare external formulations before duplicating work
 
 Status: open synthesis task. Compare the spectral route, the block-identities route, and the polynomial-separation improvement. Identify precisely which constraints survive symmetrization and which information the scalar relaxation discards.
@@ -99,6 +115,15 @@ not an all-size consequence of the grid. A weighted block-extraction theorem
 also requires its own proof; the scalar subrank formula is insufficient by itself.
 
 ## Work selection
+
+The product worker's [paired-source calculation](../research/ai/2026-10-20-paired-sources/research_note.md)
+now includes an [all-power rank formula](../research/ai/2026-10-20-paired-sources/all_koszul.md).
+It excludes the initially selected P_6 to M(6,10,6) target at power seven.
+The complete finite frontier through a=13 excludes all 239 improving,
+dimension-compatible single matrix shapes modulo B/C exchange. Do not fit
+those closed targets. Larger paired matrix targets, joint extraction from
+paired factors, and genuinely varying recoupling bases remain construction
+questions. Passing a necessary rank test would not supply a degeneration.
 
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).

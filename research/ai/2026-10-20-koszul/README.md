@@ -45,6 +45,18 @@ coefficient matrix. This also excludes the concurrent constant-G graded
 ansatz at low overhead. Its nonsingular-block extension and explicit slice
 cover also exclude two regions of mixed shared/nonshared weights. Genuinely
 singular shared maps and intermediate weight slopes remain the gap.
+The [intermediate-weight slice covers](intermediate_weights.md) quantify a
+further range of slopes and exclude the replicated m=4 balanced-direction
+target for k>=2. They leave the single-copy case and the growing-m balanced
+route open; no construction or exponent improvement follows.
+
+The [finite amplitude target](finite_amplitude.md) combines existing
+tripling and two-sector constructions into 6P(a,a)<=(6a-2)^(1/t). A new
+universal 13/12 gain at C(4,4), if proved near the endpoint, would give
+omega<=2.249 by an exact integer certificate. That gain is unproved.
+A dimension screen excludes one matrix-product extraction method at a=2,3.
+The separate [permutation pilot](permutation_probe.md) retains 11 unsuccessful
+floating fits at direction (5,2), with no construction or exclusion claim.
 
 ## Next mathematical question
 

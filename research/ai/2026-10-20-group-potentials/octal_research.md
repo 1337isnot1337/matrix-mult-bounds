@@ -109,3 +109,133 @@ nor nonexistence of a 48-point construction.
 
 The written proofs and exact finite frontiers narrow these ansatzes. They do
 not settle arbitrary group-algebra degeneration or improve the exponent.
+
+## Fixed-parent deletion route closed by an orbit count
+
+The earlier hitting-search timeout is superseded, within the fixed cubic
+parent class, by the [orbit-hole proof](../2026-10-20-octal-parent-barrier/research_note.md).
+It proves a volume bound of 92,928 for all rectangular vertex-subset targets
+with strict coordinate potentials. These all fail the usual 9/4 degree-sum
+gate. The proof is written and unreviewed. Independent-plane searches in the
+two-dimensional source and general degenerations are outside this obstruction.
+
+## Variable planes after the first main integration
+
+The next question is whether M(19,19,19) can be obtained when each normal
+fiber chooses its own affine direction. `octal_variable_planes.py` keeps the
+five-three-point/two-two-point size pattern and one complementary base triple,
+but permits all twelve other three-point planes and six short directions to
+vary independently. This goes beyond the constant-direction frontier above.
+It still does not cover all size-19 subsets or all choices of base triples.
+
+Here is why its graph parameterization loses no plane choices over the fixed
+base. In characteristic two the difference set of any three-point set is its
+full two-dimensional F2 direction plane. The difference set of a two-point
+set is its one-dimensional direction. Thus three fibers have unique sums if
+and only if their three direction spaces have direct sum. A nonzero linear
+dependence supplies a difference in each fiber and hence a collision; the
+converse follows by subtracting a collision.
+
+In particular, any three-point plane in the first family must be transverse
+to the sum of the other two base planes. Projection onto its own base plane
+is an isomorphism, so it is the graph of an arbitrary 2-by-4 binary matrix.
+An arbitrary three-point subset of its affine coset is represented by an
+offset and the two graph basis columns: its missing point determines the
+offset. The short direction is an arbitrary six-bit vector, with the mixed
+fiber conditions enforcing transversality. There are 240 initial Boolean
+parameters: 96 graph entries, 108 offset bits and 36 short-direction bits.
+Six offset bits are fixed by the earlier common-conjugation normalization.
+
+All 343 mixed normal-fiber conditions are encoded as exact independence
+constraints. Pair-label injectivity is encoded separately. The standard-library
+`affine_fiber_certificate.py` independently compares full difference-space
+sums with direct triple-sum enumeration, checks the gauges, and checks the
+three group pair maps. It accepts no potential or exponent claim.
+
+For the first base, plain CNF has 265167 variables and 1105586 clauses.
+The native parity encoding has 79393 variables, 65850 ordinary clauses and
+74160 XOR equations. Both encodings were checked on a previously verified
+pair-injective control by evaluating every Boolean variable and constraint.
+The native API is from [CryptoMiniSat](https://github.com/msoos/cryptominisat),
+with the installed Python binding pinned separately in
+`requirements-discovery.txt`. Maintained verification still needs only root
+`requirements.txt`; neither SAT engine is an acceptance authority.
+
+Completed bounded runs on that base are:
+
+| Discovery run | Requested seconds | Completed candidate checks | Result |
+| --- | --- | --- | --- |
+| Plain CNF, unseeded | 180 | 0 | timeout |
+| Plain CNF, known-control phases | 120 | 1 | exact rejection, then timeout |
+| Native XOR, explicit known control | 120 | 4 | four exact rejections, then timeout |
+
+The first candidate in each control-seeded run is reused evidence, not a new
+construction. In the native run the three-point planes all remain the base
+planes; later candidates change one or two short directions. The independent
+checker verifies all 343 normal triples and all three 361-label pair maps for
+each candidate. Every rejection circuit is replayable using
+`verify_stream_reports.py`. No positive potential is found.
+
+The `--vary-plane` option imposes a nonzero graph entry after checking the
+known control, forcing all subsequent candidates to change at least one
+three-point plane. A control audit covers the initial encoding before this
+additional search constraint. Actual run status and completed coverage belong
+to each exported report; an unfinished or timed-out query is not an exclusion.
+
+The first required-plane-change trials, based on normalized classes 000 and
+007, each checked the reused control and then timed out without an additional
+candidate. Their requested budgets were 120 seconds; actual elapsed times
+were about 155 and 140 seconds, respectively. These are cooperative solver
+limits. Neither run is evidence that a changed-plane solution does not exist.
+
+## One-plane continuation and complete local filter
+
+Starting from main d5911dd, `octal_single_plane.py` allows only one chosen
+non-base three-point fiber to change its plane. All offsets vary; other
+planes and all six short directions remain fixed. Two 90-second-budget
+native-XOR runs, changing S's scalar-two or T's scalar-three fiber, each
+returned the known control and an exact rejection circuit, followed by
+untraced UNSAT after about 51-52 seconds. No changed-plane candidate emerged.
+These solver negatives are not mathematical exclusions.
+
+The independent `octal_single_plane_frontier.py` checks every graph plane
+transverse to the fixed base complement: 255 genuine changes in each of the
+twelve eligible fibers. For base [1,8,2,16,4,32], all 3,060 changes fail a
+necessary pair-quotient mask packing, even when offsets in each quotient
+are allowed to vary independently. Complete integer backtracking covers
+293,390 search nodes in the recorded run. The report records first failures
+for every fiber. This exact finite exclusion assumes the stated base and
+fixed short directions; simultaneous changes and other bases remain open.
+
+The separate `group-koszul-pilot.json` evaluates the paired-source worker's
+exact matrix Koszul formula on group-algebra block sums, with target padding.
+All 224 powers through transpose symmetry pass for source448 to M19; all
+60 pass for SL2(5) to M10. These are necessary screens only. The calculation
+uses the unreviewed matrix-rank derivation in
+`../2026-10-20-paired-sources/matrix_euler.md`; no construction is inferred.
+
+Coverage justification for the local filter: the other two base planes
+span a four-dimensional complement. Normal-fiber triple injectivity forces
+the changed two-dimensional plane to be transverse to it. Relative to the
+fixed base it is the graph of one of 2^8=256 linear maps. The zero map is the
+unchanged plane. Every three-point subset of a four-point affine plane is a
+translate of the chosen three-point graph triangle, so no triangle choice
+is lost. For each pair quotient q, the seven sets a^-1(P_f(a)+P_g(aq))
+need disjoint translations in the 64-element normal group. Exact packing
+allows each such translation independently. Failure in any quotient rejects
+every global offset assignment.
+
+Reproduction from the repository root:
+
+```sh
+python research/ai/2026-10-20-group-potentials/octal_single_plane_frontier.py \
+  --base-report results/group-potentials-2026-10-20/octal-orbit-000.json \
+  --output results/local/octal-single-plane-local-frontier0.json
+python research/ai/2026-10-20-group-potentials/group_koszul_pilot.py
+python -m unittest discover -s tests -p test_octal_single_plane.py -v
+```
+
+The two optional native-XOR experiments are reproduced with
+`octal_single_plane.py --family 0 --scalar 2` or
+`--family 1 --scalar 3`, adding `--seconds 90`, the same source report via
+`--phase-report`, and a destination via `--output`.

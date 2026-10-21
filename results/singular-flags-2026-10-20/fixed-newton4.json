@@ -1,0 +1,42 @@
+{
+  "m": 4,
+  "B": 10,
+  "shared_matrix": [
+    [
+      0,
+      2,
+      -3,
+      1
+    ],
+    [
+      0,
+      -1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "basis_model": "reverse-Newton",
+  "solver": "4.15.3",
+  "seed": 1226217247,
+  "timeout_ms": 45000,
+  "result": "unsat",
+  "query_sha256": "9b2ff0a64b1a375a24329a0bad9f3cab55283160473578e5294341b555cc9d6a",
+  "scope": "Reverse falling-factorial shared basis followed by singular diagonal weights; coordinate selection relative to a falling-factorial Y basis; arbitrary constant output in that basis.",
+  "improves_omega": false,
+  "retained_query": "fixed-newton4.smt2.gz",
+  "query_digest_applies_to": "Decompressed exact SMT text",
+  "original_scope_metadata": "Fixed shared basis followed by singular diagonal weights; coordinate injection on Y; arbitrary constant output matrix.",
+  "metadata_correction": "The earlier coordinate-Y wording referred to the fixed Newton basis, not the monomial source basis. The mathematical query and result are unchanged."
+}

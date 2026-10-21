@@ -1,0 +1,37 @@
+{
+  "a": 4,
+  "representation_degrees": [
+    6,
+    6,
+    6
+  ],
+  "slice_determinant": "(720000*x0**4 + 1728000*x0**3*x2 + 1320000*x0**2*x1**2 - 5180000*x0**2*x1*x3 + 453600*x0**2*x2**2 + 1195000*x0**2*x3**2 + 5724000*x0*x1**2*x2 + 648000*x0*x1*x2*x3 - 699840*x0*x2**3 - 513000*x0*x2*x3**2 - 2868750*x1**4 - 2700000*x1**3*x3 + 1385100*x1**2*x2**2 + 1530000*x1**2*x3**2 - 729000*x1*x2**2*x3 - 180000*x1*x3**3 + 118098*x2**4 + 109350*x2**2*x3**2 + 5625*x3**4)/327680000",
+  "specialization": {
+    "x1": 1,
+    "x2": 0,
+    "x3": 0
+  },
+  "primitive_quartic_coefficients_high_to_low": [
+    192,
+    0,
+    352,
+    0,
+    -765
+  ],
+  "bezout_u_high_to_low": [
+    "-176/708645",
+    "0",
+    "-1/765"
+  ],
+  "bezout_v_high_to_low": [
+    "44/708645",
+    "0",
+    "3263/8503740",
+    "0"
+  ],
+  "bezout_identity": "u*f+v*derivative(f)=1",
+  "squarefree_quartic_verified": true,
+  "ordinary_restriction_to_M2_excluded": true,
+  "arbitrary_degeneration_to_M2_excluded": false,
+  "new_exponent_established": false
+}

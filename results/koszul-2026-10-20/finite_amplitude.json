@@ -1,0 +1,186 @@
+{
+  "status": "conditional implication; universal lower-bound premise unproved",
+  "new_exponent_established": false,
+  "premise": {
+    "minimum_t": "749/1000",
+    "P_4_4_lower": "5005/486",
+    "relative_gain": "13/12"
+  },
+  "conditional_rational_exponent": "2249/1000",
+  "integer_certificate": {
+    "lhs": "5005**2249",
+    "rhs": "22**3000*81**2249",
+    "lhs_strictly_larger": true,
+    "lhs_bit_length": 27639,
+    "rhs_bit_length": 27637
+  },
+  "finite_tensor_target": {
+    "source": "tensor product of all six leg permutations of C(4,4)",
+    "source_leg_dimensions": [
+      12544,
+      12544,
+      12544
+    ],
+    "source_border_rank_upper_bound": 117649,
+    "target": "M(106,106,106)",
+    "target_leg_dimensions": [
+      11236,
+      11236,
+      11236
+    ],
+    "constructed": false,
+    "integer_certificate": "3816**2249 > 22**6000",
+    "integer_certificate_passes": true,
+    "n105_endpoint_test": false,
+    "n106_endpoint_test": true,
+    "coordinate_weight_class_excluded": true,
+    "maximum_coordinate_square_target": 49,
+    "all_power_coordinate_certificate": "6**9*4**8*7**5 < 22**12"
+  },
+  "records": [
+    {
+      "a": 1,
+      "matching_diagonal": "1",
+      "endpoint_ceiling_ratio_cubed": "32/27",
+      "matrix_dimension_screen_difference": 18880,
+      "matrix_extraction_dimension_screen_excludes": true,
+      "coordinate_screen_difference": 6699520,
+      "coordinate_matrix_extraction_excludes": true
+    },
+    {
+      "a": 2,
+      "matching_diagonal": "10/3",
+      "endpoint_ceiling_ratio_cubed": "5/4",
+      "matrix_dimension_screen_difference": 19378432,
+      "matrix_extraction_dimension_screen_excludes": true,
+      "coordinate_screen_difference": 373086687232,
+      "coordinate_matrix_extraction_excludes": true
+    },
+    {
+      "a": 3,
+      "matching_diagonal": "56/9",
+      "endpoint_ceiling_ratio_cubed": "432/343",
+      "matrix_dimension_screen_difference": 43439296,
+      "matrix_extraction_dimension_screen_excludes": true,
+      "coordinate_screen_difference": 74850715910656,
+      "coordinate_matrix_extraction_excludes": true
+    },
+    {
+      "a": 4,
+      "matching_diagonal": "770/81",
+      "endpoint_ceiling_ratio_cubed": "216513/171500",
+      "matrix_dimension_screen_difference": -10672447232,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": 1754787798913024,
+      "coordinate_matrix_extraction_excludes": true
+    },
+    {
+      "a": 5,
+      "matching_diagonal": "3185/243",
+      "endpoint_ceiling_ratio_cubed": "17006112/13456625",
+      "matrix_dimension_screen_difference": -153639001664,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -234028310787584,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 6,
+      "matching_diagonal": "12376/729",
+      "endpoint_ceiling_ratio_cubed": "243931419/192914176",
+      "matrix_dimension_screen_difference": -1111503384320,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -339634746541076480,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 7,
+      "matching_diagonal": "138320/6561",
+      "endpoint_ceiling_ratio_cubed": "52301766015/41349947912",
+      "matrix_dimension_screen_difference": -5505802741568,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -4793389446231715328,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 8,
+      "matching_diagonal": "499928/19683",
+      "endpoint_ceiling_ratio_cubed": "6495879339063/5134626768128",
+      "matrix_dimension_screen_difference": -21230630584064,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -38629544781331165184,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 9,
+      "matching_diagonal": "1766050/59049",
+      "endpoint_ceiling_ratio_cubed": "30502389939948/24107134390625",
+      "matrix_dimension_screen_difference": -68357670665792,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -225073669040359548416,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 10,
+      "matching_diagonal": "55155100/1594323",
+      "endpoint_ceiling_ratio_cubed": "4352744423612974509/3439798791929500000",
+      "matrix_dimension_screen_difference": -191950422281984,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -1046111946780798808064,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 11,
+      "matching_diagonal": "188668480/4782969",
+      "endpoint_ceiling_ratio_cubed": "32420441224151810136/25618761452592933625",
+      "matrix_dimension_screen_difference": -483983254387520,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -4100286717770385006080,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 12,
+      "matching_diagonal": "637828100/14348907",
+      "endpoint_ceiling_ratio_cubed": "109418989131512359209/86458714189778912800",
+      "matrix_dimension_screen_difference": -1118554183655168,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -14048834022810672754688,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 13,
+      "matching_diagonal": "6405616490/129140163",
+      "endpoint_ceiling_ratio_cubed": "319065772307490039453444/252103229843619234296125",
+      "matrix_dimension_screen_difference": -2405708973545024,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -43146876434019498612224,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 14,
+      "matching_diagonal": "21265609400/387420489",
+      "endpoint_ceiling_ratio_cubed": "88301452486097868418740627/69767302569376647452000000",
+      "matrix_dimension_screen_difference": -4870458297642752,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -120984830272964128403456,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 15,
+      "matching_diagonal": "70095005200/1162261467",
+      "endpoint_ceiling_ratio_cubed": "639647107033440656594291859/505374355446740990248375000",
+      "matrix_dimension_screen_difference": -9364969300944704,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -314091469213776396537344,
+      "coordinate_matrix_extraction_excludes": false
+    },
+    {
+      "a": 16,
+      "matching_diagonal": "688842732920/10460353203",
+      "endpoint_ceiling_ratio_cubed": "1992384438935161565171838360447/1574115784376447392858106528000",
+      "matrix_dimension_screen_difference": -17223447927422720,
+      "matrix_extraction_dimension_screen_excludes": false,
+      "coordinate_screen_difference": -763245956379022545121280,
+      "coordinate_matrix_extraction_excludes": false
+    }
+  ]
+}
