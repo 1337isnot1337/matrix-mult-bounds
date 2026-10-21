@@ -463,6 +463,17 @@ matrix targets, modulo B/C exchange; all are excluded by saved rank
 witnesses. The frontier through a=16 has 28 survivors, first at a=14.
 No surviving target is constructed; joint extraction remains open.
 
+## Varying quantum recoupling
+
+The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
+uses rational Clebsch--Gordan changes of basis that vary with q. Explicit
+local factors keep the generic source isomorphic to convolution. Exact
+controls check 196 projection positions, 360 invariant equations and 30
+small basis/root configurations. At q=i, the rowwise-regular cyclic maps
+have ranks 8,32,64 at a=2,3,4 over Q(i). This calibration produces ordinary
+restrictions and does not supply the size-four matrix target. Coupled
+singular normalizations remain open; no exponent improvement is claimed.
+
 ## Polynomial flags and numerical calibration
 
 The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)
