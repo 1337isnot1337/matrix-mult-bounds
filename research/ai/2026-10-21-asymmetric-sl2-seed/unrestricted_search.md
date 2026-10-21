@@ -140,3 +140,10 @@ The Laurent solver now snapshots its input bytes and SHA-256 before loading,
 and exposes an unregularized trust-region option plus the block-conditioning
 eigenvalue floor. A one-evaluation smoke run exercised these options and
 the derivative checks; it is not an optimization result or a certificate.
+
+Completed checkpoints: the80-evaluation degree-two run ended at joint
+coefficient error9.365962912e-5, and the35-evaluation degree-three run at
+2.541252664e-4. Their stored dyadic maps fail the exact modular identity
+checks at every required power. Both reports and compressed coordinates
+are retained. An unregularized continuation is a separate ongoing
+experiment, not a claim that these checkpoints are exact.

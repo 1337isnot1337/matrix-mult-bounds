@@ -9,8 +9,9 @@ of these deformations, with generic source slice rank641. Its separate
 one-factor spaces have dimensions79 and63, leaving the smaller side one
 coordinate short for a direct target ruling. Full target maps remain open.
 A broader double-plus-six-simple-support family now has dimension141 and
-full ambient span1360. The missing step is an actual linear target-parameter
-map, not additional span arithmetic.
+full ambient span1360. A later scoped linearity proof excludes that explicit distinct-support
+family as the generic rank-two target image. General confluent closures
+and other critical source components remain open.
 This is separate from the continuing degree-two/three Laurent map searches.
 
 

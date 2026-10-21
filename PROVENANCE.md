@@ -437,3 +437,9 @@ residues by exact confluent Vandermonde maps. Its dimension proof uses
 unique scalar recurrence recovery and the prior local family dimension.
 It removes the fixed-family span obstruction but does not produce target
 maps. General statements remain written and unreviewed.
+
+The multiple-support linearity note uses an explicit rank-one circuit
+incidence count and vector-valued second jets. Its stationarity controls
+retain a triple-proportional bad example where the conclusion fails. The
+result is a scoped obstruction to the constructed family, not a general
+classification or an improved exponent.

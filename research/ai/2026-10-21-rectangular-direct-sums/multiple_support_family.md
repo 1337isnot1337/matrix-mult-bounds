@@ -109,3 +109,9 @@ The numerical Laurent searches are separate and remain uncertified.
 The finite verifier checks the confluent support identity, coefficient ranks,
 small complete source matrices and the full-span Vandermonde certificate.
 This argument has no historical-priority or independent-review claim.
+
+Later scoped obstruction: `multiple_support_linearity.md` shows that this
+explicit distinct-support family cannot itself contain the generic rank-two
+image of the required injective linear target-leg map. The construction and
+full-span statement remain valid; arbitrary confluent closure strata and
+other critical source components are not excluded by that proof.

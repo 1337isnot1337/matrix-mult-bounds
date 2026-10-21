@@ -101,3 +101,10 @@ nonlinear family of generic rank641 slices with full ambient span1360.
 It uses one double and six simple long-support points. This escapes the
 fixed-fat-point span obstruction; constructing the required linear target
 parameter map and complete tensor restriction remains open.
+
+The subsequent `multiple_support_linearity.md` closes that explicit
+distinct-support family as the generic rank-two image of a linear target
+map. The exceptional coefficient-dependency locus has dimension at most121,
+below126; outside it, parameter lines force constant support and hence
+image dimension at most640. Arbitrary confluent closure strata and other
+critical source components remain open.
