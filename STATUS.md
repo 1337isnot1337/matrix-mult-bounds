@@ -45,6 +45,13 @@ shapes. The checker verifies 10,752 circuits and independently enumerates
 all 4,782,969 hole patterns. This written proof is unreviewed and concerns
 only that parent and construction method. It gives no exponent improvement.
 
+A complete local continuation checks all 3,060 single-plane changes in the
+F8 base `[1,8,2,16,4,32]`, keeping all short directions fixed. Every change
+fails a necessary pair-quotient packing. This finite scope is replayed by
+`tests/test_octal_single_plane.py`; it does not exclude simultaneous changes
+or other bases. Two native-parity pilots yield only reused controls and
+untraced UNSAT answers. Neither gives an exponent improvement.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
