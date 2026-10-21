@@ -1,16 +1,211 @@
 # Research status
 
+## Uniform mixed-axis reduction
+
+The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a
+and nonzero t for the mixed row m+t*d0 at b=1. A rank minor t^18 and
+Laurent-unit certificates reduce the initial32 normals to four plane
+directions plus a necessary10-dimensional quotient family. Projection
+minors work uniformly through all exceptional a values. Claim
+`AI-MIXED-AXIS-REDUCTION-091` is written and unreviewed; the remaining
+family is unresolved, so this is not an axis exclusion. The exponent
+remains9/4.
+
+## Four mixed five-space graph families
+
+The [graph-family proof](research/ai/2026-10-21-mixed-five-space-graphs/proof.md) excludes four specified
+nontrivial mixed rows at partner a=b=1, with arbitrary four-dimensional
+boundary parts. Exact quadratic-minor spans over Q force a stable-row
+kernel, and target-slice equations reduce its dimensions10->2->0. The
+modular calculation certifies rational rank and applies over C. Claim
+`AI-MIXED-FIVE-GRAPH-CONTROLS-090` is written and unreviewed. Fifteen
+parameterized graph charts still need analysis; the exponent remains9/4.
+
+## Pure mixed five-spaces on the nonzero partner chart
+
+The [pure-row five-space proof](research/ai/2026-10-21-pure-mixed-five-spaces/proof.md)
+forces only plane normals when the B first space is the full seven-frame
+and the C five-space contains its pure mixed partner, for every chart
+parameter with b nonzero. A stable row subspace and a minimum-rank-two
+projection split32 quotient parameters into families of dimensions6 and14;
+both vanish under the remaining target conditions. All complex a are
+covered polynomially after b=1 normalization, including coalescing modes.
+Claim `AI-PURE-MIXED-FIVE-SPACES-089` is written and unreviewed. General
+mixed-row graphs remain open, and the exponent remains9/4.
+
+
+## Uniform adapted mixed source slices
+
+The [adapted-source proof](research/ai/2026-10-21-mixed-five-space-uniform/proof.md)
+extends the first sixteen low-rank source slices across the entire
+two-parameter rank-one partner chart. Their projected third slices have
+only the mixed B row remaining and must vanish in a matrix-target lift.
+Claim `AI-MIXED-FIVE-SPACE-LOW-SLICES-088` has exact polynomial certificates
+and a written unreviewed proof. The full five-space closure remains open
+away from the earlier coordinate partner; the exponent is still9/4.
+
+
+## Mixed seven-by-five coordinate partner
+
+The [five-space point proof](research/ai/2026-10-21-mixed-five-space-residues/proof.md)
+forces the four common-plane normals for every complex mixed five-space
+opposite the full seven-frame at u=v=e3. Exact source-slice covers, cubic
+minors and mixed-column equations give dimensions88,68,54,30,18,12,4.
+The shifted induction excludes the matrix target at this partner and its
+reversal. Claim `AI-MIXED-FIVE-SPACE-POINT-087` is written and unreviewed.
+Other partner lines remain open; the exponent remains9/4.
+
+
+## Arbitrary mixed hyperplanes on either leg
+
+The [mixed-hyperplane proof](research/ai/2026-10-21-rankone-mixed-hyperplanes/proof.md)
+excludes every rank-one mixed first pair with both effective dimensions
+at least six, including arbitrary complex subspaces, graphs and delayed
+unequal orders. On all228 normal parameters, each leg's rank-one obstruction
+has only its mixed column remaining; a mixed hyperplane kills that column
+without assuming opposite-leg equations. Claim
+`AI-RANKONE-MIXED-HYPERPLANES-086` is written and unreviewed. The necessary
+ordinary both-mixed first-rank sum is at most twelve, with only seven-by-five
+rank-one pairs remaining at that threshold. The exponent is still 9/4.
+
+
+## Uniform maximal rank-one mixed frames
+
+The [seven-frame proof](research/ai/2026-10-21-rankone-seven-frames/proof.md)
+excludes every maximal seven-by-seven rank-one mixed first pair at these
+flags, with arbitrary graphs and delayed unequal orders. A fixed normal
+minor stays nonzero polynomially over the entire parameter chart; only
+four plane directions remain. Claim `AI-RANKONE-SEVEN-FRAMES-085` is
+written and unreviewed. The necessary ordinary first-rank sum when both
+mixed projections are nonzero is now at most thirteen. Smaller mixed
+spaces and other flags remain open; the exponent remains 9/4.
+
+
+## Invertible mixed lines: all-order output-growth obstruction
+
+The new [five-frame proof](research/ai/2026-10-21-invertible-five-frame/proof.md)
+excludes every compatible invertible mixed-line first pair at the canonical
+flags, including arbitrary boundary graphs and delayed unequal orders.
+A rank-ten cross and exact five-dimensional annihilators force both output
+maps to have generic rank at most five. Claim
+`AI-INVERTIBLE-FIVE-FRAME-084` is written and unreviewed. Its separate cubic
+control passes complete source replay through degree three; it supplies
+no matrix target. The exponent remains 9/4. Rank-one mixed partners and
+other first spaces remain construction questions.
+
+
 Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records twenty-three local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-QUOTIENT-VOLUME-074,
+The constructive continuation records fifty-six local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-CHANGED-CORNER-MODULE-107,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [spin-one module construction](research/ai/2026-10-20-anisotropic-constructions/spin_module14.md)
+now gives exact rational maps from A(4,8) to M(3,3,14) and from A(8,8)
+to M(3,3,28). Its nonproduct first map absorbs the earlier scalar
+correction into the larger source, with no extra scalar summand. All
+source and target coefficients are checked exactly. The first response
+is confined to 192 coordinates, leaving enough linear room for the
+unconstructed target M27 plus M6 plus M3. That target would imply
+omega below 2.24975; this is a conditional comparison, not a new bound.
+
+A separate [changed corner construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.md)
+gives M(4,4,12) with exact response rank 164 and fixed-first-map
+flattening rank 481. It passes two necessary tests for extending toward
+M27 plus M7. Its other square-matrix entries remain unconstructed.
+The original corner variant, with response rank 186, is also preserved.
+
+The [exact crossed-module construction](research/ai/2026-10-20-anisotropic-constructions/crossed_module11.md)
+gives a rational restriction from C(2,4) tensor C(2,8) to M(2,2,11).
+Its [full-source lifts](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_cross_module_lifts.md)
+give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22), with every desired
+and unwanted coefficient checked from the original source tensors.
+These improve the corresponding coordinate-module controls from eight
+and sixteen channels to eleven and twenty-two. The first target leg
+still has only sixteen directions; compatible square extensions are
+missing. Neither rectangular restriction establishes a smaller exponent.
+
+The [four-factor flattening proof](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_crossed_flattening.md)
+proves that eleven and twenty-two are optimal within the corresponding
+product first-map branch. It also excludes extending the old sixteen
+first images to M27, even with arbitrary other-leg maps. The
+[saved-seed response certificate](research/ai/2026-10-20-anisotropic-constructions/crossed_module_response.md)
+separately excludes retaining the old other-leg maps. The newer spin
+and corner constructions change the first core; these scoped
+obstructions do not rule them out.
+
+The [two-source capacity inequality](research/ai/2026-10-20-anisotropic-constructions/two_source_budget.md)
+requires equal source leg dimensions N at least ceil(3 n^2 / 4) for a
+direct sum of two sources to degenerate to M_n. Explicit complementary
+block-zero trace tensors attain this dimension threshold. Combining this
+necessary condition with the finite convolution budget first leaves
+2 A(11,12) to M62, which is unconstructed. The recorded ordinary
+majority-block factorization at that size is separately excluded.
+
+An [exact carry contradiction](research/ai/2026-10-20-anisotropic-constructions/bitwise_hankel_projection.md)
+closes one specified two-copy spin1 projection family. The completed
+[moving physical-compression experiment](research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression.md)
+retains all 1,210,000 target coefficients and explicit scale normalization.
+Its final normalized residual is about 5.4627, so it supplies no target
+identity or singular family. These records preserve exact controls and
+the actual limitations of the searches.
+
+The [new focused receipt](results/anisotropic-constructions-2026-10-20/crossed-module-focused-validation.json)
+pins the artifact hashes and includes concurrent main through `8a07bed`.
+It records 38 completed tests: 36 passed and two optional numerical
+controls skipped in the maintained environment. All four compression
+control tests pass separately with NumPy and SciPy available.
+The [complete regression receipt](results/anisotropic-constructions-2026-10-20/crossed-module-full-validation.json)
+pins checkpoint `1f813bb`: 496 tests completed, with 493 passed and
+three optional skips. All five [original archive replays](results/anisotropic-constructions-2026-10-20/crossed-module-archive-validation.json)
+passed unchanged. The later spin, corner, response and flattening
+packages have separate focused validation; they are not included in
+that 496-test count.
+Their [35-test focused receipt](results/anisotropic-constructions-2026-10-20/changed-core-focused-validation.json)
+checks all four new packages, main's mixed second-order family through
+`21f54c3`, and the repository ledger, sources, archives and links with no
+skips or failures.
+The [full spin-and-corner regression receipt](results/anisotropic-constructions-2026-10-20/spin-corner-full-validation.json)
+pins checkpoint `4ed2b52`: 513 tests completed, with 510 passed and
+three optional skips. The later integration of main's mixed third-order
+proof at `b113866` has a separate
+[27-test focused receipt](results/anisotropic-constructions-2026-10-20/spin-corner-main-integration-validation.json),
+with no skips or failures.
+
+The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
+now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
+images are homogeneous for the fixed source grading**, including unrelated
+vertex charge lists and profiles with holes. Exact rank budgets successively
+force all three map images into coordinate spaces of dimensions
+960, 922, 834, and finally 468, below the required 778. The primary verifier
+checks 492 removals through integer separating lines, independently of the
+discovery hull algorithm. A separately written full-source replay agrees
+on every retained coordinate set. Ungraded maps and arbitrary singular
+degenerations remain open, and the exponent is unchanged.
+
+The [mixed-grading extension](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_mixed_grading.md)
+shows that, on at least two legs of any ordinary target restriction,
+at least 19 matrix-unit images must each use three or more source weights.
+It uses separate coordinate masks and injectivity inherited from the full
+maps. An exact M12 plus M3 change of basis provides a positive control
+with balanced cross-weight cancellation; it does not enlarge that target.
+
+Two [Laurent collision controls](research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_extension.md)
+give explicit singular limits from the existing three matrix cores.
+The larger limit retains all 134 intermediate directions per leg, including
+24 off-diagonal directions, with complete negative-power cancellation.
+The [scalar-power construction](research/ai/2026-10-20-anisotropic-constructions/scalar_power_recycling.md)
+reuses corrections to realize A22 squared plus A22 plus M3 to M9 with
+165 source coordinates per leg. Its all-power residual has exact flattening
+rank 9^k-8^k, and its complete source cost does not cross the finite gate.
+These are constructed identities and scoped cost bounds, not smaller
+exponent claims.
 
 - The [oriented endpoint analysis](research/ai/2026-10-20-critical-character-extension/README.md)
   gives a common critical amplitude and a quantitative stability bound.
@@ -82,9 +277,79 @@ do not constitute independent mathematical review.
   The latter has 462 nonzero entries per map and a complete sparse replay.
   These controls do not construct the larger improving target.
 
+- A new [torus-compatible exact seed](research/ai/2026-10-20-anisotropic-constructions/parity_structure_torus_seed.md)
+  gives A(8,8) to M12 plus M3. The [monotone physical-vertex construction](research/ai/2026-10-20-anisotropic-constructions/monotone_endpoint_seeds.md)
+  gives exact endpoint M4 and M8 controls. The latter construction's literal
+  common coordinate code has a [size limit](research/ai/2026-10-20-anisotropic-constructions/coordinate_compression_limit.md):
+  every A88 M27 construction must leave that code on each target leg.
+- The [recorded endpoint maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_torus_anchors.md)
+  have full row rank 778 on all three legs. They satisfy all six extreme
+  slices of the M27 plus M7 target and the complete endpoint M4 tensor.
+  Each rational map has denominator 64 and 782 nonzero entries. The other
+  target coefficients cannot all be satisfied with that boundary fixed:
+  a [direct affine-slice contradiction](research/ai/2026-10-20-anisotropic-constructions/torus_affine_slices.md)
+  forces a coefficient to equal one where the target requires zero.
+  A [four-map relation](research/ai/2026-10-20-anisotropic-constructions/fixed_anchor_obstruction.md)
+  excludes completion of the preserved first Hadamard seed with its stated
+  maps fixed. Both saved seeds remain valid controls for their partial
+  identities, and both fixed boundary families are now nonextendable.
+- The [degree-13 pencil proof](research/ai/2026-10-20-anisotropic-constructions/torus_degree13_pencils.md)
+  excludes every ordinary grading-preserving restriction with the original
+  symmetric 27-plus-7 charge profile, including arbitrary boundary maps.
+  It combines the [two-leg rank chain](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_rankone_13_chain.md),
+  exact source symmetries, universal product identities and all 256
+  singular-projection patterns. This does not exclude the ungraded frontier.
+- A [saturated-block rank inequality](research/ai/2026-10-20-anisotropic-constructions/torus_saturated_blocks.md)
+  excludes the common width-13 profile: its target block has rank 9,
+  while saturation of the two input spaces requires rank at least 12.
+  A separate [cube determinant](research/ai/2026-10-20-anisotropic-constructions/torus_saturated_pencil.md)
+  excludes specified saturated degree-13 pairs even with unequal vertex
+  charge lists. Neither argument addresses arbitrary singular limits.
+- The [graded fixed-core bound](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_fixed_core_weights.md)
+  excludes keeping two complete copies of the displayed M4, M6 or M8 core
+  while extending to the original profile. The [free-interior construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_free_interior.md)
+  gives A(a,a) with both physical endpoints deleted to
+  M(a-1) plus M(a-1) plus M(a-2), for every a>=3. Its fixed M7 channels
+  also fail an exact extension-rank test; movable small-block maps remain open.
+- The [complete common-vertex M7 screen](research/ai/2026-10-20-anisotropic-constructions/parity_structure_m7_vertex_screen.md)
+  covers 1,290,240 choices. Sixteen pass the necessary weight-zero rank
+  gate, but all retain 498 unwanted coefficients. Exact balanced cycles
+  obstruct removing those extras by coefficientwise Laurent rescaling.
+- The earlier [common-profile classification](research/ai/2026-10-20-anisotropic-constructions/parity_structure_common_profiles.md)
+  also closes all common integer charge lists by exact enumeration and
+  local proofs. Its [zero-grade lemma](research/ai/2026-10-20-anisotropic-constructions/parity_structure_zero_grade_rank.md)
+  gives minimum slice rank a for the zero-grade A(a,a) tensor. The later
+  peeling proof removes the need to enumerate profiles for the main exclusion.
+  [Unequal-profile partial maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_unequal_profiles.md)
+  retain exact M12 plus M3 controls; their full targets are explicitly
+  excluded. Optional numerical objective code is preserved with separate
+  small controls and introduces no maintained dependency.
+- The [simple-pole argument](research/ai/2026-10-20-anisotropic-constructions/compression_simple_poles.md)
+  excludes a nonzero simple pole in the fixed A22 compression chart when
+  the trace tensor must have a finite limit. It does not cover arbitrary
+  pole supports or moving physical bases. A separate [stabilizer invariant](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_stabilizer.md)
+  excludes the saved dyadic A33 numerical seed from the stated target
+  stabilizer orbit, with a complete integer-only modular replay. It does
+  not exclude changing that seed or general A33 maps.
+
 The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
 records 368 passing tests and five unchanged archive replays at `8b09235`.
 This computational coverage does not change the proof-review status.
+
+The [torus-anchor checkpoint receipt](results/anisotropic-constructions-2026-10-20/torus-anchors-validation.json)
+records 391 passing tests and five unchanged archive replays for `fa74fee`
+combined with main `f67467d`. That receipt predates the new fixed-boundary,
+degree-13 and saturated-block packages; it is not their validation receipt.
+
+The [support-peeling checkpoint receipt](results/anisotropic-constructions-2026-10-20/torus-peeling-validation.json)
+records the complete 447-test suite at `bb64dae`: 446 passed and the optional
+NumPy control skipped. All five original archive replays passed unchanged.
+This pin includes main through `b0a54f2` and claims through 093; the newer
+mixed-grading, Laurent, scalar-power and concurrent-main additions pass
+the [separate 16-test focused suite](results/anisotropic-constructions-2026-10-20/torus-construction-controls-validation.json).
+The claim ledger, source registry, archive manifest and relative links also
+pass their repository checks. Current hosted validation is required before
+merge.
 
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.
@@ -848,6 +1113,76 @@ one first extension must be rank-deficient for a possible construction
 with the same leading maps. The written proof is unreviewed; delayed
 growth and other flags remain open, and the exponent is unchanged.
 
+[AI-QUANTUM-RANK-FOUR-078](research/ai/2026-10-21-moving-boundary-flags/rank_deficient.md)
+strengthens the necessary first-extension threshold: at least one quotient
+rank must be at most twelve. Every nonzero one-leg obstruction has rank
+at least four, proved by three rounds of exact triangular minors and
+linear restrictions. Thus arbitrary quotient spans of dimension at least
+thirteen on both sides are excluded at every order. The lower-rank and
+delayed cases remain open; this is a written unreviewed result, with no
+exponent improvement. The concurrently inspected second-jet package at
+d8de82f already gives the stronger conditions W2=W0 and rank sum at most
+24 (at most20 with mixed directions); the rank-four certificate is retained
+as auxiliary structure, with no claim to improve that target frontier.
+
+## Exact mixed second-order family
+
+[EXP-MIXED-TWOJET-FAMILY-079](research/ai/2026-10-21-mixed-first-jets/family.md)
+constructs sixteen independent leading-row directions with first-extension
+quotient ranks14 and6. Explicit maps and regular first-row corrections
+solve every coefficient equation through order two for every combination
+of the parameters. The separate constructor and full coefficient verifier
+retain all136 quadratic monomials. The active output formats are18 and10;
+later growth and a matrix target remain unconstructed. An exact nonzero
+third coefficient is retained as an order-boundary check. This finite
+polynomial certificate does not improve the exponent.
+
+[AI-MIXED-THIRD-ORDER-080](research/ai/2026-10-21-mixed-first-jets/third_order.md)
+now excludes the target for these fixed 14-by-6 first subspaces at every order.
+The exact normal space has dimension 16. Successive universal matrix-rank
+covers impose six plus six independent constraints, leaving only the four
+common-plane tangents. Arbitrary correction-row freedoms vanish from the
+projected obstruction, and formal induction bounds both map ranks by 56.
+This is an unreviewed scoped proof; other mixed spaces and delayed growth
+remain open, and the exponent is unchanged.
+
+[AI-MIXED-PENCIL-FRONTIER-081](research/ai/2026-10-21-mixed-first-jets/pencil_frontier.md)
+extends this exclusion to **every** maximal mixed pair of quotient ranks
+14 and 6, in either order. Exact source symmetries reduce the pencils to
+two representatives. Target slice-rank divisibility bounds the generic
+projected third space by dimension two; twelve cubic minors force it to
+vanish and leave only plane motion. The necessary mixed first-rank sum
+therefore drops from 20 to **19**. If both mixed projections are nonzero,
+the block argument already gives sum at most 16. These are scoped,
+unreviewed obstruction results, with no change to the exponent. The
+concurrent third-boundary proof at `1068ce9`, Section 5, independently
+proves a broader target-side third-rank ceiling; that overlap is credited
+in the pencil note.
+
+## Simultaneous mixed first projections
+
+[AI-BOTH-MIXED-FIRST-SPACES-082](research/ai/2026-10-21-both-mixed-first-spaces/proof.md)
+shows that when both mixed projections are nonzero, each must be a line,
+even with arbitrary boundary graph corrections. Rank-one lines have a
+unique partner relation and quotient ranks at most 7 each. Invertible
+mixed lines force quotient ranks exactly 1 each. The necessary sum in
+this case drops from 16 to **14**. Exact compatible 7-by-7 and 1-by-1
+first spaces are retained; their polynomial maps still have first rank 12.
+The invertible-line example leaves 72 normal directions before further
+lifting equations. This is a written, unreviewed local classification,
+not a matrix target or exponent improvement.
+
+## Invertible-line lifting equations
+
+[EXP-INVERTIBLE-LINE-LIFTS-083](research/ai/2026-10-21-invertible-line-lifts/calculation.md)
+reduces the selected invertible seed's normal dimension from 72 to 40
+using the target's zero projected third block. A specified 36-direction
+ansatz has sixteen exact quadratic conditions for second leading rows
+and third new rows. A retained compatible control has uncorrected first
+rank 13. Third leading rows and later coefficients remain to solve;
+these equations do not classify arbitrary corrections or construct the
+matrix target. The linear decomposition is not a nonlinear gauge reduction.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
@@ -918,6 +1253,110 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+## Source-weight windows and full original-source Laurent fibers
+
+Claims `AI-WEIGHT-WINDOWS-098` and `AI-ORIGINAL-JET-FIBERS-099` preserve
+two completed local packages. No exponent below 9/4 is established.
+
+Every ordinary A88 to M27 plus M7 restriction needs at least one
+matrix-unit image whose source weights span at least four. The exact
+width-three containing-space sequence is 960,948,906,844,622, contradicting
+the required 778 dimensions. Width four is a proved fixed point of this
+particular screen. An explicit slice over Q(phi), phi^2=phi+1, has rank 384
+although its middle homogeneous component has rank 512. It supplies one
+cancellation direction, not full target maps. See
+[the proof and exact acceptance certificate](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_weight_windows.md).
+
+The original-source Laurent construction has generically invertible
+960-by960 maps on all three legs, exact cancellation of every negative
+power, and 28,316 nonzero constant coefficients. A recorded coordinate
+projection is concise in format 936 by 936 by 935. However, 42 selected rows
+per leg cover the complete constant support, so its slice rank is at
+most 126. The intended M27 plus M7 target has slice rank 778. Consequently
+this limit cannot reach the target by restriction or further degeneration.
+The full source and other Laurent families remain open. See
+[the complete maps, fiber equations, and cover proof](research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers.md).
+
+The source-map, fiber-system, rank, coordinate-cover, and tamper checks
+pass in the same generating session. The proof status remains written
+and unreviewed externally. The next construction searches use moving
+physical compression spaces and the exact weight-mixing module equations.
+
+The [corrected prolongation family](research/ai/2026-10-21-corrected-prolongation/proof.md)
+constructs complete second jets with fixed boundary first frames. Exact
+off-diagonal constraints reduce532 leading parameters to172; all36 remaining
+quadratic obstructions vanish identically. Twenty-eight independent leading
+directions still leave the fixed boundary spaces. Two exported rational
+witnesses verify the entire first and second coefficients, including both
+source-row corrections. These are finite-order data, not a matrix limit.
+The boundary-frame matrix-target lifting question is closed by the following
+third-order argument; the exponent goal remains open and the proof is unreviewed.
+
+The [third-order boundary trap](research/ai/2026-10-21-third-boundary-trap/proof.md)
+excludes these full boundary first frames at every order, including delayed
+and unequal first-growth orders. An exact normal calculation leaves28
+parameters; the third block has coefficient image24 and sharp minimum
+nonzero first rank8. The matrix target forces first rank at most2. Only
+four common polynomial-plane motions remain, and formal induction traps
+both regular leg maps in dimension56. Ordinary effective first rank sum24
+is therefore excluded; the necessary sum is at most23. A separate general
+consequence forces third first rank at most2 on K_inf for every admissible
+ordinary first pair at these flags. The complete PR49 second jets remain
+valid finite data. These proofs are written and unreviewed; different first
+subspaces and leading flags remain open, and no exponent improvement follows.
+
+The [arbitrary-hyperplane extension](research/ai/2026-10-21-boundary-hyperplanes/proof.md)
+now excludes both first boundary dimensions at least11 at every order,
+including delayed unequal growth. It covers every complex hyperplane.
+Boundary obstruction matrices have minimum nonzero rank2. The full third
+matrix span is S0 tensor Mat2, with dim S0=20 in Mat6x6 and no rank-one
+matrix; exact polynomial identities certify this. A general compression
+lemma loses at most5 slice dimensions under two arbitrary hyperplanes.
+First rank at least8 therefore leaves at least3, above the target ceiling2.
+At ordinary first order one effective rank is at most10 and the total is
+at most22. Pairs12,10 remain open. The proofs are written and unreviewed;
+no matrix-multiplication exponent improvement follows.
+
+The [biform third-core theorem](research/ai/2026-10-21-biform-third-core/proof.md)
+identifies the entire third tensor as the4,2,2 outer-product tensor times
+a4-by6-by6 core. Its matrices lie in the kernel of ordinary biform
+multiplication of degrees(1,2) and(2,1), under determinant-one basis
+changes. This gives a short rank-one exclusion and improves the actual
+two-hyperplane loss bound from5 to the sharp value3. A general sharp
+projection lemma for losses1,3 and conditioned obstruction minimum4 then
+exclude every arbitrary boundary first pair of dimensions at least11,9,
+in either order, including delayed unequal growth. The necessary ordinary
+first-rank sum at these flags is now at most20. Pure boundary pairs12,8
+and10,10 remain at that threshold; a retained general losses2,2 control
+shows why the new projection lemma alone cannot close them. These are
+written unreviewed proofs, not an exponent improvement.
+
+The [integrable boundary shear](research/ai/2026-10-21-integrable-boundary-shears/proof.md)
+gives an exact two-parameter non-plane family at effective first ranks10,10.
+Both source rowspaces move, while the full112-by14-by14 contraction stays
+constant with first rank12. For every nonzero parameter pair the moving
+14-dimensional spaces are complete mutual annihilators on the fixed
+100-dimensional source kernel; exact polynomial chart minors prove this.
+The resulting degree-two maps satisfy all-order coefficient equations
+with zero source-row corrections. Their generic row ranks are14, so
+this family cannot reach the110-dimensional target legs. It establishes
+integrability of two additional normal directions, not an improving matrix
+limit. Higher-rank completions and the exponent goal remain open; the
+construction and completeness proof are written and unreviewed.
+
+The [updated ordinary rectangular frontier](research/ai/2026-10-21-rectangular-ordinary-frontier/proof.md)
+applies the already proved polynomial/Hankel gates to every improving
+sorted single matrix format for balanced a=2,...,12. Of5139 formats,4192
+are excluded and947 survive. All improving ordinary shapes through a7
+are closed; a8 has exactly M(27,28,28), with legs756,784,756, as a survivor.
+Its maps are unconstructed. The existing spectral implication would give
+omega<=191/85 if that premise were supplied, certified by the recorded
+integer comparison; no exponent improvement is established. The earlier
+polynomial-rank-locus note already excluded all four A5 ordinary targets;
+this scan updates the stale minimum-only research queue and retains that
+prior credit. A separate corner-minor note rederives the existing rank
+inequality, without claiming a new general theorem or independent review.
 
 ## Continued finite-construction search
 

@@ -1,0 +1,34 @@
+{
+  "base_main": "e24894f6d7205120fbfd48d17e017bc3c13b1135",
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "focused_tests": {
+    "count": 4,
+    "passed": true,
+    "seconds": 0.285,
+    "log": "results/rectangular-ordinary-frontier-2026-10-21/tests-focused.txt"
+  },
+  "combined_unit_tests": {
+    "count": 550,
+    "skipped": 3,
+    "passed": true,
+    "seconds": 513.928,
+    "log": "results/rectangular-ordinary-frontier-2026-10-21/tests-main-e24894f.txt"
+  },
+  "archive_replay": {
+    "count": 5,
+    "passed": true,
+    "log": "results/rectangular-ordinary-frontier-2026-10-21/archive-replay.txt"
+  },
+  "claim_ids": [
+    "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+    "AI-A8-RECTANGULAR-CONDITIONAL-002",
+    "AI-CORNER-MINOR-REDERIVATION-003"
+  ],
+  "imported_rank_locus_theorem_claimed_as_new": false,
+  "conditional_target_constructed": false,
+  "independent_review": false,
+  "improves_omega": false
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-21",
+  "implementation_commit": "22b1474b3913adcb58d2245daedcef383481010a",
+  "integration_commit": "bb3084071e8bc734e2c6b30f728a89376d50de67",
+  "equal_implementation_and_integration_tree": "f7d8481256d10f934af35e70b880afb3c0de11e7",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "focused_uniform": {
+    "run": 3,
+    "passed": 3,
+    "seconds": 38.412
+  },
+  "point_builder_reuse": {
+    "run": 4,
+    "passed": 4,
+    "seconds": 23.55
+  },
+  "full_regression": {
+    "run": 570,
+    "passed": 567,
+    "skipped": 3,
+    "seconds": 547.067,
+    "command": "python -m unittest discover -s tests -v",
+    "coverage_note": "Began at implementation_commit; integration_commit has the identical tree. All maintained tests were included."
+  },
+  "archive_replay": {
+    "reports_passed": 5,
+    "command": "python tools/replay.py"
+  },
+  "logs": {
+    "five-space-uniform-focused.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-uniform-focused.log",
+      "sha256": "b13b79917be8c5f5bdab6e35ef61f697745aa5f79e12827cd79abd39444534b3"
+    },
+    "five-space-reuse-tests.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-reuse-tests.log",
+      "sha256": "7018645a982f04d1b2c14cd0cda6d940f12c6b2df81110813cf1e88edb4a9a5d"
+    },
+    "five-space-uniform-full-tests.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-uniform-full-tests.log",
+      "sha256": "757b7280517d3616d37995e21f5bc7fa8745867703f6440d917e3d2147b5d643"
+    },
+    "five-space-uniform-archive-replay.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-uniform-archive-replay.log",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  },
+  "independent_mathematical_review": false,
+  "exponent_improved": false
+}

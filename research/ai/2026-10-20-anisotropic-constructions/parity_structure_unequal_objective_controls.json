@@ -1,0 +1,82 @@
+{
+  "controls": {
+    "problem": {
+      "source_lengths": [
+        2,
+        3
+      ],
+      "target_block_vertex_dimensions": [
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "source_leg_dimensions": [
+        24,
+        24,
+        24
+      ],
+      "target_leg_dimensions": [
+        5,
+        7,
+        7
+      ],
+      "complex_map_parameters": 98,
+      "conserving_charge_blocks": 3,
+      "checked_target_coefficients": 85,
+      "full_target_coefficients": 245,
+      "positive_target_normalization": 13,
+      "source_support_terms_stored": 38,
+      "all_target_terms_stored": 13,
+      "unequal_vertex_charge_lists_supported": true,
+      "rectangular_target_blocks_supported": true,
+      "quotient_equations_imposed": false,
+      "charge_masked_objective": false,
+      "full_target_witness": false
+    },
+    "exact_rectangular_partial_target_terms": 12,
+    "exact_partial_squared_residual": 1,
+    "full_dense_objective_error": 1.1102230246251565e-16,
+    "exact_sparse_export_roundtrip": true,
+    "complex_directional_gradient_error": 3.059561284879386e-11,
+    "single_block_controls_all_three_legs": [
+      {
+        "leg": 0,
+        "weight": 0,
+        "full_dense_qr_map_difference": 7.686240058056171e-15,
+        "free_block_gradient_maximum": 3.599054951313073e-17,
+        "before_squared_residual": 14.027671773833505,
+        "after_squared_residual": 10.383121578114409
+      },
+      {
+        "leg": 1,
+        "weight": 1,
+        "full_dense_qr_map_difference": 5.7302997460712835e-15,
+        "free_block_gradient_maximum": 1.4086493144591272e-17,
+        "before_squared_residual": 14.027671773833505,
+        "after_squared_residual": 13.437497073955345
+      },
+      {
+        "leg": 2,
+        "weight": -2,
+        "full_dense_qr_map_difference": 2.886579864025407e-15,
+        "free_block_gradient_maximum": 1.2156543845443298e-17,
+        "before_squared_residual": 14.027671773833505,
+        "after_squared_residual": 12.662543451971901
+      }
+    ],
+    "all_three_regularized_leg_updates_monotone": true,
+    "all_leg_specific_fixed_coefficients_unchanged": true,
+    "numerical_discovery_only": true,
+    "full_target_witness": false
+  },
+  "full_target_witness": false,
+  "new_exponent_established": false,
+  "numerical_discovery_only": true
+}

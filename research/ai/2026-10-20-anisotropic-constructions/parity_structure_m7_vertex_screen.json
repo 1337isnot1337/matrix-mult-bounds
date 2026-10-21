@@ -1,0 +1,1573 @@
+{
+  "source": "A(8,8)",
+  "small_target_vertex_charges": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "family": "common physical vertices, one on each of seven consecutive charge diagonals",
+  "maximum_allowed_weight_zero_pair_rank": 11,
+  "complete_choices": 1290240,
+  "visited_partial_choices": 15189,
+  "injectivity_pruned_choices": 213688,
+  "rank_pruned_choices": 1076536,
+  "surviving_capacity_choices": 16,
+  "exact_M7_choices_passing_weight_zero_gate": 0,
+  "near_seeds": [
+    {
+      "shift": -4,
+      "first_indices": [
+        0,
+        2,
+        4,
+        6,
+        1,
+        3,
+        5
+      ],
+      "second_indices": [
+        4,
+        5,
+        6,
+        7,
+        1,
+        2,
+        3
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -4,
+      "first_indices": [
+        1,
+        3,
+        5,
+        0,
+        2,
+        4,
+        6
+      ],
+      "second_indices": [
+        5,
+        6,
+        7,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 112,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        3,
+        4,
+        6,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        9,
+        8,
+        8,
+        7,
+        6,
+        5,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -4,
+      "first_indices": [
+        2,
+        1,
+        0,
+        6,
+        5,
+        4,
+        3
+      ],
+      "second_indices": [
+        6,
+        4,
+        2,
+        7,
+        5,
+        3,
+        1
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 112,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        9,
+        8,
+        7,
+        7,
+        6,
+        6,
+        4,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -4,
+      "first_indices": [
+        3,
+        2,
+        1,
+        0,
+        6,
+        5,
+        4
+      ],
+      "second_indices": [
+        7,
+        5,
+        3,
+        1,
+        6,
+        4,
+        2
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        7,
+        6,
+        5,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        0,
+        2,
+        4,
+        6,
+        1,
+        3,
+        5
+      ],
+      "second_indices": [
+        3,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        7,
+        7,
+        8,
+        9,
+        9,
+        8,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        1,
+        3,
+        5,
+        0,
+        2,
+        4,
+        6
+      ],
+      "second_indices": [
+        4,
+        5,
+        6,
+        0,
+        1,
+        2,
+        3
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 111,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        9,
+        8,
+        7,
+        7,
+        6,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        1,
+        3,
+        5,
+        7,
+        2,
+        4,
+        6
+      ],
+      "second_indices": [
+        4,
+        5,
+        6,
+        7,
+        1,
+        2,
+        3
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 111,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        9,
+        8,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        2,
+        1,
+        0,
+        6,
+        5,
+        4,
+        3
+      ],
+      "second_indices": [
+        5,
+        3,
+        1,
+        6,
+        4,
+        2,
+        0
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        7,
+        7,
+        8,
+        9,
+        9,
+        8,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        2,
+        4,
+        6,
+        1,
+        3,
+        5,
+        7
+      ],
+      "second_indices": [
+        5,
+        6,
+        7,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        8,
+        9,
+        9,
+        8,
+        7,
+        7,
+        7,
+        5,
+        4,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        3,
+        2,
+        1,
+        0,
+        6,
+        5,
+        4
+      ],
+      "second_indices": [
+        6,
+        4,
+        2,
+        0,
+        5,
+        3,
+        1
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 111,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        9,
+        8,
+        7,
+        7,
+        6,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        3,
+        2,
+        1,
+        7,
+        6,
+        5,
+        4
+      ],
+      "second_indices": [
+        6,
+        4,
+        2,
+        7,
+        5,
+        3,
+        1
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 111,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        9,
+        8,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -3,
+      "first_indices": [
+        4,
+        3,
+        2,
+        1,
+        7,
+        6,
+        5
+      ],
+      "second_indices": [
+        7,
+        5,
+        3,
+        1,
+        6,
+        4,
+        2
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        8,
+        9,
+        9,
+        8,
+        7,
+        7,
+        7,
+        5,
+        4,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -2,
+      "first_indices": [
+        1,
+        3,
+        5,
+        7,
+        2,
+        4,
+        6
+      ],
+      "second_indices": [
+        3,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 112,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        9,
+        8,
+        7,
+        7,
+        6,
+        6,
+        4,
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -2,
+      "first_indices": [
+        2,
+        4,
+        6,
+        1,
+        3,
+        5,
+        7
+      ],
+      "second_indices": [
+        4,
+        5,
+        6,
+        0,
+        1,
+        2,
+        3
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        7,
+        6,
+        5,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          8,
+          40
+        ],
+        [
+          8,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          8
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -2,
+      "first_indices": [
+        3,
+        2,
+        1,
+        7,
+        6,
+        5,
+        4
+      ],
+      "second_indices": [
+        5,
+        3,
+        1,
+        6,
+        4,
+        2,
+        0
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 113,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    },
+    {
+      "shift": -2,
+      "first_indices": [
+        4,
+        3,
+        2,
+        1,
+        7,
+        6,
+        5
+      ],
+      "second_indices": [
+        6,
+        4,
+        2,
+        0,
+        5,
+        3,
+        1
+      ],
+      "weight_zero_pair_rank": 9,
+      "complete_neighbor_matrix_pairs_checked": 2401,
+      "image_terms": 841,
+      "desired_terms_retained": 343,
+      "unwanted_terms": 498,
+      "exact_M7": false,
+      "pair_contraction_rank": 112,
+      "pair_ranks_by_weight_minus14_to14": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        3,
+        4,
+        6,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        9,
+        8,
+        8,
+        7,
+        6,
+        5,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_weight_capacity_gates_pass": true,
+      "unwanted_diagonal_cyclic_orbit": [
+        [
+          0,
+          32,
+          40
+        ],
+        [
+          32,
+          40,
+          0
+        ],
+        [
+          40,
+          0,
+          32
+        ]
+      ],
+      "matching_desired_diagonal_terms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          32,
+          32
+        ],
+        [
+          40,
+          40,
+          40
+        ]
+      ],
+      "coefficientwise_Laurent_rescaling_obstructed": true
+    }
+  ],
+  "positive_M2_control": {
+    "physical_vertices": [
+      [
+        0,
+        0
+      ],
+      [
+        7,
+        6
+      ]
+    ],
+    "target_terms": 8,
+    "weight_zero_pair_rank": 2,
+    "exposed_zero_weight_coordinates": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        13,
+        6
+      ]
+    ],
+    "counterexample_to_r0_at_least_2n_minus_1": true
+  },
+  "general_mixed_source_maps_excluded": false,
+  "arbitrary_target_basis_changes_excluded": false,
+  "standard_library_only": true,
+  "new_exponent_established": false
+}
