@@ -18,6 +18,19 @@ weighted3-by3 control passes. This is the new conditional lead
 Complete projected triple-translation classes encode the necessary pair
 capacity without relying on an SL(2,5) cocycle.
 
+## Hankel pencils and the ordinary frontier
+
+The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)
+bounds Hankel Segre images when1<=r<min(a,b) and5r<2(a+b), using the classical
+index sum theorem and a kernel-bundle calculation. It extends the earlier
+fixed-scheme and first-boundary ranges; all claims remain written and
+unreviewed. The [exact application](research/ai/2026-10-21-hankel-pencil-degree/application.md)
+adds453 exclusions to the5139-format balanced rectangular scan through a12.
+Every improving ordinary single rectangular target through a9 is excluded;
+494 necessary-test survivors remain, first at a10. All improving ordinary
+A8 square direct sums are also excluded. A9's square candidate(32,6,3)
+remains unconstructed. Singular degenerations remain open; omega is9/4.
+
 ## Uniform mixed-axis closure
 
 The [auxiliary-projection proof](research/ai/2026-10-21-mixed-axis-incidence/proof.md)
