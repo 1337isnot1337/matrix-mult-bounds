@@ -1,5 +1,19 @@
 # Research status
 
+## Uniform Hankel caps and dimension refinements
+
+The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)
+gives dim L<=r for every characteristic-zero linear space of a-by-b Hankel
+matrices of rank at most r<min(a,b), with an exact rational witness generator.
+The package also proves [scalar-Hankel saturation at its dimension equality](research/ai/2026-10-21-hankel-wronskian-cap/boundary_saturation.md)
+and [a dimension loss for proper crossed-rank parameter images](research/ai/2026-10-21-hankel-wronskian-cap/proper_sections.md).
+The [exact application](research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+adopts the concurrent rectangular worker's higher-input-rank and bundle
+bounds with source credit. It closes every improving ordinary A9 square
+sum, and a proper-section equality case at A12. Its240 balanced rectangular
+survivors are a pinned comparison, not the full concurrent all-source frontier.
+All proofs remain written and unreviewed. No target maps or exponent gain.
+
 ## Joint central-sign search in SL(2,5)
 
 The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)
