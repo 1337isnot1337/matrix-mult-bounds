@@ -394,3 +394,9 @@ and polynomial-kernel argument for an explicitly restricted ansatz. Small
 original-source controls and a sharp650 example support the finite checks.
 It does not classify general Hankel slices, invalidate the641 counterexample,
 or establish a smaller exponent. The proof remains written and unreviewed.
+
+The cyclic-state extension uses an explicit source factorization and
+standard Jordan-chain observability, with its needed argument included.
+Its rounding bound imports the credited quantitative crossed-rank lemma.
+Cyclic and noncyclic sharp controls preserve the stated hypotheses; this
+is not a general realization theorem or an improved exponent.

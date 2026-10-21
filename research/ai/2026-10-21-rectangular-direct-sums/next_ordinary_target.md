@@ -63,3 +63,9 @@ has crossed rank9 and consists of nine distinct finite rank-one spectral
 atoms. Such a slice misses the641 ceiling. This narrows that ansatz only:
 crossed rank8, repeated/infinite support and general slices are untouched.
 The existing641 counterexample remains valid.
+
+The subsequent `cyclic_state_gap.md` extends the650 obstruction to
+observable cyclic finite-state realizations of dimension9, including
+repeated eigenvalues with one Jordan block each. Its proof forces source
+rank divisible by10. General noncyclic states and boundary support remain
+open; the existing641 example has state J8 direct_sum J1 and is noncyclic.
