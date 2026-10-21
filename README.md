@@ -22,6 +22,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [All-size characterization of the product-filtration inequalities](research/ai/2026-10-20-concavity-equivalence/research_note.md)
 - [Replication-to-rigidity bridge and a conditional curvature test](research/ai/2026-10-20-concavity-equivalence/homogeneous_rigidity.md)
 - [SL(2,7) exact source cost and an unconstructed finite target](research/ai/2026-10-20-sl2-seven/README.md)
+- [Heisenberg source and complete single-target coordinate obstruction](research/ai/2026-10-20-heisenberg-five/README.md)
 
 The field map is a curated starting point, not an exhaustive survey. Its source snapshot is **October 20, 2026**.
 
