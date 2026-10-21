@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "implementation_commit": "dd5986117a4d804a33aa292696eaafaaddc50947",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "focused": {
+    "run": 4,
+    "passed": 4,
+    "seconds": 28.028
+  },
+  "full_regression": {
+    "run": 574,
+    "passed": 571,
+    "skipped": 3,
+    "seconds": 515.926,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "archive_replay": {
+    "reports_passed": 5,
+    "command": "python tools/replay.py"
+  },
+  "logs": {
+    "pure-five-focused.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/pure-five-focused.log",
+      "sha256": "e7038a93d4599de29063b4dc13906dce4da8f2a16c78416fb895c20d1473fe7f"
+    },
+    "pure-five-full-tests.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/pure-five-full-tests.log",
+      "sha256": "8e2ba8e000e0f19a9a13c20af714c5c0d0e3a9d14646da6d82770a8c44cdd988"
+    },
+    "pure-five-archive-replay.log": {
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/pure-five-archive-replay.log",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  },
+  "independent_mathematical_review": false,
+  "exponent_improved": false
+}
