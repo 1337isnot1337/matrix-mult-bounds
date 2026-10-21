@@ -25,3 +25,8 @@ Next: solve the third-order equations and test further growth. A formal jet
 or a low truncated residual is not a matrix-target construction. This
 branch does not duplicate the other worker's boundary-spanning family
 or external preprint audit.
+
+Third-order disposition: `third_order.md` now excludes the fixed seed at
+every order by two universal rank covers and formal moving-plane induction.
+Other first mixed spaces or delayed growth remain open. The second-order
+family is retained as an exact positive control for the obstruction's order.

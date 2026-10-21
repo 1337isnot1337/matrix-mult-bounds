@@ -971,6 +971,15 @@ later growth and a matrix target remain unconstructed. An exact nonzero
 third coefficient is retained as an order-boundary check. This finite
 polynomial certificate does not improve the exponent.
 
+[AI-MIXED-THIRD-ORDER-080](research/ai/2026-10-21-mixed-first-jets/third_order.md)
+now excludes the target for these fixed14-by6 first subspaces at every order.
+The exact normal space has dimension16. Successive universal matrix-rank
+covers impose six plus six independent constraints, leaving only the four
+common-plane tangents. Arbitrary correction-row freedoms vanish from the
+projected obstruction, and formal induction bounds both map ranks by56.
+This is an unreviewed scoped proof; other mixed spaces and delayed growth
+remain open, and the exponent is unchanged.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
