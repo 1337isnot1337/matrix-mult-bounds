@@ -169,6 +169,12 @@ controls. The exact checkpoint and commands are recorded in the
 The source maps, their proof, and all same-session checks remain externally
 unreviewed.
 
+The focused acceptance and corruption checks run with:
+
+```sh
+python -m unittest discover -s tests -p test_canonical_moment_flags.py -v
+```
+
 ## Scope and provenance
 
 Claim `AI-CANONICAL-INTEGER-FLAGS-001` is written and externally unreviewed.
