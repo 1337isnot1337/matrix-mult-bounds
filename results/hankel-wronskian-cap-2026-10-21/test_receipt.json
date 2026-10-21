@@ -1,0 +1,35 @@
+{
+  "base_main": "46952988962c19f11811c6b6860c88e898b99b51",
+  "focused_tests": {
+    "tests_run": 6,
+    "passes": 6,
+    "seconds": 1.041,
+    "command": "python -m unittest discover -s tests -p test_hankel_wronskian_cap.py -v"
+  },
+  "full_repository_regression": {
+    "tests_run": 608,
+    "passes": 605,
+    "skipped": 3,
+    "seconds": 844.203,
+    "command": "python -m unittest discover -s tests -v",
+    "log": "results/hankel-wronskian-cap-2026-10-21/tests-main-4695298.txt",
+    "tree_context": "Working tree based on main4695298, including the added section tests and corrected parameter-span fixture."
+  },
+  "protected_archives_changed": false,
+  "independent_review": false,
+  "improves_omega": false,
+  "archive_replay": {
+    "passed": 5,
+    "command": "python tools/replay.py",
+    "log": "results/hankel-wronskian-cap-2026-10-21/archive-replay.txt"
+  },
+  "initial_combined_failure": {
+    "tests_run": 28,
+    "failures": 1,
+    "cause": "Test expected ValueError for a13-dimensional span inside a24-dimensional ambient space; implementation correctly accepted it.",
+    "fix": "Test invalid25-dimensional span instead.",
+    "failure_log": "results/hankel-wronskian-cap-2026-10-21/tests-hankel-initial.txt",
+    "targeted_resolution_log": "results/hankel-wronskian-cap-2026-10-21/tests-section-fix.txt",
+    "included_in_passing_full_run": true
+  }
+}
