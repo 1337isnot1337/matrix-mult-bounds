@@ -155,6 +155,19 @@ first-order Laurent fits and two bounded refinements on the specified
 size-three two-block target failed their complete coefficient equations;
 their numerical results are not exclusions of larger ansatz classes.
 
+Two bounded second-order Laurent pilots also retain nonzero pole
+coefficients. Narrow-source coefficient and kernel searches for
+`Q_(3,2) -> M(3,2,3)`, including complex kernels, supplied no exact maps.
+Further work needs a new chart, anchor, structural basis, or argument;
+repeating the same local runs is not a new construction route.
+
+The [coupled quantum families](../research/ai/2026-10-21-paired-quantum/coupled_faces.md)
+provide two exactly specified intermediate tensors of format `(9,15,15)`.
+The rank-two slice of `F1` excludes every further degeneration to the
+selected concise minimum-slice-three target. Continue the singular
+construction question from `F0`, or choose a target outside that
+exclusion. Passing its Koszul tests does not prove extractability.
+
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 It requires a genuine convolution-source degeneration at cost below

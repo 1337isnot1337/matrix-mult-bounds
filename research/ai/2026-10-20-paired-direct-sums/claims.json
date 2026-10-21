@@ -32,6 +32,38 @@
         "results/paired-direct-sums-2026-10-20/laurent-controls.json",
         "tests/test_paired_direct_sums.py"
       ]
+    },
+    {
+      "id": "EXP-PAIRED-HIGHER-JET-004",
+      "classification": "finite numerical experiment with exact coefficient controls",
+      "statement": "Two bounded real second-order graded Laurent runs for the small P3 direct sum finished with nonzero pole coefficients; neither supplied a degeneration.",
+      "limitations": "Only the recorded coefficient bound, grading, degree, and two finite starts. No nonexistence conclusion.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/higher_jet_search.md",
+        "results/paired-direct-sums-2026-10-20/higher-jet-controls.json"
+      ]
+    },
+    {
+      "id": "EXP-NARROW-SOURCE-005",
+      "classification": "finite numerical experiment with exact recognition controls",
+      "statement": "Eight unrestricted constant-map ALS runs and ten compression-kernel searches for Q_(3,2) -> M(3,2,3) failed to produce an exact construction. Four closure-only real searches gave ill-conditioned false leads; four real and two complex searches with condition/spectrum penalties did not approach an acceptable matrix algebra.",
+      "limitations": "Finite local searches; one kernel chart and fixed anchor; no nonexistence conclusion and no exponent gain. Three numerical Q2 kernel calibrations and the Q2 tensor fit succeeded as numerical controls only.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md",
+        "results/paired-direct-sums-2026-10-20/kernel-algebra-controls.json",
+        "results/paired-direct-sums-2026-10-20/extended-checkpoint-validation.json"
+      ]
+    },
+    {
+      "id": "LEM-NORMALIZED-SLICE-006",
+      "classification": "standard algebra recognition criterion, proof checked by concurrent mathematical worker",
+      "statement": "A full n^2-dimensional normalized slice span in Mat_(nb)(C), closed under products with one-dimensional center and nondegenerate matrix trace form, is Mat_n(C) acting b times and identifies the tensor with M(n,b,n).",
+      "limitations": "The proof uses the standard structure theorem for finite-dimensional semisimple complex algebras. No Q_(3,2) compression satisfying the criterion is supplied.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md",
+        "research/ai/2026-10-20-paired-direct-sums/kernel_algebra_search.py",
+        "tests/test_paired_direct_sums.py"
+      ]
     }
   ],
   "improves_omega": false

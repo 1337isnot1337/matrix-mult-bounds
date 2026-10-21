@@ -184,6 +184,306 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-ORIENTED-ENDPOINT-052",
+      "title": "Oriented endpoint rigidity and quantitative spectral stability",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-critical-character-extension/README.md",
+      "statement": "At total dot-product parameter9/4, the six oriented limiting profiles have a common critical amplitude. An exact deficit decomposition proves squared-distance stability with sharp constant11/4.",
+      "dependencies": [
+        "Uzna\u0144ski2610.10494v2 oriented spectral inequalities",
+        "Existing scalar homogeneous-limit analysis"
+      ],
+      "limitations": "The endpoint is hypothetical. Stability does not exclude it; no universal higher-difference or smoothness theorem is proved.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-STENCIL-053",
+      "title": "Higher-difference signs for quantum characters and the classified edge",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-critical-character-extension/quantum_profiles.md",
+      "statement": "The powered convolution profile of each quantum character has completely monotone first derivative. Its fifth forward difference is nonnegative, while the proposed critical profile has a strictly negative certified stencil. The cited edge classification extends the test to characters with one dot-product exponent equal to one.",
+      "dependencies": [
+        "Christandl\u2013Vrana\u2013Zuiddam 1709.07851v3",
+        "Sakabe\u2013Do\u011fan\u2013Walter 2601.21553v1",
+        "Alman\u2013Li\u2013Pratt 2604.01386v2"
+      ],
+      "limitations": "The test is unproved for interior spectral points. Quantum characters are not asserted to exhaust or approximate the whole spectrum.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-STENCIL-SOURCE-054",
+      "title": "Finite stencil and common-input source obstructions",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-critical-character-extension/stencil_obstruction.md",
+      "statement": "The stated positive and negative matched convolution stencils have crossing exact Koszul ranks, excluding degeneration in either direction at every finite scale. The companion notes prove a common-input rank-only amplitude barrier and show that the retained convolution separator lower bound is dominated by the existing power-sum inequality.",
+      "dependencies": [
+        "Explicit Koszul formulas and integer sign certificates",
+        "Companion source_obstructions.md and retained_separator.md",
+        "L\u00fc 2610.18914v1 separation construction"
+      ],
+      "limitations": "The stencil obstruction includes the explicitly stated scalar and dot-product auxiliary factors, not arbitrary auxiliaries or asymptotic comparisons. Mixed input/output sources remain outside the amplitude barrier.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-NONMONIC-TARGET-055",
+      "title": "Uniform target diagonal-orbit normalization",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-new-source-constructions/uniform_normalization.md",
+      "statement": "For the canonical size-m target, the selected incidence minor is unimodular, with orbit dimension m\u00b2+m\u22122 and (m\u22123)(m\u22122)(m+2)/6 remaining multiplicative relations. At m=4, two quartic relations with nonzero coordinates characterize the diagonal orbit over every field.",
+      "dependencies": [
+        "Existing balanced polynomial flag system",
+        "Explicit integer Laurent inverse and all-degree minor argument"
+      ],
+      "limitations": "This removes a normalization restriction within the stated flag class. It supplies no solution, general Laurent normal form, replication theorem or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-NONMONIC-CHAMBER-056",
+      "title": "A smaller compatible nonmonic coefficient chamber",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-new-source-constructions/chamber_search.md",
+      "statement": "A reproducible 20,000-sample search finds offsets (0,301,628,844), with 95 zero equations and two target-orbit relations. Exact elimination has 65 unit pivots, 60 free monic coefficients, 18 target scalars, and 50 residual equations. The completed bounded-search reports and finite queries are preserved.",
+      "dependencies": [
+        "AI-NONMONIC-TARGET-055",
+        "Exact coefficient and elimination tests over F3 and F4"
+      ],
+      "limitations": "The sampling does not prove global chamber optimality. No exact solution or Hensel certificate was found. Solver-reported F2 UNSAT has no checked proof; timeouts and small numerical residuals are neither exclusions nor constructions.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-ANISOTROPIC-RANK-057",
+      "title": "Low-rank slice loci of unequal cyclic convolution sources",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "statement": "For A(a,b), each slice rank is at least ab times its polynomial Hankel-symbol rank. The full locus below 2ab is the product of the biform space with a coherent Hankel curve. Linear spaces in that locus have a fixed coherent factor; three such leg spaces give tensor rank at most one. Every nonscalar square block of size n in an ordinary restriction of total leg dimension D must satisfy n+2(N\u2212D)\u22652ab.",
+      "dependencies": [
+        "Exact source coefficient formula",
+        "Two independent-column polynomial multiplication injections",
+        "Companion slice_rank_gap.md for the earlier minimum gap"
+      ],
+      "limitations": "The target consequences apply to ordinary restrictions. The lifting-rank estimate does not extend to arbitrary approximating tensors in singular degenerations.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-PARITY-CAPACITY-058",
+      "title": "Explicit parity source and sharp cyclic asymptotic slice-rank capacity",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing.md",
+      "statement": "The explicit shifted-parity A(5,5) source has 11,725 terms and 225 coordinates per leg. Two strictly positive rational distributions satisfy 1,350 original marginal equations and interpolate to the algebraic capacity maximizer. An entropy argument gives positive diagonal balancing; the cyclic asymptotic slice-rank capacity per source factor is approximately 212.716257.",
+      "dependencies": [
+        "Explicit integer valuation degeneration",
+        "Tao\u2013Sawin antichain entropy theorem, Proposition 6",
+        "Exact rational marginal certificates"
+      ],
+      "limitations": "The numerical scaling array is a preconditioner only. The M14 plus M4 target is excluded by the separate annihilator theorem, despite passing this capacity test.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-PARITY-ANNIHILATOR-059",
+      "title": "Pairwise-annihilator obstruction to parity-source matrix targets",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_annihilator.md",
+      "statement": "Any degeneration from the specified parity A(5,5) source to square matrix direct sums has total leg dimension at most 169; a single M13 is also excluded. More generally, target pairwise-annihilating subspaces obey the stated sum-of-maximum-rectangular-leg bound.",
+      "dependencies": [
+        "No source term has two shifted-even coordinates",
+        "Elementary matrix image-space dimension inequality",
+        "Closed projective Grassmannian incidence"
+      ],
+      "limitations": "This excludes arbitrary one-copy degenerations from that parity source. It does not exclude general asymptotic conversion between powers or the corresponding targets from the full source.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-SQUARE-SUM-FRONTIER-060",
+      "title": "Exact ordinary square-direct-sum frontier through source dimension 784",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/square_sum_frontier.md",
+      "statement": "All 51 sources A(a,b), 2\u2264a\u2264b, with leg dimension below 784 fail the finite 9/4 score test for every ordinary square direct-sum target, by exact integer-root bounds and exhaustive dynamic programming on necessary conditions. The relaxed upper scores for A(5,5) and A(5,6) are respectively 18916.994428<21952 and 26604.167197<29791.",
+      "dependencies": [
+        "AI-ANISOTROPIC-RANK-057",
+        "AI-HANKEL-SYMBOL-062",
+        "AI-HANKEL-EQUALITY-063",
+        "Exact fourth-root intervals",
+        "Independent small recursive partition controls"
+      ],
+      "limitations": "Only ordinary square direct sums and this source score are excluded. At N=784, A(7,8) to M25 plus M5 passes the necessary tests and would imply omega<2.247, but the required maps are missing. The former ordinary A(5,6) M16 targets are excluded by the higher-rank theorem. Singular full-source degenerations and general rectangular sums remain outside this frontier.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-MIXED-DIRECT-SUM-061",
+      "title": "An explicit integral two-block matrix restriction",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_direct_sum.md",
+      "statement": "For the stated balanced cyclic source, explicit mixed polynomial bases give A(a,a) to M(2a\u22122) direct sum M(a\u22122), for every a\u22653. Full coefficient controls cover a=3 through 6, including A(5,5) to M8 plus M3. The preceding integral M9 restriction and its exact fixed-core extension obstruction are also recorded.",
+      "dependencies": [
+        "Explicit polynomial product basis and integer inverse",
+        "Exact full-source coefficient contraction"
+      ],
+      "limitations": "These are actual smaller control targets and do not improve omega. Adding the proposed extra scalar creates mixed coefficients and is not a direct-sum construction.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-HANKEL-SYMBOL-062",
+      "title": "Higher Hankel-rank dimension obstruction for ordinary matrix blocks",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+      "statement": "For 1\u2264r<min(a,b) and 3r\u2264a+b\u22121, every square block M_n in an ordinary restriction of A(a,b), of total target leg dimension D, satisfies n\u00b2>rab \u21d2 n+2(N\u2212D)\u2265(r+1)ab. The argument bounds the symbol span over C(x,z), then injects the complex block space into rab polynomial coefficients.",
+      "dependencies": [
+        "AI-ANISOTROPIC-RANK-057",
+        "Classical scalar Hankel/secant identification; Raicu arXiv:1011.1564v3 Section 1, equation (1.1)",
+        "Self-contained polynomial multiplication and Hermite interpolation arguments"
+      ],
+      "limitations": "This is an ordinary-restriction obstruction. Supporting schemes can vary with x,z. Explicit bounded-rank pencils at a+b\u22121=3r\u22121 show that the fixed-scheme line argument cannot be extended by simply removing its degree hypothesis. No smaller exponent follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-HANKEL-EQUALITY-063",
+      "title": "Constant rank-two schemes at the polynomial slice-rank boundary",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_equality.md",
+      "statement": "For a,b\u22653, every source slice of rank at most 2ab has its long coefficient space in one constant scheme span of length at most two. If also a+b\u22121\u22656, three such fixed leg spaces factor through at most eight coordinates per leg. Consequently every ordinary square target block n\u22653 requires n+2(N\u2212D)>2ab.",
+      "dependencies": [
+        "AI-ANISOTROPIC-RANK-057",
+        "Equality in both polynomial multiplication injections",
+        "Ruling-line geometry and tangent/secant factorization in hankel_rank_two.md"
+      ],
+      "limitations": "The two polynomial variables and the rank-equality hypotheses are essential. This does not exclude n=2 at equality or arbitrary singular degenerations. Exact controls are same-session finite checks, not independent review.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-SCALAR-EXTENDED-M3-064",
+      "title": "Exact rational M3 restriction with one additional scalar source",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin1.md",
+      "statement": "Explicit rational 9-by-13 maps give A(2,2) direct sum one scalar to M3 over Q. A simultaneous triangular matrix identity proves that the unextended maps yield Tr(ABC)+tr(A)tr(B)tr(C); the extra scalar cancels the trace product. All 729 target coefficients are verified exactly.",
+      "dependencies": [
+        "Explicit simultaneous rational conjugation and all-word trace identity",
+        "Pure Python integer coefficient verifier and saved numerator maps"
+      ],
+      "limitations": "The additional scalar belongs to the source. This certificate does not give A(2,2) to M3 and does not improve omega. Same-session symbolic and coefficient checks do not constitute external independent review.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-CYCLIC-RESIDUAL-065",
+      "title": "Exact retained convolution sources and corner splits",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_residual.md",
+      "statement": "Explicit rational maps give A(5,6) to M8 direct sum A(2,3), retaining the full 24-dimensional residual source. Exact integral controls also give M8 plus M4 and M10. A separate monomial corner split gives A(a,b) to A(s,t) plus A(c,d) when s,c\u2264a, t,d\u2264b and s+t+c+d\u2264a+b+1; in particular A(2,3) supplies A(2,2) plus one scalar.",
+      "dependencies": [
+        "Explicit mixed polynomial bases in parity_structure_a56.md",
+        "Exact complete source contractions with integer numerators",
+        "Disjoint long-coordinate intervals in parity_structure_corner_extension.md"
+      ],
+      "limitations": "These maps construct smaller control targets and retain sources for composition. Their scores do not improve the matrix multiplication exponent. No unconstructed larger block is asserted.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-PAIRED-HIGHER-JET-004",
+      "title": "Complete second-order Laurent coefficient search records",
+      "origin": "AI research directed by repository owner; standard algebra structure theorem where stated",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/higher_jet_search.md",
+      "statement": "Two bounded real second-order graded Laurent runs for the small P3 direct sum finished with nonzero pole coefficients; neither supplied a degeneration.",
+      "dependencies": [
+        "results/paired-direct-sums-2026-10-20/higher-jet-controls.json"
+      ],
+      "limitations": "Only the recorded coefficient bound, grading, degree, and two finite starts. No nonexistence conclusion. Same-session mathematical checks are not independent external review. No exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-NARROW-SOURCE-005",
+      "title": "Narrow-source coefficient and compression-kernel searches",
+      "origin": "AI research directed by repository owner; standard algebra structure theorem where stated",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md",
+      "statement": "Eight unrestricted constant-map ALS runs and ten compression-kernel searches for Q_(3,2) -> M(3,2,3) failed to produce an exact construction. Four closure-only real searches gave ill-conditioned false leads; four real and two complex searches with condition/spectrum penalties did not approach an acceptable matrix algebra.",
+      "dependencies": [
+        "results/paired-direct-sums-2026-10-20/kernel-algebra-controls.json",
+        "results/paired-direct-sums-2026-10-20/extended-checkpoint-validation.json"
+      ],
+      "limitations": "Finite local searches; one kernel chart and fixed anchor; no nonexistence conclusion and no exponent gain. Three numerical Q2 kernel calibrations and the Q2 tensor fit succeeded as numerical controls only. Same-session mathematical checks are not independent external review. No exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "LEM-NORMALIZED-SLICE-006",
+      "title": "Exact recognition of a normalized matrix-tensor slice algebra",
+      "origin": "AI research directed by repository owner; standard algebra structure theorem where stated",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md",
+      "statement": "A full n^2-dimensional normalized slice span in Mat_(nb)(C), closed under products with one-dimensional center and nondegenerate matrix trace form, is Mat_n(C) acting b times and identifies the tensor with M(n,b,n).",
+      "dependencies": [
+        "research/ai/2026-10-20-paired-direct-sums/kernel_algebra_search.py",
+        "tests/test_paired_direct_sums.py"
+      ],
+      "limitations": "The proof uses the standard structure theorem for finite-dimensional semisimple complex algebras. No Q_(3,2) compression satisfying the criterion is supplied. Same-session mathematical checks are not independent external review. No exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-PAIRED-QUANTUM-002",
+      "title": "Explicit coupled quantum Laurent families and exact intermediate tensors",
+      "origin": "AI research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-paired-quantum/coupled_faces.md",
+      "statement": "Explicit rational-function local maps give P3 degenerations to two concise tensors F0,F1 of format(9,15,15), with241 and108 nonzero rational leading coefficients. Every one of288 nonzero generic coefficient functions has nonnegative Laurent valuation. Exact complete first-leg Koszul ranks pass the selected small direct-sum target. An invertible slice excludes ordinary restrictions from either face; a rank-two slice and closed projective incidence exclude every further degeneration from F1 to that concise target with minimum slice rank three.",
+      "dependencies": [
+        "AI-PAIRED-QUANTUM-001 generic local map equivalence",
+        "Exact Q(q) contraction, cyclotomic valuations, residues and rational matrix ranks",
+        "Properness of projective space; Stacks Project Section29.44 Lemma29.44.5",
+        "Explicit target slice ranks and full first-leg rank formula"
+      ],
+      "limitations": "The intermediate tensors are not matrix multiplication direct sums. Further singular degeneration from F0 is unconstructed. The F1 exclusion retains the full nine-dimensional concise first space. Same-session verification is not independent mathematical review, formalization or an exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

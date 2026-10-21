@@ -10,7 +10,7 @@
     },
     {
       "command": "python -m unittest discover -s tests -p test_paired_direct_sums.py -v",
-      "outcome": "8 tests passed, including full rational Laurent controls and small-target rank checks"
+      "outcome": "11 focused standard-library tests passed, including exact higher-order pole, narrow-source coefficient, and algebra false-positive controls"
     },
     {
       "command": "laurent_refine.py --controls",
@@ -19,16 +19,152 @@
     {
       "command": "four300-iteration ALS runs and two300-evaluation bounded refinements, commands in laurent_search.md",
       "outcome": "All finite budgets completed; no coefficient solution. Six JSON checkpoints reloaded and independently recontracted against recorded residuals."
+    },
+    {
+      "command": "higher_jet_search, narrow_source_search, kernel_algebra_search recorded finite run set",
+      "outcome": "All recorded finite run budgets completed; no new construction. Eleven exact focused tests passed. All24 saved checkpoints independently recontracted; two lagging intermediate checkpoints were restored by deterministic replay, reproducing every original recorded numerical metric exactly."
     }
   ],
   "report_hashes": [
+    {
+      "path": "results/paired-direct-sums-2026-10-20/checkpoint-recovery.json",
+      "sha256": "b05a1877c54386c9c5ba01a669292810f6b44a58c81f29d2ed68b4ccc71d7881"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/extended-checkpoint-validation.json",
+      "sha256": "104d3ddb4ef2684240ef7f9d7a78f05d89fd73a5b00de31888fd4fbebb77e74d"
+    },
     {
       "path": "results/paired-direct-sums-2026-10-20/frontier-through-10.json",
       "sha256": "cde4fb26a0a5208824b0446632feb4b843439826e75e65de93677287e2927452"
     },
     {
-      "path": "results/paired-direct-sums-2026-10-20/selected-target.json",
-      "sha256": "3d0efc80e807b4892afaebed071081b6b92999be9d370d5505a19fc32c131ab1"
+      "path": "results/paired-direct-sums-2026-10-20/higher-jet-a3-order2-seed0-checkpoint.json",
+      "sha256": "baf8ed32ee2575b50c82074ed49d5cc04087f40709a53518253025fe45583264"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/higher-jet-a3-order2-seed0.json",
+      "sha256": "182a586365184a69f87b9baa05c7fe391defc2c6e19f6c20024faf5203e91f18"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/higher-jet-a3-order2-seed1-checkpoint.json",
+      "sha256": "8b48a733c6ed3d5e52e74c061e2277d5cbdc3839fb3518024a5b8ff2e3b1a201"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/higher-jet-a3-order2-seed1.json",
+      "sha256": "823c19d367eb87f719399fec7aae9334a7adc53d8295fd198cb05ae93d4d1640"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/higher-jet-controls.json",
+      "sha256": "f59d929deabd2bc4b3cbc7c6bb849fad8da426dd7c0e34b76d32a74848c87870"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-algebra-controls.json",
+      "sha256": "208f2cd4584509795a4f594f0460ad63b42fdd46582e9e17f997620ed00be433"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-complex-q2-control-checkpoint.json",
+      "sha256": "6df53b9510232d83d3485e6af9b493ea54f6fdd4ad59598de9c78437d47b86ea"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-complex-q2-control-fit.json",
+      "sha256": "68c0fbc881154163a9554e822cbfab292a3ce7b26a37e804fa82aa74b8a8dc68"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-complex-q3-seed0-checkpoint.json",
+      "sha256": "3cd7ff8ef6e01f6cc3ac203f480861ba6b7f54304d4dbcdda20d2f5b6323beaa"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-complex-q3-seed0.json",
+      "sha256": "b956319e47bee2462a09fdc3321d9c4ae1f17f7fe09cfe09930c0439baf36fdf"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-complex-q3-seed1-checkpoint.json",
+      "sha256": "57099000751bd89260fff0358b5f6ff1375dacdccc18cac3f5658215a4439a0a"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-complex-q3-seed1.json",
+      "sha256": "ebe3f1b897e87d75b4628bca42e8c7bb62ddd3dc51e585c9960469246ebf166c"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q2-control-checkpoint.json",
+      "sha256": "21e4d3664bd5ce05758ae305c1ff67cf2a1cfa0f75a276b7ced522fdeccada71"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q2-control-fit.json",
+      "sha256": "76964a9524cb8ee3faded5df827b9981decbf1b66430800e7b21751670ba06ad"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed0-checkpoint.json",
+      "sha256": "68071a810fa193543de0f9aaa78af223e8130a236e13f2e906702ec9059cce15"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed0.json",
+      "sha256": "655a8bebb279a1487a9300a7b952ef58e5e5d9f827f9067c9232def10bd476eb"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed1-checkpoint.json",
+      "sha256": "473daeb7e9e73acc97ca7efc32923522e80ee3ef57885809283a0f1ba230fb9e"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed1.json",
+      "sha256": "b8b416dd038546dba9e9f9cc2debd0580f16e58b04e6cbeaa374d213ea6f0ac9"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed2-checkpoint.json",
+      "sha256": "90456deceed831ab02cc6b3644140ea3b241784d3d86e5f00a1e83aa9665fc7d"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed2.json",
+      "sha256": "8b83079d308f3659c86b988451cce6c0f1f1f4edce69ce689740de79c5d53799"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed3-checkpoint.json",
+      "sha256": "394253b8a39c03502816f960824370a72fb2a9b57e03b06e089ba2a018c066ba"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-q3-seed3.json",
+      "sha256": "15df2d7e29f56bd6914f6d68e9d082026342a59d886176934dbac26a1c56b984"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q2-control-checkpoint.json",
+      "sha256": "57f75ba583431a6bf1b1661a06f0ef30b684806f3daf607a3d5bb583a468043e"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q2-control-fit.json",
+      "sha256": "f5ea0b6e40848a451121d467bcfe894ef1e6694101c169ce6108414e3a89b3a7"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed0-checkpoint.json",
+      "sha256": "d607196b35634321deb0d88f2e881c1c1f987783f284b369b8749d4e8806fd46"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed0.json",
+      "sha256": "5af9d5c91c0801bd794fc93e0de917d729d3eded2eb8b656948007d1bbfc171f"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed1-checkpoint.json",
+      "sha256": "0c5292e0d16b483b9de42d9b7ba5fbc6273143054e82657bb7f50a78a417e3de"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed1.json",
+      "sha256": "91043d248e7ba6be4fe49694f0b249fbf5f70b646c3b07febd51d4b9242d863f"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed2-checkpoint.json",
+      "sha256": "a3834887b9f898510ee6496565658c18c2b70554b38666260ea8cfdf70895f8c"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed2.json",
+      "sha256": "357f8a3a282ff7cb58cd4eaaa1895f8eeb86d5cf06744c9cebd7aba8c228d669"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed3-checkpoint.json",
+      "sha256": "e219e389bd3863393223447781400efa0a1a24220e5bb52f60ae0af098bdb329"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/kernel-stabilized-q3-seed3.json",
+      "sha256": "ab49be4c6555b2678a971c6bda0b6a0a576808fa215d2610ef0f7519fabf8d2f"
     },
     {
       "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed0-checkpoint.json",
@@ -85,6 +221,86 @@
     {
       "path": "results/paired-direct-sums-2026-10-20/laurent-controls.json",
       "sha256": "a37880bed97d6c9c02d377af678ffdef96cf7e596b03f2bb1267fc80f661933c"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q2-2-control-checkpoint.json",
+      "sha256": "2795855f8cd37652c6c7701334d233e8476096e00d940c08b679a2b1dba5c9fe"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q2-2-control-fit.json",
+      "sha256": "88decdfbff5e0ebf9e0f2ab4704212562e2d1614d0c51138de0a3e6a87a12efa"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed0-checkpoint.json",
+      "sha256": "de1369e3deb561c5b7993f6072ad850a23de422087e451f12e8a9682410f8d4d"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed0.json",
+      "sha256": "a63f73167e91dee462c4f3be4482399c66222f5eb364163fcded184c6e37e7bc"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed1-checkpoint.json",
+      "sha256": "fbade3414e29c39a117426d0d4ac94adaf91ca32b09c40bb6e7b8fbd31bc64f6"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed1.json",
+      "sha256": "5f5506f7a079223b5e03848a2ed9836cd12ee50f4b6955a0e5350804500c384c"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed2-checkpoint.json",
+      "sha256": "beab4a1d83c909be20f2c651330f8f6cbbcf4dbcc8c28e2db0d4eceea464f23a"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed2.json",
+      "sha256": "f64ab107c6c2314bbda8c3532fd92a117e0c71b15a2d880312a3322065d0cf1a"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed3-checkpoint.json",
+      "sha256": "f74b2a56fdcca8a6dcb9f4ff66a977ebbc8d86920e8b3e1beead4ccb8a4b35f7"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed3.json",
+      "sha256": "c8cd448e0a94aec5ac7fc4bdbe41e196cd18d155a7e78f7d91c80de8dc5ce018"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed4-checkpoint.json",
+      "sha256": "1194e05b6d44fdb7f67b5048200a7df1a41e29ca86d1aefc94c09a54e89035a0"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed4.json",
+      "sha256": "959a360fde96d99cb291194af6a4f50b70ac571e84d4a9b97ac8233560691a3a"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed5-checkpoint.json",
+      "sha256": "b7f4b935843e7eb412eb52f3f4ca2bdac3e213d18cd50ff5398107d102d3a03c"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed5.json",
+      "sha256": "c965f0d31b618e2849f607576a652622ac8349ee62cfc7be907d84cd23b2b323"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed6-checkpoint.json",
+      "sha256": "338dbaf0a5f234fc5be9675787cbe080ecab768f7e09825bcceb1aae46562e23"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed6.json",
+      "sha256": "6177317a5d7877a1839a6ba29c2128b1638d0cab6eb7851c05e498fa121c3961"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed7-checkpoint.json",
+      "sha256": "6f1052a0ac25078e5207671310b92c4590536f5e5057f874e3c05830d89c339a"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed7.json",
+      "sha256": "b04ea36dc053b5ce864f39671a14900aabbc845c331e8eca2c1660fc4c172712"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/narrow-source-control.json",
+      "sha256": "2fd61a68be1d2de45c620fb02ec7420957b83b1449c219a6766cd45590e0ebc1"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/selected-target.json",
+      "sha256": "3d0efc80e807b4892afaebed071081b6b92999be9d370d5505a19fc32c131ab1"
     }
   ],
   "scope": "Focused new-package validation. Full integrated suite and historical replay are recorded by the integrating worker.",

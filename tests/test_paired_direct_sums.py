@@ -19,6 +19,14 @@ JET = importlib.util.module_from_spec(JET_SPEC)
 JET_SPEC.loader.exec_module(JET)
 
 
+def load_discovery_module(name):
+    spec = importlib.util.spec_from_file_location(
+        name, ROOT / f"research/ai/2026-10-20-paired-direct-sums/{name}.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
 def coefficient_rank_mod_two(shapes, ambient, degree):
     """Build the complete direct-sum Koszul matrix from tensor terms."""
     terms = []
@@ -57,6 +65,24 @@ def coefficient_rank_mod_two(shapes, ambient, degree):
 
 
 class PairedDirectSumsTests(unittest.TestCase):
+    def test_exact_second_order_pole_controls(self):
+        report = load_discovery_module("higher_jet_search").exact_controls()
+        self.assertTrue(report["exact_second_order_control_passed"])
+        self.assertTrue(report["pole_detected_despite_correct_target_coefficient"])
+        self.assertEqual(report["nonzero_coefficients_by_degree"], [0, 0, 3, 0, 0, 0, 0])
+
+    def test_exact_narrow_source_coefficient_control(self):
+        report = load_discovery_module("narrow_source_search").exact_control()
+        self.assertTrue(report["exact_control_passed"])
+        self.assertTrue(report["sign_error_detected"])
+        self.assertEqual(report["full_target_positions_checked"], 64)
+
+    def test_exact_algebra_accepts_only_the_matrix_control(self):
+        report = load_discovery_module("kernel_algebra_search").exact_control()
+        self.assertTrue(report["matrix_tensor_control"]["accepted"])
+        self.assertFalse(report["closed_nonmatrix_control"]["accepted"])
+        self.assertFalse(report["closed_center_one_nonsemisimple_control"]["accepted"])
+
     def test_small_laurent_target_passes_first_leg_screen(self):
         shapes = ((1, 3, 3), (3, 3, 2))
         self.assertIsNone(F.first_obstruction(3, shapes))

@@ -1,0 +1,444 @@
+{
+  "binary_exhaustive_control": {
+    "a": 2,
+    "all_symbol_rank_bounds_verified": true,
+    "b": 2,
+    "entire_sub_2ab_locus_matches_constant_coherent_factor": true,
+    "nonzero_slices_checked": 4095,
+    "slice_rank_histogram": {
+      "4": 27,
+      "6": 18,
+      "8": 462,
+      "9": 216,
+      "10": 1404,
+      "11": 216,
+      "12": 1752
+    },
+    "slices_below_2ab": 45,
+    "symbol_rank_slice_histograms": {
+      "1": {
+        "4": 27,
+        "6": 18
+      },
+      "2": {
+        "8": 462,
+        "9": 216,
+        "10": 1404,
+        "11": 216,
+        "12": 1752
+      }
+    }
+  },
+  "improving_target_constructed": false,
+  "new_exponent_established": false,
+  "ordinary_rectangular_exclusions": [
+    {
+      "legs": [
+        {
+          "axis": 0,
+          "block_leg_dimension": 182,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 34,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 1,
+          "block_leg_dimension": 224,
+          "excluded_on_this_leg": false,
+          "lifted_rank_one_slice_upper_bound": 73,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 2,
+          "block_leg_dimension": 208,
+          "excluded_on_this_leg": false,
+          "lifted_rank_one_slice_upper_bound": 58,
+          "threshold_2ab": 50
+        }
+      ],
+      "ordinary_only": true,
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_shape": [
+        13,
+        14,
+        16
+      ]
+    },
+    {
+      "legs": [
+        {
+          "axis": 0,
+          "block_leg_dimension": 195,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 45,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 1,
+          "block_leg_dimension": 225,
+          "excluded_on_this_leg": false,
+          "lifted_rank_one_slice_upper_bound": 73,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 2,
+          "block_leg_dimension": 195,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 45,
+          "threshold_2ab": 50
+        }
+      ],
+      "ordinary_only": true,
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_shape": [
+        13,
+        15,
+        15
+      ]
+    },
+    {
+      "legs": [
+        {
+          "axis": 0,
+          "block_leg_dimension": 196,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 45,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 1,
+          "block_leg_dimension": 210,
+          "excluded_on_this_leg": false,
+          "lifted_rank_one_slice_upper_bound": 58,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 2,
+          "block_leg_dimension": 210,
+          "excluded_on_this_leg": false,
+          "lifted_rank_one_slice_upper_bound": 58,
+          "threshold_2ab": 50
+        }
+      ],
+      "ordinary_only": true,
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_shape": [
+        14,
+        14,
+        15
+      ]
+    },
+    {
+      "legs": [
+        {
+          "axis": 0,
+          "block_leg_dimension": 210,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 30,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 1,
+          "block_leg_dimension": 225,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 44,
+          "threshold_2ab": 50
+        },
+        {
+          "axis": 2,
+          "block_leg_dimension": 210,
+          "excluded_on_this_leg": true,
+          "lifted_rank_one_slice_upper_bound": 30,
+          "threshold_2ab": 50
+        }
+      ],
+      "ordinary_only": true,
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_shape": [
+        14,
+        15,
+        15
+      ]
+    }
+  ],
+  "ordinary_square_subsum_exclusions": [
+    {
+      "common_leg_dimension": 205,
+      "kernel_dimension_per_leg": 20,
+      "maximum_lifted_slice_rank": 49,
+      "ordinary_restriction_excluded": true,
+      "reason": "three lifted subspaces have coherent long factors, forcing tensor rank at most one",
+      "selected_block_indices": [
+        1
+      ],
+      "selected_common_leg_dimension": 9,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_square_sizes": [
+        14,
+        3
+      ],
+      "threshold_2ab": 50
+    },
+    {
+      "common_leg_dimension": 212,
+      "kernel_dimension_per_leg": 13,
+      "maximum_lifted_slice_rank": 42,
+      "ordinary_restriction_excluded": true,
+      "reason": "three lifted subspaces have coherent long factors, forcing tensor rank at most one",
+      "selected_block_indices": [
+        1
+      ],
+      "selected_common_leg_dimension": 16,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_square_sizes": [
+        14,
+        4
+      ],
+      "threshold_2ab": 50
+    },
+    {
+      "common_leg_dimension": 207,
+      "kernel_dimension_per_leg": 18,
+      "maximum_lifted_slice_rank": 38,
+      "ordinary_restriction_excluded": true,
+      "reason": "three lifted subspaces have coherent long factors, forcing tensor rank at most one",
+      "selected_block_indices": [
+        1,
+        2
+      ],
+      "selected_common_leg_dimension": 2,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        5
+      ],
+      "target_square_sizes": [
+        14,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "threshold_2ab": 50
+    }
+  ],
+  "sharp_threshold_controls": [
+    {
+      "a": 2,
+      "b": 2,
+      "constant_coherent_factor": false,
+      "exact_rank": 8,
+      "hankel_nonzero_positions": [
+        0,
+        2
+      ],
+      "outer_factor": "one at i=s=0",
+      "rank_mod_two": 8
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "constant_coherent_factor": false,
+      "exact_rank": 12,
+      "hankel_nonzero_positions": [
+        0,
+        3
+      ],
+      "outer_factor": "one at i=s=0",
+      "rank_mod_two": 12
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "constant_coherent_factor": false,
+      "exact_rank": 18,
+      "hankel_nonzero_positions": [
+        0,
+        4
+      ],
+      "outer_factor": "one at i=s=0",
+      "rank_mod_two": 18
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "constant_coherent_factor": false,
+      "exact_rank": 40,
+      "hankel_nonzero_positions": [
+        0,
+        7
+      ],
+      "outer_factor": "one at i=s=0",
+      "rank_mod_two": 40
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "constant_coherent_factor": false,
+      "exact_rank": 50,
+      "hankel_nonzero_positions": [
+        0,
+        8
+      ],
+      "outer_factor": "one at i=s=0",
+      "rank_mod_two": 50
+    }
+  ],
+  "singular_exclusion_claimed": false,
+  "square_block_rank_one_screen_controls": [
+    {
+      "common_leg_dimension": 274,
+      "kernel_dimension_per_leg": 26,
+      "non_scalar_block_tests": [
+        {
+          "excluded": false,
+          "lifted_rank_one_slice_upper_bound": 68,
+          "size": 16,
+          "threshold_2ab": 60
+        },
+        {
+          "excluded": true,
+          "lifted_rank_one_slice_upper_bound": 55,
+          "size": 3,
+          "threshold_2ab": 60
+        },
+        {
+          "excluded": true,
+          "lifted_rank_one_slice_upper_bound": 55,
+          "size": 3,
+          "threshold_2ab": 60
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        6
+      ],
+      "target_square_sizes": [
+        16,
+        3,
+        3
+      ]
+    },
+    {
+      "common_leg_dimension": 272,
+      "kernel_dimension_per_leg": 28,
+      "non_scalar_block_tests": [
+        {
+          "excluded": false,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "size": 16,
+          "threshold_2ab": 60
+        },
+        {
+          "excluded": false,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "size": 4,
+          "threshold_2ab": 60
+        }
+      ],
+      "ordinary_restriction_excluded": false,
+      "singular_degeneration_excluded": false,
+      "source_lengths": [
+        5,
+        6
+      ],
+      "target_square_sizes": [
+        16,
+        4
+      ]
+    }
+  ],
+  "three_leg_factorization_controls": [
+    {
+      "a": 2,
+      "b": 3,
+      "coherent_points": [
+        2,
+        -1,
+        3
+      ],
+      "direct_integer_value": "-14868",
+      "exact_factorization_verified": true,
+      "separated_integer_value": "-14868",
+      "source_terms_checked": 216,
+      "three_linear_factors": [
+        -12,
+        -59,
+        -21
+      ]
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "coherent_points": [
+        null,
+        2,
+        -1
+      ],
+      "direct_integer_value": "12",
+      "exact_factorization_verified": true,
+      "separated_integer_value": "12",
+      "source_terms_checked": 729,
+      "three_linear_factors": [
+        6,
+        -2,
+        -1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "coherent_points": [
+        2,
+        null,
+        3
+      ],
+      "direct_integer_value": "1743606",
+      "exact_factorization_verified": true,
+      "separated_integer_value": "1743606",
+      "source_terms_checked": 15625,
+      "three_linear_factors": [
+        -229,
+        3807,
+        -2
+      ]
+    }
+  ]
+}

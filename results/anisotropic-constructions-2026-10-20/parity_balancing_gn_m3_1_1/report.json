@@ -1,0 +1,1245 @@
+{
+  "source_lengths": [
+    2,
+    2
+  ],
+  "source_mode": "parity110",
+  "complex_maps": true,
+  "target_shape": null,
+  "target_direct_sum_sizes": [
+    3,
+    1,
+    1
+  ],
+  "algorithm": "full complex damped Gauss-Newton; optional residual-decreasing target stabilizer gauge",
+  "gauge_every": 5,
+  "starts_completed": 1,
+  "maximum_iterations": 150,
+  "initial_array": "results/anisotropic-constructions-2026-10-20/parity_balancing_small_m3_1_1/best.npz",
+  "initial_sha256": "c123ce06425a8eb5459a447049df807f51a0c59c545772872f6fa3426aca1725",
+  "initial_noise": 0.0,
+  "controls": {
+    "exact_monomial_control_error": 0.0,
+    "complex_directional_jacobian_relative_error": 2.2928803553150916e-11,
+    "gauge_transformed_control_relative_error": 0.0
+  },
+  "records": [
+    {
+      "seed": 202610213000,
+      "initial_error": 0.5182005450485008,
+      "trajectory": [
+        {
+          "iteration": 1,
+          "full_relative_error": 0.5181879198549464,
+          "damping": 0.0003333333333333333,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9988717220898543
+        },
+        {
+          "iteration": 2,
+          "full_relative_error": 0.5181650828249224,
+          "damping": 0.0001111111111111111,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9991433335688817
+        },
+        {
+          "iteration": 3,
+          "full_relative_error": 0.5181319804337176,
+          "damping": 3.7037037037037037e-05,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.004702691266256
+        },
+        {
+          "iteration": 4,
+          "full_relative_error": 0.5181066341370384,
+          "damping": 1.2345679012345678e-05,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.99765980234131
+        },
+        {
+          "iteration": 5,
+          "full_relative_error": 0.5180976729129733,
+          "damping": 4.115226337448559e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0217499304391393
+        },
+        {
+          "iteration": 6,
+          "full_relative_error": 0.5180936914049193,
+          "damping": 1.371742112482853e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0331076640308363
+        },
+        {
+          "iteration": 7,
+          "full_relative_error": 0.5180927854314376,
+          "damping": 4.5724737082761765e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0611071018523075
+        },
+        {
+          "iteration": 8,
+          "full_relative_error": 0.5180911840657224,
+          "damping": 1.5241579027587254e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9846363194997598
+        },
+        {
+          "iteration": 9,
+          "full_relative_error": 0.5180906750437765,
+          "damping": 5.080526342529085e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0177398473524815
+        },
+        {
+          "iteration": 10,
+          "full_relative_error": 0.5180894218321626,
+          "damping": 1.6935087808430282e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9741658462947083
+        },
+        {
+          "iteration": 11,
+          "full_relative_error": 0.5180892708708811,
+          "damping": 3.3870175616860565e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.04257892199816637
+        },
+        {
+          "iteration": 12,
+          "full_relative_error": 0.5180844834918512,
+          "damping": 1.1290058538953522e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9568048893787328
+        },
+        {
+          "iteration": 13,
+          "full_relative_error": 0.5180837748182596,
+          "damping": 3.7633528463178407e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0024882376134785
+        },
+        {
+          "iteration": 14,
+          "full_relative_error": 0.5180825002329263,
+          "damping": 1.2544509487726136e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.8986557427460972
+        },
+        {
+          "iteration": 15,
+          "full_relative_error": 0.5180819375140154,
+          "damping": 4.181503162575378e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0012798120815682
+        },
+        {
+          "iteration": 16,
+          "full_relative_error": 0.5180807926812533,
+          "damping": 1.3938343875251261e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9254854158655409
+        },
+        {
+          "iteration": 17,
+          "full_relative_error": 0.5180803346092281,
+          "damping": 4.646114625083754e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0010858494207846
+        },
+        {
+          "iteration": 18,
+          "full_relative_error": 0.5180793075870939,
+          "damping": 1.548704875027918e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.946239542760293
+        },
+        {
+          "iteration": 19,
+          "full_relative_error": 0.5180789273348888,
+          "damping": 5.1623495834263935e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0011262225220465
+        },
+        {
+          "iteration": 20,
+          "full_relative_error": 0.5180780076822369,
+          "damping": 1.7207831944754645e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9615059901002774
+        },
+        {
+          "iteration": 21,
+          "full_relative_error": 0.518077903003871,
+          "damping": 3.441566388950929e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.037088013550719515
+        },
+        {
+          "iteration": 22,
+          "full_relative_error": 0.5180740024651126,
+          "damping": 1.1471887963169763e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9619007391912394
+        },
+        {
+          "iteration": 23,
+          "full_relative_error": 0.5180734439599352,
+          "damping": 3.823962654389921e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0008555871311478
+        },
+        {
+          "iteration": 24,
+          "full_relative_error": 0.5180723503587461,
+          "damping": 1.2746542181299736e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9194072541598828
+        },
+        {
+          "iteration": 25,
+          "full_relative_error": 0.5180719010792625,
+          "damping": 4.2488473937665785e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0007495052170372
+        },
+        {
+          "iteration": 26,
+          "full_relative_error": 0.5180709111790877,
+          "damping": 1.4162824645888594e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9434872978492184
+        },
+        {
+          "iteration": 27,
+          "full_relative_error": 0.5180705399712274,
+          "damping": 4.720941548629531e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000844892134847
+        },
+        {
+          "iteration": 28,
+          "full_relative_error": 0.5180696491907387,
+          "damping": 1.5736471828765104e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9602585601242223
+        },
+        {
+          "iteration": 29,
+          "full_relative_error": 0.5180695847314843,
+          "damping": 3.147294365753021e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.023461190375067827
+        },
+        {
+          "iteration": 30,
+          "full_relative_error": 0.5180657468591374,
+          "damping": 1.0490981219176737e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9620936359843792
+        },
+        {
+          "iteration": 31,
+          "full_relative_error": 0.5180652018485972,
+          "damping": 3.496993739725579e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0005717642980743
+        },
+        {
+          "iteration": 32,
+          "full_relative_error": 0.5180641325157059,
+          "damping": 1.1656645799085263e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9198470461339446
+        },
+        {
+          "iteration": 33,
+          "full_relative_error": 0.5180636938951608,
+          "damping": 3.885548599695088e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000565641424874
+        },
+        {
+          "iteration": 34,
+          "full_relative_error": 0.5180627246124196,
+          "damping": 1.2951828665650294e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9441161877499998
+        },
+        {
+          "iteration": 35,
+          "full_relative_error": 0.5180623619849188,
+          "damping": 4.317276221883432e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0006989123908208
+        },
+        {
+          "iteration": 36,
+          "full_relative_error": 0.5180614889461331,
+          "damping": 1.439092073961144e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9608548555918148
+        },
+        {
+          "iteration": 37,
+          "full_relative_error": 0.5180613699481745,
+          "damping": 2.878184147922288e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.04416013716572055
+        },
+        {
+          "iteration": 38,
+          "full_relative_error": 0.5180576562341578,
+          "damping": 9.59394715974096e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9624433306397887
+        },
+        {
+          "iteration": 39,
+          "full_relative_error": 0.5180571249025437,
+          "damping": 3.1979823865803196e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0004285804110717
+        },
+        {
+          "iteration": 40,
+          "full_relative_error": 0.5180560713227645,
+          "damping": 1.0659941288601066e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.922002579829643
+        },
+        {
+          "iteration": 41,
+          "full_relative_error": 0.5180556427161161,
+          "damping": 3.5533137628670217e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000461732113933
+        },
+        {
+          "iteration": 42,
+          "full_relative_error": 0.518054687606456,
+          "damping": 1.184437920955674e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.945728661539513
+        },
+        {
+          "iteration": 43,
+          "full_relative_error": 0.5180543325638192,
+          "damping": 3.9481264031855795e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0006090457006493
+        },
+        {
+          "iteration": 44,
+          "full_relative_error": 0.5180534721407369,
+          "damping": 1.316042134395193e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.962039180383342
+        },
+        {
+          "iteration": 45,
+          "full_relative_error": 0.5180532681675939,
+          "damping": 2.632084268790386e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.07683078454772617
+        },
+        {
+          "iteration": 46,
+          "full_relative_error": 0.5180496896660757,
+          "damping": 8.773614229301288e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9629058906561974
+        },
+        {
+          "iteration": 47,
+          "full_relative_error": 0.5180491709586101,
+          "damping": 2.9245380764337624e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000333426215144
+        },
+        {
+          "iteration": 48,
+          "full_relative_error": 0.5180481277596839,
+          "damping": 9.748460254779207e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9248913141928177
+        },
+        {
+          "iteration": 49,
+          "full_relative_error": 0.5180477080582238,
+          "damping": 3.249486751593069e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0003867535366637
+        },
+        {
+          "iteration": 50,
+          "full_relative_error": 0.5180467626742913,
+          "damping": 1.083162250531023e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9477926916105434
+        },
+        {
+          "iteration": 51,
+          "full_relative_error": 0.5180464141349248,
+          "damping": 3.61054083510341e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000539532487196
+        },
+        {
+          "iteration": 52,
+          "full_relative_error": 0.5180455625682491,
+          "damping": 1.2035136117011367e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.96350848797617
+        },
+        {
+          "iteration": 53,
+          "full_relative_error": 0.5180452592251793,
+          "damping": 2.4070272234022735e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.11554614398261678
+        },
+        {
+          "iteration": 54,
+          "full_relative_error": 0.5180418151001269,
+          "damping": 8.023424078007579e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9634591923714799
+        },
+        {
+          "iteration": 55,
+          "full_relative_error": 0.5180413077240644,
+          "damping": 2.6744746926691925e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000256358479079
+        },
+        {
+          "iteration": 56,
+          "full_relative_error": 0.518040270698068,
+          "damping": 8.914915642230642e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.928174376634753
+        },
+        {
+          "iteration": 57,
+          "full_relative_error": 0.5180398587324851,
+          "damping": 2.971638547410214e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0003229603268318
+        },
+        {
+          "iteration": 58,
+          "full_relative_error": 0.5180389194838557,
+          "damping": 9.905461824700714e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9501018249850294
+        },
+        {
+          "iteration": 59,
+          "full_relative_error": 0.518038576404493,
+          "damping": 3.301820608233571e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0004778503652159
+        },
+        {
+          "iteration": 60,
+          "full_relative_error": 0.5180377305994299,
+          "damping": 1.1006068694111904e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9651321266711411
+        },
+        {
+          "iteration": 61,
+          "full_relative_error": 0.5180373206763949,
+          "damping": 2.2012137388223808e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.15738717307755395
+        },
+        {
+          "iteration": 62,
+          "full_relative_error": 0.5180340053935407,
+          "damping": 7.337379129407936e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9640824776213746
+        },
+        {
+          "iteration": 63,
+          "full_relative_error": 0.518033507993722,
+          "damping": 2.4457930431359787e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0001870535973187
+        },
+        {
+          "iteration": 64,
+          "full_relative_error": 0.5180324737025755,
+          "damping": 8.152643477119929e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9316408157429164
+        },
+        {
+          "iteration": 65,
+          "full_relative_error": 0.5180320683180045,
+          "damping": 2.7175478257066427e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0002638831825452
+        },
+        {
+          "iteration": 66,
+          "full_relative_error": 0.5180311322288343,
+          "damping": 9.058492752355476e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9525158097185815
+        },
+        {
+          "iteration": 67,
+          "full_relative_error": 0.5180307936241519,
+          "damping": 3.019497584118492e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0004195009897396
+        },
+        {
+          "iteration": 68,
+          "full_relative_error": 0.5180299509915381,
+          "damping": 1.006499194706164e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9668151595714143
+        },
+        {
+          "iteration": 69,
+          "full_relative_error": 0.5180294325965163,
+          "damping": 2.012998389412328e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.2000477462754342
+        },
+        {
+          "iteration": 70,
+          "full_relative_error": 0.5180262373620929,
+          "damping": 6.709994631374427e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.964750496167715
+        },
+        {
+          "iteration": 71,
+          "full_relative_error": 0.518025748544237,
+          "damping": 2.236664877124809e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0001206162187388
+        },
+        {
+          "iteration": 72,
+          "full_relative_error": 0.5180247142116495,
+          "damping": 7.455549590416031e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9351076513028157
+        },
+        {
+          "iteration": 73,
+          "full_relative_error": 0.5180243142742893,
+          "damping": 2.4851831968053436e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0002062024423597
+        },
+        {
+          "iteration": 74,
+          "full_relative_error": 0.5180233789096356,
+          "damping": 8.283943989351145e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.954909333243491
+        },
+        {
+          "iteration": 75,
+          "full_relative_error": 0.5180230438485532,
+          "damping": 2.761314663117048e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0003621189711913
+        },
+        {
+          "iteration": 76,
+          "full_relative_error": 0.5180222022511591,
+          "damping": 9.204382210390161e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9684710204553705
+        },
+        {
+          "iteration": 77,
+          "full_relative_error": 0.518021578417679,
+          "damping": 1.8408764420780322e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.2413660184446717
+        },
+        {
+          "iteration": 78,
+          "full_relative_error": 0.5180184913919874,
+          "damping": 6.136254806926774e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9654310732745682
+        },
+        {
+          "iteration": 79,
+          "full_relative_error": 0.5180180097146502,
+          "damping": 2.0454182689755915e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0000536835032108
+        },
+        {
+          "iteration": 80,
+          "full_relative_error": 0.5180169731790152,
+          "damping": 6.818060896585305e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9384006892657877
+        },
+        {
+          "iteration": 81,
+          "full_relative_error": 0.5180165775672603,
+          "damping": 2.272686965528435e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.000147610545003
+        },
+        {
+          "iteration": 82,
+          "full_relative_error": 0.5180156409954119,
+          "damping": 7.575623218428116e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9571624674352023
+        },
+        {
+          "iteration": 83,
+          "full_relative_error": 0.5180153085917373,
+          "damping": 2.5252077394760387e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 1.0003041583331989
+        },
+        {
+          "iteration": 84,
+          "full_relative_error": 0.5180144663129096,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9700166030125694
+        },
+        {
+          "iteration": 85,
+          "full_relative_error": 0.5180137449399979,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.2792510535169081
+        },
+        {
+          "iteration": 86,
+          "full_relative_error": 0.5180110346074884,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.6256007442086562
+        },
+        {
+          "iteration": 87,
+          "full_relative_error": 0.5180084365330051,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.6451832171758436
+        },
+        {
+          "iteration": 88,
+          "full_relative_error": 0.5180059251449565,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.6660512235691972
+        },
+        {
+          "iteration": 89,
+          "full_relative_error": 0.5180035049123756,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.6833881836737186
+        },
+        {
+          "iteration": 90,
+          "full_relative_error": 0.5180011558551832,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.7017682595251329
+        },
+        {
+          "iteration": 91,
+          "full_relative_error": 0.5179988814866814,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.7172726616117184
+        },
+        {
+          "iteration": 92,
+          "full_relative_error": 0.5179966678672331,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.7333888779175253
+        },
+        {
+          "iteration": 93,
+          "full_relative_error": 0.5179945173877479,
+          "damping": 8.417359131586795e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.7471578362246406
+        },
+        {
+          "iteration": 94,
+          "full_relative_error": 0.5179924201008199,
+          "damping": 2.8057863771955986e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.7611992132319514
+        },
+        {
+          "iteration": 95,
+          "full_relative_error": 0.51799116897639,
+          "damping": 9.352621257318661e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9971487799611578
+        },
+        {
+          "iteration": 96,
+          "full_relative_error": 0.5179897697073665,
+          "damping": 3.1175404191062206e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.7837723249627195
+        },
+        {
+          "iteration": 97,
+          "full_relative_error": 0.5179888628103454,
+          "damping": 1.0391801397020734e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9977645247310575
+        },
+        {
+          "iteration": 98,
+          "full_relative_error": 0.5179875253776044,
+          "damping": 3.4639337990069116e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.8534051474128405
+        },
+        {
+          "iteration": 99,
+          "full_relative_error": 0.5179868363106992,
+          "damping": 1.1546445996689706e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9984108603966598
+        },
+        {
+          "iteration": 100,
+          "full_relative_error": 0.5179855947335068,
+          "damping": 3.848815332229902e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.8996652387867701
+        },
+        {
+          "iteration": 101,
+          "full_relative_error": 0.5179850502316323,
+          "damping": 1.282938444076634e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9989815967830817
+        },
+        {
+          "iteration": 102,
+          "full_relative_error": 0.5179839160968791,
+          "damping": 4.2764614802554466e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9307195861974831
+        },
+        {
+          "iteration": 103,
+          "full_relative_error": 0.5179834720418355,
+          "damping": 1.425487160085149e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9994410475489794
+        },
+        {
+          "iteration": 104,
+          "full_relative_error": 0.5179824456027794,
+          "damping": 4.7516238669504967e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9517651557422993
+        },
+        {
+          "iteration": 105,
+          "full_relative_error": 0.5179820745014978,
+          "damping": 1.5838746223168323e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9997882929253625
+        },
+        {
+          "iteration": 106,
+          "full_relative_error": 0.5179811505031163,
+          "damping": 5.279582074389441e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9661584568941312
+        },
+        {
+          "iteration": 107,
+          "full_relative_error": 0.5179806378192,
+          "damping": 1.0559164148778882e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.17981976275165068
+        },
+        {
+          "iteration": 108,
+          "full_relative_error": 0.5179770718657559,
+          "damping": 3.519721382926294e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9643633752276993
+        },
+        {
+          "iteration": 109,
+          "full_relative_error": 0.5179765339855703,
+          "damping": 1.1732404609754314e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9992673613207133
+        },
+        {
+          "iteration": 110,
+          "full_relative_error": 0.5179754008519809,
+          "damping": 3.910801536584771e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9325914808672141
+        },
+        {
+          "iteration": 111,
+          "full_relative_error": 0.5179749600992168,
+          "damping": 1.303600512194924e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9995149610199499
+        },
+        {
+          "iteration": 112,
+          "full_relative_error": 0.5179739351924283,
+          "damping": 4.3453350406497465e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9527792192071008
+        },
+        {
+          "iteration": 113,
+          "full_relative_error": 0.5179735661202413,
+          "damping": 1.4484450135499153e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9997743621469607
+        },
+        {
+          "iteration": 114,
+          "full_relative_error": 0.5179726438020292,
+          "damping": 4.828150045166384e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9666936437699727
+        },
+        {
+          "iteration": 115,
+          "full_relative_error": 0.5179721201791909,
+          "damping": 9.656300090332768e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.18403657362748768
+        },
+        {
+          "iteration": 116,
+          "full_relative_error": 0.5179685729078753,
+          "damping": 3.218766696777589e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9643462987673806
+        },
+        {
+          "iteration": 117,
+          "full_relative_error": 0.5179680366631685,
+          "damping": 1.0729222322591964e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9991552871716011
+        },
+        {
+          "iteration": 118,
+          "full_relative_error": 0.5179669056400327,
+          "damping": 3.576407440863988e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9324238372559411
+        },
+        {
+          "iteration": 119,
+          "full_relative_error": 0.5179664655849734,
+          "damping": 1.1921358136213294e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9994146315541456
+        },
+        {
+          "iteration": 120,
+          "full_relative_error": 0.5179654426187336,
+          "damping": 3.973786045404431e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.952488144981225
+        },
+        {
+          "iteration": 121,
+          "full_relative_error": 0.5179650739362092,
+          "damping": 1.3245953484681437e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.999683015074668
+        },
+        {
+          "iteration": 122,
+          "full_relative_error": 0.5179641533106187,
+          "damping": 4.415317828227146e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9663755340520632
+        },
+        {
+          "iteration": 123,
+          "full_relative_error": 0.5179636756396742,
+          "damping": 8.830635656454292e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.16805936020680637
+        },
+        {
+          "iteration": 124,
+          "full_relative_error": 0.5179600896273423,
+          "damping": 2.943545218818097e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.964023491337109
+        },
+        {
+          "iteration": 125,
+          "full_relative_error": 0.5179595514647573,
+          "damping": 9.811817396060323e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9990116444145207
+        },
+        {
+          "iteration": 126,
+          "full_relative_error": 0.5179584237916791,
+          "damping": 3.2706057986867745e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9306440994334055
+        },
+        {
+          "iteration": 127,
+          "full_relative_error": 0.5179579822238044,
+          "damping": 1.0902019328955914e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9992936760566533
+        },
+        {
+          "iteration": 128,
+          "full_relative_error": 0.5179569617979009,
+          "damping": 3.6340064429853045e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9510898689016484
+        },
+        {
+          "iteration": 129,
+          "full_relative_error": 0.5179565921161083,
+          "damping": 1.2113354809951014e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.999578803714498
+        },
+        {
+          "iteration": 130,
+          "full_relative_error": 0.5179556734268819,
+          "damping": 4.037784936650338e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9652913558256562
+        },
+        {
+          "iteration": 131,
+          "full_relative_error": 0.5179552963935735,
+          "damping": 8.075569873300676e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.13269717647294085
+        },
+        {
+          "iteration": 132,
+          "full_relative_error": 0.5179516175915023,
+          "damping": 2.6918566244335587e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9634373947811734
+        },
+        {
+          "iteration": 133,
+          "full_relative_error": 0.517951074251394,
+          "damping": 8.972855414778529e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9988479249165705
+        },
+        {
+          "iteration": 134,
+          "full_relative_error": 0.5179499513967754,
+          "damping": 2.9909518049261764e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.927323406771263
+        },
+        {
+          "iteration": 135,
+          "full_relative_error": 0.5179495063105749,
+          "damping": 9.96983934975392e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9991575487392752
+        },
+        {
+          "iteration": 136,
+          "full_relative_error": 0.5179484892476796,
+          "damping": 3.3232797832513067e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9486333797576747
+        },
+        {
+          "iteration": 137,
+          "full_relative_error": 0.5179481173288671,
+          "damping": 1.1077599277504356e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9994639199877424
+        },
+        {
+          "iteration": 138,
+          "full_relative_error": 0.5179472010276841,
+          "damping": 3.6925330925014523e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9634755595783803
+        },
+        {
+          "iteration": 139,
+          "full_relative_error": 0.5179469770862177,
+          "damping": 7.385066185002905e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.07880937344303424
+        },
+        {
+          "iteration": 140,
+          "full_relative_error": 0.5179431545579487,
+          "damping": 2.4616887283343015e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9626484821584048
+        },
+        {
+          "iteration": 141,
+          "full_relative_error": 0.517942603062763,
+          "damping": 8.205629094447671e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9986674261168881
+        },
+        {
+          "iteration": 142,
+          "full_relative_error": 0.5179414866544257,
+          "damping": 2.7352096981492235e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9225435001954916
+        },
+        {
+          "iteration": 143,
+          "full_relative_error": 0.5179410362466703,
+          "damping": 9.117365660497411e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9990082961648671
+        },
+        {
+          "iteration": 144,
+          "full_relative_error": 0.5179400235319281,
+          "damping": 3.03912188683247e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9451784260191283
+        },
+        {
+          "iteration": 145,
+          "full_relative_error": 0.5179396482859696,
+          "damping": 1.0130406289441568e-06,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9993395211791192
+        },
+        {
+          "iteration": 146,
+          "full_relative_error": 0.5179387349814903,
+          "damping": 3.3768020964805226e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9609715058826512
+        },
+        {
+          "iteration": 147,
+          "full_relative_error": 0.5179387134865382,
+          "damping": 6.753604192961045e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.007562236654347455
+        },
+        {
+          "iteration": 148,
+          "full_relative_error": 0.5179347000632365,
+          "damping": 2.2512013976536817e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9617262714056982
+        },
+        {
+          "iteration": 149,
+          "full_relative_error": 0.5179341377380193,
+          "damping": 7.504004658845606e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9984744053465474
+        },
+        {
+          "iteration": 150,
+          "full_relative_error": 0.5179330294898563,
+          "damping": 2.501334886281869e-07,
+          "step_accepted": true,
+          "gauge_step_accepted": false,
+          "actual_to_predicted_reduction": 0.9164072074120347
+        }
+      ],
+      "final_error": 0.5179330294898563,
+      "map_norms": [
+        51.26831347760432,
+        51.78435010469643,
+        87.06788433264369
+      ]
+    }
+  ],
+  "best_full_relative_error": 0.5179330294898563,
+  "full_target_coefficient_count": 1331,
+  "exact_witness_found": false,
+  "exclusion_proved": false,
+  "new_exponent_established": false
+}

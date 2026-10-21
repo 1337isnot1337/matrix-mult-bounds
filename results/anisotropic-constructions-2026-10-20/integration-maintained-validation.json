@@ -1,0 +1,38 @@
+{
+  "base_main": "75bf6a378f99c26c908bd9cd616e7e20bdf342ce",
+  "topic_parent": "eed3cbc6186766156cd19b22eaa4210f316b9dfc",
+  "python": "3.12.14",
+  "environment": {
+    "site_packages_disabled": true,
+    "available_third_party_packages": {
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "numpy_available": false
+  },
+  "regression": {
+    "command": "python -S -m unittest discover -s tests -v",
+    "tests": 344,
+    "elapsed_seconds": 156.395,
+    "status": "passed",
+    "log": "integration-maintained-tests.txt"
+  },
+  "archive_replay": {
+    "command": "python -S tools/replay.py",
+    "reports": 5,
+    "status": "passed",
+    "log": "integration-maintained-archive-replay.txt"
+  },
+  "hosted_failure_fixed": {
+    "head": "eed3cbc6186766156cd19b22eaa4210f316b9dfc",
+    "job_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39537478537/job/119017358206",
+    "error": "ModuleNotFoundError: No module named numpy",
+    "repair": "Replaced NumPy array operations with standard-library sparse integer contraction; all 1296000 comparisons and the saved report are unchanged."
+  },
+  "independent_mathematical_review": false,
+  "new_exponent_established": false,
+  "log_sha256": {
+    "integration-maintained-tests.txt": "e8d95ccf6f54f5bc14c7da916ad20a357cfe5cef137ba0dd15252c76010d6d3e",
+    "integration-maintained-archive-replay.txt": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  }
+}
