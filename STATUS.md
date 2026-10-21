@@ -1060,7 +1060,10 @@ projected third space by dimension two; twelve cubic minors force it to
 vanish and leave only plane motion. The necessary mixed first-rank sum
 therefore drops from 20 to **19**. If both mixed projections are nonzero,
 the block argument already gives sum at most 16. These are scoped,
-unreviewed obstruction results, with no change to the exponent.
+unreviewed obstruction results, with no change to the exponent. The
+concurrent third-boundary proof at `1068ce9`, Section 5, independently
+proves a broader target-side third-rank ceiling; that overlap is credited
+in the pencil note.
 
 ## Regular root flags and Laurent first-leg maps
 

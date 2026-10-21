@@ -212,3 +212,14 @@ then twelve cubic minors for the generic pencil. It does not supply a
 matrix target. The written proof and exact finite checks have no
 independent review or formalization. The next construction question must
 use smaller or delayed first extensions, or different leading flags.
+
+After writing this argument, the concurrent quantum worker's
+`research/ai/2026-10-21-third-boundary-trap/proof.md`, Section 5, was
+inspected at commit `1068ce94f58466cb553d138b82540a8b128f6097`.
+It independently uses the same rank-divisibility and common-factor
+principle, together with a broader joint-support estimate, to prove
+projected third first rank at most two for every admissible ordinary
+first pair. That result subsumes the target-side bound in Section 3;
+we retain its direct special-case proof and credit the overlap. The
+new generic-pencil minors and maximal-pair classification here remain
+separate source calculations. This inspection is not independent review.
