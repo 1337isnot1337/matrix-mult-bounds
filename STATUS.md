@@ -77,6 +77,12 @@ Their [35-test focused receipt](results/anisotropic-constructions-2026-10-20/cha
 checks all four new packages, main's mixed second-order family through
 `21f54c3`, and the repository ledger, sources, archives and links with no
 skips or failures.
+The [full spin-and-corner regression receipt](results/anisotropic-constructions-2026-10-20/spin-corner-full-validation.json)
+pins checkpoint `4ed2b52`: 513 tests completed, with 510 passed and
+three optional skips. The later integration of main's mixed third-order
+proof at `b113866` has a separate
+[27-test focused receipt](results/anisotropic-constructions-2026-10-20/spin-corner-main-integration-validation.json),
+with no skips or failures.
 
 The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
 now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
@@ -1036,6 +1042,15 @@ retain all136 quadratic monomials. The active output formats are18 and10;
 later growth and a matrix target remain unconstructed. An exact nonzero
 third coefficient is retained as an order-boundary check. This finite
 polynomial certificate does not improve the exponent.
+
+[AI-MIXED-THIRD-ORDER-080](research/ai/2026-10-21-mixed-first-jets/third_order.md)
+now excludes the target for these fixed 14-by-6 first subspaces at every order.
+The exact normal space has dimension 16. Successive universal matrix-rank
+covers impose six plus six independent constraints, leaving only the four
+common-plane tangents. Arbitrary correction-row freedoms vanish from the
+projected obstruction, and formal induction bounds both map ranks by 56.
+This is an unreviewed scoped proof; other mixed spaces and delayed growth
+remain open, and the exponent is unchanged.
 
 ## Regular root flags and Laurent first-leg maps
 

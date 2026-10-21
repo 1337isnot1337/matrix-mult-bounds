@@ -77,4 +77,5 @@ At a0=1 and all other parameters zero, setting unlisted higher coefficients
 to zero leaves a third corrected coefficient of first flattening rank 8.
 The test retains this exact nonzero coefficient. It is not an obstruction
 to adding higher derivatives, and it does not prove useful target growth.
-Those higher equations are the next construction problem.
+The [third-order follow-up](third_order.md) supplies a separate argument
+covering arbitrary corrections and excluding this fixed first-space pair.

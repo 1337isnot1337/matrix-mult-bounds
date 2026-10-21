@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
+order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
+family is retained; two third-coefficient rank covers force only common
+plane motion. Other mixed spaces and delayed first growth remain open.
+The full boundary-spanning 12-by-12 family stays with the quantum worker.
+
 The quantum worker now continues in
 `ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
 second-jet family and full coefficient witnesses are ready for higher-order
@@ -97,9 +103,13 @@ a projected carry obstruction, and the completed compression search
 with its actual residual. It incorporates main's corrected second-jet
 family at `8a07bed`. Its full local suite completes 496 tests: 493 pass
 and three optional controls skip; all five archive replays pass. All
-hosted checks for that checkpoint pass. The next checkpoint incorporates
+hosted checks for that checkpoint pass. Checkpoint `4ed2b52` incorporates
 main's mixed second-order family at `21f54c3` with the new spin, corner
-and fixed-map packages; their combined focused suite passes 35 tests.
+and fixed-map packages. Its 35 focused tests and full 513-test suite
+pass, with three optional skips in the full suite. All current hosted
+checks for `4ed2b52` pass; hosted Python 3.10 also runs 513 tests with
+three skips. The next integration incorporates main's third-order
+mixed-space proof at `b113866` before merging PR #51.
 The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
 incorporated in main. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays

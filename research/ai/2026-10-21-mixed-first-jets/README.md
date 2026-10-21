@@ -33,7 +33,19 @@ Another test retains a nonzero third coefficient, preventing second-order
 acceptance from being mistaken for an all-order identity. These are
 generating-session checks, not independent review or formalization.
 
-Next: construct higher coefficients, including unused output rows, and
-determine whether the saturated first-row space can contain the matrix
-target. The other worker's full boundary-spanning family remains a separate
-investigation; this package uses mixed first rows.
+The [third-order follow-up](third_order.md) now excludes the matrix target
+for these fixed mixed first spaces, with arbitrary later coefficients.
+Two exact rank covers force all sixteen normal directions down to the
+four common-plane tangents, allowing the formal boundary induction to
+continue at every order. This written proof is unreviewed and does not
+classify other mixed subspaces or improve the exponent.
+
+```sh
+python research/ai/2026-10-21-mixed-first-jets/third_order.py \
+  --output results/local/mixed-third-order-report.json
+python -m unittest discover -s tests -p 'test_mixed_third_order.py' -v
+```
+
+Next: change the first mixed subspaces or their dimensions, or delay
+first growth. The other worker's full boundary-spanning family remains
+a separate investigation.
