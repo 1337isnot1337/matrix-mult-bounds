@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+The uniform-cap worker now studies
+`ai/2026-10-21-hankel-wronskian-cap/QUESTION.md`. A self-contained binomial-
+shear/Wronskian proof covers every characteristic-zero bounded-Hankel
+linear space, with an exact rational witness generator. The application now
+adopts the concurrent higher-ruling, saturation and crossed-locus bounds
+with exact pins, adding a scalar-Hankel equality case and a proper-section
+dimension loss. It closes all improving ordinary A9 square sums. The finite
+balanced comparison remains separate from the full all-source frontier. The older A9 square candidate
+is already excluded by that concurrent three-ruling test; the new source-
+gap draft is a separate structural question, not a stronger frontier claim.
+PR75 merged at4695298 with exact tested/merged tree equality and all current
+checks green; its completed local and remote task branches are removed.
+
 The pencil-degree worker now studies
 `ai/2026-10-21-hankel-pencil-degree/QUESTION.md`. Its written Hankel Segre
 bound in the strict5r<2(a+b) range closes the former ordinary A8 targets,

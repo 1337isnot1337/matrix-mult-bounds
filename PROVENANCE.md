@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-21-hankel-wronskian-cap` package is same-session AI-derived
+work directed by the repository owner. Its cap inequality is presented as
+a uniform characteristic-zero rederivation, with a self-contained proof and
+rational witness generator. Meshulam's1995 finite-field result is credited
+as related classical work; only its abstract and bibliography were inspected.
+The concurrent rectangular worker's selected-format cap proofs, second-
+boundary extension and higher-input-rank tests retain their own credit.
+The added scalar-Hankel equality-saturation proof and proper-section
+refinement are local continuations. The quantitative crossed bound and
+bundle rank-locus estimate are imported from the same concurrent worker,
+with their classical external input and exact source pins preserved.
+No priority, independent review, formalization or exponent gain is claimed.
+
 ## Generalized packing, nonlocal probes, and source capacity
 
 Rafael Pass's arXiv:2610.28627v1 supplies the generalized polynomial
