@@ -84,6 +84,87 @@ integer sign reconstruction. The published certificate is the integer
 identity itself. Python and a separately written JavaScript expansion
 agree on every coefficient and all remainder counts.
 
+
+## Smaller canonical five-, six-, and seven-sector constructions
+
+Literal integer block factors and moments now prove
+
+\[
+C(6,16)\unrhd T_5,\qquad
+C(7,24)\unrhd T_6,\qquad
+C(8,34)\unrhd T_7
+\]
+
+over every field. These reduce the long source dimension of the previous
+five- and six-sector certificates from20 to16 and from28 to24, respectively.
+They also identify all sectors in one canonical shared basis.
+
+| Target | Source | All coefficient positions | Negative zeros | Constant positions | Target monomials | Largest map entry in absolute value |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| T4 | C(5,10) | 400 | 60 | 80 | 20 | 6 |
+| T5 | C(6,16) | 1125 | 175 | 175 | 35 | 1 |
+| T6 | C(7,24) | 2646 | 420 | 336 | 56 | 5 |
+| T7 | C(8,34) | 5488 | 882 | 588 | 84 | 2 |
+
+The source convention and degree weights are the same as above, with
+shared weight1-m. For m=5,6,7 let J=(0,1,3,...,m) and
+\(\nu_d=\mathbf1_{d=m-1}-\mathbf1_{d=m}\).
+The displayed data in `construct_larger.py` give factors g_p and moments
+z_q satisfying
+
+\[
+\sum_j g_p[j]z_q[j+\ell]=
+\begin{cases}
+0 & p+q<m-1,\
+\nu_\ell & p+q=m-1
+\end{cases}
+\qquad (\ell\in J+\{0,\ldots,p+q\}).
+\]
+
+There are129,216,335 scalar equations at the respective sizes. The Y row
+with first index k in degree p is \(t^k g_p\). The Z row with first
+index k in degree q is the corresponding consecutive window of z_q.
+
+Before normalization, each matched block has the common shared Hankel
+matrix \(H_{i,r}=\nu_{J_i+r}\). Its determinant is-1,-1,1 at sizes5,6,7.
+The shared source map has columns J equal to H inverse and its remaining
+column zero. Thus the zero-degree block coefficients become exactly
+\(\mathbf1_{i=a+c}\), and the negative-degree coefficients stay zero.
+This is a direct proof of each canonical degeneration from the finite
+integer equations. The constructor uses only unit pivots and integer
+output coefficients.
+
+The frozen maps are
+[m5](../../../results/canonical-moment-flags-2026-10-21/m5-integer-witness.json),
+[m6](../../../results/canonical-moment-flags-2026-10-21/m6-integer-witness.json), and
+[m7](../../../results/canonical-moment-flags-2026-10-21/m7-integer-witness.json).
+Their adjacent verification reports contain complete coefficient counts
+and SHA-256 hashes. Reconstruct or verify a size by replacing the argument
+in the following commands:
+
+```sh
+python research/ai/2026-10-21-canonical-moment-flags/construct_larger.py --m 6 --output results/local/t6-integer.json
+python research/ai/2026-10-21-canonical-moment-flags/verify_witness.py results/canonical-moment-flags-2026-10-21/m6-integer-witness.json
+```
+
+A recovered prose list once shifted the last m6 moment by one position.
+The independent source replay rejected that list. The frozen data contain
+the corrected moment with entries+1 at index26 and-1 at index27, and the
+complete integer replay passes. Source reconstruction and literal replay
+are separate checks.
+
+Across the four sizes, every one of9,659 coefficient positions is checked.
+The finite lengths10,16,24,34 happen to fit m^2-3m+6. No continuation of that
+pattern is asserted; even that quadratic pattern, if continued, would
+have asymptotic long-leg cost2 and would not prove the required cost-one
+family. These are finite constructive improvements, with no new exponent.
+
+The restored m5,m6,m7 fixtures were regenerated from compact signed
+polynomials and replayed independently in JavaScript with exact integer
+arithmetic. The maintained Python verifier and constructor are included
+for a separate hosted replay. The source maps, their proof, and all
+same-session checks remain externally unreviewed.
+
 ## Scope and provenance
 
 Claim `AI-CANONICAL-INTEGER-FLAGS-001` is written and externally unreviewed.

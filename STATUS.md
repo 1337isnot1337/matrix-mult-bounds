@@ -1520,3 +1520,16 @@ twenty target monomials remain. A separate JavaScript expansion agrees.
 This strengthens the earlier rational finite certificate; no unbounded
 family or smaller exponent follows. Claim `AI-CANONICAL-INTEGER-FLAGS-001`
 is written and externally unreviewed.
+
+## Canonical integer flags through seven sectors
+
+The [canonical moment-flag package](research/ai/2026-10-21-canonical-moment-flags/README.md)
+now constructs C(6,16) to T5, C(7,24) to T6, and C(8,34) to T7 over every
+field, using literal integer maps. The five- and six-sector long source
+dimensions decrease from 20 to 16 and from 28 to 24. Independent full-source
+expansion checks all 9,659 coefficient positions across T4 through T7;
+all negative powers vanish and all constant coefficients match exactly.
+The maximum absolute map entries are 6,1,5,2. A recovered m6 index error
+was caught and corrected before acceptance. These are finite improvements;
+no unbounded family or smaller exponent is established. Claim
+`AI-CANONICAL-INTEGER-FLAGS-001` retains written, externally unreviewed status.
