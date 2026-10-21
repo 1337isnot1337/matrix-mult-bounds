@@ -83,3 +83,18 @@ bound. This does not assert that lower-rank jets can produce the target.
 Their other coefficient equations, delayed growth, leading-rank losses,
 and different leading flags remain open. The first-extension and
 partial-saturation sources are credited in the package's source record.
+
+## Concurrent stronger target constraint
+
+After this calculation, the quantum/product worker's
+[second-jet package](https://github.com/1337isnot1337/matrix-mult-bounds/blob/d8de82f3ea68df6681bcc1defdac79f65346b7c8/research/ai/2026-10-21-second-jet-rank-one/rank_one.md)
+was inspected at d8de82f3ea68df6681bcc1defdac79f65346b7c8. Its exact
+rank-two spanning argument forces W2=W0 and the entire actual bilinear
+first-jet tensor to vanish. Its separate subspace argument then gives
+r_B+r_C<=24, and <=20 if either first span has a mixed component.
+Those stronger necessary target conditions already imply that at least
+one quotient rank is at most twelve. The rank-four argument here is an
+auxiliary exact matrix-space certificate and another derivation of that
+consequence; it does not advance the frontier beyond that concurrent
+result. The source record distinguishes proof inspection from independent
+review or a replay of that worker's full certificate package.

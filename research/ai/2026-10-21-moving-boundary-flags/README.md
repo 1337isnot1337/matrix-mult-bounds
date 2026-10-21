@@ -27,6 +27,10 @@ triangular minors prove that every nonzero one-leg obstruction has rank
 at least four, for every complex parameter value. Thus arbitrary first
 quotient spans of dimension at least thirteen on both sides are excluded.
 The saved minor identities can be replayed without the discovery search.
+The concurrently inspected second-jet package at d8de82f proves the stronger
+target constraints W2=W0 and r_B+r_C<=24 (<=20 with a mixed component).
+It already implies this threshold; the rank-four certificate is retained
+as auxiliary structure, with that overlap credited in the follow-up note.
 
 Reproduce from the repository root:
 

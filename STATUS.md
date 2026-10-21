@@ -855,7 +855,10 @@ at least four, proved by three rounds of exact triangular minors and
 linear restrictions. Thus arbitrary quotient spans of dimension at least
 thirteen on both sides are excluded at every order. The lower-rank and
 delayed cases remain open; this is a written unreviewed result, with no
-exponent improvement.
+exponent improvement. The concurrently inspected second-jet package at
+d8de82f already gives the stronger conditions W2=W0 and rank sum at most
+24 (at most20 with mixed directions); the rank-four certificate is retained
+as auxiliary structure, with no claim to improve that target frontier.
 
 ## Regular root flags and Laurent first-leg maps
 
