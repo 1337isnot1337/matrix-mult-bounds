@@ -7,6 +7,11 @@ new degeneration to the full fat-point tensor and no improvement of the
 matrix multiplication exponent. The proof review described below was by
 another AI agent in the same research session, not an external review.
 
+**October 21 update.** A separate [rational contraction certificate](../2026-10-21-rectangular-t4-certificate/README.md)
+now proves the finite degeneration `C(5,10) -> T_4` with asymmetric
+degree weights. The symmetric-split obstruction below retains its stated
+scope. The all-size constructions discussed here remain open.
+
 ## 1. An exact condition with two independent nonshared maps
 
 Write `C(a,B)` for the convolution tensor with slices

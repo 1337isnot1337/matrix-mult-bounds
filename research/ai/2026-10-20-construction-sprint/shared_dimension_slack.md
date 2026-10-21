@@ -101,7 +101,7 @@ negative control. No floating-point comparison is used for acceptance.
 
 ## What this changes in the search
 
-The next finite probe is `C(5,10) -> T_4`, allowing a general rectangular
+The finite probe is `C(5,10) -> T_4`, allowing a general rectangular
 shared map and Laurent maps on the other two legs. The repository's
 earlier coordinate/permutation search at this format is explicitly
 credited in [mixed restrictions](../2026-10-20-mixed-restrictions/README.md).
@@ -114,6 +114,12 @@ ten leaves rank at least six, whereas a coherent slice of `T_4` has rank
 four. The desired construction therefore requires a genuine degeneration.
 A successful isolated finite probe would be useful but would not by
 itself establish the unbounded family required in (1).
+
+**October 21 update.** The [exact rational contraction certificate](../2026-10-21-rectangular-t4-certificate/README.md)
+now proves this finite degeneration over the real and complex numbers.
+The construction uses asymmetric degree weights and dense constant maps.
+The unbounded family in (1) remains unconstructed, so the exponent
+consequences in this note remain conditional.
 
 This note extends the source aspect allowed by an existing conditional
 proof. It neither constructs the missing maps nor claims independent

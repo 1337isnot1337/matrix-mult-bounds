@@ -976,3 +976,20 @@ positive remainder terms have degrees one through seven. Two further
 same-session source-coefficient replays agree with the displayed witness.
 This is a finite constructive result and a pilot for the larger fat-point
 search. It does not establish a smaller exponent or an unbounded family.
+
+## Certified rectangular fat-point degeneration
+
+The [rational contraction certificate](research/ai/2026-10-21-rectangular-t4-certificate/README.md)
+proves C(5,10) degenerates to the canonical T4 over the real and complex
+numbers. Exact rational bounds prove a common zero of all 172 required
+coefficient equations inside a radius-10^-8 cube. The fixed-point map
+has contraction factor below 0.000553 and image radius below 1.37e-11.
+A separate verifier expands all 400 source coefficients and obtains the
+selected Jacobian by exact integer finite differences; its bounds agree.
+
+This resolves the finite rectangular target named above and goes beyond
+the symmetric degree split that was excluded earlier. The result does
+not supply an unbounded family. Larger source-target constructions and
+a uniform cost bound remain necessary for the conditional exponent
+criterion. No exponent below 9/4 is established. The written proof has
+same-session checks and no external mathematical review.
