@@ -1,0 +1,12 @@
+{
+  "tested_source_head": "b2bbb85006f09322e4bfe6d0225c18143015f9cd",
+  "main_base": "fb280abeda88e93204cf354e4e17287cff401a5c",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "full_regression_tests": 306,
+  "full_regression_seconds": 164.68,
+  "full_regression_passed": true,
+  "archive_replays_passed": 5,
+  "independent_full_matrix_target_rank_controls": 489,
+  "note": "An initial focused run passed every mathematical comparison but had an incorrect expected coverage count, 507. The count was corrected to 489 and the final full suite passes. No independent mathematical review or exponent improvement."
+}
