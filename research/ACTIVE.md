@@ -1,6 +1,15 @@
 # Integrated research coordination
 
 The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-graphs/QUESTION.md`. Four specified nontrivial
+graph families close at partner a=b=1, each with arbitrary boundary part.
+Quadratic-minor spans replace stalled triangular-minor cuts. The general
+problem reduces to fifteen two-coordinate graph charts; they remain open.
+PR67 merged at e25a287 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
+
+The mixed-frame worker now studies
 `ai/2026-10-21-pure-mixed-five-spaces/QUESTION.md`. Pure mixed rows close
 the seven-by-five case for b nonzero, with exact polynomial certificates
 for every a after scaling b=1. The remaining quotient normals split into

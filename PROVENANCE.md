@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-21-mixed-five-space-graphs` package is same-session AI-derived
+work directed by the repository owner. It adopts the maintained source,
+virtual corrections, target rank gap and induction with their existing
+credits. The new four graph-family closures use selected quadratic minor
+witnesses, with exact modular rank lifting to Q and C. This is neither an
+independent mathematical review nor a priority claim for standard modular
+rank or Grassmann-chart arguments. It establishes no exponent improvement.
+
 The pure-row five-space package in
 `research/ai/2026-10-21-pure-mixed-five-spaces/` was generated in this
 owner-directed Codex session. It adopts the canonical source, uniform
