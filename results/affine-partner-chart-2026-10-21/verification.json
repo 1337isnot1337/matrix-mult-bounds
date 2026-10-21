@@ -1,0 +1,42 @@
+{
+  "status": "focused-local-checks-passed-full-current-ci-pending",
+  "base_head": "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+  "local_checks": {
+    "source_report": "passed",
+    "focused_tests": {
+      "run": 5,
+      "passed": 5,
+      "seconds": 41.511
+    },
+    "link_and_ledger_tests": {
+      "run": 2,
+      "passed": 2
+    }
+  },
+  "current_discovery": {
+    "tests": 798,
+    "modules": 189,
+    "groups": [
+      209,
+      204,
+      198,
+      187
+    ],
+    "complete_disjoint_coverage": true,
+    "import_errors": 0,
+    "own_cases": 5
+  },
+  "code_sha256": {
+    "research/ai/2026-10-21-affine-partner-chart/verify.py": "12d7c0a6f3d5bdcd98a1d117336f4480c5bf98bb109c3d1919d48cb3a098c23d",
+    "research/ai/2026-10-21-affine-partner-chart/certificate.json": "bd3c162698a9d6b39813e0cadc7da8ffeb17593dfd29cb77db034b506ff8f837",
+    "tests/test_affine_partner_chart.py": "740902c164be3cf31b605c2447db2d8566991951547d87b70fa01d0cd2ce1cb4"
+  },
+  "parent_pr91": {
+    "head": "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+    "included": true,
+    "status": "CI pending"
+  },
+  "archives_unchanged_against": "00d51337ddfe581a6e53ff9bc71bb1ece6ad8ee8",
+  "independent_review": false,
+  "improves_omega": false
+}

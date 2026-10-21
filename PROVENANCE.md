@@ -766,3 +766,13 @@ their source credits. The phase acts on the original4096 terms and both
 physical frames; it is not inferred from a smaller projection rescaling.
 This written local exclusion has no independent review or exponent gain.
 The b=0 boundary and other first-space/flag classes are not covered here.
+
+## Finite affine partner chart
+
+The fresh b=0 source closure and its rational cubic-span certificates were
+developed in this owner-directed session. The polynomial normal family,
+virtual corrections, sixteen necessary source slices, corner proof, source
+torus and shifted moving-plane induction retain their existing credits.
+The full-line099 theorem is adopted explicitly; its verifier is not counted
+as rerun by this boundary package. Exact replay does not supply independent
+review, projective endpoint coverage, or an exponent improvement.

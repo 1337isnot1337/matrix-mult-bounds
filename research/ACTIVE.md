@@ -25,11 +25,11 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-full-partner-line/QUESTION.md`. Every graph is excluded on
-all of b=1, and the torus covers every b nonzero. Explicit rank minors,
-a physical source phase and a fresh a=0 replay cover098's finite candidates.
-Move to b=0, remaining endpoint charts or smaller first-space constructions.
-The exponent is unchanged.
+`ai/2026-10-21-affine-partner-chart/QUESTION.md`. The fresh b=0 fiber and
+source torus close the finite affine partner chart under099 and087, with
+all mixed graphs and boundary four-spaces. The next cases are the two
+projective endpoints. This written seven-by-five exclusion is unreviewed;
+other first-space/flag classes remain and the exponent is unchanged.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-global-mixed-normal-dichotomy/QUESTION.md`. All six graph

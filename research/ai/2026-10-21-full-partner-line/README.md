@@ -20,3 +20,7 @@ python -m unittest discover -s tests -p test_full_partner_line.py -v
 Use root requirements.txt. The code verifies all polynomial determinants,
 source/frame phase coefficients, actual minors and source-rank bounds.
 See [QUESTION.md](QUESTION.md) for the remaining boundary and construction work.
+
+The subsequent [affine-chart package](../2026-10-21-affine-partner-chart/README.md)
+closes b=0 under the same canonical seven-by-five hypotheses. This does
+not enlarge the scope of the original099 verifier.

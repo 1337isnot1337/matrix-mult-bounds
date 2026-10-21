@@ -107,6 +107,18 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## Complete finite affine rank-one partner chart
+
+The [affine-chart proof](research/ai/2026-10-21-affine-partner-chart/proof.md)
+closes the punctured b=0 boundary by a fresh rational calculation at(1,0)
+and a checked source torus. Both complete necessary normal families close:
+stable54->14->6->4->0 and rank-one projection48->10->4->0. The existing
+corner verifier is replayed. Adopting099 for b nonzero now covers every
+finite complex pair(a,b), with every mixed graph and boundary four-space.
+Claim `AI-AFFINE-PARTNER-CHART-100` is written and unreviewed. The two
+projective endpoints, smaller first spaces and other leading flags remain
+outside this result. The exponent remains9/4.
+
 ## Every graph on the full normalized partner line
 
 The [full-line proof](research/ai/2026-10-21-full-partner-line/proof.md)

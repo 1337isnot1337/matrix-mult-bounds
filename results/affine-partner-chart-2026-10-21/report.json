@@ -1,0 +1,121 @@
+{
+  "claim": "AI-AFFINE-PARTNER-CHART-100",
+  "boundary_point": {
+    "partner": {
+      "a": 1,
+      "b": 0
+    },
+    "projection_dimensions": [
+      84,
+      52,
+      48
+    ],
+    "cases": [
+      {
+        "case": "stable",
+        "initial_source_dimensions": [
+          54,
+          38,
+          18,
+          16,
+          14
+        ],
+        "moment_blocks": [
+          {
+            "variables": 7,
+            "actual_cubic_rank": 79,
+            "cubic_monomials": 84,
+            "linear_cubes": 4
+          },
+          {
+            "variables": 7,
+            "actual_cubic_rank": 79,
+            "cubic_monomials": 84,
+            "linear_cubes": 4
+          }
+        ],
+        "after_linear_cubes": 6,
+        "terminal_source_dimensions": [
+          6,
+          4,
+          0
+        ],
+        "final_selected_sources": 16
+      },
+      {
+        "case": "rank-one-projection",
+        "initial_source_dimensions": [
+          48,
+          40,
+          36,
+          30,
+          18,
+          12,
+          10
+        ],
+        "moment_blocks": [
+          {
+            "variables": 5,
+            "actual_cubic_rank": 31,
+            "cubic_monomials": 35,
+            "linear_cubes": 3
+          },
+          {
+            "variables": 5,
+            "actual_cubic_rank": 31,
+            "cubic_monomials": 35,
+            "linear_cubes": 3
+          }
+        ],
+        "after_linear_cubes": 4,
+        "terminal_source_dimensions": [
+          4,
+          0
+        ],
+        "final_selected_sources": 12
+      }
+    ],
+    "final_nonplane_dimension": 0,
+    "plane_dimension": 4,
+    "all_mixed_graphs_covered": true,
+    "arbitrary_boundary_four_space": true
+  },
+  "torus": {
+    "source_terms": 4096,
+    "total_source_weight": 18,
+    "partner_action": "(a,b) -> (a/lambda,b/lambda)",
+    "normalizes_a_nonzero_b_zero_to": {
+      "a": 1,
+      "b": 0
+    }
+  },
+  "corner_claim_replayed": "AI-MIXED-FIVE-SPACE-POINT-087",
+  "adopted_b_nonzero_claim": "AI-FULL-PARTNER-LINE-099",
+  "b_nonzero_verifier_replayed_here": false,
+  "all_finite_a_b_excluded_under_adopted_claims": true,
+  "partner_chart": {
+    "u": [
+      "a*b",
+      "-a",
+      "-b",
+      "1"
+    ],
+    "v": [
+      "a*b",
+      "b",
+      "a",
+      "1"
+    ]
+  },
+  "first_space_dimensions": [
+    7,
+    5
+  ],
+  "canonical_leading_flags_required": true,
+  "arbitrary_later_regular_maps": true,
+  "delayed_unequal_orders": true,
+  "laurent_first_leg": true,
+  "projective_endpoints_classified": false,
+  "independent_review": false,
+  "improves_omega": false
+}
