@@ -1,0 +1,38 @@
+{
+  "claim": "AI-ALL-MIXED-GRAPHS-A1-097",
+  "sources": [
+    {
+      "commit": "cb7052168c170c069d4c7aaac3fae9b91b480d95",
+      "path": "research/ai/2026-10-21-global-mixed-normal-dichotomy/proof.md",
+      "use": "Uniform54/36 necessary normal dichotomy for every graph at a=b=1."
+    },
+    {
+      "commit": "6c78380cf0b5d168db3a74893c2b560f3ee3a60f",
+      "path": "research/ai/2026-10-21-generic-mixed-graphs/proof.md",
+      "use": "Full source normal equations, symbolic partition, planes and graph torus."
+    },
+    {
+      "commit": "311333e6870b66c08427ff273f7513b0018f2831",
+      "path": "research/ai/2026-10-21-mixed-exceptional-affine/proof.md",
+      "use": "Exact cubic/source certificate methods; the affine family is now included in the all-graph exclusion."
+    },
+    {
+      "commit": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "use": "Saturated target rank gap and moving-boundary induction."
+    },
+    {
+      "commit": "e25a28723cc071859f1d3e70f293e3a155692ee0",
+      "path": "research/ai/2026-10-21-pure-mixed-five-spaces/proof.md",
+      "use": "Mixed-space shifted induction and total-weight18 source torus identity."
+    }
+  ],
+  "concurrent_review": {
+    "commit": "4200a469954646861b02f91b794c519fd8571cbb",
+    "path": "research/ai/2026-10-21-hankel-wronskian-cap/application.md",
+    "role": "Credited ordinary-frontier update, not a proof dependency.28 related focused tests pass in57.758s; written theorem remains unreviewed."
+  },
+  "discovery": "Radical computations suggested linear forms and a branch split. Acceptance reconstructs actual minors and verifies exact rational polynomial identities; no radical algorithm is assumed.",
+  "independent_review": false,
+  "improves_omega": false
+}

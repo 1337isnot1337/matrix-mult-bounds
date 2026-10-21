@@ -1,0 +1,44 @@
+{
+  "status": "focused-local-checks-passed-full-current-ci-pending",
+  "base_head": "afc021d6f1c7a17f1017552d5926d9a8a02fe213",
+  "local_checks": {
+    "source_level_report": "passed",
+    "focused_tests": {
+      "run": 4,
+      "passed": 4,
+      "seconds": 36.78
+    },
+    "link_and_ledger_tests": {
+      "run": 2,
+      "passed": 2
+    }
+  },
+  "current_discovery": {
+    "tests": 767,
+    "modules": 183,
+    "groups": [
+      181,
+      201,
+      197,
+      188
+    ],
+    "complete_disjoint_coverage": true,
+    "import_errors": 0,
+    "own_cases": 4
+  },
+  "code_sha256": {
+    "research/ai/2026-10-21-all-mixed-graphs-a1/verify.py": "e77e3ee1ccdf6bb4794ed5a45ef076fb7588020491db326c758ed511136423e9",
+    "research/ai/2026-10-21-all-mixed-graphs-a1/certificate.json": "2b37f3c496db272c1f3bb28ea5e02df05d0a2f75969f247617a142fdfce7a5f3",
+    "tests/test_all_mixed_graphs_a1.py": "914ef4765b8a735cf88077829472afa4547d573c0c6ce4ed32d73a949dae08e6"
+  },
+  "concurrent_hankel_replay": {
+    "source_main": "4200a46",
+    "focused_tests": 28,
+    "seconds": 57.758,
+    "all_passed": true,
+    "independent_review": false
+  },
+  "archives_unchanged_against": "4200a46",
+  "independent_review": false,
+  "improves_omega": false
+}

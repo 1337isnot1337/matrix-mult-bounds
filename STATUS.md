@@ -51,6 +51,18 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## Every mixed graph at the equal nonzero partner
+
+The [all-graph proof](research/ai/2026-10-21-all-mixed-graphs-a1/proof.md)
+closes the canonical full-B seven-frame against every mixed C five-space
+at a=b=1, including all six graph coefficients and arbitrary boundary
+four-spaces. Uniform source equations, exact cubic identities and an
+exhaustive four-branch split leave only the four common planes. The
+adopted shifted induction excludes M(10,10,11) for arbitrary later maps;
+the source torus extends this to a=b nonzero. Claim
+`AI-ALL-MIXED-GRAPHS-A1-097` is written and unreviewed. Other partner
+ratios and leading flags remain open; the exponent remains9/4.
+
 ## A uniform mixed-normal dichotomy
 
 The [all-graph reduction](research/ai/2026-10-21-global-mixed-normal-dichotomy/proof.md)
@@ -59,8 +71,8 @@ in two fixed linear families of dimensions54 and36. Eight rational square
 identities and four polynomial mixed-row identities force the rank-one
 projection alternative to projection zero for all six graph coefficients,
 including exceptional fibers. Claim `AI-GLOBAL-MIXED-NORMAL-DICHOTOMY-096`
-is written and unreviewed. The remaining families are unclassified; no
-complete target exclusion or smaller exponent is established here.
+is written and unreviewed. Claim097 subsequently eliminates both families
+at this partner. The dichotomy itself does not assert an exponent gain.
 
 ## An affine family of larger mixed normal spaces
 
@@ -71,8 +83,8 @@ left-relation certificates prove the all-parameter rank upper bound.
 At h=(0,1,1,0,0,0), a complete38-dimensional kernel, square minors and
 additional source equations eliminate all34 non-plane directions; the
 adopted induction excludes M(10,10,11) there for arbitrary later maps.
-Claim `AI-MIXED-EXCEPTIONAL-AFFINE-095` is written and unreviewed. Target
-constructions on the whole affine family remain open; no smaller exponent.
+Claim `AI-MIXED-EXCEPTIONAL-AFFINE-095` is written and unreviewed. Its entire
+affine family is now included in claim097 at the same partner.
 
 ## An open set of arbitrary mixed graphs
 
@@ -87,8 +99,8 @@ not an extrapolation to all parameters from a finite test. The checked
 torus extends it to an open set for b nonzero. Claim
 `AI-GENERIC-MIXED-GRAPHS-094` is written and unreviewed. A remaining target
 would require its entire affine four-plane of graph representatives to
-lie in the exceptional fiber. That geometry is unresolved; the exponent
-remains9/4.
+lie in the exceptional fiber. Claim097 closes all graphs at a=b nonzero;
+other partner fibers remain unresolved. The exponent remains9/4.
 
 ## Two-coordinate rank strata and exceptional graph closure
 
@@ -99,8 +111,8 @@ A polynomial frame is complete away from those points, certified by
 matched minors and all complex exceptional-root controls. The full
 exceptional normal system at (1,1) reduces to the four plane directions
 and excludes that graph under the prior shifted induction. Claim
-`AI-MIXED-TWO-COORDINATE-STRATA-093` is written and unreviewed. Full target
-classification on this chart remains open; the exponent remains9/4.
+`AI-MIXED-TWO-COORDINATE-STRATA-093` is written and unreviewed. The subsequent
+claim097 excludes this whole target chart; the exponent remains9/4.
 
 ## Uniform mixed-axis reduction
 

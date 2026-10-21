@@ -1,0 +1,75 @@
+{
+  "claim": "AI-ALL-MIXED-GRAPHS-A1-097",
+  "partner": {
+    "a": 1,
+    "b": 1
+  },
+  "all_six_graph_parameters_covered": true,
+  "arbitrary_boundary_four_space": true,
+  "initial_source_traces": [
+    {
+      "case": "stable",
+      "dimensions": [
+        54,
+        38,
+        18,
+        16,
+        6
+      ]
+    },
+    {
+      "case": "projection-zero",
+      "dimensions": [
+        36,
+        28,
+        22,
+        16,
+        14,
+        10,
+        8,
+        6,
+        4,
+        0
+      ]
+    }
+  ],
+  "stable_terminal_traces": [
+    {
+      "case": "stable-AA",
+      "dimensions": [
+        4,
+        0
+      ]
+    },
+    {
+      "case": "stable-AB",
+      "dimensions": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "case": "stable-BA",
+      "dimensions": [
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "case": "stable-BB",
+      "dimensions": [
+        2,
+        0
+      ]
+    }
+  ],
+  "final_nonplane_dimension": 0,
+  "plane_dimension": 4,
+  "all_graph_targets_excluded_at_partner": true,
+  "extends_to_a_equals_b_nonzero": true,
+  "all_partners_classified": false,
+  "independent_review": false,
+  "improves_omega": false
+}

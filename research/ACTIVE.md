@@ -25,6 +25,12 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
+`ai/2026-10-21-all-mixed-graphs-a1/QUESTION.md`. Every mixed seven-by-five
+graph at a=b=1 is now excluded, with a torus extension to a=b nonzero.
+The54/36 normal families close by exact source/cubic certificates. Move
+to unequal partner ratios, other leading flags or constructive sources.
+
+The mixed-frame worker now studies
 `ai/2026-10-21-global-mixed-normal-dichotomy/QUESTION.md`. All six graph
 parameters at a=b=1 reduce to fixed54- and36-dimensional quotient normal
 families. Exact square and polynomial row identities collapse the rank-one
