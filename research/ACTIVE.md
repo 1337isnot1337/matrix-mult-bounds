@@ -7,8 +7,10 @@ reduce the ten remaining quotient parameters to two, then cubic minors
 eliminate both. The written all-order extension is unreviewed. General
 two-coordinate graph charts remain open; the next calculation must use
 their actual mixed rows and retain exceptional parameter loci. PR69
-merged at48bd72d with equal source/squash trees. No exponent gain is
-established.
+merged at48bd72d with equal source/squash trees; its completed local and
+remote branches and worktree are removed. All583 local tests ran, with
+580 passes and3 optional skips; all five archive replays passed. No
+exponent gain is established.
 
 
 The mixed-frame worker now studies

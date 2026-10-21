@@ -35,3 +35,13 @@ its separate finite verifier was not rerun in this package. Full linear
 span of a nonlinear family does not construct the required linear target
 map or a compatible three-leg tensor restriction. This constructive route
 remains owned by that worker and distinct from the present local exclusion.
+
+The same worker's subsequent
+[linearity audit at ca811b3](https://github.com/1337isnot1337/matrix-mult-bounds/blob/ca811b36b25ee2cc939f225415849ddd7871b43e/research/ai/2026-10-21-rectangular-direct-sums/multiple_support_linearity.md)
+now excludes that explicit moving-support family as the missing injective
+linear target-leg map. Its argument uses a residue-dependency dimension
+bound and stationary support along rank-two parameter lines. It leaves
+arbitrary confluent closures and other rank641 source components open.
+This later written proof was read here and remains unreviewed; its finite
+controls were not rerun here. The source-family construction itself is
+retained, with its target-map limitation made explicit.
