@@ -37,3 +37,20 @@ source maps. It is not enough to insert a rectangular block into a desired
 square target: all cross-block products and mixed coefficients must match.
 A single volume75 block at A33 has no improved-exponent implication from
 the maintained score criterion. Any assembly or generalization remains open.
+
+## A fixed-map extension is blocked, even without symmetry
+
+Keep the three saved maps on the old M(5,5,3) block. A prospective additional
+third-vertex channel has a new B column and C row. Every mixed coefficient
+between a new B entry and an old C entry must vanish, for all 25 old A
+entries. On the full 45-dimensional source B space these 375 equations
+have rank45; hence each new B entry would be zero. The same statement holds
+with B and C interchanged. The exact modular full-rank witnesses in
+`fixed-extension-certificate.json` prove full rank over Q and C. The
+verifier builds these equations from all original source terms, with no
+SL2 assumption. Thus any extension must change at least one existing map.
+
+A separate twelve-start search of independent equivariant maps for
+M(5,5,4) reached only relative error0.5000002263. This is a numerical
+non-result, not a general exclusion. It does not override the fixed-map
+scope of the exact rank certificate above.

@@ -5,10 +5,10 @@ import numpy as np
 from intertwiners import source_data,representation,target_actions
 
 
-def main(starts,sweeps,output,rectangular=False,warm=None):
- vertex_w=3 if rectangular else 5
- invariant_dimension=33 if rectangular else 101
- basis_file='rectangular-bases.json' if rectangular else 'intertwiner-bases.json'
+def main(starts,sweeps,output,rectangular=False,warm=None,vertex_w=None):
+ vertex_w=vertex_w or (3 if rectangular else 5)
+ invariant_dimension={3:33,4:62,5:101}[vertex_w]
+ basis_file={3:'rectangular-bases.json',4:'four-vertex-bases.json',5:'intertwiner-bases.json'}[vertex_w]
  started=time.monotonic();root=Path(__file__).resolve().parents[3]
  exact=json.loads((root/'results/asymmetric-sl2-seed-20261021'/basis_file).read_text())
  wb,actions=source_data(3);W=np.array([np.array(x).astype(np.float64) for x in wb])
@@ -18,7 +18,7 @@ def main(starts,sweeps,output,rectangular=False,warm=None):
   Q,R=np.linalg.qr(raw.reshape(r,-1).T,mode='reduced')
   basis=Q.T.reshape(r,S,T);bases.append(basis);transforms.append(np.linalg.inv(R))
   physical.append(np.einsum('rst,sab->rtab',basis,W))
- U=representation([4]);V=representation([2] if rectangular else [2,0,0])
+ U=representation([4]);V=representation([2]+[0]*(vertex_w-3))
  target=[target_actions(U,U),target_actions(U,V),target_actions(V,U)]
  weights=[np.array([int(T[2][i,i]) for i in range(T[2].rows)]) for T in target]
  triples=np.array([(i,j,k) for i in range(25) for j in range(5*vertex_w) for k in range(5*vertex_w)
@@ -90,4 +90,4 @@ if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--starts',type=int,default=8);p.add_argument('--sweeps',type=int,default=300)
  p.add_argument('--output',type=Path,default=Path('results/local/asymmetric-sl2-seed/search'))
  p.add_argument('--rectangular',action='store_true');p.add_argument('--warm',type=Path)
- a=p.parse_args();main(a.starts,a.sweeps,a.output,a.rectangular,a.warm)
+ p.add_argument('--vertex-w',type=int,choices=[3,4,5]);a=p.parse_args();main(a.starts,a.sweeps,a.output,a.rectangular,a.warm,a.vertex_w)

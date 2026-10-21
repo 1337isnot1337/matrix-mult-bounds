@@ -18,3 +18,11 @@ the exponent; it tests a symmetry-breaking mechanism in a tractable format.
 Dependencies: the physical W trace description and intertwiner methodology
 in the maintained anisotropic `parity_balancing_spin1.py`, and the exact
 scope of the cyclic-equivariant obstruction. These inputs retain their credit.
+
+## Recorded outcomes
+
+The full asymmetric M5 pattern is excluded by an exact pencil invariant.
+The rectangular V4,V4,V2 search yielded exact A33 to M(5,5,3) maps.
+Fixed-map enlargements are blocked without any symmetry assumption, and
+a changed-map equivariant duplication to V4,V4,2V2 has a second exact
+pencil obstruction. General changed-map enlargement remains open.
