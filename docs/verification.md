@@ -44,7 +44,7 @@ The Python tests do not validate the full shared-leg theorem, the external spect
 
 ## Regression tests and continuous integration
 
-The regression suite covers archive integrity, independent profile formulas, selected support invariants, exact recorded scores, and ledger consistency. The workflow runs those tests and the full replay. Its runtime status is separate from the local run recorded here.
+The regression suite covers archive integrity, independent profile formulas, selected support invariants, exact recorded scores, and ledger consistency. Routine pull requests and main pushes run change-selected tests on both supported Python lanes. Nightly and manual runs execute the full suite and archive replay. Archive, shared-tool, or dependency changes also trigger full verification. Its runtime status is separate from the local run recorded here.
 
 ## Product-filtration proof-chain checks
 
@@ -111,3 +111,27 @@ The source calculation uses exact SymPy arithmetic. Search discovery additionall
 uses NumPy, SciPy and python-sat 1.9.dev17; accepted group potentials are checked
 by the pinned integer-only verifier. No SAT timeout, floating fit, or source
 cost certificate supplies the missing target degeneration.
+
+## Change-aware CI routing
+
+`tools/ci_select.py` computes a conservative package/import dependency closure
+from the actual Git diff. Each routine run always includes repository metadata,
+archive hash, and Markdown-link checks in `test_research.py`. Changed test files
+run directly. Source-package changes select tests that reach that package,
+including statically identified cross-package imports and path references. Saved
+certificate changes select their known consumers. Unknown executable or data
+changes fall back to the full suite. Deleted or renamed paths are checked as
+deletions and additions rather than silently ignored.
+
+Documentation-only changes do not rerun exhaustive mathematical searches.
+Changes to requirements, shared tools, or archived source trigger the full
+suite and historical replay. Workflow changes trigger the full suite. Scheduled
+verification runs daily at 07:23 UTC, and `workflow_dispatch` runs everything.
+The stable required `CI` job fails if planning or selected tests fail. A skipped
+archive job is accepted only when the planner says it is unnecessary.
+
+The plan and reasons appear in job logs. Static routing cannot prove complete
+mathematical dependency coverage, so the daily full run is retained. When a
+package uses a new dynamic cross-package loading pattern, add a routing test or
+use the conservative full fallback. Do not use a successful scoped run as a
+claim that every research experiment was replayed.

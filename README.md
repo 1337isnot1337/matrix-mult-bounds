@@ -87,7 +87,7 @@ General proofs need review. Finite certificates need reproducible checks. Neithe
 
 ## Reproduce the initial experiments
 
-Use Python 3.10 or later in a virtual environment. The CI configuration tests Python 3.10 and 3.14 and replays the historical experiments on Python 3.13. Install maintained dependencies from the root requirements file.
+Use Python 3.10 or later in a virtual environment. Routine CI selects affected package tests on Python 3.10 and 3.14. Nightly and manual runs execute the full suite and the five historical replays on Python 3.13. Archive or shared-tool/dependency changes also require full verification. Install maintained dependencies from the root requirements file.
 
 ```sh
 python -m venv .venv
@@ -109,6 +109,6 @@ The archives `research/ai/2026-10-20/` and `research/ai/2026-10-20-session2/` re
 
 The external $9/4$ baseline belongs to OpenAI's October 2026 work, as recorded in the [source guide](docs/nine_fourths_route.md). This repository does not claim that theorem or its growth recurrence. The [literature map](docs/literature.md) credits earlier tensor methods and related work. Local research records disclose AI involvement, imported hypotheses, proof status, and limitations. No historical priority is inferred from a local derivation.
 
-Contributions from people and AI-assisted workflows are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), preserve existing evidence, and use a focused pull request. Changes to `main` follow the repository's review and CI workflow. The aggregate `CI` check covers the configured test jobs and archive replay; it does not certify mathematical novelty or general correctness.
+Contributions from people and AI-assisted workflows are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), preserve existing evidence, and use a focused pull request. Changes to `main` follow the repository's review and CI workflow. The aggregate `CI` check requires selected tests and any required archive replay; it does not certify mathematical novelty or general correctness.
 
 No repository license was selected at initialization. External publications and code retain their own licenses. Consult [PROVENANCE.md](PROVENANCE.md) and [repository settings](docs/repository-settings.md).

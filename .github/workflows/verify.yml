@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '23 7 * * *'
 
 permissions:
   contents: read
@@ -15,8 +17,28 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
+  plan:
+    name: Select verification scope
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      replay: ${{ steps.select.outputs.replay }}
+    steps:
+      - name: Check out the tested revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Select conservative affected tests
+        id: select
+        env:
+          CI_EVENT: ${{ github.event_name }}
+          CI_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: python tools/ci_select.py --event --github-output "$GITHUB_OUTPUT"
+
   tests:
     name: Tests (Python ${{ matrix.python-version }})
+    needs: plan
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     strategy:
@@ -28,6 +50,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
@@ -38,10 +61,19 @@ jobs:
         run: python -m pip install --disable-pip-version-check --no-input -r requirements.txt
       - name: Check installed dependencies
         run: python -m pip check
-      - name: Run all regression and archive-integrity tests
-        run: python -m unittest discover -s tests -v
+      - name: Select and run required regression tests
+        env:
+          CI_EVENT: ${{ github.event_name }}
+          CI_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+        run: |
+          python tools/ci_select.py --event
+          python tools/ci_select.py --run
 
   replay:
+    needs: plan
+    if: ${{ needs.plan.outputs.replay == 'true' }}
     name: Archive replay (Python 3.13)
     runs-on: ubuntu-24.04
     timeout-minutes: 10
@@ -50,6 +82,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
@@ -67,17 +100,24 @@ jobs:
     # Keep this name stable: the main-branch ruleset requires this check.
     name: CI
     if: ${{ always() }}
-    needs: [tests, replay]
+    needs: [plan, tests, replay]
     runs-on: ubuntu-24.04
     timeout-minutes: 2
     permissions: {}
     steps:
       - name: Require every verification job to pass
         env:
+          PLAN_RESULT: ${{ needs.plan.result }}
+          REPLAY_REQUIRED: ${{ needs.plan.outputs.replay }}
           TESTS_RESULT: ${{ needs.tests.result }}
           REPLAY_RESULT: ${{ needs.replay.result }}
         run: |
-          if [ "$TESTS_RESULT" != "success" ] || [ "$REPLAY_RESULT" != "success" ]; then
-            echo "::error::Verification did not pass: tests=$TESTS_RESULT, replay=$REPLAY_RESULT"
+          if [ "$PLAN_RESULT" != "success" ] || [ "$TESTS_RESULT" != "success" ]; then
+            echo "::error::Required plan/tests did not pass"
             exit 1
+          fi
+          if [ "$REPLAY_REQUIRED" = "true" ]; then
+            test "$REPLAY_RESULT" = "success"
+          else
+            test "$REPLAY_RESULT" = "skipped" || test "$REPLAY_RESULT" = "success"
           fi
