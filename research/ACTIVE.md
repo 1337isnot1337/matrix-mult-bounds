@@ -29,14 +29,14 @@ The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
 The mixed-jet worker continues in
-`ai/2026-10-21-invertible-five-frame/QUESTION.md`. The written five-frame
-proof excludes every compatible invertible mixed-line pair at these flags,
-including arbitrary boundary graphs and delayed unequal first orders.
-A finite rank-thirteen truncation has an exact cubic repair, but the
-output-growth obstruction prevents its use for the 110-dimensional target
-legs. Next examine rank-one mixed partner families and smaller first
-spaces. This is an unreviewed local exclusion; the exponent is unchanged.
-Boundary-frame biform work stays with the quantum worker.
+`ai/2026-10-21-rankone-seven-frames/QUESTION.md`. A uniform polynomial
+normal minor excludes all maximal rank-one seven-by-seven first pairs;
+the earlier five-frame proof excludes invertible mixed partners. The
+ordinary first-rank sum with both mixed projections nonzero is at most
+thirteen. Next investigate smaller rank-one spaces, including general
+seven-by-six pairs, seeking actual later output growth. These are written
+unreviewed local exclusions; the exponent remains unchanged. Pure-boundary
+biform work stays with the quantum worker.
 
 
 
