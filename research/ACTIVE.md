@@ -33,7 +33,7 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/paired-source-kernel-20261020`.
+Branch: `research/quantum-recoupling-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
 PR #4 merged the quantitative capacity theorem at `34c2367` after the
@@ -66,6 +66,13 @@ PR #15 merged the balanced coefficient reduction at `9b2fcc3` after current
 CI and 219 combined tests. The merged tree matches the verified head; its
 local and remote task branches were removed. The monic equations remain
 open, with no Hensel certificate from the completed small-field pilots.
+
+The paired all-power package merged in PR #17 at `ea72ec4`. Its tree equals
+the tested PR head `118cd9c`; both local and remote task branches were
+removed. The combined suite at that head passed 246 tests, and hosted CI
+passed. The next worker question is in
+`ai/2026-10-20-quantum-recoupling/QUESTION.md`. Generic source equivalence
+and root-basis controls are exact; no improving quantum limit is supplied.
 
 1. The new paired-source calculation proves an exact 3a-2 dimensional first
    Koszul kernel for every size. It excludes full-capacity M(a,2a-1,a) and
