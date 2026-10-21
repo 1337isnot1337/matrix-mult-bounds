@@ -820,6 +820,19 @@ M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
 
+## Quantum first jets with constant output projections
+
+The [first-jet saturation proof](research/ai/2026-10-20-quantum-jet-filtration/proof.md)
+removes the grading assumption for the prescribed order-three/six quantum
+curves. Thirty-two nonzero 64-by-64 minors give a full-output slice ceiling
+56, allowing arbitrary Laurent first-leg maps and all nonzero approach rates,
+orders and higher terms. A separate uniform inactive-slice argument gives
+ceiling 94 after arbitrary constant codimension-two output projections
+before taking the limit. Both ceilings are below the target's required 100.
+Claims AI-FIRST-JET-SATURATION-001 and AI-QUANTUM-CURVE-JETS-002 are written
+and unreviewed. Six completed finite-field coefficient pilots are retained
+as discovery data only. Parameter-dependent projections, different leading
+flags and non-scalar block weights remain open; the exponent is unchanged.
 
 ## Changed first jets at the quantum root flags
 
