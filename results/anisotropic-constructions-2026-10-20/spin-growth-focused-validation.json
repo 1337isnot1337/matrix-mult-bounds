@@ -1,0 +1,218 @@
+{
+  "scope": "Exact core freedoms, full Laurent endpoint and two-channel maps, balanced spin module, four-vertex rectangular construction, incoming third-boundary theorem, and repository invariants",
+  "baseline_commit": "1b944574ea6c356f9a421cc6a35b91f2b616f55c",
+  "incoming_main_commit": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+  "started_utc": "2026-10-21T06:35:18.407400+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "patterns": [
+    "test_parity_balancing_spin_w34_freedoms.py",
+    "test_parity_structure_spin_w34_laurent.py",
+    "test_parity_balancing_spin44.py",
+    "test_parity_structure_spin_four_columns.py",
+    "test_third_boundary_trap.py",
+    "test_research.py"
+  ],
+  "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S: unittest.TestSuite(defaultTestLoader.discover(tests,pattern) for each recorded pattern)",
+  "frozen_artifacts": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin_w34_freedoms.py",
+      "size": 11193,
+      "sha256": "39f46b5f361d477b40ebdda1d8ab55b42d6a0de61659c549b356088f2042a651"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin_w34_freedoms.md",
+      "size": 7410,
+      "sha256": "96de2a4d123fa61f06838c63097df5a37ddf7b16775c9ff0f6e5d446085e0eed"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin_w34_freedoms_certificate.json",
+      "size": 41286,
+      "sha256": "d84075fc72e3ca287e26ddf8f26f325fe488291d6ff5b8051598bb79d3c942fb"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin_w34_freedoms_report.json",
+      "size": 1876,
+      "sha256": "185cdf77543c3e655a4ba381de30f8ef298d7e56f28093b236c7874d46333983"
+    },
+    {
+      "path": "tests/test_parity_balancing_spin_w34_freedoms.py",
+      "size": 1446,
+      "sha256": "0ba7710e0f861c87723b9cf0768e893d9d87ce4d32521adb7d5bdece863ca991"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34_laurent.md",
+      "size": 9850,
+      "sha256": "c64e8ce2e7c7c94206059b3a8bfa16c4eaaed0fa654081a15f5190539e36ad01"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34_laurent.py",
+      "size": 8181,
+      "sha256": "eb3b178c218c3ec4a13ccc4315e9df574a6a3e0ad6a2d716d14f65199222c159"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34_laurent_generate.py",
+      "size": 6494,
+      "sha256": "f327685d8d5d134c6ffb8413fc5eb7a604106e617766733bbbfccbf03d7e38d7"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34_laurent_extension.py",
+      "size": 9806,
+      "sha256": "22bf8c1a54e0085c5ad033ff512ffc18ad930ecd4f07d76779d6407871908625"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_laurent_maps.json",
+      "size": 494385,
+      "sha256": "bbb5cf97a868d239e4f3fe7e64185d70c40f4614c22f6dbe53eed1e7e9ac9fa2"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_laurent_response_minor.json",
+      "size": 3474,
+      "sha256": "3ddf9c5645c360b91e2dd2eae7acaf0b548f3c1e02296c597d43dc1539cf2b41"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_laurent_certificate.json",
+      "size": 1067,
+      "sha256": "83df48c4cb43a6bf72410ed3e956439c3e19cc28b19db4e806262e649313e3e7"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_laurent_extension_maps.json",
+      "size": 489240,
+      "sha256": "bc0ad29ad2176d74867430c54390593e8a99c8021d9d7bdb3b6e95d7e5b220b9"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_two_channel_maps.json",
+      "size": 488086,
+      "sha256": "839bb13dc337afc4a110a12b3198224d231aa7e04e7bf5bf85a9f4975bd9f015"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_two_channel_t1_maps.json",
+      "size": 421837,
+      "sha256": "b857003136a6f4578d1e337e294892d8566698540f344ee89a07aded611fc851"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_w34_laurent_extension_certificate.json",
+      "size": 1621,
+      "sha256": "4b511a05509da2e26ec8db8d4a4a18859748ab7edfa34f279576ad7dcb48f31f"
+    },
+    {
+      "path": "tests/test_parity_structure_spin_w34_laurent.py",
+      "size": 3659,
+      "sha256": "838c380d9055222ce8f529c63e055b3b314bc36ad7271bd70893574978318ee7"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44.md",
+      "size": 8295,
+      "sha256": "c38b55b448b3a66d2cf6408795224b659f4a42c180f9172aac36cc2ac3c7ee81"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44.py",
+      "size": 10744,
+      "sha256": "cd36c7b6f96ba37a58260376abd376c3b21ef1d8cd1e14a0a9fa76903626be5d"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_discovery.py",
+      "size": 4732,
+      "sha256": "f80df83e3a45554115ade88ad29fd00532914e93ddbffd2082714f31b84e03b7"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_generate.py",
+      "size": 3687,
+      "sha256": "a9e23461e0c703764f7da94d09d994245f5f2394a9e230f3ac768d282b798772"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_witness.json",
+      "size": 60186,
+      "sha256": "b05950d7b9b5b9b3796e9ed91c8a8daf5d87bbbf902ee320232cfaa16381e4ea"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_full_maps.json",
+      "size": 446078,
+      "sha256": "6f895d2eb8ae68b2edabf662fb7b39e8709b0b41ec77e8f29678de5d0d1711e6"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_certificate.json",
+      "size": 1624,
+      "sha256": "db848745343cca5ab3460093c6c5efeb26d91d4de4202332702197b7f2a1f13c"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_candidate.json",
+      "size": 2111,
+      "sha256": "ad05efd410915aaca571987e0bc303d7e6844b87a906f8675add9f034d5dbe34"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_discovery.json",
+      "size": 599,
+      "sha256": "a0059946316f624d306fbccc2528da5b134906857fe20395024871e09a35550d"
+    },
+    {
+      "path": "tests/test_parity_balancing_spin44.py",
+      "size": 1543,
+      "sha256": "b5d557829f26cfc62beb508919df1e56e990bfd9661979e3a23166506898c2d4"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_four_columns.py",
+      "size": 8396,
+      "sha256": "956ca76912a494d76aaa0e327579dd1ba94708b80b3ba957fc01adf4a23d6fbd"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_four_columns.md",
+      "size": 8404,
+      "sha256": "9db25da5ccbe8e408907e1afd2a9619b6eb439ba87e8562a59fdf9025fbe6585"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_four_columns_maps.json",
+      "size": 333483,
+      "sha256": "dc62a028fa41fda76a031081b91cdd22cc7141a3c8a5da2e4b6a397c33b195f7"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_four_columns_response_minors.json",
+      "size": 15891,
+      "sha256": "6409470616aca33dcf7c1321de7c77802e51894aa5f378e6268eece6fda95bfd"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin_four_columns_certificate.json",
+      "size": 1493,
+      "sha256": "5651aae17c9553064cc968cf49c21148ccb4721771de2d615cec87e2f39126e9"
+    },
+    {
+      "path": "tests/test_parity_structure_spin_four_columns.py",
+      "size": 1982,
+      "sha256": "a475c974e4a5bf3d1030b188866a375f608913c3aa40eee78afaa9d34d474c4a"
+    }
+  ],
+  "integration_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "7ade8f0fa0c32c7502dc6d648896d034929f390b9a195813958ea1db67fc10d1"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "2903843f59cd964841b98665df9c736dc3b419d1db99bef8b56e030501b2a852"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "7e90bc19ef4e0afb4788c874e9dd7032a116a002bea571f7124f01cb3d51718b"
+    },
+    {
+      "path": "research/claims.json",
+      "sha256": "c6da2a6de509efcdff90c3724590240b948c587a8bf4ddaef42180e948401449"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "sha256": "c83a034116c039425c41a89e38ee579244a7e870bc28e7081451d8c85f6ef75a"
+    },
+    {
+      "path": "tests/test_research.py",
+      "sha256": "1ab4881eda53ab5a8345318d0169902875a9513c14e4978658ded83446b83b7e"
+    }
+  ],
+  "external_independent_review": false,
+  "finished_utc": "2026-10-21T06:35:43.898198+00:00",
+  "tests_run": 36,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "log_path": "results/anisotropic-constructions-2026-10-20/spin-growth-focused-tests.txt",
+  "log_sha256": "c552e02a3583eeef84e94f69f172448bfd181392bb5c8621c1f2cabb6882c89e"
+}

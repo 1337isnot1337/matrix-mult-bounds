@@ -1,0 +1,67 @@
+{
+  "source": "A(8,8)",
+  "retained_target": "M(3,3,27)",
+  "deleted_original_middle_channel": 0,
+  "source_replays": [
+    {
+      "source_terms_checked": 32768,
+      "target_coefficients_checked": 15876,
+      "nonzero_target_coefficients": 126,
+      "all_other_target_coefficients_zero": true
+    },
+    {
+      "source_terms_checked": 262144,
+      "target_coefficients_checked": 63504,
+      "nonzero_target_coefficients": 252,
+      "all_other_target_coefficients_zero": true
+    }
+  ],
+  "first_response_rank_before_and_after_deletion": [
+    192,
+    192
+  ],
+  "first_preimage_of_nine_target_slices_dimension": 777,
+  "added_row_kernels": {
+    "Y": {
+      "exact_constraint_rank": 224,
+      "actual_support_size": 237,
+      "complete_kernel_dimension": 736,
+      "noncoordinate_kernel_vectors": 13
+    },
+    "Z": {
+      "exact_constraint_rank": 213,
+      "actual_support_size": 216,
+      "complete_kernel_dimension": 747,
+      "noncoordinate_kernel_vectors": 3
+    }
+  },
+  "low_Z_kernel_is_exactly_three_omitted_Z_rows": true,
+  "common_low_Y_fiber_dimension_against_all84_Z_rows": 8,
+  "explicit_core_preserving_joint_family_parameters": 891,
+  "endpoint_controls": [
+    {
+      "coordinate": [
+        7,
+        0,
+        7
+      ],
+      "old_response_rank_at_least": 6,
+      "adjustable_fiber_rank_at_most": 4,
+      "deleted_channel_cross_matrices_zero": true
+    },
+    {
+      "coordinate": [
+        7,
+        2,
+        7
+      ],
+      "old_response_rank_at_least": 6,
+      "adjustable_fiber_rank_at_most": 4,
+      "deleted_channel_cross_matrices_zero": true
+    }
+  ],
+  "larger_square_target_constructed": false,
+  "new_exponent_established": false,
+  "actual_maps_sha256": "e1f1f05e311574a254680e49fa74f9ade1cf07ef2ab6e582be9ea4f2f3e7e684",
+  "certificate_sha256": "d84075fc72e3ca287e26ddf8f26f325fe488291d6ff5b8051598bb79d3c942fb"
+}

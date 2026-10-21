@@ -763,41 +763,8 @@
       "limitations": "The large-target trajectory is a finite numerical experiment with a large residual. It gives neither a target restriction or degeneration nor an obstruction to one. Ordinary maps for that target were excluded by earlier work, so success would require a certified singular family. NumPy and SciPy are optional discovery dependencies only.",
       "status": "finite-experiment"
     },
-    {
-      "id": "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
-      "title": "Complete172-parameter second-jet family in fixed boundary frames",
-      "status": "proof-written-unreviewed",
-      "evidence": "research/ai/2026-10-21-corrected-prolongation/proof.md",
-      "section": "",
-      "statement": "For the specified boundary outside first-row frames, all corrected second-order off-diagonal equations form a 9856 by 532 matrix of rank 360. A 172-dimensional leading first-jet family remains, with 28 independent departures from the fixed boundary spaces. All 36 leading-block quadratic cokernel polynomials vanish identically on that family. Every complex parameter choice therefore admits rationally prescribed second coefficients satisfying the complete W2=W0 identities.",
-      "dependencies": [
-        "AI-QUANTUM-EXTENSION-SPACES-075",
-        "AI-QUANTUM-SECOND-JET-NOGROWTH-001",
-        "Exact rank 360 minor, independent172-column kernel, full symbolic quadratic identities"
-      ],
-      "limitations": "Fixed boundary first frames of effective rank 12 per side. Only second jets are constructed. Third and higher-order lifting, an actual matrix target and the exponent improvement remain open. No independent review.",
-      "origin": "Codex research directed by repository owner",
-      "independent_review": false,
-      "lean_formalized": false,
-      "improves_omega": false
-    },
-    {
-      "id": "EXP-QUANTUM-COMPLETE-TWO-JETS-002",
-      "title": "Two explicit full rational second-jet coefficient witnesses",
-      "status": "finite-experiment",
-      "evidence": "results/corrected-prolongation-2026-10-21/mixed_seed.json",
-      "section": "",
-      "statement": "Two deterministic rational parameter assignments export every local-map coefficient through degree 2 and both source-row corrections. Complete first and second identities are checked on all active20 by 20 outputs; all other110-dimensional output coordinates vanish through that degree by construction. Independent fixed-index source formulas replay every active coefficient. The mixed witness has nonzero leading second coefficients and a nonzero second correction.",
-      "dependencies": [
-        "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
-        "All 4096 integer source terms and complete corrected coefficient identities"
-      ],
-      "limitations": "Explicit finite-order witnesses, not matrix tensor degenerations. Adding a cubic full-rank completion preserves the two jets but asserts no subsequent target condition. No exponent improvement.",
-      "origin": "Codex research directed by repository owner",
-      "independent_review": false,
-      "lean_formalized": false,
-      "improves_omega": false
-    },
+    {"id": "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001", "title": "Complete172-parameter second-jet family in fixed boundary frames", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-corrected-prolongation/proof.md", "section": "", "statement": "For the specified boundary outside first-row frames, all corrected second-order off-diagonal equations form a 9856 by 532 matrix of rank 360. A 172-dimensional leading first-jet family remains, with 28 independent departures from the fixed boundary spaces. All 36 leading-block quadratic cokernel polynomials vanish identically on that family. Every complex parameter choice therefore admits rationally prescribed second coefficients satisfying the complete W2=W0 identities.", "dependencies": ["AI-QUANTUM-EXTENSION-SPACES-075", "AI-QUANTUM-SECOND-JET-NOGROWTH-001", "Exact rank 360 minor, independent172-column kernel, full symbolic quadratic identities"], "limitations": "Fixed boundary first frames of effective rank12 per side. These complete second jets remain valid; AI-QUANTUM-BOUNDARY-DELAYED-TRAP-003 excludes their lifting to the matrix target under those boundary frames, including delayed first growth. No exponent improvement or independent review.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "EXP-QUANTUM-COMPLETE-TWO-JETS-002", "title": "Two explicit full rational second-jet coefficient witnesses", "status": "finite-experiment", "evidence": "results/corrected-prolongation-2026-10-21/mixed_seed.json", "section": "", "statement": "Two deterministic rational parameter assignments export every local-map coefficient through degree 2 and both source-row corrections. Complete first and second identities are checked on all active20 by 20 outputs; all other110-dimensional output coordinates vanish through that degree by construction. Independent fixed-index source formulas replay every active coefficient. The mixed witness has nonzero leading second coefficients and a nonzero second correction.", "dependencies": ["AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001", "All 4096 integer source terms and complete corrected coefficient identities"], "limitations": "Explicit finite-order witnesses, not matrix tensor degenerations. A cubic full-rank completion preserves the two jets, but the subsequent matrix-target condition is excluded for these boundary frames by AI-QUANTUM-BOUNDARY-DELAYED-TRAP-003. No exponent improvement.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
     {
       "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
       "status": "proof-written-unreviewed",
@@ -880,6 +847,77 @@
     {"id": "AI-MIXED-THIRD-ORDER-080", "title": "All-order boundary trap for the fixed sharp mixed first spaces", "origin": "Codex research directed by repository owner", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-mixed-first-jets/third_order.md", "statement": "For the canonical rank-four leading flags and the fixed 14-by-6 first-extension subspaces in seed.json, no arbitrary regular higher maps and Laurent first-leg map have regular limit M(10,10,11). Exact cross equations leave sixteen normal directions; two universal third-coefficient row covers force ranks six and six of further linear constraints, leaving exactly four common-plane tangents. Formal induction confines both maps to moving spaces of rank56.", "dependencies": ["EXP-MIXED-TWOJET-FAMILY-079 frozen family", "AI-QUANTUM-MAXIMAL-JET-077 moving-boundary induction and annihilators", "Concurrent second-jet minimum-slice-rank argument", "Exact rational normal-rank certificates and universal row covers"], "limitations": "Specific first subspaces, not every pair of quotient dimensions14 and6. Other mixed spaces, delayed growth, other leading flags and arbitrary degenerations remain open. No exponent improvement, independent review or formalization.", "independent_review": false, "lean_formalized": false, "improves_omega": false},
     {"origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-FOUR-CHAIN-SPIN-111", "title": "Exact four-chain spin modules with a three-dimensional deleted-channel transfer kernel", "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34.md", "statement": "Four polynomial chains construct rational reduced and A(4,8) restrictions to M(3,3,14), and an A(8,8) restriction to M(3,3,28). The ignored space has dimension34 and the76-dimensional join has determinant1/73728 on its saved rows. Complete original-source replays pass and the full first response has rank192. After deleting original channel0 and excluding original channel1, the complete4992-by120 G1 transfer has exact rank117 and coordinate kernel spanned by e_(0,5),e_(0,6),e_(0,7).", "dependencies": ["AI-SPIN-MODULE-106 transfer mechanism", "Four integral generators, complete rational maps and exact join duality", "Complete original-source contractions, two regenerated modular minors and exact kernel identities"], "limitations": "The construction changes both other-leg maps but does not increase the28-channel count or reduce the full192-dimensional response. Its transfer kernel concerns this specified deletion. No full additional matrix vertex or square target follows from the transfer rank alone."},
     {"origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "finite-experiment", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-SPIN-BOUNDARY-DISCOVERY-112", "title": "Finite undoubled and private-boundary spin discovery attempts", "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_private_boundary_discovery.md", "statement": "An exact finite-field scan completes108 polynomial-chain trials for the undoubled(2,8,8) source; its largest join rank is134, below144. A separate(2,3,8) seed gives a64-dimensional twelve-channel join over F65521. Shifting it and adjoining a distinguished endpoint pair gives a71-column join of rank68. The complete low-Y coefficient matrix has rank68 and its desired thirteen-channel target quotient has dimension3; the stated three-coordinate first-map repair has two inconsistent affine quotient conditions.", "dependencies": ["AI-SPIN-MODULE-106 transfer equations", "Recorded polynomial generators and deterministic finite-field seeds", "Complete modular coefficient matrix and affine membership systems"], "limitations": "Bounded calculations over F65521 only. No rational maps, all-subspace exclusion, full square target or exponent improvement is established. Different boundary pairs, retained maps and repair coordinates remain open."},
-    {"origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-SPIN-CHANNEL-ATTACHMENT-113", "title": "Exact eight-entry private-channel attachment to the four-chain spin core", "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_channel_extension.md", "statement": "After deleting original channel0, exact rational A(8,8) maps realize M(3,3,27) glued to M(3,8,1) along the three retained Z variables of original channel1. The target has dimensions33,89,81. All237897 target coefficients are checked against all262144 original source terms; exactly267 are nonzero. Four disjoint six-dimensional cells give eight new Y entries and24 independent X entries. The complete response rank is216 and the first preimage dimension remains777.", "dependencies": ["AI-FOUR-CHAIN-SPIN-111 actual retained maps", "Explicit six-row dual maps for each of four disjoint coordinate cells", "Complete integer contraction and a regenerated retained-response minor"], "limitations": "The two pieces share three third-leg variables and are not a direct sum. Each added second vertex has only one of its27 required middle channels. This is not M(3,11,27), a complete square target or an exponent improvement; the dimension774 alternative remains unfinished."}
+    {"origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-SPIN-CHANNEL-ATTACHMENT-113", "title": "Exact eight-entry private-channel attachment to the four-chain spin core", "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_channel_extension.md", "statement": "After deleting original channel0, exact rational A(8,8) maps realize M(3,3,27) glued to M(3,8,1) along the three retained Z variables of original channel1. The target has dimensions33,89,81. All237897 target coefficients are checked against all262144 original source terms; exactly267 are nonzero. Four disjoint six-dimensional cells give eight new Y entries and24 independent X entries. The complete response rank is216 and the first preimage dimension remains777.", "dependencies": ["AI-FOUR-CHAIN-SPIN-111 actual retained maps", "Explicit six-row dual maps for each of four disjoint coordinate cells", "Complete integer contraction and a regenerated retained-response minor"], "limitations": "The two pieces share three third-leg variables and are not a direct sum. Each added second vertex has only one of its27 required middle channels. This is not M(3,11,27), a complete square target or an exponent improvement; the dimension774 alternative remains unfinished."},
+    {"id": "AI-QUANTUM-THIRD-SUPPORT-001", "title": "Every ordinary first pair has third K_inf residue of first rank at most two", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-third-boundary-trap/proof.md", "section": "", "statement": "For the canonical four-row flags, any matrix-target degeneration has corrected double-projected third coefficient on K_inf of first-flattening rank at most2, for every admissible ordinary first-extension pair. Its effective first dimensions are at most16 each with sum at most24. The general joint-support estimate 7p-4<=b and 7q-4<=c forces p,q<=2, while the target minimum matrix rank11 forces rank-one matrix parameters.", "dependencies": ["AI-QUANTUM-SECOND-JET-NOGROWTH-001", "Canonical extension classification of PR45", "Elementary joint-support estimate in proof.md Section5"], "limitations": "A necessary condition on the64-dimensional source block K_inf at the stated flags and ordinary first order; no uniform positive lower rank for arbitrary first subspaces is asserted.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "AI-QUANTUM-THIRD-NORMAL-BLOCK-002", "title": "Boundary normal block has sharp minimum nonzero first rank eight", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-third-boundary-trap/proof.md", "section": "", "statement": "On K_inf the normal leading equation leaves228 parameters. Prolongation to the full boundary first frames has rank200, leaving28. Its new third block on K_new has coefficient image24, four fixed radical directions on each matrix leg, and minimum nonzero first-flattening rank exactly8 over C. Its four-dimensional coefficient kernel consists exactly of common polynomial-plane motion.", "dependencies": ["Canonical normal equations from PR46", "Exact rational kernels, rank200 minor and rank24 coefficient minor", "Repeated triangular eight-by-eight determinant identities and sharp rational control"], "limitations": "The lower-rank certificate is for the full boundary frames; it does not exclude other first subspaces. Exact certificate replay is not independent mathematical review.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "AI-QUANTUM-BOUNDARY-DELAYED-TRAP-003", "title": "Full boundary first frames force the moving boundary at every order", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-third-boundary-trap/proof.md", "section": "", "statement": "At the canonical four-row flags, no regular P,Q with first nonzero new-row spans equal to the full boundary quotients12,12 can reach the matrix target of leg dimensions100,110,110 with first-slice space X tensor I11, for any higher coefficients and any Laurent first-leg map. The first-growth orders may be delayed and unequal. Formal induction confines both leg maps to moving spaces of rank56. At ordinary first order this lowers the necessary total effective rank sum from24 to23.", "dependencies": ["AI-QUANTUM-THIRD-SUPPORT-001", "AI-QUANTUM-THIRD-NORMAL-BLOCK-002", "AI-QUANTUM-SECOND-JET-NOGROWTH-001", "Moving polynomial-plane induction of PR46"], "limitations": "Written unreviewed formal-induction proof, not formalization or finite-cutoff exhaustion. Other smaller or mixed first subspaces, leading-rank loss, and other leading flags remain open. No exponent improvement.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-CORE-FREEDOMS-114",
+      "title": "Exact simultaneous map freedoms of the four-chain spin core",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin_w34_freedoms.md",
+      "statement": "For the saved four-chain M(3,3,27) core, the complete added-row kernels with its first map fixed have dimensions736 and747. The low third-leg kernel consists exactly of the three omitted channel rows. An eight-dimensional second-leg kernel against all84 original third rows combines with those omitted rows to give an explicit891-parameter joint family preserving every retained matrix coefficient. Both specified endpoint responses have an exact rank-six lower bound but an adjustable rank of at most four, so this joint family cannot annihilate either endpoint.",
+      "dependencies": [
+        "AI-FOUR-CHAIN-SPIN-111 saved rational maps",
+        "Complete original-source replays, explicit integer kernel bases and nonzero modular minors",
+        "Deleted-channel coefficient identity and bilinearity of the retained-map equations"
+      ],
+      "limitations": "This parameter family fixes the original nine first images and uses the stated omitted channel and common second-leg kernel. It does not cover second-leg directions depending on the moving third map, other channel hyperplanes, noncoordinate first responses, or arbitrary Laurent maps. No full square target or exponent improvement is established."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-LAURENT-REPAIR-115",
+      "title": "Coupled Laurent spin repair and an exact two-channel extension",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34_laurent.md",
+      "statement": "Explicit rational Laurent maps from A(8,8) give M(3,3,27) for every nonzero parameter, with a rank-two polar Y coefficient and identically zero response at F(7,0,7). At parameter one the core response rank is191. The eight-entry composition has exactly twelve positive-degree coefficients and no negative coefficients. Retaining twelve added first rows and rescaling four added second rows gives M(3,3,27) glued to M(3,4,2) along two middle channels, exactly for every nonzero parameter. Actual ordinary maps at parameter one are separately replayed.",
+      "dependencies": [
+        "AI-FOUR-CHAIN-SPIN-111 actual rational maps",
+        "AI-SPIN-CHANNEL-ATTACHMENT-113 private entries",
+        "Exact deleted-channel corrections and complete original-source Laurent coefficient replays"
+      ],
+      "limitations": "The eight-entry composition realizes its stated private-entry tensor only as a limit; its twelve positive coefficients are retained explicitly. The two-channel family is exact for nonzero parameters but fills only two of27 channels for each of four new vertices. No full square target or exponent improvement is established."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-BALANCED-SPIN-MODULE-116",
+      "title": "Exact balanced spin module and four-parity thirty-two-channel lift",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44.md",
+      "statement": "A rational six-dimensional polynomial subspace with two length-three chains gives an ignored space of dimension16 and an endpoint-pair space of dimension10. Eight selected pairs yield a forty-square join with determinant21/128. Exact maps with denominators2,42,2 restrict the reduced format(12,40,40) and A(4,4) to M(3,3,8). Four matched parity copies inside one original A(8,8) source give M(3,3,32), with all262144 source terms and82944 target coefficients replayed; exactly288 target coefficients are nonzero.",
+      "dependencies": [
+        "AI-SPIN-MODULE-106 triangular spin identity and transfer mechanism",
+        "Explicit polynomial generators, endpoint pairs and rational join dual",
+        "Complete original-source embeddings and all-coefficient integer replays"
+      ],
+      "limitations": "These are rectangular modules, with no scalar or auxiliary source. Selecting27 of32 channels leaves five omitted channels but does not itself give a response reduction or a compatible vertex extension. The short-swapped transpose first map has a different image, with combined dimension12; mixing it requires a new proof. No exponent improvement is established."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-FOUR-VERTICES-117",
+      "title": "Exact four-vertex channel completion and its full response cost",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_four_columns.md",
+      "statement": "Changing the third maps at24 high-long-coordinate endpoint pairs and adjoining two six-dimensional first-map cells gives an exact rational A(8,8) restriction to M(3,7,27). All four added second vertices have all27 middle channels. The actual maps replay all262144 source terms and321489 target coefficients, with567 required nonzero coefficients. The full first response has exact rank576, certified by three disjoint192-dimensional blocks. Its first preimage of the21 target slices consequently has dimension405.",
+      "dependencies": [
+        "AI-FOUR-CHAIN-SPIN-111 saved core and channel deletion",
+        "Explicit endpoint triples and six-row dual cells",
+        "Complete integer contraction, response support checks and three nonzero modular minors"
+      ],
+      "limitations": "Any ordinary larger matrix target retaining these second and third maps must have first dimension at most405, even if the first maps move. This closes retaining the saved completion toward the current large targets; changed retained maps and arbitrary degenerations are not excluded. No exponent improvement is established."
+    }
   ]
 }

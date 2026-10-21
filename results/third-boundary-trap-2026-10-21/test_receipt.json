@@ -1,0 +1,32 @@
+{
+  "base_main": "8a07bed352c1da880f1526576728649d205ec530",
+  "locally_tested_main": "b113866059557c3c12745f91cfbb2574d99563ae",
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "focused_tests": {
+    "count": 5,
+    "passed": true,
+    "log": "results/third-boundary-trap-2026-10-21/tests-focused.txt"
+  },
+  "combined_unit_tests": {
+    "count": 489,
+    "skipped": 1,
+    "passed": true,
+    "seconds": 354.608,
+    "log": "results/third-boundary-trap-2026-10-21/tests-main-b113866.txt"
+  },
+  "archive_replay": {
+    "count": 5,
+    "passed": true,
+    "log": "results/third-boundary-trap-2026-10-21/archive-replay.txt"
+  },
+  "claim_ids": [
+    "AI-QUANTUM-THIRD-SUPPORT-001",
+    "AI-QUANTUM-THIRD-NORMAL-BLOCK-002",
+    "AI-QUANTUM-BOUNDARY-DELAYED-TRAP-003"
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}

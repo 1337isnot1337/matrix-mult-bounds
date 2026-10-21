@@ -90,6 +90,17 @@ completed square target. Separate undoubled and private-boundary searches
 retain only finite-field discovery claims, with no accepted rational
 maps or characteristic-zero nonexistence conclusion.
 
+The balanced thirty-two-channel module, the full M(3,7,27) extension,
+the Laurent endpoint repair, and the core-freedom classification were
+also constructed and checked by agents in this generating session.
+The balanced module changes the underlying polynomial chains; the
+larger rectangular extension has an exact response-space limitation.
+The Laurent maps include a full two-channel attachment and are verified
+as identities for nonzero parameters. They do not supply a full target
+with a better square exponent. The general arguments remain written
+and unreviewed; exact coefficient checks and same-session audits do
+not constitute independent mathematical review.
+
 The source-weight window and original-source Laurent-fiber continuation
 was generated and audited by coordinated agents in the same session.
 Its exact golden-ratio slice, full Laurent maps, and coordinate-cover

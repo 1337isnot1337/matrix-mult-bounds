@@ -22,6 +22,25 @@ give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
 unwanted coefficient is checked from the actual rational maps. These
 rectangular subsystems still require compatible square extensions.
 
+The [balanced spin module](parity_balancing_spin44.md) gives M(3,3,8)
+from A(4,4) and M(3,3,32) from A(8,8), using four parity sectors of a
+single nine-dimensional first map. The full maps are exact and leave
+five removable channels before trimming to 27. A different
+[four-vertex construction](parity_structure_spin_four_columns.md)
+gives the complete M(3,7,27) tensor, but its first response rank 576
+prevents retaining those other-leg maps in an ordinary extension with
+first dimension greater than 405.
+
+The [Laurent endpoint repair](parity_structure_spin_w34_laurent.md)
+preserves M(3,3,27) for every nonzero parameter and supplies a complete
+M(3,4,2) attachment sharing six third-leg variables with the core.
+Every Laurent coefficient is checked, including negative powers and
+unwanted target entries. The separate
+[core-freedom classification](parity_balancing_spin_w34_freedoms.md)
+gives an 891-parameter ordinary family and its scoped endpoint
+limitation. These are exact partial constructions and fixed-family
+results; none supplies a better square exponent.
+
 The [four-chain spin construction](parity_structure_spin_w34.md)
 gives a different exact M(3,3,28) module. After one channel is deleted,
 its boundary supports [eight simultaneous new vertices](spin_channel_extension.md)

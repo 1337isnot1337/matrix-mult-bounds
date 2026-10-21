@@ -1,15 +1,25 @@
 # Integrated research coordination
 
+The quantum worker's current question is
+`ai/2026-10-21-third-boundary-trap/QUESTION.md`. Full boundary first frames
+of effective dimensions12,12 are excluded at every order, including delayed
+and unequal first-growth orders, by a new third-block rank gap and the
+moving-boundary induction. PR49's complete second jets remain finite
+controls. For every ordinary first pair at these flags, the corrected
+projected third coefficient on K_inf must have first rank at most2.
+The next construction question concerns other first subspaces or leading
+flags; coordinate omissions alone do not settle the general question.
+
 The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
 order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
 family is retained; two third-coefficient rank covers force only common
 plane motion. Other mixed spaces and delayed first growth remain open.
 The full boundary-spanning 12-by-12 family stays with the quantum worker.
 
-The quantum worker now continues in
-`ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
-second-jet family and full coefficient witnesses are ready for higher-order
-lifting. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+The quantum worker previously constructed the complete172-parameter
+second-jet family in `ai/2026-10-21-corrected-prolongation/`. Its finite
+coefficient witnesses are retained; the full boundary-frame matrix target
+is excluded by the third-order boundary trap. PR47 merged at `fc8207e` with exact tested/merged tree equality;
 its task branches are removed. The new family has effective first ranks12
 on each side, outside the13-per-side hypothesis in PR48. No improving
 matrix tensor limit is constructed.
@@ -116,7 +126,12 @@ matches the tested head. The fully incorporated local and remote topic
 branches are removed. Further assembly work is on
 `research/spin-assembly-20261021`, based on that verified merge.
 Its exact packages through claim 113 pass 31 focused checks, including
-the complete rational maps and repository invariants.
+the complete rational maps and repository invariants. PR #54 is pushed
+at `1b94457`; all hosted checks pass, with 530 tests and three optional
+skips on Python 3.10. The next checkpoint incorporates main's
+third-boundary theorem at `18a06b3` together with claims 114 through 117.
+Its separate 36-test receipt pins the new maps, proofs, and repository
+integration. The newer packages are outside the earlier 530-test count.
 The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
 incorporated in main. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays
@@ -187,7 +202,15 @@ tensor glues M(3,3,27) to M(3,8,1) along three third-leg variables;
 all 237,897 target coefficients are checked. This is a partial tensor:
 each added vertex still lacks 26 channels. The agents are changing
 retained maps jointly and constructing Laurent cancellation to complete
-compatible channels. The dimension-774 alternative remains open.
+compatible channels. Claims 114 through 117 now preserve an exact
+891-parameter core-preserving family, a Laurent endpoint cancellation
+and two-channel attachment, a balanced M(3,3,32) module, and a complete
+M(3,7,27) construction. The last construction has first response rank
+576 and cannot retain its other-leg maps in an ordinary extension with
+first dimension greater than 405. The balanced module allows five
+channels to be removed before reaching 27, providing a different
+family of coupled changes. The full square and rectangular improving
+targets remain missing; the dimension-774 alternative remains open.
 Pure A22
 tensor powers cannot cross the current sixfold square-sum gate even by
 dimension, so recycling work requires a different source budget or a real
