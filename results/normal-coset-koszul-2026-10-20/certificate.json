@@ -1,0 +1,119 @@
+{
+  "claim": "AI-GROUP-NORMAL-KOSZUL-011",
+  "status": "proof-written-unreviewed",
+  "classical_bound": "2*border_rank >= 3*sum(k_i^2)-number_of_size_one_blocks",
+  "applications": {
+    "F8_squared_maximum_three": {
+      "blocks": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "algebra_dimension": 43,
+      "scalar_blocks": 0,
+      "matrix_format": [
+        129,
+        129
+      ],
+      "modulus": 101,
+      "rank_mod_prime": 129,
+      "proved_characteristic_zero_rank": 129,
+      "rank_one_contribution_at_most": 2,
+      "abelian_source_order": 64,
+      "source_Koszul_rank_at_most": 128,
+      "excluded": true
+    },
+    "F4_cubed_index_three_size_twelve": {
+      "blocks": [
+        4,
+        4,
+        4
+      ],
+      "algebra_dimension": 48,
+      "scalar_blocks": 0,
+      "matrix_format": [
+        144,
+        144
+      ],
+      "modulus": 101,
+      "rank_mod_prime": 144,
+      "proved_characteristic_zero_rank": 144,
+      "rank_one_contribution_at_most": 2,
+      "abelian_source_order": 64,
+      "source_Koszul_rank_at_most": 128,
+      "excluded": true
+    },
+    "C31_index_six_minimum_two": {
+      "blocks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "algebra_dimension": 24,
+      "scalar_blocks": 0,
+      "matrix_format": [
+        72,
+        72
+      ],
+      "modulus": 101,
+      "rank_mod_prime": 72,
+      "proved_characteristic_zero_rank": 72,
+      "rank_one_contribution_at_most": 2,
+      "abelian_source_order": 31,
+      "source_Koszul_rank_at_most": 62,
+      "excluded": true
+    }
+  },
+  "all_F8_seven_fiber_size_patterns": {
+    "family_patterns": 28,
+    "ordered_pattern_triples_checked": 21952,
+    "alignment": "Independently cyclically shift the first deficient fiber to scalar one.",
+    "minimum_Koszul_rank": 129,
+    "minimum_rank_by_count_of_one_point_families": {
+      "0": 129,
+      "1": 134,
+      "2": 149,
+      "3": 164
+    },
+    "minimum_witness_patterns": [
+      [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        2,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        2,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    ],
+    "abelian_source_Koszul_upper": 128,
+    "all_excluded": true
+  },
+  "scope": "Injective pair-map group construction with strict vertex potentials, restricted to identity-quotient fibers of an abelian normal subgroup. The F8 size-nineteen exclusion assumes every normal fiber has size at most three.",
+  "improves_omega": false
+}

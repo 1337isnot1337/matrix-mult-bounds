@@ -13,12 +13,14 @@ endpoint, nonmonic coefficient, source-construction, and rank-obstruction
 work. Checkpoint `eed3cbc` adds higher-rank Hankel obstructions and exact
 rational constructions, including main `2a7c503`. The subsequent verifier
 repair includes main `75bf6a3`: it removes an undeclared NumPy import and
-passes 344 tests with only the maintained dependencies available.
+passes 344 tests with only the maintained dependencies available. The current
+integration also includes main `fb280ab`, with 350 tests and all five
+archive replays passing in the same restricted dependency environment.
 All statements retain the evidence status in `claims.json`.
 
 The parity A(5,5) target M14 plus M4 is closed by a written obstruction
 that also covers singular degenerations. All ordinary square direct-sum
-targets that could pass the stated finite score are closed in source
+targets that could pass the stated finite score are closed in
 all 51 source formats of leg dimension below 784. Do not restart numerical
 searches in those excluded classes. A(7,8) to M25 plus M5 is a remaining
 ordinary square target at the first surviving source size; its maps are

@@ -1,0 +1,20 @@
+{
+  "topic_parent": "3e828098735f2315e7b11624fb75bfae629498dc",
+  "integrated_main": "fb280abeda88e93204cf354e4e17287cff401a5c",
+  "python": "3.12.14",
+  "environment": "python -S with only SymPy 1.14.0 and mpmath 1.3.0 on PYTHONPATH",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S -m unittest discover -s tests -v",
+    "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S tools/replay.py"
+  ],
+  "tests": 350,
+  "test_seconds": "167.494",
+  "tests_passed": true,
+  "archive_replays_passed": 5,
+  "logs": {
+    "integration-current-main-tests.txt": "488da4177fcf226957dc4f9e811af2b2b235d8a1e38a024e76b1b6f692eb57ad",
+    "integration-current-main-archive-replay.txt": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "new_exponent_established": false,
+  "independent_mathematical_review": false
+}
