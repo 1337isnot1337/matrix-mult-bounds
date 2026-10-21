@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The quantum worker now studies
+`ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
+two-parameter non-plane family exists at first ranks10,10. Its local
+rowspaces have rank14, its tensor has first rank12, and those spaces are
+complete mutual annihilators away from the origin. It is not the matrix
+target. The next question is a higher-rank completion or an obstruction
+that includes these moving flags, rather than another finite jet of the
+same low-rank family. PR58 merged at93b2223 with exact tested/merged tree
+equality and all current checks passing; its task branches are removed.
+
 The quantum worker's current question is
 `ai/2026-10-21-biform-third-core/QUESTION.md`. The complete normal third
 tensor has a biform syzygy core. Arbitrary boundary first pairs of
@@ -28,13 +38,16 @@ projected third coefficient on K_inf must have first rank at most2.
 The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
-The mixed-jet worker has now closed every maximal mixed first pair of
-quotient ranks 14 and 6, in either order, in
-`ai/2026-10-21-mixed-first-jets/pencil_frontier.md`. The necessary mixed
-rank sum is at most 19. Exact generic two-jets remain positive controls;
-rank divisibility and twelve cubic minors supply the later obstruction.
-Smaller or delayed first growth remains open. The full boundary-spanning
-12-by-12 family stays with the quantum worker.
+The mixed-jet worker continues in
+`ai/2026-10-21-invertible-five-frame/QUESTION.md`. The written five-frame
+proof excludes every compatible invertible mixed-line pair at these flags,
+including arbitrary boundary graphs and delayed unequal first orders.
+A finite rank-thirteen truncation has an exact cubic repair, but the
+output-growth obstruction prevents its use for the 110-dimensional target
+legs. Next examine rank-one mixed partner families and smaller first
+spaces. This is an unreviewed local exclusion; the exponent is unchanged.
+Boundary-frame biform work stays with the quantum worker.
+
 
 
 The quantum worker previously constructed the complete172-parameter

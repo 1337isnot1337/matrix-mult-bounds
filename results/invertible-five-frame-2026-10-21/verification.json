@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "tested_head": "c7190337dc9330979207fea96b356b22df309c03",
+  "python": "3.14",
+  "focused_tests": {
+    "tests_run": 4,
+    "passed": 4,
+    "seconds": 0.216
+  },
+  "constructor_reproduces_frozen_cubic_witness_byte_for_byte": true,
+  "full_suite": {
+    "tests_run": 546,
+    "passed": 543,
+    "skipped": 3,
+    "seconds": 402.599,
+    "skip_reason": "Two existing optional compression discovery controls need NumPy/SciPy; one optional unequal-objective discovery control needs NumPy."
+  },
+  "historical_archive_reports_passed": 5,
+  "independent_review": false,
+  "scope": "Exact annihilator and cubic-curve certificates, direct original-coordinate replay, regressions and archive replay. The separate all-order proof remains unreviewed; no exponent gain."
+}

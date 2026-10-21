@@ -1,5 +1,18 @@
 # Research status
 
+## Invertible mixed lines: all-order output-growth obstruction
+
+The new [five-frame proof](research/ai/2026-10-21-invertible-five-frame/proof.md)
+excludes every compatible invertible mixed-line first pair at the canonical
+flags, including arbitrary boundary graphs and delayed unequal orders.
+A rank-ten cross and exact five-dimensional annihilators force both output
+maps to have generic rank at most five. Claim
+`AI-INVERTIBLE-FIVE-FRAME-084` is written and unreviewed. Its separate cubic
+control passes complete source replay through degree three; it supplies
+no matrix target. The exponent remains 9/4. Rank-one mixed partners and
+other first spaces remain construction questions.
+
+
 Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
@@ -1065,6 +1078,30 @@ concurrent third-boundary proof at `1068ce9`, Section 5, independently
 proves a broader target-side third-rank ceiling; that overlap is credited
 in the pencil note.
 
+## Simultaneous mixed first projections
+
+[AI-BOTH-MIXED-FIRST-SPACES-082](research/ai/2026-10-21-both-mixed-first-spaces/proof.md)
+shows that when both mixed projections are nonzero, each must be a line,
+even with arbitrary boundary graph corrections. Rank-one lines have a
+unique partner relation and quotient ranks at most 7 each. Invertible
+mixed lines force quotient ranks exactly 1 each. The necessary sum in
+this case drops from 16 to **14**. Exact compatible 7-by-7 and 1-by-1
+first spaces are retained; their polynomial maps still have first rank 12.
+The invertible-line example leaves 72 normal directions before further
+lifting equations. This is a written, unreviewed local classification,
+not a matrix target or exponent improvement.
+
+## Invertible-line lifting equations
+
+[EXP-INVERTIBLE-LINE-LIFTS-083](research/ai/2026-10-21-invertible-line-lifts/calculation.md)
+reduces the selected invertible seed's normal dimension from 72 to 40
+using the target's zero projected third block. A specified 36-direction
+ansatz has sixteen exact quadratic conditions for second leading rows
+and third new rows. A retained compatible control has uncorrected first
+rank 13. Third leading rows and later coefficients remain to solve;
+these equations do not classify arbitrary corrections or construct the
+matrix target. The linear decomposition is not a nonlinear gauge reduction.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
@@ -1279,3 +1316,23 @@ The current retained counts are50 A89,3425 A810,994 A99. Its geometric argument
 is written and unreviewed; finite controls verify10544 splitting-type arithmetic
 cases,23402 Cech entries, and495 generic-matrix comparisons. No exponent gain
 or surviving target construction is established.
+
+The asymmetric SL2 continuation supplies exact rational A33 to M(5,5,3)
+maps, replayed on every original source term. Its pencil invariant excludes
+the remaining dimension-five SL2 vertex pattern for full M5, including its
+equivariant closure. A separate cubic cap excludes ordinary A33 to M6.
+These are small constructions and restricted obstructions, with no exponent
+improvement. See `research/ai/2026-10-21-asymmetric-sl2-seed/rectangular_exact.md`.
+
+The [integrable boundary shear](research/ai/2026-10-21-integrable-boundary-shears/proof.md)
+gives an exact two-parameter non-plane family at effective first ranks10,10.
+Both source rowspaces move, while the full112-by14-by14 contraction stays
+constant with first rank12. For every nonzero parameter pair the moving
+14-dimensional spaces are complete mutual annihilators on the fixed
+100-dimensional source kernel; exact polynomial chart minors prove this.
+The resulting degree-two maps satisfy all-order coefficient equations
+with zero source-row corrections. Their generic row ranks are14, so
+this family cannot reach the110-dimensional target legs. It establishes
+integrability of two additional normal directions, not an improving matrix
+limit. Higher-rank completions and the exponent goal remain open; the
+construction and completeness proof are written and unreviewed.
