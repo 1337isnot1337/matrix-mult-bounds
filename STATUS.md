@@ -1509,3 +1509,14 @@ placed in one principal isotropic polynomial ideal. The six-sector witness
 already uses low monomials outside that ideal. Mixed recursive flags and
 other moment mechanisms remain open. Both new claims have written proofs
 and same-session exact checks; external mathematical review is outstanding.
+
+## Integer canonical four-sector maps
+
+The [integer moment-flag certificate](research/ai/2026-10-21-canonical-moment-flags/README.md)
+gives C(5,10) degenerating to canonical T4 over every field, with all map
+entries of absolute value at most six. Independent source expansion checks
+all 400 coefficient positions: every negative power vanishes and exactly
+twenty target monomials remain. A separate JavaScript expansion agrees.
+This strengthens the earlier rational finite certificate; no unbounded
+family or smaller exponent follows. Claim `AI-CANONICAL-INTEGER-FLAGS-001`
+is written and externally unreviewed.
