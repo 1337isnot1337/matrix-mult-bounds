@@ -1,5 +1,15 @@
 # Research status
 
+## Four mixed five-space graph families
+
+The [graph-family proof](research/ai/2026-10-21-mixed-five-space-graphs/proof.md) excludes four specified
+nontrivial mixed rows at partner a=b=1, with arbitrary four-dimensional
+boundary parts. Exact quadratic-minor spans over Q force a stable-row
+kernel, and target-slice equations reduce its dimensions10->2->0. The
+modular calculation certifies rational rank and applies over C. Claim
+`AI-MIXED-FIVE-GRAPH-CONTROLS-090` is written and unreviewed. Fifteen
+parameterized graph charts still need analysis; the exponent remains9/4.
+
 ## Pure mixed five-spaces on the nonzero partner chart
 
 The [pure-row five-space proof](research/ai/2026-10-21-pure-mixed-five-spaces/proof.md)
