@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import sys
 import time
+from types import SimpleNamespace
 
 from source_data import group, subgroup_certificate, central_projection, SEVEN
 sys.path.insert(0, str(SEVEN/'imported'))
@@ -62,50 +63,7 @@ def lift_solver(G, Q, center, sets):
     return Cadical195(bootstrap_with=clauses), variables, active
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, required=True)
-    parser.add_argument('--seconds', type=float, default=300)
-    parser.add_argument('--first-projection', type=Path)
-    parser.add_argument('--lift-models', type=int, default=50)
-    parser.add_argument('--binary-filter', action='store_true')
-    parser.add_argument('--pair-capacity', action='store_true')
-    parser.add_argument('--inverse-capacity', action='store_true')
-    parser.add_argument('--shape', type=int, nargs=3, default=[13, 13, 15])
-    parser.add_argument('--control', action='store_true')
-    args = parser.parse_args()
-    G = group()
-    cert = subgroup_certificate(G)
-    Q = central_projection(G, cert)
-    binary_pairs = pair_classes(G, Q)
-    center = cert['center']
-    # The color encoding requires the table of Z to be bitwise xor.
-    if any(G['mul'][center[a]][center[b]] != center[a ^ b]
-           for a, b in product(range(4), repeat=2)):
-        raise ArithmeticError('central color coordinates are not xor')
-    if args.control:
-        root = Path(__file__).resolve().parents[3]
-        known = json.loads((root/'results/group-potentials-2026-10-20/'
-                            'sl2-5-control3-3-3.json').read_text())['witness']
-        sets = [[2*g for g in row] for row in known['sets']]
-        projected = [[Q['projection'][g] for g in row] for row in sets]
-        solver, bits, active = lift_solver(G, Q, center, projected)
-        assumptions = [v for row in active for v in row]
-        for f, row in enumerate(sets):
-            for i, g in enumerate(row):
-                c = next(c for c, z in enumerate(center)
-                         if G['mul'][z][Q['representatives'][projected[f][i]]] == g)
-                assumptions.extend(v if (c >> b) & 1 else -v
-                                   for b, v in enumerate(bits[f][i]))
-        if solver.solve(assumptions=assumptions) is not True:
-            raise ArithmeticError('lift encoding rejected a known exact witness')
-        receipt = {'known_lift_accepted': True,
-                   'integer_witness': verify_witness(G, sets, known['potentials'])}
-        solver.delete()
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(json.dumps(receipt, indent=2)+'\n')
-        print(json.dumps(receipt))
-        return
+def build_outer(G, Q, binary_pairs, args):
     pool = IDPool()
     members = [[pool.id(('point', f, q)) for q in range(60)] for f in range(3)]
     clauses = []
@@ -139,7 +97,8 @@ def main():
                         occurrences.append(both)
                 if len(occurrences) > 4:
                     clauses.extend(CardEnc.atmost(occurrences, 4, vpool=pool).clauses)
-    if args.inverse_capacity:
+    binary_bits = None
+    if args.inverse_capacity or args.native_binary:
         classes = sorted(set(binary_pairs.values()))
         owners = [{c: pool.id(('binary-owner', f, c)) for c in classes} for f in range(3)]
         for f in range(3):
@@ -147,7 +106,109 @@ def main():
                 clauses.append([-members[f][p], -members[f][q], owners[f][c]])
         for c in classes:
             clauses.append([-owners[f][c] for f in range(3)])
+        if args.native_binary:
+            binary_bits = [[pool.id(('direct-bit', f, p)) for p in range(60)] for f in range(3)]
+            colors = [{c: pool.id(('direct-owner-color', f, c)) for c in classes} for f in range(3)]
+            clauses.extend([[-row[0]] for row in binary_bits])
+            for f, h in combinations(range(3), 2):
+                for c in classes:
+                    guard = [-owners[f][c], -owners[h][c]]
+                    clauses.extend([guard+[colors[f][c], colors[h][c]],
+                                    guard+[-colors[f][c], -colors[h][c]]])
+            for f in range(3):
+                for (p, q), c in binary_pairs.items():
+                    variables = [binary_bits[f][p], binary_bits[f][q], colors[f][c]]
+                    for h in range(3):
+                        if h == f:
+                            continue
+                        guard = [-members[f][p], -members[f][q], -owners[h][c]]
+                        for values in product(range(2), repeat=3):
+                            if sum(values) % 2:
+                                clauses.append(guard+[v if not b else -v
+                                                       for v, b in zip(variables, values)])
     outer = Cadical195(bootstrap_with=clauses)
+    return outer, members, binary_bits
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--seconds', type=float, default=300)
+    parser.add_argument('--first-projection', type=Path)
+    parser.add_argument('--lift-models', type=int, default=50)
+    parser.add_argument('--binary-filter', action='store_true')
+    parser.add_argument('--pair-capacity', action='store_true')
+    parser.add_argument('--inverse-capacity', action='store_true')
+    parser.add_argument('--native-binary', action='store_true')
+    parser.add_argument('--shape', type=int, nargs=3, default=[13, 13, 15])
+    parser.add_argument('--control', action='store_true')
+    args = parser.parse_args()
+    G = group()
+    cert = subgroup_certificate(G)
+    Q = central_projection(G, cert)
+    binary_pairs = pair_classes(G, Q)
+    center = cert['center']
+    # The color encoding requires the table of Z to be bitwise xor.
+    if any(G['mul'][center[a]][center[b]] != center[a ^ b]
+           for a, b in product(range(4), repeat=2)):
+        raise ArithmeticError('central color coordinates are not xor')
+    if args.control:
+        root = Path(__file__).resolve().parents[3]
+        known = json.loads((root/'results/group-potentials-2026-10-20/'
+                            'sl2-5-control3-3-3.json').read_text())['witness']
+        sets = [[2*g for g in row] for row in known['sets']]
+        projected = [[Q['projection'][g] for g in row] for row in sets]
+        solver, bits, active = lift_solver(G, Q, center, projected)
+        assumptions = [v for row in active for v in row]
+        for f, row in enumerate(sets):
+            for i, g in enumerate(row):
+                c = next(c for c, z in enumerate(center)
+                         if G['mul'][z][Q['representatives'][projected[f][i]]] == g)
+                assumptions.extend(v if (c >> b) & 1 else -v
+                                   for b, v in enumerate(bits[f][i]))
+        if solver.solve(assumptions=assumptions) is not True:
+            raise ArithmeticError('lift encoding rejected a known exact witness')
+        receipt = {'known_lift_accepted': True,
+                   'integer_witness': verify_witness(G, sets, known['potentials'])}
+        solver.delete()
+        control_args = SimpleNamespace(shape=[3]*3, first_projection=None,
+            pair_capacity=True, inverse_capacity=True, native_binary=True)
+        outer, members, binary_bits = build_outer(G, Q, binary_pairs, control_args)
+        assumptions = [v if p in projected[f] else -v
+                       for f, row in enumerate(members) for p, v in enumerate(row)]
+        assumptions += [binary_bits[f][p] if g & 1 else -binary_bits[f][p]
+                        for f, row in enumerate(sets) for p, g in zip(projected[f], row)]
+        if not outer.solve(assumptions=assumptions):
+            raise ArithmeticError('projected encoding rejected the known witness')
+        outer.delete()
+        receipt['known_projection_accepted_with_all_pruning'] = True
+        q, r = sorted(set(binary_pairs.values()))[:2]
+        control_projection = [[0, q], [0, q], [0, r]]
+        control_args.shape = [2]*3
+        outer, members, binary_bits = build_outer(G, Q, binary_pairs, control_args)
+        fixed = [v if p in control_projection[f] else -v
+                 for f, row in enumerate(members) for p, v in enumerate(row)]
+        for choices in product(range(4), repeat=3):
+            lifted = [[0, G['mul'][center[c]][Q['representatives'][row[1]]]]
+                      for c, row in zip(choices, control_projection)]
+            try:
+                for f in range(3):
+                    pair_map(G, lifted[f], lifted[(f+1) % 3])
+                expected = True
+            except ValueError:
+                expected = False
+            assumptions = fixed+[binary_bits[f][row[1]] if lifted[f][1] & 1
+                                 else -binary_bits[f][row[1]]
+                                 for f, row in enumerate(control_projection)]
+            if outer.solve(assumptions=assumptions) != expected:
+                raise ArithmeticError('binary CNF disagrees with a small exact lift')
+        outer.delete()
+        receipt['binary_CNF_small_lifts_checked'] = 64
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(json.dumps(receipt, indent=2)+'\n')
+        print(json.dumps(receipt))
+        return
+    outer, members, binary_bits = build_outer(G, Q, binary_pairs, args)
     started = time.monotonic()
     deadline = started+args.seconds
     report = {'group': G['name'], 'shape': args.shape,
@@ -158,6 +219,7 @@ def main():
               'exact_binary_cuts': 0, 'binary_filter': args.binary_filter,
               'pair_capacity': args.pair_capacity,
               'inverse_capacity': args.inverse_capacity,
+              'native_binary': args.native_binary,
               'budget_skipped_projections': 0, 'status': 'running', 'witness': None,
               'scope': 'Discovery only. Untraced SAT cores and skipped projections are not exclusions.',
               'exponent_improvement': False}

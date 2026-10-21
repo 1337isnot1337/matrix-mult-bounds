@@ -66,6 +66,8 @@ integer verifier then accepts all 27 intended terms and its one killed
 extra term. Independently, all 64 central lifts of a small shared-involution
 configuration agree with the binary equations, including the impossible
 cases. Deliberately damaged capacity and parity certificates are rejected.
+The optional native binary CNF also agrees on those 64 lifts, and all
+projected pruning options together preserve the known positive control.
 
 The maintained all-power matrix-rank formula also gives no full-space Koszul
 obstruction for the selected (13,13,15) target: all 240 powers pass in each
@@ -92,6 +94,9 @@ python research/ai/2026-10-20-sl2-five-c2/projected_lifts.py --control \
 ```
 
 Use `--binary-filter --pair-capacity` for the strengthened projected search.
+Add `--inverse-capacity --native-binary` to encode the necessary inverse-class
+capacities and binary equations inside the outer solver before it chooses
+projected sets. Untraced outer UNSAT remains discovery output.
 The optional `--first-projection` file restricts the first leg and is not an
 exhaustive normalization. The output reports all limits and skips. A default
 shape is (13,13,15); other shapes require their own exact exponent comparison
