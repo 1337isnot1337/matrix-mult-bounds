@@ -484,6 +484,24 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-SUN-AUDIT-001",
+      "title": "Exact local audit and packetwise obstruction for a claimed external certificate",
+      "origin": "AI audit directed by repository owner of Zhi-Wei Sun arXiv:2610.13971v1",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-sun-audit/README.md",
+      "statement": "All256 normalized Walsh equations and the checked rational five-empty-module identities hold. Fifty literal scalar-normalization discrepancies among354 source support occurrences admit an explicit local repair. A specified packetwise chart interpretation has an ordinary M2/16 restriction, verified on all768 central coefficients across12 packets; a determinant-one16-by16 Koszul minor excludes its realization from an individual border-rank-five packet. Every full-space Koszul test necessarily passes for the proposed full2048-dimensional source by an exact unital commutative-algebra argument and target dimension bounds.",
+      "dependencies": [
+        "Sun Tensor Degenerations for Matrix Multiplication arXiv:2610.13971v1 Sections5-8 and AppendixA",
+        "Exact binary characters, full packet coefficient arrays and rational matrix elimination",
+        "Koszul rank monotonicity and explicit determinant-one minor",
+        "Exactness of the Koszul complex for commuting slices including the identity"
+      ],
+      "limitations": "The actual outer-row global three-factor maps have not been reconstructed. This audit proves neither the global claimed degeneration nor its nonexistence, and does not adopt a smaller exponent. The normalization error alone is locally repairable. Same-session checks are not independent external review or formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

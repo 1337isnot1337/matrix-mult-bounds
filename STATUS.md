@@ -4,6 +4,32 @@ Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
+## Audit of a separately claimed exponent improvement
+
+The [bounded Sun audit](research/ai/2026-10-21-sun-audit/README.md) checks
+parts of the external preprint arXiv:2610.13971v1. Its proposed
+`D16 tensor (14 CW3 + 6 CW2 + 7 W + 5 D4) -> M32` degeneration would imply
+`omega<=2.2`. The proposed complete
+three-factor Laurent map has not been reconstructed or verified here.
+
+Exact calculations find 50 normalization discrepancies among 354 literal
+support occurrences; a stated local scaling repairs all of them. All 256
+normalized Walsh equations and the checked five-empty-module identities
+hold. A particular packetwise reading of the chart pullback would require
+a border-rank-five source to contain `M2`; an explicit determinant-one
+Koszul minor gives border rank at least six and excludes that reading.
+The preprint's later assembly retains outer rows and additional records,
+so this packetwise obstruction is not presented as a refutation of its
+global claim. Standard full-space Koszul tests necessarily pass for the
+proposed global source and cannot resolve this gap. No external smaller
+exponent is adopted on the basis of this audit.
+
+Checkpoint `89c0287`, integrating main `8722b36`, passes all 385 local
+regression tests and all five archive replays. Every hosted check also
+passes at that commit. The [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint4-validation.json)
+records the exact tree, commands, environment, and log hashes. These checks
+do not change the mathematical review status of the research.
+
 ## Constructive continuation and source obstructions
 
 The continuation on `research/constructive-spectrum-20261020` records fourteen

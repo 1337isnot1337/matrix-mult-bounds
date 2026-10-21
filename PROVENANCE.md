@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+## Bounded audit of the Sun preprint
+
+`research/ai/2026-10-21-sun-audit/` attributes its external input to
+Zhi-Wei Sun, *Tensor Degenerations for Matrix Multiplication*,
+arXiv:2610.13971v1. It records the exact inspected version and separates
+the author's claimed global degeneration from locally replayed identities.
+The normalization repair, packetwise obstruction, and full-space Koszul
+screen limitation are deductions in this generating session. They neither
+establish the claimed smaller exponent nor refute arbitrary global maps.
+No historical priority, independent external review, or formalization is
+claimed for these local deductions.
+
 ## Unequal-source entropy continuation
 
 The files in `research/ai/2026-10-20-unequal-entropy/` extend the previously
