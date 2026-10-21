@@ -1052,6 +1052,19 @@ projected obstruction, and formal induction bounds both map ranks by 56.
 This is an unreviewed scoped proof; other mixed spaces and delayed growth
 remain open, and the exponent is unchanged.
 
+[AI-MIXED-PENCIL-FRONTIER-081](research/ai/2026-10-21-mixed-first-jets/pencil_frontier.md)
+extends this exclusion to **every** maximal mixed pair of quotient ranks
+14 and 6, in either order. Exact source symmetries reduce the pencils to
+two representatives. Target slice-rank divisibility bounds the generic
+projected third space by dimension two; twelve cubic minors force it to
+vanish and leave only plane motion. The necessary mixed first-rank sum
+therefore drops from 20 to **19**. If both mixed projections are nonzero,
+the block argument already gives sum at most 16. These are scoped,
+unreviewed obstruction results, with no change to the exponent. The
+concurrent third-boundary proof at `1068ce9`, Section 5, independently
+proves a broader target-side third-rank ceiling; that overlap is credited
+in the pencil note.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)

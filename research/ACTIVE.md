@@ -19,11 +19,14 @@ projected third coefficient on K_inf must have first rank at most2.
 The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
-The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
-order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
-family is retained; two third-coefficient rank covers force only common
-plane motion. Other mixed spaces and delayed first growth remain open.
-The full boundary-spanning 12-by-12 family stays with the quantum worker.
+The mixed-jet worker has now closed every maximal mixed first pair of
+quotient ranks 14 and 6, in either order, in
+`ai/2026-10-21-mixed-first-jets/pencil_frontier.md`. The necessary mixed
+rank sum is at most 19. Exact generic two-jets remain positive controls;
+rank divisibility and twelve cubic minors supply the later obstruction.
+Smaller or delayed first growth remains open. The full boundary-spanning
+12-by-12 family stays with the quantum worker.
+
 
 The quantum worker previously constructed the complete172-parameter
 second-jet family in `ai/2026-10-21-corrected-prolongation/`. Its finite
