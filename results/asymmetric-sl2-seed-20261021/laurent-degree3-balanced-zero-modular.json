@@ -1,0 +1,40 @@
+{
+  "status": "exact finite-field rejection test, not a positive identity certificate",
+  "input_sha256": "71aefd2fb4fcf7c409077084ad0b1d42b8f4c9a3aa292ef70f948e1c118df676",
+  "positive_control": {
+    "prime": 65519,
+    "field": "F_p[i], i^2=-1",
+    "map_degree": 1,
+    "original_source_terms_per_evaluation": 729,
+    "evaluation_points": 7,
+    "required_coefficient_mismatch_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "exact_supplied_maps_rejected": false,
+    "zero_result_would_not_certify_Q_i_identity": true
+  },
+  "candidate": {
+    "prime": 65519,
+    "field": "F_p[i], i^2=-1",
+    "map_degree": 3,
+    "original_source_terms_per_evaluation": 729,
+    "evaluation_points": 19,
+    "required_coefficient_mismatch_counts": {
+      "0": 10000,
+      "1": 10000,
+      "2": 10000,
+      "3": 10000,
+      "4": 10000,
+      "5": 10000,
+      "6": 10000,
+      "7": 10000,
+      "8": 10000,
+      "9": 10000
+    },
+    "exact_supplied_maps_rejected": true,
+    "zero_result_would_not_certify_Q_i_identity": true
+  }
+}

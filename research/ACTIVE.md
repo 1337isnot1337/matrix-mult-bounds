@@ -431,4 +431,6 @@ is complementary to 8e0a766, retaining distinct hypotheses.
 
 - Expanded ordinary single-target frontier:74 candidates remain through source size2000. The first two larger targets fail only the diagonal SL2 capacity ansatz. General maps and singular degenerations remain open. Numerical degree-two and zero-padded degree-three continuations are active, with all completed checkpoints labeled numerical.
 
-- Larger equivariant leads: representation capacity alone passes a bounded A(24,24) to M124 family, but all four physical-subset triples fail known or new ordinary obstructions. The new invariant-slice bound does not rule out singular degenerations. A larger bounded subset search remains in progress.
+- Larger equivariant leads: representation capacity alone passes a bounded A(24,24) to M124 family, but all four physical-subset triples fail known or new ordinary obstructions. The new invariant-slice bound does not rule out singular degenerations. The bounded a24..36 search is complete: all4070 capacity triples fail the prior shared-top obstruction or the new ordinary-only slice bound.
+
+- Laurent numerical work: raw degree-three continuation completed without an exact identity. A scale-normalized objective now removes Laurent-variable residual suppression; smoke and derivative checks are recorded, including a rejected ill-conditioned attempt. The stable-floor normalized search is in progress.
