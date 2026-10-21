@@ -679,3 +679,18 @@ constant-map screens, within the specified Cartan-intertwining class.
 M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
+
+## Continued finite-construction search
+
+The [higher-Hankel proof](research/ai/2026-10-20-hankel-segre/README.md)
+excludes ordinary A(5,6) restrictions to M16 plus M4, using higher secant
+geometry. Its finite frontier screens all square-sum partitions in 52 source
+formats through leg dimension 800. Singular degeneration remains open.
+
+The [unequal paired-source extension](research/ai/2026-10-20-unequal-paired/README.md)
+gives all first-leg Koszul ranks under its explicit hypotheses. Its selected
+120-dimensional first-leg target would imply an exponent near 2.2495306348
+if a degeneration were constructed. **No such construction is supplied.**
+The written proofs remain AI-derived and externally unreviewed; no smaller
+exponent is established. See the [sprint record](research/ai/2026-10-20-construction-sprint/README.md)
+for current questions and verification status.

@@ -1,0 +1,85 @@
+{
+  "scope": "finite exact arithmetic controls only; written proof is separate",
+  "prime": 101,
+  "hermite_intersections": {
+    "degree": 8,
+    "maximum_divisor_length": 3,
+    "points": [
+      0,
+      1,
+      2,
+      "infinity"
+    ],
+    "divisor_count": 35,
+    "ordered_intersection_checks": 1225
+  },
+  "support_union_controls": [
+    {
+      "a": 3,
+      "b": 4,
+      "rank_limit": 2,
+      "support_pairs_forced_above_rank_limit": 90
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "rank_limit": 3,
+      "support_pairs_forced_above_rank_limit": 380
+    }
+  ],
+  "coherent_source_controls": [
+    {
+      "a": 3,
+      "b": 4,
+      "divisor": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "symbol_rank": 2,
+      "source_slice_rank": 24,
+      "ab_times_symbol_rank": 24
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "divisor": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "symbol_rank": 2,
+      "source_slice_rank": 24,
+      "ab_times_symbol_rank": 24
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "divisor": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "symbol_rank": 2,
+      "source_slice_rank": 24,
+      "ab_times_symbol_rank": 24
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "divisor": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "symbol_rank": 3,
+      "source_slice_rank": 72,
+      "ab_times_symbol_rank": 72
+    }
+  ],
+  "new_exponent_established": false
+}
