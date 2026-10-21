@@ -1,5 +1,6 @@
 """Exact source and positive acceptance controls for SL(2,5) x C2."""
 import importlib.util
+import copy
 import json
 from pathlib import Path
 import unittest
@@ -49,6 +50,30 @@ class SL2FiveC2Tests(unittest.TestCase):
         expected = json.loads((ROOT/'results/sl2-seven-2026-10-20/source-certificate.json').read_text())
         expected.pop('conditional_exponent_gate')
         self.assertEqual(module.derive(), expected)
+
+    def test_projected_inverse_class_fibers(self):
+        G = source.group()
+        Q = source.central_projection(G, source.subgroup_certificate(G))
+        self.assertEqual(len(Q['representatives']), 60)
+        counts = {k: sum(len(v) == k for v in Q['inverse_class_lifts'].values())
+                  for k in (2, 4)}
+        self.assertEqual(counts, {2: 15, 4: 22})
+        self.assertEqual(sum(map(len, Q['inverse_class_lifts'].values())), 118)
+
+    def test_structured_parent_rejections_and_tamper_control(self):
+        spec = importlib.util.spec_from_file_location('five_structured_verify',
+            RESEARCH/'verify_structured.py')
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        report_path = ROOT/'results/sl2-five-c2-2026-10-20/structured-ten.json'
+        receipt = module.replay(report_path)
+        self.assertEqual(receipt['exact_integer_circuits_checked'], 1000)
+        cut_path = report_path.with_suffix('.cuts.jsonl')
+        first = json.loads(cut_path.read_text().splitlines()[0])
+        bad = copy.deepcopy(first)
+        bad['weights'][0] = -1
+        with self.assertRaisesRegex(ValueError, 'positive integer dependence'):
+            module.verify_record(source.group(), bad)
 
 
 if __name__ == '__main__':

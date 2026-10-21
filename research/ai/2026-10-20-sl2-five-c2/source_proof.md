@@ -47,3 +47,14 @@ concurrent implementation. A small known SL(2,5) control embeds with C2
 coordinate zero and checks acceptance in the product table. It does not
 establish the selected target or an asymptotic family. Timed-out search and
 untraced SAT outcomes are not nonexistence proofs.
+
+An additional encoding option works directly with the projected inverse
+classes in G/Z(G). Exact enumeration gives fifteen classes with two full
+inverse classes above them and twenty-two with four. For any projected class,
+each selected set that uses it must use at least one of those full classes.
+Different sets cannot use the same full class, by pair-map injectivity.
+Consequently a projected class with two lifts cannot be used by all three
+sets. Presence-pair clauses trigger 45 owner flags and fifteen capacity
+clauses express this consequence before individual central lifts are chosen.
+The four-lift projected classes receive no extra capacity clause. This is
+necessary pruning, not a complete lifting characterization for this group.

@@ -70,6 +70,23 @@ def source_certificate():
     return result
 
 
+def central_projection(G, certificate):
+    orbits = certificate['central_orbits']
+    projection = [None]*len(G['matrices'])
+    for i, orbit in enumerate(orbits):
+        for g in orbit:
+            projection[g] = i
+    representatives = [min(orbit) for orbit in orbits]
+    inverses = [projection[G['inv'][g]] for g in representatives]
+    fibers = {}
+    for g, image in enumerate(projection):
+        if image:
+            c = min(image, inverses[image])
+            fibers.setdefault(c, set()).add(min(g, G['inv'][g]))
+    return {'representatives': representatives, 'projection': projection,
+            'inverse': inverses, 'inverse_class_lifts': {c: sorted(v) for c, v in fibers.items()}}
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
