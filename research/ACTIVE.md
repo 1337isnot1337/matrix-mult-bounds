@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The quantum worker's current question is
+`ai/2026-10-21-biform-third-core/QUESTION.md`. The complete normal third
+tensor has a biform syzygy core. Arbitrary boundary first pairs of
+dimensions at least11,9 are excluded at every order by a sharp puncture
+lemma and conditioned obstruction certificate. The necessary ordinary
+first-rank sum is at most20; pure pairs12,8 and10,10 remain at that
+threshold. PR57 merged at eb97dbe with exact tested/merged tree equality;
+its completed local and remote branches are removed.
+
 The quantum worker now studies the question in
 `ai/2026-10-21-boundary-hyperplanes/QUESTION.md`. Arbitrary boundary first
 spans of dimensions at least11 on both sides are excluded at every order,

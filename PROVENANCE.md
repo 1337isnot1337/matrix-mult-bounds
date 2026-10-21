@@ -275,3 +275,12 @@ rank-one-free span and general compression lemma are written local work
 with no historical-priority claim. Exact same-session replay and CI do not
 provide independent mathematical review or formalization. No exponent below
 9/4 is established.
+
+The `2026-10-21-biform-third-core` continuation identifies an explicit
+polynomial-multiplication kernel, factors the complete prior third tensor,
+and derives new projection and conditioned-obstruction results. The dual
+rank-one chart was a discovery aid; the accepted identity checks every
+coefficient globally. Unique factorization and polynomial multiplication
+are standard. The explicit local basis identification, sharp controls and
+source application are same-session AI-derived written work, with no
+independent review, historical-priority claim or exponent improvement.

@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-10-21",
+  "python": "3.12.14",
+  "published_full_regression": {
+    "commit": "3647e0ba0230fd3aa395b19de019202fa74c3715",
+    "tree": "97791c90d5ffafa7db0a6e03b5c37e91136ace63",
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 558,
+    "seconds": 593.604,
+    "result": "passed"
+  },
+  "integration": {
+    "commit": "49510c0b73b9c0f66893007aa95c23b6e354db2e",
+    "main_commit": "93b22235135c5ff54b18b9b51424b4fd53e942b6",
+    "command": "python -m unittest discover -s tests -p test_biform_third_core.py -v",
+    "tests": 5,
+    "seconds": 20.5,
+    "result": "passed",
+    "scope": "New independent biform package only. The complete integrated suite has not been rerun."
+  },
+  "rectangular_focused": {
+    "command": "python -m unittest discover -s tests -p 'test_rectangular*.py' -v",
+    "tests": 28,
+    "result": "passed; included in the 558-test full regression"
+  },
+  "remote_ci": "Not triggered on research-branch pushes; no CI pass claimed.",
+  "proof_status": "Written and unreviewed. Computational tests are not an independent mathematical audit.",
+  "improves_omega": false
+}
