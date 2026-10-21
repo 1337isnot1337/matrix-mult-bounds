@@ -1,0 +1,24 @@
+{
+  "algorithm_attribution": "Fawzi et al., AlphaTensor, Nature (2022), rank 76 for 4 x 5 x 5 over the integers",
+  "catalog": "https://fmm.univ-lille.fr/4x5x5.html",
+  "conversion_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "conversion_commit": "b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+  "conversion_path": "schemes/known/alpha_tensor/4x5x5_m76_ZT.json",
+  "raw_file_sha256": "a30cba42724897b87e88951c962669d3885dab85e239ac557be1f1cbd07a62e1",
+  "retained_fields": [
+    "n",
+    "m",
+    "z2",
+    "u",
+    "v",
+    "w"
+  ],
+  "omitted_fields": [
+    "multiplications",
+    "elements"
+  ],
+  "omission_reason": "Human-readable formula strings are unnecessary; no source string is executed.",
+  "retained_factors_sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+  "upstream_license": "UPSTREAM_LICENSE.txt applies to the external conversion data; no project-wide license is selected or changed.",
+  "local_work": "Direct integer coefficient replay and exhaustive finite-field flat-incidence screen; no new matrix multiplication algorithm or exponent."
+}

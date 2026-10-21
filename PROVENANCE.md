@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+## Fixed external decomposition seed
+
+The rank-76 M(4,5,5) algorithm in the external-grid-seed package belongs
+to Fawzi et al. (2022). Its integer arrays come from Andrew Perminov's
+conversion, pinned by commit and file hash. The conversion data retain
+the upstream MIT notice; this does not select or change a project license.
+No formula string from the imported data is executed.
+
+The coefficient replay, exhaustive finite-field incidence enumeration,
+and scoped impossibility argument for one termwise grid assignment were
+developed locally. The unchanged-subset test uses the target-stabilizer
+nullcone viewpoint of Dumitriu et al., arXiv:2610.13905v1, Section 2.3.
+These checks neither improve the external algorithm nor exclude general
+maps from the paired source. They are same-session work without an
+independent mathematical review or a smaller exponent.
+
 ## Boundary extensions and balanced quantum supports
 
 The all-order boundary-column obstruction and the balanced-support
@@ -20,6 +36,12 @@ The sixteen Q64 pilot records retain failed coefficient fits and their
 explicit scalar costs. Their error-removal viewpoint credits
 Dumitriu et al., arXiv:2610.13905v1, Section 2.3. The particular three-level
 nilpotence control is derived directly from the stated weights.
+
+The mixed-middle strengthening uses a polynomial syzygy argument and the
+same saturated-slice dimension inequality. Its integer control uses a
+nonproduct middle space and verifies the full small tensor identity. The
+same-session proof audit is not an independent external review; the note
+explicitly leaves larger outer polynomial spaces outside its scope.
 
 ## Paired boundary budgets and kernel classifications
 

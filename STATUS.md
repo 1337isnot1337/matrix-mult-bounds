@@ -64,6 +64,13 @@ direction; a full next-size matrix extension needs at least `2k+1`.
 For Q(6,4), these numbers are one and nine. Changes to the old columns
 remain open and are being searched separately.
 
+The [mixed-middle extension](research/ai/2026-10-20-paired-construction/mixed_middle_boundary.md)
+proves the same leading rank lower bound of 35 when the seed's four middle
+polynomials can mix across the two-dimensional factor. A polynomial syzygy
+argument forces an injective projection, so changing only the new boundary
+columns still cannot supply the required nine-dimensional kernel. Outer
+polynomial spaces in P5 remain outside this argument.
+
 The [balanced-support lemma](research/ai/2026-10-21-nearfull-quantum/README.md)
 closes all diagonal Laurent weights for two specified regular quantum
 families, even followed by arbitrary further degenerations to their full
@@ -71,11 +78,21 @@ matrix targets. Exact rational marginal certificates and Koszul deficits
 supply its hypotheses. It does not exclude different leading families,
 auxiliary corrections, or the separate recovered integer construction.
 
-Checkpoint `9d5a222`, integrating main `d2ed2e9`, passes all 445 local
-regression tests in 266.914 seconds and all five archive replays on an
-isolated checkout. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint7-validation.json)
-records the exact tree and log hashes. The next integration incorporates
-main `63eecee`; this earlier test count does not describe that enlarged tree.
+Checkpoint `cfa12ba`, integrating main `63eecee`, passes all 467 local
+regression tests and all five archive replays on an isolated checkout.
+Site packages are disabled for these runs; maintained verification uses
+the declared dependencies. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint8-validation.json)
+records the exact tree and log hashes. All nine observed hosted checks,
+including CI, also pass. The next integration includes main `fc8207e`;
+this test count does not describe that enlarged tree.
+
+The [external rank-76 seed screen](research/ai/2026-10-21-external-grid-seed/README.md)
+replays all 10,000 coefficients of a known AlphaTensor M(4,5,5) algorithm.
+An exhaustive finite-field calculation excludes a termwise assignment of
+that fixed decomposition to the Q(6,4) evaluation grid in one specified
+leg alignment: nine rank-four groups can hold at most 72 of its 76 vectors.
+Different decompositions and general maps remain open. This is a failed
+reuse attempt, not a new multiplication algorithm or exponent.
 
 ## Audit of a separately claimed exponent improvement
 
@@ -1100,3 +1117,14 @@ slice ceiling 98. Leading output ranks below 110 remain open. Separately,
 in the specified two-layer family have saved minors giving ceiling 97 for
 regular full-output limits; pre-limit projections are outside that finite
 cover. The new proofs are written and unreviewed. None gives an exponent gain.
+
+The [second-jet spanning certificate](research/ai/2026-10-21-second-jet-rank-one/rank_one.md)
+sharpens PR45's bound37 to W2=W0 of dimension12 at its canonical leading
+flags. Twenty-six exact rank-two slices span the entire25-dimensional
+bilinear image. Including the complete second derivatives and row correction
+leaves every potential second target residue below the minimum matrix rank11.
+The actual bilinear first-jet product must therefore vanish. Its effective
+first-row rank sum is at most24, or20 after a mixed component. These proofs
+are written and unreviewed; higher-order lifting and the exponent goal remain
+open. Canonical extension data and their earlier classification retain PR45's
+credit.

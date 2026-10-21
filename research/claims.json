@@ -988,6 +988,44 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {"id": "AI-QUANTUM-SECOND-JET-NOGROWTH-001", "title": "Low-rank spanning forces the second partial saturated space to remain leading", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-second-jet-rank-one/rank_one.md", "section": "", "statement": "For the final rank-four canonical quantum flags and hypothetical100,110,110 matrix target, every compatible first jet and arbitrary second/higher jets satisfy W2=W1=W0 of dimension12. Twenty-six explicit rank-two slices span the full canonical25-dimensional bilinear image. Their restrictions plus the complete leading cross have matrix rank at most10, below target minimum11, forcing all second target residues and the actual doubly projected first-jet product to vanish.", "dependencies": ["AI-QUANTUM-EXTENSION-SPACES-075", "Exact rank-two factorizations and a nonzero25-by25 span minor", "Saturated-rowspace correction including both second derivatives"], "limitations": "Final canonical leading ranks and target dimension/minimum matrix rank are essential. Third and higher-order growth, changed flags and leading-rank-reducing projections remain open. No exponent improvement or independent review.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "AI-QUANTUM-FIRST-JET-RANK-GAP-002", "title": "Boundary and mixed effective first-jet rank sums", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-21-second-jet-rank-one/rank_deficit.md", "section": "", "statement": "At the canonical flags every target-compatible pair of outside-leading first-row spans has effective rank sum at most24 modulo the four-dimensional leading radical, or at most20 if either has a mixed component. If both spans contain the full canonical boundary spaces modulo the radical, every mixed component vanishes. The proof identifies both boundary/mixed blocks exactly as12,12,4 matrix tensors and uses the vanishing bilinear first-jet product.", "dependencies": ["AI-QUANTUM-SECOND-JET-NOGROWTH-001", "Canonical PR45 extension basis", "Exact cross-block matrix-unit coefficient identities"], "limitations": "Necessary first-jet constraints, including arbitrary graphs between boundary and mixed parts. They do not construct or exclude every later lift. Canonical basis completeness is credited to PR45, not claimed anew.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {
+      "id": "EXP-EXTERNAL-GRID-SEED-013",
+      "title": "Exact replay and termwise-grid exclusion for a fixed external rank-76 seed",
+      "origin": "External factorization with an AI-derived finite screen in the owner-directed generating session",
+      "status": "finite-experiment-with-written-implication",
+      "evidence": "research/ai/2026-10-21-external-grid-seed/README.md",
+      "statement": "All 10000 coefficients of the pinned integer AlphaTensor M(4,5,5) rank-76 decomposition replay exactly. Exhaustive F_101 enumeration of all 1282975 four-subsets of its first-leg vectors bounds each complex rank-at-most-four group by eight vectors. In the specified target-leg alignment, the nine groups of a Q(6,4) evaluation grid hold at most 72 vectors, excluding termwise reuse of this fixed decomposition. Every nonempty unchanged subset also has positive target-stabilizer trace invariant and cannot degenerate to zero under that stabilizer.",
+      "dependencies": [
+        "Fawzi et al., Nature (2022), externally attributed rank-76 algorithm catalogued by Lille",
+        "Integer conversion pinned at dronperminov/FastMatrixMultiplication commit b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+        "Polynomial interpolation on the two source convolution factors",
+        "Exact finite-field elimination and reduction of integer minors",
+        "Dumitriu et al., arXiv:2610.13905v1, Section 2.3 for the external stabilizer-nullcone method"
+      ],
+      "limitations": "Only a termwise assignment of the fixed 76-term decomposition with its 25-dimensional target leg on the first source leg. Other alignments, flips, different decompositions, non-termwise maps, and singular constructions remain open. The quick verifier checks the retained enumeration counters and exact controls; the separate C99 program reproduces the exhaustive enumeration. No new multiplication algorithm, independent review, or improved exponent.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-MIXED-MIDDLE-BOUNDARY-014",
+      "title": "Mixed middle modules retain the embedded paired-seed boundary obstruction",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/mixed_middle_boundary.md",
+      "statement": "Over any field, four-dimensional U,V in P4, two-dimensional W in P3 and four-dimensional H in P3 tensor W with both stated multiplication isomorphisms give an exact M4 restriction. For the Q64 extension retaining their old columns and arbitrary new boundary images in the old outputs, the pre-A rank is at least 35. This excludes regular-long-map, arbitrary-Laurent-A extensions to M(5,4,5) in that chart.",
+      "dependencies": [
+        "THM-PAIRED-BOUNDARY-CHART-010 and its saturated-slice dimension inequality",
+        "A degree-two polynomial-matrix syzygy and the codimension-one outer spaces",
+        "An exact nonproduct-middle control checking all 4096 coefficients and a determinant-minus-one projected rank minor"
+      ],
+      "limitations": "Old degree-seven convolution columns are fixed. U,V in P5, other leading maps and arbitrary degenerations remain open. Integer finite controls and a same-session agent audit are not independent review. No smaller exponent follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }
