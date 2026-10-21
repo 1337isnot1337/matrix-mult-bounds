@@ -29,3 +29,8 @@ from central lifts, gives necessary binary equations for the two-class
 inverse fibers, and verifies 5,239 saved finite rejections. It also records
 the positive encoding control and the passing all-orientation Koszul screen.
 No projected run has produced a full lift or degeneration witness.
+
+The [saturated-fiber continuation](pair_saturation.md) derives parity
+conditions for both central bits. Two runs have 169 and 244 independently
+replayed cocycle contradictions, respectively; the second also has one
+untraced inner core. The source-to-target degeneration remains missing.
