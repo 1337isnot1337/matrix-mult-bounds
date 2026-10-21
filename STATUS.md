@@ -1,5 +1,17 @@
 # Research status
 
+## SL(2,F8) local packets and a conditional joint target
+
+The [torus packet proof](research/ai/2026-10-21-sl2-f8-ideals/torus_note.md)
+constructs local M(8,9,9) degenerations and gives full-coset exclusions
+using the classical smallest Ree-unital incidence. The proposed joint
+target of six balanced punctured packets plus M7 would imply omega<=2.24,
+with exact interval and necessary rank certificates. Its joint source map
+is missing. The [positive-marginal proof](research/ai/2026-10-21-sl2-f8-ideals/assembly_note.md)
+excludes an injective group-basis/diagonal assembly of that target.
+Claims021-023 are written and unreviewed or explicitly conditional.
+Arbitrary complex input maps remain open; omega remains9/4.
+
 ## Modular obstruction for small Heisenberg sources
 
 The [modular application](research/ai/2026-10-20-heisenberg-seven/modular_proof.md)

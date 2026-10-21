@@ -507,6 +507,16 @@ bounds; no equality, discovery of the general lemma or independent review
 is claimed. This closes the historical full-D18 pilot frame only within
 the coordinate/potential model and supplies further full-coset cuts.
 
+The cyclic-nine packet continuation credits Nagy's account of the classical
+smallest Ree unital (arXiv:2007.10464v3, Sections1-2). Exact group enumeration
+rebuilds the incidence used in the local tensor application. The puncture
+criterion, doubled-coset screens and dense positive-marginal proof are
+locally written, unreviewed work, with no priority claim. The conditional
+2.24 implication uses Schonhage's asymptotic sum inequality, the existing
+Bini border bridge and the ordinary simultaneous group-algebra statement
+in Cohn--Kleinberg--Szegedy--Umans (2005), Theorem5.5. Local packets do not
+supply the missing joint degeneration or an exponent improvement.
+
 The full-space semisimple continuation imports the existing matrix Koszul
 formulas and proves the padding/direct-sum rank expression used in its
 finite frontiers. It does not claim a new general matrix-rank formula.
