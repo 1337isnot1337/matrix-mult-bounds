@@ -13,6 +13,13 @@ SPEC.loader.exec_module(verify)
 
 
 class MixedGraphTests(unittest.TestCase):
+    def test_sparse_source_action_matches_tensor_product(self):
+        sp = verify.sp
+        tensor = sp.SparseMatrix(98, 3, {(0, 0): 2, (48, 1): -3, (49, 2): 5, (81, 0): 7})
+        change = sp.SparseMatrix([[1, -2, 0], [3, 0, 4]])
+        expected = sp.kronecker_product(change.T, sp.eye(49))*tensor
+        self.assertEqual(verify.source_action(tensor, change), expected)
+
     def test_complete_source_and_certificate_replay(self):
         saved = ROOT / 'results/mixed-five-space-graphs-2026-10-21/report.json'
         self.assertEqual(verify.report(), json.loads(saved.read_text()))

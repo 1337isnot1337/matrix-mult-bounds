@@ -23,3 +23,14 @@ strata by a generic32-dimensional kernel without a separate proof.
 The present local exclusions do not construct a matrix multiplication
 algorithm. The exponent-improvement goal and the other workers' source
 construction and moving-boundary completion questions remain active.
+
+The concurrent constructive worker's checkpoint
+[d43dc4b](https://github.com/1337isnot1337/matrix-mult-bounds/tree/d43dc4b/research/ai/2026-10-21-asymmetric-sl2-seed)
+records a separate degree-two Laurent coefficient search for M(5,5,4),
+with reported relative coefficient error about0.00014936745 after its
+latest40-evaluation restart. The source note also records an exact modular
+rejection of the preceding dyadic checkpoint, with a positive M(5,5,3)
+control. These are the constructive worker's numerical and finite findings;
+the inspected note is credited without treating either checkpoint as an
+exact degeneration. This positive construction route remains distinct from
+the local A4 graph exclusions here.

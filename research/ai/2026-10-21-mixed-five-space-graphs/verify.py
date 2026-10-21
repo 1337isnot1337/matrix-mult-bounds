@@ -18,6 +18,20 @@ GRAPHS = ((1, 0, 0, 0, 0, 0), (0, 0, 0, 0, 0, 1), (1, 1, 1, 1, 1, 1), (2, -1, 1,
 PRIME = 32003
 
 
+def source_action(tensor, change):
+    """Apply a source basis map without constructing a dense Kronecker map."""
+    by_source = {}
+    for (old, new), value in change.todok().items():
+        by_source.setdefault(old, []).append((new, value))
+    entries = {}
+    for (i, j), value in tensor.todok().items():
+        old, slot = divmod(i, 49)
+        for new, scale in by_source.get(old, []):
+            key = (49*new+slot, j)
+            entries[key] = entries.get(key, 0)+scale*value
+    return sp.SparseMatrix(49*change.cols, tensor.cols, entries)
+
+
 def quadratic_span(matrix, witnesses):
     """Full modular row rank proves the rational quadrics span Sym^2."""
     n, rows = matrix.cols, matrix.rows//3
@@ -98,12 +112,17 @@ def source_data():
 @lru_cache(None)
 def graph_data(graph):
     psi, tensor, sources, plane, change = source_data()
-    shear = sp.SparseMatrix.eye(7)
-    for i, value in enumerate(graph):
-        shear[i, 6] = value
-    psi = sp.kronecker_product(shear.T, sp.SparseMatrix.eye(200))*psi
-    tensor = sp.kronecker_product(sp.SparseMatrix.eye(448), shear.T)*tensor
-    low = sp.kronecker_product(sources.T, sp.SparseMatrix.eye(49))*tensor
+    shifted_psi, shifted_tensor = psi.copy(), tensor.copy()
+    for (i, j), value in psi.todok().items():
+        column, row = divmod(i, 200)
+        if column < 6 and graph[column]:
+            shifted_psi[1200+row, j] += graph[column]*value
+    for (i, j), value in tensor.todok().items():
+        block, column = divmod(i, 7)
+        if column < 6 and graph[column]:
+            shifted_tensor[7*block+6, j] += graph[column]*value
+    psi, tensor = shifted_psi, shifted_tensor
+    low = source_action(tensor, sources)
     mixed = sp.MutableSparseMatrix.vstack(psi[1200:1400, :],
         low[[49*i+7*j+6 for i in range(16) for j in range(7)], :])
     kernel, free = normal.sparse_nullspace(mixed)
@@ -153,7 +172,7 @@ def graph_data(graph):
     remaining = q*parameters
     if third.matrix_rank(remaining) != parameters.cols:
         raise ArithmeticError('Projection has a nonzero coefficient kernel')
-    transformed = sp.kronecker_product(change.T, sp.SparseMatrix.eye(49))*tensor*quotient
+    transformed = source_action(tensor*quotient, change)
     return {'normal_free': free, 'quotient': quotient, 'basis': basis, 'stable': stable,
             'w_kernel': w_kernel, 'q_rounds': rounds, 'q_remaining': remaining,
             'third': transformed}
