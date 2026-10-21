@@ -157,6 +157,27 @@ occurrence clauses. These finite rejections are not a complete exclusion.
 The first run with those templates separately rejected 619 candidates by
 replayed circuits and supplied no pair-injective lift or tensor witness.
 
+## Selected direct-product group target
+
+The [SL(2,5) x C2 lane](research/ai/2026-10-20-sl2-five-c2/README.md)
+selects M(13,13,15). Exact rational central idempotents derive the first
+factor's degrees; the standard direct-product theorem repeats them twice.
+Integer root intervals give a conditional omega < 2247/1000 comparison, and
+the concurrent rank-locus screen requires 217<=240, so it does not exclude
+the target. **The target degeneration is unconstructed.**
+
+The adapter checks an order-48 subgroup and 60 center orbits, applies the
+central-pair exclusions and reuses the pinned integer acceptance verifier.
+Six controls check the source, projection, an embedded positive weighted
+control, the unchanged SL(2,7) certificate and exact finite rejection replay.
+The two initial 600-second target searches, with and without projected
+inverse-class capacities, ended without a pair-injective model. These
+timeouts exclude nothing. A separate structured-parent enumeration rejects
+all 1,000 explicitly generated ten-point section triples by independently
+replayed positive integer Farkas circuits; its finite scope is documented in
+the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
+The larger target remains open.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)
