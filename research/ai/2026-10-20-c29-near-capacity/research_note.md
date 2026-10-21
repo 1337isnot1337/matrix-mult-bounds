@@ -4,6 +4,10 @@ Date: October 20, 2026. AI-derived work directed by the repository owner.
 Claims AI-GROUP-C29-SUM-008 and AI-GROUP-C29-TARGET-009 are written and
 unreviewed, with exact finite evidence. Neither improves the exponent.
 
+The [unequal-target followup](rectangular_note.md) now also excludes the two
+smaller frontier shapes in this same construction class. References below
+to remaining unequal shapes describe the scope of the original size-ten proof.
+
 ## 1. Construction class and conclusion
 
 Let G = F29 semidirect H, where H={1,12,28,17} is the order-four scalar

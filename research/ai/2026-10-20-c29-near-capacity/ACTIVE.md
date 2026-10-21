@@ -1,30 +1,22 @@
-# C29 near-capacity construction question
+# C29 one-source route checkpoint
 
-Source main: fc2eadb (refreshed after PR #24 and the SL2(7) merge). Branch: research/c29-near-capacity-20261020.
+Branch: research/c29-rectangular-20261020. Source main: 094fed4.
+PR #26 integrated the size-ten proof, and its branch was removed after
+verifying the exact merged tree. The present followup extends to unequal shapes.
 
-Question: classify three three-point subsets of C29 with an injective sum
-map, then use the exact classification before fitting a (10,10,10)
-coordinate-potential target in C29:C4.
+Current result: the injective-pair-map construction with strict vertex
+potentials cannot pass the usual C29:C4 one-source degree-sum gate at any
+positive exponent <=9/4. This written argument is unreviewed. General
+complex degenerations, extraction from powers, and a better source cost
+remain outside its scope. The arithmetic exponent has not improved.
 
-Reason: the abelian-coset bound forces every normal fiber of such a target
-to have at most three points. Each family has either sizes (3,3,2,2) or
-(3,3,3,1). Its largest normal-fiber triples therefore sum injectively to
-27 of 29 elements. This near-capacity condition may sharply restrict their
-directions before offset discovery.
+Evidence: rectangular_note.md, source_frontier.py, fiber_frontier.py,
+rectangular_gluing.py, and results/c29-near-capacity-2026-10-20/.
+All 512 sorted shapes are screened. The only three rank-locus survivors
+are (9,9,11), (9,10,10), and (10,10,10); all three now fail within the
+stated construction class. Unequal cases cover 48+392 local configurations.
+The four focused rectangular tests passed with complete frontier replay.
 
-An exploratory computation found five first-set affine templates and six
-ordered normalized sum triples, all arithmetic progressions. Rebuild this
-with a separate exhaustive checker before using it as a claim.
-
-No exponent improvement or group-level construction is established.
-Separate PR #24 records the fixed-base F8 single-plane experiment; other
-workers own the cyclic-source and SL2(7) investigations.
-
-Completed: independent normal classification agrees; all six size-ten
-bases leave twelve local configurations and all fail identity gluing.
-The separate affine-system solver also rejects all twelve. Written proof
-and reports are in this package. General degeneration remains open.
-
-Next construction question: the exact degree-sum and rank-locus frontier
-for source C29:C4 leaves (9,9,11), (9,10,10), and (10,10,10). Only the last
-is closed in the stated coordinate-potential class by this package.
+Next distinct construction route: leave this source and construction class.
+A separate abelian-normal-coset Koszul proof is being prepared for the F8
+variable-plane family; do not repeat that search without inspecting its status.
