@@ -499,3 +499,12 @@ The complete a24..36 physical-subset search finds4070 capacity triples;1211 fail
 A Laurent-variable scaling freedom was identified in the numerical objective. The new optional scale-normalized objective includes the analytic derivative of its unique coefficient-norm balancing scale and the matching adjoint. Two unit tests and a one-evaluation smoke check pass; the latter has directional error1.10e-8. This removes one residual-suppression gauge, not all numerical uncertainty. The normalized seed and reports are saved. The preceding unnormalized degree-three run finishes40 evaluations in3712.806 seconds with raw joint residual2.5166378098551043e-5; its supplied coefficients fail the exact modular gate.
 
 The unchanged default solver path also passes a one-evaluation derivative/adjoint regression smoke test. A normalized attempt with floor1e-12 failed the unchanged directional gate and stopped before optimization; its failure record is retained. The new attempt uses the previously tested1e-10 floor rather than relaxing validation.
+
+The `2026-10-21-mixed-axis-incidence` package closes the uniform axis
+family left by claim091. Its auxiliary projection and polynomial relation
+certificate were developed in this repository. Singular syzygies supplied
+a discovery basis; maintained acceptance reconstructs source coefficients
+and verifies polynomial identities and minors with SymPy alone. The
+canonical source, target rank gap and shifted induction retain their prior
+credits. This is a same-session written proof and exact replay, without
+independent review, historical-priority claim or exponent improvement.
