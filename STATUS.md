@@ -6,11 +6,83 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records forty-six local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-SCALAR-POWER-RECYCLING-097,
+The constructive continuation records fifty-six local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-CHANGED-CORNER-MODULE-107,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [spin-one module construction](research/ai/2026-10-20-anisotropic-constructions/spin_module14.md)
+now gives exact rational maps from A(4,8) to M(3,3,14) and from A(8,8)
+to M(3,3,28). Its nonproduct first map absorbs the earlier scalar
+correction into the larger source, with no extra scalar summand. All
+source and target coefficients are checked exactly. The first response
+is confined to 192 coordinates, leaving enough linear room for the
+unconstructed target M27 plus M6 plus M3. That target would imply
+omega below 2.24975; this is a conditional comparison, not a new bound.
+
+A separate [changed corner construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.md)
+gives M(4,4,12) with exact response rank 164 and fixed-first-map
+flattening rank 481. It passes two necessary tests for extending toward
+M27 plus M7. Its other square-matrix entries remain unconstructed.
+The original corner variant, with response rank 186, is also preserved.
+
+The [exact crossed-module construction](research/ai/2026-10-20-anisotropic-constructions/crossed_module11.md)
+gives a rational restriction from C(2,4) tensor C(2,8) to M(2,2,11).
+Its [full-source lifts](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_cross_module_lifts.md)
+give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22), with every desired
+and unwanted coefficient checked from the original source tensors.
+These improve the corresponding coordinate-module controls from eight
+and sixteen channels to eleven and twenty-two. The first target leg
+still has only sixteen directions; compatible square extensions are
+missing. Neither rectangular restriction establishes a smaller exponent.
+
+The [four-factor flattening proof](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_crossed_flattening.md)
+proves that eleven and twenty-two are optimal within the corresponding
+product first-map branch. It also excludes extending the old sixteen
+first images to M27, even with arbitrary other-leg maps. The
+[saved-seed response certificate](research/ai/2026-10-20-anisotropic-constructions/crossed_module_response.md)
+separately excludes retaining the old other-leg maps. The newer spin
+and corner constructions change the first core; these scoped
+obstructions do not rule them out.
+
+The [two-source capacity inequality](research/ai/2026-10-20-anisotropic-constructions/two_source_budget.md)
+requires equal source leg dimensions N at least ceil(3 n^2 / 4) for a
+direct sum of two sources to degenerate to M_n. Explicit complementary
+block-zero trace tensors attain this dimension threshold. Combining this
+necessary condition with the finite convolution budget first leaves
+2 A(11,12) to M62, which is unconstructed. The recorded ordinary
+majority-block factorization at that size is separately excluded.
+
+An [exact carry contradiction](research/ai/2026-10-20-anisotropic-constructions/bitwise_hankel_projection.md)
+closes one specified two-copy spin1 projection family. The completed
+[moving physical-compression experiment](research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression.md)
+retains all 1,210,000 target coefficients and explicit scale normalization.
+Its final normalized residual is about 5.4627, so it supplies no target
+identity or singular family. These records preserve exact controls and
+the actual limitations of the searches.
+
+The [new focused receipt](results/anisotropic-constructions-2026-10-20/crossed-module-focused-validation.json)
+pins the artifact hashes and includes concurrent main through `8a07bed`.
+It records 38 completed tests: 36 passed and two optional numerical
+controls skipped in the maintained environment. All four compression
+control tests pass separately with NumPy and SciPy available.
+The [complete regression receipt](results/anisotropic-constructions-2026-10-20/crossed-module-full-validation.json)
+pins checkpoint `1f813bb`: 496 tests completed, with 493 passed and
+three optional skips. All five [original archive replays](results/anisotropic-constructions-2026-10-20/crossed-module-archive-validation.json)
+passed unchanged. The later spin, corner, response and flattening
+packages have separate focused validation; they are not included in
+that 496-test count.
+Their [35-test focused receipt](results/anisotropic-constructions-2026-10-20/changed-core-focused-validation.json)
+checks all four new packages, main's mixed second-order family through
+`21f54c3`, and the repository ledger, sources, archives and links with no
+skips or failures.
+The [full spin-and-corner regression receipt](results/anisotropic-constructions-2026-10-20/spin-corner-full-validation.json)
+pins checkpoint `4ed2b52`: 513 tests completed, with 510 passed and
+three optional skips. The later integration of main's mixed third-order
+proof at `b113866` has a separate
+[27-test focused receipt](results/anisotropic-constructions-2026-10-20/spin-corner-main-integration-validation.json),
+with no skips or failures.
 
 The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
 now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
@@ -1050,6 +1122,35 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+## Source-weight windows and full original-source Laurent fibers
+
+Claims `AI-WEIGHT-WINDOWS-098` and `AI-ORIGINAL-JET-FIBERS-099` preserve
+two completed local packages. No exponent below 9/4 is established.
+
+Every ordinary A88 to M27 plus M7 restriction needs at least one
+matrix-unit image whose source weights span at least four. The exact
+width-three containing-space sequence is 960,948,906,844,622, contradicting
+the required 778 dimensions. Width four is a proved fixed point of this
+particular screen. An explicit slice over Q(phi), phi^2=phi+1, has rank 384
+although its middle homogeneous component has rank 512. It supplies one
+cancellation direction, not full target maps. See
+[the proof and exact acceptance certificate](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_weight_windows.md).
+
+The original-source Laurent construction has generically invertible
+960-by960 maps on all three legs, exact cancellation of every negative
+power, and 28,316 nonzero constant coefficients. A recorded coordinate
+projection is concise in format 936 by 936 by 935. However, 42 selected rows
+per leg cover the complete constant support, so its slice rank is at
+most 126. The intended M27 plus M7 target has slice rank 778. Consequently
+this limit cannot reach the target by restriction or further degeneration.
+The full source and other Laurent families remain open. See
+[the complete maps, fiber equations, and cover proof](research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers.md).
+
+The source-map, fiber-system, rank, coordinate-cover, and tamper checks
+pass in the same generating session. The proof status remains written
+and unreviewed externally. The next construction searches use moving
+physical compression spaces and the exact weight-mixing module equations.
 
 The [corrected prolongation family](research/ai/2026-10-21-corrected-prolongation/proof.md)
 constructs complete second jets with fixed boundary first frames. Exact

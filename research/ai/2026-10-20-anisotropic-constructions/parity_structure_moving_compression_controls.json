@@ -1,0 +1,80 @@
+{
+  "source_lengths": [
+    2,
+    3
+  ],
+  "target_vertices": [
+    2,
+    3,
+    2
+  ],
+  "complete_source_terms_checked": 216,
+  "complete_target_coefficients_checked": 144,
+  "complex_parameters": 346,
+  "gradient_checks_order": [
+    "fibers",
+    "moving_splittings",
+    "all_parameters"
+  ],
+  "gradient_checks": [
+    {
+      "mode": "raw",
+      "finite_difference": 0.0057524136530540115,
+      "analytic": 0.005752413651636032,
+      "relative_error": 1.4179794491364639e-12
+    },
+    {
+      "mode": "raw",
+      "finite_difference": -0.0017186544826186534,
+      "analytic": -0.0017186544855001184,
+      "relative_error": 2.8814650318564894e-12
+    },
+    {
+      "mode": "raw",
+      "finite_difference": 0.015701520209021602,
+      "analytic": 0.01570152020919959,
+      "relative_error": 1.7798609808217236e-13
+    },
+    {
+      "mode": "normalized",
+      "finite_difference": -0.0006163666070591045,
+      "analytic": -0.0006163667469184226,
+      "relative_error": 1.3985931813717545e-10
+    },
+    {
+      "mode": "normalized",
+      "finite_difference": -0.0029304869086921315,
+      "analytic": -0.0029304867249346327,
+      "relative_error": 1.8375749880061854e-10
+    },
+    {
+      "mode": "normalized",
+      "finite_difference": 0.008827663777050132,
+      "analytic": 0.008827663838051133,
+      "relative_error": 6.100100112538254e-11
+    }
+  ],
+  "full_source_coefficient_error": 2.0439331189964217e-15,
+  "positive_target_normalization_error": 2.2204535784193016e-16,
+  "known_M2_control_loss": 0.0,
+  "known_M2_control_gradient_norm": 0.0,
+  "normalized_objective_before_leg_update": 0.043938370002466275,
+  "normalized_objective_after_leg_update": 0.009221503564676705,
+  "normalized_leg_update_scale": [
+    1.0051607830670162,
+    0.0017940422761160751
+  ],
+  "normalized_leg_update_preserves_physical_splittings": true,
+  "pivot_rechart_coefficient_error": 2.6554716750552534e-16,
+  "top_block_relative_errors": [
+    1.71860461090642e-16,
+    1.5289552042516472e-16,
+    1.0735164725695101e-16
+  ],
+  "section_retraction_errors": [
+    5.207198371486182e-16,
+    2.6934378061901207e-16,
+    5.174452019580045e-16
+  ],
+  "numerical_control_only": true
+}

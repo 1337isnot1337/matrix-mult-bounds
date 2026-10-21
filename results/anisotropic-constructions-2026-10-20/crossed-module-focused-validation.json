@@ -1,0 +1,235 @@
+{
+  "scope": "Focused exact module, source-cost, carry, compression, concurrent-main and repository checks; optional numerics are separately checked",
+  "baseline_commit": "5d5cc6d0d8dc15cb0025a978b451ff5fd3427174",
+  "integrated_main_commit": "8a07bed352c1da880f1526576728649d205ec530",
+  "started_utc": "2026-10-21T05:34:01.935758+00:00",
+  "finished_utc": "2026-10-21T05:34:13.635670+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S: unittest.TestSuite(defaultTestLoader.discover(tests, pattern) for each recorded pattern)",
+  "patterns": [
+    "test_crossed_module11.py",
+    "test_parity_balancing_cross_module_lifts.py",
+    "test_crossed_module9_control.py",
+    "test_two_source_budget.py",
+    "test_bitwise_hankel_projection.py",
+    "test_parity_structure_compression.py",
+    "test_corrected_prolongation.py",
+    "test_research.py"
+  ],
+  "tests_run": 38,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 2,
+  "success": true,
+  "log_path": "results/anisotropic-constructions-2026-10-20/crossed-module-focused-tests.txt",
+  "log_sha256": "958b21dc83c7cf2a0b85bfb9dc87587884f5c882ac98875f475a993efe412ff9",
+  "frozen_artifacts": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/crossed_module11.md",
+      "size": 8150,
+      "sha256": "ef4a69e018c518bac9ac654e29d0b081b19c8e1ef880f8263f368d33de174c03"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/crossed_module11.py",
+      "size": 10321,
+      "sha256": "291987e3014a69c28d1f1ffdd2157ec01fd052e9220ff89b75ee805fe36b6eda"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_cross_module_replay.py",
+      "size": 10587,
+      "sha256": "df576a9579de0e73eb273ae938e21154615dd508b4516bbe831b4fc19f05bafe"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_cross_module_lifts.md",
+      "size": 6494,
+      "sha256": "1a3d9a606d458609ae0f2a4b903fed35fe0cf3a376b4fedd4290e346b6d4e27b",
+      "integration_edit": "Add link to the preserved complete nine-channel rational control; no map bytes changed"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/two_source_budget.md",
+      "size": 10171,
+      "sha256": "088a969b5e5abaa79ddd603a718db4ea3f3298a50fe657abb1ddad7cb7c539cf"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/two_source_budget.py",
+      "size": 8934,
+      "sha256": "38756c3235615c24051c0d42cb0f1d9efa047d868f59139dd02992aa48157154"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/bitwise_hankel_projection.md",
+      "size": 4223,
+      "sha256": "ccdce0bf9b4a5e93840363f02aad46a1d65a867da211a6d4b87ba0c98e04e8ea"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/bitwise_hankel_projection.py",
+      "size": 9720,
+      "sha256": "36ac1d0ee3f0567debcf13e93f4dea315571807536c2d3234b4ad448bd7d86df"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/crossed-module11-witness.json",
+      "size": 48985,
+      "sha256": "164f4066029ab9d05894b6747c404a7786d83d432e6c651465467c7c032c2300"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/crossed-module11-certificate.json",
+      "size": 916,
+      "sha256": "49f8dc303d814a119afb2f8cc64179fac467a49a1017bc3412aa4b0da9641319"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_cross_module11_full_maps.json",
+      "size": 420242,
+      "sha256": "6514332a96b420e8da70b44122f5f977a4b7919ff7aabe5e7e544c21d554cd48"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_cross_module11_full_replay.json",
+      "size": 2657,
+      "sha256": "019e0a1602af9eddcf57fef2c7f32a39afba028931c90311b6823f5764690525"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_cross_module9_full_replay.json",
+      "size": 1551,
+      "sha256": "5579bfa9c3fc6d1af95c1d6213ccbb8a22f77d310e8b193f1ba11b1e4b8e5d11"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/two-source-budget.json",
+      "size": 683182,
+      "sha256": "e4d1d6458bdc40537dbd895dec85c3aabd64a4bb7bceb8504d194a57d9608745"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/bitwise-hankel-projection.json",
+      "size": 4554,
+      "sha256": "61ab077a56d7e552d62710fa6a8b163f98befa5a649f6fa3fd056f008d4ea433"
+    },
+    {
+      "path": "tests/test_crossed_module11.py",
+      "size": 1825,
+      "sha256": "8a62310ee53b3f8c35ba50c4f847d24c374f8ab8c803124070e75d55fe3da943"
+    },
+    {
+      "path": "tests/test_parity_balancing_cross_module_lifts.py",
+      "size": 2417,
+      "sha256": "ccb114578c92de143611bebb4fed9d4ebe38f19b858015ad11d6f343e2df8ccf"
+    },
+    {
+      "path": "tests/test_two_source_budget.py",
+      "size": 2215,
+      "sha256": "721bda6d33d702226e0f720aec1491e9d4aa78cc30199231349ec3e323e670c9"
+    },
+    {
+      "path": "tests/test_bitwise_hankel_projection.py",
+      "size": 1263,
+      "sha256": "21db2533e7f90d990c3ee1ab1f07a7aa6f94a5cb50741e2c17766425c23a306e"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression.py",
+      "size": 14734,
+      "sha256": "6ec5c76ba85f322638f049eaeb98993166d95098b69ba0bc4d024a1fe8ff2763"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression.md",
+      "size": 11310,
+      "sha256": "e8177da4406a5581c57898a674f630ae1bdd0e47096f646bb226cad2a9a380ad"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression_controls.json",
+      "size": 804,
+      "sha256": "0141e3801b37a5d7bd938f1fa057724195c549abd318b33b038f0c619f547b70"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression_a44_initial.json",
+      "size": 2233,
+      "sha256": "4d6c4affd740c7fd07a7f401e3ee34b856b8d16f4d30b91adeeff23e181ad21c"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression_a44_initial.npz",
+      "size": 25926,
+      "sha256": "ce62910b01072d6ab574a86d7df536536bb330daf117905aa693bd1b248a1d93"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression_a44_als.json",
+      "size": 3407,
+      "sha256": "c1069043912324938b08cfa658f0891cc7915962d2f62d3d06a1d1a40601327e"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression_a44_als.npz",
+      "size": 26086,
+      "sha256": "06e47f4f2d7538fc9982b77d95b037fbca0c3b91f9f4ed405ada7082f94d244c"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression.py",
+      "size": 26675,
+      "sha256": "601ad03e2a08c4c1b11596294ed797a64355209e02a4716cdbab3bb5e2527d3b"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_controls.json",
+      "size": 2194,
+      "sha256": "f1fb8cf1f89a340ec5c264368e44fb61fdbe7b904a425f7a4d4077e3fcd5ec6d"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_a44_first.json",
+      "size": 23672,
+      "sha256": "b873af2dbbcf737e3a380009eff1b74c3477078f312bb66cb3362d9e9410e675"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_a44_first.npz",
+      "size": 622065,
+      "sha256": "b577bd361f262d8d421b3705803996eb69eded7a6c3a4ffba6e8b51aaedb02bd"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_a44_normalized.json",
+      "size": 33313,
+      "sha256": "29acd3854052efa7ff4fc175ae90f871af177327bc4cab5eec28ccb0050ad189"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_a44_normalized.npz",
+      "size": 622380,
+      "sha256": "4f8df9bd69acec565b896c6c4f0ff4b4eb143bc5aa18e857f57285e8058a90c1"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_a44_projected.json",
+      "size": 44785,
+      "sha256": "ae54f76cd4cf442e41bcf1bb3139867e872a2380e7daadd5832fc6c3d0fb1e86"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_moving_compression_a44_projected.npz",
+      "size": 622267,
+      "sha256": "8d9775f73688a9162ea685cdffeea8785191580df61d633aa4cbe0fa2f4a33f6"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_compression_control.py",
+      "size": 2745,
+      "sha256": "9edf40751dc2153800ce811e63b7915c3bba806d2bd07f3970f9019d65707c0c"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_compression_control.json",
+      "size": 465,
+      "sha256": "143ad302457de521caf1348bd3ab3488248571b499c3bc246d052320ee6e80cd"
+    },
+    {
+      "path": "tests/test_parity_structure_compression.py",
+      "size": 2508,
+      "sha256": "650782471cd36cce3e81afa1d90b07eed54b826c42bbab451cbbe267d4126d68"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/crossed-module9-control.json",
+      "size": 63330,
+      "sha256": "1fd8b31cba351c54e490c04367277d4abab80e1e20f63dec64b9db5c2b40ab5d"
+    },
+    {
+      "path": "tests/test_crossed_module9_control.py",
+      "size": 1099,
+      "sha256": "44023b6a82670051fdf9115d0dd10bed52472e11908912728cc250d40b41bb34"
+    }
+  ],
+  "review_scope": "All construction and checks belong to one generating session; no external independent review or formalization.",
+  "optional_numerical_controls": {
+    "command": "python -m unittest discover -s tests -p test_parity_structure_compression.py -v",
+    "tests_run": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true,
+    "elapsed_seconds": 0.656,
+    "scope": "Positive exact control and small complete numerical gradient, normalization, leg-update and pivot-refresh controls; no replay of a target witness is claimed."
+  }
+}
