@@ -1,5 +1,17 @@
 # Research status
 
+## Uniform mixed-axis closure
+
+The [auxiliary-projection proof](research/ai/2026-10-21-mixed-axis-incidence/proof.md)
+closes the ten-dimensional family left by claim091, for every complex a
+and nonzero t at b=1. A polynomial rank13 minor remains nonzero over
+C(ell) at every parameter pair. Its two-dimensional relation space has
+only one rank-one direction; applying this to two identical blocks and
+then two cubic minors leaves only the four common-plane normals.
+Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
+this axis under the prior shifted induction; general mixed-row graphs
+remain open. The exponent remains9/4.
+
 ## Uniform mixed-axis reduction
 
 The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a
@@ -7,9 +19,9 @@ and nonzero t for the mixed row m+t*d0 at b=1. A rank minor t^18 and
 Laurent-unit certificates reduce the initial32 normals to four plane
 directions plus a necessary10-dimensional quotient family. Projection
 minors work uniformly through all exceptional a values. Claim
-`AI-MIXED-AXIS-REDUCTION-091` is written and unreviewed; the remaining
-family is unresolved, so this is not an axis exclusion. The exponent
-remains9/4.
+`AI-MIXED-AXIS-REDUCTION-091` is written and unreviewed; its reduction
+alone is not an axis exclusion. The subsequent claim092 above closes
+its remaining family. The exponent remains9/4.
 
 ## Four mixed five-space graph families
 
