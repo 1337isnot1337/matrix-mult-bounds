@@ -60,6 +60,25 @@ class UnequalPairedTests(unittest.TestCase):
         self.assertGreater(unchecked, v * y)
         self.assertEqual(module.coefficient_rank_mod2(*source, 1), v * y)
 
+    def test_universal_upper_bound_controls(self):
+        expected = json.loads((RESULTS / 'upper-bound-controls.json').read_text())
+        self.assertEqual(module.upper_bound_controls(), expected)
+        self.assertTrue(all(row['rank_mod2'] <= row['upper_bound']
+                            for row in expected['mod2_records']))
+        self.assertTrue(all(row['rank'] <= row['upper_bound']
+                            for row in expected['odd_prime_records']))
+        for source in [(2, 1, 3, 7), (4, 3, 6, 9), (10, 9, 12, 12)]:
+            for power in range(source[0] * source[2]):
+                self.assertEqual(module.source_rank(*source, power),
+                                 module.source_rank_upper(*source, power))
+
+    def test_edge_exclusion_on_other_leg(self):
+        expected = json.loads((RESULTS / 'edge-exclusion.json').read_text())
+        self.assertEqual(module.excluded_edge_certificate(), expected)
+        self.assertEqual(expected['gap'], 366737896009212)
+        self.assertTrue(expected['excluded_under_arbitrary_degeneration'])
+        self.assertFalse(expected['improves_omega'])
+
 
 if __name__ == '__main__':
     unittest.main()

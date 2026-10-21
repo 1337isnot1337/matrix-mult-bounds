@@ -36,6 +36,38 @@ explicit source hypotheses. A selected target of first-leg dimension 120
 passes those ranks and the finite exponent gate. Its numerical consequence
 remains conditional on maps that have not been constructed.
 
-Focused checks pass for both packages. Complete regression and archive replay
-will be recorded before the pull request is marked ready. The protected
-research archives are unchanged.
+At commit `b02aad1f865b7801e5b66554a41f9af346d8ae16`, all 305 regression
+tests pass. All five archive replays pass, with respective coverage 73,856
+profiles, 353,664 product-filtration cases, 12,976 binary words, 209,692
+ternary words, and 20,000 random cases. The protected research archives are
+unchanged. These are implementation and reproduction checks, not external
+mathematical review.
+
+## Second checkpoint
+
+The unequal-source Koszul polynomial remains an upper bound without the
+two equality-range hypotheses. The proof accounts for the extra spectral
+sequence rows and the possible third differential. Independent finite
+controls cover 303 characteristic-two maps and 12 odd-prime maps outside
+the equality range. On the other convolution input leg, the bound excludes
+`EPR2` tensor `C(25,29)` to `M(7,6,7)` under arbitrary degeneration.
+
+The explicit singular shared family for every even `m=2s` passes all moving
+shared catalecticant tests at the one-copy cost `B=N`. The exact finite
+replay checks 648 rational block ranks, 28 source support counts, and 12
+inverse coefficient identities. These shared maps do not by themselves
+construct a tensor degeneration.
+
+There is now a positive all-size construction for a specified projection:
+`C(s+1,N)` degenerates to the evaluation projection of `T_m` at `s+1`
+nodes. Polynomial residue levels give the exact identity
+`mapped_source = projected_target + epsilon * error`. Its coefficient
+replay at `m=4,6,8,10` checks 26,694 coefficients, including 4,345 required
+zeros at negative exponents. The full target still lacks `s-1` shared
+directions. In the proposed shared normalization, both nonshared maps
+cannot be regular; genuinely Laurent behavior is needed.
+
+The next construction question is how to lift the projected residue-level
+maps to all shared directions, allowing additional Laurent terms or source
+length `N+O(m)`. Such overhead would have asymptotic cost one. No lift has
+been supplied and no numerical residual is accepted as a certificate.

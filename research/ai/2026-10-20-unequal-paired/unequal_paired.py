@@ -1,6 +1,7 @@
-"""Exact first-leg Koszul ranks for unequal paired convolution sources.
+"""Exact first-leg Koszul ranks and universal unequal-source upper bounds.
 
-The proof requires a,c>=2, a<=b+1 and c<=d+1. Surviving matrix
+Equality requires a,c>=2, a<=b+1 and c<=d+1. The polynomial is an
+upper bound for all positive lengths with a,c>=2. Surviving matrix
 targets are necessary-test survivors, not constructed degenerations.
 """
 from collections import defaultdict
@@ -28,15 +29,35 @@ def validate_source(a, b, c, d):
         raise ValueError('the formula requires a,c>=2; a<=b+1; c<=d+1')
 
 
+def validate_positive_source(a, b, c, d):
+    if any(not isinstance(value, int) or value < 1 for value in (a, b, c, d)):
+        raise ValueError('source lengths must be positive integers')
+    if min(a, c) < 2:
+        raise ValueError('the polynomial bound requires a,c>=2')
+
+
 def source_format(a, b, c, d):
     return a * c, b * (c + d - 1), (a + b - 1) * d
 
 
 def source_rank(a, b, c, d, power):
     validate_source(a, b, c, d)
+    return source_rank_polynomial(a, b, c, d, power)
+
+
+def source_rank_polynomial(a, b, c, d, power):
+    """The universal polynomial upper bound, without dimension clamping."""
+    validate_positive_source(a, b, c, d)
     v, y, z = source_format(a, b, c, d)
     return (y * choose(v - 2, power) + z * choose(v - 2, power - 1)
             + 2 * (a - 1) * (c - 1) * choose(v - 3, power - 1))
+
+
+def source_rank_upper(a, b, c, d, power):
+    """Universal upper bound, also bounded by domain and codomain dimensions."""
+    polynomial = source_rank_polynomial(a, b, c, d, power)
+    v, y, z = source_format(a, b, c, d)
+    return min(polynomial, y * choose(v, power), z * choose(v, power + 1))
 
 
 def source_terms(a, b, c, d):
@@ -241,15 +262,70 @@ def coefficient_controls():
             'scope': 'Independent signed and characteristic-two coefficient-map controls.'}
 
 
+def upper_bound_controls():
+    """Independent coefficient ranks outside the equality hypotheses."""
+    records, odd_records = [], []
+    for a, b, c, d in product(range(2, 5), range(1, 5), range(2, 5), range(1, 5)):
+        if a <= b + 1 and c <= d + 1:
+            continue
+        powers = range(a * c) if max(a, c) <= 3 else range(4)
+        for power in powers:
+            observed = coefficient_rank_mod2(a, b, c, d, power)
+            bound = source_rank_upper(a, b, c, d, power)
+            if observed > bound:
+                raise ArithmeticError((a, b, c, d, power, observed, bound))
+            records.append({'source': [a, b, c, d], 'power': power,
+                            'rank_mod2': observed, 'upper_bound': bound})
+    for source in ((4, 1, 2, 2), (2, 2, 4, 1), (3, 1, 3, 1), (4, 2, 3, 1)):
+        for power in range(3):
+            observed = coefficient_rank_mod_prime(*source, power)
+            bound = source_rank_upper(*source, power)
+            if observed > bound:
+                raise ArithmeticError((source, power, observed, bound))
+            odd_records.append({'source': list(source), 'power': power,
+                                'prime': 65521, 'rank': observed,
+                                'upper_bound': bound})
+    return {'mod2_records': records, 'odd_prime_records': odd_records,
+            'improves_omega': False,
+            'scope': 'Independent controls outside the exact-rank parameter range.'}
+
+
+def excluded_edge_certificate():
+    """One exact universal-bound witness on the other convolution input leg."""
+    source, target = (2, 1, 25, 29), (7, 6, 7)
+    other_source, other_target = (2, 1, 29, 25), (6, 7, 7)
+    v, y, z = source_format(*other_source)
+    power = 22
+    bound = source_rank_upper(*other_source, power)
+    target_rank = matrix_reference.padded_matrix_rank(other_target, v, power)
+    if target_rank <= bound:
+        raise ArithmeticError('the proposed edge exclusion failed')
+    return {
+        'source': list(source), 'source_format': list(source_format(*source)),
+        'target': list(target), 'target_format': [49, 42, 42],
+        'source_leg': 'third', 'permutation': [2, 1, 0],
+        'reoriented_source': list(other_source),
+        'reoriented_source_format': [v, y, z],
+        'reoriented_target': list(other_target),
+        'power': power, 'source_rank_upper_bound': bound,
+        'target_rank': target_rank, 'gap': target_rank - bound,
+        'excluded_under_arbitrary_degeneration': True,
+        'improves_omega': False,
+        'proof_status': 'Written and unreviewed; exact integer obstruction.'}
+
+
 if __name__ == '__main__':
     import argparse
     import json
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--mode', choices=('controls', 'frontier', 'target'), required=True)
+    parser.add_argument('--mode', choices=('controls', 'frontier', 'target',
+                                          'upper-controls', 'edge-exclusion'), required=True)
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
     routines = {'controls': coefficient_controls, 'frontier': finite_frontier,
-                'target': selected_target_certificate}
+                'target': selected_target_certificate,
+                'upper-controls': upper_bound_controls,
+                'edge-exclusion': excluded_edge_certificate}
     report = routines[args.mode]()
     args.output.write_text(json.dumps(report, indent=2) + '\n')
     print(args.mode + ' exact certificate written; no exponent improvement is claimed.')

@@ -6,7 +6,8 @@ No matrix degeneration or exponent below 9/4 is constructed here.
 This extends the earlier equal-source [Koszul formula](../2026-10-20-paired-sources/all_koszul.md)
 to two different convolution factors. The cohomological method and the equal-source
 argument are adopted from that package. The new content is the unequal formula,
-its precise parameter range, and a smaller finite construction target.
+its precise equality range, a universal upper bound, and a smaller finite
+construction target.
 
 ## 1. Source and rank formula
 
@@ -29,8 +30,9 @@ the exact rank over every field is
                    +2(a-1)(c-1) binom(v-3,s-1).             (1)
 
 Binomial coefficients outside their range are zero. At a=b=c=d this reduces
-to the earlier equal-source formula. The hypotheses are used in the proof;
-the program rejects inputs outside them.
+to the earlier equal-source formula. The hypotheses are used for equality;
+the exact-rank function rejects inputs outside them. The polynomial remains
+an upper bound without either range hypothesis, as proved below.
 
 ### Cohomological realization
 
@@ -104,6 +106,64 @@ Multiplying its alternating generating series by (1+z)^v gives
 
 Taking the coefficient of z^s proves (1). No maximal-rank assumption for
 an intermediate differential is used.
+
+### Universal upper bound outside the equality range
+
+For every positive a,b,c,d with a,c>=2, the right side of (1) is an upper
+bound for rank K_s over every field. It need not be the exact rank. The
+program also takes its minimum with the domain and codomain dimensions.
+
+To prove this, retain the same double complex and remove the two range
+hypotheses. The q=2 row is now supported at k<=-1, since the first degree
+of F+kL is nonnegative for k>=0. The q=0 row is supported at k>=2, since
+the second degree at k=1 is -d-1<=-2. Differentials d_r with r>=4 vanish,
+and d_3 can only go from position (-1,2) to position (2,0).
+
+Write T_k=E_2^(k,2), M_k=E_2^(k,1), B_k=E_2^(k,0). For k<=-3, the map
+
+    d_2:T_k -> M_(k+2)
+
+is an isomorphism: neither its kernel nor its cokernel can participate in
+another differential, and total cohomology vanishes. The chain
+
+    T_(-2) -> M_0 -> B_2
+
+is injective at its first term and exact at its middle term for the same
+reason. Thus dim M_0 - dim T_(-2) is rank(d_2:M_0->B_2).
+
+The truncated Euler calculation that led to (2) remains valid as an Euler
+expression, even when it is no longer the rank. Its value is
+
+    rank K_s + sum_(k<=0) (-1)^k dim M_k
+                     -sum_(k<=-1) (-1)^k dim T_k.
+
+The isomorphisms at k<=-3 cancel paired terms. The remaining expression is
+
+    rank K_s + rank(d_2:M_0->B_2) + dim T_(-1).          (4)
+
+Both correction terms are nonnegative. The same generating-series
+calculation gives the right side of (1), proving the bound. Under the
+original hypotheses T_(-1) and B_2 vanish, recovering equality. This also
+explains why extending equality beyond that range was invalid: for example,
+Q(4,1;2,2) at s=1 has rank 24 and polynomial value 32.
+
+### An edge-source candidate excluded on its other input leg
+
+The edge source Q(2,1;25,29)=EPR_2 tensor C(25,29), with dimensions
+(50,53,58), initially passes every first-leg comparison for M(7,6,7).
+However, permuting the legs (X,Y,Z) to (Z,Y,X) gives source Q(2,1;29,25)
+and target M(6,7,7), whose first-leg dimensions are 58 and 42.
+
+At s=22 the universal bound and padded matrix formula give
+
+    source rank <= 228031988498086500,
+    target rank  = 228398726394095712.
+
+The positive gap 366737896009212 excludes this candidate under arbitrary
+tensor degeneration. This comparison uses the upper bound, since c=29 and
+d=25 violate the equality condition c<=d+1. It closes the candidate rather
+than furnishing a matrix multiplication improvement. The exact certificate
+is preserved in `edge-exclusion.json`.
 
 ## 2. A finite unequal-source target
 
@@ -195,6 +255,8 @@ dimensions are not claimed as covered by this frontier.
 python research/ai/2026-10-20-unequal-paired/unequal_paired.py --mode controls --output /tmp/unequal-controls.json
 python research/ai/2026-10-20-unequal-paired/unequal_paired.py --mode frontier --output /tmp/unequal-frontier.json
 python research/ai/2026-10-20-unequal-paired/unequal_paired.py --mode target --output /tmp/unequal-target.json
+python research/ai/2026-10-20-unequal-paired/unequal_paired.py --mode upper-controls --output /tmp/unequal-upper-controls.json
+python research/ai/2026-10-20-unequal-paired/unequal_paired.py --mode edge-exclusion --output /tmp/unequal-edge-exclusion.json
 python -m unittest discover -s tests -p test_unequal_paired.py -v
 ```
 
@@ -203,4 +265,6 @@ maps over F_65521 independently of formula (1). Tests replay the full stated
 frontier, check the selected 120 ranks and exact exponent comparison, and
 check the equal-source specialization and parameter guard. Finite controls
 support implementation validation; the written argument supplies the general
-formula. No independent mathematical review or formalization is claimed.
+formula. Separate coefficient controls outside the equality hypotheses
+validate the universal-bound implementation. No independent mathematical
+review or formalization is claimed.

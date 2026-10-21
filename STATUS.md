@@ -694,3 +694,17 @@ if a degeneration were constructed. **No such construction is supplied.**
 The written proofs remain AI-derived and externally unreviewed; no smaller
 exponent is established. See the [sprint record](research/ai/2026-10-20-construction-sprint/README.md)
 for current questions and verification status.
+
+The unequal-source polynomial now has a universal upper-bound proof outside
+its equality range. Applied on the other input leg, it excludes the proposed
+`EPR2` tensor `C(25,29)` to `M(7,6,7)` degeneration by an exact positive
+Koszul-rank gap. This closes a candidate; it does not lower the exponent.
+
+The [singular shared-map family](research/ai/2026-10-20-singular-shared-normalization/README.md)
+passes every transported shared catalecticant test for one copy of the
+canonical fat-point target at source length `N=m(m+1)/2`. An explicit
+[all-size construction of its projection](research/ai/2026-10-20-singular-shared-normalization/projected_construction.md)
+uses polynomial residue levels and has a complete coefficient identity.
+Exact replays at `m=4,6,8,10` check 26,694 coefficients. The projection loses
+`m/2-1` shared directions; recovering those directions with Laurent maps
+remains open. Neither result constructs the full target or improves omega.
