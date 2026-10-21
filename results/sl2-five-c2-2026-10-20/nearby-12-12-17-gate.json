@@ -1,0 +1,82 @@
+{
+  "shape": [
+    12,
+    12,
+    17
+  ],
+  "gate": {
+    "shape": [
+      12,
+      12,
+      17
+    ],
+    "tau": "2247/1000",
+    "scale": 10000000000,
+    "source_term_upper_numerators": [
+      10000000001,
+      47469471907,
+      47469471907,
+      118056922903,
+      118056922903,
+      225335076306,
+      225335076306,
+      372036542596,
+      560409978508,
+      10000000001,
+      47469471907,
+      47469471907,
+      118056922903,
+      118056922903,
+      225335076306,
+      225335076306,
+      372036542596,
+      560409978508
+    ],
+    "source_upper_numerator": 3448338926674,
+    "target_lower_numerator": 3453184228281,
+    "strict_positive_margin_numerator": 4845301607,
+    "meaning": "Conditional comparison only. No degeneration supplied."
+  },
+  "rank_locus_screen": {
+    "shape": [
+      12,
+      12,
+      17
+    ],
+    "source_dimension": 240,
+    "largest_target_input": 204,
+    "target_minimum_nonzero_slice_rank": 12,
+    "low_rank_locus": {
+      "rank_budget": 11,
+      "dimension": 20,
+      "block_ranks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "actual_regular_rank": 11
+    },
+    "source_dimension_required": 224,
+    "dimension_deficit": -16,
+    "excluded": false,
+    "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+    "proof_status": "written proof; unreviewed; not Lean formalized",
+    "improves_omega": false
+  },
+  "degeneration_constructed": false
+}
