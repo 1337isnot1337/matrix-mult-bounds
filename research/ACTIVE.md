@@ -25,6 +25,13 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
+`ai/2026-10-21-mixed-exceptional-affine/QUESTION.md`. A new affine family
+has at least38 normal directions, exactly38 generically. Its base graph
+is fully excluded after recomputing all38 directions. The rest of the
+family and exceptional affine four-planes remain open. Claim095 records
+polynomial family identities separately from finite discovery grids.
+
+The mixed-frame worker now studies
 `ai/2026-10-21-generic-mixed-graphs/QUESTION.md`. Two fourteen-variable
 normal blocks have exact quartic-spanning certificates at a rational
 point. Their symbolic source partition and fixed56-equation normal chart
