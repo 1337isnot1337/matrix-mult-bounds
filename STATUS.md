@@ -107,6 +107,19 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## Every graph on the full normalized partner line
+
+The [full-line proof](research/ai/2026-10-21-full-partner-line/proof.md)
+closes every complex a on b=1 for the canonical full-B seven-frame against
+an arbitrary mixed C five-space. Seventy-nine verified maximal minors
+leave only a=0 and a^3=1 as candidates. A checked original-source phase
+automorphism covers the cube roots of one, and a complete rational source
+replay closes0. Only the four common planes remain, for every graph and
+boundary four-space. The adopted induction excludes M(10,10,11) with
+arbitrary later maps; the torus extends to every b nonzero. Claim
+`AI-FULL-PARTNER-LINE-099` is written and unreviewed. The b=0 boundary and
+other first-space/flag classes remain open; the exponent remains9/4.
+
 ## Every graph outside finitely many partner values
 
 The [generic-partner proof](research/ai/2026-10-21-generic-partner-all-graphs/proof.md)
@@ -116,7 +129,7 @@ exact source/cubic identities over Q(a), and79 rank guards leave only the
 four common planes. The adopted induction excludes M(10,10,11) there for
 arbitrary later maps; the torus extends to b nonzero with a/b in U.
 Claim `AI-GENERIC-PARTNER-ALL-GRAPHS-098` is written and unreviewed. The
-remaining partner values form a finite set which is not yet classified.
+finite candidates are subsequently covered by claim099 on all of b=1.
 This excludes every graph at a good partner, rather than only generic
 graphs. Other flags and sources remain open; the exponent remains9/4.
 
@@ -130,7 +143,8 @@ exhaustive four-branch split leave only the four common planes. The
 adopted shifted induction excludes M(10,10,11) for arbitrary later maps;
 the source torus extends this to a=b nonzero. Claim
 `AI-ALL-MIXED-GRAPHS-A1-097` is written and unreviewed. Claim098 now covers all but finitely many partner values on b=1;
-exceptional ratios and other flags remain open. The exponent remains9/4.
+claim099 closes the whole normalized partner line. Other boundaries and
+flags remain open. The exponent remains9/4.
 
 ## A uniform mixed-normal dichotomy
 

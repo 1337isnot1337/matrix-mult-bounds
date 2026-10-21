@@ -755,3 +755,14 @@ contains2 by exact replay; it is not inferred from a finite graph sample.
 This written exclusion has no independent mathematical review or exponent
 gain. The finite exceptional set is not asserted to equal the coefficient
 poles, and discovery phase symmetries retain their unaccepted status.
+
+## Complete normalized partner line
+
+The explicit79-minor cover, physical cube-root source automorphism and
+complete rational zero-partner fiber calculation were developed in this
+owner-directed session. The original canonical tensor, leading flags,
+maximal frames, generic source-stage argument and shifted induction retain
+their source credits. The phase acts on the original4096 terms and both
+physical frames; it is not inferred from a smaller projection rescaling.
+This written local exclusion has no independent review or exponent gain.
+The b=0 boundary and other first-space/flag classes are not covered here.
