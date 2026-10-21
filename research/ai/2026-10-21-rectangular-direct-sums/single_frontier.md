@@ -59,3 +59,22 @@ The former ordinary M30 target is now excluded in `two_ruling_cap.md`.
 Its earlier score comparison remains in `single_matrix_target.md` for
 provenance. No singular degeneration is excluded or constructed, and no
 conditional exponent comparison has been turned into an attained bound.
+
+## Extended scan through source size2000
+
+The maintained scan now covers110 source formats and5741 score-eligible
+sorted target shapes. Five additional top-Hankel cap certificates contain
+352716 coordinate minors; with the earlier sources, the complete cap
+replay checks427076 integer determinants. The large certificate arrays
+are losslessly gzip-compressed with deterministic timestamps.
+
+The arithmetic gates retain75 shapes. The subsequent written critical-
+state argument excludes the historical A(8,10) target, leaving74 ordinary
+candidates. The smallest new source is A(7,12), N=1512, with M(35,35,35).
+All records are in single-frontier-2000.json.gz, and the readable summary
+includes the uncompressed SHA256 and the74 remaining shapes. The scan
+and the new geometric disposition remain logically separate.
+
+The two focused frontier tests recompute the scan and replay every cap
+certificate; they pass in46.619 seconds. All general lemmas remain
+written and unreviewed. No candidate is a construction or exponent gain.

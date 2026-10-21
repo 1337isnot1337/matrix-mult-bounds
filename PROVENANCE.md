@@ -473,3 +473,9 @@ The immutable c14c058 snapshot passed all 667 tests in 1311.666 seconds; its rec
 The unregularized degree-two Laurent run completed40 evaluations in2116.855 seconds, joint residual6.318344877978216e-5. Its saved dyadic coefficients fail the exact modular gate; it remains numerical evidence only. A continuation from that checkpoint is running separately.
 
 The corollary in `critical_finite_states.md` applies to larger parameter blocks satisfying explicit dimension and source-lift inequalities. `critical_frontier.py` records62 additional two-block exclusions from the hash-identified752 historical survivors, leaving690 (602 at A(8,10),88 at A(9,9)). Historical scans are unchanged. The finite filter depends on the written, unreviewed geometric proof.
+
+## Extended frontier and numerical conditioning, October 21, 2026
+
+The source-size2000 scan checks5741 shapes in110 formats. Five new compressed Hankel certificates add352716 exact minor checks; the full427076 replay and scan tests pass. Seventy-four ordinary candidates remain after the separately written critical-state exclusion. Exact SL2 compatibility graphs exclude only the specified symmetry ansatz for the first two larger targets; they do not close those ordinary candidates.
+
+Target-vertex gauge balancing reduces the stored numerical coefficient norm while preserving the target tensor to floating precision. Its algebraic gauge identity is explained separately; residual norms are gauge-dependent. One optional NumPy test passes. A noisy degree-three restart was interrupted and replaced by zero padding; neither is an exact construction.

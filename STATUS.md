@@ -1,5 +1,9 @@
 # Research status
 
+## Expanded ordinary search
+
+The size2000 scan covers110 formats and5741 score-eligible single targets, with427076 exact Hankel minor checks. After the separately written critical-state obstruction,74 ordinary candidates remain. The first is A(7,12) to M(35,35,35). Two larger targets fail the diagonal SL2 matrix-vertex capacity test, but remain open without that symmetry restriction. See [the expanded frontier](research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md). No smaller exponent is certified.
+
 ## Written obstruction for the last ordinary single target
 
 The [critical-state argument](research/ai/2026-10-21-rectangular-direct-sums/critical_finite_states.md) excludes the remaining A(8,10) to M(32,33,33) ordinary restriction, subject to its written, unreviewed lemmas. A new graded-module argument handles generic finite realization outside low-outer-rank compressions. Uniform finite-state fibers and support velocities then obstruct the target leg. Exact controls cover all22 partitions of8 and the exceptional Jordan pairings. This is not independent certification, and singular degenerations and multiple-block candidates remain open. The associated finite filter removes62 of752 prior two-block survivors, leaving690. No smaller exponent has been established.

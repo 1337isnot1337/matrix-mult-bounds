@@ -2,7 +2,7 @@
 from pathlib import Path
 from math import prod,isqrt
 from collections import Counter
-import argparse,json
+import argparse,json,gzip
 import importlib.util
 P=Path(__file__).with_name('extended_search.py');spec=importlib.util.spec_from_file_location('single_frontier_import',P);e=importlib.util.module_from_spec(spec);spec.loader.exec_module(e)
 ROOT=Path(__file__).resolve().parents[3]
@@ -34,7 +34,9 @@ def verify_caps(maximum=1152):
  folder=ROOT/'results/rectangular-direct-sums-20261021';records=json.loads((folder/'hankel-coordinate-certificates.json').read_text());by_format={(r['a'],r['b']):r for r in records};wanted=[tuple(v) for v in report(maximum)['hankel_cap_sources']];out=[]
  for a,b in wanted:
   r=by_format.get((a,b))
-  if r is None:r=json.loads((folder/f'hankel-a{a}-b{b}.json').read_text())
+  if r is None:
+   path=folder/f'hankel-a{a}-b{b}.json'
+   r=json.loads(path.read_text() if path.exists() else gzip.decompress(path.with_suffix('.json.gz').read_bytes()))
   assert (r['a'],r['b'])==(a,b);out.append(e.sat.verify(r))
  return out
 if __name__=='__main__':

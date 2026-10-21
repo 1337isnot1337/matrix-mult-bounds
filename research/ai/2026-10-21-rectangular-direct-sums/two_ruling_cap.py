@@ -48,7 +48,7 @@ def report():
  return {'three_ruling_control':{'r':8,'k':3,'bound':11,'cross_three_ruling_rank':8,'cross_full_dimension':11},'general_integer_controls':general,'r5_counterexample':{'two_ruling_rank':5,'full_dimension':7},'status':'finite controls; general proof written and unreviewed','integer_pairs':rows,'equality_cases':cases,'symmetric_product_control':control,'A89_M30':{'input_rank_cap':2,'lift_upper':564,'next_symbol_threshold':576,'scalar_image_cap':12,'coefficient_cap':864,'target_parameter_dimension':900},'improves_omega':False}
 def exclusion(a,b,shapes,D):
  # Use only source formats with the already recorded top Hankel rank caps.
- if (a,b) not in {(7,9),(7,10),(8,8),(8,9),(8,10),(9,9)}:return None
+ if (a,b) not in {(7,9),(7,10),(8,8),(8,9),(8,10),(8,11),(8,12),(9,9),(9,10),(9,11),(10,10)}:return None
  r=a-1;N=a*b*(a+b-1)
  for block,(m,n,p) in enumerate(shapes):
   for leg,(dimension,t,rows,cols) in enumerate(zip((m*n,n*p,p*m),(p,m,n),(m,n,p),(n,p,m))):
