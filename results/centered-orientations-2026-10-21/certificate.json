@@ -1,0 +1,219 @@
+{
+  "Q_source_map_supplied": false,
+  "coefficients": [
+    {
+      "aggregate_rank_one_terms": 64,
+      "all_expanded_coefficients_verified": true,
+      "correction_rank_one_terms": 192,
+      "expanded_aggregate_coefficients": 1024,
+      "outer_dimension": 8,
+      "s": 2,
+      "surviving_nonzero_coefficients": 256
+    },
+    {
+      "aggregate_rank_one_terms": 729,
+      "all_expanded_coefficients_verified": true,
+      "correction_rank_one_terms": 972,
+      "expanded_aggregate_coefficients": 11664,
+      "outer_dimension": 27,
+      "s": 3,
+      "surviving_nonzero_coefficients": 2916
+    },
+    {
+      "aggregate_rank_one_terms": 4096,
+      "all_expanded_coefficients_verified": true,
+      "correction_rank_one_terms": 3072,
+      "expanded_aggregate_coefficients": 65536,
+      "outer_dimension": 64,
+      "s": 4,
+      "surviving_nonzero_coefficients": 16384
+    }
+  ],
+  "exact_grams": [
+    {
+      "format": [
+        64,
+        32,
+        32
+      ],
+      "gram_scalars": [
+        4,
+        8,
+        8
+      ],
+      "s": 2
+    },
+    {
+      "format": [
+        729,
+        108,
+        108
+      ],
+      "gram_scalars": [
+        4,
+        27,
+        27
+      ],
+      "s": 3
+    },
+    {
+      "format": [
+        4096,
+        256,
+        256
+      ],
+      "gram_scalars": [
+        4,
+        64,
+        64
+      ],
+      "s": 4
+    }
+  ],
+  "literal_orientation_repair": [
+    {
+      "first_flattening_rank": 36,
+      "fixed_space_dimension": 28,
+      "orbit_counts": {
+        "1": 8,
+        "2": 12,
+        "4": 8
+      },
+      "s": 2
+    },
+    {
+      "first_flattening_rank": 486,
+      "fixed_space_dimension": 243,
+      "orbit_counts": {
+        "1": 27,
+        "2": 81,
+        "4": 135
+      },
+      "s": 3
+    },
+    {
+      "first_flattening_rank": 2880,
+      "fixed_space_dimension": 1216,
+      "orbit_counts": {
+        "1": 64,
+        "2": 288,
+        "4": 864
+      },
+      "s": 4
+    }
+  ],
+  "normalized_slice_algebra_witnesses": [
+    {
+      "mask": [
+        1,
+        0,
+        1
+      ],
+      "nonzero_residual_entries": 8,
+      "s": 2,
+      "sample": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          2,
+          2,
+          -1
+        ],
+        [
+          3,
+          3,
+          -1
+        ]
+      ]
+    },
+    {
+      "mask": [
+        1,
+        0,
+        1
+      ],
+      "nonzero_residual_entries": 18,
+      "s": 3,
+      "sample": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          2,
+          2,
+          -1
+        ],
+        [
+          3,
+          3,
+          -1
+        ]
+      ]
+    },
+    {
+      "mask": [
+        1,
+        0,
+        1
+      ],
+      "nonzero_residual_entries": 32,
+      "s": 4,
+      "sample": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          2,
+          2,
+          -1
+        ],
+        [
+          3,
+          3,
+          -1
+        ]
+      ]
+    }
+  ],
+  "separate_character_source": [
+    {
+      "balanced_endpoint_coefficient": 64,
+      "character_upper_bound": "(s^p_B+s^p_C)^6",
+      "s": 2,
+      "selected_nonzero_coefficients": 256,
+      "source_factors": 6,
+      "source_terms_before_restriction": 4096
+    },
+    {
+      "balanced_endpoint_coefficient": 64,
+      "character_upper_bound": "(s^p_B+s^p_C)^6",
+      "s": 3,
+      "selected_nonzero_coefficients": 2916,
+      "source_factors": 6,
+      "source_terms_before_restriction": 46656
+    }
+  ],
+  "status": "exact finite controls for written all-size identities; no exponent improvement"
+}

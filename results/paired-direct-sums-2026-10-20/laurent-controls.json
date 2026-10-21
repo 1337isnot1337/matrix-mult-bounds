@@ -1,0 +1,33 @@
+{
+  "exact_coefficients": {
+    "coefficient_ring": "Q",
+    "exact_controls_passed": true,
+    "w_source_terms": 2,
+    "w_target_coordinates_per_degree": 8,
+    "w_nonzero_coefficients_by_degree": [
+      0,
+      3,
+      3,
+      1
+    ],
+    "deliberate_pole_detected_despite_correct_constant_term": true,
+    "p2_source_terms": 16,
+    "p2_target_coordinates_per_degree": 64,
+    "p2_nonzero_coefficients_by_degree": [
+      0,
+      8,
+      0,
+      0
+    ],
+    "scope": "Full coefficient controls for the verifier; neither supplies the a3 or a10 target."
+  },
+  "analytic_jacobian": {
+    "a": 3,
+    "parameters": 170,
+    "equations": 474,
+    "seed": 731,
+    "step": 1e-05,
+    "maximum_directional_derivative_error": 1.1293604940121327e-11,
+    "control_passed": true
+  }
+}

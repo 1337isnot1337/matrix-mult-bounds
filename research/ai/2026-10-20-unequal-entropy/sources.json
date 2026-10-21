@@ -1,0 +1,24 @@
+{
+  "base_commit": "75bf6a3",
+  "claim_id": "AI-UNEQUAL-ENTROPY-001",
+  "external": [
+    {
+      "authors": "OpenAI",
+      "title": "An Upper Bound of 9/4 for the Matrix Multiplication Exponent",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/paper.pdf",
+      "scope": "Growth recurrence and external exponent baseline; no local formal rebuild."
+    }
+  ],
+  "prior_local": [
+    {
+      "path": "research/ai/2026-10-20/research_note.md",
+      "scope": "Matching profile, preserved archive."
+    },
+    {
+      "path": "research/ai/2026-10-20-full-filtration/research_note.md",
+      "git_blob": "3cd953da312bc3c8530cf0b8b0cd481ac8a9fbf3",
+      "scope": "Optimistic entropy score, all-distribution U certificate, balanced all-size bound."
+    }
+  ],
+  "new_scope": "Sharp all-size bound for U over unequal lengths at least two, proving R7; no exponent improvement."
+}

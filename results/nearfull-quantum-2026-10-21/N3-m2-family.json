@@ -1,0 +1,2019 @@
+{
+  "N": 3,
+  "m": 2,
+  "order": 8,
+  "map_shape": [
+    9,
+    6,
+    6
+  ],
+  "flattening_ranks": [
+    9,
+    6,
+    6
+  ],
+  "basis_slice_ranks": [
+    2,
+    4,
+    4,
+    2,
+    5,
+    4,
+    4,
+    4,
+    2
+  ],
+  "tensor_nonzero_count": 40,
+  "local_records": [
+    [
+      {
+        "weight": 1,
+        "selected_labels": [
+          [
+            1,
+            0
+          ]
+        ],
+        "pivot_columns": [
+          1
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "-1/(q**3)",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 2,
+        "selected_labels": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "pivot_columns": [
+          2,
+          5
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/(q**6)",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "-1/(q**3)",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 3,
+        "selected_labels": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "pivot_columns": [
+          3,
+          6,
+          9
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/(q**9)",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/(q**6)",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "-1/(q**3)",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 4,
+        "selected_labels": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "pivot_columns": [
+          7,
+          10
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/(q**6)",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "-1/(q**3)",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 5,
+        "selected_labels": [
+          [
+            1,
+            4
+          ]
+        ],
+        "pivot_columns": [
+          11
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "-1/(q**3)",
+            "0"
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weight": 1,
+        "selected_labels": [
+          [
+            1,
+            0
+          ]
+        ],
+        "pivot_columns": [
+          1
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "(q**6 + q**4 + q**2 + 1)/(q**8)",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 2,
+        "selected_labels": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "pivot_columns": [
+          2,
+          6
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 3,
+        "selected_labels": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "pivot_columns": [
+          3,
+          7
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 4,
+        "selected_labels": [
+          [
+            1,
+            3
+          ]
+        ],
+        "pivot_columns": [
+          8
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "q**8 + q**6 + q**4 + q**2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weight": 1,
+        "selected_labels": [
+          [
+            1,
+            0
+          ]
+        ],
+        "pivot_columns": [
+          2
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "(q**6 + q**4 + q**2 + 1)/(q**3)",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 2,
+        "selected_labels": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "pivot_columns": [
+          3,
+          4
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 3,
+        "selected_labels": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "pivot_columns": [
+          5,
+          6
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "weight": 4,
+        "selected_labels": [
+          [
+            1,
+            3
+          ]
+        ],
+        "pivot_columns": [
+          7
+        ],
+        "generic_rows": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "(q**6 + q**4 + q**2 + 1)/(q**3)",
+            "0"
+          ]
+        ]
+      }
+    ]
+  ],
+  "maps": [
+    [
+      [
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [
+          "1",
+          "0"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [
+          "1",
+          "0"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [
+          "1",
+          "0"
+        ],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [
+          "1",
+          "0"
+        ],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [
+          "1",
+          "0"
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        []
+      ]
+    ],
+    [
+      [
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "1"
+        ],
+        [],
+        []
+      ]
+    ]
+  ],
+  "tensor": [
+    {
+      "positions": [
+        0,
+        3,
+        5
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        0,
+        5,
+        3
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        0,
+        5,
+        4
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        2,
+        5
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        3,
+        3
+      ],
+      "coefficient": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        4,
+        4
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        5,
+        1
+      ],
+      "coefficient": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        1,
+        5
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        3,
+        3
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        3,
+        4
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        4,
+        3
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        5,
+        1
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        5,
+        2
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        3,
+        2,
+        4
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        3,
+        3,
+        1
+      ],
+      "coefficient": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        0,
+        5
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        1,
+        4
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        2,
+        3
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        3,
+        1
+      ],
+      "coefficient": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        4,
+        2
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        1,
+        3
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        3,
+        1
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        3,
+        2
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        4,
+        1
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        5,
+        0
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        0,
+        4
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        1,
+        1
+      ],
+      "coefficient": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        2,
+        2
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        3,
+        0
+      ],
+      "coefficient": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        0,
+        3
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        1,
+        1
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        1,
+        2
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        2,
+        1
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        3,
+        0
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        4,
+        0
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        0,
+        2
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        1,
+        0
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        2,
+        0
+      ],
+      "coefficient": [
+        "1"
+      ]
+    }
+  ],
+  "seconds": 0.1363586129991745,
+  "improves_omega": false,
+  "coordinate_weights": [
+    [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4
+    ]
+  ],
+  "source_format": [
+    9,
+    6,
+    6
+  ],
+  "coefficients": [
+    {
+      "positions": [
+        0,
+        3,
+        5
+      ],
+      "generic_coefficient": "(q**4 + q**2 + 1)/q",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        0,
+        5,
+        3
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        0,
+        5,
+        4
+      ],
+      "generic_coefficient": "(-q**6 - q**4 - q**2 + q - 1)/q",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        1,
+        5
+      ],
+      "generic_coefficient": "(q**6 + q**4 + q**2 + 1)/(q**3)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "-1",
+        "0",
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        2,
+        5
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        3,
+        3
+      ],
+      "generic_coefficient": "-1/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        4,
+        4
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        5,
+        1
+      ],
+      "generic_coefficient": "-1/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        1,
+        5,
+        2
+      ],
+      "generic_coefficient": "(-q**6 - q**4 - q**2 - 1)/(q**4)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        1,
+        5
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        3,
+        3
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        3,
+        4
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        4,
+        3
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        5,
+        1
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        2,
+        5,
+        2
+      ],
+      "generic_coefficient": "(-q**6 - q**4 - q**2 + q - 1)/q",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        3,
+        0,
+        5
+      ],
+      "generic_coefficient": "(q**11 + q**9 + q**7 + q**6 + q**5 + q**4 + q**2 + 1)/(q**8)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        3,
+        2,
+        4
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        3,
+        3,
+        1
+      ],
+      "generic_coefficient": "-1/(q**9)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        3,
+        5,
+        0
+      ],
+      "generic_coefficient": "(-q**11 - q**9 - q**7 - q**6 - q**5 - q**4 - q**2 - 1)/(q**12)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        0,
+        5
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        1,
+        4
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        2,
+        3
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        3,
+        1
+      ],
+      "generic_coefficient": "-1/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        4,
+        2
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        4,
+        5,
+        0
+      ],
+      "generic_coefficient": "(-q**11 - q**9 - q**7 - q**6 - q**5 - q**4 - q**2 - 1)/(q**9)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "1",
+        "1",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        1,
+        3
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        3,
+        1
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        3,
+        2
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        4,
+        1
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        5,
+        5,
+        0
+      ],
+      "generic_coefficient": "(-q**11 - q**9 - q**7 - q**5 - q**4 - q**2 - 1)/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "generic_coefficient": "(q**6 + q**4 + q**2 + 1)/(q**8)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        0,
+        4
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        1,
+        1
+      ],
+      "generic_coefficient": "-1/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        2,
+        2
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        3,
+        0
+      ],
+      "generic_coefficient": "-1/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        6,
+        4,
+        0
+      ],
+      "generic_coefficient": "(-q**6 - q**4 - q**2 - 1)/(q**9)",
+      "baseline_valuation": 1,
+      "leading_residue_coefficients": [
+        "1",
+        "0",
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        0,
+        3
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        1,
+        1
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        1,
+        2
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        2,
+        1
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        3,
+        0
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        7,
+        4,
+        0
+      ],
+      "generic_coefficient": "(-q**4 - q**2 - 1)/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        0,
+        1
+      ],
+      "generic_coefficient": "(q**6 - q**5 + q**4 + q**2 + 1)/(q**8)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        0,
+        2
+      ],
+      "generic_coefficient": "1",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        1,
+        0
+      ],
+      "generic_coefficient": "-1/(q**3)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "positions": [
+        8,
+        2,
+        0
+      ],
+      "generic_coefficient": "(-q**4 - q**2 - 1)/(q**6)",
+      "baseline_valuation": 0,
+      "leading_residue_coefficients": [
+        "1"
+      ]
+    }
+  ],
+  "generic_nonzero_count": 47
+}

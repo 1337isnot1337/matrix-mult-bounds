@@ -2,6 +2,30 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+## Active paired construction: near-full width four
+
+The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
+reduces one sufficient route to genuine degenerations
+`Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c
+and `border_rank(R_n)=O(n)`. It would imply
+`omega < 30000/13433 < 2.2334`. The family is unconstructed. The active
+paired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)
+and the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,
+so it does not prove the fixed-width premise. The next numerical target
+is `Q(6,4) -> M(5,4,5)`, which lies beyond the recovered product-subspace
+dimension limit. A machine-precision numerical fit is discovery evidence
+only. Deliver exact coefficient identities, then a proved unbounded
+extension with every auxiliary cost accounted for.
+
+The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
+maps when n is at least three, and for arbitrary first-leg Laurent poles
+when both long maps remain regular and full rank. Do not repeat those
+classes. Near-full outer dimensions, singular leading long maps, general
+wider kernels, and nontrivial auxiliary tensors remain construction
+questions. The prescribed regular-nilpotent wider quotient and the stated
+tetrahedral scalar-repair models are also excluded; see the exact scope in
+the linked status notes before choosing new parameters.
+
 ## R1: Review the local sharpness theorem
 
 Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.
@@ -109,16 +133,22 @@ A useful patch demonstrates an incorrect ranking, stronger certified block score
 
 ## R7: Whole-filtration entropy beyond the balanced obstruction
 
-Owned on `research/full-filtration-entropy-20261020`. The [new note](../research/ai/2026-10-20-full-filtration/research_note.md)
-defines the optimistic full-support entropy score and proves an all-size
-`39/40` upper bound for balanced sources. Exact certificates cover every
-distribution at every unequal-source tuple through size 12.
+Status: settled for the explicit upper certificate `U` by
+[AI-UNEQUAL-ENTROPY-001](../research/ai/2026-10-20-unequal-entropy/research_note.md).
+For every `a,b,c,d>=2`, its sharp ratio to `P_*(a,b)P_*(c,d)` is at most
+`B=(81/350)*(1+14*sqrt(14)/27)^(4/3)`, with
+`0.974772906<B<0.974772907`. Equality occurs only at `(2,2,2,2)`;
+every other tuple has ratio at most `97/100`. An all-size analytic reduction,
+eight polynomial cones, exact tail certificates and their finite residuals
+prove this result; it is not an extrapolation from a grid.
 
-The next precise question is whether its explicit upper bound `U(a,b,c,d)`
-never exceeds `P_*(a,b)P_*(c,d)` for arbitrary positive lengths, or even has the
-same `39/40` factor when all four lengths exceed one. This is a conjecture,
-not an all-size consequence of the grid. A weighted block-extraction theorem
-also requires its own proof; the scalar subrank formula is insufficient by itself.
+The earlier [full-filtration note](../research/ai/2026-10-20-full-filtration/research_note.md)
+supplies the optimistic score and its all-distribution bound by `U`.
+Singleton input marginals retain that note's direct maximum-block bound.
+The new proof is written and unreviewed. It closes this score as a way to
+exclude the matching profile, without excluding other constructions or
+establishing a weighted block-extraction theorem. Further construction work
+must use information absent from this score.
 
 ## Work selection
 
@@ -137,6 +167,44 @@ The [leading-flag follow-up](../research/ai/2026-10-20-graded-quantum-flags/QUES
 now closes several prescribed root flags even with arbitrary higher jets.
 Changing the first-leg jet cutoff does not escape those proofs. Different
 leading flags and weight-breaking projections remain construction questions.
+
+The [two-block paired frontier](../research/ai/2026-10-20-paired-direct-sums/README.md)
+supplies a smaller source-size construction question. The complete
+one-block/two-block search through `a=10` leaves 19 pairs, all at size ten,
+after every first-leg Koszul test. Construct or exclude
+`P10 -> M(4,11,10) direct_sum M(10,12,6)`; the proved conditional
+implication is `omega<2.242`. Ordinary constant maps are already excluded.
+The active branch is `research/paired-frontier-unequal-entropy-20261020`.
+Any witness must certify its full coefficient identity and singular limit.
+
+An exact [boundary-chain family](../research/ai/2026-10-20-paired-construction/README.md)
+now constructs `P_a -> M(a,2,a)` over every field. Its score is below the
+improvement threshold for every `a`. It supplies a positive calibration
+for wider middle modes, disjoint chains, or singular extensions. Four
+first-order Laurent fits and two bounded refinements on the specified
+size-three two-block target failed their complete coefficient equations;
+their numerical results are not exclusions of larger ansatz classes.
+
+Two bounded second-order Laurent pilots also retain nonzero pole
+coefficients. Narrow-source coefficient and kernel searches for
+`Q_(3,2) -> M(3,2,3)`, including complex kernels, supplied no exact maps.
+Further work needs a new chart, anchor, structural basis, or argument;
+repeating the same local runs is not a new construction route.
+
+The [coupled quantum families](../research/ai/2026-10-21-paired-quantum/coupled_faces.md)
+provide two exactly specified intermediate tensors of format `(9,15,15)`.
+The rank-two slice of `F1` excludes every further degeneration to the
+selected concise minimum-slice-three target. Continue the singular
+construction question from `F0`, or choose a target outside that
+exclusion. Passing its Koszul tests does not prove extractability.
+
+The [unequal root-eight continuation](../research/ai/2026-10-21-narrow-quantum/README.md)
+constructs 23 exact limits of `Q_(3,2)`, all excluded from the proposed
+`M(3,2,3)` target. The strongest two fail only a long-leg Koszul test among
+the comparisons recorded, so every candidate must be checked on all three
+legs with the correct zero padding. The original source passes all 25
+such comparisons. Further searches need different bases or singular
+families; passing this necessary-condition screen is not a construction.
 
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
@@ -164,3 +232,15 @@ formats after the new full-space Koszul exclusions.
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
+
+## Linear-annihilator frontier update
+
+The [pencil-degree theorem](../research/ai/2026-10-21-hankel-pencil-degree/proof.md)
+and its [complete application](../research/ai/2026-10-21-hankel-pencil-degree/application.md)
+now close the former ordinary A8 rectangular and square-sum targets.
+Every improving balanced single rectangular shape through a9 is excluded;
+the first necessary-test survivors are at a10. A9's square partition
+(32,6,3) remains unconstructed, with the M32 lifted rank exactly648.
+The next owned algebraic question is equality at that rank. Singular
+constructions, including the A4 shear completion, remain open and are
+required before any smaller exponent claim.
