@@ -1,0 +1,37 @@
+{
+  "base_main": "843ad78989a51d8f81e3321f8a4c2413ede46dc9",
+  "unit_tests": {
+    "passed": true,
+    "count": 254,
+    "log": "results/quantum-recoupling-2026-10-20/tests-main-843ad78.txt"
+  },
+  "targeted_tests": {
+    "passed": true,
+    "count": 5,
+    "log": "results/quantum-recoupling-2026-10-20/tests-quantum.txt"
+  },
+  "archive_replay": {
+    "passed": true,
+    "log": "results/quantum-recoupling-2026-10-20/archive-replay.txt"
+  },
+  "optional_discovery_replay": {
+    "passed": true,
+    "comparison": "results/quantum-recoupling-2026-10-20/discovery-replay-comparison.json"
+  },
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "claim_ids": [
+    "AI-QUANTUM-SOURCE-NORMALIZATION-001",
+    "EXP-QUANTUM-RECOUPLING-CONTROLS-002"
+  ],
+  "independent_review": false,
+  "improves_omega": false,
+  "integrated_main": "c6cb856722575295dfea617e571e93e048c16062",
+  "combined_after_integration": {
+    "passed": true,
+    "count": 263,
+    "log": "results/quantum-recoupling-2026-10-20/tests-main-c6cb856.txt"
+  }
+}

@@ -1,8 +1,57 @@
 # Research status
 
-Date: October 20, 2026.
+Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
+
+## Constructive continuation and source obstructions
+
+The continuation on `research/constructive-spectrum-20261020` records ten
+new claims, AI-ORIENTED-ENDPOINT-052 through AI-MIXED-DIRECT-SUM-061,
+in [the claim ledger](research/claims.json). All general arguments are
+written and unreviewed. Same-session agent checks and exact finite replays
+do not constitute independent mathematical review.
+
+- The [oriented endpoint analysis](research/ai/2026-10-20-critical-character-extension/README.md)
+  gives a common critical amplitude and a quantitative stability bound.
+  A certified fifth-difference stencil separates that hypothetical profile
+  from quantum characters and the classified edge of the spectrum. The
+  corresponding test for interior spectral points remains unproved.
+- The [nonmonic target normalization](research/ai/2026-10-20-new-source-constructions/README.md)
+  gives an all-size unimodular normalization. At size four, a sampled chamber
+  reduces the coefficient system to 95 zero equations and two orbit
+  relations. Exact elimination has 65 unit pivots. No exact solution or
+  Hensel certificate has been found.
+- The [full polynomial rank locus](research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)
+  classifies cyclic-source slices below twice their minimum rank. It gives
+  an ordinary-map obstruction for every nonscalar square target block.
+  [Exact partition enumeration](research/ai/2026-10-20-anisotropic-constructions/square_sum_frontier.md)
+  then excludes every ordinary square direct-sum target that could pass the
+  finite 9/4 score in all 22 source formats with leg dimension below 300.
+  The first surviving format is A(5,6): M16 plus M4 would imply a bound
+  below 2.248, but its maps are missing. Singular degenerations remain open.
+- An [explicit parity degeneration](research/ai/2026-10-20-anisotropic-constructions/parity_balancing.md)
+  has positive rational marginal certificates and cyclic asymptotic
+  slice-rank capacity about 212.716257. A stronger
+  [pairwise-annihilator obstruction](research/ai/2026-10-20-anisotropic-constructions/parity_annihilator.md)
+  bounds every square direct-sum target of that one-copy source by leg
+  dimension 169, including arbitrary singular degenerations. A single M13
+  is also excluded. The proposed M14 plus M4 target is therefore closed.
+- The [integral direct-sum construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_direct_sum.md)
+  gives actual restrictions A(a,a) to M(2a−2) plus M(a−2), for every a≥3.
+  Complete coefficient controls cover a=3 through 6, including M8 plus M3
+  from A(5,5). An additional proposed scalar block fails mixed-coefficient
+  checks and is explicitly rejected.
+
+These results identify constructions and obstructions within stated classes.
+They establish no smaller matrix multiplication exponent.
+
+The combined tree against main `a44451d` passes 323 regression tests and all
+five original archive replays. The
+[validation receipt](results/anisotropic-constructions-2026-10-20/integration-validation.json)
+records the commands and log hashes. The historical archives are unchanged.
+
+## Earlier integration checkpoints
 
 The [main integration checkpoint](docs/integration_2026-10-20.md) combines the
 four research lanes and passes 160 local tests plus the five original archive
@@ -27,7 +76,40 @@ The general proofs, rather than their finite checks, support the all-integer sta
 
 The matching-profile result rules out improving the exponent from only its listed scalar assumptions. It neither proves $\omega\ge9/4$ nor excludes the full tensor spectrum.
 
+The [F8 variable-plane continuation](research/ai/2026-10-20-group-potentials/octal_research.md#variable-planes-after-the-first-main-integration)
+now searches independently chosen normal-fiber planes. Its encodings pass
+a complete known-model audit, and an independent integer checker validates
+the affine fibers and pair maps. The first native-parity run checks four
+candidates, including a reused control; all fail exact potential constraints.
+This extends discovery coverage and supplies no improved exponent.
+
 The current next steps are listed in [research directions](docs/research_directions.md). Repeating a completed finite search with the same parameters is reproduction, not new research progress.
+
+The [fixed cubic F8 parent obstruction](research/ai/2026-10-20-octal-parent-barrier/research_note.md)
+excludes every single strict-coordinate-potential target from vertex subsets
+of that 56-point parent from passing the usual 9/4 degree-sum gate. An
+explicit circuit orbit forces a seven-cycle hole inequality; exact integer
+optimization bounds the target volume by 92,928, including rectangular
+shapes. The checker verifies 10,752 circuits and independently enumerates
+all 4,782,969 hole patterns. This written proof is unreviewed and concerns
+only that parent and construction method. It gives no exponent improvement.
+
+A complete local continuation checks all 3,060 single-plane changes in the
+F8 base `[1,8,2,16,4,32]`, keeping all short directions fixed. Every change
+fails a necessary pair-quotient packing. This finite scope is replayed by
+`tests/test_octal_single_plane.py`; it does not exclude simultaneous changes
+or other bases. Two native-parity pilots yield only reused controls and
+untraced UNSAT answers. Neither gives an exponent improvement.
+
+The [C29 near-capacity classification](research/ai/2026-10-20-c29-near-capacity/research_note.md)
+proves that every three-point unique-sum triple in C29 consists of arithmetic
+progressions. Two exact enumerations agree on its six ordered normalized
+cases. A complete fiber-direction filter for C29:C4 leaves twelve size-ten
+configurations, and the identity-quotient offset telescoping condition rejects
+them all. Thus the stated injective-pair-map construction with strict vertex
+potentials cannot have all three sizes at least ten. This written argument
+is unreviewed; general tensor degenerations and smaller unequal targets
+remain open. No smaller exponent follows.
 
 ## All-size product-filtration result
 
@@ -117,6 +199,42 @@ all 1,394 saved parity circuits replay using integer group arithmetic.
 No candidate has reached a full degeneration witness. Ten focused controls
 check the source, subgroup normalization, lift equations against exhaustive
 small sign choices, certificate tampering and the cyclic-eight fiber rule.
+The fiber-strengthened run separately rejected 149 candidates by replayed
+circuits. Verified small parity cores can now be reused across independent
+right translations and set permutations, with source hashes and explicit
+occurrence clauses. These finite rejections are not a complete exclusion.
+The first run with those templates separately rejected 619 candidates by
+replayed circuits and supplied no pair-injective lift or tensor witness.
+
+## Selected direct-product group target
+
+The [SL(2,5) x C2 lane](research/ai/2026-10-20-sl2-five-c2/README.md)
+selects M(13,13,15). Exact rational central idempotents derive the first
+factor's degrees; the standard direct-product theorem repeats them twice.
+Integer root intervals give a conditional omega < 2247/1000 comparison, and
+the concurrent rank-locus screen requires 217<=240, so it does not exclude
+the target. **The target degeneration is unconstructed.**
+
+The adapter checks an order-48 subgroup and 60 center orbits, applies the
+central-pair exclusions and reuses the pinned integer acceptance verifier.
+Six controls check the source, projection, an embedded positive weighted
+control, the unchanged SL(2,7) certificate and exact finite rejection replay.
+The two initial 600-second target searches, with and without projected
+inverse-class capacities, ended without a pair-injective model. These
+timeouts exclude nothing. A separate structured-parent enumeration rejects
+all 1,000 explicitly generated ten-point section triples by independently
+replayed positive integer Farkas circuits; its finite scope is documented in
+the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
+The larger target remains open.
+
+The [projected continuation](research/ai/2026-10-20-sl2-five-c2/projected_note.md)
+adds necessary four-pair fiber capacities and binary equations over the
+projected involutions. The first binary-filter run has 2,765 replayed
+capacity certificates and 2,474 replayed parity certificates, plus 3,794
+untraced solver cores and one budget skip. It produces no lift or witness;
+the exact circuits do not upgrade the untraced parts into a complete proof.
+All 720 full-space Koszul comparisons pass for this target. A separate
+(12,12,17) comparison is also conditional on an unconstructed degeneration.
 
 ## Second-pass checkpoint
 
@@ -371,6 +489,40 @@ scalars. A joint index-and-valuation word supplies one common arithmetic
 interval for the rank argument. An exact size-three control verifies the
 broader model. This written proof leaves actual input mixing open.
 
+## Paired convolution source ranks
+
+The [paired-source proof](research/ai/2026-10-20-paired-sources/research_note.md)
+computes an exact first Koszul kernel of dimension 3a-2 for two oppositely
+oriented convolutions. It excludes the full-capacity matrix target for all
+sizes under arbitrary complex degeneration, and excludes a promising
+size-five direct sum. A complete integer budget certificate also bounds
+the one-copy size-four factorwise matrix-block method below the finite
+profile-improvement threshold. These written and finite results do not
+exclude joint extraction from the full source or its powers.
+
+The [all-power formula](research/ai/2026-10-20-paired-sources/all_koszul.md)
+now gives every first-leg source rank. A separately derived matrix formula,
+crediting Landsberg--Ottaviani's kernel inclusion, supplies exact comparison
+ranks over C, and a second cohomological argument gives the same ranks
+over every field. These written, unreviewed arguments exclude the initially
+selected P_6 to M(6,10,6) target at power seven. Its former conditional
+2.235 implication therefore has an excluded premise. The complete finite
+frontier through a=13 contains 239 improving dimension-compatible single
+matrix targets, modulo B/C exchange; all are excluded by saved rank
+witnesses. The frontier through a=16 has 28 survivors, first at a=14.
+No surviving target is constructed; joint extraction remains open.
+
+## Varying quantum recoupling
+
+The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
+uses rational Clebsch--Gordan changes of basis that vary with q. Explicit
+local factors keep the generic source isomorphic to convolution. Exact
+controls check 196 projection positions, 360 invariant equations and 30
+small basis/root configurations. At q=i, the rowwise-regular cyclic maps
+have ranks 8,32,64 at a=2,3,4 over Q(i). This calibration produces ordinary
+restrictions and does not supply the size-four matrix target. Coupled
+singular normalizations remain open; no exponent improvement is claimed.
+
 ## Polynomial flags and numerical calibration
 
 The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)
@@ -497,3 +649,50 @@ The certificate has no independent mathematical review or Lean
 formalization. Its profile lower bound is weaker than the existing scalar
 bound, so it does not improve the exponent. Larger mixed or singular
 constructions remain open.
+
+The [all-power full-capacity argument](research/ai/2026-10-20-cyclic-mixed-map/full_capacity.md)
+(AI-CYCLIC-FULL-CAPACITY-047) excludes arbitrary complex degenerations
+from A_a^r to direct sums of square matrix products that use every source
+coordinate. It combines an all-power minimum-slice-rank formula with
+external polystability theory. In particular A_5 -> M15 and S_4 -> M112
+are excluded even with singular maps. The smaller H1100 and H106 targets
+remain open; this gives no uniform asymptotic gap or exponent improvement.
+The proof is written and unreviewed. Finite controls check 112 triangular
+minors plus an independent tensor-square coefficient expansion.
+
+[AI-CYCLIC-CENTRAL-POLYSTABILITY-048](research/ai/2026-10-20-cyclic-recoupling/central_polystability.md)
+strengthens the earlier ordinary-map exclusion for the degree-(6,6,6)
+central multiplicity block B: B cannot degenerate to M2 over C. Four exact
+rational polynomial identities prove smoothness of its associated cubic;
+external stability theorems and cyclic symmetry yield a closed special-linear
+orbit. The earlier determinant obstruction then excludes the required
+isomorphism. This concerns B itself, without cancelling its accompanying
+scalar tensor. The proof remains unreviewed and gives no exponent gain.
+
+## Graded cyclic construction pilots
+
+[EXP-CYCLIC-GRADED-PILOTS-049](research/ai/2026-10-20-cyclic-singular-search/README.md)
+records four exact kernel certificates blocking one-sided new-vertex
+extensions of two fixed M(2,3,3) witnesses. Changing the old maps or using
+more general Laurent maps remains open. Two 16-start weighted ALS searches
+and two refinements supplied no exact M3 degeneration. Saved diagnostics
+include large omitted coefficients; masked residuals are not certificates.
+The exponent is unchanged.
+
+## Equivariant cyclic construction obstruction
+
+[AI-CYCLIC-EQUIVARIANT-050](research/ai/2026-10-20-cyclic-equivariant/README.md)
+proves an all-size five-coefficient polynomial obstruction to diagonal-SL2
+equivariant A_a to M_(2a-1) degeneration with irreducible vertex actions.
+Exact representation counts also exclude all choices of matrix-vertex
+representations for the specified H1100 equivariant ansatz; A2 to M3 is
+closed by combining the count with the polynomial identity. General maps
+that break this symmetry remain open. The proof is unreviewed; the exponent
+is unchanged.
+
+[EXP-CYCLIC-CARTAN-FRONTIER-051](research/ai/2026-10-20-cyclic-equivariant/torus.md)
+relaxes the action to its torus. Exactly one necessary H1100 vertex-character
+triple survives an exhaustive 89-case integer coefficient search. This
+selects 3854 allowed map entries, but supplies no construction. Completed
+32-start A2 and six-start H1100 pilots found no exact witness; several of
+the latter escaped to large norms.

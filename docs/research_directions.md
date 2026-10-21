@@ -116,6 +116,18 @@ also requires its own proof; the scalar subrank formula is insufficient by itsel
 
 ## Work selection
 
+The product worker's [paired-source calculation](../research/ai/2026-10-20-paired-sources/research_note.md)
+now includes an [all-power rank formula](../research/ai/2026-10-20-paired-sources/all_koszul.md).
+It excludes the initially selected P_6 to M(6,10,6) target at power seven.
+The complete finite frontier through a=13 excludes all 239 improving,
+dimension-compatible single matrix shapes modulo B/C exchange. Do not fit
+those closed targets. Larger paired matrix targets, joint extraction from
+paired factors, and genuinely varying recoupling bases remain construction
+questions. Passing a necessary rank test would not supply a degeneration. The new
+[quantum recoupling question](../research/ai/2026-10-20-quantum-recoupling/QUESTION.md)
+uses genuinely varying bases near a root of unity. Its regular initial
+maps have insufficient size; tensor-level cancellations remain to be found.
+
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 It requires a genuine convolution-source degeneration at cost below

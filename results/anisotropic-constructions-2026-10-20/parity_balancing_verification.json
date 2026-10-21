@@ -1,0 +1,63 @@
+{
+  "arithmetic": "Python Fraction and integers; no floating acceptance decision",
+  "exact_endpoint_replays": [
+    {
+      "active_orbits": 132,
+      "certificate": "parity_balancing_p_2_3.json",
+      "exact_marginal_equations_checked": 675,
+      "exact_probability_total": "1",
+      "p": "2/3",
+      "sha256": "597acdc554f65d7fe0d73abef1b6e50ecd8ffa03fc1dc7fd20e6926b6bb9c741",
+      "strictly_positive_on_full_support": true,
+      "support_orbits": 1650,
+      "support_terms": 11725,
+      "uniform_term_mass": "1/10000000000",
+      "verified": true
+    },
+    {
+      "active_orbits": 132,
+      "certificate": "parity_balancing_p_67_100.json",
+      "exact_marginal_equations_checked": 675,
+      "exact_probability_total": "1",
+      "p": "67/100",
+      "sha256": "e8e23637402b13329ed5feea1a8edf1ff8abd62e3e25c7549761e6bbaca6e1a2",
+      "strictly_positive_on_full_support": true,
+      "support_orbits": 1650,
+      "support_terms": 11725,
+      "uniform_term_mass": "1/10000000000",
+      "verified": true
+    }
+  ],
+  "exact_optimum_checks": {
+    "injective_coordinate_weight_counts": [
+      225,
+      225,
+      225
+    ],
+    "p_bracket": [
+      "2/3",
+      "67/100"
+    ],
+    "p_polynomial": [
+      225,
+      -19266,
+      12769
+    ],
+    "polynomial_values": [
+      "25",
+      "-15287/400"
+    ],
+    "strict_capacity_comparison": {
+      "left": "57063131430009387024384",
+      "right": "55360846528600214601728",
+      "verified": true
+    },
+    "zero_weight_support_equations_checked": 11725
+  },
+  "new_exponent_established": false,
+  "one_copy_matrix_target_status": "M14 direct sum M4 is excluded by the separate parity_annihilator argument; support entropy remains feasible",
+  "proof_review_status": "Internal arguments checked by a second agent in this generating session; no external independent review or formalization",
+  "target_restriction_constructed": false,
+  "total_exact_original_coordinate_marginal_equations": 1350,
+  "written_consequence": "Positive exact optimal marginals and sharp cyclic asymptotic slice-rank capacity"
+}

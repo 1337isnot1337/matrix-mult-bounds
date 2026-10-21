@@ -1,0 +1,100 @@
+{
+  "source": "A_3",
+  "target": "M(3,5,9)",
+  "starts": 8,
+  "maximum_iterations": 500,
+  "positive_control": "A_3 restricted to the embedded exact A_2 to M(2,3,4) maps",
+  "records": [
+    {
+      "seed": 202610340,
+      "noise_scale": 0.01,
+      "iterations": 500,
+      "full_relative_error": 0.3666561290480162,
+      "map_norms": [
+        235.34502752444783,
+        235.34502752444791,
+        235.34502752444803
+      ]
+    },
+    {
+      "seed": 202610341,
+      "noise_scale": 0.01,
+      "iterations": 500,
+      "full_relative_error": 0.2756395220472114,
+      "map_norms": [
+        236.30614443335375,
+        236.30614443335287,
+        236.30614443335338
+      ]
+    },
+    {
+      "seed": 202610342,
+      "noise_scale": 0.1,
+      "iterations": 500,
+      "full_relative_error": 0.275321573855859,
+      "map_norms": [
+        40.70770906629865,
+        40.707709066298634,
+        40.70770906629863
+      ]
+    },
+    {
+      "seed": 202610343,
+      "noise_scale": 0.1,
+      "iterations": 500,
+      "full_relative_error": 0.2763631374473299,
+      "map_norms": [
+        67.28438496611466,
+        67.28438496611469,
+        67.28438496611474
+      ]
+    },
+    {
+      "seed": 202610344,
+      "noise_scale": 0.3,
+      "iterations": 500,
+      "full_relative_error": 0.2757561571118577,
+      "map_norms": [
+        81.33341652774756,
+        81.33341652774763,
+        81.33341652774756
+      ]
+    },
+    {
+      "seed": 202610345,
+      "noise_scale": 0.3,
+      "iterations": 500,
+      "full_relative_error": 0.27576036110306085,
+      "map_norms": [
+        64.40535882126899,
+        64.40535882126908,
+        64.40535882126898
+      ]
+    },
+    {
+      "seed": 202610346,
+      "noise_scale": 1.0,
+      "iterations": 500,
+      "full_relative_error": 0.27482505688237713,
+      "map_norms": [
+        26.02405224767082,
+        26.02405224767082,
+        26.02405224767083
+      ]
+    },
+    {
+      "seed": 202610347,
+      "noise_scale": 1.0,
+      "iterations": 500,
+      "full_relative_error": 0.2771553046008169,
+      "map_norms": [
+        103.70881486870739,
+        103.7088148687073,
+        103.70881486870731
+      ]
+    }
+  ],
+  "best_full_relative_error": 0.27482505688237713,
+  "exact_witness_found": false,
+  "exclusion_proved": false
+}

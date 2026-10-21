@@ -1,0 +1,41 @@
+{
+  "status": "Numerical local discovery diagnostic; no larger restriction",
+  "source": "full A(5,5)",
+  "core": "exact M9 control from parity_structure.py",
+  "partial_contraction_ranks": [
+    225,
+    225
+  ],
+  "gram_eigenvalue_ranges": [
+    [
+      0.4392474032053524,
+      585.9186345975536
+    ],
+    [
+      0.43924740320533634,
+      585.9186345975539
+    ]
+  ],
+  "largest_whitened_singular_values": [
+    1.0000000000000084,
+    1.0000000000000084,
+    1.0000000000000053,
+    1.0000000000000038,
+    1.0000000000000018,
+    1.0000000000000007,
+    1.0000000000000004,
+    0.9999999999999998,
+    0.9999999999999993,
+    0.9999999999999991,
+    0.9999999999999991,
+    0.9999999999999989
+  ],
+  "direction_norms": [
+    1.000000000000009,
+    1.000000000000008
+  ],
+  "direction_cross_term": 1.000000000000008,
+  "hessian_quadratic_form": 8.881784197001252e-16,
+  "negative_curvature_found": false,
+  "interpretation": "A singular value above one gives second-order descent when adding one inner channel"
+}

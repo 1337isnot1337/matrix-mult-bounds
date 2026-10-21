@@ -1,0 +1,47 @@
+{
+  "base_main": "e41c77d7d4beb252e3c08dae0ad612cc7a987315",
+  "combined_unit_tests": {
+    "count": 233,
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/tests-main-e41c77d.txt"
+  },
+  "archive_replay": {
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/archive-replay.txt"
+  },
+  "post_report_adjustment_tests": {
+    "count": 8,
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/tests-paired-after-partition.txt"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "claim_ids": [
+    "AI-PAIRED-KOSZUL-001",
+    "EXP-PAIRED-BUDGET-002",
+    "AI-PAIRED-FINITE-TARGET-003",
+    "AI-PAIRED-ALL-KOSZUL-004",
+    "AI-MATRIX-KOSZUL-EULER-005",
+    "EXP-PAIRED-ALL-POWER-FRONTIER-006"
+  ],
+  "independent_review": false,
+  "improves_omega": false,
+  "all_power_checkpoint": {
+    "count": 237,
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/tests-all-power-before-main.txt",
+    "coverage": "Full suite including 12 paired tests, independent coefficient controls, complete finite frontier and every strict witness."
+  },
+  "integrated_main": "02936b7bd0843002e1552e25ea2affcb33789a7a",
+  "final_combined_unit_tests": {
+    "count": 246,
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/tests-main-02936b7.txt"
+  },
+  "final_archive_replay": {
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/archive-replay-final.txt"
+  }
+}

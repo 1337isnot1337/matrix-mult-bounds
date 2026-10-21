@@ -116,3 +116,16 @@ The subsequent exact A_2 -> M(2,3,4) integer mixed-map certificate is in
 Current construction question: can its cancellations be extended to larger
 cyclic targets or used to initialize a singular construction? Larger
 ordinary small-source pilot fits are discovery only, not exclusions.
+
+The exact M(2,3,4) construction merged through PR #18 at 9a4ee3d after
+current CI; its completed local and remote branch was removed. The first
+A_3 -> M(3,5,9) pilot found no certificate in eight real starts. Claim 047
+now excludes full-capacity direct sums of square targets at all powers
+using closed-orbit theory; it does not address the smaller H1100/H106
+targets or provide an asymptotic loss. Continue on unrestricted singular
+constructions, avoiding ordinary H1100 maps and full-capacity square aims.
+
+Claim 048 also rules out a general complex degeneration of the central
+4-by-4-by-4 multiplicity block to M2, using exact smooth-cubic identities
+and polystability. This strengthens claim 045 but does not cancel the
+scalar companion or rule out joint/higher-power extraction.

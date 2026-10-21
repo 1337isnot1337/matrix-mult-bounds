@@ -1,0 +1,27 @@
+{
+  "base_main": "a44451d822199b5141e5803d05ca18db5ce156da",
+  "topic_parent": "e0428487686278b5afa098c88f90feab1786d93f",
+  "python": "3.12.14",
+  "regression": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 323,
+    "status": "passed",
+    "elapsed_seconds": 95.11,
+    "log": "tests-main-a44451d.txt"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "status": "passed",
+    "reports": 5,
+    "scalar_grid_checks": 73856,
+    "filtration_inequalities": 353664,
+    "weight_candidates": 242668,
+    "log": "archive-replay-main-a44451d.txt"
+  },
+  "independent_mathematical_review": false,
+  "new_exponent_established": false,
+  "log_sha256": {
+    "tests-main-a44451d.txt": "8440dc29bf4990f112f7d5c9871d9d92b6c5f06304365b41d69e888fa2889be8",
+    "archive-replay-main-a44451d.txt": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  }
+}

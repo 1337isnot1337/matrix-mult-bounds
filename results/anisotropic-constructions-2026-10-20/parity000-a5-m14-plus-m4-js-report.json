@@ -1,0 +1,67 @@
+{
+  "source_lengths": [
+    5,
+    5
+  ],
+  "target_sizes": [
+    14,
+    4
+  ],
+  "seed": 2026102600,
+  "records": [
+    {
+      "step": 1,
+      "error": 0.9915796933133977,
+      "map_norms": [
+        1.9550917702825596,
+        14.943080264175299,
+        12.95984465762356
+      ],
+      "seconds": 36.182
+    },
+    {
+      "step": 2,
+      "error": 0.9841693335258942,
+      "map_norms": [
+        8.29512077094874,
+        8.128747609068729,
+        8.157419487826234
+      ],
+      "seconds": 73.629
+    },
+    {
+      "step": 3,
+      "error": 0.9743623716552509,
+      "map_norms": [
+        8.897188255703808,
+        8.91851729158888,
+        9.015910635392803
+      ],
+      "seconds_since_batch_start": 37.527
+    },
+    {
+      "step": 4,
+      "error": 0.9628307858446484,
+      "map_norms": [
+        9.611874793265763,
+        9.603199687515586,
+        9.704926727348527
+      ],
+      "seconds_since_batch_start": 75.628
+    },
+    {
+      "step": 5,
+      "error": 0.9513816375603587,
+      "map_norms": [
+        10.199651740993323,
+        10.277883855009977,
+        10.31028706012548
+      ],
+      "seconds_since_batch_start": 112.392
+    }
+  ],
+  "source_mode": "parity000",
+  "map_array_order": "source-major 225 by212; exported NPZ stores transposed target-major maps",
+  "exact_witness_found": false,
+  "new_exponent_established": false
+}
