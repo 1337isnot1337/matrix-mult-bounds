@@ -70,6 +70,33 @@ gluing now exclude all three in the stated construction class. This is
 an unreviewed obstruction, not a general degeneration exclusion or an
 improvement of the arithmetic exponent.
 
+## Abelian-normal coset Koszul obstruction
+
+The [normal-coset proof](research/ai/2026-10-20-normal-coset-koszul/research_note.md)
+restricts a coordinate-potential group construction to its abelian normal
+subgroup. The classical three-slice commutator bound then requires
+`3 sum k_a^2 - number(k_a=1) <= 2|H|` for common-coset vertex minima.
+An explicit rank-129 integer matrix versus source upper bound 128 closes
+the entire F8 size-nineteen maximum-three-fiber ansatz, including every
+variable plane and offset in the prior search. A separate difference-space
+argument bounds all size-nineteen F2^6 normal fibers by four.
+
+The same proof excludes the full stated F4^3:C3 size-twelve coordinate
+class and every C31:C6 candidate with all normal fibers at least two. It
+does not exclude general complex degenerations. The proof is unreviewed.
+A complete seven-fiber count screen with sizes in {2,3,4} leaves 1,566
+necessary patterns; they have no constructed directions, offsets or
+potentials. The exponent remains 9/4.
+
+The [rectangular coset followup](research/ai/2026-10-20-normal-coset-koszul/rectangular_note.md)
+now excludes the full size-nineteen F8 construction class, including every
+four-point, one-point and empty fiber pattern. A rank formula for rectangular
+normal blocks, a pair-averaging argument and 466,859 independently replayed
+alignment bytes cover all 505 cyclic count classes. Thus no balanced target
+in this stated F8^2:C7 coordinate-potential source-cost route beats 9/4.
+General tensor degenerations and unequal targets with a side below nineteen
+remain open. This written proof is unreviewed and gives no exponent improvement.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
