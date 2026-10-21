@@ -33,7 +33,7 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/polynomial-flags-20261020`.
+Branch: `research/balanced-polynomial-coefficients-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
 PR #4 merged the quantitative capacity theorem at `34c2367` after the
@@ -62,35 +62,35 @@ Current results:
 
 Current queue:
 
-The polynomial-flag checkpoint now excludes the old eta=(7,14,21,0)
-constant-matrix grading. Exact m=2,3,4 controls preserve their full limits
-through the normal-form transformations. Balanced orders remain open.
-The complex balanced pilot has a tiny masked residual but a large full-tensor
-error, so it supplies no construction. See ai/2026-10-20-singular-flags/.
-The immediate next question is exact coefficient matching in those flag
-coordinates; arbitrary Laurent input mixing remains a separate open route.
+The polynomial-flag package merged through PR #13 at `0d2ccb2` after current
+CI. Its tree matches the 208-test combined validation, and its fully merged
+local and remote branches were removed. The old eta=(7,14,21,0) order is
+excluded by the written flag criterion. Balanced orders remain open.
 
-1. Search a genuinely nondiagonal shared basis followed by nontrivial shared
-   weights. A fixed shared basis with regular invertible limit is already
-   excluded by concurrent 8e0a766. Shared weights are therefore essential.
-   The selected exact discovery model fixes an integer shared basis, searches
-   a Y coordinate injection and arbitrary rational output coefficients, and
-   accepts only an independently replayed coefficient witness. Identity m=2
-   is its positive control. The dense Hadamard m=4 pilot is UNSAT; an opposite Newton-basis pilot
-   adds nondiagonal input mixing. Its m=2 control is SAT and independently
-   replayed. Its m=4 query is also UNSAT; the result is finite and does not
-   exclude general nondiagonal shared maps.
-2. If a finite witness appears, extract its structural pattern, quantify all
-   source overhead and prove the required unbounded family. A single finite
-   matching-profile violation does not establish an exponent.
-3. If this ansatz is also obstructed, move to general Laurent shared maps or
-   a different source-wide mechanism. Do not repeat unchanged closed grids.
+1. Solve the monic balanced coefficient system exactly. A unimodular
+   elimination now leaves 53 integer polynomial equations in 57 parameters,
+   with degree at most 12. A nonsingular finite-field point would supply a
+   characteristic-zero existence certificate by Hensel lifting. No such
+   point or degeneration has been obtained. The F2 solver reports UNSAT in
+   this restricted finite ansatz, without a checked trace; larger-field
+   search failures do not exclude complex solutions.
+2. Allow general nonzero pivots or genuinely Laurent input mixing if the
+   monic coefficient class is obstructed. Fixing all pivots to one is not
+   claimed lossless. Avoid repeating the closed regular-shared and old
+   separated-weight experiments.
+3. Any finite construction must still yield a complete growth implication
+   or an unbounded family with source overhead below the stated threshold.
+   Small partial residuals and finite degenerations alone do not beat 9/4.
 
-Latest local extension validation: 184 combined tests pass after integrating
+The exact equations and frozen discovery reports are in
+ai/2026-10-20-balanced-coefficients/. Exact reconstruction and formal
+Jacobian controls pass; new experiments remain noncertificates.
+
+Historical local extension validation: 184 combined tests pass after integrating
 main daeae6e, with its intermediate-weight covers. The report is
 results/mixed-restrictions-2026-10-20/tests-laurent-after-daeae6e.txt.
 The earlier standalone extension checkpoint passed 179 tests.
-Latest merged validation: 174 combined tests after integrating 424dd92;
+Earlier merged validation: 174 combined tests after integrating 424dd92;
 the earlier standalone capacity checkpoint passed 73 tests and the full
 five-part archive replay
 under Python 3.12.3 / SymPy 1.14.0. Logs are in

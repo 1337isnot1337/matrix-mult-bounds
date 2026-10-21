@@ -1,0 +1,48 @@
+{
+  "input": "monic-m4.json",
+  "input_sha256": "f65a3bca0f64930dc082e9a9aae00612c4d03ff1af3863c75e745e6b7739df55",
+  "scope": "Floating full-error diagnostic on a bounded log-parameter interval.",
+  "reports": [
+    {
+      "index": 0,
+      "epsilon": 0.9366269041168691,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 2726696.950284249,
+      "masked_relative_error": 1.2418083687868309e-08
+    },
+    {
+      "index": 1,
+      "epsilon": 0.9699967616881263,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 25.81423021701064,
+      "masked_relative_error": 0.00010817642012604196
+    },
+    {
+      "index": 2,
+      "epsilon": 0.9652233005603547,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 126.19187426697043,
+      "masked_relative_error": 6.168054942266618e-05
+    },
+    {
+      "index": 3,
+      "epsilon": 0.9666811144640566,
+      "log_epsilon_interval": [
+        -10,
+        0
+      ],
+      "full_relative_error": 1216.066025360138,
+      "masked_relative_error": 0.00025588483538497485
+    }
+  ],
+  "certified_degeneration": false
+}
