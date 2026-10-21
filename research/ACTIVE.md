@@ -5,6 +5,44 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+## Constructive-spectrum continuation
+
+Branch: `research/constructive-spectrum-20261020`, PR #28, ready for review.
+Pushed checkpoints `5f9b203`, `e042848`, and `e44aaff` preserve the oriented
+endpoint, nonmonic coefficient, source-construction, and rank-obstruction
+work. Checkpoint `eed3cbc` adds higher-rank Hankel obstructions and exact
+rational constructions, including main `2a7c503`. The subsequent verifier
+repair includes main `75bf6a3`: it removes an undeclared NumPy import and
+passes 344 tests with only the maintained dependencies available. The current
+integration also includes main `fb280ab`, with 350 tests and all five
+archive replays passing in the same restricted dependency environment.
+All statements retain the evidence status in `claims.json`.
+
+The parity A(5,5) target M14 plus M4 is closed by a written obstruction
+that also covers singular degenerations. All ordinary square direct-sum
+targets that could pass the stated finite score are closed in
+all 51 source formats of leg dimension below 784. Do not restart numerical
+searches in those excluded classes. A(7,8) to M25 plus M5 is a remaining
+ordinary square target at the first surviving source size; its maps are
+missing. The former A(5,6) M16 targets are excluded even before further
+blocks are appended. The higher-rank theorem requires 3r<=a+b-1; explicit
+varying-scheme pencils show why this hypothesis cannot simply be dropped.
+
+Productive open questions include singular degenerations of the full
+sources, unequal rectangular targets, tensor powers, the nonmonic flag
+system, and an interior-spectrum higher-difference theorem. The actual
+family A(a,a) to M(2a−2) plus M(a−2) supplies exact multi-block controls,
+but no exponent improvement. The proposed additional scalar has mixed
+coefficients and must not be treated as a construction.
+
+New composition controls are A(2,2) plus one scalar to M3, and A(5,6)
+to M8 plus A(2,3). The extra source scalar in the first identity is
+essential to that certificate. Scalar-defect recycling, retained residual
+sources, and constructions beyond the excluded ordinary one-copy formats
+remain active questions.
+
+## Earlier coordinated integrations
+
 The subsequent four-lane main integration at `a83bc24`, combined with the
 graded-obstruction checkpoint `635bf48`, passes 162 tests. The new proofs
 close two graded-weight regions but leave intermediate slopes and arbitrary

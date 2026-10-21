@@ -1,0 +1,875 @@
+{
+  "conditional_direct_sum_certificates": [
+    {
+      "a": 5,
+      "b": 5,
+      "conditional_exponent": [
+        2243,
+        1000
+      ],
+      "lower_integer_sum": 21954,
+      "new_exponent_established": false,
+      "source_comparison_cube": 21952,
+      "strict_power_comparisons": [
+        true,
+        true
+      ],
+      "target_constructed": false,
+      "target_direct_sum_sizes": [
+        14,
+        4
+      ],
+      "term_lower_integers": [
+        20708,
+        1246
+      ]
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "conditional_exponent": [
+        281,
+        125
+      ],
+      "lower_integer_sum": 15635,
+      "new_exponent_established": false,
+      "source_comparison_cube": 15625,
+      "strict_power_comparisons": [
+        true,
+        true
+      ],
+      "target_constructed": false,
+      "target_direct_sum_sizes": [
+        12,
+        3
+      ],
+      "term_lower_integers": [
+        14972,
+        663
+      ]
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "conditional_exponent": [
+        5623,
+        2500
+      ],
+      "lower_integer_sum": 10651,
+      "new_exponent_established": false,
+      "source_comparison_cube": 10648,
+      "strict_power_comparisons": [
+        true,
+        true
+      ],
+      "target_constructed": false,
+      "target_direct_sum_sizes": [
+        10,
+        3
+      ],
+      "term_lower_integers": [
+        9986,
+        665
+      ]
+    }
+  ],
+  "exact_monomial_controls": [
+    {
+      "all_target_coefficients_checked": 64,
+      "exact_integer_control_verified": true,
+      "new_exponent_established": false,
+      "nonzero_target_coefficients": 8,
+      "source_coordinates_per_target_leg": [
+        [
+          0,
+          3,
+          8,
+          11
+        ],
+        [
+          0,
+          6,
+          4,
+          10
+        ],
+        [
+          0,
+          6,
+          4,
+          10
+        ]
+      ],
+      "source_lengths": [
+        2,
+        2
+      ],
+      "source_mode": "parity110",
+      "target_shape": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "all_target_coefficients_checked": 144,
+      "exact_integer_control_verified": true,
+      "new_exponent_established": false,
+      "nonzero_target_coefficients": 12,
+      "source_coordinates_per_target_leg": [
+        [
+          0,
+          4,
+          15,
+          19
+        ],
+        [
+          0,
+          8,
+          16,
+          5,
+          13,
+          21
+        ],
+        [
+          0,
+          8,
+          6,
+          14,
+          12,
+          20
+        ]
+      ],
+      "source_lengths": [
+        2,
+        3
+      ],
+      "source_mode": "parity110",
+      "target_shape": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "all_target_coefficients_checked": 15625,
+      "exact_integer_control_verified": true,
+      "new_exponent_established": false,
+      "nonzero_target_coefficients": 125,
+      "source_coordinates_per_target_leg": [
+        [
+          0,
+          6,
+          12,
+          18,
+          24,
+          50,
+          56,
+          62,
+          68,
+          74,
+          100,
+          106,
+          112,
+          118,
+          124,
+          150,
+          156,
+          162,
+          168,
+          174,
+          200,
+          206,
+          212,
+          218,
+          224
+        ],
+        [
+          0,
+          45,
+          90,
+          135,
+          180,
+          10,
+          55,
+          100,
+          145,
+          190,
+          20,
+          65,
+          110,
+          155,
+          200,
+          30,
+          75,
+          120,
+          165,
+          210,
+          40,
+          85,
+          130,
+          175,
+          220
+        ],
+        [
+          0,
+          30,
+          60,
+          90,
+          120,
+          25,
+          55,
+          85,
+          115,
+          145,
+          50,
+          80,
+          110,
+          140,
+          170,
+          75,
+          105,
+          135,
+          165,
+          195,
+          100,
+          130,
+          160,
+          190,
+          220
+        ]
+      ],
+      "source_lengths": [
+        5,
+        5
+      ],
+      "source_mode": "parity110",
+      "target_shape": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "exact_parity_score_certificates": [
+    {
+      "capacity_cubed": [
+        "9567936",
+        "1"
+      ],
+      "mode": "parity000",
+      "not_excluded_by_this_bound": true,
+      "partition_sums": [
+        [
+          "339",
+          "1"
+        ],
+        [
+          "339",
+          "1"
+        ],
+        [
+          "339",
+          "1"
+        ]
+      ],
+      "score_product": [
+        "12769",
+        "3136"
+      ],
+      "score_z": [
+        "113",
+        "56"
+      ],
+      "shifted_even_dimensions": [
+        113,
+        113,
+        113
+      ],
+      "shifted_odd_dimensions": [
+        112,
+        112,
+        112
+      ],
+      "source_leg_dimension": 225,
+      "target_constructed": false,
+      "target_direct_sum_sizes": [
+        14,
+        4
+      ],
+      "target_leg_dimension": 212,
+      "target_leg_dimension_cubed": 9528128
+    },
+    {
+      "capacity_cubed": [
+        "9625057",
+        "1"
+      ],
+      "mode": "parity110",
+      "not_excluded_by_this_bound": true,
+      "partition_sums": [
+        [
+          "338",
+          "1"
+        ],
+        [
+          "338",
+          "1"
+        ],
+        [
+          "337",
+          "1"
+        ]
+      ],
+      "score_product": [
+        "4",
+        "1"
+      ],
+      "score_z": [
+        "2",
+        "1"
+      ],
+      "shifted_even_dimensions": [
+        112,
+        112,
+        113
+      ],
+      "shifted_odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "source_leg_dimension": 225,
+      "target_constructed": false,
+      "target_direct_sum_sizes": [
+        14,
+        4
+      ],
+      "target_leg_dimension": 212,
+      "target_leg_dimension_cubed": 9528128
+    }
+  ],
+  "exact_parity_slice_controls": [
+    {
+      "coefficient_generator": "xorshift32(13,17,5), unsigned state modulo101",
+      "slices": [
+        {
+          "axis": 0,
+          "exact_rank_mod_prime": 224,
+          "prime": 101,
+          "rational_rank_lower_bound": 224,
+          "xorshift32_seed": 2026102800
+        },
+        {
+          "axis": 1,
+          "exact_rank_mod_prime": 224,
+          "prime": 101,
+          "rational_rank_lower_bound": 224,
+          "xorshift32_seed": 2026102801
+        },
+        {
+          "axis": 2,
+          "exact_rank_mod_prime": 224,
+          "prime": 101,
+          "rational_rank_lower_bound": 224,
+          "xorshift32_seed": 2026102802
+        }
+      ],
+      "source_lengths": [
+        5,
+        5
+      ],
+      "source_mode": "parity000"
+    },
+    {
+      "coefficient_generator": "xorshift32(13,17,5), unsigned state modulo101",
+      "slices": [
+        {
+          "axis": 0,
+          "exact_rank_mod_prime": 225,
+          "prime": 101,
+          "rational_rank_lower_bound": 225,
+          "xorshift32_seed": 2026102800
+        },
+        {
+          "axis": 1,
+          "exact_rank_mod_prime": 225,
+          "prime": 101,
+          "rational_rank_lower_bound": 225,
+          "xorshift32_seed": 2026102801
+        },
+        {
+          "axis": 2,
+          "exact_rank_mod_prime": 225,
+          "prime": 101,
+          "rational_rank_lower_bound": 225,
+          "xorshift32_seed": 2026102802
+        }
+      ],
+      "source_lengths": [
+        5,
+        5
+      ],
+      "source_mode": "parity110"
+    }
+  ],
+  "exact_step_score_certificates": [
+    {
+      "a": 4,
+      "b": 4,
+      "capacity_cubed": [
+        "1242283751841220250867965387",
+        "1304543330763376951296"
+      ],
+      "excluded_target": [
+        10,
+        10,
+        11
+      ],
+      "integer_comparison": {
+        "left": "1242283751841220250867965387",
+        "right": "1578497430223686111068160000"
+      },
+      "mode": "step",
+      "partition_sums": [
+        [
+          "1179539731",
+          "20901888"
+        ],
+        [
+          "1179539731",
+          "20901888"
+        ],
+        [
+          "892885267",
+          "20901888"
+        ]
+      ],
+      "score_t": [
+        "3",
+        "4"
+      ],
+      "score_z": [
+        "1",
+        "7"
+      ],
+      "strict_comparison_verified": true,
+      "target_volume_squared": 1210000
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "capacity_cubed": [
+        "6156830764167530989878185849875",
+        "2254250875559115371839488"
+      ],
+      "excluded_target": [
+        12,
+        12,
+        13
+      ],
+      "integer_comparison": {
+        "left": "6156830764167530989878185849875",
+        "right": "7899760700295354963228352315392"
+      },
+      "mode": "step",
+      "partition_sums": [
+        [
+          "19879327915",
+          "250822656"
+        ],
+        [
+          "19879327915",
+          "250822656"
+        ],
+        [
+          "15579510955",
+          "250822656"
+        ]
+      ],
+      "score_t": [
+        "3",
+        "4"
+      ],
+      "score_z": [
+        "1",
+        "7"
+      ],
+      "strict_comparison_verified": true,
+      "target_volume_squared": 3504384
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "capacity_cubed": [
+        "1729519431658233496126529661915452843166707965691623655074078603694742699136951",
+        "231395957660612615471104000000000000000000000000000000000000000000000000"
+      ],
+      "excluded_target": [
+        14,
+        14,
+        14
+      ],
+      "integer_comparison": {
+        "left": "1729519431658233496126529661915452843166707965691623655074078603694742699136951",
+        "right": "1742304193460058470243834527744000000000000000000000000000000000000000000000000"
+      },
+      "mode": "step",
+      "partition_sums": [
+        [
+          "129037172478224577873498151",
+          "1174405120000000000000000"
+        ],
+        [
+          "129037172478224577873498151",
+          "1174405120000000000000000"
+        ],
+        [
+          "103871348478224577873498151",
+          "1174405120000000000000000"
+        ]
+      ],
+      "score_t": [
+        "25",
+        "32"
+      ],
+      "score_z": [
+        "1",
+        "7"
+      ],
+      "strict_comparison_verified": true,
+      "target_volume_squared": 7529536
+    }
+  ],
+  "improving_target_constructed": false,
+  "new_exponent_established": false,
+  "support_degenerations": [
+    {
+      "a": 2,
+      "active_leg_dimensions": [
+        12,
+        12,
+        12
+      ],
+      "b": 2,
+      "minimum_coordinate_slice_ranks": [
+        1,
+        1,
+        2
+      ],
+      "minimum_valuation": 1,
+      "mode": "step",
+      "retained_parity_patterns": {
+        "000": 14,
+        "011": 14,
+        "101": 14,
+        "110": 2
+      },
+      "retained_terms": 44,
+      "source_leg_dimension": 12,
+      "valuation_counts": {
+        "1": 44,
+        "2": 20
+      }
+    },
+    {
+      "a": 2,
+      "active_leg_dimensions": [
+        12,
+        12,
+        12
+      ],
+      "b": 2,
+      "minimum_coordinate_slice_ranks": [
+        2,
+        2,
+        2
+      ],
+      "minimum_valuation": -1,
+      "mode": "parity000",
+      "retained_parity_patterns": {
+        "011": 16,
+        "101": 16,
+        "110": 16
+      },
+      "retained_terms": 48,
+      "source_leg_dimension": 12,
+      "valuation_counts": {
+        "-1": 48,
+        "0": 16
+      }
+    },
+    {
+      "a": 2,
+      "active_leg_dimensions": [
+        12,
+        12,
+        12
+      ],
+      "b": 2,
+      "minimum_coordinate_slice_ranks": [
+        2,
+        2,
+        2
+      ],
+      "minimum_valuation": 0,
+      "mode": "parity110",
+      "retained_parity_patterns": {
+        "000": 16,
+        "011": 16,
+        "101": 16
+      },
+      "retained_terms": 48,
+      "source_leg_dimension": 12,
+      "valuation_counts": {
+        "0": 48,
+        "1": 16
+      }
+    },
+    {
+      "a": 4,
+      "active_leg_dimensions": [
+        112,
+        112,
+        112
+      ],
+      "b": 4,
+      "minimum_coordinate_slice_ranks": [
+        1,
+        1,
+        2
+      ],
+      "minimum_valuation": 1,
+      "mode": "step",
+      "retained_parity_patterns": {
+        "000": 688,
+        "011": 688,
+        "101": 688,
+        "110": 336
+      },
+      "retained_terms": 2400,
+      "source_leg_dimension": 112,
+      "valuation_counts": {
+        "1": 2400,
+        "2": 1696
+      }
+    },
+    {
+      "a": 4,
+      "active_leg_dimensions": [
+        112,
+        112,
+        112
+      ],
+      "b": 4,
+      "minimum_coordinate_slice_ranks": [
+        8,
+        8,
+        8
+      ],
+      "minimum_valuation": -1,
+      "mode": "parity000",
+      "retained_parity_patterns": {
+        "011": 1024,
+        "101": 1024,
+        "110": 1024
+      },
+      "retained_terms": 3072,
+      "source_leg_dimension": 112,
+      "valuation_counts": {
+        "-1": 3072,
+        "0": 1024
+      }
+    },
+    {
+      "a": 4,
+      "active_leg_dimensions": [
+        112,
+        112,
+        112
+      ],
+      "b": 4,
+      "minimum_coordinate_slice_ranks": [
+        8,
+        8,
+        8
+      ],
+      "minimum_valuation": 0,
+      "mode": "parity110",
+      "retained_parity_patterns": {
+        "000": 1024,
+        "011": 1024,
+        "101": 1024
+      },
+      "retained_terms": 3072,
+      "source_leg_dimension": 112,
+      "valuation_counts": {
+        "0": 3072,
+        "1": 1024
+      }
+    },
+    {
+      "a": 4,
+      "active_leg_dimensions": [
+        160,
+        160,
+        160
+      ],
+      "b": 5,
+      "minimum_coordinate_slice_ranks": [
+        1,
+        1,
+        2
+      ],
+      "minimum_valuation": 1,
+      "mode": "step",
+      "retained_parity_patterns": {
+        "000": 1300,
+        "011": 1300,
+        "101": 1300,
+        "110": 700
+      },
+      "retained_terms": 4600,
+      "source_leg_dimension": 160,
+      "valuation_counts": {
+        "1": 4600,
+        "2": 3400
+      }
+    },
+    {
+      "a": 4,
+      "active_leg_dimensions": [
+        160,
+        160,
+        160
+      ],
+      "b": 5,
+      "minimum_coordinate_slice_ranks": [
+        10,
+        10,
+        10
+      ],
+      "minimum_valuation": -1,
+      "mode": "parity000",
+      "retained_parity_patterns": {
+        "011": 2000,
+        "101": 2000,
+        "110": 2000
+      },
+      "retained_terms": 6000,
+      "source_leg_dimension": 160,
+      "valuation_counts": {
+        "-1": 6000,
+        "0": 2000
+      }
+    },
+    {
+      "a": 4,
+      "active_leg_dimensions": [
+        160,
+        160,
+        160
+      ],
+      "b": 5,
+      "minimum_coordinate_slice_ranks": [
+        10,
+        10,
+        10
+      ],
+      "minimum_valuation": 0,
+      "mode": "parity110",
+      "retained_parity_patterns": {
+        "000": 2000,
+        "011": 2000,
+        "101": 2000
+      },
+      "retained_terms": 6000,
+      "source_leg_dimension": 160,
+      "valuation_counts": {
+        "0": 6000,
+        "1": 2000
+      }
+    },
+    {
+      "a": 5,
+      "active_leg_dimensions": [
+        225,
+        225,
+        225
+      ],
+      "b": 5,
+      "minimum_coordinate_slice_ranks": [
+        1,
+        1,
+        2
+      ],
+      "minimum_valuation": 1,
+      "mode": "step",
+      "retained_parity_patterns": {
+        "000": 2495,
+        "011": 2480,
+        "101": 2480,
+        "110": 1420
+      },
+      "retained_terms": 8875,
+      "source_leg_dimension": 225,
+      "valuation_counts": {
+        "1": 8875,
+        "2": 6750
+      }
+    },
+    {
+      "a": 5,
+      "active_leg_dimensions": [
+        225,
+        225,
+        225
+      ],
+      "b": 5,
+      "minimum_coordinate_slice_ranks": [
+        12,
+        12,
+        12
+      ],
+      "minimum_valuation": -1,
+      "mode": "parity000",
+      "retained_parity_patterns": {
+        "011": 3900,
+        "101": 3900,
+        "110": 3900
+      },
+      "retained_terms": 11700,
+      "source_leg_dimension": 225,
+      "valuation_counts": {
+        "-1": 11700,
+        "0": 3925
+      }
+    },
+    {
+      "a": 5,
+      "active_leg_dimensions": [
+        225,
+        225,
+        225
+      ],
+      "b": 5,
+      "minimum_coordinate_slice_ranks": [
+        12,
+        12,
+        12
+      ],
+      "minimum_valuation": 0,
+      "mode": "parity110",
+      "retained_parity_patterns": {
+        "000": 3925,
+        "011": 3900,
+        "101": 3900
+      },
+      "retained_terms": 11725,
+      "source_leg_dimension": 225,
+      "valuation_counts": {
+        "0": 11725,
+        "1": 3900
+      }
+    }
+  ]
+}

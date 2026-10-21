@@ -1,0 +1,59 @@
+{
+  "source_lengths": [
+    5,
+    5
+  ],
+  "source_mode": "parity110",
+  "source_nonzero_coefficients": 11725,
+  "source_diagonal_scaling": "results/anisotropic-constructions-2026-10-20/parity_balancing_preconditioner.npz",
+  "source_scaling_sha256": "4516d01f6376fc557e37a6ef2c0f586f206d759729b57a631aeff1f55a438326",
+  "target_shape": null,
+  "target_direct_sum_sizes": [
+    14,
+    4
+  ],
+  "map_class": "arbitrary dense constant maps; no weight restriction",
+  "complex_maps": false,
+  "maximum_iterations": 10,
+  "starts_completed": 1,
+  "records": [
+    {
+      "seed": 2026102801,
+      "iterations": 10,
+      "full_relative_error": 0.9125552900171525,
+      "trajectory": [
+        [
+          1,
+          0.9915652124240075
+        ],
+        [
+          6,
+          0.9410421829098596
+        ],
+        [
+          10,
+          0.9125552900171525
+        ]
+      ],
+      "map_norms": [
+        46.60280745856197,
+        46.60280745856197,
+        46.60280745856198
+      ]
+    }
+  ],
+  "initial_array": null,
+  "initial_sha256": null,
+  "initial_noise": null,
+  "control": {
+    "integer_control_full_relative_error": 0.0,
+    "after_one_sweep_error": 2.4626204203984604e-15,
+    "parity110_control_full_relative_error": 0.0,
+    "single_block_direct_sum_control_full_relative_error": 0.0
+  },
+  "best_full_relative_error": 0.9125552900171525,
+  "full_coefficient_count": 9528128,
+  "exact_witness_found": false,
+  "exclusion_proved": false,
+  "new_exponent_established": false
+}
