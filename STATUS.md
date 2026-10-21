@@ -1212,3 +1212,17 @@ First rank at least8 therefore leaves at least3, above the target ceiling2.
 At ordinary first order one effective rank is at most10 and the total is
 at most22. Pairs12,10 remain open. The proofs are written and unreviewed;
 no matrix-multiplication exponent improvement follows.
+
+The [biform third-core theorem](research/ai/2026-10-21-biform-third-core/proof.md)
+identifies the entire third tensor as the4,2,2 outer-product tensor times
+a4-by6-by6 core. Its matrices lie in the kernel of ordinary biform
+multiplication of degrees(1,2) and(2,1), under determinant-one basis
+changes. This gives a short rank-one exclusion and improves the actual
+two-hyperplane loss bound from5 to the sharp value3. A general sharp
+projection lemma for losses1,3 and conditioned obstruction minimum4 then
+exclude every arbitrary boundary first pair of dimensions at least11,9,
+in either order, including delayed unequal growth. The necessary ordinary
+first-rank sum at these flags is now at most20. Pure boundary pairs12,8
+and10,10 remain at that threshold; a retained general losses2,2 control
+shows why the new projection lemma alone cannot close them. These are
+written unreviewed proofs, not an exponent improvement.
