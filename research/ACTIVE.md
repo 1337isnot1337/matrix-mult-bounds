@@ -1,18 +1,19 @@
 # Integrated research coordination
 
-## Recovered constructive checkpoint
+## Constructive continuation after the ordinary frontier update
 
-The constructive worker has recovered exact claims 118 through 122 and 124
-packages after the executor restored an older filesystem snapshot.
-PR54 contains the spin assembly work. The new M(3,4,28) section has
-three response allowances (24,36,36) for M(27,28,28); the full rectangle
-remains unconstructed. Its extension and changed local maps are active
-construction questions. The fixed weighted-spin/radix family is now
-excluded even for Laurent limits, so unchanged repeats of that route
-are closed. The double-endpoint theorem is now recovered with fresh rational graphs,
-exact response190 and first preimage779. Its old byte identity is not
-asserted. Larger compatible matrix vertices and changed local maps remain
-the construction objectives.
+PR54 preserves recovered claims118 through122 and124, and adds exact
+claims125 and126. The new auxiliary M(1,1,9) cancels a specified scalar
+defect if the missing reduced maps can be found. Its six full mixed
+responses vanish. An actual changed source basis escapes the old
+compression hyperplane, but no M9 identity is constructed.
+
+The concurrent Hankel–Segre proof in PR75 at1721a4e9 closes the former
+ordinary A8 matrix endpoints within its stated scope. Do not repeat
+ordinary A8 completion searches without addressing that written proof.
+The constructive agents now pursue singular reduced-source maps and
+changed local-basis limits. All finite numerical residuals are discovery
+measurements, not witnesses. No exponent below9/4 is established.
 
 
 The mixed-frame worker now studies

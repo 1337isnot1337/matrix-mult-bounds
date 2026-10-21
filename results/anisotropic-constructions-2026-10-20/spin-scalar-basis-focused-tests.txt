@@ -1,0 +1,55 @@
+Command: python -S -m unittest discover -s tests -p test_spin_scalar_corner.py -v
+test_all_source_coefficients_mixed_responses_and_exact_ranks (test_spin_scalar_corner.SpinScalarCornerTests.test_all_source_coefficients_mixed_responses_and_exact_ranks) ... ok
+test_changed_nonzero_target_coefficient_is_rejected (test_spin_scalar_corner.SpinScalarCornerTests.test_changed_nonzero_target_coefficient_is_rejected) ... ok
+test_changed_response_certificate_is_rejected (test_spin_scalar_corner.SpinScalarCornerTests.test_changed_response_certificate_is_rejected) ... ok
+test_small_identity_can_pass_while_mixed_compatibility_fails (test_spin_scalar_corner.SpinScalarCornerTests.test_small_identity_can_pass_while_mixed_compatibility_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 6.407s
+
+OK
+
+Command: python -S -m unittest discover -s tests -p test_parity_structure_spin_basis_escape.py -v
+test_complete_local_identity_and_original_source_escape (test_parity_structure_spin_basis_escape.SpinBasisEscapeTests.test_complete_local_identity_and_original_source_escape) ... ok
+test_false_zero_hyperplane_report_is_rejected (test_parity_structure_spin_basis_escape.SpinBasisEscapeTests.test_false_zero_hyperplane_report_is_rejected) ... ok
+test_nonzero_to_nonzero_map_tamper_is_rejected (test_parity_structure_spin_basis_escape.SpinBasisEscapeTests.test_nonzero_to_nonzero_map_tamper_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.125s
+
+OK
+
+Command: python -S -m unittest discover -s tests -p test_sun_local_audit.py -v
+test_complete_local_replay (test_sun_local_audit.SunLocalAuditTests.test_complete_local_replay) ... ok
+test_packet_lift_obstruction_and_exact_positive_control (test_sun_local_audit.SunLocalAuditTests.test_packet_lift_obstruction_and_exact_positive_control) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.369s
+
+OK
+
+Command: python -S -m unittest discover -s tests -p test_research.py -v
+test_closed_product_matches_recurrence (test_research.ProfileTests.test_closed_product_matches_recurrence) ... ok
+test_concavity_identity (test_research.ProfileTests.test_concavity_identity) ... ok
+test_conditional_numeric_example (test_research.ProfileTests.test_conditional_numeric_example) ... ok
+test_diagonal_join (test_research.ProfileTests.test_diagonal_join) ... ok
+test_exact_rank_bound (test_research.ProfileTests.test_exact_rank_bound) ... ok
+test_normalization (test_research.ProfileTests.test_normalization) ... ok
+test_replication (test_research.ProfileTests.test_replication) ... ok
+test_tripling_equality_above_diagonal (test_research.ProfileTests.test_tripling_equality_above_diagonal) ... ok
+test_archive_manifest (test_research.RepositoryTests.test_archive_manifest) ... ok
+test_claim_ledger_status (test_research.RepositoryTests.test_claim_ledger_status) ... ok
+test_normalization_retains_exact_evidence (test_research.RepositoryTests.test_normalization_retains_exact_evidence) ... ok
+test_relative_markdown_links (test_research.RepositoryTests.test_relative_markdown_links) ... ok
+test_replayed_coverage (test_research.RepositoryTests.test_replayed_coverage) ... ok
+test_source_registry (test_research.RepositoryTests.test_source_registry) ... ok
+test_full_convolution_recognition (test_research.SupportTests.test_full_convolution_recognition) ... ok
+test_nonnegative_weights_and_exact_zero_support (test_research.SupportTests.test_nonnegative_weights_and_exact_zero_support) ... ok
+test_nonshared_legs_are_disjoint (test_research.SupportTests.test_nonshared_legs_are_disjoint) ... ok
+test_recorded_witness_scores_are_exact (test_research.SupportTests.test_recorded_witness_scores_are_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.153s
+
+OK
+

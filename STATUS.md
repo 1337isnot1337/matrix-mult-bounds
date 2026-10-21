@@ -112,11 +112,38 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records seventy-two local claims
+The constructive continuation records seventy-four local claims
 in [the claim ledger](research/claims.json). This checkpoint adds
-claims 118 through 122 and 124 to the earlier sixty-six claims. All general arguments are
+claims 118 through 122 and 124 through 126 to the earlier sixty-six claims. All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [auxiliary corner](research/ai/2026-10-20-anisotropic-constructions/spin_scalar_corner.md)
+now gives exact M(1,1,9) with full response ranks (15,9,9) and six
+vanishing mixed responses against the reduced search's ambient spaces.
+It would cancel nine copies of a shared-first-factor scalar defect;
+the reduced maps with that defect remain missing. A second agent
+independently reconstructed the source and all compatibility checks.
+
+An [exact source-basis control](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_basis_escape.md)
+escapes claim124's fixed compression hyperplane: its three selected
+coefficients are (1,2,7), with alternating combination6. This enlarged
+family still has no M9 witness. The failed finite numerical pilots and
+their actual residuals are saved separately from exact acceptance.
+
+The [27-test integration receipt](results/anisotropic-constructions-2026-10-20/spin-scalar-basis-focused-validation.json)
+passes all seven new mathematical tests, both tests from main's external
+preprint audit, and all18 repository checks. Main bf3b7d8 is preserved.
+Earlier complete regression and archive receipts remain linked below;
+this receipt does not count a second complete-suite run.
+
+The concurrent [ordinary Hankel–Segre application](https://github.com/1337isnot1337/matrix-mult-bounds/blob/1721a4e9d7ac3eb0762075c235be3afa99a3e8fa/research/ai/2026-10-21-hankel-pencil-degree/application.md),
+pinned at1721a4e9 in PR75, supplies a written unreviewed exclusion of
+the former ordinary A8 rectangle M(27,28,28), and all improving ordinary
+A8 square sums. Its argument leaves singular degenerations outside its
+scope. The current construction effort therefore targets singular maps;
+the earlier response budgets remain exact necessary tests for their
+fixed cores, without asserting that the larger ordinary target exists.
 
 A [complete fourth vertex](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex.md)
 now gives exact rational A(8,8) restrictions to M(3,4,32) and its
@@ -125,8 +152,8 @@ common-channel section M(3,4,28). The section has response ranks
 (24,36,36) for the proposed M(27,28,28) rectangle. All 112,896
 section coefficients are checked. The tiny target alone was already
 known by cyclic rotation; the new evidence concerns the specified spin
-chart, residue lift and response spaces. The larger rectangle remains
-unconstructed.
+chart, residue lift and response spaces. A singular larger rectangle remains
+unconstructed; the ordinary case is excluded by the concurrent proof above.
 
 An [exact two-endpoint repair](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint.md) changes both retained maps of the balanced module while preserving M(3,3,27). Its complete first response vanishes at two specified endpoint coordinates. The remaining response rank is exactly190, giving a first preimage of dimension779. The current rational coefficients were freshly reconstructed; they are explicitly distinguished from the lost original implementation. Every original-source and target coefficient passes, and a second agent separately replays both endpoint responses. The remaining matrix-unit extension equations are unsolved.
 
@@ -1375,6 +1402,26 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+## Local audit of an external tensor-degeneration preprint
+
+The [exact local audit](research/ai/2026-10-21-sun-local-audit/README.md)
+reconstructs selected maps from arXiv:2610.13971v1, with the inspected HTML
+pinned by hash. It finds a repairable scalar normalization omission and
+verifies four local Laurent leading tensors, four generic endpoint blocks,
+and 256 crossed-group identities. The complete M32 maps remain unverified;
+the preprint's claimed exponent improvements are not adopted.
+
+A separate elementary centroid argument excludes a bridge that first
+collapses to the fixed zero-fibre tensor D256 tensor M2 and then seeks M32.
+This narrower obstruction does not exclude every enriched assembly.
+The audit and written proof remain AI-derived and externally unreviewed.
+
+The [packetwise follow-up](research/ai/2026-10-21-sun-local-audit/packet_lift.md)
+shows that an individual printed generic packet contribution contains M2,
+whose exact Koszul rank exceeds that packet's stated border-cost ceiling.
+It excludes a lift preserving each such contribution, while allowing the
+possibility of different global maps with interpacket cancellation.
 
 ## Source-weight windows and full original-source Laurent fibers
 

@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The scalar-corner and changed-source-basis packages, claims125 and126,
+are AI-derived constructions from this owner-directed session. They adopt
+the existing cyclic source and local spin identity with their prior
+credits. The former has a separate source reconstruction by another
+agent; the latter has another agent's exact replay and convention check.
+These checks are within one generating session. The reduced scalar-defect
+maps and an improving matrix tensor are missing. The source-basis pilot
+residuals are finite discovery data, not exact or asymptotic certificates.
+The concurrent ordinary Hankel–Segre exclusion is credited to PR75 at
+1721a4e9, and is not a new result of this checkpoint.
+
 The `2026-10-21-mixed-axis-family` package is same-session AI-derived
 work directed by the repository owner. It adopts the existing source,
 virtual corrections, rank gap and stable-row projection with their credits.

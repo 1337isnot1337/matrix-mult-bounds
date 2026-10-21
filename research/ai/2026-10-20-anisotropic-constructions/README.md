@@ -7,6 +7,19 @@ established. The full-source rank-gap proof was checked by a second agent
 in this generating session; no external independent review or
 formalization is claimed.
 
+The [scalar corner](spin_scalar_corner.md) has exact response ranks
+(15,9,9), with all six mixed responses zero against the reduced search's
+ambient spaces. It provides a conditional scalar-defect repair; the
+required reduced maps are still missing. A separate
+[changed source-basis control](parity_structure_spin_basis_escape.md)
+escapes the fixed compression identity without constructing M9.
+
+The concurrent [Hankel–Segre application](https://github.com/1337isnot1337/matrix-mult-bounds/blob/1721a4e9d7ac3eb0762075c235be3afa99a3e8fa/research/ai/2026-10-21-hankel-pencil-degree/application.md)
+at1721a4e9 in PR75 excludes the former ordinary A8 exponent targets by
+a written unreviewed argument. The current positive question concerns
+singular limits outside that obstruction. Historical exact maps and
+necessary response budgets below retain their original scope.
+
 Construction work now includes exact full-source restrictions
 A(5,5) to M9 and to M8 plus M3; A(5,6) to M10 and to
 [M8 plus A(2,3)](parity_structure_residual.md); and a

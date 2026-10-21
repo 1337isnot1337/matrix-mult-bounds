@@ -1,0 +1,204 @@
+{
+  "chart": "Two digits, three independent SL2 source factors per digit, Gauss coordinates",
+  "source": "A(4,4)",
+  "target": "M9",
+  "parameters": 18,
+  "seed": 183,
+  "control": {
+    "local_source_terms": 64,
+    "local_coefficients_checked": 729,
+    "local_target": "M3 plus tr(X)tr(Y)tr(Z)",
+    "local_identity_exact": true,
+    "two_digit_source_terms_per_selected_coefficient": 4096,
+    "closure124_selected_points": [
+      [
+        0,
+        1,
+        39
+      ],
+      [
+        30,
+        31,
+        39
+      ],
+      [
+        30,
+        31,
+        69
+      ]
+    ],
+    "selected_coefficient_numerators_over64": [
+      64,
+      128,
+      448
+    ],
+    "closure124_linear_combination_numerator": 384
+  },
+  "gradient_controls": [
+    {
+      "index": 0,
+      "analytic": 23.440043660540958,
+      "finite_difference": 23.44004361276575,
+      "error": 4.7775209566225385e-08
+    },
+    {
+      "index": 4,
+      "analytic": 13.789529898272761,
+      "finite_difference": 13.789529930363642,
+      "error": 3.209088106359559e-08
+    },
+    {
+      "index": 8,
+      "analytic": -221.94369967979975,
+      "finite_difference": -221.9436997634716,
+      "error": 8.367186410396243e-08
+    },
+    {
+      "index": 13,
+      "analytic": -2.5689272210682765,
+      "finite_difference": -2.568927236268337,
+      "error": 1.520006032151855e-08
+    },
+    {
+      "index": 17,
+      "analytic": 111.61551655982066,
+      "finite_difference": 111.61551653771085,
+      "error": 2.2109816200099885e-08
+    }
+  ],
+  "initial_relative_residual": 12.908157449598269,
+  "new_exponent_established": false,
+  "exact_M9_constructed": false,
+  "trajectory": [
+    {
+      "iteration": 5,
+      "relative_residual": 8.84979434136653,
+      "map_norms": [
+        17.908066634971245,
+        17.706676333961333,
+        18.11563905184926
+      ],
+      "smallest_map_singular_values": [
+        0.22141453375268305,
+        0.20598986269905056,
+        0.18694590467649574
+      ],
+      "max_parameter": 0.24197272577310025,
+      "elapsed_seconds": 1.626361359999919
+    },
+    {
+      "iteration": 10,
+      "relative_residual": 8.47380140997716,
+      "map_norms": [
+        18.528598036779155,
+        18.67279027229833,
+        19.329702523192122
+      ],
+      "smallest_map_singular_values": [
+        0.18710924117487993,
+        0.17363929823631688,
+        0.14711257145475498
+      ],
+      "max_parameter": 0.6434695470524778,
+      "elapsed_seconds": 1.9932889560000149
+    },
+    {
+      "iteration": 15,
+      "relative_residual": 7.546464003946008,
+      "map_norms": [
+        17.978692753892805,
+        17.47523826063421,
+        18.961153994084356
+      ],
+      "smallest_map_singular_values": [
+        0.20814590666006919,
+        0.21136692753761627,
+        0.1760043079934865
+      ],
+      "max_parameter": 1.230676585208991,
+      "elapsed_seconds": 2.4946888679996846
+    },
+    {
+      "iteration": 20,
+      "relative_residual": 7.1497942743786345,
+      "map_norms": [
+        20.50343888570764,
+        20.938317380214006,
+        20.726370618528847
+      ],
+      "smallest_map_singular_values": [
+        0.1254925351511933,
+        0.13981215832263186,
+        0.14247644113339072
+      ],
+      "max_parameter": 1.8470608374837632,
+      "elapsed_seconds": 3.0320323849996385
+    },
+    {
+      "iteration": 25,
+      "relative_residual": 6.487885992001808,
+      "map_norms": [
+        27.569161714911772,
+        26.85151961281625,
+        24.853049991403967
+      ],
+      "smallest_map_singular_values": [
+        0.07997189653760206,
+        0.11568015266091647,
+        0.14696170179084217
+      ],
+      "max_parameter": 1.394934772258993,
+      "elapsed_seconds": 3.43182918399998
+    },
+    {
+      "iteration": 30,
+      "relative_residual": 6.20564511741177,
+      "map_norms": [
+        34.98694526218406,
+        31.70713058359287,
+        25.7975283018811
+      ],
+      "smallest_map_singular_values": [
+        0.07338966822558952,
+        0.1004032667504017,
+        0.15696290042905
+      ],
+      "max_parameter": 1.074926883461117,
+      "elapsed_seconds": 4.258978767999906
+    }
+  ],
+  "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+  "completed_iterations": 30,
+  "best_relative_residual": 6.20564511741177,
+  "best_parameters": [
+    1.0548757460404747,
+    -0.6601774558179788,
+    -0.14194910085526405,
+    1.074926883461117,
+    -0.7652921198323775,
+    -0.2185310561089308,
+    -0.9690187073202972,
+    0.9088552220007483,
+    -0.2933765486747045,
+    -0.8723256194193344,
+    0.35789044963742284,
+    0.17701912776918907,
+    1.0313003316791713,
+    -0.5300410893625913,
+    -0.029188503996292463,
+    -0.18076141597628415,
+    0.13606331041016484,
+    0.05184659648427653
+  ],
+  "full_target_coefficients_evaluated": 531441,
+  "best_map_norms": [
+    34.98694526218406,
+    31.70713058359287,
+    25.7975283018811
+  ],
+  "best_smallest_map_singular_values": [
+    0.07338966822558952,
+    0.1004032667504017,
+    0.15696290042905
+  ]
+}

@@ -1,0 +1,985 @@
+{
+  "claim_id": "AI-SPIN-SCALAR-CORNER-125",
+  "field": "Q, hence C",
+  "source": [
+    8,
+    8
+  ],
+  "source_leg_dimension": 960,
+  "selected_label_indices": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11
+  ],
+  "selected_labels": [
+    [
+      5,
+      6,
+      6
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      5,
+      7,
+      7
+    ],
+    [
+      6,
+      6,
+      6
+    ],
+    [
+      6,
+      6,
+      7
+    ],
+    [
+      6,
+      7,
+      6
+    ],
+    [
+      6,
+      7,
+      7
+    ],
+    [
+      7,
+      6,
+      6
+    ],
+    [
+      7,
+      7,
+      7
+    ]
+  ],
+  "maps": [
+    [
+      [
+        [
+          943,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          710,
+          1
+        ]
+      ],
+      [
+        [
+          711,
+          1
+        ]
+      ],
+      [
+        [
+          719,
+          1
+        ]
+      ],
+      [
+        [
+          830,
+          1
+        ]
+      ],
+      [
+        [
+          831,
+          1
+        ]
+      ],
+      [
+        [
+          838,
+          1
+        ]
+      ],
+      [
+        [
+          839,
+          1
+        ]
+      ],
+      [
+        [
+          950,
+          1
+        ]
+      ],
+      [
+        [
+          959,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          831,
+          1
+        ]
+      ],
+      [
+        [
+          839,
+          1
+        ]
+      ],
+      [
+        [
+          959,
+          1
+        ]
+      ],
+      [
+        [
+          830,
+          1
+        ]
+      ],
+      [
+        [
+          838,
+          1
+        ]
+      ],
+      [
+        [
+          950,
+          1
+        ]
+      ],
+      [
+        [
+          958,
+          1
+        ]
+      ],
+      [
+        [
+          829,
+          1
+        ]
+      ],
+      [
+        [
+          957,
+          1
+        ]
+      ]
+    ]
+  ],
+  "evidence": {
+    "selected_module": {
+      "source_terms_checked": 262144,
+      "all_target_coefficients_checked": 81,
+      "nonzero_target_coefficients": 9
+    },
+    "response_ranks": [
+      {
+        "rank": 15,
+        "nonzero_source_coordinates": [
+          [
+            6,
+            10,
+            7
+          ],
+          [
+            6,
+            11,
+            6
+          ],
+          [
+            6,
+            11,
+            7
+          ],
+          [
+            6,
+            12,
+            6
+          ],
+          [
+            6,
+            12,
+            7
+          ],
+          [
+            6,
+            13,
+            7
+          ],
+          [
+            7,
+            10,
+            6
+          ],
+          [
+            7,
+            10,
+            7
+          ],
+          [
+            7,
+            11,
+            6
+          ],
+          [
+            7,
+            11,
+            7
+          ],
+          [
+            7,
+            12,
+            6
+          ],
+          [
+            7,
+            12,
+            7
+          ],
+          [
+            7,
+            13,
+            6
+          ],
+          [
+            7,
+            13,
+            7
+          ],
+          [
+            7,
+            14,
+            7
+          ]
+        ],
+        "identity_minor_pivots": [
+          {
+            "source_coordinate": [
+              6,
+              10,
+              7
+            ],
+            "output_pair": [
+              1,
+              7
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              11,
+              6
+            ],
+            "output_pair": [
+              1,
+              5
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              11,
+              7
+            ],
+            "output_pair": [
+              1,
+              3
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              12,
+              6
+            ],
+            "output_pair": [
+              4,
+              5
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              12,
+              7
+            ],
+            "output_pair": [
+              1,
+              0
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              13,
+              7
+            ],
+            "output_pair": [
+              4,
+              0
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              10,
+              6
+            ],
+            "output_pair": [
+              1,
+              8
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              10,
+              7
+            ],
+            "output_pair": [
+              0,
+              7
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              11,
+              6
+            ],
+            "output_pair": [
+              0,
+              5
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              11,
+              7
+            ],
+            "output_pair": [
+              0,
+              3
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              12,
+              6
+            ],
+            "output_pair": [
+              1,
+              2
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              12,
+              7
+            ],
+            "output_pair": [
+              0,
+              0
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              13,
+              6
+            ],
+            "output_pair": [
+              4,
+              2
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              13,
+              7
+            ],
+            "output_pair": [
+              3,
+              0
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              14,
+              7
+            ],
+            "output_pair": [
+              7,
+              0
+            ]
+          }
+        ],
+        "disjoint_nonzero_column_supports_checked": true
+      },
+      {
+        "rank": 9,
+        "nonzero_source_coordinates": [
+          [
+            5,
+            13,
+            6
+          ],
+          [
+            5,
+            13,
+            7
+          ],
+          [
+            5,
+            14,
+            7
+          ],
+          [
+            6,
+            13,
+            6
+          ],
+          [
+            6,
+            13,
+            7
+          ],
+          [
+            6,
+            14,
+            6
+          ],
+          [
+            6,
+            14,
+            7
+          ],
+          [
+            7,
+            13,
+            6
+          ],
+          [
+            7,
+            14,
+            7
+          ]
+        ],
+        "identity_minor_pivots": [
+          {
+            "source_coordinate": [
+              5,
+              13,
+              6
+            ],
+            "output_pair": [
+              0,
+              0
+            ]
+          },
+          {
+            "source_coordinate": [
+              5,
+              13,
+              7
+            ],
+            "output_pair": [
+              0,
+              1
+            ]
+          },
+          {
+            "source_coordinate": [
+              5,
+              14,
+              7
+            ],
+            "output_pair": [
+              0,
+              2
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              13,
+              6
+            ],
+            "output_pair": [
+              0,
+              3
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              13,
+              7
+            ],
+            "output_pair": [
+              0,
+              4
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              14,
+              6
+            ],
+            "output_pair": [
+              0,
+              5
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              14,
+              7
+            ],
+            "output_pair": [
+              0,
+              6
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              13,
+              6
+            ],
+            "output_pair": [
+              0,
+              7
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              14,
+              7
+            ],
+            "output_pair": [
+              0,
+              8
+            ]
+          }
+        ],
+        "disjoint_nonzero_column_supports_checked": true
+      },
+      {
+        "rank": 9,
+        "nonzero_source_coordinates": [
+          [
+            6,
+            13,
+            5
+          ],
+          [
+            6,
+            13,
+            6
+          ],
+          [
+            6,
+            13,
+            7
+          ],
+          [
+            6,
+            14,
+            6
+          ],
+          [
+            6,
+            14,
+            7
+          ],
+          [
+            7,
+            13,
+            6
+          ],
+          [
+            7,
+            14,
+            5
+          ],
+          [
+            7,
+            14,
+            6
+          ],
+          [
+            7,
+            14,
+            7
+          ]
+        ],
+        "identity_minor_pivots": [
+          {
+            "source_coordinate": [
+              6,
+              13,
+              5
+            ],
+            "output_pair": [
+              0,
+              7
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              13,
+              6
+            ],
+            "output_pair": [
+              0,
+              3
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              13,
+              7
+            ],
+            "output_pair": [
+              0,
+              0
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              14,
+              6
+            ],
+            "output_pair": [
+              0,
+              4
+            ]
+          },
+          {
+            "source_coordinate": [
+              6,
+              14,
+              7
+            ],
+            "output_pair": [
+              0,
+              1
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              13,
+              6
+            ],
+            "output_pair": [
+              0,
+              5
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              14,
+              5
+            ],
+            "output_pair": [
+              0,
+              8
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              14,
+              6
+            ],
+            "output_pair": [
+              0,
+              6
+            ]
+          },
+          {
+            "source_coordinate": [
+              7,
+              14,
+              7
+            ],
+            "output_pair": [
+              0,
+              2
+            ]
+          }
+        ],
+        "disjoint_nonzero_column_supports_checked": true
+      }
+    ],
+    "core_ambient_dimensions": [
+      192,
+      180,
+      180
+    ],
+    "six_mixed_responses": [
+      {
+        "free_leg": "X",
+        "core_leg": "Y",
+        "auxiliary_leg": "Z",
+        "source_terms_checked": 262144,
+        "all_response_coefficients_checked": 1555200,
+        "nonzero_response_coefficients": 0,
+        "first_nonzero_coefficient": null
+      },
+      {
+        "free_leg": "X",
+        "core_leg": "Z",
+        "auxiliary_leg": "Y",
+        "source_terms_checked": 262144,
+        "all_response_coefficients_checked": 1555200,
+        "nonzero_response_coefficients": 0,
+        "first_nonzero_coefficient": null
+      },
+      {
+        "free_leg": "Y",
+        "core_leg": "X",
+        "auxiliary_leg": "Z",
+        "source_terms_checked": 262144,
+        "all_response_coefficients_checked": 1658880,
+        "nonzero_response_coefficients": 0,
+        "first_nonzero_coefficient": null
+      },
+      {
+        "free_leg": "Y",
+        "core_leg": "Z",
+        "auxiliary_leg": "X",
+        "source_terms_checked": 262144,
+        "all_response_coefficients_checked": 172800,
+        "nonzero_response_coefficients": 0,
+        "first_nonzero_coefficient": null
+      },
+      {
+        "free_leg": "Z",
+        "core_leg": "X",
+        "auxiliary_leg": "Y",
+        "source_terms_checked": 262144,
+        "all_response_coefficients_checked": 1658880,
+        "nonzero_response_coefficients": 0,
+        "first_nonzero_coefficient": null
+      },
+      {
+        "free_leg": "Z",
+        "core_leg": "Y",
+        "auxiliary_leg": "X",
+        "source_terms_checked": 262144,
+        "all_response_coefficients_checked": 172800,
+        "nonzero_response_coefficients": 0,
+        "first_nonzero_coefficient": null
+      }
+    ],
+    "twelve_channel_control": {
+      "module": {
+        "source_terms_checked": 262144,
+        "all_target_coefficients_checked": 144,
+        "nonzero_target_coefficients": 12
+      },
+      "response_ranks": [
+        20,
+        12,
+        12
+      ]
+    },
+    "complete_coordinate_selection_scan": {
+      "selection_domain": "Nine common coordinate channels among the stated twelve",
+      "subsets_checked": 220,
+      "first_response_rank_histogram": {
+        "15": 10,
+        "16": 16,
+        "17": 38,
+        "18": 78,
+        "19": 40,
+        "20": 38
+      },
+      "minimum_first_response_rank": 15,
+      "minimizing_selections": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          11
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11
+        ]
+      ],
+      "arbitrary_linear_channel_subspaces_excluded": false
+    },
+    "nine_copy_reduced_lift": {
+      "source_terms_checked": 262144,
+      "reduced_format": [
+        27,
+        16,
+        16
+      ],
+      "shared_first_factor": true,
+      "copies": 9,
+      "lifted_format": [
+        27,
+        144,
+        144
+      ],
+      "all_target_coefficients_checked": 559872,
+      "nonzero_target_coefficients": 1296,
+      "ambient_containment_checked": true
+    },
+    "conditional_correction": {
+      "missing_premise": "R(27,16,16) maps to M(4,4,3) plus one decomposable error",
+      "completed_target_if_premise_holds": [
+        4,
+        4,
+        27
+      ],
+      "response_rank_increase_upper_bounds": [
+        15,
+        9,
+        9
+      ],
+      "first_response_rank_upper_bound": 207,
+      "all_three_final_rectangle_budgets_proved": false,
+      "missing_maps_constructed": false
+    },
+    "new_exponent_established": false,
+    "external_independent_review": false
+  }
+}
