@@ -1,5 +1,15 @@
 # Research status
 
+## Joint central-sign search in SL(2,5)
+
+The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)
+adds a native encoding and conditional parity learning for the open
+M(10,10,10) target. Two 600-second searches found no pair-injective lift.
+All 506 exported parity contradictions replay exactly, with positive and
+negative encoding controls. This is a finite discovery result
+(`EXP-SL2-NATIVE-024`), not a source exclusion. The source and its conditional
+2.247 comparison retain their existing attribution; no bound was improved.
+
 ## Uniform mixed-axis reduction
 
 The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a

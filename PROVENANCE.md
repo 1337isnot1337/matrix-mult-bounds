@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-20-sl2-five-native-parity` package is owner-directed Codex
+work in the same session as the central-product and Heisenberg packages.
+It reuses the existing SL(2,5) source certificate, central-quotient helpers,
+group/potential routines and right-translation parity templates with their
+original credits. The new joint membership/sign encoding, guarded parity
+learning and finite control/replay results have no independent review.
+Neither a new source theorem nor an exponent improvement is claimed.
+
 The `2026-10-21-mixed-axis-family` package is same-session AI-derived
 work directed by the repository owner. It adopts the existing source,
 virtual corrections, rank gap and stable-row projection with their credits.

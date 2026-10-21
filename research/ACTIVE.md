@@ -138,6 +138,15 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+The central-group worker's Heisenberg(5) package merged through PR #42 at
+`bfc5243`; its incorporated branch was removed while untracked Heisenberg(7)
+research was preserved on `research/heisenberg-modular-20261021`.
+The active constructive question is the SL(2,5) M10 target on
+`research/sl2-five-native-parity`. Two 600-second joint sign/projection
+formulations produced 506 replayed parity contradictions and no lift.
+Projected pair-capacity cuts and translation templates are being added;
+there is no finite exclusion or exponent improvement.
+
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
 close the prescribed order-three/six parameter curves even for ungraded
