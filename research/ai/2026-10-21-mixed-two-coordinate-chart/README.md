@@ -21,3 +21,9 @@ python -m unittest discover -s tests -p test_mixed_two_coordinate_chart.py -v
 Singular was used for discovery only. The maintained replay verifies
 the source coefficients, polynomial frame, matched minors, all complex
 exceptional roots, and both complete target-normal elimination chains.
+
+The subsequent [open-set theorem](../2026-10-21-generic-mixed-graphs/proof.md)
+covers a nonempty open subset of this chart and extends to all six graph
+coefficients and the partner parameter. Its exceptional complement remains
+unclassified; the present rank-stratification and point certificates retain
+their original scope.
