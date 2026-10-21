@@ -816,6 +816,26 @@ selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
 
+## Changed first jets at the quantum root flags
+
+[AI-QUANTUM-EXTENSION-SPACES-075](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+uses the concurrent partial-saturation argument to force dim W1=12 for
+M(10,10,11) with the prescribed rank-four leading images. Exact rational
+constraints classify all changed first derivatives: 20 dimensions per new
+output row and 532 coupled leading-row parameters, totaling 4772 for two
+110-row maps. The bilinear next component has first flattening rank 25
+and maximum matrix-slice rank at most eight. Other second-jet terms remain
+free, and no complete degeneration or smaller exponent is established.
+The proof is written and unreviewed.
+
+[AI-QUANTUM-BOUNDARY-TRAP-076](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+excludes all orders when the four leading output rows stay in explicit
+56-dimensional boundary spaces; the other rows may vary arbitrarily.
+A separate necessary bound caps the second partial saturated space at
+37 dimensions for all compatible first derivatives. Moving leading rows
+outside those spaces remains open, and compatible first-order directions
+that do so exist. These written proofs are unreviewed.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)

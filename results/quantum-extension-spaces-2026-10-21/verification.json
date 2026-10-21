@@ -1,0 +1,28 @@
+{
+  "scope": "Finite replay and same-session validation; not independent mathematical review.",
+  "full_regression": {
+    "source_commit": "5d4a941930a61a195342acfac50045384f5361e4",
+    "base_main": "bfc5243",
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 382,
+    "elapsed_seconds": 205.244,
+    "result": "passed"
+  },
+  "focused_after_boundary_extension": {
+    "command": "python -m unittest discover -s tests -p 'test_quantum_extension_spaces.py' -v",
+    "tests": 4,
+    "elapsed_seconds": 13.895,
+    "result": "passed"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports": 5,
+    "result": "passed",
+    "source_commit": "9a9986da1209d94f7c92edf729254e72700df528",
+    "note": "Historical archives are unchanged by this package."
+  },
+  "subsequent_integration": {
+    "main": "d2ed2e9",
+    "note": "Higher-jet package integrated without changing this package; hosted checks cover the resulting PR head."
+  }
+}
