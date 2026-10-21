@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "z3": "4.15.4",
+  "exact_verification_dependencies": [
+    "sympy"
+  ],
+  "optional_discovery_dependencies": [
+    "numpy",
+    "scipy",
+    "z3-solver"
+  ],
+  "base_commit": "9a4ee3d05939d88730045877a6945165845f0398"
+}
