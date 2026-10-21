@@ -21,11 +21,19 @@ first-derivative solution space has dimension 4772 for two 110-row maps:
   25 and every matrix slice has rank at most eight. This is one component
   of the second coefficient, not a bound on the complete second jet.
 
+The complete second partial saturated space must have dimension at most
+37. A separate argument excludes every order of a family whose four
+leading output rows stay within the specified 56-dimensional boundary
+spaces on each side. It includes arbitrary changing higher rows with
+the leading rows fixed. Moving those leading rows outside the boundary
+spaces remains open.
+
 These results hold over Q, with the leading maps normalized exactly over
 Q(zeta_6). They apply over C. Constant final projections that preserve the
 two four-dimensional leading images can be folded into the regular maps.
 Rank-reducing projections and other leading flags are outside the explicit
-classification. No assertion about all higher jets follows.
+classification. The exclusion at every order has the additional hypothesis
+on the four leading output rows just stated.
 
 Run from the repository root:
 

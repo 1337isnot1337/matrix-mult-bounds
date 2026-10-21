@@ -115,6 +115,23 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-BOUNDARY-TRAP-076",
+      "title": "All-order exclusion with boundary-supported leading output rows",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-quantum-extension-spaces/proof.md",
+      "statement": "For the four normalized order-three/six root covectors, arbitrary regular output maps whose four leading rows stay in the specified 56-dimensional boundary spaces cannot give M(10,10,11), even with arbitrary Laurent first-leg maps. The earliest coefficient leaving those spaces would produce a 13-dimensional space of matrices of rank at most eight. Separately, arbitrary first jets compatible with that target have second partial-saturation dimension at most 37.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "Exact rank-56 annihilator certificates and zero boundary-product support",
+        "Earliest nonzero coefficient and minimum matrix-rank intersection arguments"
+      ],
+      "limitations": "The all-order exclusion keeps the four leading rows inside the boundary spaces. Compatible coupled first derivatives that move those rows outside exist and are not excluded. No arbitrary leading-flag barrier or exponent improvement follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

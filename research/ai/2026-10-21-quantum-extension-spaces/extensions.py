@@ -144,6 +144,31 @@ def root_normalizations():
     return records
 
 
+def stable_boundary_report():
+    """A closed pair of coordinate spaces, including its exact annihilators."""
+    kernel = [index(i, j, z) for i, j, z in product(range(4), range(4), LONG)]
+    left_ids = [index(p, j, z) for p, j, z in product((0, 3), range(4), range(7))]
+    right_ids = [index(r, q, z) for r, q, z in product(range(4), (0, 3), range(7))]
+    identity = [{i: 1} for i in range(V)]
+    left = contract(identity, G, kernel)
+    right = contract(G, identity, kernel)
+    cb = sp.Matrix(256, V, lambda r, c: left[r//4, 4*c+r % 4])
+    cc = sp.Matrix(256, V, lambda r, c: right[r//4, V*(r % 4)+c])
+    assert cb[:, left_ids] == sp.zeros(256, 56)
+    assert cc[:, right_ids] == sp.zeros(256, 56)
+    # No terms, hence no cancellation or dependence on a finite-field zero.
+    forbidden = [(a, b, c) for a, b, c in TERMS
+                 if a in kernel and b in left_ids and c in right_ids]
+    assert not forbidden
+    certificates = [rank_certificate(cb), rank_certificate(cc)]
+    assert all(c['rational_rank'] == 56 for c in certificates)
+    return {'kernel_coordinates': kernel, 'left_boundary_coordinates': left_ids,
+            'right_boundary_coordinates': right_ids,
+            'annihilator_certificates': certificates,
+            'source_terms_in_forbidden_product': 0,
+            'scope': 'All-order exclusion assumes the four leading output rows stay in the boundary spaces.'}
+
+
 def report():
     first, cb, cc, next_term, top, annihilator = matrices()
     support = [i for i in range(V) if any(first.row(i))]
@@ -169,6 +194,7 @@ def report():
             'bilinear_next_zero_boundary_square': [16, 16],
             'bilinear_next_matrix_rank_upper_bound': 8,
             'first_jet_solution_dimension_for_110_output_rows': 4772,
+            'stable_boundary': stable_boundary_report(),
             'scope': 'Necessary fixed-leading first-jet conditions, not a degeneration or an exponent improvement.'}
 
 

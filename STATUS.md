@@ -845,3 +845,11 @@ output row and 532 coupled leading-row parameters, totaling 4772 for two
 and maximum matrix-slice rank at most eight. Other second-jet terms remain
 free, and no complete degeneration or smaller exponent is established.
 The proof is written and unreviewed.
+
+[AI-QUANTUM-BOUNDARY-TRAP-076](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+excludes all orders when the four leading output rows stay in explicit
+56-dimensional boundary spaces; the other rows may vary arbitrarily.
+A separate necessary bound caps the second partial saturated space at
+37 dimensions for all compatible first derivatives. Moving leading rows
+outside those spaces remains open, and compatible first-order directions
+that do so exist. These written proofs are unreviewed.

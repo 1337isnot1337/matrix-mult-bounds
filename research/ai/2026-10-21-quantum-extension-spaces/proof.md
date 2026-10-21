@@ -128,3 +128,87 @@ contribute to blocks meeting a leading image. Neither a rank-eight bound
 for the full second coefficient nor an obstruction to all higher jets is
 asserted. Constructing or excluding the required saturated rowspace
 remains open.
+
+## 5. A second partial-saturation bound
+
+Assume (2). For each x in K choose y such that xS1=yS0. The regular row
+
+    (x S(t) - t y S(t))/t^2
+
+has residue xS2-yS1. Let W2 be the span of these residues and W1. It is
+contained in L0. Changing the choice of y changes its residue by W1,
+so the construction modulo W1 is well-defined.
+
+Let pi project away both leading output images. Then pi(S0)=pi(S1)=0,
+and pi(xS2-yS1)=pi(x(P1 Q1 T)). Section 3 implies that this last map on
+K factors through H, whose first flattening rank is 25. Thus
+
+    rank(pi|W2) <= 25.
+
+Every matrix in ker(pi|W2) is supported on the old row/column cross and
+has rank at most eight. By the same intersection argument as Section 1,
+this kernel has dimension at most 12 if the matrix target exists. It
+already contains W1 of dimension 12. Consequently
+
+    ker(pi|W2) = W1,       dim W2 <= 37.                (4)
+
+This is a necessary second-order condition for arbitrary compatible
+first jets and arbitrary second jets with the fixed leading maps. It
+does not bound the complete second coefficient's matrix rank by eight.
+
+## 6. A boundary trap at every order
+
+There is a simple stable extension larger than the first-jet spaces:
+
+    F_B = span{e_(p,j,z): p in {0,3}, all j,z},
+    F_C = span{e_(r,q,z): q in {0,3}, all r,z},
+    K_infty = span{e_(i,s,z): all i,s, z in {1,2,4,5}}.
+
+Their dimensions are 56,56,64. From the source formula, (K_infty,F_B,F_C)T
+is zero: p,q in {0,3} force the first long index to be 0,3 or 6. Moreover
+
+    {b : (K_infty,b,G)T=0} = F_B,
+    {c : (K_infty,G,c)T=0} = F_C.                       (5)
+
+Inclusion is immediate from the same long-coordinate support. Completeness
+is certified by two rank-56 minors of the 256-by-112 constraint matrices.
+These matrices have precisely the 56 boundary coordinate columns zero.
+Thus (5) is an exact statement over Q and C.
+
+Suppose now that **the four leading output rows of P(t) stay in F_B and
+the four leading output rows of Q(t) stay in F_C at every order**. They
+may vary inside these spaces. In particular this includes keeping those
+eight rows fixed at G. All other output rows and every Laurent first-leg
+map are unrestricted. We claim that such maps cannot give M(10,10,11).
+
+If some coefficient of P or Q leaves its boundary space, choose the
+earliest order N. Every coefficient of K_infty S(t) below N vanishes
+because both factors previously belonged to F_B,F_C. At order N only
+the terms P_N Q0 and P0 Q_N can survive there. Hence
+
+    W0 + rowspan(K_infty S_N) subset L0
+
+is a space of matrices of rank at most eight. Its second summand is
+supported on the two off-diagonal blocks meeting the leading images;
+its top-by-top block vanishes under the displayed hypothesis. At least
+one of those off-diagonal blocks is nonzero by (5), since a departing
+row cannot be one of the four leading rows. The two blocks are disjoint,
+so they cannot cancel each other. W0 occupies the top-by-top block and
+has dimension 12. The displayed low-rank space therefore has dimension
+at least 13, contradicting (1).
+
+It follows that every row coefficient of P and Q must stay in F_B,F_C.
+Their generic row ranks are then at most 56 over C((t)), so they cannot
+produce a target concise in 110 coordinates on either leg. Matrix rank
+is preserved under the first-leg map's field operations and cannot
+increase at a regular limit. This proves the exclusion at every order.
+
+The hypothesis on the leading output rows is essential to this argument:
+if they depart too, the two top-by-top contributions can cancel or lie
+in W0. That case is represented by the coupled directions of Section 3
+and remains open. The boundary trap is not an exclusion of all maps
+with this leading term, nor of arbitrary tensor degenerations.
+In fact the 532-dimensional coupled first-jet space cannot be contained
+in the 8*56=448-dimensional space where those eight rows all stay in the
+boundary spaces. There are compatible first-order directions that leave;
+their higher-order lifting remains a genuine construction question.
