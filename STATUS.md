@@ -14,6 +14,32 @@ sum, and a proper-section equality case at A12. Its240 balanced rectangular
 survivors are a pinned comparison, not the full concurrent all-source frontier.
 All proofs remain written and unreviewed. No target maps or exponent gain.
 
+## S5 split-source continuation
+
+The [S5 x C2 package](research/ai/2026-10-21-s5-split/README.md) derives
+an exact conditional2.247 comparison for M(13,14,14), with margin verified
+using integer root intervals. Its actual weighted3-by3 control passes.
+Two SAT runs reached their600-second limits without a projected model;
+the local runs exported32 exact parity contradictions and no lift, all
+replayed. A finite F2 ideal certificate checks the radical
+powers and leaves the target unexcluded by that filtration. Claims
+`AI-S5-SPLIT-028` and `EXP-S5-RADICAL-029` are conditional/finite. The target
+and any smaller exponent remain unconstructed.
+
+The same source investigation now checks S5 x C2 squared and its
+conditional M19 gate at2.247. A600-second native run found no pair model.
+A [central four-point matching lemma](research/ai/2026-10-21-s5-split/central_slice_proof.md)
+adds a written unreviewed necessary cut beyond pair injectivity and the
+existing commuting trades. Its finite control has an exact five-row
+Farkas circuit. The smaller M(18,18,20) projected run exported one such
+cut and no lift; direct colored search reached two collisions. The
+alternative S5 x C4 basis has the same conditional degree cost, with its
+four-matching obstruction following from pair injectivity alone.
+The warm colored continuations reached1,218 and1,427 pair-injective
+models respectively; all have exactly replayed Farkas contradictions.
+The sampler now incorporates the existing commuting-trade condition.
+Claims031/032/033 supply no improving target or smaller bound.
+
 ## Subgroup-ideal cuts on the central-cover targets
 
 The [subgroup-ideal proof](research/ai/2026-10-21-subgroup-ideal/proof.md)

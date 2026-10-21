@@ -18,21 +18,24 @@ from parity_templates import read_verified
 
 
 def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=False,
-        split_cover=False, ideal_record=None):
-    if split_cover:
+        split_cover=False, data_provider=None, target_shape=(10, 10, 10),
+        known_control=None, normalizer=None, ideal_record=None):
+    if data_provider is not None:
+        G, Q, receipt = data_provider()
+    elif split_cover:
         from split_source import split_data
         G, Q, receipt = split_data()
     else:
         G, Q, receipt = data()
-    shape = [10]*3
+    shape = list(target_shape)
     subgroup = {'members': receipt['subgroup_members'], 'anchors':
                 [Q['representatives'][p] for p in receipt['first_pair_anchor_disjunction']]}
     known = None
     if control:
-        control_path = (ROOT/'results/sl2-five-native-2026-10-20/split-control3.json'
+        control_path = known_control or (ROOT/'results/sl2-five-native-2026-10-20/split-control3.json'
                         if split_cover else ROOT/'results/group-potentials-2026-10-20/sl2-5-control3-3-3.json')
         known = json.loads(control_path.read_text())['witness']
-        shape = [3]*3
+        shape = list(map(len, known['sets']))
         subgroup['anchors'] = [g for g in known['sets'][0] if Q['projection'][g]]
     reused, sources = [], []
     for path in reuse:
@@ -41,12 +44,8 @@ def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=
         sources.append(source)
     solver, members, encoding = build_projection(Q, shape, subgroup, 20260513,
                                                 reused_cuts=reused)
-    # The imported seven-source builder's lower bound coincides for these
-    # sizes: ceil(10/7)=ceil(10/5)=2 and ceil(3/7)=ceil(3/5)=1.
-    if any((s+6)//7 != (s+4)//5 for s in shape):
-        raise ArithmeticError('normalization lower bound differs')
-    encoding['subgroup_index'] = 5
-    encoding['identity_fiber_lower'] = [(s+4)//5 for s in shape]
+    if encoding['subgroup_index'] != receipt['subgroup_index']:
+        raise ArithmeticError('normalization subgroup index differs from its certificate')
     top = encoding['variables']
     if full_capacity:
         top, encoding['complete_pair_capacity'] = append_patterns(Q, solver, members, top)
@@ -77,6 +76,9 @@ def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=
                 added += 1
         encoding['subgroup_ideal'] = {'dimension': ideal_record['ideal_dimension'],
                                     'coset_clauses': added}
+
+    if normalizer is not None:
+        encoding['canonicalization'] = normalizer(G, Q, receipt, members, variable, solver.add_clause)
 
     def learn(system):
         added = 0
@@ -186,7 +188,7 @@ def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=
                 pair_map(G, sets[f], sets[(f+1) % 3])
             report['pair_injective_models'] += 1
             relations, _ = extra_relations(G, sets)
-            decision = potential_or_circuit(relations, 30)
+            decision = potential_or_circuit(relations, sum(shape))
             if 'potentials' in decision:
                 report['witness'] = {'sets': sets, 'potentials': decision['potentials'],
                     'verification': verify_witness(G, sets, decision['potentials'])}
