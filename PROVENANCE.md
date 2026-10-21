@@ -411,3 +411,9 @@ a polynomial factor criterion, using an explicit kernel-intersection rank
 formula. Its non-Hankel coefficient controls are labeled as such. The
 fixed-pencil pilot uses exact rational tangent elimination and is not an
 integrability claim, global dimension bound or exponent improvement.
+
+The one-unit convolution family is an explicit local construction derived
+from the kernel-pairing criterion. Complete Hankel identities and the
+truncated-unit gauge are replayed exactly. Its dimension argument matches
+a free gauge upper bound with the differential lower bound. This constructs
+source slices, not target tensor maps, and remains written and unreviewed.

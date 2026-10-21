@@ -82,3 +82,10 @@ bilinear pairing. At the known sparse641 example, fixing these pencils
 leaves exact tangent-image dimension149 after the Hankel linearization.
 This exceeds126 and does not exclude the target; integrating useful
 deformations and realizing the target's full tensor remain open.
+
+An explicit integrated family now appears in `one_unit_convolution_family.md`.
+It has image dimension134 and generic source slice rank641. Its separate
+one-factor spaces have dimensions79 and63, so the straightforward
+separate-factor target parameterization is one coordinate short on the
+smaller side. This is a source-slice construction, not the missing full
+tensor restriction.

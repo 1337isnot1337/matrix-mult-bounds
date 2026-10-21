@@ -1,0 +1,68 @@
+{
+  "status": "exact one-factor affine families within the fixed-pencil source slice ansatz; no target tensor",
+  "controls": [
+    {
+      "a": 2,
+      "b": 3,
+      "families": [
+        {
+          "varied_factor": "vary_U",
+          "parameters": 10,
+          "exact_derivative_rank": 10,
+          "exact_hankel_constraint_rank": 5,
+          "affine_source_image_dimension": 5
+        },
+        {
+          "varied_factor": "vary_V",
+          "parameters": 9,
+          "exact_derivative_rank": 9,
+          "exact_hankel_constraint_rank": 6,
+          "affine_source_image_dimension": 3
+        }
+      ],
+      "integrability_reason": "With the other factor fixed, the product and Hankel constraints are linear, so the affine kernel is an exact family."
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "families": [
+        {
+          "varied_factor": "vary_U",
+          "parameters": 33,
+          "exact_derivative_rank": 33,
+          "exact_hankel_constraint_rank": 22,
+          "affine_source_image_dimension": 11
+        },
+        {
+          "varied_factor": "vary_V",
+          "parameters": 32,
+          "exact_derivative_rank": 32,
+          "exact_hankel_constraint_rank": 24,
+          "affine_source_image_dimension": 8
+        }
+      ],
+      "integrability_reason": "With the other factor fixed, the product and Hankel constraints are linear, so the affine kernel is an exact family."
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "families": [
+        {
+          "varied_factor": "vary_U",
+          "parameters": 632,
+          "exact_derivative_rank": 632,
+          "exact_hankel_constraint_rank": 553,
+          "affine_source_image_dimension": 79
+        },
+        {
+          "varied_factor": "vary_V",
+          "parameters": 630,
+          "exact_derivative_rank": 630,
+          "exact_hankel_constraint_rank": 567,
+          "affine_source_image_dimension": 63
+        }
+      ],
+      "integrability_reason": "With the other factor fixed, the product and Hankel constraints are linear, so the affine kernel is an exact family."
+    }
+  ]
+}

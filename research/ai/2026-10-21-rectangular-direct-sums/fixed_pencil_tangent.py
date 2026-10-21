@@ -18,7 +18,7 @@ def rank_sparse(columns,prime=None):
     else:v.pop(j,None)
  return len(pivots)
 
-def local_report(a,b):
+def linearization_data(a,b):
  n=a+1;U={(0,0,0):1};V={(0,0,0):1}
  for h in range(1,n):U[1,h-1,h]=1;V[1,h,a-h]=1
  Ud=[];Vd=[]
@@ -50,7 +50,11 @@ def local_report(a,b):
       z=C.get((i,p,q,ss),0)-C.get((i,pp,qq,ss),0)
       if z:D[i,p,q,ss]=z
   return D
- D=[defect(c) for c in columns];B_rank=rank_sparse(columns);D_rank=rank_sparse(D)
+ D=[defect(c) for c in columns]
+ return columns,D,len(Ud)
+
+def local_report(a,b):
+ columns,D,split=linearization_data(a,b);B_rank=rank_sparse(columns);D_rank=rank_sparse(D)
  return {'a':a,'b':b,'variables':len(columns),'exact_derivative_rank':B_rank,'exact_hankel_defect_rank':D_rank,'exact_image_tangent_dimension':B_rank-D_rank,'fixed_kernel_pencils':True,'local_linearization_only':True}
 def report():
  return {'status':'exact tangent calculation only; no integrable family or exponent gain','controls':[local_report(a,b) for a,b in [(2,3),(3,4),(8,10)]]}

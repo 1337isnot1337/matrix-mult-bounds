@@ -4,6 +4,10 @@ The rectangular worker now studies the one-unit factor criterion in
 `ai/2026-10-21-rectangular-direct-sums/one_unit_pairing.md`. Primitive
 kernel pencils must pair separably. The fixed-pencil Hankel tangent
 image has dimension149 at the known641 slice; integrability is unproved.
+The explicit high-half convolution family now integrates134 dimensions
+of these deformations, with generic source slice rank641. Its separate
+one-factor spaces have dimensions79 and63, leaving the smaller side one
+coordinate short for a direct target ruling. Full target maps remain open.
 This is separate from the continuing degree-two/three Laurent map searches.
 
 
