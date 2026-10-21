@@ -185,3 +185,13 @@ in its incremental score. Its templates are generated in the actual group:
 zero violations, while exported two-row Farkas examples have violations.
 Independent complete pair and owner histograms check each saved incremental
 score. These are discovery tools, not sourcewide exclusions.
+
+The first trade-guided600-second runs add13 elementary-center models in
+680,204 steps and14 cyclic-center models in701,168 steps. All27 have zero
+commuting-trade score and exact Farkas contradictions. Two elementary
+models also have the central four-matching obstruction; the remaining25
+survive that cut. The complete streams replay. This brings the colored
+finite collection to2,672 refuted pair models. No improving witness is
+found. The finished S5 source/control package merged through PR #89 at
+5b130f1 with matching source and squash trees; the continuation is on a
+new topic branch.

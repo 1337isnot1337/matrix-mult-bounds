@@ -38,7 +38,9 @@ four-matching obstruction following from pair injectivity alone.
 The warm colored continuations reached1,218 and1,427 pair-injective
 models respectively; all have exactly replayed Farkas contradictions.
 The sampler now incorporates the existing commuting-trade condition.
-Claims031/032/033 supply no improving target or smaller bound.
+The trade-guided continuation adds27 exactly refuted pair models;25
+also survive the central matching cut. Claims031/032/033 supply no
+improving target or smaller bound.
 
 ## Joint central-sign search in SL(2,5)
 

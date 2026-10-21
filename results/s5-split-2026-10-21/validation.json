@@ -40,10 +40,10 @@
     "scope": "Complete suite partitioned into four groups; seven S5 tests were loaded."
   },
   "latest_s5_focused": {
-    "tests_run": 9,
+    "tests_run": 10,
     "skipped": 0,
-    "seconds": 13.277,
-    "scope": "Includes both complete colored Farkas streams and actual-group commuting templates after full-suite load."
+    "seconds": 17.377,
+    "scope": "Includes both trade-guided streams and the exact2/0 central matching counts. An earlier all-models-no-matching assertion failed on the two elementary matches and was replaced by these checked counts."
   },
   "integrated_archive_replay": {
     "passed": 5
@@ -52,5 +52,20 @@
     "elementary_center": 1218,
     "cyclic_center": 1427,
     "maintained_dependencies_only": true
+  },
+  "trade_guided_replay": {
+    "elementary_models": 13,
+    "cyclic_models": 14,
+    "exact_farkas_circuits": 27,
+    "commuting_trade_violations": 0,
+    "elementary_central_matches": 2,
+    "cyclic_central_matches": 0
+  },
+  "main_integration": {
+    "pr": 89,
+    "head": "237c76668a776047d62ee77b1d8c92873a99e3d9",
+    "merge": "5b130f17d0e52fbcc10c51b7417af59f47105c24",
+    "whole_tree_equal": true,
+    "completed_topic_branch_removed": true
   }
 }
