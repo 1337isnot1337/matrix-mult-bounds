@@ -4,6 +4,46 @@ Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
+## Nonlocal maps, exact projection cost, and source capacity
+
+Three completed [nonlocal operator pilots](research/ai/2026-10-20-paired-direct-sums/q_metaplectic_history.md)
+retain all saved maps, all 123 sampled records, and their actual
+1,000-update stops. The Fourier/chirp/reflection basis depends on the
+source size. Complete replays check 40,736 output positions; none gives
+an exact matrix target. The first two error plateaus agree with a
+separate rational projection construction. That literal projected
+tensor has an error whose A-flattening contains
+`(3/4) I_((n-5)^2)`, so its repair needs quadratic auxiliary border rank.
+The floating-point maps are not exactified by this comparison, and
+other joint maps remain open.
+
+The [source-capacity proof](research/ai/2026-10-21-correction-budget/source_capacity.md)
+gives a necessary condition even when auxiliary summands have singular
+local maps. For fixed-width Q(n,b), a subquadratic border-rank correction
+and positive limiting outer ratios imply
+`rho*sigma<=1`, `rho*h<=b`, and `sigma*h<=b`. The target volume therefore
+obeys `rho*sigma*h<=b`; changing the target shape cannot improve the
+critical coefficient allowance beyond its equal-width, near-full value.
+This is not a construction or a general exponent barrier.
+
+A [source update](research/ai/2026-10-21-pass-packing/README.md)
+records Rafael Pass's arXiv:2610.28627v1 constructive proof of the same
+9/4 bound. Its generalized packing count suggests a scalar rule that
+already follows exactly from the existing concavity and shifted-tripling
+assumptions. This equivalence concerns that scalar rule, not the full
+tensor maps or every possible use of the external construction.
+
+Checkpoint `27d7a75`, integrating main `8a07bed`, completed 578 local
+tests: 577 passed and one optional NumPy discovery control was skipped.
+All five archive replays passed. The complete 638-line transcript and
+machine-readable result are in its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint12-validation.json).
+Five hosted static checks passed; no hosted test or archive job was
+observed for that commit. This continuation incorporates main `b113866`,
+including its sixteen-parameter mixed two-jet family and the fixed-space
+third-coefficient obstruction. That obstruction retains its stated seed
+scope and written, externally unreviewed status. The earlier test count
+does not describe the enlarged tree.
+
 ## Critical correction allowance and new construction tests
 
 The [critical-coefficient criterion](research/ai/2026-10-21-correction-budget/critical_coefficient.md)
@@ -1299,6 +1339,27 @@ exponent improvement. The concurrently inspected second-jet package at
 d8de82f already gives the stronger conditions W2=W0 and rank sum at most
 24 (at most20 with mixed directions); the rank-four certificate is retained
 as auxiliary structure, with no claim to improve that target frontier.
+
+## Exact mixed second-order family
+
+[EXP-MIXED-TWOJET-FAMILY-079](research/ai/2026-10-21-mixed-first-jets/family.md)
+constructs sixteen independent leading-row directions with first-extension
+quotient ranks14 and6. Explicit maps and regular first-row corrections
+solve every coefficient equation through order two for every combination
+of the parameters. The separate constructor and full coefficient verifier
+retain all136 quadratic monomials. The active output formats are18 and10;
+later growth and a matrix target remain unconstructed. An exact nonzero
+third coefficient is retained as an order-boundary check. This finite
+polynomial certificate does not improve the exponent.
+
+[AI-MIXED-THIRD-ORDER-080](research/ai/2026-10-21-mixed-first-jets/third_order.md)
+now excludes the target for these fixed 14-by-6 first subspaces at every order.
+The exact normal space has dimension 16. Successive universal matrix-rank
+covers impose six plus six independent constraints, leaving only the four
+common-plane tangents. Arbitrary correction-row freedoms vanish from the
+projected obstruction, and formal induction bounds both map ranks by 56.
+This is an unreviewed scoped proof; other mixed spaces and delayed growth
+remain open, and the exponent is unchanged.
 
 ## Regular root flags and Laurent first-leg maps
 

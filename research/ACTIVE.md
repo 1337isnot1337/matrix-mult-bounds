@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
+order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
+family is retained; two third-coefficient rank covers force only common
+plane motion. Other mixed spaces and delayed first growth remain open.
+The full boundary-spanning 12-by-12 family stays with the quantum worker.
+
 The quantum worker now continues in
 `ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
 second-jet family and full coefficient witnesses are ready for higher-order
@@ -23,6 +29,27 @@ of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
 ## Paired-source continuation
+
+The current continuation integrates main `b113866`. Checkpoint `27d7a75`
+completed 578 tests, with 577 passes and one optional NumPy skip, and
+all five local archive replays. Five hosted static checks passed; no
+hosted test workflow was observed at that commit. The complete receipt
+is retained. New packages require validation on their own pushed tree.
+
+The three size-dependent nonlocal operator pilots are complete and
+preserved, with no exact witness. Their rational product-projection
+reference requires quadratic rank for a literal repair. The generalized
+Pass packing count is already implied by the scalar concavity program.
+The new source-capacity proof bounds feasible target dimensions when
+the auxiliary border rank is subquadratic. These are scoped findings,
+not exponent improvements.
+
+Three agents now pursue and independently audit quantum long maps with
+all required factor exchanges, and Cauchy/displacement identities in the
+native Q tensor. Negative Laurent terms and every auxiliary correction
+must be counted. The scalar coefficient allowance is not permission to
+treat factor exchanges, inverse maps across different legs, or omitted
+tensor coefficients as free.
 
 The next checkpoint integrates main `8a07bed` and extends the conditional
 correction budget to a strict nonzero coefficient at order `n^(3/2)`.

@@ -1,5 +1,26 @@
 # Attribution and provenance
 
+## Generalized packing, nonlocal probes, and source capacity
+
+Rafael Pass's arXiv:2610.28627v1 supplies the generalized polynomial
+packing map and constructive proof of the existing 9/4 bound. The local
+note applies the already credited concavity/tripling argument to the
+scalar inequality suggested by Lemma 2.4. It claims neither that external
+construction nor a stronger exponent. Its equivalence is only scalar.
+
+The exact product-projection reference, its quadratic repair minor, and
+the source-capacity deduction were developed in this generating session.
+The capacity argument cites the Stacks Project's Grassmannian and proper
+projection facts with the relevant hypotheses. These written deductions
+have no independent mathematical review and assert no historical priority.
+
+The nonlocal operator pilots preserve all saved map coefficients and
+their original sampled histories. Their source-size-dependent Fourier,
+chirp, and reflection matrices are explicit. Exact rational reference
+controls are kept distinct from floating-point fits and rank diagnostics.
+Neither a failed numerical fit nor agreement with a reference objective
+establishes a general obstruction or an exactification of its maps.
+
 ## Critical coefficient, scalar repairs, and controlled orientations
 
 The critical correction-coefficient deduction uses the previously credited
