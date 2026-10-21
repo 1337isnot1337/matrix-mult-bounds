@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-21-hankel-wronskian-cap` package is same-session AI-derived
+work directed by the repository owner. Its cap inequality is presented as
+a uniform characteristic-zero rederivation, with a self-contained proof and
+rational witness generator. Meshulam's1995 finite-field result is credited
+as related classical work; only its abstract and bibliography were inspected.
+The concurrent rectangular worker's selected-format cap proofs, second-
+boundary extension and higher-input-rank tests retain their own credit.
+No priority, independent review, formalization or exponent gain is claimed.
+
 The `2026-10-21-hankel-pencil-degree` package was generated and checked in
 this owner-directed Codex session. The index sum theorem is imported from
 De Teran--Dopico--Mackey(2013), and bundle splitting from the classical

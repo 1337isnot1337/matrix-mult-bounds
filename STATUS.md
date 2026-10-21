@@ -1,5 +1,18 @@
 # Research status
 
+## Uniform Hankel-space proof and witnesses
+
+The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)
+gives dim L<=r for every linear space of a-by-b Hankel matrices of rank
+at most r, over any characteristic-zero field, when r<min(a,b). It supplies
+an all-size proof and an exact rational witness generator, preserving the
+prior finite-format proofs and certificates. Claims001--002 in this package
+are written and unreviewed. This is a linear-space cap; the earlier rank-
+seven Segre image of dimension eight is still a valid countercontrol.
+Concurrent PR76 has stronger higher-input-rank frontier tests than the
+historical scan below. Their source credit and scope are retained.
+There is no target construction or exponent gain; omega remains9/4.
+
 ## Hankel pencils and the ordinary frontier
 
 The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)

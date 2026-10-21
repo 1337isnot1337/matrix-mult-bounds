@@ -1,0 +1,44 @@
+{
+  "base_main": "46952988962c19f11811c6b6860c88e898b99b51",
+  "proof_dependencies": "The cap proof is self-contained: a consecutive Hankel minor, two binomial identities, and the leading Vandermonde coefficient of a polynomial Wronskian. No finite-field theorem is silently imported.",
+  "related_external_result": {
+    "author": "Roy Meshulam",
+    "title": "Spaces of Hankel matrices over finite fields",
+    "publication": "Linear Algebra and its Applications218(1995),73-76",
+    "doi": "10.1016/0024-3795(93)00158-V",
+    "url": "https://www.sciencedirect.com/science/article/pii/002437959300158V",
+    "author_bibliography": "https://meshulam.net.technion.ac.il/e-prints/",
+    "inspected": "Published abstract and author bibliography, October21,2026",
+    "field_scope": "Finite fields, square Hankel matrices; not used as an unproved characteristic-zero assertion here."
+  },
+  "concurrent_local_work": [
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/saturation.md",
+      "sha256": "ccae4048792fbce5895c6f2520083f5a3acf891a7e88f17428eaa06362420f1a",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/saturation.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/two_ruling_cap.md",
+      "sha256": "85c0d59fa2ad4ff15aa28820dcedd0625b728bad9532d32a6606c66cbfaa8804",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/two_ruling_cap.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/second_boundary.md",
+      "sha256": "1dd0205a56270d7ebb455ff5f8adf1d052e7f5dacd7a50ba4671665f1139cb98",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/second_boundary.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md",
+      "sha256": "b84fc23d478b80241a67636bef82336e9d98f563d3a832f6dfb1113ff2cd0e53",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md"
+    }
+  ],
+  "credit": "Selected cap formats were already proved by the rectangular worker using torus degeneration and explicit integer coordinate minors. Its second-boundary and higher-parameter tests are concurrent work, not attributed to this package. The present contribution is a uniform characteristic-zero rederivation and rational witness generator; no historical novelty is claimed.",
+  "ai_assistance": "Written and checked by the same owner-directed Codex session. Exact arithmetic tests are not independent mathematical review or formalization.",
+  "independent_review": false,
+  "improves_omega": false
+}
