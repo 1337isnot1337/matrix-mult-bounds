@@ -1,0 +1,78 @@
+{
+  "claim": "AI-MIXED-EXCEPTIONAL-AFFINE-095",
+  "partner": {
+    "a": 1,
+    "b": 1
+  },
+  "affine_graph": [
+    "x - y",
+    "-x - z + 1",
+    "1 - x",
+    "x",
+    "y",
+    "z"
+  ],
+  "affine_blocks": [
+    {
+      "block": 0,
+      "global_row_chart": [
+        28,
+        44
+      ],
+      "left_relations": 3,
+      "left_minor_at_base": "4",
+      "rank_upper_bound_everywhere": 25,
+      "rank_at_base": 25
+    },
+    {
+      "block": 1,
+      "global_row_chart": [
+        28,
+        44
+      ],
+      "left_relations": 3,
+      "left_minor_at_base": "4",
+      "rank_upper_bound_everywhere": 25,
+      "rank_at_base": 25
+    }
+  ],
+  "normal_dimension_at_least_everywhere": 38,
+  "generic_normal_dimension": 38,
+  "base_graph": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "base_normal_dimension": 38,
+  "plane_dimension": 4,
+  "base_quotient_dimension": 34,
+  "base_joint_rows": 44,
+  "base_stable_rows": 14,
+  "square_dimensions": [
+    34,
+    26,
+    20,
+    18,
+    14
+  ],
+  "terminal_dimensions": [
+    [
+      6,
+      0
+    ],
+    [
+      14,
+      10,
+      4,
+      2,
+      0
+    ]
+  ],
+  "base_target_excluded": true,
+  "whole_affine_family_target_excluded": false,
+  "independent_review": false,
+  "improves_omega": false
+}

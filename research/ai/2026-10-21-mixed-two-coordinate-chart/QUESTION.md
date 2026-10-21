@@ -18,3 +18,9 @@ using the polynomial frame, retaining every new rank-drop locus. The
 two-coordinate target problem remains open off the previously closed
 subsets. A source-normal rank certificate is not a target incidence
 classification, and a target exclusion is not an exponent improvement.
+
+Continuation: [claim094](../2026-10-21-generic-mixed-graphs/QUESTION.md) now
+uses direct quartic spans to prove an open-set exclusion in all graph
+coefficients. The remaining question is the geometry of the exceptional
+fibers and their affine four-planes; the incomplete relation-kernel attempt
+does not need to be repeated unchanged.

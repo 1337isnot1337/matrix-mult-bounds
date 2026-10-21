@@ -64,6 +64,34 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## An affine family of larger mixed normal spaces
+
+The [exceptional affine-family proof](research/ai/2026-10-21-mixed-exceptional-affine/proof.md)
+gives h=(x-y,1-x-z,1-x,x,y,z), at a=b=1, with necessary normal dimension
+at least38 everywhere and exactly38 generically. Two degree-two polynomial
+left-relation certificates prove the all-parameter rank upper bound.
+At h=(0,1,1,0,0,0), a complete38-dimensional kernel, square minors and
+additional source equations eliminate all34 non-plane directions; the
+adopted induction excludes M(10,10,11) there for arbitrary later maps.
+Claim `AI-MIXED-EXCEPTIONAL-AFFINE-095` is written and unreviewed. Target
+constructions on the whole affine family remain open; no smaller exponent.
+
+## An open set of arbitrary mixed graphs
+
+The [generic graph proof](research/ai/2026-10-21-generic-mixed-graphs/proof.md)
+excludes the canonical seven-by-five target case on an explicitly defined
+nonempty Zariski-open set of all six graph coefficients and a at b=1.
+A rational point certificate uses two fourteen-variable normal blocks:
+559 cubic minors in each generate all2380 quartic forms. Exact rank
+modulo32003 proves the relevant rational minors are nonzero. Symbolic
+source blocks and a fixed normal chart make this an open-set theorem,
+not an extrapolation to all parameters from a finite test. The checked
+torus extends it to an open set for b nonzero. Claim
+`AI-GENERIC-MIXED-GRAPHS-094` is written and unreviewed. A remaining target
+would require its entire affine four-plane of graph representatives to
+lie in the exceptional fiber. That geometry is unresolved; the exponent
+remains9/4.
+
 ## Two-coordinate rank strata and exceptional graph closure
 
 The [two-coordinate chart proof](research/ai/2026-10-21-mixed-two-coordinate-chart/proof.md)
