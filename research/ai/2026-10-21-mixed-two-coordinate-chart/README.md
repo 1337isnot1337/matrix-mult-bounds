@@ -27,3 +27,7 @@ covers a nonempty open subset of this chart and extends to all six graph
 coefficients and the partner parameter. Its exceptional complement remains
 unclassified; the present rank-stratification and point certificates retain
 their original scope.
+
+The subsequent [all-graph closure](../2026-10-21-all-mixed-graphs-a1/README.md)
+excludes every graph at a=b=1, including this package's special fibers.
+This package retains its original proof scope and evidence status.
