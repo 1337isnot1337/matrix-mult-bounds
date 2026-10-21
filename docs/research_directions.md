@@ -103,16 +103,22 @@ A useful patch demonstrates an incorrect ranking, stronger certified block score
 
 ## R7: Whole-filtration entropy beyond the balanced obstruction
 
-Owned on `research/full-filtration-entropy-20261020`. The [new note](../research/ai/2026-10-20-full-filtration/research_note.md)
-defines the optimistic full-support entropy score and proves an all-size
-`39/40` upper bound for balanced sources. Exact certificates cover every
-distribution at every unequal-source tuple through size 12.
+Status: settled for the explicit upper certificate `U` by
+[AI-UNEQUAL-ENTROPY-001](../research/ai/2026-10-20-unequal-entropy/research_note.md).
+For every `a,b,c,d>=2`, its sharp ratio to `P_*(a,b)P_*(c,d)` is at most
+`B=(81/350)*(1+14*sqrt(14)/27)^(4/3)`, with
+`0.974772906<B<0.974772907`. Equality occurs only at `(2,2,2,2)`;
+every other tuple has ratio at most `97/100`. An all-size analytic reduction,
+eight polynomial cones, exact tail certificates and their finite residuals
+prove this result; it is not an extrapolation from a grid.
 
-The next precise question is whether its explicit upper bound `U(a,b,c,d)`
-never exceeds `P_*(a,b)P_*(c,d)` for arbitrary positive lengths, or even has the
-same `39/40` factor when all four lengths exceed one. This is a conjecture,
-not an all-size consequence of the grid. A weighted block-extraction theorem
-also requires its own proof; the scalar subrank formula is insufficient by itself.
+The earlier [full-filtration note](../research/ai/2026-10-20-full-filtration/research_note.md)
+supplies the optimistic score and its all-distribution bound by `U`.
+Singleton input marginals retain that note's direct maximum-block bound.
+The new proof is written and unreviewed. It closes this score as a way to
+exclude the matching profile, without excluding other constructions or
+establishing a weighted block-extraction theorem. Further construction work
+must use information absent from this score.
 
 ## Work selection
 

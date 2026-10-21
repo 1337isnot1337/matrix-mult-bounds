@@ -528,8 +528,16 @@ Branch `research/full-filtration-entropy-20261020` studies the whole support
 
 These are unreviewed analytic results and exact finite certificates. The
 optimistic score is not claimed as a proved weighted block-extraction theorem.
-The all-size unequal-source inequality remains open. This rules out one
-proposed escape in the stated scope; the exponent remains `9/4`.
+The all-size unequal-source inequality is now settled by the
+[sharp unequal-source proof](research/ai/2026-10-20-unequal-entropy/research_note.md)
+(AI-UNEQUAL-ENTROPY-001). For every four lengths at least two, the explicit
+upper certificate has ratio at most
+`B=(81/350)*(1+14*sqrt(14)/27)^(4/3)`, with
+`0.974772906<B<0.974772907`, attained only at `(2,2,2,2)`.
+Every other tuple has ratio at most `97/100`. Eight all-size polynomial
+cones, 216 small-minimum tail certificates and 37 proved residual cases
+support the analytic proof. It is written and unreviewed. The sharpness
+statement concerns `U`, not the entropy optimum or the exponent.
 
 ## Exact finite-group construction campaign
 
