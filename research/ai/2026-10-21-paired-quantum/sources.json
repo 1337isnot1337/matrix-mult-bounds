@@ -1,0 +1,29 @@
+{
+  "base_commit": "9c5f5e6b9e206b31cd0d04ffc5a6bee84080bf5e",
+  "claim_id": "AI-PAIRED-QUANTUM-001",
+  "external_sources": [
+    {
+      "title": "Arun Ram, Quantum SL2",
+      "url": "https://soimeme.org/~arunram/Notes/QuantumSL2.html",
+      "version": "September 25, 2012",
+      "adopted": "Coproduct convention via the maintained quantum recoupling derivation; no root-of-unity semisimplicity assertion."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/quantum.py",
+      "sha256": "1a08abc90157539398cb749ab174d7118fbd905e6b4c014f2f321a731def12e2"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/family.md",
+      "sha256": "7e1fc394d6b8e149382683a987bfde895b02508127878cc3ef5276ecae23b243"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-direct-sums/README.md",
+      "sha256": "f8d88b950cb8c9ca5e666c77453cb7c3d77fe0c8e95f91664ee390bec3ffcc1c"
+    }
+  ],
+  "status": "Exact finite calculations and written interpretation, unreviewed",
+  "improves_omega": false,
+  "scope": "Specified rowwise regular local maps and two small ordinary tensor limits only; no general quantum obstruction."
+}

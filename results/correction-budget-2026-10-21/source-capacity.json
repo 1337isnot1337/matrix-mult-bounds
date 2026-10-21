@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational",
+  "cases": [
+    {
+      "label": "coordinate",
+      "l": 2,
+      "h": 3,
+      "r": 2,
+      "subspace_dimension": 0,
+      "joint_column_rank": 0,
+      "restricted_a_rank": 0,
+      "ceiling_lower_bound": 0,
+      "coefficient_positions": 0
+    },
+    {
+      "label": "coordinate",
+      "l": 3,
+      "h": 2,
+      "r": 4,
+      "subspace_dimension": 1,
+      "joint_column_rank": 1,
+      "restricted_a_rank": 4,
+      "ceiling_lower_bound": 4,
+      "coefficient_positions": 96
+    },
+    {
+      "label": "rational-mixed",
+      "l": 3,
+      "h": 2,
+      "r": 4,
+      "subspace_dimension": 1,
+      "joint_column_rank": 1,
+      "restricted_a_rank": 4,
+      "ceiling_lower_bound": 4,
+      "coefficient_positions": 96
+    },
+    {
+      "label": "coordinate",
+      "l": 3,
+      "h": 2,
+      "r": 4,
+      "subspace_dimension": 5,
+      "joint_column_rank": 3,
+      "restricted_a_rank": 12,
+      "ceiling_lower_bound": 12,
+      "coefficient_positions": 480
+    },
+    {
+      "label": "rational-mixed",
+      "l": 3,
+      "h": 2,
+      "r": 4,
+      "subspace_dimension": 5,
+      "joint_column_rank": 3,
+      "restricted_a_rank": 12,
+      "ceiling_lower_bound": 12,
+      "coefficient_positions": 480
+    },
+    {
+      "label": "coordinate",
+      "l": 4,
+      "h": 3,
+      "r": 2,
+      "subspace_dimension": 7,
+      "joint_column_rank": 3,
+      "restricted_a_rank": 6,
+      "ceiling_lower_bound": 6,
+      "coefficient_positions": 336
+    },
+    {
+      "label": "rational-mixed",
+      "l": 4,
+      "h": 3,
+      "r": 2,
+      "subspace_dimension": 7,
+      "joint_column_rank": 3,
+      "restricted_a_rank": 6,
+      "ceiling_lower_bound": 6,
+      "coefficient_positions": 336
+    },
+    {
+      "label": "coordinate",
+      "l": 2,
+      "h": 2,
+      "r": 3,
+      "subspace_dimension": 4,
+      "joint_column_rank": 2,
+      "restricted_a_rank": 6,
+      "ceiling_lower_bound": 6,
+      "coefficient_positions": 144
+    },
+    {
+      "label": "rational-mixed",
+      "l": 2,
+      "h": 2,
+      "r": 3,
+      "subspace_dimension": 4,
+      "joint_column_rank": 2,
+      "restricted_a_rank": 6,
+      "ceiling_lower_bound": 6,
+      "coefficient_positions": 144
+    },
+    {
+      "label": "strict-ceiling",
+      "l": 4,
+      "h": 3,
+      "r": 4,
+      "subspace_dimension": 2,
+      "joint_column_rank": 3,
+      "restricted_a_rank": 12,
+      "ceiling_lower_bound": 4,
+      "coefficient_positions": 384
+    }
+  ],
+  "coefficient_positions": 2496,
+  "negative_control": {
+    "expected_rank": 2,
+    "altered_rank": 1,
+    "rejected": true
+  },
+  "positive_width_margin": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "limits": "Finite support controls, not proof of the closed limit step or an exponent improvement."
+}

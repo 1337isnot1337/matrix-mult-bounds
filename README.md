@@ -45,7 +45,7 @@ The profile satisfies the stated scalar constraints at $t=3/4$. This is a barrie
 
 ## Reproduce the initial experiments
 
-Use Python 3.10 or later in a virtual environment. CI runs the regression suite on Python 3.10 and 3.14. It replays the historical experiments on Python 3.13. The original recorded run used Python 3.13.5 and SymPy 1.14.0.
+Use Python 3.10 or later in a virtual environment. CI runs the complete regression suite on Python 3.10 and 3.14, divided into four parallel groups on each version. Each discovered test module belongs to exactly one group, keeping its shared fixtures together. The required `CI` check waits for all eight groups and the historical replay on Python 3.13. The original recorded run used Python 3.13.5 and SymPy 1.14.0.
 
 ```sh
 python -m venv .venv

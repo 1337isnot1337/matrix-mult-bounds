@@ -1,0 +1,3844 @@
+{
+  "pilots": [
+    {
+      "artifact": "q-metaplectic-n6-checkpoint.json",
+      "original_discovery_checkpoint_sha256": "38862ea3c5abc070fd30b5c42879a81a5355212731de3cf02cb78ec5a3933636",
+      "original_history_records": [
+        {
+          "n": 6,
+          "iteration": 0,
+          "relative_full_coefficient_error": 0.43959291792404215,
+          "maximum_coefficient_error": 0.7553926903089487,
+          "map_norms": [
+            6.0,
+            4.585078559184569,
+            4.585179206115265
+          ],
+          "map_smallest_singular_values": [
+            0.9999999999999999,
+            0.022207020298752447,
+            0.02304965355980701
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            0.1514773708975865,
+            0.1544938581038553
+          ],
+          "ridge_parameters": [
+            null,
+            null,
+            null
+          ],
+          "elapsed_seconds": 0.001774714000930544
+        },
+        {
+          "n": 6,
+          "iteration": 25,
+          "relative_full_coefficient_error": 0.4358898955185545,
+          "maximum_coefficient_error": 0.7500140997462849,
+          "map_norms": [
+            5.013297981150784,
+            5.0132979811507825,
+            5.013297981150782
+          ],
+          "map_smallest_singular_values": [
+            0.8354897998744422,
+            1.373558650936175e-10,
+            1.3726351213399226e-10
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            0.00018492548510648713,
+            0.00032236806354234913
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 0.3727616260002833
+        },
+        {
+          "n": 6,
+          "iteration": 50,
+          "relative_full_coefficient_error": 0.43588989435476233,
+          "maximum_coefficient_error": 0.7499978221013673,
+          "map_norms": [
+            5.01329799266046,
+            5.013297992660459,
+            5.01329799266046
+          ],
+          "map_smallest_singular_values": [
+            0.8355483844632929,
+            2.9262252486736167e-16,
+            3.0787032861975063e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            2.4203224228051516e-06,
+            9.021303107156267e-06
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 0.7467595390007773
+        },
+        {
+          "n": 6,
+          "iteration": 75,
+          "relative_full_coefficient_error": 0.4358898943540675,
+          "maximum_coefficient_error": 0.7499978814161707,
+          "map_norms": [
+            5.013297937256092,
+            5.013297937256092,
+            5.013297937256092
+          ],
+          "map_smallest_singular_values": [
+            0.8355496230356286,
+            1.6955772370696057e-16,
+            3.29417433597044e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.222175434206471e-08,
+            2.359177690750859e-07
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 1.1262831309995818
+        },
+        {
+          "n": 6,
+          "iteration": 100,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978949428547,
+          "map_norms": [
+            5.013297935039699,
+            5.013297935039699,
+            5.013297935039697
+          ],
+          "map_smallest_singular_values": [
+            0.8355496549459787,
+            2.3180325936175773e-16,
+            3.196951021120304e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            9.440063949918383e-10,
+            6.774967860710066e-09
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 1.4875284179997834
+        },
+        {
+          "n": 6,
+          "iteration": 125,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952364961,
+          "map_norms": [
+            5.013297934965631,
+            5.013297934965632,
+            5.013297934965633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558047182,
+            2.7583644299334036e-16,
+            2.469494320098855e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.89196648398286e-11,
+            1.7456350167696134e-10
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 1.8668042660010542
+        },
+        {
+          "n": 6,
+          "iteration": 150,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952457469,
+          "map_norms": [
+            5.013297934963689,
+            5.01329793496369,
+            5.013297934963691
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558268035,
+            2.3062479111984275e-16,
+            3.259298531028601e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3374578125140223e-12,
+            4.979460363417044e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.2190509459996974
+        },
+        {
+          "n": 6,
+          "iteration": 175,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459527,
+          "map_norms": [
+            5.013297934963634,
+            5.013297934963634,
+            5.013297934963635
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271125,
+            3.4861768126606753e-16,
+            4.086941808045292e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3236799944704701e-12,
+            1.3242452645788743e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.594552720000138
+        },
+        {
+          "n": 6,
+          "iteration": 200,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459566,
+          "map_norms": [
+            5.013297934963632,
+            5.013297934963632,
+            5.013297934963632
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270599,
+            3.1101880818227504e-16,
+            2.3957444410930623e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3432258949537428e-12,
+            1.3446716526009355e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.9705321620003815
+        },
+        {
+          "n": 6,
+          "iteration": 225,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459583,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963633,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.835549655827101,
+            2.9315644315842573e-16,
+            2.3124069317937915e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.327960801541966e-12,
+            1.3374787683865238e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 3.3338972269993974
+        },
+        {
+          "n": 6,
+          "iteration": 250,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459578,
+          "map_norms": [
+            5.013297934963631,
+            5.013297934963629,
+            5.01329793496363
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270589,
+            2.676766953617533e-16,
+            3.7351492553931904e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3432860104920721e-12,
+            1.3451128523507877e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 3.708846022000216
+        },
+        {
+          "n": 6,
+          "iteration": 275,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.749997895245959,
+          "map_norms": [
+            5.013297934963634,
+            5.013297934963635,
+            5.013297934963634
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271011,
+            2.816458920823193e-16,
+            2.559667860653782e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3270190075670835e-12,
+            1.3353391415164742e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.070759280000857
+        },
+        {
+          "n": 6,
+          "iteration": 300,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459581,
+          "map_norms": [
+            5.01329793496363,
+            5.013297934963629,
+            5.013297934963631
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270594,
+            2.7657492321756506e-16,
+            3.0558236643530273e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3407731047276592e-12,
+            1.3457516471415887e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.440554635999433
+        },
+        {
+          "n": 6,
+          "iteration": 325,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459598,
+          "map_norms": [
+            5.013297934963632,
+            5.013297934963633,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270997,
+            2.652185177485232e-16,
+            2.0720963600778904e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3267712811592593e-12,
+            1.3373567663803576e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.8048414349996165
+        },
+        {
+          "n": 6,
+          "iteration": 350,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459574,
+          "map_norms": [
+            5.013297934963629,
+            5.013297934963629,
+            5.01329793496363
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270604,
+            3.326055665875461e-16,
+            2.921433248099335e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.34107349630307e-12,
+            1.3458507267524122e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 5.114497235999806
+        },
+        {
+          "n": 6,
+          "iteration": 375,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459594,
+          "map_norms": [
+            5.013297934963634,
+            5.013297934963634,
+            5.013297934963635
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270994,
+            3.0631052519217667e-16,
+            3.2838004840658495e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3251518935183472e-12,
+            1.335934035562578e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 5.434250192000036
+        },
+        {
+          "n": 6,
+          "iteration": 400,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459594,
+          "map_norms": [
+            5.01329793496363,
+            5.01329793496363,
+            5.013297934963631
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270582,
+            3.1519182550660654e-16,
+            2.6854890165465764e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3409621601327044e-12,
+            1.347693924683614e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 5.8303071900008945
+        },
+        {
+          "n": 6,
+          "iteration": 425,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459585,
+          "map_norms": [
+            5.013297934963634,
+            5.013297934963633,
+            5.013297934963635
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271013,
+            2.950747532979314e-16,
+            3.5868774351760575e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3276212680116376e-12,
+            1.336605300492326e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.191266001000258
+        },
+        {
+          "n": 6,
+          "iteration": 450,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459587,
+          "map_norms": [
+            5.013297934963629,
+            5.013297934963629,
+            5.01329793496363
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270584,
+            3.254545173101783e-16,
+            3.7364598907472917e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3412916099449344e-12,
+            1.348408359057457e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.594924654000351
+        },
+        {
+          "n": 6,
+          "iteration": 475,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.749997895245959,
+          "map_norms": [
+            5.013297934963637,
+            5.013297934963637,
+            5.013297934963636
+          ],
+          "map_smallest_singular_values": [
+            0.835549655827102,
+            2.807894926485279e-16,
+            2.355302705551392e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3268999814606373e-12,
+            1.3337358914374619e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 7.059920453000814
+        },
+        {
+          "n": 6,
+          "iteration": 500,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459577,
+          "map_norms": [
+            5.0132979349636315,
+            5.013297934963632,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270599,
+            4.1098903648253196e-16,
+            3.205833178124652e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3395790065873484e-12,
+            1.3457858166701003e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 7.4662674619994505
+        },
+        {
+          "n": 6,
+          "iteration": 525,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459597,
+          "map_norms": [
+            5.013297934963637,
+            5.013297934963637,
+            5.013297934963636
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271006,
+            3.350970081544227e-16,
+            3.644019130333075e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3252217193502076e-12,
+            1.3340821904003204e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 7.813695893999466
+        },
+        {
+          "n": 6,
+          "iteration": 550,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459587,
+          "map_norms": [
+            5.013297934963632,
+            5.0132979349636315,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270584,
+            3.0305766444860577e-16,
+            3.120139521494838e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3429929913081675e-12,
+            1.3464355737368467e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 8.207898123999257
+        },
+        {
+          "n": 6,
+          "iteration": 575,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.749997895245959,
+          "map_norms": [
+            5.013297934963637,
+            5.013297934963638,
+            5.013297934963637
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270994,
+            3.8234125682230556e-16,
+            3.6488988516937896e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3239584396002193e-12,
+            1.3332966893111322e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 8.650532130001011
+        },
+        {
+          "n": 6,
+          "iteration": 600,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459585,
+          "map_norms": [
+            5.01329793496363,
+            5.013297934963629,
+            5.013297934963631
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270578,
+            2.0601979027993238e-16,
+            2.6928607936073626e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3399012889015383e-12,
+            1.347791386499631e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 9.02854305800065
+        },
+        {
+          "n": 6,
+          "iteration": 625,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952459592,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963634,
+            5.013297934963635
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271003,
+            2.5746882718049746e-16,
+            2.3785430267993215e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.325850959119206e-12,
+            1.3358847388564585e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 9.434644707000189
+        },
+        {
+          "n": 6,
+          "iteration": 650,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952459596,
+          "map_norms": [
+            5.013297934963632,
+            5.0132979349636315,
+            5.013297934963632
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270589,
+            3.275558951405511e-16,
+            3.299892299163387e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3414378111968944e-12,
+            1.3469362425919505e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 9.885229515999526
+        },
+        {
+          "n": 6,
+          "iteration": 675,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459594,
+          "map_norms": [
+            5.013297934963634,
+            5.013297934963633,
+            5.013297934963634
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271015,
+            2.715920436317418e-16,
+            3.143968136064134e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3266299672248782e-12,
+            1.3353761478364319e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 10.320142836999366
+        },
+        {
+          "n": 6,
+          "iteration": 700,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952459574,
+          "map_norms": [
+            5.013297934963632,
+            5.013297934963632,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270579,
+            3.3022565419707433e-16,
+            3.210482625852429e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.342648927350962e-12,
+            1.3453706869911451e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 10.719879106000008
+        },
+        {
+          "n": 6,
+          "iteration": 725,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459578,
+          "map_norms": [
+            5.013297934963637,
+            5.013297934963637,
+            5.013297934963638
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271017,
+            2.9254402628466914e-16,
+            2.488703249942493e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.324560925358856e-12,
+            1.3363095993254019e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.115431333000743
+        },
+        {
+          "n": 6,
+          "iteration": 750,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459586,
+          "map_norms": [
+            5.013297934963629,
+            5.01329793496363,
+            5.013297934963631
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270588,
+            2.9210107229076264e-16,
+            3.7165605310815124e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3450353795504202e-12,
+            1.3488912449972406e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.521070986000268
+        },
+        {
+          "n": 6,
+          "iteration": 775,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459592,
+          "map_norms": [
+            5.013297934963634,
+            5.013297934963634,
+            5.013297934963635
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270986,
+            2.373360169799358e-16,
+            2.2020835464370354e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.325840924217168e-12,
+            1.3347822171335475e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.921752790000028
+        },
+        {
+          "n": 6,
+          "iteration": 800,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952459565,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963633,
+            5.013297934963634
+          ],
+          "map_smallest_singular_values": [
+            0.835549655827059,
+            1.902648415467892e-16,
+            3.0352942638772676e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3397571950342295e-12,
+            1.3433250556410721e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 12.316641507000895
+        },
+        {
+          "n": 6,
+          "iteration": 825,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459581,
+          "map_norms": [
+            5.013297934963637,
+            5.013297934963637,
+            5.013297934963637
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271008,
+            3.0582208578124295e-16,
+            3.0248243297777345e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.325973159451425e-12,
+            1.3354459139436287e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 12.722345686999688
+        },
+        {
+          "n": 6,
+          "iteration": 850,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459567,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963633,
+            5.013297934963634
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270606,
+            2.820615332684174e-16,
+            2.4168856438374393e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.345337321288457e-12,
+            1.3478458647957428e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 13.157372637999288
+        },
+        {
+          "n": 6,
+          "iteration": 875,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952459596,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963632,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271004,
+            3.4845066857454905e-16,
+            4.300941072596407e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.327297472848581e-12,
+            1.3362878249514879e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 13.594744702999378
+        },
+        {
+          "n": 6,
+          "iteration": 900,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459574,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963632,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270608,
+            2.366692790566719e-16,
+            2.671600677716017e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.34165975485796e-12,
+            1.3449732438476591e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 14.031719349000923
+        },
+        {
+          "n": 6,
+          "iteration": 925,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459594,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963633,
+            5.013297934963634
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271007,
+            3.285788432173246e-16,
+            3.1184931312979953e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3272098260117423e-12,
+            1.337435711467064e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 14.476543615999617
+        },
+        {
+          "n": 6,
+          "iteration": 950,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.7499978952459578,
+          "map_norms": [
+            5.013297934963629,
+            5.013297934963631,
+            5.01329793496363
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270592,
+            2.7676368681336424e-16,
+            3.802853598670259e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3438634256374671e-12,
+            1.34737467573255e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 14.881052961000023
+        },
+        {
+          "n": 6,
+          "iteration": 975,
+          "relative_full_coefficient_error": 0.4358898943540674,
+          "maximum_coefficient_error": 0.749997895245959,
+          "map_norms": [
+            5.013297934963633,
+            5.013297934963633,
+            5.013297934963633
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558271004,
+            2.024624999408129e-16,
+            3.2436570251210095e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3279456845953427e-12,
+            1.336266386521695e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 15.2814488540007
+        },
+        {
+          "n": 6,
+          "iteration": 1000,
+          "relative_full_coefficient_error": 0.43588989435406733,
+          "maximum_coefficient_error": 0.7499978952459576,
+          "map_norms": [
+            5.01329793496363,
+            5.01329793496363,
+            5.013297934963631
+          ],
+          "map_smallest_singular_values": [
+            0.8355496558270603,
+            2.63014337064523e-16,
+            4.1744709143231975e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.3400334577522966e-12,
+            1.3471012135255857e-12
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 15.660543038000469
+        }
+      ],
+      "initial_maps_canonical_sha256": "4fd29f12d923e55bb09eff4f807a9cae674e48efb2e795fd93e88280a6919b51",
+      "original_discovery_script_sha256": "662448abdaf4c69b601a357997b7266b83bd7917d5585984a7780678fc79967a"
+    },
+    {
+      "artifact": "q-metaplectic-n7-checkpoint.json",
+      "original_discovery_checkpoint_sha256": "d875c21556fd63cdfe9e0593330d260dc12012fa5049d2e49b2909fc3301d4b4",
+      "original_history_records": [
+        {
+          "n": 7,
+          "iteration": 0,
+          "relative_full_coefficient_error": 0.5551234704741649,
+          "maximum_coefficient_error": 0.7533445485477899,
+          "map_norms": [
+            7.0,
+            4.692622806402827,
+            4.693104884049055
+          ],
+          "map_smallest_singular_values": [
+            0.9999999999999999,
+            0.01475201899507918,
+            0.015410566017545469
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            24,
+            24
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            0.14390553558477942,
+            0.15885040977312123
+          ],
+          "ridge_parameters": [
+            null,
+            null,
+            null
+          ],
+          "elapsed_seconds": 0.00252406300023722
+        },
+        {
+          "n": 7,
+          "iteration": 25,
+          "relative_full_coefficient_error": 0.5527707985441496,
+          "maximum_coefficient_error": 0.7500031565240535,
+          "map_norms": [
+            5.360108437109538,
+            5.360108437109539,
+            5.360108437109539
+          ],
+          "map_smallest_singular_values": [
+            0.765701726500138,
+            7.534148443197585e-11,
+            1.3925913571585703e-11
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            0.00014650261445637737,
+            4.76427285034961e-05
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 0.778238885999599
+        },
+        {
+          "n": 7,
+          "iteration": 50,
+          "relative_full_coefficient_error": 0.5527707983925866,
+          "maximum_coefficient_error": 0.7499997293161204,
+          "map_norms": [
+            5.360108411539857,
+            5.360108411539858,
+            5.360108411539859
+          ],
+          "map_smallest_singular_values": [
+            0.7657294365583232,
+            2.0805335358412021e-16,
+            1.6095003707054385e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            1.8104394701756993e-06,
+            1.673598818589378e-07
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 1.5219099660007487
+        },
+        {
+          "n": 7,
+          "iteration": 75,
+          "relative_full_coefficient_error": 0.5527707983925668,
+          "maximum_coefficient_error": 0.7499996639848351,
+          "map_norms": [
+            5.360108410959076,
+            5.360108410959076,
+            5.360108410959077
+          ],
+          "map_smallest_singular_values": [
+            0.7657297695422365,
+            2.0515909752516506e-16,
+            2.0925415066795426e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            2.1488770149246793e-08,
+            1.5789678742541382e-09
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.2612055749996216
+        },
+        {
+          "n": 7,
+          "iteration": 100,
+          "relative_full_coefficient_error": 0.5527707983925668,
+          "maximum_coefficient_error": 0.7499996634460024,
+          "map_norms": [
+            5.360108410964713,
+            5.3601084109647115,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729461872,
+            2.2092339769511104e-16,
+            1.961499818797151e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            2.609500148866907e-10,
+            2.1248912705037995e-11
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 3.0362954000011086
+        },
+        {
+          "n": 7,
+          "iteration": 125,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634366412,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964713,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729944788,
+            1.9529408154557806e-16,
+            1.9726938643870705e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            3.1948459027546442e-12,
+            6.041774231656161e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 3.793877185000383
+        },
+        {
+          "n": 7,
+          "iteration": 150,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.749999663436566,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948923,
+            2.6954209004392935e-16,
+            4.059588748435648e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.089864661061732e-13,
+            5.020503492270734e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.579041060000236
+        },
+        {
+          "n": 7,
+          "iteration": 175,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.749999663436565,
+          "map_norms": [
+            5.360108410964715,
+            5.360108410964713,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948982,
+            2.539521213554952e-16,
+            2.7836554544642707e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.990046834056869e-13,
+            4.988795890061675e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 5.339128630999767
+        },
+        {
+          "n": 7,
+          "iteration": 200,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365649,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964713,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948905,
+            3.242680633150373e-16,
+            2.3185121138210673e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.017061113287456e-13,
+            5.026247006193034e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.04456306999964
+        },
+        {
+          "n": 7,
+          "iteration": 225,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365668,
+          "map_norms": [
+            5.360108410964713,
+            5.360108410964712,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948953,
+            3.8284952638544938e-16,
+            3.04393480370465e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.996954676269657e-13,
+            5.016660712723755e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.8292472530010855
+        },
+        {
+          "n": 7,
+          "iteration": 250,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365649,
+          "map_norms": [
+            5.360108410964712,
+            5.3601084109647115,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.76572977299489,
+            2.695371394473488e-16,
+            2.3082701590575154e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.038281310077989e-13,
+            5.020958809511252e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 7.592312830000083
+        },
+        {
+          "n": 7,
+          "iteration": 275,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365647,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948965,
+            3.6229172854000893e-16,
+            2.9608414039965736e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.978301227221523e-13,
+            4.984003858860793e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 8.412812325001141
+        },
+        {
+          "n": 7,
+          "iteration": 300,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365653,
+          "map_norms": [
+            5.360108410964712,
+            5.3601084109647115,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948895,
+            2.9198151821636517e-16,
+            2.1340977489921603e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.019785055677099e-13,
+            5.031630600573406e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 9.172938994001015
+        },
+        {
+          "n": 7,
+          "iteration": 325,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365644,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948972,
+            3.986874858378488e-16,
+            3.3830580081747726e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.002863986623802e-13,
+            4.998146609712534e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 10.150577631000488
+        },
+        {
+          "n": 7,
+          "iteration": 350,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365655,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964713,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948903,
+            2.1026151391516781e-16,
+            3.3519281470553594e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.032160465678089e-13,
+            5.01285721856562e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.042810316001123
+        },
+        {
+          "n": 7,
+          "iteration": 375,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365652,
+          "map_norms": [
+            5.3601084109647115,
+            5.3601084109647115,
+            5.3601084109647115
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948978,
+            3.812992276428975e-16,
+            2.895571687387383e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.997856019348477e-13,
+            4.992538528308728e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.926384267000685
+        },
+        {
+          "n": 7,
+          "iteration": 400,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365639,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964713,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948913,
+            2.2403984620998376e-16,
+            3.519278009241463e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.009973309400066e-13,
+            5.01001611321325e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 12.810140093000882
+        },
+        {
+          "n": 7,
+          "iteration": 425,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365648,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964713,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.765729772994897,
+            2.7092065391052955e-16,
+            1.8021552336279698e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.996712378204391e-13,
+            4.98339817554923e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 13.710368101999848
+        },
+        {
+          "n": 7,
+          "iteration": 450,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365653,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964713,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948902,
+            2.5317376364217715e-16,
+            2.640786464589503e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.019050454362661e-13,
+            5.012717219460947e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 14.612054737999642
+        },
+        {
+          "n": 7,
+          "iteration": 475,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365645,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964713,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948979,
+            2.6963895455459964e-16,
+            2.700415082599487e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.004030101880853e-13,
+            4.979162223236242e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 15.46318108000014
+        },
+        {
+          "n": 7,
+          "iteration": 500,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.749999663436566,
+          "map_norms": [
+            5.3601084109647115,
+            5.360108410964713,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948898,
+            2.733723767054129e-16,
+            3.403339238874966e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.036888611793019e-13,
+            5.01934099550108e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 16.25134943500052
+        },
+        {
+          "n": 7,
+          "iteration": 525,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365649,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964714,
+            5.360108410964715
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948969,
+            3.2964826481926004e-16,
+            3.0275500973002263e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.984558853373664e-13,
+            4.9658591152673e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 17.1101944990005
+        },
+        {
+          "n": 7,
+          "iteration": 550,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365647,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964712,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948909,
+            2.798770272706654e-16,
+            3.2485790076436465e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.004597179914772e-13,
+            5.017801860780972e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 17.870075374999942
+        },
+        {
+          "n": 7,
+          "iteration": 575,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365649,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948975,
+            3.3184535290443445e-16,
+            4.2657876290413275e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.016419324124576e-13,
+            5.010750340912675e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 18.758155756000633
+        },
+        {
+          "n": 7,
+          "iteration": 600,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365654,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964713,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948904,
+            3.528164621699526e-16,
+            2.7850083452329e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.015144266299301e-13,
+            5.006135798692716e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 19.648125241001253
+        },
+        {
+          "n": 7,
+          "iteration": 625,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365645,
+          "map_norms": [
+            5.360108410964713,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948965,
+            3.4399644426662014e-16,
+            4.085446003986495e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.959826550973884e-13,
+            4.986860797821207e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 20.53181308999956
+        },
+        {
+          "n": 7,
+          "iteration": 650,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365654,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948892,
+            2.0161402155932592e-16,
+            2.713797750516659e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.021192057244201e-13,
+            5.00659791207532e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 21.39190760299971
+        },
+        {
+          "n": 7,
+          "iteration": 675,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365641,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.765729772994897,
+            2.990525292414073e-16,
+            3.856423386506079e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.991215783745374e-13,
+            4.992235334679179e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 22.156807143999686
+        },
+        {
+          "n": 7,
+          "iteration": 700,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365647,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.765729772994891,
+            2.8426191720356516e-16,
+            2.8187968797936806e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.999658854300845e-13,
+            5.045402880335633e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 22.828803301001244
+        },
+        {
+          "n": 7,
+          "iteration": 725,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365658,
+          "map_norms": [
+            5.360108410964713,
+            5.360108410964712,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948978,
+            2.76172515315605e-16,
+            2.636387040156295e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.010431613095185e-13,
+            4.994664775823581e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 23.65340482800093
+        },
+        {
+          "n": 7,
+          "iteration": 750,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365652,
+          "map_norms": [
+            5.360108410964713,
+            5.360108410964712,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948912,
+            2.7471802993854243e-16,
+            2.3838686750826666e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.007216089588033e-13,
+            5.019981513413722e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 24.403674360000878
+        },
+        {
+          "n": 7,
+          "iteration": 775,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.749999663436565,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948978,
+            2.6190521741995465e-16,
+            2.633431741780178e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.014550578848061e-13,
+            4.981955572295145e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 25.17691222400026
+        },
+        {
+          "n": 7,
+          "iteration": 800,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365655,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948899,
+            2.2349670551121163e-16,
+            3.014582648302712e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.025456123643208e-13,
+            5.022688347619597e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 25.937093878999804
+        },
+        {
+          "n": 7,
+          "iteration": 825,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365647,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964712,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948976,
+            2.0522004708835626e-16,
+            1.7806559824953615e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.965165458497124e-13,
+            5.00067278753357e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 26.62052014800065
+        },
+        {
+          "n": 7,
+          "iteration": 850,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365657,
+          "map_norms": [
+            5.36010841096471,
+            5.36010841096471,
+            5.36010841096471
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948902,
+            2.8152322353663556e-16,
+            3.567577208313231e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.049143557344729e-13,
+            5.023961892050031e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 27.32358036400001
+        },
+        {
+          "n": 7,
+          "iteration": 875,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.749999663436564,
+          "map_norms": [
+            5.360108410964713,
+            5.360108410964712,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948972,
+            2.8160491824664406e-16,
+            3.354695764510099e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.980020605795476e-13,
+            4.985894718557675e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 28.082501533999675
+        },
+        {
+          "n": 7,
+          "iteration": 900,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365661,
+          "map_norms": [
+            5.36010841096471,
+            5.360108410964709,
+            5.36010841096471
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948902,
+            3.5317372767245855e-16,
+            4.0326032047805243e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.014727870277401e-13,
+            5.040858604443791e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 28.813865588001136
+        },
+        {
+          "n": 7,
+          "iteration": 925,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365645,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964712,
+            5.360108410964714
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948962,
+            3.34898060811003e-16,
+            3.2001194294602994e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.99425576077037e-13,
+            4.985910187786275e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 29.581932996999967
+        },
+        {
+          "n": 7,
+          "iteration": 950,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365651,
+          "map_norms": [
+            5.360108410964713,
+            5.360108410964712,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948912,
+            3.0024264536777025e-16,
+            3.7286920219765587e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.013817722458098e-13,
+            5.044018130372804e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 30.406116361000386
+        },
+        {
+          "n": 7,
+          "iteration": 975,
+          "relative_full_coefficient_error": 0.5527707983925667,
+          "maximum_coefficient_error": 0.7499996634365645,
+          "map_norms": [
+            5.360108410964714,
+            5.360108410964712,
+            5.360108410964713
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948987,
+            2.4070950354101804e-16,
+            3.968372692775168e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.987338351467858e-13,
+            4.971492245301481e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 31.195593211001324
+        },
+        {
+          "n": 7,
+          "iteration": 1000,
+          "relative_full_coefficient_error": 0.5527707983925666,
+          "maximum_coefficient_error": 0.7499996634365647,
+          "map_norms": [
+            5.360108410964712,
+            5.360108410964713,
+            5.360108410964712
+          ],
+          "map_smallest_singular_values": [
+            0.7657297729948892,
+            2.530340347835006e-16,
+            3.735380194234784e-16
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            36,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            5.001068406723416e-13,
+            5.034569124432384e-13
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 32.045099663000656
+        }
+      ],
+      "initial_maps_canonical_sha256": "8f17e0bbbe357de3eb7ebec83f49a8560e415d53f9b3b117354b064855e3ead5",
+      "original_discovery_script_sha256": "662448abdaf4c69b601a357997b7266b83bd7917d5585984a7780678fc79967a"
+    },
+    {
+      "artifact": "q-metaplectic-n6-nonproduct-checkpoint.json",
+      "original_discovery_checkpoint_sha256": "0428eb76241f2a893fcf52a2cd264d884ef93acebafa0f449e70c632dd589cda",
+      "original_history_records": [
+        {
+          "n": 6,
+          "iteration": 0,
+          "relative_full_coefficient_error": 0.9569936792318176,
+          "maximum_coefficient_error": 0.9909376351932616,
+          "map_norms": [
+            1.44675453222203,
+            4.47213595499958,
+            4.47213595499958
+          ],
+          "map_smallest_singular_values": [
+            0.051871506988861345,
+            0.40797627986204665,
+            0.42545767808882495
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            4.369697866864092,
+            4.366410046095041
+          ],
+          "ridge_parameters": [
+            null,
+            null,
+            null
+          ],
+          "elapsed_seconds": 0.0016709070005163085
+        },
+        {
+          "n": 6,
+          "iteration": 25,
+          "relative_full_coefficient_error": 0.7071688278073834,
+          "maximum_coefficient_error": 0.8914283803101606,
+          "map_norms": [
+            6.17266693609066,
+            6.17266693609066,
+            6.17266693609066
+          ],
+          "map_smallest_singular_values": [
+            0.19961627591663755,
+            0.12415204565572616,
+            0.1276632749872139
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            6.020488826596645,
+            5.960190135019783
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 0.4505331340005796
+        },
+        {
+          "n": 6,
+          "iteration": 50,
+          "relative_full_coefficient_error": 0.6367287262330256,
+          "maximum_coefficient_error": 0.8223460740386102,
+          "map_norms": [
+            9.1348139825452,
+            9.1348139825452,
+            9.1348139825452
+          ],
+          "map_smallest_singular_values": [
+            0.09269575349023353,
+            0.00024672352043586445,
+            0.0003392336049555871
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            8.95721308930364,
+            8.578528033249954
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 0.844056570000248
+        },
+        {
+          "n": 6,
+          "iteration": 75,
+          "relative_full_coefficient_error": 0.622426557156247,
+          "maximum_coefficient_error": 0.8495282231664489,
+          "map_norms": [
+            11.351448485232545,
+            11.351448485232547,
+            11.351448485232547
+          ],
+          "map_smallest_singular_values": [
+            0.044532733603696126,
+            1.4276088853250715e-07,
+            7.29887460545426e-08
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            20,
+            20
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            11.007145873501555,
+            10.39969385747555
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 1.2796478300006129
+        },
+        {
+          "n": 6,
+          "iteration": 100,
+          "relative_full_coefficient_error": 0.6168051540656425,
+          "maximum_coefficient_error": 0.8738523701576248,
+          "map_norms": [
+            12.700069764677684,
+            12.700069764677684,
+            12.700069764677684
+          ],
+          "map_smallest_singular_values": [
+            0.03600883227527664,
+            3.3491456134076313e-10,
+            2.2485279382099623e-10
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            12.317693362617005,
+            11.66901532452073
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 1.6806286040009581
+        },
+        {
+          "n": 6,
+          "iteration": 125,
+          "relative_full_coefficient_error": 0.6162592170988402,
+          "maximum_coefficient_error": 0.8697465950454484,
+          "map_norms": [
+            12.773900511967923,
+            12.773900511967929,
+            12.77390051196793
+          ],
+          "map_smallest_singular_values": [
+            0.03370209513624016,
+            1.5231553168462568e-12,
+            8.321409386522983e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            12.361009839837878,
+            11.882780769206326
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.0972558250014117
+        },
+        {
+          "n": 6,
+          "iteration": 150,
+          "relative_full_coefficient_error": 0.612697731597581,
+          "maximum_coefficient_error": 0.887891495404629,
+          "map_norms": [
+            13.415601539283594,
+            13.415601539283594,
+            13.415601539283593
+          ],
+          "map_smallest_singular_values": [
+            0.033488067533452404,
+            8.573127443358768e-13,
+            1.9859551920155004e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.004437870604834,
+            12.619704076738898
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.5216582530010783
+        },
+        {
+          "n": 6,
+          "iteration": 175,
+          "relative_full_coefficient_error": 0.6135141113483642,
+          "maximum_coefficient_error": 0.8775157302432626,
+          "map_norms": [
+            13.285028689771455,
+            13.285028689771456,
+            13.285028689771456
+          ],
+          "map_smallest_singular_values": [
+            0.032631010186589045,
+            8.188374131613776e-13,
+            1.9673603016416877e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            12.855235343051353,
+            12.571674942381062
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 2.9123074430008273
+        },
+        {
+          "n": 6,
+          "iteration": 200,
+          "relative_full_coefficient_error": 0.6111436912168945,
+          "maximum_coefficient_error": 0.8854762773134391,
+          "map_norms": [
+            13.852305090468937,
+            13.852305090468935,
+            13.852305090468937
+          ],
+          "map_smallest_singular_values": [
+            0.03262184510410791,
+            4.620046630924004e-13,
+            2.705009799265438e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.429904127840791,
+            13.128789068221112
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 3.3178188240017334
+        },
+        {
+          "n": 6,
+          "iteration": 225,
+          "relative_full_coefficient_error": 0.6128646982758172,
+          "maximum_coefficient_error": 0.8713080541492998,
+          "map_norms": [
+            13.609593464212969,
+            13.609593464212965,
+            13.609593464212969
+          ],
+          "map_smallest_singular_values": [
+            0.03175470369105519,
+            8.664796638751374e-13,
+            2.6374142322566503e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.173464022638935,
+            12.907735178607842
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 3.7161380790003022
+        },
+        {
+          "n": 6,
+          "iteration": 250,
+          "relative_full_coefficient_error": 0.6107138686433468,
+          "maximum_coefficient_error": 0.8750121669011733,
+          "map_norms": [
+            14.086297691102498,
+            14.086297691102493,
+            14.08629769110249
+          ],
+          "map_smallest_singular_values": [
+            0.03198500127124923,
+            7.859107328548911e-13,
+            2.795465821058403e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.661207722754257,
+            13.365594657670542
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.109972748001383
+        },
+        {
+          "n": 6,
+          "iteration": 275,
+          "relative_full_coefficient_error": 0.6125960496754062,
+          "maximum_coefficient_error": 0.8752543250115602,
+          "map_norms": [
+            13.770221556691686,
+            13.770221556691688,
+            13.770221556691691
+          ],
+          "map_smallest_singular_values": [
+            0.031179424452891454,
+            1.202673565110351e-12,
+            2.462208301411149e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.334252698447214,
+            13.065289071355815
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.530448742001681
+        },
+        {
+          "n": 6,
+          "iteration": 300,
+          "relative_full_coefficient_error": 0.610451841768999,
+          "maximum_coefficient_error": 0.8761431785683128,
+          "map_norms": [
+            14.209326216605715,
+            14.209326216605719,
+            14.20932621660572
+          ],
+          "map_smallest_singular_values": [
+            0.03154520487022171,
+            9.13174419099889e-13,
+            2.9709077900495805e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.78536123945953,
+            13.487954787534353
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 4.87350507300107
+        },
+        {
+          "n": 6,
+          "iteration": 325,
+          "relative_full_coefficient_error": 0.6123791487208884,
+          "maximum_coefficient_error": 0.8676114151738507,
+          "map_norms": [
+            13.870621921799525,
+            13.870621921799525,
+            13.870621921799524
+          ],
+          "map_smallest_singular_values": [
+            0.030768789130484447,
+            9.609006843972254e-13,
+            2.575558457779307e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.436745853573454,
+            13.164307368046689
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 5.232903955000438
+        },
+        {
+          "n": 6,
+          "iteration": 350,
+          "relative_full_coefficient_error": 0.6102376655185414,
+          "maximum_coefficient_error": 0.8609064135768597,
+          "map_norms": [
+            14.297087302621133,
+            14.297087302621128,
+            14.297087302621128
+          ],
+          "map_smallest_singular_values": [
+            0.031200512277051916,
+            6.534002652598808e-13,
+            2.876248973592841e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.875066698389954,
+            13.57533640089213
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 5.691977787000724
+        },
+        {
+          "n": 6,
+          "iteration": 375,
+          "relative_full_coefficient_error": 0.612189922846498,
+          "maximum_coefficient_error": 0.8546458684234799,
+          "map_norms": [
+            13.951239934010275,
+            13.951239934010276,
+            13.951239934010278
+          ],
+          "map_smallest_singular_values": [
+            0.030440046760520093,
+            1.2417445524646758e-12,
+            2.460524050992806e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.519669246496019,
+            13.244294268402196
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.1506243540006835
+        },
+        {
+          "n": 6,
+          "iteration": 400,
+          "relative_full_coefficient_error": 0.6100508739766896,
+          "maximum_coefficient_error": 0.8492570903817589,
+          "map_norms": [
+            14.371539344623061,
+            14.37153934462306,
+            14.37153934462306
+          ],
+          "map_smallest_singular_values": [
+            0.03091625279776755,
+            5.886418566787071e-13,
+            2.86270352495755e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.951402608583308,
+            13.649754815345812
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.5373020810002345
+        },
+        {
+          "n": 6,
+          "iteration": 425,
+          "relative_full_coefficient_error": 0.6120210790450809,
+          "maximum_coefficient_error": 0.838878898915003,
+          "map_norms": [
+            14.022451138542872,
+            14.022451138542872,
+            14.022451138542872
+          ],
+          "map_smallest_singular_values": [
+            0.030166347910522782,
+            8.846985947870945e-13,
+            2.641890076584083e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.592956406706165,
+            13.315314283894484
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 6.891500770001585
+        },
+        {
+          "n": 6,
+          "iteration": 450,
+          "relative_full_coefficient_error": 0.6098830342030014,
+          "maximum_coefficient_error": 0.8320201868128124,
+          "map_norms": [
+            14.438314100387815,
+            14.438314100387814,
+            14.438314100387817
+          ],
+          "map_smallest_singular_values": [
+            0.030678335561011447,
+            6.502474296890621e-13,
+            2.854891993875721e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.019797655491107,
+            13.716879166965656
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 7.303179060001639
+        },
+        {
+          "n": 6,
+          "iteration": 475,
+          "relative_full_coefficient_error": 0.6118677164983614,
+          "maximum_coefficient_error": 0.8186745852186823,
+          "map_norms": [
+            14.087051569224842,
+            14.08705156922484,
+            14.087051569224842
+          ],
+          "map_smallest_singular_values": [
+            0.02993679320229503,
+            1.2904196423309229e-12,
+            2.678942991762002e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.659322221381453,
+            13.380142339693366
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 7.721898694000629
+        },
+        {
+          "n": 6,
+          "iteration": 500,
+          "relative_full_coefficient_error": 0.6097291512194057,
+          "maximum_coefficient_error": 0.8155148936523484,
+          "map_norms": [
+            14.499132068041424,
+            14.499132068041428,
+            14.499132068041426
+          ],
+          "map_smallest_singular_values": [
+            0.030479719017241707,
+            6.114461965608613e-13,
+            2.9678335268226227e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.081954321074798,
+            13.778491552065757
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 8.132185097001638
+        },
+        {
+          "n": 6,
+          "iteration": 525,
+          "relative_full_coefficient_error": 0.6117261620490512,
+          "maximum_coefficient_error": 0.7853105674439408,
+          "map_norms": [
+            14.146042508580603,
+            14.146042508580605,
+            14.146042508580607
+          ],
+          "map_smallest_singular_values": [
+            0.029746126816724817,
+            1.0797270550918902e-12,
+            2.9217926344599094e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.719785789756767,
+            13.439835559135238
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 8.583389523000733
+        },
+        {
+          "n": 6,
+          "iteration": 550,
+          "relative_full_coefficient_error": 0.6095854203341201,
+          "maximum_coefficient_error": 0.7741411083635955,
+          "map_norms": [
+            14.554774943156286,
+            14.55477494315629,
+            14.554774943156284
+          ],
+          "map_smallest_singular_values": [
+            0.030316765817478872,
+            6.684644194310492e-13,
+            2.920831490885457e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.138685475974407,
+            13.835462588872943
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 8.993772407000506
+        },
+        {
+          "n": 6,
+          "iteration": 575,
+          "relative_full_coefficient_error": 0.6115932488046064,
+          "maximum_coefficient_error": 0.7689298142816037,
+          "map_norms": [
+            14.19998272661629,
+            14.199982726616282,
+            14.199982726616284
+          ],
+          "map_smallest_singular_values": [
+            0.029591932900530665,
+            1.014079557110622e-12,
+            2.5577649925519317e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.774948397222603,
+            13.495047829570867
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 9.418430260000605
+        },
+        {
+          "n": 6,
+          "iteration": 600,
+          "relative_full_coefficient_error": 0.6094483243952868,
+          "maximum_coefficient_error": 0.7662710011231864,
+          "map_norms": [
+            14.605790145756943,
+            14.605790145756945,
+            14.605790145756945
+          ],
+          "map_smallest_singular_values": [
+            0.030188076672618695,
+            8.486848109179284e-13,
+            2.985052198391643e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.190579143863058,
+            13.88846629017354
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 9.797138543000983
+        },
+        {
+          "n": 6,
+          "iteration": 625,
+          "relative_full_coefficient_error": 0.6114658319904557,
+          "maximum_coefficient_error": 0.7914631303884915,
+          "map_norms": [
+            14.249309150783334,
+            14.249309150783333,
+            14.24930915078333
+          ],
+          "map_smallest_singular_values": [
+            0.029473945330954137,
+            1.4080191915665302e-12,
+            2.6534484317212516e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.82529154487903,
+            13.546355930298443
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 10.13241266300065
+        },
+        {
+          "n": 6,
+          "iteration": 650,
+          "relative_full_coefficient_error": 0.6093140729249951,
+          "maximum_coefficient_error": 0.8123597131784599,
+          "map_norms": [
+            14.652671262423445,
+            14.652671262423445,
+            14.652671262423448
+          ],
+          "map_smallest_singular_values": [
+            0.030094327981946882,
+            5.569341755999158e-13,
+            2.8529047305573874e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.238166458206257,
+            13.938182132828556
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 10.533163601001434
+        },
+        {
+          "n": 6,
+          "iteration": 675,
+          "relative_full_coefficient_error": 0.6113403352808595,
+          "maximum_coefficient_error": 0.824263245670566,
+          "map_norms": [
+            14.294417958682981,
+            14.294417958682983,
+            14.294417958682981
+          ],
+          "map_smallest_singular_values": [
+            0.029394248456849216,
+            1.4304853853263443e-12,
+            2.606434765257023e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.87125096135075,
+            13.594366167648914
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 10.896960880001643
+        },
+        {
+          "n": 6,
+          "iteration": 700,
+          "relative_full_coefficient_error": 0.6091779699317608,
+          "maximum_coefficient_error": 0.8494569673615304,
+          "map_norms": [
+            14.695930291488791,
+            14.695930291488791,
+            14.695930291488787
+          ],
+          "map_smallest_singular_values": [
+            0.0300387511102649,
+            7.828866037517149e-13,
+            2.791254707996485e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.281989598539015,
+            13.985407627326035
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.385450450001372
+        },
+        {
+          "n": 6,
+          "iteration": 725,
+          "relative_full_coefficient_error": 0.6112120896821664,
+          "maximum_coefficient_error": 0.8841761652808736,
+          "map_norms": [
+            14.335706679571901,
+            14.335706679571897,
+            14.335706679571894
+          ],
+          "map_smallest_singular_values": [
+            0.02935817097574766,
+            1.2431332522251118e-12,
+            2.3195359391390777e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.913256305618603,
+            13.639806093906502
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 11.794043683001291
+        },
+        {
+          "n": 6,
+          "iteration": 750,
+          "relative_full_coefficient_error": 0.6090333470348325,
+          "maximum_coefficient_error": 0.8997697903968196,
+          "map_norms": [
+            14.736193356582298,
+            14.736193356582294,
+            14.736193356582291
+          ],
+          "map_smallest_singular_values": [
+            0.030028332424909227,
+            7.529433829593111e-13,
+            2.8614390678403774e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.322694669783914,
+            14.031229523067978
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 12.182005045000551
+        },
+        {
+          "n": 6,
+          "iteration": 775,
+          "relative_full_coefficient_error": 0.6110740692707085,
+          "maximum_coefficient_error": 0.9036507999551345,
+          "map_norms": [
+            14.373665561718346,
+            14.373665561718342,
+            14.373665561718344
+          ],
+          "map_smallest_singular_values": [
+            0.02937615724113024,
+            1.2585290648876394e-12,
+            2.7893582108509924e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.95182015574174,
+            13.683710800129736
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 12.633222359001593
+        },
+        {
+          "n": 6,
+          "iteration": 800,
+          "relative_full_coefficient_error": 0.6088693669844552,
+          "maximum_coefficient_error": 0.8946543491585581,
+          "map_norms": [
+            14.774445480568914,
+            14.774445480568914,
+            14.774445480568914
+          ],
+          "map_smallest_singular_values": [
+            0.030076198430684292,
+            7.522229345788615e-13,
+            2.6453140148587986e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.361270338575913,
+            14.077418038540744
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 13.004032093000205
+        },
+        {
+          "n": 6,
+          "iteration": 825,
+          "relative_full_coefficient_error": 0.6109140510119758,
+          "maximum_coefficient_error": 0.9036567559831918,
+          "map_norms": [
+            14.409171163458204,
+            14.409171163458213,
+            14.409171163458213
+          ],
+          "map_smallest_singular_values": [
+            0.02946738966528379,
+            1.1573456744333732e-12,
+            2.791561477823886e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            13.98782389646317,
+            13.727908868584715
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 13.412148007000724
+        },
+        {
+          "n": 6,
+          "iteration": 850,
+          "relative_full_coefficient_error": 0.608665850836543,
+          "maximum_coefficient_error": 0.9107751490490555,
+          "map_norms": [
+            14.81277096506449,
+            14.812770965064493,
+            14.81277096506449
+          ],
+          "map_smallest_singular_values": [
+            0.030206107506192938,
+            9.92170604017769e-13,
+            2.9560437845902893e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.3997686168242,
+            14.127483632532513
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 13.808077863001017
+        },
+        {
+          "n": 6,
+          "iteration": 875,
+          "relative_full_coefficient_error": 0.6107072663663394,
+          "maximum_coefficient_error": 0.9083423112729289,
+          "map_norms": [
+            14.444527927637772,
+            14.444527927637772,
+            14.44452792763777
+          ],
+          "map_smallest_singular_values": [
+            0.029666345264272295,
+            1.4675311499031918e-12,
+            2.775058742757507e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.023530072823004,
+            13.776477181619056
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 14.215663187000246
+        },
+        {
+          "n": 6,
+          "iteration": 900,
+          "relative_full_coefficient_error": 0.6083794245827757,
+          "maximum_coefficient_error": 0.9077753761151386,
+          "map_norms": [
+            14.856910118446141,
+            14.856910118446137,
+            14.856910118446136
+          ],
+          "map_smallest_singular_values": [
+            0.030459545567201797,
+            1.0289846578411629e-12,
+            3.1128235608909016e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.443791785094785,
+            14.18993736290562
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 14.622699294000995
+        },
+        {
+          "n": 6,
+          "iteration": 925,
+          "relative_full_coefficient_error": 0.6103943401802232,
+          "maximum_coefficient_error": 0.8967962963169517,
+          "map_norms": [
+            14.487662190198144,
+            14.487662190198147,
+            14.487662190198144
+          ],
+          "map_smallest_singular_values": [
+            0.030030177690626096,
+            1.5183075221906957e-12,
+            2.835576083322854e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.066656012190167,
+            13.840828033563218
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 15.01094014300179
+        },
+        {
+          "n": 6,
+          "iteration": 950,
+          "relative_full_coefficient_error": 0.6079020867841471,
+          "maximum_coefficient_error": 0.8882906554243254,
+          "map_norms": [
+            14.926450892569232,
+            14.92645089256923,
+            14.92645089256923
+          ],
+          "map_smallest_singular_values": [
+            0.030893883814504763,
+            8.905246654919437e-13,
+            2.6174307269044873e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.512403264411082,
+            14.28994187158325
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 15.4065041140002
+        },
+        {
+          "n": 6,
+          "iteration": 975,
+          "relative_full_coefficient_error": 0.6098081128844076,
+          "maximum_coefficient_error": 0.8703660353453389,
+          "map_norms": [
+            14.571130099638122,
+            14.571130099638125,
+            14.571130099638122
+          ],
+          "map_smallest_singular_values": [
+            0.03060442603177782,
+            1.521618236239785e-12,
+            2.838699922093894e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.148833709570857,
+            13.960121801033411
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 15.816357766001602
+        },
+        {
+          "n": 6,
+          "iteration": 1000,
+          "relative_full_coefficient_error": 0.6069476830157081,
+          "maximum_coefficient_error": 0.850278427364596,
+          "map_norms": [
+            15.096770068419954,
+            15.096770068419957,
+            15.096770068419955
+          ],
+          "map_smallest_singular_values": [
+            0.031459123632989694,
+            9.062655899760719e-13,
+            3.295715491223835e-13
+          ],
+          "map_numerical_ranks_relative_1e_minus_8": [
+            25,
+            18,
+            18
+          ],
+          "nonproduct_operator_coefficient_norms": [
+            14.678912499037734,
+            14.512006007021624
+          ],
+          "ridge_parameters": [
+            1e-12,
+            1e-12,
+            1e-12
+          ],
+          "elapsed_seconds": 16.179509534000317
+        }
+      ],
+      "initial_maps_canonical_sha256": "9436345c8b9a9815f33eeba4c9cc13371748de9a4fa3f3a809ef608a0c0929a2",
+      "original_discovery_script_sha256": "f558b2a38dc0c239602f7b1cca854982504ea86f794aeb44f3389fa441e96416"
+    }
+  ],
+  "all_retained_records_checked": 123,
+  "histories_equal_original_emitted_records": true,
+  "improves_omega": false
+}
