@@ -459,6 +459,126 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-COMPRESSION-SIMPLE-POLES-075",
+      "title": "Simple-pole obstruction in the fixed A22 compression chart",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/compression_simple_poles.md",
+      "statement": "In the fixed A(2,2) compression chart J_u(A), no Laurent family u_i=epsilon^(-1) f_i+g_i+O(epsilon) with a nonzero leading coefficient has a finite coefficientwise trace-tensor limit. The proof also applies to one isolated negative order when every other negative coefficient vanishes.",
+      "dependencies": [
+        "Explicit linear and quadratic trace-defect decomposition",
+        "Classification of the quadratic nullcone in the fixed chart",
+        "Covariant isotropic and nonisotropic kernel controls"
+      ],
+      "limitations": "The fixed chart and stated pole support are essential. Multiple negative orders, moving physical bases and arbitrary source degenerations are not excluded. Exact finite controls support but do not replace the written proof.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-FIXED-SEED-STABILIZER-076",
+      "title": "Exact obstruction for the saved A33 numerical seed stabilizer orbit",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_stabilizer.md",
+      "statement": "The fixed dyadic A(3,3) numerical seed cannot be converted to M5 by a target GL(5)^3 stabilizer transformation and a global scalar. Its reshuffled operator has N*tr(O^2)-tr(O)^2 nonzero modulo the Gaussian prime 65519, with residue (32521,59183). The standard-library replay reconstructs all 3375 complex input coordinates and 15625 operator entries exactly.",
+      "dependencies": [
+        "Local-similarity transformation law for the reshuffled operator",
+        "Exact float.hex coordinate export and integer modular arithmetic",
+        "Saved four-start complex ALS discovery record"
+      ],
+      "limitations": "This is a statement about the fixed exported coefficients and the stated stabilizer action. Changing the seed, general linear map searches and arbitrary A33 degenerations remain outside it. The numerical residual is not an exponent certificate.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-A88-TORUS-SEED-077",
+      "title": "Exact torus-compatible M12 plus M3 construction",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_torus_seed.md",
+      "statement": "Explicit monomial maps give A(8,8) to M12 plus M3, with 153 nonzero entries per leg. A complete 262144-term source contraction yields exactly 1755 target terms and no mixed coefficients. The target vertex charges embed in the live M27 plus M7 profile.",
+      "dependencies": [
+        "Disjoint product degrees from U=(1,x,x^6,x^7) and V=(1,x^2,x^4)",
+        "Exact separation of mixed target blocks",
+        "Complete integer coefficient replay and tamper control"
+      ],
+      "limitations": "This constructs only M12 plus M3. Embedding its rows in the larger profile leaves the remaining rows zero, and does not construct M27 plus M7 or improve omega.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-MONOTONE-ENDPOINT-SEEDS-078",
+      "title": "Exact monotone physical-vertex matrix seeds",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/monotone_endpoint_seeds.md",
+      "statement": "For distinct physical first indices and weakly decreasing second indices, the common coordinate assignment E_uv to F(i_u,q_u+i_v,q_v) gives an exact square matrix multiplication restriction. Explicit A88 M4 and M8 controls are replayed on all source terms; the M4 uses the four extreme-profile vertices with charges 0,1,13,14.",
+      "dependencies": [
+        "Three cyclic index-difference equations and monotonicity",
+        "Injectivity of the selected source coordinates",
+        "Complete integer M4 and M8 coefficient controls"
+      ],
+      "limitations": "This monotone construction has at most a vertices in A(a,b). Its smaller exact seeds do not give an improving target. Full-rank completion of other rows requires additional tensor equations.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-COMMON-COORDINATE-CODE-079",
+      "title": "Dimension limit for the literal common physical coordinate code",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/coordinate_compression_limit.md",
+      "statement": "If one target leg of an M_n block uses nonzero scalar multiples of the literal code E_uv to e(i_u,q_u+i_v,q_v) from n selected physical vertices in A(a,b), conciseness forces ceil(n/a)*ceil(n/b)<=a+b-1. In A88 this implies n<=24, so an M27 construction must leave this code on every leg.",
+      "dependencies": [
+        "Injectivity of each concise target-leg map",
+        "Maximal physical row and column neighborhoods",
+        "Distinct sums in an interval of length a+b-1"
+      ],
+      "limitations": "This concerns the stated common physical vertex code, including its occurrence as one block of a larger direct sum. It is not an exclusion of arbitrary monomial assignments, mixed maps or singular degenerations.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-A88-EXTREME-ANCHORS-080",
+      "title": "Concise rational live-profile maps with exact extreme slices and an M4 core",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_torus_anchors.md",
+      "statement": "Three explicit 778-by-960 rational maps with denominator 64 and 782 nonzero entries per leg satisfy all six extreme-weight slices of the A88 to M27 plus M7 coefficient equations and the entire M4 tensor on vertices 0,1,25,26. All 87 actual map-weight ranks are recomputed and certify row rank 778 per leg. Arbitrary independent changes on 722 common source coordinates preserve the six extreme slices.",
+      "dependencies": [
+        "Exact endpoint bilinear channel factorizations",
+        "AI-MONOTONE-ENDPOINT-SEEDS-078 for the repaired M4 core",
+        "Complete sparse slice and M4 contraction",
+        "Integer minors nonzero modulo 65521"
+      ],
+      "limitations": "Only the six extreme slices and the embedded M4 are certified. The full target tensor is not constructed. General changes in the 722 free source coordinates need not preserve the M4 core or conciseness. The preserved earlier Hadamard seed is nonextendable with its stated maps fixed.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-FIXED-ANCHOR-OBSTRUCTION-081",
+      "title": "Exact four-map obstruction to the first Hadamard anchor seed",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/fixed_anchor_obstruction.md",
+      "statement": "Four fixed next-layer maps in the original Hadamard endpoint seed force the third-leg trace functional to equal -4*F(0,7,7), whereas target multiplication and the normalized extreme maps require it to represent Z00+Z11 with F(0,7,7)=Z00. Thus no full M27 plus M7 completion retains those four maps and the normalized extremes. The corrected monotone M4 maps escape this relation.",
+      "dependencies": [
+        "Explicit sparse physical matrix multiplication on 64-dimensional space",
+        "All 960 coefficients of the obstruction functional",
+        "Normalized extreme slice and target matrix-unit products"
+      ],
+      "limitations": "The four fixed maps are essential. This does not exclude the repaired seed, other boundary choices, arbitrary source restrictions or Laurent degenerations. No exponent improvement is established.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

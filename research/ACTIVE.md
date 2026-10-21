@@ -12,8 +12,10 @@ Its tested head was `4c88acad6b163ebb20011dd947a4092df003533f`, whose tree
 matches the squash merge. All required hosted jobs pass; the Python 3.10
 job reports 353 completed tests. Earlier checkpoints retain their exact
 local test receipts, including 350 tests at `bf4d187`.
-PR #38, `research/residual-boundary-20261021`, preserves the new boundary
-proof, frontier update, and exact retained-residual maps. The complete
+PR #38 is merged at `fc460bf25fb106ab5de38863d37d1ac4cbfd12dc`.
+Its tested head `f87d3037c9d559ba6972d4738a7d88209dbc8627` has the same
+source tree, with every current hosted check passing. It preserves the
+boundary proof, frontier update, and exact retained-residual maps. The complete
 local suite at `8b09235` passes 368 tests and all five archive replays
 using only maintained verification dependencies. The initial Markdown
 link-check failure and its notation repair are retained in the validation
@@ -49,8 +51,17 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The proof and exact-map package is pushed in PR #38. Current hosted
-checks are required before merging; preserve concurrent worker files.
+The next topic branch is `research/torus-anchors-20261021`. Its seven
+new claims, 075 through 081, preserve the fixed-chart simple-pole and
+fixed-seed stabilizer obstructions, the exact M12 plus M3 torus seed,
+monotone endpoint constructions and their literal-code size limit, and
+the live-profile endpoint maps with an exact M4 core. The first Hadamard
+boundary is retained with its exact noncompletion certificate. The
+repaired boundary passes the former opposite-weight pair compatibility
+check; the full M27 plus M7 equations remain unsolved. Active work now
+propagates exact affine layer constraints and tests the remaining free
+coefficients without quotient equations. Current hosted checks are
+required before merging; preserve concurrent worker files.
 
 ## Earlier coordinated integrations
 

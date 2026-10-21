@@ -351,6 +351,48 @@ target coefficients are checked. The A(8,8) M15 seed is similarly exact,
 with a full 262,144-term integer contraction. Neither reaches the
 unconstructed M27 plus M7 target.
 
+## Torus construction and exact boundary repair
+
+The [torus-compatible M12 plus M3 seed](parity_structure_torus_seed.md)
+is an exact direct-sum restriction of A(8,8). Its 153 entries per leg
+contract to all 1,755 required target terms, with every mixed coefficient
+zero. Its vertex weights fit inside the larger M27 plus M7 profile.
+The [monotone physical-vertex construction](monotone_endpoint_seeds.md)
+supplies exact M4 and M8 controls at the extreme charges.
+
+The [common coordinate-code limit](coordinate_compression_limit.md)
+shows why that literal assignment cannot itself give M27. If n physical
+vertices use the code E_uv to F(i_u,q_u+i_v,q_v) on even one target leg,
+conciseness requires ceil(n/a)*ceil(n/b)<=a+b-1. Thus n<=24 for A88.
+This does not exclude general coordinate assignments or mixed maps.
+
+The [current live-profile seed](parity_balancing_torus_anchors.md)
+has three concise 778-by-960 rational maps. It satisfies every coefficient
+in all six extreme-weight slices, including zeros, and the entire M4
+on vertices 0,1,25,26. All 87 actual map-weight ranks are recomputed.
+The maps have denominator 64 and 782 nonzero entries per leg. There
+remain 722 source coordinates per leg that can be changed independently
+without changing those six extreme slices; preserving the M4 requires
+additional constraints. The full target identity remains unsolved.
+
+The first Hadamard choice also passed all six extreme slices, but the
+[four-map obstruction](fixed_anchor_obstruction.md) proves it cannot
+be completed while retaining its stated next-layer and extreme maps.
+That exact historical seed is preserved. The corrected maps use the
+actual monotone M4 channels and escape the obstructing relation.
+
+Two further exclusions narrow distinct discovery families. The
+[simple-pole theorem](compression_simple_poles.md) excludes the stated
+single-negative-order Laurent families in the fixed A22 compression
+chart. The [fixed-seed stabilizer invariant](parity_balancing_stabilizer.md)
+shows that the saved A33 numerical seed cannot become M5 by the target
+stabilizer and global scaling. Its exact modular obstruction is replayed
+from every exported dyadic coefficient using the standard library.
+Neither result excludes general source degenerations.
+
+All these claims retain their written, externally unreviewed status.
+No seed or partial identity in this section improves the exponent.
+
 ## Earlier symmetry-restricted construction attempts
 
 An SL2-equivariant construction can be searched through representation

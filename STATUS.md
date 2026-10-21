@@ -6,8 +6,8 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records twenty-three local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-QUOTIENT-VOLUME-074,
+The constructive continuation records thirty local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-FIXED-ANCHOR-OBSTRUCTION-081,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
@@ -81,6 +81,26 @@ do not constitute independent mathematical review.
   action and [A(8,8) to M15](research/ai/2026-10-20-anisotropic-constructions/parity_structure_a88_seed.md).
   The latter has 462 nonzero entries per map and a complete sparse replay.
   These controls do not construct the larger improving target.
+
+- A new [torus-compatible exact seed](research/ai/2026-10-20-anisotropic-constructions/parity_structure_torus_seed.md)
+  gives A(8,8) to M12 plus M3. The [monotone physical-vertex construction](research/ai/2026-10-20-anisotropic-constructions/monotone_endpoint_seeds.md)
+  gives exact endpoint M4 and M8 controls. The latter construction's literal
+  common coordinate code has a [size limit](research/ai/2026-10-20-anisotropic-constructions/coordinate_compression_limit.md):
+  every A88 M27 construction must leave that code on each target leg.
+- The [live-profile endpoint maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_torus_anchors.md)
+  have full row rank 778 on all three legs. They satisfy all six extreme
+  slices of the M27 plus M7 target and the complete endpoint M4 tensor.
+  Each rational map has denominator 64 and 782 nonzero entries. The other
+  target coefficients are unsolved. A [four-map relation](research/ai/2026-10-20-anisotropic-constructions/fixed_anchor_obstruction.md)
+  excludes completion of the preserved first Hadamard seed with its stated
+  maps fixed; the repaired M4-compatible seed escapes that relation.
+- The [simple-pole argument](research/ai/2026-10-20-anisotropic-constructions/compression_simple_poles.md)
+  excludes a nonzero simple pole in the fixed A22 compression chart when
+  the trace tensor must have a finite limit. It does not cover arbitrary
+  pole supports or moving physical bases. A separate [stabilizer invariant](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_stabilizer.md)
+  excludes the saved dyadic A33 numerical seed from the stated target
+  stabilizer orbit, with a complete integer-only modular replay. It does
+  not exclude changing that seed or general A33 maps.
 
 The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
 records 368 passing tests and five unchanged archive replays at `8b09235`.
