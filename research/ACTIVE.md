@@ -282,15 +282,17 @@ source costs. The 39 terminal leading-M4 points and twelve partial-bulk
 records are preserved as finite search evidence. A documented metadata
 repair restores sampled ridge histories without changing tensor maps.
 
-The central-group worker merged the H_5 incidence result through PR #42 at
-`bfc5243` and removed its incorporated branch. On
-`research/heisenberg-modular-20261021`, a written application of Petrov's
-external modular filtration now closes the ordinary degree gate for
-coordinate H_p constructions, including all powers and rectangular direct
-sums, at every odd prime p<=47. Do not restart those coordinate searches
-for this gate. Arbitrary complex maps remain open. The constructive SL(2,5)
-M10 target is still active on `research/sl2-five-native-parity`; its initial
-506 exact parity contradictions do not exclude that target.
+The central-group worker merged H_5 incidence through PR #42 at `bfc5243`
+and the all-power modular application through PR #78 at `b95abc2`; both
+completed branches were removed after matching their tested and merged trees.
+Petrov's credited filtration closes the ordinary degree gate for coordinate
+H_p constructions, including all powers and finite rectangular direct sums,
+for every odd prime p<=47. Arbitrary complex maps remain open.
+PR #73 contains the SL(2,5)/split-cover M10 source and parity package;
+PR #79 adds the written subgroup-ideal coset cuts. Neither target is built.
+The next constructive source is S5 x C2 with target M(13,14,14), owned on
+`research/s5-split-20261021`. Its cost comparison is conditional; no smaller
+exponent has been established.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates

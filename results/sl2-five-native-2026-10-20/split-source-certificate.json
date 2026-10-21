@@ -1,0 +1,163 @@
+{
+  "group": "PSL(2,5) x C2",
+  "order": 120,
+  "complex_degrees": [
+    1,
+    3,
+    3,
+    4,
+    5,
+    1,
+    3,
+    3,
+    4,
+    5
+  ],
+  "quotient_rational_certificate": {
+    "group": "PSL(2,5)",
+    "order": 60,
+    "class_sizes": [
+      1,
+      15,
+      20,
+      12,
+      12
+    ],
+    "class_representatives": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        8
+      ]
+    ],
+    "center_generator_coefficients": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cyclic_basis_determinant": "40641638400",
+    "minimal_polynomial": [
+      1,
+      -141,
+      106,
+      23894,
+      5301,
+      -466345
+    ],
+    "rational_central_blocks": [
+      {
+        "irreducible_factor": [
+          1,
+          -139
+        ],
+        "central_idempotent": [
+          "1/60",
+          "1/60",
+          "1/60",
+          "1/60",
+          "1/60"
+        ],
+        "regular_rank": 1,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 1
+      },
+      {
+        "irreducible_factor": [
+          1,
+          5
+        ],
+        "central_idempotent": [
+          "5/12",
+          "1/12",
+          "-1/12",
+          "0",
+          "0"
+        ],
+        "regular_rank": 25,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 5
+      },
+      {
+        "irreducible_factor": [
+          1,
+          11
+        ],
+        "central_idempotent": [
+          "4/15",
+          "0",
+          "1/15",
+          "-1/15",
+          "-1/15"
+        ],
+        "regular_rank": 16,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 4
+      },
+      {
+        "irreducible_factor": [
+          1,
+          -18,
+          61
+        ],
+        "central_idempotent": [
+          "3/10",
+          "-1/10",
+          "0",
+          "1/20",
+          "1/20"
+        ],
+        "regular_rank": 18,
+        "number_of_complex_blocks": 2,
+        "complex_matrix_degree": 3
+      }
+    ],
+    "complex_degrees": [
+      1,
+      3,
+      3,
+      4,
+      5
+    ],
+    "arithmetic": "exact integers and rationals",
+    "sympy_version": "1.14.0"
+  },
+  "derivation": "Exact rational class-algebra decomposition of the quotient, then the two linear characters of the direct C2 factor.",
+  "conditional_gate": {
+    "shape": [
+      10,
+      10,
+      10
+    ],
+    "tau": "2247/1000",
+    "scale": 10000000000,
+    "source_term_upper_numerators": [
+      10000000001,
+      118056922903,
+      118056922903,
+      225335076306,
+      372036542596,
+      10000000001,
+      118056922903,
+      118056922903,
+      225335076306,
+      372036542596
+    ],
+    "source_upper_numerator": 1686970929418,
+    "target_lower_numerator": 1766037820686,
+    "strict_positive_margin_numerator": 79066891268,
+    "meaning": "Conditional comparison only. No degeneration supplied."
+  },
+  "exponent_improvement": false
+}
