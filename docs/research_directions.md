@@ -219,6 +219,16 @@ that degeneration would give a smaller exponent, but no witness exists here.
 Affine-group searches use exact abelian-coset and normal-table constraints.
 Avoid repeating the earlier unnormalized searches without a new reason.
 
+The [semisimple full-space continuation](../research/ai/2026-10-21-semisimple-koszul/proof.md)
+supplies a new exact SL(2,F8) source and screens every improving integer
+format. The selected M(18,18,25) target passes all stated necessary tests
+and would imply2.245 if constructed. Its first full-D18-subgroup pilot
+timed out without a pair model. The next construction must improve that
+search or change its frame; repeating the same bounded run is not new
+mathematical progress. This is distinct from the active SL(2,5) native
+parity work. General complex F8 degenerations also retain21 possible
+formats after the new full-space Koszul exclusions.
+
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.

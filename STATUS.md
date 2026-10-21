@@ -775,6 +775,32 @@ gluing now exclude all three in the stated construction class. This is
 an unreviewed obstruction, not a general degeneration exclusion or an
 improvement of the arithmetic exponent.
 
+## General semisimple Koszul continuation
+
+The [full-space semisimple screen](research/ai/2026-10-21-semisimple-koszul/proof.md)
+applies the existing exact matrix Koszul formulas to general complex
+degenerations of group algebras. It excludes five of the26 remaining F8
+formats, including(16,16,26), while21 still pass, including(19,19,19).
+These exclusions have broader scope than the coordinate-construction
+barriers below. The written derivation and imported rank proofs are unreviewed.
+
+The same package exactly derives the504-element SL(2,F8) source degrees
+1,7,7,7,7,8,9,9,9 by rational central algebra. Its degree/rank-locus/full-Koszul
+frontier leaves16 formats. A genuine M(18,18,25) degeneration would imply
+exponent at most2.245 by the certified conditional comparison; no such
+degeneration is supplied. One fixed-full-D18 subgroup pilot timed out with
+zero pair models in180 seconds. Only its small M(18,1,1) control is verified.
+
+The [SL(2,F8) subgroup-ideal followup](research/ai/2026-10-21-sl2-f8-ideals/proof.md)
+applies a concurrent worker's averaging lemma with new exact central
+projection upper bounds308,440,244 for subgroup orders8,9,18. Complete
+unipotent-eight and dihedral-eighteen cosets are forbidden on every leg of
+all16 remaining coordinate formats. For M(18,18,25), nine-cycle cosets are
+also forbidden in the two size-eighteen families. This now excludes the
+first fixed-full-D18 frame by a written unreviewed proof; its historical
+timeout is not used as proof. Remaining coordinate sets and general tensor
+maps remain open. No exponent improvement follows.
+
 ## Abelian-normal coset Koszul obstruction
 
 The [normal-coset proof](research/ai/2026-10-20-normal-coset-koszul/research_note.md)
@@ -801,6 +827,26 @@ alignment bytes cover all 505 cyclic count classes. Thus no balanced target
 in this stated F8^2:C7 coordinate-potential source-cost route beats 9/4.
 General tensor degenerations and unequal targets with a side below nineteen
 remain open. This written proof is unreviewed and gives no exponent improvement.
+
+The [higher-slice unequal followup](research/ai/2026-10-20-f8-unequal/research_note.md)
+also excludes every target of side sizes at least (16,16,26), in any order,
+in this construction frame. All32 small integer pencils and520710 count
+pairs are replayed exactly; seven-slice averaging gives8970/7>1280.
+The proof is written and unreviewed. A (16,20,21) count pattern survives
+the stated three-, five- and seven-slice necessary tests. Two restricted
+nonlinear graph searches found no target: one reported untraced UNSAT,
+the other timed out. The separately verified (4,4,3) positive control
+does not pass the exponent gate. The arithmetic exponent remains9/4.
+
+The [complete F8 coordinate closure](research/ai/2026-10-21-f8-coordinate-closure/proof.md)
+now closes every unequal format in this one-source route. New even-slice
+rectangular pencils reject the former(16,20,21) count survivor. Exact replay
+checks64 pencils,9539875 pair tags and90 residual alignments across all12
+minimal formats. Thus no single F8^2:C7 target through injective pair maps
+and strict vertex potentials passes its usual source-degree gate at any
+positive exponent at most9/4. The written proof is unreviewed. Arbitrary
+complex degenerations, joint extraction and tensor powers remain open;
+no arithmetic exponent improvement is established.
 
 ## All-size product-filtration result
 
