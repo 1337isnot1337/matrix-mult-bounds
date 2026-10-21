@@ -37,6 +37,34 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## An open set of arbitrary mixed graphs
+
+The [generic graph proof](research/ai/2026-10-21-generic-mixed-graphs/proof.md)
+excludes the canonical seven-by-five target case on an explicitly defined
+nonempty Zariski-open set of all six graph coefficients and a at b=1.
+A rational point certificate uses two fourteen-variable normal blocks:
+559 cubic minors in each generate all2380 quartic forms. Exact rank
+modulo32003 proves the relevant rational minors are nonzero. Symbolic
+source blocks and a fixed normal chart make this an open-set theorem,
+not an extrapolation to all parameters from a finite test. The checked
+torus extends it to an open set for b nonzero. Claim
+`AI-GENERIC-MIXED-GRAPHS-094` is written and unreviewed. A remaining target
+would require its entire affine four-plane of graph representatives to
+lie in the exceptional fiber. That geometry is unresolved; the exponent
+remains9/4.
+
+## Two-coordinate rank strata and exceptional graph closure
+
+The [two-coordinate chart proof](research/ai/2026-10-21-mixed-two-coordinate-chart/proof.md)
+classifies every complex parameter pair in m+t*d0+h*d1 at a=b=1:
+normal dimensions32 off two points,36 at the origin and34 at (1,1).
+A polynomial frame is complete away from those points, certified by
+matched minors and all complex exceptional-root controls. The full
+exceptional normal system at (1,1) reduces to the four plane directions
+and excludes that graph under the prior shifted induction. Claim
+`AI-MIXED-TWO-COORDINATE-STRATA-093` is written and unreviewed. Full target
+classification on this chart remains open; the exponent remains9/4.
+
 ## Uniform mixed-axis reduction
 
 The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a
