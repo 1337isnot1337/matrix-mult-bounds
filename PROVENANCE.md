@@ -24,6 +24,13 @@ radical, averaging and modular filtration facts retain their usual and
 explicit external attribution. No independent review or exponent gain is
 claimed.
 
+The `2026-10-21-subgroup-ideal` package is owner-directed Codex work. It
+adopts the maintained coordinate/potential model and exact group generators
+with their existing credits. Subgroup averaging, the idempotent e_H and
+two-sided ideals are standard algebra; no historical novelty is claimed.
+The local obstruction application and explicit ideal rank certificates
+have no independent review and supply no improved exponent.
+
 The `2026-10-20-sl2-five-native-parity` package is owner-directed Codex
 work in the same session as the central-product and Heisenberg packages.
 It reuses the existing SL(2,5) source certificate, central-quotient helpers,

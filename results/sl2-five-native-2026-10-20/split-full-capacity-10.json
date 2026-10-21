@@ -1,0 +1,210 @@
+{
+  "group": "PSL(2,5) x C2",
+  "shape": [
+    10,
+    10,
+    10
+  ],
+  "encoding": {
+    "variables": 3351,
+    "clauses": 11447,
+    "projected_order": 60,
+    "inverse_classes": 37,
+    "subgroup_order": 12,
+    "subgroup_index": 5,
+    "abelian_fiber_cuts": null,
+    "reused_parity_templates": null,
+    "identity_fiber_lower": [
+      2,
+      2,
+      2
+    ],
+    "complete_pair_capacity": {
+      "triple_patterns": 577,
+      "covered_triples": 34220,
+      "pattern_flags": 1731,
+      "clauses": 104391
+    }
+  },
+  "source_and_normalization": {
+    "group": "PSL(2,5) x C2",
+    "projected_order": 60,
+    "inverse_class_fiber_counts": {
+      "1": 0,
+      "2": 37
+    },
+    "subgroup_order": 24,
+    "subgroup_index": 5,
+    "subgroup_members": [
+      0,
+      1,
+      2,
+      3,
+      12,
+      13,
+      34,
+      35,
+      42,
+      43,
+      58,
+      59,
+      66,
+      67,
+      70,
+      71,
+      84,
+      85,
+      92,
+      93,
+      108,
+      109,
+      116,
+      117
+    ],
+    "projected_subgroup": [
+      0,
+      1,
+      6,
+      17,
+      21,
+      29,
+      33,
+      35,
+      42,
+      46,
+      54,
+      58
+    ],
+    "first_pair_anchor_disjunction": [
+      1,
+      17
+    ],
+    "anchor_coverage": [
+      {
+        "projected_quotient": 1,
+        "conjugator": 0,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 6,
+        "conjugator": 42,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 17,
+        "conjugator": 0,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 21,
+        "conjugator": 2,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 29,
+        "conjugator": 12,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 33,
+        "conjugator": 42,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 35,
+        "conjugator": 34,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 42,
+        "conjugator": 0,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 46,
+        "conjugator": 2,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 54,
+        "conjugator": 12,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 58,
+        "conjugator": 42,
+        "reverse_pair": true,
+        "anchor": 17
+      }
+    ],
+    "complex_degrees": [
+      1,
+      3,
+      3,
+      4,
+      5,
+      1,
+      3,
+      3,
+      4,
+      5
+    ],
+    "source_certificate_sha256": "c2874f3202297479afa6fd11d6070e94658e931780f7ec2ab16480691ee95e61",
+    "conditional_gate": {
+      "shape": [
+        10,
+        10,
+        10
+      ],
+      "tau": "2247/1000",
+      "scale": 10000000000,
+      "source_term_upper_numerators": [
+        10000000001,
+        118056922903,
+        118056922903,
+        225335076306,
+        372036542596,
+        10000000001,
+        118056922903,
+        118056922903,
+        225335076306,
+        372036542596
+      ],
+      "source_upper_numerator": 1686970929418,
+      "target_lower_numerator": 1766037820686,
+      "strict_positive_margin_numerator": 79066891268,
+      "meaning": "Conditional comparison only. No degeneration supplied."
+    },
+    "exponent_improvement": false
+  },
+  "seconds_limit": 600.0,
+  "projected_model_events": 59,
+  "learned_parity_rows": 4570,
+  "exact_parity_cuts": 53,
+  "exact_pair_capacity_cuts": 0,
+  "pair_capacity_enabled": false,
+  "reused_sources": [],
+  "pair_injective_models": 2,
+  "exact_farkas_cuts": 2,
+  "status": "time-limit",
+  "witness": null,
+  "exponent_improvement": false,
+  "scope": "Bounded discovery; model events need not have distinct projections. Untraced solver negatives are not exclusions.",
+  "elapsed_seconds": 601.1846385169993,
+  "sat_statistics": {
+    "restarts": 80722,
+    "conflicts": 4697998,
+    "decisions": 14057968,
+    "propagations": 702306597
+  }
+}

@@ -40,6 +40,18 @@ models respectively; all have exactly replayed Farkas contradictions.
 The sampler now incorporates the existing commuting-trade condition.
 Claims031/032/033 supply no improving target or smaller bound.
 
+## Subgroup-ideal cuts on the central-cover targets
+
+The [subgroup-ideal proof](research/ai/2026-10-21-subgroup-ideal/proof.md)
+shows that a full subgroup coset in one coordinate vertex set bounds the
+other-pair product by dim C[G]e_HC[G]. Exact five-cycle dimensions80,88,160
+exclude such cosets in all legs of the two M10 targets and the order240
+M(13,13,15) target. Integer annihilator and modular lower-rank certificates
+replay, including a real positive equality control. The revised split-cover
+search uses these necessary cuts. Claim `AI-SUBGROUP-IDEAL-027` is written
+and unreviewed; the targets outside this coset condition remain open and
+the exponent remains9/4.
+
 ## Joint central-sign search in SL(2,5)
 
 The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)
