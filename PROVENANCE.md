@@ -665,3 +665,13 @@ matched minors and exact algebraic-number controls. The normal frame's
 specialization failures are retained explicitly. Prior canonical source,
 virtual correction, target rank gap and shifted induction retain their
 credits. The written proof has no independent review or exponent gain.
+
+The `2026-10-21-generic-mixed-graphs` package replaces a stalled auxiliary
+relation calculation with exact quartic consequences of selected cubic
+minors. A symbolic two-block source partition and a fixed56-row normal
+chart extend a modular rational-point certificate to a nonempty open set
+of all graph coefficients and the partner parameter. The prior polynomial
+frame assisted discovery; maintained acceptance reconstructs the source
+and its own constant complement. Torus and shifted-induction dependencies
+retain their source credits. This is a same-session written proof and
+finite exact replay, without independent review or exponent improvement.

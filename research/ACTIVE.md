@@ -25,16 +25,16 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-mixed-two-coordinate-chart/QUESTION.md`. The first
-m+t*d0+h*d1 chart at a=b=1 has a complete normal-rank stratification and
-a polynomial frame away from the origin and (1,1). The full exceptional
-fiber at (1,1) closes by source equations and cubic minors. Its generic
-target incidence remains open. The next calculation uses the polynomial
-frame for the stable-row and auxiliary-projection relations. PR70 contains
-the uniform-axis proof, merged at20fa49b after current CI passed. Its
-source and squash trees match; the completed worktree and branches are
-removed. The591-test local two-coordinate suite and five archive replays
-passed. No exponent gain is established.
+`ai/2026-10-21-generic-mixed-graphs/QUESTION.md`. Two fourteen-variable
+normal blocks have exact quartic-spanning certificates at a rational
+point. Their symbolic source partition and fixed56-equation normal chart
+prove a nonempty open exclusion in all seven b=1 graph/partner parameters,
+extended to b nonzero by the source torus. The remaining problem is affine
+four-planes contained in the exceptional fibers. Constant-unit elimination
+of the44-coordinate normal blocks is the next structural calculation.
+PR74 contains the complete two-coordinate rank strata and exceptional
+fiber proof; it incorporates main's PR40 and reruns CI with a30-minute
+budget after a confirmed20-minute timeout. No exponent gain is established.
 
 
 The mixed-frame worker now studies
