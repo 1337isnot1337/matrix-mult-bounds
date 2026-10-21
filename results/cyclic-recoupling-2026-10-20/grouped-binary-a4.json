@@ -1,0 +1,142 @@
+{
+  "a": 4,
+  "mode": "grouped-binary",
+  "seed": null,
+  "input_weight_pairs": 16129,
+  "distinct_scored_supports": 1797505,
+  "interval_bits": 80,
+  "source_matching_profile_cubed": "456533000/531441",
+  "global_ratio_upper": "58989951/228266500",
+  "violations": [],
+  "unresolved_interval_comparisons": [],
+  "new_exponent_established": false,
+  "best": {
+    "weights": {
+      "x": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "y": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "z": [
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "output_mask": 126
+    },
+    "retained_blocks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      25,
+      51,
+      82,
+      115,
+      147
+    ],
+    "score_interval": [
+      "222",
+      "222"
+    ],
+    "ratio_interval": [
+      "58989951/228266500",
+      "58989951/228266500"
+    ],
+    "expression": {
+      "type": "shared",
+      "axes": [
+        0,
+        1
+      ],
+      "children": [
+        {
+          "type": "shared",
+          "axes": [
+            1,
+            2
+          ],
+          "children": [
+            {
+              "type": "block",
+              "index": 1
+            },
+            {
+              "type": "block",
+              "index": 2
+            },
+            {
+              "type": "block",
+              "index": 3
+            },
+            {
+              "type": "block",
+              "index": 4
+            },
+            {
+              "type": "block",
+              "index": 5
+            },
+            {
+              "type": "block",
+              "index": 6
+            }
+          ]
+        },
+        {
+          "type": "shared",
+          "axes": [
+            0,
+            2
+          ],
+          "children": [
+            {
+              "type": "block",
+              "index": 7
+            },
+            {
+              "type": "block",
+              "index": 25
+            },
+            {
+              "type": "block",
+              "index": 51
+            },
+            {
+              "type": "block",
+              "index": 82
+            },
+            {
+              "type": "block",
+              "index": 115
+            },
+            {
+              "type": "block",
+              "index": 147
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

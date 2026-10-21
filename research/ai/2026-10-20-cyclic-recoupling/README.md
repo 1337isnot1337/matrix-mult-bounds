@@ -78,7 +78,7 @@ sum adds the child bounds; an independent direct sum uses
 and recursive expression. Acceptance and negative score comparisons use
 exact interval bounds; displayed decimals are descriptive.
 
-## Completed coverage and active check
+## Completed coverage
 
 All full coefficient tensors and grouped factorizations at a=2,3,4 have
 been generated and checked. The scalar-block counts are 36,429,2539, and the
@@ -100,16 +100,38 @@ degrees. Reports give distinct supports, which can overlap between modes.
 These completed runs have no profile violation or unresolved interval
 comparison. A separate enumeration covers every binary input weight vector
 with minimum zero and every nonempty output-label subset in the grouped
-model. The a=2 and a=3 runs are complete, at 253 and 24156 distinct supports.
-The a=4 run has enumerated 1797505 supports; scoring is still running at
-this checkpoint. Its completed result must be recorded before claiming
-negative coverage for that entire run.
+model. All three runs are complete, with 253, 24156 and 1797505 distinct supports,
+respectively. Their best ratios are 0.594000, 0.365297 and 0.258426. Every
+score is strictly below the matching-profile comparison, with no unresolved
+interval. The initial exact implementation and the maintained implementation
+agree exactly on the a=4 support count and global rational upper score.
 
 These finite negatives do not exclude other weights, basis changes within
 multiplicity spaces, different partitions, higher tensor powers or stronger
 proved multiplicity values. Even a matching-profile violation would need
 an implication for every relevant actual character before improving omega.
 The concrete A_4 to M(10,10,11) degeneration remains unconstructed.
+
+## The central multiplicity tensor is not ordinary M2
+
+At a=4 the degree triple (6,6,6) has multiplicities (4,4,4). Its tensor B
+might therefore suggest a 2-by-2 matrix multiplication factor, but dimension
+alone is insufficient. `central_screen.py` computes the determinant of its
+4-by-4 slice matrix. Substituting (x1,x2,x3)=(1,0,0), and removing a nonzero
+rational factor, gives
+
+    f(x0)=192*x0^4+352*x0^2-765.
+
+The saved rational Bezout identity u*f+v*f'=1 proves that this quartic is
+squarefree over C. In contrast the slice determinant of M(2,2,2) is the
+square of a quadratic. Invertible maps on the other two legs multiply this
+determinant by a nonzero constant, and a first-leg map makes an invertible
+linear substitution. Squareness is invariant under both. A specialization
+of a square remains a square or zero; the displayed squarefree quartic
+therefore excludes an isomorphism B to M2. Any ordinary restriction between
+these concise equal formats would be invertible, so it is excluded as well.
+This finite algebraic certificate does not exclude a singular degeneration.
+The proof is written and unreviewed; no matrix factor is used in the scores.
 
 ## Reproduction and attribution
 

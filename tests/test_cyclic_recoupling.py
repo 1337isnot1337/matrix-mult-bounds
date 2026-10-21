@@ -7,6 +7,8 @@ from pathlib import Path
 import sys
 import unittest
 
+import sympy as sp
+
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "research/ai/2026-10-20-cyclic-recoupling"
 sys.path.insert(0, str(PACKAGE))
@@ -73,6 +75,19 @@ class CyclicRecouplingTests(unittest.TestCase):
             self.assertEqual(result["unresolved_interval_comparisons"], [])
             self.assertLess(Fraction(result["global_ratio_upper"]), 1)
             self.assertFalse(result["new_exponent_established"])
+
+    def test_central_multiplicity_determinant_certificate(self):
+        import central_screen
+        data = cyclic_coefficients.read_json(RESULTS/"grouped-a4.json.gz")
+        saved = json.loads((RESULTS/"central-multiplicity-screen.json").read_text())
+        self.assertEqual(central_screen.report(data), saved)
+        x = sp.Symbol("x")
+        f = sp.Poly.from_list(saved["primitive_quartic_coefficients_high_to_low"], x)
+        u = sp.Poly.from_list(list(map(sp.Rational, saved["bezout_u_high_to_low"])), x)
+        v = sp.Poly.from_list(list(map(sp.Rational, saved["bezout_v_high_to_low"])), x)
+        self.assertEqual(sp.expand((u*f+v*f.diff()).as_expr()), 1)
+        self.assertEqual(f.as_expr(), 192*x**4+352*x**2-765)
+        self.assertFalse(saved["arbitrary_degeneration_to_M2_excluded"])
 
     def test_complete_small_binary_search(self):
         data = cyclic_coefficients.read_json(RESULTS/"grouped-a2.json.gz")

@@ -205,7 +205,10 @@ The [cyclic recoupling experiment](research/ai/2026-10-20-cyclic-recoupling/READ
 change mixing all three factors on each leg. At a=4 its 2539 scalar blocks
 factor into 175 representation-degree blocks. Sampled searches using exact
 scores find no matching-profile violation. The full a=4 grouped binary
-weight enumeration has 1797505 supports; scoring is still in progress.
+weight run also finishes with no violation across 1797505 distinct supports;
+its best score ratio is about 0.258426. A separate exact determinant
+certificate excludes interpreting the central 4-by-4-by-4 multiplicity
+tensor as M2 under constant maps (AI-CYCLIC-CENTRAL-MULTIPLICITY-045).
 This finite experiment supplies reusable coefficient data, not a degeneration
 achieving the required gain.
 
