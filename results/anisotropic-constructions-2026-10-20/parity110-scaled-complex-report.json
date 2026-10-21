@@ -1,0 +1,131 @@
+{
+  "source_lengths": [
+    5,
+    5
+  ],
+  "source_mode": "parity110",
+  "source_nonzero_coefficients": 11725,
+  "source_diagonal_scaling": "results/anisotropic-constructions-2026-10-20/parity_balancing_preconditioner.npz",
+  "source_scaling_sha256": "4516d01f6376fc557e37a6ef2c0f586f206d759729b57a631aeff1f55a438326",
+  "target_shape": null,
+  "target_direct_sum_sizes": [
+    14,
+    4
+  ],
+  "map_class": "arbitrary dense constant maps; no weight restriction",
+  "complex_maps": true,
+  "maximum_iterations": 100,
+  "starts_completed": 1,
+  "records": [
+    {
+      "seed": 2026102820,
+      "iterations": 100,
+      "full_relative_error": 0.8654532036491943,
+      "trajectory": [
+        [
+          1,
+          0.9916012672658772
+        ],
+        [
+          6,
+          0.9426028118632499
+        ],
+        [
+          11,
+          0.9097263613069717
+        ],
+        [
+          16,
+          0.8939718106494612
+        ],
+        [
+          21,
+          0.8850712012351911
+        ],
+        [
+          26,
+          0.8812369772532098
+        ],
+        [
+          31,
+          0.8784587919679833
+        ],
+        [
+          36,
+          0.8752913299141549
+        ],
+        [
+          41,
+          0.8705168728211666
+        ],
+        [
+          46,
+          0.8681197503218815
+        ],
+        [
+          51,
+          0.8673879821222246
+        ],
+        [
+          56,
+          0.8669405945955758
+        ],
+        [
+          61,
+          0.8665840536349974
+        ],
+        [
+          66,
+          0.8662792059185416
+        ],
+        [
+          71,
+          0.8660439821135628
+        ],
+        [
+          76,
+          0.8658765238415396
+        ],
+        [
+          81,
+          0.8657527123639646
+        ],
+        [
+          86,
+          0.8656546437411893
+        ],
+        [
+          91,
+          0.8655732557985103
+        ],
+        [
+          96,
+          0.8655033997195333
+        ],
+        [
+          100,
+          0.8654532036491943
+        ]
+      ],
+      "map_norms": [
+        53.41992837583972,
+        53.41992837583988,
+        53.41992837583994
+      ]
+    }
+  ],
+  "initial_array": null,
+  "initial_sha256": null,
+  "initial_noise": null,
+  "control": {
+    "integer_control_full_relative_error": 0.0,
+    "after_one_sweep_error": 2.4626204203984604e-15,
+    "parity110_control_full_relative_error": 0.0,
+    "single_block_direct_sum_control_full_relative_error": 0.0
+  },
+  "best_full_relative_error": 0.8654532036491943,
+  "full_coefficient_count": 9528128,
+  "exact_witness_found": false,
+  "exclusion_proved": false,
+  "new_exponent_established": false
+}

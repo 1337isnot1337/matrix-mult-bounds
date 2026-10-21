@@ -1,0 +1,270 @@
+{
+  "claim_status": "written proof; same-session checks; no independent review",
+  "new_exponent_established": false,
+  "corner_evaluations": 4096,
+  "integer_deficit_identities": 8280,
+  "source_controls": [
+    {
+      "a": 2,
+      "b": 2,
+      "leg_dimension": 12,
+      "odd_dimensions": [
+        6,
+        6,
+        6
+      ],
+      "retained_terms": 48,
+      "no_two_even_terms": true
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "leg_dimension": 112,
+      "odd_dimensions": [
+        56,
+        56,
+        56
+      ],
+      "retained_terms": 3072,
+      "no_two_even_terms": true
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "leg_dimension": 160,
+      "odd_dimensions": [
+        80,
+        80,
+        80
+      ],
+      "retained_terms": 6000,
+      "no_two_even_terms": true
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "leg_dimension": 225,
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "retained_terms": 11725,
+      "no_two_even_terms": true
+    }
+  ],
+  "target_controls": [
+    {
+      "shapes": [
+        [
+          14,
+          14,
+          14
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "target_leg_dimensions": [
+        212,
+        212,
+        212
+      ],
+      "required_annihilator_dimensions": [
+        99,
+        99,
+        100
+      ],
+      "sum_required": 298,
+      "matrix_space_upper_bound": 212,
+      "strict_single_square_exclusion": false,
+      "excluded": true
+    },
+    {
+      "shapes": [
+        [
+          14,
+          14,
+          14
+        ]
+      ],
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "target_leg_dimensions": [
+        196,
+        196,
+        196
+      ],
+      "required_annihilator_dimensions": [
+        83,
+        83,
+        84
+      ],
+      "sum_required": 250,
+      "matrix_space_upper_bound": 196,
+      "strict_single_square_exclusion": true,
+      "excluded": true
+    },
+    {
+      "shapes": [
+        [
+          13,
+          13,
+          13
+        ]
+      ],
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "target_leg_dimensions": [
+        169,
+        169,
+        169
+      ],
+      "required_annihilator_dimensions": [
+        56,
+        56,
+        57
+      ],
+      "sum_required": 169,
+      "matrix_space_upper_bound": 169,
+      "strict_single_square_exclusion": true,
+      "excluded": true
+    },
+    {
+      "shapes": [
+        [
+          3,
+          3,
+          3
+        ]
+      ],
+      "odd_dimensions": [
+        6,
+        6,
+        6
+      ],
+      "target_leg_dimensions": [
+        9,
+        9,
+        9
+      ],
+      "required_annihilator_dimensions": [
+        3,
+        3,
+        3
+      ],
+      "sum_required": 9,
+      "matrix_space_upper_bound": 9,
+      "strict_single_square_exclusion": true,
+      "excluded": true
+    },
+    {
+      "shapes": [
+        [
+          5,
+          5,
+          9
+        ],
+        [
+          4,
+          4,
+          9
+        ]
+      ],
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "target_leg_dimensions": [
+        41,
+        81,
+        81
+      ],
+      "required_annihilator_dimensions": [
+        0,
+        0,
+        0
+      ],
+      "sum_required": 0,
+      "matrix_space_upper_bound": 81,
+      "strict_single_square_exclusion": false,
+      "excluded": false
+    },
+    {
+      "shapes": [
+        [
+          5,
+          9,
+          4
+        ],
+        [
+          4,
+          9,
+          5
+        ]
+      ],
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "target_leg_dimensions": [
+        81,
+        81,
+        40
+      ],
+      "required_annihilator_dimensions": [
+        0,
+        0,
+        0
+      ],
+      "sum_required": 0,
+      "matrix_space_upper_bound": 90,
+      "strict_single_square_exclusion": false,
+      "excluded": false
+    },
+    {
+      "shapes": [
+        [
+          5,
+          5,
+          5
+        ]
+      ],
+      "odd_dimensions": [
+        113,
+        113,
+        112
+      ],
+      "target_leg_dimensions": [
+        25,
+        25,
+        25
+      ],
+      "required_annihilator_dimensions": [
+        0,
+        0,
+        0
+      ],
+      "sum_required": 0,
+      "matrix_space_upper_bound": 25,
+      "strict_single_square_exclusion": false,
+      "excluded": false
+    }
+  ],
+  "scope": "arbitrary one-copy degenerations from the specified parity source; no general asymptotic exclusion"
+}

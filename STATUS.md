@@ -1,8 +1,85 @@
 # Research status
 
-Date: October 20, 2026.
+Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
+
+## Constructive continuation and source obstructions
+
+The continuation on `research/constructive-spectrum-20261020` records fourteen
+new claims, AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-RESIDUAL-065,
+in [the claim ledger](research/claims.json). All general arguments are
+written and unreviewed. Same-session agent checks and exact finite replays
+do not constitute independent mathematical review.
+
+- The [oriented endpoint analysis](research/ai/2026-10-20-critical-character-extension/README.md)
+  gives a common critical amplitude and a quantitative stability bound.
+  A certified fifth-difference stencil separates that hypothetical profile
+  from quantum characters and the classified edge of the spectrum. The
+  corresponding test for interior spectral points remains unproved.
+- The [nonmonic target normalization](research/ai/2026-10-20-new-source-constructions/README.md)
+  gives an all-size unimodular normalization. At size four, a sampled chamber
+  reduces the coefficient system to 95 zero equations and two orbit
+  relations. Exact elimination has 65 unit pivots. No exact solution or
+  Hensel certificate has been found.
+- The [full polynomial rank locus](research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)
+  classifies cyclic-source slices below twice their minimum rank. It gives
+  an ordinary-map obstruction for every nonscalar square target block.
+  The [Hankel-symbol dimension theorem](research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md)
+  extends the obstruction to every rank r with r<min(a,b) and
+  3r<=a+b-1. A separate [equality argument](research/ai/2026-10-20-anisotropic-constructions/parity_structure_equality.md)
+  and [three-leg factorization](research/ai/2026-10-20-anisotropic-constructions/hankel_rank_two.md)
+  close the rank-2ab boundary for square blocks of size at least three.
+  [Exact partition enumeration](research/ai/2026-10-20-anisotropic-constructions/square_sum_frontier.md)
+  then excludes every ordinary square direct-sum target that could pass the
+  finite 9/4 score in all 51 source formats with leg dimension below 784.
+  The first surviving format is A(7,8): M25 plus M5 would imply a bound
+  below 2.247, but its maps are missing. The former ordinary A(5,6) target
+  M16 plus M4 is excluded. Singular full-source degenerations remain open.
+- An [explicit parity degeneration](research/ai/2026-10-20-anisotropic-constructions/parity_balancing.md)
+  has positive rational marginal certificates and cyclic asymptotic
+  slice-rank capacity about 212.716257. A stronger
+  [pairwise-annihilator obstruction](research/ai/2026-10-20-anisotropic-constructions/parity_annihilator.md)
+  bounds every square direct-sum target of that one-copy source by leg
+  dimension 169, including arbitrary singular degenerations. A single M13
+  is also excluded. The proposed M14 plus M4 target is therefore closed.
+- The [integral direct-sum construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_direct_sum.md)
+  gives actual restrictions A(a,a) to M(2a−2) plus M(a−2), for every a≥3.
+  Complete coefficient controls cover a=3 through 6, including M8 plus M3
+  from A(5,5). An additional proposed scalar block fails mixed-coefficient
+  checks and is explicitly rejected.
+- A new [rational matrix identity](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin1.md)
+  gives an actual restriction from A(2,2) plus one scalar to M3. All 729
+  target coefficients are checked exactly. The additional scalar is part
+  of the source, so this does not assert a restriction from A(2,2) alone.
+- The [residual construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_residual.md)
+  gives A(5,6) to M8 plus the full A(2,3) tensor. Exact maps also give M10
+  alone and M8 plus M4. These constructions retain useful smaller sources
+  for composition. A [corner split](research/ai/2026-10-20-anisotropic-constructions/parity_structure_corner_extension.md)
+  supplies A(2,2) plus one scalar from A(2,3). These maps do not improve
+  the exponent.
+
+These results identify constructions and obstructions within stated classes.
+They establish no smaller matrix multiplication exponent.
+
+The earlier checkpoint `e44aaff`, integrated against main `a44451d`, passed
+323 regression tests and all five original archive replays. Its
+[validation receipt](results/anisotropic-constructions-2026-10-20/integration-validation.json)
+records the commands and log hashes. The historical archives are unchanged.
+Checkpoint `eed3cbc` incorporated main `2a7c503` and passed 338 local regression
+tests and all five archive replays. Its
+[validation receipt](results/anisotropic-constructions-2026-10-20/integration-hankel-validation.json)
+records the commands and exact log hashes. Hosted validation then found an
+undeclared NumPy import in the rank-two checker. The checker now uses Python
+integers only and reproduces the same 1,296,000 coefficient comparisons.
+The repaired tree includes main `75bf6a3` and passes 344 tests plus all five
+archive replays with site packages disabled and only the declared SymPy and
+mpmath dependencies available. The
+[repair receipt](results/anisotropic-constructions-2026-10-20/integration-maintained-validation.json)
+records this environment and the original hosted failure. CI and finite
+replays do not change the proofs' review status.
+
+## Earlier integration checkpoints
 
 The [main integration checkpoint](docs/integration_2026-10-20.md) combines the
 four research lanes and passes 160 local tests plus the five original archive
