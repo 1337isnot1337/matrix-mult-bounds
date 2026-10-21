@@ -47,7 +47,7 @@ where
 \begin{aligned}
 A_{\alpha,\beta,\kappa}(i)
  &=\sum_j R_{\alpha,\beta}(i+j)V_\kappa(j),\\
-G_{\alpha,\beta}(t)&=[x^t](U_\alpha V_\beta),\\
+G_{\alpha,\beta}(t)&=[x^t]\bigl(U_\alpha V_\beta\bigr),\\
 B_{\alpha,\beta,\eta}(s)
  &=\sum_r R_{\alpha,\beta}(r+s)U_\eta(r).
 \end{aligned}
