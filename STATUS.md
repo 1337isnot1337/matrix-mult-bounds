@@ -1200,3 +1200,15 @@ consequence forces third first rank at most2 on K_inf for every admissible
 ordinary first pair at these flags. The complete PR49 second jets remain
 valid finite data. These proofs are written and unreviewed; different first
 subspaces and leading flags remain open, and no exponent improvement follows.
+
+The [arbitrary-hyperplane extension](research/ai/2026-10-21-boundary-hyperplanes/proof.md)
+now excludes both first boundary dimensions at least11 at every order,
+including delayed unequal growth. It covers every complex hyperplane.
+Boundary obstruction matrices have minimum nonzero rank2. The full third
+matrix span is S0 tensor Mat2, with dim S0=20 in Mat6x6 and no rank-one
+matrix; exact polynomial identities certify this. A general compression
+lemma loses at most5 slice dimensions under two arbitrary hyperplanes.
+First rank at least8 therefore leaves at least3, above the target ceiling2.
+At ordinary first order one effective rank is at most10 and the total is
+at most22. Pairs12,10 remain open. The proofs are written and unreviewed;
+no matrix-multiplication exponent improvement follows.
