@@ -638,3 +638,17 @@ triple survives an exhaustive 89-case integer coefficient search. This
 selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
+
+## Regular root flags and Laurent first-leg maps
+
+The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
+proves a source-leading-map slice bound while allowing an arbitrary Laurent
+first leg and arbitrary regular higher jets on the other two legs. Exact
+root-map certificates give ceilings 62,44,64,68,86 at orders 4,8,12,16,24,
+below the size-four target's required slice rank 100. A separate
+[central-weight proof](research/ai/2026-10-20-graded-quantum-flags/graded_obstruction.md)
+excludes sixteen order-three/six phase pairs under the stated grading
+hypotheses, using explicit nonzero coefficients over Q(zeta_6).
+The unique Cartan profile is adopted from claim 051; the second integer
+recursion only checks that earlier result. All new proofs are written and
+unreviewed. Different flags, ungraded constructions and powers remain open.
