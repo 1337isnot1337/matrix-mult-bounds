@@ -1,0 +1,116 @@
+{
+  "claim": "AI-MIXED-TWO-COORDINATE-STRATA-093",
+  "partner": {
+    "a": 1,
+    "b": 1
+  },
+  "mixed_row": "m+t*d0+h*d1",
+  "field": "complex numbers",
+  "normal_dimension": {
+    "generic_and_all_other_points": 32,
+    "t=0,h=0": 36,
+    "t=1,h=1": 34
+  },
+  "polynomial_frame": {
+    "shape": [
+      88,
+      32
+    ],
+    "degree": 4,
+    "complete_away_from": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "point_controls": [
+    {
+      "t": "-1",
+      "h": "1",
+      "rank": 56,
+      "frame_rank": 32
+    },
+    {
+      "t": "0",
+      "h": "1",
+      "rank": 56,
+      "frame_rank": 32
+    },
+    {
+      "t": "1",
+      "h": "1",
+      "rank": 54,
+      "frame_rank": 30
+    },
+    {
+      "t": "0",
+      "h": "0",
+      "rank": 52,
+      "frame_rank": 28
+    },
+    {
+      "t": "-sqrt(3)*I",
+      "h": "sqrt(3)*I",
+      "rank": 56,
+      "frame_rank": 32
+    },
+    {
+      "t": "sqrt(3)*I",
+      "h": "-sqrt(3)*I",
+      "rank": 56,
+      "frame_rank": 32
+    },
+    {
+      "t": "0",
+      "h": "0",
+      "rank": 52,
+      "frame_rank": 28
+    },
+    {
+      "t": "1",
+      "h": "1",
+      "rank": 54,
+      "frame_rank": 30
+    },
+    {
+      "t": "0",
+      "h": "0",
+      "rank": 52,
+      "frame_rank": 28
+    }
+  ],
+  "exceptional_quotient_dimension": 30,
+  "square_dimensions": [
+    30,
+    18,
+    16,
+    12,
+    10,
+    8,
+    6
+  ],
+  "exceptional_case_dimensions": [
+    [
+      16,
+      8,
+      6,
+      4,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      0
+    ]
+  ],
+  "exceptional_target_excluded": true,
+  "general_chart_target_excluded": false,
+  "independent_review": false,
+  "improves_omega": false
+}

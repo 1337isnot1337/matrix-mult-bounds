@@ -1,0 +1,110 @@
+{
+  "source": "P3 direct_sum 1 scalar tensor(s)",
+  "target": "M3",
+  "scalars": 1,
+  "intertwiner_dimensions": [
+    8,
+    12,
+    12
+  ],
+  "parameters": 32,
+  "source_shape": [
+    10,
+    16,
+    16
+  ],
+  "source_nonzero_terms": 101,
+  "tensor_positions_checked": 729,
+  "independent_invariant_equations": 61,
+  "seed": 202610283,
+  "maximum_iterations": 1200,
+  "iterations_completed": 1200,
+  "ridge": 1e-12,
+  "history": [
+    {
+      "iteration": 0,
+      "relative_coefficient_error": 1.7394348235587407,
+      "maximum_absolute_coefficient_error": 1.708567416034804,
+      "map_frobenius_norms": [
+        3.4857151899824586,
+        3.8370933483379415,
+        2.966347550238784
+      ],
+      "elapsed_seconds": 0.0014078100002734573
+    },
+    {
+      "iteration": 200,
+      "relative_coefficient_error": 0.49433474786285553,
+      "maximum_absolute_coefficient_error": 0.6700289400370035,
+      "map_frobenius_norms": [
+        3.4375430293362554,
+        3.4375430293362554,
+        3.4375430293362554
+      ],
+      "elapsed_seconds": 0.08792346000063844
+    },
+    {
+      "iteration": 400,
+      "relative_coefficient_error": 0.4943347478628554,
+      "maximum_absolute_coefficient_error": 0.6700289400323335,
+      "map_frobenius_norms": [
+        3.4375430261116735,
+        3.4375430261116735,
+        3.4375430261116735
+      ],
+      "elapsed_seconds": 0.16039244500007044
+    },
+    {
+      "iteration": 600,
+      "relative_coefficient_error": 0.49433474786285536,
+      "maximum_absolute_coefficient_error": 0.6700289400323339,
+      "map_frobenius_norms": [
+        3.437543022902719,
+        3.437543022902719,
+        3.4375430229027186
+      ],
+      "elapsed_seconds": 0.22385191200010013
+    },
+    {
+      "iteration": 800,
+      "relative_coefficient_error": 0.4943347478628554,
+      "maximum_absolute_coefficient_error": 0.6700289400323339,
+      "map_frobenius_norms": [
+        3.4375430196937695,
+        3.43754301969377,
+        3.437543019693769
+      ],
+      "elapsed_seconds": 0.28616123700066964
+    },
+    {
+      "iteration": 1000,
+      "relative_coefficient_error": 0.4943347478628554,
+      "maximum_absolute_coefficient_error": 0.6700289400323334,
+      "map_frobenius_norms": [
+        3.437543016484733,
+        3.4375430164847325,
+        3.4375430164847325
+      ],
+      "elapsed_seconds": 0.35977920700042887
+    },
+    {
+      "iteration": 1200,
+      "relative_coefficient_error": 0.4943347478628554,
+      "maximum_absolute_coefficient_error": 0.6700289400323342,
+      "map_frobenius_norms": [
+        3.4375430132756564,
+        3.437543013275656,
+        3.4375430132756564
+      ],
+      "elapsed_seconds": 0.4268712670000241
+    }
+  ],
+  "best_relative_coefficient_error": 0.49433474786285536,
+  "method": "real A4-equivariant ordinary-map ALS with full coefficient replay",
+  "coefficient_coordinate_equivalence_field": "Q(i)",
+  "numpy_version": "2.3.5",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite symmetry-restricted discovery; a numerical residual does not prove a tensor identity."
+}

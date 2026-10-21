@@ -1,0 +1,244 @@
+{
+  "group": "SL(2,F8)",
+  "group_order": 504,
+  "class_sizes": [
+    1,
+    63,
+    56,
+    56,
+    72,
+    56,
+    72,
+    56,
+    72
+  ],
+  "records": [
+    {
+      "name": "unipotent8",
+      "subgroup": [
+        0,
+        64,
+        72,
+        80,
+        88,
+        96,
+        104,
+        112
+      ],
+      "central_projection": [
+        "11/18",
+        "1/18",
+        "-1/72",
+        "-1/72",
+        "0",
+        "-1/72",
+        "0",
+        "-1/72",
+        "0"
+      ],
+      "retained_source_blocks": [
+        {
+          "matrix_degree": 1,
+          "complex_block_count": 1
+        },
+        {
+          "matrix_degree": 8,
+          "complex_block_count": 1
+        },
+        {
+          "matrix_degree": 9,
+          "complex_block_count": 3
+        }
+      ],
+      "verification": {
+        "subgroup_order": 8,
+        "central_class_dimension": 9,
+        "coefficient_denominator": 72,
+        "coefficient_numerators": [
+          44,
+          4,
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        "ideal_dimension_upper_bound": 308,
+        "idempotent_and_containment_verified": true
+      },
+      "selected_shape": [
+        18,
+        18,
+        25
+      ],
+      "other_pair_products": [
+        450,
+        450,
+        324
+      ],
+      "complete_coset_forbidden_on_legs": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "cyclic9",
+      "subgroup": [
+        0,
+        3,
+        74,
+        129,
+        165,
+        211,
+        229,
+        330,
+        339
+      ],
+      "central_projection": [
+        "55/63",
+        "0",
+        "1/63",
+        "1/63",
+        "-1/63",
+        "1/63",
+        "-1/63",
+        "1/63",
+        "-1/63"
+      ],
+      "retained_source_blocks": [
+        {
+          "matrix_degree": 1,
+          "complex_block_count": 1
+        },
+        {
+          "matrix_degree": 7,
+          "complex_block_count": 1
+        },
+        {
+          "matrix_degree": 7,
+          "complex_block_count": 3
+        },
+        {
+          "matrix_degree": 9,
+          "complex_block_count": 3
+        }
+      ],
+      "verification": {
+        "subgroup_order": 9,
+        "central_class_dimension": 9,
+        "coefficient_denominator": 63,
+        "coefficient_numerators": [
+          55,
+          0,
+          1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "ideal_dimension_upper_bound": 440,
+        "idempotent_and_containment_verified": true
+      },
+      "selected_shape": [
+        18,
+        18,
+        25
+      ],
+      "other_pair_products": [
+        450,
+        450,
+        324
+      ],
+      "complete_coset_forbidden_on_legs": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "name": "dihedral18",
+      "subgroup": [
+        0,
+        1,
+        3,
+        58,
+        72,
+        74,
+        129,
+        133,
+        161,
+        165,
+        211,
+        213,
+        227,
+        229,
+        330,
+        331,
+        338,
+        339
+      ],
+      "central_projection": [
+        "61/126",
+        "1/18",
+        "1/504",
+        "1/504",
+        "-1/63",
+        "1/504",
+        "-1/63",
+        "1/504",
+        "-1/63"
+      ],
+      "retained_source_blocks": [
+        {
+          "matrix_degree": 1,
+          "complex_block_count": 1
+        },
+        {
+          "matrix_degree": 9,
+          "complex_block_count": 3
+        }
+      ],
+      "verification": {
+        "subgroup_order": 18,
+        "central_class_dimension": 9,
+        "coefficient_denominator": 504,
+        "coefficient_numerators": [
+          244,
+          28,
+          1,
+          1,
+          -8,
+          1,
+          -8,
+          1,
+          -8
+        ],
+        "ideal_dimension_upper_bound": 244,
+        "idempotent_and_containment_verified": true
+      },
+      "selected_shape": [
+        18,
+        18,
+        25
+      ],
+      "other_pair_products": [
+        450,
+        450,
+        324
+      ],
+      "complete_coset_forbidden_on_legs": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "scope": "Complete subgroup cosets in injective-pair-map and strict-vertex-potential targets only. No general complex tensor-degeneration exclusion.",
+  "imported_lemma": "Concurrent subgroup-ideal proof, pinned in import.json; written and unreviewed.",
+  "improves_omega": false
+}

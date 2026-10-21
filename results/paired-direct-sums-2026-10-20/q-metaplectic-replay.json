@@ -1,0 +1,79 @@
+{
+  "replays": [
+    {
+      "artifact": "q-metaplectic-n6-checkpoint.json",
+      "artifact_sha256": "f3a1d130b9a5c9cbae9bf4127544d4be70dc0c79c4f332819fe99d376e4af5b2",
+      "n": 6,
+      "source": "Q(6,4)",
+      "target": "M(5,4,5)",
+      "auxiliary_rank": 0,
+      "all_source_terms_reconstructed": 576,
+      "all_target_positions_checked": 10000,
+      "target_nonzero_positions": 100,
+      "relative_full_coefficient_error": 0.43588989435406733,
+      "maximum_coefficient_error": 0.7499978952457469,
+      "reported_error_discrepancy": 0.0,
+      "map_norms": [
+        5.013297934963689,
+        5.01329793496369,
+        5.01329793496369
+      ],
+      "actual_stop_reason": "iteration_budget",
+      "iterations_completed": 1000,
+      "numerical_replay_passes": true,
+      "exact_coefficient_certificate": false,
+      "nonexistence_proved": false,
+      "improves_omega": false
+    },
+    {
+      "artifact": "q-metaplectic-n7-checkpoint.json",
+      "artifact_sha256": "9f64f1a3d99cfb0ec38e051faa897949de6d8ac090745e15cf471d7392765353",
+      "n": 7,
+      "source": "Q(7,4)",
+      "target": "M(6,4,6)",
+      "auxiliary_rank": 0,
+      "all_source_terms_reconstructed": 784,
+      "all_target_positions_checked": 20736,
+      "target_nonzero_positions": 144,
+      "relative_full_coefficient_error": 0.5527707983925667,
+      "maximum_coefficient_error": 0.7499996634366412,
+      "reported_error_discrepancy": 1.1102230246251565e-16,
+      "map_norms": [
+        5.360108410964712,
+        5.360108410964712,
+        5.360108410964712
+      ],
+      "actual_stop_reason": "iteration_budget",
+      "iterations_completed": 1000,
+      "numerical_replay_passes": true,
+      "exact_coefficient_certificate": false,
+      "nonexistence_proved": false,
+      "improves_omega": false
+    },
+    {
+      "artifact": "q-metaplectic-n6-nonproduct-checkpoint.json",
+      "artifact_sha256": "755f381f289afc296b6518366ce1e6d1ffe0624d3a51f44c2fb39115369b1f69",
+      "n": 6,
+      "source": "Q(6,4)",
+      "target": "M(5,4,5)",
+      "auxiliary_rank": 0,
+      "all_source_terms_reconstructed": 576,
+      "all_target_positions_checked": 10000,
+      "target_nonzero_positions": 100,
+      "relative_full_coefficient_error": 0.6069476830157082,
+      "maximum_coefficient_error": 0.8502784273645961,
+      "reported_error_discrepancy": 1.1102230246251565e-16,
+      "map_norms": [
+        15.096770068419955,
+        15.096770068419955,
+        15.096770068419955
+      ],
+      "actual_stop_reason": "iteration_budget",
+      "iterations_completed": 1000,
+      "numerical_replay_passes": true,
+      "exact_coefficient_certificate": false,
+      "nonexistence_proved": false,
+      "improves_omega": false
+    }
+  ]
+}

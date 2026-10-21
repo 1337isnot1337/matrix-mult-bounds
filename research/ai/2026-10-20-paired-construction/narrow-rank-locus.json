@@ -1,0 +1,890 @@
+{
+  "scope": "Finite exact coefficient controls; symbolic statements and singular-family limitations are in the companion notes.",
+  "field": "Q",
+  "improves_omega": false,
+  "binary_q3_a_parameters_checked": 511,
+  "binary_q3_rank_histogram": [
+    {
+      "a_rank": 1,
+      "slice_rank": 4,
+      "count": 49
+    },
+    {
+      "a_rank": 2,
+      "slice_rank": 6,
+      "count": 160
+    },
+    {
+      "a_rank": 2,
+      "slice_rank": 8,
+      "count": 128
+    },
+    {
+      "a_rank": 3,
+      "slice_rank": 7,
+      "count": 66
+    },
+    {
+      "a_rank": 3,
+      "slice_rank": 8,
+      "count": 108
+    }
+  ],
+  "triangular_block_controls": [
+    {
+      "n": 2,
+      "m": 2,
+      "a_rank": 1,
+      "source_slice_rank": 4,
+      "proved_lower_bound": 4,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        2,
+        4
+      ]
+    },
+    {
+      "n": 2,
+      "m": 2,
+      "a_rank": 2,
+      "source_slice_rank": 6,
+      "proved_lower_bound": 5,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6
+      ]
+    },
+    {
+      "n": 2,
+      "m": 3,
+      "a_rank": 1,
+      "source_slice_rank": 9,
+      "proved_lower_bound": 9,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "n": 2,
+      "m": 3,
+      "a_rank": 2,
+      "source_slice_rank": 12,
+      "proved_lower_bound": 10,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12
+      ]
+    },
+    {
+      "n": 2,
+      "m": 4,
+      "a_rank": 1,
+      "source_slice_rank": 16,
+      "proved_lower_bound": 16,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "n": 2,
+      "m": 4,
+      "a_rank": 2,
+      "source_slice_rank": 20,
+      "proved_lower_bound": 17,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15,
+        20
+      ]
+    },
+    {
+      "n": 3,
+      "m": 2,
+      "a_rank": 1,
+      "source_slice_rank": 4,
+      "proved_lower_bound": 4,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        2,
+        4
+      ]
+    },
+    {
+      "n": 3,
+      "m": 2,
+      "a_rank": 2,
+      "source_slice_rank": 6,
+      "proved_lower_bound": 5,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6
+      ]
+    },
+    {
+      "n": 3,
+      "m": 2,
+      "a_rank": 3,
+      "source_slice_rank": 8,
+      "proved_lower_bound": 6,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8
+      ]
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "a_rank": 1,
+      "source_slice_rank": 9,
+      "proved_lower_bound": 9,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "a_rank": 2,
+      "source_slice_rank": 12,
+      "proved_lower_bound": 10,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12
+      ]
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "a_rank": 3,
+      "source_slice_rank": 15,
+      "proved_lower_bound": 11,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 3,
+      "m": 4,
+      "a_rank": 1,
+      "source_slice_rank": 16,
+      "proved_lower_bound": 16,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "n": 3,
+      "m": 4,
+      "a_rank": 2,
+      "source_slice_rank": 20,
+      "proved_lower_bound": 17,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15,
+        20
+      ]
+    },
+    {
+      "n": 3,
+      "m": 4,
+      "a_rank": 3,
+      "source_slice_rank": 24,
+      "proved_lower_bound": 18,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        6,
+        12,
+        18,
+        24
+      ]
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "a_rank": 1,
+      "source_slice_rank": 4,
+      "proved_lower_bound": 4,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        2,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "a_rank": 2,
+      "source_slice_rank": 6,
+      "proved_lower_bound": 5,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6
+      ]
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "a_rank": 3,
+      "source_slice_rank": 8,
+      "proved_lower_bound": 6,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8
+      ]
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "a_rank": 4,
+      "source_slice_rank": 10,
+      "proved_lower_bound": 7,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10
+      ]
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "a_rank": 1,
+      "source_slice_rank": 9,
+      "proved_lower_bound": 9,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "a_rank": 2,
+      "source_slice_rank": 12,
+      "proved_lower_bound": 10,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12
+      ]
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "a_rank": 3,
+      "source_slice_rank": 15,
+      "proved_lower_bound": 11,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "a_rank": 4,
+      "source_slice_rank": 17,
+      "proved_lower_bound": 12,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        6,
+        12,
+        17
+      ]
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "a_rank": 1,
+      "source_slice_rank": 16,
+      "proved_lower_bound": 16,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "a_rank": 2,
+      "source_slice_rank": 20,
+      "proved_lower_bound": 17,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15,
+        20
+      ]
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "a_rank": 3,
+      "source_slice_rank": 24,
+      "proved_lower_bound": 18,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        6,
+        12,
+        18,
+        24
+      ]
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "a_rank": 4,
+      "source_slice_rank": 28,
+      "proved_lower_bound": 19,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        7,
+        14,
+        21,
+        28
+      ]
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "a_rank": 1,
+      "source_slice_rank": 4,
+      "proved_lower_bound": 4,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        2,
+        4
+      ]
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "a_rank": 2,
+      "source_slice_rank": 6,
+      "proved_lower_bound": 5,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6
+      ]
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "a_rank": 3,
+      "source_slice_rank": 8,
+      "proved_lower_bound": 6,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8
+      ]
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "a_rank": 4,
+      "source_slice_rank": 10,
+      "proved_lower_bound": 7,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10
+      ]
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "a_rank": 5,
+      "source_slice_rank": 12,
+      "proved_lower_bound": 8,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        6,
+        12
+      ]
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "a_rank": 1,
+      "source_slice_rank": 9,
+      "proved_lower_bound": 9,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "a_rank": 2,
+      "source_slice_rank": 12,
+      "proved_lower_bound": 10,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12
+      ]
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "a_rank": 3,
+      "source_slice_rank": 15,
+      "proved_lower_bound": 11,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "a_rank": 4,
+      "source_slice_rank": 17,
+      "proved_lower_bound": 12,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        6,
+        12,
+        17
+      ]
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "a_rank": 5,
+      "source_slice_rank": 19,
+      "proved_lower_bound": 13,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        7,
+        14,
+        19
+      ]
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "a_rank": 1,
+      "source_slice_rank": 16,
+      "proved_lower_bound": 16,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "a_rank": 2,
+      "source_slice_rank": 20,
+      "proved_lower_bound": 17,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        5,
+        10,
+        15,
+        20
+      ]
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "a_rank": 3,
+      "source_slice_rank": 24,
+      "proved_lower_bound": 18,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        6,
+        12,
+        18,
+        24
+      ]
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "a_rank": 4,
+      "source_slice_rank": 28,
+      "proved_lower_bound": 19,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        7,
+        14,
+        21,
+        28
+      ]
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "a_rank": 5,
+      "source_slice_rank": 30,
+      "proved_lower_bound": 20,
+      "passes": true,
+      "successive_descending_b_block_ranks": [
+        8,
+        16,
+        23,
+        30
+      ]
+    }
+  ],
+  "crossed_jet_controls": [
+    {
+      "n": 3,
+      "source_dimensions": [
+        9,
+        8,
+        8
+      ],
+      "quotient_dimensions": [
+        9,
+        6,
+        6
+      ],
+      "a_flattening_rank": 8,
+      "a_kernel_parameter": [
+        0,
+        0
+      ],
+      "offending_parameter": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "offending_rank": 5,
+      "nonzero_columns": 5,
+      "minor_rows": [
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "minor": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "minor_determinant": 1,
+      "offending_full_matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "basis_slice_ranks": [
+        0,
+        2,
+        2,
+        2,
+        4,
+        4,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "n": 4,
+      "source_dimensions": [
+        16,
+        10,
+        10
+      ],
+      "quotient_dimensions": [
+        16,
+        8,
+        8
+      ],
+      "a_flattening_rank": 15,
+      "a_kernel_parameter": [
+        0,
+        0
+      ],
+      "offending_parameter": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "offending_rank": 5,
+      "nonzero_columns": 5,
+      "minor_rows": [
+        1,
+        2,
+        5,
+        6,
+        4
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "minor": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "minor_determinant": 1
+    },
+    {
+      "n": 5,
+      "source_dimensions": [
+        25,
+        12,
+        12
+      ],
+      "quotient_dimensions": [
+        25,
+        10,
+        10
+      ],
+      "a_flattening_rank": 24,
+      "a_kernel_parameter": [
+        0,
+        0
+      ],
+      "offending_parameter": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "offending_rank": 5,
+      "nonzero_columns": 5,
+      "minor_rows": [
+        1,
+        2,
+        6,
+        7,
+        5
+      ],
+      "minor_columns": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "minor": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "minor_determinant": 1
+    }
+  ]
+}

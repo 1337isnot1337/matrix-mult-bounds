@@ -1,0 +1,79 @@
+{
+  "a": 3,
+  "order": 2,
+  "seed": 202610221,
+  "coefficient_bound": 10.0,
+  "maximum_function_evaluations": 250,
+  "function_evaluations": 250,
+  "jacobian_evaluations": 242,
+  "elapsed_seconds": 16.520595669000613,
+  "start": "results/paired-direct-sums-2026-10-20/laurent-bounded-a3-seed0-checkpoint.json",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "parameters": 255,
+  "coefficient_equations": 702,
+  "gauge_equations": 9,
+  "initial": {
+    "pole_coefficient_norms": [
+      0.13787435359881278,
+      0.08677847693311767
+    ],
+    "target_relative_error": 0.10022659892487533,
+    "combined_coefficient_relative_error": 0.10501584748210947,
+    "maximum_absolute_coefficient_error": 0.16149814249212952,
+    "maximum_absolute_gauge_error": 0.23659187884191135,
+    "map_norms_by_axis_and_level": [
+      [
+        1.0,
+        0.21367447382306562,
+        27.477947043094517
+      ],
+      [
+        0.9999999999999999,
+        0.26059255126546105,
+        33.826172017311386
+      ],
+      [
+        0.9999999999999999,
+        0.2511569985821873,
+        31.133508881675922
+      ]
+    ],
+    "maximum_absolute_parameter": 9.9
+  },
+  "final": {
+    "pole_coefficient_norms": [
+      0.12526155918862988,
+      0.2122197189198009
+    ],
+    "target_relative_error": 0.03453280802521093,
+    "combined_coefficient_relative_error": 0.058665898897005735,
+    "maximum_absolute_coefficient_error": 0.08863241446961184,
+    "maximum_absolute_gauge_error": 0.01030504210363059,
+    "map_norms_by_axis_and_level": [
+      [
+        1.005139314773644,
+        2.7002456071987577,
+        27.86205326120774
+      ],
+      [
+        1.003281129990689,
+        3.194141094920232,
+        32.393201627394355
+      ],
+      [
+        1.0037433691004154,
+        6.592369995743054,
+        39.1833232313327
+      ]
+    ],
+    "maximum_absolute_parameter": 9.999999999999822
+  },
+  "solver_status": 0,
+  "solver_message": "The maximum number of function evaluations is exceeded.",
+  "solver_optimality": 0.8706800086304183,
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite bounded real grading-preserving jet search; no existence or nonexistence conclusion."
+}

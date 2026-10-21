@@ -1,0 +1,66 @@
+{
+  "claim": "AI-GENERIC-MIXED-GRAPHS-094",
+  "rational_witness": {
+    "a": 1,
+    "b": 1,
+    "graph": [
+      1,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "normal_minor_at_point": "6561",
+  "constant_basis_determinant": "-40443431633289216",
+  "normal_variables": 88,
+  "fixed_necessary_equations": 56,
+  "plane_directions": 4,
+  "quotient_dimensions": [
+    14,
+    14
+  ],
+  "spans": [
+    {
+      "normal_variables": 14,
+      "cubic_witnesses": 559,
+      "cubic_rank_mod_prime": 559,
+      "quartic_monomials": 2380,
+      "quartic_rank_mod_prime": 2380,
+      "prime": 32003
+    },
+    {
+      "normal_variables": 14,
+      "cubic_witnesses": 559,
+      "cubic_rank_mod_prime": 559,
+      "quartic_monomials": 2380,
+      "quartic_rank_mod_prime": 2380,
+      "prime": 32003
+    }
+  ],
+  "open_parameter_space_at_b_one": [
+    "a",
+    "h0",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5"
+  ],
+  "open_set_definition": "Fixed normal determinant nonzero and both degree-four Macaulay matrices have column rank2380",
+  "nonempty_open_set_proved": true,
+  "point_target_excluded": true,
+  "extends_to_b_nonzero_by_torus": true,
+  "normalized_graph": [
+    "h0/b**5",
+    "h1/b**2",
+    "h2/b**2",
+    "b*h3",
+    "b*h4",
+    "b**4*h5"
+  ],
+  "all_graphs_classified": false,
+  "independent_review": false,
+  "improves_omega": false
+}

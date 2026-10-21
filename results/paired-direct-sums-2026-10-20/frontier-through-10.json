@@ -1,0 +1,602 @@
+{
+  "scope": "At most two positive matrix blocks; complete finite formats; every first-leg Koszul power.",
+  "minimum_a": 2,
+  "maximum_a": 10,
+  "records": [
+    {
+      "a": 2,
+      "source_format": [
+        4,
+        6,
+        6
+      ],
+      "dimension_compatible_ordered_shapes": 21,
+      "individually_rank_excluded_shapes": 1,
+      "individually_admissible_shapes": 20,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 35,
+      "improving_pairs_after_individual_screen": 0,
+      "pairs_excluded_by_sum_of_padded_ranks": 0,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 3,
+      "source_format": [
+        9,
+        15,
+        15
+      ],
+      "dimension_compatible_ordered_shapes": 91,
+      "individually_rank_excluded_shapes": 5,
+      "individually_admissible_shapes": 86,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 1123,
+      "improving_pairs_after_individual_screen": 0,
+      "pairs_excluded_by_sum_of_padded_ranks": 0,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 4,
+      "source_format": [
+        16,
+        28,
+        28
+      ],
+      "dimension_compatible_ordered_shapes": 268,
+      "individually_rank_excluded_shapes": 12,
+      "individually_admissible_shapes": 256,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 10954,
+      "improving_pairs_after_individual_screen": 0,
+      "pairs_excluded_by_sum_of_padded_ranks": 0,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 5,
+      "source_format": [
+        25,
+        45,
+        45
+      ],
+      "dimension_compatible_ordered_shapes": 582,
+      "individually_rank_excluded_shapes": 26,
+      "individually_admissible_shapes": 556,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 56476,
+      "improving_pairs_after_individual_screen": 0,
+      "pairs_excluded_by_sum_of_padded_ranks": 0,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 6,
+      "source_format": [
+        36,
+        66,
+        66
+      ],
+      "dimension_compatible_ordered_shapes": 1103,
+      "individually_rank_excluded_shapes": 49,
+      "individually_admissible_shapes": 1054,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 211337,
+      "improving_pairs_after_individual_screen": 10,
+      "pairs_excluded_by_sum_of_padded_ranks": 10,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 7,
+      "source_format": [
+        49,
+        91,
+        91
+      ],
+      "dimension_compatible_ordered_shapes": 1826,
+      "individually_rank_excluded_shapes": 80,
+      "individually_admissible_shapes": 1746,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 614296,
+      "improving_pairs_after_individual_screen": 49,
+      "pairs_excluded_by_sum_of_padded_ranks": 49,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 8,
+      "source_format": [
+        64,
+        120,
+        120
+      ],
+      "dimension_compatible_ordered_shapes": 2870,
+      "individually_rank_excluded_shapes": 156,
+      "individually_admissible_shapes": 2714,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 1552390,
+      "improving_pairs_after_individual_screen": 432,
+      "pairs_excluded_by_sum_of_padded_ranks": 432,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 9,
+      "source_format": [
+        81,
+        153,
+        153
+      ],
+      "dimension_compatible_ordered_shapes": 4172,
+      "individually_rank_excluded_shapes": 172,
+      "individually_admissible_shapes": 4000,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 3433151,
+      "improving_pairs_after_individual_screen": 2180,
+      "pairs_excluded_by_sum_of_padded_ranks": 2180,
+      "raw_surviving_unordered_pairs": 0,
+      "surviving_pairs_modulo_BC_exchange": []
+    },
+    {
+      "a": 10,
+      "source_format": [
+        100,
+        190,
+        190
+      ],
+      "dimension_compatible_ordered_shapes": 5912,
+      "individually_rank_excluded_shapes": 259,
+      "individually_admissible_shapes": 5653,
+      "improving_single_block_survivors": [],
+      "dimension_compatible_unordered_pairs_after_individual_screen": 6979330,
+      "improving_pairs_after_individual_screen": 7213,
+      "pairs_excluded_by_sum_of_padded_ranks": 7175,
+      "raw_surviving_unordered_pairs": 38,
+      "surviving_pairs_modulo_BC_exchange": [
+        {
+          "shapes": [
+            [
+              1,
+              5,
+              10
+            ],
+            [
+              10,
+              14,
+              9
+            ]
+          ],
+          "volumes": [
+            50,
+            1260
+          ],
+          "format": [
+            100,
+            145,
+            176
+          ]
+        },
+        {
+          "shapes": [
+            [
+              2,
+              6,
+              10
+            ],
+            [
+              10,
+              14,
+              8
+            ]
+          ],
+          "volumes": [
+            120,
+            1120
+          ],
+          "format": [
+            100,
+            152,
+            172
+          ]
+        },
+        {
+          "shapes": [
+            [
+              2,
+              12,
+              8
+            ],
+            [
+              12,
+              12,
+              7
+            ]
+          ],
+          "volumes": [
+            192,
+            1008
+          ],
+          "format": [
+            100,
+            168,
+            180
+          ]
+        },
+        {
+          "shapes": [
+            [
+              3,
+              8,
+              13
+            ],
+            [
+              10,
+              14,
+              6
+            ]
+          ],
+          "volumes": [
+            312,
+            840
+          ],
+          "format": [
+            99,
+            164,
+            188
+          ]
+        },
+        {
+          "shapes": [
+            [
+              3,
+              9,
+              10
+            ],
+            [
+              10,
+              13,
+              7
+            ]
+          ],
+          "volumes": [
+            270,
+            910
+          ],
+          "format": [
+            100,
+            157,
+            181
+          ]
+        },
+        {
+          "shapes": [
+            [
+              3,
+              9,
+              11
+            ],
+            [
+              11,
+              13,
+              6
+            ]
+          ],
+          "volumes": [
+            297,
+            858
+          ],
+          "format": [
+            99,
+            170,
+            177
+          ]
+        },
+        {
+          "shapes": [
+            [
+              3,
+              13,
+              9
+            ],
+            [
+              12,
+              11,
+              6
+            ]
+          ],
+          "volumes": [
+            351,
+            792
+          ],
+          "format": [
+            99,
+            171,
+            183
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              9,
+              10
+            ],
+            [
+              10,
+              13,
+              6
+            ]
+          ],
+          "volumes": [
+            360,
+            780
+          ],
+          "format": [
+            100,
+            166,
+            168
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              9,
+              11
+            ],
+            [
+              9,
+              14,
+              6
+            ]
+          ],
+          "volumes": [
+            396,
+            756
+          ],
+          "format": [
+            98,
+            162,
+            183
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              9,
+              12
+            ],
+            [
+              10,
+              14,
+              5
+            ]
+          ],
+          "volumes": [
+            432,
+            700
+          ],
+          "format": [
+            98,
+            176,
+            178
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              10,
+              12
+            ],
+            [
+              10,
+              13,
+              5
+            ]
+          ],
+          "volumes": [
+            480,
+            650
+          ],
+          "format": [
+            98,
+            170,
+            185
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              11,
+              10
+            ],
+            [
+              10,
+              12,
+              6
+            ]
+          ],
+          "volumes": [
+            440,
+            720
+          ],
+          "format": [
+            100,
+            164,
+            182
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              11,
+              11
+            ],
+            [
+              11,
+              12,
+              5
+            ]
+          ],
+          "volumes": [
+            484,
+            660
+          ],
+          "format": [
+            99,
+            176,
+            181
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              12,
+              10
+            ],
+            [
+              12,
+              11,
+              5
+            ]
+          ],
+          "volumes": [
+            480,
+            660
+          ],
+          "format": [
+            100,
+            180,
+            175
+          ]
+        },
+        {
+          "shapes": [
+            [
+              4,
+              13,
+              10
+            ],
+            [
+              12,
+              10,
+              5
+            ]
+          ],
+          "volumes": [
+            520,
+            600
+          ],
+          "format": [
+            100,
+            172,
+            180
+          ]
+        },
+        {
+          "shapes": [
+            [
+              5,
+              8,
+              12
+            ],
+            [
+              8,
+              16,
+              5
+            ]
+          ],
+          "volumes": [
+            480,
+            640
+          ],
+          "format": [
+            100,
+            168,
+            176
+          ]
+        },
+        {
+          "shapes": [
+            [
+              5,
+              9,
+              11
+            ],
+            [
+              9,
+              14,
+              5
+            ]
+          ],
+          "volumes": [
+            495,
+            630
+          ],
+          "format": [
+            100,
+            171,
+            169
+          ]
+        },
+        {
+          "shapes": [
+            [
+              5,
+              10,
+              11
+            ],
+            [
+              9,
+              13,
+              5
+            ]
+          ],
+          "volumes": [
+            550,
+            585
+          ],
+          "format": [
+            100,
+            167,
+            175
+          ]
+        },
+        {
+          "shapes": [
+            [
+              5,
+              11,
+              10
+            ],
+            [
+              10,
+              12,
+              5
+            ]
+          ],
+          "volumes": [
+            550,
+            600
+          ],
+          "format": [
+            100,
+            175,
+            170
+          ]
+        }
+      ]
+    }
+  ],
+  "rank_dependency_sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff",
+  "acceptance_arithmetic": "integers only; certified root intervals",
+  "improves_omega": false,
+  "construction_supplied": false
+}
