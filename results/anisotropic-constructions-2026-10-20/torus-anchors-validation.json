@@ -1,0 +1,41 @@
+{
+  "head": "fa74fee9ffff00ce2af1d8451e0912261f222c63",
+  "integrated_main": "f67467d285c9910fbb9f95a4255b66dbed72101f",
+  "source_index_tree": "ef7e29f7344ba26c1c577f44465d667265960ba4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "dependency_mode": "python -S with maintained SymPy and mpmath only",
+  "new_exponent_established": false,
+  "runs": [
+    {
+      "name": "tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-S",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 180.4337438370003,
+      "log": "results/anisotropic-constructions-2026-10-20/torus-anchors-tests.txt",
+      "sha256": "e28ebe1d72523606fde9ce43ba1cdbaedde09f3772aa376f7b1377c919285de0",
+      "completed_test_count": 391,
+      "complete_success_footer": true
+    },
+    {
+      "name": "archive-replay",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-S",
+        "tools/replay.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 12.947887757999524,
+      "log": "results/anisotropic-constructions-2026-10-20/torus-anchors-archive-replay.txt",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  ]
+}

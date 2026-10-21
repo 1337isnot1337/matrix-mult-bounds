@@ -6,8 +6,8 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records thirty local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-FIXED-ANCHOR-OBSTRUCTION-081,
+The constructive continuation records thirty-eight local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-SATURATED-PENCIL-089,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
@@ -87,13 +87,39 @@ do not constitute independent mathematical review.
   gives exact endpoint M4 and M8 controls. The latter construction's literal
   common coordinate code has a [size limit](research/ai/2026-10-20-anisotropic-constructions/coordinate_compression_limit.md):
   every A88 M27 construction must leave that code on each target leg.
-- The [live-profile endpoint maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_torus_anchors.md)
+- The [recorded endpoint maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_torus_anchors.md)
   have full row rank 778 on all three legs. They satisfy all six extreme
   slices of the M27 plus M7 target and the complete endpoint M4 tensor.
   Each rational map has denominator 64 and 782 nonzero entries. The other
-  target coefficients are unsolved. A [four-map relation](research/ai/2026-10-20-anisotropic-constructions/fixed_anchor_obstruction.md)
+  target coefficients cannot all be satisfied with that boundary fixed:
+  a [direct affine-slice contradiction](research/ai/2026-10-20-anisotropic-constructions/torus_affine_slices.md)
+  forces a coefficient to equal one where the target requires zero.
+  A [four-map relation](research/ai/2026-10-20-anisotropic-constructions/fixed_anchor_obstruction.md)
   excludes completion of the preserved first Hadamard seed with its stated
-  maps fixed; the repaired M4-compatible seed escapes that relation.
+  maps fixed. Both saved seeds remain valid controls for their partial
+  identities, and both fixed boundary families are now nonextendable.
+- The [degree-13 pencil proof](research/ai/2026-10-20-anisotropic-constructions/torus_degree13_pencils.md)
+  excludes every ordinary grading-preserving restriction with the original
+  symmetric 27-plus-7 charge profile, including arbitrary boundary maps.
+  It combines the [two-leg rank chain](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_rankone_13_chain.md),
+  exact source symmetries, universal product identities and all 256
+  singular-projection patterns. This does not exclude the ungraded frontier.
+- A [saturated-block rank inequality](research/ai/2026-10-20-anisotropic-constructions/torus_saturated_blocks.md)
+  excludes the common width-13 profile: its target block has rank 9,
+  while saturation of the two input spaces requires rank at least 12.
+  A separate [cube determinant](research/ai/2026-10-20-anisotropic-constructions/torus_saturated_pencil.md)
+  excludes specified saturated degree-13 pairs even with unequal vertex
+  charge lists. Neither argument addresses arbitrary singular limits.
+- The [graded fixed-core bound](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_fixed_core_weights.md)
+  excludes keeping two complete copies of the displayed M4, M6 or M8 core
+  while extending to the original profile. The [free-interior construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_free_interior.md)
+  gives A(a,a) with both physical endpoints deleted to
+  M(a-1) plus M(a-1) plus M(a-2), for every a>=3. Its fixed M7 channels
+  also fail an exact extension-rank test; movable small-block maps remain open.
+- The [complete common-vertex M7 screen](research/ai/2026-10-20-anisotropic-constructions/parity_structure_m7_vertex_screen.md)
+  covers 1,290,240 choices. Sixteen pass the necessary weight-zero rank
+  gate, but all retain 498 unwanted coefficients. Exact balanced cycles
+  obstruct removing those extras by coefficientwise Laurent rescaling.
 - The [simple-pole argument](research/ai/2026-10-20-anisotropic-constructions/compression_simple_poles.md)
   excludes a nonzero simple pole in the fixed A22 compression chart when
   the trace tensor must have a finite limit. It does not cover arbitrary
@@ -105,6 +131,11 @@ do not constitute independent mathematical review.
 The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
 records 368 passing tests and five unchanged archive replays at `8b09235`.
 This computational coverage does not change the proof-review status.
+
+The [torus-anchor checkpoint receipt](results/anisotropic-constructions-2026-10-20/torus-anchors-validation.json)
+records 391 passing tests and five unchanged archive replays for `fa74fee`
+combined with main `f67467d`. That receipt predates the new fixed-boundary,
+degree-13 and saturated-block packages; it is not their validation receipt.
 
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.
@@ -839,3 +870,17 @@ constant-map screens, within the specified Cartan-intertwining class.
 M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
+
+## Quantum first jets with constant output projections
+
+The [first-jet saturation proof](research/ai/2026-10-20-quantum-jet-filtration/proof.md)
+removes the grading assumption for the prescribed order-three/six quantum
+curves. Thirty-two nonzero 64-by-64 minors give a full-output slice ceiling
+56, allowing arbitrary Laurent first-leg maps and all nonzero approach rates,
+orders and higher terms. A separate uniform inactive-slice argument gives
+ceiling 94 after arbitrary constant codimension-two output projections
+before taking the limit. Both ceilings are below the target's required 100.
+Claims AI-FIRST-JET-SATURATION-001 and AI-QUANTUM-CURVE-JETS-002 are written
+and unreviewed. Six completed finite-field coefficient pilots are retained
+as discovery data only. Parameter-dependent projections, different leading
+flags and non-scalar block weights remain open; the exponent is unchanged.

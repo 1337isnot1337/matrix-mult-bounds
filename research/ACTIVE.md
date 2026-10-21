@@ -5,6 +5,14 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+The quantum worker's current question is in
+`ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
+close the prescribed order-three/six parameter curves even for ungraded
+constant output projections before the limit. Parameter-dependent output
+maps and different block weights remain open; unchanged approach-rate pilots
+are no longer a construction question. These are unreviewed local proofs,
+not a bound below 9/4.
+
 ## Constructive-spectrum continuation
 
 PR #28 is merged at `8722b361fde7713949b8f0e72fab681066ce10bd`.
@@ -51,16 +59,25 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The next topic branch is `research/torus-anchors-20261021`. Its seven
-new claims, 075 through 081, preserve the fixed-chart simple-pole and
-fixed-seed stabilizer obstructions, the exact M12 plus M3 torus seed,
-monotone endpoint constructions and their literal-code size limit, and
-the live-profile endpoint maps with an exact M4 core. The first Hadamard
-boundary is retained with its exact noncompletion certificate. The
-repaired boundary passes the former opposite-weight pair compatibility
-check; the full M27 plus M7 equations remain unsolved. Active work now
-propagates exact affine layer constraints and tests the remaining free
-coefficients without quotient equations. Current hosted checks are
+The active topic branch is `research/torus-anchors-20261021`,
+[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43).
+Its first checkpoint `fa74fee` is pushed. Combined with main `f67467d`,
+it passed 391 tests and all five archive replays using only maintained
+dependencies. Claims 075 through 089 now include the exact partial maps,
+both fixed-boundary noncompletion proofs, the graded core bound, the
+free-interior family and its fixed-channel limits, the two-leg rank chain,
+the complete original-profile degree-13 obstruction, the width-13 rank
+contradiction, the finite common-vertex M7 screen, and the saturated pencil
+determinant. The saved map bytes and their positive partial identities
+remain unchanged. The newer packages require their own validation receipt.
+
+The original symmetric 27-plus-7 torus profile is now excluded for ordinary
+grading-preserving maps with arbitrary coefficients. The common width-13
+alternative is also excluded. The ungraded A88 frontier remains open.
+Construction work now uses unequal vertex charge lists, including a
+neighboring charge hole that escapes the known endpoint hypotheses, and
+tests full coefficient equations beyond exact smaller matrix subblocks.
+All three research slots remain assigned. Current hosted checks are
 required before merging; preserve concurrent worker files.
 
 ## Earlier coordinated integrations

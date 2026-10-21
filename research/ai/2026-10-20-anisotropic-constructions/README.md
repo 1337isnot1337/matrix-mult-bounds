@@ -366,20 +366,54 @@ vertices use the code E_uv to F(i_u,q_u+i_v,q_v) on even one target leg,
 conciseness requires ceil(n/a)*ceil(n/b)<=a+b-1. Thus n<=24 for A88.
 This does not exclude general coordinate assignments or mixed maps.
 
-The [current live-profile seed](parity_balancing_torus_anchors.md)
+The [recorded full-rank partial seed](parity_balancing_torus_anchors.md)
 has three concise 778-by-960 rational maps. It satisfies every coefficient
 in all six extreme-weight slices, including zeros, and the entire M4
 on vertices 0,1,25,26. All 87 actual map-weight ranks are recomputed.
 The maps have denominator 64 and 782 nonzero entries per leg. There
 remain 722 source coordinates per leg that can be changed independently
 without changing those six extreme slices; preserving the M4 requires
-additional constraints. The full target identity remains unsolved.
+additional constraints. The [complete affine slice equations](torus_affine_slices.md)
+now prove that no choice of these free coefficients completes its fixed
+boundary: one coefficient is forced to one while its target value is zero.
 
 The first Hadamard choice also passed all six extreme slices, but the
 [four-map obstruction](fixed_anchor_obstruction.md) proves it cannot
 be completed while retaining its stated next-layer and extreme maps.
 That exact historical seed is preserved. The corrected maps use the
 actual monotone M4 channels and escape the obstructing relation.
+They are excluded from completion by the separate affine contradiction.
+
+The [degree-13 pencil argument](torus_degree13_pencils.md) goes beyond
+both fixed seeds. It excludes all ordinary grading-preserving maps for
+the original symmetric 27-plus-7 profile. Its proof combines a
+[two-adjacent-leg rowspace chain](parity_balancing_rankone_13_chain.md),
+[four source and target symmetry transfers](parity_balancing_rankone_13_symmetry.md),
+exact degree-13 product tables, and a complete classification of 256
+singular-projection patterns. It keeps the six extreme coefficients as
+arbitrary nonzero scalars.
+
+The [saturated-block bound](torus_saturated_blocks.md) also closes the
+width-13 common profile, whose (-11,11,0) target rank is 9 rather than
+the required minimum 12. The [saturated degree-13 determinant](torus_saturated_pencil.md)
+excludes specified endpoint multiplicities with three unrelated charge
+lists. These results concern ordinary graded maps; ungraded maps and
+general singular degenerations remain open.
+
+Two other exact controls constrain how smaller blocks can be extended.
+The [graded fixed-core inequality](parity_balancing_fixed_core_weights.md)
+computes the lost source directions when two core maps are fixed.
+The [free-interior family](parity_structure_free_interior.md) gives
+M(a-1) plus M(a-1) plus M(a-2) after deleting both physical endpoints,
+but its [fixed M7 channels](parity_structure_free_m7_screen.md) consume
+too many directions to accompany M27. A [complete common-vertex screen](parity_structure_m7_vertex_screen.md)
+covers 1,290,240 small-block choices; all sixteen low-rank survivors
+contain unwanted coefficients with exact Laurent-rescaling obstructions.
+
+The reusable affine equation builder has an independent physical-matrix
+control in `parity_structure_affine_audit.py`. It reconstructs every
+equation for a non-square A(3,4) to M3 example, verifies a recovered
+rational solution, and rejects a nonlinear slice selection.
 
 Two further exclusions narrow distinct discovery families. The
 [simple-pole theorem](compression_simple_poles.md) excludes the stated

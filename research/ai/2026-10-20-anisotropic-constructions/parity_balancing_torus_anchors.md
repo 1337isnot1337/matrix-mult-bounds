@@ -15,10 +15,14 @@ The exported seed satisfies two sets of exact identities:
 2. Its restriction to the four M27 vertices of charges 0, 1, 13 and 14 is
    the full M4 tensor: all 4,096 coefficients agree, with 64 nonzero terms.
 
-**The full M27 plus M7 identity is not established. This is a partial
-construction and does not improve the matrix multiplication exponent.**
-The finite exact checks below do not certify that the fixed boundary can
-be completed. Additional equations can obstruct a partial construction.
+**This is a partial construction and does not improve the matrix
+multiplication exponent. Its fixed boundary cannot be completed.**
+The subsequent [affine-slice proof](torus_affine_slices.md) finds a target
+zero coefficient forced to one for every permitted free variation.
+The still stronger [degree-13 pencil proof](torus_degree13_pencils.md)
+excludes every ordinary grading-preserving completion with this charge
+profile, even after changing the boundary. The exact partial identities
+and all saved seed bytes below remain valid.
 
 The first version used a Hadamard factorization at charges 1 and 13.
 It passed the same six extreme-slice equations, but a separate exact
