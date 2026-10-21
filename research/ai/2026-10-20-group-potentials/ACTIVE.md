@@ -4,7 +4,7 @@ Goal: prove a complete arithmetic exponent strictly below 9/4. The owner
 requested sustained work without stopping at a partial checkpoint. The
 active goal remains incomplete; no smaller exponent is established.
 
-Current branch: research/normal-coset-koszul-20261020, refreshed through main 48f6a75.
+Current branch: research/normal-coset-koszul-20261020, refreshed through main 2a7c503.
 Root checkout: /home/user/matrix-mult-bounds. The separate C29 worktree
 was removed after its PR #29 merged and its tree was verified. Respect other workers' constructive-spectrum and SL2 source work.
 

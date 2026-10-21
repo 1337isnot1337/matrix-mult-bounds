@@ -172,3 +172,6 @@ standard; no historical priority or independent review is claimed.
 The follow-up [Cartan character frontier](torus.md) relaxes SL2 equivariance
 to the diagonal torus and leaves one necessary H1100 character triple. Its
 completed numerical pilots do not construct the degeneration.
+
+The [size-five frontier](a5.md) closes three further targets within the
+Cartan class and retains M(14,14,15) as an unconstructed candidate.
