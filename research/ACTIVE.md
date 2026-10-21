@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The rectangular worker has now applied the ruling gate to every hash-verified
+predecessor two-block survivor:3717 exclusions and752 remaining through
+dimension1500. Ordinary one- and two-block targets through dimension1152
+are closed under the written lemmas. The degree-two Laurent construction
+search continues independently; numerical residuals are not certificates.
+
 The mixed-frame worker now studies
 `ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
 mixed five-spaces opposite the full seven-frame force only plane normals.

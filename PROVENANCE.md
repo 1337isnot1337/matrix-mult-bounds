@@ -364,3 +364,8 @@ analysis. It retains a counterexample below its r>=6 range. The three-ruling
 corollary and the dimension1500 scan apply that argument alongside credited
 Hankel bounds. No historical priority, independent review or exponent
 improvement is claimed.
+
+The two-summand ruling refinement is a finite application of the local
+ruling lemma. It reconstructs prior records and verifies their published
+SHA-256 hashes before applying the gate. Four focused tests pass; this is
+not independent review of the general lemmas or an exponent improvement.

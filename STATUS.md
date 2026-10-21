@@ -1,5 +1,15 @@
 # Research status
 
+## Ordinary two-block ruling refinement
+
+The [ruling refinement](research/ai/2026-10-21-rectangular-direct-sums/ruling_two_sums.md)
+excludes3717 of4469 hash-verified predecessor targets, retaining664 at
+A(8,10) and88 at A99. All50 at A89 are excluded. Together with the
+single-target scan, this closes improving ordinary one- and two-block
+targets through source leg dimension1152. General lemmas remain written
+and unreviewed; singular degenerations and three or more blocks remain
+open. The exponent remains9/4.
+
 ## Mixed seven-by-five coordinate partner
 
 The [five-space point proof](research/ai/2026-10-21-mixed-five-space-residues/proof.md)
