@@ -51,6 +51,18 @@ have no independent mathematical review, and no smaller exponent follows.
 
 ## External research
 
+The source-weight window and original-source Laurent-fiber continuation
+was generated and audited by coordinated agents in the same session.
+Its exact golden-ratio slice, full Laurent maps, and coordinate-cover
+certificates are local constructions with no historical priority claim.
+The slice-rank argument uses Tao and Sawin's 2016 notes, Corollary 2 and
+Lemma 3, for closedness and restriction monotonicity. Blasiak et al.,
+*On Cap Sets and the Group-theoretic Approach to Matrix Multiplication*,
+Remark 4.9, supplies the single matrix-block background; the new note
+spells out the characteristic-zero argument for a direct sum. Those
+primary passages were inspected. None of these checks provides external
+independent review, formalization, or a smaller exponent.
+
 All results in [the literature map](docs/literature.md) belong to the credited authors or projects. OpenAI's published 9/4 proof is external work. It is not a contribution of this repository's ChatGPT session.
 
 The source registry records bibliographic versions, inspection scope, and three inspected Git blob hashes. A link to `main` is mutable. An access date alone is not an immutable proof snapshot.

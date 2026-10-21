@@ -647,6 +647,45 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-WEIGHT-WINDOWS-098",
+      "title": "Source-weight span obstruction and exact golden-ratio slice cancellation",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_weight_windows.md",
+      "statement": "Every ordinary A88 to M27 plus M7 restriction has at least one target matrix-unit image whose nonzero source weights i+s-k span at least four. Exact containing-polyhedron peeling for width three shrinks each leg960,948,906,844,622, below778. Width four is an exact fixed point of this particular screen. The explicit slice F(0,5,7)+phi*F(0,7,7)+F(0,9,7), with phi^2=phi+1, has source slice rank384 while its middle homogeneous component has rank512.",
+      "dependencies": [
+        "AI-TORUS-SUPPORT-PEELING-090",
+        "AI-MIXED-GRADING-094",
+        "Complete source coordinate ranks for arbitrary separate masks",
+        "Exact integer planes containing every admissible Newton vertex in every weight window",
+        "Exact Q(phi) Hankel kernel and nonzero minor with all262144 original source terms replayed"
+      ],
+      "limitations": "The span requirement is for ordinary maps in the fixed source grading. Width-four survival is only a limit of this screen. The golden-ratio slice is one parameter direction, not a three-leg matrix multiplication construction. General ungraded maps and singular degenerations remain open.",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-ORIGINAL-JET-FIBERS-099",
+      "title": "Full original-source Laurent maps with exact fibers and a slice-cover obstruction",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers.md",
+      "statement": "The recorded generically invertible960-by960 Laurent maps on A88 satisfy every negative-power cancellation equation and have28316 nonzero constant coefficients. Their limit has flattening lower bounds936,936,935, and the stated coordinate projection is concise in that format. Each leg contributes42 selected rows covering all constant coefficients, so the full limit has slice rank at most126 and cannot restrict or further degenerate to M27 plus M7, whose slice rank is778.",
+      "dependencies": [
+        "AI-JET-ARM-EXTENSION-096",
+        "All1420 nonzero original-source fiber equations per leg, with exact ranks598,598,597",
+        "Rational fiber kernels, complete basis determinants nonzero modulo1009, and all nonpositive Laurent coefficients",
+        "Exact coordinate-cover replay and full flattening ranks of the stated projection",
+        "Tao and Sawin Corollary2 and Lemma3 on closedness and restriction monotonicity of slice rank",
+        "Written characteristic-zero proof that a square matrix direct sum has slice rank equal to the sum of its squared sizes; Blasiak et al. Remark4.9 for the single-block background"
+      ],
+      "limitations": "The flattening numbers are lower bounds for the full960-coordinate limit and exact ranks for the explicit projection, not claimed exact full-limit ranks. The slice-rank obstruction applies to this constructed limit and its descendants, not the full A88 tensor or all Laurent maps. No exponent improvement follows.",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

@@ -76,8 +76,12 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The active topic branch is `research/torus-anchors-20261021`,
-[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43).
+[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43)
+is merged at `e00622fc3e3179f2c87ac3185f2158c39b2fe707`. Its source tree
+matches the tested head `df9e12c`. All current hosted checks passed;
+Python 3.10 ran 471 tests, with 470 passed and one optional control skipped.
+The fully incorporated local and remote topic branches were removed.
+The current continuation branch is `research/weight-mixing-20261021`.
 Its checkpoints `fa74fee`, `574cb35`, and `bb64dae` are pushed. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays
 using only maintained dependencies. The second adds 24 passing focused
@@ -111,10 +115,16 @@ maps mixing several source weights, genuine Laurent cancellation, and
 tensor-power recycling with explicit residual and source-cost accounting.
 Every ordinary construction needs at least 19 images with three or more
 source weights on each of at least two legs. The exact three-weight M12
-plus M3 maps remain a smaller-target change of basis. The full 134-direction
-Laurent core cannot reach the 778-dimensional target by postcomposition;
-the singular worker is adding unused original source directions before the
-limit and solving the negative-power cancellation equations. Pure A22
+plus M3 maps remain a smaller-target change of basis. The completed original-source
+Laurent chart uses invertible 960-direction maps before the limit and has
+a concise projection of format 936 by 936 by 935. Its exact 126-slice
+cover excludes the intended square target and every further degeneration
+to that target. New singular searches use moving physical compression
+spaces with complete target normalization. Claims 098 and 099 preserve
+this result and the requirement that some ordinary target image span at
+least four source-weight steps. An exact golden-ratio slice supplies a
+three-weight cancellation direction. Rational crossed-module construction
+is now the main active ordinary building-block search. Pure A22
 tensor powers cannot cross the current sixfold square-sum gate even by
 dimension, so recycling work requires a different source budget or a real
 source compression.

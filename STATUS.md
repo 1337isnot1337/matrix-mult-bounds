@@ -1029,3 +1029,32 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+## Source-weight windows and full original-source Laurent fibers
+
+Claims `AI-WEIGHT-WINDOWS-098` and `AI-ORIGINAL-JET-FIBERS-099` preserve
+two completed local packages. No exponent below 9/4 is established.
+
+Every ordinary A88 to M27 plus M7 restriction needs at least one
+matrix-unit image whose source weights span at least four. The exact
+width-three containing-space sequence is 960,948,906,844,622, contradicting
+the required 778 dimensions. Width four is a proved fixed point of this
+particular screen. An explicit slice over Q(phi), phi^2=phi+1, has rank 384
+although its middle homogeneous component has rank 512. It supplies one
+cancellation direction, not full target maps. See
+[the proof and exact acceptance certificate](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_weight_windows.md).
+
+The original-source Laurent construction has generically invertible
+960-by960 maps on all three legs, exact cancellation of every negative
+power, and 28,316 nonzero constant coefficients. A recorded coordinate
+projection is concise in format 936 by 936 by 935. However, 42 selected rows
+per leg cover the complete constant support, so its slice rank is at
+most 126. The intended M27 plus M7 target has slice rank 778. Consequently
+this limit cannot reach the target by restriction or further degeneration.
+The full source and other Laurent families remain open. See
+[the complete maps, fiber equations, and cover proof](research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers.md).
+
+The source-map, fiber-system, rank, coordinate-cover, and tamper checks
+pass in the same generating session. The proof status remains written
+and unreviewed externally. The next construction searches use moving
+physical compression spaces and the exact weight-mixing module equations.

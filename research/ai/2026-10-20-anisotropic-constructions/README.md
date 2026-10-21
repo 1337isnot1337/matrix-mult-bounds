@@ -47,6 +47,20 @@ enumerating them. Ungraded maps and arbitrary singular degenerations
 remain open. This is an obstruction to a construction method, not an
 improvement of the exponent.
 
+The [weight-window argument](parity_balancing_weight_windows.md) further
+requires at least one matrix-unit image to use source weights separated
+by four or more. It also supplies an exact three-weight slice of rank
+384 whose middle homogeneous component has rank 512. This is a single
+source direction with genuine cancellation, not a completed target map.
+
+The [original-source Laurent chart](parity_structure_jet_original_fibers.md)
+uses invertible maps on all 960 source directions before the limit.
+Its explicit constant tensor has a concise projection of format
+936 by 936 by 935, but all 28,316 constant coefficients have a verified
+126-slice cover. This limit and all its restrictions and further
+degenerations cannot reach M27 plus M7. The full source and other Laurent
+charts remain open.
+
 An earlier parity
 degeneration of A(5,5) has 225 coordinates on each leg and 11,725 terms,
 but the [annihilator proof](parity_annihilator.md) excludes its proposed
