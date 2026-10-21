@@ -1,0 +1,61 @@
+{
+  "claim_id": "AI-BALANCED-SPIN-FREEDOMS-120",
+  "source": [
+    8,
+    8
+  ],
+  "original_target": [
+    3,
+    3,
+    32
+  ],
+  "retained_target": [
+    3,
+    3,
+    27
+  ],
+  "map_denominators": [
+    2,
+    42,
+    2
+  ],
+  "full_source_replay": {
+    "source_terms_checked": 262144,
+    "target_coefficients_checked": 82944,
+    "nonzero_target_coefficients": 288,
+    "all_other_target_coefficients_zero": true
+  },
+  "low_coordinate_freedoms": {
+    "Y": {
+      "literal_low_domain_dimension": 160,
+      "all32_exact_response_rank": 160,
+      "all32_common_fiber_dimension": 0,
+      "retained27_exact_response_rank": 145,
+      "retained27_exact_kernel_dimension": 15,
+      "kernel_basis_is_exactly_actual_omitted_rows": true,
+      "retained_map_nonzero_coordinate_support": 158
+    },
+    "Z": {
+      "literal_low_domain_dimension": 160,
+      "all32_exact_response_rank": 160,
+      "all32_common_fiber_dimension": 0,
+      "retained27_exact_response_rank": 145,
+      "retained27_exact_kernel_dimension": 15,
+      "kernel_basis_is_exactly_actual_omitted_rows": true,
+      "retained_map_nonzero_coordinate_support": 160
+    }
+  },
+  "graph_condition": "A_J B_I^T = 0 for every I,J; only individually neutral low-coordinate graphs",
+  "positive_graph_changed_rows_each_leg": 81,
+  "positive_graph_full_source_replay": {
+    "source_terms_checked": 262144,
+    "target_coefficients_checked": 59049,
+    "nonzero_target_coefficients": 243,
+    "all_other_target_coefficients_zero": true
+  },
+  "nonzero_graph_residual_rejected_by_full_source_replay": true,
+  "reconstruction": "Recomputed from the published116 maps after filesystem rollback",
+  "external_independent_review": false,
+  "larger_square_constructed": false,
+  "new_exponent_established": false
+}

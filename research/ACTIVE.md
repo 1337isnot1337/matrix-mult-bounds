@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+## Recovered constructive checkpoint
+
+The constructive worker has recovered exact claims 118, 119, 120, 122 and 124
+packages after the executor restored an older filesystem snapshot.
+PR54 contains the spin assembly work. The new M(3,4,28) section has
+three response allowances (24,36,36) for M(27,28,28); the full rectangle
+remains unconstructed. Its extension and changed local maps are active
+construction questions. The fixed weighted-spin/radix family is now
+excluded even for Laurent limits, so unchanged repeats of that route
+are closed. The lost double-endpoint artifact is being reconstructed
+separately and is not counted in this checkpoint.
+
+
 The mixed-frame worker now studies
 `ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
 closes uniformly for every a and nonzero t: auxiliary projection relations

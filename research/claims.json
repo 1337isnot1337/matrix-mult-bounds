@@ -883,6 +883,93 @@
     {"origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-BALANCED-SPIN-MODULE-116", "title": "Exact balanced spin module and four-parity thirty-two-channel lift", "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44.md", "statement": "A rational six-dimensional polynomial subspace with two length-three chains gives an ignored space of dimension16 and an endpoint-pair space of dimension10. Eight selected pairs yield a forty-square join with determinant21/128. Exact maps with denominators2,42,2 restrict the reduced format(12,40,40) and A(4,4) to M(3,3,8). Four matched parity copies inside one original A(8,8) source give M(3,3,32), with all262144 source terms and82944 target coefficients replayed; exactly288 target coefficients are nonzero.", "dependencies": ["AI-SPIN-MODULE-106 triangular spin identity and transfer mechanism", "Explicit polynomial generators, endpoint pairs and rational join dual", "Complete original-source embeddings and all-coefficient integer replays"], "limitations": "These are rectangular modules, with no scalar or auxiliary source. Selecting27 of32 channels leaves five omitted channels but does not itself give a response reduction or a compatible vertex extension. The short-swapped transpose first map has a different image, with combined dimension12; mixing it requires a new proof. No exponent improvement is established."},
     {"origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-SPIN-FOUR-VERTICES-117", "title": "Exact four-vertex channel completion and its full response cost", "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_four_columns.md", "statement": "Changing the third maps at24 high-long-coordinate endpoint pairs and adjoining two six-dimensional first-map cells gives an exact rational A(8,8) restriction to M(3,7,27). All four added second vertices have all27 middle channels. The actual maps replay all262144 source terms and321489 target coefficients, with567 required nonzero coefficients. The full first response has exact rank576, certified by three disjoint192-dimensional blocks. Its first preimage of the21 target slices consequently has dimension405.", "dependencies": ["AI-FOUR-CHAIN-SPIN-111 saved core and channel deletion", "Explicit endpoint triples and six-row dual cells", "Complete integer contraction, response support checks and three nonzero modular minors"], "limitations": "Any ordinary larger matrix target retaining these second and third maps must have first dimension at most405, even if the first maps move. This closes retaining the saved completion toward the current large targets; changed retained maps and arbitrary degenerations are not excluded. No exponent improvement is established."}
 
-
+,
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-FIBER-COMPRESSION-118",
+      "title": "Ordinary weighted spin-fiber compression is excluded at every power",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_fiber_compression.md",
+      "statement": "For every integer k>=2, no independent scalar weights on all raw columns of the fixed local spin tensor-power maps, followed by the prescribed binary-radix fiber compression, give M_(3^k) from A(2^k,2^k). Five exact original-source coefficients at k=2 have an integer polynomial identity for one. An injective raw-variable lift preserves those equations at all higher powers.",
+      "dependencies": [
+        "Existing exact local spin map from the scalar-extension witness",
+        "Five complete source contractions and a verified integer polynomial identity",
+        "Written minimum-middle induction, with finite controls at k=2,3,4"
+      ],
+      "limitations": "The local map, raw-column weighting convention, radix fibers and target coordinates are fixed. The polynomial-identity proof alone does not address pole-weight limits; claim124 separately excludes them in this same family. Altered local maps, arbitrary source maps and additional output transformations remain open. No exponent gain or external independent review."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-RECTANGLE-BUDGET-119",
+      "title": "Exact three-leg response budgets for the unconstructed rectangle",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget.md",
+      "statement": "The published full M(3,3,28) core has exact response ranks (192,236,216) and preimage dimensions (777,808,828). These exceed the leg dimensions (756,784,756) of the unconstructed M(27,28,28) target by (21,24,72). The invariant extension budget is response rank minus retained leg dimension. All fifteen applicable Hankel tests pass. The existing spectral implication and exact integer comparison would give omega<2.247 if the full rectangle were constructed.",
+      "dependencies": [
+        "AI-SPIN-MODULE-106 and AI-SPIN-CORE-PREIMAGES-108 published maps",
+        "Complete response contractions, three nonzero modular minors and four exact Y-kernel vectors",
+        "Existing Hankel-symbol theorem and cyclic finite-target spectral implication",
+        "Concurrent ordinary rectangular frontier at main48bd72d for the same unconstructed target"
+      ],
+      "limitations": "Necessary ordinary fixed-core tests only; no simultaneous extension maps. The conditional exponent depends on the missing full rectangle. Retained maps and retained dimensions must be updated as a core grows. The target itself was also identified by the concurrent frontier; no priority or improved exponent is claimed."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-BALANCED-SPIN-FREEDOMS-120",
+      "title": "Complete low-coordinate kernels and coupled graph freedom of the balanced core",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_freedoms.md",
+      "statement": "With the nine first maps of the published balanced32 module fixed, both complete low-coordinate response maps have rank160. Retaining channels0..26 gives ranks145 and kernels exactly the fifteen actual omitted rows on each leg. Every individually neutral low-coordinate change is a graph over those rows; two such changes jointly preserve the core exactly when A_J B_I^T=0 for all outer labels I,J. A rational graph changing all81 retained rows on both legs is checked against every original source and target coefficient.",
+      "dependencies": [
+        "AI-BALANCED-SPIN-MODULE-116 published rational maps",
+        "Exact omitted-row kernel identities, independent kernel bases and nonzero response minors",
+        "Bilinearity and the complete deleted-channel matrix identity"
+      ],
+      "limitations": "The first maps and specified160-dimensional low coordinate spaces are fixed. The graph characterization assumes each change is neutral with the opposite leg fixed; more general simultaneous cancellation is outside this class. The literal coordinate domains are retained even when a saved map has zero columns. No larger matrix tensor or exponent gain is supplied."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-FOURTH-VERTEX-122",
+      "title": "Complete fourth vertex with a residue lift and three compatible response budgets",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex.md",
+      "statement": "Explicit rational maps in the full twelve-dimensional local first chart give A(2d,2d) to M(3,4,2d^2) for every positive integer d. At d=4 the full M(3,4,32) maps and their common28-channel section are exported and checked on every coefficient. Their exact response ranks are (192,288,288) and (192,252,252). The section's preimages (780,820,792) leave allowances (24,36,36) for the unconstructed M(27,28,28) target.",
+      "dependencies": [
+        "Known A(2,2) to M(2,3,4) control, whose cyclic rotation already gives the tiny target",
+        "Existing local spin chart, explicit tiny rational maps and complete coefficient replay",
+        "Written residue-separation lift for every d and six exact response minors"
+      ],
+      "limitations": "No novelty is claimed for existence of the tiny rotated target alone. The new data concern its explicit compatibility with the spin chart, residue lift and actual response spaces. Passing the three budgets does not solve mixed matrix-unit equations or produce the full rectangle. No exponent gain or external independent review."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-FIBER-CLOSURE-124",
+      "title": "A fixed output hyperplane excludes all Laurent limits in the weighted spin family",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_fiber_closure.md",
+      "statement": "At k=2, three actual output coefficients of the claim118 family are A,A+B,B, so their alternating sum is identically zero whereas M9 gives minus one. A separately checked k=3 triple has the same relation and satisfies the minimum-middle condition for the written all-power lift. Hence for every k>=2 the weighted image and every regular limit with arbitrary Laurent raw weights lie in a fixed linear hyperplane that does not contain M_(3^k).",
+      "dependencies": [
+        "AI-SPIN-FIBER-COMPRESSION-118 exact coefficient engine and minimum-middle induction",
+        "Three complete output contractions at k=2 and a distinct explicit base at k=3",
+        "Independent raw-digit construction and enumeration of786432 source terms for the k=3 base",
+        "Closedness of a fixed linear hyperplane under regular limits"
+      ],
+      "limitations": "Only the specified fixed local-spin maps, arbitrary scalar raw-column weights, radix compression and target coordinates. Changed local maps, arbitrary source compression or additional output transformations remain open. The maintained acceptance proof uses exact coefficient identities and not tropical-solver unsatisfiability. No exponent improvement."
+    }
   ]
 }

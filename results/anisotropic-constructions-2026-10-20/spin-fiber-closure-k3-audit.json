@@ -1,0 +1,51 @@
+{
+  "claim": "AI-SPIN-FIBER-CLOSURE-124",
+  "audit_scope": "Independent direct raw-digit construction and six-index source enumeration of the separate three-bit base",
+  "target_rows": [
+    [
+      18,
+      487,
+      111
+    ],
+    [
+      102,
+      571,
+      111
+    ],
+    [
+      102,
+      571,
+      195
+    ]
+  ],
+  "original_source_terms_checked_per_coefficient": [
+    262144,
+    262144,
+    262144
+  ],
+  "total_original_source_terms_checked": 786432,
+  "polynomial_numerators": [
+    "512*w572*w3151*w3952",
+    "512*w572*w3151*w3952+512*w90*w2669*w3470",
+    "512*w90*w2669*w3470"
+  ],
+  "linear_combination": [
+    1,
+    -1,
+    1
+  ],
+  "source_linear_combination": 0,
+  "target_linear_combination": -1,
+  "does_not_call": [
+    "row_image",
+    "selected_equation"
+  ],
+  "shared_definition": "The published local spin numerator matrix",
+  "command": "python -S -m unittest discover -s tests -p test_spin_fiber_closure_k3.py -v",
+  "tests_run": 1,
+  "tests_passed": 1,
+  "recorded_test_seconds": 0.404,
+  "test_sha256": "88f14257777745f607534b4b18bc852c4486f12d249c0b544549ddc6106fbaa3",
+  "review": "Checked by another agent in this generating session; no external independent review",
+  "new_exponent_established": false
+}

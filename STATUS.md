@@ -112,11 +112,46 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records sixty-six local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-SPIN-FOUR-VERTICES-117,
-in [the claim ledger](research/claims.json). All general arguments are
+The constructive continuation records seventy-one local claims
+in [the claim ledger](research/claims.json). This checkpoint adds
+claims 118, 119, 120, 122 and 124 to the earlier sixty-six claims. All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+A [complete fourth vertex](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex.md)
+now gives exact rational A(8,8) restrictions to M(3,4,32) and its
+common-channel section M(3,4,28). The section has response ranks
+(192,252,252) and preimage dimensions (780,820,792), leaving allowances
+(24,36,36) for the proposed M(27,28,28) rectangle. All 112,896
+section coefficients are checked. The tiny target alone was already
+known by cyclic rotation; the new evidence concerns the specified spin
+chart, residue lift and response spaces. The larger rectangle remains
+unconstructed.
+
+The [three-leg budget calculation](research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget.md)
+also certifies ranks (192,236,216) for the original full 28 spin core.
+It credits the concurrent ordinary frontier for the same rectangular
+candidate. Its exact numerical comparison would imply omega<2.247
+only after the missing full maps are constructed. The retained core
+dimension must increase when a vertex is completed; a fixed old
+dimension would give the wrong extension budget.
+
+The [balanced-core freedom theorem](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_freedoms.md)
+gives the complete low-coordinate kernels after five channels are
+removed. Simultaneous individually neutral changes preserve the core
+exactly when their deleted-channel graph spaces are orthogonal.
+A full rational example changes all 81 retained rows on both legs and
+passes every original-source coefficient check.
+
+A separate [ordinary compression proof](research/ai/2026-10-20-anisotropic-constructions/spin_fiber_compression.md)
+and its [Laurent-limit extension](research/ai/2026-10-20-anisotropic-constructions/spin_fiber_closure.md)
+close the fixed local-spin/raw-column/radix family at every power k>=2.
+Three actual output coefficients satisfy a linear identity that the
+matrix tensor violates. The three-bit induction base has an independent
+full source enumeration. Changed local maps and additional output
+transformations remain open.
+
+The [recovery checkpoint receipt](results/anisotropic-constructions-2026-10-20/spin-recovered-focused-validation.json) records all 34 focused tests passing. Its initial metadata-assertion error and correction are retained separately. The [complete regression](results/anisotropic-constructions-2026-10-20/spin-current-main-full-validation.json) through main 48bd72d completed 609 tests, with 606 passes and three optional skips; the later recovered packages have the separate focused coverage. All five [archive replays](results/anisotropic-constructions-2026-10-20/spin-current-archive-validation.json) also pass. Concurrent branch head f1ffc57, which integrates main 20fa49b, is preserved beneath this checkpoint.
 
 A [balanced spin module](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44.md)
 now constructs M(3,3,8) from A(4,4), and M(3,3,32) from A(8,8).

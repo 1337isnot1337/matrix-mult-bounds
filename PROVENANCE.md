@@ -383,3 +383,29 @@ and verifies polynomial identities and minors with SymPy alone. The
 canonical source, target rank gap and shifted induction retain their prior
 credits. This is a same-session written proof and exact replay, without
 independent review, historical-priority claim or exponent improvement.
+
+## Recovered spin constructions and the weighted-fiber closure
+
+Claims 118, 119, 120, 122 and 124 are owner-directed AI research from the same
+generating session. Published maps through claim 117 were recovered
+unchanged from GitHub after an executor filesystem rollback. The new
+witnesses and selected minors were regenerated and verified from the
+original source. Their current hashes and exact coverage are recorded
+in the checkpoint receipt; unrecovered byte identity is not assumed.
+
+The fourth-vertex package credits the earlier A22-to-M(2,3,4) control:
+its cyclic rotation already gives the tiny target. This checkpoint
+records a specified compatible first chart, an all-size residue lift,
+the actual full-source maps and three response budgets. The rectangular
+candidate overlaps the concurrent frontier at main 48bd72d, which is
+credited. Both numerical exponent comparisons retain the unproved
+full-target premise.
+
+The ordinary fiber proof uses an exact polynomial identity. Its
+Laurent extension instead uses a fixed output hyperplane and a written
+all-power lift. A tropical discovery calculation suggested the
+three coefficients; maintained acceptance uses only exact source
+contractions. A second agent separately enumerated all source terms
+for the distinct three-bit base. Those same-session checks and CI
+provide neither external independent review nor formalization.
+No exponent below 9/4 is established.

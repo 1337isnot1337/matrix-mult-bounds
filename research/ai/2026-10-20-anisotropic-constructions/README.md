@@ -22,6 +22,25 @@ give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
 unwanted coefficient is checked from the actual rational maps. These
 rectangular subsystems still require compatible square extensions.
 
+The [complete fourth vertex](parity_structure_spin22_fourth_vertex.md)
+constructs M(3,4,32) inside A(8,8) and exports the compatible 28-channel
+section. Its first response remains 192 and all three response budgets
+leave room for the unconstructed M(27,28,28) target. The tiny target
+itself was already known by cyclic rotation; the explicit spin chart
+and residue lift are recorded here. The separate
+[rectangle-budget note](spin_rectangle_budget.md) checks all three
+responses of the original spin core and states the conditional
+omega<2.247 implication with its missing premise explicit.
+
+The [balanced low-coordinate kernels](parity_balancing_spin44_freedoms.md)
+classify all individually neutral changes on those domains, and give
+an exact orthogonality condition for coupling them. The
+[weighted spin-compression proof](spin_fiber_compression.md) and
+[fixed output hyperplane](spin_fiber_closure.md) exclude ordinary maps
+and arbitrary Laurent limits in one different, fixed compression
+family at every power. They leave changed local maps and additional
+output transformations open.
+
 The [balanced spin module](parity_balancing_spin44.md) gives M(3,3,8)
 from A(4,4) and M(3,3,32) from A(8,8), using four parity sectors of a
 single nine-dimensional first map. The full maps are exact and leave
