@@ -743,3 +743,15 @@ acceptance verifies actual minors and rational coefficient identities.
 This written exclusion has no independent review or exponent improvement.
 The concurrent uniform Hankel-cap application retains its pinned authorship
 and ordinary-map scope; it is not a dependency of this singular local proof.
+
+## Generic partners and all mixed graphs
+
+The Q(a) source-stage closure and its explicit specialization guards were
+developed in this owner-directed session. They extend the earlier local
+all-graph method while retaining credit for the complete polynomial normal
+family, source rank gap and shifted moving-plane induction. The permitted
+partner set is defined by finite rational rank/denominator conditions and
+contains2 by exact replay; it is not inferred from a finite graph sample.
+This written exclusion has no independent mathematical review or exponent
+gain. The finite exceptional set is not asserted to equal the coefficient
+poles, and discovery phase symmetries retain their unaccepted status.

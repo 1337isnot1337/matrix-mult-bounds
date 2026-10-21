@@ -1,0 +1,42 @@
+{
+  "claim": "AI-GENERIC-PARTNER-ALL-GRAPHS-098",
+  "sources": [
+    {
+      "commit": "78219f577156410aa185f6cd0920ffd3348523c9",
+      "path": "research/ai/2026-10-21-all-mixed-graphs-a1/proof.md",
+      "use": "Source-stage, cubic-span and four-branch method; now extended over Q(a) with explicit specialization guards."
+    },
+    {
+      "commit": "eeaa0722e45f4d53e0ce1333c35980bc2ce31831",
+      "path": "research/ai/2026-10-21-global-mixed-normal-dichotomy/proof.md",
+      "use": "Stable/projection rank inequality and constant plane quotient."
+    },
+    {
+      "commit": "294aca88e64a8a8733c19a6fe75b36425d9e86c9",
+      "path": "research/ai/2026-10-21-mixed-five-space-uniform/proof.md",
+      "use": "Complete polynomial full-B88 normal family, virtual C correction and necessary sixteen source slices."
+    },
+    {
+      "commit": "6c78380cf0b5d168db3a74893c2b560f3ee3a60f",
+      "path": "research/ai/2026-10-21-generic-mixed-graphs/proof.md",
+      "use": "Symbolic source partition, fixed necessary source rows and graph torus."
+    },
+    {
+      "commit": "e25a28723cc071859f1d3e70f293e3a155692ee0",
+      "path": "research/ai/2026-10-21-pure-mixed-five-spaces/proof.md",
+      "use": "Shifted mixed-space moving-plane induction, source torus total weight18."
+    },
+    {
+      "commit": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "use": "Saturated target rank gap and arbitrary higher-map framework."
+    }
+  ],
+  "independent_review": false,
+  "improves_omega": false,
+  "concurrent_review": {
+    "commit": "5b130f17d0e52fbcc10c51b7417af59f47105c24",
+    "path": "research/ai/2026-10-21-s5-split/README.md",
+    "role": "Credited central S5 source certificates and bounded searches; nine focused tests pass in8.029s, and five modified SL2 controls pass in0.650s. No improving witness or exponent result; not a dependency."
+  }
+}
