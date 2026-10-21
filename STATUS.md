@@ -792,3 +792,17 @@ constant-map screens, within the specified Cartan-intertwining class.
 M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
+
+## Local audit of an external tensor-degeneration preprint
+
+The [exact local audit](research/ai/2026-10-21-sun-local-audit/README.md)
+reconstructs selected maps from arXiv:2610.13971v1, with the inspected HTML
+pinned by hash. It finds a repairable scalar normalization omission and
+verifies four local Laurent leading tensors, four generic endpoint blocks,
+and 256 crossed-group identities. The complete M32 maps remain unverified;
+the preprint's claimed exponent improvements are not adopted.
+
+A separate elementary centroid argument excludes a bridge that first
+collapses to the fixed zero-fibre tensor D256 tensor M2 and then seeks M32.
+This narrower obstruction does not exclude every enriched assembly.
+The audit and written proof remain AI-derived and externally unreviewed.
