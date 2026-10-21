@@ -49,6 +49,18 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## An affine family of larger mixed normal spaces
+
+The [exceptional affine-family proof](research/ai/2026-10-21-mixed-exceptional-affine/proof.md)
+gives h=(x-y,1-x-z,1-x,x,y,z), at a=b=1, with necessary normal dimension
+at least38 everywhere and exactly38 generically. Two degree-two polynomial
+left-relation certificates prove the all-parameter rank upper bound.
+At h=(0,1,1,0,0,0), a complete38-dimensional kernel, square minors and
+additional source equations eliminate all34 non-plane directions; the
+adopted induction excludes M(10,10,11) there for arbitrary later maps.
+Claim `AI-MIXED-EXCEPTIONAL-AFFINE-095` is written and unreviewed. Target
+constructions on the whole affine family remain open; no smaller exponent.
+
 ## An open set of arbitrary mixed graphs
 
 The [generic graph proof](research/ai/2026-10-21-generic-mixed-graphs/proof.md)

@@ -1,0 +1,39 @@
+{
+  "claim": "AI-MIXED-EXCEPTIONAL-AFFINE-095",
+  "sources": [
+    {
+      "commit": "6c78380cf0b5d168db3a74893c2b560f3ee3a60f",
+      "path": "research/ai/2026-10-21-generic-mixed-graphs/proof.md",
+      "use": "Symbolic source partition and original312-by88 mixed-row equations; this family recomputes exceptional kernels."
+    },
+    {
+      "commit": "3ca5c7e2424bdae4c2efab58f304f8eb590bb6e3",
+      "path": "research/ai/2026-10-21-mixed-two-coordinate-chart/proof.md",
+      "use": "Repeated square/cubic minor verification, complete exceptional-kernel method and additional source rank-gap deductions."
+    },
+    {
+      "commit": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "use": "Saturated target rank gap and moving-boundary induction."
+    },
+    {
+      "commit": "e25a28723cc071859f1d3e70f293e3a155692ee0",
+      "path": "research/ai/2026-10-21-pure-mixed-five-spaces/proof.md",
+      "use": "Mixed-space shifted induction allowing delayed unequal growth."
+    }
+  ],
+  "concurrent_review": [
+    {
+      "commit": "1586a445c251bf9e15412e504d7cdc148e13b7f3",
+      "path": "research/ai/2026-10-21-f8-coordinate-closure/proof.md",
+      "role": "Credited merged result, not a dependency; five focused checks replayed in31.078s."
+    },
+    {
+      "commit": "114e017f7669a42aa4682edf3a09b114106b7f62",
+      "path": "research/ai/2026-10-21-sl2-f8-ideals/proof.md",
+      "role": "Credited merged result, not a dependency; five focused checks replayed in1.199s."
+    }
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}
