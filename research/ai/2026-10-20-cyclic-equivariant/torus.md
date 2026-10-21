@@ -74,7 +74,7 @@ up to a common translation of all vertex weights:
     U=V=(1,1,2,2,2,1,1), W=(1,2,2,1,2,2,1)
 
 at weights 0,...,6. Here U W*=S-t^-3-t^3. The U V* coefficients at
-weights -6,...,6 are 1,2,5,8,11,14,16,14,11,8,5,2,1, all at most S.
+weights -6,...,6 are 1,2,5,8,12,14,16,14,12,8,5,2,1, all at most S.
 An independent SymPy rational factorization discovery calculation
 gave the same four pairs; acceptance uses the exhaustive integer search.
 
