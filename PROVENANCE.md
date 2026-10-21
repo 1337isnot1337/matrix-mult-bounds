@@ -8,6 +8,16 @@ credits. The characteristic-transfer, cyclic/direct-sum application to this
 repository's degree gate and rational certificates are local written work.
 They have no independent review and supply no improved exponent.
 
+The `2026-10-21-hankel-pencil-degree` package was generated and checked in
+this owner-directed Codex session. The index sum theorem is imported from
+De Teran--Dopico--Mackey(2013), and bundle splitting from the classical
+Grothendieck theorem, with the inspected Schoemann--Wiedmann(2017) reference.
+Scalar Hankel geometry, polynomial source ranks, known fixed-scheme and
+first-boundary bounds, candidate enumeration and score recurrence retain
+their prior credits. The pencil-degree deduction, assignment calculation,
+new range of the Segre bound and finite applications are local work.
+This is not independent review, formalization or an exponent improvement.
+
 The `2026-10-21-mixed-axis-family` package is same-session AI-derived
 work directed by the repository owner. It adopts the existing source,
 virtual corrections, rank gap and stable-row projection with their credits.

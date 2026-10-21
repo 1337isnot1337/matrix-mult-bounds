@@ -12,6 +12,19 @@ written, unreviewed claim `AI-HEIS-MODULAR-025`. Arbitrary complex maps remain
 open; no smaller exponent was established. This retires the earlier bounded
 H_7 coordinate searches for this gate.
 
+## Hankel pencils and the ordinary frontier
+
+The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)
+bounds Hankel Segre images when1<=r<min(a,b) and5r<2(a+b), using the classical
+index sum theorem and a kernel-bundle calculation. It extends the earlier
+fixed-scheme and first-boundary ranges; all claims remain written and
+unreviewed. The [exact application](research/ai/2026-10-21-hankel-pencil-degree/application.md)
+adds453 exclusions to the5139-format balanced rectangular scan through a12.
+Every improving ordinary single rectangular target through a9 is excluded;
+494 necessary-test survivors remain, first at a10. All improving ordinary
+A8 square direct sums are also excluded. A9's square candidate(32,6,3)
+remains unconstructed. Singular degenerations remain open; omega is9/4.
+
 ## Uniform mixed-axis closure
 
 The [auxiliary-projection proof](research/ai/2026-10-21-mixed-axis-incidence/proof.md)
@@ -1277,6 +1290,26 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+## Local audit of an external tensor-degeneration preprint
+
+The [exact local audit](research/ai/2026-10-21-sun-local-audit/README.md)
+reconstructs selected maps from arXiv:2610.13971v1, with the inspected HTML
+pinned by hash. It finds a repairable scalar normalization omission and
+verifies four local Laurent leading tensors, four generic endpoint blocks,
+and 256 crossed-group identities. The complete M32 maps remain unverified;
+the preprint's claimed exponent improvements are not adopted.
+
+A separate elementary centroid argument excludes a bridge that first
+collapses to the fixed zero-fibre tensor D256 tensor M2 and then seeks M32.
+This narrower obstruction does not exclude every enriched assembly.
+The audit and written proof remain AI-derived and externally unreviewed.
+
+The [packetwise follow-up](research/ai/2026-10-21-sun-local-audit/packet_lift.md)
+shows that an individual printed generic packet contribution contains M2,
+whose exact Koszul rank exceeds that packet's stated border-cost ceiling.
+It excludes a lift preserving each such contribution, while allowing the
+possibility of different global maps with interpacket cancellation.
 
 ## Source-weight windows and full original-source Laurent fibers
 
