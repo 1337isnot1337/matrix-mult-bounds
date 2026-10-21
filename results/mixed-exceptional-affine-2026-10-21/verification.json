@@ -1,0 +1,45 @@
+{
+  "status": "focused-local-checks-passed-full-current-ci-pending",
+  "base_head": "14ee6ced65e4198bbaa445fcbeb604bc226fd785",
+  "local_checks": {
+    "source_level_report": "passed",
+    "focused_tests": {
+      "run": 5,
+      "passed": 5,
+      "seconds": 36.128
+    },
+    "link_and_ledger_tests": {
+      "run": 2,
+      "passed": 2,
+      "seconds": 0.034
+    }
+  },
+  "current_discovery": {
+    "tests": 747,
+    "modules": 179,
+    "group_tests": [
+      205,
+      184,
+      181,
+      177
+    ],
+    "complete_disjoint_coverage": true,
+    "import_errors": 0,
+    "own_cases": 5
+  },
+  "code_sha256": {
+    "research/ai/2026-10-21-mixed-exceptional-affine/verify.py": "aeee7de95154cdd2ab95397541dd1905e4690679b01dc2e2f329a0d8b75219d8",
+    "research/ai/2026-10-21-mixed-exceptional-affine/certificate.json": "7d001a02717aed8dca0934776a59ce5976cde82699056a40106db10983dbc25e",
+    "tests/test_mixed_exceptional_affine.py": "b65aa3bf5c24f17ce8da5b90778e91ad0e481492865e691abaec77396ae4a244"
+  },
+  "prior_pr74": {
+    "source": "3ca5c7e2424bdae4c2efab58f304f8eb590bb6e3",
+    "merged": "50ccfd91add8cd16da6db3bee0b4f020b8ba724d",
+    "trees_equal": true,
+    "all_current_source_checks_passed": true,
+    "local_and_remote_branch_and_worktree_removed": true
+  },
+  "archives_edited": false,
+  "independent_review": false,
+  "improves_omega": false
+}
