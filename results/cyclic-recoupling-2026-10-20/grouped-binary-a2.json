@@ -1,0 +1,90 @@
+{
+  "a": 2,
+  "mode": "grouped-binary",
+  "seed": null,
+  "input_weight_pairs": 49,
+  "distinct_scored_supports": 253,
+  "interval_bits": 80,
+  "source_matching_profile_cubed": "1000/27",
+  "global_ratio_upper": "297/500",
+  "violations": [],
+  "unresolved_interval_comparisons": [],
+  "new_exponent_established": false,
+  "best": {
+    "weights": {
+      "x": [
+        0,
+        1,
+        1
+      ],
+      "y": [
+        0,
+        1,
+        1
+      ],
+      "z": [
+        0,
+        -1,
+        -1
+      ],
+      "output_mask": 6
+    },
+    "retained_blocks": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "score_interval": [
+      "22",
+      "22"
+    ],
+    "ratio_interval": [
+      "297/500",
+      "297/500"
+    ],
+    "expression": {
+      "type": "shared",
+      "axes": [
+        0,
+        1
+      ],
+      "children": [
+        {
+          "type": "shared",
+          "axes": [
+            1,
+            2
+          ],
+          "children": [
+            {
+              "type": "block",
+              "index": 1
+            },
+            {
+              "type": "block",
+              "index": 2
+            }
+          ]
+        },
+        {
+          "type": "shared",
+          "axes": [
+            0,
+            2
+          ],
+          "children": [
+            {
+              "type": "block",
+              "index": 3
+            },
+            {
+              "type": "block",
+              "index": 9
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

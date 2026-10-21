@@ -247,6 +247,21 @@
       "statement": "Over C and a>=2, minimum-rank slices of A_a are precisely the products u_i*h_k*v_s with rank-one Hankel h. Their affine cone has dimension 2a. The resulting projective dimension obstruction excludes constant linear restriction A_5 to M(13,13,17).",
       "evidence": "cyclic_finite_target.md, Section 4; ../../../results/koszul-2026-10-20/cyclic_finite_target.json",
       "limitations": "The classification proof is unreviewed. The complete 4095-slice F2 control at a=2 checks finite cases, not the complex all-size theorem. Arbitrary degeneration remains open."
+    },
+    {
+      "id": "EXP-CYCLIC-RECOUPLING-044",
+      "status": "finite-exact-experiment",
+      "statement": "Exact cyclic-source recoupling at a=2,3,4 supplies complete coefficients, uniform scalar marginals and verified multiplicity factorizations. Sampled path and grouped searches have no matching-profile violation. Exhaustive normalized binary input weights and all output subsets give 253, 24156 and 1797505 distinct grouped supports, all strictly below the comparison under the stated exact scorer.",
+      "evidence": "../2026-10-20-cyclic-recoupling/README.md; ../../../results/cyclic-recoupling-2026-10-20/",
+      "limitations": "Only the stated finite sources, sampled and binary supports, and certified scoring grammar are covered. No other weights, multiplicity-basis changes or stronger proved block values are excluded. No exponent improvement is established.",
+      "attribution": "Reuses the concurrent rational CG and exact scoring utilities; scalar subrank uses Strassen through CVZ arXiv:1609.07476v2 Theorem 1.1.31."
+    },
+    {
+      "id": "AI-CYCLIC-CENTRAL-MULTIPLICITY-045",
+      "status": "proof-written-unreviewed-with-exact-controls",
+      "statement": "The central (6,6,6) recoupling multiplicity tensor at a=4 has dimensions (4,4,4) but admits no ordinary restriction to M(2,2,2): its slice determinant has a squarefree quartic specialization, whereas the M2 determinant is a quadratic square.",
+      "evidence": "../2026-10-20-cyclic-recoupling/README.md; ../../../results/cyclic-recoupling-2026-10-20/central-multiplicity-screen.json",
+      "limitations": "The determinant argument excludes constant invertible changes and ordinary restrictions in the same concise format; it does not exclude arbitrary degeneration or establish a smaller exponent."
     }
   ]
 }
