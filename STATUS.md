@@ -830,3 +830,31 @@ order correction vanishes by an image-intersection argument. Higher
 ramification and additional source space are outside the claim. Current
 construction work allows `B=N+O(m)`, which still meets the asymptotic
 cost-one premise if full tensor maps can be found.
+
+## Exact fixed-shared packing and broader construction targets
+
+The [alternating-degree construction](research/ai/2026-10-20-alternating-degree-packing/README.md)
+works for every size and replication count, at the exact prior fixed-shared
+threshold `B=k ceil(3m^2/4)-floor((m-1)/2)`. The earlier finite C(4,11)
+witness is credited. The all-size formula has asymptotic ratio 3/2 and
+therefore does not improve the exponent. Exact replay covers 120 cases
+and 2,995,050 source terms.
+
+An [explicit rational algebra deformation](research/ai/2026-10-20-singular-shared-normalization/curvilinear_krylov.md)
+produces the plane fat-point algebra from a curvilinear algebra. The extra
+consecutive-moment condition needed for the convolution tensor remains
+unconstructed; a small square-dimension obstruction proves that preserving
+algebra multiplication is too restrictive to include the known size-three
+tensor control. Current work permits two independent nonshared maps.
+
+The [ordinary EPR-convolution frontier](research/ai/2026-10-20-unequal-paired/edge_ordinary.md)
+now excludes all 10,418 improving shapes from the stated 2,867-source grid,
+using Koszul ranks, minimum slices, polynomial gcds, and product spaces.
+Twenty-seven actual restrictions pass exact positive controls. Singular
+degenerations are outside the full frontier conclusion.
+
+The [source-aspect extension](research/ai/2026-10-20-construction-sprint/shared_dimension_slack.md)
+allows extra shared coordinates: an unbounded cost-one family with shared
+ratio at most 21/20 would still imply omega at most 2247/1000. This is a
+conditional criterion; no such family or smaller exponent is established.
+The new finite question includes dense rectangular shared maps for C(5,10).

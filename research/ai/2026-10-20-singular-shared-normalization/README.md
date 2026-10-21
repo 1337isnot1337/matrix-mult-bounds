@@ -263,3 +263,19 @@ That is same-session AI review, not external independent certification.
 
 All new statements here remain externally unreviewed and unformalized. The
 matrix multiplication exponent remains at the externally established `9/4`.
+
+## Explicit algebra smoothing and a broader next model
+
+The [curvilinear smoothing note](curvilinear_krylov.md) gives an all-size
+rational degeneration of the truncated univariate algebra to the plane
+fat-point algebra, using exponential jets. It identifies the extra
+consecutive-moment condition needed for the corresponding convolution
+construction. That condition is not supplied by algebra smoothability;
+at size three a square-dimension obstruction excludes the stated
+algebra-compatible realization even though general tensor maps exist.
+Exact controls through size six are preserved with the note.
+
+The next model permits two independent nonshared maps and
+[extra shared source coordinates](../2026-10-20-construction-sprint/shared_dimension_slack.md).
+These extensions remain construction questions. The algebra smoothing
+alone does not establish a convolution degeneration or a smaller exponent.

@@ -93,3 +93,33 @@ passes the remote required CI, including regression jobs on Python 3.10
 and 3.14 and archive replay on Python 3.13. All five local archive replays
 also pass. A local full-suite attempt produced no completion record and is
 not counted as a successful run. The new tangent controls pass separately.
+
+## Fourth checkpoint
+
+An explicit alternating-degree construction reaches the exact fixed-shared
+lower bound for every size and every replication count. The previous
+finite C(4,11) witness is cited as prior work. Its cost approaches 3/2, so
+this sharp construction supplies a control and a boundary for the remaining
+singular problem, not an exponent improvement.
+
+The explicit exponential-jet algebra deformation supplies a positive
+algebra-level construction. A Frobenius moment window is still missing,
+and at size three that algebra-compatible model is provably too narrow.
+The active continuation therefore allows two independent nonshared maps.
+The ordinary EPR-convolution frontier is also complete in its stated grid,
+with positive coefficient controls and no general singular exclusion.
+
+The source-aspect extension permits a few more shared coordinates,
+including a/m tending to one. This retains the existing cost-one
+consequence and motivates dense rectangular shared maps. All numerical
+exponent consequences still have an unconstructed asymptotic premise.
+
+The isolated full regression run at `2fe0921` completed: 320 tests passed
+in 149.142 seconds. Main `8722b36` was integrated in `ed23570` without
+dropping any branch claims. New focused replays verify the algebra
+coefficients, exact packing maps, ordinary frontier, and source-aspect
+integer comparisons. Required CI and the archive checks remain merge gates.
+
+The separate external-preprint audit is tracked in PR #40. Its finite
+local identities do not certify the paper's claimed global construction
+and are not adopted as a new exponent bound.

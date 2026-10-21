@@ -10,6 +10,10 @@ RESULTS = ROOT / 'results/unequal-paired-2026-10-20'
 SPEC = importlib.util.spec_from_file_location('unequal_paired_test_subject', PACKAGE / 'unequal_paired.py')
 module = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(module)
+EDGE_SPEC = importlib.util.spec_from_file_location(
+    'unequal_paired_edge_test_subject', PACKAGE / 'edge_ordinary.py')
+edge_module = importlib.util.module_from_spec(EDGE_SPEC)
+EDGE_SPEC.loader.exec_module(edge_module)
 
 
 class UnequalPairedTests(unittest.TestCase):
@@ -77,6 +81,24 @@ class UnequalPairedTests(unittest.TestCase):
         self.assertEqual(module.excluded_edge_certificate(), expected)
         self.assertEqual(expected['gap'], 366737896009212)
         self.assertTrue(expected['excluded_under_arbitrary_degeneration'])
+        self.assertFalse(expected['improves_omega'])
+
+    def test_actual_edge_restrictions_are_preserved(self):
+        expected = json.loads((RESULTS / 'edge-positive-controls.json').read_text())
+        self.assertEqual(edge_module.positive_controls(), expected)
+        self.assertEqual(expected['fixture_count'], 27)
+
+    def test_complete_stated_ordinary_edge_frontier(self):
+        expected = json.loads((RESULTS / 'edge-ordinary-frontier.json').read_text())
+        self.assertEqual(edge_module.finite_ordinary_frontier(), expected)
+        self.assertEqual(expected['source_count'], 2867)
+        self.assertEqual(expected['improving_target_count'], 10418)
+        self.assertEqual(expected['excluded_target_counts_by_witness'], {
+            'Koszul upper bound': 9756, 'minimum slice': 386,
+            'gcd factor dimensions': 171, 'factor product space': 105})
+        self.assertEqual(expected['survivors'], [])
+        self.assertEqual(expected['overall_exclusion_scope'],
+                         'ordinary linear restriction only')
         self.assertFalse(expected['improves_omega'])
 
 

@@ -268,3 +268,20 @@ support implementation validation; the written argument supplies the general
 formula. Separate coefficient controls outside the equality hypotheses
 validate the universal-bound implementation. No independent mathematical
 review or formalization is claimed.
+
+## 4. Ordinary edge-source restrictions
+
+The continuation [edge_ordinary.md](edge_ordinary.md) develops a polynomial
+gcd and product-space obstruction for fixed linear maps from
+EPR_k tensor C(c,d). Combining these ordinary-restriction arguments with
+the universal Koszul bound excludes every candidate passing the recorded
+strict-improvement test in the finite range
+
+    k,c,d>=2, c<=d, max(kc,c+d-1,kd)<=100.
+
+The exact replay covers 2,867 sources and 10,418 improving matrix shapes.
+There are no ordinary survivors in that range. This conclusion does not
+exclude singular degenerations. The archive records which individual
+exclusions already hold for arbitrary degeneration and which use ordinary
+maps. Twenty-seven explicit coefficient restrictions provide positive
+controls for both the input orientation and the necessary-condition screens.

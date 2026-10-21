@@ -36,6 +36,16 @@ class SingularSharedNormalizationTests(unittest.TestCase):
         self.assertFalse(expected['constructs_full_fatpoint_target'])
         self.assertFalse(expected['improves_omega'])
 
+    def test_explicit_algebra_smoothing_and_window_diagnostics(self):
+        expected = json.loads((RESULTS / 'smoothing.json').read_text())
+        actual = load_module('verify_smoothing').verify(6)
+        self.assertEqual(actual, expected)
+        self.assertEqual(actual['coverage']['ordered_pair_products'], 811)
+        self.assertEqual(actual['coverage']['transported_structure_coefficients'], 13879)
+        self.assertTrue(actual['constructs_algebra_smoothing'])
+        self.assertFalse(actual['constructs_required_tensor_degeneration'])
+        self.assertFalse(actual['improves_omega'])
+
 
 if __name__ == '__main__':
     unittest.main()
