@@ -467,6 +467,16 @@ exponent at most2.245 by the certified conditional comparison; no such
 degeneration is supplied. One fixed-full-D18 subgroup pilot timed out with
 zero pair models in180 seconds. Only its small M(18,1,1) control is verified.
 
+The [SL(2,F8) subgroup-ideal followup](research/ai/2026-10-21-sl2-f8-ideals/proof.md)
+applies a concurrent worker's averaging lemma with new exact central
+projection upper bounds308,440,244 for subgroup orders8,9,18. Complete
+unipotent-eight and dihedral-eighteen cosets are forbidden on every leg of
+all16 remaining coordinate formats. For M(18,18,25), nine-cycle cosets are
+also forbidden in the two size-eighteen families. This now excludes the
+first fixed-full-D18 frame by a written unreviewed proof; its historical
+timeout is not used as proof. Remaining coordinate sets and general tensor
+maps remain open. No exponent improvement follows.
+
 ## Abelian-normal coset Koszul obstruction
 
 The [normal-coset proof](research/ai/2026-10-20-normal-coset-koszul/research_note.md)

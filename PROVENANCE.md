@@ -243,6 +243,15 @@ integer spectrum and scalar inequalities. No priority or independent review
 is claimed. Finite-field operations label a finite group; the target field
 remains C. Replayed failed candidates do not establish an improved bound.
 
+The SL(2,F8) subgroup-ideal application imports the concurrent worker's
+written unreviewed averaging lemma from commit b6f01fb781d64589e8681f5bfbff8750291daaf6,
+with the exact source text and hash retained. New small central rational
+projections are verified by integer class multiplication and subgroup
+containment identities. Their regular traces give the stated ideal upper
+bounds; no equality, discovery of the general lemma or independent review
+is claimed. This closes the historical full-D18 pilot frame only within
+the coordinate/potential model and supplies further full-coset cuts.
+
 The full-space semisimple continuation imports the existing matrix Koszul
 formulas and proves the padding/direct-sum rank expression used in its
 finite frontiers. It does not claim a new general matrix-rank formula.
