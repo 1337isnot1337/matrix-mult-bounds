@@ -28,3 +28,32 @@ Exact acceptance requires rational or algebraic maps and a complete original
 source replay. Bounded-looking finite map norms do not prove convergence;
 a residual tending to zero alone does not distinguish a restriction from
 a degeneration.
+
+## Conditioning checks
+
+The first unrestricted warm L-BFGS run completed3000 iterations with final
+relative error0.0183635703. The subsequent complex ALS run improved below
+0.009. These are nonzero-residual numerical results.
+
+A matrix-free Gauss-Newton implementation supplies both Jacobian products
+and adjoint products. Its startup checks their adjoint identity and compares
+the Jacobian to finite differences. A fixed tiny finite-difference step
+suffered cancellation after block-normal preconditioning and failed the
+check before optimization. The revised check uses Richardson cancellation:
+for a cubic map, (4 D(h/2)-D(h))/3 removes the central-difference cubic term.
+Three step sizes are reported. The preconditioned check errors were about
+4.7e-11,4.7e-10,4.7e-9. No failed check was treated as successful verification.
+
+The unpreconditioned Gauss-Newton run was stopped after slow progress. The
+preconditioned run and ALS remain numerical exploration. Preconditioning
+uses invertible fixed source-coordinate changes from each leg's initial
+normal matrix; it does not change the polynomial equations.
+
+`balance_target.py` applies target vertex changes of basis, which fix the
+matrix multiplication tensor. Its positive control replays the exact
+M(5,5,3) seed after balancing. On one approximate M(5,5,4) checkpoint,
+the combined map norm dropped from51.17 to28.76, but relative error rose
+from0.00642 to0.03769. The residual is not invariant under a nonunitary
+change of basis. The transformed seed therefore requires fresh optimization;
+its lower norm is not an improvement in construction accuracy. This also
+shows why raw map norm growth alone cannot establish a singular limit.
