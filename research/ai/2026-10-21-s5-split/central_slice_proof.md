@@ -66,3 +66,21 @@ lifts into S5 x C2^2 have all three pair maps injective and violate none of
 the existing commuting-trade conditions. Nevertheless a five-row Farkas
 circuit with all weights one rejects strict potentials. This confirms that
 the new cut removes a case surviving those earlier necessary tests.
+
+## The cyclic group of order four
+
+For a central C4, the same projected pattern is impossible from pair
+injectivity alone. Write the matched labels as X*h_i, Y*k_i, Z*l_i with
+XYZ=1. Centrality and the telescoping matched products give h_i+k_i+l_i=0
+in C4 for every i. Injectivity makes each list a permutation of0,1,2,3.
+Summing over all four indices gives0 on one side and
+3*(0+1+2+3)=2 modulo4 on the other, a contradiction. This argument uses
+no characteristic transfer or vertex potentials.
+
+The finite control `matched_color_control()` subtracts the S color at each
+matched index and independently normalizes the T and U colors at index0.
+The two remaining color lists are permutations fixing0. It checks all36
+pairs: none have bijective differences in C4, whereas12 do in C2 squared.
+The latter are compatible with pair injectivity at these matched labels;
+their exclusion still needs the earlier potential argument. This elementary
+necessary condition is not claimed as a new complete-mapping theorem.

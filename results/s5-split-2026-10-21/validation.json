@@ -25,5 +25,27 @@
     "pair_models": 0
   },
   "four_search_replays": "both passed with maintained root dependencies",
-  "scope": "Local verification only; no independent review, formalization or exponent improvement."
+  "scope": "Local verification only; no independent review, formalization or exponent improvement.",
+  "integrated_regression": {
+    "commit": "f8ba471",
+    "tests_run": 771,
+    "skipped": 3,
+    "all_four_groups_passed": true,
+    "group_seconds": [
+      521.577,
+      714.104,
+      321.071,
+      479.996
+    ],
+    "scope": "Complete suite partitioned into four groups; seven S5 tests were loaded."
+  },
+  "latest_s5_focused": {
+    "tests_run": 8,
+    "skipped": 0,
+    "seconds": 7.03,
+    "scope": "Adds the cyclic-center and matched-color control after full-suite load."
+  },
+  "integrated_archive_replay": {
+    "passed": 5
+  }
 }

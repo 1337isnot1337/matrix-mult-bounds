@@ -34,6 +34,24 @@ def slice_control():
             'transformed_tensor_coefficients': checked, 'slice_rank_upper': 3}
 
 
+def matched_color_control():
+    """All normalized matched color bijections in the two groups of order4."""
+    counts = {}
+    for cyclic in (False, True):
+        checked = accepted = 0
+        for left in permutations((1, 2, 3)):
+            for right in permutations((1, 2, 3)):
+                T, U = (0,)+left, (0,)+right
+                differences = [(u-t) % 4 if cyclic else u ^ t for t, u in zip(T, U)]
+                checked += 1
+                accepted += len(set(differences)) == 4
+        counts['C4' if cyclic else 'C2^2'] = {'checked': checked, 'matched_bijections': accepted}
+    if counts != {'C2^2': {'checked': 36, 'matched_bijections': 12},
+                  'C4': {'checked': 36, 'matched_bijections': 0}}:
+        raise ArithmeticError('incorrect normalized central matching control')
+    return counts
+
+
 def find_match(Q, sets):
     S, T, U = map(set, sets)
     M, inv = Q['mul'], Q['inv']

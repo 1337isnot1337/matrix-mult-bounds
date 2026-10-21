@@ -137,6 +137,25 @@ class S5SplitTests(unittest.TestCase):
         projected = [[g//2 for g in S] for S in known['sets']]
         self.assertIsNone(central.find_match(Q, projected))
 
+    def test_cyclic_center_source_and_matched_color_control(self):
+        cyclic = load('cyclic_four')
+        expected = json.loads((ROOT/'results/s5-split-2026-10-21/cyclic-four-source-certificate.json').read_text())
+        self.assertEqual(cyclic.certificate(), expected)
+        G, Q, receipt = cyclic.data((18, 18, 20))
+        self.assertGreater(receipt['conditional_gate']['strict_positive_margin_numerator'], 0)
+        self.assertFalse(receipt['central_slice_rank_three_cut_applicable'])
+        self.assertEqual(sum(map(len, Q['fibers'].values())), 263)
+        checked = 0
+        for (u, v) in Q['pairs']:
+            for a, b in product(range(4), repeat=2):
+                label = 4*Q['mul'][u][Q['inv'][v]]+(a-b) % 4
+                actual = G['mul'][4*u+a][G['inv'][4*v+b]]
+                self.assertEqual(actual, label)
+                checked += 1
+        self.assertEqual(checked, 114240)
+        self.assertEqual(cyclic.control()['witness']['verification']['minimum_extra_weight'], 1)
+        self.assertEqual(central.matched_color_control()['C4']['matched_bijections'], 0)
+
 
 if __name__ == '__main__':
     unittest.main()

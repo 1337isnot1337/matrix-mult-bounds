@@ -21,7 +21,11 @@ def replay(path):
     report = json.loads(path.read_text())
     if 'exact_central_slice_cuts' not in report:
         shape = report['shape']
-        return helper.replay(path, data_provider=lambda: data(shape), target_shape=shape)
+        if report['group'] == 'S5 x C4':
+            from cyclic_four import data as provider
+        else:
+            provider = data
+        return helper.replay(path, data_provider=lambda: provider(shape), target_shape=shape)
     shape = report['shape']
     G, Q, receipt = data(shape)
     slice_control()

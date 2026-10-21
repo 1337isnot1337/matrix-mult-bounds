@@ -1,5 +1,6 @@
 """Heat-bath discovery on actual colored points; exact acceptance only."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import time
@@ -12,8 +13,9 @@ from search import potential_or_circuit
 from verify_projected_reports import verify_farkas_record
 
 
-def run(output, seconds, seed, shape=(18, 18, 20)):
-    G, Q, receipt = data(shape)
+def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
+        warm_path=None, amplitude=0.6):
+    G, Q, receipt = data_provider(shape)
     if receipt['conditional_gate']['strict_positive_margin_numerator'] <= 0:
         raise ValueError('target must pass the improving conditional gate')
     rng = np.random.default_rng(seed)
@@ -22,6 +24,12 @@ def run(output, seconds, seed, shape=(18, 18, 20)):
     candidates = np.arange(480)
     sets = [np.r_[0, 4*rng.choice(np.arange(1, 120), n-1, replace=False)
                   +rng.integers(0, 4, n-1)].astype(np.int16) for n in shape]
+    if warm_path is not None:
+        warm = json.loads(warm_path.read_text())
+        sets = [np.array(S, dtype=np.int16) for S in warm['best_sets']]
+        if (list(map(len, sets)) != list(shape) or any(S[0] != 0 or len(set(S//4)) != len(S)
+                or np.any(S < 0) or np.any(S >= 480) for S in sets)):
+            raise ValueError('invalid warm-start point sets')
 
     def histogram():
         return np.array([np.bincount(table[inverse[S][:, None], T[None, :]].ravel(), minlength=480)
@@ -33,11 +41,16 @@ def run(output, seconds, seed, shape=(18, 18, 20)):
         'method': 'Actual colored-point heat-bath pair-collision search',
         'normalizations_used': 'Identity and one point per central fiber in each sampled vertex set',
         'seed': seed, 'seconds_limit': seconds, 'steps': 0, 'minimum_energy': current,
-        'temperature': {'floor': 0.04, 'amplitude': 0.6, 'period_steps': 20000},
+        'temperature': {'floor': 0.04, 'amplitude': amplitude, 'period_steps': 20000},
         'best_sets': [S.tolist() for S in sets], 'pair_injective_models': 0,
         'repeated_pair_models': 0, 'exact_farkas_cuts': 0, 'exact_histogram_checks': 0,
         'status': 'running', 'witness': None, 'exponent_improvement': False,
         'scope': 'Bounded floating-guided discovery; actual witnesses and Farkas circuits use exact integers.'}
+    if warm_path is not None:
+        report['warm_start'] = {'path': str(warm_path),
+            'sha256': hashlib.sha256(warm_path.read_bytes()).hexdigest(),
+            'source_group': warm['group'],
+            'transport': 'Copied point indices; recomputed all pair histograms in the current group.'}
     output.parent.mkdir(parents=True, exist_ok=True)
     cuts = output.with_suffix('.cuts.jsonl')
     cuts.write_text('')
@@ -74,7 +87,7 @@ def run(output, seconds, seed, shape=(18, 18, 20)):
         occupied = set((sets[f]//4).tolist())-{old//4}
         allowed = np.array([q//4 not in occupied for q in candidates])
         minimum = scores[allowed].min()
-        temperature = 0.04+0.6*(1-(report['steps'] % 20000)/20000)
+        temperature = 0.04+amplitude*(1-(report['steps'] % 20000)/20000)
         probabilities = np.zeros(480)
         probabilities[allowed] = np.exp(-(scores[allowed]-minimum)/temperature)
         probabilities /= probabilities.sum()
@@ -139,6 +152,14 @@ if __name__ == '__main__':
     parser.add_argument('--seconds', type=float, default=600)
     parser.add_argument('--seed', type=int, default=2026102135)
     parser.add_argument('--shape', type=int, nargs=3, default=(18, 18, 20))
+    parser.add_argument('--cyclic-center', action='store_true')
+    parser.add_argument('--warm', type=Path)
+    parser.add_argument('--temperature-amplitude', type=float, default=0.6)
     args = parser.parse_args()
-    result = run(args.output, args.seconds, args.seed, args.shape)
+    if args.cyclic_center:
+        from cyclic_four import data as provider
+    else:
+        provider = data
+    result = run(args.output, args.seconds, args.seed, args.shape, provider,
+                 args.warm, args.temperature_amplitude)
     print(json.dumps({k: v for k, v in result.items() if k not in ('source_and_normalization', 'witness')}))

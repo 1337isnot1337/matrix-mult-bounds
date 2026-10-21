@@ -31,7 +31,11 @@ conditional M19 gate at2.247. A600-second native run found no pair model.
 A [central four-point matching lemma](research/ai/2026-10-21-s5-split/central_slice_proof.md)
 adds a written unreviewed necessary cut beyond pair injectivity and the
 existing commuting trades. Its finite control has an exact five-row
-Farkas circuit. Claims031/032 supply no improving target or smaller bound.
+Farkas circuit. The smaller M(18,18,20) projected run exported one such
+cut and no lift; direct colored search reached two collisions. The
+alternative S5 x C4 basis has the same conditional degree cost, with its
+four-matching obstruction following from pair injectivity alone.
+Claims031/032 supply no improving target or smaller bound.
 
 ## Joint central-sign search in SL(2,5)
 

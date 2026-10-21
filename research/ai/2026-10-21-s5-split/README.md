@@ -149,3 +149,23 @@ python -m unittest discover -s tests -p test_s5_split.py -v
 
 Claims AI-S5-FOUR-SOURCE-031 and AI-CENTRAL-FOUR-MATCHING-032 remain
 conditional and written-unreviewed respectively. No exponent is improved.
+
+The smaller target M(18,18,20) also passes at2247/1000: its target lower
+numerator7159285462356 exceeds7100612865256 at scale10^10. Its600-second
+projected run made7,883,122 steps and102 model events: one exact central
+matching cut,93 untraced inner SAT negatives and eight budget hits, with
+no pair-injective lift. The direct colored-point heat-bath sampler instead
+resamples all480 possibilities for each moved vertex, using exact pair
+histograms to check every saved incremental score. The first600-second
+run performed1,142,316 steps and reached collision energy2, with no pair
+model. A low score is not a degeneration or an exclusion.
+
+The alternative S5 x C4 basis has the same complex degree cost, with263
+full inverse classes rather than288. Its order-two subgroup transfers the
+actual weighted3-by3 control. Every114240 endpoint color case is checked
+in the cyclic group. The C2-squared slice-rank-three proof does not apply
+to C4. Its four-matching prohibition follows already from the elementary
+color-sum argument in the proof; all36 normalized matched permutations
+are checked, alongside the12 surviving matched patterns for C2 squared.
+The same direct sampler now explores both bases with source-specific
+receipts and recomputed warm-start histograms.
