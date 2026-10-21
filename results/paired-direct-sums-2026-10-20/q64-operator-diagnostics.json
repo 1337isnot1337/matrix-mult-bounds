@@ -1,0 +1,68 @@
+{
+  "operator_diagnostics": [
+    {
+      "artifact": "q64-weighted-warm-checkpoint.json",
+      "operator_regrouping": "row(i_A,j_B,k_C), column(i_B,j_C,k_A)",
+      "error_frobenius_norm": 216.09198473066098,
+      "error_cube_frobenius_norm": 578.0398441668998,
+      "error_spectral_radius": 1.8299900334172208,
+      "absolute_traces_powers_1_2_3": [
+        1.0728452504530597,
+        58.40558523464162,
+        6.609215186676707
+      ],
+      "diagnostics_are_numerical": true,
+      "exact_nilpotence_claimed": false,
+      "nilpotence_alone_would_not_prove_the_prescribed_chart": true,
+      "improves_omega": false
+    },
+    {
+      "artifact": "q64-weighted0a-checkpoint.json",
+      "operator_regrouping": "row(i_A,j_B,k_C), column(i_B,j_C,k_A)",
+      "error_frobenius_norm": 39.156121784469406,
+      "error_cube_frobenius_norm": 58.4615929068867,
+      "error_spectral_radius": 1.2279235206613988,
+      "absolute_traces_powers_1_2_3": [
+        1.153795707733562,
+        39.591745611286775,
+        2.2952889956457527
+      ],
+      "diagnostics_are_numerical": true,
+      "exact_nilpotence_claimed": false,
+      "nilpotence_alone_would_not_prove_the_prescribed_chart": true,
+      "improves_omega": false
+    },
+    {
+      "artifact": "q64-weighted0b-checkpoint.json",
+      "operator_regrouping": "row(i_A,j_B,k_C), column(i_B,j_C,k_A)",
+      "error_frobenius_norm": 81.41576493478912,
+      "error_cube_frobenius_norm": 185.9317608932698,
+      "error_spectral_radius": 1.7340875544729164,
+      "absolute_traces_powers_1_2_3": [
+        1.6189360513122728,
+        59.52294811670342,
+        3.0761466119051755
+      ],
+      "diagnostics_are_numerical": true,
+      "exact_nilpotence_claimed": false,
+      "nilpotence_alone_would_not_prove_the_prescribed_chart": true,
+      "improves_omega": false
+    },
+    {
+      "artifact": "q64-weighted4-checkpoint.json",
+      "operator_regrouping": "row(i_A,j_B,k_C), column(i_B,j_C,k_A)",
+      "error_frobenius_norm": 83.56148225185132,
+      "error_cube_frobenius_norm": 188.99526915438523,
+      "error_spectral_radius": 1.8233924435969966,
+      "absolute_traces_powers_1_2_3": [
+        1.0878528209836769,
+        66.16882144079533,
+        11.696175635005108
+      ],
+      "diagnostics_are_numerical": true,
+      "exact_nilpotence_claimed": false,
+      "nilpotence_alone_would_not_prove_the_prescribed_chart": true,
+      "improves_omega": false
+    }
+  ]
+}

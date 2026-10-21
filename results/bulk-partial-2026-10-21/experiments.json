@@ -1,0 +1,308 @@
+{
+  "all_runs_failed_to_produce_candidate": true,
+  "improves_omega": false,
+  "runs": [
+    {
+      "file": "q64-bulk-cyclic2-balanced-s202610449.json",
+      "sha256": "2aeb9f40bf706e468aff5e2f8f2e798c2fc49edbe07f81dbaf80c709ace8e773",
+      "seed": 202610449,
+      "kind": "ordinary-map",
+      "updates_completed": 3000,
+      "best_sampled_relative_residual": 0.22011811330663814,
+      "final_sampled_map_norms": [
+        28.066981202042143,
+        28.06698120204214,
+        28.066981202042143
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 11,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 4,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": true,
+      "released_long_source_spaces": true,
+      "target_gauge_balancing": true
+    },
+    {
+      "file": "q64-bulk-flag-old01-s202610451.json",
+      "sha256": "1ae5919b9be2580f6faecd34760eb7cf88d4a36022fd4def38f6982513d17c2b",
+      "seed": 202610451,
+      "kind": "Laurent-output-flag",
+      "updates_completed": 300,
+      "best_sampled_relative_residual": 0.16042502348531013,
+      "final_sampled_map_norms": [
+        3514.0193661118606,
+        3514.01936611186,
+        3514.01936611186
+      ],
+      "sampled_norm_stop": true,
+      "reported_checkpoints": 2,
+      "coefficient_positions_checked": 4064,
+      "exact_witness": false,
+      "old_vertices": [
+        0,
+        1
+      ],
+      "negative_coefficients_checked": 1920,
+      "zero_coefficients_checked": 2144,
+      "positive_coefficients_omitted": 1536
+    },
+    {
+      "file": "q64-bulk-flag-old12-s202610452.json",
+      "sha256": "2fc69d66a0a70b220054f6806e3a1fda485a5205de886e74ee55957363e2fd50",
+      "seed": 202610452,
+      "kind": "Laurent-output-flag",
+      "updates_completed": 300,
+      "best_sampled_relative_residual": 0.24391527714286765,
+      "final_sampled_map_norms": [
+        5520.573611219609,
+        5520.573611219609,
+        5520.573611219609
+      ],
+      "sampled_norm_stop": true,
+      "reported_checkpoints": 2,
+      "coefficient_positions_checked": 3488,
+      "exact_witness": false,
+      "old_vertices": [
+        1,
+        2
+      ],
+      "negative_coefficients_checked": 1152,
+      "zero_coefficients_checked": 2336,
+      "positive_coefficients_omitted": 2112
+    },
+    {
+      "file": "q64-bulk-full-cartan-s202610445.json",
+      "sha256": "8191addd714184c83121d88ae55e42d85ac1c80c8ff00cdcd4012adfc8dd100f",
+      "seed": 202610445,
+      "kind": "ordinary-map",
+      "updates_completed": 1200,
+      "best_sampled_relative_residual": 0.6119782834944433,
+      "final_sampled_map_norms": [
+        28.296434965180097,
+        28.29643496518009,
+        28.29643496518009
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 7,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 0,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": true,
+      "released_long_source_spaces": true
+    },
+    {
+      "file": "q64-bulk-full-cyclic2-s202610448.json",
+      "sha256": "943e695e5316193ae003ca4b17028ea276b47665b9490269d938b90f669726b2",
+      "seed": 202610448,
+      "kind": "ordinary-map",
+      "updates_completed": 1200,
+      "best_sampled_relative_residual": 0.30140004615257104,
+      "final_sampled_map_norms": [
+        31.643216041426985,
+        31.643216041426985,
+        31.643216041426996
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 7,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 4,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": true,
+      "released_long_source_spaces": true
+    },
+    {
+      "file": "q64-bulk-full-cyclic4-product-s202610447.json",
+      "sha256": "bad01808ca90c3554d5537bfc8865a1e0a1b86ea1c1b98acf2ada8466d34c470",
+      "seed": 202610447,
+      "kind": "ordinary-map",
+      "updates_completed": 1200,
+      "best_sampled_relative_residual": 0.44451334956231703,
+      "final_sampled_map_norms": [
+        38.351195320320265,
+        38.35119532032028,
+        38.35119532032028
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 7,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 8,
+      "inner_weights": [
+        -3,
+        -3,
+        3,
+        -9
+      ],
+      "released_first_source_space": true,
+      "released_long_source_spaces": true
+    },
+    {
+      "file": "q64-bulk-full-cyclic4-s202610446.json",
+      "sha256": "74b7b8cfb49351c292bbeb924bd17c6a32f0ad361ffcbfc697ce094b0cd6de9b",
+      "seed": 202610446,
+      "kind": "ordinary-map",
+      "updates_completed": 400,
+      "best_sampled_relative_residual": 0.30369467007100703,
+      "final_sampled_map_norms": [
+        214.2586797378282,
+        214.2586797378282,
+        214.2586797378282
+      ],
+      "sampled_norm_stop": true,
+      "reported_checkpoints": 3,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 8,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": true,
+      "released_long_source_spaces": true
+    },
+    {
+      "file": "q64-bulk-ungraded-balanced-s202610450.json",
+      "sha256": "bc120117a10fd26b84e8abb9bf52936729bdeb6fe54009edf8647d84231f81fe",
+      "seed": 202610450,
+      "kind": "ordinary-map",
+      "updates_completed": 2400,
+      "best_sampled_relative_residual": 0.1982692570035975,
+      "final_sampled_map_norms": [
+        122.98386099365898,
+        122.98386099365901,
+        122.98386099365901
+      ],
+      "sampled_norm_stop": true,
+      "reported_checkpoints": 9,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 1,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": true,
+      "released_long_source_spaces": true,
+      "target_gauge_balancing": true
+    },
+    {
+      "file": "q64-quantum-bulk-release-s202610443.json",
+      "sha256": "be324d100270c0edee6b6cc121004f8448d9c0184c00343d2928b1fe102d27ed",
+      "seed": 202610443,
+      "kind": "ordinary-map",
+      "updates_completed": 1200,
+      "best_sampled_relative_residual": 0.6163442029654792,
+      "final_sampled_map_norms": [
+        64.24586810055187,
+        64.24586810055186,
+        64.24586810055186
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 13,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "released_long_source_spaces": true
+    },
+    {
+      "file": "q64-quantum-bulk-release-s202610444.json",
+      "sha256": "dfb5692a83bddf31729ef626288890bf2b4093688ecf4e795d5a6a7fa601853d",
+      "seed": 202610444,
+      "kind": "ordinary-map",
+      "updates_completed": 900,
+      "best_sampled_relative_residual": 0.619260966594594,
+      "final_sampled_map_norms": [
+        105.76940136188625,
+        105.76940136188621,
+        105.76940136188624
+      ],
+      "sampled_norm_stop": true,
+      "reported_checkpoints": 10,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "released_long_source_spaces": true
+    },
+    {
+      "file": "q64-quantum-bulk-s202610441.json",
+      "sha256": "8947807e2078072f8c9708b7ef6b35d2bb5c56bb6185dbb7927c0d46dc4ad980",
+      "seed": 202610441,
+      "kind": "ordinary-map",
+      "updates_completed": 1200,
+      "best_sampled_relative_residual": 0.7226058014572896,
+      "final_sampled_map_norms": [
+        69.42344286448028,
+        69.42344286448028,
+        69.42344286448028
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 13,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 0,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": false,
+      "released_long_source_spaces": false,
+      "target_gauge_balancing": false,
+      "replayed_to_preserve_final_maps": true,
+      "original_checkpoint_iteration": 1100,
+      "original_checkpoint_file": "initial-checkpoints/q64-quantum-bulk-s202610441.json"
+    },
+    {
+      "file": "q64-quantum-bulk-s202610442.json",
+      "sha256": "4a91e9f2d33249c44d601461b9637ca42e29ee745ea91bbc6c0e0425bb0206e0",
+      "seed": 202610442,
+      "kind": "ordinary-map",
+      "updates_completed": 1200,
+      "best_sampled_relative_residual": 0.7346802921791143,
+      "final_sampled_map_norms": [
+        48.80175282688332,
+        48.80175282688332,
+        48.80175282688332
+      ],
+      "sampled_norm_stop": false,
+      "reported_checkpoints": 13,
+      "coefficient_positions_checked": 5600,
+      "exact_witness": false,
+      "weight_modulus": 0,
+      "inner_weights": [
+        -1,
+        -3,
+        -5,
+        -7
+      ],
+      "released_first_source_space": false,
+      "released_long_source_spaces": false,
+      "target_gauge_balancing": false,
+      "replayed_to_preserve_final_maps": true,
+      "original_checkpoint_iteration": 1100,
+      "original_checkpoint_file": "initial-checkpoints/q64-quantum-bulk-s202610442.json"
+    }
+  ]
+}

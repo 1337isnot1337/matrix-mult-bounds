@@ -1,0 +1,79 @@
+{
+  "a": 3,
+  "order": 2,
+  "seed": 202610220,
+  "coefficient_bound": 10.0,
+  "maximum_function_evaluations": 250,
+  "function_evaluations": 250,
+  "jacobian_evaluations": 250,
+  "elapsed_seconds": 16.70165385600012,
+  "start": "independent random start",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "parameters": 255,
+  "coefficient_equations": 702,
+  "gauge_equations": 9,
+  "initial": {
+    "pole_coefficient_norms": [
+      0.2545692040938474,
+      1.2812701827265747
+    ],
+    "target_relative_error": 1.1661964854113376,
+    "combined_coefficient_relative_error": 1.1929863448138531,
+    "maximum_absolute_coefficient_error": 1.166656449788222,
+    "maximum_absolute_gauge_error": 3.0531133177191805e-16,
+    "map_norms_by_axis_and_level": [
+      [
+        1.0,
+        2.8909042676631835,
+        2.9994845498692335
+      ],
+      [
+        1.0,
+        2.9999800621104287,
+        2.9347854802167106
+      ],
+      [
+        1.0,
+        2.981666598149398,
+        2.9849366146438543
+      ]
+    ],
+    "maximum_absolute_parameter": 1.4000995854278906
+  },
+  "final": {
+    "pole_coefficient_norms": [
+      0.030224195049284055,
+      0.3094377113990991
+    ],
+    "target_relative_error": 0.034690209551850926,
+    "combined_coefficient_relative_error": 0.0691635973746239,
+    "maximum_absolute_coefficient_error": 0.08609205003611367,
+    "maximum_absolute_gauge_error": 0.006181586434083064,
+    "map_norms_by_axis_and_level": [
+      [
+        0.9981459296490094,
+        16.88216040794311,
+        33.310171180709695
+      ],
+      [
+        1.0030860314220724,
+        14.085013593580785,
+        39.17550627219894
+      ],
+      [
+        1.0003703281264031,
+        7.044158811404301,
+        36.2123026904215
+      ]
+    ],
+    "maximum_absolute_parameter": 9.999986997931824
+  },
+  "solver_status": 0,
+  "solver_message": "The maximum number of function evaluations is exceeded.",
+  "solver_optimality": 0.2396732103640598,
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite bounded real grading-preserving jet search; no existence or nonexistence conclusion."
+}

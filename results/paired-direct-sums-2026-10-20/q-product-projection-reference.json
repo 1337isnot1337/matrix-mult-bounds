@@ -1,0 +1,124 @@
+{
+  "references": [
+    {
+      "source": "Q(5,4)",
+      "comparison_target": "M(4,4,4)",
+      "n": 5,
+      "auxiliary_rank": 0,
+      "coefficient_field": "Q",
+      "product_input_dimension": 8,
+      "product_output_rank": 8,
+      "duplicate_input_pairs": [],
+      "all_source_terms_reconstructed": 400,
+      "all_target_coefficient_positions_checked": 4096,
+      "target_nonzero_positions": 64,
+      "actual_squared_norm": 64,
+      "inner_product_with_target": 64,
+      "exact_squared_coefficient_error": 0,
+      "exact_relative_squared_error": [
+        0,
+        1
+      ],
+      "long_map_ranks": [
+        16,
+        16
+      ],
+      "repair_first_flattening_diagonal_minor_size": 0,
+      "repair_minor_diagonal_entry": [
+        3,
+        4
+      ],
+      "fixed_reference_repair_border_rank_lower_bound": 0,
+      "exact_projection_identity_verified": true,
+      "exact_matrix_multiplication_target_reached": true,
+      "improves_omega": false
+    },
+    {
+      "source": "Q(6,4)",
+      "comparison_target": "M(5,4,5)",
+      "n": 6,
+      "auxiliary_rank": 0,
+      "coefficient_field": "Q",
+      "product_input_dimension": 10,
+      "product_output_rank": 9,
+      "duplicate_input_pairs": [
+        [
+          6,
+          1
+        ]
+      ],
+      "all_source_terms_reconstructed": 576,
+      "all_target_coefficient_positions_checked": 10000,
+      "target_nonzero_positions": 100,
+      "actual_squared_norm": 81,
+      "inner_product_with_target": 81,
+      "exact_squared_coefficient_error": 19,
+      "exact_relative_squared_error": [
+        19,
+        100
+      ],
+      "long_map_ranks": [
+        18,
+        18
+      ],
+      "repair_first_flattening_diagonal_minor_size": 1,
+      "repair_minor_diagonal_entry": [
+        3,
+        4
+      ],
+      "fixed_reference_repair_border_rank_lower_bound": 1,
+      "exact_projection_identity_verified": true,
+      "exact_matrix_multiplication_target_reached": false,
+      "improves_omega": false
+    },
+    {
+      "source": "Q(7,4)",
+      "comparison_target": "M(6,4,6)",
+      "n": 7,
+      "auxiliary_rank": 0,
+      "coefficient_field": "Q",
+      "product_input_dimension": 12,
+      "product_output_rank": 10,
+      "duplicate_input_pairs": [
+        [
+          6,
+          1
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "all_source_terms_reconstructed": 784,
+      "all_target_coefficient_positions_checked": 20736,
+      "target_nonzero_positions": 144,
+      "actual_squared_norm": 100,
+      "inner_product_with_target": 100,
+      "exact_squared_coefficient_error": 44,
+      "exact_relative_squared_error": [
+        11,
+        36
+      ],
+      "long_map_ranks": [
+        20,
+        20
+      ],
+      "repair_first_flattening_diagonal_minor_size": 4,
+      "repair_minor_diagonal_entry": [
+        3,
+        4
+      ],
+      "fixed_reference_repair_border_rank_lower_bound": 4,
+      "exact_projection_identity_verified": true,
+      "exact_matrix_multiplication_target_reached": false,
+      "improves_omega": false
+    }
+  ],
+  "general_formula": "relative_error_squared = 1-(n+3)^2/(4*(n-1)^2), n>=5",
+  "limiting_relative_error_squared": [
+    3,
+    4
+  ],
+  "saved_floating_search_maps_certified_exact": false,
+  "improves_omega": false
+}

@@ -1,0 +1,96 @@
+{
+  "verified_commit": "1e0e4689a258ff2838a0cb5fe9ab1777d50a06c0",
+  "verified_tree": "63af3cadc4ba16096a21f87292a60e7dd4cf9ea9",
+  "integrated_main": "fc8207e8a02d057b2a2e6ef96338a4e01ddeb306",
+  "checkout": "isolated detached worktree",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S -m unittest discover -s tests -v (equivalent explicit TextTestRunner with a completion record)",
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S tools/replay.py"
+  ],
+  "tests": {
+    "count": 476,
+    "passed": 475,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "status": "failed",
+    "completion_record": {
+      "completed": true,
+      "success": false,
+      "count": 476,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed_seconds": 310.69912671199927,
+      "commit": "1e0e4689a258ff2838a0cb5fe9ab1777d50a06c0"
+    },
+    "log": "checkpoint9-tests.txt",
+    "sha256": "c78d1a380f6a3ff0566a1fddc0daf55194e7b14875c86aa330bb49180d75c6b0",
+    "observed_text_log_is_incomplete": true,
+    "count_source": "Explicit unittest result written to the completed machine-readable record",
+    "site_packages_disabled": true,
+    "failure_test": "test_research.RepositoryTests.test_claim_ledger_status",
+    "failure_message": "Unsupported status 'finite-experiment-with-written-implication' on EXP-EXTERNAL-GRID-SEED-013; allowed statuses include finite-experiment.",
+    "failure_reproduced_separately": true
+  },
+  "archive": {
+    "runs": 5,
+    "status": "passed",
+    "exact_payloads_match": true,
+    "protected_archive_diff_empty": true,
+    "report": "checkpoint9-archive.json",
+    "sha256": "5fa3092556ef4931779e1b454b3e54461a60dfc3f36b77a2897f31edde232974"
+  },
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "repair": "Use the existing finite-experiment status for EXP-EXTERNAL-GRID-SEED-013; retain its written scope in the statement and limitations. The repair is on a later tree and is not counted as a pass at this checkpoint.",
+  "limits": "This checkpoint failed. The explicit unittest completion record reports 476 completed tests and one failure; the separately retained text stream ends before the full summary and is not represented as a complete log. Five archive replays passed. Same-session validation supplies no independent review or smaller exponent.",
+  "hosted_checks_observed": [
+    {
+      "name": "CI",
+      "status": "completed",
+      "conclusion": "failure"
+    },
+    {
+      "name": "CodeQL",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Archive replay (Python 3.13)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Tests (Python 3.10)",
+      "status": "completed",
+      "conclusion": "failure"
+    },
+    {
+      "name": "Tests (Python 3.14)",
+      "status": "completed",
+      "conclusion": "failure"
+    },
+    {
+      "name": "Analyze (javascript-typescript)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (python)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (c-cpp)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (actions)",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ]
+}

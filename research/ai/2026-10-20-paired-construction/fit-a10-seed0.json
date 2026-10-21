@@ -1,0 +1,102 @@
+{
+  "a": 10,
+  "seed": 0,
+  "iterations_completed": 200,
+  "ridge": 1e-07,
+  "history": [
+    {
+      "iteration": 0,
+      "relative_residual": 2.877130085186442,
+      "map_frobenius_norms": [
+        9.844919183931554,
+        12.753337009719145,
+        13.388976908373932
+      ],
+      "elapsed_seconds": 0.03578754999989542
+    },
+    {
+      "iteration": 25,
+      "relative_residual": 0.8689608132716298,
+      "map_frobenius_norms": [
+        18.527910245523625,
+        18.527910245523625,
+        18.527910245523625
+      ],
+      "elapsed_seconds": 2.2819086930003323
+    },
+    {
+      "iteration": 50,
+      "relative_residual": 0.8595952140854913,
+      "map_frobenius_norms": [
+        33.72858131422601,
+        33.728581314226005,
+        33.72858131422601
+      ],
+      "elapsed_seconds": 4.260142133000045
+    },
+    {
+      "iteration": 75,
+      "relative_residual": 0.8570913624424522,
+      "map_frobenius_norms": [
+        51.86567731450894,
+        51.86567731450894,
+        51.86567731450895
+      ],
+      "elapsed_seconds": 6.14847728299992
+    },
+    {
+      "iteration": 100,
+      "relative_residual": 0.8559728632707891,
+      "map_frobenius_norms": [
+        72.82568926250197,
+        72.82568926250198,
+        72.82568926250198
+      ],
+      "elapsed_seconds": 8.245362139999997
+    },
+    {
+      "iteration": 125,
+      "relative_residual": 0.8552365545647687,
+      "map_frobenius_norms": [
+        97.81953596517076,
+        97.81953596517074,
+        97.81953596517076
+      ],
+      "elapsed_seconds": 10.371648033999918
+    },
+    {
+      "iteration": 150,
+      "relative_residual": 0.8546970790441336,
+      "map_frobenius_norms": [
+        126.78909721529044,
+        126.78909721529043,
+        126.78909721529044
+      ],
+      "elapsed_seconds": 12.527858249000019
+    },
+    {
+      "iteration": 175,
+      "relative_residual": 0.8543164279414246,
+      "map_frobenius_norms": [
+        158.75618989272564,
+        158.75618989272567,
+        158.75618989272567
+      ],
+      "elapsed_seconds": 14.50800664899998
+    },
+    {
+      "iteration": 200,
+      "relative_residual": 0.854047531256798,
+      "map_frobenius_norms": [
+        192.87405837401616,
+        192.8740583740161,
+        192.8740583740161
+      ],
+      "elapsed_seconds": 16.47038549700028
+    }
+  ],
+  "method": "graded alternating least squares over float64",
+  "degeneration_constructed": false,
+  "improves_omega": false,
+  "scope": "Numerical search only. Residuals are not existence or nonexistence certificates."
+}

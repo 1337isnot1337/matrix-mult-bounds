@@ -1,0 +1,50 @@
+{
+  "source": "P3 direct_sum one scalar",
+  "coefficient_ring": "Q in Cartesian coordinates",
+  "diagonal_maps_a_b": [
+    [
+      "0",
+      "1/2",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "0",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "1/2",
+      "0"
+    ]
+  ],
+  "diagonal_map_c": [
+    [
+      0,
+      -2,
+      -2
+    ],
+    [
+      -2,
+      0,
+      -2
+    ],
+    [
+      -2,
+      -2,
+      0
+    ]
+  ],
+  "scalar_maps": "all-ones on the three diagonal target coordinates, on each leg",
+  "all_target_positions_checked": 729,
+  "fixed_target": "three scalar products D3",
+  "original_source_defect": "minus the all-ones rank-one tensor on the diagonal sector",
+  "remaining_parameter_dimensions": [
+    4,
+    8,
+    8
+  ],
+  "controls_passed": true,
+  "matrix_multiplication_construction": false,
+  "improves_omega": false
+}

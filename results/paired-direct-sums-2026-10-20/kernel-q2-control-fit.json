@@ -1,0 +1,60 @@
+{
+  "n": 2,
+  "b": 2,
+  "seed": 202610239,
+  "parameter_bound": 10,
+  "parameters": 16,
+  "closure_equations": 256,
+  "maximum_function_evaluations": 400,
+  "function_evaluations": 9,
+  "jacobian_evaluations": 9,
+  "elapsed_seconds": 0.04356035599994357,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "closure_residual_norm": 0.9908833015330697,
+    "maximum_absolute_closure_error": 0.29405837853498185,
+    "anchor_condition_number": 2.4871721533436273,
+    "slice_span_singular_values": [
+      2.5536965006702537,
+      1.4922532315630015,
+      1.450010355150327,
+      0.9500181220382709
+    ],
+    "smallest_commutant_singular_values": [
+      1.477184935216575e-16,
+      0.559945760229827,
+      0.8524692902104127,
+      0.9643379919466517,
+      1.291576274928624,
+      1.4101267632011827
+    ],
+    "maximum_absolute_kernel_parameter": 0.7069002298038467
+  },
+  "final": {
+    "closure_residual_norm": 1.5564649481319175e-14,
+    "maximum_absolute_closure_error": 3.747002708109903e-15,
+    "anchor_condition_number": 4.1165728413051985,
+    "slice_span_singular_values": [
+      4.205907149744242,
+      1.4649829162252286,
+      1.4132538314441396,
+      0.9356377165074626
+    ],
+    "smallest_commutant_singular_values": [
+      7.026087204286728e-16,
+      7.117356929153986e-15,
+      1.7868838356677382e-14,
+      1.9411284175623196e-14,
+      1.4152449911238465,
+      1.4196809428820785
+    ],
+    "maximum_absolute_kernel_parameter": 0.6915214485828469
+  },
+  "solver_status": 1,
+  "solver_message": "`gtol` termination condition is satisfied.",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "One real compression-kernel chart, fixed invertible anchor, finite bounded search; closure alone is not a matrix tensor certificate."
+}
