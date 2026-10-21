@@ -551,3 +551,12 @@ Concurrent overlaps are credited in package notes and sources.json. In
 particular, canonical exact-restriction and equivariant-flattening arguments
 independently overlapped d2d505c and 6bdab15. The quantitative capacity bound
 is complementary to 8e0a766, retaining distinct hypotheses.
+
+The central-group correction continuation owns
+`ai/2026-10-21-s5-scalar-repair/QUESTION.md` on
+research/s5-scalar-repair-20261021. The exact eight-scalar gate passes at
+2.2499, but its improving witness is missing. A new diagonal-rank lemma
+and nine coordinate-disjoint Farkas circuits exclude rank-eight Laurent
+corrections to the first trade-free candidate with fixed group coordinates
+and arbitrary integer vertex weights. Other candidates and mixed group
+maps remain open. Weighted commuting discovery is continuing.

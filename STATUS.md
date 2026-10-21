@@ -40,6 +40,18 @@ models respectively; all have exactly replayed Farkas contradictions.
 The sampler now incorporates the existing commuting-trade condition.
 Claims031/032/033 supply no improving target or smaller bound.
 
+## Scalar repairs and a rank obstruction
+
+The [scalar repair continuation](research/ai/2026-10-21-s5-scalar-repair/proof.md)
+gives a conditional2.2499 route from the S5 source plus eight scalar
+tensors; its improving witness is missing. A new diagonal matrix argument
+shows that bad extras on q output coordinates need auxiliary rank at
+least q, even with arbitrary Laurent correction maps. Nine exactly
+verified Farkas circuits on disjoint coordinate sets exclude rank-eight
+corrections for the first trade-free pair model, for every integer vertex
+potential. The general group input maps and other vertex sets remain open.
+Claims034/035 are conditional/written-unreviewed, without an exponent gain.
+
 ## Joint central-sign search in SL(2,5)
 
 The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)

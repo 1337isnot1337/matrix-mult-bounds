@@ -1,0 +1,50 @@
+{
+  "group": "C3 x C3",
+  "sets": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "potentials": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "corrections": [
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  ],
+  "verification": {
+    "shape": [
+      2,
+      2,
+      2
+    ],
+    "intended_terms": 8,
+    "extra_monomials": 2,
+    "scalar_corrections": 1,
+    "corrected_negative_terms": 1,
+    "surviving_extra_terms": 1,
+    "minimum_surviving_weight": 1,
+    "verified": true,
+    "exponent_improvement": false
+  }
+}

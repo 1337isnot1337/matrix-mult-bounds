@@ -13,6 +13,13 @@ bundle rank-locus estimate are imported from the same concurrent worker,
 with their classical external input and exact source pins preserved.
 No priority, independent review, formalization or exponent gain is claimed.
 
+The `2026-10-21-s5-scalar-repair` package is owner-directed Codex work.
+It retains the S5 source and exact group-helper credits. Scalar term
+cancellation and interpolation are standard, with Bini--Lotti--Romani and
+Schonhage cited explicitly. The diagonal matrix argument, conditional
+eight-scalar target and exact coordinate-disjoint circuit application are
+local written work with no independent mathematical review or exponent gain.
+
 The `2026-10-21-s5-split` continuation is owner-directed Codex work. It
 reuses the exact rational class-algebra, central-cover, parity and accepted
 witness helpers with their original credits. The S5 permutation/module
