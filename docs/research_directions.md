@@ -222,3 +222,15 @@ Avoid repeating the earlier unnormalized searches without a new reason.
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
+
+## Linear-annihilator frontier update
+
+The [pencil-degree theorem](../research/ai/2026-10-21-hankel-pencil-degree/proof.md)
+and its [complete application](../research/ai/2026-10-21-hankel-pencil-degree/application.md)
+now close the former ordinary A8 rectangular and square-sum targets.
+Every improving balanced single rectangular shape through a9 is excluded;
+the first necessary-test survivors are at a10. A9's square partition
+(32,6,3) remains unconstructed, with the M32 lifted rank exactly648.
+The next owned algebraic question is equality at that rank. Singular
+constructions, including the A4 shear completion, remain open and are
+required before any smaller exponent claim.
