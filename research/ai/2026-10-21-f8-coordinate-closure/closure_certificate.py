@@ -17,7 +17,7 @@ import zlib
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'2026-10-20-f8-unequal'))
 from koszul_tables import koszul_matrix,rank_mod,verify
 from pair_averaging import classes,coverage,rotate
-from source_frontier import report as source_frontier
+from f8_source_frontier import report as source_frontier
 
 
 def tables(base_pencils,even_pencils):
