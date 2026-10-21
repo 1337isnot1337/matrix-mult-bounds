@@ -7,19 +7,22 @@ when merging; integration is not theorem acceptance.
 
 ## Constructive-spectrum continuation
 
-Branch: `research/constructive-spectrum-20261020`, draft PR #28.
-Pushed checkpoints `5f9b203` and `e042848` preserve the oriented endpoint
-and nonmonic coefficient work. The next integrated checkpoint adds exact
-source constructions and rank obstructions against main `a44451d`.
+Branch: `research/constructive-spectrum-20261020`, PR #28, ready for review.
+Pushed checkpoints `5f9b203`, `e042848`, and `e44aaff` preserve the oriented
+endpoint, nonmonic coefficient, source-construction, and rank-obstruction
+work. The next checkpoint adds higher-rank Hankel obstructions and exact
+rational constructions, including main `2a7c503`.
 All statements retain the evidence status in `claims.json`.
 
 The parity A(5,5) target M14 plus M4 is closed by a written obstruction
 that also covers singular degenerations. All ordinary square direct-sum
 targets that could pass the stated finite score are closed in source
-formats of leg dimension below 300. Do not restart numerical searches in
-those excluded classes. A(5,6) to M16 plus M4 is the first remaining
-ordinary square target in this source frontier; its maps are missing.
-The earlier M16 plus two M3 target is excluded by the stronger block test.
+all 51 source formats of leg dimension below 784. Do not restart numerical
+searches in those excluded classes. A(7,8) to M25 plus M5 is a remaining
+ordinary square target at the first surviving source size; its maps are
+missing. The former A(5,6) M16 targets are excluded even before further
+blocks are appended. The higher-rank theorem requires 3r<=a+b-1; explicit
+varying-scheme pencils show why this hypothesis cannot simply be dropped.
 
 Productive open questions include singular degenerations of the full
 sources, unequal rectangular targets, tensor powers, the nonmonic flag
@@ -27,6 +30,12 @@ system, and an interior-spectrum higher-difference theorem. The actual
 family A(a,a) to M(2a−2) plus M(a−2) supplies exact multi-block controls,
 but no exponent improvement. The proposed additional scalar has mixed
 coefficients and must not be treated as a construction.
+
+New composition controls are A(2,2) plus one scalar to M3, and A(5,6)
+to M8 plus A(2,3). The extra source scalar in the first identity is
+essential to that certificate. Scalar-defect recycling, retained residual
+sources, and constructions beyond the excluded ordinary one-copy formats
+remain active questions.
 
 ## Earlier coordinated integrations
 

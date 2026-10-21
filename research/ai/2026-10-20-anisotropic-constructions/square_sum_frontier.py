@@ -15,6 +15,11 @@ from pathlib import Path
 SCALE = 10**6
 
 
+def symbol_rank_levels(a, b):
+    """Exactly the range justified by the written Hankel symbol theorem."""
+    return range(1, min(a-1, b-1, (a+b-1)//3)+1)
+
+
 def score_interval(n, scale=SCALE):
     radicand = (6*n)**9 * scale**4
     lower = isqrt(isqrt(radicand))
@@ -31,6 +36,11 @@ def allowed_blocks(a, b, dimension):
     nontrivial = []
     for n in range(2, isqrt(dimension)+1):
         if n+2*loss < 2*a*b:
+            continue
+        if any(n*n > r*a*b and n+2*loss < (r+1)*a*b
+               for r in symbol_rank_levels(a, b)):
+            continue
+        if min(a, b) >= 3 and a+b-1 >= 6 and n >= 3 and n+2*loss == 2*a*b:
             continue
         nontrivial.append(n)
     scalar_allowed = 1+2*loss >= a*b
@@ -79,6 +89,8 @@ def source_frontier(a, b, scale=SCALE, retain_dimensions=False):
     limit = (3*(a+b)-2)**3
     result = {'a': a, 'b': b, 'source_leg_dimension': size,
               'dimensions_screened': size, 'critical_score_threshold': limit,
+              'hankel_symbol_rank_levels': list(symbol_rank_levels(a, b)),
+              'rank_two_equality_filter': min(a, b) >= 3 and a+b-1 >= 6,
               'maximum': best,
               'all_partitions_below_critical_score': best['upper_score_numerator'] < limit*scale}
     if retain_dimensions:
@@ -94,7 +106,7 @@ def admissible_partition(a, b, shape):
             and (shape.count(1) <= 1 or repeated))
 
 
-def report(maximum_source_dimension=300):
+def report(maximum_source_dimension=784):
     sources = []
     a = 2
     while a*a*(2*a-1) <= maximum_source_dimension:
@@ -105,18 +117,18 @@ def report(maximum_source_dimension=300):
         a += 1
     sources.sort(key=lambda r: (r['source_leg_dimension'], r['a'], r['b']))
     passing = [r for r in sources if not r['all_partitions_below_critical_score']]
-    target = {'source': [5, 6], 'blocks': [16, 4], 'target_leg_dimension': 272,
-              'ordinary_screen_passes': admissible_partition(5, 6, [16, 4]),
-              'conditional_exponent': ['281', '125'],
-              'integer_power_checks': [96**281 > 28585**125, 24**281 > 1266**125],
-              'integer_lower_sum': 28585+1266, 'source_threshold': 31**3,
+    target = {'source': [7, 8], 'blocks': [25, 5], 'target_leg_dimension': 650,
+              'ordinary_screen_passes': admissible_partition(7, 8, [25, 5]),
+              'conditional_exponent': ['2247', '1000'],
+              'integer_power_checks': [150**2247 > 77567**1000, 30**2247 > 2084**1000],
+              'integer_lower_sum': 77567+2084, 'source_threshold': 43**3,
               'target_constructed': False, 'new_exponent_established': False}
     assert all(target['integer_power_checks'])
     assert target['integer_lower_sum'] > target['source_threshold']
     assert target['ordinary_screen_passes']
-    if maximum_source_dimension >= 300:
-        assert passing[0]['source_leg_dimension'] == 300
-        assert (passing[0]['a'], passing[0]['b']) == (5, 6)
+    if maximum_source_dimension >= 784:
+        assert passing[0]['source_leg_dimension'] == 784
+        assert (passing[0]['a'], passing[0]['b']) == (7, 8)
     return {'scope': 'ordinary restrictions to square matrix direct sums only; sufficient exclusion tests, not existence tests',
             'maximum_source_dimension': maximum_source_dimension,
             'source_count': len(sources), 'source_frontiers': sources,
@@ -128,7 +140,7 @@ def report(maximum_source_dimension=300):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--maximum-source-dimension', type=int, default=300)
+    parser.add_argument('--maximum-source-dimension', type=int, default=784)
     parser.add_argument('--output', type=Path)
     args = parser.parse_args()
     data = json.dumps(report(args.maximum_source_dimension), indent=2)+'\n'

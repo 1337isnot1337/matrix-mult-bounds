@@ -7,11 +7,30 @@ established. The full-source rank-gap proof was checked by a second agent
 in this generating session; no external independent review or
 formalization is claimed.
 
-Construction work now includes exact mixed restrictions of the full
-source A(5,5) to M9 and to M8 plus M3. Its proposed M14 plus M3 target,
-with leg dimension 205, is now excluded for ordinary maps by the
-[complete low-rank slice locus](polynomial_rank_locus.md); singular
-degenerations remain open. An earlier parity
+Construction work now includes exact full-source restrictions
+A(5,5) to M9 and to M8 plus M3; A(5,6) to M10 and to
+[M8 plus A(2,3)](parity_structure_residual.md); and a
+[scalar-extended restriction](parity_balancing_spin1.md)
+A(2,2) plus one scalar to M3. Complete rational maps and coefficient
+checks are saved. None of these constructions establishes an exponent
+improvement.
+
+The [corner-split construction](parity_structure_corner_extension.md)
+also supplies A(2,2) plus one scalar from A(2,3), and gives a general
+two-source restriction whenever the stated low and high long-coordinate
+intervals are disjoint. It provides exact source-recycling controls.
+
+The [ordinary square-partition frontier](square_sum_frontier.md) now
+rules out every target strong enough for this package's finite 9/4
+score test from all 51 sources with 2<=a<=b and N=ab(a+b-1)<784.
+The first source surviving these necessary tests is A(7,8). Its
+unconstructed target M25 plus M5 would imply omega<2.247 if the
+required maps were found. The former ordinary A(5,6) target M16 plus
+M4 is excluded; its conditional number 2.248 is superseded as an
+ordinary construction objective. These results do not exclude
+singular full-source degenerations or arbitrary rectangular sums.
+
+An earlier parity
 degeneration of A(5,5) has 225 coordinates on each leg and 11,725 terms,
 but the [annihilator proof](parity_annihilator.md) excludes its proposed
 M14 plus M4 target, even for singular degenerations. The
@@ -19,14 +38,14 @@ M14 plus M4 target, even for singular degenerations. The
 historical conditional arithmetic, score screen, and positive controls.
 No improving target maps have been constructed.
 
-## Construction question
+## Original conditional target
 
 Let C(a,b) be polynomial convolution, with lengths a, b and a+b-1.
 Consider the cyclic product of three copies:
 
     A(a,b) = C(a,b) tensor C(a,b)^cyclic tensor C(a,b)^(cyclic squared).
 
-All three source spaces have dimension N=ab(a+b-1). The selected question is
+All three source spaces have dimension N=ab(a+b-1). The starting question was
 
 > Does A(4,5) degenerate over C to M(12,12,13)?
 
@@ -171,14 +190,101 @@ tensor rank at most one. This excludes ordinary A(5,5) to M14 plus M3
 and M14 plus M4. It does not exclude their singular versions.
 Using rank-one ruling lines on all three legs further shows that every
 non-scalar square block of size n requires n+2(N-D)>=2ab. Thus the
-ordinary A(5,6) target M16 plus two M3 blocks is also excluded, while
-M16 plus M4 meets the new threshold and remains unconstructed.
+ordinary A(5,6) target M16 plus two M3 blocks is also excluded. M16
+plus M4 met this strict threshold, but the stronger results below now
+exclude it for ordinary maps as well.
 
 The exact controls cover all 4,095 nonzero binary A(2,2) slices, sharp
 rank-2ab examples, and integer three-leg factorization identities. The
 three additional focused tests pass. The proof was checked by a second
 agent in this generating session; no external independent review is
 claimed.
+
+## Higher Hankel ranks and the current ordinary frontier
+
+The [Hankel-symbol dimension theorem](hankel_symbol_dimension.md)
+adds a family of necessary conditions. For every integer r with
+1<=r<min(a,b) and 3r<=a+b-1, an ordinary square block of size n obeys
+
+    n^2>rab  implies  n+2(N-D)>=(r+1)ab.
+
+Over C(x,z), the bounded Hankel rank of every lifted rank-one matrix
+parameter forces their entire symbol span to have dimension at most r.
+Selecting r long-coordinate polynomials then injects the original
+complex block space into rab coefficients. The supporting scheme may
+vary with x,z; no constant recurrence is assumed in this argument.
+The note includes a self-contained proof of the classical scalar
+Hankel/secant identification and cites a primary source for that
+classical fact.
+
+At rank exactly 2ab, a separate
+[polynomial equality argument](parity_structure_equality.md) forces a
+constant length-two long space. The
+[three-leg factorization](hankel_rank_two.md) then has at most eight
+coordinates per leg, including tangent and infinity cases. Thus when
+a,b>=3 and a+b-1>=6, every block n>=3 requires n+2(N-D)>2ab.
+
+For A(5,6), the general r=3 condition excludes even M16 alone:
+16+2(300-256)=104<120 and 16^2>90. The
+[exact partition enumeration](square_sum_frontier.md) combines all
+these conditions with integer fourth-root bounds on the score
+sum(6n)^(9/4). It excludes every improving ordinary square direct sum
+from all 51 source formats with N<784. Its certified score maxima for
+A(5,5) and A(5,6) are respectively 18916.994428<21952 and
+26604.167197<29791. These are upper bounds over relaxed partitions,
+not scores of constructed maps.
+
+The first surviving source is A(7,8). The two-block target M25 plus M5
+has leg dimension 650 and passes the necessary conditions. If its
+missing maps were constructed, the exact integer inequalities
+
+    150^2247>77567^1000,
+    30^2247>2084^1000,
+    77567+2084>43^3
+
+would imply omega<2.247. The conditional arithmetic is established;
+the tensor restriction is not.
+
+Exact geometric controls include all 1,341 nonzero binary long
+sequences in three small formats, 1,000 Hermite jet schemes, and 235
+bounded-rank pencil checks. Counterexamples at a+b-1=3r-1 show why the
+fixed-scheme line hypothesis cannot simply be removed. The tangent
+factorization checks compare all 1,296,000 integer coefficients across
+six choices of long spaces. The five focused tests pass. The general
+and equality proofs were checked by a second agent in this generating
+session; no external independent review or formalization is claimed.
+
+## Exact construction controls
+
+The saved positive controls now include the following ordinary
+restrictions. None reaches an improving score in the finite comparison.
+
+| Source | Exact image | Saved construction |
+| --- | --- | --- |
+| A(5,5) | M9 | [Integral product basis](parity_structure.md) |
+| A(a,a), a>=3 | M(2a-2) plus M(a-2) | [Mixed direct-sum family](parity_structure_direct_sum.md) |
+| A(5,6) | M10, or M8 plus M4 | [Integral two-block maps](parity_structure_a56.md) |
+| A(5,6) | M8 plus A(2,3) | [Residual convolution source](parity_structure_residual.md) |
+| A(2,2) plus one scalar | M3 | [Scalar-corrected spin-one maps](parity_balancing_spin1.md) |
+
+The residual A(2,3) construction keeps an entire convolution source in
+the second block, which can later be subjected to another restriction.
+Its maps have denominators dividing two, and every mixed coefficient
+between the two blocks is zero.
+
+The scalar-corrected construction has a short exact explanation. There
+is a linear map J from three-by-three matrices into the twelve-variable
+trace realization of A(2,2), and a fixed rational P, with
+
+    P^(-1) J(A) P = [[A,0],[ell(A),tr(A)]].
+
+Thus the original source produces
+tr(ABC)+tr(A)tr(B)tr(C). A single disjoint scalar source, sent to the
+negative trace on each leg, cancels the extra term. This explicitly
+changes the source: it is not a pure A(2,2) to M3 restriction. The
+complete nine-by-thirteen rational maps were replayed on all 729
+coefficients, including a check by a second agent in this generating
+session. No external independent review is implied.
 
 ## Earlier symmetry-restricted construction attempts
 
