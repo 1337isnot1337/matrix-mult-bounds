@@ -151,3 +151,20 @@ added to maintained requirements. The new maps and searches were generated
 by the continuing Codex research session directed by the repository owner.
 The 9/4 theorem and spectral framework remain external work; the cyclic
 source indexing and target criterion reuse the cited local claims.
+
+## Subsequent larger-source pilot and full-capacity obstruction
+
+Eight real A_3 -> M(3,5,9) ALS starts, seeds 202610340 through
+202610347, used the embedded exact A_2 restriction as a positive control
+and at most 500 iterations each. Their best full relative error was about
+0.27483; no witness or nonexistence proof resulted. The program
+`discovery/cyclic_a3_probe.py`, actual report and best arrays are retained.
+This is a finite test of one proposed extension, not a scalable construction.
+
+The separate [full-capacity argument](full_capacity.md), claim 047, excludes
+A_a^r degenerating to a direct sum of square matrix products when those
+blocks use all (a^2(2a-1))^r coordinates of every leg. Its proof uses
+external closed-orbit theory and an all-power extension of the triangular
+slice minor. Smaller targets, including both exponent-improving targets
+selected earlier, remain open. `full_capacity.py` supplies finite integer
+controls; it does not verify the external invariant-theory theorem.

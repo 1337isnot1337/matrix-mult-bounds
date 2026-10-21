@@ -130,8 +130,13 @@ linear substitution. Squareness is invariant under both. A specialization
 of a square remains a square or zero; the displayed squarefree quartic
 therefore excludes an isomorphism B to M2. Any ordinary restriction between
 these concise equal formats would be invertible, so it is excluded as well.
-This finite algebraic certificate does not exclude a singular degeneration.
-The proof is written and unreviewed; no matrix factor is used in the scores.
+This finite determinant certificate alone does not exclude a singular
+degeneration. The later [polystability argument](central_polystability.md),
+claim 048, supplies that stronger exclusion over C using a separately
+verified smooth cubic and external stability theorems. The historical
+`arbitrary_degeneration_to_M2_excluded: false` field in the determinant
+report describes claim 045 alone. Both written proofs are unreviewed; no
+matrix factor is used in the scores.
 
 ## Reproduction and attribution
 

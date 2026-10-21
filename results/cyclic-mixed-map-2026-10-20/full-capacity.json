@@ -1,0 +1,110 @@
+{
+  "seed": 202610360,
+  "triangular_minor_controls": [
+    {
+      "a": 2,
+      "power": 1,
+      "integer_slices": 16,
+      "minor_size": 4,
+      "corner_rank": 4
+    },
+    {
+      "a": 2,
+      "power": 2,
+      "integer_slices": 16,
+      "minor_size": 16,
+      "corner_rank": 16
+    },
+    {
+      "a": 2,
+      "power": 3,
+      "integer_slices": 16,
+      "minor_size": 64,
+      "corner_rank": 64
+    },
+    {
+      "a": 3,
+      "power": 1,
+      "integer_slices": 16,
+      "minor_size": 9,
+      "corner_rank": 9
+    },
+    {
+      "a": 3,
+      "power": 2,
+      "integer_slices": 16,
+      "minor_size": 81,
+      "corner_rank": 81
+    },
+    {
+      "a": 4,
+      "power": 1,
+      "integer_slices": 16,
+      "minor_size": 16,
+      "corner_rank": 16
+    },
+    {
+      "a": 5,
+      "power": 1,
+      "integer_slices": 16,
+      "minor_size": 25,
+      "corner_rank": 25
+    }
+  ],
+  "integer_slices_checked": 112,
+  "direct_sum_uniform_marginal_controls": [
+    {
+      "sizes": [
+        2,
+        2,
+        2
+      ],
+      "leg_dimension": 12
+    },
+    {
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "leg_dimension": 12
+    },
+    {
+      "sizes": [
+        10,
+        2,
+        2,
+        2
+      ],
+      "leg_dimension": 112
+    }
+  ],
+  "full_capacity_examples": [
+    {
+      "a": 2,
+      "power": 2,
+      "leg_dimension": 144,
+      "excluded_square_size": 12,
+      "minimum_source_slice_rank": 16
+    },
+    {
+      "a": 5,
+      "power": 1,
+      "leg_dimension": 225,
+      "excluded_square_size": 15,
+      "minimum_source_slice_rank": 25
+    },
+    {
+      "a": 4,
+      "power": 2,
+      "leg_dimension": 12544,
+      "excluded_square_size": 112,
+      "minimum_source_slice_rank": 256
+    }
+  ],
+  "all_size_statement_status": "written proof, unreviewed",
+  "external_invariant_theory_verified_by_this_program": false,
+  "smaller_targets_excluded": false,
+  "new_exponent_established": false
+}
