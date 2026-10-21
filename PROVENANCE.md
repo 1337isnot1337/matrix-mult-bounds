@@ -285,3 +285,12 @@ coefficient globally. Unique factorization and polynomial multiplication
 are standard. The explicit local basis identification, sharp controls and
 source application are same-session AI-derived written work, with no
 independent review, historical-priority claim or exponent improvement.
+
+The `2026-10-21-integrable-boundary-shears` package adds an exact local
+polynomial family and complete mutual-annihilator calculation. A rational
+third-jet pilot suggested the formula; acceptance checks the full
+two-parameter source identity and nonzero-parameter determinant charts.
+The canonical source and normal directions retain their prior credits.
+This same-session AI-assisted construction has no independent review or
+historical-priority claim, and its rank14 maps do not supply a new matrix
+multiplication exponent.
