@@ -57,3 +57,27 @@ from0.00642 to0.03769. The residual is not invariant under a nonunitary
 change of basis. The transformed seed therefore requires fresh optimization;
 its lower norm is not an improvement in construction accuracy. This also
 shows why raw map norm growth alone cannot establish a singular limit.
+
+## Sparse derivative checkpoint
+
+The derivative has only135 complex entries per output coefficient:45 from
+each leg. An explicit sparse derivative therefore replaces repeated physical
+matrix contractions inside Krylov iterations. Its independent adjoint and
+cubic Richardson checks pass before optimization. A100-evaluation run with
+150 Krylov iterations per linear solve completed in202 seconds, improving
+the relative residual to0.0024169483467. Its saved hexadecimal maps still
+have nonzero residual and are not a restriction certificate.
+
+The numerical infinitesimal-symmetry diagnostic considers source sl2^3
+and traceless target vertex actions. The exact M(5,5,3) positive control has
+three null directions; the enlarged approximate candidate has no numerical
+null direction at the stated threshold. This does not exclude a different
+symmetry or prove anything about a limiting map. The candidate's precise
+input file hash is retained beside the diagnostic.
+
+Source SL2^3 balancing, unlike target balancing, preserves the entire
+computed output tensor. One numerical norm optimization checked that output
+to relative drift below6e-14, but reduced the norm only slightly. It does not
+prove a bounded or unbounded limit. The solver continues from the saved
+sparse checkpoint with refreshed conditioning and a larger linear-solve
+budget. Optional numerical dependencies are separate from exact verification.

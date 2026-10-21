@@ -4,8 +4,9 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import least_squares
 from scipy.sparse.linalg import LinearOperator
+from scipy.sparse import coo_matrix
 from intertwiners import source_data
-p=argparse.ArgumentParser();p.add_argument('warm',type=Path);p.add_argument('output',type=Path);p.add_argument('--evaluations',type=int,default=100);p.add_argument('--precondition',action='store_true');a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True)
+p=argparse.ArgumentParser();p.add_argument('warm',type=Path);p.add_argument('output',type=Path);p.add_argument('--evaluations',type=int,default=100);p.add_argument('--precondition',action='store_true');p.add_argument('--sparse',action='store_true');p.add_argument('--linear-iterations',type=int,default=150);a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True)
 z=np.load(a.warm);M=[z[n].copy() for n in 'ABC'];W=np.array([np.array(x).astype(float) for x in source_data(3)[0]]);shapes=[m.shape for m in M];sizes=[m.size for m in M];cuts=np.cumsum(sizes)[:-1];N=sum(sizes);w=shapes[1][1]//5;target=np.zeros((25,5*w,5*w))
 for i in range(5):
  for j in range(5):
@@ -33,6 +34,18 @@ def fun(x):
  return real(r)
 def jac(x):
  P=phys(unpack(x))
+ if a.sparse:
+  Ds=[np.einsum('sab,jbc,kca->jks',W,P[1],P[2],optimize=True),np.einsum('iab,sbc,kca->iks',P[0],W,P[2],optimize=True),np.einsum('iab,jbc,sca->ijs',P[0],P[1],W,optimize=True)]
+  Ds=[D@Q for D,Q in zip(Ds,S)];ii,jj,kk=np.indices(target.shape);ii,jj,kk=[v.ravel() for v in (ii,jj,kk)]
+  values=[Ds[0][jj,kk,:],Ds[1][ii,kk,:],Ds[2][ii,jj,:]];columns=[];offset=0
+  for index,shape in zip((ii,jj,kk),shapes):
+   columns.append((offset+index[:,None]+shape[1]*np.arange(45)[None,:]).ravel());offset+=shape[0]*shape[1]
+  rows=np.repeat(np.arange(K),45);CJ=coo_matrix((np.concatenate([v.ravel() for v in values]),(np.tile(rows,3),np.concatenate(columns))),shape=(K,N)).tocsr();CH=CJ.conj().T.tocsr()
+  def smv(v):
+   v=np.asarray(v).ravel();return real(CJ@(v[:N]+1j*v[N:]))
+  def srmv(y):
+   y=np.asarray(y).ravel();return real(CH@(y[:K]+1j*y[K:]))
+  return LinearOperator((2*K,2*N),matvec=smv,rmatvec=srmv,dtype=float)
  def mv(v):
   Q=phys(unpack(np.asarray(v).ravel()));return real(image([Q[0],P[1],P[2]])+image([P[0],Q[1],P[2]])+image([P[0],P[1],Q[2]]))
  def rmv(y):
@@ -50,6 +63,6 @@ for h in (1e-2,1e-3,1e-4):
  fd=(4*d2-d1)/3;errors.append(float(np.linalg.norm(fd-J@v)/np.linalg.norm(J@v)))
 print('Jacobian directional relative errors',errors,flush=True)
 assert min(errors)<1e-7,errors
-fit=least_squares(fun,x,jac=jac,tr_solver='lsmr',tr_options={'maxiter':150,'atol':1e-9,'btol':1e-9},max_nfev=a.evaluations,ftol=1e-13,xtol=1e-13,gtol=1e-11)
-report={'status':'numerical only; no exact restriction claimed','nfev':fit.nfev,'message':fit.message,'best_relative_error':best,'final_relative_error':float(np.linalg.norm(fit.fun)/np.linalg.norm(target)),'history':history,'seconds':time.monotonic()-start}
+fit=least_squares(fun,x,jac=jac,tr_solver='lsmr',tr_options={'maxiter':a.linear_iterations,'atol':1e-9,'btol':1e-9},max_nfev=a.evaluations,ftol=1e-13,xtol=1e-13,gtol=1e-11)
+report={'status':'numerical only; no exact restriction claimed','preconditioned':a.precondition,'sparse_jacobian':a.sparse,'linear_iterations':a.linear_iterations,'nfev':fit.nfev,'message':fit.message,'best_relative_error':best,'final_relative_error':float(np.linalg.norm(fit.fun)/np.linalg.norm(target)),'history':history,'seconds':time.monotonic()-start}
 (a.output/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
