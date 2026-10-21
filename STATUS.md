@@ -854,6 +854,14 @@ and unreviewed. Six completed finite-field coefficient pilots are retained
 as discovery data only. Parameter-dependent projections, different leading
 flags and non-scalar block weights remain open; the exponent is unchanged.
 
+The [higher-jet extension](research/ai/2026-10-20-higher-jet-quantum-flags/higher_jets.md)
+also permits moving output maps that remain surjective at the limit, with
+slice ceiling 98. Leading output ranks below 110 remain open. Separately,
+[256 single-leading-block flags](research/ai/2026-10-20-higher-jet-quantum-flags/blocks.md)
+in the specified two-layer family have saved minors giving ceiling 97 for
+regular full-output limits; pre-limit projections are outside that finite
+cover. The new proofs are written and unreviewed. None gives an exponent gain.
+
 ## Local audit of an external tensor-degeneration preprint
 
 The [exact local audit](research/ai/2026-10-21-sun-local-audit/README.md)
