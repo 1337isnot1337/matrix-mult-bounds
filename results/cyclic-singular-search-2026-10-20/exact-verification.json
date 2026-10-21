@@ -1,0 +1,36 @@
+{
+  "field": "C (rational certificate)",
+  "fixed_map_records": [
+    {
+      "fixed_maps": "integer-derived",
+      "new_leg": "new-C",
+      "rank": 10,
+      "kernel_dimension": 2,
+      "minor_determinant": "1"
+    },
+    {
+      "fixed_maps": "integer-derived",
+      "new_leg": "new-A",
+      "rank": 12,
+      "kernel_dimension": 0,
+      "minor_determinant": "1"
+    },
+    {
+      "fixed_maps": "earlier-rational",
+      "new_leg": "new-C",
+      "rank": 12,
+      "kernel_dimension": 0,
+      "minor_determinant": "-1/4096"
+    },
+    {
+      "fixed_maps": "earlier-rational",
+      "new_leg": "new-A",
+      "rank": 12,
+      "kernel_dimension": 0,
+      "minor_determinant": "-8192"
+    }
+  ],
+  "excluded_class": "Fixed old maps with one-sided new-vertex grading, in either direction",
+  "general_degeneration_excluded": false,
+  "new_exponent_established": false
+}

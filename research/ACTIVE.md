@@ -33,7 +33,7 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/balanced-polynomial-coefficients-20261020`.
+Branch: `research/paired-source-kernel-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
 PR #4 merged the quantitative capacity theorem at `34c2367` after the
@@ -62,29 +62,30 @@ Current results:
 
 Current queue:
 
-The polynomial-flag package merged through PR #13 at `0d2ccb2` after current
-CI. Its tree matches the 208-test combined validation, and its fully merged
-local and remote branches were removed. The old eta=(7,14,21,0) order is
-excluded by the written flag criterion. Balanced orders remain open.
+PR #15 merged the balanced coefficient reduction at `9b2fcc3` after current
+CI and 219 combined tests. The merged tree matches the verified head; its
+local and remote task branches were removed. The monic equations remain
+open, with no Hensel certificate from the completed small-field pilots.
 
-1. Solve the monic balanced coefficient system exactly. A unimodular
-   elimination now leaves 53 integer polynomial equations in 57 parameters,
-   with degree at most 12. A nonsingular finite-field point would supply a
-   characteristic-zero existence certificate by Hensel lifting. No such
-   point or degeneration has been obtained. The F2 solver reports UNSAT in
-   this restricted finite ansatz, without a checked trace; larger-field
-   search failures do not exclude complex solutions.
-2. Allow general nonzero pivots or genuinely Laurent input mixing if the
-   monic coefficient class is obstructed. Fixing all pivots to one is not
-   claimed lossless. Avoid repeating the closed regular-shared and old
-   separated-weight experiments.
-3. Any finite construction must still yield a complete growth implication
-   or an unbounded family with source overhead below the stated threshold.
-   Small partial residuals and finite degenerations alone do not beat 9/4.
+1. The new paired-source calculation proves an exact 3a-2 dimensional first
+   Koszul kernel for every size. It excludes full-capacity M(a,2a-1,a) and
+   the otherwise promising size-five matrix direct sum. The complete size-four
+   one-copy matrix-block score certificate is below the needed finite gain.
+2. The new all-power formula excludes the former P_6 to M(6,10,6) target
+   at power seven, with rank gap 1,456,180. The complete first-leg frontier
+   through a=13 excludes all 239 improving dimension-compatible single
+   matrix shapes modulo B/C exchange. The source proof works over every
+   field. A separate cohomological matrix proof now gives an efficient
+   alternating sum over every field, agreeing with the complex Casimir
+   calculation. The complete frontier through a=16 has 28 survivors,
+   first at a=14. No surviving target is constructed; proofs are unreviewed.
+3. Joint extraction from paired factors or their powers, general nonmonic
+   balanced coefficients, and arbitrary Laurent input families remain open.
+   Do not repeat the closed regular-shared and separated-weight experiments.
 
-The exact equations and frozen discovery reports are in
-ai/2026-10-20-balanced-coefficients/. Exact reconstruction and formal
-Jacobian controls pass; new experiments remain noncertificates.
+The paired proof, exact kernel controls, finite budget potential and target
+implication are in ai/2026-10-20-paired-sources/. Both conditional exponents
+and all failed numerical fits remain nonclaims of an achieved bound.
 
 Historical local extension validation: 184 combined tests pass after integrating
 main daeae6e, with its intermediate-weight covers. The report is

@@ -378,6 +378,29 @@ scalars. A joint index-and-valuation word supplies one common arithmetic
 interval for the rank argument. An exact size-three control verifies the
 broader model. This written proof leaves actual input mixing open.
 
+## Paired convolution source ranks
+
+The [paired-source proof](research/ai/2026-10-20-paired-sources/research_note.md)
+computes an exact first Koszul kernel of dimension 3a-2 for two oppositely
+oriented convolutions. It excludes the full-capacity matrix target for all
+sizes under arbitrary complex degeneration, and excludes a promising
+size-five direct sum. A complete integer budget certificate also bounds
+the one-copy size-four factorwise matrix-block method below the finite
+profile-improvement threshold. These written and finite results do not
+exclude joint extraction from the full source or its powers.
+
+The [all-power formula](research/ai/2026-10-20-paired-sources/all_koszul.md)
+now gives every first-leg source rank. A separately derived matrix formula,
+crediting Landsberg--Ottaviani's kernel inclusion, supplies exact comparison
+ranks over C, and a second cohomological argument gives the same ranks
+over every field. These written, unreviewed arguments exclude the initially
+selected P_6 to M(6,10,6) target at power seven. Its former conditional
+2.235 implication therefore has an excluded premise. The complete finite
+frontier through a=13 contains 239 improving dimension-compatible single
+matrix targets, modulo B/C exchange; all are excluded by saved rank
+witnesses. The frontier through a=16 has 28 survivors, first at a=14.
+No surviving target is constructed; joint extraction remains open.
+
 ## Polynomial flags and numerical calibration
 
 The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)
@@ -523,3 +546,13 @@ external stability theorems and cyclic symmetry yield a closed special-linear
 orbit. The earlier determinant obstruction then excludes the required
 isomorphism. This concerns B itself, without cancelling its accompanying
 scalar tensor. The proof remains unreviewed and gives no exponent gain.
+
+## Graded cyclic construction pilots
+
+[EXP-CYCLIC-GRADED-PILOTS-049](research/ai/2026-10-20-cyclic-singular-search/README.md)
+records four exact kernel certificates blocking one-sided new-vertex
+extensions of two fixed M(2,3,3) witnesses. Changing the old maps or using
+more general Laurent maps remains open. Two 16-start weighted ALS searches
+and two refinements supplied no exact M3 degeneration. Saved diagnostics
+include large omitted coefficients; masked residuals are not certificates.
+The exponent is unchanged.
