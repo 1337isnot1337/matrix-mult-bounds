@@ -1,0 +1,41 @@
+{
+  "base_main": "f67467d285c9910fbb9f95a4255b66dbed72101f",
+  "external_sources": [
+    {
+      "title": "Blasiak, Church, Cohn, Grochow, Naslund, Sawin and Umans, On cap sets and the group-theoretic approach to matrix multiplication",
+      "version": "arXiv:1605.06702v4, January 14, 2017; Discrete Analysis 2017:3",
+      "url": "https://arxiv.org/pdf/1605.06702v4",
+      "pdf_sha256": "c93f9682aa339065fc2039914afa882707c88794327e952429f941cd80839220",
+      "adopted": "Square matrix multiplication has slice rank n^2, Remark 4.9 via Theorem 4.6. No broader cap-set barrier is imported."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-quantum-jet-filtration/jets.py",
+      "sha256": "89feee753a97762bf4f1bc177889b43bc0f1d562eeed7541d38c31eeb88d291a"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-jet-filtration/proof.md",
+      "sha256": "87eec0797a4af0444e4368c1f1a9a5690667b1adc4801f012bba94323ae4a590"
+    },
+    {
+      "path": "results/quantum-jet-filtration-2026-10-20/first-jet-certificates.json",
+      "sha256": "e8b43a71543b3bd9122675b0093b89344529ad904a24ca7928480009ce4991c5"
+    },
+    {
+      "path": "research/ai/2026-10-20-graded-quantum-flags/one_leg.py",
+      "sha256": "e4a81b72ff5da88cb8abe99f4eb6ab398c53c5e103023dfffe99d4856452ffeb"
+    },
+    {
+      "path": "research/ai/2026-10-20-graded-quantum-flags/saturation.md",
+      "sha256": "8d58190fa9995dc040cae9ce8df362639552974533a2c115eecb57694610f19b"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/quantum.py",
+      "sha256": "1a08abc90157539398cb749ab174d7118fbd905e6b4c014f2f321a731def12e2"
+    }
+  ],
+  "local_work": "Truncated Smith-row coefficient lemma, moving-surjection corollary and 256 finite single-leading-block minor certificates.",
+  "ai_assistance": "Generated and checked by the same Codex session; no independent mathematical review.",
+  "improves_omega": false
+}
