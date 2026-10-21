@@ -285,3 +285,11 @@ The canonical source and normal directions retain their prior credits.
 This same-session AI-assisted construction has no independent review or
 historical-priority claim, and its rank14 maps do not supply a new matrix
 multiplication exponent.
+
+The `2026-10-21-rectangular-ordinary-frontier` package applies the credited
+constructive-source worker's existing rank-locus and Hankel results to a
+new finite rectangular scan. It corrects the stale ordinary A5 queue and
+gives a corner-minor rederivation of the existing rank inequality. The
+classification is not claimed as new work. Same-session checks and the
+conditional integer certificate supply no target maps, independent review
+or exponent improvement.
