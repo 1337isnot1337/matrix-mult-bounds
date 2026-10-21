@@ -8,6 +8,16 @@ projection; the local runs exported32 exact parity contradictions.
 Verified parity learning and broader central-color constructions are the
 next questions. No smaller exponent is established. Preserve the active
 discovery reports and source certificates when integrating or cleaning.
+The pencil-degree worker now studies
+`ai/2026-10-21-hankel-pencil-degree/QUESTION.md`. Its written Hankel Segre
+bound in the strict5r<2(a+b) range closes the former ordinary A8 targets,
+all balanced single rectangular formats through a9, and every improving
+ordinary A8 square direct sum. The new exact frontier has494 survivors
+through a12, first at a10. A9's square partition(32,6,3) remains a score-
+passing necessary-test candidate at a strict-rank boundary. Its equality
+case and the A4 higher-rank shear completion are the next owned questions.
+The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
+and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
@@ -67,8 +77,8 @@ branches removed. PR63 is queued after current checks. No exponent gain.
 The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
 now uses the existing polynomial and higher Hankel gates. Every improving
 single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
-left by these tests. This is an unconstructed candidate for the constructive
-source campaign. The quantum worker's separate positive question remains
+left by those historical tests. The new pencil-degree theorem now excludes
+its ordinary maps; a singular construction remains unproved. The quantum worker's separate positive question remains
 a higher-rank completion of the A4 integrable boundary shear. PR61 merged
 at e24894f after current checks, with exact tested/merged tree equality;
 its completed task branches are removed.
@@ -148,14 +158,13 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
-The central-group worker's Heisenberg(5) package merged through PR #42 at
-`bfc5243`; its incorporated branch was removed while untracked Heisenberg(7)
-research was preserved on `research/heisenberg-modular-20261021`.
-The active constructive question is the SL(2,5) M10 target on
-`research/sl2-five-native-parity`. Two 600-second joint sign/projection
-formulations produced 506 replayed parity contradictions and no lift.
-Projected pair-capacity cuts and translation templates are being added;
-there is no finite exclusion or exponent improvement.
+The central-group worker merged H_5 incidence through PR #42 at `bfc5243`
+and the all-power modular application through PR #78 at `b95abc2`; both
+completed branches were removed after matching their tested and merged trees.
+Coordinate H_p constructions cannot pass the ordinary degree gate, even in
+all powers and finite rectangular direct sums, for every odd prime p<=47.
+Arbitrary complex maps remain open. PR #73 contains the two A5 double-cover
+M10 leads; PR #79 adds the subgroup-ideal coset cuts. Neither target is built.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
