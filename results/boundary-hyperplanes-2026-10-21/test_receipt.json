@@ -1,0 +1,33 @@
+{
+  "base_main": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "focused_tests": {
+    "count": 4,
+    "passed": true,
+    "seconds": 33.653,
+    "log": "results/boundary-hyperplanes-2026-10-21/tests-focused.txt"
+  },
+  "combined_unit_tests": {
+    "count": 526,
+    "skipped": 3,
+    "passed": true,
+    "seconds": 403.06,
+    "log": "results/boundary-hyperplanes-2026-10-21/tests-main-18a06b3.txt"
+  },
+  "archive_replay": {
+    "count": 5,
+    "passed": true,
+    "log": "results/boundary-hyperplanes-2026-10-21/archive-replay.txt"
+  },
+  "discovery_harness_correction": "The initial scratch tamper test tried to mutate an immutable SymPy matrix. It now creates a mutable copy; the corrected scratch and actual focused runs both pass, including rejection of the corrupted identity. The original failed log is retained.",
+  "claim_ids": [
+    "AI-BOUNDARY-PSI-MINRANK-TWO-001",
+    "AI-THIRD-HYPERPLANE-COMPRESSION-002",
+    "AI-BOUNDARY-HYPERPLANE-TRAP-003"
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}
