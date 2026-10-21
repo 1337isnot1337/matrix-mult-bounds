@@ -1,0 +1,39 @@
+{
+  "claim": "AI-MIXED-AXIS-CLOSURE-092",
+  "sources": [
+    {
+      "commit": "48bd72d9a981ec9b5075e06447c91a07799387c2",
+      "path": "research/ai/2026-10-21-mixed-axis-family/proof.md",
+      "use": "Complete mixed-axis normal kernel, selected obstruction rows, stable kernel and uniform projection reduction."
+    },
+    {
+      "commit": "e25a28723cc071859f1d3e70f293e3a155692ee0",
+      "path": "research/ai/2026-10-21-pure-mixed-five-spaces/proof.md",
+      "use": "Pure-row endpoint and adopted mixed-space shifted induction."
+    },
+    {
+      "commit": "294aca88e64a8a8733c19a6fe75b36425d9e86c9",
+      "path": "research/ai/2026-10-21-mixed-five-space-uniform/proof.md",
+      "use": "Uniform virtual correction and sixteen adapted source slices."
+    },
+    {
+      "commit": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "use": "Saturated matrix-target rank gap and shifted moving-boundary induction."
+    }
+  ],
+  "independent_review": false,
+  "improves_omega": false,
+  "concurrent_review": {
+    "commit": "c14c058",
+    "path": "research/ai/2026-10-21-rectangular-direct-sums/multiple_support_family.md",
+    "status": "Written proof read; separate finite verifier not rerun",
+    "use": "Credit the independent moving-support source-slice construction; no dependency of the axis closure."
+  },
+  "concurrent_linearity_review": {
+    "commit": "ca811b36b25ee2cc939f225415849ddd7871b43e",
+    "path": "research/ai/2026-10-21-rectangular-direct-sums/multiple_support_linearity.md",
+    "status": "Written proof read; separate finite controls not rerun",
+    "use": "Credit the subsequent exclusion of the explicit moving-support target-map ansatz; not a dependency of the axis closure."
+  }
+}

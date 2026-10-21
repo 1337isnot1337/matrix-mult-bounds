@@ -1,5 +1,97 @@
 # Integrated research coordination
 
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
+closes uniformly for every a and nonzero t: auxiliary projection relations
+reduce the ten remaining quotient parameters to two, then cubic minors
+eliminate both. The written all-order extension is unreviewed. General
+two-coordinate graph charts remain open; the next calculation must use
+their actual mixed rows and retain exceptional parameter loci. PR69
+merged at48bd72d with equal source/squash trees; its completed local and
+remote branches and worktree are removed. All583 local tests ran, with
+580 passes and3 optional skips; all five archive replays passed. No
+exponent gain is established.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-graphs/QUESTION.md`. Four specified nontrivial
+graph families close at partner a=b=1, each with arbitrary boundary part.
+Quadratic-minor spans replace stalled triangular-minor cuts. The general
+problem reduces to fifteen two-coordinate graph charts; they remain open.
+PR67 merged at e25a287 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-pure-mixed-five-spaces/QUESTION.md`. Pure mixed rows close
+the seven-by-five case for b nonzero, with exact polynomial certificates
+for every a after scaling b=1. The remaining quotient normals split into
+six- and fourteen-dimensional families, and both terminal systems close.
+The unresolved question is arbitrary mixed-row graphs; their pure-row
+containment must not be assumed. Remaining partner strata are also open.
+PR66 merged at294aca8 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-uniform/QUESTION.md`. The first sixteen
+low-rank source slices are now certified throughout the two-parameter
+partner chart, with polynomial adapted sources and correction factors.
+The remaining five-space incidence system has not been classified.
+A direct rational determinantal calculation reached its300-second limit
+without a result; this is an incomplete calculation, not an exclusion.
+PR63 merged at5931b89 with equal source/squash trees and completed branches
+removed. The coordinate-partner package PR65 is queued. No exponent gain.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
+mixed five-spaces opposite the full seven-frame force only plane normals.
+The exact elimination uses low-rank source slices, cubic minors and
+mixedness; it closes the former four-source residual at this point.
+The two-parameter virtual tensor is constructed, but direct coordinate
+support covers do not extend the elimination uniformly. Adapted source
+combinations and the other partner points remain under investigation.
+PR62 merged at99ce778 with equal source/squash trees and its completed
+branches removed. PR63 is queued after current checks. No exponent gain.
+
+The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
+now uses the existing polynomial and higher Hankel gates. Every improving
+single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
+left by these tests. This is an unconstructed candidate for the constructive
+source campaign. The quantum worker's separate positive question remains
+a higher-rank completion of the A4 integrable boundary shear. PR61 merged
+at e24894f after current checks, with exact tested/merged tree equality;
+its completed task branches are removed.
+
+The quantum worker now studies
+`ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
+two-parameter non-plane family exists at first ranks10,10. Its local
+rowspaces have rank14, its tensor has first rank12, and those spaces are
+complete mutual annihilators away from the origin. It is not the matrix
+target. The next question is a higher-rank completion or an obstruction
+that includes these moving flags, rather than another finite jet of the
+same low-rank family. PR58 merged at93b2223 with exact tested/merged tree
+equality and all current checks passing; its task branches are removed.
+
+The quantum worker's current question is
+`ai/2026-10-21-biform-third-core/QUESTION.md`. The complete normal third
+tensor has a biform syzygy core. Arbitrary boundary first pairs of
+dimensions at least11,9 are excluded at every order by a sharp puncture
+lemma and conditioned obstruction certificate. The necessary ordinary
+first-rank sum is at most20; pure pairs12,8 and10,10 remain at that
+threshold. PR57 merged at eb97dbe with exact tested/merged tree equality;
+its completed local and remote branches are removed.
+
+The quantum worker now studies the question in
+`ai/2026-10-21-boundary-hyperplanes/QUESTION.md`. Arbitrary boundary first
+spans of dimensions at least11 on both sides are excluded at every order,
+including delayed unequal growth. The proof uses a rank-one-free matrix
+space and a general two-hyperplane compression lemma. Ordinary first-rank
+sum is at most22, with one rank at most10. Smaller pairs and other leading
+flags remain open. PR55 merged at18a06b3 after current CI, with exact
+tested/merged tree equality; its completed local and remote branches are gone.
+
 The quantum worker's current question is
 `ai/2026-10-21-third-boundary-trap/QUESTION.md`. Full boundary first frames
 of effective dimensions12,12 are excluded at every order, including delayed
@@ -10,11 +102,20 @@ projected third coefficient on K_inf must have first rank at most2.
 The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
-The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
-order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
-family is retained; two third-coefficient rank covers force only common
-plane motion. Other mixed spaces and delayed first growth remain open.
-The full boundary-spanning 12-by-12 family stays with the quantum worker.
+The mixed-jet worker continues in
+`ai/2026-10-21-rankone-mixed-hyperplanes/QUESTION.md`. Each arbitrary mixed
+hyperplane now forces its leg's complete seven-frame normal equations
+without any opposite-leg assumption. This excludes all rank-one pairs
+with both first dimensions at least six by a written all-order proof.
+The ordinary both-mixed first-rank sum is at most twelve; investigate
+arbitrary seven-by-five spaces and smaller pairs for actual output growth.
+Coordinate seven-by-five survivors examined so far have third residues
+confined to a rank-one output entry, below the target gap; this is a
+scratch-control finding, not an all-subspace exclusion. The concurrent
+boundary-shear family remains credited as a non-plane integrability control
+with output ranks fourteen and no matrix target. No exponent gain is claimed.
+
+
 
 The quantum worker previously constructed the complete172-parameter
 second-jet family in `ai/2026-10-21-corrected-prolongation/`. Its finite
