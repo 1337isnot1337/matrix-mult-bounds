@@ -479,3 +479,9 @@ The corollary in `critical_finite_states.md` applies to larger parameter blocks 
 The source-size2000 scan checks5741 shapes in110 formats. Five new compressed Hankel certificates add352716 exact minor checks; the full427076 replay and scan tests pass. Seventy-four ordinary candidates remain after the separately written critical-state exclusion. Exact SL2 compatibility graphs exclude only the specified symmetry ansatz for the first two larger targets; they do not close those ordinary candidates.
 
 Target-vertex gauge balancing reduces the stored numerical coefficient norm while preserving the target tensor to floating precision. Its algebraic gauge identity is explained separately; residual norms are gauge-dependent. One optional NumPy test passes. A noisy degree-three restart was interrupted and replaced by zero padding; neither is an exact construction.
+
+## Complete equivariant frontier replay and immutable regression
+
+The expanded fixed-diagonal SL2 screen covers all74 remaining size2000 ordinary candidates and both pure parity sectors when permitted. It finds no compatible triple. Two replay tests pass in341.619 seconds. This is a restricted-ansatz result, not a general target obstruction or a symmetry reduction.
+
+The immutable139b532 snapshot passes688 tests in1595.014 seconds. Its receipt records the tree and log hash. This includes the new critical-state controls but excludes later size2000 and gauge additions, which have separate focused receipts. Test success does not change proof-review status.

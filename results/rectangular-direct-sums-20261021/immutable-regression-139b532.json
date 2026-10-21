@@ -1,0 +1,13 @@
+{
+  "status": "immutable archived-tree local regression passed",
+  "commit": "139b532bacd3f3d412ddcb3276e7997c570b2129",
+  "tree": "5fceba7ecc2482b73a126b3bfe12926592fde118",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests",
+  "tests": 688,
+  "seconds": 1595.014,
+  "source": "git archive of the named commit into a separate verification directory",
+  "log_sha256": "e3ee78243bd49e1f41176e9a2176aae8194ce7fc29e85f6ccbffacfcd1c8fc8e",
+  "scope": "Includes generic-flatness, critical finite-state proof controls and its frontier filter. Later source-size2000, expanded equivariant and gauge-balancing additions are tested separately.",
+  "independent_review": false,
+  "improves_omega": false
+}
