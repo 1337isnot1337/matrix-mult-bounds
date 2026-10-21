@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The quantum worker now continues in
+`ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
+second-jet family and full coefficient witnesses are ready for higher-order
+lifting. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+its task branches are removed. The new family has effective first ranks12
+on each side, outside the13-per-side hypothesis in PR48. No improving
+matrix tensor limit is constructed.
+
 The quantum worker's current question is
 `ai/2026-10-21-second-jet-rank-one/QUESTION.md`: the canonical changed jets
 now have no second partial-space growth, by a new rank-two spanning
@@ -81,8 +89,14 @@ is merged at `e00622fc3e3179f2c87ac3185f2158c39b2fe707`. Its source tree
 matches the tested head `df9e12c`. All current hosted checks passed;
 Python 3.10 ran 471 tests, with 470 passed and one optional control skipped.
 The fully incorporated local and remote topic branches were removed.
-The current continuation branch is `research/weight-mixing-20261021`.
-Its checkpoints `fa74fee`, `574cb35`, and `bb64dae` are pushed. The first,
+The current continuation branch is `research/weight-mixing-20261021`, in
+[PR #51](https://github.com/1337isnot1337/matrix-mult-bounds/pull/51).
+Its first checkpoint `5d5cc6d` passes all hosted checks. The next checkpoint
+adds exact crossed modules, two-source capacity, a projected carry
+obstruction, and the completed compression search with its actual residual.
+It also incorporates main's corrected second-jet family at `8a07bed`.
+The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
+incorporated in main. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays
 using only maintained dependencies. The second adds 24 passing focused
 tests. The complete third-checkpoint suite ran 447 tests: 446 passed and
@@ -119,12 +133,20 @@ plus M3 maps remain a smaller-target change of basis. The completed original-sou
 Laurent chart uses invertible 960-direction maps before the limit and has
 a concise projection of format 936 by 936 by 935. Its exact 126-slice
 cover excludes the intended square target and every further degeneration
-to that target. New singular searches use moving physical compression
-spaces with complete target normalization. Claims 098 and 099 preserve
+to that target. The moving physical-compression search retains complete
+target normalization but has produced no singular family. Claims 098 and 099 preserve
 this result and the requirement that some ordinary target image span at
 least four source-weight steps. An exact golden-ratio slice supplies a
-three-weight cancellation direction. Rational crossed-module construction
-is now the main active ordinary building-block search. Pure A22
+three-weight cancellation direction. Exact rational maps now give
+C(2,4) tensor C(2,8) to M(2,2,11), A(4,8) to M(4,4,11), and A(8,8)
+to M(4,4,22). Claims 100 through 103 preserve these maps, the sharp
+two-source dimension condition, the narrow carry obstruction and the
+completed numerical chart. The active construction question is whether
+changed subspaces or coupled copies can retain a large rectangular module
+while leaving enough original-source directions for a full square target.
+A separate exact flattening argument is being checked for the fixed
+first-leg module family. None of these results lowers the exponent.
+Pure A22
 tensor powers cannot cross the current sixfold square-sum gate even by
 dimension, so recycling work requires a different source budget or a real
 source compression.

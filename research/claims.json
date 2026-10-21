@@ -686,6 +686,117 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-CROSSED-MODULE-100",
+      "title": "Exact eleven-channel crossed convolution module and complete full-source lifts",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/crossed_module11.md",
+      "statement": "Over the rationals, C(2,4) tensor C(2,8), with source format (4,40,36), restricts to M(2,2,11) with the first-leg map equal to the identity. Six degree-two polynomial generators give U of dimension12, J0U+J1U of dimension18 and a12-dimensional compatible-pair space; eleven selected pairs give exact join determinant -3575/128. Complete rational lifts give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22), improving the earlier coordinate-module sizes8 and16.",
+      "dependencies": [
+        "Exact polynomial-chain U construction, full annihilator and pair equations",
+        "Matching upper bounds and modular lower rank certificates over the rationals",
+        "Integer Bareiss determinant and exact dual-map identity",
+        "Complete128-term reduced-source replay and all1936 target coefficients",
+        "Independent32768-term and262144-term source replays of actual exported three-leg maps, including all zero coefficients"
+      ],
+      "limitations": "These are rectangular subsystems with first target leg dimension16. They do not supply the other square-target entries or their coupling equations. Neither full-source lift passes the current finite9/4 gate by itself. Optimality and historical priority are not claimed.",
+      "status": "proof-written-unreviewed"
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-TWO-SOURCE-CAPACITY-101",
+      "title": "Sharp dimension capacity for two arbitrary source tensors",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/two_source_budget.md",
+      "statement": "If T direct_sum U restricts or algebraically degenerates to M_n, and every leg of T and U has dimension at most N_T and N_U respectively, then sqrt(max(0,n^2-N_T))+sqrt(max(0,n^2-N_U))<=n. Equal source dimensions require N>=ceil(3n^2/4). Explicit complementary block-zero trace tensors attain the bound. The finite equal-copy convolution budget first survives at2A(11,12) to M62; the ordinary majority-tensor construction A(11,12) to T31 is excluded by source minimum slice rank, and the stronger recorded ordinary majority screen first survives at A(18,21) to T64.",
+      "dependencies": [
+        "Six cyclic mixed-kernel product vanishings and dimension bounds",
+        "Simultaneous Grassmann limits and closed zero-contraction incidence for degenerations",
+        "Holder and Cauchy-Schwarz inequalities for the unequal dimensions",
+        "Complete majority-block source maps and coefficient identities",
+        "Existing six-orientation finite character gate and exact integer score comparisons",
+        "Existing Hankel-symbol and first-boundary Segre-image dimension theorems applied only to rank-one cross-block parameters"
+      ],
+      "limitations": "The finite survivors are conditional targets with no source maps. The ordinary majority screen only treats factorizations through that intermediate. The general capacity inequality is necessary and does not assert sufficiency for a specified source pair. No smaller exponent is established.",
+      "status": "proof-written-unreviewed"
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-BITWISE-CARRY-102",
+      "title": "Exact incompatible carry equations for a projected two-bit spin1 family",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/bitwise_hankel_projection.md",
+      "statement": "In the stated six-parameter projection of the fixed two-copy spin1 maps into A(4,4), two complete-source coefficients are1-alpha_X and2-2alpha_X while the required uncompressed spin1-square coefficients are1 and0. They force alpha_X=0 and1, so the entire family cannot preserve that tensor in characteristic different from2. At the physical averaging choice the maps have rank81, the full M9 residual has21949 nonzero coefficients, and its identity slice has rank75.",
+      "dependencies": [
+        "Recorded exact scalar-extended spin1 maps",
+        "Explicit bitwise carry fibers and independent three-leg parameters",
+        "Two coefficient polynomials recomputed from all4096 source terms",
+        "Exact rational map and residual-slice elimination"
+      ],
+      "limitations": "This excludes only the displayed projection family. It does not exclude changed spin1 maps, general source compressions, auxiliary corrections or singular constructions. The residual cannot be discarded as part of a matrix multiplication witness.",
+      "status": "proof-written-unreviewed"
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-MOVING-COMPRESSION-103",
+      "title": "Complete rectangular physical-compression search with target normalization",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression.md",
+      "statement": "A direct A(4,4) to M(10,10,11) discovery chart enforces all selected physical top blocks exactly while retaining1640 complex source-fiber parameters and350 complex moving-splitting parameters. The full1210000 target coefficients enter both the raw and scale-invariant objectives. Analytic gradients and exact leg updates have small complete-source controls; an independent integer A(2,2) to M2 control is fully verified. The recorded bounded trajectory ends with target correlation about0.180066 and positively normalized residual about5.4627.",
+      "dependencies": [
+        "Full common physical Hankel matrix realization",
+        "Exact pivot-column elimination and unitriangular moving splittings",
+        "Complete coefficient contraction and explicit positive target normalization",
+        "Complex finite-difference checks, normalized leg projection and pivot-refresh controls",
+        "Standard-library exact M2 source and physical-block replay with tamper rejection"
+      ],
+      "limitations": "The large-target trajectory is a finite numerical experiment with a large residual. It gives neither a target restriction or degeneration nor an obstruction to one. Ordinary maps for that target were excluded by earlier work, so success would require a certified singular family. NumPy and SciPy are optional discovery dependencies only.",
+      "status": "finite-experiment"
+    },
+    {
+      "id": "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
+      "title": "Complete172-parameter second-jet family in fixed boundary frames",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-corrected-prolongation/proof.md",
+      "section": "",
+      "statement": "For the specified boundary outside first-row frames, all corrected second-order off-diagonal equations form a 9856 by 532 matrix of rank 360. A 172-dimensional leading first-jet family remains, with 28 independent departures from the fixed boundary spaces. All 36 leading-block quadratic cokernel polynomials vanish identically on that family. Every complex parameter choice therefore admits rationally prescribed second coefficients satisfying the complete W2=W0 identities.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "AI-QUANTUM-SECOND-JET-NOGROWTH-001",
+        "Exact rank 360 minor, independent172-column kernel, full symbolic quadratic identities"
+      ],
+      "limitations": "Fixed boundary first frames of effective rank 12 per side. Only second jets are constructed. Third and higher-order lifting, an actual matrix target and the exponent improvement remain open. No independent review.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-QUANTUM-COMPLETE-TWO-JETS-002",
+      "title": "Two explicit full rational second-jet coefficient witnesses",
+      "status": "finite-experiment",
+      "evidence": "results/corrected-prolongation-2026-10-21/mixed_seed.json",
+      "section": "",
+      "statement": "Two deterministic rational parameter assignments export every local-map coefficient through degree 2 and both source-row corrections. Complete first and second identities are checked on all active20 by 20 outputs; all other110-dimensional output coordinates vanish through that degree by construction. Independent fixed-index source formulas replay every active coefficient. The mixed witness has nonzero leading second coefficients and a nonzero second correction.",
+      "dependencies": [
+        "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
+        "All 4096 integer source terms and complete corrected coefficient identities"
+      ],
+      "limitations": "Explicit finite-order witnesses, not matrix tensor degenerations. Adding a cubic full-rank completion preserves the two jets but asserts no subsequent target condition. No exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

@@ -15,6 +15,22 @@ A(2,2) plus one scalar to M3. Complete rational maps and coefficient
 checks are saved. None of these constructions establishes an exponent
 improvement.
 
+The [exact crossed-module construction](crossed_module11.md) now gives
+C(2,4) tensor C(2,8) to M(2,2,11), improving its coordinate control
+from eight to eleven channels. Its [complete full-source lifts](parity_balancing_cross_module_lifts.md)
+give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
+unwanted coefficient is checked from the actual rational maps. These
+rectangular subsystems still require compatible square extensions.
+
+The [two-source capacity proof](two_source_budget.md) gives a sharp
+dimension condition for a direct sum of two arbitrary source tensors
+to reach a square matrix tensor, including by degeneration. The
+[two-bit carry control](bitwise_hankel_projection.md) excludes one
+specified source-compression family. The
+[moving physical-compression chart](parity_structure_rectangular_compression.md)
+retains complete coefficients and explicit target normalization in its
+singular search; its recorded large-target fit is not a witness.
+
 The [corner-split construction](parity_structure_corner_extension.md)
 also supplies A(2,2) plus one scalar from A(2,3), and gives a general
 two-source restriction whenever the stated low and high long-coordinate

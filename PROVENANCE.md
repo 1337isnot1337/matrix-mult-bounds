@@ -49,7 +49,17 @@ The Koszul pilot applies the concurrently derived matrix-rank formula; it
 does not claim a new all-power formula. The finite circuits and source gates
 have no independent mathematical review, and no smaller exponent follows.
 
-## External research
+The rational crossed-module construction and its full-source lifts were
+developed collaboratively in this session. A numerical nine-channel lead
+was followed by a rational subspace-and-pair construction; an exact
+eleven-channel witness and its larger-source lifts were then constructed
+and checked from all original coefficients. The separate nine-channel
+rational control is retained. No novelty or optimality claim is made.
+The two-source capacity proof, majority-block control, projected carry
+equations, and moving-compression discovery chart are also local work.
+The numerical compression records retain their actual normalization and
+large residuals; they are not tensor-identity certificates. All of these
+packages retain their stated unreviewed proof or finite-experiment status.
 
 The source-weight window and original-source Laurent-fiber continuation
 was generated and audited by coordinated agents in the same session.
@@ -62,6 +72,8 @@ Remark 4.9, supplies the single matrix-block background; the new note
 spells out the characteristic-zero argument for a direct sum. Those
 primary passages were inspected. None of these checks provides external
 independent review, formalization, or a smaller exponent.
+
+## External research
 
 All results in [the literature map](docs/literature.md) belong to the credited authors or projects. OpenAI's published 9/4 proof is external work. It is not a contribution of this repository's ChatGPT session.
 

@@ -6,11 +6,43 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records forty-six local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-SCALAR-POWER-RECYCLING-097,
+The constructive continuation records fifty-two local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-MOVING-COMPRESSION-103,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [exact crossed-module construction](research/ai/2026-10-20-anisotropic-constructions/crossed_module11.md)
+gives a rational restriction from C(2,4) tensor C(2,8) to M(2,2,11).
+Its [full-source lifts](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_cross_module_lifts.md)
+give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22), with every desired
+and unwanted coefficient checked from the original source tensors.
+These improve the corresponding coordinate-module controls from eight
+and sixteen channels to eleven and twenty-two. The first target leg
+still has only sixteen directions; compatible square extensions are
+missing. Neither rectangular restriction establishes a smaller exponent.
+
+The [two-source capacity inequality](research/ai/2026-10-20-anisotropic-constructions/two_source_budget.md)
+requires equal source leg dimensions N at least ceil(3 n^2 / 4) for a
+direct sum of two sources to degenerate to M_n. Explicit complementary
+block-zero trace tensors attain this dimension threshold. Combining this
+necessary condition with the finite convolution budget first leaves
+2 A(11,12) to M62, which is unconstructed. The recorded ordinary
+majority-block factorization at that size is separately excluded.
+
+An [exact carry contradiction](research/ai/2026-10-20-anisotropic-constructions/bitwise_hankel_projection.md)
+closes one specified two-copy spin1 projection family. The completed
+[moving physical-compression experiment](research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression.md)
+retains all 1,210,000 target coefficients and explicit scale normalization.
+Its final normalized residual is about 5.4627, so it supplies no target
+identity or singular family. These records preserve exact controls and
+the actual limitations of the searches.
+
+The [new focused receipt](results/anisotropic-constructions-2026-10-20/crossed-module-focused-validation.json)
+pins the artifact hashes and includes concurrent main through `8a07bed`.
+It records 38 completed tests: 36 passed and two optional numerical
+controls skipped in the maintained environment. All four compression
+control tests pass separately with NumPy and SciPy available.
 
 The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
 now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
@@ -1058,3 +1090,12 @@ The source-map, fiber-system, rank, coordinate-cover, and tamper checks
 pass in the same generating session. The proof status remains written
 and unreviewed externally. The next construction searches use moving
 physical compression spaces and the exact weight-mixing module equations.
+
+The [corrected prolongation family](research/ai/2026-10-21-corrected-prolongation/proof.md)
+constructs complete second jets with fixed boundary first frames. Exact
+off-diagonal constraints reduce532 leading parameters to172; all36 remaining
+quadratic obstructions vanish identically. Twenty-eight independent leading
+directions still leave the fixed boundary spaces. Two exported rational
+witnesses verify the entire first and second coefficients, including both
+source-row corrections. These are finite-order data, not a matrix limit.
+Higher lifting and the exponent goal remain open; the proof is unreviewed.
