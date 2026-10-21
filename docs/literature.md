@@ -330,3 +330,21 @@ Lists OpenAI at 2.25 with a Lean Verified label. This is a status source, not an
 Inspection: Leaderboard and exact problem description.
 
 Data updated October 20, 2026 at 9:17 AM PT; site says its proof check was October 10 at 10:45 PM PT.
+
+### RA26
+
+[Matrix multiplication: a barrier for symmetrized sector inequalities](https://github.com/rohanarun/matrix-multiplication-sector-barrier/blob/0b09d3616da31d8750366747d7821d70ae6d1b90/proof.tex). Rohan Arun repository; disclosed AI-generated draft. 2026.
+
+Inspection and scope: [source comparison](external_followups.md). Version: Main 0b09d3616da31d8750366747d7821d70ae6d1b90; least-profile commit 5a759558440672e69641547743bde3cf6d6ae50f, October 10. External tests not run.
+
+### SDW26
+
+[Strassen's support functionals coincide with the quantum functionals](https://arxiv.org/html/2601.21553v1). Keiya Sakabe; M. Levent Dogan; Michael Walter. 2026.
+
+Inspection and scope: [source comparison](external_followups.md). Version: arXiv:2601.21553v1.
+
+### ALP26
+
+[The edge of the asymptotic spectrum of tensors](https://arxiv.org/html/2604.01386v2). Josh Alman; Baitian Li; Kevin Pratt. 2026.
+
+Inspection and scope: [source comparison](external_followups.md). Version: v2, September 27, 2026. The compression theorem assumes an infinite field; the edge classification applies over arbitrary fields.
