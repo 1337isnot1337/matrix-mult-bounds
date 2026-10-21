@@ -40,5 +40,21 @@
     "old_test_job_minutes": 20,
     "new_test_job_minutes": 30,
     "required_CI_gate_unchanged": true
+  },
+  "pre_hankel_integration_CI": {
+    "source_commit": "071ce74dfadc8b0098fa6f3c3a2d405c1d63ed79",
+    "run_id": 39626591383,
+    "python_versions": [
+      "3.10",
+      "3.14"
+    ],
+    "archive_python": "3.13",
+    "result": "passed"
+  },
+  "main_hankel_integration": {
+    "main_commit": "46952988962c19f11811c6b6860c88e898b99b51",
+    "additional_tests_passed": 7,
+    "seconds": 5.37,
+    "link_and_ledger_checks_passed": 2
   }
 }
