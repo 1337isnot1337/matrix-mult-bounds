@@ -5,6 +5,21 @@ from math import isqrt
 from pathlib import Path
 
 
+def write_json(path,data):
+    """Keep each complete format or corner witness on one reviewable line."""
+    def render(value,level=0,key=None):
+        pad='  '*level
+        if isinstance(value,dict):
+            return '{\n'+',\n'.join(pad+'  '+json.dumps(k)+': '+render(v,level+1,k) for k,v in value.items())+'\n'+pad+'}'
+        if isinstance(value,list):
+            if key in ['records','cases']:
+                return '[\n'+',\n'.join(pad+'  '+json.dumps(v,separators=(',',':')) for v in value)+'\n'+pad+']'
+            if all(not isinstance(v,(list,dict)) for v in value):return json.dumps(value)
+            return '[\n'+',\n'.join(pad+'  '+render(v,level+1) for v in value)+'\n'+pad+']'
+        return json.dumps(value)
+    path.write_text(render(data)+'\n')
+
+
 def exclusion(a,l,h,n):
     N=a*a*(2*a-1);m=2*a-1
     for u,v,w in [(l,h,n),(h,n,l),(n,l,h)]:
@@ -66,5 +81,5 @@ def report():
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True)
     args=parser.parse_args();args.output.parent.mkdir(parents=True,exist_ok=True)
-    args.output.write_text(json.dumps(report(),indent=2)+'\n')
+    write_json(args.output,report())
     print('All balanced rectangular targets checked for a2..12; first survivor A8 to M(27,28,28) is unconstructed.')
