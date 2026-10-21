@@ -12,16 +12,23 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
-closes uniformly for every a and nonzero t: auxiliary projection relations
-reduce the ten remaining quotient parameters to two, then cubic minors
-eliminate both. The written all-order extension is unreviewed. General
-two-coordinate graph charts remain open; the next calculation must use
-their actual mixed rows and retain exceptional parameter loci. PR69
-merged at48bd72d with equal source/squash trees; its completed local and
-remote branches and worktree are removed. All583 local tests ran, with
-580 passes and3 optional skips; all five archive replays passed. No
-exponent gain is established.
+`ai/2026-10-21-mixed-exceptional-affine/QUESTION.md`. A new affine family
+has at least38 normal directions, exactly38 generically. Its base graph
+is fully excluded after recomputing all38 directions. The rest of the
+family and exceptional affine four-planes remain open. Claim095 records
+polynomial family identities separately from finite discovery grids.
+
+The mixed-frame worker now studies
+`ai/2026-10-21-generic-mixed-graphs/QUESTION.md`. Two fourteen-variable
+normal blocks have exact quartic-spanning certificates at a rational
+point. Their symbolic source partition and fixed56-equation normal chart
+prove a nonempty open exclusion in all seven b=1 graph/partner parameters,
+extended to b nonzero by the source torus. The remaining problem is affine
+four-planes contained in the exceptional fibers. Constant-unit elimination
+of the44-coordinate normal blocks is the next structural calculation.
+PR74 contains the complete two-coordinate rank strata and exceptional
+fiber proof; it incorporates main's PR40 and reruns CI with a30-minute
+budget after a confirmed20-minute timeout. No exponent gain is established.
 
 
 The mixed-frame worker now studies

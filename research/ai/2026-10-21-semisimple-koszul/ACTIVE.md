@@ -14,6 +14,12 @@ most2.245 if a genuine degeneration were constructed. That premise is
 missing. The first fixed-full-D18 subgroup pilot timed out with zero pair
 models in180 seconds; only the(18,1,1) control is verified.
 
+The subsequent ../2026-10-21-sl2-f8-ideals/proof.md excludes that full-D18
+frame using a concurrent subgroup-ideal lemma and an exact ideal upper
+bound244<450. It also provides full unipotent-eight and nine-cycle cuts.
+Keep the original timeout as a historical experiment, without rerunning
+the now-proved impossible fixed-full-subgroup frame.
+
 Next precise question: can the selected source produce an improving target
 outside that fixed full-subgroup frame, or can a stronger necessary test
 close these targets? Avoid rerunning the180-second pilot without a changed

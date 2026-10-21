@@ -513,6 +513,15 @@ integer spectrum and scalar inequalities. No priority or independent review
 is claimed. Finite-field operations label a finite group; the target field
 remains C. Replayed failed candidates do not establish an improved bound.
 
+The SL(2,F8) subgroup-ideal application imports the concurrent worker's
+written unreviewed averaging lemma from commit b6f01fb781d64589e8681f5bfbff8750291daaf6,
+with the exact source text and hash retained. New small central rational
+projections are verified by integer class multiplication and subgroup
+containment identities. Their regular traces give the stated ideal upper
+bounds; no equality, discovery of the general lemma or independent review
+is claimed. This closes the historical full-D18 pilot frame only within
+the coordinate/potential model and supplies further full-coset cuts.
+
 The full-space semisimple continuation imports the existing matrix Koszul
 formulas and proves the padding/direct-sum rank expression used in its
 finite frontiers. It does not claim a new general matrix-rank formula.
@@ -649,3 +658,35 @@ and verifies polynomial identities and minors with SymPy alone. The
 canonical source, target rank gap and shifted induction retain their prior
 credits. This is a same-session written proof and exact replay, without
 independent review, historical-priority claim or exponent improvement.
+
+The `2026-10-21-mixed-two-coordinate-chart` package proves an exact complex
+rank stratification and a separate target-normal closure at its nonzero
+exceptional point. Singular supplied a polynomial syzygy frame for discovery;
+maintained acceptance uses source reconstruction, polynomial identities,
+matched minors and exact algebraic-number controls. The normal frame's
+specialization failures are retained explicitly. Prior canonical source,
+virtual correction, target rank gap and shifted induction retain their
+credits. The written proof has no independent review or exponent gain.
+
+The `2026-10-21-generic-mixed-graphs` package replaces a stalled auxiliary
+relation calculation with exact quartic consequences of selected cubic
+minors. A symbolic two-block source partition and a fixed56-row normal
+chart extend a modular rational-point certificate to a nonempty open set
+of all graph coefficients and the partner parameter. The prior polynomial
+frame assisted discovery; maintained acceptance reconstructs the source
+and its own constant complement. Torus and shifted-induction dependencies
+retain their source credits. This is a same-session written proof and
+finite exact replay, without independent review or exponent improvement.
+
+## Exceptional affine mixed graphs
+
+The affine three-space of rank-jump graphs and its degree-two left
+relations were discovered and checked in this owner-directed session.
+They reuse the complete source normal equations, source block partition,
+rank-gap arguments and mixed-space shifted induction credited in claims
+088--094. The base graph is recomputed from its full38-dimensional
+kernel; no generic kernel is specialized as if complete. This result is
+written and unreviewed. Finite modular discovery scans, exact replay and
+CI do not establish independent review or a smaller exponent. Concurrent
+F8 coordinate closure and subgroup-ideal work retain their source pins
+and authorship; their focused local replays are integration evidence.
