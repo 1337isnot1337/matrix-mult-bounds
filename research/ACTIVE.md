@@ -1,15 +1,14 @@
 # Integrated research coordination
 
 The mixed-frame worker now studies
-`ai/2026-10-21-mixed-axis-family/QUESTION.md`. The axis m+t*d0 at b=1
-has uniform normal and projection certificates for every a and t nonzero.
-Ten quotient parameters remain. A projected rank-two control rules out
-the stronger projection-only minimum-rank-three shortcut. The current
-question is its five-variable block incidence and the full obstruction.
-PR68 merged at5340485 with equal source/squash trees; its completed
-local and remote branches are removed. All579 current local tests ran,
-with576 passes and3 optional skips; all five archive replays passed.
-No exponent gain is established.
+`ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
+closes uniformly for every a and nonzero t: auxiliary projection relations
+reduce the ten remaining quotient parameters to two, then cubic minors
+eliminate both. The written all-order extension is unreviewed. General
+two-coordinate graph charts remain open; the next calculation must use
+their actual mixed rows and retain exceptional parameter loci. PR69
+merged at48bd72d with equal source/squash trees. No exponent gain is
+established.
 
 
 The mixed-frame worker now studies
