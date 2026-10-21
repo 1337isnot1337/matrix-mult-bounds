@@ -465,3 +465,11 @@ The immutable c14c058 snapshot passed all 667 tests in 1311.666 seconds; its rec
 ## Generic flatness outside compressions, October 21, 2026
 
 `generic_flatness.md` derives the low-rank chart reduction from a level apolar module. Standard free-resolution/Koszul facts are credited to Melody Chan's author-hosted graduate notes, section36; the rank-nine plateau and small relation-matrix argument are written explicitly. Exact rational controls include a support point at infinity, a chart change, and all17 reconstructed moments. The general proof is unreviewed, and finite-state target compatibility remains open.
+
+## Critical finite-state strata, October 21, 2026
+
+`critical_finite_states.md` combines the newly written generic-flatness proof with the existing source-rank and kernel-pairing lemmas. It handles arbitrary largest-block partitions of8, the exceptional J_e plus J_1 state, uniform coefficient fibers, and the eight-simple proportional-pair case. Exact controls check all22 partitions, all required Hermite pair determinants, thirteen Jordan examples (including four full original source matrices and nonzero-root, higher-jet controls), and dimension inequalities. The first replay test exposed a tuple/list serialization mismatch, corrected before the passing run; this was not a mathematical failure. The geometric proof remains unreviewed. No smaller exponent is claimed.
+
+The unregularized degree-two Laurent run completed40 evaluations in2116.855 seconds, joint residual6.318344877978216e-5. Its saved dyadic coefficients fail the exact modular gate; it remains numerical evidence only. A continuation from that checkpoint is running separately.
+
+The corollary in `critical_finite_states.md` applies to larger parameter blocks satisfying explicit dimension and source-lift inequalities. `critical_frontier.py` records62 additional two-block exclusions from the hash-identified752 historical survivors, leaving690 (602 at A(8,10),88 at A(9,9)). Historical scans are unchanged. The finite filter depends on the written, unreviewed geometric proof.

@@ -1,5 +1,9 @@
 # Research status
 
+## Written obstruction for the last ordinary single target
+
+The [critical-state argument](research/ai/2026-10-21-rectangular-direct-sums/critical_finite_states.md) excludes the remaining A(8,10) to M(32,33,33) ordinary restriction, subject to its written, unreviewed lemmas. A new graded-module argument handles generic finite realization outside low-outer-rank compressions. Uniform finite-state fibers and support velocities then obstruct the target leg. Exact controls cover all22 partitions of8 and the exceptional Jordan pairings. This is not independent certification, and singular degenerations and multiple-block candidates remain open. The associated finite filter removes62 of752 prior two-block survivors, leaving690. No smaller exponent has been established.
+
 ## Ordinary two-block ruling refinement
 
 The [ruling refinement](research/ai/2026-10-21-rectangular-direct-sums/ruling_two_sums.md)
