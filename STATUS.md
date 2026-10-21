@@ -69,6 +69,17 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## A uniform mixed-normal dichotomy
+
+The [all-graph reduction](research/ai/2026-10-21-global-mixed-normal-dichotomy/proof.md)
+at a=b=1 encloses every necessary normal, modulo the four common planes,
+in two fixed linear families of dimensions54 and36. Eight rational square
+identities and four polynomial mixed-row identities force the rank-one
+projection alternative to projection zero for all six graph coefficients,
+including exceptional fibers. Claim `AI-GLOBAL-MIXED-NORMAL-DICHOTOMY-096`
+is written and unreviewed. The remaining families are unclassified; no
+complete target exclusion or smaller exponent is established here.
+
 ## An affine family of larger mixed normal spaces
 
 The [exceptional affine-family proof](research/ai/2026-10-21-mixed-exceptional-affine/proof.md)
