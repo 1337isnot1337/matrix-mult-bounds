@@ -1159,4 +1159,18 @@ quadratic obstructions vanish identically. Twenty-eight independent leading
 directions still leave the fixed boundary spaces. Two exported rational
 witnesses verify the entire first and second coefficients, including both
 source-row corrections. These are finite-order data, not a matrix limit.
-Higher lifting and the exponent goal remain open; the proof is unreviewed.
+The boundary-frame matrix-target lifting question is closed by the following
+third-order argument; the exponent goal remains open and the proof is unreviewed.
+
+The [third-order boundary trap](research/ai/2026-10-21-third-boundary-trap/proof.md)
+excludes these full boundary first frames at every order, including delayed
+and unequal first-growth orders. An exact normal calculation leaves28
+parameters; the third block has coefficient image24 and sharp minimum
+nonzero first rank8. The matrix target forces first rank at most2. Only
+four common polynomial-plane motions remain, and formal induction traps
+both regular leg maps in dimension56. Ordinary effective first rank sum24
+is therefore excluded; the necessary sum is at most23. A separate general
+consequence forces third first rank at most2 on K_inf for every admissible
+ordinary first pair at these flags. The complete PR49 second jets remain
+valid finite data. These proofs are written and unreviewed; different first
+subspaces and leading flags remain open, and no exponent improvement follows.
