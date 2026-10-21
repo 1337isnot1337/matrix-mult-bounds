@@ -1,0 +1,35 @@
+{
+  "base_main": "eb97dbe31f96b0e66fede641fd4be3a84ca52cf2",
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "focused_tests": {
+    "count": 5,
+    "passed": true,
+    "seconds": 16.186,
+    "log": "results/biform-third-core-2026-10-21/tests-focused.txt"
+  },
+  "combined_unit_tests": {
+    "count": 535,
+    "skipped": 3,
+    "passed": true,
+    "seconds": 446.778,
+    "log": "results/biform-third-core-2026-10-21/tests-main-eb97dbe.txt"
+  },
+  "archive_replay": {
+    "count": 5,
+    "passed": true,
+    "log": "results/biform-third-core-2026-10-21/archive-replay.txt"
+  },
+  "cache_change": "Share the existing normal-data computation between certificate generation and independent saved-minor replay. The first focused run passed in30.972s; after sharing it passes in16.186s. Every certificate check is retained.",
+  "claim_ids": [
+    "AI-BIFORM-THIRD-CORE-001",
+    "AI-BIFORM-SYZYGY-COMPRESSION-002",
+    "AI-BLOWUP-ONE-THREE-PUNCTURE-003",
+    "AI-BOUNDARY-CONDITIONED-MINRANK-004",
+    "AI-BOUNDARY-ELEVEN-NINE-TRAP-005"
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}
