@@ -1,0 +1,28 @@
+{
+  "base_main": "fc8207e8a02d057b2a2e6ef96338a4e01ddeb306",
+  "integrated_main": "11aca0f",
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "focused_tests": {
+    "count": 4,
+    "passed": true,
+    "log": "results/corrected-prolongation-2026-10-21/tests-focused.txt"
+  },
+  "combined_unit_tests": {
+    "count": 407,
+    "passed": true,
+    "log": "results/corrected-prolongation-2026-10-21/tests-main-11aca0f.txt"
+  },
+  "archive_replay": {
+    "passed": true,
+    "log": "results/corrected-prolongation-2026-10-21/archive-replay.txt"
+  },
+  "claim_ids": [
+    "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
+    "EXP-QUANTUM-COMPLETE-TWO-JETS-002"
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}

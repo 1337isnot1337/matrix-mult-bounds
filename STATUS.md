@@ -930,3 +930,12 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+The [corrected prolongation family](research/ai/2026-10-21-corrected-prolongation/proof.md)
+constructs complete second jets with fixed boundary first frames. Exact
+off-diagonal constraints reduce532 leading parameters to172; all36 remaining
+quadratic obstructions vanish identically. Twenty-eight independent leading
+directions still leave the fixed boundary spaces. Two exported rational
+witnesses verify the entire first and second coefficients, including both
+source-row corrections. These are finite-order data, not a matrix limit.
+Higher lifting and the exponent goal remain open; the proof is unreviewed.

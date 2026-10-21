@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The quantum worker now continues in
+`ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
+second-jet family and full coefficient witnesses are ready for higher-order
+lifting. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+its task branches are removed. The new family has effective first ranks12
+on each side, outside the13-per-side hypothesis in PR48. No improving
+matrix tensor limit is constructed.
+
 The quantum worker's current question is
 `ai/2026-10-21-second-jet-rank-one/QUESTION.md`: the canonical changed jets
 now have no second partial-space growth, by a new rank-two spanning
