@@ -1,5 +1,18 @@
 # Research status
 
+## Two-coordinate rank strata and exceptional graph closure
+
+The [two-coordinate chart proof](research/ai/2026-10-21-mixed-two-coordinate-chart/proof.md)
+classifies every complex parameter pair in m+t*d0+h*d1 at a=b=1:
+normal dimensions32 off two points,36 at the origin and34 at (1,1).
+A polynomial frame is complete away from those points, certified by
+matched minors and all complex exceptional-root controls. The full
+exceptional normal system at (1,1) reduces to the four plane directions
+and excludes that graph under the prior shifted induction. Claim
+`AI-MIXED-TWO-COORDINATE-STRATA-093` is written and unreviewed. Target
+exclusion for the generic two-coordinate chart remains open; the
+exponent remains9/4.
+
 ## Uniform mixed-axis closure
 
 The [auxiliary-projection proof](research/ai/2026-10-21-mixed-axis-incidence/proof.md)

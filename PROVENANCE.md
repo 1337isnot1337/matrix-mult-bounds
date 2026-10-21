@@ -355,3 +355,12 @@ and verifies polynomial identities and minors with SymPy alone. The
 canonical source, target rank gap and shifted induction retain their prior
 credits. This is a same-session written proof and exact replay, without
 independent review, historical-priority claim or exponent improvement.
+
+The `2026-10-21-mixed-two-coordinate-chart` package proves an exact complex
+rank stratification and a separate target-normal closure at its nonzero
+exceptional point. Singular supplied a polynomial syzygy frame for discovery;
+maintained acceptance uses source reconstruction, polynomial identities,
+matched minors and exact algebraic-number controls. The normal frame's
+specialization failures are retained explicitly. Prior canonical source,
+virtual correction, target rank gap and shifted induction retain their
+credits. The written proof has no independent review or exponent gain.
