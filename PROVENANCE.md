@@ -485,3 +485,9 @@ Target-vertex gauge balancing reduces the stored numerical coefficient norm whil
 The expanded fixed-diagonal SL2 screen covers all74 remaining size2000 ordinary candidates and both pure parity sectors when permitted. It finds no compatible triple. Two replay tests pass in341.619 seconds. This is a restricted-ansatz result, not a general target obstruction or a symmetry reduction.
 
 The immutable139b532 snapshot passes688 tests in1595.014 seconds. Its receipt records the tree and log hash. This includes the new critical-state controls but excludes later size2000 and gauge additions, which have separate focused receipts. Test success does not change proof-review status.
+
+## Invariant-slice multiplicity obstruction, October 21, 2026
+
+The bounded physical-subset search first found capacity triangles at A(24,24) to M124. They are not constructions: one is excluded by the existing shared-top-irrep polynomial identity, and three by a newly written ordinary-only multiplicity rank inequality. The unique source invariant is evaluated by exact modular highest/lowest-weight contraction; all47 channels at a24 have full rank. Every channel at a2,a3,a4 is independently checked against the original six-index source sum. Three focused tests pass in2.657 seconds. Singular degenerations are explicitly outside the new rank obstruction.
+
+NumPy is now a maintained dependency for exact bounded-int64 modular verification, with overflow guards. Python3.10 uses2.2.6 and newer lanes use the locally tested2.3.5, following the official PyPI Python requirements at https://pypi.org/project/numpy/2.2.6/ and https://pypi.org/project/numpy/2.3.5/. The installed environment passes pip check; the Python3.10 lane has not been run locally. The test job timeout is raised from20 to60 minutes because an immutable local run already took26.6 minutes before the expanded screen. The required CI job name and permissions are unchanged; no remote CI success is claimed.

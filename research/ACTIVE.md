@@ -430,3 +430,5 @@ is complementary to 8e0a766, retaining distinct hypotheses.
 - Written ordinary-target closure under audit: `ai/2026-10-21-rectangular-direct-sums/critical_finite_states.md`. Generic realization and all minimal finite-state strata are now addressed; no singular-degeneration exclusion follows. Preserve earlier frontier outputs as historical arithmetic scans, with this subsequent proof disposition.
 
 - Expanded ordinary single-target frontier:74 candidates remain through source size2000. The first two larger targets fail only the diagonal SL2 capacity ansatz. General maps and singular degenerations remain open. Numerical degree-two and zero-padded degree-three continuations are active, with all completed checkpoints labeled numerical.
+
+- Larger equivariant leads: representation capacity alone passes a bounded A(24,24) to M124 family, but all four physical-subset triples fail known or new ordinary obstructions. The new invariant-slice bound does not rule out singular degenerations. A larger bounded subset search remains in progress.
