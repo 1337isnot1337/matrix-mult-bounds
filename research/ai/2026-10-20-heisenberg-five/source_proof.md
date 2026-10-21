@@ -3,6 +3,13 @@
 AI-derived written proof, unreviewed. No target degeneration or smaller
 exponent is constructed. This source differs from the SL(2,5), SL(2,7) and
 affine-group lanes already maintained in the repository.
+The elementary representation calculation rederives the standard finite
+Heisenberg decomposition; no historical novelty is claimed.
+
+The later [normal-coset incidence argument](normal_coset_closure.md)
+excludes the entire single-target coordinate-potential source-cost route
+at p=5. The source calculation below remains valid, while its conditional
+target premise is excluded within that construction class.
 
 ## Source decomposition
 

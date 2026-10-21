@@ -14,6 +14,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--seconds', type=float, default=600)
+    parser.add_argument('--first-projection-index', type=int)
+    parser.add_argument('--central-shear', action='store_true')
     args = parser.parse_args()
     G = group()
     directions = [(1, slope) for slope in range(5)]+[(0, 1)]
@@ -70,6 +72,24 @@ def main():
                 card = CardEnc.equals(row, 2, top_id=top)
                 solver.append_formula(card.clauses)
                 top = card.nv
+        if args.first_projection_index is not None:
+            from projection_orbits import derive
+            options = derive()['affine_coordinate_orbits']
+            if not 0 <= args.first_projection_index < len(options):
+                raise ValueError('first projection index must lie in 0..6')
+            selected = options[args.first_projection_index]['representative']
+            for q, variable in enumerate(presence[0]):
+                solver.add_clause([variable if q in selected else -variable])
+            metadata['first_projection_orbit_index'] = args.first_projection_index
+            metadata['fixed_first_projection'] = selected
+            if args.central_shear:
+                if not {1, 5} <= set(selected):
+                    raise ArithmeticError('shear anchors missing from this representative')
+                solver.add_clause([members[0][5]])   # (0,1,0)
+                solver.add_clause([members[0][25]])  # (1,0,0)
+                metadata['central_shear_anchor_elements'] = [5, 25]
+        elif args.central_shear:
+            raise ValueError('central shear normalization needs a fixed projection')
         metadata.update(projected_points=25, central_colors=5,
             abelian_fiber_directions=6, first_projection_row_and_column_sums=2,
             variables_with_fiber_constraints=top,
