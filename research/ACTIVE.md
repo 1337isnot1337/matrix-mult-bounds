@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The quantum worker's current question is
+`ai/2026-10-21-second-jet-rank-one/QUESTION.md`: the canonical changed jets
+now have no second partial-space growth, by a new rank-two spanning
+certificate. Prolong the coupled leading-row directions through the complete
+second-order cokernel equations before attempting third-order construction.
+The prior moving-projection and256-block package merged through PR44 at
+`d2ed2e9`; its tested/merged trees match and both task branches were removed.
+Canonical first-jet extension data are adopted from PR45 at `b0a54f2`.
+
 The exponent-improvement goal is active; no bound below 9/4 is established.
 The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
