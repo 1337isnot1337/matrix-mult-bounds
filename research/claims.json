@@ -594,6 +594,42 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-SECOND-JET-NOGROWTH-001",
+      "title": "Low-rank spanning forces the second partial saturated space to remain leading",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-second-jet-rank-one/rank_one.md",
+      "section": "",
+      "statement": "For the final rank-four canonical quantum flags and hypothetical100,110,110 matrix target, every compatible first jet and arbitrary second/higher jets satisfy W2=W1=W0 of dimension12. Twenty-six explicit rank-two slices span the full canonical25-dimensional bilinear image. Their restrictions plus the complete leading cross have matrix rank at most10, below target minimum11, forcing all second target residues and the actual doubly projected first-jet product to vanish.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "Exact rank-two factorizations and a nonzero25-by25 span minor",
+        "Saturated-rowspace correction including both second derivatives"
+      ],
+      "limitations": "Final canonical leading ranks and target dimension/minimum matrix rank are essential. Third and higher-order growth, changed flags and leading-rank-reducing projections remain open. No exponent improvement or independent review.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-FIRST-JET-RANK-GAP-002",
+      "title": "Boundary and mixed effective first-jet rank sums",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-second-jet-rank-one/rank_deficit.md",
+      "section": "",
+      "statement": "At the canonical flags every target-compatible pair of outside-leading first-row spans has effective rank sum at most24 modulo the four-dimensional leading radical, or at most20 if either has a mixed component. If both spans contain the full canonical boundary spaces modulo the radical, every mixed component vanishes. The proof identifies both boundary/mixed blocks exactly as12,12,4 matrix tensors and uses the vanishing bilinear first-jet product.",
+      "dependencies": [
+        "AI-QUANTUM-SECOND-JET-NOGROWTH-001",
+        "Canonical PR45 extension basis",
+        "Exact cross-block matrix-unit coefficient identities"
+      ],
+      "limitations": "Necessary first-jet constraints, including arbitrary graphs between boundary and mixed parts. They do not construct or exclude every later lift. Canonical basis completeness is credited to PR45, not claimed anew.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

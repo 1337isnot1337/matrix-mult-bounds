@@ -1006,3 +1006,14 @@ slice ceiling 98. Leading output ranks below 110 remain open. Separately,
 in the specified two-layer family have saved minors giving ceiling 97 for
 regular full-output limits; pre-limit projections are outside that finite
 cover. The new proofs are written and unreviewed. None gives an exponent gain.
+
+The [second-jet spanning certificate](research/ai/2026-10-21-second-jet-rank-one/rank_one.md)
+sharpens PR45's bound37 to W2=W0 of dimension12 at its canonical leading
+flags. Twenty-six exact rank-two slices span the entire25-dimensional
+bilinear image. Including the complete second derivatives and row correction
+leaves every potential second target residue below the minimum matrix rank11.
+The actual bilinear first-jet product must therefore vanish. Its effective
+first-row rank sum is at most24, or20 after a mixed component. These proofs
+are written and unreviewed; higher-order lifting and the exponent goal remain
+open. Canonical extension data and their earlier classification retain PR45's
+credit.
