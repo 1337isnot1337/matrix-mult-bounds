@@ -161,9 +161,13 @@ family. These are finite constructive improvements, with no new exponent.
 
 The restored m5,m6,m7 fixtures were regenerated from compact signed
 polynomials and replayed independently in JavaScript with exact integer
-arithmetic. The maintained Python verifier and constructor are included
-for a separate hosted replay. The source maps, their proof, and all
-same-session checks remain externally unreviewed.
+arithmetic. After local execution was restored, the separate Python
+constructors and full-source verifier reproduced all four frozen witnesses
+and reports. All three regression tests passed, including both damaged-map
+controls. The exact checkpoint and commands are recorded in the
+[Python replay receipt](../../../results/canonical-moment-flags-2026-10-21/restored-python-replay.json).
+The source maps, their proof, and all same-session checks remain externally
+unreviewed.
 
 ## Scope and provenance
 
