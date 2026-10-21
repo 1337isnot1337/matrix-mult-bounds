@@ -1,5 +1,250 @@
 # Attribution and provenance
 
+## Generalized packing, nonlocal probes, and source capacity
+
+Rafael Pass's arXiv:2610.28627v1 supplies the generalized polynomial
+packing map and constructive proof of the existing 9/4 bound. The local
+note applies the already credited concavity/tripling argument to the
+scalar inequality suggested by Lemma 2.4. It claims neither that external
+construction nor a stronger exponent. Its equivalence is only scalar.
+
+The exact product-projection reference, its quadratic repair minor, and
+the source-capacity deduction were developed in this generating session.
+The capacity argument cites the Stacks Project's Grassmannian and proper
+projection facts with the relevant hypotheses. These written deductions
+have no independent mathematical review and assert no historical priority.
+
+The nonlocal operator pilots preserve all saved map coefficients and
+their original sampled histories. Their source-size-dependent Fourier,
+chirp, and reflection matrices are explicit. Exact rational reference
+controls are kept distinct from floating-point fits and rank diagnostics.
+Neither a failed numerical fit nor agreement with a reference objective
+establishes a general obstruction or an exactification of its maps.
+
+## Critical coefficient, scalar repairs, and controlled orientations
+
+The critical correction-coefficient deduction uses the previously credited
+cyclic paired-source product bound, endpoint rigidity, and compact
+attainment from Alman--Li, arXiv:2605.21738v1, Proposition 4.2, in Strassen's
+complex tensor spectrum. OpenAI retains credit for the 9/4 framework and
+the original recurrence; the rescaling input retains Uznański's credit.
+The new statement has an unproved family premise and no explicit exponent
+gap. Its exact rational controls check comparisons, not tensor maps.
+
+The fixed-corner scalar proofs and enriched leading-point exclusion were
+developed in this session. The one-scalar proof cites the Stacks Project
+for Grassmannians and proper projection of the stated incidence variety.
+The two-scalar ordinary proof explicitly keeps the source projections
+needed to justify its support conclusions; arbitrary border repairs are
+outside its claim. Same-session audits are not independent review.
+
+The controlled partial-transpose aggregation was motivated by Solomonik
+and Bläser, arXiv:2610.26563v1, Sections 5.2--5.3 and 5.6. The exact
+shared-input identity, its complete source costs, and the orientation
+analysis are local deductions, with no claim of historical priority.
+The closed-orbit step uses Hoskins' complex affine Kempf--Ness theorem
+and invariant-fibre uniqueness with the precise hypotheses in the note.
+This package supplies no paired-source map or exponent improvement.
+
+The two new fixed-lead and partial-corner pilots retain every saved map
+coefficient and all original sampled records. Standard-library replays
+reproduce their unsuccessful objectives. Optional floating-point
+diagnostics are separated from exact acceptance and do not certify rank.
+
+## Smaller leading maps, correction slices, and partial targets
+
+The M1 leading-point, endpoint-corner, fixed-seed partial-target, and
+graded quantum-correction notes were developed in this owner-directed
+session. They reuse the explicitly attributed source framework and the
+previous exact integer injection. The endpoint corner proof uses the
+Stacks Project's projective incidence and proper-projection facts,
+with their precise hypotheses and tags cited in that note. The graded
+quantum calculation reuses the maintained root-of-unity tensor formulas.
+The polynomial-unit pencil argument is given directly over the stated
+truncated polynomial ring.
+
+All general deductions remain written and externally unreviewed. Agent
+cross-checks and exact coefficient tests are work within the generating
+session. None of these obstructions excludes arbitrary source maps or
+establishes a smaller matrix multiplication exponent.
+
+The leading-M4 archive distinguishes original discovery runs from the
+corrected norm-penalty derivative and retains available terminal maps,
+reports, and source snapshots. It does not contain every intermediate
+map. The M1, full-flag, quantum-correction, and partial-target packages
+preserve their actual numerical stopping records. Two partial-target
+runs were replayed to retain final maps, and their earlier retained
+checkpoints are separately identified. A mutable-list recording error
+in sampled full-flag ridge parameters was repaired from original
+emitted records, with before/after hashes and unchanged-map checks.
+This repair changes experiment metadata, not mathematical evidence
+of an exact identity.
+
+## Larger correction budgets and leading-flag experiments
+
+The superlinear correction-budget note combines the previously attributed
+endpoint localization with the cyclic paired-source product inequality.
+It uses OpenAI's tensor-character framework, the earlier replication and
+offset inputs, and compact spectrum attainment as stated in Alman--Li,
+arXiv:2605.21738v1, Proposition 4.2. The new argument is conditional on
+missing near-full tensor constructions. A same-session agent audit and
+exact finite controls do not provide independent mathematical review.
+
+The complete-flag numerical package records its six actual stopping
+points, all saved maps, and the grading, parabolic-gauge and derivative
+controls. Its stabilizer-error viewpoint credits Dumitriu et al.,
+arXiv:2610.13905v1, Section 2.3. The fixed smaller leading-seed obstruction
+uses the previously recovered integer injection and complete rational
+linear systems. All these files were developed in this owner-directed
+session; none supplies an exact full target or a smaller exponent.
+
+## Fixed external decomposition seed
+
+The rank-76 M(4,5,5) algorithm in the external-grid-seed package belongs
+to Fawzi et al. (2022). Its integer arrays come from Andrew Perminov's
+conversion, pinned by commit and file hash. The conversion data retain
+the upstream MIT notice; this does not select or change a project license.
+No formula string from the imported data is executed.
+
+The coefficient replay, exhaustive finite-field incidence enumeration,
+and scoped impossibility argument for one termwise grid assignment were
+developed locally. The unchanged-subset test uses the target-stabilizer
+nullcone viewpoint of Dumitriu et al., arXiv:2610.13905v1, Section 2.3.
+These checks neither improve the external algorithm nor exclude general
+maps from the paired source. They are same-session work without an
+independent mathematical review or a smaller exponent.
+
+## Boundary extensions and balanced quantum supports
+
+The all-order boundary-column obstruction and the balanced-support
+deduction were developed in this same owner-directed session. The former
+uses the previously attributed integer injection and a saturated module
+over a discrete valuation ring. The latter imports affine invariant-fibre
+uniqueness and the Kempf--Ness theorem from the cited Hoskins manuscript,
+and credits the square matrix-polystability statement in
+Bürgisser--Ikenmeyer, arXiv:1511.02927v2. The exact rational quantum
+families reuse the maintained source identities and coefficient code.
+
+These are scoped written proofs with finite exact controls, not external
+independent review. They exclude the stated fixed-column chart and two
+fixed regular families. They do not exclude general tensor maps. The
+complete saved numerical Q54 discovery history is evidence for how the
+separate integer construction was found, not its acceptance criterion.
+The sixteen Q64 pilot records retain failed coefficient fits and their
+explicit scalar costs. Their error-removal viewpoint credits
+Dumitriu et al., arXiv:2610.13905v1, Section 2.3. The particular three-level
+nilpotence control is derived directly from the stated weights.
+
+The mixed-middle strengthening uses a polynomial syzygy argument and the
+same saturated-slice dimension inequality. Its integer control uses a
+nonproduct middle space and verifies the full small tensor identity. The
+same-session proof audit is not an independent external review; the note
+explicitly leaves larger outer polynomial spaces outside its scope.
+
+## Paired boundary budgets and kernel classifications
+
+The paired correction-budget, minimum-slice, narrow-kernel, regular-long-leg,
+and finite-symmetry notes were generated in the same owner-directed research
+session. The narrow ordinary proof imports the projective intersection
+theorem from Stacks Project Tag 0B2R and the constant-rank matrix-space bound
+in Ellia--Menegatti, arXiv:1508.00209v1, Proposition 8, including that paper's
+credit to Beasley. The correction-budget proof uses OpenAI's character
+framework and the already attributed replication, scaling, and two-sector
+inequalities. The finite-symmetry source change is written explicitly.
+No priority is claimed for these imported tools or for local rederivations.
+
+The exact `Q(5,4) -> M4` construction and its `Q(k+1,k) -> M(k,4,k)`
+extension use explicitly invertible polynomial-product matrices. Numerical
+rowspace diagnostics suggested the mechanism; the supplied integer maps
+and their proof do not rely on a numerical residual. No historical novelty
+is claimed for this elementary injection construction.
+
+The local deductions have written proofs and exact finite controls. Agent
+cross-checks and root replays are checks within the generating session,
+not independent mathematical review. Numerical fits, including a very small
+coefficient residual, are not accepted as exact tensor identities. The
+unbounded width-four construction required for the displayed conditional
+exponent remains missing.
+
+## Unequal paired source continuation
+
+The all-degree narrow-source rank table and the files under
+`research/ai/2026-10-21-narrow-quantum/` were generated in the same
+owner-directed session. The quantum construction reuses the maintained
+Clebsch--Gordan core and its attributed conventions, then proves the
+unequal source identity directly. Its 23 fixed leading tensors use exact
+rational-function and cyclotomic arithmetic. The low-rank-slice argument
+uses standard closed projective incidence, and the Koszul comparisons
+use standard rank monotonicity with explicit target padding. Same-session
+replays do not constitute independent review, and none of these limits
+is asserted to improve the matrix multiplication exponent.
+
+## Bounded audit of the Sun preprint
+
+`research/ai/2026-10-21-sun-audit/` attributes its external input to
+Zhi-Wei Sun, *Tensor Degenerations for Matrix Multiplication*,
+arXiv:2610.13971v1. It records the exact inspected version and separates
+the author's claimed global degeneration from locally replayed identities.
+The normalization repair, packetwise obstruction, and full-space Koszul
+screen limitation are deductions in this generating session. They neither
+establish the claimed smaller exponent nor refute arbitrary global maps.
+No historical priority, independent external review, or formalization is
+claimed for these local deductions.
+
+## Unequal-source entropy continuation
+
+The files in `research/ai/2026-10-20-unequal-entropy/` extend the previously
+defined full-filtration upper certificate to all unequal source lengths.
+The recurrence is from OpenAI's external proof, and the matching profile
+and entropy certificate are prior repository work. The new all-size
+deduction and its exact polynomial certificates were generated in the
+owner-directed research session beginning at `75bf6a3`. They are written,
+unreviewed and not formalized. The resulting sharp score constant is not
+a matrix multiplication exponent or a constructed tensor degeneration.
+
+The accompanying `research/ai/2026-10-20-paired-direct-sums/` package adopts
+the prior paired-source and matrix Koszul formulas, their minimum-slice
+argument and the finite profile ceiling. Its new contribution is a complete
+two-block frontier, padded direct-sum accounting and a conditional target
+comparison. The target maps remain missing. Exact finite certificates and
+same-session cross-checks do not provide independent mathematical review.
+
+The subsequent `research/ai/2026-10-20-paired-construction/` package supplies
+explicit integer boundary-chain maps from `P_a` to `M(a,2,a)`. Its first
+small witness arose in numerical discovery; acceptance rests on the
+telescoping proof and complete integer coefficient checks. The source and
+character comparison are inherited from the credited paired packages.
+The all-size identity is AI-derived and unreviewed, with no historical
+priority or exponent improvement claimed. The Laurent construction pilots
+retain full pole and target residuals, including failed bounded refinements;
+finite unsuccessful searches are not general nonexistence results.
+
+The exact paired quantum calibrations in
+`research/ai/2026-10-21-paired-quantum/` reuse the maintained quantum basis
+formulas and their explicit source equivalence, with dependency hashes.
+Their new finite row ranks and slice-algebra nonclosure certificates
+concern prescribed regular leading maps. They do not assume quantum
+semisimplicity at roots or exclude arbitrary singular normalizations.
+
+The coupled families in the same package reuse those exact local maps
+and supply complete rational-function valuations and rational leading
+tensors. Their low-rank-slice exclusion uses the standard properness of
+projective space, with an explicit source reference. The accompanying
+compression recognition criterion uses the standard structure theorem
+for finite-dimensional semisimple complex algebras. These are credited
+tools in the local argument, not historical novelty claims. Coordinated
+agent reviews remain checks within one generating session. Higher-order
+and narrow-source numerical records include unsuccessful complex runs,
+ill-conditioned false leads, and documented checkpoint recovery.
+
+The `2026-10-20-heisenberg-seven` continuation is owner-directed Codex
+work. Its weighted augmentation filtration is explicitly Petrov's external
+result, and its modular slice-rank framework and tight-support entropy
+theorem retain Sawin, Strassen, Coppersmith--Winograd and the cited authors'
+credits. The characteristic-transfer, cyclic/direct-sum application to this
+repository's degree gate and rational certificates are local written work.
+They have no independent review and supply no improved exponent.
+
 The `2026-10-21-hankel-pencil-degree` package was generated and checked in
 this owner-directed Codex session. The index sum theorem is imported from
 De Teran--Dopico--Mackey(2013), and bundle splitting from the classical

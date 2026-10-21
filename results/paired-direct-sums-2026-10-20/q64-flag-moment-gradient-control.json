@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "analytic_directional_derivative": -5281866.6755066775,
+      "central_difference": -5281866.655821546,
+      "relative_discrepancy": 3.726926995140935e-09,
+      "step": 1e-07
+    },
+    {
+      "analytic_directional_derivative": 521975.38040158554,
+      "central_difference": 521975.3129011906,
+      "relative_discrepancy": 1.293172005386614e-07,
+      "step": 1e-07
+    },
+    {
+      "analytic_directional_derivative": 13343304.50655941,
+      "central_difference": 13343304.499759939,
+      "relative_discrepancy": 5.095792147983895e-10,
+      "step": 1e-07
+    }
+  ],
+  "gradient_control_passes": true,
+  "is_exact_mathematical_certificate": false
+}

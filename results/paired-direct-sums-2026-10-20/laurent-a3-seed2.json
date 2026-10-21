@@ -1,0 +1,134 @@
+{
+  "a": 3,
+  "blocks": [
+    [
+      [
+        0
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "seed": 202610202,
+  "iterations_completed": 300,
+  "ridge": 1e-08,
+  "history": [
+    {
+      "iteration": 0,
+      "leading_coefficient_norm": 0.2134881339588313,
+      "constant_relative_error": 2.837220403015632,
+      "combined_relative_residual": 2.8375178693914225,
+      "first_derivative_map_norms": [
+        28.833472806200717,
+        48.49436393495258,
+        41.44166815194452
+      ],
+      "elapsed_seconds": 0.008938815999954386
+    },
+    {
+      "iteration": 50,
+      "leading_coefficient_norm": 0.180309068523755,
+      "constant_relative_error": 0.2908189409048377,
+      "combined_relative_residual": 0.2928818547478889,
+      "first_derivative_map_norms": [
+        146.56011323759958,
+        121.60349940746609,
+        98.59122772595222
+      ],
+      "elapsed_seconds": 0.7087688209999214
+    },
+    {
+      "iteration": 100,
+      "leading_coefficient_norm": 0.16276114489747584,
+      "constant_relative_error": 0.28139961153717363,
+      "combined_relative_residual": 0.283137592998769,
+      "first_derivative_map_norms": [
+        240.69982342984054,
+        225.49211907247138,
+        164.94599256660968
+      ],
+      "elapsed_seconds": 1.357577542999934
+    },
+    {
+      "iteration": 150,
+      "leading_coefficient_norm": 0.14936710708573017,
+      "constant_relative_error": 0.2787011272507296,
+      "combined_relative_residual": 0.28017964657694433,
+      "first_derivative_map_norms": [
+        303.9825463544369,
+        311.5348665171221,
+        214.5337992049007
+      ],
+      "elapsed_seconds": 2.0161037059997398
+    },
+    {
+      "iteration": 200,
+      "leading_coefficient_norm": 0.14048591648384215,
+      "constant_relative_error": 0.2773910868967791,
+      "combined_relative_residual": 0.2787055594971197,
+      "first_derivative_map_norms": [
+        355.49223847273043,
+        386.77575975925106,
+        255.55551447625749
+      ],
+      "elapsed_seconds": 2.7088746519998494
+    },
+    {
+      "iteration": 250,
+      "leading_coefficient_norm": 0.13393036627136684,
+      "constant_relative_error": 0.2765937646784565,
+      "combined_relative_residual": 0.27779211057262465,
+      "first_derivative_map_norms": [
+        399.5015442172392,
+        454.21553666689414,
+        290.19883782715635
+      ],
+      "elapsed_seconds": 3.4430375510000886
+    },
+    {
+      "iteration": 300,
+      "leading_coefficient_norm": 0.12880870416541926,
+      "constant_relative_error": 0.2760520360561664,
+      "combined_relative_residual": 0.2771628282462321,
+      "first_derivative_map_norms": [
+        437.98091413458974,
+        515.2342970511277,
+        319.73050200756387
+      ],
+      "elapsed_seconds": 4.079177707999861
+    }
+  ],
+  "best_combined_relative_residual": 0.2771628282462321,
+  "source_grade_blocks": 29,
+  "coefficient_equations_per_degree": 234,
+  "jet_parameters": 170,
+  "method": "graded first-order Laurent ALS, complete degree-zero and degree-one coefficients",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Bounded numerical discovery. Neither existence nor nonexistence follows from a residual."
+}

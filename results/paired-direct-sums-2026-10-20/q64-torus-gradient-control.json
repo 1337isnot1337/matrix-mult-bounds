@@ -1,0 +1,32 @@
+{
+  "checkpoint": "q64-flag-moment-checkpoint.json",
+  "checkpoint_sha256": "c2e41dfe0601468fd0579576589f1550135f8bafebd241c3ed87f674af87a1bc",
+  "gradient_checks": [
+    {
+      "analytic_directional_derivative": -2.0145411287952033,
+      "central_difference": -2.0145411781413713,
+      "relative_discrepancy": 2.4494991006423467e-08
+    },
+    {
+      "analytic_directional_derivative": -0.16243290756921624,
+      "central_difference": -0.16243302525253966,
+      "relative_discrepancy": 1.1768332341954846e-07
+    },
+    {
+      "analytic_directional_derivative": -0.7377615243587381,
+      "central_difference": -0.7377615929726743,
+      "relative_discrepancy": 6.861393619939093e-08
+    }
+  ],
+  "gradient_control_passes": true,
+  "maximum_gauge_tangent_derivative": 2.2737367544323206e-13,
+  "gauge_orbit_representative_maximum_difference": 1.5190710668130822e-12,
+  "stationarity_relative": 5.354711086296922e-14,
+  "positive_coefficient_control_source": "Q(6,4) direct sum D_103; Q columns zero",
+  "positive_control_scalar_cost": 103,
+  "all_control_positions_checked": 10000,
+  "positive_control_maximum_required_error": 2.220446049250313e-16,
+  "parabolic_positive_control_maximum_required_error": 4.440892098500626e-16,
+  "controls_are_numerical": true,
+  "exact_coefficient_certificate": false
+}

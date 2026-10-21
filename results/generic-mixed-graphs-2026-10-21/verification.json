@@ -17,5 +17,40 @@
     "result": "passed"
   },
   "independent_review": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "full_implementation_suite": {
+    "source_commit": "6c78380cf0b5d168db3a74893c2b560f3ee3a60f",
+    "command": "python -m unittest discover -s tests -v",
+    "run": 598,
+    "passed": 595,
+    "skipped": 3,
+    "seconds": 834.977,
+    "result": "passed",
+    "scope": "Implementation snapshot before the later main integrations."
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "latest_main_integration": {
+    "main_commit": "1586a445c251bf9e15412e504d7cdc148e13b7f3",
+    "sharding_checks_passed": 4,
+    "link_and_ledger_checks_passed": 2,
+    "coverage": {
+      "total_tests": 718,
+      "modules": 174,
+      "groups": 4,
+      "tests_per_group": [
+        169,
+        188,
+        191,
+        170
+      ],
+      "complete_disjoint_union": true,
+      "import_errors": 0,
+      "own_module_cases": 5
+    },
+    "protected_archives_unchanged": true,
+    "implementation_python_unchanged_from_full_suite_snapshot": true
+  }
 }
