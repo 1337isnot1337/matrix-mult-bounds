@@ -23,5 +23,7 @@ Third-order disposition: `third_order.md` excludes the fixed seed at every
 order by two universal rank covers and formal moving-plane induction.
 The second-order family remains an exact positive control for the
 obstruction's order. Other mixed first spaces and delayed growth remain
-open. The next investigation varies the common-kernel mixed pencil;
-the other worker retains the boundary-spanning family and preprint audit.
+open. The generic pencil has now been closed in `pencil_frontier.md`, completing
+all maximal 14-by-6 pairs and reducing the necessary mixed rank sum to 19.
+The next question is a smaller or delayed first extension. The other
+worker retains the boundary-spanning family and preprint audit.
