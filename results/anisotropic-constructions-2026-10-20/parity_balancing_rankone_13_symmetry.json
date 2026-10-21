@@ -1,0 +1,99 @@
+{
+  "source_basis_coordinates_checked": 960,
+  "source_matrix_basis_entries_checked": 4096,
+  "target_matrix_unit_pairs_checked_per_identity": 533842,
+  "tau_preserves_source_weights": true,
+  "reflection_reverses_source_weights": true,
+  "tau_and_sigma_reverse_trace_order": true,
+  "tau_transfer_requires_reversing_leg_order": true,
+  "rank_one_types": [
+    {
+      "type": "positive_R",
+      "target_unit": [
+        25,
+        0
+      ],
+      "source_coordinate": [
+        6,
+        0,
+        7
+      ],
+      "extreme_target_unit": [
+        26,
+        0
+      ],
+      "extreme_source_coordinate": [
+        7,
+        0,
+        7
+      ]
+    },
+    {
+      "type": "positive_Q",
+      "target_unit": [
+        26,
+        1
+      ],
+      "source_coordinate": [
+        7,
+        0,
+        6
+      ],
+      "extreme_target_unit": [
+        26,
+        0
+      ],
+      "extreme_source_coordinate": [
+        7,
+        0,
+        7
+      ]
+    },
+    {
+      "type": "negative_R",
+      "target_unit": [
+        1,
+        26
+      ],
+      "source_coordinate": [
+        1,
+        14,
+        0
+      ],
+      "extreme_target_unit": [
+        0,
+        26
+      ],
+      "extreme_source_coordinate": [
+        0,
+        14,
+        0
+      ]
+    },
+    {
+      "type": "negative_Q",
+      "target_unit": [
+        0,
+        25
+      ],
+      "source_coordinate": [
+        0,
+        14,
+        1
+      ],
+      "extreme_target_unit": [
+        0,
+        26
+      ],
+      "extreme_source_coordinate": [
+        0,
+        14,
+        0
+      ]
+    }
+  ],
+  "each_type_can_occur_on_at_most_one_leg": true,
+  "mixed_type_patterns_excluded": false,
+  "general_torus_restriction_excluded": false,
+  "new_exponent_established": false
+}

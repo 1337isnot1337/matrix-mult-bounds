@@ -1,0 +1,36 @@
+{
+  "tested_commit": "bb64dae4517f583b1d439486fd47210b576e63f5",
+  "tested_tree": "9b67d80537d9534b7ade77e84f2fdfc349a7899a",
+  "includes_main": "b0a54f2fb17cc9b9393ddd7e3f616b211a6b9b91",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "site_packages_disabled": true,
+  "dependencies": "root requirements via maintained-deps (SymPy/mpmath only; NumPy optional controls skip)",
+  "scope": "Full maintained unittest suite and all archive replays at the pinned commit. Later work is not covered.",
+  "records": [
+    {
+      "name": "tests",
+      "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -S -m unittest discover -s tests -v",
+      "started_utc": "2026-10-21T04:54:53.229720+00:00",
+      "finished_utc": "2026-10-21T04:58:53.476717+00:00",
+      "exit_code": 0,
+      "log": "torus-peeling-tests.txt",
+      "sha256": "ab373d5daaa50c23b9bc75d9be937115c19b5a0282ca17be02851df7dd015a7d",
+      "test_count": 447,
+      "completed_footer": true,
+      "skipped_test_count": 1,
+      "passed_test_count": 446
+    },
+    {
+      "name": "archive-replay",
+      "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -S tools/replay.py",
+      "started_utc": "2026-10-21T04:58:53.477129+00:00",
+      "finished_utc": "2026-10-21T04:59:07.087755+00:00",
+      "exit_code": 0,
+      "log": "torus-peeling-archive-replay.txt",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+      "test_count": null,
+      "completed_footer": null
+    }
+  ],
+  "passed": true
+}
