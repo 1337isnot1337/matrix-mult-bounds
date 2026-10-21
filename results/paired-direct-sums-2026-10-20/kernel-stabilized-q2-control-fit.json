@@ -1,0 +1,108 @@
+{
+  "n": 2,
+  "b": 2,
+  "seed": 202610239,
+  "parameter_bound": 10,
+  "parameters": 16,
+  "closure_equations": 256,
+  "additional_condition_and_spectrum_equations": 7,
+  "stabilized": true,
+  "maximum_function_evaluations": 400,
+  "function_evaluations": 10,
+  "jacobian_evaluations": 10,
+  "elapsed_seconds": 0.10296126000048389,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "closure_residual_norm": 0.9908833015330697,
+    "maximum_absolute_closure_error": 0.29405837853498185,
+    "additional_condition_and_spectrum_residuals": [
+      0.0,
+      0.0,
+      0.3492593744164482,
+      0.5695784268585602,
+      0.6814772189740774,
+      0.0,
+      0.0
+    ],
+    "anchor_condition_number": 2.4871721533436273,
+    "slice_span_singular_values": [
+      2.5536965006702537,
+      1.4922532315630015,
+      1.450010355150327,
+      0.9500181220382709
+    ],
+    "smallest_commutant_singular_values": [
+      1.477184935216575e-16,
+      0.559945760229827,
+      0.8524692902104127,
+      0.9643379919466517,
+      1.291576274928624,
+      1.4101267632011827
+    ],
+    "orthonormal_basis_smallest_commutant_singular_values": [
+      1.6032747506395194e-16,
+      0.3492593744164482,
+      0.5695784268585602,
+      0.6814772189740774,
+      0.847308329818335,
+      0.9744169664022824
+    ],
+    "orthonormal_basis_trace_form_singular_values": [
+      0.9999999999999998,
+      0.8883157467241478,
+      0.32031836319696166,
+      0.2645300431461713
+    ],
+    "maximum_absolute_kernel_parameter": 0.7069002298038467
+  },
+  "final": {
+    "closure_residual_norm": 6.972451486685946e-16,
+    "maximum_absolute_closure_error": 1.6653345369377348e-16,
+    "additional_condition_and_spectrum_residuals": [
+      0.0,
+      0.0,
+      3.488743719044943e-16,
+      3.7836013785977365e-16,
+      4.753266187489995e-16,
+      0.0,
+      0.0
+    ],
+    "anchor_condition_number": 5.895332530392622,
+    "slice_span_singular_values": [
+      6.144115521984284,
+      1.4928881437902348,
+      1.41326724472691,
+      0.9358318013132879
+    ],
+    "smallest_commutant_singular_values": [
+      4.4022548582774517e-16,
+      5.280600242146539e-16,
+      6.665252397349975e-16,
+      7.419371031586279e-16,
+      1.409495937401941,
+      1.414088320964817
+    ],
+    "orthonormal_basis_smallest_commutant_singular_values": [
+      2.1271121864035614e-16,
+      3.488743719044943e-16,
+      3.7836013785977365e-16,
+      4.753266187489995e-16,
+      0.9875428749255932,
+      1.0034805657253085
+    ],
+    "orthonormal_basis_trace_form_singular_values": [
+      0.9999999999999999,
+      0.6328082638424941,
+      0.12223777617040747,
+      0.06539284832177632
+    ],
+    "maximum_absolute_kernel_parameter": 0.729516889528737
+  },
+  "solver_status": 1,
+  "solver_message": "`gtol` termination condition is satisfied.",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "One real compression-kernel chart, fixed invertible anchor, finite bounded search; closure alone is not a matrix tensor certificate."
+}

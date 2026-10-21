@@ -1,0 +1,21 @@
+{
+  "recovered_checkpoints": [
+    {
+      "checkpoint": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed1-checkpoint.json",
+      "seed": 202610231,
+      "detected_saved_iteration": 400,
+      "regenerated_iterations": 1000,
+      "history_metrics_match_original_exactly": true,
+      "scope": "Recovered saved map by deterministic replay; the recorded experiment and its conclusion are unchanged."
+    },
+    {
+      "checkpoint": "results/paired-direct-sums-2026-10-20/narrow-q3-2-seed5-checkpoint.json",
+      "seed": 202610235,
+      "detected_saved_iteration": 400,
+      "regenerated_iterations": 1000,
+      "history_metrics_match_original_exactly": true,
+      "scope": "Recovered saved map by deterministic replay; the recorded experiment and its conclusion are unchanged."
+    }
+  ],
+  "cause": "The saved checkpoints lagged their completed reports; no cause is asserted."
+}

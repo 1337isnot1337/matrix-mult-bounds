@@ -1,0 +1,128 @@
+{
+  "n": 3,
+  "b": 2,
+  "seed": 202610240,
+  "parameter_bound": 10,
+  "parameters": 24,
+  "closure_equations": 2916,
+  "additional_condition_and_spectrum_equations": 7,
+  "stabilized": true,
+  "maximum_function_evaluations": 400,
+  "function_evaluations": 225,
+  "jacobian_evaluations": 192,
+  "elapsed_seconds": 5.182991194999886,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "closure_residual_norm": 1.871978336280781,
+    "maximum_absolute_closure_error": 0.43311352074073267,
+    "additional_condition_and_spectrum_residuals": [
+      0.0,
+      0.0,
+      0.9764267395616003,
+      1.0168109036776343,
+      1.032356127067104,
+      0.0,
+      0.0
+    ],
+    "anchor_condition_number": 32.65253036378916,
+    "slice_span_singular_values": [
+      20.664621545162927,
+      16.568491058700086,
+      13.133518894567564,
+      10.123019469058395,
+      8.068611646754658,
+      7.210635427960842,
+      2.0374390141386525,
+      1.4485219194162755,
+      1.2012304352901304
+    ],
+    "smallest_commutant_singular_values": [
+      3.715415633766284e-15,
+      7.186598276410577,
+      7.329222024813139,
+      7.368789722695968,
+      7.548098328293372,
+      8.102664752499678
+    ],
+    "orthonormal_basis_smallest_commutant_singular_values": [
+      3.94437830106942e-16,
+      0.9764267395616003,
+      1.0168109036776343,
+      1.032356127067104,
+      1.0494152255440676,
+      1.054767584830566
+    ],
+    "orthonormal_basis_trace_form_singular_values": [
+      0.9999999999999998,
+      0.9969431362820618,
+      0.7419319090918005,
+      0.5919397973183858,
+      0.5684346908069862,
+      0.3866376792462057,
+      0.17935464302371174,
+      0.06766739933843537,
+      0.04077344693706594
+    ],
+    "maximum_absolute_kernel_parameter": 0.6431017344784046
+  },
+  "final": {
+    "closure_residual_norm": 0.5952289923353001,
+    "maximum_absolute_closure_error": 0.07641552283743935,
+    "additional_condition_and_spectrum_residuals": [
+      0.10892132909946575,
+      0.05814102630810665,
+      0.16778018611528978,
+      0.22283706223017175,
+      0.30718699982075753,
+      0.0,
+      0.005341216568790146
+    ],
+    "anchor_condition_number": 111.50746229659457,
+    "slice_span_singular_values": [
+      84.32249577230145,
+      55.151974755203064,
+      23.872831516756488,
+      15.58517308237382,
+      11.526098221556015,
+      4.062279266631758,
+      1.5543607485704722,
+      1.1258642991842713,
+      0.7955969790160726
+    ],
+    "smallest_commutant_singular_values": [
+      1.1495294916624044e-14,
+      1.5796367968778764,
+      1.7938023800496616,
+      2.149548607145217,
+      3.2543312650695686,
+      7.453854513578392
+    ],
+    "orthonormal_basis_smallest_commutant_singular_values": [
+      4.2790251880494076e-16,
+      0.16778018611528978,
+      0.22283706223017175,
+      0.30718699982075753,
+      0.8565390759811272,
+      0.9939483211833778
+    ],
+    "orthonormal_basis_trace_form_singular_values": [
+      1.0000000000000002,
+      0.9727548853047004,
+      0.17831975088939223,
+      0.11419630180863376,
+      0.08510777598058135,
+      0.06354916390505161,
+      0.044204217456052006,
+      0.023101148416484956,
+      0.004658783431209854
+    ],
+    "maximum_absolute_kernel_parameter": 9.84616333316863
+  },
+  "solver_status": 3,
+  "solver_message": "`xtol` termination condition is satisfied.",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "One real compression-kernel chart, fixed invertible anchor, finite bounded search; closure alone is not a matrix tensor certificate."
+}

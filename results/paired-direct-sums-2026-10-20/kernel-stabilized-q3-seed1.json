@@ -1,0 +1,128 @@
+{
+  "n": 3,
+  "b": 2,
+  "seed": 202610241,
+  "parameter_bound": 10,
+  "parameters": 24,
+  "closure_equations": 2916,
+  "additional_condition_and_spectrum_equations": 7,
+  "stabilized": true,
+  "maximum_function_evaluations": 400,
+  "function_evaluations": 400,
+  "jacobian_evaluations": 391,
+  "elapsed_seconds": 10.710692750999442,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "closure_residual_norm": 2.2108977421280804,
+    "maximum_absolute_closure_error": 0.3074203478838301,
+    "additional_condition_and_spectrum_residuals": [
+      0.0,
+      0.0,
+      0.7728995730007729,
+      0.9046436902290216,
+      0.9201821474132935,
+      0.0,
+      0.0
+    ],
+    "anchor_condition_number": 11.714871886233508,
+    "slice_span_singular_values": [
+      8.624534007454194,
+      7.259595516511295,
+      6.228578345490124,
+      5.01308581860464,
+      3.9213283115998565,
+      3.176356927916703,
+      2.456352704756085,
+      1.880625490762876,
+      1.1287142986067555
+    ],
+    "smallest_commutant_singular_values": [
+      1.8914111068211938e-15,
+      2.870897739923161,
+      3.1118851736148003,
+      3.1865336723985664,
+      3.241121371695912,
+      3.475174350737263
+    ],
+    "orthonormal_basis_smallest_commutant_singular_values": [
+      4.380643792459507e-16,
+      0.7728995730007729,
+      0.9046436902290216,
+      0.9201821474132935,
+      0.9932913539742624,
+      1.0093390072976254
+    ],
+    "orthonormal_basis_trace_form_singular_values": [
+      1.0000000000000002,
+      0.9599112822744214,
+      0.8672851838493918,
+      0.6827347983195614,
+      0.48192478739402606,
+      0.3955797608513571,
+      0.26288838218241384,
+      0.23907279902412326,
+      0.19872633276529422
+    ],
+    "maximum_absolute_kernel_parameter": 0.595095967939975
+  },
+  "final": {
+    "closure_residual_norm": 0.4088001713498222,
+    "maximum_absolute_closure_error": 0.04677268648261801,
+    "additional_condition_and_spectrum_residuals": [
+      0.112223820407556,
+      0.0,
+      0.09921540599853354,
+      0.10478123693619466,
+      0.1486475518237577,
+      0.0,
+      0.0
+    ],
+    "anchor_condition_number": 111.87632346677341,
+    "slice_span_singular_values": [
+      109.96686679973071,
+      104.59048683492266,
+      77.44167137694322,
+      46.174261977862855,
+      26.54954710246094,
+      17.008486998638517,
+      9.054632019815557,
+      8.28252273146899,
+      1.2921151847990497
+    ],
+    "smallest_commutant_singular_values": [
+      2.5823089313858298e-14,
+      4.134260258968545,
+      4.1437723070385974,
+      4.230433759361529,
+      4.701837114296911,
+      26.8641079048354
+    ],
+    "orthonormal_basis_smallest_commutant_singular_values": [
+      4.001468909305288e-16,
+      0.09921540599853354,
+      0.10478123693619466,
+      0.1486475518237577,
+      0.1891165357621929,
+      1.0058278058223173
+    ],
+    "orthonormal_basis_trace_form_singular_values": [
+      0.9999999999999997,
+      0.7133019756196347,
+      0.27970007185132245,
+      0.14865816489261885,
+      0.09560923768292429,
+      0.0662614553191974,
+      0.0367993637029397,
+      0.022458042708068008,
+      0.014207424989889266
+    ],
+    "maximum_absolute_kernel_parameter": 1.868822096661507
+  },
+  "solver_status": 0,
+  "solver_message": "The maximum number of function evaluations is exceeded.",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "One real compression-kernel chart, fixed invertible anchor, finite bounded search; closure alone is not a matrix tensor certificate."
+}

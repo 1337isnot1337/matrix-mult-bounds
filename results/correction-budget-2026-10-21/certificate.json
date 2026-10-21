@@ -1,0 +1,582 @@
+{
+  "claim_id": "COND-PAIRED-LINEAR-CORRECTION-001",
+  "improves_omega": false,
+  "construction_supplied": false,
+  "premise": "For fixed b=4 and unbounded n, Q(n,4) plus an auxiliary of border rank O(n) degenerates to M(n,4,n), or the stated near-full rectangle.",
+  "conditional_omega_upper_bound": "30000/13433",
+  "strict_upper_comparison": "30000/13433 < 2.2334",
+  "root_certificate": {
+    "d_numerator": 13433,
+    "d_denominator": 10000,
+    "integer_inequality": "13433^10000 * 24^13433 < 960000^10000",
+    "left_bits": 198725,
+    "right_bits": 198727,
+    "strict_comparison_passes": true
+  },
+  "critical_width_condition": "81*b > 256",
+  "first_admissible_integer_width": 4,
+  "rational_parameter_controls": 120,
+  "boundary_controls": [
+    {
+      "n": 2,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 4,
+      "complete_coefficients": 8
+    },
+    {
+      "n": 2,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 6,
+      "complete_coefficients": 8
+    },
+    {
+      "n": 2,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 6,
+      "complete_coefficients": 12
+    },
+    {
+      "n": 2,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 9,
+      "complete_coefficients": 12
+    },
+    {
+      "n": 2,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 8,
+      "complete_coefficients": 16
+    },
+    {
+      "n": 2,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 12,
+      "complete_coefficients": 16
+    },
+    {
+      "n": 2,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 10,
+      "complete_coefficients": 20
+    },
+    {
+      "n": 2,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 15,
+      "complete_coefficients": 20
+    },
+    {
+      "n": 3,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 6,
+      "complete_coefficients": 18
+    },
+    {
+      "n": 3,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 10,
+      "complete_coefficients": 18
+    },
+    {
+      "n": 3,
+      "b": 2,
+      "pattern": "boundary_2",
+      "rank_one_terms": 16,
+      "complete_coefficients": 18
+    },
+    {
+      "n": 3,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 9,
+      "complete_coefficients": 27
+    },
+    {
+      "n": 3,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 15,
+      "complete_coefficients": 27
+    },
+    {
+      "n": 3,
+      "b": 3,
+      "pattern": "boundary_2",
+      "rank_one_terms": 24,
+      "complete_coefficients": 27
+    },
+    {
+      "n": 3,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 12,
+      "complete_coefficients": 36
+    },
+    {
+      "n": 3,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 20,
+      "complete_coefficients": 36
+    },
+    {
+      "n": 3,
+      "b": 4,
+      "pattern": "boundary_2",
+      "rank_one_terms": 32,
+      "complete_coefficients": 36
+    },
+    {
+      "n": 3,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 15,
+      "complete_coefficients": 45
+    },
+    {
+      "n": 3,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 25,
+      "complete_coefficients": 45
+    },
+    {
+      "n": 3,
+      "b": 5,
+      "pattern": "boundary_2",
+      "rank_one_terms": 40,
+      "complete_coefficients": 45
+    },
+    {
+      "n": 4,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 8,
+      "complete_coefficients": 32
+    },
+    {
+      "n": 4,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 14,
+      "complete_coefficients": 32
+    },
+    {
+      "n": 4,
+      "b": 2,
+      "pattern": "boundary_2",
+      "rank_one_terms": 24,
+      "complete_coefficients": 32
+    },
+    {
+      "n": 4,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 12,
+      "complete_coefficients": 48
+    },
+    {
+      "n": 4,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 21,
+      "complete_coefficients": 48
+    },
+    {
+      "n": 4,
+      "b": 3,
+      "pattern": "boundary_2",
+      "rank_one_terms": 36,
+      "complete_coefficients": 48
+    },
+    {
+      "n": 4,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 16,
+      "complete_coefficients": 64
+    },
+    {
+      "n": 4,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 28,
+      "complete_coefficients": 64
+    },
+    {
+      "n": 4,
+      "b": 4,
+      "pattern": "boundary_2",
+      "rank_one_terms": 48,
+      "complete_coefficients": 64
+    },
+    {
+      "n": 4,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 20,
+      "complete_coefficients": 80
+    },
+    {
+      "n": 4,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 35,
+      "complete_coefficients": 80
+    },
+    {
+      "n": 4,
+      "b": 5,
+      "pattern": "boundary_2",
+      "rank_one_terms": 60,
+      "complete_coefficients": 80
+    },
+    {
+      "n": 5,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 10,
+      "complete_coefficients": 50
+    },
+    {
+      "n": 5,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 18,
+      "complete_coefficients": 50
+    },
+    {
+      "n": 5,
+      "b": 2,
+      "pattern": "boundary_2",
+      "rank_one_terms": 32,
+      "complete_coefficients": 50
+    },
+    {
+      "n": 5,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 15,
+      "complete_coefficients": 75
+    },
+    {
+      "n": 5,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 27,
+      "complete_coefficients": 75
+    },
+    {
+      "n": 5,
+      "b": 3,
+      "pattern": "boundary_2",
+      "rank_one_terms": 48,
+      "complete_coefficients": 75
+    },
+    {
+      "n": 5,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 20,
+      "complete_coefficients": 100
+    },
+    {
+      "n": 5,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 36,
+      "complete_coefficients": 100
+    },
+    {
+      "n": 5,
+      "b": 4,
+      "pattern": "boundary_2",
+      "rank_one_terms": 64,
+      "complete_coefficients": 100
+    },
+    {
+      "n": 5,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 25,
+      "complete_coefficients": 125
+    },
+    {
+      "n": 5,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 45,
+      "complete_coefficients": 125
+    },
+    {
+      "n": 5,
+      "b": 5,
+      "pattern": "boundary_2",
+      "rank_one_terms": 80,
+      "complete_coefficients": 125
+    },
+    {
+      "n": 6,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 12,
+      "complete_coefficients": 72
+    },
+    {
+      "n": 6,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 22,
+      "complete_coefficients": 72
+    },
+    {
+      "n": 6,
+      "b": 2,
+      "pattern": "boundary_2",
+      "rank_one_terms": 40,
+      "complete_coefficients": 72
+    },
+    {
+      "n": 6,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 18,
+      "complete_coefficients": 108
+    },
+    {
+      "n": 6,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 33,
+      "complete_coefficients": 108
+    },
+    {
+      "n": 6,
+      "b": 3,
+      "pattern": "boundary_2",
+      "rank_one_terms": 60,
+      "complete_coefficients": 108
+    },
+    {
+      "n": 6,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 24,
+      "complete_coefficients": 144
+    },
+    {
+      "n": 6,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 44,
+      "complete_coefficients": 144
+    },
+    {
+      "n": 6,
+      "b": 4,
+      "pattern": "boundary_2",
+      "rank_one_terms": 80,
+      "complete_coefficients": 144
+    },
+    {
+      "n": 6,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 30,
+      "complete_coefficients": 180
+    },
+    {
+      "n": 6,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 55,
+      "complete_coefficients": 180
+    },
+    {
+      "n": 6,
+      "b": 5,
+      "pattern": "boundary_2",
+      "rank_one_terms": 100,
+      "complete_coefficients": 180
+    },
+    {
+      "n": 7,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 14,
+      "complete_coefficients": 98
+    },
+    {
+      "n": 7,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 26,
+      "complete_coefficients": 98
+    },
+    {
+      "n": 7,
+      "b": 2,
+      "pattern": "boundary_2",
+      "rank_one_terms": 48,
+      "complete_coefficients": 98
+    },
+    {
+      "n": 7,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 21,
+      "complete_coefficients": 147
+    },
+    {
+      "n": 7,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 39,
+      "complete_coefficients": 147
+    },
+    {
+      "n": 7,
+      "b": 3,
+      "pattern": "boundary_2",
+      "rank_one_terms": 72,
+      "complete_coefficients": 147
+    },
+    {
+      "n": 7,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 28,
+      "complete_coefficients": 196
+    },
+    {
+      "n": 7,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 52,
+      "complete_coefficients": 196
+    },
+    {
+      "n": 7,
+      "b": 4,
+      "pattern": "boundary_2",
+      "rank_one_terms": 96,
+      "complete_coefficients": 196
+    },
+    {
+      "n": 7,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 35,
+      "complete_coefficients": 245
+    },
+    {
+      "n": 7,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 65,
+      "complete_coefficients": 245
+    },
+    {
+      "n": 7,
+      "b": 5,
+      "pattern": "boundary_2",
+      "rank_one_terms": 120,
+      "complete_coefficients": 245
+    },
+    {
+      "n": 8,
+      "b": 2,
+      "pattern": "diagonal",
+      "rank_one_terms": 16,
+      "complete_coefficients": 128
+    },
+    {
+      "n": 8,
+      "b": 2,
+      "pattern": "boundary_1",
+      "rank_one_terms": 30,
+      "complete_coefficients": 128
+    },
+    {
+      "n": 8,
+      "b": 2,
+      "pattern": "boundary_2",
+      "rank_one_terms": 56,
+      "complete_coefficients": 128
+    },
+    {
+      "n": 8,
+      "b": 3,
+      "pattern": "diagonal",
+      "rank_one_terms": 24,
+      "complete_coefficients": 192
+    },
+    {
+      "n": 8,
+      "b": 3,
+      "pattern": "boundary_1",
+      "rank_one_terms": 45,
+      "complete_coefficients": 192
+    },
+    {
+      "n": 8,
+      "b": 3,
+      "pattern": "boundary_2",
+      "rank_one_terms": 84,
+      "complete_coefficients": 192
+    },
+    {
+      "n": 8,
+      "b": 4,
+      "pattern": "diagonal",
+      "rank_one_terms": 32,
+      "complete_coefficients": 256
+    },
+    {
+      "n": 8,
+      "b": 4,
+      "pattern": "boundary_1",
+      "rank_one_terms": 60,
+      "complete_coefficients": 256
+    },
+    {
+      "n": 8,
+      "b": 4,
+      "pattern": "boundary_2",
+      "rank_one_terms": 112,
+      "complete_coefficients": 256
+    },
+    {
+      "n": 8,
+      "b": 5,
+      "pattern": "diagonal",
+      "rank_one_terms": 40,
+      "complete_coefficients": 320
+    },
+    {
+      "n": 8,
+      "b": 5,
+      "pattern": "boundary_1",
+      "rank_one_terms": 75,
+      "complete_coefficients": 320
+    },
+    {
+      "n": 8,
+      "b": 5,
+      "pattern": "boundary_2",
+      "rank_one_terms": 140,
+      "complete_coefficients": 320
+    }
+  ],
+  "scope": "Finite verification of the conditional algebra and explicit correction counts. No paired source-to-target maps or unbounded family are supplied."
+}

@@ -1,0 +1,35 @@
+{
+  "source": "Q(5,4)",
+  "target": "M(4,4,4)",
+  "source_shape": [
+    25,
+    32,
+    32
+  ],
+  "target_shape": [
+    16,
+    16,
+    16
+  ],
+  "source_terms_reconstructed": 400,
+  "all_target_positions_checked": 4096,
+  "target_nonzero_positions": 64,
+  "relative_coefficient_error": 8.414307902280029e-16,
+  "maximum_absolute_coefficient_error": 1.334502204879823e-15,
+  "map_frobenius_norms": [
+    5.960430575426591,
+    5.960430577042982,
+    5.9604305768834696
+  ],
+  "deliberate_perturbation_relative_error": 0.34588484204915193,
+  "integer_control": {
+    "all_integer_positions_checked": 64,
+    "exact_positive_control_passed": true,
+    "deliberate_sign_error_detected": true
+  },
+  "numerical_replay_passes": true,
+  "exact_coefficient_certificate": false,
+  "construction_proved": false,
+  "all_n_family_proved": false,
+  "improves_omega": false
+}

@@ -1,0 +1,99 @@
+{
+  "n": 2,
+  "b": 2,
+  "source": "Q_(2,2)",
+  "target": "M(2,2,2)",
+  "source_shape": [
+    4,
+    6,
+    6
+  ],
+  "target_shape": [
+    4,
+    4,
+    4
+  ],
+  "source_terms": 16,
+  "target_terms": 8,
+  "tensor_equations": 64,
+  "parameters": 64,
+  "seed": 202610229,
+  "maximum_iterations": 1000,
+  "iterations_completed": 1000,
+  "ridge": 1e-12,
+  "numpy_version": "2.3.5",
+  "history": [
+    {
+      "iteration": 0,
+      "relative_coefficient_error": 1.1662470219150645,
+      "maximum_absolute_coefficient_error": 1.3660546063680807,
+      "map_frobenius_norms": [
+        1.6828008004820383,
+        1.9914752167341903,
+        1.4301624508845723
+      ],
+      "elapsed_seconds": 0.00039182000000437256
+    },
+    {
+      "iteration": 200,
+      "relative_coefficient_error": 2.4910068561007362e-12,
+      "maximum_absolute_coefficient_error": 2.8069768731597833e-12,
+      "map_frobenius_norms": [
+        3.153599261422876,
+        3.153599261422876,
+        3.1535992614228756
+      ],
+      "elapsed_seconds": 0.055671741999503865
+    },
+    {
+      "iteration": 400,
+      "relative_coefficient_error": 2.488930159897168e-12,
+      "maximum_absolute_coefficient_error": 2.8037572263883703e-12,
+      "map_frobenius_norms": [
+        3.153599260398203,
+        3.1535992603982033,
+        3.1535992603982024
+      ],
+      "elapsed_seconds": 0.10672008099936647
+    },
+    {
+      "iteration": 600,
+      "relative_coefficient_error": 2.489942069006145e-12,
+      "maximum_absolute_coefficient_error": 2.804756427110533e-12,
+      "map_frobenius_norms": [
+        3.153599259373546,
+        3.153599259373546,
+        3.153599259373546
+      ],
+      "elapsed_seconds": 0.1643028909993518
+    },
+    {
+      "iteration": 800,
+      "relative_coefficient_error": 2.488915374063511e-12,
+      "maximum_absolute_coefficient_error": 2.806088694740083e-12,
+      "map_frobenius_norms": [
+        3.153599258348844,
+        3.1535992583488435,
+        3.1535992583488435
+      ],
+      "elapsed_seconds": 0.2214495039997928
+    },
+    {
+      "iteration": 1000,
+      "relative_coefficient_error": 2.4891746372102774e-12,
+      "maximum_absolute_coefficient_error": 2.802647003363745e-12,
+      "map_frobenius_norms": [
+        3.1535992573241014,
+        3.1535992573241014,
+        3.1535992573241014
+      ],
+      "elapsed_seconds": 0.2677614109998103
+    }
+  ],
+  "best_relative_coefficient_error": 2.488915374063511e-12,
+  "method": "unrestricted real constant-map ALS, full coefficient objective",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite numerical discovery; full coefficient identity and implication remain separate proof gates."
+}

@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+The uniform-cap worker now studies
+`ai/2026-10-21-hankel-wronskian-cap/QUESTION.md`. A self-contained binomial-
+shear/Wronskian proof covers every characteristic-zero bounded-Hankel
+linear space, with an exact rational witness generator. The application now
+adopts the concurrent higher-ruling, saturation and crossed-locus bounds
+with exact pins, adding a scalar-Hankel equality case and a proper-section
+dimension loss. It closes all improving ordinary A9 square sums. The finite
+balanced comparison remains separate from the full all-source frontier. The older A9 square candidate
+is already excluded by that concurrent three-ruling test; the new source-
+gap draft is a separate structural question, not a stronger frontier claim.
+PR75 merged at4695298 with exact tested/merged tree equality and all current
+checks green; its completed local and remote task branches are removed.
+
 The pencil-degree worker now studies
 `ai/2026-10-21-hankel-pencil-degree/QUESTION.md`. Its written Hankel Segre
 bound in the strict5r<2(a+b) range closes the former ordinary A8 targets,
@@ -12,16 +25,23 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
-closes uniformly for every a and nonzero t: auxiliary projection relations
-reduce the ten remaining quotient parameters to two, then cubic minors
-eliminate both. The written all-order extension is unreviewed. General
-two-coordinate graph charts remain open; the next calculation must use
-their actual mixed rows and retain exceptional parameter loci. PR69
-merged at48bd72d with equal source/squash trees; its completed local and
-remote branches and worktree are removed. All583 local tests ran, with
-580 passes and3 optional skips; all five archive replays passed. No
-exponent gain is established.
+`ai/2026-10-21-mixed-exceptional-affine/QUESTION.md`. A new affine family
+has at least38 normal directions, exactly38 generically. Its base graph
+is fully excluded after recomputing all38 directions. The rest of the
+family and exceptional affine four-planes remain open. Claim095 records
+polynomial family identities separately from finite discovery grids.
+
+The mixed-frame worker now studies
+`ai/2026-10-21-generic-mixed-graphs/QUESTION.md`. Two fourteen-variable
+normal blocks have exact quartic-spanning certificates at a rational
+point. Their symbolic source partition and fixed56-equation normal chart
+prove a nonempty open exclusion in all seven b=1 graph/partner parameters,
+extended to b nonzero by the source torus. The remaining problem is affine
+four-planes contained in the exceptional fibers. Constant-unit elimination
+of the44-coordinate normal blocks is the next structural calculation.
+PR74 contains the complete two-coordinate rank strata and exceptional
+fiber proof; it incorporates main's PR40 and reruns CI with a30-minute
+budget after a confirmed20-minute timeout. No exponent gain is established.
 
 
 The mixed-frame worker now studies
@@ -150,22 +170,123 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
-The subgroup-ideal continuation on `research/subgroup-ideal-20261021`
-depends on the central-cover package in PR #73. Every full five-cycle coset
-in a target vertex set is now excluded for the SL(2,5) and split-cover M10
-targets, and for M(13,13,15) in SL(2,5) x C2. The written averaging proof
-uses exact ideal dimensions80,88,160. The next split-cover search adds
-these cuts to avoid both previous failed pair-injective lifts. No target
-or smaller exponent has been constructed.
+## Paired-source continuation
 
-The central-group worker's Heisenberg(5) package merged through PR #42 at
-`bfc5243`; its incorporated branch was removed while untracked Heisenberg(7)
-research was preserved on `research/heisenberg-modular-20261021`.
-The active constructive question is the SL(2,5) M10 target on
-`research/sl2-five-native-parity`. Two 600-second joint sign/projection
-formulations produced 506 replayed parity contradictions and no lift.
-Projected pair-capacity cuts and translation templates are being added;
-there is no finite exclusion or exponent improvement.
+The current continuation integrates main `b113866`. Checkpoint `27d7a75`
+completed 578 tests, with 577 passes and one optional NumPy skip, and
+all five local archive replays. Five hosted static checks passed; no
+hosted test workflow was observed at that commit. The complete receipt
+is retained. New packages require validation on their own pushed tree.
+
+The three size-dependent nonlocal operator pilots are complete and
+preserved, with no exact witness. Their rational product-projection
+reference requires quadratic rank for a literal repair. The generalized
+Pass packing count is already implied by the scalar concavity program.
+The new source-capacity proof bounds feasible target dimensions when
+the auxiliary border rank is subquadratic. These are scoped findings,
+not exponent improvements.
+
+Three agents now pursue and independently audit quantum long maps with
+all required factor exchanges, and Cauchy/displacement identities in the
+native Q tensor. Negative Laurent terms and every auxiliary correction
+must be counted. The scalar coefficient allowance is not permission to
+treat factor exchanges, inverse maps across different legs, or omitted
+tensor coefficients as free.
+
+The next checkpoint integrates main `8a07bed` and extends the conditional
+correction budget to a strict nonzero coefficient at order `n^(3/2)`.
+At near-full width four, auxiliary border rank at most
+`(4/25)*n^(3/2)+o(n^(3/2))` would suffice. There are no maps satisfying
+this unbounded family premise. Checkpoint `25600a7` completed 565 local
+tests with 564 passes and one optional NumPy skip; all five local archive
+replays and five observed hosted static checks passed. No hosted test
+workflow was observed for that commit.
+
+The fixed endpoint corner with one scalar is now excluded by a closed
+incidence argument. Two scalars are excluded for ordinary maps, and a
+separate exact gate closes the stated enriched Laurent leading point.
+The general border-D2 repair remains open. The fixed-lead/free-kernel
+and diagonal-deleted-corner pilots have both completed and failed exact
+acceptance; their complete saved maps and histories are preserved.
+
+The centered shared-input aggregation has been fully costed: it retains
+different partial-transpose orientations, and neither of its known
+source bounds meets the paired budget. The fixed full-format tensor is
+excluded as a matrix degeneration. That fixed tensor is a closed task.
+Three agents now coordinate an actual Q-source construction through
+noncommuting shift operators, displacement identities, and bounded
+size-dependent Fourier/chirp/reflection probes with exact small controls.
+Any auxiliary tensor must be included in the complete character cost.
+
+PR #35, `research/paired-frontier-unequal-entropy-20261020`, continues with
+three coordinated agents on exact recovery and scalable near-full
+width-four maps. The small target `Q(5,4) -> M4` now has a complete
+integer witness, recovered from numerical rowspaces and verified without
+floating-point arithmetic. The same proof gives `Q(k+1,k) -> M(k,4,k)`.
+It supplies no exponent improvement; its fixed-width dimension limit
+does not permit a near-full large-n extension. The next target is
+`Q(6,4) -> M(5,4,5)` beyond that template's limit.
+The branch supplies a conditional linear-correction criterion, complete
+ordinary narrow-source obstructions, and explicitly limited symmetry and
+jet exclusions. Full narrow ordinary fits and the excluded regular-long-leg
+Laurent class are closed tasks. The required width-four unbounded family
+remains open. Checkpoint `cfa12ba` passes 467 local tests and five archive
+replays. The next checkpoint `1e0e468` completed 476 tests with one
+unsupported claim-status failure and five passing archive replays. The
+status label is repaired in the current continuation; its enlarged tree,
+including main `11aca0f`, is checkpoint `9d8b240`: all 485 local tests,
+five archive replays, and nine hosted checks passed. The next continuation
+integrates main `e00622f` and needs its own full validation.
+
+The boundary-only extension of the integer seed is now excluded at every
+Laurent order: its leading first-leg kernel has dimension at most one,
+whereas the next matrix size needs nine. The constructive search therefore
+allows old long-map columns to move and seeks exact leading points with
+larger kernels. All diagonal Laurent weights of the two prescribed
+near-full quantum families are also excluded by a balanced-support lemma.
+The quantum lane now examines structured corrections and different maps.
+The complete Q54 numerical discovery history is retained separately from
+the exact integer witness; small residuals alone remain insufficient.
+
+The correction allowance now extends to `O(n^alpha)` for any fixed
+`alpha<3/2`; `alpha=4/3` retains the conditional bound below 2.2334.
+Constructive work examines the bulk of the quantum target with explicitly
+costed missing diagonals and different smaller leading points with more
+kernel slack. The fixed M2-leading monomial first-jet chart is excluded.
+Six complete-flag fits are preserved with exact grading/gauge controls;
+their low residuals do not pass exact Laurent acceptance.
+
+The inherited M1 endpoint corner has now been constructed exactly and
+excluded from degenerating to M4 by a closed low-slice-rank obstruction.
+The smaller sparse M1 lead has an all-size first-edge support deficit.
+Moving leading maps and changing the corner kernel remain open. The two
+completed moving-leading fits failed their coefficient and leading-rank
+conditions; the current free-kernel fit has no exact certificate either.
+The next reduced questions are a diagonal-deleted M4 target and a
+one-scalar correction to the corner. The natural fixed-endpoint corner
+family loses too many long-leg dimensions to scale directly, so either
+small success would still require an additional extension argument.
+
+The quantum lane closes the stated small homogeneous corrections to
+one fixed root-of-unity point and a fixed monomial first-cross chart for
+the partial bulk target. Arbitrary ungraded and differently singular
+maps remain open. Its next constructive question examines centered
+tensor aggregation, including the transpose orientation and all-size
+source costs. The 39 terminal leading-M4 points and twelve partial-bulk
+records are preserved as finite search evidence. A documented metadata
+repair restores sampled ridge histories without changing tensor maps.
+
+The central-group worker merged H_5 incidence through PR #42 at `bfc5243`
+and the all-power modular application through PR #78 at `b95abc2`; both
+completed branches were removed after matching their tested and merged trees.
+Petrov's credited filtration closes the ordinary degree gate for coordinate
+H_p constructions, including all powers and finite rectangular direct sums,
+for every odd prime p<=47. Arbitrary complex maps remain open.
+PR #73 contains the SL(2,5)/split-cover M10 source and parity package;
+PR #79 adds the written subgroup-ideal coset cuts. Neither target is built.
+The next constructive source is S5 x C2 with target M(13,14,14), owned on
+`research/s5-split-20261021`. Its cost comparison is conditional; no smaller
+exponent has been established.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates

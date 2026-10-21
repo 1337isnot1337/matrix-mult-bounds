@@ -1,0 +1,816 @@
+{
+  "sources": [
+    {
+      "source": "C[F8^2:C7]",
+      "degrees": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "source_dimension": 448,
+      "sorted_shapes_checked": 4811,
+      "strict_degree_gate_formats": 59,
+      "rank_locus_survivor_count": 26,
+      "koszul_records": [
+        {
+          "shape": [
+            16,
+            16,
+            26
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              16,
+              16,
+              26
+            ],
+            "power": 189,
+            "source_rank": 45696562055662055090034761272002110175018220119273898708466514461037585510033248472373345349479387294690253813409515986435359838931761,
+            "target_rank": 45705699179542069496110302377432270805513496557377166897796303261025221409716354251425080863704677060346662765311054784060470465846272,
+            "rank_one_divisor": 66079992661135091028886420484437592008339485771449151180734668185283641972260714159246655997120777695139548955868956492062899912935
+          }
+        },
+        {
+          "shape": [
+            17,
+            17,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            16,
+            17,
+            24
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            17,
+            17,
+            24
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              17,
+              17,
+              24
+            ],
+            "power": 210,
+            "source_rank": 4271529442480626620737690838324065935449780036010278971631714865662823042341525138555810341046539219255347543255424855259533847286435900,
+            "target_rank": 4271658500122429430515151014116112962126044441537085317505796416877891308075592381079763880893421079412568128316338205128817884622653120,
+            "rank_one_divisor": 6072798466565644562319052179695632452787639374379862743777741118773873773403907180117689381771841098229548085021826462332185157605860
+          }
+        },
+        {
+          "shape": [
+            18,
+            18,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            17,
+            18,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            18,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            16,
+            18,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            17,
+            18,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            18,
+            23
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              18,
+              18,
+              23
+            ],
+            "power": 188,
+            "source_rank": 33307460331589648057762710772799469722639578816418007222003528665716281917295518259921759125582824899970725462425151629123450070474543,
+            "target_rank": 33331469380748201655501923032645493551745264446570264436704333851337595384419805241691975505792146366916833502384303568668559423678240,
+            "rank_one_divisor": 48220535185152633994052252785940945519599084211598029239995568675747522520298358981071884106007053993750481670498968250964818855385
+          }
+        },
+        {
+          "shape": [
+            19,
+            19,
+            19
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            19,
+            20
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            19,
+            20
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            17,
+            19,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            19,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            19,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            16,
+            19,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            17,
+            19,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            19,
+            22
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              18,
+              19,
+              22
+            ],
+            "power": 187,
+            "source_rank": 24055185788858670906987177707762173682048196294095618437567285399566874378775483197733045040542897901434403653440737552747332897680785,
+            "target_rank": 24065737085244450299361740860211262829295186291468097442575031300477032578366359520126743248171776050075283787175009360833478910080128,
+            "rank_one_divisor": 34867156210802673811083936629834222144940876276078574988919872734771285514677274955544285430497408272404194438668484735313022864663
+          }
+        },
+        {
+          "shape": [
+            19,
+            19,
+            22
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              19,
+              19,
+              22
+            ],
+            "power": 178,
+            "source_rank": 848430301879120565569600577229961859153096734830617159178708426361445937967484405165509833501779168517532847461382183627808102916263,
+            "target_rank": 849178648814055164894417934054366968243766680586064144504951633119457835005902346531047014418174541127718336352575893073605144702080,
+            "rank_one_divisor": 1244686268275882627402268708012886017571750017091429412446487886197763429407494490044089225359633849795493976544927247506011592545
+          }
+        },
+        {
+          "shape": [
+            17,
+            20,
+            20
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            20,
+            20
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            20,
+            20
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            20,
+            20,
+            20
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            16,
+            20,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            17,
+            20,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        }
+      ],
+      "koszul_surviving_shapes": [
+        [
+          16,
+          17,
+          24
+        ],
+        [
+          16,
+          18,
+          23
+        ],
+        [
+          16,
+          19,
+          22
+        ],
+        [
+          16,
+          20,
+          21
+        ],
+        [
+          17,
+          17,
+          23
+        ],
+        [
+          17,
+          18,
+          22
+        ],
+        [
+          17,
+          18,
+          23
+        ],
+        [
+          17,
+          19,
+          21
+        ],
+        [
+          17,
+          19,
+          22
+        ],
+        [
+          17,
+          20,
+          20
+        ],
+        [
+          17,
+          20,
+          21
+        ],
+        [
+          18,
+          18,
+          21
+        ],
+        [
+          18,
+          18,
+          22
+        ],
+        [
+          18,
+          19,
+          20
+        ],
+        [
+          18,
+          19,
+          21
+        ],
+        [
+          18,
+          20,
+          20
+        ],
+        [
+          19,
+          19,
+          19
+        ],
+        [
+          19,
+          19,
+          20
+        ],
+        [
+          19,
+          19,
+          21
+        ],
+        [
+          19,
+          20,
+          20
+        ],
+        [
+          20,
+          20,
+          20
+        ]
+      ],
+      "minimal_surviving_shapes": [
+        [
+          16,
+          17,
+          24
+        ],
+        [
+          16,
+          18,
+          23
+        ],
+        [
+          16,
+          19,
+          22
+        ],
+        [
+          16,
+          20,
+          21
+        ],
+        [
+          17,
+          17,
+          23
+        ],
+        [
+          17,
+          18,
+          22
+        ],
+        [
+          17,
+          19,
+          21
+        ],
+        [
+          17,
+          20,
+          20
+        ],
+        [
+          18,
+          18,
+          21
+        ],
+        [
+          18,
+          19,
+          20
+        ],
+        [
+          19,
+          19,
+          19
+        ]
+      ],
+      "proof_dependency": "2026-10-20-paired-sources/matrix_koszul.md and matrix_euler.md",
+      "coverage": "All sorted integer formats with a>=2 and b*c<=source dimension. Every unexcluded format is tested at all powers via duality and all tensor-leg orderings. Excluded formats stop at a checked witness.",
+      "scope": "General complex tensor degenerations of the stated direct-sum matrix source. Passing is only necessary.",
+      "proof_status": "written proof; unreviewed; not formalized",
+      "improves_omega": false
+    },
+    {
+      "source": "C[SL(2,F8)]",
+      "degrees": [
+        1,
+        7,
+        7,
+        7,
+        7,
+        8,
+        9,
+        9,
+        9
+      ],
+      "source_dimension": 504,
+      "sorted_shapes_checked": 5834,
+      "strict_degree_gate_formats": 56,
+      "rank_locus_survivor_count": 18,
+      "koszul_records": [
+        {
+          "shape": [
+            18,
+            18,
+            25
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            18,
+            26
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              18,
+              18,
+              26
+            ],
+            "power": 232,
+            "source_rank": 165817078951030564526030314294035013447168641675629790333054079663924873676804835989402322399523746989551892403907042449207800536941842316720803934703833,
+            "target_rank": 165844306253977754684873781774957515153072736925625055358900748919479899077767718244163850691069199721119321426805721205197887611637275542277876338939680,
+            "rank_one_divisor": 205614618997604289058414279977992769998639341428722545662705029309882221695534740912592877663004205653086309384213742249046379601911985705726107555650
+          }
+        },
+        {
+          "shape": [
+            19,
+            19,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            19,
+            24
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            19,
+            24
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            20,
+            20,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            20,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            20,
+            20,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            20,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            20,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            20,
+            20,
+            23
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            21,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            20,
+            21,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            21,
+            21,
+            21
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            18,
+            21,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            19,
+            21,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            20,
+            21,
+            22
+          ],
+          "excluded": false,
+          "scope": "All first-leg Koszul powers and all tensor-leg orderings pass; no construction."
+        },
+        {
+          "shape": [
+            21,
+            21,
+            22
+          ],
+          "excluded": true,
+          "witness": {
+            "ordered_shape": [
+              21,
+              21,
+              22
+            ],
+            "power": 237,
+            "source_rank": 326732516074894808652407524249180074366453756401829618317286536985216642285992810022225128645447984494783827057866717342223669660143155849064983506848112,
+            "target_rank": 326797312341128568080005058579233561762552281519939009271284407034266627292200752225295433920795165584413836250871034900872568925215233526780120301562800,
+            "rank_one_divisor": 404096780227060433295763671924881722515813681897876727760977431948566525021883078516396636631310533021760248972057693278839438263790857230139831315050
+          }
+        }
+      ],
+      "koszul_surviving_shapes": [
+        [
+          18,
+          18,
+          25
+        ],
+        [
+          18,
+          19,
+          24
+        ],
+        [
+          18,
+          20,
+          23
+        ],
+        [
+          18,
+          21,
+          22
+        ],
+        [
+          19,
+          19,
+          23
+        ],
+        [
+          19,
+          19,
+          24
+        ],
+        [
+          19,
+          20,
+          22
+        ],
+        [
+          19,
+          20,
+          23
+        ],
+        [
+          19,
+          21,
+          21
+        ],
+        [
+          19,
+          21,
+          22
+        ],
+        [
+          20,
+          20,
+          21
+        ],
+        [
+          20,
+          20,
+          22
+        ],
+        [
+          20,
+          20,
+          23
+        ],
+        [
+          20,
+          21,
+          21
+        ],
+        [
+          20,
+          21,
+          22
+        ],
+        [
+          21,
+          21,
+          21
+        ]
+      ],
+      "minimal_surviving_shapes": [
+        [
+          18,
+          18,
+          25
+        ],
+        [
+          18,
+          19,
+          24
+        ],
+        [
+          18,
+          20,
+          23
+        ],
+        [
+          18,
+          21,
+          22
+        ],
+        [
+          19,
+          19,
+          23
+        ],
+        [
+          19,
+          20,
+          22
+        ],
+        [
+          19,
+          21,
+          21
+        ],
+        [
+          20,
+          20,
+          21
+        ]
+      ],
+      "proof_dependency": "2026-10-20-paired-sources/matrix_koszul.md and matrix_euler.md",
+      "coverage": "All sorted integer formats with a>=2 and b*c<=source dimension. Every unexcluded format is tested at all powers via duality and all tensor-leg orderings. Excluded formats stop at a checked witness.",
+      "scope": "General complex tensor degenerations of the stated direct-sum matrix source. Passing is only necessary.",
+      "proof_status": "written proof; unreviewed; not formalized",
+      "improves_omega": false
+    }
+  ],
+  "improves_omega": false
+}
