@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The pure-row five-space package in
+`research/ai/2026-10-21-pure-mixed-five-spaces/` was generated in this
+owner-directed Codex session. It adopts the canonical source, uniform
+adapted slices, polynomial normal kernels and shifted target argument.
+The stable-row split, minimum-rank-two projection, uniform terminal
+elimination and source-scaling extension are local work. Incomplete
+large determinantal pilots are not presented as proof. Independent review
+and an exponent improvement are not claimed.
+
+
 The uniform adapted-source package in
 `research/ai/2026-10-21-mixed-five-space-uniform/` was generated in this
 owner-directed Codex session. It reuses the point package virtual tensor

@@ -1,6 +1,17 @@
 # Integrated research coordination
 
 The mixed-frame worker now studies
+`ai/2026-10-21-pure-mixed-five-spaces/QUESTION.md`. Pure mixed rows close
+the seven-by-five case for b nonzero, with exact polynomial certificates
+for every a after scaling b=1. The remaining quotient normals split into
+six- and fourteen-dimensional families, and both terminal systems close.
+The unresolved question is arbitrary mixed-row graphs; their pure-row
+containment must not be assumed. Remaining partner strata are also open.
+PR66 merged at294aca8 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
+
+The mixed-frame worker now studies
 `ai/2026-10-21-mixed-five-space-uniform/QUESTION.md`. The first sixteen
 low-rank source slices are now certified throughout the two-parameter
 partner chart, with polynomial adapted sources and correction factors.
