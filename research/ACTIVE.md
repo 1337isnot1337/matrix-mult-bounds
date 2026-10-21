@@ -48,13 +48,14 @@ The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
 The mixed-jet worker continues in
-`ai/2026-10-21-invertible-line-lifts/QUESTION.md`. The selected invertible
-first pair has 40 normal directions after its required zero third block.
-A specified 36-direction lifting ansatz has sixteen quadratic conditions;
-a compatible control has uncorrected first rank 13. Finish its third
-leading-row equations and investigate later output growth. This is a
-construction attempt, not an improving matrix target or a nonlinear
-gauge classification. Boundary-frame work stays with the quantum worker.
+`ai/2026-10-21-invertible-five-frame/QUESTION.md`. The written five-frame
+proof excludes every compatible invertible mixed-line pair at these flags,
+including arbitrary boundary graphs and delayed unequal first orders.
+A finite rank-thirteen truncation has an exact cubic repair, but the
+output-growth obstruction prevents its use for the 110-dimensional target
+legs. Next examine rank-one mixed partner families and smaller first
+spaces. This is an unreviewed local exclusion; the exponent is unchanged.
+Boundary-frame biform work stays with the quantum worker.
 
 
 
