@@ -73,6 +73,23 @@ seed's nonextension proof were generated and checked in this same
 session. The conditional 2.24975 comparison has a missing full square
 target and is not an achieved exponent.
 
+The exact spin-core preimages, endpoint correction and subsequent
+fixed-repaired-core extension proof are also local work. Separate
+agents checked the full coefficients and the moving first-image
+argument within this generating session. The endpoint repair is an
+actual rectangular construction; its rank-191 response alone does
+not construct the proposed square target. Review status remains
+written and unreviewed throughout.
+
+The four-chain spin module and its eight simultaneous single-channel
+attachments are exact local constructions from the original A(8,8)
+source. Their exported rational maps and complete coefficient arrays
+were checked in this generating session. The attached tensor shares
+three third-leg variables with the core and is not a direct sum or a
+completed square target. Separate undoubled and private-boundary searches
+retain only finite-field discovery claims, with no accepted rational
+maps or characteristic-zero nonexistence conclusion.
+
 The source-weight window and original-source Laurent-fiber continuation
 was generated and audited by coordinated agents in the same session.
 Its exact golden-ratio slice, full Laurent maps, and coordinate-cover

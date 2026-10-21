@@ -6,11 +6,45 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records fifty-six local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-CHANGED-CORNER-MODULE-107,
+The constructive continuation records sixty-two local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-SPIN-CHANNEL-ATTACHMENT-113,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+A [new four-chain spin module](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34.md)
+changes both retained maps and constructs M(3,3,28) exactly. Deleting
+one channel leaves three explicit boundary directions that support
+[eight simultaneous attachments](research/ai/2026-10-20-anisotropic-constructions/spin_channel_extension.md).
+The resulting tensor has leg dimensions (33,89,81): it glues
+M(3,3,27) and M(3,8,1) along three third-leg variables. All 237,897
+target coefficients are checked exactly. Each new second vertex still
+lacks 26 channels; this is not a complete M(3,11,27) tensor or a square
+target. Its first response has rank 216 and first preimage dimension 777.
+
+The [boundary-discovery record](research/ai/2026-10-20-anisotropic-constructions/spin_private_boundary_discovery.md)
+also preserves 108 finite-field undoubled-module trials and a separate
+private-boundary repair attempt. Neither supplies accepted rational maps.
+Their rank calculations apply to the recorded charts over F65521 and
+do not establish a characteristic-zero obstruction.
+
+An [exact endpoint repair](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_endpoint.md)
+changes the retained Y map and gives A(8,8) to M(3,3,27) with response
+rank 191. Its first preimage has dimension 778, meeting the necessary
+dimension allowance for M27 plus M7. A separate
+[coefficient argument](research/ai/2026-10-20-anisotropic-constructions/spin_endpoint_extension.md)
+nevertheless excludes an ordinary extension that keeps those repaired
+Y and Z rows: a new matrix unit would have response rank at most one
+where the target requires three. This proof permits arbitrary kernel
+changes to the nine first images. Changed retained maps and the
+dimension-774 target M27 plus M6 plus M3 remain open.
+
+The [original spin-core preimages](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin_assembly.md)
+are also determined exactly. All 28 single-coordinate middle deletions
+keep response rank 192 and first preimage dimension 777. With the
+actual first map fixed, explicit bases give dimensions 727 and 747
+for adding second- and third-leg rows. The remaining coupled equations
+are not implied by those linear spaces.
 
 The [spin-one module construction](research/ai/2026-10-20-anisotropic-constructions/spin_module14.md)
 now gives exact rational maps from A(4,8) to M(3,3,14) and from A(8,8)
@@ -79,10 +113,16 @@ checks all four new packages, main's mixed second-order family through
 skips or failures.
 The [full spin-and-corner regression receipt](results/anisotropic-constructions-2026-10-20/spin-corner-full-validation.json)
 pins checkpoint `4ed2b52`: 513 tests completed, with 510 passed and
-three optional skips. The later integration of main's mixed third-order
-proof at `b113866` has a separate
+three optional skips. The later preimage, endpoint-repair and extension
+packages are not included in that count.
+The integration of main at `b113866` also has a separate
 [27-test focused receipt](results/anisotropic-constructions-2026-10-20/spin-corner-main-integration-validation.json),
 with no skips or failures.
+The [assembly checkpoint receipt](results/anisotropic-constructions-2026-10-20/spin-assembly-focused-validation.json)
+checks the exact preimages, endpoint repair, fixed-map extension proof,
+four-chain module, simultaneous attachments and repository invariants:
+31 tests pass with no skips. The finite-field discovery files are
+preserved separately from the rational construction certificates.
 
 The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
 now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit

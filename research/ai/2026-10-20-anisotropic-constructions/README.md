@@ -22,6 +22,25 @@ give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
 unwanted coefficient is checked from the actual rational maps. These
 rectangular subsystems still require compatible square extensions.
 
+The [four-chain spin construction](parity_structure_spin_w34.md)
+gives a different exact M(3,3,28) module. After one channel is deleted,
+its boundary supports [eight simultaneous new vertices](spin_channel_extension.md)
+on one retained channel. The full coefficient replay gives a tensor of
+leg dimensions (33,89,81), obtained by gluing M(3,3,27) to M(3,8,1)
+along three third-leg variables. Each added vertex still needs 26
+channels. A [separate discovery note](spin_private_boundary_discovery.md)
+records unsuccessful undoubled and private-boundary charts over F65521;
+these calculations are not rational construction certificates.
+
+The [exact spin-core preimages](parity_balancing_spin_assembly.md)
+give complete first-kernel and added-row bases. An
+[endpoint correction](parity_structure_spin_endpoint.md) changes Y
+and lowers the first response to rank 191 for M(3,3,27). The
+[fixed-repaired-core proof](spin_endpoint_extension.md) then excludes
+retaining that pair of maps in an ordinary M27 plus M7 extension,
+even with arbitrary first-kernel shifts. The dimension-774 alternative
+and changed retained maps remain construction questions.
+
 The [spin-one transfer](spin_module14.md) now constructs M(3,3,14)
 from A(4,8) and M(3,3,28) from A(8,8), with no added scalar source.
 The first response uses at most 192 source coordinates. A changed

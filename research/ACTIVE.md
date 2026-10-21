@@ -95,7 +95,7 @@ is merged at `e00622fc3e3179f2c87ac3185f2158c39b2fe707`. Its source tree
 matches the tested head `df9e12c`. All current hosted checks passed;
 Python 3.10 ran 471 tests, with 470 passed and one optional control skipped.
 The fully incorporated local and remote topic branches were removed.
-The current continuation branch is `research/weight-mixing-20261021`, in
+The continuation branch `research/weight-mixing-20261021` was integrated in
 [PR #51](https://github.com/1337isnot1337/matrix-mult-bounds/pull/51).
 Its first checkpoint `5d5cc6d` passes all hosted checks. The pushed
 checkpoint `1f813bb` adds exact crossed modules, two-source capacity,
@@ -108,8 +108,15 @@ main's mixed second-order family at `21f54c3` with the new spin, corner
 and fixed-map packages. Its 35 focused tests and full 513-test suite
 pass, with three optional skips in the full suite. All current hosted
 checks for `4ed2b52` pass; hosted Python 3.10 also runs 513 tests with
-three skips. The next integration incorporates main's third-order
-mixed-space proof at `b113866` before merging PR #51.
+three skips. The final integration incorporates main's third-order
+mixed-space proof at `b113866` and is pushed at `dab88a6`, with 27 passing
+focused checks. All hosted checks pass for that revision; Python 3.10
+completes 517 tests. PR #51 is merged at `46e343c`, whose tree exactly
+matches the tested head. The fully incorporated local and remote topic
+branches are removed. Further assembly work is on
+`research/spin-assembly-20261021`, based on that verified merge.
+Its exact packages through claim 113 pass 31 focused checks, including
+the complete rational maps and repository invariants.
 The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
 incorporated in main. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays
@@ -169,6 +176,18 @@ would imply omega below 2.24975, but the required maps are missing.
 The agents are computing exact preimages for additional matrix rows,
 repairing retained maps, and testing extensions with dimension slack.
 None of these results lowers the exponent yet.
+Claims 108 through 110 now give the full saved-core preimages, an exact
+Y-map endpoint repair with response rank 191, and the ensuing fixed-map
+extension exclusion at dimension 778. The endpoint repair changes the
+map and meets the dimension allowance, but its retained Z map forces
+a new-row response of rank at most one. Claims 111 through 113 give a
+different four-chain spin module, finite boundary-discovery records,
+and eight simultaneous exact single-channel attachments. The combined
+tensor glues M(3,3,27) to M(3,8,1) along three third-leg variables;
+all 237,897 target coefficients are checked. This is a partial tensor:
+each added vertex still lacks 26 channels. The agents are changing
+retained maps jointly and constructing Laurent cancellation to complete
+compatible channels. The dimension-774 alternative remains open.
 Pure A22
 tensor powers cannot cross the current sixfold square-sum gate even by
 dimension, so recycling work requires a different source budget or a real
