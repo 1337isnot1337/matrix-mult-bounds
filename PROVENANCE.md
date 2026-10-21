@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-21-mixed-axis-family` package is same-session AI-derived
+work directed by the repository owner. It adopts the existing source,
+virtual corrections, rank gap and stable-row projection with their credits.
+The new axis certificates use ordinary Gaussian operations over the
+Laurent polynomial ring, with explicit unit pivots and a complete rank
+minor. Standard linear algebra is not claimed as novel. The remaining
+normal family is open; there is no independent review or exponent gain.
+
 The `2026-10-21-mixed-five-space-graphs` package is same-session AI-derived
 work directed by the repository owner. It adopts the maintained source,
 virtual corrections, target rank gap and induction with their existing
@@ -443,3 +451,7 @@ incidence count and vector-valued second jets. Its stationarity controls
 retain a triple-proportional bad example where the conclusion fails. The
 result is a scoped obstruction to the constructed family, not a general
 classification or an improved exponent.
+
+## Outer compression, October 21, 2026
+
+The rectangular consequence in `research/ai/2026-10-21-rectangular-direct-sums/outer_compression.md` imports Gyory's thesis Theorem 2.1 (2003), inspected from the institutional primary PDF, with its finite-dimensional hypotheses. The matrix-padding reduction, dimension arithmetic and finite-realization counterexample are this session's work. No general critical-stratum classification or exponent improvement is claimed. Four focused tests pass; the imported theorem is not re-proved by those tests.

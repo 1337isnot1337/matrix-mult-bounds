@@ -22,6 +22,18 @@ are closed under the written lemmas. The degree-two Laurent construction
 search continues independently; numerical residuals are not certificates.
 
 The mixed-frame worker now studies
+`ai/2026-10-21-mixed-axis-family/QUESTION.md`. The axis m+t*d0 at b=1
+has uniform normal and projection certificates for every a and t nonzero.
+Ten quotient parameters remain. A projected rank-two control rules out
+the stronger projection-only minimum-rank-three shortcut. The current
+question is its five-variable block incidence and the full obstruction.
+PR68 merged at5340485 with equal source/squash trees; its completed
+local and remote branches are removed. All579 current local tests ran,
+with576 passes and3 optional skips; all five archive replays passed.
+No exponent gain is established.
+
+
+The mixed-frame worker now studies
 `ai/2026-10-21-mixed-five-space-graphs/QUESTION.md`. Four specified nontrivial
 graph families close at partner a=b=1, each with arbitrary boundary part.
 Quadratic-minor spans replace stalled triangular-minor cuts. The general
@@ -412,3 +424,5 @@ Concurrent overlaps are credited in package notes and sources.json. In
 particular, canonical exact-restriction and equivariant-flattening arguments
 independently overlapped d2d505c and 6bdab15. The quantitative capacity bound
 is complementary to 8e0a766, retaining distinct hypotheses.
+
+- Outer-compression consequence: `ai/2026-10-21-rectangular-direct-sums/outer_compression.md`. Both outer rank-two strata are too small for an injective target leg. The missing classification of nonregular critical slices remains open.
