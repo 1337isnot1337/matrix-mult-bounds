@@ -1,0 +1,206 @@
+{
+  "group": "C29:C4",
+  "shape": [
+    10,
+    10,
+    10
+  ],
+  "records": [
+    {
+      "base_directions": [
+        1,
+        3,
+        9
+      ],
+      "family_domain_sizes": [
+        228,
+        78,
+        228
+      ],
+      "pair_statistics": [
+        {
+          "families": [
+            0,
+            1
+          ],
+          "domain_pairs": 17784,
+          "outcomes": {
+            "quotient-1": 6220,
+            "passes": 20,
+            "quotient-28": 30,
+            "normal-with-third-base": 11313,
+            "quotient-12": 198,
+            "quotient-17": 3
+          },
+          "compatible_pairs": 20
+        },
+        {
+          "families": [
+            1,
+            2
+          ],
+          "domain_pairs": 17784,
+          "outcomes": {
+            "quotient-1": 13248,
+            "quotient-28": 13,
+            "passes": 26,
+            "normal-with-third-base": 4374,
+            "quotient-12": 121,
+            "quotient-17": 2
+          },
+          "compatible_pairs": 26
+        },
+        {
+          "families": [
+            2,
+            0
+          ],
+          "domain_pairs": 51984,
+          "outcomes": {
+            "quotient-1": 15289,
+            "quotient-28": 14,
+            "passes": 23,
+            "normal-with-third-base": 36324,
+            "quotient-12": 334
+          },
+          "compatible_pairs": 23
+        }
+      ],
+      "pair_compatible_triangles": 2,
+      "rejected_by_full_normal_triples": 0,
+      "survivors": [
+        {
+          "family_indices": [
+            72,
+            43,
+            28
+          ],
+          "cells": [
+            [
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            [
+              [
+                3,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            [
+              [
+                3,
+                9
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                2,
+                13
+              ]
+            ]
+          ]
+        },
+        {
+          "family_indices": [
+            72,
+            43,
+            172
+          ],
+          "cells": [
+            [
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            [
+              [
+                3,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            [
+              [
+                3,
+                9
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                3,
+                9
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "bases_covered": 1,
+  "local_survivors": 2,
+  "distinct_quotient_packing_problems": 18227,
+  "scope": "All size-ten fiber patterns after the C29 three-point classification.\n\nNormal-fiber directions and pair-quotient translations are exact necessary\ntests. Offsets are independent in each pair quotient; surviving triples are\nnot global group constructions or positive-potential witnesses.\n",
+  "improves_omega": false
+}
