@@ -1,14 +1,6 @@
 {
   "date_utc": "2026-10-21",
   "python": "3.12.14",
-  "published_full_regression": {
-    "commit": "3647e0ba0230fd3aa395b19de019202fa74c3715",
-    "tree": "97791c90d5ffafa7db0a6e03b5c37e91136ace63",
-    "command": "python -m unittest discover -s tests -v",
-    "tests": 558,
-    "seconds": 593.604,
-    "result": "passed"
-  },
   "integration": {
     "commit": "49510c0b73b9c0f66893007aa95c23b6e354db2e",
     "main_commit": "93b22235135c5ff54b18b9b51424b4fd53e942b6",
@@ -16,7 +8,8 @@
     "tests": 5,
     "seconds": 20.5,
     "result": "passed",
-    "scope": "New independent biform package only. The complete integrated suite has not been rerun."
+    "scope": "New independent biform package only. The complete integrated suite has not been rerun.",
+    "code_equivalent_published_commit": "157fbe033d6c6492a46a2e2ab919e3d90a3e06e4"
   },
   "rectangular_focused": {
     "command": "python -m unittest discover -s tests -p 'test_rectangular*.py' -v",
@@ -25,5 +18,28 @@
   },
   "remote_ci": "Not triggered on research-branch pushes; no CI pass claimed.",
   "proof_status": "Written and unreviewed. Computational tests are not an independent mathematical audit.",
-  "improves_omega": false
+  "improves_omega": false,
+  "full_regressions": [
+    {
+      "commit": "3647e0ba0230fd3aa395b19de019202fa74c3715",
+      "tree": "97791c90d5ffafa7db0a6e03b5c37e91136ace63",
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 558,
+      "seconds": 593.604,
+      "result": "passed"
+    },
+    {
+      "commit": "a0587f265009c58ecde71f68facafdaa3d72610a",
+      "tree": "da08726e28d9a0250cf02edf8f760b6ea9320ae0",
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 567,
+      "seconds": 659.379,
+      "result": "passed"
+    }
+  ],
+  "single_target_followup": {
+    "command": "python -m unittest discover -s tests -p test_rectangular_single_target.py -v",
+    "tests": 4,
+    "result": "passed after the 567-test run; full combined 571-test rerun not performed"
+  }
 }
