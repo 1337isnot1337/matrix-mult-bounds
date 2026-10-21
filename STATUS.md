@@ -27,6 +27,13 @@ The general proofs, rather than their finite checks, support the all-integer sta
 
 The matching-profile result rules out improving the exponent from only its listed scalar assumptions. It neither proves $\omega\ge9/4$ nor excludes the full tensor spectrum.
 
+The [F8 variable-plane continuation](research/ai/2026-10-20-group-potentials/octal_research.md#variable-planes-after-the-first-main-integration)
+now searches independently chosen normal-fiber planes. Its encodings pass
+a complete known-model audit, and an independent integer checker validates
+the affine fibers and pair maps. The first native-parity run checks four
+candidates, including a reused control; all fail exact potential constraints.
+This extends discovery coverage and supplies no improved exponent.
+
 The current next steps are listed in [research directions](docs/research_directions.md). Repeating a completed finite search with the same parameters is reproduction, not new research progress.
 
 The [fixed cubic F8 parent obstruction](research/ai/2026-10-20-octal-parent-barrier/research_note.md)

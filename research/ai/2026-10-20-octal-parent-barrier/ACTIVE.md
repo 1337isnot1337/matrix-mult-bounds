@@ -8,8 +8,8 @@ Answer: No, under the written hypotheses. The orbit of an explicit eight-vertex
 positive circuit gives a seven-cycle hole inequality. Integer optimization
 bounds every such volume by 92,928. The proof is written and unreviewed.
 
-Source main: `843ad78`. Branch: `research/octal-parent-orbit-barrier-20261020`.
-The separate variable-plane continuation is PR #21; it uses a different source
+Source main: `0a675c2` (PR #21 integrated). Branch: `research/octal-parent-orbit-barrier-20261020`.
+The separate variable-plane continuation was merged through PR #21; it uses a different source
 and lies outside this obstruction.
 
 Evidence: `parent_barrier.py`, `research_note.md`, and
