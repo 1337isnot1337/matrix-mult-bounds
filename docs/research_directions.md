@@ -86,8 +86,14 @@ supply the finite gain.
 A [smaller sufficient target](../research/ai/2026-10-20-koszul/cyclic_finite_target.md)
 is A_4 to M(10,10,11), where A_4 has leg dimension 112. The minimum-slice-rank
 proof excludes all constant linear maps, so a construction needs a singular
-limit as well as input mixing. At a=5, four improving single-matrix shapes
-still pass the maintained constant-map screens; none is constructed.
+limit as well as input mixing. The later
+[polynomial rank-locus theorem](../research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)
+closes all four ordinary A5 targets that passed the old minimum-only
+screen. The [updated balanced rectangular frontier](../research/ai/2026-10-21-rectangular-ordinary-frontier/proof.md)
+uses the existing higher Hankel gates and excludes every improving ordinary
+single matrix shape through a=7. At a=8, M(27,28,28) is the sole sorted
+necessary-test survivor; its maps remain missing. Singular A4 constructions
+remain open.
 
 ## R5: Compare external formulations before duplicating work
 
