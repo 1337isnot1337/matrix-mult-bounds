@@ -109,3 +109,12 @@ nor nonexistence of a 48-point construction.
 
 The written proofs and exact finite frontiers narrow these ansatzes. They do
 not settle arbitrary group-algebra degeneration or improve the exponent.
+
+## Fixed-parent deletion route closed by an orbit count
+
+The earlier hitting-search timeout is superseded, within the fixed cubic
+parent class, by the [orbit-hole proof](../2026-10-20-octal-parent-barrier/research_note.md).
+It proves a volume bound of 92,928 for all rectangular vertex-subset targets
+with strict coordinate potentials. These all fail the usual 9/4 degree-sum
+gate. The proof is written and unreviewed. Independent-plane searches in the
+two-dimensional source and general degenerations are outside this obstruction.
