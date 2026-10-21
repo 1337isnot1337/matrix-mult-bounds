@@ -1,165 +1,55 @@
-# Continued campaign checkpoint
+# Continued exponent campaign
 
-Goal: prove a complete arithmetic exponent bound strictly below 9/4. The owner
-explicitly requested continued work without ending at a partial checkpoint.
-The active goal is not achieved. Do not mark it complete for a conditional
-number, a finite profile violation, an exclusion, or successful verification.
+Goal: prove a complete arithmetic exponent strictly below 9/4. The owner
+requested sustained work without stopping at a partial checkpoint. The
+active goal remains incomplete; no smaller exponent is established.
 
-Owned continuation branch: `research/octal-single-plane-20261020`, refreshed
-through main `d5911dd`. PR #21 merged variable-plane discovery and PR #22
-merged the fixed cubic-parent orbit obstruction. Both merged topic branches
-were removed after tree verification; the separate worktree was removed.
-The current source-448 question lies outside the closed cubic parent.
+Current branch: research/normal-coset-koszul-20261020, from main 4289a7b.
+Root checkout: /home/user/matrix-mult-bounds. A separate worktree at
+/tmp/matrix-c29 owns PR #29, the complete unequal C29 coordinate-potential
+frontier. Respect other workers' constructive-spectrum and SL2 source work.
 
-Current precise question: can one independently changing three-point plane
-escape the fixed-direction local constraints? For base [1,8,2,16,4,32],
-complete local mask packing rejects all 3,060 plane changes across twelve
-non-base fibers with the six short directions fixed. Two native-XOR pilots
-returned the reused control then untraced UNSAT. This is no general
-variable-plane exclusion. A separate exact full-space Koszul pilot leaves
-both group targets (source448 to M19 and SL2(5) to M10) open.
+Completed integrations: PR #21 variable-plane infrastructure; #22 fixed
+cubic F8 parent orbit-hole obstruction; #24 fixed-base one-plane frontier;
+#26 C29 size-ten classification and obstruction. Their fully incorporated
+branches were removed after exact merged-tree verification. None proves
+an exponent improvement. PR #29 extends the C29 obstruction to unequal
+single targets in the stated construction and source-cost model.
 
-Next distinct construction route: classify near-capacity three-point unique
-sum sets in C29 before fitting C29:C4. An exploratory normalization gives
-five first-set affine templates and six ordered unique-sum triples, all
-arithmetic progressions. That pilot still needs an independent checker and
-its group-level consequences.
+Current structural result: the identity-quotient restriction to an abelian
+normal subgroup has rank |H|. A classical three-slice Koszul inequality
+requires 3 sum k_a^2 - number(k_a=1) <=2|H| for common-fiber square minima.
+The new note in ../2026-10-20-normal-coset-koszul/ gives the proof, explicit
+integer matrices and complete finite count checks. Written and unreviewed.
 
-## Established in this branch, with actual status
+This closes ALL source448 size-nineteen targets with maximum fiber size
+three, including variable planes and all offsets. Normal-fiber unique sums
+also force every size-nineteen F2^6 fiber to have size at most four. With all
+fibers >=2, exactly 1,566 count-pattern triples survive the new necessary
+screen; they require four-point fibers in at least two families. Their
+normal directions, offsets and strict potentials are unconstructed.
+The same argument closes every source192 size-twelve coordinate target
+and rules out source C31:C6 candidates having all fibers >=2.
 
-- Earlier entropy work: unreviewed all-size balanced optimistic-score gap
-  39/40; no weighted block-extraction theorem or exponent improvement.
-- `research_note.md`: exact group-potential certificate format, general
-  determinant-divisor obstruction, and abelian-coset ceiling lemma. Written
-  proofs are unreviewed. The source SL(2,5) degrees were verified using all 81
-  products of nine primitive central idempotents over Q(sqrt(5)).
-- `rank_locus_proof.md`: arbitrary complex degeneration to M(a,b,c), a<=b<=c,
-  requires N>=b*c+D(a-1), with D(r) computed from source degrees as an integer
-  knapsack. Its explicit rank-eight, dimension-fourteen cone excludes SL(2,5)
-  targets (9,9,12) and (9,10,11). Of all seven sorted shapes passing the exact
-  9/4 degree-sum gate, only (10,10,10) survives this screen. This is a written,
-  unreviewed argument, not a SAT proof or an exponent result.
-- A successful SL(2,5) target degeneration would give omega<=2249/1000 by the
-  exact conditional gate. None is constructed. The small (3,3,3) control
-  succeeds with 27 intended terms and one killed extra term.
-- Exactly 479 old Farkas cuts replay (20 SL2 control, 459 affine C5:C4).
-  Larger SAT runs have no qualifying witness. Untraced UNSAT is not promoted
-  to mathematical proof; many cases now have independent rank-locus exclusions.
+Next precise construction question: source448 size nineteen with four-point
+normal fibers. Test the surviving count patterns with full affine planes,
+three-point triangles, and two-point short directions. Check local pair
+packing before global offsets. A promising local pattern is not a witness;
+accept only complete source support and exact integer potential verification.
+Patterns with zero/one-point fibers and general changes of basis remain open.
 
-## Current implementation and live work
+Historical work and exact status:
+- ../2026-10-20-full-filtration/: balanced optimistic entropy gap39/40;
+  no weighted extraction theorem.
+- rank_locus_proof.md: general complex group-degeneration necessary test;
+  source SL2(5) to M10 remains open.
+- octal_research.md: earlier direction, offset and parent searches with
+  exact rejection circuits and honest timeout/untraced-UNSAT boundaries.
+- ../2026-10-20-c29-near-capacity/: near-capacity normal classification and
+  scoped coordinate-potential exclusions; general degeneration remains open.
 
-- `search.py`: Glucose4 and budgeted CaDiCaL195 discovery, integer-only
-  acceptance via `group_exact.py` and `verify_reports.py`.
-- Affine groups use largest-coset normalization, exact integer max-fiber
-  product constraints and complete cyclic-subgroup tables in
-  `abelian_tables.py`. The canonical C29 normal (3,3,3) table has 162 rows.
-- The latest SL(2,5) search uses the order-20 upper-triangular Borel subgroup
-  (index six). Independent right translations give at least two Borel points
-  in each size-ten set. A finite conjugation/inversion certificate covers all
-  nineteen nonidentity Borel quotients with four canonical anchors. This is
-  an exact search normalization, not a new target construction.
-- Inspect `results/group-potentials-2026-10-20/*borel-cadical.json` and process
-  status for the continuing SL2 (10,10,10) run. A report marked `running` is
-  an initial or intermediate checkpoint, not completed coverage.
-- Source rank-locus screens should precede any new affine search. They remove
-  the tested C13:C3, C17:C4 and C19:C3 targets, plus C31:C5 (12,12,12) and
-  C31:C6 (13,13,13). C29:C4 (10,10,10), C31:C6 (12,13,13), and larger suitable
-  shapes remain candidates; their degeneration is unconstructed.
-
-## Commands and constraints
-
-Use `/tmp/matrix-entropy-venv/bin/python`. Optional discovery dependencies are
-installed there (NumPy, SciPy, python-sat, SymPy). Exact certificates use the
-standard library; repository tests use its existing SymPy dependency.
-There are four CPU cores and limited free disk (check live space). Bound each
-discovery run, retain actual parameters, verify every accepted witness, and
-commit/push coherent checkpoints. Do not repeat unchanged timed-out searches.
-
-Run the focused suite with `python -m unittest discover -s tests -p
-test_group_potentials.py -v`; run the full suite before a substantial checkpoint.
-Archive replay passed unchanged. Required CI passed on PRs #21 and #22;
-Python 3.10/3.14 tests and Python 3.13 archive replay ran successfully.
-Historical account-billing failures no longer describe current CI.
-
-Other agents' latest fetched branches at the time of this note:
-`research/koszul-and-scaling-20261020` (292ba18),
-`research/filtration-compatibility-20261020` (cf79709), and
-`research/product-filtration-20261020` (b7cfb60). Their conditional fat-point
-construction threshold is about 1.020472 source overhead; the source
-degenerations remain unconstructed. The last branch owns off-leading
-recoupling work; do not duplicate it without inspecting its current state.
-
-## Later checkpoint: normal-subgroup Fourier screen
-
-`ternary_fourier_proof.md` proves, with an integer Fourier certificate, that
-C3^4 has no three four-point sets with an injective sum map. The elementary
-lower bound is 1232 against the required 1088; an independent 64-inequality
-certificate gives 1682. It excludes coordinate-potential (16,16,16) searches
-in every group containing this subgroup with index four. It is a written,
-unreviewed proof and does not exclude arbitrary tensor degeneration.
-
-`candidate_frontier.py` screens all 45 affine C_p:C_r groups with p<=61 and
-order<=250: 22,178 sorted shapes, 428 strict degree-sum gates, 58 survivors
-after the coset and rank-locus screens. Three scheduled batches finished
-34 cases with no pair model; one additional case was interrupted after a
-CaDiCaL conflict-budget call substantially overran its requested time. The
-manifests retain that distinction. Time limits are cooperative, not hard
-wall-clock guarantees. No untraced negative is a theorem.
-
-`quaternary_group.py` defines F4^3:C3 of order 192. The restricted offset
-searches for (12,12,12) found 167 and 259 pair-injective models, respectively;
-all 426 have exact positive Farkas circuits. `verify_reports.py` replays the
-group products and verifies that each learned offset clause preserves its
-whole circuit. No successful target exists in these reports. A cyclic-shear
-direction screen is new discovery work, not a general group exclusion.
-
-Latest fetched other-worker tips: Koszul `6bdab15`, product-filtration
-`f6f307c`, filtration-compatibility `cf79709`. Their unrestricted source
-degeneration gap remains open. The target exponent is still unbeaten.
-
-`crossed_means_proof.md` now supplies necessary strict inequalities on nine
-fiber-mean potentials. A positive integer zero dependence excludes the
-chosen directions for every offset. The coordinate-base run reached 2000
-models, all with exactly replayed mean circuits. A separate written argument
-excludes this whole base family whenever two complementary four-spaces are
-F4-scalar invariant. Other cyclic/random bases returned untraced SAT UNSAT;
-those outcomes remain experiments. `verify_mean_reports.py` checks the two
-bijections and every integer circuit with no SAT/LP dependencies.
-
-## F8 checkpoint
-
-Read `octal_research.md` for the new source and normalization arguments.
-The exact local F8^2:C7 frontier has 6720 normalized pair cases, 126 local
-survivors, 3942 complementary direction triples and 342 normalized classes.
-Two global cases have untraced negative SAT outcomes; no qualifying witness.
-F8^3:C7 has an explicit pair-injective 56-point parent. Deleting eight per
-family produced 87 exactly replayed Farkas cuts, with no positive witness.
-The feasible 20000-row prefix was not a witness and was superseded by that
-full-constraint discovery. All 10752 symmetry-transformed copies of the
-smallest circuit verify exactly; their hole-hitting SAT run timed out.
-
-`test_group_streams.py` adds six passing local tests (integer backtracking
-against small brute force, field/group laws, sparse-circuit replay, full
-stream verification, actual group-operation normalization and frontier
-controls). The expanded full suite passes all 55 tests. The first 30
-normalized direction classes returned untraced SAT UNSAT; eleven discovered
-models have exact circuits. These are experiments, not certified all-class
-exclusions. No hosted CI pass is implied.
-
-The refreshed main passed 234 local tests before this continuation. Current
-other-worker lanes include paired-source Koszul kernels, SL2(5) x C2, and
-SL2(7) parity templates. Do not duplicate those tasks. Main and the live
-leaderboard still report no bound below 9/4.
-
-`octal_variable_planes.py` now permits independent affine planes in the
-three-point fibers and independent short directions, over a fixed base.
-See the new section of `octal_research.md`. A full known-model audit checks
-the plain CNF and native parity encodings. The first completed native run
-checks four candidates, including the reused control; all fail exactly
-replayed potential constraints. Three-point planes remain unchanged in those
-four candidates, while short directions vary. Required-plane-change queries
-are the next construction experiments. A timeout is not a no-go theorem.
-
-Continue until a genuine improved arithmetic bound is proved. The goal is
-active and unachieved; source certificates, engine improvements and green
-tests are not completion.
+Use /tmp/matrix-entropy-venv/bin/python. Exact maintained certificates need
+only the standard library plus the root verification requirements. Optional
+SAT/LP discovery packages are already installed. Four CPU cores; check disk
+before large runs. Required CI now runs normally. Use topic PRs, wait for
+current CI and resolve discussions, then merge and clean fully merged refs.

@@ -638,3 +638,21 @@ triple survives an exhaustive 89-case integer coefficient search. This
 selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
+
+## Abelian-normal coset Koszul obstruction
+
+The [normal-coset proof](research/ai/2026-10-20-normal-coset-koszul/research_note.md)
+restricts a coordinate-potential group construction to its abelian normal
+subgroup. The classical three-slice commutator bound then requires
+`3 sum k_a^2 - number(k_a=1) <= 2|H|` for common-coset vertex minima.
+An explicit rank-129 integer matrix versus source upper bound 128 closes
+the entire F8 size-nineteen maximum-three-fiber ansatz, including every
+variable plane and offset in the prior search. A separate difference-space
+argument bounds all size-nineteen F2^6 normal fibers by four.
+
+The same proof excludes the full stated F4^3:C3 size-twelve coordinate
+class and every C31:C6 candidate with all normal fibers at least two. It
+does not exclude general complex degenerations. The proof is unreviewed.
+A complete seven-fiber count screen with sizes in {2,3,4} leaves 1,566
+necessary patterns; they have no constructed directions, offsets or
+potentials. The exponent remains 9/4.
