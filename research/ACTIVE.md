@@ -1,15 +1,25 @@
 # Integrated research coordination
 
+The quantum worker's current question is
+`ai/2026-10-21-third-boundary-trap/QUESTION.md`. Full boundary first frames
+of effective dimensions12,12 are excluded at every order, including delayed
+and unequal first-growth orders, by a new third-block rank gap and the
+moving-boundary induction. PR49's complete second jets remain finite
+controls. For every ordinary first pair at these flags, the corrected
+projected third coefficient on K_inf must have first rank at most2.
+The next construction question concerns other first subspaces or leading
+flags; coordinate omissions alone do not settle the general question.
+
 The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
 order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
 family is retained; two third-coefficient rank covers force only common
 plane motion. Other mixed spaces and delayed first growth remain open.
 The full boundary-spanning 12-by-12 family stays with the quantum worker.
 
-The quantum worker now continues in
-`ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
-second-jet family and full coefficient witnesses are ready for higher-order
-lifting. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+The quantum worker previously constructed the complete172-parameter
+second-jet family in `ai/2026-10-21-corrected-prolongation/`. Its finite
+coefficient witnesses are retained; the full boundary-frame matrix target
+is excluded by the third-order boundary trap. PR47 merged at `fc8207e` with exact tested/merged tree equality;
 its task branches are removed. The new family has effective first ranks12
 on each side, outside the13-per-side hypothesis in PR48. No improving
 matrix tensor limit is constructed.
