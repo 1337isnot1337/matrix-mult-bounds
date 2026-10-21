@@ -124,3 +124,8 @@ now excludes full-capacity direct sums of square targets at all powers
 using closed-orbit theory; it does not address the smaller H1100/H106
 targets or provide an asymptotic loss. Continue on unrestricted singular
 constructions, avoiding ordinary H1100 maps and full-capacity square aims.
+
+Claim 048 also rules out a general complex degeneration of the central
+4-by-4-by-4 multiplicity block to M2, using exact smooth-cubic identities
+and polystability. This strengthens claim 045 but does not cancel the
+scalar companion or rule out joint/higher-power extraction.

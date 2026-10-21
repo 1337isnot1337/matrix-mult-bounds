@@ -507,3 +507,12 @@ are excluded even with singular maps. The smaller H1100 and H106 targets
 remain open; this gives no uniform asymptotic gap or exponent improvement.
 The proof is written and unreviewed. Finite controls check 112 triangular
 minors plus an independent tensor-square coefficient expansion.
+
+[AI-CYCLIC-CENTRAL-POLYSTABILITY-048](research/ai/2026-10-20-cyclic-recoupling/central_polystability.md)
+strengthens the earlier ordinary-map exclusion for the degree-(6,6,6)
+central multiplicity block B: B cannot degenerate to M2 over C. Four exact
+rational polynomial identities prove smoothness of its associated cubic;
+external stability theorems and cyclic symmetry yield a closed special-linear
+orbit. The earlier determinant obstruction then excludes the required
+isomorphism. This concerns B itself, without cancelling its accompanying
+scalar tensor. The proof remains unreviewed and gives no exponent gain.
