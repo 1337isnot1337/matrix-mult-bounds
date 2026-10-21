@@ -1,0 +1,92 @@
+{
+  "scope": "Incoming Hankel-pencil proof controls and repository integration checks",
+  "started_at_utc": "2026-10-21T15:48:01.537650+00:00",
+  "completed_at_utc": "2026-10-21T15:48:07.135182+00:00",
+  "elapsed_seconds": 5.597536086999753,
+  "python_version": "3.12.14",
+  "baseline_research_head": "4b3f3ba36a54b27b504ed51499651283ecedea77",
+  "integrated_main": "46952988962c19f11811c6b6860c88e898b99b51",
+  "source_index_tree_at_start": "203d702bc69dbcda841adb078305666352b7d6ad",
+  "runs": [
+    {
+      "command": [
+        "python",
+        "-S",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_hankel_pencil_degree.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_completed": 7
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_research.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_completed": 18
+    }
+  ],
+  "all_requested_patterns_completed": true,
+  "all_tests_passed": true,
+  "tests_completed": 25,
+  "log_sha256": "0dae716c989234c0dd7cb725d88941d07d2264e296e14d09231ed1d940822979",
+  "package_manifest": [
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/QUESTION.md",
+      "sha256": "c76d0bb6eb4d2c6f3a1a7929cea5b465321e94e0ef084b3dbe2faea6f0df9cae"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/README.md",
+      "sha256": "3ed95fdacb019e409f066e96fc0d121ae8d9296b89d395b48459a042b198da75"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/application.md",
+      "sha256": "b20210874e52d2cd45b88fd95b18cb3dfe8cd872e46a8d970e380d3bff7619e5"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/application.py",
+      "sha256": "9061713f5b65b9719a7b47e5f4e09d933bc52deccdc07df4ed6e32ef77a84bde"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/manifest.json",
+      "sha256": "50b57d4f9e923499526b99142ddaee3b9537a8cb213750d9ba284d3be3283d14"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/proof.md",
+      "sha256": "73d21b803b067c8634d33a6d9ba12945f9abbf02a39b4b38b190dc113ca475c5"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/sources.json",
+      "sha256": "67aad09d03d37f841ffa61744a29ca14af1df6d3475962b2460ecdb80e8f05d4"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/verify.py",
+      "sha256": "860e70bf8e74b2ce49ca8e061d4c126e644bee5cc32b1e5e685422c3b492feb9"
+    }
+  ],
+  "full_regression_repeated": false,
+  "prior_full_regression_receipt": "spin-current-main-full-validation.json",
+  "prior_new_package_receipts": [
+    "spin-recovered-focused-validation.json",
+    "spin-double-endpoint-focused-validation.json",
+    "spin-main20fa-incidence-validation.json"
+  ],
+  "prior_archive_receipt": "spin-current-archive-validation.json",
+  "external_independent_review": false,
+  "new_exponent_established": false
+}

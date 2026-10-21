@@ -1,5 +1,18 @@
 # Research status
 
+## Hankel pencils and the ordinary frontier
+
+The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)
+bounds Hankel Segre images when1<=r<min(a,b) and5r<2(a+b), using the classical
+index sum theorem and a kernel-bundle calculation. It extends the earlier
+fixed-scheme and first-boundary ranges; all claims remain written and
+unreviewed. The [exact application](research/ai/2026-10-21-hankel-pencil-degree/application.md)
+adds453 exclusions to the5139-format balanced rectangular scan through a12.
+Every improving ordinary single rectangular target through a9 is excluded;
+494 necessary-test survivors remain, first at a10. All improving ordinary
+A8 square direct sums are also excluded. A9's square candidate(32,6,3)
+remains unconstructed. Singular degenerations remain open; omega is9/4.
+
 ## Uniform mixed-axis closure
 
 The [auxiliary-projection proof](research/ai/2026-10-21-mixed-axis-incidence/proof.md)
@@ -130,6 +143,12 @@ escapes claim124's fixed compression hyperplane: its three selected
 coefficients are (1,2,7), with alternating combination6. This enlarged
 family still has no M9 witness. The failed finite numerical pilots and
 their actual residuals are saved separately from exact acceptance.
+
+The [25-test ordinary-frontier integration receipt](results/anisotropic-constructions-2026-10-20/spin-hankel-integration-validation.json)
+passes the seven incoming Hankel-pencil controls and eighteen repository
+checks after incorporating main4695298. It preserves that proof's
+unreviewed status and its exclusion of ordinary A8 targets. Singular
+matrix constructions remain the active positive question.
 
 The [27-test integration receipt](results/anisotropic-constructions-2026-10-20/spin-scalar-basis-focused-validation.json)
 passes all seven new mathematical tests, both tests from main's external
