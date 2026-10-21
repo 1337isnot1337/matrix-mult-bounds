@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "tested_source_head": "735cb8ccbb5f359a5f3cb9d93994dc615a37a76f",
+  "integrated_main": "48f6a7501cda90bb93cdb5aa7e2e77aec25f310a",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "commands": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 290,
+      "seconds": 142.261,
+      "passed": true
+    },
+    {
+      "command": "python tools/replay.py",
+      "passed": true,
+      "archived_reports": 5
+    }
+  ],
+  "scope": "Regression and archived finite reproduction; not independent mathematical review, formalization, or an exponent improvement."
+}
