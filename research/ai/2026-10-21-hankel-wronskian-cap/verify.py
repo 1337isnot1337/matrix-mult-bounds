@@ -143,7 +143,7 @@ def write_json(path,data):
         pad='  '*level
         if isinstance(value,dict):return '{\n'+',\n'.join(pad+'  '+json.dumps(k)+': '+render(v,level+1,k) for k,v in value.items())+'\n'+pad+'}'
         if isinstance(value,list):
-            if key=='cases':return '[\n'+',\n'.join(pad+'  '+json.dumps(v,separators=(',',':')) for v in value)+'\n'+pad+']'
+            if key in {'cases','records','dimension_frontier'}:return '[\n'+',\n'.join(pad+'  '+json.dumps(v,separators=(',',':')) for v in value)+'\n'+pad+']'
             if all(not isinstance(v,(dict,list)) for v in value):return json.dumps(value)
             return '[\n'+',\n'.join(pad+'  '+render(v,level+1) for v in value)+'\n'+pad+']'
         return json.dumps(value)

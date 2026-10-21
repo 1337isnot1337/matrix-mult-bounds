@@ -7,6 +7,10 @@ rational witness generator. Meshulam's1995 finite-field result is credited
 as related classical work; only its abstract and bibliography were inspected.
 The concurrent rectangular worker's selected-format cap proofs, second-
 boundary extension and higher-input-rank tests retain their own credit.
+The added scalar-Hankel equality-saturation proof and proper-section
+refinement are local continuations. The quantitative crossed bound and
+bundle rank-locus estimate are imported from the same concurrent worker,
+with their classical external input and exact source pins preserved.
 No priority, independent review, formalization or exponent gain is claimed.
 
 The `2026-10-21-hankel-pencil-degree` package was generated and checked in

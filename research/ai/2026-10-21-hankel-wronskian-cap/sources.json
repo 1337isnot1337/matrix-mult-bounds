@@ -1,6 +1,5 @@
 {
   "base_main": "46952988962c19f11811c6b6860c88e898b99b51",
-  "proof_dependencies": "The cap proof is self-contained: a consecutive Hankel minor, two binomial identities, and the leading Vandermonde coefficient of a polynomial Wronskian. No finite-field theorem is silently imported.",
   "related_external_result": {
     "author": "Roy Meshulam",
     "title": "Spaces of Hankel matrices over finite fields",
@@ -35,10 +34,33 @@
       "path": "research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md",
       "sha256": "b84fc23d478b80241a67636bef82336e9d98f563d3a832f6dfb1113ff2cd0e53",
       "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/quantitative_crossed_rank.md",
+      "sha256": "41c10e7db1d3c6ea2986cfc047973f641ee68f2175312908820fa91c43541cc5",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/quantitative_crossed_rank.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/bundle_hankel_dimension.md",
+      "sha256": "910e7aafea8e538393b5acd8ac4b26ce03a93ea79159d374695511ad5cd5343d",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/bundle_hankel_dimension.md"
     }
   ],
   "credit": "Selected cap formats were already proved by the rectangular worker using torus degeneration and explicit integer coordinate minors. Its second-boundary and higher-parameter tests are concurrent work, not attributed to this package. The present contribution is a uniform characteristic-zero rederivation and rational witness generator; no historical novelty is claimed.",
   "ai_assistance": "Written and checked by the same owner-directed Codex session. Exact arithmetic tests are not independent mathematical review or formalization.",
   "independent_review": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "cap_proof_dependencies": "The cap proof is self-contained: a consecutive Hankel minor, two binomial identities, and the leading Vandermonde coefficient of a polynomial Wronskian. No finite-field theorem is silently imported.",
+  "application_dependencies": "The general k-ruling formula, strict projection saturation, quantitative crossed-rank inequality and bundle rank-locus dimension bound are imported from the pinned concurrent local proofs. The new equality-saturation and proper-section refinements are separately written here. No stronger current all-source frontier is inferred from the balanced comparison.",
+  "external_splitting_input_context": {
+    "title": "Another proof of Grothendieck's theorem on the splitting of vector bundles on the projective line",
+    "authors": "Claudia Schoemann and Stefan Wiedmann",
+    "version": "arXiv1712.03056v1, December8,2017",
+    "url": "https://arxiv.org/pdf/1712.03056v1",
+    "locator": "Theorem2.1, PDF page3",
+    "role": "Classical input of the imported bundle_hankel_dimension.md proof; statement and field hypotheses inspected earlier in this session."
+  },
+  "local_work": "Uniform Wronskian cap and rational witness generator; scalar-Hankel equality saturation by nondegeneracy and hypersurface degrees; proper crossed-rank component section bound; exact finite applications with imported results credited."
 }
