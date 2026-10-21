@@ -13,6 +13,14 @@ maps and different block weights remain open; unchanged approach-rate pilots
 are no longer a construction question. These are unreviewed local proofs,
 not a bound below 9/4.
 
+The quantum worker continues in
+`ai/2026-10-20-higher-jet-quantum-flags/QUESTION.md`, after PR41 merged at
+`f67467d`. Both local and remote PR41 branches were removed after exact
+merged/tested tree equality. The higher-jet follow-up closes regular moving
+surjections that stay full rank at the limit and a distinct 256-pair
+full-output block family. Singular leading output maps, multiple leading
+blocks and larger block-weight gaps remain open construction questions.
+
 ## Constructive-spectrum continuation
 
 PR #28 is merged at `8722b361fde7713949b8f0e72fab681066ce10bd`.
@@ -61,22 +69,28 @@ An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
 The active topic branch is `research/torus-anchors-20261021`,
 [PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43).
-Its first checkpoint `fa74fee` is pushed. Combined with main `f67467d`,
+Its checkpoints `fa74fee` and `574cb35` are pushed. The first, combined with main `f67467d`,
 it passed 391 tests and all five archive replays using only maintained
-dependencies. Claims 075 through 089 now include the exact partial maps,
+dependencies. The second adds 24 passing focused tests. Claims 075 through 093 now include the exact partial maps,
 both fixed-boundary noncompletion proofs, the graded core bound, the
 free-interior family and its fixed-channel limits, the two-leg rank chain,
 the complete original-profile degree-13 obstruction, the width-13 rank
 contradiction, the finite common-vertex M7 screen, and the saturated pencil
-determinant. The saved map bytes and their positive partial identities
+determinant, the complete common-profile classification, unequal-profile
+partial controls, and the universal homogeneous support-peeling obstruction.
+The saved map bytes and their positive partial identities
 remain unchanged. The newer packages require their own validation receipt.
 
-The original symmetric 27-plus-7 torus profile is now excluded for ordinary
-grading-preserving maps with arbitrary coefficients. The common width-13
-alternative is also excluded. The ungraded A88 frontier remains open.
-Construction work now uses unequal vertex charge lists, including a
-neighboring charge hole that escapes the known endpoint hypotheses, and
-tests full coefficient equations beyond exact smaller matrix subblocks.
+All ordinary maps that send target matrix units homogeneously into the
+fixed source grading are now excluded for A88 to M27 plus M7, including
+every unequal vertex profile. The exact support-peeling sequence is
+960 to 922 to 834 to 468, which contradicts the required map rank 778.
+The primary separator certificate and an independent full-source replay
+agree. The earlier profile candidates are historical partial controls.
+
+The ungraded A88 frontier remains open. Construction work now studies
+maps mixing several source weights, genuine Laurent cancellation, and
+tensor-power recycling with explicit residual and source-cost accounting.
 All three research slots remain assigned. Current hosted checks are
 required before merging; preserve concurrent worker files.
 

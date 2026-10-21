@@ -39,6 +39,14 @@ numbers 2.247 and 2.248 are superseded as ordinary construction
 objectives. These results do not exclude
 singular full-source degenerations or arbitrary rectangular sums.
 
+The later [support-peeling theorem](torus_support_peeling.md) excludes
+the entire ordinary A88 to M27 plus M7 approach in which target matrix
+units have homogeneous source images for the fixed grading i+s-k.
+It covers all common and unequal integer vertex-charge profiles without
+enumerating them. Ungraded maps and arbitrary singular degenerations
+remain open. This is an obstruction to a construction method, not an
+improvement of the exponent.
+
 An earlier parity
 degeneration of A(5,5) has 225 coordinates on each leg and 11,725 terms,
 but the [annihilator proof](parity_annihilator.md) excludes its proposed
@@ -353,6 +361,25 @@ unconstructed M27 plus M7 target.
 
 ## Torus construction and exact boundary repair
 
+The final [support-peeling argument](torus_support_peeling.md) supersedes
+the profile-by-profile construction objectives below. For each homogeneous
+matrix-unit image, its source slice rank is at most 27 plus the two map
+codimensions. Source torus limits expose individual support vertices and
+force their ranks to obey the same bound. Repeating this constraint gives:
+
+| Retained coordinates before the step | Slice-rank budget | Retained coordinates after the step |
+| ---: | ---: | ---: |
+| 960 | 391 | 922 |
+| 922 | 315 | 834 |
+| 834 | 139 | 468 |
+
+An injective 778-dimensional target map cannot land in the final space.
+The primary integer certificate justifies each of the 492 removals by a
+separating line. Its verifier never calls the discovery hull code. A
+separate implementation agrees on every retained coordinate mask.
+All earlier partial identities remain exact; their full homogeneous
+27-plus-7 extensions are now excluded.
+
 The [torus-compatible M12 plus M3 seed](parity_structure_torus_seed.md)
 is an exact direct-sum restriction of A(8,8). Its 153 entries per leg
 contract to all 1,755 required target terms, with every mixed coefficient
@@ -414,6 +441,16 @@ The reusable affine equation builder has an independent physical-matrix
 control in `parity_structure_affine_audit.py`. It reconstructs every
 equation for a non-square A(3,4) to M3 example, verifies a recovered
 rational solution, and rejects a nonlinear slice selection.
+
+The [common-profile enumeration](parity_structure_common_profiles.md)
+preserves a second route to a narrower exclusion. Its complete domain
+follows from the [zero-grade minimum rank](parity_structure_zero_grade_rank.md),
+and its final classes are closed by the local endpoint proofs.
+[Unequal-profile exact partial seeds](parity_balancing_unequal_profiles.md)
+and [optional objective controls](parity_structure_unequal_objective.md)
+record the subsequent attempts with different charge lists on all three
+vertex spaces. They are historical controls after the support-peeling
+theorem, and no large numerical fit is reported.
 
 Two further exclusions narrow distinct discovery families. The
 [simple-pole theorem](compression_simple_poles.md) excludes the stated

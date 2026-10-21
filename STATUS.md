@@ -6,11 +6,22 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records thirty-eight local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-SATURATED-PENCIL-089,
+The constructive continuation records forty-two local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-UNEQUAL-PARTIAL-SEEDS-093,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
+now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
+images are homogeneous for the fixed source grading**, including unrelated
+vertex charge lists and profiles with holes. Exact rank budgets successively
+force all three map images into coordinate spaces of dimensions
+960, 922, 834, and finally 468, below the required 778. The primary verifier
+checks 492 removals through integer separating lines, independently of the
+discovery hull algorithm. A separately written full-source replay agrees
+on every retained coordinate set. Ungraded maps and arbitrary singular
+degenerations remain open, and the exponent is unchanged.
 
 - The [oriented endpoint analysis](research/ai/2026-10-20-critical-character-extension/README.md)
   gives a common critical amplitude and a quantitative stability bound.
@@ -120,6 +131,15 @@ do not constitute independent mathematical review.
   covers 1,290,240 choices. Sixteen pass the necessary weight-zero rank
   gate, but all retain 498 unwanted coefficients. Exact balanced cycles
   obstruct removing those extras by coefficientwise Laurent rescaling.
+- The earlier [common-profile classification](research/ai/2026-10-20-anisotropic-constructions/parity_structure_common_profiles.md)
+  also closes all common integer charge lists by exact enumeration and
+  local proofs. Its [zero-grade lemma](research/ai/2026-10-20-anisotropic-constructions/parity_structure_zero_grade_rank.md)
+  gives minimum slice rank a for the zero-grade A(a,a) tensor. The later
+  peeling proof removes the need to enumerate profiles for the main exclusion.
+  [Unequal-profile partial maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_unequal_profiles.md)
+  retain exact M12 plus M3 controls; their full targets are explicitly
+  excluded. Optional numerical objective code is preserved with separate
+  small controls and introduces no maintained dependency.
 - The [simple-pole argument](research/ai/2026-10-20-anisotropic-constructions/compression_simple_poles.md)
   excludes a nonzero simple pole in the fixed A22 compression chart when
   the trace tensor must have a finite limit. It does not cover arbitrary
@@ -346,6 +366,26 @@ right translations and set permutations, with source hashes and explicit
 occurrence clauses. These finite rejections are not a complete exclusion.
 The first run with those templates separately rejected 619 candidates by
 replayed circuits and supplied no pair-injective lift or tensor witness.
+
+## Heisenberg source and coordinate frontier
+
+The [Heisenberg lane](research/ai/2026-10-20-heisenberg-five/README.md)
+derives the order-125 source degrees from explicit shift/phase operators.
+Its conditional M10 comparison passes at 2247/1000, but the
+[normal-coset incidence proof](research/ai/2026-10-20-heisenberg-five/normal_coset_closure.md)
+now excludes every single target passing the source's 9/4 gate in the
+injective-pair-map, strict-vertex-potential class. It applies the concurrently
+merged rectangular Koszul bound, exhausts 3003 balanced and 410333 unequal
+count cases, and uses affine-line pair-count contradictions. It does not
+exclude arbitrary complex degenerations or establish a smaller exponent.
+
+Separately, [stabilizer averaging](research/ai/2026-10-20-heisenberg-five/coset_averaging.md)
+bounds the volume of the stated full cyclic-coset class by p^4 for every
+odd prime p. Exact finite controls cover subgroup triples at p=3,5,7,
+all 400 two-coset circuits at p=5 and 38 progression circuits at p=11.
+These are written, unreviewed construction obstructions. The original
+untraced SAT reports are retained as discovery history and are not proof
+premises.
 
 ## Selected direct-product group target
 
@@ -847,6 +887,26 @@ selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
 
+## Changed first jets at the quantum root flags
+
+[AI-QUANTUM-EXTENSION-SPACES-075](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+uses the concurrent partial-saturation argument to force dim W1=12 for
+M(10,10,11) with the prescribed rank-four leading images. Exact rational
+constraints classify all changed first derivatives: 20 dimensions per new
+output row and 532 coupled leading-row parameters, totaling 4772 for two
+110-row maps. The bilinear next component has first flattening rank 25
+and maximum matrix-slice rank at most eight. Other second-jet terms remain
+free, and no complete degeneration or smaller exponent is established.
+The proof is written and unreviewed.
+
+[AI-QUANTUM-BOUNDARY-TRAP-076](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+excludes all orders when the four leading output rows stay in explicit
+56-dimensional boundary spaces; the other rows may vary arbitrarily.
+A separate necessary bound caps the second partial saturated space at
+37 dimensions for all compatible first derivatives. Moving leading rows
+outside those spaces remains open, and compatible first-order directions
+that do so exist. These written proofs are unreviewed.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
@@ -860,6 +920,20 @@ hypotheses, using explicit nonzero coefficients over Q(zeta_6).
 The unique Cartan profile is adopted from claim 051; the second integer
 recursion only checks that earlier result. All new proofs are written and
 unreviewed. Different flags, ungraded constructions and powers remain open.
+
+## Candidate quantum quotient and weight-block comparisons
+
+[AI-CYCLIC-ROOT-MODULES-053](research/ai/2026-10-20-cyclic-weight-blocks/root_quotient.md)
+realizes the formal negative-singlet vertex character as an actual quantum
+quotient at a root of unity. The quotient keeps a divided-power connection
+that would be lost by treating its ordinary-generator pieces independently.
+This supplies target representation data, not the required tensor maps.
+
+[EXP-CYCLIC-BLOCK-FLATTENINGS-054](research/ai/2026-10-20-cyclic-weight-blocks/README.md)
+retains 14364 grading upper comparisons and 3924 modular source-rank
+comparisons on the selected A3, A4, A5 blocks. None excludes its target.
+The specified quantum leading flags closed by PR33 remain closed, and no
+exponent improvement is established.
 
 ## Size-five Cartan frontier
 
@@ -884,3 +958,11 @@ Claims AI-FIRST-JET-SATURATION-001 and AI-QUANTUM-CURVE-JETS-002 are written
 and unreviewed. Six completed finite-field coefficient pilots are retained
 as discovery data only. Parameter-dependent projections, different leading
 flags and non-scalar block weights remain open; the exponent is unchanged.
+
+The [higher-jet extension](research/ai/2026-10-20-higher-jet-quantum-flags/higher_jets.md)
+also permits moving output maps that remain surjective at the limit, with
+slice ceiling 98. Leading output ranks below 110 remain open. Separately,
+[256 single-leading-block flags](research/ai/2026-10-20-higher-jet-quantum-flags/blocks.md)
+in the specified two-layer family have saved minors giving ceiling 97 for
+regular full-output limits; pre-limit projections are outside that finite
+cover. The new proofs are written and unreviewed. None gives an exponent gain.
