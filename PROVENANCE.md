@@ -400,3 +400,8 @@ standard Jordan-chain observability, with its needed argument included.
 Its rounding bound imports the credited quantitative crossed-rank lemma.
 Cyclic and noncyclic sharp controls preserve the stated hypotheses; this
 is not a general realization theorem or an improved exponent.
+
+The one-unit polynomial-relation note applies equality in the credited
+source growth bounds and includes the needed elementary PID argument.
+Its finite controls include the actual rank641 source columns. It supplies
+necessary structure only, with no target maps or independent review.

@@ -69,3 +69,9 @@ observable cyclic finite-state realizations of dimension9, including
 repeated eigenvalues with one Jordan block each. Its proof forces source
 rank divisible by10. General noncyclic states and boundary support remain
 open; the existing641 example has state J8 direct_sum J1 and is noncyclic.
+
+The one-unit case also forces two degree-one primitive polynomial relations
+by `one_unit_syzygies.md`: inner span dimension9/rank8 and outer span
+dimension65/rank64. The actual641 slice realizes these relations. This
+provides exact structure to use in a construction or a further exclusion;
+it does not settle the remaining ordinary target.
