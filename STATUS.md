@@ -371,6 +371,22 @@ scalars. A joint index-and-valuation word supplies one common arithmetic
 interval for the rank argument. An exact size-three control verifies the
 broader model. This written proof leaves actual input mixing open.
 
+## Paired convolution source kernel
+
+The [paired-source proof](research/ai/2026-10-20-paired-sources/research_note.md)
+computes an exact first Koszul kernel of dimension 3a-2 for two oppositely
+oriented convolutions. It excludes the full-capacity matrix target for all
+sizes under arbitrary complex degeneration, and excludes a promising
+size-five direct sum. A complete integer budget certificate also bounds
+the one-copy size-four factorwise matrix-block method below the finite
+profile-improvement threshold. These written and finite results do not
+exclude joint extraction from the full source or its powers.
+
+The selected open target P_6 to M(6,10,6) would imply omega<=2.235, with
+an exact integer threshold certificate. No such degeneration is constructed.
+Ordinary restrictions and the adopted coordinate-input models are excluded;
+all three first Koszul ranks leave the genuinely mixed singular case open.
+
 ## Polynomial flags and numerical calibration
 
 The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)

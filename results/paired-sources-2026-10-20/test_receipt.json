@@ -1,0 +1,28 @@
+{
+  "base_main": "e41c77d7d4beb252e3c08dae0ad612cc7a987315",
+  "combined_unit_tests": {
+    "count": 233,
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/tests-main-e41c77d.txt"
+  },
+  "archive_replay": {
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/archive-replay.txt"
+  },
+  "post_report_adjustment_tests": {
+    "count": 8,
+    "passed": true,
+    "log": "results/paired-sources-2026-10-20/tests-paired-after-partition.txt"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "claim_ids": [
+    "AI-PAIRED-KOSZUL-001",
+    "EXP-PAIRED-BUDGET-002",
+    "AI-PAIRED-FINITE-TARGET-003"
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}

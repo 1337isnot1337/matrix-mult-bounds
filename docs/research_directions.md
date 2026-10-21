@@ -116,6 +116,15 @@ also requires its own proof; the scalar subrank formula is insufficient by itsel
 
 ## Work selection
 
+The product worker's [paired-source calculation](../research/ai/2026-10-20-paired-sources/research_note.md)
+gives a smaller finite construction question: P_6 to M(6,10,6), in formats
+(36,66,66) to (36,60,60). It would imply omega<=2.235, but no degeneration
+is constructed. The new all-size first Koszul kernel excludes the full-capacity
+pair and a size-five direct sum. Ordinary restrictions and coordinate-input
+models are also excluded for the selected target; general mixed singular
+maps remain open. Coordinate recoupling and arbitrary Laurent maps are
+different search classes, so state which is being investigated.
+
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 It requires a genuine convolution-source degeneration at cost below
