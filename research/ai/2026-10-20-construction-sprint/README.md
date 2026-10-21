@@ -123,3 +123,10 @@ integer comparisons. Required CI and the archive checks remain merge gates.
 The separate external-preprint audit is tracked in PR #40. Its finite
 local identities do not certify the paper's claimed global construction
 and are not adopted as a new exponent bound.
+
+The integrated `902bf50` full run completed with 374 of 375 tests passing.
+The only failure was the Markdown-link checker interpreting coefficient
+extraction notation as a relative link. The notation is corrected without
+changing the argument. All mathematical tests passed in that run, and
+remote archive replay also passed. The corrected head still needs the
+required current CI check before merge.

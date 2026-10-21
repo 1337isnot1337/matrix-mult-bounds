@@ -171,7 +171,7 @@ Frobenius coordinate, is a unit multiple of a consecutive polynomial
 prefix, whose span grows by at most one under multiplication by `tau`.
 More explicitly, subtract the scalar part of the generic generator, which
 does not change its Krylov span, and write
-`ell(a)=[tau^(N-1)](u a)` for a unit `u`. The annihilator is then
+`ell(a)=coeff_(tau^(N-1))(u a)` for a unit `u`. The annihilator is then
 `u^(-1)span(1,tau,...,tau^(N-m-1))`. This rank inequality survives a regular
 limit of the generator and the saturated annihilator subspace.
 
@@ -191,7 +191,7 @@ There is a useful small calibration. Let `C=K[t]/(t^6)`, and suppose
 Frobenius Krylov window.
 
 To see this, take a generator coordinate `tau`. Every Frobenius functional
-has the form `ell(a)=[tau^5](u a)` for a unit `u`. The annihilator of
+has the form `ell(a)=coeff_(tau^5)(u a)` for a unit `u`. The annihilator of
 `ell,tau^*ell,(tau^*)^2ell` is then `u^(-1)span(1,tau,tau^2)`.
 If it equalled `L`, the three polynomials `u,ux,uy` would all have degree
 at most two. Their six pairwise products lie in the five-dimensional
