@@ -4,6 +4,57 @@ Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
+## Paired constructions with boundary and correction budgets
+
+An [exact integer construction](research/ai/2026-10-20-paired-construction/outer_product_injection.md)
+now gives `Q(5,4) -> M(4,4,4)`, and more generally
+`Q(k+1,k) -> M(k,4,k)` for every k at least two. Two unimodular
+polynomial-multiplication maps supply the local tensor maps. The small
+witness has 25, 20, and 20 nonzero entries, all in `0,+1,-1`; all 400
+source terms and 4,096 output coefficients are checked exactly. This
+construction works over every field. It does not improve the exponent.
+The same product-subspace method at fixed source width four requires
+`2k<=n+3`, so it does not supply the needed near-full family at large n.
+
+The [linear-correction criterion](research/ai/2026-10-21-correction-budget/README.md)
+shows that an unbounded family `Q(n,4) + R_n -> M(n,4,n)`, with auxiliary
+border rank at most `Cn` for a fixed C, would imply
+`omega < 30000/13433 < 2.2334`. The same conclusion allows outer dimensions
+`n-c` for any fixed c. The cyclic error terms vanish asymptotically, and
+the strict rational comparison has an integer certificate. **These
+construction premises remain unproved; this is not an achieved exponent.**
+
+The [ordinary narrow-source proof](research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md)
+excludes `Q(n,2) -> M(n,2,n)` for every n at least three. It uses a
+classified two-dimensional kernel and the cited constant-rank matrix-space
+bound. A [minimum-slice theorem](research/ai/2026-10-20-paired-construction/narrow_rank_locus.md)
+gives `rank Q(n,m)(X) >= rank(X)+m^2-1`; the minimum locus consists exactly
+of rank-one X. Full narrow long-leg quotients lose at most one first-leg
+direction. The [regular-long-leg extension](research/ai/2026-10-20-paired-construction/narrow_regular_long_legs_obstruction.md)
+excludes Laurent families of every first-leg pole order when both long
+maps remain regular and surjective at zero. Singular leading long maps
+remain outside that result. A [wider jet obstruction](research/ai/2026-10-20-paired-construction/wider_jet_obstruction.md)
+excludes the specified regular-nilpotent quotient for every `m>=2` and
+`n>=m+1`, while other wider kernels remain open.
+
+The [finite-symmetry package](research/ai/2026-10-20-paired-direct-sums/scalar_and_symmetry.md)
+excludes ordinary tetrahedral-equivariant `P3 + trivial scalars -> M3`
+with the stated physical representations, for any number of scalars.
+All three exact correction phases have nonsingular twelve-by-twelve
+equation matrices. Sixteen complete numerical checkpoints replay to their
+reported failed-search metrics; these failures alone are not exclusions.
+
+These are written, externally unreviewed deductions and finite controls.
+Current constructive work seeks `Q(6,4) -> M(5,4,5)` and scalable formulas
+beyond the injection template's dimension limit. The exact small witness
+does not meet the unbounded fixed-width family premise.
+
+Checkpoint `274f50c`, integrating main `fc460bf`, passes all 412 local
+regression tests in 263.360 seconds and all five archive replays on an
+isolated checkout. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint6-validation.json)
+records the exact tree and log hashes. The next integration incorporates
+main `d2ed2e9`; this earlier test count does not describe that enlarged tree.
+
 ## Audit of a separately claimed exponent improvement
 
 The [bounded Sun audit](research/ai/2026-10-21-sun-audit/README.md) checks
@@ -321,6 +372,26 @@ right translations and set permutations, with source hashes and explicit
 occurrence clauses. These finite rejections are not a complete exclusion.
 The first run with those templates separately rejected 619 candidates by
 replayed circuits and supplied no pair-injective lift or tensor witness.
+
+## Heisenberg source and coordinate frontier
+
+The [Heisenberg lane](research/ai/2026-10-20-heisenberg-five/README.md)
+derives the order-125 source degrees from explicit shift/phase operators.
+Its conditional M10 comparison passes at 2247/1000, but the
+[normal-coset incidence proof](research/ai/2026-10-20-heisenberg-five/normal_coset_closure.md)
+now excludes every single target passing the source's 9/4 gate in the
+injective-pair-map, strict-vertex-potential class. It applies the concurrently
+merged rectangular Koszul bound, exhausts 3003 balanced and 410333 unequal
+count cases, and uses affine-line pair-count contradictions. It does not
+exclude arbitrary complex degenerations or establish a smaller exponent.
+
+Separately, [stabilizer averaging](research/ai/2026-10-20-heisenberg-five/coset_averaging.md)
+bounds the volume of the stated full cyclic-coset class by p^4 for every
+odd prime p. Exact finite controls cover subgroup triples at p=3,5,7,
+all 400 two-coset circuits at p=5 and 38 progression circuits at p=11.
+These are written, unreviewed construction obstructions. The original
+untraced SAT reports are retained as discovery history and are not proof
+premises.
 
 ## Selected direct-product group target
 
@@ -939,3 +1010,25 @@ constant-map screens, within the specified Cartan-intertwining class.
 M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
+
+## Quantum first jets with constant output projections
+
+The [first-jet saturation proof](research/ai/2026-10-20-quantum-jet-filtration/proof.md)
+removes the grading assumption for the prescribed order-three/six quantum
+curves. Thirty-two nonzero 64-by-64 minors give a full-output slice ceiling
+56, allowing arbitrary Laurent first-leg maps and all nonzero approach rates,
+orders and higher terms. A separate uniform inactive-slice argument gives
+ceiling 94 after arbitrary constant codimension-two output projections
+before taking the limit. Both ceilings are below the target's required 100.
+Claims AI-FIRST-JET-SATURATION-001 and AI-QUANTUM-CURVE-JETS-002 are written
+and unreviewed. Six completed finite-field coefficient pilots are retained
+as discovery data only. Parameter-dependent projections, different leading
+flags and non-scalar block weights remain open; the exponent is unchanged.
+
+The [higher-jet extension](research/ai/2026-10-20-higher-jet-quantum-flags/higher_jets.md)
+also permits moving output maps that remain surjective at the limit, with
+slice ceiling 98. Leading output ranks below 110 remain open. Separately,
+[256 single-leading-block flags](research/ai/2026-10-20-higher-jet-quantum-flags/blocks.md)
+in the specified two-layer family have saved minors giving ceiling 97 for
+regular full-output limits; pre-limit projections are outside that finite
+cover. The new proofs are written and unreviewed. None gives an exponent gain.

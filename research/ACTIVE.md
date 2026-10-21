@@ -5,6 +5,39 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+## Paired-source continuation
+
+PR #35, `research/paired-frontier-unequal-entropy-20261020`, continues with
+three coordinated agents on exact recovery and scalable near-full
+width-four maps. The small target `Q(5,4) -> M4` now has a complete
+integer witness, recovered from numerical rowspaces and verified without
+floating-point arithmetic. The same proof gives `Q(k+1,k) -> M(k,4,k)`.
+It supplies no exponent improvement; its fixed-width dimension limit
+does not permit a near-full large-n extension. The next target is
+`Q(6,4) -> M(5,4,5)` beyond that template's limit.
+The branch supplies a conditional linear-correction criterion, complete
+ordinary narrow-source obstructions, and explicitly limited symmetry and
+jet exclusions. Full narrow ordinary fits and the excluded regular-long-leg
+Laurent class are closed tasks. The required width-four unbounded family
+remains open. The preceding pushed checkpoint `274f50c` passes 412 local
+tests and all five archive replays. Main `d2ed2e9` is being integrated.
+
+The quantum worker's current question is in
+`ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
+close the prescribed order-three/six parameter curves even for ungraded
+constant output projections before the limit. Parameter-dependent output
+maps and different block weights remain open; unchanged approach-rate pilots
+are no longer a construction question. These are unreviewed local proofs,
+not a bound below 9/4.
+
+The quantum worker continues in
+`ai/2026-10-20-higher-jet-quantum-flags/QUESTION.md`, after PR41 merged at
+`f67467d`. Both local and remote PR41 branches were removed after exact
+merged/tested tree equality. The higher-jet follow-up closes regular moving
+surjections that stay full rank at the limit and a distinct 256-pair
+full-output block family. Singular leading output maps, multiple leading
+blocks and larger block-weight gaps remain open construction questions.
+
 ## Constructive-spectrum continuation
 
 PR #28 is merged at `8722b361fde7713949b8f0e72fab681066ce10bd`.

@@ -1,0 +1,194 @@
+{
+  "interpretation_field": "C",
+  "coordinate_equivalence_field": "Q(i)",
+  "full_sl2_source_first_leg_degrees": [
+    0,
+    2,
+    4
+  ],
+  "full_sl2_source_other_leg_degrees": [
+    2,
+    4,
+    6
+  ],
+  "full_sl2_target_leg_degrees": [
+    0,
+    2,
+    4
+  ],
+  "full_sl2_missing_trivial_long_leg_component": true,
+  "full_sl2_target_identity_slice_rank": 9,
+  "full_sl2_necessary_scalar_summands": 9,
+  "full_sl2_trivial_scalar_identity_slice_rank_upper_bound": 1,
+  "full_sl2_any_number_of_trivial_scalars_excluded": true,
+  "klein_fixed_source_coordinate_labels": [
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      3,
+      9,
+      12
+    ],
+    [
+      9,
+      13,
+      8
+    ]
+  ],
+  "klein_fixed_source_terms": [
+    [
+      0,
+      1,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      1
+    ]
+  ],
+  "klein_fixed_source_slice_matrices": [
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "klein_fixed_source_slice_formula": [
+    [
+      "0",
+      "a2",
+      "a1"
+    ],
+    [
+      "a2",
+      "0",
+      "a0"
+    ],
+    [
+      "a1",
+      "a0",
+      "0"
+    ]
+  ],
+  "klein_fixed_nonzero_source_slice_minimum_rank": 2,
+  "klein_fixed_target_slice_minimum_rank": 1,
+  "a4_equivariant_p3_to_m3_ordinary_restriction_excluded": true,
+  "polarization_map_a_b": [
+    [
+      "0",
+      "1/2",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "0",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "1/2",
+      "0"
+    ]
+  ],
+  "polarization_map_c": [
+    [
+      "0",
+      "-2",
+      "-2"
+    ],
+    [
+      "-2",
+      "0",
+      "-2"
+    ],
+    [
+      "-2",
+      "-2",
+      "0"
+    ]
+  ],
+  "polarization_full_coefficient_positions_checked": 27,
+  "polarization_original_source_defect": "minus the all-ones rank-one tensor",
+  "polarization_scalar_summands": 1,
+  "polarization_target": "D3 only",
+  "checks_passed": true,
+  "matrix_multiplication_construction": false,
+  "improves_omega": false,
+  "scope": "Specified equivariant ordinary maps only; nonsymmetric maps and singular degenerations are not excluded."
+}

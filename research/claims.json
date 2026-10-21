@@ -688,6 +688,169 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {"id": "AI-FIRST-JET-SATURATION-001", "title": "Partial saturated-rowspace slice bound with arbitrary Laurent first-leg maps", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-quantum-jet-filtration/proof.md", "section": "1-2", "statement": "For two regular local maps with leading ranks b0,c0 and first partial saturated-rowspace dimension r1, every regular tensor limit with an arbitrary Laurent map on the a-dimensional remaining leg has slice rank at most a-r1+b0+c0. A disjoint projected-jet rank witness bounds r1 while ignoring the other first jet.", "dependencies": ["AI-ONE-LEG-SATURATION-001", "Explicit partial-saturation argument"], "limitations": "Specified regular-leg leading flags and first jets only. No tensor-power ceiling or historical novelty claim.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "AI-QUANTUM-CURVE-JETS-002", "title": "Ungraded quantum-curve obstruction including constant output projections", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-quantum-jet-filtration/proof.md", "section": "3-5", "statement": "All sixteen ordered order-three/six phase pairs and both choices of earliest varying leg have certified partial-saturation rank at least 64, giving full-output slice ceiling 56. Four leading-map minors and 128 inactive-slice minors establish uniform slice rank at least 28; arbitrary constant output surjections of codimension at most two before the limit still give slice ceiling 94. These exclude the size-four M(10,11,10) target with target leg dimensions 100,110,110 for every nonzero scalar approach rate and finite ramification order.", "dependencies": ["AI-FIRST-JET-SATURATION-001", "AI-QUANTUM-SOURCE-NORMALIZATION-001", "EXP-QUANTUM-LEADING-FLAGS-002", "Blasiak et al. arXiv:1605.06702v4 Remark 4.9: square matrix tensor slice rank"], "limitations": "Prescribed quantum root curves; arbitrary higher parameter terms and Laurent remaining-leg maps are allowed. Parameter-dependent output projections, changed leading flags and non-scalar row weights remain open. Written proof and exact modular witnesses are not independent review.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "EXP-QUANTUM-SATURATED-RATES-003", "title": "Completed six-rate finite-field saturated coefficient pilots", "status": "finite-experiment", "evidence": "results/quantum-jet-filtration-2026-10-20/root-six-saturated-rates.json", "section": "", "statement": "Three coefficients at six specified relative rates modulo 786433 complete all thirteen weight blocks through two saturation promotions. All six saved tensors have flattening ranks 112,72,72. A second longer Fourier coefficient calculation agrees with the common-rate tensor; 8429568 saved array entries replay identically.", "dependencies": ["AI-QUANTUM-SOURCE-NORMALIZATION-001", "Saved coefficient discovery programs and finite-field data"], "limitations": "Finite-field discovery only. No characteristic-zero construction, general rank classification, method ceiling or exponent improvement.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "AI-HIGHER-JET-SATURATION-001", "title": "Primitive saturated rows from a first nonzero projected coefficient", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-higher-jet-quantum-flags/higher_jets.md", "section": "A truncated coefficient lemma", "statement": "If the coefficients through order m of an a-row flattening lie in E_B tensor C+B tensor E_C and a constant projected matrix vanishes before m but has coefficient-m rank at least k, the saturated limiting space contains at least k independent vectors in that cross. Every regular limit with an arbitrary Laurent first-leg map has slice rank at most a-k+dim(E_B)+dim(E_C).", "dependencies": ["AI-FIRST-JET-SATURATION-001", "Smith normal form over C[[t]] and the explicit coefficient proof"], "limitations": "Both coefficient-support and earlier-vanishing hypotheses are required. No tensor-power ceiling or historical novelty claim.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "AI-QUANTUM-MOVING-SURJECTIONS-002", "title": "Prescribed quantum curves with moving full-rank output surjections", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-higher-jet-quantum-flags/higher_jets.md", "section": "Application to regular moving output projections", "statement": "For all sixteen ordered order-three/six quantum phase pairs, arbitrary nonconstant parameter arcs and arbitrary regular 112-to-110 output maps that remain surjective at zero still give slice ceiling 98 for every regular tensor limit with an arbitrary Laurent first-leg map. The output kernels may meet the leading images. This excludes the 100,110,110 matrix target within that family.", "dependencies": ["AI-HIGHER-JET-SATURATION-001", "AI-QUANTUM-CURVE-JETS-002", "External square matrix multiplication slice rank n^2"], "limitations": "Leading output ranks below 110, changed quantum leading flags, non-scalar row weights and other source families remain open. Thirty-two exact examples are controls, not universal acceptance by enumeration.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"id": "EXP-QUANTUM-TWO-LAYER-BLOCKS-003", "title": "Complete minor cover for 256 single-leading-block quantum flags", "status": "finite-experiment", "evidence": "results/higher-jet-quantum-flags-2026-10-20/block-certificates.json", "section": "", "statement": "For the specified sixteen-by-sixteen two-layer block-normalized root-six family, 131 leading-map minors and 125 left first-jet minors give slice ceiling 97. Every ordered pair has a saved nonzero primal minor over a good cyclotomic prime, and every jet minor has exact monomial rate dependence. The accompanying proof excludes the target for regular full-output limits and subsequent restrictions.", "dependencies": ["AI-ONE-LEG-SATURATION-001", "AI-FIRST-JET-SATURATION-001", "Explicit block valuation normalization and good cyclotomic reduction"], "limitations": "One leading block per leg; all other blocks enter at the next Phi order. Pre-limit output projections, several leading blocks and more general weight gaps are not covered. No exponent improvement.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {"origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-HEIS-SOURCE-019", "title": "Explicit Heisenberg source and conditional degree gate", "status": "conditional-implication", "evidence": "research/ai/2026-10-20-heisenberg-five/source_proof.md", "statement": "Explicit shift/phase operators decompose C[H_p] into p^2 scalars and p-1 copies of Mat_p for odd primes. At p=5 an exact degeneration to M(10,10,10) would imply omega<2247/1000.", "dependencies": ["Standard group algebra and finite Fourier transform", "Unconstructed general target degeneration"], "limitations": "Elementary rederivation of a standard source, without historical novelty. The coordinate-potential premise is excluded by AI-HEIS-NORMAL-CLOSURE-023; arbitrary complex degenerations remain unconstructed."},
+    {"origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "EXP-HEIS-COSET-020", "title": "Exact Heisenberg two-coset circuit census", "status": "finite-experiment", "evidence": "results/heisenberg-five-2026-10-20/two-coset-replay.json", "statement": "All 400 pair-injective unordered triples in the fixed-first two-left-coset class have exact two-row rejection circuits. Six hundred verified common automorphisms normalize every first set in the stated finite family.", "dependencies": ["Exact group arithmetic", "Independent circuit and automorphism replay"], "limitations": "Finite construction family only. No arbitrary-color or general tensor-degeneration exclusion follows from this census alone."},
+    {"origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-HEIS-AVERAGING-021", "title": "All-prime full cyclic-coset volume obstruction", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-heisenberg-five/coset_averaging.md", "statement": "If each vertex set in H_p is a union of left cosets of a fixed noncentral cyclic order-p subgroup, strict vertex potentials and injective pair maps force target volume at most p^4. The usual degree-sum gate cannot improve 9/4 in this class.", "dependencies": ["Finite right-stabilizer averaging", "Explicit subgroup TPP quadratic criterion", "AI-GROUP-COSET-003"], "limitations": "Full cyclic-coset class only, for odd primes. Arbitrary central colors and partial cosets are outside the proposition. No new exponent or historical priority claimed."},
+    {"origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "EXP-HEIS-PROJECTION-022", "title": "Seven normalized first projections and exact subgroup controls", "status": "finite-experiment", "evidence": "results/heisenberg-five-2026-10-20/coset-controls.json", "statement": "Two independent enumerations cover all 2040 binary 5x5 matrices with row and column sums two, forming seven affine coordinate classes. The subgroup TPP criterion agrees with all 648,15000,115248 distinct-direction triples at p=3,5,7.", "dependencies": ["Explicit finite group operations", "Independent permutation and row-subset enumerations"], "limitations": "Finite controls for written arguments. Untraced SAT output is not a proof. No constructed improving target."},
+    {"origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "id": "AI-HEIS-NORMAL-CLOSURE-023", "title": "Complete Heisenberg(5) single-target coordinate degree-sum obstruction", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-heisenberg-five/normal_coset_closure.md", "statement": "No single matrix target from H_5 through injective coordinate pair maps and strict vertex potentials passes the usual source degree-sum gate at an exponent in [2,9/4]. Exact normal-count classifications and affine incidence exclude M10 and M(9,10,11); the maintained rank-locus screen removes the remaining frontier.", "dependencies": ["AI-GROUP-F8-RECTANGULAR-013 rectangular Koszul formula", "AI-GROUP-COSET-003", "AI-GROUP-RANKLOCUS-002", "AI-HEIS-SOURCE-019", "Complete integer count enumeration and finite-plane incidence"], "limitations": "One source and construction class only. General complex tensor degenerations, multiple targets and tensor-power extraction remain open. No exponent improvement or independent review."},
+    {
+      "id": "THM-NARROW-ORDINARY-002",
+      "title": "No full ordinary narrow paired restriction at any size n at least three",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md",
+      "statement": "Over C, Q(n,2) has no ordinary restriction to M(n,2,n) for any n>=3. The two-dimensional long-leg kernels are either disjoint from all divisor spaces or, when they meet one, have uniform or tangent form; slice ranks and constant-rank matrix-space bounds exclude all cases. For wider m, the stated necessary divisor-intersection and pairing divisibility constraints hold under n>m(m-1) and n>=m+2.",
+      "dependencies": [
+        "Self-contained n=3 projective incidence proof and exact kernel controls",
+        "Stacks Project Tag 0B2R, projective dimension intersection theorem",
+        "Ellia and Menegatti, arXiv:1508.00209v1, Proposition 8 over an algebraically closed field of characteristic zero; original attribution to Beasley"
+      ],
+      "limitations": "This is an ordinary-map obstruction. It does not exclude arbitrary singular degenerations or prove nonexistence for general wider kernels. The general argument is written and externally unreviewed.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-WIDER-JET-003",
+      "title": "The prescribed wider regular-nilpotent quotient cannot give full matrix multiplication",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/wider_jet_obstruction.md",
+      "statement": "For every m>=2 and n>=m+1, the specified regular-nilpotent B quotient of Q(n,m) cannot be completed by ordinary A and C maps to M(n,m,n). A canonical first-column fiber forces paired target blocks, while an explicit later slice has a rank-one component where every target block component has rank zero or m.",
+      "dependencies": [
+        "Explicit quotient and unimodular C-coordinate change",
+        "Exact coefficient controls at (n,m)=(3,2),(4,3),(5,4),(13,4)"
+      ],
+      "limitations": "Only the stated B quotient is excluded. Other kernels and singular local families remain open. Finite controls supplement rather than prove the all-size statement.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-MINIMUM-SLICE-004",
+      "title": "Minimum paired-source slice locus and one-dimensional narrow flattening loss",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+      "statement": "For all positive n,m and every nonzero n-by-n coefficient matrix X over C, rank Q(n,m)(X)>=rank(X)+m^2-1; the minimum m^2 occurs exactly on rank-one X. Every pair of full 2(n+1)-to-2n long-leg quotients of Q(n,2) loses at most one first-leg direction. If a direction is lost, it is a pure f tensor g and the two kernel planes in its four-dimensional slice are orthogonal complements.",
+      "dependencies": [
+        "Descending row-block rank argument",
+        "Finite divisibility of nonzero binary forms",
+        "Exact controls on 511 nonzero binary 3-by-3 parameters, 42 row-block examples, and crossed-jet minors"
+      ],
+      "limitations": "The all-size result rests on the written proof, not the finite controls. It does not classify arbitrary wider quotient kernels or construct a matrix target.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-NARROW-REGULAR-LONG-LEGS-005",
+      "title": "Every first-leg pole order is excluded when the narrow long maps stay regular and full rank",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/narrow_regular_long_legs_obstruction.md",
+      "statement": "For every n>=3, no Laurent family (A(t) tensor B(t) tensor C(t))Q(n,2)=M(n,2,n)+O(t) exists with B(t),C(t) regular and surjective at zero, regardless of the finite pole order of A(t). A regular invertible flattening minor puts the leading quotient slice space inside the target slice space. The only remaining deficient kernel pair is a crossed-jet pair with an explicit rank-five slice.",
+      "dependencies": [
+        "THM-NARROW-ORDINARY-002",
+        "THM-PAIRED-MINIMUM-SLICE-004",
+        "Explicit determinant-one five-by-five minor and regular-minor limit argument"
+      ],
+      "limitations": "Singular leading B or C maps remain outside this result. It does not exclude general border restrictions or every ordinary target with one first-leg entry removed. Same-session checks are not independent review.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-A4-TRIVIAL-SCALAR-007",
+      "title": "Trivial scalar corrections cannot repair the stated tetrahedral paired model",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/scalar_and_symmetry.md",
+      "statement": "Over C, no ordinary A4-equivariant restriction takes P3 plus any number of trivial A4 scalar summands to M3 when all three target physical spaces carry the standard tetrahedral module. The fixed-sector Fourier equations have exactly three scalar-repair phases; the corresponding complete twelve-equation linear systems have determinants 256,-256,-256 and contradict invertibility. The analogous full diagonal-SL2 model is also excluded for every number of trivial scalars.",
+      "dependencies": [
+        "Explicit invertible Cartesian binary-form basis change",
+        "Exact Fourier arithmetic in Z[w]/(w^2+w+1)",
+        "Exact source contraction and stored twelve-by-twelve matrices"
+      ],
+      "limitations": "Non-equivariant maps, nontrivial auxiliary modules, other physical representations, and singular degenerations are not covered. A separate worker check occurred within the same generating session and is not independent review.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "OBS-PAIRED-KLEIN-KERNEL-008",
+      "title": "An odd-rank slice excludes the forced narrow tetrahedral kernel",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/scalar_and_symmetry.md",
+      "statement": "For the specified natural tetrahedral Q(3,2) model, equivariance forces two explicit two-dimensional long-leg kernels. Exact native source covariance and quotient contraction exhibit a rank-three slice, excluding M(3,2,3), whose first-leg slice ranks are even.",
+      "dependencies": [
+        "Explicit signed-permutation generators and complete 36-term source check",
+        "Exact rank-three minor"
+      ],
+      "limitations": "This certificate concerns the forced equivariant kernels only. The broader ordinary exclusion is separately supplied by THM-NARROW-ORDINARY-002.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-PAIRED-SCALAR-PILOTS-009",
+      "title": "Complete scalar and finite-symmetry numerical searches with full checkpoint replay",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/scalar_and_symmetry.md",
+      "statement": "Sixteen completed real ordinary-map experiments cover four starts each for Q(3,2) plus one scalar, tetrahedral P3, tetrahedral P3 plus one trivial scalar, and the exact phase-zero diagonal repair with twenty free parameters. Every complete saved map recontracts to its reported full coefficient residual; the largest absolute metric difference in the root replay is 9.44e-16. All searches failed to produce a map.",
+      "dependencies": [
+        "Explicit source scalar terms and exact positive controls",
+        "Full target coefficient objectives and retained map matrices",
+        "Optional NumPy numerical replay; exact core tests use only the standard library"
+      ],
+      "limitations": "Finite failed searches are not nonexistence proofs. The separate exact symmetry obstructions have their own narrower stated hypotheses. No numerical candidate from these grids is accepted as a construction.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "COND-PAIRED-LINEAR-CORRECTION-001",
+      "title": "An unbounded near-full width-four family with linear auxiliary cost would lower the exponent",
+      "status": "conditional-implication",
+      "evidence": "research/ai/2026-10-21-correction-budget/README.md",
+      "statement": "Fix b>=4. If Q(n,b) plus R_n degenerates over C to M(n,b,n) along an unbounded sequence, with border rank R_n<=Cn for a fixed C, then omega<=3/d_b where d_b(6b)^d_b=12b^(3/2). The same conclusion allows outer target dimensions asymptotic to n, including n-c for fixed c. At b=4 an exact integer comparison gives the conditional bound omega<30000/13433<2.2334.",
+      "dependencies": [
+        "OpenAI complex character framework and detecting-character theorem, pinned revision fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+        "Uznański replication, arXiv:2610.10494v2, and maintained homogeneous scaling proof",
+        "Existing all-size two-sector inequality",
+        "Unconstructed fixed-width unbounded family with uniformly linear auxiliary border rank"
+      ],
+      "limitations": "The required degeneration family is missing. Small numerical fits and exact isolated finite maps do not satisfy the unbounded-family premise. The displayed number is a conditional implication, not an achieved exponent. General proof is written and externally unreviewed.",
+      "origin": "AI research directed by repository owner, paired-source continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-OUTER-INJECTION-006",
+      "title": "Exact integer Q(5,4) to M4 witness and a wider-source family",
+      "origin": "AI research directed by repository owner, recovered from numerical rowspace diagnostics",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "statement": "Over the integers, and hence every field, Q(k+1,k) restricts ordinarily to M(k,4,k) for every k>=2. Explicit polynomial subspaces multiply through a unimodular 2k-by-2k matrix. At k=4, the three maps have 25,20,20 nonzero entries in {0,1,-1}; all 400 source terms and 4096 target coefficient positions verify Q(5,4) to M4 exactly.",
+      "dependencies": [
+        "Explicit integer polynomial subspaces and both inverse identities",
+        "Complete integer tensor contraction and all 256 matrix-unit input pairs at k=4",
+        "Exact finite controls k=2 through 8"
+      ],
+      "limitations": "No novelty or exponent improvement is claimed. The source width grows with k. At fixed source width four, this product-subspace method requires 2k<=n+3 and does not construct Q(n+1,4) to M(n,4,n) for n>4. Numerical diagnostics motivated but are not used in the certificate.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

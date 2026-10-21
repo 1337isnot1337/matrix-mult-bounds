@@ -1,0 +1,35 @@
+{
+  "source": "P3 direct_sum 1 scalar tensor(s)",
+  "coordinate_equivalence_field": "Q(i)",
+  "search_coefficient_ring": "Q",
+  "cartesian_quadratic_polynomials": [
+    "x**2 - y**2",
+    "I*(x**2 + y**2)",
+    "2*x*y"
+  ],
+  "quartic_basis_polynomials": [
+    "x**4 - 2*x**2*y**2 + y**4",
+    "-x**4 - 2*x**2*y**2 - y**4",
+    "I*x**4 - I*y**4",
+    "2*I*x**3*y + 2*I*x*y**3",
+    "2*x**3*y - 2*x*y**3"
+  ],
+  "quadratic_change_of_basis_determinant": "-4*I",
+  "quartic_change_of_basis_determinant": "-64",
+  "binary_multiplication_products_checked": 9,
+  "exact_multiplication_covariance_generators": 2,
+  "exact_target_covariance_generators": 2,
+  "intertwiner_dimensions": [
+    8,
+    12,
+    12
+  ],
+  "intertwiner_maps_checked": 32,
+  "target_coefficient_positions": 729,
+  "allowed_positions": 183,
+  "invariant_coordinate_orbits": 61,
+  "orbit_size": 3,
+  "cartesian_source_nonzero_terms": 101,
+  "controls_passed": true,
+  "improves_omega": false
+}

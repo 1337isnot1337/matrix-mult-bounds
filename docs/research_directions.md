@@ -2,6 +2,30 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+## Active paired construction: near-full width four
+
+The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
+reduces one sufficient route to genuine degenerations
+`Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c
+and `border_rank(R_n)=O(n)`. It would imply
+`omega < 30000/13433 < 2.2334`. The family is unconstructed. The active
+paired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)
+and the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,
+so it does not prove the fixed-width premise. The next numerical target
+is `Q(6,4) -> M(5,4,5)`, which lies beyond the recovered product-subspace
+dimension limit. A machine-precision numerical fit is discovery evidence
+only. Deliver exact coefficient identities, then a proved unbounded
+extension with every auxiliary cost accounted for.
+
+The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
+maps when n is at least three, and for arbitrary first-leg Laurent poles
+when both long maps remain regular and full rank. Do not repeat those
+classes. Near-full outer dimensions, singular leading long maps, general
+wider kernels, and nontrivial auxiliary tensors remain construction
+questions. The prescribed regular-nilpotent wider quotient and the stated
+tetrahedral scalar-repair models are also excluded; see the exact scope in
+the linked status notes before choosing new parameters.
+
 ## R1: Review the local sharpness theorem
 
 Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.
