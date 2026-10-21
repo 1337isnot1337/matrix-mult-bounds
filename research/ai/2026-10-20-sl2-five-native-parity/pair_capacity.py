@@ -2,6 +2,36 @@
 from itertools import combinations
 
 
+def triple_patterns(Q):
+    """Partition all projected triples by independent right translation."""
+    patterns = {}
+    for points in combinations(range(len(Q['representatives'])), 3):
+        canonical = min(tuple(sorted(Q['mul'][p][Q['inv'][anchor]] for p in points))
+                        for anchor in points)
+        patterns.setdefault(canonical, []).append(points)
+    return patterns
+
+
+def append_patterns(Q, solver, members, top):
+    """Compile all degree-two pair capacities with shared pattern flags."""
+    patterns = triple_patterns(Q)
+    clauses = 0
+    for pattern, triples in patterns.items():
+        flags = []
+        for f in range(3):
+            top += 1
+            flags.append(top)
+            for points in triples:
+                solver.add_clause([-members[f][p] for p in points]+[top])
+                clauses += 1
+        for first, second in combinations(flags, 2):
+            solver.add_clause([-first, -second])
+            clauses += 1
+    return top, {'triple_patterns': len(patterns),
+                 'covered_triples': sum(map(len, patterns.values())),
+                 'pattern_flags': 3*len(patterns), 'clauses': clauses}
+
+
 def violations(Q, sets):
     """Three pairs above one quotient cannot inject into its two lifts.
 

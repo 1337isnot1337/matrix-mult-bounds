@@ -20,6 +20,7 @@ def load(name):
 
 
 source, capacity, replay = load('data'), load('pair_capacity'), load('verify')
+split_source = load('split_source')
 
 
 class FiveNativeTests(unittest.TestCase):
@@ -74,6 +75,44 @@ class FiveNativeTests(unittest.TestCase):
         item['rows'][0]['rhs'] ^= 1
         with self.assertRaises(ValueError):
             replay.verify_parity(self.Q, item)
+
+    def test_complete_projected_triple_orbits(self):
+        from collections import Counter
+        patterns = capacity.triple_patterns(self.Q)
+        self.assertEqual(len(patterns), 577)
+        self.assertEqual(Counter(map(len, patterns.values())), {60: 567, 20: 10})
+        covered = set()
+        for canonical, triples in patterns.items():
+            expected = {tuple(sorted(self.Q['mul'][p][g] for p in canonical))
+                        for g in range(60)}
+            self.assertEqual(expected, set(triples))
+            self.assertFalse(covered.intersection(triples))
+            covered.update(triples)
+        self.assertEqual(covered, set(combinations(range(60), 3)))
+
+    def test_split_cover_source_and_weighted_positive_control(self):
+        expected = json.loads((ROOT/'results/sl2-five-native-2026-10-20/split-source-certificate.json').read_text())
+        self.assertEqual(split_source.certificate(), expected)
+        G, Q, receipt = split_source.split_data()
+        self.assertEqual(receipt['inverse_class_fiber_counts'], {1: 0, 2: 37})
+        self.assertEqual(Q['mul'], self.Q['mul'])
+        self.assertLess(receipt['conditional_gate']['source_upper_numerator'],
+                        self.receipt['conditional_gate']['source_upper_numerator'])
+        for (u, v), (c, offset) in Q['pairs'].items():
+            for a, b in product(range(2), repeat=2):
+                x, y = 2*u+a, 2*v+b
+                d = G['mul'][x][G['inv'][y]]
+                self.assertEqual(min(d, G['inv'][d]), Q['fibers'][c][offset ^ a ^ b])
+        known = json.loads((ROOT/'results/sl2-five-native-2026-10-20/split-control3.json').read_text())['witness']
+        result = replay.verify_witness(G, known['sets'], known['potentials'])
+        self.assertEqual(result['intended_terms'], 27)
+        self.assertEqual(result['minimum_extra_weight'], 1)
+        spec = importlib.util.spec_from_file_location('split_rank_locus',
+            ROOT/'research/ai/2026-10-20-group-potentials/rank_locus_obstruction.py')
+        sys.path.insert(0, str(ROOT/'research/ai/2026-10-20-group-potentials'))
+        rank_locus = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(rank_locus)
+        self.assertFalse(rank_locus.screen(receipt['complex_degrees'], [10]*3)['excluded'])
 
 
 if __name__ == '__main__':

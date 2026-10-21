@@ -10,6 +10,14 @@ negative encoding controls. This is a finite discovery result
 (`EXP-SL2-NATIVE-024`), not a source exclusion. The source and its conditional
 2.247 comparison retain their existing attribution; no bound was improved.
 
+The same package now derives an exact source certificate for the split
+cover PSL(2,5) x C2, with degrees two copies of1,3,3,4,5. Its M10 target
+passes the conditional2.247 gate and the rank-locus screen, and a genuine
+weighted3-by3 control passes. This is the new conditional lead
+`AI-SPLIT-COVER-SOURCE-026`; the improving target remains unconstructed.
+Complete projected triple-translation classes encode the necessary pair
+capacity without relying on an SL(2,5) cocycle.
+
 ## Uniform mixed-axis reduction
 
 The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a

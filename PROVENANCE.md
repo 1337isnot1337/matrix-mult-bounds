@@ -8,6 +8,13 @@ original credits. The new joint membership/sign encoding, guarded parity
 learning and finite control/replay results have no independent review.
 Neither a new source theorem nor an exponent improvement is claimed.
 
+The split-cover continuation uses the same exact rational class-algebra
+derivation on the quotient group, then the elementary direct-product
+character rule. These standard representation facts are not claimed as
+novel. The conditional numerical lead, guarded parity search and complete
+projected triple-translation capacity encoding are local work. Every
+source-dependent circuit is checked in its actual group.
+
 The `2026-10-21-mixed-axis-family` package is same-session AI-derived
 work directed by the repository owner. It adopts the existing source,
 virtual corrections, rank gap and stable-row projection with their credits.

@@ -12,8 +12,12 @@ from group_exact import verify_witness
 
 
 def replay(path):
-    G, Q, receipt = data()
     report = json.loads(path.read_text())
+    if report['group'] == 'PSL(2,5) x C2':
+        from split_source import split_data
+        G, Q, receipt = split_data()
+    else:
+        G, Q, receipt = data()
     if report['group'] != G['name'] or report['shape'] != [10]*3:
         raise ValueError('wrong group or target')
     # JSON serializes the integer-keyed histogram as strings.

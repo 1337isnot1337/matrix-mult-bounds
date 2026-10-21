@@ -13,19 +13,25 @@ from central_lift import lift_system, eliminate, lifted_sets
 from verify_projected_reports import verify_parity, verify_farkas_record
 from group_exact import pair_map, extra_relations, verify_witness, verify_farkas
 from search import potential_or_circuit
-from pair_capacity import violations, verify as verify_capacity
+from pair_capacity import violations, verify as verify_capacity, append_patterns
 from parity_templates import read_verified
 
 
-def run(output, seconds, control=False, capacity=False, reuse=()):
-    G, Q, receipt = data()
+def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=False,
+        split_cover=False):
+    if split_cover:
+        from split_source import split_data
+        G, Q, receipt = split_data()
+    else:
+        G, Q, receipt = data()
     shape = [10]*3
     subgroup = {'members': receipt['subgroup_members'], 'anchors':
                 [Q['representatives'][p] for p in receipt['first_pair_anchor_disjunction']]}
     known = None
     if control:
-        known = json.loads((ROOT/'results/group-potentials-2026-10-20/'
-                            'sl2-5-control3-3-3.json').read_text())['witness']
+        control_path = (ROOT/'results/sl2-five-native-2026-10-20/split-control3.json'
+                        if split_cover else ROOT/'results/group-potentials-2026-10-20/sl2-5-control3-3-3.json')
+        known = json.loads(control_path.read_text())['witness']
         shape = [3]*3
         subgroup['anchors'] = [g for g in known['sets'][0] if Q['projection'][g]]
     reused, sources = [], []
@@ -42,6 +48,8 @@ def run(output, seconds, control=False, capacity=False, reuse=()):
     encoding['subgroup_index'] = 5
     encoding['identity_fiber_lower'] = [(s+4)//5 for s in shape]
     top = encoding['variables']
+    if full_capacity:
+        top, encoding['complete_pair_capacity'] = append_patterns(Q, solver, members, top)
     variables, learned = {}, set()
 
     def variable(label):
@@ -202,7 +210,10 @@ if __name__ == '__main__':
     parser.add_argument('--seconds', type=float, default=600)
     parser.add_argument('--control', action='store_true')
     parser.add_argument('--capacity', action='store_true')
+    parser.add_argument('--full-capacity', action='store_true')
+    parser.add_argument('--split-cover', action='store_true')
     parser.add_argument('--reuse-report', action='append', type=Path, default=[])
     args = parser.parse_args()
-    result = run(args.output, args.seconds, args.control, args.capacity, args.reuse_report)
+    result = run(args.output, args.seconds, args.control, args.capacity,
+                 args.reuse_report, args.full_capacity, args.split_cover)
     print(json.dumps({k: v for k, v in result.items() if k not in ('source_and_normalization', 'witness')}))

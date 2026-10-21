@@ -888,6 +888,24 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-SPLIT-COVER-SOURCE-026",
+      "title": "Exact split PSL(2,5) x C2 source and conditional M10 lead",
+      "status": "conditional-implication",
+      "evidence": "research/ai/2026-10-20-sl2-five-native-parity/README.md",
+      "section": "A constructive continuation on the split cover",
+      "statement": "The explicitly constructed split central cover PSL(2,5) x C2 has complex character degrees two copies of [1,3,3,4,5], derived by the maintained rational central-idempotent calculation on the quotient and the direct-product character rule. The exact conditional M(10,10,10) comparison passes at2247/1000 and the existing rank-locus screen does not exclude it. All37 projected inverse classes have two lift colors. A known projected3-by3 control lifts to an exactly checked strict-potential witness.",
+      "dependencies": [
+        "Maintained rational class-algebra source certificate and exact source/target root intervals",
+        "Direct-product character rule and explicit central quotient multiplication",
+        "Missing coordinate/potential M10 degeneration; only a small weighted control is constructed"
+      ],
+      "limitations": "Conditional source lead only. The improving target has not been constructed and necessary screens do not imply existence. No independent review, formalization or exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }
