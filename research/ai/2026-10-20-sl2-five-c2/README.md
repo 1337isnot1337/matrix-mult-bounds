@@ -23,3 +23,9 @@ The [structured parent note](structured_note.md) records an exact exclusion
 of 1,000 explicitly enumerated ten-point section triples. Every rejection
 has an independently replayed positive integer Farkas circuit. This closes
 that finite parent class, while the selected (13,13,15) target remains open.
+
+The [projected continuation](projected_note.md) separates point selection
+from central lifts, gives necessary binary equations for the two-class
+inverse fibers, and verifies 5,239 saved finite rejections. It also records
+the positive encoding control and the passing all-orientation Koszul screen.
+No projected run has produced a full lift or degeneration witness.

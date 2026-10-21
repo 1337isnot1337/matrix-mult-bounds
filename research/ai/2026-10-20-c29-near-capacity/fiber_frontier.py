@@ -31,6 +31,8 @@ def step(points):
 
 def points(kind):
     size,d = kind
+    if size == 0:
+        return ()
     return (0,) if size == 1 else ((0,d) if size == 2 else tuple(sorted((0,d,P-d))))
 
 
@@ -45,11 +47,24 @@ def unique(kinds):
     return len(value) == size
 
 
-def family_domains(base, family):
+def family_domains(base, family, size=10):
+    if size not in (9,10,11):
+        raise ValueError('the near-capacity reduction supports sizes 9,10,11')
     other = tuple((3,d) for f,d in enumerate(base) if f != family)
     d3 = [d for d in range(1,15) if unique(((3,d),*other))]
     d2 = [d for d in range(1,15) if unique(((2,d),*other))]
     result = []
+    if size != 10:
+        kinds = {0:[(0,0)],1:[(1,0)],2:[(2,d) for d in d2],
+                 3:[(3,d) for d in d3]}
+        for sizes in product(range(4),repeat=3):
+            if sum(sizes) != size-3:
+                continue
+            for choices in product(*(kinds[s] for s in sizes)):
+                result.append(((3,base[family]),*choices))
+        if len(set(result)) != len(result):
+            raise ArithmeticError('duplicated rectangular family pattern')
+        return result
     # Identity is an independently selected largest fiber in every family.
     for second in range(1,4):
         short = [a for a in range(1,4) if a != second]
@@ -101,7 +116,9 @@ def pair_compatible(left, right, other_base):
     return True,'passes'
 
 
-def run(base_limit=None):
+def run(base_limit=None,shape=(10,10,10)):
+    if len(shape) != 3 or any(n not in (9,10,11) for n in shape):
+        raise ValueError('three sizes from 9,10,11 required')
     unique.cache_clear()
     pair_orbits.cache_clear()
     quotient_pack.cache_clear()
@@ -111,7 +128,7 @@ def run(base_limit=None):
         bases = bases[:base_limit]
     records = []
     for base in bases:
-        domains = [family_domains(base,f) for f in range(3)]
+        domains = [family_domains(base,f,shape[f]) for f in range(3)]
         edges = []
         pair_stats = []
         for f,g in [(0,1),(1,2),(2,0)]:
@@ -146,18 +163,23 @@ def run(base_limit=None):
         records.append({'base_directions':base,'family_domain_sizes':list(map(len,domains)),
                         'pair_statistics':pair_stats,'pair_compatible_triangles':triangles,
                         'rejected_by_full_normal_triples':normal_failures,'survivors':survivors})
-    return {'group':'C29:C4','shape':[10]*3,'records':records,
+    return {'group':'C29:C4','shape':list(shape),'records':records,
             'bases_covered':len(bases),'local_survivors':sum(len(x['survivors']) for x in records),
             'distinct_quotient_packing_problems':quotient_pack.cache_info().currsize,
-            'scope':__doc__,'improves_omega':False}
+            'scope':(__doc__ if tuple(shape)==(10,10,10) else
+                     'Complete necessary normal-fiber and local pair-packing tests '
+                     'for the stated unequal shape. Every size-nine or size-eleven '
+                     'fiber pattern is included. No global offsets are constructed.'),
+            'improves_omega':False}
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--base-limit',type=int)
+    parser.add_argument('--shape',type=int,nargs=3,default=[10,10,10])
     parser.add_argument('--output',type=Path,required=True)
     args = parser.parse_args()
-    result = run(args.base_limit)
+    result = run(args.base_limit,args.shape)
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k != 'records'},indent=2))

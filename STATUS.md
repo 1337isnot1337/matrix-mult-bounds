@@ -62,6 +62,14 @@ potentials cannot have all three sizes at least ten. This written argument
 is unreviewed; general tensor degenerations and smaller unequal targets
 remain open. No smaller exponent follows.
 
+The [C29 unequal-target followup](research/ai/2026-10-20-c29-near-capacity/rectangular_note.md)
+closes the same coordinate-potential one-source degree-sum route for all
+single matrix shapes. The full sorted rank-locus frontier leaves only
+(9,9,11), (9,10,10), and (10,10,10). Complete finite filters and identity
+gluing now exclude all three in the stated construction class. This is
+an unreviewed obstruction, not a general degeneration exclusion or an
+improvement of the arithmetic exponent.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
@@ -177,6 +185,15 @@ all 1,000 explicitly generated ten-point section triples by independently
 replayed positive integer Farkas circuits; its finite scope is documented in
 the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
 The larger target remains open.
+
+The [projected continuation](research/ai/2026-10-20-sl2-five-c2/projected_note.md)
+adds necessary four-pair fiber capacities and binary equations over the
+projected involutions. The first binary-filter run has 2,765 replayed
+capacity certificates and 2,474 replayed parity certificates, plus 3,794
+untraced solver cores and one budget skip. It produces no lift or witness;
+the exact circuits do not upgrade the untraced parts into a complete proof.
+All 720 full-space Koszul comparisons pass for this target. A separate
+(12,12,17) comparison is also conditional on an unconstructed degeneration.
 
 ## Second-pass checkpoint
 
@@ -453,6 +470,17 @@ frontier through a=13 contains 239 improving dimension-compatible single
 matrix targets, modulo B/C exchange; all are excluded by saved rank
 witnesses. The frontier through a=16 has 28 survivors, first at a=14.
 No surviving target is constructed; joint extraction remains open.
+
+## Varying quantum recoupling
+
+The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
+uses rational Clebsch--Gordan changes of basis that vary with q. Explicit
+local factors keep the generic source isomorphic to convolution. Exact
+controls check 196 projection positions, 360 invariant equations and 30
+small basis/root configurations. At q=i, the rowwise-regular cyclic maps
+have ranks 8,32,64 at a=2,3,4 over Q(i). This calibration produces ordinary
+restrictions and does not supply the size-four matrix target. Coupled
+singular normalizations remain open; no exponent improvement is claimed.
 
 ## Polynomial flags and numerical calibration
 
