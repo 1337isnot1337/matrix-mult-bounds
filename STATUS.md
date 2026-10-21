@@ -1,5 +1,29 @@
 # Research status
 
+## Mixed seven-by-five coordinate partner
+
+The [five-space point proof](research/ai/2026-10-21-mixed-five-space-residues/proof.md)
+forces the four common-plane normals for every complex mixed five-space
+opposite the full seven-frame at u=v=e3. Exact source-slice covers, cubic
+minors and mixed-column equations give dimensions88,68,54,30,18,12,4.
+The shifted induction excludes the matrix target at this partner and its
+reversal. Claim `AI-MIXED-FIVE-SPACE-POINT-087` is written and unreviewed.
+Other partner lines remain open; the exponent remains9/4.
+
+
+## Arbitrary mixed hyperplanes on either leg
+
+The [mixed-hyperplane proof](research/ai/2026-10-21-rankone-mixed-hyperplanes/proof.md)
+excludes every rank-one mixed first pair with both effective dimensions
+at least six, including arbitrary complex subspaces, graphs and delayed
+unequal orders. On all228 normal parameters, each leg's rank-one obstruction
+has only its mixed column remaining; a mixed hyperplane kills that column
+without assuming opposite-leg equations. Claim
+`AI-RANKONE-MIXED-HYPERPLANES-086` is written and unreviewed. The necessary
+ordinary both-mixed first-rank sum is at most twelve, with only seven-by-five
+rank-one pairs remaining at that threshold. The exponent is still 9/4.
+
+
 ## Uniform maximal rank-one mixed frames
 
 The [seven-frame proof](research/ai/2026-10-21-rankone-seven-frames/proof.md)
@@ -1348,3 +1372,23 @@ this family cannot reach the110-dimensional target legs. It establishes
 integrability of two additional normal directions, not an improving matrix
 limit. Higher-rank completions and the exponent goal remain open; the
 construction and completeness proof are written and unreviewed.
+
+The [updated ordinary rectangular frontier](research/ai/2026-10-21-rectangular-ordinary-frontier/proof.md)
+applies the already proved polynomial/Hankel gates to every improving
+sorted single matrix format for balanced a=2,...,12. Of5139 formats,4192
+are excluded and947 survive. All improving ordinary shapes through a7
+are closed; a8 has exactly M(27,28,28), with legs756,784,756, as a survivor.
+Its maps are unconstructed. The existing spectral implication would give
+omega<=191/85 if that premise were supplied, certified by the recorded
+integer comparison; no exponent improvement is established. The earlier
+polynomial-rank-locus note already excluded all four A5 ordinary targets;
+this scan updates the stale minimum-only research queue and retains that
+prior credit. A separate corner-minor note rederives the existing rank
+inequality, without claiming a new general theorem or independent review.
+
+The later ordinary single-target saturation scan closes A88 to M(27,28,28).
+Across71 source formats through leg dimension1152,1200 potentially improving
+shapes reduce to one survivor: A89 to M30. The general lemmas remain written
+and unreviewed;25740 integer minor witnesses and the finite enumeration were
+replayed. This supplies no maps and no improved exponent. See
+`research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md`.

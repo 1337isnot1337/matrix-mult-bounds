@@ -1,5 +1,25 @@
 # Integrated research coordination
 
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
+mixed five-spaces opposite the full seven-frame force only plane normals.
+The exact elimination uses low-rank source slices, cubic minors and
+mixedness; it closes the former four-source residual at this point.
+The two-parameter virtual tensor is constructed, but direct coordinate
+support covers do not extend the elimination uniformly. Adapted source
+combinations and the other partner points remain under investigation.
+PR62 merged at99ce778 with equal source/squash trees and its completed
+branches removed. PR63 is queued after current checks. No exponent gain.
+
+The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
+now uses the existing polynomial and higher Hankel gates. Every improving
+single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
+left by these tests. This is an unconstructed candidate for the constructive
+source campaign. The quantum worker's separate positive question remains
+a higher-rank completion of the A4 integrable boundary shear. PR61 merged
+at e24894f after current checks, with exact tested/merged tree equality;
+its completed task branches are removed.
+
 The quantum worker now studies
 `ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
 two-parameter non-plane family exists at first ranks10,10. Its local
@@ -39,14 +59,17 @@ The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
 The mixed-jet worker continues in
-`ai/2026-10-21-rankone-seven-frames/QUESTION.md`. A uniform polynomial
-normal minor excludes all maximal rank-one seven-by-seven first pairs;
-the earlier five-frame proof excludes invertible mixed partners. The
-ordinary first-rank sum with both mixed projections nonzero is at most
-thirteen. Next investigate smaller rank-one spaces, including general
-seven-by-six pairs, seeking actual later output growth. These are written
-unreviewed local exclusions; the exponent remains unchanged. Pure-boundary
-biform work stays with the quantum worker.
+`ai/2026-10-21-rankone-mixed-hyperplanes/QUESTION.md`. Each arbitrary mixed
+hyperplane now forces its leg's complete seven-frame normal equations
+without any opposite-leg assumption. This excludes all rank-one pairs
+with both first dimensions at least six by a written all-order proof.
+The ordinary both-mixed first-rank sum is at most twelve; investigate
+arbitrary seven-by-five spaces and smaller pairs for actual output growth.
+Coordinate seven-by-five survivors examined so far have third residues
+confined to a rank-one output entry, below the target gap; this is a
+scratch-control finding, not an all-subspace exclusion. The concurrent
+boundary-shear family remains credited as a non-plane integrability control
+with output ranks fourteen and no matrix target. No exponent gain is claimed.
 
 
 

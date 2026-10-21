@@ -1,0 +1,35 @@
+{
+  "base_main": "e24894f6d7205120fbfd48d17e017bc3c13b1135",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+      "sha256": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_boundary_dimension.md",
+      "sha256": "9fdc122db7edc8dd37269b96d4b4706e23f8f8036a70b96a6d7150f0a9ec8985"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/square_sum_frontier.md",
+      "sha256": "46f852fb3d190bdbac15c6dda4326abd27797f92674e7fd6999ba5ff0146a08e"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.py",
+      "sha256": "f47226408dc6fbf07e39aa59e16cc035d7691493c7d6720c2f99417a0d10f24d"
+    }
+  ],
+  "canonical_credit": "The polynomial-rank-locus classification and its rectangular consequence, Hankel symbol dimension theorem, first-boundary refinement, and earlier square direct-sum frontier are adopted from the constructive-source worker. The earlier cyclic finite-target note supplies the spectral implication and retains external OpenAI credit. No new general rank-locus theorem is claimed.",
+  "local_work": "Complete finite application to balanced single rectangular shapes a2..12, explicit gate witnesses, a stale A5 research-state correction, a conditional integer certificate for the new sole a8 rectangular survivor, and a corner-minor rederivation of the imported polynomial rank bound.",
+  "theorem_hypotheses": "Ordinary restrictions over C; balanced sources A_a; source common leg N=a^2(2a-1); all three cyclic target legs. General Hankel gate needs1<=r<a and3r<=2a-1; boundary gate needsr>=2 and2a-1=3r-1 with capmax(r,4)a^2. Singular degenerations are not excluded.",
+  "discovery": "Deterministic exhaustive sorted integer enumeration. A global low-rank argument was independently rediscovered, then identified as already proved in polynomial_rank_locus.md before any novelty claim was published. It is credited as prior local work.",
+  "ai_assistance": "Generated and checked by the same owner-directed Codex session. The corner note is a rederivation, not independent mathematical review. Imported written proofs remain unreviewed and unformalized.",
+  "improves_omega": false
+}

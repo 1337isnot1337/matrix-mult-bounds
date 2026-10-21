@@ -1,0 +1,52 @@
+{
+  "status": "local finite replay receipts, not independent mathematical review",
+  "frontier_tests": {
+    "count": 5,
+    "seconds": 0.832,
+    "result": "passed",
+    "command": "python -m unittest discover -s tests -p test_rectangular_single_frontier.py -v",
+    "log_sha256": "114e70253e947d4f71785473bff8511181b94f608c0d7c6cef5cddded416b4ea"
+  },
+  "integer_hankel_minor_controls": {
+    "count": 25740,
+    "formats": [
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "result": "passed",
+    "command": "python research/ai/2026-10-21-rectangular-direct-sums/single_frontier.py --verify-caps --output /tmp/frontier.json"
+  },
+  "integrated_main_tests": [
+    {
+      "file": "test_mixed_five_space_residues.py",
+      "count": 4,
+      "seconds": 43.53,
+      "result": "passed"
+    },
+    {
+      "file": "test_rankone_mixed_hyperplanes.py",
+      "count": 5,
+      "seconds": 63.964,
+      "result": "passed"
+    },
+    {
+      "file": "test_rectangular_ordinary_frontier.py",
+      "count": 4,
+      "seconds": 0.744,
+      "result": "passed"
+    }
+  ],
+  "main_commit": "2850de41e0628623a92d8f29b62938d791a11e2b",
+  "no_github_ci_claimed": true,
+  "no_exponent_improvement": true
+}

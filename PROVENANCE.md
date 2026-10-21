@@ -1,5 +1,23 @@
 # Attribution and provenance
 
+The five-space point continuation in
+`research/ai/2026-10-21-mixed-five-space-residues/` was generated in this
+owner-directed Codex session. It adopts the preceding frames, normal
+equations, saturated target rank gap and shifted moving-plane induction.
+The virtual-correction factorization and iterative five-space elimination
+are local work. Concurrent boundary shears remain credited to their
+package. No independent review or exponent improvement is claimed.
+
+
+The mixed-hyperplane continuation in
+`research/ai/2026-10-21-rankone-mixed-hyperplanes/` was generated in this
+owner-directed Codex session. It adopts the uniform maximal first frames,
+canonical correction maps, repeated-minor discovery method and shifted
+moving-plane argument. The unconditioned and conditioned polynomial witnesses and arbitrary
+mixed-hyperplane consequence are local work. The concurrent boundary-shear
+construction is credited as context; its discovery is not reassigned here.
+No independent review, formalization or improved exponent is claimed.
+
 The rank-one seven-frame continuation in
 `research/ai/2026-10-21-rankone-seven-frames/` was generated in this
 owner-directed Codex session. It adopts the complete partner/graph
@@ -325,3 +343,17 @@ The canonical source and normal directions retain their prior credits.
 This same-session AI-assisted construction has no independent review or
 historical-priority claim, and its rank14 maps do not supply a new matrix
 multiplication exponent.
+
+The `2026-10-21-rectangular-ordinary-frontier` package applies the credited
+constructive-source worker's existing rank-locus and Hankel results to a
+new finite rectangular scan. It corrects the stale ordinary A5 queue and
+gives a corner-minor rederivation of the existing rank inequality. The
+classification is not claimed as new work. Same-session checks and the
+conditional integer certificate supply no target maps, independent review
+or exponent improvement.
+
+The single-target dimension1152 scan reuses the maintained slice, saturation
+and second-boundary lemmas. It closes the balanced size-eight candidate in
+the later main-branch frontier by applying the already written rank-three
+projection result. This is a finite application, with integer certificate
+replay, not a new general theorem or independent proof review.

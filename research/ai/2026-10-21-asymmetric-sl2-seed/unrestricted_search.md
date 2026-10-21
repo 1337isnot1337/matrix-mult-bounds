@@ -81,3 +81,29 @@ to relative drift below6e-14, but reduced the norm only slightly. It does not
 prove a bounded or unbounded limit. The solver continues from the saved
 sparse checkpoint with refreshed conditioning and a larger linear-solve
 budget. Optional numerical dependencies are separate from exact verification.
+
+## Follow-up outcomes and Laurent-family gate
+
+The5000-sweep unrestricted ALS experiment completed at relative error
+0.0056388053. The first sparse restart, with500 Krylov iterations and50
+nonlinear evaluations, improved the pointwise error to approximately0.00135.
+Map norms continued to grow. This is not evidence of an exact finite map or
+an exact degeneration by itself.
+
+A six-dimensional span per leg of prior trajectories had numerical target
+projection error0.0007759454. Optimizing the three coefficient vectors in
+that span gave0.0013537334, almost no gain. This is a scoped numerical
+non-result, not a lower bound for general maps.
+
+A naive interpolation M(t)=t L+F+t^-1 R through three balanced snapshots
+failed its independent fourth-snapshot check. The constant tensor error was
+about6.29 and the fourth predicted tensor error about0.148. Its positive
+Laurent coefficients are nonzero. It is explicitly rejected as a limiting
+construction, despite fitting the three sampled maps.
+
+`laurent_als.py` instead solves the actual coefficient equations for a
+proposed degree-one Laurent family. It requires the constant output tensor
+to equal M(5,5,4), and every positive output power1,2,3 to vanish. Negative
+powers may remain. A successful numerical fit would still need exact
+coefficient recovery and original-source replay. This coefficient search is
+ongoing; the failed interpolation is only an initialization, not evidence.
