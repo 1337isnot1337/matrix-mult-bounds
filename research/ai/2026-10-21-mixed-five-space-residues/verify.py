@@ -40,21 +40,19 @@ def row_basis(matrix):
     return reduced.to_Matrix()[:len(pivots), :], list(pivots)
 
 
-@lru_cache(None)
-def source_data():
+def build_virtual(left, right, parameters, reduce_rows=row_basis, simplify=sp.MutableSparseMatrix):
+    """Build corrections for a complete B frame and virtual C frame."""
     data = normal.data()
-    left, right = (m.subs({frames.A: 0, frames.B: 0}) for m in frames.chart_frames())
     b_rows = frames.covectors(left, data['E_B_complement'])
     c_rows = frames.covectors(right, data['E_C_complement'])
-    parameters = normal.sparse_nullspace(frames.constraints(left, sp.zeros(16, 0)))[0]
     if parameters.cols != 88:
         raise ArithmeticError('Unexpected full B-frame normal dimension')
     normal_values = data['first_kernel']*parameters
     leading = sp.MutableSparseMatrix(896, 88,
         {(normal.NORMAL[i], j): value for (i, j), value in normal_values.todok().items()})
     source_correction = sp.kronecker_product(sp.SparseMatrix.eye(64), data['recover'])*data['operator']*leading
-    psi = frames.constraints(sp.zeros(16, 0), right)*parameters
-    psi_joint, pivots = row_basis(joint(psi, 200))
+    psi = simplify(frames.constraints(sp.zeros(16, 0), right)*parameters)
+    psi_joint, pivots = reduce_rows(joint(psi, 200))
     identity = [{i: 1} for i in range(112)]
     solutions, c_residuals = [], []
     for side, rows, key in (('B', b_rows, 'left_constraints'), ('C', c_rows, 'right_constraints')):
@@ -76,7 +74,7 @@ def source_data():
             answer = sp.MutableSparseMatrix.zeros(112, 88)
             for i, j in enumerate(cc):
                 answer[j, :] = values[i, :]
-            residual = base*answer+rhs
+            residual = simplify(base*answer+rhs)
             if side == 'B' and residual.todok():
                 raise ArithmeticError('B correction does not solve its equations')
             if side == 'C':
@@ -85,7 +83,7 @@ def source_data():
         solutions.append(answers)
     residual_joint = joint(sp.MutableSparseMatrix.vstack(*c_residuals), 256)
     residual_factor = residual_joint[:, pivots]
-    if residual_joint != residual_factor*psi_joint:
+    if not frames.zero(residual_joint-residual_factor*psi_joint):
         raise ArithmeticError('Virtual C residual does not factor through Psi')
     third_map = sp.MutableSparseMatrix.zeros(64*49, 88)
     pair = extension.contract(b_rows, c_rows, extension.A0)
@@ -93,9 +91,16 @@ def source_data():
         b2, c2 = [[{j: row[j, k] for j in range(112) if row[j, k]} for row in answers] for answers in solutions]
         y = sp.Matrix(64, 12, lambda i, j: source_correction[12*i+j, k])
         value = extension.contract(b2, c_rows, normal.KERNEL)+extension.contract(b_rows, c2, normal.KERNEL)-y*pair
-        third_map[:, k] = sp.Matrix(list(value))
+        third_map[:, k] = simplify(sp.Matrix(list(value)))
     return {'parameters': parameters, 'psi': psi, 'third': third_map,
             'residual_factor': residual_factor, 'psi_joint_basis': psi_joint}
+
+
+@lru_cache(None)
+def source_data():
+    left, right = (m.subs({frames.A: 0, frames.B: 0}) for m in frames.chart_frames())
+    parameters = normal.sparse_nullspace(frames.constraints(left, sp.zeros(16, 0)))[0]
+    return build_virtual(left, right, parameters)
 
 
 def cover(support):

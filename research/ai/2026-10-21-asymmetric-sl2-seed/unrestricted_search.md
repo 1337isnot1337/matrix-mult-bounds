@@ -107,3 +107,25 @@ to equal M(5,5,4), and every positive output power1,2,3 to vanish. Negative
 powers may remain. A successful numerical fit would still need exact
 coefficient recovery and original-source replay. This coefficient search is
 ongoing; the failed interpolation is only an initialization, not evidence.
+
+## Degree-two coefficient checkpoint
+
+The factored-Jacobian solver now supports Laurent map degrees d through -d
+and checks every nonnegative output coefficient, from0 through3d. The
+degree-two checkpoint has joint relative coefficient error0.00090360636
+after40 nonlinear evaluations. A separate restart is ongoing. This is
+a numerical candidate, not an identity or an exponent bound.
+
+The optional NumPy verifier `laurent_modular_check.py` interprets each
+stored binary64 coefficient exactly as a dyadic rational and evaluates
+the original729 source terms over F_65519[i]. Thirteen evaluations recover
+every Laurent coefficient by Vandermonde interpolation. All10000 entries
+at each required output power0 through6 fail the exact identity check.
+Thus the supplied maps are definitively not an exact construction. A
+zero residue at one prime would not prove an identity over Q(i). An exact
+M(5,5,3) family with compensating diagonal target gauges is a positive
+control and has zero mismatches.
+
+The compressed NPZ checkpoint and its input SHA-256 in the modular report
+make this rejection replayable. Load with NumPy's default allow_pickle=False.
+No external theorem is used by this finite-field rejection calculation.

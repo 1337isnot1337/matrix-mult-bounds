@@ -10,6 +10,17 @@ targets through source leg dimension1152. General lemmas remain written
 and unreviewed; singular degenerations and three or more blocks remain
 open. The exponent remains9/4.
 
+## Uniform adapted mixed source slices
+
+The [adapted-source proof](research/ai/2026-10-21-mixed-five-space-uniform/proof.md)
+extends the first sixteen low-rank source slices across the entire
+two-parameter rank-one partner chart. Their projected third slices have
+only the mixed B row remaining and must vanish in a matrix-target lift.
+Claim `AI-MIXED-FIVE-SPACE-LOW-SLICES-088` has exact polynomial certificates
+and a written unreviewed proof. The full five-space closure remains open
+away from the earlier coordinate partner; the exponent is still9/4.
+
+
 ## Mixed seven-by-five coordinate partner
 
 The [five-space point proof](research/ai/2026-10-21-mixed-five-space-residues/proof.md)

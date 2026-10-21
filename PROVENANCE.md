@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The uniform adapted-source package in
+`research/ai/2026-10-21-mixed-five-space-uniform/` was generated in this
+owner-directed Codex session. It reuses the point package virtual tensor
+builder and earlier uniform normal kernels. The polynomial adapted source
+identity and uniform correction-rowspace certificate are local work.
+The point report is unchanged and replayed after the builder is shared.
+No independent review or exponent improvement is claimed.
+
+
 The five-space point continuation in
 `research/ai/2026-10-21-mixed-five-space-residues/` was generated in this
 owner-directed Codex session. It adopts the preceding frames, normal
