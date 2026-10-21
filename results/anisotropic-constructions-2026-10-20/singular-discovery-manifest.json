@@ -1,0 +1,150 @@
+{
+  "purpose": "Exact support sources and discovery records; no improving matrix target constructed",
+  "commands": [
+    "python research/ai/2026-10-20-anisotropic-constructions/singular_support.py --output results/anisotropic-constructions-2026-10-20/singular-support-controls.json",
+    "python research/ai/2026-10-20-anisotropic-constructions/dense_als.py --a 5 --b 5 --source-mode parity110 --direct-sum 14 4 --starts 1 --iterations 10 --seed 2026102800 --output results/local/parity110-real-pilot",
+    "python research/ai/2026-10-20-anisotropic-constructions/dense_als.py --a 5 --b 5 --source-mode parity110 --direct-sum 14 4 --starts 1 --iterations 10 --seed 2026102801 --scaling results/anisotropic-constructions-2026-10-20/parity_balancing_preconditioner.npz --output results/local/parity110-scaled-real-pilot",
+    "OPENBLAS_NUM_THREADS=1 python research/ai/2026-10-20-anisotropic-constructions/dense_als.py --a 5 --b 5 --source-mode parity110 --direct-sum 14 4 --starts 1 --iterations 100 --seed 2026102810 --initial results/local/parity110-real-pilot/best.npz --noise 0 --output results/local/parity110-real-continued",
+    "OPENBLAS_NUM_THREADS=1 python research/ai/2026-10-20-anisotropic-constructions/dense_als.py --a 5 --b 5 --source-mode parity110 --direct-sum 14 4 --complex --starts 2 --iterations 100 --seed 2026102820 --scaling results/anisotropic-constructions-2026-10-20/parity_balancing_preconditioner.npz --output results/local/parity110-scaled-complex"
+  ],
+  "artifacts": [
+    {
+      "name": "parity000-a2-m2-control-js-best.npz",
+      "bytes": 2341,
+      "sha256": "425a5779aaf354e095a9e9eb2969e9adf06f11a4ba459005c937631d53c4a457"
+    },
+    {
+      "name": "parity000-a2-m2-control-js-report.json",
+      "bytes": 776,
+      "sha256": "effe5cd0419edd1333d93ce6680c2449edbb2fa404d45f3f5670fbcc297f2d92"
+    },
+    {
+      "name": "parity000-a2-m3-fixed-m2-js-best.npz",
+      "bytes": 2693,
+      "sha256": "214df5e452330a7de45cb13c17e385eade0ea9f493144fd9b369cde43b146c4d"
+    },
+    {
+      "name": "parity000-a2-m3-fixed-m2-js-report.json",
+      "bytes": 11251,
+      "sha256": "3658dd59ca6e7ee43e60209ed7adbcb3feebfe02396e5d0fb8dbb92990839ef7"
+    },
+    {
+      "name": "parity000-a2-m3-js-best.npz",
+      "bytes": 3815,
+      "sha256": "93c36c538aa63d174e80fe4b2a2dbb14cb34915155c5958f802112e95b82d1b4"
+    },
+    {
+      "name": "parity000-a2-m3-js-report.json",
+      "bytes": 11191,
+      "sha256": "af51409ee951a5b563ee91e921e5a6f59c8e3d89d4ecbde5635401b6f4e2ac3b"
+    },
+    {
+      "name": "parity000-a2-m3-plus-two-scalars-js-best.npz",
+      "bytes": 3841,
+      "sha256": "1afd499a2323b11d9c1604de9372a90273f40bd7cc21c91659a729974e17e793"
+    },
+    {
+      "name": "parity000-a2-m3-plus-two-scalars-js-report.json",
+      "bytes": 8629,
+      "sha256": "508dfc83a2c318d3eefbb144fa9482528d2d8a6ce2da20c31af2d1fdf94af227"
+    },
+    {
+      "name": "parity000-a5-m14-plus-m4-js-best.npz",
+      "bytes": 1074639,
+      "sha256": "81ffc9b4b9f88423db7faccaede0b93f8a18060cc8a35b167de1356131a43081"
+    },
+    {
+      "name": "parity000-a5-m14-plus-m4-js-report.json",
+      "bytes": 1371,
+      "sha256": "f60cc2af707c7dfd510109785bb8ef1693ca22ba2d2c80b7293ea4016094cc85"
+    },
+    {
+      "name": "parity000-js-replay.json",
+      "bytes": 1882,
+      "sha256": "2d1770eadb1e0474744ae82736c5f087ff5e90adf38cd68cb630b57d655810f0"
+    },
+    {
+      "name": "parity110-real-continued-best.npz",
+      "bytes": 1016500,
+      "sha256": "d5c092b9d2aee4a5d662d4125db3fad308702b61349e5f04a89e96c1e1b003d7"
+    },
+    {
+      "name": "parity110-real-continued-report.json",
+      "bytes": 2615,
+      "sha256": "0a576478dfb7de3a709b5f923e41544fff7ece801be7d46b3cca4470745e31ad"
+    },
+    {
+      "name": "parity110-real-pilot-best.npz",
+      "bytes": 1015735,
+      "sha256": "677c1142975104606352b8a685c50d256eedc684a936933fd7242f33c4079c26"
+    },
+    {
+      "name": "parity110-real-pilot-report.json",
+      "bytes": 1362,
+      "sha256": "37f2340e5ceeeeacdd8530febabdec8c3e957a855ddc615607da3cfb7ec3127c"
+    },
+    {
+      "name": "parity110-scaled-complex-best.npz",
+      "bytes": 2029241,
+      "sha256": "a23f326582f569734ab9dd7e6cc96fa2f934a4169a2fb2855ea517ea6253caa6"
+    },
+    {
+      "name": "parity110-scaled-complex-interrupted-checkpoint.json",
+      "bytes": 364,
+      "sha256": "80df9ff5e9cc70fbc50b76cabf26dfbc460ecc016e224651270e73fb2a585bdd"
+    },
+    {
+      "name": "parity110-scaled-complex-report.json",
+      "bytes": 2653,
+      "sha256": "3266ca30f0844c1f6cd93f006a38fb2a9c6f46fcaa72af63a8c06aa845c845dc"
+    },
+    {
+      "name": "parity110-scaled-real-pilot-best.npz",
+      "bytes": 1015245,
+      "sha256": "8b1b92d741eb091c3fad2ea5c2deb909d8c3aff6ce2f48c1e286a5398e45dc68"
+    },
+    {
+      "name": "parity110-scaled-real-pilot-report.json",
+      "bytes": 1499,
+      "sha256": "671a42b3efced9ca9e52d8ee701bbefc38c4811ecf4bb72ac998f5acabe338d9"
+    },
+    {
+      "name": "parity110-search-closure.json",
+      "bytes": 1021,
+      "sha256": "2b8263f3f29dbff19ba47b2b4662f218b427b146b59f20e0baed30831873cb1f"
+    },
+    {
+      "name": "parity_balancing_numerical.json",
+      "bytes": 1746,
+      "sha256": "07beafb450f4c186ceeb75296aef34dd5c1cce6d1c0b0e0a554069426163362f"
+    },
+    {
+      "name": "parity_balancing_p_2_3.json",
+      "bytes": 10265,
+      "sha256": "597acdc554f65d7fe0d73abef1b6e50ecd8ffa03fc1dc7fd20e6926b6bb9c741"
+    },
+    {
+      "name": "parity_balancing_p_67_100.json",
+      "bytes": 10376,
+      "sha256": "e8e23637402b13329ed5feea1a8edf1ff8abd62e3e25c7549761e6bbaca6e1a2"
+    },
+    {
+      "name": "parity_balancing_preconditioner.npz",
+      "bytes": 129027,
+      "sha256": "4516d01f6376fc557e37a6ef2c0f586f206d759729b57a631aeff1f55a438326"
+    },
+    {
+      "name": "parity_balancing_verification.json",
+      "bytes": 2083,
+      "sha256": "94d59975b5ded0437496ed82a83fd26476c6adde6ee9b82df7f9d14dd7439a00"
+    },
+    {
+      "name": "singular-support-controls.json",
+      "bytes": 16563,
+      "sha256": "3f0c97359aa6e001502ec7e1bd8bf06fb9025a2dbb2e46fd1d6b27c705397590"
+    }
+  ],
+  "new_exponent_established": false,
+  "improving_target_constructed": false,
+  "archived_target_status": "Parity110 M14+M4 is excluded; source and controls remain valid"
+}

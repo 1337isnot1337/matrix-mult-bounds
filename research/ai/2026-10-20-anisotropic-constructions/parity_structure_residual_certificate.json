@@ -1,0 +1,157 @@
+{
+  "scope": "exact ordinary restriction; no improved exponent",
+  "source": "A(5,6)",
+  "source_format": [
+    300,
+    300,
+    300
+  ],
+  "source_terms": 27000,
+  "target": "M8 direct-sum A(2,3)",
+  "target_format": [
+    88,
+    88,
+    88
+  ],
+  "target_terms": 728,
+  "matrix_block_terms": 512,
+  "residual_terms": 216,
+  "all_output_coefficients_exact": true,
+  "all_mixed_coefficients_zero": true,
+  "numerator_map_shapes": [
+    [
+      88,
+      300
+    ],
+    [
+      88,
+      300
+    ],
+    [
+      88,
+      300
+    ]
+  ],
+  "row_denominators": {
+    "rows_0_through_63": 1,
+    "rows_64_through_87": 2
+  },
+  "numerator_nonzero_counts": [
+    768,
+    768,
+    768
+  ],
+  "numerator_max_absolute_entry": 1,
+  "P_numerator": [
+    [
+      0,
+      1,
+      1,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "P_denominator": 2,
+  "Q": [
+    [
+      -1,
+      0,
+      0,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "Q_in_V": [
+    [
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      1
+    ]
+  ],
+  "h": [
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "local_convolution_identity_exact": true,
+  "new_exponent_established": false
+}

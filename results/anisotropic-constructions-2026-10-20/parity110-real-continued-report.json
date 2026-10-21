@@ -1,0 +1,131 @@
+{
+  "source_lengths": [
+    5,
+    5
+  ],
+  "source_mode": "parity110",
+  "source_nonzero_coefficients": 11725,
+  "source_diagonal_scaling": null,
+  "source_scaling_sha256": null,
+  "target_shape": null,
+  "target_direct_sum_sizes": [
+    14,
+    4
+  ],
+  "map_class": "arbitrary dense constant maps; no weight restriction",
+  "complex_maps": false,
+  "maximum_iterations": 100,
+  "starts_completed": 1,
+  "records": [
+    {
+      "seed": 2026102810,
+      "iterations": 100,
+      "full_relative_error": 0.8574178658687077,
+      "trajectory": [
+        [
+          1,
+          0.902136796718041
+        ],
+        [
+          6,
+          0.884134011051794
+        ],
+        [
+          11,
+          0.8764480771065792
+        ],
+        [
+          16,
+          0.8718951604793492
+        ],
+        [
+          21,
+          0.8702926711721015
+        ],
+        [
+          26,
+          0.8691494122120619
+        ],
+        [
+          31,
+          0.8683269667149334
+        ],
+        [
+          36,
+          0.8677297703430963
+        ],
+        [
+          41,
+          0.8672824684086197
+        ],
+        [
+          46,
+          0.8669441341644084
+        ],
+        [
+          51,
+          0.8666657285983472
+        ],
+        [
+          56,
+          0.866402930219723
+        ],
+        [
+          61,
+          0.8661391583746637
+        ],
+        [
+          66,
+          0.8658851667691406
+        ],
+        [
+          71,
+          0.8656270577467923
+        ],
+        [
+          76,
+          0.8652417337078642
+        ],
+        [
+          81,
+          0.8644018088142902
+        ],
+        [
+          86,
+          0.8627837725685499
+        ],
+        [
+          91,
+          0.8605845002850703
+        ],
+        [
+          96,
+          0.8585223592500123
+        ],
+        [
+          100,
+          0.8574178658687077
+        ]
+      ],
+      "map_norms": [
+        17.669327714959643,
+        17.669327714959646,
+        17.66932771495964
+      ]
+    }
+  ],
+  "initial_array": "results/local/parity110-real-pilot/best.npz",
+  "initial_sha256": "677c1142975104606352b8a685c50d256eedc684a936933fd7242f33c4079c26",
+  "initial_noise": 0.0,
+  "control": {
+    "integer_control_full_relative_error": 0.0,
+    "after_one_sweep_error": 2.4626204203984604e-15,
+    "parity110_control_full_relative_error": 0.0,
+    "single_block_direct_sum_control_full_relative_error": 0.0
+  },
+  "best_full_relative_error": 0.8574178658687077,
+  "full_coefficient_count": 9528128,
+  "exact_witness_found": false,
+  "exclusion_proved": false,
+  "new_exponent_established": false
+}
