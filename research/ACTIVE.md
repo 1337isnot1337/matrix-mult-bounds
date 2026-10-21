@@ -13,9 +13,12 @@ branches removed. PR63 is queued after current checks. No exponent gain.
 
 The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
 now uses the existing polynomial and higher Hankel gates. Every improving
-single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
-left by these tests. This is an unconstructed candidate for the constructive
-source campaign. The quantum worker's separate positive question remains
+single ordinary shape through source leg dimension1152 is now excluded
+by the later saturation and two-ruling arguments. This closes both the
+former A88 to M(27,28,28) and A89 to M30 ordinary candidates. Singular
+degenerations remain open. The only ordinary survivor through dimension1500
+is A(8,10) to M(32,33,33), with no maps supplied; see the two-ruling proof
+and `ai/2026-10-21-rectangular-direct-sums/next_ordinary_target.md`. The quantum worker's separate positive question remains
 a higher-rank completion of the A4 integrable boundary shear. PR61 merged
 at e24894f after current checks, with exact tested/merged tree equality;
 its completed task branches are removed.

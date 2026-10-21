@@ -1377,7 +1377,8 @@ The [updated ordinary rectangular frontier](research/ai/2026-10-21-rectangular-o
 applies the already proved polynomial/Hankel gates to every improving
 sorted single matrix format for balanced a=2,...,12. Of5139 formats,4192
 are excluded and947 survive. All improving ordinary shapes through a7
-are closed; a8 has exactly M(27,28,28), with legs756,784,756, as a survivor.
+are closed; its earlier gates retained M(27,28,28) at a8, with
+legs756,784,756. Later arguments below close that ordinary candidate.
 Its maps are unconstructed. The existing spectral implication would give
 omega<=191/85 if that premise were supplied, certified by the recorded
 integer comparison; no exponent improvement is established. The earlier
@@ -1388,7 +1389,23 @@ inequality, without claiming a new general theorem or independent review.
 
 The later ordinary single-target saturation scan closes A88 to M(27,28,28).
 Across71 source formats through leg dimension1152,1200 potentially improving
-shapes reduce to one survivor: A89 to M30. The general lemmas remain written
+shapes first reduced to A89 to M30; the new two-ruling bound now closes
+that final ordinary candidate too. The general lemmas remain written
 and unreviewed;25740 integer minor witnesses and the finite enumeration were
 replayed. This supplies no maps and no improved exponent. See
 `research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md`.
+
+The self-contained two-ruling lemma proves that if all two-row and
+two-column bilinear image spaces have dimension at most r>=6, the full
+image has dimension at most floor(r^2/4). Its r=7 application excludes
+ordinary A89 to M30 by900>12*72=864. The proof is written and unreviewed;
+finite controls retain an r=5 counterexample and check all equality cases
+through r=20. No smaller exponent or general singular exclusion follows.
+
+With the two- and three-ruling gates included, the scan through source leg
+dimension1500 leaves only A(8,10) to M(32,33,33), at source dimension1360.
+Its required maps are missing. The conditional arithmetic would give about
+2.245871, but no smaller exponent is established. The rank-two lift is641,
+one above the640 full-symbol threshold; the existing one-step counterexample
+prevents rounding away that gap. See `next_ordinary_target.md` in the
+rectangular-direct-sums research folder.

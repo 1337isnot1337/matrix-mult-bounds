@@ -1,17 +1,20 @@
-# A simpler surviving construction target
+# Former ordinary target, now excluded
 
-October 21, 2026. Open construction problem. No improved exponent is claimed.
+October 21, 2026. The later `two_ruling_cap.md` excludes this ordinary
+restriction. General singular degenerations are not excluded. The earlier
+necessary tests and conditional comparison below are retained as history.
+No improved exponent is claimed.
 
-The ordinary target A(8,9) -> M30 passes the current necessary tests.
+The ordinary target A(8,9) -> M30 passed the earlier necessary tests.
 Enumerating1<=n<=floor(sqrt(1152))=33, it is the only single square target
 that passes both the exact9/4 score gate and those necessary tests. It avoids
 the extra M3 block that the bundle/stratum argument has excluded. The source
 has1152 coordinates per leg; the target has900. Each output kernel has dimension252.
 A rank-three parameter slice therefore lifts to rank at most594, with the
-full-symbol crossed-rank upper bound26. The current dimension comparison does
-not exclude it. Passing those inequalities is not evidence that maps exist.
+full-symbol crossed-rank upper bound26. That older rank-three dimension comparison alone did not exclude it.
+The newer rank-two, two-ruling argument does exclude ordinary maps.
 
-Actual maps would imply
+The historical conditional comparison was
 
     omega <= 3 log(49)/log(180) = approximately2.2483261906.
 

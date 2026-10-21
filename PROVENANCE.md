@@ -357,3 +357,10 @@ and second-boundary lemmas. It closes the balanced size-eight candidate in
 the later main-branch frontier by applying the already written rank-three
 projection result. This is a finite application, with integer certificate
 replay, not a new general theorem or independent proof review.
+
+The two-ruling dimension proof is a self-contained local argument using
+generic bilinear spanning, submodularity and an equality-case common-core
+analysis. It retains a counterexample below its r>=6 range. The three-ruling
+corollary and the dimension1500 scan apply that argument alongside credited
+Hankel bounds. No historical priority, independent review or exponent
+improvement is claimed.

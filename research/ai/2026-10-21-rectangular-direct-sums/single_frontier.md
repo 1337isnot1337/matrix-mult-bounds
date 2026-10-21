@@ -6,8 +6,9 @@ Their general proofs remain unreviewed. No new construction or exponent.
 The complete scan of71 source formats A(a,b), with2<=a<=b and
 N=ab(a+b-1)<=1152, contains1200 sorted rectangular target shapes with
 leg dimensions at mostN and strict9/4 score gain. The baseline tests
-exclude1181. Rank-three saturation excludes15 more, and the second
-Hankel boundary excludes3. Only A(8,9) -> M(30,30,30) survives.
+exclude1181. Rank-three saturation excludes15 more, the second Hankel
+boundary excludes3, and the new two-ruling bound excludes the last one,
+A(8,9) -> M(30,30,30). No ordinary candidate remains in this finite range.
 
 The score test is the exact integer inequality
 
@@ -54,7 +55,7 @@ replayed with integer determinants. The second-boundary uses A710 and
 the previously recorded rank-six controls. All imported proofs retain
 their stated assumptions and review status.
 
-The surviving ordinary M30 target is described in
-`single_matrix_target.md`, including its conditional exponent implication.
-Passing every gate does not supply a tensor restriction. Its maps remain
-missing, so the displayed conditional improvement is not attained.
+The former ordinary M30 target is now excluded in `two_ruling_cap.md`.
+Its earlier score comparison remains in `single_matrix_target.md` for
+provenance. No singular degeneration is excluded or constructed, and no
+conditional exponent comparison has been turned into an attained bound.
