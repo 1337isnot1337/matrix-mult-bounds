@@ -1,0 +1,274 @@
+{
+  "group": "S5 x C2",
+  "order": 240,
+  "complex_degrees": [
+    1,
+    1,
+    4,
+    4,
+    5,
+    5,
+    6,
+    1,
+    1,
+    4,
+    4,
+    5,
+    5,
+    6
+  ],
+  "first_factor_rational_certificate": {
+    "group": "S5",
+    "order": 120,
+    "class_sizes": [
+      1,
+      10,
+      20,
+      15,
+      30,
+      20,
+      24
+    ],
+    "class_representatives": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    ],
+    "center_generator_coefficients": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "cyclic_basis_determinant": "4392191322771816042171568258444539349979627520000000",
+    "minimal_polynomial": [
+      1,
+      -2983,
+      -46815,
+      1023615585,
+      -18746819685,
+      -41953370493357,
+      733721307540291,
+      49481991842867955
+    ],
+    "rational_central_blocks": [
+      {
+        "irreducible_factor": [
+          1,
+          -2877
+        ],
+        "central_idempotent": [
+          "1/120",
+          "1/120",
+          "1/120",
+          "1/120",
+          "1/120",
+          "1/120",
+          "1/120"
+        ],
+        "regular_rank": 1,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 1
+      },
+      {
+        "irreducible_factor": [
+          1,
+          -597
+        ],
+        "central_idempotent": [
+          "1/120",
+          "-1/120",
+          "1/120",
+          "1/120",
+          "-1/120",
+          "-1/120",
+          "1/120"
+        ],
+        "regular_rank": 1,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 1
+      },
+      {
+        "irreducible_factor": [
+          1,
+          -217
+        ],
+        "central_idempotent": [
+          "3/10",
+          "0",
+          "0",
+          "-1/10",
+          "0",
+          "0",
+          "1/20"
+        ],
+        "regular_rank": 36,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 6
+      },
+      {
+        "irreducible_factor": [
+          1,
+          -45
+        ],
+        "central_idempotent": [
+          "5/24",
+          "1/24",
+          "-1/24",
+          "1/24",
+          "-1/24",
+          "1/24",
+          "0"
+        ],
+        "regular_rank": 25,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 5
+      },
+      {
+        "irreducible_factor": [
+          1,
+          27
+        ],
+        "central_idempotent": [
+          "5/24",
+          "-1/24",
+          "-1/24",
+          "1/24",
+          "1/24",
+          "-1/24",
+          "0"
+        ],
+        "regular_rank": 25,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 5
+      },
+      {
+        "irreducible_factor": [
+          1,
+          213
+        ],
+        "central_idempotent": [
+          "2/15",
+          "-1/15",
+          "1/30",
+          "0",
+          "0",
+          "1/30",
+          "-1/30"
+        ],
+        "regular_rank": 16,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 4
+      },
+      {
+        "irreducible_factor": [
+          1,
+          513
+        ],
+        "central_idempotent": [
+          "2/15",
+          "1/15",
+          "1/30",
+          "0",
+          "0",
+          "-1/30",
+          "-1/30"
+        ],
+        "regular_rank": 16,
+        "number_of_complex_blocks": 1,
+        "complex_matrix_degree": 4
+      }
+    ],
+    "complex_degrees": [
+      1,
+      1,
+      4,
+      4,
+      5,
+      5,
+      6
+    ],
+    "arithmetic": "exact integers and rationals",
+    "sympy_version": "1.14.0"
+  },
+  "conditional_gate": {
+    "shape": [
+      13,
+      14,
+      14
+    ],
+    "tau": "2247/1000",
+    "scale": 10000000000,
+    "source_term_upper_numerators": [
+      10000000001,
+      10000000001,
+      225335076306,
+      225335076306,
+      372036542596,
+      372036542596,
+      560409978508,
+      10000000001,
+      10000000001,
+      225335076306,
+      225335076306,
+      372036542596,
+      372036542596,
+      560409978508
+    ],
+    "source_upper_numerator": 3550306432628,
+    "target_lower_numerator": 3558306617707,
+    "strict_positive_margin_numerator": 8000185079,
+    "meaning": "Conditional comparison only. No degeneration supplied."
+  },
+  "degeneration_constructed": false,
+  "exponent_improvement": false
+}

@@ -1,0 +1,37 @@
+{
+  "shape": [
+    13,
+    14,
+    14
+  ],
+  "source_dimension": 240,
+  "largest_target_input": 196,
+  "target_minimum_nonzero_slice_rank": 13,
+  "low_rank_locus": {
+    "rank_budget": 12,
+    "dimension": 22,
+    "block_ranks": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "actual_regular_rank": 12
+  },
+  "source_dimension_required": 218,
+  "dimension_deficit": -22,
+  "excluded": false,
+  "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+  "proof_status": "written proof; unreviewed; not Lean formalized",
+  "improves_omega": false
+}

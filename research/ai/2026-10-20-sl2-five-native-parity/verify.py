@@ -11,14 +11,17 @@ from verify_projected_reports import verify_parity, verify_farkas_record
 from group_exact import verify_witness
 
 
-def replay(path):
+def replay(path, data_provider=None, target_shape=(10, 10, 10)):
     report = json.loads(path.read_text())
-    if report['group'] == 'PSL(2,5) x C2':
+    expected_shape = list(target_shape)
+    if data_provider is not None:
+        G, Q, receipt = data_provider()
+    elif report['group'] == 'PSL(2,5) x C2':
         from split_source import split_data
         G, Q, receipt = split_data()
     else:
         G, Q, receipt = data()
-    if report['group'] != G['name'] or report['shape'] != [10]*3:
+    if report['group'] != G['name'] or report['shape'] != expected_shape:
         raise ValueError('wrong group or target')
     # JSON serializes the integer-keyed histogram as strings.
     if report['source_and_normalization'] != json.loads(json.dumps(receipt)):
@@ -30,13 +33,13 @@ def replay(path):
     for line in payload.splitlines():
         item = json.loads(line)
         if item['type'] == 'exact-parity':
-            if list(map(len, item['sets'])) != [10]*3:
+            if list(map(len, item['sets'])) != expected_shape:
                 raise ValueError('wrong projected shape')
             verify_parity(Q, item)
         elif item['type'] == 'exact-pair-capacity':
             verify_capacity(Q, item)
         elif item['type'] == 'exact-farkas':
-            if list(map(len, item['sets'])) != [10]*3:
+            if list(map(len, item['sets'])) != expected_shape:
                 raise ValueError('wrong lifted shape')
             verify_farkas_record(G, item)
         else:

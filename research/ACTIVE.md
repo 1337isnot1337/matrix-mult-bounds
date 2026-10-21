@@ -288,17 +288,18 @@ source costs. The 39 terminal leading-M4 points and twelve partial-bulk
 records are preserved as finite search evidence. A documented metadata
 repair restores sampled ridge histories without changing tensor maps.
 
-The central-group worker merged H_5 incidence through PR #42 at `bfc5243`
-and the all-power modular application through PR #78 at `b95abc2`; both
-completed branches were removed after matching their tested and merged trees.
-Petrov's credited filtration closes the ordinary degree gate for coordinate
-H_p constructions, including all powers and finite rectangular direct sums,
-for every odd prime p<=47. Arbitrary complex maps remain open.
-PR #73 contains the SL(2,5)/split-cover M10 source and parity package;
-PR #79 adds the written subgroup-ideal coset cuts. Neither target is built.
-The next constructive source is S5 x C2 with target M(13,14,14), owned on
-`research/s5-split-20261021`. Its cost comparison is conditional; no smaller
-exponent has been established.
+The central-group worker merged H_5 incidence through PR #42 at bfc5243,
+the all-power modular application through PR #78 at b95abc2, and the
+native two-cover package through PR #73 at80737e6. Their tested and
+merged trees match, and their completed topic branches are removed.
+PR #79 adds the written subgroup-ideal cuts and is ready with auto-merge
+enabled. The constructive source on research/s5-split-20261021 is now
+S5 with central C2, C2 squared or C4. The exact2.247 comparisons pass
+conditionally; actual improving targets remain missing. The E4 central
+matching lemma has a strict-potential proof, while C4 matching is already
+excluded by a color-sum argument. The direct colored sampler reached two
+collisions for M(18,18,20); both four-color bases are being continued.
+No smaller exponent is established. Preserve ongoing discovery reports.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates

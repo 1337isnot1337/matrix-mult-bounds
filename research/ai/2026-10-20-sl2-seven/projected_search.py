@@ -26,12 +26,15 @@ def build_projection(Q, shape, subgroup, seed, fiber_records=None, reused_cuts=N
     members = [[pool.id(('member', f, p)) for p in range(n)] for f in range(3)]
     owners = [{c: pool.id(('owner', f, c)) for c in Q['classes']} for f in range(3)]
     H = sorted({Q['projection'][g] for g in subgroup['members']})
+    if n % len(H):
+        raise ValueError('normalization subgroup index must be integral')
+    index = n//len(H)
     anchors = sorted({Q['projection'][g] for g in subgroup['anchors']}-{0})
     for f in range(3):
         clauses.append([members[f][0]])
         clauses.extend(CardEnc.equals(members[f], shape[f], vpool=pool,
                                      encoding=EncType.seqcounter).clauses)
-        clauses.extend(CardEnc.atleast([members[f][p] for p in H], (shape[f]+6)//7,
+        clauses.extend(CardEnc.atleast([members[f][p] for p in H], (shape[f]+index-1)//index,
                                       vpool=pool, encoding=EncType.seqcounter).clauses)
         for (u, v), (c, _) in Q['pairs'].items():
             clauses.append([-members[f][u], -members[f][v], owners[f][c]])
@@ -47,10 +50,10 @@ def build_projection(Q, shape, subgroup, seed, fiber_records=None, reused_cuts=N
     solver.set_phases([v if rng.randrange(2) else -v for row in members for v in row])
     return solver, members, {'variables': pool.top, 'clauses': len(clauses),
                             'projected_order': n, 'inverse_classes': len(Q['classes']),
-                            'subgroup_order': len(H), 'subgroup_index': 7,
+                            'subgroup_order': len(H), 'subgroup_index': index,
                             'abelian_fiber_cuts': fiber_metadata,
                             'reused_parity_templates': template_metadata,
-                            'identity_fiber_lower': [(s+6)//7 for s in shape]}
+                            'identity_fiber_lower': [(s+index-1)//index for s in shape]}
 
 
 def parity_cnf(system):
