@@ -15,6 +15,14 @@ novel. The conditional numerical lead, guarded parity search and complete
 projected triple-translation capacity encoding are local work. Every
 source-dependent circuit is checked in its actual group.
 
+The `2026-10-20-heisenberg-seven` continuation is owner-directed Codex
+work. Its weighted augmentation filtration is explicitly Petrov's external
+result, and its modular slice-rank framework and tight-support entropy
+theorem retain Sawin, Strassen, Coppersmith--Winograd and the cited authors'
+credits. The characteristic-transfer, cyclic/direct-sum application to this
+repository's degree gate and rational certificates are local written work.
+They have no independent review and supply no improved exponent.
+
 The `2026-10-21-hankel-pencil-degree` package was generated and checked in
 this owner-directed Codex session. The index sum theorem is imported from
 De Teran--Dopico--Mackey(2013), and bundle splitting from the classical

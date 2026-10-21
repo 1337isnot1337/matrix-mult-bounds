@@ -1,0 +1,43 @@
+{
+  "group": "Heisenberg(7)",
+  "affine_parameters": null,
+  "shape": [
+    17,
+    16,
+    16
+  ],
+  "seed": 20260717,
+  "solver": "cadical195",
+  "encoding": {
+    "variables": 33554,
+    "clauses": 249418,
+    "inverse_classes": 171,
+    "commuting_trade_cuts": 8919,
+    "coset_normalization": null,
+    "borel_normalization": null,
+    "independent_right_translations": "identity fixed in all sets",
+    "projected_points": 49,
+    "central_colors": 7,
+    "abelian_fiber_directions": 8,
+    "normal_fiber_cap": 5,
+    "first_three_direction_cap": 3,
+    "central_shear_zero_lines": 2,
+    "variables_after_normalization": 36969,
+    "normalization_status": "written derivation; unreviewed"
+  },
+  "seconds_limit": 600.0,
+  "models_limit": 1000,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "cuts": [],
+  "status": "time-limit",
+  "witness": null,
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 600.1389717240017,
+  "sat_statistics": {
+    "restarts": 164995,
+    "conflicts": 3000269,
+    "decisions": 12093957,
+    "propagations": 1068426237
+  }
+}

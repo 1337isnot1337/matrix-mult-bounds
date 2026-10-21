@@ -150,14 +150,17 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
-The central-group worker's Heisenberg(5) package merged through PR #42 at
-`bfc5243`; its incorporated branch was removed while untracked Heisenberg(7)
-research was preserved on `research/heisenberg-modular-20261021`.
-The active constructive question is the SL(2,5) M10 target on
-`research/sl2-five-native-parity`. Two 600-second joint sign/projection
-formulations produced 506 replayed parity contradictions and no lift.
-Projected pair-capacity cuts and translation templates are being added;
-there is no finite exclusion or exponent improvement.
+The central-group worker merged H_5 incidence through PR #42 at `bfc5243`
+and the all-power modular application through PR #78 at `b95abc2`; both
+completed branches were removed after matching their tested and merged trees.
+Petrov's credited filtration closes the ordinary degree gate for coordinate
+H_p constructions, including all powers and finite rectangular direct sums,
+for every odd prime p<=47. Arbitrary complex maps remain open.
+PR #73 contains the SL(2,5)/split-cover M10 source and parity package;
+PR #79 adds the written subgroup-ideal coset cuts. Neither target is built.
+The next constructive source is S5 x C2 with target M(13,14,14), owned on
+`research/s5-split-20261021`. Its cost comparison is conditional; no smaller
+exponent has been established.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates

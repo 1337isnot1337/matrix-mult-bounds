@@ -879,6 +879,26 @@
     {"id": "AI-HANKEL-SEGRE-LINEAR-002", "title": "General Hankel Segre-image bound in the linear-annihilator range", "status": "proof-written-unreviewed", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "evidence": "research/ai/2026-10-21-hankel-pencil-degree/proof.md", "section": "2-4", "statement": "For1<=r<min(a,b) and5r<2(a+b) over an algebraically closed characteristic-zero field, put m=a+b-1,k=max(1,floor((3r-m+3)/2)). Every linear Phi:U tensor V to F^m sending all decomposable inputs to Hankel rank at most r has image dimension at most max(r,k^2). This recovers the prior fixed-scheme and first-boundary results and extends their applications. The bound is nine at(a,b,r)=(8,8,6) and(9,9,7).", "dependencies": ["AI-HANKEL-PENCIL-DEGREE-001", "Schoemann-Wiedmann arXiv1712.03056v1 Theorem2.1 for the classical splitting theorem", "Displayed symmetric kernel-bundle sequence, cohomology calculation, and two-ruling argument", "Prior AI-HANKEL-SYMBOL-062 and AI-HANKEL-BOUNDARY-066 credited for the known subranges"], "limitations": "Written and unreviewed; exact finite controls do not prove the all-size theorem or supply independent review. No sharpness of nine is claimed. An explicit rank-seven Segre image of dimension eight refutes a cap of seven. Arbitrary singular tensor degenerations are outside the ordinary application."},
     {"id": "EXP-HANKEL-ORDINARY-FRONTIER-003", "title": "Updated rectangular frontier and closed A8 ordinary square sums", "status": "finite-experiment", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false, "evidence": "research/ai/2026-10-21-hankel-pencil-degree/application.md", "section": "", "statement": "Adding the written linear-annihilator Hankel gate excludes453 further formats among all5139 improving sorted balanced single rectangular targets for a2..12. Accumulated exclusions total4645;494 necessary-test survivors remain, first at a10. Every ordinary single format through a9 is excluded. The exact square-partition relaxation for all960 A8 target dimensions has score upper bound95171566351/10^6<97336, closing all improving ordinary A8 square sums including M27 plus M7. At A9 the unconstructed(32,6,3) square partition still passes the score and necessary tests.", "dependencies": ["AI-HANKEL-SEGRE-LINEAR-002", "Existing polynomial source inequality and source-to-symbol coordinate injection", "EXP-ORDINARY-RECTANGULAR-FRONTIER-001 prior complete enumeration", "AI-SQUARE-SUM-FRONTIER-060 credited exact integer recurrence and score intervals"], "limitations": "Finite applications depend on written unreviewed theorems. Single rectangular scan covers only balanced a2..12; square scan here covers only A8 and A9. General unbalanced sources, rectangular direct sums, tensor powers and singular degenerations are not excluded. No surviving candidate is constructed and omega remains9/4."},
     {
+      "id": "AI-HEIS-MODULAR-025",
+      "title": "Petrov-filtration obstruction to the Heisenberg coordinate degree gate in all powers",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-heisenberg-seven/modular_proof.md",
+      "section": "",
+      "statement": "For each odd prime p<=47, no coordinate/potential degeneration from any tensor power of the order-p^3 Heisenberg group tensor to a finite direct sum of rectangular matrix tensors can pass the ordinary complex character-degree cost gate at any tau in [2,9/4]. The proof transfers the coefficient-one degeneration to characteristic p, applies the external Petrov augmentation filtration, and uses cyclic symmetrization and the external tight-support entropy theorem. Rational certificates verify all fourteen primes; actual group-algebra controls cover 495 PBW basis vectors and 1485 right-generator products.",
+      "dependencies": [
+        "PETROV20 Section7, external weighted augmentation filtration over F_p",
+        "SAWIN18 modular slice-rank framework; proper Grassmannian closed-locus argument",
+        "AVZ20 Sections1.4.1/1.4.3 equations(6),(11), external field-independent tight-support theorem; CVZ19 Theorem1.1.31",
+        "Maintained explicit Heisenberg complex character degrees",
+        "Exact rational inequalities Q_p(t)^3<L_p^8 and the written cyclic/direct-sum entropy argument"
+      ],
+      "limitations": "Written application of credited external results; no independent review or Lean formalization. Arbitrary complex linear degenerations and other source analyses are not excluded. The p=53 certificate is only a non-exclusion control, not a sharp boundary or a construction. No exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "EXP-SL2-NATIVE-024",
       "title": "Joint SL(2,5) central-sign search and exact conditional parity circuits",
       "status": "finite-experiment",
