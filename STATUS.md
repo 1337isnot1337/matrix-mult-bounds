@@ -451,6 +451,22 @@ gluing now exclude all three in the stated construction class. This is
 an unreviewed obstruction, not a general degeneration exclusion or an
 improvement of the arithmetic exponent.
 
+## General semisimple Koszul continuation
+
+The [full-space semisimple screen](research/ai/2026-10-21-semisimple-koszul/proof.md)
+applies the existing exact matrix Koszul formulas to general complex
+degenerations of group algebras. It excludes five of the26 remaining F8
+formats, including(16,16,26), while21 still pass, including(19,19,19).
+These exclusions have broader scope than the coordinate-construction
+barriers below. The written derivation and imported rank proofs are unreviewed.
+
+The same package exactly derives the504-element SL(2,F8) source degrees
+1,7,7,7,7,8,9,9,9 by rational central algebra. Its degree/rank-locus/full-Koszul
+frontier leaves16 formats. A genuine M(18,18,25) degeneration would imply
+exponent at most2.245 by the certified conditional comparison; no such
+degeneration is supplied. One fixed-full-D18 subgroup pilot timed out with
+zero pair models in180 seconds. Only its small M(18,1,1) control is verified.
+
 ## Abelian-normal coset Koszul obstruction
 
 The [normal-coset proof](research/ai/2026-10-20-normal-coset-koszul/research_note.md)

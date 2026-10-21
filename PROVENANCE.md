@@ -243,6 +243,16 @@ integer spectrum and scalar inequalities. No priority or independent review
 is claimed. Finite-field operations label a finite group; the target field
 remains C. Replayed failed candidates do not establish an improved bound.
 
+The full-space semisimple continuation imports the existing matrix Koszul
+formulas and proves the padding/direct-sum rank expression used in its
+finite frontiers. It does not claim a new general matrix-rank formula.
+The SL(2,F8) source uses the unchanged rational center procedure from the
+SL(2,7) package with an isolated group-table adapter. Its group table and
+conditional source comparison are exact; the improving target is missing.
+The restricted subgroup pilot is local AI-derived discovery, with its
+actual timeout and separate small full-support control retained. No
+independent review or smaller arithmetic exponent is claimed.
+
 The F8 source/offset/deletion work is also local AI-derived research. Its
 normal subgroup orbit counts use the standard complex representation theory
 of a fixed-point-free semidirect product. The finite local frontiers, offset
