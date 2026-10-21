@@ -226,3 +226,29 @@ improvement has been established.
 
 Review status: author-checked proof and exact replay in this generating
 session; no external independent review or formalization is claimed.
+
+## 6. An ordinary full-source A(2,3) to M3 composition
+
+The separate [corner-extension construction](parity_structure_corner_extension.md)
+gives an exact restriction A(2,3) to A(2,2) direct sum one scalar.
+It keeps the original A(2,2) coordinates and uses the extra source rows
+X(1,3,2), Y(2,1,3), and Z(3,2,1) for the scalar. Every mixed
+coefficient vanishes. Composing it with the maps above gives
+
+\[
+A(2,3)\longrightarrow M_3
+\]
+
+with no external scalar summand. The complete composed maps have
+shape nine by twenty-four and denominator two. The certificate
+`results/anisotropic-constructions-2026-10-20/parity_balancing_a23_m3.json`
+contains every map entry and hashes of both source certificates.
+The exact verifier reconstructs all 216 terms of the full A(2,3)
+source and checks every one of the 729 target coefficients. It
+obtains precisely the standard M3 tensor.
+
+The composition script is `parity_balancing_a23_m3.py`; the same
+standard-library verifier used above accepts this composed JSON.
+This is a concrete ordinary full-source construction. It does not
+remove the scalar requirement from the A(2,2) construction and does
+not establish a smaller exponent.

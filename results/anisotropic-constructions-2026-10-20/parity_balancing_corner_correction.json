@@ -1,0 +1,40 @@
+{
+  "scope": "full independent M_r correction supplied through the two-interval corner split",
+  "comparisons": [
+    {
+      "claim": "a(4)<4/5",
+      "left": 27000,
+      "right": 28561,
+      "strict": true
+    },
+    {
+      "claim": "b(5)<5/8",
+      "left": 1037970703125,
+      "right": 1099511627776,
+      "strict": true
+    },
+    {
+      "claim": "c(4)<1/6",
+      "left": 644972544,
+      "right": 815730721,
+      "strict": true
+    },
+    {
+      "claim": "max z^(3/2)(1-z)<3/16",
+      "left": 27648,
+      "right": 28125,
+      "strict": true
+    },
+    {
+      "claim": "max sqrt(z)(1-z)<2/5",
+      "left": 100,
+      "right": 108,
+      "strict": true
+    }
+  ],
+  "uniform_dimension_ratio_upper_bound": "1889/1920",
+  "nine_fourths_gate_excluded_in_this_scope": true,
+  "shared_variable_cancellation_excluded": false,
+  "general_source_restrictions_excluded": false,
+  "new_exponent_established": false
+}

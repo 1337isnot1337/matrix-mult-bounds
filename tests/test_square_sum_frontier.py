@@ -37,6 +37,11 @@ class SquareSumFrontierTests(unittest.TestCase):
                     if any(n*n > r*a*b and n+2*loss < (r+1)*a*b
                            for n in shape for r in range(1, upper_r+1)):
                         continue
+                    boundary_r = (a+b)//3
+                    if ((a+b) % 3 == 0 and 2 <= boundary_r < min(a, b)
+                            and any(n*n > max(boundary_r, 4)*a*b
+                                    and n+2*loss < (boundary_r+1)*a*b for n in shape)):
+                        continue
                     if min(a, b) >= 3 and a+b-1 >= 6 and any(
                             n >= 3 and n+2*loss == 2*a*b for n in shape):
                         continue
@@ -50,20 +55,25 @@ class SquareSumFrontierTests(unittest.TestCase):
         expected = json.loads((ROOT/'results/anisotropic-constructions-2026-10-20/square-sum-frontier.json').read_text())
         actual = MODULE.report()
         self.assertEqual(actual, expected)
-        self.assertEqual(actual['source_count'], 52)
-        self.assertEqual(actual['first_passing_source_dimension'], 784)
+        self.assertEqual(actual['source_count'], 62)
+        self.assertEqual(actual['first_passing_source_dimension'], 960)
         self.assertTrue(all(r['all_partitions_below_critical_score']
-                            for r in actual['source_frontiers'] if r['source_leg_dimension'] < 784))
+                            for r in actual['source_frontiers'] if r['source_leg_dimension'] < 960))
+        self.assertEqual(sum(r['source_leg_dimension'] < 960 for r in actual['source_frontiers']), 60)
         row = next(r for r in actual['source_frontiers'] if r['a'] == r['b'] == 5)
         self.assertEqual(row['maximum']['upper_score_numerator'], 18916994428)
         self.assertLess(18916994428, 21952*MODULE.SCALE)
         self.assertFalse(actual['new_exponent_established'])
 
     def test_conditional_integer_certificate(self):
-        self.assertGreater(150**2247, 77567**1000)
-        self.assertGreater(30**2247, 2084**1000)
-        self.assertGreater(77567+2084, 43**3)
-        self.assertTrue(MODULE.admissible_partition(7, 8, [25, 5]))
+        self.assertGreater(162**4497, 92916**2000)
+        self.assertGreater(42**4497, 4465**2000)
+        self.assertGreater(92916+4465, 46**3)
+        self.assertTrue(MODULE.admissible_partition(8, 8, [27, 7]))
+        self.assertFalse(MODULE.admissible_partition(7, 8, [25, 5]))
+        self.assertEqual(MODULE.boundary_symbol_cap(7, 8), {'rank': 5, 'image_dimension_cap': 5})
+        self.assertEqual(MODULE.boundary_symbol_cap(4, 5), {'rank': 3, 'image_dimension_cap': 4})
+        self.assertIsNone(MODULE.boundary_symbol_cap(8, 8))
         self.assertFalse(MODULE.admissible_partition(5, 6, [16]))
         self.assertFalse(MODULE.admissible_partition(5, 6, [16, 4]))
         self.assertFalse(MODULE.admissible_partition(5, 6, [16, 3, 3]))
