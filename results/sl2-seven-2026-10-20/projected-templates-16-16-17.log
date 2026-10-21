@@ -1,0 +1,120 @@
+{
+  "group": "SL(2,7)",
+  "shape": [
+    16,
+    16,
+    17
+  ],
+  "seed": 20261320,
+  "encoding": {
+    "variables": 16800,
+    "clauses": 258293,
+    "projected_order": 168,
+    "inverse_classes": 94,
+    "subgroup_order": 24,
+    "subgroup_index": 7,
+    "abelian_fiber_cuts": {
+      "cyclic_subgroup_counts": {
+        "3": 28,
+        "4": 21,
+        "7": 8
+      },
+      "additional_clauses": 58168
+    },
+    "reused_parity_templates": {
+      "maximum_core_support": 18,
+      "reused_specific_cuts": 1394,
+      "template_triples": 963,
+      "pattern_flags": 783,
+      "right_translation_trigger_clauses": 125496,
+      "additional_clauses": 127853
+    },
+    "identity_fiber_lower": [
+      3,
+      3,
+      3
+    ]
+  },
+  "seconds_limit": 600.0,
+  "reused_sources": [
+    {
+      "report": "results/sl2-seven-2026-10-20/projected-16-16-17.json",
+      "report_sha256": "c4148dd852adcba5dcce8092d6f63a548bfbc866526119d6ae235a4da58817bb",
+      "cut_file": "results/sl2-seven-2026-10-20/projected-16-16-17.cuts.jsonl.gz",
+      "cut_sha256": "ac830b98481fbd5b6272f11c6d0d18f1b269195608e61b1c88cb18d8c60ef4a4",
+      "exact_parity_cuts": 1394
+    }
+  ],
+  "projected_models": 619,
+  "exact_parity_cuts": 619,
+  "lift_models": 0,
+  "exact_farkas_cuts": 0,
+  "solver_reported_lift_refutations": 0,
+  "status": "time-limit",
+  "witness": null,
+  "scope": "Bounded discovery. Exact accepted witnesses only. Solver refutations have no exported proof trace.",
+  "elapsed_seconds": 600.6167114680002,
+  "sat_statistics": {
+    "restarts": 253646,
+    "conflicts": 3328341,
+    "decisions": 17094086,
+    "propagations": 1727620325
+  },
+  "current_projected_sets": [
+    [
+      0,
+      7,
+      10,
+      16,
+      43,
+      54,
+      66,
+      76,
+      82,
+      86,
+      98,
+      109,
+      115,
+      137,
+      147,
+      157
+    ],
+    [
+      0,
+      2,
+      9,
+      31,
+      39,
+      65,
+      79,
+      86,
+      90,
+      93,
+      135,
+      136,
+      147,
+      152,
+      164,
+      165
+    ],
+    [
+      0,
+      3,
+      12,
+      16,
+      20,
+      22,
+      28,
+      29,
+      36,
+      72,
+      76,
+      92,
+      95,
+      103,
+      109,
+      114,
+      166
+    ]
+  ]
+}

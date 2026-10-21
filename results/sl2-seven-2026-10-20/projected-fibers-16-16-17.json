@@ -1,0 +1,103 @@
+{
+  "group": "SL(2,7)",
+  "shape": [
+    16,
+    16,
+    17
+  ],
+  "seed": 20261320,
+  "encoding": {
+    "variables": 16017,
+    "clauses": 130440,
+    "projected_order": 168,
+    "inverse_classes": 94,
+    "subgroup_order": 24,
+    "subgroup_index": 7,
+    "abelian_fiber_cuts": {
+      "cyclic_subgroup_counts": {
+        "3": 28,
+        "4": 21,
+        "7": 8
+      },
+      "additional_clauses": 58168
+    },
+    "identity_fiber_lower": [
+      3,
+      3,
+      3
+    ]
+  },
+  "seconds_limit": 600.0,
+  "projected_models": 149,
+  "exact_parity_cuts": 149,
+  "lift_models": 0,
+  "exact_farkas_cuts": 0,
+  "solver_reported_lift_refutations": 0,
+  "status": "time-limit",
+  "witness": null,
+  "scope": "Bounded discovery. Exact accepted witnesses only. Solver refutations have no exported proof trace.",
+  "elapsed_seconds": 601.083772423,
+  "sat_statistics": {
+    "restarts": 275932,
+    "conflicts": 3609871,
+    "decisions": 18169298,
+    "propagations": 1881618062
+  },
+  "current_projected_sets": [
+    [
+      0,
+      3,
+      14,
+      16,
+      38,
+      48,
+      54,
+      58,
+      81,
+      84,
+      97,
+      101,
+      113,
+      124,
+      127,
+      156
+    ],
+    [
+      0,
+      6,
+      9,
+      11,
+      37,
+      39,
+      96,
+      101,
+      102,
+      103,
+      109,
+      131,
+      147,
+      150,
+      154,
+      157
+    ],
+    [
+      0,
+      4,
+      5,
+      12,
+      16,
+      29,
+      47,
+      62,
+      67,
+      68,
+      70,
+      97,
+      111,
+      117,
+      128,
+      159,
+      164
+    ]
+  ]
+}

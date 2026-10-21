@@ -115,3 +115,44 @@ The fiber-strengthened run is recorded separately. A running checkpoint, a
 time limit, or an untraced solver refutation is not a complete exclusion.
 Only an exact full-support integer potential witness can supply the missing
 construction for the conditional 2.247 exponent comparison.
+
+## 5. Reusing a parity contradiction across its translations
+
+A verified parity circuit excludes a triple of point patterns, given by its
+conditional support. This is stronger than rejecting just the particular
+full sets that led to it. Independently right translating each pattern
+preserves impossibility: if translated patterns had pair-injective lifts,
+right translating those lifts back would give lifts of the original patterns.
+Central sign gauges can always be reset. Permuting the three patterns also
+preserves impossibility, because pair-map injectivity is equivalent to
+pairwise disjointness of the three nonidentity right quotient sets.
+
+For a nonempty pattern P, choose the lexicographically least translate
+`P*p^-1` over p in P. It represents the entire right-translation orbit:
+the least tuple contains identity, so some member must be moved to identity.
+For each leg and canonical pattern introduce an occurrence flag. Every
+translate gives a clause that forces the flag when all its points occur.
+Forbid the three flags of every verified impossible pattern triple and its
+permutations. Empty or singleton patterns require no flag because all target
+sets are nonempty. These one-way flag implications preserve every valid lift;
+unused flags may be set to their actual occurrence values.
+
+The maintained discovery implementation first reconstructs and verifies every
+reused parity circuit from exact group products. It adds all original point
+cuts and applies the orbit construction only to cores with at most 18 points.
+Source report and cut hashes are recorded. For the initial 1,394 cuts this
+produces 963 pattern triples, 783 occurrence flags and 125,496 translation
+trigger clauses. This is finite certified input to discovery, not a complete
+SAT refutation. Small controls check canonicalization on all 168 translations
+and verify that the template clauses preserve independently checked lifts.
+
+The separate fiber-strengthened 600-second run ended with 149 projected
+candidates, all rejected by replayed parity circuits. Its candidates are not
+asserted distinct from those of the first run. The run reusing translation
+templates is retained separately, with no outcome inferred before completion.
+
+That 600-second template run has now completed: it found 619 projected
+candidates, and all 619 fail the exact lift equations. All saved circuits
+replay. It produced no pair-injective lift or potential witness. These are
+bounded rejections, without a distinctness claim across runs or a complete
+exclusion of the target.

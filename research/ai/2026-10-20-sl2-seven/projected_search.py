@@ -17,9 +17,10 @@ from search import potential_or_circuit
 from central_lift import quotient, lift_system, eliminate, lifted_sets
 from subgroup_normalization import octahedral_certificate
 from abelian_fiber_cuts import cyclic_subgroups, append_cuts
+from parity_templates import read_verified, append_templates
 
 
-def build_projection(Q, shape, subgroup, seed, fiber_records=None):
+def build_projection(Q, shape, subgroup, seed, fiber_records=None, reused_cuts=None):
     pool, clauses = IDPool(), []
     n = len(Q['representatives'])
     members = [[pool.id(('member', f, p)) for p in range(n)] for f in range(3)]
@@ -39,6 +40,7 @@ def build_projection(Q, shape, subgroup, seed, fiber_records=None):
         for chosen in combinations(range(3), len(Q['fibers'][c])+1):
             clauses.append([-owners[f][c] for f in chosen])
     fiber_metadata = append_cuts(fiber_records, pool, members, owners, clauses) if fiber_records else None
+    template_metadata = append_templates(Q, reused_cuts, pool, members, clauses) if reused_cuts else None
     rng = random.Random(seed)
     rng.shuffle(clauses)
     solver = Cadical195(bootstrap_with=clauses)
@@ -47,6 +49,7 @@ def build_projection(Q, shape, subgroup, seed, fiber_records=None):
                             'projected_order': n, 'inverse_classes': len(Q['classes']),
                             'subgroup_order': len(H), 'subgroup_index': 7,
                             'abelian_fiber_cuts': fiber_metadata,
+                            'reused_parity_templates': template_metadata,
                             'identity_fiber_lower': [(s+6)//7 for s in shape]}
 
 
@@ -66,19 +69,26 @@ def main():
     parser.add_argument('--seed', type=int, default=20261320)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--fiber-cuts', action='store_true')
+    parser.add_argument('--reuse-report', action='append', type=Path, default=[])
     args = parser.parse_args()
     G = group(7)
     z = G['matrices'].index((6, 0, 0, 6))
     Q = quotient(G, z)
     shape = [16, 16, 17]
     fiber_records = cyclic_subgroups(G, Q) if args.fiber_cuts else None
+    reused_cuts, reused_sources = [], []
+    for path in args.reuse_report:
+        items, receipt = read_verified(Q, path)
+        reused_cuts.extend(items)
+        reused_sources.append(receipt)
     solver, members, encoding = build_projection(Q, shape, octahedral_certificate(G),
-                                                args.seed, fiber_records)
+                                                args.seed, fiber_records, reused_cuts)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     cuts_path = args.output.with_suffix('.cuts.jsonl')
     started = time.monotonic()
     result = {'group': G['name'], 'shape': shape, 'seed': args.seed,
               'encoding': encoding, 'seconds_limit': args.seconds,
+              'reused_sources': reused_sources,
               'projected_models': 0, 'exact_parity_cuts': 0, 'lift_models': 0,
               'exact_farkas_cuts': 0, 'solver_reported_lift_refutations': 0,
               'status': 'running', 'witness': None,
