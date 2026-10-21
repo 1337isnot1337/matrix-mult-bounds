@@ -539,3 +539,13 @@ external stability theorems and cyclic symmetry yield a closed special-linear
 orbit. The earlier determinant obstruction then excludes the required
 isomorphism. This concerns B itself, without cancelling its accompanying
 scalar tensor. The proof remains unreviewed and gives no exponent gain.
+
+## Graded cyclic construction pilots
+
+[EXP-CYCLIC-GRADED-PILOTS-049](research/ai/2026-10-20-cyclic-singular-search/README.md)
+records four exact kernel certificates blocking one-sided new-vertex
+extensions of two fixed M(2,3,3) witnesses. Changing the old maps or using
+more general Laurent maps remains open. Two 16-start weighted ALS searches
+and two refinements supplied no exact M3 degeneration. Saved diagnostics
+include large omitted coefficients; masked residuals are not certificates.
+The exponent is unchanged.
