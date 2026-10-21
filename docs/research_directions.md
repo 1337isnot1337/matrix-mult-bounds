@@ -147,6 +147,14 @@ implication is `omega<2.242`. Ordinary constant maps are already excluded.
 The active branch is `research/paired-frontier-unequal-entropy-20261020`.
 Any witness must certify its full coefficient identity and singular limit.
 
+An exact [boundary-chain family](../research/ai/2026-10-20-paired-construction/README.md)
+now constructs `P_a -> M(a,2,a)` over every field. Its score is below the
+improvement threshold for every `a`. It supplies a positive calibration
+for wider middle modes, disjoint chains, or singular extensions. Four
+first-order Laurent fits and two bounded refinements on the specified
+size-three two-block target failed their complete coefficient equations;
+their numerical results are not exclusions of larger ansatz classes.
+
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 It requires a genuine convolution-source degeneration at cost below

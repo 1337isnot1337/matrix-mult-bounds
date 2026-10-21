@@ -18,6 +18,23 @@ two-block frontier, padded direct-sum accounting and a conditional target
 comparison. The target maps remain missing. Exact finite certificates and
 same-session cross-checks do not provide independent mathematical review.
 
+The subsequent `research/ai/2026-10-20-paired-construction/` package supplies
+explicit integer boundary-chain maps from `P_a` to `M(a,2,a)`. Its first
+small witness arose in numerical discovery; acceptance rests on the
+telescoping proof and complete integer coefficient checks. The source and
+character comparison are inherited from the credited paired packages.
+The all-size identity is AI-derived and unreviewed, with no historical
+priority or exponent improvement claimed. The Laurent construction pilots
+retain full pole and target residuals, including failed bounded refinements;
+finite unsuccessful searches are not general nonexistence results.
+
+The exact paired quantum calibrations in
+`research/ai/2026-10-21-paired-quantum/` reuse the maintained quantum basis
+formulas and their explicit source equivalence, with dependency hashes.
+Their new finite row ranks and slice-algebra nonclosure certificates
+concern prescribed regular leading maps. They do not assume quantum
+semisimplicity at roots or exclude arbitrary singular normalizations.
+
 The maintained direct-product continuation in
 `research/ai/2026-10-20-sl2-five-c2/` adds AI-derived projected counting and
 binary necessary conditions. Its optional discovery adapter reuses the

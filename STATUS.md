@@ -222,6 +222,15 @@ the exact circuits do not upgrade the untraced parts into a complete proof.
 All 720 full-space Koszul comparisons pass for this target. A separate
 (12,12,17) comparison is also conditional on an unconstructed degeneration.
 
+The [central cocycle extension](research/ai/2026-10-20-sl2-five-c2/pair_saturation.md)
+uses the zero sum of all four central colors in a saturated projected pair
+fiber. It yields exact equations for both bits, including the twisted
+SL(2,5) bit. The first run rejects 169 candidates by replayed circuits.
+A separate learning run has 244 replayed circuits, 1,075 learned necessary
+rows, and one untraced inner refutation. Neither constructs a lift or
+establishes a complete exclusion. All 4,096 normalized small lifts were
+checked; the 128 with injective pair maps satisfy the necessary equations.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)
@@ -511,6 +520,24 @@ survives through `a=9`; at `a=10`, 19 pairs survive modulo B/C exchange
 excluded; passing 100 first-leg rank comparisons does not supply singular
 maps. These results do not constitute an exponent improvement.
 
+The [boundary-chain construction](research/ai/2026-10-20-paired-construction/README.md)
+now gives explicit restrictions `P_a -> M(a,2,a)` for every integer `a>=2`,
+with coefficients `0,1,-1` (AI-PAIRED-CHAIN-001). A telescoping identity
+proves the family over the integers, and full coefficient and ordinary
+matrix-product checks cover `a=2,...,8`. The first `P2 -> M2` witness
+includes four exact off-support cancellations. This is a positive tensor
+construction, but its finite character gate has strict slack at `t=3/4`
+for every `a`, so it does not improve the exponent. Its specific quotient
+does not extend to square `M(a,a,a)` at `a=3,4,5`.
+
+The [Laurent pilots](research/ai/2026-10-20-paired-direct-sums/laurent_search.md)
+record four first-order alternating fits and two bounded refinements for
+`P3 -> M(1,3,3) direct_sum M(3,3,2)`. Every completed run retains nonzero
+full coefficient error or uncancelled poles. Exact positive and negative
+controls check the coefficient verifier, and six saved coefficient arrays
+replay the reported residuals. These finite failures do not exclude the
+target or establish a degeneration (EXP-PAIRED-LAURENT-003).
+
 ## Varying quantum recoupling
 
 The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
@@ -521,6 +548,14 @@ small basis/root configurations. At q=i, the rowwise-regular cyclic maps
 have ranks 8,32,64 at a=2,3,4 over Q(i). This calibration produces ordinary
 restrictions and does not supply the size-four matrix target. Coupled
 singular normalizations remain open; no exponent improvement is claimed.
+
+The [paired quantum calibration](research/ai/2026-10-21-paired-quantum/README.md)
+checks 64 prescribed local maps and 353 rational-function source identities
+(AI-PAIRED-QUANTUM-001). At size ten and root order fourteen, the specified
+rowwise regular first map has rank 91, below the selected target's 100.
+Two small regular limits have matching matrix-tensor dimensions but fail
+exact slice-algebra closure tests. These calculations concern the stated
+normalization only; coupled Laurent cancellations remain unconstructed.
 
 ## Polynomial flags and numerical calibration
 

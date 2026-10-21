@@ -1,0 +1,49 @@
+{
+  "a": 3,
+  "seed": 202610210,
+  "coefficient_bound": 10.0,
+  "maximum_function_evaluations": 300,
+  "function_evaluations": 300,
+  "jacobian_evaluations": 283,
+  "elapsed_seconds": 11.268216212999505,
+  "source_start": "independent random start",
+  "parameters": 170,
+  "coefficient_equations": 468,
+  "gauge_equations": 6,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "leading_coefficient_norm": 0.17604833070629086,
+    "constant_relative_error": 0.9936337919184715,
+    "combined_coefficient_relative_error": 0.994211246102789,
+    "maximum_absolute_coefficient_error": 1.079222272847109,
+    "maximum_absolute_gauge_error": 1.1796119636642288e-16,
+    "first_derivative_map_norms": [
+      2.9999999999999996,
+      3.0,
+      3.0
+    ],
+    "maximum_absolute_parameter": 1.2943678688762874
+  },
+  "final": {
+    "leading_coefficient_norm": 0.14877473531379493,
+    "constant_relative_error": 0.07923208527127734,
+    "combined_coefficient_relative_error": 0.0842466510932243,
+    "maximum_absolute_coefficient_error": 0.1631900019985999,
+    "maximum_absolute_gauge_error": 0.05344753506236466,
+    "first_derivative_map_norms": [
+      27.181354223560984,
+      33.12310663898922,
+      30.735347953769754
+    ],
+    "maximum_absolute_parameter": 9.999999999999998
+  },
+  "solver_status": 0,
+  "solver_message": "The maximum number of function evaluations is exceeded.",
+  "solver_optimality": 0.01858553288203966,
+  "method": "bounded real least squares, analytic Jacobian, full tensor and gauge equations",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "Finite bounded real first-order graded jet discovery; no existence or nonexistence conclusion."
+}

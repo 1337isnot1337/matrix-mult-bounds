@@ -10,7 +10,15 @@
     },
     {
       "command": "python -m unittest discover -s tests -p test_paired_direct_sums.py -v",
-      "outcome": "6 tests passed"
+      "outcome": "8 tests passed, including full rational Laurent controls and small-target rank checks"
+    },
+    {
+      "command": "laurent_refine.py --controls",
+      "outcome": "Exact positive/negative coefficient controls and complete analytic-Jacobian directional check passed"
+    },
+    {
+      "command": "four300-iteration ALS runs and two300-evaluation bounded refinements, commands in laurent_search.md",
+      "outcome": "All finite budgets completed; no coefficient solution. Six JSON checkpoints reloaded and independently recontracted against recorded residuals."
     }
   ],
   "report_hashes": [
@@ -21,6 +29,62 @@
     {
       "path": "results/paired-direct-sums-2026-10-20/selected-target.json",
       "sha256": "3d0efc80e807b4892afaebed071081b6b92999be9d370d5505a19fc32c131ab1"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed0-checkpoint.json",
+      "sha256": "aaeff510c5b277c92aac28174e990dd6fcc0a974c03e3a7879460e2a1ffd99ef"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed0.json",
+      "sha256": "cafb37bac6472fd3f9a2b89b977105b883bf89f84ca2642eb6f19911b4c30deb"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed1-checkpoint.json",
+      "sha256": "6b8a2703b9a75d291033a0832f55ab02839b2b12adbcdc2ecd21f42a052f8f4e"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed1.json",
+      "sha256": "df8f299381652236ebe470cd44f44490046b5e9e117b9f8689edf49d4f82ba50"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed2-checkpoint.json",
+      "sha256": "702d7d939321a42f9dd1b4909aa36f1e1790619d44eaa96d06138046e5fcb711"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed2.json",
+      "sha256": "50964a6324d96cacc8c38676fdf9fa3e3dcd795b990a14632d9c0402e3ad90bd"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed3-checkpoint.json",
+      "sha256": "43abaf5f5b77444701f85467b05750d148217469f68d142c6441e7ac25199df6"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-a3-seed3.json",
+      "sha256": "65c0d0d882776649b586f17cf6a6e1c1dd8c2239a3fd998332e4092f256fb602"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-bounded-a3-seed0-checkpoint.json",
+      "sha256": "21a1d93aebdb4d4a1e97f4cff38a12a29eabc36bbea51284da2d106951d1e1ae"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-bounded-a3-seed0.json",
+      "sha256": "cddb4018836e04d710517ae85e9c71f73feea025e37f84a68d03bcedefc30833"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-bounded-a3-seed1-checkpoint.json",
+      "sha256": "857653e7ddd8ee111619f62c2a0f1800b33d755e9966265d74114d2d93de937f"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-bounded-a3-seed1.json",
+      "sha256": "cf90561e3f8f29141fa0dd70d0d9c0d88ab1571ed73eac0d3e9c45f55c807067"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-checkpoint-validation.json",
+      "sha256": "0d7206affa6e5faa4cbe545c4cc49fbe898a308339c141dd4bc37af9a73ae26a"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/laurent-controls.json",
+      "sha256": "a37880bed97d6c9c02d377af678ffdef96cf7e596b03f2bb1267fc80f661933c"
     }
   ],
   "scope": "Focused new-package validation. Full integrated suite and historical replay are recorded by the integrating worker.",

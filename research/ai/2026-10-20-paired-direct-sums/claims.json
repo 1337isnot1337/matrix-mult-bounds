@@ -20,6 +20,18 @@
         "research/ai/2026-10-20-paired-direct-sums/README.md",
         "results/paired-direct-sums-2026-10-20/selected-target.json"
       ]
+    },
+    {
+      "id": "EXP-PAIRED-LAURENT-003",
+      "classification": "finite numerical experiment with exact verifier controls",
+      "statement": "Four 300-iteration graded first-order Laurent ALS searches and two bounded300-evaluation analytic-Jacobian refinements for P3 -> M(1,3,3) direct_sum M(3,3,2) finished with nonzero coefficient residuals.",
+      "limitations": "No existence or nonexistence certificate. Real first-order grade-preserving ansatz; bounded refinements restrict every coefficient to[-10,10]. Gauge errors reported separately.",
+      "exact_controls": "Full rational W degeneration, deliberate pole with unchanged W constant term, and exact integer P2->M2 embedded as a regular jet.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/laurent_search.md",
+        "results/paired-direct-sums-2026-10-20/laurent-controls.json",
+        "tests/test_paired_direct_sums.py"
+      ]
     }
   ],
   "improves_omega": false

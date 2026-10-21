@@ -13,6 +13,10 @@ SPEC = importlib.util.spec_from_file_location(
     "paired_direct_sums", ROOT / "research/ai/2026-10-20-paired-direct-sums/frontier.py")
 F = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(F)
+JET_SPEC = importlib.util.spec_from_file_location(
+    "paired_laurent_coefficients", ROOT / "research/ai/2026-10-20-paired-direct-sums/laurent_search.py")
+JET = importlib.util.module_from_spec(JET_SPEC)
+JET_SPEC.loader.exec_module(JET)
 
 
 def coefficient_rank_mod_two(shapes, ambient, degree):
@@ -53,6 +57,19 @@ def coefficient_rank_mod_two(shapes, ambient, degree):
 
 
 class PairedDirectSumsTests(unittest.TestCase):
+    def test_small_laurent_target_passes_first_leg_screen(self):
+        shapes = ((1, 3, 3), (3, 3, 2))
+        self.assertIsNone(F.first_obstruction(3, shapes))
+        self.assertEqual([sum(F.format_of(shape)[k] for shape in shapes) for k in range(3)],
+                         [9, 12, 15])
+
+    def test_full_rational_laurent_controls(self):
+        report = JET.exact_controls()
+        self.assertTrue(report["exact_controls_passed"])
+        self.assertTrue(report["deliberate_pole_detected_despite_correct_constant_term"])
+        self.assertEqual(report["w_nonzero_coefficients_by_degree"], [0, 3, 3, 1])
+        self.assertEqual(report["p2_nonzero_coefficients_by_degree"], [0, 8, 0, 0])
+
     def test_direct_sum_padding_matches_explicit_coefficients(self):
         for shapes, ambient in [(((2, 2, 2), (1, 1, 1)), 6),
                                 (((1, 2, 2), (2, 1, 1)), 5)]:

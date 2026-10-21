@@ -128,6 +128,62 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {"id": "AI-SL2-C2-SATURATION-018", "title": "Cocycle parity for saturated projected central fibers", "origin": "Codex research directed by repository owner", "status": "proof-written-unreviewed", "evidence": "research/ai/2026-10-20-sl2-five-c2/pair_saturation.md", "statement": "Four selected pairs with one projected label must have all four central colors, whose sum is zero. This gives exact necessary F2 equations for both central bits. Two finite runs have 169 and 244 independently replayed augmented parity circuits.", "dependencies": ["AI-SL2-C2-BINARY-017", "Explicit central section and exact group cocycle", "Full pair-map injectivity"], "limitations": "Necessary conditions for this coordinate construction only. The learning run also uses one untraced inner refutation. No full lift, complete exclusion, target degeneration, exponent improvement, independent review or formalization.", "independent_review": false, "lean_formalized": false, "improves_omega": false},
+    {
+      "id": "AI-PAIRED-CHAIN-001",
+      "title": "Exact all-size boundary-chain restrictions of the paired source",
+      "origin": "AI research directed by repository owner, beginning at 75bf6a3",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/README.md",
+      "section": "1-5",
+      "statement": "For every integer a>=2, explicit maps with coefficients 0,1,-1 restrict P_a to M(a,2,a) over every field. Adjacent cancellation relations prove the complete identity. All coefficient positions and ordinary bilinear basis pairs are checked for a=2,...,8. The specific quotient and transpose first map cannot realize M(a,a,a) at a=3,4,5 by exact rational nullspace ranks.",
+      "dependencies": [
+        "Prior paired-source coefficient convention",
+        "Explicit telescoping polynomial identity over Z",
+        "Exact coefficient and ordinary matrix-product checks",
+        "Prior finite profile ceiling for the non-improving score comparison"
+      ],
+      "limitations": "A positive tensor construction with no historical priority or independent review claimed. Its finite gate has strict slack at t=3/4 for every a. The quotient failure is specific to the stated maps and does not exclude other restrictions or degenerations. No exponent improvement or Lean formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-PAIRED-LAURENT-003",
+      "title": "Completed first-order paired Laurent searches with full coefficient controls",
+      "origin": "AI research directed by repository owner, beginning at 75bf6a3",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/laurent_search.md",
+      "statement": "Four 300-iteration graded first-order Laurent ALS searches and two bounded300-evaluation analytic-Jacobian refinements for P3 -> M(1,3,3) direct_sum M(3,3,2) finished with nonzero coefficient residuals.",
+      "dependencies": [
+        "Specified finite source, target and Cartan allocation",
+        "Complete pole and target coefficient equations",
+        "Rational positive and deliberate-pole negative controls",
+        "Six saved binary64 coefficient arrays and residual replays"
+      ],
+      "limitations": "No existence or nonexistence certificate. Real first-order grade-preserving ansatz; bounded refinements restrict every coefficient to[-10,10]. Gauge errors reported separately. No exponent improvement, independent mathematical review or formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-PAIRED-QUANTUM-001",
+      "title": "Exact prescribed paired quantum leading-map and tensor calibrations",
+      "origin": "AI research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-paired-quantum/README.md",
+      "statement": "For the specified inverse-Clebsch-Gordan maps with explicit local diagonal source factors and rowwise cyclotomic regular normalization, P10 at a primitive fourteenth root has first-map rank91, excluding the full100-dimensional first leg of the selected target under subsequent constant maps. Sixty-four local maps and353 Q(q) coefficient identities are checked. Two small tensor limits have formats(4,4,4) and(9,12,12) but exact normalized slice-product minors show they are not the corresponding M2 and M(3,4,3) tensors.",
+      "dependencies": [
+        "AI-QUANTUM-SOURCE-NORMALIZATION-001 generic source equivalence and exact quantum basis formulas",
+        "Exact cyclotomic valuations, residues and ranks",
+        "Necessary closure of an invertibly normalized matrix-tensor slice space",
+        "Explicit nonzero algebraic minors"
+      ],
+      "limitations": "The prescribed regular maps only. Coupled tensor-level Laurent normalizations, other bases and general degenerations remain open. Finite coefficient checks are not independent mathematical review. No historical priority, Lean formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }
