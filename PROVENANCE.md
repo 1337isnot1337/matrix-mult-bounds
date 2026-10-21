@@ -13,6 +13,21 @@ bundle rank-locus estimate are imported from the same concurrent worker,
 with their classical external input and exact source pins preserved.
 No priority, independent review, formalization or exponent gain is claimed.
 
+The `2026-10-20-sl2-five-native-parity` package is owner-directed Codex
+work in the same session as the central-product and Heisenberg packages.
+It reuses the existing SL(2,5) source certificate, central-quotient helpers,
+group/potential routines and right-translation parity templates with their
+original credits. The new joint membership/sign encoding, guarded parity
+learning and finite control/replay results have no independent review.
+Neither a new source theorem nor an exponent improvement is claimed.
+
+The split-cover continuation uses the same exact rational class-algebra
+derivation on the quotient group, then the elementary direct-product
+character rule. These standard representation facts are not claimed as
+novel. The conditional numerical lead, guarded parity search and complete
+projected triple-translation capacity encoding are local work. Every
+source-dependent circuit is checked in its actual group.
+
 ## Generalized packing, nonlocal probes, and source capacity
 
 Rafael Pass's arXiv:2610.28627v1 supplies the generalized polynomial
