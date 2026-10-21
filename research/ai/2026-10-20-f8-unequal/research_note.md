@@ -182,7 +182,7 @@ From the repository root, with its maintained verification dependencies:
 ```sh
 python research/ai/2026-10-20-f8-unequal/koszul_tables.py --output results/local/f8-pencils.json
 python research/ai/2026-10-20-f8-unequal/pair_averaging.py results/f8-unequal-2026-10-20/koszul-pencils.json --output results/local/f8-pair-averaging.json
-python research/ai/2026-10-20-f8-unequal/source_frontier.py --output results/local/f8-source-frontier.json
+python research/ai/2026-10-20-f8-unequal/f8_source_frontier.py --output results/local/f8-source-frontier.json
 python -m unittest discover -s tests -p test_f8_unequal.py -v
 ```
 
