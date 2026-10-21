@@ -1,0 +1,334 @@
+{
+  "claim": "Exact eight-coordinate factorization for three fixed length-two long spaces",
+  "factorization_controls": [
+    {
+      "a": 5,
+      "b": 6,
+      "long_planes": [
+        {
+          "kind": "secant",
+          "points": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "secant",
+          "points": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "secant",
+          "points": [
+            0,
+            1
+          ]
+        }
+      ],
+      "restricted_format": [
+        60,
+        60,
+        60
+      ],
+      "factor_format": [
+        8,
+        8,
+        8
+      ],
+      "integer_coefficients_compared": 216000,
+      "all_coefficients_match_integer_factorization": true,
+      "factor_ranks_mod_101": [
+        8,
+        8,
+        8
+      ],
+      "core_flattening_ranks_mod_101": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "long_planes": [
+        {
+          "kind": "tangent",
+          "points": [
+            0
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            0
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            0
+          ]
+        }
+      ],
+      "restricted_format": [
+        60,
+        60,
+        60
+      ],
+      "factor_format": [
+        8,
+        8,
+        8
+      ],
+      "integer_coefficients_compared": 216000,
+      "all_coefficients_match_integer_factorization": true,
+      "factor_ranks_mod_101": [
+        8,
+        8,
+        8
+      ],
+      "core_flattening_ranks_mod_101": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "long_planes": [
+        {
+          "kind": "tangent",
+          "points": [
+            1
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            1
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            1
+          ]
+        }
+      ],
+      "restricted_format": [
+        60,
+        60,
+        60
+      ],
+      "factor_format": [
+        8,
+        8,
+        8
+      ],
+      "integer_coefficients_compared": 216000,
+      "all_coefficients_match_integer_factorization": true,
+      "factor_ranks_mod_101": [
+        8,
+        8,
+        8
+      ],
+      "core_flattening_ranks_mod_101": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "long_planes": [
+        {
+          "kind": "tangent",
+          "points": [
+            "infinity"
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            "infinity"
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            "infinity"
+          ]
+        }
+      ],
+      "restricted_format": [
+        60,
+        60,
+        60
+      ],
+      "factor_format": [
+        8,
+        8,
+        8
+      ],
+      "integer_coefficients_compared": 216000,
+      "all_coefficients_match_integer_factorization": true,
+      "factor_ranks_mod_101": [
+        8,
+        8,
+        8
+      ],
+      "core_flattening_ranks_mod_101": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "long_planes": [
+        {
+          "kind": "secant",
+          "points": [
+            0,
+            "infinity"
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            0
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            1
+          ]
+        }
+      ],
+      "restricted_format": [
+        60,
+        60,
+        60
+      ],
+      "factor_format": [
+        8,
+        8,
+        8
+      ],
+      "integer_coefficients_compared": 216000,
+      "all_coefficients_match_integer_factorization": true,
+      "factor_ranks_mod_101": [
+        8,
+        8,
+        8
+      ],
+      "core_flattening_ranks_mod_101": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "long_planes": [
+        {
+          "kind": "tangent",
+          "points": [
+            "infinity"
+          ]
+        },
+        {
+          "kind": "secant",
+          "points": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "tangent",
+          "points": [
+            0
+          ]
+        }
+      ],
+      "restricted_format": [
+        60,
+        60,
+        60
+      ],
+      "factor_format": [
+        8,
+        8,
+        8
+      ],
+      "integer_coefficients_compared": 216000,
+      "all_coefficients_match_integer_factorization": true,
+      "factor_ranks_mod_101": [
+        8,
+        8,
+        8
+      ],
+      "core_flattening_ranks_mod_101": [
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "ordinary_equality_tests": [
+    {
+      "a": 5,
+      "b": 6,
+      "block_size": 4,
+      "total_target_leg_dimension": 272,
+      "lemma_hypotheses_hold": true,
+      "lifted_rank_one_slice_upper_bound": 60,
+      "equality_threshold": 60,
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "block_size": 3,
+      "total_target_leg_dimension": 271,
+      "lemma_hypotheses_hold": true,
+      "lifted_rank_one_slice_upper_bound": 61,
+      "equality_threshold": 60,
+      "ordinary_restriction_excluded": false,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "block_size": 2,
+      "total_target_leg_dimension": 271,
+      "lemma_hypotheses_hold": true,
+      "lifted_rank_one_slice_upper_bound": 60,
+      "equality_threshold": 60,
+      "ordinary_restriction_excluded": false,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "block_size": 3,
+      "total_target_leg_dimension": 45,
+      "lemma_hypotheses_hold": false,
+      "lifted_rank_one_slice_upper_bound": 3,
+      "equality_threshold": 18,
+      "ordinary_restriction_excluded": false,
+      "singular_degeneration_excluded": false
+    }
+  ],
+  "singular_exclusion_claimed": false,
+  "new_exponent_established": false
+}

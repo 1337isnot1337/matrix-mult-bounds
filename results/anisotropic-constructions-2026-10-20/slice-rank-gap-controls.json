@@ -1,0 +1,433 @@
+{
+  "binary_biform_controls": [
+    {
+      "a": 2,
+      "b": 2,
+      "minimum_rank_slices": 9,
+      "nonzero_slices": 15,
+      "rank_histogram": {
+        "4": 9,
+        "6": 6
+      }
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "minimum_rank_slices": 21,
+      "nonzero_slices": 63,
+      "rank_histogram": {
+        "6": 21,
+        "8": 42
+      }
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "minimum_rank_slices": 49,
+      "nonzero_slices": 511,
+      "rank_histogram": {
+        "9": 49,
+        "12": 198,
+        "14": 132,
+        "15": 132
+      }
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "minimum_rank_slices": 105,
+      "nonzero_slices": 4095,
+      "rank_histogram": {
+        "12": 105,
+        "15": 630,
+        "16": 168,
+        "18": 3192
+      }
+    }
+  ],
+  "binary_full_source_control": {
+    "a": 2,
+    "b": 2,
+    "minimum_locus_matches_product_hankel_classification": true,
+    "minimum_rank_slices": 27,
+    "nonzero_slices": 4095,
+    "rank_histogram": {
+      "4": 27,
+      "6": 18,
+      "8": 462,
+      "9": 216,
+      "10": 1404,
+      "11": 216,
+      "12": 1752
+    }
+  },
+  "enhanced_frontier": {
+    "excluded_after_minimum_rank_screen": [
+      {
+        "a": 4,
+        "b": 5,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          -3,
+          8,
+          8
+        ],
+        "shape": [
+          12,
+          12,
+          13
+        ],
+        "source_leg_dimension": 160,
+        "volume": 1872
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          -1,
+          12,
+          12
+        ],
+        "shape": [
+          14,
+          14,
+          15
+        ],
+        "source_leg_dimension": 216,
+        "volume": 2940
+      },
+      {
+        "a": 5,
+        "b": 5,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          -5,
+          43,
+          43
+        ],
+        "shape": [
+          13,
+          13,
+          17
+        ],
+        "source_leg_dimension": 225,
+        "volume": 2873
+      }
+    ],
+    "maximum_leg_dimension": 300,
+    "remaining_finite_screen_survivors": [
+      {
+        "a": 4,
+        "b": 7,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          1,
+          16,
+          16
+        ],
+        "shape": [
+          16,
+          16,
+          17
+        ],
+        "source_leg_dimension": 280,
+        "volume": 4352
+      },
+      {
+        "a": 5,
+        "b": 5,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          4,
+          43,
+          28
+        ],
+        "shape": [
+          13,
+          14,
+          16
+        ],
+        "source_leg_dimension": 225,
+        "volume": 2912
+      },
+      {
+        "a": 5,
+        "b": 5,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          15,
+          43,
+          15
+        ],
+        "shape": [
+          13,
+          15,
+          15
+        ],
+        "source_leg_dimension": 225,
+        "volume": 2925
+      },
+      {
+        "a": 5,
+        "b": 5,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          15,
+          28,
+          28
+        ],
+        "shape": [
+          14,
+          14,
+          15
+        ],
+        "source_leg_dimension": 225,
+        "volume": 2940
+      },
+      {
+        "a": 5,
+        "b": 5,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          0,
+          14,
+          0
+        ],
+        "shape": [
+          14,
+          15,
+          15
+        ],
+        "source_leg_dimension": 225,
+        "volume": 3150
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          25,
+          70,
+          53
+        ],
+        "shape": [
+          15,
+          16,
+          18
+        ],
+        "source_leg_dimension": 300,
+        "volume": 4320
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          38,
+          70,
+          38
+        ],
+        "shape": [
+          15,
+          17,
+          17
+        ],
+        "source_leg_dimension": 300,
+        "volume": 4335
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          38,
+          53,
+          53
+        ],
+        "shape": [
+          16,
+          16,
+          17
+        ],
+        "source_leg_dimension": 300,
+        "volume": 4352
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          7,
+          37,
+          37
+        ],
+        "shape": [
+          16,
+          16,
+          18
+        ],
+        "source_leg_dimension": 300,
+        "volume": 4608
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          21,
+          37,
+          21
+        ],
+        "shape": [
+          16,
+          17,
+          17
+        ],
+        "source_leg_dimension": 300,
+        "volume": 4624
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "rank_gap_dimension_conditions": [
+          true,
+          true,
+          true
+        ],
+        "rank_gap_slacks": [
+          4,
+          4,
+          4
+        ],
+        "shape": [
+          17,
+          17,
+          17
+        ],
+        "source_leg_dimension": 300,
+        "volume": 4913
+      }
+    ],
+    "screen_survival_is_not_a_construction": true
+  },
+  "formal_verification": false,
+  "human_review": false,
+  "independent_ai_review": true,
+  "new_exponent_established": false,
+  "ordinary_restriction_only": true,
+  "rational_gap_examples": [
+    {
+      "a": 2,
+      "b": 2,
+      "biform": "1+x*z",
+      "exact_rational_full_slice_rank": 6,
+      "middle_profile": "h_0=1; all other h_k=0"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "biform": "1+x*z",
+      "exact_rational_full_slice_rank": 8,
+      "middle_profile": "h_0=1; all other h_k=0"
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "biform": "1+x*z",
+      "exact_rational_full_slice_rank": 12,
+      "middle_profile": "h_0=1; all other h_k=0"
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "biform": "1+x*z",
+      "exact_rational_full_slice_rank": 15,
+      "middle_profile": "h_0=1; all other h_k=0"
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "biform": "1+x*z",
+      "exact_rational_full_slice_rank": 24,
+      "middle_profile": "h_0=1; all other h_k=0"
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "biform": "1+x*z",
+      "exact_rational_full_slice_rank": 30,
+      "middle_profile": "h_0=1; all other h_k=0"
+    }
+  ],
+  "selected_target": {
+    "lifted_rank_upper_bound": 21,
+    "source_lengths": [
+      4,
+      5
+    ],
+    "source_minimum_locus_projective_dimension": 8,
+    "source_minimum_rank": 20,
+    "source_next_rank_lower_bound": 24,
+    "target_rank_one_locus_projective_dimension": 22,
+    "target_shape": [
+      12,
+      12,
+      13
+    ]
+  },
+  "status": "written proof with exact finite controls; independent AI review completed",
+  "target_constructed": false
+}
