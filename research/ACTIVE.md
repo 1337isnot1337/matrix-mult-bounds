@@ -5,6 +5,14 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+The quantum worker's current question is in
+`ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
+close the prescribed order-three/six parameter curves even for ungraded
+constant output projections before the limit. Parameter-dependent output
+maps and different block weights remain open; unchanged approach-rate pilots
+are no longer a construction question. These are unreviewed local proofs,
+not a bound below 9/4.
+
 ## Constructive-spectrum continuation
 
 PR #28 is merged at `8722b361fde7713949b8f0e72fab681066ce10bd`.
