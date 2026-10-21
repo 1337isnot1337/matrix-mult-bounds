@@ -32,6 +32,7 @@ subgroup = load_local('subgroup_normalization')
 sys.path.insert(0, str(ROOT/'research/ai/2026-10-20-sl2-seven'))
 replayer = load_local('verify_projected_reports')
 fibers = load_local('abelian_fiber_cuts')
+templates = load_local('parity_templates')
 
 
 class SL2SevenTests(unittest.TestCase):
@@ -144,6 +145,66 @@ class SL2SevenTests(unittest.TestCase):
             self.assertLess(len(sums), 8)
             checked += 1
         self.assertEqual(checked, 216)
+
+    def test_pattern_canonicalization_preserves_right_translation(self):
+        G = source.group(7)
+        Q = lift.quotient(G, G['matrices'].index((6, 0, 0, 6)))
+        rng = random.Random(20261322)
+        for _ in range(12):
+            points = rng.sample(range(168), 5)
+            expected = templates.canonical_pattern(Q, points)
+            for g in range(168):
+                translated = [Q['mul'][p][g] for p in points]
+                self.assertEqual(templates.canonical_pattern(Q, translated), expected)
+
+    def test_template_clauses_preserve_independently_checked_lifts(self):
+        class Pool:
+            def __init__(self):
+                self.labels = {}
+            def id(self, label):
+                if label not in self.labels:
+                    self.labels[label] = len(self.labels)+1
+                return self.labels[label]
+
+        from group_exact import pair_map
+        G = source.group(7)
+        Q = lift.quotient(G, G['matrices'].index((6, 0, 0, 6)))
+        forbidden = [[0, 110, 109, 16], [0, 109, 127, 153], [0, 149, 33, 30]]
+        system = lift.lift_system(Q, forbidden)
+        rows = [system['rows'][i] for i in lift.eliminate(system)['circuit']]
+        item = {'sets': forbidden, 'variables': system['variables'], 'rows': rows,
+                'blocked_points': sorted({tuple(p) for r in rows for p in r['support']})}
+        pool = Pool()
+        members = [[pool.id(('member', f, p)) for p in range(168)] for f in range(3)]
+        clauses = []
+        templates.append_templates(Q, [item], pool, members, clauses)
+        checked = 0
+        for f in range(3):
+            for point in forbidden[f][1:]:
+                sets = copy.deepcopy(forbidden)
+                sets[f].remove(point)
+                system = lift.lift_system(Q, sets)
+                solution = lift.eliminate(system)
+                if not solution['consistent']:
+                    continue
+                actual = lift.lifted_sets(G, Q, system, solution['assignment'], sets)
+                for leg in range(3):
+                    pair_map(G, actual[leg], actual[(leg+1) % 3])
+                true = set()
+                for label, variable in pool.labels.items():
+                    if label[0] == 'member':
+                        _, leg, p = label
+                        value = p in sets[leg]
+                    else:
+                        _, leg, pattern = label
+                        value = any(all(Q['mul'][p][g] in sets[leg] for p in pattern)
+                                    for g in range(168))
+                    if value:
+                        true.add(variable)
+                self.assertTrue(all(any((v in true) if v > 0 else (-v not in true)
+                                        for v in clause) for clause in clauses))
+                checked += 1
+        self.assertGreater(checked, 0)
 
 
 if __name__ == '__main__':
