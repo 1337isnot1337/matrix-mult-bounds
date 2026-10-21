@@ -1,0 +1,40 @@
+{
+  "source": "A(7,8)",
+  "fixed_core": "the exported M12 product core",
+  "source_format": [
+    784,
+    784,
+    784
+  ],
+  "core_format": [
+    144,
+    144,
+    144
+  ],
+  "local_factor_ranks": [
+    7,
+    12,
+    8
+  ],
+  "two_core_contraction_ranks": [
+    672,
+    672,
+    672
+  ],
+  "two_core_kernel_dimensions": [
+    112,
+    112,
+    112
+  ],
+  "source_terms_replayed": 175616,
+  "nonzero_two_core_contraction_coefficients": 13312,
+  "complete_two_core_factorization_exact": true,
+  "source_and_all_core_cyclic_identifications_exact": true,
+  "kernel": "full first short space tensor span(h0,h1) tensor full second short space, in each cyclic order",
+  "fixed_core_target_leg_dimension_max": 256,
+  "fixed_core_single_square_block_size_max": 16,
+  "fixed_core_large_block_size_max_with_M5_summand": 15,
+  "scope": "ordinary restrictions extending the specified core row spaces; movable cores are not excluded",
+  "arithmetic": "Python exact integers and rational row reduction; standard library only",
+  "new_exponent_established": false
+}
