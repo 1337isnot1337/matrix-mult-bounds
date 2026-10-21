@@ -1,0 +1,35 @@
+{
+  "commit": "89c028724b3c2340e3d5e7040f2b90fe6872129b",
+  "tree": "5a36ab21ad33fa0609b535e49ceedbc1488114d5",
+  "integrated_main": "8722b361fde7713949b8f0e72fab681066ce10bd",
+  "local_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "runner_note": "Equivalent unittest loader and TextTestRunner with a tee stream; exact detached committed tree. PYTHONPATH supplied SymPy1.14.0 and mpmath1.3.0; OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1.",
+    "count": 385,
+    "elapsed_seconds": 209.646,
+    "status": "passed",
+    "log": "checkpoint4-tests.txt",
+    "sha256": "1e7ac58e9c91bd8193f91405ed65ca0ec37886b48bd76e922f48f9c1b2a6e3cb"
+  },
+  "archive": {
+    "command": "python tools/replay.py",
+    "status": "passed",
+    "report": "checkpoint4-archive.json",
+    "sha256": "2f892d791f2998ff55857dca95ffe75d75de088f843bb09a942b27caa7e964d7"
+  },
+  "hosted_checks": {
+    "observed_commit": "89c028724b3c2340e3d5e7040f2b90fe6872129b",
+    "all_success": [
+      "CI",
+      "CodeQL",
+      "Tests (Python 3.10)",
+      "Tests (Python 3.14)",
+      "Archive replay (Python 3.13)",
+      "Analyze (actions)",
+      "Analyze (c-cpp)",
+      "Analyze (javascript-typescript)",
+      "Analyze (python)"
+    ]
+  },
+  "limitations": "Exact replay and same-session verification do not provide independent mathematical review or establish a smaller exponent."
+}

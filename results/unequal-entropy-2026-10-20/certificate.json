@@ -1,0 +1,2652 @@
+{
+  "claim": "AI-UNEQUAL-ENTROPY-001",
+  "statement": "For all a,b,c,d>=2, U/(P_*(a,b)P_*(c,d)) <= (81/350)*(1+14*sqrt(14)/27)^(4/3), attained only at (2,2,2,2).",
+  "score_consequence": "The defined optimistic entropy score is at most this constant times the matching source profile.",
+  "nonexceptional_bound": "97/100",
+  "sharp_constant_interval": [
+    "487386453/500000000",
+    "974772907/1000000000"
+  ],
+  "tail_minimum": 11,
+  "all_large_cones": [
+    {
+      "order": "bcd",
+      "side": "auto",
+      "monomials": 410,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "a08fe24bc665f9f1c4656a3e1ae0c8048820ebcc1915771dffd8d3c2c98592e1"
+    },
+    {
+      "order": "bdc",
+      "side": "lo",
+      "monomials": 480,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3475337140762944783245658,
+      "normalized_coefficients_sha256": "26d457dc08d7cbe38fcb580e6442124c0a87e8b1ef2e3b6d63c172221f3e0cc0"
+    },
+    {
+      "order": "bdc",
+      "side": "hi",
+      "monomials": 410,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "5ffc25e6deda82eec7a6c1512208bb871d64d378a88410ac6f8b83726b79865c"
+    },
+    {
+      "order": "cbd",
+      "side": "auto",
+      "monomials": 455,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "dd96480a2c966f9bcb7607ac37e5e08d52fb6bafa0a65c4fc0c6a3b1eea671d7"
+    },
+    {
+      "order": "cdb",
+      "side": "auto",
+      "monomials": 455,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "591874f49c776fff12df09765d15d5f6035a3de2957e2c80e60819334e37d7b8"
+    },
+    {
+      "order": "dbc",
+      "side": "lo",
+      "monomials": 494,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "4a4c56eb257ee0e4e8df3a594095943ad03cc8a8420a3d6126a65687c3c1a17e"
+    },
+    {
+      "order": "dbc",
+      "side": "hi",
+      "monomials": 455,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "b8d1f7afc11d9b5f27f0f727d74346dd131879a20f9e0bc7dcd40f1a3ad2102f"
+    },
+    {
+      "order": "dcb",
+      "side": "auto",
+      "monomials": 455,
+      "total_degree": 8,
+      "minimum_normalized_coefficient": 3264914879472502762169664,
+      "normalized_coefficients_sha256": "b4feaf63dabe665b5fd3b8be1505660d36bdf45da95b5204e55a1708a123baa7"
+    }
+  ],
+  "small_minimum_tails": [
+    {
+      "minimum": 2,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "c54bc2d076c541691d594dae008a3c4a766257c632fa357568bfd3e5e29c71be"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "68e4fa07962d15015b66c0433fd466afc068fdcc7bebdb98d55183749adb095e"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "c68d5d53fe9f7738388b3f3fe9a485c2afe02b73e12b21c48c0a61fca0bde3ba"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 591412104,
+          "normalized_coefficients_sha256": "aab18b5eece1b5d68201f34caa612398e5ece2c45295c6c6c42edfe9947944aa"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 591412104,
+          "normalized_coefficients_sha256": "8779dce555069b7e568c7b6ad30375eef7224a9205ed961826b68bb8141f8cb6"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 591412104,
+          "normalized_coefficients_sha256": "062077a4e97e738bcedbd3c5ce3a22db1be7c1345398fd746063b4be17bdcefe"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "f8c8782e43d19db1616d5adc4c05aec07eec8cd2812c6930312fe41df82c915d"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "00c5007e39035a9f64a38843c17268d73f8753a4e251f6bbd13ffab4ded303db"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "42f52f64389302518c5a0ffa153bb9a848a197552dc0125e914d978d1b023e5b"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "92f36e0029daae2ab11e6982843f89432695ea771b60ee3f99a48b3f9622a0e5"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "f83ca44f28f2a227447d5c1d51b41258c3c4894ae87fcb37d2229308438828cf"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "81073c0eeb205e7ca80338b522ee7d0d193ba9eb7da5cc7660c163698d9feb71"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "cacc52310e96e999b602c7fe19b44ccf89f162fcc18d7c3889186387761f2459"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "116b5f5f8a3fd19428566d318f6c60236f9898474bd92fde5d05f51f9668051a"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "0473cfc3733ff3d61006ffff7864ddb59d2b956407799b1409c11eca477728d9"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "20f8ea7150411d0f75b22e1965208bc4ead4216a41eb461557b8e651e69231bc"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "bf5e0e079c67062e502c1cf0074de8def524fc1109457b38cffaef5337f1939f"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "9ae1358c7bac1feb24883ecabd02faef5601ee6a994efdd5125596d4bdabb26d"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "a4034389b85e391367198f3696f123af58ffdb38dca71d21d3e359e45b1e0cb5"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "656cf263bbda3b1d1ac80ab3dc20f3586f1e50e2824d63825132bbdf0c8c08a6"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "7020c5b7ab8841d49dcac0357cb722b47ffd108b9d92bc3609717c694b036003"
+        }
+      ]
+    },
+    {
+      "minimum": 2,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "e4e0ccac0f98278d46524a2231b7077d9145b5aa5654322e985cd3dcd79f56a9"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "ed7f7513da77aee12b92e392b049800ab8104a5c7c2140fde4e782daa3a32a0b"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 175233216,
+          "normalized_coefficients_sha256": "80c869a9b42cb05bad6ad94fd0ec17b7a1439da45fa1cd61f1449b52eaebfa6c"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "cd1083e2f160ba36586dea59a2d8105ce0221c5df30305ddf6a6edd3e9b4a13e"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "3766fb22e2df0744a426890b2a34f2ede29bb269f23a313e29796d469df8bb7b"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "6d86f194c62315a492118934d6332629e1a94875e9fc631b8f1fa971527d079b"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 25356793959,
+          "normalized_coefficients_sha256": "6b2b60121c400d0d97f9abc565c1a5ef85141853869440975bf9b97cf32ddc07"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 25356793959,
+          "normalized_coefficients_sha256": "bc185902bec555421201976b3d2db1cbf00645b6ed8f78d576419b2ec360fb98"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 25356793959,
+          "normalized_coefficients_sha256": "54165d419eb18052f024a5f77dfe4baf1789a8eadbead8696d90e6844e5d0481"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "98c6b61225ab0c192e41462f3006da1e08d9cdbb6ad5307dda00b309c254b9cc"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "520c514cee767cda28508831eee58a527b765ab0ea1bf267b53ff11177399c06"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "9ec0e2190baa647401e00b0a92c9f0abb6b4faac2b4e94a71529ca9f3263a8fd"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "62c8ca7ff4a8fb76038f1051d19ee97673746468e1d3069daf007b721b0acde7"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "e13dc1e7a58cadabef966a15ca148d4c58a0c1b31b35bab14dab436cbae46ea3"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "d8156aa7dd4ac3c36a9cc415176069b4f42dcb83d24355754bdffd693a11eff0"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "9e7ee7237ba003fc2c4d459d362fb51a3caa760541d60dee87d20833ad892624"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "73ca03f453567e3db5006b84d3edd32e54e65959377322defd7a93af46df23c4"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "5c5d3fd2849ebeffa6297e2e9b99947719dbd0f0fd9513e2cadfcdb9aa08b540"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "18fbad60911d72c9cde6fd9fad196ca3ade000304eac06e8e2ed7dc91efdf660"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "259da14ffc71545f6d6f34825056efd49c1c2b5d6e7982b987db78856cec2b5b"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "2277a3695c7d629c52fb5a4dcb2151e2778a1e2ebf2253d7c9a0d1af867f725a"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "759d9a2eebda131f30bbbb15d1d71adbe70e5f305fcf8305571997bc6a72d1bc"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "b8f43d39cbef00c7a09a8db4b9d2cd9efe2223cf64282ea4ef1c4d72d0c83aa6"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "f66b9b3f5b30a9175eefa827d12854193ba79b23ef9b23462fbb9d91a3c7f0d9"
+        }
+      ]
+    },
+    {
+      "minimum": 3,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        2
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "780b8c8fef4151db78a7906830db62f8f7df621866b36a88d120bb94e94fbfb1"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "042a1739d3ddbcad0f03da6efd87bc6a8e352beafc4d5b4d7a1e38d4846d37e1"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 7513124136,
+          "normalized_coefficients_sha256": "7713ce127fa3647f62edf9e2936511847faf46493a41b9750a8acb61a5874f59"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "b3a626e4ecbbdebb463c9445eaa4accfdb569ce8c3b486760bc73ae3e829b9aa"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "cdc5a0b1dbb133fc234fe5f6bffd989eb07c334d7ce4c655d3328da11a175d1f"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "68e864d4a9264c1a1d99d7532a49857c90f69cffc817021e1271df42c5207338"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 202854351672,
+          "normalized_coefficients_sha256": "e0a0ea4bc7ddb1c69e071c73ad21e5a14323be477a23e661aee29bbc2e7fea1e"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 202854351672,
+          "normalized_coefficients_sha256": "99e636b1151749dd44b63a4ef276012e4bf70adc89d8d9b82726e994dc9fa75b"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 202854351672,
+          "normalized_coefficients_sha256": "1b90d3b3afe47698ac3b14215f89315a7bd4ad01be21396bb80c6d88bbc61fa2"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "44f3d7c21a492f6d979f42b355dafd6ae08622c79896f6b375077ecc8e7663d3"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "f57073930706426a89431937e1efd17de5bc55b7c0e03b5e373bdd8c1408115f"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "96e5ad0985a7f6a5d85481fa58cc811859cb8b9b65d35d0624db7b1e22e02ae8"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "89581d1db13323cf62ef3e0d21c36f20a38fe4523170b781fa03ac7580814510"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "d349463712c7e580a62f82b1f65c02e01e0e8bd8c189edadfc83b75f35773223"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "ef1905e4577e4d520b0f6f0f2c929d66362754ec4ff03dedc2d753c23188b3d6"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "82a334a42de220965825545404919c6a9cc9698375b7d81e302dee6b22e53962"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "0d1c7816a9ab956e8fb5888e713d5df5392ced7359b14ebd645efd9f6d879f18"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "62ae36c9045cea6e5d9660a775b7eaffe5ae5b2d1ffbd2c0799f5e1aa1525898"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "8206122896a9c3edaf212555fb81b43741d0fe6cb27ae380af4a2dea4ed0b976"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "8825ed33342c5fdbcb7ef231562459960cc058739f17694be8a2bf66d89f2aec"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "654ebfa3134d8c445fd911813dfd3549c0c204c26369106b5b752f31b219cbe6"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "5a66f30085eb0a067c67bf69699b8f238bd24b7c5a2650bcc8c5b9b0a3b6443c"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "cbca83222f4e379db9c622e12cff926731472a00811ee1d05fe6c5c130c332a1"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "59ff4c7fcf4acf70cce7a729316f7f8e0122c73275d330c2a3fef2044d498643"
+        }
+      ]
+    },
+    {
+      "minimum": 4,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "bf36508130c4c9c527dafccc8bdbcffecc5cd0031055243d5f26a1e629a6658a"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "fbd6a21b7d70efb32048bdc4bb978363e9577b64245300d9e2d80f5b9e32a1e8"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 60104993088,
+          "normalized_coefficients_sha256": "520efb318fd7828a3fb52d7406ea5240cd34e2fef4cd6fc8a2dea36f09a2161e"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "a7f955dccd514fbaa2d8ec5fc88fc3baf2e6c9788aecbe600dd4496db2fb2954"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "516bfe566d0e98a1a1e77336b946601ac195a3ab1356b9225ff69dd342f881ad"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "77783cb83e20eed688019545254c9cb9265f9f41f8907949a78074f471bf57af"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 55708876327923,
+          "normalized_coefficients_sha256": "de3497c2784ccb80c24ff54faf83998f84cf2f711a98004a15484df96d460c6d"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 55708876327923,
+          "normalized_coefficients_sha256": "9200a545872253647f9cb5d990348e3475ed229642ee97de631b744e6d8d90d1"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 55708876327923,
+          "normalized_coefficients_sha256": "684c23846d30d6e2d5cc3d1598ee874e9d8f6bc9627a9d5e951d3b797f43bef4"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "76188d78c77774dd6149329d572fbd70505a5be3415521d37c68cd1930a808f9"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "479f2b9721ebbcf558950c77e7627f091e41fcef6afad57e5610c55374d002cf"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "cde8a6156f160799b0c9130a42c7436888a33f9bcd54ea08d93b49198e917f8d"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "aea9c019c96de904bda9ff58f40fed318fc34974146a5087b15b3a40e2384569"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "5bdcb377ab1475c437ef451676c51a15b3be18699eb7162ed7be580ce7bebf39"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "2c1450ec233bccaa316b7f49802c57329d88d8ec3ab00de4c616d1ebd964e53c"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "25cd2767b1335722e3b7bbf05a07208da284b7525ff2c14fbe3ae4efe7d611b1"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "00a311c9567c82025a80833b3320e309a104684d6267e61b44425bd7e2368dd8"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "9da7933984b1298dc077c2ba9c816ccbfaed4c3a10f889e8e0330ef75b348b90"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "ba3bbf0697dd2befe74069494b61f4686f826b3c1a4087dd85d8d22a011915c9"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "56afb36772d1253fe5ea8c14e7f212c312bc8e62ef94c990300740ece451f2cb"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "d2445a9a769cf8b45152aeb86e0cb5999c4f8858e6a112e331f3de20fa564307"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "760fae0f751b885d011b74686b8fcc6e3287f1928482b1071158fdce4a732461"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "78a8116ae6c3fe8a2dc350c9f0171dd626b92e250df067e3183ef07c34a8232d"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "d739ee16f87079188830b1994bd708b68d9eb1aba464418e90ef85d0bec7e607"
+        }
+      ]
+    },
+    {
+      "minimum": 5,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "f700901766c8dfa29fbae955546b9bf3aa8c3bd7947b294f060bf277e22dc457"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "e8669dae096181f1617f4ed63a1d4759973112715d26dd7ae81af21903bdabff"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 16506333726792,
+          "normalized_coefficients_sha256": "5af2911269f77e68dc24591388755d9379d153ea41ab96c9af48c6127f7dd4fe"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "9ed619eda94c2b731bd566d049082c0a087808ef45741a7d82d94eaaff7466b6"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "fafaa591f14605c7ad77e4c61c5004f26fe2960d5f734508af13790ac0e98de4"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "a7fbdc41fbf14152615572a98936a50dcbf507589a6c5f6834e749b772460b25"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 891342021246768,
+          "normalized_coefficients_sha256": "a1f48e5f350842b42fda5edb13c3688cf04cee96ec5bc828c29a4b0a3a933218"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 891342021246768,
+          "normalized_coefficients_sha256": "5159c0a6c3924d32e83c0b506d4c13cb8ed0583c2491e7879dfd0ddf4279a746"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 891342021246768,
+          "normalized_coefficients_sha256": "387e60e036900230a8eb87d1a832e3b381b0c97a805ef7393f7fd0bef20bd83f"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "feab773a0c63f999de2c927549f243f22922e68282a32ffbe52e297d4aa4f244"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "5bec91be0c35b39e327d70eeb300f17b2efcd93b3caa32c76ea1b67da5887e4d"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "afdf2a669456b41582f4d88c403e128f0bba0ae04ff0c60006f8d6ee27815745"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "387958b60fa3f687737bd52c4b18ce3990c2cdbb8fc9c2e58bc1a6a46954ca6a"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "64998b1cafcee1ac6f83e224f01a3200a375cf638bdaa457dec357618ad9e7e3"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "8048a72f226149646f4ceece62b59ab9e0cd9f99cd1d2ac627baadb217de38dd"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "ac7ca15fd592568dfcd77c3076ce7055dd5864d6ec55828826ddb57742e52a6e"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "604a72177a0fe70fc3bad90df2fa25642887cea3ff573c313b36251ae2b86833"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "867f1c19967a2e681fa4c2ff2e68fc1c13b7a5927e65781ac581251033204445"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "ce78e2fef81d8b3a86b38955c656673a12a452e9fe8176dcf9478fdc229d9d2a"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "197ecf6eaa26c3c4262022a50735a08f1155cbc00d9c9c5d2a25c4f3ea90d184"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "ca49d36df53ba0466c5f0012a091ad81827d2a34d540e18b1bd94e4564079c44"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "7efc38c953f2d394424e9640cb7cdf8a0987d0d05da14c0425c7141ba622a89d"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "263361c904ed2d5a24a54b5ca8d5facbd26bfed61191175bd7fe5d213f7f5a28"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "6daa6093d2ca7cfa0ae7f6cf1a6b26271350f9d6ee3ed99907bdb0caeb9c5df1"
+        }
+      ]
+    },
+    {
+      "minimum": 6,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "a47dc4089a69ec1571989465a4b086863b9ccfd9a773995e1e98681d10b58629"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "3770359a5bd11397ae35ee8d45acadcc9e13b72590c5e25168de5987334a57f4"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 264101339628672,
+          "normalized_coefficients_sha256": "9ce0f09ef3daf5203662d4777a95bae8967774c8ef6c230ac155c3e948938fe1"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "bcd50441fd02107e878f12fc2ae34ff92d1675ddce227a4626d07d3a0eef7a0d"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "6d33dbb67917b1d7b977ab699b58db9a2c2b59ce3d9426f0ca2ef2b700e4247e"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "d760614fd29ab06023d28cdb075866a05d5745e6e133e6d5961dea494e709371"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 62384846160526344,
+          "normalized_coefficients_sha256": "1deea1bd42a1154eede75b3fd80146be7d1daf24dde358a9acf33d73036828e8"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 62384846160526344,
+          "normalized_coefficients_sha256": "a08f6626b1a12abf8fc7546fac110490a73ce48d785291a3dd330dacb14cdff5"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 62384846160526344,
+          "normalized_coefficients_sha256": "5d632fd8eefc767efb341ae9179c34bbbce5d37984de9401ed0a18fdfbea1c3a"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "23b7b8276c7ac89dd9e4399165405e26e72bffb112cc1365dfda25c7b97798d3"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "04e918fb6cadfa922bc85137c7ab64994c4eed8920be8196a16461ab950ffbf1"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "44e9121b03a51da894ee10c4238cccb25bb1f40d692b37abf83abe4e196fd2a5"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "3a9d11b16cc61fe75b3bc071a8485b826ca7e6d2239990e4615ab89a79b348b2"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "d50243143c1955806823f5114cde4cebf7ee8bd8d8c85d9c04fac9e3ae24399a"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "50d4e50f3069f4d189ca172697dc7a4c434a4b0ad683db133300e0332f6b917b"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        3,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "b37a6531311841dd9f3e928a4e54e36b90d41c089c3d75bd5079c2226b4ea60f"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "ff4da5c569ad313740f7350dc6bbd0fadbaf9d50c745eae6961d777a16432cce"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "68663e105de39c37db39b4edc52c1220a6164ac57cc16afcd8c7e2895f97ed99"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "bb5ec93a073e65c34dca15c444c5f61375522dbd51c6b3a8cc10bcba6d52e02a"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "19bf726a58ca10c47a65d564eee2e9426d50d02cb77f17a470c8391e77206cde"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "b4d3d7e66673086e73824b50844ad87e229ed809a662b8047cafc91a9286664a"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "dbeb809bd1d18c6259ede91af75e30f0bfe791e24dc0d13dc927730958459fc6"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "42f68d5befb038ec956a1730b4ee41f735fbe1ac5b419f2a36c32b744ccb4139"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "ee7148493232e1c997a92e9df27a1124eea5f56e73d278c84b3149c66b497eb5"
+        }
+      ]
+    },
+    {
+      "minimum": 7,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "52e81ebdc3431a97c5dca2dd8e6a60c78187b515b1c94438a1f16e4059e5d907"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "a5699d38b34dc0bfbcee62fb3a61a4ae9534e40433c934678593cbcc24bf9026"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 18484398862378176,
+          "normalized_coefficients_sha256": "7dd6219b73b2d1fa39f36e90520138b9ecf510ad8110d2080d72fc86db1e639a"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "5dd93fd3d0861f426bb2312297213eba5335e250750ec00c256357b9eb40c0de"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "17ca5d074ade98d82a311fd4fbce166f54e830b7b403f51eaef51fc1cff9181b"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "d34044e81a1960964a4c6c17eec073fcffa277db944408fe24e276c94c4240a9"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 11862032891380080552,
+          "normalized_coefficients_sha256": "833d46eebce8e210c464f7a21700f3a5ecb62b5c13dad2fa6eb4b8a4cd8ec7b0"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 11862032891380080552,
+          "normalized_coefficients_sha256": "078be4e320ea60acc14bd134328ac766cb0fd52052f7c694c5661ae2522253d9"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 11862032891380080552,
+          "normalized_coefficients_sha256": "9cc150325d04efcf33590a7f595bf98bb217f69420c87f155cd4f9f42b2b73ce"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "96ea57f738506063bdd3bafa662b08d711ac61e2e1e13d362f3c671e7f859fea"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "2d6d50dfbc1bad89f5887a3623d428e3046b00f785ced0fb3fa9dd5288aa019d"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "797890c5b86ad7c5fae01b17dd74ce9ae3f4ebd091ae31e990613838db4301d2"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        2,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "01799668b0df8fa967b9a5416c4c264fa44805f9a61c1081e26f655fb0b7ea88"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "7fcb504af48cdbf2d5005639d79b479d03809748cd3540bca1d7889bf43d1dce"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "d5bbf8cfca0d8791f9e2f8b8913ca66b56179522babb699f2f561cfb0be42caf"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        2,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "875edbbbfda59038f202010b358be7b626342bb64fdabaa68e2e2b69a4afaea6"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "5f02c7be41e589ec53576c3dd0024b78e364c329616c2a4c1293b036ba06cb6a"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "2eaf24ee71fa8350d1c6234891f036b05759c46c8a7386acd845b3f3da16e189"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "ee3607f49eea49e3295c87cef2b705ff13a79064243ff252d87b054ef293f91d"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "fe267479461874a4829942ab4506e3e16aadb4726209e1d38746098849fd94b3"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "e6c62a1ba0f681a6884b7924afac45a8e93d5fa98a9e2e2eaa9881445926b31a"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "4cee9e7738ee96d15eceba2a7d21004ab61abd723301fb830d7c346c480fd53c"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "c2dd14819fc74022c0ff8077bbf1a90d584a3da397c8ef6d8299ea0bb47d0fdc"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "e9835abe03254a1700be0ec9e18403e7b6a11d7ae3047cf303d1b910ce198fce"
+        }
+      ]
+    },
+    {
+      "minimum": 8,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "2f1686cc969e0c499b4b650caecfd51b31fe720fa9bfb5c86545adb70365f75e"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "fe5c0a6d30e22f46d6c75bc58d3f4b6cb120c00287c01d48fa498098c8203c1e"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 3514676412260764608,
+          "normalized_coefficients_sha256": "bb4270906c9f047738a8997f0d057e8d62b0b8a7ca5bf1b4d6de10315b8cb34a"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "2d72b3709af35ab8ddc999c09b50fe5e03a2efdfc5dc68edf7d13646054d00c8"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "955bc1f41989be1f7c80a861cb120e8413c2242d008e40bdc95a44dbbb76aa20"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "5107fae6ecbb4a6d5771bfa205c8d4154c452336d4f48b556a0cd991fedc420c"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1482754111422510069,
+          "normalized_coefficients_sha256": "fa285161de012bde055e9a2141be1762abd1ec390184bbd3939e83ca41e5034c"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1482754111422510069,
+          "normalized_coefficients_sha256": "6e2391dd671fb5d7d8c07471a36291ccd9a2c466e14194acf69d36ccf799c1fa"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1482754111422510069,
+          "normalized_coefficients_sha256": "b7a105d1682c6f2fb88f8ada7a2142f48eeafeec15afc00376fd7b1c8abd1d26"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "80d277b4ae7ed8549ac062e0a0d0db51c12fa5146f4120eef3530a9ec3f3d2c5"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "56e1ce0619d7932492c107a4660141af96ddb0ef04a939c6973249438a9a9349"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "4bac9a8d25003a323c6140300301677ec2bf91ac16fe882495e7b1e68870fd5c"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        2,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "74ed317ec83e07359d5b11b15d2142e2f11269bbbe4a8c6b552642503b604030"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "89bbc109f842d6d0eceddbe057f79761e24585a72390aa1153ba672cbd7b265f"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "f7e593ab6db0f7b6b00fae9e732d0305d50ae56548819be7140b74c42cfa175b"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        2,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "e8a0ebe541ac3f022b408c2c62e3936ebad4fccda722c6f15c89d2e4e078f950"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "0cc7dc76b818cdee55146e0f88fb4afeb9bfebe8b7659bb52e2c07ebce865f2e"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "0ac3923a5675c903df0114c6015b45d8d48bcf5b550d97df1dc3731689c37aeb"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "26ba74aa09cec783a0557d4e7cb49157f9bbc4e0eee0788636b5235a3832e921"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "d24f64ed6a075121c69f619513b157d74ad341b4694330ed7aac10b32e548bcc"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "6d988f8d5904afbce67e5328d54196c10886821aefd9b498c4547db23f5b1e95"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "d4b22ba6a96ed9e4588dd6f604d567bfbb40a4986e292a59784f3fab82fc41bd"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "24d8eec1a5c2a362b8df295d1a18e2d9ec7b97bb53d3a1c3eb643abde778440d"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "34f899e539976032f6cdf2ddc798893e9aadf80287bb5eab6fb7383c730cb5da"
+        }
+      ]
+    },
+    {
+      "minimum": 9,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "7edeed6491886ca90dd3441af200323b050373143a70372bb17c7814e2208151"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "4bc2a2661a8737c3fc14f7a44144ba6446778b79f977993bf7187f65bfa308b4"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 439334551532595576,
+          "normalized_coefficients_sha256": "027732f5b06b1ee59b388a101b356f5f1590033efa28fb68df017afd9f4745c0"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "bcd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "73c700e60ded9f91a6381ae5fbadc53aa084348291b88efc547293cf4946b82b"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "fe9c437a5b1457dc07246589995ab09780f76a77c058fb1b946b5bd648ca1915"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "66b97dcde38666c2e2e9a495ec6614c6e8ff6efed8fe1e8087d915f307bc427f"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "bdc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 4068677281743367629336,
+          "normalized_coefficients_sha256": "ab696baea8e6802dbcc24327d98245d749c5b81b11a318b20a7df17d88750cbe"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 4068677281743367629336,
+          "normalized_coefficients_sha256": "f9254b179e0f109ab426cf77d840cd2939db2ce249fdd682546dbd237aeba7d6"
+        },
+        {
+          "monomials": 155,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 4068677281743367629336,
+          "normalized_coefficients_sha256": "d8d86fa25b409ae373bf1051146f61211778a12c2cff4816eb640c366406bc38"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "bdc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "08018605d037c68a7dedfc9e89e9618341d59fc20b590834b9858dc71196d8b4"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "77d631fb95857b708345b21174e2ee5ea8e996cc8b92b72343095df1ba766eb1"
+        },
+        {
+          "monomials": 115,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "247076d36effb1496d912ede539a7ae28e68034ed298551b62461c819ca87000"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "cbd",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "5fc65b80533db7cbee1512cd52599f6fa7eeaf93f3107181ee8b849c2039b954"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "163b9c587106081b913458f64bfcb033d221ca2cbe47c91c594db074a67f383f"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "8df6fb3925a6259e1fab79c0ee3b29270e8f4449c809c1378dc7debcf561d001"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "cdb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "e653fd71ea5266701ac15afd81ee9cac709b2431aacaa105748f922bf07e6ae1"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "d191b024f5bdb33e5cf72de7fa22c362f0c2ccd3807788dbce76b0be5a863c93"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "b0e546602c265d252221118fe352c3f8cf61aa6a151aee267b444cc5fcf7ba10"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "dbc",
+      "side": "lo",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "3de173ba5ed6c879f794fa13ff6fb4eb8f01a0f7ed42172ea83792d09d9bc37e"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "f5ead605e2605ba40c99b461c5c7d481b03d763bd9095da5643d65a40b8ce6de"
+        },
+        {
+          "monomials": 164,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "6b0a7c6da11a0f82c6beb72d34ec1cb89587ec773a194c17b7e793e6abd3f79e"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "dbc",
+      "side": "hi",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "592dd0a009fd1e31faa65eeac487d24794af6c15a9a117badc3f25d6df8d3924"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "062aca49df40a08b0ca6ade699352cb92b77f6cc29671a679a0dd4e0cc2c8968"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "16451161e0cd2d9d10aff11a481d08d8705cb0dc0c6506b87ff20066ba2310b9"
+        }
+      ]
+    },
+    {
+      "minimum": 10,
+      "order": "dcb",
+      "side": "auto",
+      "gap_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "certificates": [
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "2cfa2929a53c425f0995c5e4beb850932f6b0beb488409e1168aa0306b6e4342"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "a2651c0096adf050d961cd8fbb6ad2aadaa73eecf89965857e9d620d217f4072"
+        },
+        {
+          "monomials": 140,
+          "total_degree": 8,
+          "minimum_normalized_coefficient": 1205534009405442260544,
+          "normalized_coefficients_sha256": "5ee6c933303bfcbd1751f6b6c3e3a14ab1f107cfcab549812cf5cc05dc59c5ea"
+        }
+      ]
+    }
+  ],
+  "finite_residual_count": 37,
+  "finite_residuals": [
+    {
+      "source": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "ratio_cube_lower": "63538135151440015389956800185908982858020932400144607674667501921/68600000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "9695150017004410069719045966756933247529194097701418747952742401/10467529296875000000000000000000000000000000000000000000000000000",
+      "exceptional": true
+    },
+    {
+      "source": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "ratio_cube_lower": "30414040031186558172348678477901018534938808740438429285043792869369/37647680000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "7603510007796652694054035550029835974843828356945974894592651105729/9411920000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "ratio_cube_lower": "30414040031186558172348678477901018534938808740438429285043792869369/37647680000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "7603510007796652694054035550029835974843828356945974894592651105729/9411920000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "ratio_cube_lower": "30414040031186558172348678477901018534938808740438429285043792869369/37647680000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "7603510007796652694054035550029835974843828356945974894592651105729/9411920000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "ratio_cube_lower": "2956557407630148855345936971638453538838626845539938710856489138746575681/3546274983160000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "1154905237355528521819572805206833580476148158578359753341137667423522721/1385263665296875000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        3,
+        2,
+        4
+      ],
+      "ratio_cube_lower": "368526933028673385017096342451396092439646588339371482189074174392801/493860290560000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "47005986355698210330063417194867579470764257117226979678416477395649/62992384000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        4,
+        2,
+        3
+      ],
+      "ratio_cube_lower": "368526933028673385017096342451396092439646588339371482189074174392801/493860290560000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "47005986355698210330063417194867579470764257117226979678416477395649/62992384000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        4,
+        2,
+        4
+      ],
+      "ratio_cube_lower": "9823354015175708080303125570780028848763599974422609952321032188115089/13231983331840000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "239827978886126016733915156087298668882154137435446827564094644679009/323046468062500000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        4,
+        2,
+        5
+      ],
+      "ratio_cube_lower": "189031446190963720173363161381838710188467863599934971843793763524363253137043/279928349834377953280000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "2953616346733812519608267587765738485563907539522172997210503127506758096547/4373880466162155520000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        2,
+        5,
+        2,
+        4
+      ],
+      "ratio_cube_lower": "189031446190963720173363161381838710188467863599934971843793763524363253137043/279928349834377953280000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "2953616346733812519608267587765738485563907539522172997210503127506758096547/4373880466162155520000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "ratio_cube_lower": "6989512335479487166094196194558959066846639497086081684851519154113092349227/8469703983104000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "6989512335479497328431672976882136659374746522791998056463766219281073958027/8469703983104000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "ratio_cube_lower": "17148300483799299045999018227706886776382277556866752978177418677946365799361/22696159892224000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "5599445055934474129173806834409647126623999383132217440183669649799727391329/7410990985216000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        3,
+        4,
+        3
+      ],
+      "ratio_cube_lower": "17148300483799299045999018227706886776382277556866752978177418677946365799361/22696159892224000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "5599445055934474129173806834409647126623999383132217440183669649799727391329/7410990985216000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        4,
+        3,
+        3
+      ],
+      "ratio_cube_lower": "17148300483799299045999018227706886776382277556866752978177418677946365799361/22696159892224000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "5599445055934474129173806834409647126623999383132217440183669649799727391329/7410990985216000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        4,
+        3,
+        4
+      ],
+      "ratio_cube_lower": "242921919507865617655828108540551208782686359852073480730054638590198021964986894689/311345921401528832000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "15182619969241622778663643047964869339770597610984726971176157267532969079775480049/19459120087595552000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        4,
+        3,
+        5
+      ],
+      "ratio_cube_lower": "446883805312042270700270188230298818607526641957575234578575239826832042921517681/618581713554934857728000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "7444961354636284149572748099628838540213093720721251238111339346693583305089/10305401308703621120000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        5,
+        3,
+        4
+      ],
+      "ratio_cube_lower": "446883805312042270700270188230298818607526641957575234578575239826832042921517681/618581713554934857728000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "7444961354636284149572748099628838540213093720721251238111339346693583305089/10305401308703621120000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        5,
+        3,
+        5
+      ],
+      "ratio_cube_lower": "751182593599043011939574498922581475758668519632594696707627234116607546277/1032901748480000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "2578668997089218425605862937466954518740356095377723124300384979827230676597529/3545758033454000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        5,
+        3,
+        6
+      ],
+      "ratio_cube_lower": "99699062508786864442564948519040677568305405042337860418777004722970874412268660037227/146838520180996035392000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "15387227759646974791322363684256347261700218067555889807715190047718959562261828541707/22662577732015969748000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        3,
+        6,
+        3,
+        5
+      ],
+      "ratio_cube_lower": "99699062508786864442564948519040677568305405042337860418777004722970874412268660037227/146838520180996035392000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "15387227759646974791322363684256347261700218067555889807715190047718959562261828541707/22662577732015969748000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "ratio_cube_lower": "428938708804181152684835552737391698978230223007921260247380016174582890159035990872481/551568291864013819146752000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "1675541831266334975646349043558206838851022266484793618726099872741118847009047750561/2154563640093803981042000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "ratio_cube_lower": "1464028463704069980146161505458774786634871936579027885936022872482293168243484639187/1947215005583762954101562500000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "33747188913878486371828514208093615710503852562446136826134330660083358431982907537627/44885078588647544657230377197265625000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        4,
+        6,
+        4,
+        6
+      ],
+      "ratio_cube_lower": "788246483870223815959366714293010598815856800413671701616613222291046412215358682027520768161/1098404397279922029171875000000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "3079087827618065872111691991910645034943089840705081596568799764645468894221189504003067649/4290642176874695426452636718750000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "ratio_cube_lower": "1158411811093043167866465299195749764938986300163986478728252745300917640390296089/1542500789079811145019531250000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "10256167082965639128537346543301595023148213326956940989634395010906627359130281755051/13656754590132709328263998031616210937500000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "ratio_cube_lower": "1961299197922795952770636121584201595343274190417149132977451009082097368798321040086437100763/2670564011288831837444760535040000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "45209732044060762820654755651853644734424581435130715437458105450203374668894079822983535748547/61558931694231280757085974336000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        5,
+        7,
+        5,
+        7
+      ],
+      "ratio_cube_lower": "172180287823278634702042372319742295633075246131000244719292624253761949972569571068435707/242309367654581877922115167187500000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "532120109128361677581785615871412816449260057434997376849064965641822324758153576268055078123/748852779776501148646720404479980468750000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "ratio_cube_lower": "1055981652616714943171120204831252773344493353723452887965889580925227238278898853125388273260325261689/1438334706573049019113093826244471450112000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "4124928330534047927561588280125554331747447959862016732739277452829205900050400564849488232328453689/5618494947550972730910522758767466602000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "ratio_cube_lower": "969710951492218032587274708263147615306232961874844008550975024206485248144504768171007321441590667314258363/1341843551990620427317785984848972015202901688320000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "4197156126611059640221136549306355874746289940078792301566812459978229216267464536445521276582944321874843/5807840858685164591922550142178722364971008000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        6,
+        8,
+        6,
+        8
+      ],
+      "ratio_cube_lower": "12482678164070278332827796898761846878134640996979132305736158002543593082913503607324866900689138179838027/17701893031248838636418111646068419269951488000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "124826781640702932524813657427818080643349210270525564721835488604070760761350049707337495147046951443603/177018930312488386364181116460684192699514880000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "ratio_cube_lower": "45241493754343921531589543868266588976160385642490410253422795256195298751729533520061151968192061233810566187/62602410939932721496091487848326438965582233600000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "216971428982780861481306033327782686007127601616316483756827195443086444337934747144124262190760036795392427/300231787950199514545293390207288344576000000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        7,
+        8,
+        7,
+        8
+      ],
+      "ratio_cube_lower": "8356438659478304473329565794718082449475511794391624609333715311402806399833602931294067946986902017933626749477161/11699439257167447222007074250098881214095519467438080000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "92592118110563038138075020334082978042383829646762375300539668736137500923536376352263169131126630131310908196769/129633675979694706061020213297494528688038996869120000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        7,
+        9,
+        7,
+        9
+      ],
+      "ratio_cube_lower": "70732917763306357346964401227790202495775061554268488545004133262502211917993674295088432762684328800111522841729/100921701857445069269843767652963851613280289958133760000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "33113194188362293608408592348058855428377976041954437771944188421921337239692084170820241518042513261044506501209/47245893667335780350702484025902744938073044329431040000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "ratio_cube_lower": "7566005471675757497435231751459818390407951163389574741664853789458170906500734251833241994246014850662130775947/10591039159274869609031792126579411021246906368000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "54202330552299982229972138316896922369388121088278759181448075330827275696595628102283017072750608288976755160047867/75873458927888352928283282956649189365676941438143692800000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "ratio_cube_lower": "18004361462144215246480841558205259129800404477155607774302560515701726394812335228422080884345208252536556271315091987/25431409604878840211496123228197353560830062254882812500000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "10301490682093803345474853026952822956959574393433151067182317369926828372139381861140683108050659474812129780881475990067/14550998080548948439986975441434058276427317732152181250000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "ratio_cube_lower": "2176694617295308261162989100187694966028908597695329467786885346580676162805429256632775385824261737526310646572701916969/3073898344515965357947248562002944810895270870917148289062500000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "99469719943314186624842162368394507325474371630949807757428971675016344286127598573120264453524864453913043477135618266649/140469776988352778541330185886985770790367730150823475654262500000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        9,
+        10,
+        9,
+        10
+      ],
+      "ratio_cube_lower": "432542301670337412021714854981095361931158374093000165789354953013305117064943711099854153094340907567642652391950151575674137400947/615218790362670496755428680223471970656634979447740169343750000000000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "35818828001320679116986811843877821247690345781307641636720368495634408448504451384384123744655076339850126758902039441283980902707203/50946268029932743836317049009305713890075942648067363423355937500000000000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    },
+    {
+      "source": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "ratio_cube_lower": "161735223819455916493468857334832880760063821498810211388987806116544019344264458413093946478866763997881368589277572401748640418644255121/229982134676944024897306421011372392215485417489804443599138931640625000000000000000000000000000000000000000000000000000000000000000000000",
+      "ratio_cube_upper": "24270392024407128692515119423178561366726146604423859760667690508813578685794676129065275350821878580989327473688064735686926547083605808001/34511694084958912736152044803019069606836280462063779317595785929321289062500000000000000000000000000000000000000000000000000000000000000000",
+      "exceptional": false
+    }
+  ],
+  "scope": "All-size analytic upper certificate; no weighted tensor extraction theorem, no new tensor degeneration, no smaller omega.",
+  "proof_status": "AI-derived written proof with exact arithmetic certificates; not independently reviewed or formally verified",
+  "improves_omega": false
+}

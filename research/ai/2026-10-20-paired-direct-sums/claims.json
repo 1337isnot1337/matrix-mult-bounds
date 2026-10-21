@@ -1,0 +1,70 @@
+{
+  "claims": [
+    {
+      "id": "EXP-PAIRED-DIRECT-SUM-FRONTIER-001",
+      "classification": "finite exact experiment",
+      "statement": "Among at most two positive matrix blocks in the paired-source formats a=2 through10, no endpoint-improving target passes all first-leg Koszul tests for a<=9; at a10 there are19 surviving pairs modulo B/C exchange.",
+      "limitations": "All Koszul exterior degrees on the first leg only. No target degeneration is constructed; arbitrary block counts and tensor powers are outside the enumeration.",
+      "evidence": [
+        "results/paired-direct-sums-2026-10-20/frontier-through-10.json",
+        "tests/test_paired_direct_sums.py"
+      ]
+    },
+    {
+      "id": "COND-PAIRED-DIRECT-SUM-002",
+      "classification": "written conditional implication, unreviewed",
+      "statement": "If P10 degenerates over C to M(4,11,10) direct_sum M(10,12,6), then omega<1121/500=2.242.",
+      "unproved_premise": "Existence of that tensor degeneration.",
+      "limitations": "Constant restrictions are excluded by the adopted source minimum-slice-rank argument. The all-first-leg rank certificate is only necessary.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/README.md",
+        "results/paired-direct-sums-2026-10-20/selected-target.json"
+      ]
+    },
+    {
+      "id": "EXP-PAIRED-LAURENT-003",
+      "classification": "finite numerical experiment with exact verifier controls",
+      "statement": "Four 300-iteration graded first-order Laurent ALS searches and two bounded300-evaluation analytic-Jacobian refinements for P3 -> M(1,3,3) direct_sum M(3,3,2) finished with nonzero coefficient residuals.",
+      "limitations": "No existence or nonexistence certificate. Real first-order grade-preserving ansatz; bounded refinements restrict every coefficient to[-10,10]. Gauge errors reported separately.",
+      "exact_controls": "Full rational W degeneration, deliberate pole with unchanged W constant term, and exact integer P2->M2 embedded as a regular jet.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/laurent_search.md",
+        "results/paired-direct-sums-2026-10-20/laurent-controls.json",
+        "tests/test_paired_direct_sums.py"
+      ]
+    },
+    {
+      "id": "EXP-PAIRED-HIGHER-JET-004",
+      "classification": "finite numerical experiment with exact coefficient controls",
+      "statement": "Two bounded real second-order graded Laurent runs for the small P3 direct sum finished with nonzero pole coefficients; neither supplied a degeneration.",
+      "limitations": "Only the recorded coefficient bound, grading, degree, and two finite starts. No nonexistence conclusion.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/higher_jet_search.md",
+        "results/paired-direct-sums-2026-10-20/higher-jet-controls.json"
+      ]
+    },
+    {
+      "id": "EXP-NARROW-SOURCE-005",
+      "classification": "finite numerical experiment with exact recognition controls",
+      "statement": "Eight unrestricted constant-map ALS runs and ten compression-kernel searches for Q_(3,2) -> M(3,2,3) failed to produce an exact construction. Four closure-only real searches gave ill-conditioned false leads; four real and two complex searches with condition/spectrum penalties did not approach an acceptable matrix algebra.",
+      "limitations": "Finite local searches; one kernel chart and fixed anchor; no nonexistence conclusion and no exponent gain. Three numerical Q2 kernel calibrations and the Q2 tensor fit succeeded as numerical controls only.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md",
+        "results/paired-direct-sums-2026-10-20/kernel-algebra-controls.json",
+        "results/paired-direct-sums-2026-10-20/extended-checkpoint-validation.json"
+      ]
+    },
+    {
+      "id": "LEM-NORMALIZED-SLICE-006",
+      "classification": "standard algebra recognition criterion, proof checked by concurrent mathematical worker",
+      "statement": "A full n^2-dimensional normalized slice span in Mat_(nb)(C), closed under products with one-dimensional center and nondegenerate matrix trace form, is Mat_n(C) acting b times and identifies the tensor with M(n,b,n).",
+      "limitations": "The proof uses the standard structure theorem for finite-dimensional semisimple complex algebras. No Q_(3,2) compression satisfying the criterion is supplied.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md",
+        "research/ai/2026-10-20-paired-direct-sums/kernel_algebra_search.py",
+        "tests/test_paired_direct_sums.py"
+      ]
+    }
+  ],
+  "improves_omega": false
+}
