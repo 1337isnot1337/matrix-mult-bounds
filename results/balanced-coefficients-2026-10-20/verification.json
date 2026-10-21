@@ -1,9 +1,9 @@
 {
-  "base_main": "0d2ccb2d1cf4cff15db3ec3b81e35f4a01c8b248",
+  "base_main": "529b27d",
   "unit_tests": {
-    "count": 214,
+    "count": 219,
     "passed": true,
-    "log": "results/balanced-coefficients-2026-10-20/tests-main-0d2ccb2.txt"
+    "log": "results/balanced-coefficients-2026-10-20/tests-after-529b27d.txt"
   },
   "archive_replay": {
     "passed": true,
@@ -22,5 +22,13 @@
   "independent_review": false,
   "query_hashes_apply_to": "Decompressed exact .smt2 text; .gz timestamps fixed to zero.",
   "retained_query_hashes_verified": 4,
-  "discovery_source_hashes_verified": 6
+  "discovery_source_hashes_verified": 6,
+  "previous_validation": {
+    "base_main": "0d2ccb2d1cf4cff15db3ec3b81e35f4a01c8b248",
+    "unit_tests": {
+      "count": 214,
+      "passed": true,
+      "log": "results/balanced-coefficients-2026-10-20/tests-main-0d2ccb2.txt"
+    }
+  }
 }
