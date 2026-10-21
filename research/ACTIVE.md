@@ -1,5 +1,12 @@
 # Integrated research coordination
 
+The rectangular worker now studies the one-unit factor criterion in
+`ai/2026-10-21-rectangular-direct-sums/one_unit_pairing.md`. Primitive
+kernel pencils must pair separably. The fixed-pencil Hankel tangent
+image has dimension149 at the known641 slice; integrability is unproved.
+This is separate from the continuing degree-two/three Laurent map searches.
+
+
 The rectangular worker has now applied the ruling gate to every hash-verified
 predecessor two-block survivor:3717 exclusions and752 remaining through
 dimension1500. Ordinary one- and two-block targets through dimension1152

@@ -75,3 +75,10 @@ by `one_unit_syzygies.md`: inner span dimension9/rank8 and outer span
 dimension65/rank64. The actual641 slice realizes these relations. This
 provides exact structure to use in a construction or a further exclusion;
 it does not settle the remaining ordinary target.
+
+The factor criterion in `one_unit_pairing.md` makes those constraints
+explicit: the two primitive kernel pencils must have separable nonzero
+bilinear pairing. At the known sparse641 example, fixing these pencils
+leaves exact tangent-image dimension149 after the Hankel linearization.
+This exceeds126 and does not exclude the target; integrating useful
+deformations and realizing the target's full tensor remain open.

@@ -1,0 +1,13 @@
+{
+  "status": "immutable archived-tree local regression passed",
+  "commit": "d43dc4b4b1971c8eb34aff39ea406b1d204878e7",
+  "tree": "3462a6c5b4e399e67054040b051d87b5e9e7f070",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests",
+  "tests": 640,
+  "seconds": 1914.534,
+  "source": "git archive of the named commit into a separate verification directory",
+  "log_sha256": "116eb8a1434863bf85e9da8e57eb4020a8412a7dfbc758c0ef9c1a767e54249b",
+  "scope": "Later distinct-atom, cyclic-state, one-unit-relation and pairing additions are tested separately; not included in640.",
+  "independent_review": false,
+  "improves_omega": false
+}

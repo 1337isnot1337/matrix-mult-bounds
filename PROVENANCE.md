@@ -405,3 +405,9 @@ The one-unit polynomial-relation note applies equality in the credited
 source growth bounds and includes the needed elementary PID argument.
 Its finite controls include the actual rank641 source columns. It supplies
 necessary structure only, with no target maps or independent review.
+
+The one-unit pairing criterion develops the preceding relation lemma into
+a polynomial factor criterion, using an explicit kernel-intersection rank
+formula. Its non-Hankel coefficient controls are labeled as such. The
+fixed-pencil pilot uses exact rational tangent elimination and is not an
+integrability claim, global dimension bound or exponent improvement.

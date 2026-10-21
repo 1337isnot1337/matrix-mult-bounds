@@ -1,0 +1,35 @@
+{
+  "status": "exact tangent calculation only; no integrable family or exponent gain",
+  "controls": [
+    {
+      "a": 2,
+      "b": 3,
+      "variables": 19,
+      "exact_derivative_rank": 17,
+      "exact_hankel_defect_rank": 9,
+      "exact_image_tangent_dimension": 8,
+      "fixed_kernel_pencils": true,
+      "local_linearization_only": true
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "variables": 65,
+      "exact_derivative_rank": 60,
+      "exact_hankel_defect_rank": 39,
+      "exact_image_tangent_dimension": 21,
+      "fixed_kernel_pencils": true,
+      "local_linearization_only": true
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "variables": 1262,
+      "exact_derivative_rank": 1212,
+      "exact_hankel_defect_rank": 1063,
+      "exact_image_tangent_dimension": 149,
+      "fixed_kernel_pencils": true,
+      "local_linearization_only": true
+    }
+  ]
+}
