@@ -28,3 +28,9 @@ The current theorem instead checks rational source identities directly.
 The matrix exponent remains9/4. Closing this partner chart would still
 leave other first-space and leading-flag classes, and no full improving
 tensor has been constructed.
+
+Main5b130f1 adds central S5 source certificates, modular controls and bounded
+coordinate searches. The conditional M(13,14,14) comparison remains missing
+its construction. Nine focused S5 checks and five modified SL2 controls
+replayed locally. These findings retain the original workers' credit and
+are not dependencies of the present local exclusion.
