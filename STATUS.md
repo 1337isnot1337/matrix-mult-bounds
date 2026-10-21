@@ -10,6 +10,19 @@ targets through source leg dimension1152. General lemmas remain written
 and unreviewed; singular degenerations and three or more blocks remain
 open. The exponent remains9/4.
 
+## Pure mixed five-spaces on the nonzero partner chart
+
+The [pure-row five-space proof](research/ai/2026-10-21-pure-mixed-five-spaces/proof.md)
+forces only plane normals when the B first space is the full seven-frame
+and the C five-space contains its pure mixed partner, for every chart
+parameter with b nonzero. A stable row subspace and a minimum-rank-two
+projection split32 quotient parameters into families of dimensions6 and14;
+both vanish under the remaining target conditions. All complex a are
+covered polynomially after b=1 normalization, including coalescing modes.
+Claim `AI-PURE-MIXED-FIVE-SPACES-089` is written and unreviewed. General
+mixed-row graphs remain open, and the exponent remains9/4.
+
+
 ## Uniform adapted mixed source slices
 
 The [adapted-source proof](research/ai/2026-10-21-mixed-five-space-uniform/proof.md)

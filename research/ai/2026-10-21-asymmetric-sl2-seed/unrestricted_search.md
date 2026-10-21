@@ -129,3 +129,9 @@ control and has zero mismatches.
 The compressed NPZ checkpoint and its input SHA-256 in the modular report
 make this rejection replayable. Load with NumPy's default allow_pickle=False.
 No external theorem is used by this finite-field rejection calculation.
+
+The next40-evaluation degree-two restart reduced the joint coefficient
+error to0.000149367453815 in1235 seconds. Total coefficient norm was about
+120. Further conditioned Gauss-Newton and degree-generalized alternating
+linear solves are being compared from this checkpoint. Neither a small
+error nor a bounded-looking finite trajectory establishes exact maps.
