@@ -1,148 +1,174 @@
-# A mixed hyperplane already forces the full rank-one frame equations
+# Mixed hyperplanes recover the complete seven-frame normal equations
 
 Written proof, unreviewed, October 21, 2026. The matrix-multiplication
 exponent remains 9/4.
 
-At the canonical four-row flags, suppose both first mixed projections are
-rank-one partner lines, one effective first space has dimension seven,
-and the other has dimension at least six. Arbitrary complex subspaces,
-boundary graph lifts, higher regular output maps, delayed unequal first
-orders, and a Laurent first map are allowed. These data cannot yield the
-100-by-110-by-110 matrix target.
+At the canonical four-row flags, suppose both first mixed projections
+are rank-one partner lines and both effective first dimensions are at
+least six. Arbitrary complex first subspaces, boundary graph lifts,
+higher regular output maps, delayed unequal first orders, and a Laurent
+first map are allowed. These data cannot yield M(10,10,11).
 
-The complete normal kernel is again only the four common-plane directions.
-The new step is that six opposite first rows with a nonzero mixed
-projection force all seven opposite normal equations. Consequently the
-necessary ordinary first-rank sum with both mixed projections nonzero
-is at most twelve. This is a local first-space constraint, not an exponent
-improvement or a general degeneration exclusion.
+The key statement applies to either output leg independently: its six
+first equations, with a nonzero mixed projection, imply its complete
+maximal seven-frame normal equations. Applying it on both legs leaves
+only the four common-plane directions. The ordinary first-rank sum when
+both mixed projections are nonzero is at most twelve; its remaining
+rank-one frontier consists of seven-by-five pairs in either order.
+These are necessary local restrictions, not a smaller exponent.
 
-## 1. Reduce the first spaces to a mixed hyperplane
+## 1. Every compatible first space lies in its maximal frame
 
-Adopt the complete partner classification and maximal seven-frame
-description. On the chart v3 nonzero, normalize the partner lines as
+Adopt the complete partner classification. On the chart v3 nonzero,
+normalize the two mixed lines as
 
     v=(a*b,b,a,1),       u=(a*b,-a,-b,1).
 
-Write W_B,W_C for the maximal compatible seven-dimensional quotient
-spaces, in the preceding basis with six boundary vectors followed by
-one mixed vector. The B first space is all of W_B. The C first space
-contains a six-dimensional subspace V with nonzero mixed projection.
-It lies in W_C: the full B boundary annihilator and its mixed row force
-any C mixed graph term into the full six-dimensional C annihilator.
-Thus V is a hyperplane of W_C and is not its pure-boundary hyperplane.
-This includes all possible graph lifts of V.
+Their maximal compatible quotient frames W_B,W_C have dimension seven.
+In the maintained bases each consists of six boundary vectors followed
+by one mixed vector. The pure mixed product H(m_B(u),m_C(v)) is zero.
+For arbitrary graph lifts, compatibility therefore gives
 
-Imposing the B off-diagonal equations on the canonical 228-dimensional
-normal space leaves a uniform 88-dimensional space. On it, let
+    H(beta,m_C(v))+H(m_B(u),gamma)=0.
 
-    Psi_D: W_C -> Q_C,       dim Q_C=200,
+The two summands have disjoint source supports, so each vanishes. Thus
+beta and gamma belong to the respective full six-dimensional boundary
+annihilators. The pure-boundary parts of the first spaces belong to those
+annihilators as well. Consequently every compatible first space with these
+partner lines, even a nonmaximal one, is contained in W_B or W_C.
 
-be the remaining correction obstruction, arranged as a 200-by-7 matrix.
-The actual C equations say Psi_D(V)=0, hence rank Psi_D is at most one.
-We will prove the stronger structural statement
+If an effective first dimension is at least six, choose a six-dimensional
+subspace V of it with nonzero mixed projection. It is a hyperplane of the
+corresponding maximal frame and is not its pure-boundary hyperplane.
+All boundary graphs of V are included by this reduction.
+
+## 2. An unconditioned obstruction lemma on all 228 normal parameters
+
+Use the canonical first normal equations, whose solution space has
+dimension 228. For one leg, let
+
+    Psi_D: W_B -> Q_B,       dim Q_B=200,
+
+be its off-diagonal correction obstruction. It is a 200-by-7 matrix,
+linear in the normal parameter D. No equations on the opposite leg are
+imposed in this section. The actual first-space equations say
+Psi_D(V)=0, so rank Psi_D is at most one.
+
+We prove, uniformly over all partner lines,
 
     rank Psi_D<=1  implies  Psi_D vanishes on the six boundary vectors.
                                                                (1)
 
-The assertion is not that every nonzero obstruction has rank at least
-two. Nonzero rank-one obstructions supported on the seventh column exist
-and are explicitly retained as controls.
+The entries of Psi_D are linear forms in the 228 normal parameters,
+with coefficients in Q[a,b]. The report records two-by-two triangular
+submatrices whose diagonal entries are nonzero rational multiples of
+one linear form L. Each determinant is c*L^2, with c a nonzero constant.
+Under rank at most one, L must vanish at every complex a,b. In particular,
+no factor depending on a or b is divided away.
 
-## 2. Uniform polynomial kernels and repeated two-by-two minors
+The complete chart has these three rounds:
 
-The 1400-by-228 B constraint matrix has rank 140 at every a,b. Its fixed
-rank-140 minor at a=b=0 becomes identity plus a strictly triangular
-polynomial matrix after a constant invertible row transformation. The
-normalized off-diagonal part has 158 nonzero entries. Polynomial backward
-substitution gives a complete 228-by-88 kernel with a fixed identity
-minor. The verifier checks both the triangular determinant identity and
-the entire matrix-kernel product over Q[a,b].
-
-Restrict the C obstruction to this kernel. Its entries are linear forms
-in the 88 normal parameters, with coefficients in Q[a,b]. The certificate
-lists two-by-two triangular submatrices whose two diagonal entries are
-nonzero rational multiples of the same linear form L. Their determinants
-are c*L^2 with constant c nonzero. If rank Psi_D<=1, each L must vanish
-over C, at every a,b. No parameter-dependent factor is divided away.
-
-There are three rounds on this chart:
-
-| Normal parameters before | Independent forced forms | Parameters after | Recorded minors |
+| Parameters before | Independent forced forms | Parameters after | Recorded minors |
 | --- | --- | --- | --- |
-| 88 | 56 | 32 | 112 |
-| 32 | 14 | 18 | 28 |
-| 18 | 2 | 16 | 4 |
+| 228 | 96 | 132 | 140 |
+| 132 | 24 | 108 | 46 |
+| 108 | 2 | 106 | 4 |
 
-After every round, a full polynomial kernel is verified using a fixed
-nonzero minor and an identity free-coordinate block. Thus the substitution
-retains every complex solution, including special values of a,b. After
-the last round, all six boundary columns of Psi_D vanish identically;
-only column seven can be nonzero. This proves (1) on the full chart.
+After each round, the verifier constructs a complete polynomial kernel.
+A fixed nonzero minor becomes identity plus a strictly triangular
+polynomial matrix after multiplication by a constant invertible matrix.
+Backward substitution gives the kernel, with a fixed identity block in
+its free coordinates; the full matrix-kernel product is zero identically.
+These checks establish both the constant rank and the completeness of
+the substitution at every a,b. No complex solution is lost at a special
+parameter value.
 
-The exceptional endpoint v=e1 is checked separately. Its B normal space
-also has dimension 88; two rounds force ranks 56 and 16, leaving sixteen
-parameters and only the seventh obstruction column. Source reversal covers
-the v0 nonzero chart and the remaining endpoint e2. As in the preceding
-package, these cases cover every nonzero complex rank-one mixed line.
-The matrices and the polynomial kernel/minor witnesses are exported in
-the complete report and recomputed from the canonical correction maps.
+After the last round, all six boundary columns of Psi_D vanish
+identically. Only its seventh, mixed column can be nonzero. This proves
+(1) on the entire chart.
 
-## 3. The mixed component kills the final column
+For the endpoint v=e1, three exact rounds force ranks 98,22,2 and again
+leave 106 parameters supported only in column seven. Source reversal
+covers the v0 nonzero chart and the remaining endpoint e2. The preceding
+frame package verifies that these charts exhaust all nonzero rank-one
+mixed lines. Exchanging output legs and transposing short indices is
+also an exact source automorphism, so the same assertion applies to C.
 
-Since V has a nonzero mixed projection, it contains some vector z whose
-seventh coordinate z7 is nonzero. After (1),
+Nonzero rank-one matrices supported on column seven actually occur.
+Thus (1) is a support statement, not a minimum-nonzero-rank-two assertion.
+The report retains exact countercontrols to that stronger, false assertion.
+
+## 3. The mixed component kills the remaining column
+
+The hyperplane V contains a vector z whose seventh coordinate z7 is
+nonzero. After (1),
 
     0=Psi_D(z)=z7 * (seventh column of Psi_D).
 
-Therefore the last column vanishes too. All seven C equations hold,
-so the preceding uniform seven-frame theorem gives exactly the four
-common-plane directions. This argument handles every mixed hyperplane;
-it does not replace arbitrary hyperplanes by coordinate deletions.
+Hence the last column is zero as well. All seven equations on this leg
+hold, independently of the first space or correction equations on the
+other leg. The complete one-leg seven-frame system has a uniform
+88-dimensional kernel, also certified in the report by a fixed rank-140
+minor and a complete polynomial kernel.
 
-The same conclusion holds with the legs exchanged, by the exact source
-automorphism exchanging output legs and transposing the short indices.
+Apply the same argument to the other leg. Both complete seven-frame
+systems now hold. The adopted uniform seven-frame theorem says their
+common kernel consists exactly of the four common-plane directions.
+This handles arbitrary six-by-six first spaces, as well as six-by-seven,
+seven-by-six and seven-by-seven, without replacing them by coordinate
+hyperplanes.
 
-## 4. All orders and the new first-rank bound
+## 4. All orders and the first-rank bound
 
-Use the delayed compatibility and moving-boundary induction already
-spelled out in the seven-frame proof. At each first normal error order N,
-the actual B and C first frames give the shifted off-diagonal equations
-at N+s_B and N+s_C. These precede the first possible double-new-output
-error order N+s_B+s_C. The rank-eight old cross forces the necessary
-source corrections in W0. Sections 1-3 apply to the same next normal
-error and reduce it to common-plane motion. Absorb that motion into the
-formal polynomial plane and continue.
+Use the delayed compatibility and moving-boundary induction spelled out
+in the seven-frame proof. At each first normal error order N, the actual
+B and C first spaces give the shifted off-diagonal equations at N+s_B
+and N+s_C. These precede the first possible double-new-output error
+order N+s_B+s_C. The rank-eight old cross forces the required source
+corrections into W0.
 
-Both regular output maps remain in rank-56 moving boundary spaces over
-C((t)). The target is concise on 110 coordinates of each output leg,
-which neither a Laurent first map nor a regular limit can supply from
-these ranks. This is the required contradiction. The proof does not
-need a further terminal third-block estimate.
+Sections 1-3 apply to this normal error and force common-plane motion.
+Absorb that motion into the formal polynomial plane and iterate. Although
+the actual first spaces may have dimension six, the implication to their
+virtual seventh equations is used only to identify the normal kernel;
+no extra output row or unproved tensor correction is inserted.
 
-For ordinary derivatives with both mixed projections nonzero, the complete
-classification gives either invertible lines of dimensions 1,1 or rank-one
-lines with individual effective dimensions at most seven. A sum above
-twelve in the latter case would require dimensions 7,6 or 7,7 in some
-order. Both are excluded here. Hence the sum is at most twelve.
+Both output maps remain in rank-56 moving boundary spaces over C((t)).
+The target is concise on 110 coordinates of each output leg. Neither a
+Laurent first map nor a regular limit can raise these output flattening
+ranks to 110. This contradiction proves the all-order exclusion.
 
-## 5. Controls and limits
+For ordinary derivatives with both mixed projections nonzero, the full
+classification gives invertible lines of dimensions 1,1 or rank-one
+partners with each effective dimension at most seven. In the rank-one
+case at least one dimension must now be at most five. The total is at
+most twelve, with only 7,5 or 5,7 remaining at that threshold. The separate
+five-frame proof excludes the invertible-line stratum entirely.
+
+## 5. Controls, attribution and remaining scope
 
 The pure-boundary hyperplane has zero mixed projection, so Section 3
-does not apply. Its normal space has dimension sixteen; nonzero rank-one
-obstructions supported on the mixed column show why that hypothesis is
-needed. The report retains an exact such matrix for each chart case.
+does not apply. On one leg it leaves 106 normal parameters, with eighteen
+independent possible mixed-column coefficients and an 88-dimensional
+complete-seven-frame kernel. Exact nonzero rank-one matrices in the report
+show why the mixed hypothesis is needed.
 
-A mixed five-dimensional C space at a=b=0, obtained by retaining columns
-1,3,4,5,6 of the maximal frame (zero-based), has a twelve-dimensional
-normal space. It still has a mixed component. Thus the present argument
-does not extend to all five-dimensional mixed spaces merely by repeating
-its first-equation conclusion. This control is not a higher lift or a
-matrix target. Seven-by-five and six-by-six first spaces remain open.
+The report additionally checks the more restricted case in which the
+opposite seven-frame equations already hold. That leaves 88 parameters;
+its rank-one minor rounds reduce them to sixteen, again supported only
+on the mixed column. These compatible additional controls are not needed
+to assume the opposite equations in Section 2.
 
-The partner/frame classification, canonical correction maps, triangular
-minor-search method, and moving-plane induction retain their earlier
-attribution. The new contribution is the uniform conditioned obstruction
-structure (1) and its arbitrary mixed-hyperplane consequence. These are
-generating-session exact checks and written research, with no independent
-review, formalization, or improved exponent.
+A mixed five-dimensional C space at a=b=0, retaining maximal-frame
+columns 1,3,4,5,6 (zero-based), has twelve normal directions even when the
+B first space is the full seven-frame. Thus the first-equation conclusion
+does not extend to all mixed five-spaces. This finite control is not a
+higher lift or target. General seven-by-five pairs, smaller first spaces,
+one-sided mixed projections, and other flags remain open.
+
+Canonical correction maps, the complete partner/frame description,
+triangular-minor discovery method and moving-plane induction retain their
+earlier source credits. The new contribution is the unconditioned support
+lemma (1), its complete polynomial witnesses and its arbitrary mixed-
+hyperplane consequence. These are generating-session checks and written
+research, with no independent review, formalization or exponent gain.

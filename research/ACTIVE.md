@@ -29,15 +29,17 @@ The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
 The mixed-jet worker continues in
-`ai/2026-10-21-rankone-mixed-hyperplanes/QUESTION.md`. Arbitrary mixed
-hyperplanes now force the full opposite seven-frame equations, excluding
-all rank-one seven-by-six first pairs by a written all-order proof. The
-ordinary first-rank sum with both mixed projections nonzero is at most
-twelve. Investigate the retained seven-by-five control with twelve normal
-directions, and six-by-six pairs, for actual later output growth. The
-concurrent exact boundary-shear family is credited as a non-plane
-integrability control, with output ranks fourteen and no target. No
-exponent improvement is claimed.
+`ai/2026-10-21-rankone-mixed-hyperplanes/QUESTION.md`. Each arbitrary mixed
+hyperplane now forces its leg's complete seven-frame normal equations
+without any opposite-leg assumption. This excludes all rank-one pairs
+with both first dimensions at least six by a written all-order proof.
+The ordinary both-mixed first-rank sum is at most twelve; investigate
+arbitrary seven-by-five spaces and smaller pairs for actual output growth.
+Coordinate seven-by-five survivors examined so far have third residues
+confined to a rank-one output entry, below the target gap; this is a
+scratch-control finding, not an all-subspace exclusion. The concurrent
+boundary-shear family remains credited as a non-plane integrability control
+with output ranks fourteen and no matrix target. No exponent gain is claimed.
 
 
 

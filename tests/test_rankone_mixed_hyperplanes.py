@@ -17,10 +17,19 @@ class RankOneMixedHyperplaneTests(unittest.TestCase):
         self.assertEqual(verify.report(), json.loads(saved.read_text()))
 
     def test_nonzero_rank_one_obstructions_are_retained(self):
-        for case in verify.data().values():
+        for key in ('chart', 'endpoint'):
+            case = verify.data()[key]
             self.assertEqual(case['report']['remaining_obstruction_columns'], [6])
             self.assertEqual(case['report']['boundary_only_normal_dimension'], 16)
             self.assertTrue(case['report']['rank_one_boundary_control']['matrix']['entries'])
+
+    def test_unconditioned_boundary_hyperplanes_retain_more_freedom(self):
+        for key in ('unconditioned_chart', 'unconditioned_endpoint'):
+            record = verify.data()[key]['report']
+            self.assertEqual(record['remaining_obstruction_columns'], [6])
+            self.assertEqual(record['boundary_only_normal_dimension'], 106)
+            self.assertEqual(record['complete_seven_frame_normal_dimension'], 88)
+            self.assertTrue(record['rank_one_boundary_control']['matrix']['entries'])
 
     def test_mixed_five_space_has_extra_normal_freedom(self):
         self.assertEqual(verify.report()['seven_by_five_control']['normal_dimension'], 12)

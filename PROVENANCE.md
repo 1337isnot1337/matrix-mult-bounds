@@ -4,7 +4,7 @@ The mixed-hyperplane continuation in
 `research/ai/2026-10-21-rankone-mixed-hyperplanes/` was generated in this
 owner-directed Codex session. It adopts the uniform maximal first frames,
 canonical correction maps, repeated-minor discovery method and shifted
-moving-plane argument. The conditioned polynomial witnesses and arbitrary
+moving-plane argument. The unconditioned and conditioned polynomial witnesses and arbitrary
 mixed-hyperplane consequence are local work. The concurrent boundary-shear
 construction is credited as context; its discovery is not reassigned here.
 No independent review, formalization or improved exponent is claimed.

@@ -141,10 +141,49 @@ def conditioned_case(left, right):
             'round_matrices': matrices}
 
 
+def unconditioned_case(left):
+    """The same support conclusion without imposing any opposite-leg equations."""
+    system = frames.constraints(left, sp.zeros(16, 0))
+    matrix = system
+    total = sp.SparseMatrix.eye(228)
+    rounds, matrices = [], []
+    while matrix.todok():
+        result = force_round(matrix)
+        if result is None:
+            break
+        kernel, record = result
+        matrices.append(matrix)
+        rounds.append(record)
+        total = total*kernel
+        matrix = (matrix*kernel).applyfunc(sp.expand)
+    support = sorted({i//200 for i, j in matrix.todok()})
+    if total.cols != 106 or support != [6]:
+        raise ArithmeticError('The unconditioned rank-one support conclusion failed')
+    base = matrix.subs({A: 0, B: 0})
+    if third.matrix_rank(base) != 18:
+        raise ArithmeticError('The unconditioned boundary-only control changed')
+    parameter = next(j for j in range(base.cols) if base[:, j].todok())
+    control = sp.Matrix(200, 7, lambda i, j: base[200*j+i, parameter])
+    if third.matrix_rank(control) != 1:
+        raise ArithmeticError('The unconditioned nonzero rank-one control failed')
+    if third.matrix_rank(system.subs({A: 0, B: 0})) != 140:
+        raise ArithmeticError('The complete one-leg system rank changed')
+    return {'report': {'initial_normal_dimension': 228, 'rounds': rounds,
+                       'remaining_parameter_dimension': 106,
+                       'remaining_obstruction_columns': support,
+                       'remaining_obstruction': encode(matrix),
+                       'rank_one_boundary_control': {'parameter': parameter, 'matrix': encode(control)},
+                       'boundary_only_normal_dimension': 106,
+                       'complete_seven_frame_normal_dimension': 88},
+            'round_matrices': matrices}
+
+
 @lru_cache(None)
 def data():
     return {'chart': conditioned_case(*frames.chart_frames()),
-            'endpoint': conditioned_case(*frames.endpoint_frames())}
+            'endpoint': conditioned_case(*frames.endpoint_frames()),
+            'unconditioned_chart': unconditioned_case(frames.chart_frames()[0]),
+            'unconditioned_endpoint': unconditioned_case(frames.endpoint_frames()[0])}
 
 
 @lru_cache(None)
@@ -156,11 +195,13 @@ def report():
         raise ArithmeticError('The smaller mixed five-space control changed')
     return {'field': 'Polynomial identities over Q[a,b], valid over C',
             'chart': d['chart']['report'], 'endpoint': d['endpoint']['report'],
+            'unconditioned_chart': d['unconditioned_chart']['report'],
+            'unconditioned_endpoint': d['unconditioned_endpoint']['report'],
             'matrix_shape': [200, 7], 'rank_assumption_for_minor_implication': 1,
-            'conclusion': 'Under the full opposite seven-frame, rank at most one forces the obstruction to vanish on all six boundary directions. A mixed hyperplane then forces its remaining column to vanish too.',
+            'conclusion': 'On the entire228-dimensional normal space, rank at most one on either maximal frame forces its obstruction to vanish on all six boundary directions. A mixed hyperplane forces the remaining column to vanish too, recovering that leg\'s complete seven-frame equations without opposite-leg assumptions.',
             'seven_by_five_control': {'parameters': [0, 0], 'C_columns_kept': [1, 3, 4, 5, 6],
                                       'normal_dimension': 12, 'target_or_higher_lift_claimed': False},
-            'scope': 'All mixed hyperplanes in the maximal rank-one frame, using the preceding chart/reversal coverage. Boundary-only hyperplanes and five-dimensional mixed spaces are outside the exclusion.'}
+            'scope': 'All mixed hyperplanes on either maximal rank-one frame, using the preceding chart/reversal and leg-exchange coverage. Both effective first dimensions at least six force the common-plane kernel. Boundary-only hyperplanes and five-dimensional mixed spaces are outside this implication.'}
 
 
 if __name__ == '__main__':
