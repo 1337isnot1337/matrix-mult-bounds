@@ -995,7 +995,7 @@
       "id": "EXP-EXTERNAL-GRID-SEED-013",
       "title": "Exact replay and termwise-grid exclusion for a fixed external rank-76 seed",
       "origin": "External factorization with an AI-derived finite screen in the owner-directed generating session",
-      "status": "finite-experiment-with-written-implication",
+      "status": "finite-experiment",
       "evidence": "research/ai/2026-10-21-external-grid-seed/README.md",
       "statement": "All 10000 coefficients of the pinned integer AlphaTensor M(4,5,5) rank-76 decomposition replay exactly. Exhaustive F_101 enumeration of all 1282975 four-subsets of its first-leg vectors bounds each complex rank-at-most-four group by eight vectors. In the specified target-leg alignment, the nine groups of a Q(6,4) evaluation grid hold at most 72 vectors, excluding termwise reuse of this fixed decomposition. Every nonempty unchanged subset also has positive target-stabilizer trace invariant and cannot degenerate to zero under that stabilizer.",
       "dependencies": [
@@ -1023,6 +1023,74 @@
         "An exact nonproduct-middle control checking all 4096 coefficients and a determinant-minus-one projected rank minor"
       ],
       "limitations": "Old degree-seven convolution columns are fixed. U,V in P5, other leading maps and arbitrary degenerations remain open. Integer finite controls and a same-session agent audit are not independent review. No smaller exponent follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-RANK-FOUR-078",
+      "title": "Exact minimum rank four for coupled jet obstruction matrices",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-moving-boundary-flags/rank_deficient.md",
+      "statement": "Every nonzero one-leg normal obstruction matrix has rank at least four over C. Three exact rounds of repeated triangular minors force 82,42,16 independent linear conditions and reduce every hypothetical rank-at-most-three matrix to zero. The moving-plane induction therefore excludes M(10,10,11) whenever both first-extension quotient spans have dimension at least thirteen, for arbitrary subspaces and all higher jets.",
+      "dependencies": [
+        "AI-QUANTUM-MAXIMAL-JET-077",
+        "Explicit 200-by-16 linear obstruction matrices",
+        "Exact four-by-four triangular minor identities and full rational nullspaces"
+      ],
+      "limitations": "A possible construction with the same normalized leading flags must have quotient rank at most twelve on at least one side. Such lower-rank or delayed jets, leading-rank loss and other flags remain open. The sharp auxiliary rank-four control is not a target construction. No independent review, formalization or exponent improvement is asserted. The target-rank consequence is subsumed by the stronger concurrent W2=W0 and rank-sum constraints at d8de82f3ea68df6681bcc1defdac79f65346b7c8, which are explicitly credited.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "COND-PAIRED-SUPERLINEAR-CORRECTION-015",
+      "title": "Superlinear auxiliary-rank budgets from endpoint localization",
+      "status": "conditional-implication",
+      "evidence": "research/ai/2026-10-21-correction-budget/superlinear_budget.md",
+      "statement": "For fixed b>=4 and 1<=alpha<3/2, an unbounded family of complex degenerations Q(n,b) plus R_n to M(l_n,b,r_n), with both outer ratios tending to one and auxiliary border rank O(n^alpha), would imply omega<=max(B_b,9/4-(3/2-alpha)^2), where B_b=3/d_b and d_b*(6b)^d_b=12*b^(3/2). At b=4, alpha=4/3 or 137/100 retains the strict conditional bound below 30000/13433. The weaker little-o(n^(3/2)) premise would give a qualitative strict improvement below 9/4.",
+      "dependencies": [
+        "Existing paired linear-correction criterion and cyclic character identities",
+        "Existing one-coordinate endpoint localization and OpenAI 9/4 theorem",
+        "Alman--Li arXiv:2605.21738v1 Proposition 4.2 for compact spectrum attainment, crediting Strassen"
+      ],
+      "limitations": "No unbounded near-full maps or auxiliary tensors satisfying the premise are constructed. Exact rational and finite-grid checks support the written conditional argument; they are not independent review or an exponent improvement.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-PAIRED-FULL-FLAGS-016",
+      "title": "Six complete-flag searches with exact gauge controls",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/q64_full_flag_history.md",
+      "statement": "Six Q(6,4) to M(5,4,5) searches with zero auxiliary rank retain all complex maps and actual stops. A complete target-stabilizer grading has 5050 required coefficient positions. Exact physical shear controls and separately replayed full coefficient arrays verify the implemented convention. Numerical moment and minimum-norm gauge diagnostics leave nonzero errors and supply no exact Laurent map.",
+      "dependencies": [
+        "Explicit native paired-source and target coefficient conventions",
+        "Dumitriu et al. arXiv:2610.13905v1 Section 2.3 for the stabilizer-nullcone viewpoint",
+        "Exact integer positive and opposite-shear controls; separately implemented standard-library coefficient contraction"
+      ],
+      "limitations": "Actual iteration and norm-guard stops are retained. Optional NumPy/SciPy derivatives are checked numerically. Small residuals, vanishing few traces, conditioning, and gauge normalization do not imply nilpotence or an exact tensor map. No nonexistence proof or independent review.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-SMALL-LEADING-JET-017",
+      "title": "Zero aligned first edges for the fixed M2-leading scalar-extended chart",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/small_leading_jet.md",
+      "statement": "The specified integer M(2,4,2) lead embedded in Q(6,4) plus one duplicate ghost scalar has pre-A rank 16 and a 21-dimensional kernel. In the stated monomial extension chart, each complete first-edge alignment system has 148 unknowns, rank 52 and nullity 96, and the aligned image is zero. The required 12-dimensional first cross span cannot occur.",
+      "dependencies": [
+        "THM-PAIRED-OUTER-INJECTION-006",
+        "Saturated-source dimension equality 16+21=37 and target cross-slice minimum rank four",
+        "Complete rational nullspaces and all 256 exact leading coefficients"
+      ],
+      "limitations": "Requires the fixed sparse leading maps, specified scalar placement and new-long-row/edge-A/corner-A orders 1,-1,-2. Different leading maps, different scalar placement and arbitrary higher valuation patterns remain outside the result. Same-session checks do not constitute independent review.",
+      "origin": "AI-derived research in the owner-directed generating session",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false

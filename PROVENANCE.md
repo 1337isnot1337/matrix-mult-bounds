@@ -1,5 +1,23 @@
 # Attribution and provenance
 
+## Larger correction budgets and leading-flag experiments
+
+The superlinear correction-budget note combines the previously attributed
+endpoint localization with the cyclic paired-source product inequality.
+It uses OpenAI's tensor-character framework, the earlier replication and
+offset inputs, and compact spectrum attainment as stated in Alman--Li,
+arXiv:2605.21738v1, Proposition 4.2. The new argument is conditional on
+missing near-full tensor constructions. A same-session agent audit and
+exact finite controls do not provide independent mathematical review.
+
+The complete-flag numerical package records its six actual stopping
+points, all saved maps, and the grading, parabolic-gauge and derivative
+controls. Its stabilizer-error viewpoint credits Dumitriu et al.,
+arXiv:2610.13905v1, Section 2.3. The fixed smaller leading-seed obstruction
+uses the previously recovered integer injection and complete rational
+linear systems. All these files were developed in this owner-directed
+session; none supplies an exact full target or a smaller exponent.
+
 ## Fixed external decomposition seed
 
 The rank-76 M(4,5,5) algorithm in the external-grid-seed package belongs

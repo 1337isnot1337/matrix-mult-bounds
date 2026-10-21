@@ -24,6 +24,15 @@ border rank at most `Cn` for a fixed C, would imply
 the strict rational comparison has an integer certificate. **These
 construction premises remain unproved; this is not an achieved exponent.**
 
+The [larger correction budget](research/ai/2026-10-21-correction-budget/superlinear_budget.md)
+allows auxiliary border rank `O(n^alpha)` for any fixed `1<=alpha<3/2`.
+Its conditional bound is `max(B_b,9/4-(3/2-alpha)^2)`, with B_b defined
+by the existing source-profile equation. At width four, `alpha=4/3` or
+`137/100` still gives `omega<30000/13433<2.2334`, if the unbounded
+near-full construction exists. Even `o(n^(3/2))` would give a qualitative
+strict improvement. This relaxes the missing construction premise; it
+does not supply the required tensor maps.
+
 The [ordinary narrow-source proof](research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md)
 excludes `Q(n,2) -> M(n,2,n)` for every n at least three. It uses a
 classified two-dimensional kernel and the cited constant-rank matrix-space
@@ -93,6 +102,27 @@ that fixed decomposition to the Q(6,4) evaluation grid in one specified
 leg alignment: nine rank-four groups can hold at most 72 of its 76 vectors.
 Different decompositions and general maps remain open. This is a failed
 reuse attempt, not a new multiplication algorithm or exponent.
+
+The [complete-flag experiments](research/ai/2026-10-20-paired-direct-sums/q64_full_flag_history.md)
+retain six further searches and every coefficient of their best maps.
+None satisfies the exact Laurent equations. The complete grading has
+5,050 required positions; exact shear controls and numerical derivative
+checks verify the implemented gauge conventions. Small residuals and
+three small trace moments still do not establish nilpotent error.
+
+A [smaller leading-seed calculation](research/ai/2026-10-20-paired-construction/small_leading_jet.md)
+excludes the stated first-jet extension of one fixed M(2,4,2) seed inside
+Q(6,4) plus one scalar. Both complete rational first-edge systems have
+rank 52 and zero aligned image. Other leading maps and higher valuation
+patterns remain open.
+
+Checkpoint `1e0e468`, integrating main `fc8207e`, completed 476 tests with
+475 passing and one claim-ledger failure: the external-grid experiment
+used an unsupported status label. The label is corrected to the existing
+`finite-experiment` category in this continuation. Its five archive
+replays passed. The [failed-checkpoint receipt](results/paired-checkpoints-2026-10-21/checkpoint9-validation.json)
+retains the completion record and hosted failures; it does not describe
+the corrected tree as fully verified.
 
 ## Audit of a separately claimed exponent improvement
 
@@ -1057,6 +1087,18 @@ maximal first extensions cannot reach M(10,10,11) at any order. At least
 one first extension must be rank-deficient for a possible construction
 with the same leading maps. The written proof is unreviewed; delayed
 growth and other flags remain open, and the exponent is unchanged.
+
+[AI-QUANTUM-RANK-FOUR-078](research/ai/2026-10-21-moving-boundary-flags/rank_deficient.md)
+strengthens the necessary first-extension threshold: at least one quotient
+rank must be at most twelve. Every nonzero one-leg obstruction has rank
+at least four, proved by three rounds of exact triangular minors and
+linear restrictions. Thus arbitrary quotient spans of dimension at least
+thirteen on both sides are excluded at every order. The lower-rank and
+delayed cases remain open; this is a written unreviewed result, with no
+exponent improvement. The concurrently inspected second-jet package at
+d8de82f already gives the stronger conditions W2=W0 and rank sum at most
+24 (at most20 with mixed directions); the rank-four certificate is retained
+as auxiliary structure, with no claim to improve that target frontier.
 
 ## Regular root flags and Laurent first-leg maps
 

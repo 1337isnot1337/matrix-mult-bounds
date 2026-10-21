@@ -28,8 +28,11 @@ The branch supplies a conditional linear-correction criterion, complete
 ordinary narrow-source obstructions, and explicitly limited symmetry and
 jet exclusions. Full narrow ordinary fits and the excluded regular-long-leg
 Laurent class are closed tasks. The required width-four unbounded family
-remains open. The preceding pushed checkpoint `9d5a222` passes 445 local
-tests and all five archive replays. Main `63eecee` is being integrated.
+remains open. Checkpoint `cfa12ba` passes 467 local tests and five archive
+replays. The next checkpoint `1e0e468` completed 476 tests with one
+unsupported claim-status failure and five passing archive replays. The
+status label is repaired in the current continuation; its enlarged tree,
+including main `11aca0f`, needs its own full validation.
 
 The boundary-only extension of the integer seed is now excluded at every
 Laurent order: its leading first-leg kernel has dimension at most one,
@@ -40,6 +43,14 @@ near-full quantum families are also excluded by a balanced-support lemma.
 The quantum lane now examines structured corrections and different maps.
 The complete Q54 numerical discovery history is retained separately from
 the exact integer witness; small residuals alone remain insufficient.
+
+The correction allowance now extends to `O(n^alpha)` for any fixed
+`alpha<3/2`; `alpha=4/3` retains the conditional bound below 2.2334.
+Constructive work examines the bulk of the quantum target with explicitly
+costed missing diagonals and different smaller leading points with more
+kernel slack. The fixed M2-leading monomial first-jet chart is excluded.
+Six complete-flag fits are preserved with exact grading/gauge controls;
+their low residuals do not pass exact Laurent acceptance.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
