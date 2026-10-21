@@ -1,5 +1,17 @@
 # Research status
 
+## Arbitrary mixed hyperplanes
+
+The [mixed-hyperplane proof](research/ai/2026-10-21-rankone-mixed-hyperplanes/proof.md)
+excludes every rank-one mixed first pair of dimensions seven and six in
+either order, including arbitrary complex subspaces and boundary graphs.
+The normal obstruction is confined to its mixed column by exact polynomial
+minor certificates, and any mixed hyperplane kills that column. Claim
+`AI-RANKONE-MIXED-HYPERPLANES-086` is written and unreviewed. The necessary
+ordinary first-rank sum with both mixed projections nonzero is at most
+twelve. Seven-by-five and six-by-six spaces remain open; the exponent is 9/4.
+
+
 ## Uniform maximal rank-one mixed frames
 
 The [seven-frame proof](research/ai/2026-10-21-rankone-seven-frames/proof.md)
