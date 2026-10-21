@@ -1,5 +1,18 @@
 # Research status
 
+## Invertible mixed lines: all-order output-growth obstruction
+
+The new [five-frame proof](research/ai/2026-10-21-invertible-five-frame/proof.md)
+excludes every compatible invertible mixed-line first pair at the canonical
+flags, including arbitrary boundary graphs and delayed unequal orders.
+A rank-ten cross and exact five-dimensional annihilators force both output
+maps to have generic rank at most five. Claim
+`AI-INVERTIBLE-FIVE-FRAME-084` is written and unreviewed. Its separate cubic
+control passes complete source replay through degree three; it supplies
+no matrix target. The exponent remains 9/4. Rank-one mixed partners and
+other first spaces remain construction questions.
+
+
 Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
