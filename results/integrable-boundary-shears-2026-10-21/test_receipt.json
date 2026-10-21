@@ -1,0 +1,32 @@
+{
+  "base_main": "93b22235135c5ff54b18b9b51424b4fd53e942b6",
+  "acceptance_environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "focused_tests": {
+    "count": 4,
+    "passed": true,
+    "seconds": 8.14,
+    "log": "results/integrable-boundary-shears-2026-10-21/tests-focused.txt"
+  },
+  "combined_unit_tests": {
+    "count": 539,
+    "skipped": 3,
+    "passed": true,
+    "seconds": 455.914,
+    "log": "results/integrable-boundary-shears-2026-10-21/tests-main-93b2223.txt"
+  },
+  "archive_replay": {
+    "count": 5,
+    "passed": true,
+    "log": "results/integrable-boundary-shears-2026-10-21/archive-replay.txt"
+  },
+  "claim_ids": [
+    "AI-BOUNDARY-SHEAR-FIBER-001",
+    "AI-BOUNDARY-SHEAR-ANNIHILATORS-002",
+    "AI-INTEGRABLE-TEN-TEN-JETS-003"
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}
