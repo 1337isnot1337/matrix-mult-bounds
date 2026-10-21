@@ -13,6 +13,14 @@ maps and different block weights remain open; unchanged approach-rate pilots
 are no longer a construction question. These are unreviewed local proofs,
 not a bound below 9/4.
 
+The quantum worker continues in
+`ai/2026-10-20-higher-jet-quantum-flags/QUESTION.md`, after PR41 merged at
+`f67467d`. Both local and remote PR41 branches were removed after exact
+merged/tested tree equality. The higher-jet follow-up closes regular moving
+surjections that stay full rank at the limit and a distinct 256-pair
+full-output block family. Singular leading output maps, multiple leading
+blocks and larger block-weight gaps remain open construction questions.
+
 ## Constructive-spectrum continuation
 
 PR #28 is merged at `8722b361fde7713949b8f0e72fab681066ce10bd`.
