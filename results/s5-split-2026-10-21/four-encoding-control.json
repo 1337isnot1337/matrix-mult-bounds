@@ -1,0 +1,31 @@
+{
+  "signed_configurations": 64,
+  "accepted": 24,
+  "rejected": 40,
+  "weighted_control": {
+    "shape": [
+      3,
+      3,
+      3
+    ],
+    "intended_terms": 27,
+    "extra_relations": 1,
+    "minimum_extra_weight": 1,
+    "verified": true,
+    "meaning": "Exact group products, three injective pair maps, zero intended weights and strictly positive extra weights. No exponent claim is part of this verifier."
+  },
+  "encoding": {
+    "variables": 7626,
+    "clauses": 373714,
+    "full_inverse_classes": 288,
+    "central_colors": 4,
+    "commuting_trade_clauses": 4816,
+    "symmetry_clauses": 17136,
+    "canonicalization": {
+      "common_subgroup_conjugations": 24,
+      "first_leg_order": "normalization-subgroup points first, presence preferred",
+      "equal_last_legs_ordered": true
+    }
+  },
+  "exponent_improvement": false
+}

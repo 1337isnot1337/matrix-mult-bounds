@@ -1,0 +1,56 @@
+{
+  "baseline_commit": "5fc80e9",
+  "full_regression": {
+    "passed": 608,
+    "skipped": 3,
+    "seconds": 905.037,
+    "new_four_color_tests_loaded": false
+  },
+  "archive_replay": {
+    "passed": 5
+  },
+  "four_color_focused": {
+    "passed": 7,
+    "seconds": 6.187
+  },
+  "four_native_search": {
+    "seconds": 601.1915,
+    "pair_models": 0
+  },
+  "four_local_search": {
+    "steps": 15108921,
+    "seconds": 600.0001018930052,
+    "projected_events": 2,
+    "untraced_inner_negatives": 2,
+    "pair_models": 0
+  },
+  "four_search_replays": "both passed with maintained root dependencies",
+  "scope": "Local verification only; no independent review, formalization or exponent improvement.",
+  "integrated_regression": {
+    "commit": "f8ba471",
+    "tests_run": 771,
+    "skipped": 3,
+    "all_four_groups_passed": true,
+    "group_seconds": [
+      521.577,
+      714.104,
+      321.071,
+      479.996
+    ],
+    "scope": "Complete suite partitioned into four groups; seven S5 tests were loaded."
+  },
+  "latest_s5_focused": {
+    "tests_run": 9,
+    "skipped": 0,
+    "seconds": 13.277,
+    "scope": "Includes both complete colored Farkas streams and actual-group commuting templates after full-suite load."
+  },
+  "integrated_archive_replay": {
+    "passed": 5
+  },
+  "colored_farkas_replays": {
+    "elementary_center": 1218,
+    "cyclic_center": 1427,
+    "maintained_dependencies_only": true
+  }
+}
