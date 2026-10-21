@@ -1,5 +1,18 @@
 # Research status
 
+## Hankel pencils and the ordinary frontier
+
+The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)
+bounds Hankel Segre images when1<=r<min(a,b) and5r<2(a+b), using the classical
+index sum theorem and a kernel-bundle calculation. It extends the earlier
+fixed-scheme and first-boundary ranges; all claims remain written and
+unreviewed. The [exact application](research/ai/2026-10-21-hankel-pencil-degree/application.md)
+adds453 exclusions to the5139-format balanced rectangular scan through a12.
+Every improving ordinary single rectangular target through a9 is excluded;
+494 necessary-test survivors remain, first at a10. All improving ordinary
+A8 square direct sums are also excluded. A9's square candidate(32,6,3)
+remains unconstructed. Singular degenerations remain open; omega is9/4.
+
 ## Uniform mixed-axis closure
 
 The [auxiliary-projection proof](research/ai/2026-10-21-mixed-axis-incidence/proof.md)
@@ -1637,3 +1650,21 @@ these finite formats. Other tensor comparisons and new constructions remain
 outside both conclusions. Claims `AI-FINITE-FLAG-CLOSURE-001` and
 `AI-FINITE-MATRIX-EXTRACTION-001` are written and externally unreviewed.
 Neither is a lower bound for the matrix multiplication exponent.
+
+## Character ceiling for the compressed alternative
+
+The [compressed-tensor character audit](research/ai/2026-10-21-compressed-packing/character_ceiling.md)
+bounds the actual endpoint character of the specific alternative tensor
+U_m retained from the compressed Laurent identity. A simultaneous
+companion-matrix deformation turns each nested error family into a limit
+of a direct sum of dot products; the three central slice ranks supply the
+remaining terms. The resulting asymptotic ratio to the source's
+symmetrized character is at most 4/7. Exact rational comparisons and an
+all-size polynomial bound place this upper estimate below the existing
+source lower estimate for every even m>=120.
+
+Thus that particular constant tensor does not provide the missing growth
+inequality. Cancellation in the full Laurent identity and different
+constant tensors remain open. Claim `AI-COMPRESSED-CHARACTER-002` is written,
+externally unreviewed, and restricted to characteristic zero. No smaller
+matrix multiplication exponent is established.

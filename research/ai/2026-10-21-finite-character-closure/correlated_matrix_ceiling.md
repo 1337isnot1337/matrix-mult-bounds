@@ -16,8 +16,10 @@ not an upper bound on the character of a target tensor.
 
 ## 1. A format-only inequality
 
-At an endpoint character every dot-product exponent is 3/4. A rectangular
-matrix tensor with leg dimensions A=lh, B=hn, C=nl has character
+At an endpoint character every dot-product exponent is 3/4. This equality
+is proved from Uznański v2, Proposition 5.2, in the existing
+[finite amplitude note](../2026-10-20-koszul/finite_amplitude.md).
+A rectangular matrix tensor with leg dimensions A=lh, B=hn, C=nl has character
 
     (lhn)^(3/4)=(ABC)^(3/8).
 

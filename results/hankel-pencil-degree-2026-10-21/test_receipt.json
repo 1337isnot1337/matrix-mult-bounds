@@ -1,0 +1,29 @@
+{
+  "base_main": "48bd72d9a981ec9b5075e06447c91a07799387c2",
+  "full_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests_run": 590,
+    "passes": 587,
+    "optional_skips": 3,
+    "seconds": 776.843,
+    "log": "results/hankel-pencil-degree-2026-10-21/tests-main-48bd72d.txt"
+  },
+  "focused": {
+    "command": "python -m unittest discover -s tests -p test_hankel_pencil_degree.py -v",
+    "tests_run": 7,
+    "passes": 7,
+    "seconds": 4.57
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "environment": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "executable": "/tmp/matrix-mult-research-venv/bin/python"
+  },
+  "protected_archives_changed": false,
+  "independent_mathematical_review": false,
+  "improves_omega": false
+}
