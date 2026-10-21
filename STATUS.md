@@ -52,6 +52,16 @@ fails a necessary pair-quotient packing. This finite scope is replayed by
 or other bases. Two native-parity pilots yield only reused controls and
 untraced UNSAT answers. Neither gives an exponent improvement.
 
+The [C29 near-capacity classification](research/ai/2026-10-20-c29-near-capacity/research_note.md)
+proves that every three-point unique-sum triple in C29 consists of arithmetic
+progressions. Two exact enumerations agree on its six ordered normalized
+cases. A complete fiber-direction filter for C29:C4 leaves twelve size-ten
+configurations, and the identity-quotient offset telescoping condition rejects
+them all. Thus the stated injective-pair-map construction with strict vertex
+potentials cannot have all three sizes at least ten. This written argument
+is unreviewed; general tensor degenerations and smaller unequal targets
+remain open. No smaller exponent follows.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
