@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
+order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
+family is retained; two third-coefficient rank covers force only common
+plane motion. Other mixed spaces and delayed first growth remain open.
+The full boundary-spanning 12-by-12 family stays with the quantum worker.
+
 The quantum worker now continues in
 `ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
 second-jet family and full coefficient witnesses are ready for higher-order

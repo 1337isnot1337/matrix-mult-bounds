@@ -12,16 +12,16 @@ B directions (all twelve boundary directions plus a two-dimensional
 common-kernel mixed pencil), and its six-dimensional opposite boundary
 annihilator. The complete bilinear tensor vanishes on these spaces.
 
-Two coordinate mixed pencils attain dimensions14 and6. Initial exact
-normal equations leave16 directions, including the four common-plane
-motions. Full first-jet and off-diagonal second-jet equations have a
-144-dimensional solution space, with16 normal directions. These dimension
-counts are discovery information, not a claimed complete classification
-in this package. The retained sixteen independent normal directions now
-have a complete polynomial two-jet certificate: every linear and quadratic
-combination lifts, with explicit second maps and regular first-row corrections.
+The retained seed has a complete polynomial two-jet certificate: every
+linear and quadratic combination of sixteen independent normal directions
+lifts, with explicit second maps and regular first-row corrections.
+The first-normal and off-diagonal equations now exactly classify its
+normal space as dimension 16. The earlier full-jet dimension 144 remains
+discovery information, outside that classification's scope.
 
-Next: solve the third-order equations and test further growth. A formal jet
-or a low truncated residual is not a matrix-target construction. This
-branch does not duplicate the other worker's boundary-spanning family
-or external preprint audit.
+Third-order disposition: `third_order.md` excludes the fixed seed at every
+order by two universal rank covers and formal moving-plane induction.
+The second-order family remains an exact positive control for the
+obstruction's order. Other mixed first spaces and delayed growth remain
+open. The next investigation varies the common-kernel mixed pencil;
+the other worker retains the boundary-spanning family and preprint audit.

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "code_head_at_full_suite_start": "5546a27",
+  "integration_head_at_completion": "5f060aaa3bb507a716467f9de516cce762b3ce38",
+  "intervening_changes": "Documentation-only disposition changes and integration of PR50, whose source and squash trees match; maintained code and finite report are unchanged.",
+  "focused_tests": {
+    "passed": 4,
+    "seconds": 14.776
+  },
+  "full_suite": {
+    "tests_run": 484,
+    "passed": 483,
+    "skipped": 1,
+    "skip_reason": "Existing optional unequal-objective discovery control requires NumPy, which is not a maintained dependency.",
+    "seconds": 290.317
+  },
+  "historical_archive_reports_passed": 5,
+  "independent_review": false,
+  "scope": "Finite linear lemma, complete coefficient replay and regression checks. Formal all-order argument is written and unreviewed, and the exponent is unchanged."
+}
