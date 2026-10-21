@@ -1,0 +1,78 @@
+{
+  "verified_commit": "cfa12baf8ab3ebbabe67cca96226ca064447f16c",
+  "verified_tree": "1106a29513f12f2780ab5195114a01c8d75e271e",
+  "integrated_main": "63eeceefbf78a4eaa72cee495aa7848a819f094b",
+  "checkout": "isolated detached worktree",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S -m unittest discover -s tests -v (equivalent explicit TextTestRunner with a completion record)",
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S tools/replay.py"
+  ],
+  "tests": {
+    "count": 467,
+    "elapsed_seconds": 307.911,
+    "status": "passed",
+    "log": "checkpoint8-tests.txt",
+    "sha256": "b01a397418dcc1f75e0951dd6377db1bbac08ccc06cb81d255545b0381506f28",
+    "site_packages_disabled": true,
+    "earlier_incomplete_log_not_counted": true
+  },
+  "archive": {
+    "runs": 5,
+    "status": "passed",
+    "exact_payloads_match": true,
+    "protected_archive_diff_empty": true,
+    "report": "checkpoint8-archive.json",
+    "sha256": "d086537a50c4558732e90b454e55fd483a16fa0984bac1ca442bfa555143934c"
+  },
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "hosted_checks_observed": [
+    {
+      "name": "CI",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "CodeQL",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Tests (Python 3.10)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Tests (Python 3.14)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Archive replay (Python 3.13)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (javascript-typescript)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (python)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (actions)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (c-cpp)",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "limits": "Exact regression and archived experiment coverage at this commit, with site packages disabled. Earlier incomplete regression output was not accepted. Same-session validation does not establish independent mathematical review or a smaller exponent."
+}

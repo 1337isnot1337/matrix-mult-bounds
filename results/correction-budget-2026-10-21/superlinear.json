@@ -1,0 +1,59 @@
+{
+  "claim_id": "COND-PAIRED-SUPERLINEAR-CORRECTION-015",
+  "construction_supplied": false,
+  "improves_omega": false,
+  "conditional_bound": "max(3/d_b, 9/4-(3/2-alpha)^2)",
+  "d_b_equation": "d_b*(6*b)^d_b=12*b^(3/2)",
+  "exact_root_comparison_passed": true,
+  "root_upper": "30000/13433",
+  "grid_denominator": 40,
+  "algebraic_angular_points": 4036,
+  "examples": [
+    {
+      "alpha": "1",
+      "localization_threshold": "2",
+      "retains_strict_30000_over_13433": true,
+      "parameter_controls": 4036,
+      "minimum_observed_gap": "1/20"
+    },
+    {
+      "alpha": "4/3",
+      "localization_threshold": "20/9",
+      "retains_strict_30000_over_13433": true,
+      "parameter_controls": 112,
+      "minimum_observed_gap": "1/60"
+    },
+    {
+      "alpha": "137/100",
+      "localization_threshold": "22331/10000",
+      "retains_strict_30000_over_13433": true,
+      "parameter_controls": 1,
+      "minimum_observed_gap": "13/100"
+    },
+    {
+      "alpha": "7/5",
+      "localization_threshold": "56/25",
+      "retains_strict_30000_over_13433": false,
+      "parameter_controls": 1,
+      "minimum_observed_gap": "1/10"
+    },
+    {
+      "alpha": "149/100",
+      "localization_threshold": "22499/10000",
+      "retains_strict_30000_over_13433": false,
+      "parameter_controls": 1,
+      "minimum_observed_gap": "1/100"
+    }
+  ],
+  "endpoint_big_O_gaps": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "qualitative_endpoint_premise": "auxiliary border rank o(n^(3/2))",
+  "scope": "Finite controls for a written conditional argument. No maps or unbounded construction are supplied."
+}

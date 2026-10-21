@@ -1,0 +1,47 @@
+{
+  "source": "Q(5,4)",
+  "target": "M(4,4,4)",
+  "source_formula": "sum A[p,q] B[y,q+v] C[p+y,v], p,q<5, y,v<4",
+  "target_formula": "sum A[i,k] B[i,j] C[j,k], i,j,k<4",
+  "source_dimensions": [
+    25,
+    32,
+    32
+  ],
+  "target_dimensions": [
+    16,
+    16,
+    16
+  ],
+  "source_terms_reconstructed": 400,
+  "all_target_coefficient_positions_checked": 4096,
+  "target_nonzero_coefficients": 64,
+  "off_support_coefficients_checked": 4032,
+  "coefficient_failures": 0,
+  "maximum_absolute_coefficient_error": 0,
+  "map_nonzero_counts": [
+    25,
+    20,
+    20
+  ],
+  "map_coefficient_values": [
+    -1,
+    0,
+    1
+  ],
+  "deliberate_sign_error_positions": 4,
+  "integer_control": {
+    "all_integer_positions_checked": 64,
+    "exact_positive_control_passed": true,
+    "deliberate_sign_error_detected": true
+  },
+  "certificate_sha256": "c276a60e4378e02987d153b7a6ac89bd33f4c7a69f25db42a0cb194cbd393248",
+  "coefficient_ring": "Z",
+  "exact_coefficient_certificate": true,
+  "valid_over_every_field": true,
+  "ordinary_restriction_proved": true,
+  "separately_implemented_contraction": true,
+  "external_independent_review": false,
+  "fixed_width_near_full_all_n_family_proved": false,
+  "improves_omega": false
+}

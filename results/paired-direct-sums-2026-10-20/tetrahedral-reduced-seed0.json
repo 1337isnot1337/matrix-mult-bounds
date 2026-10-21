@@ -1,0 +1,132 @@
+{
+  "source": "P3 direct_sum one scalar",
+  "target": "M3",
+  "parameters": 20,
+  "parameter_dimensions": [
+    4,
+    8,
+    8
+  ],
+  "full_target_positions_checked": 729,
+  "invariant_coordinate_orbits": 61,
+  "fixed_diagonal_sector_positions": 27,
+  "seed": 202610290,
+  "maximum_iterations": 1600,
+  "iterations_completed": 1600,
+  "ridge": 1e-12,
+  "history": [
+    {
+      "iteration": 0,
+      "relative_coefficient_error": 5.100857163237449,
+      "maximum_absolute_coefficient_error": 6.731852483371515,
+      "map_frobenius_norms": [
+        6.412775636013425,
+        3.67869826810634,
+        8.175404804274281
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.0015857990001677535
+    },
+    {
+      "iteration": 200,
+      "relative_coefficient_error": 0.7009667067906697,
+      "maximum_absolute_coefficient_error": 0.8887590488004311,
+      "map_frobenius_norms": [
+        2.5927810693119593,
+        2.2039551558599,
+        12.2376634711624
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.05503036699974473
+    },
+    {
+      "iteration": 400,
+      "relative_coefficient_error": 0.7009663216373871,
+      "maximum_absolute_coefficient_error": 0.8893469045137143,
+      "map_frobenius_norms": [
+        2.5964635904337583,
+        2.203112251154662,
+        12.273269356426134
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.11312617200019304
+    },
+    {
+      "iteration": 600,
+      "relative_coefficient_error": 0.7009663215686505,
+      "maximum_absolute_coefficient_error": 0.889354787886373,
+      "map_frobenius_norms": [
+        2.596512853863436,
+        2.203101027650833,
+        12.273751226379803
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.17325664200052415
+    },
+    {
+      "iteration": 800,
+      "relative_coefficient_error": 0.700966321568638,
+      "maximum_absolute_coefficient_error": 0.8893548939133715,
+      "map_frobenius_norms": [
+        2.5965135164087236,
+        2.203100876715144,
+        12.2737577080527
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.24065617399992334
+    },
+    {
+      "iteration": 1000,
+      "relative_coefficient_error": 0.700966321568638,
+      "maximum_absolute_coefficient_error": 0.8893548953394329,
+      "map_frobenius_norms": [
+        2.5965135253199447,
+        2.203100874685064,
+        12.273757795231239
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.30641512400052306
+    },
+    {
+      "iteration": 1200,
+      "relative_coefficient_error": 0.700966321568638,
+      "maximum_absolute_coefficient_error": 0.889354895358613,
+      "map_frobenius_norms": [
+        2.596513525439797,
+        2.20310087465776,
+        12.273757796403752
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.3711359999997512
+    },
+    {
+      "iteration": 1400,
+      "relative_coefficient_error": 0.700966321568638,
+      "maximum_absolute_coefficient_error": 0.889354895358871,
+      "map_frobenius_norms": [
+        2.5965135254414116,
+        2.2031008746573923,
+        12.273757796419527
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.41106955699979153
+    },
+    {
+      "iteration": 1600,
+      "relative_coefficient_error": 0.700966321568638,
+      "maximum_absolute_coefficient_error": 0.8893548953588742,
+      "map_frobenius_norms": [
+        2.596513525441431,
+        2.203100874657388,
+        12.273757796419725
+      ],
+      "diagonal_sector_maximum_error": 0.0,
+      "elapsed_seconds": 0.47860276000028534
+    }
+  ],
+  "best_relative_coefficient_error": 0.700966321568638,
+  "method": "real A4-equivariant ALS with exact polarization sector fixed",
+  "construction_supplied": false,
+  "exact_coefficient_certificate": false,
+  "improves_omega": false
+}

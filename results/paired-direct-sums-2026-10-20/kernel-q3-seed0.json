@@ -1,0 +1,70 @@
+{
+  "n": 3,
+  "b": 2,
+  "seed": 202610240,
+  "parameter_bound": 10,
+  "parameters": 24,
+  "closure_equations": 2916,
+  "maximum_function_evaluations": 400,
+  "function_evaluations": 129,
+  "jacobian_evaluations": 95,
+  "elapsed_seconds": 1.054208161999668,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "initial": {
+    "closure_residual_norm": 1.871978336280781,
+    "maximum_absolute_closure_error": 0.43311352074073267,
+    "anchor_condition_number": 32.65253036378916,
+    "slice_span_singular_values": [
+      20.664621545162927,
+      16.568491058700086,
+      13.133518894567564,
+      10.123019469058395,
+      8.068611646754658,
+      7.210635427960842,
+      2.0374390141386525,
+      1.4485219194162755,
+      1.2012304352901304
+    ],
+    "smallest_commutant_singular_values": [
+      3.715415633766284e-15,
+      7.186598276410577,
+      7.329222024813139,
+      7.368789722695968,
+      7.548098328293372,
+      8.102664752499678
+    ],
+    "maximum_absolute_kernel_parameter": 0.6431017344784046
+  },
+  "final": {
+    "closure_residual_norm": 0.006790523323016774,
+    "maximum_absolute_closure_error": 0.001956364842643001,
+    "anchor_condition_number": 13113787264.080652,
+    "slice_span_singular_values": [
+      2831561586.3777347,
+      2020186848.1464388,
+      1314547438.4461393,
+      602094052.4276932,
+      172928873.95595416,
+      42792030.182726614,
+      2.7463434277390446,
+      1.2939224492199743,
+      1.05972797898801
+    ],
+    "smallest_commutant_singular_values": [
+      3.4262479328534703e-07,
+      42792030.109783955,
+      42792030.13252861,
+      42792030.192301564,
+      42792030.26596597,
+      46844318.645304084
+    ],
+    "maximum_absolute_kernel_parameter": 9.999896880614273
+  },
+  "solver_status": 3,
+  "solver_message": "`xtol` termination condition is satisfied.",
+  "exact_coefficient_certificate": false,
+  "construction_supplied": false,
+  "improves_omega": false,
+  "scope": "One real compression-kernel chart, fixed invertible anchor, finite bounded search; closure alone is not a matrix tensor certificate."
+}

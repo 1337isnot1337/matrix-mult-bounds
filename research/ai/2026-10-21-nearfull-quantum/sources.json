@@ -1,0 +1,30 @@
+{
+  "source_type": "AI-derived theorem and exact finite certificates with external invariant-theory dependencies",
+  "improves_omega": false,
+  "external_dependencies": [
+    {
+      "authors": "Victoria Hoskins",
+      "title": "Stratifications associated to reductive group actions on affine spaces",
+      "version": "2013 publisher manuscript, doi:10.1093/qmath/hat046",
+      "url": "https://userpage.fu-berlin.de/hoskins/strat_affine.pdf",
+      "locations": ["Page 2, affine quotient", "Page 20, closed orbit discussion and Theorem 4.2"],
+      "hypotheses": "Complex reductive group acting linearly on a finite-dimensional complex vector space; maximal compact subgroup unitary for the chosen Hermitian form.",
+      "uses": ["Invariant fibres determine the unique closed orbit", "A zero of the unshifted moment map has closed orbit"]
+    },
+    {
+      "authors": "Peter Burgisser and Christian Ikenmeyer",
+      "title": "Fundamental invariants of orbit closures",
+      "version": "arXiv:1511.02927v2, 2015-12-01",
+      "url": "https://arxiv.org/html/1511.02927v2",
+      "locations": ["Corollary 4.9"],
+      "uses": ["Square matrix multiplication tensors have closed SL orbits"]
+    }
+  ],
+  "internal_dependencies": [
+    "research/ai/2026-10-21-narrow-quantum/quantum.py",
+    "research/ai/2026-10-21-narrow-quantum/faces.py",
+    "research/ai/2026-10-21-paired-quantum/screens.py",
+    "research/ai/2026-10-20-quantum-recoupling/quantum.py"
+  ],
+  "new_scope": "All diagonal Laurent weight vectors for two specified regular q-families, including arbitrary further degenerations to the full intrinsic target; not a universal source obstruction."
+}

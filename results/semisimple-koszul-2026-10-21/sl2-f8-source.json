@@ -1,0 +1,243 @@
+{
+  "group": "SL(2,F8)",
+  "order": 504,
+  "class_sizes": [
+    1,
+    63,
+    56,
+    56,
+    72,
+    56,
+    72,
+    56,
+    72
+  ],
+  "class_representatives": [
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      1,
+      4
+    ],
+    [
+      0,
+      1,
+      1,
+      5
+    ],
+    [
+      0,
+      1,
+      1,
+      6
+    ],
+    [
+      0,
+      1,
+      1,
+      7
+    ]
+  ],
+  "center_generator_coefficients": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "cyclic_basis_determinant": "4614916199841986942308829013461714862624340569606313520136192",
+  "minimal_polynomial": [
+    1,
+    -2331,
+    35684,
+    24546308,
+    -431525250,
+    -58145483578,
+    2447293844,
+    46218778701588,
+    801347751439241,
+    3991542932693053
+  ],
+  "rational_central_blocks": [
+    {
+      "irreducible_factor": [
+        1,
+        -2311
+      ],
+      "central_idempotent": [
+        "1/504",
+        "1/504",
+        "1/504",
+        "1/504",
+        "1/504",
+        "1/504",
+        "1/504",
+        "1/504",
+        "1/504"
+      ],
+      "regular_rank": 1,
+      "number_of_complex_blocks": 1,
+      "complex_matrix_degree": 1
+    },
+    {
+      "irreducible_factor": [
+        1,
+        -79
+      ],
+      "central_idempotent": [
+        "7/72",
+        "-1/72",
+        "-1/36",
+        "1/72",
+        "0",
+        "1/72",
+        "0",
+        "1/72",
+        "0"
+      ],
+      "regular_rank": 49,
+      "number_of_complex_blocks": 1,
+      "complex_matrix_degree": 7
+    },
+    {
+      "irreducible_factor": [
+        1,
+        -43
+      ],
+      "central_idempotent": [
+        "8/63",
+        "0",
+        "-1/63",
+        "-1/63",
+        "1/63",
+        "-1/63",
+        "1/63",
+        "-1/63",
+        "1/63"
+      ],
+      "regular_rank": 64,
+      "number_of_complex_blocks": 1,
+      "complex_matrix_degree": 8
+    },
+    {
+      "irreducible_factor": [
+        1,
+        -21,
+        -2157,
+        -21079
+      ],
+      "central_idempotent": [
+        "7/24",
+        "-1/24",
+        "1/24",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "regular_rank": 147,
+      "number_of_complex_blocks": 3,
+      "complex_matrix_degree": 7
+    },
+    {
+      "irreducible_factor": [
+        1,
+        123,
+        3251,
+        24121
+      ],
+      "central_idempotent": [
+        "27/56",
+        "3/56",
+        "0",
+        "0",
+        "-1/56",
+        "0",
+        "-1/56",
+        "0",
+        "-1/56"
+      ],
+      "regular_rank": 243,
+      "number_of_complex_blocks": 3,
+      "complex_matrix_degree": 9
+    }
+  ],
+  "complex_degrees": [
+    1,
+    7,
+    7,
+    7,
+    7,
+    8,
+    9,
+    9,
+    9
+  ],
+  "arithmetic": "exact integers and rationals",
+  "sympy_version": "1.14.0",
+  "field_model": "F2[t]/(t^3+t+1)",
+  "group_center_order": 1,
+  "derivation_engine": "research/ai/2026-10-20-sl2-seven/source_certificate.py, unchanged central-algebra procedure",
+  "conditional_exponent_gate": {
+    "shape": [
+      18,
+      18,
+      25
+    ],
+    "tau": "449/200",
+    "scale": 10000000000,
+    "source_term_upper_numerators": [
+      10000000001,
+      789305446907,
+      789305446907,
+      789305446907,
+      789305446907,
+      1065214380431,
+      1387632406415,
+      1387632406415,
+      1387632406415
+    ],
+    "source_upper_numerator": 8395333387305,
+    "target_lower_numerator": 8411038530536,
+    "strict_positive_margin_numerator": 15705143231,
+    "meaning": "Conditional comparison only. No degeneration supplied."
+  },
+  "limitation": "Exact source and conditional comparison only; no improving tensor degeneration constructed.",
+  "improves_omega": false
+}

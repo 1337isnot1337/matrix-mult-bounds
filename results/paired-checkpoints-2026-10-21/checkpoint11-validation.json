@@ -1,0 +1,107 @@
+{
+  "verified_commit": "25600a738c5f832a7daa805310f28edfb953c048",
+  "verified_tree": "fe1f5f59b8e80b8590b140d5c75e19e49b423e09",
+  "integrated_main": "e00622fc3e3179f2c87ac3185f2158c39b2fe707",
+  "checkout": "isolated detached worktree",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S -m unittest discover -s tests -v (equivalent explicit TextTestRunner with a complete buffered transcript and completion record)",
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -S tools/replay.py"
+  ],
+  "tests": {
+    "count": 565,
+    "passed": 564,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "status": "passed-with-one-optional-skip",
+    "completion_record": {
+      "completed": true,
+      "success": true,
+      "count": 565,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "elapsed_seconds": 387.98395018500014,
+      "commit": "25600a738c5f832a7daa805310f28edfb953c048",
+      "failure_details": [],
+      "error_details": [],
+      "complete_text_log": "checkpoint11-complete-tests.txt"
+    },
+    "log": "checkpoint11-tests.txt",
+    "sha256": "1478e9c7224d8636ebfa422ac83005126090b82885e37e259db1c91506023128",
+    "observed_text_log_is_complete": true,
+    "log_line_count": 625,
+    "site_packages_disabled": true,
+    "skip_details": [
+      {
+        "test": "test_full_nonsymmetric_coefficient_gradient_and_affine_controls (test_parity_structure_unequal_objective.UnequalObjectiveControls.test_full_nonsymmetric_coefficient_gradient_and_affine_controls)",
+        "reason": "Optional unequal-objective discovery control requires NumPy"
+      }
+    ]
+  },
+  "archive": {
+    "runs": 5,
+    "status": "passed",
+    "exact_payloads_match": true,
+    "protected_archive_diff_empty": true,
+    "report": "checkpoint11-archive.json",
+    "sha256": "478b9ebaae24df8d0dd021bd6fb0c46547e8b9be5cf2fabb2365e48d2b666fc0"
+  },
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "hosted_checks_observed": [
+    {
+      "id": 119059484544,
+      "name": "CodeQL",
+      "head_sha": "25600a738c5f832a7daa805310f28edfb953c048",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/runs/119059484544",
+      "started_at": "2026-10-21T05:40:14Z",
+      "completed_at": "2026-10-21T05:40:17Z"
+    },
+    {
+      "id": 119059294369,
+      "name": "Analyze (python)",
+      "head_sha": "25600a738c5f832a7daa805310f28edfb953c048",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39550796374/job/119059294369",
+      "started_at": "2026-10-21T05:39:38Z",
+      "completed_at": "2026-10-21T05:41:06Z"
+    },
+    {
+      "id": 119059294282,
+      "name": "Analyze (c-cpp)",
+      "head_sha": "25600a738c5f832a7daa805310f28edfb953c048",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39550796374/job/119059294282",
+      "started_at": "2026-10-21T05:39:38Z",
+      "completed_at": "2026-10-21T05:40:43Z"
+    },
+    {
+      "id": 119059294280,
+      "name": "Analyze (javascript-typescript)",
+      "head_sha": "25600a738c5f832a7daa805310f28edfb953c048",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39550796374/job/119059294280",
+      "started_at": "2026-10-21T05:39:38Z",
+      "completed_at": "2026-10-21T05:40:30Z"
+    },
+    {
+      "id": 119059294126,
+      "name": "Analyze (actions)",
+      "head_sha": "25600a738c5f832a7daa805310f28edfb953c048",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39550796374/job/119059294126",
+      "started_at": "2026-10-21T05:39:38Z",
+      "completed_at": "2026-10-21T05:40:24Z"
+    }
+  ],
+  "hosted_test_workflow_observed": false,
+  "limits": "The complete local suite ran 565 tests: 564 passed and one optional NumPy discovery test was skipped. The full 625-line text transcript and final machine-readable result agree. All five historical archive replays passed. Five hosted static-analysis checks passed; no hosted CI, Python test, or archive replay job was observed for this commit, and no reason is asserted for their absence. The next main integration and new packages require their own validation. Same-session checks are not independent mathematical review and do not establish a smaller exponent."
+}
