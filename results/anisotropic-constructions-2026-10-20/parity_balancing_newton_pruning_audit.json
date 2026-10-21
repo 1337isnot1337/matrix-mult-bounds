@@ -1,0 +1,2925 @@
+{
+  "format": "independent-iterative-newton-pruning-replay-v1",
+  "source": "A(8,8)",
+  "source_dimension": 960,
+  "source_nonzero_terms_enumerated": 262144,
+  "all_three_legs_all_coordinate_slices_partial_permutations": true,
+  "target_dimension_per_leg": 778,
+  "maximum_matrix_unit_target_slice_rank": 27,
+  "rank_upper_bound_formula": "r_max + 2*(available_dimension-target_dimension)",
+  "rounds": [
+    {
+      "available_dimension": 960,
+      "matrix_unit_lift_rank_upper_bound": 391,
+      "retained_dimension": 922,
+      "restricted_source_nonzero_terms": 262144,
+      "three_coordinate_rank_arrays_equal": true,
+      "input_coordinate_sha256": "228e83ee51813b50b76812cc67321661ee4fb082ac2c0235f61d0f7aeedf2231",
+      "output_coordinate_sha256": "a906f90fd42bdcf8a9f8907142494e3e27d9acfc16185b3e395163a9e81d909b",
+      "weight_blocks": [
+        {
+          "weight": -14,
+          "before": 1,
+          "good_coordinate_slices": 1,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ]
+          ],
+          "after": 1,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -13,
+          "before": 3,
+          "good_coordinate_slices": 3,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "after": 3,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -12,
+          "before": 6,
+          "good_coordinate_slices": 6,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "after": 6,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -11,
+          "before": 10,
+          "good_coordinate_slices": 10,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "after": 10,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -10,
+          "before": 15,
+          "good_coordinate_slices": 15,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "after": 15,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -9,
+          "before": 21,
+          "good_coordinate_slices": 21,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "after": 21,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -8,
+          "before": 28,
+          "good_coordinate_slices": 27,
+          "good_point_hull": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "after": 27,
+          "removed_common_columns": [
+            64
+          ]
+        },
+        {
+          "weight": -7,
+          "before": 36,
+          "good_coordinate_slices": 33,
+          "good_point_hull": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 33,
+          "removed_common_columns": [
+            56,
+            65,
+            184
+          ]
+        },
+        {
+          "weight": -6,
+          "before": 43,
+          "good_coordinate_slices": 37,
+          "good_point_hull": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 37,
+          "removed_common_columns": [
+            48,
+            57,
+            66,
+            176,
+            185,
+            304
+          ]
+        },
+        {
+          "weight": -5,
+          "before": 49,
+          "good_coordinate_slices": 40,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 49,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -4,
+          "before": 54,
+          "good_coordinate_slices": 42,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 54,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -3,
+          "before": 58,
+          "good_coordinate_slices": 43,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 58,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -2,
+          "before": 61,
+          "good_coordinate_slices": 43,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 61,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -1,
+          "before": 63,
+          "good_coordinate_slices": 42,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "after": 57,
+          "removed_common_columns": [
+            53,
+            62,
+            71,
+            648,
+            776,
+            904
+          ]
+        },
+        {
+          "weight": 0,
+          "before": 64,
+          "good_coordinate_slices": 42,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "after": 58,
+          "removed_common_columns": [
+            54,
+            63,
+            191,
+            768,
+            896,
+            905
+          ]
+        },
+        {
+          "weight": 1,
+          "before": 63,
+          "good_coordinate_slices": 42,
+          "good_point_hull": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "after": 57,
+          "removed_common_columns": [
+            55,
+            183,
+            311,
+            888,
+            897,
+            906
+          ]
+        },
+        {
+          "weight": 2,
+          "before": 61,
+          "good_coordinate_slices": 43,
+          "good_point_hull": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 61,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 3,
+          "before": 58,
+          "good_coordinate_slices": 43,
+          "good_point_hull": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 58,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 4,
+          "before": 54,
+          "good_coordinate_slices": 42,
+          "good_point_hull": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 54,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 5,
+          "before": 49,
+          "good_coordinate_slices": 40,
+          "good_point_hull": [
+            [
+              0,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 49,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 6,
+          "before": 43,
+          "good_coordinate_slices": 37,
+          "good_point_hull": [
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 37,
+          "removed_common_columns": [
+            655,
+            774,
+            783,
+            893,
+            902,
+            911
+          ]
+        },
+        {
+          "weight": 7,
+          "before": 36,
+          "good_coordinate_slices": 33,
+          "good_point_hull": [
+            [
+              0,
+              7
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "after": 33,
+          "removed_common_columns": [
+            775,
+            894,
+            903
+          ]
+        },
+        {
+          "weight": 8,
+          "before": 28,
+          "good_coordinate_slices": 27,
+          "good_point_hull": [
+            [
+              1,
+              7
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "after": 27,
+          "removed_common_columns": [
+            895
+          ]
+        },
+        {
+          "weight": 9,
+          "before": 21,
+          "good_coordinate_slices": 21,
+          "good_point_hull": [
+            [
+              2,
+              7
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 21,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 10,
+          "before": 15,
+          "good_coordinate_slices": 15,
+          "good_point_hull": [
+            [
+              3,
+              7
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 15,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 11,
+          "before": 10,
+          "good_coordinate_slices": 10,
+          "good_point_hull": [
+            [
+              4,
+              7
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 10,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 12,
+          "before": 6,
+          "good_coordinate_slices": 6,
+          "good_point_hull": [
+            [
+              5,
+              7
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 6,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 13,
+          "before": 3,
+          "good_coordinate_slices": 3,
+          "good_point_hull": [
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 3,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 14,
+          "before": 1,
+          "good_coordinate_slices": 1,
+          "good_point_hull": [
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 1,
+          "removed_common_columns": []
+        }
+      ]
+    },
+    {
+      "available_dimension": 922,
+      "matrix_unit_lift_rank_upper_bound": 315,
+      "retained_dimension": 834,
+      "restricted_source_nonzero_terms": 211240,
+      "three_coordinate_rank_arrays_equal": true,
+      "input_coordinate_sha256": "a906f90fd42bdcf8a9f8907142494e3e27d9acfc16185b3e395163a9e81d909b",
+      "output_coordinate_sha256": "9e8809775d58a93d2809d7ead59cd74ec6b6df26d178844eb66edd08a2a6b970",
+      "weight_blocks": [
+        {
+          "weight": -14,
+          "before": 1,
+          "good_coordinate_slices": 1,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ]
+          ],
+          "after": 1,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -13,
+          "before": 3,
+          "good_coordinate_slices": 3,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "after": 3,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -12,
+          "before": 6,
+          "good_coordinate_slices": 6,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "after": 6,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -11,
+          "before": 10,
+          "good_coordinate_slices": 10,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "after": 10,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -10,
+          "before": 15,
+          "good_coordinate_slices": 15,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "after": 15,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -9,
+          "before": 21,
+          "good_coordinate_slices": 20,
+          "good_point_hull": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "after": 20,
+          "removed_common_columns": [
+            72
+          ]
+        },
+        {
+          "weight": -8,
+          "before": 27,
+          "good_coordinate_slices": 25,
+          "good_point_hull": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "after": 25,
+          "removed_common_columns": [
+            73,
+            192
+          ]
+        },
+        {
+          "weight": -7,
+          "before": 33,
+          "good_coordinate_slices": 30,
+          "good_point_hull": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 30,
+          "removed_common_columns": [
+            74,
+            193,
+            312
+          ]
+        },
+        {
+          "weight": -6,
+          "before": 37,
+          "good_coordinate_slices": 33,
+          "good_point_hull": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 33,
+          "removed_common_columns": [
+            75,
+            194,
+            313,
+            432
+          ]
+        },
+        {
+          "weight": -5,
+          "before": 49,
+          "good_coordinate_slices": 34,
+          "good_point_hull": [
+            [
+              0,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 34,
+          "removed_common_columns": [
+            40,
+            49,
+            58,
+            67,
+            76,
+            168,
+            177,
+            186,
+            195,
+            296,
+            305,
+            314,
+            424,
+            433,
+            552
+          ]
+        },
+        {
+          "weight": -4,
+          "before": 54,
+          "good_coordinate_slices": 34,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 54,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -3,
+          "before": 58,
+          "good_coordinate_slices": 33,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 58,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -2,
+          "before": 61,
+          "good_coordinate_slices": 31,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "after": 51,
+          "removed_common_columns": [
+            43,
+            52,
+            61,
+            70,
+            79,
+            400,
+            528,
+            656,
+            784,
+            912
+          ]
+        },
+        {
+          "weight": -1,
+          "before": 57,
+          "good_coordinate_slices": 30,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "after": 51,
+          "removed_common_columns": [
+            44,
+            190,
+            199,
+            520,
+            785,
+            913
+          ]
+        },
+        {
+          "weight": 0,
+          "before": 58,
+          "good_coordinate_slices": 30,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "after": 52,
+          "removed_common_columns": [
+            45,
+            182,
+            319,
+            640,
+            777,
+            914
+          ]
+        },
+        {
+          "weight": 1,
+          "before": 57,
+          "good_coordinate_slices": 30,
+          "good_point_hull": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "after": 51,
+          "removed_common_columns": [
+            46,
+            174,
+            439,
+            760,
+            769,
+            915
+          ]
+        },
+        {
+          "weight": 2,
+          "before": 61,
+          "good_coordinate_slices": 31,
+          "good_point_hull": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "after": 51,
+          "removed_common_columns": [
+            47,
+            175,
+            303,
+            431,
+            559,
+            880,
+            889,
+            898,
+            907,
+            916
+          ]
+        },
+        {
+          "weight": 3,
+          "before": 58,
+          "good_coordinate_slices": 33,
+          "good_point_hull": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 58,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 4,
+          "before": 54,
+          "good_coordinate_slices": 34,
+          "good_point_hull": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 54,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 5,
+          "before": 49,
+          "good_coordinate_slices": 34,
+          "good_point_hull": [
+            [
+              0,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 34,
+          "removed_common_columns": [
+            407,
+            526,
+            535,
+            645,
+            654,
+            663,
+            764,
+            773,
+            782,
+            791,
+            883,
+            892,
+            901,
+            910,
+            919
+          ]
+        },
+        {
+          "weight": 6,
+          "before": 37,
+          "good_coordinate_slices": 33,
+          "good_point_hull": [
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 33,
+          "removed_common_columns": [
+            527,
+            646,
+            765,
+            884
+          ]
+        },
+        {
+          "weight": 7,
+          "before": 33,
+          "good_coordinate_slices": 30,
+          "good_point_hull": [
+            [
+              0,
+              7
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "after": 30,
+          "removed_common_columns": [
+            647,
+            766,
+            885
+          ]
+        },
+        {
+          "weight": 8,
+          "before": 27,
+          "good_coordinate_slices": 25,
+          "good_point_hull": [
+            [
+              1,
+              7
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "after": 25,
+          "removed_common_columns": [
+            767,
+            886
+          ]
+        },
+        {
+          "weight": 9,
+          "before": 21,
+          "good_coordinate_slices": 20,
+          "good_point_hull": [
+            [
+              2,
+              7
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "after": 20,
+          "removed_common_columns": [
+            887
+          ]
+        },
+        {
+          "weight": 10,
+          "before": 15,
+          "good_coordinate_slices": 15,
+          "good_point_hull": [
+            [
+              3,
+              7
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 15,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 11,
+          "before": 10,
+          "good_coordinate_slices": 10,
+          "good_point_hull": [
+            [
+              4,
+              7
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 10,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 12,
+          "before": 6,
+          "good_coordinate_slices": 6,
+          "good_point_hull": [
+            [
+              5,
+              7
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 6,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 13,
+          "before": 3,
+          "good_coordinate_slices": 3,
+          "good_point_hull": [
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 3,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 14,
+          "before": 1,
+          "good_coordinate_slices": 1,
+          "good_point_hull": [
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 1,
+          "removed_common_columns": []
+        }
+      ]
+    },
+    {
+      "available_dimension": 834,
+      "matrix_unit_lift_rank_upper_bound": 139,
+      "retained_dimension": 468,
+      "restricted_source_nonzero_terms": 123472,
+      "three_coordinate_rank_arrays_equal": true,
+      "input_coordinate_sha256": "9e8809775d58a93d2809d7ead59cd74ec6b6df26d178844eb66edd08a2a6b970",
+      "output_coordinate_sha256": "3a094d546b07552b5452da4407a97a2da0db7a497e0d38a121515220456f7195",
+      "weight_blocks": [
+        {
+          "weight": -14,
+          "before": 1,
+          "good_coordinate_slices": 1,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ]
+          ],
+          "after": 1,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -13,
+          "before": 3,
+          "good_coordinate_slices": 3,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "after": 3,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -12,
+          "before": 6,
+          "good_coordinate_slices": 6,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "after": 6,
+          "removed_common_columns": []
+        },
+        {
+          "weight": -11,
+          "before": 10,
+          "good_coordinate_slices": 9,
+          "good_point_hull": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "after": 9,
+          "removed_common_columns": [
+            88
+          ]
+        },
+        {
+          "weight": -10,
+          "before": 15,
+          "good_coordinate_slices": 12,
+          "good_point_hull": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "after": 12,
+          "removed_common_columns": [
+            80,
+            89,
+            208
+          ]
+        },
+        {
+          "weight": -9,
+          "before": 20,
+          "good_coordinate_slices": 15,
+          "good_point_hull": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "after": 15,
+          "removed_common_columns": [
+            81,
+            90,
+            200,
+            209,
+            328
+          ]
+        },
+        {
+          "weight": -8,
+          "before": 25,
+          "good_coordinate_slices": 18,
+          "good_point_hull": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "after": 18,
+          "removed_common_columns": [
+            82,
+            91,
+            201,
+            210,
+            320,
+            329,
+            448
+          ]
+        },
+        {
+          "weight": -7,
+          "before": 30,
+          "good_coordinate_slices": 22,
+          "good_point_hull": [
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 22,
+          "removed_common_columns": [
+            83,
+            92,
+            202,
+            211,
+            321,
+            440,
+            449,
+            568
+          ]
+        },
+        {
+          "weight": -6,
+          "before": 33,
+          "good_coordinate_slices": 24,
+          "good_point_hull": [
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 24,
+          "removed_common_columns": [
+            84,
+            93,
+            203,
+            212,
+            322,
+            441,
+            560,
+            569,
+            688
+          ]
+        },
+        {
+          "weight": -5,
+          "before": 34,
+          "good_coordinate_slices": 24,
+          "good_point_hull": [
+            [
+              0,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "after": 24,
+          "removed_common_columns": [
+            85,
+            94,
+            204,
+            213,
+            323,
+            442,
+            561,
+            680,
+            689,
+            808
+          ]
+        },
+        {
+          "weight": -4,
+          "before": 54,
+          "good_coordinate_slices": 20,
+          "good_point_hull": [
+            [
+              1,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "after": 20,
+          "removed_common_columns": [
+            32,
+            41,
+            50,
+            59,
+            68,
+            77,
+            86,
+            95,
+            160,
+            169,
+            178,
+            187,
+            196,
+            205,
+            214,
+            288,
+            297,
+            306,
+            315,
+            324,
+            333,
+            416,
+            425,
+            434,
+            443,
+            544,
+            553,
+            562,
+            672,
+            681,
+            690,
+            800,
+            809,
+            928
+          ]
+        },
+        {
+          "weight": -3,
+          "before": 58,
+          "good_coordinate_slices": 18,
+          "good_point_hull": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "after": 18,
+          "removed_common_columns": [
+            24,
+            33,
+            42,
+            51,
+            60,
+            69,
+            78,
+            87,
+            152,
+            161,
+            170,
+            179,
+            188,
+            197,
+            206,
+            215,
+            280,
+            289,
+            298,
+            307,
+            316,
+            325,
+            334,
+            408,
+            417,
+            426,
+            435,
+            444,
+            536,
+            545,
+            554,
+            563,
+            664,
+            673,
+            682,
+            792,
+            801,
+            810,
+            920,
+            929
+          ]
+        },
+        {
+          "weight": -2,
+          "before": 51,
+          "good_coordinate_slices": 14,
+          "good_point_hull": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "after": 14,
+          "removed_common_columns": [
+            16,
+            25,
+            34,
+            144,
+            153,
+            162,
+            171,
+            180,
+            189,
+            198,
+            207,
+            272,
+            281,
+            290,
+            299,
+            308,
+            317,
+            326,
+            335,
+            409,
+            418,
+            427,
+            436,
+            445,
+            454,
+            537,
+            546,
+            555,
+            564,
+            665,
+            674,
+            683,
+            793,
+            802,
+            811,
+            921,
+            930
+          ]
+        },
+        {
+          "weight": -1,
+          "before": 51,
+          "good_coordinate_slices": 13,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "after": 31,
+          "removed_common_columns": [
+            26,
+            35,
+            163,
+            172,
+            181,
+            264,
+            309,
+            318,
+            327,
+            392,
+            401,
+            446,
+            455,
+            529,
+            657,
+            666,
+            794,
+            803,
+            922,
+            931
+          ]
+        },
+        {
+          "weight": 0,
+          "before": 52,
+          "good_coordinate_slices": 12,
+          "good_point_hull": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "after": 34,
+          "removed_common_columns": [
+            27,
+            36,
+            164,
+            173,
+            301,
+            310,
+            384,
+            438,
+            447,
+            512,
+            521,
+            575,
+            649,
+            658,
+            786,
+            795,
+            923,
+            932
+          ]
+        },
+        {
+          "weight": 1,
+          "before": 51,
+          "good_coordinate_slices": 13,
+          "good_point_hull": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "after": 31,
+          "removed_common_columns": [
+            28,
+            37,
+            156,
+            165,
+            293,
+            302,
+            430,
+            504,
+            513,
+            558,
+            567,
+            632,
+            641,
+            650,
+            695,
+            778,
+            787,
+            796,
+            924,
+            933
+          ]
+        },
+        {
+          "weight": 2,
+          "before": 51,
+          "good_coordinate_slices": 14,
+          "good_point_hull": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "after": 14,
+          "removed_common_columns": [
+            29,
+            38,
+            148,
+            157,
+            166,
+            276,
+            285,
+            294,
+            395,
+            404,
+            413,
+            422,
+            505,
+            514,
+            523,
+            532,
+            541,
+            550,
+            624,
+            633,
+            642,
+            651,
+            660,
+            669,
+            678,
+            687,
+            752,
+            761,
+            770,
+            779,
+            788,
+            797,
+            806,
+            815,
+            925,
+            934,
+            943
+          ]
+        },
+        {
+          "weight": 3,
+          "before": 58,
+          "good_coordinate_slices": 18,
+          "good_point_hull": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "after": 18,
+          "removed_common_columns": [
+            30,
+            39,
+            149,
+            158,
+            167,
+            277,
+            286,
+            295,
+            396,
+            405,
+            414,
+            423,
+            515,
+            524,
+            533,
+            542,
+            551,
+            625,
+            634,
+            643,
+            652,
+            661,
+            670,
+            679,
+            744,
+            753,
+            762,
+            771,
+            780,
+            789,
+            798,
+            807,
+            872,
+            881,
+            890,
+            899,
+            908,
+            917,
+            926,
+            935
+          ]
+        },
+        {
+          "weight": 4,
+          "before": 54,
+          "good_coordinate_slices": 20,
+          "good_point_hull": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "after": 20,
+          "removed_common_columns": [
+            31,
+            150,
+            159,
+            269,
+            278,
+            287,
+            397,
+            406,
+            415,
+            516,
+            525,
+            534,
+            543,
+            626,
+            635,
+            644,
+            653,
+            662,
+            671,
+            745,
+            754,
+            763,
+            772,
+            781,
+            790,
+            799,
+            864,
+            873,
+            882,
+            891,
+            900,
+            909,
+            918,
+            927
+          ]
+        },
+        {
+          "weight": 5,
+          "before": 34,
+          "good_coordinate_slices": 24,
+          "good_point_hull": [
+            [
+              0,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 24,
+          "removed_common_columns": [
+            151,
+            270,
+            279,
+            398,
+            517,
+            636,
+            746,
+            755,
+            865,
+            874
+          ]
+        },
+        {
+          "weight": 6,
+          "before": 33,
+          "good_coordinate_slices": 24,
+          "good_point_hull": [
+            [
+              0,
+              6
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "after": 24,
+          "removed_common_columns": [
+            271,
+            390,
+            399,
+            518,
+            637,
+            747,
+            756,
+            866,
+            875
+          ]
+        },
+        {
+          "weight": 7,
+          "before": 30,
+          "good_coordinate_slices": 22,
+          "good_point_hull": [
+            [
+              0,
+              7
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "after": 22,
+          "removed_common_columns": [
+            391,
+            510,
+            519,
+            638,
+            748,
+            757,
+            867,
+            876
+          ]
+        },
+        {
+          "weight": 8,
+          "before": 25,
+          "good_coordinate_slices": 18,
+          "good_point_hull": [
+            [
+              1,
+              7
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "after": 18,
+          "removed_common_columns": [
+            511,
+            630,
+            639,
+            749,
+            758,
+            868,
+            877
+          ]
+        },
+        {
+          "weight": 9,
+          "before": 20,
+          "good_coordinate_slices": 15,
+          "good_point_hull": [
+            [
+              2,
+              7
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "after": 15,
+          "removed_common_columns": [
+            631,
+            750,
+            759,
+            869,
+            878
+          ]
+        },
+        {
+          "weight": 10,
+          "before": 15,
+          "good_coordinate_slices": 12,
+          "good_point_hull": [
+            [
+              3,
+              7
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "after": 12,
+          "removed_common_columns": [
+            751,
+            870,
+            879
+          ]
+        },
+        {
+          "weight": 11,
+          "before": 10,
+          "good_coordinate_slices": 9,
+          "good_point_hull": [
+            [
+              4,
+              7
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "after": 9,
+          "removed_common_columns": [
+            871
+          ]
+        },
+        {
+          "weight": 12,
+          "before": 6,
+          "good_coordinate_slices": 6,
+          "good_point_hull": [
+            [
+              5,
+              7
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 6,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 13,
+          "before": 3,
+          "good_coordinate_slices": 3,
+          "good_point_hull": [
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 3,
+          "removed_common_columns": []
+        },
+        {
+          "weight": 14,
+          "before": 1,
+          "good_coordinate_slices": 1,
+          "good_point_hull": [
+            [
+              7,
+              7
+            ]
+          ],
+          "after": 1,
+          "removed_common_columns": []
+        }
+      ]
+    }
+  ],
+  "final_allowed_dimension": 468,
+  "ordinary_homogeneous_matrix_unit_restriction_excluded": true,
+  "arbitrary_ungraded_restrictions_excluded": false,
+  "arbitrary_degenerations_excluded": false,
+  "new_exponent_established": false,
+  "review_scope": "Separate implementation by a second agent in the generating session; no external independent review or formalization."
+}
