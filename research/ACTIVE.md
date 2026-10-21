@@ -19,8 +19,18 @@ The branch supplies a conditional linear-correction criterion, complete
 ordinary narrow-source obstructions, and explicitly limited symmetry and
 jet exclusions. Full narrow ordinary fits and the excluded regular-long-leg
 Laurent class are closed tasks. The required width-four unbounded family
-remains open. The preceding pushed checkpoint `274f50c` passes 412 local
-tests and all five archive replays. Main `d2ed2e9` is being integrated.
+remains open. The preceding pushed checkpoint `9d5a222` passes 445 local
+tests and all five archive replays. Main `63eecee` is being integrated.
+
+The boundary-only extension of the integer seed is now excluded at every
+Laurent order: its leading first-leg kernel has dimension at most one,
+whereas the next matrix size needs nine. The constructive search therefore
+allows old long-map columns to move and seeks exact leading points with
+larger kernels. All diagonal Laurent weights of the two prescribed
+near-full quantum families are also excluded by a balanced-support lemma.
+The quantum lane now examines structured corrections and different maps.
+The complete Q54 numerical discovery history is retained separately from
+the exact integer witness; small residuals alone remain insufficient.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates

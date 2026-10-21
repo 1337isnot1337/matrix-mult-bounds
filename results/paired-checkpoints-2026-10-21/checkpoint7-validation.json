@@ -1,0 +1,51 @@
+{
+  "verified_commit": "9d5a222cc9cd249aeefca8c9a61a7f72ca7040d0",
+  "verified_tree": "00023365ea4982691bfd85710f210bf00629828a",
+  "integrated_main": "d2ed2e9a3755eb205a8ba13b7685080b24c6e2fd",
+  "checkout": "isolated detached worktree",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -m unittest discover -s tests -v",
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python tools/replay.py"
+  ],
+  "tests": {
+    "count": 445,
+    "elapsed_seconds": 266.914,
+    "status": "passed",
+    "log": "checkpoint7-tests.txt",
+    "sha256": "efb7a33eac8aa523e8f7f3cd8d331bcb5d466012909e641bfe5aad841b118816"
+  },
+  "archive": {
+    "runs": 5,
+    "status": "passed",
+    "exact_payloads_match": true,
+    "protected_archive_diff_empty": true,
+    "report": "checkpoint7-archive.json",
+    "sha256": "6d90e022cfebab97746e0d6191332fceefccf5e45302cd349b2428906a551a1e"
+  },
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "hosted_checks_observed": [
+    {
+      "name": "CodeQL",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (python)",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (c-cpp)",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (actions)",
+      "conclusion": "success"
+    },
+    {
+      "name": "Analyze (javascript-typescript)",
+      "conclusion": "success"
+    }
+  ],
+  "limits": "Exact regression and archived experiment coverage at this commit; no independent mathematical review or exponent improvement. Hosted observations do not assert a CI or test job absent from the response."
+}

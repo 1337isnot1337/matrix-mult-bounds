@@ -851,6 +851,143 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-CYCLIC-ROOT-MODULES-053",
+      "title": "Root-of-unity quotient realizing the candidate vertex character",
+      "origin": "Codex continuing research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-cyclic-weight-blocks/root_quotient.md",
+      "statement": "For D>=2 at a primitive 2D-th root, the central line in the Weyl module V_(2D-2) is trivial, including for the specialized divided powers. Its quotient realizes the formal character V_(2D-2)-V_0 in the cyclic Cartan candidates. The original extension is nonsplit; the two ordinary-generator quotient intervals are connected by F^(D).",
+      "dependencies": [
+        "Quantum SL2 convention credited in the maintained quantum-recoupling package",
+        "EXP-CYCLIC-CARTAN-FRONTIER-051 and AI-CYCLIC-CARTAN-SCREENS-052 target characters"
+      ],
+      "limitations": "Target representations only. No source tensor maps, global quantum invariance, revival of excluded leading flags, or exponent improvement. Exact controls at D=2 through 10 support the stated elementary argument; no independent review or historical priority is claimed.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-CYCLIC-BLOCK-FLATTENINGS-054",
+      "title": "Exact Koszul comparisons on the three selected Cartan block families",
+      "origin": "Codex continuing research directed by repository owner",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-cyclic-weight-blocks/README.md",
+      "statement": "All 14364 residual-grading upper comparisons and 3924 actual modular rank comparisons on the specified A3, A4, A5 candidate weight blocks leave the targets unexcluded. Every nonempty target block and all three cyclic first-leg choices are covered; the grading bounds include every exterior power.",
+      "dependencies": [
+        "Maintained all-field matrix Koszul rank formula",
+        "Specified cyclic source and Cartan characters",
+        "Integer multigrading and modular-rank computations"
+      ],
+      "limitations": "Modular source ranks are rational lower bounds, not upper bounds. Uncomputed actual ranks may have defects below their grading upper bounds. No joint-block test, tensor map, general exclusion, independent review, or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-EXTENSION-SPACES-075",
+      "title": "Exact first-jet solution spaces at the normalized quantum root flags",
+      "origin": "Codex research directed by repository owner; adopts the concurrent partial-saturation argument",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-quantum-extension-spaces/proof.md",
+      "statement": "For the final M(10,10,11) output and fixed rank-four leading root maps, minimum nonzero matrix rank forces dim W1=12. Each new first-derivative row lies in an explicit 20-dimensional space; the top eight rows have 532 coupled parameters. The full first-jet space for two 110-row maps has dimension 4772. The projected bilinear next coefficient has first flattening rank 25 and every matrix slice has rank at most eight.",
+      "dependencies": [
+        "Pinned partial saturated rowspace W1 construction in PR41 at 58e9d6d0e804f466ea68d926bdc70847175defc2",
+        "Exact normalized leading maps from the graded quantum flags package",
+        "Rational linear algebra and explicit integer contractions"
+      ],
+      "limitations": "Necessary and sufficient conditions for dim W1=12, not for the matrix target. Fixed leading rank-four images are essential. The rank-eight assertion applies only to the bilinear next component after projecting away both leading images. Arbitrary higher jets, rank-reducing projections, and other flags remain open.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-BOUNDARY-TRAP-076",
+      "title": "All-order exclusion with boundary-supported leading output rows",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-quantum-extension-spaces/proof.md",
+      "statement": "For the four normalized order-three/six root covectors, arbitrary regular output maps whose four leading rows stay in the specified 56-dimensional boundary spaces cannot give M(10,10,11), even with arbitrary Laurent first-leg maps. The earliest coefficient leaving those spaces would produce a 13-dimensional space of matrices of rank at most eight. Separately, arbitrary first jets compatible with that target have second partial-saturation dimension at most 37.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "Exact rank-56 annihilator certificates and zero boundary-product support",
+        "Earliest nonzero coefficient and minimum matrix-rank intersection arguments"
+      ],
+      "limitations": "The all-order exclusion keeps the four leading rows inside the boundary spaces. Compatible coupled first derivatives that move those rows outside exist and are not excluded. No arbitrary leading-flag barrier or exponent improvement follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-MAXIMAL-JET-077",
+      "title": "All-order exclusion for maximal first extensions at the quantum root flags",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-moving-boundary-flags/proof.md",
+      "statement": "For the normalized rank-four root flags, a regular-output/Laurent-first-leg degeneration to M(10,10,11) cannot have outside first-jet quotient rank 16 on both legs. Exact normal constraints leave four directions, precisely the tangent directions of a common plane of cubic forms. A formal induction forces all rows into moving spaces of dimension 56, contradicting target conciseness.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "AI-QUANTUM-BOUNDARY-TRAP-076",
+        "Exact ranks 220 and 224, four explicit kernel directions, and complete source coefficient controls",
+        "Formal cubic-product annihilators and order-by-order induction"
+      ],
+      "limitations": "Requires both first-order quotient spans to be maximal. Rank-deficient or delayed first growth, leading-rank losses and other leading flags remain open. Same-session finite checks are not independent review or formalization. No exponent improvement follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-BOUNDARY-CHART-010",
+      "title": "All-order obstruction to the fixed old-column extension of the integer paired seed",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/outer_product_boundary.md",
+      "statement": "For every k>=2, the specified Q(k+2,k) leading long maps retaining all old Q(k+1,k) injection columns and arbitrary new boundary columns have first-leg kernel dimension at most one. A Laurent extension to M(k+1,4,k+1) with regular long maps and this leading output support requires kernel dimension at least 2k+1. Therefore that chart is excluded at every Laurent order.",
+      "dependencies": [
+        "THM-PAIRED-OUTER-INJECTION-006",
+        "An injective polynomial-product projection and a rank-one corner update",
+        "Saturation of a subspace over the formal power-series discrete valuation ring"
+      ],
+      "limitations": "Does not cover changes to old source columns, different leading supports, singular long maps, or arbitrary source degenerations. Integer controls cover k=2 through 6; the general statement rests on the written proof.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-QUANTUM-BALANCED-WEIGHTS-011",
+      "title": "All diagonal Laurent weights of two fixed regular quantum families are excluded",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-nearfull-quantum/README.md",
+      "statement": "For a fixed regular complex tensor family whose valuation-zero support admits uniform marginals, any feasible diagonal Laurent initial tensor that further degenerates to a nonzero SL-polystable target forces the original constant tensor to degenerate to that target. Exact marginal and Koszul certificates apply this to the specified Q(4,2) and Q(5,4) families, excluding all such weights followed by arbitrary further degeneration to M(3,2,3) and M4 respectively.",
+      "dependencies": [
+        "Maintained unequal quantum source identities and Clebsch--Gordan maps",
+        "Hoskins 2013 affine invariant fibres and Kempf--Ness theorem under stated complex reductive hypotheses",
+        "Burgisser--Ikenmeyer arXiv:1511.02927v2 Corollary 4.9 for square matrix polystability",
+        "Exact rational marginal distributions and cyclotomic Koszul rank computations"
+      ],
+      "limitations": "The rational subspaces and regular families are fixed. Other preceding basis choices, source maps, auxiliary corrections, and general degenerations remain outside the result. Uniform support marginals are not asserted to make the constant tensor SL-polystable.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-PAIRED-Q64-PILOTS-012",
+      "title": "Sixteen complete width-four ordinary and Laurent search checkpoints",
+      "origin": "AI-derived experiments in the owner-directed generating session",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/q64_search_history.md",
+      "statement": "Sixteen bounded searches of Q(6,4) plus explicitly costed scalar summands against M(5,4,5) retain all complex map coefficients and completed iteration histories. Twelve ordinary pilots test every 10000 coefficients; four weighted Laurent pilots constrain all 7568 nonpositive-power positions and account for every remaining position. All sixteen saved objective values replay within 7e-16. None gives an exact tensor map.",
+      "dependencies": [
+        "THM-PAIRED-OUTER-INJECTION-006 for the small exact seed",
+        "Separately implemented standard-library native coefficient contraction",
+        "Dumitriu et al. arXiv:2610.13905v1 Section 2.3 for the external stabilizer-nullcone viewpoint"
+      ],
+      "limitations": "Each run has a finite 3000-update budget. Residuals, numerical rowspace factorizations, and operator spectra are diagnostics. No arbitrary-map exclusion, exact Laurent witness, independent review, or improved exponent follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

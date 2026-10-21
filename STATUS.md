@@ -49,11 +49,33 @@ Current constructive work seeks `Q(6,4) -> M(5,4,5)` and scalable formulas
 beyond the injection template's dimension limit. The exact small witness
 does not meet the unbounded fixed-width family premise.
 
-Checkpoint `274f50c`, integrating main `fc460bf`, passes all 412 local
-regression tests in 263.360 seconds and all five archive replays on an
-isolated checkout. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint6-validation.json)
+The [sixteen completed extension searches](research/ai/2026-10-20-paired-direct-sums/q64_search_history.md)
+retain all map coefficients and iteration histories. Twelve ordinary fits
+and four prescribed Laurent fits give no exact witness. A separate native
+coefficient replay checks their reported objectives, including every pole
+and every explicit scalar cost. The ordinary product component and the
+Laurent runs' non-nilpotent operator errors explain particular failed
+searches; they are not general obstructions.
+
+The [boundary-column calculation](research/ai/2026-10-20-paired-construction/outer_product_boundary.md)
+excludes an all-order extension that keeps the integer seed's old long-map
+columns fixed. Arbitrary new boundary columns lose at most one first-leg
+direction; a full next-size matrix extension needs at least `2k+1`.
+For Q(6,4), these numbers are one and nine. Changes to the old columns
+remain open and are being searched separately.
+
+The [balanced-support lemma](research/ai/2026-10-21-nearfull-quantum/README.md)
+closes all diagonal Laurent weights for two specified regular quantum
+families, even followed by arbitrary further degenerations to their full
+matrix targets. Exact rational marginal certificates and Koszul deficits
+supply its hypotheses. It does not exclude different leading families,
+auxiliary corrections, or the separate recovered integer construction.
+
+Checkpoint `9d5a222`, integrating main `d2ed2e9`, passes all 445 local
+regression tests in 266.914 seconds and all five archive replays on an
+isolated checkout. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint7-validation.json)
 records the exact tree and log hashes. The next integration incorporates
-main `d2ed2e9`; this earlier test count does not describe that enlarged tree.
+main `63eecee`; this earlier test count does not describe that enlarged tree.
 
 ## Audit of a separately claimed exponent improvement
 
@@ -987,6 +1009,38 @@ selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
 
+## Changed first jets at the quantum root flags
+
+[AI-QUANTUM-EXTENSION-SPACES-075](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+uses the concurrent partial-saturation argument to force dim W1=12 for
+M(10,10,11) with the prescribed rank-four leading images. Exact rational
+constraints classify all changed first derivatives: 20 dimensions per new
+output row and 532 coupled leading-row parameters, totaling 4772 for two
+110-row maps. The bilinear next component has first flattening rank 25
+and maximum matrix-slice rank at most eight. Other second-jet terms remain
+free, and no complete degeneration or smaller exponent is established.
+The proof is written and unreviewed.
+
+[AI-QUANTUM-BOUNDARY-TRAP-076](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+excludes all orders when the four leading output rows stay in explicit
+56-dimensional boundary spaces; the other rows may vary arbitrarily.
+A separate necessary bound caps the second partial saturated space at
+37 dimensions for all compatible first derivatives. Moving leading rows
+outside those spaces remains open, and compatible first-order directions
+that do so exist. These written proofs are unreviewed.
+
+## Maximal first jets with moving leading rows
+
+[AI-QUANTUM-MAXIMAL-JET-077](research/ai/2026-10-21-moving-boundary-flags/proof.md)
+extends the boundary obstruction to moving leading rows when both outside
+first-jet quotient ranks are 16. Exact linear systems leave only four
+normal directions. They move a common polynomial plane, and a formal
+induction confines the full maps to spaces of dimension 56. Thus these
+maximal first extensions cannot reach M(10,10,11) at any order. At least
+one first extension must be rank-deficient for a possible construction
+with the same leading maps. The written proof is unreviewed; delayed
+growth and other flags remain open, and the exponent is unchanged.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
@@ -1000,6 +1054,20 @@ hypotheses, using explicit nonzero coefficients over Q(zeta_6).
 The unique Cartan profile is adopted from claim 051; the second integer
 recursion only checks that earlier result. All new proofs are written and
 unreviewed. Different flags, ungraded constructions and powers remain open.
+
+## Candidate quantum quotient and weight-block comparisons
+
+[AI-CYCLIC-ROOT-MODULES-053](research/ai/2026-10-20-cyclic-weight-blocks/root_quotient.md)
+realizes the formal negative-singlet vertex character as an actual quantum
+quotient at a root of unity. The quotient keeps a divided-power connection
+that would be lost by treating its ordinary-generator pieces independently.
+This supplies target representation data, not the required tensor maps.
+
+[EXP-CYCLIC-BLOCK-FLATTENINGS-054](research/ai/2026-10-20-cyclic-weight-blocks/README.md)
+retains 14364 grading upper comparisons and 3924 modular source-rank
+comparisons on the selected A3, A4, A5 blocks. None excludes its target.
+The specified quantum leading flags closed by PR33 remain closed, and no
+exponent improvement is established.
 
 ## Size-five Cartan frontier
 

@@ -1,5 +1,26 @@
 # Attribution and provenance
 
+## Boundary extensions and balanced quantum supports
+
+The all-order boundary-column obstruction and the balanced-support
+deduction were developed in this same owner-directed session. The former
+uses the previously attributed integer injection and a saturated module
+over a discrete valuation ring. The latter imports affine invariant-fibre
+uniqueness and the Kempf--Ness theorem from the cited Hoskins manuscript,
+and credits the square matrix-polystability statement in
+Bürgisser--Ikenmeyer, arXiv:1511.02927v2. The exact rational quantum
+families reuse the maintained source identities and coefficient code.
+
+These are scoped written proofs with finite exact controls, not external
+independent review. They exclude the stated fixed-column chart and two
+fixed regular families. They do not exclude general tensor maps. The
+complete saved numerical Q54 discovery history is evidence for how the
+separate integer construction was found, not its acceptance criterion.
+The sixteen Q64 pilot records retain failed coefficient fits and their
+explicit scalar costs. Their error-removal viewpoint credits
+Dumitriu et al., arXiv:2610.13905v1, Section 2.3. The particular three-level
+nilpotence control is derived directly from the stated weights.
+
 ## Paired boundary budgets and kernel classifications
 
 The paired correction-budget, minimum-slice, narrow-kernel, regular-long-leg,
