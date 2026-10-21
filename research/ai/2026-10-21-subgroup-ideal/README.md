@@ -52,3 +52,13 @@ The package builds on the central-cover implementation from PR #73.
 Its new optional search argument is source-checked by the wrapper; it does
 not alter the earlier default searches. Claim `AI-SUBGROUP-IDEAL-027` is
 written and unreviewed.
+
+The first600-second ideal-filtered search completed with55 projected model
+events and52 exact parity circuits, all replayed, and no pair-injective
+lift. The other events learned additional conditional rows. This remains
+a timeout, not an exclusion. `mutate.py` then checked one/two-point changes
+in a single relevant leg of the two earlier lifts; none escaped the coset
+obstruction. `repair.py` checked3,840 removal patterns with at most two
+points removed per leg and four in total, keeping the identity points.
+Its3,892 backtracking nodes produced no coset-free pair model. These local
+neighborhoods retain their exact restrictions and are not sourcewide claims.
