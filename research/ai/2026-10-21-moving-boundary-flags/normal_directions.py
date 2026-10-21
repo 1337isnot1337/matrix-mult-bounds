@@ -110,6 +110,7 @@ def data():
             'first_kernel': first_kernel, 'free': free,
             'operator': operator, 'recover': recover,
             'cross_constraints': distinct_rows(raw), 'raw_cross_rows': raw.rows,
+            'left_obstruction': raw[:3200, :], 'right_obstruction': raw[3200:, :],
             'left_constraints': cb, 'right_constraints': cc,
             'E_B_complement': eb, 'E_C_complement': ec}
 
