@@ -19,6 +19,20 @@ The argument and certificate were produced by coordinated AI agents in this
 owner-directed research session. Same-session checks are not external
 mathematical review or formal verification. No historical priority is claimed.
 
+## Explicit rational refinement
+
+A later [polynomial-flag construction](rational_flag_construction.md) gives
+explicit rational matrices for the same finite degeneration. It replaces
+existence near a rational center with a direct rational coefficient identity.
+The [rational witness](../../../results/rectangular-t4-certificate-2026-10-21/rational-witness.json)
+and its [independent full-coefficient replay](../../../results/rectangular-t4-certificate-2026-10-21/rational-verification.json)
+are retained alongside the original contraction certificate. The rational
+maps work over every field of characteristic zero.
+
+The two certificates are different constructions of the same finite result.
+The original exact contraction proof remains valid. Neither certificate
+supplies the unbounded family needed to lower the exponent.
+
 ## 1. Source, target, and map orientation
 
 The convolution source is

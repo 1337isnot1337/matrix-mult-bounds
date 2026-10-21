@@ -1013,3 +1013,20 @@ not supply an unbounded family. Larger source-target constructions and
 a uniform cost bound remain necessary for the conditional exponent
 criterion. No exponent below 9/4 is established. The written proof has
 same-session checks and no external mathematical review.
+
+## Rational flags and a broader matched-sector target
+
+The [explicit rational refinement](research/ai/2026-10-21-rectangular-t4-certificate/rational_flag_construction.md)
+constructs the finite C(5,10) degeneration to T4 by polynomial flags,
+a cofactor pencil, and rational linear solves. A second implementation
+expands all 400 source coefficients exactly. This strengthens the earlier
+real existence certificate to explicit maps over the rationals; both
+certificates are retained. It does not improve the exponent.
+
+An [all-size first-flag formula](research/ai/2026-10-20-rectangular-module/first_flag.md)
+constructs all equations involving input degrees zero and one, with exact
+controls on 89,739 coefficients. The higher input rows remain unsolved.
+The [conditional growth target](research/ai/2026-10-20-construction-sprint/independent_sector_bases.md)
+may also use independent invertible shared identifications in its matched
+convolution sectors. This preserves the character lower bound and relaxes
+the search, but supplies no missing unbounded family.

@@ -1,0 +1,34 @@
+{
+  "status": "explicit rational full-source coefficient replay passed",
+  "source": "C(5,10)",
+  "source_dimensions": [
+    5,
+    10,
+    14
+  ],
+  "target": "canonical T4",
+  "target_dimensions": [
+    4,
+    10,
+    10
+  ],
+  "coefficient_field": "rational numbers; hence every characteristic-zero field",
+  "source_monomials": 50,
+  "target_coefficient_positions": 400,
+  "negative_coefficients_checked": 48,
+  "constant_coefficients_checked": 124,
+  "nonzero_target_coefficients": 20,
+  "nonzero_positive_remainder_coefficients": 228,
+  "maximum_remainder_degree": 2,
+  "natural_degree_constraints_checked": 140,
+  "map_ranks": [
+    4,
+    10,
+    10
+  ],
+  "shared_monomial_2_omitted": true,
+  "verifier_uses_only_standard_library": true,
+  "external_mathematical_review": false,
+  "improves_omega": false,
+  "witness_sha256": "4297c82ba14f70df03e7e0ff4b2ad663408673d746aae205f3204d2cfdcaa268"
+}
