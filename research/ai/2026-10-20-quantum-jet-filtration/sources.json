@@ -1,0 +1,38 @@
+{
+  "base_main": "75bf6a378f99c26c908bd9cd616e7e20bdf342ce",
+  "integrated_main": "8722b36",
+  "external_sources": [
+    {
+      "title": "Blasiak, Church, Cohn, Grochow, Naslund, Sawin and Umans, On cap sets and the group-theoretic approach to matrix multiplication",
+      "version": "arXiv:1605.06702v4, January 14, 2017; Discrete Analysis 2017:3",
+      "url": "https://arxiv.org/pdf/1605.06702v4",
+      "pdf_sha256": "c93f9682aa339065fc2039914afa882707c88794327e952429f941cd80839220",
+      "adopted": "Square matrix multiplication has slice rank n^2, Remark 4.9 via Theorem 4.6. No broader cap-set barrier is imported."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/quantum.py",
+      "sha256": "1a08abc90157539398cb749ab174d7118fbd905e6b4c014f2f321a731def12e2"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/family.md",
+      "sha256": "7e1fc394d6b8e149382683a987bfde895b02508127878cc3ef5276ecae23b243"
+    },
+    {
+      "path": "research/ai/2026-10-20-quantum-recoupling/discovery/cyclic_series.py",
+      "sha256": "816a1dd090cbcc02db2d397dbef063691e79d02f980885405682b44e13a6f614"
+    },
+    {
+      "path": "research/ai/2026-10-20-graded-quantum-flags/one_leg.py",
+      "sha256": "e4a81b72ff5da88cb8abe99f4eb6ab398c53c5e103023dfffe99d4856452ffeb"
+    },
+    {
+      "path": "research/ai/2026-10-20-graded-quantum-flags/saturation.md",
+      "sha256": "8d58190fa9995dc040cae9ce8df362639552974533a2c115eecb57694610f19b"
+    }
+  ],
+  "local_work": "First-jet saturation proof, uniform inactive-slice proof for constant codimension-two output projections, exact derivative/minor controls and completed finite-field saturation pilots.",
+  "ai_assistance": "Generated and checked by the same Codex session; no independent mathematical review.",
+  "improves_omega": false
+}

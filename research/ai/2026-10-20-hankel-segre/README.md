@@ -73,3 +73,13 @@ The missing construction `A(5,6)` degenerating to `M16+M4` remains an
 active way to obtain a strict improvement if a complete degeneration is
 found. The new obstruction shows why a search restricted to ordinary
 maps cannot succeed at that target.
+
+## Subsequent main-branch continuation
+
+The later [first-boundary theorem](../2026-10-20-anisotropic-constructions/hankel_boundary_dimension.md)
+and [updated square-sum frontier](../2026-10-20-anisotropic-constructions/square_sum_frontier.md)
+exclude the ordinary A(7,8) target that survived the relaxed screen here.
+The saved 52-format experiment and its exact data are preserved as their
+original finite scope; they no longer identify the current first survivor.
+The later main note records that larger frontier. Neither result excludes
+unrestricted singular degeneration or improves the exponent.

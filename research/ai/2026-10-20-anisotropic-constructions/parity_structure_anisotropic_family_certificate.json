@@ -1,0 +1,101 @@
+{
+  "claim": "A(a,a+1) -> M(2a-2) direct-sum M(2 floor((a-1)/2)), a>=5",
+  "examples": [
+    {
+      "a": 5,
+      "b": 6,
+      "source_format": [
+        300,
+        300,
+        300
+      ],
+      "source_terms": 27000,
+      "square_blocks": [
+        8,
+        4
+      ],
+      "target_format": [
+        80,
+        80,
+        80
+      ],
+      "target_terms": 576,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "both_local_inverse_identities_exact": true,
+      "complement_outer_product_identity_exact": true,
+      "map_nonzero_counts": [
+        216,
+        216,
+        216
+      ],
+      "map_max_absolute_entry": 1
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "source_format": [
+        504,
+        504,
+        504
+      ],
+      "source_terms": 74088,
+      "square_blocks": [
+        10,
+        4
+      ],
+      "target_format": [
+        116,
+        116,
+        116
+      ],
+      "target_terms": 1064,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "both_local_inverse_identities_exact": true,
+      "complement_outer_product_identity_exact": true,
+      "map_nonzero_counts": [
+        264,
+        264,
+        264
+      ],
+      "map_max_absolute_entry": 1
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "source_format": [
+        784,
+        784,
+        784
+      ],
+      "source_terms": 175616,
+      "square_blocks": [
+        12,
+        6
+      ],
+      "target_format": [
+        180,
+        180,
+        180
+      ],
+      "target_terms": 1944,
+      "all_output_coefficients_exact": true,
+      "all_mixed_coefficients_zero": true,
+      "both_local_inverse_identities_exact": true,
+      "complement_outer_product_identity_exact": true,
+      "map_nonzero_counts": [
+        404,
+        404,
+        404
+      ],
+      "map_max_absolute_entry": 1
+    }
+  ],
+  "a78_cropped_blocks": [
+    12,
+    5
+  ],
+  "a78_cropped_all_coefficients_exact": true,
+  "new_exponent_established": false
+}
