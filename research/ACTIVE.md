@@ -32,7 +32,9 @@ remains open. Checkpoint `cfa12ba` passes 467 local tests and five archive
 replays. The next checkpoint `1e0e468` completed 476 tests with one
 unsupported claim-status failure and five passing archive replays. The
 status label is repaired in the current continuation; its enlarged tree,
-including main `11aca0f`, needs its own full validation.
+including main `11aca0f`, is checkpoint `9d8b240`: all 485 local tests,
+five archive replays, and nine hosted checks passed. The next continuation
+integrates main `e00622f` and needs its own full validation.
 
 The boundary-only extension of the integer seed is now excluded at every
 Laurent order: its leading first-leg kernel has dimension at most one,
@@ -51,6 +53,26 @@ costed missing diagonals and different smaller leading points with more
 kernel slack. The fixed M2-leading monomial first-jet chart is excluded.
 Six complete-flag fits are preserved with exact grading/gauge controls;
 their low residuals do not pass exact Laurent acceptance.
+
+The inherited M1 endpoint corner has now been constructed exactly and
+excluded from degenerating to M4 by a closed low-slice-rank obstruction.
+The smaller sparse M1 lead has an all-size first-edge support deficit.
+Moving leading maps and changing the corner kernel remain open. The two
+completed moving-leading fits failed their coefficient and leading-rank
+conditions; the current free-kernel fit has no exact certificate either.
+The next reduced questions are a diagonal-deleted M4 target and a
+one-scalar correction to the corner. The natural fixed-endpoint corner
+family loses too many long-leg dimensions to scale directly, so either
+small success would still require an additional extension argument.
+
+The quantum lane closes the stated small homogeneous corrections to
+one fixed root-of-unity point and a fixed monomial first-cross chart for
+the partial bulk target. Arbitrary ungraded and differently singular
+maps remain open. Its next constructive question examines centered
+tensor aggregation, including the transpose orientation and all-size
+source costs. The 39 terminal leading-M4 points and twelve partial-bulk
+records are preserved as finite search evidence. A documented metadata
+repair restores sampled ridge histories without changing tensor maps.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
@@ -75,8 +97,10 @@ Its tested head was `4c88acad6b163ebb20011dd947a4092df003533f`, whose tree
 matches the squash merge. All required hosted jobs pass; the Python 3.10
 job reports 353 completed tests. Earlier checkpoints retain their exact
 local test receipts, including 350 tests at `bf4d187`.
-PR #38, `research/residual-boundary-20261021`, preserves the new boundary
-proof, frontier update, and exact retained-residual maps. The complete
+PR #38 is merged at `fc460bf25fb106ab5de38863d37d1ac4cbfd12dc`.
+Its tested head `f87d3037c9d559ba6972d4738a7d88209dbc8627` has the same
+source tree, with every current hosted check passing. It preserves the
+boundary proof, frontier update, and exact retained-residual maps. The complete
 local suite at `8b09235` passes 368 tests and all five archive replays
 using only maintained verification dependencies. The initial Markdown
 link-check failure and its notation repair are retained in the validation
@@ -112,8 +136,50 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The proof and exact-map package is pushed in PR #38. Current hosted
-checks are required before merging; preserve concurrent worker files.
+The active topic branch is `research/torus-anchors-20261021`,
+[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43).
+Its checkpoints `fa74fee`, `574cb35`, and `bb64dae` are pushed. The first,
+combined with main `f67467d`, passed 391 tests and all five archive replays
+using only maintained dependencies. The second adds 24 passing focused
+tests. The complete third-checkpoint suite ran 447 tests: 446 passed and
+the optional NumPy control skipped. All five original archive replays
+passed. Its receipt pins `bb64dae` and main `b0a54f2`; newer packages have
+separate focused checks. Claims 075 through 097 now include the exact partial maps,
+both fixed-boundary noncompletion proofs, the graded core bound, the
+free-interior family and its fixed-channel limits, the two-leg rank chain,
+the complete original-profile degree-13 obstruction, the width-13 rank
+contradiction, the finite common-vertex M7 screen, and the saturated pencil
+determinant, the complete common-profile classification, unequal-profile
+partial controls, the universal homogeneous support-peeling obstruction,
+the quantitative mixed-grading requirement, two complete Laurent collision
+controls, and scalar-power correction reuse with exact source-cost accounting.
+The saved map bytes and their positive partial identities remain unchanged.
+Checkpoint `9d676ab` includes concurrent main through `63eecee`. Its 16
+focused construction/concurrent-main tests and 18 repository/profile checks
+pass. The subsequent merge includes `fc8207e`, preserves all 137 claim
+records, and passes the five new second-jet tests with maintained dependencies.
+
+All ordinary maps that send target matrix units homogeneously into the
+fixed source grading are now excluded for A88 to M27 plus M7, including
+every unequal vertex profile. The exact support-peeling sequence is
+960 to 922 to 834 to 468, which contradicts the required map rank 778.
+The primary separator certificate and an independent full-source replay
+agree. The earlier profile candidates are historical partial controls.
+
+The ungraded A88 frontier remains open. Construction work now studies
+maps mixing several source weights, genuine Laurent cancellation, and
+tensor-power recycling with explicit residual and source-cost accounting.
+Every ordinary construction needs at least 19 images with three or more
+source weights on each of at least two legs. The exact three-weight M12
+plus M3 maps remain a smaller-target change of basis. The full 134-direction
+Laurent core cannot reach the 778-dimensional target by postcomposition;
+the singular worker is adding unused original source directions before the
+limit and solving the negative-power cancellation equations. Pure A22
+tensor powers cannot cross the current sixfold square-sum gate even by
+dimension, so recycling work requires a different source budget or a real
+source compression.
+All three research slots remain assigned. Current hosted checks are
+required before merging; preserve concurrent worker files.
 
 ## Earlier coordinated integrations
 

@@ -4,6 +4,62 @@ Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
+## Smaller leading maps and partial targets
+
+The [endpoint corner calculation](research/ai/2026-10-20-paired-construction/m1_endpoint_corner.md)
+constructs an exact `16 x 18 x 18` tensor R from Q(6,4). It then excludes
+every degeneration of this R to M4: every restriction to the required
+long-leg dimensions retains a nonzero slice of rank at most three,
+whereas M4 has minimum nonzero slice rank four. The projective incidence
+argument makes this obstruction closed under limits. The result concerns
+the stated inherited corner kernel, not arbitrary Q(6,4) maps.
+
+The [M1 leading-point package](research/ai/2026-10-20-paired-direct-sums/q64_m1_leading_history.md)
+excludes one fixed sparse leading seed by a first-edge support deficit,
+for all source outer sizes at least four. A different endpoint seed passes
+that support test. Its three inherited outer rows leave exactly the
+corner kernel used above. Two completed searches that let the leading
+maps move retain all saved coefficients and sampled histories; neither
+satisfies the Laurent equations or the necessary leading-rank condition.
+
+The [partial-target proof](research/ai/2026-10-21-bulk-partial/README.md)
+excludes another specified first-cross chart without assuming tight
+saturation. A polynomial pencil over `C[u]/(u^4)` forces a required
+rank-four edge to have rank at most two. Twelve bounded partial-target
+probes also retain their maps and actual stops. No all-size bulk
+construction has been found. Restoring the stated omitted diagonals
+would have linear auxiliary rank if such a construction existed.
+
+The [graded correction calculation](research/ai/2026-10-21-quantum-correction/README.md)
+excludes up to four homogeneous scalar corrections for one fixed
+root-of-unity quantum tensor and three specified assignments of six
+corrections. Slice ranks and a nonzero normalized-slice commutator give
+the exact obstructions. Ungraded maps and general Laurent families are
+outside these results.
+
+The [leading-M4 search archive](research/ai/2026-10-21-leading-m4-search/README.md)
+preserves 39 terminal points from seven finite search families, their
+available histories and discovery source snapshots. A standard-library
+replay checks all 576 source terms and 4,096 output positions at every
+point. No exact lead with the needed kernel dimension was found. The
+archive documents a corrected norm-penalty derivative and preserves
+the earlier runs as historical evidence. These points are not 39
+independent restarts, and full intermediate maps were not retained.
+
+A separate [history correction](research/ai/2026-10-20-paired-direct-sums/q64_ridge_metadata_correction.md)
+restores 90 sampled ridge-parameter snapshots in three previously
+published full-flag artifacts from their original emitted records.
+The recorder now copies the mutable parameter list. Saved maps,
+coefficient errors, actual stops, and mathematical statuses are unchanged.
+
+Checkpoint `9d8b240`, integrating main `11aca0f`, completed all 485 local
+tests successfully; all five archive replays and nine hosted checks also
+passed. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint10-validation.json)
+preserves the full machine-readable completion result. The separately
+retained live text stream is incomplete and is identified as such.
+This continuation incorporates main `e00622f` and the packages above;
+the earlier test count does not describe that enlarged tree.
+
 ## Paired constructions with boundary and correction budgets
 
 An [exact integer construction](research/ai/2026-10-20-paired-construction/outer_product_injection.md)
@@ -93,7 +149,7 @@ Site packages are disabled for these runs; maintained verification uses
 the declared dependencies. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint8-validation.json)
 records the exact tree and log hashes. All nine observed hosted checks,
 including CI, also pass. The next integration includes main `fc8207e`;
-this test count does not describe that enlarged tree.
+this historical test count applies only to `cfa12ba`.
 
 The [external rank-76 seed screen](research/ai/2026-10-21-external-grid-seed/README.md)
 replays all 10,000 coefficients of a known AlphaTensor M(4,5,5) algorithm.
@@ -152,11 +208,40 @@ do not change the mathematical review status of the research.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records twenty-three local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-QUOTIENT-VOLUME-074,
+The constructive continuation records forty-six local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-SCALAR-POWER-RECYCLING-097,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
+now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
+images are homogeneous for the fixed source grading**, including unrelated
+vertex charge lists and profiles with holes. Exact rank budgets successively
+force all three map images into coordinate spaces of dimensions
+960, 922, 834, and finally 468, below the required 778. The primary verifier
+checks 492 removals through integer separating lines, independently of the
+discovery hull algorithm. A separately written full-source replay agrees
+on every retained coordinate set. Ungraded maps and arbitrary singular
+degenerations remain open, and the exponent is unchanged.
+
+The [mixed-grading extension](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_mixed_grading.md)
+shows that, on at least two legs of any ordinary target restriction,
+at least 19 matrix-unit images must each use three or more source weights.
+It uses separate coordinate masks and injectivity inherited from the full
+maps. An exact M12 plus M3 change of basis provides a positive control
+with balanced cross-weight cancellation; it does not enlarge that target.
+
+Two [Laurent collision controls](research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_extension.md)
+give explicit singular limits from the existing three matrix cores.
+The larger limit retains all 134 intermediate directions per leg, including
+24 off-diagonal directions, with complete negative-power cancellation.
+The [scalar-power construction](research/ai/2026-10-20-anisotropic-constructions/scalar_power_recycling.md)
+reuses corrections to realize A22 squared plus A22 plus M3 to M9 with
+165 source coordinates per leg. Its all-power residual has exact flattening
+rank 9^k-8^k, and its complete source cost does not cross the finite gate.
+These are constructed identities and scoped cost bounds, not smaller
+exponent claims.
 
 - The [oriented endpoint analysis](research/ai/2026-10-20-critical-character-extension/README.md)
   gives a common critical amplitude and a quantitative stability bound.
@@ -228,9 +313,79 @@ do not constitute independent mathematical review.
   The latter has 462 nonzero entries per map and a complete sparse replay.
   These controls do not construct the larger improving target.
 
+- A new [torus-compatible exact seed](research/ai/2026-10-20-anisotropic-constructions/parity_structure_torus_seed.md)
+  gives A(8,8) to M12 plus M3. The [monotone physical-vertex construction](research/ai/2026-10-20-anisotropic-constructions/monotone_endpoint_seeds.md)
+  gives exact endpoint M4 and M8 controls. The latter construction's literal
+  common coordinate code has a [size limit](research/ai/2026-10-20-anisotropic-constructions/coordinate_compression_limit.md):
+  every A88 M27 construction must leave that code on each target leg.
+- The [recorded endpoint maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_torus_anchors.md)
+  have full row rank 778 on all three legs. They satisfy all six extreme
+  slices of the M27 plus M7 target and the complete endpoint M4 tensor.
+  Each rational map has denominator 64 and 782 nonzero entries. The other
+  target coefficients cannot all be satisfied with that boundary fixed:
+  a [direct affine-slice contradiction](research/ai/2026-10-20-anisotropic-constructions/torus_affine_slices.md)
+  forces a coefficient to equal one where the target requires zero.
+  A [four-map relation](research/ai/2026-10-20-anisotropic-constructions/fixed_anchor_obstruction.md)
+  excludes completion of the preserved first Hadamard seed with its stated
+  maps fixed. Both saved seeds remain valid controls for their partial
+  identities, and both fixed boundary families are now nonextendable.
+- The [degree-13 pencil proof](research/ai/2026-10-20-anisotropic-constructions/torus_degree13_pencils.md)
+  excludes every ordinary grading-preserving restriction with the original
+  symmetric 27-plus-7 charge profile, including arbitrary boundary maps.
+  It combines the [two-leg rank chain](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_rankone_13_chain.md),
+  exact source symmetries, universal product identities and all 256
+  singular-projection patterns. This does not exclude the ungraded frontier.
+- A [saturated-block rank inequality](research/ai/2026-10-20-anisotropic-constructions/torus_saturated_blocks.md)
+  excludes the common width-13 profile: its target block has rank 9,
+  while saturation of the two input spaces requires rank at least 12.
+  A separate [cube determinant](research/ai/2026-10-20-anisotropic-constructions/torus_saturated_pencil.md)
+  excludes specified saturated degree-13 pairs even with unequal vertex
+  charge lists. Neither argument addresses arbitrary singular limits.
+- The [graded fixed-core bound](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_fixed_core_weights.md)
+  excludes keeping two complete copies of the displayed M4, M6 or M8 core
+  while extending to the original profile. The [free-interior construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_free_interior.md)
+  gives A(a,a) with both physical endpoints deleted to
+  M(a-1) plus M(a-1) plus M(a-2), for every a>=3. Its fixed M7 channels
+  also fail an exact extension-rank test; movable small-block maps remain open.
+- The [complete common-vertex M7 screen](research/ai/2026-10-20-anisotropic-constructions/parity_structure_m7_vertex_screen.md)
+  covers 1,290,240 choices. Sixteen pass the necessary weight-zero rank
+  gate, but all retain 498 unwanted coefficients. Exact balanced cycles
+  obstruct removing those extras by coefficientwise Laurent rescaling.
+- The earlier [common-profile classification](research/ai/2026-10-20-anisotropic-constructions/parity_structure_common_profiles.md)
+  also closes all common integer charge lists by exact enumeration and
+  local proofs. Its [zero-grade lemma](research/ai/2026-10-20-anisotropic-constructions/parity_structure_zero_grade_rank.md)
+  gives minimum slice rank a for the zero-grade A(a,a) tensor. The later
+  peeling proof removes the need to enumerate profiles for the main exclusion.
+  [Unequal-profile partial maps](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_unequal_profiles.md)
+  retain exact M12 plus M3 controls; their full targets are explicitly
+  excluded. Optional numerical objective code is preserved with separate
+  small controls and introduces no maintained dependency.
+- The [simple-pole argument](research/ai/2026-10-20-anisotropic-constructions/compression_simple_poles.md)
+  excludes a nonzero simple pole in the fixed A22 compression chart when
+  the trace tensor must have a finite limit. It does not cover arbitrary
+  pole supports or moving physical bases. A separate [stabilizer invariant](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_stabilizer.md)
+  excludes the saved dyadic A33 numerical seed from the stated target
+  stabilizer orbit, with a complete integer-only modular replay. It does
+  not exclude changing that seed or general A33 maps.
+
 The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
 records 368 passing tests and five unchanged archive replays at `8b09235`.
 This computational coverage does not change the proof-review status.
+
+The [torus-anchor checkpoint receipt](results/anisotropic-constructions-2026-10-20/torus-anchors-validation.json)
+records 391 passing tests and five unchanged archive replays for `fa74fee`
+combined with main `f67467d`. That receipt predates the new fixed-boundary,
+degree-13 and saturated-block packages; it is not their validation receipt.
+
+The [support-peeling checkpoint receipt](results/anisotropic-constructions-2026-10-20/torus-peeling-validation.json)
+records the complete 447-test suite at `bb64dae`: 446 passed and the optional
+NumPy control skipped. All five original archive replays passed unchanged.
+This pin includes main through `b0a54f2` and claims through 093; the newer
+mixed-grading, Laurent, scalar-power and concurrent-main additions pass
+the [separate 16-test focused suite](results/anisotropic-constructions-2026-10-20/torus-construction-controls-validation.json).
+The claim ledger, source registry, archive manifest and relative links also
+pass their repository checks. Current hosted validation is required before
+merge.
 
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.

@@ -1,5 +1,34 @@
 # Attribution and provenance
 
+## Smaller leading maps, correction slices, and partial targets
+
+The M1 leading-point, endpoint-corner, fixed-seed partial-target, and
+graded quantum-correction notes were developed in this owner-directed
+session. They reuse the explicitly attributed source framework and the
+previous exact integer injection. The endpoint corner proof uses the
+Stacks Project's projective incidence and proper-projection facts,
+with their precise hypotheses and tags cited in that note. The graded
+quantum calculation reuses the maintained root-of-unity tensor formulas.
+The polynomial-unit pencil argument is given directly over the stated
+truncated polynomial ring.
+
+All general deductions remain written and externally unreviewed. Agent
+cross-checks and exact coefficient tests are work within the generating
+session. None of these obstructions excludes arbitrary source maps or
+establishes a smaller matrix multiplication exponent.
+
+The leading-M4 archive distinguishes original discovery runs from the
+corrected norm-penalty derivative and retains available terminal maps,
+reports, and source snapshots. It does not contain every intermediate
+map. The M1, full-flag, quantum-correction, and partial-target packages
+preserve their actual numerical stopping records. Two partial-target
+runs were replayed to retain final maps, and their earlier retained
+checkpoints are separately identified. A mutable-list recording error
+in sampled full-flag ridge parameters was repaired from original
+emitted records, with before/after hashes and unchanged-map checks.
+This repair changes experiment metadata, not mathematical evidence
+of an exact identity.
+
 ## Larger correction budgets and leading-flag experiments
 
 The superlinear correction-budget note combines the previously attributed

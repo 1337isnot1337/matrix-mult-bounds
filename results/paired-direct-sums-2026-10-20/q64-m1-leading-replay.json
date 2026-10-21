@@ -1,0 +1,93 @@
+{
+  "controls": {
+    "integer_Q22_control": {
+      "all_integer_positions_checked": 64,
+      "exact_positive_control_passed": true,
+      "deliberate_sign_error_detected": true
+    },
+    "laurent_control_source": "Q(6,4) direct sum D_101; all Q columns map to zero",
+    "laurent_control_scalar_cost": 101,
+    "all_integer_positions_checked": 10000,
+    "nonzero_positive_power_permitted": true,
+    "negative_power_error_detected": true,
+    "control_is_exponent_improvement": false
+  },
+  "replays": [
+    {
+      "artifact": "q64-m1-sparse-checkpoint.json",
+      "artifact_sha256": "f7b3ec6b7f33523138c57030e39ed8f06227c26ce42d99f6c7eece6e4791a7b1",
+      "source": "Q(6,4) direct sum D_r",
+      "auxiliary_rank": 0,
+      "target": "M(5,4,5)",
+      "base_source_terms_reconstructed": 576,
+      "scalar_terms_reconstructed": 0,
+      "all_target_positions_accounted": 10000,
+      "coefficient_position_counts_by_degree": {
+        "-2": 256,
+        "-1": 2176,
+        "0": 5136,
+        "1": 2176,
+        "2": 256
+      },
+      "all_nonpositive_positions_checked": 7568,
+      "relative_nonpositive_coefficient_error": 0.11752445963447798,
+      "maximum_nonpositive_coefficient_error": 0.1612781433441756,
+      "reported_residual_difference": 9.71445146547012e-17,
+      "coefficient_norms_by_degree": {
+        "-2": 0.09896210024217313,
+        "-1": 0.9950777286537509,
+        "0": 9.879912593987246,
+        "1": 39.018949446050975,
+        "2": 56.808521634253175
+      },
+      "map_frobenius_norms": [
+        29.999999999957428,
+        29.99999999995744,
+        29.999999999957435
+      ],
+      "numerical_replay_passes": true,
+      "numerical_candidate_below_1e_minus_12": false,
+      "exact_coefficient_certificate": false,
+      "nonexistence_proved": false,
+      "improves_omega": false
+    },
+    {
+      "artifact": "q64-m1-product-checkpoint.json",
+      "artifact_sha256": "a70f996025b924a027a72ed0b365b73857c54602e0f0480d86d039f943db810b",
+      "source": "Q(6,4) direct sum D_r",
+      "auxiliary_rank": 0,
+      "target": "M(5,4,5)",
+      "base_source_terms_reconstructed": 576,
+      "scalar_terms_reconstructed": 0,
+      "all_target_positions_accounted": 10000,
+      "coefficient_position_counts_by_degree": {
+        "-2": 256,
+        "-1": 2176,
+        "0": 5136,
+        "1": 2176,
+        "2": 256
+      },
+      "all_nonpositive_positions_checked": 7568,
+      "relative_nonpositive_coefficient_error": 0.0730396967405866,
+      "maximum_nonpositive_coefficient_error": 0.09307289007065735,
+      "reported_residual_difference": 1.5265566588595902e-16,
+      "coefficient_norms_by_degree": {
+        "-2": 0.1251396975034516,
+        "-1": 0.6266684396107151,
+        "0": 9.95057330936914,
+        "1": 90.73554315417117,
+        "2": 156.08285918333127
+      },
+      "map_frobenius_norms": [
+        29.99999999980283,
+        29.99999999980282,
+        29.999999999802824
+      ],
+      "numerical_replay_passes": true,
+      "numerical_candidate_below_1e_minus_12": false,
+      "exact_coefficient_certificate": false,
+      "nonexistence_proved": false,
+      "improves_omega": false
+    }
+  ]
+}

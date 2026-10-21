@@ -119,7 +119,7 @@ def fit(grading,seed,iterations,initial,checkpoint,norm_budget=None,gauge_kind='
                     'positive_coefficient_norm':float(np.linalg.norm(actual[degree>0])),
                     'map_norms':[float(np.linalg.norm(m)) for m in maps],
                     'map_smallest_singular_values':[float(np.linalg.svd(m,compute_uv=False)[-1]) for m in maps],
-                    'norm_budget':norm_budget,'ridge_parameters':ridges,
+                    'norm_budget':norm_budget,'ridge_parameters':ridges.copy(),
                     'elapsed_seconds':time.monotonic()-started}
             history.append(record)
             print(json.dumps(record),flush=True)

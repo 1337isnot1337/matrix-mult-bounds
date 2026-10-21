@@ -1,0 +1,49 @@
+{
+  "source": "A(8,8)",
+  "matrix_core_size": 6,
+  "target_leg_dimension": 134,
+  "source_leg_dimension": 960,
+  "selected_original_source_columns_per_leg": [
+    134,
+    134,
+    134
+  ],
+  "map_nonzero_monomials": [
+    278,
+    278,
+    278
+  ],
+  "source_terms_examined": 262144,
+  "source_terms_meeting_all_three_maps": 902,
+  "individual_contributions_by_power": {
+    "-6": 648,
+    "-3": 1296,
+    "0": 2810,
+    "2": 36,
+    "3": 3240,
+    "6": 2808,
+    "9": 1296,
+    "12": 432
+  },
+  "nonzero_coefficients_by_power": {
+    "0": 1514,
+    "2": 36,
+    "3": 216,
+    "6": 1512,
+    "12": 216
+  },
+  "constant_target_terms": 1514,
+  "constant_target_flattening_ranks": [
+    134,
+    134,
+    134
+  ],
+  "retained_off_diagonal_directions_per_leg": 24,
+  "all_negative_powers_cancel_exactly": true,
+  "every_constant_coefficient_equals_one": true,
+  "all_unwanted_constant_coefficients_zero": true,
+  "nonzero_to_nonzero_arm_tamper_rejected": true,
+  "standard_library_only": true,
+  "full_target_27_plus_7_witness": false,
+  "new_exponent_established": false
+}
