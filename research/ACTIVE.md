@@ -276,16 +276,18 @@ source costs. The 39 terminal leading-M4 points and twelve partial-bulk
 records are preserved as finite search evidence. A documented metadata
 repair restores sampled ridge histories without changing tensor maps.
 
-The central-group worker's current constructive source is S5 x C2 with
-target M(13,14,14), on `research/s5-split-20261021`. The exact2.247 comparison
-and weighted3-by3 control pass, and the defining-characteristic ideal-power
-calculation does not exclude this target. Two bounded SAT runs found no
-projection; the local runs exported32 exact parity contradictions.
-The four-color extension S5 x C2 squared has an exact improving
-conditional M19 gate and a new central matching cut. Its native search
-timed out; a projected local search and smaller improving rectangular
-formats are the current construction questions. No smaller exponent is established. Preserve the active
-discovery reports and source certificates when integrating or cleaning.
+The central-group worker merged H_5 incidence through PR #42 at bfc5243,
+the all-power modular application through PR #78 at b95abc2, and the
+native two-cover package through PR #73 at80737e6. Their tested and
+merged trees match, and their completed topic branches are removed.
+PR #79 adds the written subgroup-ideal cuts and is ready with auto-merge
+enabled. The constructive source on research/s5-split-20261021 is now
+S5 with central C2, C2 squared or C4. The exact2.247 comparisons pass
+conditionally; actual improving targets remain missing. The E4 central
+matching lemma has a strict-potential proof, while C4 matching is already
+excluded by a color-sum argument. The direct colored sampler reached two
+collisions for M(18,18,20); both four-color bases are being continued.
+No smaller exponent is established. Preserve ongoing discovery reports.
 
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
