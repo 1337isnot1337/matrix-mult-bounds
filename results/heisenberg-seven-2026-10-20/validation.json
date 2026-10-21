@@ -1,0 +1,27 @@
+{
+  "integrated_commit": "38b510c",
+  "integrated_main": "20fa49b",
+  "full_regression": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 589,
+    "skipped": 3,
+    "elapsed_seconds": 921.935,
+    "status": "passed"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "earlier_failure": {
+    "tests": 585,
+    "failures": 1,
+    "cause": "The source-registry test still expected33 entries after four new primary sources were added. Updated to37 and checked all four IDs; no mathematical verifier failed."
+  },
+  "log_sha256": {
+    "modular-combined-tests.txt": "52e838a3fc71e0f32b849582f30f4d3732a1873589b0408ad983d34d186ee3ff",
+    "modular-integrated-tests.txt": "69dee7605cd38fe450aab5f52d9fdea5b667303e8d5d466fe142fe78061a0b10",
+    "modular-registry-tests.txt": "f9911a1cf776b5fb29b08e3de81fd6e29ae83dfb594178c5da2ddcffd75f4f43",
+    "modular-archive-replay.txt": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "scope": "Local regression and finite replay. Current hosted integration and independent mathematical review are distinct; no exponent improvement."
+}
