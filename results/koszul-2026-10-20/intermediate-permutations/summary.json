@@ -1,0 +1,290 @@
+{
+  "status": "bounded floating discovery; no exact witness and no exclusion",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "m": 4,
+  "B": 10,
+  "weight_direction": [
+    5,
+    2
+  ],
+  "shared_basis": "11 nonaffine permutations with first image 0 or 1",
+  "equations_per_run": 121,
+  "budget_per_run": 600,
+  "completed_runs": 11,
+  "best_partial_residual": 1.3397202785639277e-05,
+  "best_sampled_relative_full_tensor_error": 3.0780540955716753,
+  "full_tensor_epsilon_grid": {
+    "minimum": 0.05,
+    "maximum": 1.0,
+    "samples": 300,
+    "spacing": "geometric"
+  },
+  "new_exponent_established": false,
+  "records": [
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "seed": 202610200,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 0.00011697044066453846,
+      "max_coefficient": 14.064442152584258,
+      "minimum_singular_values": [
+        0.00031891193500918814,
+        0.007630085163520669
+      ],
+      "seconds": 6.812631265999698,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "seed": 202610201,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 1.3397202785639277e-05,
+      "max_coefficient": 4.236403973789623,
+      "minimum_singular_values": [
+        0.00013786217218681156,
+        0.7270781002690404
+      ],
+      "seconds": 6.532038661000115,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "seed": 202610202,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 2.952127512110215e-05,
+      "max_coefficient": 7.011296597798698,
+      "minimum_singular_values": [
+        3.449711520500033e-07,
+        0.00021153912393576306
+      ],
+      "seconds": 5.9912856420000935,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "seed": 202610203,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 7.596683105454825e-05,
+      "max_coefficient": 6.9453430996347905,
+      "minimum_singular_values": [
+        2.1030185840718213e-06,
+        0.0009403447166196426
+      ],
+      "seconds": 6.452714703000311,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "seed": 202610204,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 3.63325207825998e-05,
+      "max_coefficient": 5.925142202449104,
+      "minimum_singular_values": [
+        7.962509235999468e-05,
+        0.1521468050730323
+      ],
+      "seconds": 5.898316431000239,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "seed": 202610205,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 8.093659171282435e-05,
+      "max_coefficient": 11.244912281149169,
+      "minimum_singular_values": [
+        0.0006391188388824323,
+        0.0495109307365818
+      ],
+      "seconds": 5.967336482000064,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "seed": 202610206,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 5.783040426146371e-05,
+      "max_coefficient": 7.198353195515423,
+      "minimum_singular_values": [
+        0.0011303675069857127,
+        0.002797726931616806
+      ],
+      "seconds": 5.734089055000368,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "seed": 202610207,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 0.0002166282317093809,
+      "max_coefficient": 10.22463138833375,
+      "minimum_singular_values": [
+        0.0001213699465340559,
+        0.009855450142461837
+      ],
+      "seconds": 5.166307693999443,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "seed": 202610208,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 4.261839021649396e-05,
+      "max_coefficient": 5.613473323747894,
+      "minimum_singular_values": [
+        0.004104805761916448,
+        0.009199008747498278
+      ],
+      "seconds": 4.876248088000466,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "seed": 202610209,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 5.586687509413189e-05,
+      "max_coefficient": 6.797075633334463,
+      "minimum_singular_values": [
+        2.5634405876538114e-06,
+        0.0003542370900536597
+      ],
+      "seconds": 5.463633686000321,
+      "status": "floating discovery only; no exact certificate"
+    },
+    {
+      "m": 4,
+      "B": 10,
+      "alpha": 5,
+      "beta": 2,
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "seed": 202610210,
+      "budget": 600,
+      "nfev": 600,
+      "equations": 121,
+      "residual": 8.103931680548332e-05,
+      "max_coefficient": 12.04436990611478,
+      "minimum_singular_values": [
+        4.861879505722159e-07,
+        0.0015994131883097565
+      ],
+      "seconds": 5.550480093999795,
+      "status": "floating discovery only; no exact certificate"
+    }
+  ]
+}

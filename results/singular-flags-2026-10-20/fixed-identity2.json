@@ -1,0 +1,82 @@
+{
+  "m": 2,
+  "B": 3,
+  "shared_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "solver": "4.15.3",
+  "seed": 1297535967,
+  "timeout_ms": 45000,
+  "result": "sat",
+  "query_sha256": "d96e48f884a15e1361973a17df7c6d0d91bc1a4faa234790dc20047cfec96e1a",
+  "scope": "Fixed shared basis followed by singular diagonal weights; coordinate injection on Y; arbitrary constant output matrix.",
+  "improves_omega": false,
+  "witness": {
+    "m": 2,
+    "B": 3,
+    "shared_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "source_y_indices": [
+      1,
+      0,
+      2
+    ],
+    "output_matrix": [
+      [
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "1"
+      ]
+    ],
+    "weights": {
+      "x": [
+        0,
+        2
+      ],
+      "y": [
+        0,
+        5,
+        3
+      ],
+      "z": [
+        -5,
+        0,
+        -2
+      ]
+    }
+  },
+  "verification": {
+    "coefficients_checked": 18,
+    "exact_rational_verified": true
+  },
+  "retained_query": "fixed-identity2.smt2.gz",
+  "query_digest_applies_to": "Decompressed exact SMT text"
+}

@@ -4,8 +4,9 @@ Goal active: prove an arithmetic exponent strictly below 9/4. No such bound
 has been established. The user directed continued work beyond checkpoints.
 
 Checkout `/home/cinna/matrix-mult-koszul-20261020`, branch
-`research/intermediate-weights-20261020`. PR 1 was merged at `1c8b4f1` and its
-branch was removed locally and remotely. Preserve the two historical archives.
+`research/finite-amplitude-20261020`. PR 1 was merged at `1c8b4f1` and PR 8
+at `daeae6e`; both finished branches were removed locally and remotely.
+Preserve the two historical archives.
 Fetch the other branches before selecting a new substantial task.
 
 Current mathematical gap: construct C(m,B_m) -> T_(m,k_m) along an unbounded
@@ -78,14 +79,53 @@ The scalar worker already owns mixed-direction numerical fitting; avoid
 duplicating its completed runs. Our next question is an analytic condition
 on the remaining larger slopes or on arbitrary singular shared maps.
 
-The next finite construction model is m=4,B=10,(alpha,beta)=(5,2), with a
-nonaffine shared permutation and arbitrary constant dense P,Q. This differs
-from the completed scalar-worker directions and the product worker's Y
-coordinate injection model. An exact coefficient witness is required; a
-bounded numerical fit is discovery only. A finite m=4,k=1 construction would
-still not establish the unbounded family or an exponent improvement.
+The m=4,B=10,(alpha,beta)=(5,2) pilot completed 11 nonaffine shared
+permutations with arbitrary dense P,Q and 600 function evaluations each.
+No exact witness was found. All final arrays and full-tensor diagnostics are
+retained; see `permutation_probe.md`. Do not rerun these unchanged fits.
+
+Selected next question: can a finite tensor construction prove (H4) in
+`finite_amplitude.md`, the universal near-endpoint inequality
+P(4,4)>=(13/12)*P_*(4,4)=5005/486? The existing tripling and two-sector
+constructions would then imply the exact rational bound omega<=2249/1000.
+The premise is unproved. A dimension screen excludes using only independent
+matrix products extracted from powers of the symmetrized C(2,2) or C(3,3)
+to cross their corresponding endpoint ceilings. C(4,4) is the first
+diagonal not eliminated by that screen; no extraction has been constructed.
+The concrete selected target (H106) is a degeneration from the tensor product
+of all six leg permutations of C(4,4) to M(106,106,106). It independently
+implies omega<=2.249, by the exact certificate 3816^2249>22^6000. Source and
+target leg dimensions are 12544 and 11236, respectively. Applying the group
+worker's abelian opposite-relation argument now excludes coordinate
+injections with diagonal weights: a single square target is at most M49.
+Combining that argument with Holder also closes all-power coordinate
+extractions into direct sums of matrix products at a=4. The remaining
+H106 investigation must allow non-coordinate maps and cancellation. This
+does not construct H106 or rule out its unrestricted form.
 
 Other agents own full/off-leading Clebsch--Gordan and truncated-algebra source
 searches (`f6f307c`) and the group-potential search (`f7aa680`). The scalar
 agent's all-degree target/threshold work overlaps ours; retain attribution
 and avoid counting the common formulas twice. See `docs/concurrent_research.md`.
+
+The recoupling package merged through PR #16 at e41c77d after current CI;
+its completed local and remote branch was removed. The exhaustive grouped
+binary search covered 1,797,505 supports at a=4 without a scored gain.
+The subsequent exact A_2 -> M(2,3,4) integer mixed-map certificate is in
+`../2026-10-20-cyclic-mixed-map/README.md`. It does not improve P_*(2,2).
+Current construction question: can its cancellations be extended to larger
+cyclic targets or used to initialize a singular construction? Larger
+ordinary small-source pilot fits are discovery only, not exclusions.
+
+The exact M(2,3,4) construction merged through PR #18 at 9a4ee3d after
+current CI; its completed local and remote branch was removed. The first
+A_3 -> M(3,5,9) pilot found no certificate in eight real starts. Claim 047
+now excludes full-capacity direct sums of square targets at all powers
+using closed-orbit theory; it does not address the smaller H1100/H106
+targets or provide an asymptotic loss. Continue on unrestricted singular
+constructions, avoiding ordinary H1100 maps and full-capacity square aims.
+
+Claim 048 also rules out a general complex degeneration of the central
+4-by-4-by-4 multiplicity block to M2, using exact smooth-cubic identities
+and polystability. This strengthens claim 045 but does not cancel the
+scalar companion or rule out joint/higher-power extraction.

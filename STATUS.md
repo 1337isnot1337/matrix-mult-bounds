@@ -27,6 +27,13 @@ The general proofs, rather than their finite checks, support the all-integer sta
 
 The matching-profile result rules out improving the exponent from only its listed scalar assumptions. It neither proves $\omega\ge9/4$ nor excludes the full tensor spectrum.
 
+The [F8 variable-plane continuation](research/ai/2026-10-20-group-potentials/octal_research.md#variable-planes-after-the-first-main-integration)
+now searches independently chosen normal-fiber planes. Its encodings pass
+a complete known-model audit, and an independent integer checker validates
+the affine fibers and pair maps. The first native-parity run checks four
+candidates, including a reused control; all fail exact potential constraints.
+This extends discovery coverage and supplies no improved exponent.
+
 The current next steps are listed in [research directions](docs/research_directions.md). Repeating a completed finite search with the same parameters is reproduction, not new research progress.
 
 ## All-size product-filtration result
@@ -165,6 +172,58 @@ within this class, including the previous k>=53 finite-profile target.
 Single-copy m=4 and the growing-m balanced route remain open. The proof is
 written and unreviewed; exact covers and small independent matching checks
 validate finite cases without establishing an exponent improvement.
+
+The [finite amplitude criterion](research/ai/2026-10-20-koszul/finite_amplitude.md)
+(AI-FINITE-AMPLITUDE-CRITERION-034) offers a separate target: a universal
+13/12 improvement over P_*(4,4) for near-endpoint characters would imply
+omega<=2.249. **That finite lower bound is unproved.** An exact integer
+certificate checks the conditional implication only. The accompanying
+dimension screen (AI-MATRIX-EXTRACTION-DIMENSION-035) closes the analogous
+direct-sum matrix-product extraction method for symmetrized C(a,a) at
+a=2,3; a=4 survives the screen. Eleven retained floating permutation fits
+in a different construction class supplied no exact witness.
+The concrete finite alternative is to degenerate the product of all six
+leg permutations of C(4,4) to M(106,106,106). That unconstructed target
+would also imply omega<=2.249. The source/target leg dimensions pass, but
+the group worker's abelian opposite-relation argument excludes coordinate
+maps with diagonal weights. A Holder bound also excludes all-power
+coordinate extractions into independent matrix products at this diagonal
+(AI-COORDINATE-MATRIX-EXTRACTION-037). General linear cancellation remains open.
+
+The [finite-target screens](research/ai/2026-10-20-koszul/finite_target_screens.md)
+sharpen that distinction. An explicit binomial scaling gives uniform quantum
+marginals for every C(a,b), so all singleton quantum functionals permit H106
+(AI-QUANTUM-CONVOLUTION-SCREEN-038). An elementary entropy deficit excludes
+all-power coordinate-and-weight independent-matrix extraction also at a=5
+(AI-COORDINATE-ENTROPY-LOSS-039). Allowing arbitrary Laurent output maps while
+retaining coordinate inputs still bounds square targets from S_4 by n<=93
+(AI-LAURENT-OUTPUT-MATRIX-SCREEN-040); thus H106 needs input mixing.
+These are written, unreviewed proofs. Exact controls cover 256 marginal
+normalizations, 4877 rational convolution pairs and 43681 four-type bipartite
+component count pairs. No new degeneration or smaller exponent is established.
+
+The [smaller cyclic target](research/ai/2026-10-20-koszul/cyclic_finite_target.md)
+uses three convolution factors and leg dimension 112. Its unconstructed
+M(10,10,11) target would imply omega<=2.248 (AI-CYCLIC-FINITE-TARGET-041).
+Every nonzero source slice has matrix rank at least 16, which excludes
+constant linear maps to this target (AI-CYCLIC-MINIMUM-SLICE-RANK-042).
+The all-a minimum-rank locus is also classified; its dimension excludes
+constant restriction A_5 to M(13,13,17) (AI-CYCLIC-MINIMUM-RANK-LOCUS-043).
+All 4095 nonzero F2 slices at a=2 agree with the minimum-rank formula;
+the 27 equality cases agree exactly with the stated factorization.
+These written proofs are unreviewed and leave singular degenerations open.
+
+The [cyclic recoupling experiment](research/ai/2026-10-20-cyclic-recoupling/README.md)
+(EXP-CYCLIC-RECOUPLING-044) now computes exact coefficients after a basis
+change mixing all three factors on each leg. At a=4 its 2539 scalar blocks
+factor into 175 representation-degree blocks. Sampled searches using exact
+scores find no matching-profile violation. The full a=4 grouped binary
+weight run also finishes with no violation across 1797505 distinct supports;
+its best score ratio is about 0.258426. A separate exact determinant
+certificate excludes interpreting the central 4-by-4-by-4 multiplicity
+tensor as M2 under constant maps (AI-CYCLIC-CENTRAL-MULTIPLICITY-045).
+This finite experiment supplies reusable coefficient data, not a degeneration
+achieving the required gain.
 
 The [agent-board review](docs/agent_board_review.md) attributes four external
 research reports and records a checked correction: the published
@@ -318,6 +377,64 @@ length asymptotically at most 5m/4. This exceeds the needed approximately
 The result is written and unreviewed, with 1,599 explicit integer-matrix
 controls and exact algebraic comparisons. It does not improve the exponent.
 
+The [Laurent-output extension](research/ai/2026-10-20-mixed-restrictions/laurent_capacity.md)
+retains the same overhead lower bound when the output matrix is an arbitrary
+Laurent family and the two inputs remain coordinate injections with Laurent
+scalars. A joint index-and-valuation word supplies one common arithmetic
+interval for the rank argument. An exact size-three control verifies the
+broader model. This written proof leaves actual input mixing open.
+
+## Paired convolution source ranks
+
+The [paired-source proof](research/ai/2026-10-20-paired-sources/research_note.md)
+computes an exact first Koszul kernel of dimension 3a-2 for two oppositely
+oriented convolutions. It excludes the full-capacity matrix target for all
+sizes under arbitrary complex degeneration, and excludes a promising
+size-five direct sum. A complete integer budget certificate also bounds
+the one-copy size-four factorwise matrix-block method below the finite
+profile-improvement threshold. These written and finite results do not
+exclude joint extraction from the full source or its powers.
+
+The [all-power formula](research/ai/2026-10-20-paired-sources/all_koszul.md)
+now gives every first-leg source rank. A separately derived matrix formula,
+crediting Landsberg--Ottaviani's kernel inclusion, supplies exact comparison
+ranks over C, and a second cohomological argument gives the same ranks
+over every field. These written, unreviewed arguments exclude the initially
+selected P_6 to M(6,10,6) target at power seven. Its former conditional
+2.235 implication therefore has an excluded premise. The complete finite
+frontier through a=13 contains 239 improving dimension-compatible single
+matrix targets, modulo B/C exchange; all are excluded by saved rank
+witnesses. The frontier through a=16 has 28 survivors, first at a=14.
+No surviving target is constructed; joint extraction remains open.
+
+## Polynomial flags and numerical calibration
+
+The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)
+reduces arbitrary constant matrices followed by strict target-compatible
+weights to decreasing input-degree flags and increasing output-pivot flags.
+An equal-degree coefficient is a product of nonzero pivots. This excludes
+the earlier m=4,B=10 grading eta=(7,14,21,0), and forces B>=N+m-1 in the
+stated separated cone. The proof is written and unreviewed. Balanced orders
+and arbitrary Laurent input mixing remain open; the additive cost does not
+close the asymptotic construction question.
+
+An [exact source-family calibration](research/ai/2026-10-20-singular-flags/masked_residuals.md)
+has partial squared error t^(-6) while full squared error is
+t^(-6)+2t^2+t^8. The retained balanced complex pilot likewise has no valid
+certificate: its smallest partial residual is about 5.25e-8, but the full
+relative error is about 61501 at the best parameter in the recorded interval.
+All discovery reports remain experiments. Exact controls preserve known
+m=2,3,4 limits through the full normal-form reduction.
+
+The [balanced coefficient system](research/ai/2026-10-20-balanced-coefficients/elimination.md)
+now gives an exact algebraic construction problem in a restricted monic
+flag ansatz: 53 integer polynomial conditions of degree at most 12 in 57
+parameters, after 68 coefficients are eliminated by unimodular systems.
+An exactly checked finite-field solution with full-row-rank Jacobian would
+lift to characteristic zero by standard Hensel theory. No qualifying point
+or complex degeneration has been found. Monic pivots are an additional
+restriction; the written reduction does not settle general constant maps.
+
 ## Whole-filtration entropy investigation
 
 Branch `research/full-filtration-entropy-20261020` studies the whole support
@@ -403,3 +520,45 @@ from an explicit pair-injective parent fail exactly replayed potential
 constraints. Another 10752 symmetry-transformed circuits verify exactly.
 The resulting hole-hitting search timed out. No target degeneration or
 exponent improvement follows from these source and obstruction certificates.
+
+## Exact small cyclic mixed-map construction
+
+[AI-CYCLIC-MIXED-RESTRICTION-046](research/ai/2026-10-20-cyclic-mixed-map/README.md)
+supplies explicit integer maps for the ordinary restriction
+A_2 -> M(2,3,4). All 576 coefficients agree exactly, including all 552
+required zeros; the identity holds over every field. The three matrices
+have 40 nonzero entries in total, all +/-1. This strengthens the earlier
+rational M(2,3,3) witness, which is retained with its discovery history.
+The certificate has no independent mathematical review or Lean
+formalization. Its profile lower bound is weaker than the existing scalar
+bound, so it does not improve the exponent. Larger mixed or singular
+constructions remain open.
+
+The [all-power full-capacity argument](research/ai/2026-10-20-cyclic-mixed-map/full_capacity.md)
+(AI-CYCLIC-FULL-CAPACITY-047) excludes arbitrary complex degenerations
+from A_a^r to direct sums of square matrix products that use every source
+coordinate. It combines an all-power minimum-slice-rank formula with
+external polystability theory. In particular A_5 -> M15 and S_4 -> M112
+are excluded even with singular maps. The smaller H1100 and H106 targets
+remain open; this gives no uniform asymptotic gap or exponent improvement.
+The proof is written and unreviewed. Finite controls check 112 triangular
+minors plus an independent tensor-square coefficient expansion.
+
+[AI-CYCLIC-CENTRAL-POLYSTABILITY-048](research/ai/2026-10-20-cyclic-recoupling/central_polystability.md)
+strengthens the earlier ordinary-map exclusion for the degree-(6,6,6)
+central multiplicity block B: B cannot degenerate to M2 over C. Four exact
+rational polynomial identities prove smoothness of its associated cubic;
+external stability theorems and cyclic symmetry yield a closed special-linear
+orbit. The earlier determinant obstruction then excludes the required
+isomorphism. This concerns B itself, without cancelling its accompanying
+scalar tensor. The proof remains unreviewed and gives no exponent gain.
+
+## Graded cyclic construction pilots
+
+[EXP-CYCLIC-GRADED-PILOTS-049](research/ai/2026-10-20-cyclic-singular-search/README.md)
+records four exact kernel certificates blocking one-sided new-vertex
+extensions of two fixed M(2,3,3) witnesses. Changing the old maps or using
+more general Laurent maps remains open. Two 16-start weighted ALS searches
+and two refinements supplied no exact M3 degeneration. Saved diagnostics
+include large omitted coefficients; masked residuals are not certificates.
+The exponent is unchanged.
