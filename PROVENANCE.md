@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The five-space point continuation in
+`research/ai/2026-10-21-mixed-five-space-residues/` was generated in this
+owner-directed Codex session. It adopts the preceding frames, normal
+equations, saturated target rank gap and shifted moving-plane induction.
+The virtual-correction factorization and iterative five-space elimination
+are local work. Concurrent boundary shears remain credited to their
+package. No independent review or exponent improvement is claimed.
+
+
 The mixed-hyperplane continuation in
 `research/ai/2026-10-21-rankone-mixed-hyperplanes/` was generated in this
 owner-directed Codex session. It adopts the uniform maximal first frames,

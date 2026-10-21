@@ -1,5 +1,16 @@
 # Research status
 
+## Mixed seven-by-five coordinate partner
+
+The [five-space point proof](research/ai/2026-10-21-mixed-five-space-residues/proof.md)
+forces the four common-plane normals for every complex mixed five-space
+opposite the full seven-frame at u=v=e3. Exact source-slice covers, cubic
+minors and mixed-column equations give dimensions88,68,54,30,18,12,4.
+The shifted induction excludes the matrix target at this partner and its
+reversal. Claim `AI-MIXED-FIVE-SPACE-POINT-087` is written and unreviewed.
+Other partner lines remain open; the exponent remains9/4.
+
+
 ## Arbitrary mixed hyperplanes on either leg
 
 The [mixed-hyperplane proof](research/ai/2026-10-21-rankone-mixed-hyperplanes/proof.md)

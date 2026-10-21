@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
+mixed five-spaces opposite the full seven-frame force only plane normals.
+The exact elimination uses low-rank source slices, cubic minors and
+mixedness; it closes the former four-source residual at this point.
+The two-parameter virtual tensor is constructed, but direct coordinate
+support covers do not extend the elimination uniformly. Adapted source
+combinations and the other partner points remain under investigation.
+PR62 merged at99ce778 with equal source/squash trees and its completed
+branches removed. PR63 is queued after current checks. No exponent gain.
+
+
 The quantum worker now studies
 `ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
 two-parameter non-plane family exists at first ranks10,10. Its local
