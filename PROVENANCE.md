@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The maintained direct-product continuation in
+`research/ai/2026-10-20-sl2-five-c2/` adds AI-derived projected counting and
+binary necessary conditions. Its optional discovery adapter reuses the
+credited, pinned group search and the existing exact acceptance routines.
+The Koszul pilot applies the concurrently derived matrix-rank formula; it
+does not claim a new all-power formula. The finite circuits and source gates
+have no independent mathematical review, and no smaller exponent follows.
+
 ## External research
 
 All results in [the literature map](docs/literature.md) belong to the credited authors or projects. OpenAI's published 9/4 proof is external work. It is not a contribution of this repository's ChatGPT session.

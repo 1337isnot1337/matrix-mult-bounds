@@ -21,7 +21,7 @@ def pack(rows, order):
     rows = [sorted(set(row)) for row in rows]
     limit = 1 << order
     for row in rows:
-        if any(not isinstance(v,int) or not 0 < v < limit for v in row):
+        if any(not isinstance(v,int) or not 0 <= v < limit for v in row):
             raise ValueError('invalid mask')
         if set(row) != {rotate(row[0],t,order) for t in range(order)}:
             raise ValueError('complete cyclic translation orbit required')

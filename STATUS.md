@@ -62,6 +62,14 @@ potentials cannot have all three sizes at least ten. This written argument
 is unreviewed; general tensor degenerations and smaller unequal targets
 remain open. No smaller exponent follows.
 
+The [C29 unequal-target followup](research/ai/2026-10-20-c29-near-capacity/rectangular_note.md)
+closes the same coordinate-potential one-source degree-sum route for all
+single matrix shapes. The full sorted rank-locus frontier leaves only
+(9,9,11), (9,10,10), and (10,10,10). Complete finite filters and identity
+gluing now exclude all three in the stated construction class. This is
+an unreviewed obstruction, not a general degeneration exclusion or an
+improvement of the arithmetic exponent.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
@@ -177,6 +185,15 @@ all 1,000 explicitly generated ten-point section triples by independently
 replayed positive integer Farkas circuits; its finite scope is documented in
 the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
 The larger target remains open.
+
+The [projected continuation](research/ai/2026-10-20-sl2-five-c2/projected_note.md)
+adds necessary four-pair fiber capacities and binary equations over the
+projected involutions. The first binary-filter run has 2,765 replayed
+capacity certificates and 2,474 replayed parity certificates, plus 3,794
+untraced solver cores and one budget skip. It produces no lift or witness;
+the exact circuits do not upgrade the untraced parts into a complete proof.
+All 720 full-space Koszul comparisons pass for this target. A separate
+(12,12,17) comparison is also conditional on an unconstructed degeneration.
 
 ## Second-pass checkpoint
 
@@ -652,3 +669,13 @@ hypotheses, using explicit nonzero coefficients over Q(zeta_6).
 The unique Cartan profile is adopted from claim 051; the second integer
 recursion only checks that earlier result. All new proofs are written and
 unreviewed. Different flags, ungraded constructions and powers remain open.
+
+## Size-five Cartan frontier
+
+[AI-CYCLIC-CARTAN-SCREENS-052](research/ai/2026-10-20-cyclic-equivariant/a5.md)
+uses exhaustive character factorizations and a five-inequality dual certificate
+to exclude three of the four size-five targets that passed the general
+constant-map screens, within the specified Cartan-intertwining class.
+M(14,14,15) still passes the displayed character and extreme-slice tests.
+An actual degeneration to it would imply omega<2.245; it is unconstructed.
+Completed 32-start size-three and six-start size-five pilots produced no exact witness.
