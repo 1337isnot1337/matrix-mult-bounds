@@ -1,8 +1,8 @@
 # An exact small mixed-map restriction
 
-**AI-CYCLIC-MIXED-RESTRICTION-046.** Over every field of characteristic
-different from two, the cyclic product A_2 of three C(2,2) tensors has an
-ordinary linear restriction to M(2,3,3). The explicit rational maps give a
+**AI-CYCLIC-MIXED-RESTRICTION-046.** Over every field, the cyclic product A_2
+of three C(2,2) tensors has an ordinary linear restriction to M(2,3,4).
+The explicit integer maps give a
 finite algebraic certificate. This result has no independent mathematical
 review or Lean formalization, and no historical priority is claimed.
 
@@ -22,26 +22,25 @@ In zero-based coordinates its 64 nonzero coefficients are one at
     Z = (i+j, q, r),  index ((i+j)*2+q)*2+r,
 
 for all i,j,p,q,r,s in {0,1}. Each source leg has dimension 12.
-The target's 18 nonzero coefficients are one at
+The target's 24 nonzero coefficients are one at
 
-    (3*i+j, 3*j+k, 2*k+i),  0<=i<2, 0<=j,k<3.
+    (3*i+j, 4*j+k, 2*k+i),  0<=i<2, 0<=j<3, 0<=k<4.
 
 The three matrices in
 [witness.json](../../../results/cyclic-mixed-map-2026-10-20/witness.json)
-have shapes 6-by-12, 9-by-12 and 6-by-12. Each entry is stored as
-`[row, column, rational coefficient]`; absent entries are zero.
-They have respectively 18, 30 and 28 nonzero entries, all belonging to
-{ -2, -1, -1/2, 1/2, 1, 2 }. Thus there is no parameter limit or numerical
+have shapes 6-by-12, 12-by-12 and 8-by-12. Each entry is stored as
+`[row, column, integer coefficient]`; absent entries are zero.
+They have respectively 12, 16 and 12 nonzero entries, all equal to +/-1. Thus there is no parameter limit or numerical
 tolerance in the claimed identity:
 
-    sum_{a,b,c} T[a,b,c] A[i,a] B[j,b] C[k,c] = M(2,3,3)[i,j,k].
+    sum_{a,b,c} T[a,b,c] A[i,a] B[j,b] C[k,c] = M(2,3,4)[i,j,k].
 
 `verify.py` constructs the source and computes the complete contraction
-with Python rational arithmetic. All 324 coefficients agree, including
-the 306 coefficients required to vanish. This proves the finite identity
-over Q. Since its entries lie in Z[1/2], reduction gives the same identity
-over every field of characteristic different from two. Nothing is claimed
-in characteristic two.
+with Python rational arithmetic. All 576 coefficients agree, including
+the 552 coefficients required to vanish. Since the entries are integers,
+this identity over Z reduces to the same identity over every field,
+including characteristic two. The full-rank assertion also follows over
+every field from the conciseness of the resulting matrix tensor.
 
 The regression tests also check full row ranks, reject a changed
 coefficient, and verify the natural A_a to M(a,a,a) coordinate restrictions
@@ -61,9 +60,9 @@ full relative error to about 3.88e-16. Numerical Jacobian rank was 193 in
 Greedy zero fixing followed by greedy fixing of selected entries to signs
 revealed entries of the form +/-2^(e/4). Exact arithmetic modulo q^4-2
 verified the reconstructed algebraic identity. Diagonal source and target
-symmetries then removed all fourth roots. The final rational matrices are
-verified directly, so acceptance does not depend on the numerical solvers,
-the recognition step, or the integer-programming solver used for the gauge.
+symmetries then removed all fourth roots. These earlier rational matrices are retained under
+`discovery/earlier-m233-rational-witness.json`; their identity is replayed
+as a regression control. The later construction below strengthens it.
 
 For completeness the source diagonal exponents are
 
@@ -73,22 +72,37 @@ For completeness the source diagonal exponents are
 
 Their sum vanishes on every source term. The target diagonal exponents
 are u_i+v_j, -v_j+w_k, and -w_k-u_i; their sum vanishes on every target
-term. The parameter vector retained in `witness.json` is ordered
+term. The parameter vector retained in the earlier rational witness is ordered
 (alpha,beta,gamma,cx,cy,u0,u1,v0,v1,v2,w0,w1,w2).
 For every map entry, adding its row and column exponents to the recognized
 q-exponent gives a multiple of four, hence a rational power of two.
 
+Starting from that exact M(2,3,3) witness, another 32 seeded real ALS
+starts were run for each of M(3,3,3) and M(2,3,4), at Gaussian noise scales
+0.01, 0.1, 0.3 and 1.0. The square target again produced no certificate. A further 32 complex
+starts with the same four noise scales, seeds 202610300 through 202610331,
+also found no certificate; their best full relative error was about
+0.19575. These failures do not prove nonexistence.
+The M(2,3,4) search reached about 2.47e-13 at seed 202610280; refinement
+reached about 3.22e-16. Greedy zero and sign fixing then produced exactly
+40 entries in {+1,-1}, with all other entries zero. Direct rational
+contraction verified the full integer identity. This last exact check is
+the acceptance criterion; solver residuals are not used as certificates.
+
 The actual numerical reports and best/intermediate arrays are retained in
 `results/cyclic-mixed-map-2026-10-20/discovery/`. Their original
-`exact_certificate: false` fields describe those numerical stages and are
-preserved. The exact certificate is the separate `certificate.json`.
+`exact_certificate: false` or `exact_witness_found: false` fields describe
+those numerical stages and are preserved. The exact final certificate is
+the separate `certificate.json`. The 229-test first checkpoint and its
+rational witness are followed by the strengthened integer certificate;
+the final verification receipt records the updated test coverage.
 
 ## Consequence and remaining work
 
 Spectral monotonicity and the leg-permutation argument in claim 041 give
-P(2,2)>=18^(1/3). This is weaker than the already proved matching-profile
-lower bound P_*(2,2)=10/3, since 18 < (10/3)^3. Tensor powers give the
-corresponding restrictions to M(2^r,3^r,3^r), but no stronger profile or
+P(2,2)>=24^(1/3). This is weaker than the already proved matching-profile
+lower bound P_*(2,2)=10/3, since 24 < (10/3)^3. Tensor powers give the
+corresponding restrictions to M(2^r,3^r,4^r), but no stronger profile or
 exponent follows from that repetition. The earlier dimension screen
 already excludes crossing the endpoint ceiling using only independent
 matrix products extracted from the a=2 symmetrized source.
@@ -121,6 +135,14 @@ order to repeat the successful discovery pipeline:
 4. `normalize_cyclic_233.py`
 5. `exact_cyclic_233.py`
 6. `rationalize_cyclic_233_small.py`
+7. `extend_cyclic.py`
+8. `refine_cyclic_234.py`
+9. `sparsify_cyclic_234.py`
+10. `normalize_cyclic_234.py`
+
+The final normalized arrays are integers. The maintained verifier replays
+the saved integer maps directly; rerunning the numerical discovery is not
+needed to reproduce the certificate.
 
 The separate `cyclic_als.py` retains the unsuccessful M(3,3,3) experiment.
 Numerical trajectories may depend on numerical-library versions. These

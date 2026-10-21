@@ -1,6 +1,6 @@
 {
   "source": "A_2",
-  "target": "M(2,3,3)",
+  "target": "M(2,3,4)",
   "source_terms": 64,
   "source_leg_dimensions": [
     12,
@@ -9,29 +9,25 @@
   ],
   "target_leg_dimensions": [
     6,
-    9,
-    6
+    12,
+    8
   ],
   "map_nonzero_entries": [
-    18,
-    30,
-    28
+    12,
+    16,
+    12
   ],
-  "coefficient_count": 324,
-  "expected_nonzero_coefficients": 18,
-  "actual_nonzero_coefficients": 18,
+  "coefficient_count": 576,
+  "expected_nonzero_coefficients": 24,
+  "actual_nonzero_coefficients": 24,
   "incorrect_coefficients": 0,
   "full_exact_equality": true,
   "arithmetic": "fractions.Fraction over Q",
   "coefficient_values": [
     "-1",
-    "-1/2",
-    "-2",
-    "1",
-    "1/2",
-    "2"
+    "1"
   ],
-  "valid_fields": "Every field of characteristic different from 2",
+  "valid_fields": "Every field (all witness entries are integers)",
   "independent_mathematical_review": false,
   "new_exponent_established": false
 }

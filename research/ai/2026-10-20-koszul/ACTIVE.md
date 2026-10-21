@@ -111,7 +111,7 @@ and avoid counting the common formulas twice. See `docs/concurrent_research.md`.
 The recoupling package merged through PR #16 at e41c77d after current CI;
 its completed local and remote branch was removed. The exhaustive grouped
 binary search covered 1,797,505 supports at a=4 without a scored gain.
-The subsequent exact A_2 -> M(2,3,3) mixed-map certificate is in
+The subsequent exact A_2 -> M(2,3,4) integer mixed-map certificate is in
 `../2026-10-20-cyclic-mixed-map/README.md`. It does not improve P_*(2,2).
 Current construction question: can its cancellations be extended to larger
 cyclic targets or used to initialize a singular construction? Larger

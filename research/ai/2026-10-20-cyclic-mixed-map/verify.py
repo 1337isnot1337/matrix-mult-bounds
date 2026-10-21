@@ -1,4 +1,4 @@
-"""Verify the complete A_2 -> M(2,3,3) identity using rational arithmetic."""
+"""Verify the complete A_2 -> M(2,3,4) identity using rational arithmetic."""
 from collections import defaultdict
 from fractions import Fraction
 from itertools import product
@@ -42,24 +42,26 @@ def load_maps(path=RESULTS / "witness.json"):
 
 
 def report(maps):
-    shapes = (6, 9, 6)
+    shapes = (6, 12, 8)
     for entries, rows in zip(maps, shapes):
         positions = [(i, j) for i, j, _ in entries]
         if len(set(positions)) != len(positions):
             raise ValueError("Duplicate map entry")
         if any(not (0 <= i < rows and 0 <= j < 12) for i, j in positions):
             raise ValueError("Map entry outside its matrix")
+    if any(Fraction(v).denominator != 1 for entries in maps for _, _, v in entries):
+        raise ValueError("The all-field certificate requires integer entries")
     actual = contract(2, maps)
-    expected = target_terms(2, 3, 3)
+    expected = target_terms(2, 3, 4)
     errors = {key: actual.get(key, 0)-expected.get(key, 0)
               for key in set(actual) | set(expected)
               if actual.get(key, 0) != expected.get(key, 0)}
     return {
-        "source": "A_2", "target": "M(2,3,3)",
+        "source": "A_2", "target": "M(2,3,4)",
         "source_terms": 64, "source_leg_dimensions": [12, 12, 12],
         "target_leg_dimensions": list(shapes),
         "map_nonzero_entries": [len(entries) for entries in maps],
-        "coefficient_count": 6*9*6,
+        "coefficient_count": 6*12*8,
         "expected_nonzero_coefficients": len(expected),
         "actual_nonzero_coefficients": len(actual),
         "incorrect_coefficients": len(errors),
@@ -67,7 +69,7 @@ def report(maps):
         "arithmetic": "fractions.Fraction over Q",
         "coefficient_values": sorted({str(Fraction(v))
                                       for entries in maps for _, _, v in entries}),
-        "valid_fields": "Every field of characteristic different from 2",
+        "valid_fields": "Every field (all witness entries are integers)",
         "independent_mathematical_review": False,
         "new_exponent_established": False,
     }

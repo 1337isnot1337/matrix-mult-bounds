@@ -17,19 +17,23 @@ spec.loader.exec_module(verify)
 
 
 class CyclicMixedMapTests(unittest.TestCase):
-    def test_all_324_coefficients(self):
+    def test_all_576_coefficients(self):
         result = verify.report(verify.load_maps())
         self.assertTrue(result["full_exact_equality"])
         self.assertEqual(result["incorrect_coefficients"], 0)
-        self.assertEqual(result["actual_nonzero_coefficients"], 18)
+        self.assertEqual(result["actual_nonzero_coefficients"], 24)
         self.assertEqual(result, json.loads((verify.RESULTS / "certificate.json").read_text()))
 
     def test_maps_have_full_row_rank(self):
-        for rows, entries in zip((6, 9, 6), verify.load_maps()):
+        for rows, entries in zip((6, 12, 8), verify.load_maps()):
             matrix = sp.zeros(rows, 12)
             for i, j, value in entries:
                 matrix[i, j] = sp.Rational(value)
             self.assertEqual(matrix.rank(), rows)
+
+    def test_earlier_rational_witness(self):
+        maps = verify.load_maps(verify.RESULTS / "discovery/earlier-m233-rational-witness.json")
+        self.assertEqual(verify.contract(2, maps), verify.target_terms(2, 3, 3))
 
     def test_corrupted_coefficient_is_rejected(self):
         maps = copy.deepcopy(verify.load_maps())
