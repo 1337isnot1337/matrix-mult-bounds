@@ -40,12 +40,17 @@
     "scope": "Complete suite partitioned into four groups; seven S5 tests were loaded."
   },
   "latest_s5_focused": {
-    "tests_run": 8,
+    "tests_run": 9,
     "skipped": 0,
-    "seconds": 7.03,
-    "scope": "Adds the cyclic-center and matched-color control after full-suite load."
+    "seconds": 13.277,
+    "scope": "Includes both complete colored Farkas streams and actual-group commuting templates after full-suite load."
   },
   "integrated_archive_replay": {
     "passed": 5
+  },
+  "colored_farkas_replays": {
+    "elementary_center": 1218,
+    "cyclic_center": 1427,
+    "maintained_dependencies_only": true
   }
 }

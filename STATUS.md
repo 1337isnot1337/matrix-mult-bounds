@@ -35,7 +35,10 @@ Farkas circuit. The smaller M(18,18,20) projected run exported one such
 cut and no lift; direct colored search reached two collisions. The
 alternative S5 x C4 basis has the same conditional degree cost, with its
 four-matching obstruction following from pair injectivity alone.
-Claims031/032 supply no improving target or smaller bound.
+The warm colored continuations reached1,218 and1,427 pair-injective
+models respectively; all have exactly replayed Farkas contradictions.
+The sampler now incorporates the existing commuting-trade condition.
+Claims031/032/033 supply no improving target or smaller bound.
 
 ## Joint central-sign search in SL(2,5)
 

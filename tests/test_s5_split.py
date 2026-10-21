@@ -1,5 +1,6 @@
 """Exact S5 source, modular certificate and canonicalization controls."""
 import copy
+import gzip
 import importlib.util
 from itertools import product
 import json
@@ -155,6 +156,27 @@ class S5SplitTests(unittest.TestCase):
         self.assertEqual(checked, 114240)
         self.assertEqual(cyclic.control()['witness']['verification']['minimum_extra_weight'], 1)
         self.assertEqual(central.matched_color_control()['C4']['matched_bijections'], 0)
+
+    def test_colored_streams_and_actual_group_trade_templates(self):
+        replayer = load('verify_four')
+        trade = load('commuting_trades')
+        cyclic = load('cyclic_four')
+        for name, count, provider, template_count in [
+                ('colored-warm18-18-20', 1218, four.data, 4816),
+                ('cyclic-colored18-18-20', 1427, cyclic.data, 4096)]:
+            path = ROOT/'results/s5-split-2026-10-21'/(name+'.json')
+            result = replayer.replay(path)
+            self.assertEqual(result['certificates'], {'exact-farkas': count})
+            self.assertFalse(result['witness'])
+            G, _, _ = provider()
+            rows = trade.templates(G)
+            self.assertEqual(len(rows), template_count)
+            raw = gzip.decompress(path.with_suffix('.cuts.jsonl.gz').read_bytes())
+            item = next(r for r in map(json.loads, raw.splitlines()) if len(r['weights']) == 2)
+            self.assertGreater(trade.violations(G, item['sets'], rows), 0)
+            known = cyclic.control()['witness']['sets'] if provider == cyclic.data else [
+                [4*(g//2)+g % 2 for g in S] for S in source.control()['witness']['sets']]
+            self.assertEqual(trade.violations(G, known, rows), 0)
 
 
 if __name__ == '__main__':

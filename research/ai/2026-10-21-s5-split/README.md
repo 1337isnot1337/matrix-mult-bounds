@@ -169,3 +169,19 @@ color-sum argument in the proof; all36 normalized matched permutations
 are checked, alongside the12 surviving matched patterns for C2 squared.
 The same direct sampler now explores both bases with source-specific
 receipts and recomputed warm-start histograms.
+
+
+## Colored point continuation
+
+The600-second warm continuations reached1,218 distinct pair-injective
+models in S5 x C2 squared (514,664 steps), and1,427 in S5 x C4
+(302,103 steps). Every model has a verified strict-potential Farkas
+contradiction. Both complete streams replay using the maintained root
+dependencies. No improving matrix degeneration is constructed.
+
+The next sampler includes the existing commuting-trade necessary condition
+in its incremental score. Its templates are generated in the actual group:
+4,816 for C2 squared and4,096 for C4. Both weighted3-by3 controls have
+zero violations, while exported two-row Farkas examples have violations.
+Independent complete pair and owner histograms check each saved incremental
+score. These are discovery tools, not sourcewide exclusions.

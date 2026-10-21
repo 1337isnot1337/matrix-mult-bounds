@@ -14,7 +14,7 @@ from verify_projected_reports import verify_farkas_record
 
 
 def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
-        warm_path=None, amplitude=0.6):
+        warm_path=None, amplitude=0.6, use_trades=False):
     G, Q, receipt = data_provider(shape)
     if receipt['conditional_gate']['strict_positive_margin_numerator'] <= 0:
         raise ValueError('target must pass the improving conditional gate')
@@ -35,8 +35,25 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         return np.array([np.bincount(table[inverse[S][:, None], T[None, :]].ravel(), minlength=480)
                          for S, T in zip(sets, sets[1:]+sets[:1])])
 
+    def owner_histogram():
+        rows = []
+        for S in sets:
+            labels = table[S[:, None], inverse[S][None, :]][np.triu_indices(len(S), 1)]
+            rows.append(np.bincount(np.minimum(labels, inverse[labels]), minlength=480))
+        return np.array(rows)
+
+    if use_trades:
+        from commuting_trades import templates
+        trades = np.array(templates(G), dtype=np.int16)
+        owners = owner_histogram()
+
+    def trade_energy(hist):
+        return int(np.all(hist[np.arange(3), trades] > 0, axis=1).sum())
+
     counts = histogram()
     current = int((counts*(counts-1)).sum()//2)
+    if use_trades:
+        current = 20*current+trade_energy(owners)
     report = {'group': G['name'], 'shape': list(shape), 'source_and_normalization': receipt,
         'method': 'Actual colored-point heat-bath pair-collision search',
         'normalizations_used': 'Identity and one point per central fiber in each sampled vertex set',
@@ -46,6 +63,9 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         'repeated_pair_models': 0, 'exact_farkas_cuts': 0, 'exact_histogram_checks': 0,
         'status': 'running', 'witness': None, 'exponent_improvement': False,
         'scope': 'Bounded floating-guided discovery; actual witnesses and Farkas circuits use exact integers.'}
+    if use_trades:
+        report['objective'] = {'pair_collision_weight': 20, 'commuting_trade_weight': 1,
+                               'actual_group_templates': len(trades)}
     if warm_path is not None:
         report['warm_start'] = {'path': str(warm_path),
             'sha256': hashlib.sha256(warm_path.read_bytes()).hexdigest(),
@@ -62,7 +82,14 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         report['current_energy'] = current
         # Check the incremental discovery objective by independent full counting.
         actual = histogram()
-        if not np.array_equal(counts, actual) or int((actual*(actual-1)).sum()//2) != current:
+        expected = int((actual*(actual-1)).sum()//2)
+        if use_trades:
+            if not np.array_equal(owners, owner_histogram()):
+                raise ArithmeticError('incremental owner histogram drift')
+            report['pair_collision_energy'] = expected
+            report['commuting_trade_energy'] = trade_energy(owners)
+            expected = 20*expected+report['commuting_trade_energy']
+        if not np.array_equal(counts, actual) or expected != current:
             raise ArithmeticError('incremental pair histogram drift')
         report['exact_histogram_checks'] += 1
         temporary = output.with_suffix('.tmp')
@@ -84,6 +111,22 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         labels_out = table[inverse[:, None], sets[h][None, :]]
         labels_in = table[inverse[sets[k]][None, :], candidates[:, None]]
         scores = counts[f, labels_out].sum(axis=1)+counts[k, labels_in].sum(axis=1)
+        if use_trades:
+            other_active = np.ones(len(trades), dtype=bool)
+            for family in (h, k):
+                other_active &= owners[family, trades[:, family]] > 0
+            penalties = np.bincount(trades[other_active, f], minlength=480)
+            neighbors = np.delete(sets[f], i)
+            old_labels = table[old, inverse[neighbors]]
+            removed = np.bincount(np.minimum(old_labels, inverse[old_labels]), minlength=480)
+            trade_removal = int(penalties[(owners[f] > 0) & (owners[f] == removed)].sum())
+            owners[f] -= removed
+            labels = table[candidates[:, None], inverse[neighbors][None, :]]
+            labels = np.sort(np.minimum(labels, inverse[labels]), axis=1)
+            unique = np.c_[np.ones(480, dtype=bool), labels[:, 1:] != labels[:, :-1]]
+            additions = (penalties[labels]*unique*(owners[f, labels] == 0)).sum(axis=1)
+            scores = 20*scores+additions
+            removal = 20*removal+trade_removal
         occupied = set((sets[f]//4).tolist())-{old//4}
         allowed = np.array([q//4 not in occupied for q in candidates])
         minimum = scores[allowed].min()
@@ -96,6 +139,9 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         sets[f][i] = new
         counts[f, table[inverse[new], sets[h]]] += 1
         counts[k, table[inverse[sets[k]], new]] += 1
+        if use_trades:
+            labels = table[new, inverse[neighbors]]
+            owners[f] += np.bincount(np.minimum(labels, inverse[labels]), minlength=480)
         if current < report['minimum_energy']:
             report['minimum_energy'] = current
             report['best_sets'] = [S.tolist() for S in sets]
@@ -138,6 +184,9 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
                 sets[f][i] ^= int(rng.integers(1, 4))
             counts = histogram()
             current = int((counts*(counts-1)).sum()//2)
+            if use_trades:
+                owners = owner_histogram()
+                current = 20*current+trade_energy(owners)
         if report['steps'] % 1000 == 0:
             checkpoint()
     if report['status'] == 'running':
@@ -155,11 +204,12 @@ if __name__ == '__main__':
     parser.add_argument('--cyclic-center', action='store_true')
     parser.add_argument('--warm', type=Path)
     parser.add_argument('--temperature-amplitude', type=float, default=0.6)
+    parser.add_argument('--commuting-trades', action='store_true')
     args = parser.parse_args()
     if args.cyclic_center:
         from cyclic_four import data as provider
     else:
         provider = data
     result = run(args.output, args.seconds, args.seed, args.shape, provider,
-                 args.warm, args.temperature_amplitude)
+                 args.warm, args.temperature_amplitude, args.commuting_trades)
     print(json.dumps({k: v for k, v in result.items() if k not in ('source_and_normalization', 'witness')}))
