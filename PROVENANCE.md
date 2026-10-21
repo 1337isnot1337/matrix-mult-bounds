@@ -139,3 +139,12 @@ The arbitrary-constant-shared-basis strengthening is a local biform argument.
 It uses the standard projective dimension theorem (Stacks Project, tag 0B2R)
 to give the elementary nonvanishing-bilinear-map dimension bound. The exact
 coefficient/rank tests do not constitute independent review of the proof.
+
+The SL(2,5) x C2 investigation extends the exact rational-center calculation
+to the first direct-product factor and uses the standard complex direct-product
+representation theorem. Its source gate remains conditional on a missing
+tensor degeneration. The rank-locus screen is reused with attribution to the
+concurrent group worker. Its SAT/Farkas implementation is the same unchanged
+copy pinned at `75f453b` in the SL(2,7) package; only the product table and
+normalization adapter are new. A successful finite control is not a target
+construction or an exponent improvement.

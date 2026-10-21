@@ -1,0 +1,63 @@
+{
+  "group": "SL(2,5) x C2",
+  "affine_parameters": null,
+  "shape": [
+    13,
+    13,
+    15
+  ],
+  "seed": 20261324,
+  "solver": "cadical195",
+  "encoding": {
+    "variables": 19637,
+    "clauses": 125318,
+    "inverse_classes": 121,
+    "commuting_trade_cuts": 1804,
+    "coset_normalization": null,
+    "borel_normalization": null,
+    "independent_right_translations": "identity fixed in all sets",
+    "fixed_first_projection": [
+      0,
+      7,
+      10,
+      11,
+      30,
+      31,
+      41,
+      44,
+      46,
+      48,
+      56,
+      58,
+      59
+    ],
+    "projected_inverse_class_fiber_counts": {
+      "2": 15,
+      "4": 22
+    },
+    "projected_capacity_owner_variables": 45,
+    "variables_after_center_and_subgroup": 23737,
+    "central_orbits": 60,
+    "central_involutions": 3,
+    "center_free_orbit_constraints_justified": true,
+    "identity_subgroup_lower": [
+      3,
+      3,
+      3
+    ],
+    "normalization_subgroup_order": 48
+  },
+  "seconds_limit": 300.0,
+  "models_limit": 1000,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "status": "time-limit",
+  "scope": "Bounded search. SAT timeouts and absent witnesses are not nonexistence proofs.",
+  "elapsed_seconds": 302.5548959040025,
+  "sat_statistics": {
+    "restarts": 81336,
+    "conflicts": 2010199,
+    "decisions": 4695365,
+    "propagations": 778083799
+  }
+}
