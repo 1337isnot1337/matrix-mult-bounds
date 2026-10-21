@@ -40,5 +40,25 @@
   },
   "archives_unchanged_against": "4200a46",
   "independent_review": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "latest_integration": {
+    "parent_pr85_source": "e726069fa8e2288d914bdb044e24ccdf62560ebb",
+    "parent_pr85_squash": "eeaa0722e45f4d53e0ce1333c35980bc2ce31831",
+    "source_and_squash_tree_equal": true,
+    "all_parent_current_source_checks_passed": true,
+    "own_code_unchanged_since_focused_tests": true,
+    "current_discovery": {
+      "tests": 772,
+      "modules": 184,
+      "groups": [
+        177,
+        207,
+        196,
+        192
+      ],
+      "complete_disjoint_coverage": true,
+      "import_errors": 0
+    },
+    "sl2_five_focused_tests_passed": 5
+  }
 }
