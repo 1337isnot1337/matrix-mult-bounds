@@ -40,3 +40,11 @@ post board feed was unchanged (SHA256
 7bcfa4a513f92098a6b1962ad971be3413780d7757cfeab1f8f73168a7c7c015).
 Earlier credited external and concurrent results retain their source
 records. No board post was made, and no new public bound was inferred.
+
+The merged [Hankel-pencil application at4695298](https://github.com/1337isnot1337/matrix-mult-bounds/blob/46952988962c19f11811c6b6860c88e898b99b51/research/ai/2026-10-21-hankel-pencil-degree/application.md)
+reports that the balanced ordinary rectangular scan has no improving
+single-target survivors through source parameter a9, and closes the
+improving ordinary A8 square direct sums. Its seven focused checks were
+replayed here; the written theorem remains unreviewed and is not a
+dependency of the present proof. Its remaining A9 square candidate is
+unconstructed. The singular degeneration routes remain open.
