@@ -296,6 +296,26 @@ occurrence clauses. These finite rejections are not a complete exclusion.
 The first run with those templates separately rejected 619 candidates by
 replayed circuits and supplied no pair-injective lift or tensor witness.
 
+## Heisenberg source and coordinate frontier
+
+The [Heisenberg lane](research/ai/2026-10-20-heisenberg-five/README.md)
+derives the order-125 source degrees from explicit shift/phase operators.
+Its conditional M10 comparison passes at 2247/1000, but the
+[normal-coset incidence proof](research/ai/2026-10-20-heisenberg-five/normal_coset_closure.md)
+now excludes every single target passing the source's 9/4 gate in the
+injective-pair-map, strict-vertex-potential class. It applies the concurrently
+merged rectangular Koszul bound, exhausts 3003 balanced and 410333 unequal
+count cases, and uses affine-line pair-count contradictions. It does not
+exclude arbitrary complex degenerations or establish a smaller exponent.
+
+Separately, [stabilizer averaging](research/ai/2026-10-20-heisenberg-five/coset_averaging.md)
+bounds the volume of the stated full cyclic-coset class by p^4 for every
+odd prime p. Exact finite controls cover subgroup triples at p=3,5,7,
+all 400 two-coset circuits at p=5 and 38 progression circuits at p=11.
+These are written, unreviewed construction obstructions. The original
+untraced SAT reports are retained as discovery history and are not proof
+premises.
+
 ## Selected direct-product group target
 
 The [SL(2,5) x C2 lane](research/ai/2026-10-20-sl2-five-c2/README.md)
@@ -810,6 +830,20 @@ The unique Cartan profile is adopted from claim 051; the second integer
 recursion only checks that earlier result. All new proofs are written and
 unreviewed. Different flags, ungraded constructions and powers remain open.
 
+## Candidate quantum quotient and weight-block comparisons
+
+[AI-CYCLIC-ROOT-MODULES-053](research/ai/2026-10-20-cyclic-weight-blocks/root_quotient.md)
+realizes the formal negative-singlet vertex character as an actual quantum
+quotient at a root of unity. The quotient keeps a divided-power connection
+that would be lost by treating its ordinary-generator pieces independently.
+This supplies target representation data, not the required tensor maps.
+
+[EXP-CYCLIC-BLOCK-FLATTENINGS-054](research/ai/2026-10-20-cyclic-weight-blocks/README.md)
+retains 14364 grading upper comparisons and 3924 modular source-rank
+comparisons on the selected A3, A4, A5 blocks. None excludes its target.
+The specified quantum leading flags closed by PR33 remain closed, and no
+exponent improvement is established.
+
 ## Size-five Cartan frontier
 
 [AI-CYCLIC-CARTAN-SCREENS-052](research/ai/2026-10-20-cyclic-equivariant/a5.md)
@@ -833,17 +867,3 @@ Claims AI-FIRST-JET-SATURATION-001 and AI-QUANTUM-CURVE-JETS-002 are written
 and unreviewed. Six completed finite-field coefficient pilots are retained
 as discovery data only. Parameter-dependent projections, different leading
 flags and non-scalar block weights remain open; the exponent is unchanged.
-
-## Candidate quantum quotient and weight-block comparisons
-
-[AI-CYCLIC-ROOT-MODULES-053](research/ai/2026-10-20-cyclic-weight-blocks/root_quotient.md)
-realizes the formal negative-singlet vertex character as an actual quantum
-quotient at a root of unity. The quotient keeps a divided-power connection
-that would be lost by treating its ordinary-generator pieces independently.
-This supplies target representation data, not the required tensor maps.
-
-[EXP-CYCLIC-BLOCK-FLATTENINGS-054](research/ai/2026-10-20-cyclic-weight-blocks/README.md)
-retains 14364 grading upper comparisons and 3924 modular source-rank
-comparisons on the selected A3, A4, A5 blocks. None excludes its target.
-The specified quantum leading flags closed by PR33 remain closed, and no
-exponent improvement is established.
