@@ -498,6 +498,25 @@ integer spectrum and scalar inequalities. No priority or independent review
 is claimed. Finite-field operations label a finite group; the target field
 remains C. Replayed failed candidates do not establish an improved bound.
 
+The SL(2,F8) subgroup-ideal application imports the concurrent worker's
+written unreviewed averaging lemma from commit b6f01fb781d64589e8681f5bfbff8750291daaf6,
+with the exact source text and hash retained. New small central rational
+projections are verified by integer class multiplication and subgroup
+containment identities. Their regular traces give the stated ideal upper
+bounds; no equality, discovery of the general lemma or independent review
+is claimed. This closes the historical full-D18 pilot frame only within
+the coordinate/potential model and supplies further full-coset cuts.
+
+The full-space semisimple continuation imports the existing matrix Koszul
+formulas and proves the padding/direct-sum rank expression used in its
+finite frontiers. It does not claim a new general matrix-rank formula.
+The SL(2,F8) source uses the unchanged rational center procedure from the
+SL(2,7) package with an isolated group-table adapter. Its group table and
+conditional source comparison are exact; the improving target is missing.
+The restricted subgroup pilot is local AI-derived discovery, with its
+actual timeout and separate small full-support control retained. No
+independent review or smaller arithmetic exponent is claimed.
+
 The F8 source/offset/deletion work is also local AI-derived research. Its
 normal subgroup orbit counts use the standard complex representation theory
 of a fixed-point-free semidirect product. The finite local frontiers, offset
@@ -505,6 +524,20 @@ normalizations, streaming verifier and transformed Farkas certificates were
 derived and checked here. No external solver service or character table was
 used. All displayed smaller-exponent gates retain an unconstructed target
 premise. SAT timeouts and untraced UNSAT remain experiment outcomes.
+
+The unequal F8 continuation applies classical Koszul border-rank bounds
+to abelian-normal coset blocks. Its32 explicit small pencils, complete
+(16,16,26) count-pair averaging certificate and nonlinear graph pilots
+are local AI-derived work. Landsberg-Ottaviani2015 is cited for the general
+Koszul method. The written proof has no independent review; the restricted
+search outcomes and small positive control do not improve the exponent.
+
+The complete F8 coordinate closure adds even-slice rectangular pencils and
+a finite cover of all12 minimal improving formats. Its compiled program
+discovers tags; the standard-library Python verifier independently checks
+all9539875 pair tags and90 remaining alignments. The imported source and
+rank-locus results and classical Koszul method keep their earlier credit.
+This is a written unreviewed construction barrier, not an exponent gain.
 
 An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.
 
