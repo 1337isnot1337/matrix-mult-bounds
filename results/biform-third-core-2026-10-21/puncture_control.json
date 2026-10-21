@@ -1,0 +1,93 @@
+{
+  "base_space": "span of E01-E10 and E02-E20 in Mat3",
+  "base_space_dimension": 2,
+  "minimum_nonzero_base_matrix_rank": 2,
+  "auxiliary_matrix_dimension": 2,
+  "original_first_rank": 8,
+  "projection_kernel_dimensions": [
+    1,
+    3
+  ],
+  "projected_first_rank": 3,
+  "projected_matrices": [
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": []
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": []
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": []
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": []
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": []
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": [
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "entries": [
+        [
+          0,
+          2,
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "two_by_two_loss_counterexample_first_rank": 0,
+  "scope": "Sharp general puncture-lemma control, not a matrix-target source degeneration."
+}
