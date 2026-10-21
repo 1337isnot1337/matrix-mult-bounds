@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The Ferrers worker now studies
+`ai/2026-10-21-ferrers-ruling-cap/QUESTION.md`. A projective kernel
+compression gives the sharp bilateral ruling cap, and openness of
+low-rank dominance removes the hook case for a closed target with bounded
+linear spaces. The application strengthens the scalar-Hankel tests and
+adds67 balanced rectangular exclusions over PR83. General proofs remain
+unreviewed, and no smaller exponent is established. PR83's separate
+checkout continues exact-head main integration; its branch is not retired
+until the actual merge and tree audit. Refresh concurrent ownership before
+selecting a new construction question.
+
 The uniform-cap worker now studies
 `ai/2026-10-21-hankel-wronskian-cap/QUESTION.md`. A self-contained binomial-
 shear/Wronskian proof covers every characteristic-zero bounded-Hankel

@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-21-ferrers-ruling-cap` package is owner-directed Codex work.
+The Borel fixed-point theorem is external classical input, with Milne's
+corrected CUP2022 manuscript inspected and pinned. The Grassmannian
+compression, Ferrers optimization and low-rank dominance continuation are
+local written derivations, with no historical-priority claim. The previous
+Hankel cap, exact source-lift recurrence and concurrent rectangular worker's
+ruling, quantitative crossed-rank and bundle-dimension results retain
+explicit attribution. All local proofs remain unreviewed. No construction,
+formalization or exponent improvement is claimed.
+
 The `2026-10-21-hankel-wronskian-cap` package is same-session AI-derived
 work directed by the repository owner. Its cap inequality is presented as
 a uniform characteristic-zero rederivation, with a self-contained proof and

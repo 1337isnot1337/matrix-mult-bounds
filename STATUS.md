@@ -1,5 +1,18 @@
 # Research status
 
+## Ferrers ruling caps and low-rank dominance
+
+The [sharp ruling proof](research/ai/2026-10-21-ferrers-ruling-cap/proof.md)
+reduces a bilinear quotient's bilateral k-input dimension bounds to exact
+Ferrers budgets by the classical Borel fixed-point theorem. Its
+[dominance continuation](research/ai/2026-10-21-ferrers-ruling-cap/dominance.md)
+strengthens closed-target saturation using the dimension of contained
+linear spaces. The [finite application](research/ai/2026-10-21-ferrers-ruling-cap/application.md)
+adds67 exclusions to PR83's balanced rectangular comparison, leaving173
+necessary-test survivors through a12, and tightens three square-score
+ceilings. It is not the full concurrent all-source frontier. The proofs
+remain written and unreviewed; no tensor construction or smaller exponent.
+
 ## Uniform Hankel caps and dimension refinements
 
 The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)
