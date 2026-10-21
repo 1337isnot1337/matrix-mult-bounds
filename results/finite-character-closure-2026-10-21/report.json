@@ -1,0 +1,119 @@
+{
+  "cases": [
+    {
+      "m": 4,
+      "a": 5,
+      "B": 10,
+      "status": "accepted",
+      "target_sum": "52/3",
+      "source_model": "1820/81",
+      "slack": "416/81",
+      "score_ratio": "27/35",
+      "copy_limit_ratio": "162/175",
+      "matrix_extraction_format_ratio": "6561/8281",
+      "direct_amplitude_lower_cubed": "1124864/2109375",
+      "existing_width_lower_cubed": "18839275/14348907"
+    },
+    {
+      "m": 5,
+      "a": 6,
+      "B": 16,
+      "status": "accepted",
+      "target_sum": "254/9",
+      "source_model": "26936/729",
+      "slack": "6362/729",
+      "score_ratio": "10287/13468",
+      "copy_limit_ratio": "10287/11648",
+      "matrix_extraction_format_ratio": "597871125/725548096",
+      "direct_amplitude_lower_cubed": "8193532/15000633",
+      "existing_width_lower_cubed": "1543313408/1162261467"
+    },
+    {
+      "m": 6,
+      "a": 7,
+      "B": 24,
+      "status": "accepted",
+      "target_sum": "380/9",
+      "source_model": "13832/243",
+      "slack": "3572/243",
+      "score_ratio": "135/182",
+      "copy_limit_ratio": "1215/1456",
+      "matrix_extraction_format_ratio": "1594323/1952288",
+      "direct_amplitude_lower_cubed": "3511808/6792093",
+      "existing_width_lower_cubed": "378056666624/282429536481"
+    },
+    {
+      "m": 7,
+      "a": 8,
+      "B": 34,
+      "status": "accepted",
+      "target_sum": "4820/81",
+      "source_model": "543400/6561",
+      "slack": "152980/6561",
+      "score_ratio": "19521/27170",
+      "copy_limit_ratio": "292815/369512",
+      "matrix_extraction_format_ratio": "14765025303/18455222500",
+      "direct_amplitude_lower_cubed": "1749690125/3645153819",
+      "existing_width_lower_cubed": "10269253536256/7625597484987"
+    },
+    {
+      "m": 5,
+      "a": 7,
+      "B": 15,
+      "status": "accepted-independent-sectors",
+      "target_sum": "254/9",
+      "source_model": "27664/729",
+      "slack": "7090/729",
+      "score_ratio": "10287/13832",
+      "copy_limit_ratio": "30861/34580",
+      "matrix_extraction_format_ratio": "597871125/765296896",
+      "direct_amplitude_lower_cubed": "131096512/258482259",
+      "existing_width_lower_cubed": "378056666624/282429536481"
+    },
+    {
+      "m": 8,
+      "a": 9,
+      "B": 46,
+      "status": "hypothetical-unrecovered-certificate",
+      "target_sum": "6500/81",
+      "source_model": "6792500/59049",
+      "slack": "2054000/59049",
+      "score_ratio": "729/1045",
+      "copy_limit_ratio": "3645/4807",
+      "matrix_extraction_format_ratio": "2259436291848/2883628515625",
+      "direct_amplitude_lower_cubed": "2197000000000/4927897743669",
+      "existing_width_lower_cubed": "2507141976625000/1853020188851841"
+    }
+  ],
+  "all_accepted_maps_compatible": true,
+  "hypothetical_cost_free_copies_compatible": true,
+  "feasible_c_interval": [
+    "1",
+    "21/20"
+  ],
+  "sum_formula_checks": 200,
+  "first_crossings": [
+    {
+      "shared_excess": 0,
+      "first_copy_limit": 4,
+      "first_single": 53
+    },
+    {
+      "shared_excess": 1,
+      "first_copy_limit": 22,
+      "first_single": 71
+    },
+    {
+      "shared_excess": 2,
+      "first_copy_limit": 38,
+      "first_single": 88
+    },
+    {
+      "shared_excess": 3,
+      "first_copy_limit": 54,
+      "first_single": 104
+    }
+  ],
+  "profile_grid_controls": 1728,
+  "scope": "Exact compatibility and closure for the stated scalar rules; no endpoint character or exponent improvement."
+}

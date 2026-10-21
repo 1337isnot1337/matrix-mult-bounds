@@ -1603,3 +1603,37 @@ at least 3/2. The proof uses coefficient-dual contraction over any field;
 Free quotient flags and affine carry rows lie outside these hypotheses.
 Claim `AI-SCALAR-SHIFTED-BARRIER-001` is a written, externally unreviewed
 obstruction for that class. No exponent below 9/4 is established.
+
+## Affine carry construction and finite-field continuation
+
+The [affine carry flag](research/ai/2026-10-21-affine-carry-flags/README.md)
+has an exact six-row first-stage formula in shared dimension m+3 for every
+m>=4. Three independent families of polynomial relations bound the product
+space by 3m+6. The integer controls check 142,653 relation coefficients for
+m=4 through 24. This formula supplies a starting flag; it does not construct
+all sectors for arbitrary m. Claim `AI-AFFINE-CARRY-FIRST-FLAG-001` is written
+and externally unreviewed.
+
+A complete continuation at m=6 gives C(9,23) to all six matched convolution
+sectors over F2. Every shared sector map is invertible, and independent
+source expansion checks all 2,646 coefficients. Claim
+`AI-AFFINE-CARRY-M6-F2-002` is a finite-field result only. The stored lift
+satisfying 540 congruences modulo 2^1025 is recorded separately as experiment
+`AI-AFFINE-CARRY-LIFT-003`. No characteristic-zero existence certificate
+or exponent consequence is inferred from that finite precision.
+
+## Finite constructions leave explicit endpoint models feasible
+
+The [finite-character closure audit](research/ai/2026-10-21-finite-character-closure/README.md)
+shows that all five accepted characteristic-zero flag formats satisfy the
+existing endpoint scalar model. An explicit interval of larger profiles
+also satisfies every listed scalar rule, including hypothetical copies at
+unchanged input cost per copy. The same package gives a
+[format ceiling](research/ai/2026-10-21-finite-character-closure/correlated_matrix_ceiling.md)
+for arbitrary powers and mixtures followed by direct sums of rectangular
+matrix products, including correlated extractions and leg permutations.
+Those matrix-extraction bounds cannot exceed the formal source values for
+these finite formats. Other tensor comparisons and new constructions remain
+outside both conclusions. Claims `AI-FINITE-FLAG-CLOSURE-001` and
+`AI-FINITE-MATRIX-EXTRACTION-001` are written and externally unreviewed.
+Neither is a lower bound for the matrix multiplication exponent.
