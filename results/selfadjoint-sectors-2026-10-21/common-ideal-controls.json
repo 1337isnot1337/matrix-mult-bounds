@@ -1,0 +1,109 @@
+{
+  "status": "exact necessary bound for a common isotropic principal ideal only",
+  "bound": "B+a-1 >= 2*sum(m-p for p in range(s))",
+  "small_checks": [
+    {
+      "m": 4,
+      "strictly_low_degree_count": 2,
+      "N": 10,
+      "shared_source_dimension": 5,
+      "required_opposite_flattening_rank": 7,
+      "necessary_B": 10,
+      "B_equals_N_plus_m": 14,
+      "N_plus_m_survives_this_necessary_test": true,
+      "necessary_cost_ratio": "1"
+    },
+    {
+      "m": 5,
+      "strictly_low_degree_count": 2,
+      "N": 15,
+      "shared_source_dimension": 6,
+      "required_opposite_flattening_rank": 9,
+      "necessary_B": 13,
+      "B_equals_N_plus_m": 20,
+      "N_plus_m_survives_this_necessary_test": true,
+      "necessary_cost_ratio": "13/15"
+    },
+    {
+      "m": 6,
+      "strictly_low_degree_count": 3,
+      "N": 21,
+      "shared_source_dimension": 7,
+      "required_opposite_flattening_rank": 15,
+      "necessary_B": 24,
+      "B_equals_N_plus_m": 27,
+      "N_plus_m_survives_this_necessary_test": true,
+      "necessary_cost_ratio": "8/7"
+    },
+    {
+      "m": 7,
+      "strictly_low_degree_count": 3,
+      "N": 28,
+      "shared_source_dimension": 8,
+      "required_opposite_flattening_rank": 18,
+      "necessary_B": 29,
+      "B_equals_N_plus_m": 35,
+      "N_plus_m_survives_this_necessary_test": true,
+      "necessary_cost_ratio": "29/28"
+    },
+    {
+      "m": 8,
+      "strictly_low_degree_count": 4,
+      "N": 36,
+      "shared_source_dimension": 9,
+      "required_opposite_flattening_rank": 26,
+      "necessary_B": 44,
+      "B_equals_N_plus_m": 44,
+      "N_plus_m_survives_this_necessary_test": true,
+      "necessary_cost_ratio": "11/9"
+    },
+    {
+      "m": 9,
+      "strictly_low_degree_count": 4,
+      "N": 45,
+      "shared_source_dimension": 10,
+      "required_opposite_flattening_rank": 30,
+      "necessary_B": 51,
+      "B_equals_N_plus_m": 54,
+      "N_plus_m_survives_this_necessary_test": true,
+      "necessary_cost_ratio": "17/15"
+    },
+    {
+      "m": 10,
+      "strictly_low_degree_count": 5,
+      "N": 55,
+      "shared_source_dimension": 11,
+      "required_opposite_flattening_rank": 40,
+      "necessary_B": 70,
+      "B_equals_N_plus_m": 65,
+      "N_plus_m_survives_this_necessary_test": false,
+      "necessary_cost_ratio": "14/11"
+    },
+    {
+      "m": 11,
+      "strictly_low_degree_count": 5,
+      "N": 66,
+      "shared_source_dimension": 12,
+      "required_opposite_flattening_rank": 45,
+      "necessary_B": 79,
+      "B_equals_N_plus_m": 77,
+      "N_plus_m_survives_this_necessary_test": false,
+      "necessary_cost_ratio": "79/66"
+    },
+    {
+      "m": 12,
+      "strictly_low_degree_count": 6,
+      "N": 78,
+      "shared_source_dimension": 13,
+      "required_opposite_flattening_rank": 57,
+      "necessary_B": 102,
+      "B_equals_N_plus_m": 90,
+      "N_plus_m_survives_this_necessary_test": false,
+      "necessary_cost_ratio": "17/13"
+    }
+  ],
+  "asymptotic_required_cost_ratio": "at least 3/2 when a=m+O(1), s=floor(m/2)",
+  "rules_out_arbitrary_selfadjoint_pairings": false,
+  "rules_out_independent_Y_Z_maps": false,
+  "improves_omega": false
+}

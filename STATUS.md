@@ -1053,3 +1053,20 @@ The [conditional growth target](research/ai/2026-10-20-construction-sprint/indep
 may also use independent invertible shared identifications in its matched
 convolution sectors. This preserves the character lower bound and relaxes
 the search, but supplies no missing unbounded family.
+
+## Exact five- and six-sector moment constructions
+
+The [self-adjoint moment package](research/ai/2026-10-21-selfadjoint-sectors/README.md)
+constructs C(6,20) degenerating to the five matched convolution sectors and
+C(7,28) degenerating to the six matched sectors, with a separate invertible
+shared basis in each sector. Independent rational substitution checks all
+1,125 and 2,646 coefficient positions, including every negative zero and
+constant target coefficient. Both nonshared maps have full target rank.
+These are finite results; no unbounded family or smaller exponent is proved.
+
+A [scoped ideal bound](research/ai/2026-10-21-selfadjoint-sectors/common_ideal_bound.md)
+forces asymptotic source cost at least 3/2 if every strictly lower sector is
+placed in one principal isotropic polynomial ideal. The six-sector witness
+already uses low monomials outside that ideal. Mixed recursive flags and
+other moment mechanisms remain open. Both new claims have written proofs
+and same-session exact checks; external mathematical review is outstanding.

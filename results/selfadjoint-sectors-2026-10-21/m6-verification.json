@@ -1,0 +1,55 @@
+{
+  "status": "exact full-source rational coefficient replay passed",
+  "source": "C(7,28)",
+  "source_dimensions": [
+    7,
+    28,
+    34
+  ],
+  "target": "6 matched convolution sectors with independent shared bases",
+  "target_dimensions": [
+    6,
+    21,
+    21
+  ],
+  "coefficient_field": "rational numbers; hence every characteristic-zero field",
+  "source_monomials": 196,
+  "target_coefficient_positions": 2646,
+  "negative_coefficients_checked": 420,
+  "constant_coefficients_checked": 336,
+  "nonzero_constant_coefficients": 210,
+  "constant_positions_per_sector": [
+    36,
+    60,
+    72,
+    72,
+    60,
+    36
+  ],
+  "nonzero_positive_remainder_coefficients": 1083,
+  "nonzero_remainder_coefficients_by_degree": {
+    "1": 333,
+    "2": 318,
+    "3": 278,
+    "4": 110,
+    "5": 44
+  },
+  "shared_sector_determinants": [
+    "1",
+    "1/3220480",
+    "-4",
+    "-4",
+    "1/3220480",
+    "1"
+  ],
+  "map_ranks": [
+    6,
+    21,
+    21
+  ],
+  "verifier_uses_only_standard_library": true,
+  "unbounded_family_constructed": false,
+  "external_mathematical_review": false,
+  "improves_omega": false,
+  "witness_sha256": "05ae99e42c70e0cb6a7707cc29108266065e770bd6b456eba826eec47e3ec111"
+}
