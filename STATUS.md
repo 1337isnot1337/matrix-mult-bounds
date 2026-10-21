@@ -744,3 +744,12 @@ uses polynomial residue levels and has a complete coefficient identity.
 Exact replays at `m=4,6,8,10` check 26,694 coefficients. The projection loses
 `m/2-1` shared directions; recovering those directions with Laurent maps
 remains open. Neither result constructs the full target or improves omega.
+
+The [first and second order lift obstruction](research/ai/2026-10-20-shared-tangent-lift/README.md)
+closes the exact `B=N` problem for the displayed simple-pole shared map
+and its quadratic ramification, even with arbitrary Laurent orders on the
+other legs. A nonzero normal coefficient cannot be cancelled; the second
+order correction vanishes by an image-intersection argument. Higher
+ramification and additional source space are outside the claim. Current
+construction work allows `B=N+O(m)`, which still meets the asymptotic
+cost-one premise if full tensor maps can be found.

@@ -71,3 +71,25 @@ The next construction question is how to lift the projected residue-level
 maps to all shared directions, allowing additional Laurent terms or source
 length `N+O(m)`. Such overhead would have asymptotic cost one. No lift has
 been supplied and no numerical residual is accepted as a certificate.
+
+## Third checkpoint
+
+The first and second order matrix-rank conditions exclude the displayed
+shared-map family at `B=N`, including its quadratic ramification. The
+second-order result allows arbitrary first-order motion of the target and
+arbitrary finite Laurent pole orders on both nonshared maps. Its key step
+identifies an intersection of node image spaces, forcing the relevant
+quadratic correction to vanish. The exact controls check the four sizes
+`m=4,6,8,10`; a second agent checked the written intersection argument in
+the same session. This remains externally unreviewed.
+
+Consequently the constructive search prioritizes a few additional source
+coordinates, beginning with `B=11,12` at `m=4`. Uniform overhead `O(m)`
+would preserve the existing asymptotic implication. Completed floating
+pilots still have nonzero residuals and supply no tensor certificate.
+
+The integrated checkpoint `1bf04fac9bcb1a30360626423e9d150225bcf1b8`
+passes the remote required CI, including regression jobs on Python 3.10
+and 3.14 and archive replay on Python 3.13. All five local archive replays
+also pass. A local full-suite attempt produced no completion record and is
+not counted as a successful run. The new tangent controls pass separately.

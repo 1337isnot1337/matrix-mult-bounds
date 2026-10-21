@@ -200,7 +200,7 @@ the two still-missing source maps.
 ## 5. The concrete construction problem left open
 
 For `m=4`, (1) uses the nodes `0,1,2,3` and diagonal weights `(1,1,1,epsilon)`.
-The immediate open task is to find Laurent maps
+The construction question initially posed was to find Laurent maps
 
 \[
 Y_\epsilon:\mathbb C^{10}\longrightarrow\mathbb C^{10},\qquad
@@ -220,6 +220,14 @@ regular leading matrices is an additional assumption, not a normal form.
 No such pair has been constructed here, at `m=4` or asymptotically.
 Even an exact `m=4` solution alone would not establish the unbounded
 construction premise needed for an exponent improvement.
+
+The subsequent [first and second order proof](../2026-10-20-shared-tangent-lift/README.md)
+now excludes integer-power Laurent completions at `B=N` for this exact
+parameterization and for its quadratic ramification. Its proof uses the
+sharp central rank, not a failure of the limiting rank tests above.
+Higher ramification is outside that claim. The construction search now
+also allows `B=N+O(m)`, whose asymptotic cost remains one and whose extra
+rank allowance avoids this particular obstruction.
 
 There is no numerical acceptance criterion in this note. A proposed pair
 must be checked on every tensor coefficient, including all required zeros
