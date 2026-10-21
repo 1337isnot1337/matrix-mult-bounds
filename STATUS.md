@@ -165,6 +165,27 @@ occurrence clauses. These finite rejections are not a complete exclusion.
 The first run with those templates separately rejected 619 candidates by
 replayed circuits and supplied no pair-injective lift or tensor witness.
 
+## Selected direct-product group target
+
+The [SL(2,5) x C2 lane](research/ai/2026-10-20-sl2-five-c2/README.md)
+selects M(13,13,15). Exact rational central idempotents derive the first
+factor's degrees; the standard direct-product theorem repeats them twice.
+Integer root intervals give a conditional omega < 2247/1000 comparison, and
+the concurrent rank-locus screen requires 217<=240, so it does not exclude
+the target. **The target degeneration is unconstructed.**
+
+The adapter checks an order-48 subgroup and 60 center orbits, applies the
+central-pair exclusions and reuses the pinned integer acceptance verifier.
+Six controls check the source, projection, an embedded positive weighted
+control, the unchanged SL(2,7) certificate and exact finite rejection replay.
+The two initial 600-second target searches, with and without projected
+inverse-class capacities, ended without a pair-injective model. These
+timeouts exclude nothing. A separate structured-parent enumeration rejects
+all 1,000 explicitly generated ten-point section triples by independently
+replayed positive integer Farkas circuits; its finite scope is documented in
+the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
+The larger target remains open.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)
@@ -441,6 +462,17 @@ matrix targets, modulo B/C exchange; all are excluded by saved rank
 witnesses. The frontier through a=16 has 28 survivors, first at a=14.
 No surviving target is constructed; joint extraction remains open.
 
+## Varying quantum recoupling
+
+The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
+uses rational Clebsch--Gordan changes of basis that vary with q. Explicit
+local factors keep the generic source isomorphic to convolution. Exact
+controls check 196 projection positions, 360 invariant equations and 30
+small basis/root configurations. At q=i, the rowwise-regular cyclic maps
+have ranks 8,32,64 at a=2,3,4 over Q(i). This calibration produces ordinary
+restrictions and does not supply the size-four matrix target. Coupled
+singular normalizations remain open; no exponent improvement is claimed.
+
 ## Polynomial flags and numerical calibration
 
 The [polynomial flag argument](research/ai/2026-10-20-singular-flags/normal_form.md)
@@ -596,3 +628,21 @@ more general Laurent maps remains open. Two 16-start weighted ALS searches
 and two refinements supplied no exact M3 degeneration. Saved diagnostics
 include large omitted coefficients; masked residuals are not certificates.
 The exponent is unchanged.
+
+## Equivariant cyclic construction obstruction
+
+[AI-CYCLIC-EQUIVARIANT-050](research/ai/2026-10-20-cyclic-equivariant/README.md)
+proves an all-size five-coefficient polynomial obstruction to diagonal-SL2
+equivariant A_a to M_(2a-1) degeneration with irreducible vertex actions.
+Exact representation counts also exclude all choices of matrix-vertex
+representations for the specified H1100 equivariant ansatz; A2 to M3 is
+closed by combining the count with the polynomial identity. General maps
+that break this symmetry remain open. The proof is unreviewed; the exponent
+is unchanged.
+
+[EXP-CYCLIC-CARTAN-FRONTIER-051](research/ai/2026-10-20-cyclic-equivariant/torus.md)
+relaxes the action to its torus. Exactly one necessary H1100 vertex-character
+triple survives an exhaustive 89-case integer coefficient search. This
+selects 3854 allowed map entries, but supplies no construction. Completed
+32-start A2 and six-start H1100 pilots found no exact witness; several of
+the latter escaped to large norms.
