@@ -710,3 +710,13 @@ written and unreviewed. Finite modular discovery scans, exact replay and
 CI do not establish independent review or a smaller exponent. Concurrent
 F8 coordinate closure and subgroup-ideal work retain their source pins
 and authorship; their focused local replays are integration evidence.
+
+## Uniform mixed-normal dichotomy
+
+The all-graph normal dichotomy, eight rational square identities and four
+polynomial mixed-row identities were developed in this owner-directed
+session. They reuse the credited full-B source normal system and the
+stable/projection rank argument. Singular suggested linear radical forms
+during discovery; acceptance checks direct coefficient identities over Q.
+The result has no independent mathematical review and does not exclude
+a complete target or improve the exponent.
