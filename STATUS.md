@@ -466,6 +466,16 @@ in this stated F8^2:C7 coordinate-potential source-cost route beats 9/4.
 General tensor degenerations and unequal targets with a side below nineteen
 remain open. This written proof is unreviewed and gives no exponent improvement.
 
+The [higher-slice unequal followup](research/ai/2026-10-20-f8-unequal/research_note.md)
+also excludes every target of side sizes at least (16,16,26), in any order,
+in this construction frame. All32 small integer pencils and520710 count
+pairs are replayed exactly; seven-slice averaging gives8970/7>1280.
+The proof is written and unreviewed. A (16,20,21) count pattern survives
+the stated three-, five- and seven-slice necessary tests. Two restricted
+nonlinear graph searches found no target: one reported untraced UNSAT,
+the other timed out. The separately verified (4,4,3) positive control
+does not pass the exponent gate. The arithmetic exponent remains9/4.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |

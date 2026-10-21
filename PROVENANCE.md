@@ -251,6 +251,13 @@ derived and checked here. No external solver service or character table was
 used. All displayed smaller-exponent gates retain an unconstructed target
 premise. SAT timeouts and untraced UNSAT remain experiment outcomes.
 
+The unequal F8 continuation applies classical Koszul border-rank bounds
+to abelian-normal coset blocks. Its32 explicit small pencils, complete
+(16,16,26) count-pair averaging certificate and nonlinear graph pilots
+are local AI-derived work. Landsberg-Ottaviani2015 is cited for the general
+Koszul method. The written proof has no independent review; the restricted
+search outcomes and small positive control do not improve the exponent.
+
 An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.
 
 ## Subsequent local research
