@@ -258,6 +258,13 @@ are local AI-derived work. Landsberg-Ottaviani2015 is cited for the general
 Koszul method. The written proof has no independent review; the restricted
 search outcomes and small positive control do not improve the exponent.
 
+The complete F8 coordinate closure adds even-slice rectangular pencils and
+a finite cover of all12 minimal improving formats. Its compiled program
+discovers tags; the standard-library Python verifier independently checks
+all9539875 pair tags and90 remaining alignments. The imported source and
+rank-locus results and classical Koszul method keep their earlier credit.
+This is a written unreviewed construction barrier, not an exponent gain.
+
 An external author's reported Lean verification, the leaderboard's verification label, a local Python replay, and independent mathematical review are different evidence categories. They must not be substituted for one another.
 
 ## Subsequent local research
