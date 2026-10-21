@@ -1,5 +1,17 @@
 # Research status
 
+## Modular obstruction for small Heisenberg sources
+
+The [modular application](research/ai/2026-10-20-heisenberg-seven/modular_proof.md)
+of Petrov's external filtration excludes coordinate/potential constructions
+passing the ordinary degree gate for every tensor power of H_p, for each
+odd prime p<=47. It covers finite rectangular direct sums through cyclic
+symmetrization and the credited tight-support entropy theorem. Exact rational
+certificates and 1,485 finite group-algebra generator controls accompany
+written, unreviewed claim `AI-HEIS-MODULAR-025`. Arbitrary complex maps remain
+open; no smaller exponent was established. This retires the earlier bounded
+H_7 coordinate searches for this gate.
+
 ## Hankel pencils and the ordinary frontier
 
 The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)
