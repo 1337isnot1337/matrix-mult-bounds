@@ -12,16 +12,16 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
-closes uniformly for every a and nonzero t: auxiliary projection relations
-reduce the ten remaining quotient parameters to two, then cubic minors
-eliminate both. The written all-order extension is unreviewed. General
-two-coordinate graph charts remain open; the next calculation must use
-their actual mixed rows and retain exceptional parameter loci. PR69
-merged at48bd72d with equal source/squash trees; its completed local and
-remote branches and worktree are removed. All583 local tests ran, with
-580 passes and3 optional skips; all five archive replays passed. No
-exponent gain is established.
+`ai/2026-10-21-mixed-two-coordinate-chart/QUESTION.md`. The first
+m+t*d0+h*d1 chart at a=b=1 has a complete normal-rank stratification and
+a polynomial frame away from the origin and (1,1). The full exceptional
+fiber at (1,1) closes by source equations and cubic minors. Its generic
+target incidence remains open. The next calculation uses the polynomial
+frame for the stable-row and auxiliary-projection relations. PR70 contains
+the uniform-axis proof, merged at20fa49b after current CI passed. Its
+source and squash trees match; the completed worktree and branches are
+removed. The591-test local two-coordinate suite and five archive replays
+passed. No exponent gain is established.
 
 
 The mixed-frame worker now studies

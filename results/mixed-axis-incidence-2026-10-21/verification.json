@@ -1,0 +1,41 @@
+{
+  "source_commit": "be9a09af9ab3b082242b4579484177bd54d62f61",
+  "merged_commit": "20fa49bb9bbc8908935bec508158a76757044505",
+  "source_and_merge_tree": "f50212757975974f24bab6b278a6f2a9b0ddaf1e",
+  "pull_request": 70,
+  "local_full_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "run": 587,
+    "passed": 584,
+    "skipped": 3,
+    "seconds": 2287.798,
+    "result": "passed",
+    "started_at_commit": "86d19a1756cb780731562870850ff84f5b4186df",
+    "subsequent_changes": "Validation receipt and documentation only; mathematical verifier and tests unchanged. Report link corrected before the full run reached its link check."
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "focused_replay": {
+    "tests": 4,
+    "seconds": 157.22,
+    "result": "passed"
+  },
+  "link_regression": {
+    "tests": 1,
+    "seconds": 0.144,
+    "result": "passed"
+  },
+  "current_head_CI": {
+    "python_versions": [
+      "3.10",
+      "3.14"
+    ],
+    "archive_python": "3.13",
+    "result": "passed",
+    "run_id": 39600388890
+  },
+  "independent_review": false,
+  "improves_omega": false
+}

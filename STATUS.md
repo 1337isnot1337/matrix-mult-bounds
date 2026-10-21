@@ -37,6 +37,18 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## Two-coordinate rank strata and exceptional graph closure
+
+The [two-coordinate chart proof](research/ai/2026-10-21-mixed-two-coordinate-chart/proof.md)
+classifies every complex parameter pair in m+t*d0+h*d1 at a=b=1:
+normal dimensions32 off two points,36 at the origin and34 at (1,1).
+A polynomial frame is complete away from those points, certified by
+matched minors and all complex exceptional-root controls. The full
+exceptional normal system at (1,1) reduces to the four plane directions
+and excludes that graph under the prior shifted induction. Claim
+`AI-MIXED-TWO-COORDINATE-STRATA-093` is written and unreviewed. Full target
+classification on this chart remains open; the exponent remains9/4.
+
 ## Uniform mixed-axis reduction
 
 The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a

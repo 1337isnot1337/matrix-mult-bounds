@@ -1,0 +1,81 @@
+{
+  "implementation_commit": "91f80c001d67cf41ffefc3037a1aba23b80e8712",
+  "local_full_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "run": 591,
+    "passed": 588,
+    "skipped": 3,
+    "seconds": 2259.569,
+    "result": "passed"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "focused_replay": {
+    "tests": 4,
+    "seconds": 142.754,
+    "result": "passed"
+  },
+  "link_check": {
+    "tests": 1,
+    "seconds": 0.091,
+    "result": "passed"
+  },
+  "independent_review": false,
+  "improves_omega": false,
+  "main_integration": {
+    "main_commit": "bf3b7d8e1444a0b712178b45932303f98d8599e7",
+    "additional_test_file": "tests/test_sun_local_audit.py",
+    "additional_tests_passed": 2,
+    "seconds": 0.396,
+    "link_and_ledger_checks_passed": 2
+  },
+  "pre_hankel_integration_CI": {
+    "source_commit": "071ce74dfadc8b0098fa6f3c3a2d405c1d63ed79",
+    "run_id": 39626591383,
+    "python_versions": [
+      "3.10",
+      "3.14"
+    ],
+    "archive_python": "3.13",
+    "result": "passed"
+  },
+  "main_hankel_integration": {
+    "main_commit": "46952988962c19f11811c6b6860c88e898b99b51",
+    "additional_tests_passed": 7,
+    "seconds": 5.37,
+    "link_and_ledger_checks_passed": 2
+  },
+  "historical_monolithic_budget_update": {
+    "run_id": 39622521064,
+    "source_commit": "26357da459eafa2ed211b90855252e5c7f9727e6",
+    "python_3_14": "passed",
+    "python_3_10": "cancelled at the workflow execution limit",
+    "github_annotation": "The job has exceeded the maximum execution time of 20m0s",
+    "old_test_job_minutes": 20,
+    "new_test_job_minutes": 30,
+    "required_CI_gate_unchanged": true
+  },
+  "latest_main_integration": {
+    "main_commit": "03383adc742f25ebac2c79ef4b3a4c62d4e96bf2",
+    "sharding_checks_passed": 4,
+    "link_and_ledger_checks_passed": 2,
+    "coverage": {
+      "total_tests": 713,
+      "modules": 173,
+      "groups": 4,
+      "tests_per_group": [
+        189,
+        186,
+        182,
+        156
+      ],
+      "complete_disjoint_union": true,
+      "import_errors": 0,
+      "own_module_cases": 4
+    },
+    "per_group_minutes": 20,
+    "workflow_matches_main": true
+  }
+}
