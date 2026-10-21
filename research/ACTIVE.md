@@ -1,12 +1,14 @@
 # Integrated research coordination
 
-The mixed-jet worker has now closed every maximal mixed first pair of
-quotient ranks 14 and 6, in either order, in
-`ai/2026-10-21-mixed-first-jets/pencil_frontier.md`. The necessary mixed
-rank sum is at most 19. Exact generic two-jets remain positive controls;
-rank divisibility and twelve cubic minors supply the later obstruction.
-Smaller or delayed first growth remains open. The full boundary-spanning
-12-by-12 family stays with the quantum worker.
+The mixed-jet worker continues in
+`ai/2026-10-21-both-mixed-first-spaces/QUESTION.md`. Both nonzero mixed
+projections are now classified as lines: paired rank-one lines with
+quotient ranks at most 7 each, or invertible lines with ranks 1 each.
+The active lifting control is the invertible 1-by-1 pair, with 72 normal
+directions before the next equations. Exact first-space compatibility
+is retained, without a matrix-target or exponent claim. The previous
+maximal one-sided pencils are excluded; the full boundary family stays
+with the quantum worker.
 
 The quantum worker now continues in
 `ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
