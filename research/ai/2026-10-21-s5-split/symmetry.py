@@ -29,7 +29,7 @@ def actions(G, Q, receipt):
                          for q in range(120)) for g in H})
 
 
-def append(G, Q, receipt, members, variable, add_clause):
+def append(G, Q, receipt, members, variable, add_clause, equal_last=True):
     order = receipt['projected_subgroup']+sorted(set(range(120))-set(receipt['projected_subgroup']))
     permutations = actions(G, Q, receipt)
     for j, permutation in enumerate(permutations):
@@ -40,11 +40,12 @@ def append(G, Q, receipt, members, variable, add_clause):
             inverse[image] = q
         lex_geq([members[0][q] for q in order], [members[0][inverse[q]] for q in order],
                 variable, add_clause, ('common-conjugation', j))
-    lex_geq([members[1][q] for q in order], [members[2][q] for q in order],
-            variable, add_clause, 'equal-last-legs')
+    if equal_last:
+        lex_geq([members[1][q] for q in order], [members[2][q] for q in order],
+                variable, add_clause, 'equal-last-legs')
     return {'common_subgroup_conjugations': len(permutations),
             'first_leg_order': 'normalization-subgroup points first, presence preferred',
-            'equal_last_legs_ordered': True}
+            'equal_last_legs_ordered': equal_last}
 
 
 def canonical_control():

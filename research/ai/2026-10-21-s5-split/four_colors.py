@@ -27,7 +27,7 @@ def certificate():
             'degeneration_constructed': False, 'exponent_improvement': False}
 
 
-def data():
+def data(shape=None):
     base = group()
     M, inv = base['mul'], base['inv']
     G = {'name': 'S5 x C2^2', 'identity': 0,
@@ -67,6 +67,9 @@ def data():
                'complex_degrees': source['complex_degrees'],
                'source_certificate_sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
                'conditional_gate': source['conditional_gate'], 'exponent_improvement': False}
+    if shape is not None and list(shape) != [19]*3:
+        receipt['conditional_gate'] = exponent_gate(source['complex_degrees'], shape=shape)
+        receipt['target_shape'] = list(shape)
     return G, Q, receipt
 
 
@@ -113,7 +116,8 @@ def build(G, Q, receipt, shape, trades=True, normalized=True):
                                                        -owners[h][4*cx+a], -owners[k][4*cy+b]))))
         clauses.extend(sorted(trade_clauses))
     before = len(clauses)
-    symmetry = append_symmetry(G, Q, receipt, members, pool.id, clauses.append) if normalized else None
+    symmetry = append_symmetry(G, Q, receipt, members, pool.id, clauses.append,
+                               equal_last=shape[1] == shape[2]) if normalized else None
     solver = Cadical195(bootstrap_with=clauses)
     return solver, points, members, {'variables': pool.top, 'clauses': len(clauses),
             'full_inverse_classes': len(owners[0]), 'central_colors': 4,

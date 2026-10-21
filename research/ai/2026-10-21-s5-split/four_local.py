@@ -15,12 +15,14 @@ from verify_projected_reports import verify_farkas_record
 from search import potential_or_circuit
 
 
-def run(output, seconds, seed):
-    G, Q, receipt = data()
+def run(output, seconds, seed, shape=(19, 19, 19), cooling_steps=500000):
+    G, Q, receipt = data(shape)
+    if receipt['conditional_gate']['strict_positive_margin_numerator'] <= 0:
+        raise ValueError('this target does not pass the improving conditional gate')
     slice_control()
-    solver, points, members, encoding = build(G, Q, receipt, [19]*3, normalized=False)
+    solver, points, members, encoding = build(G, Q, receipt, shape, normalized=False)
     rng = random.Random(seed)
-    sets = [[0]+rng.sample(range(1, 120), 18) for _ in range(3)]
+    sets = [[0]+rng.sample(range(1, 120), n-1) for n in shape]
     table, inverse = np.array(Q['mul'], dtype=np.int16), np.array(Q['inv'], dtype=np.int16)
     cuts = []
 
@@ -42,10 +44,12 @@ def run(output, seconds, seed):
     cut_path = output.with_suffix('.cuts.jsonl')
     cut_path.write_text('')
     started = time.monotonic()
-    report = {'group': G['name'], 'shape': [19]*3, 'source_and_normalization': receipt,
+    report = {'group': G['name'], 'shape': list(shape), 'source_and_normalization': receipt,
         'encoding': encoding, 'method': 'Local projected capacity, modular central matching, native color SAT',
         'normalizations_used': 'Identity only in the sampler and conditional color solver',
         'seed': seed, 'seconds_limit': seconds, 'steps': 0, 'minimum_energy': current,
+        'best_projected_sets': [list(S) for S in sets],
+        'temperature': {'floor': 0.05, 'amplitude': 1.5, 'period_steps': cooling_steps},
         'inner_conflict_budget': 3000,
         'projected_model_events': 0, 'exact_central_slice_cuts': 0,
         'untraced_inner_refutations': 0, 'inner_budget_hits': 0, 'pair_injective_models': 0,
@@ -67,17 +71,20 @@ def run(output, seconds, seed):
     checkpoint()
     while time.monotonic()-started < seconds:
         report['steps'] += 1
-        f, i = rng.randrange(3), rng.randrange(1, 19)
+        f = rng.randrange(3)
+        i = rng.randrange(1, shape[f])
         q = rng.randrange(1, 120)
         if q in sets[f]:
             continue
         old = sets[f][i]
         sets[f][i] = q
         proposed = energy()
-        temperature = 0.05+1.5*(1-(report['steps'] % 20000)/20000)
+        temperature = 0.05+1.5*(1-(report['steps'] % cooling_steps)/cooling_steps)
         if proposed <= current or rng.random() < math.exp((current-proposed)/temperature):
             current = proposed
-            report['minimum_energy'] = min(report['minimum_energy'], current)
+            if current < report['minimum_energy']:
+                report['minimum_energy'] = current
+                report['best_projected_sets'] = [list(S) for S in sets]
         else:
             sets[f][i] = old
         if not current:
@@ -111,7 +118,7 @@ def run(output, seconds, seed):
                         pair_map(G, lifted[f], lifted[(f+1) % 3])
                     report['pair_injective_models'] += 1
                     relations, _ = extra_relations(G, lifted)
-                    answer = potential_or_circuit(relations, 57)
+                    answer = potential_or_circuit(relations, sum(shape))
                     if 'potentials' in answer:
                         report['witness'] = {'sets': lifted, 'potentials': answer['potentials'],
                             'verification': verify_witness(G, lifted, answer['potentials'])}
@@ -132,7 +139,8 @@ def run(output, seconds, seed):
                     solver.add_clause([-points[f][g//4][g % 4] for f, g in support])
                     report['exact_farkas_cuts'] += 1
                 # A sampling kick avoids treating any untraced negative as a proved cut.
-                f, i = rng.randrange(3), rng.randrange(1, 19)
+                f = rng.randrange(3)
+                i = rng.randrange(1, shape[f])
                 q = rng.choice([p for p in range(1, 120) if p not in sets[f]])
                 sets[f][i] = q
                 current = energy()
@@ -150,6 +158,9 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--seconds', type=float, default=600)
     parser.add_argument('--seed', type=int, default=2026102133)
+    parser.add_argument('--shape', type=int, nargs=3, default=(19, 19, 19))
+    parser.add_argument('--cooling-steps', type=int, default=500000)
     args = parser.parse_args()
-    print(json.dumps({k: v for k, v in run(args.output, args.seconds, args.seed).items()
+    print(json.dumps({k: v for k, v in run(args.output, args.seconds, args.seed,
+                      args.shape, args.cooling_steps).items()
                       if k not in ('source_and_normalization', 'witness')}))

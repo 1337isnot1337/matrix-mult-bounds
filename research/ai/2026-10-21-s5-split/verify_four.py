@@ -21,9 +21,11 @@ def replay(path):
     report = json.loads(path.read_text())
     if 'exact_central_slice_cuts' not in report:
         return helper.replay(path, data_provider=data, target_shape=(19, 19, 19))
-    G, Q, receipt = data()
+    shape = report['shape']
+    G, Q, receipt = data(shape)
     slice_control()
-    if (report['group'] != G['name'] or report['shape'] != [19]*3
+    if (receipt['conditional_gate']['strict_positive_margin_numerator'] <= 0
+            or report['group'] != G['name']
             or report['source_and_normalization'] != json.loads(json.dumps(receipt))):
         raise ValueError('wrong four-color source or shape')
     cuts = path.with_suffix('.cuts.jsonl')
@@ -31,7 +33,7 @@ def replay(path):
     counts = Counter()
     for line in payload.splitlines():
         item = json.loads(line)
-        if list(map(len, item['sets'])) != [19]*3:
+        if list(map(len, item['sets'])) != shape:
             raise ValueError('wrong saved candidate shape')
         if item['type'] == 'exact-central-slice':
             verify_match(Q, item)
@@ -52,7 +54,7 @@ def replay(path):
             raise ValueError('four-color record count mismatch')
     if report['witness']:
         w = report['witness']
-        if list(map(len, w['sets'])) != [19]*3:
+        if list(map(len, w['sets'])) != shape:
             raise ValueError('wrong positive target shape')
         verify_witness(G, w['sets'], w['potentials'])
     return {'records': dict(counts), 'untraced_refutations_are_proofs': False,
