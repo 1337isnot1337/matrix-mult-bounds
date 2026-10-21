@@ -138,6 +138,15 @@ now closes several prescribed root flags even with arbitrary higher jets.
 Changing the first-leg jet cutoff does not escape those proofs. Different
 leading flags and weight-breaking projections remain construction questions.
 
+The [two-block paired frontier](../research/ai/2026-10-20-paired-direct-sums/README.md)
+supplies a smaller source-size construction question. The complete
+one-block/two-block search through `a=10` leaves 19 pairs, all at size ten,
+after every first-leg Koszul test. Construct or exclude
+`P10 -> M(4,11,10) direct_sum M(10,12,6)`; the proved conditional
+implication is `omega<2.242`. Ordinary constant maps are already excluded.
+The active branch is `research/paired-frontier-unequal-entropy-20261020`.
+Any witness must certify its full coefficient identity and singular limit.
+
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 It requires a genuine convolution-source degeneration at cost below

@@ -1,0 +1,28 @@
+{
+  "completed_commands": [
+    {
+      "command": "python research/ai/2026-10-20-paired-direct-sums/frontier.py --output results/paired-direct-sums-2026-10-20/frontier-through-10.json",
+      "outcome": "complete exact enumeration, a2 througha10"
+    },
+    {
+      "command": "python research/ai/2026-10-20-paired-direct-sums/frontier.py --selected --output results/paired-direct-sums-2026-10-20/selected-target.json",
+      "outcome": "100 first-leg comparisons pass; conditional root gate passes; ordinary restriction excluded"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_paired_direct_sums.py -v",
+      "outcome": "6 tests passed"
+    }
+  ],
+  "report_hashes": [
+    {
+      "path": "results/paired-direct-sums-2026-10-20/frontier-through-10.json",
+      "sha256": "cde4fb26a0a5208824b0446632feb4b843439826e75e65de93677287e2927452"
+    },
+    {
+      "path": "results/paired-direct-sums-2026-10-20/selected-target.json",
+      "sha256": "3d0efc80e807b4892afaebed071081b6b92999be9d370d5505a19fc32c131ab1"
+    }
+  ],
+  "scope": "Focused new-package validation. Full integrated suite and historical replay are recorded by the integrating worker.",
+  "improves_omega": false
+}

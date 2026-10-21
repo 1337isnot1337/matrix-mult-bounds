@@ -11,6 +11,13 @@ owner-directed research session beginning at `75bf6a3`. They are written,
 unreviewed and not formalized. The resulting sharp score constant is not
 a matrix multiplication exponent or a constructed tensor degeneration.
 
+The accompanying `research/ai/2026-10-20-paired-direct-sums/` package adopts
+the prior paired-source and matrix Koszul formulas, their minimum-slice
+argument and the finite profile ceiling. Its new contribution is a complete
+two-block frontier, padded direct-sum accounting and a conditional target
+comparison. The target maps remain missing. Exact finite certificates and
+same-session cross-checks do not provide independent mathematical review.
+
 The maintained direct-product continuation in
 `research/ai/2026-10-20-sl2-five-c2/` adds AI-derived projected counting and
 binary necessary conditions. Its optional discovery adapter reuses the

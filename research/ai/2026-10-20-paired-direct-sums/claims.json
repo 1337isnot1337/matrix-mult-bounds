@@ -1,0 +1,26 @@
+{
+  "claims": [
+    {
+      "id": "EXP-PAIRED-DIRECT-SUM-FRONTIER-001",
+      "classification": "finite exact experiment",
+      "statement": "Among at most two positive matrix blocks in the paired-source formats a=2 through10, no endpoint-improving target passes all first-leg Koszul tests for a<=9; at a10 there are19 surviving pairs modulo B/C exchange.",
+      "limitations": "All Koszul exterior degrees on the first leg only. No target degeneration is constructed; arbitrary block counts and tensor powers are outside the enumeration.",
+      "evidence": [
+        "results/paired-direct-sums-2026-10-20/frontier-through-10.json",
+        "tests/test_paired_direct_sums.py"
+      ]
+    },
+    {
+      "id": "COND-PAIRED-DIRECT-SUM-002",
+      "classification": "written conditional implication, unreviewed",
+      "statement": "If P10 degenerates over C to M(4,11,10) direct_sum M(10,12,6), then omega<1121/500=2.242.",
+      "unproved_premise": "Existence of that tensor degeneration.",
+      "limitations": "Constant restrictions are excluded by the adopted source minimum-slice-rank argument. The all-first-leg rank certificate is only necessary.",
+      "evidence": [
+        "research/ai/2026-10-20-paired-direct-sums/README.md",
+        "results/paired-direct-sums-2026-10-20/selected-target.json"
+      ]
+    }
+  ],
+  "improves_omega": false
+}
