@@ -178,6 +178,15 @@ replayed positive integer Farkas circuits; its finite scope is documented in
 the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
 The larger target remains open.
 
+The [projected continuation](research/ai/2026-10-20-sl2-five-c2/projected_note.md)
+adds necessary four-pair fiber capacities and binary equations over the
+projected involutions. The first binary-filter run has 2,765 replayed
+capacity certificates and 2,474 replayed parity certificates, plus 3,794
+untraced solver cores and one budget skip. It produces no lift or witness;
+the exact circuits do not upgrade the untraced parts into a complete proof.
+All 720 full-space Koszul comparisons pass for this target. A separate
+(12,12,17) comparison is also conditional on an unconstructed degeneration.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)
