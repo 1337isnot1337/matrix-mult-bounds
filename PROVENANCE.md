@@ -55,6 +55,12 @@ The session produced the research note, three Python programs, and five experime
 
 The product recurrence and its asymptotic prefactor precede this session in OpenAI's paper. The local analysis concerns its matching-profile extension and sharpness. Determinant filtration is an existing mathematical construction. No priority claim is made for it or for the local formulas.
 
+The same least-profile formula and minimality theorem appear earlier in
+[Rohan Arun's repository](https://github.com/rohanarun/matrix-multiplication-sector-barrier/blob/0b09d3616da31d8750366747d7821d70ae6d1b90/proof.tex), Section 4,
+introduced October 10 at `5a759558440672e69641547743bde3cf6d6ae50f`.
+AI-SCALAR-001 is therefore recorded as a local rederivation with this
+explicit overlap. See [the source comparison](docs/external_followups.md).
+
 ## Immutable import
 
 The supplied archive was `matmul_research_bundle.zip`, with SHA-256:

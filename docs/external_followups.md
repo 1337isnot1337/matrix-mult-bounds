@@ -67,6 +67,38 @@ Sources: [README](https://github.com/YuvalFilmus/matrix-multiplication-block-ide
 README blob: `06cab6441f44afd899d7e7586f3134abdf20ff71`.
 Theorem blob: `6789991b21545636620548794c2e72205b8b3d6f`.
 
+## Earlier scalar-profile work: Rohan Arun's repository
+
+The [pinned draft](https://github.com/rohanarun/matrix-multiplication-sector-barrier/blob/0b09d3616da31d8750366747d7821d70ae6d1b90/proof.tex), Section 4,
+contains the same least scalar profile used in AI-SCALAR-001:
+H_u times (v+(u-1)/2), where H_u is the OpenAI product recurrence.
+Its [introducing commit](https://github.com/rohanarun/matrix-multiplication-sector-barrier/commit/5a759558440672e69641547743bde3cf6d6ae50f)
+is dated October 10, before our October 20 derivation. This is an
+attribution overlap; the immutable local archive remains unchanged.
+The external repository discloses AI generation and does not claim
+independent review, a realizing tensor character, or an exponent gain.
+
+Its [open PR #3](https://github.com/rohanarun/matrix-multiplication-sector-barrier/pull/3), inspected at
+`651bb083f558d969eba106cb79a1a5d1f5289f12`, adds a leg-resolved
+relaxation: the symmetric assignment P_min^(3/4) survives its six
+oriented constraints. Its convexity proof concerns the listed scalar
+inequalities; it does not construct tensor characters by interpolation.
+We read Sections 4 and 5 and did not run the external test suite.
+
+## Spectrum results used by concurrent research
+
+Sakabe, Dogan and Walter's [Theorem 1.1, v1](https://arxiv.org/html/2601.21553v1)
+identifies upper support and quantum functionals for complex tensors.
+Alman, Li and Pratt's [v2, September 27](https://arxiv.org/html/2604.01386v2),
+Corollary 8.10, classifies spectral points with one dot-product exponent
+one as edge support functionals, over arbitrary fields. Neither statement
+classifies the interior point (3/4,3/4,3/4).
+
+The [concurrent PR #28](https://github.com/1337isnot1337/matrix-mult-bounds/pull/28)
+already uses these results in its quantum-profile analysis. We inspected
+the cited statements directly and retain their external attribution;
+this literature update is not a proof audit or an interior-spectrum result.
+
 ## Attribution and limits
 
 No external source tree was copied into this repository. The links and annotations preserve authorship and version information. Reported external verification remains attributed to the source projects.
