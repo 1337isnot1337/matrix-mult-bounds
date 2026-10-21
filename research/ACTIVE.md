@@ -12,6 +12,12 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
+`ai/2026-10-21-global-mixed-normal-dichotomy/QUESTION.md`. All six graph
+parameters at a=b=1 reduce to fixed54- and36-dimensional quotient normal
+families. Exact square and polynomial row identities collapse the rank-one
+projection alternative to projection zero. Both families remain open.
+
+The mixed-frame worker now studies
 `ai/2026-10-21-mixed-exceptional-affine/QUESTION.md`. A new affine family
 has at least38 normal directions, exactly38 generically. Its base graph
 is fully excluded after recomputing all38 directions. The rest of the
