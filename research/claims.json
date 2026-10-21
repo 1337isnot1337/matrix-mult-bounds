@@ -156,6 +156,24 @@
       "lean_formalized": false,
       "improves_omega": false
     },
+    {
+      "id": "AI-QUANTUM-MAXIMAL-JET-077",
+      "title": "All-order exclusion for maximal first extensions at the quantum root flags",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-moving-boundary-flags/proof.md",
+      "statement": "For the normalized rank-four root flags, a regular-output/Laurent-first-leg degeneration to M(10,10,11) cannot have outside first-jet quotient rank 16 on both legs. Exact normal constraints leave four directions, precisely the tangent directions of a common plane of cubic forms. A formal induction forces all rows into moving spaces of dimension 56, contradicting target conciseness.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "AI-QUANTUM-BOUNDARY-TRAP-076",
+        "Exact ranks 220 and 224, four explicit kernel directions, and complete source coefficient controls",
+        "Formal cubic-product annihilators and order-by-order induction"
+      ],
+      "limitations": "Requires both first-order quotient spans to be maximal. Rank-deficient or delayed first growth, leading-rank losses and other leading flags remain open. Same-session finite checks are not independent review or formalization. No exponent improvement follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
     {"id": "EXP-QUANTUM-SATURATED-RATES-003", "title": "Completed six-rate finite-field saturated coefficient pilots", "status": "finite-experiment", "evidence": "results/quantum-jet-filtration-2026-10-20/root-six-saturated-rates.json", "section": "", "statement": "Three coefficients at six specified relative rates modulo 786433 complete all thirteen weight blocks through two saturation promotions. All six saved tensors have flattening ranks 112,72,72. A second longer Fourier coefficient calculation agrees with the common-rate tensor; 8429568 saved array entries replay identically.", "dependencies": ["AI-QUANTUM-SOURCE-NORMALIZATION-001", "Saved coefficient discovery programs and finite-field data"], "limitations": "Finite-field discovery only. No characteristic-zero construction, general rank classification, method ceiling or exponent improvement.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
     {"id": "AI-HANKEL-BOUNDARY-066", "title": "Hankel Segre-image bound at the first degree boundary", "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "evidence": "research/ai/2026-10-20-anisotropic-constructions/hankel_boundary_dimension.md", "statement": "Over an algebraically closed characteristic-zero field, for r>=2, r<min(a,b), and a+b-1=3r-1, a linear image of a Segre variety whose Hankel ranks are at most r spans at most max(r,4) dimensions. Thus ordinary square blocks obey n^2>max(r,4)ab => n+2(N-D)>=(r+1)ab. This excludes the ordinary A(7,8) M25 plus M5 target.", "dependencies": ["AI-HANKEL-SYMBOL-062", "Classical scalar Hankel/secant identification with repeated points", "Chinese remainder theorem and exact Hermite-jet independence"], "limitations": "The degree boundary, characteristic zero, and strict antecedent are essential. Same-session audits and exact controls do not constitute external independent review. Arbitrary singular degenerations are not excluded."},
     {"id": "AI-HANKEL-BEYOND-RANGE-067", "title": "Explicit Segre images beyond the fixed-scheme degree range", "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "evidence": "research/ai/2026-10-20-anisotropic-constructions/hankel_segre_beyond_range.md", "statement": "For 2r+1<=m<3r, with ell=m-2r and k=3r-m, an explicit linear image of rank-one 2-by-k matrices gives Hankel rank at most r. Its total image dimension is 2k and exceeds r when m<5r/2. The case a=b=4,r=3 has determinant (AD-BC)^2 and image dimension four.", "dependencies": ["Explicit polynomial recurrence", "Standard-library exact determinant and recurrence controls"], "limitations": "These are counterexamples to dropping degree hypotheses, not matrix multiplication constructions or an exclusion of every possible stronger boundary theorem."},
@@ -499,6 +517,80 @@
         "AI-TORUS-SUPPORT-PEELING-090 for full-target noncompletion"
       ],
       "limitations": "This is a smaller exact direct sum embedded in a larger target format, not a full-rank target witness. The accompanying common and unequal numerical objective engines have only small numerical controls; their residuals are not proof certificates and they introduce no maintained dependency.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-MIXED-GRADING-094",
+      "title": "Quantitative source-weight mixing requirement and exact balanced control",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_mixed_grading.md",
+      "statement": "Every ordinary A88 to M27 plus M7 restriction has, on at least two legs, at least 19 matrix-unit images with nonzero components in three or more source weights. Separate-mask Newton peeling excludes two legs with 760 two-weight images each: selected masks shrink960,922,884,834,756. A complete change of basis of the known M12 plus M3 maps has actual ranks 153, 333 nonzeros per leg, and 36 three-weight images per leg; removing off-grade coefficients gives 648 incorrect tensor coefficients.",
+      "dependencies": [
+        "AI-TORUS-SUPPORT-PEELING-090",
+        "Exact two-weight torus separation and arbitrary independent coordinate masks",
+        "Injectivity inherited from restrictions of the full hypothetical target maps",
+        "Independent full-source rank counts and integer Newton hulls",
+        "Complete sparse-map replay and explicit inverse target conjugation"
+      ],
+      "limitations": "This does not exclude general ungraded maps or singular degenerations. The759-row control merely survives this count screen. The constructed three-weight maps are a change of basis of the known smaller target, not M27 plus M7.",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-JET-COLLISION-095",
+      "title": "Exact three-point Laurent collision of the existing matrix cores",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_collision.md",
+      "statement": "Over the rationals, for every a>=3 there is an explicit degeneration A(a,a) to (M_(a-2) tensor J3) plus two scalar tensors, where J3 is the coefficient-of-t^2 trace on Q[t]/t^3. For a=8 the complete source replay has 110 target coordinates per leg, 1298 constant terms and only remainder powers 2 and 4. All negative and unwanted constant coefficients cancel exactly. A normalized nonzero nilpotent slice excludes an ordinary equal-format diagonal-three restriction to the scalar J3 control.",
+      "dependencies": [
+        "AI-FREE-INTERIOR-FAMILY-084",
+        "Three-point coefficient extraction at epsilon,-epsilon,0",
+        "Trace of ordered matrix products and complete sparse Laurent contraction",
+        "Conciseness and the normalized-slice invariant for the scalar control"
+      ],
+      "limitations": "This is a smaller constructive singular control, not the current778-dimensional matrix target. The ordinary exclusion concerns the scalar diagonal-three source, not all maps from A88. The construction uses characteristic zero; no exponent improvement is established.",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-JET-ARM-EXTENSION-096",
+      "title": "Laurent collision retaining all matrix-core and off-diagonal directions",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_extension.md",
+      "statement": "For every a>=3 and n=a-2, A(a,a) explicitly degenerates to the concise tensor L_n of the written six jet traces, six core/arm interactions, and two scalar terms, with 3n^2+4n+2 coordinates per leg. For a=8 the complete 134-direction limit has 1514 constant coefficients and no negative powers; every original core and all 24 arm directions survive. Its maximum slice rank is 3n^2+2n+2, so it is not an ordinary restriction of the equal-format intermediate M_(n+1) plus M_(n+1) plus M_n.",
+      "dependencies": [
+        "AI-JET-COLLISION-095",
+        "Exact block-trace expansion with remainder powers2,3,6,12",
+        "Complete original-source Laurent replay and disjoint-support flattening certificates",
+        "Explicit2n-dimensional generic slice kernel and closedness of the rank bound"
+      ],
+      "limitations": "The ordinary exclusion is for the stated equal-format intermediate, not for the full A(a,a) source. This limit still has only134 coordinates per leg at a8. Reaching778 requires additional original source directions before the limit; no exponent gain is claimed.",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-SCALAR-POWER-RECYCLING-097",
+      "title": "Exact scalar-defect reuse in tensor powers with residual and source costs",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/scalar_power_recycling.md",
+      "statement": "Writing T=A22 and M=M3, the rational spin1 image T to M plus trace-cubed yields T^k plus the direct sum over 0<=j<k of T^j tensor M_(3^(k-1-j)) restricting to M_(3^k). The exact source dimension is (4*12^k-9^k)/3. The two-copy 165-coordinate source has complete M9 maps. For S_n=M_n plus trace-cubed, every flattening of S_n^k-M_n^k has rank n^(2k)-(n^2-1)^k in characteristic zero. Exact dimension and cost comparisons exclude square sums from pure A22 powers under the existing sixfold finite gate.",
+      "dependencies": [
+        "Exact recorded spin1 scalar-defect identity",
+        "Telescoping tensor-power identity with every auxiliary source retained",
+        "Complete4187-term source contraction and729-term M9 coefficient equality",
+        "Partial-trace formula and identity slice eigenvalues(1+n^2)^j-1",
+        "Integer comparisons18^9<1000^4 and6^18*12^9<1000^8"
+      ],
+      "limitations": "The correction lower bound fixes the unchanged spin1 product image. The gate exclusion uses the existing source budget and square direct sums only. Changed cross-factor maps, other character bounds and actual source compression are not excluded. The coordinate saving is not an exponent improvement.",
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false

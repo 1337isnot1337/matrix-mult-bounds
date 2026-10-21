@@ -380,6 +380,34 @@ separate implementation agrees on every retained coordinate mask.
 All earlier partial identities remain exact; their full homogeneous
 27-plus-7 extensions are now excluded.
 
+The [separate-mask extension](parity_balancing_mixed_grading.md) also
+excludes maps with at most two source weights per matrix-unit image on
+any two legs, even when the third leg is unrestricted. Keeping 760 such
+units on each selected leg gives mask sizes 960,922,884,834,756, which
+contradicts inherited injectivity. Hence at least two legs each need at
+least 19 images using three or more source weights. The exact companion
+M12 plus M3 maps use balanced offsets and demonstrate genuine coefficient
+cancellation in the fixed basis; they are a change of basis of the known
+smaller target.
+
+The [three-point Laurent collision](parity_structure_jet_collision.md)
+constructs A(a,a) to M_(a-2) tensored with the length-three truncated
+polynomial trace, plus two scalars. Its [arm extension](parity_structure_jet_extension.md)
+retains every direction of M_(a-1) plus M_(a-1) plus M_(a-2), including
+their off-diagonal interactions. For A88 the latter limit has 134
+coordinates per leg and 1,514 constant coefficients; all negative powers
+and unwanted constant coefficients cancel exactly. It needs additional
+original source directions before it could approach the 778-dimensional
+matrix target.
+
+The [scalar-power telescoping identity](scalar_power_recycling.md) supplies
+another exact construction: A22 squared plus A22 plus M3 restricts to M9
+with 165 source coordinates per leg, compared with 169 in the naïve
+scalar-extended square. The full residual flattening rank is 9^k-8^k.
+Explicit source-cost comparisons show why the unchanged A22 powers do not
+cross the existing finite gate. A useful next step needs a different
+source budget, actual product-source compression, or changed main maps.
+
 The [torus-compatible M12 plus M3 seed](parity_structure_torus_seed.md)
 is an exact direct-sum restriction of A(8,8). Its 153 entries per leg
 contract to all 1,755 required target terms, with every mixed coefficient

@@ -6,8 +6,8 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records forty-two local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-UNEQUAL-PARTIAL-SEEDS-093,
+The constructive continuation records forty-six local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-SCALAR-POWER-RECYCLING-097,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
@@ -22,6 +22,24 @@ checks 492 removals through integer separating lines, independently of the
 discovery hull algorithm. A separately written full-source replay agrees
 on every retained coordinate set. Ungraded maps and arbitrary singular
 degenerations remain open, and the exponent is unchanged.
+
+The [mixed-grading extension](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_mixed_grading.md)
+shows that, on at least two legs of any ordinary target restriction,
+at least 19 matrix-unit images must each use three or more source weights.
+It uses separate coordinate masks and injectivity inherited from the full
+maps. An exact M12 plus M3 change of basis provides a positive control
+with balanced cross-weight cancellation; it does not enlarge that target.
+
+Two [Laurent collision controls](research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_extension.md)
+give explicit singular limits from the existing three matrix cores.
+The larger limit retains all 134 intermediate directions per leg, including
+24 off-diagonal directions, with complete negative-power cancellation.
+The [scalar-power construction](research/ai/2026-10-20-anisotropic-constructions/scalar_power_recycling.md)
+reuses corrections to realize A22 squared plus A22 plus M3 to M9 with
+165 source coordinates per leg. Its all-power residual has exact flattening
+rank 9^k-8^k, and its complete source cost does not cross the finite gate.
+These are constructed identities and scoped cost bounds, not smaller
+exponent claims.
 
 - The [oriented endpoint analysis](research/ai/2026-10-20-critical-character-extension/README.md)
   gives a common critical amplitude and a quantitative stability bound.
@@ -156,6 +174,16 @@ The [torus-anchor checkpoint receipt](results/anisotropic-constructions-2026-10-
 records 391 passing tests and five unchanged archive replays for `fa74fee`
 combined with main `f67467d`. That receipt predates the new fixed-boundary,
 degree-13 and saturated-block packages; it is not their validation receipt.
+
+The [support-peeling checkpoint receipt](results/anisotropic-constructions-2026-10-20/torus-peeling-validation.json)
+records the complete 447-test suite at `bb64dae`: 446 passed and the optional
+NumPy control skipped. All five original archive replays passed unchanged.
+This pin includes main through `b0a54f2` and claims through 093; the newer
+mixed-grading, Laurent, scalar-power and concurrent-main additions pass
+the [separate 16-test focused suite](results/anisotropic-constructions-2026-10-20/torus-construction-controls-validation.json).
+The claim ledger, source registry, archive manifest and relative links also
+pass their repository checks. Current hosted validation is required before
+merge.
 
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.
@@ -906,6 +934,18 @@ A separate necessary bound caps the second partial saturated space at
 37 dimensions for all compatible first derivatives. Moving leading rows
 outside those spaces remains open, and compatible first-order directions
 that do so exist. These written proofs are unreviewed.
+
+## Maximal first jets with moving leading rows
+
+[AI-QUANTUM-MAXIMAL-JET-077](research/ai/2026-10-21-moving-boundary-flags/proof.md)
+extends the boundary obstruction to moving leading rows when both outside
+first-jet quotient ranks are 16. Exact linear systems leave only four
+normal directions. They move a common polynomial plane, and a formal
+induction confines the full maps to spaces of dimension 56. Thus these
+maximal first extensions cannot reach M(10,10,11) at any order. At least
+one first extension must be rank-deficient for a possible construction
+with the same leading maps. The written proof is unreviewed; delayed
+growth and other flags remain open, and the exponent is unchanged.
 
 ## Regular root flags and Laurent first-leg maps
 
