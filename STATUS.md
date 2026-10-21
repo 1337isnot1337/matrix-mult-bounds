@@ -673,3 +673,12 @@ does not exclude general complex degenerations. The proof is unreviewed.
 A complete seven-fiber count screen with sizes in {2,3,4} leaves 1,566
 necessary patterns; they have no constructed directions, offsets or
 potentials. The exponent remains 9/4.
+
+The [rectangular coset followup](research/ai/2026-10-20-normal-coset-koszul/rectangular_note.md)
+now excludes the FULL size-nineteen F8 construction class, including every
+four-point, one-point and empty fiber pattern. A rank formula for rectangular
+normal blocks, a pair-averaging argument and 466,859 independently replayed
+alignment bytes cover all 505 cyclic count classes. Thus no balanced target
+in this stated F8^2:C7 coordinate-potential source-cost route beats 9/4.
+General tensor degenerations and unequal targets with a side below nineteen
+remain open. This written proof is unreviewed and gives no exponent improvement.

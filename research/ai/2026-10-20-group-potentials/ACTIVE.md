@@ -4,10 +4,9 @@ Goal: prove a complete arithmetic exponent strictly below 9/4. The owner
 requested sustained work without stopping at a partial checkpoint. The
 active goal remains incomplete; no smaller exponent is established.
 
-Current branch: research/normal-coset-koszul-20261020, from main 4289a7b.
-Root checkout: /home/user/matrix-mult-bounds. A separate worktree at
-/tmp/matrix-c29 owns PR #29, the complete unequal C29 coordinate-potential
-frontier. Respect other workers' constructive-spectrum and SL2 source work.
+Current branch: research/normal-coset-koszul-20261020, refreshed through main 48f6a75.
+Root checkout: /home/user/matrix-mult-bounds. The separate C29 worktree
+was removed after its PR #29 merged and its tree was verified. Respect other workers' constructive-spectrum and SL2 source work.
 
 Completed integrations: PR #21 variable-plane infrastructure; #22 fixed
 cubic F8 parent orbit-hole obstruction; #24 fixed-base one-plane frontier;
@@ -16,27 +15,31 @@ branches were removed after exact merged-tree verification. None proves
 an exponent improvement. PR #29 extends the C29 obstruction to unequal
 single targets in the stated construction and source-cost model.
 
-Current structural result: the identity-quotient restriction to an abelian
-normal subgroup has rank |H|. A classical three-slice Koszul inequality
-requires 3 sum k_a^2 - number(k_a=1) <=2|H| for common-fiber square minima.
-The new note in ../2026-10-20-normal-coset-koszul/ gives the proof, explicit
-integer matrices and complete finite count checks. Written and unreviewed.
+Current structural result: the abelian-normal coset Koszul proof and its
+rectangular followup close the ENTIRE source448 size-nineteen coordinate
+pair-map/strict-vertex-potential class. Normal unique sums cap F2^6 fibers at
+four. All 3535 count patterns, including zeros and ones, reduce to 505 cyclic
+classes. Pair averaging plus 466859 checked alignment bytes excludes every
+class triple. The general rank inequality is classical; the explicit proof
+and applications are written and unreviewed. No novelty priority is claimed.
 
-This closes ALL source448 size-nineteen targets with maximum fiber size
-three, including variable planes and all offsets. Normal-fiber unique sums
-also force every size-nineteen F2^6 fiber to have size at most four. With all
-fibers >=2, exactly 1,566 count-pattern triples survive the new necessary
-screen; they require four-point fibers in at least two families. Their
-normal directions, offsets and strict potentials are unconstructed.
-The same argument closes every source192 size-twelve coordinate target
-and rules out source C31:C6 candidates having all fibers >=2.
+The square-only 1566 count survivors are now subsumed. Do not repeat any
+size-nineteen balanced source448 coordinate search, including the new
+four-point-plane pilots. General complex degenerations remain open.
+The same earlier lemma excludes source192 size-twelve coordinate targets
+and source C31:C6 candidates having all normal fibers >=2.
 
-Next precise construction question: source448 size nineteen with four-point
-normal fibers. Test the surviving count patterns with full affine planes,
-three-point triangles, and two-point short directions. Check local pair
-packing before global offsets. A promising local pattern is not a witness;
-accept only complete source support and exact integer potential verification.
-Patterns with zero/one-point fibers and general changes of basis remain open.
+PR #29 merged the complete C29:C4 one-source coordinate degree-sum
+obstruction at 48f6a75 after required CI. Its exact merged tree was verified;
+the branch and separate worktree were removed. PR #31 carries the current
+normal-coset proof and full F8 balanced-target exclusion.
+
+Next precise construction question: identify unequal source448 targets
+passing the exact degree-sum and rank-locus frontier and having a side
+below nineteen. No such target is constructed. Apply normal-coset rank
+screens before any new offset search. Other workers own SL2 source and
+constructive-spectrum lanes; avoid duplicating them. The source448
+balanced degree-sum route is closed only for the stated construction frame.
 
 Historical work and exact status:
 - ../2026-10-20-full-filtration/: balanced optimistic entropy gap39/40;

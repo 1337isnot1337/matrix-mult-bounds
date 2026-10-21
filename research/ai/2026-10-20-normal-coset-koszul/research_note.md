@@ -153,7 +153,7 @@ Combined with Section 4, at least one family must have a four-point fiber.
 
 These statements are construction obstructions; they do not improve omega.
 
-## 7. Count patterns that remain open
+## 7. Square-score count frontier and its later closure
 
 If all F8 normal fibers have at least two points, Section 5 leaves entries
 in {2,3,4} summing to nineteen. There are 266 patterns, or 38 classes under
@@ -165,11 +165,13 @@ k>=2 the rank score is
 84 + 15*|{k>=3}| + 21*|{k>=4}|.
 ```
 
-Exactly 1,566 class triples are not excluded by this count test: 558 have
+Exactly 1,566 class triples are not excluded by this square-only count test: 558 have
 four-point fibers in two families, and 1,008 in all three. Directions,
 offsets and positive potentials for them are unconstructed. These counts
-do not concern patterns with zero- or one-point fibers. Passing the test
-is only a necessary condition, not evidence of a degeneration.
+do not concern patterns with zero- or one-point fibers. The
+[rectangular followup](rectangular_note.md) subsumes all of these cases and
+also covers every remaining size-nineteen count pattern. Passing the
+square-only test was only a necessary condition.
 
 ## Reproduction
 

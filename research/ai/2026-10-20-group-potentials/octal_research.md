@@ -5,11 +5,12 @@ certificates, partial feasibility, and pair-label injectivity are not target
 degenerations. The local arguments are unreviewed; no priority is claimed.
 
 The [normal-coset Koszul followup](../2026-10-20-normal-coset-koszul/research_note.md)
-now excludes every size-nineteen construction whose normal fibers all
-have size at most three, regardless of planes or offsets. Thus both the
+and its [rectangular extension](../2026-10-20-normal-coset-koszul/rectangular_note.md)
+now exclude every size-nineteen construction in the stated coordinate
+pair-map and strict-potential class, regardless of fiber sizes, planes or offsets. Thus both the
 constant-direction and variable-plane searches below are closed within
-that fiber-size class. Four-point fibers remain a distinct construction
-question. The written structural proof is unreviewed.
+that construction class. General basis changes and smaller unequal targets
+remain distinct construction questions. The written structural proof is unreviewed.
 
 ## Sources and exact acceptance
 

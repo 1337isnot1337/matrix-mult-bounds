@@ -79,6 +79,49 @@ def block_certificate(blocks, normal_order, prime=101):
             'excluded':rank>2*normal_order}
 
 
+def rectangular_three_slice_matrix(blocks):
+    """Explicit three slices for a direct sum of rectangular products.
+
+    A block M(a,b,c) has B dimension b*c and C dimension a*c. For min(a,b)
+    >=2 use an embedded square unit, diagonal, and cycle. A 1-by-b or
+    a-by-1 block uses two elementary matrices when a*b>=2.
+    """
+    if any(len(row)!=3 or any(not isinstance(n,int) or n<0 for n in row) for row in blocks):
+        raise ValueError('nonnegative rectangular sizes required')
+    blocks = [row for row in blocks if all(row)]
+    Bdim = sum(b*c for a,b,c in blocks)
+    Cdim = sum(a*c for a,b,c in blocks)
+    slices = [[[0]*Bdim for _ in range(Cdim)] for _ in range(3)]
+    boff = coff = 0
+    for a,b,c in blocks:
+        k = min(a,b)
+        for j in range(k):
+            for t in range(c):
+                slices[0][coff+j*c+t][boff+j*c+t] = 1
+                if k>=2:
+                    slices[1][coff+j*c+t][boff+j*c+t] = j
+                    slices[2][coff+((j+1)%k)*c+t][boff+j*c+t] = 1
+        if k==1 and a*b>=2:
+            for t in range(c):
+                if a>=2:
+                    slices[1][coff+c+t][boff+t] = 1
+                else:
+                    slices[1][coff+t][boff+c+t] = 1
+        boff += b*c
+        coff += a*c
+    J,X,Y = slices
+    matrix = [[0]*(3*Bdim) for _ in range(3*Cdim)]
+    for i in range(Cdim):
+        for j in range(Bdim):
+            matrix[i][j] = -X[i][j]
+            matrix[i][Bdim+j] = J[i][j]
+            matrix[Cdim+i][j] = -Y[i][j]
+            matrix[Cdim+i][2*Bdim+j] = J[i][j]
+            matrix[2*Cdim+i][Bdim+j] = -Y[i][j]
+            matrix[2*Cdim+i][2*Bdim+j] = X[i][j]
+    return matrix
+
+
 def seven_fiber_patterns():
     patterns = [row for row in product(range(1,4),repeat=7) if sum(row)==19]
     normalized = []

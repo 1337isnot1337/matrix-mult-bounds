@@ -12,6 +12,7 @@ RESULTS = ROOT/'results/normal-coset-koszul-2026-10-20'
 sys.path.insert(0,str(PACKAGE))
 import certificate as coset_certificate
 import count_frontier
+import rectangular_certificate
 
 
 class NormalCosetKoszulTests(unittest.TestCase):
@@ -32,6 +33,28 @@ class NormalCosetKoszulTests(unittest.TestCase):
             self.assertEqual(coset_certificate.rank_mod(matrix),expected)
         with self.assertRaises(ValueError):
             coset_certificate.rank_mod([[1]],100)
+
+    def test_every_small_rectangular_slice_and_direct_sum(self):
+        for a,b,c in product(range(1,5),repeat=3):
+            matrix = coset_certificate.rectangular_three_slice_matrix([(a,b,c)])
+            expected = c*(3*min(a,b)-int(a==b==1))
+            self.assertEqual(coset_certificate.rank_mod(matrix),expected)
+        blocks = [(4,2,3),(2,4,1),(1,2,4),(2,1,4),(1,1,3)]
+        expected = sum(c*(3*min(a,b)-int(a==b==1)) for a,b,c in blocks)
+        self.assertEqual(coset_certificate.rank_mod(
+            coset_certificate.rectangular_three_slice_matrix(blocks)),expected)
+
+    def test_complete_rectangular_count_cover_and_invalid_byte(self):
+        data = (RESULTS/'rectangular-cover.bin').read_bytes()
+        expected = json.loads((RESULTS/'rectangular-cover.json').read_text())
+        self.assertEqual(rectangular_certificate.replay(data),expected)
+        self.assertEqual(expected['bounded_compositions_covered'],3535)
+        self.assertEqual(expected['explicit_triangles_checked'],466859)
+        self.assertGreater(expected['minimum_explicit_rank'],128)
+        with self.assertRaises(ValueError):
+            rectangular_certificate.replay(bytes([147])+data[1:])
+        with self.assertRaises(ValueError):
+            rectangular_certificate.verify_pattern_coverage(rectangular_certificate.patterns()[:-1])
 
     def test_three_point_difference_space_and_sharp_four_point_example(self):
         A,B,C = {0,1,2},{0,4,8},{0,16,32,48}
