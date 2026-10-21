@@ -1078,6 +1078,17 @@ The invertible-line example leaves 72 normal directions before further
 lifting equations. This is a written, unreviewed local classification,
 not a matrix target or exponent improvement.
 
+## Invertible-line lifting equations
+
+[EXP-INVERTIBLE-LINE-LIFTS-083](research/ai/2026-10-21-invertible-line-lifts/calculation.md)
+reduces the selected invertible seed's normal dimension from 72 to 40
+using the target's zero projected third block. A specified 36-direction
+ansatz has sixteen exact quadratic conditions for second leading rows
+and third new rows. A retained compatible control has uncorrected first
+rank 13. Third leading rows and later coefficients remain to solve;
+these equations do not classify arbitrary corrections or construct the
+matrix target. The linear decomposition is not a nonlinear gauge reduction.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
