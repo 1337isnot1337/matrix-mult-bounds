@@ -222,6 +222,15 @@ the exact circuits do not upgrade the untraced parts into a complete proof.
 All 720 full-space Koszul comparisons pass for this target. A separate
 (12,12,17) comparison is also conditional on an unconstructed degeneration.
 
+The [central cocycle extension](research/ai/2026-10-20-sl2-five-c2/pair_saturation.md)
+uses the zero sum of all four central colors in a saturated projected pair
+fiber. It yields exact equations for both bits, including the twisted
+SL(2,5) bit. The first run rejects 169 candidates by replayed circuits.
+A separate learning run has 244 replayed circuits, 1,075 learned necessary
+rows, and one untraced inner refutation. Neither constructs a lift or
+establishes a complete exclusion. All 4,096 normalized small lifts were
+checked; the 128 with injective pair maps satisfy the necessary equations.
+
 ## Second-pass checkpoint
 
 [Research and recovery record](research/ai/2026-10-20-session2/README.md) | [Supplementary claims](research/ai/2026-10-20-session2/claims.json) | [Verification](results/session2-2026-10-20/verification.json)

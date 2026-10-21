@@ -92,7 +92,13 @@ def verify_rejection(pairs, record):
                 sorted(system['capacity_core']) != list(map(tuple, record['blocked_points']))):
             raise ValueError('wrong inverse-class capacity support')
         return True
-    if record['type'] != 'exact-parity' or 'capacity_core' in system:
+    if 'capacity_core' in system:
+        raise ValueError('wrong rejection type')
+    return verify_parity_record(system, record)
+
+
+def verify_parity_record(system, record):
+    if record['type'] != 'exact-parity':
         raise ValueError('wrong rejection type')
     if [tuple(v) for v in record['variables']] != system['variables']:
         raise ValueError('wrong variable order')
