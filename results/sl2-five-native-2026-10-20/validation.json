@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "2d1d260",
+  "baseline_main": "48bd72d",
+  "baseline_regression": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 586,
+    "skipped": 3,
+    "status": "passed",
+    "elapsed_seconds": 1194.234
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "later_focused_validation": {
+    "command": "python -m unittest discover -s tests -p test_sl2_five_native.py -v",
+    "tests": 5,
+    "status": "passed",
+    "coverage": "Added complete projected orbit partition and split-source derivation/sign colors/weighted control after baseline suite loaded."
+  },
+  "environment": {
+    "python": "Python 3.14.8",
+    "dependencies": "Maintained requirements only; discovery dependencies absent."
+  },
+  "log_sha256": {
+    "native-combined-tests.txt": "876255dfd719c71c9810a3d6262670f243746c67b1a5ae3013a6f8aa5be813df",
+    "native-archive-replay.txt": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "scope": "Baseline full regression plus focused changed-code checks; current hosted integration still required. No mathematical approval or exponent improvement."
+}

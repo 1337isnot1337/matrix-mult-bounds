@@ -1,0 +1,199 @@
+{
+  "group": "SL(2,5)",
+  "shape": [
+    10,
+    10,
+    10
+  ],
+  "encoding": {
+    "variables": 3351,
+    "clauses": 11477,
+    "projected_order": 60,
+    "inverse_classes": 37,
+    "subgroup_order": 12,
+    "subgroup_index": 5,
+    "abelian_fiber_cuts": null,
+    "reused_parity_templates": null,
+    "identity_fiber_lower": [
+      2,
+      2,
+      2
+    ]
+  },
+  "source_and_normalization": {
+    "group": "SL(2,5)",
+    "projected_order": 60,
+    "inverse_class_fiber_counts": {
+      "1": 15,
+      "2": 22
+    },
+    "subgroup_order": 24,
+    "subgroup_index": 5,
+    "subgroup_members": [
+      0,
+      1,
+      6,
+      11,
+      16,
+      27,
+      31,
+      39,
+      43,
+      45,
+      52,
+      56,
+      64,
+      68,
+      70,
+      77,
+      81,
+      89,
+      93,
+      95,
+      102,
+      106,
+      114,
+      118
+    ],
+    "projected_subgroup": [
+      0,
+      1,
+      6,
+      17,
+      21,
+      29,
+      33,
+      35,
+      42,
+      46,
+      54,
+      58
+    ],
+    "first_pair_anchor_disjunction": [
+      1,
+      17
+    ],
+    "anchor_coverage": [
+      {
+        "projected_quotient": 1,
+        "conjugator": 0,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 6,
+        "conjugator": 31,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 17,
+        "conjugator": 0,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 21,
+        "conjugator": 1,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 29,
+        "conjugator": 6,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 33,
+        "conjugator": 31,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 35,
+        "conjugator": 27,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 42,
+        "conjugator": 0,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 46,
+        "conjugator": 1,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 54,
+        "conjugator": 6,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 58,
+        "conjugator": 31,
+        "reverse_pair": true,
+        "anchor": 17
+      }
+    ],
+    "complex_degrees": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      6
+    ],
+    "source_certificate_sha256": "e1ea65d44487e116e09546ea0fc244d9d3e89a66cc583137965dcab8967c9cab",
+    "conditional_gate": {
+      "shape": [
+        10,
+        10,
+        10
+      ],
+      "tau": "2247/1000",
+      "scale": 10000000000,
+      "source_term_upper_numerators": [
+        10000000001,
+        47469471907,
+        47469471907,
+        118056922903,
+        118056922903,
+        225335076306,
+        225335076306,
+        372036542596,
+        560409978508
+      ],
+      "source_upper_numerator": 1724169463337,
+      "target_lower_numerator": 1766037820686,
+      "strict_positive_margin_numerator": 41868357349,
+      "meaning": "Conditional comparison only. No degeneration supplied."
+    },
+    "exponent_improvement": false
+  },
+  "seconds_limit": 600.0,
+  "projected_model_events": 506,
+  "learned_parity_rows": 38476,
+  "exact_parity_cuts": 506,
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "status": "time-limit",
+  "witness": null,
+  "exponent_improvement": false,
+  "scope": "Bounded discovery; model events need not have distinct projections. Untraced solver negatives are not exclusions.",
+  "elapsed_seconds": 601.3776067319995,
+  "sat_statistics": {
+    "restarts": 221240,
+    "conflicts": 4849101,
+    "decisions": 10367055,
+    "propagations": 622486073
+  }
+}
