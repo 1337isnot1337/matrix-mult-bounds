@@ -19,7 +19,7 @@ from parity_templates import read_verified
 
 def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=False,
         split_cover=False, data_provider=None, target_shape=(10, 10, 10),
-        known_control=None, normalizer=None):
+        known_control=None, normalizer=None, ideal_record=None):
     if data_provider is not None:
         G, Q, receipt = data_provider()
     elif split_cover:
@@ -58,6 +58,24 @@ def run(output, seconds, control=False, capacity=False, reuse=(), full_capacity=
             top += 1
             variables[label] = top
         return variables[label]
+
+    if ideal_record is not None:
+        if ideal_record['group'] != G['name']:
+            raise ValueError('subgroup ideal belongs to another source')
+        added = 0
+        for f in range(3):
+            if shape[(f+1) % 3]*shape[(f+2) % 3] <= ideal_record['ideal_dimension']:
+                continue
+            for coset in ideal_record['cosets']:
+                clause = []
+                for g in coset:
+                    p = Q['projection'][g]
+                    clause.extend((-members[f][p], variable(('sign', f, p))
+                                   if not Q['bits'][g] else -variable(('sign', f, p))))
+                solver.add_clause(clause)
+                added += 1
+        encoding['subgroup_ideal'] = {'dimension': ideal_record['ideal_dimension'],
+                                    'coset_clauses': added}
 
     if normalizer is not None:
         encoding['canonicalization'] = normalizer(G, Q, receipt, members, variable, solver.add_clause)
