@@ -23,5 +23,22 @@
     "result": "passed"
   },
   "independent_review": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "main_integration": {
+    "main_commit": "bf3b7d8e1444a0b712178b45932303f98d8599e7",
+    "additional_test_file": "tests/test_sun_local_audit.py",
+    "additional_tests_passed": 2,
+    "seconds": 0.396,
+    "link_and_ledger_checks_passed": 2
+  },
+  "CI_budget_update": {
+    "run_id": 39622521064,
+    "source_commit": "26357da459eafa2ed211b90855252e5c7f9727e6",
+    "python_3_14": "passed",
+    "python_3_10": "cancelled at the workflow execution limit",
+    "github_annotation": "The job has exceeded the maximum execution time of 20m0s",
+    "old_test_job_minutes": 20,
+    "new_test_job_minutes": 30,
+    "required_CI_gate_unchanged": true
+  }
 }
