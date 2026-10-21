@@ -60,3 +60,7 @@ partial-realization literature, including Sontag, *Mathematical Control
 Theory*, second edition, section 6.6, author-hosted text:
 https://www.sontaglab.org/FTPDIR/sontag_mathematical_control_theory_springer98.pdf
 The short sufficient-criterion proof above is self-contained.
+
+### Subsequent same-day development
+
+`generic_flatness.md` now gives a written, unreviewed graded-module proof of the missing generic-chart alternative for crossed rank at most nine. The earlier warning against assuming realization from a single rank remains valid; the new argument uses both outer ranks and a coordinate change. Finite-state critical strata still require analysis.

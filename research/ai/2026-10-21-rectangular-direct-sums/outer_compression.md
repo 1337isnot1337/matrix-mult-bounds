@@ -83,3 +83,7 @@ is presently a question, not an established dichotomy. The regular-stratum
 support-velocity argument also needs uniform local coefficient-fiber
 bounds when arbitrary roots, amplitudes and Jordan partitions vary.
 Neither missing step is counted as a target exclusion here.
+
+### Subsequent same-day development
+
+`generic_flatness.md` now gives a written, unreviewed graded-module proof of the missing generic-chart alternative for crossed rank at most nine. The earlier warning against assuming realization from a single rank remains valid; the new argument uses both outer ranks and a coordinate change. Finite-state critical strata still require analysis.

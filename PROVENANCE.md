@@ -461,3 +461,7 @@ The rectangular consequence in `research/ai/2026-10-21-rectangular-direct-sums/o
 `flat_realization.md/.py` supplies a self-contained standard flatness proof and exact rational replay, with three focused tests passing in 6.006 seconds. It explicitly retains both nonflat-but-realizable and nonflat-insufficient-state controls. The missing regular/compression dichotomy remains unproved. Sontag's author-hosted section 6.6, particularly Lemma 6.6.9, was consulted for background, not claimed as new work.
 
 The immutable c14c058 snapshot passed all 667 tests in 1311.666 seconds; its receipt and log hash are in `results/rectangular-direct-sums-20261021/immutable-regression-c14c058.json`. Later additions are outside that snapshot. The newly integrated main PR69 axis controls passed four focused tests in 44.558 seconds. Local test success is not mathematical review.
+
+## Generic flatness outside compressions, October 21, 2026
+
+`generic_flatness.md` derives the low-rank chart reduction from a level apolar module. Standard free-resolution/Koszul facts are credited to Melody Chan's author-hosted graduate notes, section36; the rank-nine plateau and small relation-matrix argument are written explicitly. Exact rational controls include a support point at infinity, a chart change, and all17 reconstructed moments. The general proof is unreviewed, and finite-state target compatibility remains open.
