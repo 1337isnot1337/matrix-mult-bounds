@@ -138,6 +138,16 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+The central-group worker merged the H_5 incidence result through PR #42 at
+`bfc5243` and removed its incorporated branch. On
+`research/heisenberg-modular-20261021`, a written application of Petrov's
+external modular filtration now closes the ordinary degree gate for
+coordinate H_p constructions, including all powers and rectangular direct
+sums, at every odd prime p<=47. Do not restart those coordinate searches
+for this gate. Arbitrary complex maps remain open. The constructive SL(2,5)
+M10 target is still active on `research/sl2-five-native-parity`; its initial
+506 exact parity contradictions do not exclude that target.
+
 The quantum worker's current question is in
 `ai/2026-10-20-quantum-jet-filtration/QUESTION.md`. Exact first-jet certificates
 close the prescribed order-three/six parameter curves even for ungraded

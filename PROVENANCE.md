@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-20-heisenberg-seven` continuation is owner-directed Codex
+work. Its weighted augmentation filtration is explicitly Petrov's external
+result, and its modular slice-rank framework and tight-support entropy
+theorem retain Sawin, Strassen, Coppersmith--Winograd and the cited authors'
+credits. The characteristic-transfer, cyclic/direct-sum application to this
+repository's degree gate and rational certificates are local written work.
+They have no independent review and supply no improved exponent.
+
 The `2026-10-21-mixed-axis-family` package is same-session AI-derived
 work directed by the repository owner. It adopts the existing source,
 virtual corrections, rank gap and stable-row projection with their credits.
