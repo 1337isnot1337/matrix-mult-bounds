@@ -203,3 +203,12 @@ concurrent group worker. Its SAT/Farkas implementation is the same unchanged
 copy pinned at `75f453b` in the SL(2,7) package; only the product table and
 normalization adapter are new. A successful finite control is not a target
 construction or an exponent improvement.
+
+## Rectangular direct-sum continuation
+
+The October 21 rectangular direct-sum package was generated in the owner's
+existing dot conversation without spawning another research conversation.
+It extends the already credited polynomial/Hankel tests and external character
+comparison, and provides an exact finite two-block search. The extension and
+conditional arithmetic are AI-derived and unreviewed; no historical priority,
+independent review, actual target maps or smaller exponent is claimed.

@@ -848,6 +848,18 @@ one first extension must be rank-deficient for a possible construction
 with the same leading maps. The written proof is unreviewed; delayed
 growth and other flags remain open, and the exponent is unchanged.
 
+[AI-QUANTUM-RANK-FOUR-078](research/ai/2026-10-21-moving-boundary-flags/rank_deficient.md)
+strengthens the necessary first-extension threshold: at least one quotient
+rank must be at most twelve. Every nonzero one-leg obstruction has rank
+at least four, proved by three rounds of exact triangular minors and
+linear restrictions. Thus arbitrary quotient spans of dimension at least
+thirteen on both sides are excluded at every order. The lower-rank and
+delayed cases remain open; this is a written unreviewed result, with no
+exponent improvement. The concurrently inspected second-jet package at
+d8de82f already gives the stronger conditions W2=W0 and rank sum at most
+24 (at most20 with mixed directions); the rank-four certificate is retained
+as auxiliary structure, with no claim to improve that target frontier.
+
 ## Regular root flags and Laurent first-leg maps
 
 The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
@@ -907,3 +919,25 @@ slice ceiling 98. Leading output ranks below 110 remain open. Separately,
 in the specified two-layer family have saved minors giving ceiling 97 for
 regular full-output limits; pre-limit projections are outside that finite
 cover. The new proofs are written and unreviewed. None gives an exponent gain.
+
+The [second-jet spanning certificate](research/ai/2026-10-21-second-jet-rank-one/rank_one.md)
+sharpens PR45's bound37 to W2=W0 of dimension12 at its canonical leading
+flags. Twenty-six exact rank-two slices span the entire25-dimensional
+bilinear image. Including the complete second derivatives and row correction
+leaves every potential second target residue below the minimum matrix rank11.
+The actual bilinear first-jet product must therefore vanish. Its effective
+first-row rank sum is at most24, or20 after a mixed component. These proofs
+are written and unreviewed; higher-order lifting and the exponent goal remain
+open. Canonical extension data and their earlier classification retain PR45's
+credit.
+
+## Two rectangular summands with asymmetric leg losses
+
+[AI-RECTANGULAR-DIRECT-SUM-001](research/ai/2026-10-21-rectangular-direct-sums/README.md)
+extends the ordinary slice/Hankel tests to unequal direct-sum leg dimensions.
+An exact two-block search checks 62 source formats through dimension 960.
+The first surviving necessary-test format is A(7,9), dimension 945, with
+19 normalized candidates; A(8,8) has 552. All other formats in that finite
+range are excluded for this two-block score. The candidate M(27,27,28) plus
+M(6,6,2) would imply omega<2.2495 if constructed; its maps are missing.
+The proof is written and unreviewed, and no exponent improvement is established.
