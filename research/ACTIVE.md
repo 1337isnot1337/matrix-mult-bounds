@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The quantum worker now studies
+`ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
+two-parameter non-plane family exists at first ranks10,10. Its local
+rowspaces have rank14, its tensor has first rank12, and those spaces are
+complete mutual annihilators away from the origin. It is not the matrix
+target. The next question is a higher-rank completion or an obstruction
+that includes these moving flags, rather than another finite jet of the
+same low-rank family. PR58 merged at93b2223 with exact tested/merged tree
+equality and all current checks passing; its task branches are removed.
+
 The quantum worker's current question is
 `ai/2026-10-21-biform-third-core/QUESTION.md`. The complete normal third
 tensor has a biform syzygy core. Arbitrary boundary first pairs of

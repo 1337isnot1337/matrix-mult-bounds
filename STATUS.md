@@ -1213,3 +1213,16 @@ first-rank sum at these flags is now at most20. Pure boundary pairs12,8
 and10,10 remain at that threshold; a retained general losses2,2 control
 shows why the new projection lemma alone cannot close them. These are
 written unreviewed proofs, not an exponent improvement.
+
+The [integrable boundary shear](research/ai/2026-10-21-integrable-boundary-shears/proof.md)
+gives an exact two-parameter non-plane family at effective first ranks10,10.
+Both source rowspaces move, while the full112-by14-by14 contraction stays
+constant with first rank12. For every nonzero parameter pair the moving
+14-dimensional spaces are complete mutual annihilators on the fixed
+100-dimensional source kernel; exact polynomial chart minors prove this.
+The resulting degree-two maps satisfy all-order coefficient equations
+with zero source-row corrections. Their generic row ranks are14, so
+this family cannot reach the110-dimensional target legs. It establishes
+integrability of two additional normal directions, not an improving matrix
+limit. Higher-rank completions and the exponent goal remain open; the
+construction and completeness proof are written and unreviewed.
