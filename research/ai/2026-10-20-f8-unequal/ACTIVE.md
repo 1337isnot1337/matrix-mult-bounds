@@ -13,7 +13,13 @@ The higher seven-slice bound now excludes all (16,16,26) count patterns:
 average is8970/7>1280. The proof and exact standard-library replay are
 in research_note.md and pair_averaging.py. This is written and unreviewed.
 
-Current precise question: can the surviving (16,20,21) count pattern in
+The later ../2026-10-21-f8-coordinate-closure/proof.md closes this entire
+single-target source-cost route, including the(16,20,21) pattern below,
+using even-slice rectangular Koszul maps and a complete count certificate.
+Do not restart improving-target discovery in the closed construction class.
+General complex degenerations and joint extraction remain open.
+
+Historical question: could the(16,20,21) count pattern in
 count-survivor-16-20-21.json be lifted to actual vertex families and a
 strict potential? Two nonlinear graph pilots found no construction:
 generic is untraced UNSAT, dual timed out. Their base frames and graph

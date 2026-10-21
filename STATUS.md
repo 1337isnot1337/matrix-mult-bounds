@@ -504,6 +504,16 @@ nonlinear graph searches found no target: one reported untraced UNSAT,
 the other timed out. The separately verified (4,4,3) positive control
 does not pass the exponent gate. The arithmetic exponent remains9/4.
 
+The [complete F8 coordinate closure](research/ai/2026-10-21-f8-coordinate-closure/proof.md)
+now closes every unequal format in this one-source route. New even-slice
+rectangular pencils reject the former(16,20,21) count survivor. Exact replay
+checks64 pencils,9539875 pair tags and90 residual alignments across all12
+minimal formats. Thus no single F8^2:C7 target through injective pair maps
+and strict vertex potentials passes its usual source-degree gate at any
+positive exponent at most9/4. The written proof is unreviewed. Arbitrary
+complex degenerations, joint extraction and tensor powers remain open;
+no arithmetic exponent improvement is established.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |
