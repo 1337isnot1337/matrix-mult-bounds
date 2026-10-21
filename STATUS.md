@@ -1,5 +1,17 @@
 # Research status
 
+## Uniform maximal rank-one mixed frames
+
+The [seven-frame proof](research/ai/2026-10-21-rankone-seven-frames/proof.md)
+excludes every maximal seven-by-seven rank-one mixed first pair at these
+flags, with arbitrary graphs and delayed unequal orders. A fixed normal
+minor stays nonzero polynomially over the entire parameter chart; only
+four plane directions remain. Claim `AI-RANKONE-SEVEN-FRAMES-085` is
+written and unreviewed. The necessary ordinary first-rank sum when both
+mixed projections are nonzero is now at most thirteen. Smaller mixed
+spaces and other flags remain open; the exponent remains 9/4.
+
+
 ## Invertible mixed lines: all-order output-growth obstruction
 
 The new [five-frame proof](research/ai/2026-10-21-invertible-five-frame/proof.md)
