@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "tested_head_at_start": "3217bc60e4c2fee14b8baab611c60ab1d812082c",
+  "integration_head_at_completion": "32532f3ec5fbee1763043fb2971ab6163e036c47",
+  "intervening_changes": "Integrated PR56 squash ancestry through the parent branches. The tested and integration source trees are identical.",
+  "python": "3.14",
+  "focused_tests": {
+    "tests_run": 4,
+    "passed": 4,
+    "seconds": 15.729
+  },
+  "full_suite": {
+    "tests_run": 550,
+    "passed": 547,
+    "skipped": 3,
+    "seconds": 425.356,
+    "skip_reason": "Two optional compression discovery controls require NumPy/SciPy and one optional unequal-objective discovery control requires NumPy."
+  },
+  "historical_archive_reports_passed": 5,
+  "independent_review": false,
+  "scope": "Uniform polynomial normal certificate, endpoint and source-coordinate replay with regressions. The separate all-order argument remains unreviewed; no exponent improvement."
+}
