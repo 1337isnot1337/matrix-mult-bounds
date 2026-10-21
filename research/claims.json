@@ -156,6 +156,24 @@
       "lean_formalized": false,
       "improves_omega": false
     },
+    {
+      "id": "AI-QUANTUM-MAXIMAL-JET-077",
+      "title": "All-order exclusion for maximal first extensions at the quantum root flags",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-moving-boundary-flags/proof.md",
+      "statement": "For the normalized rank-four root flags, a regular-output/Laurent-first-leg degeneration to M(10,10,11) cannot have outside first-jet quotient rank 16 on both legs. Exact normal constraints leave four directions, precisely the tangent directions of a common plane of cubic forms. A formal induction forces all rows into moving spaces of dimension 56, contradicting target conciseness.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "AI-QUANTUM-BOUNDARY-TRAP-076",
+        "Exact ranks 220 and 224, four explicit kernel directions, and complete source coefficient controls",
+        "Formal cubic-product annihilators and order-by-order induction"
+      ],
+      "limitations": "Requires both first-order quotient spans to be maximal. Rank-deficient or delayed first growth, leading-rank losses and other leading flags remain open. Same-session finite checks are not independent review or formalization. No exponent improvement follows.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
     {"id": "EXP-QUANTUM-SATURATED-RATES-003", "title": "Completed six-rate finite-field saturated coefficient pilots", "status": "finite-experiment", "evidence": "results/quantum-jet-filtration-2026-10-20/root-six-saturated-rates.json", "section": "", "statement": "Three coefficients at six specified relative rates modulo 786433 complete all thirteen weight blocks through two saturation promotions. All six saved tensors have flattening ranks 112,72,72. A second longer Fourier coefficient calculation agrees with the common-rate tensor; 8429568 saved array entries replay identically.", "dependencies": ["AI-QUANTUM-SOURCE-NORMALIZATION-001", "Saved coefficient discovery programs and finite-field data"], "limitations": "Finite-field discovery only. No characteristic-zero construction, general rank classification, method ceiling or exponent improvement.", "origin": "Codex research directed by repository owner", "independent_review": false, "lean_formalized": false, "improves_omega": false},
     {"id": "AI-HANKEL-BOUNDARY-066", "title": "Hankel Segre-image bound at the first degree boundary", "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "evidence": "research/ai/2026-10-20-anisotropic-constructions/hankel_boundary_dimension.md", "statement": "Over an algebraically closed characteristic-zero field, for r>=2, r<min(a,b), and a+b-1=3r-1, a linear image of a Segre variety whose Hankel ranks are at most r spans at most max(r,4) dimensions. Thus ordinary square blocks obey n^2>max(r,4)ab => n+2(N-D)>=(r+1)ab. This excludes the ordinary A(7,8) M25 plus M5 target.", "dependencies": ["AI-HANKEL-SYMBOL-062", "Classical scalar Hankel/secant identification with repeated points", "Chinese remainder theorem and exact Hermite-jet independence"], "limitations": "The degree boundary, characteristic zero, and strict antecedent are essential. Same-session audits and exact controls do not constitute external independent review. Arbitrary singular degenerations are not excluded."},
     {"id": "AI-HANKEL-BEYOND-RANGE-067", "title": "Explicit Segre images beyond the fixed-scheme degree range", "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session", "status": "proof-written-unreviewed", "independent_review": false, "lean_formalized": false, "improves_omega": false, "evidence": "research/ai/2026-10-20-anisotropic-constructions/hankel_segre_beyond_range.md", "statement": "For 2r+1<=m<3r, with ell=m-2r and k=3r-m, an explicit linear image of rank-one 2-by-k matrices gives Hankel rank at most r. Its total image dimension is 2k and exceeds r when m<5r/2. The case a=b=4,r=3 has determinant (AD-BC)^2 and image dimension four.", "dependencies": ["Explicit polynomial recurrence", "Standard-library exact determinant and recurrence controls"], "limitations": "These are counterexamples to dropping degree hypotheses, not matrix multiplication constructions or an exclusion of every possible stronger boundary theorem."},
