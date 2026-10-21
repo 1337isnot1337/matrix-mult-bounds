@@ -11,7 +11,7 @@ four-space and higher maps. It has no independent review or exponent gain.
 - [Question and continuation](QUESTION.md)
 - [Pinned dependencies](sources.json)
 - [Polynomial and minor witnesses](certificate.json)
-- [Reconstructed report](../../../../results/mixed-axis-incidence-2026-10-21/report.json)
+- [Reconstructed report](../../../results/mixed-axis-incidence-2026-10-21/report.json)
 
 From the repository root, with the maintained requirements installed:
 
