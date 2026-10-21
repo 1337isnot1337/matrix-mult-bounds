@@ -1647,6 +1647,26 @@ are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
 
+## Local audit of an external tensor-degeneration preprint
+
+The [exact local audit](research/ai/2026-10-21-sun-local-audit/README.md)
+reconstructs selected maps from arXiv:2610.13971v1, with the inspected HTML
+pinned by hash. It finds a repairable scalar normalization omission and
+verifies four local Laurent leading tensors, four generic endpoint blocks,
+and 256 crossed-group identities. The complete M32 maps remain unverified;
+the preprint's claimed exponent improvements are not adopted.
+
+A separate elementary centroid argument excludes a bridge that first
+collapses to the fixed zero-fibre tensor D256 tensor M2 and then seeks M32.
+This narrower obstruction does not exclude every enriched assembly.
+The audit and written proof remain AI-derived and externally unreviewed.
+
+The [packetwise follow-up](research/ai/2026-10-21-sun-local-audit/packet_lift.md)
+shows that an individual printed generic packet contribution contains M2,
+whose exact Koszul rank exceeds that packet's stated border-cost ceiling.
+It excludes a lift preserving each such contribution, while allowing the
+possibility of different global maps with interpacket cancellation.
+
 ## Source-weight windows and full original-source Laurent fibers
 
 Claims `AI-WEIGHT-WINDOWS-098` and `AI-ORIGINAL-JET-FIBERS-099` preserve
