@@ -378,6 +378,15 @@ relative error is about 61501 at the best parameter in the recorded interval.
 All discovery reports remain experiments. Exact controls preserve known
 m=2,3,4 limits through the full normal-form reduction.
 
+The [balanced coefficient system](research/ai/2026-10-20-balanced-coefficients/elimination.md)
+now gives an exact algebraic construction problem in a restricted monic
+flag ansatz: 53 integer polynomial conditions of degree at most 12 in 57
+parameters, after 68 coefficients are eliminated by unimodular systems.
+An exactly checked finite-field solution with full-row-rank Jacobian would
+lift to characteristic zero by standard Hensel theory. No qualifying point
+or complex degeneration has been found. Monic pivots are an additional
+restriction; the written reduction does not settle general constant maps.
+
 ## Whole-filtration entropy investigation
 
 Branch `research/full-filtration-entropy-20261020` studies the whole support
