@@ -158,9 +158,15 @@ the target. **The target degeneration is unconstructed.**
 
 The adapter checks an order-48 subgroup and 60 center orbits, applies the
 central-pair exclusions and reuses the pinned integer acceptance verifier.
-Four exact controls pass, including an embedded positive weighted control
-and equality of the original complete SL(2,7) source certificate. A bounded
-target search is running; no outcome is inferred from a live checkpoint.
+Six controls check the source, projection, an embedded positive weighted
+control, the unchanged SL(2,7) certificate and exact finite rejection replay.
+The two initial 600-second target searches, with and without projected
+inverse-class capacities, ended without a pair-injective model. These
+timeouts exclude nothing. A separate structured-parent enumeration rejects
+all 1,000 explicitly generated ten-point section triples by independently
+replayed positive integer Farkas circuits; its finite scope is documented in
+the [parent note](research/ai/2026-10-20-sl2-five-c2/structured_note.md).
+The larger target remains open.
 
 ## Second-pass checkpoint
 

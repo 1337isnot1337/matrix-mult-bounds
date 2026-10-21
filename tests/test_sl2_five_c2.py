@@ -3,10 +3,12 @@ import importlib.util
 import copy
 import json
 from pathlib import Path
+import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT/'research/ai/2026-10-20-sl2-five-c2'
+sys.path.insert(0, str(RESEARCH))
 spec = importlib.util.spec_from_file_location('sl2_five_c2_source', RESEARCH/'source_data.py')
 source = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(source)
