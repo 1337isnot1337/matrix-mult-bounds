@@ -1,5 +1,41 @@
 # Integrated research coordination
 
+The quantum worker now studies the question in
+`ai/2026-10-21-boundary-hyperplanes/QUESTION.md`. Arbitrary boundary first
+spans of dimensions at least11 on both sides are excluded at every order,
+including delayed unequal growth. The proof uses a rank-one-free matrix
+space and a general two-hyperplane compression lemma. Ordinary first-rank
+sum is at most22, with one rank at most10. Smaller pairs and other leading
+flags remain open. PR55 merged at18a06b3 after current CI, with exact
+tested/merged tree equality; its completed local and remote branches are gone.
+
+The quantum worker's current question is
+`ai/2026-10-21-third-boundary-trap/QUESTION.md`. Full boundary first frames
+of effective dimensions12,12 are excluded at every order, including delayed
+and unequal first-growth orders, by a new third-block rank gap and the
+moving-boundary induction. PR49's complete second jets remain finite
+controls. For every ordinary first pair at these flags, the corrected
+projected third coefficient on K_inf must have first rank at most2.
+The next construction question concerns other first subspaces or leading
+flags; coordinate omissions alone do not settle the general question.
+
+The mixed-jet worker has now closed every maximal mixed first pair of
+quotient ranks 14 and 6, in either order, in
+`ai/2026-10-21-mixed-first-jets/pencil_frontier.md`. The necessary mixed
+rank sum is at most 19. Exact generic two-jets remain positive controls;
+rank divisibility and twelve cubic minors supply the later obstruction.
+Smaller or delayed first growth remains open. The full boundary-spanning
+12-by-12 family stays with the quantum worker.
+
+
+The quantum worker previously constructed the complete172-parameter
+second-jet family in `ai/2026-10-21-corrected-prolongation/`. Its finite
+coefficient witnesses are retained; the full boundary-frame matrix target
+is excluded by the third-order boundary trap. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+its task branches are removed. The new family has effective first ranks12
+on each side, outside the13-per-side hypothesis in PR48. No improving
+matrix tensor limit is constructed.
+
 The quantum worker's current question is
 `ai/2026-10-21-second-jet-rank-one/QUESTION.md`: the canonical changed jets
 now have no second partial-space growth, by a new rank-two spanning
@@ -37,8 +73,10 @@ Its tested head was `4c88acad6b163ebb20011dd947a4092df003533f`, whose tree
 matches the squash merge. All required hosted jobs pass; the Python 3.10
 job reports 353 completed tests. Earlier checkpoints retain their exact
 local test receipts, including 350 tests at `bf4d187`.
-PR #38, `research/residual-boundary-20261021`, preserves the new boundary
-proof, frontier update, and exact retained-residual maps. The complete
+PR #38 is merged at `fc460bf25fb106ab5de38863d37d1ac4cbfd12dc`.
+Its tested head `f87d3037c9d559ba6972d4738a7d88209dbc8627` has the same
+source tree, with every current hosted check passing. It preserves the
+boundary proof, frontier update, and exact retained-residual maps. The complete
 local suite at `8b09235` passes 368 tests and all five archive replays
 using only maintained verification dependencies. The initial Markdown
 link-check failure and its notation repair are retained in the validation
@@ -74,8 +112,91 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The proof and exact-map package is pushed in PR #38. Current hosted
-checks are required before merging; preserve concurrent worker files.
+[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43)
+is merged at `e00622fc3e3179f2c87ac3185f2158c39b2fe707`. Its source tree
+matches the tested head `df9e12c`. All current hosted checks passed;
+Python 3.10 ran 471 tests, with 470 passed and one optional control skipped.
+The fully incorporated local and remote topic branches were removed.
+The current continuation branch is `research/weight-mixing-20261021`, in
+[PR #51](https://github.com/1337isnot1337/matrix-mult-bounds/pull/51).
+Its first checkpoint `5d5cc6d` passes all hosted checks. The pushed
+checkpoint `1f813bb` adds exact crossed modules, two-source capacity,
+a projected carry obstruction, and the completed compression search
+with its actual residual. It incorporates main's corrected second-jet
+family at `8a07bed`. Its full local suite completes 496 tests: 493 pass
+and three optional controls skip; all five archive replays pass. All
+hosted checks for that checkpoint pass. Checkpoint `4ed2b52` incorporates
+main's mixed second-order family at `21f54c3` with the new spin, corner
+and fixed-map packages. Its 35 focused tests and full 513-test suite
+pass, with three optional skips in the full suite. All current hosted
+checks for `4ed2b52` pass; hosted Python 3.10 also runs 513 tests with
+three skips. The next integration incorporates main's third-order
+mixed-space proof at `b113866` before merging PR #51.
+The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
+incorporated in main. The first,
+combined with main `f67467d`, passed 391 tests and all five archive replays
+using only maintained dependencies. The second adds 24 passing focused
+tests. The complete third-checkpoint suite ran 447 tests: 446 passed and
+the optional NumPy control skipped. All five original archive replays
+passed. Its receipt pins `bb64dae` and main `b0a54f2`; newer packages have
+separate focused checks. Claims 075 through 097 now include the exact partial maps,
+both fixed-boundary noncompletion proofs, the graded core bound, the
+free-interior family and its fixed-channel limits, the two-leg rank chain,
+the complete original-profile degree-13 obstruction, the width-13 rank
+contradiction, the finite common-vertex M7 screen, and the saturated pencil
+determinant, the complete common-profile classification, unequal-profile
+partial controls, the universal homogeneous support-peeling obstruction,
+the quantitative mixed-grading requirement, two complete Laurent collision
+controls, and scalar-power correction reuse with exact source-cost accounting.
+The saved map bytes and their positive partial identities remain unchanged.
+Checkpoint `9d676ab` includes concurrent main through `63eecee`. Its 16
+focused construction/concurrent-main tests and 18 repository/profile checks
+pass. The subsequent merge includes `fc8207e`, preserves all 137 claim
+records, and passes the five new second-jet tests with maintained dependencies.
+
+All ordinary maps that send target matrix units homogeneously into the
+fixed source grading are now excluded for A88 to M27 plus M7, including
+every unequal vertex profile. The exact support-peeling sequence is
+960 to 922 to 834 to 468, which contradicts the required map rank 778.
+The primary separator certificate and an independent full-source replay
+agree. The earlier profile candidates are historical partial controls.
+
+The ungraded A88 frontier remains open. Construction work now studies
+maps mixing several source weights, genuine Laurent cancellation, and
+tensor-power recycling with explicit residual and source-cost accounting.
+Every ordinary construction needs at least 19 images with three or more
+source weights on each of at least two legs. The exact three-weight M12
+plus M3 maps remain a smaller-target change of basis. The completed original-source
+Laurent chart uses invertible 960-direction maps before the limit and has
+a concise projection of format 936 by 936 by 935. Its exact 126-slice
+cover excludes the intended square target and every further degeneration
+to that target. The moving physical-compression search retains complete
+target normalization but has produced no singular family. Claims 098 and 099 preserve
+this result and the requirement that some ordinary target image span at
+least four source-weight steps. An exact golden-ratio slice supplies a
+three-weight cancellation direction. Exact rational maps now give
+C(2,4) tensor C(2,8) to M(2,2,11), A(4,8) to M(4,4,11), and A(8,8)
+to M(4,4,22). Claims 100 through 103 preserve these maps, the sharp
+two-source dimension condition, the narrow carry obstruction and the
+completed numerical chart. The active construction question is whether
+changed subspaces or coupled copies can retain a large rectangular module
+while leaving enough original-source directions for a full square target.
+A separate exact flattening argument closes the old fixed-first-map
+family. Claims 104 through 107 preserve this obstruction, the old
+fixed-seed response proof, the new spin-one module M(3,3,28), and the
+changed corner module M(4,4,12) with response rank 164. The active
+ordinary question is square assembly from these changed cores. For
+the spin core, M27 plus M6 plus M3 has enough kernel dimensions and
+would imply omega below 2.24975, but the required maps are missing.
+The agents are computing exact preimages for additional matrix rows,
+repairing retained maps, and testing extensions with dimension slack.
+None of these results lowers the exponent yet.
+Pure A22
+tensor powers cannot cross the current sixfold square-sum gate even by
+dimension, so recycling work requires a different source budget or a real
+source compression.
+All three research slots remain assigned. Current hosted checks are
+required before merging; preserve concurrent worker files.
 
 ## Earlier coordinated integrations
 

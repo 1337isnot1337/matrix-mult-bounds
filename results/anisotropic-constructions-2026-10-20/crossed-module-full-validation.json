@@ -1,0 +1,459 @@
+{
+  "scope": "Full regression suite of the integrated exact-module checkpoint; archive replay is separately recorded",
+  "baseline_commit": "5d5cc6d0d8dc15cb0025a978b451ff5fd3427174",
+  "integrated_main_commit": "8a07bed352c1da880f1526576728649d205ec530",
+  "started_utc": "2026-10-21T05:35:12.038252+00:00",
+  "finished_utc": "2026-10-21T05:40:22.190536+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S -m unittest discover -s tests -v",
+  "tests_run": 496,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 3,
+  "success": true,
+  "log_path": "results/anisotropic-constructions-2026-10-20/crossed-module-full-tests.txt",
+  "log_sha256": "eaca015cff5dce458875b2aa2273403a4a19596e4df2f239a1ee0e82fc12b8d2",
+  "test_files": [
+    {
+      "path": "tests/test_affine_fibers.py",
+      "sha256": "44fd3ffb08f4cd3cf6b4ec006ec0e584338263b1c148848527d2042bd0d148f6"
+    },
+    {
+      "path": "tests/test_all_dimension_targets.py",
+      "sha256": "362d692de6ad7fe744c89368846440facd1c74053635aefa6fa67e45f27fddbb"
+    },
+    {
+      "path": "tests/test_anisotropic_constructions.py",
+      "sha256": "2abf133f914b26b43dd3465657d36a07cf7a52679b7477696e0c1859eae649ef"
+    },
+    {
+      "path": "tests/test_archive_integrity.py",
+      "sha256": "824339fed069cb7e7c14c5c02f3caa099b0b074df41f6d21acc7a10877773bc8"
+    },
+    {
+      "path": "tests/test_balanced_coefficients.py",
+      "sha256": "d3a0f4c047fdc2732aaec44962a9cdf416605fd52005924d9c8f5687f0f915d8"
+    },
+    {
+      "path": "tests/test_bitwise_hankel_projection.py",
+      "sha256": "21db2533e7f90d990c3ee1ab1f07a7aa6f94a5cb50741e2c17766425c23a306e"
+    },
+    {
+      "path": "tests/test_board_thresholds.py",
+      "sha256": "c7e39cde12377958d3136bf69a2e4c15c5f604da0bc3367e5aee7ad7994be60e"
+    },
+    {
+      "path": "tests/test_c29_near_capacity.py",
+      "sha256": "70b72277134dfd402a244eaee788ae4a7086762b8a720a5349aa93fc9b165235"
+    },
+    {
+      "path": "tests/test_c29_rectangular.py",
+      "sha256": "0bd769d50ce4150e4a3f9262bdae5cd0d9e2d143982181a1a6fae058a84e1ac1"
+    },
+    {
+      "path": "tests/test_chebyshev_centers.py",
+      "sha256": "2916f42f53fae18d085ca71dbfc327cd99d5e7436764424a5131132500cbbe70"
+    },
+    {
+      "path": "tests/test_chebyshev_search.py",
+      "sha256": "e23731809cf8184563ab2ac847632c5a3a4f8fc6ca34624962f35b0d020810c2"
+    },
+    {
+      "path": "tests/test_clebsch_gordan.py",
+      "sha256": "741589bfe13937e358b6898ddddfdfdeb5b82d6b1d2b9ff0f170f7af9bc384a5"
+    },
+    {
+      "path": "tests/test_compression_simple_poles.py",
+      "sha256": "9ab3ddc933eb05164488ce6c2cc6c88aff9a86a1a8192f8a1425c498c6fb5963"
+    },
+    {
+      "path": "tests/test_coordinate_compression_limit.py",
+      "sha256": "22e41cbf1e601a7147ec02765d3335364342f2ceb044e01e4432321a3ba33e94"
+    },
+    {
+      "path": "tests/test_corrected_prolongation.py",
+      "sha256": "4c988c00a7909a93f0563e55bfbb311ca4bd26e0c270dc4d07adcc55a1aba182"
+    },
+    {
+      "path": "tests/test_crossed_module11.py",
+      "sha256": "8a62310ee53b3f8c35ba50c4f847d24c374f8ab8c803124070e75d55fe3da943"
+    },
+    {
+      "path": "tests/test_crossed_module9_control.py",
+      "sha256": "44023b6a82670051fdf9115d0dd10bed52472e11908912728cc250d40b41bb34"
+    },
+    {
+      "path": "tests/test_cyclic_equivariant.py",
+      "sha256": "e1303e77c8b457a75967b2aabba9989a17ce3bb81aeacc03c914fec3986ccacb"
+    },
+    {
+      "path": "tests/test_cyclic_finite_target.py",
+      "sha256": "b1dea5b79485f44472f89ebd346cfcbc89de35ced26c3b015c0f69ba66596dd3"
+    },
+    {
+      "path": "tests/test_cyclic_frontier_a5.py",
+      "sha256": "7528efacff3119962cc332099e58525870fb37b6dc58eb0165548b931901f8eb"
+    },
+    {
+      "path": "tests/test_cyclic_full_capacity.py",
+      "sha256": "5901d49858a56d03eec082dbcc294f3b215d65683b894693b2cd124b4e0b83eb"
+    },
+    {
+      "path": "tests/test_cyclic_mixed_map.py",
+      "sha256": "4f5870af35cd25306666d0971612f6c8367b1a294e8bf4ef82b1790661292729"
+    },
+    {
+      "path": "tests/test_cyclic_polystability.py",
+      "sha256": "de10defce98e7c8461e09a6d3b75e2dfe1d95e4fb5f899e936e701972a4d8fbd"
+    },
+    {
+      "path": "tests/test_cyclic_quotient_volume.py",
+      "sha256": "29afdc3fc9a588224a132fa1e30ee50adbe2a5d402f855e994f42b98cdb3fc8d"
+    },
+    {
+      "path": "tests/test_cyclic_recoupling.py",
+      "sha256": "fbe2763cc07d6d8de870618365ef60f0d7a1314693f5f0ce562f812eaf29f2f4"
+    },
+    {
+      "path": "tests/test_cyclic_singular_search.py",
+      "sha256": "c2aa2d35a59df8fe441601ee0f7d0fda2c34bf68490da38f990d1540cffb1d4e"
+    },
+    {
+      "path": "tests/test_cyclic_torus.py",
+      "sha256": "35590151c6744541e10699c8f94324f488b3292d900351983ee98fabae497bf8"
+    },
+    {
+      "path": "tests/test_cyclic_weight_blocks.py",
+      "sha256": "2e63e882c94a1189fdbb3f1864c5949dab58c1c165bb2089de43d4b5b1559ee3"
+    },
+    {
+      "path": "tests/test_fatpoint.py",
+      "sha256": "f6e666616fda26ee2fc10b7906cc5fde1ae1cdb11b6b776f0a33c63768ff3987"
+    },
+    {
+      "path": "tests/test_fatpoint_route.py",
+      "sha256": "5d884b9af395858d8e07d9a3ac71e8b9b34782af15b4f0bc0c3176836ae11fb0"
+    },
+    {
+      "path": "tests/test_filtration.py",
+      "sha256": "ac125e2a5bd96aee30478a63dc55f663a0df9f9c80a0d240bf92de921751bdca"
+    },
+    {
+      "path": "tests/test_filtration_compatibility.py",
+      "sha256": "dab3b062a385af9ab20b6b57f31f0089a5c34dcd40099bf94918b13a77f5ac79"
+    },
+    {
+      "path": "tests/test_finite_amplitude.py",
+      "sha256": "bde9544cc446f7bf8807de329bc806ee878f5dcef30c3d5d39f9a259bb9ad14d"
+    },
+    {
+      "path": "tests/test_finite_target_screens.py",
+      "sha256": "eabefc7059dfba783d5911bb9e38f658b81f127b16086e364791cb0c2d83b605"
+    },
+    {
+      "path": "tests/test_fixed_anchor_obstruction.py",
+      "sha256": "59408484850c5a9f3d1e1cc835ecfc55b1d39961a423de94257f49406c7f5377"
+    },
+    {
+      "path": "tests/test_fixed_shared_hom.py",
+      "sha256": "6eea29dc4174ed6ad365751cba94a0cb73f0c58e2a6844042065c95e9f84b990"
+    },
+    {
+      "path": "tests/test_full_direct_sums.py",
+      "sha256": "4bd8e9f1c3671ae71fd0462d2d2d8f7a5f4c36932358012686747a336525845a"
+    },
+    {
+      "path": "tests/test_full_filtration_entropy.py",
+      "sha256": "4fd44abc3b2eed42731d3142398a757745a3afe9cfb914bc4ae1c1e1065c851a"
+    },
+    {
+      "path": "tests/test_graded_certificate.py",
+      "sha256": "a60df571f057df1f16131a5ed759a33cb0734d695c4db677b259101dc3258605"
+    },
+    {
+      "path": "tests/test_graded_quantum_flags.py",
+      "sha256": "bc0accdb7b9af1ec9a180f329c9f223cabae044ecca6d75923c1afee2c132942"
+    },
+    {
+      "path": "tests/test_group_potentials.py",
+      "sha256": "af0a8ec0ffd650c6963758f12ebdc0434d433bec3b7e613de8ce0777fa92b0bf"
+    },
+    {
+      "path": "tests/test_group_streams.py",
+      "sha256": "412473110ee5583e2ed5aac11709df41ec8296164dd24253586ac4a4eed2fb54"
+    },
+    {
+      "path": "tests/test_hankel_boundary_dimension.py",
+      "sha256": "7ec2ac79c9f044435a0320c0f6a875c01c0fff08880afa8b7bec7b7e688ae80a"
+    },
+    {
+      "path": "tests/test_hankel_rank_two.py",
+      "sha256": "43b65f2bf184df543eef90e5ead4513006047ed7b705b5972159a6307be27ca2"
+    },
+    {
+      "path": "tests/test_hankel_segre_beyond_range.py",
+      "sha256": "6438156ea0ac984dd70aebb8a2de28d41a298fabf6ba83c0eabfcc2ce87b2083"
+    },
+    {
+      "path": "tests/test_hankel_symbol_dimension.py",
+      "sha256": "683d81e91659bcbb82dc59a2ae2401f80052a00c66354ba58907ae091b7f6f84"
+    },
+    {
+      "path": "tests/test_heisenberg_five.py",
+      "sha256": "333d963ed4544816da9e557644cd8bd63e241f0c6c8c67c06ca1b71a65d1ffbb"
+    },
+    {
+      "path": "tests/test_higher_jet_quantum_flags.py",
+      "sha256": "9b9d83e46a7e34b35b57277bb156b429dc74b3e1b348a762c4a7cb0f037d74a5"
+    },
+    {
+      "path": "tests/test_homogeneous.py",
+      "sha256": "62ebbe33ba192c46be809871b75203487a70e4922da9f9c5fe366b50bd486320"
+    },
+    {
+      "path": "tests/test_koszul.py",
+      "sha256": "c9d06640f76ec69fbddca9521a03d6504980217b4f8b1eddf87ed237bf4a6dba"
+    },
+    {
+      "path": "tests/test_mixed_family.py",
+      "sha256": "964cfcdfb7f3e03fea87b6a964d8821b92f5bf4cc216864f804090b49b7fea79"
+    },
+    {
+      "path": "tests/test_mixed_restrictions.py",
+      "sha256": "7a6a6351257ace228f4f5ee9b799b63afd0b62f37310ebdc3ba22a12028f5bda"
+    },
+    {
+      "path": "tests/test_monotone_endpoint_seeds.py",
+      "sha256": "bad42950fb0cf1730bedd1b815b079fdab29613f52383d3c304931084d6fe62a"
+    },
+    {
+      "path": "tests/test_moving_boundary_flags.py",
+      "sha256": "dbf869c81fb2b1df633db6321a8d1da19a0c239d2520081c89d118203c89c554"
+    },
+    {
+      "path": "tests/test_nonmonic_target_orbit.py",
+      "sha256": "fc8e91c630d1b78bea811233b11ac7c6e200baeba1b9719ef639be8a8fdb1d76"
+    },
+    {
+      "path": "tests/test_normal_coset_koszul.py",
+      "sha256": "2a80067d99163763981767d11dac0ae89465a25619ab37ad522aee5f18a9e5cd"
+    },
+    {
+      "path": "tests/test_octal_parent_barrier.py",
+      "sha256": "9b00c2affbddf86740366cc793649ec39a68fa7f4a2c6d434800543ebdbdd036"
+    },
+    {
+      "path": "tests/test_octal_single_plane.py",
+      "sha256": "a4d7b70747d9d878234d0beedec1036cf2db455a2f23ea9da6674b34b7eba949"
+    },
+    {
+      "path": "tests/test_paired_sources.py",
+      "sha256": "c8c34d5dd81a96f8395aa7f0b157f01cf91415133987366348e56eb1c0409b73"
+    },
+    {
+      "path": "tests/test_parity_annihilator.py",
+      "sha256": "1289a29ac1d2dfc3904fd95d49f01168083ba2cbe5bc9665439cdcdc840fb0b1"
+    },
+    {
+      "path": "tests/test_parity_balancing.py",
+      "sha256": "9899650a3f7448345a17d5b974dff23f55cc6cf3af4c089e3d74652e4954426c"
+    },
+    {
+      "path": "tests/test_parity_balancing_cross_module_lifts.py",
+      "sha256": "ccb114578c92de143611bebb4fed9d4ebe38f19b858015ad11d6f343e2df8ccf"
+    },
+    {
+      "path": "tests/test_parity_balancing_fixed_core_weights.py",
+      "sha256": "00a884416c2f9179d4cdde1a84243505890de4b3b83136a7d88e96789fa162c2"
+    },
+    {
+      "path": "tests/test_parity_balancing_mixed_grading.py",
+      "sha256": "f31547580257d631e1bee9eb4c2df251a5bd405bc233d2f7e3625a1bc4226e4b"
+    },
+    {
+      "path": "tests/test_parity_balancing_rankone_13_chain.py",
+      "sha256": "82fd161cc826ec0330e3daa4e86b41810ccb7772056e5f835b0802c56aca03d4"
+    },
+    {
+      "path": "tests/test_parity_balancing_spin1.py",
+      "sha256": "368b3813aa6b893fefe30a8f2d358b1dc8251d10468e5006d33f066e9b436751"
+    },
+    {
+      "path": "tests/test_parity_balancing_stabilizer.py",
+      "sha256": "db073d82dd327da8873c30bf129dae0bf073d3635c30c79eeef97d4f5d38c8de"
+    },
+    {
+      "path": "tests/test_parity_balancing_torus_anchors.py",
+      "sha256": "410f47f16e4eba2c19266355f9fe87582328d2eac4fe6f6d8eea4d2d780f1a28"
+    },
+    {
+      "path": "tests/test_parity_balancing_triangular.py",
+      "sha256": "6b5e2dd7c1c4549243652262bced1dd65573c061d5c414037137e1ac73291170"
+    },
+    {
+      "path": "tests/test_parity_balancing_unequal_profiles.py",
+      "sha256": "7f4e2088a3cef02d8e3597d471a677d5dbcf4ae02baaa0fb4c31b34e60fda0f0"
+    },
+    {
+      "path": "tests/test_parity_balancing_weight_windows.py",
+      "sha256": "a64bbd6e4adcfbf752fbcd5b43edfb4131f56d0748e28b7acddde64cea79e765"
+    },
+    {
+      "path": "tests/test_parity_structure_common_profiles.py",
+      "sha256": "4637af5c219be93a56165e18abdbec5488af7dde4dcdab67328a7a8bbb41a3c6"
+    },
+    {
+      "path": "tests/test_parity_structure_compression.py",
+      "sha256": "650782471cd36cce3e81afa1d90b07eed54b826c42bbab451cbbe267d4126d68"
+    },
+    {
+      "path": "tests/test_parity_structure_free_interior.py",
+      "sha256": "ebb2de9c982ba8afd5ef7f9d446ff1718917b2c0504d8f833360617741291e01"
+    },
+    {
+      "path": "tests/test_parity_structure_full_residual.py",
+      "sha256": "5d18de06cdf38e3efea58996da2cc389832db79e8c07a74b36a134e70d123ab3"
+    },
+    {
+      "path": "tests/test_parity_structure_jet_collision.py",
+      "sha256": "dde365f479dbe48e1f17ac95f7121d3fb9fe8a9b2e03ec73ec3d05bc6abdfe34"
+    },
+    {
+      "path": "tests/test_parity_structure_jet_extension.py",
+      "sha256": "cc4b0dfcdeba12ce0300f0543710432954979c66d7f47cb63b29f290f94588ce"
+    },
+    {
+      "path": "tests/test_parity_structure_jet_original_fibers.py",
+      "sha256": "0f83ee262c32e9ca4de8915cc4574984f37f68cd5f8e5f53280d52992397e968"
+    },
+    {
+      "path": "tests/test_parity_structure_torus_seed.py",
+      "sha256": "94a8f5e36dc602783d218dd9fd68c724940a0ba1a71f71fa46e66b36239128f4"
+    },
+    {
+      "path": "tests/test_parity_structure_unequal_objective.py",
+      "sha256": "a77045c562dd309d7b15588b42948e50e7e5589435d32552b3ca423ec1e7f4db"
+    },
+    {
+      "path": "tests/test_polynomial_rank_locus.py",
+      "sha256": "29c560d94cc76cee4fb7295c41ac8a113b0ff0483e347dd5429f39ca7d0bdd0d"
+    },
+    {
+      "path": "tests/test_quantum_extension_spaces.py",
+      "sha256": "fed0c3bf63224371734340762cc833826fd62bf06d489bc6a38105201ba39f29"
+    },
+    {
+      "path": "tests/test_quantum_jet_filtration.py",
+      "sha256": "87191615c1d1287f0e165c777cab2f3d6f202fc0cba29b523609f974e0aa8112"
+    },
+    {
+      "path": "tests/test_quantum_obstruction_rank.py",
+      "sha256": "7f4d437e8d19a835ec17fcf6aac84937a41b08dc1e90d94eb12a3dd0029af29d"
+    },
+    {
+      "path": "tests/test_quantum_recoupling.py",
+      "sha256": "30dcfb21e62dff4740704c6cf6d2b686a47a9cfe40d2dbb5566642a7b73ddb50"
+    },
+    {
+      "path": "tests/test_quotient_and_seed_controls.py",
+      "sha256": "c984bf5a179642c431e64f9f1c7545eaf09ea781b938893ee6ac144806df5dcb"
+    },
+    {
+      "path": "tests/test_quotient_score_barrier.py",
+      "sha256": "a10ae5b005c55d3f1739aabe422d41ccd993ac1ccb3539382243dcfe73698d4c"
+    },
+    {
+      "path": "tests/test_research.py",
+      "sha256": "1ab4881eda53ab5a8345318d0169902875a9513c14e4978658ded83446b83b7e"
+    },
+    {
+      "path": "tests/test_rotated_catalecticants.py",
+      "sha256": "8360aa50aeb7177c821dcd902fb64c3fea4098d029c42fbe9038a74ac8019649"
+    },
+    {
+      "path": "tests/test_scalar_power_recycling.py",
+      "sha256": "e6ec6bc0e04e4e09ba17ffe13d958e56ad406d50009b54ab5176c5334f47a61d"
+    },
+    {
+      "path": "tests/test_second_jet_rank_one.py",
+      "sha256": "79a2a175d1386ffa45f6d468c26166d664096e7d48c048c8a7beed8bd1919f3e"
+    },
+    {
+      "path": "tests/test_session2_checkpoint.py",
+      "sha256": "c39b3af7fcdc1424f9077c92a455e25f5dc61e252300ef99578cd4c3ece7a32c"
+    },
+    {
+      "path": "tests/test_singular_flags.py",
+      "sha256": "93b19d27f98522d6944e0f1f0cffecc9914ad5e5cf93b59450167c4eb7157802"
+    },
+    {
+      "path": "tests/test_sl2_five_c2.py",
+      "sha256": "debbf3c30c1692e84b1a5e0e68ed10b817b846b3107fc3c7a9c4eb0eb2fd169d"
+    },
+    {
+      "path": "tests/test_sl2_five_projection.py",
+      "sha256": "722dbfaaa26428f15b0936b4c391105d9c5a4fd90ff7606be22e8000ab36f142"
+    },
+    {
+      "path": "tests/test_sl2_five_saturation.py",
+      "sha256": "5e05295a31d87906a77d85531b3efff4efe87fe00e935ad371049c94561e6b7d"
+    },
+    {
+      "path": "tests/test_sl2_seven.py",
+      "sha256": "cf1864f8a11fa2c84bc12b59182f5b7bfc31e8708023c509e946f2b53754375e"
+    },
+    {
+      "path": "tests/test_source_obstructions.py",
+      "sha256": "ae6590ed310e3281f5a5d6d1f968616f2e4eae6ad7ded2bb6383bf744b2c7e5b"
+    },
+    {
+      "path": "tests/test_square_sum_frontier.py",
+      "sha256": "bb7fc1ff6c74b9b266b9657e5200e9f966c39055b3deba639dc16510c4dae540"
+    },
+    {
+      "path": "tests/test_torus_affine_slices.py",
+      "sha256": "d1d00edff3a18e1bc869a9e1301dcf9ba344a6d7f5c9d3414f581722825ce350"
+    },
+    {
+      "path": "tests/test_torus_degree13_pencils.py",
+      "sha256": "5bb297157b86b36120e20834e023c57ed4d8624583874272b7160995e062f8e3"
+    },
+    {
+      "path": "tests/test_torus_followup_controls.py",
+      "sha256": "6a0ecce2e52b4ab1079d99fa10e48cd0745b8e500bcfe3e238281b583deb01a8"
+    },
+    {
+      "path": "tests/test_torus_newton_independent.py",
+      "sha256": "04df99429c80a1e1d1fe52717130a694b316f3e50e70443df9f59b0be343c273"
+    },
+    {
+      "path": "tests/test_torus_saturated_blocks.py",
+      "sha256": "b77e6b05cd16cf7245b562a6913a6d51407a46e980a4a2a779a048487adb8d2a"
+    },
+    {
+      "path": "tests/test_torus_saturated_pencil.py",
+      "sha256": "0acd2d20f25e20ce0ded211a731413ea9f44df2ddfe0af14e09bd2af10a1aed1"
+    },
+    {
+      "path": "tests/test_torus_support_peeling.py",
+      "sha256": "51122cd0b5ee3cf1837e48aad160b9b336f4dab8c89563c7dd36eb7d5b9d0cf9"
+    },
+    {
+      "path": "tests/test_truncated_algebras.py",
+      "sha256": "ecfa9bb7bb89fb4c5d9234e4ab3e4f8df773dc4551cca17cdc09b0365c054264"
+    },
+    {
+      "path": "tests/test_two_source_budget.py",
+      "sha256": "721bda6d33d702226e0f720aec1491e9d4aa78cc30199231349ec3e323e670c9"
+    },
+    {
+      "path": "tests/test_weight_slice_covers.py",
+      "sha256": "d5f50bad1240fa02e20311809a5554033146fcc677b8afa3f74942435d2e481b"
+    }
+  ],
+  "review_scope": "Computational validation within the generating session, not independent mathematical review.",
+  "tested_checkpoint_commit": "1f813bb0ffa0585629f311fe932d0b60d6a368f2",
+  "tested_checkpoint_tree": "28ce077b985d8c0df624ce9b01ec3af5ba2bea7b",
+  "all_recorded_test_files_match_tested_commit": true,
+  "later_frozen_flattening_response_corner_and_spin_packages_not_in_this_suite": true
+}

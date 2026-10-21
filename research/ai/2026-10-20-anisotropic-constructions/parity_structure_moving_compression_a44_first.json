@@ -1,0 +1,908 @@
+{
+  "initial": {
+    "source_lengths": [
+      4,
+      4
+    ],
+    "target_vertices": [
+      10,
+      10,
+      11
+    ],
+    "source_leg_dimension": 112,
+    "target_dimensions": [
+      100,
+      110,
+      110
+    ],
+    "complex_parameters": 1990,
+    "complex_splitting_parameters": 350,
+    "relative_full_tensor_residual": 685.6949879386876,
+    "complete_target_coefficients": 1210000,
+    "physical_map_frobenius_norms": [
+      77.73003621067296,
+      135.8115746800398,
+      533.9239325764026
+    ],
+    "source_coefficient_frobenius_norms": [
+      60.09095224022421,
+      103.1157783173796,
+      426.7537547070851
+    ],
+    "source_coefficient_smallest_singular_values": [
+      0.5981614848387605,
+      0.5583904268561503,
+      0.5761841373498565
+    ],
+    "source_coefficient_singular_value_ratios": [
+      0.018584046593947412,
+      0.006574313033752862,
+      0.001520885259099689
+    ],
+    "physical_frame_smallest_singular_values": [
+      0.9999999999999997,
+      0.9999999999999998,
+      0.9999999999999997
+    ],
+    "physical_frame_largest_singular_values": [
+      1.0000000000000004,
+      1.0000000000000004,
+      1.0000000000000004
+    ],
+    "compression_smallest_singular_values": [
+      0.04125216499185598,
+      0.011796362693673637,
+      0.002646723436464657
+    ],
+    "compression_condition_numbers": [
+      41.73311738182456,
+      151.81773098483006,
+      660.8027751121277
+    ],
+    "top_block_relative_errors": [
+      5.743169856944025e-15,
+      1.1086885079850453e-14,
+      4.275220481560319e-14
+    ],
+    "section_retraction_errors": [
+      1.099908954171552e-15,
+      1.7734980818511764e-15,
+      1.281884895687509e-15
+    ],
+    "splitting_parameter_norms": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "numerical_discovery_only": true,
+    "tensor_identity_certified": false,
+    "new_exponent_established": false
+  },
+  "final": {
+    "source_lengths": [
+      4,
+      4
+    ],
+    "target_vertices": [
+      10,
+      10,
+      11
+    ],
+    "source_leg_dimension": 112,
+    "target_dimensions": [
+      100,
+      110,
+      110
+    ],
+    "complex_parameters": 1990,
+    "complex_splitting_parameters": 350,
+    "relative_full_tensor_residual": 5.282310041337123,
+    "complete_target_coefficients": 1210000,
+    "physical_map_frobenius_norms": [
+      63.61491612347734,
+      39.88299096398223,
+      103.0308093622193
+    ],
+    "source_coefficient_frobenius_norms": [
+      58.6503867407474,
+      36.7322887219054,
+      97.57416585031716
+    ],
+    "source_coefficient_smallest_singular_values": [
+      0.024472298422840204,
+      0.011960082694395864,
+      0.014421308665416023
+    ],
+    "source_coefficient_singular_value_ratios": [
+      0.0007205370442034673,
+      0.00043436854856675314,
+      0.00015911314090137884
+    ],
+    "physical_frame_smallest_singular_values": [
+      0.06776543539543739,
+      0.05360622505882514,
+      0.058155650301727986
+    ],
+    "physical_frame_largest_singular_values": [
+      15.369518577022586,
+      21.776323384309155,
+      14.159889917715194
+    ],
+    "compression_smallest_singular_values": [
+      0.10404602346752201,
+      0.09619482639681377,
+      0.055442455781387706
+    ],
+    "compression_condition_numbers": [
+      601.4509194937738,
+      904.5088134494442,
+      1379.7623500469344
+    ],
+    "top_block_relative_errors": [
+      5.176673878968301e-14,
+      3.2009202214013905e-14,
+      5.2417034971908186e-14
+    ],
+    "section_retraction_errors": [
+      2.144177607291007e-14,
+      4.456396327902448e-14,
+      2.3607955873747683e-14
+    ],
+    "splitting_parameter_norms": [
+      10.593411697688442,
+      13.134085994882971,
+      10.762078453817548
+    ],
+    "numerical_discovery_only": true,
+    "tensor_identity_certified": false,
+    "new_exponent_established": false
+  },
+  "history": [
+    {
+      "stage": "L-BFGS",
+      "iteration": 1,
+      "seconds": 2.189,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 677.3306775690506,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        77.72021801750124,
+        135.63587860579938,
+        505.2726244870263
+      ],
+      "source_coefficient_frobenius_norms": [
+        60.084548754984795,
+        102.98808730770895,
+        405.616334048708
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.5981663029403271,
+        0.5583927052128606,
+        0.5763698395422698
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.01858469840916627,
+        0.006585990586973166,
+        0.001602729406726777
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.9995927583212794,
+        0.9999758909297577,
+        0.9999469719260233
+      ],
+      "physical_frame_largest_singular_values": [
+        1.000407407762544,
+        1.0000241096300038,
+        1.000053030284151
+      ],
+      "compression_smallest_singular_values": [
+        0.0412639865901603,
+        0.011818684253942658,
+        0.0027979511602269054
+      ],
+      "compression_condition_numbers": [
+        41.72095064343222,
+        151.53035415917478,
+        625.0775692289304
+      ],
+      "top_block_relative_errors": [
+        5.742653298270296e-15,
+        1.1278624100584289e-14,
+        3.966902734008515e-14
+      ],
+      "section_retraction_errors": [
+        1.1809974324692178e-15,
+        1.6728609074513927e-15,
+        1.3352799432670805e-15
+      ],
+      "splitting_parameter_norms": [
+        0.0011411206754152537,
+        7.259184850256249e-05,
+        0.00015129339641944498
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 10,
+      "seconds": 6.538,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 554.7128838687391,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        76.59239182179013,
+        113.1005273903746,
+        376.2691779404991
+      ],
+      "source_coefficient_frobenius_norms": [
+        59.221328637449325,
+        86.29334861941123,
+        302.08918395128404
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.5980362419468304,
+        0.5589596690772047,
+        0.5766601223762411
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.018845518083990095,
+        0.00854820842266435,
+        0.0021123567694692285
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.9876171488442482,
+        0.9916706904184247,
+        0.9876910442098675
+      ],
+      "physical_frame_largest_singular_values": [
+        1.0125286832413167,
+        1.0083764455960609,
+        1.0124780209792934
+      ],
+      "compression_smallest_singular_values": [
+        0.043921914725478316,
+        0.016329038718920417,
+        0.0038820222874896455
+      ],
+      "compression_condition_numbers": [
+        39.168849106875705,
+        109.56253449524405,
+        450.50656682878895
+      ],
+      "top_block_relative_errors": [
+        6.015775456467875e-15,
+        9.168468055357577e-15,
+        3.345192808943734e-14
+      ],
+      "section_retraction_errors": [
+        1.316521757241997e-15,
+        2.0084762693828e-15,
+        1.326228403082907e-15
+      ],
+      "splitting_parameter_norms": [
+        0.040431623261142045,
+        0.02360481823803846,
+        0.037434343318320365
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 20,
+      "seconds": 10.465,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 319.3282419730918,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        69.07519482537514,
+        70.80914339291938,
+        236.06005688088018
+      ],
+      "source_coefficient_frobenius_norms": [
+        54.26337734894977,
+        55.86028844444197,
+        198.081970823234
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.600142202946177,
+        0.5668148313887439,
+        0.5752521374616586
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.01985579395973046,
+        0.015398183036282853,
+        0.0031831362867750005
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.8908363595630355,
+        0.9209463958686612,
+        0.8916048554516152
+      ],
+      "physical_frame_largest_singular_values": [
+        1.1209968280908396,
+        1.0850920358943323,
+        1.1214492753817342
+      ],
+      "compression_smallest_singular_values": [
+        0.0514859898203122,
+        0.036261921737322,
+        0.012727023111926403
+      ],
+      "compression_condition_numbers": [
+        33.215600245589336,
+        48.697897433309066,
+        137.13868202593417
+      ],
+      "top_block_relative_errors": [
+        4.905341381504436e-15,
+        6.124569927280407e-15,
+        2.23708337192891e-14
+      ],
+      "section_retraction_errors": [
+        1.1845200129737952e-15,
+        1.812971015039166e-15,
+        1.1452067570769113e-15
+      ],
+      "splitting_parameter_norms": [
+        0.34085401534235543,
+        0.23549000611649118,
+        0.33539743568267044
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 30,
+      "seconds": 14.453,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 80.29569954045773,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        58.62978344004374,
+        48.406405836992334,
+        160.19452990302185
+      ],
+      "source_coefficient_frobenius_norms": [
+        47.86760371405396,
+        42.26753912931207,
+        152.30590035075667
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.5001950945108286,
+        0.4511914488971024,
+        0.39590294487680916
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.019441599764300845,
+        0.01626705523484036,
+        0.002821965777822843
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.5623424794924488,
+        0.623974958842523,
+        0.48402378204206786
+      ],
+      "physical_frame_largest_singular_values": [
+        1.7190600381287915,
+        1.5691359106112925,
+        1.9151235122581427
+      ],
+      "compression_smallest_singular_values": [
+        0.09616071987237779,
+        0.07194912540677166,
+        0.03290633486912702
+      ],
+      "compression_condition_numbers": [
+        21.616123393219723,
+        31.3234520968387,
+        77.90742084637414
+      ],
+      "top_block_relative_errors": [
+        6.038128367587508e-15,
+        4.565877962321595e-15,
+        9.53002596205322e-15
+      ],
+      "section_retraction_errors": [
+        1.649395993590349e-15,
+        2.0100053517500928e-15,
+        1.355865104731346e-15
+      ],
+      "splitting_parameter_norms": [
+        1.6773006523848228,
+        1.4475275271306802,
+        1.853765303784278
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 40,
+      "seconds": 18.582,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 42.28072405130268,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        57.08120411659387,
+        46.70127631893085,
+        143.8840766640604
+      ],
+      "source_coefficient_frobenius_norms": [
+        48.13910548550898,
+        41.896223744752994,
+        140.67488387900852
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.3546914029359619,
+        0.26270272681698,
+        0.194813980389544
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.01504033889931244,
+        0.009163921046227605,
+        0.0014861578312726634
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.38723249630938944,
+        0.40861384519352617,
+        0.2942948198344344
+      ],
+      "physical_frame_largest_singular_values": [
+        2.6444926687023456,
+        2.2959216129868127,
+        2.892132356041786
+      ],
+      "compression_smallest_singular_values": [
+        0.09318107009299688,
+        0.07605369158351154,
+        0.04463968868389174
+      ],
+      "compression_condition_numbers": [
+        33.370877601453515,
+        53.55282579244313,
+        119.95894991859043
+      ],
+      "top_block_relative_errors": [
+        5.337687022511841e-15,
+        4.8283844372954e-15,
+        8.614415420442323e-15
+      ],
+      "section_retraction_errors": [
+        2.0048271180974596e-15,
+        3.081731219387861e-15,
+        1.784015086364123e-15
+      ],
+      "splitting_parameter_norms": [
+        2.6654687847350185,
+        2.489241709860452,
+        2.8373991813129917
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 50,
+      "seconds": 22.383,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 20.806875431062807,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        69.33264915253596,
+        45.38195525786676,
+        141.27686810480472
+      ],
+      "source_coefficient_frobenius_norms": [
+        63.232815749717936,
+        41.844174004792436,
+        136.87409047525898
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.1492045018158775,
+        0.09482546339848767,
+        0.07967329252444483
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.003707579055408444,
+        0.003103590262763381,
+        0.0006164088804150648
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.21548582726630727,
+        0.19393672192828396,
+        0.16011970336520384
+      ],
+      "physical_frame_largest_singular_values": [
+        4.910786667280954,
+        4.947050311226546,
+        4.9102885144368225
+      ],
+      "compression_smallest_singular_values": [
+        0.0968893202228594,
+        0.08406433625993616,
+        0.05288602622185185
+      ],
+      "compression_condition_numbers": [
+        94.52695974328317,
+        134.6894693516834,
+        279.01970228197
+      ],
+      "top_block_relative_errors": [
+        1.3013804281314098e-14,
+        9.111084564864981e-15,
+        1.4774590425526867e-14
+      ],
+      "section_retraction_errors": [
+        3.766968180392288e-15,
+        7.222886558391829e-15,
+        4.1786274199150976e-15
+      ],
+      "splitting_parameter_norms": [
+        4.425404696962516,
+        5.03845911024423,
+        4.8673157756798755
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 60,
+      "seconds": 26.16,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 11.856581365346626,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        67.63327704752864,
+        44.712340049379684,
+        133.28957099082456
+      ],
+      "source_coefficient_frobenius_norms": [
+        61.47029255819175,
+        41.212717487621205,
+        126.6790422410562
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.06868392052928596,
+        0.04010025890248836,
+        0.03912617816417229
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.0019452798413552436,
+        0.0013420142992579924,
+        0.00033117810177708454
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.12867000204484533,
+        0.11811803579134704,
+        0.1046056828464688
+      ],
+      "physical_frame_largest_singular_values": [
+        8.309938479999444,
+        9.094512268209277,
+        6.81557490709928
+      ],
+      "compression_smallest_singular_values": [
+        0.0967950667166386,
+        0.08280198459806269,
+        0.03988379121879163
+      ],
+      "compression_condition_numbers": [
+        223.55919454022828,
+        305.9274813682002,
+        748.343743998159
+      ],
+      "top_block_relative_errors": [
+        2.839261932202704e-14,
+        1.7091495779606385e-14,
+        3.0081710492375496e-14
+      ],
+      "section_retraction_errors": [
+        7.764463884589385e-15,
+        1.5233302107396966e-14,
+        8.843371823924976e-15
+      ],
+      "splitting_parameter_norms": [
+        6.502679410070817,
+        7.839652447353528,
+        6.941307912373029
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 70,
+      "seconds": 30.062,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 7.585540777669691,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        66.26013479030061,
+        41.52561144337443,
+        117.35075171217251
+      ],
+      "source_coefficient_frobenius_norms": [
+        60.84732902187918,
+        38.62974548892469,
+        111.75428603868458
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.03913966909076412,
+        0.02107296794703074,
+        0.024067825072332384
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.0011249643384173423,
+        0.0007423273568212608,
+        0.00023156051464511823
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.09149031105751583,
+        0.07911432648625305,
+        0.07722835061771176
+      ],
+      "physical_frame_largest_singular_values": [
+        11.482976990898887,
+        14.329467778020398,
+        9.680903960844114
+      ],
+      "compression_smallest_singular_values": [
+        0.0926371058530578,
+        0.09210604574981984,
+        0.046078553775321975
+      ],
+      "compression_condition_numbers": [
+        418.59182218070606,
+        524.7221929587237,
+        1057.7074929153696
+      ],
+      "top_block_relative_errors": [
+        3.8891216877045836e-14,
+        2.4493437312083987e-14,
+        4.208046518007719e-14
+      ],
+      "section_retraction_errors": [
+        1.3652143647554381e-14,
+        2.848747577655318e-14,
+        1.603923620003212e-14
+      ],
+      "splitting_parameter_norms": [
+        8.49742571445515,
+        10.425418073567345,
+        8.800160626728536
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    },
+    {
+      "stage": "L-BFGS",
+      "iteration": 80,
+      "seconds": 33.894,
+      "source_lengths": [
+        4,
+        4
+      ],
+      "target_vertices": [
+        10,
+        10,
+        11
+      ],
+      "source_leg_dimension": 112,
+      "target_dimensions": [
+        100,
+        110,
+        110
+      ],
+      "complex_parameters": 1990,
+      "complex_splitting_parameters": 350,
+      "relative_full_tensor_residual": 5.282310041337123,
+      "complete_target_coefficients": 1210000,
+      "physical_map_frobenius_norms": [
+        63.61491612347734,
+        39.88299096398223,
+        103.0308093622193
+      ],
+      "source_coefficient_frobenius_norms": [
+        58.6503867407474,
+        36.7322887219054,
+        97.57416585031716
+      ],
+      "source_coefficient_smallest_singular_values": [
+        0.024472298422840204,
+        0.011960082694395864,
+        0.014421308665416023
+      ],
+      "source_coefficient_singular_value_ratios": [
+        0.0007205370442034673,
+        0.00043436854856675314,
+        0.00015911314090137884
+      ],
+      "physical_frame_smallest_singular_values": [
+        0.06776543539543739,
+        0.05360622505882514,
+        0.058155650301727986
+      ],
+      "physical_frame_largest_singular_values": [
+        15.369518577022586,
+        21.776323384309155,
+        14.159889917715194
+      ],
+      "compression_smallest_singular_values": [
+        0.10404602346752201,
+        0.09619482639681377,
+        0.055442455781387706
+      ],
+      "compression_condition_numbers": [
+        601.4509194937738,
+        904.5088134494442,
+        1379.7623500469344
+      ],
+      "top_block_relative_errors": [
+        5.176673878968301e-14,
+        3.2009202214013905e-14,
+        5.2417034971908186e-14
+      ],
+      "section_retraction_errors": [
+        2.144177607291007e-14,
+        4.456396327902448e-14,
+        2.3607955873747683e-14
+      ],
+      "splitting_parameter_norms": [
+        10.593411697688442,
+        13.134085994882971,
+        10.762078453817548
+      ],
+      "numerical_discovery_only": true,
+      "tensor_identity_certified": false,
+      "new_exponent_established": false
+    }
+  ],
+  "optimizer": {
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "iterations": 80,
+    "evaluations": 85
+  },
+  "objective_transform": "log(1 + squared_relative_residual / 2)",
+  "initial_fixed_fibers": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_rectangular_compression_a44_als.npz",
+  "elapsed_seconds": 34.12495708099959
+}

@@ -1,0 +1,20 @@
+test_boundary_minors_and_full_kernels_without_search (hyperplane_pilot.BoundaryHyperplaneTests.test_boundary_minors_and_full_kernels_without_search) ... ERROR
+test_full_saved_reports_replay (hyperplane_pilot.BoundaryHyperplaneTests.test_full_saved_reports_replay) ... ok
+test_general_compression_bound_has_a_sharp_control (hyperplane_pilot.BoundaryHyperplaneTests.test_general_compression_bound_has_a_sharp_control) ... ok
+test_rank_one_peeling_by_independent_polynomial_evaluation (hyperplane_pilot.BoundaryHyperplaneTests.test_rank_one_peeling_by_independent_polynomial_evaluation) ... ok
+
+======================================================================
+ERROR: test_boundary_minors_and_full_kernels_without_search (hyperplane_pilot.BoundaryHyperplaneTests.test_boundary_minors_and_full_kernels_without_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_boundary_hyperplanes.py", line 56, in test_boundary_minors_and_full_kernels_without_search
+    tampered[200*column+row,0]+=1
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/tmp/matrix-mult-research-venv/lib/python3.12/site-packages/sympy/matrices/immutable.py", line 69, in __setitem__
+    raise TypeError("Cannot set values of {}".format(self.__class__))
+TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableSparseMatrix'>
+
+----------------------------------------------------------------------
+Ran 4 tests in 33.513s
+
+FAILED (errors=1)

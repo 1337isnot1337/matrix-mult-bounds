@@ -1,0 +1,316 @@
+# A nonproduct first map with fourteen spin-one channels
+
+October 21, 2026. The following ordinary restrictions over the rational
+numbers are established by explicit saved maps:
+
+\[
+ R_{\mathrm{spin}}\longrightarrow M(3,3,14),\qquad
+ A(4,8)\longrightarrow M(3,3,14),\qquad
+ A(8,8)\longrightarrow M(3,3,28).
+ \tag{1}
+\]
+
+The reduced source has format $(12,80,72)$. Its first map is the
+nonproduct spin-one map previously used for
+$A(2,2)\oplus\langle1\rangle\to M_3$. Here larger spaces on the other
+two legs absorb its correction inside the source. No scalar summand is
+added in (1).
+
+These are actual rectangular subsystems. A full square target has not
+been constructed, and no smaller matrix multiplication exponent is
+claimed. The final section gives a precise conditional target whose
+dimension budget is compatible with this subsystem.
+
+## 1. The source and the spin-one map
+
+The $512$ source coefficients are one at
+
+\[
+ X(i,p+q,s)Y(p,a+s,j)Z(q,a,i+j),
+ \qquad i,p,q,s\in\{0,1\},\quad 0\le a<4,\quad0\le j<8.
+ \tag{2}
+\]
+
+The three coordinate orders are
+
+\[
+ (i\cdot3+k)\cdot2+s,\qquad
+ (p\cdot5+L)\cdot8+j,\qquad
+ (q\cdot4+a)\cdot9+H.
+\]
+
+Thus this is the cyclic placement of $C(2,2)$, $C(2,4)$ and $C(2,8)$.
+For a matrix
+$A=\left(\begin{smallmatrix}a&b&c\\d&e&f\\g&h&i\end{smallmatrix}\right)$,
+the first map is the functional
+
+\[
+ F(A)=\left(e+i,\ 2d-h/2,\ b/2,\ a,\ c,\ -b/2,
+ h/2,\ g,\ i,\ -h/2,\ b/2-2f,\ a+e\right).
+ \tag{3}
+\]
+
+Its physical matrix $J(A)_{(i,q),(p,s)}=F(A)(i,p+q,s)$ satisfies
+
+\[
+ P^{-1}J(A)P=
+ T(A)=\begin{pmatrix}A&0\\\ell(A)&\operatorname{tr}A\end{pmatrix},
+ \qquad
+ P=\begin{pmatrix}0&1&0&1\\1&0&0&0\\0&0&1&0\\0&-1&0&1\end{pmatrix},
+ \tag{4}
+\]
+
+where $\ell(A)=(d-h/2,-a+i,b/2-f)$. Formula (4) is the same
+explicit identity as in [the scalar-extension construction](parity_balancing_spin1.md).
+The present verifier checks it again on all nine matrix units.
+
+## 2. The two convolution shifts
+
+Let $V$ have coordinates $(a,j)$ with $a<4,j<8$, so $\dim V=32$.
+Use the maps
+
+\[
+ J_s:V\to\mathbb Q^{40},\quad
+ J_s e_{a,j}=e_{a+s,j},\qquad
+ K_i:\mathbb Q^{36}\to V,\quad
+ (K_i z)_{a,j}=z_{a,j+i}.
+ \tag{5}
+\]
+
+The notation $J_s$ in (5) denotes a shift; $J(A)$ in (4) denotes the
+physical four-by-four matrix. Define four maps into $\mathbb Q^{80}$ by
+
+\[
+ L_{p,s}v=e_p\otimes J_s v,
+ \qquad L_0=L_{0,0},\ L_1=L_{0,1},\ L_2=L_{1,0},\ L_3=L_{1,1}.
+\]
+
+The slice of (2) at the first functional $F(A)$ factors as
+
+\[
+ S(A)=L\,(J(A)^{\mathsf T}\otimes I_V)\,R.
+ \tag{6}
+\]
+
+Here $L$ combines the four maps $L_{p,s}$, and
+$R(z_0,z_1)$ has four components
+$(K_0z_0,K_0z_1,K_1z_0,K_1z_1)$ in the order $(i,q)$.
+This factorization follows by substituting $L=a+s$ and $H=i+j$
+in (2); there is no approximation or omitted coefficient.
+
+After (4), set
+
+\[
+ L'_0=L_1,\qquad L'_1=(L_0-L_3)/2,\qquad L'_2=L_2,
+ \tag{7}
+\]
+
+which are the first three columns of $L(P^{-\mathsf T}\otimes I_V)$.
+Also
+
+\[
+ (P^{\mathsf T}\otimes I_V)R(z_0,z_1)
+ =\bigl(K_0z_1,\ K_0z_0-K_1z_1,\ K_1z_0,\ K_0z_0+K_1z_1\bigr).
+ \tag{8}
+\]
+
+## 3. Reusing the endpoint-pair construction
+
+Choose a subspace $U\subseteq V$ and pairs $(z_\alpha^+,z_\alpha^-)$
+such that, for $v_\alpha=K_0z_\alpha^+$,
+
+\[
+ K_1z_\alpha^+\in U,\qquad K_0z_\alpha^-\in U,\qquad
+ K_0z_\alpha^+-K_1z_\alpha^-\in U.
+ \tag{9}
+\]
+
+These are exactly the linear endpoint-pair conditions from
+[the crossed module](crossed_module11.md). Define three vectors in
+$\mathbb Q^{72}=\mathbb Q^{36}\oplus\mathbb Q^{36}$ for each channel:
+
+\[
+ \zeta_{0,\alpha}=(0,z_\alpha^+),\quad
+ \zeta_{1,\alpha}=(z_\alpha^+/2,-z_\alpha^-/2),\quad
+ \zeta_{2,\alpha}=(z_\alpha^-,0).
+ \tag{10}
+\]
+
+Equations (8)--(10) show that
+$(P^{\mathsf T}\otimes I_V)R\zeta_{i,\alpha}$ equals
+$e_i\otimes v_\alpha$ modulo $U^4$, with zero fourth component
+modulo $U$. Set
+
+\[
+ W=L_0U+L_1U+L_2U+L_3U.
+\]
+
+If the columns
+
+\[
+ B=\left[\operatorname{basis}(W),\ L'_0v_\alpha,
+                     L'_1v_\alpha,\ L'_2v_\alpha\right]
+ \tag{11}
+\]
+
+are independent, choose rows $Y_{i,\alpha}$ dual to its last three
+channel groups and zero on $W$. Use (10) as the rows of the last map.
+Since the entries of $T(A)^{\mathsf T}$ are scalar coefficients,
+it preserves $U^4$. Therefore every error in (8)--(10), including the
+trace and $\ell(A)$ terms from (4), maps into $W$ and is annihilated.
+Equations (6)--(11) give
+
+\[
+ Y_{j,\alpha}\,S(A)\,\zeta_{i,\beta}
+ =A_{ij}\,\delta_{\alpha\beta}.
+ \tag{12}
+\]
+
+This proves an actual $M(3,3,r)$ whenever (11) has $3r$ channel
+columns. The scalar correction of the earlier small construction has
+been absorbed in $W$.
+
+## 4. A rational fourteen-channel choice
+
+Identify $V$ with polynomials of degrees at most three in $x$ and seven
+in $y$. Take
+
+\[
+\begin{aligned}
+ g_0&=x(-1-y^2+y^6),&
+ g_1&=y+y^5+xy^7,&
+ g_2&=y^4+y^7-xy^2,\\
+ g_3&=y^6-xy^3+x^2y^6,&
+ g_4&=-y^2+xy^3+x^2y^4.
+\end{aligned}
+\]
+
+Let $U$ be generated by $g_j,xg_j,x^2g_j$ for $j=0,1,2$, and by
+$g_j,xg_j$ for $j=3,4$. The exact dimensions are
+
+\[
+ \dim U=13,\qquad\dim W=36,\qquad\dim D=15,
+\]
+
+where $D$ is the pair space defined by (9). The chain lengths are
+$(3,3,3,2,2)$, so the structural upper bound for $W$ is
+$2\sum_j(\text{length}_j+1)=36$; an exact rank certificate gives the
+matching lower bound.
+
+The saved witness selects fourteen canonical nullspace columns of $D$.
+Its $80\times78$ matrix (11) has a minor on rows $0,\ldots,77$ equal to
+
+\[
+ -\frac{183}{64000}\ne0.
+\]
+
+The two resulting maps have shapes $42\times80$ and $42\times72$,
+with denominators $732$ and $20$. The first map (3) has denominator two.
+The saved witness contains every rational coefficient, the five
+generators, the annihilator of $U$, and the selected columns and rows.
+
+The maintained verifier reconstructs $U,W$, the pair conditions and
+the matrix (11), checks the exact rational determinant and duality, and
+then independently contracts every original source coefficient. It
+does not rely on numerical residuals or stored rank metadata.
+
+## 5. Full-source embeddings and the matched copies
+
+The one-copy embedding into $A(4,8)$ is
+
+\[
+ X(i,k,s)\mapsto F(i,k,s),\quad
+ Y(p,L,j)\mapsto F(p,L,j),\quad
+ Z(q,a,H)\mapsto F(a,H,q).
+ \tag{13}
+\]
+
+For the matched embedding into $A(8,8)$, let $e\in\{0,1\}$ label a
+middle-vertex copy. Keep the same first functional, with its last short
+index doubled, and embed the other maps by
+
+\[
+ X(i,k,s)\mapsto F(i,k,2s),\quad
+ Y_e(p,L,j)\mapsto F(p,e+2L,j),\quad
+ Z_e(q,a,H)\mapsto F(e+2a,H,q).
+ \tag{14}
+\]
+
+In the full source equation, the second long-coordinate condition is
+$e_Y+2L=e_Z+2a+2s$. Parity forces $e_Y=e_Z$, and then $L=a+s$.
+The other two conditions are $k=p+q$ and $H=i+j$. Thus each equal-copy
+block gives (12), and every mixed-copy coefficient is zero. This proves
+both full-source statements in (1).
+
+| Restriction | Original source terms | All target coefficients | Nonzero target coefficients |
+|---|---:|---:|---:|
+| $R_{\mathrm{spin}}\to M(3,3,14)$ | 512 | 15,876 | 126 |
+| $A(4,8)\to M(3,3,14)$ | 32,768 | 15,876 | 126 |
+| $A(8,8)\to M(3,3,28)$ | 262,144 | 63,504 | 252 |
+
+Every coefficient in the table is checked with integers after clearing
+the denominator product $29280$. The full-source maps are exported
+separately and replayed from that export as well.
+
+## 6. Response budget and a conditional square target
+
+Hold the two non-first maps of (14) fixed. They use first short
+coordinate $p\in\{0,1\}$ on the second source leg and last short
+coordinate $q\in\{0,1\}$ on the third. Consequently the complete first
+response is supported at long coordinate $k=p+q\in\{0,1,2\}$.
+It has rank at most $3\cdot8\cdot8=192$, so its kernel has dimension
+at least $960-192=768$. This upper bound is checked using the actual
+exported maps; it concerns all source first coordinates, not merely the
+twelve coordinates used by (3).
+
+Delete one middle vertex to obtain $M(3,3,27)$. The retained first core
+has nine units. Any other first unit of a prospective square target
+must lie in this response kernel. For
+
+\[
+ M_{27}\oplus M_6\oplus M_3,
+ \tag{15}
+\]
+
+the common leg dimension is $27^2+6^2+3^2=774$, and the other $765$
+first units fit within the guaranteed $768$ kernel dimensions. This
+only verifies the linear dimension budget. The maps for the other
+units, and all their mixed coefficient identities, remain missing.
+An upper bound on response rank alone does not exclude larger targets.
+
+If (15) were constructed from $A(8,8)$, the existing square-sum finite
+gate would give a strict exponent bound below
+$p=8999/4000=2.24975$. The integer comparisons are
+
+\[
+ 162^{8999}>93509^{4000},\qquad
+ 36^{8999}>3171^{4000},\qquad
+ 18^{8999}>666^{4000},
+\]
+
+and
+
+\[
+ 93509+3171+666=97346>97336=46^3.
+\]
+
+These are verified by integer powers in the maintained replay. They
+are conditional comparisons, not an exponent claim: (15) has not been
+constructed. The concrete new result is (1).
+
+## 7. Files and review scope
+
+The complete maps and exact report are
+[spin-module14-witness.json](../../../results/anisotropic-constructions-2026-10-20/spin-module14-witness.json),
+[spin-module14-full-maps.json](../../../results/anisotropic-constructions-2026-10-20/spin-module14-full-maps.json)
+and [spin-module14-certificate.json](../../../results/anisotropic-constructions-2026-10-20/spin-module14-certificate.json).
+Run their standard-library replay with
+
+```bash
+python -S research/ai/2026-10-20-anisotropic-constructions/spin_module14.py
+```
+
+The optional `spin_module_discovery.py` records the finite-field search
+and rational reconstruction; acceptance does not import it. The source
+identity has also been checked by a second agent in this generating
+session. No external independent review or formalization is claimed.

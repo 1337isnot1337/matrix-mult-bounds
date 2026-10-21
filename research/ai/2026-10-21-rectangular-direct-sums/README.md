@@ -4,6 +4,11 @@ October 21, 2026. AI-derived, written and unreviewed. This is an extension of
 existing necessary tests and an exact finite search, not a construction or a
 smaller exponent. External results remain credited by the source notes.
 
+**Update:** [low-rank saturation](saturation.md) excludes all 571 survivors of
+this initial screen, including the earlier square A(8,8) target. The initial
+frontier is preserved below as historical discovery data, not open ordinary-map
+construction advice. Singular degenerations remain outside the obstruction.
+
 ## Score and the missing construction
 
 Let A(a,b) be the cyclic convolution source of common leg dimension
@@ -146,3 +151,36 @@ small enumerations. A 400-test regression run passed on the initial screen;
 the subsequent volume-pruning optimization was separately checked by the five
 dedicated tests and the full recorded frontier. Further integration validation
 will be recorded separately. Finite checks do not constitute independent review.
+
+## Extended checkpoint
+
+The strengthened projection lemma in `saturation.md` and the proof in
+`second_boundary.md` extend the search through N<=1500. There are 24 extra
+formats above 960. The only remaining necessary-test formats are A(8,9),
+A(8,10), and A(9,9), with 62, 3687, and 1263 normalized retained pairs.
+All 1143 initial A(7,10) candidates are now excluded. These counts include
+possible symmetry duplicates; none is a constructed restriction.
+
+Reproduce the compact extended report and all four support certificates:
+
+    python research/ai/2026-10-21-rectangular-direct-sums/extended_search.py --maximum 1500 --directory results/local/rectangular-extension
+    python -m unittest discover -s tests -p 'test_rectangular*.py' -v
+
+The report hashes complete lists with SHA256 of sorted-key compact JSON,
+and includes the first 20 survivors in deterministic enumeration order.
+Those rows are not necessarily sorted by score. The large intermediate
+lists are regenerated in memory rather than committed as a 19 MB artifact.
+`equality_next.md` records the next obstruction question and an exact
+counterexample to an overly broad full-row-rank equality conjecture.
+
+The final counts above include `block_hankel_dimension.md`. This excludes
+306 additional candidates, including M30 plus M3 across the three remaining formats.
+The dimension proof requires the exact equality threshold; `equality_one_step.py`
+certifies that a one-unit rank excess is genuinely possible. The first remaining
+source format is still A(8,9), and no surviving target has been constructed.
+
+`quantitative_crossed_rank.md` strengthens the equality statement to
+rank(M_F)>=(ab-1)rank(B_F)+rank(T_F). The proof uses an elementary
+polynomial-span growth lemma. It is written and unreviewed. Higher crossed
+rank bounds do not enter the finite screen without corresponding proved
+block-Hankel dimension bounds; no threshold is rounded upward.

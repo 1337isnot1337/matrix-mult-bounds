@@ -133,7 +133,7 @@ class RepositoryTests(unittest.TestCase):
 
     def test_source_registry(self):
         sources=json.loads((ROOT/'references/sources.json').read_text())['sources']
-        self.assertEqual(len(sources),32)
+        self.assertEqual(len(sources),33)
         self.assertEqual(len(sources),len({s['id'] for s in sources}))
         for source in sources:
             self.assertTrue(source['url'].startswith('https://'))

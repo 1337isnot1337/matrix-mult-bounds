@@ -15,6 +15,34 @@ A(2,2) plus one scalar to M3. Complete rational maps and coefficient
 checks are saved. None of these constructions establishes an exponent
 improvement.
 
+The [exact crossed-module construction](crossed_module11.md) now gives
+C(2,4) tensor C(2,8) to M(2,2,11), improving its coordinate control
+from eight to eleven channels. Its [complete full-source lifts](parity_balancing_cross_module_lifts.md)
+give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
+unwanted coefficient is checked from the actual rational maps. These
+rectangular subsystems still require compatible square extensions.
+
+The [spin-one transfer](spin_module14.md) now constructs M(3,3,14)
+from A(4,8) and M(3,3,28) from A(8,8), with no added scalar source.
+The first response uses at most 192 source coordinates. A changed
+[upper-corner core](parity_structure_cross_module_corner_shifted.md)
+constructs M(4,4,12) with exact response rank 164. Both supply new
+starting points for square assembly, whose remaining maps are missing.
+The [old product first-map branch](parity_balancing_crossed_flattening.md)
+is now proved optimal at eleven and twenty-two channels. Keeping the
+old sixteen first images cannot reach M27, and the
+[old fixed other-leg maps](crossed_module_response.md) are separately
+nonextendable. Each obstruction retains its explicit fixed-map scope.
+
+The [two-source capacity proof](two_source_budget.md) gives a sharp
+dimension condition for a direct sum of two arbitrary source tensors
+to reach a square matrix tensor, including by degeneration. The
+[two-bit carry control](bitwise_hankel_projection.md) excludes one
+specified source-compression family. The
+[moving physical-compression chart](parity_structure_rectangular_compression.md)
+retains complete coefficients and explicit target normalization in its
+singular search; its recorded large-target fit is not a witness.
+
 The [corner-split construction](parity_structure_corner_extension.md)
 also supplies A(2,2) plus one scalar from A(2,3), and gives a general
 two-source restriction whenever the stated low and high long-coordinate
@@ -38,6 +66,28 @@ M5 and A(5,6) target M16 plus M4 are excluded; their conditional
 numbers 2.247 and 2.248 are superseded as ordinary construction
 objectives. These results do not exclude
 singular full-source degenerations or arbitrary rectangular sums.
+
+The later [support-peeling theorem](torus_support_peeling.md) excludes
+the entire ordinary A88 to M27 plus M7 approach in which target matrix
+units have homogeneous source images for the fixed grading i+s-k.
+It covers all common and unequal integer vertex-charge profiles without
+enumerating them. Ungraded maps and arbitrary singular degenerations
+remain open. This is an obstruction to a construction method, not an
+improvement of the exponent.
+
+The [weight-window argument](parity_balancing_weight_windows.md) further
+requires at least one matrix-unit image to use source weights separated
+by four or more. It also supplies an exact three-weight slice of rank
+384 whose middle homogeneous component has rank 512. This is a single
+source direction with genuine cancellation, not a completed target map.
+
+The [original-source Laurent chart](parity_structure_jet_original_fibers.md)
+uses invertible maps on all 960 source directions before the limit.
+Its explicit constant tensor has a concise projection of format
+936 by 936 by 935, but all 28,316 constant coefficients have a verified
+126-slice cover. This limit and all its restrictions and further
+degenerations cannot reach M27 plus M7. The full source and other Laurent
+charts remain open.
 
 An earlier parity
 degeneration of A(5,5) has 225 coordinates on each leg and 11,725 terms,
@@ -350,6 +400,139 @@ family. The pure A(2,3) to M4 control has zero kernel actions; all 4,096
 target coefficients are checked. The A(8,8) M15 seed is similarly exact,
 with a full 262,144-term integer contraction. Neither reaches the
 unconstructed M27 plus M7 target.
+
+## Torus construction and exact boundary repair
+
+The final [support-peeling argument](torus_support_peeling.md) supersedes
+the profile-by-profile construction objectives below. For each homogeneous
+matrix-unit image, its source slice rank is at most 27 plus the two map
+codimensions. Source torus limits expose individual support vertices and
+force their ranks to obey the same bound. Repeating this constraint gives:
+
+| Retained coordinates before the step | Slice-rank budget | Retained coordinates after the step |
+| ---: | ---: | ---: |
+| 960 | 391 | 922 |
+| 922 | 315 | 834 |
+| 834 | 139 | 468 |
+
+An injective 778-dimensional target map cannot land in the final space.
+The primary integer certificate justifies each of the 492 removals by a
+separating line. Its verifier never calls the discovery hull code. A
+separate implementation agrees on every retained coordinate mask.
+All earlier partial identities remain exact; their full homogeneous
+27-plus-7 extensions are now excluded.
+
+The [separate-mask extension](parity_balancing_mixed_grading.md) also
+excludes maps with at most two source weights per matrix-unit image on
+any two legs, even when the third leg is unrestricted. Keeping 760 such
+units on each selected leg gives mask sizes 960,922,884,834,756, which
+contradicts inherited injectivity. Hence at least two legs each need at
+least 19 images using three or more source weights. The exact companion
+M12 plus M3 maps use balanced offsets and demonstrate genuine coefficient
+cancellation in the fixed basis; they are a change of basis of the known
+smaller target.
+
+The [three-point Laurent collision](parity_structure_jet_collision.md)
+constructs A(a,a) to M_(a-2) tensored with the length-three truncated
+polynomial trace, plus two scalars. Its [arm extension](parity_structure_jet_extension.md)
+retains every direction of M_(a-1) plus M_(a-1) plus M_(a-2), including
+their off-diagonal interactions. For A88 the latter limit has 134
+coordinates per leg and 1,514 constant coefficients; all negative powers
+and unwanted constant coefficients cancel exactly. It needs additional
+original source directions before it could approach the 778-dimensional
+matrix target.
+
+The [scalar-power telescoping identity](scalar_power_recycling.md) supplies
+another exact construction: A22 squared plus A22 plus M3 restricts to M9
+with 165 source coordinates per leg, compared with 169 in the naïve
+scalar-extended square. The full residual flattening rank is 9^k-8^k.
+Explicit source-cost comparisons show why the unchanged A22 powers do not
+cross the existing finite gate. A useful next step needs a different
+source budget, actual product-source compression, or changed main maps.
+
+The [torus-compatible M12 plus M3 seed](parity_structure_torus_seed.md)
+is an exact direct-sum restriction of A(8,8). Its 153 entries per leg
+contract to all 1,755 required target terms, with every mixed coefficient
+zero. Its vertex weights fit inside the larger M27 plus M7 profile.
+The [monotone physical-vertex construction](monotone_endpoint_seeds.md)
+supplies exact M4 and M8 controls at the extreme charges.
+
+The [common coordinate-code limit](coordinate_compression_limit.md)
+shows why that literal assignment cannot itself give M27. If n physical
+vertices use the code E_uv to F(i_u,q_u+i_v,q_v) on even one target leg,
+conciseness requires ceil(n/a)*ceil(n/b)<=a+b-1. Thus n<=24 for A88.
+This does not exclude general coordinate assignments or mixed maps.
+
+The [recorded full-rank partial seed](parity_balancing_torus_anchors.md)
+has three concise 778-by-960 rational maps. It satisfies every coefficient
+in all six extreme-weight slices, including zeros, and the entire M4
+on vertices 0,1,25,26. All 87 actual map-weight ranks are recomputed.
+The maps have denominator 64 and 782 nonzero entries per leg. There
+remain 722 source coordinates per leg that can be changed independently
+without changing those six extreme slices; preserving the M4 requires
+additional constraints. The [complete affine slice equations](torus_affine_slices.md)
+now prove that no choice of these free coefficients completes its fixed
+boundary: one coefficient is forced to one while its target value is zero.
+
+The first Hadamard choice also passed all six extreme slices, but the
+[four-map obstruction](fixed_anchor_obstruction.md) proves it cannot
+be completed while retaining its stated next-layer and extreme maps.
+That exact historical seed is preserved. The corrected maps use the
+actual monotone M4 channels and escape the obstructing relation.
+They are excluded from completion by the separate affine contradiction.
+
+The [degree-13 pencil argument](torus_degree13_pencils.md) goes beyond
+both fixed seeds. It excludes all ordinary grading-preserving maps for
+the original symmetric 27-plus-7 profile. Its proof combines a
+[two-adjacent-leg rowspace chain](parity_balancing_rankone_13_chain.md),
+[four source and target symmetry transfers](parity_balancing_rankone_13_symmetry.md),
+exact degree-13 product tables, and a complete classification of 256
+singular-projection patterns. It keeps the six extreme coefficients as
+arbitrary nonzero scalars.
+
+The [saturated-block bound](torus_saturated_blocks.md) also closes the
+width-13 common profile, whose (-11,11,0) target rank is 9 rather than
+the required minimum 12. The [saturated degree-13 determinant](torus_saturated_pencil.md)
+excludes specified endpoint multiplicities with three unrelated charge
+lists. These results concern ordinary graded maps; ungraded maps and
+general singular degenerations remain open.
+
+Two other exact controls constrain how smaller blocks can be extended.
+The [graded fixed-core inequality](parity_balancing_fixed_core_weights.md)
+computes the lost source directions when two core maps are fixed.
+The [free-interior family](parity_structure_free_interior.md) gives
+M(a-1) plus M(a-1) plus M(a-2) after deleting both physical endpoints,
+but its [fixed M7 channels](parity_structure_free_m7_screen.md) consume
+too many directions to accompany M27. A [complete common-vertex screen](parity_structure_m7_vertex_screen.md)
+covers 1,290,240 small-block choices; all sixteen low-rank survivors
+contain unwanted coefficients with exact Laurent-rescaling obstructions.
+
+The reusable affine equation builder has an independent physical-matrix
+control in `parity_structure_affine_audit.py`. It reconstructs every
+equation for a non-square A(3,4) to M3 example, verifies a recovered
+rational solution, and rejects a nonlinear slice selection.
+
+The [common-profile enumeration](parity_structure_common_profiles.md)
+preserves a second route to a narrower exclusion. Its complete domain
+follows from the [zero-grade minimum rank](parity_structure_zero_grade_rank.md),
+and its final classes are closed by the local endpoint proofs.
+[Unequal-profile exact partial seeds](parity_balancing_unequal_profiles.md)
+and [optional objective controls](parity_structure_unequal_objective.md)
+record the subsequent attempts with different charge lists on all three
+vertex spaces. They are historical controls after the support-peeling
+theorem, and no large numerical fit is reported.
+
+Two further exclusions narrow distinct discovery families. The
+[simple-pole theorem](compression_simple_poles.md) excludes the stated
+single-negative-order Laurent families in the fixed A22 compression
+chart. The [fixed-seed stabilizer invariant](parity_balancing_stabilizer.md)
+shows that the saved A33 numerical seed cannot become M5 by the target
+stabilizer and global scaling. Its exact modular obstruction is replayed
+from every exported dyadic coefficient using the standard library.
+Neither result excludes general source degenerations.
+
+All these claims retain their written, externally unreviewed status.
+No seed or partial identity in this section improves the exponent.
 
 ## Earlier symmetry-restricted construction attempts
 
