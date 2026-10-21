@@ -69,6 +69,19 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## Every graph outside finitely many partner values
+
+The [generic-partner proof](research/ai/2026-10-21-generic-partner-all-graphs/proof.md)
+excludes every mixed graph and boundary four-space at each a in a nonempty
+open subset U of the partner line b=1, containing2. Uniform54/48 enclosures,
+exact source/cubic identities over Q(a), and79 rank guards leave only the
+four common planes. The adopted induction excludes M(10,10,11) there for
+arbitrary later maps; the torus extends to b nonzero with a/b in U.
+Claim `AI-GENERIC-PARTNER-ALL-GRAPHS-098` is written and unreviewed. The
+remaining partner values form a finite set which is not yet classified.
+This excludes every graph at a good partner, rather than only generic
+graphs. Other flags and sources remain open; the exponent remains9/4.
+
 ## Every mixed graph at the equal nonzero partner
 
 The [all-graph proof](research/ai/2026-10-21-all-mixed-graphs-a1/proof.md)
@@ -78,8 +91,8 @@ four-spaces. Uniform source equations, exact cubic identities and an
 exhaustive four-branch split leave only the four common planes. The
 adopted shifted induction excludes M(10,10,11) for arbitrary later maps;
 the source torus extends this to a=b nonzero. Claim
-`AI-ALL-MIXED-GRAPHS-A1-097` is written and unreviewed. Other partner
-ratios and leading flags remain open; the exponent remains9/4.
+`AI-ALL-MIXED-GRAPHS-A1-097` is written and unreviewed. Claim098 now covers all but finitely many partner values on b=1;
+exceptional ratios and other flags remain open. The exponent remains9/4.
 
 ## A uniform mixed-normal dichotomy
 
@@ -118,7 +131,8 @@ torus extends it to an open set for b nonzero. Claim
 `AI-GENERIC-MIXED-GRAPHS-094` is written and unreviewed. A remaining target
 would require its entire affine four-plane of graph representatives to
 lie in the exceptional fiber. Claim097 closes all graphs at a=b nonzero;
-other partner fibers remain unresolved. The exponent remains9/4.
+claim098 reduces the remaining partner chart to finitely many values.
+The exponent remains9/4.
 
 ## Two-coordinate rank strata and exceptional graph closure
 

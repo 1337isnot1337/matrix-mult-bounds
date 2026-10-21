@@ -25,10 +25,11 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-all-mixed-graphs-a1/QUESTION.md`. Every mixed seven-by-five
-graph at a=b=1 is now excluded, with a torus extension to a=b nonzero.
-The54/36 normal families close by exact source/cubic certificates. Move
-to unequal partner ratios, other leading flags or constructive sources.
+`ai/2026-10-21-generic-partner-all-graphs/QUESTION.md`. Every graph is
+excluded at each partner in a nonempty open set containing2 on b=1.
+The remaining partner values are finite. Extract explicit guarded minors
+and close exceptional ratios; the equal nonzero ratio is already covered.
+No improved exponent is established.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-global-mixed-normal-dichotomy/QUESTION.md`. All six graph

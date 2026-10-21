@@ -1,0 +1,44 @@
+{
+  "status": "focused-local-checks-passed-full-current-ci-pending",
+  "base_head": "3887f702de70d45f87f0392ac2def415feaab2ea",
+  "local_checks": {
+    "source_level_report": "passed",
+    "focused_tests": {
+      "run": 4,
+      "passed": 4,
+      "seconds": 167.173
+    },
+    "link_and_ledger_tests": {
+      "run": 2,
+      "passed": 2
+    }
+  },
+  "current_discovery": {
+    "tests": 776,
+    "modules": 185,
+    "groups": [
+      187,
+      191,
+      197,
+      201
+    ],
+    "complete_disjoint_coverage": true,
+    "import_errors": 0,
+    "own_cases": 4
+  },
+  "code_sha256": {
+    "research/ai/2026-10-21-generic-partner-all-graphs/verify.py": "d994dc706280356de564288b2a1cdc6081ea92a2bb9aea7924523f33a4438fe7",
+    "research/ai/2026-10-21-generic-partner-all-graphs/certificate.json": "f7ba53814f83d02abcf173a4abf0efed849ac3697d6a1daba591f0f96807f45b",
+    "tests/test_generic_partner_all_graphs.py": "c2a4ce89ccdf8ec78f6b81cf079a60bc993d3de4464d005f1b89d99acea2f588"
+  },
+  "parent_pr87": {
+    "source": "3afde3e9a626395fd57edfcc6a04464d8ac9f171",
+    "merged": "78219f577156410aa185f6cd0920ffd3348523c9",
+    "source_and_squash_trees_equal": true,
+    "all_current_source_checks_passed": true,
+    "branch_and_worktree_removed": true
+  },
+  "archives_unchanged_against": "78219f577156410aa185f6cd0920ffd3348523c9",
+  "independent_review": false,
+  "improves_omega": false
+}

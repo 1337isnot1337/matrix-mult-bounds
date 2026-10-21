@@ -31,3 +31,7 @@ for the still-unconstructed SL(2,5) M10 target. Five focused tests replayed
 locally. Its bounded search records are neither a witness nor a general
 exclusion and retain the original worker's credit. The matrix board feed
 was unchanged at the October21 around17:30 UTC refresh.
+
+The subsequent [generic-partner result](../2026-10-21-generic-partner-all-graphs/README.md)
+excludes every graph outside a finite set of partner values on b=1.
+The next parameter problem is to identify and close those exceptions.
