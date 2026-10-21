@@ -819,3 +819,16 @@ constant-map screens, within the specified Cartan-intertwining class.
 M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
+
+
+## Changed first jets at the quantum root flags
+
+[AI-QUANTUM-EXTENSION-SPACES-075](research/ai/2026-10-21-quantum-extension-spaces/proof.md)
+uses the concurrent partial-saturation argument to force dim W1=12 for
+M(10,10,11) with the prescribed rank-four leading images. Exact rational
+constraints classify all changed first derivatives: 20 dimensions per new
+output row and 532 coupled leading-row parameters, totaling 4772 for two
+110-row maps. The bilinear next component has first flattening rank 25
+and maximum matrix-slice rank at most eight. Other second-jet terms remain
+free, and no complete degeneration or smaller exponent is established.
+The proof is written and unreviewed.

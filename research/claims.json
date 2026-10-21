@@ -459,6 +459,23 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-EXTENSION-SPACES-075",
+      "title": "Exact first-jet solution spaces at the normalized quantum root flags",
+      "origin": "Codex research directed by repository owner; adopts the concurrent partial-saturation argument",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-quantum-extension-spaces/proof.md",
+      "statement": "For the final M(10,10,11) output and fixed rank-four leading root maps, minimum nonzero matrix rank forces dim W1=12. Each new first-derivative row lies in an explicit 20-dimensional space; the top eight rows have 532 coupled parameters. The full first-jet space for two 110-row maps has dimension 4772. The projected bilinear next coefficient has first flattening rank 25 and every matrix slice has rank at most eight.",
+      "dependencies": [
+        "Pinned partial saturated rowspace W1 construction in PR41 at 58e9d6d0e804f466ea68d926bdc70847175defc2",
+        "Exact normalized leading maps from the graded quantum flags package",
+        "Rational linear algebra and explicit integer contractions"
+      ],
+      "limitations": "Necessary and sufficient conditions for dim W1=12, not for the matrix target. Fixed leading rank-four images are essential. The rank-eight assertion applies only to the bilinear next component after projecting away both leading images. Arbitrary higher jets, rank-reducing projections, and other flags remain open.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }
