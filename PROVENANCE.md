@@ -49,6 +49,42 @@ The Koszul pilot applies the concurrently derived matrix-rank formula; it
 does not claim a new all-power formula. The finite circuits and source gates
 have no independent mathematical review, and no smaller exponent follows.
 
+The rational crossed-module construction and its full-source lifts were
+developed collaboratively in this session. A numerical nine-channel lead
+was followed by a rational subspace-and-pair construction; an exact
+eleven-channel witness and its larger-source lifts were then constructed
+and checked from all original coefficients. The separate nine-channel
+rational control is retained. No historical priority or global optimality
+claim is made. A subsequent four-factor argument proves optimality only
+within the stated product first-map branch.
+The two-source capacity proof, majority-block control, projected carry
+equations, and moving-compression discovery chart are also local work.
+The numerical compression records retain their actual normalization and
+large residuals; they are not tensor-identity certificates. All of these
+packages retain their stated unreviewed proof or finite-experiment status.
+
+The subsequent spin-one transfer uses the session's existing exact
+physical matrix identity and the newly constructed endpoint pairs.
+It absorbs the scalar correction inside a larger source and exports
+actual rational fourteen-channel and twenty-eight-channel modules.
+Two corner constructions also change the first maps while preserving
+complete tensor identities. Their exact rank controls and the saved
+seed's nonextension proof were generated and checked in this same
+session. The conditional 2.24975 comparison has a missing full square
+target and is not an achieved exponent.
+
+The source-weight window and original-source Laurent-fiber continuation
+was generated and audited by coordinated agents in the same session.
+Its exact golden-ratio slice, full Laurent maps, and coordinate-cover
+certificates are local constructions with no historical priority claim.
+The slice-rank argument uses Tao and Sawin's 2016 notes, Corollary 2 and
+Lemma 3, for closedness and restriction monotonicity. Blasiak et al.,
+*On Cap Sets and the Group-theoretic Approach to Matrix Multiplication*,
+Remark 4.9, supplies the single matrix-block background; the new note
+spells out the characteristic-zero argument for a direct sum. Those
+primary passages were inspected. None of these checks provides external
+independent review, formalization, or a smaller exponent.
+
 ## External research
 
 All results in [the literature map](docs/literature.md) belong to the credited authors or projects. OpenAI's published 9/4 proof is external work. It is not a contribution of this repository's ChatGPT session.

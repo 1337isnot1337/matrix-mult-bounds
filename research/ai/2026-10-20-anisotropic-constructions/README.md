@@ -15,6 +15,34 @@ A(2,2) plus one scalar to M3. Complete rational maps and coefficient
 checks are saved. None of these constructions establishes an exponent
 improvement.
 
+The [exact crossed-module construction](crossed_module11.md) now gives
+C(2,4) tensor C(2,8) to M(2,2,11), improving its coordinate control
+from eight to eleven channels. Its [complete full-source lifts](parity_balancing_cross_module_lifts.md)
+give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
+unwanted coefficient is checked from the actual rational maps. These
+rectangular subsystems still require compatible square extensions.
+
+The [spin-one transfer](spin_module14.md) now constructs M(3,3,14)
+from A(4,8) and M(3,3,28) from A(8,8), with no added scalar source.
+The first response uses at most 192 source coordinates. A changed
+[upper-corner core](parity_structure_cross_module_corner_shifted.md)
+constructs M(4,4,12) with exact response rank 164. Both supply new
+starting points for square assembly, whose remaining maps are missing.
+The [old product first-map branch](parity_balancing_crossed_flattening.md)
+is now proved optimal at eleven and twenty-two channels. Keeping the
+old sixteen first images cannot reach M27, and the
+[old fixed other-leg maps](crossed_module_response.md) are separately
+nonextendable. Each obstruction retains its explicit fixed-map scope.
+
+The [two-source capacity proof](two_source_budget.md) gives a sharp
+dimension condition for a direct sum of two arbitrary source tensors
+to reach a square matrix tensor, including by degeneration. The
+[two-bit carry control](bitwise_hankel_projection.md) excludes one
+specified source-compression family. The
+[moving physical-compression chart](parity_structure_rectangular_compression.md)
+retains complete coefficients and explicit target normalization in its
+singular search; its recorded large-target fit is not a witness.
+
 The [corner-split construction](parity_structure_corner_extension.md)
 also supplies A(2,2) plus one scalar from A(2,3), and gives a general
 two-source restriction whenever the stated low and high long-coordinate
@@ -46,6 +74,20 @@ It covers all common and unequal integer vertex-charge profiles without
 enumerating them. Ungraded maps and arbitrary singular degenerations
 remain open. This is an obstruction to a construction method, not an
 improvement of the exponent.
+
+The [weight-window argument](parity_balancing_weight_windows.md) further
+requires at least one matrix-unit image to use source weights separated
+by four or more. It also supplies an exact three-weight slice of rank
+384 whose middle homogeneous component has rank 512. This is a single
+source direction with genuine cancellation, not a completed target map.
+
+The [original-source Laurent chart](parity_structure_jet_original_fibers.md)
+uses invertible maps on all 960 source directions before the limit.
+Its explicit constant tensor has a concise projection of format
+936 by 936 by 935, but all 28,316 constant coefficients have a verified
+126-slice cover. This limit and all its restrictions and further
+degenerations cannot reach M27 plus M7. The full source and other Laurent
+charts remain open.
 
 An earlier parity
 degeneration of A(5,5) has 225 coordinates on each leg and 11,725 terms,

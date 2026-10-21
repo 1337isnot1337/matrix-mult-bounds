@@ -1,0 +1,91 @@
+{
+  "source": "cyclic C(2,2) tensor C(2,4) tensor C(2,8)",
+  "source_dimensions": [
+    12,
+    80,
+    72
+  ],
+  "target": "M(3,3,14)",
+  "map_denominators": [
+    2,
+    732,
+    20
+  ],
+  "integer_coefficient_scale": 29280,
+  "construction_checks": {
+    "U_dimension": 13,
+    "ignored_space_dimension": 36,
+    "pair_space_dimension": 15,
+    "selected_channels": 14,
+    "join_rank": 78,
+    "join_minor_determinant": "-183/64000",
+    "triangular_spin_map_checked": true,
+    "endpoint_pair_relations_checked": true,
+    "exact_join_duality_checked": true
+  },
+  "reduced_replay": {
+    "source_terms_checked": 512,
+    "active_source_terms": 504,
+    "target_coefficients_checked": 15876,
+    "nonzero_target_coefficients": 126
+  },
+  "full_source_lifts": [
+    {
+      "source_terms_checked": 32768,
+      "active_source_terms": 504,
+      "target_coefficients_checked": 15876,
+      "nonzero_target_coefficients": 126,
+      "source": "A(4,8)",
+      "target": "M(3,3,14)",
+      "source_common_dimension": 352,
+      "actual_response_support_upper_bound": 60,
+      "unconditional_response_upper_bound": 96,
+      "response_kernel_dimension_lower_bound": 292,
+      "mixed_copy_coefficients_checked": false
+    },
+    {
+      "source_terms_checked": 262144,
+      "active_source_terms": 1008,
+      "target_coefficients_checked": 63504,
+      "nonzero_target_coefficients": 252,
+      "source": "A(8,8)",
+      "target": "M(3,3,28)",
+      "source_common_dimension": 960,
+      "actual_response_support_upper_bound": 192,
+      "unconditional_response_upper_bound": 192,
+      "response_kernel_dimension_lower_bound": 768,
+      "mixed_copy_coefficients_checked": true
+    }
+  ],
+  "conditional_square_budget": {
+    "unconstructed_square_target": [
+      27,
+      6,
+      3
+    ],
+    "common_leg_dimension": 774,
+    "conditional_exponent": "8999/4000",
+    "conditional_exponent_decimal": "2.24975",
+    "integer_lower_bounds": [
+      {
+        "block_size": 27,
+        "strict_lower_bound_at_p": 93509
+      },
+      {
+        "block_size": 6,
+        "strict_lower_bound_at_p": 3171
+      },
+      {
+        "block_size": 3,
+        "strict_lower_bound_at_p": 666
+      }
+    ],
+    "lower_bound_sum": 97346,
+    "source_threshold": 97336,
+    "full_target_constructed": false,
+    "new_exponent_established": false
+  },
+  "new_exponent_established": false,
+  "witness_sha256": "e77563263d1161cd0f74d571a1b133605cd294748531a181883d5da06c76fae1",
+  "full_maps_sha256": "8f4c00bddee31fcbf527185351b96d2a638acdae29d68f019a617a2e4382c58a"
+}
