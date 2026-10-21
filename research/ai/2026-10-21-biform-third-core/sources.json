@@ -1,0 +1,51 @@
+{
+  "base_main": "eb97dbe31f96b0e66fede641fd4be3a84ca52cf2",
+  "local_dependencies": [
+    {
+      "path": "results/third-boundary-trap-2026-10-21/block.json",
+      "sha256": "22c83e333cdd3f33b9865d912a1906b8af8eabeb2493dd5892da4706d837033f"
+    },
+    {
+      "path": "results/third-boundary-trap-2026-10-21/normal.json",
+      "sha256": "ab8cd86fe7df43b075011cfa00da73d6cdb03ff66d053192382c9a5ee6bc71a4"
+    },
+    {
+      "path": "results/boundary-hyperplanes-2026-10-21/matrix_space.json",
+      "sha256": "7106cb2595abe0ea85d4cec1f58e53be4791131cc99a4fa3edbcc82f349fccb3"
+    },
+    {
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "sha256": "5d893f86451174fb27f0206b788218a837be460499ad4ab661c83eb9a84d35b9"
+    },
+    {
+      "path": "research/ai/2026-10-21-boundary-hyperplanes/proof.md",
+      "sha256": "995243d695620507e0d1b62db194d358e7c6e0eab0aca174cfe239f59155971d"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/minimum_rank.py",
+      "sha256": "3e06a8915eb016a239bfd2701d990bd5ee1e9c81e7c1d09b8a9f551565b6e60e"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/normal_directions.py",
+      "sha256": "443d82bf94901e210b694966dbf4d0d69fdb35f0c715bd9f75b088223818f689"
+    },
+    {
+      "path": "research/ai/2026-10-21-quantum-extension-spaces/extensions.py",
+      "sha256": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c"
+    },
+    {
+      "path": "research/ai/2026-10-21-second-jet-rank-one/rank_deficit.md",
+      "sha256": "1ad4aff7826d82ad83a3cffaa004231b46027be6e1ecddd8642f37bca4bd83c8"
+    },
+    {
+      "path": "research/ai/2026-10-21-mixed-first-jets/pencil_frontier.md",
+      "sha256": "0ccd62ee2f1155705ea2f93123ca45b493968e566914c6e1c59bbec27ec81efe"
+    }
+  ],
+  "canonical_credit": "PR45 supplies canonical source and extension data; PR46 supplies the normal equations and moving-plane induction; PR47 supplies no-second-growth and first-rank constraints; PR48 supplies repeated triangular minors; PR55 supplies the complete boundary third coefficients and target ceiling2; PR57 supplies the20-dimensional reduced matrix span and previous hyperplane trap. PR53 supplies the imported stronger mixed rank-sum bound19.",
+  "local_work": "Explicit unimodular identification with biform multiplication of degrees(1,2) and(2,1); full third tensor factorization and sharp core first rank2; actual sharp two-hyperplane loss3; sharp general loss(1,3) lemma with loss(2,2) counterexample; conditioned boundary-obstruction minimum4; arbitrary11,9 boundary trap and global ordinary first-rank sum20.",
+  "discovery": "Exact source-coefficient and polynomial calculations. A dual rank-one chart suggested the biform bases; acceptance verifies the complete global coefficient identity and both unimodular bases, rather than depending on chart exhaustion. No random acceptance decisions.",
+  "verification_scope": "Frozen PR55/57 coefficients are pinned inputs, independently source-reconstructed by their existing verifiers. New tests independently convolve integer polynomial coefficients, replay minor identities without search, and check sharp and failing projection controls.",
+  "ai_assistance": "Generated and checked by the same owner-directed Codex session. No independent review, formalization or historical-priority claim.",
+  "improves_omega": false
+}

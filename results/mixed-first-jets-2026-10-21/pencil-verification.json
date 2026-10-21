@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "code_head_at_full_suite_start": "6747d47c04ee5e34fa616478ad2515d4cb325b34",
+  "integration_head_at_completion": "6901a482ea37b34dfbfc3e332b8085bc5101e24c",
+  "intervening_changes": "Only integration of PR52; its source adea862004a5077310e8c0a7733c603ea958308a and squash b113866059557c3c12745f91cfbb2574d99563ae have identical trees. The maintained implementation and frozen witnesses are unchanged.",
+  "focused_tests": {
+    "passed": 4,
+    "seconds": 25.377
+  },
+  "full_suite": {
+    "tests_run": 488,
+    "passed": 487,
+    "skipped": 1,
+    "skip_reason": "Existing optional unequal-objective discovery control requires NumPy outside maintained dependencies.",
+    "seconds": 336.336
+  },
+  "historical_archive_reports_passed": 5,
+  "independent_review": false,
+  "scope": "Exact generic polynomial jets, normal spaces, cubic-minor witnesses, source symmetries and regression coverage; the general mathematical argument is written and unreviewed."
+}

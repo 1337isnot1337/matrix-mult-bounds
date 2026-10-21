@@ -1,0 +1,142 @@
+{
+  "arithmetic": "Python integers after exact denominator clearing",
+  "reduced_source": {
+    "source_terms_checked": 128,
+    "target_shape": [
+      2,
+      2,
+      11
+    ],
+    "all_target_coefficients_checked": 1936,
+    "nonzero_target_coefficients": 44,
+    "all_other_coefficients_zero": true
+  },
+  "full_sources": [
+    {
+      "source": [
+        4,
+        8
+      ],
+      "source_terms_checked": 32768,
+      "source_leg_dimensions": [
+        352,
+        352,
+        352
+      ],
+      "target_shape": [
+        4,
+        4,
+        11
+      ],
+      "target_leg_dimensions": [
+        16,
+        44,
+        44
+      ],
+      "all_target_coefficients_checked": 30976,
+      "nonzero_target_coefficients": 176,
+      "all_other_coefficients_zero": true,
+      "sparse_map_entries": [
+        16,
+        1222,
+        434
+      ]
+    },
+    {
+      "source": [
+        8,
+        8
+      ],
+      "source_terms_checked": 262144,
+      "source_leg_dimensions": [
+        960,
+        960,
+        960
+      ],
+      "target_shape": [
+        4,
+        4,
+        22
+      ],
+      "target_leg_dimensions": [
+        16,
+        88,
+        88
+      ],
+      "all_target_coefficients_checked": 123904,
+      "nonzero_target_coefficients": 352,
+      "all_other_coefficients_zero": true,
+      "sparse_map_entries": [
+        16,
+        2444,
+        868
+      ]
+    }
+  ],
+  "ordinary_module_constructed": true,
+  "full_M27_plus_M7_constructed": false,
+  "new_exponent_established": false,
+  "external_independent_review": false,
+  "actual_exported_maps_replayed": [
+    {
+      "source": [
+        4,
+        8
+      ],
+      "source_terms_checked": 32768,
+      "source_leg_dimensions": [
+        352,
+        352,
+        352
+      ],
+      "target_shape": [
+        4,
+        4,
+        11
+      ],
+      "target_leg_dimensions": [
+        16,
+        44,
+        44
+      ],
+      "all_target_coefficients_checked": 30976,
+      "nonzero_target_coefficients": 176,
+      "all_other_coefficients_zero": true,
+      "sparse_map_entries": [
+        16,
+        1222,
+        434
+      ]
+    },
+    {
+      "source": [
+        8,
+        8
+      ],
+      "source_terms_checked": 262144,
+      "source_leg_dimensions": [
+        960,
+        960,
+        960
+      ],
+      "target_shape": [
+        4,
+        4,
+        22
+      ],
+      "target_leg_dimensions": [
+        16,
+        88,
+        88
+      ],
+      "all_target_coefficients_checked": 123904,
+      "nonzero_target_coefficients": 352,
+      "all_other_coefficients_zero": true,
+      "sparse_map_entries": [
+        16,
+        2444,
+        868
+      ]
+    }
+  ]
+}

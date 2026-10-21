@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "code_head_at_full_suite_start": "38e9a4975661ae79324ab5cde61171c2ebca438b",
+  "integration_head_at_completion": "140947da09557d0256552efaa18b4f14a50435cd",
+  "intervening_changes": "Integrated concurrent main e24894f through the parent branches. The mixed-hyperplane implementation and reports are unchanged; the newly imported boundary-shear tests are covered by current-head hosted checks, not this already-discovered local suite.",
+  "python": "3.14",
+  "focused_tests": {
+    "tests_run": 5,
+    "passed": 5,
+    "seconds": 16.182
+  },
+  "full_suite": {
+    "tests_run": 555,
+    "passed": 552,
+    "skipped": 3,
+    "seconds": 433.295,
+    "skip_reason": "Two optional compression discovery controls require NumPy/SciPy; one optional unequal-objective discovery control requires NumPy."
+  },
+  "historical_archive_reports_passed": 5,
+  "independent_review": false,
+  "scope": "Complete conditioned and unconditioned polynomial minor/kernel certificates, endpoint and countercontrols, regressions and archive replay. The written all-order consequence remains unreviewed; no smaller exponent."
+}

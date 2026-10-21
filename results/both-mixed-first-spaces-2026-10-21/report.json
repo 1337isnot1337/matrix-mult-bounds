@@ -1,0 +1,75 @@
+{
+  "field": "Q polynomial identities, valid over C",
+  "matrix_unit_products_checked": 32,
+  "partner_identities": {
+    "generic_chart": "v=(a*b,b,a,1)",
+    "forced_partner": "u is proportional to (v0,-v2,-v1,v3)",
+    "generic_linear_equations": [
+      "u2+b*u3=0",
+      "u0+b*u1=0"
+    ],
+    "generic_quadratic_equations": [
+      "x*(x+a*y)=0",
+      "y*(x+a*y)=0"
+    ],
+    "endpoint": {
+      "v": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "linear": [
+        "u1=0",
+        "u3=0"
+      ],
+      "quadratic": "u0^2=0"
+    },
+    "coverage": "All nonzero complex rank-one v: v3 chart, reversed v0 chart, and two reversed coordinate endpoints."
+  },
+  "seven_by_seven_control": {
+    "first_quotient_dimensions": [
+      7,
+      7
+    ],
+    "mixed_projection_dimensions": [
+      1,
+      1
+    ],
+    "mixed_matrix_ranks": [
+      1,
+      1
+    ],
+    "active_output_dimensions": [
+      11,
+      11
+    ],
+    "complete_polynomial_coefficients_checked": 3,
+    "normal_dimension_after_off_diagonal_equations": 4,
+    "scope": "Compatible first spaces and an exact polynomial identity with first rank twelve; not a matrix target."
+  },
+  "invertible_line_control": {
+    "first_quotient_dimensions": [
+      1,
+      1
+    ],
+    "mixed_projection_dimensions": [
+      1,
+      1
+    ],
+    "mixed_matrix_ranks": [
+      2,
+      2
+    ],
+    "active_output_dimensions": [
+      5,
+      5
+    ],
+    "complete_polynomial_coefficients_checked": 3,
+    "normal_dimension_after_off_diagonal_equations": 72,
+    "scope": "Compatible first spaces and an exact polynomial identity with first rank twelve; not a matrix target."
+  },
+  "consequence": "With both mixed projections nonzero, both are lines: either rank-one partners with quotient ranks <=7 each, or invertible lines with quotient ranks exactly1 each.",
+  "independent_review": false,
+  "exponent_improvement": false
+}

@@ -1,15 +1,126 @@
 # Integrated research coordination
 
-The mixed-jet worker has closed the fixed 14-by-6 first-space seed at every
-order in `ai/2026-10-21-mixed-first-jets/third_order.md`. Its exact two-jet
-family is retained; two third-coefficient rank covers force only common
-plane motion. Other mixed spaces and delayed first growth remain open.
-The full boundary-spanning 12-by-12 family stays with the quantum worker.
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-axis-incidence/QUESTION.md`. The axis m+t*d0 at b=1
+closes uniformly for every a and nonzero t: auxiliary projection relations
+reduce the ten remaining quotient parameters to two, then cubic minors
+eliminate both. The written all-order extension is unreviewed. General
+two-coordinate graph charts remain open; the next calculation must use
+their actual mixed rows and retain exceptional parameter loci. PR69
+merged at48bd72d with equal source/squash trees; its completed local and
+remote branches and worktree are removed. All583 local tests ran, with
+580 passes and3 optional skips; all five archive replays passed. No
+exponent gain is established.
 
-The quantum worker now continues in
-`ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
-second-jet family and full coefficient witnesses are ready for higher-order
-lifting. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-graphs/QUESTION.md`. Four specified nontrivial
+graph families close at partner a=b=1, each with arbitrary boundary part.
+Quadratic-minor spans replace stalled triangular-minor cuts. The general
+problem reduces to fifteen two-coordinate graph charts; they remain open.
+PR67 merged at e25a287 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-pure-mixed-five-spaces/QUESTION.md`. Pure mixed rows close
+the seven-by-five case for b nonzero, with exact polynomial certificates
+for every a after scaling b=1. The remaining quotient normals split into
+six- and fourteen-dimensional families, and both terminal systems close.
+The unresolved question is arbitrary mixed-row graphs; their pure-row
+containment must not be assumed. Remaining partner strata are also open.
+PR66 merged at294aca8 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-uniform/QUESTION.md`. The first sixteen
+low-rank source slices are now certified throughout the two-parameter
+partner chart, with polynomial adapted sources and correction factors.
+The remaining five-space incidence system has not been classified.
+A direct rational determinantal calculation reached its300-second limit
+without a result; this is an incomplete calculation, not an exclusion.
+PR63 merged at5931b89 with equal source/squash trees and completed branches
+removed. The coordinate-partner package PR65 is queued. No exponent gain.
+
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
+mixed five-spaces opposite the full seven-frame force only plane normals.
+The exact elimination uses low-rank source slices, cubic minors and
+mixedness; it closes the former four-source residual at this point.
+The two-parameter virtual tensor is constructed, but direct coordinate
+support covers do not extend the elimination uniformly. Adapted source
+combinations and the other partner points remain under investigation.
+PR62 merged at99ce778 with equal source/squash trees and its completed
+branches removed. PR63 is queued after current checks. No exponent gain.
+
+The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
+now uses the existing polynomial and higher Hankel gates. Every improving
+single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
+left by these tests. This is an unconstructed candidate for the constructive
+source campaign. The quantum worker's separate positive question remains
+a higher-rank completion of the A4 integrable boundary shear. PR61 merged
+at e24894f after current checks, with exact tested/merged tree equality;
+its completed task branches are removed.
+
+The quantum worker now studies
+`ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
+two-parameter non-plane family exists at first ranks10,10. Its local
+rowspaces have rank14, its tensor has first rank12, and those spaces are
+complete mutual annihilators away from the origin. It is not the matrix
+target. The next question is a higher-rank completion or an obstruction
+that includes these moving flags, rather than another finite jet of the
+same low-rank family. PR58 merged at93b2223 with exact tested/merged tree
+equality and all current checks passing; its task branches are removed.
+
+The quantum worker's current question is
+`ai/2026-10-21-biform-third-core/QUESTION.md`. The complete normal third
+tensor has a biform syzygy core. Arbitrary boundary first pairs of
+dimensions at least11,9 are excluded at every order by a sharp puncture
+lemma and conditioned obstruction certificate. The necessary ordinary
+first-rank sum is at most20; pure pairs12,8 and10,10 remain at that
+threshold. PR57 merged at eb97dbe with exact tested/merged tree equality;
+its completed local and remote branches are removed.
+
+The quantum worker now studies the question in
+`ai/2026-10-21-boundary-hyperplanes/QUESTION.md`. Arbitrary boundary first
+spans of dimensions at least11 on both sides are excluded at every order,
+including delayed unequal growth. The proof uses a rank-one-free matrix
+space and a general two-hyperplane compression lemma. Ordinary first-rank
+sum is at most22, with one rank at most10. Smaller pairs and other leading
+flags remain open. PR55 merged at18a06b3 after current CI, with exact
+tested/merged tree equality; its completed local and remote branches are gone.
+
+The quantum worker's current question is
+`ai/2026-10-21-third-boundary-trap/QUESTION.md`. Full boundary first frames
+of effective dimensions12,12 are excluded at every order, including delayed
+and unequal first-growth orders, by a new third-block rank gap and the
+moving-boundary induction. PR49's complete second jets remain finite
+controls. For every ordinary first pair at these flags, the corrected
+projected third coefficient on K_inf must have first rank at most2.
+The next construction question concerns other first subspaces or leading
+flags; coordinate omissions alone do not settle the general question.
+
+The mixed-jet worker continues in
+`ai/2026-10-21-rankone-mixed-hyperplanes/QUESTION.md`. Each arbitrary mixed
+hyperplane now forces its leg's complete seven-frame normal equations
+without any opposite-leg assumption. This excludes all rank-one pairs
+with both first dimensions at least six by a written all-order proof.
+The ordinary both-mixed first-rank sum is at most twelve; investigate
+arbitrary seven-by-five spaces and smaller pairs for actual output growth.
+Coordinate seven-by-five survivors examined so far have third residues
+confined to a rank-one output entry, below the target gap; this is a
+scratch-control finding, not an all-subspace exclusion. The concurrent
+boundary-shear family remains credited as a non-plane integrability control
+with output ranks fourteen and no matrix target. No exponent gain is claimed.
+
+
+
+The quantum worker previously constructed the complete172-parameter
+second-jet family in `ai/2026-10-21-corrected-prolongation/`. Its finite
+coefficient witnesses are retained; the full boundary-frame matrix target
+is excluded by the third-order boundary trap. PR47 merged at `fc8207e` with exact tested/merged tree equality;
 its task branches are removed. The new family has effective first ranks12
 on each side, outside the13-per-side hypothesis in PR48. No improving
 matrix tensor limit is constructed.
@@ -196,9 +307,28 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The active topic branch is `research/torus-anchors-20261021`,
-[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43).
-Its checkpoints `fa74fee`, `574cb35`, and `bb64dae` are pushed. The first,
+[PR #43](https://github.com/1337isnot1337/matrix-mult-bounds/pull/43)
+is merged at `e00622fc3e3179f2c87ac3185f2158c39b2fe707`. Its source tree
+matches the tested head `df9e12c`. All current hosted checks passed;
+Python 3.10 ran 471 tests, with 470 passed and one optional control skipped.
+The fully incorporated local and remote topic branches were removed.
+The current continuation branch is `research/weight-mixing-20261021`, in
+[PR #51](https://github.com/1337isnot1337/matrix-mult-bounds/pull/51).
+Its first checkpoint `5d5cc6d` passes all hosted checks. The pushed
+checkpoint `1f813bb` adds exact crossed modules, two-source capacity,
+a projected carry obstruction, and the completed compression search
+with its actual residual. It incorporates main's corrected second-jet
+family at `8a07bed`. Its full local suite completes 496 tests: 493 pass
+and three optional controls skip; all five archive replays pass. All
+hosted checks for that checkpoint pass. Checkpoint `4ed2b52` incorporates
+main's mixed second-order family at `21f54c3` with the new spin, corner
+and fixed-map packages. Its 35 focused tests and full 513-test suite
+pass, with three optional skips in the full suite. All current hosted
+checks for `4ed2b52` pass; hosted Python 3.10 also runs 513 tests with
+three skips. The next integration incorporates main's third-order
+mixed-space proof at `b113866` before merging PR #51.
+The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
+incorporated in main. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays
 using only maintained dependencies. The second adds 24 passing focused
 tests. The complete third-checkpoint suite ran 447 tests: 446 passed and
@@ -231,10 +361,32 @@ maps mixing several source weights, genuine Laurent cancellation, and
 tensor-power recycling with explicit residual and source-cost accounting.
 Every ordinary construction needs at least 19 images with three or more
 source weights on each of at least two legs. The exact three-weight M12
-plus M3 maps remain a smaller-target change of basis. The full 134-direction
-Laurent core cannot reach the 778-dimensional target by postcomposition;
-the singular worker is adding unused original source directions before the
-limit and solving the negative-power cancellation equations. Pure A22
+plus M3 maps remain a smaller-target change of basis. The completed original-source
+Laurent chart uses invertible 960-direction maps before the limit and has
+a concise projection of format 936 by 936 by 935. Its exact 126-slice
+cover excludes the intended square target and every further degeneration
+to that target. The moving physical-compression search retains complete
+target normalization but has produced no singular family. Claims 098 and 099 preserve
+this result and the requirement that some ordinary target image span at
+least four source-weight steps. An exact golden-ratio slice supplies a
+three-weight cancellation direction. Exact rational maps now give
+C(2,4) tensor C(2,8) to M(2,2,11), A(4,8) to M(4,4,11), and A(8,8)
+to M(4,4,22). Claims 100 through 103 preserve these maps, the sharp
+two-source dimension condition, the narrow carry obstruction and the
+completed numerical chart. The active construction question is whether
+changed subspaces or coupled copies can retain a large rectangular module
+while leaving enough original-source directions for a full square target.
+A separate exact flattening argument closes the old fixed-first-map
+family. Claims 104 through 107 preserve this obstruction, the old
+fixed-seed response proof, the new spin-one module M(3,3,28), and the
+changed corner module M(4,4,12) with response rank 164. The active
+ordinary question is square assembly from these changed cores. For
+the spin core, M27 plus M6 plus M3 has enough kernel dimensions and
+would imply omega below 2.24975, but the required maps are missing.
+The agents are computing exact preimages for additional matrix rows,
+repairing retained maps, and testing extensions with dimension slack.
+None of these results lowers the exponent yet.
+Pure A22
 tensor powers cannot cross the current sixfold square-sum gate even by
 dimension, so recycling work requires a different source budget or a real
 source compression.

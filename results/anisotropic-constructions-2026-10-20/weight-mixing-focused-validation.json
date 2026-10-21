@@ -1,0 +1,78 @@
+{
+  "scope": "Focused replay of both frozen packages and repository/profile checks; not a full-suite claim",
+  "baseline_commit": "df9e12cd9c4048965892e4e343f5632c44b755a8",
+  "started_utc": "2026-10-21T05:20:40.063770+00:00",
+  "finished_utc": "2026-10-21T05:20:51.314297+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "python -S: unittest.TestSuite(defaultTestLoader.discover(tests, pattern) for each recorded pattern)",
+  "patterns": [
+    "test_parity_balancing_weight_windows.py",
+    "test_parity_structure_jet_original_fibers.py",
+    "test_research.py"
+  ],
+  "tests_run": 23,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "log_path": "results/anisotropic-constructions-2026-10-20/weight-mixing-focused-tests.txt",
+  "log_sha256": "1a2507eb478a917b2dd284c4a92c6052e3e4a3ec1683d9be3e4ebaf7e6670f7d",
+  "frozen_artifacts": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_weight_windows.py",
+      "bytes": 11912,
+      "sha256": "2996f26d6ed4d1dd20cc07f9e129c7e10becae3e3adca6c42bd569d0ce931579"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_weight_windows.md",
+      "bytes": 9224,
+      "sha256": "4419e2a10e5296411d91513881b4be6820594cfdb43d3d5d11dc4a1c24081f66"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers.py",
+      "bytes": 14270,
+      "sha256": "3faeae69843d14872e1a810f91b16d843e8a1fcdd23ab7ab318335a809505a32"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers.md",
+      "bytes": 11134,
+      "sha256": "b169ac45d9009180c1079f58509c8555e3f8ee5ad758e015d813ff513ca27719"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers_sparse.json",
+      "bytes": 55190,
+      "sha256": "5f356d985582080dae6888ece2bf794eb8c6e8b2306b7e2db667097479a6bfd7"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers_system.json",
+      "bytes": 418523,
+      "sha256": "7024209dc458370bb7b1fa5c25e2f159a357840ed3b7c047ddd22717b47f4147"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers_constant.json",
+      "bytes": 409389,
+      "sha256": "40afe1b8ff2c6afa83f4cb71688e41ca7cc12eb8da648d6361a93ece4bad78e9"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_jet_original_fibers_certificate.json",
+      "bytes": 33729,
+      "sha256": "764d8914bf8f2f770b1f3dcf013abd3fde1b7965e9f5999577dd7412435db8f8"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_weight_windows.json",
+      "bytes": 38667,
+      "sha256": "53ba4a0fe43221fba88345907ee943438f967c3df4d02598593b52757e54a56a"
+    },
+    {
+      "path": "tests/test_parity_balancing_weight_windows.py",
+      "bytes": 2892,
+      "sha256": "a64bbd6e4adcfbf752fbcd5b43edfb4131f56d0748e28b7acddde64cea79e765"
+    },
+    {
+      "path": "tests/test_parity_structure_jet_original_fibers.py",
+      "bytes": 1685,
+      "sha256": "0f83ee262c32e9ca4de8915cc4574984f37f68cd5f8e5f53280d52992397e968"
+    }
+  ],
+  "review_scope": "All writing and reviews are within the generating session; no independent external review or formalization."
+}
