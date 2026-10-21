@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The pencil-degree worker now studies
+`ai/2026-10-21-hankel-pencil-degree/QUESTION.md`. Its written Hankel Segre
+bound in the strict5r<2(a+b) range closes the former ordinary A8 targets,
+all balanced single rectangular formats through a9, and every improving
+ordinary A8 square direct sum. The new exact frontier has494 survivors
+through a12, first at a10. A9's square partition(32,6,3) remains a score-
+passing necessary-test candidate at a strict-rank boundary. Its equality
+case and the A4 higher-rank shear completion are the next owned questions.
+The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
+and merged trees; its completed local and remote branches are removed.
+
 The mixed-frame worker now studies
 `ai/2026-10-21-generic-mixed-graphs/QUESTION.md`. Two fourteen-variable
 normal blocks have exact quartic-spanning certificates at a rational
@@ -58,8 +69,8 @@ branches removed. PR63 is queued after current checks. No exponent gain.
 The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
 now uses the existing polynomial and higher Hankel gates. Every improving
 single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
-left by these tests. This is an unconstructed candidate for the constructive
-source campaign. The quantum worker's separate positive question remains
+left by those historical tests. The new pencil-degree theorem now excludes
+its ordinary maps; a singular construction remains unproved. The quantum worker's separate positive question remains
 a higher-rank completion of the A4 integrable boundary shear. PR61 merged
 at e24894f after current checks, with exact tested/merged tree equality;
 its completed task branches are removed.
