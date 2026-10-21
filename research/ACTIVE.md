@@ -1,6 +1,17 @@
 # Integrated research coordination
 
 The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-uniform/QUESTION.md`. The first sixteen
+low-rank source slices are now certified throughout the two-parameter
+partner chart, with polynomial adapted sources and correction factors.
+The remaining five-space incidence system has not been classified.
+A direct rational determinantal calculation reached its300-second limit
+without a result; this is an incomplete calculation, not an exclusion.
+PR63 merged at5931b89 with equal source/squash trees and completed branches
+removed. The coordinate-partner package PR65 is queued. No exponent gain.
+
+
+The mixed-frame worker now studies
 `ai/2026-10-21-mixed-five-space-residues/QUESTION.md`. At u=v=e3, arbitrary
 mixed five-spaces opposite the full seven-frame force only plane normals.
 The exact elimination uses low-rank source slices, cubic minors and
