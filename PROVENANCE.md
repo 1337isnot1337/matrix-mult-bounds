@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+## Unequal paired source continuation
+
+The all-degree narrow-source rank table and the files under
+`research/ai/2026-10-21-narrow-quantum/` were generated in the same
+owner-directed session. The quantum construction reuses the maintained
+Clebsch--Gordan core and its attributed conventions, then proves the
+unequal source identity directly. Its 23 fixed leading tensors use exact
+rational-function and cyclotomic arithmetic. The low-rank-slice argument
+uses standard closed projective incidence, and the Koszul comparisons
+use standard rank monotonicity with explicit target padding. Same-session
+replays do not constitute independent review, and none of these limits
+is asserted to improve the matrix multiplication exponent.
+
 ## Bounded audit of the Sun preprint
 
 `research/ai/2026-10-21-sun-audit/` attributes its external input to
@@ -112,6 +125,12 @@ The files under `research/ai/2026-10-20/` came from a ChatGPT research session d
 The session produced the research note, three Python programs, and five experiment reports. The proofs have no independent review and no Lean formalization in this repository. Their precise status appears in [the claim ledger](research/claims.json). The generating model's exact build identifier was not recorded in the artifact.
 
 The product recurrence and its asymptotic prefactor precede this session in OpenAI's paper. The local analysis concerns its matching-profile extension and sharpness. Determinant filtration is an existing mathematical construction. No priority claim is made for it or for the local formulas.
+
+The same least-profile formula and minimality theorem appear earlier in
+[Rohan Arun's repository](https://github.com/rohanarun/matrix-multiplication-sector-barrier/blob/0b09d3616da31d8750366747d7821d70ae6d1b90/proof.tex), Section 4,
+introduced October 10 at `5a759558440672e69641547743bde3cf6d6ae50f`.
+AI-SCALAR-001 is therefore recorded as a local rederivation with this
+explicit overlap. See [the source comparison](docs/external_followups.md).
 
 ## Immutable import
 

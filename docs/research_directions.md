@@ -168,6 +168,14 @@ selected concise minimum-slice-three target. Continue the singular
 construction question from `F0`, or choose a target outside that
 exclusion. Passing its Koszul tests does not prove extractability.
 
+The [unequal root-eight continuation](../research/ai/2026-10-21-narrow-quantum/README.md)
+constructs 23 exact limits of `Q_(3,2)`, all excluded from the proposed
+`M(3,2,3)` target. The strongest two fail only a long-leg Koszul test among
+the comparisons recorded, so every candidate must be checked on all three
+legs with the correct zero padding. The original source passes all 25
+such comparisons. Further searches need different bases or singular
+families; passing this necessary-condition screen is not a construction.
+
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
 It requires a genuine convolution-source degeneration at cost below

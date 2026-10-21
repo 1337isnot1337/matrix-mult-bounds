@@ -32,8 +32,8 @@ do not change the mathematical review status of the research.
 
 ## Constructive continuation and source obstructions
 
-The continuation on `research/constructive-spectrum-20261020` records fourteen
-new claims, AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-RESIDUAL-065,
+The constructive continuation records twenty-three local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-QUOTIENT-VOLUME-074,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
@@ -56,12 +56,14 @@ do not constitute independent mathematical review.
   3r<=a+b-1. A separate [equality argument](research/ai/2026-10-20-anisotropic-constructions/parity_structure_equality.md)
   and [three-leg factorization](research/ai/2026-10-20-anisotropic-constructions/hankel_rank_two.md)
   close the rank-2ab boundary for square blocks of size at least three.
+  The [first-boundary theorem](research/ai/2026-10-20-anisotropic-constructions/hankel_boundary_dimension.md)
+  extends the Segre-image bound to a+b-1=3r-1, with dimension cap max(r,4).
   [Exact partition enumeration](research/ai/2026-10-20-anisotropic-constructions/square_sum_frontier.md)
-  then excludes every ordinary square direct-sum target that could pass the
-  finite 9/4 score in all 51 source formats with leg dimension below 784.
-  The first surviving format is A(7,8): M25 plus M5 would imply a bound
-  below 2.247, but its maps are missing. The former ordinary A(5,6) target
-  M16 plus M4 is excluded. Singular full-source degenerations remain open.
+  now excludes every improving ordinary square direct sum from all 60 source
+  formats with leg dimension below 960, and from A(5,12) at dimension 960.
+  The former A(7,8) target M25 plus M5 is excluded. The first surviving
+  format is A(8,8): M27 plus M7 would imply omega<2.2485, but its maps are
+  missing. Singular full-source degenerations remain open.
 - An [explicit parity degeneration](research/ai/2026-10-20-anisotropic-constructions/parity_balancing.md)
   has positive rational marginal certificates and cyclic asymptotic
   slice-rank capacity about 212.716257. A stronger
@@ -84,6 +86,31 @@ do not constitute independent mathematical review.
   for composition. A [corner split](research/ai/2026-10-20-anisotropic-constructions/parity_structure_corner_extension.md)
   supplies A(2,2) plus one scalar from A(2,3). These maps do not improve
   the exponent.
+
+
+- The [all-size retained-residual construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_full_residual.md)
+  gives A(a,a+1) to M(2a-2) plus A(2,a-2), for every a>=5. The complete
+  A(7,8) to M12 plus A(2,5) witness has an integer-only replay. A fixed-core
+  extension bound limits that particular core to total leg dimension 256.
+- The [triangular lift](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_triangular.md)
+  gives A(a,b) plus M((a-1)(b-1)) to M(a+b-1). Its residual is retained.
+  [Score limits](research/ai/2026-10-20-anisotropic-constructions/quotient_score_barrier.md)
+  close the stated single full-correction comparison and independent corner
+  supplier. A [cyclic determinant identity](research/ai/2026-10-20-anisotropic-constructions/parity_structure_three_quotients.md)
+  prevents the scalar correction from vanishing in the exact A22 quotient
+  family. The [cyclic quotient-volume theorem](research/ai/2026-10-20-anisotropic-constructions/cyclic_quotient_volume.md)
+  further proves m0*m1*m2<=(a+b-1)^3 for three unrelated exact physical
+  quotients over every field. Even free residual cancellation cannot pass
+  the single-target finite comparison in that class. Unrestricted
+  off-diagonal compression maps remain open.
+- Exact integral controls include A(2,3) to M4 with zero quotient-kernel
+  action and [A(8,8) to M15](research/ai/2026-10-20-anisotropic-constructions/parity_structure_a88_seed.md).
+  The latter has 462 nonzero entries per map and a complete sparse replay.
+  These controls do not construct the larger improving target.
+
+The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
+records 368 passing tests and five unchanged archive replays at `8b09235`.
+This computational coverage does not change the proof-review status.
 
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.
@@ -656,6 +683,14 @@ checkpoints were recovered by deterministic reruns matching the complete
 original numerical histories. These finite experiments imply neither
 existence nor nonexistence of the proposed target.
 
+The [complete narrow-source Koszul screen](research/ai/2026-10-20-paired-construction/narrow_koszul_exact.md)
+computes all 25 exterior-degree comparisons on all three legs for
+`Q_(3,2) -> M(3,2,3)` (EXP-NARROW-KOSZUL-001). Signed coefficient matrices
+give exact rational ranks, with independent modulo-two eliminations
+matching every value. The long target legs are padded from six to eight
+coordinates before comparison. All tests pass; this supplies neither
+the desired maps nor an exponent improvement.
+
 ## Varying quantum recoupling
 
 The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
@@ -687,6 +722,17 @@ to that concise target, whose minimum first-slice rank is three. Further
 singular extraction from `F0` remains a construction question. These are
 actual intermediate degenerations, not matrix direct sums or smaller
 matrix multiplication exponents.
+
+The [unequal quantum extension](research/ai/2026-10-21-narrow-quantum/README.md)
+gives explicit generic local maps for every `Q_(n,m)`, with an all-size
+coefficient identity and 841 finite controls (AI-NARROW-QUANTUM-001).
+Twenty-three specified root-eight Laurent families for `Q_(3,2)` have
+complete exact coefficient and valuation certificates. Nine limits lose
+first-leg concision, ten have rank-one slices that exclude all further
+degenerations to the target, and four fail a Koszul comparison. Two of
+those four pass every first-leg test but fail a long-leg test by one rank
+(`62<63`). These are fixed-family exclusions; other bases, weights, and
+singular maps remain open.
 
 ## Polynomial flags and numerical calibration
 
