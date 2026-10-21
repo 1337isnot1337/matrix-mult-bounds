@@ -4,6 +4,51 @@ Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
 
+## Critical correction allowance and new construction tests
+
+The [critical-coefficient criterion](research/ai/2026-10-21-correction-budget/critical_coefficient.md)
+allows a nonzero auxiliary border-rank coefficient at growth rate
+`n^(3/2)`. For one unbounded, character-independent family
+`Q(n,b) + R_n -> M(l_n,h,r_n)`, with limiting outer ratios rho and sigma,
+the sufficient condition is
+`limsup border-rank(R_n)/n^(3/2) < (rho*sigma*h)^(3/4) - (4/3)*sqrt(b)`.
+At near-full width four, the coefficient `4/25` is admissible by an exact
+rational comparison. This would imply a qualitative strict improvement
+below 9/4. **The family is unconstructed, and no numerical exponent gap
+is supplied by this conditional argument.**
+
+For the fixed endpoint corner R, the [one-scalar proof](research/ai/2026-10-20-paired-construction/m1_corner_one_scalar.md)
+excludes `R + D1 -> M4` even by degeneration, using a closed Grassmannian
+incidence condition. The [two-scalar proof](research/ai/2026-10-20-paired-construction/m1_corner_two_scalar_ordinary.md)
+excludes ordinary restrictions from `R + D2`; its projection argument
+does not extend to arbitrary degenerations. A separate
+[enriched leading-point gate](research/ai/2026-10-20-paired-direct-sums/r_enriched_lead_obstruction.md)
+excludes every two-scalar placement in one specified Laurent chart.
+The general border-D2 question remains open.
+
+Two [completed additional pilots](research/ai/2026-10-20-paired-direct-sums/q64_m1_free_kernel_and_reduced_corner.md)
+preserve the exact M1 lead while freeing its corner kernel, or seek the
+diagonal-deleted M4 target from R. Both fail their full coefficient
+conditions. Their saved maps, all 62 sampled history records, actual
+1,500-update stops, and complete coefficient replays are retained.
+Numerical small singular values are not exact rank certificates.
+
+The [centered aggregation calculation](research/ai/2026-10-21-centered-orientations/README.md)
+constructs four shared-input partial transposes with twelve corrections
+of size `n^(4/3)`. Its leading source costs `n^2`; a separate six-factor
+source has endpoint coefficient 64. Neither meets the paired-source
+budget. A full-format closed-orbit argument prevents this fixed tensor
+from degenerating to the same-orientation matrix target, and its literal
+orientation repair has quadratic flattening rank. No map from Q is given.
+
+Checkpoint `25600a7`, integrating main `e00622f`, completed 565 local tests:
+564 passed and one optional NumPy discovery control was skipped. All five
+archive replays passed. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint11-validation.json)
+retains the complete transcript and final result. Five hosted static
+checks passed; no hosted test or archive job was observed for that commit.
+This continuation incorporates main `8a07bed` and the packages above.
+The prior count does not describe the enlarged tree.
+
 ## Smaller leading maps and partial targets
 
 The [endpoint corner calculation](research/ai/2026-10-20-paired-construction/m1_endpoint_corner.md)
@@ -1325,3 +1370,12 @@ first-row rank sum is at most24, or20 after a mixed component. These proofs
 are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
+
+The [corrected prolongation family](research/ai/2026-10-21-corrected-prolongation/proof.md)
+constructs complete second jets with fixed boundary first frames. Exact
+off-diagonal constraints reduce532 leading parameters to172; all36 remaining
+quadratic obstructions vanish identically. Twenty-eight independent leading
+directions still leave the fixed boundary spaces. Two exported rational
+witnesses verify the entire first and second coefficients, including both
+source-row corrections. These are finite-order data, not a matrix limit.
+Higher lifting and the exponent goal remain open; the proof is unreviewed.

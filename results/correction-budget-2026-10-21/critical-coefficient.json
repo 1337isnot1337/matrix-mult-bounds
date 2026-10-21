@@ -1,0 +1,173 @@
+{
+  "status": "conditional implication only",
+  "auxiliary_growth_power": [
+    3,
+    2
+  ],
+  "strict_coefficient_threshold": "(rho*sigma*h)^(3/4) - (4/3)*sqrt(b)",
+  "width_four_squared_margin": [
+    56,
+    5625
+  ],
+  "width_four_threshold_rational_bracket": [
+    [
+      48528137423857,
+      300000000000000
+    ],
+    [
+      30330085889911,
+      187500000000000
+    ]
+  ],
+  "exact_examples_and_negative_controls": [
+    {
+      "source_width": 4,
+      "target_middle_width": 4,
+      "outer_ratios": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "auxiliary_coefficient": [
+        4,
+        25
+      ],
+      "exact_fourth_power_margin": [
+        5036864,
+        31640625
+      ],
+      "strict_sufficient_budget": true,
+      "equality_is_not_accepted": false
+    },
+    {
+      "source_width": 4,
+      "target_middle_width": 4,
+      "outer_ratios": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "auxiliary_coefficient": [
+        1,
+        5
+      ],
+      "exact_fourth_power_margin": [
+        -178801,
+        50625
+      ],
+      "strict_sufficient_budget": false,
+      "equality_is_not_accepted": false
+    },
+    {
+      "source_width": 16,
+      "target_middle_width": 16,
+      "outer_ratios": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "auxiliary_coefficient": [
+        5,
+        2
+      ],
+      "exact_fourth_power_margin": [
+        428735,
+        1296
+      ],
+      "strict_sufficient_budget": true,
+      "equality_is_not_accepted": false
+    },
+    {
+      "source_width": 16,
+      "target_middle_width": 16,
+      "outer_ratios": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "auxiliary_coefficient": [
+        8,
+        3
+      ],
+      "exact_fourth_power_margin": [
+        0,
+        1
+      ],
+      "strict_sufficient_budget": false,
+      "equality_is_not_accepted": true
+    },
+    {
+      "source_width": 81,
+      "target_middle_width": 81,
+      "outer_ratios": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "auxiliary_coefficient": [
+        14,
+        1
+      ],
+      "exact_fourth_power_margin": [
+        74465,
+        1
+      ],
+      "strict_sufficient_budget": true,
+      "equality_is_not_accepted": false
+    },
+    {
+      "source_width": 4,
+      "target_middle_width": 4,
+      "outer_ratios": [
+        [
+          99,
+          100
+        ],
+        [
+          99,
+          100
+        ]
+      ],
+      "auxiliary_coefficient": [
+        1,
+        10
+      ],
+      "exact_fourth_power_margin": [
+        2106265538981,
+        1265625000000
+      ],
+      "strict_sufficient_budget": true,
+      "equality_is_not_accepted": false
+    }
+  ],
+  "source_constant_cube_identity_checked": true,
+  "endpoint_compactness_consequence": "qualitative omega < 9/4 if the entire construction premise is proved",
+  "required_unbounded_maps_constructed": false,
+  "explicit_smaller_exponent_proved": false,
+  "improves_omega": false
+}

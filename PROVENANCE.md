@@ -1,5 +1,35 @@
 # Attribution and provenance
 
+## Critical coefficient, scalar repairs, and controlled orientations
+
+The critical correction-coefficient deduction uses the previously credited
+cyclic paired-source product bound, endpoint rigidity, and compact
+attainment from Alman--Li, arXiv:2605.21738v1, Proposition 4.2, in Strassen's
+complex tensor spectrum. OpenAI retains credit for the 9/4 framework and
+the original recurrence; the rescaling input retains Uznański's credit.
+The new statement has an unproved family premise and no explicit exponent
+gap. Its exact rational controls check comparisons, not tensor maps.
+
+The fixed-corner scalar proofs and enriched leading-point exclusion were
+developed in this session. The one-scalar proof cites the Stacks Project
+for Grassmannians and proper projection of the stated incidence variety.
+The two-scalar ordinary proof explicitly keeps the source projections
+needed to justify its support conclusions; arbitrary border repairs are
+outside its claim. Same-session audits are not independent review.
+
+The controlled partial-transpose aggregation was motivated by Solomonik
+and Bläser, arXiv:2610.26563v1, Sections 5.2--5.3 and 5.6. The exact
+shared-input identity, its complete source costs, and the orientation
+analysis are local deductions, with no claim of historical priority.
+The closed-orbit step uses Hoskins' complex affine Kempf--Ness theorem
+and invariant-fibre uniqueness with the precise hypotheses in the note.
+This package supplies no paired-source map or exponent improvement.
+
+The two new fixed-lead and partial-corner pilots retain every saved map
+coefficient and all original sampled records. Standard-library replays
+reproduce their unsuccessful objectives. Optional floating-point
+diagnostics are separated from exact acceptance and do not certify rank.
+
 ## Smaller leading maps, correction slices, and partial targets
 
 The M1 leading-point, endpoint-corner, fixed-seed partial-target, and

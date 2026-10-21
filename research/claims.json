@@ -1615,6 +1615,144 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
+      "title": "Complete172-parameter second-jet family in fixed boundary frames",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-corrected-prolongation/proof.md",
+      "section": "",
+      "statement": "For the specified boundary outside first-row frames, all corrected second-order off-diagonal equations form a 9856 by 532 matrix of rank 360. A 172-dimensional leading first-jet family remains, with 28 independent departures from the fixed boundary spaces. All 36 leading-block quadratic cokernel polynomials vanish identically on that family. Every complex parameter choice therefore admits rationally prescribed second coefficients satisfying the complete W2=W0 identities.",
+      "dependencies": [
+        "AI-QUANTUM-EXTENSION-SPACES-075",
+        "AI-QUANTUM-SECOND-JET-NOGROWTH-001",
+        "Exact rank 360 minor, independent172-column kernel, full symbolic quadratic identities"
+      ],
+      "limitations": "Fixed boundary first frames of effective rank 12 per side. Only second jets are constructed. Third and higher-order lifting, an actual matrix target and the exponent improvement remain open. No independent review.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-QUANTUM-COMPLETE-TWO-JETS-002",
+      "title": "Two explicit full rational second-jet coefficient witnesses",
+      "status": "finite-experiment",
+      "evidence": "results/corrected-prolongation-2026-10-21/mixed_seed.json",
+      "section": "",
+      "statement": "Two deterministic rational parameter assignments export every local-map coefficient through degree 2 and both source-row corrections. Complete first and second identities are checked on all active20 by 20 outputs; all other110-dimensional output coordinates vanish through that degree by construction. Independent fixed-index source formulas replay every active coefficient. The mixed witness has nonzero leading second coefficients and a nonzero second correction.",
+      "dependencies": [
+        "AI-QUANTUM-CORRECTED-TWO-JET-FAMILY-001",
+        "All 4096 integer source terms and complete corrected coefficient identities"
+      ],
+      "limitations": "Explicit finite-order witnesses, not matrix tensor degenerations. Adding a cubic full-rank completion preserves the two jets but asserts no subsequent target condition. No exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "COND-PAIRED-CRITICAL-CORRECTION-025",
+      "title": "A strict nonzero auxiliary coefficient at the critical three-halves rate",
+      "status": "conditional-implication",
+      "evidence": "research/ai/2026-10-21-correction-budget/critical_coefficient.md",
+      "statement": "For fixed integers b>=4,h>=1 and positive limiting outer ratios rho,sigma, one unbounded character-independent complex family Q(n,b) plus R_n degenerating to M(l_n,h,r_n), with l_n/n to rho and r_n/n to sigma, would imply omega<9/4 whenever C=limsup border-rank(R_n)/n^(3/2) is strictly below (rho*sigma*h)^(3/4)-(4/3)*sqrt(b). At near-full width four, C=4/25 is admissible by the exact squared margin 56/5625.",
+      "dependencies": [
+        "Existing paired cyclic product identity, thin-slope bound and endpoint rigidity",
+        "OpenAI 9/4 character framework and previously attributed Uznański rescaling",
+        "Alman--Li arXiv:2605.21738v1 Proposition 4.2, with credit to Strassen, for compact spectrum attainment"
+      ],
+      "limitations": "No family satisfying the premise is constructed. The conclusion is qualitative and gives no explicit numerical exponent gap. Equality in the coefficient threshold is not accepted. The finite rational checks and same-session audit do not establish the tensor maps or independent mathematical review.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-CORNER-ONE-SCALAR-026",
+      "title": "Closed incidence excludes one scalar repair of the fixed endpoint corner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/m1_corner_one_scalar.md",
+      "statement": "For the exact endpoint corner R of format 16 by 18 by 18, R direct sum D1 cannot degenerate to M4 over C. A singular native A map forces a nonzero slice of rank at most one. Otherwise a four-dimensional A space has all slice ranks at most five and aggregate long supports at most 15 and 5. This alternative is closed by projective incidence, whereas the rank-one matrix-space classification forces M4 supports 16,4 or4,16.",
+      "dependencies": [
+        "THM-PAIRED-ENDPOINT-CORNER-020 and its exact rank-four A fibers",
+        "Rank-one linear subspaces of Mat4 and the matrix multiplication slice identity",
+        "Stacks Project Grassmannian and proper-projection facts with the cited incidence hypotheses"
+      ],
+      "limitations": "The source is the specified inherited endpoint corner plus one scalar, not arbitrary Q64. Finite rational controls verify the source support data and both A-map cases. This written argument has no independent review; two-scalar border repairs are not excluded.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-CORNER-TWO-SCALAR-027",
+      "title": "Ordinary two-scalar exclusion for the fixed endpoint corner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-construction/m1_corner_two_scalar_ordinary.md",
+      "statement": "The fixed endpoint corner R direct sum D2 has no ordinary restriction to M4 over C. The native A map must be invertible. Its two four-dimensional source fibers force target support types 16,4 and4,16. Projecting separately to the two auxiliary directions and the native fourteen-dimensional endpoint supports contradicts the required independent auxiliary long directions.",
+      "dependencies": [
+        "THM-PAIRED-ENDPOINT-CORNER-020 and the exact two native A fibers",
+        "Minimum nonzero M4 A-slice rank four",
+        "Classification of four-dimensional rank-one matrix spaces and the stated source projections"
+      ],
+      "limitations": "Ordinary maps only. The proof does not assume that supports of overlapping tensor summands add; its projection steps are required. Arbitrary border-D2 repairs remain open because individual summands can diverge and cancel. No general three-scalar or Q64 exclusion is claimed.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "EXP-PAIRED-FREE-KERNEL-CORNER-028",
+      "title": "Completed fixed-lead free-kernel and diagonal-deleted-corner pilots",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/q64_m1_free_kernel_and_reduced_corner.md",
+      "statement": "Two bounded 1,500-update pilots retain all saved coefficients and 62 sampled history records. The fixed Q64 endpoint M1 lead with free corner kernel has nonpositive relative error 0.031212190729. The ordinary reduced-corner map to diagonal-deleted M4 has full relative error 0.356062746872. Standard-library replays check all 10,000 and 3,072 output positions, respectively. An exact R to M(3,4,3) control checks 1,296 positions and detects a sign error.",
+      "dependencies": [
+        "THM-PAIRED-M1-LEADING-GATES-021 and THM-PAIRED-ENDPOINT-CORNER-020",
+        "Complete retained checkpoints, emitted histories and native source coefficient replays",
+        "Exact source and target grading conventions with explicit zero auxiliary cost"
+      ],
+      "limitations": "Both pilots fail exact acceptance. Numerical singular-value tails do not certify ranks or nonexistence. The necessary corner-constraint rank is at most 16; the reduced target has numerical long rank 15, not 14. Gauge-normalized diagnostics may exceed the original separate norm budgets and are not additional fits.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-PAIRED-ENRICHED-LEAD-029",
+      "title": "Two-scalar first-edge obstruction at one enriched corner leading point",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-20-paired-direct-sums/r_enriched_lead_obstruction.md",
+      "statement": "For the specified enriched M(2,4,2) leading maps of R and the written monomial lower row powers, every placement of two scalar leading products fails the first-edge equations for M4. Each side requires two effective auxiliary cross vectors: its endpoint support is at most six and its interior opposite support is a line. The scalar old-product span cases 0, 1, 2 cannot provide two vectors on both sides. The argument allows free edge and corner A subspaces and higher coefficients respecting the row powers.",
+      "dependencies": [
+        "THM-PAIRED-ENDPOINT-CORNER-020 and the maintained exact 90-term R source",
+        "Complete 4,096-position rational leading identity and every native kernel coordinate",
+        "Target first-edge slice identity diag(X,X) and explicit scalar span case analysis"
+      ],
+      "limitations": "Fixed enriched native leading maps and stated lower valuations only. Different leading points and general border-D2 repairs are not excluded. No numerical fit was launched in this excluded chart. Same-session controls are not independent mathematical review.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "THM-CONTROLLED-TRANSPOSE-AGGREGATION-030",
+      "title": "Costed four-channel partial-transpose aggregation and its fixed orientation obstruction",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-centered-orientations/README.md",
+      "statement": "For n=s^3, the shared-input tensor diag(A,A^(T2T3),A^(T1T3),A^(T1T2)) has an exact rank upper bound n^2+12n^(4/3). It is separately a restriction of D_s to tensor power 6, with character bound (s^pB+s^pC)^6. For s>=2 its full-format degeneration to M(n,4,n) is excluded by zero moment maps and failure of normalized slice-algebra closure. The literal additive orientation repair has first-flattening rank 3(n^2-n^(4/3))/4.",
+      "dependencies": [
+        "Solomonik--Bläser arXiv:2610.26563v1 Sections 5.2--5.3 and 5.6 as motivation for contraction aggregation",
+        "Exact shared-input coefficient identity and complete leading/correction source counts",
+        "Hoskins 2013 Theorem 4.2 and affine invariant-fibre uniqueness under the stated complex reductive hypotheses",
+        "Exact Gram matrices, slice multiplication witness and finite-group fixed-space count"
+      ],
+      "limitations": "No Q(n,4) source map is supplied. The leading diagonal source costs n^2, and the alternative endpoint source coefficient 64 is too large. The obstruction fixes the full tensor and full target format; auxiliary constructions, different dimensions and partial targets remain open. Neither the small correction exponent nor the rank identity improves omega.",
+      "origin": "AI-derived research in the owner-directed generating session",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

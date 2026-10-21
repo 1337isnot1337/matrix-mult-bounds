@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The quantum worker now continues in
+`ai/2026-10-21-corrected-prolongation/QUESTION.md`. A complete172-parameter
+second-jet family and full coefficient witnesses are ready for higher-order
+lifting. PR47 merged at `fc8207e` with exact tested/merged tree equality;
+its task branches are removed. The new family has effective first ranks12
+on each side, outside the13-per-side hypothesis in PR48. No improving
+matrix tensor limit is constructed.
+
 The quantum worker's current question is
 `ai/2026-10-21-second-jet-rank-one/QUESTION.md`: the canonical changed jets
 now have no second partial-space growth, by a new rank-two spanning
@@ -15,6 +23,31 @@ of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
 ## Paired-source continuation
+
+The next checkpoint integrates main `8a07bed` and extends the conditional
+correction budget to a strict nonzero coefficient at order `n^(3/2)`.
+At near-full width four, auxiliary border rank at most
+`(4/25)*n^(3/2)+o(n^(3/2))` would suffice. There are no maps satisfying
+this unbounded family premise. Checkpoint `25600a7` completed 565 local
+tests with 564 passes and one optional NumPy skip; all five local archive
+replays and five observed hosted static checks passed. No hosted test
+workflow was observed for that commit.
+
+The fixed endpoint corner with one scalar is now excluded by a closed
+incidence argument. Two scalars are excluded for ordinary maps, and a
+separate exact gate closes the stated enriched Laurent leading point.
+The general border-D2 repair remains open. The fixed-lead/free-kernel
+and diagonal-deleted-corner pilots have both completed and failed exact
+acceptance; their complete saved maps and histories are preserved.
+
+The centered shared-input aggregation has been fully costed: it retains
+different partial-transpose orientations, and neither of its known
+source bounds meets the paired budget. The fixed full-format tensor is
+excluded as a matrix degeneration. That fixed tensor is a closed task.
+Three agents now coordinate an actual Q-source construction through
+noncommuting shift operators, displacement identities, and bounded
+size-dependent Fourier/chirp/reflection probes with exact small controls.
+Any auxiliary tensor must be included in the complete character cost.
 
 PR #35, `research/paired-frontier-unequal-entropy-20261020`, continues with
 three coordinated agents on exact recovery and scalable near-full
