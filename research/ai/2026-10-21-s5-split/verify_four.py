@@ -20,7 +20,8 @@ spec.loader.exec_module(helper)
 def replay(path):
     report = json.loads(path.read_text())
     if 'exact_central_slice_cuts' not in report:
-        return helper.replay(path, data_provider=data, target_shape=(19, 19, 19))
+        shape = report['shape']
+        return helper.replay(path, data_provider=lambda: data(shape), target_shape=shape)
     shape = report['shape']
     G, Q, receipt = data(shape)
     slice_control()
