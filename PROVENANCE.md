@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The rank-one seven-frame continuation in
+`research/ai/2026-10-21-rankone-seven-frames/` was generated in this
+owner-directed Codex session. It adopts the complete partner/graph
+classification, canonical normal equations, rank-two spanning lemma,
+and moving-boundary induction. Its uniform constant-minor certificate
+and maximal-frame consequence are local written work with exact finite
+checks. They have no independent review, formalization or exponent gain.
+
 The five-frame continuation in `research/ai/2026-10-21-invertible-five-frame/`
 was generated in this owner-directed Codex session. It adopts the canonical
 extension spaces, the earlier saturated-limit framework, and the complete
