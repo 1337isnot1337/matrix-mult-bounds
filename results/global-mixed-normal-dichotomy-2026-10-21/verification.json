@@ -1,0 +1,43 @@
+{
+  "status": "focused-local-checks-passed-full-current-ci-pending",
+  "base_head": "36ebe681e79266fb5020ee57a8e1bd6a77f8d93a",
+  "local_checks": {
+    "source_level_report": "passed",
+    "focused_tests": {
+      "run": 4,
+      "passed": 4,
+      "seconds": 25.61
+    },
+    "link_and_ledger_tests": {
+      "run": 2,
+      "passed": 2,
+      "seconds": 0.034
+    }
+  },
+  "current_discovery": {
+    "tests": 751,
+    "modules": 180,
+    "groups": [
+      192,
+      198,
+      188,
+      173
+    ],
+    "complete_disjoint_coverage": true,
+    "import_errors": 0,
+    "own_cases": 4
+  },
+  "code_sha256": {
+    "research/ai/2026-10-21-global-mixed-normal-dichotomy/verify.py": "d75d829b8a82a9f2bea97f2d9c3f711afb9d6bfe03944ec7ea1f7944c08efaca",
+    "research/ai/2026-10-21-global-mixed-normal-dichotomy/certificate.json": "d2fd0c8040e8814e51c1772ecfd8430fe191e6d4bc2f87ab4dd5684d7e41c337",
+    "tests/test_global_mixed_normal_dichotomy.py": "801467d77e895bc9fc6fe23d6625d50c5f68c146571649409be84dbfd51d539b"
+  },
+  "parent_pr82": {
+    "source": "36ebe681e79266fb5020ee57a8e1bd6a77f8d93a",
+    "merged": "879992fb1ea6ebc889154987f1320749d2121ea0",
+    "all_current_source_checks_passed": true
+  },
+  "archives_unchanged_against": "f2764c3155c5b5aa049547266ccac77e0112545b",
+  "independent_review": false,
+  "improves_omega": false
+}
