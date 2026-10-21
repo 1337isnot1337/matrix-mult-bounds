@@ -1,0 +1,88 @@
+{
+  "fiber_counts": [
+    [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4
+    ],
+    [
+      0,
+      4,
+      4,
+      0,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  ],
+  "shape": [
+    16,
+    20,
+    21
+  ],
+  "pair_capacity_values": [
+    [
+      48,
+      48,
+      48,
+      48,
+      32,
+      48,
+      48
+    ],
+    [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    [
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48
+    ]
+  ],
+  "pair_capacity_passes": true,
+  "koszul_levels": [
+    {
+      "p": 1,
+      "maximum_certified_rank": 108,
+      "source_ceiling": 128,
+      "excluded": false
+    },
+    {
+      "p": 2,
+      "maximum_certified_rank": 360,
+      "source_ceiling": 384,
+      "excluded": false
+    },
+    {
+      "p": 3,
+      "maximum_certified_rank": 1260,
+      "source_ceiling": 1280,
+      "excluded": false
+    }
+  ],
+  "scope": "Necessary count conditions only. No directions, offsets, pair maps or strict potential constructed.",
+  "improves_omega": false
+}
