@@ -21,12 +21,22 @@ rank at most 15 on at least one side. Delayed first growth, such rank-deficient
 jets, other leading flags, and leading-rank loss remain open. Neither an
 arbitrary-degeneration exclusion nor an exponent improvement is claimed.
 
+The [rank-four follow-up](rank_deficient.md) strengthens this necessary
+condition to quotient rank at most **12** on at least one side. Repeated
+triangular minors prove that every nonzero one-leg obstruction has rank
+at least four, for every complex parameter value. Thus arbitrary first
+quotient spans of dimension at least thirteen on both sides are excluded.
+The saved minor identities can be replayed without the discovery search.
+
 Reproduce from the repository root:
 
 ```sh
 python research/ai/2026-10-21-moving-boundary-flags/normal_directions.py \
   --output results/local/moving-boundary-normal-certificates.json
 python -m unittest discover -s tests -p 'test_moving_boundary_flags.py' -v
+python research/ai/2026-10-21-moving-boundary-flags/minimum_rank.py \
+  --output results/local/moving-boundary-minimum-rank.json
+python -m unittest discover -s tests -p 'test_quantum_obstruction_rank.py' -v
 ```
 
 This package adopts the first-extension and partial-saturation results

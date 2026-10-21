@@ -1,0 +1,13 @@
+{
+  "maximal_extension_validation": {
+    "source_commit": "67edf0fe2d4d5210f484148c4716e34f1e7abaf1",
+    "base_main": "b0a54f2",
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 395,
+    "elapsed_seconds": 241.397,
+    "result": "passed",
+    "archive_command": "python tools/replay.py",
+    "archive_reports_passed": 5
+  },
+  "scope": "The full suite entry covers the preceding maximal-extension package. The rank-four follow-up has separate current validation. Neither is independent mathematical review."
+}
