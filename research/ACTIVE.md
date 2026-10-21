@@ -7,8 +7,10 @@ a polynomial frame away from the origin and (1,1). The full exceptional
 fiber at (1,1) closes by source equations and cubic minors. Its generic
 target incidence remains open. The next calculation uses the polynomial
 frame for the stable-row and auxiliary-projection relations. PR70 contains
-the completed uniform-axis proof and awaits current CI. No exponent gain
-is established.
+the uniform-axis proof, merged at20fa49b after current CI passed. Its
+source and squash trees match; the completed worktree and branches are
+removed. The591-test local two-coordinate suite and five archive replays
+passed. No exponent gain is established.
 
 
 The mixed-frame worker now studies
