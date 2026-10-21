@@ -32,6 +32,8 @@ and residue lift are recorded here. The separate
 responses of the original spin core and states the conditional
 omega<2.247 implication with its missing premise explicit.
 
+The [coupled endpoint repair](parity_structure_spin44_double_endpoint.md) cancels both F(7,0,7) and F(7,2,7), with exact response rank190 and first preimage779. It uses fresh rational graphs over five deleted channels, preserves the complete M(3,3,27) core, and retains the missing larger-target premise.
+
 The [balanced low-coordinate kernels](parity_balancing_spin44_freedoms.md)
 classify all individually neutral changes on those domains, and give
 an exact orthogonality condition for coupling them. The

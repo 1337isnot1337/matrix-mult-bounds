@@ -112,9 +112,9 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records seventy-one local claims
+The constructive continuation records seventy-two local claims
 in [the claim ledger](research/claims.json). This checkpoint adds
-claims 118, 119, 120, 122 and 124 to the earlier sixty-six claims. All general arguments are
+claims 118 through 122 and 124 to the earlier sixty-six claims. All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
 
@@ -127,6 +127,10 @@ section coefficients are checked. The tiny target alone was already
 known by cyclic rotation; the new evidence concerns the specified spin
 chart, residue lift and response spaces. The larger rectangle remains
 unconstructed.
+
+An [exact two-endpoint repair](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint.md) changes both retained maps of the balanced module while preserving M(3,3,27). Its complete first response vanishes at two specified endpoint coordinates. The remaining response rank is exactly190, giving a first preimage of dimension779. The current rational coefficients were freshly reconstructed; they are explicitly distinguished from the lost original implementation. Every original-source and target coefficient passes, and a second agent separately replays both endpoint responses. The remaining matrix-unit extension equations are unsolved.
+
+Its [22-test follow-up receipt](results/anisotropic-constructions-2026-10-20/spin-double-endpoint-focused-validation.json) passes with no skips, including all four substantive construction tests and repository checks. The four unchanged tests introduced by main20fa49b also pass in their [separate integration receipt](results/anisotropic-constructions-2026-10-20/spin-main20fa-incidence-validation.json).
 
 The [three-leg budget calculation](research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget.md)
 also certifies ranks (192,236,216) for the original full 28 spin core.

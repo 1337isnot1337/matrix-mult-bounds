@@ -970,6 +970,23 @@
         "Closedness of a fixed linear hyperplane under regular limits"
       ],
       "limitations": "Only the specified fixed local-spin maps, arbitrary scalar raw-column weights, radix compression and target coordinates. Changed local maps, arbitrary source compression or additional output transformations remain open. The maintained acceptance proof uses exact coefficient identities and not tropical-solver unsatisfiability. No exponent improvement."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-DOUBLE-ENDPOINT-121",
+      "title": "An exact coupled repair cancels two endpoint responses",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint.md",
+      "statement": "After deleting balanced-module channels (0,4,8,16,24), fresh rational graph changes of both retained maps preserve every coefficient of M(3,3,27) and cancel the full responses at F(7,0,7) and F(7,2,7). The remaining response support has190 coordinates and a nonzero190-dimensional minor proves exact rank190. The first kernel has dimension770 and the preimage of the nine core responses has dimension779. A split five-row boundary section and two exact linear solves supply the coupled corrections.",
+      "dependencies": [
+        "AI-BALANCED-SPIN-MODULE-116 published rational source maps",
+        "Explicit orthogonal deleted-channel graph spaces and exact boundary complement",
+        "Complete original-source coefficient replay and a regenerated190-dimensional integer minor"
+      ],
+      "limitations": "The recovered rational coefficients differ from the lost original implementation; byte or entry identity is not claimed. These ordinary maps give an exact rectangular core and a necessary first-space allowance, not a full square or rectangular improving target. The fixed-map preimage is not an existence theorem for the remaining matrix units. Same-session audits are not external independent review."
     }
   ]
 }

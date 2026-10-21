@@ -409,3 +409,5 @@ contractions. A second agent separately enumerated all source terms
 for the distinct three-bit base. Those same-session checks and CI
 provide neither external independent review nor formalization.
 No exponent below 9/4 is established.
+
+Claim121 has also been recovered using fresh rational graph coefficients. The lost map hash is recorded for identification, without claiming byte or entry equality. The new maps, two endpoint zeros and exact response rank190 have complete source certificates. Another agent independently replays every tensor and endpoint coefficient; its audit does not replace the exact rank certificate or constitute external mathematical review. The ordinary core still supplies no exponent improvement.
