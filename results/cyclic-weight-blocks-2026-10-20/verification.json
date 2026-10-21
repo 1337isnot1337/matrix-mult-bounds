@@ -8,5 +8,12 @@
   "full_regression_passed": true,
   "archive_replays_passed": 5,
   "independent_full_matrix_target_rank_controls": 489,
-  "note": "An initial focused run passed every mathematical comparison but had an incorrect expected coverage count, 507. The count was corrected to 489 and the final full suite passes. No independent mathematical review or exponent improvement."
+  "note": "An initial focused run passed every mathematical comparison but had an incorrect expected coverage count, 507. The count was corrected to 489 and the final full suite passes. No independent mathematical review or exponent improvement.",
+  "later_integration": {
+    "main": "5762e4f994584103704ceedc4940269a673f07f6",
+    "tested_source_head": "1bbea1a6285239ccbe069f3859c0ca18949973de",
+    "tests": 309,
+    "seconds": 156.695,
+    "passed": true
+  }
 }
