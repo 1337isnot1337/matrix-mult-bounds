@@ -32,7 +32,7 @@ def calculate():
     operator=data['operator'];Yflat=sp.kronecker_product(sp.eye(64),data['recover'])*operator[:,normal.NORMAL]*Dnormal
     Y=[sp.Matrix(64,28,lambda x,j:Yflat[12*x+k,j]) for k in range(12)]
     identity=[{i:1} for i in range(112)];P=[D[112*b:112*(b+1),:] for b in range(4)];Q=[D[448+112*c:448+112*(c+1),:] for c in range(4)]
-    
+
     def solve_normal(C,R,side):
      cols=[i for i in range(112) if (i//28 if side=='B' else i//7%4) in [1,2]]
      _,rr=C[:,cols].T.to_DM().rref();rr=list(rr);assert len(rr)==56
@@ -40,7 +40,7 @@ def calculate():
      for i,col in enumerate(cols):out[col,:]=values[i,:]
      assert C*out==R
      return out
-    
+
     B2=[];C2=[]
     for side in ['B','C']:
      left=side=='B';basis=m.EB[:16] if left else m.EC[:16];base=data['left_constraints' if left else 'right_constraints']
@@ -56,7 +56,7 @@ def calculate():
         if coefficient:part-=coefficient*Y[k]
        for x in range(64):R[4*x+c,:]=-part[x,:]
       (B2 if left else C2).append(solve_normal(base,R,side))
-    
+
     first=[m.index(i,j,z) for i in [1,2] for j in [1,2] for z in m.LONG]
     positions=[normal.KERNEL.index(a) for a in first]
     Ynew=[M[positions,:] for M in Y];entries={}
