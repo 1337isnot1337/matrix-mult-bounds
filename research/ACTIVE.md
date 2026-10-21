@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The quantum worker now studies the question in
+`ai/2026-10-21-boundary-hyperplanes/QUESTION.md`. Arbitrary boundary first
+spans of dimensions at least11 on both sides are excluded at every order,
+including delayed unequal growth. The proof uses a rank-one-free matrix
+space and a general two-hyperplane compression lemma. Ordinary first-rank
+sum is at most22, with one rank at most10. Smaller pairs and other leading
+flags remain open. PR55 merged at18a06b3 after current CI, with exact
+tested/merged tree equality; its completed local and remote branches are gone.
+
 The quantum worker's current question is
 `ai/2026-10-21-third-boundary-trap/QUESTION.md`. Full boundary first frames
 of effective dimensions12,12 are excluded at every order, including delayed
