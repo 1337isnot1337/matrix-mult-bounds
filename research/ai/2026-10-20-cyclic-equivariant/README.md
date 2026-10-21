@@ -168,3 +168,7 @@ natural A_a to M_a vertex representations pass as positive controls for
 a=2,...,8. These finite checks support, but do not replace, Section 2's
 all-size argument. The CG rule and invariant binary-form pairings are
 standard; no historical priority or independent review is claimed.
+
+The follow-up [Cartan character frontier](torus.md) relaxes SL2 equivariance
+to the diagonal torus and leaves one necessary H1100 character triple. Its
+completed numerical pilots do not construct the degeneration.
