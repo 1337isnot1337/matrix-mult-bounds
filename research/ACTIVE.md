@@ -8,6 +8,9 @@ The explicit high-half convolution family now integrates134 dimensions
 of these deformations, with generic source slice rank641. Its separate
 one-factor spaces have dimensions79 and63, leaving the smaller side one
 coordinate short for a direct target ruling. Full target maps remain open.
+A broader double-plus-six-simple-support family now has dimension141 and
+full ambient span1360. The missing step is an actual linear target-parameter
+map, not additional span arithmetic.
 This is separate from the continuing degree-two/three Laurent map searches.
 
 
@@ -16,6 +19,15 @@ predecessor two-block survivor:3717 exclusions and752 remaining through
 dimension1500. Ordinary one- and two-block targets through dimension1152
 are closed under the written lemmas. The degree-two Laurent construction
 search continues independently; numerical residuals are not certificates.
+
+The mixed-frame worker now studies
+`ai/2026-10-21-mixed-five-space-graphs/QUESTION.md`. Four specified nontrivial
+graph families close at partner a=b=1, each with arbitrary boundary part.
+Quadratic-minor spans replace stalled triangular-minor cuts. The general
+problem reduces to fifteen two-coordinate graph charts; they remain open.
+PR67 merged at e25a287 with equal source/squash trees and its completed
+local and remote branches removed. No exponent gain is established.
+
 
 The mixed-frame worker now studies
 `ai/2026-10-21-pure-mixed-five-spaces/QUESTION.md`. Pure mixed rows close

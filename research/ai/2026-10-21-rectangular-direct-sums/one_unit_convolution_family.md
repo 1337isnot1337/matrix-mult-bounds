@@ -117,3 +117,48 @@ the truncated-unit gauge, and the nonzero rank witnesses. Small cases
 also reconstruct and rank the complete source matrix over the rationals.
 The general argument remains written and unreviewed, with no historical
 priority or exponent-improvement claim.
+
+## Stronger linear-span limitation
+
+For a>=3, the linear span of this particular fixed-support family has
+dimension a^2*b-a-b, which is622 at A(8,10). Every coefficient with k>=a
+is zero. The k=a-1 coefficient is divisible by xz, and the k=a-2
+coefficient has zero constant monomial. These give the upper bound
+(a-2)ab+(ab-1)+(a-1)(b-1)=a^2*b-a-b. Products of individual B_r and D_s
+span every monomial in the first a-2 coefficients. Choosing one top factor
+and one next factor spans every nonconstant monomial at k=a-2. Choosing
+only A,C and then subtracting its k=0 term gives every xz-divisible monomial
+at k=a-1. Thus the bound is attained. The finite span verifier has622
+independent coordinate directions over F2 and the same coordinate-support
+upper bound. This is a stronger obstruction than the separate-factor
+count: an injective1056-dimensional target leg cannot fit in this span.
+
+## Moving the single long-support point does not evade linearity
+
+Identify each length17 long coefficient sequence with a homogeneous binary
+form of degree16, using the standard nonzero binomial rescaling if needed
+for the source SL2 convention. Support in k<8 means divisibility by a
+fixed ninth power of a linear form. A long-factor GL2 transformation moves
+that point and preserves the property that all coefficient forms have a
+common root of multiplicity at least9.
+
+Let Z be the cone of vector-valued degree16 binary forms having such a
+common root. Each nonzero member has a unique such point, since18>16.
+Every projective line contained in Z has one fixed point. To see this,
+choose a scalar component of its pencil. If the two endpoint polynomials
+are nonproportional, any moving multiple root belongs to the finite zero
+set of their nonzero Wronskian f'g-fg', with infinity included. One point
+therefore occurs for infinitely many pencil parameters. Vanishing of all
+derivatives through order8, in every component, is linear in the pencil
+parameter, so both endpoints have that same common root. If the chosen
+scalar components are proportional, their unique high-multiplicity root
+is already fixed, and the other components obey the same vanishing.
+
+Now suppose a linear target-leg map sent every rank-at-most-two matrix
+parameter into Z. Any two rank-one parameters span a line of rank at most
+two. Their nonzero images must therefore share the unique point. Since
+rank-one matrices span the entire parameter space, the whole leg image
+has one fixed ninth-power divisor. That coefficient space has dimension
+8*80=640, below1056. Thus even the union of all long-GL2 translates of
+this single-fat-point construction cannot supply that target-leg map.
+This does not exclude multiple long-support points or general slices.

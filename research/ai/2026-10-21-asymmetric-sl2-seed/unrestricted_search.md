@@ -135,3 +135,8 @@ error to0.000149367453815 in1235 seconds. Total coefficient norm was about
 120. Further conditioned Gauss-Newton and degree-generalized alternating
 linear solves are being compared from this checkpoint. Neither a small
 error nor a bounded-looking finite trajectory establishes exact maps.
+
+The Laurent solver now snapshots its input bytes and SHA-256 before loading,
+and exposes an unregularized trust-region option plus the block-conditioning
+eigenvalue floor. A one-evaluation smoke run exercised these options and
+the derivative checks; it is not an optimization result or a certificate.

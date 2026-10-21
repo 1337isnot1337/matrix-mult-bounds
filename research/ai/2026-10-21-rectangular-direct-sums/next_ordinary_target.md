@@ -89,3 +89,15 @@ one-factor spaces have dimensions79 and63, so the straightforward
 separate-factor target parameterization is one coordinate short on the
 smaller side. This is a source-slice construction, not the missing full
 tensor restriction.
+
+The fixed convolution family's exact linear span is622, below the required
+1056. The common ninth-power-divisor pencil argument also closes the union
+of its long-GL2 translates as a possible image of all rank-two parameters:
+linearity would force one common support point and ambient dimension640.
+Multiple long-support points and general slices remain outside this argument.
+
+The broader `multiple_support_family.md` now supplies a141-dimensional
+nonlinear family of generic rank641 slices with full ambient span1360.
+It uses one double and six simple long-support points. This escapes the
+fixed-fat-point span obstruction; constructing the required linear target
+parameter map and complete tensor restriction remains open.

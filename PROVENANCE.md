@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-21-mixed-five-space-graphs` package is same-session AI-derived
+work directed by the repository owner. It adopts the maintained source,
+virtual corrections, target rank gap and induction with their existing
+credits. The new four graph-family closures use selected quadratic minor
+witnesses, with exact modular rank lifting to Q and C. This is neither an
+independent mathematical review nor a priority claim for standard modular
+rank or Grassmann-chart arguments. It establishes no exponent improvement.
+
 The pure-row five-space package in
 `research/ai/2026-10-21-pure-mixed-five-spaces/` was generated in this
 owner-directed Codex session. It adopts the canonical source, uniform
@@ -417,3 +425,15 @@ from the kernel-pairing criterion. Complete Hankel identities and the
 truncated-unit gauge are replayed exactly. Its dimension argument matches
 a free gauge upper bound with the differential lower bound. This constructs
 source slices, not target tensor maps, and remains written and unreviewed.
+
+The family-span continuation pairs a622-coordinate support upper bound
+with a matching binary rank certificate. Its separate moving-fat-point
+argument uses an elementary Wronskian pencil calculation and uniqueness
+of a root of multiplicity9 in degree16. It closes only this family orbit,
+not general multiple-support slices or the target problem.
+
+The multiple-support continuation separates one double jet and simple
+residues by exact confluent Vandermonde maps. Its dimension proof uses
+unique scalar recurrence recovery and the prior local family dimension.
+It removes the fixed-family span obstruction but does not produce target
+maps. General statements remain written and unreviewed.

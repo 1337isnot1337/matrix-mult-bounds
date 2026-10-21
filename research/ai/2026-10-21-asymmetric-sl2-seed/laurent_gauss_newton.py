@@ -1,12 +1,12 @@
 """Factored-Jacobian refinement of actual Laurent coefficient equations."""
-import argparse,json,time
+import argparse,json,time,hashlib,io
 from pathlib import Path
 from itertools import product
 import numpy as np
 from scipy.optimize import least_squares
 from scipy.sparse.linalg import LinearOperator
 from intertwiners import source_data
-p=argparse.ArgumentParser();p.add_argument('warm',type=Path);p.add_argument('output',type=Path);p.add_argument('--evaluations',type=int,default=60);p.add_argument('--linear-iterations',type=int,default=300);p.add_argument('--degree',type=int);a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True);z=np.load(a.warm);M=[z[n].copy() for n in 'ABC']
+p=argparse.ArgumentParser();p.add_argument('warm',type=Path);p.add_argument('output',type=Path);p.add_argument('--evaluations',type=int,default=60);p.add_argument('--linear-iterations',type=int,default=300);p.add_argument('--degree',type=int);p.add_argument('--unregularized',action='store_true');p.add_argument('--preconditioner-floor',type=float,default=1e-10);a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True);raw=a.warm.read_bytes();input_sha256=hashlib.sha256(raw).hexdigest();(a.output/'input-checkpoint.npz').write_bytes(raw);z=np.load(io.BytesIO(raw));M=[z[n].copy() for n in 'ABC']
 if a.degree is not None and 2*a.degree+1>M[0].shape[0]:
  old=M[0].shape[0];new=2*a.degree+1;shift=(new-old)//2;rng=np.random.default_rng(314159);padded=[]
  for m in M:
@@ -37,7 +37,7 @@ def operators(M):
  return Ds
 S=[]
 for D in operators(M):
- values,vectors=np.linalg.eigh(D.conj().T@D);values=np.maximum(values,values[-1]*1e-10);S.append((vectors/np.sqrt(values))@vectors.conj().T)
+ values,vectors=np.linalg.eigh(D.conj().T@D);values=np.maximum(values,values[-1]*a.preconditioner_floor);S.append((vectors/np.sqrt(values))@vectors.conj().T)
 def unpack(x):return [(Q@v.reshape(L,-1)).reshape(s) for Q,v,s in zip(S,np.split(x[:N]+1j*x[N:],cuts),shapes)]
 def real(x):return np.r_[x.real.ravel(),x.imag.ravel()]
 def fun(x):
@@ -60,4 +60,4 @@ errors=[]
 for h in (1e-2,1e-3):
  d1=(fun(x+h*v)-fun(x-h*v))/(2*h);d2=(fun(x+h*v/2)-fun(x-h*v/2))/h;errors.append(float(np.linalg.norm((4*d2-d1)/3-J@v)/np.linalg.norm(J@v)))
 print('directional errors',errors,flush=True);assert min(errors)<1e-7
-fit=least_squares(fun,x,jac=jac,tr_solver='lsmr',tr_options={'maxiter':a.linear_iterations,'atol':1e-9,'btol':1e-9},max_nfev=a.evaluations,ftol=1e-13,xtol=1e-13,gtol=1e-11);report={'status':'numerical only; no degeneration certificate','degree':d,'linear_iterations':a.linear_iterations,'nfev':fit.nfev,'message':fit.message,'best_joint_relative_error':best,'history':history,'seconds':time.monotonic()-start};(a.output/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
+fit=least_squares(fun,x,jac=jac,tr_solver='lsmr',tr_options={'maxiter':a.linear_iterations,'atol':1e-9,'btol':1e-9,'regularize':not a.unregularized},max_nfev=a.evaluations,ftol=1e-13,xtol=1e-13,gtol=1e-11);report={'status':'numerical only; no degeneration certificate','degree':d,'input_sha256':input_sha256,'regularized':not a.unregularized,'preconditioner_floor':a.preconditioner_floor,'linear_iterations':a.linear_iterations,'nfev':fit.nfev,'message':fit.message,'best_joint_relative_error':best,'history':history,'seconds':time.monotonic()-start};(a.output/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
