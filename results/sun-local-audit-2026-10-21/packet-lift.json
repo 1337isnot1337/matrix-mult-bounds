@@ -1,0 +1,102 @@
+{
+  "source_url": "https://arxiv.org/html/2610.13971v1",
+  "scope": "A packet-by-packet lift preserving the literal generic layer-one contribution in equation (5.1). This does not exclude different maps mixing packet contributions.",
+  "generic_layer_one_character_count": 12,
+  "retained_twists": {
+    "A1": 3,
+    "A3": 0,
+    "B1": 5,
+    "B2": 9,
+    "C1": 6,
+    "P": 10,
+    "Q": 12,
+    "R": 15
+  },
+  "twists_are_the_even_weight_subspace": true,
+  "additive_linear_phase_obstructions": [
+    {
+      "side": "X",
+      "shared_coordinate_twist_differences": [
+        3,
+        6,
+        9,
+        10,
+        12,
+        15
+      ],
+      "allowed_beta_values": [
+        0,
+        15
+      ],
+      "image_under_B0_plus_B1": [
+        0
+      ]
+    },
+    {
+      "side": "Y",
+      "shared_coordinate_twist_differences": [
+        3,
+        5,
+        6,
+        10,
+        12,
+        15
+      ],
+      "allowed_beta_values": [
+        0,
+        15
+      ],
+      "image_under_B0_plus_B1": [
+        0
+      ]
+    },
+    {
+      "side": "Z",
+      "shared_coordinate_twist_differences": [
+        3,
+        6,
+        9,
+        10
+      ],
+      "allowed_beta_values": [
+        0,
+        15
+      ],
+      "image_under_B0_plus_B1": [
+        0
+      ]
+    }
+  ],
+  "nonzero_fixed_displacements": [
+    1,
+    2,
+    3
+  ],
+  "central_four_coordinates_tensor": "(1/16) M_2",
+  "pointwise_checks_including_both_chart_representatives": 1536,
+  "M2_coefficient_Koszul": {
+    "ambient_first_dimension": 5,
+    "power": 2,
+    "prime": 65521,
+    "rank": 32,
+    "border_rank_5_maximum": 30,
+    "inference_field_scope": "characteristic zero"
+  },
+  "packetwise_C3_or_D4_lift_excluded": true,
+  "optimistic_Strassen_replacement_bookkeeping": {
+    "old_full_source_cost_per_row": 128,
+    "generic_dense_modules": "7 C3 and 5 D4",
+    "old_generic_dense_allocated_cost_per_row": 55,
+    "new_12_M2_modules_cost_per_row": 84,
+    "Strassen_integer_coefficient_identity_verified": true,
+    "new_total_if_other_charges_unchanged": 2512,
+    "largest_integer_below_32_to_9_over_4": 2435,
+    "is_a_valid_global_construction": false,
+    "remaining_issues": [
+      "Completion outputs of replaced modules",
+      "Source-resolved row and Weyl coupling"
+    ]
+  },
+  "full_preprint_impossibility_claim": false,
+  "improves_omega": false
+}

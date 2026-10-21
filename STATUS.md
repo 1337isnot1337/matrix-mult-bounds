@@ -1266,6 +1266,26 @@ are written and unreviewed; higher-order lifting and the exponent goal remain
 open. Canonical extension data and their earlier classification retain PR45's
 credit.
 
+## Local audit of an external tensor-degeneration preprint
+
+The [exact local audit](research/ai/2026-10-21-sun-local-audit/README.md)
+reconstructs selected maps from arXiv:2610.13971v1, with the inspected HTML
+pinned by hash. It finds a repairable scalar normalization omission and
+verifies four local Laurent leading tensors, four generic endpoint blocks,
+and 256 crossed-group identities. The complete M32 maps remain unverified;
+the preprint's claimed exponent improvements are not adopted.
+
+A separate elementary centroid argument excludes a bridge that first
+collapses to the fixed zero-fibre tensor D256 tensor M2 and then seeks M32.
+This narrower obstruction does not exclude every enriched assembly.
+The audit and written proof remain AI-derived and externally unreviewed.
+
+The [packetwise follow-up](research/ai/2026-10-21-sun-local-audit/packet_lift.md)
+shows that an individual printed generic packet contribution contains M2,
+whose exact Koszul rank exceeds that packet's stated border-cost ceiling.
+It excludes a lift preserving each such contribution, while allowing the
+possibility of different global maps with interpacket cancellation.
+
 ## Source-weight windows and full original-source Laurent fibers
 
 Claims `AI-WEIGHT-WINDOWS-098` and `AI-ORIGINAL-JET-FIBERS-099` preserve
@@ -1545,3 +1565,41 @@ The maximum absolute map entries are 6,1,5,2. A recovered m6 index error
 was caught and corrected before acceptance. These are finite improvements;
 no unbounded family or smaller exponent is established. Claim
 `AI-CANONICAL-INTEGER-FLAGS-001` retains written, externally unreviewed status.
+
+## Free five-sector flag at exact long-source cost
+
+The [free isotropic flag](research/ai/2026-10-21-free-isotropic-flags/README.md)
+proves a finite complex degeneration C(7,15) to all five matched convolution
+sectors, each with its own invertible shared basis. An explicit solution
+over F2 has an odd 45-by-45 Jacobian minor in the integral polynomial chart.
+The written lifting and algebraic existence argument supplies a complex
+point with all required rank and normalization conditions. A separate
+verifier expands all 1,125 coefficients of the literal binary maps. Those
+binary maps are not presented as characteristic-zero coefficients. The
+source shared dimension is seven, so this finite exact long-source cost
+does not establish an unbounded family or a smaller exponent. Claim
+`AI-FREE-ISOTROPIC-FLAGS-001` is written and externally unreviewed.
+
+## Canonical boundary pair in every size
+
+The [boundary-pair construction](research/ai/2026-10-21-boundary-pair/README.md)
+gives C(m+2,m+1) degenerating to C(2,m-1) and C(m-1,2), on disjoint
+nonshared legs and one canonical shared m-space, for every m>=3.
+All maps are integral and all basis determinants are units, so the result
+holds over every field. Independent source expansion for m=3 through 20
+checks 50,028 coefficient positions. The construction supplies two sectors;
+adding the middle sectors with a useful total source cost remains open.
+Claim `AI-BOUNDARY-PAIR-001` has a written all-size proof and same-session
+exact controls. It has no external mathematical review or exponent claim.
+
+## Scalar shifted-block cost obstruction
+
+The [shifted moment relation bound](research/ai/2026-10-21-global-moment-flag/scalar_shifted_barrier.md)
+forces B>=m(m+1)/2+floor((m-2)^2/4)-2 for scalar shifted input factors
+with the specified full negative moment equations and invertible matched
+shared Hankel matrices in C(m+1,B). The limiting source cost is therefore
+at least 3/2. The proof uses coefficient-dual contraction over any field;
+828 finite rank controls and 189 exact sum checks support its ingredients.
+Free quotient flags and affine carry rows lie outside these hypotheses.
+Claim `AI-SCALAR-SHIFTED-BARRIER-001` is a written, externally unreviewed
+obstruction for that class. No exponent below 9/4 is established.

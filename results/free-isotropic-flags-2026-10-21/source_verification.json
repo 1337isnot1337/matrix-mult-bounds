@@ -1,0 +1,35 @@
+{
+  "status": "exact full-source F2 replay passed",
+  "source": [
+    7,
+    15,
+    21
+  ],
+  "target": [
+    5,
+    15,
+    15
+  ],
+  "counts": {
+    "total": 1125,
+    "negative": 175,
+    "constant": 175,
+    "constant_nonzero": 72,
+    "positive_nonzero": 352
+  },
+  "ranks": {
+    "shared": 5,
+    "Y": 15,
+    "Z": 15,
+    "sector": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "coefficient_field": "F2",
+  "improves_omega": false,
+  "scope": "Literal binary witness only; characteristic-zero existence uses verify_chart.py and its written proof."
+}
