@@ -1,0 +1,153 @@
+{
+  "claim_id": "AI-CROSSED-FLAT-104",
+  "arithmetic": "integer factor identities and exact prime-field ranks",
+  "source_flattenings": [
+    {
+      "copies": 1,
+      "transpose_first_leg": false,
+      "matrix_shape": [
+        80,
+        72
+      ],
+      "all_factor_coefficients_checked": 5760,
+      "rank": 45
+    },
+    {
+      "copies": 1,
+      "transpose_first_leg": true,
+      "matrix_shape": [
+        80,
+        72
+      ],
+      "all_factor_coefficients_checked": 5760,
+      "rank": 32
+    },
+    {
+      "copies": 2,
+      "transpose_first_leg": false,
+      "matrix_shape": [
+        160,
+        144
+      ],
+      "all_factor_coefficients_checked": 23040,
+      "rank": 90
+    },
+    {
+      "copies": 2,
+      "transpose_first_leg": true,
+      "matrix_shape": [
+        160,
+        144
+      ],
+      "all_factor_coefficients_checked": 23040,
+      "rank": 64
+    }
+  ],
+  "target_flattenings": [
+    {
+      "middle_dimension": 11,
+      "permutation_matrix_size": 44,
+      "rank": 44
+    },
+    {
+      "middle_dimension": 14,
+      "permutation_matrix_size": 56,
+      "rank": 56
+    },
+    {
+      "middle_dimension": 22,
+      "permutation_matrix_size": 88,
+      "rank": 88
+    },
+    {
+      "middle_dimension": 27,
+      "permutation_matrix_size": 108,
+      "rank": 108
+    }
+  ],
+  "slice_normal_forms": [
+    {
+      "copies": 1,
+      "active_first_coefficients": [
+        0
+      ],
+      "rank": 32
+    },
+    {
+      "copies": 1,
+      "active_first_coefficients": [
+        0,
+        3
+      ],
+      "rank": 36
+    },
+    {
+      "copies": 2,
+      "active_first_coefficients": [
+        0
+      ],
+      "rank": 64
+    },
+    {
+      "copies": 2,
+      "active_first_coefficients": [
+        0,
+        3
+      ],
+      "rank": 72
+    }
+  ],
+  "full_source_fixed_first_control": {
+    "original_A88_terms_checked": 262144,
+    "contributing_original_terms": 2560,
+    "compact_source_format": [
+      16,
+      320,
+      288
+    ],
+    "full_flattening_shape": [
+      1280,
+      1152
+    ],
+    "J4_factor_rank": 4,
+    "matched_factor_rank": 90,
+    "full_flattening_rank": 360,
+    "target_M4_4_r_flattening_rank": "16*r",
+    "fixed_first_images_middle_bound": 22,
+    "other_two_maps_arbitrary": true,
+    "fixed_first_images": "E_(i,t),(p,u) maps to F(i,2*p+t,2*u)",
+    "unrestricted_first_map_exclusion_claimed": false
+  },
+  "product_branch_middle_bounds": {
+    "one_copy": 11,
+    "two_copies": 22
+  },
+  "transpose_branch_middle_bounds": {
+    "one_copy": 8,
+    "two_copies": 16
+  },
+  "ordinary_first_map_normalization": [
+    {
+      "copies": 1,
+      "middle_dimension": 14,
+      "rank_one_lift_budget": 34,
+      "rank_two_source_slice": 36,
+      "product_bound": 11,
+      "transpose_bound": 8
+    },
+    {
+      "copies": 2,
+      "middle_dimension": 27,
+      "rank_one_lift_budget": 71,
+      "rank_two_source_slice": 72,
+      "product_bound": 22,
+      "transpose_bound": 16
+    }
+  ],
+  "non_product_first_map_scope_control_rank": 66,
+  "arbitrary_ordinary_two_copy_M2_2_27_excluded": true,
+  "arbitrary_singular_first_map_exclusion_claimed": false,
+  "full_source_A88_M27_plus_M7_excluded": false,
+  "new_exponent_established": false,
+  "external_independent_review": false
+}
