@@ -25,11 +25,11 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-affine-partner-chart/QUESTION.md`. The fresh b=0 fiber and
-source torus close the finite affine partner chart under099 and087, with
-all mixed graphs and boundary four-spaces. The next cases are the two
-projective endpoints. This written seven-by-five exclusion is unreviewed;
-other first-space/flag classes remain and the exponent is unchanged.
+`ai/2026-10-21-all-rankone-seven-five/QUESTION.md`. A complete endpoint
+source closure and physical reversal now cover every projective rank-one
+partner in the canonical seven-by-five class under100. Move to smaller
+first spaces or other flags; repeating this closed class is not a new
+construction route. The written proof is unreviewed and omega is unchanged.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-global-mixed-normal-dichotomy/QUESTION.md`. All six graph

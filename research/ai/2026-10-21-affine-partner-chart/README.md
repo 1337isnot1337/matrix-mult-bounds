@@ -18,3 +18,7 @@ The verifier reconstructs the complete rational fiber at(1,0), both source
 families, all four cubic blocks, the source torus, and the existing corner
 closure. The b-nonzero part adopts099; its verifier is not rerun here.
 Exact replay and CI do not establish independent mathematical review.
+
+The subsequent [projective package](../2026-10-21-all-rankone-seven-five/README.md)
+closes the two coordinate endpoints under the same canonical seven-by-five
+hypotheses. It adopts this affine theorem explicitly.

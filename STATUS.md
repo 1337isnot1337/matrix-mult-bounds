@@ -107,6 +107,18 @@ Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
 
+## Every projective rank-one partner in the seven-by-five class
+
+The [projective closure](research/ai/2026-10-21-all-rankone-seven-five/proof.md)
+reconstructs the remaining coordinate endpoint and eliminates all84
+non-plane normal coordinates with28 actual source slices. Physical source
+reversal is checked on all4096 terms, leading lines and mixed bases.
+Together with the adopted finite affine chart, this covers every nonzero
+projective rank-one partner for canonical full-B seven versus arbitrary
+mixed C five first spaces, including every graph and boundary four-space.
+Claim `AI-ALL-RANKONE-SEVEN-FIVE-101` is written and unreviewed. Smaller
+first spaces and other leading flags remain open; the exponent remains9/4.
+
 ## Complete finite affine rank-one partner chart
 
 The [affine-chart proof](research/ai/2026-10-21-affine-partner-chart/proof.md)

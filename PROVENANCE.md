@@ -776,3 +776,15 @@ torus and shifted moving-plane induction retain their existing credits.
 The full-line099 theorem is adopted explicitly; its verifier is not counted
 as rerun by this boundary package. Exact replay does not supply independent
 review, projective endpoint coverage, or an exponent improvement.
+
+## Complete projective rank-one seven-by-five class
+
+The direct endpoint source closure and explicit projective coverage were
+developed in this owner-directed session. The physical source reversal,
+maximal frames, compatible-partner classification, virtual corrections and
+shifted induction retain their existing credits. Reversal preserves leading
+lines with nonzero scalar factors; literal equality of the signed G rows
+is not required. The affine theorem is adopted without reporting its
+verifier as rerun. Concurrent Ferrers and semisimple refinements are linked
+with exact source heads and their ordinary/border scopes, without assuming
+independent acceptance, new target maps or a smaller exponent.
