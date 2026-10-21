@@ -507,3 +507,16 @@ from an explicit pair-injective parent fail exactly replayed potential
 constraints. Another 10752 symmetry-transformed circuits verify exactly.
 The resulting hole-hitting search timed out. No target degeneration or
 exponent improvement follows from these source and obstruction certificates.
+
+## Exact small cyclic mixed-map construction
+
+[AI-CYCLIC-MIXED-RESTRICTION-046](research/ai/2026-10-20-cyclic-mixed-map/README.md)
+supplies explicit integer maps for the ordinary restriction
+A_2 -> M(2,3,4). All 576 coefficients agree exactly, including all 552
+required zeros; the identity holds over every field. The three matrices
+have 40 nonzero entries in total, all +/-1. This strengthens the earlier
+rational M(2,3,3) witness, which is retained with its discovery history.
+The certificate has no independent mathematical review or Lean
+formalization. Its profile lower bound is weaker than the existing scalar
+bound, so it does not improve the exponent. Larger mixed or singular
+constructions remain open.
