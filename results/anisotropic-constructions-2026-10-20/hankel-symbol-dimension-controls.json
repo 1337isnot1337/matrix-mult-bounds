@@ -1,0 +1,801 @@
+{
+  "claim": "Exact controls for ordinary Hankel-symbol dimension obstruction",
+  "binary_hankel_controls": [
+    {
+      "a": 3,
+      "b": 4,
+      "field_prime": 2,
+      "nonzero_sequences": 63,
+      "rank_histogram": {
+        "1": 3,
+        "2": 12,
+        "3": 48
+      },
+      "kernel_gcd_and_annihilation_checks": 15,
+      "kernel_gcd_with_infinity_factor": 5
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "field_prime": 2,
+      "nonzero_sequences": 255,
+      "rank_histogram": {
+        "1": 3,
+        "2": 12,
+        "3": 48,
+        "4": 192
+      },
+      "kernel_gcd_and_annihilation_checks": 63,
+      "kernel_gcd_with_infinity_factor": 21
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "field_prime": 2,
+      "nonzero_sequences": 1023,
+      "rank_histogram": {
+        "1": 3,
+        "2": 12,
+        "3": 48,
+        "4": 192,
+        "5": 768
+      },
+      "kernel_gcd_and_annihilation_checks": 255,
+      "kernel_gcd_with_infinity_factor": 85
+    }
+  ],
+  "hermite_interpolation_controls": {
+    "degree": 9,
+    "field_prime": 101,
+    "points": [
+      0,
+      1,
+      2,
+      "infinity"
+    ],
+    "schemes_by_length": {
+      "1": 4,
+      "2": 10,
+      "3": 20,
+      "4": 35,
+      "5": 56,
+      "6": 84,
+      "7": 120,
+      "8": 165,
+      "9": 220,
+      "10": 286
+    },
+    "total_schemes": 1000,
+    "all_jet_lists_have_full_rank": true
+  },
+  "bounded_rank_pencil_controls": [
+    {
+      "a": 4,
+      "b": 5,
+      "rank_limit": 2,
+      "field_prime": 101,
+      "schemes": 10,
+      "distinct_scheme_pencils": 45,
+      "sum_rank_histogram": {
+        "3": 24,
+        "4": 21
+      },
+      "every_distinct_scheme_pencil_has_a_member_above_rank_limit": true
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "rank_limit": 3,
+      "field_prime": 101,
+      "schemes": 20,
+      "distinct_scheme_pencils": 190,
+      "sum_rank_histogram": {
+        "4": 60,
+        "5": 130
+      },
+      "every_distinct_scheme_pencil_has_a_member_above_rank_limit": true
+    }
+  ],
+  "variable_scheme_coordinate_projection": {
+    "a": 5,
+    "b": 6,
+    "variable_recurrence": "f[k+2]=x*f[k]",
+    "symbol_span_dimension_over_C_x_z": 2,
+    "selected_long_coordinates": [
+      0,
+      1
+    ],
+    "coefficient_space_dimension": 12,
+    "projected_coefficient_rank_mod_101": 12,
+    "coefficient_dimension_bound": 60,
+    "constant_scheme_claimed": false
+  },
+  "fixed_scheme_line_boundary_counterexamples": [
+    {
+      "a": 3,
+      "b": 3,
+      "rank": 2,
+      "sequence_length": 5,
+      "three_r": 6,
+      "pencil": "delta[1]+c*delta[3]",
+      "parameters": [
+        0,
+        1,
+        2,
+        "infinity"
+      ],
+      "hankel_ranks_mod_101": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "finite_parameter_annihilator": "t^2-c",
+      "support_scheme_varies": true
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "rank": 3,
+      "sequence_length": 8,
+      "three_r": 9,
+      "pencil": "delta[2]+c*delta[5]",
+      "parameters": [
+        0,
+        1,
+        2,
+        "infinity"
+      ],
+      "hankel_ranks_mod_101": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "finite_parameter_annihilator": "t^3-c",
+      "support_scheme_varies": true
+    },
+    {
+      "a": 6,
+      "b": 6,
+      "rank": 4,
+      "sequence_length": 11,
+      "three_r": 12,
+      "pencil": "delta[3]+c*delta[7]",
+      "parameters": [
+        0,
+        1,
+        2,
+        "infinity"
+      ],
+      "hankel_ranks_mod_101": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "finite_parameter_annihilator": "t^4-c",
+      "support_scheme_varies": true
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "rank": 5,
+      "sequence_length": 14,
+      "three_r": 15,
+      "pencil": "delta[4]+c*delta[9]",
+      "parameters": [
+        0,
+        1,
+        2,
+        "infinity"
+      ],
+      "hankel_ranks_mod_101": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "finite_parameter_annihilator": "t^5-c",
+      "support_scheme_varies": true
+    }
+  ],
+  "ordinary_target_tests": [
+    {
+      "a": 5,
+      "b": 5,
+      "blocks": [
+        14
+      ],
+      "source_leg_dimension": 225,
+      "target_leg_dimension": 196,
+      "loss_per_leg": 29,
+      "tests": [
+        {
+          "block_index": 0,
+          "block_size": 14,
+          "symbol_rank_limit": 1,
+          "block_dimension": 196,
+          "coefficient_dimension_limit": 25,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "rank_threshold": 50,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 14,
+          "symbol_rank_limit": 2,
+          "block_dimension": 196,
+          "coefficient_dimension_limit": 50,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "rank_threshold": 75,
+          "excludes_ordinary_restriction": true
+        },
+        {
+          "block_index": 0,
+          "block_size": 14,
+          "symbol_rank_limit": 3,
+          "block_dimension": 196,
+          "coefficient_dimension_limit": 75,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "rank_threshold": 100,
+          "excludes_ordinary_restriction": true
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "blocks": [
+        16
+      ],
+      "source_leg_dimension": 300,
+      "target_leg_dimension": 256,
+      "loss_per_leg": 44,
+      "tests": [
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 1,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 104,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 2,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 104,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 3,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 104,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": true
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "blocks": [
+        16,
+        4
+      ],
+      "source_leg_dimension": 300,
+      "target_leg_dimension": 272,
+      "loss_per_leg": 28,
+      "tests": [
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 1,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 2,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": true
+        },
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 3,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 72,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": true
+        },
+        {
+          "block_index": 1,
+          "block_size": 4,
+          "symbol_rank_limit": 1,
+          "block_dimension": 16,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 4,
+          "symbol_rank_limit": 2,
+          "block_dimension": 16,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 4,
+          "symbol_rank_limit": 3,
+          "block_dimension": 16,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "blocks": [
+        16,
+        3,
+        2,
+        1,
+        1
+      ],
+      "source_leg_dimension": 300,
+      "target_leg_dimension": 271,
+      "loss_per_leg": 29,
+      "tests": [
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 1,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 74,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 2,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 74,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": true
+        },
+        {
+          "block_index": 0,
+          "block_size": 16,
+          "symbol_rank_limit": 3,
+          "block_dimension": 256,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 74,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": true
+        },
+        {
+          "block_index": 1,
+          "block_size": 3,
+          "symbol_rank_limit": 1,
+          "block_dimension": 9,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 61,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 3,
+          "symbol_rank_limit": 2,
+          "block_dimension": 9,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 61,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 3,
+          "symbol_rank_limit": 3,
+          "block_dimension": 9,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 61,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 2,
+          "block_size": 2,
+          "symbol_rank_limit": 1,
+          "block_dimension": 4,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 2,
+          "block_size": 2,
+          "symbol_rank_limit": 2,
+          "block_dimension": 4,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 2,
+          "block_size": 2,
+          "symbol_rank_limit": 3,
+          "block_dimension": 4,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 60,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 3,
+          "block_size": 1,
+          "symbol_rank_limit": 1,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 59,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 3,
+          "block_size": 1,
+          "symbol_rank_limit": 2,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 59,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 3,
+          "block_size": 1,
+          "symbol_rank_limit": 3,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 59,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 4,
+          "block_size": 1,
+          "symbol_rank_limit": 1,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 59,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 4,
+          "block_size": 1,
+          "symbol_rank_limit": 2,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 59,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 4,
+          "block_size": 1,
+          "symbol_rank_limit": 3,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 59,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        }
+      ],
+      "ordinary_restriction_excluded": true,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "blocks": [
+        15,
+        4,
+        2,
+        1,
+        1
+      ],
+      "source_leg_dimension": 300,
+      "target_leg_dimension": 247,
+      "loss_per_leg": 53,
+      "tests": [
+        {
+          "block_index": 0,
+          "block_size": 15,
+          "symbol_rank_limit": 1,
+          "block_dimension": 225,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 121,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 15,
+          "symbol_rank_limit": 2,
+          "block_dimension": 225,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 121,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 15,
+          "symbol_rank_limit": 3,
+          "block_dimension": 225,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 121,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 4,
+          "symbol_rank_limit": 1,
+          "block_dimension": 16,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 110,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 4,
+          "symbol_rank_limit": 2,
+          "block_dimension": 16,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 110,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 4,
+          "symbol_rank_limit": 3,
+          "block_dimension": 16,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 110,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 2,
+          "block_size": 2,
+          "symbol_rank_limit": 1,
+          "block_dimension": 4,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 108,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 2,
+          "block_size": 2,
+          "symbol_rank_limit": 2,
+          "block_dimension": 4,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 108,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 2,
+          "block_size": 2,
+          "symbol_rank_limit": 3,
+          "block_dimension": 4,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 108,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 3,
+          "block_size": 1,
+          "symbol_rank_limit": 1,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 107,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 3,
+          "block_size": 1,
+          "symbol_rank_limit": 2,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 107,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 3,
+          "block_size": 1,
+          "symbol_rank_limit": 3,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 107,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 4,
+          "block_size": 1,
+          "symbol_rank_limit": 1,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 30,
+          "lifted_rank_one_slice_upper_bound": 107,
+          "rank_threshold": 60,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 4,
+          "block_size": 1,
+          "symbol_rank_limit": 2,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 60,
+          "lifted_rank_one_slice_upper_bound": 107,
+          "rank_threshold": 90,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 4,
+          "block_size": 1,
+          "symbol_rank_limit": 3,
+          "block_dimension": 1,
+          "coefficient_dimension_limit": 90,
+          "lifted_rank_one_slice_upper_bound": 107,
+          "rank_threshold": 120,
+          "excludes_ordinary_restriction": false
+        }
+      ],
+      "ordinary_restriction_excluded": false,
+      "singular_degeneration_excluded": false
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "blocks": [
+        25,
+        5
+      ],
+      "source_leg_dimension": 784,
+      "target_leg_dimension": 650,
+      "loss_per_leg": 134,
+      "tests": [
+        {
+          "block_index": 0,
+          "block_size": 25,
+          "symbol_rank_limit": 1,
+          "block_dimension": 625,
+          "coefficient_dimension_limit": 56,
+          "lifted_rank_one_slice_upper_bound": 293,
+          "rank_threshold": 112,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 25,
+          "symbol_rank_limit": 2,
+          "block_dimension": 625,
+          "coefficient_dimension_limit": 112,
+          "lifted_rank_one_slice_upper_bound": 293,
+          "rank_threshold": 168,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 25,
+          "symbol_rank_limit": 3,
+          "block_dimension": 625,
+          "coefficient_dimension_limit": 168,
+          "lifted_rank_one_slice_upper_bound": 293,
+          "rank_threshold": 224,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 0,
+          "block_size": 25,
+          "symbol_rank_limit": 4,
+          "block_dimension": 625,
+          "coefficient_dimension_limit": 224,
+          "lifted_rank_one_slice_upper_bound": 293,
+          "rank_threshold": 280,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 5,
+          "symbol_rank_limit": 1,
+          "block_dimension": 25,
+          "coefficient_dimension_limit": 56,
+          "lifted_rank_one_slice_upper_bound": 273,
+          "rank_threshold": 112,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 5,
+          "symbol_rank_limit": 2,
+          "block_dimension": 25,
+          "coefficient_dimension_limit": 112,
+          "lifted_rank_one_slice_upper_bound": 273,
+          "rank_threshold": 168,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 5,
+          "symbol_rank_limit": 3,
+          "block_dimension": 25,
+          "coefficient_dimension_limit": 168,
+          "lifted_rank_one_slice_upper_bound": 273,
+          "rank_threshold": 224,
+          "excludes_ordinary_restriction": false
+        },
+        {
+          "block_index": 1,
+          "block_size": 5,
+          "symbol_rank_limit": 4,
+          "block_dimension": 25,
+          "coefficient_dimension_limit": 224,
+          "lifted_rank_one_slice_upper_bound": 273,
+          "rank_threshold": 280,
+          "excludes_ordinary_restriction": false
+        }
+      ],
+      "ordinary_restriction_excluded": false,
+      "singular_degeneration_excluded": false
+    }
+  ],
+  "singular_exclusion_claimed": false,
+  "new_exponent_established": false
+}

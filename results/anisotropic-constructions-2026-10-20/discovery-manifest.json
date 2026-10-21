@@ -1,0 +1,84 @@
+{
+  "dense_runs": [
+    {
+      "best_array": "dense-real-best.npz",
+      "report": "dense-real-report.json",
+      "reproduction_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python research/ai/2026-10-20-anisotropic-constructions/dense_als.py --starts 2 --iterations 60 --initial results/anisotropic-constructions-2026-10-20/torus-real-best.npz --noise 0.1 --output results/local/anisotropic-dense-real"
+    },
+    {
+      "best_array": "dense-complex-best.npz",
+      "report": "dense-complex-report.json",
+      "reproduction_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python research/ai/2026-10-20-anisotropic-constructions/dense_als.py --starts 3 --iterations 150 --complex --seed 2026102410 --output results/local/anisotropic-dense-complex"
+    }
+  ],
+  "exact_witness_found": false,
+  "files": {
+    "anisotropic-general-torus-weights.json": {
+      "bytes": 4145,
+      "sha256": "1c920b06beb2bc68bc6a015d399d958830cc418c237b05f18b760b0503ad92de"
+    },
+    "anisotropic-torus-weights.json": {
+      "bytes": 2127,
+      "sha256": "d0ca282ac9d73e2131d222fef5f9df6cfbae303717c141c0ff52e540eb36b4df"
+    },
+    "central-minrank-controls.json": {
+      "bytes": 601,
+      "sha256": "bf6e10662041db493cc37d708487f068602dc86f3284b0236b68df59c13fd6dc"
+    },
+    "certificate.json": {
+      "bytes": 17065,
+      "sha256": "05c9b3facce6d543e2f8eb146f337256b1193144a1f19d6ca22c857b3b5284fb"
+    },
+    "dense-complex-best.npz": {
+      "bytes": 1120092,
+      "sha256": "2415a2fafa9b88afe10d8afc07937ca9dae8f36df9c245dc8d18745a57670884"
+    },
+    "dense-complex-report.json": {
+      "bytes": 7357,
+      "sha256": "2aec329ab5e158b06c28be7a8612d4ebb74571bd873a682076542067bceae2e5"
+    },
+    "dense-real-best.npz": {
+      "bytes": 568361,
+      "sha256": "2cb0eca67ee8499889f85285b7fd0d84b877634304d78e4ccad145dd617fcb6f"
+    },
+    "dense-real-report.json": {
+      "bytes": 2896,
+      "sha256": "ee20871463dd20f976040d75d41354bf98c732b507a384c226971acc64442c84"
+    },
+    "slice-rank-gap-controls.json": {
+      "bytes": 8013,
+      "sha256": "4f60b69fd4d76ce229984cca7335188007b71c4bb54690b93515159ec668cd97"
+    },
+    "torus-complex-best.npz": {
+      "bytes": 124265,
+      "sha256": "e7709218eeabd547588c9671e3110d2c8914109b67f2f6fe367ff46c05749f71"
+    },
+    "torus-complex-report.json": {
+      "bytes": 22168,
+      "sha256": "edd3fd77ff3a80f91268f75d24c48dbca29569c0de3d078cad037d9ec4c9dc46"
+    },
+    "torus-pilot-best.npz": {
+      "bytes": 65947,
+      "sha256": "149889a9d9362dc2aad96323f215ae43cd2b0389c69f23ee5fe9cf9694f11226"
+    },
+    "torus-pilot-report.json": {
+      "bytes": 5752,
+      "sha256": "df1ee55d24f21877e59ee62f8b8a2690f0a908032d821b2ec510ad3f8ea5b2f5"
+    },
+    "torus-real-best.npz": {
+      "bytes": 66980,
+      "sha256": "df003cd74f899f81c0b38352c43004cee87de31614306a6e5c3c57ef3097234d"
+    },
+    "torus-real-report.json": {
+      "bytes": 22174,
+      "sha256": "1ad61f9278b64ae7355d98ddc6283ba0e05eae5d419cff9455bdebdad3f46820"
+    },
+    "torus_weight_audit.json": {
+      "bytes": 2680,
+      "sha256": "070571ee43af779bfe93a4ed996a03635432cf63447795acf65e3ab989d13abd"
+    }
+  },
+  "new_exponent_established": false,
+  "note": "Original dense-real initial path was results/local/anisotropic-torus-real/best.npz; the archived torus-real-best.npz has the same SHA256. Numerical reports do not prove exclusions. See slice_rank_gap.md for the separate ordinary-map obstruction.",
+  "scope": "Archived diagonal-torus and arbitrary dense constant-map discovery; no witness"
+}

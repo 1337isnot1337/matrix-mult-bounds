@@ -1,0 +1,138 @@
+{
+  "source_lengths": [
+    5,
+    5
+  ],
+  "source_mode": "full",
+  "target_shape": [
+    14,
+    14,
+    14
+  ],
+  "source_nonzero_coefficients": 15625,
+  "complex_maps": false,
+  "map_class": "arbitrary dense constant maps",
+  "core_array": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_m9_maps.npz",
+  "core_sha256": "f1b1a9166a9a326e79347c2094fa500fe7cddee78f4817c4e0c805c55973a81b",
+  "core_nonzero_target_coefficients": 729,
+  "embedded_core_full_relative_error": 0.8569302457400719,
+  "initial_noise": 0.3,
+  "noise_convention": "Gaussian perturbation in the original source coordinates, then division by any source diagonal scaling",
+  "scaling": "results/anisotropic-constructions-2026-10-20/parity_balancing_full_preconditioner.npz",
+  "scaling_sha256": "3175e37eaffb7b68b9d109ee5517ad1e1ce7958ada3f52827d6754b7019c10e0",
+  "starts_completed": 1,
+  "maximum_iterations": 80,
+  "records": [
+    {
+      "seed": 202610214000,
+      "initial_error": 1.4080771287582667,
+      "iterations": 80,
+      "trajectory": [
+        [
+          1,
+          0.9057887855621417,
+          0.15
+        ],
+        [
+          5,
+          0.8604621933247589,
+          0.11844784302749589
+        ],
+        [
+          10,
+          0.8583105950441561,
+          0.08817024108412369
+        ],
+        [
+          15,
+          0.8577014073239334,
+          0.06563219062611277
+        ],
+        [
+          20,
+          0.8573847672584463,
+          0.048855309834896755
+        ],
+        [
+          25,
+          0.8572085801487316,
+          0.03636693025623492
+        ],
+        [
+          30,
+          0.857108170690181,
+          0.027070826502407556
+        ],
+        [
+          35,
+          0.8570495040835314,
+          0.020150989988983504
+        ],
+        [
+          40,
+          0.8570140474841582,
+          0.015
+        ],
+        [
+          45,
+          0.8569895720916034,
+          0.0
+        ],
+        [
+          50,
+          0.8569756305068087,
+          0.0
+        ],
+        [
+          55,
+          0.8569659487848623,
+          0.0
+        ],
+        [
+          60,
+          0.85695897763617,
+          0.0
+        ],
+        [
+          65,
+          0.8569538076386604,
+          0.0
+        ],
+        [
+          70,
+          0.8569498779044831,
+          0.0
+        ],
+        [
+          75,
+          0.8569468280555277,
+          0.0
+        ],
+        [
+          80,
+          0.8569444184371473,
+          0.0
+        ]
+      ],
+      "final_error": 0.8569444184371473,
+      "map_norms": [
+        88.82982275103929,
+        88.82982275103923,
+        88.8298227510393
+      ]
+    }
+  ],
+  "singular_value_floor": {
+    "initial": 0.15,
+    "final": 0.015,
+    "active_iterations": 40,
+    "metric": "original source coordinates",
+    "remaining_iterations": "unregularized ALS"
+  },
+  "best_full_relative_error": 0.8569444184371473,
+  "full_target_coefficient_count": 7529536,
+  "exact_witness_found": false,
+  "exclusion_proved": false,
+  "target_alone_improves_exponent": false,
+  "new_exponent_established": false
+}

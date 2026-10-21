@@ -1,0 +1,33 @@
+{
+  "base_main": "2a7c503324ec5700336d98ec014e4f94402993f3",
+  "topic_parent": "e44aaff22af7863e0a1f5db66d187ae997c82184",
+  "python": "3.12.14",
+  "regression": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 338,
+    "status": "passed",
+    "elapsed_seconds": 145.704,
+    "log": "integration-hankel-tests.txt"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "status": "passed",
+    "reports": 5,
+    "scalar_grid_checks": 73856,
+    "filtration_inequalities": 353664,
+    "weight_candidates": 242668,
+    "log": "integration-hankel-archive-replay.txt"
+  },
+  "same_session_finite_controls": {
+    "binary_hankel_sequences": 1341,
+    "hermite_schemes": 1000,
+    "rank_two_integer_coefficients": 1296000,
+    "scalar_extended_M3_target_coefficients": 729
+  },
+  "independent_mathematical_review": false,
+  "new_exponent_established": false,
+  "log_sha256": {
+    "integration-hankel-tests.txt": "30acec7ff8e8f76d3e1858a5863734d56d21e132707249bdcd08401a7705c365",
+    "integration-hankel-archive-replay.txt": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  }
+}
