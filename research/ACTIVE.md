@@ -11,6 +11,14 @@ combinations and the other partner points remain under investigation.
 PR62 merged at99ce778 with equal source/squash trees and its completed
 branches removed. PR63 is queued after current checks. No exponent gain.
 
+The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)
+now uses the existing polynomial and higher Hankel gates. Every improving
+single ordinary shape through a7 is excluded; a8 has only M(27,28,28)
+left by these tests. This is an unconstructed candidate for the constructive
+source campaign. The quantum worker's separate positive question remains
+a higher-rank completion of the A4 integrable boundary shear. PR61 merged
+at e24894f after current checks, with exact tested/merged tree equality;
+its completed task branches are removed.
 
 The quantum worker now studies
 `ai/2026-10-21-integrable-boundary-shears/QUESTION.md`. A complete exact
