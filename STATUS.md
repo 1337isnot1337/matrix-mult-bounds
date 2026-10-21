@@ -565,3 +565,14 @@ more general Laurent maps remains open. Two 16-start weighted ALS searches
 and two refinements supplied no exact M3 degeneration. Saved diagnostics
 include large omitted coefficients; masked residuals are not certificates.
 The exponent is unchanged.
+
+## Equivariant cyclic construction obstruction
+
+[AI-CYCLIC-EQUIVARIANT-050](research/ai/2026-10-20-cyclic-equivariant/README.md)
+proves an all-size five-coefficient polynomial obstruction to diagonal-SL2
+equivariant A_a to M_(2a-1) degeneration with irreducible vertex actions.
+Exact representation counts also exclude all choices of matrix-vertex
+representations for the specified H1100 equivariant ansatz; A2 to M3 is
+closed by combining the count with the polynomial identity. General maps
+that break this symmetry remain open. The proof is unreviewed; the exponent
+is unchanged.
