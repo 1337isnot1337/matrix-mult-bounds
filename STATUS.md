@@ -903,3 +903,23 @@ The new finite question includes dense rectangular shared maps for C(5,10).
 The earlier ordinary frontier in the higher-Hankel package is preserved
 as a dated relaxation. Main's later boundary theorem excludes its A(7,8)
 survivor; the current larger ordinary frontier is described above.
+
+## Rectangular module equations and compressed maps
+
+The [independent-map reformulation](research/ai/2026-10-20-rectangular-module/README.md)
+gives an exact row/controllable-pair criterion and an explicit parity factorization
+of the fat-point tensor. Its middle rank suggests the source C(m+1,N+m/2-2).
+For C(5,10), the missing right-factor condition becomes eight vector syzygies.
+No simultaneous solution is supplied. A separate coprime-product argument
+excludes only the symmetric one-pole low/high degree split, leaving mixed
+leading rows, asymmetric supports, and higher Laurent orders open.
+The exact parity replay checks 43,664 coefficients at m=4,6,8,10.
+
+The [compressed packing](research/ai/2026-10-21-compressed-packing/README.md)
+fits in C(m,N), with an explicitly retained negative Laurent coefficient.
+A singular shared rescaling gives an actual all-even-size degeneration to
+a different tensor U_m consisting of the three central fat-point slices and
+that error coefficient. Twenty exact cases cover 182,140 source terms per
+map family. This does not construct the full fat-point target or prove a
+smaller exponent; a useful character estimate for the alternative tensor
+has not been established. The new claims remain written and unreviewed.
