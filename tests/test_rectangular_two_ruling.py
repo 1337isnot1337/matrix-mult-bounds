@@ -13,7 +13,12 @@ class TwoRulingTests(unittest.TestCase):
  def test_M30_witness(self):
   w=e.exclusion(8,9,[(30,30,30)],[900,900,900]);self.assertEqual((w['lift_upper'],w['next_symbol_threshold'],w['coefficient_cap'],w['target_parameter_dimension']),(564,576,864,900))
  def test_M33_witness_and_scope_guard(self):
-  w=e.exclusion(8,10,[(33,33,33)],[1089]*3);self.assertEqual((w['lift_upper'],w['next_symbol_threshold'],w['coefficient_cap']),(608,640,960));self.assertIsNone(e.exclusion(10,10,[(40,40,40)],[1600]*3))
+  w=e.exclusion(8,10,[(33,33,33)],[1089]*3);self.assertEqual((w['lift_upper'],w['next_symbol_threshold'],w['coefficient_cap']),(608,640,960))
+  # A(10,10) now has a replayed cap certificate in the size-2000 scan.
+  w=e.exclusion(10,10,[(40,40,40)],[1600]*3)
+  self.assertEqual((w['lift_upper'],w['next_symbol_threshold'],w['coefficient_cap']),(720,1000,1300))
+  # A(10,11) remains outside the certified format guard.
+  self.assertIsNone(e.exclusion(10,11,[(40,40,40)],[1600]*3))
 
  def test_three_ruling_bound_and_target(self):
   self.assertEqual(e.ruling_bound(8,3),11)

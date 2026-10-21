@@ -54,3 +54,9 @@ the unchanged directional-derivative gate (minimum error1.127e-7 against
 a required1e-7) and stopped before optimization. The retry uses the
 smoke-tested1e-10 floor and must pass the same gate. This failed attempt
 is retained as a validation result, not counted as optimization progress.
+
+The second degree-two unnormalized continuation completed 80 evaluations in
+4738.062 seconds with raw joint error5.21553e-5. Its exact dyadic checkpoint
+fails the modular coefficient test at every required exponent0..6 (10000
+mismatches each), while the exact M(5,5,3) positive control passes. The
+checkpoint and both reports are retained; this is no exact construction.
