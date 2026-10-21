@@ -388,3 +388,9 @@ The two-summand ruling refinement is a finite application of the local
 ruling lemma. It reconstructs prior records and verifies their published
 SHA-256 hashes before applying the gate. Four focused tests pass; this is
 not independent review of the general lemmas or an exponent improvement.
+
+The distinct-spectral-atom slice formula is a self-contained factorization
+and polynomial-kernel argument for an explicitly restricted ansatz. Small
+original-source controls and a sharp650 example support the finite checks.
+It does not classify general Hankel slices, invalidate the641 counterexample,
+or establish a smaller exponent. The proof remains written and unreviewed.

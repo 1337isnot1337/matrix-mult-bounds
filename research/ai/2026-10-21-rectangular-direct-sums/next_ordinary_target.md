@@ -55,3 +55,11 @@ The five needed top-Hankel cap formats have74360 integer coordinate minor
 certificates. Their general torus and dimension arguments remain written
 and unreviewed. Singular degenerations and multiple-block targets are not
 closed by this single ordinary scan.
+
+## Restricted distinct-atom continuation
+
+The new `distinct_atoms.md` proves a sharp650 lower bound when a slice
+has crossed rank9 and consists of nine distinct finite rank-one spectral
+atoms. Such a slice misses the641 ceiling. This narrows that ansatz only:
+crossed rank8, repeated/infinite support and general slices are untouched.
+The existing641 counterexample remains valid.
