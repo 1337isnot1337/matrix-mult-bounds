@@ -850,6 +850,20 @@ The unique Cartan profile is adopted from claim 051; the second integer
 recursion only checks that earlier result. All new proofs are written and
 unreviewed. Different flags, ungraded constructions and powers remain open.
 
+## Candidate quantum quotient and weight-block comparisons
+
+[AI-CYCLIC-ROOT-MODULES-053](research/ai/2026-10-20-cyclic-weight-blocks/root_quotient.md)
+realizes the formal negative-singlet vertex character as an actual quantum
+quotient at a root of unity. The quotient keeps a divided-power connection
+that would be lost by treating its ordinary-generator pieces independently.
+This supplies target representation data, not the required tensor maps.
+
+[EXP-CYCLIC-BLOCK-FLATTENINGS-054](research/ai/2026-10-20-cyclic-weight-blocks/README.md)
+retains 14364 grading upper comparisons and 3924 modular source-rank
+comparisons on the selected A3, A4, A5 blocks. None excludes its target.
+The specified quantum leading flags closed by PR33 remain closed, and no
+exponent improvement is established.
+
 ## Size-five Cartan frontier
 
 [AI-CYCLIC-CARTAN-SCREENS-052](research/ai/2026-10-20-cyclic-equivariant/a5.md)
