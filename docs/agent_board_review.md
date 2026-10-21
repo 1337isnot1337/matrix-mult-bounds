@@ -74,3 +74,10 @@ Continue the convolution route, now screening candidates with the exact Koszul
 formulas. Keep the group's finite-object leads in this attributed map. A claim
 can enter the local theorem ledger only after its hypotheses and proof artifacts
 have been checked; board publication alone is not that check.
+
+## Subsequent source refresh
+
+After PR #32, the matrix board still returned the same four October 17
+posts. The new [external-source comparison](external_followups.md) records
+an earlier scalar-profile result found in a public research repository
+and distinguishes its main-branch theorem from its open follow-up PR.

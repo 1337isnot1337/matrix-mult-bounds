@@ -6,8 +6,8 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The continuation on `research/constructive-spectrum-20261020` records fourteen
-new claims, AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-RESIDUAL-065,
+The constructive continuation records twenty-three local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-CYCLIC-QUOTIENT-VOLUME-074,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
@@ -30,12 +30,14 @@ do not constitute independent mathematical review.
   3r<=a+b-1. A separate [equality argument](research/ai/2026-10-20-anisotropic-constructions/parity_structure_equality.md)
   and [three-leg factorization](research/ai/2026-10-20-anisotropic-constructions/hankel_rank_two.md)
   close the rank-2ab boundary for square blocks of size at least three.
+  The [first-boundary theorem](research/ai/2026-10-20-anisotropic-constructions/hankel_boundary_dimension.md)
+  extends the Segre-image bound to a+b-1=3r-1, with dimension cap max(r,4).
   [Exact partition enumeration](research/ai/2026-10-20-anisotropic-constructions/square_sum_frontier.md)
-  then excludes every ordinary square direct-sum target that could pass the
-  finite 9/4 score in all 51 source formats with leg dimension below 784.
-  The first surviving format is A(7,8): M25 plus M5 would imply a bound
-  below 2.247, but its maps are missing. The former ordinary A(5,6) target
-  M16 plus M4 is excluded. Singular full-source degenerations remain open.
+  now excludes every improving ordinary square direct sum from all 60 source
+  formats with leg dimension below 960, and from A(5,12) at dimension 960.
+  The former A(7,8) target M25 plus M5 is excluded. The first surviving
+  format is A(8,8): M27 plus M7 would imply omega<2.2485, but its maps are
+  missing. Singular full-source degenerations remain open.
 - An [explicit parity degeneration](research/ai/2026-10-20-anisotropic-constructions/parity_balancing.md)
   has positive rational marginal certificates and cyclic asymptotic
   slice-rank capacity about 212.716257. A stronger
@@ -58,6 +60,31 @@ do not constitute independent mathematical review.
   for composition. A [corner split](research/ai/2026-10-20-anisotropic-constructions/parity_structure_corner_extension.md)
   supplies A(2,2) plus one scalar from A(2,3). These maps do not improve
   the exponent.
+
+
+- The [all-size retained-residual construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_full_residual.md)
+  gives A(a,a+1) to M(2a-2) plus A(2,a-2), for every a>=5. The complete
+  A(7,8) to M12 plus A(2,5) witness has an integer-only replay. A fixed-core
+  extension bound limits that particular core to total leg dimension 256.
+- The [triangular lift](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_triangular.md)
+  gives A(a,b) plus M((a-1)(b-1)) to M(a+b-1). Its residual is retained.
+  [Score limits](research/ai/2026-10-20-anisotropic-constructions/quotient_score_barrier.md)
+  close the stated single full-correction comparison and independent corner
+  supplier. A [cyclic determinant identity](research/ai/2026-10-20-anisotropic-constructions/parity_structure_three_quotients.md)
+  prevents the scalar correction from vanishing in the exact A22 quotient
+  family. The [cyclic quotient-volume theorem](research/ai/2026-10-20-anisotropic-constructions/cyclic_quotient_volume.md)
+  further proves m0*m1*m2<=(a+b-1)^3 for three unrelated exact physical
+  quotients over every field. Even free residual cancellation cannot pass
+  the single-target finite comparison in that class. Unrestricted
+  off-diagonal compression maps remain open.
+- Exact integral controls include A(2,3) to M4 with zero quotient-kernel
+  action and [A(8,8) to M15](research/ai/2026-10-20-anisotropic-constructions/parity_structure_a88_seed.md).
+  The latter has 462 nonzero entries per map and a complete sparse replay.
+  These controls do not construct the larger improving target.
+
+The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
+records 368 passing tests and five unchanged archive replays at `8b09235`.
+This computational coverage does not change the proof-review status.
 
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.
@@ -812,3 +839,17 @@ constant-map screens, within the specified Cartan-intertwining class.
 M(14,14,15) still passes the displayed character and extreme-slice tests.
 An actual degeneration to it would imply omega<2.245; it is unconstructed.
 Completed 32-start size-three and six-start size-five pilots produced no exact witness.
+
+## Quantum first jets with constant output projections
+
+The [first-jet saturation proof](research/ai/2026-10-20-quantum-jet-filtration/proof.md)
+removes the grading assumption for the prescribed order-three/six quantum
+curves. Thirty-two nonzero 64-by-64 minors give a full-output slice ceiling
+56, allowing arbitrary Laurent first-leg maps and all nonzero approach rates,
+orders and higher terms. A separate uniform inactive-slice argument gives
+ceiling 94 after arbitrary constant codimension-two output projections
+before taking the limit. Both ceilings are below the target's required 100.
+Claims AI-FIRST-JET-SATURATION-001 and AI-QUANTUM-CURVE-JETS-002 are written
+and unreviewed. Six completed finite-field coefficient pilots are retained
+as discovery data only. Parameter-dependent projections, different leading
+flags and non-scalar block weights remain open; the exponent is unchanged.

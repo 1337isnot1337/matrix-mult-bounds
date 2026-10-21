@@ -1,0 +1,296 @@
+{
+  "claim": "cyclic product of the three A22 scalar-defect coefficient determinants equals one",
+  "scope": "regular exact-MM quotient lifts with arbitrary three quotient kernels and cyclic target bases",
+  "arithmetic": "Python exact rational arithmetic; standard library only",
+  "examples": [
+    {
+      "kernel_vectors": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "kernel_deltas": [
+        1,
+        1,
+        1
+      ],
+      "scalar_coefficient_matrices": [
+        [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "scalar_coefficient_determinants": [
+        "1",
+        "1",
+        "1"
+      ],
+      "cyclic_determinant_product": "1",
+      "target_matrix_units_checked_per_leg": 9,
+      "all_hankel_lift_constraints_exact": true,
+      "all_quotient_equations_exact": true,
+      "all_kernel_actions_exact": true,
+      "complete_trilinear_coefficients_checked": 729,
+      "all_trilinear_coefficients_exact": true,
+      "scalar_defect_frobenius_norm_squared": "27",
+      "target_M3_frobenius_norm_squared": 27,
+      "normalized_relative_residual_at_least_one": true
+    },
+    {
+      "kernel_vectors": [
+        [
+          1,
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          -2,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          -1,
+          2
+        ]
+      ],
+      "kernel_deltas": [
+        3,
+        7,
+        5
+      ],
+      "scalar_coefficient_matrices": [
+        [
+          [
+            "35/3",
+            "-17",
+            "-17/3"
+          ],
+          [
+            "0",
+            "4/3",
+            "-1/3"
+          ],
+          [
+            "-7/3",
+            "4",
+            "4/3"
+          ]
+        ],
+        [
+          [
+            "5/7",
+            "2/7",
+            "-4/7"
+          ],
+          [
+            "0",
+            "3/7",
+            "-1/7"
+          ],
+          [
+            "10/7",
+            "-3/7",
+            "6/7"
+          ]
+        ],
+        [
+          [
+            "6/5",
+            "-6/5",
+            "-3"
+          ],
+          [
+            "0",
+            "7/5",
+            "16/5"
+          ],
+          [
+            "-9/5",
+            "14/5",
+            "7"
+          ]
+        ]
+      ],
+      "scalar_coefficient_determinants": [
+        "49/9",
+        "25/49",
+        "9/25"
+      ],
+      "cyclic_determinant_product": "1",
+      "target_matrix_units_checked_per_leg": 9,
+      "all_hankel_lift_constraints_exact": true,
+      "all_quotient_equations_exact": true,
+      "all_kernel_actions_exact": true,
+      "complete_trilinear_coefficients_checked": 729,
+      "all_trilinear_coefficients_exact": true,
+      "scalar_defect_frobenius_norm_squared": "24355904/147",
+      "target_M3_frobenius_norm_squared": 27,
+      "normalized_relative_residual_at_least_one": true
+    },
+    {
+      "kernel_vectors": [
+        [
+          1,
+          2,
+          -1,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          -3,
+          2,
+          4
+        ]
+      ],
+      "kernel_deltas": [
+        5,
+        -2,
+        10
+      ],
+      "scalar_coefficient_matrices": [
+        [
+          [
+            "-6/5",
+            "-2/5",
+            "2/5"
+          ],
+          [
+            "0",
+            "3/5",
+            "-1/5"
+          ],
+          [
+            "4/5",
+            "3/5",
+            "-3/5"
+          ]
+        ],
+        [
+          [
+            "5",
+            "-1",
+            "-2"
+          ],
+          [
+            "0",
+            "-3/2",
+            "-1/2"
+          ],
+          [
+            "5",
+            "-3",
+            "-6"
+          ]
+        ],
+        [
+          [
+            "2",
+            "-1/5",
+            "3/5"
+          ],
+          [
+            "0",
+            "2/5",
+            "-7/10"
+          ],
+          [
+            "3/2",
+            "-2/5",
+            "6/5"
+          ]
+        ]
+      ],
+      "scalar_coefficient_determinants": [
+        "4/25",
+        "25",
+        "1/4"
+      ],
+      "cyclic_determinant_product": "1",
+      "target_matrix_units_checked_per_leg": 9,
+      "all_hankel_lift_constraints_exact": true,
+      "all_quotient_equations_exact": true,
+      "all_kernel_actions_exact": true,
+      "complete_trilinear_coefficients_checked": 729,
+      "all_trilinear_coefficients_exact": true,
+      "scalar_defect_frobenius_norm_squared": "80278/25",
+      "target_M3_frobenius_norm_squared": 27,
+      "normalized_relative_residual_at_least_one": true
+    }
+  ],
+  "complete_trilinear_coefficients_checked": 2187,
+  "uniform_normalized_relative_residual_lower_bound": "1",
+  "arbitrary_A22_degeneration_excluded": false,
+  "new_exponent_established": false
+}
