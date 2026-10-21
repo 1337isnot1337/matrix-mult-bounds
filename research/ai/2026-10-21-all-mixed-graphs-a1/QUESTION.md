@@ -25,3 +25,9 @@ all improving ordinary square direct sums from A8 and A9. These are
 written unreviewed exclusions and necessary-test survivors, with the
 original workers' credit; they do not replace the full all-source frontier
 or settle singular maps. They are not dependencies of this local proof.
+
+Main80737e6 also integrates exact central-cover parity and capacity controls
+for the still-unconstructed SL(2,5) M10 target. Five focused tests replayed
+locally. Its bounded search records are neither a witness nor a general
+exclusion and retain the original worker's credit. The matrix board feed
+was unchanged at the October21 around17:30 UTC refresh.
