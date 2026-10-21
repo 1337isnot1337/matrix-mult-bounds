@@ -6,11 +6,26 @@ Date: October 21, 2026.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records fifty-two local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-MOVING-COMPRESSION-103,
+The constructive continuation records fifty-six local claims,
+AI-ORIENTED-ENDPOINT-052 through AI-CHANGED-CORNER-MODULE-107,
 in [the claim ledger](research/claims.json). All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [spin-one module construction](research/ai/2026-10-20-anisotropic-constructions/spin_module14.md)
+now gives exact rational maps from A(4,8) to M(3,3,14) and from A(8,8)
+to M(3,3,28). Its nonproduct first map absorbs the earlier scalar
+correction into the larger source, with no extra scalar summand. All
+source and target coefficients are checked exactly. The first response
+is confined to 192 coordinates, leaving enough linear room for the
+unconstructed target M27 plus M6 plus M3. That target would imply
+omega below 2.24975; this is a conditional comparison, not a new bound.
+
+A separate [changed corner construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.md)
+gives M(4,4,12) with exact response rank 164 and fixed-first-map
+flattening rank 481. It passes two necessary tests for extending toward
+M27 plus M7. Its other square-matrix entries remain unconstructed.
+The original corner variant, with response rank 186, is also preserved.
 
 The [exact crossed-module construction](research/ai/2026-10-20-anisotropic-constructions/crossed_module11.md)
 gives a rational restriction from C(2,4) tensor C(2,8) to M(2,2,11).
@@ -21,6 +36,15 @@ These improve the corresponding coordinate-module controls from eight
 and sixteen channels to eleven and twenty-two. The first target leg
 still has only sixteen directions; compatible square extensions are
 missing. Neither rectangular restriction establishes a smaller exponent.
+
+The [four-factor flattening proof](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_crossed_flattening.md)
+proves that eleven and twenty-two are optimal within the corresponding
+product first-map branch. It also excludes extending the old sixteen
+first images to M27, even with arbitrary other-leg maps. The
+[saved-seed response certificate](research/ai/2026-10-20-anisotropic-constructions/crossed_module_response.md)
+separately excludes retaining the old other-leg maps. The newer spin
+and corner constructions change the first core; these scoped
+obstructions do not rule them out.
 
 The [two-source capacity inequality](research/ai/2026-10-20-anisotropic-constructions/two_source_budget.md)
 requires equal source leg dimensions N at least ceil(3 n^2 / 4) for a
@@ -43,6 +67,16 @@ pins the artifact hashes and includes concurrent main through `8a07bed`.
 It records 38 completed tests: 36 passed and two optional numerical
 controls skipped in the maintained environment. All four compression
 control tests pass separately with NumPy and SciPy available.
+The [complete regression receipt](results/anisotropic-constructions-2026-10-20/crossed-module-full-validation.json)
+pins checkpoint `1f813bb`: 496 tests completed, with 493 passed and
+three optional skips. All five [original archive replays](results/anisotropic-constructions-2026-10-20/crossed-module-archive-validation.json)
+passed unchanged. The later spin, corner, response and flattening
+packages have separate focused validation; they are not included in
+that 496-test count.
+Their [35-test focused receipt](results/anisotropic-constructions-2026-10-20/changed-core-focused-validation.json)
+checks all four new packages, main's mixed second-order family through
+`21f54c3`, and the repository ledger, sources, archives and links with no
+skips or failures.
 
 The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
 now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit
@@ -990,6 +1024,18 @@ exponent improvement. The concurrently inspected second-jet package at
 d8de82f already gives the stronger conditions W2=W0 and rank sum at most
 24 (at most20 with mixed directions); the rank-four certificate is retained
 as auxiliary structure, with no claim to improve that target frontier.
+
+## Exact mixed second-order family
+
+[EXP-MIXED-TWOJET-FAMILY-079](research/ai/2026-10-21-mixed-first-jets/family.md)
+constructs sixteen independent leading-row directions with first-extension
+quotient ranks14 and6. Explicit maps and regular first-row corrections
+solve every coefficient equation through order two for every combination
+of the parameters. The separate constructor and full coefficient verifier
+retain all136 quadratic monomials. The active output formats are18 and10;
+later growth and a matrix target remain unconstructed. An exact nonzero
+third coefficient is retained as an order-boundary check. This finite
+polynomial certificate does not improve the exponent.
 
 ## Regular root flags and Laurent first-leg maps
 

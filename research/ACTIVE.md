@@ -91,10 +91,15 @@ Python 3.10 ran 471 tests, with 470 passed and one optional control skipped.
 The fully incorporated local and remote topic branches were removed.
 The current continuation branch is `research/weight-mixing-20261021`, in
 [PR #51](https://github.com/1337isnot1337/matrix-mult-bounds/pull/51).
-Its first checkpoint `5d5cc6d` passes all hosted checks. The next checkpoint
-adds exact crossed modules, two-source capacity, a projected carry
-obstruction, and the completed compression search with its actual residual.
-It also incorporates main's corrected second-jet family at `8a07bed`.
+Its first checkpoint `5d5cc6d` passes all hosted checks. The pushed
+checkpoint `1f813bb` adds exact crossed modules, two-source capacity,
+a projected carry obstruction, and the completed compression search
+with its actual residual. It incorporates main's corrected second-jet
+family at `8a07bed`. Its full local suite completes 496 tests: 493 pass
+and three optional controls skip; all five archive replays pass. All
+hosted checks for that checkpoint pass. The next checkpoint incorporates
+main's mixed second-order family at `21f54c3` with the new spin, corner
+and fixed-map packages; their combined focused suite passes 35 tests.
 The earlier PR #43 checkpoints `fa74fee`, `574cb35`, and `bb64dae` are
 incorporated in main. The first,
 combined with main `f67467d`, passed 391 tests and all five archive replays
@@ -144,8 +149,16 @@ two-source dimension condition, the narrow carry obstruction and the
 completed numerical chart. The active construction question is whether
 changed subspaces or coupled copies can retain a large rectangular module
 while leaving enough original-source directions for a full square target.
-A separate exact flattening argument is being checked for the fixed
-first-leg module family. None of these results lowers the exponent.
+A separate exact flattening argument closes the old fixed-first-map
+family. Claims 104 through 107 preserve this obstruction, the old
+fixed-seed response proof, the new spin-one module M(3,3,28), and the
+changed corner module M(4,4,12) with response rank 164. The active
+ordinary question is square assembly from these changed cores. For
+the spin core, M27 plus M6 plus M3 has enough kernel dimensions and
+would imply omega below 2.24975, but the required maps are missing.
+The agents are computing exact preimages for additional matrix rows,
+repairing retained maps, and testing extensions with dimension slack.
+None of these results lowers the exponent yet.
 Pure A22
 tensor powers cannot cross the current sixfold square-sum gate even by
 dimension, so recycling work requires a different source budget or a real

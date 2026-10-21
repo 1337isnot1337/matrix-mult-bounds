@@ -22,6 +22,18 @@ give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
 unwanted coefficient is checked from the actual rational maps. These
 rectangular subsystems still require compatible square extensions.
 
+The [spin-one transfer](spin_module14.md) now constructs M(3,3,14)
+from A(4,8) and M(3,3,28) from A(8,8), with no added scalar source.
+The first response uses at most 192 source coordinates. A changed
+[upper-corner core](parity_structure_cross_module_corner_shifted.md)
+constructs M(4,4,12) with exact response rank 164. Both supply new
+starting points for square assembly, whose remaining maps are missing.
+The [old product first-map branch](parity_balancing_crossed_flattening.md)
+is now proved optimal at eleven and twenty-two channels. Keeping the
+old sixteen first images cannot reach M27, and the
+[old fixed other-leg maps](crossed_module_response.md) are separately
+nonextendable. Each obstruction retains its explicit fixed-map scope.
+
 The [two-source capacity proof](two_source_budget.md) gives a sharp
 dimension condition for a direct sum of two arbitrary source tensors
 to reach a square matrix tensor, including by degeneration. The

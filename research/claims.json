@@ -797,6 +797,82 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
-    }
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-CROSSED-FLAT-104",
+      "title": "Optimal product first-map module branch and a full-source fixed-core obstruction",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_crossed_flattening.md",
+      "statement": "The four-factor flattening ranks of the crossed module R0 and its matched two-copy source are 45 and 90 in the product first-map branch, and 32 and 64 after transpose. Thus their product-branch middle dimensions are at most 11 and 22, attained by the exact witnesses. A source slice-stratum argument normalizes arbitrary ordinary first maps for R0 to M(2,2,14) and matched R to M(2,2,27), excluding both. With the sixteen canonical first images fixed in full A88, every other-leg map still factors through J4 tensor matched R; its four-factor rank is 360, so M(4,4,r) requires r at most 22.",
+      "dependencies": [
+        "Exact Kronecker factorizations and integer unit minors",
+        "Rank-one and rank-two source slice normal forms",
+        "Codimension rank transfer and the two rulings of the determinant quadric",
+        "All 262144 original A88 terms checked for the full-source fixed-first-map factorization",
+        "AI-CROSSED-MODULE-100"
+      ],
+      "limitations": "The branch optimum is not a global optimum for arbitrary first maps. The full-source conclusion requires the displayed sixteen first images. A non-product shear explicitly changes the flattening rank. General A88 maps and singular first-map families are not excluded."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-CROSSED-RESPONSE-105",
+      "title": "Exact ambient response and fixed-seed extension limit for the eleven-channel lift",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/crossed_module_response.md",
+      "statement": "The saved other-leg maps of A88 to M(4,4,22) have full first-leg response rank 256, with kernel dimension 704. Four disjoint blocks have rank 64, certified by a reconstructed numerator minor with determinant 3998 modulo 65521. An ordinary concise square extension retaining these maps needs D minus 16 independent vectors in that kernel, so its common leg dimension is at most 720; M27 and M27 plus M7 are excluded for this saved seed.",
+      "dependencies": [
+        "Actual rational maps from AI-CROSSED-MODULE-100",
+        "Exact source-coordinate block decomposition",
+        "Reconstructed nonsingular 64 by 64 minor and invertible denominator modulo the stated prime",
+        "Injectivity of the target parameter maps"
+      ],
+      "limitations": "This result fixes the saved two non-first maps. It does not exclude replacements, changed first cores or singular constructions. AI-CROSSED-FLAT-104 separately closes extensions retaining the original first map."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-SPIN-MODULE-106",
+      "title": "Exact fourteen-channel spin module with a twenty-eight-channel full-source lift",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/spin_module14.md",
+      "statement": "Explicit rational maps give the cyclic C(2,2), C(2,4), C(2,8) source of format (12,80,72) to M(3,3,14), A(4,8) to M(3,3,14), and A(8,8) to M(3,3,28). A triangular spin-one first map and endpoint-pair construction absorb the former scalar correction into an ignored subspace. The exact dimensions are U=13, W=36, D=15, with a 78 by 78 join minor equal to -183/64000. The full-source first response is supported on at most 192 coordinates. The unconstructed square target M27 plus M6 plus M3 would imply omega below 8999/4000=2.24975 by exact integer comparisons.",
+      "dependencies": [
+        "AI-CROSSED-MODULE-100 endpoint-pair construction",
+        "Existing exact scalar-extended spin-one physical matrix identity",
+        "Five explicit polynomial generators and exact rational join duality",
+        "Complete reduced and full-source coefficient replays, including all mixed parity terms",
+        "Existing detecting-character square-sum implication and certified integer lower bounds"
+      ],
+      "limitations": "Only the rectangular modules are constructed. The 192-coordinate response bound guarantees enough kernel dimensions for the stated linear assembly count; an upper rank bound alone gives no maximum possible target dimension. Maps for the remaining square units and all coupling equations are missing. The displayed exponent is conditional, not attained."
+    },
+    {
+      "origin": "ChatGPT research directed by repository owner; coordinated agents in one generating session",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-CHANGED-CORNER-MODULE-107",
+      "title": "Exact changed first-core modules passing two necessary square-extension tests",
+      "evidence": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.md",
+      "statement": "Adding an upper-corner channel to one parity copy of the exact eleven-channel module and changing the first map gives A88 to M(4,4,12). The original and shifted corner exports have exact other-leg response ranks 186 and 164 respectively. Both changed first maps have four-factor flattening rank 481, from 360 plus 121. The shifted maps therefore pass the necessary response and fixed-first-core rank tests for a prospective M27 plus M7 extension, with response-kernel dimension 796 and required target reshuffle rank 432.",
+      "dependencies": [
+        "AI-CROSSED-MODULE-100 and its one-parity-copy embedding",
+        "Explicit added corner maps with complete mixed-coefficient separation",
+        "All 262144 original source terms and 36864 target coefficients for each export",
+        "Exact support upper bounds with matching modular rank lower bounds",
+        "Direct indicator-row proof of the full first-core flattening rank"
+      ],
+      "limitations": "Passing these two necessary tests does not construct a square extension. Both exports remain twelve-channel rectangular subsystems, and neither changes the exponent. The original response-186 maps remain preserved separately from the shifted response-164 maps."
+    },
+    {"id": "EXP-MIXED-TWOJET-FAMILY-079", "title": "Exact sixteen-parameter family of mixed second-order jets", "origin": "Codex research directed by repository owner", "status": "finite-experiment", "evidence": "research/ai/2026-10-21-mixed-first-jets/family.md", "statement": "A frozen16-parameter polynomial family has first-extension quotient ranks14 and6 and16 independent leading-row directions. Explicit second derivatives and a regular first-leg row correction cancel every first-kernel coefficient through order two for all parameter values. Complete source contraction checks171 coefficient identities, including all136 quadratic parameter monomials; a separate constructor rebuilds the maps by rational linear solves.", "dependencies": ["Canonical first extensions and rank-92 correction systems from PR45", "Concurrent no-second-growth and mixed rank-sum results at d8de82f3ea68df6681bcc1defdac79f65346b7c8", "Explicit seed, polynomial maps, and separate complete coefficient verifier"], "limitations": "Only a formal two-jet family, with18 and10 active output rows. No later coefficients, suitable Laurent target map, or matrix target are supplied. A retained third coefficient is nonzero when unlisted higher coefficients are set to zero; that does not exclude higher corrections. No exponent improvement, formalization, or independent review.", "independent_review": false, "lean_formalized": false, "improves_omega": false}
   ]
 }
