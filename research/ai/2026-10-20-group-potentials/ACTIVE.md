@@ -5,12 +5,25 @@ explicitly requested continued work without ending at a partial checkpoint.
 The active goal is not achieved. Do not mark it complete for a conditional
 number, a finite profile violation, an exclusion, or successful verification.
 
-Owned continuation branch: `research/octal-variable-planes-20261020`, created
-from refreshed main `02936b7`. PR #3 merged the prior entropy/group branch at
-`0f7a57f`; all its claims are present in main. Its fully incorporated local
-and remote task branches were removed. Read live status and remote branches
-before editing; other
-workers use their own branches. The archived passes stay byte-for-byte intact.
+Owned continuation branch: `research/octal-single-plane-20261020`, refreshed
+through main `d5911dd`. PR #21 merged variable-plane discovery and PR #22
+merged the fixed cubic-parent orbit obstruction. Both merged topic branches
+were removed after tree verification; the separate worktree was removed.
+The current source-448 question lies outside the closed cubic parent.
+
+Current precise question: can one independently changing three-point plane
+escape the fixed-direction local constraints? For base [1,8,2,16,4,32],
+complete local mask packing rejects all 3,060 plane changes across twelve
+non-base fibers with the six short directions fixed. Two native-XOR pilots
+returned the reused control then untraced UNSAT. This is no general
+variable-plane exclusion. A separate exact full-space Koszul pilot leaves
+both group targets (source448 to M19 and SL2(5) to M10) open.
+
+Next distinct construction route: classify near-capacity three-point unique
+sum sets in C29 before fitting C29:C4. An exploratory normalization gives
+five first-set affine templates and six ordered unique-sum triples, all
+arithmetic progressions. That pilot still needs an independent checker and
+its group-level consequences.
 
 ## Established in this branch, with actual status
 
@@ -64,8 +77,9 @@ commit/push coherent checkpoints. Do not repeat unchanged timed-out searches.
 
 Run the focused suite with `python -m unittest discover -s tests -p
 test_group_potentials.py -v`; run the full suite before a substantial checkpoint.
-Archive replay was passed unchanged. GitHub Actions previously could not start
-because of account billing/spending restrictions; no hosted pass is implied.
+Archive replay passed unchanged. Required CI passed on PRs #21 and #22;
+Python 3.10/3.14 tests and Python 3.13 archive replay ran successfully.
+Historical account-billing failures no longer describe current CI.
 
 Other agents' latest fetched branches at the time of this note:
 `research/koszul-and-scaling-20261020` (292ba18),

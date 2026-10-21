@@ -187,3 +187,55 @@ The first required-plane-change trials, based on normalized classes 000 and
 candidate. Their requested budgets were 120 seconds; actual elapsed times
 were about 155 and 140 seconds, respectively. These are cooperative solver
 limits. Neither run is evidence that a changed-plane solution does not exist.
+
+## One-plane continuation and complete local filter
+
+Starting from main d5911dd, `octal_single_plane.py` allows only one chosen
+non-base three-point fiber to change its plane. All offsets vary; other
+planes and all six short directions remain fixed. Two 90-second-budget
+native-XOR runs, changing S's scalar-two or T's scalar-three fiber, each
+returned the known control and an exact rejection circuit, followed by
+untraced UNSAT after about 51-52 seconds. No changed-plane candidate emerged.
+These solver negatives are not mathematical exclusions.
+
+The independent `octal_single_plane_frontier.py` checks every graph plane
+transverse to the fixed base complement: 255 genuine changes in each of the
+twelve eligible fibers. For base [1,8,2,16,4,32], all 3,060 changes fail a
+necessary pair-quotient mask packing, even when offsets in each quotient
+are allowed to vary independently. Complete integer backtracking covers
+293,390 search nodes in the recorded run. The report records first failures
+for every fiber. This exact finite exclusion assumes the stated base and
+fixed short directions; simultaneous changes and other bases remain open.
+
+The separate `group-koszul-pilot.json` evaluates the paired-source worker's
+exact matrix Koszul formula on group-algebra block sums, with target padding.
+All 224 powers through transpose symmetry pass for source448 to M19; all
+60 pass for SL2(5) to M10. These are necessary screens only. The calculation
+uses the unreviewed matrix-rank derivation in
+`../2026-10-20-paired-sources/matrix_euler.md`; no construction is inferred.
+
+Coverage justification for the local filter: the other two base planes
+span a four-dimensional complement. Normal-fiber triple injectivity forces
+the changed two-dimensional plane to be transverse to it. Relative to the
+fixed base it is the graph of one of 2^8=256 linear maps. The zero map is the
+unchanged plane. Every three-point subset of a four-point affine plane is a
+translate of the chosen three-point graph triangle, so no triangle choice
+is lost. For each pair quotient q, the seven sets a^-1(P_f(a)+P_g(aq))
+need disjoint translations in the 64-element normal group. Exact packing
+allows each such translation independently. Failure in any quotient rejects
+every global offset assignment.
+
+Reproduction from the repository root:
+
+```sh
+python research/ai/2026-10-20-group-potentials/octal_single_plane_frontier.py \
+  --base-report results/group-potentials-2026-10-20/octal-orbit-000.json \
+  --output results/local/octal-single-plane-local-frontier0.json
+python research/ai/2026-10-20-group-potentials/group_koszul_pilot.py
+python -m unittest discover -s tests -p test_octal_single_plane.py -v
+```
+
+The two optional native-XOR experiments are reproduced with
+`octal_single_plane.py --family 0 --scalar 2` or
+`--family 1 --scalar 3`, adding `--seconds 90`, the same source report via
+`--phase-report`, and a destination via `--output`.
