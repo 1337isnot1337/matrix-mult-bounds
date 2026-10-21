@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "tested_commit": "20aefcf5c041a223c08e96587be562a5b76eb146",
+  "code_tree": "e23575d2bced7e4b675c9adb6fa82537284c123d",
+  "failure": "One Markdown link check interpreted LaTeX coefficient extraction as a link; the mathematical tests passed.",
+  "checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-S",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 1,
+      "wall_seconds": 181.28,
+      "log": "residual-boundary-initial-tests.txt",
+      "sha256": "55e2e90774a9869488fc867363fa4b35a30d9b7d641ab9ddd5960681c7ec075a",
+      "completed_test_count": 368,
+      "complete_success_footer": false
+    }
+  ]
+}

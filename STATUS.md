@@ -82,6 +82,10 @@ do not constitute independent mathematical review.
   The latter has 462 nonzero entries per map and a complete sparse replay.
   These controls do not construct the larger improving target.
 
+The [combined validation receipt](results/anisotropic-constructions-2026-10-20/residual-boundary-validation.json)
+records 368 passing tests and five unchanged archive replays at `8b09235`.
+This computational coverage does not change the proof-review status.
+
 These results identify constructions and obstructions within stated classes.
 They establish no smaller matrix multiplication exponent.
 

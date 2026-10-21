@@ -12,8 +12,13 @@ Its tested head was `4c88acad6b163ebb20011dd947a4092df003533f`, whose tree
 matches the squash merge. All required hosted jobs pass; the Python 3.10
 job reports 353 completed tests. Earlier checkpoints retain their exact
 local test receipts, including 350 tests at `bf4d187`.
-The next topic is `research/residual-boundary-20261021`, preserving the
-new boundary proof, frontier update, and exact retained-residual maps.
+PR #38, `research/residual-boundary-20261021`, preserves the new boundary
+proof, frontier update, and exact retained-residual maps. The complete
+local suite at `8b09235` passes 368 tests and all five archive replays
+using only maintained verification dependencies. The initial Markdown
+link-check failure and its notation repair are retained in the validation
+receipt. Concurrent main `5c28a60` is integrated; its changes concern
+external-source attribution and the source-registry count assertion.
 All statements retain the evidence status in `claims.json`.
 
 The parity A(5,5) target M14 plus M4 is closed, including singular
@@ -44,8 +49,8 @@ both off-diagonal blocks free, singular coefficient families, unequal
 rectangular targets, tensor powers, and the earlier nonmonic flag system.
 An interior-spectrum higher-difference theorem also remains open. Do not
 repeat searches in the excluded ordinary formats or exact quotient class.
-The new proof and exact-map package is being prepared on
-`research/residual-boundary-20261021`; preserve concurrent worker files.
+The proof and exact-map package is pushed in PR #38. Current hosted
+checks are required before merging; preserve concurrent worker files.
 
 ## Earlier coordinated integrations
 
