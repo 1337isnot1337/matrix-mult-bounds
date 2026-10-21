@@ -11,14 +11,13 @@ The next construction question concerns other first subspaces or leading
 flags; coordinate omissions alone do not settle the general question.
 
 The mixed-jet worker continues in
-`ai/2026-10-21-both-mixed-first-spaces/QUESTION.md`. Both nonzero mixed
-projections are now classified as lines: paired rank-one lines with
-quotient ranks at most 7 each, or invertible lines with ranks 1 each.
-The active lifting control is the invertible 1-by-1 pair, with 72 normal
-directions before the next equations. Exact first-space compatibility
-is retained, without a matrix-target or exponent claim. The previous
-maximal one-sided pencils are excluded; the full boundary family stays
-with the quantum worker.
+`ai/2026-10-21-invertible-line-lifts/QUESTION.md`. The selected invertible
+first pair has 40 normal directions after its required zero third block.
+A specified 36-direction lifting ansatz has sixteen quadratic conditions;
+a compatible control has uncorrected first rank 13. Finish its third
+leading-row equations and investigate later output growth. This is a
+construction attempt, not an improving matrix target or a nonlinear
+gauge classification. Boundary-frame work stays with the quantum worker.
 
 
 
