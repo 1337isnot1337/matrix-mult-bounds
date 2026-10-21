@@ -8,7 +8,8 @@ The new `2026-10-20-critical-character-extension`,
 agents within this research session, directed by the repository owner.
 They began from `9a4ee3d`. Checkpoint `e44aaff` integrated main at `a44451d`;
 the subsequent Hankel and exact-construction checkpoint includes main
-`2a7c503`.
+`2a7c503`. Its dependency repair also incorporates main `75bf6a3` and
+replays the complete suite with only the declared maintained dependencies.
 The two historical archives remain unchanged.
 
 The packages credit OpenAI's exponent theorem and character framework,

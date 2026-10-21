@@ -10,8 +10,10 @@ when merging; integration is not theorem acceptance.
 Branch: `research/constructive-spectrum-20261020`, PR #28, ready for review.
 Pushed checkpoints `5f9b203`, `e042848`, and `e44aaff` preserve the oriented
 endpoint, nonmonic coefficient, source-construction, and rank-obstruction
-work. The next checkpoint adds higher-rank Hankel obstructions and exact
-rational constructions, including main `2a7c503`.
+work. Checkpoint `eed3cbc` adds higher-rank Hankel obstructions and exact
+rational constructions, including main `2a7c503`. The subsequent verifier
+repair includes main `75bf6a3`: it removes an undeclared NumPy import and
+passes 344 tests with only the maintained dependencies available.
 All statements retain the evidence status in `claims.json`.
 
 The parity A(5,5) target M14 plus M4 is closed by a written obstruction
@@ -67,7 +69,7 @@ The user explicitly instructed not to stop at checkpoints and to merge
 verified work into main frequently, cleaning up incorporated branches/PRs.
 
 Checkout: `/home/cinna/matrix-mult-schur-20261020`.
-Branch: `research/quantum-recoupling-20261020`.
+Branch: `research/graded-quantum-flags-20261020`.
 PR #2 merged into main at `93f8f8ab951e104cda041d3180f2401a4c0f81d3`.
 Its tree equals the locally and remotely verified `20734a9` checkpoint.
 PR #4 merged the quantitative capacity theorem at `34c2367` after the
@@ -95,6 +97,13 @@ Current results:
    remains outside the proof.
 
 Current queue:
+
+PR #25 merged the exact quantum source family at `4289a7b`. The tested
+head `d176af8` has the same tree; hosted CI passed and the incorporated
+local and remote branches were removed. Current work is
+`ai/2026-10-20-graded-quantum-flags/QUESTION.md`: leading-map obstructions
+and an ungraded matrix-space construction search. The torus profile is
+adopted from the other worker's merged PR23, not independently promoted.
 
 PR #15 merged the balanced coefficient reduction at `9b2fcc3` after current
 CI and 219 combined tests. The merged tree matches the verified head; its

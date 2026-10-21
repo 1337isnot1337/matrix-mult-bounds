@@ -66,11 +66,18 @@ The earlier checkpoint `e44aaff`, integrated against main `a44451d`, passed
 323 regression tests and all five original archive replays. Its
 [validation receipt](results/anisotropic-constructions-2026-10-20/integration-validation.json)
 records the commands and log hashes. The historical archives are unchanged.
-The current checkpoint incorporates main `2a7c503` and passes 338 regression
+Checkpoint `eed3cbc` incorporated main `2a7c503` and passed 338 local regression
 tests and all five archive replays. Its
 [validation receipt](results/anisotropic-constructions-2026-10-20/integration-hankel-validation.json)
-records the commands and exact log hashes. CI and finite replays do not
-change the proofs' review status.
+records the commands and exact log hashes. Hosted validation then found an
+undeclared NumPy import in the rank-two checker. The checker now uses Python
+integers only and reproduces the same 1,296,000 coefficient comparisons.
+The repaired tree includes main `75bf6a3` and passes 344 tests plus all five
+archive replays with site packages disabled and only the declared SymPy and
+mpmath dependencies available. The
+[repair receipt](results/anisotropic-constructions-2026-10-20/integration-maintained-validation.json)
+records this environment and the original hosted failure. CI and finite
+replays do not change the proofs' review status.
 
 ## Earlier integration checkpoints
 
@@ -725,6 +732,20 @@ triple survives an exhaustive 89-case integer coefficient search. This
 selects 3854 allowed map entries, but supplies no construction. Completed
 32-start A2 and six-start H1100 pilots found no exact witness; several of
 the latter escaped to large norms.
+
+## Regular root flags and Laurent first-leg maps
+
+The [saturated-rowspace argument](research/ai/2026-10-20-graded-quantum-flags/saturation.md)
+proves a source-leading-map slice bound while allowing an arbitrary Laurent
+first leg and arbitrary regular higher jets on the other two legs. Exact
+root-map certificates give ceilings 62,44,64,68,86 at orders 4,8,12,16,24,
+below the size-four target's required slice rank 100. A separate
+[central-weight proof](research/ai/2026-10-20-graded-quantum-flags/graded_obstruction.md)
+excludes sixteen order-three/six phase pairs under the stated grading
+hypotheses, using explicit nonzero coefficients over Q(zeta_6).
+The unique Cartan profile is adopted from claim 051; the second integer
+recursion only checks that earlier result. All new proofs are written and
+unreviewed. Different flags, ungraded constructions and powers remain open.
 
 ## Size-five Cartan frontier
 

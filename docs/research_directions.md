@@ -127,6 +127,10 @@ questions. Passing a necessary rank test would not supply a degeneration. The ne
 [quantum recoupling question](../research/ai/2026-10-20-quantum-recoupling/QUESTION.md)
 uses genuinely varying bases near a root of unity. Its regular initial
 maps have insufficient size; tensor-level cancellations remain to be found.
+The [leading-flag follow-up](../research/ai/2026-10-20-graded-quantum-flags/QUESTION.md)
+now closes several prescribed root flags even with arbitrary higher jets.
+Changing the first-leg jet cutoff does not escape those proofs. Different
+leading flags and weight-breaking projections remain construction questions.
 
 The active fat-point construction question is quantified in the
 [all-degree growth route](../research/ai/2026-10-20-concavity-equivalence/fatpoint_growth_route.md).
