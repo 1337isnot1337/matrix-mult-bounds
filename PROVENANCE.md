@@ -354,3 +354,12 @@ gives a corner-minor rederivation of the existing rank inequality. The
 classification is not claimed as new work. Same-session checks and the
 conditional integer certificate supply no target maps, independent review
 or exponent improvement.
+
+The `2026-10-21-mixed-axis-incidence` package closes the uniform axis
+family left by claim091. Its auxiliary projection and polynomial relation
+certificate were developed in this repository. Singular syzygies supplied
+a discovery basis; maintained acceptance reconstructs source coefficients
+and verifies polynomial identities and minors with SymPy alone. The
+canonical source, target rank gap and shifted induction retain their prior
+credits. This is a same-session written proof and exact replay, without
+independent review, historical-priority claim or exponent improvement.
