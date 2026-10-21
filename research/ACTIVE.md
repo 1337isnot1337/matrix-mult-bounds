@@ -15,39 +15,50 @@ not a bound below 9/4.
 
 ## Constructive-spectrum continuation
 
-Branch: `research/constructive-spectrum-20261020`, PR #28, ready for review.
-Pushed checkpoints `5f9b203`, `e042848`, and `e44aaff` preserve the oriented
-endpoint, nonmonic coefficient, source-construction, and rank-obstruction
-work. Checkpoint `eed3cbc` adds higher-rank Hankel obstructions and exact
-rational constructions, including main `2a7c503`. The subsequent verifier
-repair includes main `75bf6a3`: it removes an undeclared NumPy import and
-passes 344 tests with only the maintained dependencies available. The current
-integration also includes main `fb280ab`, with 350 tests and all five
-archive replays passing in the same restricted dependency environment.
+PR #28 is merged at `8722b361fde7713949b8f0e72fab681066ce10bd`.
+Its tested head was `4c88acad6b163ebb20011dd947a4092df003533f`, whose tree
+matches the squash merge. All required hosted jobs pass; the Python 3.10
+job reports 353 completed tests. Earlier checkpoints retain their exact
+local test receipts, including 350 tests at `bf4d187`.
+PR #38, `research/residual-boundary-20261021`, preserves the new boundary
+proof, frontier update, and exact retained-residual maps. The complete
+local suite at `8b09235` passes 368 tests and all five archive replays
+using only maintained verification dependencies. The initial Markdown
+link-check failure and its notation repair are retained in the validation
+receipt. Concurrent main `5c28a60` is integrated; its changes concern
+external-source attribution and the source-registry count assertion.
 All statements retain the evidence status in `claims.json`.
 
-The parity A(5,5) target M14 plus M4 is closed by a written obstruction
-that also covers singular degenerations. All ordinary square direct-sum
-targets that could pass the stated finite score are closed in
-all 51 source formats of leg dimension below 784. Do not restart numerical
-searches in those excluded classes. A(7,8) to M25 plus M5 is a remaining
-ordinary square target at the first surviving source size; its maps are
-missing. The former A(5,6) M16 targets are excluded even before further
-blocks are appended. The higher-rank theorem requires 3r<=a+b-1; explicit
-varying-scheme pencils show why this hypothesis cannot simply be dropped.
+The parity A(5,5) target M14 plus M4 is closed, including singular
+degenerations of that face. For full sources, exact ordinary square-target
+frontiers now exclude all 60 source formats with N<960. The new
+first-boundary Hankel argument excludes the former A(7,8) M25 plus M5
+candidate. It requires a+b-1=3r-1 and uses cap max(r,4); do not extrapolate
+it to arbitrary degrees. Singular full-source degenerations remain open.
 
-Productive open questions include singular degenerations of the full
-sources, unequal rectangular targets, tensor powers, the nonmonic flag
-system, and an interior-spectrum higher-difference theorem. The actual
-family A(a,a) to M(2a−2) plus M(a−2) supplies exact multi-block controls,
-but no exponent improvement. The proposed additional scalar has mixed
-coefficients and must not be treated as a construction.
+The first surviving ordinary source is A(8,8). Its unconstructed target
+M27 plus M7, D=778, would imply omega<4497/2000=2.2485. A completed integral
+M15 seed is available, but it is substantially smaller. No improving maps
+are supplied. The frontier proof, saved report, and tests must stay in sync.
 
-New composition controls are A(2,2) plus one scalar to M3, and A(5,6)
-to M8 plus A(2,3). The extra source scalar in the first identity is
-essential to that certificate. Scalar-defect recycling, retained residual
-sources, and constructions beyond the excluded ordinary one-copy formats
-remain active questions.
+Exact retained residual maps give A(a,a+1) to M(2a-2) plus A(2,a-2), a>=5.
+The A(7,8) M12 core has a fixed-core extension limit D<=256; moving cores
+are outside that limit. The triangular construction gives A(a,b) plus
+M((a-1)(b-1)) to M(a+b-1), with the full correction retained. Single full
+matrix corrections and the stated independent corner supplier cannot
+pass their score tests. Three regular A22 quotient kernels cannot make
+the scalar correction vanish while preserving the exact normalized M3.
+More generally, any three exact cyclic physical quotients satisfy
+m0*m1*m2<=(a+b-1)^3, including over Laurent fields. Even free cancellation
+is insufficient in that quotient class for the single-target finite gate.
+
+Active constructive work includes relaxed physical compression maps with
+both off-diagonal blocks free, singular coefficient families, unequal
+rectangular targets, tensor powers, and the earlier nonmonic flag system.
+An interior-spectrum higher-difference theorem also remains open. Do not
+repeat searches in the excluded ordinary formats or exact quotient class.
+The proof and exact-map package is pushed in PR #38. Current hosted
+checks are required before merging; preserve concurrent worker files.
 
 ## Earlier coordinated integrations
 

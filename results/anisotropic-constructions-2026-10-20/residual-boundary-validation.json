@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "code_tree": "b6b8bd492b4a2f1255cdccf6fab89c4d545b5577",
+  "base_commit": "20aefcf5c041a223c08e96587be562a5b76eb146",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "dependencies": "Maintained requirements only, through python -S and isolated SymPy/mpmath path.",
+  "initial_run": {
+    "tests": 368,
+    "failures": 1,
+    "reason": "The relative Markdown link check parsed adjacent coefficient-extraction brackets and parentheses as a link.",
+    "repair": "Write the same LaTeX with explicit bigl and bigr delimiters.",
+    "log": "residual-boundary-initial-tests.txt"
+  },
+  "checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-S",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "wall_seconds": 175.394,
+      "log": "residual-boundary-tests.txt",
+      "sha256": "00a11a38fbdc3ccb3ec98e53b113ad7a7ecbadfff4b7852abeeaa8303d5bcddd",
+      "completed_test_count": 368,
+      "passed": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-S",
+        "tools/replay.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 12.993,
+      "log": "residual-boundary-archive-replay.txt",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+      "passed": true,
+      "completed_archive_replays": 5
+    }
+  ],
+  "independent_mathematical_review": false,
+  "improves_omega": false,
+  "tested_commit": "8b09235dabe66fab880c66518d0d75f98f6cb031",
+  "concurrent_main_integration": {
+    "main_commit": "5c28a60dc760338b0ef2d7ad6ffd80bab4293731",
+    "scope": "External-source attribution, source records, and the source-count test assertion. No tensor verifier changes.",
+    "focused_tests": 18,
+    "returncode": 0,
+    "log": "residual-boundary-main-source-checks.txt",
+    "sha256": "92acbaa8f9a95a5e24cc59a742a40794763287a4e57603b1be5245576c18434b",
+    "wall_seconds": 0.116
+  }
+}

@@ -20,14 +20,23 @@ also supplies A(2,2) plus one scalar from A(2,3), and gives a general
 two-source restriction whenever the stated low and high long-coordinate
 intervals are disjoint. It provides exact source-recycling controls.
 
+Two newer all-size constructions retain their extra tensor explicitly.
+The [full residual family](parity_structure_full_residual.md) gives
+A(a,a+1) to M(2a-2) plus A(2,a-2) for a>=5, including exact maps for
+A(7,8) to M12 plus A(2,5). The
+[triangular quotient construction](parity_balancing_triangular.md) gives
+A(a,b) plus M((a-1)(b-1)) to M(a+b-1) for every a,b>=2. Its auxiliary
+matrix source cancels a stated residual on shared variables.
+
 The [ordinary square-partition frontier](square_sum_frontier.md) now
 rules out every target strong enough for this package's finite 9/4
-score test from all 51 sources with 2<=a<=b and N=ab(a+b-1)<784.
-The first source surviving these necessary tests is A(7,8). Its
-unconstructed target M25 plus M5 would imply omega<2.247 if the
-required maps were found. The former ordinary A(5,6) target M16 plus
-M4 is excluded; its conditional number 2.248 is superseded as an
-ordinary construction objective. These results do not exclude
+score test from all 60 sources with 2<=a<=b and N=ab(a+b-1)<960.
+The first source surviving these necessary tests is A(8,8). Its
+unconstructed target M27 plus M7 would imply omega<2.2485 if the
+required maps were found. The former ordinary A(7,8) target M25 plus
+M5 and A(5,6) target M16 plus M4 are excluded; their conditional
+numbers 2.247 and 2.248 are superseded as ordinary construction
+objectives. These results do not exclude
 singular full-source degenerations or arbitrary rectangular sums.
 
 An earlier parity
@@ -217,6 +226,21 @@ The note includes a self-contained proof of the classical scalar
 Hankel/secant identification and cites a primary source for that
 classical fact.
 
+The [first-boundary theorem](hankel_boundary_dimension.md) now handles
+exactly a+b-1=3r-1, for 2<=r<min(a,b). Its symbol dimension cap is
+max(r,4), so the corresponding necessary condition is
+
+    n^2>max(r,4)ab  implies  n+2(N-D)>=(r+1)ab.
+
+A Chinese remainder argument shows that a moving rank-r line has a
+pencil of annihilating polynomials, with reduced generic scheme.
+The unique relation among 3r jets then forces a moving linear space
+to have dimension at most two. Applying this to the two Segre rulings
+gives the stated image bound. The proof was checked by two other
+agents in this generating session. The
+[counterexample beyond this range](hankel_segre_beyond_range.md) shows
+why an unrestricted dimension-r statement cannot be assumed.
+
 At rank exactly 2ab, a separate
 [polynomial equality argument](parity_structure_equality.md) forces a
 constant length-two long space. The
@@ -229,20 +253,26 @@ For A(5,6), the general r=3 condition excludes even M16 alone:
 [exact partition enumeration](square_sum_frontier.md) combines all
 these conditions with integer fourth-root bounds on the score
 sum(6n)^(9/4). It excludes every improving ordinary square direct sum
-from all 51 source formats with N<784. Its certified score maxima for
+from all 60 source formats with N<960. Its certified score maxima for
 A(5,5) and A(5,6) are respectively 18916.994428<21952 and
 26604.167197<29791. These are upper bounds over relaxed partitions,
 not scores of constructed maps.
 
-The first surviving source is A(7,8). The two-block target M25 plus M5
-has leg dimension 650 and passes the necessary conditions. If its
+For A(7,8), the new boundary r=5 closes M25 plus M5: its lifted
+rank-one slice upper bound is 293<336, whereas its M25 coefficient
+space has dimension 625>280. The relaxed full square-partition maximum
+is now 78910.828146<79507. Singular degenerations are outside this
+argument.
+
+The first surviving source is A(8,8). The two-block target M27 plus M7
+has leg dimension 778 and passes the necessary conditions. If its
 missing maps were constructed, the exact integer inequalities
 
-    150^2247>77567^1000,
-    30^2247>2084^1000,
-    77567+2084>43^3
+    162^4497>92916^2000,
+    42^4497>4465^2000,
+    92916+4465>46^3
 
-would imply omega<2.247. The conditional arithmetic is established;
+would imply omega<2.2485. The conditional arithmetic is established;
 the tensor restriction is not.
 
 Exact geometric controls include all 1,341 nonzero binary long
@@ -250,9 +280,12 @@ sequences in three small formats, 1,000 Hermite jet schemes, and 235
 bounded-rank pencil checks. Counterexamples at a+b-1=3r-1 show why the
 fixed-scheme line hypothesis cannot simply be removed. The tangent
 factorization checks compare all 1,296,000 integer coefficients across
-six choices of long spaces. The five focused tests pass. The general
-and equality proofs were checked by a second agent in this generating
-session; no external independent review or formalization is claimed.
+six choices of long spaces, using only the Python standard library.
+The boundary controls add 25 exact moving-pencil specializations and
+five integer relations among third-order jet schemes. The focused
+tests pass. The general, equality, and boundary proofs were checked by
+other agents in this generating session; no external independent
+review or formalization is claimed.
 
 ## Exact construction controls
 
@@ -265,7 +298,11 @@ restrictions. None reaches an improving score in the finite comparison.
 | A(a,a), a>=3 | M(2a-2) plus M(a-2) | [Mixed direct-sum family](parity_structure_direct_sum.md) |
 | A(5,6) | M10, or M8 plus M4 | [Integral two-block maps](parity_structure_a56.md) |
 | A(5,6) | M8 plus A(2,3) | [Residual convolution source](parity_structure_residual.md) |
+| A(a,a+1), a>=5 | M(2a-2) plus A(2,a-2) | [Full residual family](parity_structure_full_residual.md) |
 | A(2,2) plus one scalar | M3 | [Scalar-corrected spin-one maps](parity_balancing_spin1.md) |
+| A(a,b) plus M((a-1)(b-1)), a,b>=2 | M(a+b-1) | [Triangular quotient maps](parity_balancing_triangular.md) |
+| A(2,3) | M4 | [Exact quotient control](parity_balancing_quotient_control.py) |
+| A(8,8) | M15 | [Integral mixed seed](parity_structure_a88_seed.md) |
 
 The residual A(2,3) construction keeps an entire convolution source in
 the second block, which can later be subjected to another restriction.
@@ -285,6 +322,34 @@ changes the source: it is not a pure A(2,2) to M3 restriction. The
 complete nine-by-thirteen rational maps were replayed on all 729
 coefficients, including a check by a second agent in this generating
 session. No external independent review is implied.
+
+For larger triangular quotients, the
+[full-matrix correction score bound](quotient_score_barrier.md) shows
+that this particular single-source comparison cannot reach the finite
+9/4 score, even under the relaxed injective-map dimension condition.
+Cheaper residual tensors or cancellation on shared variables require
+separate constructions. The [fixed-core calculation](parity_structure_fixed_core.md)
+also shows that keeping two legs of the explicit A(7,8) M12 core fixed
+leaves a kernel of dimension 112; it does not exclude a construction
+that changes those maps.
+
+
+The [cyclic quotient-volume theorem](cyclic_quotient_volume.md) gives a
+stronger geometric restriction on exact quotient equations: three
+unrelated physical quotient spaces satisfy m0*m1*m2<=(a+b-1)^3 over any
+field. Thus square quotient size is at most a+b-1. Even cancelling the
+residual for free cannot make a single such matrix target pass the finite
+9/4 comparison. This statement also covers exact quotient equations over
+Laurent fields, while allowing unrestricted off-diagonal compression
+families to remain outside its hypotheses.
+
+For A(2,2), the [three-quotient determinant identity](parity_structure_three_quotients.md)
+also shows that the normalized scalar correction has Frobenius norm at
+least that of M3, so it cannot tend to zero in that regular exact-quotient
+family. The pure A(2,3) to M4 control has zero kernel actions; all 4,096
+target coefficients are checked. The A(8,8) M15 seed is similarly exact,
+with a full 262,144-term integer contraction. Neither reaches the
+unconstructed M27 plus M7 target.
 
 ## Earlier symmetry-restricted construction attempts
 
