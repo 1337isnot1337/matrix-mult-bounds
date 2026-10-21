@@ -9,5 +9,20 @@
     "archive_command": "python tools/replay.py",
     "archive_reports_passed": 5
   },
-  "scope": "The full suite entry covers the preceding maximal-extension package. The rank-four follow-up has separate current validation. Neither is independent mathematical review."
+  "scope": "Finite and same-session validation, not independent mathematical review or formalization.",
+  "rank_four_validation": {
+    "source_commit": "fbe43873d9607efa1653d07b805e8ad2d7b45aa1",
+    "base_main": "63eecee",
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 398,
+    "elapsed_seconds": 234.681,
+    "result": "passed",
+    "focused_tests": 3,
+    "focused_elapsed_seconds": 15.677,
+    "initial_harness_failure": "The tamper test initially tried to mutate an immutable SymPy matrix; explicitly copying to a mutable sparse matrix fixed the harness. The corrected focused and full suites pass."
+  },
+  "subsequent_main_integration": {
+    "commit": "fc8207e8a02d057b2a2e6ef96338a4e01ddeb306",
+    "description": "Adopt the stronger no-second-growth and rank-sum package; hosted checks cover the integrated PR head."
+  }
 }
