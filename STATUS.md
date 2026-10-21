@@ -62,6 +62,14 @@ potentials cannot have all three sizes at least ten. This written argument
 is unreviewed; general tensor degenerations and smaller unequal targets
 remain open. No smaller exponent follows.
 
+The [C29 unequal-target followup](research/ai/2026-10-20-c29-near-capacity/rectangular_note.md)
+closes the same coordinate-potential one-source degree-sum route for all
+single matrix shapes. The full sorted rank-locus frontier leaves only
+(9,9,11), (9,10,10), and (10,10,10). Complete finite filters and identity
+gluing now exclude all three in the stated construction class. This is
+an unreviewed obstruction, not a general degeneration exclusion or an
+improvement of the arithmetic exponent.
+
 ## All-size product-filtration result
 
 [Written proof](research/ai/2026-10-20-concavity-equivalence/research_note.md) |

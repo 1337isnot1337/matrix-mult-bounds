@@ -1,0 +1,281 @@
+{
+  "group": "C29:C4",
+  "source_order": 116,
+  "source_degrees": [
+    1,
+    1,
+    1,
+    1,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "sorted_shapes_with_minimum_two_checked": 512,
+  "improving_shapes": [
+    {
+      "shape": [
+        8,
+        8,
+        14
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 112,
+      "target_minimum_nonzero_slice_rank": 8,
+      "low_rank_locus": {
+        "rank_budget": 7,
+        "dimension": 10,
+        "block_ranks": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "actual_regular_rank": 7
+      },
+      "source_dimension_required": 122,
+      "dimension_deficit": 6,
+      "excluded": true,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    },
+    {
+      "shape": [
+        9,
+        9,
+        11
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 99,
+      "target_minimum_nonzero_slice_rank": 9,
+      "low_rank_locus": {
+        "rank_budget": 8,
+        "dimension": 14,
+        "block_ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actual_regular_rank": 8
+      },
+      "source_dimension_required": 113,
+      "dimension_deficit": -3,
+      "excluded": false,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    },
+    {
+      "shape": [
+        9,
+        9,
+        12
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 108,
+      "target_minimum_nonzero_slice_rank": 9,
+      "low_rank_locus": {
+        "rank_budget": 8,
+        "dimension": 14,
+        "block_ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actual_regular_rank": 8
+      },
+      "source_dimension_required": 122,
+      "dimension_deficit": 6,
+      "excluded": true,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    },
+    {
+      "shape": [
+        9,
+        10,
+        10
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 100,
+      "target_minimum_nonzero_slice_rank": 9,
+      "low_rank_locus": {
+        "rank_budget": 8,
+        "dimension": 14,
+        "block_ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actual_regular_rank": 8
+      },
+      "source_dimension_required": 114,
+      "dimension_deficit": -2,
+      "excluded": false,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    },
+    {
+      "shape": [
+        10,
+        10,
+        10
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 100,
+      "target_minimum_nonzero_slice_rank": 10,
+      "low_rank_locus": {
+        "rank_budget": 9,
+        "dimension": 15,
+        "block_ranks": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actual_regular_rank": 9
+      },
+      "source_dimension_required": 115,
+      "dimension_deficit": -1,
+      "excluded": false,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    },
+    {
+      "shape": [
+        9,
+        10,
+        11
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 110,
+      "target_minimum_nonzero_slice_rank": 9,
+      "low_rank_locus": {
+        "rank_budget": 8,
+        "dimension": 14,
+        "block_ranks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actual_regular_rank": 8
+      },
+      "source_dimension_required": 124,
+      "dimension_deficit": 8,
+      "excluded": true,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    },
+    {
+      "shape": [
+        10,
+        10,
+        11
+      ],
+      "source_dimension": 116,
+      "largest_target_input": 110,
+      "target_minimum_nonzero_slice_rank": 10,
+      "low_rank_locus": {
+        "rank_budget": 9,
+        "dimension": 15,
+        "block_ranks": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actual_regular_rank": 9
+      },
+      "source_dimension_required": 125,
+      "dimension_deficit": 9,
+      "excluded": true,
+      "scope": "Arbitrary complex tensor degenerations, not only coordinate weights.",
+      "proof_status": "written proof; unreviewed; not Lean formalized",
+      "improves_omega": false
+    }
+  ],
+  "surviving_shapes": [
+    [
+      9,
+      9,
+      11
+    ],
+    [
+      9,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "coverage": "All sorted positive integer shapes with a>=2 and b*c<=116. Shapes with a=1 have volume<=116 and cannot pass the gate.",
+  "dependencies": [
+    "Existing exact degree-sum interval checker",
+    "AI-GROUP-RANKLOCUS-002 written unreviewed rank-locus obstruction"
+  ],
+  "improves_omega": false
+}
