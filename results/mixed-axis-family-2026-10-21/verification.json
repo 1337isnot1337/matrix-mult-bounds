@@ -1,0 +1,34 @@
+{
+  "source_commit": "421797cb0822ca766601371b6fa4a00cadf16817",
+  "merged_commit": "48bd72d9a981ec9b5075e06447c91a07799387c2",
+  "source_and_merge_tree": "0b2f725e370c3bb9e4331013a57c0d2d07c9a50b",
+  "pull_request": 69,
+  "local_full_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "run": 583,
+    "passed": 580,
+    "skipped": 3,
+    "seconds": 2185.537,
+    "result": "passed"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "reports_passed": 5
+  },
+  "focused_replay": {
+    "tests": 4,
+    "seconds": 88.224,
+    "result": "passed"
+  },
+  "current_head_CI": {
+    "python_versions": [
+      "3.10",
+      "3.14"
+    ],
+    "archive_python": "3.13",
+    "result": "passed",
+    "run_id": 39593102399
+  },
+  "independent_review": false,
+  "improves_omega": false
+}

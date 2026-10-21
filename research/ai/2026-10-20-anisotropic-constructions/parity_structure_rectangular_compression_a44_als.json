@@ -1,0 +1,160 @@
+{
+  "initial": {
+    "source_lengths": [
+      4,
+      4
+    ],
+    "physical_matrix_size": 16,
+    "target_vertices": [
+      10,
+      10,
+      11
+    ],
+    "target_dimensions": [
+      100,
+      110,
+      110
+    ],
+    "source_leg_dimension": 112,
+    "fiber_dimensions_per_unit": [
+      12,
+      2,
+      2
+    ],
+    "complex_fiber_parameters": 1640,
+    "fixed_physical_frame_seed": 441011,
+    "compression_condition_numbers": [
+      41.73311738182453,
+      151.81773098483245,
+      660.8027751121291
+    ],
+    "relative_full_tensor_residual": 2331.471931817564,
+    "squared_target_norm": 1100,
+    "complete_target_coefficients": 1210000,
+    "top_block_relative_errors": [
+      4.4192814307907645e-15,
+      9.617532401668152e-15,
+      3.901118755893865e-14
+    ],
+    "fiber_parameter_norm": 0.5823701242165755,
+    "physical_map_frobenius_norms": [
+      59.31508057035675,
+      133.80093614705186,
+      531.9643393771338
+    ],
+    "numerical_discovery_only": true,
+    "tensor_identity_certified": false,
+    "new_exponent_established": false
+  },
+  "final": {
+    "source_lengths": [
+      4,
+      4
+    ],
+    "physical_matrix_size": 16,
+    "target_vertices": [
+      10,
+      10,
+      11
+    ],
+    "target_dimensions": [
+      100,
+      110,
+      110
+    ],
+    "source_leg_dimension": 112,
+    "fiber_dimensions_per_unit": [
+      12,
+      2,
+      2
+    ],
+    "complex_fiber_parameters": 1640,
+    "fixed_physical_frame_seed": 441011,
+    "compression_condition_numbers": [
+      41.73311738182453,
+      151.81773098483245,
+      660.8027751121291
+    ],
+    "relative_full_tensor_residual": 685.6949879386942,
+    "squared_target_norm": 1100,
+    "complete_target_coefficients": 1210000,
+    "top_block_relative_errors": [
+      5.588326519673522e-15,
+      9.806770842031377e-15,
+      3.914916023280091e-14
+    ],
+    "fiber_parameter_norm": 59.79462108848608,
+    "physical_map_frobenius_norms": [
+      77.73003621067289,
+      135.81157468004034,
+      533.9239325764074
+    ],
+    "numerical_discovery_only": true,
+    "tensor_identity_certified": false,
+    "new_exponent_established": false
+  },
+  "history": [
+    {
+      "stage": "ALS",
+      "sweep": 1,
+      "relative_residual": 770.6980774388877
+    },
+    {
+      "stage": "ALS",
+      "sweep": 2,
+      "relative_residual": 721.2217195849919
+    },
+    {
+      "stage": "ALS",
+      "sweep": 3,
+      "relative_residual": 701.8242639198457
+    },
+    {
+      "stage": "ALS",
+      "sweep": 4,
+      "relative_residual": 695.8905811593419
+    },
+    {
+      "stage": "ALS",
+      "sweep": 5,
+      "relative_residual": 693.4141776649885
+    },
+    {
+      "stage": "ALS",
+      "sweep": 6,
+      "relative_residual": 691.753766153131
+    },
+    {
+      "stage": "ALS",
+      "sweep": 7,
+      "relative_residual": 690.4090126151183
+    },
+    {
+      "stage": "ALS",
+      "sweep": 8,
+      "relative_residual": 689.2508105314279
+    },
+    {
+      "stage": "ALS",
+      "sweep": 9,
+      "relative_residual": 688.225676411364
+    },
+    {
+      "stage": "ALS",
+      "sweep": 10,
+      "relative_residual": 687.303562881118
+    },
+    {
+      "stage": "ALS",
+      "sweep": 11,
+      "relative_residual": 686.4647163378476
+    },
+    {
+      "stage": "ALS",
+      "sweep": 12,
+      "relative_residual": 685.6949879386942
+    }
+  ],
+  "optimizer": null,
+  "elapsed_seconds": 5.936605091001184
+}

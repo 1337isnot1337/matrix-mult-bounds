@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "code_head_at_full_suite_start": "77d3f1627b9e899c1c18878f3008f0664f3e1c38",
+  "integration_head_at_completion": "59154bf9aca5920b959f98ae5035c979ca69190c",
+  "intervening_changes": "Integrated the parent pencil branch and concurrent PR55; the both-mixed implementation and frozen controls are unchanged. New concurrent tests are covered by hosted current-head checks.",
+  "focused_tests": {
+    "passed": 3,
+    "seconds": 13.217
+  },
+  "full_suite": {
+    "tests_run": 524,
+    "passed": 521,
+    "skipped": 3,
+    "skip_reason": "Two existing optional compression discovery controls require NumPy/SciPy; one existing optional unequal-objective discovery control requires NumPy.",
+    "seconds": 340.738
+  },
+  "historical_archive_reports_passed": 5,
+  "independent_review": false,
+  "scope": "Polynomial partner identities and exact first-space controls, with regression checks. No improving matrix target or exponent theorem."
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-21",
+  "implementation_commit": "b1543e71dc93ebd1e5d2c764f6df923d5cc4cda5",
+  "integration_commit": "15723e8ce42d4a0532dff60de95fd795522380fc",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "focused": {
+    "run": 4,
+    "passed": 4,
+    "seconds": 18.515
+  },
+  "full_regression": {
+    "run": 563,
+    "passed": 560,
+    "skipped": 3,
+    "seconds": 468.593,
+    "command": "python -m unittest discover -s tests -v",
+    "coverage_note": "Discovery began at implementation_commit. The concurrent ordinary-rectangular package was integrated during the run and its four tests were separately replayed afterward; no existing test implementation changed in that merge."
+  },
+  "archive_replay": {
+    "reports_passed": 5,
+    "command": "python tools/replay.py"
+  },
+  "incoming_rectangular_tests": {
+    "run": 4,
+    "passed": 4,
+    "seconds": 0.191,
+    "command": "python -m unittest discover -s tests -p 'test_rectangular_ordinary_frontier.py' -v"
+  },
+  "logs": {
+    "five-space-focused.log": {
+      "sha256": "ec9e6bf019d63d502d526a7fbeb3aeb1e0b44e249c515a1846079e7d327960d1",
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-focused.log"
+    },
+    "five-space-full-tests.log": {
+      "sha256": "fe20cf679a2b9259f1234415a8d731dd0fd3aea74b8da2094d24eb7588957720",
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-full-tests.log"
+    },
+    "five-space-archive-replay.log": {
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-archive-replay.log"
+    },
+    "five-space-incoming-rectangular-tests.log": {
+      "sha256": "0bae9a963ebc9c94cc0f6dcc0203ac78e2b7700d97248365c14b4cb82539eadd",
+      "local_path": "/home/cinna/.cache/matrix-research-20261020/five-space-incoming-rectangular-tests.log"
+    }
+  },
+  "independent_mathematical_review": false,
+  "exponent_improved": false
+}

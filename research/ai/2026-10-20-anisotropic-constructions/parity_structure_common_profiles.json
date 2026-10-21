@@ -1,0 +1,479 @@
+{
+  "format": "common-integer-torus-profiles-v1",
+  "source": "A(8,8)",
+  "target": "M27 direct_sum M7",
+  "scope": "ordinary grading-preserving complex restrictions with a common vertex charge list within each square block",
+  "source_weight_convention": "F(i,k,s) has weight i+s-k; each target matrix unit has row charge minus column charge",
+  "normalisations": [
+    "independent translation of the two block profiles",
+    "simultaneous reflection of both profiles"
+  ],
+  "zero_grade_controls": {
+    "source": "A(8,8) restricted to zero grades on all three legs",
+    "zero_grade_leg_dimension": 64,
+    "full_source_terms_examined": 262144,
+    "zero_grade_source_terms": 2080,
+    "coordinate_slice_ranks_lex_i_s": [
+      8,
+      15,
+      21,
+      26,
+      30,
+      33,
+      35,
+      36,
+      15,
+      22,
+      28,
+      33,
+      37,
+      40,
+      42,
+      35,
+      21,
+      28,
+      34,
+      39,
+      43,
+      46,
+      40,
+      33,
+      26,
+      33,
+      39,
+      44,
+      48,
+      43,
+      37,
+      30,
+      30,
+      37,
+      43,
+      48,
+      44,
+      39,
+      33,
+      26,
+      33,
+      40,
+      46,
+      43,
+      39,
+      34,
+      28,
+      21,
+      35,
+      42,
+      40,
+      37,
+      33,
+      28,
+      22,
+      15,
+      36,
+      35,
+      33,
+      30,
+      26,
+      21,
+      15,
+      8
+    ],
+    "coordinate_slices_are_partial_permutations": true,
+    "residual_two_torus_identity_checked": true,
+    "minimum_coordinate_slice_rank": 8,
+    "minimum_nonzero_slice_rank_by_torus_proof": 8,
+    "maximum_ordinary_graded_target_zero_dimension_with_scalar_slice": 60,
+    "standard_library_only": true,
+    "general_degenerations_excluded": false,
+    "new_exponent_established": false
+  },
+  "allowed_zero_count_pairs": [
+    [
+      51,
+      7
+    ],
+    [
+      53,
+      7
+    ],
+    [
+      51,
+      9
+    ]
+  ],
+  "source_abs_weight_dimensions": [
+    64,
+    63,
+    61,
+    58,
+    54,
+    49,
+    43,
+    36,
+    28,
+    21,
+    15,
+    10,
+    6,
+    3,
+    1
+  ],
+  "source_terms_examined": 262144,
+  "ordered_source_rank_blocks": 631,
+  "large_reflection_representatives_before_individual_capacity": 7847,
+  "large_reflection_representatives_after_individual_capacity": 85,
+  "large_profiles_by_zero_count": {
+    "51": 1,
+    "53": 84
+  },
+  "small_normalised_profiles_by_zero_count": {
+    "7": 3003,
+    "9": 12012
+  },
+  "counts": {
+    "canonical_pairs_considered": 265783,
+    "pass_weight_capacity": 38482,
+    "pass_saturated_input_lower_rank": 14220,
+    "pass_selected_upper_rank": 5604
+  },
+  "saturated_lower_rejections": [
+    {
+      "weights": [
+        -12,
+        10,
+        2
+      ],
+      "count": 2
+    },
+    {
+      "weights": [
+        -12,
+        12,
+        0
+      ],
+      "count": 4359
+    },
+    {
+      "weights": [
+        -11,
+        9,
+        2
+      ],
+      "count": 8
+    },
+    {
+      "weights": [
+        -11,
+        10,
+        1
+      ],
+      "count": 232
+    },
+    {
+      "weights": [
+        -11,
+        11,
+        0
+      ],
+      "count": 17791
+    },
+    {
+      "weights": [
+        -10,
+        9,
+        1
+      ],
+      "count": 8
+    },
+    {
+      "weights": [
+        -10,
+        10,
+        0
+      ],
+      "count": 1714
+    },
+    {
+      "weights": [
+        -9,
+        9,
+        0
+      ],
+      "count": 8
+    },
+    {
+      "weights": [
+        10,
+        -10,
+        0
+      ],
+      "count": 35
+    },
+    {
+      "weights": [
+        11,
+        -11,
+        0
+      ],
+      "count": 105
+    }
+  ],
+  "selected_upper_blocks": [
+    [
+      13,
+      -13
+    ],
+    [
+      12,
+      -12
+    ]
+  ],
+  "selected_upper_rejections": [
+    {
+      "weights": [
+        12,
+        -12,
+        0
+      ],
+      "count": 90
+    },
+    {
+      "weights": [
+        13,
+        -13,
+        0
+      ],
+      "count": 8526
+    }
+  ],
+  "terminal_written_proof_classes": {
+    "boundary_profile_without_auxiliary_extreme_coordinates": 3345,
+    "saturated_degree13_with_auxiliary_scalar_channel": 2259
+  },
+  "terminal_large_profiles": [
+    {
+      "profile": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      "counts": {
+        "boundary_profile_without_auxiliary_extreme_coordinates": 301,
+        "saturated_degree13_with_auxiliary_scalar_channel": 138
+      }
+    },
+    {
+      "profile": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "counts": {
+        "boundary_profile_without_auxiliary_extreme_coordinates": 742,
+        "saturated_degree13_with_auxiliary_scalar_channel": 476
+      }
+    },
+    {
+      "profile": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "counts": {
+        "boundary_profile_without_auxiliary_extreme_coordinates": 917,
+        "saturated_degree13_with_auxiliary_scalar_channel": 658
+      }
+    },
+    {
+      "profile": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "counts": {
+        "boundary_profile_without_auxiliary_extreme_coordinates": 917,
+        "saturated_degree13_with_auxiliary_scalar_channel": 658
+      }
+    },
+    {
+      "profile": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "counts": {
+        "boundary_profile_without_auxiliary_extreme_coordinates": 468,
+        "saturated_degree13_with_auxiliary_scalar_channel": 329
+      }
+    }
+  ],
+  "terminal_examples": {
+    "boundary_profile_without_auxiliary_extreme_coordinates": {
+      "large": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      "small": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weight_counts": [
+        60,
+        56,
+        52,
+        47,
+        41,
+        36,
+        31,
+        26,
+        22,
+        18,
+        13,
+        9,
+        5,
+        2,
+        1
+      ],
+      "proof_class": "boundary_profile_without_auxiliary_extreme_coordinates"
+    },
+    "saturated_degree13_with_auxiliary_scalar_channel": {
+      "large": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        1,
+        1
+      ],
+      "small": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "weight_counts": [
+        60,
+        54,
+        50,
+        46,
+        40,
+        36,
+        31,
+        27,
+        23,
+        19,
+        14,
+        9,
+        6,
+        3,
+        1
+      ],
+      "proof_class": "saturated_degree13_with_auxiliary_scalar_channel"
+    }
+  },
+  "terminal_profile_stream_sha256": "f18fd2308147eb48d2bf1d0bdfcd54079de48bdc410fc9a34ed93eac2232b7a1",
+  "unclassified_profiles": 0,
+  "standard_library_only": true,
+  "unequal_vertex_profiles_excluded": false,
+  "ungraded_restrictions_excluded": false,
+  "arbitrary_singular_degenerations_excluded": false,
+  "new_exponent_established": false
+}

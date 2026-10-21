@@ -1,0 +1,166 @@
+{
+  "scope": "Focused exact changed-core constructions, fixed-map obstructions, incoming mixed-jet tests and repository checks",
+  "baseline_commit": "1f813bb0ffa0585629f311fe932d0b60d6a368f2",
+  "started_utc": "2026-10-21T05:52:47.631082+00:00",
+  "finished_utc": "2026-10-21T05:52:55.366104+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S: unittest.TestSuite(defaultTestLoader.discover(tests, pattern) for each recorded pattern)",
+  "patterns": [
+    "test_parity_balancing_crossed_flattening.py",
+    "test_crossed_module_response.py",
+    "test_spin_module14.py",
+    "test_parity_structure_cross_module_corner.py",
+    "test_parity_structure_cross_module_corner_shifted.py",
+    "test_mixed_first_jets.py",
+    "test_research.py"
+  ],
+  "tests_run": 35,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "log_path": "results/anisotropic-constructions-2026-10-20/changed-core-focused-tests.txt",
+  "log_sha256": "60a926a4bd3179557059e2a8fd3699cb5c8db5400243b2c40b3c0a1b8f695488",
+  "frozen_artifacts": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/crossed_module_response.md",
+      "size": 4229,
+      "sha256": "84e75aba909579c813905f01047001d9fd0119f7f30e1da5577057b8c80ec372",
+      "integration_edit": "Cross-reference the stronger fixed-first-map obstruction and the changed corner construction; no map or coefficient changes"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/crossed_module_response.py",
+      "size": 4803,
+      "sha256": "3d33f31b0598b83a36a51d0c03376ffdc24d614800c0fd0dbea7a0fba3abb32b"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_crossed_flattening.md",
+      "size": 9875,
+      "sha256": "677873b1f0c178998e1a4544e68712c99ce27b2dd0bec979346a6199c19b1220"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_crossed_flattening.py",
+      "size": 9098,
+      "sha256": "76d5d71ccb1872f9733489c04627746591f5ee80e27f9215fdf00ed34d51ae16"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/crossed-module-response-minor.json",
+      "size": 736,
+      "sha256": "480e46ae61426553f997f19725d81a3a4b235265c8df4749b8d7d9723fd1956b"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/crossed-module-response-certificate.json",
+      "size": 872,
+      "sha256": "60cbc9425e7e66122766cbc1bb60247d9282f194f561534e3d6bbe029693440d"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_crossed_flattening.json",
+      "size": 3254,
+      "sha256": "dee89b82cf5e225f5476bb09043a5e894a00a6da8a838028886dd9f5b5e05142"
+    },
+    {
+      "path": "tests/test_crossed_module_response.py",
+      "size": 1203,
+      "sha256": "e304fcebb90d095d59b981bad3fc514b0f9de22bcbf2893e353bb1dc728d4628"
+    },
+    {
+      "path": "tests/test_parity_balancing_crossed_flattening.py",
+      "size": 1975,
+      "sha256": "e1b925e8c5f76c4158290f01149144e27f188ab7e230f63308b8d52d31d38e5e"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner.py",
+      "size": 11222,
+      "sha256": "5a455ce90a535298096fec02ef91a1799d23bec7f3fc05b315a9e5ce811f6911"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner.md",
+      "size": 6928,
+      "sha256": "1d30a0347434587ef3e0db0a78da983859c30b563a69d47bd5c35386605ae256"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_cross_module_corner_maps.json",
+      "size": 21704,
+      "sha256": "f62e14aa8d599dc42525141e47be76769c32bca9b13f3ac44797314935b1ac79"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_cross_module_corner_certificate.json",
+      "size": 3475,
+      "sha256": "7ec62790366ec4e7caaf0a3b39d6672ee4b46dcdabdb70e904ae914da9f77e01"
+    },
+    {
+      "path": "tests/test_parity_structure_cross_module_corner.py",
+      "size": 1834,
+      "sha256": "89d2b996018055d403033ab359075e90589148d5c0bc3c4ae5e4ef9b11b8810d"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.py",
+      "size": 4916,
+      "sha256": "249542e0e2b29ea6ade9d9d7c829e406b8281e9f10d16cb03bdfb3aa6be84611"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.md",
+      "size": 2292,
+      "sha256": "f18a88fb491e9aedefdf4d3aeb164f0bd322309a12ebaef8170db63e0b66aa03"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_module14.md",
+      "size": 9677,
+      "sha256": "35a36088b8c73824b477f4d0ba9a478addfe2e25ac673da9b1943ad206acfa96"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_module14.py",
+      "size": 14661,
+      "sha256": "3920fee95cf19d80b0bc310fb6a9962ddecf53f11df356dda2b2244c414490a0"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_module_discovery.py",
+      "size": 9673,
+      "sha256": "89df3f829e4a2d3cb0215dba010f5d2d966353af9ad182f78163565bc41e9b1b",
+      "integration_edit": "Agent refroze a self-contained optional toolkit; saved discovery point and exact maps unchanged"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_cross_module_corner_shifted_maps.json",
+      "size": 21727,
+      "sha256": "ca4e398b8f053fe5262300fe4af00891cfaa58616dc67813833ab840fe3fe3d7"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_cross_module_corner_shifted_certificate.json",
+      "size": 1491,
+      "sha256": "02fa91cf4fafe744d3ae5d7df2b90f7d631d0beb4253b3e3c7eb612ac1b15eb8"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-module14-witness.json",
+      "size": 180158,
+      "sha256": "e77563263d1161cd0f74d571a1b133605cd294748531a181883d5da06c76fae1"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-module14-full-maps.json",
+      "size": 827917,
+      "sha256": "8f4c00bddee31fcbf527185351b96d2a638acdae29d68f019a617a2e4382c58a"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-module14-certificate.json",
+      "size": 2557,
+      "sha256": "9f097cdd0a75743b5e950bd1f592c6d25179709ac95dd7d67684248b96f26609"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-module14-sparse-discovery.json",
+      "size": 2701,
+      "sha256": "d1979634733458b630f43a1ca798785f592210372b80a342023d642adda3f0b8"
+    },
+    {
+      "path": "tests/test_parity_structure_cross_module_corner_shifted.py",
+      "size": 1210,
+      "sha256": "ea8e2508b228963b580b44cbec0e0a69c68950aa969909917e308d0977bf402b"
+    },
+    {
+      "path": "tests/test_spin_module14.py",
+      "size": 1921,
+      "sha256": "6905fd25e5bde15843bd4ca0c2a4b2dc7cbd98ebfdae48aad8beeddbd6ccddbd"
+    }
+  ],
+  "review_scope": "All construction and review is in the generating session; no external independent review or formalization.",
+  "incoming_main_commit": "21f54c31fa5f2f545b04d943416437fa26e0a69f",
+  "incoming_test_sha256": "d514eaf1bebb048152cbf38b55b4feec58424b6c44d805f0bd645435b675dbd0"
+}

@@ -1,0 +1,325 @@
+{
+  "source": "A(8,8)",
+  "target": "M27 direct_sum M7",
+  "common_M27_charge_multiplicities": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+  ],
+  "common_M7_charge_multiplicities": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "map_scope": "ordinary maps preserving the specified integer grading on all three legs",
+  "product_grids": {
+    "source_basis_coordinates": 960,
+    "degree_13_ordered_products": 18,
+    "product_grid_coefficients_checked": 17280,
+    "extreme_products_checked": 2,
+    "negative_grid": [
+      [
+        [
+          1,
+          7,
+          6
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          0,
+          7,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          7,
+          7
+        ],
+        null,
+        null
+      ],
+      [
+        [
+          1,
+          8,
+          7
+        ],
+        [
+          0,
+          7,
+          7
+        ],
+        null
+      ]
+    ],
+    "positive_grid": [
+      [
+        [
+          6,
+          7,
+          1
+        ],
+        [
+          7,
+          8,
+          1
+        ],
+        [
+          7,
+          7,
+          0
+        ]
+      ],
+      [
+        [
+          7,
+          7,
+          0
+        ],
+        null,
+        null
+      ],
+      [
+        [
+          6,
+          6,
+          0
+        ],
+        [
+          7,
+          7,
+          0
+        ],
+        null
+      ]
+    ]
+  },
+  "endpoint_projections": [
+    {
+      "type": "A",
+      "projection_columns": "p,r",
+      "target_covector_in_column_span": [
+        0,
+        1
+      ]
+    },
+    {
+      "type": "B",
+      "projection_columns": "p,q",
+      "target_covector_in_column_span": [
+        1,
+        0
+      ]
+    },
+    {
+      "type": "C",
+      "projection_columns": "s,t",
+      "target_covector_in_column_span": [
+        0,
+        1
+      ]
+    },
+    {
+      "type": "D",
+      "projection_columns": "s,u",
+      "target_covector_in_column_span": [
+        1,
+        0
+      ]
+    }
+  ],
+  "generic_pair_identities": {
+    "formal_polynomial_identities_checked": 10,
+    "extreme_scalar_values_normalized": false,
+    "negative_pair_nonzero_coordinates": [
+      "p2",
+      "s2"
+    ],
+    "negative_pair_zero_product": "p1*s1",
+    "positive_pair_nonzero_coordinates": [
+      "s1",
+      "p1"
+    ],
+    "positive_pair_zero_product": "s2*p2"
+  },
+  "cross_type_contradictions": [
+    {
+      "ordered_types": "A_then_C",
+      "forced_target_diagonal": null,
+      "required_independent_target_diagonal": [
+        0,
+        0
+      ]
+    },
+    {
+      "ordered_types": "C_then_A",
+      "forced_target_diagonal": [
+        26,
+        26
+      ],
+      "required_independent_target_diagonal": [
+        25,
+        25
+      ]
+    },
+    {
+      "ordered_types": "B_then_D",
+      "forced_target_diagonal": [
+        0,
+        0
+      ],
+      "required_independent_target_diagonal": [
+        1,
+        1
+      ]
+    },
+    {
+      "ordered_types": "D_then_B",
+      "forced_target_diagonal": null,
+      "required_independent_target_diagonal": [
+        26,
+        26
+      ]
+    }
+  ],
+  "double_singular_contradictions": {
+    "complete_product_rows_checked": 4,
+    "A_and_B": {
+      "offdiagonal_equation": "q1*s2*a=0",
+      "forced_zero_coordinate": "s2",
+      "remaining_diagonal_equation": "r2*t2*a=z11",
+      "a_is_nonzero_multiple_of": "z00"
+    },
+    "C_and_D": {
+      "offdiagonal_equation": "t2*p1*b=0",
+      "forced_zero_coordinate": "p1",
+      "remaining_diagonal_equation": "u1*q1*b=z25,25",
+      "b_is_nonzero_multiple_of": "z26,26"
+    }
+  },
+  "cyclic_pattern_enumeration": {
+    "type_location_choices": 256,
+    "after_cross_type_exclusions": 100,
+    "after_generic_pair_implications": 10,
+    "classified_survivors": [
+      {
+        "locations_A_B_C_D": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "contradiction": "all_generic_opposite_pair_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "contradiction": "positive_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "contradiction": "positive_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          -1,
+          -1,
+          2,
+          2
+        ],
+        "contradiction": "positive_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "contradiction": "negative_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contradiction": "negative_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "contradiction": "negative_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "contradiction": "negative_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          2,
+          2,
+          -1,
+          -1
+        ],
+        "contradiction": "negative_double_singular_contradiction"
+      },
+      {
+        "locations_A_B_C_D": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "contradiction": "negative_double_singular_contradiction"
+      }
+    ],
+    "patterns_after_all_contradictions": 0,
+    "at_most_one_leg_per_type_dependency": "parity_balancing_rankone_13_chain.md and symmetry addendum"
+  },
+  "written_proof_excludes_specified_ordinary_torus_profile": true,
+  "other_torus_profiles_excluded": false,
+  "arbitrary_singular_limits_excluded": false,
+  "new_exponent_established": false
+}

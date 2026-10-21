@@ -1,0 +1,5969 @@
+{
+  "format": "graded-fixed-matrix-core-extension-v1",
+  "general_bound": "D_w <= N_w - rank(Phi_w) + c_w",
+  "scope": "The two specified core maps remain fixed; the rest of all maps may vary.",
+  "cases": [
+    {
+      "name": "endpoint_M2",
+      "source_lengths": [
+        8,
+        8
+      ],
+      "physical_vertices": [
+        [
+          0,
+          7
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "core_order": 2,
+      "core_vertex_charges": [
+        0,
+        14
+      ],
+      "core_embedding_in_M27": [
+        0,
+        26
+      ],
+      "target_vertex_charges": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          10,
+          10,
+          11,
+          11,
+          12,
+          12,
+          13,
+          14
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "common_coordinate_map": [
+        [
+          0,
+          63,
+          1
+        ],
+        [
+          1,
+          112,
+          1
+        ],
+        [
+          2,
+          847,
+          1
+        ],
+        [
+          3,
+          896,
+          1
+        ]
+      ],
+      "maps": [
+        [
+          [
+            0,
+            63,
+            1
+          ],
+          [
+            1,
+            112,
+            1
+          ],
+          [
+            2,
+            847,
+            1
+          ],
+          [
+            3,
+            896,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            847,
+            1
+          ],
+          [
+            1,
+            14,
+            1
+          ],
+          [
+            2,
+            945,
+            1
+          ],
+          [
+            3,
+            112,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            504,
+            1
+          ],
+          [
+            1,
+            896,
+            1
+          ],
+          [
+            2,
+            63,
+            1
+          ],
+          [
+            3,
+            455,
+            1
+          ]
+        ]
+      ],
+      "verification": {
+        "core_matrix_identity_exact": true,
+        "nonzero_core_coefficients": 8,
+        "all_core_target_coefficients_accounted_for": 64,
+        "source_pair_rows_checked": 16,
+        "full_source_terms_enumerated": 262144,
+        "pair_rank_is_exact_coordinate_support_count": true,
+        "total_pair_contraction_rank": 6,
+        "global_fixed_core_dimension_upper_bound": 958,
+        "weight_blocks": [
+          {
+            "weight": -14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              112
+            ]
+          },
+          {
+            "weight": -13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 6,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 10,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 15,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 21,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 28,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 54,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 61,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 63,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 0,
+            "source_dimension": 64,
+            "exact_pair_contraction_rank": 4,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 60,
+            "fixed_core_extension_dimension_upper_bound": 62,
+            "violated": false,
+            "supported_common_source_columns": [
+              0,
+              63,
+              896,
+              959
+            ]
+          },
+          {
+            "weight": 1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 63,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 61,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 54,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 28,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 21,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 15,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 10,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 6,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              847
+            ]
+          }
+        ],
+        "violated_weights": [],
+        "fixed_core_extension_to_current_torus_profile_excluded": false,
+        "changing_core_maps_excluded": false,
+        "arbitrary_source_degenerations_excluded": false,
+        "new_exponent_established": false
+      }
+    },
+    {
+      "name": "endpoint_M4",
+      "source_lengths": [
+        8,
+        8
+      ],
+      "physical_vertices": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "core_order": 4,
+      "core_vertex_charges": [
+        0,
+        1,
+        13,
+        14
+      ],
+      "core_embedding_in_M27": [
+        0,
+        1,
+        25,
+        26
+      ],
+      "target_vertex_charges": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          10,
+          10,
+          11,
+          11,
+          12,
+          12,
+          13,
+          14
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "common_coordinate_map": [
+        [
+          0,
+          63,
+          1
+        ],
+        [
+          1,
+          71,
+          1
+        ],
+        [
+          2,
+          104,
+          1
+        ],
+        [
+          3,
+          112,
+          1
+        ],
+        [
+          4,
+          183,
+          1
+        ],
+        [
+          5,
+          191,
+          1
+        ],
+        [
+          6,
+          224,
+          1
+        ],
+        [
+          7,
+          232,
+          1
+        ],
+        [
+          8,
+          727,
+          1
+        ],
+        [
+          9,
+          735,
+          1
+        ],
+        [
+          10,
+          768,
+          1
+        ],
+        [
+          11,
+          776,
+          1
+        ],
+        [
+          12,
+          847,
+          1
+        ],
+        [
+          13,
+          855,
+          1
+        ],
+        [
+          14,
+          888,
+          1
+        ],
+        [
+          15,
+          896,
+          1
+        ]
+      ],
+      "maps": [
+        [
+          [
+            0,
+            63,
+            1
+          ],
+          [
+            1,
+            71,
+            1
+          ],
+          [
+            2,
+            104,
+            1
+          ],
+          [
+            3,
+            112,
+            1
+          ],
+          [
+            4,
+            183,
+            1
+          ],
+          [
+            5,
+            191,
+            1
+          ],
+          [
+            6,
+            224,
+            1
+          ],
+          [
+            7,
+            232,
+            1
+          ],
+          [
+            8,
+            727,
+            1
+          ],
+          [
+            9,
+            735,
+            1
+          ],
+          [
+            10,
+            768,
+            1
+          ],
+          [
+            11,
+            776,
+            1
+          ],
+          [
+            12,
+            847,
+            1
+          ],
+          [
+            13,
+            855,
+            1
+          ],
+          [
+            14,
+            888,
+            1
+          ],
+          [
+            15,
+            896,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            847,
+            1
+          ],
+          [
+            1,
+            848,
+            1
+          ],
+          [
+            2,
+            13,
+            1
+          ],
+          [
+            3,
+            14,
+            1
+          ],
+          [
+            4,
+            862,
+            1
+          ],
+          [
+            5,
+            863,
+            1
+          ],
+          [
+            6,
+            28,
+            1
+          ],
+          [
+            7,
+            29,
+            1
+          ],
+          [
+            8,
+            930,
+            1
+          ],
+          [
+            9,
+            931,
+            1
+          ],
+          [
+            10,
+            96,
+            1
+          ],
+          [
+            11,
+            97,
+            1
+          ],
+          [
+            12,
+            945,
+            1
+          ],
+          [
+            13,
+            946,
+            1
+          ],
+          [
+            14,
+            111,
+            1
+          ],
+          [
+            15,
+            112,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            504,
+            1
+          ],
+          [
+            1,
+            568,
+            1
+          ],
+          [
+            2,
+            832,
+            1
+          ],
+          [
+            3,
+            896,
+            1
+          ],
+          [
+            4,
+            505,
+            1
+          ],
+          [
+            5,
+            569,
+            1
+          ],
+          [
+            6,
+            833,
+            1
+          ],
+          [
+            7,
+            897,
+            1
+          ],
+          [
+            8,
+            62,
+            1
+          ],
+          [
+            9,
+            126,
+            1
+          ],
+          [
+            10,
+            390,
+            1
+          ],
+          [
+            11,
+            454,
+            1
+          ],
+          [
+            12,
+            63,
+            1
+          ],
+          [
+            13,
+            127,
+            1
+          ],
+          [
+            14,
+            391,
+            1
+          ],
+          [
+            15,
+            455,
+            1
+          ]
+        ]
+      ],
+      "verification": {
+        "core_matrix_identity_exact": true,
+        "nonzero_core_coefficients": 64,
+        "all_core_target_coefficients_accounted_for": 4096,
+        "source_pair_rows_checked": 256,
+        "full_source_terms_enumerated": 262144,
+        "pair_rank_is_exact_coordinate_support_count": true,
+        "total_pair_contraction_rank": 44,
+        "global_fixed_core_dimension_upper_bound": 932,
+        "weight_blocks": [
+          {
+            "weight": -14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              112
+            ]
+          },
+          {
+            "weight": -13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              104,
+              113,
+              232
+            ]
+          },
+          {
+            "weight": -12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 4,
+            "violated": true,
+            "supported_common_source_columns": [
+              105,
+              224,
+              233
+            ]
+          },
+          {
+            "weight": -11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 9,
+            "violated": false,
+            "supported_common_source_columns": [
+              225
+            ]
+          },
+          {
+            "weight": -10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 15,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 21,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 28,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 54,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 2,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 59,
+            "violated": false,
+            "supported_common_source_columns": [
+              70,
+              957
+            ]
+          },
+          {
+            "weight": -1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 7,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": false,
+            "supported_common_source_columns": [
+              8,
+              62,
+              71,
+              190,
+              776,
+              949,
+              958
+            ]
+          },
+          {
+            "weight": 0,
+            "source_dimension": 64,
+            "exact_pair_contraction_rank": 10,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 60,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": true,
+            "supported_common_source_columns": [
+              0,
+              9,
+              63,
+              182,
+              191,
+              768,
+              777,
+              896,
+              950,
+              959
+            ]
+          },
+          {
+            "weight": 1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 7,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": false,
+            "supported_common_source_columns": [
+              1,
+              10,
+              183,
+              769,
+              888,
+              897,
+              951
+            ]
+          },
+          {
+            "weight": 2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 2,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 59,
+            "violated": false,
+            "supported_common_source_columns": [
+              2,
+              889
+            ]
+          },
+          {
+            "weight": 3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 58,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 54,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 28,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 21,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 15,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 9,
+            "violated": false,
+            "supported_common_source_columns": [
+              734
+            ]
+          },
+          {
+            "weight": 12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 4,
+            "violated": true,
+            "supported_common_source_columns": [
+              726,
+              735,
+              854
+            ]
+          },
+          {
+            "weight": 13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              727,
+              846,
+              855
+            ]
+          },
+          {
+            "weight": 14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              847
+            ]
+          }
+        ],
+        "violated_weights": [
+          -12,
+          0,
+          12
+        ],
+        "fixed_core_extension_to_current_torus_profile_excluded": true,
+        "changing_core_maps_excluded": false,
+        "arbitrary_source_degenerations_excluded": false,
+        "new_exponent_established": false
+      }
+    },
+    {
+      "name": "monotone_M6",
+      "source_lengths": [
+        8,
+        8
+      ],
+      "physical_vertices": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "core_order": 6,
+      "core_vertex_charges": [
+        0,
+        1,
+        2,
+        12,
+        13,
+        14
+      ],
+      "core_embedding_in_M27": [
+        0,
+        1,
+        2,
+        23,
+        25,
+        26
+      ],
+      "target_vertex_charges": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          10,
+          10,
+          11,
+          11,
+          12,
+          12,
+          13,
+          14
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "common_coordinate_map": [
+        [
+          0,
+          63,
+          1
+        ],
+        [
+          1,
+          71,
+          1
+        ],
+        [
+          2,
+          79,
+          1
+        ],
+        [
+          3,
+          96,
+          1
+        ],
+        [
+          4,
+          104,
+          1
+        ],
+        [
+          5,
+          112,
+          1
+        ],
+        [
+          6,
+          183,
+          1
+        ],
+        [
+          7,
+          191,
+          1
+        ],
+        [
+          8,
+          199,
+          1
+        ],
+        [
+          9,
+          216,
+          1
+        ],
+        [
+          10,
+          224,
+          1
+        ],
+        [
+          11,
+          232,
+          1
+        ],
+        [
+          12,
+          303,
+          1
+        ],
+        [
+          13,
+          311,
+          1
+        ],
+        [
+          14,
+          319,
+          1
+        ],
+        [
+          15,
+          336,
+          1
+        ],
+        [
+          16,
+          344,
+          1
+        ],
+        [
+          17,
+          352,
+          1
+        ],
+        [
+          18,
+          607,
+          1
+        ],
+        [
+          19,
+          615,
+          1
+        ],
+        [
+          20,
+          623,
+          1
+        ],
+        [
+          21,
+          640,
+          1
+        ],
+        [
+          22,
+          648,
+          1
+        ],
+        [
+          23,
+          656,
+          1
+        ],
+        [
+          24,
+          727,
+          1
+        ],
+        [
+          25,
+          735,
+          1
+        ],
+        [
+          26,
+          743,
+          1
+        ],
+        [
+          27,
+          760,
+          1
+        ],
+        [
+          28,
+          768,
+          1
+        ],
+        [
+          29,
+          776,
+          1
+        ],
+        [
+          30,
+          847,
+          1
+        ],
+        [
+          31,
+          855,
+          1
+        ],
+        [
+          32,
+          863,
+          1
+        ],
+        [
+          33,
+          880,
+          1
+        ],
+        [
+          34,
+          888,
+          1
+        ],
+        [
+          35,
+          896,
+          1
+        ]
+      ],
+      "maps": [
+        [
+          [
+            0,
+            63,
+            1
+          ],
+          [
+            1,
+            71,
+            1
+          ],
+          [
+            2,
+            79,
+            1
+          ],
+          [
+            3,
+            96,
+            1
+          ],
+          [
+            4,
+            104,
+            1
+          ],
+          [
+            5,
+            112,
+            1
+          ],
+          [
+            6,
+            183,
+            1
+          ],
+          [
+            7,
+            191,
+            1
+          ],
+          [
+            8,
+            199,
+            1
+          ],
+          [
+            9,
+            216,
+            1
+          ],
+          [
+            10,
+            224,
+            1
+          ],
+          [
+            11,
+            232,
+            1
+          ],
+          [
+            12,
+            303,
+            1
+          ],
+          [
+            13,
+            311,
+            1
+          ],
+          [
+            14,
+            319,
+            1
+          ],
+          [
+            15,
+            336,
+            1
+          ],
+          [
+            16,
+            344,
+            1
+          ],
+          [
+            17,
+            352,
+            1
+          ],
+          [
+            18,
+            607,
+            1
+          ],
+          [
+            19,
+            615,
+            1
+          ],
+          [
+            20,
+            623,
+            1
+          ],
+          [
+            21,
+            640,
+            1
+          ],
+          [
+            22,
+            648,
+            1
+          ],
+          [
+            23,
+            656,
+            1
+          ],
+          [
+            24,
+            727,
+            1
+          ],
+          [
+            25,
+            735,
+            1
+          ],
+          [
+            26,
+            743,
+            1
+          ],
+          [
+            27,
+            760,
+            1
+          ],
+          [
+            28,
+            768,
+            1
+          ],
+          [
+            29,
+            776,
+            1
+          ],
+          [
+            30,
+            847,
+            1
+          ],
+          [
+            31,
+            855,
+            1
+          ],
+          [
+            32,
+            863,
+            1
+          ],
+          [
+            33,
+            880,
+            1
+          ],
+          [
+            34,
+            888,
+            1
+          ],
+          [
+            35,
+            896,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            847,
+            1
+          ],
+          [
+            1,
+            848,
+            1
+          ],
+          [
+            2,
+            849,
+            1
+          ],
+          [
+            3,
+            12,
+            1
+          ],
+          [
+            4,
+            13,
+            1
+          ],
+          [
+            5,
+            14,
+            1
+          ],
+          [
+            6,
+            862,
+            1
+          ],
+          [
+            7,
+            863,
+            1
+          ],
+          [
+            8,
+            864,
+            1
+          ],
+          [
+            9,
+            27,
+            1
+          ],
+          [
+            10,
+            28,
+            1
+          ],
+          [
+            11,
+            29,
+            1
+          ],
+          [
+            12,
+            877,
+            1
+          ],
+          [
+            13,
+            878,
+            1
+          ],
+          [
+            14,
+            879,
+            1
+          ],
+          [
+            15,
+            42,
+            1
+          ],
+          [
+            16,
+            43,
+            1
+          ],
+          [
+            17,
+            44,
+            1
+          ],
+          [
+            18,
+            915,
+            1
+          ],
+          [
+            19,
+            916,
+            1
+          ],
+          [
+            20,
+            917,
+            1
+          ],
+          [
+            21,
+            80,
+            1
+          ],
+          [
+            22,
+            81,
+            1
+          ],
+          [
+            23,
+            82,
+            1
+          ],
+          [
+            24,
+            930,
+            1
+          ],
+          [
+            25,
+            931,
+            1
+          ],
+          [
+            26,
+            932,
+            1
+          ],
+          [
+            27,
+            95,
+            1
+          ],
+          [
+            28,
+            96,
+            1
+          ],
+          [
+            29,
+            97,
+            1
+          ],
+          [
+            30,
+            945,
+            1
+          ],
+          [
+            31,
+            946,
+            1
+          ],
+          [
+            32,
+            947,
+            1
+          ],
+          [
+            33,
+            110,
+            1
+          ],
+          [
+            34,
+            111,
+            1
+          ],
+          [
+            35,
+            112,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            504,
+            1
+          ],
+          [
+            1,
+            568,
+            1
+          ],
+          [
+            2,
+            632,
+            1
+          ],
+          [
+            3,
+            768,
+            1
+          ],
+          [
+            4,
+            832,
+            1
+          ],
+          [
+            5,
+            896,
+            1
+          ],
+          [
+            6,
+            505,
+            1
+          ],
+          [
+            7,
+            569,
+            1
+          ],
+          [
+            8,
+            633,
+            1
+          ],
+          [
+            9,
+            769,
+            1
+          ],
+          [
+            10,
+            833,
+            1
+          ],
+          [
+            11,
+            897,
+            1
+          ],
+          [
+            12,
+            506,
+            1
+          ],
+          [
+            13,
+            570,
+            1
+          ],
+          [
+            14,
+            634,
+            1
+          ],
+          [
+            15,
+            770,
+            1
+          ],
+          [
+            16,
+            834,
+            1
+          ],
+          [
+            17,
+            898,
+            1
+          ],
+          [
+            18,
+            61,
+            1
+          ],
+          [
+            19,
+            125,
+            1
+          ],
+          [
+            20,
+            189,
+            1
+          ],
+          [
+            21,
+            325,
+            1
+          ],
+          [
+            22,
+            389,
+            1
+          ],
+          [
+            23,
+            453,
+            1
+          ],
+          [
+            24,
+            62,
+            1
+          ],
+          [
+            25,
+            126,
+            1
+          ],
+          [
+            26,
+            190,
+            1
+          ],
+          [
+            27,
+            326,
+            1
+          ],
+          [
+            28,
+            390,
+            1
+          ],
+          [
+            29,
+            454,
+            1
+          ],
+          [
+            30,
+            63,
+            1
+          ],
+          [
+            31,
+            127,
+            1
+          ],
+          [
+            32,
+            191,
+            1
+          ],
+          [
+            33,
+            327,
+            1
+          ],
+          [
+            34,
+            391,
+            1
+          ],
+          [
+            35,
+            455,
+            1
+          ]
+        ]
+      ],
+      "verification": {
+        "core_matrix_identity_exact": true,
+        "nonzero_core_coefficients": 216,
+        "all_core_target_coefficients_accounted_for": 46656,
+        "source_pair_rows_checked": 1296,
+        "full_source_terms_enumerated": 262144,
+        "pair_rank_is_exact_coordinate_support_count": true,
+        "total_pair_contraction_rank": 138,
+        "global_fixed_core_dimension_upper_bound": 858,
+        "weight_blocks": [
+          {
+            "weight": -14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              112
+            ]
+          },
+          {
+            "weight": -13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              104,
+              113,
+              232
+            ]
+          },
+          {
+            "weight": -12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": true,
+            "supported_common_source_columns": [
+              96,
+              105,
+              114,
+              224,
+              233,
+              352
+            ]
+          },
+          {
+            "weight": -11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 7,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 5,
+            "violated": true,
+            "supported_common_source_columns": [
+              97,
+              106,
+              216,
+              225,
+              234,
+              344,
+              353
+            ]
+          },
+          {
+            "weight": -10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 10,
+            "violated": true,
+            "supported_common_source_columns": [
+              98,
+              217,
+              226,
+              336,
+              345,
+              354
+            ]
+          },
+          {
+            "weight": -9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 18,
+            "violated": false,
+            "supported_common_source_columns": [
+              218,
+              337,
+              346
+            ]
+          },
+          {
+            "weight": -8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 27,
+            "violated": false,
+            "supported_common_source_columns": [
+              338
+            ]
+          },
+          {
+            "weight": -7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 2,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": false,
+            "supported_common_source_columns": [
+              77,
+              955
+            ]
+          },
+          {
+            "weight": -3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 5,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 53,
+            "violated": false,
+            "supported_common_source_columns": [
+              69,
+              78,
+              197,
+              947,
+              956
+            ]
+          },
+          {
+            "weight": -2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 11,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": true,
+            "supported_common_source_columns": [
+              16,
+              61,
+              70,
+              79,
+              189,
+              198,
+              317,
+              656,
+              939,
+              948,
+              957
+            ]
+          },
+          {
+            "weight": -1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 15,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": true,
+            "supported_common_source_columns": [
+              8,
+              17,
+              62,
+              71,
+              181,
+              190,
+              199,
+              309,
+              318,
+              648,
+              657,
+              776,
+              940,
+              949,
+              958
+            ]
+          },
+          {
+            "weight": 0,
+            "source_dimension": 64,
+            "exact_pair_contraction_rank": 18,
+            "core_target_dimension": 6,
+            "required_full_target_dimension": 60,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": true,
+            "supported_common_source_columns": [
+              0,
+              9,
+              18,
+              63,
+              182,
+              191,
+              301,
+              310,
+              319,
+              640,
+              649,
+              658,
+              768,
+              777,
+              896,
+              941,
+              950,
+              959
+            ]
+          },
+          {
+            "weight": 1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 15,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": true,
+            "supported_common_source_columns": [
+              1,
+              10,
+              19,
+              183,
+              302,
+              311,
+              641,
+              650,
+              760,
+              769,
+              778,
+              888,
+              897,
+              942,
+              951
+            ]
+          },
+          {
+            "weight": 2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 11,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": true,
+            "supported_common_source_columns": [
+              2,
+              11,
+              20,
+              303,
+              642,
+              761,
+              770,
+              880,
+              889,
+              898,
+              943
+            ]
+          },
+          {
+            "weight": 3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 5,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 53,
+            "violated": false,
+            "supported_common_source_columns": [
+              3,
+              12,
+              762,
+              881,
+              890
+            ]
+          },
+          {
+            "weight": 4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 2,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": false,
+            "supported_common_source_columns": [
+              4,
+              882
+            ]
+          },
+          {
+            "weight": 5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 27,
+            "violated": false,
+            "supported_common_source_columns": [
+              621
+            ]
+          },
+          {
+            "weight": 9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 18,
+            "violated": false,
+            "supported_common_source_columns": [
+              613,
+              622,
+              741
+            ]
+          },
+          {
+            "weight": 10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 10,
+            "violated": true,
+            "supported_common_source_columns": [
+              605,
+              614,
+              623,
+              733,
+              742,
+              861
+            ]
+          },
+          {
+            "weight": 11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 7,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 5,
+            "violated": true,
+            "supported_common_source_columns": [
+              606,
+              615,
+              725,
+              734,
+              743,
+              853,
+              862
+            ]
+          },
+          {
+            "weight": 12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": true,
+            "supported_common_source_columns": [
+              607,
+              726,
+              735,
+              845,
+              854,
+              863
+            ]
+          },
+          {
+            "weight": 13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              727,
+              846,
+              855
+            ]
+          },
+          {
+            "weight": 14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              847
+            ]
+          }
+        ],
+        "violated_weights": [
+          -12,
+          -11,
+          -10,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          10,
+          11,
+          12
+        ],
+        "fixed_core_extension_to_current_torus_profile_excluded": true,
+        "changing_core_maps_excluded": false,
+        "arbitrary_source_degenerations_excluded": false,
+        "new_exponent_established": false
+      }
+    },
+    {
+      "name": "repeated_short_index_M6",
+      "source_lengths": [
+        8,
+        8
+      ],
+      "physical_vertices": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "core_order": 6,
+      "core_vertex_charges": [
+        0,
+        1,
+        2,
+        12,
+        13,
+        14
+      ],
+      "core_embedding_in_M27": [
+        0,
+        1,
+        2,
+        24,
+        25,
+        26
+      ],
+      "target_vertex_charges": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          10,
+          10,
+          11,
+          11,
+          12,
+          12,
+          13,
+          14
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "common_coordinate_map": [
+        [
+          0,
+          63,
+          1
+        ],
+        [
+          1,
+          71,
+          1
+        ],
+        [
+          2,
+          61,
+          1
+        ],
+        [
+          3,
+          114,
+          1
+        ],
+        [
+          4,
+          104,
+          1
+        ],
+        [
+          5,
+          112,
+          1
+        ],
+        [
+          6,
+          183,
+          1
+        ],
+        [
+          7,
+          191,
+          1
+        ],
+        [
+          8,
+          181,
+          1
+        ],
+        [
+          9,
+          234,
+          1
+        ],
+        [
+          10,
+          224,
+          1
+        ],
+        [
+          11,
+          232,
+          1
+        ],
+        [
+          12,
+          47,
+          1
+        ],
+        [
+          13,
+          55,
+          1
+        ],
+        [
+          14,
+          45,
+          1
+        ],
+        [
+          15,
+          98,
+          1
+        ],
+        [
+          16,
+          88,
+          1
+        ],
+        [
+          17,
+          96,
+          1
+        ],
+        [
+          18,
+          863,
+          1
+        ],
+        [
+          19,
+          871,
+          1
+        ],
+        [
+          20,
+          861,
+          1
+        ],
+        [
+          21,
+          914,
+          1
+        ],
+        [
+          22,
+          904,
+          1
+        ],
+        [
+          23,
+          912,
+          1
+        ],
+        [
+          24,
+          727,
+          1
+        ],
+        [
+          25,
+          735,
+          1
+        ],
+        [
+          26,
+          725,
+          1
+        ],
+        [
+          27,
+          778,
+          1
+        ],
+        [
+          28,
+          768,
+          1
+        ],
+        [
+          29,
+          776,
+          1
+        ],
+        [
+          30,
+          847,
+          1
+        ],
+        [
+          31,
+          855,
+          1
+        ],
+        [
+          32,
+          845,
+          1
+        ],
+        [
+          33,
+          898,
+          1
+        ],
+        [
+          34,
+          888,
+          1
+        ],
+        [
+          35,
+          896,
+          1
+        ]
+      ],
+      "maps": [
+        [
+          [
+            0,
+            63,
+            1
+          ],
+          [
+            1,
+            71,
+            1
+          ],
+          [
+            2,
+            61,
+            1
+          ],
+          [
+            3,
+            114,
+            1
+          ],
+          [
+            4,
+            104,
+            1
+          ],
+          [
+            5,
+            112,
+            1
+          ],
+          [
+            6,
+            183,
+            1
+          ],
+          [
+            7,
+            191,
+            1
+          ],
+          [
+            8,
+            181,
+            1
+          ],
+          [
+            9,
+            234,
+            1
+          ],
+          [
+            10,
+            224,
+            1
+          ],
+          [
+            11,
+            232,
+            1
+          ],
+          [
+            12,
+            47,
+            1
+          ],
+          [
+            13,
+            55,
+            1
+          ],
+          [
+            14,
+            45,
+            1
+          ],
+          [
+            15,
+            98,
+            1
+          ],
+          [
+            16,
+            88,
+            1
+          ],
+          [
+            17,
+            96,
+            1
+          ],
+          [
+            18,
+            863,
+            1
+          ],
+          [
+            19,
+            871,
+            1
+          ],
+          [
+            20,
+            861,
+            1
+          ],
+          [
+            21,
+            914,
+            1
+          ],
+          [
+            22,
+            904,
+            1
+          ],
+          [
+            23,
+            912,
+            1
+          ],
+          [
+            24,
+            727,
+            1
+          ],
+          [
+            25,
+            735,
+            1
+          ],
+          [
+            26,
+            725,
+            1
+          ],
+          [
+            27,
+            778,
+            1
+          ],
+          [
+            28,
+            768,
+            1
+          ],
+          [
+            29,
+            776,
+            1
+          ],
+          [
+            30,
+            847,
+            1
+          ],
+          [
+            31,
+            855,
+            1
+          ],
+          [
+            32,
+            845,
+            1
+          ],
+          [
+            33,
+            898,
+            1
+          ],
+          [
+            34,
+            888,
+            1
+          ],
+          [
+            35,
+            896,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            847,
+            1
+          ],
+          [
+            1,
+            848,
+            1
+          ],
+          [
+            2,
+            607,
+            1
+          ],
+          [
+            3,
+            254,
+            1
+          ],
+          [
+            4,
+            13,
+            1
+          ],
+          [
+            5,
+            14,
+            1
+          ],
+          [
+            6,
+            862,
+            1
+          ],
+          [
+            7,
+            863,
+            1
+          ],
+          [
+            8,
+            622,
+            1
+          ],
+          [
+            9,
+            269,
+            1
+          ],
+          [
+            10,
+            28,
+            1
+          ],
+          [
+            11,
+            29,
+            1
+          ],
+          [
+            12,
+            845,
+            1
+          ],
+          [
+            13,
+            846,
+            1
+          ],
+          [
+            14,
+            605,
+            1
+          ],
+          [
+            15,
+            252,
+            1
+          ],
+          [
+            16,
+            11,
+            1
+          ],
+          [
+            17,
+            12,
+            1
+          ],
+          [
+            18,
+            947,
+            1
+          ],
+          [
+            19,
+            948,
+            1
+          ],
+          [
+            20,
+            707,
+            1
+          ],
+          [
+            21,
+            354,
+            1
+          ],
+          [
+            22,
+            113,
+            1
+          ],
+          [
+            23,
+            114,
+            1
+          ],
+          [
+            24,
+            930,
+            1
+          ],
+          [
+            25,
+            931,
+            1
+          ],
+          [
+            26,
+            690,
+            1
+          ],
+          [
+            27,
+            337,
+            1
+          ],
+          [
+            28,
+            96,
+            1
+          ],
+          [
+            29,
+            97,
+            1
+          ],
+          [
+            30,
+            945,
+            1
+          ],
+          [
+            31,
+            946,
+            1
+          ],
+          [
+            32,
+            705,
+            1
+          ],
+          [
+            33,
+            352,
+            1
+          ],
+          [
+            34,
+            111,
+            1
+          ],
+          [
+            35,
+            112,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            504,
+            1
+          ],
+          [
+            1,
+            568,
+            1
+          ],
+          [
+            2,
+            488,
+            1
+          ],
+          [
+            3,
+            912,
+            1
+          ],
+          [
+            4,
+            832,
+            1
+          ],
+          [
+            5,
+            896,
+            1
+          ],
+          [
+            6,
+            505,
+            1
+          ],
+          [
+            7,
+            569,
+            1
+          ],
+          [
+            8,
+            489,
+            1
+          ],
+          [
+            9,
+            913,
+            1
+          ],
+          [
+            10,
+            833,
+            1
+          ],
+          [
+            11,
+            897,
+            1
+          ],
+          [
+            12,
+            376,
+            1
+          ],
+          [
+            13,
+            440,
+            1
+          ],
+          [
+            14,
+            360,
+            1
+          ],
+          [
+            15,
+            784,
+            1
+          ],
+          [
+            16,
+            704,
+            1
+          ],
+          [
+            17,
+            768,
+            1
+          ],
+          [
+            18,
+            191,
+            1
+          ],
+          [
+            19,
+            255,
+            1
+          ],
+          [
+            20,
+            175,
+            1
+          ],
+          [
+            21,
+            599,
+            1
+          ],
+          [
+            22,
+            519,
+            1
+          ],
+          [
+            23,
+            583,
+            1
+          ],
+          [
+            24,
+            62,
+            1
+          ],
+          [
+            25,
+            126,
+            1
+          ],
+          [
+            26,
+            46,
+            1
+          ],
+          [
+            27,
+            470,
+            1
+          ],
+          [
+            28,
+            390,
+            1
+          ],
+          [
+            29,
+            454,
+            1
+          ],
+          [
+            30,
+            63,
+            1
+          ],
+          [
+            31,
+            127,
+            1
+          ],
+          [
+            32,
+            47,
+            1
+          ],
+          [
+            33,
+            471,
+            1
+          ],
+          [
+            34,
+            391,
+            1
+          ],
+          [
+            35,
+            455,
+            1
+          ]
+        ]
+      ],
+      "verification": {
+        "core_matrix_identity_exact": true,
+        "nonzero_core_coefficients": 216,
+        "all_core_target_coefficients_accounted_for": 46656,
+        "source_pair_rows_checked": 1296,
+        "full_source_terms_enumerated": 262144,
+        "pair_rank_is_exact_coordinate_support_count": true,
+        "total_pair_contraction_rank": 192,
+        "global_fixed_core_dimension_upper_bound": 804,
+        "weight_blocks": [
+          {
+            "weight": -14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              112
+            ]
+          },
+          {
+            "weight": -13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              104,
+              113,
+              232
+            ]
+          },
+          {
+            "weight": -12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": true,
+            "supported_common_source_columns": [
+              96,
+              105,
+              114,
+              224,
+              233,
+              352
+            ]
+          },
+          {
+            "weight": -11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 8,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 4,
+            "violated": true,
+            "supported_common_source_columns": [
+              88,
+              97,
+              115,
+              225,
+              234,
+              344,
+              353,
+              472
+            ]
+          },
+          {
+            "weight": -10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 7,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 9,
+            "violated": true,
+            "supported_common_source_columns": [
+              89,
+              98,
+              235,
+              336,
+              354,
+              464,
+              473
+            ]
+          },
+          {
+            "weight": -9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 4,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 17,
+            "violated": false,
+            "supported_common_source_columns": [
+              99,
+              328,
+              337,
+              474
+            ]
+          },
+          {
+            "weight": -8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 27,
+            "violated": false,
+            "supported_common_source_columns": [
+              338
+            ]
+          },
+          {
+            "weight": -7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": -4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 2,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": false,
+            "supported_common_source_columns": [
+              479,
+              672
+            ]
+          },
+          {
+            "weight": -3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 8,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 50,
+            "violated": false,
+            "supported_common_source_columns": [
+              24,
+              60,
+              471,
+              536,
+              599,
+              664,
+              673,
+              718
+            ]
+          },
+          {
+            "weight": -2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 17,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 46,
+            "violated": true,
+            "supported_common_source_columns": [
+              16,
+              25,
+              61,
+              70,
+              180,
+              463,
+              528,
+              537,
+              591,
+              656,
+              665,
+              674,
+              710,
+              719,
+              838,
+              912,
+              957
+            ]
+          },
+          {
+            "weight": -1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 25,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 42,
+            "violated": true,
+            "supported_common_source_columns": [
+              8,
+              17,
+              26,
+              44,
+              62,
+              71,
+              181,
+              190,
+              264,
+              300,
+              455,
+              529,
+              538,
+              648,
+              657,
+              675,
+              702,
+              711,
+              776,
+              830,
+              839,
+              904,
+              913,
+              949,
+              958
+            ]
+          },
+          {
+            "weight": 0,
+            "source_dimension": 64,
+            "exact_pair_contraction_rank": 28,
+            "core_target_dimension": 6,
+            "required_full_target_dimension": 60,
+            "fixed_core_extension_dimension_upper_bound": 42,
+            "violated": true,
+            "supported_common_source_columns": [
+              0,
+              9,
+              18,
+              45,
+              54,
+              63,
+              128,
+              182,
+              191,
+              256,
+              265,
+              301,
+              310,
+              420,
+              539,
+              649,
+              658,
+              694,
+              703,
+              768,
+              777,
+              831,
+              896,
+              905,
+              914,
+              941,
+              950,
+              959
+            ]
+          },
+          {
+            "weight": 1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 25,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 42,
+            "violated": true,
+            "supported_common_source_columns": [
+              1,
+              10,
+              46,
+              55,
+              120,
+              129,
+              183,
+              248,
+              257,
+              284,
+              302,
+              311,
+              421,
+              430,
+              504,
+              659,
+              695,
+              769,
+              778,
+              888,
+              897,
+              915,
+              933,
+              942,
+              951
+            ]
+          },
+          {
+            "weight": 2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 17,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 46,
+            "violated": true,
+            "supported_common_source_columns": [
+              2,
+              47,
+              121,
+              240,
+              249,
+              285,
+              294,
+              303,
+              368,
+              422,
+              431,
+              496,
+              779,
+              889,
+              898,
+              934,
+              943
+            ]
+          },
+          {
+            "weight": 3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 8,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 50,
+            "violated": false,
+            "supported_common_source_columns": [
+              241,
+              286,
+              295,
+              360,
+              423,
+              488,
+              899,
+              935
+            ]
+          },
+          {
+            "weight": 4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 2,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 52,
+            "violated": false,
+            "supported_common_source_columns": [
+              287,
+              480
+            ]
+          },
+          {
+            "weight": 5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 49,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 0,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 36,
+            "violated": false,
+            "supported_common_source_columns": []
+          },
+          {
+            "weight": 8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 27,
+            "violated": false,
+            "supported_common_source_columns": [
+              621
+            ]
+          },
+          {
+            "weight": 9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 4,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 17,
+            "violated": false,
+            "supported_common_source_columns": [
+              485,
+              622,
+              631,
+              860
+            ]
+          },
+          {
+            "weight": 10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 7,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 9,
+            "violated": true,
+            "supported_common_source_columns": [
+              486,
+              495,
+              605,
+              623,
+              724,
+              861,
+              870
+            ]
+          },
+          {
+            "weight": 11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 8,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 4,
+            "violated": true,
+            "supported_common_source_columns": [
+              487,
+              606,
+              615,
+              725,
+              734,
+              844,
+              862,
+              871
+            ]
+          },
+          {
+            "weight": 12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": true,
+            "supported_common_source_columns": [
+              607,
+              726,
+              735,
+              845,
+              854,
+              863
+            ]
+          },
+          {
+            "weight": 13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              727,
+              846,
+              855
+            ]
+          },
+          {
+            "weight": 14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              847
+            ]
+          }
+        ],
+        "violated_weights": [
+          -12,
+          -11,
+          -10,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          10,
+          11,
+          12
+        ],
+        "fixed_core_extension_to_current_torus_profile_excluded": true,
+        "changing_core_maps_excluded": false,
+        "arbitrary_source_degenerations_excluded": false,
+        "new_exponent_established": false
+      }
+    },
+    {
+      "name": "monotone_M8",
+      "source_lengths": [
+        8,
+        8
+      ],
+      "physical_vertices": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "core_order": 8,
+      "core_vertex_charges": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        12,
+        13,
+        14
+      ],
+      "core_embedding_in_M27": [
+        0,
+        1,
+        2,
+        4,
+        21,
+        23,
+        25,
+        26
+      ],
+      "target_vertex_charges": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          10,
+          10,
+          11,
+          11,
+          12,
+          12,
+          13,
+          14
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "common_coordinate_map": [
+        [
+          0,
+          63,
+          1
+        ],
+        [
+          1,
+          71,
+          1
+        ],
+        [
+          2,
+          79,
+          1
+        ],
+        [
+          3,
+          87,
+          1
+        ],
+        [
+          4,
+          88,
+          1
+        ],
+        [
+          5,
+          96,
+          1
+        ],
+        [
+          6,
+          104,
+          1
+        ],
+        [
+          7,
+          112,
+          1
+        ],
+        [
+          8,
+          183,
+          1
+        ],
+        [
+          9,
+          191,
+          1
+        ],
+        [
+          10,
+          199,
+          1
+        ],
+        [
+          11,
+          207,
+          1
+        ],
+        [
+          12,
+          208,
+          1
+        ],
+        [
+          13,
+          216,
+          1
+        ],
+        [
+          14,
+          224,
+          1
+        ],
+        [
+          15,
+          232,
+          1
+        ],
+        [
+          16,
+          303,
+          1
+        ],
+        [
+          17,
+          311,
+          1
+        ],
+        [
+          18,
+          319,
+          1
+        ],
+        [
+          19,
+          327,
+          1
+        ],
+        [
+          20,
+          328,
+          1
+        ],
+        [
+          21,
+          336,
+          1
+        ],
+        [
+          22,
+          344,
+          1
+        ],
+        [
+          23,
+          352,
+          1
+        ],
+        [
+          24,
+          423,
+          1
+        ],
+        [
+          25,
+          431,
+          1
+        ],
+        [
+          26,
+          439,
+          1
+        ],
+        [
+          27,
+          447,
+          1
+        ],
+        [
+          28,
+          448,
+          1
+        ],
+        [
+          29,
+          456,
+          1
+        ],
+        [
+          30,
+          464,
+          1
+        ],
+        [
+          31,
+          472,
+          1
+        ],
+        [
+          32,
+          487,
+          1
+        ],
+        [
+          33,
+          495,
+          1
+        ],
+        [
+          34,
+          503,
+          1
+        ],
+        [
+          35,
+          511,
+          1
+        ],
+        [
+          36,
+          512,
+          1
+        ],
+        [
+          37,
+          520,
+          1
+        ],
+        [
+          38,
+          528,
+          1
+        ],
+        [
+          39,
+          536,
+          1
+        ],
+        [
+          40,
+          607,
+          1
+        ],
+        [
+          41,
+          615,
+          1
+        ],
+        [
+          42,
+          623,
+          1
+        ],
+        [
+          43,
+          631,
+          1
+        ],
+        [
+          44,
+          632,
+          1
+        ],
+        [
+          45,
+          640,
+          1
+        ],
+        [
+          46,
+          648,
+          1
+        ],
+        [
+          47,
+          656,
+          1
+        ],
+        [
+          48,
+          727,
+          1
+        ],
+        [
+          49,
+          735,
+          1
+        ],
+        [
+          50,
+          743,
+          1
+        ],
+        [
+          51,
+          751,
+          1
+        ],
+        [
+          52,
+          752,
+          1
+        ],
+        [
+          53,
+          760,
+          1
+        ],
+        [
+          54,
+          768,
+          1
+        ],
+        [
+          55,
+          776,
+          1
+        ],
+        [
+          56,
+          847,
+          1
+        ],
+        [
+          57,
+          855,
+          1
+        ],
+        [
+          58,
+          863,
+          1
+        ],
+        [
+          59,
+          871,
+          1
+        ],
+        [
+          60,
+          872,
+          1
+        ],
+        [
+          61,
+          880,
+          1
+        ],
+        [
+          62,
+          888,
+          1
+        ],
+        [
+          63,
+          896,
+          1
+        ]
+      ],
+      "maps": [
+        [
+          [
+            0,
+            63,
+            1
+          ],
+          [
+            1,
+            71,
+            1
+          ],
+          [
+            2,
+            79,
+            1
+          ],
+          [
+            3,
+            87,
+            1
+          ],
+          [
+            4,
+            88,
+            1
+          ],
+          [
+            5,
+            96,
+            1
+          ],
+          [
+            6,
+            104,
+            1
+          ],
+          [
+            7,
+            112,
+            1
+          ],
+          [
+            8,
+            183,
+            1
+          ],
+          [
+            9,
+            191,
+            1
+          ],
+          [
+            10,
+            199,
+            1
+          ],
+          [
+            11,
+            207,
+            1
+          ],
+          [
+            12,
+            208,
+            1
+          ],
+          [
+            13,
+            216,
+            1
+          ],
+          [
+            14,
+            224,
+            1
+          ],
+          [
+            15,
+            232,
+            1
+          ],
+          [
+            16,
+            303,
+            1
+          ],
+          [
+            17,
+            311,
+            1
+          ],
+          [
+            18,
+            319,
+            1
+          ],
+          [
+            19,
+            327,
+            1
+          ],
+          [
+            20,
+            328,
+            1
+          ],
+          [
+            21,
+            336,
+            1
+          ],
+          [
+            22,
+            344,
+            1
+          ],
+          [
+            23,
+            352,
+            1
+          ],
+          [
+            24,
+            423,
+            1
+          ],
+          [
+            25,
+            431,
+            1
+          ],
+          [
+            26,
+            439,
+            1
+          ],
+          [
+            27,
+            447,
+            1
+          ],
+          [
+            28,
+            448,
+            1
+          ],
+          [
+            29,
+            456,
+            1
+          ],
+          [
+            30,
+            464,
+            1
+          ],
+          [
+            31,
+            472,
+            1
+          ],
+          [
+            32,
+            487,
+            1
+          ],
+          [
+            33,
+            495,
+            1
+          ],
+          [
+            34,
+            503,
+            1
+          ],
+          [
+            35,
+            511,
+            1
+          ],
+          [
+            36,
+            512,
+            1
+          ],
+          [
+            37,
+            520,
+            1
+          ],
+          [
+            38,
+            528,
+            1
+          ],
+          [
+            39,
+            536,
+            1
+          ],
+          [
+            40,
+            607,
+            1
+          ],
+          [
+            41,
+            615,
+            1
+          ],
+          [
+            42,
+            623,
+            1
+          ],
+          [
+            43,
+            631,
+            1
+          ],
+          [
+            44,
+            632,
+            1
+          ],
+          [
+            45,
+            640,
+            1
+          ],
+          [
+            46,
+            648,
+            1
+          ],
+          [
+            47,
+            656,
+            1
+          ],
+          [
+            48,
+            727,
+            1
+          ],
+          [
+            49,
+            735,
+            1
+          ],
+          [
+            50,
+            743,
+            1
+          ],
+          [
+            51,
+            751,
+            1
+          ],
+          [
+            52,
+            752,
+            1
+          ],
+          [
+            53,
+            760,
+            1
+          ],
+          [
+            54,
+            768,
+            1
+          ],
+          [
+            55,
+            776,
+            1
+          ],
+          [
+            56,
+            847,
+            1
+          ],
+          [
+            57,
+            855,
+            1
+          ],
+          [
+            58,
+            863,
+            1
+          ],
+          [
+            59,
+            871,
+            1
+          ],
+          [
+            60,
+            872,
+            1
+          ],
+          [
+            61,
+            880,
+            1
+          ],
+          [
+            62,
+            888,
+            1
+          ],
+          [
+            63,
+            896,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            847,
+            1
+          ],
+          [
+            1,
+            848,
+            1
+          ],
+          [
+            2,
+            849,
+            1
+          ],
+          [
+            3,
+            850,
+            1
+          ],
+          [
+            4,
+            11,
+            1
+          ],
+          [
+            5,
+            12,
+            1
+          ],
+          [
+            6,
+            13,
+            1
+          ],
+          [
+            7,
+            14,
+            1
+          ],
+          [
+            8,
+            862,
+            1
+          ],
+          [
+            9,
+            863,
+            1
+          ],
+          [
+            10,
+            864,
+            1
+          ],
+          [
+            11,
+            865,
+            1
+          ],
+          [
+            12,
+            26,
+            1
+          ],
+          [
+            13,
+            27,
+            1
+          ],
+          [
+            14,
+            28,
+            1
+          ],
+          [
+            15,
+            29,
+            1
+          ],
+          [
+            16,
+            877,
+            1
+          ],
+          [
+            17,
+            878,
+            1
+          ],
+          [
+            18,
+            879,
+            1
+          ],
+          [
+            19,
+            880,
+            1
+          ],
+          [
+            20,
+            41,
+            1
+          ],
+          [
+            21,
+            42,
+            1
+          ],
+          [
+            22,
+            43,
+            1
+          ],
+          [
+            23,
+            44,
+            1
+          ],
+          [
+            24,
+            892,
+            1
+          ],
+          [
+            25,
+            893,
+            1
+          ],
+          [
+            26,
+            894,
+            1
+          ],
+          [
+            27,
+            895,
+            1
+          ],
+          [
+            28,
+            56,
+            1
+          ],
+          [
+            29,
+            57,
+            1
+          ],
+          [
+            30,
+            58,
+            1
+          ],
+          [
+            31,
+            59,
+            1
+          ],
+          [
+            32,
+            900,
+            1
+          ],
+          [
+            33,
+            901,
+            1
+          ],
+          [
+            34,
+            902,
+            1
+          ],
+          [
+            35,
+            903,
+            1
+          ],
+          [
+            36,
+            64,
+            1
+          ],
+          [
+            37,
+            65,
+            1
+          ],
+          [
+            38,
+            66,
+            1
+          ],
+          [
+            39,
+            67,
+            1
+          ],
+          [
+            40,
+            915,
+            1
+          ],
+          [
+            41,
+            916,
+            1
+          ],
+          [
+            42,
+            917,
+            1
+          ],
+          [
+            43,
+            918,
+            1
+          ],
+          [
+            44,
+            79,
+            1
+          ],
+          [
+            45,
+            80,
+            1
+          ],
+          [
+            46,
+            81,
+            1
+          ],
+          [
+            47,
+            82,
+            1
+          ],
+          [
+            48,
+            930,
+            1
+          ],
+          [
+            49,
+            931,
+            1
+          ],
+          [
+            50,
+            932,
+            1
+          ],
+          [
+            51,
+            933,
+            1
+          ],
+          [
+            52,
+            94,
+            1
+          ],
+          [
+            53,
+            95,
+            1
+          ],
+          [
+            54,
+            96,
+            1
+          ],
+          [
+            55,
+            97,
+            1
+          ],
+          [
+            56,
+            945,
+            1
+          ],
+          [
+            57,
+            946,
+            1
+          ],
+          [
+            58,
+            947,
+            1
+          ],
+          [
+            59,
+            948,
+            1
+          ],
+          [
+            60,
+            109,
+            1
+          ],
+          [
+            61,
+            110,
+            1
+          ],
+          [
+            62,
+            111,
+            1
+          ],
+          [
+            63,
+            112,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            504,
+            1
+          ],
+          [
+            1,
+            568,
+            1
+          ],
+          [
+            2,
+            632,
+            1
+          ],
+          [
+            3,
+            696,
+            1
+          ],
+          [
+            4,
+            704,
+            1
+          ],
+          [
+            5,
+            768,
+            1
+          ],
+          [
+            6,
+            832,
+            1
+          ],
+          [
+            7,
+            896,
+            1
+          ],
+          [
+            8,
+            505,
+            1
+          ],
+          [
+            9,
+            569,
+            1
+          ],
+          [
+            10,
+            633,
+            1
+          ],
+          [
+            11,
+            697,
+            1
+          ],
+          [
+            12,
+            705,
+            1
+          ],
+          [
+            13,
+            769,
+            1
+          ],
+          [
+            14,
+            833,
+            1
+          ],
+          [
+            15,
+            897,
+            1
+          ],
+          [
+            16,
+            506,
+            1
+          ],
+          [
+            17,
+            570,
+            1
+          ],
+          [
+            18,
+            634,
+            1
+          ],
+          [
+            19,
+            698,
+            1
+          ],
+          [
+            20,
+            706,
+            1
+          ],
+          [
+            21,
+            770,
+            1
+          ],
+          [
+            22,
+            834,
+            1
+          ],
+          [
+            23,
+            898,
+            1
+          ],
+          [
+            24,
+            507,
+            1
+          ],
+          [
+            25,
+            571,
+            1
+          ],
+          [
+            26,
+            635,
+            1
+          ],
+          [
+            27,
+            699,
+            1
+          ],
+          [
+            28,
+            707,
+            1
+          ],
+          [
+            29,
+            771,
+            1
+          ],
+          [
+            30,
+            835,
+            1
+          ],
+          [
+            31,
+            899,
+            1
+          ],
+          [
+            32,
+            60,
+            1
+          ],
+          [
+            33,
+            124,
+            1
+          ],
+          [
+            34,
+            188,
+            1
+          ],
+          [
+            35,
+            252,
+            1
+          ],
+          [
+            36,
+            260,
+            1
+          ],
+          [
+            37,
+            324,
+            1
+          ],
+          [
+            38,
+            388,
+            1
+          ],
+          [
+            39,
+            452,
+            1
+          ],
+          [
+            40,
+            61,
+            1
+          ],
+          [
+            41,
+            125,
+            1
+          ],
+          [
+            42,
+            189,
+            1
+          ],
+          [
+            43,
+            253,
+            1
+          ],
+          [
+            44,
+            261,
+            1
+          ],
+          [
+            45,
+            325,
+            1
+          ],
+          [
+            46,
+            389,
+            1
+          ],
+          [
+            47,
+            453,
+            1
+          ],
+          [
+            48,
+            62,
+            1
+          ],
+          [
+            49,
+            126,
+            1
+          ],
+          [
+            50,
+            190,
+            1
+          ],
+          [
+            51,
+            254,
+            1
+          ],
+          [
+            52,
+            262,
+            1
+          ],
+          [
+            53,
+            326,
+            1
+          ],
+          [
+            54,
+            390,
+            1
+          ],
+          [
+            55,
+            454,
+            1
+          ],
+          [
+            56,
+            63,
+            1
+          ],
+          [
+            57,
+            127,
+            1
+          ],
+          [
+            58,
+            191,
+            1
+          ],
+          [
+            59,
+            255,
+            1
+          ],
+          [
+            60,
+            263,
+            1
+          ],
+          [
+            61,
+            327,
+            1
+          ],
+          [
+            62,
+            391,
+            1
+          ],
+          [
+            63,
+            455,
+            1
+          ]
+        ]
+      ],
+      "verification": {
+        "core_matrix_identity_exact": true,
+        "nonzero_core_coefficients": 512,
+        "all_core_target_coefficients_accounted_for": 262144,
+        "source_pair_rows_checked": 4096,
+        "full_source_terms_enumerated": 262144,
+        "pair_rank_is_exact_coordinate_support_count": true,
+        "total_pair_contraction_rank": 312,
+        "global_fixed_core_dimension_upper_bound": 712,
+        "weight_blocks": [
+          {
+            "weight": -14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              112
+            ]
+          },
+          {
+            "weight": -13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              104,
+              113,
+              232
+            ]
+          },
+          {
+            "weight": -12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": true,
+            "supported_common_source_columns": [
+              96,
+              105,
+              114,
+              224,
+              233,
+              352
+            ]
+          },
+          {
+            "weight": -11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 10,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 4,
+            "violated": true,
+            "supported_common_source_columns": [
+              88,
+              97,
+              106,
+              115,
+              216,
+              225,
+              234,
+              344,
+              353,
+              472
+            ]
+          },
+          {
+            "weight": -10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 12,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 6,
+            "violated": true,
+            "supported_common_source_columns": [
+              89,
+              98,
+              107,
+              208,
+              217,
+              226,
+              235,
+              336,
+              345,
+              354,
+              464,
+              473
+            ]
+          },
+          {
+            "weight": -9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 12,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 11,
+            "violated": true,
+            "supported_common_source_columns": [
+              90,
+              99,
+              209,
+              218,
+              227,
+              328,
+              337,
+              346,
+              355,
+              456,
+              465,
+              474
+            ]
+          },
+          {
+            "weight": -8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 10,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 19,
+            "violated": true,
+            "supported_common_source_columns": [
+              91,
+              210,
+              219,
+              329,
+              338,
+              347,
+              448,
+              457,
+              466,
+              475
+            ]
+          },
+          {
+            "weight": -7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 30,
+            "violated": false,
+            "supported_common_source_columns": [
+              211,
+              330,
+              339,
+              449,
+              458,
+              467
+            ]
+          },
+          {
+            "weight": -6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 5,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 38,
+            "violated": false,
+            "supported_common_source_columns": [
+              84,
+              331,
+              450,
+              459,
+              953
+            ]
+          },
+          {
+            "weight": -5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": [
+              76,
+              85,
+              204,
+              451,
+              945,
+              954
+            ]
+          },
+          {
+            "weight": -4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 9,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 45,
+            "violated": false,
+            "supported_common_source_columns": [
+              68,
+              77,
+              86,
+              196,
+              205,
+              324,
+              937,
+              946,
+              955
+            ]
+          },
+          {
+            "weight": -3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 16,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              24,
+              60,
+              69,
+              78,
+              87,
+              188,
+              197,
+              206,
+              316,
+              325,
+              444,
+              536,
+              929,
+              938,
+              947,
+              956
+            ]
+          },
+          {
+            "weight": -2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 21,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              16,
+              25,
+              61,
+              70,
+              79,
+              180,
+              189,
+              198,
+              207,
+              308,
+              317,
+              326,
+              436,
+              445,
+              528,
+              537,
+              656,
+              930,
+              939,
+              948,
+              957
+            ]
+          },
+          {
+            "weight": -1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 25,
+            "core_target_dimension": 6,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              8,
+              17,
+              26,
+              62,
+              71,
+              181,
+              190,
+              199,
+              300,
+              309,
+              318,
+              327,
+              428,
+              437,
+              446,
+              520,
+              529,
+              538,
+              648,
+              657,
+              776,
+              931,
+              940,
+              949,
+              958
+            ]
+          },
+          {
+            "weight": 0,
+            "source_dimension": 64,
+            "exact_pair_contraction_rank": 28,
+            "core_target_dimension": 8,
+            "required_full_target_dimension": 60,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              0,
+              9,
+              18,
+              27,
+              63,
+              182,
+              191,
+              301,
+              310,
+              319,
+              420,
+              429,
+              438,
+              447,
+              512,
+              521,
+              530,
+              539,
+              640,
+              649,
+              658,
+              768,
+              777,
+              896,
+              932,
+              941,
+              950,
+              959
+            ]
+          },
+          {
+            "weight": 1,
+            "source_dimension": 63,
+            "exact_pair_contraction_rank": 25,
+            "core_target_dimension": 6,
+            "required_full_target_dimension": 56,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              1,
+              10,
+              19,
+              28,
+              183,
+              302,
+              311,
+              421,
+              430,
+              439,
+              513,
+              522,
+              531,
+              632,
+              641,
+              650,
+              659,
+              760,
+              769,
+              778,
+              888,
+              897,
+              933,
+              942,
+              951
+            ]
+          },
+          {
+            "weight": 2,
+            "source_dimension": 61,
+            "exact_pair_contraction_rank": 21,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 53,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              2,
+              11,
+              20,
+              29,
+              303,
+              422,
+              431,
+              514,
+              523,
+              633,
+              642,
+              651,
+              752,
+              761,
+              770,
+              779,
+              880,
+              889,
+              898,
+              934,
+              943
+            ]
+          },
+          {
+            "weight": 3,
+            "source_dimension": 58,
+            "exact_pair_contraction_rank": 16,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 48,
+            "fixed_core_extension_dimension_upper_bound": 44,
+            "violated": true,
+            "supported_common_source_columns": [
+              3,
+              12,
+              21,
+              30,
+              423,
+              515,
+              634,
+              643,
+              753,
+              762,
+              771,
+              872,
+              881,
+              890,
+              899,
+              935
+            ]
+          },
+          {
+            "weight": 4,
+            "source_dimension": 54,
+            "exact_pair_contraction_rank": 9,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 43,
+            "fixed_core_extension_dimension_upper_bound": 45,
+            "violated": false,
+            "supported_common_source_columns": [
+              4,
+              13,
+              22,
+              635,
+              754,
+              763,
+              873,
+              882,
+              891
+            ]
+          },
+          {
+            "weight": 5,
+            "source_dimension": 49,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 38,
+            "fixed_core_extension_dimension_upper_bound": 43,
+            "violated": false,
+            "supported_common_source_columns": [
+              5,
+              14,
+              508,
+              755,
+              874,
+              883
+            ]
+          },
+          {
+            "weight": 6,
+            "source_dimension": 43,
+            "exact_pair_contraction_rank": 5,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 31,
+            "fixed_core_extension_dimension_upper_bound": 38,
+            "violated": false,
+            "supported_common_source_columns": [
+              6,
+              500,
+              509,
+              628,
+              875
+            ]
+          },
+          {
+            "weight": 7,
+            "source_dimension": 36,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 0,
+            "required_full_target_dimension": 26,
+            "fixed_core_extension_dimension_upper_bound": 30,
+            "violated": false,
+            "supported_common_source_columns": [
+              492,
+              501,
+              510,
+              620,
+              629,
+              748
+            ]
+          },
+          {
+            "weight": 8,
+            "source_dimension": 28,
+            "exact_pair_contraction_rank": 10,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 20,
+            "fixed_core_extension_dimension_upper_bound": 19,
+            "violated": true,
+            "supported_common_source_columns": [
+              484,
+              493,
+              502,
+              511,
+              612,
+              621,
+              630,
+              740,
+              749,
+              868
+            ]
+          },
+          {
+            "weight": 9,
+            "source_dimension": 21,
+            "exact_pair_contraction_rank": 12,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 16,
+            "fixed_core_extension_dimension_upper_bound": 11,
+            "violated": true,
+            "supported_common_source_columns": [
+              485,
+              494,
+              503,
+              604,
+              613,
+              622,
+              631,
+              732,
+              741,
+              750,
+              860,
+              869
+            ]
+          },
+          {
+            "weight": 10,
+            "source_dimension": 15,
+            "exact_pair_contraction_rank": 12,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 12,
+            "fixed_core_extension_dimension_upper_bound": 6,
+            "violated": true,
+            "supported_common_source_columns": [
+              486,
+              495,
+              605,
+              614,
+              623,
+              724,
+              733,
+              742,
+              751,
+              852,
+              861,
+              870
+            ]
+          },
+          {
+            "weight": 11,
+            "source_dimension": 10,
+            "exact_pair_contraction_rank": 10,
+            "core_target_dimension": 4,
+            "required_full_target_dimension": 8,
+            "fixed_core_extension_dimension_upper_bound": 4,
+            "violated": true,
+            "supported_common_source_columns": [
+              487,
+              606,
+              615,
+              725,
+              734,
+              743,
+              844,
+              853,
+              862,
+              871
+            ]
+          },
+          {
+            "weight": 12,
+            "source_dimension": 6,
+            "exact_pair_contraction_rank": 6,
+            "core_target_dimension": 3,
+            "required_full_target_dimension": 5,
+            "fixed_core_extension_dimension_upper_bound": 3,
+            "violated": true,
+            "supported_common_source_columns": [
+              607,
+              726,
+              735,
+              845,
+              854,
+              863
+            ]
+          },
+          {
+            "weight": 13,
+            "source_dimension": 3,
+            "exact_pair_contraction_rank": 3,
+            "core_target_dimension": 2,
+            "required_full_target_dimension": 2,
+            "fixed_core_extension_dimension_upper_bound": 2,
+            "violated": false,
+            "supported_common_source_columns": [
+              727,
+              846,
+              855
+            ]
+          },
+          {
+            "weight": 14,
+            "source_dimension": 1,
+            "exact_pair_contraction_rank": 1,
+            "core_target_dimension": 1,
+            "required_full_target_dimension": 1,
+            "fixed_core_extension_dimension_upper_bound": 1,
+            "violated": false,
+            "supported_common_source_columns": [
+              847
+            ]
+          }
+        ],
+        "violated_weights": [
+          -12,
+          -11,
+          -10,
+          -9,
+          -8,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fixed_core_extension_to_current_torus_profile_excluded": true,
+        "changing_core_maps_excluded": false,
+        "arbitrary_source_degenerations_excluded": false,
+        "new_exponent_established": false
+      }
+    }
+  ],
+  "arbitrary_source_restriction_exclusion_claimed": false,
+  "new_exponent_established": false
+}

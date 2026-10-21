@@ -1,0 +1,43 @@
+{
+  "base_main": "18a06b3deb676cd7e0fd7a1be38a442768d80970",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "sha256": "5d893f86451174fb27f0206b788218a837be460499ad4ab661c83eb9a84d35b9"
+    },
+    {
+      "path": "research/ai/2026-10-21-third-boundary-trap/normal.py",
+      "sha256": "d737229b352b11e2d4f73e5b2efda19335235d9f6e5c441f1bb72eff92c3bedc"
+    },
+    {
+      "path": "results/third-boundary-trap-2026-10-21/block.json",
+      "sha256": "22c83e333cdd3f33b9865d912a1906b8af8eabeb2493dd5892da4706d837033f"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/minimum_rank.py",
+      "sha256": "3e06a8915eb016a239bfd2701d990bd5ee1e9c81e7c1d09b8a9f551565b6e60e"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/normal_directions.py",
+      "sha256": "443d82bf94901e210b694966dbf4d0d69fdb35f0c715bd9f75b088223818f689"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/proof.md",
+      "sha256": "65487fea6302585e49e10edbb1765c342aa0bcbbed8d1e3171e6984909ce3120"
+    },
+    {
+      "path": "research/ai/2026-10-21-quantum-extension-spaces/extensions.py",
+      "sha256": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c"
+    },
+    {
+      "path": "research/ai/2026-10-21-second-jet-rank-one/rank_deficit.md",
+      "sha256": "1ad4aff7826d82ad83a3cffaa004231b46027be6e1ecddd8642f37bca4bd83c8"
+    }
+  ],
+  "canonical_credit": "PR45 supplies the source and extension spaces; PR46 supplies normal equations and moving-plane induction; PR47 supplies no-second-growth and first-rank constraints; PR48 supplies repeated triangular minors. PR55 supplies the complete boundary normal space, third coefficients and their sharp minimum first rank8, and the target support ceiling2.",
+  "local_work": "Sharp rank2 certificate for the boundary-restricted obstruction matrices;20-dimensional rank-one-free6-by6 space whose Mat2 extension spans all third matrices; general arbitrary-two-hyperplane compression lemma with sharp control; all-order exclusion for arbitrary boundary first dimensions at least11.",
+  "verification_scope": "The existing exact third coefficient file is input to the new derivation, pinned by hash. The PR55 verifier separately reconstructs it from all4096 source terms. This package derives its spans, polynomial peeling identities, obstruction kernels and compression control exactly.",
+  "discovery": "Deterministic exact linear algebra and symbolic polynomial identities. No random acceptance decisions.",
+  "ai_assistance": "Generated and checked by the same owner-directed Codex session; no independent mathematical review or formalization.",
+  "improves_omega": false
+}
