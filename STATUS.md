@@ -1,5 +1,16 @@
 # Research status
 
+## Uniform mixed-axis reduction
+
+The [axis reduction](research/ai/2026-10-21-mixed-axis-family/proof.md) covers every complex a
+and nonzero t for the mixed row m+t*d0 at b=1. A rank minor t^18 and
+Laurent-unit certificates reduce the initial32 normals to four plane
+directions plus a necessary10-dimensional quotient family. Projection
+minors work uniformly through all exceptional a values. Claim
+`AI-MIXED-AXIS-REDUCTION-091` is written and unreviewed; the remaining
+family is unresolved, so this is not an axis exclusion. The exponent
+remains9/4.
+
 ## Four mixed five-space graph families
 
 The [graph-family proof](research/ai/2026-10-21-mixed-five-space-graphs/proof.md) excludes four specified

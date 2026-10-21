@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-21-mixed-axis-family` package is same-session AI-derived
+work directed by the repository owner. It adopts the existing source,
+virtual corrections, rank gap and stable-row projection with their credits.
+The new axis certificates use ordinary Gaussian operations over the
+Laurent polynomial ring, with explicit unit pivots and a complete rank
+minor. Standard linear algebra is not claimed as novel. The remaining
+normal family is open; there is no independent review or exponent gain.
+
 The `2026-10-21-mixed-five-space-graphs` package is same-session AI-derived
 work directed by the repository owner. It adopts the maintained source,
 virtual corrections, target rank gap and induction with their existing
