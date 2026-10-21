@@ -12,6 +12,13 @@ powers and leaves the target unexcluded by that filtration. Claims
 `AI-S5-SPLIT-028` and `EXP-S5-RADICAL-029` are conditional/finite. The target
 and any smaller exponent remain unconstructed.
 
+The same source investigation now checks S5 x C2 squared and its
+conditional M19 gate at2.247. A600-second native run found no pair model.
+A [central four-point matching lemma](research/ai/2026-10-21-s5-split/central_slice_proof.md)
+adds a written unreviewed necessary cut beyond pair injectivity and the
+existing commuting trades. Its finite control has an exact five-row
+Farkas circuit. Claims031/032 supply no improving target or smaller bound.
+
 ## Joint central-sign search in SL(2,5)
 
 The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)

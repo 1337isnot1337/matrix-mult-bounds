@@ -25,7 +25,7 @@ def lex_geq(left, right, variable, add_clause, label):
 
 def actions(G, Q, receipt):
     H = receipt['subgroup_members']
-    return sorted({tuple(Q['projection'][G['mul'][G['mul'][g][2*q]][G['inv'][g]]]
+    return sorted({tuple(Q['projection'][G['mul'][G['mul'][g][Q['representatives'][q]]][G['inv'][g]]]
                          for q in range(120)) for g in H})
 
 

@@ -21,6 +21,7 @@ def load(name):
 
 source, radical, symmetry = load('s5_source'), load('verify_radical'), load('symmetry')
 search_replay = load('verify_search')
+four, central = load('four_colors'), load('central_slice')
 
 
 class S5SplitTests(unittest.TestCase):
@@ -99,6 +100,42 @@ class S5SplitTests(unittest.TestCase):
             result = search_replay.replay(ROOT/'results/s5-split-2026-10-21'/(name+'.json'))
             self.assertEqual(result['certificates'], {'exact-parity': count})
             self.assertFalse(result['witness'])
+
+    def test_four_color_source_and_all_endpoint_colors(self):
+        expected = json.loads((ROOT/'results/s5-split-2026-10-21/four-source-certificate.json').read_text())
+        self.assertEqual(four.certificate(), expected)
+        G, Q, receipt = four.data()
+        self.assertEqual((len(G['mul']), len(Q['classes'])), (480, 72))
+        self.assertEqual(len(receipt['anchor_coverage']), 23)
+        count = 0
+        for (u, v), (c, _) in Q['pairs'].items():
+            for a, b in product(range(4), repeat=2):
+                g = G['mul'][4*u+a][G['inv'][4*v+b]]
+                self.assertEqual(min(g, G['inv'][g]), 4*c+(a ^ b))
+                count += 1
+        self.assertEqual(count, 114240)
+        result = json.loads((ROOT/'results/s5-split-2026-10-21/four-encoding-control.json').read_text())
+        self.assertEqual((result['signed_configurations'], result['accepted'], result['rejected']), (64, 24, 40))
+
+    def test_central_slice_cut_beyond_pair_and_commuting_trade_tests(self):
+        from group_exact import pair_map
+        from verify_projected_reports import verify_farkas_record
+        report = json.loads((ROOT/'results/s5-split-2026-10-21/central-slice-control.json').read_text())
+        self.assertEqual(central.slice_control(), report['slice_control'])
+        G, Q, receipt = four.data()
+        sets = report['farkas']['sets']
+        for f in range(3):
+            self.assertEqual(len(pair_map(G, sets[f], sets[(f+1) % 3])), 16)
+        self.assertEqual(central.commuting_violations(G, sets), 0)
+        self.assertTrue(verify_farkas_record(G, report['farkas']))
+        self.assertTrue(central.verify_match(Q, report['matching']))
+        bad = copy.deepcopy(report['matching'])
+        bad['points'][0] = bad['points'][1]
+        with self.assertRaises(ValueError):
+            central.verify_match(Q, bad)
+        known = symmetry.canonical_control()['witness']
+        projected = [[g//2 for g in S] for S in known['sets']]
+        self.assertIsNone(central.find_match(Q, projected))
 
 
 if __name__ == '__main__':

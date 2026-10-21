@@ -118,3 +118,34 @@ SAT/LP discovery additionally requires the optional python-sat, NumPy and
 SciPy packages. Maintained verification uses the root dependencies only.
 Claims `AI-S5-SPLIT-028`, `EXP-S5-RADICAL-029` and `EXP-S5-PARITY-030` retain conditional/finite
 status. No smaller matrix multiplication exponent is supplied.
+
+
+## Four central colors
+
+The verified S5 factor also gives the source S5 x C2 squared, of order480,
+with four copies of the degree list1,1,4,4,5,5,6. Its M19 comparison at
+2247/1000 has source upper numerator7100612865256 and target lower
+numerator7470666361594, both at scale10^10. This is conditional on a
+missing degeneration. The native one-hot color encoding checks all114240
+endpoint combinations,64 small configurations (24 accepted,40 rejected),
+and the genuine weighted3-by3 control. A600-second native target search
+returned no pair model; this is a timeout, not an exclusion.
+
+The [central matching proof](central_slice_proof.md) gives an additional
+necessary cut. Four aligned projected vertices would restrict to D4 inside
+the central group algebra. Its characteristic-two slice rank is at most3,
+contradicting the coefficient-one integer-potential degeneration. An actual
+four-point control passes pair injectivity and every earlier commuting
+trade test, but has an exact five-row Farkas circuit. Its finite control
+checks all27 zero-cube products and64 transformed tensor coefficients.
+This local application is written and unreviewed; the underlying zero-cube
+slice method retains its explicit external credit.
+
+```sh
+python research/ai/2026-10-21-s5-split/verify_four.py \
+  results/s5-split-2026-10-21/four-target19.json
+python -m unittest discover -s tests -p test_s5_split.py -v
+```
+
+Claims AI-S5-FOUR-SOURCE-031 and AI-CENTRAL-FOUR-MATCHING-032 remain
+conditional and written-unreviewed respectively. No exponent is improved.

@@ -5,8 +5,10 @@ target M(13,14,14), on `research/s5-split-20261021`. The exact2.247 comparison
 and weighted3-by3 control pass, and the defining-characteristic ideal-power
 calculation does not exclude this target. Two bounded SAT runs found no
 projection; the local runs exported32 exact parity contradictions.
-Verified parity learning and broader central-color constructions are the
-next questions. No smaller exponent is established. Preserve the active
+The four-color extension S5 x C2 squared has an exact improving
+conditional M19 gate and a new central matching cut. Its native search
+timed out; a projected local search and smaller improving rectangular
+formats are the current construction questions. No smaller exponent is established. Preserve the active
 discovery reports and source certificates when integrating or cleaning.
 The pencil-degree worker now studies
 `ai/2026-10-21-hankel-pencil-degree/QUESTION.md`. Its written Hankel Segre
