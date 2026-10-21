@@ -1,4 +1,4 @@
-"""Exact rational center calculation for C[SL(2,7)].
+"""Exact rational center calculation for C[SL(2,p)].
 
 SymPy supplies rational matrix and polynomial arithmetic. The result uses no
 floating character values and imports no character table.
@@ -16,8 +16,8 @@ sys.path.insert(0, str(Path(__file__).with_name('imported')))
 from group_exact import group
 
 
-def derive():
-    G = group(7)
+def derive(p=7):
+    G = group(p)
     n = len(G['mul'])
     unseen, classes = set(range(n)), []
     while unseen:
@@ -40,15 +40,17 @@ def derive():
                     raise ArithmeticError('nonintegral class product')
                 constants[i][j][k] = counts[k]//len(ck)
 
-    z = list(range(r))
-    M = sp.Matrix(r, r, lambda k, j:
-                  sum(z[i]*constants[i][j][k] for i in range(r)))
-    unit = sp.eye(r)[:, 0]
-    powers = [unit]
-    for _ in range(1, r+1):
-        powers.append(M*powers[-1])
-    cyclic = sp.Matrix.hstack(*powers[:r])
-    determinant = cyclic.det()
+    for z in (list(range(r)), [2**i for i in range(r)]):
+        M = sp.Matrix(r, r, lambda k, j:
+                      sum(z[i]*constants[i][j][k] for i in range(r)))
+        unit = sp.eye(r)[:, 0]
+        powers = [unit]
+        for _ in range(1, r+1):
+            powers.append(M*powers[-1])
+        cyclic = sp.Matrix.hstack(*powers[:r])
+        determinant = cyclic.det()
+        if determinant:
+            break
     if not determinant:
         raise ArithmeticError('chosen center generator is not cyclic')
     x = sp.Symbol('x')
