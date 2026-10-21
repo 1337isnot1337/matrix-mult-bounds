@@ -49,3 +49,15 @@ python -m unittest discover -s tests -p 'test_mixed_third_order.py' -v
 Next: change the first mixed subspaces or their dimensions, or delay
 first growth. The other worker's full boundary-spanning family remains
 a separate investigation.
+
+The [complete mixed-pencil follow-up](pencil_frontier.md) now excludes all
+maximal 14-by-6 pairs, not only the original coordinate seed. It combines
+a target rank-divisibility argument, a generic two-jet family, twelve cubic
+minors, and exact source symmetries. The necessary rank sum in the mixed
+case is at most 19; the exponent is unchanged.
+
+```sh
+python research/ai/2026-10-21-mixed-first-jets/pencil_frontier.py \
+  --output results/local/mixed-pencil-report.json
+python -m unittest discover -s tests -p 'test_mixed_pencil_frontier.py' -v
+```
