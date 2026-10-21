@@ -907,6 +907,25 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-SUBGROUP-IDEAL-027",
+      "title": "Full subgroup-coset obstruction from a two-sided averaging ideal",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-21-subgroup-ideal/proof.md",
+      "section": "",
+      "statement": "Over C, a coordinate pair-map/strict-vertex-potential matrix construction whose one vertex set contains a full left coset gH satisfies the bound that the product of its other two sizes is at most dim C[G]e_HC[G], where e_H is the subgroup average. Restriction to the coset, averaging the vertex potential and projection onto the trivial H-channel give the output-flattening bound. Exact integer annihilator certificates and matching modular ranks give dimensions80,88,160 for order-five subgroups in SL(2,5), PSL(2,5)xC2 and SL(2,5)xC2. Consequently all full five-cycle cosets are forbidden in every leg of the two M10 targets and the order240 M(13,13,15) target.",
+      "dependencies": [
+        "Existing coordinate pair-map and strict-potential construction model",
+        "Elementary finite subgroup averaging, idempotent e_H and closed matrix-rank loci",
+        "Exact rational coset spans, integer annihilator independence certificates and modular lower ranks",
+        "Maintained exact group generators and the split-source package from PR73"
+      ],
+      "limitations": "Written and unreviewed; not an exclusion of arbitrary complex maps or of remaining coordinate candidates. SAT timeouts and the two earlier failed lifts remain bounded discovery evidence. No formalization, independent review or exponent improvement.",
+      "origin": "Codex research directed by repository owner",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

@@ -139,6 +139,14 @@ The user requests frequent integration of completed work into main and cleanup
 of fully merged task branches. Preserve proof status and source attribution
 when merging; integration is not theorem acceptance.
 
+The subgroup-ideal continuation on `research/subgroup-ideal-20261021`
+depends on the central-cover package in PR #73. Every full five-cycle coset
+in a target vertex set is now excluded for the SL(2,5) and split-cover M10
+targets, and for M(13,13,15) in SL(2,5) x C2. The written averaging proof
+uses exact ideal dimensions80,88,160. The next split-cover search adds
+these cuts to avoid both previous failed pair-injective lifts. No target
+or smaller exponent has been constructed.
+
 The central-group worker's Heisenberg(5) package merged through PR #42 at
 `bfc5243`; its incorporated branch was removed while untracked Heisenberg(7)
 research was preserved on `research/heisenberg-modular-20261021`.
