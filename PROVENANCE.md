@@ -710,3 +710,11 @@ written and unreviewed. Finite modular discovery scans, exact replay and
 CI do not establish independent review or a smaller exponent. Concurrent
 F8 coordinate closure and subgroup-ideal work retain their source pins
 and authorship; their focused local replays are integration evidence.
+
+The semisimple reflexivity continuation applies the external theorem of
+Ambrozie, Kuzma and Muller, Proc. AMS138(2010),1721-1731, Theorem2.7 and
+its proof equations2.1-2.4. Its finite-domain evaluation cap is retained
+explicitly; this is not claimed as a new reflexivity theorem. The local
+contribution is its ordinary tensor-restriction application and exact
+Jordan/Hankel boundary controls. The arbitrary singular target maps are
+still missing. No review or exponent improvement is claimed.

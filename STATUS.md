@@ -1,5 +1,18 @@
 # Research status
 
+## Stronger ordinary slice spans from reflexive closures
+
+The [reflexivity application](research/ai/2026-10-21-semisimple-reflexive/proof.md)
+uses Ambrozie--Kuzma--Muller's2010 theorem and its finite-domain proof to
+strengthen the ordinary slice-span lower bound. It excludes ordinary
+restrictions3*M7 ->M11+M4 by18>16 and(M1+4*M7+M8) ->(3*M9+M3) by40>9.
+Both pass the other recorded rank tests and remain open for singular maps.
+Exact Jordan and Hankel controls attain the required rank-one span bounds.
+The larger packet target's ordinary exclusion strengthens to136>49.
+Claim027 is a written, unreviewed application of the credited external
+theorem. Conditional numerical gates do not supply the missing maps or
+an exponent improvement.
+
 ## Closed determinant factors for square semisimple targets
 
 The [low-rank span proof](research/ai/2026-10-21-semisimple-low-slices/proof.md)
