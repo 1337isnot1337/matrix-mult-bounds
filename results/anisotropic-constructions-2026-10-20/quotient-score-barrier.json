@@ -1,0 +1,84 @@
+{
+  "claim": "Every injective physical quotient with full matrix correction has finite 9/4 score below 93/100 of the source threshold",
+  "exponent": [
+    9,
+    4
+  ],
+  "relative_score_ceiling": [
+    93,
+    100
+  ],
+  "maximum_control": {
+    "rational_upper": [
+      553,
+      1000
+    ],
+    "critical_root_left": 1017323610515580848002378128,
+    "critical_root_right": 1000000000000000000000000000,
+    "maximum_fourth_power_left": 15807186633890497046335280789995426513394666718536385689,
+    "maximum_fourth_power_right": 16000000000000000000000000000000000000000000000000000000
+  },
+  "large_long_dimension_control": {
+    "minimum_long_dimension": 6,
+    "cleared_left": 162495930669465600000000,
+    "cleared_right": 165567467397042905903361
+  },
+  "small_source_controls": [
+    {
+      "a": 2,
+      "b": 2,
+      "long_dimension": 3,
+      "source_leg_dimension": 12,
+      "largest_quotient_dimension": 3,
+      "residual_matrix_size": 1,
+      "score_scale": 1000000,
+      "positive_term_upper": 667364555,
+      "negative_term_lower": 56343044,
+      "critical_threshold": 1000,
+      "strict_below_93_over_100": true
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "long_dimension": 4,
+      "source_leg_dimension": 24,
+      "largest_quotient_dimension": 4,
+      "residual_matrix_size": 2,
+      "score_scale": 1000000,
+      "positive_term_upper": 1274897572,
+      "negative_term_lower": 268014199,
+      "critical_threshold": 2197,
+      "strict_below_93_over_100": true
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "long_dimension": 5,
+      "source_leg_dimension": 40,
+      "largest_quotient_dimension": 6,
+      "residual_matrix_size": 2,
+      "score_scale": 1000000,
+      "positive_term_upper": 3174538707,
+      "negative_term_lower": 268014199,
+      "critical_threshold": 4096,
+      "strict_below_93_over_100": true
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "long_dimension": 5,
+      "source_leg_dimension": 45,
+      "largest_quotient_dimension": 6,
+      "residual_matrix_size": 3,
+      "score_scale": 1000000,
+      "positive_term_upper": 3174538707,
+      "negative_term_lower": 667364554,
+      "critical_threshold": 4096,
+      "strict_below_93_over_100": true
+    }
+  ],
+  "quotient_existence_claimed": false,
+  "joint_inequality_method_excluded": false,
+  "new_exponent_established": false,
+  "independent_mathematical_review": false
+}

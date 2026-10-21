@@ -1,0 +1,811 @@
+{
+  "status": "exact_counterexample_to_an_unrestricted_proof_step",
+  "determinant_identity": "det H(0,A,B,0,C,D,0) = (A*D-B*C)^2",
+  "determinant_monomials": [
+    {
+      "exponents_A_B_C_D": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "exponents_A_B_C_D": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": -2
+    },
+    {
+      "exponents_A_B_C_D": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "coefficient": 1
+    }
+  ],
+  "square_domain_counterexample": {
+    "a": 4,
+    "b": 4,
+    "r": 3,
+    "domain_shape": [
+      2,
+      2
+    ],
+    "image_dimension": 4,
+    "rank_one_input": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "hankel_rank": 3
+  },
+  "family_controls": [
+    {
+      "a": 3,
+      "b": 3,
+      "r": 2,
+      "sequence_length": 5,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 2,
+      "u0_zero_specialization_rank": 2
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "r": 3,
+      "sequence_length": 7,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 3,
+      "u0_zero_specialization_rank": 3
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "r": 3,
+      "sequence_length": 8,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 3,
+      "u0_zero_specialization_rank": 3
+    },
+    {
+      "a": 5,
+      "b": 5,
+      "r": 4,
+      "sequence_length": 9,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 4,
+      "u0_zero_specialization_rank": 4
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "r": 4,
+      "sequence_length": 10,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 4,
+      "u0_zero_specialization_rank": 4
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "r": 4,
+      "sequence_length": 11,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 4,
+      "u0_zero_specialization_rank": 4
+    },
+    {
+      "a": 6,
+      "b": 6,
+      "r": 4,
+      "sequence_length": 11,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 4,
+      "u0_zero_specialization_rank": 4
+    },
+    {
+      "a": 6,
+      "b": 6,
+      "r": 5,
+      "sequence_length": 11,
+      "domain_shape": [
+        2,
+        4
+      ],
+      "image_dimension": 8,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 5,
+      "u0_zero_specialization_rank": 5
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "r": 5,
+      "sequence_length": 12,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 5,
+      "u0_zero_specialization_rank": 5
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "r": 5,
+      "sequence_length": 13,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 5,
+      "u0_zero_specialization_rank": 5
+    },
+    {
+      "a": 7,
+      "b": 7,
+      "r": 5,
+      "sequence_length": 13,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 5,
+      "u0_zero_specialization_rank": 5
+    },
+    {
+      "a": 6,
+      "b": 9,
+      "r": 5,
+      "sequence_length": 14,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 5,
+      "u0_zero_specialization_rank": 5
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "r": 5,
+      "sequence_length": 14,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 5,
+      "u0_zero_specialization_rank": 5
+    },
+    {
+      "a": 7,
+      "b": 7,
+      "r": 6,
+      "sequence_length": 13,
+      "domain_shape": [
+        2,
+        5
+      ],
+      "image_dimension": 10,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "r": 6,
+      "sequence_length": 14,
+      "domain_shape": [
+        2,
+        4
+      ],
+      "image_dimension": 8,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 7,
+      "b": 9,
+      "r": 6,
+      "sequence_length": 15,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 8,
+      "b": 8,
+      "r": 6,
+      "sequence_length": 15,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "r": 6,
+      "sequence_length": 16,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "r": 6,
+      "sequence_length": 16,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 7,
+      "b": 11,
+      "r": 6,
+      "sequence_length": 17,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "r": 6,
+      "sequence_length": 17,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 9,
+      "b": 9,
+      "r": 6,
+      "sequence_length": 17,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 6,
+      "u0_zero_specialization_rank": 6
+    },
+    {
+      "a": 8,
+      "b": 8,
+      "r": 7,
+      "sequence_length": 15,
+      "domain_shape": [
+        2,
+        6
+      ],
+      "image_dimension": 12,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "r": 7,
+      "sequence_length": 16,
+      "domain_shape": [
+        2,
+        5
+      ],
+      "image_dimension": 10,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "r": 7,
+      "sequence_length": 17,
+      "domain_shape": [
+        2,
+        4
+      ],
+      "image_dimension": 8,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 9,
+      "b": 9,
+      "r": 7,
+      "sequence_length": 17,
+      "domain_shape": [
+        2,
+        4
+      ],
+      "image_dimension": 8,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 8,
+      "b": 11,
+      "r": 7,
+      "sequence_length": 18,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "r": 7,
+      "sequence_length": 18,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 8,
+      "b": 12,
+      "r": 7,
+      "sequence_length": 19,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 9,
+      "b": 11,
+      "r": 7,
+      "sequence_length": 19,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 10,
+      "b": 10,
+      "r": 7,
+      "sequence_length": 19,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 8,
+      "b": 13,
+      "r": 7,
+      "sequence_length": 20,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 9,
+      "b": 12,
+      "r": 7,
+      "sequence_length": 20,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "r": 7,
+      "sequence_length": 20,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 7,
+      "u0_zero_specialization_rank": 7
+    },
+    {
+      "a": 9,
+      "b": 9,
+      "r": 8,
+      "sequence_length": 17,
+      "domain_shape": [
+        2,
+        7
+      ],
+      "image_dimension": 14,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "r": 8,
+      "sequence_length": 18,
+      "domain_shape": [
+        2,
+        6
+      ],
+      "image_dimension": 12,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 9,
+      "b": 11,
+      "r": 8,
+      "sequence_length": 19,
+      "domain_shape": [
+        2,
+        5
+      ],
+      "image_dimension": 10,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 10,
+      "b": 10,
+      "r": 8,
+      "sequence_length": 19,
+      "domain_shape": [
+        2,
+        5
+      ],
+      "image_dimension": 10,
+      "image_dimension_exceeds_r": true,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 9,
+      "b": 12,
+      "r": 8,
+      "sequence_length": 20,
+      "domain_shape": [
+        2,
+        4
+      ],
+      "image_dimension": 8,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "r": 8,
+      "sequence_length": 20,
+      "domain_shape": [
+        2,
+        4
+      ],
+      "image_dimension": 8,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 9,
+      "b": 13,
+      "r": 8,
+      "sequence_length": 21,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 10,
+      "b": 12,
+      "r": 8,
+      "sequence_length": 21,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 11,
+      "b": 11,
+      "r": 8,
+      "sequence_length": 21,
+      "domain_shape": [
+        2,
+        3
+      ],
+      "image_dimension": 6,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 9,
+      "b": 14,
+      "r": 8,
+      "sequence_length": 22,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 10,
+      "b": 13,
+      "r": 8,
+      "sequence_length": 22,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "r": 8,
+      "sequence_length": 22,
+      "domain_shape": [
+        2,
+        2
+      ],
+      "image_dimension": 4,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "r": 8,
+      "sequence_length": 23,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 10,
+      "b": 14,
+      "r": 8,
+      "sequence_length": 23,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 11,
+      "b": 13,
+      "r": 8,
+      "sequence_length": 23,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    },
+    {
+      "a": 12,
+      "b": 12,
+      "r": 8,
+      "sequence_length": 23,
+      "domain_shape": [
+        2,
+        1
+      ],
+      "image_dimension": 2,
+      "image_dimension_exceeds_r": false,
+      "formal_recurrence_verified": true,
+      "attained_hankel_rank": 8,
+      "u0_zero_specialization_rank": 8
+    }
+  ],
+  "family_format_count": 50,
+  "dimension_counterexample_count": 14,
+  "proved_frontier_changed": false,
+  "new_tensor_restriction_claimed": false,
+  "new_exponent_established": false
+}

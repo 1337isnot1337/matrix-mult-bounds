@@ -6,11 +6,13 @@ import json
 from pathlib import Path
 
 
-def source_points():
-    return [((i * 3 + p + q) * 2 + s,
-             (j * 2 + p) * 3 + r + s,
-             ((i + j) * 2 + q) * 2 + r)
-            for i, j, p, q, r, s in product(range(2), repeat=6)]
+def source_points(a=2, b=2):
+    n = a + b - 1
+    return [((i * n + p + q) * b + s,
+             (j * a + p) * n + r + s,
+             ((i + j) * b + q) * a + r)
+            for i, j, p, q, r, s in product(range(a), range(b), range(a),
+                                           range(b), range(a), range(b))]
 
 
 def tensor_image(maps, points):
@@ -68,11 +70,36 @@ def verify_certificate(certificate):
             'new_exponent_established': False}
 
 
+def verify_a23_certificate(certificate):
+    if certificate.get('source') != 'full A(2,3)':
+        raise ValueError('The source must be the declared full A(2,3)')
+    denominator = certificate['common_map_denominator']
+    if type(denominator) is not int or denominator <= 0:
+        raise ValueError('The map denominator must be a positive integer')
+    maps = [certificate['map_numerators'][name] for name in 'ABC']
+    if any(len(matrix) != 9 or any(len(row) != 24 for row in matrix) for matrix in maps):
+        raise ValueError('The composed maps must have shape 9 by 24')
+    if any(type(value) is not int for matrix in maps for row in matrix for value in row):
+        raise ValueError('All map numerators must be Python integers')
+    points = source_points(2, 3)
+    if len(points) != 216 or len(set(points)) != 216:
+        raise ArithmeticError('The full A23 support did not reconstruct correctly')
+    image = tensor_image(maps, points)
+    if image != [denominator ** 3 * v for v in expected_tensor()]:
+        raise ArithmeticError('The composed full-source M3 identity failed')
+    return {'arithmetic': 'Python integers; denominator cubed cleared exactly',
+            'source_points_checked': 216, 'target_coefficients_checked': 729,
+            'full_A23_exact_M3_identity': True, 'nonzero_target_coefficients': 27,
+            'extra_scalar_source': False, 'new_exponent_established': False}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('certificate', type=Path)
     args = parser.parse_args()
-    print(json.dumps(verify_certificate(json.loads(args.certificate.read_text())), indent=2))
+    certificate = json.loads(args.certificate.read_text())
+    verify = verify_a23_certificate if certificate.get('source') == 'full A(2,3)' else verify_certificate
+    print(json.dumps(verify(certificate), indent=2))
 
 
 if __name__ == '__main__':
