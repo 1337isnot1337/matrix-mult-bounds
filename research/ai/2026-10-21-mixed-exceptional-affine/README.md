@@ -23,3 +23,7 @@ Use root requirements.txt. Acceptance uses exact rational linear algebra
 and polynomial coefficient identities. The finite modular grid that led
 to the family is discovery evidence only; it is not an all-parameter
 rank classification. See [QUESTION.md](QUESTION.md) for remaining work.
+
+The subsequent [all-graph closure](../2026-10-21-all-mixed-graphs-a1/README.md)
+excludes every graph at a=b=1, including this package's special fibers.
+This package retains its original proof scope and evidence status.

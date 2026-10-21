@@ -720,3 +720,15 @@ stable/projection rank argument. Singular suggested linear radical forms
 during discovery; acceptance checks direct coefficient identities over Q.
 The result has no independent mathematical review and does not exclude
 a complete target or improve the exponent.
+
+## All mixed graphs at equal nonzero partners
+
+The uniform source-stage closure, exact cubic span identities and exhaustive
+four-branch split were developed in this owner-directed session. They
+reuse the credited54/36 dichotomy, full source normal equations, saturated
+target rank gap and shifted moving-plane induction. The source torus
+retains its prior credit. Radical calculations were discovery aids only;
+acceptance verifies actual minors and rational coefficient identities.
+This written exclusion has no independent review or exponent improvement.
+The concurrent uniform Hankel-cap application retains its pinned authorship
+and ordinary-map scope; it is not a dependency of this singular local proof.
