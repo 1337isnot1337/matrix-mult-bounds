@@ -36,13 +36,17 @@ passes. Six focused tests pass, including all 32 exported parity
 contradictions from the 601.3-second timeout (34 model events, no lift).
 An initially stale test count is corrected and its failure log is retained.
 
-All 794 current test IDs have successful results. The sequential run
+All 794 initial catalog test IDs have successful results. The sequential run
 completed 360 tests in 85 complete modules before an intentional split;
 the other 434 tests ran in four disjoint module groups. Three optional
 numerical controls skipped in the maintained environment also passed in
 the discovery environment. The compressed evidence bundle includes every
 test ID, assignment, status and log. The validation receipt is finalized.
-Next: refresh main and submit a focused PR, then wait for current-head CI.
+PR95's first head passed all hosted checks. Main advanced to `b3e36fd`
+before merge; the branch now integrates that S5 block-filtration result,
+preserves all 265 claims, and passes 16 local integration checks. The
+combined inventory is 798 tests. Wait for the integrated head's full CI
+and merge through the normal repository rules.
 No target construction or smaller exponent is established.
 
 The neighboring S5 worktree has active `coset_ideals.py` changes. Leave that

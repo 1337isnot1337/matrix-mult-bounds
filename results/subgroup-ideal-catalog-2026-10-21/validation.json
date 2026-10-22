@@ -68,5 +68,15 @@
     "log": "focused-initial.log",
     "reason": "The new replay-count assertion used the preceding running checkpoint (30) instead of the terminal count (32).",
     "correction": "Changed the test expectation to the terminal report count32; the certificate and production code were unchanged."
+  },
+  "main_integration": {
+    "base_commit": "b3e36fd4b627a7f00532ce25a21d78da6620c99f",
+    "preserved_claims": 265,
+    "current_test_inventory": 798,
+    "local_tests_passed": 16,
+    "command": "PYTHONPATH=tests python -m unittest -v test_subgroup_ideal_catalog test_s5_block_filtration test_research.RepositoryTests",
+    "log": "main-integration-tests.log.gz",
+    "log_sha256": "bee600c76d7c0f1c23dba2f042b8a265f585cba9b72dddb53be485bf39a280c9",
+    "required_gate": "Complete hosted CI must pass at the integrated PR head before merge."
   }
 }

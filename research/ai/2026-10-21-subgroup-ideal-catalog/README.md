@@ -51,7 +51,7 @@ at its time limit after 34 model events, with 32 exported exact parity
 contradictions and no pair-injective lift. Every exported contradiction
 replays; the two other events learned conditional rows. This is a bounded
 discovery result, not a target exclusion or a measured search speedup.
-All 794 current test IDs have successful results: 360 completed in the
+All 794 test IDs at the original catalog head have successful results: 360 completed in the
 initial sequential run, followed by 434 tests partitioned across four
 processes at module boundaries. Three optional numerical controls skipped
 in the maintained environment also passed in the existing discovery
@@ -60,6 +60,12 @@ assignment reconciliation are saved in
 `results/subgroup-ideal-catalog-2026-10-21/regression-evidence.json.gz`.
 The five historical experiments replay successfully and all 18 tracked
 historical archive files match the base byte for byte.
+
+The later main integration at `b3e36fd` preserves both independent research
+updates and all 265 claims. Sixteen local integration checks pass,
+covering this catalog, the incoming S5 block tests and repository metadata.
+The integrated inventory has 798 tests; complete current-head hosted CI
+is required before merging the PR.
 
 An initial focused test expected the preceding running checkpoint's 30
 parity contradictions. Its assertion was corrected to the terminal count
