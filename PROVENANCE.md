@@ -841,3 +841,20 @@ credits retained. The local contribution is the explicit witness and its
 source/target comparison. No historical priority, independent mathematical
 review, formalization, target construction or exponent improvement is
 claimed.
+
+## Split-cover finite cube exclusion
+
+The full-source degree check, finite cutoffs, integer polynomial exporter,
+coordinate-counting replay and matrix-slice reduction in
+`research/ai/2026-10-21-central-cover-finite-slices/` are local AI-derived
+work from this owner-directed session. They reuse the explicit F4 basis
+and maintained arithmetic of the preceding A5 tight-limit certificate,
+with that source pinned by file hash. The degree check examines the full
+source, including terms discarded in the earlier limit. Separately
+weighted block counting and coefficient-one field transfer retain their
+earlier modular-package credits. The bounded-rank matrix-space dimension
+theorem is external: Flanders, Meshulam, and de Seguins Pazzis's inspected
+arbitrary-field formulation in arXiv:1507.05375v2, Theorem 1.1. The local
+note derives the required finite matrix-multiplication slice rank from
+that theorem. No historical priority, independent mathematical review,
+Lean formalization or exponent improvement is claimed.
