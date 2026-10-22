@@ -12,6 +12,39 @@ rank argument. Its low-pole exclusion retains the stated regular-unit and
 full-rank-long-leg hypotheses. No target construction, general degeneration
 exclusion, independent mathematical review or exponent improvement is claimed.
 
+The `2026-10-21-sl2-f8-modular` package is owner-directed Codex work.
+It reuses the maintained exact SL(2,F8) group and polynomial field model.
+The explicit natural, Frobenius-tensor and projective-line module witnesses,
+kernel powers, central idempotent and left-generator replay are local
+calculations. The standard algebra, bit-permutation routing and modular
+slice method are not claimed as historical novelties. Petrov, Sawin and
+the previously credited field-independent tight-support target theorem
+retain their attribution. PR84 retains credit for the conditional packet
+sum and its earlier assembly obstructions; PR93 supplies the local blockwise
+counting argument. No independent review, optimality or exponent gain is
+claimed.
+
+The `2026-10-21-coupled-boundary-rank-two` package is owner-directed Codex
+work. It adopts the canonical first-normal system, boundary quotient maps
+and prior complete biform family with exact byte pins and existing credits.
+The joint cubic-minor reduction, all-parameter certificate and explicit
+normal basis identification are local continuations. The application
+imports the separately written balanced gap and projective classification;
+their external sources retain their credits. A coordinate discovery pilot
+is preserved separately from the universal polynomial implication.
+No independent review, formalization, historical priority or exponent
+improvement is claimed.
+
+The `2026-10-21-balanced-puncture-gap` package is owner-directed Codex
+work. The complex Kronecker canonical form is external classical input,
+inspected in the Netlib book chapter with its field hypotheses and fetched
+hash recorded. That theorem's proof is not rebuilt. The elementary rank
+cases, quotient arguments and biform application are local deductions;
+the canonical source and previous conic classification retain their
+credits. The registered binary pilot is finite discovery evidence and
+does not prove the arbitrary-complex-subspace theorem. No independent
+review, formalization, historical priority or exponent gain is claimed.
+
 The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
 It adopts the prior exact S5 modules, radical certificate and its independent
 convolution verifier with their original credit. The central idempotent,

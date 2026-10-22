@@ -23,6 +23,18 @@ compression or leading-flag restriction. Claims `AI-CYCLIC-UNIMODULAR-001`
 and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed.
 The general singular A4 target and exponent question remain open.
 
+## Modular SL(2,F8) bound across source powers
+
+The [modular source proof](research/ai/2026-10-21-sl2-f8-modular/proof.md)
+constructs an exact 125-dimensional semisimple quotient over F2 and F8,
+certifies a 379-dimensional nilpotent kernel, and separates the 64-dimensional
+central summand. The resulting all-power coordinate/potential slice bound
+is 1035637/2304, below 450. It excludes the joint six M(8,9,9) packets plus
+M7 across source powers, extending the prior one-copy coordinate assembly
+obstruction. All 16 general-test single-matrix survivors remain unexcluded,
+including M(18,18,25). Claim `AI-SL2-F8-MODULAR-001` is written and
+unreviewed; arbitrary complex maps and the exponent goal remain open.
+
 ## Complete subgroup-ideal catalog
 
 The [complete finite catalog](research/ai/2026-10-21-subgroup-ideal-catalog/README.md)
@@ -39,6 +51,35 @@ contradictions with no pair-injective lift; it ended at its time limit.
 Claims `EXP-SUBGROUP-IDEAL-CATALOG-001`
 and `AI-SPLIT-NONCYCLIC-COSETS-001` remain finite or written and unreviewed.
 Arbitrary complex maps and the exponent below 9/4 remain open.
+
+## Complete coupled boundary rank-two reduction
+
+The [coupled cubic proof](research/ai/2026-10-21-coupled-boundary-rank-two/proof.md)
+shows that both canonical boundary obstruction matrices have rank at most
+two precisely when both are zero. Its 232 universal determinant identities
+reduce the normal dimensions 228 to 96, 56, 32 and 28. An invertible
+coefficient transformation identifies the final space with the complete
+biform normal family. Combined with the sharp balanced gap and prior
+projective classification, this gives the necessary conic classification
+for non-plane balanced boundary normals under the credited third-gap
+conditions. Four focused tests pass. Later compatibility, an all-order
+10-by-10 conclusion, the separate 12-by-8 case and a matrix target remain
+open. These proofs are written and unreviewed; the exponent remains 9/4.
+
+## A gap for balanced two-dimensional boundary quotients
+
+The [gap proof](research/ai/2026-10-21-balanced-puncture-gap/proof.md)
+shows that a complex rank-one-free matrix space of dimension at least
+two, amplified by Mat2 and quotiented by kernels of size at most two
+on each leg, leaves first dimension zero or at least three. The bound
+is sharp. Its constant-rank-two reduction imports the classical complex
+Kronecker form, with the rank cases and quotient arguments supplied.
+Within the actual 28-dimensional boundary normal family, low first rank
+at most two therefore forces complete cancellation, whose projective
+survivors were already classified. The coupled cubic proof now supplies
+entry into that family from the two rank bounds. Six focused tests and
+the registered 423801-pair finite pilot retain separate scopes. The proofs
+are written and unreviewed; no matrix target or smaller exponent.
 
 ## Blockwise modular bounds for S5 central sources
 
