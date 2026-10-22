@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
+It adopts the prior exact S5 modules, radical certificate and its independent
+convolution verifier with their original credit. The central idempotent,
+projected block ranks, separately weighted counting argument and finite
+comparison are local work. The modular slice method remains attributed
+to Petrov and Sawin; the field-independent tight-support target theorem
+retains the citations in the prior modular Heisenberg proof. The complex
+rank-locus and full Koszul formulas are reused unchanged. No independent
+review, optimal filtration, historical priority or exponent gain is claimed.
+
 The `2026-10-21-biform-balanced-puncture` package is owner-directed Codex
 work. It adopts the earlier canonical source, boundary flags, normal
 coefficient space, auxiliary Mat2 factorization and biform multiplication

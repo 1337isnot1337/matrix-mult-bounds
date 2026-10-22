@@ -1,0 +1,1261 @@
+{
+  "sources": [
+    {
+      "source": "S5 x C2^1",
+      "source_dimension": 240,
+      "complex_degrees": [
+        1,
+        1,
+        4,
+        4,
+        5,
+        5,
+        6,
+        1,
+        1,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "sorted_shapes_checked": 1766,
+      "strict_9_fourths_degree_gate_count": 32,
+      "rank_locus_survivor_count": 7,
+      "full_complex_koszul_survivor_count": 6,
+      "modular_exclusion_count_after_rank_locus": 0,
+      "additional_coordinate_exclusions_after_koszul": [],
+      "modular_source_strict_upper_bound": "205601193/1000000",
+      "records": [
+        {
+          "shape": [
+            12,
+            12,
+            18
+          ],
+          "volume": 2592,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              12,
+              12,
+              18
+            ],
+            "power": 105,
+            "source_rank": 2806810228641344815145712694334833927601866477923642821702651359603681812,
+            "target_rank": 2809674897740944951002872712033369291199626663534664925779109525627739840,
+            "rank_one_divisor": 7864617009943857484282559524528921638815028981220508368445973841195047
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            13,
+            13,
+            15
+          ],
+          "volume": 2535,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            13,
+            13,
+            16
+          ],
+          "volume": 2704,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            13,
+            14,
+            14
+          ],
+          "volume": 2548,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            14,
+            14,
+            14
+          ],
+          "volume": 2744,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            13,
+            14,
+            15
+          ],
+          "volume": 2730,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            14,
+            14,
+            15
+          ],
+          "volume": 2940,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        }
+      ],
+      "scope": "Every sorted integer shape with minimum side at least two and largest leg at most the source dimension. General complex gates retain their original scope; the new modular exclusions concern coordinate/potential maps only."
+    },
+    {
+      "source": "S5 x C2^2",
+      "source_dimension": 480,
+      "complex_degrees": [
+        1,
+        1,
+        4,
+        4,
+        5,
+        5,
+        6,
+        1,
+        1,
+        4,
+        4,
+        5,
+        5,
+        6,
+        1,
+        1,
+        4,
+        4,
+        5,
+        5,
+        6,
+        1,
+        1,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "sorted_shapes_checked": 5396,
+      "strict_9_fourths_degree_gate_count": 132,
+      "rank_locus_survivor_count": 73,
+      "full_complex_koszul_survivor_count": 45,
+      "modular_exclusion_count_after_rank_locus": 14,
+      "additional_coordinate_exclusions_after_koszul": [
+        [
+          20,
+          20,
+          20
+        ],
+        [
+          19,
+          20,
+          21
+        ]
+      ],
+      "modular_source_strict_upper_bound": "38858625477/100000000",
+      "records": [
+        {
+          "shape": [
+            15,
+            15,
+            29
+          ],
+          "volume": 6525,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              15,
+              15,
+              29
+            ],
+            "power": 189,
+            "source_rank": 892203583287558238022979412490572931916694598501865708752640792751005713479858271311629209348318946972016871887956920275939113811061997247440,
+            "target_rank": 892712660230764478678898277606824806892921606064692141717374573182310144925751944584778539753704302063226820664101693555358183409867312045600,
+            "rank_one_divisor": 1274728625402189208085317727545756941465117169336953363367589269523548457390006331353529453865996820299951528145771363707630897192641473610
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            15,
+            15,
+            30
+          ],
+          "volume": 6750,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              15,
+              15,
+              30
+            ],
+            "power": 162,
+            "source_rank": 330038959577411605434873466281317536447026106038218733933230046185190420847275142947537394215547802590260850664633159093915274372630096,
+            "target_rank": 330052970010764835149720505733007703552879002465251665904892954375960759153601076941659888040761972265743386067064436261781634532920000,
+            "rank_one_divisor": 488676119438721039688472655261475096206529286277635886037753249740731007927357584659238255983563391713457008365994562021728570200410
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            16,
+            25
+          ],
+          "volume": 6400,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            16,
+            26
+          ],
+          "volume": 6656,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            15,
+            16,
+            27
+          ],
+          "volume": 6480,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              15,
+              16,
+              27
+            ],
+            "power": 210,
+            "source_rank": 1069201309623486650528822985961731585556642763665958994999684531516654988897707386536337431498707564755596144011366400241072408778197878554066024,
+            "target_rank": 1069462035180974352614799808686051424583845370590929984496304303309012866193070639140388518425692551174179179716803750320774194039611151158110240,
+            "rank_one_divisor": 1500225085242748733950569505164298771504200567039830456847067388963287162037025818372705415676282021935941714080781180373284407137187598685945
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            16,
+            27
+          ],
+          "volume": 6912,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              16,
+              16,
+              27
+            ],
+            "power": 192,
+            "source_rank": 3100443031672960040097053982851607874540465864163743254660219967482947766947109196164326604444047459157303738735078316862164282446088084667936,
+            "target_rank": 3101495612378489920611339557743807224260169177723483872408735807559091248761289350130710107190812049352139607314674910591254474693735013407120,
+            "rank_one_divisor": 4415886170913094965402196696566956018084519287495042493131895426237335197596711103502589013302942691209931285776953623271006289351692555935
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            15,
+            16,
+            28
+          ],
+          "volume": 6720,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              15,
+              16,
+              28
+            ],
+            "power": 169,
+            "source_rank": 28908779930476069521993737719759835170244190652906122173967783690357470947173100475795900281464658926717008010783339622746921632600071952,
+            "target_rank": 28938605086306171275554728028631400624938189111486595967315893782934703876062422377994451764472019685347112123168487235748688904442489600,
+            "rank_one_divisor": 42357570426315314099030268271875695194992354841342561527884851057199386396071673972855406588252524880724745983819788253039093617017710
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            16,
+            28
+          ],
+          "volume": 7168,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              16,
+              16,
+              28
+            ],
+            "power": 165,
+            "source_rank": 2371929493900229431796377350955858538845782923343667155807038134165697959266130456104906946812389545342843346024045342339143644224001040,
+            "target_rank": 2373217611431812467213467310137987695692093056447043184088727085650761656930641523821372992295324747902453177361972993047476562655447040,
+            "rank_one_divisor": 3495929117859177437123867000666216009689474939687776928909343208662408815611131852122037959769346080180133868440978305210141339002710
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            17,
+            23
+          ],
+          "volume": 6647,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            17,
+            24
+          ],
+          "volume": 6528,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            17,
+            24
+          ],
+          "volume": 6936,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            17,
+            25
+          ],
+          "volume": 6800,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            17,
+            25
+          ],
+          "volume": 7225,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              17,
+              17,
+              25
+            ],
+            "power": 203,
+            "source_rank": 153274981893695877267767641547108588771264392339935992300061118108828273305499234578475035078376598347920911106385036275964909523263392772247784,
+            "target_rank": 153375072711029306017791991702174182852592444419655327992763102739276525742172826827309891278984802639756115648484376631389150304934403564166250,
+            "rank_one_divisor": 216147386295009795505502456228383369747412109601412945414456947034498293282274069345347526845005594480340731925013493449710850100944544142653
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            15,
+            17,
+            26
+          ],
+          "volume": 6630,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              15,
+              17,
+              26
+            ],
+            "power": 192,
+            "source_rank": 3100443031672960040097053982851607874540465864163743254660219967482947766947109196164326604444047459157303738735078316862164282446088084667936,
+            "target_rank": 3101534922915714364582376761799916604663194614872984799134609634659813932349188761456317332655327444421585705526158937930425019623577174373150,
+            "rank_one_divisor": 4415886170913094965402196696566956018084519287495042493131895426237335197596711103502589013302942691209931285776953623271006289351692555935
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            17,
+            26
+          ],
+          "volume": 7072,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              16,
+              17,
+              26
+            ],
+            "power": 178,
+            "source_rank": 4711840873030457774981829975828991179800367571895912036218551847805718321716096722672308752158454689283851936986165424847512835598740897456,
+            "target_rank": 4712537631385604179887309200386858220917302664128047220339063278513231874562544569694932998255107504902563052040831782150615811736019032000,
+            "rank_one_divisor": 6819804301254125380579963007383429180955274916567277184522682727779925390108022603835958739957139706792432264682227420699811375952197102
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            17,
+            26
+          ],
+          "volume": 7514,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              17,
+              17,
+              26
+            ],
+            "power": 174,
+            "source_rank": 536073057535455345626416857999972916714967010499826219770566227272871372633412941453610621861644288763652322543917118954781833872241438416,
+            "target_rank": 536370316444402281812867491839224153770519759671037459627585450965452519953001120355492161089251392457428474946666931556929596385215092228,
+            "rank_one_divisor": 779996947742030339925871620771050521488909973792832233461516106265050893056251436727011235872126979785951534453523993116646118229230530
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            18,
+            20
+          ],
+          "volume": 6480,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            18,
+            21
+          ],
+          "volume": 6426,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            18,
+            21
+          ],
+          "volume": 6804,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            18,
+            22
+          ],
+          "volume": 6732,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            18,
+            22
+          ],
+          "volume": 7128,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            18,
+            23
+          ],
+          "volume": 6624,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            18,
+            23
+          ],
+          "volume": 7038,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            18,
+            23
+          ],
+          "volume": 7452,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              18,
+              18,
+              23
+            ],
+            "power": 229,
+            "source_rank": 25815069729063816575768716477926046639318438220045867401133052419569461195367383586501095713361949041106642695180617697394204401944643856512541760,
+            "target_rank": 25820860863012120725232432242862800809422150208572301343873938737105291382385964733002660081375026663043290800078393323425933040521866287793142112,
+            "rank_one_divisor": 35920810692354760335210237385368036817910537749749566612469410976609941737644390690644896162389586295187091514854671297605560597197826359991128
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            15,
+            18,
+            24
+          ],
+          "volume": 6480,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            18,
+            24
+          ],
+          "volume": 6912,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            18,
+            24
+          ],
+          "volume": 7344,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              17,
+              18,
+              24
+            ],
+            "power": 197,
+            "source_rank": 20777774260535685236206220997445577222229042016706980501551161808957741223055895902550161386080172425442873422484478586498850237180888891897112,
+            "target_rank": 20797517136414970247242711415984327559062837527467410894456390620644745053262103360249856769635248653925206119637021491516739537910369706397200,
+            "rank_one_divisor": 29450962152601264422981342581141712719429595757771607003611306690715540335173563572504586269783420580038686804580083601841045923353354682905
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            18,
+            24
+          ],
+          "volume": 7776,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              18,
+              18,
+              24
+            ],
+            "power": 189,
+            "source_rank": 892203583287558238022979412490572931916694598501865708752640792751005713479858271311629209348318946972016871887956920275939113811061997247440,
+            "target_rank": 893077635981089682394502629035904261518584057614309455732304949828474698819158119376989515274531991108477468307585947692936847957292494615360,
+            "rank_one_divisor": 1274728625402189208085317727545756941465117169336953363367589269523548457390006331353529453865996820299951528145771363707630897192641473610
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            15,
+            18,
+            25
+          ],
+          "volume": 6750,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              15,
+              18,
+              25
+            ],
+            "power": 176,
+            "source_rank": 1618102862613484178303580736159552339155815182393080807249311775469661288163868476381163177881010438574129853572880831020621459180855681856,
+            "target_rank": 1618533157265158249084049338044626199674576162919427229460516507070337141999850709608376807115330524164691060795500209032650589932832059000,
+            "rank_one_divisor": 2348094707618216010322299242788694946508173141885435217095836797821283078057650429004171486690377063823163190731517683174526885786177102
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            18,
+            25
+          ],
+          "volume": 7200,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              16,
+              18,
+              25
+            ],
+            "power": 166,
+            "source_rank": 4493390086464208382386372451427411731190683855210394689493359859148816822326006772711814559663728102697237785692922501046089532972167024,
+            "target_rank": 4497317114572712472808526442018675560581208927352679956413777801180723310618862613914254584960671568232843302001569408303610687037452000,
+            "rank_one_divisor": 6612781584384227200342736374754167632786115247361216600467070888674676916276478322688674213057678729979289365605224023108339641246090
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            18,
+            25
+          ],
+          "volume": 7650,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              17,
+              18,
+              25
+            ],
+            "power": 162,
+            "source_rank": 330038959577411605434873466281317536447026106038218733933230046185190420847275142947537394215547802590260850664633159093915274372630096,
+            "target_rank": 330171630851143158209440559271535432104536292465868876298837202449875223035414429035893745899618766008470807836200852463309978609165000,
+            "rank_one_divisor": 488676119438721039688472655261475096206529286277635886037753249740731007927357584659238255983563391713457008365994562021728570200410
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            19,
+            19
+          ],
+          "volume": 6498,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            19,
+            19,
+            19
+          ],
+          "volume": 6859,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            19,
+            20
+          ],
+          "volume": 6460,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            19,
+            20
+          ],
+          "volume": 6840,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            19,
+            19,
+            20
+          ],
+          "volume": 7220,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            19,
+            21
+          ],
+          "volume": 6384,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            19,
+            21
+          ],
+          "volume": 6783,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            19,
+            21
+          ],
+          "volume": 7182,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            19,
+            19,
+            21
+          ],
+          "volume": 7581,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            19,
+            22
+          ],
+          "volume": 6688,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            19,
+            22
+          ],
+          "volume": 7106,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            19,
+            22
+          ],
+          "volume": 7524,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            19,
+            19,
+            22
+          ],
+          "volume": 7942,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              19,
+              19,
+              22
+            ],
+            "power": 212,
+            "source_rank": 1725317689036284724960306151775973603189057524209627177674867058090413013210059827304859153432042329897158741882922472365923708204471491627352072,
+            "target_rank": 1726356633942079322433303065597185349128705367611738888154305894104271024157539188859703730145167160175831763020640833761052041412505609866367600,
+            "rank_one_divisor": 2417826764851118700884477706480922539463489834548767264933800907742584684019790425157048171933616281977240231858885738519869880160380228124545
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            15,
+            19,
+            23
+          ],
+          "volume": 6555,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            19,
+            23
+          ],
+          "volume": 6992,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            19,
+            23
+          ],
+          "volume": 7429,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              17,
+              19,
+              23
+            ],
+            "power": 194,
+            "source_rank": 6810455849533153192446250891097554094304394834983422564043908706147609191994891015712785050371429231783675507215549802307759880857657509481592,
+            "target_rank": 6812741940725702976410794385337380983019739031153096774319531749126838192360834963968668632567357960435259264698906867464422681850354203557940,
+            "rank_one_divisor": 9680699980793992333479598024881386781593224511408794346489296521991692422657262988026801757115862987551241381313602566778770852052925281135
+          },
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            19,
+            23
+          ],
+          "volume": 7866,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              18,
+              19,
+              23
+            ],
+            "power": 184,
+            "source_rank": 93942542122183513063565191787879696247692963644202361441543703265366908197253506501022623226994694446082816645237278439867692187711673072128,
+            "target_rank": 94016981235650284896362534218475606497960383251130849395683876591424511340206154862802847081645669864283807835749637759538720569975040142550,
+            "rank_one_divisor": 134974231645186014098876457603480918913370947602448849485918577929286888511458269822663778625204193708247263267331760781124410599778460230
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            19,
+            19,
+            23
+          ],
+          "volume": 8303,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              19,
+              19,
+              23
+            ],
+            "power": 180,
+            "source_rank": 13238821493262028368908222798339327523404569290992359324013646838721380152207602697568514920820344161510665192055399557023810368407739459056,
+            "target_rank": 13246425954213311539898933594867270873219165136020823622168866405004663466086189362521281956892527734258483603402010217023696612242621655278,
+            "rank_one_divisor": 19113231794017613962333043437825066885172604747548886708950907831115060916410752362705992371760698805814917240869184856896119405601595230
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            14,
+            19,
+            24
+          ],
+          "volume": 6384,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            20,
+            20
+          ],
+          "volume": 6400,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            20,
+            20
+          ],
+          "volume": 6800,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            20,
+            20
+          ],
+          "volume": 7200,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            19,
+            20,
+            20
+          ],
+          "volume": 7600,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            20,
+            20,
+            20
+          ],
+          "volume": 8000,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            16,
+            20,
+            21
+          ],
+          "volume": 6720,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            20,
+            21
+          ],
+          "volume": 7140,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            20,
+            21
+          ],
+          "volume": 7560,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            19,
+            20,
+            21
+          ],
+          "volume": 7980,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            20,
+            20,
+            21
+          ],
+          "volume": 8400,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              20,
+              20,
+              21
+            ],
+            "power": 206,
+            "source_rank": 370853246332096952830428481182464009884093988463276471277493092548797890384651293826509695022701490839208320523480487262349423011822581670453816,
+            "target_rank": 371246482411863384203183447392425192252256762089335819099678937718380954791190083721412949304162253342107695298979155269796604120468512319632000,
+            "rank_one_divisor": 521784384976622036328803097556239360004391297717999059841100711869367005854278497136067935254749126651188178828327554739481813552453569704315
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            15,
+            20,
+            22
+          ],
+          "volume": 6600,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            20,
+            22
+          ],
+          "volume": 7040,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            20,
+            22
+          ],
+          "volume": 7480,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            20,
+            22
+          ],
+          "volume": 7920,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              18,
+              20,
+              22
+            ],
+            "power": 182,
+            "source_rank": 35896425135377243241607633378834289906140158790455535605900407743408853920853077141219928100720830585133763185681415075896264342549686281872,
+            "target_rank": 35903572173383834647314295233261271011098590369038819358973006048951350805374923874744368689504483585189479340017090569074530112354524605600,
+            "rank_one_divisor": 51697746928254430188567750482578140659421086400828756710003757803655338406108641157848015673262758332697491226881370563996054619571165630
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            19,
+            20,
+            22
+          ],
+          "volume": 8360,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              19,
+              20,
+              22
+            ],
+            "power": 177,
+            "source_rank": 2773598000763289949573860486182245987533611504773045754544806172828732537563157282800204970928778398396779037112055420471813504741783005264,
+            "target_rank": 2774105192253555424690006123060521321337688241116255827066467431387887039948778966895443510378487870155634677904318092016365230314153143520,
+            "rank_one_divisor": 4019619753719318932924613957994206603344499785261507744519991806439823574302079547956293561961492939765075970574292983061478228210235378
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            20,
+            20,
+            22
+          ],
+          "volume": 8800,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              20,
+              20,
+              22
+            ],
+            "power": 175,
+            "source_rank": 935555098105879505304429382100272880565829353942376237041264647570213234533146186793444133753590558509195489556861655990382594971072185664,
+            "target_rank": 936191748100364036433645955291984434447851755025669181812117461259196503327567847589536414328925900583529615336768966623753953376684952560,
+            "rank_one_divisor": 1359423251778967163870804824772402337452100240038936178318642356633374413612323932581362439662849879055515531476141816574726091770944638
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            15,
+            21,
+            21
+          ],
+          "volume": 6615,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            16,
+            21,
+            21
+          ],
+          "volume": 7056,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            17,
+            21,
+            21
+          ],
+          "volume": 7497,
+          "complex_koszul_excluded": false,
+          "complex_koszul_witness": null,
+          "coordinate_modular_excluded": false
+        },
+        {
+          "shape": [
+            18,
+            21,
+            21
+          ],
+          "volume": 7938,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              18,
+              21,
+              21
+            ],
+            "power": 187,
+            "source_rank": 372270769959596403587842910414532161222213299439004306329973217992973836891067471671098603993384341322228748449513697824007753030203034570576,
+            "target_rank": 372353654441250392837908466039998092220510706032723788932691043663456429174848625365317340106271627174671633674515982675086208903688902878400,
+            "rank_one_divisor": 533042149387922926866350203539469891777744942579680681956140633675925290542551722516283111551647590016686410795033047300987867050898376410
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            19,
+            21,
+            21
+          ],
+          "volume": 8379,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              19,
+              21,
+              21
+            ],
+            "power": 178,
+            "source_rank": 4711840873030457774981829975828991179800367571895912036218551847805718321716096722672308752158454689283851936986165424847512835598740897456,
+            "target_rank": 4713509325168158392603064761097839997313410385566556236600493233916498806797896954590682126478018196729309258848122389060049105862519937520,
+            "rank_one_divisor": 6819804301254125380579963007383429180955274916567277184522682727779925390108022603835958739957139706792432264682227420699811375952197102
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            20,
+            21,
+            21
+          ],
+          "volume": 8820,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              20,
+              21,
+              21
+            ],
+            "power": 175,
+            "source_rank": 935555098105879505304429382100272880565829353942376237041264647570213234533146186793444133753590558509195489556861655990382594971072185664,
+            "target_rank": 936431395593641739751401703993562746799175337348832919876549384583937740808127401875981833170002897997798719373249726384389552953011321064,
+            "rank_one_divisor": 1359423251778967163870804824772402337452100240038936178318642356633374413612323932581362439662849879055515531476141816574726091770944638
+          },
+          "coordinate_modular_excluded": true
+        },
+        {
+          "shape": [
+            21,
+            21,
+            21
+          ],
+          "volume": 9261,
+          "complex_koszul_excluded": true,
+          "complex_koszul_witness": {
+            "ordered_shape": [
+              21,
+              21,
+              21
+            ],
+            "power": 173,
+            "source_rank": 304411112764972387187663491695339386500023951585682513505860104010912371614925413170166386673709553794466501071872383989686307346558576688,
+            "target_rank": 304574827644602393563156552815875255257075822543907598561293978213172201899615753109646573396196500246963702804786122135974552686789831680,
+            "rank_one_divisor": 443527676167036859957848568673734610258399789019453622948705236895813252914339052256535800790032988505737147042199917654563478993091870
+          },
+          "coordinate_modular_excluded": true
+        }
+      ],
+      "scope": "Every sorted integer shape with minimum side at least two and largest leg at most the source dimension. General complex gates retain their original scope; the new modular exclusions concern coordinate/potential maps only."
+    }
+  ],
+  "improves_omega": false,
+  "proof_status": "written proof; unreviewed; no construction"
+}
