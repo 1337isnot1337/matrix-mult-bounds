@@ -1,0 +1,56 @@
+{
+  "tested_code_head": "b4dc1195a89780bbfb122b77e7c9f580d723a6ec",
+  "coefficient_checker": "Independent standard-library verify_tight.py; no optional dependencies.",
+  "certificate_sha256": "d98dcdd881f2f5d4217e7e333019bd0e6862b67edb7779df24011b90ed16749d",
+  "coefficient_replay": "tight-verification.json",
+  "focused_tests": {
+    "passed": 5
+  },
+  "full_regression": {
+    "current_tests": 822,
+    "modules": 194,
+    "passed_in_maintained_environment": 819,
+    "optional_controls_passed_in_discovery_environment": 3,
+    "group_test_counts": [
+      225,
+      208,
+      194,
+      195
+    ],
+    "complete_inventory_coverage": true,
+    "evidence": "regression-evidence.json.gz",
+    "sha256": "6128da34ebd3412701c8e907f298597176c429ba4bee9ba8a6c0649e9e06ef62"
+  },
+  "archive_replay": {
+    "status": "passed",
+    "profile_grid": 73856,
+    "product_filtration": 353664,
+    "binary": 12976,
+    "ternary": 209692,
+    "random": 20000
+  },
+  "external_dependencies": [
+    "CVZ19",
+    "AVZ20"
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false,
+  "final_focused_tests": {
+    "passed": 5,
+    "scope": "Replayed after adding field-label and declared probability-denominator validation; no coefficient or entropy arithmetic changed.",
+    "log": "focused-tests-final.log.gz",
+    "sha256": "dfd419613233f2febab64e4c3f04970086ad7046dcc33bc1f2fe74788efaa5b5"
+  },
+  "protected_archives": {
+    "tracked_files_unchanged": 18,
+    "base_commit": "ef76802bcbe47adf3076ddcba6a34e8ff221089c",
+    "comparison": "Actual worktree bytes against immutable Git object bytes in both historical archives."
+  },
+  "runtime": {
+    "python": "3.14.8",
+    "sympy": "1.14.0",
+    "optional_discovery_numpy": "2.5.4",
+    "optional_discovery_scipy": "1.18.1"
+  }
+}

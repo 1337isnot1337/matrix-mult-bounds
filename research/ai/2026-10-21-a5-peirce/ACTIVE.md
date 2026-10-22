@@ -6,8 +6,7 @@ Base: `b3e36fd4b627a7f00532ce25a21d78da6620c99f` (PR93). Topic branch:
 Question: does an exact Peirce/corner refinement of the published A5
 radical pilot lower the modular source bound for A5 x C2 below 100,
 thereby excluding its coordinate/potential M10 target? The complete
-subgroup-coset catalog leaves that target open, and a separate eager
-600-second search found no pair-injective model.
+subgroup-coset catalog leaves that target open.
 
 PR93's discovery README explicitly leaves blockwise alternate-source
 filtrations open. Reuse its source data and bit-algebra helpers with
@@ -36,7 +35,11 @@ and above 976613/5000 for the order 240 product source. It is not a finite-power
 test exclusion or a construction. The proof imports the credited CVZ19
 and AVZ20 tight-support entropy theorem with its field hypotheses.
 
-The worktree is refreshed to `ef76802`, where PR95 has merged after all
-hosted checks passed. Remaining work: update status and claim metadata,
-run full regression/replay, inspect current overlap/main, and submit the
-focused method-barrier PR through normal rules.
+The worktree includes main through `9a3cccc`, preserving all 274 claims.
+All 822 local test IDs have successful results: 819 in the maintained
+environment and three optional numerical controls in the existing
+discovery environment. The five historical experiments replay and all
+18 tracked archive files match the source base byte for byte. Five final
+focused tests also cover field-label and denominator corruption guards.
+Remaining work: refresh main/overlap and submit the focused method-barrier
+PR through normal rules, then wait for the complete current-head CI.

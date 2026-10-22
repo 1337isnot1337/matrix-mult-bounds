@@ -58,6 +58,14 @@ class A5TightBarrierTests(unittest.TestCase):
 
     def test_entropy_and_cover_tampering_are_rejected(self):
         bad = copy.deepcopy(self.certificate)
+        bad['coefficient_field'] = 'F5'
+        with self.assertRaisesRegex(ValueError, 'coefficient field'):
+            verifier.verify(bad)
+        bad = copy.deepcopy(self.certificate)
+        bad['probability_denominator'] += 1
+        with self.assertRaisesRegex(ValueError, 'rational distribution'):
+            verifier.verify(bad)
+        bad = copy.deepcopy(self.certificate)
         bad['marginal_counts'][0][0] += 1
         with self.assertRaisesRegex(ValueError, 'marginals'):
             verifier.verify(bad)

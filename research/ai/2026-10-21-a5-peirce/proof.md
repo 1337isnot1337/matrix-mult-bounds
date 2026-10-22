@@ -47,6 +47,17 @@ additional information about a proposed map, another characteristic,
 or the target constructions themselves. A source-capacity lower bound
 does not construct a matrix-multiplication target.
 
+The comparison threshold uses the credited cyclic symmetrization from
+the prior modular packages. A coordinate/potential certificate from one
+copy of T_G transfers
+to characteristic two because its retained coefficients are one and its
+maps use integer parameter powers. Tensoring a proposed M(a,b,c) map
+with its two cyclic rotations gives the square target M(abc,abc,abc).
+Its tight uniform support has asymptotic subrank (abc)^2. The strict
+exponential-cost comparison seeks C<(abc)^(2/3).
+For M10 the threshold is 100. This is the particular comparison limited
+by the present lower barrier.
+
 ## 2. The exact A5 coefficient witness
 
 Work first over F4=F2[w]/(w^2+w+1). Enumerate A5 as the even permutations

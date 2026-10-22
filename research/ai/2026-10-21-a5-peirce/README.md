@@ -56,3 +56,11 @@ finite-field convolution implementations. Same-session replay is not
 independent mathematical review. The initial pilot's representation-order
 error is preserved in `initial-pilot.log`; the producer now measures the
 two restricted image dimensions before choosing their roles.
+
+The validation receipt records 822 test IDs across four complete module
+groups: 819 passed in the maintained environment, and three optional
+numerical controls also passed in the existing discovery environment.
+Five focused tests cover the exact witness and corruption guards. All
+five historical experiments replay; all 18 tracked historical archive
+files match the source base. Mathematical review status remains written
+and unreviewed after these checks.

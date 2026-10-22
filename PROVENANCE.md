@@ -828,4 +828,4 @@ closedness argument are standard, with the earlier modular packages'
 credits retained. The local contribution is the explicit witness and its
 source/target comparison. No historical priority, independent mathematical
 review, formalization, target construction or exponent improvement is
-claimed. The separate eager split-cover timeout remains discovery data.
+claimed.

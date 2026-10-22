@@ -91,6 +91,8 @@ def verify_cover(records, multiplication):
 
 
 def verify(certificate):
+    if certificate['coefficient_field'] != 'F2[w]/(w^2+w+1)':
+        raise ValueError('wrong coefficient field')
     points, multiplication, inverse = alternating_group()
     if certificate['group_elements'] != [list(p) for p in points]:
         raise ValueError('wrong source group indexing')
@@ -156,7 +158,8 @@ def verify(certificate):
             denominator += atom_weight
             for leg, label in enumerate(labels):
                 margins[leg][label] += atom_weight
-    if denominator != 122688 or any(row != margins[0] for row in margins):
+    if (denominator != 122688 or denominator != certificate['probability_denominator']
+            or any(row != margins[0] for row in margins)):
         raise ValueError('wrong rational distribution or unequal marginals')
     if margins != certificate['marginal_counts']:
         raise ValueError('saved entropy marginals are incorrect')
