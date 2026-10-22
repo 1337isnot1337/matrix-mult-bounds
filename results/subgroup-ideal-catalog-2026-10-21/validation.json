@@ -1,0 +1,95 @@
+{
+  "python": "3.14.8",
+  "base_commit": "00d51337ddfe581a6e53ff9bc71bb1ece6ad8ee8",
+  "sympy": "1.14.0",
+  "discovery_environment": {
+    "python": "3.14.8",
+    "python-sat": "1.9.dev17",
+    "scipy": "1.18.1",
+    "numpy": "2.5.4"
+  },
+  "catalog_sha256": "1cb973d7d5dafb7958a6007b53a803f768618258548d42ac56e8a1e0e1e66708",
+  "catalog_verification": "verification.json",
+  "historical_archives": {
+    "tracked_files": 18,
+    "comparison": "All tracked files in research/ai/2026-10-20 and research/ai/2026-10-20-session2 equal origin/main byte-for-byte."
+  },
+  "archive_replay": {
+    "status": "passed",
+    "cases": {
+      "profile_exact_grid": 73856,
+      "product_filtration_inequalities": 353664,
+      "binary_search": 12976,
+      "ternary_search": 209692,
+      "random_search": 20000
+    }
+  },
+  "focused_tests": {
+    "status": "passed",
+    "count": 6,
+    "command": "python -m unittest discover -s tests -p test_subgroup_ideal_catalog.py -v"
+  },
+  "full_regression": {
+    "status": "passed",
+    "current_tests": 794,
+    "completed_before_partition": 360,
+    "remaining_tests": 434,
+    "groups": 4,
+    "fixture_boundary": "test module",
+    "initial_command": "python -m unittest discover -s tests -v",
+    "transition": "Sequential process intentionally interrupted after85 complete modules; only uncompleted modules were selected by the existing tools/test_shard.py helper.",
+    "coverage_check": "The four worker assignments are disjoint and equal the434 remaining test IDs.",
+    "reproduce_complete_suite": "python -m unittest discover -s tests -v",
+    "passed_current_tests": 794,
+    "optional_tests_skipped_in_maintained_environment": 3,
+    "optional_tests_passed_in_discovery_environment": 3,
+    "evidence": "regression-evidence.json.gz",
+    "evidence_sha256": "6bf7c996877b4c5f78248789c15735e6146dc9be820325824392bbe35da4b991"
+  },
+  "discovery": {
+    "status": "time-limit",
+    "report": "split-target10.json",
+    "seconds_limit": 600,
+    "elapsed_seconds": 601.2982318240001,
+    "projected_model_events": 34,
+    "exact_parity_cuts": 32,
+    "pair_injective_models": 0,
+    "exact_replay": {
+      "certificates": {
+        "exact-parity": 32
+      },
+      "witness": false,
+      "exponent_improvement": false
+    }
+  },
+  "independent_review": false,
+  "exponent_improvement": false,
+  "initial_test_failure": {
+    "log": "focused-initial.log",
+    "reason": "The new replay-count assertion used the preceding running checkpoint (30) instead of the terminal count (32).",
+    "correction": "Changed the test expectation to the terminal report count32; the certificate and production code were unchanged."
+  },
+  "main_integration": {
+    "base_commit": "b3e36fd4b627a7f00532ce25a21d78da6620c99f",
+    "preserved_claims": 265,
+    "current_test_inventory": 798,
+    "local_tests_passed": 16,
+    "command": "PYTHONPATH=tests python -m unittest -v test_subgroup_ideal_catalog test_s5_block_filtration test_research.RepositoryTests",
+    "log": "main-integration-tests.log.gz",
+    "log_sha256": "bee600c76d7c0f1c23dba2f042b8a265f585cba9b72dddb53be485bf39a280c9",
+    "required_gate": "Complete hosted CI must pass at the integrated PR head before merge."
+  },
+  "subsequent_integrations": [
+    {
+      "base_commit": "f80ebf5d286f9b0ba5e8ea7a741035e4992747ae",
+      "preserved_claims": 269,
+      "current_test_inventory": 807,
+      "local_tests_passed": 21,
+      "command": "PYTHONPATH=tests python -m unittest -v test_subgroup_ideal_catalog test_biform_balanced_puncture test_biform_projective_puncture test_research.RepositoryTests",
+      "log": "biform-integration-tests.log.gz",
+      "log_sha256": "27a2db1909d71bb1483a867a2849aceb12f0a4a361edcdefb1693e11e9bc9104",
+      "required_gate": "Complete hosted CI must pass at the integrated PR head before merge.",
+      "scope_note": "Inherited initial-failure log whitespace is preserved; git diff --check origin/main passes for this PR."
+    }
+  ]
+}
