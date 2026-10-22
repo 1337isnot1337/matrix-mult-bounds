@@ -5,7 +5,7 @@ work. It adopts the earlier canonical source, boundary flags, normal
 coefficient space, auxiliary Mat2 factorization and biform multiplication
 kernel with their original credits and exact source hashes. The complete
 product-kernel argument, explicit shared-factor syzygy classification and
-actual affine-chart incidence calculation are local continuations.
+actual affine and projective incidence calculations are local continuations.
 Elementary matrix units and unique factorization are standard algebra,
 explained in the proof. The known integrable shear retains its separate
 construction credit. This package verifies third-block cancellations,

@@ -179,6 +179,83 @@ cancellation is still only a third-block necessary condition. Later
 coefficients, singular leading flags and projected first ranks one and
 two remain separate questions; this family is not an improving target.
 
+## 5. Complete projective classification
+
+The missing projective cases in Section 4 can be closed with constant
+unit minors as well. Write a general shared factor as
+
+    g=g00*x0*y0+g10*x1*y0+g01*x0*y1+g11*x1*y1.
+
+**Theorem.** For arbitrary nonzero g,l_x,l_y, a non-plane actual normal
+with complete balanced cancellation at the associated two product kernels
+exists if and only if
+
+    g10+g01=0,  g00*g11+g10^2=0.                           (5)
+
+At every incident point the non-plane normal fiber has dimension exactly
+two, and every nonzero such normal has core first rank exactly two.
+There is no exceptional fiber of dimension three or greater. The four
+plane directions can be added independently in the original normal space.
+
+Projectively, (5) is the conic
+
+    g=(r*x0+s*x1)(r*y0-s*y1),  [r:s] in P1.                (6)
+
+Indeed if g00 is nonzero, normalize it to one and use (4). If g00=0,
+(5) forces g10=g01=0, so g is a nonzero multiple of x1*y1. This is the
+r=0 point of (6). There are no other points. The residual linear forms
+l_x,l_y are arbitrary nonzero forms of degrees (1,0),(0,1).
+
+Here is the complete certificate cover. Normalize the first nonzero
+coefficient of g, in the displayed order (00,10,01,11), to one. In affine
+x,y notation this gives four disjoint cases:
+
+    1+c*x+d*y+e*x*y;  x+d*y+e*x*y;  y+e*x*y;  x*y.
+
+Independently, the pair l_x,l_y has four disjoint cases:
+
+    (1+a*x,1+b*y); (x,1+b*y); (1+a*x,y); (x,y).
+
+The sixteen products cover all nonzero projective triples. In each case
+discard the h monomial whose coefficient in g has been normalized to one.
+The other three h monomials give unique representatives modulo Cg.
+Build the same 60-by-6 matrix H as in Section 4. The exported report
+records a minor of determinant +1 or -1 for every case, never an inverse
+of a variable coefficient.
+
+| First nonzero g coefficient | Four residual-form cases |
+| --- | --- |
+| g00 | A five-by-five unit minor; the residual ideal is exactly (c+d,d^2+e) in each case. |
+| g10 | Three five-by-five unit minors with a constant nonzero linear combination of residuals; one six-by-six unit minor. All four cases are empty. |
+| g01 | A six-by-six unit minor in each case. All four cases are empty. |
+| g11 | A five-by-five unit minor in each case, with identically zero residuals. |
+
+For every g00 case the report exports two reverse ideal identities,
+as in Section 4. For each empty five-minor case it exports two residual
+rows whose sum or difference is +1 or -1. Thus the asserted zero loci
+follow from explicit polynomial identities; no generic-rank inference,
+uncertified ideal radical, numerical tolerance, or omitted root is used.
+The six-minor cases are injective immediately.
+
+In every incident case the one-dimensional source-pair kernel reconstructs
+an actual twelve-parameter normal, using a fixed inverse of the constant
+coefficient matrix P. Two identical copies give exactly two non-plane
+normal parameters. The verifier checks all 144 core coefficients of both
+reconstructed basis normals. To certify that the resulting two core
+slices are independent at every parameter value, append their h vectors
+to g in the four-dimensional biform space H^0(O(1,1)). The report's h
+vectors give a three-by-three minor equal to +1 or -1 in every incident
+case. Their classes modulo Cg are therefore independent. The injectivity
+in (2) proves that their matrix images are independent as well.
+
+For g00 cases, the classes are -xy and -x+y+cxy. For g11 cases, they
+are -x+y and 1. This also proves the first-rank assertion throughout the
+projective boundary, including the r=0 point of (6).
+
+This theorem closes only **complete third-block cancellation**. It does
+not decide projected first rank one or two, compatibility of fourth and
+later coefficients, full long-leg ranks, or an actual matrix target.
+
 ## Attribution and proof boundary
 
 The source tensor, canonical flags, normal parameter space, biform bases,

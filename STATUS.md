@@ -5,14 +5,14 @@
 The [balanced-puncture proof](research/ai/2026-10-21-biform-balanced-puncture/proof.md)
 classifies complete cancellation at the 10-by-10 boundary threshold. The
 full auxiliary matrix action forces product quotient kernels; the biform
-syzygy space has dimension at most three. On the complete affine chart
-`g00=lx0=ly0=1`, non-plane actual core cancellations occur exactly for
-`g=(1+c*x)*(1-c*y)`, with arbitrary residual linear forms and a
-two-dimensional normal fiber. A constant unit minor and exact reverse
-ideal identities certify all parameter values in that chart. Five
-focused tests pass. These are written, unreviewed structural results.
-Other charts, projected first ranks one/two and later coefficients remain
-open. No matrix target or exponent improvement is established.
+syzygy space has dimension at most three. The actual core is now
+classified on every projective chart: non-plane cancellations occur
+exactly for `g=(r*x0+s*x1)*(r*y0-s*y1)`, with arbitrary residual linear
+forms and a two-dimensional normal fiber. Sixteen disjoint cases with
+constant unit minors and exact residual identities cover every complex
+parameter value. Nine focused tests pass. These are written, unreviewed
+structural results. Projected first ranks one/two and later coefficients
+remain open. No matrix target or exponent improvement is established.
 
 ## Uniform Hankel caps and dimension refinements
 

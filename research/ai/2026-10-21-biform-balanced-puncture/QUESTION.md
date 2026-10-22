@@ -24,7 +24,13 @@ Every nonzero normal in the resulting two-dimensional fiber has core rank
 two. Five focused tests pass; full regression/replay remain required at
 the final submitted revision.
 
-Next: close the other projective charts or determine whether a nonzero
-projected core of first rank one/two can evade this complete-cancellation
-classification. Higher-order compatibility of the displayed normal family
-is unproved. Do not promote third-block solutions to matrix-target lifts.
+Completed: all projective boundary cases, using sixteen disjoint normalized
+cases. Complete cancellation occurs exactly on the conic of common factors
+g=(r*x0+s*x1)*(r*y0-s*y1), with arbitrary residual linear forms and a
+two-dimensional non-plane normal fiber at every point. Nine focused tests
+pass; the earlier affine result is retained as a separate calibration.
+
+Next: determine whether a nonzero projected core of first rank one/two can
+evade this complete-cancellation classification. Higher-order compatibility
+of the displayed normal family is unproved. Do not promote third-block
+solutions to matrix-target lifts.
