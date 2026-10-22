@@ -1,0 +1,67 @@
+{
+  "source": "F2[S5]",
+  "baseline_path": "results/s5-split-2026-10-21/radical-pilot.json",
+  "baseline_sha256": "a02b0fb34c8cae0d57fd5d9cf2165c8da9a5697bfa1c00bb9e7fe7e063c37421",
+  "central_idempotent_32": "0x191199262266918919666640189918",
+  "block_power_dimensions": [
+    [
+      88,
+      71,
+      62,
+      53,
+      35,
+      26,
+      17,
+      0
+    ],
+    [
+      32,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "block_layers": [
+    [
+      17,
+      9,
+      9,
+      18,
+      9,
+      9,
+      17
+    ],
+    [
+      16,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "comparison": {
+    "principal_parameter": "4/5",
+    "c2_parameter": "1/2",
+    "kappa_cubed": "27/4",
+    "kappa_strict_upper": "189/100",
+    "principal_bound": "785437/10000",
+    "central_factor_upper_bounds": [
+      "1087837/10000",
+      "205601193/1000000",
+      "38858625477/100000000"
+    ],
+    "central_two_bound_strictly_below_389": true,
+    "M20_excluded": true,
+    "M19_not_excluded_by_recorded_upper_bound": true,
+    "split_13_14_14_not_excluded_by_recorded_upper_bound": true
+  },
+  "scope": "Coordinate/potential degenerations only; arbitrary source powers and finite rectangular direct sums are covered by the written argument.",
+  "proof_status": "written proof; unreviewed; not formalized",
+  "improves_omega": false
+}
