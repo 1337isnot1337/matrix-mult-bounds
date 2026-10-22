@@ -30,3 +30,8 @@ The calculation does not give an upper bound for the nonsplit source
 `SL(2,F5)` or its product with C2. Their degeneration to the split source
 has the wrong direction for transferring this upper bound. No exponent
 improvement or independent review is claimed.
+
+Integration with canonical `39378de` preserves all 278 existing claims.
+The combined inventory is 839 tests in 198 modules. All 31 focused
+A5/cube/A4/metadata checks pass, including all eight newly added A4 tests.
+The complete hosted suite on the final combined head is still required.

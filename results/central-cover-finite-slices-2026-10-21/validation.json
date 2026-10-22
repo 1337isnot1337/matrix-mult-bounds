@@ -47,7 +47,14 @@
   },
   "protected_archive_files_unchanged": 18,
   "all_275_prior_claims_preserved": true,
-  "files_sha256": {
+  "exponent_improvement": false,
+  "optional_control_runtime": {
+    "python": "3.14.8",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "pre_integration_tested_commit": "9013472",
+  "pre_integration_files_sha256": {
     "STATUS.md": "198274e7bab3156623ece04dd1e7ccaeef5cc9202eefa9c3130fc108f8b1f4e9",
     "PROVENANCE.md": "88a541fde0aa57098a1a43b16e97fe7a6e9a2f80ba9ba7f9aa2c6864c522d823",
     "docs/research_directions.md": "19db2431fbe92460531add3a9c9f7bf5a4c03839560cf1a904a6df4da6ba22f3",
@@ -62,10 +69,25 @@
     "research/ai/2026-10-21-central-cover-finite-slices/SOURCES.json": "93902f62814a68d70fb0d3f6866841ca00a47f940df41d740268fa71021798e1",
     "research/ai/2026-10-21-central-cover-finite-slices/ACTIVE.md": "e639496f28496c2bdd187634bd41e309a21548a873d7e87482a644ae2df75de4"
   },
-  "exponent_improvement": false,
-  "optional_control_runtime": {
-    "python": "3.14.8",
-    "numpy": "2.5.4",
-    "scipy": "1.18.1"
+  "integration": {
+    "canonical_base": "39378de",
+    "prior_canonical_claims_preserved": 278,
+    "combined_claims": 279,
+    "focused_checks": 31,
+    "seconds": 5.978,
+    "inventory_tests": 839,
+    "inventory_modules": 198,
+    "all_eight_added_test_ids_passed": [
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_all_exact_pencil_certificates_and_regeneration",
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_corrupted_cyclic_relation_bezout_and_scope_are_rejected",
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_source_frame_matches_existing_literal_source",
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_unimodular_interval_controls",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_complete_exact_control_replay",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_false_matrix_rank_and_incomplete_principal_control_are_rejected",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_general_block_bound_is_sharp_on_literal_integer_matrices",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_missing_hypotheses_and_inflated_status_are_rejected"
+    ],
+    "integration_log_sha256": "fa412a22eff63404332bd93b3ea109a60191fd74cffb306fdf8f903e2c940803",
+    "current_head_full_hosted_CI": "required before merge"
   }
 }

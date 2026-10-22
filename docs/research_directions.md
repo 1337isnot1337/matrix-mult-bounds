@@ -279,3 +279,9 @@ the first necessary-test survivors are at a10. A9's square partition
 The next owned algebraic question is equality at that rank. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
+
+The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
+now closes every Laurent order with one regular full-rank long leg and a
+regular invertible source lift of a target identity. Further A4 searches
+must escape at least one of those hypotheses; increasing the other map's
+pole order alone does not suffice. General singular maps remain open.
