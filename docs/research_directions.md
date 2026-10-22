@@ -254,6 +254,12 @@ Koszul screens. Apply its all-power joint-rectangular inequality before
 searching further central-source targets. M19 and the one-central-factor
 M(13,14,14) remain outside that exclusion; their maps are still missing.
 
+For SL(2,F8), the [modular source bound](../research/ai/2026-10-21-sl2-f8-modular/proof.md)
+now constrains every source power and joint rectangular coordinate target.
+It excludes repeated six-packet-plus-M7 assembly in that class, while all 16
+single-target complex-test survivors remain open to this test. The
+M(18,18,25) maps and general complex singular assembly are still missing.
+
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
 
 ## Linear-annihilator frontier update

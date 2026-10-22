@@ -15,6 +15,18 @@ tests, structured restrictions, other characteristics and constructions
 remain open. Claim `AI-CENTRAL-COVER-SLICE-BARRIER-001` is written and
 unreviewed; no smaller exponent is established.
 
+## Modular SL(2,F8) bound across source powers
+
+The [modular source proof](research/ai/2026-10-21-sl2-f8-modular/proof.md)
+constructs an exact 125-dimensional semisimple quotient over F2 and F8,
+certifies a 379-dimensional nilpotent kernel, and separates the 64-dimensional
+central summand. The resulting all-power coordinate/potential slice bound
+is 1035637/2304, below 450. It excludes the joint six M(8,9,9) packets plus
+M7 across source powers, extending the prior one-copy coordinate assembly
+obstruction. All 16 general-test single-matrix survivors remain unexcluded,
+including M(18,18,25). Claim `AI-SL2-F8-MODULAR-001` is written and
+unreviewed; arbitrary complex maps and the exponent goal remain open.
+
 ## Complete subgroup-ideal catalog
 
 The [complete finite catalog](research/ai/2026-10-21-subgroup-ideal-catalog/README.md)

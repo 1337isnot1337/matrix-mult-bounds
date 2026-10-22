@@ -52,5 +52,15 @@
     "sympy": "1.14.0",
     "optional_discovery_numpy": "2.5.4",
     "optional_discovery_scipy": "1.18.1"
+  },
+  "main_integration": {
+    "base_commit": "fd090bd4242bd58488e0ee4d017adad70df7a19d",
+    "preserved_claims": 275,
+    "current_test_inventory": 826,
+    "focused_tests_passed": 15,
+    "command": "PYTHONPATH=tests python -m unittest -v test_a5_tight_barrier test_sl2_f8_modular test_research.RepositoryTests",
+    "log": "f8-integration-tests.log.gz",
+    "sha256": "827fe9c70f318248c827f04889b27d32de13ff4da98739acef9c7d6d4ac28cbe",
+    "required_gate": "Complete hosted CI must pass at the integrated PR head before merge."
   }
 }
