@@ -61,11 +61,14 @@ assignment reconciliation are saved in
 The five historical experiments replay successfully and all 18 tracked
 historical archive files match the base byte for byte.
 
-The later main integration at `b3e36fd` preserves both independent research
+A main integration at `b3e36fd` preserves both independent research
 updates and all 265 claims. Sixteen local integration checks pass,
 covering this catalog, the incoming S5 block tests and repository metadata.
-The integrated inventory has 798 tests; complete current-head hosted CI
-is required before merging the PR.
+That integration's inventory has 798 tests. A subsequent integration of
+`f80ebf5` preserves the biform update and all 269 claims, with 21 focused
+checks passing and an 807-test combined inventory. Complete current-head
+hosted CI is required before merging the PR. The validation receipt keeps
+each integration and its exact local coverage separate.
 
 An initial focused test expected the preceding running checkpoint's 30
 parity contradictions. Its assertion was corrected to the terminal count

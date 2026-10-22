@@ -10,6 +10,18 @@ retains the citations in the prior modular Heisenberg proof. The complex
 rank-locus and full Koszul formulas are reused unchanged. No independent
 review, optimal filtration, historical priority or exponent gain is claimed.
 
+The `2026-10-21-biform-balanced-puncture` package is owner-directed Codex
+work. It adopts the earlier canonical source, boundary flags, normal
+coefficient space, auxiliary Mat2 factorization and biform multiplication
+kernel with their original credits and exact source hashes. The complete
+product-kernel argument, explicit shared-factor syzygy classification and
+actual affine and projective incidence calculations are local continuations.
+Elementary matrix units and unique factorization are standard algebra,
+explained in the proof. The known integrable shear retains its separate
+construction credit. This package verifies third-block cancellations,
+not all later coefficients or a matrix target. No independent review,
+formalization, historical priority or smaller exponent is claimed.
+
 The `2026-10-21-hankel-wronskian-cap` package is same-session AI-derived
 work directed by the repository owner. Its cap inequality is presented as
 a uniform characteristic-zero rederivation, with a self-contained proof and

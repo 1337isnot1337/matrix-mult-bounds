@@ -78,5 +78,18 @@
     "log": "main-integration-tests.log.gz",
     "log_sha256": "bee600c76d7c0f1c23dba2f042b8a265f585cba9b72dddb53be485bf39a280c9",
     "required_gate": "Complete hosted CI must pass at the integrated PR head before merge."
-  }
+  },
+  "subsequent_integrations": [
+    {
+      "base_commit": "f80ebf5d286f9b0ba5e8ea7a741035e4992747ae",
+      "preserved_claims": 269,
+      "current_test_inventory": 807,
+      "local_tests_passed": 21,
+      "command": "PYTHONPATH=tests python -m unittest -v test_subgroup_ideal_catalog test_biform_balanced_puncture test_biform_projective_puncture test_research.RepositoryTests",
+      "log": "biform-integration-tests.log.gz",
+      "log_sha256": "27a2db1909d71bb1483a867a2849aceb12f0a4a361edcdefb1693e11e9bc9104",
+      "required_gate": "Complete hosted CI must pass at the integrated PR head before merge.",
+      "scope_note": "Inherited initial-failure log whitespace is preserved; git diff --check origin/main passes for this PR."
+    }
+  ]
 }

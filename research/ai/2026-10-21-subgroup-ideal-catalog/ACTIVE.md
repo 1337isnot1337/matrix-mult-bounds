@@ -47,6 +47,12 @@ before merge; the branch now integrates that S5 block-filtration result,
 preserves all 265 claims, and passes 16 local integration checks. The
 combined inventory is 798 tests. Wait for the integrated head's full CI
 and merge through the normal repository rules.
+
+The `a94c09e` integrated head also passed all hosted checks. PR94 then
+advanced main to `f80ebf5`; the second base integration preserves all
+269 claims and passes 21 focused checks. Its inventory is 807 tests.
+Enable normal auto-merge at the refreshed head while its required checks
+run, avoiding an unnecessary polling gap after success.
 No target construction or smaller exponent is established.
 
 The neighboring S5 worktree has active `coset_ideals.py` changes. Leave that
