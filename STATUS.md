@@ -1,5 +1,29 @@
 # Research status
 
+## Regular unit charts and full-source calibrations
+
+The [unit-chart proof](research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
+excludes A4 to M(10,10,11) at every Laurent order when one long map is
+regular with full-rank limit and a target identity has a regular source
+lift with invertible limiting slice. The other long map and remaining
+first-map coefficients may have arbitrary finite poles. Regularized
+correction products have rank at most two; the source minimum rank 16
+eliminates first-map poles and then forces 100 dimensions into at most 98.
+Claim `AI-CYCLIC-REGULAR-UNIT-003` is written and unreviewed. Singular
+long-leg limits and singular or polar unit lifts remain outside it.
+
+The [integer slice proof](research/ai/2026-10-21-cyclic-slice-determinants/proof.md)
+gives a literal unimodular full-rank slice of A_a for every a>=1 and every
+field. At a=2,3,4, exact Krylov/Bezout certificates prove the full source
+determinant is reduced over C; its submaximal minors have no nonconstant
+common divisor. Normalized slice commutators also attain full rank in
+those sizes. These calibration facts reject two proposed full-source invariant
+premises. They do not exclude matrix targets or factor arguments after
+compression or leading-flag restriction. Claims `AI-CYCLIC-UNIMODULAR-001`
+and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed.
+The general singular A4 target and exponent question remain open.
+
+
 ## Characteristic-two source-cost barrier for the central covers
 
 The [A5 tight-limit certificate](research/ai/2026-10-21-a5-peirce/README.md)
