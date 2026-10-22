@@ -1,0 +1,45 @@
+test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) ... 
+  test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) (g_case=0, line_case=0) ... FAIL
+  test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) (g_case=1, line_case=0) ... FAIL
+  test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) (g_case=2, line_case=0) ... FAIL
+test_complete_disjoint_case_cover_and_saved_generation (test_biform_projective_puncture.ProjectivePunctureTests.test_complete_disjoint_case_cover_and_saved_generation) ... ok
+test_every_projective_normal_family_uses_the_actual_core (test_biform_projective_puncture.ProjectivePunctureTests.test_every_projective_normal_family_uses_the_actual_core) ... ok
+test_homogeneous_conic_equations_and_both_parameter_charts (test_biform_projective_puncture.ProjectivePunctureTests.test_homogeneous_conic_equations_and_both_parameter_charts) ... ok
+
+======================================================================
+FAIL: test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) (g_case=0, line_case=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/cinna/matrix-mult-continuation-20261021/tests/test_biform_projective_puncture.py", line 71, in test_all_unit_minors_reverse_ideals_and_empty_cases
+    replay_case(record)
+  File "/home/cinna/matrix-mult-continuation-20261021/tests/test_biform_projective_puncture.py", line 23, in replay_case
+    assert v.decode(record['syzygies']) == generators
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) (g_case=1, line_case=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/cinna/matrix-mult-continuation-20261021/tests/test_biform_projective_puncture.py", line 71, in test_all_unit_minors_reverse_ideals_and_empty_cases
+    replay_case(record)
+  File "/home/cinna/matrix-mult-continuation-20261021/tests/test_biform_projective_puncture.py", line 23, in replay_case
+    assert v.decode(record['syzygies']) == generators
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_all_unit_minors_reverse_ideals_and_empty_cases (test_biform_projective_puncture.ProjectivePunctureTests.test_all_unit_minors_reverse_ideals_and_empty_cases) (g_case=2, line_case=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/cinna/matrix-mult-continuation-20261021/tests/test_biform_projective_puncture.py", line 71, in test_all_unit_minors_reverse_ideals_and_empty_cases
+    replay_case(record)
+  File "/home/cinna/matrix-mult-continuation-20261021/tests/test_biform_projective_puncture.py", line 23, in replay_case
+    assert v.decode(record['syzygies']) == generators
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.913s
+
+FAILED (failures=3)
