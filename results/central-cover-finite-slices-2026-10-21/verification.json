@@ -1,0 +1,123 @@
+{
+  "source": "F4[A5 x C2]",
+  "basis_rank": 60,
+  "A5_coefficients_checked": 216000,
+  "full_source_principal_terms_by_degree": {
+    "0": 13,
+    "2": 36,
+    "4": 213
+  },
+  "full_source_matrix_terms": 64,
+  "central_support": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "finite_covers": [
+    {
+      "power": 1,
+      "slice_upper_bound": 110,
+      "target_slice_rank": 100,
+      "below_target": false,
+      "one_leg_coordinates_checked": 120,
+      "blocks": [
+        {
+          "principal_factors": 0,
+          "words": 1,
+          "per_word_slices": 32
+        },
+        {
+          "principal_factors": 1,
+          "words": 1,
+          "per_word_slices": 78
+        }
+      ]
+    },
+    {
+      "power": 2,
+      "slice_upper_bound": 10120,
+      "target_slice_rank": 10000,
+      "below_target": false,
+      "one_leg_coordinates_checked": 14400,
+      "blocks": [
+        {
+          "principal_factors": 0,
+          "words": 1,
+          "per_word_slices": 768
+        },
+        {
+          "principal_factors": 1,
+          "words": 2,
+          "per_word_slices": 2240
+        },
+        {
+          "principal_factors": 2,
+          "words": 1,
+          "per_word_slices": 4872
+        }
+      ]
+    },
+    {
+      "power": 3,
+      "slice_upper_bound": 973422,
+      "target_slice_rank": 1000000,
+      "below_target": true,
+      "one_leg_coordinates_checked": 1728000,
+      "blocks": [
+        {
+          "principal_factors": 0,
+          "words": 1,
+          "per_word_slices": 24576
+        },
+        {
+          "principal_factors": 1,
+          "words": 3,
+          "per_word_slices": 65024
+        },
+        {
+          "principal_factors": 2,
+          "words": 3,
+          "per_word_slices": 140928
+        },
+        {
+          "principal_factors": 3,
+          "words": 1,
+          "per_word_slices": 330990
+        }
+      ]
+    }
+  ],
+  "cube_gap": 26578,
+  "rectangular_volume_upper_bound": 986,
+  "excluded_rectangular_examples": [
+    [
+      10,
+      10,
+      10
+    ],
+    [
+      9,
+      10,
+      11
+    ]
+  ],
+  "scope": "Excludes every M(a,b,c) with abc >= 987 from this split source by characteristic-two degeneration, and coefficient-one coordinate/potential constructions over C. Does not exclude general complex degenerations or targets from the nonsplit central covers.",
+  "exponent_improvement": false
+}

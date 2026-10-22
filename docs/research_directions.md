@@ -233,19 +233,25 @@ Read the current claim ledger, open issues, and active branches before selecting
 
 The [complete central-cover subgroup catalog](../research/ai/2026-10-21-subgroup-ideal-catalog/README.md)
 now supplies every inclusion-minimal subgroup-ideal coset cut for the
-three specified targets. In the split cover, use its new noncyclic
-order-four and order-six cuts together with the prior order-five cuts.
-Further subgroup enumeration or new cyclic classes in these same sources
-cannot add a minimal cut for these targets. A stronger necessary condition
-or a construction outside the surviving coordinate class is still needed.
+three specified targets. Further subgroup enumeration or new cyclic
+classes in these same sources cannot add a minimal cut for these targets.
+The [finite cube certificate](../research/ai/2026-10-21-central-cover-finite-slices/proof.md)
+now forces abc<=986 for every one-copy coefficient-one coordinate/potential
+single target in the split cover A5 x C2, excluding M10 and M(9,10,11).
+Do not continue those split-cover searches in that class. A construction
+with general complex input mixing or a different source/power remains a
+separate question. The nonsplit covers
+still need a construction or a stronger obstruction.
 
 The [characteristic-two cost barrier](../research/ai/2026-10-21-a5-peirce/proof.md)
 now limits the global asymptotic slice-rank approach for these same three
 central-cover targets. Its explicit tight limit gives source costs above
 their M10 and M(13,13,15) comparison thresholds. Refining an eventual
 global characteristic-two source-power slice-rank upper bound cannot
-cross those thresholds. Finite-power tests, map-specific restrictions,
-other characteristics and actual constructions remain separate questions.
+cross those thresholds. The separate finite cube exclusion uses a
+finite dip below the target threshold, not a better asymptotic cost.
+Map-specific restrictions, other characteristics and actual constructions
+outside its stated class remain separate questions.
 
 The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)
 excludes coordinate/potential constructions of M20 and M(19,20,21) in
