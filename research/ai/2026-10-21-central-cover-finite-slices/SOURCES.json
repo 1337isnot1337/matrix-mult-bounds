@@ -1,0 +1,29 @@
+{
+  "external": [
+    {
+      "id": "DSP16-FLANDERS",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "author": "Clement de Seguins Pazzis",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "version": "arXiv v2, April 20, 2016",
+      "inspected": "Section 1.1 arbitrary-field convention and Theorem 1.1, pages 1-4",
+      "use": "A linear space of m-by-m matrices of upper rank r has dimension at most mr, over every field. The local proof reduces finite SR(M_m)=m^2 to this external theorem.",
+      "credit": "Flanders's bounded-rank dimension theorem; Meshulam's removal of the field-size restriction, as credited in this primary generalization. No use of equality-case classification."
+    }
+  ],
+  "local": [
+    {
+      "base_commit": "be66e0f3f14364afde6a56d055ce2c5a90dae754",
+      "path": "research/ai/2026-10-21-a5-peirce/",
+      "use": "Previously certified explicit F4 basis and maintained finite-field convolution primitives. The current verifier independently checks full-source block separation and degree bounds; the prior leading limit is not used for the upper bound."
+    },
+    {
+      "base_commit": "be66e0f3f14364afde6a56d055ce2c5a90dae754",
+      "path": "research/ai/2026-10-21-s5-block-filtration/",
+      "use": "Prior separately weighted algebra-block counting and coefficient-one characteristic-two transfer, with its existing external credits retained. The current finite cutoffs are proved directly and are not an asymptotic extrapolation."
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

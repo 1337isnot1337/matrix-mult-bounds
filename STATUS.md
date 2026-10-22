@@ -1,5 +1,20 @@
 # Research status
 
+## Finite cube bounds split-cover coordinate target volume
+
+The [full-source cube certificate](research/ai/2026-10-21-central-cover-finite-slices/proof.md)
+gives a characteristic-two slice cover of 973422 for `(A5 x C2)^3`, below
+the exact finite slice rank 1000000 of M1000. Cyclic symmetry gives the
+single-target volume bound abc<=986. It excludes the maintained one-copy
+coefficient-one coordinate/potential M10 and M(9,10,11) constructions in
+the split cover. The verifier checks all 216000 A5 coefficients and enumerates
+all 1728000 one-leg cube coordinates. A direct argument from the external
+arbitrary-field bounded-rank matrix-space theorem supplies the target
+lower bound. Claim `AI-SPLIT-COVER-CUBE-EXCLUSION-001` is written and
+unreviewed. General complex degenerations, the nonsplit central covers,
+and constructions from arbitrary higher powers remain open. No smaller
+exponent is established.
+
 ## Regular unit charts and full-source calibrations
 
 The [unit-chart proof](research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
@@ -34,9 +49,10 @@ in characteristic two: above 517/5 for A5 x C2 and SL(2,F5), and above
 976613/5000 for SL(2,F5) x C2. An explicit central-cover limit transfers
 the certificate to both covers. These values exceed the selected M10
 and cyclic M(13,13,15) comparison thresholds, so eventual global source
-slice-rank bounds of this kind cannot close those targets. Finite-power
-tests, structured restrictions, other characteristics and constructions
-remain open. Claim `AI-CENTRAL-COVER-SLICE-BARRIER-001` is written and
+slice-rank bounds of this kind cannot close those targets. This barrier
+alone leaves finite-power tests and constructions undecided; the separate
+cube result above now closes the one-copy split-cover coordinate class.
+Claim `AI-CENTRAL-COVER-SLICE-BARRIER-001` is written and
 unreviewed; no smaller exponent is established.
 
 ## Modular SL(2,F8) bound across source powers

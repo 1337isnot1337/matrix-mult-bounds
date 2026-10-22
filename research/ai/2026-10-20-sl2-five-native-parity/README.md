@@ -109,6 +109,12 @@ against its full translation orbit and check disjoint complete coverage.
 
 ## A constructive continuation on the split cover
 
+Subsequent result: the [full-source cube exclusion](../2026-10-21-central-cover-finite-slices/proof.md)
+closes this one-copy coefficient-one coordinate/potential M10 search.
+The source accounting and historical runs below remain valid, but their
+surviving search space is now excluded by a different argument. General
+complex degenerations are outside that exclusion.
+
 `split_source.py` builds PSL(2,5) x C2 from the same explicitly computed
 quotient group. The reused rational class-algebra routine derives quotient
 degrees 1,3,3,4,5 from central idempotents; the direct C2 factor gives two
