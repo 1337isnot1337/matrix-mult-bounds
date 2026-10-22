@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-21-sl2-f8-modular` package is owner-directed Codex work.
+It reuses the maintained exact SL(2,F8) group and polynomial field model.
+The explicit natural, Frobenius-tensor and projective-line module witnesses,
+kernel powers, central idempotent and left-generator replay are local
+calculations. The standard algebra, bit-permutation routing and modular
+slice method are not claimed as historical novelties. Petrov, Sawin and
+the previously credited field-independent tight-support target theorem
+retain their attribution. PR84 retains credit for the conditional packet
+sum and its earlier assembly obstructions; PR93 supplies the local blockwise
+counting argument. No independent review, optimality or exponent gain is
+claimed.
+
 The `2026-10-21-coupled-boundary-rank-two` package is owner-directed Codex
 work. It adopts the canonical first-normal system, boundary quotient maps
 and prior complete biform family with exact byte pins and existing credits.
