@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The balanced-gap continuation studies
+`ai/2026-10-21-balanced-puncture-gap/QUESTION.md`. A written complex
+matrix-space proof establishes a sharp zero-or-three gap under balanced
+two-dimensional quotients, importing the classical Kronecker form for
+constant-rank-two pencils. Low projected first rank in the actual
+28-dimensional boundary-compatible family now forces the complete
+cancellation classified in PR94. Next: the coupled nonzero rank-two
+boundary obstruction pair outside that family, then later compatibility.
+Six focused tests pass. The exponent remains 9/4; all proofs unreviewed.
+
 The balanced-puncture continuation studies
 `ai/2026-10-21-biform-balanced-puncture/QUESTION.md`, from main 00d5133.
 Complete third-block cancellation now forces auxiliary product kernels

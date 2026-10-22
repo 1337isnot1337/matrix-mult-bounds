@@ -1,5 +1,20 @@
 # Research status
 
+## A gap for balanced two-dimensional boundary quotients
+
+The [gap proof](research/ai/2026-10-21-balanced-puncture-gap/proof.md)
+shows that a complex rank-one-free matrix space of dimension at least
+two, amplified by Mat2 and quotiented by kernels of size at most two
+on each leg, leaves first dimension zero or at least three. The bound
+is sharp. Its constant-rank-two reduction imports the classical complex
+Kronecker form, with the rank cases and quotient arguments supplied.
+Within the actual 28-dimensional boundary normal family, low first rank
+at most two therefore forces complete cancellation, whose projective
+survivors were already classified. The coupled boundary obstruction pair
+of ranks two/two outside that family remains open. Six focused tests and
+the registered 423801-pair finite pilot retain separate scopes. The proofs
+are written and unreviewed; no matrix target or smaller exponent.
+
 ## Blockwise modular bounds for S5 central sources
 
 The [central-block proof](research/ai/2026-10-21-s5-block-filtration/proof.md)

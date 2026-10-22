@@ -1,0 +1,1114 @@
+{
+  "canonical_pencils": [
+    {
+      "name": "L2",
+      "matrix": {
+        "shape": [
+          2,
+          3
+        ],
+        "entries": [
+          [
+            0,
+            0,
+            "s"
+          ],
+          [
+            0,
+            1,
+            "t"
+          ],
+          [
+            1,
+            1,
+            "s"
+          ],
+          [
+            1,
+            2,
+            "t"
+          ]
+        ]
+      },
+      "rank_lower_minor_witnesses": {
+        "s": {
+          "rows": [
+            0,
+            1
+          ],
+          "columns": [
+            0,
+            1
+          ],
+          "determinant": "s**2"
+        },
+        "t": {
+          "rows": [
+            0,
+            1
+          ],
+          "columns": [
+            1,
+            2
+          ],
+          "determinant": "t**2"
+        }
+      },
+      "rank_upper_three_minors_checked": 0,
+      "all_nonzero_complex_members_rank": 2
+    },
+    {
+      "name": "L2_transpose",
+      "matrix": {
+        "shape": [
+          3,
+          2
+        ],
+        "entries": [
+          [
+            0,
+            0,
+            "s"
+          ],
+          [
+            1,
+            0,
+            "t"
+          ],
+          [
+            1,
+            1,
+            "s"
+          ],
+          [
+            2,
+            1,
+            "t"
+          ]
+        ]
+      },
+      "rank_lower_minor_witnesses": {
+        "s": {
+          "rows": [
+            0,
+            1
+          ],
+          "columns": [
+            0,
+            1
+          ],
+          "determinant": "s**2"
+        },
+        "t": {
+          "rows": [
+            1,
+            2
+          ],
+          "columns": [
+            0,
+            1
+          ],
+          "determinant": "t**2"
+        }
+      },
+      "rank_upper_three_minors_checked": 0,
+      "all_nonzero_complex_members_rank": 2
+    },
+    {
+      "name": "L1_plus_L1",
+      "matrix": {
+        "shape": [
+          2,
+          4
+        ],
+        "entries": [
+          [
+            0,
+            0,
+            "s"
+          ],
+          [
+            0,
+            1,
+            "t"
+          ],
+          [
+            1,
+            2,
+            "s"
+          ],
+          [
+            1,
+            3,
+            "t"
+          ]
+        ]
+      },
+      "rank_lower_minor_witnesses": {
+        "s": {
+          "rows": [
+            0,
+            1
+          ],
+          "columns": [
+            0,
+            2
+          ],
+          "determinant": "s**2"
+        },
+        "t": {
+          "rows": [
+            0,
+            1
+          ],
+          "columns": [
+            1,
+            3
+          ],
+          "determinant": "t**2"
+        }
+      },
+      "rank_upper_three_minors_checked": 0,
+      "all_nonzero_complex_members_rank": 2
+    },
+    {
+      "name": "L1T_plus_L1T",
+      "matrix": {
+        "shape": [
+          4,
+          2
+        ],
+        "entries": [
+          [
+            0,
+            0,
+            "s"
+          ],
+          [
+            1,
+            0,
+            "t"
+          ],
+          [
+            2,
+            1,
+            "s"
+          ],
+          [
+            3,
+            1,
+            "t"
+          ]
+        ]
+      },
+      "rank_lower_minor_witnesses": {
+        "s": {
+          "rows": [
+            0,
+            2
+          ],
+          "columns": [
+            0,
+            1
+          ],
+          "determinant": "s**2"
+        },
+        "t": {
+          "rows": [
+            1,
+            3
+          ],
+          "columns": [
+            0,
+            1
+          ],
+          "determinant": "t**2"
+        }
+      },
+      "rank_upper_three_minors_checked": 0,
+      "all_nonzero_complex_members_rank": 2
+    },
+    {
+      "name": "L1_plus_L1T_as_skew",
+      "matrix": {
+        "shape": [
+          3,
+          3
+        ],
+        "entries": [
+          [
+            0,
+            1,
+            "s"
+          ],
+          [
+            0,
+            2,
+            "t"
+          ],
+          [
+            1,
+            0,
+            "-s"
+          ],
+          [
+            2,
+            0,
+            "-t"
+          ]
+        ]
+      },
+      "rank_lower_minor_witnesses": {
+        "s": {
+          "rows": [
+            0,
+            1
+          ],
+          "columns": [
+            0,
+            1
+          ],
+          "determinant": "s**2"
+        },
+        "t": {
+          "rows": [
+            0,
+            2
+          ],
+          "columns": [
+            0,
+            2
+          ],
+          "determinant": "t**2"
+        }
+      },
+      "rank_upper_three_minors_checked": 1,
+      "all_nonzero_complex_members_rank": 2
+    }
+  ],
+  "sharpness_and_hypothesis_controls": [
+    {
+      "name": "sharp_three_L2",
+      "matrix_basis": [
+        {
+          "shape": [
+            2,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              1,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              2,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        1,
+        3
+      ],
+      "column_kernel": [
+        0,
+        2
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              1,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": [
+            [
+              1,
+              2,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              3,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            4
+          ],
+          "entries": []
+        }
+      ],
+      "projected_first_dimension": 3
+    },
+    {
+      "name": "skew_complete_cancellation",
+      "matrix_basis": [
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              0,
+              "-1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              0,
+              "-1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        0,
+        1
+      ],
+      "column_kernel": [
+        0,
+        1
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        }
+      ],
+      "projected_first_dimension": 0
+    },
+    {
+      "name": "skew_sharp_four",
+      "matrix_basis": [
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              0,
+              "-1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              2,
+              "1"
+            ],
+            [
+              2,
+              0,
+              "-1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        0,
+        1
+      ],
+      "column_kernel": [
+        0,
+        2
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "-1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              1,
+              0,
+              "-1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              2,
+              0,
+              "-1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              3,
+              0,
+              "-1"
+            ]
+          ]
+        }
+      ],
+      "projected_first_dimension": 4
+    },
+    {
+      "name": "dimension_one_rank_three_counterexample",
+      "matrix_basis": [
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              1,
+              "1"
+            ],
+            [
+              2,
+              2,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        0,
+        2
+      ],
+      "column_kernel": [
+        4,
+        5
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              2,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              3,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "projected_first_dimension": 2
+    },
+    {
+      "name": "rank_four_auxiliary_lower_bound_sharp",
+      "matrix_basis": [
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              1,
+              "1"
+            ],
+            [
+              2,
+              2,
+              "1"
+            ],
+            [
+              3,
+              3,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        0,
+        2
+      ],
+      "column_kernel": [
+        4,
+        6
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "entries": [
+            [
+              2,
+              4,
+              "1"
+            ],
+            [
+              4,
+              5,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              2,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            6,
+            6
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              1,
+              3,
+              "1"
+            ],
+            [
+              3,
+              4,
+              "1"
+            ],
+            [
+              5,
+              5,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "projected_first_dimension": 3
+    },
+    {
+      "name": "rank_one_exclusion_is_essential",
+      "matrix_basis": [
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            3,
+            3
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        0,
+        2
+      ],
+      "column_kernel": [
+        0,
+        2
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            4,
+            4
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "projected_first_dimension": 2
+    },
+    {
+      "name": "real_constant_rank_two_counterexample",
+      "matrix_basis": [
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              1,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "-1"
+            ],
+            [
+              1,
+              0,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "row_kernel": [
+        1,
+        3
+      ],
+      "column_kernel": [
+        1,
+        3
+      ],
+      "projected_matrices": [
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": [
+            [
+              0,
+              0,
+              "1"
+            ],
+            [
+              1,
+              1,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": [
+            [
+              0,
+              1,
+              "-1"
+            ],
+            [
+              1,
+              0,
+              "1"
+            ]
+          ]
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": []
+        },
+        {
+          "shape": [
+            2,
+            2
+          ],
+          "entries": []
+        }
+      ],
+      "projected_first_dimension": 2
+    }
+  ],
+  "complex_field_required": true,
+  "real_counterexample_determinant": "s**2 + t**2",
+  "scope": "Finite exact controls for a written proof using the external complex Kronecker theorem; no formal verification or improved exponent."
+}

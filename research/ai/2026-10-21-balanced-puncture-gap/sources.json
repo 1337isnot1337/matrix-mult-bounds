@@ -1,0 +1,36 @@
+{
+  "base_commit": "83cc8a1c8625f2ff27792793de592cfabbda8074",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-biform-third-core/proof.md",
+      "sha256": "7234fce9e82a02dc8b372950fc4ab915e161bcd169449bd46058a1eecc9a9dbb"
+    },
+    {
+      "path": "research/ai/2026-10-21-biform-balanced-puncture/proof.md",
+      "sha256": "627be930136fc5d78fb281619a713fce4fbbd3ebc3f581bc4a1aa26e77faf84f"
+    },
+    {
+      "path": "results/biform-third-core-2026-10-21/structure.json",
+      "sha256": "96a0d4ebf1f4f309324e850a58a9e0d8b25713658d5be6e97fbb27bc9bce7149"
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "NETLIB-KCF-2000",
+      "title": "Templates for the Solution of Algebraic Eigenvalue Problems, Singular Matrix Pencils: Kronecker Canonical Form",
+      "url": "https://netlib.org/utk/people/JackDongarra/etemplates/node309.html",
+      "page_timestamp": "2000-11-20",
+      "inspected_utc": "2026-10-22",
+      "fetched_sha256": "54a02ca8c29266410752eeb9160a7b582cdcef395a95ed403f8844f633211ec7",
+      "field": "complex numbers",
+      "hypotheses": "Arbitrary rectangular complex matrix pencil A-lambda*B, with projective homogenization to include infinity.",
+      "imported_statement": "Strict equivalence decomposes a complex pencil into finite/infinite regular blocks and right/left singular Kronecker blocks Lj and LjT.",
+      "proof_rebuilt_locally": false,
+      "external_rights_retained": true
+    }
+  ],
+  "origin": "Owner-directed Codex work; elementary rank-case deductions are local; Kronecker canonical form is external classical input.",
+  "independent_review": false,
+  "improves_omega": false,
+  "initial_research_base": "e804f27e1fc645b099749aa7e99117c7384c1b9d"
+}

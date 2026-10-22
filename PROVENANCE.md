@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-21-balanced-puncture-gap` package is owner-directed Codex
+work. The complex Kronecker canonical form is external classical input,
+inspected in the Netlib book chapter with its field hypotheses and fetched
+hash recorded. That theorem's proof is not rebuilt. The elementary rank
+cases, quotient arguments and biform application are local deductions;
+the canonical source and previous conic classification retain their
+credits. The registered binary pilot is finite discovery evidence and
+does not prove the arbitrary-complex-subspace theorem. No independent
+review, formalization, historical priority or exponent gain is claimed.
+
 The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
 It adopts the prior exact S5 modules, radical certificate and its independent
 convolution verifier with their original credit. The central idempotent,
