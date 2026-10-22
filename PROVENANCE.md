@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
+work using the maintained literal cyclic convolution source and its open
+singular target. The interval-block proof and finite Krylov/Bezout and
+commutator witnesses are local work. Standard unimodular row operations,
+cyclic-vector linear algebra, Gauss's lemma and the reducedness criterion
+are used with explicit hypotheses, without a historical priority claim.
+No target construction, degeneration exclusion, independent mathematical
+review or exponent improvement is claimed.
+
 The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
 It adopts the prior exact S5 modules, radical certificate and its independent
 convolution verifier with their original credit. The central idempotent,

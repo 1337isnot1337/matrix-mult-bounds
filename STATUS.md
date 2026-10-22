@@ -1,5 +1,18 @@
 # Research status
 
+## Global cyclic-source determinant calibrations
+
+The [integer slice proof](research/ai/2026-10-21-cyclic-slice-determinants/proof.md)
+gives a literal unimodular full-rank slice of A_a for every a>=1 and every
+field. At a=2,3,4, exact Krylov/Bezout certificates prove the full source
+determinant is reduced over C; its submaximal minors have no nonconstant
+common divisor. Normalized slice commutators also attain full rank in
+those sizes. These facts reject two proposed full-source invariant
+premises. They do not exclude matrix targets or factor arguments after
+compression or leading-flag restriction. Claims `AI-CYCLIC-UNIMODULAR-001`
+and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed;
+the singular A4 target and the exponent question remain open.
+
 ## Blockwise modular bounds for S5 central sources
 
 The [central-block proof](research/ai/2026-10-21-s5-block-filtration/proof.md)
