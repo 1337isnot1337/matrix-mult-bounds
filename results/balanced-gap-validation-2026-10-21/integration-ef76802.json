@@ -1,0 +1,21 @@
+{
+  "scope": "Targeted checks after integrating current main. Full-suite/archive receipts retain their exact87cffd0 scope.",
+  "prior_tested_head": "87cffd0000db460da9a39978c743dbb4e0604db0",
+  "integrated_main": "ef76802bcbe47adf3076ddcba6a34e8ff221089c",
+  "checks": {
+    "incoming_catalog": {
+      "tests": 6,
+      "status": "passed",
+      "log": "results/balanced-gap-validation-2026-10-21/catalog-after-ef76802.txt",
+      "sha256": "6629c0702742f9c2905aa106f5800638ff88ad457becd7aebc7618581f039b7b"
+    },
+    "metadata": {
+      "tests": 18,
+      "status": "passed",
+      "log": "results/balanced-gap-validation-2026-10-21/metadata-after-ef76802.txt",
+      "sha256": "5880e3228258c9b40131f4c3c9ee5953c91d10c96c05732c1779df3afce2a145"
+    }
+  },
+  "both_historical_archives_unchanged": true,
+  "improves_omega": false
+}

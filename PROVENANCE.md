@@ -798,3 +798,17 @@ contains2 by exact replay; it is not inferred from a finite graph sample.
 This written exclusion has no independent mathematical review or exponent
 gain. The finite exceptional set is not asserted to equal the coefficient
 poles, and discovery phase symmetries retain their unaccepted status.
+
+## Complete subgroup-ideal catalog
+
+The complete subgroup enumeration, completeness replay, inclusion-minimal
+cut catalog and split-cover search adapter in
+`research/ai/2026-10-21-subgroup-ideal-catalog/` were developed in this
+owner-directed Codex session. They reuse the exact central-cover source
+tables and `AI-SUBGROUP-IDEAL-027` subgroup-averaging implication at base
+`00d51337ddfe581a6e53ff9bc71bb1ece6ad8ee8`, retaining credit for the existing
+integer-annihilator and modular-rank verifier. The new noncyclic source
+applications and finite completeness result have no independent
+mathematical review or historical-priority claim. Optional SAT/LP runs
+are discovery only; accepted witnesses and contradictions require exact
+replay. No target construction or improved exponent is established.
