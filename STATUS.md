@@ -1,5 +1,18 @@
 # Research status
 
+## Blockwise modular bounds for S5 central sources
+
+The [central-block proof](research/ai/2026-10-21-s5-block-filtration/proof.md)
+splits F2[S5] into exact 88- and 32-dimensional blocks and counts their
+radical flags separately. It gives an all-power, joint-rectangular bound
+for coordinate/potential constructions in S5 x C2^r. In particular the
+source with two central factors has asymptotic slice rank below 389.
+This excludes M(20,20,20) and M(19,20,21), two formats which pass the
+existing complex rank-locus and every full Koszul test. The M19 and
+one-factor M(13,14,14) targets remain unconstructed and unexcluded by this
+bound. Claim `AI-S5-BLOCK-FILTRATION-001` is written and unreviewed;
+arbitrary complex maps remain open and no smaller exponent is established.
+
 ## Uniform Hankel caps and dimension refinements
 
 The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)

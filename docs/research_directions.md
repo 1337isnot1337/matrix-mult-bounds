@@ -231,6 +231,13 @@ formats after the new full-space Koszul exclusions.
 
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
+The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)
+excludes coordinate/potential constructions of M20 and M(19,20,21) in
+S5 x C2^2, despite their passing the general complex rank-locus and full
+Koszul screens. Apply its all-power joint-rectangular inequality before
+searching further central-source targets. M19 and the one-central-factor
+M(13,14,14) remain outside that exclusion; their maps are still missing.
+
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
 
 ## Linear-annihilator frontier update
