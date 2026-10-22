@@ -1,0 +1,116 @@
+{
+  "known_projection_and_signs_accepted": true,
+  "induced_rows_checked": 3,
+  "weighted_control": {
+    "shape": [
+      3,
+      3,
+      3
+    ],
+    "intended_terms": 27,
+    "extra_relations": 1,
+    "minimum_extra_weight": 1,
+    "verified": true,
+    "meaning": "Exact group products, three injective pair maps, zero intended weights and strictly positive extra weights. No exponent claim is part of this verifier."
+  },
+  "verified_subgroup_catalog": {
+    "group": "PSL(2,5) x C2",
+    "target_shape": [
+      10,
+      10,
+      10
+    ],
+    "subgroups": 164,
+    "conjugacy_classes": 22,
+    "minimal_cosets_per_leg": [
+      754,
+      754,
+      754
+    ],
+    "minimal_classes_per_leg": [
+      [
+        {
+          "order": 2,
+          "ideal_dimension": 60,
+          "cosets": 60
+        },
+        {
+          "order": 4,
+          "ideal_dimension": 84,
+          "cosets": 150
+        },
+        {
+          "order": 5,
+          "ideal_dimension": 88,
+          "cosets": 144
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 76,
+          "cosets": 200
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 84,
+          "cosets": 200
+        }
+      ],
+      [
+        {
+          "order": 2,
+          "ideal_dimension": 60,
+          "cosets": 60
+        },
+        {
+          "order": 4,
+          "ideal_dimension": 84,
+          "cosets": 150
+        },
+        {
+          "order": 5,
+          "ideal_dimension": 88,
+          "cosets": 144
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 76,
+          "cosets": 200
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 84,
+          "cosets": 200
+        }
+      ],
+      [
+        {
+          "order": 2,
+          "ideal_dimension": 60,
+          "cosets": 60
+        },
+        {
+          "order": 4,
+          "ideal_dimension": 84,
+          "cosets": 150
+        },
+        {
+          "order": 5,
+          "ideal_dimension": 88,
+          "cosets": 144
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 76,
+          "cosets": 200
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 84,
+          "cosets": 200
+        }
+      ]
+    ]
+  },
+  "catalog_sha256": "1cb973d7d5dafb7958a6007b53a803f768618258548d42ac56e8a1e0e1e66708",
+  "common_ideal_dimension_upper_bound": 88
+}

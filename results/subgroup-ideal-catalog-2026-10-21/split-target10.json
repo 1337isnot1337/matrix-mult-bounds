@@ -1,0 +1,329 @@
+{
+  "group": "PSL(2,5) x C2",
+  "shape": [
+    10,
+    10,
+    10
+  ],
+  "encoding": {
+    "variables": 3516,
+    "clauses": 21345,
+    "projected_order": 60,
+    "inverse_classes": 37,
+    "subgroup_order": 12,
+    "subgroup_index": 5,
+    "abelian_fiber_cuts": null,
+    "reused_parity_templates": {
+      "maximum_core_support": 18,
+      "reused_specific_cuts": 52,
+      "template_triples": 126,
+      "pattern_flags": 165,
+      "right_translation_trigger_clauses": 9720,
+      "additional_clauses": 9898
+    },
+    "identity_fiber_lower": [
+      2,
+      2,
+      2
+    ],
+    "complete_pair_capacity": {
+      "triple_patterns": 577,
+      "covered_triples": 34220,
+      "pattern_flags": 1731,
+      "clauses": 104391
+    },
+    "subgroup_ideal": {
+      "dimension": 88,
+      "coset_clauses": 2262
+    }
+  },
+  "source_and_normalization": {
+    "group": "PSL(2,5) x C2",
+    "projected_order": 60,
+    "inverse_class_fiber_counts": {
+      "1": 0,
+      "2": 37
+    },
+    "subgroup_order": 24,
+    "subgroup_index": 5,
+    "subgroup_members": [
+      0,
+      1,
+      2,
+      3,
+      12,
+      13,
+      34,
+      35,
+      42,
+      43,
+      58,
+      59,
+      66,
+      67,
+      70,
+      71,
+      84,
+      85,
+      92,
+      93,
+      108,
+      109,
+      116,
+      117
+    ],
+    "projected_subgroup": [
+      0,
+      1,
+      6,
+      17,
+      21,
+      29,
+      33,
+      35,
+      42,
+      46,
+      54,
+      58
+    ],
+    "first_pair_anchor_disjunction": [
+      1,
+      17
+    ],
+    "anchor_coverage": [
+      {
+        "projected_quotient": 1,
+        "conjugator": 0,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 6,
+        "conjugator": 42,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 17,
+        "conjugator": 0,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 21,
+        "conjugator": 2,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 29,
+        "conjugator": 12,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 33,
+        "conjugator": 42,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 35,
+        "conjugator": 34,
+        "reverse_pair": false,
+        "anchor": 1
+      },
+      {
+        "projected_quotient": 42,
+        "conjugator": 0,
+        "reverse_pair": true,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 46,
+        "conjugator": 2,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 54,
+        "conjugator": 12,
+        "reverse_pair": false,
+        "anchor": 17
+      },
+      {
+        "projected_quotient": 58,
+        "conjugator": 42,
+        "reverse_pair": true,
+        "anchor": 17
+      }
+    ],
+    "complex_degrees": [
+      1,
+      3,
+      3,
+      4,
+      5,
+      1,
+      3,
+      3,
+      4,
+      5
+    ],
+    "source_certificate_sha256": "c2874f3202297479afa6fd11d6070e94658e931780f7ec2ab16480691ee95e61",
+    "conditional_gate": {
+      "shape": [
+        10,
+        10,
+        10
+      ],
+      "tau": "2247/1000",
+      "scale": 10000000000,
+      "source_term_upper_numerators": [
+        10000000001,
+        118056922903,
+        118056922903,
+        225335076306,
+        372036542596,
+        10000000001,
+        118056922903,
+        118056922903,
+        225335076306,
+        372036542596
+      ],
+      "source_upper_numerator": 1686970929418,
+      "target_lower_numerator": 1766037820686,
+      "strict_positive_margin_numerator": 79066891268,
+      "meaning": "Conditional comparison only. No degeneration supplied."
+    },
+    "exponent_improvement": false
+  },
+  "seconds_limit": 600.0,
+  "projected_model_events": 34,
+  "learned_parity_rows": 3159,
+  "exact_parity_cuts": 32,
+  "exact_pair_capacity_cuts": 0,
+  "pair_capacity_enabled": false,
+  "reused_sources": [
+    {
+      "report": "results/subgroup-ideal-2026-10-21/split-target10.json",
+      "report_sha256": "19631f9a9d01861459b5d643af1638ed7a79e2900277b5770ab322e252fbce59",
+      "cut_file": "results/subgroup-ideal-2026-10-21/split-target10.cuts.jsonl.gz",
+      "cut_sha256": "2c1db65a1ebb99bdd43a0210dd0ca22f8879ed90ceffd787969fcd46396ca674",
+      "exact_parity_cuts": 52
+    }
+  ],
+  "pair_injective_models": 0,
+  "exact_farkas_cuts": 0,
+  "status": "time-limit",
+  "witness": null,
+  "exponent_improvement": false,
+  "scope": "Bounded discovery; model events need not have distinct projections. Untraced solver negatives are not exclusions.",
+  "elapsed_seconds": 601.2982318240001,
+  "sat_statistics": {
+    "restarts": 64399,
+    "conflicts": 3919962,
+    "decisions": 11363312,
+    "propagations": 579901223
+  },
+  "verified_subgroup_catalog": {
+    "group": "PSL(2,5) x C2",
+    "target_shape": [
+      10,
+      10,
+      10
+    ],
+    "subgroups": 164,
+    "conjugacy_classes": 22,
+    "minimal_cosets_per_leg": [
+      754,
+      754,
+      754
+    ],
+    "minimal_classes_per_leg": [
+      [
+        {
+          "order": 2,
+          "ideal_dimension": 60,
+          "cosets": 60
+        },
+        {
+          "order": 4,
+          "ideal_dimension": 84,
+          "cosets": 150
+        },
+        {
+          "order": 5,
+          "ideal_dimension": 88,
+          "cosets": 144
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 76,
+          "cosets": 200
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 84,
+          "cosets": 200
+        }
+      ],
+      [
+        {
+          "order": 2,
+          "ideal_dimension": 60,
+          "cosets": 60
+        },
+        {
+          "order": 4,
+          "ideal_dimension": 84,
+          "cosets": 150
+        },
+        {
+          "order": 5,
+          "ideal_dimension": 88,
+          "cosets": 144
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 76,
+          "cosets": 200
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 84,
+          "cosets": 200
+        }
+      ],
+      [
+        {
+          "order": 2,
+          "ideal_dimension": 60,
+          "cosets": 60
+        },
+        {
+          "order": 4,
+          "ideal_dimension": 84,
+          "cosets": 150
+        },
+        {
+          "order": 5,
+          "ideal_dimension": 88,
+          "cosets": 144
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 76,
+          "cosets": 200
+        },
+        {
+          "order": 6,
+          "ideal_dimension": 84,
+          "cosets": 200
+        }
+      ]
+    ]
+  },
+  "catalog_sha256": "1cb973d7d5dafb7958a6007b53a803f768618258548d42ac56e8a1e0e1e66708",
+  "common_ideal_dimension_upper_bound": 88
+}
