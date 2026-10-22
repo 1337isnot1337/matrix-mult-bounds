@@ -1,0 +1,35 @@
+{
+  "base_commit": "ca4ea3bb89689d08d570af521c6b780c6606de99",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/normal_directions.py",
+      "sha256": "443d82bf94901e210b694966dbf4d0d69fdb35f0c715bd9f75b088223818f689"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/minimum_rank.py",
+      "sha256": "3e06a8915eb016a239bfd2701d990bd5ee1e9c81e7c1d09b8a9f551565b6e60e"
+    },
+    {
+      "path": "research/ai/2026-10-21-quantum-extension-spaces/extensions.py",
+      "sha256": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c"
+    },
+    {
+      "path": "results/third-boundary-trap-2026-10-21/normal.json",
+      "sha256": "ab8cd86fe7df43b075011cfa00da73d6cdb03ff66d053192382c9a5ee6bc71a4"
+    },
+    {
+      "path": "research/ai/2026-10-21-balanced-puncture-gap/proof.md",
+      "sha256": "eaf48fc21753580a665f456c1d1bddaeb6ccb3f5f7b202cdb28c2ad1a0033334"
+    },
+    {
+      "path": "research/ai/2026-10-21-biform-balanced-puncture/proof.md",
+      "sha256": "627be930136fc5d78fb281619a713fce4fbbd3ebc3f581bc4a1aa26e77faf84f"
+    }
+  ],
+  "external_inputs": "No new external theorem for the cubic implication. The separately credited gap theorem imports the classical complex Kronecker form.",
+  "scope": "The complete canonical first-normal model and its credited third-gap necessary conditions; no all-order target exclusion.",
+  "independent_review": false,
+  "improves_omega": false,
+  "dependency_scope": "SHA-256 pins identify the submitted dependency bytes; base_commit identifies the starting checkout. The gap theorem is part of this same contribution.",
+  "canonical_base_main": "f80ebf5d286f9b0ba5e8ea7a741035e4992747ae"
+}
