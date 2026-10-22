@@ -49,5 +49,9 @@ use deterministic gzip with zero modification time. No ignored local
 script or discovery report is a maintained dependency.
 
 Claims: `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002`, and
-`AI-CONIC-POLYNOMIAL-JET-003`. Full validation receipts are added after
-the combined regression and archive replay complete.
+`AI-CONIC-POLYNOMIAL-JET-003`. Validation at `db312b03197d36096808c3b3806b5ac8efbdb88a` completed840
+tests:837 passed and3 optional controls skipped. All five archive replays
+passed. Integration of main `d833eb0` preserves this package and both
+archives unchanged; its five incoming tests and18 metadata tests pass.
+Exact commits, tree, commands and logs are in the dated results directory.
+Hosted CI separately verifies the final combined head.
