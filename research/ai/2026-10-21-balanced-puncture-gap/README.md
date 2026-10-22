@@ -16,10 +16,11 @@ hypotheses, inspected source and fetched hash. Its proof is not rebuilt.
 Within the actual 28-dimensional boundary-compatible normal family of the
 preceding biform packages, projected first rank at most two now forces
 complete cancellation. Its surviving normals therefore have the conic
-shared factor already classified in PR94. The separate boundary
-obstruction pair can still have ranks two/two outside that family; the
-general 10-by10 first-boundary case remains open. Later compatibility,
-full matrix slice space and an exponent improvement remain unproved.
+shared factor already classified in PR 94. The companion coupled cubic
+proof now supplies entry into that family from both boundary obstruction
+ranks being at most two. Later compatibility, an all-order 10-by 10
+conclusion, the separate 12-by-8 case, the full matrix slice space and an
+exponent improvement remain unproved.
 
 Six focused tests replay five canonical-pencil certificates, seven
 sharpness/hypothesis controls, all 651 rational lifts of binary kernels,

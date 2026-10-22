@@ -109,7 +109,7 @@ a pencil is a direct sum of regular blocks and singular blocks L_j or
 their transposes, where L_j has size j by j+1 and constant projective
 rank j. Every nonzero regular block loses rank at some complex projective
 parameter. The source is the Netlib book chapter
-[Kronecker Canonical Form](https://netlib.org/utk/people/JackDongarra/etemplates/node309.html),
+[Kronecker Canonical Form](https://netlib.org/utk/people/JackDongarra/etemplates/node 309.html),
 whose complex-matrix hypotheses and regular/singular block definitions
 were inspected and whose fetched bytes are pinned in sources.json.
 
@@ -124,7 +124,7 @@ These classical normal forms are external input. The gap arguments for
 their amplified quotients follow below. The mixed last form is equivalent,
 by row/column permutations and signs, to the skew pencil
 
-    [[0,s,t],[-s,0,0],[-t,0,0]].                          (2)
+    [[0,s,t],[-s,0, 0],[-t,0, 0]].                          (2)
 
 ## 5. The unbalanced pencil cases leave dimension at least three
 
@@ -211,16 +211,18 @@ describes all its low-first-rank survivors, rather than only its zero
 survivors. They have the conic common factor and two-dimensional non-plane
 normal fibers proved there.
 
-This does not force a general 10-by10 first-boundary pair into the
-28-dimensional normal family: both separate boundary obstruction matrices
-can still have rank two. Nor does it prove compatibility of later
-coefficients or construct the full matrix slice space. Those are distinct
-unresolved steps. The exponent remains 9/4.
+The gap theorem alone does not force a general 10-by 10 first-boundary pair
+into this normal family. The companion
+[coupled cubic proof](../2026-10-21-coupled-boundary-rank-two/proof.md)
+now supplies that prerequisite in the stated normal model: both boundary
+obstructions having rank at most two forces both to vanish. Compatibility
+of later coefficients, the separate 12-by-8 case and the full matrix slice
+space remain unresolved. The exponent remains 9/4.
 
 ## Discovery, attribution and verification limits
 
 The registered pilot checked all 423801 ordered binary RREF kernel pairs
-for the skew pencil. Its image dimensions over F2 were 0,4,5,6,7,8;
+for the skew pencil. Its image dimensions over F2 were 0, 4, 5, 6, 7, 8;
 the only dimension-at-most-two candidate replayed as zero over Q. The
 positive rank-one control produced dimension two as required. This finite
 screen suggested the gap, but none of the arbitrary-complex-subspace

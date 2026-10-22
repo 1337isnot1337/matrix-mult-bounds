@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-21-coupled-boundary-rank-two` package is owner-directed Codex
+work. It adopts the canonical first-normal system, boundary quotient maps
+and prior complete biform family with exact byte pins and existing credits.
+The joint cubic-minor reduction, all-parameter certificate and explicit
+normal basis identification are local continuations. The application
+imports the separately written balanced gap and projective classification;
+their external sources retain their credits. A coordinate discovery pilot
+is preserved separately from the universal polynomial implication.
+No independent review, formalization, historical priority or exponent
+improvement is claimed.
+
 The `2026-10-21-balanced-puncture-gap` package is owner-directed Codex
 work. The complex Kronecker canonical form is external classical input,
 inspected in the Netlib book chapter with its field hypotheses and fetched

@@ -1,7 +1,7 @@
 # Can a balanced projection leave first dimension one or two?
 
 Base: e804f27, after the complete projective cancellation classification
-submitted in PR94. This is a separate discovery branch, not a new theorem.
+submitted in PR 94. This is a separate discovery branch, not a new theorem.
 
 Question: for the rank-one-free skew pencil Z=span(E01-E10,E02-E20),
 can two-dimensional kernels on each six-dimensional amplified matrix leg
@@ -28,9 +28,11 @@ its elementary rank cases and canonical quotient arguments are supplied.
 Six focused tests pass, including sharpness and essential-hypothesis
 controls. This is written and unreviewed, not formalized.
 
-Next: the pure-boundary 10-by10 problem need not start in the 28-dimensional
-boundary-compatible normal family. Classify simultaneous left/right
-boundary obstruction matrices of ranks at most two, especially their
-coupled nonzero rank-two case. The gap theorem now settles low projected
-core dimensions inside that family. Higher-order construction remains
-open and no smaller exponent is established.
+Completed in the companion coupled-boundary package: simultaneous left
+and right boundary obstruction ranks at most two force both complete
+matrices to vanish. The exact cubic certificate reduces 228 parameters to
+the prior 28-dimensional family and identifies its basis coefficientwise.
+
+Next: higher-order compatibility of the conic non-plane normal survivors
+and the separate 12-by-8 case. A first-normal classification does not
+establish a full matrix-target lift or a smaller exponent.

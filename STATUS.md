@@ -1,5 +1,19 @@
 # Research status
 
+## Complete coupled boundary rank-two reduction
+
+The [coupled cubic proof](research/ai/2026-10-21-coupled-boundary-rank-two/proof.md)
+shows that both canonical boundary obstruction matrices have rank at most
+two precisely when both are zero. Its 232 universal determinant identities
+reduce the normal dimensions 228 to 96, 56, 32 and 28. An invertible
+coefficient transformation identifies the final space with the complete
+biform normal family. Combined with the sharp balanced gap and prior
+projective classification, this gives the necessary conic classification
+for non-plane balanced boundary normals under the credited third-gap
+conditions. Four focused tests pass. Later compatibility, an all-order
+10-by-10 conclusion, the separate 12-by-8 case and a matrix target remain
+open. These proofs are written and unreviewed; the exponent remains 9/4.
+
 ## A gap for balanced two-dimensional boundary quotients
 
 The [gap proof](research/ai/2026-10-21-balanced-puncture-gap/proof.md)
@@ -10,8 +24,8 @@ is sharp. Its constant-rank-two reduction imports the classical complex
 Kronecker form, with the rank cases and quotient arguments supplied.
 Within the actual 28-dimensional boundary normal family, low first rank
 at most two therefore forces complete cancellation, whose projective
-survivors were already classified. The coupled boundary obstruction pair
-of ranks two/two outside that family remains open. Six focused tests and
+survivors were already classified. The coupled cubic proof now supplies
+entry into that family from the two rank bounds. Six focused tests and
 the registered 423801-pair finite pilot retain separate scopes. The proofs
 are written and unreviewed; no matrix target or smaller exponent.
 
