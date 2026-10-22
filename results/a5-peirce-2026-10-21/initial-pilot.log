@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/cinna/matrix-mult-a5-peirce-20261021/research/ai/2026-10-21-a5-peirce/pilot.py", line 126, in <module>
+    report = run()
+  File "/home/cinna/matrix-mult-a5-peirce-20261021/research/ai/2026-10-21-a5-peirce/pilot.py", line 64, in run
+    value = mul(mul(remaining, preimage(slot)), remaining)
+                               ~~~~~~~~^^^^^^
+  File "/home/cinna/matrix-mult-a5-peirce-20261021/research/ai/2026-10-21-s5-block-filtration/discovery/peirce.py", line 37, in solve
+    raise ValueError('not in image')
+ValueError: not in image

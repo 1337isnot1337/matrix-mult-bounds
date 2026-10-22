@@ -1,5 +1,20 @@
 # Research status
 
+## Characteristic-two source-cost barrier for the central covers
+
+The [A5 tight-limit certificate](research/ai/2026-10-21-a5-peirce/README.md)
+checks an explicit basis and all 216,000 source coefficients, giving a
+tight 277-term limit. A rational distribution and integer entropy
+comparison prove a written lower barrier for asymptotic slice-rank costs
+in characteristic two: above 517/5 for A5 x C2 and SL(2,F5), and above
+976613/5000 for SL(2,F5) x C2. An explicit central-cover limit transfers
+the certificate to both covers. These values exceed the selected M10
+and cyclic M(13,13,15) comparison thresholds, so eventual global source
+slice-rank bounds of this kind cannot close those targets. Finite-power
+tests, structured restrictions, other characteristics and constructions
+remain open. Claim `AI-CENTRAL-COVER-SLICE-BARRIER-001` is written and
+unreviewed; no smaller exponent is established.
+
 ## Modular SL(2,F8) bound across source powers
 
 The [modular source proof](research/ai/2026-10-21-sl2-f8-modular/proof.md)

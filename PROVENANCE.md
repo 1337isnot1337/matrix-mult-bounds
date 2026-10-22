@@ -824,3 +824,20 @@ applications and finite completeness result have no independent
 mathematical review or historical-priority claim. Optional SAT/LP runs
 are discovery only; accepted witnesses and contradictions require exact
 replay. No target construction or improved exponent is established.
+
+## A5 tight limit and characteristic-two source-cost barrier
+
+The explicit F4 basis, loop change, tightness weights and rational
+entropy certificate in `research/ai/2026-10-21-a5-peirce/` were developed
+in this owner-directed Codex session. The discovery programs reuse PR93's
+alternate A5 radical pilot and bit-algebra helpers with credit. Acceptance
+reconstructs all group coefficients in a separate standard-library
+implementation and does not rely on those unreviewed pilots or numerical
+optimizers. Strassen's tight-support entropy theorem is external, as
+stated in CVZ19 and in the field-independent hypergraph formulation of
+AVZ20. The central augmentation filtration and proper Grassmannian
+closedness argument are standard, with the earlier modular packages'
+credits retained. The local contribution is the explicit witness and its
+source/target comparison. No historical priority, independent mathematical
+review, formalization, target construction or exponent improvement is
+claimed.

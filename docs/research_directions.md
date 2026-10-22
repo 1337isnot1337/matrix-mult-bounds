@@ -239,6 +239,14 @@ Further subgroup enumeration or new cyclic classes in these same sources
 cannot add a minimal cut for these targets. A stronger necessary condition
 or a construction outside the surviving coordinate class is still needed.
 
+The [characteristic-two cost barrier](../research/ai/2026-10-21-a5-peirce/proof.md)
+now limits the global asymptotic slice-rank approach for these same three
+central-cover targets. Its explicit tight limit gives source costs above
+their M10 and M(13,13,15) comparison thresholds. Refining an eventual
+global characteristic-two source-power slice-rank upper bound cannot
+cross those thresholds. Finite-power tests, map-specific restrictions,
+other characteristics and actual constructions remain separate questions.
+
 The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)
 excludes coordinate/potential constructions of M20 and M(19,20,21) in
 S5 x C2^2, despite their passing the general complex rank-locus and full
