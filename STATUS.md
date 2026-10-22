@@ -1,5 +1,22 @@
 # Research status
 
+## Complete subgroup-ideal catalog
+
+The [complete finite catalog](research/ai/2026-10-21-subgroup-ideal-catalog/README.md)
+certifies all 455 subgroups in 65 conjugacy classes of the three active
+central-cover sources. Integer annihilators and matching modular ranks
+give every averaging-ideal dimension. In PSL(2,5) x C2, noncyclic
+order-four and order-six subgroups add 550 minimal forbidden cosets per
+leg of M10 beyond central pairs and the earlier five-cycle cuts.
+The other two specified targets have no additional minimal subgroup
+coset cuts. This is completeness for a finite necessary-condition method,
+not exclusion of the targets. The weighted 3-by-3 control passes. A new
+600-second search reached 34 model events and 32 replayed parity
+contradictions with no pair-injective lift; it ended at its time limit.
+Claims `EXP-SUBGROUP-IDEAL-CATALOG-001`
+and `AI-SPLIT-NONCYCLIC-COSETS-001` remain finite or written and unreviewed.
+Arbitrary complex maps and the exponent below 9/4 remain open.
+
 ## Uniform Hankel caps and dimension refinements
 
 The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)

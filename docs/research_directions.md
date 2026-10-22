@@ -231,6 +231,14 @@ formats after the new full-space Koszul exclusions.
 
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 
+The [complete central-cover subgroup catalog](../research/ai/2026-10-21-subgroup-ideal-catalog/README.md)
+now supplies every inclusion-minimal subgroup-ideal coset cut for the
+three specified targets. In the split cover, use its new noncyclic
+order-four and order-six cuts together with the prior order-five cuts.
+Further subgroup enumeration or new cyclic classes in these same sources
+cannot add a minimal cut for these targets. A stronger necessary condition
+or a construction outside the surviving coordinate class is still needed.
+
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
 
 ## Linear-annihilator frontier update
