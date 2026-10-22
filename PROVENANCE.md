@@ -6,8 +6,11 @@ singular target. The interval-block proof and finite Krylov/Bezout and
 commutator witnesses are local work. Standard unimodular row operations,
 cyclic-vector linear algebra, Gauss's lemma and the reducedness criterion
 are used with explicit hypotheses, without a historical priority claim.
-No target construction, degeneration exclusion, independent mathematical
-review or exponent improvement is claimed.
+The unit-chart continuation adopts the existing all-source minimum slice
+ranks and supplies a local formal normalization and leading-coefficient
+rank argument. Its low-pole exclusion retains the stated regular-unit and
+full-rank-long-leg hypotheses. No target construction, general degeneration
+exclusion, independent mathematical review or exponent improvement is claimed.
 
 The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
 It adopts the prior exact S5 modules, radical certificate and its independent

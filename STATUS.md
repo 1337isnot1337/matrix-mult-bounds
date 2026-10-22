@@ -1,6 +1,16 @@
 # Research status
 
-## Global cyclic-source determinant calibrations
+## Low-pole unit charts and full-source calibrations
+
+The [unit-chart proof](research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
+excludes A4 to M(10,10,11) when one long map is regular with full-rank
+limit, the other has pole order at most five, and a target identity has a
+regular source lift with invertible limiting slice. Arbitrary first-map
+poles and all higher regular coefficients are allowed. In exact unit
+normalization the principal images must span at least11 dimensions, so a
+fixed principal image of dimension at most10 is excluded at every order.
+Claim `AI-CYCLIC-UNITAL-LOW-POLES-003` is written and unreviewed. Singular
+unit lifts, long-leg limits that lose rank and higher poles remain open.
 
 The [integer slice proof](research/ai/2026-10-21-cyclic-slice-determinants/proof.md)
 gives a literal unimodular full-rank slice of A_a for every a>=1 and every
@@ -10,8 +20,8 @@ common divisor. Normalized slice commutators also attain full rank in
 those sizes. These facts reject two proposed full-source invariant
 premises. They do not exclude matrix targets or factor arguments after
 compression or leading-flag restriction. Claims `AI-CYCLIC-UNIMODULAR-001`
-and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed;
-the singular A4 target and the exponent question remain open.
+and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed.
+The general singular A4 target and exponent question remain open.
 
 ## Complete subgroup-ideal catalog
 
