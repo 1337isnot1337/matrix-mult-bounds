@@ -1,5 +1,25 @@
 # Integrated research coordination
 
+The coupled-boundary continuation studies
+`ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
+boundary obstruction ranks at most two force both complete matrices to
+vanish, by 232 cubic identities reducing 228 parameters to the prior
+28-dimensional family. The balanced gap and projective conic certificate
+then classify non-plane low-first-rank normals in the credited model.
+Next: higher-order compatibility of that conic family, with the separate
+12-by8 case kept distinct. Four focused tests pass. No smaller exponent.
+
+The balanced-gap continuation studies
+`ai/2026-10-21-balanced-puncture-gap/QUESTION.md`. A written complex
+matrix-space proof establishes a sharp zero-or-three gap under balanced
+two-dimensional quotients, importing the classical Kronecker form for
+constant-rank-two pencils. Low projected first rank in the actual
+28-dimensional boundary-compatible family now forces the complete
+cancellation classified in PR94. The companion coupled cubic package now
+supplies the prerequisite from simultaneous rank bounds; later
+compatibility remains open.
+Six focused tests pass. The exponent remains 9/4; all proofs unreviewed.
+
 The balanced-puncture continuation studies
 `ai/2026-10-21-biform-balanced-puncture/QUESTION.md`, from main 00d5133.
 Complete third-block cancellation now forces auxiliary product kernels
