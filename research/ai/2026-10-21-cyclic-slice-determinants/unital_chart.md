@@ -1,6 +1,6 @@
-# A low-pole obstruction with a regular invertible unit lift
+# An all-order obstruction with a regular invertible unit lift
 
-October 21, 2026. Claim `AI-CYCLIC-UNITAL-LOW-POLES-003` is a written,
+October 21, 2026. Claim `AI-CYCLIC-REGULAR-UNIT-003` is a written,
 unreviewed argument. No general degeneration or smaller exponent is proved.
 
 ## A4 statement
@@ -14,31 +14,24 @@ by 110. Assume:
 1. C(t) is regular at zero and C(0) has rank 110.
 2. For the target first-leg identity I10, the source lift
    u(t)=F(t)(I10) is regular, and its source slice at zero is invertible.
-3. B(t) is Laurent with pole order at most five.
 
-All other first-leg coefficients may have arbitrary finite Laurent poles.
-Every higher regular coefficient of all maps is allowed. The asserted
-tensor identity is M(10,10,11)+O(t), so every unwanted negative and constant
-coefficient must vanish.
+No such degeneration exists. B(t) and all other first-leg coefficients
+may have arbitrary finite Laurent poles. Every higher regular coefficient
+of every map is allowed. The assertion is the complete tensor identity
+M(10,10,11)+O(t), including every unwanted negative and constant coefficient.
+The result also holds after exchanging the two long legs. It assumes no
+canonical source leading flag or particular choice of invertible source unit.
 
-No such degeneration exists. The result also holds after exchanging the
-two long legs. It does not assume a canonical source leading flag or a
-particular invertible source unit.
-
-In an exact unit normalization described below, the stronger necessary
-condition is that the images of the negative long-map coefficients span
-at least 11 dimensions. Thus a fixed principal image of dimension at most 10
-is excluded at every Laurent order. The order-six conclusion follows
-because each negative coefficient has only two free columns.
-
-The hypotheses are material. A construction can escape by making the
-regular long-leg limit lose rank, by having a singular or polar source
-lift of every chosen target unit, or by using the larger principal image
-and higher Laurent order. None of those cases is excluded here.
+The two hypotheses are material. A construction can escape by making
+both long-leg limits singular, or by having a singular or polar source
+lift of the chosen target identity. No such cases are excluded here.
 
 ## Source and target rank data
 
 Use the maintained [cyclic source matrix](../2026-10-20-koszul/cyclic_finite_target.md).
+The adopted convention and minimum-rank proof are pinned at main fd090bd4,
+Sections 2-3 of that file. Here minimum slice rank means the minimum ordinary
+matrix rank after contracting one tensor leg.
 For A_a, every nonzero slice on every leg has rank at least a^2, with
 equality at a coordinate slice. The original proof exhibits a triangular
 a^2-by-a^2 minor: select a nonzero middle coefficient, then the largest
@@ -46,13 +39,26 @@ nonzero two short indices; every diagonal entry is that nonzero scalar.
 It works over every field. Leg symmetry gives the other two minima.
 
 Thus A4 has source dimensions 112 and minimum slice ranks 16 on its first
-and row legs. The target first-leg slice matrix is X tensor I11, for a
-10-by10 matrix X. Every nonzero such slice has rank at least 11, and the
-target first-leg parameter space has dimension 100.
+and row legs. The target first-leg slice is X tensor I11, for a 10-by10
+matrix X. Every nonzero such slice has rank at least 11, a rank-one X
+attains 11, and the target first-leg parameter space has dimension 100.
 
 The [unimodular slice](proof.md) supplies a concrete invertible source unit.
 It does not prove that every degeneration has a regular invertible lift
-of a target unit. The present statement assumes that property explicitly.
+of a target identity. The present statement assumes that property.
+
+## A rank fact for a regularized product
+
+Let L(t) and Y(t) be matrices over the Laurent field, with inner dimension
+k. Their product has rank at most k. If t^r L(t)Y(t) is regular for some
+integer r, its constant coefficient also has rank at most k: all its
+(k+1)-by-(k+1) minors vanish over the Laurent field, and hence vanish at
+zero after regularization.
+
+Regularity here is essential. A raw constant coefficient of a product
+with remaining negative powers can have rank greater than k. The finite
+controls explicitly exhibit this distinction. The argument below proves
+the required regularity before applying the rank bound.
 
 ## Normalized rank lemma
 
@@ -67,69 +73,58 @@ Let F(t):E -> A be any Laurent linear map such that
     B(t) M_t(F(t)(x)) C = Xi(x)+O(t),     x in E.        (2)
 
 Assume Xi is concise on E, with dim E=D, and every nonzero Xi(x) has
-rank at least nu. Suppose the principal part of L is nonempty, and let
+rank at least nu. Suppose L has a nonempty principal part. If
 
-    V=span of the images of all negative coefficients of L,
-    d=dim V.
-
-If
-
-    d<nu,             mu_A>d+2k-1,                     (3)
+    mu_A>3k,                  nu>k,                    (3)
 
 then F(t) is regular and
 
     D <= dim A-mu_B+k.                                 (4)
 
-The source family is allowed to vary regularly. This is needed for the
-regular changes of source frame used later; the two rank hypotheses are
-imposed on its limiting tensor only.
+The source family may vary regularly. This is needed for the source frame
+changes later; the rank hypotheses concern only its limiting tensor.
 
 ### First poles cannot survive
 
-Let L_-s be the nonzero leading negative coefficient, of rank h>=1.
-Suppose F has a pole of order r>0 and choose x such that f=F_-r(x) is
-nonzero. Write
+Suppose F has a pole of order r>0. Choose x such that f=F_-r(x) is
+nonzero. Write the blocks of M_t(F(t)(x)) as Xij(t), in the(R,k) row
+and column decomposition. Their poles have order at most r. Equation(2)
+says
 
-    M_0(f) = [ X11 X12 ],
-             [ X21 X22 ]
+    X11(t)+L(t)X21(t) is regular.
 
-in the(R,k) row and column decomposition. The coefficient at t^(-s-r)
-in(2) is L_-s X21=0. Therefore rank X21<=k-h.
+Consequently t^r L(t)X21(t) is regular and its constant coefficient is
+-X11,-r. The rank fact above gives rank X11,-r<=k. The bottom k rows
+of the first R columns of M_0(f) add at most k to its rank, and the last
+k columns add at most k. Therefore
 
-At t^-r the unmultiplied top block is exactly X11. Every other term
-contains a negative coefficient of L as its left factor. Positive-order
-source coefficients cannot create another unmultiplied block at this
-order, since F has no coefficient below-r. Consequently X11 has image
-in V and rank at most d.
+    rank M_0(f) <= 3k < mu_A,
 
-The first R columns of M_0(f) have rank at most d+k-h. The remaining
-k columns add at most k. Hence
-
-    rank M_0(f) <= d+2k-h <= d+2k-1 < mu_A,
-
-contradicting the source minimum. Thus F is regular.
+contradicting the source minimum. Thus F is regular. This argument makes
+no assumption on the pole order or the coefficient-image span of L.
 
 ### The constant first map must be injective
 
-Now the coefficient at t^-s in(2) gives
+Now X11(t) and X21(t) are regular. Equation(2) implies L(t)X21(t) is
+regular too. If F_0(x)=0, its constant coefficient is Xi(x), since
+X11(0)=0. That coefficient has rank at most k by the rank fact. The
+inequality nu>k and target conciseness then force x=0. Hence F_0 is
+injective.
+
+Let L_-s be the nonzero leading negative coefficient of L. The coefficient
+at t^-s in(2) gives
 
     L_-s X21,0(F_0(x))=0.
 
-Choose any nonzero row covector lambda in the row space of L_-s. The
-image of F_0 lies in the kernel of
+Choose a nonzero covector lambda in the row space of L_-s. The image of
+F_0 lies in the kernel of
 
     A -> row vectors of length R,
     f |-> lambda X21,0(f).                             (5)
 
 This is a nonzero source row contraction, followed by deleting k columns.
-Its rank is at least mu_B-k. The kernel has dimension at most
-dim A-mu_B+k.
-
-If F_0(x)=0, every constant target contribution in(2) has image in V:
-it must come from a negative coefficient of L times higher regular
-coefficients of the source and first map. Such a matrix has rank at
-most d<nu. Target conciseness then forces x=0. Thus F_0 is injective,
-and its image lies in the kernel of(5). This proves(4).
+Its rank is at least mu_B-k, so its kernel has dimension at most
+dim A-mu_B+k. Injectivity of F_0 proves(4).
 
 ## Regular frame and unit normalization
 
@@ -137,69 +132,63 @@ Start with the actual source tensor and maps in the A4 statement. Let
 x_unit=I10 and u(t)=F(t)(x_unit).
 
 Complete the regular nonzero vector u(t) to a regular invertible source
-first-leg frame. In these coordinates its lift is a fixed vector a_unit;
-the source becomes a regular family. Its unit matrix
-S(t)=M_t(a_unit) is regular invertible by hypothesis2. Replace source
-matrices by S(t)^(-1)M_t and replace B(t) by B(t)S(t). The source unit
-is now exactly I_N. All these source changes are regular invertible at
-zero, so the limiting minimum slice ranks stay16. The long-map pole
-order does not increase.
+first-leg frame. Its lift is then a fixed vector a_unit; the source
+becomes a regular family. The unit matrix S(t)=M_t(a_unit) is regular
+invertible by hypothesis2. Replace source matrices by S(t)^(-1)M_t and
+replace B(t) by B(t)S(t). The source unit is now exactly I_N. These source
+changes are regular invertible at zero, so the limiting slice minima stay 16.
 
 The target unit contraction is now
 
     G(t)=B(t)C(t)=I_R+O(t).
 
 It is regular invertible. Multiplying the target row map by G(t)^(-1)
-makes the unit contraction exactly I_R, preserves the target limit, and
-does not increase its pole order.
+makes this contraction exactly I_R and preserves the target limit.
 
 Because C(0) has full column rank, complete C(t) to a regular invertible
-N-byN source frame Q(t). Conjugate the unit-normalized source matrices
-by Q(t), replace B by BQ, and replace C by Q^(-1)C. The latter is the
-fixed inclusion in(1); the unit remains I_N. The other map must have
-the form[I_R,L(t)]. A constant shear preserving that inclusion removes
-L_0, with a further constant source conjugation. This yields(1)-(2).
+N-byN source frame Q(t). Conjugate the normalized source matrices by
+Q(t), replace B by BQ, and replace C by Q^(-1)C. Now C is the fixed
+inclusion in(1) and the unit remains I_N. The other map must be[I_R,L(t)].
+A constant shear preserving that inclusion removes L_0, while conjugating
+the source by a constant invertible matrix. This gives(1)-(2).
 
-Regular invertible source changes preserve the rank minima at zero.
-They can introduce arbitrary higher regular source coefficients, which
-the normalized lemma already allows. In particular no constant-source
-assumption is used incorrectly after this normalization.
-
-If the original long map has pole order at most p, so does L. Each
-negative coefficient is an R-byk matrix. Therefore
-
-    d<=kp.                                            (6)
+All source changes are regular invertible at zero and preserve the two
+rank minima there. They may introduce higher regular source coefficients;
+the normalized lemma explicitly allows that variation. All transformed
+maps remain Laurent with finite principal parts.
 
 ## Substitute the A4 dimensions
 
-Here N=dim A=112, R=110, k=2, D=100, mu_A=mu_B=16 and nu=11.
-For 1<=p<=5, equations(3) follow from
+Here N=dim A=112, R=110, k=2, D=100, mu_A=mu_B=16 and nu=11. Equation(3)
+holds because
 
-    d<=2p<=10<11,
-    16>10+4-1=13.
+    16>3*2=6,                 11>2.
 
-But(4) would say 100<=112-16+2=98, a contradiction. More generally,
-any nonempty principal part with d<=10 gives the same contradiction,
-regardless of its largest pole order.
+If L has a pole, equation(4) would imply
 
-If there is no pole, both long maps are regular of full rank at zero
-after unit normalization. A first-map pole would force a nonzero source
-slice to be killed by the two codimension-two projections, whose total
-rank loss is at most four. This contradicts the source minimum16, so
-the first map is regular too. Every nonzero limiting target slice then
-has rank at least 16-4=12. The actual target has slices of rank 11. This
-is the already maintained ordinary-map obstruction, and handles p=0.
+    100 <= 112-16+2=98,
 
-The symmetric statement follows by exchanging the two long tensor legs.
-The conclusion is a necessary complexity bound inside the stated unit
-chart, not a construction at order six and not a global A4 exclusion.
+which is impossible. This excludes every finite Laurent pole order.
+
+If L is regular, both long maps are regular of full rank at zero after
+unit normalization. A first-map pole would give a nonzero source slice
+killed by two codimension-two projections, whose total rank loss is at
+most four. The source minimum 16 rules it out, so the first map is regular
+too. Every nonzero target slice then has rank at least 16-4=12, whereas
+the target has rank-11 slices. This is the already maintained ordinary-map
+obstruction, and handles the case with no long-map pole.
+
+The symmetric statement follows by exchanging the long tensor legs.
+Any general A4 construction must therefore escape the regular-full-rank
+long-leg plus regular-invertible-unit chart. No escape is constructed here.
 
 ## Verification status and attribution
 
-The proof uses the existing full-source minimum-rank theorem and elementary
-rank loss under projection, formal Laurent coefficients, and regular frame
-completion. Those standard facts are not claimed as new. The normalization
-and this low-pole application are local work without independent review.
-The integer source and target dimensions can be checked separately, and
-explicit block matrices show the leading-rank bound d+2k-h is sharp as a
-linear-algebra estimate. Such finite controls do not formalize the proof.
+The proof uses the existing full-source minimum-rank theorem, elementary
+rank loss under projection, closed bounded matrix-rank loci, formal Laurent
+coefficients and regular frame completion. Those standard facts are not
+claimed as new. The frame argument and this all-order application are local
+work without independent review or formalization. Finite integer block
+controls check the relevant rank budgets and the distinction between a raw
+constant coefficient and a regularized product. They do not formalize the
+all-order proof and supply no matrix target or exponent improvement.

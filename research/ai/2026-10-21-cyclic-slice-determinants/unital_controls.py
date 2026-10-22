@@ -1,4 +1,4 @@
-"""Exact rank-budget controls for the conditional low-pole proof.
+"""Exact rank-budget controls for the conditional all-order unit proof.
 
 These finite matrices check the linear-algebra bounds. They are not tensor
 maps and do not replace the all-order argument in unital_chart.md.
@@ -68,7 +68,7 @@ def constant_image_control():
         value=multiply(L,H)
         constant=[[x+y for x,y in zip(row,other)] for row,other in zip(constant,value)]
     return {'coefficients':coefficients,'constant_coefficient':constant,
-            'scope':'Constant-coefficient rank control only; no complete Laurent tensor map.'}
+            'scope':'Singular Laurent product control; raw constant coefficient alone is not a limit.'}
 
 
 def verify_constant(w):
@@ -83,27 +83,39 @@ def verify_constant(w):
         value=multiply(L,H)
         constant=[[x+y for x,y in zip(r,s)] for r,s in zip(constant,value)]
     if (constant!=w['constant_coefficient'] or rank(constant)!=11 or rank(columns)!=11
-            or w['scope']!='Constant-coefficient rank control only; no complete Laurent tensor map.'):
+            or w['scope']!='Singular Laurent product control; raw constant coefficient alone is not a limit.'):
         raise ValueError('incorrect constant-image rank or scope')
-    return {'principal_image_dimension':11,'constant_coefficient_rank':11,
-            'full_Laurent_map':False}
+    powers={}
+    for left in coefficients:
+        for right in coefficients:
+            exponent=right['negative_order']-left['negative_order']
+            value=multiply(left['L'],right['H'])
+            old=powers.setdefault(exponent,[[0]*12 for unused in range(12)])
+            powers[exponent]=[[x+y for x,y in zip(r,s)] for r,s in zip(old,value)]
+    nonzero=[e for e,M in powers.items() if any(v for row in M for v in row)]
+    generic=[[sum(M[i][j] for M in powers.values()) for j in range(12)] for i in range(12)]
+    if min(nonzero)!=-5 or rank(powers[-5])!=1 or rank(generic)!=2:
+        raise ValueError('singular product or its regularization does not replay')
+    return {'principal_image_dimension':11,'raw_constant_coefficient_rank':11,
+            'inner_dimension':2,'product_pole_order':5,'regularized_constant_rank':1,
+            'remaining_negative_terms':True,'full_Laurent_map':False}
 
 
 def a4_budget():
     return {'source_dimension':112,'source_minimum_first_slice_rank':16,
             'source_minimum_row_slice_rank':16,'target_first_dimension':100,
             'long_dimension':110,'codimension':2,'target_minimum_slice_rank':11,
+            'first_pole_source_rank_ceiling':6,'regular_correction_rank_ceiling':2,
             'first_limit_dimension_ceiling':98,'ordinary_slice_floor':12,
-            'pole_cases':[{'pole_order':p,'principal_image_upper_bound':2*p,
-                           'leading_rank_upper_bound':2*p+3} for p in range(1,6)],
             'requires_regular_full_rank_long_leg':True,
             'requires_regular_invertible_source_unit_lift':True,
-            'conclusion':'Excluded only under the written unit-chart hypotheses.',
+            'all_finite_pole_orders_excluded_under_hypotheses':True,
+            'conclusion':'All-order exclusion only under the written unit-chart hypotheses.',
             'improves_omega':False}
 
 
 def report():
-    return {'sharp_rank_witnesses':[sharp_leading_matrix(10,2,h) for h in (1,2)],
+    return {'sharp_rank_witnesses':[sharp_leading_matrix(2,2,h) for h in (1,2)],
             'constant_image_control':constant_image_control(),'A4_budget':a4_budget(),
             'proof_status':'written; unreviewed','improves_omega':False}
 
@@ -112,17 +124,19 @@ def verify(report):
     if report.get('proof_status')!='written; unreviewed' or report.get('improves_omega') is not False:
         raise ValueError('incorrect mathematical status')
     witnesses=report['sharp_rank_witnesses']
-    if [(w['d'],w['k'],w['h']) for w in witnesses]!=[(10,2,1),(10,2,2)]:
+    if [(w['d'],w['k'],w['h']) for w in witnesses]!=[(2,2,1),(2,2,2)]:
         raise ValueError('incorrect sharpness coverage')
     receipts=[verify_leading(w) for w in witnesses]
     control=verify_constant(report['constant_image_control'])
     if report['A4_budget']!=a4_budget():raise ValueError('incorrect dimensions or missing hypotheses')
-    for p in range(1,6):
-        if not 2*p<11 or not 16>2*p+3:raise ArithmeticError('invalid low-pole budget')
-    if not 100>112-16+2 or not 16-4>11:raise ArithmeticError('invalid dimension or ordinary gap')
+    if not 16>3*2 or not 11>2:
+        raise ArithmeticError('invalid pole or correction rank budget')
+    if not 100>112-16+2 or not 16-4>11:
+        raise ArithmeticError('invalid dimension or ordinary gap')
     return {'sharp_rank_controls':receipts,'constant_image_control':control,
-            'excluded_pole_orders_under_hypotheses':list(range(6)),
+            'excluded_all_finite_pole_orders_under_hypotheses':True,
             'all_A4_degenerations_excluded':False,'improves_omega':False}
+
 
 
 if __name__=='__main__':

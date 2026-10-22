@@ -1,23 +1,23 @@
 # Research status
 
-## Low-pole unit charts and full-source calibrations
+## Regular unit charts and full-source calibrations
 
 The [unit-chart proof](research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
-excludes A4 to M(10,10,11) when one long map is regular with full-rank
-limit, the other has pole order at most five, and a target identity has a
-regular source lift with invertible limiting slice. Arbitrary first-map
-poles and all higher regular coefficients are allowed. In exact unit
-normalization the principal images must span at least11 dimensions, so a
-fixed principal image of dimension at most10 is excluded at every order.
-Claim `AI-CYCLIC-UNITAL-LOW-POLES-003` is written and unreviewed. Singular
-unit lifts, long-leg limits that lose rank and higher poles remain open.
+excludes A4 to M(10,10,11) at every Laurent order when one long map is
+regular with full-rank limit and a target identity has a regular source
+lift with invertible limiting slice. The other long map and remaining
+first-map coefficients may have arbitrary finite poles. Regularized
+correction products have rank at most two; the source minimum rank 16
+eliminates first-map poles and then forces 100 dimensions into at most 98.
+Claim `AI-CYCLIC-REGULAR-UNIT-003` is written and unreviewed. Singular
+long-leg limits and singular or polar unit lifts remain outside it.
 
 The [integer slice proof](research/ai/2026-10-21-cyclic-slice-determinants/proof.md)
 gives a literal unimodular full-rank slice of A_a for every a>=1 and every
 field. At a=2,3,4, exact Krylov/Bezout certificates prove the full source
 determinant is reduced over C; its submaximal minors have no nonconstant
 common divisor. Normalized slice commutators also attain full rank in
-those sizes. These facts reject two proposed full-source invariant
+those sizes. These calibration facts reject two proposed full-source invariant
 premises. They do not exclude matrix targets or factor arguments after
 compression or leading-flag restriction. Claims `AI-CYCLIC-UNIMODULAR-001`
 and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed.

@@ -8,7 +8,7 @@ cyclic-vector linear algebra, Gauss's lemma and the reducedness criterion
 are used with explicit hypotheses, without a historical priority claim.
 The unit-chart continuation adopts the existing all-source minimum slice
 ranks and supplies a local formal normalization and leading-coefficient
-rank argument. Its low-pole exclusion retains the stated regular-unit and
+rank argument. Its all-order exclusion retains the stated regular-unit and
 full-rank-long-leg hypotheses. No target construction, general degeneration
 exclusion, independent mathematical review or exponent improvement is claimed.
 
