@@ -23,8 +23,12 @@ Completed local result: proof.md and the exact central-idempotent certificate
 give a modular upper bound below 389 for S5 x C2^2. It excludes the coordinate
 M20 and M(19,20,21) targets despite their passing all the existing complex
 rank-locus and full Koszul tests. The M19 and one-factor M(13,14,14) targets
-remain open. Four focused tests passed in 19.616 seconds; broader checks and
-the topic PR are still pending. All proofs remain written and unreviewed.
+remain open. The current four focused tests passed in21.652 seconds,
+including false scope/formalization controls. Eighteen metadata tests and
+all five archive replay programs passed. Full-suite and exact-head CI
+results are tracked in PR93:
+https://github.com/1337isnot1337/matrix-mult-bounds/pull/93.
+All proofs remain written and unreviewed.
 
 Discovery limits: the full Peirce trace-support optimization improved the
 88-block estimate only slightly and supplied no extra target exclusion.
