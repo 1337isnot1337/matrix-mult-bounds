@@ -1,0 +1,28 @@
+{
+  "scope": "Affected checks after resolving documentation and ledger conflicts while integrating current main; older complete-suite and archive receipts retain their exact checkpoint scopes.",
+  "source_head_before_merge": "e804f27e1fc645b099749aa7e99117c7384c1b9d",
+  "integrated_main": "b3e36fd4b627a7f00532ce25a21d78da6620c99f",
+  "checks": {
+    "focused": {
+      "tests": 9,
+      "status": "passed",
+      "log": "results/biform-balanced-puncture-2026-10-21/biform-after-b3e36fd.txt",
+      "sha256": "a623d8d732a511a77af99337d99df31db22ae552f19b7ee5fde457041929fd27"
+    },
+    "metadata": {
+      "tests": 18,
+      "status": "passed",
+      "log": "results/biform-balanced-puncture-2026-10-21/metadata-after-b3e36fd.txt",
+      "sha256": "47c6fd2ebe241753f2593508403f01500cc296fd78e8daee2b305594cc38e35a"
+    },
+    "incoming_s5": {
+      "tests": 4,
+      "status": "passed",
+      "log": "results/biform-balanced-puncture-2026-10-21/s5-after-b3e36fd.txt",
+      "sha256": "2f1ccee6ab2b09be3b87865c0ed8b80eebbd9a5acfd28c34d2a33de65492e8cd"
+    }
+  },
+  "archive_paths_changed": false,
+  "unreviewed_mathematical_proofs": true,
+  "improves_omega": false
+}

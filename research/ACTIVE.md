@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The balanced-puncture continuation studies
+`ai/2026-10-21-biform-balanced-puncture/QUESTION.md`, from main 00d5133.
+Complete third-block cancellation now forces auxiliary product kernels
+and a biform syzygy space of dimension at most three. Every projective
+chart is classified exactly: the common factor is
+`(r*x0+s*x1)*(r*y0-s*y1)`, with a two-dimensional non-plane normal fiber.
+The next questions are projected first rank one/two and higher-order
+compatibility of these surviving directions.
+The mixed-graph, Ferrers, rectangular and group-source workers retain
+their existing ownership. No smaller exponent is established.
+
 The uniform-cap worker now studies
 `ai/2026-10-21-hankel-wronskian-cap/QUESTION.md`. A self-contained binomial-
 shear/Wronskian proof covers every characteristic-zero bounded-Hankel

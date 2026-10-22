@@ -13,6 +13,20 @@ one-factor M(13,14,14) targets remain unconstructed and unexcluded by this
 bound. Claim `AI-S5-BLOCK-FILTRATION-001` is written and unreviewed;
 arbitrary complex maps remain open and no smaller exponent is established.
 
+## Balanced punctures of the third biform core
+
+The [balanced-puncture proof](research/ai/2026-10-21-biform-balanced-puncture/proof.md)
+classifies complete cancellation at the 10-by-10 boundary threshold. The
+full auxiliary matrix action forces product quotient kernels; the biform
+syzygy space has dimension at most three. The actual core is now
+classified on every projective chart: non-plane cancellations occur
+exactly for `g=(r*x0+s*x1)*(r*y0-s*y1)`, with arbitrary residual linear
+forms and a two-dimensional normal fiber. Sixteen disjoint cases with
+constant unit minors and exact residual identities cover every complex
+parameter value. Nine focused tests pass. These are written, unreviewed
+structural results. Projected first ranks one/two and later coefficients
+remain open. No matrix target or exponent improvement is established.
+
 ## Uniform Hankel caps and dimension refinements
 
 The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)
