@@ -1,0 +1,78 @@
+{
+  "status": "discovery-only",
+  "parameters": {
+    "a": "1",
+    "b": "2",
+    "d": "1"
+  },
+  "allow_third_tangents": false,
+  "third_fields": 0,
+  "joint_shape": [
+    33,
+    1
+  ],
+  "joint_rank": 1,
+  "fourth_order_soluble": false,
+  "sectors": [
+    {
+      "middle": 0,
+      "fixed_nonzero_rhs_values": [],
+      "equations": 0
+    },
+    {
+      "middle": 1,
+      "fixed_nonzero_rhs_values": [
+        "-152/9",
+        "-16/3",
+        "-184/9",
+        "-232/9",
+        "-32/9",
+        "-40",
+        "-40/3",
+        "-40/9",
+        "-8",
+        "-8/3",
+        "-80/9",
+        "16/3",
+        "16/9",
+        "184/9",
+        "200/9",
+        "32/3",
+        "40/9",
+        "64/9",
+        "8/3",
+        "80/9"
+      ],
+      "equations": 20
+    },
+    {
+      "middle": 2,
+      "fixed_nonzero_rhs_values": [
+        "-128/9",
+        "-16/3",
+        "-200/9",
+        "-280/9",
+        "-328/9",
+        "-40/3",
+        "-64",
+        "-64/3",
+        "-64/9",
+        "-8",
+        "-8/3",
+        "-80/9",
+        "128/9",
+        "280/9",
+        "320/9",
+        "40/3",
+        "40/9",
+        "56/3",
+        "64/9",
+        "8/3",
+        "88/9"
+      ],
+      "equations": 21
+    }
+  ],
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}
