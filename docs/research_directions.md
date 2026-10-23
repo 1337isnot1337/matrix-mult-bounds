@@ -1,5 +1,22 @@
 # Research directions
 
+
+The [quadratic-z constant-endpoint classification](../research/ai/2026-10-23-quadratic-z-middle/proof.md)
+now gives the exact all-field rank
+`ab+min(b,ceil(a/2)*d)+min(b,floor(a/2)*d)` of every
+`alpha+z*v(x)+gamma*z^2` slice, with both nonzero outer coefficients
+constant and `d=deg(v)` (zero for v=0). The next unowned question
+is the degree-filtered syzygy module of
+`u(x)+z*v(x)+z^2*w(x)` with nonconstant outer coefficients.
+Identify the two minimal polynomial-basis degrees, determine whether
+coefficient degrees alone can govern rank, or exhibit exact
+counterexamples. Use PR209's row-polynomial convention with full
+degree endpoints, while retaining PR207/208 ownership of diagonal
+Toeplitz cases. One-slice rank information is insufficient to claim
+a better matrix-multiplication exponent: compatible three-leg maps
+and the complete implication remain missing.
+
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
