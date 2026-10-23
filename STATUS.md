@@ -11,6 +11,9 @@ character-profile bound. The matching scalar profile `P_*` satisfies every
 such bound, so this does not improve the exponent. Claim
 `AI-ALTERNATING-K-SECTORS-001` is written and unreviewed; no character
 realization, independent review, or formalization is claimed.
+The padding is also minimal among exact copies that retain the common first
+leg and either preserve or exchange the other two legs. This does not bound
+decompositions with different sector tensors or auxiliary summands.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

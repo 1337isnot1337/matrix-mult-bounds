@@ -23,6 +23,11 @@ arguments apply over every field; the scoped Laurent application is over
 C. No historical priority, independent mathematical review, formalization
 or exponent improvement is claimed.
 
+The dimension lower bound in the alternating-sector note is local and uses
+only additivity of the disjoint exact sector dimensions. It is limited to
+copies preserving the common first leg and either retaining or exchanging
+the other two legs; no lower bound for arbitrary sector tensors is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
