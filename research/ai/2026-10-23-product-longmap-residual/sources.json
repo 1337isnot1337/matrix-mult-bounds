@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "date": "2026-10-23",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-20-paired-direct-sums/q_product_projection.py",
+      "sha256": "5fafd9b140f04a438ea2b1d3cf34aa71cd7c391a2d7f3ba367586aa07015f156",
+      "role": "Exact old long maps, product first map, and older diagonal residual minor."
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c",
+      "role": "Previous product-injection construction and its exact Q(5,4) positive control."
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-direct-sums/q54_numeric_replay.py",
+      "sha256": "597f8f918570241cfdef25da022d00ed47211ef5830a0f9dd2e208d292261e8b",
+      "role": "Independent native contraction loop used to compare every small-control coefficient."
+    }
+  ],
+  "new_claim": {
+    "id": "AI-PRODUCT-LONGMAP-RESIDUAL-001",
+    "source": "README.md, Sections 2-6",
+    "statement": "For n>=5 over any field of characteristic different from two, the minimum first flattening rank of M(n-1,4,n-1)-(A tensor B_old tensor C_old)Q(n,4), over all first maps A and with the two old product long maps fixed, is (n-1)^2-max(9-n,1)^2. The old first map attains it.",
+    "proof_status": "written proof with exact finite replay; same-session separate-agent checks; not independently reviewed",
+    "not_claimed": [
+      "An obstruction for arbitrary long maps",
+      "An obstruction for general tensor degenerations",
+      "A better matrix multiplication exponent"
+    ]
+  }
+}

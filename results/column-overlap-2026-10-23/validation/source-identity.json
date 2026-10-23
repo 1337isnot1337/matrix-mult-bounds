@@ -1,0 +1,42 @@
+{
+  "all_common_nonmetadata_bytes_identical": true,
+  "all_original_python_bytes_identical": true,
+  "base_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "common_base_file_count": 2977,
+  "common_unchanged_git_blob_manifest_sha256": "a4830aca4aeb22226053d87753c702e9314634a30fe84de43bf3dfac51ac36a6",
+  "current_changes_to_old_base_files": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "research/ACTIVE.md",
+    "research/claims.json"
+  ],
+  "current_tested_commit": "b0ccaa3fbacf86f9a330cd8bb25149fd748ad36e",
+  "metadata_paths_excluded_from_byte_identity": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/claims.json"
+  ],
+  "prior_tested_commit": "6db05f5592b2f252ebc718cfececd5625a44aed5",
+  "protected_archive_trees": {
+    "research/ai/2026-10-20": {
+      "6db05f5592b2f252ebc718cfececd5625a44aed5": "f9b82c5d620837ec8a7673b31fc763e17f29dac8",
+      "b0ccaa3fbacf86f9a330cd8bb25149fd748ad36e": "f9b82c5d620837ec8a7673b31fc763e17f29dac8",
+      "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc": "f9b82c5d620837ec8a7673b31fc763e17f29dac8"
+    },
+    "research/ai/2026-10-20-session2": {
+      "6db05f5592b2f252ebc718cfececd5625a44aed5": "053937f74645027d54b1bbfd88956cf38bfc8c73",
+      "b0ccaa3fbacf86f9a330cd8bb25149fd748ad36e": "053937f74645027d54b1bbfd88956cf38bfc8c73",
+      "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc": "053937f74645027d54b1bbfd88956cf38bfc8c73"
+    }
+  },
+  "unchanged_common_file_count": 2972,
+  "unchanged_dependency_and_runner_blobs": {
+    "requirements.txt": "e0e536bcd1fbce289b19b8208396ab24b5583dbe",
+    "tools/replay.py": "38905933217c0b991b132c09331d2c602260076e",
+    "tools/test_shard.py": "0c54ee65aed616217c2995afc5d731597cd7a498"
+  },
+  "unchanged_original_test_module_count": 209,
+  "unchanged_python_file_count": 739
+}

@@ -24,9 +24,9 @@ Review requests and mathematical review status remain separate from that permiss
 An administrator can edit repository rules, but the ruleset grants no bypass for routine pushes or merges.
 
 The required check uses GitHub Actions app ID `15368`, verified from this repository's existing check runs.
-The [workflow](../.github/workflows/verify.yml) runs all tests on Python 3.10 and 3.14 and the archive replay on Python 3.13.
-Its final `CI` job fails unless both prerequisite jobs succeed.
-The required workflow has no path filters, so documentation changes receive the check too.
+The [workflow](../.github/workflows/verify.yml) runs the complete test suite in four groups on each of Python 3.10 and 3.14, replays the five archived experiments on Python 3.13, and builds the auxiliary finite scalar-profile Lean lemma.
+Its final `CI` job fails unless the test matrix, archive replay, and Lean job all succeed.
+The required workflow has no path filters or scheduled trigger; pull requests to `main`, pushes to `main`, and manual dispatch receive the full gate, including documentation changes.
 
 ## Apply the settings
 

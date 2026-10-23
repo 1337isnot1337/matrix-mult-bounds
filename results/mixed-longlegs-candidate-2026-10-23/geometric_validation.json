@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-23",
+  "evidence_status": "Written proofs with same-session audits and exact controls; no external independent review",
+  "previous_public_checkpoint": "79b23815c68cef6c013d4ba54ae37d4d068ae712",
+  "focused_test_selection": [
+    "test_mixed_longlegs_*.py",
+    "test_mixed_source_flattenings.py",
+    "test_research.RepositoryTests"
+  ],
+  "focused_tests_passed": 33,
+  "reported_seconds": "2.129",
+  "canonical_target_ranks": {
+    "ordinary": 178,
+    "smoothable": 178,
+    "cactus": 178,
+    "border_rank": "not determined"
+  },
+  "catalecticant": {
+    "source_rank": 120,
+    "target_lower_bound_all_independent_first_identifications": 130,
+    "excluded_chart": "invertible leading first map after scalar normalization",
+    "arbitrary_first_maps_excluded_by_this_checkpoint": false
+  },
+  "full_regression": "pending at this checkpoint",
+  "archive_replay": "pending at this checkpoint",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false,
+  "file_sha256": {
+    "research/ai/2026-10-23-mixed-longlegs-candidate/cactus_rank.md": "1a5e48bb387b1defb4a73c819a4e97297014b1bdb4f1488ca41cce89c2a6b357",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_cactus.py": "1bf597b668dd7576c0912ee8eb3e4e41ea355e0a078665e5c569790815ed1644",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/cactus_sources.json": "104e59eff9428be17713c17a85968744b43ddf035172f30405162a7df518e58a",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/geometric_claims.json": "f76e4d0ee0a4824060986cacac40238bb8aaa4123ce57c4a7163eeeb8722defd",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md": "3f37b22fef1650a8594a98257e3f8e2d6dc2491cdd9260c3ecaf90dea0cd8d06",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_catalecticant.py": "086bf0a53813f4a6d68457b0d37eeb2cb229331b52528c40544e02def8bd4e6c",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_sources.json": "5fb8176cc8a683d9c600beca41ac033cd83a286782b9066348e549277bc3bb1b",
+    "results/mixed-longlegs-candidate-2026-10-23/cactus_rank_verification.json": "3181b2927dfaf029fe12a9148afb0f37bf432489f6344687c6ec00c5c806c7e9",
+    "results/mixed-longlegs-candidate-2026-10-23/catalecticant_verification.json": "af531b5d9dcbccb3a2ac783922b6f30a8f44f1134c80c3c81bc111a95c1f9be9",
+    "results/mixed-longlegs-candidate-2026-10-23/catalecticant_validation.json": "306352a2811601e17f2f9a63e761ea0675d7d4668cf07c0ba562b2d28b895ada",
+    "tests/test_mixed_longlegs_cactus.py": "5e89eb6a6697a346a3f568ae7cdce1c4a7e9ecec68108b25697dacb182197430",
+    "tests/test_mixed_longlegs_catalecticant.py": "cbaacd1d7362f91389d312cb78be74e990e900c11b7f8e4b5e55653ca7258acb"
+  }
+}

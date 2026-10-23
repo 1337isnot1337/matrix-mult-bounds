@@ -1,0 +1,37 @@
+{
+  "initial_preparation_file": "new_active_heads.json",
+  "initial_preparation_sha256": "5ad1f6d3b4fb86d003b693bd50928fcf2e5605539b161a9643fd0033049a3684",
+  "final_frozen_file": "nextwave_heads.json",
+  "records": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "preparation_sha": "08b16d2f32cd5a4d8e1e0f1a44091ee9acf24c07",
+      "frozen_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "preparation_head_is_ancestor": true,
+      "same_head": false
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "preparation_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "frozen_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "preparation_head_is_ancestor": true,
+      "same_head": true
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "preparation_sha": "f9f16f11dece262c294432e85606d4fac158f1e2",
+      "frozen_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "preparation_head_is_ancestor": true,
+      "same_head": false
+    },
+    {
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "preparation_sha": "c168f3f5329e494d404eb90384cd53a051bc620b",
+      "frozen_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "preparation_head_is_ancestor": true,
+      "same_head": false
+    }
+  ],
+  "separately_archived_preparation_heads": false,
+  "reason": "The parent replaced the uncommitted preparation capture. Each earlier head remains recoverable as an exact ancestor of its verified archived descendant; it is not counted as a separate archived snapshot."
+}

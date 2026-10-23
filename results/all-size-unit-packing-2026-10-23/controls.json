@@ -1,0 +1,513 @@
+{
+  "all_field_unit_claim": true,
+  "all_size_cap_formula": "a^2*(2*a-2)",
+  "complex_subspace_claim": true,
+  "formal_recurrence_controls": [
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 0,
+      "residue": 0,
+      "size": 1,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 1,
+      "residue": 0,
+      "size": 2,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 1,
+      "residue": 1,
+      "size": 2,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 2,
+      "residue": 0,
+      "size": 3,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 2,
+      "residue": 1,
+      "size": 3,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 2,
+      "residue": 2,
+      "size": 3,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 3,
+      "residue": 0,
+      "size": 4,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 3,
+      "residue": 1,
+      "size": 4,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 3,
+      "residue": 2,
+      "size": 4,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 3,
+      "residue": 3,
+      "size": 4,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 4,
+      "residue": 0,
+      "size": 5,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 4,
+      "residue": 1,
+      "size": 5,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 4,
+      "residue": 2,
+      "size": 5,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 4,
+      "residue": 3,
+      "size": 5,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 4,
+      "residue": 4,
+      "size": 5,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 5,
+      "residue": 0,
+      "size": 6,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 5,
+      "residue": 1,
+      "size": 6,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 5,
+      "residue": 2,
+      "size": 6,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 5,
+      "residue": 3,
+      "size": 6,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 5,
+      "residue": 4,
+      "size": 6,
+      "terminal_unit_coefficient": 1
+    },
+    {
+      "coprime_polynomial_pair": true,
+      "formal_successive_identities": 5,
+      "residue": 5,
+      "size": 6,
+      "terminal_unit_coefficient": 1
+    }
+  ],
+  "improves_omega": false,
+  "packing_and_sharp_kernel_controls": [
+    {
+      "all_singular_subspace_cap": 0,
+      "disjoint_unit_count": 1,
+      "sharp_kernel_dimension": 0,
+      "size": 1,
+      "source_dimension": 1,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 0,
+      "supports_with_a_coefficients": 1
+    },
+    {
+      "all_singular_subspace_cap": 8,
+      "disjoint_unit_count": 4,
+      "sharp_kernel_dimension": 8,
+      "size": 2,
+      "source_dimension": 12,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 2,
+      "supports_with_a_coefficients": 2
+    },
+    {
+      "all_singular_subspace_cap": 36,
+      "disjoint_unit_count": 9,
+      "sharp_kernel_dimension": 36,
+      "size": 3,
+      "source_dimension": 45,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 6,
+      "supports_with_a_coefficients": 3
+    },
+    {
+      "all_singular_subspace_cap": 96,
+      "disjoint_unit_count": 16,
+      "sharp_kernel_dimension": 96,
+      "size": 4,
+      "source_dimension": 112,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 12,
+      "supports_with_a_coefficients": 4
+    },
+    {
+      "all_singular_subspace_cap": 200,
+      "disjoint_unit_count": 25,
+      "sharp_kernel_dimension": 200,
+      "size": 5,
+      "source_dimension": 225,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 20,
+      "supports_with_a_coefficients": 5
+    },
+    {
+      "all_singular_subspace_cap": 360,
+      "disjoint_unit_count": 36,
+      "sharp_kernel_dimension": 360,
+      "size": 6,
+      "source_dimension": 396,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 30,
+      "supports_with_a_coefficients": 6
+    },
+    {
+      "all_singular_subspace_cap": 588,
+      "disjoint_unit_count": 49,
+      "sharp_kernel_dimension": 588,
+      "size": 7,
+      "source_dimension": 637,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 42,
+      "supports_with_a_coefficients": 7
+    },
+    {
+      "all_singular_subspace_cap": 896,
+      "disjoint_unit_count": 64,
+      "sharp_kernel_dimension": 896,
+      "size": 8,
+      "source_dimension": 960,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 56,
+      "supports_with_a_coefficients": 8
+    },
+    {
+      "all_singular_subspace_cap": 1296,
+      "disjoint_unit_count": 81,
+      "sharp_kernel_dimension": 1296,
+      "size": 9,
+      "source_dimension": 1377,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 72,
+      "supports_with_a_coefficients": 9
+    },
+    {
+      "all_singular_subspace_cap": 1800,
+      "disjoint_unit_count": 100,
+      "sharp_kernel_dimension": 1800,
+      "size": 10,
+      "source_dimension": 1900,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 90,
+      "supports_with_a_coefficients": 10
+    },
+    {
+      "all_singular_subspace_cap": 2420,
+      "disjoint_unit_count": 121,
+      "sharp_kernel_dimension": 2420,
+      "size": 11,
+      "source_dimension": 2541,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 110,
+      "supports_with_a_coefficients": 11
+    },
+    {
+      "all_singular_subspace_cap": 3168,
+      "disjoint_unit_count": 144,
+      "sharp_kernel_dimension": 3168,
+      "size": 12,
+      "source_dimension": 3312,
+      "source_weights_distinct": true,
+      "supports_with_2a_coefficients": 132,
+      "supports_with_a_coefficients": 12
+    }
+  ],
+  "proof_status": "proof-written-unreviewed",
+  "scope": "Finite controls througha6 and packing bookkeeping througha12; all-size theorem is the written degree/divisibility proof.",
+  "short_matrices": [
+    {
+      "dimension": 1,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 0,
+      "size": 1
+    },
+    {
+      "dimension": 6,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 0,
+      "size": 2
+    },
+    {
+      "dimension": 6,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 1,
+      "size": 2
+    },
+    {
+      "dimension": 15,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 0,
+      "size": 3
+    },
+    {
+      "dimension": 15,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 1,
+      "size": 3
+    },
+    {
+      "dimension": 15,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 2,
+      "size": 3
+    },
+    {
+      "dimension": 28,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 0,
+      "size": 4
+    },
+    {
+      "dimension": 28,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 1,
+      "size": 4
+    },
+    {
+      "dimension": 28,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 2,
+      "size": 4
+    },
+    {
+      "dimension": 28,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 3,
+      "size": 4
+    },
+    {
+      "dimension": 45,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 0,
+      "size": 5
+    },
+    {
+      "dimension": 45,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 1,
+      "size": 5
+    },
+    {
+      "dimension": 45,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 2,
+      "size": 5
+    },
+    {
+      "dimension": 45,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 3,
+      "size": 5
+    },
+    {
+      "dimension": 45,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 4,
+      "size": 5
+    },
+    {
+      "dimension": 66,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 0,
+      "size": 6
+    },
+    {
+      "dimension": 66,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 1,
+      "size": 6
+    },
+    {
+      "dimension": 66,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 2,
+      "size": 6
+    },
+    {
+      "dimension": 66,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 3,
+      "size": 6
+    },
+    {
+      "dimension": 66,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 2,
+        "5": 4
+      },
+      "integer_determinant": -1,
+      "residue": 4,
+      "size": 6
+    },
+    {
+      "dimension": 66,
+      "independent_modular_determinants": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "integer_determinant": 1,
+      "residue": 5,
+      "size": 6
+    }
+  ],
+  "source_dimension_formula": "a^2*(2*a-1)"
+}

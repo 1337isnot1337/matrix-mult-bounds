@@ -1,0 +1,28 @@
+{
+  "status": "immutable archived-tree local regression failed; corrections pending recheck",
+  "commit": "a72fb7b26c1158881d0ec177e75cac691b4a7ed2",
+  "tree": "321e1a7b84fe4e255fd8ad22767f6bdf64b692b3",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests",
+  "tests": 699,
+  "seconds": 1574.215,
+  "failures": 2,
+  "log_sha256": "6085977aca242474b96b41d4196b181c701cf1eb94cbe674e6e7e0d75ffdb00f",
+  "failure_details": [
+    "Old scope-guard test incorrectly expected A(10,10) to remain unsupported after its cap certificate was added.",
+    "Claim ledger used an unsupported status label; changed to existing finite-experiment vocabulary."
+  ],
+  "independent_review": false,
+  "improves_omega": false,
+  "correction_rechecks": {
+    "test_rectangular_two_ruling.py": {
+      "tests": 6,
+      "seconds": 0.372,
+      "passed": true
+    },
+    "test_research.py": {
+      "tests": 18,
+      "seconds": 0.499,
+      "passed": true
+    }
+  }
+}

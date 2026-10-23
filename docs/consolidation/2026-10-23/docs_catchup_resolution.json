@@ -1,0 +1,802 @@
+{
+  "status": "complete",
+  "source_plan": "catchup_plan.json",
+  "source_heads": [
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "before": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+      "now": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "delta_base": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+      "changed_paths": [
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+        "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+        "research/ai/2026-10-23-affine-z-biform-ranks/verify.py",
+        "research/claims.json",
+        "results/affine-z-biform-ranks-2026-10-23/controls.json",
+        "tests/test_affine_z_biform_ranks.py"
+      ]
+    },
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "before": null,
+      "now": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "changed_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "research/ai/2026-10-23-aggregation-families/QUESTION.md",
+        "research/ai/2026-10-23-aggregation-families/README.md",
+        "research/ai/2026-10-23-aggregation-families/baseline_ex28.txt",
+        "research/ai/2026-10-23-aggregation-families/discovery_report.json",
+        "research/ai/2026-10-23-aggregation-families/evaluate.py",
+        "research/ai/2026-10-23-aggregation-families/proof.md",
+        "research/ai/2026-10-23-aggregation-families/search.cpp",
+        "research/ai/2026-10-23-aggregation-families/sources.json",
+        "research/ai/2026-10-23-aggregation-families/tensor_control_report.json",
+        "research/ai/2026-10-23-aggregation-families/validation.json",
+        "research/ai/2026-10-23-aggregation-families/verification_report.json",
+        "research/ai/2026-10-23-aggregation-families/verify.py",
+        "research/ai/2026-10-23-aggregation-families/witness_29.json",
+        "research/claims.json",
+        "tests/test_aggregation_families.py"
+      ]
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "before": null,
+      "now": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "changed_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+        "research/ai/2026-10-23-conjugation-limit/README.md",
+        "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "research/claims.json"
+      ]
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "before": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "now": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "changed_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-first-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/verify.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-higher-jets/README.md",
+        "research/ai/2026-10-23-conic-higher-jets/discover_fourth.py",
+        "research/ai/2026-10-23-conic-higher-jets/discover_higher.py",
+        "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+        "research/ai/2026-10-23-conic-higher-jets/proof.md",
+        "research/ai/2026-10-23-conic-higher-jets/sources.json",
+        "research/ai/2026-10-23-conic-higher-jets/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/README.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/construct.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/proof.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-third-jets/README.md",
+        "research/ai/2026-10-23-conic-third-jets/discover_symbolic.py",
+        "research/ai/2026-10-23-conic-third-jets/manifest.json",
+        "research/ai/2026-10-23-conic-third-jets/pilot.py",
+        "research/ai/2026-10-23-conic-third-jets/proof.md",
+        "research/ai/2026-10-23-conic-third-jets/sources.json",
+        "research/ai/2026-10-23-conic-third-jets/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py",
+        "research/claims.json",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-first-curve-2026-10-23/validation.json",
+        "results/conic-fixed-first-curve-2026-10-23/verification.json",
+        "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-two-curve-2026-10-23/timing.json",
+        "results/conic-fixed-two-curve-2026-10-23/validation.json",
+        "results/conic-fixed-two-curve-2026-10-23/verification.json",
+        "results/conic-higher-jets-2026-10-23/fixed-third-discovery.json",
+        "results/conic-higher-jets-2026-10-23/focused-tests.log.gz",
+        "results/conic-higher-jets-2026-10-23/mixed-fourth-family.json",
+        "results/conic-higher-jets-2026-10-23/mixed-verification.json",
+        "results/conic-higher-jets-2026-10-23/rational-ten-jet.json",
+        "results/conic-higher-jets-2026-10-23/rational-verification.json",
+        "results/conic-higher-jets-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-polynomial-curve-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/verification.json",
+        "results/conic-third-jets-2026-10-23/after-unit-image.log.gz",
+        "results/conic-third-jets-2026-10-23/all-second-pilot.json",
+        "results/conic-third-jets-2026-10-23/combined-checks.log.gz",
+        "results/conic-third-jets-2026-10-23/fixed-two-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/linear-component-control.json",
+        "results/conic-third-jets-2026-10-23/mixed-family-verification.json",
+        "results/conic-third-jets-2026-10-23/mixed-family.json",
+        "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-0.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-1.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-2.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-3.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/validation.json",
+        "results/conic-third-jets-2026-10-23/verification.json",
+        "results/integration-2026-10-23-1501/archive-replay.log.gz",
+        "results/integration-2026-10-23-1501/tests-0.log.gz",
+        "results/integration-2026-10-23-1501/tests-1.log.gz",
+        "results/integration-2026-10-23-1501/tests-2.log.gz",
+        "results/integration-2026-10-23-1501/tests-3.log.gz",
+        "results/integration-2026-10-23-1501/validation.json",
+        "tests/test_conic_fixed_first_curve.py",
+        "tests/test_conic_fixed_two_curve.py",
+        "tests/test_conic_higher_jets.py",
+        "tests/test_conic_mixed_third_jets.py",
+        "tests/test_conic_polynomial_curve.py",
+        "tests/test_conic_third_jets.py"
+      ]
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "before": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "now": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "changed_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-first-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/verify.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-higher-jets/README.md",
+        "research/ai/2026-10-23-conic-higher-jets/discover_fourth.py",
+        "research/ai/2026-10-23-conic-higher-jets/discover_higher.py",
+        "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+        "research/ai/2026-10-23-conic-higher-jets/proof.md",
+        "research/ai/2026-10-23-conic-higher-jets/sources.json",
+        "research/ai/2026-10-23-conic-higher-jets/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/README.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/construct.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/proof.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-third-jets/README.md",
+        "research/ai/2026-10-23-conic-third-jets/discover_symbolic.py",
+        "research/ai/2026-10-23-conic-third-jets/manifest.json",
+        "research/ai/2026-10-23-conic-third-jets/pilot.py",
+        "research/ai/2026-10-23-conic-third-jets/proof.md",
+        "research/ai/2026-10-23-conic-third-jets/sources.json",
+        "research/ai/2026-10-23-conic-third-jets/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py",
+        "research/claims.json",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-first-curve-2026-10-23/validation.json",
+        "results/conic-fixed-first-curve-2026-10-23/verification.json",
+        "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-two-curve-2026-10-23/timing.json",
+        "results/conic-fixed-two-curve-2026-10-23/validation.json",
+        "results/conic-fixed-two-curve-2026-10-23/verification.json",
+        "results/conic-higher-jets-2026-10-23/fixed-third-discovery.json",
+        "results/conic-higher-jets-2026-10-23/focused-tests.log.gz",
+        "results/conic-higher-jets-2026-10-23/mixed-fourth-family.json",
+        "results/conic-higher-jets-2026-10-23/mixed-verification.json",
+        "results/conic-higher-jets-2026-10-23/rational-ten-jet.json",
+        "results/conic-higher-jets-2026-10-23/rational-verification.json",
+        "results/conic-higher-jets-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-polynomial-curve-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/verification.json",
+        "results/conic-third-jets-2026-10-23/after-unit-image.log.gz",
+        "results/conic-third-jets-2026-10-23/all-second-pilot.json",
+        "results/conic-third-jets-2026-10-23/combined-checks.log.gz",
+        "results/conic-third-jets-2026-10-23/fixed-two-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/linear-component-control.json",
+        "results/conic-third-jets-2026-10-23/mixed-family-verification.json",
+        "results/conic-third-jets-2026-10-23/mixed-family.json",
+        "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-0.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-1.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-2.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-3.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/validation.json",
+        "results/conic-third-jets-2026-10-23/verification.json",
+        "results/integration-2026-10-23-1501/archive-replay.log.gz",
+        "results/integration-2026-10-23-1501/tests-0.log.gz",
+        "results/integration-2026-10-23-1501/tests-1.log.gz",
+        "results/integration-2026-10-23-1501/tests-2.log.gz",
+        "results/integration-2026-10-23-1501/tests-3.log.gz",
+        "results/integration-2026-10-23-1501/validation.json",
+        "tests/test_conic_fixed_first_curve.py",
+        "tests/test_conic_fixed_two_curve.py",
+        "tests/test_conic_higher_jets.py",
+        "tests/test_conic_mixed_third_jets.py",
+        "tests/test_conic_polynomial_curve.py",
+        "tests/test_conic_third_jets.py"
+      ]
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "before": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "now": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "changed_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-first-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/verify.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-higher-jets/README.md",
+        "research/ai/2026-10-23-conic-higher-jets/discover_fourth.py",
+        "research/ai/2026-10-23-conic-higher-jets/discover_higher.py",
+        "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+        "research/ai/2026-10-23-conic-higher-jets/proof.md",
+        "research/ai/2026-10-23-conic-higher-jets/sources.json",
+        "research/ai/2026-10-23-conic-higher-jets/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/README.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/construct.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/proof.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-third-jets/README.md",
+        "research/ai/2026-10-23-conic-third-jets/discover_symbolic.py",
+        "research/ai/2026-10-23-conic-third-jets/manifest.json",
+        "research/ai/2026-10-23-conic-third-jets/pilot.py",
+        "research/ai/2026-10-23-conic-third-jets/proof.md",
+        "research/ai/2026-10-23-conic-third-jets/sources.json",
+        "research/ai/2026-10-23-conic-third-jets/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py",
+        "research/claims.json",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-first-curve-2026-10-23/validation.json",
+        "results/conic-fixed-first-curve-2026-10-23/verification.json",
+        "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-two-curve-2026-10-23/timing.json",
+        "results/conic-fixed-two-curve-2026-10-23/validation.json",
+        "results/conic-fixed-two-curve-2026-10-23/verification.json",
+        "results/conic-higher-jets-2026-10-23/fixed-third-discovery.json",
+        "results/conic-higher-jets-2026-10-23/focused-tests.log.gz",
+        "results/conic-higher-jets-2026-10-23/mixed-fourth-family.json",
+        "results/conic-higher-jets-2026-10-23/mixed-verification.json",
+        "results/conic-higher-jets-2026-10-23/rational-ten-jet.json",
+        "results/conic-higher-jets-2026-10-23/rational-verification.json",
+        "results/conic-higher-jets-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-polynomial-curve-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/verification.json",
+        "results/conic-third-jets-2026-10-23/after-unit-image.log.gz",
+        "results/conic-third-jets-2026-10-23/all-second-pilot.json",
+        "results/conic-third-jets-2026-10-23/combined-checks.log.gz",
+        "results/conic-third-jets-2026-10-23/fixed-two-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/linear-component-control.json",
+        "results/conic-third-jets-2026-10-23/mixed-family-verification.json",
+        "results/conic-third-jets-2026-10-23/mixed-family.json",
+        "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-0.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-1.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-2.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-3.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/validation.json",
+        "results/conic-third-jets-2026-10-23/verification.json",
+        "results/integration-2026-10-23-1501/archive-replay.log.gz",
+        "results/integration-2026-10-23-1501/tests-0.log.gz",
+        "results/integration-2026-10-23-1501/tests-1.log.gz",
+        "results/integration-2026-10-23-1501/tests-2.log.gz",
+        "results/integration-2026-10-23-1501/tests-3.log.gz",
+        "results/integration-2026-10-23-1501/validation.json",
+        "tests/test_conic_fixed_first_curve.py",
+        "tests/test_conic_fixed_two_curve.py",
+        "tests/test_conic_higher_jets.py",
+        "tests/test_conic_mixed_third_jets.py",
+        "tests/test_conic_polynomial_curve.py",
+        "tests/test_conic_third_jets.py"
+      ]
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "before": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "now": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "changed_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-first-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-first-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-first-curve/verify.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/README.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/construct.py",
+        "research/ai/2026-10-23-conic-fixed-two-curve/manifest.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/proof.md",
+        "research/ai/2026-10-23-conic-fixed-two-curve/sources.json",
+        "research/ai/2026-10-23-conic-fixed-two-curve/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-higher-jets/README.md",
+        "research/ai/2026-10-23-conic-higher-jets/discover_fourth.py",
+        "research/ai/2026-10-23-conic-higher-jets/discover_higher.py",
+        "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+        "research/ai/2026-10-23-conic-higher-jets/proof.md",
+        "research/ai/2026-10-23-conic-higher-jets/sources.json",
+        "research/ai/2026-10-23-conic-higher-jets/verify.py",
+        "research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/QUESTION.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/README.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/construct.py",
+        "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/proof.md",
+        "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+        "research/ai/2026-10-23-conic-polynomial-curve/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/QUESTION.md",
+        "research/ai/2026-10-23-conic-third-jets/README.md",
+        "research/ai/2026-10-23-conic-third-jets/discover_symbolic.py",
+        "research/ai/2026-10-23-conic-third-jets/manifest.json",
+        "research/ai/2026-10-23-conic-third-jets/pilot.py",
+        "research/ai/2026-10-23-conic-third-jets/proof.md",
+        "research/ai/2026-10-23-conic-third-jets/sources.json",
+        "research/ai/2026-10-23-conic-third-jets/verify.py",
+        "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py",
+        "research/ai/2026-10-23-s5-finite-covers/README.md",
+        "research/ai/2026-10-23-s5-finite-covers/manifest.json",
+        "research/claims.json",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-first-curve-2026-10-23/validation.json",
+        "results/conic-fixed-first-curve-2026-10-23/verification.json",
+        "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-fixed-two-curve-2026-10-23/timing.json",
+        "results/conic-fixed-two-curve-2026-10-23/validation.json",
+        "results/conic-fixed-two-curve-2026-10-23/verification.json",
+        "results/conic-higher-jets-2026-10-23/fixed-third-discovery.json",
+        "results/conic-higher-jets-2026-10-23/focused-tests.log.gz",
+        "results/conic-higher-jets-2026-10-23/mixed-fourth-family.json",
+        "results/conic-higher-jets-2026-10-23/mixed-verification.json",
+        "results/conic-higher-jets-2026-10-23/rational-ten-jet.json",
+        "results/conic-higher-jets-2026-10-23/rational-verification.json",
+        "results/conic-higher-jets-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/focused-tests.log.gz",
+        "results/conic-polynomial-curve-2026-10-23/polynomial-curve.json",
+        "results/conic-polynomial-curve-2026-10-23/validation.json",
+        "results/conic-polynomial-curve-2026-10-23/verification.json",
+        "results/conic-third-jets-2026-10-23/after-unit-image.log.gz",
+        "results/conic-third-jets-2026-10-23/all-second-pilot.json",
+        "results/conic-third-jets-2026-10-23/combined-checks.log.gz",
+        "results/conic-third-jets-2026-10-23/fixed-two-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/linear-component-control.json",
+        "results/conic-third-jets-2026-10-23/mixed-family-verification.json",
+        "results/conic-third-jets-2026-10-23/mixed-family.json",
+        "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-0.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-1.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-2.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-group-3.log.gz",
+        "results/conic-third-jets-2026-10-23/third-jet-pilot.json",
+        "results/conic-third-jets-2026-10-23/validation.json",
+        "results/conic-third-jets-2026-10-23/verification.json",
+        "results/integration-2026-10-23-1501/archive-replay.log.gz",
+        "results/integration-2026-10-23-1501/tests-0.log.gz",
+        "results/integration-2026-10-23-1501/tests-1.log.gz",
+        "results/integration-2026-10-23-1501/tests-2.log.gz",
+        "results/integration-2026-10-23-1501/tests-3.log.gz",
+        "results/integration-2026-10-23-1501/validation.json",
+        "tests/test_conic_fixed_first_curve.py",
+        "tests/test_conic_fixed_two_curve.py",
+        "tests/test_conic_higher_jets.py",
+        "tests/test_conic_mixed_third_jets.py",
+        "tests/test_conic_polynomial_curve.py",
+        "tests/test_conic_third_jets.py"
+      ]
+    }
+  ],
+  "novel_shared_deltas": [
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "sha": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "path": "PROVENANCE.md",
+      "op": "insert",
+      "before": [],
+      "after": [
+        "## Exact 29-product independent aggregation family",
+        "The family and independent acceptance program in\n`research/ai/2026-10-23-aggregation-families/` are owner-directed Codex\nwork. Solomonik and Blaeser, arXiv:2610.26563v2 (2026-10-22), retain\ncredit for the centered, corrected aggregation mechanism and the\n28-product external comparison witness. Their paper also records its\nown predecessors; no priority for the underlying mechanism is claimed\nhere. The external ancillary witness is included as attributed numerical\ndata with its public versioned URL and SHA256 in sources.json.\nThe previous local centered-orientations note used version 1 for a\ndifferent shared-input construction. The new contribution is the explicit\n29-product family, its complete combinatorial certificate, and the\nstrict uniform comparison of the two stated cost bounds. The rational\ndual-embedding proof rederives the credited construction for this family.\nSeparate programs and exact finite-field controls are same-session\nverification, not independent mathematical review or formalization.\nNo smaller exponent or historical priority is claimed."
+      ],
+      "unique_new": [
+        "## Exact 29-product independent aggregation family",
+        "The family and independent acceptance program in\n`research/ai/2026-10-23-aggregation-families/` are owner-directed Codex\nwork. Solomonik and Blaeser, arXiv:2610.26563v2 (2026-10-22), retain\ncredit for the centered, corrected aggregation mechanism and the\n28-product external comparison witness. Their paper also records its\nown predecessors; no priority for the underlying mechanism is claimed\nhere. The external ancillary witness is included as attributed numerical\ndata with its public versioned URL and SHA256 in sources.json.\nThe previous local centered-orientations note used version 1 for a\ndifferent shared-input construction. The new contribution is the explicit\n29-product family, its complete combinatorial certificate, and the\nstrict uniform comparison of the two stated cost bounds. The rational\ndual-embedding proof rederives the credited construction for this family.\nSeparate programs and exact finite-field controls are same-session\nverification, not independent mathematical review or formalization.\nNo smaller exponent or historical priority is claimed."
+      ],
+      "resolution": [
+        "## Exact 29-product independent aggregation family",
+        "The family and independent acceptance program in\n`research/ai/2026-10-23-aggregation-families/` are owner-directed Codex\nwork. Solomonik and Blaeser, arXiv:2610.26563v2 (2026-10-22), retain\ncredit for the centered, corrected aggregation mechanism and the\n28-product external comparison witness. Their paper also records its\nown predecessors; no priority for the underlying mechanism is claimed\nhere. The external ancillary witness is included as attributed numerical\ndata with its public versioned URL and SHA256 in sources.json.\nThe previous local centered-orientations note used version 1 for a\ndifferent shared-input construction. The new contribution is the explicit\n29-product family, its complete combinatorial certificate, and the\nstrict uniform comparison of the two stated cost bounds. The rational\ndual-embedding proof rederives the credited construction for this family.\nSeparate programs and exact finite-field controls are same-session\nverification, not independent mathematical review or formalization.\nNo smaller exponent or historical priority is claimed."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "path": "PROVENANCE.md",
+      "op": "insert",
+      "before": [],
+      "after": [
+        "The `2026-10-23-conjugation-limit` package is owner-directed OpenAI\nCodex work. Earlier cyclic-source and fixed-resolvent packages retain\ncredit for the literal A4 tensor, its unimodular unit and the square-zero\nrank-sixteen slice. The new calculation conjugates all 112 source\nslices on both sides. Its complete limiting space, twelve-dimensional\nscalar-action subspace, compression rank-loss requirement and full\nprincipal coordinate-compression census are local continuations.\nThe acceptance program reconstructs the source and polynomial identities\nwithout importing the discovery implementation. Its modular ranks are\nused only as lower bounds for complex dimension. Root and subagent\nchecks belong to one generating session and are not independent\nmathematical review or formalization. No target, historical priority\nor exponent improvement is claimed."
+      ],
+      "unique_new": [
+        "The `2026-10-23-conjugation-limit` package is owner-directed OpenAI\nCodex work. Earlier cyclic-source and fixed-resolvent packages retain\ncredit for the literal A4 tensor, its unimodular unit and the square-zero\nrank-sixteen slice. The new calculation conjugates all 112 source\nslices on both sides. Its complete limiting space, twelve-dimensional\nscalar-action subspace, compression rank-loss requirement and full\nprincipal coordinate-compression census are local continuations.\nThe acceptance program reconstructs the source and polynomial identities\nwithout importing the discovery implementation. Its modular ranks are\nused only as lower bounds for complex dimension. Root and subagent\nchecks belong to one generating session and are not independent\nmathematical review or formalization. No target, historical priority\nor exponent improvement is claimed."
+      ],
+      "resolution": [
+        "The `2026-10-23-conjugation-limit` package is owner-directed OpenAI\nCodex work. Earlier cyclic-source and fixed-resolvent packages retain\ncredit for the literal A4 tensor, its unimodular unit and the square-zero\nrank-sixteen slice. The new calculation conjugates all 112 source\nslices on both sides. Its complete limiting space, twelve-dimensional\nscalar-action subspace, compression rank-loss requirement and full\nprincipal coordinate-compression census are local continuations.\nThe acceptance program reconstructs the source and polynomial identities\nwithout importing the discovery implementation. Its modular ranks are\nused only as lower bounds for complex dimension. Root and subagent\nchecks belong to one generating session and are not independent\nmathematical review or formalization. No target, historical priority\nor exponent improvement is claimed."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "path": "STATUS.md",
+      "op": "replace",
+      "before": [
+        "The [affine-z coefficient-rank theorem](research/ai/2026-10-23-affine-z-biform-ranks/proof.md) computes the literal R_(a,b)(u(x)+z*v(x)) over every field for 2<=a<=b: its rank is ab+min(b,a*d), where d is the largest degree of the coprime pair after removing gcd(u,v), and d=0 if one coefficient vanishes. Every rank in the resulting finite spectrum is attained by 1+x^d*z. An explicit polynomial left-kernel parametrization proves the formula without the previous general biform gap. Finite exact controls cover 3265 exhaustive pairs, 2984 seeded pairs and 570 prescribed spectrum points over F2,F3,F5,F7,F101. Claim AI-AFFINE-Z-BIFORM-RANK-001 is proof-written-unreviewed. This is a one-slice statement, not a source-space cap, tensor target or smaller exponent. Next: the three-coefficient u+z*v+z^2*w syzygy recurrence, separate from the diagonal Toeplitz problem in PR207."
+      ],
+      "after": [
+        "The [affine-z coefficient-rank theorem](research/ai/2026-10-23-affine-z-biform-ranks/proof.md) computes the literal R_(a,b)(u(x)+z*v(x)) over every field for all a,b>=2: its rank is ab+min(b,a*d), where d is the largest degree of the coprime pair after removing gcd(u,v), and d=0 if one coefficient vanishes. Every rank in the resulting finite spectrum is attained by 1+x^d*z. An explicit polynomial left-kernel parametrization proves the formula without the previous general biform gap. Finite exact controls cover 3265 exhaustive pairs, 2992 deterministic seeded pairs, 570 prescribed spectrum points and 300 a>b cases over F2,F3,F5,F7,F101. Claim AI-AFFINE-Z-BIFORM-RANK-001 is proof-written-unreviewed. This is a one-slice statement, not a source-space cap, tensor target or smaller exponent. Next: the three-coefficient u+z*v+z^2*w syzygy recurrence, separate from the diagonal Toeplitz problem in PR207."
+      ],
+      "unique_new": [
+        "The [affine-z coefficient-rank theorem](research/ai/2026-10-23-affine-z-biform-ranks/proof.md) computes the literal R_(a,b)(u(x)+z*v(x)) over every field for all a,b>=2: its rank is ab+min(b,a*d), where d is the largest degree of the coprime pair after removing gcd(u,v), and d=0 if one coefficient vanishes. Every rank in the resulting finite spectrum is attained by 1+x^d*z. An explicit polynomial left-kernel parametrization proves the formula without the previous general biform gap. Finite exact controls cover 3265 exhaustive pairs, 2992 deterministic seeded pairs, 570 prescribed spectrum points and 300 a>b cases over F2,F3,F5,F7,F101. Claim AI-AFFINE-Z-BIFORM-RANK-001 is proof-written-unreviewed. This is a one-slice statement, not a source-space cap, tensor target or smaller exponent. Next: the three-coefficient u+z*v+z^2*w syzygy recurrence, separate from the diagonal Toeplitz problem in PR207."
+      ],
+      "resolution": [
+        "The [affine-z coefficient-rank theorem](research/ai/2026-10-23-affine-z-biform-ranks/proof.md) computes the literal R_(a,b)(u(x)+z*v(x)) over every field for all a,b>=2: its rank is ab+min(b,a*d), where d is the largest degree of the coprime pair after removing gcd(u,v), and d=0 if one coefficient vanishes. Every rank in the resulting finite spectrum is attained by 1+x^d*z. An explicit polynomial left-kernel parametrization proves the formula without the previous general biform gap. Finite exact controls cover 3265 exhaustive pairs, 2992 deterministic seeded pairs, 570 prescribed spectrum points and 300 a>b cases over F2,F3,F5,F7,F101. Claim AI-AFFINE-Z-BIFORM-RANK-001 is proof-written-unreviewed. This is a one-slice statement, not a source-space cap, tensor target or smaller exponent. Next: the three-coefficient u+z*v+z^2*w syzygy recurrence, separate from the diagonal Toeplitz problem in PR207."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "sha": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "path": "STATUS.md",
+      "op": "insert",
+      "before": [],
+      "after": [
+        "## October 23: exact independent-product aggregation",
+        "The [29-product construction](research/ai/2026-10-23-aggregation-families/proof.md)\ngives, over every characteristic-zero field and every n>=1,\nrank(M(n^3,n^3,n^3)^direct_sum29) <= x^9+9x^8+36x^7+3x^6, x=n+1.\nThis improves the attained 28-product comparison family in Solomonik and\nBlaeser arXiv:2610.26563v2. Its cost bound per output is strictly smaller\nfor every n: 29*r28-28*r29=x^6*(x^3+9x^2+7x+32)>0.\nAll 24,389 ordered mixed triples and all 48 correction subsets are checked\nexactly by a separate set-based verifier. A finite-field control also\nevaluates all 159,651 rank-one terms at n=2 for one exact assignment\nover F101; it is an implementation control.\nThe external aggregation mechanism retains credit. This is a positive\nfinite construction with a written unreviewed uniform rank proof; it\ndoes not provide a polynomial-source restriction or an exponent below 9/4.\nAn exact weighted AM-GM certificate shows that this displayed cost\nformula cannot reach 9/4 by direct asymptotic-sum substitution at any n.\nThis is not a lower bound on optimal tensor rank. No optimality,\nhistorical priority, independent review or formalization is claimed.\nClaim: AI-AGGREGATION-29-001."
+      ],
+      "unique_new": [
+        "## October 23: exact independent-product aggregation",
+        "The [29-product construction](research/ai/2026-10-23-aggregation-families/proof.md)\ngives, over every characteristic-zero field and every n>=1,\nrank(M(n^3,n^3,n^3)^direct_sum29) <= x^9+9x^8+36x^7+3x^6, x=n+1.\nThis improves the attained 28-product comparison family in Solomonik and\nBlaeser arXiv:2610.26563v2. Its cost bound per output is strictly smaller\nfor every n: 29*r28-28*r29=x^6*(x^3+9x^2+7x+32)>0.\nAll 24,389 ordered mixed triples and all 48 correction subsets are checked\nexactly by a separate set-based verifier. A finite-field control also\nevaluates all 159,651 rank-one terms at n=2 for one exact assignment\nover F101; it is an implementation control.\nThe external aggregation mechanism retains credit. This is a positive\nfinite construction with a written unreviewed uniform rank proof; it\ndoes not provide a polynomial-source restriction or an exponent below 9/4.\nAn exact weighted AM-GM certificate shows that this displayed cost\nformula cannot reach 9/4 by direct asymptotic-sum substitution at any n.\nThis is not a lower bound on optimal tensor rank. No optimality,\nhistorical priority, independent review or formalization is claimed.\nClaim: AI-AGGREGATION-29-001."
+      ],
+      "resolution": [
+        "## October 23: exact independent-product aggregation",
+        "The [29-product construction](research/ai/2026-10-23-aggregation-families/proof.md)\ngives, over every characteristic-zero field and every n>=1,\nrank(M(n^3,n^3,n^3)^direct_sum29) <= x^9+9x^8+36x^7+3x^6, x=n+1.\nThis improves the attained 28-product comparison family in Solomonik and\nBlaeser arXiv:2610.26563v2. Its cost bound per output is strictly smaller\nfor every n: 29*r28-28*r29=x^6*(x^3+9x^2+7x+32)>0.\nAll 24,389 ordered mixed triples and all 48 correction subsets are checked\nexactly by a separate set-based verifier. A finite-field control also\nevaluates all 159,651 rank-one terms at n=2 for one exact assignment\nover F101; it is an implementation control.\nThe external aggregation mechanism retains credit. This is a positive\nfinite construction with a written unreviewed uniform rank proof; it\ndoes not provide a polynomial-source restriction or an exponent below 9/4.\nAn exact weighted AM-GM certificate shows that this displayed cost\nformula cannot reach 9/4 by direct asymptotic-sum substitution at any n.\nThis is not a lower bound on optimal tensor rank. No optimality,\nhistorical priority, independent review or formalization is claimed.\nClaim: AI-AGGREGATION-29-001."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "path": "STATUS.md",
+      "op": "insert",
+      "before": [],
+      "after": [
+        "## Two-sided singular A4 maps require at least nine lost leading directions",
+        "The [full-source conjugation package](research/ai/2026-10-23-conjugation-limit/proof.md)\nstudies every normalized A4 slice under conjugation by `I+t^-1 N`, for\nthe specified square-zero source slice N of rank 16. Its complete\n112-dimensional saturated limit acts by scalars on a fixed\n12-dimensional space. After arbitrary constant compression to 110\ncoordinates on each long leg, a full `M(10,10,11)` target requires at\nleast nine lost leading slice directions: `dim(P L C)<=103`.\nThe proof allows every Laurent first map and accounts for directions\nthat reappear after compression; it does not replace re-saturation\nwith the projected leading space.",
+        "Exact replay rebuilds the literal source, its unimodular normalization,\nall polynomial-combination coefficients, 112 independent leading\nmatrices and the 12 scalar-action columns. All 6,216 principal\ncoordinate compressions have projected rank at least 108 modulo 1009,\nhence dimension at least 108 over C. They lose at most four leading\ndirections and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`\nand `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.\nThe arbitrary constant-compression locus of dimension at most 103,\nmoving compressions and other singular paths remain open. This is a\nscoped obstruction; it supplies no target or exponent improvement."
+      ],
+      "unique_new": [
+        "## Two-sided singular A4 maps require at least nine lost leading directions",
+        "The [full-source conjugation package](research/ai/2026-10-23-conjugation-limit/proof.md)\nstudies every normalized A4 slice under conjugation by `I+t^-1 N`, for\nthe specified square-zero source slice N of rank 16. Its complete\n112-dimensional saturated limit acts by scalars on a fixed\n12-dimensional space. After arbitrary constant compression to 110\ncoordinates on each long leg, a full `M(10,10,11)` target requires at\nleast nine lost leading slice directions: `dim(P L C)<=103`.\nThe proof allows every Laurent first map and accounts for directions\nthat reappear after compression; it does not replace re-saturation\nwith the projected leading space.",
+        "Exact replay rebuilds the literal source, its unimodular normalization,\nall polynomial-combination coefficients, 112 independent leading\nmatrices and the 12 scalar-action columns. All 6,216 principal\ncoordinate compressions have projected rank at least 108 modulo 1009,\nhence dimension at least 108 over C. They lose at most four leading\ndirections and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`\nand `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.\nThe arbitrary constant-compression locus of dimension at most 103,\nmoving compressions and other singular paths remain open. This is a\nscoped obstruction; it supplies no target or exponent improvement."
+      ],
+      "resolution": [
+        "## Two-sided singular A4 maps require at least nine lost leading directions",
+        "The [full-source conjugation package](research/ai/2026-10-23-conjugation-limit/proof.md)\nstudies every normalized A4 slice under conjugation by `I+t^-1 N`, for\nthe specified square-zero source slice N of rank 16. Its complete\n112-dimensional saturated limit acts by scalars on a fixed\n12-dimensional space. After arbitrary constant compression to 110\ncoordinates on each long leg, a full `M(10,10,11)` target requires at\nleast nine lost leading slice directions: `dim(P L C)<=103`.\nThe proof allows every Laurent first map and accounts for directions\nthat reappear after compression; it does not replace re-saturation\nwith the projected leading space.",
+        "Exact replay rebuilds the literal source, its unimodular normalization,\nall polynomial-combination coefficients, 112 independent leading\nmatrices and the 12 scalar-action columns. All 6,216 principal\ncoordinate compressions have projected rank at least 108 modulo 1009,\nhence dimension at least 108 over C. They lose at most four leading\ndirections and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`\nand `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.\nThe arbitrary constant-compression locus of dimension at most 103,\nmoving compressions and other singular paths remain open. This is a\nscoped obstruction; it supplies no target or exponent improvement."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "path": "STATUS.md",
+      "op": "replace",
+      "before": [
+        "The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)\ngives characteristic-two slice covers of 6867542 and 42493572 for the cubes\nof S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then\nhas abc<=2620 or abc<=6518 respectively. This excludes M19 in the second\nsource and 38 additional shapes from the maintained coordinate/potential\nfrontier, leaving two and nine general-test survivors. M(13,14,14) in the\nfirst source remains open. The exact verifier replays the prior radical\nand block certificates and all 227713 allowed bidegree triples. Claim\n`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,\narbitrary higher-source constructions, and the exponent question remain open."
+      ],
+      "after": [
+        "The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)\ngives characteristic-two slice covers of 6867542 and 42493572 for the cubes\nof S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then\nhas abc<=2620 or abc<=6518 respectively. This excludes 38 additional shapes\nfrom the maintained coordinate/potential frontier, including M19 in the\nsecond source, leaving two and nine general-test survivors. M(13,14,14) in the\nfirst source remains open. The exact verifier replays the prior radical\nand block certificates and all 227713 allowed bidegree triples. Claim\n`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,\narbitrary higher-source constructions, and the exponent question remain open."
+      ],
+      "unique_new": [
+        "The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)\ngives characteristic-two slice covers of 6867542 and 42493572 for the cubes\nof S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then\nhas abc<=2620 or abc<=6518 respectively. This excludes 38 additional shapes\nfrom the maintained coordinate/potential frontier, including M19 in the\nsecond source, leaving two and nine general-test survivors. M(13,14,14) in the\nfirst source remains open. The exact verifier replays the prior radical\nand block certificates and all 227713 allowed bidegree triples. Claim\n`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,\narbitrary higher-source constructions, and the exponent question remain open."
+      ],
+      "resolution": [
+        "The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)\ngives characteristic-two slice covers of 6867542 and 42493572 for the cubes\nof S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then\nhas abc<=2620 or abc<=6518 respectively. This excludes 38 additional shapes\nfrom the maintained coordinate/potential frontier, including M19 in the\nsecond source, leaving two and nine general-test survivors at that checkpoint.\nThe later Peirce full-source covers exclude five of those nine\ntwo-central-factor shapes. M(13,14,14) in the first source remains open. The exact verifier replays the prior radical\nand block certificates and all 227713 allowed bidegree triples. Claim\n`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,\narbitrary higher-source constructions, and the exponent question remain open."
+      ],
+      "reason": "Correct the exclusion count to38 total newly excluded shapes, including M19, while preserving later Peirce refinements and historical validation scope."
+    },
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "path": "docs/research_directions.md",
+      "op": "replace",
+      "before": [
+        "The [affine-z biform rank theorem](../research/ai/2026-10-23-affine-z-biform-ranks/proof.md) classifies all individual R_(a,b)(u(x)+z*v(x)) ranks as ab+min(b,a*d) over every field. It is a restricted one-slice result and does not imply a matrix target. Its separate next question is the polynomial row-syzygy module for u+z*v+z^2*w, including falsifiable tests of degree-only rank predictions. PR207 owns the diagonal f(xz) Toeplitz defects; do not duplicate that lane."
+      ],
+      "after": [
+        "The [affine-z biform rank theorem](../research/ai/2026-10-23-affine-z-biform-ranks/proof.md) classifies all individual R_(a,b)(u(x)+z*v(x)) ranks as ab+min(b,a*d) over every field and all a,b>=2. It is a restricted one-slice result and does not imply a matrix target. Its separate next question is the polynomial row-syzygy module for u+z*v+z^2*w, including falsifiable tests of degree-only rank predictions. PR207 owns the diagonal f(xz) Toeplitz defects; do not duplicate that lane."
+      ],
+      "unique_new": [
+        "The [affine-z biform rank theorem](../research/ai/2026-10-23-affine-z-biform-ranks/proof.md) classifies all individual R_(a,b)(u(x)+z*v(x)) ranks as ab+min(b,a*d) over every field and all a,b>=2. It is a restricted one-slice result and does not imply a matrix target. Its separate next question is the polynomial row-syzygy module for u+z*v+z^2*w, including falsifiable tests of degree-only rank predictions. PR207 owns the diagonal f(xz) Toeplitz defects; do not duplicate that lane."
+      ],
+      "resolution": [
+        "The [affine-z biform rank theorem](../research/ai/2026-10-23-affine-z-biform-ranks/proof.md) classifies all individual R_(a,b)(u(x)+z*v(x)) ranks as ab+min(b,a*d) over every field and all a,b>=2. It is a restricted one-slice result and does not imply a matrix target. Its separate next question is the polynomial row-syzygy module for u+z*v+z^2*w, including falsifiable tests of degree-only rank predictions. PR207 owns the diagonal f(xz) Toeplitz defects; do not duplicate that lane."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "path": "docs/research_directions.md",
+      "op": "insert",
+      "before": [],
+      "after": [
+        "## Full-source singular maps: the compression rank-loss condition",
+        "The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)\ncomputes the complete limiting space for `g=I+t^-1 N`, with the fixed\nrank-sixteen square-zero source slice N. A full matrix target can occur\nafter constant long-leg compression only on the locus\n`dim(P L C)<=103`, where at least nine leading directions disappear.\nAll principal two-coordinate deletions are excluded by a complete exact\ncensus. Do not repeat that finite class. The next constructive question\nis whether an arbitrary compression on this rank-loss locus can recover\nthe full matrix slice space after re-saturation, or whether a different\nsingular path avoids the scalar-action obstruction. A candidate must\nsupply every target coefficient; a large limiting-space dimension alone\ndoes not identify matrix multiplication."
+      ],
+      "unique_new": [
+        "## Full-source singular maps: the compression rank-loss condition",
+        "The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)\ncomputes the complete limiting space for `g=I+t^-1 N`, with the fixed\nrank-sixteen square-zero source slice N. A full matrix target can occur\nafter constant long-leg compression only on the locus\n`dim(P L C)<=103`, where at least nine leading directions disappear.\nAll principal two-coordinate deletions are excluded by a complete exact\ncensus. Do not repeat that finite class. The next constructive question\nis whether an arbitrary compression on this rank-loss locus can recover\nthe full matrix slice space after re-saturation, or whether a different\nsingular path avoids the scalar-action obstruction. A candidate must\nsupply every target coefficient; a large limiting-space dimension alone\ndoes not identify matrix multiplication."
+      ],
+      "resolution": [
+        "## Full-source singular maps: the compression rank-loss condition",
+        "The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)\ncomputes the complete limiting space for `g=I+t^-1 N`, with the fixed\nrank-sixteen square-zero source slice N. A full matrix target can occur\nafter constant long-leg compression only on the locus\n`dim(P L C)<=103`, where at least nine leading directions disappear.\nAll principal two-coordinate deletions are excluded by a complete exact\ncensus. Do not repeat that finite class. The next constructive question\nis whether an arbitrary compression on this rank-loss locus can recover\nthe full matrix slice space after re-saturation, or whether a different\nsingular path avoids the scalar-action obstruction. A candidate must\nsupply every target coefficient; a large limiting-space dimension alone\ndoes not identify matrix multiplication."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "path": "docs/research_directions.md",
+      "op": "replace",
+      "before": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes the one-copy M19 coordinate target and 38 additional shapes\nfrom the previous frontier. The one-central-factor M(13,14,14) remains\nopen, along with the two and nine remaining shapes listed in that proof.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search."
+      ],
+      "after": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes 38 additional shapes from the previous frontier, including\nthe one-copy M19 coordinate target. The one-central-factor M(13,14,14) remains\nopen, along with the two and nine remaining shapes listed in that proof.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search."
+      ],
+      "unique_new": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes 38 additional shapes from the previous frontier, including\nthe one-copy M19 coordinate target. The one-central-factor M(13,14,14) remains\nopen, along with the two and nine remaining shapes listed in that proof.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search."
+      ],
+      "resolution": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes 38 additional shapes from the previous frontier, including\nthe one-copy M19 coordinate target. At that checkpoint, the two one-central-factor shapes M(13,13,15)\nand M(13,14,14), together with nine two-central-factor shapes, were\nlisted for further work; use the finer covers below for the later frontier.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search."
+      ],
+      "reason": "Correct the exclusion count to38 total newly excluded shapes, including M19, while preserving later Peirce refinements and historical validation scope."
+    },
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "path": "research/ACTIVE.md",
+      "op": "replace",
+      "before": [
+        "The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including non-square a<=b. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established."
+      ],
+      "after": [
+        "The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including both orderings of a,b>=2. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established."
+      ],
+      "unique_new": [
+        "The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including both orderings of a,b>=2. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established."
+      ],
+      "resolution": [
+        "The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including both orderings of a,b>=2. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "path": "research/ACTIVE.md",
+      "op": "insert",
+      "before": [],
+      "after": [
+        "The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)\nnow has a complete limiting-space certificate and a written necessary\ncondition: arbitrary constant 110-coordinate compressions must lose\nat least nine leading directions to permit `M(10,10,11)`. Every one\nof the 6,216 principal coordinate deletions loses at most four, so that\nfinite class is closed. Keep the projected leading space distinct from\nthe full re-saturated limit; the proof explicitly bounds newly recovered\ndirections. The remaining question in this family is the locus\n`dim(P L C)<=103`. Moving compressions and genuinely different singular\npaths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and\n`AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full\ntarget or exponent improvement is established."
+      ],
+      "unique_new": [
+        "The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)\nnow has a complete limiting-space certificate and a written necessary\ncondition: arbitrary constant 110-coordinate compressions must lose\nat least nine leading directions to permit `M(10,10,11)`. Every one\nof the 6,216 principal coordinate deletions loses at most four, so that\nfinite class is closed. Keep the projected leading space distinct from\nthe full re-saturated limit; the proof explicitly bounds newly recovered\ndirections. The remaining question in this family is the locus\n`dim(P L C)<=103`. Moving compressions and genuinely different singular\npaths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and\n`AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full\ntarget or exponent improvement is established."
+      ],
+      "resolution": [
+        "The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)\nnow has a complete limiting-space certificate and a written necessary\ncondition: arbitrary constant 110-coordinate compressions must lose\nat least nine leading directions to permit `M(10,10,11)`. Every one\nof the 6,216 principal coordinate deletions loses at most four, so that\nfinite class is closed. Keep the projected leading space distinct from\nthe full re-saturated limit; the proof explicitly bounds newly recovered\ndirections. The remaining question in this family is the locus\n`dim(P L C)<=103`. Moving compressions and genuinely different singular\npaths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and\n`AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full\ntarget or exponent improvement is established."
+      ],
+      "reason": "Apply the new source-head prose delta exactly; retain its evidence status and scope."
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "path": "research/ACTIVE.md",
+      "op": "replace",
+      "before": [
+        "The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`\n(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.\nSeparate weights give actual-source cube bounds 6867542 and 42493572 for\nS5 x C2 and S5 x C2^2, closing the selected one-copy M19 coordinate target\nand 38 additional frontier shapes. M(13,14,14) remains open. Five focused\ntests, all five archive replays and every hosted regression group at e16c7e3\npass. The local full-suite run was interrupted without a completion receipt;\nfinal integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,\nwith no arbitrary-complex or higher-source-power exclusion or exponent gain."
+      ],
+      "after": [
+        "The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`\n(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.\nSeparate weights give actual-source cube bounds 6867542 and 42493572 for\nS5 x C2 and S5 x C2^2, excluding 38 additional frontier shapes, including\nthe selected one-copy M19 coordinate target. M(13,14,14) remains open. Five focused\ntests, all five archive replays and every hosted regression group at e16c7e3\npass. The local full-suite run was interrupted without a completion receipt;\nfinal integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,\nwith no arbitrary-complex or higher-source-power exclusion or exponent gain."
+      ],
+      "unique_new": [
+        "The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`\n(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.\nSeparate weights give actual-source cube bounds 6867542 and 42493572 for\nS5 x C2 and S5 x C2^2, excluding 38 additional frontier shapes, including\nthe selected one-copy M19 coordinate target. M(13,14,14) remains open. Five focused\ntests, all five archive replays and every hosted regression group at e16c7e3\npass. The local full-suite run was interrupted without a completion receipt;\nfinal integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,\nwith no arbitrary-complex or higher-source-power exclusion or exponent gain."
+      ],
+      "resolution": [
+        "The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`\n(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.\nSeparate weights give actual-source cube bounds 6867542 and 42493572 for\nS5 x C2 and S5 x C2^2, excluding 38 additional frontier shapes, including\nthe selected one-copy M19 coordinate target. M(13,14,14) remains open. Five focused\ntests, all five archive replays and every hosted regression group at e16c7e3\npass. The local full-suite run was interrupted without a completion receipt;\nfinal integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,\nwith no arbitrary-complex or higher-source-power exclusion or exponent gain."
+      ],
+      "reason": "Correct the exclusion count to38 total newly excluded shapes, including M19, while preserving later Peirce refinements and historical validation scope."
+    }
+  ],
+  "output_files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "ed4eda2d6b9a41e3bfc74f895dd25d640ed609572b6e1255421d17e781ce0241",
+      "source_commit": null,
+      "source_path": "PROVENANCE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/PROVENANCE.md",
+      "source_commits": [
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "ffbb0d3f530485413efd5e0cc9b82534ce6f6435"
+      ],
+      "reason": "Initial frozen narrative union plus all novel seven-head catchup deltas, retaining advanced conic scope resolutions and later S5 refinements."
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "88ba4fc53991bdbeca0ce578edd96a2cd488470fc268d7e1efae8041b97b6005",
+      "source_commit": null,
+      "source_path": "STATUS.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/STATUS.md",
+      "source_commits": [
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "4247f42eeb305163d299f908144b5915d1c238c5",
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+        "ffbb0d3f530485413efd5e0cc9b82534ce6f6435"
+      ],
+      "reason": "Initial frozen narrative union plus all novel seven-head catchup deltas, retaining advanced conic scope resolutions and later S5 refinements."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "625c1e99027502b137ce53376965d45f651e6ad5c53d70cf33d347aaa2d03ae7",
+      "source_commit": null,
+      "source_path": "docs/research_directions.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/docs/research_directions.md",
+      "source_commits": [
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "4247f42eeb305163d299f908144b5915d1c238c5",
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b"
+      ],
+      "reason": "Initial frozen narrative union plus all novel seven-head catchup deltas, retaining advanced conic scope resolutions and later S5 refinements."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "fb4f4e7550b971e7b8326962f76905ac20731f5c7ad8abff9badb42715660fe6",
+      "source_commit": null,
+      "source_path": "research/ACTIVE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ACTIVE.md",
+      "source_commits": [
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "4247f42eeb305163d299f908144b5915d1c238c5",
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b"
+      ],
+      "reason": "Initial frozen narrative union plus all novel seven-head catchup deltas, retaining advanced conic scope resolutions and later S5 refinements."
+    },
+    {
+      "path": "research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+      "sha256": "573f70dd602b6e8f947609d6aba62584be46330b9a898a72b75e2e23194d8965",
+      "source_commit": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "source_path": "research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+      "source_commits": [
+        "4247f42eeb305163d299f908144b5915d1c238c5"
+      ],
+      "reason": "Exact corrected package Markdown from the catchup source head."
+    },
+    {
+      "path": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+      "sha256": "609eb4dd3ff6fe2ca288f4a0244aac77f84961d0c7814203bfbdf3efadfed3bf",
+      "source_commit": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "source_path": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+      "source_commits": [
+        "4247f42eeb305163d299f908144b5915d1c238c5"
+      ],
+      "reason": "Exact corrected package Markdown from the catchup source head."
+    },
+    {
+      "path": "research/ai/2026-10-23-s5-finite-covers/README.md",
+      "sha256": "41b49d90662554371e6888f7976d0d86dcff2a51b072b83b9293bf81e7535de9",
+      "source_commit": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "source_path": "research/ai/2026-10-23-s5-finite-covers/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-s5-finite-covers/README.md",
+      "source_commits": [
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b"
+      ],
+      "reason": "Exact corrected package Markdown from the catchup source head."
+    }
+  ],
+  "inherited_delta_policy": "Four merge-heavy heads imported earlier conic text already present in the original frozen branch set. Those paragraphs were deduplicated instead of reverting the later projective and prescribed-jet scope corrections.",
+  "package_policy": "Affinez README/proof and S5 README are exact catchup blobs. New aggregation Markdown remains exact in root integration. Conjugation-limit Markdown is not overlaid because root has a newer33180157 source head. Other conic packages remain owned by root/validation.",
+  "checks": {
+    "relative_markdown_links_missing": [],
+    "conflict_markers": 0,
+    "unbalanced_fences": 0
+  },
+  "unresolved_semantic_conflicts": []
+}

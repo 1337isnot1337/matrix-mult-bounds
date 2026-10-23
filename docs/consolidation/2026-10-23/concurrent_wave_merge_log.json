@@ -1,0 +1,43 @@
+[
+  {
+    "branch": "research/a4-universal-20261023-ab94",
+    "source_head": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+    "previous_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+    "merge_commit": "b173c35180c84f274423fc0fc876eff7a899b299",
+    "conflicts": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "docs/research_directions.md",
+      "research/claims.json"
+    ],
+    "provisional_resolution": "Retain current bytes during real history merge; reconstruct reviewed baseline plus exact authored source leaves and explicit claims/prose overlays before validation."
+  },
+  {
+    "branch": "research/column-overlap-validation-20261023-ab94",
+    "source_head": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+    "previous_head": "b173c35180c84f274423fc0fc876eff7a899b299",
+    "merge_commit": "e8bdb0a9c911be159d7ccfb392ea1f881ea570e7",
+    "conflicts": [],
+    "provisional_resolution": "Retain current bytes during real history merge; reconstruct reviewed baseline plus exact authored source leaves and explicit claims/prose overlays before validation."
+  },
+  {
+    "branch": "research/pruned-aggregation-20261023-ab94",
+    "source_head": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+    "previous_head": "e8bdb0a9c911be159d7ccfb392ea1f881ea570e7",
+    "merge_commit": "c0aae97b9ec97d4f74636b6f71dec2a231ca748a",
+    "conflicts": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "research/claims.json"
+    ],
+    "provisional_resolution": "Retain current bytes during real history merge; reconstruct reviewed baseline plus exact authored source leaves and explicit claims/prose overlays before validation."
+  },
+  {
+    "branch": "research/quadratic-torsion-attainment-01a1697d",
+    "source_head": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+    "previous_head": "c0aae97b9ec97d4f74636b6f71dec2a231ca748a",
+    "merge_commit": "03fbdf23a0a9310796fcd615bb6782324b72613e",
+    "conflicts": [],
+    "provisional_resolution": "Retain current bytes during real history merge; reconstruct reviewed baseline plus exact authored source leaves and explicit claims/prose overlays before validation."
+  }
+]

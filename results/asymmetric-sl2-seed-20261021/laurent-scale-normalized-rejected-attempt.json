@@ -1,0 +1,13 @@
+{
+  "status": "stopped by derivative validation before optimization",
+  "preconditioner_floor": 1e-12,
+  "directional_errors": [
+    0.0007391009561805126,
+    1.127071691051019e-07
+  ],
+  "required_minimum_error_below": 1e-07,
+  "validation_threshold_unchanged": true,
+  "log_sha256": "ea460576a84171cca9e4465ef308152bf22d0cb2868af5685b135823699fd72a",
+  "next_attempt": "Use the already smoke-tested preconditioner floor1e-10; still requires its own derivative gate",
+  "improves_omega": false
+}

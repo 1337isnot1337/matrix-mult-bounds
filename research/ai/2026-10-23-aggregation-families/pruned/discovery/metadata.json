@@ -1,0 +1,48 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "dimension_profile_discovery": {
+    "attempted_mutations_per_run": 10000,
+    "completed_runs": 5,
+    "bases": [
+      2,
+      3,
+      4,
+      7,
+      11
+    ],
+    "seeds": [
+      20261025,
+      20261026,
+      20261027,
+      20261030,
+      20261034
+    ],
+    "objective": "float budget divided by float critical volume mass; proposal only",
+    "all_full_profiles_disallowed": true,
+    "source_transcription_checked_against_raw_pinned_source": true,
+    "scope": "bounded exploratory search, no optimality assertion"
+  },
+  "split_auxiliary_discovery": {
+    "prime": 1000003,
+    "bases": [
+      2,
+      3,
+      4
+    ],
+    "completed_systems": 6,
+    "nonpositive_coordinate_patterns": 2279,
+    "scope": "modular coefficient-system discovery only; no characteristic-zero exclusion or construction"
+  },
+  "files": {
+    "explore.py": "fe76c7daef0ec8c7370830a77db85be392a00cb51ee1ec34fd6b22c0b5351723",
+    "dimension_profiles.json": "e89633196947249336bc23ed63691444773dfc05d44eb6dcd1b651df4731b5c4",
+    "split_auxiliary.py": "deff3777f35a90c50b95019616f164f5e5447da9dddb20cb24d0dc149f614f31",
+    "split_auxiliary.json": "70213015457a374cbc0909e56a9ac8f3e87ec0e80eea9f13fc1430e1a064143e"
+  },
+  "source_transcription_verification": {
+    "raw_source_sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+    "all22_part_rows_equal": true,
+    "all22_signed_grade_rows_equal": true,
+    "all18_correction_subsets_equal": true
+  }
+}

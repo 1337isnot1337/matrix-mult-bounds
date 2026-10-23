@@ -1,0 +1,76 @@
+{
+  "source_parameters": [
+    2,
+    4,
+    4
+  ],
+  "source_format": [
+    12,
+    40,
+    40
+  ],
+  "reduced_target": [
+    3,
+    3,
+    8
+  ],
+  "map_denominators": [
+    2,
+    42,
+    2
+  ],
+  "integer_coefficient_scale": 168,
+  "construction_checks": {
+    "U_dimension": 6,
+    "W_dimension": 16,
+    "D_dimension": 10,
+    "selected_channels": 8,
+    "join_dimension": 40,
+    "join_determinant": "21/128",
+    "triangular_identity_and_all_endpoint_relations_checked": true,
+    "complete_exact_join_duality_checked": true,
+    "span_with_short_swapped_transpose_first_map": 12
+  },
+  "reduced_coefficient_replay": {
+    "source_terms_checked": 256,
+    "active_source_terms": 256,
+    "target_coefficients_checked": 5184,
+    "nonzero_target_coefficients": 72
+  },
+  "original_source_replays": [
+    {
+      "source": [
+        4,
+        4
+      ],
+      "target": [
+        3,
+        3,
+        8
+      ],
+      "source_terms_checked": 4096,
+      "active_source_terms": 256,
+      "target_coefficients_checked": 5184,
+      "nonzero_target_coefficients": 72
+    },
+    {
+      "source": [
+        8,
+        8
+      ],
+      "target": [
+        3,
+        3,
+        32
+      ],
+      "source_terms_checked": 262144,
+      "active_source_terms": 1024,
+      "target_coefficients_checked": 82944,
+      "nonzero_target_coefficients": 288
+    }
+  ],
+  "larger_square_target_constructed": false,
+  "new_exponent_established": false,
+  "witness_sha256": "b05950d7b9b5b9b3796e9ed91c8a8daf5d87bbbf902ee320232cfaa16381e4ea",
+  "full_maps_sha256": "6f895d2eb8ae68b2edabf662fb7b39e8709b0b41ec77e8f29678de5d0d1711e6"
+}

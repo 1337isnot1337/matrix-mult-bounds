@@ -1,0 +1,191 @@
+{
+  "schema": "matrix-quadratic-followup-docs-resolution-v1",
+  "prepared_at_utc": "2026-10-23T18:23:49.880412+00:00",
+  "baseline_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "fcff438f85b57a104936421001205b3d37ee8617e535f9111d623b041fa58306",
+      "input_sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "STATUS.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/STATUS.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "3224988926a87a06209d512b4928eef94ba1f981432274eb75052873de38ccc9",
+      "input_sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "PROVENANCE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/PROVENANCE.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "d9b6bafab4fefc9797ee078dc85222e925059f319ad941c099f0ce146fbcb146",
+      "input_sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "docs/research_directions.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/docs/research_directions.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "8022ef0ff65e6a1d09620e8b3408ad0b9cbf1965d7b666962cd7e87dad9b7c18",
+      "input_sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "research/ACTIVE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/research/ACTIVE.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    }
+  ],
+  "operations": [
+    {
+      "kind": "source_authored_insertion",
+      "path": "STATUS.md",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_text": "## General quadratic biform ranks from two kernel indices\n\nThe [quadratic-kernel theorem](research/ai/2026-10-23-quadratic-kernel-indices/proof.md)\nmakes the rank of every nonzero `u(x)+z*v(x)+z^2*w(x)` slice computable\nover any field, with coefficient degrees below a, a>=2 and b>=3.\nAfter common-factor normalization, let D be the largest coefficient degree.\nThe two polynomial-kernel indices sum to aD; the first is the first degree\nat which the explicit recurrence coefficient matrix has a nonzero kernel,\nwhich occurs by floor(aD/2). The full source rank is\n`ab+min(b,mu1)+min(b,mu2)`. For positive D, a zero first index is equivalent\nto a fixed ground-field linear factor in the homogeneous z-quadratic.\nThis specializes the prior kernel-bundle identity and adds an effective\ntwo-index procedure. Exact finite controls compare 2010 complete source\nmatrices, including the earlier equal-resultant ranks14/15 and their\ncharacteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is\nwritten and unreviewed. No source-space cap, compatible matrix target,\nsingular degeneration or exponent improvement is established.",
+      "final_text": "## General quadratic biform ranks from two kernel indices\n\nThe [quadratic-kernel theorem](research/ai/2026-10-23-quadratic-kernel-indices/proof.md)\nmakes the rank of every nonzero `u(x)+z*v(x)+z^2*w(x)` slice computable\nover any field, with coefficient degrees below a, a>=2 and b>=3.\nAfter common-factor normalization, let D be the largest coefficient degree.\nThe two polynomial-kernel indices sum to aD; the first is the first degree\nat which the explicit recurrence coefficient matrix has a nonzero kernel,\nwhich occurs by floor(aD/2). The full source rank is\n`ab+min(b,mu1)+min(b,mu2)`. For positive D, a zero first index is equivalent\nto a fixed ground-field linear factor in the homogeneous z-quadratic.\nThis specializes the prior kernel-bundle identity and adds an effective\ntwo-index procedure. Exact finite controls compare 2010 complete source\nmatrices, including the earlier equal-resultant ranks14/15 and their\ncharacteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is\nwritten and unreviewed. No source-space cap, compatible matrix target,\nsingular degeneration or exponent improvement is established.",
+      "reason": "Preserve the authored continuation and its scope/attribution. Document the only summary qualifications separately."
+    },
+    {
+      "kind": "source_authored_insertion",
+      "path": "PROVENANCE.md",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_text": "The `2026-10-23-quadratic-kernel-indices` package is owner-directed OpenAI\nCodex work. The literal crossed source and its general kernel-bundle rank\nidentity retain their prior repository credit. Grothendieck splitting is\nexternal mathematics, used in the arbitrary-field form of Schoemann and\nWiedmann, arXiv:1712.03056v1, Theorem2.1. The local additions specialize\nthe full quadratic recurrence to two indices, recover both by a bounded\ncoefficient-matrix test and identify the zero-index fixed-linear-factor\ncase. Earlier affine, constant-endpoint, top-coefficient and resultant\ncounterexample packages retain their separate credit. Exact source-matrix\ncomparisons and same-session checking are not independent mathematical\nreview, formalization, historical priority or an exponent improvement.",
+      "final_text": "The `2026-10-23-quadratic-kernel-indices` package is owner-directed OpenAI\nCodex work. The literal crossed source and its general kernel-bundle rank\nidentity retain their prior repository credit. Grothendieck splitting is\nexternal mathematics, used in the arbitrary-field form of Schoemann and\nWiedmann, arXiv:1712.03056v1, Theorem2.1. The local additions specialize\nthe full quadratic recurrence to two indices, recover both by a bounded\ncoefficient-matrix test and identify the zero-index fixed-linear-factor\ncase. Earlier affine, constant-endpoint, top-coefficient and resultant\ncounterexample packages retain their separate credit. Exact source-matrix\ncomparisons and same-session checking are not independent mathematical\nreview, formalization, historical priority or an exponent improvement.",
+      "reason": "Preserve the authored continuation and its scope/attribution. Document the only summary qualifications separately."
+    },
+    {
+      "kind": "source_authored_insertion",
+      "path": "research/ACTIVE.md",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_text": "The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)\ndetermines individual slice ranks through two polynomial-kernel indices,\nwhose sum is aD and whose first nonzero-kernel degree is computable by a\nbounded exact coefficient-matrix test. It explains the distinct indices\nof the earlier equal-resultant examples and characterizes the zero first\nindex by a fixed ground-field linear factor. Do not repeat coefficient\ndegree or pairwise-resultant-only searches. Further structural work should\nbound the positive first index or impose compatible three-leg maps; the\nsingle-slice formula does not supply a matrix target. Written, unreviewed.",
+      "final_text": "The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)\ndetermines individual slice ranks through two polynomial-kernel indices,\nwhose sum is aD and whose first nonzero-kernel degree is computable by a\nbounded exact coefficient-matrix test. It explains the distinct indices\nof the earlier equal-resultant examples. For D>0 after common-factor\nnormalization, it characterizes the zero first index by a fixed ground-field\nlinear factor. Do not repeat coefficient\ndegree or pairwise-resultant-only searches. Further structural work should\nbound the positive first index or impose compatible three-leg maps; the\nsingle-slice formula does not supply a matrix target. Written, unreviewed.",
+      "reason": "Preserve the authored continuation and its scope/attribution. Document the only summary qualifications separately."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "docs/research_directions.md",
+      "old_text": "constant and `d=deg(v)` (zero for v=0). The next unowned question\nis the degree-filtered syzygy module of\n`u(x)+z*v(x)+z^2*w(x)` with nonconstant outer coefficients.\nIdentify the two minimal polynomial-basis degrees. The\n",
+      "new_text": "constant and `d=deg(v)` (zero for v=0). The\n",
+      "reason": "Retain the solved special family while removing the earlier request that the new general quadratic continuation addresses."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "docs/research_directions.md",
+      "old_text": "resultants in characteristic different from two. The general minimal-index\nand syzygy classification remains open. Use PR209's row-polynomial\n",
+      "new_text": "resultants in characteristic different from two. The general quadratic\ncontinuation below now computes both minimal indices for arbitrary outer\ncoefficients. Structural bounds from polynomial-factor geometry remain open.\nUse PR209's row-polynomial\n",
+      "reason": "Distinguish the supplied effective two-index computation from the remaining structural classification problem; retain the counterexample field scope."
+    },
+    {
+      "kind": "source_authored_insertion",
+      "path": "docs/research_directions.md",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_text": "The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)\ngives a finite exact procedure for the two kernel indices of arbitrary\n`u(x)+z*v(x)+z^2*w(x)`, and hence the full source rank at every b>=3.\nThe constant first-index case is characterized by a fixed linear factor.\nThe next structural question is to bound positive first indices in terms\nof additional polynomial-factor geometry, beyond coefficient degrees and\npairwise resultants. Preserve exact full-output coefficients and distinguish\nthese individual-slice constraints from a source-space cap or a full\nmatrix target. The claim remains written and unreviewed.",
+      "final_text": "The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)\ngives a finite exact procedure for the two kernel indices of arbitrary\n`u(x)+z*v(x)+z^2*w(x)` with coefficient degrees below a, a>=2 and b>=3,\nand hence its literal slice-matrix rank. For D>0 after common-factor\nnormalization, the zero first-index case is characterized by a fixed\nground-field linear factor.\nThe next structural question is to bound positive first indices in terms\nof additional polynomial-factor geometry, beyond coefficient degrees and\npairwise resultants. Preserve exact full-output coefficients and distinguish\nthese individual-slice constraints from a source-space cap or a full\nmatrix target. The claim remains written and unreviewed.",
+      "reason": "Preserve the authored continuation and its scope/attribution. Document the only summary qualifications separately."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "docs/research_directions.md",
+      "old_text": "It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample.",
+      "new_text": "It is a distinct special-family formula. The general quadratic continuation now treats arbitrary u(x)+z*v(x)+z^2*w(x) with a bounded two-index test. Further work can seek structural index bounds or study higher z-degree families with several nonconstant coefficient polynomials.",
+      "reason": "Update the older top-coefficient follow-up without changing its special-family theorem or attribution."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "docs/research_directions.md",
+      "old_text": "The next precise question is to compute two minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients and bounded-degree solutions; seek exact subresultant conditions or higher-rank coefficient pencils, and require a full three-leg source-to-target map before claiming a smaller exponent.",
+      "new_text": "The general quadratic continuation now computes both minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients by a bounded exact coefficient-matrix test. The remaining structural question is to describe positive-index strata through subresultants or polynomial-factor geometry; require a full three-leg source-to-target map before claiming a smaller exponent.",
+      "reason": "Mark the recurrence-index computation as supplied, while retaining the structural geometry and three-leg construction questions."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "research/ACTIVE.md",
+      "old_text": "The next problem is computing the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 and finding the additional subresultant/syzygy invariants that control rank.",
+      "new_text": "The general quadratic continuation now computes the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 by a bounded exact test. Structural descriptions of their positive-index strata through additional subresultant or factor geometry remain open.",
+      "reason": "Keep the resultant example and field qualification while reconciling its completed computational follow-up."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "research/ACTIVE.md",
+      "old_text": "Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x.",
+      "new_text": "The general quadratic continuation now supplies an effective two-index test for arbitrary quadratic coefficients. Further structural work can constrain positive indices or study higher z-degree families with several nonconstant coefficient polynomials.",
+      "reason": "Scope the remaining task after the general quadratic result, retaining the separately credited top-coefficient family."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "research/ACTIVE.md",
+      "old_text": "The next question is the minimal polynomial-basis degree filtration\nwith nonconstant outer coefficients.",
+      "new_text": "The [general quadratic continuation](ai/2026-10-23-quadratic-kernel-indices/proof.md)\nnow computes both minimal degrees for nonconstant outer coefficients;\nstructural descriptions of the positive first index remain open.",
+      "reason": "Update the earlier constant-endpoint package next step while preserving its formula, finite receipt and unreviewed status."
+    },
+    {
+      "kind": "scope_or_continuation_reconciliation",
+      "path": "research/ACTIVE.md",
+      "old_text": "Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem.",
+      "new_text": "The [general quadratic continuation](ai/2026-10-23-quadratic-kernel-indices/proof.md) now supplies an exact two-index procedure, while PR216 retains credit for the counterexample to degree/resultant-only data. PR207 owns the diagonal Toeplitz problem.",
+      "reason": "Preserve the affine theorem and distinguish its now-supplied follow-up from the separate diagonal problem."
+    }
+  ],
+  "summary_qualifications": [
+    {
+      "path": "research/ACTIVE.md",
+      "reason": "The zero-index/fixed-ground-field-linear-factor equivalence requires D>0 after common-factor normalization. D=0 always gives two zero indices even when the constant quadratic has no ground-field linear factor.",
+      "source_text": "The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)\ndetermines individual slice ranks through two polynomial-kernel indices,\nwhose sum is aD and whose first nonzero-kernel degree is computable by a\nbounded exact coefficient-matrix test. It explains the distinct indices\nof the earlier equal-resultant examples and characterizes the zero first\nindex by a fixed ground-field linear factor. Do not repeat coefficient\ndegree or pairwise-resultant-only searches. Further structural work should\nbound the positive first index or impose compatible three-leg maps; the\nsingle-slice formula does not supply a matrix target. Written, unreviewed.",
+      "final_text": "The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)\ndetermines individual slice ranks through two polynomial-kernel indices,\nwhose sum is aD and whose first nonzero-kernel degree is computable by a\nbounded exact coefficient-matrix test. It explains the distinct indices\nof the earlier equal-resultant examples. For D>0 after common-factor\nnormalization, it characterizes the zero first index by a fixed ground-field\nlinear factor. Do not repeat coefficient\ndegree or pairwise-resultant-only searches. Further structural work should\nbound the positive first index or impose compatible three-leg maps; the\nsingle-slice formula does not supply a matrix target. Written, unreviewed."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "reason": "State a>=2,b>=3 and D>0 for the fixed-factor equivalence; replace ambiguous constant-first-index wording with zero first index. Place this continuation adjacent to the older quadratic/biform entries.",
+      "source_text": "The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)\ngives a finite exact procedure for the two kernel indices of arbitrary\n`u(x)+z*v(x)+z^2*w(x)`, and hence the full source rank at every b>=3.\nThe constant first-index case is characterized by a fixed linear factor.\nThe next structural question is to bound positive first indices in terms\nof additional polynomial-factor geometry, beyond coefficient degrees and\npairwise resultants. Preserve exact full-output coefficients and distinguish\nthese individual-slice constraints from a source-space cap or a full\nmatrix target. The claim remains written and unreviewed.",
+      "final_text": "The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)\ngives a finite exact procedure for the two kernel indices of arbitrary\n`u(x)+z*v(x)+z^2*w(x)` with coefficient degrees below a, a>=2 and b>=3,\nand hence its literal slice-matrix rank. For D>0 after common-factor\nnormalization, the zero first-index case is characterized by a fixed\nground-field linear factor.\nThe next structural question is to bound positive first indices in terms\nof additional polynomial-factor geometry, beyond coefficient degrees and\npairwise resultants. Preserve exact full-output coefficients and distinguish\nthese individual-slice constraints from a source-space cap or a full\nmatrix target. The claim remains written and unreviewed."
+    }
+  ],
+  "new_claim": {
+    "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+    "source_record_sha256": "60181b9040e77ccdd740974fc9f74e2033940c2034ae6c5b7a7a484acaa253c3",
+    "status": "proof-written-unreviewed",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "existing_source_records_unchanged": true,
+    "baseline_claim_count": 612,
+    "expected_consolidated_claim_count": 613,
+    "ledger_owner": "consolidate_graph"
+  },
+  "semantic_review": {
+    "proof_path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+    "proof_sha256": "f5672695904c1f458134abcfc014ec3f86848c26021fa862106fbb942e5bb406",
+    "findings": [
+      "Gcd cancellation occurs in the complete polynomial left-kernel equations; all original output endpoints are retained.",
+      "The primitive homogenized recurrence is fiberwise surjective because its scalar z polynomial is nonzero, giving a rank-two bundle of degree minus aD.",
+      "The cited splitting yields nonnegative indices summing to aD and the bounded-degree kernel count; the finite search uses ell<=floor(aD/2).",
+      "Zero endpoints, common factors, D=0 and arbitrary characteristic are explicitly covered.",
+      "The fixed-linear-factor equivalence requires D>0; the rank ab+b stratum additionally requires aD>b.",
+      "Finite2010-matrix controls and same-session review do not promote mathematical review or establish a source-space cap, target, degeneration or exponent improvement."
+    ],
+    "review_limitation": "This is a same-session source/scope review, not independent mathematical peer review."
+  },
+  "preserved_question_checkpoint": {
+    "path": "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md",
+    "sha256": "48d9fb65e5ba0dcdcbe9365afaeb7ec41477de2087aa3123ff2d8942c54cc7c3",
+    "decision": "Keep the exact original open-investigation checkpoint as historical source evidence; the new package README/proof and reconciled shared summaries record its continuation."
+  },
+  "package_metadata_note": "Validation owns the documented stale README-pin reconciliation. Preserve original source pin/hash and credit; the separate mathematical slice-rank-note pin remains exact.",
+  "unresolved_semantic_conflicts": [],
+  "tests_executed": false,
+  "mutations": "Only scratch overlay/report files were written. No worktree or remote mutation."
+}

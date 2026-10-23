@@ -1,0 +1,123 @@
+{
+  "tested_commit": "26f4fb8fdababf5eb7ae4d3dcad74996a5b7c0af",
+  "tested_tree": "38f1b72bec3f31ebbd1f3c0a0e7631762c442733",
+  "predecessor_commit": "7690348a792c5734d6f00d7fa7a9e6ce8dc37daa",
+  "full_regression_receipt": "results/first-support-capacity-2026-10-23/validation.json",
+  "incremental_tests_executed": 37,
+  "new_tests_executed": 8,
+  "existing_support_capacity_tests": 8,
+  "repository_checks": 18,
+  "archive_integrity_checks": 3,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "complete_result_footer": true,
+  "elapsed_seconds": 1.8413542739999684,
+  "command": [
+    "python",
+    "-m",
+    "unittest",
+    "-v",
+    "tests.test_diagonal_first_support",
+    "tests.test_first_support_capacity",
+    "tests.test_research",
+    "tests.test_archive_integrity"
+  ],
+  "standalone_certificate_replay": {
+    "command": [
+      "python",
+      "-S",
+      "research/ai/2026-10-23-diagonal-first-support/verify.py",
+      "--check"
+    ],
+    "passed": true,
+    "summary": {
+      "sources": 4,
+      "shift_cases": 6,
+      "budget_range": [
+        0,
+        500
+      ],
+      "n200_c1": {
+        "n": 200,
+        "c": 1,
+        "r": 199,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 188,
+        "general_lower_bound": 176,
+        "general_bound_allowance": 12
+      },
+      "result": "passed"
+    }
+  },
+  "prior_python_files_preserved": 721,
+  "changed_prior_python_paths": [],
+  "added_python_paths": [
+    "research/ai/2026-10-23-diagonal-first-support/verify.py",
+    "tests/test_diagonal_first_support.py"
+  ],
+  "combined_inventory_tests": 879,
+  "combined_inventory_modules": 205,
+  "full_rerun_at_followup": false,
+  "new_test_ids": [
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_all_threshold_splits_and_budget_enumeration",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_complete_diagonal_identity_and_genuine_alternating_change",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_exact_repair_rounding_and_invalid_parameters",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_full_certificate_and_changed_or_omitted_evidence",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_joint_square_budget_and_common_kernel_cross_space_in_char_two",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_native_source_and_target_slices_with_multiplier",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_shifted_transpose_unit_minors_and_concision",
+    "test_diagonal_first_support.DiagonalFirstSupportTests.test_source_pins_and_changed_hash_rejection"
+  ],
+  "prior_test_ids_removed": [],
+  "archive_diff_from_predecessor": [],
+  "log": "results/first-support-capacity-2026-10-23/diagonal-followup.log.gz",
+  "status": "results/first-support-capacity-2026-10-23/diagonal-followup-status.json.gz",
+  "combined_discovery": "results/first-support-capacity-2026-10-23/diagonal-followup-discovery.json.gz",
+  "logs": [
+    {
+      "path": "results/first-support-capacity-2026-10-23/diagonal-followup.log.gz",
+      "sha256": "d05b4c768eacdab15c72b94f8c871339896cd7dfaf6a9ebe8677c413ade6bc99",
+      "uncompressed_sha256": "2bf38a0fe487e08f9044cca94a7b131f4ae5f7111b615a5bf72d5760308ff175"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/diagonal-followup-status.json.gz",
+      "sha256": "881d0941759ec185b31c078d01b152c28c0e466315f285241f93b454c65e312f",
+      "uncompressed_sha256": "f51e4834d1000e031d814a46720ef768895ec073b43939cbef50543ac58037cc"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/diagonal-followup-discovery.json.gz",
+      "sha256": "811dad75ac9689f6dbb49bcd2241bc19d0395cfe20b742f86c5d198da3635d4a",
+      "uncompressed_sha256": "155fb9987aa9c4d7afc9adee1f90d3305a460e5ecf3a21bac9ac64a601bb15ad"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/diagonal-standalone.log.gz",
+      "sha256": "313c00e14de9070b60b7b9ae8b2ce0834d5cd29392ac6974d3ce9ad74103f364",
+      "uncompressed_sha256": "5e887eaf9e2595e248efe370ec27c67b3aed28e37092b8093dd6f57fbfc6bbc3"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/diagonal-post-receipt-metadata.log.gz",
+      "sha256": "2842d06bcbe946e694a6179cf6f4afa3b3a5e8b0a535b6cc41826a3aa27d13bc",
+      "uncompressed_sha256": "fc01a73936045796edadc68b47b563feebf044ec28705ef299ce1b5f373d468c"
+    }
+  ],
+  "scope": "The full 871-test regression and all five archive replays remain attributed to 66c4636. This diagonal follow-up adds only two Python files and eight tests; all 721 prior Python files are byte-identical. All 37 focused and repository checks passed at the recorded head, including all eight new tests. The 879-test inventory is discovery coverage, not a fresh full-suite execution. Proof review remains same-session. Current-head hosted CI remains required.",
+  "post_receipt_metadata_check": {
+    "tests": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "result": "OK",
+    "elapsed_seconds": 0.08514266600013798,
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "-v",
+      "tests.test_research"
+    ],
+    "log": "results/first-support-capacity-2026-10-23/diagonal-post-receipt-metadata.log.gz",
+    "scope": "Completed after validation README and STATUS/ACTIVE documentation edits; this record was written afterward. No Python files changed."
+  }
+}

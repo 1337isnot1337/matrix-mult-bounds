@@ -1,0 +1,1736 @@
+{
+  "schema": "matrix-postvalidation-source-resolution-v1",
+  "baseline_head": "65e0c2dde83e2a7150d963aa3abb436350f6ee12",
+  "source_heads": [
+    {
+      "name": "research/a4-one-regular-leg-20261023",
+      "sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+      "protected": false,
+      "previous_sha": "db180d63bd345aa559ccca357841a837699a46f2"
+    },
+    {
+      "name": "research/aggregation-construction-20261023-ab94",
+      "sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "protected": false,
+      "previous_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98"
+    },
+    {
+      "name": "research/conic-projective-global-20261023",
+      "sha": "c95b5c3c4ee0fc46cba9060b8ea280106335bf94",
+      "protected": false,
+      "previous_sha": "a7d37918fe19918700a3d5c5d9fad6df69cc7852"
+    },
+    {
+      "name": "research/flip-escape-20261023",
+      "sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+      "protected": false,
+      "previous_sha": "28c90715cb77c19114a4aea0f210c84fb5202ee4"
+    },
+    {
+      "name": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "protected": false,
+      "previous_sha": "331801579b19b64f2441a7aab8b566f9d6b02666"
+    },
+    {
+      "name": "research/laurent-stencil-20261023-ab94",
+      "sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "protected": false,
+      "previous_sha": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797"
+    },
+    {
+      "name": "research/quadratic-z-middle-exact-20261023",
+      "sha": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+      "protected": false,
+      "previous_sha": "0d9781b6774f328d572bb3326383978215d50306"
+    },
+    {
+      "name": "research/unbalanced-square-frontier-20261023",
+      "sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "protected": false,
+      "previous_sha": "3382792295dec8018306920550f571dea560660b"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "research/ai/2026-10-21-external-grid-seed/sources.json",
+      "source_commit": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+      "source_path": "research/ai/2026-10-21-external-grid-seed/sources.json",
+      "source_blob": "7339472078bba007d76d0fd1fe5204be687ea0d2",
+      "sha256": "2ffbbcfd750b994ee1d4ff731a16e3620b174e60a1fa1155db9024810863b517",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/README.md",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/README.md",
+      "source_blob": "ea7038654b8d8eed6d04b7b39897e99530089adf",
+      "sha256": "c7550a1dc45fccace1ed0c85305ed1f3012191eba737f52925a9cb01d6ef0fcd",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/cost_floor.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/cost_floor.json",
+      "source_blob": "279bb8c39a91452661a9c2a3406ac51eb544132a",
+      "sha256": "53e790d03cb44faf4d70656134ec4ffd8769a1c51a5880f19fd0ec04e71dd2f7",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+      "source_blob": "930778a597483f310977bb615bf6146a7b51c744",
+      "sha256": "2f1dda0a808e516dec635f195e8ebc552204e24e60dd6a69a9493fd40bf52e2c",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/proof.md",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/proof.md",
+      "source_blob": "8d000283c9e19bf17e4ae92e38c4f434e76e137d",
+      "sha256": "a2e6237342cfdb604e848a8fd48db9ed9a41eac140e4cbb1166bdc4fd5757ac1",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation.json",
+      "source_blob": "54d1f8ec981640e6e65a47c6e37ff7277ce90951",
+      "sha256": "8dcb869082732bae06417b99e1fa44619f5d92e51498fb8fe7f63d0573ae291f",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/README.md",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/README.md",
+      "source_blob": "68d0147c9902d1f12fc9cb4690137fbcaf4c46ad",
+      "sha256": "7a71aca5c787b5956a22479dbf440019b40d5773680cea6d511e3772754d5015",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/combined_report.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/combined_report.json",
+      "source_blob": "d2c44443d3f5711915d9be1f75223e0278066a3d",
+      "sha256": "3ff5dee5b78f36eacd530ea10c0237b670500d5924c66925990e01a986fc5bb0",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused-receipt.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused-receipt.json",
+      "source_blob": "fc225c0431056550a5b8910140694b23002739bd",
+      "sha256": "4fcb1d81339416c18a12d3b0d7d3a02bd1b8a51a338732c15c56ed3800fd172c",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused.log",
+      "source_blob": "88251beffc4cd0db974c7135ecf0623393dbbd93",
+      "sha256": "50451709aa3e7d96212c1823f68815865c183f9db27be2d929417f2bbfe6b037",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-metadata.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/costgate-metadata.log",
+      "source_blob": "4b23661890d479290a08fab9c1e5774cabf623f5",
+      "sha256": "b8681784ac7f5f60ba53f45cded3a52ab7bb4334e848ddb65db793c3f4fe1bd5",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/costgate_delta_report.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/costgate_delta_report.json",
+      "source_blob": "ffaa13bf56633a8cd7e6b925dd5dd9207017754f",
+      "sha256": "73c07a6d89c83e557eacc866f5d615b8939e2e32189e0ece95066d6bc425b4df",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/finalize_costgate_delta.py",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/finalize_costgate_delta.py",
+      "source_blob": "bffdfe6965d6ef545c1fff952afc5134086e9458",
+      "sha256": "b7d7ddece9459e4d3e0a654a6ecdab0d3909535933638ebf4f8372783f9d00c4",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/finalize_validation.py",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/finalize_validation.py",
+      "source_blob": "fd4e5c8d71e266241eecea6dbb0f169f6ee14b70",
+      "sha256": "8fca973d022035d3bd52e51622cc772140ce17a7544bbc6c5206eb4a711415ce",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/focused-tests-frozen.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/focused-tests-frozen.log",
+      "source_blob": "1dde31c5d1331bf8a34bace7e30647214526dab8",
+      "sha256": "bb77ac4274de5982c80a16857273fc3e5ab818dc8b9c3f41197d2884b30f8a28",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/full-tests-prefix.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/full-tests-prefix.log",
+      "source_blob": "8d7e8d65ddf1a1c9c7323f4f81971ac5487f65d7",
+      "sha256": "eb2861f60e442fe5986ae45455a1437aa9c9004ef469c0655a2b375eea344126",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/plan.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/plan.json",
+      "source_blob": "ee1da91dd5a1b63c869e873050e6b3bc0f43222f",
+      "sha256": "dac55b94566bd7c8024d223ebb95783bc2e08c10a1fedae88cc63c99e53e090b",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/remaining_tests.py",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/remaining_tests.py",
+      "source_blob": "16b25cc944e7644096c344b4ca42b451919ea9ac",
+      "sha256": "71f5a0a7cdb69ec449f60a6577bc14f9313059698b6a69df09158f51101c9e18",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/replay-preserved.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/replay-preserved.log",
+      "source_blob": "f62a722e21d062d34c2afb6157a60bf05283a942",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.json",
+      "source_blob": "1e771a4b73b65fd0965f005e4e4e2c7a3749c455",
+      "sha256": "38883b941252acfa59bf5a1f1ccc38fafaeead1c651795f2bb49b54ce561bfbb",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.log",
+      "source_blob": "43c9f6e4fbaba91eb6ad9f72e7fa81bd3a0f76f0",
+      "sha256": "1a9b1de71f960d5b0e84188b4ca330cfb8da987c6cd7b16240beaa48ec7977d8",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.json",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.json",
+      "source_blob": "49c80bd9647434ce0c2ab76430499866a4bebc06",
+      "sha256": "447903ffcc4b044cc63ace03b2948215a54baa8d184867871c9d3a390732024b",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.log",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.log",
+      "source_blob": "1aa43ab33abbe973d3731ac75d441a9fde2c45a3",
+      "sha256": "206cff8b5fbd2f976f7d65eca3edc8b726e0571236dd249695f0b9cc71d80feb",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/QUESTION.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/QUESTION.md",
+      "source_blob": "7109c2734e085bee8474f6b600b27310c4e89158",
+      "sha256": "b14d6d5bf485a9a7f1cc19144c8e3b56fdcd2b8577c019425313dbb978c3f22f",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/README.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/README.md",
+      "source_blob": "d25bcc9d01b58c0b11bdc6997cb254ba533b2f50",
+      "sha256": "18a8983df271e632858197bc18962eeabcd9ce4d49ed4a2a800de20c5ef6a233",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/construct.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/construct.py",
+      "source_blob": "63e8e7d9bcb3103ba266eb4862ad59f56d1477cf",
+      "sha256": "18889652e76430b8e0eb87cec18307cdff8a101ef896e127de81424e87527289",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/manifest.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/manifest.json",
+      "source_blob": "3d1545377a5401664503aa960fbea78f9de06bd5",
+      "sha256": "08b5b751fba02e2daf865a5a8daa64117e4f60c68371a08bad92720ca20a024a",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/proof.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/proof.md",
+      "source_blob": "751d83cb05894a5c9d88b38968b4286f76e0efb7",
+      "sha256": "5a67e947db1453cc0a58d38f69fdbfa187b4f3c5f3b5c613e8176ae446ac0129",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/sources.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/sources.json",
+      "source_blob": "fbcb300aed88d462dc3afa09fc35ab2c855a2fa4",
+      "sha256": "2d5753fbc65e83f69e3449a17e94916752287c9e4a604dc8bb2ff667e020ce0d",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-first-curve/verify.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-first-curve/verify.py",
+      "source_blob": "76b47e0c2a62380c211e59c341d26da236a377f6",
+      "sha256": "4b8461c20cccaa62fc8f9ab348d7088f0f01e01ff604f529398a787799ffb625",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/QUESTION.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/QUESTION.md",
+      "source_blob": "42c711719a98ed622828b8ca8d1b0011b341d841",
+      "sha256": "e3fac39bba18f67a6f16e238684b77842c438620d207651bf6259e8ec08fdeae",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/README.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/README.md",
+      "source_blob": "87b0b955b1ce58bb01d3ed2abf8f86d72b6e9cc7",
+      "sha256": "0f56c427829da22b1857cbedd3b851a7a0d986a2bbab65fb1560945b9057de80",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/construct.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/construct.py",
+      "source_blob": "7fef380ab167ceba89599e0c730944556bff16df",
+      "sha256": "975b78361a690351243f2bd84f15ff1cb157fe7e9d38b545c9715b42a79cb02c",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/manifest.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/manifest.json",
+      "source_blob": "93ad75a23d47140d13a293740403162d101306da",
+      "sha256": "bfc9f48cfd1679435e161590780d5a2cb6a362098030af294fcbbd3582491686",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/proof.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/proof.md",
+      "source_blob": "f7e78a7c92ff650f751e7d007d70ce915725004a",
+      "sha256": "136db76c73e9a1d0b206ce08c719f41d37982bdc58a8e8f26858e5e1a6092af6",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/sources.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/sources.json",
+      "source_blob": "0d0b36b606b97c538711610d57366ca0addc2140",
+      "sha256": "3198d170f4235c784a9eb01cf0fcb7a59c5c08a8fc30156f8b452df03ed76fb5",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-fixed-two-curve/verify.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-fixed-two-curve/verify.py",
+      "source_blob": "3f59a21f8f70d152ea1a360bb9c53cd4baf1b486",
+      "sha256": "7a4424e42be30b8c478460f5c946f09e7a7b9af0d01d9bd9fe98569ba28cea57",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+      "source_blob": "91d0872d695a6abc495f2c5f1861b397b87298cc",
+      "sha256": "5510ed6816842f42c8b5018cc2abc0bdeb6046e72a645ae25053248014173a2d",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+      "source_blob": "b788a0adbd40a4ded044332e76c82f98e6d6f2b1",
+      "sha256": "566f5329a5193260db27278b86d64369cf7c35ae303b7f906583badea91ecf59",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/discover_fourth.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/discover_fourth.py",
+      "source_blob": "11417d088f3d9311e8648f5afc1ff1d368fc6428",
+      "sha256": "40a345f77c489ea6a9a4bbc4bf3edd65c433bd8870d0919ad5a6f41f05a61c0f",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/discover_higher.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/discover_higher.py",
+      "source_blob": "9c73b6feb5a32fc9163afc70ef279cab27e112f2",
+      "sha256": "e9ecf8215e9f85b187c7a3bb31ab3f3327239cb03f02cbf913628f3c31604c05",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+      "source_blob": "a73b4d42bfe6d218036f46dd1439f1bda52b3113",
+      "sha256": "40f163ef47b126b887db501c7df17b36e0f3e4a8ff7221695e71d062a035aed6",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+      "source_blob": "ffe630e9de131e55e5277f435ff304e83ea3d37b",
+      "sha256": "f62691ec0a41ce6c8a61f8ea725e7f3e39961db040fbe4d2bb19218d2fb685c0",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+      "source_blob": "5608f4e880406f8231ffcd86448870ac16f6a8ea",
+      "sha256": "25952c4de6f05948695b93c3e9631868735592b6f4a28c20930f0ccd1e4b87bc",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+      "source_blob": "a79e14baf0339e56877ec8c9a1d48b083e693609",
+      "sha256": "141836e34022f3701c0459e8a5b503ab8f47c2a4dc8a827712528ae19ebc94ba",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py",
+      "source_blob": "34c7eb0cc5b6c9c65d66c21d8c179549e3fd1d40",
+      "sha256": "1e6e2ba2fbfb8da1918f867d1fa1affca06f7f78803e1a10dd77aa55035a32bc",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/QUESTION.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/QUESTION.md",
+      "source_blob": "90dfb9eac0e7d443cd1deeaa65c450e74f953c5b",
+      "sha256": "bd86bd6dace69592c835512b2efe7e57a91faa251752f5687e11dc26172be145",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/README.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/README.md",
+      "source_blob": "f4a090747f3568b9d7b59bb75b158b20c08f54e3",
+      "sha256": "ce9f1273a5d0125484c086a808f02fffc4306587e99a03df6de311cfed3d455d",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md",
+      "source_blob": "bac5943dee7f2084ec71dd9fa87ba2a919f47b60",
+      "sha256": "54200d88065665a983c78745c265d98cebb2fd7cbcf4fc2f6d4c5a8ecc30f84b",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/construct.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/construct.py",
+      "source_blob": "4763b169e42605d010c8a37c4e5c3ebd28853d1d",
+      "sha256": "b4e4dfa3c1d75d1428da7a6b219f49186e4f99ec838f555501b5649de9c00c4b",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "sha256": "774bdc89bcdb151fb68b0dad38e26448be8623eba1f914ce8b084f85a9bfaf83",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "original_sha256": "a5233ca8ec2b4abb3edc169ef20c4c85e7723648b469d93a31ce56c465ae2f2b",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash.",
+      "retained_prior_report": "requirements_pin_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+          "source_path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact original-main package bytes imported unchanged by a late branch merge; the merge adds no independent revision to this file."
+        },
+        {
+          "report": "requirements_pin_resolution.json",
+          "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+        },
+        {
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/proof.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/proof.md",
+      "source_blob": "e825dfc6ed7c72993106b606c23a87f740b545c1",
+      "sha256": "5f13a24905eb3f1321d9d48addf254ccdaed0598e31b2bed3231c925e532b4ff",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "original_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash.",
+      "retained_prior_report": "requirements_pin_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+          "source_path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact original-main package bytes imported unchanged by a late branch merge; the merge adds no independent revision to this file."
+        },
+        {
+          "report": "requirements_pin_resolution.json",
+          "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+        },
+        {
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/verify.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/verify.py",
+      "source_blob": "267ad3c8d9134440725e581e582a5ce4655713eb",
+      "sha256": "d43993b0614ab722e9de2aa51d883d4b16e3c673473262b1ab65f3fbcb0f58ce",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/QUESTION.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/QUESTION.md",
+      "source_blob": "1f56bb01f594417b781ecce49eaeec149d053e0c",
+      "sha256": "c32180f128728cfaf808ee2899a989017ee31e6989730de7982513c7e37d8930",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/README.md",
+      "source_commit": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/README.md",
+      "source_blob": "26c901160267ba4b0b7c3ee26d9a8fd11280a0fa",
+      "sha256": "e23ab9ca0b8948e2f6bae5abec2d1cc84b315b94176c150ca735b3e61768658d",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+          "source_path": "research/ai/2026-10-23-conic-third-jets/README.md",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest."
+        },
+        {
+          "source_commit": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+          "source_path": "research/ai/2026-10-23-conic-third-jets/README.md",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/discover_symbolic.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/discover_symbolic.py",
+      "source_blob": "5e696d5d461adee28cc4db45c8208147bcb25b9d",
+      "sha256": "26574436b1b29aee2e09da08a86104082532614a4e8f7f12df76327486dd00fd",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+      "source_commit": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+      "source_blob": "8c193401b23b47d74d552ecd3cb44423105d804a",
+      "sha256": "27ed07a573e8003e9475bdb07f99a3158d016e528c50453f79b7f61be11d8733",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+          "source_path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest."
+        },
+        {
+          "source_commit": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+          "source_path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/pilot.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/pilot.py",
+      "source_blob": "c6a4935b4ff27b39175d4923ea12e5fa5a9ec414",
+      "sha256": "14f690a25252ac5658394912d0a63d90e854208c42e231e0fe3ea40b3a34f046",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/proof.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/proof.md",
+      "source_blob": "9f9fc2dc5eded3f92e8b320f55add4f1f6c52ac1",
+      "sha256": "5000cfb4f5e90e513b122553e0a727859939e4278c3f4346b20d364fd27f4072",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/sources.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/sources.json",
+      "source_blob": "159858540e4c07bfbdc5008d4f9ce78d2c423923",
+      "sha256": "ca5ecaca46be971399106dfe5be4845802f731542c2adace33ab73ff9deb7bff",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/verify.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/verify.py",
+      "source_blob": "3d04824d5e2f9a97254cb4313247c51f35c75bf6",
+      "sha256": "5a58e1772697a87965cb66aa3bea941a614d1731119d4a33950a1ba2127a8b40",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py",
+      "source_blob": "d3c34bc06c40d2f14815ae3496b759a25682a8ad",
+      "sha256": "0b0648b8d3eaf51d750f45f4634bf0f28164902a1152158c56ca7db2a052989b",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/EXPLORATION.md",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/EXPLORATION.md",
+      "source_blob": "3d5f1bc21368146c23e9c3ed5947d857b5b1be31",
+      "sha256": "bf3a06e987b7f73acd2c95d2c60523cc14d1dc9fba3030a182816edf19d8a846",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "source_blob": "f84b780a699e9ad0d86eede87ae96ae2052d6252",
+      "sha256": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "source_blob": "aa9134ca70247903b0f63402696e587a2c178563",
+      "sha256": "8852896dc536053ee62c78ec2a0a5cc82b9a56df16f9b18956b29d37c245af69",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "source_blob": "1d82d632252d310730b9e21c61a817d0ea16c158",
+      "sha256": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/sources.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/sources.json",
+      "source_blob": "f2ba02fe3afdc265a7071e8bcefa92c15f2c5f13",
+      "sha256": "a002f254c7fa30b811133941c2901439461b71dcba02f4ab3c811f85890dbed1",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py",
+      "source_blob": "0704de7d3112457f0a0d379743a243678af4b93e",
+      "sha256": "e8c75b58e8fd5b76f799c12787a90aceff85b87c77424a16808501ee2000abda",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-flip-escape/README.md",
+      "source_commit": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+      "source_path": "research/ai/2026-10-23-flip-escape/README.md",
+      "source_blob": "0c2f10b290be14da309dc2fae98897fe8f22bbca",
+      "sha256": "b25bcaaf0b7c6ec6e8a4543eab7c95533e67cb97de72c9b7ba8fac34f7dba59b",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-gauged-splits/README.md",
+      "source_commit": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+      "source_path": "research/ai/2026-10-23-gauged-splits/README.md",
+      "source_blob": "9dda56fd63219b87cc1846ab75493ffdf350270e",
+      "sha256": "5e68934c1894dd1846bd9b33221d90f91c1e588c5a130682dfa2bed33a52c080",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/README.md",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "research/ai/2026-10-23-laurent-channel-barrier/README.md",
+      "source_blob": "0aa42b83ebb60d86c850f0e07563eae68349cec2",
+      "sha256": "d3afc81aeff5943ab01a1669179c4e4da7d401f0b86c7fb3ffc96be4800c75e6",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/rank-margin-sources.json",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "research/ai/2026-10-23-laurent-channel-barrier/rank-margin-sources.json",
+      "source_blob": "f03a318ee20f78771e9ec3d0a9039a0114b72f3c",
+      "sha256": "6bbc11095c7f35a34da020301514ff3e342c322eebe2ccb6cab74cf114ca79c9",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+      "source_blob": "36943021a6289062a8579c1a63399bbe53e5208d",
+      "sha256": "bb647998889a07612c9919461eb90bb8f20f038f44a33491894a6dabde4ca036",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py",
+      "source_blob": "20838ea3501329e8080c9ca1f7eb482c1be585c3",
+      "sha256": "7dc36c89ca45e2d78f981d058ee10520c844a71124e824cd233b77226ec48652",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-z-middle/certificate_equal_degrees.json",
+      "source_commit": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+      "source_path": "research/ai/2026-10-23-quadratic-z-middle/certificate_equal_degrees.json",
+      "source_blob": "2c33defc592158f225fdee3fb8e5bdb52ab0968c",
+      "sha256": "289f172b02ee33597f5b6b819ce30364b0cc65712467a2e698ef021ee7ea0683",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-z-middle/verify_equal_degrees.py",
+      "source_commit": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+      "source_path": "research/ai/2026-10-23-quadratic-z-middle/verify_equal_degrees.py",
+      "source_blob": "8569f43cab2fe772e991d0eff6e27ef5bf057f07",
+      "sha256": "f8b2a98a35be9e1e25ae83743e3a2a310429f024e4a2a848243c7def95eef3fc",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+      "source_blob": "e6b16d29dbe0585ef4d070d8d3c8803ada7ebd80",
+      "sha256": "65bded0a80e033b90af78a87804ad62fd0bd6544c763f95d2c94ef52da00593e",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+      "source_blob": "0d6b5f83d520a0fafe36adc8f42951a39e661461",
+      "sha256": "27edc63b38d5c85d6830c6e9750a7a5cf8a98f92040f2a3461b84c856ce39025",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+      "source_blob": "a4f3e57ae4be6f769ffc26c53fc0fd2d07af24c6",
+      "sha256": "6913940a4e6c25c857ecffcf8e41b5974c55bf40f536cf69e1b2ddd76e264e84",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-first-curve-2026-10-23/validation.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-first-curve-2026-10-23/validation.json",
+      "source_blob": "06a1a3cac267d5d3a70f5674e14ad0600451b83a",
+      "sha256": "53f7a98d824337457dd7d4c73308ce52dc2dce5f393f79f117ee46e3787046f1",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-first-curve-2026-10-23/verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-first-curve-2026-10-23/verification.json",
+      "source_blob": "90435b9bc02d54618d45786967eb7ea1dbf43277",
+      "sha256": "f539e8c29292998843561718de89702a780f9f3cd7c12184ee0d1f5ac1ab7034",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+      "source_blob": "a770b9259462416e06d46776dddedc5ee519cfe6",
+      "sha256": "e7a24b3d8384a56820c4ea5b7bbf5ecf7e2ad3cca7c66c00570239fc6d77a33b",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json",
+      "source_blob": "82b9b8a855c0d2b971eae796d1d0f463cd39a17e",
+      "sha256": "0760748bcb0c6dcb9f2216187a66ad777e54b54b2449bc4917d2d99bd5b3d738",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-two-curve-2026-10-23/timing.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-two-curve-2026-10-23/timing.json",
+      "source_blob": "99f91991a25c0c6db76e905c934f196bc8a06410",
+      "sha256": "983ecc6edcae7df779b8f013683e70ed45b939f941c5f5bd82977d6215e2b731",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-two-curve-2026-10-23/validation.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-two-curve-2026-10-23/validation.json",
+      "source_blob": "1baf4b5064e233d6ce129f60e66c806080caf21f",
+      "sha256": "12a7916ce823c344c829c746a740f9579606275c7c17ddfcc813403d7ba09863",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-fixed-two-curve-2026-10-23/verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-fixed-two-curve-2026-10-23/verification.json",
+      "source_blob": "62b144683d85853121ac16a5c3dd81b71006cb04",
+      "sha256": "40c5c63cb50aa78c7059373c3e14ffdc9162d42cfc95d290432802ac37e0b2e7",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/fixed-third-discovery.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/fixed-third-discovery.json",
+      "source_blob": "fe74d79b6eac46821b0b75fa8617226a7a889bd1",
+      "sha256": "f1eee2788a1939464ce2353c03f8112d2ce307926df125652588be578779885f",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/focused-tests.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/focused-tests.log.gz",
+      "source_blob": "ead87bd062fc86f94cff785e6f05dcd434a1cd01",
+      "sha256": "ef41b379f8d17d232217af6f5b5c39c9e9e093014530be8f2786986e8e4eeede",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/mixed-fourth-family.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/mixed-fourth-family.json",
+      "source_blob": "259e95125a4fd137b39985f97589a7806a39044f",
+      "sha256": "caebcc2d9a5c90bea8bd69b0eccce1e3744dae7ecf88db0b5ecd1dc8c51e2ba1",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/mixed-verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/mixed-verification.json",
+      "source_blob": "a9c07b64372d704a326ffacbb33f309accd7e0bc",
+      "sha256": "18b327d4b269de68ad4650f635bc913672e5de5fae6c75c4d87df042ca7192fe",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/rational-ten-jet.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/rational-ten-jet.json",
+      "source_blob": "0aae2bfbcfd0321138c115b3f0c705c8154b4654",
+      "sha256": "bdff838af5d55983714f8aef0d55722e8f9b834280f2c8bbba13d695335c5d9d",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/rational-verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/rational-verification.json",
+      "source_blob": "b90c4554e22b99f0694f46fd62a2dbadfdfa614c",
+      "sha256": "987575537093aba02bfbe51c3e9a8bfc1bc95f02348768864dde24f06cab8b9a",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-higher-jets-2026-10-23/validation.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-higher-jets-2026-10-23/validation.json",
+      "source_blob": "e188eee4c326c1b19dd3f90aba7b6cff194af91d",
+      "sha256": "b958fb21fb8a8faa710667af9dcfa62a930f582fc79d17b3bc2b224d8be6acf4",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+      "source_blob": "fa9b4dd0cf4e93c676c81f06a3c2cbd7a4dde7be",
+      "sha256": "3367df57e463b28a45f9cc13b6eca61d1bb701bc8538c170604a8b71ae5d3d96",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-polynomial-curve-2026-10-23/focused-tests.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-polynomial-curve-2026-10-23/focused-tests.log.gz",
+      "source_blob": "0db8adf98c1b08f527be5eaa772d63cc2a4dddd0",
+      "sha256": "d062a7b9cd540553999edaf200ae9d52b5e178e905b50d1f663e85db59c43ec8",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-polynomial-curve-2026-10-23/polynomial-curve.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-polynomial-curve-2026-10-23/polynomial-curve.json",
+      "source_blob": "5c9eb7e6ce318f1a03b3c74a65c1f3c56cf2579b",
+      "sha256": "2d010f16e829aaf201964a93493b60aa4d2508b3897407a41c7427e8b2363290",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-polynomial-curve-2026-10-23/validation.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-polynomial-curve-2026-10-23/validation.json",
+      "source_blob": "41be9d2f3d4316c8f82f18f281fcf0518c957423",
+      "sha256": "88e855cf5ed4ba70a6c2a3bacfad155ab7c0289e2f9108c7ef87ef09ff55196d",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-polynomial-curve-2026-10-23/verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-polynomial-curve-2026-10-23/verification.json",
+      "source_blob": "841e51a40b61d9429677ef8b3866de4906c3daa5",
+      "sha256": "837942eb34519c746f1b77f3039b2c1be897835e65715fd0fc2ce55eec18ab8b",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/after-unit-image.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/after-unit-image.log.gz",
+      "source_blob": "421a3fd12c9dd4d52a7461365e14566bfb2b4ad6",
+      "sha256": "a07c749b635d514c2376c54e4a8d8522038e65dd3d500ec09c000fabca221ef7",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/all-second-pilot.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/all-second-pilot.json",
+      "source_blob": "1f4a9acd1eeaf200c980bc906c075a4c0c416794",
+      "sha256": "f055d260673323822ce21918df2c9df55bbf6e3779035f79f3c76737671d619c",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/combined-checks.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/combined-checks.log.gz",
+      "source_blob": "2422dfba61fa5b6646a15cfd6e40c3dedb5b8321",
+      "sha256": "538dde8047ff27b1808afb315bac47598f52e7b15cea9c38e37c0d8c9fe1d0f5",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/fixed-two-jet-pilot.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/fixed-two-jet-pilot.json",
+      "source_blob": "1c7b13e5d540b1e0f6ee217592c21399bc01170b",
+      "sha256": "0307023e4dddd41ffe87b270189a987a083f9abf3c0b078ad07be0c32f03d2a8",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/linear-component-control.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/linear-component-control.json",
+      "source_blob": "ede40737e1823e5dcd42a1ffdc48a99f56e6223a",
+      "sha256": "8112a76b97306c4cd583d605387dc2806ace0be77495db905d540f403dd270ff",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/mixed-family-verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/mixed-family-verification.json",
+      "source_blob": "7aedbb2c8fcd7355965e56038eebf2c4a97a4510",
+      "sha256": "e5dc035b711094b53e03aad521b37816e17bc22bad21de9a7cb073048f59c537",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/mixed-family.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/mixed-family.json",
+      "source_blob": "ba907b50a98696f09118dd2af5f5c908c30c6ed0",
+      "sha256": "0571cd47916d19c60a0f9493a6ddccaecb8053aea8a139137c05b3def9df1d5e",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz",
+      "source_blob": "51afb4523bb04c722240ebce78909ee1ce887bf3",
+      "sha256": "9c017124bd84e3e056b5e459e62cba75f464e6b6ba4eff023e15c95c5425a1bf",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/third-jet-group-0.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/third-jet-group-0.log.gz",
+      "source_blob": "be80ce035672713de48e7c6eeafc552818dfbbcb",
+      "sha256": "418a17f93d0d6e669dbe1658e2adbaaabf83204783dbae979c472e49e7de37a6",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/third-jet-group-1.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/third-jet-group-1.log.gz",
+      "source_blob": "c14bc5f1ce108a74838349f221e026ef5a0e096b",
+      "sha256": "4920f3afba60ea6ca21afa99668dd1586be089dcdf0504605d09c9d0cc8c388c",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/third-jet-group-2.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/third-jet-group-2.log.gz",
+      "source_blob": "95e9394faa835b76afdff12edea2d9c54e306051",
+      "sha256": "369a46656700f63637d4fdfd1976abf33270df851d32df4a3c758ed362382600",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/third-jet-group-3.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/third-jet-group-3.log.gz",
+      "source_blob": "38e7e6cfa0906606977fd45c06b1133497a24809",
+      "sha256": "04a02f10d417ede31f35d78d6176d7dabf073fac87f114912db1c207848c52b5",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/third-jet-pilot.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/third-jet-pilot.json",
+      "source_blob": "856a253217587265bd1231e386415a2723b41374",
+      "sha256": "963b2804d393205b50e10047af4005760cfda2186bc1bb58fd2ccebd13c301ad",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/validation.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/validation.json",
+      "source_blob": "24788c58e5d0a719f5e0513e9f0f14aa5546c313",
+      "sha256": "689b7b581c3723102e8245498f7f39c628898cbe705a8b94b24165536810ab31",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conic-third-jets-2026-10-23/verification.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/conic-third-jets-2026-10-23/verification.json",
+      "source_blob": "1ee2e5dfaabf5c312afeb6caf6ee05dbb52cba58",
+      "sha256": "2968555d41178032edc8aa3b9b424c8a9b474054fbb77cbee94e3f8658318872",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+      "source_blob": "8c35cb5299cbc87f250e74d5dc04ddbd91f92af6",
+      "sha256": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/block-validation.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/block-validation.json",
+      "source_blob": "84ec2117887c69ce3e8125773ff3963968520844",
+      "sha256": "1b2ad56082e8f6312cde917d3c8e3e43a91b9f05290b49011dcf3687128da9ba",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/block-verification.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/block-verification.json",
+      "source_blob": "54a42beb4c453fb3cc2241ee48bb887f95172183",
+      "sha256": "8a35a2016808f2e294510f040bbb65800a54cb9d976a2797d52bdca21069969b",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/escape-exploration.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/escape-exploration.json",
+      "source_blob": "6f9dcb101ae6f2daac7bfa2939b73db88c2831b3",
+      "sha256": "cacf2d1f58c19521673ec6638c74c2ae6cfdeb2ee0fa9778064bdf151a3c2e49",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/escape-replay.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/escape-replay.log",
+      "source_blob": "9a3505daf6d6710b9c494acf85cb1e2b6e196747",
+      "sha256": "d61a7af18b3a35aa4844b87a340e871b4f241548a19d29c835bf9dd7d7f02223",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/escape-validation.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/escape-validation.json",
+      "source_blob": "3913823d8309b3791b136963b3c89f4d6fc1ac8b",
+      "sha256": "41964a92ece7e0180b868d09f1843949decc471b6771697777f3014e44a62d94",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation.json",
+      "source_blob": "df8e6b8bc15f85924cdfde0eaab9d6e65b215f7c",
+      "sha256": "fc42529714947d3db15ac8a9265a31ebddd13a08df5d9b6a96364be51b7452ff",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/collect_validation.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/collect_validation.py",
+      "source_blob": "8a1d1bd3ad19492276a3fd1682ca7a8981a4a9c8",
+      "sha256": "ba80c4adaa6e56e6bbc048a27f83fdac43c8583262d879cf43954460af9bb9be",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/finalize_validation.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/finalize_validation.py",
+      "source_blob": "5edcf2819681db4cd3d761539ea007a86f5a1d00",
+      "sha256": "bc823111fbcdef696e129b1b6eebc7e8f9bb1a995bd2520fd4c5fe742325ebaa",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/full-tests.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/full-tests.log",
+      "source_blob": "8cd53d8b7c2a14043752f0ae4fadfea3d43a6515",
+      "sha256": "d2e2633d29113a0c9ff892bbbf653c55e055767f4c8d5d7caa768394bcebfcab",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/initial-validation.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/initial-validation.json",
+      "source_blob": "4ea32bc19e3c0033f5e4f089b41437888c8b716a",
+      "sha256": "87e9f2e0d792512020496727dd73dd1a5b233f133d7d1409a708b43f57c98b85",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/link-test-retry-2.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/link-test-retry-2.log",
+      "source_blob": "6935a15122c20729a7efe8dd2dea0662f2983017",
+      "sha256": "93dfb4b9dcf23e39a2af648b99b395178feb8011f87fc92c7a0ed7be081e6a19",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/link-test-retry-3.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/link-test-retry-3.log",
+      "source_blob": "5199281f8c9f0c2a7c3b7f67ba6f8fcdea29ab88",
+      "sha256": "5ec0ff427c35e522b6690af64784144c564a06373c9cc05861b6d4fe11c6b688",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/link-test-retry.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/link-test-retry.log",
+      "source_blob": "92918e75c02727ed6aeb12f7953d6bbaefd0bf71",
+      "sha256": "164c0b9555c93d0c3bee1ca9c41f2847956c10b2ec2f692fda701db727ee72bb",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/plan.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/plan.json",
+      "source_blob": "a496d4e2ba6fb811871cc974840a4ff25f096c55",
+      "sha256": "ad74d6749a502994859c9ee6586660d5e720d715488866db694b96b9515f64dd",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/remaining_tests.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/remaining_tests.py",
+      "source_blob": "1245058764e1c87e7c17fbe13e71e999ef4bfd7e",
+      "sha256": "8fcbb0c8f51d92f5b6f3b188c44bb109575831aebdb1387257ce0d3a2131b810",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/replay.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/replay.log",
+      "source_blob": "f62a722e21d062d34c2afb6157a60bf05283a942",
+      "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/shard-0.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/shard-0.json",
+      "source_blob": "c99b6743601f6c7329188bb8a3308fffa95ed07c",
+      "sha256": "209af0b3d7719ad67c30e1b5561d2a765c5abaf02edeb901564c59e2570a26dc",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/shard-0.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/shard-0.log",
+      "source_blob": "993167c8ad147f2e101254941071ccaea6f0d1d2",
+      "sha256": "24d5930d5a7a7e2685a4be6bd3c263ed6877025e95b5f604ac3cb38ab989f24f",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/shard-1.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/shard-1.json",
+      "source_blob": "b78eda0b9531c22be6531b867ca3eabdae6b7eec",
+      "sha256": "cbe5ee73144b53e6cd86068cb0a8cb3e8e5a61beb9d058ffd451937983746616",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/shard-1.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/shard-1.log",
+      "source_blob": "2d4177cb8a0e501eb91a6237b296e8fd7fb1d518",
+      "sha256": "0d468e4aba3499ce5540b5c3e0adc0aa28be18194848816d3a7b25ff81fea054",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/shard-2.json",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/shard-2.json",
+      "source_blob": "c5800980a8045c7986d41a80f13c355a57a664ce",
+      "sha256": "87f73ef95082c597e1a2f51240e13f4acbf6d5c0bd07059b5f137fbf7f8492c4",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/shard-2.log",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "results/conjugation-limit-2026-10-23/validation/shard-2.log",
+      "source_blob": "6e4a9c8d296bc15f003f0bbec87f07b4e3b32405",
+      "sha256": "1c48737b095b8cfda940271ba078e8ad30c06377a3787da051ca3fed0e10af45",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/integration-2026-10-23-1501/archive-replay.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/integration-2026-10-23-1501/archive-replay.log.gz",
+      "source_blob": "172dcdb5b51d5e037babf1693b592cc62cb259b3",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/integration-2026-10-23-1501/tests-0.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/integration-2026-10-23-1501/tests-0.log.gz",
+      "source_blob": "321137bc0b1c8774aec867d6924f27cae8f67bf3",
+      "sha256": "d684d18c63b90e06ff6f09a0f356e3abfc35ca0ff49cb016c74a0f294b3697a1",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/integration-2026-10-23-1501/tests-1.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/integration-2026-10-23-1501/tests-1.log.gz",
+      "source_blob": "d9ae639caba61c3559b69d53d77fe0c6d3d8cb35",
+      "sha256": "415f17f7f091fc06cff785fa12f430deceda6785b8dbe1c8d9cbf9ec7473f516",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/integration-2026-10-23-1501/tests-2.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/integration-2026-10-23-1501/tests-2.log.gz",
+      "source_blob": "6c7bc4568c0720d91b2bd64ad1d52fd0a58815a6",
+      "sha256": "e7a00e66bb850772adef78a37abbcbb42f4579be57d47e0d17db5f3135163e59",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/integration-2026-10-23-1501/tests-3.log.gz",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/integration-2026-10-23-1501/tests-3.log.gz",
+      "source_blob": "9faa36ad1e81bafee41d8422b5fd1ae3b14c4902",
+      "sha256": "9c48fde1216aeb37ab187c7383ea066f9c8adf8919b3a7ffe556f6edb27115d1",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/integration-2026-10-23-1501/validation.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "results/integration-2026-10-23-1501/validation.json",
+      "source_blob": "e69b98776c5748579f49b939e0b4066f84044fbc",
+      "sha256": "43d618c78818474eb6d5ff33d331a70f626674c1cb554c85a8409f5ff1b6b347",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-controls.json",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "results/laurent-channel-barrier-2026-10-23/rank-margin-controls.json",
+      "source_blob": "653137ab9ff58925aa0bf93b56c4353a314ac3d4",
+      "sha256": "98ad26ef7387e71f9d342b4df23fe12ff9293395fa5af4f5862adbcf0666092a",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-metadata-initial.log.gz",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "results/laurent-channel-barrier-2026-10-23/rank-margin-metadata-initial.log.gz",
+      "source_blob": "393c65384e539a664297d6b11512b520b014653f",
+      "sha256": "dec8b7819690e4c163e5ddfc4189f610eeec9fcd67798b858e9db5d955d66918",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-metadata-tests.log.gz",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "results/laurent-channel-barrier-2026-10-23/rank-margin-metadata-tests.log.gz",
+      "source_blob": "458d9403d7d69ce3596143674af84dedac0f7a0a",
+      "sha256": "1f9e79da33a78f4b824df948d569c3ee8a63ab7271f2eb64cb5bf4e9321f5d90",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-tests.log.gz",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "results/laurent-channel-barrier-2026-10-23/rank-margin-tests.log.gz",
+      "source_blob": "2a326228fa2242ed787c2a67d1986d7a0e8b0437",
+      "sha256": "9a3f148c17245eb03da2495b42fee18857d12147fa31991d87a2d5a768d66942",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-validation.json",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "results/laurent-channel-barrier-2026-10-23/rank-margin-validation.json",
+      "source_blob": "df92fc2452f6166fb510f10b4ccce479dbdaf5b6",
+      "sha256": "0ac60bac2400eddabce3848ce740f05ea5b4f1e64eef893d7b4ee8b9dc544fb9",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "tests/test_aggregation_families.py",
+      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_path": "tests/test_aggregation_families.py",
+      "source_blob": "5df79aac8a53f3fd09830c0e75d32839bd3f9c99",
+      "sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "tests/test_conic_fixed_first_curve.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "tests/test_conic_fixed_first_curve.py",
+      "source_blob": "356e3fcdef3e9eadff5e53199fb68442fecdfbf7",
+      "sha256": "5b52d6e39d58015e67d687bf035c3fbf9cb8e6ab0b6bd7716630cb63af7ed2f0",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "tests/test_conic_fixed_two_curve.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "tests/test_conic_fixed_two_curve.py",
+      "source_blob": "d231cfbf71d073cda173c8e702df93699accffe6",
+      "sha256": "91e3b6ae9e15c08d50b47116090212847dc445b5002efa4854bb2adefddd4a60",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "tests/test_conic_higher_jets.py",
+      "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_path": "tests/test_conic_higher_jets.py",
+      "source_blob": "59a56666b33069802294bb1fdb32ed66f276725f",
+      "sha256": "0ff19748ea8d0bd19f42f6cd9dd927264ebcb90bd6b047918e055b26f1e16e4e",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata.",
+      "retained_prior_report": "late_source_resolution.json",
+      "report": "receipt_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "tests/test_conic_higher_jets.py",
+          "report": "late_source_resolution.json",
+          "reason": "Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        },
+        {
+          "source_commit": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+          "source_path": "tests/test_conic_higher_jets.py",
+          "report": "receipt_source_resolution.json",
+          "reason": "Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+        }
+      ],
+      "retained_prior_resolution": "central_resolution_manifest.json"
+    },
+    {
+      "path": "tests/test_conic_mixed_third_jets.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "tests/test_conic_mixed_third_jets.py",
+      "source_blob": "924547d78f6a883936b3234af4f3a5b1c2c1e6e9",
+      "sha256": "a20b021abfd6b7bbec80f9ddb09fe5f9a4a0c793e8c7be3a96c2e4ce217980d3",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "tests/test_conic_polynomial_curve.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "tests/test_conic_polynomial_curve.py",
+      "source_blob": "1f2d84c172a1c2efbddfe3e92e6a24d1727ccf32",
+      "sha256": "5bbef07dc0737e82d844baed478d167aad0afc93a7e3777ebe6c515de23dc132",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "tests/test_conic_third_jets.py",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "tests/test_conic_third_jets.py",
+      "source_blob": "5ea2f75c797461d6ede608879371bfc5f86acc2c",
+      "sha256": "18bcd0721f8155c12c1144b8e7ce2cdd57a761e73866c434ff57856cfc3f7fce",
+      "mode": "100644",
+      "reason": "Retain exact original-main bytes imported by a merge-only catch-up; no independent authored revision to this path exists in the eight-head capture."
+    },
+    {
+      "path": "tests/test_conjugation_block_reduction.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_path": "tests/test_conjugation_block_reduction.py",
+      "source_blob": "3cffe5a890b9371f6dbea7ff3d7c84e9e1695a70",
+      "sha256": "4be429838d9a1900cf4145c27989d7e9ba7e3f2132e8a6a0a2dfa9fb1d2a0194",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    },
+    {
+      "path": "tests/test_laurent_rank_margin.py",
+      "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_path": "tests/test_laurent_rank_margin.py",
+      "source_blob": "498894dcc85b31d2be9819100bd2734b89a290a5",
+      "sha256": "496382816e443034f63f835b5e7e0dd10ea8d25f3222f38221ac878d013b0cfc",
+      "mode": "100644",
+      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+    }
+  ],
+  "retained_advanced_versions": [
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+      "sha256": "5510ed6816842f42c8b5018cc2abc0bdeb6046e72a645ae25053248014173a2d",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+      "sha256": "566f5329a5193260db27278b86d64369cf7c35ae303b7f906583badea91ecf59",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+      "sha256": "40f163ef47b126b887db501c7df17b36e0f3e4a8ff7221695e71d062a035aed6",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+      "sha256": "f62691ec0a41ce6c8a61f8ea725e7f3e39961db040fbe4d2bb19218d2fb685c0",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+      "sha256": "25952c4de6f05948695b93c3e9631868735592b6f4a28c20930f0ccd1e4b87bc",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+      "sha256": "141836e34022f3701c0459e8a5b503ab8f47c2a4dc8a827712528ae19ebc94ba",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "sha256": "774bdc89bcdb151fb68b0dad38e26448be8623eba1f914ce8b084f85a9bfaf83",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/README.md",
+      "sha256": "e23ab9ca0b8948e2f6bae5abec2d1cc84b315b94176c150ca735b3e61768658d",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+      "sha256": "27ed07a573e8003e9475bdb07f99a3158d016e528c50453f79b7f61be11d8733",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later exact Laurent-verifier documentation and matching manifest."
+    },
+    {
+      "path": "tests/test_conic_higher_jets.py",
+      "sha256": "0ff19748ea8d0bd19f42f6cd9dd927264ebcb90bd6b047918e055b26f1e16e4e",
+      "reason": "Retain the previously declared advanced resolution and its exact bytes; catch-up merges import an older main variant. Retain the already declared advanced package resolution instead of restoring an older file imported by the late main merge. Retain the exact advanced frozen-source version already selected in the consolidated tree; the late branches import an older main version. Preserve the later rational fourteen/fifteen-jet extension and its matching verifier, tests, and receipt metadata."
+    }
+  ],
+  "delegated_shared_paths": [
+    {
+      "path": "PROVENANCE.md",
+      "reason": "Explicit source-backed shared narrative or ledger reconciliation report owns final bytes."
+    },
+    {
+      "path": "STATUS.md",
+      "reason": "Explicit source-backed shared narrative or ledger reconciliation report owns final bytes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "reason": "Explicit source-backed shared narrative or ledger reconciliation report owns final bytes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "reason": "Explicit source-backed shared narrative or ledger reconciliation report owns final bytes."
+    },
+    {
+      "path": "research/ai/2026-10-23-flip-escape/ACTIVE.md",
+      "reason": "Explicit source-backed shared narrative or ledger reconciliation report owns final bytes."
+    },
+    {
+      "path": "research/claims.json",
+      "reason": "Explicit source-backed shared narrative or ledger reconciliation report owns final bytes."
+    }
+  ],
+  "method": "Expected hashes are selected from frozen incoming blobs or previously reviewed baseline-source resolutions before reading the merged result.",
+  "limitations": "This establishes source identity and preservation decisions, not mathematical correctness or final test success. A separately declared narrative resolution may supersede package documentation."
+}

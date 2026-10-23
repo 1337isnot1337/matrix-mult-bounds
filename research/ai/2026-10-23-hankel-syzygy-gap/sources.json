@@ -1,0 +1,43 @@
+{
+  "base_commit": "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+  "field": "C",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_rank_two.md",
+      "sha256": "b5eaa492ec64566af3c6d8d82a4f5345b6329e18bed1b6169a7c06885dd4d7c3"
+    },
+    {
+      "path": "research/ai/2026-10-23-rank20-ruling/proof.md",
+      "sha256": "cc5dfd2ac2a7be73ce0678b528ffd5d5b4b4fcdfd032e2058efe93fc577218c1"
+    },
+    {
+      "path": "research/ai/2026-10-23-singular-long-ruling/proof.md",
+      "sha256": "5524ac796416ccd1485d6002d5e17f6f143974e1206284c5272a0f51b0b6cde5"
+    },
+    {
+      "path": "research/ai/2026-10-23-singular-long-ruling/verify.py",
+      "sha256": "5d697949ff5eac0c8e6793d6532cd914e373dc49d6077e786292587647f1041d"
+    }
+  ],
+  "external_dependency_in_prior_splitting_formula": {
+    "author": "A. Grothendieck",
+    "version": "Sur la classification des fibres holomorphes sur la sphere de Riemann, American Journal of Mathematics79(1),1957,121-138",
+    "theorem": "2.1, printed page126",
+    "doi": "10.2307/2372388",
+    "primary_url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
+    "hypotheses_and_use": "Holomorphic vector bundles on the complex projective line split into line bundles. Adopted through the prior full coefficient-map kernel formula; no arbitrary-field splitting assertion."
+  },
+  "parents": [
+    "https://github.com/1337isnot1337/matrix-mult-bounds/pull/142",
+    "https://github.com/1337isnot1337/matrix-mult-bounds/pull/125"
+  ],
+  "attribution": "Owner-directed OpenAI Codex continuation. Prior source geometry, complex splitting formula, Hermite jet spans, generic-pencil gcd argument and shared-correction criterion retain their original credit. Symmetric adjugate/compound derivation, degree-one syzygy exclusion and cap23 application are local written unreviewed extensions. No historical priority or new imported classification theorem."
+}

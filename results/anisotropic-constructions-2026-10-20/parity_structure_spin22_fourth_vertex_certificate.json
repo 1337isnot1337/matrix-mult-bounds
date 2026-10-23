@@ -1,0 +1,134 @@
+{
+  "claim_id": "AI-SPIN-FOURTH-VERTEX-122",
+  "tiny": {
+    "source": [
+      2,
+      2
+    ],
+    "target": [
+      3,
+      4,
+      2
+    ],
+    "source_terms_checked": 64,
+    "all_target_coefficients_checked": 576,
+    "nonzero_target_coefficients": 24,
+    "all_other_coefficients_zero": true,
+    "map_denominators": [
+      2,
+      1,
+      2
+    ],
+    "sparse_map_entries": [
+      24,
+      24,
+      20
+    ],
+    "response_support_sizes": [
+      12,
+      12,
+      12
+    ]
+  },
+  "targets": {
+    "32": {
+      "source": [
+        8,
+        8
+      ],
+      "target": [
+        3,
+        4,
+        32
+      ],
+      "source_terms_checked": 262144,
+      "all_target_coefficients_checked": 147456,
+      "nonzero_target_coefficients": 384,
+      "all_other_coefficients_zero": true,
+      "map_denominators": [
+        2,
+        1,
+        2
+      ],
+      "sparse_map_entries": [
+        24,
+        384,
+        320
+      ],
+      "response_support_sizes": [
+        192,
+        288,
+        288
+      ],
+      "full_response_ranks_exact": [
+        192,
+        288,
+        288
+      ],
+      "response_minor_determinants_mod_65521": [
+        36710,
+        1787,
+        19143
+      ],
+      "exact_core_preimage_dimensions": [
+        780,
+        800,
+        768
+      ]
+    },
+    "28": {
+      "source": [
+        8,
+        8
+      ],
+      "target": [
+        3,
+        4,
+        28
+      ],
+      "source_terms_checked": 262144,
+      "all_target_coefficients_checked": 112896,
+      "nonzero_target_coefficients": 336,
+      "all_other_coefficients_zero": true,
+      "map_denominators": [
+        2,
+        1,
+        2
+      ],
+      "sparse_map_entries": [
+        24,
+        336,
+        280
+      ],
+      "response_support_sizes": [
+        192,
+        252,
+        252
+      ],
+      "full_response_ranks_exact": [
+        192,
+        252,
+        252
+      ],
+      "response_minor_determinants_mod_65521": [
+        43245,
+        58785,
+        8539
+      ],
+      "exact_core_preimage_dimensions": [
+        780,
+        820,
+        792
+      ]
+    }
+  },
+  "general_family": "A(2d,2d) -> M(3,4,2d^2), for every integer d>=1",
+  "field": "Q, hence C",
+  "arithmetic": "Python integers and nonzero finite-field minors",
+  "full_improving_target_constructed": false,
+  "new_exponent_established": false,
+  "external_independent_review": false,
+  "witness_sha256": "b4b7e515158b29cec2b24fb898b864aab54f9070e3ddacfdcfe2a771828716ce",
+  "maps_sha256": "16036bc921d55b7e599a30bcddcca8148f649034188e83eaac2e7f89544b587b",
+  "response_minors_sha256": "0136ae6e3993feb56709c7250f2254fcc42ac59da914801e18597b93d0f4126f"
+}

@@ -1,0 +1,36 @@
+{
+  "baseline": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "source_reports": [
+    "balanced_followup_source_resolution.json",
+    "balanced_followup_docs_resolution.json",
+    "balanced_followup_pin_resolution.json",
+    "balanced_followup_claim_report.json"
+  ],
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_output/STATUS.md",
+      "sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "baseline_sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "source_path": "STATUS.md",
+      "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
+    },
+    {
+      "path": "research/claims.json",
+      "sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+      "source_commit": null,
+      "source_path": "research/claims.json",
+      "reason": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "sha256": "3ef215c1a38dca80d515bc569f7598e76d570e01fadb8f445bc78a22768755d4",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/branches.json",
+      "reason": "Record172 archived topic-source snapshots with currentf006 and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry."
+    }
+  ]
+}

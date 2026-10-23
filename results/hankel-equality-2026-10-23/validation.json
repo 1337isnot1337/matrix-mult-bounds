@@ -1,0 +1,85 @@
+{
+  "mathematical_status": "proof-written-unreviewed",
+  "improves_omega": false,
+  "prior_full_verification": {
+    "head": "b9006daccc09e6ff1a2a61d06f49e3a025ac697d",
+    "tree": "f7048c4998517477e838c15a67c52e3f6293d700",
+    "workflow_run": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39970127093",
+    "result": "success",
+    "python_lanes": {
+      "3.10": {
+        "discovered_tests": 859,
+        "optional_skips": 3,
+        "shard_test_counts": [
+          228,
+          225,
+          212,
+          194
+        ],
+        "job_ids": [
+          120470293796,
+          120470293823,
+          120470293854,
+          120470293724
+        ]
+      },
+      "3.14": {
+        "discovered_tests": 859,
+        "optional_skips": 3,
+        "shard_test_counts": [
+          228,
+          225,
+          212,
+          194
+        ],
+        "job_ids": [
+          120470293748,
+          120470293647,
+          120470293857,
+          120470293689
+        ]
+      }
+    },
+    "historical_replay": {
+      "python": "3.13",
+      "job_id": 120470293230,
+      "result": "success",
+      "experiments": 5
+    },
+    "required_CI": "success"
+  },
+  "integration": {
+    "parents": [
+      "b9006daccc09e6ff1a2a61d06f49e3a025ac697d",
+      "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+    ],
+    "focused_tests": 5,
+    "metadata_tests": 18,
+    "source_pins_checked": 5,
+    "claim_id_union_preserved": true,
+    "note": "Conflict resolution retains both status sections; application notes credit the existing ordinary A9 exclusion. Only a verifier comment changed in maintained math code. Full hosted CI must pass again on the integration head."
+  },
+  "local_full_regression": {
+    "status": "incomplete",
+    "completion_footer_present": false,
+    "session_no_longer_present": true,
+    "used_as_full_validation": false,
+    "note": "The completed exact-head hosted matrix supplies full regression evidence; this partial local log is not counted as a pass."
+  },
+  "local_python": "3.14.8",
+  "log_sha256": {
+    "tests-focused.txt": "cd1fbe6d5dd99bb99579722151479a648913351b752c4b078a4ca93bc995b8a7",
+    "tests-integrated-focused.txt": "216c07269556330ecc13be2d9e2080714ec5702ace6580b17ef9b624801a6b2d",
+    "tests-integrated-metadata.txt": "242df3ec0fa60c40617593285111308dd0959f236ebde72ac20056702b7987b9"
+  },
+  "local_archive_replay": {
+    "result": "success",
+    "experiments": 5,
+    "sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "integration_source_sha256": {
+    "research/ai/2026-10-23-hankel-equality/proof.md": "7016423872ce375504b889675092ed5f94878aa28947416ea235abc656d8135e",
+    "research/ai/2026-10-23-hankel-equality/verify.py": "0627e933037b547735f50ae9fde2fb34a1f113fdd91df676870dacda0a8dc457",
+    "research/claims.json": "6589e3e536f39895205ca68cadadc4c97a35dc7dd4f6b3de54af06729020f5f8"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "schema": "s5-two-equal-staircase-v1",
+  "source_pin": {
+    "path": "results/s5-finite-covers-2026-10-23/certificate.json",
+    "sha256": "00532eeecd3d28032f829c26cb430f3e842ed91b8f6f152d2fceddb875fd9652"
+  },
+  "scope": "Cube block-word bidegree majorants; monotone thresholds; two equal legs.",
+  "rows": [
+    {
+      "cost": 147456,
+      "cutoffs": [
+        [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 8,
+      "central_rank": 1,
+      "principal_factors": 0,
+      "central_factors": 6,
+      "prior_weighted_cost": 147456
+    },
+    {
+      "cost": 397568,
+      "cutoffs": [
+        [
+          6,
+          4,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          6,
+          4,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          4,
+          2,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 1716,
+      "central_rank": 1,
+      "principal_factors": 1,
+      "central_factors": 5,
+      "prior_weighted_cost": 397568
+    },
+    {
+      "cost": 997536,
+      "cutoffs": [
+        [
+          7,
+          4,
+          1,
+          -1,
+          -1
+        ],
+        [
+          7,
+          4,
+          1,
+          -1,
+          -1
+        ],
+        [
+          8,
+          5,
+          2,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 8568,
+      "central_rank": 1,
+      "principal_factors": 2,
+      "central_factors": 4,
+      "prior_weighted_cost": 997536
+    },
+    {
+      "cost": 2534774,
+      "cutoffs": [
+        [
+          8,
+          5,
+          2,
+          -1
+        ],
+        [
+          8,
+          5,
+          2,
+          -1
+        ],
+        [
+          9,
+          6,
+          3,
+          0
+        ]
+      ],
+      "first_staircases_checked": 8855,
+      "central_rank": 1,
+      "principal_factors": 3,
+      "central_factors": 3,
+      "prior_weighted_cost": 2534774
+    },
+    {
+      "cost": 909312,
+      "cutoffs": [
+        [
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 11,
+      "central_rank": 2,
+      "principal_factors": 0,
+      "central_factors": 9,
+      "prior_weighted_cost": 909312
+    },
+    {
+      "cost": 2440192,
+      "cutoffs": [
+        [
+          6,
+          6,
+          4,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          6,
+          6,
+          4,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          6,
+          4,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 11440,
+      "central_rank": 2,
+      "principal_factors": 1,
+      "central_factors": 8,
+      "prior_weighted_cost": 2440192
+    },
+    {
+      "cost": 6165024,
+      "cutoffs": [
+        [
+          10,
+          7,
+          4,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          10,
+          7,
+          4,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          10,
+          8,
+          5,
+          2,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 203490,
+      "central_rank": 2,
+      "principal_factors": 2,
+      "central_factors": 7,
+      "prior_weighted_cost": 6165024
+    },
+    {
+      "cost": 15768612,
+      "cutoffs": [
+        [
+          11,
+          8,
+          5,
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          11,
+          8,
+          5,
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          12,
+          9,
+          6,
+          3,
+          0,
+          -1,
+          -1
+        ]
+      ],
+      "first_staircases_checked": 657800,
+      "central_rank": 2,
+      "principal_factors": 3,
+      "central_factors": 6,
+      "prior_weighted_cost": 15768612
+    }
+  ],
+  "total_first_staircases_checked": 891888,
+  "improved_word_count": 0,
+  "arbitrary_cover_optimality_claimed": false,
+  "improves_omega": false
+}

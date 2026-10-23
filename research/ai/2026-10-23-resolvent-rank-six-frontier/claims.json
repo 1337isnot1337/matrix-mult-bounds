@@ -1,0 +1,38 @@
+[
+  {
+    "status": "proof-written-unreviewed",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-resolvent-rank-six-frontier/proof.md",
+    "id": "AI-RESOLVENT-RANK-SIX-FRONTIER-001",
+    "title": "Complete constant-image rank-six locus of the fixed-resolvent space",
+    "section": "1-3",
+    "statement": "Over every field, the rank-at-most-six locus of the fixed 112-dimensional limiting matrix space W is a 17-dimensional linear subspace. Every nonzero member has rank six and the same six-dimensional image. The mixed outer block locus has dimension five; its intersection with the pure Q space has dimension four. Twenty-six exact triangular seven-minor identities and a polynomial normal form certify the classification.",
+    "dependencies": [
+      "AI-RESOLVENT-SHARP-MINRANK-001 source convention, full block decomposition and outer-source minimum rank, pinned in sources.json",
+      "Twenty-six integer triangular seven-minor identities with unit substitutions",
+      "Untruncated polynomial multiplication normal form"
+    ],
+    "limitations": "Ordinary matrix rank in this fixed space only. No varying-resolvent classification, arbitrary singular-degeneration exclusion, independent review, formalization or exponent improvement."
+  },
+  {
+    "status": "proof-written-unreviewed",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-resolvent-rank-six-frontier/proof.md",
+    "id": "AI-RESOLVENT-RANK109-COMPRESSION-002",
+    "title": "Sharp dimension111 bound and complete rank109 compression incidence",
+    "section": "4-5",
+    "statement": "Over every field, for P of size110 by112 and C of size112 by110, both of rank109, the map X to PXC on the fixed space W has kernel dimension at most one and image dimension at least111. Every nonzero kernel is a unique projective polynomial tuple p of degree bounds(4,3,3,3), together with any three-plane L in the common six-dimensional image I; ker P=L and im C=X(p)^-1(L). Every such incidence is realizable, so dimension111 is sharp; dimension112 also occurs.",
+    "dependencies": [
+      "AI-RESOLVENT-RANK-SIX-FRONTIER-001",
+      "Elementary leading-monomial proof of the component-pair polynomial product dimension inequality",
+      "Ordinary matrix rank-loss inequality"
+    ],
+    "limitations": "Constant compression of the fixed W only. The result does not control new leading coefficients under varying singular compressions or prove a new matrix-target exclusion. Written and unreviewed; no formalization or exponent improvement."
+  }
+]

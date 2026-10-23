@@ -1,0 +1,159 @@
+{
+  "schema": "all-pair-rank136-controls-v1",
+  "source_pins": {
+    "research/ai/2026-10-23-all-pair-rank144/proof.md": "76425ef48d66d0d6daf2a0d163da1d068968e0330fa6449933bac107584eea05",
+    "research/ai/2026-10-23-rank84-rank88-spaces/proof.md": "8c061c3af97be6d340bc8deef8ba6964310509799d6c15c48420d108ac956113"
+  },
+  "rank_pair_controls": {
+    "pair_counts": {
+      "mixed": {
+        "rank_pairs_checked": 10302,
+        "prior_pairs_above144": 1653,
+        "new_pairs_of_sum137_through144": 492,
+        "all_pairs_above136_excluded": 2145
+      },
+      "long": {
+        "rank_pairs_checked": 10404,
+        "prior_pairs_above144": 1711,
+        "new_pairs_of_sum137_through144": 500,
+        "all_pairs_above136_excluded": 2211
+      }
+    },
+    "interval_margins": [
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          141,
+          144
+        ],
+        "cases": 238,
+        "kernel_lower_minimum": 61,
+        "kernel_upper": 56,
+        "minimum_dimension_gap": 5
+      },
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          137,
+          140
+        ],
+        "cases": 254,
+        "kernel_lower_minimum": 61,
+        "kernel_upper": 60,
+        "minimum_dimension_gap": 1
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          141,
+          144
+        ],
+        "cases": 242,
+        "kernel_lower_minimum": 58,
+        "kernel_upper": 56,
+        "minimum_dimension_gap": 2
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          137,
+          140
+        ],
+        "cases": 258,
+        "kernel_lower_minimum": 64,
+        "kernel_upper": 60,
+        "minimum_dimension_gap": 4
+      }
+    ],
+    "retained_prerequisite_control": {
+      "with_prior": {
+        "ranks": [
+          100,
+          100
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 24,
+        "kernel_lower": 10,
+        "new_kernel_upper": 56,
+        "excluded_by_prior144": true,
+        "new_kernel_contradiction": false,
+        "excluded": true
+      },
+      "new_caps_alone": {
+        "ranks": [
+          100,
+          100
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 24,
+        "kernel_lower": 10,
+        "new_kernel_upper": 56,
+        "excluded_by_prior144": false,
+        "new_kernel_contradiction": false,
+        "excluded": false
+      }
+    },
+    "boundary_controls": [
+      {
+        "ranks": [
+          68,
+          68
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 88,
+        "kernel_lower": 74,
+        "new_kernel_upper": 112,
+        "excluded_by_prior144": false,
+        "new_kernel_contradiction": false,
+        "excluded": false
+      },
+      {
+        "ranks": [
+          68,
+          68
+        ],
+        "kind": "long",
+        "source_rank_ceiling": 88,
+        "kernel_lower": 64,
+        "new_kernel_upper": 112,
+        "excluded_by_prior144": false,
+        "new_kernel_contradiction": false,
+        "excluded": false
+      },
+      {
+        "ranks": [
+          100,
+          36
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 88,
+        "kernel_lower": 80,
+        "new_kernel_upper": 112,
+        "excluded_by_prior144": false,
+        "new_kernel_contradiction": false,
+        "excluded": false
+      }
+    ],
+    "boundary_controls_are_constructions": false,
+    "every_pair_sum_upper": 136,
+    "all_three_rank_sum_upper": 204,
+    "short_rank100_long_rank_upper": 36
+  },
+  "claim_scope": {
+    "claim_id": "AI-A4-ALL-PAIR-RANK136-001",
+    "field": "C",
+    "retains_every_pair144_prerequisite": true,
+    "arbitrary_complex_leading_kernels": true,
+    "arbitrary_finite_Laurent_poles": true,
+    "every_balanced_pair_sum_upper": 136,
+    "total_balanced_rank_upper": 204,
+    "short_rank100_long_rank_upper": 36,
+    "necessary_conditions_only": true,
+    "leading_rank_bounds_sharp": false,
+    "matrix_target_constructed": false,
+    "smaller_exponent_established": false,
+    "independent_external_review": false,
+    "formalized": false
+  },
+  "acceptance_arithmetic": "integers only; imported source theorems checked by proof hash"
+}

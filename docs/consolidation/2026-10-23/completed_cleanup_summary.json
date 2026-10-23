@@ -1,0 +1,31 @@
+{
+  "source_branches_deleted_and_verified": 127,
+  "source_pull_requests_closed_as_superseded": 100,
+  "initial_phase": {
+    "deleted_branches": 117,
+    "closed_prs": 91,
+    "receipts": [
+      "branch_retirement_initial.json",
+      "pr_closure_initial.json"
+    ]
+  },
+  "published_159_phase": {
+    "head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+    "deleted_branches": 10,
+    "closed_prs": 9,
+    "completed_at": "2026-10-23T17:56:03.030423+00:00",
+    "receipts": [
+      "branch_retirement_159.json",
+      "pr_closure_159.json"
+    ]
+  },
+  "final_five_source_branches_pending_publication_and_retirement": 5,
+  "final_four_source_prs_pending_retirement": [
+    213,
+    215,
+    216,
+    217
+  ],
+  "already_absent_source_names_are_not_counted_as_deletions": true,
+  "source_prs_closed_as_superseded_are_not_reported_as_individually_merged": true
+}

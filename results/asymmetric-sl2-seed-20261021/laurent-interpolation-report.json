@@ -1,0 +1,32 @@
+{
+  "status": "numerical interpolation diagnostic only, not a degeneration certificate",
+  "input_stages": [
+    "gauss-newton-preconditioned",
+    "sparse-gauss-newton",
+    "sparse-gauss-newton-restart",
+    "sparse-gauss-newton-third"
+  ],
+  "balanced_leg_norm_parameters": [
+    33.70276328038339,
+    43.66547898828745,
+    59.395351926234994,
+    73.61717914856102
+  ],
+  "coefficient_tensor_norms_relative_to_target": {
+    "-3": 22193.430062248124,
+    "-2": 3311.133129577621,
+    "-1": 196.15743397094218,
+    "0": 6.258550730234972,
+    "1": 0.11512733860770255,
+    "2": 0.0011787003482451532,
+    "3": 6.2370828733234895e-06
+  },
+  "constant_term_error": 6.286464383850263,
+  "fourth_tensor_prediction_error": 0.14755239788913183,
+  "fourth_map_prediction_relative_errors": [
+    0.027085984780438863,
+    0.02353729879826139,
+    0.02667138658987646
+  ],
+  "acceptance_requirement": "All positive Laurent powers must vanish exactly and the constant coefficient must equal the target exactly."
+}

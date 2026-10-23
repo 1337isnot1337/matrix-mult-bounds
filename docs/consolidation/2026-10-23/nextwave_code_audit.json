@@ -1,0 +1,494 @@
+{
+  "schema": "matrix-mult-bounds-nextwave-code-audit-v1",
+  "baseline": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "source_heads": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "delta_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779"
+    },
+    {
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+    },
+    {
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+    }
+  ],
+  "classification": {
+    "new_unit_modules": 5,
+    "new_tests": 17,
+    "expected_final_inventory_tests": 1950,
+    "expected_final_inventory_modules": 437,
+    "expected_claim_count": 612,
+    "modified_existing_acceptance_code": false,
+    "modified_existing_tests": false,
+    "dependency_or_workflow_changes": false
+  },
+  "packages": [
+    {
+      "name": "column-overlap",
+      "module": "test_column_overlap",
+      "tests": 6,
+      "acceptance": "Exact rational and integer reconstruction of seven column-overlap, singular-leading, boundary, saturation, and corruption controls; retained report and claim scope checks.",
+      "pin_enforcement": "Two local SHA256 pins checked by the unit module. The separate attributed prior-work hash was independently checked.",
+      "runtime_estimate": null
+    },
+    {
+      "name": "a4-coordinate-compressions",
+      "module": "test_a4_coordinate_compressions",
+      "tests": 4,
+      "acceptance": "Complete 142884-pair independent coordinate census modulo 1009, two exact six-dimensional integer kernels, independent block-basis cross-check, and damaged certificate rejection.",
+      "pin_enforcement": "Five local SHA256 pins strictly checked before reconstruction. Parent verifier, block reduction, proof, low-rank note and block certificate match the published baseline.",
+      "runtime_estimate": {
+        "historical_seconds": 84.49,
+        "source": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+        "scope": "Historical source receipt only; not a fresh result or guarantee."
+      }
+    },
+    {
+      "name": "paired-rank-two-gap",
+      "module": "test_paired_rank_two_gap",
+      "tests": 3,
+      "acceptance": "128 pencil-pair cases, 16 sharp controls, eight literal factorization equalities, exhaustive small GF2 rank-two matrices, retained report equality and a diagnostic mutation control.",
+      "pin_enforcement": "Two prior-source Git blob pins independently checked; acceptance code has no runtime dependency on those Markdown files.",
+      "runtime_estimate": null
+    },
+    {
+      "name": "three-term-resultant-obstruction",
+      "module": "test_three_term_resultant_obstruction",
+      "tests": 1,
+      "acceptance": "Exact 256-point integer determinant identity grid, rank14/15 controls, integral kernel and -4 minor, finite modular checks.",
+      "pin_enforcement": "Literal source Git blob pin independently checked; verifier reconstructs matrices locally and has no predecessor runtime import.",
+      "runtime_estimate": null
+    },
+    {
+      "name": "top-coefficient-biforms",
+      "module": "test_top_coefficient_biforms",
+      "tests": 3,
+      "acceptance": "3372 complete modular coefficient-matrix rank controls, 24 exact rational SymPy controls, saved report equality, and off-by-one mutation control.",
+      "pin_enforcement": "Literal source Git blob pin independently checked. Existing installed SymPy is the only nonstdlib acceptance import; requirements do not change.",
+      "runtime_estimate": null
+    }
+  ],
+  "source_files": [
+    {
+      "path": "research/ai/2026-10-23-column-overlap/sources.json",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "sha256": "fde1ed25dd22c8cddcb98c496b80fb0e0d2c0e061abc567bf69efd72a0f6c647",
+      "bytes": 2180
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/verify.py",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "sha256": "895f8102778da285f9c07562e57eaed36481599216f1edfd1677b532b0695409",
+      "bytes": 16585,
+      "imports": [
+        "__future__",
+        "argparse",
+        "fractions",
+        "hashlib",
+        "itertools",
+        "json",
+        "pathlib"
+      ],
+      "test_ids": [],
+      "sensitive_calls": [
+        "args.output.write_text",
+        "evaluate"
+      ]
+    },
+    {
+      "path": "tests/test_column_overlap.py",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "sha256": "b4dfc32272af7a05d3a9d0b5e10362fd3b8e0414b10c3ff450c9d1b34f8ae62c",
+      "bytes": 3858,
+      "imports": [
+        "__future__",
+        "hashlib",
+        "importlib.util",
+        "json",
+        "pathlib",
+        "unittest"
+      ],
+      "test_ids": [
+        "ColumnOverlapTests.test_complete_native_replay_matches_retained_report",
+        "ColumnOverlapTests.test_full_channel_sharp_bound",
+        "ColumnOverlapTests.test_component_count_and_saturation_are_both_necessary",
+        "ColumnOverlapTests.test_boundary_rank_loss_and_separately_polar_control",
+        "ColumnOverlapTests.test_damaged_integer_construction_is_rejected",
+        "ColumnOverlapTests.test_source_pins_and_written_claim_scope"
+      ],
+      "sensitive_calls": [
+        "SPEC.loader.exec_module"
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "5a9887a2574fc8ee9be6330a8bb040b802c017fa1e96943f720a4fe6f644c1d9",
+      "bytes": 2776,
+      "imports": [
+        "argparse",
+        "collections",
+        "importlib.util",
+        "itertools",
+        "json",
+        "pathlib",
+        "time"
+      ],
+      "test_ids": [],
+      "sensitive_calls": [
+        "output.write_text",
+        "spec.loader.exec_module"
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "39cc2ecc19a2116653152a2ddc38d2338750c061eb323a77c8c6bc37c2463d9b",
+      "bytes": 3419
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "8283038c67babc469d33e460a53e9e10f3e548b3692c19713ccea8f69fa02568",
+      "bytes": 7303,
+      "imports": [
+        "collections",
+        "hashlib",
+        "importlib.util",
+        "itertools",
+        "json",
+        "pathlib"
+      ],
+      "test_ids": [],
+      "sensitive_calls": [
+        "spec.loader.exec_module"
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "ffa5306dc272f243cfc8b133abf42eb2a6fb173ca3db2762c8cf5f1e42a8bce2",
+      "bytes": 799
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "3c976fb864896a4d4439583e620a777dbed9dcb1197662bbcd706c416d96ca58",
+      "bytes": 2236
+    },
+    {
+      "path": "tests/test_a4_coordinate_compressions.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "2f28fb39935bdee2e5e4d5b8dd2e4799424e583f53024bbbc13266f62c8a11b3",
+      "bytes": 2720,
+      "imports": [
+        "copy",
+        "importlib.util",
+        "json",
+        "pathlib",
+        "unittest"
+      ],
+      "test_ids": [
+        "IndependentCoordinateTests.test_complete_census_and_exact_sharpness",
+        "IndependentCoordinateTests.test_rebuilt_outer_space_matches_the_certified_block_basis",
+        "IndependentCoordinateTests.test_false_exact_kernel_and_repeated_pair_are_rejected",
+        "IndependentCoordinateTests.test_wrong_scope_and_missing_kernel_direction_are_rejected"
+      ],
+      "sensitive_calls": [
+        "spec.loader.exec_module"
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "sha256": "d2ed0344f28554d881b0501755454abc3df807c389a4fc9920c4c016b6b5ea65",
+      "bytes": 1531
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "sha256": "562c964f339a0a69fec6d04bf561d9c36510c9c001945469c7ad745494c64821",
+      "bytes": 5800,
+      "imports": [
+        "argparse",
+        "json",
+        "collections",
+        "pathlib"
+      ],
+      "test_ids": [],
+      "sensitive_calls": [
+        "args.output.write_text"
+      ]
+    },
+    {
+      "path": "tests/test_paired_rank_two_gap.py",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "sha256": "46db5da6dbfb852b276c3e6265bd132a12e15c46933159193b029141b2a89b40",
+      "bytes": 1157,
+      "imports": [
+        "importlib.util",
+        "json",
+        "unittest",
+        "pathlib"
+      ],
+      "test_ids": [
+        "PairedRankTwoGapTests.test_replay_certificate",
+        "PairedRankTwoGapTests.test_block_sharp_rectangular",
+        "PairedRankTwoGapTests.test_diagnostic_tamper"
+      ],
+      "sensitive_calls": [
+        "spec.loader.exec_module"
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "sha256": "f5215c93dc95be5074abbdd44fcb731532c71cdaac6345977a9778aefcb66a2b",
+      "bytes": 1497
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "sha256": "ef526c1d46b606b023f8155c5c1433aca70d65f2f4c67fea07c6d5095053bce9",
+      "bytes": 4105,
+      "imports": [
+        "json"
+      ],
+      "test_ids": [],
+      "sensitive_calls": []
+    },
+    {
+      "path": "tests/test_three_term_resultant_obstruction.py",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "sha256": "d0aea75277f4bb191391370efbaf94e433547fc99b4ee587b237b3a1479af293",
+      "bytes": 785,
+      "imports": [
+        "importlib.util",
+        "pathlib",
+        "unittest"
+      ],
+      "test_ids": [
+        "ThreeTermBiformObstructionTests.test_exact_certificate"
+      ],
+      "sensitive_calls": [
+        "spec.loader.exec_module"
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217",
+      "bytes": 1439
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496",
+      "bytes": 5867,
+      "imports": [
+        "__future__",
+        "argparse",
+        "itertools",
+        "json",
+        "collections",
+        "pathlib"
+      ],
+      "test_ids": [],
+      "sensitive_calls": [
+        "args.receipt.write_text"
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206",
+      "bytes": 1801,
+      "imports": [
+        "__future__",
+        "json",
+        "fractions",
+        "sympy"
+      ],
+      "test_ids": [],
+      "sensitive_calls": []
+    },
+    {
+      "path": "tests/test_top_coefficient_biforms.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8",
+      "bytes": 1783,
+      "imports": [
+        "__future__",
+        "importlib.util",
+        "json",
+        "unittest",
+        "pathlib"
+      ],
+      "test_ids": [
+        "TopCoefficientBiformTests.test_modular_acceptance_and_frozen_receipt",
+        "TopCoefficientBiformTests.test_exact_rational_backend",
+        "TopCoefficientBiformTests.test_off_by_one_mutation_control"
+      ],
+      "sensitive_calls": [
+        "spec.loader.exec_module"
+      ]
+    }
+  ],
+  "local_pin_checks": {
+    "baseline": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+    "checks": [
+      {
+        "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+        "record": "$.local_dependencies[0]",
+        "path": "research/ai/2026-10-23-conjugation-limit/verify.py",
+        "pin_type": "sha256",
+        "expected": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+        "actual_at_published_baseline": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+        "record": "$.local_dependencies[1]",
+        "path": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "pin_type": "sha256",
+        "expected": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+        "actual_at_published_baseline": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+        "record": "$.local_dependencies[2]",
+        "path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+        "pin_type": "sha256",
+        "expected": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+        "actual_at_published_baseline": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+        "record": "$.local_dependencies[3]",
+        "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+        "pin_type": "sha256",
+        "expected": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+        "actual_at_published_baseline": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+        "record": "$.local_dependencies[4]",
+        "path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+        "pin_type": "sha256",
+        "expected": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+        "actual_at_published_baseline": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-column-overlap/sources.json",
+        "record": "$.local_dependencies[0]",
+        "path": "research/ai/2026-10-20-paired-sources/research_note.md",
+        "pin_type": "sha256",
+        "expected": "2ac3a99512cf055058e824d1fcd461c3cf65d84f1d5ad92769caba304866d1dd",
+        "actual_at_published_baseline": "2ac3a99512cf055058e824d1fcd461c3cf65d84f1d5ad92769caba304866d1dd",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-column-overlap/sources.json",
+        "record": "$.local_dependencies[1]",
+        "path": "research/ai/2026-10-21-correction-budget/README.md",
+        "pin_type": "sha256",
+        "expected": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+        "actual_at_published_baseline": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-column-overlap/sources.json",
+        "record": "$.prior_work",
+        "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+        "pin_type": "sha256",
+        "expected": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+        "actual_at_published_baseline": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+        "matches": true,
+        "runtime_dependency": false
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+        "record": "$.prior_local_sources[0]",
+        "path": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+        "pin_type": "git_blob_sha",
+        "expected": "6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+        "actual_at_published_baseline": "6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+        "record": "$.prior_local_sources[1]",
+        "path": "research/ai/2026-10-21-balanced-puncture-gap/proof.md",
+        "pin_type": "git_blob_sha",
+        "expected": "b58d4c50b78faca9d1c374bb5fa8ecee3803792f",
+        "actual_at_published_baseline": "b58d4c50b78faca9d1c374bb5fa8ecee3803792f",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+        "record": "$.adopted_main_source",
+        "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+        "pin_type": "git_blob_sha",
+        "expected": "04d28c6a05027a7756891f47d28327de850a7501",
+        "actual_at_published_baseline": "04d28c6a05027a7756891f47d28327de850a7501",
+        "matches": true,
+        "runtime_dependency": null
+      },
+      {
+        "sources_file": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+        "record": "$.literal_source",
+        "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+        "pin_type": "git_blob_sha",
+        "expected": "04d28c6a05027a7756891f47d28327de850a7501",
+        "actual_at_published_baseline": "04d28c6a05027a7756891f47d28327de850a7501",
+        "matches": true,
+        "runtime_dependency": null
+      }
+    ],
+    "total": 12,
+    "all_match": true
+  },
+  "execution_review": {
+    "acceptance_network_calls": false,
+    "acceptance_subprocess_calls": false,
+    "default_acceptance_writes": false,
+    "assertions_must_remain_enabled": true,
+    "optional_discovery": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py has top-level argument parsing and execution; do not import or run it. New acceptance modules do not import discovery.",
+    "optional_output_arguments": "Column overlap and paired-gap --output, and top-coefficient --receipt, can write explicitly named files; the unittest gate invokes no such arguments.",
+    "historical_validation_receipts": "Retained as source evidence only; never executed or counted as current-tree validation.",
+    "test_gate": "28 unit tests across six independent processes; all acceptance verifiers are reached by those tests, including the rational top-coefficient backend. No separate standalone verifier is necessary."
+  },
+  "approved_execution_precondition": "Wait for graph coordinator to declare a clean, committed nextwave_repo and provide its exact 40-character expected head.",
+  "plan_file": "nextwave_validation_plan.json",
+  "plan_sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
+  "scope_limit": "This is a static execution and pin audit, not a mathematical independent review or a current-tree passing test receipt."
+}

@@ -1,0 +1,86 @@
+{
+  "status": "prepared_with_late_catchup_not_applied",
+  "tested_source_tree_untouched": true,
+  "prepared_against_head": "caf51fe67bed960cbe827d81174f914aeff6968c",
+  "output_files": [
+    {
+      "path": "docs/verification.md",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "docs/verification.md",
+      "input_sha256": "d092b22e3247167c101d59c6c9ab5a147fa34517a1b6bb5c2858ef64544e65a6",
+      "sha256": "d567f65505ca0db0fcba30cae71894ea10691fd3f223bb43dabea1f72f928c0a",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/docs/verification.md",
+      "reason": "Describe only the active full-test/replay/Lean workflow, label the selective/nightly proposal inactive, and distinguish initialization receipts from the auxiliary Lean project."
+    },
+    {
+      "path": "docs/repository-settings.md",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "docs/repository-settings.md",
+      "input_sha256": "19cbfe50a662ef4726288083e85d987e7139b176785fbda72422d774f5900a0d",
+      "sha256": "bc5caa12faae8b6d8d2ec70ca98904556354fabc8ee15ccecbea35d221b54938",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/docs/repository-settings.md",
+      "reason": "Update only the workflow description to the actual full test matrix, archive replay, auxiliary Lean prerequisite, and unscheduled triggers; leave every merge-policy setting unchanged."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "5f98f44563d54ac6c00303ae21980b57ebce012b",
+      "source_path": "docs/research_directions.md",
+      "input_sha256": "625c1e99027502b137ce53376965d45f651e6ad5c53d70cf33d347aaa2d03ae7",
+      "sha256": "4836b213922a9dfbdcebd51d2e5b50086ed1a5c2f173da2f07af2768d02a79f1",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/docs/research_directions.md",
+      "reason": "Adopt the exact source correction: the proper-window theorem is asymptotic for M(n,m,n); its bound is zero at n6,m4, so full span is exploratory for the finite M(5,4,5) target."
+    },
+    {
+      "path": "research/ai/2026-10-23-shift-window-long-legs/QUESTION.md",
+      "source_commit": "5f98f44563d54ac6c00303ae21980b57ebce012b",
+      "source_path": "research/ai/2026-10-23-shift-window-long-legs/QUESTION.md",
+      "input_sha256": "1b70eb9184274418136df763c9e271b4b0a1574d2b65c069f9c67e5b1146f0d9",
+      "sha256": "344d1028021035777726e25b91222a4f11ebc6284b2d7ef3c3db352cbe631d28",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/research/ai/2026-10-23-shift-window-long-legs/QUESTION.md",
+      "reason": "Keep the exact corrected source question, distinguishing the asymptotic residual lower bound from the finite exploratory window-span condition."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_path": "PROVENANCE.md",
+      "prepared_against_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "input_sha256": "ed4eda2d6b9a41e3bfc74f895dd25d640ed609572b6e1255421d17e781ce0241",
+      "sha256": "6080e66bd7bcc619bd0ea147ca7eebdb60fc85ae5de770b80abdeaefdfd1fc63",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/PROVENANCE.md",
+      "reason": "Insert the exact106-product and displayed-budget size-gate continuation beside the preserved29-product package; retain all earlier narrative, attribution, and review-scope resolutions."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_path": "STATUS.md",
+      "prepared_against_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "input_sha256": "88ba4fc53991bdbeca0ce578edd96a2cd488470fc268d7e1efae8041b97b6005",
+      "sha256": "5e3986f41650bb736372c965d47c8acb35a4f5cc0369d49566d1c9030cd1cab3",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/STATUS.md",
+      "reason": "Insert the exact106-product and displayed-budget size-gate continuation beside the preserved29-product package; retain all earlier narrative, attribution, and review-scope resolutions."
+    }
+  ],
+  "workflow_evidence": {
+    "path": ".github/workflows/verify.yml",
+    "sha256": "db9d86ec67205354a7b8bc9e5cd426addda463c2b1baf6fda65e170bde37c679",
+    "test_sharding": "tools/test_shard.py distributes every discovered test module across4 groups; each group is run on Python3.10 and3.14.",
+    "triggers": [
+      "pull_request targeting main",
+      "push to main",
+      "workflow_dispatch"
+    ],
+    "scheduled_trigger": false,
+    "required_jobs": [
+      "tests",
+      "replay",
+      "lean"
+    ],
+    "required_check_name": "CI"
+  },
+  "validation": {
+    "relative_markdown_links_missing": [],
+    "balanced_fences": true,
+    "scope": "Static documentation comparison against actual workflow and exact source-head correction; no code/tests changed or rerun."
+  },
+  "late_catchup_report": "docs_late_resolution.json"
+}

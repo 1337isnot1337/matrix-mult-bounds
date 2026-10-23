@@ -1,0 +1,94 @@
+{
+  "group": "SL(2,F8)",
+  "shape": [
+    18,
+    1,
+    1
+  ],
+  "positive_control_only": true,
+  "frame": "all three vertex sets free in the full group; identity in each; simultaneous conjugacy normalization",
+  "minimal_subgroup_cuts_per_leg": [
+    0,
+    0,
+    0
+  ],
+  "catalog_subgroups_verified": 386,
+  "catalog_classes_verified": 12,
+  "variables": 20863,
+  "initial_clauses": 419131,
+  "seconds_requested": 10.0,
+  "model_limit": 1,
+  "preflight_and_build_seconds": 30.4509533480159,
+  "models": 1,
+  "cuts": [],
+  "witness": {
+    "sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        57,
+        64,
+        65,
+        72,
+        80,
+        88,
+        96,
+        104,
+        112
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "potentials": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "verification": {
+      "shape": [
+        18,
+        1,
+        1
+      ],
+      "intended_terms": 18,
+      "extra_supported_terms": 0,
+      "minimum_extra_weight": null,
+      "verified": true,
+      "verification": "Every supported group triple checked with integers; all three pair maps injective."
+    }
+  },
+  "status": "exact-degeneration-witness",
+  "unsat_proof_checked": false,
+  "all_coordinate_targets_excluded": false,
+  "improves_omega": false,
+  "search_elapsed_seconds": 2.2503164390218444,
+  "elapsed_seconds": 32.70127057202626
+}

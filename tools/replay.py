@@ -73,6 +73,7 @@ def run(output: Path, timeout: float) -> dict:
                'limits': 'Finite reproduction only. No independent proof review or Lean build.'}
     env = os.environ.copy()
     env['PYTHONHASHSEED'] = '0'
+    env['PYTHONOPTIMIZE'] = '0'
     start = time.perf_counter()
     with tempfile.TemporaryDirectory(prefix='matmul-replay-') as directory:
         work = Path(directory)

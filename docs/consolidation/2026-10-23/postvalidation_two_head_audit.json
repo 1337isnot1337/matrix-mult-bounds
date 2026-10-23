@@ -1,0 +1,243 @@
+{
+  "source_heads": {
+    "quadratic": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+    "full_target": "f42b9df4caa0ed88c6363ffbdf73482905b75779"
+  },
+  "incorporated_heads": {
+    "quadratic": "0d9781b6774f328d572bb3326383978215d50306",
+    "full_target": "331801579b19b64f2441a7aab8b566f9d6b02666"
+  },
+  "changed_paths": {
+    "quadratic": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "docs/research_directions.md",
+      "research/ACTIVE.md",
+      "research/ai/2026-10-23-quadratic-z-middle/certificate_equal_degrees.json",
+      "research/ai/2026-10-23-quadratic-z-middle/verify_equal_degrees.py",
+      "research/claims.json"
+    ],
+    "full_target": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "docs/research_directions.md",
+      "research/ACTIVE.md",
+      "research/ai/2026-10-23-conjugation-limit/EXPLORATION.md",
+      "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "research/ai/2026-10-23-conjugation-limit/README.md",
+      "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "research/ai/2026-10-23-conjugation-limit/sources.json",
+      "research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py",
+      "research/claims.json",
+      "results/conjugation-limit-2026-10-23/block-certificate.json",
+      "results/conjugation-limit-2026-10-23/block-validation.json",
+      "results/conjugation-limit-2026-10-23/block-verification.json",
+      "results/conjugation-limit-2026-10-23/escape-exploration.json",
+      "results/conjugation-limit-2026-10-23/escape-replay.log",
+      "results/conjugation-limit-2026-10-23/escape-validation.json",
+      "results/conjugation-limit-2026-10-23/validation.json",
+      "results/conjugation-limit-2026-10-23/validation/collect_validation.py",
+      "results/conjugation-limit-2026-10-23/validation/finalize_validation.py",
+      "results/conjugation-limit-2026-10-23/validation/full-tests.log",
+      "results/conjugation-limit-2026-10-23/validation/initial-validation.json",
+      "results/conjugation-limit-2026-10-23/validation/link-test-retry-2.log",
+      "results/conjugation-limit-2026-10-23/validation/link-test-retry-3.log",
+      "results/conjugation-limit-2026-10-23/validation/link-test-retry.log",
+      "results/conjugation-limit-2026-10-23/validation/plan.json",
+      "results/conjugation-limit-2026-10-23/validation/remaining_tests.py",
+      "results/conjugation-limit-2026-10-23/validation/replay.log",
+      "results/conjugation-limit-2026-10-23/validation/shard-0.json",
+      "results/conjugation-limit-2026-10-23/validation/shard-0.log",
+      "results/conjugation-limit-2026-10-23/validation/shard-1.json",
+      "results/conjugation-limit-2026-10-23/validation/shard-1.log",
+      "results/conjugation-limit-2026-10-23/validation/shard-2.json",
+      "results/conjugation-limit-2026-10-23/validation/shard-2.log",
+      "tests/test_conjugation_block_reduction.py"
+    ]
+  },
+  "python_files": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-z-middle/verify_equal_degrees.py",
+      "source_commit": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+      "sha256": "f8b2a98a35be9e1e25ae83743e3a2a310429f024e4a2a848243c7def95eef3fc",
+      "classification": "active exact acceptance",
+      "imports": [
+        "pathlib",
+        "json"
+      ],
+      "sensitive_named_calls": [],
+      "test_count": 0
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "sha256": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+      "classification": "active exact acceptance",
+      "imports": [
+        "argparse",
+        "fractions",
+        "hashlib",
+        "importlib.util",
+        "itertools",
+        "json",
+        "pathlib"
+      ],
+      "sensitive_named_calls": [
+        "spec.loader.exec_module"
+      ],
+      "test_count": 0
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "sha256": "e8c75b58e8fd5b76f799c12787a90aceff85b87c77424a16808501ee2000abda",
+      "classification": "optional exploration; not in acceptance gate",
+      "imports": [
+        "argparse",
+        "collections",
+        "importlib.util",
+        "itertools",
+        "json",
+        "pathlib",
+        "sys"
+      ],
+      "sensitive_named_calls": [
+        "spec.loader.exec_module"
+      ],
+      "test_count": 0
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/collect_validation.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "sha256": "ba80c4adaa6e56e6bbc048a27f83fdac43c8583262d879cf43954460af9bb9be",
+      "classification": "historical validation harness; do not run/import",
+      "imports": [
+        "pathlib",
+        "collections",
+        "datetime",
+        "hashlib",
+        "json",
+        "platform",
+        "re",
+        "subprocess",
+        "time"
+      ],
+      "sensitive_named_calls": [
+        "subprocess.check_output(['git', 'rev-parse', 'HEAD', 'HEAD^{tree}'], text=True).splitlines",
+        "subprocess.check_output"
+      ],
+      "test_count": 0
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/finalize_validation.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "sha256": "bc823111fbcdef696e129b1b6eebc7e8f9bb1a995bd2520fd4c5fe742325ebaa",
+      "classification": "historical validation harness; do not run/import",
+      "imports": [
+        "pathlib",
+        "collections",
+        "datetime",
+        "hashlib",
+        "json",
+        "platform",
+        "shutil",
+        "subprocess"
+      ],
+      "sensitive_named_calls": [
+        "subprocess.check_output(['git', 'rev-parse', 'HEAD', 'HEAD^{tree}'], text=True).splitlines",
+        "subprocess.check_output"
+      ],
+      "test_count": 0
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/validation/remaining_tests.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "sha256": "8fcbb0c8f51d92f5b6f3b188c44bb109575831aebdb1387257ce0d3a2131b810",
+      "classification": "historical validation harness; do not run/import",
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "time",
+        "unittest"
+      ],
+      "sensitive_named_calls": [
+        "subprocess.check_output(['git', 'rev-parse', 'HEAD', 'HEAD^{tree}'], text=True).splitlines",
+        "subprocess.check_output"
+      ],
+      "test_count": 0
+    },
+    {
+      "path": "tests/test_conjugation_block_reduction.py",
+      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "sha256": "4be429838d9a1900cf4145c27989d7e9ba7e3f2132e8a6a0a2dfa9fb1d2a0194",
+      "classification": "new unittest module",
+      "imports": [
+        "copy",
+        "hashlib",
+        "importlib.util",
+        "json",
+        "pathlib",
+        "unittest"
+      ],
+      "sensitive_named_calls": [
+        "spec.loader.exec_module"
+      ],
+      "test_count": 3
+    }
+  ],
+  "full_target_dependency_pins": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "expected_sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "matches_publication_tree": true
+    },
+    {
+      "path": "research/ai/2026-10-21-cyclic-slice-determinants/proof.md",
+      "expected_sha256": "4152e85c2ecf9e92da372818336d301e5b7ac634ae1b48ac979fb4430025404c",
+      "matches_publication_tree": true
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/proof.md",
+      "expected_sha256": "6bfc4c59efa33d57f2b2e1d545379fbd99606201e9f288f2e59d58913e08c2cb",
+      "matches_publication_tree": true
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/verify.py",
+      "expected_sha256": "08da32ffa8622dde7c994aaca0a0be5664a0ac92457cde003b9c3b2b3628a7af",
+      "matches_publication_tree": true
+    },
+    {
+      "path": "results/resolvent-minrank-2026-10-23/certificate.json",
+      "expected_sha256": "dc24bcc3324846fb0976d26bb3506ed68b230680d8586bd9808737b6af70ee03",
+      "matches_publication_tree": true
+    }
+  ],
+  "block_parent_pin_matches": true,
+  "focused_commands": [
+    "PYTHONOPTIMIZE=0 python research/ai/2026-10-23-quadratic-z-middle/verify_equal_degrees.py",
+    "PYTHONPATH=tests PYTHONOPTIMIZE=0 python -m unittest test_conjugation_block_reduction test_conjugation_limit.ConjugationLimitTests.test_source_pins -v"
+  ],
+  "minimum_unittest_count": 4,
+  "additional_direct_acceptance_runs": 1,
+  "expected_inventory_delta": {
+    "tests_added": 3,
+    "modules_added": 1,
+    "removed": 0
+  },
+  "classification_notes": [
+    "Quadratic adds one standalone verifier and one exact integer certificate; existing two verifiers, inputs, and3 tests are unchanged. New verifier is not reached by unittest discovery and needs its explicit acceptance command.",
+    "Full-target adds exact block acceptance with3 unit tests and one additional unchanged-predecessor certificate pin. Original verify.py/discovery.py/main certificate/test_conjugation_limit.py bytes are unchanged.",
+    "two_sided_escapes.py is optional exploratory recomputation with prior retained reports; do not rerun it for this consolidation gate.",
+    "Three scripts under results/.../validation are historical harnesses. Two have top-level collection/copy/writes and one top-level argparse/test execution. Their historical checkpoint/log receipt logic is not applicable to this integration and must not be imported or executed.",
+    "All proposed acceptance commands use local inputs and standard-library arithmetic; no network or process spawn. Quadratic verifier relies on assertions, so keep optimization disabled.",
+    "Retain branch validation receipts as historical evidence; do not present their older full-suite results as new integration validation.",
+    "Run final repository metadata/link checks once after combined docs/claim overlays, as a shared gate."
+  ],
+  "worktrees_modified": false,
+  "commands_executed": false
+}

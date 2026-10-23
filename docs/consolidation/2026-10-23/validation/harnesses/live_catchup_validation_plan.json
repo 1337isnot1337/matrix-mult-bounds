@@ -1,0 +1,26 @@
+{
+  "scope": "One new Hankel interpolation/boundary test, its source-pin test, and the merged claim-ledger/relative-link checks. The other four captured heads add only already-tested main imports or a research question. Preserve earlier receipts and run no unchanged census, discovery, or historical harness.",
+  "jobs": [
+    {
+      "name": "hankel-interpolation-and-pins",
+      "kind": "unittest",
+      "targets": [
+        "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_finite_field_homogeneous_interpolation_and_its_boundary",
+        "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_pinned_local_sources"
+      ],
+      "expected_tests": 2,
+      "reason": "Validate the sole new test and unchanged predecessor pins against the final integrated package.",
+      "audit": "live_catchup_code_audit.json"
+    },
+    {
+      "name": "claim-ledger-and-links",
+      "kind": "unittest",
+      "targets": [
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "expected_tests": 2,
+      "reason": "Validate the limitations-only ledger correction and final merged documentation links."
+    }
+  ]
+}

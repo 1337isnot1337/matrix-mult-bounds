@@ -1,0 +1,65 @@
+{
+  "schema": "matrix-mult-bounds-final-closure-equivalence-v1",
+  "passing_source_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+  "validated_final_commit": "9354de63ff9ebb9a0b738d9a8cc88805636fa64d",
+  "validated_final_tree": "82e76aabd9fe1be71b90b47c331408e812786113",
+  "changed_paths": [
+    "STATUS.md",
+    "docs/consolidation/2026-10-23/PUBLICATION.md",
+    "docs/consolidation/2026-10-23/README.md",
+    "docs/consolidation/2026-10-23/archive_closure_tags.json",
+    "docs/consolidation/2026-10-23/branches.json",
+    "docs/consolidation/2026-10-23/claim_closure.json",
+    "docs/consolidation/2026-10-23/claim_resolution.json",
+    "docs/consolidation/2026-10-23/closure_catchup_heads.json",
+    "docs/consolidation/2026-10-23/closure_code_audit.json",
+    "docs/consolidation/2026-10-23/closure_docs_resolution.json",
+    "docs/consolidation/2026-10-23/closure_merge_log.json",
+    "docs/consolidation/2026-10-23/closure_plan.json",
+    "docs/consolidation/2026-10-23/closure_source_resolution.json",
+    "docs/consolidation/2026-10-23/validation/postvalidation-coverage.json",
+    "docs/consolidation/2026-10-23/validation/postvalidation-summary.json",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/ai/2026-10-23-unbalanced-square-frontier/README.md",
+    "research/ai/2026-10-23-unbalanced-square-frontier/manifest.json"
+  ],
+  "consolidation_metadata_changes": 14,
+  "unexpected_changes": [],
+  "identical_nonmetadata_files_except_allowed_prose_and_manifest": 5099,
+  "code_and_config_paths_compared": 1323,
+  "code_and_config_bytes_and_modes_unchanged": true,
+  "test_paths_compared": 433,
+  "test_bytes_and_modes_unchanged": true,
+  "test_inventory_transferred_by_exact_test_file_equivalence": {
+    "tests": 1933,
+    "modules": 432,
+    "inventory_path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/postvalidation_catchup/discovery.json",
+    "inventory_sha256": "4a3d0ecc2a24e1690cc7fff234678557184e5af07c47827722c91d06ac1ca978",
+    "composite_coverage_path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/postvalidation_catchup/coverage_union.json",
+    "composite_coverage_sha256": "4e0128b9202d0b001b3d3ebb3a498250f95013a9f2a4b2b11149ec2aef5e6bea"
+  },
+  "claims_count": 607,
+  "claims_bytes_unchanged": true,
+  "manifest_changed_pins": [
+    "research/ai/2026-10-23-unbalanced-square-frontier/README.md"
+  ],
+  "mathematical_witnesses_and_dependency_versions_unchanged": true,
+  "closure_tests": {
+    "count": 2,
+    "passed": true,
+    "elapsed_seconds": 2.225,
+    "ids": [
+      "test_unbalanced_square_frontier.UnbalancedSquareFrontierTests.test_source_pins_and_package_manifest",
+      "test_research.RepositoryTests.test_relative_markdown_links"
+    ],
+    "summary_sha256": "ada27504e2064865091f2882e970fd196f2b7f5fcd157ba7908e6e75630b0c92"
+  },
+  "prior_validation_and_harness_files_checked": 46,
+  "changed_prior_validation_files": [],
+  "tracked_changes_during_validation": [],
+  "protected_archives_unchanged": true,
+  "protected_archive_files_hashed": 23,
+  "scope_caveat": "No complete suite was rerun at the final closure commit. The 1,933-test inventory and prior passing composite coverage transfer by exact unchanged active code, test, witness, and dependency bytes. Two final metadata checks passed. Hosted full CI remains the merge gate, and mathematical claim statuses are unchanged.",
+  "passed": true
+}

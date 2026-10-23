@@ -178,6 +178,27 @@ class S5SplitTests(unittest.TestCase):
                 [4*(g//2)+g % 2 for g in S] for S in source.control()['witness']['sets']]
             self.assertEqual(trade.violations(G, known, rows), 0)
 
+    def test_trade_guided_models_and_complete_farkas_streams(self):
+        replayer = load('verify_four')
+        trade = load('commuting_trades')
+        cyclic = load('cyclic_four')
+        for name, count, provider, expected_matches in [('colored-trades18-18-20', 13, four.data, 2),
+                                       ('cyclic-trades18-18-20', 14, cyclic.data, 0)]:
+            path = ROOT/'results/s5-split-2026-10-21'/(name+'.json')
+            result = replayer.replay(path)
+            self.assertEqual(result['certificates'], {'exact-farkas': count})
+            G, Q, _ = provider()
+            rows = trade.templates(G)
+            records = gzip.decompress(path.with_suffix('.cuts.jsonl.gz').read_bytes())
+            matches = 0
+            for item in map(json.loads, records.splitlines()):
+                self.assertEqual(trade.violations(G, item['sets'], rows), 0)
+                matching = central.find_match(Q, [[g//4 for g in S] for S in item['sets']])
+                if matching is not None:
+                    self.assertTrue(central.verify_match(Q, matching))
+                    matches += 1
+            self.assertEqual(matches, expected_matches)
+
 
 if __name__ == '__main__':
     unittest.main()

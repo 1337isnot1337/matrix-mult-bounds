@@ -1,0 +1,205 @@
+{
+  "status": "exact finite controls for the written obstruction",
+  "cases": [
+    {
+      "m": 4,
+      "s": 2,
+      "N": 10,
+      "retained_nodes": [
+        0,
+        1,
+        2
+      ],
+      "dropped_nodes": [
+        3
+      ],
+      "a_coefficients": [
+        0,
+        1
+      ],
+      "c_coefficients": [
+        2,
+        -3,
+        1
+      ],
+      "g_coefficients": [
+        0,
+        2,
+        -3,
+        1
+      ],
+      "block_ranks": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "total_target_rank": 11,
+      "source_rank_allowance": 11,
+      "left_kernel_verified": true,
+      "right_kernel_verified": true,
+      "all_perturbation_coefficients_annihilated": true,
+      "nonzero_normal_forcing": 36
+    },
+    {
+      "m": 6,
+      "s": 3,
+      "N": 21,
+      "retained_nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped_nodes": [
+        4,
+        5
+      ],
+      "a_coefficients": [
+        0,
+        -1,
+        1
+      ],
+      "c_coefficients": [
+        6,
+        -5,
+        1
+      ],
+      "g_coefficients": [
+        0,
+        -6,
+        11,
+        -6,
+        1
+      ],
+      "block_ranks": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "total_target_rank": 23,
+      "source_rank_allowance": 23,
+      "left_kernel_verified": true,
+      "right_kernel_verified": true,
+      "all_perturbation_coefficients_annihilated": true,
+      "nonzero_normal_forcing": 14976
+    },
+    {
+      "m": 8,
+      "s": 4,
+      "N": 36,
+      "retained_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "dropped_nodes": [
+        5,
+        6,
+        7
+      ],
+      "a_coefficients": [
+        0,
+        2,
+        -3,
+        1
+      ],
+      "c_coefficients": [
+        12,
+        -7,
+        1
+      ],
+      "g_coefficients": [
+        0,
+        24,
+        -50,
+        35,
+        -10,
+        1
+      ],
+      "block_ranks": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "total_target_rank": 39,
+      "source_rank_allowance": 39,
+      "left_kernel_verified": true,
+      "right_kernel_verified": true,
+      "all_perturbation_coefficients_annihilated": true,
+      "nonzero_normal_forcing": 6883200
+    },
+    {
+      "m": 10,
+      "s": 5,
+      "N": 55,
+      "retained_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dropped_nodes": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "a_coefficients": [
+        0,
+        -6,
+        11,
+        -6,
+        1
+      ],
+      "c_coefficients": [
+        20,
+        -9,
+        1
+      ],
+      "g_coefficients": [
+        0,
+        -120,
+        274,
+        -225,
+        85,
+        -15,
+        1
+      ],
+      "block_ranks": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "total_target_rank": 59,
+      "source_rank_allowance": 59,
+      "left_kernel_verified": true,
+      "right_kernel_verified": true,
+      "all_perturbation_coefficients_annihilated": true,
+      "nonzero_normal_forcing": 4090176000
+    }
+  ],
+  "scope": "excludes the specified simple-pole and quadratic-ramified families",
+  "second_order_zero_correction": "proved by the image-intersection argument in README",
+  "higher_ramification_excluded": false,
+  "new_exponent_established": false
+}

@@ -1,0 +1,180 @@
+{
+  "from_validated_commit": "83fc8488f26410b59b4056e0a4ed1f24335226da",
+  "to_validated_commit": "97fc82666b58ae6b1a8847cfe612a1fe1c8e0127",
+  "changes": [
+    {
+      "status": "M",
+      "path": "PROVENANCE.md"
+    },
+    {
+      "status": "M",
+      "path": "STATUS.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/research_directions.md"
+    },
+    {
+      "status": "M",
+      "path": "research/ACTIVE.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-high-rank-source-caps/QUESTION.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-high-rank-source-caps/README.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-high-rank-source-caps/discover.py"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-high-rank-source-caps/proof.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-high-rank-source-caps/sources.json"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-high-rank-source-caps/verify.py"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-rank91-core/QUESTION.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-rank91-core/README.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-rank91-core/discover.py"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-rank91-core/proof.md"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-rank91-core/sources.json"
+    },
+    {
+      "status": "A",
+      "path": "research/ai/2026-10-23-rank91-core/verify.py"
+    },
+    {
+      "status": "M",
+      "path": "research/claims.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/byte-comparison.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/certificates.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/controls.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/discovery.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/focused-test-timing.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/focused-tests.log.gz"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/metadata-test-timing.json"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/metadata-tests.log.gz"
+    },
+    {
+      "status": "A",
+      "path": "results/high-rank-source-caps-2026-10-23/validation.json"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/README.md"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/archive-integrity.json"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/changed-paths.json"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/claim-union.json"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/coverage.json"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/frozen-components.json"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/metadata-archive-checks.log.gz"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/new-package-tests.log.gz"
+    },
+    {
+      "status": "A",
+      "path": "results/integration-2026-10-23-final/additive-leading-rank202/validation.json"
+    },
+    {
+      "status": "A",
+      "path": "results/rank91-core-2026-10-23/census.json.gz"
+    },
+    {
+      "status": "A",
+      "path": "results/rank91-core-2026-10-23/certificates.json"
+    },
+    {
+      "status": "A",
+      "path": "results/rank91-core-2026-10-23/controls.json"
+    },
+    {
+      "status": "A",
+      "path": "results/rank91-core-2026-10-23/validation.json"
+    },
+    {
+      "status": "A",
+      "path": "tests/test_high_rank_source_caps.py"
+    },
+    {
+      "status": "A",
+      "path": "tests/test_rank91_core.py"
+    }
+  ],
+  "modified_existing_paths_are_coordination_metadata_only": true,
+  "existing_executable_test_and_research_bytes_unchanged": true,
+  "added_python_paths": [
+    "research/ai/2026-10-23-high-rank-source-caps/discover.py",
+    "research/ai/2026-10-23-high-rank-source-caps/verify.py",
+    "research/ai/2026-10-23-rank91-core/discover.py",
+    "research/ai/2026-10-23-rank91-core/verify.py",
+    "tests/test_high_rank_source_caps.py",
+    "tests/test_rank91_core.py"
+  ]
+}

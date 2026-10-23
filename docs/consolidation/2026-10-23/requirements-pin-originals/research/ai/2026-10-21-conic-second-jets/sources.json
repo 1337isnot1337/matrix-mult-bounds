@@ -1,0 +1,37 @@
+{
+  "base_commit": "fd090bd4242bd58488e0ee4d017adad70df7a19d",
+  "integration_base_commit": "39378de556b9ea1d6e32ae409319de7d6c92d3e0",
+  "field": "C",
+  "external_theorems": [],
+  "local_dependencies": [
+    {
+      "path": "requirements.txt",
+      "sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58"
+    },
+    {
+      "path": "research/ai/2026-10-21-quantum-extension-spaces/extensions.py",
+      "sha256": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c"
+    },
+    {
+      "path": "research/ai/2026-10-21-biform-balanced-puncture/verify.py",
+      "sha256": "901885d52645a399e7e894a257be588a0aae28f7b333a454423f6d6dbcdeee15"
+    },
+    {
+      "path": "research/ai/2026-10-21-biform-balanced-puncture/proof.md",
+      "sha256": "627be930136fc5d78fb281619a713fce4fbbd3ebc3f581bc4a1aa26e77faf84f"
+    },
+    {
+      "path": "results/biform-third-core-2026-10-21/structure.json",
+      "sha256": "96a0d4ebf1f4f309324e850a58a9e0d8b25713658d5be6e97fbb27bc9bce7149"
+    },
+    {
+      "path": "results/third-boundary-trap-2026-10-21/normal.json",
+      "sha256": "ab8cd86fe7df43b075011cfa00da73d6cdb03ff66d053192382c9a5ee6bc71a4"
+    },
+    {
+      "path": "results/biform-balanced-puncture-2026-10-21/affine_chart.json",
+      "sha256": "6f28e12f58421e539268fc8ec5e237ac9f5dfb7678bbd3df31409d4d9ce2e156"
+    }
+  ],
+  "credit": "Canonical source, root flags, normal basis, and biform conic classification are predecessor local work; PR94 is credited. This continuation and all verification were prepared with OpenAI Codex under owner direction, without independent review."
+}

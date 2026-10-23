@@ -1,0 +1,190 @@
+{
+  "schema": "matrix-additive-integration-pr155-pr156-v1",
+  "status": "passed",
+  "started_at_utc": "2026-10-23T15:33:18.624021+00:00",
+  "finished_at_utc": "2026-10-23T15:33:27.351506+00:00",
+  "elapsed_wall_seconds": 8.727485514999898,
+  "validated_commit": "7cf5d0a04d6fed4fb99f4cba6077294ef3aba860",
+  "validated_tree": "d67869e10e83496ccbfd5d7789efb8c301cab765",
+  "starting_receipt_commit": "3cd88ded9aa1990ab1647f9c4afc579f02b67362",
+  "previous_validated_commit": "b1f2345829f4982d632f3eb58d4639171ca675a5",
+  "components": {
+    "pr155": "72ef0788b6847af5e8105047c806c26c537c18ed",
+    "pr156": "9e27c8d97dd6fd6fd29c4432e07619b48cd71953"
+  },
+  "merge_commits": [
+    "4abd5e33ec7d553d056194805b73fd4ea2a6e8d7",
+    "7cf5d0a04d6fed4fb99f4cba6077294ef3aba860"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "python_optimization": 0
+  },
+  "reused_evidence": {
+    "full_baseline": {
+      "validated_commit": "dabda4091b7ccc7f25cce5c7a5c001cf66a3241e",
+      "validated_tree": "7e1e9dc8a4a0ed8513e4dd14d29e194128c122d5",
+      "receipt_commit": "844857b78fbcf11b1ff636a672dfe31ebf00014b",
+      "receipt_relative_path": "../validation.json",
+      "receipt_sha256": "32ada5f40a20625c4f46f4c0675d5ad71a24479072d4e1ece8f6b4142207380d",
+      "tests_passed": 924,
+      "historical_replays_passed": 5,
+      "skips": 0
+    },
+    "current_base_increment": {
+      "validated_commit": "b1f2345829f4982d632f3eb58d4639171ca675a5",
+      "validated_tree": "5441a0c0ed7bf5bedad032844162ce281d1439bc",
+      "receipt_commit": "3cd88ded9aa1990ab1647f9c4afc579f02b67362",
+      "receipt_relative_path": "../current-base/validation.json",
+      "receipt_sha256": "31338af461eae5fdc7d75ad75e8bee9fd69536d0320a24d1edf9b5dfb50b0b18",
+      "new_tests_passed": 5,
+      "metadata_archive_checks_passed": 9,
+      "combined_discovered_tests": 929,
+      "skips": 0
+    },
+    "all_prior_receipt_artifact_hashes_rechecked": true
+  },
+  "additive_coverage": {
+    "combined_discovered_tests": 954,
+    "combined_discovered_modules": 218,
+    "new_tests_passed": 25,
+    "new_source_tests": 18,
+    "new_conic_tests": 7,
+    "metadata_archive_checks_passed": 9,
+    "test_executions_in_this_gate": 34,
+    "skips": 0,
+    "all_929_previous_test_ids_retained": true,
+    "existing_executable_and_test_files_unchanged": true,
+    "full_954_suite_rerun": false,
+    "new_test_ids": [
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_changed_dual_coefficient_fails_full_adjoint_identity",
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_changed_prescribed_exceptional_curve_is_rejected",
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_complete_dual_and_both_all_order_components",
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_explicit_formula_regenerates_dual_and_complete_linear_maps",
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_literal_source_pins_and_standard_library_import",
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_proof_third_coefficient_shape_and_kernel_pairing",
+      "test_conic_fixed_third_obstruction.ConicFixedThirdObstructionTests.test_scope_residual_pin_and_laurent_controls",
+      "test_rank37_source_spaces.Rank37SourceSpacesTests.test_complete_frozen_replay_and_sharpness",
+      "test_rank37_source_spaces.Rank37SourceSpacesTests.test_missing_and_duplicate_ideals_are_rejected",
+      "test_rank37_source_spaces.Rank37SourceSpacesTests.test_outside_layer_and_singular_minor_are_rejected",
+      "test_rank37_source_spaces.Rank37SourceSpacesTests.test_source_pin_and_inventory_are_checked",
+      "test_rank37_source_spaces.Rank37SourceSpacesTests.test_strict_threshold_and_unproved_mixed_consequence_are_not_inflated",
+      "test_rank37_source_spaces.Rank37SourceSpacesTests.test_wrong_minor_dimensions_and_modulus_are_rejected",
+      "test_rank80_sharp_spaces.Rank80SharpSpacesTests.test_complete_inventory_has_all_structural_conditions",
+      "test_rank80_sharp_spaces.Rank80SharpSpacesTests.test_frozen_evidence_replays",
+      "test_rank80_sharp_spaces.Rank80SharpSpacesTests.test_missing_duplicate_and_invalid_shapes_are_rejected",
+      "test_rank80_sharp_spaces.Rank80SharpSpacesTests.test_outside_support_singular_and_wrong_size_minors_are_rejected",
+      "test_rank80_sharp_spaces.Rank80SharpSpacesTests.test_sharpness_cover_and_rank_witness_are_checked",
+      "test_rank80_sharp_spaces.Rank80SharpSpacesTests.test_source_pins_modulus_and_scope_are_enforced",
+      "test_source_staircase_spaces.SourceStaircaseSpacesTests.test_dimension_and_rank_budget_corruptions_are_rejected",
+      "test_source_staircase_spaces.SourceStaircaseSpacesTests.test_frozen_all_case_support_replay",
+      "test_source_staircase_spaces.SourceStaircaseSpacesTests.test_parameter_endpoints_and_invalid_inputs",
+      "test_source_staircase_spaces.SourceStaircaseSpacesTests.test_same_dimension_outside_mask_breaks_column_budget",
+      "test_source_staircase_spaces.SourceStaircaseSpacesTests.test_source_pin_and_inventory_corruption_are_rejected",
+      "test_source_staircase_spaces.SourceStaircaseSpacesTests.test_strict_threshold_and_unproved_attainment_stay_distinct"
+    ]
+  },
+  "coordination": {
+    "unique_claims": 308,
+    "exact_parent_claim_union": true,
+    "additive_metadata_conflicts_resolved": 5,
+    "frozen_package_files_byte_identical": 34,
+    "pinned_research_files_modified_for_resolution": false
+  },
+  "protected_archives_unchanged": true,
+  "jobs": [
+    {
+      "name": "new-package-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_source_staircase_spaces",
+        "test_rank37_source_spaces",
+        "test_rank80_sharp_spaces",
+        "test_conic_fixed_third_obstruction",
+        "-v"
+      ],
+      "pythonpath": "/workspace/scratch/814d3d40fe43/mathdeps:/workspace/scratch/814d3d40fe43/matrix-integration-validation/tests",
+      "started_at_utc": "2026-10-23T15:33:19.966830+00:00",
+      "finished_at_utc": "2026-10-23T15:33:27.172949+00:00",
+      "wall_seconds": 7.201783814999544,
+      "unittest_reported_seconds": 7.001,
+      "tests_run": 25,
+      "expected_tests": 25,
+      "returncode": 0,
+      "unittest_footer": "OK",
+      "log": "new-package-tests.log.gz",
+      "raw_log_sha256": "0198caab982e3e72d781ccb85cc626d505864d36c0b2af179855f7f44a555d4a",
+      "raw_log_bytes": 4291,
+      "compressed_log_sha256": "855341103a8be5008405c7b6beccf80039af1b7c61f501e4237a2d55a1a895f3",
+      "status": "passed"
+    },
+    {
+      "name": "metadata-archive-checks",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_research.RepositoryTests",
+        "test_archive_integrity",
+        "-v"
+      ],
+      "pythonpath": "/workspace/scratch/814d3d40fe43/mathdeps:/workspace/scratch/814d3d40fe43/matrix-integration-validation/tests",
+      "started_at_utc": "2026-10-23T15:33:27.173047+00:00",
+      "finished_at_utc": "2026-10-23T15:33:27.298633+00:00",
+      "wall_seconds": 0.12516723499993532,
+      "unittest_reported_seconds": 0.071,
+      "tests_run": 9,
+      "expected_tests": 9,
+      "returncode": 0,
+      "unittest_footer": "OK",
+      "log": "metadata-archive-checks.log.gz",
+      "raw_log_sha256": "c6a7f975188dffa33c64d9b1aab2a9894ff45e07ae01009735e28d2b1f81581c",
+      "raw_log_bytes": 1040,
+      "compressed_log_sha256": "c8bf519cb58b32235a5bd8fb095cf0f1b573893ec449979299798dd02951b341",
+      "status": "passed"
+    }
+  ],
+  "artifact_sha256": {
+    "README.md": {
+      "bytes": 2966,
+      "sha256": "1e554cb902ce506670b37a7aa5c435fae02b2ee4ca136b9569f679af1e472d58"
+    },
+    "archive-integrity.json": {
+      "bytes": 7333,
+      "sha256": "f3d249ceb82bab4a27bdd2fdeff6dfb78fb4ba3d70d5bade2498eb6e80d1d5f4"
+    },
+    "changed-paths.json": {
+      "bytes": 6203,
+      "sha256": "c2bdc8f9256c8e89f9162bbd6017cee327f079bcb9bf25e43e8d333dac120fbe"
+    },
+    "claim-union.json": {
+      "bytes": 10894,
+      "sha256": "d37dc2be3a3de0c9df91d435b90344da01f1dca9afdc5a2a244c96a83f9ca992"
+    },
+    "coverage.json": {
+      "bytes": 105716,
+      "sha256": "8c2b0666a1cdcc1e36c34df427d5ccb801f6d6da5b5481752df74442bd2af6c0"
+    },
+    "frozen-components.json": {
+      "bytes": 8683,
+      "sha256": "dca64ac659b297efb54ca9b3c3dbb59e490872a9c84ea2430c9a4b4aa59db236"
+    },
+    "metadata-archive-checks.log.gz": {
+      "bytes": 286,
+      "sha256": "c8bf519cb58b32235a5bd8fb095cf0f1b573893ec449979299798dd02951b341"
+    },
+    "new-package-tests.log.gz": {
+      "bytes": 828,
+      "sha256": "855341103a8be5008405c7b6beccf80039af1b7c61f501e4237a2d55a1a895f3"
+    }
+  },
+  "excluded_ongoing_work": [
+    "every-pair leading-rank sum144 package",
+    "projective conic normal-class criterion"
+  ],
+  "limits": "Additive validation only: 924 unchanged tests and five archive replays passed on the identified full baseline; five new current-base tests passed on the preceding checkpoint; this snapshot ran only 25 new tests and nine repository/archive checks. All 954 tests were discovered, not rerun together. No hosted CI, independent external mathematical review, formalization, or exponent improvement is claimed."
+}

@@ -1,0 +1,31 @@
+{
+  "tested_commit": "350f9e037176412f6bb5679dc96bbfa115372978",
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "python": "Python 3.14.8",
+  "logs": [
+    {
+      "path": "results/elementary-biform-gap-2026-10-23/focused-tests.log",
+      "sha256": "cdb9bdad067e69160699ea326403d7ea465097d681049390fd7d20ef2921472f",
+      "tests": 7,
+      "seconds": "97.773",
+      "result": "passed",
+      "scope": "7 package tests: exact acceptance, independent symbolic minors/ranks, covariance, factor limits, characteristic boundary and rejection controls"
+    },
+    {
+      "path": "results/elementary-biform-gap-2026-10-23/metadata-archive-tests.log",
+      "sha256": "760c371f7b446eb5a91397915b5be09b07ab0b668fb281e5fad789468ae17212",
+      "tests": 9,
+      "seconds": "1.106",
+      "result": "passed",
+      "scope": "6 repository metadata/link tests and3 immutable-session2-archive tests"
+    }
+  ],
+  "preserved_prior_claim_entries": 287,
+  "protected_archive_files_byte_identical_to_base": 23,
+  "complete_repository_suite_run": false,
+  "historical_computational_replay_run": false,
+  "hosted_CI": "pending; not covered by this local receipt",
+  "mathematical_status": "proof-written-unreviewed",
+  "independent_review": false,
+  "improves_omega": false
+}

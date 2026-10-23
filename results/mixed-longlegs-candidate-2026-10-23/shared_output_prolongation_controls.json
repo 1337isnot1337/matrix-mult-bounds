@@ -1,0 +1,3606 @@
+{
+  "status": "exact rational and F2 ranks",
+  "source_controls": [
+    {
+      "blocks": [
+        [
+          "Full",
+          2,
+          2
+        ],
+        [
+          "Full",
+          2,
+          3
+        ]
+      ],
+      "domain": 12,
+      "codomain": 17,
+      "rank_mod2": 12,
+      "nullity_mod2": 0,
+      "nullity_formula": 0
+    },
+    {
+      "blocks": [
+        [
+          "Full",
+          3,
+          1
+        ],
+        [
+          "Full",
+          3,
+          2
+        ],
+        [
+          "Full",
+          3,
+          3
+        ]
+      ],
+      "domain": 18,
+      "codomain": 40,
+      "rank_mod2": 18,
+      "nullity_mod2": 0,
+      "nullity_formula": 0
+    },
+    {
+      "blocks": [
+        [
+          "Full",
+          5,
+          2
+        ],
+        [
+          "Full",
+          5,
+          3
+        ],
+        [
+          "Full",
+          5,
+          1
+        ]
+      ],
+      "domain": 30,
+      "codomain": 62,
+      "rank_mod2": 30,
+      "nullity_mod2": 0,
+      "nullity_formula": 0
+    }
+  ],
+  "target_controls": [
+    {
+      "degree": 1,
+      "domain": 500,
+      "target_rank_mod2": 140,
+      "target_nullity_mod2": 360,
+      "source_rank_formula": 140,
+      "target_minus_source": 0,
+      "exclusion_from_this_modular_lower_bound": false,
+      "block_tuples": [
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ]
+          ],
+          "domain": 10,
+          "codomain": 6,
+          "rank_mod2": 6,
+          "nullity_mod2": 4,
+          "rank_rational": 6,
+          "nullity_rational": 4,
+          "ordered_tuple_weight": 7
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 15,
+          "codomain": 7,
+          "rank_mod2": 7,
+          "nullity_mod2": 8,
+          "rank_rational": 7,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 10
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 15,
+          "codomain": 3,
+          "rank_mod2": 3,
+          "nullity_mod2": 12,
+          "rank_rational": 3,
+          "nullity_rational": 12,
+          "ordered_tuple_weight": 4
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 20,
+          "codomain": 2,
+          "rank_mod2": 2,
+          "nullity_mod2": 18,
+          "rank_rational": 2,
+          "nullity_rational": 18,
+          "ordered_tuple_weight": 2
+        },
+        {
+          "blocks": [
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 30,
+          "codomain": 2,
+          "rank_mod2": 2,
+          "nullity_mod2": 28,
+          "rank_rational": 2,
+          "nullity_rational": 28,
+          "ordered_tuple_weight": 6
+        }
+      ],
+      "target_rank_rational": 140,
+      "target_nullity_rational": 360,
+      "exclusion_over_complex_numbers": false
+    },
+    {
+      "degree": 2,
+      "domain": 50000,
+      "target_rank_mod2": 25317,
+      "target_nullity_mod2": 24683,
+      "source_rank_formula": 25700,
+      "target_minus_source": -383,
+      "exclusion_from_this_modular_lower_bound": false,
+      "block_tuples": [
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ]
+          ],
+          "domain": 20,
+          "codomain": 24,
+          "rank_mod2": 17,
+          "nullity_mod2": 3,
+          "rank_rational": 17,
+          "nullity_rational": 3,
+          "ordered_tuple_weight": 49
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 30,
+          "codomain": 32,
+          "rank_mod2": 24,
+          "nullity_mod2": 6,
+          "rank_rational": 24,
+          "nullity_rational": 6,
+          "ordered_tuple_weight": 140
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 30,
+          "codomain": 24,
+          "rank_mod2": 22,
+          "nullity_mod2": 8,
+          "rank_rational": 22,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 56
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 40,
+          "codomain": 28,
+          "rank_mod2": 27,
+          "nullity_mod2": 13,
+          "rank_rational": 27,
+          "nullity_rational": 13,
+          "ordered_tuple_weight": 28
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 60,
+          "codomain": 40,
+          "rank_mod2": 39,
+          "nullity_mod2": 21,
+          "rank_rational": 39,
+          "nullity_rational": 21,
+          "ordered_tuple_weight": 84
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 45,
+          "codomain": 42,
+          "rank_mod2": 33,
+          "nullity_mod2": 12,
+          "rank_rational": 33,
+          "nullity_rational": 12,
+          "ordered_tuple_weight": 100
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 45,
+          "codomain": 30,
+          "rank_mod2": 29,
+          "nullity_mod2": 16,
+          "rank_rational": 29,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 80
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 60,
+          "codomain": 34,
+          "rank_mod2": 34,
+          "nullity_mod2": 26,
+          "rank_rational": 34,
+          "nullity_rational": 26,
+          "ordered_tuple_weight": 40
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 90,
+          "codomain": 48,
+          "rank_mod2": 48,
+          "nullity_mod2": 42,
+          "rank_rational": 48,
+          "nullity_rational": 42,
+          "ordered_tuple_weight": 120
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 45,
+          "codomain": 18,
+          "rank_mod2": 17,
+          "nullity_mod2": 28,
+          "rank_rational": 17,
+          "nullity_rational": 28,
+          "ordered_tuple_weight": 16
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 60,
+          "codomain": 18,
+          "rank_mod2": 18,
+          "nullity_mod2": 42,
+          "rank_rational": 18,
+          "nullity_rational": 42,
+          "ordered_tuple_weight": 16
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 90,
+          "codomain": 24,
+          "rank_mod2": 24,
+          "nullity_mod2": 66,
+          "rank_rational": 24,
+          "nullity_rational": 66,
+          "ordered_tuple_weight": 48
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 80,
+          "codomain": 16,
+          "rank_mod2": 16,
+          "nullity_mod2": 64,
+          "rank_rational": 16,
+          "nullity_rational": 64,
+          "ordered_tuple_weight": 4
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 120,
+          "codomain": 20,
+          "rank_mod2": 20,
+          "nullity_mod2": 100,
+          "rank_rational": 20,
+          "nullity_rational": 100,
+          "ordered_tuple_weight": 24
+        },
+        {
+          "blocks": [
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 180,
+          "codomain": 24,
+          "rank_mod2": 24,
+          "nullity_mod2": 156,
+          "rank_rational": 24,
+          "nullity_rational": 156,
+          "ordered_tuple_weight": 36
+        }
+      ],
+      "target_rank_rational": 25317,
+      "target_nullity_rational": 24683,
+      "exclusion_over_complex_numbers": false
+    },
+    {
+      "degree": 3,
+      "domain": 5000000,
+      "target_rank_mod2": 3432270,
+      "target_nullity_mod2": 1567730,
+      "source_rank_formula": 3542000,
+      "target_minus_source": -109730,
+      "exclusion_from_this_modular_lower_bound": false,
+      "block_tuples": [
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ]
+          ],
+          "domain": 40,
+          "codomain": 72,
+          "rank_mod2": 38,
+          "nullity_mod2": 2,
+          "rank_rational": 38,
+          "nullity_rational": 2,
+          "ordered_tuple_weight": 343
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 60,
+          "codomain": 100,
+          "rank_mod2": 56,
+          "nullity_mod2": 4,
+          "rank_rational": 56,
+          "nullity_rational": 4,
+          "ordered_tuple_weight": 1470
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 60,
+          "codomain": 84,
+          "rank_mod2": 56,
+          "nullity_mod2": 4,
+          "rank_rational": 56,
+          "nullity_rational": 4,
+          "ordered_tuple_weight": 588
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 80,
+          "codomain": 104,
+          "rank_mod2": 72,
+          "nullity_mod2": 8,
+          "rank_rational": 72,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 294
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 120,
+          "codomain": 152,
+          "rank_mod2": 106,
+          "nullity_mod2": 14,
+          "rank_rational": 106,
+          "nullity_rational": 14,
+          "ordered_tuple_weight": 882
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 90,
+          "codomain": 138,
+          "rank_mod2": 82,
+          "nullity_mod2": 8,
+          "rank_rational": 82,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 2100
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 90,
+          "codomain": 114,
+          "rank_mod2": 82,
+          "nullity_mod2": 8,
+          "rank_rational": 82,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 1680
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 120,
+          "codomain": 140,
+          "rank_mod2": 104,
+          "nullity_mod2": 16,
+          "rank_rational": 104,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 840
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 180,
+          "codomain": 204,
+          "rank_mod2": 152,
+          "nullity_mod2": 28,
+          "rank_rational": 152,
+          "nullity_rational": 28,
+          "ordered_tuple_weight": 2520
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 90,
+          "codomain": 90,
+          "rank_mod2": 76,
+          "nullity_mod2": 14,
+          "rank_rational": 76,
+          "nullity_rational": 14,
+          "ordered_tuple_weight": 336
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 120,
+          "codomain": 108,
+          "rank_mod2": 96,
+          "nullity_mod2": 24,
+          "rank_rational": 96,
+          "nullity_rational": 24,
+          "ordered_tuple_weight": 336
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 180,
+          "codomain": 156,
+          "rank_mod2": 141,
+          "nullity_mod2": 39,
+          "rank_rational": 141,
+          "nullity_rational": 39,
+          "ordered_tuple_weight": 1008
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 160,
+          "codomain": 128,
+          "rank_mod2": 120,
+          "nullity_mod2": 40,
+          "rank_rational": 120,
+          "nullity_rational": 40,
+          "ordered_tuple_weight": 84
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 240,
+          "codomain": 184,
+          "rank_mod2": 174,
+          "nullity_mod2": 66,
+          "rank_rational": 174,
+          "nullity_rational": 66,
+          "ordered_tuple_weight": 504
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 264,
+          "rank_mod2": 252,
+          "nullity_mod2": 108,
+          "rank_rational": 252,
+          "nullity_rational": 108,
+          "ordered_tuple_weight": 756
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 135,
+          "codomain": 189,
+          "rank_mod2": 119,
+          "nullity_mod2": 16,
+          "rank_rational": 119,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 1000
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 135,
+          "codomain": 153,
+          "rank_mod2": 119,
+          "nullity_mod2": 16,
+          "rank_rational": 119,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 1200
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 180,
+          "codomain": 186,
+          "rank_mod2": 148,
+          "nullity_mod2": 32,
+          "rank_rational": 148,
+          "nullity_rational": 32,
+          "ordered_tuple_weight": 600
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 270,
+          "codomain": 270,
+          "rank_mod2": 214,
+          "nullity_mod2": 56,
+          "rank_rational": 214,
+          "nullity_rational": 56,
+          "ordered_tuple_weight": 1800
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 135,
+          "codomain": 117,
+          "rank_mod2": 107,
+          "nullity_mod2": 28,
+          "rank_rational": 107,
+          "nullity_rational": 28,
+          "ordered_tuple_weight": 480
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 180,
+          "codomain": 138,
+          "rank_mod2": 132,
+          "nullity_mod2": 48,
+          "rank_rational": 132,
+          "nullity_rational": 48,
+          "ordered_tuple_weight": 480
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 270,
+          "codomain": 198,
+          "rank_mod2": 192,
+          "nullity_mod2": 78,
+          "rank_rational": 192,
+          "nullity_rational": 78,
+          "ordered_tuple_weight": 1440
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 240,
+          "codomain": 160,
+          "rank_mod2": 160,
+          "nullity_mod2": 80,
+          "rank_rational": 160,
+          "nullity_rational": 80,
+          "ordered_tuple_weight": 120
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 228,
+          "rank_mod2": 228,
+          "nullity_mod2": 132,
+          "rank_rational": 228,
+          "nullity_rational": 132,
+          "ordered_tuple_weight": 720
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 324,
+          "rank_mod2": 324,
+          "nullity_mod2": 216,
+          "rank_rational": 324,
+          "nullity_rational": 216,
+          "ordered_tuple_weight": 1080
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 135,
+          "codomain": 81,
+          "rank_mod2": 71,
+          "nullity_mod2": 64,
+          "rank_rational": 71,
+          "nullity_rational": 64,
+          "ordered_tuple_weight": 64
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 180,
+          "codomain": 90,
+          "rank_mod2": 84,
+          "nullity_mod2": 96,
+          "rank_rational": 84,
+          "nullity_rational": 96,
+          "ordered_tuple_weight": 96
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 270,
+          "codomain": 126,
+          "rank_mod2": 120,
+          "nullity_mod2": 150,
+          "rank_rational": 120,
+          "nullity_rational": 150,
+          "ordered_tuple_weight": 288
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 240,
+          "codomain": 96,
+          "rank_mod2": 96,
+          "nullity_mod2": 144,
+          "rank_rational": 96,
+          "nullity_rational": 144,
+          "ordered_tuple_weight": 48
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 132,
+          "rank_mod2": 132,
+          "nullity_mod2": 228,
+          "rank_rational": 132,
+          "nullity_rational": 228,
+          "ordered_tuple_weight": 288
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 180,
+          "rank_mod2": 180,
+          "nullity_mod2": 360,
+          "rank_rational": 180,
+          "nullity_rational": 360,
+          "ordered_tuple_weight": 432
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 320,
+          "codomain": 96,
+          "rank_mod2": 96,
+          "nullity_mod2": 224,
+          "rank_rational": 96,
+          "nullity_rational": 224,
+          "ordered_tuple_weight": 8
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 480,
+          "codomain": 128,
+          "rank_mod2": 128,
+          "nullity_mod2": 352,
+          "rank_rational": 128,
+          "nullity_rational": 352,
+          "ordered_tuple_weight": 72
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 168,
+          "rank_mod2": 168,
+          "nullity_mod2": 552,
+          "rank_rational": 168,
+          "nullity_rational": 552,
+          "ordered_tuple_weight": 216
+        },
+        {
+          "blocks": [
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1080,
+          "codomain": 216,
+          "rank_mod2": 216,
+          "nullity_mod2": 864,
+          "rank_rational": 216,
+          "nullity_rational": 864,
+          "ordered_tuple_weight": 216
+        }
+      ],
+      "target_rank_rational": 3432270,
+      "target_nullity_rational": 1567730,
+      "exclusion_over_complex_numbers": false
+    },
+    {
+      "degree": 4,
+      "domain": 500000000,
+      "target_rank_mod2": 412195367,
+      "target_nullity_mod2": 87804633,
+      "source_rank_formula": 434390000,
+      "target_minus_source": -22194633,
+      "exclusion_from_this_modular_lower_bound": false,
+      "block_tuples": [
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ]
+          ],
+          "domain": 80,
+          "codomain": 192,
+          "rank_mod2": 79,
+          "nullity_mod2": 1,
+          "rank_rational": 79,
+          "nullity_rational": 1,
+          "ordered_tuple_weight": 2401
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 120,
+          "codomain": 272,
+          "rank_mod2": 118,
+          "nullity_mod2": 2,
+          "rank_rational": 118,
+          "nullity_rational": 2,
+          "ordered_tuple_weight": 13720
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 120,
+          "codomain": 240,
+          "rank_mod2": 118,
+          "nullity_mod2": 2,
+          "rank_rational": 118,
+          "nullity_rational": 2,
+          "ordered_tuple_weight": 5488
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 160,
+          "codomain": 304,
+          "rank_mod2": 157,
+          "nullity_mod2": 3,
+          "rank_rational": 157,
+          "nullity_rational": 3,
+          "ordered_tuple_weight": 2744
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 240,
+          "codomain": 448,
+          "rank_mod2": 233,
+          "nullity_mod2": 7,
+          "rank_rational": 233,
+          "nullity_rational": 7,
+          "ordered_tuple_weight": 8232
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 180,
+          "codomain": 384,
+          "rank_mod2": 176,
+          "nullity_mod2": 4,
+          "rank_rational": 176,
+          "nullity_rational": 4,
+          "ordered_tuple_weight": 29400
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 180,
+          "codomain": 336,
+          "rank_mod2": 176,
+          "nullity_mod2": 4,
+          "rank_rational": 176,
+          "nullity_rational": 4,
+          "ordered_tuple_weight": 23520
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 240,
+          "codomain": 424,
+          "rank_mod2": 234,
+          "nullity_mod2": 6,
+          "rank_rational": 234,
+          "nullity_rational": 6,
+          "ordered_tuple_weight": 11760
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 624,
+          "rank_mod2": 346,
+          "nullity_mod2": 14,
+          "rank_rational": 346,
+          "nullity_rational": 14,
+          "ordered_tuple_weight": 35280
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 180,
+          "codomain": 288,
+          "rank_mod2": 176,
+          "nullity_mod2": 4,
+          "rank_rational": 176,
+          "nullity_rational": 4,
+          "ordered_tuple_weight": 4704
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 240,
+          "codomain": 360,
+          "rank_mod2": 234,
+          "nullity_mod2": 6,
+          "rank_rational": 234,
+          "nullity_rational": 6,
+          "ordered_tuple_weight": 4704
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 528,
+          "rank_mod2": 346,
+          "nullity_mod2": 14,
+          "rank_rational": 346,
+          "nullity_rational": 14,
+          "ordered_tuple_weight": 14112
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 320,
+          "codomain": 448,
+          "rank_mod2": 303,
+          "nullity_mod2": 17,
+          "rank_rational": 303,
+          "nullity_rational": 17,
+          "ordered_tuple_weight": 1176
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 480,
+          "codomain": 656,
+          "rank_mod2": 448,
+          "nullity_mod2": 32,
+          "rank_rational": 448,
+          "nullity_rational": 32,
+          "ordered_tuple_weight": 7056
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 960,
+          "rank_mod2": 660,
+          "nullity_mod2": 60,
+          "rank_rational": 660,
+          "nullity_rational": 60,
+          "ordered_tuple_weight": 10584
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 270,
+          "codomain": 540,
+          "rank_mod2": 262,
+          "nullity_mod2": 8,
+          "rank_rational": 262,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 28000
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 270,
+          "codomain": 468,
+          "rank_mod2": 262,
+          "nullity_mod2": 8,
+          "rank_rational": 262,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 33600
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 588,
+          "rank_mod2": 348,
+          "nullity_mod2": 12,
+          "rank_rational": 348,
+          "nullity_rational": 12,
+          "ordered_tuple_weight": 16800
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 864,
+          "rank_mod2": 512,
+          "nullity_mod2": 28,
+          "rank_rational": 512,
+          "nullity_rational": 28,
+          "ordered_tuple_weight": 50400
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 270,
+          "codomain": 396,
+          "rank_mod2": 262,
+          "nullity_mod2": 8,
+          "rank_rational": 262,
+          "nullity_rational": 8,
+          "ordered_tuple_weight": 13440
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 492,
+          "rank_mod2": 348,
+          "nullity_mod2": 12,
+          "rank_rational": 348,
+          "nullity_rational": 12,
+          "ordered_tuple_weight": 13440
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 720,
+          "rank_mod2": 512,
+          "nullity_mod2": 28,
+          "rank_rational": 512,
+          "nullity_rational": 28,
+          "ordered_tuple_weight": 40320
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 480,
+          "codomain": 608,
+          "rank_mod2": 446,
+          "nullity_mod2": 34,
+          "rank_rational": 446,
+          "nullity_rational": 34,
+          "ordered_tuple_weight": 3360
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 888,
+          "rank_mod2": 656,
+          "nullity_mod2": 64,
+          "rank_rational": 656,
+          "nullity_rational": 64,
+          "ordered_tuple_weight": 20160
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1080,
+          "codomain": 1296,
+          "rank_mod2": 960,
+          "nullity_mod2": 120,
+          "rank_rational": 960,
+          "nullity_rational": 120,
+          "ordered_tuple_weight": 30240
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 270,
+          "codomain": 324,
+          "rank_mod2": 250,
+          "nullity_mod2": 20,
+          "rank_rational": 250,
+          "nullity_rational": 20,
+          "ordered_tuple_weight": 1792
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 360,
+          "codomain": 396,
+          "rank_mod2": 324,
+          "nullity_mod2": 36,
+          "rank_rational": 324,
+          "nullity_rational": 36,
+          "ordered_tuple_weight": 2688
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 576,
+          "rank_mod2": 479,
+          "nullity_mod2": 61,
+          "rank_rational": 479,
+          "nullity_rational": 61,
+          "ordered_tuple_weight": 8064
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 480,
+          "codomain": 480,
+          "rank_mod2": 414,
+          "nullity_mod2": 66,
+          "rank_rational": 414,
+          "nullity_rational": 66,
+          "ordered_tuple_weight": 1344
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 696,
+          "rank_mod2": 612,
+          "nullity_mod2": 108,
+          "rank_rational": 612,
+          "nullity_rational": 108,
+          "ordered_tuple_weight": 8064
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1080,
+          "codomain": 1008,
+          "rank_mod2": 900,
+          "nullity_mod2": 180,
+          "rank_rational": 900,
+          "nullity_rational": 180,
+          "ordered_tuple_weight": 12096
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 640,
+          "codomain": 576,
+          "rank_mod2": 525,
+          "nullity_mod2": 115,
+          "rank_rational": 525,
+          "nullity_rational": 115,
+          "ordered_tuple_weight": 224
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 960,
+          "codomain": 832,
+          "rank_mod2": 768,
+          "nullity_mod2": 192,
+          "rank_rational": 768,
+          "nullity_rational": 192,
+          "ordered_tuple_weight": 2016
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1440,
+          "codomain": 1200,
+          "rank_mod2": 1116,
+          "nullity_mod2": 324,
+          "rank_rational": 1116,
+          "nullity_rational": 324,
+          "ordered_tuple_weight": 6048
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 2160,
+          "codomain": 1728,
+          "rank_mod2": 1620,
+          "nullity_mod2": 540,
+          "rank_rational": 1620,
+          "nullity_rational": 540,
+          "ordered_tuple_weight": 6048
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ]
+          ],
+          "domain": 405,
+          "codomain": 756,
+          "rank_mod2": 389,
+          "nullity_mod2": 16,
+          "rank_rational": 389,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 10000
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 405,
+          "codomain": 648,
+          "rank_mod2": 389,
+          "nullity_mod2": 16,
+          "rank_rational": 389,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 16000
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 810,
+          "rank_mod2": 516,
+          "nullity_mod2": 24,
+          "rank_rational": 516,
+          "nullity_rational": 24,
+          "ordered_tuple_weight": 8000
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 810,
+          "codomain": 1188,
+          "rank_mod2": 754,
+          "nullity_mod2": 56,
+          "rank_rational": 754,
+          "nullity_rational": 56,
+          "ordered_tuple_weight": 24000
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 405,
+          "codomain": 540,
+          "rank_mod2": 389,
+          "nullity_mod2": 16,
+          "rank_rational": 389,
+          "nullity_rational": 16,
+          "ordered_tuple_weight": 9600
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 666,
+          "rank_mod2": 516,
+          "nullity_mod2": 24,
+          "rank_rational": 516,
+          "nullity_rational": 24,
+          "ordered_tuple_weight": 9600
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 810,
+          "codomain": 972,
+          "rank_mod2": 754,
+          "nullity_mod2": 56,
+          "rank_rational": 754,
+          "nullity_rational": 56,
+          "ordered_tuple_weight": 28800
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 816,
+          "rank_mod2": 652,
+          "nullity_mod2": 68,
+          "rank_rational": 652,
+          "nullity_rational": 68,
+          "ordered_tuple_weight": 2400
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1080,
+          "codomain": 1188,
+          "rank_mod2": 952,
+          "nullity_mod2": 128,
+          "rank_rational": 952,
+          "nullity_rational": 128,
+          "ordered_tuple_weight": 14400
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1620,
+          "codomain": 1728,
+          "rank_mod2": 1380,
+          "nullity_mod2": 240,
+          "rank_rational": 1380,
+          "nullity_rational": 240,
+          "ordered_tuple_weight": 21600
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 405,
+          "codomain": 432,
+          "rank_mod2": 365,
+          "nullity_mod2": 40,
+          "rank_rational": 365,
+          "nullity_rational": 40,
+          "ordered_tuple_weight": 2560
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 522,
+          "rank_mod2": 468,
+          "nullity_mod2": 72,
+          "rank_rational": 468,
+          "nullity_rational": 72,
+          "ordered_tuple_weight": 3840
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 810,
+          "codomain": 756,
+          "rank_mod2": 688,
+          "nullity_mod2": 122,
+          "rank_rational": 688,
+          "nullity_rational": 122,
+          "ordered_tuple_weight": 11520
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 624,
+          "rank_mod2": 588,
+          "nullity_mod2": 132,
+          "rank_rational": 588,
+          "nullity_rational": 132,
+          "ordered_tuple_weight": 1920
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1080,
+          "codomain": 900,
+          "rank_mod2": 864,
+          "nullity_mod2": 216,
+          "rank_rational": 864,
+          "nullity_rational": 216,
+          "ordered_tuple_weight": 11520
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1620,
+          "codomain": 1296,
+          "rank_mod2": 1260,
+          "nullity_mod2": 360,
+          "rank_rational": 1260,
+          "nullity_rational": 360,
+          "ordered_tuple_weight": 17280
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 960,
+          "codomain": 736,
+          "rank_mod2": 730,
+          "nullity_mod2": 230,
+          "rank_rational": 730,
+          "nullity_rational": 230,
+          "ordered_tuple_weight": 320
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1440,
+          "codomain": 1056,
+          "rank_mod2": 1056,
+          "nullity_mod2": 384,
+          "rank_rational": 1056,
+          "nullity_rational": 384,
+          "ordered_tuple_weight": 2880
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 2160,
+          "codomain": 1512,
+          "rank_mod2": 1512,
+          "nullity_mod2": 648,
+          "rank_rational": 1512,
+          "nullity_rational": 648,
+          "ordered_tuple_weight": 8640
+        },
+        {
+          "blocks": [
+            [
+              "Full",
+              5,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 3240,
+          "codomain": 2160,
+          "rank_mod2": 2160,
+          "nullity_mod2": 1080,
+          "rank_rational": 2160,
+          "nullity_rational": 1080,
+          "ordered_tuple_weight": 8640
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ]
+          ],
+          "domain": 405,
+          "codomain": 324,
+          "rank_mod2": 261,
+          "nullity_mod2": 144,
+          "rank_rational": 261,
+          "nullity_rational": 144,
+          "ordered_tuple_weight": 256
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 540,
+          "codomain": 378,
+          "rank_mod2": 324,
+          "nullity_mod2": 216,
+          "rank_rational": 324,
+          "nullity_rational": 216,
+          "ordered_tuple_weight": 512
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 810,
+          "codomain": 540,
+          "rank_mod2": 478,
+          "nullity_mod2": 332,
+          "rank_rational": 478,
+          "nullity_rational": 332,
+          "ordered_tuple_weight": 1536
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 720,
+          "codomain": 432,
+          "rank_mod2": 396,
+          "nullity_mod2": 324,
+          "rank_rational": 396,
+          "nullity_rational": 324,
+          "ordered_tuple_weight": 384
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1080,
+          "codomain": 612,
+          "rank_mod2": 576,
+          "nullity_mod2": 504,
+          "rank_rational": 576,
+          "nullity_rational": 504,
+          "ordered_tuple_weight": 2304
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1620,
+          "codomain": 864,
+          "rank_mod2": 828,
+          "nullity_mod2": 792,
+          "rank_rational": 828,
+          "nullity_rational": 792,
+          "ordered_tuple_weight": 3456
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 960,
+          "codomain": 480,
+          "rank_mod2": 474,
+          "nullity_mod2": 486,
+          "rank_rational": 474,
+          "nullity_rational": 486,
+          "ordered_tuple_weight": 128
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1440,
+          "codomain": 672,
+          "rank_mod2": 672,
+          "nullity_mod2": 768,
+          "rank_rational": 672,
+          "nullity_rational": 768,
+          "ordered_tuple_weight": 1152
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 2160,
+          "codomain": 936,
+          "rank_mod2": 936,
+          "nullity_mod2": 1224,
+          "rank_rational": 936,
+          "nullity_rational": 1224,
+          "ordered_tuple_weight": 3456
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              3,
+              3
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 3240,
+          "codomain": 1296,
+          "rank_mod2": 1296,
+          "nullity_mod2": 1944,
+          "rank_rational": 1296,
+          "nullity_rational": 1944,
+          "ordered_tuple_weight": 3456
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ]
+          ],
+          "domain": 1280,
+          "codomain": 512,
+          "rank_mod2": 509,
+          "nullity_mod2": 771,
+          "rank_rational": 509,
+          "nullity_rational": 771,
+          "ordered_tuple_weight": 16
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 1920,
+          "codomain": 704,
+          "rank_mod2": 704,
+          "nullity_mod2": 1216,
+          "rank_rational": 704,
+          "nullity_rational": 1216,
+          "ordered_tuple_weight": 192
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 2880,
+          "codomain": 960,
+          "rank_mod2": 960,
+          "nullity_mod2": 1920,
+          "rank_rational": 960,
+          "nullity_rational": 1920,
+          "ordered_tuple_weight": 864
+        },
+        {
+          "blocks": [
+            [
+              "SharedOutput",
+              4,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 4320,
+          "codomain": 1296,
+          "rank_mod2": 1296,
+          "nullity_mod2": 3024,
+          "rank_rational": 1296,
+          "nullity_rational": 3024,
+          "ordered_tuple_weight": 1728
+        },
+        {
+          "blocks": [
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ],
+            [
+              "Mid",
+              5,
+              2
+            ]
+          ],
+          "domain": 6480,
+          "codomain": 1728,
+          "rank_mod2": 1728,
+          "nullity_mod2": 4752,
+          "rank_rational": 1728,
+          "nullity_rational": 4752,
+          "ordered_tuple_weight": 1296
+        }
+      ],
+      "target_rank_rational": 412195367,
+      "target_nullity_rational": 87804633,
+      "exclusion_over_complex_numbers": false
+    }
+  ],
+  "improves_omega": false
+}

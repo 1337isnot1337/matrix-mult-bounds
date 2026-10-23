@@ -1,0 +1,3790 @@
+{
+  "cases_tested": 12976,
+  "exact_violation_count": 0,
+  "first_exact_violation": null,
+  "leaderboard": [
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        2,
+        3
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "10/3",
+        "target_exact": "10/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          2,
+          3
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        2,
+        3
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "10/3",
+        "target_exact": "10/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          2,
+          3
+        ],
+        "minimum_sums": [
+          0,
+          1,
+          2
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0,
+            1
+          ],
+          "z": [
+            0,
+            -1,
+            -2
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        2,
+        3
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "10/3",
+        "target_exact": "10/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          2,
+          3
+        ],
+        "minimum_sums": [
+          2,
+          1,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            1,
+            0
+          ],
+          "y": [
+            1,
+            0
+          ],
+          "z": [
+            -2,
+            -1,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          1,
+          0
+        ],
+        "y": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 3,
+          "dimensions": [
+            2,
+            3,
+            4
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        3,
+        4
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "14/3",
+        "target_exact": "14/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          3,
+          4
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 4,
+          "dimensions": [
+            2,
+            4,
+            5
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        4,
+        5
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "6",
+        "target_exact": "6",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          4,
+          5
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        4,
+        5
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "6",
+        "target_exact": "6",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          4,
+          5
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            4
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 5,
+          "dimensions": [
+            2,
+            5,
+            6
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              3,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            3,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 1,
+          "reversals": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "mode": "binary",
+  "nontrivial_leaderboard": [
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        4,
+        5
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "6",
+        "target_exact": "6",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          4,
+          5
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            4
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              3,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            3,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 1,
+          "reversals": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        5,
+        6
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "22/3",
+        "target_exact": "22/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          5,
+          6
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 3,
+          "dimensions": [
+            2,
+            3,
+            4
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        6,
+        7
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "26/3",
+        "target_exact": "26/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          6,
+          7
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              5
+            ],
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        6,
+        7
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "26/3",
+        "target_exact": "26/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          6,
+          7
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              0,
+              5,
+              5
+            ],
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            3,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 1,
+          "reversals": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        6,
+        7
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "26/3",
+        "target_exact": "26/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          6,
+          7
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              5
+            ],
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "dimensions": [
+            2,
+            2,
+            1
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            true,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "dimensions": [
+            2,
+            3,
+            4
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        6,
+        7
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "26/3",
+        "target_exact": "26/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          6,
+          7
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              0,
+              5,
+              5
+            ],
+            [
+              1,
+              3,
+              4
+            ],
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            3,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 1,
+          "reversals": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "a": 2,
+          "b": 2,
+          "dimensions": [
+            2,
+            2,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 2,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        6,
+        7
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "26/3",
+        "target_exact": "26/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          6,
+          7
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              0,
+              5,
+              5
+            ],
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "blocks": [
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "dimensions": [
+            2,
+            4,
+            3
+          ],
+          "kind": "convolution",
+          "output_axis": 1,
+          "reversals": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "dimensions": [
+            2,
+            1,
+            2
+          ],
+          "kind": "convolution",
+          "output_axis": 0,
+          "reversals": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "dimensions": [
+        2,
+        6,
+        7
+      ],
+      "score": {
+        "ratio_exact": "1",
+        "source_exact": "26/3",
+        "target_exact": "26/3",
+        "violation_exact": false
+      },
+      "support_certificate": {
+        "dimensions": [
+          2,
+          6,
+          7
+        ],
+        "minimum_sums": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sectors": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              3
+            ],
+            [
+              0,
+              4,
+              4
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              5
+            ],
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        ],
+        "version": 1,
+        "weights": {
+          "x": [
+            0,
+            0
+          ],
+          "y": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "z": [
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ]
+        },
+        "zero_terms": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            5,
+            5
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            6
+          ]
+        ]
+      },
+      "weights": {
+        "x": [
+          0,
+          0
+        ],
+        "y": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "parameters": {
+    "max_sum": 11,
+    "samples": null,
+    "seed": null,
+    "top_k": 10
+  },
+  "schema_version": 1,
+  "scope": "Exact rational scores for the specified finite integer-weight arrays. Each retained support certificate replays its zero-weight support, sector partition, block recognition, and score. No exponent follows from this relaxation alone."
+}

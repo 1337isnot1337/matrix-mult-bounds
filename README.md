@@ -4,7 +4,7 @@
 
 A research workspace for the arithmetic exponent of matrix multiplication. The goal is a rigorously supported improvement below $\omega\le9/4$.
 
-**This repository does not establish a smaller exponent.** Its initial contribution is an AI-derived analysis of a scalar relaxation, with exact finite experiments. The written proofs have no independent review or local Lean formalization.
+**This repository does not establish a smaller exponent.** Its initial contribution is an AI-derived analysis of a scalar relaxation, with exact finite experiments. General local proofs remain written and unreviewed unless their claim records explicitly state otherwise. The pointwise-minimality proof has no independent mathematical review or full Lean formalization; its auxiliary finite slope estimate has a separate [scalar-profile Lean project](formal/scalar-profile/README.md). Passing tests does not establish independent mathematical review.
 
 ## Start here
 
@@ -12,6 +12,15 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Research field and annotated bibliography](docs/literature.md)
 - [The external 9/4 proof and its dependencies](docs/nine_fourths_route.md)
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
+- [Consolidated branches, original heads, and content decisions](docs/consolidation/2026-10-23/README.md)
+- [Active investigations](research/ACTIVE.md)
+- [Exact rational monomial support search](research/ai/2026-10-23-exact-monomial-search/README.md)
+- [A mixed-output candidate excluded beyond every ordinary Koszul test](research/ai/2026-10-23-mixed-longlegs-candidate/README.md)
+- [Shared-output Koszul obstruction with arbitrary target first identifications](research/ai/2026-10-23-shared-output-koszul/universal_identifications.md)
+- [Finite and quantified construction criteria from residual ranks](research/ai/2026-10-23-residual-rank-repair/proof.md)
+- [Repair-cost barrier within the existing formal calculus](research/ai/2026-10-23-operational-repair-barrier/README.md)
+- [R5 route comparison](docs/route-synthesis.md)
+- [Exact projection of the proposed oriented entropy lift](docs/oriented-lift-relaxation.md)
 - [Research directions and acceptance criteria](docs/research_directions.md)
 - [Attribution and provenance](PROVENANCE.md)
 - [Main integration checkpoint and combined validation](docs/integration_2026-10-20.md)
@@ -24,7 +33,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [SL(2,7) exact source cost and an unconstructed finite target](research/ai/2026-10-20-sl2-seven/README.md)
 - [Heisenberg source and complete single-target coordinate obstruction](research/ai/2026-10-20-heisenberg-five/README.md)
 
-The field map is a curated starting point, not an exhaustive survey. Its source snapshot is **October 20, 2026**.
+The field map is selective. Its initial source snapshot is October 20, 2026, with additions through October 23. The claim ledger and dated package records give the scope and evidence status of each local result. The badge above reports `main`; it does not certify every topic branch or local experiment.
 
 ## External baseline versus this project's work
 
@@ -43,9 +52,81 @@ The recurrence already appears in OpenAI's proof. The local analysis supplies th
 
 The profile satisfies the stated scalar constraints at $t=3/4$. This is a barrier for that relaxation, **not** a lower bound $\omega\ge9/4$ and not a construction of a tensor character.
 
+## Historical research map: October 21, 2026
+
+This map preserves the October 21 checkpoint from the rectangular-sum frontier branch. Its counts and open questions describe that snapshot. Later results and corrections are recorded in [STATUS.md](STATUS.md), the [claim ledger](research/claims.json), and [active investigations](research/ACTIVE.md). It is not a current inventory of every package integrated on October 23.
+
+### 1. Scalar profiles, filtrations, and asymptotic growth
+
+The [initial analysis](research/ai/2026-10-20/research_note.md) constructs a pointwise-minimal two-variable profile for a stated scalar relaxation. The growth recurrence comes from the external proof; the repository analyzes the matching profile and its constraints.
+
+The [product-filtration result](research/ai/2026-10-20-concavity-equivalence/research_note.md) identifies three fixed-label inequality families with separate concavity. The [scaling and rigidity argument](research/ai/2026-10-20-concavity-equivalence/homogeneous_rigidity.md) describes the limiting shape an endpoint character must have. The [whole-filtration entropy investigation](research/ai/2026-10-20-full-filtration/README.md) gives a separate analytic obstruction for its balanced-source formulation.
+
+These results explain why several scalar searches cannot improve the endpoint. They do **not** prove a lower bound $\omega\ge9/4$ or construct an actual tensor character.
+
+### 2. Exact constructions and extension problems
+
+The [anisotropic construction program](research/ai/2026-10-20-anisotropic-constructions/README.md) contains explicit rational maps and source-level coefficient checks. Selected constructions include:
+
+- [Spin-module maps](research/ai/2026-10-20-anisotropic-constructions/spin_module14.md): $A(4,8)\to M(3,3,14)$ and $A(8,8)\to M(3,3,28)$.
+- [Crossed-module lifts](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_cross_module_lifts.md): $A(4,8)\to M(4,4,11)$ and $A(8,8)\to M(4,4,22)$.
+- [Changed-corner construction](research/ai/2026-10-20-anisotropic-constructions/parity_structure_cross_module_corner_shifted.md): an $M(4,4,12)$ core with checked response and flattening ranks.
+- [Rectangular spin seed](research/ai/2026-10-21-asymmetric-sl2-seed/rectangular_exact.md): exact rational $A(3,3)\to M(5,5,3)$ maps.
+
+Here $M(u,v,w)$ is a rectangular matrix multiplication tensor. The linked notes define each source. None of these constructions alone gives a smaller exponent. Compatible square-target extensions remain missing, and several fixed-map extension routes are already excluded.
+
+### 3. Ordinary rectangular targets and direct sums
+
+The [rectangular program](research/ai/2026-10-21-rectangular-direct-sums/README.md) combines source-slice bounds, crossed-Hankel ranks, saturation, bundle dimensions, and ruling arguments.
+
+The [size-2,000 scan](research/ai/2026-10-21-rectangular-direct-sums/single_frontier.md) covers **110 source formats and 5,741 score-eligible single targets**, with **427,076 exact integer-minor checks**. Applying the recorded written arguments leaves **74 ordinary candidates**. A [fixed-diagonal SL2 capacity test](research/ai/2026-10-21-rectangular-direct-sums/equivariant_frontier.md) excludes that symmetry-restricted ansatz for all 74; arbitrary maps remain open.
+
+The [critical finite-state argument](research/ai/2026-10-21-rectangular-direct-sums/critical_finite_states.md), with its unreviewed premises, excludes the last ordinary single target through source dimension 1,500. Successive [two-block filters](research/ai/2026-10-21-rectangular-direct-sums/ruling_two_sums.md) reduce an earlier 4,469-candidate list to 690 after the later critical-state filter.
+
+An **ordinary restriction** uses fixed linear maps. A **degeneration** permits a parameter-dependent limiting construction. Ordinary exclusions do not automatically exclude degenerations.
+
+### 4. Representation-theoretic and graded obstructions
+
+The [cyclic-equivariant program](research/ai/2026-10-20-cyclic-equivariant/README.md) studies matrix-vertex representations and their compatibility with the source. The [invariant-slice argument](research/ai/2026-10-21-rectangular-direct-sums/invariant_slice_pairing.md) adds multiplicity-rank tests for ordinary equivariant maps.
+
+A [bounded physical-subset search](research/ai/2026-10-21-rectangular-direct-sums/physical_subset_frontier.md) checks balanced source sizes 24–36. Its 4,070 capacity-compatible triples all fail the recorded ordinary tests. The search allows at most five distinct physical summands per vertex; it is not an unrestricted exclusion.
+
+The [support-peeling argument](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md) separately excludes a specified $A(8,8)$ direct-sum target for maps homogeneous in the fixed grading. Ungraded maps and general singular degenerations remain outside that result.
+
+### 5. Quantum root flags, jets, and mixed subspaces
+
+The [higher-jet program](research/ai/2026-10-20-higher-jet-quantum-flags/README.md) and its continuations analyze parameter-dependent maps through exact coefficient equations, normal spaces, and projection minors.
+
+Later work includes [moving boundary flags](research/ai/2026-10-21-moving-boundary-flags/README.md), [mixed hyperplanes](research/ai/2026-10-21-rankone-mixed-hyperplanes/README.md), [pure mixed five-spaces](research/ai/2026-10-21-pure-mixed-five-spaces/README.md), and a [uniform mixed-axis closure](research/ai/2026-10-21-mixed-axis-incidence/README.md). These close specified families with written proofs and exact witnesses. General mixed-row graph charts and other flags remain unresolved.
+
+### 6. Finite-group and alternative sources
+
+The repository also studies [group-potential constructions](research/ai/2026-10-20-group-potentials/README.md), [SL(2,7)](research/ai/2026-10-20-sl2-seven/README.md), [Heisenberg sources](research/ai/2026-10-20-heisenberg-five/README.md), and [other source constructions](research/ai/2026-10-20-new-source-constructions/README.md).
+
+These packages separate exact group calculations, conditional target scores, rank obstructions, bounded search outcomes, and unresolved candidates. A target that passes necessary tests is not a construction. A timeout is not an impossibility proof.
+
+### 7. Numerical discovery and exact acceptance
+
+The [unrestricted small-target search](research/ai/2026-10-21-asymmetric-sl2-seed/unrestricted_search.md) explores extensions of the exact rectangular seed. It includes ordinary fits and Laurent-coefficient searches toward $M(5,5,4)$.
+
+[Laurent scale normalization](research/ai/2026-10-21-asymmetric-sl2-seed/laurent_scale_balance.md) removes a rescaling freedom that can artificially reduce raw positive-power errors. Checkpoints retain their input hashes, residuals, validation results, and exact modular rejection tests.
+
+A small numerical residual is not an exact identity, a probability of success, or an exponent improvement. Even an exact small-target result would still need a suitable extension and a complete asymptotic argument.
+
+### Acceptance criteria from that checkpoint
+
+An improved exponent requires both a valid construction or inequality and the full implication for the stated computational model. The [research directions](docs/research_directions.md) describe several open routes:
+
+- Construct a target whose certified source cost yields a strict gain, including all auxiliary factors and interpolation costs.
+- Realize a sufficiently efficient family of [all-dimension mixed targets](research/ai/2026-10-20-koszul/all_dimension_targets.md).
+- Find an asymptotic tensor constraint that excludes every remaining endpoint-character profile.
+- Construct compatible extensions of the exact cores without violating the existing scoped obstructions.
+
+General proofs need review. Finite certificates need reproducible checks. Neither a longer experiment log nor a larger collection of excluded ansatzes establishes the desired bound.
+
 ## Reproduce the initial experiments
 
-Use Python 3.10 or later in a virtual environment. CI runs the complete regression suite on Python 3.10 and 3.14, divided into four parallel groups on each version. Each discovered test module belongs to exactly one group, keeping its shared fixtures together. The required `CI` check waits for all eight groups and the historical replay on Python 3.13. The original recorded run used Python 3.13.5 and SymPy 1.14.0.
+Use Python 3.10 or later in a virtual environment. CI runs the complete regression suite on Python 3.10 and 3.14, divided into four parallel groups on each version. Each discovered test module belongs to exactly one group, keeping its shared fixtures together. The required `CI` check waits for all eight groups, the historical replay on Python 3.13, and the auxiliary scalar-profile Lean build. The original recorded run used Python 3.13.5 and SymPy 1.14.0.
 
 ```sh
 python -m venv .venv
@@ -71,12 +152,14 @@ The scalar program also verifies four symbolic identities. The filtration run co
 
 [Recorded replay results](results/bootstrap-2026-10-20/summary.json) and [verification limits](docs/verification.md) distinguish exact decisions from display-only floating-point values. Finite tests do not prove asymptotic claims.
 
+The [703-test local regression receipt](results/rectangular-direct-sums-20261021/immutable-regression-a41c9ee.json) records the earlier October 21 checkpoint at commit `a41c9ee`: all tests passed in 2,090.419 seconds. It predates later integrated work and is not validation of this consolidation. `tools/replay.py` reproduces the original archived experiments; it does not replay every later package. The archives `research/ai/2026-10-20/` and `research/ai/2026-10-20-session2/` remain unchanged.
+
 ## Contribute
 
 Anyone can contribute through an issue or pull request, including contributors who use AI agents. Changes to `main` go through pull requests.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before changing a claim. Each contribution must identify its external dependencies, precise quantifiers, proof status, and reproducible evidence. Preserve failed searches with their actual scope.
 
-The [verification workflow](.github/workflows/verify.yml) reports one aggregate `CI` check. It passes only after every test job and the archive replay succeed. [Repository settings](docs/repository-settings.md) define the corresponding merge policy and its administrative setup.
+The [verification workflow](.github/workflows/verify.yml) reports one aggregate `CI` check. It passes only after every test job, the archive replay, and the auxiliary scalar-profile Lean build succeed. [Repository settings](docs/repository-settings.md) define the corresponding merge policy and its administrative setup.
 
 No license for this repository is selected at initialization. Linked publications and external code retain their own licenses. See [PROVENANCE.md](PROVENANCE.md).

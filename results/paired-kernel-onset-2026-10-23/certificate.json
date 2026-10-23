@@ -1,0 +1,643 @@
+{
+  "schema": "paired-fixed-short-kernels-v2",
+  "proof_status": "proof-written-unreviewed",
+  "restricted_kernel_formula": "binom(a*(a-1),r-a)*max(r-a*(a-1),0)",
+  "full_column_range_is_sharp_over_every_field": true,
+  "all_degree_source_upper_bound": "minimum of the fixed-input kernel, cokernel Euler and row/domain dimension bounds",
+  "finite_exact_controls": [
+    {
+      "a": 2,
+      "degree": 0,
+      "columns": 2,
+      "mod2_rank": 2,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 2,
+      "degree": 1,
+      "columns": 8,
+      "mod2_rank": 8,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 2,
+      "degree": 2,
+      "columns": 12,
+      "mod2_rank": 12,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 2,
+      "degree": 3,
+      "columns": 8,
+      "mod2_rank": 6,
+      "exact_complex_nullity": 2,
+      "free_columns": [
+        5,
+        7
+      ],
+      "integer_kernel_vectors": [
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      ],
+      "independent_full_source_kernels": 4
+    },
+    {
+      "a": 2,
+      "degree": 4,
+      "columns": 2,
+      "mod2_rank": 0,
+      "exact_complex_nullity": 2,
+      "free_columns": [
+        0,
+        1
+      ],
+      "integer_kernel_vectors": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "a": 3,
+      "degree": 0,
+      "columns": 3,
+      "mod2_rank": 3,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 1,
+      "columns": 27,
+      "mod2_rank": 27,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 2,
+      "columns": 108,
+      "mod2_rank": 108,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 3,
+      "columns": 252,
+      "mod2_rank": 252,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 4,
+      "columns": 378,
+      "mod2_rank": 378,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 5,
+      "columns": 378,
+      "mod2_rank": 378,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 6,
+      "columns": 252,
+      "mod2_rank": 252,
+      "exact_complex_nullity": 0,
+      "free_columns": [],
+      "integer_kernel_vectors": []
+    },
+    {
+      "a": 3,
+      "degree": 7,
+      "columns": 108,
+      "mod2_rank": 93,
+      "exact_complex_nullity": 15,
+      "free_columns": [
+        29,
+        41,
+        44,
+        56,
+        59,
+        62,
+        74,
+        77,
+        80,
+        83,
+        95,
+        98,
+        101,
+        104,
+        107
+      ],
+      "integer_kernel_vectors": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            -1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            29,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            16,
+            -1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            41,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            25,
+            -1
+          ],
+          [
+            34,
+            1
+          ],
+          [
+            44,
+            1
+          ]
+        ],
+        [
+          [
+            9,
+            1
+          ],
+          [
+            46,
+            1
+          ],
+          [
+            56,
+            1
+          ]
+        ],
+        [
+          [
+            12,
+            1
+          ],
+          [
+            28,
+            -1
+          ],
+          [
+            49,
+            1
+          ],
+          [
+            59,
+            1
+          ]
+        ],
+        [
+          [
+            15,
+            1
+          ],
+          [
+            40,
+            -1
+          ],
+          [
+            52,
+            1
+          ],
+          [
+            62,
+            1
+          ]
+        ],
+        [
+          [
+            18,
+            1
+          ],
+          [
+            28,
+            1
+          ],
+          [
+            64,
+            1
+          ],
+          [
+            74,
+            1
+          ]
+        ],
+        [
+          [
+            21,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            77,
+            1
+          ]
+        ],
+        [
+          [
+            24,
+            1
+          ],
+          [
+            43,
+            -1
+          ],
+          [
+            70,
+            1
+          ],
+          [
+            80,
+            1
+          ]
+        ],
+        [
+          [
+            27,
+            1
+          ],
+          [
+            58,
+            -1
+          ],
+          [
+            73,
+            1
+          ],
+          [
+            83,
+            1
+          ]
+        ],
+        [
+          [
+            30,
+            1
+          ],
+          [
+            40,
+            1
+          ],
+          [
+            85,
+            1
+          ],
+          [
+            95,
+            1
+          ]
+        ],
+        [
+          [
+            33,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            88,
+            1
+          ],
+          [
+            98,
+            1
+          ]
+        ],
+        [
+          [
+            36,
+            1
+          ],
+          [
+            91,
+            1
+          ],
+          [
+            101,
+            1
+          ]
+        ],
+        [
+          [
+            39,
+            1
+          ],
+          [
+            61,
+            -1
+          ],
+          [
+            94,
+            1
+          ],
+          [
+            104,
+            1
+          ]
+        ],
+        [
+          [
+            42,
+            1
+          ],
+          [
+            79,
+            -1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            107,
+            1
+          ]
+        ]
+      ],
+      "independent_full_source_kernels": 45
+    },
+    {
+      "a": 3,
+      "degree": 8,
+      "columns": 27,
+      "mod2_rank": 15,
+      "exact_complex_nullity": 12,
+      "free_columns": [
+        10,
+        11,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23,
+        25,
+        26
+      ],
+      "integer_kernel_vectors": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        [
+          [
+            4,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            16,
+            1
+          ]
+        ],
+        [
+          [
+            7,
+            1
+          ],
+          [
+            17,
+            1
+          ]
+        ],
+        [
+          [
+            9,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            20,
+            1
+          ]
+        ],
+        [
+          [
+            12,
+            1
+          ],
+          [
+            22,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            23,
+            1
+          ]
+        ],
+        [
+          [
+            15,
+            1
+          ],
+          [
+            25,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            26,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "a": 3,
+      "degree": 9,
+      "columns": 3,
+      "mod2_rank": 0,
+      "exact_complex_nullity": 3,
+      "free_columns": [
+        0,
+        1,
+        2
+      ],
+      "integer_kernel_vectors": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ]
+      ]
+    }
+  ],
+  "cokernel_exact_controls": [
+    {
+      "a": 2,
+      "degree": 3,
+      "mod2_rank": 70,
+      "exact_complex_rank": 70
+    },
+    {
+      "a": 3,
+      "degree": 10,
+      "mod2_rank": 18819,
+      "exact_complex_rank": 18819
+    },
+    {
+      "a": 3,
+      "degree": 11,
+      "mod2_rank": 6660,
+      "exact_complex_rank": 6660
+    }
+  ],
+  "euler_characteristic_controls": 378,
+  "complete_source_kernel_formula": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

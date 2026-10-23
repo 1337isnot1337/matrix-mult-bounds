@@ -1,0 +1,181 @@
+{
+  "schema": "matrix-live-catchup-docs-resolution-v1",
+  "prepared_at_utc": "2026-10-23T18:15:23.590994+00:00",
+  "baseline_commit": "6dd2e8e52f03caf3660ced1fd72eaa797431f3d5",
+  "source_heads_file": "live_catchup_frozen_heads.json",
+  "source_heads_file_sha256": "80fd6689d40eeb84f5c7a79e6d43b98b7d42021452a389ea554862d8cd80e468",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "input_sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_path": "STATUS.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_docs_output/STATUS.md",
+      "reason": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope."
+    }
+  ],
+  "operations": [
+    {
+      "path": "STATUS.md",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "old_text": "testing alone is insufficient as a substitute. The ordinary cyclic-source\n",
+      "new_text": "testing is justified by a supplied interpolation lemma when q>=r+1 over F_q.\nNo such implication is assumed for smaller fields. The ordinary cyclic-source\n",
+      "occurrences_replaced": 1
+    }
+  ],
+  "retained_baseline_outputs": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": "6dd2e8e52f03caf3660ced1fd72eaa797431f3d5",
+      "reason": "All incoming additions from the three main-catching-up heads are already present once. Preserve current scope corrections and heading placement."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": "6dd2e8e52f03caf3660ced1fd72eaa797431f3d5",
+      "reason": "All incoming additions from the three main-catching-up heads are already present once. Preserve current scope corrections and heading placement."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": "6dd2e8e52f03caf3660ced1fd72eaa797431f3d5",
+      "reason": "All incoming additions from the three main-catching-up heads are already present once. Preserve current scope corrections and heading placement."
+    }
+  ],
+  "duplicate_import_decisions": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "old_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "new_sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "decision": "Preserve baseline narrative and claims; incoming changes only import the already captured biform/main contribution. No duplicate prose or record is added.",
+      "shared_insertions": [
+        {
+          "path": "STATUS.md",
+          "authored_addition_sha256": "0d6ff6806c1d9bf3b7ef9b8a4925ab032408c151276a5d407b05b22d4b99d182",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "PROVENANCE.md",
+          "authored_addition_sha256": "6198a26e1e9ea0524a47e81ac287a28bd03c04a0b3feb66b517fc4529dd94371",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "authored_addition_sha256": "3d70cb568f46cbef88e25db1a8281d4289f04fb5621416387eb5a9b27cb5927e",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "docs/research_directions.md",
+          "authored_addition_sha256": "319c0e06cf88ca39eb4897752f6a7fda0103310ce5841e1c46b7dd93afaba536",
+          "already_present_exactly_once": true
+        }
+      ],
+      "exact_existing_package_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+        "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+        "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+        "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+        "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+        "results/top-coefficient-biforms-2026-10-23/verification.json",
+        "tests/test_top_coefficient_biforms.py"
+      ],
+      "added_source_claim_already_present": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "existing_source_claims_unchanged": true
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "old_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "new_sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "decision": "Preserve baseline narrative and claims; incoming changes only import the already captured biform/main contribution. No duplicate prose or record is added.",
+      "shared_insertions": [
+        {
+          "path": "STATUS.md",
+          "authored_addition_sha256": "0d6ff6806c1d9bf3b7ef9b8a4925ab032408c151276a5d407b05b22d4b99d182",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "PROVENANCE.md",
+          "authored_addition_sha256": "6198a26e1e9ea0524a47e81ac287a28bd03c04a0b3feb66b517fc4529dd94371",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "authored_addition_sha256": "3d70cb568f46cbef88e25db1a8281d4289f04fb5621416387eb5a9b27cb5927e",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "docs/research_directions.md",
+          "authored_addition_sha256": "319c0e06cf88ca39eb4897752f6a7fda0103310ce5841e1c46b7dd93afaba536",
+          "already_present_exactly_once": true
+        }
+      ],
+      "exact_existing_package_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+        "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+        "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+        "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+        "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+        "results/top-coefficient-biforms-2026-10-23/verification.json",
+        "tests/test_top_coefficient_biforms.py"
+      ],
+      "added_source_claim_already_present": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "existing_source_claims_unchanged": true
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "old_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "new_sha": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "decision": "Preserve baseline narrative and claims; incoming changes only import the already captured biform/main contribution. No duplicate prose or record is added.",
+      "shared_insertions": [
+        {
+          "path": "STATUS.md",
+          "authored_addition_sha256": "0d6ff6806c1d9bf3b7ef9b8a4925ab032408c151276a5d407b05b22d4b99d182",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "PROVENANCE.md",
+          "authored_addition_sha256": "6198a26e1e9ea0524a47e81ac287a28bd03c04a0b3feb66b517fc4529dd94371",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "authored_addition_sha256": "3d70cb568f46cbef88e25db1a8281d4289f04fb5621416387eb5a9b27cb5927e",
+          "already_present_exactly_once": true
+        },
+        {
+          "path": "docs/research_directions.md",
+          "authored_addition_sha256": "319c0e06cf88ca39eb4897752f6a7fda0103310ce5841e1c46b7dd93afaba536",
+          "already_present_exactly_once": true
+        }
+      ],
+      "exact_existing_package_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+        "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+        "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+        "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+        "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+        "results/top-coefficient-biforms-2026-10-23/verification.json",
+        "tests/test_top_coefficient_biforms.py"
+      ],
+      "added_source_claim_already_present": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "existing_source_claims_unchanged": true
+    }
+  ],
+  "exact_new_question_decision": {
+    "path": "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md",
+    "source_commit": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+    "sha256": "48d9fb65e5ba0dcdcbe9365afaeb7ec41477de2087aa3123ff2d8942c54cc7c3",
+    "decision": "Preserve the complete source bytes as an open investigation checkpoint. The proposed rank/minimal-degree formula is explicitly an intended result; do not promote it to a proved claim or add a completed-result summary.",
+    "output_ownership": "Graph source-file overlay; no duplicate copy in this narrative overlay."
+  },
+  "claim_scope_coordination": {
+    "id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
+    "change": "Only limitations gain the q>=r+1 exhaustive-testing qualification. Graph owns ledger union and original provenance retention.",
+    "claim_count_expected": 612,
+    "review_status_unchanged": true
+  },
+  "unresolved_semantic_conflicts": [],
+  "mutations": "Only scratch overlay/report files were written. No worktree or remote mutation."
+}

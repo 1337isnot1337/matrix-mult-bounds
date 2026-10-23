@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "head": "33a0f407b2071ed30433b2b1fbd8a577c50ea044",
+  "tested_baseline": "72f5c524fd72c894d4420067fd10206944bce405",
+  "concurrent_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+  "archive": {
+    "sha": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+    "archive_tag": "archive/consolidation-20261023-165523/integrated/5d1441090e1c",
+    "created": true,
+    "verified": true,
+    "verified_at": "2026-10-23T18:00:47.238270+00:00"
+  },
+  "topic_source_snapshots": 164,
+  "topic_branch_names": 136,
+  "concurrent_correction_is_separate_from_topic_snapshot_counts": true,
+  "both_parent_histories_preserved": true,
+  "claims": 612,
+  "unchanged_claim_records": 611,
+  "changed_claim_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+  "changed_fields": [
+    "statement"
+  ],
+  "correction_matches_exact_source_record": true,
+  "all_status_and_evidence_fields_preserved": true,
+  "claims_sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+  "exact_historical_audit_copies": [
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.72f5c524.json",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.5d144109.json",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.72f5c524.json",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.5d144109.json",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.72f5c524.json",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "sha256": "e36c19403d0d3cea5232e20f16ccad810bf63617665e469809a2c22683f25b5a"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.5d144109.json",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "sha256": "95def6b6e795500d687b03d771758cd2bf007ef0f7afe23b7d3fb21c49c90894"
+    }
+  ],
+  "topic_preservation_report": {
+    "path": "nextwave_concurrent_preservation_report.json",
+    "sha256": "6664215c52b0b43dbd99b98d2b9639a0339c4d3962e63707e37694f4ddece08e"
+  },
+  "recorded_at": "2026-10-23T18:04:04.318151+00:00"
+}

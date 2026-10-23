@@ -1,0 +1,45 @@
+{
+  "schema": "a4-conjugation-limit-sources-v1",
+  "research_base_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "scope": "Sections2-3: literal cyclic source and minimum ordinary source slice rank16 over every field.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-20-koszul/cyclic_finite_target.md"
+    },
+    {
+      "path": "research/ai/2026-10-21-cyclic-slice-determinants/proof.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "4152e85c2ecf9e92da372818336d301e5b7ac634ae1b48ac979fb4430025404c",
+      "scope": "The source unit F*[i,k,s]=1 for i+s=3 and k=3 is unimodular.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-21-cyclic-slice-determinants/proof.md"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/proof.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "6bfc4c59efa33d57f2b2e1d545379fbd99606201e9f288f2e59d58913e08c2cb",
+      "scope": "Sections 1-3: prior normalized source conventions; Section 2 proves minimum nonzero ordinary rank six for G+G00 G over every field. The new low-rank reduction imports this credited theorem and proves the right-sided version by transpose-conjugation. Prior one-sided obstruction is not claimed as new.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-23-resolvent-minrank/proof.md"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/verify.py",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "08da32ffa8622dde7c994aaca0a0be5664a0ac92457cde003b9c3b2b3628a7af",
+      "scope": "Credited normalized-matrix discovery source and exact acceptance of the prior 31-step triangular 6-minor certificate. The new conjugation acceptance reconstructs source matrices without importing this file.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-23-resolvent-minrank/verify.py"
+    },
+    {
+      "path": "results/resolvent-minrank-2026-10-23/certificate.json",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "dc24bcc3324846fb0976d26bb3506ed68b230680d8586bd9808737b6af70ee03",
+      "scope": "Exact all-field minimum-rank-six certificate for G+G00 G, imported only for the low-rank-locus reduction. The full frozen regression replayed its maintained acceptance tests.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/results/resolvent-minrank-2026-10-23/certificate.json"
+    }
+  ],
+  "field": "Rational/integer coefficient checks, modular lower certificates at 1009, complex Laurent application. The low-rank reduction imports an all-field prior theorem, but asserts its application only over C.",
+  "new_family": "g(z)^-1 H g(z), g(z)=I+zN, N=E30 tensor G00; z=t^-1.",
+  "external_theorems": "No new external theorem is imported. The saturated-limit dimension argument and target evaluation formula are proved in proof.md. Prior source normalization and all-field source minimum rank retain their original credits.",
+  "contribution": "Owner-directed OpenAI Codex work. Full two-sided limiting space, scalar-action subspace, rank-loss requirement, principal-compression exclusion, and reduction of arbitrary constant compressions to the explicit 46-dimensional outer space. Same-session checking is not independent mathematical review or formalization."
+}

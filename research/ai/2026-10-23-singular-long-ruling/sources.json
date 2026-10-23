@@ -1,0 +1,36 @@
+{
+  "base_commit": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "field": "C",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    }
+  ],
+  "concurrent_predecessor": {
+    "pr": 113,
+    "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+    "path": "research/ai/2026-10-23-one-regular-leg/proof.md",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/113",
+    "scope": "Scalar balancing, regular unit right inverse and regular rank-k kernel correction; full-rank long-leg exclusion. Reconstructed in this proof with its original credit."
+  },
+  "related_pr112": {
+    "commit_at_first_inspection": "c34ffcd",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/112",
+    "scope": "General regularity from the same projector; its A4 rank102 unit-image corollary is subsumed by PR113."
+  },
+  "external_dependency_in_prior_gap_proof": {
+    "author": "A. Grothendieck",
+    "title": "Sur la classification des fibres holomorphes sur la sphere de Riemann",
+    "version": "American Journal of Mathematics 79(1), 1957, pp121-138",
+    "theorem": "2.1, printed page126",
+    "doi": "10.2307/2372388",
+    "primary_url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
+    "hypotheses_and_use": "Holomorphic vector bundles on the complex Riemann sphere split as direct sums of line bundles. The prior biform gap proof applies this to the constant-rank kernel bundle of its polynomial matrix; it then computes sections and obtains the rank gap. No splitting theorem is asserted over an arbitrary field."
+  },
+  "attribution": "Owner-directed OpenAI Codex continuation. Prior source geometry and PR113's correction mechanism retain their credit. Shared correction column space and complete target-ruling test with singular long-leg limit are the local extension. Written and unreviewed; no historical priority or exponent improvement."
+}

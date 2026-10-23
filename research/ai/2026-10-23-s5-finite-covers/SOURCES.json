@@ -1,0 +1,34 @@
+{
+  "external": [
+    {
+      "id": "DSP16-FLANDERS",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "author": "Clement de Seguins Pazzis",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "version": "arXiv v2, April 20, 2016",
+      "inspected": "Section 1.1 arbitrary-field convention and Theorem 1.1, pages 1-4",
+      "use": "A linear space of m-by-m matrices of upper rank r has dimension at most mr, over every field. The local proof reduces finite SR(M_m)=m^2 to this external theorem.",
+      "credit": "Flanders's bounded-rank dimension theorem; Meshulam's removal of the field-size restriction, as credited in this primary generalization. No use of equality-case classification."
+    }
+  ],
+  "local": [
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-s5-block-filtration/",
+      "use": "Certified full-source radical blocks, layer counts, original frontier and characteristic-two transfer; all original external credits retained."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-s5-split/",
+      "use": "Exact binary group-algebra and module certificates, independently replayed by the prior verifier."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-central-cover-finite-slices/",
+      "use": "Finite matrix target slice rank from the external bounded-rank theorem, cyclic symmetrization and slice-rank closedness."
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

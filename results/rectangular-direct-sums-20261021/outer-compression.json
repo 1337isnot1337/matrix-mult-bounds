@@ -1,0 +1,41 @@
+{
+  "status": "finite-controls-only; external classification required",
+  "outer_flattenings": [
+    {
+      "input_dimension": 1056,
+      "branch_bounds": [
+        288,
+        320,
+        330
+      ],
+      "image_dimension_bound": 330
+    },
+    {
+      "input_dimension": 1056,
+      "branch_bounds": [
+        352,
+        256,
+        264
+      ],
+      "image_dimension_bound": 352
+    }
+  ],
+  "counterexample": {
+    "coefficient": [
+      0,
+      8,
+      0
+    ],
+    "scalar_rank": 8,
+    "crossed_rank": 8,
+    "moment_hankel_rank": 9,
+    "moment_hankel_determinant": 1,
+    "source_partial_permutation_rank": 640,
+    "outer_flattening_ranks": [
+      1,
+      1
+    ]
+  },
+  "all_critical_slices_classified": false,
+  "improves_omega": false
+}

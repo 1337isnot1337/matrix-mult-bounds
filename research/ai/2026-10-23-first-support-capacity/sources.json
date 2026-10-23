@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+      "sha256": "f5d011ed65c17a840fc2bb950d132df1f70db5b13fde42e5f8195b8d06e4116f",
+      "scope": "Section 1 only: native paired-source coefficients and rank(S_X)>=rank(X)+b^2-1. Its polynomial proof is valid over every field. The separate finite-projective argument later in that note is not imported."
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md",
+      "sha256": "2c98769d69116ee69bb9f2d5bd6c9c5fb949c2583b055bc2af9a22133f846312",
+      "scope": "Prior projective finite-divisor incidence method. No external constant-rank theorem or narrow-target exclusion is imported."
+    }
+  ],
+  "pending_pr_sources": [
+    {
+      "pull_request": 147,
+      "commit": "53fed21130a5c46a9c2336a8d196ea0547c2cbfb",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/53fed21130a5c46a9c2336a8d196ea0547c2cbfb/research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "sha256": "c6e53f6a9d39af372ea5876902983e118626b9969b396153e612865576f51557",
+      "scope": "Comparison only: actual oblique long-map annihilators and residual first support r^2-b^2. The new verifier reconstructs the explicit annihilator pattern and does not require an unmerged path on disk."
+    }
+  ],
+  "external_sources": [
+    {
+      "author": "The Stacks Project Authors",
+      "title": "Lemma 33.20.4: dimensions of a morphism and its fibers",
+      "tag": "0B2L",
+      "url": "https://stacks.math.columbia.edu/tag/0B2L",
+      "accessed": "2026-10-23",
+      "scope": "Classical fiber-dimension statements for locally algebraic schemes over a field. Applied to the closed projective divisor incidence after algebraic closure."
+    },
+    {
+      "author": "The Stacks Project Authors",
+      "title": "Lemma 33.34.3: projective dimension theorem",
+      "tag": "0B2R",
+      "url": "https://stacks.math.columbia.edu/tag/0B2R",
+      "accessed": "2026-10-23",
+      "scope": "Nonempty projective intersection when dimensions sum to at least the ambient dimension. Applied to a Segre variety and a residual-annihilator linear space."
+    }
+  ],
+  "local_contribution": "Saturated Laurent union-support capacity and its rank consequences; higher divisor-intersection strata; ordinary fixed-polynomial first-map bounds, including the uncapped linear bound; exact finite controls and countercheck boundaries.",
+  "review_scope": "A separate agent in the same generating session checked the Laurent proof, source convention, divisor incidence, quotient rank loss, both Segre bounds and field descent. This is not independent mathematical review or formalization. Exact finite controls do not certify universal algebraic-geometric dimension statements.",
+  "claim_ids": [
+    "AI-FIRST-SUPPORT-CAPACITY-001",
+    "AI-POLYNOMIAL-FIRST-MAP-OBSTRUCTION-002"
+  ],
+  "historical_novelty_claimed": false,
+  "independent_mathematical_review": false,
+  "formalized": false,
+  "improves_omega": false
+}

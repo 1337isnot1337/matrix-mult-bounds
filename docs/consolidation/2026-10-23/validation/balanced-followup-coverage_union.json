@@ -1,0 +1,178 @@
+{
+  "schema": "matrix-mult-bounds-balanced-followup-coverage-v1",
+  "recorded_at": "2026-10-23T18:42:55.026232+00:00",
+  "head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
+  "head_tree": "586ee2308aeee93ae946524f091862c1091deb05",
+  "passing_comparison_head": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+  "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "discovery_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tools/test_shard.py",
+    "--list"
+  ],
+  "discovery_elapsed_seconds": 4.028,
+  "previous_inventory": {
+    "tests": 1957,
+    "modules": 438
+  },
+  "final_inventory": {
+    "tests": 1961,
+    "modules": 438
+  },
+  "tests_added": [
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_corrupt_minimum_kernel_witness_is_rejected",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_hankel_left_and_right_kernel_indices",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_irreducible_saturation_and_nonconstant_low_branch",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_universal_three_by_three_spectrum_and_integer_blocks"
+  ],
+  "tests_removed": [],
+  "new_tests_without_focused_coverage": [],
+  "focused_tests_passed": 12,
+  "focused_ids_outside_final_inventory": [],
+  "composite_exactly_covers_final_inventory": true,
+  "changed_paths_since_passing_tree": [
+    "STATUS.md",
+    "docs/consolidation/2026-10-23/PUBLICATION.dcd18b0c.md",
+    "docs/consolidation/2026-10-23/PUBLICATION.md",
+    "docs/consolidation/2026-10-23/README.dcd18b0c.md",
+    "docs/consolidation/2026-10-23/README.md",
+    "docs/consolidation/2026-10-23/archive_quadratic_f006.json",
+    "docs/consolidation/2026-10-23/archive_quadratic_f006.normalized.json",
+    "docs/consolidation/2026-10-23/archive_verification_index.dcd18b0c.json",
+    "docs/consolidation/2026-10-23/archive_verification_index.json",
+    "docs/consolidation/2026-10-23/archives_171_complete_verification.json",
+    "docs/consolidation/2026-10-23/balanced_followup_claim_report.json",
+    "docs/consolidation/2026-10-23/balanced_followup_docs_resolution.json",
+    "docs/consolidation/2026-10-23/balanced_followup_import.json",
+    "docs/consolidation/2026-10-23/balanced_followup_integration_resolution.json",
+    "docs/consolidation/2026-10-23/balanced_followup_merge_log.json",
+    "docs/consolidation/2026-10-23/balanced_followup_pin_resolution.json",
+    "docs/consolidation/2026-10-23/balanced_followup_plan.json",
+    "docs/consolidation/2026-10-23/balanced_followup_source_resolution.json",
+    "docs/consolidation/2026-10-23/branches.dcd18b0c.json",
+    "docs/consolidation/2026-10-23/branches.json",
+    "docs/consolidation/2026-10-23/central_resolution_manifest.45b082d1.json",
+    "docs/consolidation/2026-10-23/central_resolution_manifest.dcd18b0c.json",
+    "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+    "docs/consolidation/2026-10-23/claim_resolution.45b082d1.json",
+    "docs/consolidation/2026-10-23/claim_resolution.dcd18b0c.json",
+    "docs/consolidation/2026-10-23/claim_resolution.json",
+    "docs/consolidation/2026-10-23/packaged_evidence_index.dcd18b0c.json",
+    "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+    "docs/consolidation/2026-10-23/preservation_report.45b082d1.json",
+    "docs/consolidation/2026-10-23/preservation_report.dcd18b0c.json",
+    "docs/consolidation/2026-10-23/preservation_report.json",
+    "docs/consolidation/2026-10-23/publication_170_verified.json",
+    "docs/consolidation/2026-10-23/quadratic-pin-originals/f00613b-sources.json",
+    "docs/consolidation/2026-10-23/quadratic_f006_capture.json",
+    "docs/consolidation/2026-10-23/structural_followup_code_audit.json",
+    "docs/consolidation/2026-10-23/structural_followup_frozen.json",
+    "docs/consolidation/2026-10-23/structural_followup_history_receipt.json",
+    "docs/consolidation/2026-10-23/structural_followup_packaging_resolution.json",
+    "docs/consolidation/2026-10-23/structural_followup_retirement_plan.json",
+    "docs/consolidation/2026-10-23/structural_followup_source_provenance.json",
+    "docs/consolidation/2026-10-23/validation/harnesses/audit_structural_followup.py",
+    "docs/consolidation/2026-10-23/validation/harnesses/record_structural_followup_equivalence.py",
+    "docs/consolidation/2026-10-23/validation/harnesses/structural_followup_validation_plan.json",
+    "docs/consolidation/2026-10-23/validation/structural-followup-equivalence.json",
+    "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_after.json.gz",
+    "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_before.json.gz",
+    "docs/consolidation/2026-10-23/validation/structural-followup-plan.json",
+    "docs/consolidation/2026-10-23/validation/structural-followup-source-pins-ledger-links.log.gz",
+    "docs/consolidation/2026-10-23/validation/structural-followup-summary.json",
+    "docs/consolidation/2026-10-23/validation/structural-followup-tree_after.json.gz",
+    "docs/consolidation/2026-10-23/validation/structural-followup-tree_before.json.gz",
+    "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+    "research/claims.json",
+    "results/quadratic-kernel-indices-2026-10-23/controls.json",
+    "tests/test_quadratic_kernel_indices.py"
+  ],
+  "unexpected_changes": [],
+  "source_exact_updated_artifact_checks": {
+    "research/ai/2026-10-23-quadratic-kernel-indices/README.md": true,
+    "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md": true,
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py": true,
+    "results/quadratic-kernel-indices-2026-10-23/controls.json": true,
+    "tests/test_quadratic_kernel_indices.py": true
+  },
+  "unmodified_test_files_checked": 438,
+  "other_test_modules_byte_exact": true,
+  "new_test_methods": [
+    "test_corrupt_minimum_kernel_witness_is_rejected",
+    "test_hankel_left_and_right_kernel_indices",
+    "test_irreducible_saturation_and_nonconstant_low_branch",
+    "test_universal_three_by_three_spectrum_and_integer_blocks"
+  ],
+  "changed_existing_test_methods": [
+    "test_complete_finite_report"
+  ],
+  "all_previous_finite_report_assertions_retained_in_order": true,
+  "only_reviewed_context_pin_repaired_from_source": true,
+  "strict_dependency_pin_checks": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "expected_sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "actual_sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "expected_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6",
+      "actual_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6"
+    }
+  ],
+  "pin_repair_outputs_exact": true,
+  "all_four_original_metadata_readme_blobs_retained": true,
+  "claims_count": 614,
+  "changed_claim_fields": {
+    "AI-QUADRATIC-INDEX-DICHOTOMY-002": [
+      "statement"
+    ],
+    "AI-QUADRATIC-KERNEL-INDICES-001": [
+      "limitations"
+    ]
+  },
+  "both_claim_revisions_match_exact_source": true,
+  "all_claim_status_flags_unchanged": true,
+  "tracked_files_changed_during_inventory": [],
+  "frozen_head_unchanged": true,
+  "clean_tracked_status_after": true,
+  "archive_unchanged": true,
+  "archive_files_hashed": 23,
+  "previous_evidence_files_checked": 133,
+  "changed_previous_evidence_files": [],
+  "source_receipts": [
+    {
+      "path": "/dev/shm/matrix-consolidation-5e4a124ebf61/test_logs_balanced_followup/summary.json",
+      "sha256": "774df00de2f35f13b06cc2a46920cd83d176ca49c9647aaf9bccc1fe3c82778f"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/quadratic_followup/discovery.json",
+      "sha256": "0b61523aff94fda94bfcf2fbb184a61835820c827ee1b0335296fec8dd71a689"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/quadratic_followup/coverage_union.json",
+      "sha256": "c705a49f388beefd4d8c7099e440de9b28ececce89dff043592778852cbdc6c9"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/structural_followup/equivalence.json",
+      "sha256": "142ea16d4a34a21a50f991dbf7368d6a35da7d59374f8b6a60a64dd4076509a2"
+    },
+    {
+      "path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_previous_validation_hashes.json",
+      "sha256": "353ff4062d02d8ecd2e7f2dbe96af1878a14316c21555b2c10c6e7c247a4cd6d"
+    },
+    {
+      "path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_pin_resolution.json",
+      "sha256": "32b89bebd77e74e628bca0704110cdaad049cf6b155921f3c3215906b241e28d"
+    },
+    {
+      "path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_code_audit.json",
+      "sha256": "10fca88eb439bd4bbb01b3df63279aded74cf27c8e393d71e628faf5eb7752db"
+    }
+  ],
+  "scope_caveat": "The complete updated ten-test quadratic module and two repository checks passed. This adds four tests to the prior 1,957-test composite and reruns the modified finite-report assertions and original package regressions. Other test modules and unrelated active content are unchanged. The full final local suite was listed, not freshly executed in one run. Final-head hosted Python matrix, replay and Lean CI remains required; all mathematical review/status flags are preserved.",
+  "passed": true
+}

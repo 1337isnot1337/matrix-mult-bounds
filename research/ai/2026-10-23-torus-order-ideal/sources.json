@@ -1,0 +1,31 @@
+{
+  "base_commit": "ff1d0b635aa27a726abca97da5afb919e6896b1d",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "used_for": "Literal cyclic source and ordinary A4 restriction obstruction."
+    },
+    {
+      "path": "research/ai/2026-10-20-graded-quantum-flags/saturation.md",
+      "sha256": "8d58190fa9995dc040cae9ce8df362639552974533a2c115eecb57694610f19b",
+      "used_for": "Saturated row-lattice argument and matrix-target joint-support inequality at arbitrary Laurent pole order."
+    },
+    {
+      "path": "research/ai/2026-10-23-torus-rank-frontier/proof.md",
+      "sha256": "f1b57540ab043b4c1c130da8a98cd5b1c89895fcd449371a3eb26574b85d8091",
+      "used_for": "Credited torus and monomial rank formula, source caps below ranks16/32/48, and the preceding balanced sum176 theorem."
+    }
+  ],
+  "credited_predecessors": [
+    {
+      "commit": "a284807699bc95e252087b3503b49da483116788",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/122",
+      "path": "research/ai/2026-10-23-regular-leg-frontier/proof.md",
+      "used_for": "Prior compression-kernel strategy and balanced long-rank sum192; credited through the preceding sum176 proof. No PR122 implementation dependency."
+    }
+  ],
+  "attribution": "Owner-directed AI-derived continuation. Prior source, torus, ordinary obstruction and saturated support results retain their earlier credit. New: literal lowering equivariance, a reusable order-ideal reduction, sharp source rank<64 dimension32, and necessary balanced long-rank sum160. No independent external review, formalization, target construction or exponent improvement."
+}

@@ -1,0 +1,115 @@
+{
+  "claim": "AI-FULL-PARTNER-LINE-099",
+  "partner_line": "b=1, every complex a",
+  "generic_exception_polynomial": "a*(a**3-1)",
+  "rank_minors_verified": 79,
+  "generic_rank_conditions_covered": true,
+  "phase": {
+    "order": 3,
+    "source_terms_checked": 4096,
+    "leading_rows_checked": 8,
+    "frame_coefficients_checked": 40,
+    "leg_coordinate_weights": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "parameter_action": "a -> zeta*a, b unchanged, zeta**3=1",
+    "source_automorphism_verified": true
+  },
+  "a_one_source_report_replayed": true,
+  "a_zero": {
+    "partner": {
+      "a": 0,
+      "b": 1
+    },
+    "projection_reductions": [
+      84,
+      48,
+      44
+    ],
+    "initial_source_traces": [
+      {
+        "case": "stable",
+        "dimensions": [
+          54,
+          38,
+          18,
+          16,
+          6
+        ]
+      },
+      {
+        "case": "rank-one-projection",
+        "dimensions": [
+          44,
+          36,
+          32,
+          28,
+          22,
+          18,
+          14,
+          10,
+          8,
+          4,
+          0
+        ]
+      }
+    ],
+    "stable_terminal_traces": [
+      {
+        "case": "stable-AA",
+        "dimensions": [
+          4,
+          0
+        ]
+      },
+      {
+        "case": "stable-AB",
+        "dimensions": [
+          3,
+          2,
+          0
+        ]
+      },
+      {
+        "case": "stable-BA",
+        "dimensions": [
+          3,
+          2,
+          0
+        ]
+      },
+      {
+        "case": "stable-BB",
+        "dimensions": [
+          2,
+          0
+        ]
+      }
+    ],
+    "final_nonplane_dimension": 0,
+    "all_graphs_excluded": true
+  },
+  "all_complex_a_at_b_one_excluded": true,
+  "all_six_graph_parameters_covered": true,
+  "arbitrary_boundary_four_space": true,
+  "extends_to_all_b_nonzero": true,
+  "b_zero_boundary_classified": false,
+  "plane_dimension": 4,
+  "final_nonplane_dimension": 0,
+  "independent_review": false,
+  "improves_omega": false
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "tested_head": "09051627906a47a890e95f8b8640592de2d81158",
+  "tested_tree": "8777cb1f5a6ac4618c07744395272eeee81af188",
+  "total_tests": 867,
+  "groups": [
+    {
+      "group": 0,
+      "tests": 211,
+      "seconds": 1737.624,
+      "passed": true
+    },
+    {
+      "group": 1,
+      "tests": 209,
+      "seconds": 1648.518,
+      "passed": true
+    },
+    {
+      "group": 2,
+      "tests": 223,
+      "seconds": 1731.214,
+      "passed": true
+    },
+    {
+      "group": 3,
+      "tests": 224,
+      "seconds": 1306.439,
+      "passed": true
+    }
+  ],
+  "command": "python tools/test_shard.py --shard-index N --shard-count 4 (N=0,1,2,3)",
+  "new_focused_tests": 4,
+  "existing_source_tests": 7,
+  "existing_projection_tests": 5,
+  "metadata_tests": 18,
+  "archive_replays_passed": 5,
+  "hosted_CI": "queued; not claimed passed",
+  "research_claim_change": false
+}

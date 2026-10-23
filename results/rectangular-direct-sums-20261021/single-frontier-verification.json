@@ -1,0 +1,102 @@
+{
+  "status": "local finite replay receipts, not independent mathematical review",
+  "frontier_tests": {
+    "count": 5,
+    "seconds": 0.832,
+    "result": "passed",
+    "command": "python -m unittest discover -s tests -p test_rectangular_single_frontier.py -v",
+    "log_sha256": "114e70253e947d4f71785473bff8511181b94f608c0d7c6cef5cddded416b4ea"
+  },
+  "integer_hankel_minor_controls": {
+    "count": 25740,
+    "formats": [
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "result": "passed",
+    "command": "python research/ai/2026-10-21-rectangular-direct-sums/single_frontier.py --verify-caps --output /tmp/frontier.json"
+  },
+  "integrated_main_tests": [
+    {
+      "file": "test_mixed_five_space_residues.py",
+      "count": 4,
+      "seconds": 43.53,
+      "result": "passed"
+    },
+    {
+      "file": "test_rankone_mixed_hyperplanes.py",
+      "count": 5,
+      "seconds": 63.964,
+      "result": "passed"
+    },
+    {
+      "file": "test_rectangular_ordinary_frontier.py",
+      "count": 4,
+      "seconds": 0.744,
+      "result": "passed"
+    }
+  ],
+  "main_commit": "2850de41e0628623a92d8f29b62938d791a11e2b",
+  "no_github_ci_claimed": true,
+  "no_exponent_improvement": true,
+  "ruling_update_tests": [
+    {
+      "file": "test_rectangular_single_frontier.py",
+      "count": 5,
+      "seconds": 0.25,
+      "result": "passed",
+      "log_sha256": "0901a65ba8bab6e747affbe3832741d00517f551280ddad51b0b63fb958020c6"
+    },
+    {
+      "file": "test_rectangular_two_ruling.py",
+      "count": 6,
+      "seconds": 0.27,
+      "result": "passed",
+      "log_sha256": "958b87095fffe53541ed25e1aa9a45acd9df751215e8508b39a98d3c3ccf6fc5"
+    },
+    {
+      "file": "test_rectangular_frontier_1500.py",
+      "count": 4,
+      "seconds": 0.285,
+      "result": "passed",
+      "log_sha256": "25fdda4e57ff395537012eae4c759b83652aad2ae954818c45cde66ab09f63af"
+    }
+  ],
+  "extended_integer_cap_controls": {
+    "count": 74360,
+    "formats": [
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        9
+      ]
+    ],
+    "result": "passed",
+    "log_sha256": "bdc64b305118dfe11165237485fdc5bb281b369a6b0a780c3c94bfe3fff8a8f8"
+  }
+}

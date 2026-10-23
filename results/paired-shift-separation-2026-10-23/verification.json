@@ -1,0 +1,28 @@
+{
+  "field": "F_101",
+  "n": 9,
+  "m": 4,
+  "source_first_dimension": 81,
+  "interior_columns": [
+    3,
+    4,
+    5
+  ],
+  "exceptional_columns": {
+    "B": [],
+    "C": []
+  },
+  "bandwidths": {
+    "B": 0,
+    "C": 0
+  },
+  "profile_shift_ranks": [
+    1,
+    2
+  ],
+  "channel_rank_budget": 3,
+  "target_channel_rank": 4,
+  "predicted_flattening_lower_bound": 9,
+  "observed_residual_flattening_rank": 81,
+  "scope": "finite control only; the all-field, all-size claim is proved in proof.md"
+}

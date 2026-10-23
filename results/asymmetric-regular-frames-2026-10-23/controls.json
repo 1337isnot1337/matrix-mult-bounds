@@ -1,0 +1,295 @@
+{
+  "a4_scan": {
+    "boundary_controls": [
+      {
+        "frame_pair": [
+          106,
+          109
+        ],
+        "strict_margins": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "sufficient": false
+      },
+      {
+        "frame_pair": [
+          105,
+          110
+        ],
+        "strict_margins": [
+          0,
+          -1,
+          2,
+          2
+        ],
+        "sufficient": false
+      },
+      {
+        "frame_pair": [
+          110,
+          108
+        ],
+        "strict_margins": [
+          8,
+          7,
+          0,
+          0
+        ],
+        "sufficient": false
+      }
+    ],
+    "examined_pairs": 12100,
+    "minimal_pairs": [
+      [
+        106,
+        110
+      ],
+      [
+        107,
+        109
+      ]
+    ],
+    "registered_range": [
+      [
+        1,
+        110
+      ],
+      [
+        1,
+        110
+      ]
+    ],
+    "sufficient_pairs": [
+      {
+        "frame_pair": [
+          106,
+          110
+        ],
+        "strict_margins": [
+          2,
+          1,
+          2,
+          2
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          107,
+          109
+        ],
+        "strict_margins": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          107,
+          110
+        ],
+        "strict_margins": [
+          4,
+          3,
+          2,
+          2
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          108,
+          109
+        ],
+        "strict_margins": [
+          5,
+          4,
+          1,
+          1
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          108,
+          110
+        ],
+        "strict_margins": [
+          6,
+          5,
+          2,
+          2
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          109,
+          109
+        ],
+        "strict_margins": [
+          7,
+          6,
+          1,
+          1
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          109,
+          110
+        ],
+        "strict_margins": [
+          8,
+          7,
+          2,
+          2
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          110,
+          109
+        ],
+        "strict_margins": [
+          9,
+          8,
+          1,
+          1
+        ],
+        "sufficient": true
+      },
+      {
+        "frame_pair": [
+          110,
+          110
+        ],
+        "strict_margins": [
+          10,
+          9,
+          2,
+          2
+        ],
+        "sufficient": true
+      }
+    ]
+  },
+  "improves_omega": false,
+  "ordinary_rank_floor": 12,
+  "proof_status": "proof-written-unreviewed",
+  "regular_unit_image_threshold": 106,
+  "scope": "Finite rank-budget frontier and matrix identities; frame existence is assumed.",
+  "source_pins": 3,
+  "target_small_slice_rank": 11,
+  "uniformly_included_unit_corank": 4,
+  "unit_corank_alignment_examples": [
+    {
+      "kernel_outside_column_image": 0,
+      "uniform_rank_floor": 7,
+      "unit_corank": 1,
+      "unit_image_rank": 7
+    },
+    {
+      "kernel_outside_column_image": 1,
+      "uniform_rank_floor": 7,
+      "unit_corank": 1,
+      "unit_image_rank": 8
+    },
+    {
+      "kernel_outside_column_image": 0,
+      "uniform_rank_floor": 6,
+      "unit_corank": 2,
+      "unit_image_rank": 6
+    },
+    {
+      "kernel_outside_column_image": 1,
+      "uniform_rank_floor": 6,
+      "unit_corank": 2,
+      "unit_image_rank": 7
+    },
+    {
+      "kernel_outside_column_image": 2,
+      "uniform_rank_floor": 6,
+      "unit_corank": 2,
+      "unit_image_rank": 8
+    },
+    {
+      "kernel_outside_column_image": 0,
+      "uniform_rank_floor": 5,
+      "unit_corank": 3,
+      "unit_image_rank": 5
+    },
+    {
+      "kernel_outside_column_image": 1,
+      "uniform_rank_floor": 5,
+      "unit_corank": 3,
+      "unit_image_rank": 6
+    },
+    {
+      "kernel_outside_column_image": 2,
+      "uniform_rank_floor": 5,
+      "unit_corank": 3,
+      "unit_image_rank": 7
+    },
+    {
+      "kernel_outside_column_image": 0,
+      "uniform_rank_floor": 4,
+      "unit_corank": 4,
+      "unit_image_rank": 4
+    },
+    {
+      "kernel_outside_column_image": 1,
+      "uniform_rank_floor": 4,
+      "unit_corank": 4,
+      "unit_image_rank": 5
+    },
+    {
+      "kernel_outside_column_image": 2,
+      "uniform_rank_floor": 4,
+      "unit_corank": 4,
+      "unit_image_rank": 6
+    }
+  ],
+  "unit_rank_upgrade_examples": [
+    {
+      "limiting_row_rank": 2,
+      "original_right_frame": 1,
+      "regular_column_frame": 2,
+      "source_contraction_minima_asserted": false,
+      "unit_identity_exact": true,
+      "unselected_column_pole": true
+    },
+    {
+      "limiting_row_rank": 3,
+      "original_right_frame": 2,
+      "regular_column_frame": 3,
+      "source_contraction_minima_asserted": false,
+      "unit_identity_exact": true,
+      "unselected_column_pole": true
+    },
+    {
+      "limiting_row_rank": 4,
+      "original_right_frame": 3,
+      "regular_column_frame": 4,
+      "source_contraction_minima_asserted": false,
+      "unit_identity_exact": true,
+      "unselected_column_pole": true
+    },
+    {
+      "limiting_row_rank": 5,
+      "original_right_frame": 4,
+      "regular_column_frame": 5,
+      "source_contraction_minima_asserted": false,
+      "unit_identity_exact": true,
+      "unselected_column_pole": true
+    }
+  ]
+}

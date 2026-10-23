@@ -1,0 +1,129 @@
+{
+  "schema": "matrix-structural-followup-retirement-plan-v1",
+  "prepared_at_utc": "2026-10-23T18:35:00.111721+00:00",
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "scope": {
+    "topic_names": 138,
+    "source_snapshots": 171,
+    "claims": 614,
+    "concurrent_5d_and_434_histories_counted_separately": true
+  },
+  "input_hashes": {
+    "quadratic_80bd_capture.json": "7874f1cc5a41ce34af7f38a270bd71ff0cbd5fb9d8e2143c667928d5432b88b7",
+    "archive_quadratic_80bd.json": "190da2ed6f7ca530880ab0059cc5377da7407fe7c4e534720f1af654d7fffa0f",
+    "quadratic_followup_source_provenance.json": "e758045495eaa3850a0446c4f3fab60c9907b79f7c3218e02b5c156e6bc23d52",
+    "quadratic_followup_retirement_plan.json": "7e882119efa5091b36a27dafeae7cf2eaa864f522af6de0dcc3f71f7e03269e6",
+    "publication_170_verified.json": "021e7f1c000aa6b349974c0b912136118689b5a48b57d6b59ffd58c18f41a2a0",
+    "pr_closure_169_partial.json": "565bd6e8cca5b8ad75335e967262a0ddbfac6fbb3f7806df3a0f02a0f327ad71",
+    "branch_retirement_169_partial.json": "8a28e20eacdf71b1a0892f2fbd09dc2afe69807ccd5f4fc1d408d7fa2ec88ce6",
+    "test_logs/structural_followup/summary.json": "d340bd84c8ed1b5b74f6fa4999fe5d5967af2d70f502d619aec03a7da2cfb78e",
+    "test_logs/structural_followup/equivalence.json": "142ea16d4a34a21a50f991dbf7368d6a35da7d59374f8b6a60a64dd4076509a2",
+    "structural_followup_docs_resolution.json": "308844e93747908d5aaf3aa5bd2311fd475ea693920b22308df7d2f37c8b9ff0"
+  },
+  "source_provenance_file": "structural_followup_source_provenance.json",
+  "source_provenance_sha256": "711b75eba561ef9f7b6200d48cd6a86804fab5c574e9ddf9f22d9c022b882fff",
+  "supersedes_for_remaining_execution": "quadratic_followup_retirement_plan.json",
+  "historical_plans_and_receipts_preserved": true,
+  "replacement_PR": 214,
+  "replacement_branch": "consolidation/all-branches-20261023",
+  "validated_content_head": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+  "captured_current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "known_published_previous_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "cleanup_to_date": {
+    "verified_source_branches_deleted": 131,
+    "verified_source_PRs_closed_as_superseded": 102,
+    "counts_before_partial_receipts": {
+      "source_branches_deleted": 127,
+      "source_PRs_closed_as_superseded": 100
+    },
+    "latest_receipt_increment": {
+      "source_branches_deleted": 4,
+      "source_PRs_closed_as_superseded": 2
+    },
+    "independently_merged_PRs": [
+      215,
+      217
+    ],
+    "independently_merged_PRs_excluded_from_superseded_count": true,
+    "PR218_retired": false
+  },
+  "source_PR_closures": [
+    {
+      "number": 218,
+      "expected_head_sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "head_branch": "research/quadratic-kernel-indices-01a1697d",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_ref": "main",
+      "captured_state": "open",
+      "original_draft": true,
+      "original_auto_merge": null,
+      "original_body_sha256": "728d7e1a3361f016284f9cc3194244a3408dae3bcd7eb98aa8af5785ddf57a9b",
+      "action": "close_as_superseded_by_PR214_only_after_all_preconditions",
+      "original_title": "Classify quadratic biform ranks and exclude rank 13 in the 3-by-3 block"
+    }
+  ],
+  "source_branch_deletions": [
+    {
+      "branch": "research/quadratic-kernel-indices-01a1697d",
+      "expected_sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/80bd2ae6e123",
+      "archive_verified_in_capture": true,
+      "head_PRs_to_resolve_first": [
+        218
+      ],
+      "fresh_head_and_base_PR_inventory_required": true,
+      "action": "delete_with_exact_expected_SHA_lease_only_after_all_preconditions"
+    }
+  ],
+  "ordered_preconditions": [
+    "Publish the reviewed 171-source consolidation head durably; verify the remote consolidation ref, matching integrated archive, and open same-repository PR214 to main. Final-head hosted CI remains required before merging PR214 into main.",
+    "Fetch and verify exact 80bd source archive and the historical c7 and 7ece archives. Verify 80bd and current main ancestry in the exact published consolidation head, and preserve all metadata and source bytes.",
+    "Freshly read PR218, its head/base repository identity, branch ref, state, body, draft and auto-merge metadata; preserve the fresh record. Require exact 80bd head and same-repository main base. Hold any advanced head or new dependency. If already merged, record actual merge rather than superseding.",
+    "Read all open PRs using the source branch as head or base. Close only exact incorporated PR218 as superseded after publication; preserve metadata and verify closure. Any additional unresolved dependency blocks deletion.",
+    "Immediately before deletion, reread source/consolidation/archive refs, PR dependencies, default branch and protection. Exclude main, consolidation, default/protected/foreign branches. If the source is absent, record already absent; if advanced or recreated, retain it.",
+    "Delete only the exact source branch with an atomic Git push and force-with-lease refs/heads/research/quadratic-kernel-indices-01a1697d:80bd2ae6e1231c5fcd6ea1b01684d49e4b496def; preserve request and push outcome before post-network reads.",
+    "Post-verify source absence, exact archives, unchanged consolidation and main refs, and no unresolved open head/base dependencies. Record exact outcomes; never infer successful deletion from a timeout."
+  ],
+  "expected_remaining_actions_if_unchanged": {
+    "source_PR_closures": 1,
+    "source_branch_deletions": 1,
+    "projected_total_superseded_PRs": 103,
+    "projected_total_deleted_source_branches": 132,
+    "projected_totals_are_not_completed_counts": true
+  },
+  "retained_refs": [
+    "main",
+    "consolidation/all-branches-20261023"
+  ],
+  "validation": {
+    "head": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+    "focused_checks_passed": 3,
+    "focused_elapsed_seconds": 2.259,
+    "checks": [
+      "strict source pins",
+      "claim ledger",
+      "relative links"
+    ],
+    "inventory_tests": 1957,
+    "inventory_modules": 438,
+    "inventory_transferred_by_exact_code_and_test_equivalence": true,
+    "authored_executable_test_result_changes": false,
+    "all_613_existing_claims_unchanged": true,
+    "new_claim_id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+    "new_claim_matches_exact_unreviewed_source": true,
+    "summary_receipt": "test_logs/structural_followup/summary.json",
+    "summary_receipt_sha256": "d340bd84c8ed1b5b74f6fa4999fe5d5967af2d70f502d619aec03a7da2cfb78e",
+    "equivalence_receipt": "test_logs/structural_followup/equivalence.json",
+    "equivalence_receipt_sha256": "142ea16d4a34a21a50f991dbf7368d6a35da7d59374f8b6a60a64dd4076509a2",
+    "final_head_hosted_CI_required": true,
+    "scope": "Three focused checks passed. Unchanged 1,957-test / 438-module coverage transfers by exact bytes from the prior composite; this is not one uninterrupted final local full-suite execution."
+  },
+  "remote_mutations_performed": false,
+  "expected_published_171_head": null,
+  "latest_captured_source_moved_since_prior_plan": {
+    "old": "c7b7257bac3c000543de66a27b3485a29589156c",
+    "new": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+    "disposition": "The c7 retirement candidate was held after its head advanced; only exact80bd may be retired after the new publication and fresh checks."
+  }
+}

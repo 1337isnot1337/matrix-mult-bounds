@@ -1,0 +1,76 @@
+{
+  "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+  "baseline_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "review_kind": "Static read-only acceptance audit; no execution",
+  "complete_acceptance_modules": [
+    {
+      "path": "tests/test_aggregation_pruned.py",
+      "tests": 6,
+      "sha256": "35a1aa1feb7aa9af448fe59d73032acef2972ac70aa9242fb53088263a45379f"
+    },
+    {
+      "path": "tests/test_aggregation_rectangular.py",
+      "tests": 5,
+      "sha256": "56f2dd18aead545d603c1275bcf3a05656b683a102e9e862c4eaa73c13ec1fd9"
+    }
+  ],
+  "source_pin_checks": [
+    {
+      "id": "general10",
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "expected_sha256": "1d314e8f246c6455cde622244d0bbae0290a2e58ac635b924f56908767a20de3",
+      "observed_sha256": "1d314e8f246c6455cde622244d0bbae0290a2e58ac635b924f56908767a20de3",
+      "expected_bytes": 852,
+      "observed_bytes": 852,
+      "matches": true
+    },
+    {
+      "id": "general13",
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "expected_sha256": "486d2c5b6d220046f1571f6364f979c5b2e1cdbab758c6c1c95231c61c21dc84",
+      "observed_sha256": "486d2c5b6d220046f1571f6364f979c5b2e1cdbab758c6c1c95231c61c21dc84",
+      "expected_bytes": 1001,
+      "observed_bytes": 1001,
+      "matches": true
+    },
+    {
+      "id": "general22",
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "expected_sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+      "observed_sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+      "expected_bytes": 1523,
+      "observed_bytes": 1523,
+      "matches": true
+    }
+  ],
+  "acceptance_inputs": [
+    "pruned/sources.json",
+    "pruned/sources/general10.txt",
+    "pruned/sources/general13.txt",
+    "pruned/sources/general22.txt",
+    "pruned/discovery/dimension_profiles.json",
+    "pruned/witness.json",
+    "pruned/report.json",
+    "rectangular/certificate.json"
+  ],
+  "dynamic_imports": "Each test module imports only its local verify.py; both implementations use standard-library exact integer/rational arithmetic. No optional package dependency.",
+  "acceptance_hazards": {
+    "network": false,
+    "subprocess": false,
+    "import_time_writes": false,
+    "test_writes": "One source-corruption rejection case writes only inside TemporaryDirectory.",
+    "cli_write_flags": "verify.py writes retained reports/certificates only with explicit --write-report or --write-certificate; ordinary acceptance compares retained bytes."
+  },
+  "excluded_historical_tools": "pruned/validate.py and rectangular/validate.py invoke historical Git/receipt subprocesses and write receipts under main guards. Optional discovery/explore.py and split_auxiliary.py run bounded randomized/modular searches and write results only under main guards; acceptance reads retained dimension_profiles.json but never imports or invokes discovery.",
+  "scope_checks": [
+    "All13,845 source triples and signed grades are checked exactly.",
+    "The all-n polynomial is independently compared with complete direct grids at n=2,3.",
+    "Rejection tests cover external byte corruption, erased scalar grades, removed correction subsets, understated budgets and incomplete shape certificates.",
+    "Full-grid d<=32 and d=33 non-exclusion control, q>=3 full-target rigidity and restricted-target/separated-row counter-controls are retained."
+  ],
+  "repairs_required": [],
+  "tests_executed": false
+}

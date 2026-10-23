@@ -1,0 +1,75 @@
+{
+  "base_commit": "906d97a4e2bbc24c561a620489ff5173e5eb0466",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "discovery": {
+    "command": ".venv/bin/python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --order 15 --allow-third --input results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json --output results/conic-higher-jets-2026-10-23/order-15-discovery.json",
+    "tangent_basis_dimension": 70,
+    "joint_shape": [
+      379,
+      71
+    ],
+    "joint_rank": 50,
+    "order_fifteen_soluble": true,
+    "unadjusted_order_sixteen_residual_entries": 680,
+    "discovery_only": true,
+    "interpretation": "The residual is for the selected order-fifteen coefficient before varying the next tangent and is not an obstruction."
+  },
+  "acceptance": {
+    "command": ".venv/bin/python research/ai/2026-10-23-conic-higher-jets/verify.py results/conic-higher-jets-2026-10-23/rational-fifteen-jet.json --previous results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json --output results/conic-higher-jets-2026-10-23/rational-fifteen-verification.json",
+    "implementation": "Python standard library exact Fraction arithmetic",
+    "source_terms": 4096,
+    "leading_ranks": [
+      14,
+      14,
+      12
+    ],
+    "positive_orders_checked": 15,
+    "moving_kernel_coordinates_per_order": 19600,
+    "preserved_map_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "preserved_source_corrections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "result": "passed"
+  },
+  "focused_tests": {
+    "command": "PYTHONPATH=tests .venv/bin/python -m unittest test_conic_higher_jets.ConicHigherJetTests.test_rational_fifteen_jet_extends_the_fourteenth_jet test_conic_higher_jets.ConicHigherJetTests.test_fifteen_jet_terminal_maps_and_kernel_are_checked test_conic_higher_jets.ConicHigherJetTests.test_fifteen_jet_must_preserve_the_fourteenth_prefix -v",
+    "completed": 3,
+    "passed": 3,
+    "skipped": 0,
+    "seconds": 15.316,
+    "log": "results/conic-higher-jets-2026-10-23/rational-fifteen-tests.log.gz"
+  },
+  "full_repository_suite": "Not run on this incremental checkpoint; required before merge.",
+  "historical_archive_replay": "Not run on this incremental checkpoint; required before merge.",
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

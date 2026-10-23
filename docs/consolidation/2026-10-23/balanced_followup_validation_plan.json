@@ -1,0 +1,22 @@
+{
+  "scope": "Replay the complete updated quadratic package, including all 2,050 source-map controls, four new structural tests and both strict dependency pins; validate the exact source claim revisions and links.",
+  "jobs": [
+    {
+      "name": "quadratic-kernel-complete",
+      "kind": "unittest",
+      "targets": [
+        "test_quadratic_kernel_indices"
+      ],
+      "expected_tests": 10
+    },
+    {
+      "name": "claim-ledger-and-links",
+      "kind": "unittest",
+      "targets": [
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "expected_tests": 2
+    }
+  ]
+}

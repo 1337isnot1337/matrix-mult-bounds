@@ -1,0 +1,464 @@
+{
+  "baseline_head": "65e0c2dde83e2a7150d963aa3abb436350f6ee12",
+  "heads": [
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "source_sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "previous_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "paths": [
+        {
+          "path": "PROVENANCE.md",
+          "kind": "shared_metadata",
+          "before_sha256": "f6ca6d76c11f55cbfcc2d0ad5d09e756677b38133fb4ba52225401151c62fff4",
+          "source_sha256": "6ea675e4b9acb78bed0fc33e0b89fe90efad0caf65a20a5235119dc3aae0f031",
+          "current_sha256": "6080e66bd7bcc619bd0ea147ca7eebdb60fc85ae5de770b80abdeaefdfd1fc63",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "STATUS.md",
+          "kind": "shared_metadata",
+          "before_sha256": "31255ed305fbdfe68304776143d487bd799510e3fc4dfb288f7924e3f1e801cb",
+          "source_sha256": "123da00b71579a0cfe760e6608256ad6921543eb1c790c4dc413c29ad54fbeb9",
+          "current_sha256": "5e3986f41650bb736372c965d47c8acb35a4f5cc0369d49566d1c9030cd1cab3",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/README.md",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": "fbaf5948992416811c0454a9d68105660a48b67e07d0a083bee5bee96524952b",
+          "source_sha256": "c7550a1dc45fccace1ed0c85305ed1f3012191eba737f52925a9cb01d6ef0fcd",
+          "current_sha256": "fbaf5948992416811c0454a9d68105660a48b67e07d0a083bee5bee96524952b",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/cost_floor.json",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": "8447a6cf2337a11c19b259d28c5f6d0a99b819055259e0ddb4d7acf79939de70",
+          "source_sha256": "53e790d03cb44faf4d70656134ec4ffd8769a1c51a5880f19fd0ec04e71dd2f7",
+          "current_sha256": "8447a6cf2337a11c19b259d28c5f6d0a99b819055259e0ddb4d7acf79939de70",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": "d655617ab251e0c27cb44c367a03049360864185f4106633225e41a010be5141",
+          "source_sha256": "2f1dda0a808e516dec635f195e8ebc552204e24e60dd6a69a9493fd40bf52e2c",
+          "current_sha256": "d655617ab251e0c27cb44c367a03049360864185f4106633225e41a010be5141",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/proof.md",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": "6b795cbdc360fbdb2555571a55e9cfab97818f58750fbd37066fc6383fae749e",
+          "source_sha256": "a2e6237342cfdb604e848a8fd48db9ed9a41eac140e4cbb1166bdc4fd5757ac1",
+          "current_sha256": "6b795cbdc360fbdb2555571a55e9cfab97818f58750fbd37066fc6383fae749e",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation.json",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": "f4f4dde1951e8dbed08a974ad7f6b2508882e5c2f91893853ad13c84f6fc2a7d",
+          "source_sha256": "8dcb869082732bae06417b99e1fa44619f5d92e51498fb8fe7f63d0573ae291f",
+          "current_sha256": "f4f4dde1951e8dbed08a974ad7f6b2508882e5c2f91893853ad13c84f6fc2a7d",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/README.md",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "7a71aca5c787b5956a22479dbf440019b40d5773680cea6d511e3772754d5015",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/combined_report.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "3ff5dee5b78f36eacd530ea10c0237b670500d5924c66925990e01a986fc5bb0",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused-receipt.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "4fcb1d81339416c18a12d3b0d7d3a02bd1b8a51a338732c15c56ed3800fd172c",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "50451709aa3e7d96212c1823f68815865c183f9db27be2d929417f2bbfe6b037",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-metadata.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "b8681784ac7f5f60ba53f45cded3a52ab7bb4334e848ddb65db793c3f4fe1bd5",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate_delta_report.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "73c07a6d89c83e557eacc866f5d615b8939e2e32189e0ece95066d6bc425b4df",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/finalize_costgate_delta.py",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "b7d7ddece9459e4d3e0a654a6ecdab0d3909535933638ebf4f8372783f9d00c4",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/finalize_validation.py",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "8fca973d022035d3bd52e51622cc772140ce17a7544bbc6c5206eb4a711415ce",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/focused-tests-frozen.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "bb77ac4274de5982c80a16857273fc3e5ab818dc8b9c3f41197d2884b30f8a28",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/full-tests-prefix.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "eb2861f60e442fe5986ae45455a1437aa9c9004ef469c0655a2b375eea344126",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/plan.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "dac55b94566bd7c8024d223ebb95783bc2e08c10a1fedae88cc63c99e53e090b",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/remaining_tests.py",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "71f5a0a7cdb69ec449f60a6577bc14f9313059698b6a69df09158f51101c9e18",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/replay-preserved.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "38883b941252acfa59bf5a1f1ccc38fafaeead1c651795f2bb49b54ce561bfbb",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "1a9b1de71f960d5b0e84188b4ca330cfb8da987c6cd7b16240beaa48ec7977d8",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "447903ffcc4b044cc63ace03b2948215a54baa8d184867871c9d3a390732024b",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.log",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "206cff8b5fbd2f976f7d65eca3edc8b726e0571236dd249695f0b9cc71d80feb",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/claims.json",
+          "kind": "shared_metadata",
+          "before_sha256": "3b6cf721be650365be333beb9b4b36ed53d8d53b30d021e3acad4b5609b9e7a3",
+          "source_sha256": "9d3a6272e8468266c602c223da2cc45389ec19b853ae582e5dc30d2fdd72d9fb",
+          "current_sha256": "faea72f6c7b3f72c3250ca096ee75899f4ca5dda97d2706429f3d977a0eaffcb",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "tests/test_aggregation_families.py",
+          "kind": "active_acceptance_test",
+          "before_sha256": "8a7d9c4382f9cf76db0f696207d83f60f83542544a940f77026e8352f1ed9ef2",
+          "source_sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
+          "current_sha256": "8a7d9c4382f9cf76db0f696207d83f60f83542544a940f77026e8352f1ed9ef2",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        }
+      ],
+      "test_modules": [
+        {
+          "path": "tests/test_aggregation_families.py",
+          "count": 12,
+          "new_ids": [
+            "AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control"
+          ],
+          "ids": [
+            "AggregationFamilyTests.test_complete_exact_certificate",
+            "AggregationFamilyTests.test_external_baseline_and_uniform_cost_improvement",
+            "AggregationFamilyTests.test_external_source_hash_is_enforced",
+            "AggregationFamilyTests.test_repeated_product_is_rejected",
+            "AggregationFamilyTests.test_missing_required_correction_is_rejected",
+            "AggregationFamilyTests.test_understated_cost_is_rejected",
+            "AggregationFamilyTests.test_actual_rank_one_realization_over_prime_field",
+            "AggregationFamilyTests.test_106_product_complete_exact_certificate",
+            "AggregationFamilyTests.test_106_exact_shifted_cost_comparison",
+            "AggregationFamilyTests.test_106_full_rank_one_positions_over_f2",
+            "AggregationFamilyTests.test_all_size_cost_floor_integer_receipt",
+            "AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control"
+          ]
+        }
+      ],
+      "classification": "authored_cost_floor_extension_and_acceptance_tests_plus_historical_receipts",
+      "claim_changes": [
+        "AI-AGGREGATION-COST-FLOOR-003: extends exclusion through N=10; all evidence flags unchanged"
+      ]
+    },
+    {
+      "branch": "research/conic-projective-global-20261023",
+      "source_sha": "c95b5c3c4ee0fc46cba9060b8ea280106335bf94",
+      "previous_sha": "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+      "paths": [],
+      "test_modules": [],
+      "classification": "history_only_merge_with_identical_tree"
+    },
+    {
+      "branch": "research/laurent-stencil-20261023-ab94",
+      "source_sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "previous_sha": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+      "paths": [
+        {
+          "path": "PROVENANCE.md",
+          "kind": "shared_metadata",
+          "before_sha256": "d4df117a1ddcdecafc1a30a5b10131beeee4a795bf0f7d337738057d5471d5a4",
+          "source_sha256": "e2500cf166ee034692d5bf0b5799959b11cfe1253b50be1926f5a71f87d8292f",
+          "current_sha256": "6080e66bd7bcc619bd0ea147ca7eebdb60fc85ae5de770b80abdeaefdfd1fc63",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "STATUS.md",
+          "kind": "shared_metadata",
+          "before_sha256": "ef9792ac7531644353a9f1be829641ecc61f2a4dd7900812fe216d4c69c5df2a",
+          "source_sha256": "66dda8c66273ece9d869c39604600db0bbb9272faceaf11a8180119355fa9c80",
+          "current_sha256": "5e3986f41650bb736372c965d47c8acb35a4f5cc0369d49566d1c9030cd1cab3",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "docs/research_directions.md",
+          "kind": "shared_metadata",
+          "before_sha256": "7a59e4aa65b8bc73e1351cc3bd9c694e968b5900835d519a85c7a77b00ccf2dd",
+          "source_sha256": "2b4332ecd64895ff44dc3956b224d582304636f11fc0b1cc6f59e2f0afb8fdb5",
+          "current_sha256": "4836b213922a9dfbdcebd51d2e5b50086ed1a5c2f173da2f07af2768d02a79f1",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "kind": "shared_metadata",
+          "before_sha256": "a36ad783307525780ba60c5361f4926c290e58e5be6569d74018f09d8f5f518b",
+          "source_sha256": "bee52bc8cd997d9ed26aba9a258a43d4ee7f4995bdb6d1088f62d9b762776711",
+          "current_sha256": "91cdafa9fdd2495325deebdc03d575764c0d2fd41b97c385f05a63c3e3fd77d4",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "research/ai/2026-10-23-laurent-channel-barrier/README.md",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": "15ebfba834ceb541e619197c0212688d02801c4585b9ec7639a5903f5b24cf9f",
+          "source_sha256": "d3afc81aeff5943ab01a1669179c4e4da7d401f0b86c7fb3ffc96be4800c75e6",
+          "current_sha256": "15ebfba834ceb541e619197c0212688d02801c4585b9ec7639a5903f5b24cf9f",
+          "incoming_addition": false,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-laurent-channel-barrier/rank-margin-sources.json",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": null,
+          "source_sha256": "6bbc11095c7f35a34da020301514ff3e342c322eebe2ccb6cab74cf114ca79c9",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": null,
+          "source_sha256": "bb647998889a07612c9919461eb90bb8f20f038f44a33491894a6dabde4ca036",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py",
+          "kind": "active_python",
+          "before_sha256": null,
+          "source_sha256": "7dc36c89ca45e2d78f981d058ee10520c844a71124e824cd233b77226ec48652",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "research/claims.json",
+          "kind": "shared_metadata",
+          "before_sha256": "db7043edb2c5a7c61c79659789fd7df95409bb6ad0d18959c579320bd493bb16",
+          "source_sha256": "c89a6097895e7ba4b418118b18a03e958f75425d90af4d20c8f0c3687b04ca39",
+          "current_sha256": "faea72f6c7b3f72c3250ca096ee75899f4ca5dda97d2706429f3d977a0eaffcb",
+          "incoming_addition": false,
+          "different_current_and_source_changes": true
+        },
+        {
+          "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-controls.json",
+          "kind": "proof_evidence_or_package_documentation",
+          "before_sha256": null,
+          "source_sha256": "98ad26ef7387e71f9d342b4df23fe12ff9293395fa5af4f5862adbcf0666092a",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-metadata-initial.log.gz",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "dec8b7819690e4c163e5ddfc4189f610eeec9fcd67798b858e9db5d955d66918",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-metadata-tests.log.gz",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "1f9e79da33a78f4b824df948d569c3ee8a63ab7271f2eb64cb5bf4e9321f5d90",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-tests.log.gz",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "9a3f148c17245eb03da2495b42fee18857d12147fa31991d87a2d5a768d66942",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-validation.json",
+          "kind": "historical_validation_receipt_or_harness",
+          "before_sha256": null,
+          "source_sha256": "0ac60bac2400eddabce3848ce740f05ea5b4f1e64eef893d7b4ee8b9dc544fb9",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        },
+        {
+          "path": "tests/test_laurent_rank_margin.py",
+          "kind": "active_acceptance_test",
+          "before_sha256": null,
+          "source_sha256": "496382816e443034f63f835b5e7e0dd10ea8d25f3222f38221ac878d013b0cfc",
+          "current_sha256": null,
+          "incoming_addition": true,
+          "different_current_and_source_changes": false
+        }
+      ],
+      "test_modules": [
+        {
+          "path": "tests/test_laurent_rank_margin.py",
+          "count": 6,
+          "new_ids": [
+            "LaurentRankMarginTests.test_auxiliary_border_rank_really_exceeds_its_first_flattening",
+            "LaurentRankMarginTests.test_complete_saved_control_replay",
+            "LaurentRankMarginTests.test_paired_corollary_keeps_the_two_rank_statements_separate",
+            "LaurentRankMarginTests.test_rank_one_channel_encoding_retains_every_pole",
+            "LaurentRankMarginTests.test_substitution_must_exceed_the_full_local_pole_budget",
+            "LaurentRankMarginTests.test_zero_good_subspace_does_not_create_a_spurious_bound"
+          ],
+          "ids": [
+            "LaurentRankMarginTests.test_complete_saved_control_replay",
+            "LaurentRankMarginTests.test_zero_good_subspace_does_not_create_a_spurious_bound",
+            "LaurentRankMarginTests.test_auxiliary_border_rank_really_exceeds_its_first_flattening",
+            "LaurentRankMarginTests.test_rank_one_channel_encoding_retains_every_pole",
+            "LaurentRankMarginTests.test_substitution_must_exceed_the_full_local_pole_budget",
+            "LaurentRankMarginTests.test_paired_corollary_keeps_the_two_rank_statements_separate"
+          ]
+        }
+      ],
+      "classification": "new_rank_margin_proof_verifier_claim_and_six_acceptance_tests",
+      "pins": [
+        {
+          "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+          "role": "Preceding Laurent channel lemma and paired generic channel factorization; retained as a dependency of this follow-up.",
+          "sha256": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+          "current_sha256": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+          "matches_current": true
+        },
+        {
+          "path": "research/ai/2026-10-23-laurent-channel-barrier/verify.py",
+          "role": "Preceding exact Laurent arithmetic and native-source coefficient controls; reused without modification.",
+          "sha256": "8113d23cc45ee196ac62a81f545f6847fea45a89c538d38ac04cad8dc59e5311",
+          "current_sha256": "8113d23cc45ee196ac62a81f545f6847fea45a89c538d38ac04cad8dc59e5311",
+          "matches_current": true
+        }
+      ]
+    }
+  ],
+  "mutations": false,
+  "test_execution": "No acceptance tests run; targets enumerated from source AST for validation agent."
+}

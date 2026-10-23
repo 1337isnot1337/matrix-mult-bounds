@@ -1,0 +1,221 @@
+{
+  "finite_cases": [
+    {
+      "D": 0,
+      "exact_laurent_coefficient_checks": 1050,
+      "exception_count_lower_bound": 25,
+      "exceptions_b": [],
+      "exceptions_c": [],
+      "finite_specializations": [
+        {
+          "complete_residual_flattening_rank": 36,
+          "field_prime": 101,
+          "t_value": 2
+        },
+        {
+          "complete_residual_flattening_rank": 36,
+          "field_prime": 3,
+          "t_value": 2
+        }
+      ],
+      "generic_channel_rank_cap": 1,
+      "good_p_count": 5,
+      "good_q_count": 5,
+      "good_source_slices": 25,
+      "h": 2,
+      "kernel_dimension_lower_bound": 25,
+      "l": 6,
+      "m": 2,
+      "n": 6,
+      "name": "two_toeplitz_with_poles",
+      "negative_power_coefficients_retained": 300,
+      "r": 6,
+      "variable_b": false,
+      "variable_c": false
+    },
+    {
+      "D": 0,
+      "exact_laurent_coefficient_checks": 4080,
+      "exception_count_lower_bound": 10,
+      "exceptions_b": [],
+      "exceptions_c": [],
+      "finite_specializations": [
+        {
+          "complete_residual_flattening_rank": 49,
+          "field_prime": 101,
+          "t_value": 2
+        },
+        {
+          "complete_residual_flattening_rank": 49,
+          "field_prime": 3,
+          "t_value": 2
+        }
+      ],
+      "generic_channel_rank_cap": 2,
+      "good_p_count": 5,
+      "good_q_count": 5,
+      "good_source_slices": 25,
+      "h": 3,
+      "kernel_dimension_lower_bound": 10,
+      "l": 7,
+      "m": 3,
+      "n": 8,
+      "name": "moving_window_near_full",
+      "negative_power_coefficients_retained": 1400,
+      "r": 7,
+      "variable_b": true,
+      "variable_c": false
+    },
+    {
+      "D": 0,
+      "exact_laurent_coefficient_checks": 13456,
+      "exception_count_lower_bound": 9,
+      "exceptions_b": [],
+      "exceptions_c": [],
+      "finite_specializations": [
+        {
+          "complete_residual_flattening_rank": 49,
+          "field_prime": 101,
+          "t_value": 2
+        },
+        {
+          "complete_residual_flattening_rank": 49,
+          "field_prime": 3,
+          "t_value": 2
+        }
+      ],
+      "generic_channel_rank_cap": 4,
+      "good_p_count": 3,
+      "good_q_count": 3,
+      "good_source_slices": 9,
+      "h": 5,
+      "kernel_dimension_lower_bound": 9,
+      "l": 7,
+      "m": 5,
+      "n": 7,
+      "name": "two_variable_moving_profiles",
+      "negative_power_coefficients_retained": 6960,
+      "r": 7,
+      "variable_b": true,
+      "variable_c": true
+    },
+    {
+      "D": 0,
+      "exact_laurent_coefficient_checks": 1512,
+      "exception_count_lower_bound": 25,
+      "exceptions_b": [
+        0
+      ],
+      "exceptions_c": [
+        0
+      ],
+      "finite_specializations": [
+        {
+          "complete_residual_flattening_rank": 64,
+          "field_prime": 101,
+          "t_value": 2
+        },
+        {
+          "complete_residual_flattening_rank": 64,
+          "field_prime": 3,
+          "t_value": 2
+        }
+      ],
+      "generic_channel_rank_cap": 1,
+      "good_p_count": 6,
+      "good_q_count": 6,
+      "good_source_slices": 36,
+      "h": 2,
+      "kernel_dimension_lower_bound": 36,
+      "l": 8,
+      "m": 2,
+      "n": 8,
+      "name": "nonlocal_column_exceptions",
+      "negative_power_coefficients_retained": 432,
+      "r": 8,
+      "variable_b": false,
+      "variable_c": false
+    },
+    {
+      "D": 1,
+      "exact_laurent_coefficient_checks": 5400,
+      "exception_count_lower_bound": 25,
+      "exceptions_b": [],
+      "exceptions_c": [],
+      "finite_specializations": [
+        {
+          "complete_residual_flattening_rank": 64,
+          "field_prime": 101,
+          "t_value": 2
+        },
+        {
+          "complete_residual_flattening_rank": 64,
+          "field_prime": 3,
+          "t_value": 2
+        }
+      ],
+      "generic_channel_rank_cap": 1,
+      "good_p_count": 5,
+      "good_q_count": 5,
+      "good_source_slices": 25,
+      "h": 2,
+      "kernel_dimension_lower_bound": 25,
+      "l": 8,
+      "m": 2,
+      "n": 8,
+      "name": "nonzero_bandwidth",
+      "negative_power_coefficients_retained": 1275,
+      "r": 8,
+      "variable_b": false,
+      "variable_c": false
+    }
+  ],
+  "formal_controls": {
+    "auxiliary_first_flattening_rank": 2,
+    "auxiliary_rank_one_truncation_breaks_channel_hypothesis": true,
+    "genuine_poles_cancel_in_complete_total": true,
+    "leading_rank_only_countercontrol": {
+      "generic_rank": 2,
+      "leading_rank": 1
+    },
+    "moving_subspace": "V(t)=ker(w0+t*w1)",
+    "moving_subspace_dimension": 2,
+    "primitive_vector": {
+      "input": [
+        "-1",
+        "t^-1",
+        "0"
+      ],
+      "nonzero_constant": [
+        0,
+        1,
+        0
+      ],
+      "normalized": [
+        "-t",
+        "1",
+        "0"
+      ]
+    },
+    "raw_constant_rank_increase": {
+      "constant_rank": 2,
+      "generic_rank": 1
+    }
+  },
+  "improves_omega": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "proof_status": "proof-written-unreviewed",
+  "schema": "laurent-channel-barrier-controls-v1",
+  "scope": "Finite exact controls only; the all-size formal proof is in proof.md.",
+  "source_pins": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "sha256": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968"
+    }
+  ]
+}

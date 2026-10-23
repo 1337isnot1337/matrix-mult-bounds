@@ -1,0 +1,246 @@
+{
+  "schema": "matrix-live-catchup-retirement-plan-v1",
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "source_records": "live_catchup_source_prs_full.json",
+  "prior_plan_preserved": "post217_remaining_retirement_plan.json",
+  "capture_sources": [
+    "live_catchup_root_inventory.json",
+    "live_catchup_heads.json",
+    "archive_live_catchup_tags.json",
+    "post217_source_prs.json"
+  ],
+  "replacement_pr": 214,
+  "main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+  "state": "Plan pending integration and final publication; no mutation authorized by this artifact alone.",
+  "source_PRs": [
+    {
+      "number": 218,
+      "title": "Determine general quadratic biform ranks from minimal kernel degrees",
+      "head_branch": "research/quadratic-kernel-indices-01a1697d",
+      "expected_head_sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft_before_root_hold": true,
+      "original_auto_merge_before_root_hold": null,
+      "disposition": "close_as_superseded_only_after_exact_head_archive_ancestry_and_final_publication_verified"
+    },
+    {
+      "number": 216,
+      "title": "Exhibit identical-resultant three-term cyclic slices of ranks 14 and 15",
+      "head_branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "expected_head_sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft_before_root_hold": false,
+      "original_auto_merge_before_root_hold": {
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "merge_method": "squash",
+        "commit_title": null,
+        "commit_message": null
+      },
+      "disposition": "close_as_superseded_only_after_exact_head_archive_ancestry_and_final_publication_verified"
+    },
+    {
+      "number": 215,
+      "title": "Study full-channel paired maps through overlapping coefficient windows",
+      "head_branch": "research/column-overlap-20261023-ab94",
+      "expected_head_sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft_before_root_hold": false,
+      "original_auto_merge_before_root_hold": {
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "merge_method": "squash",
+        "commit_title": null,
+        "commit_message": null
+      },
+      "disposition": "close_as_superseded_only_after_exact_head_archive_ancestry_and_final_publication_verified"
+    },
+    {
+      "number": 213,
+      "title": "Reduce a full-source two-sided A4 construction to a 46-dimensional compression problem",
+      "head_branch": "research/full-target-reconstruction-20261023-ab94",
+      "expected_head_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft_before_root_hold": false,
+      "original_auto_merge_before_root_hold": {
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "merge_method": "squash",
+        "commit_title": null,
+        "commit_message": null
+      },
+      "disposition": "close_as_superseded_only_after_exact_head_archive_ancestry_and_final_publication_verified"
+    }
+  ],
+  "source_branches": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "expected_sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "protected": false,
+      "head_prs": [
+        215
+      ],
+      "open_base_dependencies": [],
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/9b0bb20a6a89",
+      "archive_verified_in_root_receipt": true,
+      "archive_note": null,
+      "disposition": "candidate_only_after_exact_current_head_is_integrated_validated_and_published"
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "expected_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "protected": false,
+      "head_prs": [
+        213
+      ],
+      "open_base_dependencies": [],
+      "archive_tag": null,
+      "archive_verified_in_root_receipt": false,
+      "archive_note": "Previously captured source; exact archive and ancestor must be rechecked at execution.",
+      "disposition": "candidate_only_after_exact_current_head_is_integrated_validated_and_published"
+    },
+    {
+      "branch": "research/hankel-finite-field-interpolation-01a1697d",
+      "expected_sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "protected": false,
+      "head_prs": [],
+      "open_base_dependencies": [],
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/hankel-finite-field-interpolation-01a1697d/232867536a90",
+      "archive_verified_in_root_receipt": true,
+      "archive_note": null,
+      "disposition": "candidate_only_after_exact_current_head_is_integrated_validated_and_published"
+    },
+    {
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "expected_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "protected": false,
+      "head_prs": [],
+      "open_base_dependencies": [],
+      "archive_tag": null,
+      "archive_verified_in_root_receipt": false,
+      "archive_note": "Previously captured source; exact archive and ancestor must be rechecked at execution.",
+      "disposition": "candidate_only_after_exact_current_head_is_integrated_validated_and_published"
+    },
+    {
+      "branch": "research/quadratic-kernel-indices-01a1697d",
+      "expected_sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "protected": false,
+      "head_prs": [
+        218
+      ],
+      "open_base_dependencies": [],
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/7ecec6ebac9a",
+      "archive_verified_in_root_receipt": true,
+      "archive_note": null,
+      "disposition": "candidate_only_after_exact_current_head_is_integrated_validated_and_published"
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "expected_sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "protected": false,
+      "head_prs": [
+        216
+      ],
+      "open_base_dependencies": [],
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/2f8e35980749",
+      "archive_verified_in_root_receipt": true,
+      "archive_note": null,
+      "disposition": "candidate_only_after_exact_current_head_is_integrated_validated_and_published"
+    }
+  ],
+  "actually_merged": [
+    {
+      "number": 217,
+      "merge_commit_sha": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+      "merged_at": "2026-10-23T18:05:59Z",
+      "source_head_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_branch": "research/top-coefficient-biforms-20261023-t2",
+      "branch_observed_absent": true,
+      "count_as_superseded": false,
+      "deletion_actor": "not established by observed API state"
+    }
+  ],
+  "retained_refs": [
+    "main",
+    "consolidation/all-branches-20261023"
+  ],
+  "execution_requirements": [
+    "Publish a validated replacement head containing current main and every exact candidate source SHA.",
+    "Verify each exact recovery archive, source ancestry and current PR head/base repository identity.",
+    "Re-read all live branch SHAs, protections and open PR head/base dependencies immediately before each retirement action.",
+    "Preserve root temporary-draft receipts separately from original ready/auto-merge metadata; if any branch moves, retain it and its PR pending a new exact-source decision.",
+    "Close matching source PRs as superseded, then atomically delete only dependency-free exact source heads using expected-SHA leases.",
+    "Postverify archives, integration/main refs and absence of unexpected remaining PR dependencies."
+  ],
+  "counts_if_all_current_candidates_retire": {
+    "source_PR_closures": 4,
+    "source_branch_deletions": 6,
+    "already_actually_merged_PRs": 1
+  },
+  "remote_mutations_performed": false
+}

@@ -1,0 +1,50 @@
+{
+  "status": "exact arithmetic control of the written universal pair bounds",
+  "field": "C",
+  "proof": "research/ai/2026-10-23-shared-output-koszul/universal_identifications.md",
+  "source_rank": 2595,
+  "target_intrinsic_rank": 141,
+  "pair_bounds": [
+    {
+      "pair": "E3/E3",
+      "domain_dimension": 42,
+      "kernel_upper_bound": 9,
+      "rank_lower_bound": 33,
+      "count": 45
+    },
+    {
+      "pair": "E3/E2",
+      "domain_dimension": 32,
+      "kernel_upper_bound": 8,
+      "rank_lower_bound": 24,
+      "count": 10
+    },
+    {
+      "pair": "E3/O",
+      "domain_dimension": 34,
+      "kernel_upper_bound": 0,
+      "rank_lower_bound": 34,
+      "count": 20
+    },
+    {
+      "pair": "E2/O",
+      "domain_dimension": 28,
+      "kernel_upper_bound": 1,
+      "rank_lower_bound": 27,
+      "count": 2
+    },
+    {
+      "pair": "O/O",
+      "domain_dimension": 16,
+      "kernel_upper_bound": 0,
+      "rank_lower_bound": 16,
+      "count": 1
+    }
+  ],
+  "target_rank_lower_bound": 2616,
+  "rank_gap_lower_bound": 21,
+  "all_parameter_bounds_justified_by": "written algebraic proof, not finite parameter sampling",
+  "canonical_sharpness_certificate": "results/shared-output-koszul-2026-10-23/certificate.json",
+  "claim_status": "proof-written-unreviewed",
+  "new_exponent_established": false
+}

@@ -1,0 +1,28 @@
+{
+  "output_files": [
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/README.md",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+    }
+  ],
+  "tested_active_head": "9354de63ff9ebb9a0b738d9a8cc88805636fa64d",
+  "metadata_directory": "docs/consolidation/2026-10-23/",
+  "source_receipts": [
+    "test_logs/closure_final/summary.json",
+    "test_logs/closure_final/equivalence.json",
+    "test_logs/postvalidation_catchup/summary.json",
+    "test_logs/postvalidation_catchup/coverage_union.json",
+    "branch_retirement_initial.json",
+    "pr_closure_initial.json"
+  ]
+}

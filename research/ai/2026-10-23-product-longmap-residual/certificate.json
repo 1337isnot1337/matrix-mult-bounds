@@ -1,0 +1,414 @@
+{
+  "claim_id": "AI-PRODUCT-LONGMAP-RESIDUAL-001",
+  "statement": "min rank_A(M-(A tensor B_old tensor C_old)Q)=(n-1)^2-max(9-n,1)^2",
+  "range": "n >= 5; every field of characteristic different from two",
+  "proof_status": "written proof with exact finite replay; not externally reviewed",
+  "scope": {
+    "arbitrary_first_map": true,
+    "two_long_maps_fixed_to_pinned_product_reference": true,
+    "excludes_arbitrary_long_maps": false,
+    "excludes_general_degenerations": false,
+    "improves_omega": false
+  },
+  "rational_direct_cases": [
+    {
+      "n": 5,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 5,
+      "one_factor_target_rank": 4,
+      "one_factor_union_rank": 5,
+      "one_factor_intersection_dimension": 4,
+      "target_first_dimension": 16,
+      "paired_intersection_dimension": 16,
+      "minimum_first_residual_rank": 0,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "one_factor_coefficients_checked": 80,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 25,
+      "direct_paired_union_rank": 25,
+      "direct_old_map_residual_rank": 0,
+      "paired_ambient_dimension": 256
+    },
+    {
+      "n": 6,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 6,
+      "one_factor_target_rank": 5,
+      "one_factor_union_rank": 8,
+      "one_factor_intersection_dimension": 3,
+      "target_first_dimension": 25,
+      "paired_intersection_dimension": 9,
+      "minimum_first_residual_rank": 16,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        1,
+        2,
+        4
+      ],
+      "one_factor_coefficients_checked": 120,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 36,
+      "direct_paired_union_rank": 52,
+      "direct_old_map_residual_rank": 16,
+      "paired_ambient_dimension": 400
+    },
+    {
+      "n": 7,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 7,
+      "one_factor_target_rank": 6,
+      "one_factor_union_rank": 11,
+      "one_factor_intersection_dimension": 2,
+      "target_first_dimension": 36,
+      "paired_intersection_dimension": 4,
+      "minimum_first_residual_rank": 32,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        2,
+        5
+      ],
+      "one_factor_coefficients_checked": 168,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 49,
+      "direct_paired_union_rank": 81,
+      "direct_old_map_residual_rank": 32,
+      "paired_ambient_dimension": 576
+    },
+    {
+      "n": 8,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 8,
+      "one_factor_target_rank": 7,
+      "one_factor_union_rank": 14,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 49,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 48,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        6
+      ],
+      "one_factor_coefficients_checked": 224,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 64,
+      "direct_paired_union_rank": 112,
+      "direct_old_map_residual_rank": 48,
+      "paired_ambient_dimension": 784
+    },
+    {
+      "n": 9,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 9,
+      "one_factor_target_rank": 8,
+      "one_factor_union_rank": 16,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 64,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 63,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        7
+      ],
+      "one_factor_coefficients_checked": 288,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 81,
+      "direct_paired_union_rank": 144,
+      "direct_old_map_residual_rank": 63,
+      "paired_ambient_dimension": 1024
+    },
+    {
+      "n": 10,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 10,
+      "one_factor_target_rank": 9,
+      "one_factor_union_rank": 18,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 81,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 80,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        8
+      ],
+      "one_factor_coefficients_checked": 360,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 100,
+      "direct_paired_union_rank": 180,
+      "direct_old_map_residual_rank": 80,
+      "paired_ambient_dimension": 1296
+    },
+    {
+      "n": 11,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 11,
+      "one_factor_target_rank": 10,
+      "one_factor_union_rank": 20,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 100,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 99,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        9
+      ],
+      "one_factor_coefficients_checked": 440,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 121,
+      "direct_paired_union_rank": 220,
+      "direct_old_map_residual_rank": 99,
+      "paired_ambient_dimension": 1600
+    },
+    {
+      "n": 12,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 12,
+      "one_factor_target_rank": 11,
+      "one_factor_union_rank": 22,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 121,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 120,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        10
+      ],
+      "one_factor_coefficients_checked": 528,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 144,
+      "direct_paired_union_rank": 264,
+      "direct_old_map_residual_rank": 120,
+      "paired_ambient_dimension": 1936
+    },
+    {
+      "n": 16,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 16,
+      "one_factor_target_rank": 15,
+      "one_factor_union_rank": 30,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 225,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 224,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        14
+      ],
+      "one_factor_coefficients_checked": 960,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 256,
+      "direct_paired_union_rank": 480,
+      "direct_old_map_residual_rank": 224,
+      "paired_ambient_dimension": 3600
+    }
+  ],
+  "larger_rational_one_factor_cases": [
+    {
+      "n": 32,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 32,
+      "one_factor_target_rank": 31,
+      "one_factor_union_rank": 62,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 961,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 960,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        30
+      ],
+      "one_factor_coefficients_checked": 3968,
+      "direct_paired_rank_replay": false
+    },
+    {
+      "n": 64,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 64,
+      "one_factor_target_rank": 63,
+      "one_factor_union_rank": 126,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 3969,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 3968,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        62
+      ],
+      "one_factor_coefficients_checked": 16128,
+      "direct_paired_rank_replay": false
+    },
+    {
+      "n": 200,
+      "characteristic": 0,
+      "field": "Q",
+      "one_factor_source_rank": 200,
+      "one_factor_target_rank": 199,
+      "one_factor_union_rank": 398,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 39601,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 39600,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        198
+      ],
+      "one_factor_coefficients_checked": 159200,
+      "direct_paired_rank_replay": false
+    }
+  ],
+  "finite_field_direct_controls": [
+    {
+      "n": 5,
+      "characteristic": 3,
+      "field": "F_3",
+      "one_factor_source_rank": 5,
+      "one_factor_target_rank": 4,
+      "one_factor_union_rank": 5,
+      "one_factor_intersection_dimension": 4,
+      "target_first_dimension": 16,
+      "paired_intersection_dimension": 16,
+      "minimum_first_residual_rank": 0,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "one_factor_coefficients_checked": 80,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 25,
+      "direct_paired_union_rank": 25,
+      "direct_old_map_residual_rank": 0,
+      "paired_ambient_dimension": 256
+    },
+    {
+      "n": 6,
+      "characteristic": 3,
+      "field": "F_3",
+      "one_factor_source_rank": 6,
+      "one_factor_target_rank": 5,
+      "one_factor_union_rank": 8,
+      "one_factor_intersection_dimension": 3,
+      "target_first_dimension": 25,
+      "paired_intersection_dimension": 9,
+      "minimum_first_residual_rank": 16,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        1,
+        2,
+        4
+      ],
+      "one_factor_coefficients_checked": 120,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 36,
+      "direct_paired_union_rank": 52,
+      "direct_old_map_residual_rank": 16,
+      "paired_ambient_dimension": 400
+    },
+    {
+      "n": 8,
+      "characteristic": 3,
+      "field": "F_3",
+      "one_factor_source_rank": 8,
+      "one_factor_target_rank": 7,
+      "one_factor_union_rank": 14,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 49,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 48,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        6
+      ],
+      "one_factor_coefficients_checked": 224,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 64,
+      "direct_paired_union_rank": 112,
+      "direct_old_map_residual_rank": 48,
+      "paired_ambient_dimension": 784
+    },
+    {
+      "n": 12,
+      "characteristic": 3,
+      "field": "F_3",
+      "one_factor_source_rank": 12,
+      "one_factor_target_rank": 11,
+      "one_factor_union_rank": 22,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 121,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 120,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        10
+      ],
+      "one_factor_coefficients_checked": 528,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 144,
+      "direct_paired_union_rank": 264,
+      "direct_old_map_residual_rank": 120,
+      "paired_ambient_dimension": 1936
+    },
+    {
+      "n": 16,
+      "characteristic": 3,
+      "field": "F_3",
+      "one_factor_source_rank": 16,
+      "one_factor_target_rank": 15,
+      "one_factor_union_rank": 30,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 225,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 224,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        14
+      ],
+      "one_factor_coefficients_checked": 960,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 256,
+      "direct_paired_union_rank": 480,
+      "direct_old_map_residual_rank": 224,
+      "paired_ambient_dimension": 3600
+    },
+    {
+      "n": 8,
+      "characteristic": 5,
+      "field": "F_5",
+      "one_factor_source_rank": 8,
+      "one_factor_target_rank": 7,
+      "one_factor_union_rank": 14,
+      "one_factor_intersection_dimension": 1,
+      "target_first_dimension": 49,
+      "paired_intersection_dimension": 1,
+      "minimum_first_residual_rank": 48,
+      "old_first_map_attains_minimum": true,
+      "exact_old_map_outer_indices": [
+        6
+      ],
+      "one_factor_coefficients_checked": 224,
+      "direct_paired_rank_replay": true,
+      "direct_paired_source_rank": 64,
+      "direct_paired_union_rank": 112,
+      "direct_old_map_residual_rank": 48,
+      "paired_ambient_dimension": 784
+    }
+  ]
+}

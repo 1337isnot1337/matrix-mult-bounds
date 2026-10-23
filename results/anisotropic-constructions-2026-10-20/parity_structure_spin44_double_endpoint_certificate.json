@@ -1,0 +1,47 @@
+{
+  "claim_id": "AI-SPIN-DOUBLE-ENDPOINT-121",
+  "source": "A(8,8)",
+  "target": "M(3,3,27)",
+  "arithmetic": "complete Python-integer contraction of actual rational maps",
+  "source_terms_checked": 262144,
+  "all_target_coefficients_checked": 59049,
+  "nonzero_target_coefficients": 243,
+  "all_other_coefficients_zero": true,
+  "map_denominators": [
+    2,
+    1026009600,
+    72
+  ],
+  "sparse_map_entries": [
+    16,
+    8962,
+    2654
+  ],
+  "response_integer_contributions": 7441485,
+  "killed_first_coordinates": [
+    [
+      7,
+      0,
+      7
+    ],
+    [
+      7,
+      2,
+      7
+    ]
+  ],
+  "all_endpoint_response_coefficients_checked": 13122,
+  "full_response_rank_exact": 190,
+  "full_response_kernel_dimension_exact": 770,
+  "fixed_core_first_preimage_dimension_exact": 779,
+  "response_minor_prime": 65521,
+  "response_minor_determinant": 24842,
+  "full_improving_target_constructed": false,
+  "new_exponent_established": false,
+  "external_independent_review": false,
+  "recovery_status": "theorem recovered with fresh exact graph coefficients",
+  "lost_original_maps_sha256": "e2cc86faa681bbaccec8405fafe4d6c1918016f2d024d2c05bc146884cc2ee9f",
+  "maps_sha256": "cd21a881b4d21098a7156b9c65d1b1a6e888854be21c0f2346e76c8351b8fdb2",
+  "witness_sha256": "a3826655cc8251605ab170ffea4e6d8b24695b6efe032b98ab630e4e4e07ce73",
+  "minor_sha256": "ba66aafd5fffb0fc8a70ba3809ec85e13b81965857bff0a857b89f5ea2f1b775"
+}

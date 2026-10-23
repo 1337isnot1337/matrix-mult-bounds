@@ -1,0 +1,47 @@
+{
+  "base_commit": "87d2f3722cea61743de8927122bd9e7bc4be19f9",
+  "field": "C",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-23-long-leg-rank-obstruction/proof.md",
+      "sha256": "922da9dc81f91b36773e119ee5ccc0a7332bce2cee2951123ae371bf4c491c4b"
+    },
+    {
+      "path": "research/ai/2026-10-23-long-leg-rank-obstruction/corank_one.md",
+      "sha256": "14a6fcca84dec020f11fdceaa0b9185130680976330499744dca46e7e9f02724"
+    },
+    {
+      "path": "research/ai/2026-10-23-long-leg-rank-obstruction/sources.json",
+      "sha256": "48f5aad4db333ccf767a57dcb6aae0f37e121caed65df3541e8f1e3f73983165"
+    }
+  ],
+  "rank_gap_prior_commit": "8722b361fde7713949b8f0e72fab681066ce10bd",
+  "inherited_external_dependency": {
+    "author": "A. Grothendieck",
+    "title": "Sur la classification des fibres holomorphes sur la sphere de Riemann",
+    "journal": "American Journal of Mathematics 79(1), 1957, 121-138",
+    "doi": "10.2307/2372388",
+    "theorem": "Theorem 2.1, printed page 126",
+    "hypotheses": "Vector bundles on the complex projective line",
+    "url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
+    "use": "Imported by the prior source slice-rank-gap proof. The continuation adopts that dependency, proof status, and attribution."
+  },
+  "concurrent_kernel_predecessor": {
+    "pr": 113,
+    "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/113",
+    "claims": [
+      "AI-UNIT-KERNEL-LOW-RANK-001",
+      "AI-A4-ONE-REGULAR-LEG-002"
+    ]
+  },
+  "attribution": "Owner-directed OpenAI Codex continuation. The source gap and minimum-locus classification retain prior credit. The elementary rank-one-preserver argument is supplied without a priority claim. Same-session checks are not external independent review."
+}

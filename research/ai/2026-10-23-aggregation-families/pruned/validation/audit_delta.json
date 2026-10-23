@@ -1,0 +1,50 @@
+{
+  "status": "passed_documentation_only_audit_delta",
+  "baseline_commit": "c3107e4b4a12e5b875e01fa180dbbb2ea8c4b66a",
+  "baseline_tree": "0e22e5921956d4f86e204c2f5a6c2192400e146c",
+  "prior_receipt": "report.json",
+  "prior_receipt_sha256": "85049e59100df6a4c86db2db302aabf871ffe23b939525846c9d36170ca11aa5",
+  "expected_tests": 920,
+  "covered_tests": 920,
+  "retained_prior_tests": 918,
+  "fresh_test_ids": [
+    "test_research.RepositoryTests.test_claim_ledger_status",
+    "test_research.RepositoryTests.test_relative_markdown_links"
+  ],
+  "discovered_ids_sha256": "6fad6bf35ddc410f0aeb4cea0b4b56c71563492705b010c5a8f7f15ed701f3de",
+  "all_existing_code_witnesses_and_source_data_unchanged": true,
+  "changed_prior_files": [
+    "research/ai/2026-10-23-aggregation-families/pruned/README.md",
+    "research/ai/2026-10-23-aggregation-families/pruned/proof.md"
+  ],
+  "fresh_metadata_runtime_seconds": 0.083555,
+  "failures": 0,
+  "errors": 0,
+  "skipped_tests": 0,
+  "full_monolithic_run_claimed": false,
+  "mathematical_change": "None; the proof now writes the saved lambda scalings, ambient correction coefficient and regular total explicitly",
+  "same_session_exact_reconstruction": {
+    "reviewer_agent": "proof_boundaries",
+    "scope": "One-off Python here-document parsed pinned raw general22 independently, used integer eta/replication masks and signed grades, intersected three unions of downward-closed support masks, and expanded the exact polynomial in n-1. No verifier import or numerical arithmetic.",
+    "mixed_triples": 10648,
+    "class_counts": {
+      "diagonal": 22,
+      "centered": 8770,
+      "corrected": 884,
+      "positive_grade": 972
+    },
+    "minimum_remaining_grade": 1,
+    "main_polynomial": "4*n*(n+1)^4",
+    "total_polynomial": "4*n^5+32*n^4+102*n^3+158*n^2+118*n+34",
+    "all_nine_shape_counts_agree": true,
+    "artifact_retained": false,
+    "evidence_form": "Reconstruction was executed during the same session and reported in chat; no separate executable artifact was saved",
+    "mathematical_scope_gap_found": false
+  },
+  "independent_mathematical_review": false,
+  "file_sha256": {
+    "research/ai/2026-10-23-aggregation-families/pruned/README.md": "bfa22b95bfd65fe6ad2bbd1de52a424d779eadde690fb061bccfb359c9bc5c9d",
+    "research/ai/2026-10-23-aggregation-families/pruned/proof.md": "038669127bdfaba79ff5e36eec8aa994573f92ddda3e7ddc4376982bf36268ca",
+    "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log": "196101043a603847c7446c00481f431e9200132c1c1c68505d177a82f814301b"
+  }
+}

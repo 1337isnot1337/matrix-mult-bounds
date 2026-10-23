@@ -1,0 +1,28 @@
+{
+  "external_seed": {
+    "path": "research/ai/2026-10-21-external-grid-seed/factors.json",
+    "sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "attribution": "Fawzi et al., AlphaTensor, Nature (2022), externally attributed integer rank-76 M(4,5,5) factorization",
+    "conversion_commit": "b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+    "license": "The existing external-grid-seed/UPSTREAM_LICENSE.txt applies; no license is changed."
+  },
+  "predecessors": [
+    {
+      "path": "research/ai/2026-10-23-gauged-splits/certificate.json",
+      "sha256": "8447ed985ad65192cc6baae7da980c9947efe8774b91394b98060a71a10764e9",
+      "role": "The exact six U replacements and the original physical bases and weights."
+    },
+    {
+      "path": "research/ai/2026-10-23-large-gauged-batches/ten_certificate.json",
+      "sha256": "962157ce07af6d6cd350b85a8d696d0e6ff2edbb54f0767ec1c4962c728d09f2",
+      "role": "The exact ten U replacements, full original discarded remainder, and named five-term block."
+    }
+  ],
+  "local_work": "Owner-directed AI derivation of the tensor reshaping and full-error invariant test, exact minimal-block obstruction, three polynomial continuation certificates, and independent coordinate/matrix replay.",
+  "proof_dependencies": "Elementary tensor flattenings, exact linear algebra, matrix conjugation, and characteristic-zero polynomial identities are proved or explained in README.md. No external invariant-theory theorem is required.",
+  "discovery_not_acceptance": "Exploratory shared-factor flips and numerical weight searches suggested candidate deletions. Neither their numerical status nor scratch files are used in acceptance.",
+  "scope": "The registered minimum five-term block and two named V69 polynomial families only; no exhaustive classification of other refactorizations.",
+  "proof_status": "written-unreviewed",
+  "historical_priority_claimed": false,
+  "improves_omega": false
+}

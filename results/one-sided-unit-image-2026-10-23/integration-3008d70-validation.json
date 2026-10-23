@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "status": "passed",
+      "tests": 18,
+      "wall_seconds": 0.232
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_resolvent_minrank.py -v",
+      "status": "passed",
+      "tests": 5,
+      "wall_seconds": 0.41
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_one_sided_unit_image.py -v",
+      "status": "passed",
+      "tests": 5,
+      "wall_seconds": 2.321
+    }
+  ],
+  "improves_omega": false,
+  "integrated_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "limits": "The previous local baseline full-suite handle and temporary log are no longer present after environment continuation, so no complete local regression is asserted. Current-head hosted full regression remains required. The retained earlier archive receipt covers unchanged archive/replay bytes.",
+  "proof_status": "proof-written-unreviewed",
+  "verified_tree_commit": "3bfe44d303b4ddd8ae8bf47d1259b70c23126563"
+}

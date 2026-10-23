@@ -1,0 +1,22 @@
+{
+  "status": "local test receipts, not independent mathematical review",
+  "full_suite": {
+    "command": "python -m unittest discover -s tests",
+    "tests": 592,
+    "seconds": 1049.719,
+    "result": "passed",
+    "starting_tree": "399b182a4fc1dc2daa1e4915d28324c9c968fc16",
+    "published_commit_with_starting_tree": "bee9663ecd5d84d0ae4bc4e8fb25b68f28d51a3c",
+    "log_sha256": "918d8c8407c6716a6449dcf7306dd03895998c5f9a7530b0bfa8ecc2da466741",
+    "scope_note": "The suite was collected before two later extension tests were added. Those were covered by the separate focused run. Discovery scripts and files added during the suite were not part of this full-suite claim."
+  },
+  "focused_suite": {
+    "command": "python -m unittest discover -s tests -p 'test_asymmetric*.py' -v",
+    "tests": 6,
+    "seconds": 3.823,
+    "result": "passed",
+    "includes": "exact rectangular maps, original source replay, asymmetric pencil, fixed extension and duplicated-spin pencil"
+  },
+  "no_github_ci_claimed": true,
+  "no_exponent_improvement": true
+}

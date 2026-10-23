@@ -1,0 +1,735 @@
+{
+  "scope": "Finite controls for a written all-order rank frontier over C",
+  "proof_status": "proof-written-unreviewed",
+  "independent_review": false,
+  "improves_omega": false,
+  "target_constructed": false,
+  "coordinate_compressions": [
+    {
+      "a": 2,
+      "source_dimension": 12,
+      "regular_ranks": [
+        6,
+        12
+      ],
+      "retained_source_terms": 32,
+      "projected_rank": 8,
+      "kernel_dimension": 4,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "kind": "full_coherent_kernel"
+    },
+    {
+      "a": 2,
+      "source_dimension": 12,
+      "regular_ranks": [
+        10,
+        10
+      ],
+      "retained_source_terms": 39,
+      "projected_rank": 11,
+      "kernel_dimension": 1,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "single_minimum_slice"
+    },
+    {
+      "a": 3,
+      "source_dimension": 45,
+      "regular_ranks": [
+        30,
+        43
+      ],
+      "retained_source_terms": 474,
+      "projected_rank": 36,
+      "kernel_dimension": 9,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ],
+      "kind": "full_coherent_kernel"
+    },
+    {
+      "a": 3,
+      "source_dimension": 45,
+      "regular_ranks": [
+        41,
+        40
+      ],
+      "retained_source_terms": 559,
+      "projected_rank": 44,
+      "kernel_dimension": 1,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "single_minimum_slice"
+    },
+    {
+      "a": 4,
+      "source_dimension": 112,
+      "regular_ranks": [
+        84,
+        110
+      ],
+      "retained_source_terms": 3048,
+      "projected_rank": 96,
+      "kernel_dimension": 16,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ]
+      ],
+      "kind": "full_coherent_kernel"
+    },
+    {
+      "a": 4,
+      "source_dimension": 112,
+      "regular_ranks": [
+        104,
+        104
+      ],
+      "retained_source_terms": 3368,
+      "projected_rank": 111,
+      "kernel_dimension": 1,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "single_minimum_slice"
+    },
+    {
+      "a": 5,
+      "source_dimension": 225,
+      "regular_ranks": [
+        180,
+        223
+      ],
+      "retained_source_terms": 12460,
+      "projected_rank": 200,
+      "kernel_dimension": 25,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          4
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ]
+      ],
+      "kind": "full_coherent_kernel"
+    },
+    {
+      "a": 5,
+      "source_dimension": 225,
+      "regular_ranks": [
+        213,
+        212
+      ],
+      "retained_source_terms": 13528,
+      "projected_rank": 224,
+      "kernel_dimension": 1,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "single_minimum_slice"
+    },
+    {
+      "a": 6,
+      "source_dimension": 396,
+      "regular_ranks": [
+        330,
+        394
+      ],
+      "retained_source_terms": 38820,
+      "projected_rank": 360,
+      "kernel_dimension": 36,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          4
+        ],
+        [
+          2,
+          0,
+          5
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          3,
+          0,
+          5
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          1
+        ],
+        [
+          5,
+          0,
+          2
+        ],
+        [
+          5,
+          0,
+          3
+        ],
+        [
+          5,
+          0,
+          4
+        ],
+        [
+          5,
+          0,
+          5
+        ]
+      ],
+      "kind": "full_coherent_kernel"
+    },
+    {
+      "a": 6,
+      "source_dimension": 396,
+      "regular_ranks": [
+        378,
+        378
+      ],
+      "retained_source_terms": 41337,
+      "projected_rank": 395,
+      "kernel_dimension": 1,
+      "hidden_coordinates": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "single_minimum_slice"
+    }
+  ],
+  "twice_minimum_boundary": [
+    {
+      "a": 2,
+      "matrix_rank": 8,
+      "scalar_hankel_rank": 2,
+      "below_twice_minimum": false
+    },
+    {
+      "a": 3,
+      "matrix_rank": 18,
+      "scalar_hankel_rank": 2,
+      "below_twice_minimum": false
+    },
+    {
+      "a": 4,
+      "matrix_rank": 32,
+      "scalar_hankel_rank": 2,
+      "below_twice_minimum": false
+    },
+    {
+      "a": 5,
+      "matrix_rank": 50,
+      "scalar_hankel_rank": 2,
+      "below_twice_minimum": false
+    },
+    {
+      "a": 6,
+      "matrix_rank": 72,
+      "scalar_hankel_rank": 2,
+      "below_twice_minimum": false
+    }
+  ],
+  "rank_pair_screen": {
+    "long_long": {
+      "rank_pairs_checked": 12321,
+      "pairs_of_total_rank_at_least_193": 406,
+      "excluded_high_pairs": 406,
+      "surviving_high_pairs": []
+    },
+    "short_long": {
+      "rank_pairs_checked": 11211,
+      "pairs_of_total_rank_at_least_193": 171,
+      "excluded_high_pairs": 155,
+      "surviving_high_pairs": [
+        [
+          90,
+          110
+        ],
+        [
+          91,
+          110
+        ],
+        [
+          92,
+          110
+        ],
+        [
+          93,
+          110
+        ],
+        [
+          94,
+          110
+        ],
+        [
+          95,
+          110
+        ],
+        [
+          96,
+          110
+        ],
+        [
+          97,
+          110
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          100,
+          101
+        ],
+        [
+          100,
+          102
+        ],
+        [
+          100,
+          103
+        ],
+        [
+          100,
+          104
+        ],
+        [
+          100,
+          105
+        ],
+        [
+          100,
+          106
+        ],
+        [
+          100,
+          107
+        ]
+      ]
+    }
+  }
+}

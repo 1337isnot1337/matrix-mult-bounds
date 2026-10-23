@@ -1,0 +1,127 @@
+{
+  "baseline": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "checks": [
+    {
+      "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "record": "$.local_dependencies[0]",
+      "path": "research/ai/2026-10-23-conjugation-limit/verify.py",
+      "pin_type": "sha256",
+      "expected": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+      "actual_at_published_baseline": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "record": "$.local_dependencies[1]",
+      "path": "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "pin_type": "sha256",
+      "expected": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+      "actual_at_published_baseline": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "record": "$.local_dependencies[2]",
+      "path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "pin_type": "sha256",
+      "expected": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+      "actual_at_published_baseline": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "record": "$.local_dependencies[3]",
+      "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "pin_type": "sha256",
+      "expected": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+      "actual_at_published_baseline": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "record": "$.local_dependencies[4]",
+      "path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+      "pin_type": "sha256",
+      "expected": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+      "actual_at_published_baseline": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-column-overlap/sources.json",
+      "record": "$.local_dependencies[0]",
+      "path": "research/ai/2026-10-20-paired-sources/research_note.md",
+      "pin_type": "sha256",
+      "expected": "2ac3a99512cf055058e824d1fcd461c3cf65d84f1d5ad92769caba304866d1dd",
+      "actual_at_published_baseline": "2ac3a99512cf055058e824d1fcd461c3cf65d84f1d5ad92769caba304866d1dd",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-column-overlap/sources.json",
+      "record": "$.local_dependencies[1]",
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "pin_type": "sha256",
+      "expected": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+      "actual_at_published_baseline": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-column-overlap/sources.json",
+      "record": "$.prior_work",
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+      "pin_type": "sha256",
+      "expected": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+      "actual_at_published_baseline": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+      "matches": true,
+      "runtime_dependency": false
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "record": "$.prior_local_sources[0]",
+      "path": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+      "pin_type": "git_blob_sha",
+      "expected": "6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+      "actual_at_published_baseline": "6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "record": "$.prior_local_sources[1]",
+      "path": "research/ai/2026-10-21-balanced-puncture-gap/proof.md",
+      "pin_type": "git_blob_sha",
+      "expected": "b58d4c50b78faca9d1c374bb5fa8ecee3803792f",
+      "actual_at_published_baseline": "b58d4c50b78faca9d1c374bb5fa8ecee3803792f",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "record": "$.adopted_main_source",
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "pin_type": "git_blob_sha",
+      "expected": "04d28c6a05027a7756891f47d28327de850a7501",
+      "actual_at_published_baseline": "04d28c6a05027a7756891f47d28327de850a7501",
+      "matches": true,
+      "runtime_dependency": null
+    },
+    {
+      "sources_file": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "record": "$.literal_source",
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "pin_type": "git_blob_sha",
+      "expected": "04d28c6a05027a7756891f47d28327de850a7501",
+      "actual_at_published_baseline": "04d28c6a05027a7756891f47d28327de850a7501",
+      "matches": true,
+      "runtime_dependency": null
+    }
+  ],
+  "total": 12,
+  "all_match": true
+}

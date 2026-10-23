@@ -1,0 +1,74 @@
+{
+  "checkpoint_commit": "79b23815c68cef6c013d4ba54ae37d4d068ae712",
+  "hash_scope": "The file_sha256 values and 12-test coverage record the original public frontier checkpoint; current README, QUESTION and proof pointers may be updated by later additive checkpoints.",
+  "date": "2026-10-23",
+  "evidence_status": "Exact controls and written deductions; same-session cross-agent audit; no external independent review",
+  "command": "python -m unittest discover -s tests -p 'test_mixed_longlegs_*.py' -v",
+  "focused_tests_passed": 12,
+  "reported_test_seconds": "1.133",
+  "coverage": {
+    "shared_A_literal_block_matrices": 30,
+    "degree_one_literal_intrinsic_and_pair_matrices": 44,
+    "source_tail_literal_matrices": 32,
+    "copywise_integer_tuples": 576,
+    "source_balancing_weights": 500,
+    "source_balancing_marginal_coordinates": 245,
+    "higher_B_unsplit_controls": 7,
+    "global_C_degree_one_relations_checked_unsplit": 428,
+    "small_exterior_product_families_checked_for_kernel_and_independence": 4,
+    "shifted_projection_formats_checked": 3,
+    "C_partial_bound_degrees_evaluated": 35
+  },
+  "current_ordinary_Koszul_status": {
+    "A": "All degrees 0 through 4 pass with exactly equal source and target profiles",
+    "B": "All degrees 0 through 99 pass: exact degree 0 through 3 comparisons and a source full-row-rank theorem for degree at least 4",
+    "C": "All degrees 0 through 139 pass by universal maximality of the zero-free source",
+    "canonical_target_scope": "The computed higher B ranks use the frozen canonical first identifications; the C theorem permits arbitrary same-format targets"
+  },
+  "independent_partial_C_bounds": {
+    "kernel_shadow_degrees": [
+      5,
+      6
+    ],
+    "evaluation_cokernel_degrees": [
+      11,
+      39
+    ],
+    "degrees_not_decided_by_these_partial_bounds_alone": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "currently_unresolved_C_degrees": []
+  },
+  "degeneration_constructed": false,
+  "improved_exponent_established": false,
+  "integration_dependencies": [
+    "source_b_koszul.md and source_c_koszul.md are supplied separately by the coordinating agent; their final derivative hashes will be recorded at integration",
+    "Other simultaneous prolongation, Schur, and border-rank notes are outside this frozen frontier checkpoint"
+  ],
+  "file_sha256": {
+    "research/ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md": "b773beb8b7c49446e55ecc2b2ff1ce9211c0e901d6edc3aef06ea489064bf6bb",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/README.md": "a53d2592a66ffd143739c7a788ad3303cf8382953bc492f007d7c20eeaffc4c5",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/claims.json": "6f7b9edf8ed6f59e6bb364ee39262e27bf02c34a416b184d16dde79b1358cf03",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/copywise_dimensions.md": "60053b313def98f0d2eb4c3e9afee3c46b89567a5adb4407c337edd39ebeec4f",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/discovery_input.json": "c53abefde0cb5d5e2e816f96ae6c257ee843f59e6c28d13a6ae1994de9ab88f3",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/higher_note.md": "dfb88c1b851d74fa1ff83d7029ef8d07dc0de1e8c95d7b19dd80806ebdac8963",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/proof.md": "c595b0b886865ec38598ac1edfb0c598712b3fac61de5b9eafee1e8773faac92",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/shadow_note.md": "8f97ba916db5ecec982fcf91dffd0cfd9676f72a9b6c003c73461f8059a5781c",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/source_koszul_tails.md": "4801a387b7030f3d830df9995fb750fc14439dfd90645019b25a2306b2749f8e",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/sources.json": "676fc6f6d3c897fbc6d2625a90258b54cfb897f82176f491c71ea6e39f29f0d1",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify.py": "8559c71afe4fcaaebf537d8a399186fdf1a590d433fd569a4388025a06cf7391",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_higher.py": "2071ea0b0deb909b6e28e66d63fb9b303a63ce89885f94d5a6f281112b6c878e",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_shadow.py": "865b8233f41cd0e6f0114c0bcc266595c937e52688bf6d03d60b111158bf9f57",
+    "results/mixed-longlegs-candidate-2026-10-23/degree_one_certificates.json": "0e373109f26b5c0a1718afd4fabe21b34dfc5d1ba3f26fb9cbc80af81c693de8",
+    "results/mixed-longlegs-candidate-2026-10-23/higher_validation.json": "6baf4ea9a44dc6532f5985b0ec41dc52d9146d955b2bc62fb7f66c24d35e27da",
+    "results/mixed-longlegs-candidate-2026-10-23/higher_verification.json": "f081849cb102dc1fa736bb0034b3d84825cd9d88d3bf476c53a32cca697859e4",
+    "results/mixed-longlegs-candidate-2026-10-23/shadow_verification.json": "72f3a84a0dbf978f6050bb627ea883e0d7219494070e5f37468192896affede1",
+    "results/mixed-longlegs-candidate-2026-10-23/verification.json": "6df71622dffe965d128968411502ac7dfb22eb09398094be3e70997f2a2ec4c5",
+    "tests/test_mixed_longlegs_candidate.py": "dc6e5c6d7eea5d63dede5813f1d51fc37d4d9ec305aced2791435f3510c6cc20",
+    "tests/test_mixed_longlegs_higher.py": "35a994b64eb405613f0982602c901fff465bfd872cf4f57c93be7fb48047fc2f",
+    "tests/test_mixed_longlegs_shadow.py": "90c917836da47f72bfb3ad9aef60decb4d15b16419a75ec42fde6bbc9c708313"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "a4_long_limit_cases": [
+    {
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 110,
+      "minimum_cone_applies": true,
+      "nonzero_lift_margin": 12,
+      "source_rank_cap": 15,
+      "source_ruling_dimension_bound": 4,
+      "target_ruling_dimension": 10
+    },
+    {
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 109,
+      "minimum_cone_applies": true,
+      "nonzero_lift_margin": 11,
+      "source_rank_cap": 16,
+      "source_ruling_dimension_bound": 4,
+      "target_ruling_dimension": 10
+    },
+    {
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 108,
+      "minimum_cone_applies": true,
+      "nonzero_lift_margin": 10,
+      "source_rank_cap": 17,
+      "source_ruling_dimension_bound": 4,
+      "target_ruling_dimension": 10
+    },
+    {
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 107,
+      "minimum_cone_applies": true,
+      "nonzero_lift_margin": 9,
+      "source_rank_cap": 18,
+      "source_ruling_dimension_bound": 4,
+      "target_ruling_dimension": 10
+    },
+    {
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 106,
+      "minimum_cone_applies": true,
+      "nonzero_lift_margin": 8,
+      "source_rank_cap": 19,
+      "source_ruling_dimension_bound": 4,
+      "target_ruling_dimension": 10
+    },
+    {
+      "excluded_by_this_criterion": false,
+      "long_limit_rank": 105,
+      "minimum_cone_applies": false,
+      "nonzero_lift_margin": 7,
+      "source_rank_cap": 20,
+      "source_ruling_dimension_bound": null,
+      "target_ruling_dimension": 10
+    },
+    {
+      "excluded_by_this_criterion": false,
+      "long_limit_rank": 104,
+      "minimum_cone_applies": false,
+      "nonzero_lift_margin": 6,
+      "source_rank_cap": 21,
+      "source_ruling_dimension_bound": null,
+      "target_ruling_dimension": 10
+    }
+  ],
+  "first_gap_source_witness": {
+    "coefficients": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    "inside_minimum_cone": false,
+    "slice_rank": 20
+  },
+  "improves_omega": false,
+  "independent_review": false,
+  "individual_rank_negative_control": {
+    "compatible_with_common_rank_one_projector": false,
+    "individual_ranks": [
+      1,
+      1
+    ],
+    "joint_rank": 2
+  },
+  "minimum_source_ruling": [
+    {
+      "slice_rank": 16,
+      "varying_outer_vector": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "slice_rank": 16,
+      "varying_outer_vector": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "slice_rank": 16,
+      "varying_outer_vector": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "slice_rank": 16,
+      "varying_outer_vector": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "slice_rank": 16,
+      "varying_outer_vector": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "slice_rank": 16,
+      "varying_outer_vector": [
+        1,
+        -2,
+        3,
+        -4
+      ]
+    }
+  ],
+  "proof_status": "proof-written-unreviewed",
+  "scope": "Finite exact controls; all-order ruling proof is written and unreviewed.",
+  "shared_corrections": [
+    {
+      "constant_joint_rank": 1,
+      "individual_rank_bound": 1,
+      "joint_rank": 1,
+      "long_defect": 1,
+      "target_generators": 4,
+      "unit_image_rank": 3
+    },
+    {
+      "constant_joint_rank": 1,
+      "individual_rank_bound": 1,
+      "joint_rank": 1,
+      "long_defect": 1,
+      "target_generators": 4,
+      "unit_image_rank": 2
+    },
+    {
+      "constant_joint_rank": 1,
+      "individual_rank_bound": 1,
+      "joint_rank": 1,
+      "long_defect": 1,
+      "target_generators": 4,
+      "unit_image_rank": 0
+    },
+    {
+      "constant_joint_rank": 2,
+      "individual_rank_bound": 2,
+      "joint_rank": 2,
+      "long_defect": 2,
+      "target_generators": 4,
+      "unit_image_rank": 3
+    },
+    {
+      "constant_joint_rank": 2,
+      "individual_rank_bound": 2,
+      "joint_rank": 2,
+      "long_defect": 2,
+      "target_generators": 4,
+      "unit_image_rank": 2
+    },
+    {
+      "constant_joint_rank": 2,
+      "individual_rank_bound": 2,
+      "joint_rank": 2,
+      "long_defect": 2,
+      "target_generators": 4,
+      "unit_image_rank": 0
+    },
+    {
+      "constant_joint_rank": 3,
+      "individual_rank_bound": 3,
+      "joint_rank": 3,
+      "long_defect": 3,
+      "target_generators": 4,
+      "unit_image_rank": 3
+    },
+    {
+      "constant_joint_rank": 3,
+      "individual_rank_bound": 3,
+      "joint_rank": 3,
+      "long_defect": 3,
+      "target_generators": 4,
+      "unit_image_rank": 2
+    },
+    {
+      "constant_joint_rank": 3,
+      "individual_rank_bound": 3,
+      "joint_rank": 3,
+      "long_defect": 3,
+      "target_generators": 4,
+      "unit_image_rank": 0
+    }
+  ],
+  "source_pin_count": 2,
+  "target_rulings": [
+    {
+      "image_dimension": 2,
+      "matrix_size": 2,
+      "multiplicity": 1,
+      "ruling_dimension": 2
+    },
+    {
+      "image_dimension": 2,
+      "matrix_size": 2,
+      "multiplicity": 2,
+      "ruling_dimension": 2
+    },
+    {
+      "image_dimension": 2,
+      "matrix_size": 2,
+      "multiplicity": 3,
+      "ruling_dimension": 2
+    },
+    {
+      "image_dimension": 3,
+      "matrix_size": 3,
+      "multiplicity": 1,
+      "ruling_dimension": 3
+    },
+    {
+      "image_dimension": 3,
+      "matrix_size": 3,
+      "multiplicity": 2,
+      "ruling_dimension": 3
+    },
+    {
+      "image_dimension": 3,
+      "matrix_size": 3,
+      "multiplicity": 3,
+      "ruling_dimension": 3
+    },
+    {
+      "image_dimension": 4,
+      "matrix_size": 4,
+      "multiplicity": 1,
+      "ruling_dimension": 4
+    },
+    {
+      "image_dimension": 4,
+      "matrix_size": 4,
+      "multiplicity": 2,
+      "ruling_dimension": 4
+    },
+    {
+      "image_dimension": 4,
+      "matrix_size": 4,
+      "multiplicity": 3,
+      "ruling_dimension": 4
+    },
+    {
+      "image_dimension": 5,
+      "matrix_size": 5,
+      "multiplicity": 1,
+      "ruling_dimension": 5
+    },
+    {
+      "image_dimension": 5,
+      "matrix_size": 5,
+      "multiplicity": 2,
+      "ruling_dimension": 5
+    },
+    {
+      "image_dimension": 5,
+      "matrix_size": 5,
+      "multiplicity": 3,
+      "ruling_dimension": 5
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "mode": "binary",
+  "max_sum": 11,
+  "seed": 20261020,
+  "cases_tested": 12976,
+  "elapsed_seconds": 0.6866953769999782,
+  "best": {
+    "a": 2,
+    "b": 2,
+    "x_weights": [
+      0,
+      0
+    ],
+    "y_weights": [
+      0,
+      0
+    ],
+    "z_weights": [
+      0,
+      0,
+      0
+    ],
+    "blocks": [
+      {
+        "kind": "convolution",
+        "a": 2,
+        "b": 2,
+        "output_axis": 2,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          2,
+          3
+        ]
+      }
+    ],
+    "ratio_float": 1.0,
+    "source_exact": "10/3",
+    "target_exact": "10/3",
+    "violation_exact": false
+  },
+  "best_nontrivial": {
+    "a": 2,
+    "b": 4,
+    "x_weights": [
+      0,
+      0
+    ],
+    "y_weights": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "z_weights": [
+      0,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "blocks": [
+      {
+        "kind": "convolution",
+        "a": 1,
+        "b": 2,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "convolution",
+        "a": 2,
+        "b": 1,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          true,
+          false
+        ],
+        "dimensions": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "kind": "convolution",
+        "a": 1,
+        "b": 2,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          1,
+          2
+        ]
+      }
+    ],
+    "ratio_float": 1.0,
+    "source_exact": "6",
+    "target_exact": "6",
+    "violation_exact": false
+  },
+  "exact_witnesses": [],
+  "scope": "Exact scoring of the specified finite integer-weight arrays only. Unrecognized blocks use a valid slice lower bound."
+}

@@ -1,0 +1,90 @@
+{
+  "status": "passed_combined_exact_coverage_with_costgate_delta",
+  "construction_receipt": "combined_report.json",
+  "construction_tests": 908,
+  "costgate_source_commit": "7636f7a4b1c84032a32ea03cb17b33b50ebeb7e5",
+  "costgate_source_tree": "7a0366ec53aa96e44f1c1a3073fd3a04a01a6c88",
+  "applied_commit_before_documentation_and_receipt_updates": "da2dda0b104b2b2ee76a51d1eff352a4687442e0",
+  "applied_tree_before_documentation_and_receipt_updates": "52ac69e59beac41d17aabae4958d1335c49e0c92",
+  "focused_code_equivalence_verified": true,
+  "differences_from_focused_code_commit": [
+    "research/ai/2026-10-23-aggregation-families/README.md",
+    "research/ai/2026-10-23-aggregation-families/proof.md",
+    "research/ai/2026-10-23-aggregation-families/validation.json",
+    "research/ai/2026-10-23-aggregation-families/validation/README.md",
+    "research/ai/2026-10-23-aggregation-families/validation/combined_report.json",
+    "research/ai/2026-10-23-aggregation-families/validation/finalize_validation.py",
+    "research/ai/2026-10-23-aggregation-families/validation/focused-tests-frozen.log",
+    "research/ai/2026-10-23-aggregation-families/validation/full-tests-prefix.log",
+    "research/ai/2026-10-23-aggregation-families/validation/plan.json",
+    "research/ai/2026-10-23-aggregation-families/validation/remaining_tests.py",
+    "research/ai/2026-10-23-aggregation-families/validation/replay-preserved.log",
+    "research/ai/2026-10-23-aggregation-families/validation/shard-0.json",
+    "research/ai/2026-10-23-aggregation-families/validation/shard-0.log",
+    "research/ai/2026-10-23-aggregation-families/validation/shard-1.json",
+    "research/ai/2026-10-23-aggregation-families/validation/shard-1.log"
+  ],
+  "expected_tests": 909,
+  "covered_tests": 909,
+  "retained_unchanged_tests": 895,
+  "replaced_prior_ids": [
+    "test_aggregation_families.AggregationFamilyTests.test_106_exact_shifted_cost_comparison",
+    "test_aggregation_families.AggregationFamilyTests.test_106_full_rank_one_positions_over_f2",
+    "test_aggregation_families.AggregationFamilyTests.test_106_product_complete_exact_certificate",
+    "test_aggregation_families.AggregationFamilyTests.test_actual_rank_one_realization_over_prime_field",
+    "test_aggregation_families.AggregationFamilyTests.test_all_size_cost_floor_integer_receipt",
+    "test_aggregation_families.AggregationFamilyTests.test_complete_exact_certificate",
+    "test_aggregation_families.AggregationFamilyTests.test_external_baseline_and_uniform_cost_improvement",
+    "test_aggregation_families.AggregationFamilyTests.test_external_source_hash_is_enforced",
+    "test_aggregation_families.AggregationFamilyTests.test_missing_required_correction_is_rejected",
+    "test_aggregation_families.AggregationFamilyTests.test_repeated_product_is_rejected",
+    "test_aggregation_families.AggregationFamilyTests.test_understated_cost_is_rejected",
+    "test_research.RepositoryTests.test_claim_ledger_status",
+    "test_research.RepositoryTests.test_relative_markdown_links"
+  ],
+  "final_focused_ids": [
+    "test_aggregation_families.AggregationFamilyTests.test_106_exact_shifted_cost_comparison",
+    "test_aggregation_families.AggregationFamilyTests.test_106_full_rank_one_positions_over_f2",
+    "test_aggregation_families.AggregationFamilyTests.test_106_product_complete_exact_certificate",
+    "test_aggregation_families.AggregationFamilyTests.test_actual_rank_one_realization_over_prime_field",
+    "test_aggregation_families.AggregationFamilyTests.test_all_size_cost_floor_integer_receipt",
+    "test_aggregation_families.AggregationFamilyTests.test_complete_exact_certificate",
+    "test_aggregation_families.AggregationFamilyTests.test_external_baseline_and_uniform_cost_improvement",
+    "test_aggregation_families.AggregationFamilyTests.test_external_source_hash_is_enforced",
+    "test_aggregation_families.AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control",
+    "test_aggregation_families.AggregationFamilyTests.test_missing_required_correction_is_rejected",
+    "test_aggregation_families.AggregationFamilyTests.test_repeated_product_is_rejected",
+    "test_aggregation_families.AggregationFamilyTests.test_understated_cost_is_rejected"
+  ],
+  "final_metadata_ids": [
+    "test_research.RepositoryTests.test_claim_ledger_status",
+    "test_research.RepositoryTests.test_relative_markdown_links"
+  ],
+  "added_test_ids": [
+    "test_aggregation_families.AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control"
+  ],
+  "coverage_sets_pairwise_disjoint": true,
+  "coverage_union_equals_final_discovery": true,
+  "discovered_ids_sha256": "39f0c3190a6c81b79aa540f0586c92c2a03b37f5894484a063006240f7131517",
+  "failures": 0,
+  "errors": 0,
+  "skipped_tests": 0,
+  "focused_runtime_seconds": 41.322,
+  "metadata_runtime_seconds": 0.152,
+  "metadata_command": "python -m unittest discover -s tests -p test_research.py -k test_claim_ledger_status -k test_relative_markdown_links -v",
+  "full_monolithic_run_claimed": false,
+  "scope": "The prior 908-case receipt supplies 895 unchanged cases after excluding its eleven aggregation cases and its ledger/link checks. The complete final twelve-case aggregation module and two final metadata tests replace those cases. Their disjoint union equals all 909 currently discovered IDs. The cost-gate focused pass used code matching 7636f7a; all differences in the applied tree are validation evidence and documentation. Final proof and README edits were present for the metadata checks. No other baseline implementation, test source, or construction witness changed.",
+  "final_markdown_sha256": {
+    "research/ai/2026-10-23-aggregation-families/README.md": "c7550a1dc45fccace1ed0c85305ed1f3012191eba737f52925a9cb01d6ef0fcd",
+    "research/ai/2026-10-23-aggregation-families/proof.md": "a2e6237342cfdb604e848a8fd48db9ed9a41eac140e4cbb1166bdc4fd5757ac1",
+    "research/ai/2026-10-23-aggregation-families/validation/README.md": "7a71aca5c787b5956a22479dbf440019b40d5773680cea6d511e3772754d5015"
+  },
+  "file_sha256": {
+    "costgate-focused.log": "50451709aa3e7d96212c1823f68815865c183f9db27be2d929417f2bbfe6b037",
+    "costgate-focused-receipt.json": "4fcb1d81339416c18a12d3b0d7d3a02bd1b8a51a338732c15c56ed3800fd172c",
+    "costgate-metadata.log": "b8681784ac7f5f60ba53f45cded3a52ab7bb4334e848ddb65db793c3f4fe1bd5",
+    "finalize_costgate_delta.py": "b7d7ddece9459e4d3e0a654a6ecdab0d3909535933638ebf4f8372783f9d00c4"
+  },
+  "preserved_interrupted_log_terminal_space": true,
+  "independent_mathematical_review": false
+}

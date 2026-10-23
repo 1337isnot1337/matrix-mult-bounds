@@ -31,6 +31,10 @@ python -m unittest discover -s tests -p test_column_overlap.py -v
 
 The retained report is
 [controls.json](../../../results/column-overlap-2026-10-23/controls.json).
+The [validation note](VALIDATION.md) records a historical 903-test evidence
+union for checkpoint `b0ccaa3`. Integrated main `6e11f7c` has 906 discovered
+tests; its separate receipt records fresh acceptance of the six focused
+tests and 18 shared checks. Neither receipt claims a fresh full regression.
 The [source pins](sources.json) identify imported conventions and the
 earlier Laurent normalization argument. This is owner-directed OpenAI
 Codex work, written and unreviewed. No improved exponent is claimed.

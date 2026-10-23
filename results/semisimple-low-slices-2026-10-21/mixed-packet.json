@@ -1,0 +1,230 @@
+{
+  "map": {
+    "parent_torus_indices": [
+      0,
+      1,
+      4
+    ],
+    "selected_first_family": [
+      2,
+      65,
+      156,
+      174,
+      266,
+      302,
+      394,
+      412
+    ],
+    "first_family_potentials": [
+      -6,
+      -3,
+      -4,
+      -8,
+      -2,
+      -1,
+      -7,
+      -5
+    ],
+    "forward_integer_matrix": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "backward_integer_numerator_matrix": [
+      [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ]
+    ],
+    "backward_denominator": 2
+  },
+  "coefficient_replay": {
+    "raw_integer_contributions": 20736,
+    "negative_exponent_contributions_before_cancellation": 9072,
+    "surviving_coefficient_numerators": [
+      2
+    ],
+    "surviving_exponent_counts": {
+      "0": 648,
+      "1": 567
+    },
+    "intended_terms": 648,
+    "extra_terms_at_exponent_one": 567,
+    "identity": "T_mixed(epsilon)=T_matrix+epsilon*T_extra",
+    "verified": true
+  },
+  "proof_status": "explicit mixed local Laurent degeneration; written, unreviewed",
+  "scope": "One local M(8,9,9) packet. The gauge preserves the parent tensor; no simultaneous target is constructed.",
+  "improves_omega": false
+}

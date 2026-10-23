@@ -1,0 +1,69 @@
+{
+  "claim": "AI-ALL-RANKONE-SEVEN-FIVE-101",
+  "endpoint": {
+    "partners": {
+      "u": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "complete_normal_dimension": 88,
+    "initial_source_coefficient_rows": 42,
+    "quotient_dimensions": [
+      84,
+      68,
+      56,
+      50,
+      48,
+      46,
+      38,
+      36,
+      20,
+      16,
+      12,
+      10,
+      4,
+      0
+    ],
+    "added_coordinate_sources": 28,
+    "final_nonplane_dimension": 0,
+    "plane_dimension": 4,
+    "all_mixed_graphs_covered": true,
+    "arbitrary_boundary_four_space": true
+  },
+  "reversal": {
+    "source_terms_checked": 4096,
+    "source_coordinate_permutation": 112,
+    "leading_rows_preserved": 4,
+    "mixed_rows_checked": 8,
+    "mixed_action": "(v0,v1,v2,v3) -> (v3,v2,v1,v0)",
+    "exchanges_projective_endpoints": true
+  },
+  "adopted_affine_claim": "AI-AFFINE-PARTNER-CHART-100",
+  "affine_chart_verifier_replayed_here": false,
+  "coverage": [
+    "v3 nonzero: affine chart",
+    "v0 nonzero: source reversal",
+    "v0=v3=0: the two reversed coordinate endpoints"
+  ],
+  "all_projective_rankone_partners_excluded_under_adopted_claims": true,
+  "first_space_dimensions": [
+    7,
+    5
+  ],
+  "canonical_leading_flags_required": true,
+  "arbitrary_later_regular_maps": true,
+  "delayed_unequal_orders": true,
+  "laurent_first_leg": true,
+  "smaller_first_spaces_classified": false,
+  "independent_review": false,
+  "improves_omega": false
+}

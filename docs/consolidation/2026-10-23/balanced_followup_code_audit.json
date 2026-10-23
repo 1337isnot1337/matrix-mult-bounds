@@ -1,0 +1,95 @@
+{
+  "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "previous_source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+  "passing_comparison_head": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+  "recorded_at": "2026-10-23T18:41:38.618903+00:00",
+  "authored_changed_paths": [
+    "STATUS.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+    "research/claims.json",
+    "results/quadratic-kernel-indices-2026-10-23/controls.json",
+    "tests/test_quadratic_kernel_indices.py"
+  ],
+  "reviewed_executable_paths": [
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+    "tests/test_quadratic_kernel_indices.py"
+  ],
+  "runtime_imports": [
+    "argparse",
+    "collections",
+    "fractions",
+    "itertools",
+    "json",
+    "pathlib",
+    "random"
+  ],
+  "new_runtime_dependencies": [],
+  "network_or_subprocess_calls": false,
+  "import_time_writes": false,
+  "discovery_required": false,
+  "explicit_output_cli_unchanged_and_not_used_by_tests": true,
+  "changed_existing_verifier_functions": [
+    "census",
+    "rank",
+    "report"
+  ],
+  "new_verifier_functions": [
+    "echelon",
+    "inspect_kernel",
+    "integer_determinant",
+    "kernel_vector",
+    "multiply",
+    "polynomial_matrix_coefficients",
+    "spectrum_controls",
+    "structural_controls"
+  ],
+  "rank_elimination_body_preserved": true,
+  "executable_review": "The former rank routine now returns echelon pivots to a small rank wrapper and deterministic back-substitution. New code checks exact recurrence residuals, polynomial Hankel minors and coefficient maps, bounded left/right nullities, structural controls, and fraction-free integer determinants. All loops use fixed finite controls; no network, subprocess or automatic file output was added.",
+  "local_transitive_import_or_pin_references": [
+    "45b082d12e2d0e36a1c542899000b192cdcc1bb7:tests/test_quadratic_kernel_indices.py"
+  ],
+  "changed_existing_test_methods": [
+    "test_complete_finite_report"
+  ],
+  "new_test_ids": [
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_corrupt_minimum_kernel_witness_is_rejected",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_hankel_left_and_right_kernel_indices",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_irreducible_saturation_and_nonconstant_low_branch",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_universal_three_by_three_spectrum_and_integer_blocks"
+  ],
+  "all_package_test_ids": [
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_common_factor_does_not_change_indices_or_source_rank",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_complete_finite_report",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_corrupt_minimum_kernel_witness_is_rejected",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_hankel_left_and_right_kernel_indices",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_irreducible_saturation_and_nonconstant_low_branch",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_literal_source_coefficient_corruption_is_detected",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_missing_endpoints_and_constant_triples",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pinned_source_bytes",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pr216_splittings_and_full_kernel_dimensions",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_universal_three_by_three_spectrum_and_integer_blocks"
+  ],
+  "retained_source_maps": {
+    "prior": 2010,
+    "new_structural": 24,
+    "new_spectrum": 16,
+    "total": 2050
+  },
+  "expected_focused_tests": 12,
+  "expected_inventory": {
+    "tests": 1961,
+    "modules": 438,
+    "added_tests": 4,
+    "removed_tests": 0
+  },
+  "expected_claims": 614,
+  "source_claim_revisions": [
+    "AI-QUADRATIC-KERNEL-INDICES-001",
+    "AI-QUADRATIC-INDEX-DICHOTOMY-002"
+  ],
+  "all_claim_status_flags_must_remain_unchanged": true,
+  "tests_executed_by_this_script": 0
+}

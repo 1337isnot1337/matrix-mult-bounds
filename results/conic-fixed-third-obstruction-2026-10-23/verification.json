@@ -1,0 +1,66 @@
+{
+  "claim_id": "AI-CONIC-FIXED-THIRD-OBSTRUCTION-001",
+  "source_terms": 4096,
+  "scope": "Every complex a,b,d with d!=0 and c=-d^3; the full prescribed PR107 third jet",
+  "prescribed_map_orders_fixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "prescribed_kernel_orders_fixed": [
+    1,
+    2,
+    3
+  ],
+  "prescribed_kernel_entry_counts": [
+    0,
+    0,
+    16
+  ],
+  "prescribed_source_kernel_orders_replayed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "functional_nonzero_entries": 28,
+  "arbitrary_fourth_map_coefficients_annihilated": 3136,
+  "arbitrary_fourth_kernel_coefficients_annihilated": 1200,
+  "fourth_residual": "-d*(a+d^3)^4*(b-d^3)^3/3",
+  "known_fourth_term_values": [
+    "0",
+    "-d*(a+d^3)^4*(b-d^3)^3/3",
+    "0"
+  ],
+  "moving_kernel_term_value": "0",
+  "necessary_and_sufficient_extension_condition": "(a+d^3)*(b-d^3)=0",
+  "exceptional_exact_linear_components": [
+    "a=-d^3",
+    "b=d^3"
+  ],
+  "complete_linear_source_orders_per_component": [
+    0,
+    1,
+    2
+  ],
+  "leading_minor_determinants": [
+    "1",
+    "1",
+    "-1"
+  ],
+  "rational_literal_source_control": {
+    "parameters": {
+      "a": "1",
+      "b": "2",
+      "d": "1"
+    },
+    "zero_fourth_coefficients": "-16/3",
+    "nonzero_fourth_coefficients": "-16/3",
+    "source_terms_per_product": 4096
+  },
+  "formal_or_polynomial_extension_off_components": false,
+  "independent_mathematical_review": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "matrix-nextwave-concurrent-resolution-v1",
+  "output_files": [
+    {
+      "path": "research/claims.json",
+      "sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+      "source_commit": null,
+      "source_path": "research/claims.json",
+      "source_commits": [
+        "72f5c524fd72c894d4420067fd10206944bce405",
+        "5d1441090e1c3c804d0ba0797a20ec303b5c08d5"
+      ],
+      "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.72f5c524.json",
+      "sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.5d144109.json",
+      "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.72f5c524.json",
+      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.5d144109.json",
+      "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.72f5c524.json",
+      "sha256": "e36c19403d0d3cea5232e20f16ccad810bf63617665e469809a2c22683f25b5a",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.5d144109.json",
+      "sha256": "95def6b6e795500d687b03d771758cd2bf007ef0f7afe23b7d3fb21c49c90894",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "sha256": "e36c19403d0d3cea5232e20f16ccad810bf63617665e469809a2c22683f25b5a",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
+    }
+  ]
+}

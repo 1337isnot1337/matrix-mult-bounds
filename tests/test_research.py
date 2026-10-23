@@ -2,12 +2,15 @@
 from __future__ import annotations
 
 from fractions import Fraction
+import hashlib
 import importlib.util
 from itertools import product
 import json
 from pathlib import Path
 import re
+import tempfile
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT / 'research' / 'ai' / '2026-10-20'
@@ -122,19 +125,96 @@ class RepositoryTests(unittest.TestCase):
     def test_archive_manifest(self):
         self.assertEqual(len(replay.check_manifest()),10)
 
+    def assert_claim_evidence(self, claim):
+        allowed={'proof-written-unreviewed','derivation-unreviewed','conditional-implication','finite-experiment','lean-formalized-lemma'}
+        self.assertIn(claim['status'],allowed)
+        self.assertFalse(claim['improves_omega'])
+        evidence=ROOT/claim['evidence']
+        self.assertTrue(evidence.is_file())
+        if claim['status']=='lean-formalized-lemma':
+            self.assertIs(claim.get('lean_formalized'),True)
+            self.assertEqual(evidence.suffix,'.lean')
+
     def test_claim_ledger_status(self):
         claims=json.loads((ROOT/'research/claims.json').read_text())['claims']
         self.assertEqual(len(claims),len({c['id'] for c in claims}))
-        allowed={'proof-written-unreviewed','derivation-unreviewed','conditional-implication','finite-experiment'}
         for claim in claims:
-            self.assertIn(claim['status'],allowed)
-            self.assertFalse(claim['improves_omega'])
-            self.assertTrue((ROOT/claim['evidence']).is_file())
+            self.assert_claim_evidence(claim)
+
+    def test_formalized_claim_requires_lean_evidence(self):
+        claims=json.loads((ROOT/'research/claims.json').read_text())['claims']
+        claim=next(c for c in claims if c['id']=='AI-SCALAR-FINITE-SLOPE-001')
+        self.assert_claim_evidence(claim)
+        for update in ({'lean_formalized':False}, {'lean_formalized':1},
+                       {'evidence':'README.md'},
+                       {'evidence':'formal/scalar-profile/Missing.lean'},
+                       {'status':'unrecognized-status'}, {'improves_omega':True}):
+            with self.subTest(update=update), self.assertRaises(AssertionError):
+                self.assert_claim_evidence({**claim,**update})
+        missing_flag=dict(claim)
+        del missing_flag['lean_formalized']
+        with self.assertRaises(AssertionError):
+            self.assert_claim_evidence(missing_flag)
 
     def test_source_registry(self):
         sources=json.loads((ROOT/'references/sources.json').read_text())['sources']
-        self.assertEqual(len(sources),38)
-        self.assertTrue({'PETROV20','SAWIN18','CVZ19','AVZ20'} <= {s['id'] for s in sources})
+        expected_ids = {
+            'ABZ26',
+            'AD25',
+            'AFL15',
+            'AKM10',
+            'ALMAN19',
+            'ALP26',
+            'ALPHATENSOR22',
+            'AVZ20',
+            'AVZ26',
+            'AW21',
+            'BCCGNU17',
+            'BCGPU23',
+            'BEKS13',
+            'BIGO26',
+            'BINI80',
+            'BLASER13',
+            'CKSU05',
+            'CU03',
+            'CVZ19',
+            'CVZ23',
+            'CW90',
+            'DO01',
+            'DSP16-FLANDERS',
+            'DUP26',
+            'DWZ23',
+            'FILMUS26',
+            'GROTHENDIECK61-HILBERT',
+            'JJ26',
+            'JLP24',
+            'LG14',
+            'LU26',
+            'MILNE17-ORBITS',
+            'NAGY21',
+            'NAVOT26',
+            'OAI26',
+            'PAR04',
+            'PASS26',
+            'PETROV20',
+            'RA26',
+            'RINGS26',
+            'SAWIN18',
+            'SCH81',
+            'SDW26',
+            'STACKS-DVR-FLATNESS',
+            'STACKS-PROPER-INCIDENCE',
+            'STACKS-SMOOTH-LIFTING',
+            'STO10',
+            'STR69',
+            'STR87',
+            'STR88',
+            'TAO-SAWIN-SLICE16',
+            'UZ26',
+            'VW12',
+            'VXXZ24',
+        }
+        self.assertTrue(expected_ids <= {source['id'] for source in sources})
         self.assertEqual(len(sources),len({s['id'] for s in sources}))
         for source in sources:
             self.assertTrue(source['url'].startswith('https://'))
@@ -146,6 +226,29 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(summary['status'],'passed')
         self.assertEqual(summary['total_weight_candidates'],242668)
         self.assertEqual(len(summary['runs']),5)
+
+    def test_replay_child_keeps_assertions_with_inherited_optimization(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive=Path(directory)/'archive'
+            archive.mkdir()
+            report=json.dumps({'checks':1,'elapsed_seconds':0})
+            (archive/'checks.json').write_text(report)
+            (archive/'check.py').write_text(
+                "from pathlib import Path\n"
+                "assert False, 'archived assertion must run'\n"
+                f"Path('checks.json').write_text({report!r})\n")
+            manifest={name:hashlib.sha256((archive/name).read_bytes()).hexdigest()
+                      for name in ('check.py','checks.json')}
+            (archive/'manifest.json').write_text(json.dumps({'sha256':manifest}))
+            output=Path(directory)/'output'
+            # An unoptimized parent can inherit this value when started with -E.
+            with patch.dict('os.environ',{'PYTHONOPTIMIZE':'1'}), patch.multiple(
+                    replay,ARCHIVE=archive,
+                    RUNS=[('checks.json',['check.py'],'checks',1)]):
+                with self.assertRaisesRegex(
+                        RuntimeError,'AssertionError: archived assertion must run'):
+                    replay.run(output,30)
+            self.assertFalse((output/'summary.json').exists())
 
     def test_normalization_retains_exact_evidence(self):
         value={'ratio_float':1.0,'elapsed_seconds':2,'exact':'4/3','violation_exact':False}

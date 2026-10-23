@@ -1,0 +1,60 @@
+{
+  "source": "receipt_catchup_plan.json",
+  "checks": [
+    {
+      "branch": "research/laurent-stencil-20261023-ab94",
+      "source_sha": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+      "delta_base": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+      "source_claim_records": 297,
+      "source_ledger_record_map_sha256": "d992130a18dc7f02b2dc60ceb12bee6509bfc3891d5e51165750cded3cc889c1",
+      "novel_records": [],
+      "existing_exact_records": [],
+      "retained_known_reconciliations": [],
+      "deleted_parent_ids": []
+    },
+    {
+      "branch": "research/toeplitz-two-long-legs-20261023",
+      "source_sha": "d2002a7f3809c62932d5377d23786f4178f6f3c6",
+      "delta_base": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "source_claim_records": 296,
+      "source_ledger_record_map_sha256": "cfa3fdf917635f9400398da39a48085929392175e59e6139d47a8c9822c91286",
+      "novel_records": [],
+      "existing_exact_records": [
+        "AI-CONIC-FIXED-TWO-CURVE-001",
+        "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "AI-CONIC-MIXED-FOURTH-JET-001",
+        "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "AI-CONIC-MIXED-THIRD-JET-002"
+      ],
+      "retained_known_reconciliations": [
+        "AI-CONIC-ALL-ORDER-CRITERION-002"
+      ],
+      "deleted_parent_ids": []
+    },
+    {
+      "branch": "research/a4-singular-long-rank-20261023",
+      "source_sha": "d75e16b111f2a97234bf27d5640cad28a4fdad81",
+      "delta_base": "35ac38d72dc42327899da29b1af355e494545356",
+      "source_claim_records": 304,
+      "source_ledger_record_map_sha256": "051e3ffa3f99a84ce45adbffed4c4602076e217a8e2f17251b21ff4d52fd06dd",
+      "novel_records": [],
+      "existing_exact_records": [
+        "AI-CONIC-FIXED-TWO-CURVE-001",
+        "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "AI-CONIC-MIXED-FOURTH-JET-001",
+        "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "AI-CONIC-MIXED-THIRD-JET-002"
+      ],
+      "retained_known_reconciliations": [
+        "AI-CONIC-ALL-ORDER-CRITERION-002"
+      ],
+      "deleted_parent_ids": []
+    }
+  ],
+  "final_claim_records": 604,
+  "decision": "No new claim variant; preserve the complete current ledger and its evidence/status metadata byte-for-byte."
+}

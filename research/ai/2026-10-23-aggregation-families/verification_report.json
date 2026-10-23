@@ -1,0 +1,92 @@
+{
+  "source_integrity": {
+    "source_id": "ex28",
+    "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex28.txt",
+    "sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+    "verified": true
+  },
+  "new_witness": {
+    "accepted": true,
+    "coordinate_count": 9,
+    "part_size": 3,
+    "products": 29,
+    "ordered_mixed_triples": 24389,
+    "diagonal_triples": 29,
+    "off_diagonal_compatible_triples": 0,
+    "off_diagonal_terms_killed_by_centering": 23072,
+    "off_diagonal_terms_killed_by_corrections": 1288,
+    "distinct_replicated_coordinate_sets": 48,
+    "correction_counts_by_size": {
+      "1": 9,
+      "2": 36,
+      "3": 3
+    },
+    "rank_polynomial_coefficients": {
+      "9": 1,
+      "8": 9,
+      "7": 36,
+      "6": 3
+    },
+    "independent_mathematical_review": false,
+    "improves_omega": false
+  },
+  "external_baseline": {
+    "accepted": true,
+    "coordinate_count": 9,
+    "part_size": 3,
+    "products": 28,
+    "ordered_mixed_triples": 21952,
+    "diagonal_triples": 28,
+    "off_diagonal_compatible_triples": 0,
+    "off_diagonal_terms_killed_by_centering": 20733,
+    "off_diagonal_terms_killed_by_corrections": 1191,
+    "distinct_replicated_coordinate_sets": 48,
+    "correction_counts_by_size": {
+      "1": 9,
+      "2": 35,
+      "3": 4
+    },
+    "rank_polynomial_coefficients": {
+      "9": 1,
+      "8": 9,
+      "7": 35,
+      "6": 4
+    },
+    "independent_mathematical_review": false,
+    "improves_omega": false
+  },
+  "cost_comparison": {
+    "identity": "29*external_rank_bound - 28*new_rank_bound",
+    "difference_coefficients": {
+      "9": 1,
+      "8": 9,
+      "7": 7,
+      "6": 32
+    },
+    "monomial_factor_exponent": 6,
+    "shift_x": 0,
+    "shifted_polynomial_coefficients": {
+      "3": 1,
+      "2": 9,
+      "1": 7,
+      "0": 32
+    },
+    "strictly_lower_cost_per_output_for_integer_n_at_least": 1,
+    "scope": "Comparison of these upper bounds only; not optimal ranks or runtimes",
+    "positive_coefficients": {
+      "9": 1,
+      "8": 9,
+      "7": 7,
+      "6": 32
+    },
+    "strictly_positive_for_x_positive": true
+  },
+  "direct_exponent_cost_scope": {
+    "method": "Weighted AM-GM: n+1 >= 4*(n/3)^(3/4) for all real n>0",
+    "left_integer": 4722366482869645213696,
+    "right_integer": 5393440214779090347,
+    "strict_integer_margin": 4716973042654866123349,
+    "displayed_budget_cannot_reach_omega_nine_fourths_by_direct_sum_bound": true,
+    "scope": "The stated rank upper-bound polynomial only; no lower bound on optimal tensor rank or omega"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "schema": "matrix-final-five-retirement-plan-v1",
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "prepared_from_capture": {
+    "started_at": "2026-10-23T18:02:52.442Z",
+    "finished_at": "2026-10-23T18:03:01.985Z",
+    "inventory": "final_five_inventory.json",
+    "full_pr_records": "final_five_source_prs.json",
+    "frozen_heads": "nextwave_heads.json"
+  },
+  "replacement_pr": 214,
+  "observed_replacement_head": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+  "status": "Candidate plan only; final five-head publication and exact archive/ancestry checks are required before closure or deletion.",
+  "counts": {
+    "frozen_topic_branches": 5,
+    "exact_matching_live_heads": 5,
+    "closure_candidates": 4,
+    "branch_candidates": 5
+  },
+  "ordered_phases": [
+    {
+      "phase": 1,
+      "action": "Publish and verify the final replacement PR head, including the five exact frozen sources and concurrent correction; verify each archive tag and source-head ancestry."
+    },
+    {
+      "phase": 2,
+      "action": "After a fresh state check, close only the listed exact-head source PRs as superseded by PR214. Preserve their full bodies, draft flags and source identity."
+    },
+    {
+      "phase": 3,
+      "action": "Re-read branch heads, protection and all open PR head/base dependencies; atomically delete only still-exact eligible source refs with expected-SHA leases."
+    },
+    {
+      "phase": 4,
+      "action": "Verify deletion, preserved archive refs, replacement PR/head and absence of lingering open PR dependencies; record exact outcomes."
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 217,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/217",
+      "title": "Prove all-field rank formula for biforms with one polynomial top coefficient",
+      "draft": false,
+      "original_body_preserved_in": "final_five_source_prs.json",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "head_branch": "research/top-coefficient-biforms-20261023-t2",
+      "head_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "base_branch": "main",
+      "state": "open",
+      "inventory_disposition": "candidate_to_close_as_superseded_after_publication",
+      "closure_kind": "superseded_not_individually_merged",
+      "replacement_pr": 214,
+      "preconditions": [
+        "Final replacement PR head includes this exact source SHA as an ancestor.",
+        "Exact source archive ref resolves to this SHA.",
+        "Fresh PR head/base repository identity, head SHA, open state and default base still match this record."
+      ]
+    },
+    {
+      "number": 216,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/216",
+      "title": "Exhibit identical-resultant three-term cyclic slices of ranks 14 and 15",
+      "draft": true,
+      "original_body_preserved_in": "final_five_source_prs.json",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "head_branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "head_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "base_branch": "main",
+      "state": "open",
+      "inventory_disposition": "candidate_to_close_as_superseded_after_publication",
+      "closure_kind": "superseded_not_individually_merged",
+      "replacement_pr": 214,
+      "preconditions": [
+        "Final replacement PR head includes this exact source SHA as an ancestor.",
+        "Exact source archive ref resolves to this SHA.",
+        "Fresh PR head/base repository identity, head SHA, open state and default base still match this record."
+      ]
+    },
+    {
+      "number": 215,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/215",
+      "title": "Study full-channel paired maps through overlapping coefficient windows",
+      "draft": true,
+      "original_body_preserved_in": "final_five_source_prs.json",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "head_branch": "research/column-overlap-20261023-ab94",
+      "head_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "base_branch": "main",
+      "state": "open",
+      "inventory_disposition": "candidate_to_close_as_superseded_after_publication",
+      "closure_kind": "superseded_not_individually_merged",
+      "replacement_pr": 214,
+      "preconditions": [
+        "Final replacement PR head includes this exact source SHA as an ancestor.",
+        "Exact source archive ref resolves to this SHA.",
+        "Fresh PR head/base repository identity, head SHA, open state and default base still match this record."
+      ]
+    },
+    {
+      "number": 213,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/213",
+      "title": "Reduce a full-source two-sided A4 construction to a 46-dimensional compression problem",
+      "draft": false,
+      "original_body_preserved_in": "final_five_source_prs.json",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "head_branch": "research/full-target-reconstruction-20261023-ab94",
+      "head_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "base_branch": "main",
+      "state": "open",
+      "inventory_disposition": "candidate_to_close_as_superseded_after_publication",
+      "closure_kind": "superseded_not_individually_merged",
+      "replacement_pr": 214,
+      "preconditions": [
+        "Final replacement PR head includes this exact source SHA as an ancestor.",
+        "Exact source archive ref resolves to this SHA.",
+        "Fresh PR head/base repository identity, head SHA, open state and default base still match this record."
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "expected_source_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "observed_source_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "exact_frozen_match": true,
+      "protected": false,
+      "default_branch": false,
+      "head_prs": [
+        215
+      ],
+      "base_pr_dependencies": [],
+      "inventory_disposition": "candidate_after_publication_and_PR_retirement",
+      "head_prs_to_retire_before_deletion": [
+        215
+      ],
+      "other_open_base_dependencies": [],
+      "archive_verification": "required_at_execution",
+      "incorporation_ancestry_verification": "required_at_execution",
+      "delete_precondition": "Current SHA must equal expected_source_sha; exact archive must exist and match; SHA must be ancestor of verified replacement head; no open PR may use branch as head or base; branch must remain unprotected and not default/integration."
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "expected_source_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "observed_source_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "exact_frozen_match": true,
+      "protected": false,
+      "default_branch": false,
+      "head_prs": [
+        213
+      ],
+      "base_pr_dependencies": [],
+      "inventory_disposition": "candidate_after_publication_and_PR_retirement",
+      "head_prs_to_retire_before_deletion": [
+        213
+      ],
+      "other_open_base_dependencies": [],
+      "archive_verification": "required_at_execution",
+      "incorporation_ancestry_verification": "required_at_execution",
+      "delete_precondition": "Current SHA must equal expected_source_sha; exact archive must exist and match; SHA must be ancestor of verified replacement head; no open PR may use branch as head or base; branch must remain unprotected and not default/integration."
+    },
+    {
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "expected_source_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "observed_source_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "exact_frozen_match": true,
+      "protected": false,
+      "default_branch": false,
+      "head_prs": [],
+      "base_pr_dependencies": [],
+      "inventory_disposition": "candidate_after_publication_and_PR_retirement",
+      "head_prs_to_retire_before_deletion": [],
+      "other_open_base_dependencies": [],
+      "archive_verification": "required_at_execution",
+      "incorporation_ancestry_verification": "required_at_execution",
+      "delete_precondition": "Current SHA must equal expected_source_sha; exact archive must exist and match; SHA must be ancestor of verified replacement head; no open PR may use branch as head or base; branch must remain unprotected and not default/integration."
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "expected_source_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "observed_source_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "exact_frozen_match": true,
+      "protected": false,
+      "default_branch": false,
+      "head_prs": [
+        216
+      ],
+      "base_pr_dependencies": [],
+      "inventory_disposition": "candidate_after_publication_and_PR_retirement",
+      "head_prs_to_retire_before_deletion": [
+        216
+      ],
+      "other_open_base_dependencies": [],
+      "archive_verification": "required_at_execution",
+      "incorporation_ancestry_verification": "required_at_execution",
+      "delete_precondition": "Current SHA must equal expected_source_sha; exact archive must exist and match; SHA must be ancestor of verified replacement head; no open PR may use branch as head or base; branch must remain unprotected and not default/integration."
+    },
+    {
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "expected_source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "observed_source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "exact_frozen_match": true,
+      "protected": false,
+      "default_branch": false,
+      "head_prs": [
+        217
+      ],
+      "base_pr_dependencies": [],
+      "inventory_disposition": "candidate_after_publication_and_PR_retirement",
+      "head_prs_to_retire_before_deletion": [
+        217
+      ],
+      "other_open_base_dependencies": [],
+      "archive_verification": "required_at_execution",
+      "incorporation_ancestry_verification": "required_at_execution",
+      "delete_precondition": "Current SHA must equal expected_source_sha; exact archive must exist and match; SHA must be ancestor of verified replacement head; no open PR may use branch as head or base; branch must remain unprotected and not default/integration."
+    }
+  ],
+  "retained_branches": [
+    {
+      "branch": "consolidation/all-branches-20261023",
+      "sha": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "reason": "Active consolidation PR branch"
+    },
+    {
+      "branch": "main",
+      "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "reason": "Default protected branch"
+    }
+  ],
+  "advanced_or_unintegrated_holds": [],
+  "new_out_of_scope_branches": [],
+  "observations": [
+    "No open paired-rank-two-gap PR was present in this capture.",
+    "New top-coefficient-biforms PR217 is ready and its exact frozen head matches.",
+    "No open PR uses any of the five source branches as its base.",
+    "All four source PRs use the same repository and main base; no stacked-PR retirement ordering is needed in this capture."
+  ],
+  "remote_mutations_performed": false,
+  "concurrency_policy": "Any changed SHA, recreated branch, new/reopened dependent PR or protection/default change causes a hold; do not expand source scope or retry a mutation blindly."
+}

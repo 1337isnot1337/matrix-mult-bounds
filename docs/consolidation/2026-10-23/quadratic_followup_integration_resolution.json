@@ -1,0 +1,67 @@
+{
+  "baseline": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "source_reports": [
+    "quadratic_followup_source_resolution.json",
+    "quadratic_followup_docs_resolution.json",
+    "quadratic_pin_resolution.json",
+    "quadratic_followup_claim_report.json"
+  ],
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "fcff438f85b57a104936421001205b3d37ee8617e535f9111d623b041fa58306",
+      "input_sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "STATUS.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/STATUS.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "3224988926a87a06209d512b4928eef94ba1f981432274eb75052873de38ccc9",
+      "input_sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "PROVENANCE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/PROVENANCE.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "d9b6bafab4fefc9797ee078dc85222e925059f319ad941c099f0ce146fbcb146",
+      "input_sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "docs/research_directions.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/docs/research_directions.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "8022ef0ff65e6a1d09620e8b3408ad0b9cbf1965d7b666962cd7e87dad9b7c18",
+      "input_sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "research/ACTIVE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/research/ACTIVE.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "research/claims.json",
+      "sha256": "920eede68c554939bb25c5e3f7a5a3b991a35124fecaa517eff8994aaa170b28",
+      "source_commit": null,
+      "source_path": "research/claims.json",
+      "reason": "Preserve all612 prior claim records exactly; append the exact source-authored written-unreviewed quadratic claim, with all evidence and status flags unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "sha256": "577ce358e6eacf44d5d50d6b21b5d2ab051b50dd54e43bd9eec8d021550c077c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/branches.json",
+      "reason": "Record the170th archived topic-source snapshot, preserve both quadratic head/PR captures, and record the exact already-incorporated main6e squash as current ancestry."
+    }
+  ]
+}

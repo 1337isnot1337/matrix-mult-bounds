@@ -1,0 +1,63 @@
+{
+  "proof_status": "proof-written-unreviewed",
+  "independent_review": false,
+  "improves_omega": false,
+  "target_constructed": false,
+  "source_control": {
+    "original_source_terms": 4096,
+    "endpoint_graph_edges": 256,
+    "coefficient_graphs": 16,
+    "endpoint_reversal": true
+  },
+  "matching_census": {
+    "matching_25": 7744,
+    "unique_left_24": 132,
+    "unique_right_24": 132
+  },
+  "ten_coordinate_subspaces": 8008,
+  "mixed_pairs_closed_with_coordinate_kernels": 16,
+  "source_torus": {
+    "coefficients": [
+      1,
+      16,
+      256
+    ],
+    "distinct_weights": [
+      112,
+      112,
+      112
+    ],
+    "source_coefficients_checked": 4096,
+    "all_total_weights_zero": true
+  },
+  "torus_limit_control": {
+    "source_a": 2,
+    "quotient_ranks": [
+      10,
+      10
+    ],
+    "left_kernel_pivots": [
+      0,
+      1
+    ],
+    "left_extra_coordinate": 3,
+    "right_kernel_pivots": [
+      4,
+      5
+    ],
+    "right_extra_coordinate": 11,
+    "left_positive_orders": [
+      16,
+      272
+    ],
+    "right_positive_orders": [
+      271,
+      15
+    ],
+    "projected_rank_at_zero": 11,
+    "projected_rank_at_one": 12,
+    "kernel_dimension_at_zero": 1,
+    "kernel_dimension_at_one": 0
+  },
+  "mixed_pairs_closed_by_written_torus_transfer": 16
+}

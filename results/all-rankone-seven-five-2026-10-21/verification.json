@@ -1,0 +1,46 @@
+{
+  "status": "focused-local-checks-passed-full-current-ci-pending",
+  "base_head": "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+  "local_checks": {
+    "source_report": "passed",
+    "focused_tests": {
+      "run": 5,
+      "passed": 5,
+      "seconds": 24.723
+    },
+    "link_and_ledger_tests": {
+      "run": 2,
+      "passed": 2
+    }
+  },
+  "current_discovery": {
+    "tests": 803,
+    "modules": 190,
+    "groups": [
+      191,
+      211,
+      204,
+      197
+    ],
+    "complete_disjoint_coverage": true,
+    "import_errors": 0,
+    "own_cases": 5
+  },
+  "code_sha256": {
+    "research/ai/2026-10-21-all-rankone-seven-five/verify.py": "2df993bce02454c2a919cf41b2b0a29613cb9dd49f8b47b632e99b35bcb42eb4",
+    "research/ai/2026-10-21-all-rankone-seven-five/certificate.json": "f4934eff899a4f274d3ad2e579a9be1c04f0570fc95427e30bbae9734909610c",
+    "tests/test_all_rankone_seven_five.py": "d4599f888ead9d933925e2ff38b14c17aad51b937e365062d6be3913635eab8f"
+  },
+  "parent_pr92": {
+    "head": "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+    "included": true,
+    "status": "CI pending"
+  },
+  "initial_replay_issue": {
+    "preserved_private_log": "all-rankone-maintained-leading-sign-initial.log",
+    "reason": "Initial check incorrectly demanded equality of signed G rows; actual reversal sends G_z to minus G_(6-z). Corrected check compares normalized lines, without changing endpoint elimination."
+  },
+  "archives_unchanged_against": "00d51337ddfe581a6e53ff9bc71bb1ece6ad8ee8",
+  "independent_review": false,
+  "improves_omega": false
+}

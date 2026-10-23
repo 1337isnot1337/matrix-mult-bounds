@@ -1,0 +1,214 @@
+{
+  "schema": "consolidation-requirements-pin-repair-v1",
+  "integration_parent_commit": "8d7f85932d799653fb547a1d994f0b1429f031ed",
+  "baseline_validation_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+  "requirements_change_commit": "a72fb7b26c1158881d0ec177e75cac691b4a7ed2",
+  "original_requirements_sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58",
+  "current_requirements_sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38",
+  "installed_versions": {
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5"
+  },
+  "changed_active_files": [
+    "research/ai/2026-10-21-conic-second-jets/manifest.json",
+    "research/ai/2026-10-21-conic-second-jets/sources.json",
+    "research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+    "research/ai/2026-10-23-asymmetric-boundary/sources.json",
+    "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+    "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+    "research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+    "research/ai/2026-10-23-conic-projective-criterion/sources.json"
+  ],
+  "preserved_original_files": [
+    "docs/consolidation/2026-10-23/requirements-pin-originals/requirements.txt",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/manifest.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/sources.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/sources.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+    "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/sources.json"
+  ],
+  "dependency_updates": [
+    {
+      "source_record": "research/ai/2026-10-23-asymmetric-boundary/sources.json",
+      "updates": [
+        {
+          "path": "requirements.txt",
+          "original_sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58",
+          "current_sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38"
+        }
+      ]
+    },
+    {
+      "source_record": "research/ai/2026-10-21-conic-second-jets/sources.json",
+      "updates": [
+        {
+          "path": "requirements.txt",
+          "original_sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58",
+          "current_sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38"
+        }
+      ]
+    },
+    {
+      "source_record": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "updates": [
+        {
+          "path": "research/ai/2026-10-21-conic-second-jets/sources.json",
+          "original_sha256": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+          "current_sha256": "60af4cc901d804f187074f4f65ce98d97a61da87d9a7aa61284fe77fffa22ff2"
+        }
+      ]
+    },
+    {
+      "source_record": "research/ai/2026-10-23-conic-projective-criterion/sources.json",
+      "updates": [
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+          "original_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+          "current_sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637"
+        }
+      ]
+    }
+  ],
+  "unchanged_scope": "All mathematical verifier, proof, witness, test, and claim bytes remain unchanged; historical validation receipts are not rewritten.",
+  "output_files": [
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/requirements.txt",
+      "sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "requirements.txt",
+      "reason": "Byte-exact earlier environment file whose strict SHA256 was used by the two original source records."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/manifest.json",
+      "sha256": "bade094816bdf019d21bd54d560f4e2dbbf6c8fb7fbb18b3e288fbac9dc0b463",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-21-conic-second-jets/manifest.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/sources.json",
+      "sha256": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-21-conic-second-jets/sources.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+      "sha256": "5afefd98ac1dfd94df94b486c88922b4b1b0293e04bd645125706eed2d2f2ca6",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/sources.json",
+      "sha256": "a3438800bdf5037be76a6b13e66b427238a4b28573d5dac338b2266672301db0",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-23-asymmetric-boundary/sources.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "sha256": "a5233ca8ec2b4abb3edc169ef20c4c85e7723648b469d93a31ce56c465ae2f2b",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+      "sha256": "1a088dfa561a262480c5e6373338f57b06f5d8a28f63829f5daa0f029312ee7c",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/sources.json",
+      "sha256": "21c448544537fb92a8aac2de95b9cb57c70a98ffefd6d184fbb8cf365e364231",
+      "source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "source_path": "research/ai/2026-10-23-conic-projective-criterion/sources.json",
+      "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+    },
+    {
+      "path": "research/ai/2026-10-21-conic-second-jets/manifest.json",
+      "sha256": "b0f57c760d008600b7883c7aaa2e1284146a058dd2326698e6acdeb1f9ccae94",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-21-conic-second-jets/manifest.json",
+      "original_sha256": "bade094816bdf019d21bd54d560f4e2dbbf6c8fb7fbb18b3e288fbac9dc0b463",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/manifest.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-21-conic-second-jets/sources.json",
+      "sha256": "60af4cc901d804f187074f4f65ce98d97a61da87d9a7aa61284fe77fffa22ff2",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-21-conic-second-jets/sources.json",
+      "original_sha256": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/sources.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+      "sha256": "5aa5351bbdad938a3dc0df7de1a2f68e6c6522869ff665b9bf6f27488dc7a492",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+      "original_sha256": "5afefd98ac1dfd94df94b486c88922b4b1b0293e04bd645125706eed2d2f2ca6",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/manifest.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-asymmetric-boundary/sources.json",
+      "sha256": "e9a8a4d3d020ec10b358352f8f8f17bd7806a0e8760805c7866f16cabd65c908",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-asymmetric-boundary/sources.json",
+      "original_sha256": "a3438800bdf5037be76a6b13e66b427238a4b28573d5dac338b2266672301db0",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/sources.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "sha256": "774bdc89bcdb151fb68b0dad38e26448be8623eba1f914ce8b084f85a9bfaf83",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "original_sha256": "a5233ca8ec2b4abb3edc169ef20c4c85e7723648b469d93a31ce56c465ae2f2b",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "original_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+      "sha256": "f096c076e1954bbd1154fcc1fc6850bc1fba2f7ceeb64442fdce7be381f0bfa8",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+      "original_sha256": "1a088dfa561a262480c5e6373338f57b06f5d8a28f63829f5daa0f029312ee7c",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/manifest.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-projective-criterion/sources.json",
+      "sha256": "5560f5e213e524c0668fe58dbf531131465d75d9f30aa4441f9b58c25eb5abf3",
+      "original_source_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "original_source_path": "research/ai/2026-10-23-conic-projective-criterion/sources.json",
+      "original_sha256": "21c448544537fb92a8aac2de95b9cb57c70a98ffefd6d184fbb8cf365e364231",
+      "preserved_original_path": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/sources.json",
+      "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+    }
+  ]
+}

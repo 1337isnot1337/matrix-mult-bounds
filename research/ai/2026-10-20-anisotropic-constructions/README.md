@@ -7,6 +7,19 @@ established. The full-source rank-gap proof was checked by a second agent
 in this generating session; no external independent review or
 formalization is claimed.
 
+The [scalar corner](spin_scalar_corner.md) has exact response ranks
+(15,9,9), with all six mixed responses zero against the reduced search's
+ambient spaces. It provides a conditional scalar-defect repair; the
+required reduced maps are still missing. A separate
+[changed source-basis control](parity_structure_spin_basis_escape.md)
+escapes the fixed compression identity without constructing M9.
+
+The concurrent [Hankel–Segre application](https://github.com/1337isnot1337/matrix-mult-bounds/blob/1721a4e9d7ac3eb0762075c235be3afa99a3e8fa/research/ai/2026-10-21-hankel-pencil-degree/application.md)
+at1721a4e9 in PR75 excludes the former ordinary A8 exponent targets by
+a written unreviewed argument. The current positive question concerns
+singular limits outside that obstruction. Historical exact maps and
+necessary response budgets below retain their original scope.
+
 Construction work now includes exact full-source restrictions
 A(5,5) to M9 and to M8 plus M3; A(5,6) to M10 and to
 [M8 plus A(2,3)](parity_structure_residual.md); and a
@@ -21,6 +34,65 @@ from eight to eleven channels. Its [complete full-source lifts](parity_balancing
 give A(4,8) to M(4,4,11) and A(8,8) to M(4,4,22). Every desired and
 unwanted coefficient is checked from the actual rational maps. These
 rectangular subsystems still require compatible square extensions.
+
+The [complete fourth vertex](parity_structure_spin22_fourth_vertex.md)
+constructs M(3,4,32) inside A(8,8) and exports the compatible 28-channel
+section. Its first response remains 192 and all three response budgets
+leave room for the unconstructed M(27,28,28) target. The tiny target
+itself was already known by cyclic rotation; the explicit spin chart
+and residue lift are recorded here. The separate
+[rectangle-budget note](spin_rectangle_budget.md) checks all three
+responses of the original spin core and states the conditional
+omega<2.247 implication with its missing premise explicit.
+
+The [coupled endpoint repair](parity_structure_spin44_double_endpoint.md) cancels both F(7,0,7) and F(7,2,7), with exact response rank190 and first preimage779. It uses fresh rational graphs over five deleted channels, preserves the complete M(3,3,27) core, and retains the missing larger-target premise.
+
+The [balanced low-coordinate kernels](parity_balancing_spin44_freedoms.md)
+classify all individually neutral changes on those domains, and give
+an exact orthogonality condition for coupling them. The
+[weighted spin-compression proof](spin_fiber_compression.md) and
+[fixed output hyperplane](spin_fiber_closure.md) exclude ordinary maps
+and arbitrary Laurent limits in one different, fixed compression
+family at every power. They leave changed local maps and additional
+output transformations open.
+
+The [balanced spin module](parity_balancing_spin44.md) gives M(3,3,8)
+from A(4,4) and M(3,3,32) from A(8,8), using four parity sectors of a
+single nine-dimensional first map. The full maps are exact and leave
+five removable channels before trimming to 27. A different
+[four-vertex construction](parity_structure_spin_four_columns.md)
+gives the complete M(3,7,27) tensor, but its first response rank 576
+prevents retaining those other-leg maps in an ordinary extension with
+first dimension greater than 405.
+
+The [Laurent endpoint repair](parity_structure_spin_w34_laurent.md)
+preserves M(3,3,27) for every nonzero parameter and supplies a complete
+M(3,4,2) attachment sharing six third-leg variables with the core.
+Every Laurent coefficient is checked, including negative powers and
+unwanted target entries. The separate
+[core-freedom classification](parity_balancing_spin_w34_freedoms.md)
+gives an 891-parameter ordinary family and its scoped endpoint
+limitation. These are exact partial constructions and fixed-family
+results; none supplies a better square exponent.
+
+The [four-chain spin construction](parity_structure_spin_w34.md)
+gives a different exact M(3,3,28) module. After one channel is deleted,
+its boundary supports [eight simultaneous new vertices](spin_channel_extension.md)
+on one retained channel. The full coefficient replay gives a tensor of
+leg dimensions (33,89,81), obtained by gluing M(3,3,27) to M(3,8,1)
+along three third-leg variables. Each added vertex still needs 26
+channels. A [separate discovery note](spin_private_boundary_discovery.md)
+records unsuccessful undoubled and private-boundary charts over F65521;
+these calculations are not rational construction certificates.
+
+The [exact spin-core preimages](parity_balancing_spin_assembly.md)
+give complete first-kernel and added-row bases. An
+[endpoint correction](parity_structure_spin_endpoint.md) changes Y
+and lowers the first response to rank 191 for M(3,3,27). The
+[fixed-repaired-core proof](spin_endpoint_extension.md) then excludes
+retaining that pair of maps in an ordinary M27 plus M7 extension,
+even with arbitrary first-kernel shifts. The dimension-774 alternative
+and changed retained maps remain construction questions.
 
 The [spin-one transfer](spin_module14.md) now constructs M(3,3,14)
 from A(4,8) and M(3,3,28) from A(8,8), with no added scalar source.

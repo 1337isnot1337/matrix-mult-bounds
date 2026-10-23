@@ -1,0 +1,1209 @@
+{
+  "claim": "AI-Q64-INNER-SHIFTED-COORDINATES-001",
+  "exact_rational_replay": true,
+  "sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "projection": "stacked (0,0), (1,0), (0,1), and high-multiplier (2,2) blocks",
+  "shift_multiplier_pairs_tested": 91,
+  "first_leg_maps_tested_per_pair": [
+    "zero",
+    "identity",
+    "transpose",
+    "rank-one",
+    "diagonal-shift",
+    "dense-rational"
+  ],
+  "cases": [
+    {
+      "n": 1,
+      "k_b": 0,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "n": 2,
+      "k_b": 0,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "n": 2,
+      "k_b": 0,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "n": 2,
+      "k_b": 1,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "n": 2,
+      "k_b": 1,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        4,
+        2,
+        2,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 0,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        8,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 0,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        8,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 0,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        8,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 1,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        8,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 1,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        7,
+        7,
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 1,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        7,
+        6,
+        9,
+        7,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 2,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        8,
+        8,
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 2,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        7,
+        6,
+        9,
+        7,
+        9
+      ]
+    },
+    {
+      "n": 3,
+      "k_b": 2,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        9,
+        5,
+        4,
+        9,
+        6,
+        9
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 0,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 0,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 0,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 0,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 1,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 1,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        14,
+        14,
+        16,
+        15,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 1,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        14,
+        13,
+        16,
+        14,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 1,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 2,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 2,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        14,
+        13,
+        16,
+        14,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 2,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        12,
+        11,
+        16,
+        13,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 2,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 3,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 3,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 3,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 4,
+      "k_b": 3,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 0,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 0,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 0,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 0,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 0,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 1,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 1,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        23,
+        23,
+        25,
+        24,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 1,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        23,
+        22,
+        25,
+        23,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 1,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        23,
+        21,
+        25,
+        22,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 1,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 2,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 2,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        23,
+        22,
+        25,
+        23,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 2,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        21,
+        20,
+        25,
+        22,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 2,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        21,
+        18,
+        25,
+        21,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 2,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 3,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        24,
+        24,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 3,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        23,
+        21,
+        25,
+        22,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 3,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        21,
+        18,
+        25,
+        21,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 3,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        18,
+        15,
+        25,
+        20,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 3,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 4,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 4,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 4,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 4,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 5,
+      "k_b": 4,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 0,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 0,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 0,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 0,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 0,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 0,
+      "k_c": 5,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 1,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 1,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        34,
+        34,
+        36,
+        35,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 1,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        34,
+        33,
+        36,
+        34,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 1,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        34,
+        32,
+        36,
+        33,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 1,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 1,
+      "k_c": 5,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 2,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 2,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        34,
+        33,
+        36,
+        34,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 2,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        32,
+        31,
+        36,
+        33,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 2,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        32,
+        29,
+        36,
+        32,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 2,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 2,
+      "k_c": 5,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 3,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        35,
+        35,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 3,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        34,
+        32,
+        36,
+        33,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 3,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        32,
+        29,
+        36,
+        32,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 3,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        29,
+        26,
+        36,
+        31,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 3,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 3,
+      "k_c": 5,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 4,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 4,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 4,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 4,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 4,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 4,
+      "k_c": 5,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 5,
+      "k_c": 0,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 5,
+      "k_c": 1,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 5,
+      "k_c": 2,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 5,
+      "k_c": 3,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 5,
+      "k_c": 4,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "n": 6,
+      "k_b": 5,
+      "k_c": 5,
+      "projected_ranks_by_first_leg_map": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ]
+    }
+  ],
+  "general_q_maps_excluded": false,
+  "exponent_improvement": false
+}

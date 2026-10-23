@@ -1,0 +1,114 @@
+{
+  "status": "same-session integration of frozen proof and finite-control artifacts",
+  "originals": [
+    {
+      "original_name": "full_source_long_flattenings.md",
+      "original_sha256": "3f2d5869cf45d59dbfbee18858af826a451b0c19d2db6de7db71914f74939df9",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/source_b_koszul.md",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "full_source_all_c_koszul.md",
+      "original_sha256": "9a4e2f02d4faa1e803a9cea8ce6da8ede70207c4526c136edfae426e5c1216be",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/source_c_koszul.md",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "shared_output_schur_screen.md",
+      "original_sha256": "3f8865fc515564215826f047c4ab317b9d744086118da5d81567aac4b2f60ee5",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/schur_screen.md",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "verify_full_source_exterior.py",
+      "original_sha256": "bc905f284c25e5496838fefa5d3df45c1e725c11fd7866e047c5fb1c3d6abd25",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/verify_full_source_exterior.py",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "verify_full_source_all_c.py",
+      "original_sha256": "657d5aaff737d4508e708ee79a8a5543aae4e25dc085e17d3667d4d303813525",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/verify_full_source_all_c.py",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "full_source_c_leg_pilot.py",
+      "original_sha256": "c30adac9d9b8c177c41226f96e302f3344a66a587fa668cc9b743e34b21a0879",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/full_source_c_leg_pilot.py",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "shared_output_prolongation.py",
+      "original_sha256": "a0a4c5c3640ad59fd567d66460a2088e0d98643461feb3c1c6283612cf63cc84",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/shared_output_prolongation.py",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "shared_output_schur.py",
+      "original_sha256": "9897ee2cb3475cde87bf133ac914cbc3e0b62535bb225bc6c164b40d955f2602",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/shared_output_schur.py",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "full_source_exterior_controls.json",
+      "original_sha256": "30c0d353cba424d74aae88f1797717b2cb1fbcf219ed8cfd9143ca7f133a7629",
+      "integrated_path": "results/mixed-longlegs-candidate-2026-10-23/full_source_exterior_controls.json",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "full_source_all_c_controls.json",
+      "original_sha256": "ddbf3b2f51b4a2fad3ffbed94aa8a30c0d32a9bfb24862ddeddb1aa56b0935e5",
+      "integrated_path": "results/mixed-longlegs-candidate-2026-10-23/full_source_all_c_controls.json",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "full_source_c_leg_pilot.json",
+      "original_sha256": "bb94696ab6ee7e5035d6210e72ca8a6b3d5ecccaf1d3f33a5c005bd5ad3c22aa",
+      "integrated_path": "results/mixed-longlegs-candidate-2026-10-23/full_source_c_leg_pilot.json",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "shared_output_prolongation_controls.json",
+      "original_sha256": "6ea46780b3d3e69e0eb606b2c18b903d50f6cc2afb9e7c84facc35e11badc404",
+      "integrated_path": "results/mixed-longlegs-candidate-2026-10-23/shared_output_prolongation_controls.json",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "shared_output_schur_controls.json",
+      "original_sha256": "ffe3c2fd127cc9f01dedcb9be122edc9f8bca31a8c0b59015446cff9e9eb9df8",
+      "integrated_path": "results/mixed-longlegs-candidate-2026-10-23/shared_output_schur_controls.json",
+      "original_owner": "independent_theory (same generating session)"
+    },
+    {
+      "original_name": "higher_koszul_work/first_critical_source_kernel.md",
+      "original_sha256": "8e0cf3e26c6cf0e52d07f1e8516b30b703de7e9adcf9052908675fdd8a958a66",
+      "integrated_path": "research/ai/2026-10-23-mixed-longlegs-candidate/first_critical_source_kernel.md",
+      "original_owner": "pr_audit (same generating session)"
+    }
+  ],
+  "notes": [
+    "Original hashes pin the pre-integration scratch checkpoint; no original was changed.",
+    "Repository files adapt paths, commands, and completed Schur-screen wording.",
+    "Four calculation reports remain byte-identical; the all-C report is regenerated to pin integrated source bytes.",
+    "The elementary first-critical proof is copied byte-for-byte from pr_audit.",
+    "Same-session audits and replay do not establish external mathematical review."
+  ],
+  "integrated_sha256": {
+    "research/ai/2026-10-23-mixed-longlegs-candidate/first_critical_source_kernel.md": "8e0cf3e26c6cf0e52d07f1e8516b30b703de7e9adcf9052908675fdd8a958a66",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/full_source_c_leg_pilot.py": "c60ef8c80f737b5fe54c98e95d0facd24fef856c2f964955901423f9ef5578ab",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/schur_screen.md": "4bc779f5850db7ac1a606730badc998dbf86fc680ee6177981711421a6fc7480",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/shared_output_prolongation.py": "ae8ea444828222438c6302684add155c64e76a2dbc603e3d349a44cbe838c907",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/shared_output_schur.py": "b31a10a1aa840fa241e0d2167a1cb48fea677d9c6ef2094e5d4a30cd75c089b5",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/source_b_koszul.md": "9c19dd3e400a3e7b845d6ebc30dcbd99805be110ad4a3a48b2c3cd529b219fd1",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/source_c_koszul.md": "bd79c8cb0cc91ae655f3d96abea22d3613eaaaa2fe353492f2f404ff107b064c",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/source_flattenings_integration.md": "6f26849420e42a19f29d0174c5e4377219252effdcd439092cdbedc931da8720",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_full_source_all_c.py": "591f74ab8747e3bcc06aa9c7ea3ed8ba0957de164d751767935819a6e8ba052a",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_full_source_exterior.py": "f0433f3ba757258ffcd4cea74dc4f336e9d3ce40b73f3bafb0418ff2ee945ab8",
+    "results/mixed-longlegs-candidate-2026-10-23/full_source_all_c_controls.json": "13d0af311701cc614357f056638d39b44f9149e24c78790c847932de08d1c867",
+    "results/mixed-longlegs-candidate-2026-10-23/full_source_c_leg_pilot.json": "bb94696ab6ee7e5035d6210e72ca8a6b3d5ecccaf1d3f33a5c005bd5ad3c22aa",
+    "results/mixed-longlegs-candidate-2026-10-23/full_source_exterior_controls.json": "30c0d353cba424d74aae88f1797717b2cb1fbcf219ed8cfd9143ca7f133a7629",
+    "results/mixed-longlegs-candidate-2026-10-23/shared_output_prolongation_controls.json": "6ea46780b3d3e69e0eb606b2c18b903d50f6cc2afb9e7c84facc35e11badc404",
+    "results/mixed-longlegs-candidate-2026-10-23/shared_output_schur_controls.json": "ffe3c2fd127cc9f01dedcb9be122edc9f8bca31a8c0b59015446cff9e9eb9df8",
+    "tests/test_mixed_source_flattenings.py": "06b2031e674c2427f1c9788a8715e26947e59ba2b24ecd9afc7444608d17a486"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "integration_note": "Scoped suggestion for the authoritative root claim ledger; this is not a second ledger.",
+  "claims": [
+    {
+      "id": "AI-MIXED-CANDIDATE-GLOBAL-EXCLUSION-009",
+      "origin": "Owner-directed Codex research; written proof with same-session mathematical audits",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "title": "The canonical ten-Full source cannot degenerate to the mixed target under any independent target first identifications",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/global_rnc_obstruction.md",
+      "statement": "Over C, the frozen source 10 Full(5,10), with common canonical first basis, has no Laurent degeneration to 7 Full(5,2)+10 Full(5,3)+4 Out(3,3)+2 Out(4,2)+6 Mid(5,2), even after arbitrary independent invertible first identifications of the target blocks and arbitrary global changes or mixing on all legs. Third conciseness and the rank-one slice incidence force the source rational normal quartic to have a smooth quartic limit. Smooth orbit lifting and binary multiplication covariance then normalize the first map to a regular invertible map, contradicting the catalecticant ranks 120 and at least130.",
+      "dependencies": [
+        "AI-MIXED-CANDIDATE-CATALECTICANT-008",
+        "Local rank-one Hankel classification and full-rank Mid/Out third slices",
+        "GROTHENDIECK61-HILBERT: projective Hilbert parameter space at polynomial4n+1",
+        "MILNE17-ORBITS Propositions7.4,7.12,7.15,7.17: smooth homogeneous orbit and quotient",
+        "STACKS-PROPER-INCIDENCE, STACKS-DVR-FLATNESS, STACKS-SMOOTH-LIFTING",
+        "Local binary substitution covariance with exact inverse-transpose and scalar conventions"
+      ],
+      "limitations": "The source copies share their canonical first identification. Independent source first identifications are outside the theorem. This excludes one source orbit closure, not the entire border-rank140 locus, and does not determine target border rank. Finite controls check conventions rather than the arbitrary-arc geometric theorem. No exponent improvement."
+    }
+  ]
+}

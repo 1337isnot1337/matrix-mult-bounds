@@ -1,0 +1,140 @@
+{
+  "schema": "matrix-incremental-current-base-validation-v1",
+  "status": "passed",
+  "started_at_utc": "2026-10-23T15:23:40.812533+00:00",
+  "finished_at_utc": "2026-10-23T15:23:42.147865+00:00",
+  "elapsed_wall_seconds": 1.3353289840001707,
+  "validated_commit": "b1f2345829f4982d632f3eb58d4639171ca675a5",
+  "validated_tree": "5441a0c0ed7bf5bedad032844162ce281d1439bc",
+  "components": {
+    "pr129": "35ac38d72dc42327899da29b1af355e494545356",
+    "pr136": "14c4da35f059b94d25402a7870d81e05ede307c1",
+    "current_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "python_optimization": 0
+  },
+  "full_regression_baseline": {
+    "validated_commit": "dabda4091b7ccc7f25cce5c7a5c001cf66a3241e",
+    "validated_tree": "7e1e9dc8a4a0ed8513e4dd14d29e194128c122d5",
+    "receipt_commit": "844857b78fbcf11b1ff636a672dfe31ebf00014b",
+    "receipt_relative_path": "../validation.json",
+    "receipt_sha256": "32ada5f40a20625c4f46f4c0675d5ad71a24479072d4e1ece8f6b4142207380d",
+    "tests_passed": 924,
+    "skips": 0,
+    "historical_replays_passed": 5
+  },
+  "incremental_coverage": {
+    "combined_discovered_tests": 929,
+    "combined_discovered_modules": 214,
+    "new_tests_passed": 5,
+    "metadata_archive_checks_passed": 9,
+    "incremental_test_executions": 14,
+    "skips": 0,
+    "all_924_previous_test_ids_retained": true,
+    "existing_executable_and_test_files_unchanged": true,
+    "full_929_suite_rerun": false,
+    "new_test_ids": [
+      "test_resolvent_minrank.ResolventMinrankTests.test_artifact_hashes_and_source_pins",
+      "test_resolvent_minrank.ResolventMinrankTests.test_complete_integer_certificate_and_recorded_report",
+      "test_resolvent_minrank.ResolventMinrankTests.test_corrupted_eliminations_and_omitted_cases_are_rejected",
+      "test_resolvent_minrank.ResolventMinrankTests.test_literal_source_matches_independent_six_index_tensor_expansion",
+      "test_resolvent_minrank.ResolventMinrankTests.test_sharp_mixed_block_has_exact_rational_rank_six"
+    ]
+  },
+  "coordination": {
+    "unique_claims": 304,
+    "exact_updated_parent_claim_union": true,
+    "conflicts_resolved_by_retaining_nonduplicate_rank_route_sections": true,
+    "superseded_rank96_cap57_proposal_removed": true,
+    "pinned_research_files_modified_for_resolution": false
+  },
+  "protected_archives_unchanged": true,
+  "jobs": [
+    {
+      "name": "new-resolvent-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_resolvent_minrank.py",
+        "-v"
+      ],
+      "pythonpath": "/workspace/scratch/814d3d40fe43/mathdeps",
+      "started_at_utc": "2026-10-23T15:23:41.804219+00:00",
+      "finished_at_utc": "2026-10-23T15:23:42.000934+00:00",
+      "wall_seconds": 0.19608697600006053,
+      "unittest_reported_seconds": 0.143,
+      "tests_run": 5,
+      "expected_tests": 5,
+      "returncode": 0,
+      "unittest_footer": "OK",
+      "log": "new-resolvent-tests.log.gz",
+      "log_uncompressed_sha256": "8ec81a83da8e2bc83f1c78f3a800855907c607dcd858423798dd78ec9e65a8cd",
+      "log_gzip_sha256": "a2b8e4b18bec05f6db27b77d730b09c3fb4afff00fc444aa0ce31fd2d531eafb",
+      "status": "passed"
+    },
+    {
+      "name": "metadata-archive-checks",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_research.RepositoryTests",
+        "test_archive_integrity",
+        "-v"
+      ],
+      "pythonpath": "/workspace/scratch/814d3d40fe43/mathdeps:/workspace/scratch/814d3d40fe43/matrix-integration-validation/tests",
+      "started_at_utc": "2026-10-23T15:23:42.001057+00:00",
+      "finished_at_utc": "2026-10-23T15:23:42.136487+00:00",
+      "wall_seconds": 0.13514352199990753,
+      "unittest_reported_seconds": 0.076,
+      "tests_run": 9,
+      "expected_tests": 9,
+      "returncode": 0,
+      "unittest_footer": "OK",
+      "log": "metadata-archive-checks.log.gz",
+      "log_uncompressed_sha256": "0b7e36a37de80a87e78ef9072f2b94de6790d8382e5ca0ef539795682c510fce",
+      "log_gzip_sha256": "8a8b327506398c6464bd8a461364ea6a674bd11e763cbfe0018381b732a7833d",
+      "status": "passed"
+    }
+  ],
+  "artifact_sha256": {
+    "archive-integrity.json": {
+      "bytes": 3768,
+      "sha256": "900f10baa178108bd346fe743b3a1d14330656d5d92a70f077d22473a139c1da"
+    },
+    "changed-paths.json": {
+      "bytes": 1870,
+      "sha256": "d5e957bc169af0aae0bb8ae06a66a37edc7023fa72e12091515ff893fffbadeb"
+    },
+    "coverage.json": {
+      "bytes": 100324,
+      "sha256": "059d71fc14c88840f3ad36389407043b5def8bd52a7278f18151a2fdb0a6d5f7"
+    },
+    "metadata-archive-checks.log.gz": {
+      "bytes": 287,
+      "sha256": "8a8b327506398c6464bd8a461364ea6a674bd11e763cbfe0018381b732a7833d"
+    },
+    "new-resolvent-tests.log.gz": {
+      "bytes": 274,
+      "sha256": "a2b8e4b18bec05f6db27b77d730b09c3fb4afff00fc444aa0ce31fd2d531eafb"
+    },
+    "README.md": {
+      "bytes": 1900,
+      "sha256": "7114772b05866bb90a51e9be839a564bd85cc99ef160dd1c9d2bb381a1cba811"
+    }
+  },
+  "excluded_later_work": [
+    "PR155 source staircase and rank37 packages",
+    "PR156 prescribed third-jet obstruction"
+  ],
+  "limits": "Incremental validation only: the 924 unchanged tests passed on the separately identified frozen snapshot; five new tests and nine coordination/archive checks passed on this updated snapshot. No claim that all 929 ran together, and no hosted CI, external review, formalization, or exponent improvement claim."
+}

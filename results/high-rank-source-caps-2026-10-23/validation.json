@@ -1,0 +1,91 @@
+{
+  "schema": "high-rank-source-validation-v1",
+  "date_utc": "2026-10-23",
+  "base_commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+  "claim_ids": [
+    "AI-A4-RANK100-SHARP-LINEAR-SPACE-001",
+    "AI-A4-RANK104-SHARP-LINEAR-SPACE-001",
+    "AI-A4-RANK108-SHARP-LINEAR-SPACE-001",
+    "AI-A4-RANK112-SHARP-LINEAR-SPACE-001",
+    "AI-A4-FULL-SHORT-LONG20-001"
+  ],
+  "focused_tests": {
+    "count": 8,
+    "exit_code": 0,
+    "elapsed_seconds": 1.7148184110001239,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_high_rank_source_caps.py",
+      "-v"
+    ],
+    "complete_log": "focused-tests.log.gz"
+  },
+  "repository_and_archive_tests": {
+    "count": 9,
+    "exit_code": 0,
+    "elapsed_seconds": 0.13311095500012016,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "test_research.RepositoryTests",
+      "test_archive_integrity",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONPATH": "/workspace/scratch/814d3d40fe43/mathdeps:tests"
+    },
+    "complete_log": "metadata-tests.log.gz"
+  },
+  "total_tests": 17,
+  "full_repository_suite_run_in_this_checkpoint": false,
+  "literal_source_terms": 4096,
+  "source_factorizations": 112,
+  "coherent_minors_replayed": 11,
+  "new_sharpness_minors_replayed": 4,
+  "all_layer_profiles_per_threshold": 245157,
+  "thresholds": [
+    100,
+    104,
+    108,
+    112
+  ],
+  "sharp_dimensions": [
+    84,
+    88,
+    92,
+    96
+  ],
+  "attained_source_ranks": [
+    96,
+    100,
+    104,
+    108
+  ],
+  "one_leg_target_cases": 102,
+  "full_short_pair_cases": 10404,
+  "prior_surviving_full_short_triples": 841,
+  "new_surviving_full_short_triples": 196,
+  "byte_comparison_receipt": "byte-comparison.json",
+  "archive_files_byte_identical": 23,
+  "frozen_predecessor_package_files_byte_identical": 25,
+  "git_diff_check_passed": true,
+  "claims_remain_written_unreviewed": true,
+  "independent_external_review": false,
+  "formalized": false,
+  "target_constructed": false,
+  "improves_omega": false,
+  "artifact_sha256": {
+    "certificates.json": "4baf7769a63e1c7e143c38efc70d82b8a02c0dfcaac765edeb5a44de4085497b",
+    "discovery.json": "9b48984530426a0fe77ff584986806160532913443f6cd786108f9be5cb3b38d",
+    "controls.json": "d3bc1855a984f73afe1000428437f578632e3771727ef69a3f12b3a7d5c1c98a",
+    "focused-tests.log.gz": "abd1c4e07d663999dfe7f23f00bb58d9dc63c1ba17bc00c7ec174c510dc29932",
+    "metadata-tests.log.gz": "65b9395a9566c15faeb02de50a03a26408b566522a7a5fbc538e79af6d3c5448"
+  }
+}

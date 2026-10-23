@@ -1,0 +1,613 @@
+{
+  "status": "exact-finite-controls-passed",
+  "claim_scope": "Shared maps and moving rank tests only; missing Y/Z maps.",
+  "constructs_tensor_degeneration": false,
+  "improves_omega": false,
+  "arithmetic": "Python fractions.Fraction and integers",
+  "parameters": {
+    "s_min": 2,
+    "s_max": 5,
+    "nodes": "0,...,2s-1"
+  },
+  "coverage": {
+    "block_rank_computations": 648,
+    "source_degree_support_checks": 28,
+    "shared_inverse_coefficient_checks": 12
+  },
+  "m4_shared_matrices": {
+    "P_zero": [
+      [
+        "3",
+        "3",
+        "5",
+        "9"
+      ],
+      [
+        "3",
+        "5",
+        "9",
+        "17"
+      ],
+      [
+        "5",
+        "9",
+        "17",
+        "33"
+      ],
+      [
+        "9",
+        "17",
+        "33",
+        "65"
+      ]
+    ],
+    "P_linear": [
+      [
+        "1",
+        "3",
+        "9",
+        "27"
+      ],
+      [
+        "3",
+        "9",
+        "27",
+        "81"
+      ],
+      [
+        "9",
+        "27",
+        "81",
+        "243"
+      ],
+      [
+        "27",
+        "81",
+        "243",
+        "729"
+      ]
+    ],
+    "A_regular": [
+      [
+        "1",
+        "-11/6",
+        "1",
+        "-1/6"
+      ],
+      [
+        "-11/6",
+        "263/18",
+        "-37/3",
+        "23/9"
+      ],
+      [
+        "1",
+        "-37/3",
+        "45/4",
+        "-29/12"
+      ],
+      [
+        "-1/6",
+        "23/9",
+        "-29/12",
+        "19/36"
+      ]
+    ],
+    "A_pole": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/9",
+        "-1/6",
+        "1/18"
+      ],
+      [
+        "0",
+        "-1/6",
+        "1/4",
+        "-1/12"
+      ],
+      [
+        "0",
+        "1/18",
+        "-1/12",
+        "1/36"
+      ]
+    ]
+  },
+  "records": [
+    {
+      "s": 2,
+      "m": 4,
+      "N": 10,
+      "auxiliary_and_shared_ranks": [
+        2,
+        3,
+        3
+      ],
+      "degrees": [
+        {
+          "q": 0,
+          "block_ranks": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "target_rank": 9,
+          "source_rank": 10,
+          "source_minus_target": 1
+        },
+        {
+          "q": 1,
+          "block_ranks": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "target_rank": 11,
+          "source_rank": 11,
+          "source_minus_target": 0
+        },
+        {
+          "q": 2,
+          "block_ranks": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "target_rank": 11,
+          "source_rank": 12,
+          "source_minus_target": 1
+        },
+        {
+          "q": 3,
+          "block_ranks": [
+            3,
+            3,
+            2,
+            1
+          ],
+          "target_rank": 9,
+          "source_rank": 13,
+          "source_minus_target": 4
+        }
+      ]
+    },
+    {
+      "s": 3,
+      "m": 6,
+      "N": 21,
+      "auxiliary_and_shared_ranks": [
+        3,
+        4,
+        4
+      ],
+      "degrees": [
+        {
+          "q": 0,
+          "block_ranks": [
+            1,
+            2,
+            3,
+            4,
+            4,
+            4
+          ],
+          "target_rank": 18,
+          "source_rank": 21,
+          "source_minus_target": 3
+        },
+        {
+          "q": 1,
+          "block_ranks": [
+            2,
+            3,
+            4,
+            4,
+            4,
+            4
+          ],
+          "target_rank": 21,
+          "source_rank": 22,
+          "source_minus_target": 1
+        },
+        {
+          "q": 2,
+          "block_ranks": [
+            3,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "target_rank": 23,
+          "source_rank": 23,
+          "source_minus_target": 0
+        },
+        {
+          "q": 3,
+          "block_ranks": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            3
+          ],
+          "target_rank": 23,
+          "source_rank": 24,
+          "source_minus_target": 1
+        },
+        {
+          "q": 4,
+          "block_ranks": [
+            4,
+            4,
+            4,
+            4,
+            3,
+            2
+          ],
+          "target_rank": 21,
+          "source_rank": 25,
+          "source_minus_target": 4
+        },
+        {
+          "q": 5,
+          "block_ranks": [
+            4,
+            4,
+            4,
+            3,
+            2,
+            1
+          ],
+          "target_rank": 18,
+          "source_rank": 26,
+          "source_minus_target": 8
+        }
+      ]
+    },
+    {
+      "s": 4,
+      "m": 8,
+      "N": 36,
+      "auxiliary_and_shared_ranks": [
+        4,
+        5,
+        5
+      ],
+      "degrees": [
+        {
+          "q": 0,
+          "block_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            5,
+            5
+          ],
+          "target_rank": 30,
+          "source_rank": 36,
+          "source_minus_target": 6
+        },
+        {
+          "q": 1,
+          "block_ranks": [
+            2,
+            3,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "target_rank": 34,
+          "source_rank": 37,
+          "source_minus_target": 3
+        },
+        {
+          "q": 2,
+          "block_ranks": [
+            3,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "target_rank": 37,
+          "source_rank": 38,
+          "source_minus_target": 1
+        },
+        {
+          "q": 3,
+          "block_ranks": [
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "target_rank": 39,
+          "source_rank": 39,
+          "source_minus_target": 0
+        },
+        {
+          "q": 4,
+          "block_ranks": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4
+          ],
+          "target_rank": 39,
+          "source_rank": 40,
+          "source_minus_target": 1
+        },
+        {
+          "q": 5,
+          "block_ranks": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            3
+          ],
+          "target_rank": 37,
+          "source_rank": 41,
+          "source_minus_target": 4
+        },
+        {
+          "q": 6,
+          "block_ranks": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            3,
+            2
+          ],
+          "target_rank": 34,
+          "source_rank": 42,
+          "source_minus_target": 8
+        },
+        {
+          "q": 7,
+          "block_ranks": [
+            5,
+            5,
+            5,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "target_rank": 30,
+          "source_rank": 43,
+          "source_minus_target": 13
+        }
+      ]
+    },
+    {
+      "s": 5,
+      "m": 10,
+      "N": 55,
+      "auxiliary_and_shared_ranks": [
+        5,
+        6,
+        6
+      ],
+      "degrees": [
+        {
+          "q": 0,
+          "block_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "target_rank": 45,
+          "source_rank": 55,
+          "source_minus_target": 10
+        },
+        {
+          "q": 1,
+          "block_ranks": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "target_rank": 50,
+          "source_rank": 56,
+          "source_minus_target": 6
+        },
+        {
+          "q": 2,
+          "block_ranks": [
+            3,
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "target_rank": 54,
+          "source_rank": 57,
+          "source_minus_target": 3
+        },
+        {
+          "q": 3,
+          "block_ranks": [
+            4,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "target_rank": 57,
+          "source_rank": 58,
+          "source_minus_target": 1
+        },
+        {
+          "q": 4,
+          "block_ranks": [
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "target_rank": 59,
+          "source_rank": 59,
+          "source_minus_target": 0
+        },
+        {
+          "q": 5,
+          "block_ranks": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5
+          ],
+          "target_rank": 59,
+          "source_rank": 60,
+          "source_minus_target": 1
+        },
+        {
+          "q": 6,
+          "block_ranks": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            4
+          ],
+          "target_rank": 57,
+          "source_rank": 61,
+          "source_minus_target": 4
+        },
+        {
+          "q": 7,
+          "block_ranks": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            4,
+            3
+          ],
+          "target_rank": 54,
+          "source_rank": 62,
+          "source_minus_target": 8
+        },
+        {
+          "q": 8,
+          "block_ranks": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "target_rank": 50,
+          "source_rank": 63,
+          "source_minus_target": 13
+        },
+        {
+          "q": 9,
+          "block_ranks": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "target_rank": 45,
+          "source_rank": 64,
+          "source_minus_target": 19
+        }
+      ]
+    }
+  ]
+}

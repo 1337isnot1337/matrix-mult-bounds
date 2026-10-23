@@ -1,0 +1,36 @@
+{
+  "inspection_date": "2026-10-23",
+  "field_scope": "The formal numerical barrier uses positive real theta. The cited polynomial constructions and operational theorem treat arbitrary fields.",
+  "external_theorems_added": true,
+  "local_dependencies": [],
+  "prior_repository_attribution": "PROVENANCE.md and research/ai/2026-10-21-pass-packing/ already credit Pass's construction and discuss its scalar packing inequality. The present extension concerns AVZ26's full rectangular operational potential family.",
+  "attribution": "Pass retains credit for both polynomial packings. Amanov, van den Berg and Zuiddam retain credit for the formal operational potential, its concavity and the rectangular barrier. The discrete-tail extension and homogeneous dimension comparison are owner-directed Codex derivations, written and unreviewed.",
+  "sources": [
+    {
+      "id": "AVZ26",
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": ["Alimzhan Amanov", "Maxim van den Berg", "Jeroen Zuiddam"],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "category": "barriers",
+      "inspection": "Primary HTML Definitions 5.1-5.5, Proposition 5.7, Proposition 5.8 and its concavity proof, equations (5.3) and (5.7), Theorem 5.4.",
+      "annotation": "An operational potential obstructs improvements from a specified polynomial degeneration system. The potential is defined on formal expressions, not on all tensors.",
+      "version_note": "arXiv:2610.30054v1, dated October 21, 2026.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "PASS26",
+      "title": "Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of omega <= 9/4",
+      "authors": ["Rafael Pass"],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.28627v1",
+      "category": "shared-leg",
+      "inspection": "Primary HTML Lemmas 2.4 and 2.5 with encoding, decoding and transpose conventions.",
+      "annotation": "The primal and dual polynomial packings use c sources to produce c+2 shared-first-leg outputs under c*t >= a+2*b-1.",
+      "version_note": "arXiv:2610.28627v1, dated October 20, 2026.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    }
+  ]
+}

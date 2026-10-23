@@ -1,0 +1,40 @@
+{
+  "conditional_cost": {
+    "auxiliary_scalars": 8,
+    "tau": "22499/10000",
+    "scale": 10000000000,
+    "strict_positive_margin_numerator": 6805979977,
+    "correction_witness_constructed": false,
+    "exponent_improvement": false
+  },
+  "laurent_control": {
+    "shape": [
+      2,
+      2,
+      2
+    ],
+    "intended_terms": 8,
+    "extra_monomials": 2,
+    "scalar_corrections": 1,
+    "corrected_negative_terms": 1,
+    "surviving_extra_terms": 1,
+    "minimum_surviving_weight": 1,
+    "verified": true,
+    "exponent_improvement": false
+  },
+  "specific_candidate": {
+    "disjoint_circuits": 9,
+    "distinct_monomials": 478,
+    "monomial_correction_lower_bound": 9,
+    "scope": "Individual scalar-monomial cancellation only; arbitrary rank-one corrections remain open."
+  },
+  "arbitrary_correction_bound": {
+    "coordinate_leg": 2,
+    "disjoint_circuits": 9,
+    "distinct_monomials": 417,
+    "distinct_coordinates": 239,
+    "auxiliary_rank_lower_bound": 9,
+    "scope": "Arbitrary Laurent correction tensors to these fixed coordinate group maps with integer vertex weights; general group input mixing remains open."
+  },
+  "exponent_improvement": false
+}

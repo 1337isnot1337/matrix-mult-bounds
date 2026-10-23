@@ -1,0 +1,22 @@
+test_all_new_rectangular_certificates_and_preserved_records (test_ferrers_ruling_cap.FerrersRulingTests.test_all_new_rectangular_certificates_and_preserved_records) ... ok
+test_all_square_frontiers_and_every_saved_score (test_ferrers_ruling_cap.FerrersRulingTests.test_all_square_frontiers_and_every_saved_score) ... ERROR
+test_dominance_and_hypotheses_cannot_be_dropped (test_ferrers_ruling_cap.FerrersRulingTests.test_dominance_and_hypotheses_cannot_be_dropped) ... ok
+test_saved_independent_partition_and_jacobian_controls (test_ferrers_ruling_cap.FerrersRulingTests.test_saved_independent_partition_and_jacobian_controls) ... ok
+test_separate_full_partition_enumeration (test_ferrers_ruling_cap.FerrersRulingTests.test_separate_full_partition_enumeration) ... ok
+test_sharpened_caps_and_exact_nondominant_extremizers (test_ferrers_ruling_cap.FerrersRulingTests.test_sharpened_caps_and_exact_nondominant_extremizers) ... ok
+
+======================================================================
+ERROR: test_all_square_frontiers_and_every_saved_score (test_ferrers_ruling_cap.FerrersRulingTests.test_all_square_frontiers_and_every_saved_score)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/cinna/matrix-mult-ferrers-20261021/tests/test_ferrers_ruling_cap.py", line 125, in test_all_square_frontiers_and_every_saved_score
+    self.assertLessEqual(row['upper_score_numerator'],previous['upper_score_numerator'])
+  File "/usr/lib/python3.12/unittest/case.py", line 1261, in assertLessEqual
+    if not a <= b:
+           ^^^^^^
+TypeError: '<=' not supported between instances of 'NoneType' and 'NoneType'
+
+----------------------------------------------------------------------
+Ran 6 tests in 42.591s
+
+FAILED (errors=1)

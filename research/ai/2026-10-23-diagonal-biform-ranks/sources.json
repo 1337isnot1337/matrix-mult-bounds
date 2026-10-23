@@ -1,0 +1,30 @@
+{
+  "base_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "source_references": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "scope": "Original coefficient convention"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "scope": "Credited arbitrary-biform lower gap; not imported"
+    }
+  ],
+  "related_concurrent_work": [
+    {
+      "pr": 171,
+      "head_commit_inspected": "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+      "scope": "Two-monomial biform ranks; not a premise"
+    },
+    {
+      "pr": 186,
+      "head_commit_inspected": "7be2a2ea3573ede44ca7f1b944c1f4fb076b26b0",
+      "scope": "Elementary arbitrary-biform gap; not a premise"
+    }
+  ],
+  "imported_theorems": [],
+  "method": "Elementarily permuted conserved-index blocks, triangular minors, determinant recurrence",
+  "limitations": "All-size proof written but unreviewed; no complete tensor implication or exponent gain"
+}

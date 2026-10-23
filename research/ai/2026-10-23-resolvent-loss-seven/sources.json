@@ -1,0 +1,39 @@
+{
+  "schema": "resolvent-loss-seven-sources-v1",
+  "research_base_commit": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six/proof.md",
+      "commit": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+      "sha256": "28ea33caab5e5a194f16ecd17ef1d64db085d1e2156c08fd3f1f7d7ee6ebd798"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six/verify.py",
+      "commit": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+      "sha256": "632c6e8ea58d36777b8fb133585e1e67e3921ab436349ea0aa912ffae8661e4e"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six/certificate.json",
+      "commit": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+      "sha256": "0ae01ee06fd0b62eb21f53d4ab7de09e0b4348be390e9b34fc60d6e22c5f1190"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six/sources.json",
+      "commit": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+      "sha256": "5a79deceef0468bfd9f320ce733c3910441f2ce75eef6019f3a7675f50037b20"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "id": "STACKS-0B2R",
+      "title": "The Stacks Project, Lemma33.34.3",
+      "url": "https://stacks.math.columbia.edu/tag/0B2R",
+      "inspected_date": "2026-10-23",
+      "retrieved_html_sha256": "8cd427f74df11507a411e30a5c3c990676fb17580f980cda48b4dd1617933599",
+      "statement_used": "Two nonempty projective closed subsets whose dimensions sum to at least the ambient projective dimension intersect.",
+      "hypotheses": "Any field for the closed-subset statement; apply over the algebraic closure to obtain a base-field point.",
+      "proof_rebuilt_locally": false
+    }
+  ],
+  "credit": "PR188 supplies the low-rank locus, common image, rank-seven gap, literal source and source pins. The full-row-rank-space bound and Segre argument are classical; this package supplies the specific compression application, field descent and integer sharpness factors. No historical priority or independent review is claimed."
+}

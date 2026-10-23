@@ -1,0 +1,69 @@
+{
+  "external_fixed_point_input": {
+    "author": "J.S.Milne",
+    "title": "Algebraic Groups",
+    "version": "CUP2022; corrected October5,2021 manuscript",
+    "url": "https://www.jmilne.org/math/Books/iAG2022.pdf",
+    "sha256": "f2ddd8fa4d263085f173934664b246007a2c0bd539739b7c82de39bfb5d21f40",
+    "locator": "Corollary17.3, printed353, zero-indexed PDF363",
+    "hypotheses": "A smooth connected solvable algebraic group acting on a complete nonempty variety has a fixed point over the algebraic closure. Applied to a product of upper-triangular groups acting on a projective kernel orbit closure.",
+    "inspection": "Statement, surrounding smoothness and completeness hypotheses, and proof inspected in the author-hosted corrected manuscript.",
+    "proof_rebuilt_locally": false
+  },
+  "classical_facts_with_local_explanation": [
+    "Grassmannian quotient rank conditions are closed; Grassmannians are projective.",
+    "Distinct torus weights and upper-triangular elementary changes give a Ferrers coordinate quotient.",
+    "Characteristic-zero algebraic independence is detected by the rational Jacobian; a local explanation is in dominance.md."
+  ],
+  "local_work": "The ruling-cap formula, the optimal nondominance dichotomy, the closed-target cap, independent controls and finite ordinary applications. No historical priority or independent review is asserted.",
+  "application_inputs": [
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/two_ruling_cap.md",
+      "sha256": "85c0d59fa2ad4ff15aa28820dcedd0625b728bad9532d32a6606c66cbfaa8804",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/two_ruling_cap.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/saturation.md",
+      "sha256": "ccae4048792fbce5895c6f2520083f5a3acf891a7e88f17428eaa06362420f1a",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/saturation.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/quantitative_crossed_rank.md",
+      "sha256": "41c10e7db1d3c6ea2986cfc047973f641ee68f2175312908820fa91c43541cc5",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/quantitative_crossed_rank.md"
+    },
+    {
+      "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "path": "research/ai/2026-10-21-rectangular-direct-sums/bundle_hankel_dimension.md",
+      "sha256": "910e7aafea8e538393b5acd8ac4b26ce03a93ea79159d374695511ad5cd5343d",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/6db658954fe976e3d433991ebf606d1d5d31a9e9/research/ai/2026-10-21-rectangular-direct-sums/bundle_hankel_dimension.md"
+    },
+    {
+      "commit": "393923866321e70b7d2504361a1c40e5b057a278",
+      "path": "research/ai/2026-10-21-hankel-wronskian-cap/proof.md",
+      "sha256": "200885f9580b79b95e333629981d0569ec107072fcaeb3139118ad7a306bb547",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/393923866321e70b7d2504361a1c40e5b057a278/research/ai/2026-10-21-hankel-wronskian-cap/proof.md"
+    },
+    {
+      "commit": "393923866321e70b7d2504361a1c40e5b057a278",
+      "path": "research/ai/2026-10-21-hankel-wronskian-cap/boundary_saturation.md",
+      "sha256": "2ad3247814f867a4902f137335ac2df21ed20d6e4673084807b11837ce554ef5",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/393923866321e70b7d2504361a1c40e5b057a278/research/ai/2026-10-21-hankel-wronskian-cap/boundary_saturation.md"
+    },
+    {
+      "commit": "393923866321e70b7d2504361a1c40e5b057a278",
+      "path": "research/ai/2026-10-21-hankel-wronskian-cap/proper_sections.md",
+      "sha256": "a8668a87e647b1091b35bdea6c7f8b2c4f791bfbadcdb974cec1b8828775d7a0",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/393923866321e70b7d2504361a1c40e5b057a278/research/ai/2026-10-21-hankel-wronskian-cap/proper_sections.md"
+    },
+    {
+      "commit": "393923866321e70b7d2504361a1c40e5b057a278",
+      "path": "research/ai/2026-10-21-hankel-wronskian-cap/application.md",
+      "sha256": "dfb850bd6faae380a46ee338babd2415dd80af237311cf8de191f26f291cd5bc",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/393923866321e70b7d2504361a1c40e5b057a278/research/ai/2026-10-21-hankel-wronskian-cap/application.md"
+    }
+  ]
+}

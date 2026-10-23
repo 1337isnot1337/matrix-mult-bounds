@@ -1,0 +1,41 @@
+{
+  "external_seed": {
+    "path": "research/ai/2026-10-21-external-grid-seed/factors.json",
+    "sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "attribution": "Fawzi et al., AlphaTensor, Nature (2022), externally attributed integer M(4,5,5) rank-76 algorithm",
+    "conversion_commit": "b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+    "license": "The existing external-grid-seed/UPSTREAM_LICENSE.txt applies to the conversion data; no project license is changed."
+  },
+  "physical_bases": [
+    {
+      "variant": "mixed thirteen",
+      "path": "research/ai/2026-10-23-flip-escape/five_split_certificate.json",
+      "sha256": "12cedfc73b6de98bb302b93941c05027b8acc41df03e4606b99363cb323e1c91",
+      "attribution": "Prior local five-split physical bases, with new mixed-leg weights."
+    }
+  ],
+  "prior_local_results": [
+    "research/ai/2026-10-23-gauged-splits/README.md: positive tensor valuations and product-preserving factor gauges",
+    "research/ai/2026-10-23-grid-escape/README.md: original-U and original-W weighted obstructions; retained exact C99 enumerator",
+    "research/ai/2026-10-23-large-gauged-batches/README.md: earlier U-only larger-batch construction and exact replay pattern"
+  ],
+  "external_method": {
+    "title": "Fast and Stable Arbitrary Precision Approximate Matrix Multiplication",
+    "version": "arXiv:2610.13905v1, October 9, 2026",
+    "url": "https://arxiv.org/html/2610.13905v1",
+    "parts": "Theorems 2.1 and 2.2 and Section 2.3, physical stabilizer and nilpotent-factor deletion viewpoint",
+    "dependency": "Viewpoint and attribution; all identities and valuation implications used here are checked directly."
+  },
+  "local_work": "Owner-directed AI selection of eleven U and two W replacements with one common physical family; exact rational Laurent acceptance; new integer W weights and complete four-subset enumeration; static cover lower bound and replacement-search inequality.",
+  "search": "Bounded SciPy 1.17.0 MILP discovery, integer-weight rationalization, and fixed-weight binary polish. Numerical LP suggested a stronger W weight assignment. No optimality or completeness claim; exact rational identities and full finite enumeration are acceptance evidence.",
+  "improves_omega": false,
+  "dependency_pins": {
+    "research/ai/2026-10-21-external-grid-seed/factors.json": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "research/ai/2026-10-23-flip-escape/five_split_certificate.json": "12cedfc73b6de98bb302b93941c05027b8acc41df03e4606b99363cb323e1c91",
+    "research/ai/2026-10-23-grid-escape/verify.py": "06ffba18bbc832831682ed85e390a67a2996c9b59b44220ac9312e3d03d24617",
+    "research/ai/2026-10-23-grid-escape/weighted_flats.c": "7174304c15b71139d4a9087795baba9e40b2bc802d89fe954f93c8e3c66b4dee",
+    "research/ai/2026-10-23-grid-escape/enumeration.json": "5c646e067324eb630215e3e4fc5fecf0f2347dd0af27dd4461c8fef3ad7d6e07",
+    "research/ai/2026-10-23-grid-escape/w_enumeration.json": "cacd4fb5caf900fc1c3913363701514371c63b3a8420db9286820eac76ff3d2e"
+  },
+  "review_status": "Written-unreviewed; same-session audits do not establish independent mathematical review."
+}

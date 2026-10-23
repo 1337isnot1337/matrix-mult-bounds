@@ -1,0 +1,185 @@
+{
+  "claim": "AI-Q64-FIXED-LONG-COORDINATES-001",
+  "exact_rational_replay": true,
+  "projection": "stacked (0,0) and (1,1) inner-coordinate blocks",
+  "all_size_argument": "proof.md, diagonal recurrence from boundary rows",
+  "first_leg_maps_tested": 6,
+  "cases": [
+    {
+      "first_leg_map": "zero",
+      "sizes": [
+        {
+          "n": 1,
+          "stacked_projected_rank_over_Q": 1
+        },
+        {
+          "n": 2,
+          "stacked_projected_rank_over_Q": 4
+        },
+        {
+          "n": 3,
+          "stacked_projected_rank_over_Q": 9
+        },
+        {
+          "n": 4,
+          "stacked_projected_rank_over_Q": 16
+        },
+        {
+          "n": 5,
+          "stacked_projected_rank_over_Q": 25
+        },
+        {
+          "n": 6,
+          "stacked_projected_rank_over_Q": 36
+        }
+      ]
+    },
+    {
+      "first_leg_map": "identity",
+      "sizes": [
+        {
+          "n": 1,
+          "stacked_projected_rank_over_Q": 1
+        },
+        {
+          "n": 2,
+          "stacked_projected_rank_over_Q": 4
+        },
+        {
+          "n": 3,
+          "stacked_projected_rank_over_Q": 9
+        },
+        {
+          "n": 4,
+          "stacked_projected_rank_over_Q": 16
+        },
+        {
+          "n": 5,
+          "stacked_projected_rank_over_Q": 25
+        },
+        {
+          "n": 6,
+          "stacked_projected_rank_over_Q": 36
+        }
+      ]
+    },
+    {
+      "first_leg_map": "transpose",
+      "sizes": [
+        {
+          "n": 1,
+          "stacked_projected_rank_over_Q": 1
+        },
+        {
+          "n": 2,
+          "stacked_projected_rank_over_Q": 4
+        },
+        {
+          "n": 3,
+          "stacked_projected_rank_over_Q": 9
+        },
+        {
+          "n": 4,
+          "stacked_projected_rank_over_Q": 16
+        },
+        {
+          "n": 5,
+          "stacked_projected_rank_over_Q": 25
+        },
+        {
+          "n": 6,
+          "stacked_projected_rank_over_Q": 36
+        }
+      ]
+    },
+    {
+      "first_leg_map": "rank-one",
+      "sizes": [
+        {
+          "n": 1,
+          "stacked_projected_rank_over_Q": 1
+        },
+        {
+          "n": 2,
+          "stacked_projected_rank_over_Q": 4
+        },
+        {
+          "n": 3,
+          "stacked_projected_rank_over_Q": 9
+        },
+        {
+          "n": 4,
+          "stacked_projected_rank_over_Q": 16
+        },
+        {
+          "n": 5,
+          "stacked_projected_rank_over_Q": 25
+        },
+        {
+          "n": 6,
+          "stacked_projected_rank_over_Q": 36
+        }
+      ]
+    },
+    {
+      "first_leg_map": "diagonal-shift",
+      "sizes": [
+        {
+          "n": 1,
+          "stacked_projected_rank_over_Q": 1
+        },
+        {
+          "n": 2,
+          "stacked_projected_rank_over_Q": 4
+        },
+        {
+          "n": 3,
+          "stacked_projected_rank_over_Q": 9
+        },
+        {
+          "n": 4,
+          "stacked_projected_rank_over_Q": 16
+        },
+        {
+          "n": 5,
+          "stacked_projected_rank_over_Q": 25
+        },
+        {
+          "n": 6,
+          "stacked_projected_rank_over_Q": 36
+        }
+      ]
+    },
+    {
+      "first_leg_map": "dense-rational",
+      "sizes": [
+        {
+          "n": 1,
+          "stacked_projected_rank_over_Q": 1
+        },
+        {
+          "n": 2,
+          "stacked_projected_rank_over_Q": 4
+        },
+        {
+          "n": 3,
+          "stacked_projected_rank_over_Q": 9
+        },
+        {
+          "n": 4,
+          "stacked_projected_rank_over_Q": 16
+        },
+        {
+          "n": 5,
+          "stacked_projected_rank_over_Q": 25
+        },
+        {
+          "n": 6,
+          "stacked_projected_rank_over_Q": 36
+        }
+      ]
+    }
+  ],
+  "general_q_maps_excluded": false,
+  "exponent_improvement": false
+}

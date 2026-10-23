@@ -1,0 +1,671 @@
+{
+  "external_theorem": "AKM10 Theorem2.7 proof equations2.1-2.4; algebraically closed field C",
+  "compact_candidates": [
+    {
+      "source_degrees": [
+        7,
+        7,
+        7
+      ],
+      "target_sides": [
+        4,
+        11
+      ],
+      "ordinary_reflexive_screen": {
+        "legs": [
+          {
+            "leg": 0,
+            "codimension": 10,
+            "budgets": [
+              {
+                "rank_budget": 4,
+                "source_span_lower": 0,
+                "target_span_dimension": 16,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 7,
+                "source_span_lower": 18,
+                "target_span_dimension": 16,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 11,
+                "source_span_lower": 18,
+                "target_span_dimension": 137,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          },
+          {
+            "leg": 1,
+            "codimension": 10,
+            "budgets": [
+              {
+                "rank_budget": 4,
+                "source_span_lower": 0,
+                "target_span_dimension": 16,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 7,
+                "source_span_lower": 18,
+                "target_span_dimension": 16,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 11,
+                "source_span_lower": 18,
+                "target_span_dimension": 137,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          },
+          {
+            "leg": 2,
+            "codimension": 10,
+            "budgets": [
+              {
+                "rank_budget": 4,
+                "source_span_lower": 0,
+                "target_span_dimension": 16,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 7,
+                "source_span_lower": 18,
+                "target_span_dimension": 16,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 11,
+                "source_span_lower": 18,
+                "target_span_dimension": 137,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          }
+        ],
+        "ordinary_restriction_excluded": true,
+        "general_border_degeneration_excluded": false
+      },
+      "other_necessary_tests": {
+        "full_Koszul_powers": 74,
+        "Koszul_exclusions": [],
+        "rank_locus_budgets": 148,
+        "maximum_rank_locus_excess": 0,
+        "leg_coverage": "The block multiset is cyclically invariant; exterior duality covers remaining powers."
+      },
+      "square_determinant_screen": {
+        "applicable": true,
+        "source_determinant_factors": [
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          }
+        ],
+        "degree_budget_certificate": {
+          "legs": [
+            {
+              "leg": 0,
+              "source_dimension": 147,
+              "target_dimension": 137,
+              "codimension": 10,
+              "dimension_exclusion": false,
+              "rank_budgets": [
+                {
+                  "slice_rank_budget": 0,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 4,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 16,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 7,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 16,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 11,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 137,
+                  "excludes_ordinary_restriction": false
+                }
+              ]
+            },
+            {
+              "leg": 1,
+              "source_dimension": 147,
+              "target_dimension": 137,
+              "codimension": 10,
+              "dimension_exclusion": false,
+              "rank_budgets": [
+                {
+                  "slice_rank_budget": 0,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 4,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 16,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 7,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 16,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 11,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 137,
+                  "excludes_ordinary_restriction": false
+                }
+              ]
+            },
+            {
+              "leg": 2,
+              "source_dimension": 147,
+              "target_dimension": 137,
+              "codimension": 10,
+              "dimension_exclusion": false,
+              "rank_budgets": [
+                {
+                  "slice_rank_budget": 0,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 4,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 16,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 7,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 16,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 11,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 137,
+                  "excludes_ordinary_restriction": false
+                }
+              ]
+            }
+          ],
+          "ordinary_restriction_excluded": false,
+          "general_border_degeneration_excluded": false
+        },
+        "general_border_degeneration_excluded": false,
+        "proof": "Cauchy--Binet minor divisibility and projectively closed homogeneous factorization."
+      },
+      "conditional_gate": {
+        "tau": "221/100",
+        "scale": 10000000000,
+        "source_upper_terms": [
+          737338087993,
+          737338087993,
+          737338087993
+        ],
+        "target_lower_terms": [
+          214068408765,
+          2002063436383
+        ],
+        "strict_margin_numerator": 4117581169
+      },
+      "joint_degeneration_constructed": false
+    },
+    {
+      "source_degrees": [
+        1,
+        7,
+        7,
+        7,
+        7,
+        8
+      ],
+      "target_sides": [
+        3,
+        9,
+        9,
+        9
+      ],
+      "ordinary_reflexive_screen": {
+        "legs": [
+          {
+            "leg": 0,
+            "codimension": 9,
+            "budgets": [
+              {
+                "rank_budget": 1,
+                "source_span_lower": 0,
+                "target_span_dimension": 0,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 3,
+                "source_span_lower": 0,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 7,
+                "source_span_lower": 40,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 8,
+                "source_span_lower": 61,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 9,
+                "source_span_lower": 61,
+                "target_span_dimension": 252,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          },
+          {
+            "leg": 1,
+            "codimension": 9,
+            "budgets": [
+              {
+                "rank_budget": 1,
+                "source_span_lower": 0,
+                "target_span_dimension": 0,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 3,
+                "source_span_lower": 0,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 7,
+                "source_span_lower": 40,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 8,
+                "source_span_lower": 61,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 9,
+                "source_span_lower": 61,
+                "target_span_dimension": 252,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          },
+          {
+            "leg": 2,
+            "codimension": 9,
+            "budgets": [
+              {
+                "rank_budget": 1,
+                "source_span_lower": 0,
+                "target_span_dimension": 0,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 3,
+                "source_span_lower": 0,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": false
+              },
+              {
+                "rank_budget": 7,
+                "source_span_lower": 40,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 8,
+                "source_span_lower": 61,
+                "target_span_dimension": 9,
+                "excludes_ordinary_restriction": true
+              },
+              {
+                "rank_budget": 9,
+                "source_span_lower": 61,
+                "target_span_dimension": 252,
+                "excludes_ordinary_restriction": false
+              }
+            ]
+          }
+        ],
+        "ordinary_restriction_excluded": true,
+        "general_border_degeneration_excluded": false
+      },
+      "other_necessary_tests": {
+        "full_Koszul_powers": 131,
+        "Koszul_exclusions": [],
+        "rank_locus_budgets": 262,
+        "maximum_rank_locus_excess": 0,
+        "leg_coverage": "The block multiset is cyclically invariant; exterior duality covers remaining powers."
+      },
+      "square_determinant_screen": {
+        "applicable": true,
+        "source_determinant_factors": [
+          {
+            "degree": 1,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 7,
+            "forced_exponent": 0
+          },
+          {
+            "degree": 8,
+            "forced_exponent": 0
+          }
+        ],
+        "degree_budget_certificate": {
+          "legs": [
+            {
+              "leg": 0,
+              "source_dimension": 261,
+              "target_dimension": 252,
+              "codimension": 9,
+              "dimension_exclusion": false,
+              "rank_budgets": [
+                {
+                  "slice_rank_budget": 0,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 1,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 3,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 7,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 8,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 9,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 252,
+                  "excludes_ordinary_restriction": false
+                }
+              ]
+            },
+            {
+              "leg": 1,
+              "source_dimension": 261,
+              "target_dimension": 252,
+              "codimension": 9,
+              "dimension_exclusion": false,
+              "rank_budgets": [
+                {
+                  "slice_rank_budget": 0,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 1,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 3,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 7,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 8,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 9,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 252,
+                  "excludes_ordinary_restriction": false
+                }
+              ]
+            },
+            {
+              "leg": 2,
+              "source_dimension": 261,
+              "target_dimension": 252,
+              "codimension": 9,
+              "dimension_exclusion": false,
+              "rank_budgets": [
+                {
+                  "slice_rank_budget": 0,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 1,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 0,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 3,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 7,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 8,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 9,
+                  "excludes_ordinary_restriction": false
+                },
+                {
+                  "slice_rank_budget": 9,
+                  "source_low_rank_span_lower": 0,
+                  "target_low_rank_span_dimension": 252,
+                  "excludes_ordinary_restriction": false
+                }
+              ]
+            }
+          ],
+          "ordinary_restriction_excluded": false,
+          "general_border_degeneration_excluded": false
+        },
+        "general_border_degeneration_excluded": false,
+        "proof": "Cauchy--Binet minor divisibility and projectively closed homogeneous factorization."
+      },
+      "conditional_gate": {
+        "tau": "221/100",
+        "scale": 10000000000,
+        "source_upper_terms": [
+          10000000001,
+          737338087993,
+          737338087993,
+          737338087993,
+          737338087993,
+          990441595868
+        ],
+        "target_lower_terms": [
+          113354293098,
+          1284919576394,
+          1284919576394,
+          1284919576394
+        ],
+        "strict_margin_numerator": 18319074439
+      },
+      "joint_degeneration_constructed": false
+    }
+  ],
+  "larger_packet_ordinary_screen": {
+    "legs": [
+      {
+        "leg": 0,
+        "codimension": 5,
+        "budgets": [
+          {
+            "rank_budget": 1,
+            "source_span_lower": 0,
+            "target_span_dimension": 0,
+            "excludes_ordinary_restriction": false
+          },
+          {
+            "rank_budget": 7,
+            "source_span_lower": 136,
+            "target_span_dimension": 49,
+            "excludes_ordinary_restriction": true
+          },
+          {
+            "rank_budget": 8,
+            "source_span_lower": 185,
+            "target_span_dimension": 211,
+            "excludes_ordinary_restriction": false
+          },
+          {
+            "rank_budget": 9,
+            "source_span_lower": 383,
+            "target_span_dimension": 499,
+            "excludes_ordinary_restriction": false
+          }
+        ]
+      },
+      {
+        "leg": 1,
+        "codimension": 5,
+        "budgets": [
+          {
+            "rank_budget": 1,
+            "source_span_lower": 0,
+            "target_span_dimension": 0,
+            "excludes_ordinary_restriction": false
+          },
+          {
+            "rank_budget": 7,
+            "source_span_lower": 136,
+            "target_span_dimension": 49,
+            "excludes_ordinary_restriction": true
+          },
+          {
+            "rank_budget": 8,
+            "source_span_lower": 185,
+            "target_span_dimension": 211,
+            "excludes_ordinary_restriction": false
+          },
+          {
+            "rank_budget": 9,
+            "source_span_lower": 383,
+            "target_span_dimension": 499,
+            "excludes_ordinary_restriction": false
+          }
+        ]
+      },
+      {
+        "leg": 2,
+        "codimension": 5,
+        "budgets": [
+          {
+            "rank_budget": 1,
+            "source_span_lower": 0,
+            "target_span_dimension": 0,
+            "excludes_ordinary_restriction": false
+          },
+          {
+            "rank_budget": 7,
+            "source_span_lower": 136,
+            "target_span_dimension": 49,
+            "excludes_ordinary_restriction": true
+          },
+          {
+            "rank_budget": 8,
+            "source_span_lower": 185,
+            "target_span_dimension": 211,
+            "excludes_ordinary_restriction": false
+          },
+          {
+            "rank_budget": 9,
+            "source_span_lower": 383,
+            "target_span_dimension": 499,
+            "excludes_ordinary_restriction": false
+          }
+        ]
+      }
+    ],
+    "ordinary_restriction_excluded": true,
+    "general_border_degeneration_excluded": false
+  },
+  "sharp_examples": {
+    "d7_k5_rank_one_span": 34,
+    "d7_k10_rank_one_span": 6
+  },
+  "proof_status": "written, unreviewed ordinary application of an external theorem",
+  "improves_omega": false
+}

@@ -1,0 +1,126 @@
+{
+  "status": "exact-projected-degenerations-verified",
+  "constructs_full_fatpoint_target": false,
+  "improves_omega": false,
+  "arithmetic": "Python integers and fractions.Fraction",
+  "coverage": {
+    "coefficient_checks": 26694,
+    "negative_exponent_zero_checks": 4345
+  },
+  "records": [
+    {
+      "s": 2,
+      "m": 4,
+      "source_dimensions": [
+        3,
+        10,
+        12
+      ],
+      "target_dimensions": [
+        3,
+        10,
+        10
+      ],
+      "target_nonshared_ranks": 9,
+      "g_coefficients": [
+        0,
+        2,
+        -3,
+        1
+      ],
+      "coefficient_checks": 300,
+      "negative_exponent_zero_checks": 45,
+      "zero_coefficients": 208,
+      "nonzero_first_order_errors": 48,
+      "maximum_reduced_denominator": 2,
+      "full_tensor_identity": "mapped_source = projected_target + epsilon * error"
+    },
+    {
+      "s": 3,
+      "m": 6,
+      "source_dimensions": [
+        4,
+        21,
+        24
+      ],
+      "target_dimensions": [
+        4,
+        21,
+        21
+      ],
+      "target_nonshared_ranks": 18,
+      "g_coefficients": [
+        0,
+        -6,
+        11,
+        -6,
+        1
+      ],
+      "coefficient_checks": 1764,
+      "negative_exponent_zero_checks": 280,
+      "zero_coefficients": 1390,
+      "nonzero_first_order_errors": 200,
+      "maximum_reduced_denominator": 3,
+      "full_tensor_identity": "mapped_source = projected_target + epsilon * error"
+    },
+    {
+      "s": 4,
+      "m": 8,
+      "source_dimensions": [
+        5,
+        36,
+        40
+      ],
+      "target_dimensions": [
+        5,
+        36,
+        36
+      ],
+      "target_nonshared_ranks": 30,
+      "g_coefficients": [
+        0,
+        24,
+        -50,
+        35,
+        -10,
+        1
+      ],
+      "coefficient_checks": 6480,
+      "negative_exponent_zero_checks": 1050,
+      "zero_coefficients": 5432,
+      "nonzero_first_order_errors": 560,
+      "maximum_reduced_denominator": 24,
+      "full_tensor_identity": "mapped_source = projected_target + epsilon * error"
+    },
+    {
+      "s": 5,
+      "m": 10,
+      "source_dimensions": [
+        6,
+        55,
+        60
+      ],
+      "target_dimensions": [
+        6,
+        55,
+        55
+      ],
+      "target_nonshared_ranks": 45,
+      "g_coefficients": [
+        0,
+        -120,
+        274,
+        -225,
+        85,
+        -15,
+        1
+      ],
+      "coefficient_checks": 18150,
+      "negative_exponent_zero_checks": 2970,
+      "zero_coefficients": 15780,
+      "nonzero_first_order_errors": 1260,
+      "maximum_reduced_denominator": 120,
+      "full_tensor_identity": "mapped_source = projected_target + epsilon * error"
+    }
+  ]
+}

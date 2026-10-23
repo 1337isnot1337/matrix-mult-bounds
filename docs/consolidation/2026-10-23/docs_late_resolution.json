@@ -1,0 +1,97 @@
+{
+  "status": "complete_prepared_not_applied",
+  "source_plan": "late_catchup_plan.json",
+  "prepared_against_head": "caf51fe67bed960cbe827d81174f914aeff6968c",
+  "output_files": [
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_path": "PROVENANCE.md",
+      "prepared_against_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "input_sha256": "ed4eda2d6b9a41e3bfc74f895dd25d640ed609572b6e1255421d17e781ce0241",
+      "sha256": "6080e66bd7bcc619bd0ea147ca7eebdb60fc85ae5de770b80abdeaefdfd1fc63",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/PROVENANCE.md",
+      "reason": "Insert the exact106-product and displayed-budget size-gate continuation beside the preserved29-product package; retain all earlier narrative, attribution, and review-scope resolutions."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_path": "STATUS.md",
+      "prepared_against_commit": "caf51fe67bed960cbe827d81174f914aeff6968c",
+      "input_sha256": "88ba4fc53991bdbeca0ce578edd96a2cd488470fc268d7e1efae8041b97b6005",
+      "sha256": "5e3986f41650bb736372c965d47c8acb35a4f5cc0369d49566d1c9030cd1cab3",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_output/STATUS.md",
+      "reason": "Insert the exact106-product and displayed-budget size-gate continuation beside the preserved29-product package; retain all earlier narrative, attribution, and review-scope resolutions."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "PROVENANCE.md",
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_base": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "added_paragraphs": [
+        "The continuation in the same aggregation package adds a 106-product\nfamily, with the external ex105 witness and source hash retained. The\ncoordinate proof is the same credited centered-aggregation mechanism,\napplied to the newly exported tripartitions. The comparison of cost per\noutput holds only for n>=7. A byte-packed F2 control checks one full\nassignment to nontrivial 16-by-16 products by evaluating every rank-one\nposition exactly; its sampled assignment is not the uniform proof.\nThe accompanying size gate is an owner-directed Codex application of\ndistinct-part injection and weighted AM-GM to the displayed upper-bound\ncertificates. It makes no claim about optimal tensor rank. No historical\npriority, independent mathematical review, formalization or exponent\nimprovement is claimed for these additions."
+      ],
+      "heading_adjustment": "Use one heading for29 and106 product families."
+    },
+    {
+      "path": "STATUS.md",
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_base": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "added_paragraphs": [
+        "The [106-product continuation](research/ai/2026-10-23-aggregation-families/proof.md#7-exact-106-product-continuation)\nadds an exact characteristic-zero construction of 106 independent\nM(n^4,n^4,n^4) products for every n>=1, with budget\nx^12+12*x^11+66*x^10+139*x^9+5*x^8, x=n+1.\nAll 1,191,016 ordered mixed triples and 222 correction subsets pass the\nset-based verifier. Its cost bound per output improves the credited\nexternal 105-product bound for every integer n>=7, certified by an exact\npositive-coefficient polynomial after the shift x=8+u. A separate seeded\nF2 evaluation of 106 independent 16-by-16 products checks all 9,323,181\nrank-one positions; it is an implementation control, not the uniform proof.\nClaim: AI-AGGREGATION-106-002.",
+        "The [size gate for these displayed budgets](research/ai/2026-10-23-aggregation-families/cost_floor.md)\nalso shows that every balanced conflict-free family with N<=7 fails the\ndirect 9/4 cost comparison when the whole (n+1)^(3N) aggregate is charged.\nN>=8 is necessary for this budget model, not sufficient. This is not a\nlower bound on tensor rank; cheaper aggregate decompositions and other\nconstructions remain outside its scope. Claim: AI-AGGREGATION-COST-FLOOR-003.\nBoth new proofs are written and unreviewed, with no exponent improvement."
+      ],
+      "heading_adjustment": null
+    }
+  ],
+  "source_branch_dispositions": [
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "decision": "Add exact106-product continuation and displayed-budget size-gate summaries. Claims AI-AGGREGATION-106-002 and AI-AGGREGATION-COST-FLOOR-003 remain proof-written-unreviewed; uniform proof is distinct from one sampled finite-field evaluation."
+    },
+    {
+      "branch": "research/astra-support-search-20261023",
+      "source_commit": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+      "decision": "Shared narrative changes only import older main conic paragraphs already consolidated. Preserve later projective, fixed-third, and higher-jet corrections; no new shared prose required."
+    },
+    {
+      "branch": "research/product-longmap-residual-20261023",
+      "source_commit": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+      "decision": "Shared narrative changes only import main conic paragraphs. Three apparent novel paragraphs are exact concatenations of two known paragraphs caused by missing blank lines. Preserve the properly separated current summaries and later conic scope corrections."
+    },
+    {
+      "branch": "research/regular-leg-rank-frontier-01a1691e",
+      "source_commit": "531fef866decc818f816d70718bda36bd2ee2a7d",
+      "decision": "Only inherited older main conic narrative; retain the already consolidated later scope corrections."
+    },
+    {
+      "branch": "research/quadratic-z-middle-exact-20261023",
+      "source_commit": "0d9781b6774f328d572bb3326383978215d50306",
+      "decision": "No shared narrative or claim-ledger changes. Root retains the new package-specific proof and continuation unchanged; no synthetic claim record or evidence-status promotion added."
+    }
+  ],
+  "earlier_final_overlays_preserved": [
+    "docs/verification.md",
+    "docs/repository-settings.md",
+    "docs/research_directions.md",
+    "research/ai/2026-10-23-shift-window-long-legs/QUESTION.md"
+  ],
+  "package_markdown_policy": "Root merges all source-specific aggregation and quadratic-z files from their exact new heads. This overlay changes only shared narratives and retains the earlier final corrections.",
+  "validation": {
+    "missing_relative_markdown_links": [],
+    "pending_source_paths_confirmed": [
+      {
+        "path": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+        "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98"
+      }
+    ],
+    "balanced_fences": true,
+    "no_conflict_markers": true,
+    "all_reported_output_hashes_match": true
+  },
+  "unresolved_semantic_conflicts": []
+}

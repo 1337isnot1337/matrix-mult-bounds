@@ -1,0 +1,25 @@
+{
+  "seed": {
+    "path": "research/ai/2026-10-21-external-grid-seed/factors.json",
+    "sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "attribution": "Fawzi et al., AlphaTensor, Nature (2022), external rank-76 M(4,5,5) integer algorithm",
+    "conversion_commit": "b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+    "conversion_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe/schemes/known/alpha_tensor/4x5x5_m76_ZT.json",
+    "license": "The existing external-grid-seed/UPSTREAM_LICENSE.txt applies to the conversion data; no project license is added or changed."
+  },
+  "external_method": {
+    "title": "Fast and Stable Arbitrary Precision Approximate Matrix Multiplication",
+    "authors": "Ioana Dumitriu, Olga Holtz, Abraham Hsu, Nicholas Liskij, Yoav Moran, Ryan Schneider, Oded Schwartz, Shuncheng Yuan",
+    "version": "arXiv:2610.13905v1, October 9, 2026",
+    "url": "https://arxiv.org/html/2610.13905v1",
+    "relevant_parts": [
+      "Theorem 2.1: a nilpotent product admits contracting physical Laurent transformations",
+      "Theorem 2.2: a common contracting physical transformation permits deletion of several terms in a border algorithm",
+      "Section 2.2.1: shared-factor flips",
+      "Section 2.3: the stabilizer null-cone viewpoint for error removal"
+    ],
+    "local_dependency": "The viewpoint is external. The local finite class obstruction and explicit rational image-flag construction are checked directly; no general invariant-theory theorem is required."
+  },
+  "local_work": "Owner-directed AI-derived component proof, finite integer certificates, explicit split construction and exact Laurent coefficient replay; no independent review or historical priority claim.",
+  "improves_omega": false
+}

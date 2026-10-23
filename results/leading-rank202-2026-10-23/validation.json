@@ -1,0 +1,85 @@
+{
+  "schema": "leading-rank202-validation-v1",
+  "date_utc": "2026-10-23",
+  "base_commit": "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+  "source_cap_original_commit": "a7b550a2b2aa8c36f2eef268a73e083aece39bd2",
+  "source_cap_cherry_pick_commit": "94979d7",
+  "claim_ids": [
+    "AI-A4-RANK92-SHARP-LINEAR-SPACE-001",
+    "AI-A4-RANK96-SHARP-LINEAR-SPACE-001",
+    "AI-A4-LEADING-RANK-SUM202-001"
+  ],
+  "target_tests": {
+    "count": 7,
+    "exit_code": 0,
+    "elapsed_seconds": 1.4254403009999805,
+    "complete_log": "focused-tests.log.gz",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_leading_rank202.py",
+      "-v"
+    ]
+  },
+  "source_tests": {
+    "count": 6,
+    "exit_code": 0,
+    "elapsed_seconds": 1.0992387309997866,
+    "complete_log": "source-tests.log.gz",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_rank92_rank96_spaces.py",
+      "-v"
+    ]
+  },
+  "repository_and_archive_tests": {
+    "count": 9,
+    "exit_code": 0,
+    "elapsed_seconds": 0.15517197200006194,
+    "complete_log": "metadata-tests.log.gz",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "test_research.RepositoryTests",
+      "test_archive_integrity",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONPATH": "/workspace/scratch/814d3d40fe43/mathdeps:tests"
+    }
+  },
+  "total_tests": 22,
+  "full_repository_suite_run_in_this_checkpoint": false,
+  "complete_pair_cases": 20706,
+  "complete_triple_cases": 1050804,
+  "new_pair_exclusions": 817,
+  "new_triple_exclusions": 62478,
+  "byte_comparison_receipt": "byte-comparison.json",
+  "archive_files_byte_identical": 23,
+  "source_package_files_byte_identical": 9,
+  "git_diff_check_passed": true,
+  "claims_remain_written_unreviewed": true,
+  "independent_external_review": false,
+  "formalized": false,
+  "target_constructed": false,
+  "improves_omega": false,
+  "artifact_sha256": {
+    "controls.json": "79421f635d07e1145d6b7eef698e32a49decdf1f66247f6dd9ea588df4a11911",
+    "census.json.gz": "5b0f6e0a91b8d2bd6e71193bb8e57329ae93b900ebd37a5003b86aefa99a8952",
+    "focused-tests.log.gz": "dd021dc80170b369114be8f4ca182f23fef2825adde71f2ee9b977d49f706126",
+    "source-tests.log.gz": "d290d528b19653f9c404ab851431c2ef2e950b48ac4638f9a80abdf01d1a15db",
+    "metadata-tests.log.gz": "0c320494ff1845818a2b1d75ca8a085cc64a24401365aa8530bd8e475a4dfe11"
+  }
+}

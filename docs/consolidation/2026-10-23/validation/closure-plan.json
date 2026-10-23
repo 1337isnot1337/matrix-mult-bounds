@@ -1,0 +1,16 @@
+{
+  "scope": "Two narrow checks for the final closure capture: validate the unbalanced package's corrected README digest and the final merged Markdown links. No executable implementation, numerical witness, dependency version, or unittest inventory changed relative to the passing 8a53354c tree. Earlier receipts remain separate and unchanged.",
+  "jobs": [
+    {
+      "name": "closure-metadata",
+      "kind": "unittest",
+      "targets": [
+        "test_unbalanced_square_frontier.UnbalancedSquareFrontierTests.test_source_pins_and_package_manifest",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "expected_tests": 2,
+      "audit": "closure_code_audit.json",
+      "reason": "The unbalanced README correction changes one manifest digest; strict dependency/manifest pin validation and final link checking cover the affected behavior."
+    }
+  ]
+}

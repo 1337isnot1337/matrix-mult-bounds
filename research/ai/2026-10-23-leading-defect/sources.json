@@ -1,0 +1,66 @@
+{
+  "base_commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+  "field": "C",
+  "external_theorems_added": true,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.py",
+      "sha256": "f47226408dc6fbf07e39aa59e16cc035d7691493c7d6720c2f99417a0d10f24d"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-23-one-regular-leg/proof.md",
+      "sha256": "4fbeb29cc23b26b687c3af0b3b5d69e5c29257da3c5f3f3f411c6c5e682b02d0"
+    }
+  ],
+  "attribution": "The source minimum, complete minimum-rank classification, coherent-factor theorem, source rank gap and PR113 correction retain their original credit. The invertible leading-kernel argument and all-order defect gap are owner-directed Codex continuation without independent review.",
+  "external_dependencies": [
+    {
+      "tag": "DSP16-T1.1",
+      "author": "Clement de Seguins Pazzis; dimension bound credited to Flanders and field extension to Meshulam",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "version": "arXiv:1507.05375v2",
+      "theorem": "1.1",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "accessed": "2026-10-23",
+      "hypotheses": "A linear space of10-by10 complex matrices, every matrix rank at most9.",
+      "conclusion": "Its dimension is at most90. Only the dimension inequality is used."
+    },
+    {
+      "tag": "GRO57-T2.1",
+      "author": "A. Grothendieck",
+      "title": "Sur la classification des fibres holomorphes sur la sphere de Riemann",
+      "version": "American Journal of Mathematics79(1),1957,121-138; DOI10.2307/2372388",
+      "theorem": "2.1, printed page126",
+      "url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
+      "accessed": "2026-10-23",
+      "hypotheses": "A complex vector bundle on P1; the maintained slice_rank_gap.md constructs the relevant kernel bundle.",
+      "conclusion": "Splitting into line bundles; imported through the credited source rank-gap proof."
+    }
+  ],
+  "concurrent_related_work": [
+    {
+      "pr": 129,
+      "head_at_inspection": "43cd6aa7ea9ab452af820c808c9dee6b510e0379",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/129",
+      "scope": "Written stronger A4 long-rank sum176 via source cap below48 and saturated support; proof read, no peer replay or independent review claimed."
+    },
+    {
+      "pr": 151,
+      "head_at_inspection": "f509561d346635c097d3867a5c41741915d95491",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/151",
+      "scope": "Separate selected-pair source-torus continuation; no adoption or replay claimed."
+    }
+  ]
+}

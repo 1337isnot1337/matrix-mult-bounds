@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-10-23T18:33:58.590510+00:00",
+  "head": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+  "head_tree": "adc2b8d0f0bea2c6b5edf1d42b4eb339ec31df0d",
+  "tracked_content_sha256": "f732282332cc7d4a081a599f9e1ac15da436504f0d0bf7509be6a3e4a8054296",
+  "repo": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_repo",
+  "python": "3.12.14",
+  "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "assertions_enabled": true,
+  "plan_sha256": "6911162145d05f2565715b097c2100b0bca2b98434b6edf3fb761622d04d062c",
+  "harness_sha256": "ba1e38e28242b15b9ea2d314c4050ed9c3caf343aa5cae63cd0c35890509036e",
+  "prior_receipt_sha256": {
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/summary.json": "74a942e2b190d089e1ee0f8d6e350f7689228dede388edcb2ba186817323621a",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/tree_before.json": "a54e503343fe0884201c029bc844248705f22383bca81842943ed046b942aa1b",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/tree_after.json": "a54e503343fe0884201c029bc844248705f22383bca81842943ed046b942aa1b",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/coverage_union.json": "2f06e98ee81537f80c5f20c3d6810f5a1d09b2ddea370099a02790cecf872cd2",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/summary.json": "3360f148500a32c623255a967468b9750fbc27c9539ab159fdd65a4b0538e4ea",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/tree_before.json": "d55367589ac57e6ff071d8fbd0c7528dcf4759aff138a4d33e2c0b53dae472cf",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/tree_after.json": "d55367589ac57e6ff071d8fbd0c7528dcf4759aff138a4d33e2c0b53dae472cf"
+  },
+  "scope": "Validate the structural sequel's source metadata, added unreviewed claim and links; transfer unchanged executable/test coverage by exact bytes.",
+  "jobs": [
+    {
+      "name": "source-pins-ledger-links",
+      "kind": "unittest",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pinned_source_bytes",
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links",
+        "-v"
+      ],
+      "pid": 20,
+      "started_at": "2026-10-23T18:33:58.591407+00:00",
+      "log": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/structural_followup/source-pins-ledger-links.log",
+      "status": "passed",
+      "returncode": 0,
+      "completed_at": "2026-10-23T18:33:59.591869+00:00",
+      "elapsed_seconds": 1.0,
+      "coverage": null,
+      "tests_run": 3,
+      "unittest_elapsed_seconds": 0.154,
+      "unittest_result": "OK",
+      "printed_test_ids": [
+        "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pinned_source_bytes",
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "failure_headers": [],
+      "expected_test_count_matches": true,
+      "unique_printed_test_ids": 3,
+      "no_skips": true,
+      "log_sha256": "fea98e863f434ba9d875de2305284885138e6f5ebe6b466d03cc81f2c0e1c798"
+    }
+  ],
+  "completed_at": "2026-10-23T18:34:00.849969+00:00",
+  "elapsed_seconds": 2.259,
+  "tests_run": 3,
+  "unique_test_ids": 3,
+  "duplicated_test_ids": 0,
+  "direct_verifiers_run": 0,
+  "tracked_files_changed_during_validation": [],
+  "frozen_head_unchanged": true,
+  "clean_tracked_status_after": true,
+  "archive_unchanged": true,
+  "archive_files_hashed": 23,
+  "prior_receipts_unchanged": true,
+  "passed": true
+}

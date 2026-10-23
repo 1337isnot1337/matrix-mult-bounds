@@ -1,0 +1,226 @@
+{
+  "a4_rank_margins": [
+    {
+      "forces_regularity": true,
+      "long_map_defect": 2,
+      "retained": 110,
+      "source_defect": 2,
+      "strict_margins": {
+        "first_injectivity": 9,
+        "first_pole": 10,
+        "full_row_kernel_dimension": 2
+      },
+      "target_defect": 0
+    },
+    {
+      "forces_regularity": true,
+      "long_map_defect": 2,
+      "retained": 109,
+      "source_defect": 3,
+      "strict_margins": {
+        "first_injectivity": 7,
+        "first_pole": 7,
+        "full_row_kernel_dimension": 2
+      },
+      "target_defect": 1
+    },
+    {
+      "forces_regularity": true,
+      "long_map_defect": 2,
+      "retained": 108,
+      "source_defect": 4,
+      "strict_margins": {
+        "first_injectivity": 5,
+        "first_pole": 4,
+        "full_row_kernel_dimension": 2
+      },
+      "target_defect": 2
+    },
+    {
+      "forces_regularity": true,
+      "long_map_defect": 2,
+      "retained": 107,
+      "source_defect": 5,
+      "strict_margins": {
+        "first_injectivity": 3,
+        "first_pole": 1,
+        "full_row_kernel_dimension": 2
+      },
+      "target_defect": 3
+    },
+    {
+      "forces_regularity": false,
+      "long_map_defect": 2,
+      "retained": 106,
+      "source_defect": 6,
+      "strict_margins": {
+        "first_injectivity": 1,
+        "first_pole": -2,
+        "full_row_kernel_dimension": 2
+      },
+      "target_defect": 4
+    }
+  ],
+  "first_pole_controls": [
+    {
+      "block_ranks": [
+        1,
+        2,
+        3
+      ],
+      "defect": 1
+    },
+    {
+      "block_ranks": [
+        2,
+        4,
+        6
+      ],
+      "defect": 2
+    },
+    {
+      "block_ranks": [
+        3,
+        6,
+        9
+      ],
+      "defect": 3
+    },
+    {
+      "block_ranks": [
+        4,
+        8,
+        12
+      ],
+      "defect": 4
+    },
+    {
+      "block_ranks": [
+        5,
+        10,
+        15
+      ],
+      "defect": 5
+    },
+    {
+      "block_ranks": [
+        6,
+        12,
+        18
+      ],
+      "defect": 6
+    }
+  ],
+  "full_column_kernel_controls": [
+    {
+      "compressed_column_rank": 10,
+      "compressed_kernel_dimension": 102,
+      "contraction_rank": 16,
+      "full_column_rank": 14,
+      "full_kernel_dimension": 98,
+      "retained": 106
+    },
+    {
+      "compressed_column_rank": 11,
+      "compressed_kernel_dimension": 101,
+      "contraction_rank": 16,
+      "full_column_rank": 14,
+      "full_kernel_dimension": 98,
+      "retained": 107
+    },
+    {
+      "compressed_column_rank": 12,
+      "compressed_kernel_dimension": 100,
+      "contraction_rank": 16,
+      "full_column_rank": 14,
+      "full_kernel_dimension": 98,
+      "retained": 108
+    },
+    {
+      "compressed_column_rank": 13,
+      "compressed_kernel_dimension": 99,
+      "contraction_rank": 16,
+      "full_column_rank": 14,
+      "full_kernel_dimension": 98,
+      "retained": 109
+    },
+    {
+      "compressed_column_rank": 14,
+      "compressed_kernel_dimension": 98,
+      "contraction_rank": 16,
+      "full_column_rank": 14,
+      "full_kernel_dimension": 98,
+      "retained": 110
+    }
+  ],
+  "improves_omega": false,
+  "one_sided_target_controls": [
+    {
+      "deleted_columns": 0,
+      "rank_loss": 0,
+      "retained_rank": 11,
+      "target_rank": 11
+    },
+    {
+      "deleted_columns": 1,
+      "rank_loss": 1,
+      "retained_rank": 10,
+      "target_rank": 11
+    },
+    {
+      "deleted_columns": 2,
+      "rank_loss": 2,
+      "retained_rank": 9,
+      "target_rank": 11
+    },
+    {
+      "deleted_columns": 3,
+      "rank_loss": 3,
+      "retained_rank": 8,
+      "target_rank": 11
+    },
+    {
+      "deleted_columns": 4,
+      "rank_loss": 4,
+      "retained_rank": 7,
+      "target_rank": 11
+    }
+  ],
+  "ordinary_rank_floor": 12,
+  "proof_status": "proof-written-unreviewed",
+  "regularized_product_controls": [
+    {
+      "inner_dimension": 1,
+      "raw_constant_rank": 2,
+      "regularized_limit_rank": 1
+    },
+    {
+      "inner_dimension": 2,
+      "raw_constant_rank": 4,
+      "regularized_limit_rank": 2
+    },
+    {
+      "inner_dimension": 3,
+      "raw_constant_rank": 6,
+      "regularized_limit_rank": 3
+    },
+    {
+      "inner_dimension": 4,
+      "raw_constant_rank": 8,
+      "regularized_limit_rank": 4
+    },
+    {
+      "inner_dimension": 5,
+      "raw_constant_rank": 10,
+      "regularized_limit_rank": 5
+    },
+    {
+      "inner_dimension": 6,
+      "raw_constant_rank": 12,
+      "regularized_limit_rank": 6
+    }
+  ],
+  "scope": "Finite exact rank controls; the all-order proof is written and unreviewed.",
+  "source_pin_count": 3,
+  "target_rank_one_slice": 11
+}

@@ -1,0 +1,131 @@
+{
+  "focused_tests": {
+    "command": "python -m unittest discover -s tests -p test_aggregation_families.py -v",
+    "passed": 12,
+    "failures": 0,
+    "errors": 0,
+    "runtime_seconds": 41.322,
+    "scope": "Final 29-product and 106-product constructions, exact N<=10 cost floor, and exhaustive N=1 hypothesis control; source equivalence to the applied cost-gate checkpoint is verified in the delta receipt.",
+    "code_matches_commit": "7636f7a4b1c84032a32ea03cb17b33b50ebeb7e5",
+    "test_module_sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
+    "verifier_sha256": "0fbc73a6598ea438b8bde1b60d6498d3c57606c4a44e0821b1734c3e2d428003",
+    "binary_evaluator_sha256": "d6d6a00a9c17487d5ccbbbf79f9c7e0298895ccfbd973e83a0f6c0613503a589",
+    "log": "validation/costgate-focused.log"
+  },
+  "exact_verifiers": [
+    {
+      "witness": "witness_29.json",
+      "accepted": true,
+      "products": 29,
+      "ordered_mixed_triples": 24389,
+      "off_diagonal_compatible_triples": 0,
+      "source_integrity": {
+        "source_id": "ex28",
+        "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex28.txt",
+        "sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+        "verified": true
+      },
+      "report": "verification_report.json"
+    },
+    {
+      "witness": "witness_106.json",
+      "accepted": true,
+      "products": 106,
+      "ordered_mixed_triples": 1191016,
+      "off_diagonal_compatible_triples": 0,
+      "source_integrity": {
+        "source_id": "ex105",
+        "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex105.txt",
+        "sha256": "5be07a72963435bf97922ac990451ee434763b7516e3c588f1743e03daeb81ff",
+        "verified": true
+      },
+      "report": "verification_106_report.json"
+    }
+  ],
+  "tensor_controls": [
+    {
+      "command": "python research/ai/2026-10-23-aggregation-families/evaluate.py",
+      "accepted": true,
+      "products": 29,
+      "field_modulus": 101,
+      "local_dimension": 2,
+      "scope": "One exact scalar assignment, an implementation control rather than all tensor coefficients",
+      "rank_one_positions_enumerated": 159651,
+      "report": "tensor_control_report.json"
+    },
+    {
+      "command": "python research/ai/2026-10-23-aggregation-families/evaluate_binary.py",
+      "accepted": true,
+      "products": 106,
+      "field_modulus": 2,
+      "local_dimension": 2,
+      "scope": "One exact scalar assignment evaluated by byte-packed arithmetic, an implementation control rather than all tensor coefficients",
+      "rank_one_positions_enumerated": 9323181,
+      "nonzero_correction_aggregate_values": 117,
+      "report": "tensor_106_binary_control_report.json"
+    }
+  ],
+  "archived_replay": {
+    "command": "python tools/replay.py",
+    "passed_reports": 5,
+    "success": true,
+    "coverage": {
+      "profile_exact_grid": 73856,
+      "product_filtration": 353664,
+      "binary": 12976,
+      "ternary": 209692,
+      "random": 20000
+    }
+  },
+  "full_regression_suite": {
+    "status": "passed_combined_exact_coverage_with_costgate_delta",
+    "expected_tests": 909,
+    "covered_tests": 909,
+    "retained_unchanged_tests": 895,
+    "final_focused_aggregation_tests": 12,
+    "final_metadata_tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "skipped_tests": 0,
+    "construction_checkpoint": "f802c00d04c3f64c7436b4c9d4da67b81a1834b8",
+    "costgate_checkpoint": "da2dda0b104b2b2ee76a51d1eff352a4687442e0",
+    "construction_receipt": "validation/combined_report.json",
+    "final_receipt": "validation/costgate_delta_report.json",
+    "scope": "The prior 908-case receipt supplies 895 unchanged cases after excluding its eleven aggregation cases and its ledger/link checks. The complete final twelve-case aggregation module and two final metadata tests replace those cases. Their disjoint union equals all 909 currently discovered IDs. The cost-gate focused pass used code matching 7636f7a; all differences in the applied tree are validation evidence and documentation. Final proof and README edits were present for the metadata checks. No other baseline implementation, test source, or construction witness changed."
+  },
+  "independent_mathematical_review": false,
+  "exact_cost_scope": {
+    "method": "Weighted AM-GM followed by integer comparison",
+    "construction_integer_margins": {
+      "29": 4716973042654866123349,
+      "106": 79209213412376131178803675120
+    },
+    "all_family_receipt": "cost_floor.json",
+    "all_family_rows_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "all_family_sizes_excluded": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "applies_to": "Displayed upper-bound budgets charging the complete leading aggregate; no lower bound on optimal tensor rank or omega"
+  }
+}

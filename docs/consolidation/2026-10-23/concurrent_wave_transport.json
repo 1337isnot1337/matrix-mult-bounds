@@ -1,0 +1,52 @@
+{
+  "head_sources": [
+    "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+    "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+    "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+    "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+  ],
+  "base": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "sha256": "8a4200040941cb77c60463d0f521ad550aaabb91dd8ecf32fc1cf44250529ffc",
+  "bytes": 299646,
+  "refs": [
+    {
+      "branch": "research/a4-universal-20261023-ab94",
+      "sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "ref": "refs/heads/capture-wave-0"
+    },
+    {
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "ref": "refs/heads/capture-wave-1"
+    },
+    {
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "ref": "refs/heads/capture-wave-2"
+    },
+    {
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+      "ref": "refs/heads/capture-wave-3"
+    }
+  ],
+  "prerequisites": [
+    "6b57043164f7d534b858507a37f64fdfda38f29f"
+  ],
+  "fragments": [
+    {
+      "index": 0,
+      "bytes": 240000,
+      "sha256": "24d1026f69a8b0de85b5f7bf33b10d8d01b4f4621172770c1dc96c8014a064a7",
+      "blob": "bc629007917eed30b9f4302fa77edec8ec32ce7b"
+    },
+    {
+      "index": 1,
+      "bytes": 59646,
+      "sha256": "59e8cf51f9b58f9411944c19d5517e432eb47b63162b16d76d2222004adfe76a",
+      "blob": "9c7518157386a62520641fc7132bd168e7ec1b99"
+    }
+  ],
+  "bundle_verification_stdout": "The bundle contains these 4 refs:\nbeb14b693fc7c3283d33a87ac93e4e35afe4e6b9 refs/heads/capture-wave-0\n7797ad49913864e6da4bcbbb3fdc399e05dd11cb refs/heads/capture-wave-1\neb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce refs/heads/capture-wave-2\na8da2a3d511d2365a839f4ddd42a51816844a2ca refs/heads/capture-wave-3\nThe bundle requires these 4 refs:\n085076a94f36ae26f28a6410ab259b1c8e18a6c2 \na118381b3979f27f5b0915ceacbb69b30f2325fa \na510bec4627043b35bac0ad4b19bb617446e8949 \n6e11f7c1dfd73ae2d460e43f620a7f982920f043 \nThe bundle uses this hash algorithm: sha1\n",
+  "bundle_verification_stderr": "concurrent_wave_sources.bundle is okay\n"
+}

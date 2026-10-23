@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "captured_at": "2026-10-23T18:58:10.505359+00:00",
+  "prior_publication_candidate": "12249713f5b347fcaff3de333147243615440280",
+  "main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+  "main_parent": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "already_integrated_source": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "main_tree": "0326023ebc2ef371a3f3ce63152f12775643684c",
+  "source_tree": "0326023ebc2ef371a3f3ce63152f12775643684c",
+  "full_trees_identical": true,
+  "source_already_ancestor_of_candidate": true,
+  "merge_strategy": "ours",
+  "merge_reason": "The independently merged PR218 squash is byte-for-byte the already captured and integrated f006 source tree. Preserve the current resolved source bytes, stricter repaired source pin, claim union and all other topic work while adding actual-main ancestry.",
+  "merged_index_tree_exactly_equals_candidate_tree": true,
+  "pending_merge_parents": [
+    "12249713f5b347fcaff3de333147243615440280",
+    "a510bec4627043b35bac0ad4b19bb617446e8949"
+  ],
+  "source_snapshot_count_unchanged": 172,
+  "topic_name_count_unchanged": 138,
+  "claim_count_unchanged": 614,
+  "test_inventory_unchanged": {
+    "tests": 1961,
+    "modules": 438
+  },
+  "tests_rerun": false,
+  "reason_no_tests": "No active content changes; exact source-tree and complete merged-index identity."
+}

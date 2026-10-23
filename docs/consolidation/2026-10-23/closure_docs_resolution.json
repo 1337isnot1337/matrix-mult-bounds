@@ -1,0 +1,134 @@
+{
+  "schema": "matrix-closure-docs-resolution-v1",
+  "status": "complete_prepared_not_applied",
+  "baseline_head": "8a53354c23921b552703239aa1fdc62155a608fd",
+  "source_plan": "closure_catchup_heads.json",
+  "source_plan_sha256": "07522571a52fe51b9cd68fe17cabbd7021f01981d0aa46e1c2ba067904d100a2",
+  "analysis_report": "closure_docs_unique_deltas.json",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "source_commit": null,
+      "source_commits": [
+        "7bd28d2f9574e041d2689cae5cac299f55968f04",
+        "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede"
+      ],
+      "source_path": "STATUS.md",
+      "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "input_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
+      "sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/STATUS.md",
+      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "source_commits": [
+        "7bd28d2f9574e041d2689cae5cac299f55968f04"
+      ],
+      "source_path": "docs/research_directions.md",
+      "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "input_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
+      "sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/docs/research_directions.md",
+      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "source_commits": [
+        "7bd28d2f9574e041d2689cae5cac299f55968f04"
+      ],
+      "source_path": "research/ACTIVE.md",
+      "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "input_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
+      "sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/research/ACTIVE.md",
+      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "STATUS.md",
+      "source_commit": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+      "source_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+      "branch": "research/endpoint-constructions-20261020",
+      "before": "The [integer Laurent construction](research/ai/2026-10-21-singular-pilots/README.md)\nproves C(4,5) degenerates to 2-by-2 matrix multiplication over every field.\nAll 64 coefficient positions are checked exactly: eight target coefficients\nremain at degree zero, every negative coefficient vanishes, and twenty-two\npositive remainder terms have degrees one through seven. Two further\nsame-session source-coefficient replays agree with the displayed witness.\nThis is a finite constructive result and a pilot for the larger fat-point\nsearch. It does not establish a smaller exponent or an unbounded family.",
+      "after": "The [integer Laurent construction](research/ai/2026-10-21-singular-pilots/README.md)\nproves C(4,5) degenerates to 2-by-2 matrix multiplication over every field.\nAll 64 coefficient positions are checked exactly: eight target coefficients\nremain at degree zero, every negative-degree coefficient vanishes, and twenty-two\npositive-degree remainder terms have degrees one through seven. Two further\nsame-session source-coefficient replays agree with the displayed witness.\nThis is a finite constructive result and a pilot for the larger fat-point\nsearch. It does not establish a smaller exponent or an unbounded family.",
+      "reason": "Clarify Laurent degree rather than coefficient sign; preserve the exact finite constructive scope."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "source_base": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "branch": "research/unbalanced-square-frontier-20261023",
+      "before": "The [unbalanced frontier](research/ai/2026-10-23-unbalanced-square-frontier/README.md)\napplies the existing written rank gates to all82 cyclic source formats\n2<=a<=b with N=ab(a+b-1)<=1377, all52310 target leg dimensions and\nevery square partition. All70 formats with N<1152 are excluded for an\nimproving ordinary square direct sum. The first necessary-test survivor\nis A(8,9), N=1152; only it and A(9,9) survive through1377. The simpler\nA(8,9) -> M30 target passes every adopted square-block gate. Its exact integer\nscore certificate would imply omega<=5621/2500=2.2484 if the missing maps\nwere constructed. An independent item-first recurrence checks every\nsaved dimension score. Claims `AI-UNBALANCED-SQUARE-FRONTIER-001` and\n`COND-UNBALANCED-M30-001` retain written-unreviewed and conditional\nstatus. Singular degenerations and rectangular direct sums are outside\nthe exclusion. No target or smaller exponent is established.",
+      "after": "The [unbalanced frontier](research/ai/2026-10-23-unbalanced-square-frontier/README.md)\napplies the existing written rank gates to all82 cyclic source formats\n2<=a<=b with N=ab(a+b-1)<=1377, all52310 target leg dimensions and\nevery square partition. All70 formats with N<1152 are excluded for an\nimproving ordinary square direct sum. The first necessary-test survivor\nis A(8,9), N=1152; only it and A(9,9) survive the adopted gates\nthrough1377. The later\n[Wronskian application](research/ai/2026-10-21-hankel-wronskian-cap/application.md)\nalready excludes all improving ordinary A9 square direct sums; this\npackage preserves the earlier gate screen. The unbalanced\nA(8,9) -> M30 target passes every adopted square-block gate. Its exact integer\nscore certificate would imply omega<=5621/2500=2.2484 if the missing maps\nwere constructed. An independent item-first recurrence checks every\nsaved dimension score. Claims `AI-UNBALANCED-SQUARE-FRONTIER-001` and\n`COND-UNBALANCED-M30-001` retain written-unreviewed and conditional\nstatus. Singular degenerations and rectangular direct sums are outside\nthe exclusion. No target or smaller exponent is established.",
+      "reason": "Keep the earlier adopted gate screen as historical evidence and state the later Wronskian exclusion of all improving ordinary A9 square direct sums. The unbalanced A(8,9) question and its conditional target certificate remain distinct."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "source_base": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "branch": "research/unbalanced-square-frontier-20261023",
+      "before": "The [complete unbalanced square-sum application](../research/ai/2026-10-23-unbalanced-square-frontier/README.md)\nnow fills the source-dimension gap through1377. All70 formats below1152\nare excluded for an improving ordinary square direct sum; the first\nnecessary-test survivor is A(8,9), not the balanced A9 source. In\nparticular its unconstructed single M30 target passes the current gates\nand has an exact conditional exponent certificate5621/2500. Construct\nits actual coefficient maps or find a stronger obstruction in this\nunbalanced format. The A9 rank648 equality question remains separate.\nThe earlier balanced single-rectangular enumeration and all singular\nconstruction questions retain their stated scopes.",
+      "after": "The [complete unbalanced square-sum application](../research/ai/2026-10-23-unbalanced-square-frontier/README.md)\nnow fills the source-dimension gap through1377. All70 formats below1152\nare excluded for an improving ordinary square direct sum; the first\nnecessary-test survivor is A(8,9), not the balanced A9 source. In\nparticular its unconstructed single M30 target passes this package's adopted gates\nand has an exact conditional exponent certificate5621/2500. Construct\nits actual coefficient maps or find a stronger obstruction in this\nunbalanced format. The\n[Wronskian application](../research/ai/2026-10-21-hankel-wronskian-cap/application.md)\nalready excludes all improving ordinary A9 square direct sums, superseding\nthe A9 survival under the older adopted gates. The unbalanced A(8,9)\nquestion remains distinct.\nThe earlier balanced single-rectangular enumeration and all singular\nconstruction questions retain their stated scopes.",
+      "reason": "Keep the earlier adopted gate screen as historical evidence and state the later Wronskian exclusion of all improving ordinary A9 square direct sums. The unbalanced A(8,9) question and its conditional target certificate remain distinct."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "source_base": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "branch": "research/unbalanced-square-frontier-20261023",
+      "before": "The unbalanced ordinary frontier continuation is in\n`ai/2026-10-23-unbalanced-square-frontier/README.md`, branch\n`research/unbalanced-square-frontier-20261023` (PR117). The complete\nN<=1377 square-sum screen covers82 source formats and52310 dimensions;\nonly A(8,9) and A(9,9) survive the adopted gates. The separate\nsingle-rectangular continuation (PR138) leaves only three A(8,9) formats\nand owns their stronger rank-two/rank-three parameter-image question.\nThe existing general Hankel pencil and constant-scheme workers retain\nthose proof scopes. No target maps or smaller exponent are supplied.",
+      "after": "The unbalanced ordinary frontier continuation is in\n`ai/2026-10-23-unbalanced-square-frontier/README.md`, branch\n`research/unbalanced-square-frontier-20261023` (PR117). The complete\nN<=1377 square-sum screen covers82 source formats and52310 dimensions;\nonly A(8,9) and A(9,9) survive the adopted gates. The later\n[Wronskian application](ai/2026-10-21-hankel-wronskian-cap/application.md)\nalready excludes all improving ordinary A9 square direct sums. The saved\nA9 survival is historical; the A(8,9) question remains distinct. The separate\nsingle-rectangular continuation (PR138) leaves only three A(8,9) formats\nand owns their stronger rank-two/rank-three parameter-image question.\nThe existing general Hankel pencil and constant-scheme workers retain\nthose proof scopes. No target maps or smaller exponent are supplied.",
+      "reason": "Keep the earlier adopted gate screen as historical evidence and state the later Wronskian exclusion of all improving ordinary A9 square direct sums. The unbalanced A(8,9) question and its conditional target certificate remain distinct."
+    }
+  ],
+  "retained_baseline_files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+      "reason": "No authored new shared prose; preserve the current consolidated text over older imported-main material."
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c4abd33e7b4e59eb9c152a65a042008f30ffd85a622bbdeec1d280e4a251371",
+      "reason": "No authored new shared prose; preserve the current consolidated text over older imported-main material."
+    }
+  ],
+  "source_branch_dispositions": [
+    {
+      "branch": "research/endpoint-constructions-20261020",
+      "sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+      "previous_sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+      "decision": "Apply only STATUS negative-degree/positive-degree terminology. Other shared changes import older main and must not replace consolidated README, provenance, conic, workflow or rank scopes."
+    },
+    {
+      "branch": "research/operational-repair-20261023",
+      "sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+      "previous_sha": "494a6cca265de82aa45bd5abee0517a15516abc5",
+      "decision": "No novel shared paragraphs. Preserve all current consolidated narrative and later conic qualifications; the source adds only inherited earlier-main shared content."
+    },
+    {
+      "branch": "research/singular-unit-resolvent-20261021",
+      "sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+      "previous_sha": "d9abcec0b22a1f90500b766d71bddba05809707a",
+      "decision": "No novel shared paragraphs. Preserve all current consolidated narrative and later conic qualifications; the source adds only inherited earlier-main shared content."
+    },
+    {
+      "branch": "research/unbalanced-square-frontier-20261023",
+      "sha": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "previous_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "decision": "Apply source qualifications in STATUS, directions and ACTIVE: A9 survival refers only to older adopted gates; the later Wronskian application already excludes improving ordinary A9 square direct sums. The package README/manifest are exact incoming source files owned by graph integration."
+    }
+  ],
+  "validation": {
+    "no_conflict_markers": true,
+    "missing_relative_markdown_links": [],
+    "all_output_hashes_match": true,
+    "only_four_source_paragraph_replacements": true,
+    "no_worktree_or_network_actions": true
+  },
+  "unresolved_semantic_conflicts": []
+}

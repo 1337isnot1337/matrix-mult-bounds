@@ -1,0 +1,381 @@
+{
+  "schema": "matrix-live-catchup-169-verified-retirement-plan-v1",
+  "prepared_at_utc": "2026-10-23T18:16:47.470217+00:00",
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "scope": {
+    "topic_names": 138,
+    "topic_snapshots": 169,
+    "claims": 612,
+    "concurrent_correction_and_integration_archives_counted_separately": true
+  },
+  "input_hashes": {
+    "live_catchup_frozen_heads.json": "80fd6689d40eeb84f5c7a79e6d43b98b7d42021452a389ea554862d8cd80e468",
+    "live_catchup_source_prs_full.json": "6b1d76330ba63f918b2123cbfb7d9fb227695661b1771b27761b5ff95a58d0f0",
+    "full_target_advanced_capture.json": "bf95854c6202fcabfb78997aee8920101e97b5382f2e428783b7681f612c13d5",
+    "archive_full_target_advanced_tag.json": "622d72e28d4922bcb72c596b3b2f6dbd56f9780b829f70ef899d4899bf2e2c64",
+    "source_publication_hold.json": "192671028b3a7a44943912ffa680683645074f0dcde13a0aa636754b315c0c10",
+    "concurrent_434_capture.json": "4d1e34ccfdeaaf2bd5c31d434c29846e88cd711c4a6426a22d3ee4f45ca56d24",
+    "archive_concurrent_434.json": "89ea1fde65b3682822ddbe5692b41c04fe92d917225008ff555dfbc3d0f78fda",
+    "archive_live_catchup_tags.json": "6f7086a2d372ee51c0f97cbe0998cbb240c0a9432ddf6ef9d89494d51d1de68c",
+    "source_213_publication_hold_verified.json": "bacc20ceed1897ae06c3e72b8867900d6b5764d9026ff53c2a3bf8b4e14f8ff1"
+  },
+  "full_source_PR_records": "live_catchup_source_prs_169_verified.json",
+  "supersedes_for_execution": "live_catchup_retirement_plan_169.json",
+  "previous_plan_preserved": true,
+  "replacement_pr": 214,
+  "captured_replacement_head": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+  "expected_main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+  "separate_integrated_history": [
+    {
+      "sha": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "role": "Oblique ledger statement correction; preserve exact source/provenance separately from topic-snapshot count"
+    },
+    {
+      "sha": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "role": "Concurrent integration of the already captured main/biform contribution",
+      "archive_receipt": "archive_concurrent_434.json",
+      "archive_tag": "archive/consolidation-20261023-165523/integrated/434178af88a1"
+    }
+  ],
+  "source_PR_closures": [
+    {
+      "number": 213,
+      "head_branch": "research/full-target-reconstruction-20261023-ab94",
+      "expected_head_sha": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft": false,
+      "original_auto_merge": {
+        "commit_message": null,
+        "commit_title": null,
+        "merge_method": "squash",
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      "original_body_sha256": "494a41a2536df16dc94867daa1257ec761457ae6872328c25ed5c9d186a6033c",
+      "action_after_verification": "close_as_superseded_by_PR214"
+    },
+    {
+      "number": 215,
+      "head_branch": "research/column-overlap-20261023-ab94",
+      "expected_head_sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft": false,
+      "original_auto_merge": {
+        "commit_message": null,
+        "commit_title": null,
+        "merge_method": "squash",
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      "original_body_sha256": "132f88df66b484193c5212433c54866eb85d9d6cef9ec2e15e86a24058b359b1",
+      "action_after_verification": "close_as_superseded_by_PR214"
+    },
+    {
+      "number": 216,
+      "head_branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "expected_head_sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft": false,
+      "original_auto_merge": {
+        "commit_message": null,
+        "commit_title": null,
+        "merge_method": "squash",
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      "original_body_sha256": "054117fbbe1cc2d4a07568c5f8f67efb331c4ae97cfcd34783edcdd4b2904620",
+      "action_after_verification": "close_as_superseded_by_PR214"
+    },
+    {
+      "number": 218,
+      "head_branch": "research/quadratic-kernel-indices-01a1697d",
+      "expected_head_sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base": "main",
+      "original_draft": true,
+      "original_auto_merge": null,
+      "original_body_sha256": "2e0bbf48e9c3cea93e33b849a25b04f8f8be65305cafb72fdac72d8960af1acc",
+      "action_after_verification": "close_as_superseded_by_PR214"
+    }
+  ],
+  "source_branch_deletions": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "expected_sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/9b0bb20a6a89",
+      "archive_receipt": "archive_live_catchup_tags.json",
+      "archive_verified_in_latest_root_receipts": true,
+      "head_PRs_to_close_first": [
+        215
+      ],
+      "last_captured_open_base_dependencies": [],
+      "disposition": "delete_only_after_exact_source_ancestry_final_publication_and_fresh_dependency_protection_checks"
+    },
+    {
+      "branch": "research/hankel-finite-field-interpolation-01a1697d",
+      "expected_sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/hankel-finite-field-interpolation-01a1697d/232867536a90",
+      "archive_receipt": "archive_live_catchup_tags.json",
+      "archive_verified_in_latest_root_receipts": true,
+      "head_PRs_to_close_first": [],
+      "last_captured_open_base_dependencies": [],
+      "disposition": "delete_only_after_exact_source_ancestry_final_publication_and_fresh_dependency_protection_checks"
+    },
+    {
+      "branch": "research/quadratic-kernel-indices-01a1697d",
+      "expected_sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/7ecec6ebac9a",
+      "archive_receipt": "archive_live_catchup_tags.json",
+      "archive_verified_in_latest_root_receipts": true,
+      "head_PRs_to_close_first": [
+        218
+      ],
+      "last_captured_open_base_dependencies": [],
+      "disposition": "delete_only_after_exact_source_ancestry_final_publication_and_fresh_dependency_protection_checks"
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "expected_sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/2f8e35980749",
+      "archive_receipt": "archive_live_catchup_tags.json",
+      "archive_verified_in_latest_root_receipts": true,
+      "head_PRs_to_close_first": [
+        216
+      ],
+      "last_captured_open_base_dependencies": [],
+      "disposition": "delete_only_after_exact_source_ancestry_final_publication_and_fresh_dependency_protection_checks"
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "expected_sha": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/085076a94f36",
+      "archive_receipt": "archive_full_target_advanced_tag.json",
+      "archive_verified_in_latest_root_receipts": true,
+      "head_PRs_to_close_first": [
+        213
+      ],
+      "last_captured_open_base_dependencies": [],
+      "disposition": "delete_only_after_exact_source_ancestry_final_publication_and_fresh_dependency_protection_checks"
+    },
+    {
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "expected_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/paired-rank-two-gap-20261023-auto2/dd45f0c80030",
+      "archive_receipt": "docs/consolidation/2026-10-23/branches.json at44b91761; prior captured source",
+      "archive_verified_in_latest_root_receipts": false,
+      "head_PRs_to_close_first": [],
+      "last_captured_open_base_dependencies": [],
+      "disposition": "delete_only_after_exact_source_ancestry_final_publication_and_fresh_dependency_protection_checks"
+    }
+  ],
+  "temporary_hold_observations": [
+    {
+      "number": 213,
+      "action_in_receipt": "retained due changed state/head",
+      "before_head": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "before_draft": false,
+      "before_auto_merge": {
+        "commit_message": null,
+        "commit_title": null,
+        "merge_method": "squash",
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      "additional_verified_receipt": "source_213_publication_hold_verified.json",
+      "after_head": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "after_draft": true,
+      "after_auto_merge": null,
+      "verified": true,
+      "latest_action": "Exact advanced head converted to draft; direct GET confirms draft/open with auto_merge=null. Earlier skip remains preserved in source_publication_hold.json."
+    },
+    {
+      "number": 215,
+      "action_in_receipt": "converted to draft",
+      "before_head": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "before_draft": false,
+      "before_auto_merge": {
+        "commit_message": null,
+        "commit_title": null,
+        "merge_method": "squash",
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      "after_head": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "after_draft": true,
+      "after_auto_merge": null,
+      "verified": true
+    },
+    {
+      "number": 216,
+      "action_in_receipt": "converted to draft",
+      "before_head": "2f8e359807496f4555f045c173efe10544588f2a",
+      "before_draft": false,
+      "before_auto_merge": {
+        "commit_message": null,
+        "commit_title": null,
+        "merge_method": "squash",
+        "enabled_by": {
+          "login": "1337isnot1337",
+          "id": 164028474,
+          "node_id": "U_kgDOCcbgOg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/164028474?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/1337isnot1337",
+          "html_url": "https://github.com/1337isnot1337",
+          "followers_url": "https://api.github.com/users/1337isnot1337/followers",
+          "following_url": "https://api.github.com/users/1337isnot1337/following{/other_user}",
+          "gists_url": "https://api.github.com/users/1337isnot1337/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/1337isnot1337/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/1337isnot1337/subscriptions",
+          "organizations_url": "https://api.github.com/users/1337isnot1337/orgs",
+          "repos_url": "https://api.github.com/users/1337isnot1337/repos",
+          "events_url": "https://api.github.com/users/1337isnot1337/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/1337isnot1337/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      },
+      "after_head": "2f8e359807496f4555f045c173efe10544588f2a",
+      "after_draft": true,
+      "after_auto_merge": null,
+      "verified": true
+    }
+  ],
+  "actually_merged_PRs": [
+    {
+      "number": 217,
+      "merge_commit_sha": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+      "merged_at": "2026-10-23T18:05:59Z",
+      "source_head_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_branch": "research/top-coefficient-biforms-20261023-t2",
+      "branch_observed_absent": true,
+      "count_as_superseded_closure": false,
+      "deletion_actor": "Not determined by observed API state"
+    }
+  ],
+  "retained_refs": [
+    "main",
+    "consolidation/all-branches-20261023"
+  ],
+  "expected_remaining_actions_if_live_state_unchanged": {
+    "source_PRs_closed_as_superseded": 4,
+    "source_branches_deleted": 6
+  },
+  "ordered_preconditions": [
+    "Complete validation and publish a replacement head containing current main, both separately captured concurrent integration histories, and all169 source snapshots.",
+    "Verify each source SHA is an ancestor of the published head and every exact recovery ref remains at its archived SHA.",
+    "Re-read each PR current head/base repositories, exact head SHA and open state; preserve original bodies/draft/auto-merge metadata and root hold receipts.",
+    "Close only the four exact matching source PRs as superseded; do not act on PR217, which actually merged independently.",
+    "Re-read every source branch SHA, protection/default status and all open head/base PR dependencies, then atomically delete only exact eligible refs using expected-SHA leases.",
+    "Retain any newly advanced/recreated/protected/dependent ref or PR and record the mismatch; do not delete at the older captured SHA.",
+    "Postverify source absence, preserved archives, main/integration refs and remaining open PR dependencies."
+  ],
+  "source_head_corrections": {
+    "PR213_old_execution_head_rejected": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+    "PR213_expected_current_head": "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+  },
+  "remote_mutations_performed": false
+}

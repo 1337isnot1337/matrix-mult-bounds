@@ -1,0 +1,16 @@
+{
+  "scope": "Validate the structural sequel's source metadata, added unreviewed claim and links; transfer unchanged executable/test coverage by exact bytes.",
+  "jobs": [
+    {
+      "name": "source-pins-ledger-links",
+      "kind": "unittest",
+      "expected_tests": 3,
+      "targets": [
+        "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pinned_source_bytes",
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "reason": "All executable, test and witness bytes are unchanged; only the source record, proof/prose and additive ledger need fresh checks."
+    }
+  ]
+}

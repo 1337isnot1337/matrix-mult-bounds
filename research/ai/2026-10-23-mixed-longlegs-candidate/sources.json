@@ -1,0 +1,98 @@
+{
+  "inspection_date": "2026-10-23",
+  "attribution": "The symmetric operational potential is imported from AVZ26. Symmetric-power maximal ranks use the existing common-input package and its DO01 complex determinant theorem. Quantum/support interpretation uses CVZ23 and SDW26; the source's exact balancing was already present in the repository. The frozen profile, literal rank controls, all-degree source formulas, exterior-kernel and slice-cokernel controls, and narrow copywise dimension lemma are deductions in this owner-directed AI session, without a priority or external independent-review claim.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-common-input-rank-barrier/proof.md",
+      "sha256": "5c5a8b440c8fbef33c4f0a120af9539fba268ac961d5f5d795bf8869e031667a",
+      "role": "Sections1-2: both oriented symmetric-power rank formulas overC; formal score conventions."
+    },
+    {
+      "path": "research/ai/2026-10-20-critical-character-extension/quantum_profiles.md",
+      "sha256": "dd6fc4abe0a5adfbb86d0e8cd71ce173055133636cd166d7842a427dec54e6a4",
+      "role": "Section1: attributed exact binomial balancing and quantum entropy interpretation."
+    },
+    {
+      "path": "research/ai/2026-10-23-shared-output-koszul/proof.md",
+      "sha256": "7c42cbeb74e5fbb979d2837af4e33da55409f6b4c93c7d6243e64742c8f57277",
+      "role": "Sections2-3: nonshared degree-one Koszul definition, covariance and exact block decomposition."
+    },
+    {
+      "path": "research/ai/2026-10-23-mixed-longlegs-candidate/source_b_koszul.md",
+      "role": "Coordinating-agent all-degree B-leg source formula, including full row rank for degree at least 4.",
+      "integration_note": "The coordinating agent will copy the frozen source proof and record its final hash during integration."
+    },
+    {
+      "path": "research/ai/2026-10-23-mixed-longlegs-candidate/source_c_koszul.md",
+      "role": "All-degree output Koszul formula and generic maximality for zero-free bilinear tensors; derived by independent_theory and audited by the other three agents in the same session.",
+      "raw_draft_path": "independent_theory_work/full_source_all_c_koszul.md",
+      "raw_draft_sha256_at_frontier_audit": "9a4e2f02d4faa1e803a9cea8ce6da8ede70207c4526c136edfae426e5c1216be",
+      "integration_note": "The coordinating agent will copy the proof with repository-local references and pin the derivative copy separately."
+    }
+  ],
+  "sources": [
+    {
+      "id": "AVZ26",
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": [
+        "Alimzhan Amanov",
+        "Maxim van den Berg",
+        "Jeroen Zuiddam"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "category": "barriers",
+      "version_note": "arXiv:2610.30054v1, October21,2026.",
+      "inspection": "Primary formal-potential definition and symmetric specialization, also pinned by the preceding common-input package.",
+      "hypotheses": "This is a formal operational score on polynomial-block expressions, not an assumed character on arbitrary tensors.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "DO01",
+      "title": "The Binet-Cauchy Theorem for the Hyperdeterminant of boundary format multidimensional Matrices",
+      "authors": [
+        "Carla Dionisi",
+        "Giorgio Ottaviani"
+      ],
+      "year": 2001,
+      "url": "https://arxiv.org/pdf/math/0104281v1",
+      "category": "tensor-degenerations",
+      "version_note": "arXiv:math/0104281v1, April29,2001.",
+      "inspection": "Primary Definition2.1 and Theorem3.1, through the exact instantiation recorded in the common-input package.",
+      "hypotheses": "Complex boundary format and nondegenerate polynomial multiplication; used for the all-degree symmetric-power theorem cited locally, not for the elementary Koszul-tail proof.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "CVZ23",
+      "title": "Universal points in the asymptotic spectrum of tensors",
+      "authors": [
+        "Matthias Christandl",
+        "Péter Vrana",
+        "Jeroen Zuiddam"
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/html/1709.07851v3",
+      "category": "barriers",
+      "version_note": "Inspected arXiv:1709.07851v3, May26,2018; repository source ID follows the JAMS36(2023) publication.",
+      "inspection": "Primary entropy definition of complex quantum functionals, Sections3.2-3.4; the source reaches every ambient dimension bound by explicit uniform reduced matrices.",
+      "hypotheses": "Complex tensors, nonnegative theta with sum1; does not classify all asymptotic spectral points.",
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "SDW26",
+      "title": "Strassen's support functionals coincide with the quantum functionals",
+      "authors": [
+        "Keiya Sakabe",
+        "M. Levent Doğan",
+        "Michael Walter"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2601.21553v1",
+      "category": "barriers",
+      "version_note": "arXiv:2601.21553v1, January29,2026.",
+      "inspection": "Primary Theorem1.1 and equations(1.2)-(1.4).",
+      "hypotheses": "Complex tensors and every probability vector theta; upper support functionals equal quantum functionals.",
+      "accessed": "2026-10-23"
+    }
+  ]
+}

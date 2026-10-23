@@ -1,0 +1,252 @@
+{
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "baseline_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "source_heads": [
+    "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+    "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+    "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+    "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+  ],
+  "recorded_at": "2026-10-23T19:11:22.139893+00:00",
+  "output_directory": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "a452d72199e906b9b35303498f67d43ff749f3c95ad2db26f8b9adb593d23406",
+      "baseline_sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "source_commit": null,
+      "source_path": "STATUS.md",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/STATUS.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "dcac9d9d60d4adfa8b6d5e7e3cb0853d134268b1134442df5d816a71c4327c0f",
+      "baseline_sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+      "source_commit": null,
+      "source_path": "PROVENANCE.md",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/PROVENANCE.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "cab085f0f935139401f4fe14fcd5088537c053b168f984aa4b80188402112efe",
+      "baseline_sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
+      "source_commit": null,
+      "source_path": "docs/research_directions.md",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/docs/research_directions.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "f201d9a7373e5d461f43f1079ea11360c3e1d7cd865d3096cbf70c934bf13703",
+      "baseline_sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
+      "source_commit": null,
+      "source_path": "research/ACTIVE.md",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/research/ACTIVE.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "STATUS.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "STATUS.md",
+      "anchor": "The [complete independent-coordinate census]",
+      "before_sha256": "e1c921085aa7e654ede1532624db69569c02cd41e0f97eeb460822868afbb8e9",
+      "after_sha256": "46ee9f177d1e2905aff683e73f69caa7543732df969603e5992ae16a28819492"
+    },
+    {
+      "path": "STATUS.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "STATUS.md",
+      "anchor": "Exact replay rebuilds the literal source, its unimodular normalization,",
+      "before_sha256": "133e14c4d2e46931f60c9fba5675cde04a69a0a7383c88ee9e2d2069c2b06d97",
+      "after_sha256": "6f82472d60ef1fb0e35bb00f75a44acd705cfd4605f91dbbea0e5473d7315331"
+    },
+    {
+      "path": "STATUS.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "STATUS.md",
+      "anchor": "The [low-rank reduction]",
+      "before_sha256": "b0674b24948529ce8017dd0900c7864ee00b2e55274e1975bbe10c1ffa8e1b55",
+      "after_sha256": "0eed5223019b6399fbfaef2c6b13e60cfda10200492ee316e6ebcfed42a7c5ce"
+    },
+    {
+      "path": "STATUS.md",
+      "action": "insert_exact_source_paragraphs",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "STATUS.md",
+      "anchor": "## Independent coordinate compressions are excluded with sharp loss six",
+      "reason": "Place the new universal result immediately before the existing sharper coordinate result.",
+      "insert_sha256": "aba6e091eb00f2a39eae6370161eec6969207908d11248ef654826178e30463e"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "docs/research_directions.md",
+      "anchor": "## Full-source singular maps:",
+      "before_sha256": "472fb7309b2a9bb6dbb2106a50241d7a2174dc624835ed806877ec8f96df4b9e",
+      "after_sha256": "3112b2c84500c8a2b691e7f39ee8c99762fdcf69c83c14de1802beef8918332e"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "docs/research_directions.md",
+      "anchor": "The [independent coordinate census]",
+      "before_sha256": "55a234c111cd2c381d7c0ecd34329270fc293722c9c915856dfae04433c86c6a",
+      "after_sha256": "6a3a90626e0270991e96e1c894d0b0544bc5461d2d5837cc2b1e75db4507b85b"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "docs/research_directions.md",
+      "anchor": "The [two-sided A4 conjugation result]",
+      "before_sha256": "824b1091ceaab08972507a031990d9761623da16c6111084a9b127efa2f12728",
+      "after_sha256": "507d9a456794d04f244e103b14c280484ba8ada72e4b501373af03436b6328ac"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "docs/research_directions.md",
+      "anchor": "The [exact low-rank reduction]",
+      "before_sha256": "10d07850612bbb30211fe55f2bcab1b6536cc69f3ef7b583a1d3fe7f72fbd13f",
+      "after_sha256": "0a0c6ba0b79802e758563ad8e5209873068e1ffa42bce7f6e02472c7ecbfb44b"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ACTIVE.md",
+      "anchor": "The [independent coordinate class]",
+      "before_sha256": "04d90220c7a9e78f7d5c24b0adbf52e4e0d0779755208aeb59377636da5fb1d6",
+      "after_sha256": "f4ea0071f6ad84ba0baf321a3333b9c10234073dd07aafbebd7ecd90d3ff5926"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ACTIVE.md",
+      "anchor": "The [two-sided full-source conjugation investigation]",
+      "before_sha256": "de2b469ed4893ef31cffdecf59fe48eed5036b9dad854abb2eac96262987faa6",
+      "after_sha256": "d3d317d6bab4c9ac190f58a3a6ef1516da51de92ecb52313cad1c042dff31b88"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "action": "replace_superseded_scope_paragraph",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ACTIVE.md",
+      "anchor": "The [low-rank-locus reduction]",
+      "before_sha256": "7f8a35e64799eea0029abece00e1198ff202f161df41b8194a4f2854a2b5fc1d",
+      "after_sha256": "54951eacad1cae8139192f0d094191ebac1f830852787cbf22e74060795588a3"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "action": "insert_exact_source_paragraphs",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ACTIVE.md",
+      "anchor": "The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)",
+      "reason": "Redirect ongoing work to moving compressions or other singular paths, retaining the written-unreviewed qualification.",
+      "insert_sha256": "df88313b65ed4d3bbb60a05b1846c3b9ada8ee64956fe51c42ff2a806c854a1b"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "action": "insert_exact_source_paragraphs",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "PROVENANCE.md",
+      "anchor": "The `2026-10-23-a4-coordinate-compressions` continuation retains the",
+      "reason": "Credit the universal continuation separately from the imported finite census and prior low-rank reduction.",
+      "insert_sha256": "b36bb8b22b1d93a3043e3bae40917eb9cf9336f58a1ee685722abd41c99db390"
+    },
+    {
+      "path": "STATUS.md",
+      "action": "insert_exact_source_sections",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "STATUS.md",
+      "after_heading": "## October 23: exact independent-product aggregation",
+      "insert_sha256": "52a87c7cbfe6aa543fc19bd07d14f71404d01903bd10dbfab4cfe14bcb22d8b0"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "action": "insert_exact_source_sections",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "PROVENANCE.md",
+      "after_heading": "## Exact aggregation families with 29 and 106 products",
+      "insert_sha256": "b186bbeb3edcd001168a6220b77bded7af96e69f2daf7742327d25c5bd90908d"
+    }
+  ],
+  "accepted_source_exact_leaf_markdown": [
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "sha256": "cc17be7afa9aa8e2b295f73056526f701714d9c23175b3870c1d2963c326325a",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "sha256": "af3de759712aa2aa25bbe62a05ae42df115c31b9d77a9aef955179a321add722",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "sha256": "b8991e20409e74deb7d4b4bc8a16cc1b388ba638370355246e86f28ad7645ddf",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+      "sha256": "c53f8065fde9cedcb83a533afd3b55c1b2bdb4ddfe1b5f0d0ea1a584c9057996",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "sha256": "e798992295b3d5461f02712d2d78fe0f844796a3a3dd8ec89c1ffe2d14563334",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/README.md",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "research/ai/2026-10-23-column-overlap/README.md",
+      "sha256": "2e956dc1ff4fdccd67a487f500e063a4522425eed283ed0417bb1c841343a014",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/README.md",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/README.md",
+      "sha256": "fa9d2273e4c16d3287705a98a7d016b912ac75cdc6151e0a173f4ab07521151f",
+      "decision": "Exact incoming bytes accepted; original historical question/evidence text retained with scoped resolution or validation addendum. No merged overlay required."
+    }
+  ],
+  "semantic_review": {
+    "a4": "The torus degeneration preserves arbitrary within-weight subspaces; the exact homogeneous constraints and three remaining flag cases prove the stated fixed-family constant-compression bound over C. The transferred 104>103 obstruction leaves moving maps and different paths outside scope. The sharper coordinate bound40 and its equality witnesses remain intact. The two existing claim revisions change only limitations to point to this written-unreviewed continuation.",
+    "aggregation": "The rectangular gate requires one fixed ordered part-size triple and complete-grid charging. Fixed-form rigidity requires a target filling all centered spaces with q_r>=3. The pruned-support inequality requires at least n_t,r+1 common nonzero rows and nonzero main coefficients; it is a position budget, not a tensor-rank lower bound. The 22-product characteristic-zero construction counts all corrections and gives a border-rank upper bound below the classical 22*n^5 upper bound for n>=4, while remaining above the 9/4 critical mass. Separated-row modular discovery is not promoted to a characteristic-zero theorem. External families and raw ancillary pins retain Solomonik/Blaeser attribution.",
+    "torsion_question": "Exact 29-line source QUESTION.md is a prospective checkpoint only: no theorem, new ledger record, code or acceptance claim. PR222 is an additional original draft association at the same captured head.",
+    "review_status": "Read-only integration and scope review; same-session review is not independent mathematical review. All claim statuses/evidence flags remain source-authored."
+  },
+  "retained_baseline_scopes": [
+    "Quadratic D>0 fixed-factor guard and balanced containment without universal attainment above a=3.",
+    "Current projective-prerequisite conic limitations and later jet qualifications.",
+    "Current regular-channel/fixed-width scope and disambiguated source paths.",
+    "Current 29/106 aggregation family and N<=10 cost-floor coverage.",
+    "Current mixed-frame paragraph; the source-only spacing variant is inherited and is not imported."
+  ],
+  "unresolved_semantic_conflicts": [],
+  "network_calls": false,
+  "project_code_executed": false
+}

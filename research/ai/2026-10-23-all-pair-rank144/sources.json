@@ -1,0 +1,23 @@
+{
+  "base_commit": "b379d10f360ad1dcb7ce314850dec3f4c3a2d86c",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {"path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md", "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63", "used_for": "Canonical cyclic A4 source and its tensor-leg conventions."},
+    {"path": "research/ai/2026-10-20-graded-quantum-flags/saturation.md", "sha256": "8d58190fa9995dc040cae9ce8df362639552974533a2c115eecb57694610f19b", "used_for": "Saturated target-support inequality for two regular maps and arbitrary finite Laurent poles on the third."},
+    {"path": "research/ai/2026-10-23-torus-low-rank/proof.md", "sha256": "36a9b1a2e1e79c342087bd424ad462200154508b2743b2477f5121afd96930ad", "used_for": "Source dimension cap8 below rank24 and each individually balanced long-map rank at most101."},
+    {"path": "research/ai/2026-10-23-torus-rank-frontier/proof.md", "sha256": "f1b57540ab043b4c1c130da8a98cd5b1c89895fcd449371a3eb26574b85d8091", "used_for": "Source dimension cap24 below rank48."},
+    {"path": "research/ai/2026-10-23-torus-order-ideal/proof.md", "sha256": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233", "used_for": "Literal lowering actions, minimum Plucker-weight reduction, and source dimension cap32 below rank64."},
+    {"path": "research/ai/2026-10-23-rank37-source-spaces/proof.md", "sha256": "48e4bc892da828b773673d3102f02e7ac2d82e2b8348309e91621ce7fa4565a9", "used_for": "Sharp source dimension cap16 below rank37."},
+    {"path": "research/ai/2026-10-23-rank80-sharp-spaces/proof.md", "sha256": "50666d9495599397218854e4415caf4763c35679d915071f50aa0b0d2cb81356", "used_for": "Sharp source dimension cap44 below rank80."}
+  ],
+  "credited_prior_result": {
+    "pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/151",
+    "commit": "f509561d346635c097d3867a5c41741915d95491",
+    "proof_url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/f509561d346635c097d3867a5c41741915d95491/research/ai/2026-10-23-coordinate-kernel-cap/torus_reduction.md",
+    "proof_git_blob_sha1": "06b4fc31c9acf0fcd64e66cb3a30630441ac94c8",
+    "coordinate_proof_git_blob_sha1": "27a903b01956824f2d3e7601660484af639cee78",
+    "credit": "Universal leading-pair bound192, low-defect compression cap9, and matching/one-sided forced-cover method. The needed defect(12,12) case is rederived here using a closed incidence locus and seven order ideals, without importing the prior8008-subset certificate."
+  },
+  "attribution": "Owner-directed AI-derived continuation. Prior source, individual long-rank exclusion, source-space caps, saturation theorem and PR151 matching method retain their credit. New: incidence-preserving lowering reduction for the special compression problem, seven-case exact certificate, and the universal balanced-pair bound144 with total216. No independent external review, formalization, sharpness of leading-rank bounds, target construction or exponent improvement."
+}

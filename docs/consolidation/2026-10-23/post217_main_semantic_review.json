@@ -1,0 +1,96 @@
+{
+  "schema": "matrix-PR217-main-squash-review-v1",
+  "reviewed_at_utc": "2026-10-23T18:12:49.706108+00:00",
+  "status": "content_identical_to_captured_source",
+  "main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+  "main_parent": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "captured_topic_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+  "common_tree": "fb70983c565728cf2c6e8ba683ec96f86b8385ea",
+  "entire_tree_equal": true,
+  "publication_baseline": "44b917610b64a515122c4fb835f69b7ceefffb08",
+  "changed_paths_from_main_parent": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+    "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+    "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+    "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+    "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+    "research/claims.json",
+    "results/top-coefficient-biforms-2026-10-23/verification.json",
+    "tests/test_top_coefficient_biforms.py"
+  ],
+  "shared_source_insertions": [
+    {
+      "path": "STATUS.md",
+      "source_addition_sha256": "0d6ff6806c1d9bf3b7ef9b8a4925ab032408c151276a5d407b05b22d4b99d182",
+      "exact_occurrences_in_publication": 1
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_addition_sha256": "6198a26e1e9ea0524a47e81ac287a28bd03c04a0b3feb66b517fc4529dd94371",
+      "exact_occurrences_in_publication": 1
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_addition_sha256": "3d70cb568f46cbef88e25db1a8281d4289f04fb5621416387eb5a9b27cb5927e",
+      "exact_occurrences_in_publication": 1
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_addition_sha256": "319c0e06cf88ca39eb4897752f6a7fda0103310ce5841e1c46b7dd93afaba536",
+      "exact_occurrences_in_publication": 1
+    }
+  ],
+  "claim": {
+    "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+    "source_record_exact_in_publication": true,
+    "all_original_main_claims_unchanged_in_squash": true
+  },
+  "package_outputs": [
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "sha256": "86ec66ce941f34e796ab0c028b6d1bec810df77138c2c97f18827f06e0f980e2",
+      "exact_in_publication": true
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "sha256": "746619a3161c350af395d22040fe22d7ac5f0abc57ee3c9c8cf6a4c99e873138",
+      "exact_in_publication": true
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217",
+      "exact_in_publication": true
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496",
+      "exact_in_publication": true
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206",
+      "exact_in_publication": true
+    },
+    {
+      "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "sha256": "df2a9ae1e737a2dc7db7a000220b6d3b32162978afa7b1d3433ab738e8d49add",
+      "exact_in_publication": true
+    },
+    {
+      "path": "tests/test_top_coefficient_biforms.py",
+      "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8",
+      "exact_in_publication": true
+    }
+  ],
+  "integration_decision": "Add new main ancestry with a real merge, preserving the already reconciled publication content. Do not append another copy of the biform prose or claim; all four shared insertions appear once and all source package outputs are exact.",
+  "retirement_correction": "PR217 actually merged independently; source branch absent in API capture. Do not count it as a superseded closure or attribute branch deletion to this consolidation action.",
+  "evidence_files": [
+    "post217_inventory.json",
+    "post217_source_prs.json"
+  ],
+  "mutations": "Only this scratch receipt was written. No worktree or remote mutation."
+}

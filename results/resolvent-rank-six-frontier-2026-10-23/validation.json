@@ -1,0 +1,17 @@
+{
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "python_focused": "3.14.8",
+  "focused_tests": {
+    "command": "python -m unittest discover -s tests -p test_resolvent_rank_six_frontier.py -v",
+    "passed": 5
+  },
+  "predecessor_tests": {
+    "command": "python -m unittest discover -s tests -p test_resolvent_minrank.py -v",
+    "passed": 5
+  },
+  "standalone_verifier": "passed; recorded verification.json",
+  "full_regression": "running; not yet accepted",
+  "archive_replay": "running; not yet accepted",
+  "independent_review": false,
+  "improves_omega": false
+}

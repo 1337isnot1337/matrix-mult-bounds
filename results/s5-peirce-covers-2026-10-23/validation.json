@@ -1,0 +1,27 @@
+{
+  "integration_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+  "python": "3.14.8",
+  "focused": {
+    "command": "python -m unittest discover -s tests -p test_s5_peirce_covers.py -v",
+    "tests": 5,
+    "seconds": 44.952,
+    "result": "passed"
+  },
+  "source_and_cover_replay": "passed; full 120-cubed source replay and separate grouped coordinate counts",
+  "previous_base_hosted_regression": {
+    "head": "e16c7e3a4094d78b247877a012497cc16787dc91",
+    "run_id": 39972511019,
+    "result": "all eight Python 3.10/3.14 groups and archive replay passed; superseded run cancelled before aggregate CI"
+  },
+  "full_current_head_regression": "pending; not claimed passed",
+  "independent_mathematical_review": false,
+  "improves_omega": false,
+  "metadata_and_archive_integrity": {
+    "tests": 21,
+    "result": "passed",
+    "commands": [
+      "python -m unittest discover -s tests -p test_research.py -v",
+      "python -m unittest discover -s tests -p test_archive_integrity.py -v"
+    ]
+  }
+}

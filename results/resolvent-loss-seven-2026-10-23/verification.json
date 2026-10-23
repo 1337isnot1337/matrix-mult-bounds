@@ -1,0 +1,28 @@
+{
+  "schema": "resolvent-loss-seven-verification-v1",
+  "predecessor_locus_dimension": 17,
+  "sharpness": {
+    "left_rank": 109,
+    "right_rank": 108,
+    "total_rank_loss": 7,
+    "independent_killed_directions": 2
+  },
+  "full_source_controls": [
+    {
+      "prime": 2,
+      "original_dimension": 112,
+      "compressed_dimension": 110,
+      "kernel_dimension": 2
+    },
+    {
+      "prime": 3,
+      "original_dimension": 112,
+      "compressed_dimension": 110,
+      "kernel_dimension": 2
+    }
+  ],
+  "universal_bound_field": "every field by scalar extension and descent",
+  "universal_proof": "proof.md, importing Stacks tag 0B2R; finite rank controls are not the universal proof",
+  "independent_review": false,
+  "improves_omega": false
+}

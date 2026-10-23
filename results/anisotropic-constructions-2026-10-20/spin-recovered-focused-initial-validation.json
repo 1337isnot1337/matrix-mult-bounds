@@ -1,0 +1,174 @@
+{
+  "scope": "Recovered ordinary and Laurent fiber proofs, exact three-leg rectangle budgets, balanced low-coordinate freedoms, the full fourth vertex, and repository invariants",
+  "baseline_commit": "f7e8ae2d77bb899234570206ee062c9379f66c48",
+  "incoming_main_commit": "48bd72d9a981ec9b5075e06447c91a07799387c2",
+  "started_utc": "2026-10-21T14:58:43.722036+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "patterns": [
+    "test_spin_fiber_compression.py",
+    "test_spin_fiber_closure.py",
+    "test_spin_fiber_closure_k3.py",
+    "test_spin_rectangle_budget.py",
+    "test_parity_balancing_spin44_freedoms.py",
+    "test_parity_structure_spin22_fourth_vertex.py",
+    "test_research.py"
+  ],
+  "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S: unittest.TestSuite(defaultTestLoader.discover(tests,pattern) for each recorded pattern)",
+  "frozen_artifacts": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_fiber_compression.py",
+      "bytes": 6451,
+      "sha256": "9addd9136e742124144bfba2543c4f391bd661220a00f181edc70a09cf4ed4ce"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_fiber_compression.md",
+      "bytes": 6099,
+      "sha256": "6eef7ac871e9a221cbf92a360cc09d64f6ac0d03b9f49d5ae10d4af439d14fcb"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_fiber_closure.py",
+      "bytes": 3493,
+      "sha256": "5378dd7bd156ce1305b665d3a56c2609ec1b6183e25790a27fb6b1758a53bd9d"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_fiber_closure.md",
+      "bytes": 4089,
+      "sha256": "4d15224274cb009dc8c242d41fe6529e0a4ca572d516d2da790938ce7a1c2599"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget.py",
+      "bytes": 10154,
+      "sha256": "f9016a7ff30db882ddbbd213ddccf796b69f316238a2c8b0038a36fbc74a5731"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget_generate.py",
+      "bytes": 5769,
+      "sha256": "7e7347e4fc810544460be0bd1c61a4f04f361fd82f2739fb6b55672453abe3b5"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget.md",
+      "bytes": 7552,
+      "sha256": "f45124a86054d1c7249a96e0ec4ce268d377ce0d772632f535dccae9d8189f15"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_freedoms.py",
+      "bytes": 11919,
+      "sha256": "f636970b0e0afa364c510ec384fce7c77d5cab5f54385abba319db15fa94bfff"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_freedoms.md",
+      "bytes": 5501,
+      "sha256": "0ae769a053520f1506281f393eb764acacb4ae7284c645e6f51637c71665eee0"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex.py",
+      "bytes": 12940,
+      "sha256": "db75960cf737cbac751fed7b47992d6f0d5379c06b44080ad8233b724f9ef816"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex_generate.py",
+      "bytes": 2425,
+      "sha256": "805c7178cc10d3dc187c24a369f80b5c47dfdd6bd8f19090bc74ee92fd286eee"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex.md",
+      "bytes": 7942,
+      "sha256": "bdbef4969ea6d52985020c7d9b92999e3873c5ba32da7847f76edcaaee7118d7"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-fiber-compression-ordinary-certificate.json",
+      "bytes": 7810,
+      "sha256": "df9384e577103ed5e9630b12e24ffdff4f28259963acc78318cabfbd1695e696"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-fiber-closure-certificate.json",
+      "bytes": 6435,
+      "sha256": "cb2600eef9b87223754d6271a959cb11c5af315bf04b4adac927f37152fca80a"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-fiber-closure-k3-audit.json",
+      "bytes": 1246,
+      "sha256": "c2f26dd4ff01c6474da5332de7297952c8c2e10ac4acabaa7725d16d33d29c44"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-rectangle-budget-certificate.json",
+      "bytes": 36383,
+      "sha256": "bc2a152176e66a92f6e73b0519e66922c2bf5ec47e47f321da440329d9fb3688"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/spin-rectangle-budget-report.json",
+      "bytes": 6868,
+      "sha256": "788633a647aee96f55e949399b8b3628b7fd25ab2a1e1a94aacda681c5ba5567"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_freedoms_certificate.json",
+      "bytes": 19065,
+      "sha256": "6e890fe21e6922cfa8204461beeb04b2f10d6abc5f8fb448f7b2e2e4e67a841d"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_spin44_freedoms_report.json",
+      "bytes": 1778,
+      "sha256": "140698e5de6cd249634f5d083f12caf5460447aa41e1377b6b3deeb1354f9bfc"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin22_fourth_vertex_maps.json",
+      "bytes": 15728,
+      "sha256": "16036bc921d55b7e599a30bcddcca8148f649034188e83eaac2e7f89544b587b"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin22_fourth_vertex_witness.json",
+      "bytes": 4744,
+      "sha256": "b4b7e515158b29cec2b24fb898b864aab54f9070e3ddacfdcfe2a771828716ce"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin22_fourth_vertex_response_minors.json",
+      "bytes": 11584,
+      "sha256": "0136ae6e3993feb56709c7250f2254fcc42ac59da914801e18597b93d0f4126f"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin22_fourth_vertex_certificate.json",
+      "bytes": 2668,
+      "sha256": "1f476ccad6bbe05a101b2cf053ce811e61669d4ed614b8d81031ce2a6ceb0ff5"
+    },
+    {
+      "path": "tests/test_spin_fiber_compression.py",
+      "bytes": 2478,
+      "sha256": "51b481e5d6319b4b17213e1af1dba081fb3b028cf263ef58dd54644743b68617"
+    },
+    {
+      "path": "tests/test_spin_fiber_closure.py",
+      "bytes": 2214,
+      "sha256": "4176c39574f919dd0b553aa3197409236e8487cf392b06df2472edf7a7a17cd5"
+    },
+    {
+      "path": "tests/test_spin_fiber_closure_k3.py",
+      "bytes": 3307,
+      "sha256": "88f14257777745f607534b4b18bc852c4486f12d249c0b544549ddc6106fbaa3"
+    },
+    {
+      "path": "tests/test_spin_rectangle_budget.py",
+      "bytes": 2229,
+      "sha256": "86d6497edc7397c6dc6429da279be2ecacc17b76c9caf960414b76c887c63922"
+    },
+    {
+      "path": "tests/test_parity_balancing_spin44_freedoms.py",
+      "bytes": 2718,
+      "sha256": "172ce4406a14cec4cedf237db47e7bd86d7be9957d4c7a8f85034eb9c39d8f9c"
+    },
+    {
+      "path": "tests/test_parity_structure_spin22_fourth_vertex.py",
+      "bytes": 1608,
+      "sha256": "0047ae0a46a3bdeaca1925a9faa246f9350cac90fc236f80d5a321e9ae21377e"
+    }
+  ],
+  "running": false,
+  "external_independent_review": false,
+  "improves_omega": false,
+  "finished_utc": "2026-10-21T14:59:01.306831+00:00",
+  "tests_run": 34,
+  "failures": 0,
+  "errors": 1,
+  "skipped": 0,
+  "success": false,
+  "log_sha256": "c47c8dbec87883dcdf76b4a8339bbe0a1ea8e76dc122bdde0a7773777ccb4d89"
+}

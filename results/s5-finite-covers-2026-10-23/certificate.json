@@ -1,0 +1,776 @@
+{
+  "schema": "s5-finite-covers-v1",
+  "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+  "source_pins": {
+    "research/ai/2026-10-21-s5-block-filtration/blocks.py": "aa318451f1f3b3e5e8e383789fc9a5f47b4c7172798a0b2b9d7bb9ea03f3b7cd",
+    "results/s5-block-filtration-2026-10-21/certificate.json": "c40f48691263bc1c1f043bf48b5796e1eb9a7e2afe4b5ce341af2c921aeeba5f",
+    "research/ai/2026-10-21-s5-split/verify_radical.py": "3d1e2a4aa282e83bca1efad158c4b521cf50f886959bea5d3258d6a91ca6e6b8",
+    "results/s5-split-2026-10-21/radical-pilot.json": "a02b0fb34c8cae0d57fd5d9cf2165c8da9a5697bfa1c00bb9e7fe7e063c37421",
+    "results/s5-block-filtration-2026-10-21/frontier.json": "6c58e78da9cb70dfcbe5047899c10de16d3524341d26e1424d16df571f103a4f",
+    "research/ai/2026-10-21-central-cover-finite-slices/proof.md": "451c6622ea3549d64b73c95d67023b1b3d6d5f3b338738d2cb9327207413cfc9"
+  },
+  "scope": "One-copy characteristic-two degenerations to a single matrix tensor; over C only the maintained coefficient-one coordinate/potential class.",
+  "proof_status": "written proof; unreviewed; not formalized",
+  "weight_search_limit": 12,
+  "sources": [
+    {
+      "central_rank": 1,
+      "source_dimension": 240,
+      "power": 3,
+      "rows": [
+        {
+          "principal_factors": 0,
+          "central_factors": 6,
+          "word_multiplicity": 1,
+          "matrix_multiplicity": 4096,
+          "weights": [
+            1,
+            1
+          ],
+          "cutoffs": [
+            1,
+            1,
+            2
+          ],
+          "degree_counts_without_matrix": [
+            1,
+            6,
+            15,
+            20,
+            15,
+            6,
+            1
+          ],
+          "whole_leg_slices": 262144,
+          "selected_slices": 147456,
+          "primitive_weight_pairs_tested": 91
+        },
+        {
+          "principal_factors": 1,
+          "central_factors": 5,
+          "word_multiplicity": 3,
+          "matrix_multiplicity": 256,
+          "weights": [
+            2,
+            5
+          ],
+          "cutoffs": [
+            9,
+            13,
+            13
+          ],
+          "degree_counts_without_matrix": [
+            17,
+            0,
+            9,
+            0,
+            9,
+            85,
+            18,
+            45,
+            9,
+            45,
+            179,
+            90,
+            107,
+            45,
+            90,
+            215,
+            180,
+            175,
+            90,
+            90,
+            175,
+            180,
+            215,
+            90,
+            45,
+            107,
+            90,
+            179,
+            45,
+            9,
+            45,
+            18,
+            85,
+            9,
+            0,
+            9,
+            0,
+            17
+          ],
+          "whole_leg_slices": 720896,
+          "selected_slices": 397568,
+          "primitive_weight_pairs_tested": 91
+        },
+        {
+          "principal_factors": 2,
+          "central_factors": 4,
+          "word_multiplicity": 3,
+          "matrix_multiplicity": 16,
+          "weights": [
+            1,
+            3
+          ],
+          "cutoffs": [
+            7,
+            7,
+            8
+          ],
+          "degree_counts_without_matrix": [
+            289,
+            306,
+            387,
+            1930,
+            1935,
+            2340,
+            6056,
+            5472,
+            6201,
+            11478,
+            9045,
+            9450,
+            14126,
+            9450,
+            9045,
+            11478,
+            6201,
+            5472,
+            6056,
+            2340,
+            1935,
+            1930,
+            387,
+            306,
+            289
+          ],
+          "whole_leg_slices": 1982464,
+          "selected_slices": 997536,
+          "primitive_weight_pairs_tested": 91
+        },
+        {
+          "principal_factors": 3,
+          "central_factors": 3,
+          "word_multiplicity": 1,
+          "matrix_multiplicity": 1,
+          "weights": [
+            1,
+            3
+          ],
+          "cutoffs": [
+            8,
+            8,
+            9
+          ],
+          "degree_counts_without_matrix": [
+            4913,
+            7803,
+            11934,
+            39336,
+            54054,
+            74952,
+            147981,
+            175419,
+            217701,
+            332495,
+            344412,
+            382806,
+            488715,
+            443367,
+            443367,
+            488715,
+            382806,
+            344412,
+            332495,
+            217701,
+            175419,
+            147981,
+            74952,
+            54054,
+            39336,
+            11934,
+            7803,
+            4913
+          ],
+          "whole_leg_slices": 5451776,
+          "selected_slices": 2534774,
+          "primitive_weight_pairs_tested": 91
+        }
+      ],
+      "slice_upper_bound": 6867542,
+      "single_target_volume_upper_bound": 2620,
+      "previous_complex_test_survivor_count": 6,
+      "new_coordinate_exclusions": [
+        [
+          13,
+          13,
+          16
+        ],
+        [
+          14,
+          14,
+          14
+        ],
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          14,
+          14,
+          15
+        ]
+      ],
+      "remaining_shapes": [
+        [
+          13,
+          13,
+          15
+        ],
+        [
+          13,
+          14,
+          14
+        ]
+      ]
+    },
+    {
+      "central_rank": 2,
+      "source_dimension": 480,
+      "power": 3,
+      "rows": [
+        {
+          "principal_factors": 0,
+          "central_factors": 9,
+          "word_multiplicity": 1,
+          "matrix_multiplicity": 4096,
+          "weights": [
+            1,
+            1
+          ],
+          "cutoffs": [
+            2,
+            2,
+            3
+          ],
+          "degree_counts_without_matrix": [
+            1,
+            9,
+            36,
+            84,
+            126,
+            126,
+            84,
+            36,
+            9,
+            1
+          ],
+          "whole_leg_slices": 2097152,
+          "selected_slices": 909312,
+          "primitive_weight_pairs_tested": 91
+        },
+        {
+          "principal_factors": 1,
+          "central_factors": 8,
+          "word_multiplicity": 3,
+          "matrix_multiplicity": 256,
+          "weights": [
+            2,
+            5
+          ],
+          "cutoffs": [
+            14,
+            18,
+            18
+          ],
+          "degree_counts_without_matrix": [
+            17,
+            0,
+            9,
+            0,
+            9,
+            136,
+            18,
+            72,
+            9,
+            72,
+            485,
+            144,
+            269,
+            72,
+            252,
+            1024,
+            504,
+            640,
+            252,
+            504,
+            1442,
+            1008,
+            1106,
+            504,
+            630,
+            1456,
+            1260,
+            1456,
+            630,
+            504,
+            1106,
+            1008,
+            1442,
+            504,
+            252,
+            640,
+            504,
+            1024,
+            252,
+            72,
+            269,
+            144,
+            485,
+            72,
+            9,
+            72,
+            18,
+            136,
+            9,
+            0,
+            9,
+            0,
+            17
+          ],
+          "whole_leg_slices": 5767168,
+          "selected_slices": 2440192,
+          "primitive_weight_pairs_tested": 91
+        },
+        {
+          "principal_factors": 2,
+          "central_factors": 7,
+          "word_multiplicity": 3,
+          "matrix_multiplicity": 16,
+          "weights": [
+            4,
+            11
+          ],
+          "cutoffs": [
+            40,
+            40,
+            43
+          ],
+          "degree_counts_without_matrix": [
+            289,
+            0,
+            0,
+            0,
+            306,
+            0,
+            0,
+            0,
+            387,
+            0,
+            0,
+            2023,
+            774,
+            0,
+            0,
+            2142,
+            711,
+            0,
+            0,
+            2709,
+            792,
+            0,
+            6069,
+            5418,
+            1226,
+            0,
+            6426,
+            4977,
+            792,
+            0,
+            8127,
+            5544,
+            711,
+            10115,
+            16254,
+            8582,
+            774,
+            10710,
+            14931,
+            5544,
+            387,
+            13545,
+            16632,
+            4977,
+            10421,
+            27090,
+            25746,
+            5418,
+            10999,
+            24885,
+            16632,
+            2709,
+            13545,
+            27720,
+            14931,
+            8211,
+            27090,
+            42910,
+            16254,
+            8449,
+            24885,
+            27720,
+            8127,
+            8127,
+            27720,
+            24885,
+            8449,
+            16254,
+            42910,
+            27090,
+            8211,
+            14931,
+            27720,
+            13545,
+            2709,
+            16632,
+            24885,
+            10999,
+            5418,
+            25746,
+            27090,
+            10421,
+            4977,
+            16632,
+            13545,
+            387,
+            5544,
+            14931,
+            10710,
+            774,
+            8582,
+            16254,
+            10115,
+            711,
+            5544,
+            8127,
+            0,
+            792,
+            4977,
+            6426,
+            0,
+            1226,
+            5418,
+            6069,
+            0,
+            792,
+            2709,
+            0,
+            0,
+            711,
+            2142,
+            0,
+            0,
+            774,
+            2023,
+            0,
+            0,
+            387,
+            0,
+            0,
+            0,
+            306,
+            0,
+            0,
+            0,
+            289
+          ],
+          "whole_leg_slices": 15859712,
+          "selected_slices": 6165024,
+          "primitive_weight_pairs_tested": 91
+        },
+        {
+          "principal_factors": 3,
+          "central_factors": 6,
+          "word_multiplicity": 1,
+          "matrix_multiplicity": 1,
+          "weights": [
+            1,
+            3
+          ],
+          "cutoffs": [
+            11,
+            11,
+            12
+          ],
+          "degree_counts_without_matrix": [
+            4913,
+            7803,
+            11934,
+            54075,
+            77463,
+            110754,
+            280728,
+            360990,
+            478359,
+            899359,
+            1040634,
+            1272699,
+            1969479,
+            2056914,
+            2319840,
+            3100326,
+            2921562,
+            3040632,
+            3597280,
+            3040632,
+            2921562,
+            3100326,
+            2319840,
+            2056914,
+            1969479,
+            1272699,
+            1040634,
+            899359,
+            478359,
+            360990,
+            280728,
+            110754,
+            77463,
+            54075,
+            11934,
+            7803,
+            4913
+          ],
+          "whole_leg_slices": 43614208,
+          "selected_slices": 15768612,
+          "primitive_weight_pairs_tested": 91
+        }
+      ],
+      "slice_upper_bound": 42493572,
+      "single_target_volume_upper_bound": 6518,
+      "previous_complex_test_survivor_count": 45,
+      "new_coordinate_exclusions": [
+        [
+          16,
+          16,
+          26
+        ],
+        [
+          17,
+          17,
+          23
+        ],
+        [
+          16,
+          17,
+          24
+        ],
+        [
+          17,
+          17,
+          24
+        ],
+        [
+          16,
+          17,
+          25
+        ],
+        [
+          18,
+          18,
+          21
+        ],
+        [
+          17,
+          18,
+          22
+        ],
+        [
+          18,
+          18,
+          22
+        ],
+        [
+          16,
+          18,
+          23
+        ],
+        [
+          17,
+          18,
+          23
+        ],
+        [
+          16,
+          18,
+          24
+        ],
+        [
+          19,
+          19,
+          19
+        ],
+        [
+          18,
+          19,
+          20
+        ],
+        [
+          19,
+          19,
+          20
+        ],
+        [
+          17,
+          19,
+          21
+        ],
+        [
+          18,
+          19,
+          21
+        ],
+        [
+          19,
+          19,
+          21
+        ],
+        [
+          16,
+          19,
+          22
+        ],
+        [
+          17,
+          19,
+          22
+        ],
+        [
+          18,
+          19,
+          22
+        ],
+        [
+          15,
+          19,
+          23
+        ],
+        [
+          16,
+          19,
+          23
+        ],
+        [
+          17,
+          20,
+          20
+        ],
+        [
+          18,
+          20,
+          20
+        ],
+        [
+          19,
+          20,
+          20
+        ],
+        [
+          16,
+          20,
+          21
+        ],
+        [
+          17,
+          20,
+          21
+        ],
+        [
+          18,
+          20,
+          21
+        ],
+        [
+          15,
+          20,
+          22
+        ],
+        [
+          16,
+          20,
+          22
+        ],
+        [
+          17,
+          20,
+          22
+        ],
+        [
+          15,
+          21,
+          21
+        ],
+        [
+          16,
+          21,
+          21
+        ],
+        [
+          17,
+          21,
+          21
+        ]
+      ],
+      "remaining_shapes": [
+        [
+          16,
+          16,
+          25
+        ],
+        [
+          18,
+          18,
+          20
+        ],
+        [
+          17,
+          18,
+          21
+        ],
+        [
+          15,
+          18,
+          24
+        ],
+        [
+          18,
+          19,
+          19
+        ],
+        [
+          17,
+          19,
+          20
+        ],
+        [
+          16,
+          19,
+          21
+        ],
+        [
+          14,
+          19,
+          24
+        ],
+        [
+          16,
+          20,
+          20
+        ]
+      ]
+    }
+  ],
+  "optimal_cover_claimed": false,
+  "improves_omega": false
+}

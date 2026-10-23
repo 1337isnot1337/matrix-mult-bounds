@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-20/search_degenerations.py",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "355c3f10550fd146c1c7d598c5ca36a9b2ce92bce23b1c7f548a680045e64bc2",
+      "scope": "Unmodified historical support discovery and block recognition; score acceptance is separately implemented."
+    },
+    {
+      "path": "research/ai/2026-10-20/research_note.md",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "3f1de5a7c4209a894b39bc95801af6aa5bf65df85e32379de09271f6c7207e63",
+      "scope": "Original scalar profile and monomial score definitions, with their attribution and limits."
+    }
+  ],
+  "external_sources": [],
+  "related_work": {
+    "pr": 118,
+    "head": "019269fad70d78845627e91eafe10b4063e3890c",
+    "scope": "Maintained exact rational ranking and retained-record replay; inspected for the ordered input-role coverage boundary, not imported."
+  }
+}

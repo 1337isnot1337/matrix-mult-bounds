@@ -1,6 +1,22 @@
 # Research field
 
-Snapshot: October 20, 2026. This map is selective. Each source record states what was inspected and what was not rebuilt.
+Initial snapshot: October 20, 2026. The operational-barrier entry was added on October 23. This map is selective. Each source record states the inspection scope.
+
+## October23 source update: polynomial constructions and operational limits
+
+[PASS26](https://arxiv.org/html/2610.28627v1), Rafael Pass, gives explicit
+primal and dual polynomial packings and a constructive proof of the
+existing9/4 exponent. The source is version1, dated October20,2026.
+[AVZ26](https://arxiv.org/html/2610.30054v1), Alimzhan Amanov, Maxim van den
+Berg and Jeroen Zuiddam, gives an all-field exposition and an operational
+barrier for the specified polynomial ingredients and combination rules.
+The source is version1, dated October21,2026. Its formal potentials are
+not asserted to be monotone under arbitrary tensor degeneration.
+
+The [local extension](../research/ai/2026-10-23-pass-operational-barrier/proof.md)
+proves that adding every Pass primal/dual packing preserves all those
+rectangular potentials. The external results and local consequence retain
+separate attribution and evidence status.
 
 ## Main lines of work
 
@@ -51,6 +67,8 @@ Navot's project extends the result to every field. The Hugin-Hilbert project ext
 
 A method barrier is not an unrestricted lower bound on $\omega$. Ambainis, Filmus, and Le Gall constrain specified laser-method analyses. Alman constrains the universal method on Coppersmith-Winograd tensors. The cap-set work constrains specified group-theoretic routes. These statements have different hypotheses. [AFL15, ALMAN19, BCCGNU17]
 
+Amanov, van den Berg and Zuiddam prove an operational barrier for the polynomial-degeneration method. Their formal preorder includes specified degeneration ingredients, restrictions, isomorphisms and combination rules. Its square and rectangular exponent bounds cannot improve through those operations alone. The functions that prove this barrier need not be invariants of actual tensors. Arbitrary new degenerations remain outside this conclusion. [ABZ26]
+
 The local matching-profile result is narrower still: it concerns the explicitly listed scalar axioms. It does not represent all tensor inequalities. See [the local status](../STATUS.md).
 
 ## References and inspection record
@@ -58,6 +76,14 @@ The local matching-profile result is narrower still: it concerns the explicitly 
 The JSON source registry is authoritative for versions and inspection scope. The BibTeX export is a convenience, not evidence of a full-paper review.
 
 [Source registry](../references/sources.json) | [BibTeX](../references/references.bib)
+
+### ABZ26
+
+[Multiplying matrices via polynomials: exposition and barriers](https://arxiv.org/html/2610.30054v1). Alimzhan Amanov; Maxim van den Berg; Jeroen Zuiddam. Submitted October 21, 2026.
+
+The paper presents the square and rectangular bounds over every field. Section 5 proves an operational barrier for the stated formal calculus. Definition 5.5 gives asymmetric monotones, and Proposition 5.9 proves their monotonicity. The local [paired-repair deduction](../research/ai/2026-10-23-operational-repair-barrier/README.md) applies those functions to the existing paired source.
+
+Inspection: Primary v1 HTML, Theorems 1.1, 1.2 and 5.4, Definitions 5.1–5.5, and Propositions 5.7–5.9. The external monotonicity proof is imported, with its scope retained. No local formalization is claimed.
 
 ### STR69
 
@@ -81,15 +107,11 @@ Inspection: Bibliographic entry and use in OAI26.
 
 The asymptotic sum inequality connects simultaneous independent matrix products to exponent bounds.
 
-Inspection: Bibliographic entry and use in OAI26.
-
 ### STR87
 
 [Relative bilinear complexity and matrix multiplication](https://doi.org/10.1515/crll.1987.375-376.406). Volker Strassen. 1987.
 
 A foundational source for the tensor-power and laser-method framework.
-
-Inspection: Bibliographic entry and use in OAI26.
 
 ### STR88
 
@@ -97,15 +119,11 @@ Inspection: Bibliographic entry and use in OAI26.
 
 Spectral points encode asymptotic tensor comparisons through additive, multiplicative, monotone numerical invariants.
 
-Inspection: Bibliographic entry and use in OAI26.
-
 ### CW90
 
 [Matrix multiplication via arithmetic progressions](https://doi.org/10.1016/S0747-7171(08)80013-2). Don Coppersmith; Shmuel Winograd. 1990.
 
 Auxiliary tensors and progression-free sets underpin the later Coppersmith-Winograd tensor analyses.
-
-Inspection: Bibliographic entry and use in OAI26.
 
 ### STO10
 
@@ -229,8 +247,6 @@ Manuscript dated October 9, 2026; submitted October 12. Enough distinct field el
 
 Constructs universal spectral points and relates tensor asymptotics to quantum functionals.
 
-Inspection: Primary abstract and OAI26 bibliography.
-
 Preprint 2017; JAMS 36 (2023), 31-79; DOI 10.1090/jams/996.
 
 ### CU03
@@ -238,8 +254,6 @@ Preprint 2017; JAMS 36 (2023), 31-79; DOI 10.1090/jams/996.
 [A group-theoretic approach to fast matrix multiplication](https://arxiv.org/abs/math/0307321). Henry Cohn; Christopher Umans. 2003.
 
 Embeds matrix multiplication into group algebras. This is an alternative construction framework, not a proof that omega equals two.
-
-Inspection: Primary abstract.
 
 ### AFL15
 
@@ -276,8 +290,6 @@ Preprint 2016; publication 2017.
 [Matrix multiplication via matrix groups](https://arxiv.org/abs/2204.03826). Jonah Blasiak; Henry Cohn; Joshua A. Grochow; Kevin Pratt; Chris Umans. 2023.
 
 Investigates matrix-group constructions and limitations, including continuous analogues.
-
-Inspection: Primary abstract and proceedings metadata.
 
 Preprint 2022; ITCS 2023, DOI 10.4230/LIPIcs.ITCS.2023.19.
 

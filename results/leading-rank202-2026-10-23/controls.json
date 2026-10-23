@@ -1,0 +1,692 @@
+{
+  "schema": "leading-rank202-controls-v1",
+  "source_pins": {
+    "research/ai/2026-10-23-all-pair-rank136/proof.md": "f4725a803802223a69a9bfb1f0d217501be71167ea73410f3ea6537a8cf05581",
+    "research/ai/2026-10-23-all-pair-rank144/proof.md": "76425ef48d66d0d6daf2a0d163da1d068968e0330fa6449933bac107584eea05",
+    "research/ai/2026-10-23-rank92-rank96-spaces/proof.md": "0ef85dc03d267020570d1236d6bda729388b9babc8c8425a3b2b995cc6509b04"
+  },
+  "census_content_sha256": "75d29be12624d54f60dfc22d3d085c8ca9efb316e3358b59479608c5fb90e631",
+  "pair_controls": {
+    "counts": {
+      "mixed": {
+        "pairs_checked": 10302,
+        "prior_excluded": 2145,
+        "prior_surviving": 8157,
+        "newly_excluded": 488,
+        "total_excluded": 2633,
+        "retained": 7669,
+        "newly_excluded_sum129_through132": 262,
+        "newly_excluded_sum133_through136": 226
+      },
+      "long": {
+        "pairs_checked": 10404,
+        "prior_excluded": 2211,
+        "prior_surviving": 8193,
+        "newly_excluded": 329,
+        "total_excluded": 2540,
+        "retained": 7864,
+        "newly_excluded_sum129_through132": 125,
+        "newly_excluded_sum133_through136": 204
+      }
+    },
+    "by_sum": {
+      "mixed": [
+        {
+          "sum": 129,
+          "newly_excluded": 73,
+          "retained": 0
+        },
+        {
+          "sum": 130,
+          "newly_excluded": 68,
+          "retained": 4
+        },
+        {
+          "sum": 131,
+          "newly_excluded": 63,
+          "retained": 8
+        },
+        {
+          "sum": 132,
+          "newly_excluded": 58,
+          "retained": 12
+        },
+        {
+          "sum": 133,
+          "newly_excluded": 61,
+          "retained": 8
+        },
+        {
+          "sum": 134,
+          "newly_excluded": 58,
+          "retained": 10
+        },
+        {
+          "sum": 135,
+          "newly_excluded": 55,
+          "retained": 12
+        },
+        {
+          "sum": 136,
+          "newly_excluded": 52,
+          "retained": 14
+        }
+      ],
+      "long": [
+        {
+          "sum": 129,
+          "newly_excluded": 38,
+          "retained": 36
+        },
+        {
+          "sum": 130,
+          "newly_excluded": 33,
+          "retained": 40
+        },
+        {
+          "sum": 131,
+          "newly_excluded": 28,
+          "retained": 44
+        },
+        {
+          "sum": 132,
+          "newly_excluded": 26,
+          "retained": 45
+        },
+        {
+          "sum": 133,
+          "newly_excluded": 60,
+          "retained": 10
+        },
+        {
+          "sum": 134,
+          "newly_excluded": 54,
+          "retained": 15
+        },
+        {
+          "sum": 135,
+          "newly_excluded": 48,
+          "retained": 20
+        },
+        {
+          "sum": 136,
+          "newly_excluded": 42,
+          "retained": 25
+        }
+      ]
+    },
+    "extrema": {
+      "mixed": {
+        "maximum_pair_sum": 136,
+        "pairs_at_maximum": [
+          [
+            60,
+            76
+          ],
+          [
+            61,
+            75
+          ],
+          [
+            62,
+            74
+          ],
+          [
+            63,
+            73
+          ],
+          [
+            64,
+            72
+          ],
+          [
+            65,
+            71
+          ],
+          [
+            66,
+            70
+          ],
+          [
+            70,
+            66
+          ],
+          [
+            71,
+            65
+          ],
+          [
+            72,
+            64
+          ],
+          [
+            73,
+            63
+          ],
+          [
+            74,
+            62
+          ],
+          [
+            75,
+            61
+          ],
+          [
+            76,
+            60
+          ]
+        ]
+      },
+      "long": {
+        "maximum_pair_sum": 136,
+        "pairs_at_maximum": [
+          [
+            44,
+            92
+          ],
+          [
+            45,
+            91
+          ],
+          [
+            46,
+            90
+          ],
+          [
+            47,
+            89
+          ],
+          [
+            48,
+            88
+          ],
+          [
+            55,
+            81
+          ],
+          [
+            56,
+            80
+          ],
+          [
+            57,
+            79
+          ],
+          [
+            58,
+            78
+          ],
+          [
+            59,
+            77
+          ],
+          [
+            66,
+            70
+          ],
+          [
+            67,
+            69
+          ],
+          [
+            68,
+            68
+          ],
+          [
+            69,
+            67
+          ],
+          [
+            70,
+            66
+          ],
+          [
+            77,
+            59
+          ],
+          [
+            78,
+            58
+          ],
+          [
+            79,
+            57
+          ],
+          [
+            80,
+            56
+          ],
+          [
+            81,
+            55
+          ],
+          [
+            88,
+            48
+          ],
+          [
+            89,
+            47
+          ],
+          [
+            90,
+            46
+          ],
+          [
+            91,
+            45
+          ],
+          [
+            92,
+            44
+          ]
+        ]
+      }
+    },
+    "floor_quotients": {
+      "mixed": {
+        "129": [],
+        "130": [
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "131": [
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "132": [
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "133": [
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "134": [
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "135": [
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "136": [
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ]
+      },
+      "long": {
+        "129": [
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "130": [
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "131": [
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "132": [
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "133": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "134": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "135": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "136": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ]
+        ]
+      }
+    },
+    "retained_prerequisite_control": {
+      "with_prior": {
+        "ranks": [
+          100,
+          100
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 24,
+        "kernel_lower": 10,
+        "new_kernel_upper": 68,
+        "excluded_by_prior136": true,
+        "new_kernel_contradiction": false,
+        "excluded": true
+      },
+      "new_caps_alone": {
+        "ranks": [
+          100,
+          100
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 24,
+        "kernel_lower": 10,
+        "new_kernel_upper": 68,
+        "excluded_by_prior136": false,
+        "new_kernel_contradiction": false,
+        "excluded": false
+      }
+    }
+  },
+  "triple_controls": {
+    "triples_checked": 1050804,
+    "prior_surviving": 603885,
+    "new_surviving": 541407,
+    "newly_excluded": 62478,
+    "maximum_total": 202,
+    "maximizers": [
+      [
+        70,
+        66,
+        66
+      ]
+    ],
+    "top_total_counts": [
+      {
+        "total": 200,
+        "prior": 45,
+        "retained": 3
+      },
+      {
+        "total": 201,
+        "prior": 28,
+        "retained": 2
+      },
+      {
+        "total": 202,
+        "prior": 15,
+        "retained": 1
+      },
+      {
+        "total": 203,
+        "prior": 6,
+        "retained": 0
+      },
+      {
+        "total": 204,
+        "prior": 1,
+        "retained": 0
+      }
+    ],
+    "full_short": {
+      "surviving_triples": 841,
+      "long_rank_interval": [
+        0,
+        28
+      ],
+      "maximum_total": 156,
+      "maximizers": [
+        [
+          100,
+          28,
+          28
+        ]
+      ]
+    }
+  },
+  "strict_threshold_controls": {
+    "91": 68,
+    "92": 72,
+    "95": 72,
+    "96": 112
+  },
+  "claim_scope": {
+    "claim_id": "AI-A4-LEADING-RANK-SUM202-001",
+    "field": "C",
+    "complete_Laurent_presentations": true,
+    "individual_scalar_balancing": true,
+    "arbitrary_complex_leading_kernels": true,
+    "arbitrary_higher_coefficients": true,
+    "arbitrary_finite_poles_on_the_unselected_map": true,
+    "retains_every_pair136_prerequisite": true,
+    "strict_source_thresholds": [
+      92,
+      96
+    ],
+    "source_dimension_caps": [
+      68,
+      72
+    ],
+    "every_pair_sum_upper": 136,
+    "total_leading_rank_upper": 202,
+    "short_rank100_long_rank_upper": 28,
+    "necessary_conditions_only": true,
+    "unique_screen_maximizer": [
+      70,
+      66,
+      66
+    ],
+    "screen_maximizer_is_target_construction": false,
+    "target_leading_rank_bounds_sharp": false,
+    "matrix_target_constructed": false,
+    "smaller_exponent_established": false,
+    "independent_external_review": false,
+    "formalized": false
+  },
+  "acceptance_arithmetic": "integers only; imported universal theorems checked by proof hashes"
+}

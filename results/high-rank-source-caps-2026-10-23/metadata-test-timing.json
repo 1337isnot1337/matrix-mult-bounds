@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-m",
+    "unittest",
+    "test_research.RepositoryTests",
+    "test_archive_integrity",
+    "-v"
+  ],
+  "environment": {
+    "PYTHONPATH": "/workspace/scratch/814d3d40fe43/mathdeps:tests"
+  },
+  "elapsed_seconds": 0.13311095500012016,
+  "exit_code": 0,
+  "stdout_complete": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

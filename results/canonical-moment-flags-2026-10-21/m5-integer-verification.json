@@ -1,0 +1,39 @@
+{
+  "status": "exact integer full-source coefficient replay passed",
+  "source": "C(6,16)",
+  "source_dimensions": [
+    6,
+    16,
+    21
+  ],
+  "target": "canonical T5",
+  "target_dimensions": [
+    5,
+    15,
+    15
+  ],
+  "coefficient_ring": "integers; specializes to every field",
+  "source_monomials": 96,
+  "target_coefficient_positions": 1125,
+  "negative_coefficients_checked": 175,
+  "constant_coefficients_checked": 175,
+  "retained_target_monomials": 35,
+  "nonzero_positive_remainder_coefficients": 260,
+  "nonzero_remainder_coefficients_by_degree": {
+    "1": 87,
+    "2": 93,
+    "3": 51,
+    "4": 29
+  },
+  "map_ranks_over_rationals": [
+    5,
+    15,
+    15
+  ],
+  "maximum_absolute_map_entry": 1,
+  "verifier_uses_only_standard_library": true,
+  "unbounded_family_constructed": false,
+  "external_mathematical_review": false,
+  "improves_omega": false,
+  "witness_sha256": "ef80edef08bfc59b2d76329f64d9f2793bd9c74501a1bd2e2dbd3b2ecaae909f"
+}

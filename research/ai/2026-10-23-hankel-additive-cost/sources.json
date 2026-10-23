@@ -1,0 +1,30 @@
+{
+  "base_commit": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+  "preceding_pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/134",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/verify.py",
+      "sha256": "43fdb1f4c2399ee9f60f93345d3954dea40b5ff987e075f81aff5fba7c0595b3"
+    },
+    {
+      "path": "research/ai/2026-10-23-hankel-annihilator-degree/verify.py",
+      "sha256": "0f6cd0823c99aabd99197d49ec9f33904e71bfd80135af0ca9864e725e86b281"
+    },
+    {
+      "path": "research/ai/2026-10-23-hankel-equality/verify.py",
+      "sha256": "0627e933037b547735f50ae9fde2fb34a1f113fdd91df676870dacda0a8dc457"
+    },
+    {
+      "path": "research/ai/2026-10-23-hankel-annihilator-degree/additive_question.md",
+      "sha256": "0bcb5e6d0fdd95276544b347433294e27dea23bc85952ce21641b61eecefe794"
+    }
+  ],
+  "field_and_hypotheses": "Every field; literal cyclic source A(a,b); 2<=r<min(a,b); polynomial source moments obeying f_(k+r)=xz*f_k with original bidegree bounds. The general primitive-degree-(1,1) chart is not covered.",
+  "prior_credit": "The canonical cyclic source and coefficient formula are prior repository work. PR134 supplies the supporting-degree/additive-cost question and its r=n-1 two-variable family. Its exact-rank helper is reused for discovery; the new acceptance factorization uses separately generated literal source coefficients and identity minors.",
+  "local_continuation": "Complete binomial-chart minimum, residue-key rectangles and exact basis ranks, all-polynomial-initial-moment weight degeneration, feasible/zero chart criterion, and balanced closed minimum.",
+  "external_dependencies": "No new external theorem. Rank invariance under explicit diagonal scalings and rank nonincrease in a polynomial limit are proved directly with matrix entries and minors.",
+  "evidence_tiers": "The all-parameter argument is written and unreviewed. Finite grids, literal identity minors and the original-source replay support indexing and implementation; they are not a proof of arbitrary other supporting forms. The sixteen-pivot discovery trial is not an exclusion.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

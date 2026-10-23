@@ -1,0 +1,47 @@
+{
+  "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "comparison_head": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+  "reviewed_executable_paths": [
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+    "tests/test_quadratic_kernel_indices.py"
+  ],
+  "static_review": {
+    "runtime_dependencies": "Python standard library only",
+    "deterministic_seed": 20261023,
+    "network_calls": false,
+    "subprocess_calls": false,
+    "import_time_writes": false,
+    "optional_discovery_required": false,
+    "explicit_output_flag_writes_only_when_requested": true,
+    "unittest_uses_output_flag": false,
+    "finite_controls": {
+      "binary_triples": 574,
+      "binary_source_maps": 1722,
+      "sampled_prime_field_source_maps": 192,
+      "named_source_maps": 96,
+      "total_source_maps": 2010
+    },
+    "independent_literal_source_rank_and_recurrence_comparison": true,
+    "tamper_detection_control": true
+  },
+  "new_test_ids": [
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_complete_finite_report",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_common_factor_does_not_change_indices_or_source_rank",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_missing_endpoints_and_constant_triples",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pr216_splittings_and_full_kernel_dimensions",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_literal_source_coefficient_corruption_is_detected",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pinned_source_bytes"
+  ],
+  "source_pin_issue": "Only the context README digest needs the separately reported, provenance-preserving repair.",
+  "pin_resolution": "quadratic_pin_resolution.json",
+  "expected_inventory": {
+    "tests": 1957,
+    "modules": 438,
+    "added_tests": 6,
+    "removed_tests": 0
+  },
+  "new_claim_id": "AI-QUADRATIC-KERNEL-INDICES-001",
+  "mathematical_review_status": "proof-written-unreviewed; independent_review, lean_formalized and improves_omega remain false",
+  "no_tests_executed_by_this_script": true
+}

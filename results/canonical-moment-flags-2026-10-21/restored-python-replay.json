@@ -1,0 +1,35 @@
+{
+  "checkpoint": "0d3f3a2d79a2596d12172955f39d816104c37cb5",
+  "python": "3.12.14",
+  "command": "python -m unittest discover -s tests -p test_canonical_moment_flags.py -v",
+  "tests_run": 3,
+  "outcome": "passed",
+  "seconds": 0.092,
+  "scope": [
+    "Literal constructors reproduce all four frozen witnesses",
+    "SHA-256 hashes reproduce all four frozen reports",
+    "Independent integer source expansion checks all 9659 coefficient positions",
+    "All target map ranks are checked over the rationals",
+    "Damaged T4 negative coefficient is rejected",
+    "Recovered m6 off-by-one moment is rejected"
+  ],
+  "source_positions_by_m": {
+    "4": 400,
+    "5": 1125,
+    "6": 2646,
+    "7": 5488
+  },
+  "archive_replay": {
+    "command": ".venv/bin/python tools/replay.py",
+    "all_five_passed": true,
+    "counts": {
+      "profile_checks.json": 73856,
+      "product_filtration_checks.json": 353664,
+      "binary_search.json": 12976,
+      "ternary_search.json": 209692,
+      "random_search.json": 20000
+    }
+  },
+  "external_mathematical_review": false,
+  "improves_omega": false
+}

@@ -20,3 +20,7 @@ python -m unittest discover -s tests -p test_generic_partner_all_graphs.py -v
 
 Use root requirements.txt. See [QUESTION.md](QUESTION.md) for the finite
 exceptional-parameter problem and the limits of current discovery data.
+
+The subsequent [full-line proof](../2026-10-21-full-partner-line/README.md)
+identifies and covers the candidates left by the guarded calculation,
+closing all complex a on b=1 and extending to every b nonzero.

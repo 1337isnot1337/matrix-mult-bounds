@@ -1,0 +1,3 @@
+Question: does the literal SL(2,F8) group tensor admit an injective-group-coordinate strict-vertex-potential degeneration to M(18,18,25) when all three vertex families range over the whole group and obey every exact subgroup-averaging cut from PR175?
+
+This is a changed frame from the excluded fixed-full-D18 pilot. PR84 retains local torus-packet assembly; this is a single rectangular target with all three sets free. Initial discovery budget: one bounded full-source SAT/lazy-LP run, with exact replay of every exported contradiction or witness. A timeout or solver-reported UNSAT without a checked proof is not a target exclusion. Do not repeat an unchanged run as theorem progress.

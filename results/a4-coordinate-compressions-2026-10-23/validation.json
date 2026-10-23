@@ -1,0 +1,34 @@
+{
+  "schema": "a4-independent-coordinate-validation-v1",
+  "completed_at_utc": "2026-10-23T17:44:18.580752+00:00",
+  "claim": "AI-A4-INDEPENDENT-COORDINATE-004",
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -p test_a4_coordinate_compressions.py -v",
+      "exit_code": 0,
+      "tests_passed": 4,
+      "seconds": 84.49,
+      "full_census_pairs_replayed": 142884,
+      "exact_kernel_witnesses_replayed": 2
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "exit_code": 0,
+      "tests_passed": 18
+    }
+  ],
+  "prior_frozen_full_regression_tree": "363271b34a2b82dd033b388d7b48d00f1e76d1f9",
+  "prior_full_regression_receipt": "results/conjugation-limit-2026-10-23/validation.json",
+  "full_regression_repeated_for_this_followup": false,
+  "file_sha256": {
+    "research/ai/2026-10-23-a4-coordinate-compressions/verify.py": "8283038c67babc469d33e460a53e9e10f3e548b3692c19713ccea8f69fa02568",
+    "research/ai/2026-10-23-a4-coordinate-compressions/proof.md": "52b70e41f3ee6244c891136974878f7306bb5eb935d3c8b3d6cff2a7e60932d8",
+    "research/ai/2026-10-23-a4-coordinate-compressions/sources.json": "39cc2ecc19a2116653152a2ddc38d2338750c061eb323a77c8c6bc37c2463d9b",
+    "tests/test_a4_coordinate_compressions.py": "2f28fb39935bdee2e5e4d5b8dd2e4799424e583f53024bbbc13266f62c8a11b3",
+    "results/a4-coordinate-compressions-2026-10-23/certificate.json": "40effffdcbaa37e0d58ed2e3604b9937f9a8bbecdeaa94e60e7e72e12607e881",
+    "results/a4-coordinate-compressions-2026-10-23/verification.json": "ff989b70728f5994a1223f29ba452891f91d9d3d587f7a52b3bda14685db43b5",
+    "results/a4-coordinate-compressions-2026-10-23/focused-tests.log": "ffa5306dc272f243cfc8b133abf42eb2a6fb173ca3db2762c8cf5f1e42a8bce2",
+    "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log": "ca4c177a0669bf08878e316351a6cae347527c44570162a3a097fb5baaaf754e"
+  },
+  "scope": "Focused new finite-census acceptance and corruption tests plus repository metadata checks. Existing source and archived code are unchanged. The earlier full regression is not described as a full run on this later tree. Same-session checking does not change written-and-unreviewed mathematical status."
+}

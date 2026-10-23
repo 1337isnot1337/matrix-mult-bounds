@@ -1,0 +1,460 @@
+{
+  "status": "exact canonical integer source replay passed",
+  "cases": [
+    {
+      "m": 3,
+      "source": [
+        5,
+        4,
+        8
+      ],
+      "target": [
+        3,
+        4,
+        4
+      ],
+      "positions": 48,
+      "negative": 12,
+      "constant": 24,
+      "retained_monomials": 8,
+      "positive_nonzero": 12,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": 1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 5
+    },
+    {
+      "m": 4,
+      "source": [
+        6,
+        5,
+        10
+      ],
+      "target": [
+        4,
+        5,
+        5
+      ],
+      "positions": 100,
+      "negative": 16,
+      "constant": 48,
+      "retained_monomials": 12,
+      "positive_nonzero": 36,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": -1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 8
+    },
+    {
+      "m": 5,
+      "source": [
+        7,
+        6,
+        12
+      ],
+      "target": [
+        5,
+        6,
+        6
+      ],
+      "positions": 180,
+      "negative": 20,
+      "constant": 80,
+      "retained_monomials": 16,
+      "positive_nonzero": 76,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": 1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 14
+    },
+    {
+      "m": 6,
+      "source": [
+        8,
+        7,
+        14
+      ],
+      "target": [
+        6,
+        7,
+        7
+      ],
+      "positions": 294,
+      "negative": 24,
+      "constant": 120,
+      "retained_monomials": 20,
+      "positive_nonzero": 140,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": -1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 30
+    },
+    {
+      "m": 7,
+      "source": [
+        9,
+        8,
+        16
+      ],
+      "target": [
+        7,
+        8,
+        8
+      ],
+      "positions": 448,
+      "negative": 28,
+      "constant": 168,
+      "retained_monomials": 24,
+      "positive_nonzero": 233,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": 1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 76
+    },
+    {
+      "m": 8,
+      "source": [
+        10,
+        9,
+        18
+      ],
+      "target": [
+        8,
+        9,
+        9
+      ],
+      "positions": 648,
+      "negative": 32,
+      "constant": 224,
+      "retained_monomials": 28,
+      "positive_nonzero": 355,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": -1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 196
+    },
+    {
+      "m": 9,
+      "source": [
+        11,
+        10,
+        20
+      ],
+      "target": [
+        9,
+        10,
+        10
+      ],
+      "positions": 900,
+      "negative": 36,
+      "constant": 288,
+      "retained_monomials": 32,
+      "positive_nonzero": 508,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": 1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 518
+    },
+    {
+      "m": 10,
+      "source": [
+        12,
+        11,
+        22
+      ],
+      "target": [
+        10,
+        11,
+        11
+      ],
+      "positions": 1210,
+      "negative": 40,
+      "constant": 360,
+      "retained_monomials": 36,
+      "positive_nonzero": 711,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": -1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 1422
+    },
+    {
+      "m": 11,
+      "source": [
+        13,
+        12,
+        24
+      ],
+      "target": [
+        11,
+        12,
+        12
+      ],
+      "positions": 1584,
+      "negative": 44,
+      "constant": 440,
+      "retained_monomials": 40,
+      "positive_nonzero": 954,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": 1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 3915
+    },
+    {
+      "m": 12,
+      "source": [
+        14,
+        13,
+        26
+      ],
+      "target": [
+        12,
+        13,
+        13
+      ],
+      "positions": 2028,
+      "negative": 48,
+      "constant": 528,
+      "retained_monomials": 44,
+      "positive_nonzero": 1238,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": -1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 10813
+    },
+    {
+      "m": 13,
+      "source": [
+        15,
+        14,
+        28
+      ],
+      "target": [
+        13,
+        14,
+        14
+      ],
+      "positions": 2548,
+      "negative": 52,
+      "constant": 624,
+      "retained_monomials": 48,
+      "positive_nonzero": 1592,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": 1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 29964
+    },
+    {
+      "m": 14,
+      "source": [
+        16,
+        15,
+        30
+      ],
+      "target": [
+        14,
+        15,
+        15
+      ],
+      "positions": 3150,
+      "negative": 56,
+      "constant": 728,
+      "retained_monomials": 52,
+      "positive_nonzero": 1996,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": -1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 83304
+    },
+    {
+      "m": 15,
+      "source": [
+        17,
+        16,
+        32
+      ],
+      "target": [
+        15,
+        16,
+        16
+      ],
+      "positions": 3840,
+      "negative": 60,
+      "constant": 840,
+      "retained_monomials": 56,
+      "positive_nonzero": 2452,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": 1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 232323
+    },
+    {
+      "m": 16,
+      "source": [
+        18,
+        17,
+        34
+      ],
+      "target": [
+        16,
+        17,
+        17
+      ],
+      "positions": 4624,
+      "negative": 64,
+      "constant": 960,
+      "retained_monomials": 60,
+      "positive_nonzero": 2997,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": -1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 649845
+    },
+    {
+      "m": 17,
+      "source": [
+        19,
+        18,
+        36
+      ],
+      "target": [
+        17,
+        18,
+        18
+      ],
+      "positions": 5508,
+      "negative": 68,
+      "constant": 1088,
+      "retained_monomials": 64,
+      "positive_nonzero": 3603,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": 1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 1822824
+    },
+    {
+      "m": 18,
+      "source": [
+        20,
+        19,
+        38
+      ],
+      "target": [
+        18,
+        19,
+        19
+      ],
+      "positions": 6498,
+      "negative": 72,
+      "constant": 1224,
+      "retained_monomials": 68,
+      "positive_nonzero": 4271,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": -1,
+        "X": 1,
+        "W": -1
+      },
+      "maximum_absolute_entry": 5147328
+    },
+    {
+      "m": 19,
+      "source": [
+        21,
+        20,
+        40
+      ],
+      "target": [
+        19,
+        20,
+        20
+      ],
+      "positions": 7600,
+      "negative": 76,
+      "constant": 1368,
+      "retained_monomials": 72,
+      "positive_nonzero": 5048,
+      "unimodular_determinants": {
+        "R": 1,
+        "V": 1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 14727168
+    },
+    {
+      "m": 20,
+      "source": [
+        22,
+        21,
+        42
+      ],
+      "target": [
+        20,
+        21,
+        21
+      ],
+      "positions": 8820,
+      "negative": 80,
+      "constant": 1520,
+      "retained_monomials": 76,
+      "positive_nonzero": 5896,
+      "unimodular_determinants": {
+        "R": -1,
+        "V": -1,
+        "X": 1,
+        "W": 1
+      },
+      "maximum_absolute_entry": 42171849
+    }
+  ],
+  "total_positions": 50028,
+  "all_fields": true,
+  "common_shared_basis": true,
+  "external_mathematical_review": false,
+  "improves_omega": false
+}

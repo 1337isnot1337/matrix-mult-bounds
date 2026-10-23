@@ -1,0 +1,19 @@
+[
+  {
+    "id": "AI-RESOLVENT-LOSS-SEVEN-001",
+    "title": "Sharp fixed-resolvent compression bound through total rank loss seven over every field",
+    "status": "proof-written-unreviewed",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-resolvent-loss-seven/proof.md",
+    "statement": "Over every field, for fixed-resolvent W and compression factors P of size110-by-112 and C of size112-by-110, put p=112-rank(P),q=112-rank(C). If p+q<=7, then dim ker(X maps to PXC on W)<=max(0,p+q-5). For total loss seven, integer factors of ranks109 and108 attain kernel dimension2 and compressed dimension110. The refined nonzero-kernel bound is q+dim(ker(P) intersect E_full)-5. Field extension and descent remove the algebraic-closedness restriction from the earlier critical compression result.",
+    "dependencies": [
+      "AI-RESOLVENT-RANK-SIX-LOCUS-001 complete all-field low-rank locus, common image and rank-seven gap, pinned to63809d8",
+      "Stacks Project Lemma33.34.3 tag0B2R, imported projective-intersection theorem; classical full-row-rank-space reduction via the Segre embedding",
+      "Elementary rank invariance and kernel base change under field extension; exact integer sharpness support"
+    ],
+    "limitations": "Fixed resolvent and total rank loss at most seven only. Rank-eight matrices become eligible beyond this range. The abstract constant-full-row-rank bound is applied over an algebraic closure, not asserted for arbitrary matrix spaces over arbitrary fields. No general Laurent exclusion, independent review, formalization, target construction or exponent improvement."
+  }
+]

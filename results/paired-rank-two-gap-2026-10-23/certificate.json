@@ -1,0 +1,77 @@
+{
+  "block_index_range": [
+    1,
+    8
+  ],
+  "block_rank_checks": 128,
+  "equality_controls": 16,
+  "logical_scope": "finite tests do not establish the all-n all-field theorem",
+  "rank_two_gf2_censuses": [
+    {
+      "b": 2,
+      "n": 2,
+      "rank_two_matrices": 6,
+      "ranks": {
+        "6": 6
+      }
+    },
+    {
+      "b": 3,
+      "n": 2,
+      "rank_two_matrices": 6,
+      "ranks": {
+        "12": 6
+      }
+    },
+    {
+      "b": 4,
+      "n": 2,
+      "rank_two_matrices": 6,
+      "ranks": {
+        "20": 6
+      }
+    },
+    {
+      "b": 2,
+      "n": 3,
+      "rank_two_matrices": 294,
+      "ranks": {
+        "6": 198,
+        "8": 96
+      }
+    },
+    {
+      "b": 3,
+      "n": 3,
+      "rank_two_matrices": 294,
+      "ranks": {
+        "12": 198,
+        "14": 96
+      }
+    },
+    {
+      "b": 4,
+      "n": 3,
+      "rank_two_matrices": 294,
+      "ranks": {
+        "20": 198,
+        "24": 96
+      }
+    },
+    {
+      "b": 2,
+      "n": 4,
+      "rank_two_matrices": 7350,
+      "ranks": {
+        "6": 2646,
+        "8": 4704
+      }
+    }
+  ],
+  "source_factorization_matches": 8,
+  "status": "exact finite controls; written proof not independently reviewed",
+  "tested_prime_fields": [
+    2,
+    101
+  ]
+}

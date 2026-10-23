@@ -1,0 +1,40 @@
+{
+  "external": [
+    {
+      "id": "DSP16-FLANDERS",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "author": "Clement de Seguins Pazzis",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "version": "arXiv v2, April 20, 2016",
+      "inspected": "Section 1.1 arbitrary-field convention and Theorem 1.1, pages 1-4",
+      "use": "A linear space of m-by-m matrices of upper rank r has dimension at most mr, over every field. The local proof reduces finite SR(M_m)=m^2 to this external theorem.",
+      "credit": "Flanders's bounded-rank dimension theorem; Meshulam's removal of the field-size restriction, as credited in this primary generalization. No use of equality-case classification."
+    }
+  ],
+  "local": [
+    {
+      "base_commit": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "path": "research/ai/2026-10-21-s5-block-filtration/",
+      "use": "Retained 88-vector principal basis candidates and exact central idempotent; candidate support is not trusted and all original coefficients are freshly replayed."
+    },
+    {
+      "base_commit": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "path": "research/ai/2026-10-21-s5-split/",
+      "use": "Projected radical candidates, exact binary group algebra and prior source credits."
+    },
+    {
+      "base_commit": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "path": "research/ai/2026-10-23-s5-finite-covers/",
+      "use": "Prior cube bound and frontier; precise characteristic-two transfer, finite matrix target slice rank and cyclic target argument, with external credits retained."
+    },
+    {
+      "base_commit": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "path": "research/ai/2026-10-21-central-cover-finite-slices/",
+      "use": "Prior finite target derivation from the credited external bounded-rank theorem and slice-rank closedness."
+    }
+  ],
+  "source_provenance": "Input files are SHA-256 pinned in source.json and certificate.json. source_sha256 hashes the sorted-key JSON representation, not the original JSON file bytes.",
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

@@ -1,0 +1,57 @@
+{
+  "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+  "authored_commit": "0bef34c4976cf3c23a7049851438df157b5bfdc5",
+  "previous_source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "passing_publication_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "recorded_at": "2026-10-23T18:33:08.547728+00:00",
+  "authored_changed_paths": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+    "research/claims.json"
+  ],
+  "new_executable_paths": [],
+  "new_test_paths": [],
+  "new_test_ids": [],
+  "new_runtime_dependencies": [],
+  "imported_main_files_match_previously_tested_integration": {
+    "research/ai/2026-10-23-column-overlap/QUESTION.md": true,
+    "research/ai/2026-10-23-column-overlap/README.md": true,
+    "research/ai/2026-10-23-column-overlap/proof.md": true,
+    "research/ai/2026-10-23-column-overlap/sources.json": true,
+    "research/ai/2026-10-23-column-overlap/verify.py": true,
+    "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md": true,
+    "research/ai/2026-10-23-top-coefficient-biforms/proof.md": true,
+    "research/ai/2026-10-23-top-coefficient-biforms/sources.json": true,
+    "research/ai/2026-10-23-top-coefficient-biforms/verify.py": true,
+    "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py": true,
+    "results/column-overlap-2026-10-23/controls.json": true,
+    "results/top-coefficient-biforms-2026-10-23/verification.json": true,
+    "tests/test_column_overlap.py": true,
+    "tests/test_top_coefficient_biforms.py": true
+  },
+  "quadratic_executable_test_proof_controls_unchanged": {
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py": true,
+    "research/ai/2026-10-23-quadratic-kernel-indices/proof.md": true,
+    "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md": true,
+    "tests/test_quadratic_kernel_indices.py": true,
+    "results/quadratic-kernel-indices-2026-10-23/controls.json": true
+  },
+  "source_metadata_delta": "Append exactly one external-theorem citation; local runtime dependencies are unchanged. Reapply the separately documented README context-pin correction without altering the theorem citation.",
+  "new_claim": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+  "expected_claims": 614,
+  "existing_claims_to_preserve": 613,
+  "expected_inventory": {
+    "tests": 1957,
+    "modules": 438,
+    "added_tests": 0,
+    "removed_tests": 0
+  },
+  "minimum_gate": "Existing quadratic source-pin test, repository claim-ledger test, and repository relative-link test.",
+  "no_research_discovery_or_historical_harness_execution": true,
+  "tests_executed_by_this_script": 0
+}

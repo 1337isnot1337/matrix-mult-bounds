@@ -1,0 +1,553 @@
+{
+  "three_ruling_control": {
+    "r": 8,
+    "k": 3,
+    "bound": 11,
+    "cross_three_ruling_rank": 8,
+    "cross_full_dimension": 11
+  },
+  "general_integer_controls": [
+    {
+      "r": 6,
+      "integer_pairs": 36,
+      "preliminary_bound": 10,
+      "proved_bound": 9,
+      "exceptional_cases": [
+        [
+          4,
+          4,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "r": 7,
+      "integer_pairs": 49,
+      "preliminary_bound": 13,
+      "proved_bound": 12,
+      "exceptional_cases": [
+        [
+          4,
+          4,
+          1,
+          3
+        ],
+        [
+          5,
+          5,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "r": 8,
+      "integer_pairs": 64,
+      "preliminary_bound": 17,
+      "proved_bound": 16,
+      "exceptional_cases": [
+        [
+          5,
+          5,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "r": 9,
+      "integer_pairs": 81,
+      "preliminary_bound": 21,
+      "proved_bound": 20,
+      "exceptional_cases": [
+        [
+          5,
+          5,
+          1,
+          4
+        ],
+        [
+          6,
+          6,
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "r": 10,
+      "integer_pairs": 100,
+      "preliminary_bound": 26,
+      "proved_bound": 25,
+      "exceptional_cases": [
+        [
+          6,
+          6,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "r": 11,
+      "integer_pairs": 121,
+      "preliminary_bound": 31,
+      "proved_bound": 30,
+      "exceptional_cases": [
+        [
+          6,
+          6,
+          1,
+          5
+        ],
+        [
+          7,
+          7,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "r": 12,
+      "integer_pairs": 144,
+      "preliminary_bound": 37,
+      "proved_bound": 36,
+      "exceptional_cases": [
+        [
+          7,
+          7,
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "r": 13,
+      "integer_pairs": 169,
+      "preliminary_bound": 43,
+      "proved_bound": 42,
+      "exceptional_cases": [
+        [
+          7,
+          7,
+          1,
+          6
+        ],
+        [
+          8,
+          8,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "r": 14,
+      "integer_pairs": 196,
+      "preliminary_bound": 50,
+      "proved_bound": 49,
+      "exceptional_cases": [
+        [
+          8,
+          8,
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "r": 15,
+      "integer_pairs": 225,
+      "preliminary_bound": 57,
+      "proved_bound": 56,
+      "exceptional_cases": [
+        [
+          8,
+          8,
+          1,
+          7
+        ],
+        [
+          9,
+          9,
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "r": 16,
+      "integer_pairs": 256,
+      "preliminary_bound": 65,
+      "proved_bound": 64,
+      "exceptional_cases": [
+        [
+          9,
+          9,
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "r": 17,
+      "integer_pairs": 289,
+      "preliminary_bound": 73,
+      "proved_bound": 72,
+      "exceptional_cases": [
+        [
+          9,
+          9,
+          1,
+          8
+        ],
+        [
+          10,
+          10,
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "r": 18,
+      "integer_pairs": 324,
+      "preliminary_bound": 82,
+      "proved_bound": 81,
+      "exceptional_cases": [
+        [
+          10,
+          10,
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "r": 19,
+      "integer_pairs": 361,
+      "preliminary_bound": 91,
+      "proved_bound": 90,
+      "exceptional_cases": [
+        [
+          10,
+          10,
+          1,
+          9
+        ],
+        [
+          11,
+          11,
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "r": 20,
+      "integer_pairs": 400,
+      "preliminary_bound": 101,
+      "proved_bound": 100,
+      "exceptional_cases": [
+        [
+          11,
+          11,
+          2,
+          9
+        ]
+      ]
+    }
+  ],
+  "r5_counterexample": {
+    "two_ruling_rank": 5,
+    "full_dimension": 7
+  },
+  "status": "finite controls; general proof written and unreviewed",
+  "integer_pairs": [
+    {
+      "p": 1,
+      "q": 1,
+      "upper": 1
+    },
+    {
+      "p": 1,
+      "q": 2,
+      "upper": 2
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "upper": 3
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "upper": 4
+    },
+    {
+      "p": 1,
+      "q": 5,
+      "upper": 5
+    },
+    {
+      "p": 1,
+      "q": 6,
+      "upper": 6
+    },
+    {
+      "p": 1,
+      "q": 7,
+      "upper": 7
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "upper": 2
+    },
+    {
+      "p": 2,
+      "q": 2,
+      "upper": 4
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "upper": 6
+    },
+    {
+      "p": 2,
+      "q": 4,
+      "upper": 7
+    },
+    {
+      "p": 2,
+      "q": 5,
+      "upper": 7
+    },
+    {
+      "p": 2,
+      "q": 6,
+      "upper": 7
+    },
+    {
+      "p": 2,
+      "q": 7,
+      "upper": 7
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "upper": 3
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "upper": 6
+    },
+    {
+      "p": 3,
+      "q": 3,
+      "upper": 9
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "upper": 10
+    },
+    {
+      "p": 3,
+      "q": 5,
+      "upper": 9
+    },
+    {
+      "p": 3,
+      "q": 6,
+      "upper": 8
+    },
+    {
+      "p": 3,
+      "q": 7,
+      "upper": 7
+    },
+    {
+      "p": 4,
+      "q": 1,
+      "upper": 4
+    },
+    {
+      "p": 4,
+      "q": 2,
+      "upper": 7
+    },
+    {
+      "p": 4,
+      "q": 3,
+      "upper": 10
+    },
+    {
+      "p": 4,
+      "q": 4,
+      "upper": 13
+    },
+    {
+      "p": 4,
+      "q": 5,
+      "upper": 11
+    },
+    {
+      "p": 4,
+      "q": 6,
+      "upper": 9
+    },
+    {
+      "p": 4,
+      "q": 7,
+      "upper": 7
+    },
+    {
+      "p": 5,
+      "q": 1,
+      "upper": 5
+    },
+    {
+      "p": 5,
+      "q": 2,
+      "upper": 7
+    },
+    {
+      "p": 5,
+      "q": 3,
+      "upper": 9
+    },
+    {
+      "p": 5,
+      "q": 4,
+      "upper": 11
+    },
+    {
+      "p": 5,
+      "q": 5,
+      "upper": 13
+    },
+    {
+      "p": 5,
+      "q": 6,
+      "upper": 10
+    },
+    {
+      "p": 5,
+      "q": 7,
+      "upper": 7
+    },
+    {
+      "p": 6,
+      "q": 1,
+      "upper": 6
+    },
+    {
+      "p": 6,
+      "q": 2,
+      "upper": 7
+    },
+    {
+      "p": 6,
+      "q": 3,
+      "upper": 8
+    },
+    {
+      "p": 6,
+      "q": 4,
+      "upper": 9
+    },
+    {
+      "p": 6,
+      "q": 5,
+      "upper": 10
+    },
+    {
+      "p": 6,
+      "q": 6,
+      "upper": 11
+    },
+    {
+      "p": 6,
+      "q": 7,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 1,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 2,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 3,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 4,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 5,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 6,
+      "upper": 7
+    },
+    {
+      "p": 7,
+      "q": 7,
+      "upper": 7
+    }
+  ],
+  "equality_cases": [
+    {
+      "p": 4,
+      "q": 4,
+      "p2": 7,
+      "forced_p3": 10,
+      "common_core": 1,
+      "quotient_dimension": 12,
+      "quotient_row_rank": 3,
+      "quotient_column_rank": 4,
+      "two_column_image_dimension": 8
+    },
+    {
+      "p": 5,
+      "q": 5,
+      "p2": 7,
+      "forced_p3": 9,
+      "common_core": 3,
+      "quotient_dimension": 10,
+      "quotient_row_rank": 2,
+      "quotient_column_rank": 5,
+      "two_column_image_dimension": 10
+    }
+  ],
+  "symmetric_product_control": {
+    "one_ruling_rank": 4,
+    "two_ruling_rank": 7,
+    "full_image_rank": 10
+  },
+  "A89_M30": {
+    "input_rank_cap": 2,
+    "lift_upper": 564,
+    "next_symbol_threshold": 576,
+    "scalar_image_cap": 12,
+    "coefficient_cap": 864,
+    "target_parameter_dimension": 900
+  },
+  "improves_omega": false
+}

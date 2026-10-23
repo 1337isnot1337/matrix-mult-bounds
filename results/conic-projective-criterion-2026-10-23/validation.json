@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "environment": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "dependency_source": "root requirements.txt; local installed path /workspace/scratch/814d3d40fe43/mathdeps"
+  },
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps python research/ai/2026-10-23-conic-projective-criterion/construct.py --write",
+    "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps python research/ai/2026-10-23-conic-projective-criterion/verify.py --write-certificates --write-report",
+    "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps python -m unittest discover -s tests -p test_conic_projective_criterion.py -v",
+    "git diff --cached --check"
+  ],
+  "coverage": [
+    "Three complete missing residual-stratum tangent kernels, with dimensions 64, 3, 3 and constant unit basis determinants",
+    "All second-map and moving-kernel coefficients eliminated using the pinned complete source operator",
+    "Mixed curvature: 49 unit pivots and exact residual ideals on each missing stratum; both pure normal classes checked without d inversion",
+    "Exact affine row-frame and normal agreement with the credited PR101 convention",
+    "All 4096 source terms permuted under reversal; all entries of both normals transported with one common sign",
+    "Eight complete literal polynomial families, 29 coefficient products, fixed kernel, and leading minors 1, 1, -1",
+    "Seven complete linear-component checks for both normal squares, their cross term and both first derivatives",
+    "Complete formula regeneration; permitted late boundary change accepted and forbidden-source perturbation rejected",
+    "Normal-class, degree, missing-stratum, residual-generator, parser and source-pin controls"
+  ],
+  "focused_test_count": 7,
+  "focused_test_seconds": 55.647854388999804,
+  "focused_acceptance": "One complete acceptance replay cached in setUpClass; controls do not repeat the large operator replay.",
+  "receipts": {
+    "focused_log": "results/conic-projective-criterion-2026-10-23/focused-tests.log.gz",
+    "timing": "results/conic-projective-criterion-2026-10-23/timing.json"
+  },
+  "initial_control_correction": {
+    "log": "results/conic-projective-criterion-2026-10-23/focused-tests.initial.log.gz",
+    "timing": "results/conic-projective-criterion-2026-10-23/timing.initial.json",
+    "description": "The initial negative test changed a legitimate boundary coefficient and incorrectly expected rejection. The full acceptance and the other six tests passed. The final control explicitly accepts that valid change and rejects a middle-coordinate perturbation with a literal source residual. Acceptance code and the mathematical certificates did not need a correction."
+  },
+  "full_repository_regression": "Separate integration gate, not claimed here",
+  "independent_mathematical_review": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}

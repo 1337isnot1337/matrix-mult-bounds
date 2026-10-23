@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+"""Exact finite controls for all inner-index multiplier charts."""
+
+import argparse
+from collections import defaultdict
+from fractions import Fraction
+import json
+from pathlib import Path
+
+
+MAPS = ("zero", "identity", "transpose", "rank-one", "diagonal-shift", "dense-rational")
+
+
+def first_leg_map(n, name):
+    result = [[Fraction(0) for _ in range(n * n)] for _ in range(n * n)]
+    for p in range(n):
+        for q in range(n):
+            source = p * n + q
+            if name == "zero":
+                continue
+            if name == "identity":
+                result[source][p * n + q] = 1
+            elif name == "transpose":
+                result[source][q * n + p] = 1
+            elif name == "rank-one":
+                result[source][0] = p + 2 * q + 1
+            elif name == "diagonal-shift":
+                for t in range(4):
+                    i, h = q + t, p + t
+                    if i < n and h < n:
+                        result[source][i * n + h] += 1
+            elif name == "dense-rational":
+                for i in range(n):
+                    for h in range(n):
+                        numerator = (p + 1) * (h + 1) + (q + 1) * (i + 1)
+                        denominator = p + q + i + h + 1
+                        result[source][i * n + h] = Fraction(numerator, denominator)
+            else:
+                raise ValueError(f"unknown first-leg map: {name}")
+    return result
+
+
+def correction(n, first_map, k_b, k_c):
+    out = defaultdict(Fraction)
+    for p in range(n):
+        for q in range(n):
+            source = p * n + q
+            for y in range(4):
+                for v in range(4):
+                    s = q + v - k_b * y
+                    z = p + y - k_c * v
+                    if 0 <= s < n and 0 <= z < n:
+                        for first, coefficient in enumerate(first_map[source]):
+                            if coefficient:
+                                out[(first, s * 4 + y, v * n + z)] -= coefficient
+
+    for i in range(n):
+        for h in range(n):
+            for j in range(4):
+                out[(i * n + h, i * 4 + j, j * n + h)] += 1
+    return {key: value for key, value in out.items() if value}
+
+
+def projected_matrix(n, tensor, inner_pair):
+    y, v = inner_pair
+    matrix = [[Fraction(0) for _ in range(n * n)] for _ in range(n * n)]
+    for (first, second, third), value in tensor.items():
+        s, source_y = divmod(second, 4)
+        source_v, z = divmod(third, n)
+        if (source_y, source_v) == (y, v):
+            matrix[s * n + z][first] += value
+    return matrix
+
+
+def formula_matrix(n, first_map, inner_pair, k_b, k_c):
+    y, v = inner_pair
+    matrix = [[Fraction(0) for _ in range(n * n)] for _ in range(n * n)]
+    if (y, v) == (2, 2):
+        for row in range(n * n):
+            matrix[row][row] = 1
+    for p in range(n):
+        for q in range(n):
+            source = p * n + q
+            if (y, v) == (0, 0):
+                s, z = q, p
+                matrix[s * n + z][s * n + z] += 1
+            elif (y, v) == (1, 0) and q >= k_b and p <= n - 2:
+                s, z = q - k_b, p + 1
+            elif (y, v) == (0, 1) and q <= n - 2 and p >= k_c:
+                s, z = q + 1, p - k_c
+            elif (y, v) == (2, 2):
+                s, z = q + 2 - 2 * k_b, p + 2 - 2 * k_c
+                if not (0 <= s < n and 0 <= z < n):
+                    continue
+            else:
+                continue
+            row = s * n + z
+            matrix[row] = [value - coefficient for value, coefficient in zip(matrix[row], first_map[source])]
+    return matrix
+
+
+def rank(matrix):
+    work = [row[:] for row in matrix]
+    rows = len(work)
+    columns = len(work[0]) if rows else 0
+    result = 0
+    for column in range(columns):
+        pivot = next((i for i in range(result, rows) if work[i][column]), None)
+        if pivot is None:
+            continue
+        work[result], work[pivot] = work[pivot], work[result]
+        scale = work[result][column]
+        work[result] = [value / scale for value in work[result]]
+        for i in range(rows):
+            if i != result and work[i][column]:
+                scale = work[i][column]
+                work[i] = [a - scale * b for a, b in zip(work[i], work[result])]
+        result += 1
+        if result == rows:
+            break
+    return result
+
+
+def verify(max_n):
+    if type(max_n) is not int or max_n < 1:
+        raise ValueError("max_n must be a positive integer")
+    cases = []
+    tested_pairs = 0
+    for n in range(1, max_n + 1):
+        for k_b in range(n):
+            for k_c in range(n):
+                tested_pairs += 1
+                high_multiplier = 2 * k_b > n + 1 or 2 * k_c > n + 1
+                selected_pairs = [(0, 0), (1, 0), (0, 1)]
+                if high_multiplier:
+                    selected_pairs.append((2, 2))
+                projected_ranks = []
+                for name in MAPS:
+                    first_map = first_leg_map(n, name)
+                    tensor = correction(n, first_map, k_b, k_c)
+                    blocks = []
+                    for pair in selected_pairs:
+                        projected = projected_matrix(n, tensor, pair)
+                        formula = formula_matrix(n, first_map, pair, k_b, k_c)
+                        if projected != formula:
+                            raise AssertionError(
+                                f"formula disagrees for k=({k_b},{k_c}), {name}, n={n}, pair={pair}"
+                            )
+                        blocks.extend(projected)
+                    projected_rank = rank(blocks)
+                    if high_multiplier:
+                        lower_bound = n * n
+                    else:
+                        lower_bound = max(n * n - 1 - k_b * k_c, 0)
+                    if projected_rank < lower_bound:
+                        raise AssertionError(
+                            f"rank {projected_rank} < {lower_bound} for k=({k_b},{k_c}), {name}, n={n}"
+                        )
+                    if n >= 4 and projected_rank < n * n / 2:
+                        raise AssertionError(
+                            f"rank {projected_rank} < n^2/2 for k=({k_b},{k_c}), {name}, n={n}"
+                        )
+                    projected_ranks.append(projected_rank)
+                cases.append({
+                    "n": n,
+                    "k_b": k_b,
+                    "k_c": k_c,
+                    "projected_ranks_by_first_leg_map": projected_ranks,
+                })
+    return {
+        "claim": "AI-Q64-INNER-SHIFTED-COORDINATES-001",
+        "exact_rational_replay": True,
+        "sizes": list(range(1, max_n + 1)),
+        "projection": "stacked (0,0), (1,0), (0,1), and high-multiplier (2,2) blocks",
+        "shift_multiplier_pairs_tested": tested_pairs,
+        "first_leg_maps_tested_per_pair": list(MAPS),
+        "cases": cases,
+        "general_q_maps_excluded": False,
+        "exponent_improvement": False,
+    }
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--max-n", type=int, default=6)
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    report = verify(args.max_n)
+    serialized = json.dumps(report, indent=2) + "\n"
+    if args.output:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(serialized)
+    print(serialized, end="")

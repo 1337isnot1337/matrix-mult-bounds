@@ -1,0 +1,24 @@
+{
+  "claim_id": "AI-EXTERNAL-DOUBLE-LEG-ANCHOR-012",
+  "origin": "Owner-directed AI-derived continuation; written and unreviewed",
+  "external_seed": {
+    "path": "research/ai/2026-10-21-external-grid-seed/factors.json",
+    "sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "credit": "Fawzi et al. (2022), AlphaTensor rank-76 M(4,5,5) algorithm, Lille catalogue and Perminov conversion; original upstream license unchanged"
+  },
+  "physical_bases": {
+    "path": "research/ai/2026-10-23-flip-escape/five_split_certificate.json",
+    "sha256": "12cedfc73b6de98bb302b93941c05027b8acc41df03e4606b99363cb323e1c91"
+  },
+  "predecessor": {
+    "path": "research/ai/2026-10-23-mixed-leg-splits/README.md",
+    "pr": 162,
+    "claim": "AI-EXTERNAL-MIXED-LEG-SPLIT-SEED-011",
+    "role": "The original thirteen replacements, common physical weights, stronger W weights and the complete four-flat cap"
+  },
+  "prior_checkpoints": ["PR128 original split checkpoint", "PR154 larger batches and fixed/mobile W covers"],
+  "method": "Two sequential replacements on distinct legs of one source term; exact physical Laurent contraction; anchored modulo-101 enumeration",
+  "scope": "The four displayed families and their unchanged W configurations only; no general degeneration exclusion, source map or exponent improvement",
+  "independent_review": false,
+  "improves_omega": false
+}

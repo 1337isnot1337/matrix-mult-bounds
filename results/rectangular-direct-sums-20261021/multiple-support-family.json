@@ -1,0 +1,103 @@
+{
+  "status": "explicit moving-support source family; no target maps or smaller exponent",
+  "controls": [
+    {
+      "a": 3,
+      "b": 4,
+      "support_points": [
+        1,
+        2
+      ],
+      "multiplicities": [
+        2,
+        1
+      ],
+      "confluent_vandermonde_determinant": 1,
+      "full_symbol_entries_checked": 12,
+      "crossed_rank_mod_65519": 4,
+      "scalar_symbol_rank_mod_65519": 3,
+      "evaluation_point": 2,
+      "recurrence_coefficients": [
+        -2,
+        5,
+        -4,
+        1
+      ],
+      "recurrence_shifts_checked": 3,
+      "source_rank_from_block_proof": 37,
+      "fixed_support_family_dimension": 16,
+      "moving_support_family_dimension": 18,
+      "complete_source_rank_over_Q": 37
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "support_points": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "multiplicities": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "confluent_vandermonde_determinant": 17915904000,
+      "full_symbol_entries_checked": 80,
+      "crossed_rank_mod_65519": 9,
+      "scalar_symbol_rank_mod_65519": 8,
+      "evaluation_point": 2,
+      "recurrence_coefficients": [
+        5040,
+        -18108,
+        26200,
+        -19901,
+        8729,
+        -2282,
+        350,
+        -29,
+        1
+      ],
+      "recurrence_shifts_checked": 9,
+      "source_rank_from_block_proof": 641,
+      "fixed_support_family_dimension": 134,
+      "moving_support_family_dimension": 141
+    }
+  ],
+  "full_span_certificate": {
+    "a": 8,
+    "b": 10,
+    "long_points": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ],
+    "vandermonde_determinant": "1890966832292234727042877370627225068196418587883634153182519380410368000000000000000000000",
+    "long_rank_mod_65519": 17,
+    "separable_biform_monomials": 80,
+    "certified_linear_span_dimension": 1360,
+    "uses_boundary_specializations": true
+  }
+}

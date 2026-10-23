@@ -1,0 +1,32 @@
+{
+  "tested_commit": "d75a68eb25feb8985e557a26d5565b9922220c3c",
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "logs": [
+    {
+      "path": "results/elementary-biform-gap-2026-10-23/linear-factor-tests.log",
+      "sha256": "dbd2d8ebe8665faf87d9f9c56dbe43a76793ef277015f4141eeb9aebf67304f6",
+      "tests": 3,
+      "seconds": "7.413",
+      "result": "passed",
+      "scope": "3 additional tests:5 nonlinear/decorated exact-rank cases, injective image identity and distinct-factor boundary"
+    },
+    {
+      "path": "results/elementary-biform-gap-2026-10-23/corollary-metadata-tests.log",
+      "sha256": "3856111cab05abfd26f5271faf301a849be30ab150b3b9a7e0adf726d8471285",
+      "tests": 9,
+      "seconds": "0.274",
+      "result": "passed",
+      "scope": "9 current-tree repository and immutable-archive tests"
+    }
+  ],
+  "prior_receipt": "results/elementary-biform-gap-2026-10-23/validation.json",
+  "prior_core_code_and_test_unchanged_since_receipt": true,
+  "preserved_prior_claim_entries": 287,
+  "archive_files_byte_identical_to_base": 23,
+  "complete_repository_suite_run": false,
+  "historical_replay_run": false,
+  "hosted_CI": "pending; current-head required check is a separate merge gate",
+  "mathematical_status": "proof-written-unreviewed",
+  "independent_review": false,
+  "improves_omega": false
+}
