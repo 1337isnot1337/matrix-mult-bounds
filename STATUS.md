@@ -1,5 +1,17 @@
 # Research status
 
+## Alternating matched-sector separations
+
+The [all-size alternating construction](research/ai/2026-10-23-alternating-sector-separation/README.md)
+extracts any positive number `k` of matched convolution sectors from one
+`C(a,B)`, with `B=sum_i b_i+floor(k/2)(a-1)`. A termwise interval proof
+identifies the exact weight-zero support; an exact finite verifier checks the
+recorded small grid. The shared-leg entropy inequality gives the corresponding
+character-profile bound. The matching scalar profile `P_*` satisfies every
+such bound, so this does not improve the exponent. Claim
+`AI-ALTERNATING-K-SECTORS-001` is written and unreviewed; no character
+realization, independent review, or formalization is claimed.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

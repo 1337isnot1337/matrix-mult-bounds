@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+## Alternating matched-sector separations
+
+The `2026-10-23-alternating-sector-separation` package is owner-directed
+OpenAI Codex work. The interval weights and all-size support proof are local
+work. The shared-leg entropy inequality and character framework are external:
+OpenAI, *An Upper Bound of 9/4 for the Matrix Multiplication Exponent*,
+pinned at `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`, Sections 2 and 3. The verifier
+checks finite support only and is not a proof substitute. No independent
+review, formalization, historical priority or exponent improvement is
+claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
