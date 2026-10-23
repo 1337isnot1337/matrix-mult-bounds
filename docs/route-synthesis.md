@@ -1,6 +1,6 @@
 # Interfaces between the spectral, block-identity, and separation routes
 
-Date: October 23, 2026. Local baseline: `fe602e418743f37a7cfa54d788b64aaf8a9d6095`.
+Date: October 23, 2026. Local baseline: `3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93`.
 
 This is a dependency map for research direction R5, not a reproof of the
 external results. The local claims remain at their recorded status. In
@@ -129,10 +129,99 @@ If `L` is the weighted terminal inflow, the pinned Filmus theorem assumes
 \]
 
 Since `dL>1`, this gives a strict improvement on `9/4` exactly when
-`(dL)^3>r^4`. No graph meeting that threshold is constructed here. The next
-research task is to find a graph with all tensor identities and balance data
-certified, or derive another tensor-level constraint that excludes the
-critical spectral behavior. No exponent improvement is claimed.
+`(dL)^3>r^4`. The exact Filmus convolution graph below does not meet that
+threshold. The next research task is to add certified tensor identities that
+escape its scalar edge barrier, or derive another tensor-level constraint that
+excludes the critical spectral behavior. No exponent improvement is claimed.
+
+## Exact Filmus convolution graph and its scalar barrier
+
+At Filmus's pinned commit, the neighboring-length and tripling providers do
+instantiate actual `SharedLegIdentity` records. Write `C(r,b)` for the
+convolution tensor. For `r>=1` and `b>=2`, the neighbor identity has source
+shape `(1,1,2)` (volume `2`) and two children `C(r,b+1)` and `C(r,b-1)`,
+each with output shape `(1,1,1)` (volume `1`). Its value inequality is
+
+\[
+2x(C(r,b))\geq x(C(r,b+1))+x(C(r,b-1)).
+\]
+
+For `r>=2`, the tripling identity has source `C(r,4r-1)`, source and output
+shapes of volume `1`, and three children isomorphic to `C(r,r)`. Its middle
+child uses the `xzy` output permutation, which preserves the reversal in the
+source declaration. It gives
+
+\[
+x(C(r,4r-1))\geq 3x(C(r,r)).
+\]
+
+These are not just formal sector sums: the pinned provider proves the source
+degenerations and the independent block identifications needed by
+`SharedLegIdentity`. The same pinned source gives the boundary symmetry
+`x(C(r,r-1))=x(C(r-1,r))`, a source border-rank bound `2a-1` for `C(a,a)`
+over an infinite field, and
+`symmetrize(C(2,1)) \cong M(2,2,2)`. Thus the family supplies an explicit
+graph from `C(a,a)` to the terminal `C(2,1)`.
+
+It still cannot meet the strict graph threshold using only these edge rows.
+Let
+
+\[
+h_1=1,\qquad h_{a+1}=\left(1+\frac{1}{3a}\right)h_a,
+\qquad P_*(a,b)=h_{\min(a,b)}
+  \left(\max(a,b)+\frac{\min(a,b)-1}{2}\right).
+\]
+
+This is the positive potential already recorded in the
+[scalar-profile note](../research/ai/2026-10-20/research_note.md). It obeys
+the graph rows: for `2<=b<=r`,
+
+\[
+2P_*(r,b)-P_*(r,b-1)-P_*(r,b+1)
+ =\frac{2h_b(r-b)}{3b(3b-2)}\geq0,
+\]
+
+and for `b>=r` the neighbor row is equality. The boundary symmetry follows
+from symmetry of `P_*`, and
+`P_*(r,4r-1)=3P_*(r,r)`. Consequently, any nonnegative weighted combination
+of just these graph rows, with source `C(a,a)` and terminal `C(2,1)`, has
+terminal inflow at most: multiply each row by its edge weight and sum, then
+apply the certificate balances to this positive potential. The resulting cap is
+
+\[
+\frac{P_*(a,a)}{P_*(2,1)}
+ =L_a=\frac{3a-1}{4}\prod_{j=1}^{a-1}
+  \left(1+\frac{1}{3j}\right).
+\]
+
+Here `P_*` is a feasible potential for the edge inequalities, not an
+assertion that it is an actual tensor value. In particular, it bounds what
+the selected graph rows alone can certify. For every `a>=2`, this ratio is
+strictly below the required threshold:
+
+\[
+\frac{(2L_a)^3}{(2a-1)^4}
+ =\frac{(3a-1)^3h_a^3}{8(2a-1)^4}<1.
+\]
+
+For `a>=4`, `h_a^3<=e(a-1)`, `2a-1>=7a/4`, and `3a-1<=3a` bound the ratio
+by `864e/2401 < 2376/2401 < 1`; `a=2,3` follow by direct substitution.
+The pinned row certificate attains `L_a`, so this is the optimal inflow for
+this fixed edge system. The product has the asymptotic
+
+\[
+h_a=\frac{\Gamma(a+1/3)}{\Gamma(4/3)\Gamma(a)}
+  \sim\frac{a^{1/3}}{\Gamma(4/3)},\qquad
+L_a\sim\frac{3}{4\Gamma(4/3)}a^{4/3}.
+\]
+
+Thus the resulting exponent bounds tend to `9/4` but do not pass the strict
+criterion. This rules out the current
+neighbor/tripling/boundary row family as a strict-improvement certificate
+with these endpoints. It does not rule out additional exact identities,
+different endpoints, or a constraint beyond this scalar edge system. This
+written, unreviewed conditional result is tracked as
+`AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.
 
 ## Pinned sources and local interfaces
 
@@ -140,5 +229,7 @@ critical spectral behavior. No exponent improvement is claimed.
   commit [`fd4aeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb), especially the finite-separation proposition and shared-leg entropy inequality in Section 3, the discrete-growth lemma, and the detecting-character lemma. This is the external complex-field baseline.
 - Yuval Filmus, *Matrix multiplication from block identities*, commit
   [`8e38460`](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/tree/8e38460c2c04617692a64a826b09e8995ac8717d), frozen declaration [`identities_to_exponent_v2.lean`](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Frozen/identities_to_exponent_v2.lean). The source-level interface was inspected; its imported proof closure was not rebuilt here.
+- The same pinned Filmus commit's [shared convolution identities](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/ConvolutionSharedIdentities.lean), [neighbor degeneration](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Providers/ConvolutionNeighbor.lean), [tripling degeneration](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Providers/ConvolutionTripling.lean), [convolution potential](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Square/ConvolutionPotentialBound.lean), [yield formula](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Square/Yield.lean), [border-rank bound](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/ConvolutionRankBound.lean), and [terminal isomorphism](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/ConvolutionTerminal.lean). Provider hypotheses include `b>=2` or `r>=2`; the border-rank result assumes an infinite field.
+- The same commit's [shared-leg value inequality](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Providers/SharedLegValue.lean) converts each exact identity and its matrix volumes into the value rows above.
 - Houxi Lü, *Polynomial Separation of a Shared Tensor Leg and Matrix Multiplication in Arbitrary Characteristic*, [arXiv:2610.18914v1](https://arxiv.org/html/2610.18914v1), Proposition 2.1 and equations (3.1)-(3.3). Its field-size requirement and degeneration hypotheses are part of the statement.
 - Local comparison points: [scalar profile and filtration note](../research/ai/2026-10-20/research_note.md), [direct-sum extraction](../research/ai/2026-10-20-affine-direct-sums/direct_sums.md), [fixed-label equivalence](../research/ai/2026-10-20-concavity-equivalence/research_note.md), and claim `AI-SCALAR-001` in [`research/claims.json`](../research/claims.json).

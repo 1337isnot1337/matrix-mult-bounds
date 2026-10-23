@@ -131,16 +131,23 @@ Status: open. The [route map](route-synthesis.md) compares the spectral,
 block-identity, and polynomial-separation interfaces. The
 [entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to
 its scalar matched-decomposition inequalities, even when decompositions share
-different legs. A candidate constraint absent from the scalar profile is an
-actual block-identity graph: exact shared-leg maps and shapes, a source
-border-rank bound, nonnegative weights satisfying every balance, and a
-terminal inflow `L>1/d` with `(dL)^3>r^4`. No qualifying graph has been
-constructed, and no smaller exponent follows.
+different legs. The exact Filmus convolution neighbor and tripling identities
+give a concrete graph family. The `P_*` potential bounds every certificate
+using only those rows from `C(a,a)` to `C(2,1)` by `L_a`, and
+`(2L_a)^3 < (2a-1)^4` for every `a>=2`; this family misses the strict
+improvement threshold. A candidate constraint absent from the scalar profile
+must add exact shared-leg maps or other tensor-level data beyond this row
+family, along with a source border-rank bound, nonnegative weights satisfying
+every balance, and terminal inflow `L>1/d` with `(dL)^3>r^4`. No qualifying
+graph or smaller exponent has been established.
+The scoped row-family obstruction is tracked as
+`AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.
 
-Continue by constructing and certifying such a graph, or by finding a different
-tensor-level constraint that excludes the critical spectral behavior. The
-numeric endpoint inequality alone is not a certificate. Keep external lemmas
-attributed to their sources.
+Continue by finding and certifying additional identities or endpoints that
+escape the scalar potential barrier, or by finding a different tensor-level
+constraint that excludes the critical spectral behavior. The numeric endpoint
+inequality alone is not a certificate. Keep external lemmas attributed to
+their sources.
 
 ## R6: Make search results stronger and reusable
 

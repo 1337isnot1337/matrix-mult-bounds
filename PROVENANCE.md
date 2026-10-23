@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The R5 convolution-graph audit is owner-directed OpenAI Codex work. Filmus's
+exact neighboring and tripling shared-leg identities, source border-rank
+bound, terminal isomorphism, and weighted row certificate are pinned to
+commit `8e38460c2c04617692a64a826b09e8995ac8717d`; their imported Lean proof
+closure was not rebuilt here. The local contribution is the `P_*` potential
+comparison proving that this fixed graph family misses the strict exponent
+criterion for every size. This is a written, unreviewed conditional no-go; it
+does not exclude other graphs or establish an exponent improvement.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
