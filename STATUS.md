@@ -2319,3 +2319,24 @@ formula cannot reach 9/4 by direct asymptotic-sum substitution at any n.
 This is not a lower bound on optimal tensor rank. No optimality,
 historical priority, independent review or formalization is claimed.
 Claim: AI-AGGREGATION-29-001.
+
+
+The [106-product continuation](research/ai/2026-10-23-aggregation-families/proof.md#7-exact-106-product-continuation)
+adds an exact characteristic-zero construction of 106 independent
+M(n^4,n^4,n^4) products for every n>=1, with budget
+x^12+12*x^11+66*x^10+139*x^9+5*x^8, x=n+1.
+All 1,191,016 ordered mixed triples and 222 correction subsets pass the
+set-based verifier. Its cost bound per output improves the credited
+external 105-product bound for every integer n>=7, certified by an exact
+positive-coefficient polynomial after the shift x=8+u. A separate seeded
+F2 evaluation of 106 independent 16-by-16 products checks all 9,323,181
+rank-one positions; it is an implementation control, not the uniform proof.
+Claim: AI-AGGREGATION-106-002.
+
+The [size gate for these displayed budgets](research/ai/2026-10-23-aggregation-families/cost_floor.md)
+also shows that every balanced conflict-free family with N<=7 fails the
+direct 9/4 cost comparison when the whole (n+1)^(3N) aggregate is charged.
+N>=8 is necessary for this budget model, not sufficient. This is not a
+lower bound on tensor rank; cheaper aggregate decompositions and other
+constructions remain outside its scope. Claim: AI-AGGREGATION-COST-FLOOR-003.
+Both new proofs are written and unreviewed, with no exponent improvement.

@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 from itertools import product
+from math import comb
 import json
 import hashlib
 from pathlib import Path
@@ -105,25 +106,25 @@ def check_family(data: dict) -> dict:
         "off_diagonal_terms_killed_by_corrections": coefficient_checks,
         "distinct_replicated_coordinate_sets": len(replicated),
         "correction_counts_by_size": dict(sorted(counts.items())),
-        "rank_polynomial_coefficients": dict(sorted(polynomial.items(), reverse=True)),
+        "rank_polynomial_coefficients": dict(sorted(polynomial.items(), key=lambda item: int(item[0]), reverse=True)),
         "independent_mathematical_review": False,
         "improves_omega": False,
     }
 
 
-def check_source_hash(path: Path) -> dict:
+def check_source_hash(path: Path, source_id: str = "ex28") -> dict:
     """Require exact bytes of the versioned external comparison witness."""
     sources = json.loads((HERE / "sources.json").read_text())
-    source = next(item for item in sources["ancillary_sources"] if item["id"] == "ex28")
+    source = next(item for item in sources["ancillary_sources"] if item["id"] == source_id)
     actual = hashlib.sha256(path.read_bytes()).hexdigest()
     if actual != source["sha256"]:
         raise ValueError("External baseline source SHA256 does not match the pinned version")
     return {"source_id": source["id"], "url": source["url"], "sha256": actual, "verified": True}
 
 
-def baseline_data(path: Path) -> dict:
+def baseline_data(path: Path, source_id: str = "ex28") -> dict:
     """Read the hash-verified external seed only to replay its comparison cost."""
-    check_source_hash(path)
+    check_source_hash(path, source_id)
     rows = []
     for line in path.read_text().splitlines():
         if re.match(r"^\d+\s*\|", line):
@@ -150,16 +151,40 @@ def baseline_data(path: Path) -> dict:
 
 
 def comparison(new: dict, old: dict) -> dict:
-    """Exact coefficient proof of a strictly lower cost per output for x>0."""
+    """Exact shifted-coefficient certificate of a lower cost per output."""
     m, old_m = len(new["products"]), len(old["products"])
     a, b = new["rank_polynomial_coefficients"], old["rank_polynomial_coefficients"]
-    delta = {power: m * b.get(power, 0) - old_m * a.get(power, 0)
+    if new["coordinate_count"] != old["coordinate_count"]:
+        raise ValueError("The compared products must have the same matrix dimension")
+    delta = {int(power): m * b.get(power, 0) - old_m * a.get(power, 0)
              for power in set(a) | set(b)}
-    if not delta or any(value < 0 for value in delta.values()) or not any(delta.values()):
-        raise ValueError("The claimed positive-coefficient cost comparison does not hold")
-    return {"identity": f"{m}*external_rank_bound - {old_m}*new_rank_bound",
-            "positive_coefficients": dict(sorted(delta.items(), reverse=True)),
-            "strictly_positive_for_x_positive": True}
+    delta = {power: value for power, value in delta.items() if value}
+    if not delta:
+        raise ValueError("The two stated cost bounds coincide per output")
+    factor = min(delta)
+    reduced = {power - factor: value for power, value in delta.items()}
+    degree = max(reduced)
+    # A successful shift is an exact all-x>=shift certificate, not a sampled test.
+    for shift in range(1001):
+        shifted = {j: sum(value * comb(power, j) * shift ** (power - j)
+                          for power, value in reduced.items() if power >= j)
+                   for j in range(degree + 1)}
+        if shifted[0] > 0 and all(value >= 0 for value in shifted.values()):
+            break
+    else:
+        raise ValueError("No positive shifted-coefficient comparison certificate was found")
+    render = lambda coefficients: {str(power): value for power, value in sorted(coefficients.items(), reverse=True)}
+    report = {"identity": f"{m}*external_rank_bound - {old_m}*new_rank_bound",
+              "difference_coefficients": render(delta), "monomial_factor_exponent": factor,
+              "shift_x": shift, "shifted_polynomial_coefficients": render(shifted),
+              "strictly_lower_cost_per_output_for_integer_n_at_least": max(1, shift - 1),
+              "scope": "Comparison of these upper bounds only; not optimal ranks or runtimes"}
+    if all(value >= 0 for value in delta.values()):
+        report["positive_coefficients"] = render(delta)
+        report["strictly_positive_for_x_positive"] = True
+    else:
+        report["strictly_positive_for_x_positive"] = False
+    return report
 
 
 def direct_exponent_cost_scope(data: dict) -> dict:
@@ -182,8 +207,10 @@ def main() -> None:
     parser.add_argument("--export-seed", type=Path, help="Export the external baseline as masks for discovery")
     args = parser.parse_args()
     data = json.loads(args.witness.read_text())
-    old = baseline_data(HERE / "baseline_ex28.txt")
-    report = {"source_integrity": check_source_hash(HERE / "baseline_ex28.txt"),
+    source_id = data.get("baseline_source_id", "ex28")
+    baseline_path = HERE / f"baseline_{source_id}.txt"
+    old = baseline_data(baseline_path, source_id)
+    report = {"source_integrity": check_source_hash(baseline_path, source_id),
               "new_witness": check_family(data), "external_baseline": check_family(old),
               "cost_comparison": comparison(data, old),
               "direct_exponent_cost_scope": direct_exponent_cost_scope(data)}

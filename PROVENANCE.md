@@ -1007,3 +1007,17 @@ dual-embedding proof rederives the credited construction for this family.
 Separate programs and exact finite-field controls are same-session
 verification, not independent mathematical review or formalization.
 No smaller exponent or historical priority is claimed.
+
+
+The continuation in the same aggregation package adds a 106-product
+family, with the external ex105 witness and source hash retained. The
+coordinate proof is the same credited centered-aggregation mechanism,
+applied to the newly exported tripartitions. The comparison of cost per
+output holds only for n>=7. A byte-packed F2 control checks one full
+assignment to nontrivial 16-by-16 products by evaluating every rank-one
+position exactly; its sampled assignment is not the uniform proof.
+The accompanying size gate is an owner-directed Codex application of
+distinct-part injection and weighted AM-GM to the displayed upper-bound
+certificates. It makes no claim about optimal tensor rank. No historical
+priority, independent mathematical review, formalization or exponent
+improvement is claimed for these additions.

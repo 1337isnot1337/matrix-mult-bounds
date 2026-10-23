@@ -62,3 +62,9 @@ exported 29-product family and proof.md establish its exact uniform rank
 identity and strict cost-per-output improvement over the external 28
 comparison. The first correction-free 15 question remains open. No
 smaller matrix multiplication exponent follows.
+
+The twelve-coordinate secondary question also has a positive answer:
+`witness_106.json` gives 106 products. Its corrected cost per output
+beats the credited 105-product comparison for every integer n>=7.
+The unsuccessful 30-product and correction-free 39 searches are recorded
+separately as bounded experiments, not impossibility proofs.

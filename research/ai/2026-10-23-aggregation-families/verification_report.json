@@ -57,6 +57,22 @@
   },
   "cost_comparison": {
     "identity": "29*external_rank_bound - 28*new_rank_bound",
+    "difference_coefficients": {
+      "9": 1,
+      "8": 9,
+      "7": 7,
+      "6": 32
+    },
+    "monomial_factor_exponent": 6,
+    "shift_x": 0,
+    "shifted_polynomial_coefficients": {
+      "3": 1,
+      "2": 9,
+      "1": 7,
+      "0": 32
+    },
+    "strictly_lower_cost_per_output_for_integer_n_at_least": 1,
+    "scope": "Comparison of these upper bounds only; not optimal ranks or runtimes",
     "positive_coefficients": {
       "9": 1,
       "8": 9,
