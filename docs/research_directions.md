@@ -2,6 +2,14 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [all-size divisor source caps](../research/ai/2026-10-23-divisor-source-caps/proof.md)
+give a sharp cap ad for every proper divisor d of a throughout rank
+ceilings a(a+d-1),...,a(a+d)-1. This generalizes the credited A4 cap8
+without a new A4 cutoff. Their singular-long-leg corollary can be used
+as a necessary test for other balanced sizes. Nondivisor strips, rank
+ceilings outside the proved intervals and actual target constructions
+remain open to this method; finite grid extensions do not prove them.
+
 The [sharp low-rank-space cap](../research/ai/2026-10-23-torus-low-rank/proof.md)
 further restricts both scalar-balanced A4 long-map ranks to at most101.
 Its rank-preserving torus specialization can also bound larger source

@@ -145,8 +145,9 @@ limiting rank R-c. If
 then no such degeneration exists. The other two maps may have arbitrary
 finite poles, with no original unit-lift assumption.
 
-This adopts the credited unit-kernel and active-ruling arguments of
-PR113 and PR129. Scalar-balance the first map F to be regular with
+This adopts the credited [unit-kernel argument of PR113](https://github.com/1337isnot1337/matrix-mult-bounds/blob/08ac3e983e270cf3df4e26d960ceb16415f7ef31/research/ai/2026-10-23-one-regular-leg/proof.md)
+and active-ruling argument of PR129. The latter's pinned local proof
+includes the complete kernel identity. Scalar-balance F to be regular with
 F_0 nonzero. The target unit gives an exact regular right inverse D of
 the other long map after regular output normalization. The correction
 

@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-23-divisor-source-caps` package is owner-directed Codex work.
+The canonical cyclic source and biform rank gap retain their prior
+credits and exact byte pins, including the block lemma's inherited
+external P1 bundle-splitting input. Rank-preserving torus specialization
+and active-ruling injection retain PR129's credit, and the regular
+unit-kernel correction retains PR113's pinned upstream credit. This
+continuation supplies the all-size divisor-cycle partition, literal
+residue-block identity and sharp interval attained by divisor strips.
+Its A4 example recovers the existing cap and cutoff. No historical
+priority, independent review, formalization, target construction or
+exponent improvement is claimed. Exact finite minors support the written
+unreviewed proof; they do not replace its all-integer quantifiers.
+
 The `2026-10-23-torus-low-rank` follow-up is owner-directed OpenAI Codex
 work. It adopts the canonical source coefficient formula and minimum
 rank, PR113's unit-kernel correction, and the active-ruling argument

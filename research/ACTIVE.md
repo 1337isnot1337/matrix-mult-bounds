@@ -7,8 +7,9 @@ It generalizes the torus coordinate method to every proper divisor d
 of every balanced source size a: the proposed sharp dimension cap is
 ad throughout rank ceilings a(a+d-1),...,a(a+d)-1. Divisor cycles and
 a d^2-fold residue decomposition supply the upper bound; a d-row strip
-attains it. Exact minors, residue identities and regression evidence
-are pending. This is distinct from the owned A4 rank24 and joint-rank
+attains it. All110 exact minors,330 residue identities and60 divisor
+strip controls pass; regression evidence is pending. This is distinct
+from the owned A4 rank24 and joint-rank
 frontiers and claims no new A4 cutoff or smaller exponent.
 
 The torus follow-up in `ai/2026-10-23-torus-low-rank/proof.md` strengthens

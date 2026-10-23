@@ -1,5 +1,21 @@
 # Research status
 
+## Sharp divisor-strip source caps at every balanced size
+
+The [divisor-source proof](research/ai/2026-10-23-divisor-source-caps/proof.md)
+extends the A4 torus method to every proper positive divisor d of every
+balanced size a. For each integer rank ceiling q with
+`a(a+d-1)<=q<a(a+d)`, the largest dimension of an arbitrary complex
+linear source space whose slices have rank at most q is exactly ad.
+Divisor cycles bound a coordinate specialization; a literal d^2-block
+decomposition imports the prior biform rank gap. A d-row strip attains
+the cap. Claims `AI-DIVISOR-SOURCE-CAP-001` and
+`AI-DIVISOR-LONG-EXCLUSION-002` are written and unreviewed. Exact controls
+check110 minors,330 residue identities and60 divisor/strip cases.
+The all-size long-leg corollary recovers the prior A4 rank102 exclusion;
+no new A4 frontier or exponent improvement is claimed. The earlier
+block lemma retains its P1 bundle-splitting dependency and original credit.
+
 ## Sharp rank-23 source-space cap and long-map rank 102 exclusion
 
 The [torus specialization proof](research/ai/2026-10-23-torus-low-rank/proof.md)
