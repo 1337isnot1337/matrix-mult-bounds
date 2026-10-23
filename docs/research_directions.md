@@ -2,20 +2,17 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
-The [sharp low-rank-space cap](../research/ai/2026-10-23-torus-low-rank/proof.md)
-further restricts both scalar-balanced A4 long-map ranks to at most101.
-Its rank-preserving torus specialization can also bound larger source
-rank loci. Combine those bounds with the saturated target-support
-constraint, retaining concurrent PR122's attribution. Repeating the
-excluded ranks102 through110 cannot construct the target.
-
-The [singular-long-rank theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
-now excludes A4 target charts in which either scalar-balanced long map
-has limit rank at least 106. Do not repeat those charts. Both ranks at
-most 105 remain open. At rank105 the active-ruling argument reaches
-source rank20; a sharper bound on linear spaces in that source rank
-locus is one concrete next question. The result uses the previous
-source rank gap and PR113's unit-kernel correction and proves no target.
+The [rank-48 source-space theorem](../research/ai/2026-10-23-torus-rank-frontier/proof.md)
+forces the two scalar-balanced long-map ranks to sum to at most176,
+strengthening concurrent PR122's sum192 bound. The separate
+[sharp rank23 cap](../research/ai/2026-10-23-torus-low-rank/proof.md)
+limits each rank to at most101. Do not repeat the excluded region.
+Determine bounds for larger low-rank source spaces, or add source-specific
+constraints to the saturated target-support inequality on the remaining
+region. Neither the dimension24 bound nor sum176 is asserted sharp.
+The [initial singular-long theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
+retains the credited regular kernel correction and active-ruling argument;
+its former rank105 boundary has been superseded by these extensions.
 
 ## Active paired construction: near-full width four
 

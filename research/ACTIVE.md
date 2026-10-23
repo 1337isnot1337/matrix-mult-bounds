@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The rank-48 continuation in `ai/2026-10-23-torus-rank-frontier/proof.md`
+now proves source-space dimension at most24 below slice rank48. The
+credited saturated support inequality then gives balanced long-rank
+sum at most176, retaining PR122's prior sum192 attribution. Combined
+with the individual rank102 exclusion, any candidate has both ranks
+at most101 and sum at most176. Eight new focused tests pass; exact
+controls enumerate all12321 rank pairs and exclude all990 above176.
+No sharpness or construction at the surviving boundary is claimed.
+Next: larger low-rank source spaces or additional support constraints
+within the remaining frontier. Full regression, archive replay and
+current-head CI remain merge gates; all proof claims are unreviewed.
+
 The torus follow-up in `ai/2026-10-23-torus-low-rank/proof.md` strengthens
 the singular-long result: arbitrary complex source subspaces of slice
 rank at most23 have dimension at most8, so remaining scalar-balanced
@@ -15,8 +27,8 @@ long-map rank of 106 or higher, without restrictions on the other
 Laurent poles or the target-unit lift. The regular kernel correction
 is credited to PR113; the new step combines the source rank gap with
 injectivity on an active target ruling. Four focused tests pass.
-The boundary at rank105 reaches actual rank20 source slices and remains
-open. Full regression and archive replay are required before this
+The original rank105 boundary reaches rank20 source slices; the later
+rank23 source-space cap above now excludes it. Full regression and archive replay are required before this
 submission is ready to merge. The claim remains written and unreviewed.
 
 The October 23 nonsplit continuation is in

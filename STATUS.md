@@ -1,5 +1,23 @@
 # Research status
 
+## Balanced A4 long-map rank sum is at most176
+
+The [rank-48 source-space proof](research/ai/2026-10-23-torus-rank-frontier/proof.md)
+shows that every complex linear A4 source space whose slices all have
+rank below48 has dimension at most24. Torus specialization, disjoint
+middle blocks and the earlier rank23 cap prove this for arbitrary
+complex subspaces. Combined with the credited saturated target-support
+inequality, it forces `rank(B0)+rank(C0)<=176` in every complete A4 to
+M(10,10,11) Laurent degeneration after scalar-balancing the two long
+maps. The first map may have arbitrary finite poles, and higher
+coefficients are unrestricted. This strengthens concurrent PR122's
+sum192 bound; the total leading long-rank loss is at least44.
+Claims `AI-A4-RANK48-LINEAR-SPACE-001` and
+`AI-A4-BALANCED-LONG-SUM176-002` are written and unreviewed. The separate
+rank102 exclusion below also applies: both ranks are at most101.
+Neither24 nor176 is asserted sharp; no surviving target or exponent
+gain is constructed.
+
 ## Sharp rank-23 source-space cap and long-map rank 102 exclusion
 
 The [torus specialization proof](research/ai/2026-10-23-torus-low-rank/proof.md)
@@ -28,7 +46,8 @@ into the source's minimum-rank cone, which cannot contain that linear
 space. Claim `AI-A4-SINGULAR-LONG-RANK-001` is written and unreviewed.
 Exact controls check eight literal source slices, including a rank-20
 boundary witness, and the strict singular-column and ruling budgets.
-The remaining candidates have both balanced long ranks at most 105.
+This first checkpoint gave the rank105 boundary; the later rank102
+and sum176 results above further restrict the surviving candidates.
 This supersedes the regular-unit hypotheses in the earlier scoped
 exclusions below. No matrix target or smaller exponent is established.
 

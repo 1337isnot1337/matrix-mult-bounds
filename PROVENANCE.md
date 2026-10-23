@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-torus-rank-frontier` package is owner-directed OpenAI
+Codex work. The source, ordinary restriction obstruction, rank-preserving
+torus, eight-pair minor certificate and saturated target-support condition
+retain their original credit and byte pins. Concurrent PR122 at a2848076
+retains credit for the compression-kernel strategy and sum192 result.
+The new deduction bounds arbitrary source spaces below rank48 by24
+and forces balanced long-rank sum at most176. The proof repeats the
+saturation argument and the below-rank32 case, without a PR122 code
+dependency. Exact source, minor and integer rank-budget controls support
+the written proof; they do not supply independent mathematical review,
+formalization, a sharpness result or an exponent improvement.
+
 The `2026-10-23-torus-low-rank` follow-up is owner-directed OpenAI Codex
 work. It adopts the canonical source coefficient formula and minimum
 rank, PR113's unit-kernel correction, and the active-ruling argument
