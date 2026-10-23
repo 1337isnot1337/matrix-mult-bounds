@@ -1,5 +1,23 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-z-middle` package is owner-directed,
+AI-assisted mathematics. Its exact literal source convention and the
+general biform gap are credited to the pinned
+`2026-10-20-anisotropic-constructions/slice_rank_gap.md` on main.
+Concurrent PR209 at `4247f42` developed the affine-in-z exact
+rank formula, the complete polynomial-row kernel method, and proposed
+the quadratic continuation; all retain their attribution. This new
+proof treats the distinct constant-endpoint quadratic subfamily.
+PR207 owns diagonal-polynomial Toeplitz ranks, PR208 their geometric
+subfamily, and PR171 two-monomial ranks. None of these concurrent
+theorems is imported as an unproved premise. Two implementations
+reconstruct matrices and null vectors within one generating session;
+their agreement is not independent external mathematical review.
+The claim is written and unreviewed, does not classify general quadratic
+biforms, and does not establish a tensor degeneration or exponent gain.
+Source and PR hashes are recorded in
+`research/ai/2026-10-23-quadratic-z-middle/sources.json`.
+
 This register records each package's contribution and its predecessor credits.
 Statements about what a package does not establish describe that package's
 scope; later packages can settle a separate continuation. Independently
@@ -19,6 +37,14 @@ used only as lower bounds for complex dimension. Root and subagent
 checks belong to one generating session and are not independent
 mathematical review or formalization. No target, historical priority
 or exponent improvement is claimed.
+
+Its low-rank-locus continuation imports the minimum-rank-six theorem
+for `G+G00 G` from `AI-RESOLVENT-SHARP-MINRANK-001`, with proof,
+verifier and certificate bytes pinned. The explicit complete block
+basis, transpose-conjugation transport to `G+G G00`, and reduction to
+the 46-dimensional bottom-left space are the local additions.
+Both root and another subagent read the deduction within the generating
+session; that does not change its written-and-unreviewed status.
 
 ## Exact aggregation families with 29 and 106 products
 
@@ -47,8 +73,10 @@ output holds only for n>=7. A byte-packed F2 control checks one full
 assignment to nontrivial 16-by-16 products by evaluating every rank-one
 position exactly; its sampled assignment is not the uniform proof.
 The accompanying size gate is an owner-directed Codex application of
-distinct-part injection and weighted AM-GM to the displayed upper-bound
-certificates. It makes no claim about optimal tensor rank. No historical
+distinct-part injection, an induced-edge incidence count, and weighted
+AM-GM to the displayed upper-bound certificates. The incidence count
+extends the excluded range from N<=7 to N<=10. It makes no claim about
+optimal tensor rank. No historical
 priority, independent mathematical review, formalization or exponent
 improvement is claimed for these additions.
 
@@ -88,6 +116,18 @@ dimension count. The maintained Q convention and correction criterion
 retain their earlier credits. A separate agent in the generating session
 checked the proof; this is not independent mathematical review. Seven
 focused controls do not establish an improved exponent or formalization.
+
+The same package's rank-margin follow-up adapts the standard rank-one-term
+substitution method to the regular primitive-vector argument. It retains
+credit to Landsberg and Michalek for the established border substitution
+method and to Conner, Harper and Landsberg for the rank-one-curve
+formulation, with precise sources in rank-margin-sources.json. The local
+addition is the d+h-rho-1 bound under the stated channel-rank hypothesis,
+including the finite-pole diagonal substitution and exact controls.
+Two other agents checked its reasoning during this generating session;
+this is not independent mathematical review. The preceding proof and
+arithmetic files remain byte-identical. No historical priority, exponent
+improvement or formalization is claimed.
 
 ## Alternating matched-sector separations
 

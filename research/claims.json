@@ -7118,7 +7118,7 @@
       "origin": "Owner-directed OpenAI Codex continuation of an externally attributed factorization",
       "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-23-gauged-splits/README.md",
-      "statement": "Six explicit U replacements in the pinned AlphaTensor M(4,5,5) algorithm give82 exact terms. Under the retained four-split unimodular physical bases and weights, the six discarded rank-one tensors have positive valuations3,3,6,4,1,3 even though two factors have valuation-2. The76 surviving Laurent terms have70 distinct U directions, exactly M(4,5,5) at all10000 constant positions, no negative coefficients and73 positive remainder coefficients. After epsilon=t^3, displayed product-one factor gauges make every discarded factor have positive valuation. A mixed trace tr((U0+U18)V47W0)=1 excludes simultaneous contraction of all unscaled discarded arrows and proves that this tensor-valuation condition is strictly more permissive for this batch.",
+      "statement": "Six explicit U replacements in the pinned AlphaTensor M(4,5,5) algorithm give82 exact terms. Under the retained four-split unimodular physical bases and weights, the six discarded rank-one tensors have positive valuations3,3,6,4,1,3 even though two factors have valuation-2. The76 surviving Laurent terms have70 distinct U directions, exactly M(4,5,5) at all10000 constant positions, no negative-degree coefficients and73 positive-degree remainder coefficients. After epsilon=t^3, displayed product-one factor gauges make every discarded factor have positive valuation. A mixed trace tr((U0+U18)V47W0)=1 excludes simultaneous contraction of all unscaled discarded arrows and proves that this tensor-valuation condition is strictly more permissive for this batch.",
       "dependencies": [
         "EXP-EXTERNAL-GRID-SEED-013 credited pinned external factorization",
         "AI-EXTERNAL-SPLIT-BORDER-SEED-002 unchanged four-split physical-basis certificate",
@@ -7233,7 +7233,7 @@
       "origin": "Owner-directed OpenAI Codex continuation of an externally attributed factorization",
       "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
-      "statement": "Two exact split variants of the pinned AlphaTensor M(4,5,5) algorithm have explicit rank-76 Laurent certificates. Four replacements at indices0,17,48,56 yield72 distinct U directions and a common discarded-arrow image flag vanishing at step9; five replacements at16,47,31,26,54 yield71 directions and a flag vanishing at step8. Both use unimodular physical bases and integer Laurent weights making every discarded factor entry positive. Complete contraction checks all10000 constant positions and no negative coefficients, with51 and172 positive remainder coefficients respectively. The original four-split certificate is retained unchanged.",
+      "statement": "Two exact split variants of the pinned AlphaTensor M(4,5,5) algorithm have explicit rank-76 Laurent certificates. Four replacements at indices0,17,48,56 yield72 distinct U directions and a common discarded-arrow image flag vanishing at step9; five replacements at16,47,31,26,54 yield71 directions and a flag vanishing at step8. Both use unimodular physical bases and integer Laurent weights giving every nonzero discarded factor entry positive valuation. Complete contraction checks all10000 constant positions and no negative-degree coefficients, with51 and172 positive-degree remainder coefficients respectively. The original four-split certificate is retained unchanged.",
       "dependencies": [
         "EXP-EXTERNAL-GRID-SEED-013 pinned external factorization",
         "Dumitriu et al., arXiv:2610.13905v1, Theorems2.1 and2.2 for the nilpotent-factor deletion viewpoint",
@@ -10649,13 +10649,66 @@
       "origin": "Owner-directed Codex written argument and exact finite cost certificate",
       "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
-      "statement": "For every conflict-free balanced family on 3N coordinates with N<=7, and every real n>0, each displayed budget B(n)=(n+1)^(3N)+sum_{k>=1}c_k*(n+1)^(3N-k), c_k>=0, satisfies B(n)>p*n^(9N/4). Distinct coordinate parts give p<=binom(3N,N); weighted AM-GM and exact integer comparisons prove the gap. The N=8 row is a non-exclusion control, so N>=8 is necessary only for this displayed budget to pass the direct 9/4 gate.",
+      "statement": "For every conflict-free balanced family on 3N coordinates with N<=10, and every real n>0, each displayed budget B(n)=(n+1)^(3N)+sum_{k>=1}c_k*(n+1)^(3N-k), c_k>=0, satisfies B(n)>p*n^(9N/4). With C=binom(3N,N), D=binom(2N,N), the full D-regular tripartition hypergraph has CD edges and selected parts induce exactly p. Deleting 3(C-p) vertices gives CD-p<=3(C-p)D, hence p<=floor(2CD/(3D-1)). Weighted AM-GM and exact integer comparisons prove the gap. The N=11 row is a non-exclusion control, so N>=11 is necessary only for this displayed budget to pass the direct 9/4 gate.",
       "dependencies": [
         "External balanced conflict-free aggregation setup, Solomonik and Blaeser arXiv:2610.26563v2",
-        "Distinct-part injection argument and weighted AM-GM",
-        "Exact integer certificate for N=1 through 8"
+        "Distinct-part injection, induced-edge incidence bound and weighted AM-GM",
+        "Exact integer certificate for N=1 through 11 and exhaustive N=1 hypothesis control"
       ],
-      "limitations": "A limitation of the displayed rank upper-bound certificates, never a lower bound on actual tensor rank or omega. Does not exclude cheaper leading aggregates, other source identities, other target shapes, or different rank decompositions. N>=8 is not sufficient. No independent mathematical review or formalization.",
+      "limitations": "A limitation of the displayed rank upper-bound certificates, never a lower bound on actual tensor rank or omega. Does not exclude cheaper leading aggregates, other source identities, other target shapes, or different rank decompositions. N>=11 is not sufficient. No independent mathematical review or formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-A4-TWOSIDED-LOWRANK-003",
+      "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+      "origin": "Owner-directed OpenAI Codex research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "section": "1-4",
+      "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+      "dependencies": [
+        "AI-A4-TWOSIDED-RANKLOSS-001",
+        "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+        "Credited minimum nonzero source rank sixteen",
+        "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+      ],
+      "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. The universal reduced lower bound 38 is not proved, arbitrary constant compressions are not excluded, and satisfying the reduced condition is not sufficient for a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-LAURENT-BORDER-MARGIN-003",
+      "title": "Auxiliary border-rank margin from a generic channel-rank deficit",
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+      "statement": "For a complex formal degeneration S(t)+E(t)=M(l,h,r)+O(t) with E the locally mapped auxiliary R, suppose a d-dimensional first-covector subspace over C((t)), d>=1, has generic source channel rank at most rho<h. Then border_rank(R)>=d+h-rho-1, while the first-flattening bound remains d. Rank-one-term substitution leaves at most h-rho-1 surviving auxiliary terms; primitive normalization makes the total regular before determinant specialization. A border-rank approximation with parameter u may be substituted as u=t^N with N larger than the sum of local-map pole bounds. The paired corollary uses d=(l*r-n^2+g_B*g_C)_+ when positive and rho=a*b.",
+      "dependencies": [
+        "AI-LAURENT-CHANNEL-SEPARATION-001 and AI-LAURENT-PAIRED-REPAIR-002, with unchanged proof and arithmetic files pinned",
+        "Established rank-one-term substitution method, attributed to Landsberg and Michalek, arXiv:1601.08229v1 Section5",
+        "Complex rank-one-curve characterization of border rank, attributed to Conner, Harper and Landsberg, arXiv:1911.07981v1 Section2.2; over a general field a formal rank-c approximation must be supplied"
+      ],
+      "limitations": "Requires d>=1 and the rank cap over the full Laurent field. For d=0 no bound is supplied. The added margin applies to tensor border rank, not the first matrix flattening. At fixed h the improvement is constant and supplies no near-full matrix construction or exponent gain. Same-session reasoning checks are not independent mathematical review or formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+      "title": "All-field exact ranks and complete polynomial kernel for constant-endpoint quadratic-z source slices",
+      "origin": "Owner-directed AI-assisted research, October 23, 2026",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+      "statement": "For every field K, integers a>=2 and b>=3, nonzero scalars alpha,gamma, and polynomial v(x) with degree below a (d=0 if v=0), the literal cyclic-source coefficient matrix for f(x,z)=alpha+z*v(x)+gamma*z^2 has rank ab+min(b,ceil(a/2)*d)+min(b,floor(a/2)*d). Its complete left kernel has the explicit basis from two central polynomial seeds with degree bounds b-ceil(a/2)*d and b-floor(a/2)*d. The formula is exact in every characteristic and for unequal a,b.",
+      "dependencies": [
+        "Main-branch literal cyclic-source coefficient convention at git blob 04d28c6a05027a7756891f47d28327de850a7501",
+        "Complete original-column coefficient identities and exact two-way recurrence with nonzero constant outer coefficients",
+        "Concurrent PR209 at 4247f42 credited for polynomial-row kernel approach and the quadratic continuation question; its affine theorem is not a premise"
+      ],
+      "limitations": "Only one-source slices with constant nonzero outer coefficients and b>=3. Not a general quadratic biform or linear-space cap; no source-to-target maps on all three legs, tensor degeneration, independent mathematical review, formalization, historical priority or improved matrix-multiplication exponent. Two independent implementations were generated and checked in the same session.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false

@@ -1,5 +1,20 @@
 # Research directions
 
+The [quadratic-z constant-endpoint classification](../research/ai/2026-10-23-quadratic-z-middle/proof.md)
+now gives the exact all-field rank
+`ab+min(b,ceil(a/2)*d)+min(b,floor(a/2)*d)` of every
+`alpha+z*v(x)+gamma*z^2` slice, with both nonzero outer coefficients
+constant and `d=deg(v)` (zero for v=0). The next unowned question
+is the degree-filtered syzygy module of
+`u(x)+z*v(x)+z^2*w(x)` with nonconstant outer coefficients.
+Identify the two minimal polynomial-basis degrees, determine whether
+coefficient degrees alone can govern rank, or exhibit exact
+counterexamples. Use PR209's row-polynomial convention with full
+degree endpoints, while retaining PR207/208 ownership of diagonal
+Toeplitz cases. One-slice rank information is insufficient to claim
+a better matrix-multiplication exponent: compatible three-leg maps
+and the complete implication remain missing.
+
 These directions combine independent branch checkpoints. Read the cited
 continuations together: later scoped obstructions can close an earlier proposed
 search, while broader singular constructions may remain open. Historical test
@@ -21,6 +36,22 @@ the full matrix slice space after re-saturation, or whether a different
 singular path avoids the scalar-action obstruction. A candidate must
 supply every target coefficient; a large limiting-space dimension alone
 does not identify matrix multiplication.
+
+The [exact low-rank reduction](../research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+reduces this fixed family's constant-compression question to the explicit
+46-dimensional outer space `E=G+[G,G00]+G00 G G00` in `Mat28`.
+Determine whether any rank-26 pair has `dim(Phat E Chat)<=37`.
+Equivalently, seek a 26-dimensional U and two-dimensional W with a
+subspace of at least nine E matrices mapping U into W. A universal
+lower bound of 38 would close constant compressions for this family;
+a successful reduced pair would still need complete re-saturation and
+the full target coefficient identities.
+
+The [recorded two-factor and nonnilpotent follow-ups](../research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+already close every principal coordinate compression for those two exact
+families. Their full rational re-saturation coverage is retained. A new
+experiment should change the compression class or singular family and
+still use complete target coefficient identities as its acceptance test.
 
 The [full-right-inverse Laurent criterion](../research/ai/2026-10-23-regular-unit-projector/proof.md)
 gives a general map-regularity theorem without a low-rank-spanning target

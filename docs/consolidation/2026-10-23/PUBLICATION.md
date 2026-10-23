@@ -1,14 +1,20 @@
 # Publication and validation record
 
-This consolidation incorporates 147 captured source snapshots from 132 topic
-branch names. The starting main commit is
+The replacement is [pull request #214](https://github.com/1337isnot1337/matrix-mult-bounds/pull/214).
+
+The earlier publication baseline incorporated 147 captured source snapshots from
+132 topic branch names. The eight-head catch-up extends this to 155 captured
+source snapshots and 607 claim records; the topic-name count remains 132.
+The sections below retain the earlier audit and test results at their exact
+revisions. The new source decisions are in [postvalidation_source_resolution.json](postvalidation_source_resolution.json)
+and the ledger decisions are in [claim_postvalidation.json](claim_postvalidation.json). The starting main commit is
 `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`. The exact source heads and recovery tags
 are recorded in [branches.json](branches.json). The 102 open source pull requests
 at the last complete inventory, including their original bodies and draft flags,
 are preserved in [source-prs-before-retirement.json](source-prs-before-retirement.json).
 That inventory contained 61 draft and 41 ready pull requests.
 
-## Preservation
+## Preservation of the publication baseline
 
 The [preservation audit](preservation_report.json) passed with zero errors on
 `901a6b61f2525d124485e925c74c18098faf7100`. It checked all 148 distinct captured
@@ -18,7 +24,7 @@ representation of 2,168 source-added paths and 2,210 original blob variants.
 
 All 39 provisional conflict paths have explicit decisions in the
 [central resolution manifest](central_resolution_manifest.json), with 300 final
-output hashes checked. The claim ledger contains all 599 original unique claim
+output hashes checked. The baseline claim ledger contains all 599 original unique claim
 identifiers and five aliases distinguishing independent collisions, for 604
 records. Evidence and review flags retain their source values. All 54 reference
 registry identifiers remain present.
@@ -26,7 +32,7 @@ registry identifiers remain present.
 This audit establishes preservation and traceability. It does not establish
 independent mathematical review or a smaller matrix-multiplication exponent.
 
-## Local test evidence
+## Local test evidence before the eight-head catch-up
 
 The [full baseline receipt](validation/baseline-summary.json) records 1,916 unique
 tests across 429 modules on `caf51fe67bed960cbe827d81174f914aeff6968c`, using
@@ -42,7 +48,7 @@ implementation, proof, witness, claim, or test bytes.
 The [focused final receipt](validation/focused-summary.json) records 29 passing
 tests on `e2baf1170cd1e6ce676fad00d4a4b3746148a3a4`: both repaired checks, their
 downstream pin checks, all 14 aggregation and quadratic-z tests, and 11 repository
-and historical-archive checks. The final inventory contains 1,923 tests across
+and historical-archive checks. That inventory contains 1,923 tests across
 430 modules; all seven additions are included in the focused run.
 
 All five historical experiments replayed successfully. Both validation trees
@@ -53,8 +59,9 @@ These are a full baseline run and focused final reruns, with exact revision and
 test-ID receipts. They are not one uninterrupted full-suite pass at the final
 publication head. The [publication comparison](publication_equivalence.json)
 records that the later receipt merges changed only documentation, provenance,
-and historical Laurent validation receipts. Final packaging adds audit and
-validation metadata only.
+and historical Laurent validation receipts. Packaging of that publication baseline added audit and validation metadata only.
+The eight-head catch-up includes additional proofs, acceptance code, tests and
+scoped claim updates; it requires its separately recorded frozen-head checks.
 
 The auxiliary Lean build was not run locally. The required hosted `CI` check
 retains the complete Python 3.10 and 3.14 test matrix, archive replay on Python

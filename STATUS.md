@@ -1,5 +1,25 @@
 # Research status
 
+## Exact all-field ranks for quadratic-z slices with constant endpoints
+
+The [quadratic-z middle-polynomial theorem](research/ai/2026-10-23-quadratic-z-middle/proof.md)
+classifies every literal cyclic-source slice
+`f(x,z)=alpha+v(x)z+gamma z^2` for nonzero constant alpha,gamma, any
+polynomial v of degree below a, any field, a>=2 and b>=3. Writing
+d=deg(v), with d=0 for v=0, its exact rank is
+`ab+min(b,ceil(a/2)*d)+min(b,floor(a/2)*d)`.
+The proof identifies the entire left kernel with two central polynomial
+seeds satisfying separate degree bounds, and exports an explicit basis.
+A literal-matrix finite-field verifier passes 580 exhaustive and
+960 seeded cases, 135 spectrum checks and 940 kernel vectors; an
+independent term-placement rational verifier passes 36 cases and
+105 exact rational kernel vectors. Claim `AI-QUADRATIC-Z-MIDDLE-RANK-001`
+is proof-written-unreviewed. PR209's row-polynomial method and the
+broader quadratic question remain credited; this constant-endpoint
+subfamily is distinct from PR207's diagonal-polynomial family.
+Nonconstant outer coefficients, three-leg target maps and any exponent
+improvement remain open.
+
 This consolidated register retains the scope of each package and its originating
 checkpoint. Later continuations can supersede earlier open frontiers without
 changing the earlier theorem or validation receipt. All written, unreviewed
@@ -29,6 +49,25 @@ and `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.
 The arbitrary constant-compression locus of dimension at most 103,
 moving compressions and other singular paths remain open. This is a
 scoped obstruction; it supplies no target or exponent improvement.
+
+The [low-rank reduction](research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+now confines every rank-at-most-four limiting matrix to one 28 by 28
+block. That block is the explicit 46-dimensional space
+`E=G+[G,G00]+G00 G G00`. A full target with arbitrary constant compression
+therefore requires rank-26 maps with `dim(Phat E Chat)<=37`.
+Exact replay checks 112 block-coordinate identities and 16
+transpose-conjugation identities; the minimum-rank-six input retains
+the prior resolvent package's credit. Claim
+`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The remaining
+universal lower bound of 38 is not proved.
+
+Two [finite two-sided follow-ups](research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+also screen all 6,216 principal coordinate pairs per family. A product
+of two noncommuting square-zero factors has no surviving pair. For the
+nonnilpotent moving-unit family, all 221 pairs surviving the first rank
+screen were re-saturated over Q and excluded by exact invariant-subspace
+identities. These completed experiments supply no full target and make
+no statement about arbitrary noncoordinate compressions.
 
 ## October 23: exact independent-product aggregation
 
@@ -64,10 +103,12 @@ rank-one positions; it is an implementation control, not the uniform proof.
 Claim: AI-AGGREGATION-106-002.
 
 The [size gate for these displayed budgets](research/ai/2026-10-23-aggregation-families/cost_floor.md)
-also shows that every balanced conflict-free family with N<=7 fails the
+also shows that every balanced conflict-free family with N<=10 fails the
 direct 9/4 cost comparison when the whole (n+1)^(3N) aggregate is charged.
-N>=8 is necessary for this budget model, not sufficient. This is not a
-lower bound on tensor rank; cheaper aggregate decompositions and other
+The induced-edge count gives p<=floor(2CD/(3D-1)), where
+C=binom(3N,N) and D=binom(2N,N). N>=11 is necessary for this budget
+model, not sufficient. This is not a lower bound on tensor rank;
+cheaper aggregate decompositions and other
 constructions remain outside its scope. Claim: AI-AGGREGATION-COST-FLOOR-003.
 Both new proofs are written and unreviewed, with no exponent improvement.
 
@@ -133,8 +174,8 @@ constant improvement to the finite bound, with the same asymptotic scope.
 All three claims are written and unreviewed. Seven original focused tests
 and six refinement tests pass, including genuine pole cancellation,
 moving subspaces, complete Laurent coefficient identities, sharp d=1
-examples and strict parameter-order controls. The preceding proof tree
-passes all 904 regression tests and five archive replays, with exact
+examples and strict parameter-order controls. The preceding source-branch proof tree
+recorded all 904 regression tests and five archive replays, with exact
 coverage and the interrupted-prefix procedure recorded in its
 [validation receipt](results/laurent-channel-barrier-2026-10-23/VALIDATION.md).
 The refinement has its own
@@ -1813,9 +1854,9 @@ The [gauged split witness](research/ai/2026-10-23-gauged-splits/README.md)
 uses six replacements and one physical Laurent family to give a 76-term
 border seed with 70 distinct U directions. Two discarded factors have
 poles, but each discarded tensor has positive valuation. Separate factor
-gauges after epsilon=t^3 make every discarded factor positive without
-changing any tensor term. Complete contraction checks all 10000 constant
-positions, no negative coefficients, and 73 positive remainder coefficients.
+gauges after epsilon=t^3 give every discarded factor positive valuation
+without changing any tensor term. Complete contraction checks all 10000 constant
+positions, no negative-degree coefficients, and 73 positive-degree remainder coefficients.
 A mixed trace equal to one proves that simultaneous contraction of all
 unscaled arrows is impossible for this batch. Claim
 `AI-EXTERNAL-GAUGED-SPLIT-SEED-006` is written and unreviewed.
@@ -1899,13 +1940,13 @@ escapes that move component by increasing the exact term count to 80,
 then deleting four terms with a common physical stabilizer degeneration.
 Unimodular bases and a nine-step joint image flag give an explicit rank-76
 border seed with 72 distinct first-leg directions. Complete rational
-Laurent contraction checks all 10000 constant positions, no negative
-coefficients, and 51 positive remainder coefficients. Claim
+Laurent contraction checks all 10000 constant positions, no negative-degree
+coefficients, and 51 positive-degree remainder coefficients. Claim
 `AI-EXTERNAL-SPLIT-BORDER-SEED-002` is written and unreviewed. A
 [second exact witness](research/ai/2026-10-23-flip-escape/five_split.md)
 instead splits and deletes five terms. Its seed has 71 distinct U
 directions, an eight-step common image flag,
-and 172 positive remainder coefficients. Seven split tests pass for both
+and 172 positive-degree remainder coefficients. Seven split tests pass for both
 variants, including schema/scope and coefficient mutations. Both seeds
 still fail the stronger termwise grid incidence test. Their new shared-U
 pairs permit changes to some W directions, but the fixed-component proof

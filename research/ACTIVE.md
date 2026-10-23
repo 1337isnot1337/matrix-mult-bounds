@@ -1,5 +1,20 @@
 # Integrated research coordination
 
+The October 23 quadratic-z middle-polynomial package
+`ai/2026-10-23-quadratic-z-middle/proof.md` gives an all-field exact
+rank formula for the literal `alpha+z*v(x)+gamma*z^2` source slice
+when the two outer coefficients are nonzero constants. It derives the
+full two-generator polynomial-kernel basis and exact degree constraints,
+with 580 exhaustive and 960 seeded modular checks, 135 spectrum checks,
+940 explicit kernel vectors and a separate 36-case rational acceptance.
+This adopts and credits PR209's polynomial-row technique but not its
+theorem, and avoids PR207/208's diagonal-polynomial family. Claim
+`AI-QUADRATIC-Z-MIDDLE-RANK-001` remains written, unreviewed.
+The next question is the minimal polynomial-basis degree filtration
+with nonconstant outer coefficients. No full tensor target or
+improved exponent is claimed. Keep this branch isolated until required
+current-head CI and mathematical review gates have been checked.
+
 This consolidated coordination log retains source-branch checkpoints and their
 pinned validation receipts. Statements that tests or integrations were pending
 refer to those checkpoints, unless a later receipt is explicitly supplied.
@@ -19,6 +34,22 @@ directions. The remaining question in this family is the locus
 paths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and
 `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full
 target or exponent improvement is established.
+
+The [low-rank-locus reduction](ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+makes that remaining question explicit: find, or exclude, a 26-dimensional
+U and two-dimensional W for which at least nine matrices in the fixed
+46-dimensional outer space E send U into W. Equivalently a rank-26
+compression of E must have image dimension at most 37. All killed
+112-dimensional limiting matrices are confined to this outer block.
+Claim `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed; a universal
+lower bound of 38 and all successful full-target maps remain unproved.
+
+The two [recorded follow-up families](ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+are complete for principal coordinate compressions: the product of the
+specified noncommuting square-zero factors and the moving unit from their
+nonnilpotent sum both have no surviving pair. All 221 cases requiring
+re-saturation in the latter family were checked over Q. Do not repeat
+that finite coverage; arbitrary noncoordinate compressions remain open.
 
 The October 23 diagonal-biform continuation is in
 [ai/2026-10-23-diagonal-biform-ranks/QUESTION.md](ai/2026-10-23-diagonal-biform-ranks/QUESTION.md).

@@ -3,14 +3,14 @@
   "main_sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
   "branch_count": 130,
   "main_claim_count": 295,
-  "original_unique_ids": 599,
-  "consolidated_claim_count": 604,
+  "original_unique_ids": 602,
+  "consolidated_claim_count": 607,
   "original_ids_preserved": true,
   "independent_collision_extra_ids": 5,
   "evidence_statuses_unchanged": true,
   "all_original_evidence_paths_verified": true,
   "status_counts": {
-    "proof-written-unreviewed": 494,
+    "proof-written-unreviewed": 497,
     "finite-experiment": 83,
     "derivation-unreviewed": 1,
     "conditional-implication": 25,
@@ -6386,14 +6386,15 @@
     {
       "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
       "original_id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
-      "record_sha256": "7a69cd49b6126cbdfeea2542e960f3cd9ccc9b3ed2c763b2dada280c6147ea0d",
-      "source_record_sha256": "7a69cd49b6126cbdfeea2542e960f3cd9ccc9b3ed2c763b2dada280c6147ea0d",
-      "source_branch": "research/double-leg-anchor-20261023",
-      "source_sha": "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+      "record_sha256": "b35cc37e47e6963eda4d0d7273849c9137c1189c871b186cb63ec18505175253",
+      "source_record_sha256": "b35cc37e47e6963eda4d0d7273849c9137c1189c871b186cb63ec18505175253",
+      "source_branch": "research/flip-escape-20261023",
+      "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
       "original_evidence": "research/ai/2026-10-23-gauged-splits/README.md",
       "evidence": "research/ai/2026-10-23-gauged-splits/README.md",
       "path_or_id_replacements": [],
-      "original_evidence_verified": true
+      "original_evidence_verified": true,
+      "snapshot": "postvalidation_catchup"
     },
     {
       "id": "AI-EXTERNAL-LARGE-GAUGED-SPLIT-SEEDS-008",
@@ -6458,14 +6459,15 @@
     {
       "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
       "original_id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
-      "record_sha256": "3d61b75f7e52e87e598362a8e9c5e465ce796cd58e701e92001a02e770f0375f",
-      "source_record_sha256": "3d61b75f7e52e87e598362a8e9c5e465ce796cd58e701e92001a02e770f0375f",
-      "source_branch": "research/double-leg-anchor-20261023",
-      "source_sha": "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+      "record_sha256": "fb8cc5a10774dbad326f068b12d8c44af1fb8844d9b8fe435ab1c11025625d25",
+      "source_record_sha256": "fb8cc5a10774dbad326f068b12d8c44af1fb8844d9b8fe435ab1c11025625d25",
+      "source_branch": "research/flip-escape-20261023",
+      "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
       "original_evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
       "evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
       "path_or_id_replacements": [],
-      "original_evidence_verified": true
+      "original_evidence_verified": true,
+      "snapshot": "postvalidation_catchup"
     },
     {
       "id": "AI-EXTERNAL-WEIGHTED-GRID-003",
@@ -8858,15 +8860,54 @@
     {
       "id": "AI-AGGREGATION-COST-FLOOR-003",
       "original_id": "AI-AGGREGATION-COST-FLOOR-003",
-      "record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
-      "source_record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+      "record_sha256": "1eaaecd4438159015d761ef73083dec3c40572108b0772613c9ac1fcfefbdbb1",
+      "source_record_sha256": "1eaaecd4438159015d761ef73083dec3c40572108b0772613c9ac1fcfefbdbb1",
       "source_branch": "research/aggregation-construction-20261023-ab94",
-      "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
       "original_evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
       "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
       "path_or_id_replacements": [],
       "original_evidence_verified": true,
-      "snapshot": "late_catchup"
+      "snapshot": "postvalidation_catchup"
+    },
+    {
+      "id": "AI-A4-TWOSIDED-LOWRANK-003",
+      "original_id": "AI-A4-TWOSIDED-LOWRANK-003",
+      "record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+      "source_record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+      "source_branch": "research/full-target-reconstruction-20261023-ab94",
+      "source_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "original_evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "postvalidation_catchup"
+    },
+    {
+      "id": "AI-LAURENT-BORDER-MARGIN-003",
+      "original_id": "AI-LAURENT-BORDER-MARGIN-003",
+      "record_sha256": "03de8a8cdb5d07a6c56e625c42bac1d88aac723b6a4c0c5b0afb642b17198929",
+      "source_record_sha256": "03de8a8cdb5d07a6c56e625c42bac1d88aac723b6a4c0c5b0afb642b17198929",
+      "source_branch": "research/laurent-stencil-20261023-ab94",
+      "source_sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "original_evidence": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+      "evidence": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "postvalidation_catchup"
+    },
+    {
+      "id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+      "original_id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+      "record_sha256": "c0d8139eac36695533e6ac743e35576768259fe3cd33c69856bc60198eedb680",
+      "source_record_sha256": "c0d8139eac36695533e6ac743e35576768259fe3cd33c69856bc60198eedb680",
+      "source_branch": "research/quadratic-z-middle-exact-20261023",
+      "source_sha": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+      "original_evidence": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+      "evidence": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "postvalidation_catchup"
     }
   ],
   "initial_consolidated_claim_count": 599,
@@ -9818,5 +9859,756 @@
     ],
     "final_claim_records": 604,
     "decision": "No new claim variant; preserve the complete current ledger and its evidence/status metadata byte-for-byte."
+  },
+  "postvalidation_catchup_addendum": {
+    "source": "postvalidation_heads.json",
+    "prepared_at": "2026-10-23T17:30:15.349062+00:00",
+    "baseline_head": "65e0c2dde83e2a7150d963aa3abb436350f6ee12",
+    "previous_claims": 604,
+    "claims_after": 607,
+    "baseline_claims_sha256": "faea72f6c7b3f72c3250ca096ee75899f4ca5dda97d2706429f3d977a0eaffcb",
+    "result_claims_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+    "added_ids": [
+      "AI-A4-TWOSIDED-LOWRANK-003",
+      "AI-LAURENT-BORDER-MARGIN-003",
+      "AI-QUADRATIC-Z-MIDDLE-RANK-001"
+    ],
+    "revised_ids": [
+      "AI-AGGREGATION-COST-FLOOR-003",
+      "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+      "AI-EXTERNAL-GAUGED-SPLIT-SEED-006"
+    ],
+    "unchanged_existing_records": 601,
+    "all_604_existing_status_flags_preserved": true,
+    "new_claims_preserve_exact_source_records_and_flags": true,
+    "all_source_ids_represented": true,
+    "same_id_independent_collisions": [],
+    "heads": [
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "source_claim_count": 297,
+        "source_record_map_sha256": "94c769d7b2b917484a3849e710e6b73d8fd713f70c720ab78309e9b33bf016c5",
+        "changed_record_count": 8,
+        "decisions": [
+          {
+            "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+            "decision": "Retain the later deliberately reconciled projective-prerequisite limitation; incoming merge imports the known older main variant."
+          },
+          {
+            "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-MIXED-THIRD-JET-002",
+            "decision": "Already represented exactly; preserve current record."
+          }
+        ]
+      },
+      {
+        "branch": "research/aggregation-construction-20261023-ab94",
+        "source_sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+        "delta_base": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+        "source_claim_count": 298,
+        "source_record_map_sha256": "33f75e1cfa34d6f3c08216a106a55759d42bb5c7284826980d7b26983c102aae",
+        "changed_record_count": 1,
+        "decisions": [
+          {
+            "id": "AI-AGGREGATION-COST-FLOOR-003",
+            "decision": "Use the authored induced-edge counting extension through N=10, retaining the model limitation, necessary-only threshold, and all evidence flags."
+          }
+        ]
+      },
+      {
+        "branch": "research/conic-projective-global-20261023",
+        "source_sha": "c95b5c3c4ee0fc46cba9060b8ea280106335bf94",
+        "delta_base": "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "227438aab24147eddd6c831fc6b765ec859e0eddb0dd815bcacd02b3de51ed22",
+        "changed_record_count": 0,
+        "decisions": []
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "source_claim_count": 302,
+        "source_record_map_sha256": "c7d2e0ee462488f0f860026387e97cb7a7cd2ac06048ad688add2025088b4d2c",
+        "changed_record_count": 10,
+        "decisions": [
+          {
+            "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+            "decision": "Retain the later deliberately reconciled projective-prerequisite limitation; incoming merge imports the known older main variant."
+          },
+          {
+            "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-MIXED-THIRD-JET-002",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+            "decision": "Use the authored precision correction: positivity concerns valuation of nonzero factors and degree of Laurent coefficients, not coefficient signs."
+          },
+          {
+            "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+            "decision": "Use the authored precision correction distinguishing negative/positive degrees from coefficient signs."
+          }
+        ]
+      },
+      {
+        "branch": "research/full-target-reconstruction-20261023-ab94",
+        "source_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+        "delta_base": "331801579b19b64f2441a7aab8b566f9d6b02666",
+        "source_claim_count": 298,
+        "source_record_map_sha256": "b77e7c691065d2873de8d13caa9ae5bfc008e3ea838a6913e5a37562f8543732",
+        "changed_record_count": 1,
+        "decisions": [
+          {
+            "id": "AI-A4-TWOSIDED-LOWRANK-003",
+            "decision": "Add distinct authored claim exactly as supplied, retaining unreviewed status and all false review/formalization/exponent flags."
+          }
+        ]
+      },
+      {
+        "branch": "research/laurent-stencil-20261023-ab94",
+        "source_sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+        "delta_base": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+        "source_claim_count": 298,
+        "source_record_map_sha256": "75181c12d084855b51859bc8b53b85b2900d4fded6ef9ea5a35e1ad2a2538307",
+        "changed_record_count": 1,
+        "decisions": [
+          {
+            "id": "AI-LAURENT-BORDER-MARGIN-003",
+            "decision": "Add distinct authored claim exactly as supplied, retaining unreviewed status and all false review/formalization/exponent flags."
+          }
+        ]
+      },
+      {
+        "branch": "research/quadratic-z-middle-exact-20261023",
+        "source_sha": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+        "delta_base": "0d9781b6774f328d572bb3326383978215d50306",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "c7e09e0c8a6cb955e307b796fe6f4c8b23792585572f12affa3184a5c10045b6",
+        "changed_record_count": 1,
+        "decisions": [
+          {
+            "id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+            "decision": "Add distinct authored claim exactly as supplied, retaining unreviewed status and all false review/formalization/exponent flags."
+          }
+        ]
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "source_claim_count": 297,
+        "source_record_map_sha256": "99b3c6039861e33edefa13f5fd59662ed8d2b20fc05a807500421b0914b0491b",
+        "changed_record_count": 8,
+        "decisions": [
+          {
+            "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+            "decision": "Retain the later deliberately reconciled projective-prerequisite limitation; incoming merge imports the known older main variant."
+          },
+          {
+            "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+            "decision": "Already represented exactly; preserve current record."
+          },
+          {
+            "id": "AI-CONIC-MIXED-THIRD-JET-002",
+            "decision": "Already represented exactly; preserve current record."
+          }
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "decision": "Retain the later deliberately reconciled projective-prerequisite limitation; incoming merge imports the known older main variant.",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "inherited_variant_source": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/a4-one-regular-leg-20261023",
+        "source_sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+        "delta_base": "db180d63bd345aa559ccca357841a837699a46f2",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/aggregation-construction-20261023-ab94",
+        "source_sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+        "delta_base": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+        "id": "AI-AGGREGATION-COST-FLOOR-003",
+        "incoming_record_sha256": "1eaaecd4438159015d761ef73083dec3c40572108b0772613c9ac1fcfefbdbb1",
+        "decision": "Use the authored induced-edge counting extension through N=10, retaining the model limitation, necessary-only threshold, and all evidence flags.",
+        "before_record": {
+          "id": "AI-AGGREGATION-COST-FLOOR-003",
+          "title": "Exact size gate for complete balanced aggregation cost certificates",
+          "origin": "Owner-directed Codex written argument and exact finite cost certificate",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "statement": "For every conflict-free balanced family on 3N coordinates with N<=7, and every real n>0, each displayed budget B(n)=(n+1)^(3N)+sum_{k>=1}c_k*(n+1)^(3N-k), c_k>=0, satisfies B(n)>p*n^(9N/4). Distinct coordinate parts give p<=binom(3N,N); weighted AM-GM and exact integer comparisons prove the gap. The N=8 row is a non-exclusion control, so N>=8 is necessary only for this displayed budget to pass the direct 9/4 gate.",
+          "dependencies": [
+            "External balanced conflict-free aggregation setup, Solomonik and Blaeser arXiv:2610.26563v2",
+            "Distinct-part injection argument and weighted AM-GM",
+            "Exact integer certificate for N=1 through 8"
+          ],
+          "limitations": "A limitation of the displayed rank upper-bound certificates, never a lower bound on actual tensor rank or omega. Does not exclude cheaper leading aggregates, other source identities, other target shapes, or different rank decompositions. N>=8 is not sufficient. No independent mathematical review or formalization.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "prior_provenance": {
+          "id": "AI-AGGREGATION-COST-FLOOR-003",
+          "original_id": "AI-AGGREGATION-COST-FLOOR-003",
+          "record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+          "source_record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+          "source_branch": "research/aggregation-construction-20261023-ab94",
+          "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+          "original_evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "late_catchup"
+        },
+        "after_record": {
+          "id": "AI-AGGREGATION-COST-FLOOR-003",
+          "title": "Exact size gate for complete balanced aggregation cost certificates",
+          "origin": "Owner-directed Codex written argument and exact finite cost certificate",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "statement": "For every conflict-free balanced family on 3N coordinates with N<=10, and every real n>0, each displayed budget B(n)=(n+1)^(3N)+sum_{k>=1}c_k*(n+1)^(3N-k), c_k>=0, satisfies B(n)>p*n^(9N/4). With C=binom(3N,N), D=binom(2N,N), the full D-regular tripartition hypergraph has CD edges and selected parts induce exactly p. Deleting 3(C-p) vertices gives CD-p<=3(C-p)D, hence p<=floor(2CD/(3D-1)). Weighted AM-GM and exact integer comparisons prove the gap. The N=11 row is a non-exclusion control, so N>=11 is necessary only for this displayed budget to pass the direct 9/4 gate.",
+          "dependencies": [
+            "External balanced conflict-free aggregation setup, Solomonik and Blaeser arXiv:2610.26563v2",
+            "Distinct-part injection, induced-edge incidence bound and weighted AM-GM",
+            "Exact integer certificate for N=1 through 11 and exhaustive N=1 hypothesis control"
+          ],
+          "limitations": "A limitation of the displayed rank upper-bound certificates, never a lower bound on actual tensor rank or omega. Does not exclude cheaper leading aggregates, other source identities, other target shapes, or different rank decompositions. N>=11 is not sufficient. No independent mathematical review or formalization.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-AGGREGATION-COST-FLOOR-003",
+          "original_id": "AI-AGGREGATION-COST-FLOOR-003",
+          "record_sha256": "1eaaecd4438159015d761ef73083dec3c40572108b0772613c9ac1fcfefbdbb1",
+          "source_record_sha256": "1eaaecd4438159015d761ef73083dec3c40572108b0772613c9ac1fcfefbdbb1",
+          "source_branch": "research/aggregation-construction-20261023-ab94",
+          "source_sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+          "original_evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        }
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "decision": "Retain the later deliberately reconciled projective-prerequisite limitation; incoming merge imports the known older main variant.",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "inherited_variant_source": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+        "incoming_record_sha256": "fb8cc5a10774dbad326f068b12d8c44af1fb8844d9b8fe435ab1c11025625d25",
+        "decision": "Use the authored precision correction: positivity concerns valuation of nonzero factors and degree of Laurent coefficients, not coefficient signs.",
+        "before_record": {
+          "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+          "title": "Explicit four- and five-split rank-76 Laurent seeds outside the closed standard-flip component",
+          "origin": "Owner-directed OpenAI Codex continuation of an externally attributed factorization",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
+          "statement": "Two exact split variants of the pinned AlphaTensor M(4,5,5) algorithm have explicit rank-76 Laurent certificates. Four replacements at indices0,17,48,56 yield72 distinct U directions and a common discarded-arrow image flag vanishing at step9; five replacements at16,47,31,26,54 yield71 directions and a flag vanishing at step8. Both use unimodular physical bases and integer Laurent weights making every discarded factor entry positive. Complete contraction checks all10000 constant positions and no negative coefficients, with51 and172 positive remainder coefficients respectively. The original four-split certificate is retained unchanged.",
+          "dependencies": [
+            "EXP-EXTERNAL-GRID-SEED-013 pinned external factorization",
+            "Dumitriu et al., arXiv:2610.13905v1, Theorems2.1 and2.2 for the nilpotent-factor deletion viewpoint",
+            "Explicit rational image flags, unimodular matrices and full Laurent coefficient certificate",
+            "AI-EXTERNAL-FLIP-COMPONENT-001 identifies the move restriction escaped by the rank-increasing splits"
+          ],
+          "limitations": "The external exact algorithm already has rank76; these are changed border seeds and no rank records. The surviving tensors at generic nonzero parameter have nonzero remainders. Fewer distinct U directions do not supply nine-group grid covers; the weighted W-incidence screen excludes both variants since they retain all original W directions. No maximum-batch claim, Q(6,4) maps, independent review, formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "prior_provenance": {
+          "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+          "original_id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+          "record_sha256": "3d61b75f7e52e87e598362a8e9c5e465ce796cd58e701e92001a02e770f0375f",
+          "source_record_sha256": "3d61b75f7e52e87e598362a8e9c5e465ce796cd58e701e92001a02e770f0375f",
+          "source_branch": "research/double-leg-anchor-20261023",
+          "source_sha": "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+          "original_evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
+          "evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true
+        },
+        "after_record": {
+          "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+          "title": "Explicit four- and five-split rank-76 Laurent seeds outside the closed standard-flip component",
+          "origin": "Owner-directed OpenAI Codex continuation of an externally attributed factorization",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
+          "statement": "Two exact split variants of the pinned AlphaTensor M(4,5,5) algorithm have explicit rank-76 Laurent certificates. Four replacements at indices0,17,48,56 yield72 distinct U directions and a common discarded-arrow image flag vanishing at step9; five replacements at16,47,31,26,54 yield71 directions and a flag vanishing at step8. Both use unimodular physical bases and integer Laurent weights giving every nonzero discarded factor entry positive valuation. Complete contraction checks all10000 constant positions and no negative-degree coefficients, with51 and172 positive-degree remainder coefficients respectively. The original four-split certificate is retained unchanged.",
+          "dependencies": [
+            "EXP-EXTERNAL-GRID-SEED-013 pinned external factorization",
+            "Dumitriu et al., arXiv:2610.13905v1, Theorems2.1 and2.2 for the nilpotent-factor deletion viewpoint",
+            "Explicit rational image flags, unimodular matrices and full Laurent coefficient certificate",
+            "AI-EXTERNAL-FLIP-COMPONENT-001 identifies the move restriction escaped by the rank-increasing splits"
+          ],
+          "limitations": "The external exact algorithm already has rank76; these are changed border seeds and no rank records. The surviving tensors at generic nonzero parameter have nonzero remainders. Fewer distinct U directions do not supply nine-group grid covers; the weighted W-incidence screen excludes both variants since they retain all original W directions. No maximum-batch claim, Q(6,4) maps, independent review, formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+          "original_id": "AI-EXTERNAL-SPLIT-BORDER-SEED-002",
+          "record_sha256": "fb8cc5a10774dbad326f068b12d8c44af1fb8844d9b8fe435ab1c11025625d25",
+          "source_record_sha256": "fb8cc5a10774dbad326f068b12d8c44af1fb8844d9b8fe435ab1c11025625d25",
+          "source_branch": "research/flip-escape-20261023",
+          "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+          "original_evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
+          "evidence": "research/ai/2026-10-23-flip-escape/split_proof.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        }
+      },
+      {
+        "branch": "research/flip-escape-20261023",
+        "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+        "delta_base": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+        "incoming_record_sha256": "b35cc37e47e6963eda4d0d7273849c9137c1189c871b186cb63ec18505175253",
+        "decision": "Use the authored precision correction distinguishing negative/positive degrees from coefficient signs.",
+        "before_record": {
+          "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+          "title": "Six simultaneous split deletions using positive tensor valuations and separate factor gauges",
+          "origin": "Owner-directed OpenAI Codex continuation of an externally attributed factorization",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-gauged-splits/README.md",
+          "statement": "Six explicit U replacements in the pinned AlphaTensor M(4,5,5) algorithm give82 exact terms. Under the retained four-split unimodular physical bases and weights, the six discarded rank-one tensors have positive valuations3,3,6,4,1,3 even though two factors have valuation-2. The76 surviving Laurent terms have70 distinct U directions, exactly M(4,5,5) at all10000 constant positions, no negative coefficients and73 positive remainder coefficients. After epsilon=t^3, displayed product-one factor gauges make every discarded factor have positive valuation. A mixed trace tr((U0+U18)V47W0)=1 excludes simultaneous contraction of all unscaled discarded arrows and proves that this tensor-valuation condition is strictly more permissive for this batch.",
+          "dependencies": [
+            "EXP-EXTERNAL-GRID-SEED-013 credited pinned external factorization",
+            "AI-EXTERNAL-SPLIT-BORDER-SEED-002 unchanged four-split physical-basis certificate",
+            "Elementary valuation additivity for a rank-one tensor and product-one factor gauges",
+            "Complete exact Laurent coefficient replay and nonzero mixed-cycle invariant",
+            "Dumitriu et al., arXiv:2610.13905v1, physical stabilizer and nilpotent-factor deletion viewpoint"
+          ],
+          "limitations": "A changed76-term border seed, retaining the external algorithm's existing upper bound. Its generic nonzero-parameter tensor has a nonzero remainder and its unchanged W direction set still fails direct termwise grid reuse. No maximum-batch result, full Q(6,4) maps, rank record, historical priority, independent mathematical review, formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "prior_provenance": {
+          "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+          "original_id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+          "record_sha256": "7a69cd49b6126cbdfeea2542e960f3cd9ccc9b3ed2c763b2dada280c6147ea0d",
+          "source_record_sha256": "7a69cd49b6126cbdfeea2542e960f3cd9ccc9b3ed2c763b2dada280c6147ea0d",
+          "source_branch": "research/double-leg-anchor-20261023",
+          "source_sha": "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+          "original_evidence": "research/ai/2026-10-23-gauged-splits/README.md",
+          "evidence": "research/ai/2026-10-23-gauged-splits/README.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true
+        },
+        "after_record": {
+          "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+          "title": "Six simultaneous split deletions using positive tensor valuations and separate factor gauges",
+          "origin": "Owner-directed OpenAI Codex continuation of an externally attributed factorization",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-gauged-splits/README.md",
+          "statement": "Six explicit U replacements in the pinned AlphaTensor M(4,5,5) algorithm give82 exact terms. Under the retained four-split unimodular physical bases and weights, the six discarded rank-one tensors have positive valuations3,3,6,4,1,3 even though two factors have valuation-2. The76 surviving Laurent terms have70 distinct U directions, exactly M(4,5,5) at all10000 constant positions, no negative-degree coefficients and73 positive-degree remainder coefficients. After epsilon=t^3, displayed product-one factor gauges make every discarded factor have positive valuation. A mixed trace tr((U0+U18)V47W0)=1 excludes simultaneous contraction of all unscaled discarded arrows and proves that this tensor-valuation condition is strictly more permissive for this batch.",
+          "dependencies": [
+            "EXP-EXTERNAL-GRID-SEED-013 credited pinned external factorization",
+            "AI-EXTERNAL-SPLIT-BORDER-SEED-002 unchanged four-split physical-basis certificate",
+            "Elementary valuation additivity for a rank-one tensor and product-one factor gauges",
+            "Complete exact Laurent coefficient replay and nonzero mixed-cycle invariant",
+            "Dumitriu et al., arXiv:2610.13905v1, physical stabilizer and nilpotent-factor deletion viewpoint"
+          ],
+          "limitations": "A changed76-term border seed, retaining the external algorithm's existing upper bound. Its generic nonzero-parameter tensor has a nonzero remainder and its unchanged W direction set still fails direct termwise grid reuse. No maximum-batch result, full Q(6,4) maps, rank record, historical priority, independent mathematical review, formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+          "original_id": "AI-EXTERNAL-GAUGED-SPLIT-SEED-006",
+          "record_sha256": "b35cc37e47e6963eda4d0d7273849c9137c1189c871b186cb63ec18505175253",
+          "source_record_sha256": "b35cc37e47e6963eda4d0d7273849c9137c1189c871b186cb63ec18505175253",
+          "source_branch": "research/flip-escape-20261023",
+          "source_sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+          "original_evidence": "research/ai/2026-10-23-gauged-splits/README.md",
+          "evidence": "research/ai/2026-10-23-gauged-splits/README.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        }
+      },
+      {
+        "branch": "research/full-target-reconstruction-20261023-ab94",
+        "source_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+        "delta_base": "331801579b19b64f2441a7aab8b566f9d6b02666",
+        "id": "AI-A4-TWOSIDED-LOWRANK-003",
+        "incoming_record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+        "decision": "Add distinct authored claim exactly as supplied, retaining unreviewed status and all false review/formalization/exponent flags.",
+        "after_record": {
+          "id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+          "origin": "Owner-directed OpenAI Codex research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "section": "1-4",
+          "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+          "dependencies": [
+            "AI-A4-TWOSIDED-RANKLOSS-001",
+            "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+            "Credited minimum nonzero source rank sixteen",
+            "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+          ],
+          "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. The universal reduced lower bound 38 is not proved, arbitrary constant compressions are not excluded, and satisfying the reduced condition is not sufficient for a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "original_id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+          "source_record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+          "source_branch": "research/full-target-reconstruction-20261023-ab94",
+          "source_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+          "original_evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        }
+      },
+      {
+        "branch": "research/laurent-stencil-20261023-ab94",
+        "source_sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+        "delta_base": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+        "id": "AI-LAURENT-BORDER-MARGIN-003",
+        "incoming_record_sha256": "03de8a8cdb5d07a6c56e625c42bac1d88aac723b6a4c0c5b0afb642b17198929",
+        "decision": "Add distinct authored claim exactly as supplied, retaining unreviewed status and all false review/formalization/exponent flags.",
+        "after_record": {
+          "id": "AI-LAURENT-BORDER-MARGIN-003",
+          "title": "Auxiliary border-rank margin from a generic channel-rank deficit",
+          "origin": "Owner-directed OpenAI Codex continuation",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+          "statement": "For a complex formal degeneration S(t)+E(t)=M(l,h,r)+O(t) with E the locally mapped auxiliary R, suppose a d-dimensional first-covector subspace over C((t)), d>=1, has generic source channel rank at most rho<h. Then border_rank(R)>=d+h-rho-1, while the first-flattening bound remains d. Rank-one-term substitution leaves at most h-rho-1 surviving auxiliary terms; primitive normalization makes the total regular before determinant specialization. A border-rank approximation with parameter u may be substituted as u=t^N with N larger than the sum of local-map pole bounds. The paired corollary uses d=(l*r-n^2+g_B*g_C)_+ when positive and rho=a*b.",
+          "dependencies": [
+            "AI-LAURENT-CHANNEL-SEPARATION-001 and AI-LAURENT-PAIRED-REPAIR-002, with unchanged proof and arithmetic files pinned",
+            "Established rank-one-term substitution method, attributed to Landsberg and Michalek, arXiv:1601.08229v1 Section5",
+            "Complex rank-one-curve characterization of border rank, attributed to Conner, Harper and Landsberg, arXiv:1911.07981v1 Section2.2; over a general field a formal rank-c approximation must be supplied"
+          ],
+          "limitations": "Requires d>=1 and the rank cap over the full Laurent field. For d=0 no bound is supplied. The added margin applies to tensor border rank, not the first matrix flattening. At fixed h the improvement is constant and supplies no near-full matrix construction or exponent gain. Same-session reasoning checks are not independent mathematical review or formalization.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-LAURENT-BORDER-MARGIN-003",
+          "original_id": "AI-LAURENT-BORDER-MARGIN-003",
+          "record_sha256": "03de8a8cdb5d07a6c56e625c42bac1d88aac723b6a4c0c5b0afb642b17198929",
+          "source_record_sha256": "03de8a8cdb5d07a6c56e625c42bac1d88aac723b6a4c0c5b0afb642b17198929",
+          "source_branch": "research/laurent-stencil-20261023-ab94",
+          "source_sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+          "original_evidence": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+          "evidence": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        }
+      },
+      {
+        "branch": "research/quadratic-z-middle-exact-20261023",
+        "source_sha": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+        "delta_base": "0d9781b6774f328d572bb3326383978215d50306",
+        "id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+        "incoming_record_sha256": "c0d8139eac36695533e6ac743e35576768259fe3cd33c69856bc60198eedb680",
+        "decision": "Add distinct authored claim exactly as supplied, retaining unreviewed status and all false review/formalization/exponent flags.",
+        "after_record": {
+          "id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+          "title": "All-field exact ranks and complete polynomial kernel for constant-endpoint quadratic-z source slices",
+          "origin": "Owner-directed AI-assisted research, October 23, 2026",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+          "statement": "For every field K, integers a>=2 and b>=3, nonzero scalars alpha,gamma, and polynomial v(x) with degree below a (d=0 if v=0), the literal cyclic-source coefficient matrix for f(x,z)=alpha+z*v(x)+gamma*z^2 has rank ab+min(b,ceil(a/2)*d)+min(b,floor(a/2)*d). Its complete left kernel has the explicit basis from two central polynomial seeds with degree bounds b-ceil(a/2)*d and b-floor(a/2)*d. The formula is exact in every characteristic and for unequal a,b.",
+          "dependencies": [
+            "Main-branch literal cyclic-source coefficient convention at git blob 04d28c6a05027a7756891f47d28327de850a7501",
+            "Complete original-column coefficient identities and exact two-way recurrence with nonzero constant outer coefficients",
+            "Concurrent PR209 at 4247f42 credited for polynomial-row kernel approach and the quadratic continuation question; its affine theorem is not a premise"
+          ],
+          "limitations": "Only one-source slices with constant nonzero outer coefficients and b>=3. Not a general quadratic biform or linear-space cap; no source-to-target maps on all three legs, tensor degeneration, independent mathematical review, formalization, historical priority or improved matrix-multiplication exponent. Two independent implementations were generated and checked in the same session.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+          "original_id": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+          "record_sha256": "c0d8139eac36695533e6ac743e35576768259fe3cd33c69856bc60198eedb680",
+          "source_record_sha256": "c0d8139eac36695533e6ac743e35576768259fe3cd33c69856bc60198eedb680",
+          "source_branch": "research/quadratic-z-middle-exact-20261023",
+          "source_sha": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+          "original_evidence": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+          "evidence": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        }
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "decision": "Retain the later deliberately reconciled projective-prerequisite limitation; incoming merge imports the known older main variant.",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "inherited_variant_source": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "Already represented exactly; preserve current record."
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "delta_base": "3382792295dec8018306920550f571dea560660b",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "Already represented exactly; preserve current record."
+      }
+    ],
+    "previous_report": "resolution_report.pre_postvalidation.json",
+    "repository_mutations": false
   }
 }
