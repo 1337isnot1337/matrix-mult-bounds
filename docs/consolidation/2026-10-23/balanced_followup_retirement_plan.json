@@ -1,0 +1,141 @@
+{
+  "schema": "matrix-balanced-followup-retirement-plan-v1",
+  "prepared_at_utc": "2026-10-23T18:48:24.591208+00:00",
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "scope": {
+    "topic_names": 138,
+    "source_snapshots": 172,
+    "claims": 614,
+    "concurrent_5d_and_434_histories_counted_separately": true
+  },
+  "input_hashes": {
+    "quadratic_f006_capture.json": "6204063c295ebc3e4d8a42021b8bf24a94957486e25a5a041fa3642f920ab4ba",
+    "archive_quadratic_f006.json": "0baf311fe7c8c7ae98b8383af12b35b3526da99a6cea712116ddc9d621d7967f",
+    "structural_followup_source_provenance.json": "711b75eba561ef9f7b6200d48cd6a86804fab5c574e9ddf9f22d9c022b882fff",
+    "structural_followup_retirement_plan.json": "5982800e9b3034a81668cf20a5a80529fdfb36d0f51816b0d23b591de730c5c1",
+    "publication_170_verified.json": "021e7f1c000aa6b349974c0b912136118689b5a48b57d6b59ffd58c18f41a2a0",
+    "test_logs_balanced_followup/summary.json": "774df00de2f35f13b06cc2a46920cd83d176ca49c9647aaf9bccc1fe3c82778f",
+    "test_logs_balanced_followup/coverage_union.json": "d0faa45f4ac2907982c904b083252c515f651e27b1da47731b4e05cd7e094f58",
+    "balanced_followup_docs_resolution.json": "dbaab1952d2d5294b65945182e59d15e764d22eb2192a865991930d3480ff557"
+  },
+  "source_provenance_file": "balanced_followup_source_provenance.json",
+  "source_provenance_sha256": "d349fee2bb32c7f66b5e5f8e14ef88043795399216e1e7a99895e513c40b5866",
+  "supersedes_for_remaining_execution": "structural_followup_retirement_plan.json",
+  "historical_plans_and_receipts_preserved": true,
+  "replacement_PR": 214,
+  "replacement_branch": "consolidation/all-branches-20261023",
+  "validated_content_head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
+  "captured_current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "known_published_previous_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "cleanup_to_date": {
+    "verified_source_branches_deleted": 131,
+    "verified_source_PRs_closed_as_superseded": 102,
+    "counts_before_partial_receipts": {
+      "source_branches_deleted": 127,
+      "source_PRs_closed_as_superseded": 100
+    },
+    "latest_receipt_increment": {
+      "source_branches_deleted": 4,
+      "source_PRs_closed_as_superseded": 2
+    },
+    "independently_merged_PRs": [
+      215,
+      217
+    ],
+    "independently_merged_PRs_excluded_from_superseded_count": true,
+    "PR218_retired": false
+  },
+  "source_PR_closures": [
+    {
+      "number": 218,
+      "expected_head_sha": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "head_branch": "research/quadratic-kernel-indices-01a1697d",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_ref": "main",
+      "captured_state": "open",
+      "original_draft": true,
+      "original_auto_merge": null,
+      "original_body_sha256": "9807755e7f3c45a162411242ba4bfb9a4f4ee1252269b2fabf450811460eac69",
+      "action": "close_as_superseded_by_PR214_only_after_all_preconditions",
+      "original_title": "Classify quadratic biform ranks and exclude rank 13 in the 3-by-3 block"
+    }
+  ],
+  "source_branch_deletions": [
+    {
+      "branch": "research/quadratic-kernel-indices-01a1697d",
+      "expected_sha": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/f00613b057cc",
+      "archive_verified_in_capture": true,
+      "head_PRs_to_resolve_first": [
+        218
+      ],
+      "fresh_head_and_base_PR_inventory_required": true,
+      "action": "delete_with_exact_expected_SHA_lease_only_after_all_preconditions"
+    }
+  ],
+  "ordered_preconditions": [
+    "Publish the reviewed 172-source consolidation head durably; verify the remote consolidation ref, matching integrated archive, and open same-repository PR214 to main. Final-head hosted CI remains required before merging PR214 into main.",
+    "Fetch and verify exact f006 source archive and the historical80bd, c7 and7ece archives. Verify f006 and current main ancestry in the exact published consolidation head, and preserve all metadata and source bytes.",
+    "Freshly read PR218, its head/base repository identity, branch ref, state, body, draft and auto-merge metadata; preserve the fresh record. Require exact f006 head and same-repository main base. Hold any advanced head or new dependency. If already merged, record actual merge rather than superseding.",
+    "Read all open PRs using the source branch as head or base. Close only exact incorporated PR218 as superseded after publication; preserve metadata and verify closure. Any additional unresolved dependency blocks deletion.",
+    "Immediately before deletion, reread source/consolidation/archive refs, PR dependencies, default branch and protection. Exclude main, consolidation, default/protected/foreign branches. If the source is absent, record already absent; if advanced or recreated, retain it.",
+    "Delete only the exact source branch with an atomic Git push and force-with-lease refs/heads/research/quadratic-kernel-indices-01a1697d:f00613b057cc4437fad4d10e22f1b6c8cc891872; preserve request and push outcome before post-network reads.",
+    "Post-verify source absence, exact archives, unchanged consolidation and main refs, and no unresolved open head/base dependencies. Record exact outcomes; never infer successful deletion from a timeout."
+  ],
+  "expected_remaining_actions_if_unchanged": {
+    "source_PR_closures": 1,
+    "source_branch_deletions": 1,
+    "projected_total_superseded_PRs": 103,
+    "projected_total_deleted_source_branches": 132,
+    "projected_totals_are_not_completed_counts": true
+  },
+  "retained_refs": [
+    "main",
+    "consolidation/all-branches-20261023"
+  ],
+  "validation": {
+    "head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
+    "focused_checks_passed": 12,
+    "focused_elapsed_seconds": 2.272,
+    "checks": [
+      "complete updated ten-test quadratic package",
+      "claim ledger",
+      "relative links"
+    ],
+    "source_matrix_comparisons_replayed": 2050,
+    "inventory_tests": 1961,
+    "inventory_modules": 438,
+    "tests_added": 4,
+    "tests_removed": 0,
+    "composite_exactly_covers_final_inventory": true,
+    "other_test_modules_byte_exact": true,
+    "all_previous_finite_report_assertions_retained_in_order": true,
+    "claims_count": 614,
+    "claim_revisions": {
+      "AI-QUADRATIC-INDEX-DICHOTOMY-002": [
+        "statement"
+      ],
+      "AI-QUADRATIC-KERNEL-INDICES-001": [
+        "limitations"
+      ]
+    },
+    "other_612_claim_records_unchanged": true,
+    "all_claim_status_flags_unchanged": true,
+    "both_claim_revisions_match_exact_source": true,
+    "summary_receipt": "test_logs_balanced_followup/summary.json",
+    "summary_receipt_sha256": "774df00de2f35f13b06cc2a46920cd83d176ca49c9647aaf9bccc1fe3c82778f",
+    "coverage_receipt": "test_logs_balanced_followup/coverage_union.json",
+    "coverage_receipt_sha256": "d0faa45f4ac2907982c904b083252c515f651e27b1da47731b4e05cd7e094f58",
+    "final_head_hosted_CI_required": true,
+    "scope": "The complete updated ten-test quadratic module and two repository checks passed. This adds four tests to the prior 1,957-test composite and reruns the modified finite-report assertions and original package regressions. Other test modules and unrelated active content are unchanged. The full final local suite was listed, not freshly executed in one run. Final-head hosted Python matrix, replay and Lean CI remains required; all mathematical review/status flags are preserved."
+  },
+  "remote_mutations_performed": false,
+  "latest_captured_source_moved_since_prior_plan": {
+    "old": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+    "new": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+    "disposition": "The80bd retirement candidate was held after its head advanced; only exactf006 may be retired after the new publication and fresh checks."
+  },
+  "expected_published_172_head": null,
+  "prepared_but_unpublished_171_head": "42363c18136a75a1a1e35b65b21c243a764a23ba"
+}

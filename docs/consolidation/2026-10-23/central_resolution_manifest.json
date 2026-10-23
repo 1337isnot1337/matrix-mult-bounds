@@ -1,6 +1,6 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T18:34:19.700098+00:00",
+  "assembled_at": "2026-10-23T18:42:48.373413+00:00",
   "baseline_published_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
   "outputs": [
     {
@@ -144,12 +144,12 @@
     },
     {
       "path": "STATUS.md",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/STATUS.md",
-      "sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
-      "baseline_sha256": "fcff438f85b57a104936421001205b3d37ee8617e535f9111d623b041fa58306",
-      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_output/STATUS.md",
+      "sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "baseline_sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_path": "STATUS.md",
-      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution.",
+      "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status.",
       "origins": [
         {
           "source_commit": null,
@@ -222,9 +222,21 @@
           "source_path": "STATUS.md",
           "report": "structural_followup_integration_resolution.json",
           "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "STATUS.md",
+          "report": "balanced_followup_docs_resolution.json",
+          "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "STATUS.md",
+          "report": "balanced_followup_integration_resolution.json",
+          "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
         }
       ],
-      "report": "structural_followup_integration_resolution.json"
+      "report": "balanced_followup_integration_resolution.json"
     },
     {
       "path": "docs/concurrent_research.md",
@@ -337,6 +349,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.dcd18b0c.md",
+      "sha256": "de37b783abef734a9723d506278785c3adeebfcc835c23f06481a20d872af8c8",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.e38eb5c2.md",
       "sha256": "f7cc3ae1d9844573fcd3693afab5302c32c7924f4fafcf04b495b872ef8b7583",
       "source_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
@@ -354,55 +382,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "sha256": "de37b783abef734a9723d506278785c3adeebfcc835c23f06481a20d872af8c8",
+      "sha256": "bb51c3c9d63b0871a6c12e4bdfb8e5f6fbee5d95f62007843bbba6bbf56b473f",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance.",
-      "origins": [
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "postvalidation_metadata_resolution.json",
-          "reason": "Update consolidation metadata for eight exactly archived and integrated source heads, 155 archived snapshots and 607 ledger records. Keep prior validation results tied to their original tested revisions; make no new test-success claim."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "closure_metadata_resolution.json",
-          "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "final_packaging_resolution.json",
-          "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "nextwave_packaging_resolution.json",
-          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
-        },
-        {
-          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "live_catchup_metadata_decisions.json",
-          "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "live_catchup_packaging_resolution.json",
-          "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-          "report": "quadratic_followup_packaging_resolution.json",
-          "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
-        }
-      ],
-      "report": "quadratic_followup_packaging_resolution.json"
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/README.434178af.md",
@@ -453,6 +437,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/README.dcd18b0c.md",
+      "sha256": "65ee61777862b4294f0a3095f3cf568d24e7b3aa9d25c8f58ac3aa7d01307f9f",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/README.md",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/README.e38eb5c2.md",
       "sha256": "98d96b3c644949e213de48fcd2eaca42bf458f86db2a0b39b4575ca8e7803213",
       "source_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
@@ -470,61 +470,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "sha256": "65ee61777862b4294f0a3095f3cf568d24e7b3aa9d25c8f58ac3aa7d01307f9f",
+      "sha256": "d15e11729e9bc832864bf224e7f98dd159cd4ad322c6c984d93473136b7487b4",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance.",
-      "origins": [
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "postvalidation_metadata_resolution.json",
-          "reason": "Update consolidation metadata for eight exactly archived and integrated source heads, 155 archived snapshots and 607 ledger records. Keep prior validation results tied to their original tested revisions; make no new test-success claim."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "closure_metadata_resolution.json",
-          "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "final_packaging_resolution.json",
-          "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "nextwave_metadata_resolution.json",
-          "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "nextwave_packaging_resolution.json",
-          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
-        },
-        {
-          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "live_catchup_metadata_decisions.json",
-          "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "live_catchup_packaging_resolution.json",
-          "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/README.md",
-          "report": "quadratic_followup_packaging_resolution.json",
-          "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
-        }
-      ],
-      "report": "quadratic_followup_packaging_resolution.json"
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/archive_verification_index.159.json",
@@ -559,6 +509,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.dcd18b0c.json",
+      "sha256": "1195eb4c83dc3da67ab9e09a1d8d89b12b9c09b80e050cfaa00b8a5607cc3021",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/archive_verification_index.e38eb5c2.json",
       "sha256": "bd79a375ab553d571ac84c8c1da04d1d87f905636be56dcbc3efe44e0b05a8f4",
       "source_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
@@ -576,31 +542,91 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-      "sha256": "1195eb4c83dc3da67ab9e09a1d8d89b12b9c09b80e050cfaa00b8a5607cc3021",
+      "sha256": "3bcf4cd9a6fdc2fb6c7e2747c94647d823d396665b673bcf1728e053aa4b738e",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-      "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance.",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archives_171_complete_verification.json",
+      "sha256": "532ebdadca5d55b7a569e4e3ec019d9b550e9fbb0d8e48231c24aefaeab2e58f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/archives_171_complete_verification.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
       "origins": [
         {
           "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-          "report": "nextwave_packaging_resolution.json",
-          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-          "report": "live_catchup_packaging_resolution.json",
-          "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-          "report": "quadratic_followup_packaging_resolution.json",
-          "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+          "source_path": "docs/consolidation/2026-10-23/archives_171_complete_verification.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
-      ],
-      "report": "quadratic_followup_packaging_resolution.json"
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archives_172_complete_verification.json",
+      "sha256": "0ccba83627ba97a724903baf07088b4d97ca5efeb92f5b918ef943119767b3fc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/archives_172_complete_verification.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_code_audit.json",
+      "sha256": "10fca88eb439bd4bbb01b3df63279aded74cf27c8e393d71e628faf5eb7752db",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_code_audit.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_history_receipt.json",
+      "sha256": "ead9d6114a94f2747319b14965da518e7940271b38bf8447e3cf449c7fe12a6e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_history_receipt.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_packaging_equivalence.json",
+      "sha256": "073a2504b07ce82f925c2290f45cc23273ad2661e87b51f0318ff912b5decef0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_packaging_equivalence.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_preservation_report.json",
+      "sha256": "39635072a32ccbba83ffe072b244ea443a81a6b7d86a41c2a9b6cc24691cbc7e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_preservation_report.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_retirement_plan.json",
+      "sha256": "7eb8f0fe61a802d033c99e992920edc982bcc96757a526b1d364dc6e16227846",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_retirement_plan.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_source_provenance.json",
+      "sha256": "d349fee2bb32c7f66b5e5f8e14ef88043795399216e1e7a99895e513c40b5866",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_source_provenance.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/balanced_followup_validation_plan.json",
+      "sha256": "92b78cbee100361146ae480b52a00e111f157e7967405fdb9a326563e99f7ed1",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/balanced_followup_validation_plan.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/branch_retirement_159.json",
@@ -635,6 +661,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/branches.dcd18b0c.json",
+      "sha256": "71fc45c5d8da125017f94ddb2540386e89d3904714e5dc8dbfa81790d01e6a1c",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/branches.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/branches.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/branches.e38eb5c2.json",
       "sha256": "38ee8142ebb4daeeea90dbc0b9543167566848c8d180050bb671d74574926af7",
       "source_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
@@ -652,67 +694,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "29ed8420541795e6c8951aa1a57fdf5359f7626621df823f58e9b5d4cc297e55",
+      "sha256": "19013ac2048cf2918c181623108f7a3924d4659d9347d48452926aa70020b9e5",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Record171 archived topic-source snapshots with current80bd and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry.",
-      "origins": [
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "postvalidation_metadata_resolution.json",
-          "reason": "Update consolidation metadata for eight exactly archived and integrated source heads, 155 archived snapshots and 607 ledger records. Keep prior validation results tied to their original tested revisions; make no new test-success claim."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "closure_metadata_resolution.json",
-          "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "nextwave_metadata_resolution.json",
-          "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "nextwave_packaging_resolution.json",
-          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "live_catchup_integration_resolution.json",
-          "reason": "Record five additional exact archived heads, two new topic names, the current main ancestry, and immutable original/advanced PR captures. Preserve historical main_at_snapshot and distinguish independently merged PR217 from superseded closures."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "live_catchup_packaging_resolution.json",
-          "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "quadratic_followup_integration_resolution.json",
-          "reason": "Record the170th archived topic-source snapshot, preserve both quadratic head/PR captures, and record the exact already-incorporated main6e squash as current ancestry."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "quadratic_followup_packaging_resolution.json",
-          "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/branches.json",
-          "report": "structural_followup_integration_resolution.json",
-          "reason": "Record171 archived topic-source snapshots with current80bd and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry."
-        }
-      ],
-      "report": "structural_followup_integration_resolution.json"
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.0bddc6e8.json",
@@ -795,6 +781,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.45b082d1.json",
+      "sha256": "44fb443502ff1831bf5278e4a35789326fae6846761efe6101b6866a1b44717d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.45b082d1.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.45b082d1.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.5d144109.json",
       "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1",
       "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
@@ -823,6 +825,30 @@
           "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
           "report": "nextwave_concurrent_resolution.json",
           "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.98c34d5c.json.gz",
+      "sha256": "e43eb73657d9cc9b8d0ab4d264f0845ee1784ae8426a37b0b3c2a76326aa5020",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.98c34d5c.json.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.dcd18b0c.json",
+      "sha256": "222d97583f2a92085cdc87029b53d7adfc4e3a827bcbc7faace141d3be36fb20",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
       ]
     },
@@ -939,6 +965,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.45b082d1.json",
+      "sha256": "e70774fdc85b014f97dba2abcacea3b9e2a78be4b21e3628771ba8f7edf91a24",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.45b082d1.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.45b082d1.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/claim_resolution.5d144109.json",
       "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
       "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
@@ -971,6 +1013,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.dcd18b0c.json",
+      "sha256": "f0b1aa6a701f2abec2ef9db97d9d74e2771175ff40817d5ae6900ad7df21e7fe",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/claim_resolution.e38eb5c2.json",
       "sha256": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb",
       "source_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
@@ -988,43 +1046,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "sha256": "f0b1aa6a701f2abec2ef9db97d9d74e2771175ff40817d5ae6900ad7df21e7fe",
+      "sha256": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance.",
-      "origins": [
-        {
-          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
-          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-          "report": "nextwave_concurrent_resolution.json",
-          "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-          "report": "nextwave_packaging_resolution.json",
-          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
-        },
-        {
-          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
-          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-          "report": "live_catchup_metadata_decisions.json",
-          "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-          "report": "live_catchup_packaging_resolution.json",
-          "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
-        },
-        {
-          "source_commit": null,
-          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-          "report": "quadratic_followup_packaging_resolution.json",
-          "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
-        }
-      ],
-      "report": "quadratic_followup_packaging_resolution.json"
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
@@ -1443,6 +1469,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.dcd18b0c.json",
+      "sha256": "a709a5d98ad331e859be32c1529b6b28c431ad349e29bd39f3ededc7dd461005",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/packaged_evidence_index.e38eb5c2.json",
       "sha256": "06aba993a8597a39de67c5535829eecd152c6e139461205112440a4dc4cae34b",
       "source_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
@@ -1555,6 +1597,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/preservation_report.45b082d1.json",
+      "sha256": "86cebadca5d04ba98bfb2b9ea1020f3b28b1094d5a04168154c7888aee41e420",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/preservation_report.45b082d1.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/preservation_report.45b082d1.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
       "sha256": "1fd535252fae91c50e23585fbd9445110e54ceef2eb5650edb116ce9a219c646",
       "source_commit": null,
@@ -1567,6 +1625,22 @@
           "source_path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/preservation_report.dcd18b0c.json",
+      "sha256": "2aec3b0a346fefb38d05df16b514b35fc8814810160da48ef09dc8a01daf6f22",
+      "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+      "source_path": "docs/consolidation/2026-10-23/preservation_report.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+          "source_path": "docs/consolidation/2026-10-23/preservation_report.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
       ]
     },
@@ -1599,6 +1673,22 @@
           "source_path": "docs/consolidation/2026-10-23/publication_169_ref_verified_with_main_advance.json",
           "report": "quadratic_followup_packaging_resolution.json",
           "reason": "Preserve exact historical or revision-bound evidence bytes; deterministic gzip is recorded where used."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/publication_170_verified.json",
+      "sha256": "021e7f1c000aa6b349974c0b912136118689b5a48b57d6b59ffd58c18f41a2a0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/publication_170_verified.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/publication_170_verified.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
       ]
     },
@@ -1647,6 +1737,22 @@
           "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
           "report": "quadratic_pin_resolution.json",
           "reason": "Byte-exact original quadratic source record, including the original strict README pin."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/f00613b-sources.json",
+      "sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "reason": "Preserve exact f006 source metadata before refreshing its inherited context README pin, alongside both prior source records and the historical README.",
+      "report": "balanced_followup_pin_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+          "report": "balanced_followup_pin_resolution.json",
+          "reason": "Preserve exact f006 source metadata before refreshing its inherited context README pin, alongside both prior source records and the historical README."
         }
       ]
     },
@@ -1907,6 +2013,190 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/structural_followup_code_audit.json",
+      "sha256": "a1ae8169abb9028149565ae0643a6220c6e9357377b51c1c4ab58bb9d0dd5c1c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/structural_followup_code_audit.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/structural_followup_code_audit.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/structural_followup_frozen.json",
+      "sha256": "766eab2355a549476df2ef1256cbc335cdef4ddf84c25d3fcce6571d637b3d44",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/structural_followup_frozen.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/structural_followup_frozen.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/structural_followup_history_receipt.json",
+      "sha256": "d84bbe4e4310d58d6435d71314d71d77cc63d53ca78120ade2262bf5f117893c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/structural_followup_history_receipt.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/structural_followup_history_receipt.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/structural_followup_retirement_plan.json",
+      "sha256": "5982800e9b3034a81668cf20a5a80529fdfb36d0f51816b0d23b591de730c5c1",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/structural_followup_retirement_plan.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/structural_followup_retirement_plan.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/structural_followup_source_provenance.json",
+      "sha256": "711b75eba561ef9f7b6200d48cd6a86804fab5c574e9ddf9f22d9c022b882fff",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/structural_followup_source_provenance.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/structural_followup_source_provenance.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-claim-ledger-and-links.log.gz",
+      "sha256": "0fef06c2147d92eacb6d90a41cfc848bbbf69f7e00e025f8ff42bbfc2fc84561",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-claim-ledger-and-links.log.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-coverage_union.json",
+      "sha256": "d0faa45f4ac2907982c904b083252c515f651e27b1da47731b4e05cd7e094f58",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-coverage_union.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-discovery.json",
+      "sha256": "5de9f93be205961d6fbdbef3827c58b2c21a7d224d6ad1ab8f4171b9a4f7f172",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-discovery.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-discovery.log.gz",
+      "sha256": "b6b25f8d7835bba18685695d08b8aff28a101a6e6135bf0bb1b6cf745a162fe9",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-discovery.log.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-discovery.stderr.log.gz",
+      "sha256": "f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-discovery.stderr.log.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-inventory_tree_after.json.gz",
+      "sha256": "278c7cff4a80b1371299e43fcbe9a6f5a67006dae66507d3f855d492b2d050d0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-inventory_tree_after.json.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-inventory_tree_before.json.gz",
+      "sha256": "278c7cff4a80b1371299e43fcbe9a6f5a67006dae66507d3f855d492b2d050d0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-inventory_tree_before.json.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-plan.json",
+      "sha256": "92b78cbee100361146ae480b52a00e111f157e7967405fdb9a326563e99f7ed1",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-plan.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-quadratic-kernel-complete.log.gz",
+      "sha256": "837ae18ad1b16fb8769131dc47f572f1c243e1e4d4fbe246f46b10e91ef9f8fc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-quadratic-kernel-complete.log.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-summary.json",
+      "sha256": "774df00de2f35f13b06cc2a46920cd83d176ca49c9647aaf9bccc1fe3c82778f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-summary.json",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-tree_after.json.gz",
+      "sha256": "278c7cff4a80b1371299e43fcbe9a6f5a67006dae66507d3f855d492b2d050d0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-tree_after.json.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/balanced-followup-tree_before.json.gz",
+      "sha256": "278c7cff4a80b1371299e43fcbe9a6f5a67006dae66507d3f855d492b2d050d0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/balanced-followup-tree_before.json.gz",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_balanced_followup.py",
+      "sha256": "b6972341542610e8bd5c1f0bd7d9be0f8da81ee0e6459375c63a9b69e9938ce6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/audit_balanced_followup.py",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
       "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_live_catchup.py",
       "sha256": "f97fda1582154a7aa20c1baab24a3888357bd4af1ac841a400e44a681f46dd08",
       "source_commit": null,
@@ -1935,6 +2225,22 @@
           "source_path": "docs/consolidation/2026-10-23/validation/harnesses/audit_quadratic_followup.py",
           "report": "quadratic_followup_packaging_resolution.json",
           "reason": "Preserve exact historical or revision-bound evidence bytes; deterministic gzip is recorded where used."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_structural_followup.py",
+      "sha256": "5be73e5cb78cbec75f0ddc7cec73661bc83e1f5f20efd6f885d3b98087f58ca5",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/audit_structural_followup.py",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/audit_structural_followup.py",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
       ]
     },
@@ -2035,6 +2341,14 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_balanced_followup_coverage.py",
+      "sha256": "01ac94a1325fc41de719a07a515da675a828fe5503f5c4d0d5c80160c9c779df",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_balanced_followup_coverage.py",
+      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+      "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
       "path": "docs/consolidation/2026-10-23/validation/harnesses/record_live_catchup_coverage.py",
       "sha256": "b8fa2d2a7706610957c9e5c86182df9b0cc5e6df391d4caba505e733f2ebc3ce",
       "source_commit": null,
@@ -2095,6 +2409,38 @@
           "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_quadratic_followup_coverage.py",
           "report": "quadratic_followup_packaging_resolution.json",
           "reason": "Preserve exact historical or revision-bound evidence bytes; deterministic gzip is recorded where used."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_structural_followup_equivalence.py",
+      "sha256": "192850b1acec3e6efcda01770f022d5547844d677112eee7b82a1fef7b3f711b",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_structural_followup_equivalence.py",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_structural_followup_equivalence.py",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/structural_followup_validation_plan.json",
+      "sha256": "6911162145d05f2565715b097c2100b0bca2b98434b6edf3fb761622d04d062c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/structural_followup_validation_plan.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/structural_followup_validation_plan.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
       ]
     },
@@ -2831,6 +3177,134 @@
           "source_path": "docs/consolidation/2026-10-23/validation/quadratic-followup-tree_before.json.gz",
           "report": "quadratic_followup_packaging_resolution.json",
           "reason": "Preserve exact historical or revision-bound evidence bytes; deterministic gzip is recorded where used."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence.json",
+      "sha256": "142ea16d4a34a21a50f991dbf7368d6a35da7d59374f8b6a60a64dd4076509a2",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_after.json.gz",
+      "sha256": "b5cab2a5fccbfa8732bd7c5b6b0e0067457cece7e742681f927a6a46b3714a25",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_after.json.gz",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_after.json.gz",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_before.json.gz",
+      "sha256": "b5cab2a5fccbfa8732bd7c5b6b0e0067457cece7e742681f927a6a46b3714a25",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_before.json.gz",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-equivalence_tree_before.json.gz",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-plan.json",
+      "sha256": "6911162145d05f2565715b097c2100b0bca2b98434b6edf3fb761622d04d062c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-plan.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-plan.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-source-pins-ledger-links.log.gz",
+      "sha256": "62842ded95ae856c8d59e6b88d056816477bea1809907d18b784a8c53aed9656",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-source-pins-ledger-links.log.gz",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-source-pins-ledger-links.log.gz",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-summary.json",
+      "sha256": "d340bd84c8ed1b5b74f6fa4999fe5d5967af2d70f502d619aec03a7da2cfb78e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-summary.json",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-summary.json",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-tree_after.json.gz",
+      "sha256": "b5cab2a5fccbfa8732bd7c5b6b0e0067457cece7e742681f927a6a46b3714a25",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-tree_after.json.gz",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-tree_after.json.gz",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/structural-followup-tree_before.json.gz",
+      "sha256": "b5cab2a5fccbfa8732bd7c5b6b0e0067457cece7e742681f927a6a46b3714a25",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-tree_before.json.gz",
+      "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded.",
+      "report": "structural_followup_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/structural-followup-tree_before.json.gz",
+          "report": "structural_followup_packaging_resolution.json",
+          "reason": "Preserve exact historical or revision-bound evidence bytes, with deterministic gzip where recorded."
         }
       ]
     },
@@ -15055,10 +15529,10 @@
     },
     {
       "path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
-      "sha256": "3e4b80979f080b3a77ea6c3684cf3ec8861ed2d484d84559921f488c2bf211d2",
-      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "sha256": "145bef7629832753ea15617a8c259ac2e1a2ec120d058e7f8d51c0a498961f24",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
-      "reason": "Preserve exact authored structural continuation; the sources.json context README digest is superseded only by the separately documented retained pin repair.",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report.",
       "origins": [
         {
           "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
@@ -15071,25 +15545,37 @@
           "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
           "report": "structural_followup_source_resolution.json",
           "reason": "Preserve exact authored structural continuation; the sources.json context README digest is superseded only by the separately documented retained pin repair."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+          "report": "balanced_followup_source_resolution.json",
+          "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
         }
       ],
-      "report": "structural_followup_source_resolution.json"
+      "report": "balanced_followup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
-      "sha256": "e653c735b7149096f32d8dadfa90a2a5defe608bc874bb9765c0db529173e40a",
-      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "sha256": "3fbbe8be72254360b7df5e7cfb8ff3aa5d6096bacf9bb91ed9d11290c5d929eb",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
-      "reason": "Preserve exact authored structural continuation; the sources.json context README digest is superseded only by the separately documented retained pin repair.",
-      "report": "structural_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report.",
       "origins": [
         {
           "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
           "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
           "report": "structural_followup_source_resolution.json",
           "reason": "Preserve exact authored structural continuation; the sources.json context README digest is superseded only by the separately documented retained pin repair."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+          "report": "balanced_followup_source_resolution.json",
+          "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
         }
-      ]
+      ],
+      "report": "balanced_followup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
@@ -15110,12 +15596,12 @@
     },
     {
       "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
-      "sha256": "2fa54673647be6a6a11bcb9e0ed40d8571f092be1bd1d7c9ff7a71acc180b57d",
-      "original_source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "sha256": "2aef4e3ad99772f4f6317a54fe40fe7c1a1adae860ed03436469707bebe09209",
+      "original_source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "original_source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
-      "original_sha256": "3c5f5ee86bb796aeb21329979c09cbb8803964864d37b68cbe10877019b08d93",
-      "preserved_original_path": "docs/consolidation/2026-10-23/quadratic-pin-originals/80bd2ae-sources.json",
-      "reason": "Preserve the new external-theorem citation exactly and refresh only the already reviewed context README hash; strict dependency checks remain unchanged.",
+      "original_sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "preserved_original_path": "docs/consolidation/2026-10-23/quadratic-pin-originals/f00613b-sources.json",
+      "reason": "Retain the source-exact updated local-work scope and both external citations; refresh only the already reviewed README digest without weakening the strict test.",
       "origins": [
         {
           "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
@@ -15136,26 +15622,41 @@
         {
           "report": "structural_followup_pin_resolution.json",
           "reason": "Preserve the new external-theorem citation exactly and refresh only the already reviewed context README hash; strict dependency checks remain unchanged."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+          "report": "balanced_followup_source_resolution.json",
+          "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+        },
+        {
+          "report": "balanced_followup_pin_resolution.json",
+          "reason": "Retain the source-exact updated local-work scope and both external citations; refresh only the already reviewed README digest without weakening the strict test."
         }
       ],
-      "report": "structural_followup_pin_resolution.json"
+      "report": "balanced_followup_pin_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
-      "sha256": "e38466120237d20eb8cecd96ed7dccd858a4bdaa9f93f87f1d1ca02247568db7",
-      "mode": "100644",
-      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "sha256": "0bc4b50e261c2f69aca5f1432aa44c99e57db64dba49a0aa66b3e340ec277e1e",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
-      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
-      "report": "quadratic_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report.",
       "origins": [
         {
           "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
           "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
           "report": "quadratic_followup_source_resolution.json",
           "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+          "report": "balanced_followup_source_resolution.json",
+          "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
         }
-      ]
+      ],
+      "report": "balanced_followup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-quadratic-z-middle/CONTINUATION.md",
@@ -16471,10 +16972,10 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "b0ae047d5bdda32dc0acb218facaad809d7576be47ae8e8a0a0011596d8097cc",
+      "sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "reason": "Preserve all613 existing records exactly and append the exact source-authored written-unreviewed structural dichotomy claim. Older records reimported with main do not replace later consolidated limitations or status.",
+      "reason": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged.",
       "origins": [
         {
           "source_commit": null,
@@ -16511,9 +17012,15 @@
           "source_path": "research/claims.json",
           "report": "structural_followup_integration_resolution.json",
           "reason": "Preserve all613 existing records exactly and append the exact source-authored written-unreviewed structural dichotomy claim. Older records reimported with main do not replace later consolidated limitations or status."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/claims.json",
+          "report": "balanced_followup_integration_resolution.json",
+          "reason": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged."
         }
       ],
-      "report": "structural_followup_integration_resolution.json"
+      "report": "balanced_followup_integration_resolution.json"
     },
     {
       "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
@@ -27274,20 +27781,25 @@
     },
     {
       "path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
-      "sha256": "327d81248030a8bfd136b5a6e180098f676bebe506e795a7b7e33d3e8cb62b3b",
-      "mode": "100644",
-      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "sha256": "ebb7ca391a014275a3ee6398d34002e9d2f7582b8c29c769c11424aa2a383ac5",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
-      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
-      "report": "quadratic_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report.",
       "origins": [
         {
           "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
           "source_path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
           "report": "quadratic_followup_source_resolution.json",
           "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+          "report": "balanced_followup_source_resolution.json",
+          "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
         }
-      ]
+      ],
+      "report": "balanced_followup_source_resolution.json"
     },
     {
       "path": "results/quadratic-z-middle-2026-10-23/validation.json",
@@ -32017,20 +32529,25 @@
     },
     {
       "path": "tests/test_quadratic_kernel_indices.py",
-      "sha256": "aa16812c33477a385db03e078234eda2a45cbadc4c22841c79bbfba360da588e",
-      "mode": "100644",
-      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "sha256": "cdfd1f0bf979b6f462ee763101e9547760622b66140ba82c13ba721baca230f6",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_path": "tests/test_quadratic_kernel_indices.py",
-      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
-      "report": "quadratic_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report.",
       "origins": [
         {
           "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
           "source_path": "tests/test_quadratic_kernel_indices.py",
           "report": "quadratic_followup_source_resolution.json",
           "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        },
+        {
+          "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+          "source_path": "tests/test_quadratic_kernel_indices.py",
+          "report": "balanced_followup_source_resolution.json",
+          "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
         }
-      ]
+      ],
+      "report": "balanced_followup_source_resolution.json"
     },
     {
       "path": "tests/test_quadratic_z_middle_ranks.py",
@@ -32759,13 +33276,13 @@
     },
     {
       "path": "STATUS.md",
-      "resolution_report": "structural_followup_integration_resolution.json",
-      "decision": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+      "resolution_report": "balanced_followup_integration_resolution.json",
+      "decision": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "resolution_report": "quadratic_followup_packaging_resolution.json",
-      "decision": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+      "resolution_report": "structural_followup_packaging_resolution.json",
+      "decision": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
@@ -32774,8 +33291,8 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "resolution_report": "quadratic_followup_packaging_resolution.json",
-      "decision": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+      "resolution_report": "structural_followup_packaging_resolution.json",
+      "decision": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
     },
     {
       "path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
@@ -32929,8 +33446,8 @@
     },
     {
       "path": "research/claims.json",
-      "resolution_report": "structural_followup_integration_resolution.json",
-      "decision": "Preserve all613 existing records exactly and append the exact source-authored written-unreviewed structural dichotomy claim. Older records reimported with main do not replace later consolidated limitations or status."
+      "resolution_report": "balanced_followup_integration_resolution.json",
+      "decision": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged."
     },
     {
       "path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
@@ -33558,39 +34075,502 @@
       "final_sha256": "2fa54673647be6a6a11bcb9e0ed40d8571f092be1bd1d7c9ff7a71acc180b57d",
       "final_report": "structural_followup_pin_resolution.json",
       "reason": "Preserve the new external-theorem citation exactly and refresh only the already reviewed context README hash; strict dependency checks remain unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous_sha256": "de37b783abef734a9723d506278785c3adeebfcc835c23f06481a20d872af8c8",
+      "previous_report": "quadratic_followup_packaging_resolution.json",
+      "final_sha256": "9c70bdb69c7958d1ae8863210452645f5db9831ac6491504ccf9f391e35b343d",
+      "final_report": "structural_followup_packaging_resolution.json",
+      "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous_sha256": "65ee61777862b4294f0a3095f3cf568d24e7b3aa9d25c8f58ac3aa7d01307f9f",
+      "previous_report": "quadratic_followup_packaging_resolution.json",
+      "final_sha256": "3d92ffbdd018385131f4453d7b9b3d9399047677680354674da3ea8361196897",
+      "final_report": "structural_followup_packaging_resolution.json",
+      "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "29ed8420541795e6c8951aa1a57fdf5359f7626621df823f58e9b5d4cc297e55",
+      "previous_report": "structural_followup_integration_resolution.json",
+      "final_sha256": "4897dbefcae11784374f1cedcc70b35308af39d553cfd7e1e7abd8f51b135f3b",
+      "final_report": "structural_followup_packaging_resolution.json",
+      "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "previous_sha256": "1195eb4c83dc3da67ab9e09a1d8d89b12b9c09b80e050cfaa00b8a5607cc3021",
+      "previous_report": "quadratic_followup_packaging_resolution.json",
+      "final_sha256": "1012a05d1857e215b197ae3f1ce2ad61f84db49c80f4fa06c3651035a957a4d8",
+      "final_report": "structural_followup_packaging_resolution.json",
+      "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "previous_sha256": "f0b1aa6a701f2abec2ef9db97d9d74e2771175ff40817d5ae6900ad7df21e7fe",
+      "previous_report": "quadratic_followup_packaging_resolution.json",
+      "final_sha256": "e70774fdc85b014f97dba2abcacea3b9e2a78be4b21e3628771ba8f7edf91a24",
+      "final_report": "structural_followup_packaging_resolution.json",
+      "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+      "previous_sha256": "3e4b80979f080b3a77ea6c3684cf3ec8861ed2d484d84559921f488c2bf211d2",
+      "previous_report": "structural_followup_source_resolution.json",
+      "final_sha256": "145bef7629832753ea15617a8c259ac2e1a2ec120d058e7f8d51c0a498961f24",
+      "final_report": "balanced_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "previous_sha256": "e653c735b7149096f32d8dadfa90a2a5defe608bc874bb9765c0db529173e40a",
+      "previous_report": "structural_followup_source_resolution.json",
+      "final_sha256": "3fbbe8be72254360b7df5e7cfb8ff3aa5d6096bacf9bb91ed9d11290c5d929eb",
+      "final_report": "balanced_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "previous_sha256": "2fa54673647be6a6a11bcb9e0ed40d8571f092be1bd1d7c9ff7a71acc180b57d",
+      "previous_report": "structural_followup_pin_resolution.json",
+      "final_sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "final_report": "balanced_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+      "previous_sha256": "e38466120237d20eb8cecd96ed7dccd858a4bdaa9f93f87f1d1ca02247568db7",
+      "previous_report": "quadratic_followup_source_resolution.json",
+      "final_sha256": "0bc4b50e261c2f69aca5f1432aa44c99e57db64dba49a0aa66b3e340ec277e1e",
+      "final_report": "balanced_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+    },
+    {
+      "path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+      "previous_sha256": "327d81248030a8bfd136b5a6e180098f676bebe506e795a7b7e33d3e8cb62b3b",
+      "previous_report": "quadratic_followup_source_resolution.json",
+      "final_sha256": "ebb7ca391a014275a3ee6398d34002e9d2f7582b8c29c769c11424aa2a383ac5",
+      "final_report": "balanced_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+    },
+    {
+      "path": "tests/test_quadratic_kernel_indices.py",
+      "previous_sha256": "aa16812c33477a385db03e078234eda2a45cbadc4c22841c79bbfba360da588e",
+      "previous_report": "quadratic_followup_source_resolution.json",
+      "final_sha256": "cdfd1f0bf979b6f462ee763101e9547760622b66140ba82c13ba721baca230f6",
+      "final_report": "balanced_followup_source_resolution.json",
+      "reason": "Preserve exact authored balanced-family proof, verifier, controls and tests; retain the reviewed context README digest via the explicit pin supersession report."
+    },
+    {
+      "path": "STATUS.md",
+      "previous_sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
+      "previous_report": "structural_followup_integration_resolution.json",
+      "final_sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "final_report": "balanced_followup_docs_resolution.json",
+      "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "b0ae047d5bdda32dc0acb218facaad809d7576be47ae8e8a0a0011596d8097cc",
+      "previous_report": "structural_followup_integration_resolution.json",
+      "final_sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+      "final_report": "balanced_followup_integration_resolution.json",
+      "reason": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "4897dbefcae11784374f1cedcc70b35308af39d553cfd7e1e7abd8f51b135f3b",
+      "previous_report": "structural_followup_packaging_resolution.json",
+      "final_sha256": "3ef215c1a38dca80d515bc569f7598e76d570e01fadb8f445bc78a22768755d4",
+      "final_report": "balanced_followup_integration_resolution.json",
+      "reason": "Record172 archived topic-source snapshots with currentf006 and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "previous_sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "previous_report": "balanced_followup_source_resolution.json",
+      "final_sha256": "2aef4e3ad99772f4f6317a54fe40fe7c1a1adae860ed03436469707bebe09209",
+      "final_report": "balanced_followup_pin_resolution.json",
+      "reason": "Retain the source-exact updated local-work scope and both external citations; refresh only the already reviewed README digest without weakening the strict test."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "sha256": "9c70bdb69c7958d1ae8863210452645f5db9831ac6491504ccf9f391e35b343d",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance.",
+        "origins": [
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "postvalidation_metadata_resolution.json",
+            "reason": "Update consolidation metadata for eight exactly archived and integrated source heads, 155 archived snapshots and 607 ledger records. Keep prior validation results tied to their original tested revisions; make no new test-success claim."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "closure_metadata_resolution.json",
+            "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "final_packaging_resolution.json",
+            "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "nextwave_packaging_resolution.json",
+            "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+          },
+          {
+            "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "live_catchup_metadata_decisions.json",
+            "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "live_catchup_packaging_resolution.json",
+            "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "quadratic_followup_packaging_resolution.json",
+            "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+            "report": "structural_followup_packaging_resolution.json",
+            "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+          }
+        ],
+        "report": "structural_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "sha256": "bb51c3c9d63b0871a6c12e4bdfb8e5f6fbee5d95f62007843bbba6bbf56b473f",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts."
+      },
+      "reason": "Explicit metadata-only final publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/README.md",
+        "sha256": "3d92ffbdd018385131f4453d7b9b3d9399047677680354674da3ea8361196897",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/README.md",
+        "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance.",
+        "origins": [
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "postvalidation_metadata_resolution.json",
+            "reason": "Update consolidation metadata for eight exactly archived and integrated source heads, 155 archived snapshots and 607 ledger records. Keep prior validation results tied to their original tested revisions; make no new test-success claim."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "closure_metadata_resolution.json",
+            "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "final_packaging_resolution.json",
+            "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "nextwave_metadata_resolution.json",
+            "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "nextwave_packaging_resolution.json",
+            "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+          },
+          {
+            "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "live_catchup_metadata_decisions.json",
+            "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "live_catchup_packaging_resolution.json",
+            "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "quadratic_followup_packaging_resolution.json",
+            "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/README.md",
+            "report": "structural_followup_packaging_resolution.json",
+            "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+          }
+        ],
+        "report": "structural_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/README.md",
+        "sha256": "d15e11729e9bc832864bf224e7f98dd159cd4ad322c6c984d93473136b7487b4",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/README.md",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts."
+      },
+      "reason": "Explicit metadata-only final publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+        "sha256": "1012a05d1857e215b197ae3f1ce2ad61f84db49c80f4fa06c3651035a957a4d8",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+        "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance.",
+        "origins": [
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+            "report": "nextwave_packaging_resolution.json",
+            "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+            "report": "live_catchup_packaging_resolution.json",
+            "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+            "report": "quadratic_followup_packaging_resolution.json",
+            "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+            "report": "structural_followup_packaging_resolution.json",
+            "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+          }
+        ],
+        "report": "structural_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+        "sha256": "3bcf4cd9a6fdc2fb6c7e2747c94647d823d396665b673bcf1728e053aa4b738e",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts."
+      },
+      "reason": "Explicit metadata-only final publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/branches.json",
+        "sha256": "3ef215c1a38dca80d515bc569f7598e76d570e01fadb8f445bc78a22768755d4",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/branches.json",
+        "reason": "Record172 archived topic-source snapshots with currentf006 and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry.",
+        "origins": [
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "postvalidation_metadata_resolution.json",
+            "reason": "Update consolidation metadata for eight exactly archived and integrated source heads, 155 archived snapshots and 607 ledger records. Keep prior validation results tied to their original tested revisions; make no new test-success claim."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "closure_metadata_resolution.json",
+            "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "nextwave_metadata_resolution.json",
+            "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "nextwave_packaging_resolution.json",
+            "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "live_catchup_integration_resolution.json",
+            "reason": "Record five additional exact archived heads, two new topic names, the current main ancestry, and immutable original/advanced PR captures. Preserve historical main_at_snapshot and distinguish independently merged PR217 from superseded closures."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "live_catchup_packaging_resolution.json",
+            "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "quadratic_followup_integration_resolution.json",
+            "reason": "Record the170th archived topic-source snapshot, preserve both quadratic head/PR captures, and record the exact already-incorporated main6e squash as current ancestry."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "quadratic_followup_packaging_resolution.json",
+            "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "structural_followup_integration_resolution.json",
+            "reason": "Record171 archived topic-source snapshots with current80bd and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "structural_followup_packaging_resolution.json",
+            "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "balanced_followup_integration_resolution.json",
+            "reason": "Record172 archived topic-source snapshots with currentf006 and all earlier quadratic heads, original PR metadata, and unchanged current-main ancestry."
+          }
+        ],
+        "report": "balanced_followup_integration_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/branches.json",
+        "sha256": "19013ac2048cf2918c181623108f7a3924d4659d9347d48452926aa70020b9e5",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/branches.json",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts."
+      },
+      "reason": "Explicit metadata-only final publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+        "sha256": "e70774fdc85b014f97dba2abcacea3b9e2a78be4b21e3628771ba8f7edf91a24",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+        "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance.",
+        "origins": [
+          {
+            "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+            "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+            "report": "nextwave_concurrent_resolution.json",
+            "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+            "report": "nextwave_packaging_resolution.json",
+            "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+          },
+          {
+            "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+            "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+            "report": "live_catchup_metadata_decisions.json",
+            "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+            "report": "live_catchup_packaging_resolution.json",
+            "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+            "report": "quadratic_followup_packaging_resolution.json",
+            "reason": "Record170 topic snapshots,138 names,613 unchanged-status claims, exact current-main ancestry and revision-bound1957-test composite coverage; preserve prior published artifacts and verified cleanup provenance."
+          },
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+            "report": "structural_followup_packaging_resolution.json",
+            "reason": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+          }
+        ],
+        "report": "structural_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+        "sha256": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts."
+      },
+      "reason": "Explicit metadata-only final publication update."
     }
   ],
   "inputs": {
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_output/prior_manifest.dcd18b0c.json": "222d97583f2a92085cdc87029b53d7adfc4e3a827bcbc7faace141d3be36fb20",
-    "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
-    "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
-    "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
-    "/workspace/scratch/5e4a124ebf61/consolidation/late_merge_log.json": "4809f837cf708b5b82915b5cf7ae7e24337df998af753d05c03686bff9032198",
-    "/workspace/scratch/5e4a124ebf61/consolidation/receipt_merge_log.json": "4cd11a319dfd6d6ecc623ddcf78466182aff6656312251e5c6cf1eac22c791cf",
-    "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_merge_log.json": "9f1020f24f658b6c348bcd3bbe7812dc623fe0876b876effca6201c483c7a277",
-    "/workspace/scratch/5e4a124ebf61/consolidation/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
-    "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
-    "/workspace/scratch/5e4a124ebf61/consolidation/concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
-    "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
-    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930",
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_merge_log.json": "a1d0c72b5b1dfda21dedffc9e3b6262546348004fac0fe706882aa279293328a",
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_source_resolution.json": "87796b09eb216ff78bd9cd15ead807abf01b4bec0233a8d18ab60caf4217ccdf",
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_resolution.json": "308844e93747908d5aaf3aa5bd2311fd475ea693920b22308df7d2f37c8b9ff0",
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_integration_resolution.json": "ef1496e6ab1df87ea2fae6df44273bb376af6266bf9b5fa81e3074cbedbfa226",
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_pin_resolution.json": "1c9596152b7a1c457ba0e5d31ced29fecb04704291362c54e7c9a0418d005e9b",
-    "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_output/resolution_report.json": "e70774fdc85b014f97dba2abcacea3b9e2a78be4b21e3628771ba8f7edf91a24"
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_output/prior_manifest.42363c18.json": "1fca39b39e09174e4aee905ee6d3879478e985835c561b5c5de1b04fdba3a202",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/late_merge_log.json": "4809f837cf708b5b82915b5cf7ae7e24337df998af753d05c03686bff9032198",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/receipt_merge_log.json": "4cd11a319dfd6d6ecc623ddcf78466182aff6656312251e5c6cf1eac22c791cf",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/postvalidation_merge_log.json": "9f1020f24f658b6c348bcd3bbe7812dc623fe0876b876effca6201c483c7a277",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/structural_followup_merge_log.json": "a1d0c72b5b1dfda21dedffc9e3b6262546348004fac0fe706882aa279293328a",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_merge_log.json": "597e1ea3142fd42fa449164b7b78640b07b103c5e88b4790b77af5275cdb4191",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_source_resolution.json": "658b6db33414b3c954d1aa473e85b67fc7bbbcd5b5510cc9cec6a0b19f298f0d",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_resolution.json": "dbaab1952d2d5294b65945182e59d15e764d22eb2192a865991930d3480ff557",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_integration_resolution.json": "9d6041e12f4aa6bb7be22a5e0702fb091ba6ae41935863821294758ce07f8d59",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_pin_resolution.json": "32b89bebd77e74e628bca0704110cdaad049cf6b155921f3c3215906b241e28d",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_output/resolution_report.json": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
+    "balanced_followup_packaging_resolution.json": "afe38f082612fe733e29e396a237a4366fb2771d9756ab4ccbcf1be35dba1524"
   },
-  "method": "Preserve every prior reviewed resolution and all613 previous claim records. Add the exact captured structural dichotomy proof and one written-unreviewed claim; preserve the new external-theorem citation and retain the reviewed context-README digest with byte-exact originals. All imported main code is already present and current main is already an ancestor.",
+  "method": "Preserve every prior reviewed resolution,612 unchanged claim records and all614 status flags. Apply the exact two authored claim fields and source-exact extended verifier/test/control/proof bytes, with one explicit context README digest repair and exact originals retained.",
   "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
   "concurrent_integration_correction": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
-  "topic_source_snapshots": 171,
+  "topic_source_snapshots": 172,
   "topic_branch_names": 138,
   "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs.",
-  "prior_reviewed_union": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "prior_reviewed_union": "42363c18136a75a1a1e35b65b21c243a764a23ba",
   "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
   "concurrent_remote_history": "434178af88a16a3d13e9db60dd97453207dbf2b2",
-  "latest_source": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+  "latest_source": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "final_packaging": {
+    "source_audited_head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
+    "tested_active_head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
+    "previous_published_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+    "prior_metadata_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+    "only_changed_directory": "docs/consolidation/2026-10-23/",
+    "output_hashes_checked": true
+  }
 }

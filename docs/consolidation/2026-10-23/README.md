@@ -1,13 +1,13 @@
 # Branch consolidation
 
 This maintenance branch gathers the work from 138 topic branch names. The initial
-snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated forty-two
+snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated forty-three
 new or updated heads, including nine additional topic branches. The starting main
 commit was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
 
 The [branch manifest](branches.json) records the exact source heads, their original
 pull requests, and the archive tags that preserve them. There are 129 initial
-tagged heads and forty-two tagged updates. Source histories are also ancestors of the
+tagged heads and forty-three tagged updates. Source histories are also ancestors of the
 consolidation branch. Original pull request draft status is retained in the
 manifest as provenance; consolidation does not establish mathematical review.
 
@@ -44,9 +44,9 @@ Passing these checks does not change a claim's mathematical review status. Chang
 to main still require the repository's pull request and CI gates.
 
 The [publication record](PUBLICATION.md) links exact revision-scoped test and
-preservation receipts. The current inventory has 1,957 tests across 438 modules.
+preservation receipts. The current inventory has 1,961 tests across 438 modules.
 All additions are covered by passing focused gates; the full final suite was not
-rerun as one uninterrupted local execution. The manifest covers 171 topic-source
+rerun as one uninterrupted local execution. The manifest covers 172 topic-source
 snapshots and 138 names, with current main and concurrent integration histories
 recorded separately. Current-head hosted CI remains required.
 
