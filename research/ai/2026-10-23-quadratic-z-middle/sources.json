@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-23",
+  "origin": "Owner-directed AI-assisted mathematics; same-session exact verification; no independent review",
+  "base_main_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "literal_source": {
+    "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+    "git_blob_sha": "04d28c6a05027a7756891f47d28327de850a7501",
+    "scope": "Cyclic-source coefficient convention and previously credited general biform gap; no structural proof imported."
+  },
+  "concurrent_work_inspected": [
+    {
+      "pr": 209,
+      "head_sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "proof_blob_sha": "ae95f59ea5e3e7394ed6e4d86090acefd4b90b48",
+      "scope": "Affine-in-z rank formula and complete row-polynomial kernel method; credited, not claimed here. Its proposed quadratic continuation motivates this distinct non-affine subfamily."
+    },
+    {
+      "pr": 207,
+      "head_sha": "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+      "scope": "Diagonal-polynomial Toeplitz ranks; not imported."
+    },
+    {
+      "pr": 208,
+      "head_sha": "9e90a4bc773ba9803bab02e144601acbb700273d",
+      "scope": "Geometric diagonal-polynomial ranks; not imported."
+    },
+    {
+      "pr": 171,
+      "head_sha": "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+      "scope": "Two-monomial biform ranks; not imported."
+    }
+  ],
+  "external_mathematical_results_imported": [],
+  "claim": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+  "status": "proof-written-unreviewed",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
