@@ -2,6 +2,17 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+## Paired long-leg rank screen
+
+Conditional on the unreviewed filtered-bundle proof in PR #169, an exact
+comparison closes degrees 183–209, 211–241, and 241–274 for every saved
+short-leg survivor at `a=14,15,16`, respectively. The remaining
+intermediate degrees and any actual source-rank upper bounds are open.
+Continue only with a new structural source-rank bound, exact intermediate
+ranks for smaller cases, or a proof that the target comparison cannot
+exclude the saved formats. The finite comparison is in
+[`paired-long-leg-target-screen`](../research/ai/2026-10-23-paired-long-leg-target-screen/README.md).
+
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
 now proves rank six sharply over every field. Its open structural question
 is the rank-six locus and the required kernel/image alignment under two

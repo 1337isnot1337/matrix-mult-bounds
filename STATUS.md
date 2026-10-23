@@ -1,5 +1,17 @@
 # Research status
 
+## Conditional paired long-leg target screen
+
+The [filtered-bundle target screen](research/ai/2026-10-23-paired-long-leg-target-screen/README.md)
+uses the all-degree source-rank lower bound in unmerged PR #169, whose
+written proof remains unreviewed. Exact target-rank comparisons show that,
+conditional on that bound, both long-leg target ranks are no larger than
+the source lower bound for all 28 saved formats in degrees 183–209 at
+`a=14`, 211–241 at `a=15`, and 241–274 at `a=16`. This closes those finite
+windows to an additional long-leg rank exclusion. Other intermediate
+degrees remain undecided; the comparison is not an exact source-rank
+formula or an exponent improvement.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
