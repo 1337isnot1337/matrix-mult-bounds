@@ -2,6 +2,38 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+now extends PR107's entire prescribed two-jet on d nonzero, with exact
+polynomial maps of degrees eight and nine and no other parameter guards.
+Its kernel stays fixed, whereas PR107's prescribed third kernel
+coefficient is nonzero. Determine whether that full third jet extends
+with a moving kernel, or cover the remaining projective base charts of
+the all-order normal-class criterion. An extension of one specified
+two-jet does not classify all boundary velocities or construct the full
+matrix target.
+
+The [fixed-first conic curve](../research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
+now preserves PR107's entire specified first jet in two exact cubic
+maps, uniformly for all complex a,b,d. Its second coefficients change
+only on the boundary. The fixed-two package above now supplies an
+exact extension of the prescribed full two-jet on d nonzero. An extension of this one full first jet does
+not classify all possible boundary velocities.
+
+The [polynomial conic curve](../research/ai/2026-10-23-conic-polynomial-curve/proof.md)
+now realizes every cubic-component normal[1:d] for all complex a,b,d,
+including d=0, with complete maps of t-degrees one and three. Combined
+with PR101, its corollary makes the second-order criterion necessary and
+sufficient for all-order normal-class existence on the affine base chart.
+Its boundary
+velocity differs from the credited first jet. The separate
+[higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
+extend specified lower coefficients through order four universally for
+d nonzero and through order ten at a=1,b=2,d=1. Determine fixed-jet
+extendability and the local moduli, then connect this rank-twelve
+incidence to the full matrix target. The all-order local curve alone
+does not construct M(10,10,11). Concurrent PR123 retains its separate
+exact d=0 curve preserving its credited two-jet.
+
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
 now proves rank six sharply over every field. Its open structural question
 is the rank-six locus and the required kernel/image alignment under two
@@ -11,12 +43,15 @@ treating such an aligned compression as a possible matrix target.
 ## Active paired construction: near-full width four
 
 The [variable-coefficient shift-window theorem](../research/ai/2026-10-23-shift-window-long-legs/QUESTION.md)
-now rules out ordinary fixes with B bulk polynomial coefficients of degree
-at most m-2, shared recurrence order below m or, more generally, a common
-proper m-shift span, while C is Toeplitz and the exceptional sets are
-sublinear. For Q(6,4), investigate exact full-rank-window B coefficient
-maps outside the existing diagonal-shift and product charts. A full span is
-only a necessary condition; no matrix target or exponent bound is proved.
+rules out subquadratic ordinary corrections to M(n,m,n) for fixed m when
+B bulk coefficients have polynomial degree at most m-2, shared recurrence
+order below m or, more generally, a common proper m-shift span, while C is
+Toeplitz and both bandwidth and exceptional-column counts are sublinear.
+For Q(6,4), investigate exact full-rank-window B coefficient maps outside
+the existing diagonal-shift and product charts. This is an exploratory
+finite target: the theorem's bound is zero at n=6,m=4 and does not establish
+that full span is necessary for M(5,4,5). No matrix target or exponent bound
+is proved.
 
 
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
