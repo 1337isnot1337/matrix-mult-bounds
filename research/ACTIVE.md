@@ -653,6 +653,13 @@ is complementary to 8e0a766, retaining distinct hypotheses.
 
 ## S5 finite-cover continuation
 
+The separate higher-power investigation is on
+`research/persistent-frontier-01a1697a`, with its question in
+`ai/2026-10-23-s5-higher-powers/QUESTION.md`. It asks whether finite source
+powers beyond the cube exclude any of PR111's remaining single targets.
+It does not duplicate PR140's monotone cube census. No new result is
+claimed at the initial checkpoint; PR111 is an integration prerequisite.
+
 The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
 (PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
 Separate weights give actual-source cube bounds 6867542 and 42493572 for
