@@ -6,17 +6,6 @@ The October 23 joint-target continuation is in
 in the stated one-matrix-plus-scalars one-copy coordinate/potential
 family. Further work must change that target family, maps or source power.
 
-## Joint central-cover one-matrix-plus-scalars frontier
-
-The exact [joint target frontier](ai/2026-10-23-central-cover-joint-frontier/ACTIVE.md)
-screens all 41132 one-matrix-plus-scalars formats over the maintained
-SL(2,F5) source. Only `M(9,9,11) direct_sum r M1` for `r=11,12,13`
-survives the stated exact necessary tests; no degeneration or exponent
-improvement is established. Continue with the smallest survivor while
-preserving every cross-component zero coefficient, or extend exact screens
-to multi-matrix sums. The archived floating-point LP reports do not settle
-the wider problem, and their generator was not retained.
-
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument

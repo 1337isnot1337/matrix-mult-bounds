@@ -18,20 +18,6 @@ Claims `AI-NONSPLIT-MATRIX-SCALAR-CUBE-002` and
 latter gives a full profile necessary condition for general complex
 semisimple-source degenerations. No exponent improvement is established.
 
-## One rectangular component plus scalar outputs
-
-The [joint frontier](research/ai/2026-10-23-central-cover-joint-frontier/README.md)
-screens all 866 sorted shapes and 41132 dimension-compatible formats
-`M(a,b,c) direct_sum r M1` for the SL(2,F5) source. The combined
-rank-locus, full-space Koszul, rank-profile and exact cost tests leave only
-`M(9,9,11) direct_sum r M1` for `r=11,12,13`. The finite slice-rank cap
-uses the 98-slice characteristic-two source certificate and transfers only
-under the stated coefficient-one good-reduction hypothesis. These targets
-are unconstructed; their conditional bounds do not improve omega here.
-Arbitrary sums with two or more matrix components remain outside this
-finite frontier. Claim `AI-CENTRAL-COVER-JOINT-FRONTIER-001` is written
-and unreviewed.
-
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

@@ -1,35 +1,29 @@
-# Joint source target construction question
+# Joint-target continuation
 
-October 23, 2026. The exact one-matrix-plus-scalars screen is complete:
-among all 41132 dimension-compatible formats `M(a,b,c) direct_sum r M1`,
-only `M(9,9,11) direct_sum r M1` with `r=11,12,13` passes the stated
-complex screens, exact cost gate, and characteristic-two slice bound under
-the coefficient-one good-reduction hypothesis. These three targets are
-unconstructed; no exponent improvement follows.
+The complete one-matrix-plus-scalars family is closed in the stated
+one-copy complex coefficient-one coordinate/potential class. The exact
+SL(2,F5) source cube has slice-rank upper bound 1012332. The three formats
+left by the earlier complex screens exceed it by 76910, 106953 and 137554.
+No arbitrary-complex exclusion or exponent improvement follows.
 
-The broader question of excluding or constructing arbitrary mixed sums of
-rectangular matrix tensors remains open. The two archived floating-point LP
-outputs are discovery only, their generator was not retained, and their
-bounds do not close that problem. Do not repeat the same numerical
-relaxations as theorem evidence.
+Local verification at commit 7857f78: the separate source/frontier verifier
+replayed the complex central idempotents, all 1728000 original F4 source
+coefficients, all 1331 cube degree-class triples and the complete 41132
+format census. All six focused tests passed. PR #114 is a draft with hosted
+CI pending. The proof has no independent mathematical review or Lean
+formalization.
 
-Next, seek an exact degeneration to the smallest survivor,
-`M(9,9,11) direct_sum 11 M1`, with all cross-component zero coefficients
-accounted for, or prove a new exact obstruction. An extension to two or
-more matrix components must preserve every component and cover the complete
-integer family. The maintained nonsplit source certificate is the finite
-input; the separate vector-degree search is not used here. This written
-frontier has no independent mathematical review or Lean formalization.
+Next question: does the same cyclic-cube bound, combined with exact complex
+rank-profile, Koszul and cost screens, exclude every strict-improving
+two-matrix target
 
-Exact continuation: the earlier screens leave M(9,9,11) plus 11,12,13
-scalars. A separate full nonsplit source cube certificate has upper bound
-1012332, while those joint cubes have exact slice ranks 1089242,1119285,
-1149886. The source class count, target direct-sum expansion, conditional
-controls and complete frontier replay are implemented. The final
-improving survivor list is empty in the maintained one-copy complex
-coefficient-one coordinate/potential class. This does not exclude
-arbitrary complex maps, other target families or higher source powers.
+    U = M(a1,b1,c1) direct_sum M(a2,b2,c2) direct_sum r M1
 
-The separate source verifier replays the complex idempotents and original
-F4 coefficients. Six focused tests and current metadata/full regression
-are being finalized before publication. No exponent improvement.
+with all three leg dimensions at most 120? For each ordered component triple
+(i,j,k), cyclic tensoring gives a rectangular matrix multiplication tensor
+with dimensions `(a_i*b_j*c_k, b_i*c_j*a_k, c_i*a_j*b_k)`. Gowers additivity
+therefore gives an exact integer target-cube slice-rank sum over all
+component triples. Derive that sum, build complete exact screens for the
+integer family, and keep the coefficient-one good-reduction limitation
+explicit. Do not infer that this covers more than two matrix components
+unless the complete family is actually enumerated.
