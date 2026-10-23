@@ -1,5 +1,15 @@
 # Research directions
 
+The [diagonal-polynomial block theorem](../research/ai/2026-10-23-diagonal-biform-ranks/proof.md)
+now computes single-source-slice ranks for f(xz) from d explicit
+Toeplitz ranks, and completely resolves the quadratic case over every
+field. The next independent question is simultaneous rank loss among
+the central Toeplitz blocks at degree>=3. Such single-slice information
+must not be confused with a full matrix-tensor degeneration or an
+exponent bound. The binomial and arbitrary-biform workers retain their
+separate question ownership.
+
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

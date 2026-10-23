@@ -1,5 +1,22 @@
 # Research status
 
+## Exact diagonal biform block reduction and quadratic ranks
+
+The [diagonal-polynomial source calculation](research/ai/2026-10-23-diagonal-biform-ranks/proof.md)
+permutes each R_a(f(xz)) into independent conserved-index blocks. For
+nonzero polynomial endpoints and degree d<a, its exact rank over every
+field is a^2 plus the ranks of d explicit a-by-a Toeplitz matrices.
+For a>=3 and a quadratic c0+c1*xz+c2*x^2*z^2 with c0*c2 nonzero, the
+rank is a^2+2a or a^2+2a-1 according to a determinant recurrence.
+The coefficient-one polynomial drops one rank exactly at a=2 mod 3 in
+every characteristic. Claim IDs AI-DIAGONAL-BIFORM-BLOCKS-001 and
+AI-DIAGONAL-QUADRATIC-RANK-002 are written and unreviewed. Independent
+finite replay passes 312 block identities and 112 full literal source
+matrices over five prime fields, plus 144 quadratic, 5,016 triangular
+and 290 recurrence cases. No new full tensor target or exponent follows.
+The next scoped question is simultaneous Toeplitz defects at degree>=3.
+
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

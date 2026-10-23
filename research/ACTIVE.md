@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+
+The October 23 diagonal-biform continuation is in
+[ai/2026-10-23-diagonal-biform-ranks/QUESTION.md](ai/2026-10-23-diagonal-biform-ranks/QUESTION.md).
+An elementary conserved-index decomposition proves that an individual
+R_a(f(xz)) has rank a^2 plus d central Toeplitz ranks. A complete
+quadratic criterion gives ranks a^2+2a or a^2+2a-1 over every field,
+with the coefficient-one deficit exactly when a=2 mod 3. Exact finite
+replay passes 312 block formula instances, 112 literal full matrices
+and the saved controls. The claim is written, unreviewed and deliberately
+separate from PR171 and PR186. Next: simultaneous central Toeplitz rank
+defects for degree>=3; no matrix tensor or exponent is established.
+
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

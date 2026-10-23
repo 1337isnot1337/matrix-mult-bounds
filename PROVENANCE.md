@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The 2026-10-23 diagonal-biform rank package is owner-directed OpenAI
+Codex work. The literal coefficient convention is pinned to the archived
+cyclic-source note, and the older arbitrary-biform gap retains its own
+credit. Concurrent PR171 classifies two-monomial blocks and PR186 pursues
+an arbitrary-biform lower gap; neither proof is imported. The conserved-
+index decomposition, all-degree Toeplitz reduction, quadratic determinant
+recurrence and characteristic-sensitive rank identity are local
+calculations. Finite replay is separated from the written all-field proof.
+There is no independent mathematical review, historical priority claim,
+formalization, complete tensor degeneration or exponent gain.
+
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
