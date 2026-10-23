@@ -73,11 +73,25 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - name: Install the pinned Lean toolchain manager
+        shell: bash
+        run: |
+          installer_dir="$RUNNER_TEMP/scalar-profile-elan-installer"
+          mkdir -p "$installer_dir"
+          curl --fail --location --retry 3 \
+            https://github.com/leanprover/elan/releases/download/v4.2.4/elan-x86_64-unknown-linux-gnu.tar.gz \
+            --output "$installer_dir/elan.tar.gz"
+          echo "42b94d4244e8353142c456ec0e4ca6528fd898a6c604d4059f494e706e431f63  $installer_dir/elan.tar.gz" | sha256sum --check
+          tar -xzf "$installer_dir/elan.tar.gz" -C "$installer_dir"
+          "$installer_dir/elan-init" -y --no-modify-path --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
       - name: Build the Lean formalization
-        uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9 # v1.5.0
-        with:
-          lake-package-directory: formal/scalar-profile
-          use-mathlib-cache: true
+        working-directory: formal/scalar-profile
+        shell: bash
+        run: |
+          lean --version
+          lake exe cache get
+          lake build
 
   ci:
     # Keep this name stable: the main-branch ruleset requires this check.
