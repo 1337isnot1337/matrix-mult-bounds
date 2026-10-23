@@ -84,7 +84,15 @@ class AsymmetricBoundaryTests(unittest.TestCase):
         self.assertEqual(self.actual, self.frozen)
         for entry in json.loads((PACKAGE/'sources.json').read_text())['local_dependencies']:
             self.assertEqual(hashlib.sha256((ROOT/entry['path']).read_bytes()).hexdigest(), entry['sha256'])
-        self.assertEqual(gzip.compress(gzip.decompress(self.payload), mtime=0), self.payload)
+        # Python 3.11/3.12 can use zlib's OS byte, while 3.13+ writes 255.
+        # The saved artifact is pinned separately; compare the portable payload.
+        raw = gzip.decompress(self.payload)
+        self.assertEqual(self.payload[4:8], b'\0\0\0\0')
+        self.assertEqual(raw, (json.dumps(self.frozen, sort_keys=True,
+            separators=(',', ':'))+'\n').encode())
+        manifest = json.loads((PACKAGE/'manifest.json').read_text())
+        key = 'results/asymmetric-boundary-2026-10-23/certificates.json.gz'
+        self.assertEqual(hashlib.sha256(self.payload).hexdigest(), manifest['sha256'][key])
 
     def test_auxiliary_split_every_coefficient_and_exact_product_kernel(self):
         record = self.frozen['split_obstruction']
