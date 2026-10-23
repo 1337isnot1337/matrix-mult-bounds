@@ -1,0 +1,919 @@
+{
+  "schema": "mixed-leg-discovery-provenance-v1",
+  "scope": "Numerical discovery and rationalization provenance only; no optimum, complete search, or cover claim.",
+  "software": "SciPy 1.17.0 scipy.optimize.milp using HiGHS",
+  "original_export_sha256": {
+    "mixed-long-leg-five-frontier.json": "40504ea556ba9417703dd00c9b7e1118bd70deb48ca4346ebf939d296e642915",
+    "mixed-long-leg-five-small-weights.json": "4d342df877e2e7f763903d01ba494e35d25efdd6161c95b5db4814c68003c223",
+    "mixed-long-leg-five-fixed-polish.json": "8c6c81269af4615dbadd436e9fd36da2a2bb8b7b74dc6d2d052777c9af2ab9de"
+  },
+  "continuous_weight_stage": {
+    "discovery_only": true,
+    "basis": "five",
+    "bound": 20,
+    "targets": {
+      "u_deleted_weight": 0,
+      "w_deleted_weight": 5
+    },
+    "candidate_counters": {
+      "0_trace_zero": 1234,
+      "0_nilpotent": 669,
+      "0_zero_cycle_survivors": 145,
+      "0_individual_lp_survivors": 145,
+      "2_trace_zero": 768,
+      "2_nilpotent": 372,
+      "2_zero_cycle_survivors": 80,
+      "2_individual_lp_survivors": 80,
+      "pair_support_cycle_cuts": 1225
+    },
+    "seconds": 55.02305291899984,
+    "solver_status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "basis_matrices": [
+      [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-1",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "weights": [
+      [
+        0,
+        1000000,
+        7333333,
+        20000000
+      ],
+      [
+        0,
+        2000000,
+        7333333,
+        7333333,
+        1000000
+      ],
+      [
+        0,
+        0,
+        -4333333,
+        -4333333,
+        2000000
+      ]
+    ],
+    "chosen": [
+      {
+        "leg": 0,
+        "i": 16,
+        "j": 54,
+        "coefficient": "1",
+        "minimum_valuations": [
+          0,
+          -6333333,
+          7333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 26,
+        "j": 13,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          0,
+          1000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 30,
+        "j": 12,
+        "coefficient": "1",
+        "minimum_valuations": [
+          1000000,
+          -1000000,
+          1000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 32,
+        "j": 13,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          0,
+          1000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 47,
+        "j": 52,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          1000000,
+          -11666666,
+          20000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 51,
+        "j": 64,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -7333333,
+          -11666666,
+          20000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 55,
+        "j": 21,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -18000000,
+          -5333333,
+          24333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 60,
+        "j": 54,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          2000000,
+          -7333333,
+          7333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 63,
+        "j": 34,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -1000000,
+          -5333333,
+          7333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 73,
+        "j": 52,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -5333333,
+          -11666666,
+          24333333
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 12,
+        "j": 8,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          1000000,
+          0
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 13,
+        "j": 8,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -1000000,
+          2000000,
+          0
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 24,
+        "j": 26,
+        "coefficient": "1",
+        "minimum_valuations": [
+          0,
+          -1000000,
+          4333333
+        ]
+      }
+    ],
+    "split_count": 13,
+    "deleted_U_weight": 34,
+    "deleted_W_weight": 12,
+    "removed_W_classes": [
+      12,
+      13,
+      24
+    ]
+  },
+  "rationalized_weights_stage": {
+    "discovery_only": true,
+    "basis": "five",
+    "bound": 20,
+    "targets": {
+      "u_deleted_weight": 0,
+      "w_deleted_weight": 5
+    },
+    "candidate_counters": {
+      "0_trace_zero": 1234,
+      "0_nilpotent": 669,
+      "0_zero_cycle_survivors": 145,
+      "0_individual_lp_survivors": 145,
+      "2_trace_zero": 768,
+      "2_nilpotent": 372,
+      "2_zero_cycle_survivors": 80,
+      "2_individual_lp_survivors": 80,
+      "pair_support_cycle_cuts": 1225
+    },
+    "seconds": 55.02305291899984,
+    "solver_status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "basis_matrices": [
+      [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-1",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "weights": [
+      [
+        0,
+        3,
+        22,
+        60
+      ],
+      [
+        0,
+        6,
+        22,
+        22,
+        3
+      ],
+      [
+        0,
+        0,
+        -13,
+        -13,
+        6
+      ]
+    ],
+    "chosen": [
+      {
+        "leg": 0,
+        "i": 16,
+        "j": 54,
+        "coefficient": "1",
+        "minimum_valuations": [
+          0,
+          -6333333,
+          7333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 26,
+        "j": 13,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          0,
+          1000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 30,
+        "j": 12,
+        "coefficient": "1",
+        "minimum_valuations": [
+          1000000,
+          -1000000,
+          1000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 32,
+        "j": 13,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          0,
+          1000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 47,
+        "j": 52,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          1000000,
+          -11666666,
+          20000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 51,
+        "j": 64,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -7333333,
+          -11666666,
+          20000000
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 55,
+        "j": 21,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -18000000,
+          -5333333,
+          24333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 60,
+        "j": 54,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          2000000,
+          -7333333,
+          7333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 63,
+        "j": 34,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -1000000,
+          -5333333,
+          7333333
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 73,
+        "j": 52,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -5333333,
+          -11666666,
+          24333333
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 12,
+        "j": 8,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          1000000,
+          0
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 13,
+        "j": 8,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -1000000,
+          2000000,
+          0
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 24,
+        "j": 26,
+        "coefficient": "1",
+        "minimum_valuations": [
+          0,
+          -1000000,
+          4333333
+        ]
+      }
+    ],
+    "split_count": 13,
+    "deleted_U_weight": 34,
+    "deleted_W_weight": 12,
+    "removed_W_classes": [
+      12,
+      13,
+      24
+    ],
+    "inherited_valuation_notice": "The chosen[*].minimum_valuations fields were copied from the earlier continuous-weight run and were not recomputed for this stage's displayed small weights. They are discovery history only. Recomputed exact minima for the accepted batch are in certificate.json and the fixed_weight_binary_polish record."
+  },
+  "fixed_weight_binary_polish": {
+    "discovery_only": true,
+    "basis": "five",
+    "bound": 60,
+    "targets": {
+      "u_deleted_weight": 0,
+      "w_deleted_weight": 5
+    },
+    "candidate_counters": {
+      "0_trace_zero": 1234,
+      "0_nilpotent": 669,
+      "0_zero_cycle_survivors": 145,
+      "0_individual_lp_survivors": 145,
+      "2_trace_zero": 768,
+      "2_nilpotent": 372,
+      "2_zero_cycle_survivors": 80,
+      "2_individual_lp_survivors": 80,
+      "pair_support_cycle_cuts": 1225
+    },
+    "seconds": 0.05759187700004986,
+    "solver_status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "basis_matrices": [
+      [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-1",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "weights": [
+      [
+        0,
+        3,
+        22,
+        60
+      ],
+      [
+        0,
+        6,
+        22,
+        22,
+        3
+      ],
+      [
+        0,
+        0,
+        -13,
+        -13,
+        6
+      ]
+    ],
+    "chosen": [
+      {
+        "leg": 0,
+        "i": 16,
+        "j": 3,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          -19,
+          22
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 24,
+        "j": 12,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          3,
+          -3,
+          3
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 26,
+        "j": 13,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 30,
+        "j": 12,
+        "coefficient": "1",
+        "minimum_valuations": [
+          3,
+          -3,
+          3
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 32,
+        "j": 13,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 51,
+        "j": 64,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -22,
+          -35,
+          60
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 52,
+        "j": 47,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          3,
+          -35,
+          60
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 55,
+        "j": 1,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -54,
+          -16,
+          73
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 60,
+        "j": 54,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          6,
+          -22,
+          22
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 63,
+        "j": 34,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -3,
+          -16,
+          22
+        ]
+      },
+      {
+        "leg": 0,
+        "i": 73,
+        "j": 47,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -16,
+          -35,
+          73
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 12,
+        "j": 8,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "leg": 2,
+        "i": 13,
+        "j": 8,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -3,
+          6,
+          0
+        ]
+      }
+    ],
+    "split_count": 13,
+    "deleted_U_weight": 37,
+    "deleted_W_weight": 8,
+    "removed_W_classes": [
+      12,
+      13
+    ]
+  },
+  "static_W_weight_discovery": {
+    "method": "Numerical fractional-cover LP followed by small integer weight extraction",
+    "acceptance": "Complete exact enumeration of all 367290 four-subsets in the maintained verifier",
+    "original_exact_export_sha256": "dcc0423349a5a914969bab3a3afc2970cfda9c47d36903f9942de443accc54ab",
+    "no_float_acceptance": true
+  },
+  "accepted_certificate": "certificate.json",
+  "accepted_static_W_certificate": "w_obstruction.json",
+  "search_optimum_claimed": false
+}

@@ -1,0 +1,84 @@
+{
+  "claim_id": "AI-EXTERNAL-SIX-SPLIT-MOBILE-009",
+  "source_sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+  "replacements": [
+    [
+      0,
+      18,
+      -1
+    ],
+    [
+      17,
+      8,
+      1
+    ],
+    [
+      48,
+      2,
+      -1
+    ],
+    [
+      56,
+      22,
+      -1
+    ],
+    [
+      43,
+      59,
+      -1
+    ],
+    [
+      47,
+      73,
+      1
+    ]
+  ],
+  "cross_component_disjointness_checks": 3978,
+  "positive_weight_fixed_span_rank": 20,
+  "saturated_fixed_sets_have_rank_four": true,
+  "fixed_weight_total": 144,
+  "fixed_weight_cap": 16,
+  "all_saturated_rational_four_flats": 21649,
+  "mobile_components": [
+    [
+      8,
+      17
+    ],
+    [
+      43,
+      58,
+      59
+    ]
+  ],
+  "mobile_W_flattening_ranks": [
+    2,
+    2
+  ],
+  "allowed_intersection_lines": [
+    {
+      "spanning_term": 8,
+      "missing_basis_term": 17
+    },
+    {
+      "spanning_term": 58,
+      "missing_basis_term": 43
+    }
+  ],
+  "possible_intersection_span_dimensions": [
+    1,
+    1
+  ],
+  "all_finite_standard_flips_full_W_nine_cover_excluded": true,
+  "full_W_nine_cover_after_minimum_term_component_refactorizations_excluded": true,
+  "termwise_Q64_grid_excluded_in_specified_alignment": true,
+  "fixed_47_direction_cover_remains_valid": true,
+  "stored_four_subsets": 178365,
+  "exhaustive_enumeration_rerun_by_this_command": true,
+  "field": "any characteristic-zero extension of the rational numbers",
+  "grid_alignment": "the 25-dimensional target leg maps to the first source leg; W is on a long leg",
+  "general_Q64_maps_excluded": false,
+  "further_singular_degenerations_excluded": false,
+  "other_split_seeds_excluded": false,
+  "improves_omega": false,
+  "proof_status": "written-unreviewed"
+}

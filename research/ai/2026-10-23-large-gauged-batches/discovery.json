@@ -1,0 +1,517 @@
+{
+  "scope": "Numerical discovery provenance only; no optimality or completeness claim.",
+  "software": "SciPy 1.17.0 scipy.optimize.milp using HiGHS",
+  "ten": {
+    "discovery_only": true,
+    "basis": "four",
+    "bound": 20,
+    "candidate_count": 669,
+    "zero_cycle_survivors": 209,
+    "seconds": 40.032684075999896,
+    "solver_status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "mip_gap": 2.0,
+    "weights": [
+      [
+        0,
+        -20,
+        19,
+        2
+      ],
+      [
+        0,
+        -12,
+        0,
+        -13,
+        1
+      ],
+      [
+        0,
+        0,
+        -5,
+        0,
+        0
+      ]
+    ],
+    "chosen": [
+      {
+        "candidate": 314,
+        "i": 36,
+        "j": 75,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -2,
+          12,
+          2
+        ]
+      },
+      {
+        "candidate": 365,
+        "i": 46,
+        "j": 44,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -14,
+          13,
+          2
+        ]
+      },
+      {
+        "candidate": 372,
+        "i": 47,
+        "j": 38,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -18,
+          -5,
+          24
+        ]
+      },
+      {
+        "candidate": 378,
+        "i": 48,
+        "j": 2,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -18,
+          -5,
+          24
+        ]
+      },
+      {
+        "candidate": 415,
+        "i": 51,
+        "j": 55,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -18,
+          0,
+          19
+        ]
+      },
+      {
+        "candidate": 472,
+        "i": 57,
+        "j": 16,
+        "coefficient": "1",
+        "minimum_valuations": [
+          1,
+          -5,
+          5
+        ]
+      },
+      {
+        "candidate": 530,
+        "i": 61,
+        "j": 75,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -12,
+          12,
+          2
+        ]
+      },
+      {
+        "candidate": 543,
+        "i": 62,
+        "j": 56,
+        "coefficient": "1",
+        "minimum_valuations": [
+          0,
+          -1,
+          2
+        ]
+      },
+      {
+        "candidate": 626,
+        "i": 70,
+        "j": 5,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -31,
+          13,
+          19
+        ]
+      },
+      {
+        "candidate": 645,
+        "i": 73,
+        "j": 38,
+        "coefficient": "1",
+        "minimum_valuations": [
+          -18,
+          0,
+          19
+        ]
+      }
+    ],
+    "replacement_count": 10,
+    "basis_matrices": [
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "-1",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ]
+    ]
+  },
+  "eleven": {
+    "discovery_only": true,
+    "basis": "five",
+    "bound": 20,
+    "candidate_count": 669,
+    "zero_cycle_survivors": 145,
+    "seconds": 40.01874818100032,
+    "solver_status": 1,
+    "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+    "mip_gap": 1.6249999999999996,
+    "weights": [
+      [
+        0,
+        1,
+        3,
+        11
+      ],
+      [
+        0,
+        2,
+        4,
+        4,
+        1
+      ],
+      [
+        0,
+        14,
+        13,
+        13,
+        15
+      ]
+    ],
+    "chosen": [
+      {
+        "candidate": 38,
+        "i": 12,
+        "j": 24,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          1,
+          14,
+          -14
+        ]
+      },
+      {
+        "candidate": 53,
+        "i": 13,
+        "j": 32,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          0,
+          15,
+          -14
+        ]
+      },
+      {
+        "candidate": 85,
+        "i": 16,
+        "j": 3,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          1,
+          11,
+          -11
+        ]
+      },
+      {
+        "candidate": 207,
+        "i": 26,
+        "j": 32,
+        "coefficient": "1",
+        "minimum_valuations": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "candidate": 260,
+        "i": 30,
+        "j": 24,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          1,
+          13,
+          -13
+        ]
+      },
+      {
+        "candidate": 374,
+        "i": 47,
+        "j": 52,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          1,
+          9,
+          -3
+        ]
+      },
+      {
+        "candidate": 416,
+        "i": 51,
+        "j": 64,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -3,
+          -4,
+          11
+        ]
+      },
+      {
+        "candidate": 447,
+        "i": 55,
+        "j": 1,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -9,
+          12,
+          -2
+        ]
+      },
+      {
+        "candidate": 516,
+        "i": 60,
+        "j": 54,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          2,
+          -4,
+          3
+        ]
+      },
+      {
+        "candidate": 550,
+        "i": 63,
+        "j": 34,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -1,
+          -1,
+          3
+        ]
+      },
+      {
+        "candidate": 648,
+        "i": 73,
+        "j": 52,
+        "coefficient": "-1",
+        "minimum_valuations": [
+          -1,
+          9,
+          -2
+        ]
+      }
+    ],
+    "replacement_count": 11,
+    "basis_matrices": [
+      [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-1",
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "polish": {
+      "positive_candidates": 30,
+      "deleted_U_weight": 37,
+      "solver_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    }
+  }
+}

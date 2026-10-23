@@ -1,0 +1,23 @@
+{
+  "external_seed": {
+    "path": "research/ai/2026-10-21-external-grid-seed/factors.json",
+    "sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "attribution": "Fawzi et al., AlphaTensor, Nature (2022), externally attributed integer M(4,5,5) rank-76 algorithm",
+    "conversion_commit": "b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+    "license": "The existing external-grid-seed/UPSTREAM_LICENSE.txt applies to the conversion data; no project license is changed."
+  },
+  "physical_bases": {
+    "path": "research/ai/2026-10-23-flip-escape/split_certificate.json",
+    "sha256": "a8f3dc9f8e3cd2ce1ef4a581dee01985e47a52077227260b48a1832e0fe79c08",
+    "attribution": "Prior local four-split witness; reused unchanged."
+  },
+  "external_method": {
+    "title": "Fast and Stable Arbitrary Precision Approximate Matrix Multiplication",
+    "version": "arXiv:2610.13905v1, October 9, 2026",
+    "url": "https://arxiv.org/html/2610.13905v1",
+    "parts": "Theorems 2.1 and 2.2 and Section 2.3, physical stabilizer and nilpotent-factor deletion viewpoint",
+    "dependency": "Viewpoint and attribution; the displayed six-term identity and gauge argument are checked directly."
+  },
+  "local_work": "Owner-directed AI selection of six replacements, positive tensor valuation certificate, explicit factor gauges and full exact Laurent replay. No historical priority or independent review claim.",
+  "improves_omega": false
+}
