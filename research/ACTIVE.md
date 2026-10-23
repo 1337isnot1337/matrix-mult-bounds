@@ -1,5 +1,12 @@
 # Integrated research coordination
 
+The unit-image rank-gap continuation studies
+`ai/2026-10-23-unit-image-rank-gap/QUESTION.md`, from main `1c04903` on
+`research/unit-image-rank-gap-20261023`. It tests the existing below-rank32
+source classification as a replacement for the partial-unit theorem's
+row-kernel dimension count, with proposed retained rank107. The proof
+and controls are in progress; no new exclusion is registered yet.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument
