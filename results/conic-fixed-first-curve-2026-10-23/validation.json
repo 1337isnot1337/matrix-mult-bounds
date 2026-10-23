@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "focused_test_count": 6,
+  "focused_test_seconds": 62.592,
+  "focused_run": "Separate audit worker in the same generating session",
+  "receipt_note": "The producer run also completed exit0, but its log was compressed before the final case finished. That partial log is retained; the complete receipt above is from the audit worker run. This is not independent mathematical review.",
+  "environment": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "local_environment": "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps"
+  },
+  "commands": [
+    "python research/ai/2026-10-23-conic-fixed-first-curve/construct.py results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json",
+    "python research/ai/2026-10-23-conic-fixed-first-curve/verify.py results/conic-fixed-first-curve-2026-10-23/polynomial-curve.json --output results/conic-fixed-first-curve-2026-10-23/verification.json",
+    "python -m unittest discover -s tests -p test_conic_fixed_first_curve.py -v",
+    "git diff --check"
+  ],
+  "coverage": [
+    "Complete source product, every coefficient t^0 through t^6",
+    "Literal equality of both full constant and first coefficients to PR107",
+    "Unit leading minors 1,1,-1",
+    "Formula regeneration, altered boundary first velocity and higher coefficient controls",
+    "Complete-degree and parameter-denominator controls",
+    "Exact source byte pins"
+  ],
+  "same_session_audit": [
+    "Separate contraction loop accepted complete orders0..6 without calling constructor or shared contract helper",
+    "Both complete constant and first maps match PR107; second nonboundary coefficients also match",
+    "Moving-root identity and parameter specialization checked algebraically"
+  ],
+  "log": "results/conic-fixed-first-curve-2026-10-23/focused-tests.log.gz",
+  "partial_producer_log": "results/conic-fixed-first-curve-2026-10-23/focused-tests-partial.log.gz",
+  "full_repository_regression": "Integration gate, not claimed in this focused report",
+  "independent_mathematical_review": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}
