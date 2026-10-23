@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The partial-frame continuation studies
+`ai/2026-10-23-partial-regular-frames/QUESTION.md` on
+`research/partial-regular-frames-20261023`. Its written proof allows
+poles in the unselected long-map and unit coefficients, provided two
+109-column regular frames survive. A new column-contraction dimension
+bound forces the last long map regular. All four strict margins are
+positive at109 and the two dimension margins become equality at108.
+Exact finite controls pass; regression and integration are pending.
+The frames are hypotheses, not a general degeneration classification.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument

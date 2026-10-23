@@ -1,5 +1,20 @@
 # Research status
 
+## Partial regular frames with polar map coefficients
+
+The [partial-frame proof](research/ai/2026-10-23-partial-regular-frames/proof.md)
+extends the regular-unit-image argument. For A4 to M(10,10,11), it is
+enough that 109 selected columns of C and of their source-unit image
+are regular with rank109 limits. All other C and unit coefficients may
+have poles. A unit-free version uses independent partial right and left
+frames for the long maps. The argument forces B, then F, then C regular
+using all three source contraction minima, and applies the existing
+ordinary rank contradiction. Claims `AI-PARTIAL-FRAME-REGULARITY-001`
+and `AI-A4-PARTIAL-FRAME-EXCLUSION-002` are written and unreviewed.
+Exact finite matrix controls pass. Such frames are hypotheses; their
+existence in arbitrary degenerations is unproved, and rank108 remains
+outside the strict dimension argument. No exponent improvement.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

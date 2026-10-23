@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-partial-regular-frames` package is owner-directed OpenAI
+Codex work. It retains the exact predecessor partial-unit-image Laurent
+and projection lemmas, the original cyclic source minimum contraction
+ranks and the ordinary A4 obstruction. The new column-contraction step
+forces the remaining Laurent long map regular; the partial-frame
+formulation permits polar unselected long-map and unit coefficients.
+No external theorem is added. The hypotheses, strict rank margins and
+rank108 boundary are explicit. The proof is written and unreviewed;
+finite exact examples are not independent review, formalization, a
+matrix construction or an exponent improvement.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
