@@ -2157,6 +2157,11 @@ cones, 216 small-minimum tail certificates and 37 proved residual cases
 support the analytic proof. It is written and unreviewed. The sharpness
 statement concerns `U`, not the entropy optimum or the exponent.
 
+A first-party [Codex audit](research/reviews/unequal-entropy-proof-review-2026-10-23.md)
+found no gap in the all-size certificate proof. The claim remains unreviewed
+pending independent human review; this audit does not change the theorem scope
+or exponent status.
+
 ## Exact finite-group construction campaign
 
 [Research note](research/ai/2026-10-20-group-potentials/research_note.md) |
