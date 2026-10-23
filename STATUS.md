@@ -137,14 +137,46 @@ lifts and all-order existence for the normal class, with their distinct
 lower-coefficient conditions. The full matrix target remains open.
 No smaller exponent is established.
 
-## Every balanced A4 leading-rank pair sums to at most 136
+
+## Total balanced A4 leading rank is at most 202
+
+The [new target refinement](research/ai/2026-10-23-leading-rank202/proof.md)
+proves a+b+c<=202 for every complete complex Laurent A4 to M(10,10,11)
+presentation, with a on the short target leg and all three leading ranks
+individually scalar balanced. If a=100, then b,c<=28. The total leading
+target-rank loss is at least 118. Arbitrary complex leading kernels,
+higher coefficients and finite Laurent poles remain allowed.
+
+Two [sharp source theorems](research/ai/2026-10-23-rank92-rank96-spaces/proof.md)
+give maximum dimensions 68 below slice rank 92 and 72 below slice rank
+96. The explicit spaces attain ranks 91 and 95. Their unchanged proofs
+use complete layer-volume cases, the credited order-ideal reduction,
+and exact coherent minors and support covers. Combined with the retained
+every-pair bound of 136 and its all-order support inequalities, these
+caps give the total and full-short refinements above.
+
+Exact additional floor constraints exclude 817 further integer pairs
+and 62,478 further triples. Complete exported censuses cover all 20,706
+pairs and 1,050,804 triples in the established rank ranges. The unique
+screened total-202 endpoint is (70,66,66); it is not a target construction
+or a proof that the necessary target bound is sharp. Seven target tests
+and six source tests cover the censuses, strict thresholds, source pins,
+source minors, and scope controls.
+
+Claims AI-A4-RANK92-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK96-SHARP-LINEAR-SPACE-001, and
+AI-A4-LEADING-RANK-SUM202-001 remain written and unreviewed. Internal
+exact replays do not establish independent external review or
+formalization. No matrix target or improved exponent is established.
+
+## Retained every-pair 136 prerequisite
 
 The [all-pair theorem](research/ai/2026-10-23-all-pair-rank136/proof.md)
 forces a+b, a+c, and b+c to be at most 136 in every complete complex
 Laurent A4 to M(10,10,11) presentation, where a is the short-leg leading
-rank and each map is individually scalar balanced. Thus a+b+c<=204,
-and a=100 forces both long leading ranks to be at most 36. The combined
-leading rank loss is at least 320-204=116. The unselected map may have
+rank and each map is individually scalar balanced. Its earlier numerical
+consequences were a+b+c<=204 and, if a=100, b,c<=36; the refinement
+above strengthens them to 202 and 28. The unselected map may have
 arbitrary finite Laurent poles; arbitrary leading kernels and higher
 coefficients remain allowed.
 

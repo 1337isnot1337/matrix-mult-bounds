@@ -84,6 +84,23 @@ come from the same generating session; their separate implementation
 does not constitute independent mathematical review or formalization.
 No all-order mixed curve, full matrix target or exponent gain is claimed.
 
+
+The October 23 `rank92-rank96-spaces` and `leading-rank202` packages
+are owner-directed AI-derived work. The new source contribution proves
+sharp dimensions 68 and 72 at the strict slice-rank thresholds 92 and
+96, with explicit spaces of maximum ranks 91 and 95. Its canonical
+source, order-ideal reduction, coherent minors and earlier staircase
+construction retain their original credit and exact byte pins.
+The separate target application preserves the every-pair 136 and 144
+proofs, including their all-order saturation and PR151 compression
+attribution. It adds exact floor constraints, total balanced leading
+rank at most 202, and long leading ranks at most 28 when the short rank
+is 100. Complete integer censuses and separate internal replays support
+the arithmetic consequences. The numerical endpoint (70,66,66) does
+not construct a target or prove target sharpness. No independent external
+mathematical review, formalization, historical priority or exponent gain
+is claimed.
+
 The October 23 all-pair-rank144, rank84-rank88-spaces, and
 all-pair-rank136 packages are owner-directed OpenAI Codex work.
 Canonical source coefficients, the saturated-support argument,
