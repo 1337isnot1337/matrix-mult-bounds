@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-23",
+  "origin": "Owner-directed AI-derived research, written unreviewed",
+  "base_main": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "prior_local_sources": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+      "git_blob_sha": "6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+      "role": "existing source tensor, general rank lower bound"
+    },
+    {
+      "path": "research/ai/2026-10-21-balanced-puncture-gap/proof.md",
+      "git_blob_sha": "b58d4c50b78faca9d1c374bb5fa8ecee3803792f",
+      "role": "prior credited use of classical Kronecker form in a separate problem"
+    }
+  ],
+  "external": [
+    {
+      "authors": "F. De Teran, F. Dopico, J. M. Landsberg",
+      "title": "An explicit description of the irreducible components of the set of matrix pencils with bounded normal rank",
+      "version": "arXiv:1606.02574, 2016",
+      "url": "https://arxiv.org/abs/1606.02574",
+      "import": "classical Kronecker canonical form under strict equivalence"
+    },
+    {
+      "authors": "S. D. Karathanasi, N. P. Karampetakis",
+      "title": "On the Kronecker canonical form of a full row rank matrix pencil and applications",
+      "publication": "IMA Journal of Mathematical Control and Information 37 (2020), published 2019",
+      "doi": "10.1093/imamci/dnz031",
+      "import": "classical full-row-rank pencil Kronecker structure"
+    }
+  ],
+  "scope": "Only rank-two first-leg slices of Q(n,b); no imported matrix exponent theorem, no independent review"
+}
