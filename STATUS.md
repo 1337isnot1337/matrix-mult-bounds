@@ -1,5 +1,9 @@
 # Research status
 
+## Geometric diagonal-source ranks are exact in every characteristic
+
+The [geometric diagonal-rank proof](research/ai/2026-10-23-geometric-diagonal-ranks/proof.md) treats individual cyclic-source slices with coefficients in a nonzero geometric progression: for all fields, a>=2, 1<=d<a and c,lambda nonzero, rank R_a(c*sum_(k=0)^d(lambda*x*z)^k) = a^2+a*d-E, where q=a mod(d+1), E=0 at q=0 and E=(q-1)(d+1-q) otherwise. The theorem gives an explicit kernel basis and each of the d simultaneous Toeplitz defects; the maximum total defect is floor(d^2/4). This extends concurrent PR207's all-degree block reduction and quadratic example, with full credit retained. Claim AI-GEOMETRIC-DIAGONAL-RANKS-001 is **proof-written-unreviewed**. Exact finite-field and separate rational verifiers pass. It addresses individual source slice ranks only: no compatible three-leg maps, matrix target or exponent improvement.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
