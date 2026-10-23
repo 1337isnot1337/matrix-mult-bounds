@@ -1,5 +1,19 @@
 # Research status
 
+## All-size width-two support score obstruction
+
+The [width-two support proof](research/ai/2026-10-23-width-two-support/proof.md)
+bounds the historical matched-component score by `P*(2,b)=(4b+2)/3`
+for every b>=2 and every support subset of C(2,b) or C(b,2). This covers
+arbitrary diagonal weights and support deletions. An exact path deficit
+identity classifies equality in the first orientation; in the reversed
+orientation equality requires full support. The theorem concerns the
+existing convolution-recognition and single-slice fallback score. Stronger
+estimates on unrecognized sectors remain open. Claim
+`AI-WIDTH-TWO-SUPPORT-SCORE-001` is written and unreviewed. No spectral
+realization or smaller exponent is established. Validation is recorded
+in the package and its result directory.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

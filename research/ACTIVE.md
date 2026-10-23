@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The width-two support continuation is on
+`research/continuation-01a1697b`, with its precise question in
+`ai/2026-10-23-width-two-support/QUESTION.md`. An all-size graph argument
+bounds the historical score for every support subset of C(2,b) and C(b,2).
+The path deficit identity and two-hub equality classification are written
+and unreviewed. This is distinct from PR118's exact finite-search ranking.
+Do not rerun width-two weight searches with the same scoring rule to seek
+a violation; use input dimensions at least three or a stronger sector
+estimate. No improved exponent is claimed.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-width-two-support` package is owner-directed OpenAI Codex
+work. The historical scalar profile, support convention, convolution
+recognizer and fallback score retain their original credit and exact byte
+pins. PR118 separately owns exact finite-search ranking and replay. The
+all-size path deficit identity and the separate reversed-orientation proof
+are local continuations using elementary graph counting. No external
+theorem, historical priority, independent review, formalization or exponent
+improvement is claimed. The finite census supports the written proof;
+it does not supply its universal quantifier.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

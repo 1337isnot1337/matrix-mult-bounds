@@ -133,6 +133,12 @@ Deliver a dependency map with cited lemmas and a candidate constraint absent fro
 
 ## R6: Make search results stronger and reusable
 
+The [width-two support theorem](../research/ai/2026-10-23-width-two-support/proof.md)
+closes the historical score on every support subset when either input
+dimension is two, for all weights and both input roles. Its scope retains
+the single-slice fallback on unrecognized components. New score searches
+should use both input dimensions at least three or improve that fallback.
+
 Status: open. Replace floating best-case ordering in a maintained search copy with exact rational ordering. Add canonical support certificates and replayable witnesses. Preserve the historical code unchanged.
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
