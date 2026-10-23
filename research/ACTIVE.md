@@ -9,6 +9,17 @@ that range. Degrees `p>=a+1` remain the selected question. Modular source
 ranks are lower bounds, not complex source upper bounds. This is separate
 from active singular-unit, group-source and boundary work.
 
+The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
+is on `research/resolvent-minrank-six-20261023`. Its exact certificate
+settles the minimum matrix rank of the 112-dimensional limiting space
+from PR103 and removes its generic-compression qualification whenever
+the total rank-loss budget is at most five. Five focused tests pass,
+including literal-source reconstruction and certificate tampering.
+The next local question is whether a rank-six direction can satisfy the
+required double-corank-one alignment and the higher Laurent equations.
+Broader long-map results should be checked before using that question
+as a target-construction route. The written proof remains unreviewed.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over
