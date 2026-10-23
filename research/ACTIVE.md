@@ -357,11 +357,12 @@ correction is impossible while both long-leg coordinate maps stay fixed.
 Changing either long-leg map or the source family remains open.
 
 The [inner-index shift continuation](ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
-covers every fixed nonnegative integer pair `k_B,k_C` in
+covers every size-dependent pair `0<=k_B,k_C<n` in
 `B_(y,s)->b_(s-k_B*y,y)` and
 `C_(z,v)->c_(v,z-k_C*v)`. For arbitrary first-leg maps the correction
-flattening rank is at least `n^2-1-k_B*k_C` once `n>max(k_B,k_C)`, so
-each fixed pair has quadratic correction cost.
+flattening rank is at least `n^2-1-k_B*k_C`. A linear-cost correction
+would force both multipliers to be `n-O(1)`; this near-terminal pair is
+the remaining shift regime in this chart.
 
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.

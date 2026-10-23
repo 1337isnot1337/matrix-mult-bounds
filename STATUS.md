@@ -21,10 +21,10 @@ them to vanish. This proof remains unreviewed and does not cover changes to
 either long-leg map.
 
 The [inner-index shift family](research/ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
-allows fixed nonnegative integer shift multipliers `k_B,k_C` on the two
-long legs. For every first-leg map and `n>max(k_B,k_C)`, the correction
-flattening rank is at least `n^2-1-k_B*k_C`. For fixed multipliers this is
-quadratic in `n`.
+allows size-dependent multipliers `0<=k_B,k_C<n` on the two long legs.
+For every first-leg map the correction flattening rank is at least
+`n^2-1-k_B*k_C`. Linear correction cost would require both multipliers
+to be `n-O(1)`; the near-terminal regime remains open.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 

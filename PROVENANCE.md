@@ -910,11 +910,12 @@ legs stay fixed. The proof gives an all-size full-rank projected
 flattening, remains unreviewed, and does not cover changes to either
 long-leg map or improve the exponent.
 
-The `2026-10-23-q64-inner-shifted-coordinates` package treats every fixed
-nonnegative integer multiplier of the inner index on each long leg. For
-every first-leg map it proves rank at least `n^2-1-k_B*k_C` once
-`n>max(k_B,k_C)`. The argument and exact rational finite replay remain
-unreviewed and do not improve the exponent.
+The `2026-10-23-q64-inner-shifted-coordinates` package treats
+size-dependent inner-index multipliers `0<=k_B,k_C<n` on the two long
+legs. It proves rank at least `n^2-1-k_B*k_C` for every first-leg map and
+shows linear correction cost requires both shifts to be `n-O(1)`. The
+argument and exact rational finite replay remain unreviewed and do not
+improve the exponent.
 
 ## Nonsplit vector-degree finite continuation
 

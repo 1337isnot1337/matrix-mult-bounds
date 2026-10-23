@@ -29,10 +29,10 @@ Further work must change at least one long-leg map or use a different
 source family.
 
 The family `B_(y,s)->b_(s-k_B*y,y)` and
-`C_(z,v)->c_(v,z-k_C*v)` for fixed nonnegative integers `k_B,k_C` is
-also excluded for arbitrary first-leg maps, with correction flattening
-rank at least `n^2-1-k_B*k_C` once `n>max(k_B,k_C)`. Other changes to the
-long-leg maps remain construction questions.
+`C_(z,v)->c_(v,z-k_C*v)` for any size-dependent `0<=k_B,k_C<n` is also
+excluded for arbitrary first-leg maps up to rank at least
+`n^2-1-k_B*k_C`. Linear correction cost requires both shifts to be
+`n-O(1)`. Other changes to the long-leg maps remain construction questions.
 
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
