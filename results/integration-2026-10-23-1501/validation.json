@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "scope": "Complete combined integration snapshot of the listed component commits, before later additive packages. Later commits need their recorded focused validation and final-head hosted CI.",
+  "tested_commit": "94365c038b1311b1bb4c33726d78883a8c477cfb",
+  "tested_tree": "646b040daef030ee16dc3be70ab5a592f3b0ea41",
+  "components": [
+    {
+      "pr": 129,
+      "commit": "43cd6aa7ea9ab452af820c808c9dee6b510e0379"
+    },
+    {
+      "pr": 136,
+      "commit": "3c60a136e20b6e99ecff6ce91bd30cc5e689d075"
+    }
+  ],
+  "base_main": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "environment": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "started_utc": "2026-10-23T14:49:08.874699+00:00",
+  "completed_utc": "2026-10-23T15:01:06.127699+00:00",
+  "unittest": {
+    "discovered": 896,
+    "modules": 209,
+    "shard_counts": [
+      246,
+      215,
+      245,
+      190
+    ],
+    "passed": 896,
+    "skipped": 0,
+    "failed": 0,
+    "command": "python tools/test_shard.py --shard-index INDEX --shard-count 4; INDEX=0,1,2,3"
+  },
+  "historical_replay": {
+    "command": "python tools/replay.py",
+    "all_five_passed": true,
+    "protected_archive_bytes_unchanged_from_base_main": true,
+    "coverage": {
+      "profile_exact_grid_checks": 73856,
+      "product_filtration_exact_inequalities": 353664,
+      "binary_cases": 12976,
+      "ternary_cases": 209692,
+      "random_cases": 20000
+    }
+  },
+  "elapsed_seconds": 717.253,
+  "decompressed_log_sha256": {
+    "archive-replay.log.gz": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+    "tests-0.log.gz": "086e5f367f0cb33ef4c933829fc7235c21aa6d4e078939fc706c0537dff51f41",
+    "tests-1.log.gz": "c954100236bc3079fb2e69abf42620ef3b4d93a970e141ba228e61887e43cdff",
+    "tests-2.log.gz": "a083d65f9e08e6504e4fb7047ef4291d511c7681d0b033c4d71ef9faebd792ee",
+    "tests-3.log.gz": "2548ed408dafb13a08b459ffeacc5ae5e8fd1a3b070ee966b5a8a739ee94bf0d"
+  },
+  "independent_mathematical_review": false,
+  "exponent_improvement": false
+}
