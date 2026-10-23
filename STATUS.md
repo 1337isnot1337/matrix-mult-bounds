@@ -127,8 +127,11 @@ outer block, and an explicit rank-six witness proves sharpness. Thus every
 two-sided compression with total rank loss at most five is injective.
 At rank109 on both long maps, a lost direction must have rank six and obey
 the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
-is written and unreviewed. This refines the fixed-resolvent space from
-PR103; its narrow target application is superseded by the regular-long-map
+is written and unreviewed; a first-party Codex audit found no gap in Sections
+1--4, without changing its review status. See the
+[scope-pinned audit](research/reviews/resolvent-minrank-proof-review-2026-10-23.md).
+This refines the fixed-resolvent space from PR103; its narrow target application
+is superseded by the regular-long-map
 argument. General singular trajectories, all rank-six matrices and an
 improved exponent are not settled.
 
