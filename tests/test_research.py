@@ -125,14 +125,36 @@ class RepositoryTests(unittest.TestCase):
     def test_archive_manifest(self):
         self.assertEqual(len(replay.check_manifest()),10)
 
+    def assert_claim_evidence(self, claim):
+        allowed={'proof-written-unreviewed','derivation-unreviewed','conditional-implication','finite-experiment','lean-formalized-lemma'}
+        self.assertIn(claim['status'],allowed)
+        self.assertFalse(claim['improves_omega'])
+        evidence=ROOT/claim['evidence']
+        self.assertTrue(evidence.is_file())
+        if claim['status']=='lean-formalized-lemma':
+            self.assertIs(claim.get('lean_formalized'),True)
+            self.assertEqual(evidence.suffix,'.lean')
+
     def test_claim_ledger_status(self):
         claims=json.loads((ROOT/'research/claims.json').read_text())['claims']
         self.assertEqual(len(claims),len({c['id'] for c in claims}))
-        allowed={'proof-written-unreviewed','derivation-unreviewed','conditional-implication','finite-experiment'}
         for claim in claims:
-            self.assertIn(claim['status'],allowed)
-            self.assertFalse(claim['improves_omega'])
-            self.assertTrue((ROOT/claim['evidence']).is_file())
+            self.assert_claim_evidence(claim)
+
+    def test_formalized_claim_requires_lean_evidence(self):
+        claims=json.loads((ROOT/'research/claims.json').read_text())['claims']
+        claim=next(c for c in claims if c['id']=='AI-SCALAR-FINITE-SLOPE-001')
+        self.assert_claim_evidence(claim)
+        for update in ({'lean_formalized':False}, {'lean_formalized':1},
+                       {'evidence':'README.md'},
+                       {'evidence':'formal/scalar-profile/Missing.lean'},
+                       {'status':'unrecognized-status'}, {'improves_omega':True}):
+            with self.subTest(update=update), self.assertRaises(AssertionError):
+                self.assert_claim_evidence({**claim,**update})
+        missing_flag=dict(claim)
+        del missing_flag['lean_formalized']
+        with self.assertRaises(AssertionError):
+            self.assert_claim_evidence(missing_flag)
 
     def test_source_registry(self):
         sources=json.loads((ROOT/'references/sources.json').read_text())['sources']

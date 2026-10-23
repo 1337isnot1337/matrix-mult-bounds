@@ -64,11 +64,26 @@ jobs:
       - name: Replay all five archived experiments
         run: python tools/replay.py
 
+  lean:
+    name: Lean scalar-profile lemma
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out the tested revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build the Lean formalization
+        uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9 # v1.5.0
+        with:
+          lake-package-directory: formal/scalar-profile
+          use-mathlib-cache: true
+
   ci:
     # Keep this name stable: the main-branch ruleset requires this check.
     name: CI
     if: ${{ always() }}
-    needs: [tests, replay]
+    needs: [tests, replay, lean]
     runs-on: ubuntu-24.04
     timeout-minutes: 2
     permissions: {}
@@ -77,8 +92,9 @@ jobs:
         env:
           TESTS_RESULT: ${{ needs.tests.result }}
           REPLAY_RESULT: ${{ needs.replay.result }}
+          LEAN_RESULT: ${{ needs.lean.result }}
         run: |
-          if [ "$TESTS_RESULT" != "success" ] || [ "$REPLAY_RESULT" != "success" ]; then
-            echo "::error::Verification did not pass: tests=$TESTS_RESULT, replay=$REPLAY_RESULT"
+          if [ "$TESTS_RESULT" != "success" ] || [ "$REPLAY_RESULT" != "success" ] || [ "$LEAN_RESULT" != "success" ]; then
+            echo "::error::Verification did not pass: tests=$TESTS_RESULT, replay=$REPLAY_RESULT, lean=$LEAN_RESULT"
             exit 1
           fi
