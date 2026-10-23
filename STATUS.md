@@ -1,5 +1,19 @@
 # Research status
 
+## Sharp compression bound through total rank loss seven
+
+The [loss-seven continuation](research/ai/2026-10-23-resolvent-loss-seven/proof.md)
+proves that compression factors with total rank loss at most seven kill at
+most max(0,p+q-5) directions of the fixed-resolvent W, over every field.
+At total loss seven, integer factors of ranks109 and108 attain two lost
+directions and compressed dimension110. The proof uses the complete
+rank-six locus, the absent rank-seven stratum, classical projective
+intersection and scalar extension/descent. Claim
+`AI-RESOLVENT-LOSS-SEVEN-001` remains written and unreviewed. The finite
+full-space controls have dimensions112 and110 over F2 and F3. Total loss
+eight and arbitrary singular target constructions remain open; no smaller
+exponent is established.
+
 ## Complete fixed-resolvent rank-six locus and sharp critical compression
 
 The [rank-six continuation](research/ai/2026-10-23-resolvent-rank-six/proof.md)

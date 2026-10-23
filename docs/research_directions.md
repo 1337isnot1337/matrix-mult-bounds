@@ -7,9 +7,11 @@ now proves rank six sharply over every field. The
 [complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)
 is a 17-dimensional linear space with common six-dimensional image; rank
 seven is absent. Two rank109 compressions lose at most one direction over
-algebraically closed fields, sharply. The next structural question is the
-compression-kernel dimension at total rank-loss seven, where the same locus
-still controls every lost direction. Check broader long-map exclusions
+algebraically closed fields, sharply. The [loss-seven bound](../research/ai/2026-10-23-resolvent-loss-seven/proof.md)
+now leaves at most two kernel directions at total loss seven, sharply,
+and extends the bounds to every field. The next structural question is
+total loss eight, where rank-eight matrices outside the classified locus
+can enter the compression kernel. Check broader long-map exclusions
 before treating any aligned compression as a possible matrix target.
 
 ## Active paired construction: near-full width four

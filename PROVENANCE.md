@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-resolvent-loss-seven` package is owner-directed Codex
+work, reusing PR188's exact low-rank classification with immutable pins.
+The projective intersection theorem is external Stacks Project tag0B2R;
+the full-row-rank-space bound and Segre reduction are classical. The
+specific compression bound, all-field descent and integer sharpness
+factors are the local continuation. Finite full-source checks support
+the written proof and are not the universal theorem. No independent
+review, formalization, historical priority or exponent improvement is
+claimed.
+
 The `2026-10-23-resolvent-rank-six` continuation is owner-directed Codex
 work. It retains the fixed-resolvent, cyclic-source and source-unit credits
 of `AI-RESOLVENT-SHARP-MINRANK-001`, with immutable file hashes. The 26
