@@ -12,6 +12,18 @@ fourth-order compatibility allowing lower-jet freedoms. This is local
 rank-twelve incidence; no all-order lift or matrix-target construction
 follows.
 
+The partial-unit-image continuation studies
+`ai/2026-10-23-regular-unit-image/QUESTION.md` on
+`research/regular-unit-image-20261023`. The written all-order argument
+compresses to 109 independent unit-image directions and recovers the
+entire long map through varying left inverses. It replaces an invertible
+A4 unit by `rank(S(0) C(0))>=109`, including corank-one unit slices.
+Exact matrix controls, all849 local tests (three optional skips) and
+all five archive replays pass. Final-head hosted CI is pending;
+the proof remains unreviewed. Rank108 is an equality boundary of this
+method. Singular long-leg limits and polar units remain open; no general
+degeneration or exponent claim.
+
 ## Actual nonsplit finite covers: October 23 continuation
 
 Main and all open PRs checked at `d833eb0`. The owned
