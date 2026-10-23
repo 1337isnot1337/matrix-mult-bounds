@@ -1,5 +1,21 @@
 # Integrated research coordination
 
+The unbalanced ordinary frontier continuation is in
+`ai/2026-10-23-unbalanced-square-frontier/README.md`, branch
+`research/unbalanced-square-frontier-20261023` (PR117). The complete
+N<=1377 square-sum screen covers82 source formats and52310 dimensions;
+only A(8,9) and A(9,9) survive the adopted gates. The separate
+single-rectangular continuation (PR138) leaves only three A(8,9) formats
+and owns their stronger rank-two/rank-three parameter-image question.
+The existing general Hankel pencil and constant-scheme workers retain
+those proof scopes. No target maps or smaller exponent are supplied.
+
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument

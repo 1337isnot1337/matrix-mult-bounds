@@ -8,13 +8,25 @@ applies the existing written rank gates to all82 cyclic source formats
 every square partition. All70 formats with N<1152 are excluded for an
 improving ordinary square direct sum. The first necessary-test survivor
 is A(8,9), N=1152; only it and A(9,9) survive through1377. The simpler
-A(8,9) -> M30 target passes every implemented gate. Its exact integer
+A(8,9) -> M30 target passes every adopted square-block gate. Its exact integer
 score certificate would imply omega<=5621/2500=2.2484 if the missing maps
 were constructed. An independent item-first recurrence checks every
 saved dimension score. Claims `AI-UNBALANCED-SQUARE-FRONTIER-001` and
 `COND-UNBALANCED-M30-001` retain written-unreviewed and conditional
 status. Singular degenerations and rectangular direct sums are outside
 the exclusion. No target or smaller exponent is established.
+
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
 
 ## All-order A4 exclusion with a partial regular unit image
 
