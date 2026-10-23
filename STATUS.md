@@ -1,5 +1,18 @@
 # Research status
 
+## Whole-convolution recognition is complete under coordinate permutations
+
+The [additive-support proof](research/ai/2026-10-23-monomial-recognition/proof.md)
+shows that the archived monomial recognizer misses no whole convolution
+sector that independent coordinate permutations could recover. A monotone
+lattice path proves that the output cardinality and term count force the
+sorted-index sum rule. Claim `AI-ADDITIVE-SUPPORT-RECOGNITION-001` is written
+and unreviewed. Stronger proper restrictions, additional degenerations and
+general linear bases remain separate questions. The score shares its first
+input: already at dimensions2,3, swapping inputs changes13/14 to9/14.
+The accompanying ordered finite census is recorded only after completion.
+No all-weight obstruction or exponent improvement follows.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

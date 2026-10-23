@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-monomial-recognition` package is owner-directed OpenAI Codex
+work. The archived convolution support, first-input component partition,
+matching profile and sorted-index recognizer retain their original credit
+and are imported read-only with a byte pin. PR118 retains credit for its
+separate maintained exact-ranking search and distinguished input-axis
+correction; it is not an executable dependency. The monotone-path proof of
+complete coordinate recognition and ordered finite census are local
+continuations. No external theorem, historical priority, independent
+mathematical review, formalization or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

@@ -38,6 +38,13 @@ the stated restricted form of the permutations. All coefficients stay one,
 so the support identification is also an exact tensor identification over
 any field. QED.
 
+If r,s>=2, this also forces both transformed input sets to be arithmetic
+progressions with the same positive step. Indeed, the two grid vertices
+(i+1,j) and (i,j+1) have the same index in the sorted sumset, hence
+A_(i+1)-A_i=B_(j+1)-B_j for every valid i,j. The output progression has
+that step as well. Singleton inputs are excluded from this corollary;
+their other coordinates may have arbitrary gaps.
+
 The integer ordering is a property of the coordinate labels, not an ordering
 of the coefficient field. The same proof works for real additive labels.
 It does not apply to arbitrary nonadditive supports, repeated triples with

@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The R6 continuation on `research/monomial-recognition-19de7080` studies
+`ai/2026-10-23-monomial-recognition/proof.md`. Its monotone-path argument
+proves complete whole-convolution recognition under coordinate permutations
+for additive coefficient-one supports. Six focused tests include all63
+nonempty2-by3 supports against brute-force coordinate permutations, all511
+nonempty3-by3 supports against the archived recognizer, and an exact
+input-orientation counterexample. Both ordered finite alphabet censuses and
+the full regression/replay are being recorded. PR118's maintained exact
+ranking retains its separate ownership and credit. No exponent improvement.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
