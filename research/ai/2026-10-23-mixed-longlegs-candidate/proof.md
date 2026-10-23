@@ -5,8 +5,10 @@ and written deductions, with same-session cross-agent audits; no
 external independent mathematical review.
 
 The current conclusion is that every ordinary Koszul degree on all
-three legs passes for the frozen canonical endpoints. The construction
-question remains unresolved. Earlier verifier outputs are preserved as
+three legs passes for the frozen canonical endpoints. The singular-first-map construction
+question remains unresolved at this checkpoint. The separate
+[catalecticant note](catalecticant_chart.md) excludes every invertible
+normalized leading first-map chart by the universal comparison120<130. Earlier verifier outputs are preserved as
 checkpoint records; the higher-rank and source-theorem files complete
 their initial necessary-condition coverage.
 
@@ -55,8 +57,11 @@ literal tensors in the same three spaces.
 The source has tensor rank and border rank exactly 140: its C
 flattening has rank 140, and ten length-14 polynomial interpolation
 decompositions give the matching rank upper bound. Summing the target
-blocks' rank bounds gives 178. That last number is only a supplied upper
-bound; no rank additivity assertion is made.
+blocks' rank bounds gives 178. The separate [cactus-rank proof](cactus_rank.md)
+now proves that ordinary, smoothable and cactus rank all equal178 for
+the canonical target. Its low-rank-curve argument supplies the lower
+bound directly; no rank-additivity assertion is assumed. Border rank
+remains a separate question.
 
 ## 2. A strictly larger formal score
 
@@ -330,7 +335,9 @@ legs. Its only per-copy dimension solution is 2 Full(5,2)+Mid(5,2),
 which cannot produce the frozen target. It does not exclude maps that
 mix source copies. A separate necessary condition is target border
 rank 140, because the source has border rank 140 and the target is
-output-concise. No target border-rank proof is supplied here.
+output-concise. No target border-rank proof is supplied here. The separate
+[catalecticant note](catalecticant_chart.md) forces the first map to have
+a singular nonzero leading matrix after scalar normalization.
 
 The completed Koszul statements concern the unprojected tensors and
 the usual exterior flattenings in every degree on each leg. They do

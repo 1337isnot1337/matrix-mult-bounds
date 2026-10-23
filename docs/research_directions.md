@@ -1,5 +1,16 @@
 # Research directions
 
+## October 23: decide the singular first-map case geometrically
+
+For the [mixed candidate](../research/ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md),
+the exact rank178 theorem concerns cactus, smoothable and ordinary rank.
+It is not a border-rank obstruction. The separate catalecticant
+comparison120<130 excludes all invertible normalized first limits.
+Investigate the moving rational normal curve in the first projection
+of the source's rank-one third slices. A geometric normalization of
+that curve would reach the excluded chart; a construction must evade
+such a normalization. Do not repeat the completed Koszul census.
+
 ## October 23: construct or exclude the surviving mixed-output target
 
 The [canonical (5,100,140) candidate](../research/ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md)

@@ -1,5 +1,24 @@
 # Research status
 
+## Mixed target: exact rank178 and a first-map chart obstruction
+
+The [canonical mixed target](research/ai/2026-10-23-mixed-longlegs-candidate/cactus_rank.md)
+has ordinary, smoothable and cactus rank exactly178. A low-rank evaluation
+curve gives the lower bound and rational interpolation gives the upper
+bound. Independent first identifications still give cactus rank at
+least168. These are finite-scheme ranks; target border rank140 remains
+possible from this argument alone. A small canonical (2,3,3) control has
+border rank3 but cactus rank4 and prevents that distinction being lost.
+
+The [middle catalecticant](research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md)
+has source rank120 and target rank at least130 after every independent
+invertible first identification. Its covariance on the two long factors
+excludes every degeneration with an invertible scalar-normalized first
+limit, even when the long maps have poles and mix source copies. The
+remaining orbit-closure question requires singular first limits. These
+written proofs and exact controls have same-session audits, without
+external independent review or any matrix multiplication exponent gain.
+
 ## A mixed-output candidate survives every ordinary Koszul degree
 
 The [frozen candidate](research/ai/2026-10-23-mixed-longlegs-candidate/README.md)

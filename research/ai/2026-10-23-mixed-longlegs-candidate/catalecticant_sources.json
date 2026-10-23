@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "scope": "Source record for the additive catalecticant chart theorem; not a replacement source ledger.",
+  "external_dependency": {
+    "id": "PAR04",
+    "title": "On the maximal dimension of a completely entangled subspace for finite level quantum systems",
+    "authors": ["K. R. Parthasarathy"],
+    "arxiv": "quant-ph/0405077v1",
+    "version_date": "2004-05-14",
+    "url": "https://arxiv.org/pdf/quant-ph/0405077",
+    "primary_source_inspection": "Inspected the primary PDF including its v1 date, Proposition 1.4 and Theorem 1.5, PDF pages 5 and 6.",
+    "imported_statement": "For complex vector spaces of dimensions x,y, a linear subspace containing no nonzero product vector has dimension at most (x-1)(y-1). Equivalently, a linear map on their tensor product with no decomposable kernel has rank at least x+y-1.",
+    "hypotheses": "Finite-dimensional complex vector spaces; absence of all nonzero decomposable kernel vectors. The application needs no positivity or orthogonality assumption.",
+    "role": "Imported elementary Segre/projective-dimension bound, reproduced with attribution in Section 3 of catalecticant_chart.md."
+  },
+  "local_deductions": [
+    "The coordinating agent proposed the first-factor catalecticant and its canonical rank comparison.",
+    "The frontier agent verified literal ranks and proved the universal block minima using zero-free contractions and the imported Segre bound.",
+    "The coordinating and auditing agents checked the argument within the same generating session; this is not external independent review.",
+    "Only Laurent degenerations whose scalar-normalized first map has invertible leading coefficient are excluded. Singular leading first maps remain unresolved."
+  ],
+  "frozen_candidate_sha256": "c53abefde0cb5d5e2e816f96ae6c257ee843f59e6c28d13a6ae1994de9ab88f3",
+  "improves_omega": false
+}

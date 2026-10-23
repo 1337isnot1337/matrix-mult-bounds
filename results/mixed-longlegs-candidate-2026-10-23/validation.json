@@ -1,4 +1,6 @@
 {
+  "checkpoint_commit": "79b23815c68cef6c013d4ba54ae37d4d068ae712",
+  "hash_scope": "The file_sha256 values and 12-test coverage record the original public frontier checkpoint; current README, QUESTION and proof pointers may be updated by later additive checkpoints.",
   "date": "2026-10-23",
   "evidence_status": "Exact controls and written deductions; same-session cross-agent audit; no external independent review",
   "command": "python -m unittest discover -s tests -p 'test_mixed_longlegs_*.py' -v",

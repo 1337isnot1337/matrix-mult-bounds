@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The [geometric checkpoint](ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md)
+for the mixed candidate now proves canonical cactus, smoothable and
+ordinary rank178, and excludes every invertible normalized first-map
+limit through source/target catalecticant ranks120<130. The next target
+construction must use a singular leading first map; alternatively, prove
+that the source's moving rational normal curve forces a regular first
+chart. Preserve the distinction between border rank and finite-scheme
+ranks. Earlier ordinary Koszul and Schur screens remain correct.
+
 The [mixed-output checkpoint](ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md)
 fixes a score-improving canonical target of ten Full(5,10) copies in
 format (5,100,140). Every ordinary Koszul degree on all three legs now

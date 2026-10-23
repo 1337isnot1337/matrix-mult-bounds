@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The mixed candidate's additive cactus-rank and catalecticant checkpoint
+uses the finite-algebra scheme-span viewpoint discussed in JLP24 and
+JJ26, with their different hypotheses explicitly retained. The local
+curve lemma supplies its own rectangular proof. The elementary Segre
+kernel bound is credited to Parthasarathy (PAR04, Proposition1.4 and
+Theorem1.5); its universal catalecticant block applications and Laurent
+chart deduction were developed in this session. Exact interpolation and
+covariance controls supplement the proofs. Same-session audits are not
+external independent review, and no border-rank inference is drawn from
+the rank178 cactus certificate.
+
 The `2026-10-23-mixed-longlegs-candidate` package is owner-directed Codex
 research. AVZ26 supplies the formal operational potential; DO01 supplies
 the determinant theorem used by the preceding common-input rank proof;

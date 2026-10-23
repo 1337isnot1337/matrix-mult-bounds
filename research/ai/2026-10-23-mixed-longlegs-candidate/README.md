@@ -1,5 +1,20 @@
 # Mixed-orientation candidate with exact necessary screens
 
+## Geometric checkpoint
+
+The [cactus-rank proof](cactus_rank.md) gives ordinary, smoothable and
+cactus rank exactly 178 for the canonical target. It does not determine
+border rank. The [catalecticant proof](catalecticant_chart.md) compares
+source rank120 with target rank at least130 after every independent
+invertible first identification. It excludes any degeneration whose
+scalar-normalized first map has an invertible leading limit, allowing
+arbitrary poles and mixing on the long maps. Singular leading first maps
+remain the construction question at this checkpoint.
+
+The exact controls are additive; the discovery input and prior rank
+reports retain their bytes. The original validation manifest refers to
+public checkpoint `79b23815c68cef6c013d4ba54ae37d4d068ae712`.
+
 This package records the unresolved complex degeneration
 
 \[

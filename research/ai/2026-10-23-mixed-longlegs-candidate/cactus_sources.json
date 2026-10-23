@@ -1,0 +1,41 @@
+{
+  "inspection_date": "2026-10-23",
+  "scope": "Primary background for the separately proved local cactus-rank lemma; no border-rank or priority inference.",
+  "sources": [
+    {
+      "id": "JLP24",
+      "title": "Concise tensors of minimal border rank",
+      "authors": [
+        "Joachim Jelisiejew",
+        "J. M. Landsberg",
+        "Arpan Pal"
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/html/2205.05713v4",
+      "category": "tensor-invariant",
+      "inspection": "Primary version4, Proposition9.1 and the finite-algebra scheme-span argument.",
+      "version_note": "arXiv:2205.05713v4, August27,2024.",
+      "hypotheses": "The cited proposition treats the equal-dimension concise minimal-rank setting; those hypotheses are not asserted for the rectangular target.",
+      "annotation": "Background for scheme-span algebra. The local curve lemma proves its needed rectangular lower bound directly and does not infer border rank from cactus rank.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "JJ26",
+      "title": "Unrestrictions and concise secant varieties",
+      "authors": [
+        "Jakub Jagiełła",
+        "Joachim Jelisiejew"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2604.24879v1",
+      "category": "tensor-invariant",
+      "inspection": "Primary version1, Theorem4.10 and Corollary4.11, including the finite-algebra and regular-restriction hypotheses.",
+      "version_note": "arXiv:2604.24879v1, April27,2026; this record pins v1 rather than a later revision.",
+      "hypotheses": "Finite Segre schemes and their linear spans in the stated cactus apolarity setting; no general identification of cactus and border rank.",
+      "annotation": "Background for the local finite-algebra proof. The required functional extension, perfect-pairing quotient and slice-rank inequality are proved in cactus_rank.md.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    }
+  ]
+}
