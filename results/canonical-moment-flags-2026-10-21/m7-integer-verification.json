@@ -1,0 +1,41 @@
+{
+  "status": "exact integer full-source coefficient replay passed",
+  "source": "C(8,34)",
+  "source_dimensions": [
+    8,
+    34,
+    41
+  ],
+  "target": "canonical T7",
+  "target_dimensions": [
+    7,
+    28,
+    28
+  ],
+  "coefficient_ring": "integers; specializes to every field",
+  "source_monomials": 272,
+  "target_coefficient_positions": 5488,
+  "negative_coefficients_checked": 882,
+  "constant_coefficients_checked": 588,
+  "retained_target_monomials": 84,
+  "nonzero_positive_remainder_coefficients": 832,
+  "nonzero_remainder_coefficients_by_degree": {
+    "1": 271,
+    "2": 236,
+    "3": 136,
+    "4": 77,
+    "5": 52,
+    "6": 60
+  },
+  "map_ranks_over_rationals": [
+    7,
+    28,
+    28
+  ],
+  "maximum_absolute_map_entry": 2,
+  "verifier_uses_only_standard_library": true,
+  "unbounded_family_constructed": false,
+  "external_mathematical_review": false,
+  "improves_omega": false,
+  "witness_sha256": "8725c115220d8e6f88bf58e8ae49e58e5c40ee27755295b3034ec1da3e12cf03"
+}

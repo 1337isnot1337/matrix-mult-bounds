@@ -2365,3 +2365,269 @@ polynomial-rank-locus note already excluded all four A5 ordinary targets;
 this scan updates the stale minimum-only research queue and retains that
 prior credit. A separate corner-minor note rederives the existing rank
 inequality, without claiming a new general theorem or independent review.
+
+## Continued finite-construction search
+
+The [higher-Hankel proof](research/ai/2026-10-20-hankel-segre/README.md)
+excludes ordinary A(5,6) restrictions to M16 plus M4, using higher secant
+geometry. Its finite frontier screens all square-sum partitions in 52 source
+formats through leg dimension 800. Singular degeneration remains open.
+
+The [unequal paired-source extension](research/ai/2026-10-20-unequal-paired/README.md)
+gives all first-leg Koszul ranks under its explicit hypotheses. Its selected
+120-dimensional first-leg target would imply an exponent near 2.2495306348
+if a degeneration were constructed. **No such construction is supplied.**
+The written proofs remain AI-derived and externally unreviewed; no smaller
+exponent is established. See the [sprint record](research/ai/2026-10-20-construction-sprint/README.md)
+for current questions and verification status.
+
+The unequal-source polynomial now has a universal upper-bound proof outside
+its equality range. Applied on the other input leg, it excludes the proposed
+`EPR2` tensor `C(25,29)` to `M(7,6,7)` degeneration by an exact positive
+Koszul-rank gap. This closes a candidate; it does not lower the exponent.
+
+The [singular shared-map family](research/ai/2026-10-20-singular-shared-normalization/README.md)
+passes every transported shared catalecticant test for one copy of the
+canonical fat-point target at source length `N=m(m+1)/2`. An explicit
+[all-size construction of its projection](research/ai/2026-10-20-singular-shared-normalization/projected_construction.md)
+uses polynomial residue levels and has a complete coefficient identity.
+Exact replays at `m=4,6,8,10` check 26,694 coefficients. The projection loses
+`m/2-1` shared directions; recovering those directions with Laurent maps
+remains open. Neither result constructs the full target or improves omega.
+
+The [first and second order lift obstruction](research/ai/2026-10-20-shared-tangent-lift/README.md)
+closes the exact `B=N` problem for the displayed simple-pole shared map
+and its quadratic ramification, even with arbitrary Laurent orders on the
+other legs. A nonzero normal coefficient cannot be cancelled; the second
+order correction vanishes by an image-intersection argument. Higher
+ramification and additional source space are outside the claim. Current
+construction work allows `B=N+O(m)`, which still meets the asymptotic
+cost-one premise if full tensor maps can be found.
+
+## Exact fixed-shared packing and broader construction targets
+
+The [alternating-degree construction](research/ai/2026-10-20-alternating-degree-packing/README.md)
+works for every size and replication count, at the exact prior fixed-shared
+threshold `B=k ceil(3m^2/4)-floor((m-1)/2)`. The earlier finite C(4,11)
+witness is credited. The all-size formula has asymptotic ratio 3/2 and
+therefore does not improve the exponent. Exact replay covers 120 cases
+and 2,995,050 source terms.
+
+An [explicit rational algebra deformation](research/ai/2026-10-20-singular-shared-normalization/curvilinear_krylov.md)
+produces the plane fat-point algebra from a curvilinear algebra. The extra
+consecutive-moment condition needed for the convolution tensor remains
+unconstructed; a small square-dimension obstruction proves that preserving
+algebra multiplication is too restrictive to include the known size-three
+tensor control. Current work permits two independent nonshared maps.
+
+The [ordinary EPR-convolution frontier](research/ai/2026-10-20-unequal-paired/edge_ordinary.md)
+now excludes all 10,418 improving shapes from the stated 2,867-source grid,
+using Koszul ranks, minimum slices, polynomial gcds, and product spaces.
+Twenty-seven actual restrictions pass exact positive controls. Singular
+degenerations are outside the full frontier conclusion.
+
+The [source-aspect extension](research/ai/2026-10-20-construction-sprint/shared_dimension_slack.md)
+allows extra shared coordinates: an unbounded cost-one family with shared
+ratio at most 21/20 would still imply omega at most 2247/1000. This is a
+conditional criterion; no such family or smaller exponent is established.
+The new finite question includes dense rectangular shared maps for C(5,10).
+
+The earlier ordinary frontier in the higher-Hankel package is preserved
+as a dated relaxation. Main's later boundary theorem excludes its A(7,8)
+survivor; the current larger ordinary frontier is described above.
+
+## Rectangular module equations and compressed maps
+
+The [independent-map reformulation](research/ai/2026-10-20-rectangular-module/README.md)
+gives an exact row/controllable-pair criterion and an explicit parity factorization
+of the fat-point tensor. Its middle rank suggests the source C(m+1,N+m/2-2).
+For C(5,10), the missing right-factor condition becomes eight vector syzygies.
+No simultaneous solution is supplied. A separate coprime-product argument
+excludes only the symmetric one-pole low/high degree split, leaving mixed
+leading rows, asymmetric supports, and higher Laurent orders open.
+The exact parity replay checks 43,664 coefficients at m=4,6,8,10.
+
+The [compressed packing](research/ai/2026-10-21-compressed-packing/README.md)
+fits in C(m,N), with an explicitly retained negative Laurent coefficient.
+A singular shared rescaling gives an actual all-even-size degeneration to
+a different tensor U_m consisting of the three central fat-point slices and
+that error coefficient. Twenty exact cases cover 182,140 source terms per
+map family. This does not construct the full fat-point target or prove a
+smaller exponent; a useful character estimate for the alternative tensor
+has not been established. The new claims remain written and unreviewed.
+
+## Explicit singular matrix multiplication pilot
+
+The [integer Laurent construction](research/ai/2026-10-21-singular-pilots/README.md)
+proves C(4,5) degenerates to 2-by-2 matrix multiplication over every field.
+All 64 coefficient positions are checked exactly: eight target coefficients
+remain at degree zero, every negative coefficient vanishes, and twenty-two
+positive remainder terms have degrees one through seven. Two further
+same-session source-coefficient replays agree with the displayed witness.
+This is a finite constructive result and a pilot for the larger fat-point
+search. It does not establish a smaller exponent or an unbounded family.
+
+## Certified rectangular fat-point degeneration
+
+The [rational contraction certificate](research/ai/2026-10-21-rectangular-t4-certificate/README.md)
+proves C(5,10) degenerates to the canonical T4 over the real and complex
+numbers. Exact rational bounds prove a common zero of all 172 required
+coefficient equations inside a radius-10^-8 cube. The fixed-point map
+has contraction factor below 0.000553 and image radius below 1.37e-11.
+A separate verifier expands all 400 source coefficients and obtains the
+selected Jacobian by exact integer finite differences; its bounds agree.
+
+This resolves the finite rectangular target named above and goes beyond
+the symmetric degree split that was excluded earlier. The result does
+not supply an unbounded family. Larger source-target constructions and
+a uniform cost bound remain necessary for the conditional exponent
+criterion. No exponent below 9/4 is established. The written proof has
+same-session checks and no external mathematical review.
+
+## Rational flags and a broader matched-sector target
+
+The [explicit rational refinement](research/ai/2026-10-21-rectangular-t4-certificate/rational_flag_construction.md)
+constructs the finite C(5,10) degeneration to T4 by polynomial flags,
+a cofactor pencil, and rational linear solves. A second implementation
+expands all 400 source coefficients exactly. This strengthens the earlier
+real existence certificate to explicit maps over the rationals; both
+certificates are retained. It does not improve the exponent.
+
+An [all-size first-flag formula](research/ai/2026-10-20-rectangular-module/first_flag.md)
+constructs all equations involving input degrees zero and one, with exact
+controls on 89,739 coefficients. The higher input rows remain unsolved.
+The [conditional growth target](research/ai/2026-10-20-construction-sprint/independent_sector_bases.md)
+may also use independent invertible shared identifications in its matched
+convolution sectors. This preserves the character lower bound and relaxes
+the search, but supplies no missing unbounded family.
+
+## Exact five- and six-sector moment constructions
+
+The [self-adjoint moment package](research/ai/2026-10-21-selfadjoint-sectors/README.md)
+constructs C(6,20) degenerating to the five matched convolution sectors and
+C(7,28) degenerating to the six matched sectors, with a separate invertible
+shared basis in each sector. Independent rational substitution checks all
+1,125 and 2,646 coefficient positions, including every negative zero and
+constant target coefficient. Both nonshared maps have full target rank.
+These are finite results; no unbounded family or smaller exponent is proved.
+
+A [scoped ideal bound](research/ai/2026-10-21-selfadjoint-sectors/common_ideal_bound.md)
+forces asymptotic source cost at least 3/2 if every strictly lower sector is
+placed in one principal isotropic polynomial ideal. The six-sector witness
+already uses low monomials outside that ideal. Mixed recursive flags and
+other moment mechanisms remain open. Both new claims have written proofs
+and same-session exact checks; external mathematical review is outstanding.
+
+## Integer canonical four-sector maps
+
+The [integer moment-flag certificate](research/ai/2026-10-21-canonical-moment-flags/README.md)
+gives C(5,10) degenerating to canonical T4 over every field, with all map
+entries of absolute value at most six. Independent source expansion checks
+all 400 coefficient positions: every negative power vanishes and exactly
+twenty target monomials remain. A separate JavaScript expansion agrees.
+This strengthens the earlier rational finite certificate; no unbounded
+family or smaller exponent follows. Claim `AI-CANONICAL-INTEGER-FLAGS-001`
+is written and externally unreviewed.
+
+## Canonical integer flags through seven sectors
+
+The [canonical moment-flag package](research/ai/2026-10-21-canonical-moment-flags/README.md)
+now constructs C(6,16) to T5, C(7,24) to T6, and C(8,34) to T7 over every
+field, using literal integer maps. The five- and six-sector long source
+dimensions decrease from 20 to 16 and from 28 to 24. Independent full-source
+expansion checks all 9,659 coefficient positions across T4 through T7;
+all negative powers vanish and all constant coefficients match exactly.
+The maximum absolute map entries are 6,1,5,2. A recovered m6 index error
+was caught and corrected before acceptance. These are finite improvements;
+no unbounded family or smaller exponent is established. Claim
+`AI-CANONICAL-INTEGER-FLAGS-001` retains written, externally unreviewed status.
+
+## Free five-sector flag at exact long-source cost
+
+The [free isotropic flag](research/ai/2026-10-21-free-isotropic-flags/README.md)
+proves a finite complex degeneration C(7,15) to all five matched convolution
+sectors, each with its own invertible shared basis. An explicit solution
+over F2 has an odd 45-by-45 Jacobian minor in the integral polynomial chart.
+The written lifting and algebraic existence argument supplies a complex
+point with all required rank and normalization conditions. A separate
+verifier expands all 1,125 coefficients of the literal binary maps. Those
+binary maps are not presented as characteristic-zero coefficients. The
+source shared dimension is seven, so this finite exact long-source cost
+does not establish an unbounded family or a smaller exponent. Claim
+`AI-FREE-ISOTROPIC-FLAGS-001` is written and externally unreviewed.
+
+## Canonical boundary pair in every size
+
+The [boundary-pair construction](research/ai/2026-10-21-boundary-pair/README.md)
+gives C(m+2,m+1) degenerating to C(2,m-1) and C(m-1,2), on disjoint
+nonshared legs and one canonical shared m-space, for every m>=3.
+All maps are integral and all basis determinants are units, so the result
+holds over every field. Independent source expansion for m=3 through 20
+checks 50,028 coefficient positions. The construction supplies two sectors;
+adding the middle sectors with a useful total source cost remains open.
+Claim `AI-BOUNDARY-PAIR-001` has a written all-size proof and same-session
+exact controls. It has no external mathematical review or exponent claim.
+
+## Scalar shifted-block cost obstruction
+
+The [shifted moment relation bound](research/ai/2026-10-21-global-moment-flag/scalar_shifted_barrier.md)
+forces B>=m(m+1)/2+floor((m-2)^2/4)-2 for scalar shifted input factors
+with the specified full negative moment equations and invertible matched
+shared Hankel matrices in C(m+1,B). The limiting source cost is therefore
+at least 3/2. The proof uses coefficient-dual contraction over any field;
+828 finite rank controls and 189 exact sum checks support its ingredients.
+Free quotient flags and affine carry rows lie outside these hypotheses.
+Claim `AI-SCALAR-SHIFTED-BARRIER-001` is a written, externally unreviewed
+obstruction for that class. No exponent below 9/4 is established.
+
+## Affine carry construction and finite-field continuation
+
+The [affine carry flag](research/ai/2026-10-21-affine-carry-flags/README.md)
+has an exact six-row first-stage formula in shared dimension m+3 for every
+m>=4. Three independent families of polynomial relations bound the product
+space by 3m+6. The integer controls check 142,653 relation coefficients for
+m=4 through 24. This formula supplies a starting flag; it does not construct
+all sectors for arbitrary m. Claim `AI-AFFINE-CARRY-FIRST-FLAG-001` is written
+and externally unreviewed.
+
+A complete continuation at m=6 gives C(9,23) to all six matched convolution
+sectors over F2. Every shared sector map is invertible, and independent
+source expansion checks all 2,646 coefficients. Claim
+`AI-AFFINE-CARRY-M6-F2-002` is a finite-field result only. The stored lift
+satisfying 540 congruences modulo 2^1025 is recorded separately as experiment
+`AI-AFFINE-CARRY-LIFT-003`. No characteristic-zero existence certificate
+or exponent consequence is inferred from that finite precision.
+
+## Finite constructions leave explicit endpoint models feasible
+
+The [finite-character closure audit](research/ai/2026-10-21-finite-character-closure/README.md)
+shows that all five accepted characteristic-zero flag formats satisfy the
+existing endpoint scalar model. An explicit interval of larger profiles
+also satisfies every listed scalar rule, including hypothetical copies at
+unchanged input cost per copy. The same package gives a
+[format ceiling](research/ai/2026-10-21-finite-character-closure/correlated_matrix_ceiling.md)
+for arbitrary powers and mixtures followed by direct sums of rectangular
+matrix products, including correlated extractions and leg permutations.
+Those matrix-extraction bounds cannot exceed the formal source values for
+these finite formats. Other tensor comparisons and new constructions remain
+outside both conclusions. Claims `AI-FINITE-FLAG-CLOSURE-001` and
+`AI-FINITE-MATRIX-EXTRACTION-001` are written and externally unreviewed.
+Neither is a lower bound for the matrix multiplication exponent.
+
+## Character ceiling for the compressed alternative
+
+The [compressed-tensor character audit](research/ai/2026-10-21-compressed-packing/character_ceiling.md)
+bounds the actual endpoint character of the specific alternative tensor
+U_m retained from the compressed Laurent identity. A simultaneous
+companion-matrix deformation turns each nested error family into a limit
+of a direct sum of dot products; the three central slice ranks supply the
+remaining terms. The resulting asymptotic ratio to the source's
+symmetrized character is at most 4/7. Exact rational comparisons and an
+all-size polynomial bound place this upper estimate below the existing
+source lower estimate for every even m>=120.
+
+Thus that particular constant tensor does not provide the missing growth
+inequality. Cancellation in the full Laurent identity and different
+constant tensors remain open. Claim `AI-COMPRESSED-CHARACTER-002` is written,
+externally unreviewed, and restricted to characteristic zero. No smaller
+matrix multiplication exponent is established.

@@ -1,0 +1,125 @@
+{
+  "status": "exact-controls-verified",
+  "arithmetic": "Python integers and fractions.Fraction",
+  "constructs_new_full_target_degeneration": false,
+  "improves_omega": false,
+  "row_control": {
+    "known_control": "C(2,3) degenerates to T_2",
+    "target_coefficient_checks": 18,
+    "inverse_identity_entries": 9,
+    "row_identity_entries": 6,
+    "rectangular_control": "C(3,3) followed by [I_2 0]",
+    "extra_slice_has_nonzero_limit": true,
+    "rectangular_row_identity_entries": 12,
+    "negative_coefficients": 0
+  },
+  "restricted_obstruction_control": {
+    "quartics_ascending_t_coefficients": [
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        1
+      ]
+    ],
+    "quartic_span_rank": 4,
+    "rank_u0_S5_plus_u3_S5": 10,
+    "rank_u0_S9_plus_u3_S9": 14,
+    "relation_system_shape": [
+      50,
+      28
+    ],
+    "relation_system_rank": 28,
+    "common_factor_control_rank": 26,
+    "common_factor_control_requires_separate_argument": true
+  },
+  "parity_factor_controls": [
+    {
+      "m": 4,
+      "n": 10,
+      "middle_dimension": 11,
+      "suggested_source_B": 10,
+      "left_rank": 11,
+      "right_rank": 11,
+      "coefficient_checks": 400
+    },
+    {
+      "m": 6,
+      "n": 21,
+      "middle_dimension": 23,
+      "suggested_source_B": 22,
+      "left_rank": 23,
+      "right_rank": 23,
+      "coefficient_checks": 2646
+    },
+    {
+      "m": 8,
+      "n": 36,
+      "middle_dimension": 39,
+      "suggested_source_B": 38,
+      "left_rank": 39,
+      "right_rank": 39,
+      "coefficient_checks": 10368
+    },
+    {
+      "m": 10,
+      "n": 55,
+      "middle_dimension": 59,
+      "suggested_source_B": 58,
+      "left_rank": 59,
+      "right_rank": 59,
+      "coefficient_checks": 30250
+    }
+  ],
+  "cubic_syzygy_control": {
+    "g_ascending_t_coefficients": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "product_matrix_shape": [
+      22,
+      14
+    ],
+    "product_matrix_rank": 14,
+    "syzygy_matrix_shape": [
+      8,
+      22
+    ],
+    "syzygy_matrix_rank": 8,
+    "syzygy_product_zero_entries": 112,
+    "reconstructed_moment_entries": 28,
+    "corrupted_right_factor_rejected": true
+  }
+}

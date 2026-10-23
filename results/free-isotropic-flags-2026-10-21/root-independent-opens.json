@@ -1,0 +1,94 @@
+{
+  "status": "root independent exact F2 source and open-condition replay passed",
+  "counts": {
+    "total": 1125,
+    "negative": 175,
+    "constant": 175,
+    "constant_nonzero": 72,
+    "positive_nonzero": 352
+  },
+  "ranks": {
+    "shared": 5,
+    "Y": 15,
+    "Z": 15,
+    "sector": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "U_plus_tU": 8,
+    "UL": 9,
+    "L_plus_g": 4
+  },
+  "units": {
+    "mu_inverse": 6248,
+    "g_inverse": 6648,
+    "G_inverse": 2569
+  },
+  "raw_low_moments": [
+    1789952,
+    1723242,
+    1385531
+  ],
+  "central_basis_change_rows": [
+    1,
+    6,
+    3
+  ],
+  "middle_symmetric_rank": 5,
+  "middle_kernel_conic": 43,
+  "lower_sylvester": {
+    "rank": 20,
+    "rows_hex": [
+      "17",
+      "15",
+      "19",
+      "16",
+      "2f5",
+      "2b9",
+      "336",
+      "2c5",
+      "5ea0",
+      "5720",
+      "66c0",
+      "58a0",
+      "bd400",
+      "ae400",
+      "cd800",
+      "b1400",
+      "a8000",
+      "c8000",
+      "b0000",
+      "28000"
+    ]
+  },
+  "upper_sylvester": {
+    "rank": 20,
+    "rows_hex": [
+      "2",
+      "4",
+      "c",
+      "5",
+      "44",
+      "8c",
+      "185",
+      "ba",
+      "880",
+      "1180",
+      "30a0",
+      "1740",
+      "11000",
+      "23000",
+      "61400",
+      "2e800",
+      "20000",
+      "60000",
+      "28000",
+      "d0000"
+    ]
+  },
+  "field_scope": "literal witness over F2; characteristic-zero existence additionally uses the 45-equation smooth chart and open-condition proof",
+  "improves_omega": false
+}

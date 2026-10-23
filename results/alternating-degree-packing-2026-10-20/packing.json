@@ -1,0 +1,2214 @@
+{
+  "status": "exact construction; no smaller matrix multiplication exponent",
+  "statement": "C(m, k*ceil(3*m^2/4)-floor((m-1)/2)) degenerates to T_(m,k) with identity shared map",
+  "all_size_proof": "research/ai/2026-10-20-alternating-degree-packing/README.md",
+  "prior_finite_control": "research/ai/2026-10-20-mixed-restrictions/README.md",
+  "prior_matching_lower_bound": "research/ai/2026-10-20-koszul/arbitrary_shared_basis.md",
+  "max_m": 40,
+  "max_k": 3,
+  "case_count": 120,
+  "source_terms_enumerated": 2995050,
+  "target_coefficients_verified": 2727088924,
+  "new_exponent_established": false,
+  "independent_external_review": false,
+  "m4_k1_witness": {
+    "m": 4,
+    "k": 1,
+    "D": 3,
+    "N": 10,
+    "period": 12,
+    "B": 11,
+    "source_format": [
+      4,
+      11,
+      14
+    ],
+    "target_format": [
+      4,
+      10,
+      10
+    ],
+    "shared_map": "identity",
+    "y": [
+      {
+        "source": 0,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "weight": 0
+      },
+      {
+        "source": 4,
+        "target": [
+          0,
+          0,
+          3
+        ],
+        "weight": 1
+      },
+      {
+        "source": 3,
+        "target": [
+          0,
+          1,
+          2
+        ],
+        "weight": 1
+      },
+      {
+        "source": 2,
+        "target": [
+          0,
+          2,
+          1
+        ],
+        "weight": 1
+      },
+      {
+        "source": 1,
+        "target": [
+          0,
+          3,
+          0
+        ],
+        "weight": 1
+      },
+      {
+        "source": 6,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "weight": 0
+      },
+      {
+        "source": 5,
+        "target": [
+          0,
+          1,
+          0
+        ],
+        "weight": 0
+      },
+      {
+        "source": 10,
+        "target": [
+          0,
+          0,
+          2
+        ],
+        "weight": 1
+      },
+      {
+        "source": 9,
+        "target": [
+          0,
+          1,
+          1
+        ],
+        "weight": 1
+      },
+      {
+        "source": 8,
+        "target": [
+          0,
+          2,
+          0
+        ],
+        "weight": 1
+      }
+    ],
+    "z": [
+      {
+        "source": 0,
+        "target": [
+          0,
+          0,
+          3
+        ],
+        "weight": 0
+      },
+      {
+        "source": 1,
+        "target": [
+          0,
+          1,
+          2
+        ],
+        "weight": 0
+      },
+      {
+        "source": 2,
+        "target": [
+          0,
+          2,
+          1
+        ],
+        "weight": 0
+      },
+      {
+        "source": 3,
+        "target": [
+          0,
+          3,
+          0
+        ],
+        "weight": 0
+      },
+      {
+        "source": 4,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "weight": -1
+      },
+      {
+        "source": 6,
+        "target": [
+          0,
+          0,
+          2
+        ],
+        "weight": 0
+      },
+      {
+        "source": 7,
+        "target": [
+          0,
+          1,
+          1
+        ],
+        "weight": 0
+      },
+      {
+        "source": 8,
+        "target": [
+          0,
+          2,
+          0
+        ],
+        "weight": 0
+      },
+      {
+        "source": 10,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "weight": -1
+      },
+      {
+        "source": 11,
+        "target": [
+          0,
+          1,
+          0
+        ],
+        "weight": -1
+      }
+    ]
+  },
+  "cases": [
+    {
+      "m": 1,
+      "k": 1,
+      "N": 1,
+      "B": 1,
+      "matching_prior_lower_bound": 1,
+      "source_terms_enumerated": 1,
+      "target_coefficient_space": 1,
+      "retained_terms": 1,
+      "coefficient_count_by_power": {
+        "0": 1
+      },
+      "full_laurent_tensor_sha256": "b5aaf8dda592ea83d6f6d797b849829648686b27a6e1105fd72125ffe0321994",
+      "verified": true
+    },
+    {
+      "m": 1,
+      "k": 2,
+      "N": 1,
+      "B": 2,
+      "matching_prior_lower_bound": 2,
+      "source_terms_enumerated": 2,
+      "target_coefficient_space": 4,
+      "retained_terms": 2,
+      "coefficient_count_by_power": {
+        "0": 2
+      },
+      "full_laurent_tensor_sha256": "982351e9e21c74d38daec6eac6ba16c86ba808d6dccbbc68769c2c6ee7cba63e",
+      "verified": true
+    },
+    {
+      "m": 1,
+      "k": 3,
+      "N": 1,
+      "B": 3,
+      "matching_prior_lower_bound": 3,
+      "source_terms_enumerated": 3,
+      "target_coefficient_space": 9,
+      "retained_terms": 3,
+      "coefficient_count_by_power": {
+        "0": 3
+      },
+      "full_laurent_tensor_sha256": "54c1982c3c0fe03b30127c755d027033794041bde924bfe82c627293a1aaf27a",
+      "verified": true
+    },
+    {
+      "m": 2,
+      "k": 1,
+      "N": 3,
+      "B": 3,
+      "matching_prior_lower_bound": 3,
+      "source_terms_enumerated": 6,
+      "target_coefficient_space": 18,
+      "retained_terms": 4,
+      "coefficient_count_by_power": {
+        "0": 4,
+        "1": 1
+      },
+      "full_laurent_tensor_sha256": "afca1536ec0286456cd06088529ada2bdce9f7404ee2b4922b8ce9330c74727c",
+      "verified": true
+    },
+    {
+      "m": 2,
+      "k": 2,
+      "N": 3,
+      "B": 6,
+      "matching_prior_lower_bound": 6,
+      "source_terms_enumerated": 12,
+      "target_coefficient_space": 72,
+      "retained_terms": 8,
+      "coefficient_count_by_power": {
+        "0": 8,
+        "1": 2,
+        "3": 1
+      },
+      "full_laurent_tensor_sha256": "27b9e8c778f167b9bae9cecf22425fcaf9e12351f71be0d16dde5c1dbbf216f0",
+      "verified": true
+    },
+    {
+      "m": 2,
+      "k": 3,
+      "N": 3,
+      "B": 9,
+      "matching_prior_lower_bound": 9,
+      "source_terms_enumerated": 18,
+      "target_coefficient_space": 162,
+      "retained_terms": 12,
+      "coefficient_count_by_power": {
+        "0": 12,
+        "1": 3,
+        "3": 2
+      },
+      "full_laurent_tensor_sha256": "6e60250d9e36576a624dc3b78d248b742967c931375a6908ed216c0ac1e169b5",
+      "verified": true
+    },
+    {
+      "m": 3,
+      "k": 1,
+      "N": 6,
+      "B": 6,
+      "matching_prior_lower_bound": 6,
+      "source_terms_enumerated": 18,
+      "target_coefficient_space": 108,
+      "retained_terms": 10,
+      "coefficient_count_by_power": {
+        "0": 10,
+        "1": 4
+      },
+      "full_laurent_tensor_sha256": "096c991bec3bd64012ad2a8bd2d9ea0dffca5547ae0f1a60b10c1b492f6357f3",
+      "verified": true
+    },
+    {
+      "m": 3,
+      "k": 2,
+      "N": 6,
+      "B": 13,
+      "matching_prior_lower_bound": 13,
+      "source_terms_enumerated": 39,
+      "target_coefficient_space": 432,
+      "retained_terms": 20,
+      "coefficient_count_by_power": {
+        "0": 20,
+        "1": 8,
+        "2": 1
+      },
+      "full_laurent_tensor_sha256": "2204994c4c6b60cfb5b3a46dd146af6dff3cb02cb40d9997f50cc80eb28b481d",
+      "verified": true
+    },
+    {
+      "m": 3,
+      "k": 3,
+      "N": 6,
+      "B": 20,
+      "matching_prior_lower_bound": 20,
+      "source_terms_enumerated": 60,
+      "target_coefficient_space": 972,
+      "retained_terms": 30,
+      "coefficient_count_by_power": {
+        "0": 30,
+        "1": 12,
+        "2": 2
+      },
+      "full_laurent_tensor_sha256": "77eec93627b618f06e2daa63856aec07ce573e0f0c10d9125aeeb9088e4ffb39",
+      "verified": true
+    },
+    {
+      "m": 4,
+      "k": 1,
+      "N": 10,
+      "B": 11,
+      "matching_prior_lower_bound": 11,
+      "source_terms_enumerated": 44,
+      "target_coefficient_space": 400,
+      "retained_terms": 20,
+      "coefficient_count_by_power": {
+        "0": 20,
+        "1": 10
+      },
+      "full_laurent_tensor_sha256": "fae40b048478c25bc454a3b1f50c02c92b1e4843e38f3cff0b0fbaa4ba82882e",
+      "verified": true
+    },
+    {
+      "m": 4,
+      "k": 2,
+      "N": 10,
+      "B": 23,
+      "matching_prior_lower_bound": 23,
+      "source_terms_enumerated": 92,
+      "target_coefficient_space": 1600,
+      "retained_terms": 40,
+      "coefficient_count_by_power": {
+        "0": 40,
+        "1": 20,
+        "3": 3
+      },
+      "full_laurent_tensor_sha256": "991e312fd8e8ab502d2d6fae093a1b69fd61387c4135a7e8ddaa1d43cd818428",
+      "verified": true
+    },
+    {
+      "m": 4,
+      "k": 3,
+      "N": 10,
+      "B": 35,
+      "matching_prior_lower_bound": 35,
+      "source_terms_enumerated": 140,
+      "target_coefficient_space": 3600,
+      "retained_terms": 60,
+      "coefficient_count_by_power": {
+        "0": 60,
+        "1": 30,
+        "3": 6
+      },
+      "full_laurent_tensor_sha256": "f01e77a377c1e3cd39d52bb5fc57c51fbe53993925f97678583240f9af53c06b",
+      "verified": true
+    },
+    {
+      "m": 5,
+      "k": 1,
+      "N": 15,
+      "B": 17,
+      "matching_prior_lower_bound": 17,
+      "source_terms_enumerated": 85,
+      "target_coefficient_space": 1125,
+      "retained_terms": 35,
+      "coefficient_count_by_power": {
+        "0": 35,
+        "1": 20
+      },
+      "full_laurent_tensor_sha256": "f62a30fa3b85349bd45779e63977a5f9d8cc7c570b9e573aa3e9e710440cbf78",
+      "verified": true
+    },
+    {
+      "m": 5,
+      "k": 2,
+      "N": 15,
+      "B": 36,
+      "matching_prior_lower_bound": 36,
+      "source_terms_enumerated": 180,
+      "target_coefficient_space": 4500,
+      "retained_terms": 70,
+      "coefficient_count_by_power": {
+        "0": 70,
+        "1": 40,
+        "2": 3
+      },
+      "full_laurent_tensor_sha256": "0e58ed4c5fd04599892bae1ea9961189b4681b9ac868147c1a5a95db0ae98b52",
+      "verified": true
+    },
+    {
+      "m": 5,
+      "k": 3,
+      "N": 15,
+      "B": 55,
+      "matching_prior_lower_bound": 55,
+      "source_terms_enumerated": 275,
+      "target_coefficient_space": 10125,
+      "retained_terms": 105,
+      "coefficient_count_by_power": {
+        "0": 105,
+        "1": 60,
+        "2": 6
+      },
+      "full_laurent_tensor_sha256": "ba2b3f84cd791974f64d104875a632d0980cd06434ff060f0393de75a1cb037f",
+      "verified": true
+    },
+    {
+      "m": 6,
+      "k": 1,
+      "N": 21,
+      "B": 25,
+      "matching_prior_lower_bound": 25,
+      "source_terms_enumerated": 150,
+      "target_coefficient_space": 2646,
+      "retained_terms": 56,
+      "coefficient_count_by_power": {
+        "0": 56,
+        "1": 35
+      },
+      "full_laurent_tensor_sha256": "e28e3446d2d5430f34aff737909b04e9578c94b294e2ac58bebe84ff915aa398",
+      "verified": true
+    },
+    {
+      "m": 6,
+      "k": 2,
+      "N": 21,
+      "B": 52,
+      "matching_prior_lower_bound": 52,
+      "source_terms_enumerated": 312,
+      "target_coefficient_space": 10584,
+      "retained_terms": 112,
+      "coefficient_count_by_power": {
+        "0": 112,
+        "1": 70,
+        "3": 6
+      },
+      "full_laurent_tensor_sha256": "f19751ee3d792e6a5b8de0b173f016d8c4b5df5af9275d05b03203148ce1fff6",
+      "verified": true
+    },
+    {
+      "m": 6,
+      "k": 3,
+      "N": 21,
+      "B": 79,
+      "matching_prior_lower_bound": 79,
+      "source_terms_enumerated": 474,
+      "target_coefficient_space": 23814,
+      "retained_terms": 168,
+      "coefficient_count_by_power": {
+        "0": 168,
+        "1": 105,
+        "3": 12
+      },
+      "full_laurent_tensor_sha256": "22a10f5bdab8112f9602dcc4f77a88596940eb93a2176ddc101bfb846ee33e3c",
+      "verified": true
+    },
+    {
+      "m": 7,
+      "k": 1,
+      "N": 28,
+      "B": 34,
+      "matching_prior_lower_bound": 34,
+      "source_terms_enumerated": 238,
+      "target_coefficient_space": 5488,
+      "retained_terms": 84,
+      "coefficient_count_by_power": {
+        "0": 84,
+        "1": 56
+      },
+      "full_laurent_tensor_sha256": "2187ce380add51795a6a9b5e5d03b72286740256b7c335daabd6444898921657",
+      "verified": true
+    },
+    {
+      "m": 7,
+      "k": 2,
+      "N": 28,
+      "B": 71,
+      "matching_prior_lower_bound": 71,
+      "source_terms_enumerated": 497,
+      "target_coefficient_space": 21952,
+      "retained_terms": 168,
+      "coefficient_count_by_power": {
+        "0": 168,
+        "1": 112,
+        "2": 6
+      },
+      "full_laurent_tensor_sha256": "4b6bf68743f8bdc7d251a2503f94d28f9bd99dcf58c4d6dc30cafa5c0544258a",
+      "verified": true
+    },
+    {
+      "m": 7,
+      "k": 3,
+      "N": 28,
+      "B": 108,
+      "matching_prior_lower_bound": 108,
+      "source_terms_enumerated": 756,
+      "target_coefficient_space": 49392,
+      "retained_terms": 252,
+      "coefficient_count_by_power": {
+        "0": 252,
+        "1": 168,
+        "2": 12
+      },
+      "full_laurent_tensor_sha256": "6ce38d0aea45655414601f759bf744601993d6cb5acdbc1366fb88a2190a267d",
+      "verified": true
+    },
+    {
+      "m": 8,
+      "k": 1,
+      "N": 36,
+      "B": 45,
+      "matching_prior_lower_bound": 45,
+      "source_terms_enumerated": 360,
+      "target_coefficient_space": 10368,
+      "retained_terms": 120,
+      "coefficient_count_by_power": {
+        "0": 120,
+        "1": 84
+      },
+      "full_laurent_tensor_sha256": "ecbb4574ca9e52061e8d654c0f2a42c1592e62895f7abd482994f9bb7f09aae5",
+      "verified": true
+    },
+    {
+      "m": 8,
+      "k": 2,
+      "N": 36,
+      "B": 93,
+      "matching_prior_lower_bound": 93,
+      "source_terms_enumerated": 744,
+      "target_coefficient_space": 41472,
+      "retained_terms": 240,
+      "coefficient_count_by_power": {
+        "0": 240,
+        "1": 168,
+        "3": 10
+      },
+      "full_laurent_tensor_sha256": "a098503d9c3fee8f6b013783ce87b3be3aca2ea06456c9d5d07684e52423d228",
+      "verified": true
+    },
+    {
+      "m": 8,
+      "k": 3,
+      "N": 36,
+      "B": 141,
+      "matching_prior_lower_bound": 141,
+      "source_terms_enumerated": 1128,
+      "target_coefficient_space": 93312,
+      "retained_terms": 360,
+      "coefficient_count_by_power": {
+        "0": 360,
+        "1": 252,
+        "3": 20
+      },
+      "full_laurent_tensor_sha256": "b89e7dcf01e03cf114b83a9c1a1bf47b6a22bad5781e3fd42808fa964f9bbc7c",
+      "verified": true
+    },
+    {
+      "m": 9,
+      "k": 1,
+      "N": 45,
+      "B": 57,
+      "matching_prior_lower_bound": 57,
+      "source_terms_enumerated": 513,
+      "target_coefficient_space": 18225,
+      "retained_terms": 165,
+      "coefficient_count_by_power": {
+        "0": 165,
+        "1": 120
+      },
+      "full_laurent_tensor_sha256": "6017e497b9cb33e8ad7a054024f6504b4c546c992fedc4cf61395478d978f8ce",
+      "verified": true
+    },
+    {
+      "m": 9,
+      "k": 2,
+      "N": 45,
+      "B": 118,
+      "matching_prior_lower_bound": 118,
+      "source_terms_enumerated": 1062,
+      "target_coefficient_space": 72900,
+      "retained_terms": 330,
+      "coefficient_count_by_power": {
+        "0": 330,
+        "1": 240,
+        "2": 10
+      },
+      "full_laurent_tensor_sha256": "d8349d7ebd20110a66c70a74dfbf8c3ae9dc5e8be93aea173eba6627b62c34e0",
+      "verified": true
+    },
+    {
+      "m": 9,
+      "k": 3,
+      "N": 45,
+      "B": 179,
+      "matching_prior_lower_bound": 179,
+      "source_terms_enumerated": 1611,
+      "target_coefficient_space": 164025,
+      "retained_terms": 495,
+      "coefficient_count_by_power": {
+        "0": 495,
+        "1": 360,
+        "2": 20
+      },
+      "full_laurent_tensor_sha256": "2ac82790c42d0c1281b10b0228113ebafa46079e560d690453ccb260a57bbe0b",
+      "verified": true
+    },
+    {
+      "m": 10,
+      "k": 1,
+      "N": 55,
+      "B": 71,
+      "matching_prior_lower_bound": 71,
+      "source_terms_enumerated": 710,
+      "target_coefficient_space": 30250,
+      "retained_terms": 220,
+      "coefficient_count_by_power": {
+        "0": 220,
+        "1": 165
+      },
+      "full_laurent_tensor_sha256": "ec9e642252ccbf45d99db02d8382e1e28aa4d5a765434c63dadab2fc19128746",
+      "verified": true
+    },
+    {
+      "m": 10,
+      "k": 2,
+      "N": 55,
+      "B": 146,
+      "matching_prior_lower_bound": 146,
+      "source_terms_enumerated": 1460,
+      "target_coefficient_space": 121000,
+      "retained_terms": 440,
+      "coefficient_count_by_power": {
+        "0": 440,
+        "1": 330,
+        "3": 15
+      },
+      "full_laurent_tensor_sha256": "350ea4f6071a60877bab016ae13f62c5bf8daeb85bb1736e708561a20ecb6389",
+      "verified": true
+    },
+    {
+      "m": 10,
+      "k": 3,
+      "N": 55,
+      "B": 221,
+      "matching_prior_lower_bound": 221,
+      "source_terms_enumerated": 2210,
+      "target_coefficient_space": 272250,
+      "retained_terms": 660,
+      "coefficient_count_by_power": {
+        "0": 660,
+        "1": 495,
+        "3": 30
+      },
+      "full_laurent_tensor_sha256": "bb4e071ac3c9262d55be403d0a001c4cb6c4c9ef602b36560f90fb96cdaf29f3",
+      "verified": true
+    },
+    {
+      "m": 11,
+      "k": 1,
+      "N": 66,
+      "B": 86,
+      "matching_prior_lower_bound": 86,
+      "source_terms_enumerated": 946,
+      "target_coefficient_space": 47916,
+      "retained_terms": 286,
+      "coefficient_count_by_power": {
+        "0": 286,
+        "1": 220
+      },
+      "full_laurent_tensor_sha256": "6654c9f0c628f71ddd073bbad07ca7ed5a70a66df7dddc648d5e24a610ecde8c",
+      "verified": true
+    },
+    {
+      "m": 11,
+      "k": 2,
+      "N": 66,
+      "B": 177,
+      "matching_prior_lower_bound": 177,
+      "source_terms_enumerated": 1947,
+      "target_coefficient_space": 191664,
+      "retained_terms": 572,
+      "coefficient_count_by_power": {
+        "0": 572,
+        "1": 440,
+        "2": 15
+      },
+      "full_laurent_tensor_sha256": "a1fb7d6bfc11a78a8d2d3cac8cf2205b411f9b26aff5985ade8f780f6c11d197",
+      "verified": true
+    },
+    {
+      "m": 11,
+      "k": 3,
+      "N": 66,
+      "B": 268,
+      "matching_prior_lower_bound": 268,
+      "source_terms_enumerated": 2948,
+      "target_coefficient_space": 431244,
+      "retained_terms": 858,
+      "coefficient_count_by_power": {
+        "0": 858,
+        "1": 660,
+        "2": 30
+      },
+      "full_laurent_tensor_sha256": "f4e008a0be0dba3eb8a72aef2462049608a870187f19b7a681967ee208f1d07e",
+      "verified": true
+    },
+    {
+      "m": 12,
+      "k": 1,
+      "N": 78,
+      "B": 103,
+      "matching_prior_lower_bound": 103,
+      "source_terms_enumerated": 1236,
+      "target_coefficient_space": 73008,
+      "retained_terms": 364,
+      "coefficient_count_by_power": {
+        "0": 364,
+        "1": 286
+      },
+      "full_laurent_tensor_sha256": "c05f0d388c6749acfb6bd3986efc8e840f84fc6d53c3650e56992c7aa8432100",
+      "verified": true
+    },
+    {
+      "m": 12,
+      "k": 2,
+      "N": 78,
+      "B": 211,
+      "matching_prior_lower_bound": 211,
+      "source_terms_enumerated": 2532,
+      "target_coefficient_space": 292032,
+      "retained_terms": 728,
+      "coefficient_count_by_power": {
+        "0": 728,
+        "1": 572,
+        "3": 21
+      },
+      "full_laurent_tensor_sha256": "7f69e29a9fdf1784001d001dd1f91f93a88fdcbe8312604ab6e9b0c0e9630305",
+      "verified": true
+    },
+    {
+      "m": 12,
+      "k": 3,
+      "N": 78,
+      "B": 319,
+      "matching_prior_lower_bound": 319,
+      "source_terms_enumerated": 3828,
+      "target_coefficient_space": 657072,
+      "retained_terms": 1092,
+      "coefficient_count_by_power": {
+        "0": 1092,
+        "1": 858,
+        "3": 42
+      },
+      "full_laurent_tensor_sha256": "8402fb25117f3c1913307d99a3535ccfa73179535a92194580ead6272661e221",
+      "verified": true
+    },
+    {
+      "m": 13,
+      "k": 1,
+      "N": 91,
+      "B": 121,
+      "matching_prior_lower_bound": 121,
+      "source_terms_enumerated": 1573,
+      "target_coefficient_space": 107653,
+      "retained_terms": 455,
+      "coefficient_count_by_power": {
+        "0": 455,
+        "1": 364
+      },
+      "full_laurent_tensor_sha256": "e3ab62a0ab9ac0f87e5aef9baa2f80a297d318564d07baa31830c4a23dd50c5a",
+      "verified": true
+    },
+    {
+      "m": 13,
+      "k": 2,
+      "N": 91,
+      "B": 248,
+      "matching_prior_lower_bound": 248,
+      "source_terms_enumerated": 3224,
+      "target_coefficient_space": 430612,
+      "retained_terms": 910,
+      "coefficient_count_by_power": {
+        "0": 910,
+        "1": 728,
+        "2": 21
+      },
+      "full_laurent_tensor_sha256": "15c5fc34c2273e0afe174653923aa722d58a7cc9c6bf066be2e03472c4da0be2",
+      "verified": true
+    },
+    {
+      "m": 13,
+      "k": 3,
+      "N": 91,
+      "B": 375,
+      "matching_prior_lower_bound": 375,
+      "source_terms_enumerated": 4875,
+      "target_coefficient_space": 968877,
+      "retained_terms": 1365,
+      "coefficient_count_by_power": {
+        "0": 1365,
+        "1": 1092,
+        "2": 42
+      },
+      "full_laurent_tensor_sha256": "3d1be6fe02bbebf7f58901a4e92a0c27decc777962ed8b6500379fe00e97f891",
+      "verified": true
+    },
+    {
+      "m": 14,
+      "k": 1,
+      "N": 105,
+      "B": 141,
+      "matching_prior_lower_bound": 141,
+      "source_terms_enumerated": 1974,
+      "target_coefficient_space": 154350,
+      "retained_terms": 560,
+      "coefficient_count_by_power": {
+        "0": 560,
+        "1": 455
+      },
+      "full_laurent_tensor_sha256": "8527e5ecb360f5b576f2723bb3a0b9521f30eaefd6ce65b5f6ac8fcc03d27549",
+      "verified": true
+    },
+    {
+      "m": 14,
+      "k": 2,
+      "N": 105,
+      "B": 288,
+      "matching_prior_lower_bound": 288,
+      "source_terms_enumerated": 4032,
+      "target_coefficient_space": 617400,
+      "retained_terms": 1120,
+      "coefficient_count_by_power": {
+        "0": 1120,
+        "1": 910,
+        "3": 28
+      },
+      "full_laurent_tensor_sha256": "10a7db6fe1303c2546d082ce097bd931fd427c1aa2d8459978827cca4079e79a",
+      "verified": true
+    },
+    {
+      "m": 14,
+      "k": 3,
+      "N": 105,
+      "B": 435,
+      "matching_prior_lower_bound": 435,
+      "source_terms_enumerated": 6090,
+      "target_coefficient_space": 1389150,
+      "retained_terms": 1680,
+      "coefficient_count_by_power": {
+        "0": 1680,
+        "1": 1365,
+        "3": 56
+      },
+      "full_laurent_tensor_sha256": "53761af710a7636f5976b63ad91dc921ff71929699c684b425d1484b8fa1f7eb",
+      "verified": true
+    },
+    {
+      "m": 15,
+      "k": 1,
+      "N": 120,
+      "B": 162,
+      "matching_prior_lower_bound": 162,
+      "source_terms_enumerated": 2430,
+      "target_coefficient_space": 216000,
+      "retained_terms": 680,
+      "coefficient_count_by_power": {
+        "0": 680,
+        "1": 560
+      },
+      "full_laurent_tensor_sha256": "12fb129b50cbaaa79b8b38769b84f03e607b067afdd9ed2278ce8d2a861d1918",
+      "verified": true
+    },
+    {
+      "m": 15,
+      "k": 2,
+      "N": 120,
+      "B": 331,
+      "matching_prior_lower_bound": 331,
+      "source_terms_enumerated": 4965,
+      "target_coefficient_space": 864000,
+      "retained_terms": 1360,
+      "coefficient_count_by_power": {
+        "0": 1360,
+        "1": 1120,
+        "2": 28
+      },
+      "full_laurent_tensor_sha256": "ec0adaad70b7971f911b65f9bd729326828d781d5e11c0f0e3ade1aa3ff6aaa5",
+      "verified": true
+    },
+    {
+      "m": 15,
+      "k": 3,
+      "N": 120,
+      "B": 500,
+      "matching_prior_lower_bound": 500,
+      "source_terms_enumerated": 7500,
+      "target_coefficient_space": 1944000,
+      "retained_terms": 2040,
+      "coefficient_count_by_power": {
+        "0": 2040,
+        "1": 1680,
+        "2": 56
+      },
+      "full_laurent_tensor_sha256": "79b2345d8f56eb2d2ba0e5ecacb2b23be28a7de81cab5f059e7379cecfeb62dd",
+      "verified": true
+    },
+    {
+      "m": 16,
+      "k": 1,
+      "N": 136,
+      "B": 185,
+      "matching_prior_lower_bound": 185,
+      "source_terms_enumerated": 2960,
+      "target_coefficient_space": 295936,
+      "retained_terms": 816,
+      "coefficient_count_by_power": {
+        "0": 816,
+        "1": 680
+      },
+      "full_laurent_tensor_sha256": "aa604143a53ed7c10a6409533b12ff53ee387ac8a5534f28f2f9e3183c0770b3",
+      "verified": true
+    },
+    {
+      "m": 16,
+      "k": 2,
+      "N": 136,
+      "B": 377,
+      "matching_prior_lower_bound": 377,
+      "source_terms_enumerated": 6032,
+      "target_coefficient_space": 1183744,
+      "retained_terms": 1632,
+      "coefficient_count_by_power": {
+        "0": 1632,
+        "1": 1360,
+        "3": 36
+      },
+      "full_laurent_tensor_sha256": "9ba099df6e9f6a47be8ef6fdc45b317c216ee613df43bc3d6e00af7b4efceb0b",
+      "verified": true
+    },
+    {
+      "m": 16,
+      "k": 3,
+      "N": 136,
+      "B": 569,
+      "matching_prior_lower_bound": 569,
+      "source_terms_enumerated": 9104,
+      "target_coefficient_space": 2663424,
+      "retained_terms": 2448,
+      "coefficient_count_by_power": {
+        "0": 2448,
+        "1": 2040,
+        "3": 72
+      },
+      "full_laurent_tensor_sha256": "d76b43622b89d2e79836f5ff410ba501e2a7d957b1abf60aa8981d6b3452dbed",
+      "verified": true
+    },
+    {
+      "m": 17,
+      "k": 1,
+      "N": 153,
+      "B": 209,
+      "matching_prior_lower_bound": 209,
+      "source_terms_enumerated": 3553,
+      "target_coefficient_space": 397953,
+      "retained_terms": 969,
+      "coefficient_count_by_power": {
+        "0": 969,
+        "1": 816
+      },
+      "full_laurent_tensor_sha256": "61a2687f4e0cd10b16c169631b450c6cb8895ee53e4dbd5af248cfabf7312f98",
+      "verified": true
+    },
+    {
+      "m": 17,
+      "k": 2,
+      "N": 153,
+      "B": 426,
+      "matching_prior_lower_bound": 426,
+      "source_terms_enumerated": 7242,
+      "target_coefficient_space": 1591812,
+      "retained_terms": 1938,
+      "coefficient_count_by_power": {
+        "0": 1938,
+        "1": 1632,
+        "2": 36
+      },
+      "full_laurent_tensor_sha256": "c6957e682592c03bd0674fe5d19fe3bbc46b7283c476fb0df1b2ba992a5c7f35",
+      "verified": true
+    },
+    {
+      "m": 17,
+      "k": 3,
+      "N": 153,
+      "B": 643,
+      "matching_prior_lower_bound": 643,
+      "source_terms_enumerated": 10931,
+      "target_coefficient_space": 3581577,
+      "retained_terms": 2907,
+      "coefficient_count_by_power": {
+        "0": 2907,
+        "1": 2448,
+        "2": 72
+      },
+      "full_laurent_tensor_sha256": "7ade9c8052fb59d87d56a32a3898771c93d2874a17ad7efef923349be190ad32",
+      "verified": true
+    },
+    {
+      "m": 18,
+      "k": 1,
+      "N": 171,
+      "B": 235,
+      "matching_prior_lower_bound": 235,
+      "source_terms_enumerated": 4230,
+      "target_coefficient_space": 526338,
+      "retained_terms": 1140,
+      "coefficient_count_by_power": {
+        "0": 1140,
+        "1": 969
+      },
+      "full_laurent_tensor_sha256": "04f54e49fc216090c5a9a6d85cc801cd4ea0e96e37b5cb3bbbd0b124d2ce2843",
+      "verified": true
+    },
+    {
+      "m": 18,
+      "k": 2,
+      "N": 171,
+      "B": 478,
+      "matching_prior_lower_bound": 478,
+      "source_terms_enumerated": 8604,
+      "target_coefficient_space": 2105352,
+      "retained_terms": 2280,
+      "coefficient_count_by_power": {
+        "0": 2280,
+        "1": 1938,
+        "3": 45
+      },
+      "full_laurent_tensor_sha256": "ddefd93ed14aad09e1bdbf6612c4c460f49081be1a56cac879d4f79752f03d36",
+      "verified": true
+    },
+    {
+      "m": 18,
+      "k": 3,
+      "N": 171,
+      "B": 721,
+      "matching_prior_lower_bound": 721,
+      "source_terms_enumerated": 12978,
+      "target_coefficient_space": 4737042,
+      "retained_terms": 3420,
+      "coefficient_count_by_power": {
+        "0": 3420,
+        "1": 2907,
+        "3": 90
+      },
+      "full_laurent_tensor_sha256": "36dea46e2ebdb0adfd31de64b957d1f00ff137772a69c65b80b0802ac7ec7619",
+      "verified": true
+    },
+    {
+      "m": 19,
+      "k": 1,
+      "N": 190,
+      "B": 262,
+      "matching_prior_lower_bound": 262,
+      "source_terms_enumerated": 4978,
+      "target_coefficient_space": 685900,
+      "retained_terms": 1330,
+      "coefficient_count_by_power": {
+        "0": 1330,
+        "1": 1140
+      },
+      "full_laurent_tensor_sha256": "9456f58180ab9b1f8763d70d9db529acdb8b0cf54729031d6d8cd223f2339b9b",
+      "verified": true
+    },
+    {
+      "m": 19,
+      "k": 2,
+      "N": 190,
+      "B": 533,
+      "matching_prior_lower_bound": 533,
+      "source_terms_enumerated": 10127,
+      "target_coefficient_space": 2743600,
+      "retained_terms": 2660,
+      "coefficient_count_by_power": {
+        "0": 2660,
+        "1": 2280,
+        "2": 45
+      },
+      "full_laurent_tensor_sha256": "4c793ee260642a3f9d3d7e8c8e727b891bb1f857bcf94b311f6f561c78d9113d",
+      "verified": true
+    },
+    {
+      "m": 19,
+      "k": 3,
+      "N": 190,
+      "B": 804,
+      "matching_prior_lower_bound": 804,
+      "source_terms_enumerated": 15276,
+      "target_coefficient_space": 6173100,
+      "retained_terms": 3990,
+      "coefficient_count_by_power": {
+        "0": 3990,
+        "1": 3420,
+        "2": 90
+      },
+      "full_laurent_tensor_sha256": "163e77b57e6b222d4b9a26d2cc157683092e93023315f52a344ade1b06180f1e",
+      "verified": true
+    },
+    {
+      "m": 20,
+      "k": 1,
+      "N": 210,
+      "B": 291,
+      "matching_prior_lower_bound": 291,
+      "source_terms_enumerated": 5820,
+      "target_coefficient_space": 882000,
+      "retained_terms": 1540,
+      "coefficient_count_by_power": {
+        "0": 1540,
+        "1": 1330
+      },
+      "full_laurent_tensor_sha256": "f5ade7529b642aba311f10db3265f5e63a56c3a9b228080549df92b6115b1f5f",
+      "verified": true
+    },
+    {
+      "m": 20,
+      "k": 2,
+      "N": 210,
+      "B": 591,
+      "matching_prior_lower_bound": 591,
+      "source_terms_enumerated": 11820,
+      "target_coefficient_space": 3528000,
+      "retained_terms": 3080,
+      "coefficient_count_by_power": {
+        "0": 3080,
+        "1": 2660,
+        "3": 55
+      },
+      "full_laurent_tensor_sha256": "64a3195a5319f58dfe70c9ef3d836e659c5aaa77cf88818154daf09d9c9cb7bf",
+      "verified": true
+    },
+    {
+      "m": 20,
+      "k": 3,
+      "N": 210,
+      "B": 891,
+      "matching_prior_lower_bound": 891,
+      "source_terms_enumerated": 17820,
+      "target_coefficient_space": 7938000,
+      "retained_terms": 4620,
+      "coefficient_count_by_power": {
+        "0": 4620,
+        "1": 3990,
+        "3": 110
+      },
+      "full_laurent_tensor_sha256": "23060b7555dd766cf21f83881fa7a9ffba4306abed5e343f4d2ad6296397f7c1",
+      "verified": true
+    },
+    {
+      "m": 21,
+      "k": 1,
+      "N": 231,
+      "B": 321,
+      "matching_prior_lower_bound": 321,
+      "source_terms_enumerated": 6741,
+      "target_coefficient_space": 1120581,
+      "retained_terms": 1771,
+      "coefficient_count_by_power": {
+        "0": 1771,
+        "1": 1540
+      },
+      "full_laurent_tensor_sha256": "a500aad99e781c62c5d7d608868f1c10bf96e081dbd85abe0a911c4dce8a59a2",
+      "verified": true
+    },
+    {
+      "m": 21,
+      "k": 2,
+      "N": 231,
+      "B": 652,
+      "matching_prior_lower_bound": 652,
+      "source_terms_enumerated": 13692,
+      "target_coefficient_space": 4482324,
+      "retained_terms": 3542,
+      "coefficient_count_by_power": {
+        "0": 3542,
+        "1": 3080,
+        "2": 55
+      },
+      "full_laurent_tensor_sha256": "31bc6690c934ed66b5f6aa68befa35cff9a326038e919e0b70e45106506c33d9",
+      "verified": true
+    },
+    {
+      "m": 21,
+      "k": 3,
+      "N": 231,
+      "B": 983,
+      "matching_prior_lower_bound": 983,
+      "source_terms_enumerated": 20643,
+      "target_coefficient_space": 10085229,
+      "retained_terms": 5313,
+      "coefficient_count_by_power": {
+        "0": 5313,
+        "1": 4620,
+        "2": 110
+      },
+      "full_laurent_tensor_sha256": "b20c52849f3770fc303947a3c327c09600e77c1b3d68d55794b487fe1c839ad6",
+      "verified": true
+    },
+    {
+      "m": 22,
+      "k": 1,
+      "N": 253,
+      "B": 353,
+      "matching_prior_lower_bound": 353,
+      "source_terms_enumerated": 7766,
+      "target_coefficient_space": 1408198,
+      "retained_terms": 2024,
+      "coefficient_count_by_power": {
+        "0": 2024,
+        "1": 1771
+      },
+      "full_laurent_tensor_sha256": "792fa3a119546fa62d0b6366326e1c2352c591a6847cfe708992f57ce50064b8",
+      "verified": true
+    },
+    {
+      "m": 22,
+      "k": 2,
+      "N": 253,
+      "B": 716,
+      "matching_prior_lower_bound": 716,
+      "source_terms_enumerated": 15752,
+      "target_coefficient_space": 5632792,
+      "retained_terms": 4048,
+      "coefficient_count_by_power": {
+        "0": 4048,
+        "1": 3542,
+        "3": 66
+      },
+      "full_laurent_tensor_sha256": "9841c90a0f69ea8ada00b5d89b736cf1abe88e73eced5e9108331f34f734d9e5",
+      "verified": true
+    },
+    {
+      "m": 22,
+      "k": 3,
+      "N": 253,
+      "B": 1079,
+      "matching_prior_lower_bound": 1079,
+      "source_terms_enumerated": 23738,
+      "target_coefficient_space": 12673782,
+      "retained_terms": 6072,
+      "coefficient_count_by_power": {
+        "0": 6072,
+        "1": 5313,
+        "3": 132
+      },
+      "full_laurent_tensor_sha256": "10490d7798b12daf3691c6943d6efbb1bd07565ea6cb89fecc80a4f698b6f473",
+      "verified": true
+    },
+    {
+      "m": 23,
+      "k": 1,
+      "N": 276,
+      "B": 386,
+      "matching_prior_lower_bound": 386,
+      "source_terms_enumerated": 8878,
+      "target_coefficient_space": 1752048,
+      "retained_terms": 2300,
+      "coefficient_count_by_power": {
+        "0": 2300,
+        "1": 2024
+      },
+      "full_laurent_tensor_sha256": "40d375006e2c9f91f847adeb2ea9c11a1ff63f30b3ae0c24cc0e375b1bb76b87",
+      "verified": true
+    },
+    {
+      "m": 23,
+      "k": 2,
+      "N": 276,
+      "B": 783,
+      "matching_prior_lower_bound": 783,
+      "source_terms_enumerated": 18009,
+      "target_coefficient_space": 7008192,
+      "retained_terms": 4600,
+      "coefficient_count_by_power": {
+        "0": 4600,
+        "1": 4048,
+        "2": 66
+      },
+      "full_laurent_tensor_sha256": "07d924d34e44fee738511c79bb9f96f56902c4cfa8a7e9c660b4ec04579ceb82",
+      "verified": true
+    },
+    {
+      "m": 23,
+      "k": 3,
+      "N": 276,
+      "B": 1180,
+      "matching_prior_lower_bound": 1180,
+      "source_terms_enumerated": 27140,
+      "target_coefficient_space": 15768432,
+      "retained_terms": 6900,
+      "coefficient_count_by_power": {
+        "0": 6900,
+        "1": 6072,
+        "2": 132
+      },
+      "full_laurent_tensor_sha256": "7523f5522b6ac349c377b22414ca43707509a4cfd41aa9c38c3aa2bbb4428918",
+      "verified": true
+    },
+    {
+      "m": 24,
+      "k": 1,
+      "N": 300,
+      "B": 421,
+      "matching_prior_lower_bound": 421,
+      "source_terms_enumerated": 10104,
+      "target_coefficient_space": 2160000,
+      "retained_terms": 2600,
+      "coefficient_count_by_power": {
+        "0": 2600,
+        "1": 2300
+      },
+      "full_laurent_tensor_sha256": "e1e57378ad601c37876334103a16096fb5badfe23bd04db1195e47b173847159",
+      "verified": true
+    },
+    {
+      "m": 24,
+      "k": 2,
+      "N": 300,
+      "B": 853,
+      "matching_prior_lower_bound": 853,
+      "source_terms_enumerated": 20472,
+      "target_coefficient_space": 8640000,
+      "retained_terms": 5200,
+      "coefficient_count_by_power": {
+        "0": 5200,
+        "1": 4600,
+        "3": 78
+      },
+      "full_laurent_tensor_sha256": "e3f3314015499ecba87d2fdfbd3efe1837b0a7977743eab9135586fff02d5dea",
+      "verified": true
+    },
+    {
+      "m": 24,
+      "k": 3,
+      "N": 300,
+      "B": 1285,
+      "matching_prior_lower_bound": 1285,
+      "source_terms_enumerated": 30840,
+      "target_coefficient_space": 19440000,
+      "retained_terms": 7800,
+      "coefficient_count_by_power": {
+        "0": 7800,
+        "1": 6900,
+        "3": 156
+      },
+      "full_laurent_tensor_sha256": "13102386236ee502d21b65f42a6f9dd2513e96db4888cc3ab88fa868cf3b531a",
+      "verified": true
+    },
+    {
+      "m": 25,
+      "k": 1,
+      "N": 325,
+      "B": 457,
+      "matching_prior_lower_bound": 457,
+      "source_terms_enumerated": 11425,
+      "target_coefficient_space": 2640625,
+      "retained_terms": 2925,
+      "coefficient_count_by_power": {
+        "0": 2925,
+        "1": 2600
+      },
+      "full_laurent_tensor_sha256": "78a5166c7bb306daef76170fa5ce72a285309d39d406e1a27abd2a5cca7aee43",
+      "verified": true
+    },
+    {
+      "m": 25,
+      "k": 2,
+      "N": 325,
+      "B": 926,
+      "matching_prior_lower_bound": 926,
+      "source_terms_enumerated": 23150,
+      "target_coefficient_space": 10562500,
+      "retained_terms": 5850,
+      "coefficient_count_by_power": {
+        "0": 5850,
+        "1": 5200,
+        "2": 78
+      },
+      "full_laurent_tensor_sha256": "314f22d987613e1b0ce898bed29943e434c9d6fab54793c3099be782e4442023",
+      "verified": true
+    },
+    {
+      "m": 25,
+      "k": 3,
+      "N": 325,
+      "B": 1395,
+      "matching_prior_lower_bound": 1395,
+      "source_terms_enumerated": 34875,
+      "target_coefficient_space": 23765625,
+      "retained_terms": 8775,
+      "coefficient_count_by_power": {
+        "0": 8775,
+        "1": 7800,
+        "2": 156
+      },
+      "full_laurent_tensor_sha256": "bf07851d07abcc14c5d12860dcd812422b75c5931acdf1cc8e5336e96d24ba4a",
+      "verified": true
+    },
+    {
+      "m": 26,
+      "k": 1,
+      "N": 351,
+      "B": 495,
+      "matching_prior_lower_bound": 495,
+      "source_terms_enumerated": 12870,
+      "target_coefficient_space": 3203226,
+      "retained_terms": 3276,
+      "coefficient_count_by_power": {
+        "0": 3276,
+        "1": 2925
+      },
+      "full_laurent_tensor_sha256": "34707df035213ca93196a0a5c54dca1223c4b82f888f100c95701f445933e72b",
+      "verified": true
+    },
+    {
+      "m": 26,
+      "k": 2,
+      "N": 351,
+      "B": 1002,
+      "matching_prior_lower_bound": 1002,
+      "source_terms_enumerated": 26052,
+      "target_coefficient_space": 12812904,
+      "retained_terms": 6552,
+      "coefficient_count_by_power": {
+        "0": 6552,
+        "1": 5850,
+        "3": 91
+      },
+      "full_laurent_tensor_sha256": "f7d55b3a1a207c3103a701d1bb9c96f2bb490c9b81f66b6e204b84b280726c17",
+      "verified": true
+    },
+    {
+      "m": 26,
+      "k": 3,
+      "N": 351,
+      "B": 1509,
+      "matching_prior_lower_bound": 1509,
+      "source_terms_enumerated": 39234,
+      "target_coefficient_space": 28829034,
+      "retained_terms": 9828,
+      "coefficient_count_by_power": {
+        "0": 9828,
+        "1": 8775,
+        "3": 182
+      },
+      "full_laurent_tensor_sha256": "7ec4bc7239c4db684c40df92ee4108dbe79ccebe1fa95999726b922d0f53278e",
+      "verified": true
+    },
+    {
+      "m": 27,
+      "k": 1,
+      "N": 378,
+      "B": 534,
+      "matching_prior_lower_bound": 534,
+      "source_terms_enumerated": 14418,
+      "target_coefficient_space": 3857868,
+      "retained_terms": 3654,
+      "coefficient_count_by_power": {
+        "0": 3654,
+        "1": 3276
+      },
+      "full_laurent_tensor_sha256": "7477bae3e6859aafbaf85f9288232e9da2e755a8dcfefc6724cf8b0d6e62d39b",
+      "verified": true
+    },
+    {
+      "m": 27,
+      "k": 2,
+      "N": 378,
+      "B": 1081,
+      "matching_prior_lower_bound": 1081,
+      "source_terms_enumerated": 29187,
+      "target_coefficient_space": 15431472,
+      "retained_terms": 7308,
+      "coefficient_count_by_power": {
+        "0": 7308,
+        "1": 6552,
+        "2": 91
+      },
+      "full_laurent_tensor_sha256": "72237446b63ae132a5e0de6ed33efd6e545c0aee7b5dbc2a548d1999e31495a8",
+      "verified": true
+    },
+    {
+      "m": 27,
+      "k": 3,
+      "N": 378,
+      "B": 1628,
+      "matching_prior_lower_bound": 1628,
+      "source_terms_enumerated": 43956,
+      "target_coefficient_space": 34720812,
+      "retained_terms": 10962,
+      "coefficient_count_by_power": {
+        "0": 10962,
+        "1": 9828,
+        "2": 182
+      },
+      "full_laurent_tensor_sha256": "22446f98b3707709862cfd1e12b4f2d6d792c2b2158308fd56418fee835ec5d3",
+      "verified": true
+    },
+    {
+      "m": 28,
+      "k": 1,
+      "N": 406,
+      "B": 575,
+      "matching_prior_lower_bound": 575,
+      "source_terms_enumerated": 16100,
+      "target_coefficient_space": 4615408,
+      "retained_terms": 4060,
+      "coefficient_count_by_power": {
+        "0": 4060,
+        "1": 3654
+      },
+      "full_laurent_tensor_sha256": "425263ab5d198e676b21032dbe258bba77596d4f05ce626dd559d2d5921df125",
+      "verified": true
+    },
+    {
+      "m": 28,
+      "k": 2,
+      "N": 406,
+      "B": 1163,
+      "matching_prior_lower_bound": 1163,
+      "source_terms_enumerated": 32564,
+      "target_coefficient_space": 18461632,
+      "retained_terms": 8120,
+      "coefficient_count_by_power": {
+        "0": 8120,
+        "1": 7308,
+        "3": 105
+      },
+      "full_laurent_tensor_sha256": "66ef901c59c4ff71ad218dfd0ea5de8759ea4f947a6505bd9f8b422c4160f07b",
+      "verified": true
+    },
+    {
+      "m": 28,
+      "k": 3,
+      "N": 406,
+      "B": 1751,
+      "matching_prior_lower_bound": 1751,
+      "source_terms_enumerated": 49028,
+      "target_coefficient_space": 41538672,
+      "retained_terms": 12180,
+      "coefficient_count_by_power": {
+        "0": 12180,
+        "1": 10962,
+        "3": 210
+      },
+      "full_laurent_tensor_sha256": "9e334cf1a5b2373d17df3a9319e6d4d6635fa5984b965772c2297ecdcde97ee7",
+      "verified": true
+    },
+    {
+      "m": 29,
+      "k": 1,
+      "N": 435,
+      "B": 617,
+      "matching_prior_lower_bound": 617,
+      "source_terms_enumerated": 17893,
+      "target_coefficient_space": 5487525,
+      "retained_terms": 4495,
+      "coefficient_count_by_power": {
+        "0": 4495,
+        "1": 4060
+      },
+      "full_laurent_tensor_sha256": "a3fbe44ad51b3225a3ae68d6d1231dd1c29edc8b6e2e05f6398605afc9d602d5",
+      "verified": true
+    },
+    {
+      "m": 29,
+      "k": 2,
+      "N": 435,
+      "B": 1248,
+      "matching_prior_lower_bound": 1248,
+      "source_terms_enumerated": 36192,
+      "target_coefficient_space": 21950100,
+      "retained_terms": 8990,
+      "coefficient_count_by_power": {
+        "0": 8990,
+        "1": 8120,
+        "2": 105
+      },
+      "full_laurent_tensor_sha256": "bded4dabb625827fb3592afce1bdd0584fc99dcc711b1f4150d37901fe002042",
+      "verified": true
+    },
+    {
+      "m": 29,
+      "k": 3,
+      "N": 435,
+      "B": 1879,
+      "matching_prior_lower_bound": 1879,
+      "source_terms_enumerated": 54491,
+      "target_coefficient_space": 49387725,
+      "retained_terms": 13485,
+      "coefficient_count_by_power": {
+        "0": 13485,
+        "1": 12180,
+        "2": 210
+      },
+      "full_laurent_tensor_sha256": "b0319136d550d83c83cb727a8a23b74bcc9fede1890ec85e4bf705c742625e35",
+      "verified": true
+    },
+    {
+      "m": 30,
+      "k": 1,
+      "N": 465,
+      "B": 661,
+      "matching_prior_lower_bound": 661,
+      "source_terms_enumerated": 19830,
+      "target_coefficient_space": 6486750,
+      "retained_terms": 4960,
+      "coefficient_count_by_power": {
+        "0": 4960,
+        "1": 4495
+      },
+      "full_laurent_tensor_sha256": "da29e453995c8881f86fa1d90f5f34feb18b1f55826f7e363b49ce79a198bc1b",
+      "verified": true
+    },
+    {
+      "m": 30,
+      "k": 2,
+      "N": 465,
+      "B": 1336,
+      "matching_prior_lower_bound": 1336,
+      "source_terms_enumerated": 40080,
+      "target_coefficient_space": 25947000,
+      "retained_terms": 9920,
+      "coefficient_count_by_power": {
+        "0": 9920,
+        "1": 8990,
+        "3": 120
+      },
+      "full_laurent_tensor_sha256": "e19b3f87facd57bd655ff6d67362dbe3c3d21702d88f6eeaad49d36833897659",
+      "verified": true
+    },
+    {
+      "m": 30,
+      "k": 3,
+      "N": 465,
+      "B": 2011,
+      "matching_prior_lower_bound": 2011,
+      "source_terms_enumerated": 60330,
+      "target_coefficient_space": 58380750,
+      "retained_terms": 14880,
+      "coefficient_count_by_power": {
+        "0": 14880,
+        "1": 13485,
+        "3": 240
+      },
+      "full_laurent_tensor_sha256": "1c6b88da0b91c801e6aedbc0fa6c51b5aa2be37482e0b566d735d548246d4b49",
+      "verified": true
+    },
+    {
+      "m": 31,
+      "k": 1,
+      "N": 496,
+      "B": 706,
+      "matching_prior_lower_bound": 706,
+      "source_terms_enumerated": 21886,
+      "target_coefficient_space": 7626496,
+      "retained_terms": 5456,
+      "coefficient_count_by_power": {
+        "0": 5456,
+        "1": 4960
+      },
+      "full_laurent_tensor_sha256": "31cdc551f52bc443d5be64882b07c3c1d520d6ab0e0987d3308b996d9cd66ff7",
+      "verified": true
+    },
+    {
+      "m": 31,
+      "k": 2,
+      "N": 496,
+      "B": 1427,
+      "matching_prior_lower_bound": 1427,
+      "source_terms_enumerated": 44237,
+      "target_coefficient_space": 30505984,
+      "retained_terms": 10912,
+      "coefficient_count_by_power": {
+        "0": 10912,
+        "1": 9920,
+        "2": 120
+      },
+      "full_laurent_tensor_sha256": "58a4a6e5ff5df7a85f5bc46c19850ff10ae08b22c951c527bbcc1b2014e16a2f",
+      "verified": true
+    },
+    {
+      "m": 31,
+      "k": 3,
+      "N": 496,
+      "B": 2148,
+      "matching_prior_lower_bound": 2148,
+      "source_terms_enumerated": 66588,
+      "target_coefficient_space": 68638464,
+      "retained_terms": 16368,
+      "coefficient_count_by_power": {
+        "0": 16368,
+        "1": 14880,
+        "2": 240
+      },
+      "full_laurent_tensor_sha256": "7cd2123f5e0eb0afa8bb31f2d2161415fa2889c7190fa5722c59ba078b8a50c6",
+      "verified": true
+    },
+    {
+      "m": 32,
+      "k": 1,
+      "N": 528,
+      "B": 753,
+      "matching_prior_lower_bound": 753,
+      "source_terms_enumerated": 24096,
+      "target_coefficient_space": 8921088,
+      "retained_terms": 5984,
+      "coefficient_count_by_power": {
+        "0": 5984,
+        "1": 5456
+      },
+      "full_laurent_tensor_sha256": "53bf093224cde5c6768171a1ea59938d4eaa74033435f7ff7ba0f410c7061660",
+      "verified": true
+    },
+    {
+      "m": 32,
+      "k": 2,
+      "N": 528,
+      "B": 1521,
+      "matching_prior_lower_bound": 1521,
+      "source_terms_enumerated": 48672,
+      "target_coefficient_space": 35684352,
+      "retained_terms": 11968,
+      "coefficient_count_by_power": {
+        "0": 11968,
+        "1": 10912,
+        "3": 136
+      },
+      "full_laurent_tensor_sha256": "61eccd74727f6e17783f14ded84317a9b35f106d60b83d1c6a7dec5025707b30",
+      "verified": true
+    },
+    {
+      "m": 32,
+      "k": 3,
+      "N": 528,
+      "B": 2289,
+      "matching_prior_lower_bound": 2289,
+      "source_terms_enumerated": 73248,
+      "target_coefficient_space": 80289792,
+      "retained_terms": 17952,
+      "coefficient_count_by_power": {
+        "0": 17952,
+        "1": 16368,
+        "3": 272
+      },
+      "full_laurent_tensor_sha256": "ea1733b171161ffd6c0c2c42f69eafa13bdf15e9a34e18c3cf603b457af4e36d",
+      "verified": true
+    },
+    {
+      "m": 33,
+      "k": 1,
+      "N": 561,
+      "B": 801,
+      "matching_prior_lower_bound": 801,
+      "source_terms_enumerated": 26433,
+      "target_coefficient_space": 10385793,
+      "retained_terms": 6545,
+      "coefficient_count_by_power": {
+        "0": 6545,
+        "1": 5984
+      },
+      "full_laurent_tensor_sha256": "46d9053c15a5a2e35291a699bde5aa5229d4a5cba3318ba8156d384bb26c2336",
+      "verified": true
+    },
+    {
+      "m": 33,
+      "k": 2,
+      "N": 561,
+      "B": 1618,
+      "matching_prior_lower_bound": 1618,
+      "source_terms_enumerated": 53394,
+      "target_coefficient_space": 41543172,
+      "retained_terms": 13090,
+      "coefficient_count_by_power": {
+        "0": 13090,
+        "1": 11968,
+        "2": 136
+      },
+      "full_laurent_tensor_sha256": "0e018a0f2b4c9a0fbc51b2a5ede565a4b5f0e19409c944fb1f7b3071da9dc6b7",
+      "verified": true
+    },
+    {
+      "m": 33,
+      "k": 3,
+      "N": 561,
+      "B": 2435,
+      "matching_prior_lower_bound": 2435,
+      "source_terms_enumerated": 80355,
+      "target_coefficient_space": 93472137,
+      "retained_terms": 19635,
+      "coefficient_count_by_power": {
+        "0": 19635,
+        "1": 17952,
+        "2": 272
+      },
+      "full_laurent_tensor_sha256": "c490819b22b1595f2282ac291787ea2462178413115f547d6d009de482337669",
+      "verified": true
+    },
+    {
+      "m": 34,
+      "k": 1,
+      "N": 595,
+      "B": 851,
+      "matching_prior_lower_bound": 851,
+      "source_terms_enumerated": 28934,
+      "target_coefficient_space": 12036850,
+      "retained_terms": 7140,
+      "coefficient_count_by_power": {
+        "0": 7140,
+        "1": 6545
+      },
+      "full_laurent_tensor_sha256": "b6d4d8751bb57e85cbc6b8ba5c522f36dfd556d612bd0826b7aed531fa116e45",
+      "verified": true
+    },
+    {
+      "m": 34,
+      "k": 2,
+      "N": 595,
+      "B": 1718,
+      "matching_prior_lower_bound": 1718,
+      "source_terms_enumerated": 58412,
+      "target_coefficient_space": 48147400,
+      "retained_terms": 14280,
+      "coefficient_count_by_power": {
+        "0": 14280,
+        "1": 13090,
+        "3": 153
+      },
+      "full_laurent_tensor_sha256": "50d51ccff939a14d5768647fb957c0b64869511d1a6394dbce6af149e3a309ca",
+      "verified": true
+    },
+    {
+      "m": 34,
+      "k": 3,
+      "N": 595,
+      "B": 2585,
+      "matching_prior_lower_bound": 2585,
+      "source_terms_enumerated": 87890,
+      "target_coefficient_space": 108331650,
+      "retained_terms": 21420,
+      "coefficient_count_by_power": {
+        "0": 21420,
+        "1": 19635,
+        "3": 306
+      },
+      "full_laurent_tensor_sha256": "1e998e9720f6bd309e1414fe9ddb6a599f71c49761d3cb318de47c22f07accd3",
+      "verified": true
+    },
+    {
+      "m": 35,
+      "k": 1,
+      "N": 630,
+      "B": 902,
+      "matching_prior_lower_bound": 902,
+      "source_terms_enumerated": 31570,
+      "target_coefficient_space": 13891500,
+      "retained_terms": 7770,
+      "coefficient_count_by_power": {
+        "0": 7770,
+        "1": 7140
+      },
+      "full_laurent_tensor_sha256": "4aa71f248c9abd2cd23f0cdda57c8af326b844bd2293a5d584a7ce1cee1c1cce",
+      "verified": true
+    },
+    {
+      "m": 35,
+      "k": 2,
+      "N": 630,
+      "B": 1821,
+      "matching_prior_lower_bound": 1821,
+      "source_terms_enumerated": 63735,
+      "target_coefficient_space": 55566000,
+      "retained_terms": 15540,
+      "coefficient_count_by_power": {
+        "0": 15540,
+        "1": 14280,
+        "2": 153
+      },
+      "full_laurent_tensor_sha256": "0c634fa6fd701fc24182ecc0448c2136e6002a57f32f0b1b6d0e7e70a8e888a7",
+      "verified": true
+    },
+    {
+      "m": 35,
+      "k": 3,
+      "N": 630,
+      "B": 2740,
+      "matching_prior_lower_bound": 2740,
+      "source_terms_enumerated": 95900,
+      "target_coefficient_space": 125023500,
+      "retained_terms": 23310,
+      "coefficient_count_by_power": {
+        "0": 23310,
+        "1": 21420,
+        "2": 306
+      },
+      "full_laurent_tensor_sha256": "732451e28ac3c7b03dec13929a10fc755cd6a7633de9ffc0f5f9f953a27ff44f",
+      "verified": true
+    },
+    {
+      "m": 36,
+      "k": 1,
+      "N": 666,
+      "B": 955,
+      "matching_prior_lower_bound": 955,
+      "source_terms_enumerated": 34380,
+      "target_coefficient_space": 15968016,
+      "retained_terms": 8436,
+      "coefficient_count_by_power": {
+        "0": 8436,
+        "1": 7770
+      },
+      "full_laurent_tensor_sha256": "3057f1aa158e838fa7a3c003c1387c3ed81021db435541ac1d40e899e50902c1",
+      "verified": true
+    },
+    {
+      "m": 36,
+      "k": 2,
+      "N": 666,
+      "B": 1927,
+      "matching_prior_lower_bound": 1927,
+      "source_terms_enumerated": 69372,
+      "target_coefficient_space": 63872064,
+      "retained_terms": 16872,
+      "coefficient_count_by_power": {
+        "0": 16872,
+        "1": 15540,
+        "3": 171
+      },
+      "full_laurent_tensor_sha256": "f4d06443c24279b1d9b5dc8febd278f4f5ddce9e6ef11cf20d31e4b7546413b4",
+      "verified": true
+    },
+    {
+      "m": 36,
+      "k": 3,
+      "N": 666,
+      "B": 2899,
+      "matching_prior_lower_bound": 2899,
+      "source_terms_enumerated": 104364,
+      "target_coefficient_space": 143712144,
+      "retained_terms": 25308,
+      "coefficient_count_by_power": {
+        "0": 25308,
+        "1": 23310,
+        "3": 342
+      },
+      "full_laurent_tensor_sha256": "582deea0aa0d5a4e7daf6eb1e17565596396b6f54791429dbfe3617a4d1f010f",
+      "verified": true
+    },
+    {
+      "m": 37,
+      "k": 1,
+      "N": 703,
+      "B": 1009,
+      "matching_prior_lower_bound": 1009,
+      "source_terms_enumerated": 37333,
+      "target_coefficient_space": 18285733,
+      "retained_terms": 9139,
+      "coefficient_count_by_power": {
+        "0": 9139,
+        "1": 8436
+      },
+      "full_laurent_tensor_sha256": "6ac413fe33940caf5e925c832ffc4007c1fffcbccbd5387b71861291ae576ab1",
+      "verified": true
+    },
+    {
+      "m": 37,
+      "k": 2,
+      "N": 703,
+      "B": 2036,
+      "matching_prior_lower_bound": 2036,
+      "source_terms_enumerated": 75332,
+      "target_coefficient_space": 73142932,
+      "retained_terms": 18278,
+      "coefficient_count_by_power": {
+        "0": 18278,
+        "1": 16872,
+        "2": 171
+      },
+      "full_laurent_tensor_sha256": "b9317d80b2bcfdda1a66172c421fbcd22dd350b7fa58d4eaf6ec8e98eb5638f3",
+      "verified": true
+    },
+    {
+      "m": 37,
+      "k": 3,
+      "N": 703,
+      "B": 3063,
+      "matching_prior_lower_bound": 3063,
+      "source_terms_enumerated": 113331,
+      "target_coefficient_space": 164571597,
+      "retained_terms": 27417,
+      "coefficient_count_by_power": {
+        "0": 27417,
+        "1": 25308,
+        "2": 342
+      },
+      "full_laurent_tensor_sha256": "ab78df9e0ea61f1415a5e38ae674dbd7395f559f1201450ae3cbdd4c52560bd1",
+      "verified": true
+    },
+    {
+      "m": 38,
+      "k": 1,
+      "N": 741,
+      "B": 1065,
+      "matching_prior_lower_bound": 1065,
+      "source_terms_enumerated": 40470,
+      "target_coefficient_space": 20865078,
+      "retained_terms": 9880,
+      "coefficient_count_by_power": {
+        "0": 9880,
+        "1": 9139
+      },
+      "full_laurent_tensor_sha256": "dfd4c2de2f4752e1951e38a2f1df25296354ceb6fc6b12ec9c772ecb9b1df0ce",
+      "verified": true
+    },
+    {
+      "m": 38,
+      "k": 2,
+      "N": 741,
+      "B": 2148,
+      "matching_prior_lower_bound": 2148,
+      "source_terms_enumerated": 81624,
+      "target_coefficient_space": 83460312,
+      "retained_terms": 19760,
+      "coefficient_count_by_power": {
+        "0": 19760,
+        "1": 18278,
+        "3": 190
+      },
+      "full_laurent_tensor_sha256": "0db71b4d15d772b7572419ec874a4d59d7b439e7c50ee7dae77fdccc5ed88857",
+      "verified": true
+    },
+    {
+      "m": 38,
+      "k": 3,
+      "N": 741,
+      "B": 3231,
+      "matching_prior_lower_bound": 3231,
+      "source_terms_enumerated": 122778,
+      "target_coefficient_space": 187785702,
+      "retained_terms": 29640,
+      "coefficient_count_by_power": {
+        "0": 29640,
+        "1": 27417,
+        "3": 380
+      },
+      "full_laurent_tensor_sha256": "64f4607bdab89bf940df5923f6864cf8a7ac949881298b058df4354e1f717d0a",
+      "verified": true
+    },
+    {
+      "m": 39,
+      "k": 1,
+      "N": 780,
+      "B": 1122,
+      "matching_prior_lower_bound": 1122,
+      "source_terms_enumerated": 43758,
+      "target_coefficient_space": 23727600,
+      "retained_terms": 10660,
+      "coefficient_count_by_power": {
+        "0": 10660,
+        "1": 9880
+      },
+      "full_laurent_tensor_sha256": "95955ebf6aa5086c46175b4d1a51af07e720814dcf8cab45ee5264bc1088007f",
+      "verified": true
+    },
+    {
+      "m": 39,
+      "k": 2,
+      "N": 780,
+      "B": 2263,
+      "matching_prior_lower_bound": 2263,
+      "source_terms_enumerated": 88257,
+      "target_coefficient_space": 94910400,
+      "retained_terms": 21320,
+      "coefficient_count_by_power": {
+        "0": 21320,
+        "1": 19760,
+        "2": 190
+      },
+      "full_laurent_tensor_sha256": "1bae135758ffcc943dfb8bce9a02acd9409a2ae736706d50fcfcb465bed8e9b0",
+      "verified": true
+    },
+    {
+      "m": 39,
+      "k": 3,
+      "N": 780,
+      "B": 3404,
+      "matching_prior_lower_bound": 3404,
+      "source_terms_enumerated": 132756,
+      "target_coefficient_space": 213548400,
+      "retained_terms": 31980,
+      "coefficient_count_by_power": {
+        "0": 31980,
+        "1": 29640,
+        "2": 380
+      },
+      "full_laurent_tensor_sha256": "67f05843010ac89899f9220244160c0f0cd6910a841a27f3f5132c7466b883c1",
+      "verified": true
+    },
+    {
+      "m": 40,
+      "k": 1,
+      "N": 820,
+      "B": 1181,
+      "matching_prior_lower_bound": 1181,
+      "source_terms_enumerated": 47240,
+      "target_coefficient_space": 26896000,
+      "retained_terms": 11480,
+      "coefficient_count_by_power": {
+        "0": 11480,
+        "1": 10660
+      },
+      "full_laurent_tensor_sha256": "94eaa41f103596df1b195e8323a1c74e938a4cc1d461eaab09e92b15175439a4",
+      "verified": true
+    },
+    {
+      "m": 40,
+      "k": 2,
+      "N": 820,
+      "B": 2381,
+      "matching_prior_lower_bound": 2381,
+      "source_terms_enumerated": 95240,
+      "target_coefficient_space": 107584000,
+      "retained_terms": 22960,
+      "coefficient_count_by_power": {
+        "0": 22960,
+        "1": 21320,
+        "3": 210
+      },
+      "full_laurent_tensor_sha256": "284d25f9d49ea6d069269146a71c22ece212977354aebfdf2ae48b065e20948c",
+      "verified": true
+    },
+    {
+      "m": 40,
+      "k": 3,
+      "N": 820,
+      "B": 3581,
+      "matching_prior_lower_bound": 3581,
+      "source_terms_enumerated": 143240,
+      "target_coefficient_space": 242064000,
+      "retained_terms": 34440,
+      "coefficient_count_by_power": {
+        "0": 34440,
+        "1": 31980,
+        "3": 420
+      },
+      "full_laurent_tensor_sha256": "794dfb3f719fe133511b2947fb867c27f7e3fb96f8f0525af83f48187e57767b",
+      "verified": true
+    }
+  ]
+}
