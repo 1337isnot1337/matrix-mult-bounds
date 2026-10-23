@@ -26,6 +26,12 @@ argument is not asserted there. No exponent improvement or independent
 review. Older unit-image rank thresholds below are historical method
 boundaries, not the frontier after these continuations.
 
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument
