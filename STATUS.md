@@ -16,6 +16,34 @@ The preceding two-jet curve remains valid everywhere on d nonzero: it
 chooses a different third coefficient. No general matrix-target
 obstruction or improved exponent follows from this local classification.
 
+## Complete projective conic normal-class lifting
+
+The [projective criterion](research/ai/2026-10-23-conic-projective-criterion/proof.md)
+covers every complex base point `[r:s]`, `[a0:a1]`, `[b0:b1]` in the
+product of three projective lines. The leading ranks remain 14, 14 and 12,
+and the complete tangent has 68 boundary directions and two normal
+directions at every point, including infinity. For a nonzero normal class
+`[lambda:mu]`, some second jet, some formal curve and some exact polynomial
+curve exist precisely when
+`(a1*r-a0*s)*(b1*r+b0*s)*(s*lambda^3+r*mu^3)=0`.
+The first boundary velocity may be chosen; this does not assert that
+every prescribed full first or higher jet extends.
+
+The set of liftable classes has exactly three irreducible components:
+the graphs `[a0:a1]=[r:s]`, `[b0:b1]=[r:-s]` and
+`[r:s]=[lambda^3:-mu^3]`. This is a set-theoretic classification, without
+an assertion about the full incidence scheme. A literal source reversal
+swaps the conic coordinates and the normal class `[lambda:mu]` to
+`[mu:lambda]`; unit row transitions prove that no extra component appears
+through rank loss at infinity. Three complete missing-stratum curvature
+certificates, eight polynomial families and seven linear-component
+identities replay exactly. Seven focused tests pass. The finite mixed
+curves have degrees one and two. Claim
+`AI-CONIC-PROJECTIVE-CRITERION-001` is written and unreviewed. The earlier
+affine criterion remains a correct scoped prerequisite. No full matrix
+target, independent mathematical review, Lean formalization or exponent
+improvement is claimed.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
@@ -57,9 +85,11 @@ extends to a formal (indeed polynomial) incidence curve exactly when
 `(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. Necessity is PR101's complete
 second-order obstruction; sufficiency combines its linear-component
 curves with the polynomial cubic-component curve below. Claim
-`AI-CONIC-ALL-ORDER-CRITERION-002` is written and unreviewed. All
-projective normal directions are included; other projective base charts
-and extension of a prescribed full tangent remain distinct questions.
+`AI-CONIC-ALL-ORDER-CRITERION-002` is written and unreviewed. It is the
+correct affine-chart prerequisite for the projective result above.
+All projective normal directions are included in its stated affine base;
+the new theorem supplies the other base charts. Extension of every
+prescribed full tangent remains a distinct question.
 
 The [polynomial-curve proof](research/ai/2026-10-23-conic-polynomial-curve/proof.md)
 constructs an exact curve for every complex a,b,d with c=-d^3, including
@@ -334,9 +364,11 @@ An exported polynomial two-jet on c=-d^3 passes direct all-source replay,
 including d=0, while its uncorrected third coefficient has184 nonzero
 entries. The other two factors admit exact linear incidence curves.
 Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
-`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later polynomial-curve package completes all-order existence on
-the cubic component for a suitable first representative. Other projective
-base charts, the separate12-by8 problem and the full matrix target remain open. The exponent remains9/4.
+`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later
+polynomial-curve package completes affine all-order existence for a suitable
+first representative, and the projective criterion above covers every
+base chart. Prescribed-jet questions, the separate 12-by-8 problem and the
+full matrix target retain their separate scopes. The exponent remains 9/4.
 
 ## Finite cube bounds split-cover coordinate target volume
 

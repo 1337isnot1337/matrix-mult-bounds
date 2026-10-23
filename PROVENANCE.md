@@ -12,6 +12,25 @@ review and replay are not independent external mathematical review or
 formalization. The earlier two-jet extension keeps its distinct scope;
 no full matrix target, historical priority or exponent gain is claimed.
 
+The `2026-10-23-conic-projective-criterion` package is owner-directed
+OpenAI Codex work. PR101 retains credit for the canonical source, the
+complete affine tangent and second-order obstruction, and the exact
+linear-component curves. Its biform predecessors retain credit for the
+projective common-factor conic. The PR136 affine all-order criterion
+remains a correct scoped prerequisite; its rank-one gauge supplies the
+construction principle. Eleven exact byte pins preserve these inputs.
+
+The additions are unit frames and complete tangent/curvature calculations
+on the three missing residual strata, a literal source reversal with the
+global normal-coordinate transition, and exact polynomial curves on all
+projective base points. The resulting three-component description is
+set-theoretic and allows the first boundary velocity to be chosen.
+The separate acceptance code imports no curve constructor and checks the
+saved maps against all 4096 literal source terms. Seven focused tests and
+a same-session audit pass. These checks do not constitute independent
+mathematical review or Lean formalization. No full matrix target,
+historical priority or exponent improvement is claimed.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

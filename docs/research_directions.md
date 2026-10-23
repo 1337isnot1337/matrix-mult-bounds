@@ -6,20 +6,36 @@ The [prescribed third-jet criterion](../research/ai/2026-10-23-conic-fixed-third
 now gives order-four and all-order extension exactly on Delta=0, on the
 d-nonzero mixed chart. The [full two-jet curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
 uses a different third coefficient and still extends at every point of
-that chart. Investigate the remaining projective base charts with their
-actual rank and normal-coordinate transitions, or describe which other
-third coefficients extend. Mere homogenization of an affine criterion
-does not establish its boundary rank hypotheses.
+that chart. The projective normal-class theorem below now checks all
+base-chart ranks and transitions. Describe which other prescribed
+third coefficients extend; normal-class existence leaves that question
+distinct. Mere homogenization alone would not establish the boundary
+rank hypotheses.
+
+The [projective conic criterion](../research/ai/2026-10-23-conic-projective-criterion/proof.md)
+now completes the affine prerequisite on every point of the three
+projective base lines. Some representative of a nonzero normal class
+extends to all orders exactly when
+`(a1*r-a0*s)*(b1*r+b0*s)*(s*lambda^3+r*mu^3)=0`.
+The first boundary velocity is free. Complete unit certificates establish
+the ranks at infinity, and literal source reversal swaps the normal
+coordinates. The set of liftable classes has exactly three irreducible
+graph components; this is not an incidence-scheme classification.
+The projective chart-coverage question is therefore closed. Further work
+must address specified boundary velocities or local moduli, or prove an
+explicit bridge from this rank-twelve incidence to a full matrix target.
+The existing affine criterion stays correct within its original scope.
+Neither this global local-incidence result nor its exact curves construct
+M(10,10,11) or improve the exponent.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
 now extends PR107's entire prescribed two-jet on d nonzero, with exact
 polynomial maps of degrees eight and nine and no other parameter guards.
 Its kernel stays fixed, whereas PR107's prescribed third kernel
-coefficient is nonzero. The new fixed-third criterion above now settles its extension locus.
-The remaining projective base charts of the all-order normal-class
-criterion are still open. An extension of one specified
-two-jet does not classify all boundary velocities or construct the full
-matrix target.
+coefficient is nonzero. The fixed-third criterion above now settles its
+extension locus. The projective criterion above covers the remaining
+base charts. An extension of one specified two-jet does not classify
+all boundary velocities or construct the full matrix target.
 
 The [fixed-first conic curve](../research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
 now preserves PR107's entire specified first jet in two exact cubic
@@ -33,6 +49,7 @@ now realizes every cubic-component normal[1:d] for all complex a,b,d,
 including d=0, with complete maps of t-degrees one and three. Combined
 with PR101, its corollary makes the second-order criterion necessary and
 sufficient for all-order normal-class existence on the affine base chart.
+This remains a correct prerequisite for the projective extension above.
 Its boundary
 velocity differs from the credited first jet. The separate
 [higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
