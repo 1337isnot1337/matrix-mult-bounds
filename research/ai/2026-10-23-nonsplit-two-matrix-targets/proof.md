@@ -1,9 +1,10 @@
-# Fifth- and sixth-power checks of two-matrix targets for the nonsplit source
+# Fifth- through seventh-power checks of two-matrix targets for the nonsplit source
 
 October 23, 2026. This is finite, owner-directed Codex research. The prior
 two-matrix frontier is an input ledger; its earlier screen generators were
-not retained. The exact power-five comparison checks all 144 rows, and the
-power-six comparison checks the 136 rows not excluded at power five. No
+not retained. The exact power-five comparison checks all 144 rows, the
+power-six comparison checks the 136 rows not excluded at power five, and
+power seven checks the 126 rows left after power six. No
 target is constructed, and no matrix-multiplication exponent improvement
 is established. Source hashes and inherited proof statuses are in
 `SOURCES.json`.
@@ -161,14 +162,54 @@ power-five non-exclusions, ten now exceed the power-six source bound:
 The remaining 126 candidates are not excluded by this sixth-power check.
 They are not shown to survive all degenerations or to be constructible.
 
+## Seventh-power source and target comparison
+
+For seven source factors, use `P(t)^j [16(1+t^h_j)]^(7-j)` with degree
+ceiling `D_j=8j+h_j(7-j)`. The producer searches weights `1<=h_j<=48`
+and selects explicit cutoff triples. This finite weight search is not a
+global source-cover optimality claim.
+
+| Principal factors `j` | Words | `h_j` | `D_j` | Cutoffs | Slices per word |
+| ---: | ---: | ---: | ---: | --- | ---: |
+| 0 | 1 | 1 | 7 | 1, 2, 2 | 17,716,740,096 |
+| 1 | 7 | 3 | 26 | 8, 8, 8 | 43,234,885,632 |
+| 2 | 21 | 3 | 31 | 9, 10, 10 | 108,573,753,344 |
+| 3 | 35 | 3 | 36 | 11, 11, 12 | 261,325,914,112 |
+| 4 | 35 | 3 | 41 | 13, 13, 13 | 623,768,764,416 |
+| 5 | 21 | 3 | 46 | 14, 15, 15 | 1,518,375,598,080 |
+| 6 | 7 | 3 | 51 | 16, 16, 17 | 3,678,006,655,344 |
+| 7 | 1 | unused | 56 | 18, 18, 18 | 8,860,016,290,395 |
+
+Each cutoff sum is `D_j-2`. The full integer degree-class replay checks
+`11^7 = 19,487,171` ordered class tuples, all 128 block words,
+`120^7 = 358,318,080,000,000` coordinate tuples with multiplicity, and
+607,328 degree triples under the cutoffs. After applying word
+multiplicities, it gives
+
+    SR_F4(T_SL2F5^tensor(7)) <= 100,070,673,945,707.
+
+The seventh target power has 792 multisets of seven orientations. Their
+common-leg symmetry orbits partition into 132 orbits, all of size six.
+Among the 126 power-six non-exclusions, exactly one exceeds the source
+bound:
+
+| Ledger row | Two matrix shapes | Target slice rank | Gap |
+| ---: | --- | ---: | ---: |
+| 129 | `M(3,7,7)`, `M(11,8,8)` | 101,637,778,718,981 | 1,567,104,773,274 |
+
+The other 125 candidates are not excluded by powers five, six or seven.
+The largest of their seventh-power values is 98,192,715,899,136, at ledger
+row 84 (`M(2,3,6)` and `M(10,10,9)`). It remains below the source bound by
+1,877,958,046,571. This remains only a finite obstruction screen.
+
 ## Limits and reproduction
 
-These are exact exclusions for 18 recorded candidates in the maintained
+These are exact exclusions for 19 recorded candidates in the maintained
 one-copy complex coefficient-one coordinate/potential class when the
 existing characteristic-two good-reduction premise applies. They do not
 regenerate the earlier pair orientation, Koszul, profile, or power-three
 frontier; those are pinned discovery inputs. All two-matrix targets outside
-that ledger, arbitrary complex mixing without good reduction, and the 126
+that ledger, arbitrary complex mixing without good reduction, and the 125
 candidates not excluded here remain open. There is no independent
 mathematical review, formalization, target construction, or exponent gain.
 
@@ -183,4 +224,8 @@ python research/ai/2026-10-23-nonsplit-two-matrix-targets/source_power6.py \
   --output results/nonsplit-two-matrix-targets-2026-10-23/power6-source-cover.json
 python research/ai/2026-10-23-nonsplit-two-matrix-targets/verify_power6.py \
   --output results/nonsplit-two-matrix-targets-2026-10-23/power6-verification.json
+python research/ai/2026-10-23-nonsplit-two-matrix-targets/source_power7.py \
+  --output results/nonsplit-two-matrix-targets-2026-10-23/power7-source-cover.json
+python research/ai/2026-10-23-nonsplit-two-matrix-targets/verify_power7.py \
+  --output results/nonsplit-two-matrix-targets-2026-10-23/power7-verification.json
 ```

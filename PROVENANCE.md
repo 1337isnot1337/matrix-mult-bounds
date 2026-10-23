@@ -921,19 +921,20 @@ optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
 
-## Nonsplit two-matrix fifth- and sixth-power screen
+## Nonsplit two-matrix fifth- through seventh-power screens
 
 The October 23 finite-power continuation is owner-directed Codex research.
 It adopts the pinned 144-candidate frontier, full nonsplit `F4` source
 certificate and exact dense source verifier recorded in
 `research/ai/2026-10-23-nonsplit-two-matrix-targets/SOURCES.json`. The
-five- and six-power weighted degree covers and exact target orientation
-censuses are local work. Gowers retains credit for direct-sum slice-rank additivity;
+five-, six- and seven-power weighted degree covers and exact target
+orientation censuses are local work. Gowers retains credit for direct-sum
+slice-rank additivity;
 Flanders, Meshulam and de Seguins Pazzis retain the arbitrary-field
 matrix-space credits inherited for rectangular matrix multiplication
 slice rank. The previous candidate generator was not retained, and the
-earlier screens are not regenerated. Eighteen recorded candidates are
-excluded under the stated coefficient-one good-reduction premise; 126 are
+earlier screens are not regenerated. Nineteen recorded candidates are
+excluded under the stated coefficient-one good-reduction premise; 125 are
 not excluded by these powers. No complete two-matrix family exclusion,
 target construction, independent review, formalization or exponent
 improvement is claimed.

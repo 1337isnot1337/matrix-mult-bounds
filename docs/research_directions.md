@@ -310,11 +310,11 @@ change source power, rather than rerun the unchanged degree model.
 ## Fifth-power continuation for two-matrix candidates
 
 The [nonsplit two-matrix screen](../research/ai/2026-10-23-nonsplit-two-matrix-targets/README.md)
-uses fifth- and sixth-power source bounds of 9874344844 and 991166716704
-to exclude eight and ten rows, respectively, from a pinned 144-candidate
-two-matrix frontier. Its earlier pair census and complex screens are not
-regenerated, and the other 126 candidates only pass these necessary
-screens. The next finite continuation is to build and replay a seventh-power
-source cover against those 126 candidates. This remains within the existing
-one-copy coefficient-one good-reduction premise and does not claim an
-exponent improvement.
+uses fifth-, sixth- and seventh-power source bounds of 9874344844,
+991166716704 and 100070673945707 to exclude eight, ten and one rows from a
+pinned 144-candidate two-matrix frontier. Its earlier pair census and
+complex screens are not regenerated, and the other 125 candidates only
+pass these necessary screens. The next finite continuation is to build and
+replay an eighth-power source cover against those 125 candidates. This
+remains within the existing one-copy coefficient-one good-reduction
+premise and does not claim an exponent improvement.
