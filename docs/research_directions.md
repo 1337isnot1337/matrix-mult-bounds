@@ -261,8 +261,12 @@ The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/p
 excludes coordinate/potential constructions of M20 and M(19,20,21) in
 S5 x C2^2, despite their passing the general complex rank-locus and full
 Koszul screens. Apply its all-power joint-rectangular inequality before
-searching further central-source targets. M19 and the one-central-factor
-M(13,14,14) remain outside that exclusion; their maps are still missing.
+searching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)
+now excludes the one-copy M19 coordinate target and 38 additional shapes
+from the previous frontier. The one-central-factor M(13,14,14) remains
+open, along with the two and nine remaining shapes listed in that proof.
+General complex maps and constructions from higher powers are separate
+questions; do not restart the closed one-copy M19 coordinate search.
 
 For SL(2,F8), the [modular source bound](../research/ai/2026-10-21-sl2-f8-modular/proof.md)
 now constrains every source power and joint rectangular coordinate target.

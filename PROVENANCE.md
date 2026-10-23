@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-23-s5-finite-covers` package is owner-directed Codex work.
+It adopts the byte-pinned S5 radical/block certificates and finite frontier
+with their existing attribution. Separate integer weights, cube slice
+covers, grouped-coordinate replay and the new finite exclusions are local
+continuations. The matrix target argument retains its external
+Flanders/Meshulam/de Seguins Pazzis credit through the preceding split-cover
+proof. No independent review, optimality, general complex exclusion,
+historical priority or exponent improvement is claimed.
+
 The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
 work using the maintained literal cyclic convolution source and its open
 singular target. The interval-block proof and finite Krylov/Bezout and

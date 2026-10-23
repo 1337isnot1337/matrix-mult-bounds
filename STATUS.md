@@ -1,5 +1,18 @@
 # Research status
 
+## Finite weighted S5 cubes close the selected M19 coordinate target
+
+The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)
+gives characteristic-two slice covers of 6867542 and 42493572 for the cubes
+of S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then
+has abc<=2620 or abc<=6518 respectively. This excludes M19 in the second
+source and 38 additional shapes from the maintained coordinate/potential
+frontier, leaving two and nine general-test survivors. M(13,14,14) in the
+first source remains open. The exact verifier replays the prior radical
+and block certificates and all 227713 allowed bidegree triples. Claim
+`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,
+arbitrary higher-source constructions, and the exponent question remain open.
+
 ## Finite covers close the selected nonsplit coordinate targets
 
 The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)
