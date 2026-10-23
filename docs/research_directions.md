@@ -2,6 +2,14 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [staircase counterexample](../research/ai/2026-10-23-source-staircase-spaces/proof.md)
+provides a 68-dimensional source space of rank at most 92. A universal
+cap of 57 below rank 96 is therefore false; do not pursue it. Seek a
+valid cap on a smaller rank interval or exploit additional structure of
+actual cancellation kernels. The [sharp rank-37 cap](../research/ai/2026-10-23-rank37-source-spaces/proof.md)
+may also help mixed target-leg questions, but such an application needs
+its own complete support argument and has not been asserted here.
+
 The [rank-80 source theorem](../research/ai/2026-10-23-torus-rank80/proof.md)
 now bounds source dimension by 50 below slice rank 80 and the balanced
 long-rank sum by 144. Neither bound is asserted sharp. Seek source-space

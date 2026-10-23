@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-rank37-source-spaces` and
+`2026-10-23-source-staircase-spaces` packages are owner-directed OpenAI
+Codex work. The canonical cyclic source, characteristic-zero order-ideal
+reduction and coherent rank-20 fact retain exact prior-byte pins and
+credit. New additions are the complete thirteen-ideal rank-37 certificate
+and the all-size supported-column family. The dimension-68 example
+refutes a research premise proposed during this session. Finite acceptance
+reconstructs literal source terms; separate geometry and support-counting
+arguments supply the universal claims. Internal checks are not independent
+external mathematical review or formalization. No target construction,
+new balanced rank bound, historical priority or exponent gain is claimed.
+
 The `2026-10-23-torus-rank80` package is owner-directed OpenAI Codex
 work. It credits the literal cyclic source, saturated target-support
 inequality and preceding characteristic-zero order-ideal reduction with

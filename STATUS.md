@@ -1,5 +1,25 @@
 # Research status
 
+## A sharp source cap below rank 37 and a counterexample below rank 96
+
+The [rank-37 source theorem](research/ai/2026-10-23-rank37-source-spaces/proof.md)
+proves a sharp dimension-16 cap for complex A4 source spaces whose slices
+all have rank strictly below 37. The order-ideal reduction leaves exactly
+13 size-17 ideals; each has an exported odd integer 37-minor. The full
+middle-zero plane attains dimension 16 with only 28 supported rows.
+
+The [staircase source construction](research/ai/2026-10-23-source-staircase-spaces/proof.md)
+gives an explicit 68-dimensional A4 space whose matrices use only 92
+columns. It disproves the proposed dimension-57 cap below rank 96, which
+would have been sufficient for a further target obstruction. The general
+all-size family has a proved dimension and exact joint column support.
+This closes that proposed premise, while more specific compression-kernel
+constraints and smaller threshold refinements remain available. Claims
+`AI-A4-RANK37-LINEAR-SPACE-001` and
+`AI-CYCLIC-SOURCE-STAIRCASE-SPACES-001` are written and unreviewed.
+Twelve focused tests pass. These results leave the necessary balanced
+long-rank sum 144 unchanged and do not construct a target or improve omega.
+
 ## Balanced A4 long-rank sum is at most 144
 
 The [rank-80 source-space proof](research/ai/2026-10-23-torus-rank80/proof.md)

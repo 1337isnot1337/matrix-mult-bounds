@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The next source-frontier checkpoint is in
+`ai/2026-10-23-rank37-source-spaces/proof.md` and
+`ai/2026-10-23-source-staircase-spaces/proof.md`. A sharp cap of 16 now
+holds strictly below rank 37. An explicit 68-space of rank at most 92
+rules out the proposed cap 57 below rank 96. Do not repeat that premise.
+Twelve focused tests cover all thirteen size-17 minors, the coherent
+rank-20 witness, and all 140 finite staircase controls. The all-size
+staircase statement has a separate counting proof. This checkpoint
+follows PR129; its target sum 144 remains the current bound. Further
+work may refine the rank-80 source cap or use actual compression-kernel
+structure. Claims remain written and unreviewed.
+
 The rank-80 continuation in `ai/2026-10-23-torus-rank80/proof.md`
 now proves source-space dimension at most 50 below slice rank 80 and the
 necessary balanced long-rank sum 144. All 35 integer minors, the complete
