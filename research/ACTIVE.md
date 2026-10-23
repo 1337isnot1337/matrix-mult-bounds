@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The binomial-rank continuation studies
+`ai/2026-10-23-binomial-biform-ranks/QUESTION.md` on
+`research/binomial-biform-ranks-20261023`, from main`3008d70`.
+The proposed exact rank is a^2+sum min(n_i,m_j) over the unequal residue
+lengths modulo the two coordinate offsets. At equal offset d this is
+a^2+ad-r(d-r), r=a modulo d. A field-independent path proof includes
+both binomial orientations and nonzero coefficients. Exact minors and
+cover controls are pending. This is separate from the running PR148
+validation and supplies no nondivisor dimension cap or exponent gain.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
