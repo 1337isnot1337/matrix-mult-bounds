@@ -1,0 +1,40 @@
+[
+  {
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "status": "proof-written-unreviewed",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "id": "AI-A4-GAP-LONG-106-003",
+    "title": "A4 Laurent exclusion with a regular long-map limit of rank at least106",
+    "evidence": "research/ai/2026-10-23-long-leg-rank-obstruction/gap_extension.md",
+    "statement": "There is no complex formal Laurent degeneration A4 to M(10,10,11) with either long map regular and of rank at least106 at zero. The other maps may have arbitrary finite poles. The regular kernel residual bounds leading lifts of rank-one target matrices by19; the credited gap forces source rank16 or zero. Their coherent middle factor is fixed. A self-contained rank-one-preserver classification then gives an invertible matrix in the leading first-map kernel, contradicting the rank-at-most-two residual and the unit-image rank floor10.",
+    "dependencies": [
+      "Prior source rank gap: nonzero A4 slices have rank16 or rank at least20",
+      "Inherited Grothendieck splitting theorem for vector bundles on the complex projective line",
+      "Prior complete minimum-rank locus classification",
+      "Concurrent PR113 regular kernel residual, rederived with attribution in proof.md",
+      "Self-contained rank-one-preserver classification and square bounded-rank-subspace bound"
+    ],
+    "limitations": "Leading ranks at most105 remain open to this argument. No general A4 degeneration exclusion, external independent review, formalization, or exponent improvement."
+  },
+  {
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "status": "proof-written-unreviewed",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "id": "AI-A4-GAP-LONG-RANK-SUM-004",
+    "title": "Source rank gap bounds the normalized A4 long-map leading-rank sum by204",
+    "evidence": "research/ai/2026-10-23-long-leg-rank-obstruction/rank_sum_gap.md",
+    "statement": "After independently dividing each long map by its smallest entry valuation and compensating in the first map, any A4 to M(10,10,11) complex Laurent degeneration must satisfy r_B+r_C<=204. A larger sum forces the entire leading polar first-map image into the rank16 source locus, where every linear space has dimension at most4. Its kernel contains an invertible target parameter, contradicting the regular kernel residual on the larger long leg, whose unit image has rank at least7.",
+    "dependencies": [
+      "Prior source rank gap and minimum-rank locus classification",
+      "Inherited Grothendieck splitting theorem for vector bundles on the complex projective line",
+      "Concurrent PR113 regular kernel residual",
+      "Independent scalar valuation normalization",
+      "Self-contained dimension bound for linear minimum-locus spaces and singular square-matrix spaces"
+    ],
+    "limitations": "Equality204 and lower-rank pairs are not constructed or excluded by this proof. Singular basis changes are not rank-preserving scalar normalizations. No exponent improvement."
+  }
+]

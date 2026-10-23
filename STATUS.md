@@ -1,5 +1,22 @@
 # Research status
 
+## The source rank gap lowers both A4 long-map rank budgets
+
+The [rank-gap continuation](research/ai/2026-10-23-long-leg-rank-obstruction/README_gap.md)
+excludes every complete A4 to M(10,10,11) Laurent degeneration with a
+regular long map of limiting rank at least106. After independent scalar
+normalization of both long maps, each leading rank is at most105 and
+their sum is at most204. The proof permits arbitrary finite poles in the
+other maps. It imports the prior 16-or-at-least-20 source slice-rank gap,
+including its complex projective-line bundle-splitting dependency.
+A direct rank-one-preserver argument supplies an invertible matrix in
+the leading first-map kernel, contradicting the rank-two residual.
+Claims `AI-A4-GAP-LONG-106-003` and `AI-A4-GAP-LONG-RANK-SUM-004` remain
+written and unreviewed. Rank105 and sum204 are boundaries of these
+arguments, not constructed degenerations. The simpler rank109 and
+sum208 proofs are retained below with fewer structural dependencies.
+No matrix target or smaller exponent is established.
+
 ## A4 long-map rank109 is also impossible
 
 The [corank-one argument](research/ai/2026-10-23-long-leg-rank-obstruction/corank_one.md)

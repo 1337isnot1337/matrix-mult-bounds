@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The rank106 and sum204 follow-up in `2026-10-23-long-leg-rank-obstruction`
+adopts the prior source slice-rank gap and its original Grothendieck
+bundle-splitting dependency over the complex projective line. It retains
+the source minimum-locus and concurrent PR113 residual credits. The
+rank-one-preserver argument and invertible-kernel construction are proved
+directly here; no priority for classical preserver facts is claimed.
+Separate source pins and exact controls distinguish this additional
+dependency from the simpler rank109 and sum208 proofs. Same-session
+agent checks do not constitute independent mathematical review.
+
 The `2026-10-23-long-leg-rank-obstruction` package is owner-directed Codex
 work. The source minimum-rank theorem, its complete minimum locus and
 ordinary A4 obstruction retain their predecessor credit and byte pins.

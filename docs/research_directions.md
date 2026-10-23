@@ -2,14 +2,17 @@
 
 ## October23: constrain both singular A4 long-map limits
 
-The [new rank109 exclusion](../research/ai/2026-10-23-long-leg-rank-obstruction/corank_one.md)
+The [rank-gap continuation](../research/ai/2026-10-23-long-leg-rank-obstruction/README_gap.md)
 continues the regular-kernel proof of PR113. Every A4 to M(10,10,11)
-candidate needs rank at most108 in each long-map leading coefficient
-after independent scalar normalization; their sum is at most208.
+candidate needs rank at most105 in each long-map leading coefficient
+after independent scalar normalization; their sum is at most204.
 These conditions permit arbitrary finite poles in the other maps.
 They are necessary conditions, not constructions or a general exclusion.
 The remaining problem is lower-rank singular assembly with exact complete
-tensor identities. All stated proofs remain written and unreviewed.
+tensor identities. Rank105 allows rank20 source slices; a new structural
+argument is needed beyond the minimum-locus preserver reduction. The
+prior rank gap retains its bundle-splitting dependency and attribution.
+All stated proofs remain written and unreviewed.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
