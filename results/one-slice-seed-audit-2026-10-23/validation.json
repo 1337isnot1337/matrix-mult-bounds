@@ -1,0 +1,228 @@
+{
+  "tested_commit": "42360e9816d5755a07a6da6fa607b92865a0be6b",
+  "tested_tree": "6dbaa9335ef6603fce09dbf07dda6c98ad1561b8",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "tests": 864,
+  "modules": 203,
+  "passed": 864,
+  "skipped": 0,
+  "jobs": [
+    {
+      "group": 0,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 229,
+      "passed": 229,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 468.284,
+      "result": "OK",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-0.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-0-complete-status.json.gz"
+    },
+    {
+      "group": 1,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 206,
+      "passed": 206,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 375.285,
+      "result": "OK",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-1.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-1-complete-status.json.gz"
+    },
+    {
+      "group": 2,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 239,
+      "passed": 239,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 245.757,
+      "result": "OK",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-2.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-2-complete-status.json.gz"
+    },
+    {
+      "group": 3,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 190,
+      "passed": 190,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 367.612,
+      "result": "OK",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-3.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-3-complete-status.json.gz"
+    }
+  ],
+  "all_completed_groups_passed": true,
+  "archive_replays": 5,
+  "archive_replay_summary": "results/one-slice-seed-audit-2026-10-23/archive-replay.json",
+  "archive_diff_from_base": [],
+  "coverage": "results/one-slice-seed-audit-2026-10-23/coverage.json.gz",
+  "logs": [
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-0.log.gz",
+      "sha256": "2ad0f4a2896df93f8151c2f267914b31699fdb94d12042678ebff9dc1aac2b20",
+      "uncompressed_sha256": "8f51972f8e7d15dd594173150b3583b74e3bd8b5f1614b639319626f0fab5d0b"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1.log.gz",
+      "sha256": "c5c449720fda8350d6e49220c66a668f9ff86bbb1a6e623f5c7ab0099e4dacbb",
+      "uncompressed_sha256": "fb67041e90122d6b945e536161af2ed9d746fdbb179fef1a5ce0a3221ca41b5b"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-2.log.gz",
+      "sha256": "de679e5291eee54817774ac849cb505decd2c8ab3512bbef7d0dd42317503299",
+      "uncompressed_sha256": "20d061da646766b28a9398e1b06100cc3535401fd6393921685c058aa31addc6"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-3.log.gz",
+      "sha256": "7e54d4ed07dd84d0ea2837fe62e402ad80b94e8c852c0ee048ef64e986900260",
+      "uncompressed_sha256": "5f6eeb471d3b0c20b9c5d1f227bede88a680980fec787498c9cb2c9155aaf632"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba",
+      "uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/coverage.json.gz",
+      "sha256": "7099288d6e37032295e83eca0acd1d1748005ddc67dac12ecefdafe9ba52305f",
+      "uncompressed_sha256": "048a272463659516d9d2a1f727592383da7516739e72709feda20c1c4be0d7f3"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-0-complete-status.json.gz",
+      "sha256": "c975d8700bcf9efadad510c5e21498df9bd2ecee25afb0ea0fbfdf8d1c775048",
+      "uncompressed_sha256": "d656300e7e71c1663f52c4ecffbffa8ff2af8739ba3a07490110d32557220d94"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1-complete-status.json.gz",
+      "sha256": "f27ca1277032e5556b56e701e07b909b86cccc64116e830147973023897a9161",
+      "uncompressed_sha256": "d10634a6f4226ce2bc4593f92e08a5e14a30665f6828fa42c85c9c3cfdde3961"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-2-complete-status.json.gz",
+      "sha256": "a98070ca2c53471c6d112f341fda1f9583835f98d031c5c1a714fb395d3b2254",
+      "uncompressed_sha256": "096d72b3e5b0f6de826a1bf28cb1e2d84e03691c76a5e2e7d3cef969d864d1ba"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-3-complete-status.json.gz",
+      "sha256": "5967a035ba5979ee17318a26ca8c406b6d61a2936a0a728454befac8826cd14b",
+      "uncompressed_sha256": "ac8058141fc0b154a1b320bd34dbfbef07e9873f5999e0c3a074ff388de230c0"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/initial-run-summary.json.gz",
+      "sha256": "442c8ae281cd9f7c56807f0aeb2e02eed0e258c19de300b95617044b67846272",
+      "uncompressed_sha256": "1fc594e57160cfee53ecf5bf94c90ff04f6fda422a47ff60527c3a06f2f6d266"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1-initial.log.gz",
+      "sha256": "c3f6d6bc7d6ddaef7495349e1abfd3545201a312f62271c6c6e7846161de8da6",
+      "uncompressed_sha256": "2172cbadbe565edc749e1f0dd0261a34a5d5d2c8e4c0d5b9a33950307c5ae4d0"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1-initial-status.json.gz",
+      "sha256": "fbd9d4d644866be80d19216423de1a7d3dc5283f5eedca00cae8c5c512a4999a",
+      "uncompressed_sha256": "4b77f2a40acc7112df6ee82b5988a0d00769bfed7e9c6e7bf6953338abb6ac46"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-2-initial.log.gz",
+      "sha256": "d2415939ea7dbfc790135e33bd09aa0674f1e6c50216e8797853e7835a812aac",
+      "uncompressed_sha256": "9c278ea47f6fd360765957c7c835f8d6621953bc6866a9ba80a3937f7d466240"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-2-initial-status.json.gz",
+      "sha256": "e9ebf3a24fc9a5ce593fea6e03d6340ccf271c59333e79144a68485eb88ae5dd",
+      "uncompressed_sha256": "2ee3e5fdaa5e07185f5cf773bc28c5bf43ab6fde4273be28a133069235fbabd3"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1-diagnostic-retry.log.gz",
+      "sha256": "f121f872693bb2868c812c205e71adb6921d7bb662d7da521857ddbe9298ddcd",
+      "uncompressed_sha256": "4daf15cd73b3a802e087fc78143f4d78b867c3e6397cbc478bba4232481780be"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1-diagnostic-retry-status.json.gz",
+      "sha256": "0c92c476ae8a861f95207f022f1e349d53fdca57829d3527dbe7b469d20733a4",
+      "uncompressed_sha256": "ef2eb54bc6eff61cc27cfdce02bf476e7eb733aa03b63093ec4e9efce7d261ac"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/group-1-diagnostic-retry-diagnostics.log.gz",
+      "sha256": "80ca6a5806e4015393e576a1d2adcc4b3b2422131234446259d8ff323ba37b67",
+      "uncompressed_sha256": "9cef84b226089c11b8e5e70655986ff6be879c45065f3038e5559adc6cc46fd2"
+    }
+  ],
+  "incomplete_attempts": [
+    {
+      "name": "group-1-initial",
+      "group": 1,
+      "exit_code": 0,
+      "complete_unittest_result": false,
+      "included_in_accepted_coverage": false,
+      "cause": "unknown",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-1-initial.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-1-initial-status.json.gz",
+      "note": "The command exited 0 but produced no complete unittest footer. It is not a passing test run."
+    },
+    {
+      "name": "group-2-initial",
+      "group": 2,
+      "exit_code": 0,
+      "complete_unittest_result": false,
+      "included_in_accepted_coverage": false,
+      "cause": "unknown",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-2-initial.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-2-initial-status.json.gz",
+      "note": "The command exited 0 but produced no complete unittest footer. It is not a passing test run."
+    },
+    {
+      "name": "group-1-diagnostic-retry",
+      "group": 1,
+      "exit_code": 139,
+      "complete_unittest_result": false,
+      "included_in_accepted_coverage": false,
+      "cause": "unknown",
+      "log": "results/one-slice-seed-audit-2026-10-23/group-1-diagnostic-retry.log.gz",
+      "status_record": "results/one-slice-seed-audit-2026-10-23/group-1-diagnostic-retry-status.json.gz",
+      "diagnostic_log": "results/one-slice-seed-audit-2026-10-23/group-1-diagnostic-retry-diagnostics.log.gz",
+      "exit_code_evidence": "Observed as 139 by the coordinating parent tool session; last saved status remained running.",
+      "note": "This retry enabled asynchronous Python stack dumping. The exit cause is unknown; instrumentation is not claimed to be the cause."
+    }
+  ],
+  "scope": "Full exact local regression at the recorded frozen commit, with complete result footers for every disjoint group and no skipped tests. The archive replay matches all five saved reports. This does not establish independent mathematical review or an exponent improvement. Current-head hosted CI remains required.",
+  "initial_run_summary": "results/one-slice-seed-audit-2026-10-23/initial-run-summary.json.gz",
+  "accepted_group_1_tool_exit_code": 0,
+  "accepted_group_1_tool_exit_evidence": "The coordinating parent confirmed exec session 49001 completed with exit 0 after its full 206-test result.",
+  "validation_total_excludes_incomplete_attempts": true
+}
