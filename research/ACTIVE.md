@@ -11,8 +11,25 @@ endpoint scalar profile feasible, for every power and slice choice.
 Repeating that unchanged scalar optimization is not a new route.
 Multiple slices, successive extractions, other seeds and additional
 tensor information remain open. Six focused tests and the metadata
-checks pass locally. The proof is written and unreviewed; no full
-regression, hosted CI result or exponent improvement is claimed here.
+checks pass locally. The [retained full regression](../results/one-slice-seed-audit-2026-10-23/validation.json)
+records all 864 tests in 203 modules and five archive replays at frozen
+commit `42360e9`, with no skipped tests. Three incomplete attempts remain
+excluded and preserved. The proof is written and unreviewed; current-head
+hosted CI and any later integration are separate from that full-run record.
+No exponent improvement is claimed.
+
+## Fixed-resolvent minimum rank: October 23
+
+The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
+is on `research/resolvent-minrank-six-20261023`. Its exact certificate
+settles the minimum matrix rank of the 112-dimensional limiting space
+from PR103 and removes its generic-compression qualification whenever
+the total rank-loss budget is at most five. Five focused tests pass,
+including literal-source reconstruction and certificate tampering.
+The next local question is whether a rank-six direction can satisfy the
+required double-corank-one alignment and the higher Laurent equations.
+Broader long-map results should be checked before using that question
+as a target-construction route. The written proof remains unreviewed.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

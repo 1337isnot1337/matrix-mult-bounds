@@ -21,6 +21,24 @@ Six exact tests replay the complete seed, slice, cancellation, initial
 kernels, formula controls, integer separation and source pins. The actual
 degeneration follows from the imported theorem; no complete Laurent map,
 actual endpoint character, or smaller exponent is supplied.
+The [retained checkpoint receipt](results/one-slice-seed-audit-2026-10-23/validation.json)
+records all 864 local tests and five archive replays at `42360e9`.
+Three incomplete attempts are retained and excluded from that coverage.
+
+## Sharp rank six in the fixed-resolvent matrix space
+
+The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
+proves that its 112-dimensional limiting matrix space has minimum nonzero
+ordinary matrix rank exactly six over every field. Thirty-one triangular
+six-by-six minor identities eliminate every parameter of the difficult
+outer block, and an explicit rank-six witness proves sharpness. Thus every
+two-sided compression with total rank loss at most five is injective.
+At rank109 on both long maps, a lost direction must have rank six and obey
+the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
+is written and unreviewed. This refines the fixed-resolvent space from
+PR103; its narrow target application is superseded by the regular-long-map
+argument. General singular trajectories, all rank-six matrices and an
+improved exponent are not settled.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 
