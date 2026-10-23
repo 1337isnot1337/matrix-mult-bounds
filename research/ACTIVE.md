@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The stacked-product continuation studies
+`ai/2026-10-23-unit-image-stacked-rank/QUESTION.md` on
+`research/unit-image-stacked-rank-20261023`, based on PR110's rank107
+package. A combined regularized product sharpens3q to2q; a rank-one
+kernel bound permits a noninjective first limit. The written argument
+reaches unit-image rank105, with rank104 outside the strict first-pole
+estimate. All48 exact block controls pass; regression checks are pending. No general
+A4 exclusion, independent review or exponent improvement is claimed.
+
 The unit-image rank-gap continuation studies
 `ai/2026-10-23-unit-image-rank-gap/QUESTION.md`, from main `1c04903` on
 `research/unit-image-rank-gap-20261023`. Its written argument uses the

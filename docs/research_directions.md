@@ -289,7 +289,10 @@ now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. The
 [rank-locus continuation](../research/ai/2026-10-23-unit-image-rank-gap/proof.md)
 weakens invertibility to a regular unit image of rank at least107,
-including source unit slices of corank at most three. Retained rank106,
-singular long-leg limits and polar unit lifts remain outside that proof.
+including source unit slices of corank at most three. The
+[stacked-product refinement](../research/ai/2026-10-23-unit-image-stacked-rank/proof.md)
+further reaches image rank105, including corank at most five, by a2q
+rank count and a bounded rank-one kernel. Retained rank104, singular
+long-leg limits and polar unit lifts remain outside that proof.
 Further A4 searches must escape its hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.

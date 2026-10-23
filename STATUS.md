@@ -1,5 +1,21 @@
 # Research status
 
+## Stacked Laurent ranks extend the unit-image exclusion to105
+
+The [stacked-product continuation](research/ai/2026-10-23-unit-image-stacked-rank/proof.md)
+combines two regularized source blocks into one rank-q product. The
+first-pole bound improves from3q to2q and the rank-one source bound
+from n+3q to n+2q. A rank-one matrix-kernel argument and propagation
+across rulings with zero images now exclude A4 to M(10,10,11) when one
+long map is regular with rank110 limit, the source identity lift is
+regular, and its unit image has rank at least105. Regular source units
+of corank at most five are included. Claims
+`AI-CYCLIC-STACKED-REGULARITY-001` and `AI-A4-UNIT-IMAGE-RANK105-002` are
+written and unreviewed. Exact controls replay48 Laurent block families,
+three symbolic rank-one spaces and seven strict boundary cases. Retained
+rank104, singular long-leg limits and polar units remain open to this
+method. No tensor target or smaller exponent is established.
+
 ## A4 unit-image exclusion down to rank107
 
 The [source rank-locus continuation](research/ai/2026-10-23-unit-image-rank-gap/proof.md)
@@ -12,8 +28,9 @@ first image into16 dimensions. Regular source units of corank at most
 three are included. Claims `AI-CYCLIC-RANK-LOCUS-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-RANK107-002` are written and unreviewed. Exact controls
 check56 rational retractions, nine literal source matrices and strict
-boundary margins. Rank106, singular long-leg limits and polar unit lifts
-remain open. No target or smaller exponent is established.
+boundary margins. This earlier proof stops at rank106; the stacked
+continuation above reaches105. Singular long-leg limits and polar unit
+lifts remain open. No target or smaller exponent is established.
 
 ## All-order A4 exclusion with a partial regular unit image
 

@@ -1,0 +1,495 @@
+{
+  "a4_rank_margins": [
+    {
+      "excludes_target": true,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": true,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 0,
+      "ordinary_rank_floor": 12,
+      "retained": 110,
+      "source_defect": 2,
+      "strict_margins": {
+        "first_pole": 12,
+        "image_dimension": 74,
+        "kernel_rank_two": 20,
+        "source_rank_locus": 17
+      },
+      "target_defect": 0,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": true,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 0,
+      "ordinary_rank_floor": 12,
+      "retained": 109,
+      "source_defect": 3,
+      "strict_margins": {
+        "first_pole": 10,
+        "image_dimension": 74,
+        "kernel_rank_two": 18,
+        "source_rank_locus": 15
+      },
+      "target_defect": 1,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": true,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 0,
+      "ordinary_rank_floor": 12,
+      "retained": 108,
+      "source_defect": 4,
+      "strict_margins": {
+        "first_pole": 8,
+        "image_dimension": 74,
+        "kernel_rank_two": 16,
+        "source_rank_locus": 13
+      },
+      "target_defect": 2,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": true,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 0,
+      "ordinary_rank_floor": 12,
+      "retained": 107,
+      "source_defect": 5,
+      "strict_margins": {
+        "first_pole": 6,
+        "image_dimension": 74,
+        "kernel_rank_two": 14,
+        "source_rank_locus": 11
+      },
+      "target_defect": 3,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": true,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 0,
+      "ordinary_rank_floor": 12,
+      "retained": 106,
+      "source_defect": 6,
+      "strict_margins": {
+        "first_pole": 4,
+        "image_dimension": 74,
+        "kernel_rank_two": 12,
+        "source_rank_locus": 9
+      },
+      "target_defect": 4,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": true,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 1,
+      "ordinary_rank_floor": 12,
+      "retained": 105,
+      "source_defect": 7,
+      "strict_margins": {
+        "first_pole": 2,
+        "image_dimension": 74,
+        "kernel_rank_two": 10,
+        "source_rank_locus": 7
+      },
+      "target_defect": 5,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": false,
+      "first_image_dimension_floor": 90,
+      "forces_regularity": false,
+      "kernel_dimension_budget": 10,
+      "kernel_rank_bound": 1,
+      "ordinary_rank_floor": 12,
+      "retained": 104,
+      "source_defect": 8,
+      "strict_margins": {
+        "first_pole": 0,
+        "image_dimension": 74,
+        "kernel_rank_two": 8,
+        "source_rank_locus": 5
+      },
+      "target_defect": 6,
+      "target_rank_one": 11
+    }
+  ],
+  "improves_omega": false,
+  "proof_status": "proof-written-unreviewed",
+  "rank_one_kernel_spaces": [
+    {
+      "common_factor_dimension": 2,
+      "generic_common_column_rank": 1,
+      "generic_common_row_rank": 1,
+      "independent_both_factors_sum_rank": 2,
+      "matrix_size": 2
+    },
+    {
+      "common_factor_dimension": 3,
+      "generic_common_column_rank": 1,
+      "generic_common_row_rank": 1,
+      "independent_both_factors_sum_rank": 2,
+      "matrix_size": 3
+    },
+    {
+      "common_factor_dimension": 10,
+      "generic_common_column_rank": 1,
+      "generic_common_row_rank": 1,
+      "independent_both_factors_sum_rank": 2,
+      "matrix_size": 10
+    }
+  ],
+  "scope": "Finite block controls, not cyclic degenerations or a formal Laurent proof.",
+  "source_pin_count": 3,
+  "stacked_products": [
+    {
+      "first_columns_rank": 1,
+      "inner_dimension": 1,
+      "long_pole_order": 1,
+      "source_leading_rank": 2,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 1,
+      "inner_dimension": 1,
+      "long_pole_order": 3,
+      "source_leading_rank": 2,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 1,
+      "inner_dimension": 1,
+      "long_pole_order": 1,
+      "source_leading_rank": 2,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 1,
+      "inner_dimension": 1,
+      "long_pole_order": 3,
+      "source_leading_rank": 2,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 1,
+      "inner_dimension": 1,
+      "long_pole_order": 1,
+      "source_leading_rank": 2,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 1,
+      "inner_dimension": 1,
+      "long_pole_order": 3,
+      "source_leading_rank": 2,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 2,
+      "inner_dimension": 2,
+      "long_pole_order": 1,
+      "source_leading_rank": 4,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 2,
+      "inner_dimension": 2,
+      "long_pole_order": 3,
+      "source_leading_rank": 4,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 2,
+      "inner_dimension": 2,
+      "long_pole_order": 1,
+      "source_leading_rank": 4,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 2,
+      "inner_dimension": 2,
+      "long_pole_order": 3,
+      "source_leading_rank": 4,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 2,
+      "inner_dimension": 2,
+      "long_pole_order": 1,
+      "source_leading_rank": 4,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 2,
+      "inner_dimension": 2,
+      "long_pole_order": 3,
+      "source_leading_rank": 4,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 3,
+      "inner_dimension": 3,
+      "long_pole_order": 1,
+      "source_leading_rank": 6,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 3,
+      "inner_dimension": 3,
+      "long_pole_order": 3,
+      "source_leading_rank": 6,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 3,
+      "inner_dimension": 3,
+      "long_pole_order": 1,
+      "source_leading_rank": 6,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 3,
+      "inner_dimension": 3,
+      "long_pole_order": 3,
+      "source_leading_rank": 6,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 3,
+      "inner_dimension": 3,
+      "long_pole_order": 1,
+      "source_leading_rank": 6,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 3,
+      "inner_dimension": 3,
+      "long_pole_order": 3,
+      "source_leading_rank": 6,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 4,
+      "inner_dimension": 4,
+      "long_pole_order": 1,
+      "source_leading_rank": 8,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 4,
+      "inner_dimension": 4,
+      "long_pole_order": 3,
+      "source_leading_rank": 8,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 4,
+      "inner_dimension": 4,
+      "long_pole_order": 1,
+      "source_leading_rank": 8,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 4,
+      "inner_dimension": 4,
+      "long_pole_order": 3,
+      "source_leading_rank": 8,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 4,
+      "inner_dimension": 4,
+      "long_pole_order": 1,
+      "source_leading_rank": 8,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 4,
+      "inner_dimension": 4,
+      "long_pole_order": 3,
+      "source_leading_rank": 8,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 5,
+      "inner_dimension": 5,
+      "long_pole_order": 1,
+      "source_leading_rank": 10,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 5,
+      "inner_dimension": 5,
+      "long_pole_order": 3,
+      "source_leading_rank": 10,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 5,
+      "inner_dimension": 5,
+      "long_pole_order": 1,
+      "source_leading_rank": 10,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 5,
+      "inner_dimension": 5,
+      "long_pole_order": 3,
+      "source_leading_rank": 10,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 5,
+      "inner_dimension": 5,
+      "long_pole_order": 1,
+      "source_leading_rank": 10,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 5,
+      "inner_dimension": 5,
+      "long_pole_order": 3,
+      "source_leading_rank": 10,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 6,
+      "inner_dimension": 6,
+      "long_pole_order": 1,
+      "source_leading_rank": 12,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 6,
+      "inner_dimension": 6,
+      "long_pole_order": 3,
+      "source_leading_rank": 12,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 6,
+      "inner_dimension": 6,
+      "long_pole_order": 1,
+      "source_leading_rank": 12,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 6,
+      "inner_dimension": 6,
+      "long_pole_order": 3,
+      "source_leading_rank": 12,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 6,
+      "inner_dimension": 6,
+      "long_pole_order": 1,
+      "source_leading_rank": 12,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 6,
+      "inner_dimension": 6,
+      "long_pole_order": 3,
+      "source_leading_rank": 12,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 7,
+      "inner_dimension": 7,
+      "long_pole_order": 1,
+      "source_leading_rank": 14,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 7,
+      "inner_dimension": 7,
+      "long_pole_order": 3,
+      "source_leading_rank": 14,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 7,
+      "inner_dimension": 7,
+      "long_pole_order": 1,
+      "source_leading_rank": 14,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 7,
+      "inner_dimension": 7,
+      "long_pole_order": 3,
+      "source_leading_rank": 14,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 7,
+      "inner_dimension": 7,
+      "long_pole_order": 1,
+      "source_leading_rank": 14,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 7,
+      "inner_dimension": 7,
+      "long_pole_order": 3,
+      "source_leading_rank": 14,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 8,
+      "inner_dimension": 8,
+      "long_pole_order": 1,
+      "source_leading_rank": 16,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 8,
+      "inner_dimension": 8,
+      "long_pole_order": 3,
+      "source_leading_rank": 16,
+      "source_pole_order": 1
+    },
+    {
+      "first_columns_rank": 8,
+      "inner_dimension": 8,
+      "long_pole_order": 1,
+      "source_leading_rank": 16,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 8,
+      "inner_dimension": 8,
+      "long_pole_order": 3,
+      "source_leading_rank": 16,
+      "source_pole_order": 2
+    },
+    {
+      "first_columns_rank": 8,
+      "inner_dimension": 8,
+      "long_pole_order": 1,
+      "source_leading_rank": 16,
+      "source_pole_order": 4
+    },
+    {
+      "first_columns_rank": 8,
+      "inner_dimension": 8,
+      "long_pole_order": 3,
+      "source_leading_rank": 16,
+      "source_pole_order": 4
+    }
+  ]
+}

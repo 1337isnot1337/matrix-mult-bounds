@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-unit-image-stacked-rank` package is owner-directed Codex
+work. It retains the prior source minimum rank, full low-rank source
+locus, partial-unit frames and rank-preserving retraction lemma with
+exact byte pins and their original credits. The combined stacked-product
+rank count, rank-one kernel step and propagation through noninjective
+target rulings form this continuation to image rank105. The elementary
+rank-one matrix-space lemma is proved locally; no new external theorem
+is imported. No independent mathematical review, formalization,
+historical priority, cyclic target construction or exponent improvement
+is claimed. Its sharp block controls are not cyclic-source witnesses.
+
 The `2026-10-23-unit-image-rank-gap` package is owner-directed Codex work.
 The canonical cyclic source, minimum rank, complete source locus below
 twice the minimum, partial-unit source frames, Laurent product-rank fact
