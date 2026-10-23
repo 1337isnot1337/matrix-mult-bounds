@@ -1,0 +1,97 @@
+{
+  "scope": "Exact mathematical certificates plus incremental local and hosted portability validation. No independent mathematical review or exponent improvement.",
+  "full_regression": {
+    "head": "4c61ac655efa1ce43e0f9970276851a4827ae6b5",
+    "tree": "e81910c665cb1261714f96605f7ebafae1c86a86",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "steps": {
+      "archive": {
+        "command": [
+          "/tmp/matrix-mult-research-venv/bin/python",
+          "tools/replay.py"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 28.312113523483276
+      },
+      "group-3": {
+        "command": [
+          "/tmp/matrix-mult-research-venv/bin/python",
+          "tools/test_shard.py",
+          "--shard-index",
+          "3",
+          "--shard-count",
+          "4"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 348.03385853767395
+      },
+      "group-0": {
+        "command": [
+          "/tmp/matrix-mult-research-venv/bin/python",
+          "tools/test_shard.py",
+          "--shard-index",
+          "0",
+          "--shard-count",
+          "4"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 355.05741572380066
+      },
+      "group-1": {
+        "command": [
+          "/tmp/matrix-mult-research-venv/bin/python",
+          "tools/test_shard.py",
+          "--shard-index",
+          "1",
+          "--shard-count",
+          "4"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 534.4440860748291
+      },
+      "group-2": {
+        "command": [
+          "/tmp/matrix-mult-research-venv/bin/python",
+          "tools/test_shard.py",
+          "--shard-index",
+          "2",
+          "--shard-count",
+          "4"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 757.9185934066772
+      }
+    }
+  },
+  "coverage": {
+    "total_tests": 849,
+    "passed": 846,
+    "optional_skips": 3,
+    "archive_replays_passed": 5
+  },
+  "local_run_boundary": "All four shard processes started from4c61ac6. The portability-only test edit was applied after that module finished; all remaining test sources were unchanged. The changed test was separately rerun below.",
+  "portability_fix": {
+    "commit": "11147b340744f7e7a9b09b6c60d359f0ae7c90cd",
+    "command": "PYTHONPATH=tests python -m unittest test_asymmetric_boundary.AsymmetricBoundaryTests.test_complete_rebuild_and_dependency_pins -v",
+    "passed": 1,
+    "elapsed_seconds": 22.83,
+    "hosted_failure_run": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39965764590",
+    "cause": "Python3.12 gzip OS header3 differs from Python3.14 header255. The JSON and all mathematical identities passed. Fix verifies deterministic canonical payload and zero timestamp, and pins compressed bytes by SHA256. Both header variants were directly decoded to the identical payload."
+  },
+  "integration": {
+    "head": "f86e1414b0cf3cee47e7e9d653f3a2ffe5c69846",
+    "tree": "163b21d519cefd27a62bcc2b3b41095644aabd6e",
+    "main": "dcd209a",
+    "incoming_test_module": "test_nonsplit_finite_covers.py",
+    "incoming_passed": 5,
+    "incoming_elapsed_seconds": 7.177,
+    "repository_metadata_passed": 18,
+    "mathematical_package_unchanged": true
+  },
+  "focused": {
+    "passed": 4,
+    "elapsed_seconds": 157.215,
+    "scope": "Full source rebuild, all100 auxiliary coefficients, both364-minor independent symbolic replays, finite-field coefficient determinants, positive and corrupt controls."
+  },
+  "hosted_final_head": "Required before merge; this receipt does not assert a future hosted result."
+}
