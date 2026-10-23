@@ -289,3 +289,12 @@ now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
+
+The [sharp pencil family](../research/ai/2026-10-23-hankel-index-sharpness/proof.md)
+now realizes every integer equality in the Hankel annihilator degree
+budget. At `(a,b,r)=(10,10,8)` it has constant projective rank and
+quadratic annihilator, so a weak-inequality extension of the prior
+pencil-linearity argument is false. Investigate genuinely bilinear
+Segre images with quadratic annihilators if continuing that boundary.
+The family alone neither changes the ordinary target frontier nor
+decides the separate A9 square-sum equality question.

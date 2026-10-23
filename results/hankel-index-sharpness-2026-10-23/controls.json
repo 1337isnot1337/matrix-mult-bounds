@@ -1,0 +1,1181 @@
+{
+  "scope": "Finite exact controls for a written all-size family; no matrix target or exponent improvement.",
+  "epsilon_range": [
+    1,
+    4
+  ],
+  "left_and_right_nullity_range": [
+    1,
+    3
+  ],
+  "pencils_checked": 36,
+  "records": [
+    {
+      "epsilon": 1,
+      "left_nullity": 1,
+      "right_nullity": 1,
+      "shape": [
+        3,
+        3
+      ],
+      "rank": 2,
+      "moment_indices": [
+        1,
+        3
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "2": "u"
+      },
+      "left_minimal_indices": [
+        1
+      ],
+      "right_minimal_indices": [
+        1
+      ],
+      "top_minor": "-u**2",
+      "bottom_minor": "-v**2",
+      "kernel_coefficient_identities": 6,
+      "index_sum": 2
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 1,
+      "right_nullity": 2,
+      "shape": [
+        4,
+        5
+      ],
+      "rank": 3,
+      "moment_indices": [
+        2,
+        5
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "3": "u"
+      },
+      "left_minimal_indices": [
+        1
+      ],
+      "right_minimal_indices": [
+        1,
+        1
+      ],
+      "top_minor": "-u**3",
+      "bottom_minor": "-v**3",
+      "kernel_coefficient_identities": 13,
+      "index_sum": 3
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 1,
+      "right_nullity": 3,
+      "shape": [
+        5,
+        7
+      ],
+      "rank": 4,
+      "moment_indices": [
+        3,
+        7
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "4": "u"
+      },
+      "left_minimal_indices": [
+        1
+      ],
+      "right_minimal_indices": [
+        1,
+        1,
+        1
+      ],
+      "top_minor": "u**4",
+      "bottom_minor": "v**4",
+      "kernel_coefficient_identities": 22,
+      "index_sum": 4
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 2,
+      "right_nullity": 1,
+      "shape": [
+        5,
+        4
+      ],
+      "rank": 3,
+      "moment_indices": [
+        2,
+        5
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "3": "u"
+      },
+      "left_minimal_indices": [
+        1,
+        1
+      ],
+      "right_minimal_indices": [
+        1
+      ],
+      "top_minor": "-u**3",
+      "bottom_minor": "-v**3",
+      "kernel_coefficient_identities": 13,
+      "index_sum": 3
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 2,
+      "right_nullity": 2,
+      "shape": [
+        6,
+        6
+      ],
+      "rank": 4,
+      "moment_indices": [
+        3,
+        7
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "4": "u"
+      },
+      "left_minimal_indices": [
+        1,
+        1
+      ],
+      "right_minimal_indices": [
+        1,
+        1
+      ],
+      "top_minor": "u**4",
+      "bottom_minor": "v**4",
+      "kernel_coefficient_identities": 24,
+      "index_sum": 4
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 2,
+      "right_nullity": 3,
+      "shape": [
+        7,
+        8
+      ],
+      "rank": 5,
+      "moment_indices": [
+        4,
+        9
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "5": "u"
+      },
+      "left_minimal_indices": [
+        1,
+        1
+      ],
+      "right_minimal_indices": [
+        1,
+        1,
+        1
+      ],
+      "top_minor": "u**5",
+      "bottom_minor": "v**5",
+      "kernel_coefficient_identities": 37,
+      "index_sum": 5
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 3,
+      "right_nullity": 1,
+      "shape": [
+        7,
+        5
+      ],
+      "rank": 4,
+      "moment_indices": [
+        3,
+        7
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "4": "u"
+      },
+      "left_minimal_indices": [
+        1,
+        1,
+        1
+      ],
+      "right_minimal_indices": [
+        1
+      ],
+      "top_minor": "u**4",
+      "bottom_minor": "v**4",
+      "kernel_coefficient_identities": 22,
+      "index_sum": 4
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 3,
+      "right_nullity": 2,
+      "shape": [
+        8,
+        7
+      ],
+      "rank": 5,
+      "moment_indices": [
+        4,
+        9
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "5": "u"
+      },
+      "left_minimal_indices": [
+        1,
+        1,
+        1
+      ],
+      "right_minimal_indices": [
+        1,
+        1
+      ],
+      "top_minor": "u**5",
+      "bottom_minor": "v**5",
+      "kernel_coefficient_identities": 37,
+      "index_sum": 5
+    },
+    {
+      "epsilon": 1,
+      "left_nullity": 3,
+      "right_nullity": 3,
+      "shape": [
+        9,
+        9
+      ],
+      "rank": 6,
+      "moment_indices": [
+        5,
+        11
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v",
+        "6": "u"
+      },
+      "left_minimal_indices": [
+        1,
+        1,
+        1
+      ],
+      "right_minimal_indices": [
+        1,
+        1,
+        1
+      ],
+      "top_minor": "-u**6",
+      "bottom_minor": "-v**6",
+      "kernel_coefficient_identities": 54,
+      "index_sum": 6
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 1,
+      "right_nullity": 1,
+      "shape": [
+        5,
+        5
+      ],
+      "rank": 4,
+      "moment_indices": [
+        3,
+        5
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "2": "-u*v",
+        "4": "u**2"
+      },
+      "left_minimal_indices": [
+        2
+      ],
+      "right_minimal_indices": [
+        2
+      ],
+      "top_minor": "u**4",
+      "bottom_minor": "v**4",
+      "kernel_coefficient_identities": 10,
+      "index_sum": 4
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 1,
+      "right_nullity": 2,
+      "shape": [
+        7,
+        8
+      ],
+      "rank": 6,
+      "moment_indices": [
+        5,
+        8
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "3": "-u*v",
+        "6": "u**2"
+      },
+      "left_minimal_indices": [
+        2
+      ],
+      "right_minimal_indices": [
+        2,
+        2
+      ],
+      "top_minor": "-u**6",
+      "bottom_minor": "-v**6",
+      "kernel_coefficient_identities": 22,
+      "index_sum": 6
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 1,
+      "right_nullity": 3,
+      "shape": [
+        9,
+        11
+      ],
+      "rank": 8,
+      "moment_indices": [
+        7,
+        11
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "4": "-u*v",
+        "8": "u**2"
+      },
+      "left_minimal_indices": [
+        2
+      ],
+      "right_minimal_indices": [
+        2,
+        2,
+        2
+      ],
+      "top_minor": "u**8",
+      "bottom_minor": "v**8",
+      "kernel_coefficient_identities": 38,
+      "index_sum": 8
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 2,
+      "right_nullity": 1,
+      "shape": [
+        8,
+        7
+      ],
+      "rank": 6,
+      "moment_indices": [
+        5,
+        8
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "3": "-u*v",
+        "6": "u**2"
+      },
+      "left_minimal_indices": [
+        2,
+        2
+      ],
+      "right_minimal_indices": [
+        2
+      ],
+      "top_minor": "-u**6",
+      "bottom_minor": "-v**6",
+      "kernel_coefficient_identities": 22,
+      "index_sum": 6
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 2,
+      "right_nullity": 2,
+      "shape": [
+        10,
+        10
+      ],
+      "rank": 8,
+      "moment_indices": [
+        7,
+        11
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "4": "-u*v",
+        "8": "u**2"
+      },
+      "left_minimal_indices": [
+        2,
+        2
+      ],
+      "right_minimal_indices": [
+        2,
+        2
+      ],
+      "top_minor": "u**8",
+      "bottom_minor": "v**8",
+      "kernel_coefficient_identities": 40,
+      "index_sum": 8
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 2,
+      "right_nullity": 3,
+      "shape": [
+        12,
+        13
+      ],
+      "rank": 10,
+      "moment_indices": [
+        9,
+        14
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "5": "-u*v",
+        "10": "u**2"
+      },
+      "left_minimal_indices": [
+        2,
+        2
+      ],
+      "right_minimal_indices": [
+        2,
+        2,
+        2
+      ],
+      "top_minor": "-u**10",
+      "bottom_minor": "-v**10",
+      "kernel_coefficient_identities": 62,
+      "index_sum": 10
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 3,
+      "right_nullity": 1,
+      "shape": [
+        11,
+        9
+      ],
+      "rank": 8,
+      "moment_indices": [
+        7,
+        11
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "4": "-u*v",
+        "8": "u**2"
+      },
+      "left_minimal_indices": [
+        2,
+        2,
+        2
+      ],
+      "right_minimal_indices": [
+        2
+      ],
+      "top_minor": "u**8",
+      "bottom_minor": "v**8",
+      "kernel_coefficient_identities": 38,
+      "index_sum": 8
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 3,
+      "right_nullity": 2,
+      "shape": [
+        13,
+        12
+      ],
+      "rank": 10,
+      "moment_indices": [
+        9,
+        14
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "5": "-u*v",
+        "10": "u**2"
+      },
+      "left_minimal_indices": [
+        2,
+        2,
+        2
+      ],
+      "right_minimal_indices": [
+        2,
+        2
+      ],
+      "top_minor": "-u**10",
+      "bottom_minor": "-v**10",
+      "kernel_coefficient_identities": 62,
+      "index_sum": 10
+    },
+    {
+      "epsilon": 2,
+      "left_nullity": 3,
+      "right_nullity": 3,
+      "shape": [
+        15,
+        15
+      ],
+      "rank": 12,
+      "moment_indices": [
+        11,
+        17
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**2",
+        "6": "-u*v",
+        "12": "u**2"
+      },
+      "left_minimal_indices": [
+        2,
+        2,
+        2
+      ],
+      "right_minimal_indices": [
+        2,
+        2,
+        2
+      ],
+      "top_minor": "u**12",
+      "bottom_minor": "v**12",
+      "kernel_coefficient_identities": 90,
+      "index_sum": 12
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 1,
+      "right_nullity": 1,
+      "shape": [
+        7,
+        7
+      ],
+      "rank": 6,
+      "moment_indices": [
+        5,
+        7
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "2": "u*v**2",
+        "4": "-u**2*v",
+        "6": "u**3"
+      },
+      "left_minimal_indices": [
+        3
+      ],
+      "right_minimal_indices": [
+        3
+      ],
+      "top_minor": "-u**6",
+      "bottom_minor": "-v**6",
+      "kernel_coefficient_identities": 14,
+      "index_sum": 6
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 1,
+      "right_nullity": 2,
+      "shape": [
+        10,
+        11
+      ],
+      "rank": 9,
+      "moment_indices": [
+        8,
+        11
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "3": "u*v**2",
+        "6": "-u**2*v",
+        "9": "u**3"
+      },
+      "left_minimal_indices": [
+        3
+      ],
+      "right_minimal_indices": [
+        3,
+        3
+      ],
+      "top_minor": "u**9",
+      "bottom_minor": "v**9",
+      "kernel_coefficient_identities": 31,
+      "index_sum": 9
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 1,
+      "right_nullity": 3,
+      "shape": [
+        13,
+        15
+      ],
+      "rank": 12,
+      "moment_indices": [
+        11,
+        15
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "4": "u*v**2",
+        "8": "-u**2*v",
+        "12": "u**3"
+      },
+      "left_minimal_indices": [
+        3
+      ],
+      "right_minimal_indices": [
+        3,
+        3,
+        3
+      ],
+      "top_minor": "u**12",
+      "bottom_minor": "v**12",
+      "kernel_coefficient_identities": 54,
+      "index_sum": 12
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 2,
+      "right_nullity": 1,
+      "shape": [
+        11,
+        10
+      ],
+      "rank": 9,
+      "moment_indices": [
+        8,
+        11
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "3": "u*v**2",
+        "6": "-u**2*v",
+        "9": "u**3"
+      },
+      "left_minimal_indices": [
+        3,
+        3
+      ],
+      "right_minimal_indices": [
+        3
+      ],
+      "top_minor": "u**9",
+      "bottom_minor": "v**9",
+      "kernel_coefficient_identities": 31,
+      "index_sum": 9
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 2,
+      "right_nullity": 2,
+      "shape": [
+        14,
+        14
+      ],
+      "rank": 12,
+      "moment_indices": [
+        11,
+        15
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "4": "u*v**2",
+        "8": "-u**2*v",
+        "12": "u**3"
+      },
+      "left_minimal_indices": [
+        3,
+        3
+      ],
+      "right_minimal_indices": [
+        3,
+        3
+      ],
+      "top_minor": "u**12",
+      "bottom_minor": "v**12",
+      "kernel_coefficient_identities": 56,
+      "index_sum": 12
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 2,
+      "right_nullity": 3,
+      "shape": [
+        17,
+        18
+      ],
+      "rank": 15,
+      "moment_indices": [
+        14,
+        19
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "5": "u*v**2",
+        "10": "-u**2*v",
+        "15": "u**3"
+      },
+      "left_minimal_indices": [
+        3,
+        3
+      ],
+      "right_minimal_indices": [
+        3,
+        3,
+        3
+      ],
+      "top_minor": "-u**15",
+      "bottom_minor": "-v**15",
+      "kernel_coefficient_identities": 87,
+      "index_sum": 15
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 3,
+      "right_nullity": 1,
+      "shape": [
+        15,
+        13
+      ],
+      "rank": 12,
+      "moment_indices": [
+        11,
+        15
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "4": "u*v**2",
+        "8": "-u**2*v",
+        "12": "u**3"
+      },
+      "left_minimal_indices": [
+        3,
+        3,
+        3
+      ],
+      "right_minimal_indices": [
+        3
+      ],
+      "top_minor": "u**12",
+      "bottom_minor": "v**12",
+      "kernel_coefficient_identities": 54,
+      "index_sum": 12
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 3,
+      "right_nullity": 2,
+      "shape": [
+        18,
+        17
+      ],
+      "rank": 15,
+      "moment_indices": [
+        14,
+        19
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "5": "u*v**2",
+        "10": "-u**2*v",
+        "15": "u**3"
+      },
+      "left_minimal_indices": [
+        3,
+        3,
+        3
+      ],
+      "right_minimal_indices": [
+        3,
+        3
+      ],
+      "top_minor": "-u**15",
+      "bottom_minor": "-v**15",
+      "kernel_coefficient_identities": 87,
+      "index_sum": 15
+    },
+    {
+      "epsilon": 3,
+      "left_nullity": 3,
+      "right_nullity": 3,
+      "shape": [
+        21,
+        21
+      ],
+      "rank": 18,
+      "moment_indices": [
+        17,
+        23
+      ],
+      "homogeneous_annihilator": {
+        "0": "-v**3",
+        "6": "u*v**2",
+        "12": "-u**2*v",
+        "18": "u**3"
+      },
+      "left_minimal_indices": [
+        3,
+        3,
+        3
+      ],
+      "right_minimal_indices": [
+        3,
+        3,
+        3
+      ],
+      "top_minor": "-u**18",
+      "bottom_minor": "-v**18",
+      "kernel_coefficient_identities": 126,
+      "index_sum": 18
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 1,
+      "right_nullity": 1,
+      "shape": [
+        9,
+        9
+      ],
+      "rank": 8,
+      "moment_indices": [
+        7,
+        9
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "2": "-u*v**3",
+        "4": "u**2*v**2",
+        "6": "-u**3*v",
+        "8": "u**4"
+      },
+      "left_minimal_indices": [
+        4
+      ],
+      "right_minimal_indices": [
+        4
+      ],
+      "top_minor": "u**8",
+      "bottom_minor": "v**8",
+      "kernel_coefficient_identities": 18,
+      "index_sum": 8
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 1,
+      "right_nullity": 2,
+      "shape": [
+        13,
+        14
+      ],
+      "rank": 12,
+      "moment_indices": [
+        11,
+        14
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "3": "-u*v**3",
+        "6": "u**2*v**2",
+        "9": "-u**3*v",
+        "12": "u**4"
+      },
+      "left_minimal_indices": [
+        4
+      ],
+      "right_minimal_indices": [
+        4,
+        4
+      ],
+      "top_minor": "u**12",
+      "bottom_minor": "v**12",
+      "kernel_coefficient_identities": 40,
+      "index_sum": 12
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 1,
+      "right_nullity": 3,
+      "shape": [
+        17,
+        19
+      ],
+      "rank": 16,
+      "moment_indices": [
+        15,
+        19
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "4": "-u*v**3",
+        "8": "u**2*v**2",
+        "12": "-u**3*v",
+        "16": "u**4"
+      },
+      "left_minimal_indices": [
+        4
+      ],
+      "right_minimal_indices": [
+        4,
+        4,
+        4
+      ],
+      "top_minor": "u**16",
+      "bottom_minor": "v**16",
+      "kernel_coefficient_identities": 70,
+      "index_sum": 16
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 2,
+      "right_nullity": 1,
+      "shape": [
+        14,
+        13
+      ],
+      "rank": 12,
+      "moment_indices": [
+        11,
+        14
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "3": "-u*v**3",
+        "6": "u**2*v**2",
+        "9": "-u**3*v",
+        "12": "u**4"
+      },
+      "left_minimal_indices": [
+        4,
+        4
+      ],
+      "right_minimal_indices": [
+        4
+      ],
+      "top_minor": "u**12",
+      "bottom_minor": "v**12",
+      "kernel_coefficient_identities": 40,
+      "index_sum": 12
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 2,
+      "right_nullity": 2,
+      "shape": [
+        18,
+        18
+      ],
+      "rank": 16,
+      "moment_indices": [
+        15,
+        19
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "4": "-u*v**3",
+        "8": "u**2*v**2",
+        "12": "-u**3*v",
+        "16": "u**4"
+      },
+      "left_minimal_indices": [
+        4,
+        4
+      ],
+      "right_minimal_indices": [
+        4,
+        4
+      ],
+      "top_minor": "u**16",
+      "bottom_minor": "v**16",
+      "kernel_coefficient_identities": 72,
+      "index_sum": 16
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 2,
+      "right_nullity": 3,
+      "shape": [
+        22,
+        23
+      ],
+      "rank": 20,
+      "moment_indices": [
+        19,
+        24
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "5": "-u*v**3",
+        "10": "u**2*v**2",
+        "15": "-u**3*v",
+        "20": "u**4"
+      },
+      "left_minimal_indices": [
+        4,
+        4
+      ],
+      "right_minimal_indices": [
+        4,
+        4,
+        4
+      ],
+      "top_minor": "u**20",
+      "bottom_minor": "v**20",
+      "kernel_coefficient_identities": 112,
+      "index_sum": 20
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 3,
+      "right_nullity": 1,
+      "shape": [
+        19,
+        17
+      ],
+      "rank": 16,
+      "moment_indices": [
+        15,
+        19
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "4": "-u*v**3",
+        "8": "u**2*v**2",
+        "12": "-u**3*v",
+        "16": "u**4"
+      },
+      "left_minimal_indices": [
+        4,
+        4,
+        4
+      ],
+      "right_minimal_indices": [
+        4
+      ],
+      "top_minor": "u**16",
+      "bottom_minor": "v**16",
+      "kernel_coefficient_identities": 70,
+      "index_sum": 16
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 3,
+      "right_nullity": 2,
+      "shape": [
+        23,
+        22
+      ],
+      "rank": 20,
+      "moment_indices": [
+        19,
+        24
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "5": "-u*v**3",
+        "10": "u**2*v**2",
+        "15": "-u**3*v",
+        "20": "u**4"
+      },
+      "left_minimal_indices": [
+        4,
+        4,
+        4
+      ],
+      "right_minimal_indices": [
+        4,
+        4
+      ],
+      "top_minor": "u**20",
+      "bottom_minor": "v**20",
+      "kernel_coefficient_identities": 112,
+      "index_sum": 20
+    },
+    {
+      "epsilon": 4,
+      "left_nullity": 3,
+      "right_nullity": 3,
+      "shape": [
+        27,
+        27
+      ],
+      "rank": 24,
+      "moment_indices": [
+        23,
+        29
+      ],
+      "homogeneous_annihilator": {
+        "0": "v**4",
+        "6": "-u*v**3",
+        "12": "u**2*v**2",
+        "18": "-u**3*v",
+        "24": "u**4"
+      },
+      "left_minimal_indices": [
+        4,
+        4,
+        4
+      ],
+      "right_minimal_indices": [
+        4,
+        4,
+        4
+      ],
+      "top_minor": "u**24",
+      "bottom_minor": "v**24",
+      "kernel_coefficient_identities": 162,
+      "index_sum": 24
+    }
+  ],
+  "a10_boundary": {
+    "epsilon": 2,
+    "left_nullity": 2,
+    "right_nullity": 2,
+    "shape": [
+      10,
+      10
+    ],
+    "rank": 8,
+    "moment_indices": [
+      7,
+      11
+    ],
+    "homogeneous_annihilator": {
+      "0": "v**2",
+      "4": "-u*v",
+      "8": "u**2"
+    },
+    "left_minimal_indices": [
+      2,
+      2
+    ],
+    "right_minimal_indices": [
+      2,
+      2
+    ],
+    "top_minor": "u**8",
+    "bottom_minor": "v**8",
+    "kernel_coefficient_identities": 40,
+    "index_sum": 8
+  },
+  "independent_review": false,
+  "improves_omega": false
+}

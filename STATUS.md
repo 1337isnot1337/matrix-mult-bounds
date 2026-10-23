@@ -1,5 +1,18 @@
 # Research status
 
+## Sharp Hankel pencil budgets at the nonlinear boundary
+
+The [all-degree pencil family](research/ai/2026-10-23-hankel-index-sharpness/proof.md)
+attains `(a+b-2r)*epsilon=r` for every positive integer annihilator degree
+epsilon and every positive left and right nullity. Both polynomial kernels
+are explicit over every field, and every projective member has the same
+rank. In particular a 10-by-10 rank-eight pencil has minimal indices
+`(2,2)` on both sides and annihilator `z^8-t*z^4+t^2`. Thus even constant
+projective rank does not permit weakening the previous pencil-linearity
+condition `5r<2(a+b)` to equality. This written unreviewed sharpness result
+does not decide the Segre-image bound at equality, change the ordinary
+matrix-target frontier or improve the exponent below 9/4.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

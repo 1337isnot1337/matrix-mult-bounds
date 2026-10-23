@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-hankel-index-sharpness` package is owner-directed OpenAI
+Codex work. The prior Hankel pencil degree argument, its existing
+rank-seven quadratic control and ordinary frontier retain their original
+credits and exact source pins. The all-degree rectangular equality family,
+constant-projective-rank minors and complete polynomial-kernel proof are
+local continuations. The index sum theorem remains external work of
+De Teran, Dopico and Mackey in the stated 2013 version; the construction
+itself has an elementary proof over arbitrary fields. No historical
+priority, independent mathematical review, formalization, new matrix
+restriction or exponent improvement is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
