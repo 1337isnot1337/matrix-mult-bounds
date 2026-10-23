@@ -1,0 +1,20 @@
+[
+  {
+    "id": "AI-RESOLVENT-SHARP-MINRANK-001",
+    "title": "Sharp minimum matrix rank six for the fixed-resolvent limit space",
+    "status": "proof-written-unreviewed",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-resolvent-minrank/proof.md",
+    "section": "1-4",
+    "statement": "Over every field, the explicitly defined fixed-resolvent limiting matrix space W has dimension 112 and minimum nonzero matrix rank exactly six. Its difficult 31-dimensional outer block admits 31 successive triangular six-by-six minor identities with unit diagonal factors and unit substitutions. Every two-sided compression with total rank-loss budget at most five is injective on W. If the 110-by-112 and 112-by-110 compression factors both have rank 109 and kill a nonzero X in W, then rank X = 6, ker X is contained in im C, X(im C) = ker P, im C = X^-1(ker P), and ker P lies in the final 28-dimensional source layer.",
+    "dependencies": [
+      "Maintained literal cyclic convolution source and unimodular source unit, pinned in sources.json",
+      "PR103 fixed resolvent and high/low limiting-space definition at 96f3b513acb1bc92a235dd9041ceae18b0fd4c83",
+      "Exact integer thirty-one-minor certificate and elementary matrix rank inequalities"
+    ],
+    "limitations": "Ordinary matrix rank, not tensor slice rank. No classification of all rank-six matrices, arbitrary singular degeneration, independent review, formalization, or smaller exponent. The narrow target application is superseded by the concurrent regular-long-leg theorem."
+  }
+]
