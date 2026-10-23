@@ -1,0 +1,61 @@
+{
+  "base_main": "d60e367baf040013757cd48428b8de506d5e2b51",
+  "external_sources": [],
+  "new_external_inputs": "None. The new recurrence calculation, finite geometric-sum identities, endpoint degree arguments, and root-existence argument are written directly. External inputs inherited through the merged index theorems remain pinned in their sources.json.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+      "sha256": "f5672695904c1f458134abcfc014ec3f86848c26021fa862106fbb942e5bb406",
+      "use": "Merged all-field polynomial-kernel index sum, complete bounded-kernel dimensions, zero-index/fixed-root characterization, and full rectangular source rank formula."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "sha256": "3fbbe8be72254360b7df5e7cfb8ff3aa5d6096bacf9bb91ed9d11290c5d929eb",
+      "use": "Merged structural restriction at primitive degree two and balanced four-value containment. The present package adds explicit split/double criteria and algebraically closed attainment."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "use": "Pinned versions of the external splitting and matrix-polynomial index-sum inputs underlying the inherited local theorems."
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "use": "Original full crossed biform source and prior general kernel-bundle identity; original attribution retained."
+    }
+  ],
+  "credited_prior_work": [
+    {
+      "pull_request": 218,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/218",
+      "scope": "Merged arbitrary-field two-index formula, structural dichotomy, and balanced four-value containment. These prior results are premises, not newly claimed here."
+    }
+  ],
+  "local_work": "Exact all-characteristic split/double recurrence criterion for q_t=(z-x)(z-tx), t nonzero; indices(a-epsilon,a+epsilon); full rectangular rank ab+2min(a,b)-epsilon[a=b]; all-four-rank balanced attainment over every algebraically closed field.",
+  "field_and_hypotheses": "Any field K; t in K*, a>=3,b>=3 for the literal source. The auxiliary T_n coefficient map is separately defined for n>=2. epsilon=1 iff1+t+...+t^a=0. At t!=1 this is t^(a+1)=1; at t=1 it is positive characteristic dividing a+1. Algebraic closedness is required only for the universal attainment corollary.",
+  "implementation_dependencies": "The verifier constructs the recurrence and full crossed source independently with exact standard-library arithmetic; no prior research implementation is imported.",
+  "preserved_prior_experiment": {
+    "location_note": "Preserved task scratch work/quadratic-split-attainment; not a repository runtime dependency or a new acceptance input.",
+    "scope": "Exactly16 rational sign choices u=+/-x^2,v=+/-1,w=+/-x+/-x^2. Every24-by24 T_5 matrix had rational rank24. Fraction elimination and SymPy rank used the same constructed entries; they are two rank implementations, not independent source constructions.",
+    "artifacts": [
+      {
+        "filename": "sign_lifts.py",
+        "sha256": "efec0578b6a1f9471329700a454526214193eb3e204b07dd22bc7c423cd14517",
+        "bytes": 2335
+      },
+      {
+        "filename": "sign-lifts.json",
+        "sha256": "6f21be498e5a5a48d29c1ba4bd203cf3f3ac690a52f4542a7eabdd9a287f5f4b",
+        "bytes": 6925
+      }
+    ],
+    "rerun_for_this_package": false,
+    "limitation": "This finite negative excludes only these16 sign lifts; it does not exclude rational order-five models generally and is not a premise of either theorem."
+  },
+  "prior_credit": "The crossed source, general bundle identity, polynomial-index formula and structural containment retain their prior credits. No historical-priority claim is made.",
+  "limitations": "One explicit family of individual slices and balanced attainment over algebraically closed fields. No general nonclosed-field attainment classification, linear source-space cap, compatible three-leg tensor target, degeneration, independent review, or matrix-multiplication exponent improvement.",
+  "ai_assistance": "Owner-directed Codex research with same-session checking. Written and unreviewed; not independent mathematical review.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
