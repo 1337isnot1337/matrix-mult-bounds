@@ -1,5 +1,19 @@
 # Integrated research coordination
 
+The two-regular-leg continuation is in
+`ai/2026-10-23-regular-leg-frontier/QUESTION.md`, branch
+`research/regular-leg-rank-frontier-01a1691e`, PR122. The written source
+compression bounds force the two regular long limiting ranks to sum to
+at most192. A standalone mixed screen leaves sixteen high-rank pairs,
+separate from concurrent one-regular-leg exclusions. The proofs are
+unreviewed and no target or exponent gain is claimed.
+
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument

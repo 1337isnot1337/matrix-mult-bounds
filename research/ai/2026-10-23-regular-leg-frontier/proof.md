@@ -140,6 +140,8 @@ The remaining rank pairs with p+q>=193 are exactly
 
 The finite screen records these sixteen survivors. They pass only
 these necessary tests; no maps or jets for them have been constructed.
+Concurrent PR113 and PR125 address additional one-regular-leg charts;
+these sixteen are not asserted to survive every other obstruction.
 Pairs of total rank at most192 are not closed by this argument.
 
 ## 5. Scope, evidence and attribution

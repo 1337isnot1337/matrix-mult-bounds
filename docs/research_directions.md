@@ -301,3 +301,13 @@ one regular short and one regular long map, the sixteen high-total-rank
 survivors are (100,100..107) and (90..97,110). They pass necessary tests
 only. Smaller rank pairs, two polar maps and exact target construction
 remain open. This gate does not choose or assume a regular target unit.
+
+## Nonsplit finite cube degree-model checkpoint
+
+The [October 23 vector-degree continuation](../research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks source parity and the common principal cover, replays seven bounded
+class-cover searches and evaluates all 3372 specified integer weight
+vectors. It retains 6155844. The outcome closes only that finite weight
+census; numerical class-cover optimality reports are not proof. A further
+attempt should preserve finer Peirce-corner information, change basis or
+change source power, rather than rerun the unchanged degree model.

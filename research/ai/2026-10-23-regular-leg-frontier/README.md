@@ -40,3 +40,9 @@ pins, corruption of this evidence and inflated scope. Use `verify.py
 
 Claims: `AI-REGULAR-COMPRESSION-KERNEL-001` and
 `AI-A4-REGULAR-LEG-FRONTIER-002`.
+
+Concurrent PRs [113](https://github.com/1337isnot1337/matrix-mult-bounds/pull/113)
+and [125](https://github.com/1337isnot1337/matrix-mult-bounds/pull/125)
+study one-regular-leg obstructions and close some pairs that survive this
+standalone screen. Their unreviewed proofs are separate and retain their
+credit; the sixteen pairs here are not claimed as a global open frontier.
