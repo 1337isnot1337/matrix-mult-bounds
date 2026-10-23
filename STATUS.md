@@ -1,5 +1,23 @@
 # Research status
 
+## A repair-cost barrier for the existing formal calculus
+
+The [operational-repair proof](research/ai/2026-10-23-operational-repair-barrier/README.md)
+applies the new external monotones of Amanov, van den Berg and Zuiddam.
+Within their specified formal calculus, a near-full fixed-width target
+requires more than `O(n^alpha)` scalar repairs for every fixed `alpha<2`.
+For fixed outer defects, the necessary lower bound is
+`liminf s_n ln(n)/n^2 >= ln(b^2/(2b-1))/e`.
+The proof also permits quantified outer defects of order `n/ln n`.
+At width four, its coefficient lies between
+`0.304118051531` and `0.304118051532`.
+
+Claim `AI-OPERATIONAL-REPAIR-BARRIER-001` is written and unreviewed.
+Integer and rational calculations verify finite inequalities and control cases.
+They do not verify tensor maps. The imported functions need not be actual
+tensor invariants, so this result does not exclude arbitrary degenerations.
+The actual construction target remains open, and no smaller exponent is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

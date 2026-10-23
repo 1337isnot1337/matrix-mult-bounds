@@ -24,7 +24,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [SL(2,7) exact source cost and an unconstructed finite target](research/ai/2026-10-20-sl2-seven/README.md)
 - [Heisenberg source and complete single-target coordinate obstruction](research/ai/2026-10-20-heisenberg-five/README.md)
 
-The field map is a curated starting point, not an exhaustive survey. Its source snapshot is **October 20, 2026**.
+The field map is selective. Its initial source snapshot is October 20, 2026, with an operational-barrier addition on October 23.
 
 ## External baseline versus this project's work
 

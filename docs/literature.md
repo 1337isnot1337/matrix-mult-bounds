@@ -1,6 +1,6 @@
 # Research field
 
-Snapshot: October 20, 2026. This map is selective. Each source record states what was inspected and what was not rebuilt.
+Initial snapshot: October 20, 2026. The operational-barrier entry was added on October 23. This map is selective. Each source record states the inspection scope.
 
 ## Main lines of work
 
@@ -51,6 +51,8 @@ Navot's project extends the result to every field. The Hugin-Hilbert project ext
 
 A method barrier is not an unrestricted lower bound on $\omega$. Ambainis, Filmus, and Le Gall constrain specified laser-method analyses. Alman constrains the universal method on Coppersmith-Winograd tensors. The cap-set work constrains specified group-theoretic routes. These statements have different hypotheses. [AFL15, ALMAN19, BCCGNU17]
 
+Amanov, van den Berg and Zuiddam prove an operational barrier for the polynomial-degeneration method. Their formal preorder includes specified degeneration ingredients, restrictions, isomorphisms and combination rules. Its square and rectangular exponent bounds cannot improve through those operations alone. The functions that prove this barrier need not be invariants of actual tensors. Arbitrary new degenerations remain outside this conclusion. [ABZ26]
+
 The local matching-profile result is narrower still: it concerns the explicitly listed scalar axioms. It does not represent all tensor inequalities. See [the local status](../STATUS.md).
 
 ## References and inspection record
@@ -58,6 +60,14 @@ The local matching-profile result is narrower still: it concerns the explicitly 
 The JSON source registry is authoritative for versions and inspection scope. The BibTeX export is a convenience, not evidence of a full-paper review.
 
 [Source registry](../references/sources.json) | [BibTeX](../references/references.bib)
+
+### ABZ26
+
+[Multiplying matrices via polynomials: exposition and barriers](https://arxiv.org/html/2610.30054v1). Alimzhan Amanov; Maxim van den Berg; Jeroen Zuiddam. Submitted October 21, 2026.
+
+The paper presents the square and rectangular bounds over every field. Section 5 proves an operational barrier for the stated formal calculus. Definition 5.5 gives asymmetric monotones, and Proposition 5.9 proves their monotonicity. The local [paired-repair deduction](../research/ai/2026-10-23-operational-repair-barrier/README.md) applies those functions to the existing paired source.
+
+Inspection: Primary v1 HTML, Theorems 1.1, 1.2 and 5.4, Definitions 5.1–5.5, and Propositions 5.7–5.9. The external monotonicity proof is imported, with its scope retained. No local formalization is claimed.
 
 ### STR69
 

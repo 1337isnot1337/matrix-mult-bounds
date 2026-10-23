@@ -2,6 +2,21 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+## The existing polynomial operations have an external barrier
+
+Amanov, van den Berg and Zuiddam, [arXiv:2610.30054v1](https://arxiv.org/html/2610.30054v1),
+prove an operational barrier for their formal preorder.
+The existing polynomial ingredients and stated combination rules cannot
+improve the square or rectangular exponent bounds by themselves.
+An additional search constraint must arise from a new tensor relation
+or an argument outside that specified calculus.
+
+The [local paired-repair deduction](../research/ai/2026-10-23-operational-repair-barrier/README.md)
+shows that formal near-full fixed-width repairs cannot cost `O(n^alpha)`
+for any fixed `alpha<2`. This barrier does not exclude actual tensor
+degenerations. The paired construction target below remains open.
+New maps must be verified directly, including their auxiliary costs.
+
 ## Active paired construction: near-full width four
 
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)

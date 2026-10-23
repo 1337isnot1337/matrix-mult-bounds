@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-operational-repair-barrier` package is owner-directed
+Codex work. Amanov, van den Berg and Zuiddam supply the formal semiring,
+its asymmetric functions and their monotonicity in arXiv:2610.30054v1.
+The paired source and actual correction-budget criteria retain their
+prior repository credit. The repair-cost exclusion, natural-logarithm
+coefficient, dimension-loss refinement and exact replay are local deductions.
+A separate agent checked the formulas in the same session and supplied
+the logarithmic-deficit formulation. This is not independent mathematical
+review. The result concerns the specified formal calculus and gives no
+unrestricted degeneration obstruction or improved exponent.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

@@ -1,0 +1,45 @@
+{
+  "snapshot_date": "2026-10-23",
+  "base_commit": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "external_sources": [
+    {
+      "id": "ABZ26",
+      "authors": ["Alimzhan Amanov", "Maxim van den Berg", "Jeroen Zuiddam"],
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "version": "arXiv:2610.30054v1",
+      "submitted": "2026-10-21",
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "fetched_html_receipt": {
+        "date": "2026-10-23",
+        "sha256": "c03fd1fe478791658865c2d38e0e30e696947a5e9aa14a1ad10d0c22720745f1",
+        "note": "Receipt for the parent's fetched HTML bytes; arXiv HTML rendering is not assumed byte-stable. The versioned paper is the mathematical pin."
+      },
+      "inspected": "Definitions 5.1, 5.3 and 5.5; Propositions 5.7, 5.8 and 5.9; Theorem 5.4; Example 5.10",
+      "imported_result": "Positive additive multiplicative functions F_theta on the paper's formal expression semiring, monotone for exactly the generated formal preorder in Definition 5.3.",
+      "hypotheses": "theta has three positive entries summing to one; polynomial generator dimension triples are admissible; expression identities and relations are those allowed in the formal preorder. The algebraic barrier is field-independent but does not assert monotonicity for every actual tensor degeneration.",
+      "scope_warning": "The functions need not descend to tensors. An actual low border-rank auxiliary tensor cannot automatically be charged its border rank in this formal calculus."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c",
+      "use": "Existing Q(n,b) coefficient expression and M(l,h,r) leg convention only; no construction credited anew."
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/superlinear_budget.md",
+      "sha256": "6301288344c44f93e18fdaa060c7461755db197beaf2bce039abd4be19f6a6db",
+      "use": "Existing conditional actual-degeneration route, for scope comparison only; it is not a premise of this formal barrier."
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/critical_coefficient.md",
+      "sha256": "1988a4180bc1a5350f23269665ddf7a35ab4ae0000852af829e8a2240e62342d",
+      "use": "Existing critical actual-correction coefficient, kept separate from this formal-operation cost."
+    }
+  ],
+  "local_contribution": "Evaluate an asymmetric one-parameter subfamily of the imported monotones on the paired source and matrix targets; derive exact finite repair inequalities, exclusion of every fixed subquadratic scalar repair in the formal calculus, a natural-logarithm coefficient with a dimension-loss refinement, and sharpness within that parameter family.",
+  "review_status": "Written and unreviewed. Same-session agent checks are not independent external mathematical review.",
+  "formalized": false,
+  "actual_degeneration_obstruction": false,
+  "improves_omega": false
+}
