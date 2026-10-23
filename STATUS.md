@@ -1,5 +1,27 @@
 # Research status
 
+## One-slice speedups of the exact paired seed
+
+The [one-slice audit](research/ai/2026-10-23-one-slice-seed-audit/README.md)
+applies Alman--Li's attributed speedup theorem to the previous integer
+Q(5,4) seed. An explicit corner functional has raw rank 32 and compressed
+rank 8. For every k>=1 it gives an actual complex degeneration from
+`Q(5,4)^k plus J_(8^k)` to
+`M(4^k,4^k,4^k) plus J_(8^k*(2^k-1)^2)`, with `J_s=M(1,s,1)`.
+The square case has added J64 and extracted J576.
+
+One appended one-slice tensor to a seed power and one-slice extraction
+cannot exclude the existing feasible endpoint scalar profile. Every
+resulting per-orientation scalar lower bound is below 37, while that
+profile prescribes cyclic geometric mean `(910/81)^(3/2)>37`.
+This comparison does not identify individual actual character values.
+Multiple slices, successive extractions and other seeds remain outside
+this ceiling. Claim `AI-ONE-SLICE-SEED-AUDIT-001` is written and unreviewed.
+Six exact tests replay the complete seed, slice, cancellation, initial
+kernels, formula controls, integer separation and source pins. The actual
+degeneration follows from the imported theorem; no complete Laurent map,
+actual endpoint character, or smaller exponent is supplied.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

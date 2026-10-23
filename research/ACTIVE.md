@@ -1,5 +1,19 @@
 # Integrated research coordination
 
+## One-slice seed audit: October 23
+
+The standalone `research/one-slice-seed-20261023` continuation is recorded
+in [the one-slice audit](ai/2026-10-23-one-slice-seed-audit/README.md).
+The attributed external speedup gives actual structured degenerations
+from powers of the existing Q(5,4) seed. A uniform ceiling shows that
+one appended one-slice tensor and one-slice extraction leave the existing
+endpoint scalar profile feasible, for every power and slice choice.
+Repeating that unchanged scalar optimization is not a new route.
+Multiple slices, successive extractions, other seeds and additional
+tensor information remain open. Six focused tests and the metadata
+checks pass locally. The proof is written and unreviewed; no full
+regression, hosted CI result or exponent improvement is claimed here.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-one-slice-seed-audit` package is owner-directed Codex
+work. It applies Alman and Li's *Asymptotic Rank Speedup Theorems,
+Revisited*, arXiv:2605.21738v1, Theorem 5.1 and Propositions 5.3--5.4,
+to the existing exact integer Q(5,4) seed. The external one-slice mechanism
+and its earlier Strassen/Coppersmith--Winograd attribution remain external.
+The explicit corner slice, all-power parameter deduction and uniform
+endpoint ceiling are local applications. The scalar minimum and cyclic
+product identity retain their prior credit. Exact checks verify the
+hypotheses and arithmetic, not a newly supplied full Laurent map.
+Same-session proof checks do not constitute independent mathematical
+review. No smaller exponent or actual endpoint character is constructed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
