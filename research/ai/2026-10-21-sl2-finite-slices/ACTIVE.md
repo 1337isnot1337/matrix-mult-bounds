@@ -20,5 +20,9 @@ cover and the extra-C2 cube bound 6155844<6426225, giving target volume
 with three optional skips, and five passing archive replays. A fresh
 October 23 replay passes all five focused tests, including corruption
 controls. Proof and claim ledger remain written and unreviewed.
-Current-commit regression and hosted CI will be recorded before merge.
+The exact committed package at `6cd7f3a` also passes a fresh full run:
+844 tests, three optional skips, and all five historical replays.
+PR102 integrates conic main `539b539` while preserving both parent claim
+sets unchanged. Incoming conic tests and combined metadata checks are
+required next; hosted CI must pass the final combined head before merge.
 No exponent improvement.

@@ -9,10 +9,22 @@ The independent dense-field certificate gives a 98-slice cover for
 SL(2,F5) and a 6155844-slice cube cover for SL(2,F5) x C2, excluding
 the selected M10 and M(13,13,15) targets in the stated characteristic-two
 and one-copy coefficient-one coordinate/potential class. The retained
-844-test regression and archive replay passed; current-head revalidation
-is being recorded. Claim `AI-NONSPLIT-FINITE-COVERS-001` remains written
+844-test regression and archive replay passed again at exact commit
+`6cd7f3a`; PR102 integrates conic main `539b539` with both claim sets
+retained unchanged. Claim `AI-NONSPLIT-FINITE-COVERS-001` remains written
 and unreviewed. Higher source powers and general complex input mixing
 remain open. No smaller exponent is established.
+
+The affine-conic continuation studies
+`ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module
+has dimension70:68 independent boundary fields and two conic normals.
+The full second-order criterion for a nonzero normal class is
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity
+and moving source kernel. A polynomial two-jet on c=-d^3 is exported;
+its uncorrected third coefficient is nonzero. Next: actual higher-order
+lifting on that cubic component, with the14-row local incidence kept
+distinct from the full matrix target. Other base charts and the12-by8
+case remain open. Written, unreviewed, no smaller exponent.
 
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
