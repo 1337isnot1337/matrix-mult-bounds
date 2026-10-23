@@ -1,0 +1,47 @@
+{
+  "grid_max": 128,
+  "exact_checks": {
+    "symmetry": 16384,
+    "boundary": 128,
+    "concavity": 16256,
+    "tripling": 16384,
+    "rank_upper": 16384,
+    "diagonal_equality": 128,
+    "replication": 8192
+  },
+  "total_exact_grid_checks": 73856,
+  "symbolic_identities": {
+    "concavity": "2*(a - b)/(3*b*(3*b - 2))",
+    "tripling": "2*(-a + q)*(-a + q - 1)",
+    "cubic_upper": "6*a + 1"
+  },
+  "diagonal_values": {
+    "1": {
+      "exact": "1",
+      "ratio_to_a_4_over_3": 1.0
+    },
+    "2": {
+      "exact": "10/3",
+      "ratio_to_a_4_over_3": 1.3228342099734995
+    },
+    "3": {
+      "exact": "56/9",
+      "ratio_to_a_4_over_3": 1.438082643097613
+    },
+    "10": {
+      "exact": "55155100/1594323",
+      "ratio_to_a_4_over_3": 1.6057429785356934
+    },
+    "100": {
+      "exact": "10636726508539855996487163469224908281171714079572225452422681303705714000/13703277223523221219433362313025801636536040755174924956117940937101787",
+      "ratio_to_a_4_over_3": 1.6723103681389344
+    },
+    "128": {
+      "exact": "539696174530263470366187280783904363097509651338788614327343690718289246443681413507444052096/499799580528929400138079903574958700644537122001114885706174272852663778107639762446602161",
+      "ratio_to_a_4_over_3": 1.6739410494949425
+    }
+  },
+  "diagonal_asymptotic_coefficient": 1.679769782583278,
+  "elapsed_seconds": 0.6411347989997012,
+  "status": "All checks passed. General validity rests on the algebraic proof, not this grid."
+}
