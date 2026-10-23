@@ -1,8 +1,17 @@
 # Integrated research coordination
 
 The next external-seed checkpoint is on
-`research/mixed-leg-error-20261023`, following PR154. Its
-`ai/2026-10-23-quadratic-error/README.md` supplies complete-error power
+`research/mixed-leg-error-20261023`, following PR154 and incorporating
+main `3008d70`. The `ai/2026-10-23-mixed-leg-splits/README.md` package
+gives eleven U and two W replacements, 89 exact expanded terms and
+76 surviving border terms with direction counts 65/76/56. Full Laurent
+replay checks 10000 constant positions and all 506 positive coefficients.
+The seed passes the prior U and W weight inequalities (214<=216 and
+141<=144). Its new static W weighting has total 152 and rank-four cap 16,
+verified over 367290 four-subsets, so its present directions still need
+ten groups. This does not close flips or refactorizations of the new seed.
+
+The same branch's `ai/2026-10-23-quadratic-error/README.md` supplies complete-error power
 trace tests. Every one-term deletion from a minimum refactorization of
 the named ten-split five-term block is excluded, including Laurent
 coefficients. Two specified V69 families are also excluded. Do not treat

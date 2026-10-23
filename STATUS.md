@@ -1,5 +1,26 @@
 # Research status
 
+## Mixed-leg splits pass both old screens, then meet a stronger W bound
+
+The [mixed U/W witness](research/ai/2026-10-23-mixed-leg-splits/README.md)
+uses eleven U replacements and two W replacements in the credited
+external algorithm. Its 89-term exact expansion leaves a 76-term Laurent
+border seed with 65 U, 76 V and 56 W directions. Exact replay checks
+all 10000 constant positions, no negative-degree coefficients, all 506
+positive coefficients, and the full identity with the 13 discarded terms.
+Each discarded tensor has positive valuation under one physical family;
+product-one gauges after epsilon=z^3 make all discarded factors positive.
+
+The new seed retains old U weight 214 against capacity 216 and old W
+weight 141 against capacity 144. Passing both necessary inequalities
+does not supply a cover. A new integer weighting has total 152 and
+rank-four cap 16, verified over all 367290 four-subsets. Thus its displayed
+W directions still require at least ten groups in the specified termwise
+grid alignment. This bound permits common invertible physical changes
+and scalar gauges; it does not close later flips or refactorizations.
+Claim `AI-EXTERNAL-MIXED-LEG-SPLIT-SEED-011` is written and unreviewed.
+No new rank bound, complete source map, or smaller exponent follows.
+
 ## Complete-error invariants exclude further one-term deletions
 
 The [quadratic-error certificate](research/ai/2026-10-23-quadratic-error/README.md)

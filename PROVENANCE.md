@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-23-mixed-leg-splits` package is owner-directed OpenAI Codex
+continuation of the credited AlphaTensor factorization and unchanged
+local five-split physical bases. Numerical mixed-integer searches found
+the mixed replacements and physical weights; exact rational replay
+accepts the exported 13-split witness. A numerical flat-cover search
+suggested the stronger W weights, whose acceptance uses exhaustive
+finite-field enumeration and the stated characteristic-zero argument.
+Original source factors, predecessor certificates, attribution and
+conversion notices retain their byte pins. Discovery history is labelled
+separately from recomputed acceptance values. Same-session independent
+implementations and audits are verification evidence, not independent
+mathematical review, an optimality result, or a new rank bound.
+
 The `2026-10-23-quadratic-error` package is owner-directed OpenAI Codex
 continuation of the credited external factorization and local split seeds.
 The coefficient reshaping, elementary conjugation identity, exact complete-
