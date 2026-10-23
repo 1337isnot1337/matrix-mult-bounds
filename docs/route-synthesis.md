@@ -168,23 +168,39 @@ The replication provider gives `C(mr,ms) -> m C(r,s)` for positive `m,r,s`
 over an infinite field. Its direct-sum sectors can be labeled on the two
 private legs and zero-padded on the common first-leg space, again with scalar
 shapes. The algebraic closure used by the exponent theorem is infinite, so
-this field hypothesis is available there. These rows are
+this field hypothesis is available there. These wrappers are written here but
+were not locally formalized. The resulting rows are
 
 \[
 x(C(r,3s+r-1))\geq3x(C(r,s)),\qquad
 x(C(mr,ms))\geq m x(C(r,s)).
 \]
 
+The pinned [componentwise restriction theorem](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Rectangular/OrientedConvolutionProfiles.lean)
+gives another one-child row.
+For \(r\leq R\) and \(s\leq S\), selecting initial coordinates on all three
+legs restricts \(C(R,S)\) to \(C(r,s)\). Scalar padding packages this as a
+shared-leg identity with one child; this wrapper is written here but was not
+locally formalized:
+
+\[
+x(C(R,S))\geq x(C(r,s)).
+\]
+
+The same pinned module gives an input-swap isomorphism \(C(r,s) \cong C(s,r)\),
+so their scalar vertex values are equal. The boundary symmetry used by the row
+certificate is a special case.
+
 The neighbor and square-tripling rows are not just formal sector sums: the
 pinned provider proves the source degenerations and the independent block
 identifications needed by `SharedLegIdentity`. The same pinned source gives
-the boundary symmetry `x(C(r,r-1))=x(C(r-1,r))`, a source border-rank bound
-`2a-1` for `C(a,a)` over an infinite field, and
+the source border-rank bound `2a-1` for `C(a,a)` over an infinite field, and
 `symmetrize(C(2,1)) \cong M(2,2,2)`. Thus the family supplies an explicit
 graph from `C(a,a)` to the terminal `C(2,1)`.
 
 It still cannot meet the strict graph threshold using only these convolution
-edge rows: neighbor, general tripling, replication, and boundary symmetry.
+edge rows: componentwise restriction, neighbor, general tripling, replication,
+and input-swap symmetry.
 Let
 
 \[
@@ -202,13 +218,16 @@ the graph rows: for `2<=b<=r`,
  =\frac{2h_b(r-b)}{3b(3b-2)}\geq0,
 \]
 
-and for `b>=r` the neighbor row is equality. The boundary symmetry follows
+and for `b>=r` the neighbor row is equality. The input-swap symmetry follows
 from symmetry of `P_*`, and
 `P_*(r,4r-1)=3P_*(r,r)`. The profile's shifted tripling inequality gives
 `P_*(r,3s+r-1)>=3P_*(r,s)`. Its replication inequality gives
 `P_*(mr,ms)^3>=m^4P_*(r,s)^3`, which implies
-`P_*(mr,ms)>=mP_*(r,s)` because `P_*>0` and `m>=1`. Consequently, for any
-nonnegative edge weights satisfying the certificate balances with source
+`P_*(mr,ms)>=mP_*(r,s)` because `P_*>0` and `m>=1`. The formula is also
+monotone in each coordinate: for fixed `a` and `b<a`,
+`P_*(a,b+1)-P_*(a,b)=h_b(a+2b)/(3b)>0`; for `b>=a`, the increment is
+`h_a>0`. By symmetry it is monotone in the first argument. Consequently, for
+any nonnegative edge weights satisfying the certificate balances with source
 `C(a,a)` and terminal `C(2,1)`, summing each row against this positive
 potential gives `L P_*(2,1)<=P_*(a,a)`. Thus the inflow cap is
 
@@ -245,7 +264,7 @@ L_a\sim\frac{3}{4\Gamma(4/3)}a^{4/3}.
 
 Thus the resulting exponent bounds tend to `9/4` but do not pass the strict
 criterion. This rules out the current
-neighbor/general-tripling/replication/boundary row family as a
+restriction/neighbor/general-tripling/replication/input-swap row family as a
 strict-improvement certificate with these endpoints. It does not rule out
 additional exact identities,
 different endpoints, or a constraint beyond this scalar edge system. This
