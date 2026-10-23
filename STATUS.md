@@ -679,7 +679,8 @@ characteristic two, with the same numerical cap. It retains the diagonal
 assignment equations that would disappear under ordinary polarization.
 Over finite fields the hypothesis is a polynomial identity on decomposable
 inputs, equivalently a rank bound over an algebraic closure; rational-point
-testing alone is insufficient as a substitute. The ordinary cyclic-source
+testing is justified by a supplied interpolation lemma when q>=r+1 over F_q.
+No such implication is assumed for smaller fields. The ordinary cyclic-source
 consequence likewise extends to every field. Exact controls check 911
 evaluation fibers and 882 monomial assignment systems over F2, F3 and F5;
 a negative control detects the lost diagonals. Claim

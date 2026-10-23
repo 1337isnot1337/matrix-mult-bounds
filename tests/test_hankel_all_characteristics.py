@@ -55,6 +55,27 @@ class HankelAllCharacteristicsTests(unittest.TestCase):
             with self.subTest(path=item['path']):
                 self.assertEqual(hashlib.sha256((ROOT / item['path']).read_bytes()).hexdigest(), item['sha256'])
 
+    def test_finite_field_homogeneous_interpolation_and_its_boundary(self):
+        for prime in (2, 3, 5):
+            for variables in (2, 3):
+                for degree in range(prime + 2):
+                    powers = [item for item in product(range(degree + 1), repeat=variables)
+                              if sum(item) == degree]
+                    matrix = []
+                    for point in product(range(prime), repeat=variables):
+                        row = []
+                        for exponents in powers:
+                            value = 1
+                            for coordinate, exponent in zip(point, exponents):
+                                value = value * pow(coordinate, exponent, prime) % prime
+                            row.append(value)
+                        matrix.append(row)
+                    rank = verify.rank_mod(matrix, prime)
+                    if degree <= prime:
+                        self.assertEqual(rank, len(powers))
+                    else:
+                        self.assertLess(rank, len(powers))
+
 
 if __name__ == '__main__':
     unittest.main()
