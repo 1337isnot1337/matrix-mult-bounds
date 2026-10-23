@@ -43,6 +43,11 @@ Local test results are recorded with the tested revision and exact coverage.
 Passing these checks does not change a claim's mathematical review status. Changes
 to main still require the repository's pull request and CI gates.
 
+The [publication record](PUBLICATION.md) links exact revision-scoped test and
+preservation receipts. The final inventory has 1,933 tests across 432 modules;
+composite local coverage and two final metadata checks passed. The full final
+local suite was not rerun as one uninterrupted run. Hosted CI remains required.
+
 ## Original branch recovery
 
 Every archived branch head has a tag in the branch manifest. Fetch that tag from

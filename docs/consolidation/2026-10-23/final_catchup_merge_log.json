@@ -1,0 +1,39 @@
+[
+  {
+    "branch": "research/full-target-reconstruction-20261023-ab94",
+    "old": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+    "new": "331801579b19b64f2441a7aab8b566f9d6b02666",
+    "delta_base": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+    "changed_paths": [
+      "research/ai/2026-10-23-conjugation-limit/README.md",
+      "research/ai/2026-10-23-conjugation-limit/discovery.py",
+      "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "research/ai/2026-10-23-conjugation-limit/sources.json",
+      "research/ai/2026-10-23-conjugation-limit/verify.py",
+      "results/conjugation-limit-2026-10-23/certificate.json",
+      "results/conjugation-limit-2026-10-23/verification.json",
+      "tests/test_conjugation_limit.py"
+    ],
+    "before": "eb5816c93832848c39efd9d62ea3a0234b926ca3",
+    "returncode": 0,
+    "conflicts": [],
+    "output": "Merge made by the 'ort' strategy.\n research/ai/2026-10-23-conjugation-limit/README.md |  76 ++++-\n .../ai/2026-10-23-conjugation-limit/discovery.py   | 102 +++++++\n research/ai/2026-10-23-conjugation-limit/proof.md  |   5 +\n .../ai/2026-10-23-conjugation-limit/sources.json   |  38 +++\n research/ai/2026-10-23-conjugation-limit/verify.py | 314 +++++++++++++++++++++\n .../conjugation-limit-2026-10-23/certificate.json  |   1 +\n .../conjugation-limit-2026-10-23/verification.json |  36 +++\n tests/test_conjugation_limit.py                    | 121 ++++++++\n 8 files changed, 681 insertions(+), 12 deletions(-)\n create mode 100644 research/ai/2026-10-23-conjugation-limit/discovery.py\n create mode 100644 research/ai/2026-10-23-conjugation-limit/sources.json\n create mode 100644 research/ai/2026-10-23-conjugation-limit/verify.py\n create mode 100644 results/conjugation-limit-2026-10-23/certificate.json\n create mode 100644 results/conjugation-limit-2026-10-23/verification.json\n create mode 100644 tests/test_conjugation_limit.py\n",
+    "error": "",
+    "merge_head": "8d59b4a67627694e71940ae4c304680492f5ba63"
+  },
+  {
+    "branch": "research/scalar-finite-slope-lean-20261023",
+    "old": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+    "new": "1e49ea05647939e3bb010404e5d22a1c66d30294",
+    "delta_base": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+    "changed_paths": [
+      ".github/workflows/verify.yml"
+    ],
+    "before": "8d59b4a67627694e71940ae4c304680492f5ba63",
+    "returncode": 0,
+    "conflicts": [],
+    "output": "Merge made by the 'ort' strategy.\n .github/workflows/verify.yml | 22 ++++++++++++++++++----\n 1 file changed, 18 insertions(+), 4 deletions(-)\n",
+    "error": "",
+    "merge_head": "942e7d56e0e85c2e04b58085d1d4e49d4510d5f3"
+  }
+]

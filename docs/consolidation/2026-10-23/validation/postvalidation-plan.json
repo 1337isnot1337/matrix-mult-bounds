@@ -1,0 +1,65 @@
+{
+  "scope": "Reviewed acceptance changes from the eight advanced source heads, plus final repository metadata/archive checks. Earlier full-baseline and focused-final receipts remain separate and unchanged. No optional discovery or historical validation harnesses are executed.",
+  "jobs": [
+    {
+      "name": "conjugation-block",
+      "kind": "unittest",
+      "targets": [
+        "test_conjugation_block_reduction",
+        "test_conjugation_limit.ConjugationLimitTests.test_source_pins"
+      ],
+      "expected_tests": 4,
+      "audit": "postvalidation_two_head_audit.json",
+      "reason": "Three new exact block/transpose/corruption tests and the existing dependency-pin test for the newly added source certificate."
+    },
+    {
+      "name": "aggregation-families",
+      "kind": "unittest",
+      "targets": [
+        "test_aggregation_families"
+      ],
+      "expected_tests": 12,
+      "audit": "postvalidation_three_head_audit.json",
+      "reason": "The cost-floor receipt and replay changed through N=10; one induced-edge hypothesis control was added. The complete acceptance module also checks retained witnesses and corruption rejection."
+    },
+    {
+      "name": "laurent-rank-margin",
+      "kind": "unittest",
+      "targets": [
+        "test_laurent_rank_margin"
+      ],
+      "expected_tests": 6,
+      "audit": "postvalidation_three_head_audit.json",
+      "reason": "Six new tests cover exact rank-margin replay, strict predecessor byte pins, and limiting-case controls."
+    },
+    {
+      "name": "quadratic-equal-degrees",
+      "kind": "json_verifier",
+      "script": "research/ai/2026-10-23-quadratic-z-middle/verify_equal_degrees.py",
+      "expected_json": {
+        "status": "pass",
+        "field_scope": "every field",
+        "certificates": 2,
+        "sizes": "18x24",
+        "ranks": {
+          "factorable": 15,
+          "nonfactorable": 16
+        },
+        "signed_unit_minors": true,
+        "integral_kernel_vectors": 5
+      },
+      "audit": "postvalidation_two_head_audit.json",
+      "reason": "The new integer certificate verifier is not reached by existing unittest discovery. Run its default local acceptance path with assertions enabled."
+    },
+    {
+      "name": "repository-and-archives",
+      "kind": "unittest",
+      "targets": [
+        "test_research.RepositoryTests",
+        "test_archive_integrity"
+      ],
+      "expected_tests": 11,
+      "reason": "Validate the final combined claim/source/link metadata and byte-exact protected archives once."
+    }
+  ]
+}
