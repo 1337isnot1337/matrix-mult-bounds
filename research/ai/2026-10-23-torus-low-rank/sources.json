@@ -1,0 +1,28 @@
+{
+  "base_commit": "addb447b3c1e00ff8b9cb0070de8bee9da3bd813",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.py",
+      "sha256": "f47226408dc6fbf07e39aa59e16cc035d7691493c7d6720c2f99417a0d10f24d"
+    }
+  ],
+  "credited_predecessors": [
+    {
+      "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+      "path": "research/ai/2026-10-23-one-regular-leg/proof.md",
+      "used_for": "Scalar balancing and the regular unit-kernel correction, repeated in the new proof."
+    },
+    {
+      "commit": "addb447b3c1e00ff8b9cb0070de8bee9da3bd813",
+      "path": "research/ai/2026-10-23-singular-long-rank/proof.md",
+      "used_for": "The active target-ruling injectivity argument."
+    }
+  ],
+  "attribution": "Owner-directed OpenAI Codex continuation. Canonical source and prior Laurent identities retain their credit. New: sharp rank-at-most-23 linear-space bound and its long-rank-102 application. No historical priority or independent review is claimed."
+}
