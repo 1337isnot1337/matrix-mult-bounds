@@ -1,14 +1,40 @@
 # Integrated research coordination
 
 The current A4 target refinement is
-`ai/2026-10-23-leading-rank202/proof.md`, on isolated branch
-`research/a4-leading-rank202-20261023`, following PR167. It retains
-every pair at most 136 and proves total balanced leading rank at most
-202. Short rank 100 forces both long leading ranks at most 28. The
-new exact floor constraints remove 817 additional pairs and 62,478
-additional triples; the complete exported censuses cover 20,706 pairs
-and 1,050,804 triples. The unique numerical total-202 endpoint is
-(70,66,66), with no target construction or target-sharpness claim.
+`ai/2026-10-23-rank91-core/proof.md`, frozen at
+`36d0eb145ae9e8619e1a03376b367576fb3b7210` on isolated branch
+`research/a4-rank91-core-20261023`. It proves mixed balanced pair sums
+at most 133, retains the long-pair bound 136, and bounds total balanced
+leading rank by 198. Short rank 100 still forces both long leading
+ranks at most 28. The source theorem gives dimension at most 67 when
+every slice has rank strictly below 91; this cap is not claimed sharp.
+Four equality profiles reduce to eight strip ideals, each containing
+one common 56-coordinate rank91 core or its transpose.
+
+The complete censuses cover 20,706 pairs and 1,050,804 triples. They
+retain every frozen202 exclusion and remove 60 additional pairs and
+5,250 additional triples. The only total-198 numerical survivors are
+(62,66,70) and (62,70,66), with no target construction or target-sharpness
+claim. Eight focused tests, nine metadata/archive tests and standalone
+exact acceptance pass. Their receipt and frozen-byte comparisons are
+in `results/rank91-core-2026-10-23/validation.json` at repository root;
+this focused validation does not claim a full-suite or hosted-CI run.
+
+The unchanged `ai/2026-10-23-leading-rank202/proof.md` is a credited
+prerequisite, frozen at commit `658e2d54fa7b506f7d8fd51eeec7788f23a00e91`.
+Its all-order support arguments, every-pair136 prerequisite and exact
+floor constraints remain in force. The former total-202 endpoint
+(70,66,66) is excluded by the new strict rank91 source theorem.
+
+The next actual compression question is unproved. At either surviving
+total-198 endpoint, the long pair (66,70) requires a cancellation kernel
+of dimension at least 64 and uniform slice rank at most 88, with split
+compression defects (46,42). An existing 64-dimensional staircase has
+uniform rank at most 88, so a universal source cap below 64 cannot
+settle this pair. Determine whether any such space satisfies that
+specific split compression condition, using an incidence-preserving
+reduction and row/column cover certificates if useful. No classification,
+exclusion of all possible kernels, or target realization is claimed.
 
 The unchanged source package
 `ai/2026-10-23-rank92-rank96-spaces/proof.md` settles sharp dimensions
