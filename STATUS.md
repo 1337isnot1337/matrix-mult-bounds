@@ -14,6 +14,22 @@ the12-by8 target third-rank ceiling. The nonzero rank-four branch and the
 full asymmetric problem remain open. Claims are written and unreviewed;
 no exponent improvement or full target construction is established.
 
+## Finite covers close the selected nonsplit coordinate targets
+
+The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)
+gives a 98-slice cover for SL(2,F5), excluding M10 in characteristic two
+and in the maintained one-copy coefficient-one coordinate/potential
+class over C. For SL(2,F5) x C2 its cube has a 6155844-slice cover, below
+2535^2=6426225. Cyclic symmetry gives abc<=2481 for any single rectangular
+target, excluding the selected M(13,13,15). Independent replay checks
+rank120, all1728000 original nonsplit coefficients, full block degrees,
+and grouped cube coordinate counts with multiplicity13824000. Claim
+`AI-NONSPLIT-FINITE-COVERS-001` is written and unreviewed. Together with
+the split-cover result, this closes the three selected one-copy
+central-cover coordinate/potential targets. General complex input mixing,
+other targets and arbitrary higher source powers remain open. No smaller
+exponent is established.
+
 ## Complete affine conic tangents and second jets
 
 The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)
@@ -43,8 +59,9 @@ the split cover. The verifier checks all 216000 A5 coefficients and enumerates
 all 1728000 one-leg cube coordinates. A direct argument from the external
 arbitrary-field bounded-rank matrix-space theorem supplies the target
 lower bound. Claim `AI-SPLIT-COVER-CUBE-EXCLUSION-001` is written and
-unreviewed. General complex degenerations, the nonsplit central covers,
-and constructions from arbitrary higher powers remain open. No smaller
+unreviewed. The separate nonsplit note above addresses its selected
+coordinate targets. General complex degenerations and constructions
+from arbitrary higher powers remain open. No smaller
 exponent is established.
 
 ## Regular unit charts and full-source calibrations

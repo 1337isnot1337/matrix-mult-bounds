@@ -881,3 +881,18 @@ arbitrary-field formulation in arXiv:1507.05375v2, Theorem 1.1. The local
 note derives the required finite matrix-multiplication slice rank from
 that theorem. No historical priority, independent mathematical review,
 Lean formalization or exponent improvement is claimed.
+
+## Actual nonsplit finite covers
+
+The explicit lifted F4 basis, integer coordinate covers and separately
+weighted cube certificate in `research/ai/2026-10-21-sl2-finite-slices/`
+are owner-directed Codex work. Discovery reuses the preceding A5 basis
+and idempotents, with their source credit retained. Acceptance uses a
+separate dense-field implementation of the original determinant-one
+group; it does not assume the quotient lift, a radical pilot or a
+numerical optimizer result. Flanders, Meshulam and de Seguins Pazzis retain
+credit for the imported arbitrary-field bounded-rank matrix-space theorem.
+The prior finite split-cover note supplies its finite matrix slice-rank
+reduction and standard proper-incidence/field-transfer argument. These
+finite source certificates do not claim optimality, historical priority,
+independent mathematical review, formalization or exponent improvement.
