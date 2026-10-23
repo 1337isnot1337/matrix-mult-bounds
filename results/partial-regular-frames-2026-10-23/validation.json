@@ -1,0 +1,95 @@
+{
+  "head": "7abe0c5227aa1c6d3ed4b76a2e0f19ec74f42d84",
+  "tree": "c5135dff6b2262e4a87cf224f5f49c5efaf6a430",
+  "jobs": [
+    {
+      "name": "group-0",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 557.7070611701347
+    },
+    {
+      "name": "group-1",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 500.989447790198
+    },
+    {
+      "name": "group-2",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 284.89668474067
+    },
+    {
+      "name": "group-3",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 366.68381486600265
+    },
+    {
+      "name": "archive-replay",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/replay.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 22.40506600914523
+    }
+  ],
+  "all_passed": true,
+  "logs": [
+    {
+      "path": "results/partial-regular-frames-2026-10-23/group-0.log.gz",
+      "sha256": "550660cc6fb3703ae86dc40a7a99466951e039fb00969cb93dfb09500f096f9e"
+    },
+    {
+      "path": "results/partial-regular-frames-2026-10-23/group-1.log.gz",
+      "sha256": "7cda603c729c2d1057db70d8b1244066d1175ea78c3992e9273b10c50f05fc0e"
+    },
+    {
+      "path": "results/partial-regular-frames-2026-10-23/group-2.log.gz",
+      "sha256": "e0766d9cd673ccd16f156ca2f3e54ecc5253c9a910bd27ac463c1eae52d41cf5"
+    },
+    {
+      "path": "results/partial-regular-frames-2026-10-23/group-3.log.gz",
+      "sha256": "fb39e015295843dc0cf22eeca6b17201aaa5ede31dcbca3c572c92e0182c6b4d"
+    },
+    {
+      "path": "results/partial-regular-frames-2026-10-23/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba"
+    }
+  ],
+  "tests": 853,
+  "passed": 850,
+  "optional_skips": 3,
+  "archive_replays": 5,
+  "scope": "Exact-commit full local regression. Later main integration separately replays incoming tests and metadata; hosted CI verifies final combined head."
+}
