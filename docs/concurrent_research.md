@@ -1,5 +1,30 @@
 # Concurrent research reviewed on October 20, 2026
 
+## October23: all-order singular leading-defect gap
+
+`research/a4-leading-defect-flags-20261023` continues PR113 at08ac3e9.
+The registered question is `research/ai/2026-10-23-leading-defect/QUESTION.md`.
+The final invertible-kernel argument excludes all total leading defects
+below20 at every finite Laurent pole order. For defects20..27, the
+leading first-map rank lies in10..16 with one coherent middle factor;
+the upper bound16 still holds through defect31. Concurrent PR129 at43cd6a gives a separate written stronger176 bound.
+The retained contribution here is the general invertible leading-kernel
+lemma;204 is not the current strongest proposed frontier.
+PR108's partial frames, PR110/112's unit-image extensions and PR107's
+conic lifting retain their separate scope and credit. Written/unreviewed;
+no matrix target or improved exponent.
+
+## October23: remove the A4 unit-lift hypotheses
+
+At main `1c04903`, the new `research/a4-one-regular-leg-20261023` question
+continues PR105 while preserving the separate PR103 resolvent, PR104
+asymmetric-boundary and PR107 conic investigations. The complete proof is
+in `research/ai/2026-10-23-one-regular-leg/proof.md`: a regular right-inverse
+kernel correction excludes the full target whenever either long map has
+a regular rank110 limit, without assumptions on the original unit lift.
+Next: address candidates whose scalar-balanced leading long maps are both
+singular. The result is written and unreviewed; no smaller exponent.
+
 These are other agents' contributions to the owner's repository, attributed
 to their original commits. Reading a proof or a reported test result does not
 constitute an independent formalization or a local replay. None reports a

@@ -1,0 +1,874 @@
+{
+  "coherent_defect_interval": [
+    20,
+    31
+  ],
+  "coherent_leading_rank_bound": 16,
+  "general_kernel_examples": [
+    {
+      "a4_source": false,
+      "basis_identities_checked": 4,
+      "general_rank_bound": 2,
+      "leading_source_rank": 1,
+      "long_defect": 1,
+      "matrix_parameter_size": 2,
+      "multiplicity": 1,
+      "source_matrix_size": 3,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 4,
+      "general_rank_bound": 4,
+      "leading_source_rank": 1,
+      "long_defect": 2,
+      "matrix_parameter_size": 2,
+      "multiplicity": 1,
+      "source_matrix_size": 4,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 4,
+      "general_rank_bound": 2,
+      "leading_source_rank": 1,
+      "long_defect": 1,
+      "matrix_parameter_size": 2,
+      "multiplicity": 2,
+      "source_matrix_size": 5,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 4,
+      "general_rank_bound": 4,
+      "leading_source_rank": 1,
+      "long_defect": 2,
+      "matrix_parameter_size": 2,
+      "multiplicity": 2,
+      "source_matrix_size": 6,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 9,
+      "general_rank_bound": 2,
+      "leading_source_rank": 1,
+      "long_defect": 1,
+      "matrix_parameter_size": 3,
+      "multiplicity": 1,
+      "source_matrix_size": 4,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 9,
+      "general_rank_bound": 4,
+      "leading_source_rank": 1,
+      "long_defect": 2,
+      "matrix_parameter_size": 3,
+      "multiplicity": 1,
+      "source_matrix_size": 5,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 9,
+      "general_rank_bound": 2,
+      "leading_source_rank": 1,
+      "long_defect": 1,
+      "matrix_parameter_size": 3,
+      "multiplicity": 2,
+      "source_matrix_size": 7,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 9,
+      "general_rank_bound": 4,
+      "leading_source_rank": 1,
+      "long_defect": 2,
+      "matrix_parameter_size": 3,
+      "multiplicity": 2,
+      "source_matrix_size": 8,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 16,
+      "general_rank_bound": 2,
+      "leading_source_rank": 1,
+      "long_defect": 1,
+      "matrix_parameter_size": 4,
+      "multiplicity": 1,
+      "source_matrix_size": 5,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 16,
+      "general_rank_bound": 4,
+      "leading_source_rank": 1,
+      "long_defect": 2,
+      "matrix_parameter_size": 4,
+      "multiplicity": 1,
+      "source_matrix_size": 6,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 16,
+      "general_rank_bound": 2,
+      "leading_source_rank": 1,
+      "long_defect": 1,
+      "matrix_parameter_size": 4,
+      "multiplicity": 2,
+      "source_matrix_size": 9,
+      "source_minimum": 1
+    },
+    {
+      "a4_source": false,
+      "basis_identities_checked": 16,
+      "general_rank_bound": 4,
+      "leading_source_rank": 1,
+      "long_defect": 2,
+      "matrix_parameter_size": 4,
+      "multiplicity": 2,
+      "source_matrix_size": 10,
+      "source_minimum": 1
+    }
+  ],
+  "improves_omega": false,
+  "independent_review": false,
+  "intermediate_defect_interval": [
+    20,
+    27
+  ],
+  "intermediate_first_map_rank_interval": [
+    10,
+    16
+  ],
+  "invertible_kernel_controls": {
+    "a4_source_minimum": 16,
+    "correction_rank_bound": 2,
+    "dimension_controls": [
+      {
+        "boundary_zero_row_kernel_dimension": 2,
+        "kernel_dimension": 3,
+        "leading_map_rank": 1,
+        "matrix_size": 2,
+        "singular_space_dimension_bound": 2,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 6,
+        "kernel_dimension": 7,
+        "leading_map_rank": 2,
+        "matrix_size": 3,
+        "singular_space_dimension_bound": 6,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 12,
+        "kernel_dimension": 13,
+        "leading_map_rank": 3,
+        "matrix_size": 4,
+        "singular_space_dimension_bound": 12,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 20,
+        "kernel_dimension": 21,
+        "leading_map_rank": 4,
+        "matrix_size": 5,
+        "singular_space_dimension_bound": 20,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 30,
+        "kernel_dimension": 31,
+        "leading_map_rank": 5,
+        "matrix_size": 6,
+        "singular_space_dimension_bound": 30,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 42,
+        "kernel_dimension": 43,
+        "leading_map_rank": 6,
+        "matrix_size": 7,
+        "singular_space_dimension_bound": 42,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 56,
+        "kernel_dimension": 57,
+        "leading_map_rank": 7,
+        "matrix_size": 8,
+        "singular_space_dimension_bound": 56,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 72,
+        "kernel_dimension": 73,
+        "leading_map_rank": 8,
+        "matrix_size": 9,
+        "singular_space_dimension_bound": 72,
+        "strict_margin": 1
+      },
+      {
+        "boundary_zero_row_kernel_dimension": 90,
+        "kernel_dimension": 91,
+        "leading_map_rank": 9,
+        "matrix_size": 10,
+        "singular_space_dimension_bound": 90,
+        "strict_margin": 1
+      }
+    ],
+    "maximum_total_defect_for_minimum_rank_contradiction": 27,
+    "minimum_source_slice_rank_bound_at_defect27": 15,
+    "trace_kernel_determinant": -1,
+    "trace_kernel_permutation": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      0
+    ]
+  },
+  "leading_equation_controls": [
+    {
+      "all_order_rank_contradiction_margin": 1,
+      "column_defect": 13,
+      "column_deleted_coordinates": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 3,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        109,
+        99
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 3,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "row_restored_at_degree_one": [
+        0
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 2,
+      "column_defect": 12,
+      "column_deleted_coordinates": [
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 4,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        108,
+        100
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 4,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 3,
+      "column_defect": 11,
+      "column_deleted_coordinates": [
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 5,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        107,
+        101
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 5,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 4,
+      "column_defect": 10,
+      "column_deleted_coordinates": [
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 6,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        106,
+        102
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 6,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 5,
+      "column_defect": 9,
+      "column_deleted_coordinates": [
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 7,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        105,
+        103
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 7,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 6,
+      "column_defect": 8,
+      "column_deleted_coordinates": [
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 8,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        104,
+        104
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 8,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 7,
+      "column_defect": 7,
+      "column_deleted_coordinates": [
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 9,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        103,
+        105
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 9,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 8,
+      "column_defect": 6,
+      "column_deleted_coordinates": [
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 10,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        102,
+        106
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 10,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 9,
+      "column_defect": 5,
+      "column_deleted_coordinates": [
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 11,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        101,
+        107
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 11,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 10,
+      "column_defect": 4,
+      "column_deleted_coordinates": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 12,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        100,
+        108
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 12,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58,
+        59
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57
+      ],
+      "trace_kernel_parameter_invertible": true
+    },
+    {
+      "all_order_rank_contradiction_margin": 11,
+      "column_defect": 3,
+      "column_deleted_coordinates": [
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        49
+      ],
+      "complete_target_identity": false,
+      "compressed_unit_rank": 13,
+      "constant_output_rank": 12,
+      "kernel_correction_rank_bound": 2,
+      "leading_ranks": [
+        99,
+        109
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 13,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58,
+        59,
+        84
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58
+      ],
+      "trace_kernel_parameter_invertible": true
+    }
+  ],
+  "maximum_total_leading_rank": 204,
+  "necessary_total_defect": 20,
+  "proof_status": "proof-written-unreviewed",
+  "scope": "All-order exclusion below total defect20; no full target or exponent gain.",
+  "source_gap_controls": [
+    {
+      "biform": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "literal_coefficients_checked": 12544,
+      "literal_rank": 16
+    },
+    {
+      "biform": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "literal_coefficients_checked": 12544,
+      "literal_rank": 20
+    }
+  ],
+  "source_pin_count": 5
+}
