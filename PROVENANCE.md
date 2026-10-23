@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The sum200 continuation in `2026-10-23-long-leg-rank-obstruction` adopts
+the rank-at-most23 source-space cap from concurrent PR129 at9eca895,
+including its diagonal specialization, matching minors and individual
+rank102 exclusion. The exact adopted proof bytes, Git blob and SHA-256
+are retained. A local verifier independently reconstructs the finite
+source ingredients. The new deduction applies that cap to the whole
+leading polar first-map image and combines it with the previously
+credited regular residual and elementary singular-subspace dimension
+bound. PR125 and PR132 retain credit for overlapping rank106 arguments;
+PR142 retains its more detailed rank20 classification. No priority,
+external independent review, formalization or exponent gain is claimed.
+
 The rank106 and sum204 follow-up in `2026-10-23-long-leg-rank-obstruction`
 adopts the prior source slice-rank gap and its original Grothendieck
 bundle-splitting dependency over the complex projective line. It retains

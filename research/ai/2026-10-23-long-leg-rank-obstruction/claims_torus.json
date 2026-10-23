@@ -1,0 +1,21 @@
+[
+  {
+    "id": "AI-A4-TORUS-LONG-RANK-SUM-005",
+    "title": "The adopted rank23 source-space cap forces A4 normalized long-rank sum at most200",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "status": "proof-written-unreviewed",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-long-leg-rank-obstruction/torus_rank_sum.md",
+    "statement": "For any complex formal Laurent degeneration A4 to M(10,10,11), independently divide each long map by its smallest entry valuation and compensate in the first map. The two nonzero constant ranks satisfy r_B+r_C<=200. If their sum were at least201, the whole leading polar first-map image would have source slice ranks at most23. Concurrent PR129 at9eca895 proves that any such source space has dimension at most8. Its Mat10 kernel has dimension at least92 and contains an invertible matrix. On the larger regular long leg the unit image has rank at least5, contradicting the regular kernel residual rank at most2. Combined with PR129 individual ranks at most101, this additionally excludes(101,101),(101,100),(100,101).",
+    "dependencies": [
+      "AI-A4-LOW-RANK-SPACE-CAP-001 from PR129 at9eca895e3618ad1f560e0565dc30134478e88da8, exact proof bytes and local finite matching-minor replay retained",
+      "Canonical A4 nonzero-slice minimum rank16",
+      "PR113 regular unit-kernel residual, rederived with attribution",
+      "Independent scalar valuation normalization and elementary two-sided rank loss",
+      "Self-contained square bounded-rank-space dimension argument"
+    ],
+    "limitations": "Equality at sum200 is not excluded or constructed. The source cap becomes24 there and admits a12-dimensional source space. This is a necessary condition in the stated scalar normalization, not an invariant under arbitrary singular matrix changes of basis. No complete degeneration exclusion, independent mathematical review, formalization, or improved exponent."
+  }
+]

@@ -1,15 +1,15 @@
 # Integrated research coordination
 
 The October23 singular-long-leg continuation is in
-`ai/2026-10-23-long-leg-rank-obstruction/README_gap.md`, on PR137.
-The written continuation now excludes leading rank at least106 and
-requires a normalized long-rank sum at most204. It imports the existing
-source rank gap and its credited complex bundle-splitting dependency;
-the simpler rank109/sum208 checkpoint is preserved separately. Search
-singular pairs with each rank at most105 and sum at most204. The
-rank105 boundary permits rank20 source slices, so the minimum-locus
-preserver reduction alone no longer settles it. Complete exact Laurent
-identities are still needed. All new claims remain written and unreviewed.
+`ai/2026-10-23-long-leg-rank-obstruction/torus_rank_sum.md`, on PR137.
+The current deduction adopts PR129's sharp rank23 source-space cap and
+requires normalized long-rank sum at most200. PR129 already bounds each
+individual rank by101; the three extra pairs excluded here are recorded
+explicitly. Search only within both conditions. At sum200 the leading
+source cap becomes24 and a twelve-dimensional source space exists, so
+the dimension-eight argument stops. Earlier simpler checkpoints are
+preserved with their dependencies and concurrent-work credits. Complete
+exact Laurent identities are still needed. The proofs remain unreviewed.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

@@ -2,17 +2,17 @@
 
 ## October23: constrain both singular A4 long-map limits
 
-The [rank-gap continuation](../research/ai/2026-10-23-long-leg-rank-obstruction/README_gap.md)
-continues the regular-kernel proof of PR113. Every A4 to M(10,10,11)
-candidate needs rank at most105 in each long-map leading coefficient
-after independent scalar normalization; their sum is at most204.
+The [current rank-sum continuation](../research/ai/2026-10-23-long-leg-rank-obstruction/torus_rank_sum.md)
+adopts PR129's sharp rank23 source-space cap and continues PR113's
+regular residual. Every A4 to M(10,10,11) candidate needs rank at most101
+in each scalar-normalized long-map leading coefficient, and sum at most200.
 These conditions permit arbitrary finite poles in the other maps.
 They are necessary conditions, not constructions or a general exclusion.
 The remaining problem is lower-rank singular assembly with exact complete
-tensor identities. Rank105 allows rank20 source slices; a new structural
-argument is needed beyond the minimum-locus preserver reduction. The
-prior rank gap retains its bundle-splitting dependency and attribution.
-All stated proofs remain written and unreviewed.
+tensor identities. At sum200 the polar source-rank cap is24 and admits
+a twelve-dimensional source space. New structure is needed at that
+boundary. The exact adopted source and overlapping concurrent work keep
+their attribution. All stated proofs remain written and unreviewed.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 

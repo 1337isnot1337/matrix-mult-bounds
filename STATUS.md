@@ -1,5 +1,23 @@
 # Research status
 
+## The adopted rank23 source cap gives normalized long-rank sum at most200
+
+The [new rank-sum deduction](research/ai/2026-10-23-long-leg-rank-obstruction/torus_rank_sum.md)
+adopts concurrent PR129's sharp source-space theorem: every linear A4
+slice space with all matrix ranks at most23 has dimension at most eight.
+If the two scalar-normalized long-map leading ranks summed to at least201,
+the entire leading polar first-map image would lie in such a space.
+Its target kernel would contain an invertible matrix, contradicting the
+regular rank-two residual. Thus r_B+r_C<=200. With PR129's individual
+bound, each rank is at most101. The additional excluded pairs are
+(101,101), (101,100) and (100,101). Claim
+`AI-A4-TORUS-LONG-RANK-SUM-005` is written and unreviewed.
+The adopted proof is preserved byte-for-byte with its original attribution;
+all finite matching-minor ingredients are reconstructed locally. Earlier
+rank106 continuations and the separate rank20 classification are credited
+in the concurrent-work note. Sum200 remains open, including (100,100).
+No complete A4 exclusion or improved matrix multiplication exponent follows.
+
 ## The source rank gap lowers both A4 long-map rank budgets
 
 The [rank-gap continuation](research/ai/2026-10-23-long-leg-rank-obstruction/README_gap.md)
