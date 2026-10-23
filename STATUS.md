@@ -14,6 +14,24 @@ the12-by8 target third-rank ceiling. The nonzero rank-four branch and the
 full asymmetric problem remain open. Claims are written and unreviewed;
 no exponent improvement or full target construction is established.
 
+## Complete affine conic tangents and second jets
+
+The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)
+computes the complete seventy-dimensional tangent module of the rank-twelve
+incidence of two fourteen-row maps of the canonical source. Its boundary
+family has dimension68 and uses three independent polynomial planes.
+For every affine a,b,c and every nonzero normal class[lambda:mu], some
+representative extends through order two exactly when
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;
+pure fibers are checked separately from the mixed Laurent chart.
+An exported polynomial two-jet on c=-d^3 passes direct all-source replay,
+including d=0, while its uncorrected third coefficient has184 nonzero
+entries. The other two factors admit exact linear incidence curves.
+Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
+`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. Later lifting,
+other projective base charts, the separate12-by8 problem and the full
+matrix target remain open. The exponent remains9/4.
+
 ## Finite cube bounds split-cover coordinate target volume
 
 The [full-source cube certificate](research/ai/2026-10-21-central-cover-finite-slices/proof.md)
