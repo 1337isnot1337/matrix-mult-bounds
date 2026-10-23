@@ -1,0 +1,38 @@
+{
+  "external": [],
+  "local": [
+    {
+      "commit": "86b514225414662933f88c6ed8270250b40a287d",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/107",
+      "use": "Credited cubic-conic constant maps and prescribed first normal pair; no third-order identity is needed as a premise.",
+      "sha256": {
+        "results/conic-third-jets-2026-10-23/mixed-family.json": "0571cd47916d19c60a0f9493a6ddccaecb8053aea8a139137c05b3def9df1d5e"
+      }
+    },
+    {
+      "commit": "539b539dc4eac09114899fd76472aee2d78d9f62",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/101",
+      "use": "Canonical 4096-term integer source, paired-row constant conic maps and normal-class interpretation. For AI-CONIC-ALL-ORDER-CRITERION-002, import AI-CONIC-TANGENT-001 and Sections4-5: complete two-jet necessity AI-CONIC-SECOND-JET-002 for all projective normal directions, and exact linear-component curves AI-CONIC-POLYNOMIAL-JET-003. These retain their written/unreviewed status and original attribution.",
+      "sha256": {
+        "research/ai/2026-10-21-quantum-extension-spaces/extensions.py": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c",
+        "research/ai/2026-10-21-conic-second-jets/model.py": "ff545ef274ba03127356cc2f08de5ec4aa51a07b53642fe5339a268411d535b0",
+        "research/ai/2026-10-21-conic-second-jets/proof.md": "3fd3dbdeac15c7325cf61c14c75629d9b431ae33bda62572aee585653df17007",
+        "research/ai/2026-10-21-conic-second-jets/verify.py": "ebfaca7a5a6f3030a363f778aeda86bad443c5137b113bff8754bfd7c4f117ee",
+        "research/ai/2026-10-21-conic-second-jets/sources.json": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+        "results/conic-second-jets-2026-10-21/witnesses.json.gz": "c6e529e01f0d0f6363642e6baf03ce178188215269009e3d1e0fb5f54a163a67"
+      }
+    }
+  ],
+  "concurrent_context": [
+    {
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/123",
+      "head_prefix_observed": "16025c81",
+      "use": "Context only: the exact d=0 curve preserving its credited two-jet was already supplied separately. It is not an imported premise or an acceptance dependency."
+    }
+  ],
+  "new_work": "Polynomial rank-one gauge cancellation, degree-one/degree-three all-order mixed-conic curve, complete literal-source replay and normal comparison; combining with the credited complete two-jet theorem gives the all-order existence criterion for every projective normal class over the affine conic base.",
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}
