@@ -903,3 +903,14 @@ work. It reuses the maintained paired-source coefficient convention and
 gives an all-size flattening obstruction for one explicit set of maps.
 The written proof is unreviewed and has no Lean formalization. It neither
 excludes general `Q(n,4)` maps nor establishes an exponent improvement.
+
+## Nonsplit vector-degree finite continuation
+
+The October 23 vector-degree package is owner-directed Codex work. It
+adopts the credited nonsplit basis and finite covers from PR102 at
+6cd7f3a1fc90820c135505b882a614cb62a025d5, with exact file hashes. It adds
+full-source parity and cover-membership checks, a separately counted
+class hypergraph and a finite integer-weight census. Optional SciPy
+optimization proposes covers; its numerical bounds are not mathematical
+acceptance premises. The earlier source theorem credits are retained.
+There is no independent review, formalization or exponent improvement.
