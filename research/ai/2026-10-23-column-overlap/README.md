@@ -31,6 +31,8 @@ python -m unittest discover -s tests -p test_column_overlap.py -v
 
 The retained report is
 [controls.json](../../../results/column-overlap-2026-10-23/controls.json).
+The [validation note](VALIDATION.md) distinguishes the exact 903-test
+evidence union from a fresh complete regression.
 The [source pins](sources.json) identify imported conventions and the
 earlier Laurent normalization argument. This is owner-directed OpenAI
 Codex work, written and unreviewed. No improved exponent is claimed.
