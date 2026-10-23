@@ -1,5 +1,9 @@
 # Research status
 
+## Exact three-term biform ranks escape pairwise-resultant data
+
+The [three-term coefficient-rank obstruction](research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) proves over Z that the literal R_(3,3) determinant for u=x^2, v=1+x^2, w=1+t*x+c*x^2 is t(2c^3-2ct^2+t^4). Two specializations have primitive degree two and all three pairwise resultants equal to one, but ranks 14 and 15 over every field of characteristic other than two. The rank-14 case has an integral left-kernel vector and a -4 minor; the rank-15 case has unit determinant. A degree-bounded 256-point exact integer certificate and focused standard-library test pass. Claim AI-THREE-TERM-RESULTANT-OBSTRUCTION-001 is written, unreviewed and strictly one-slice. Next: identify the two polynomial-kernel minimal indices for general three-term coefficient recurrences, not another pairwise-resultant search. No tensor target or exponent gain is established.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
