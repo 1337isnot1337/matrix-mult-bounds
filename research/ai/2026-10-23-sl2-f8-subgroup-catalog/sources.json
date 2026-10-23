@@ -1,0 +1,34 @@
+{
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "sources": [
+    {
+      "path": "research/ai/2026-10-21-semisimple-koszul/sl2_f8_source.py",
+      "sha256": "4acf94d23a6e797f7fe7556d58aad3d16bc24467f261e7ac2acec2a669eef3d6"
+    },
+    {
+      "path": "research/ai/2026-10-21-sl2-f8-ideals/sl2_f8_ideal_certificate.py",
+      "sha256": "bbe925db3422249a04cafe4170ec0488c74620f97f97b45072a0803462a735f5"
+    },
+    {
+      "path": "research/ai/2026-10-21-sl2-f8-ideals/imported/subgroup_ideal_proof.md",
+      "sha256": "35a39565419ae4600b39d9a3bb331a4afad7fd24cdeead5d4443580ea79fa5aa"
+    },
+    {
+      "path": "results/semisimple-koszul-2026-10-21/sl2-f8-source.json",
+      "sha256": "e90b1a7c4f9b8ad51f0ccd10d3c535f59fd0cfecbdf2d5e4c222bbe8d129ec52"
+    },
+    {
+      "path": "results/semisimple-koszul-2026-10-21/frontiers.json",
+      "sha256": "bbb502c181b04541a0cb60b5e19223a10ea247d47df7989ac3b9d448d0eccfe6"
+    },
+    {
+      "path": "research/ai/2026-10-21-subgroup-ideal-catalog/subgroup_catalog.py",
+      "sha256": "ce03abfb80b12705330fe768209b78471208c155e3dc73a520acbf934168195b"
+    },
+    {
+      "path": "research/ai/2026-10-21-subgroup-ideal-catalog/verify_catalog.py",
+      "sha256": "ff026bc72962448d00d0d282d2550987b1a5301360763a6fcd6de49825cbc249"
+    }
+  ],
+  "credits": "The literal SL2 F8 source and central-projection verifier are adopted. Lattice enumeration/independent extension closure follow the maintained central-cover subgroup catalog at this base. The subgroup averaging lemma retains its imported attribution. Discovery uses the rational source blocks; acceptance uses only exact projection identities and an actual integer coset minor."
+}
