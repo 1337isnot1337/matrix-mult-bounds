@@ -1,0 +1,2653 @@
+{
+  "schema_version": 1,
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "snapshot_at": "2026-10-23T16:55:23.296436+00:00",
+  "main_at_snapshot": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "topic_branch_count": 129,
+  "branches": [
+    {
+      "branch": "fix/f8-subgroup-preflight-20261023",
+      "head_sha": "9d85beb176bec494a1c55eab12904072d929afee",
+      "archive_tag": "archive/consolidation-20261023-165523/fix/f8-subgroup-preflight-20261023",
+      "pull_requests": [
+        {
+          "number": 166,
+          "title": "Check the proved F8 subgroup obstruction before starting SAT",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/166",
+          "head": {
+            "ref": "fix/f8-subgroup-preflight-20261023",
+            "sha": "9d85beb176bec494a1c55eab12904072d929afee"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "fix/replay-child-assertions-01a1697d",
+      "head_sha": "320f94e97d77deb6f620b14446f8cdbfea6adb42",
+      "archive_tag": "archive/consolidation-20261023-165523/fix/replay-child-assertions-01a1697d",
+      "pull_requests": [
+        {
+          "number": 195,
+          "title": "Keep archived replay assertions enabled in child processes",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/195",
+          "head": {
+            "ref": "fix/replay-child-assertions-01a1697d",
+            "sha": "320f94e97d77deb6f620b14446f8cdbfea6adb42"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-corank-one-long-legs-20261023",
+      "head_sha": "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-corank-one-long-legs-20261023",
+      "pull_requests": [
+        {
+          "number": 137,
+          "title": "Superseded: normalized A4 long-map rank sum at most 200",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/137",
+          "head": {
+            "ref": "research/a4-corank-one-long-legs-20261023",
+            "sha": "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-high-rank-source-caps-20261023",
+      "head_sha": "d161dacd027ee53919301d5b543c48d497231d67",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-high-rank-source-caps-20261023",
+      "pull_requests": [
+        {
+          "number": 182,
+          "title": "Determine sharp high A4 source caps and refine full-short long ranks",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/182",
+          "head": {
+            "ref": "research/a4-high-rank-source-caps-20261023",
+            "sha": "d161dacd027ee53919301d5b543c48d497231d67"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-leading-defect-flags-20261023",
+      "head_sha": "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-leading-defect-flags-20261023",
+      "pull_requests": [
+        {
+          "number": 150,
+          "title": "Prove an invertible leading-kernel obstruction for square matrix targets",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/150",
+          "head": {
+            "ref": "research/a4-leading-defect-flags-20261023",
+            "sha": "ba1803894306f21d3f55a179b8dbb63171dc8c66"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-leading-rank202-20261023",
+      "head_sha": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-leading-rank202-20261023",
+      "pull_requests": [
+        {
+          "number": 176,
+          "title": "Refine balanced A4 leading ranks to total 202 and long rank 28 at full short rank",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/176",
+          "head": {
+            "ref": "research/a4-leading-rank202-20261023",
+            "sha": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-one-regular-leg-20261023",
+      "head_sha": "db180d63bd345aa559ccca357841a837699a46f2",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-one-regular-leg-20261023",
+      "pull_requests": [
+        {
+          "number": 113,
+          "title": "Exclude every A4 Laurent chart with one regular full-rank long leg",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/113",
+          "head": {
+            "ref": "research/a4-one-regular-leg-20261023",
+            "sha": "db180d63bd345aa559ccca357841a837699a46f2"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-rank88-exploration-20261023",
+      "head_sha": "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-rank88-exploration-20261023",
+      "pull_requests": [
+        {
+          "number": 167,
+          "title": "Bound every balanced A4 leading-rank pair by 136 using sharp source caps",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/167",
+          "head": {
+            "ref": "research/a4-rank88-exploration-20261023",
+            "sha": "16a13196c3ac501e9e80adfdb7dade0041fc6a36"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-rank91-core-20261023",
+      "head_sha": "0d1441085c2284fa32e8756e359ddb2aa57c2c58",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-rank91-core-20261023",
+      "pull_requests": [
+        {
+          "number": 181,
+          "title": "Prove mixed A4 leading-rank sums at most 133 and total at most 198",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/181",
+          "head": {
+            "ref": "research/a4-rank91-core-20261023",
+            "sha": "0d1441085c2284fa32e8756e359ddb2aa57c2c58"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-singular-long-rank-20261023",
+      "head_sha": "35ac38d72dc42327899da29b1af355e494545356",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-singular-long-rank-20261023",
+      "pull_requests": [
+        {
+          "number": 129,
+          "title": "Prove A4 source-space bounds and force balanced long-rank sum at most 144",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/129",
+          "head": {
+            "ref": "research/a4-singular-long-rank-20261023",
+            "sha": "35ac38d72dc42327899da29b1af355e494545356"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-source-frontier-next-20261023",
+      "head_sha": "72ef0788b6847af5e8105047c806c26c537c18ed",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-source-frontier-next-20261023",
+      "pull_requests": [
+        {
+          "number": 155,
+          "title": "Determine sharp A4 source caps below ranks 37 and 80, and refute a rank96 premise",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/155",
+          "head": {
+            "ref": "research/a4-source-frontier-next-20261023",
+            "sha": "72ef0788b6847af5e8105047c806c26c537c18ed"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/a4-torus-rank96-20261023",
+      "head_sha": "627ffb0716116685d8877a2842d3f7a484866d68",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a4-torus-rank96-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/a5-nondivisor-cycle-20261023",
+      "head_sha": "d029a3c18ed4e0dde2da696ddad04d5bce45d339",
+      "archive_tag": "archive/consolidation-20261023-165523/research/a5-nondivisor-cycle-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "head_sha": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+      "archive_tag": "archive/consolidation-20261023-165523/research/affine-z-biform-ranks-20261023",
+      "pull_requests": [
+        {
+          "number": 209,
+          "title": "Classify exact affine-in-z biform ranks over every field",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/209",
+          "head": {
+            "ref": "research/affine-z-biform-ranks-20261023",
+            "sha": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/all-rankone-seven-five-20261021",
+      "head_sha": "a9951f838e3f8218616e76d0c1ee40252160d80d",
+      "archive_tag": "archive/consolidation-20261023-165523/research/all-rankone-seven-five-20261021",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/all-size-unit-packing-20261023",
+      "head_sha": "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+      "archive_tag": "archive/consolidation-20261023-165523/research/all-size-unit-packing-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/alternating-sector-separation-20261023",
+      "head_sha": "442eef9315d6128d206a083bccbabefa799dc6b6",
+      "archive_tag": "archive/consolidation-20261023-165523/research/alternating-sector-separation-20261023",
+      "pull_requests": [
+        {
+          "number": 146,
+          "title": "Prove alternating matched sectors for every sector count",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/146",
+          "head": {
+            "ref": "research/alternating-sector-separation-20261023",
+            "sha": "442eef9315d6128d206a083bccbabefa799dc6b6"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/astra-support-search-20261023",
+      "head_sha": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+      "archive_tag": "archive/consolidation-20261023-165523/research/astra-support-search-20261023",
+      "pull_requests": [
+        {
+          "number": 203,
+          "title": "Recognize convolution supports under arbitrary coordinate relabeling",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/203",
+          "head": {
+            "ref": "research/astra-support-search-20261023",
+            "sha": "507d275e7005f5a7c37fffcfac87b835b8a93510"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/asymmetric-boundary-20261023",
+      "head_sha": "283495268e26e2912c1a50ff91baec2a0adc19a2",
+      "archive_tag": "archive/consolidation-20261023-165523/research/asymmetric-boundary-20261023",
+      "pull_requests": [
+        {
+          "number": 104,
+          "title": "Reduce asymmetric boundary normals using product kernels and sharp support bounds",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/104",
+          "head": {
+            "ref": "research/asymmetric-boundary-20261023",
+            "sha": "283495268e26e2912c1a50ff91baec2a0adc19a2"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/asymmetric-regular-frames-20261023",
+      "head_sha": "656ce30bce751d5fe5be204c481a784c1670d4ec",
+      "archive_tag": "archive/consolidation-20261023-165523/research/asymmetric-regular-frames-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/binomial-biform-ranks-20261023",
+      "head_sha": "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+      "archive_tag": "archive/consolidation-20261023-165523/research/binomial-biform-ranks-20261023",
+      "pull_requests": [
+        {
+          "number": 171,
+          "title": "Derive exact binomial biform ranks over every field",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/171",
+          "head": {
+            "ref": "research/binomial-biform-ranks-20261023",
+            "sha": "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/boundary-partner-20261021",
+      "head_sha": "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+      "archive_tag": "archive/consolidation-20261023-165523/research/boundary-partner-20261021",
+      "pull_requests": [
+        {
+          "number": 92,
+          "title": "Close the boundary fiber and finite affine partner chart",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/92",
+          "head": {
+            "ref": "research/boundary-partner-20261021",
+            "sha": "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "00d51337ddfe581a6e53ff9bc71bb1ece6ad8ee8"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/central-cover-joint-frontier-20261023",
+      "head_sha": "352cba10af12db716f6529ba13c8626a5d467daa",
+      "archive_tag": "archive/consolidation-20261023-165523/research/central-cover-joint-frontier-20261023",
+      "pull_requests": [
+        {
+          "number": 114,
+          "title": "Close the one-matrix-plus-scalars coordinate family with a nonsplit cube",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/114",
+          "head": {
+            "ref": "research/central-cover-joint-frontier-20261023",
+            "sha": "352cba10af12db716f6529ba13c8626a5d467daa"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "1c04903c215f396150605c0778024e856ec0b0d4"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-d0-cubic-20261023",
+      "head_sha": "16025c8148d335ba64a0de8824780f72b9cf5ccc",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-d0-cubic-20261023",
+      "pull_requests": [
+        {
+          "number": 123,
+          "title": "Certify exact curve on the d=0 conic fiber",
+          "state": "closed",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/123",
+          "head": {
+            "ref": "research/conic-d0-cubic-20261023",
+            "sha": "16025c8148d335ba64a0de8824780f72b9cf5ccc"
+          },
+          "base": {
+            "ref": "research/conic-third-order-20261023",
+            "sha": "86b514225414662933f88c6ed8270250b40a287d"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-d0-main-20261023",
+      "head_sha": "412075531e02a1f7c793c3f7996426fb72633980",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-d0-main-20261023",
+      "pull_requests": [
+        {
+          "number": 170,
+          "title": "Extend the conic two-jet to an exact curve at d=0",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/170",
+          "head": {
+            "ref": "research/conic-d0-main-20261023",
+            "sha": "412075531e02a1f7c793c3f7996426fb72633980"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-fourteen-jet-continuation-20261023",
+      "head_sha": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-fourteen-jet-continuation-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/conic-laurent-verifier-20261023",
+      "head_sha": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-laurent-verifier-20261023",
+      "pull_requests": [
+        {
+          "number": 133,
+          "title": "Add an independent standard-library verifier for the universal conic third jet",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/133",
+          "head": {
+            "ref": "research/conic-laurent-verifier-20261023",
+            "sha": "91f3d37b0cc0e58d990f77432a7ee90fea03c400"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-projective-global-20261023",
+      "head_sha": "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-projective-global-20261023",
+      "pull_requests": [
+        {
+          "number": 168,
+          "title": "Complete the projective conic normal-class lifting criterion",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/168",
+          "head": {
+            "ref": "research/conic-projective-global-20261023",
+            "sha": "a7d37918fe19918700a3d5c5d9fad6df69cc7852"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-pure-criterion-20261023",
+      "head_sha": "bc2eb78ad31ca2ccb4d9a4d31ad6d671f7a6f962",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-pure-criterion-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/conic-third-jet-audit-20261023",
+      "head_sha": "70cc01e7065544e7b86dbe5c7dcf21f24b44e6f5",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-third-jet-audit-20261023",
+      "pull_requests": [
+        {
+          "number": 127,
+          "title": "Audit symbolic mixed-conic third jet",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/127",
+          "head": {
+            "ref": "research/conic-third-jet-audit-20261023",
+            "sha": "70cc01e7065544e7b86dbe5c7dcf21f24b44e6f5"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-third-obstruction-20261023",
+      "head_sha": "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-third-obstruction-20261023",
+      "pull_requests": [
+        {
+          "number": 156,
+          "title": "Classify extension of the complete prescribed conic third jet",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/156",
+          "head": {
+            "ref": "research/conic-third-obstruction-20261023",
+            "sha": "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/conic-third-order-20261023",
+      "head_sha": "a292557a1d0c3d2a8c4a8d9f029a49242d2d4614",
+      "archive_tag": "archive/consolidation-20261023-165523/research/conic-third-order-20261023",
+      "pull_requests": [
+        {
+          "number": 107,
+          "title": "Construct exact third-order lifts on the mixed conic component",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/107",
+          "head": {
+            "ref": "research/conic-third-order-20261023",
+            "sha": "a292557a1d0c3d2a8c4a8d9f029a49242d2d4614"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/continuation-01a16975",
+      "head_sha": "9028cbcbe52da8491fb608725009f9ef6ef2db82",
+      "archive_tag": "archive/consolidation-20261023-165523/research/continuation-01a16975",
+      "pull_requests": [
+        {
+          "number": 194,
+          "title": "Independently audit monomial certificates, ordered scopes and support recognition",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/194",
+          "head": {
+            "ref": "research/continuation-01a16975",
+            "sha": "9028cbcbe52da8491fb608725009f9ef6ef2db82"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/continuation-01a1697b",
+      "head_sha": "92403a2c46ae63c7430e427c3cf60dc0f9a28c20",
+      "archive_tag": "archive/consolidation-20261023-165523/research/continuation-01a1697b",
+      "pull_requests": [
+        {
+          "number": 191,
+          "title": "Extend the width-two component-score barrier to arbitrary support deletions",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/191",
+          "head": {
+            "ref": "research/continuation-01a1697b",
+            "sha": "92403a2c46ae63c7430e427c3cf60dc0f9a28c20"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/continued-verification-01a1697b",
+      "head_sha": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "archive_tag": "archive/consolidation-20261023-165523/research/continued-verification-01a1697b",
+      "pull_requests": [
+        {
+          "number": 198,
+          "title": "Certify full-space Koszul limits for four fixed oblique repairs",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/198",
+          "head": {
+            "ref": "research/continued-verification-01a1697b",
+            "sha": "573fdf35e7b50695b84071c9688abf9aa2c2513f"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/continuous-01a16975",
+      "head_sha": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "archive_tag": "archive/consolidation-20261023-165523/research/continuous-01a16975",
+      "pull_requests": [
+        {
+          "number": 204,
+          "title": "Classify the resolvent rank-six locus and sharp compression boundary",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/204",
+          "head": {
+            "ref": "research/continuous-01a16975",
+            "sha": "490e1baad995f3db9039a42a04ce1bbf25b075ff"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/continuous-20261023-01a16975",
+      "head_sha": "201d32c561c2e69af14e505b8924867fd5ee8ebe",
+      "archive_tag": "archive/consolidation-20261023-165523/research/continuous-20261023-01a16975",
+      "pull_requests": [
+        {
+          "number": 180,
+          "title": "Audit the pinned all-size divisor source cap and Laurent corollary",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/180",
+          "head": {
+            "ref": "research/continuous-20261023-01a16975",
+            "sha": "201d32c561c2e69af14e505b8924867fd5ee8ebe"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/continuous-frontier-20261023",
+      "head_sha": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "archive_tag": "archive/consolidation-20261023-165523/research/continuous-frontier-20261023",
+      "pull_requests": [
+        {
+          "number": 178,
+          "title": "Classify the fixed-resolvent rank-six locus and compression incidence",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/178",
+          "head": {
+            "ref": "research/continuous-frontier-20261023",
+            "sha": "4dc3be14fbcacc8c94e16b317026e9205223a6b8"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/coordinate-kernel-cap-01a1691e",
+      "head_sha": "7142c7f147e54b2b8a17b2121f69a11f9d6f8550",
+      "archive_tag": "archive/consolidation-20261023-165523/research/coordinate-kernel-cap-01a1691e",
+      "pull_requests": [
+        {
+          "number": 151,
+          "title": "Use source-torus specialization to close every high-rank regular A4 pair",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/151",
+          "head": {
+            "ref": "research/coordinate-kernel-cap-01a1691e",
+            "sha": "7142c7f147e54b2b8a17b2121f69a11f9d6f8550"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/diagonal-biform-ranks-20261023",
+      "head_sha": "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+      "archive_tag": "archive/consolidation-20261023-165523/research/diagonal-biform-ranks-20261023",
+      "pull_requests": [
+        {
+          "number": 207,
+          "title": "Prove exact diagonal-biform Toeplitz rank formula and quadratic rank drops",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/207",
+          "head": {
+            "ref": "research/diagonal-biform-ranks-20261023",
+            "sha": "09041022f0bb8dd2233eee95eec0017ee6998b1e"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/divisor-source-caps-20261023",
+      "head_sha": "673710d3a4284d88e4d24350681b26912831bf7a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/divisor-source-caps-20261023",
+      "pull_requests": [
+        {
+          "number": 148,
+          "title": "Prove sharp divisor-strip source-space caps at every balanced size",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/148",
+          "head": {
+            "ref": "research/divisor-source-caps-20261023",
+            "sha": "673710d3a4284d88e4d24350681b26912831bf7a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/double-leg-anchor-20261023",
+      "head_sha": "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/double-leg-anchor-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/elementary-biform-gap-01a1697a-d83f",
+      "head_sha": "02e214e9c8ef5e88df85e21039a8473fe87fa477",
+      "archive_tag": "archive/consolidation-20261023-165523/research/elementary-biform-gap-01a1697a-d83f",
+      "pull_requests": [
+        {
+          "number": 186,
+          "title": "Prove the arbitrary-biform rank gap by elementary degeneration",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/186",
+          "head": {
+            "ref": "research/elementary-biform-gap-01a1697a-d83f",
+            "sha": "02e214e9c8ef5e88df85e21039a8473fe87fa477"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/endpoint-constructions-20261020",
+      "head_sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+      "archive_tag": "archive/consolidation-20261023-165523/research/endpoint-constructions-20261020",
+      "pull_requests": [
+        {
+          "number": 37,
+          "title": "Certify singular tensor constructions and sharp convolution packings",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/37",
+          "head": {
+            "ref": "research/endpoint-constructions-20261020",
+            "sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "46952988962c19f11811c6b6860c88e898b99b51"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/exact-rational-score-20261023",
+      "head_sha": "019269fad70d78845627e91eafe10b4063e3890c",
+      "archive_tag": "archive/consolidation-20261023-165523/research/exact-rational-score-20261023",
+      "pull_requests": [
+        {
+          "number": 118,
+          "title": "Add exact rational ranking to the monomial support search",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/118",
+          "head": {
+            "ref": "research/exact-rational-score-20261023",
+            "sha": "019269fad70d78845627e91eafe10b4063e3890c"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/exact-search-review-01a16975",
+      "head_sha": "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d",
+      "archive_tag": "archive/consolidation-20261023-165523/research/exact-search-review-01a16975",
+      "pull_requests": [
+        {
+          "number": 192,
+          "title": "Complete ordered monomial search coverage and prove input-score asymmetry",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/192",
+          "head": {
+            "ref": "research/exact-search-review-01a16975",
+            "sha": "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/ferrers-ruling-cap-20261021",
+      "head_sha": "519d682aa64a24a524552388ae44c202f2ce5ada",
+      "archive_tag": "archive/consolidation-20261023-165523/research/ferrers-ruling-cap-20261021",
+      "pull_requests": [
+        {
+          "number": 86,
+          "title": "Prove sharp bilateral ruling caps and a low-rank dominance dichotomy",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/86",
+          "head": {
+            "ref": "research/ferrers-ruling-cap-20261021",
+            "sha": "519d682aa64a24a524552388ae44c202f2ce5ada"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "879992fb1ea6ebc889154987f1320749d2121ea0"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/finite-rank-frontier-20261023",
+      "head_sha": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "archive_tag": "archive/consolidation-20261023-165523/research/finite-rank-frontier-20261023",
+      "pull_requests": [
+        {
+          "number": 193,
+          "title": "Classify the fixed-resolvent rank-six locus and sharp compression",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/193",
+          "head": {
+            "ref": "research/finite-rank-frontier-20261023",
+            "sha": "91600161075b39c67fd7972a8528eb0d871f562b"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/flip-escape-20261023",
+      "head_sha": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+      "archive_tag": "archive/consolidation-20261023-165523/research/flip-escape-20261023",
+      "pull_requests": [
+        {
+          "number": 128,
+          "title": "Construct three split border seeds and certify their grid constraints",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/128",
+          "head": {
+            "ref": "research/flip-escape-20261023",
+            "sha": "28c90715cb77c19114a4aea0f210c84fb5202ee4"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/frontier-continuation-01a16975",
+      "head_sha": "5f1a90680ed288d04829428d443c009156df128a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/frontier-continuation-01a16975",
+      "pull_requests": [
+        {
+          "number": 189,
+          "title": "Prove the complete width-two monomial score barrier",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/189",
+          "head": {
+            "ref": "research/frontier-continuation-01a16975",
+            "sha": "5f1a90680ed288d04829428d443c009156df128a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/frontier-continuation-20261023",
+      "head_sha": "f74aa2d5141411e314568040de3670cc8ff7a6de",
+      "archive_tag": "archive/consolidation-20261023-165523/research/frontier-continuation-20261023",
+      "pull_requests": [
+        {
+          "number": 179,
+          "title": "Bound paired-source repair with two variable long maps",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/179",
+          "head": {
+            "ref": "research/frontier-continuation-20261023",
+            "sha": "f74aa2d5141411e314568040de3670cc8ff7a6de"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/full-entropy-audit-20261023",
+      "head_sha": "e68573b044ed3aa9719afa91a34904520dfe609e",
+      "archive_tag": "archive/consolidation-20261023-165523/research/full-entropy-audit-20261023",
+      "pull_requests": [
+        {
+          "number": 160,
+          "title": "Audit full-filtration entropy certificates",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/160",
+          "head": {
+            "ref": "research/full-entropy-audit-20261023",
+            "sha": "e68573b044ed3aa9719afa91a34904520dfe609e"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/full-partner-line-20261021",
+      "head_sha": "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+      "archive_tag": "archive/consolidation-20261023-165523/research/full-partner-line-20261021",
+      "pull_requests": [
+        {
+          "number": 91,
+          "title": "Close every mixed graph on the complete normalized partner line",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/91",
+          "head": {
+            "ref": "research/full-partner-line-20261021",
+            "sha": "075fdd55f6ec5c0af92dbefb556dc11b44d06cda"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "00d51337ddfe581a6e53ff9bc71bb1ece6ad8ee8"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/gauged-batches-20261023",
+      "head_sha": "32b88826cf44745e28db9da1c6c0e400933e7cc3",
+      "archive_tag": "archive/consolidation-20261023-165523/research/gauged-batches-20261023",
+      "pull_requests": [
+        {
+          "number": 154,
+          "title": "Construct larger gauged split seeds and exclude the six-split mobile cover",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/154",
+          "head": {
+            "ref": "research/gauged-batches-20261023",
+            "sha": "32b88826cf44745e28db9da1c6c0e400933e7cc3"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/geometric-diagonal-ranks-20261023",
+      "head_sha": "9e90a4bc773ba9803bab02e144601acbb700273d",
+      "archive_tag": "archive/consolidation-20261023-165523/research/geometric-diagonal-ranks-20261023",
+      "pull_requests": [
+        {
+          "number": 208,
+          "title": "Prove all-degree geometric diagonal-source ranks over every field",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/208",
+          "head": {
+            "ref": "research/geometric-diagonal-ranks-20261023",
+            "sha": "9e90a4bc773ba9803bab02e144601acbb700273d"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-additive-cost-20261023",
+      "head_sha": "6662f3b056a4dc1c2e4a594d3f51abda527daae5",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-additive-cost-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/hankel-all-characteristics-01a1697d",
+      "head_sha": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-all-characteristics-01a1697d",
+      "pull_requests": [
+        {
+          "number": 201,
+          "title": "Extend the geometric Hankel Segre bound to every characteristic",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/201",
+          "head": {
+            "ref": "research/hankel-all-characteristics-01a1697d",
+            "sha": "a0b0bf3715dd921c2a66617239ab896d7531c816"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "head_sha": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-annihilator-degree-20261023",
+      "pull_requests": [
+        {
+          "number": 134,
+          "title": "Count supporting-degree costs and certify exact boundary slice families",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/134",
+          "head": {
+            "ref": "research/hankel-annihilator-degree-20261023",
+            "sha": "c0bf4630d22621d64b79e1802429755f5d26c7a5"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-equality-20261023",
+      "head_sha": "3ff54caf229359e6c7bef898b07de8558c92ef10",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-equality-20261023",
+      "pull_requests": [
+        {
+          "number": 115,
+          "title": "Prove a sharp constant-scheme strip below full Hankel rank",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/115",
+          "head": {
+            "ref": "research/hankel-equality-20261023",
+            "sha": "3ff54caf229359e6c7bef898b07de8558c92ef10"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-fourspace-pencils-20261023",
+      "head_sha": "2850d0ce63733a4b3f5b9d9c734301a9d9a59495",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-fourspace-pencils-20261023",
+      "pull_requests": [
+        {
+          "number": 153,
+          "title": "Classify quadratic pencil tangent jumps and close the paired exceptional family",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/153",
+          "head": {
+            "ref": "research/hankel-fourspace-pencils-20261023",
+            "sha": "2850d0ce63733a4b3f5b9d9c734301a9d9a59495"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-index-sharpness-20261023",
+      "head_sha": "a25675a2f511f3ebc588dbfebd30ac4eaba2d143",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-index-sharpness-20261023",
+      "pull_requests": [
+        {
+          "number": 120,
+          "title": "Realize sharp Hankel pencil budgets and classify every linear extension of the seed",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/120",
+          "head": {
+            "ref": "research/hankel-index-sharpness-20261023",
+            "sha": "a25675a2f511f3ebc588dbfebd30ac4eaba2d143"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-syzygy-gap-20261023",
+      "head_sha": "f71eb3675a28988b1b1a209056514d14585a0076",
+      "archive_tag": "archive/consolidation-20261023-165523/research/hankel-syzygy-gap-20261023",
+      "pull_requests": [
+        {
+          "number": 206,
+          "title": "Bound A4 source spaces through rank23 and exclude long-map leading rank102",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/206",
+          "head": {
+            "ref": "research/hankel-syzygy-gap-20261023",
+            "sha": "f71eb3675a28988b1b1a209056514d14585a0076"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/integration-validation-20261023",
+      "head_sha": "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+      "archive_tag": "archive/consolidation-20261023-165523/research/integration-validation-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/laurent-stencil-20261023-ab94",
+      "head_sha": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+      "archive_tag": "archive/consolidation-20261023-165523/research/laurent-stencil-20261023-ab94",
+      "pull_requests": [
+        {
+          "number": 211,
+          "title": "Extend paired-source channel barriers through Laurent pole cancellation",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/211",
+          "head": {
+            "ref": "research/laurent-stencil-20261023-ab94",
+            "sha": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/mixed-family-single-copy-20261023",
+      "head_sha": "1f45313219e70bb18091d99138bd600b3b1e621e",
+      "archive_tag": "archive/consolidation-20261023-165523/research/mixed-family-single-copy-20261023",
+      "pull_requests": [
+        {
+          "number": 116,
+          "title": "Investigate the single-copy mixed-sector degeneration",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/116",
+          "head": {
+            "ref": "research/mixed-family-single-copy-20261023",
+            "sha": "1f45313219e70bb18091d99138bd600b3b1e621e"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/mixed-family-twisted-cubic-screen-20261023",
+      "head_sha": "f82022bf6477b0e1b17490819d3f4a25fd1a6660",
+      "archive_tag": "archive/consolidation-20261023-165523/research/mixed-family-twisted-cubic-screen-20261023",
+      "pull_requests": [
+        {
+          "number": 149,
+          "title": "Bound termwise T4 factor matches",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/149",
+          "head": {
+            "ref": "research/mixed-family-twisted-cubic-screen-20261023",
+            "sha": "f82022bf6477b0e1b17490819d3f4a25fd1a6660"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/mixed-leg-error-20261023",
+      "head_sha": "0b55809ff95dc1dd524cc041e6ea64a70de0eff7",
+      "archive_tag": "archive/consolidation-20261023-165523/research/mixed-leg-error-20261023",
+      "pull_requests": [
+        {
+          "number": 162,
+          "title": "Build a mixed-leg split seed and verify complete-error obstructions",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/162",
+          "head": {
+            "ref": "research/mixed-leg-error-20261023",
+            "sha": "0b55809ff95dc1dd524cc041e6ea64a70de0eff7"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/mixed-longlegs-candidate-20261023",
+      "head_sha": "cb130c27a4ebcae6148b9c242eeae9a69b434253",
+      "archive_tag": "archive/consolidation-20261023-165523/research/mixed-longlegs-candidate-20261023",
+      "pull_requests": [
+        {
+          "number": 161,
+          "title": "Exclude a Koszul-surviving mixed target by rational normal curve rigidity",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/161",
+          "head": {
+            "ref": "research/mixed-longlegs-candidate-20261023",
+            "sha": "cb130c27a4ebcae6148b9c242eeae9a69b434253"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/monomial-projections-19de7080",
+      "head_sha": "3a97aa3cb27bd305241fae64b1561d57c157737c",
+      "archive_tag": "archive/consolidation-20261023-165523/research/monomial-projections-19de7080",
+      "pull_requests": [
+        {
+          "number": 200,
+          "title": "Strengthen monomial scores by exact nonshared coordinate projection",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/200",
+          "head": {
+            "ref": "research/monomial-projections-19de7080",
+            "sha": "3a97aa3cb27bd305241fae64b1561d57c157737c"
+          },
+          "base": {
+            "ref": "research/monomial-recognition-19de7080",
+            "sha": "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/monomial-recognition-19de7080",
+      "head_sha": "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712",
+      "archive_tag": "archive/consolidation-20261023-165523/research/monomial-recognition-19de7080",
+      "pull_requests": [
+        {
+          "number": 187,
+          "title": "Complete additive support recognition and audit both monomial input orientations",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/187",
+          "head": {
+            "ref": "research/monomial-recognition-19de7080",
+            "sha": "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/nondivisor-cap-20261023",
+      "head_sha": "8344274819cea5e9fa8304b3bd0b49a455ddb1a1",
+      "archive_tag": "archive/consolidation-20261023-165523/research/nondivisor-cap-20261023",
+      "pull_requests": [
+        {
+          "number": 190,
+          "title": "Investigate the nondivisor width-two source-space cap",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/190",
+          "head": {
+            "ref": "research/nondivisor-cap-20261023",
+            "sha": "8344274819cea5e9fa8304b3bd0b49a455ddb1a1"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/nondivisor-pairwise-family-20261023",
+      "head_sha": "83e14d9c2e1247b45c4d47a93ebb2df53cc13fd1",
+      "archive_tag": "archive/consolidation-20261023-165523/research/nondivisor-pairwise-family-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/nonsplit-two-matrix-targets-20261023",
+      "head_sha": "3835bedaf764bdd1d2f20c6ce0390ae09d00f5f6",
+      "archive_tag": "archive/consolidation-20261023-165523/research/nonsplit-two-matrix-targets-20261023",
+      "pull_requests": [
+        {
+          "number": 159,
+          "title": "Exclude 19 pinned nonsplit two-matrix candidates through power seven",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/159",
+          "head": {
+            "ref": "research/nonsplit-two-matrix-targets-20261023",
+            "sha": "3835bedaf764bdd1d2f20c6ce0390ae09d00f5f6"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/oblique-residual-koszul-01a1697a",
+      "head_sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "archive_tag": "archive/consolidation-20261023-165523/research/oblique-residual-koszul-01a1697a",
+      "pull_requests": [
+        {
+          "number": 196,
+          "title": "Exhaust full-space Koszul screening for the fixed oblique residual",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/196",
+          "head": {
+            "ref": "research/oblique-residual-koszul-01a1697a",
+            "sha": "06cc58635d87114d1d556523e92f9b1c714b2f60"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/oblique-slice-strata-20261023-auto1",
+      "head_sha": "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70",
+      "archive_tag": "archive/consolidation-20261023-165523/research/oblique-slice-strata-20261023-auto1",
+      "pull_requests": [
+        {
+          "number": 210,
+          "title": "Classify all-field contraction ranks of one-dependency residual",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/210",
+          "head": {
+            "ref": "research/oblique-slice-strata-20261023-auto1",
+            "sha": "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "head_sha": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "archive_tag": "archive/consolidation-20261023-165523/research/one-slice-seed-20261023",
+      "pull_requests": [
+        {
+          "number": 152,
+          "title": "Audit one-slice speedups of the exact paired seed",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/152",
+          "head": {
+            "ref": "research/one-slice-seed-20261023",
+            "sha": "6b03d456eb4d81aee9977e67532891485c38aa81"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/operational-repair-20261023",
+      "head_sha": "494a6cca265de82aa45bd5abee0517a15516abc5",
+      "archive_tag": "archive/consolidation-20261023-165523/research/operational-repair-20261023",
+      "pull_requests": [
+        {
+          "number": 130,
+          "title": "Bound paired repair costs and certify residual-rank improvement criteria",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/130",
+          "head": {
+            "ref": "research/operational-repair-20261023",
+            "sha": "494a6cca265de82aa45bd5abee0517a15516abc5"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/paired-bundle-01a168f9",
+      "head_sha": "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+      "archive_tag": "archive/consolidation-20261023-165523/research/paired-bundle-01a168f9",
+      "pull_requests": [
+        {
+          "number": 169,
+          "title": "Prove full-rank intervals for paired long-leg Koszul maps",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/169",
+          "head": {
+            "ref": "research/paired-bundle-01a168f9",
+            "sha": "a629c557d3ee155cbd1c8c2f97ce3d367a115475"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/paired-kernel-01a168f9",
+      "head_sha": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "archive_tag": "archive/consolidation-20261023-165523/research/paired-kernel-01a168f9",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/paired-longleg-target-screen-20261023",
+      "head_sha": "60b98f0deb67499555c1b5df682eff7c21fe2094",
+      "archive_tag": "archive/consolidation-20261023-165523/research/paired-longleg-target-screen-20261023",
+      "pull_requests": [
+        {
+          "number": 185,
+          "title": "Screen filtered long-leg bounds against saved targets",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/185",
+          "head": {
+            "ref": "research/paired-longleg-target-screen-20261023",
+            "sha": "60b98f0deb67499555c1b5df682eff7c21fe2094"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/paired-other-legs-20261023",
+      "head_sha": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "archive_tag": "archive/consolidation-20261023-165523/research/paired-other-legs-20261023",
+      "pull_requests": [
+        {
+          "number": 143,
+          "title": "Prove low-degree paired long-leg ranks and all-degree floor",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/143",
+          "head": {
+            "ref": "research/paired-other-legs-20261023",
+            "sha": "0a25f0c9624f4b67d93ea6699804942b2ed8c470"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/partial-regular-frames-20261023",
+      "head_sha": "0eaa4f261955aae9a0f8601229486db3119a7e75",
+      "archive_tag": "archive/consolidation-20261023-165523/research/partial-regular-frames-20261023",
+      "pull_requests": [
+        {
+          "number": 108,
+          "title": "Force all Laurent maps regular from partial source frames",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/108",
+          "head": {
+            "ref": "research/partial-regular-frames-20261023",
+            "sha": "0eaa4f261955aae9a0f8601229486db3119a7e75"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "1c04903c215f396150605c0778024e856ec0b0d4"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/pass-operational-barrier-20261023",
+      "head_sha": "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+      "archive_tag": "archive/consolidation-20261023-165523/research/pass-operational-barrier-20261023",
+      "pull_requests": [
+        {
+          "number": 131,
+          "title": "Prove the common-input barrier and exclude a shared-output candidate",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/131",
+          "head": {
+            "ref": "research/pass-operational-barrier-20261023",
+            "sha": "65520c0fea81c285911e0d6fa0ce9aaae77dfe48"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/persistent-frontier-01a1697a",
+      "head_sha": "3997d9d52119915126e2fab2b1127af78b5165f8",
+      "archive_tag": "archive/consolidation-20261023-165523/research/persistent-frontier-01a1697a",
+      "pull_requests": [
+        {
+          "number": 183,
+          "title": "Prove a uniform high-power boundary for S5 degree-majorant covers",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/183",
+          "head": {
+            "ref": "research/persistent-frontier-01a1697a",
+            "sha": "3997d9d52119915126e2fab2b1127af78b5165f8"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/pole-ruling-20261023",
+      "head_sha": "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+      "archive_tag": "archive/consolidation-20261023-165523/research/pole-ruling-20261023",
+      "pull_requests": [
+        {
+          "number": 144,
+          "title": "Superseded: unit-image pole flags and small principal parts",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/144",
+          "head": {
+            "ref": "research/pole-ruling-20261023",
+            "sha": "a6c5e3eb46d159dbacac4105193f667e373df3a8"
+          },
+          "base": {
+            "ref": "research/verified-frontier-20261023",
+            "sha": "ea8a2e7522296e3b675919f04bffa4e55015815e"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/product-longmap-residual-20261023",
+      "head_sha": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+      "archive_tag": "archive/consolidation-20261023-165523/research/product-longmap-residual-20261023",
+      "pull_requests": [
+        {
+          "number": 147,
+          "title": "Construct explicit eighteen-scalar paired degenerations",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/147",
+          "head": {
+            "ref": "research/product-longmap-residual-20261023",
+            "sha": "29a486ac622261c8b4854fc109fb8ab40dcf91a2"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/q64-diagonal-shift-obstruction-20261023",
+      "head_sha": "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb",
+      "archive_tag": "archive/consolidation-20261023-165523/research/q64-diagonal-shift-obstruction-20261023",
+      "pull_requests": [
+        {
+          "number": 145,
+          "title": "Quadratic correction bounds for Q(n,4) coordinate charts",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/145",
+          "head": {
+            "ref": "research/q64-diagonal-shift-obstruction-20261023",
+            "sha": "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/r5-isotropic-lift-20261023",
+      "head_sha": "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+      "archive_tag": "archive/consolidation-20261023-165523/research/r5-isotropic-lift-20261023",
+      "pull_requests": [
+        {
+          "number": 141,
+          "title": "Compare R5 routes and delimit the entropy-only lift",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/141",
+          "head": {
+            "ref": "research/r5-isotropic-lift-20261023",
+            "sha": "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/rank-three-hankel-obstruction-20261023",
+      "head_sha": "b28fc9df87b56377cefc0b449ee70ba447216672",
+      "archive_tag": "archive/consolidation-20261023-165523/research/rank-three-hankel-obstruction-20261023",
+      "pull_requests": [
+        {
+          "number": 174,
+          "title": "Exclude two ordinary A(8,9) targets using rank-three parameter images",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/174",
+          "head": {
+            "ref": "research/rank-three-hankel-obstruction-20261023",
+            "sha": "b28fc9df87b56377cefc0b449ee70ba447216672"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/rank20-ruling-20261023",
+      "head_sha": "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+      "archive_tag": "archive/consolidation-20261023-165523/research/rank20-ruling-20261023",
+      "pull_requests": [
+        {
+          "number": 142,
+          "title": "Classify first-gap source spaces at every square size and sharpen A4 Laurent exclusion",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/142",
+          "head": {
+            "ref": "research/rank20-ruling-20261023",
+            "sha": "3d24db74b3d2d3093a57ad130f7960b57db9b897"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/rank84-source-cap-01a1691e",
+      "head_sha": "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
+      "archive_tag": "archive/consolidation-20261023-165523/research/rank84-source-cap-01a1691e",
+      "pull_requests": [
+        {
+          "number": 177,
+          "title": "Prove sharp rank 84/88 source caps and force balanced long sum 136",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/177",
+          "head": {
+            "ref": "research/rank84-source-cap-01a1691e",
+            "sha": "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/rectangular-divisor-cap-01a16975",
+      "head_sha": "039a4c76b1390b6dc65b9e71e027af6a12533c26",
+      "archive_tag": "archive/consolidation-20261023-165523/research/rectangular-divisor-cap-01a16975",
+      "pull_requests": [
+        {
+          "number": 205,
+          "title": "Extend sharp divisor source-space caps to unequal cyclic sources",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/205",
+          "head": {
+            "ref": "research/rectangular-divisor-cap-01a16975",
+            "sha": "039a4c76b1390b6dc65b9e71e027af6a12533c26"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/rectangular-sum-frontier-20261021",
+      "head_sha": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "archive_tag": "archive/consolidation-20261023-165523/research/rectangular-sum-frontier-20261021",
+      "pull_requests": [
+        {
+          "number": 76,
+          "title": "Integrate rectangular research, exact controls, and current research overview",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/76",
+          "head": {
+            "ref": "research/rectangular-sum-frontier-20261021",
+            "sha": "6db658954fe976e3d433991ebf606d1d5d31a9e9"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "20fa49bb9bbc8908935bec508158a76757044505"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/regular-leg-rank-frontier-01a1691e",
+      "head_sha": "8410aafc211f4d90311f4f75a66f6244912c2139",
+      "archive_tag": "archive/consolidation-20261023-165523/research/regular-leg-rank-frontier-01a1691e",
+      "pull_requests": [
+        {
+          "number": 122,
+          "title": "Bound two regular A4 leg maps using low-rank compression kernels",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/122",
+          "head": {
+            "ref": "research/regular-leg-rank-frontier-01a1691e",
+            "sha": "8410aafc211f4d90311f4f75a66f6244912c2139"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "head_sha": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "archive_tag": "archive/consolidation-20261023-165523/research/repair-support-capacity-20261023",
+      "pull_requests": [
+        {
+          "number": 164,
+          "title": "Bound Laurent repair support and ordinary polynomial first maps",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/164",
+          "head": {
+            "ref": "research/repair-support-capacity-20261023",
+            "sha": "e591067302eb0f26eb4730329ccdec83d7c081a0"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/resolvent-all-compressions-20261023",
+      "head_sha": "fb9707ed65437ed1297ea8276a22384d4691813a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/resolvent-all-compressions-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/resolvent-loss-seven-01a16975",
+      "head_sha": "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+      "archive_tag": "archive/consolidation-20261023-165523/research/resolvent-loss-seven-01a16975",
+      "pull_requests": [
+        {
+          "number": 202,
+          "title": "Prove sharp compression bounds through total loss seven over every field",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/202",
+          "head": {
+            "ref": "research/resolvent-loss-seven-01a16975",
+            "sha": "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f"
+          },
+          "base": {
+            "ref": "research/resolvent-rank-six-locus-01a16975",
+            "sha": "63809d8e2dc0a13061bf30fbe7788b327fc01692"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/resolvent-minrank-audit-20261023",
+      "head_sha": "e6c44ce7d26834c87fb5736f22197490d30f679f",
+      "archive_tag": "archive/consolidation-20261023-165523/research/resolvent-minrank-audit-20261023",
+      "pull_requests": [
+        {
+          "number": 163,
+          "title": "Review fixed-resolvent minimum-rank proof",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/163",
+          "head": {
+            "ref": "research/resolvent-minrank-audit-20261023",
+            "sha": "e6c44ce7d26834c87fb5736f22197490d30f679f"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/resolvent-rank-six-locus-01a16975",
+      "head_sha": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+      "archive_tag": "archive/consolidation-20261023-165523/research/resolvent-rank-six-locus-01a16975",
+      "pull_requests": [
+        {
+          "number": 188,
+          "title": "Classify the fixed-resolvent rank-six locus and sharp rank109 compression",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/188",
+          "head": {
+            "ref": "research/resolvent-rank-six-locus-01a16975",
+            "sha": "63809d8e2dc0a13061bf30fbe7788b327fc01692"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/resolvent-rank6-locus-20261023",
+      "head_sha": "4c488b115e2e5ca6efb6dcc48fb88e31d927998f",
+      "archive_tag": "archive/consolidation-20261023-165523/research/resolvent-rank6-locus-20261023",
+      "pull_requests": [
+        {
+          "number": 199,
+          "title": "Exhibit a sixteen-dimensional rank-six family",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/199",
+          "head": {
+            "ref": "research/resolvent-rank6-locus-20261023",
+            "sha": "4c488b115e2e5ca6efb6dcc48fb88e31d927998f"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/resolvent-singular-rank109-20261023",
+      "head_sha": "68cb1da851a2b8308584fdc2d30e4519bf1a6a92",
+      "archive_tag": "archive/consolidation-20261023-165523/research/resolvent-singular-rank109-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/route-synthesis-20261023",
+      "head_sha": "02d5a87970813fa746c7e6d977cc7fb449c45f3b",
+      "archive_tag": "archive/consolidation-20261023-165523/research/route-synthesis-20261023",
+      "pull_requests": [
+        {
+          "number": 124,
+          "title": "Map spectral, block-identity, and separation routes",
+          "state": "closed",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/124",
+          "head": {
+            "ref": "research/route-synthesis-20261023",
+            "sha": "02d5a87970813fa746c7e6d977cc7fb449c45f3b"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "head_sha": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "archive_tag": "archive/consolidation-20261023-165523/research/s5-finite-power-covers-20261023",
+      "pull_requests": [
+        {
+          "number": 111,
+          "title": "Exclude the S5 two-central-factor M19 coordinate target with finite cube covers",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/111",
+          "head": {
+            "ref": "research/s5-finite-power-covers-20261023",
+            "sha": "38e3c12553a7c499994b9ccb87946d749d718ad2"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/s5-peirce-finite-covers-20261023",
+      "head_sha": "ade230bddb1f9cb255ab3a63357db925305755f0",
+      "archive_tag": "archive/consolidation-20261023-165523/research/s5-peirce-finite-covers-20261023",
+      "pull_requests": [
+        {
+          "number": 197,
+          "title": "Certify finer full-source S5 covers and exclude five more coordinate targets",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/197",
+          "head": {
+            "ref": "research/s5-peirce-finite-covers-20261023",
+            "sha": "ade230bddb1f9cb255ab3a63357db925305755f0"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/s5-peirce-support-01a1697a",
+      "head_sha": "44164b54b6198563e789b479e7a8b01f220f16e9",
+      "archive_tag": "archive/consolidation-20261023-165523/research/s5-peirce-support-01a1697a",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/s5-scalar-repair-20261021",
+      "head_sha": "a3446c1142d748a53cf7a3642f44e3a7bfc43128",
+      "archive_tag": "archive/consolidation-20261023-165523/research/s5-scalar-repair-20261021",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/s5-staircase-cover-boundary-20261023",
+      "head_sha": "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135",
+      "archive_tag": "archive/consolidation-20261023-165523/research/s5-staircase-cover-boundary-20261023",
+      "pull_requests": [
+        {
+          "number": 140,
+          "title": "Certify finite monotone S5 cube-cover boundaries, including three unequal legs",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/140",
+          "head": {
+            "ref": "research/s5-staircase-cover-boundary-20261023",
+            "sha": "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/s5-trade-followup-20261021",
+      "head_sha": "60eef4bf0388aa14f4842981e5543b9f9975507e",
+      "archive_tag": "archive/consolidation-20261023-165523/research/s5-trade-followup-20261021",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/scalar-finite-slope-lean-20261023",
+      "head_sha": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/scalar-finite-slope-lean-20261023",
+      "pull_requests": [
+        {
+          "number": 165,
+          "title": "Formalize the finite scalar-profile slope bound",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/165",
+          "head": {
+            "ref": "research/scalar-finite-slope-lean-20261023",
+            "sha": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/scalar-proof-audit-20261023",
+      "head_sha": "b67c6a5ed3a38d56e952baaed79bb29f5c00b7a5",
+      "archive_tag": "archive/consolidation-20261023-165523/research/scalar-proof-audit-20261023",
+      "pull_requests": [
+        {
+          "number": 109,
+          "title": "Audit all-integer scalar-profile proof",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/109",
+          "head": {
+            "ref": "research/scalar-proof-audit-20261023",
+            "sha": "b67c6a5ed3a38d56e952baaed79bb29f5c00b7a5"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/scalar-proof-review-20261023",
+      "head_sha": "3cebcd4b8b45acbe8089cfbe7a61a0aaedc68a98",
+      "archive_tag": "archive/consolidation-20261023-165523/research/scalar-proof-review-20261023",
+      "pull_requests": [
+        {
+          "number": 158,
+          "title": "Record a second-pass review of the scalar sharpness proof",
+          "state": "closed",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/158",
+          "head": {
+            "ref": "research/scalar-proof-review-20261023",
+            "sha": "3cebcd4b8b45acbe8089cfbe7a61a0aaedc68a98"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/shift-window-variable-long-leg-20261023",
+      "head_sha": "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+      "archive_tag": "archive/consolidation-20261023-165523/research/shift-window-variable-long-leg-20261023",
+      "pull_requests": [
+        {
+          "number": 173,
+          "title": "Exclude low shift-window-rank variable paired-source long maps",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/173",
+          "head": {
+            "ref": "research/shift-window-variable-long-leg-20261023",
+            "sha": "ce270d3276bd90253d3ba3a1eb5757ff3677ce61"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/singular-long-gap-20261023",
+      "head_sha": "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+      "archive_tag": "archive/consolidation-20261023-165523/research/singular-long-gap-20261023",
+      "pull_requests": [
+        {
+          "number": 132,
+          "title": "Extend the A4 long-leg obstruction to singular limits of rank at least106",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/132",
+          "head": {
+            "ref": "research/singular-long-gap-20261023",
+            "sha": "f9bce104af5e50d796488a1c8d5ff4d8d02ba260"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/singular-long-ruling-20261023",
+      "head_sha": "fc0a139ef447a4d8640f0fdf1781836ea7fa868a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/singular-long-ruling-20261023",
+      "pull_requests": [
+        {
+          "number": 125,
+          "title": "Exclude singular A4 long-leg limits of rank at least106 using target rulings",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/125",
+          "head": {
+            "ref": "research/singular-long-ruling-20261023",
+            "sha": "fc0a139ef447a4d8640f0fdf1781836ea7fa868a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/singular-unit-resolvent-20261021",
+      "head_sha": "d9abcec0b22a1f90500b766d71bddba05809707a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/singular-unit-resolvent-20261021",
+      "pull_requests": [
+        {
+          "number": 103,
+          "title": "Exclude a dense fixed singular-unit resolvent chart for A4",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/103",
+          "head": {
+            "ref": "research/singular-unit-resolvent-20261021",
+            "sha": "d9abcec0b22a1f90500b766d71bddba05809707a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/sl2-f8-native-all-cuts-20261023",
+      "head_sha": "3837b17c2c05cb509e61b65fc2547c9d34fd0afa",
+      "archive_tag": "archive/consolidation-20261023-165523/research/sl2-f8-native-all-cuts-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/sl2-f8-subgroup-catalog-20261023",
+      "head_sha": "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+      "archive_tag": "archive/consolidation-20261023-165523/research/sl2-f8-subgroup-catalog-20261023",
+      "pull_requests": [
+        {
+          "number": 175,
+          "title": "Catalog every SL2 F8 subgroup ideal and add minimal dihedral cuts",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/175",
+          "head": {
+            "ref": "research/sl2-f8-subgroup-catalog-20261023",
+            "sha": "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/sl2-f8-torus-packets-20261021",
+      "head_sha": "aefbf5ef336f42c3d4767719d383ba8d85ffe21d",
+      "archive_tag": "archive/consolidation-20261023-165523/research/sl2-f8-torus-packets-20261021",
+      "pull_requests": [
+        {
+          "number": 84,
+          "title": "Construct SL2 F8 packets and certify semisimple restriction obstructions",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/84",
+          "head": {
+            "ref": "research/sl2-f8-torus-packets-20261021",
+            "sha": "aefbf5ef336f42c3d4767719d383ba8d85ffe21d"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "80737e6191adc5a7cba1cb0829ba3dbba8372705"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/source-singular-space-cap-20261023",
+      "head_sha": "0927e2fdbb0f5d8f69821ea60eca6b7e006bccf5",
+      "archive_tag": "archive/consolidation-20261023-165523/research/source-singular-space-cap-20261023",
+      "pull_requests": []
+    },
+    {
+      "branch": "research/spin-assembly-20261021",
+      "head_sha": "d07d0548b0263323915593120996bf243c2e568d",
+      "archive_tag": "archive/consolidation-20261023-165523/research/spin-assembly-20261021",
+      "pull_requests": [
+        {
+          "number": 54,
+          "title": "Construct and certify compatible spin modules and vertex extensions",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/54",
+          "head": {
+            "ref": "research/spin-assembly-20261021",
+            "sha": "d07d0548b0263323915593120996bf243c2e568d"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "46952988962c19f11811c6b6860c88e898b99b51"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/toeplitz-two-long-legs-20261023",
+      "head_sha": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "archive_tag": "archive/consolidation-20261023-165523/research/toeplitz-two-long-legs-20261023",
+      "pull_requests": [
+        {
+          "number": 157,
+          "title": "Prove quadratic repair barrier for locally Toeplitz paired-source long maps",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/157",
+          "head": {
+            "ref": "research/toeplitz-two-long-legs-20261023",
+            "sha": "9e830aa7af430b74febc93aeb8a975b1e356d744"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/unbalanced-rectangular-frontier-20261023",
+      "head_sha": "d5bc2e15ab099f3948b5cc7c5b9591fb2a619855",
+      "archive_tag": "archive/consolidation-20261023-165523/research/unbalanced-rectangular-frontier-20261023",
+      "pull_requests": [
+        {
+          "number": 138,
+          "title": "Certify the complete unbalanced single-rectangular frontier through dimension 1377",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/138",
+          "head": {
+            "ref": "research/unbalanced-rectangular-frontier-20261023",
+            "sha": "d5bc2e15ab099f3948b5cc7c5b9591fb2a619855"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fe602e418743f37a7cfa54d788b64aaf8a9d6095"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/unbalanced-square-frontier-20261023",
+      "head_sha": "3382792295dec8018306920550f571dea560660b",
+      "archive_tag": "archive/consolidation-20261023-165523/research/unbalanced-square-frontier-20261023",
+      "pull_requests": [
+        {
+          "number": 117,
+          "title": "Complete the unbalanced ordinary square-sum frontier through dimension 1377",
+          "state": "open",
+          "draft": false,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/117",
+          "head": {
+            "ref": "research/unbalanced-square-frontier-20261023",
+            "sha": "3382792295dec8018306920550f571dea560660b"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/unequal-entropy-audit-20261023",
+      "head_sha": "60f49dd41832dc272dc942207cc816a34b6675d9",
+      "archive_tag": "archive/consolidation-20261023-165523/research/unequal-entropy-audit-20261023",
+      "pull_requests": [
+        {
+          "number": 126,
+          "title": "Audit all-size unequal entropy certificate proof",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/126",
+          "head": {
+            "ref": "research/unequal-entropy-audit-20261023",
+            "sha": "60f49dd41832dc272dc942207cc816a34b6675d9"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/unit-image-rank-20261023",
+      "head_sha": "e3d3e4164125d636cad16c200eb6f5fe3a859890",
+      "archive_tag": "archive/consolidation-20261023-165523/research/unit-image-rank-20261023",
+      "pull_requests": [
+        {
+          "number": 112,
+          "title": "Prove general Laurent regularity from a regular right inverse",
+          "state": "open",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/112",
+          "head": {
+            "ref": "research/unit-image-rank-20261023",
+            "sha": "e3d3e4164125d636cad16c200eb6f5fe3a859890"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "1c04903c215f396150605c0778024e856ec0b0d4"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/unit-image-rank-gap-20261023",
+      "head_sha": "b407136ffc5abe194c3acf3b64d31517ed6a1e89",
+      "archive_tag": "archive/consolidation-20261023-165523/research/unit-image-rank-gap-20261023",
+      "pull_requests": [
+        {
+          "number": 110,
+          "title": "Extend the A4 regular unit-image obstruction from rank109 to rank107",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/110",
+          "head": {
+            "ref": "research/unit-image-rank-gap-20261023",
+            "sha": "b407136ffc5abe194c3acf3b64d31517ed6a1e89"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "1c04903c215f396150605c0778024e856ec0b0d4"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/unit-image-stacked-rank-20261023",
+      "head_sha": "0a2c6106b79cca8684d59a11f763aa477388404a",
+      "archive_tag": "archive/consolidation-20261023-165523/research/unit-image-stacked-rank-20261023",
+      "pull_requests": [
+        {
+          "number": 119,
+          "title": "Sharpen stacked Laurent ranks and extend the A4 unit-image exclusion to105",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/119",
+          "head": {
+            "ref": "research/unit-image-stacked-rank-20261023",
+            "sha": "0a2c6106b79cca8684d59a11f763aa477388404a"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "1c04903c215f396150605c0778024e856ec0b0d4"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/variable-separation-barrier-20261023",
+      "head_sha": "eb02c341d27f5605cff62b8c47a0eec21cc5a270",
+      "archive_tag": "archive/consolidation-20261023-165523/research/variable-separation-barrier-20261023",
+      "pull_requests": [
+        {
+          "number": 172,
+          "title": "Bound paired-source repairs with low shift-separation rank",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/172",
+          "head": {
+            "ref": "research/variable-separation-barrier-20261023",
+            "sha": "eb02c341d27f5605cff62b8c47a0eec21cc5a270"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    },
+    {
+      "branch": "research/verified-frontier-20261023",
+      "head_sha": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+      "archive_tag": "archive/consolidation-20261023-165523/research/verified-frontier-20261023",
+      "pull_requests": [
+        {
+          "number": 121,
+          "title": "Superseded: one-sided partial-unit Laurent regularity",
+          "state": "closed",
+          "draft": true,
+          "merged_at": null,
+          "html_url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/121",
+          "head": {
+            "ref": "research/verified-frontier-20261023",
+            "sha": "4087327f26a8edbdec7dd65b0b1c44fb948bd579"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "resolvent-rank-six-locus-verification-v1",
+  "integer_minor_identities": 26,
+  "minor_size": 7,
+  "mixed_rank_at_most_six_dimension": 5,
+  "pure_Q_rank_at_most_six_dimension": 4,
+  "full_rank_at_most_six_dimension": 17,
+  "normal_form_degree_bounds": [
+    4,
+    3,
+    3,
+    3
+  ],
+  "compression_controls": [
+    {
+      "field": "Q",
+      "source_dimension": 112,
+      "aligned_dimension": 111,
+      "unaligned_dimension": 112
+    },
+    {
+      "field": "F2",
+      "source_dimension": 112,
+      "aligned_dimension": 111,
+      "unaligned_dimension": 112
+    },
+    {
+      "field": "F3",
+      "source_dimension": 112,
+      "aligned_dimension": 111,
+      "unaligned_dimension": 112
+    },
+    {
+      "field": "F1009",
+      "source_dimension": 112,
+      "aligned_dimension": 111,
+      "unaligned_dimension": 112
+    }
+  ],
+  "all_field_classification": "written proof plus exact integer identities",
+  "compression_dimension_bound": "written polynomial product-dimension proof",
+  "independent_review": false,
+  "improves_omega": false
+}

@@ -1,7 +1,7 @@
 # Exact lifting on the d=0 cubic-conic fiber
 
-October 23, 2026. This continues the pinned PR101 conic source and PR107's
-mixed-chart three-jet. Their source and first-jet credit is retained.
+October 23, 2026. This continues the pinned PR101 conic source and
+retains its source and first-jet credit.
 
 Question: when the cubic conic `c=-d^3` is specialized to `c=d=0`, does
 PR101's exported polynomial two-jet extend after allowing all seventy

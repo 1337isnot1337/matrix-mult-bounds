@@ -55,9 +55,9 @@ has sixteen nonzero entries outside the boundary planes.
 finds zero weight for each field. This elimination is discovery evidence
 only; the accepted claim is the explicit identity above.
 
-`verify.py` uses a restricted polynomial parser, rebuilds the 4096 source
-terms from the separate literal-source verifier, compares the constant,
-first and second maps with PR101's pinned witness at `c=d=0`, and checks all
+`verify.py` uses a restricted polynomial parser, independently enumerates
+the 4096 source terms in the pinned PR101 coordinate convention, compares
+the constant, first and second maps with PR101's pinned witness at `c=d=0`, and checks all
 78,400 kernel coefficients directly. It independently computes the three
 leading minors. It imports no tangent, curvature or discovery operator.
 The receipt is `results/conic-d0-cubic-2026-10-23/verification.json`.

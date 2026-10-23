@@ -1,0 +1,695 @@
+{
+  "schema": "matrix-consolidation-code-resolution-v1",
+  "status": "prepared; final-tree tests pending",
+  "source_snapshot": "2026-10-23T16:55:23.296436+00:00",
+  "output_files": [
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/QUESTION.md",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/QUESTION.md",
+      "sha256": "160117a9a3e2c78325472a6e6e56e1470b59a3ddad20057ceb7b1352ca88f039",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/README.md",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/README.md",
+      "sha256": "1ac010b13a6af02f67ebd6b30ee6e5c645df8b469ac2f4c862793d93f989f13d",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/discover.py",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/discover.py",
+      "sha256": "afb03715e9d887319342af2561aaaf9d28769cde6c4c968a72a3c09e5560946f",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/manifest.json",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/manifest.json",
+      "sha256": "c4d1b51cefe2db7d746649512a69d16e931ebdc33384cbdeae07abd738717963",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/proof.md",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/proof.md",
+      "sha256": "a2856686e24123568238d57031ad7b6d0dfd7280dd8364fc24ad8a8761d82d8f",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/sources.json",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/sources.json",
+      "sha256": "f406e42169e8874159a5177eca9b972c354d75867a0028c60dfd27777d105035",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-conic-d0-cubic/verify.py",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "research/ai/2026-10-23-conic-d0-cubic/verify.py",
+      "sha256": "1ef888e98b7811e7c2c85c7bb61dfe6951298317c8a9c86268e5f9518c59fcd8",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "results/conic-d0-cubic-2026-10-23/exact-curve.json",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "results/conic-d0-cubic-2026-10-23/exact-curve.json",
+      "sha256": "576d68d61725ba9399e0e48577f74cf4598675357ad17de561d2305e9f168184",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "results/conic-d0-cubic-2026-10-23/verification.json",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "results/conic-d0-cubic-2026-10-23/verification.json",
+      "sha256": "349fd0be676b6d55861f39fa7c76824d36b39467f96a74b78f8cd000832f6d5c",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "tests/test_conic_d0_exact_curve.py",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_path": "tests/test_conic_d0_exact_curve.py",
+      "sha256": "17413770c6ba44b67965febc4b3e82c60d20e09fb3aa5ed08b4a88b3c2e81729",
+      "reason": "Use the corrected independent source reconstruction; accepted result is unchanged."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/README.md",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/README.md",
+      "sha256": "0d7fc3a99ca6d242c5f97b8fe4d9a03435a6d9219fb17ab9db803acd1c53b2c5",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/boundary.md",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/boundary.md",
+      "sha256": "b110de6d2cc7ae9d01e922250a138fb0a4b41c18528b3fc08769ea4a52e1cf6f",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/claims.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/claims.json",
+      "sha256": "e8f774f677cc294b064fee7815ef62fd380f9a58fd6050a864bb20df82e158a4",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/manifest.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/manifest.json",
+      "sha256": "a718bb65525599c2cb6cd4d51b9af7fc5cdc8392be242396ef66a17e2b7ce984",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/proof.md",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/proof.md",
+      "sha256": "8dcda8260c18879fed2f027defea3aedf6ec6a989cfeadb8347f5a582a80c187",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/sources.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/sources.json",
+      "sha256": "fbc79eb607a13abdd0999d94dc2e3cbf8eb9b19c57612915271af0a68bee0636",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/verify.py",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/verify.py",
+      "sha256": "c4bd8d9d4c31e71e5ea3e581d320c784218fde8e21a8c491b056a6d1a2bed990",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-locus/verify_boundary.py",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/verify_boundary.py",
+      "sha256": "04760416e5c246566726da1f146b75ff3c0d8132ab97252dc87392c5803265b8",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "results/resolvent-rank-six-locus-2026-10-23/boundary-verification.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/boundary-verification.json",
+      "sha256": "9ca26039c2d5d83126656fedc5878a3a632512275fc86515c813226112018a0c",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
+      "sha256": "da6e371acbaca61739143068894c65ba172c048e1d23318829dbee5a260d7004",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "results/resolvent-rank-six-locus-2026-10-23/rank-seven-certificate.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/rank-seven-certificate.json",
+      "sha256": "ae424121a67e7872eaa2e3740da260e57133071c979da3ff51a8fa0d65f57080",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "results/resolvent-rank-six-locus-2026-10-23/verification.json",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/verification.json",
+      "sha256": "2db0659784cc0b27a892dee3e838e14819f483ce61509d5df88a600009c5e232",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "tests/test_resolvent_rank_boundary.py",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "tests/test_resolvent_rank_boundary.py",
+      "sha256": "f56a02e3761bb646e5917e516c11bbf17d8000d7f89d9d16ceebe03fb64c8919",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "tests/test_resolvent_rank_six_locus.py",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_path": "tests/test_resolvent_rank_six_locus.py",
+      "sha256": "75d791c9c14090023c01fa34b87ce31a2c85ad23fd257909f160ca1035e832c8",
+      "reason": "Keep the continuous implementation and its boundary continuation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/QUESTION.md",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/QUESTION.md",
+      "sha256": "bb185fec6e97f7d18bb62e88d08139c6bde0a49c025e11e9e189b9fa74e0c292",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/README.md",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/README.md",
+      "sha256": "3ca828ecb53d638aa4b2746b239a0205bc6fcb7782011fdb37145aeec836eb34",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/claims.json",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/claims.json",
+      "sha256": "83d4b0a818188a82a072c7ace3de870012da2ece0f363a1f04a7ef90d668400b",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/manifest.json",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/manifest.json",
+      "sha256": "9cf3ff7071d0db2034c2e080617e2ab9b158744174ed968c74184f0b98eab57f",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/proof.md",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/proof.md",
+      "sha256": "8851302c5b4d4f3cb7d0e0eeed975734d6e4e4171aaf0bfe1307ef73ff5bcc63",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/sources.json",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/sources.json",
+      "sha256": "1220d2995b0f7c2415fad4249af5360369123d8cd3653ba355ecab350d49e680",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-frontier/verify.py",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/verify.py",
+      "sha256": "785f96c18e0c2ee7fb916fb9de842a39910107fb38e55ea541f3f5f6582fe2ad",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "results/resolvent-rank-six-frontier-2026-10-23/certificate.json",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
+      "sha256": "6831edcd400b9b14daf46e2a450df9d89720e93707dee978561deb30aec96e53",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "results/resolvent-rank-six-frontier-2026-10-23/validation.json",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/validation.json",
+      "sha256": "de255f58be2caff1eb4d518161b38581d3938561a63da8bb6fea821fa501ca1c",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "results/resolvent-rank-six-frontier-2026-10-23/verification.json",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/verification.json",
+      "sha256": "a3b2517707d17a1f5320abfbef524efa2458bb8f9974dfd1ca95c3a9d2304d78",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "tests/test_resolvent_rank_six_frontier.py",
+      "source_commit": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_path": "tests/test_resolvent_rank_six_locus.py",
+      "sha256": "e8e29d5b3f959e14ca67c5af1cf5c19981de5c19394a1b36f4fe8377b1eb0593",
+      "reason": "Preserve an independent all-field certificate and four compression controls at a distinct path."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-finite/README.md",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/README.md",
+      "sha256": "c76a8d74d72a0a1684d251be30478dc7fd6fef8f3f3878beba834cee0b781100",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-finite/claims.json",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/claims.json",
+      "sha256": "99ab4b3fab0073f11a501a04cac07747d76346d3984b709db5fedd954d1880a1",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-finite/proof.md",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/proof.md",
+      "sha256": "8cd719a72903798d4dc69ee1be74c00fd713cacc9bdf36f379ee207f7dbdfa64",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-finite/sources.json",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/sources.json",
+      "sha256": "291700d158822de76806bacc5849d0c7954f290145a1704f206b0c43d8d63050",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six-finite/verify.py",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six-locus/verify.py",
+      "sha256": "e4cd1b56791b5e71825819c12efb0d8cb155a3a8f75f7bf34b9d4c18a996df2f",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "results/resolvent-rank-six-finite-2026-10-23/certificate.json",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
+      "sha256": "43f912ac7eda6e1c6b8a70637511d7371569d455e2d6a0d64487a72e3c3fd5b7",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "results/resolvent-rank-six-finite-2026-10-23/verification.json",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "results/resolvent-rank-six-locus-2026-10-23/verification.json",
+      "sha256": "9c02d38c5eaa8235147c557c0546785e003ab63534887183b9fa425f89ffc2b1",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "tests/test_resolvent_rank_six_finite.py",
+      "source_commit": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_path": "tests/test_resolvent_rank_six_locus.py",
+      "sha256": "b7cca7efe8778c69270f741e8b578b71aab1d981dc98d031b5fe15a005e44d8d",
+      "reason": "Preserve the independent rational implementation and its narrower stated field hypothesis."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas/QUESTION.md",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/QUESTION.md",
+      "sha256": "a37137294649ada4a4947b19f43fd1fd32db4cbe6941fa69bf90c341ca30a34f",
+      "reason": "Keep the 75-matrix imported-source implementation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas/README.md",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/README.md",
+      "sha256": "807d9265fa29edcb0eef2e7ca3b198643c7e3d4db3eb54abaa76448822c744ae",
+      "reason": "Keep the 75-matrix imported-source implementation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas/certificate.json",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/certificate.json",
+      "sha256": "d2c08716b2853f24f3d019e6d38ee3fa4dfc1b984937adc0e1ba53b24859844e",
+      "reason": "Keep the 75-matrix imported-source implementation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas/sources.json",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/sources.json",
+      "sha256": "7278ff1829e2eb6ae73967dfb51890110df8d64b9f483587cd121d38b5435ae1",
+      "reason": "Keep the 75-matrix imported-source implementation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas/verify.py",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/verify.py",
+      "sha256": "38ec6dfa58695016f1f7abd9b2066b8085f19bb31dae83be78383e62ae0c1b0b",
+      "reason": "Keep the 75-matrix imported-source implementation at its original path."
+    },
+    {
+      "path": "tests/test_oblique_koszul_atlas.py",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_path": "tests/test_oblique_koszul_atlas.py",
+      "sha256": "e8638262a1c1e507a65577384b4c0b6aaff0a70d4124e6c6d452c885571cc77d",
+      "reason": "Keep the 75-matrix imported-source implementation at its original path."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas-extended/README.md",
+      "source_commit": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/README.md",
+      "sha256": "5d0adb607c0bcff3bb334b1e20a2960dba913c39e0a689f648006cedd6ed15aa",
+      "reason": "Preserve the independent 112-matrix implementation, native witness and binary controls."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas-extended/certificate.json",
+      "source_commit": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/certificate.json",
+      "sha256": "553b2d9f1255d154bb280f21e16a8fb02df3c414d591737a47c670b08f39e28d",
+      "reason": "Preserve the independent 112-matrix implementation, native witness and binary controls."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas-extended/native-witness.json",
+      "source_commit": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/native-witness.json",
+      "sha256": "e646994564a18ae03149d0a9a7f1a989ad9e9a867d2a17776301f51689108629",
+      "reason": "Preserve the independent 112-matrix implementation, native witness and binary controls."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas-extended/sources.json",
+      "source_commit": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/sources.json",
+      "sha256": "78d6d6f72e87a6545101fef6a84afa145e5305c6578bf3cd437e75b4f70b327e",
+      "reason": "Preserve the independent 112-matrix implementation, native witness and binary controls."
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-koszul-atlas-extended/verify.py",
+      "source_commit": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_path": "research/ai/2026-10-23-oblique-koszul-atlas/verify.py",
+      "sha256": "d0106ea53b84910ef83155dcc152a68e6064e4100ba7ea53556f7440a6203780",
+      "reason": "Preserve the independent 112-matrix implementation, native witness and binary controls."
+    },
+    {
+      "path": "tests/test_oblique_koszul_atlas_extended.py",
+      "source_commit": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_path": "tests/test_oblique_koszul_atlas.py",
+      "sha256": "eeffe3f9aeab25ce28be96cffcb2797b4bd1b0d36e9899a21f5c5f0718aae36e",
+      "reason": "Preserve the independent 112-matrix implementation, native witness and binary controls."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six/claims.json",
+      "source_commit": "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six/claims.json",
+      "sha256": "4f065cc2e6c908d0bf4bb48dbc6865a4e4ed9bf0c5c25e2d786f206a6fdbf0ed",
+      "reason": "Disambiguate the registry ID without changing a downstream-pinned proof."
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-rank-six/README.md",
+      "source_commit": "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+      "source_path": "research/ai/2026-10-23-resolvent-rank-six/README.md",
+      "sha256": "11fe5b69c2b88e009653a553d653fbfc8a0a0c81849a04f798ac7cfd4806cd23",
+      "reason": "Disambiguate the registry ID without changing a downstream-pinned proof."
+    },
+    {
+      "path": "research/ai/2026-10-23-regular-unit-image/README.md",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-regular-unit-image/README.md",
+      "sha256": "0b56106dac5bcc10057b7b014ca1e312d6431835ab1afde3530f2abe50645585",
+      "reason": "Retain current-main additions omitted by an older source branch."
+    },
+    {
+      "path": "research/ai/2026-10-23-regular-unit-image/sources.json",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-23-regular-unit-image/sources.json",
+      "sha256": "1424d11153088bd2736c34811f8e1391f55c393c4b0306974c844b6188f5e754",
+      "reason": "Retain current-main additions omitted by an older source branch."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-bundle-injectivity/ACTIVE.md",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "research/ai/2026-10-23-paired-bundle-injectivity/ACTIVE.md",
+      "sha256": "0351ce030979122a4ce52f6f419caa49ff0a2595f60b81421f75e648baf9f7a6",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-bundle-injectivity/QUESTION.md",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "research/ai/2026-10-23-paired-bundle-injectivity/QUESTION.md",
+      "sha256": "8b082f3c9759d156aca0a998153f78ee3b8a60db839c1ae0eeed87e7f8a7d9e1",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-bundle-injectivity/README.md",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "research/ai/2026-10-23-paired-bundle-injectivity/README.md",
+      "sha256": "d7e71e8c94d87acae75fb4527f8218fa366008b4dc266acee98d6525c7a5d4e1",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-bundle-injectivity/proof.md",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "research/ai/2026-10-23-paired-bundle-injectivity/proof.md",
+      "sha256": "c6d00fd0ce8807c4ad6d16beaabb155faa1ed5323552e990a99045104dfebf49",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-bundle-injectivity/sources.json",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "research/ai/2026-10-23-paired-bundle-injectivity/sources.json",
+      "sha256": "a9389cab83b62497c416ffb5278b77ef60cf9dff20365bdfd5fe07b3ad533c23",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-bundle-injectivity/verify.py",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "research/ai/2026-10-23-paired-bundle-injectivity/verify.py",
+      "sha256": "8391c9c8242452c5c85a44b36bc7d71ef68d642e8bde015d665c7af533389201",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "results/paired-bundle-injectivity-2026-10-23/certificate.json",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "results/paired-bundle-injectivity-2026-10-23/certificate.json",
+      "sha256": "ed4ce92ee1c80d5b6e2221f808fa1cd758a7f80845933af14a92d09844496f76",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "results/paired-bundle-injectivity-2026-10-23/verification.json",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "results/paired-bundle-injectivity-2026-10-23/verification.json",
+      "sha256": "9fcb5d4b8c199e48fe594d5024a0ad6e6496caa803bd189fbd76529e7e265f78",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "tests/test_paired_bundle_injectivity.py",
+      "source_commit": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_path": "tests/test_paired_bundle_injectivity.py",
+      "sha256": "53b435b6dcb3615e696f4d3eaf7c515f71c56de84ceef6fe0d77b7a2065f1c5e",
+      "reason": "Restore the independent bundle proof at its original path after a false directory-rename conflict."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/QUESTION.md",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/QUESTION.md",
+      "sha256": "3c8d1884e5ec76ff5ec56f4c3183ae800d3da96470004465a921769f4e88f62c",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/kernel_module_types.md",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/kernel_module_types.md",
+      "sha256": "ec0ffa1fdd2f1abdc60d0ccf23ab0bc7bb96ae10cd1baadea1c8f293a39f4ec6",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/kernel_representation.py",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/kernel_representation.py",
+      "sha256": "fbeaf3abc5a7a3fcc7cdb637987d3b9e6574d3a3e4b82822ab5c74b5a73890d2",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md",
+      "sha256": "55c929625935b3bdb4789c26be45681228926a131fafd58f6700bf60e1f9133a",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/rank_atlas.py",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/rank_atlas.py",
+      "sha256": "0c8a323b2d237b70cb468d8991a1affc7c1779f6b6362600464798330da97659",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/sources.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/sources.json",
+      "sha256": "e399e66ec705b256f3c4f6ef2ad8168c4eb7f1a1a61a5c5a0386238b3e348b91",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-long-legs/verify.py",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "research/ai/2026-10-23-paired-long-legs/verify.py",
+      "sha256": "c0620012e924c9cc68de381e491382aa0be806eea2ffb8ed349bc98eb7b59c61",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a2-p3.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a2-p3.json",
+      "sha256": "9e60d9c45d368c085f85c82488f427964c0641f8af460e6f32278da08176cfa5",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a3-p8.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a3-p8.json",
+      "sha256": "191d95ed85c310ca8d98cafc4f621b0a8b999d3907e550f41e45155170559ec5",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a3-p9-p14.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a3-p9-p14.json",
+      "sha256": "5b6479522889130a9afc6d2568e5906d8f5d6592951ccf0b99743e8ab5f4be6e",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json",
+      "sha256": "15036f06244c81c138e79ea1777951d8a40b7d17270a1f4ec6a11bbbca5d7195",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json",
+      "sha256": "32f249c4c867b469ede6792384ecb5417dffea3cc0374ab416cb530db0b8d43c",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7-p14.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7-p14.json",
+      "sha256": "319f9b0fa7d7c387a075e38a67ba55f04755e90f4d7c2e686eaeb8df7c7348c3",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7.json",
+      "sha256": "fec39dd60de4680277dd425ad248ba3f6d0bf85d70bb729b5fe3c2b4401fe988",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "results/paired-long-legs-2026-10-23/verification.json",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "results/paired-long-legs-2026-10-23/verification.json",
+      "sha256": "6b2f8ef854d91e523e89c4ad62d7c10ed4029d5699396be4ea07528c006a6685",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "tests/test_paired_long_legs.py",
+      "source_commit": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_path": "tests/test_paired_long_legs.py",
+      "sha256": "fef184f944098f8bc7bb61828c425b4c5979bf934cbed5fdfc8d37fdfce52eae",
+      "reason": "Restore the complete separate long-leg atlas and module-decomposition package."
+    },
+    {
+      "path": "research/ai/2026-10-23-s5-finite-covers/manifest.json",
+      "source_commit": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "source_path": "research/ai/2026-10-23-s5-finite-covers/manifest.json",
+      "sha256": "013efe85ad0e89c4f2c1004431dc8b12cd77b0d1e22dcd5eb883daad2d5fd03f",
+      "reason": "Choose the strict manifest superset, including the original validation receipt."
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "source_commit": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+      "source_path": ".github/workflows/verify.yml",
+      "sha256": "f10fae263451c15dca4ccc31dc2f8c342d71c3d230f2ba04030d1c89c5fdd6c9",
+      "reason": "Retain all eight full-suite shards, archive replay and the added required Lean build."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/verify-affected-tests-proposal.yml",
+      "source_commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "source_path": ".github/workflows/verify.yml",
+      "sha256": "976be8f93e87c95430d86dbcf69b25e81fe6e8790a09f2434118d0803131400a",
+      "reason": "Preserve the older affected-tests workflow as an inactive proposal, without adding a schedule or weakening the full gate."
+    },
+    {
+      "path": "tests/test_research.py",
+      "source_commit": null,
+      "source_path": "tests/test_research.py",
+      "sha256": "5a69504e316cd4f9d74a28e275a9635e540a69bdfe52aa8d6113c2b684d13b18",
+      "reason": "Union of assertion-regression test, exact Lean-evidence checks, and all 54 imported source IDs."
+    }
+  ],
+  "delete_after_copy": [
+    "research/ai/2026-10-23-paired-bundle-injectivity/kernel_module_types.md",
+    "research/ai/2026-10-23-paired-bundle-injectivity/kernel_representation.py",
+    "research/ai/2026-10-23-paired-bundle-injectivity/long_leg_low_degrees.md",
+    "research/ai/2026-10-23-paired-bundle-injectivity/rank_atlas.py",
+    "research/ai/2026-10-23-resolvent-rank-six-locus/QUESTION.md",
+    "results/resolvent-rank-six-locus-2026-10-23/validation.json",
+    "research/ai/2026-10-23-oblique-koszul-atlas/native-witness.json"
+  ],
+  "source_registry_ids_required": [
+    "ABZ26",
+    "AD25",
+    "AFL15",
+    "AKM10",
+    "ALMAN19",
+    "ALP26",
+    "ALPHATENSOR22",
+    "AVZ20",
+    "AVZ26",
+    "AW21",
+    "BCCGNU17",
+    "BCGPU23",
+    "BEKS13",
+    "BIGO26",
+    "BINI80",
+    "BLASER13",
+    "CKSU05",
+    "CU03",
+    "CVZ19",
+    "CVZ23",
+    "CW90",
+    "DO01",
+    "DSP16-FLANDERS",
+    "DUP26",
+    "DWZ23",
+    "FILMUS26",
+    "GROTHENDIECK61-HILBERT",
+    "JJ26",
+    "JLP24",
+    "LG14",
+    "LU26",
+    "MILNE17-ORBITS",
+    "NAGY21",
+    "NAVOT26",
+    "OAI26",
+    "PAR04",
+    "PASS26",
+    "PETROV20",
+    "RA26",
+    "RINGS26",
+    "SAWIN18",
+    "SCH81",
+    "SDW26",
+    "STACKS-DVR-FLATNESS",
+    "STACKS-PROPER-INCIDENCE",
+    "STACKS-SMOOTH-LIFTING",
+    "STO10",
+    "STR69",
+    "STR87",
+    "STR88",
+    "TAO-SAWIN-SLICE16",
+    "UZ26",
+    "VW12",
+    "VXXZ24"
+  ],
+  "preservation_notes": [
+    "All original branch commits remain in the parent integration history.",
+    "Relocated implementations keep independent certificates, verification outputs and tests.",
+    "Historical validation receipts are source evidence; they are not new final-tree validation.",
+    "Frozen initial research archives are not edited.",
+    "The rank-six proof pinned by loss-seven remains byte-identical; its alias is documented separately."
+  ]
+}

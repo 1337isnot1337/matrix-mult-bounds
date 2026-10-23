@@ -5,9 +5,21 @@ from pathlib import Path
 import sympy as s
 
 root=Path(__file__).resolve().parents[3]
-spec=importlib.util.spec_from_file_location('third_pilot',root/'research/ai/2026-10-23-conic-third-jets/pilot.py')
-p=importlib.util.module_from_spec(spec); spec.loader.exec_module(p)
-m,v=p.m,p.v
+spec=importlib.util.spec_from_file_location(
+    'conic_d0_predecessor',
+    root/'research/ai/2026-10-21-conic-second-jets/verify.py')
+v=importlib.util.module_from_spec(spec); spec.loader.exec_module(v)
+m=v.m
+
+
+def back_substitute(rows,operations,n,right):
+    answer=s.zeros(n,1)
+    for i,j,_ in reversed(operations):
+        answer[j]=(sum(rows[i].get(n+k,0)*value for k,value in enumerate(right))
+                   -sum(z*answer[k] for k,z in rows[i].items() if k<n and k!=j))
+    return answer
+
+
 sub={m.C:0,m.D:0}
 cancel=lambda matrix: matrix.applyfunc(s.cancel)
 jet=v.read('witnesses')['cubic_component_two_jet']
@@ -76,7 +88,7 @@ for coefficient,(db,dc) in zip(weights,fields):
     bs[2]+=coefficient*db; cs[2]+=coefficient*dc
 for bc,cc,Z,lift,rows,operations in systems:
     right=[1]+list(weights)
-    free=p.back_substitute(rows,operations,Z.cols,right)
+    free=back_substitute(rows,operations,Z.cols,right)
     coefficient=cancel(lift*s.Matrix(right)+Z*free)
     n=len(bc)
     for i,j in enumerate(bc):

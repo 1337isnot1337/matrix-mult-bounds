@@ -2,7 +2,6 @@
 import argparse
 import ast
 import gzip
-import importlib.util
 import json
 from itertools import product
 from pathlib import Path
@@ -13,13 +12,6 @@ ROOT = Path(__file__).resolve().parents[3]
 DEFAULT = ROOT/'results/conic-d0-cubic-2026-10-23/exact-curve.json'
 a, b, c, d = s.symbols('a b c d')
 SYMBOLS = {'a': a, 'b': b, 'c': c, 'd': d}
-SOURCE_SPEC = importlib.util.spec_from_file_location(
-    'conic_d0_literal_source',
-    ROOT/'research/ai/2026-10-23-conic-third-jets/verify.py')
-SOURCE = importlib.util.module_from_spec(SOURCE_SPEC)
-SOURCE_SPEC.loader.exec_module(SOURCE)
-
-
 def expression(text, names=('a', 'b', 'c', 'd')):
     """Parse only integer/rational polynomial arithmetic in named variables."""
     allowed = {name: SYMBOLS[name] for name in names}
@@ -86,6 +78,14 @@ def multiply(left, right):
     return {index: s.cancel(value) for index, value in result.items() if s.cancel(value)}
 
 
+def source_terms():
+    """Rebuild the canonical 4096 terms in the pinned PR101 convention."""
+    return [(28 * i + 7 * r + 6 - p - q,
+             28 * p + 7 * j + 6 - s_ - r,
+             28 * s_ + 7 * q + 6 - i - j)
+            for i, j, p, q, s_, r in product(range(4), repeat=6)]
+
+
 def contract(left, right, terms):
     byleft, byright = {}, {}
     for (i, j), value in left.items():
@@ -136,7 +136,7 @@ def verify(record):
             if add(maps[order], {(i, j): -value for (i, j), value in credited.items()}):
                 raise ValueError(f'changed credited {key}{order} coefficient')
 
-    terms = SOURCE.source_terms()
+    terms = source_terms()
     if len(terms) != 4096:
         raise ValueError('wrong literal source term count')
     first = [28 * i + 7 * j + z for i, j, z in product((1, 2), (1, 2), (0, 3, 6))]

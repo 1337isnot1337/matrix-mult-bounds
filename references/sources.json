@@ -1,28 +1,363 @@
-{"snapshot_date": "2026-10-20", "scope": "Curated starting map, not exhaustive. Inspection levels are explicit.",
+{
+  "snapshot_date": "2026-10-20",
+  "scope": "Curated starting map, not exhaustive. Inspection levels are explicit.",
   "sources": [
-    {"id": "ABZ26", "title": "Multiplying matrices via polynomials: exposition and barriers", "authors": ["Alimzhan Amanov", "Maxim van den Berg", "Jeroen Zuiddam"], "year": 2026, "url": "https://arxiv.org/html/2610.30054v1", "category": "barriers", "inspection": "Primary v1 HTML: Theorems 1.1, 1.2 and 5.4, Definitions 5.1-5.5, and Propositions 5.7-5.9. Formal-expression conventions and monotonicity scope inspected.", "annotation": "External operational barrier for the stated polynomial-degeneration calculus. It is not a lower bound for unrestricted matrix multiplication or an invariant of arbitrary tensors. The paired-repair package records a local specialization and its consequences.", "version_note": "arXiv:2610.30054v1, submitted October 21, 2026. External monotonicity theorem imported without a local formalization.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "STR69", "title": "Gaussian elimination is not optimal", "authors": ["Volker Strassen"], "year": 1969, "url": "https://doi.org/10.1007/BF02165411", "category": "foundations", "inspection": "Publisher metadata; cited by OAI26", "annotation": "The seven-product construction starts the subcubic recursion approach. This is a finite algorithm, unlike an existence-only exponent statement.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "BINI80", "title": "Relations between exact and approximate bilinear algorithms. Applications", "authors": ["Dario Bini"], "year": 1980, "url": "https://doi.org/10.1007/BF02575865", "category": "foundations", "inspection": "Bibliographic entry and use in OAI26", "annotation": "Interpolation connects approximate bilinear constructions to exact asymptotic algorithms. The original article was not reviewed in full during initialization.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "SCH81", "title": "Partial and total matrix multiplication", "authors": ["Arnold Schonhage"], "year": 1981, "url": "https://doi.org/10.1137/0210032", "category": "foundations", "inspection": "Bibliographic entry and use in OAI26", "annotation": "The asymptotic sum inequality connects simultaneous independent matrix products to exponent bounds.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "STR87", "title": "Relative bilinear complexity and matrix multiplication", "authors": ["Volker Strassen"], "year": 1987, "url": "https://doi.org/10.1515/crll.1987.375-376.406", "category": "foundations", "inspection": "Bibliographic entry and use in OAI26", "annotation": "A foundational source for the tensor-power and laser-method framework.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "STR88", "title": "The asymptotic spectrum of tensors", "authors": ["Volker Strassen"], "year": 1988, "url": "https://doi.org/10.1515/crll.1988.384.102", "category": "spectrum", "inspection": "Bibliographic entry and use in OAI26", "annotation": "Spectral points encode asymptotic tensor comparisons through additive, multiplicative, monotone numerical invariants.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "CW90", "title": "Matrix multiplication via arithmetic progressions", "authors": ["Don Coppersmith", "Shmuel Winograd"], "year": 1990, "url": "https://doi.org/10.1016/S0747-7171(08)80013-2", "category": "laser", "inspection": "Bibliographic entry and use in OAI26", "annotation": "Auxiliary tensors and progression-free sets underpin the later Coppersmith-Winograd tensor analyses.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "STO10", "title": "On the complexity of matrix multiplication", "authors": ["Andrew James Stothers"], "year": 2010, "url": "https://hdl.handle.net/1842/4734", "category": "laser", "inspection": "Bibliographic entry in OAI26", "annotation": "A doctoral thesis on higher-power analysis. The thesis itself was not reviewed in full during initialization.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "VW12", "title": "Multiplying matrices faster than Coppersmith-Winograd", "authors": ["Virginia Vassilevska Williams"], "year": 2012, "url": "https://doi.org/10.1145/2213977.2214056", "category": "laser", "inspection": "Bibliographic entry and historical discussion in OAI26", "annotation": "A higher-power analysis in the classical exponent-improvement sequence.", "version_note": "OAI26 also cites the expanded corrected author version, dated July 1, 2014.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "BLASER13", "title": "Fast Matrix Multiplication", "authors": ["Markus Blaser"], "year": 2013, "url": "https://theoryofcomputing.org/articles/gs005/", "category": "survey", "inspection": "Publisher page and abstract", "annotation": "A self-contained entry point for bilinear algorithms, tensors, and historical methods. It predates the later records.", "version_note": "Theory of Computing Graduate Surveys 5; DOI 10.4086/toc.gs.2013.005.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "LG14", "title": "Powers of Tensors and Fast Matrix Multiplication", "authors": ["Francois Le Gall"], "year": 2014, "url": "https://arxiv.org/abs/1401.7714", "category": "laser", "inspection": "Primary abstract and OAI26 bibliography", "annotation": "Convex optimization of tensor-power analysis gives omega < 2.3728639.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "AW21", "title": "A Refined Laser Method and Faster Matrix Multiplication", "authors": ["Josh Alman", "Virginia Vassilevska Williams"], "year": 2021, "url": "https://arxiv.org/abs/2010.05846", "category": "laser", "inspection": "Primary abstract and publisher metadata", "annotation": "A refined component-extraction analysis gives omega < 2.37286.", "version_note": "Preprint 2020; SODA 2021; TheoretiCS journal version 2024, DOI 10.46298/theoretics.24.21.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "DWZ23", "title": "Faster Matrix Multiplication via Asymmetric Hashing", "authors": ["Ran Duan", "Hongxun Wu", "Renfei Zhou"], "year": 2023, "url": "https://arxiv.org/abs/2210.10173v5", "category": "laser", "inspection": "Primary abstract and version history", "annotation": "Combination-loss analysis and asymmetric hashing give omega < 2.371866.", "version_note": "Preprint 2022; v5 November 28, 2023; FOCS 2023.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "VXXZ24", "title": "New Bounds for Matrix Multiplication: from Alpha to Omega", "authors": ["Virginia Vassilevska Williams", "Yinzhan Xu", "Zixuan Xu", "Renfei Zhou"], "year": 2024, "url": "https://arxiv.org/abs/2307.07970", "category": "laser", "inspection": "Primary abstract", "annotation": "Further analysis gives omega <= 2.371552 and improvements for rectangular products.", "version_note": "Preprint July 2023; SODA 2024.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "AD25", "title": "More Asymmetry Yields Faster Matrix Multiplication", "authors": ["Josh Alman", "Ran Duan", "Virginia Vassilevska Williams", "Yinzhan Xu", "Zixuan Xu", "Renfei Zhou"], "year": 2025, "url": "https://arxiv.org/abs/2404.16349v2", "category": "laser", "inspection": "Primary abstracts, version history, and publisher metadata", "annotation": "The pre-Dupont analysis gives omega < 2.371339. Later numerical improvements must be credited separately.", "version_note": "v2 October 20, 2024; SODA 2025. v3 August 19, 2026 incorporates the 2.371177 bound credited to DUP26.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "DUP26", "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve", "authors": ["Emilien Dupont", "Marvin Eisenberger", "Borislav Kozlovskii", "Abbas Mehrabian", "Francisco J. R. Ruiz", "Abigail See", "Renfei Zhou", "Josh Alman", "Virginia Vassilevska Williams", "Matej Balog"], "year": 2026, "url": "https://arxiv.org/abs/2608.16884", "category": "laser", "inspection": "Primary manuscript text and abstract", "annotation": "Optimization within the combination-loss framework yields omega < 2.371177. The paper includes rigorous certification of the numerical bound.", "version_note": "Submitted August 17, 2026. This is the pre-9/4 comparison bound, not the current listed record.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "OAI26", "title": "An Upper Bound of 9/4 for the Matrix Multiplication Exponent", "authors": ["OpenAI"], "year": 2026, "url": "https://github.com/openai/math/blob/main/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/build/paper.tex", "category": "shared-leg", "inspection": "Primary TeX inspected; matching PDF pages visually inspected", "annotation": "The complex-field 9/4 theorem uses shared-leg separation, convolution inequalities, and a discrete-growth argument. This is external work.", "version_note": "Paper dated October 2, 2026. Inspected TeX Git blob: 4492e66c707b9329f763c46e7cc113ff21d2edc0. Main-branch links can change.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "UZ26", "title": "Rectangular matrix multiplication from polynomial products", "authors": ["Przemyslaw Uznanski"], "year": 2026, "url": "https://arxiv.org/abs/2610.10494v2", "category": "shared-leg", "inspection": "Primary manuscript and version history", "annotation": "The rectangular curve gives alpha >= 1/2 and returns 9/4 at the square shape. It does not lower the square exponent.", "version_note": "v1 October 7, 2026 had the title Rectangular matrix multiplication from shared-leg entropy. v2 October 11. Author discloses GPT-6.1/Codex derivation and his review/responsibility.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "LU26", "title": "Polynomial Separation of a Shared Tensor Leg and Matrix Multiplication in Arbitrary Characteristic", "authors": ["Houxi Lu"], "year": 2026, "url": "https://arxiv.org/abs/2610.18914", "category": "shared-leg", "inspection": "Primary manuscript text", "annotation": "Polynomial separation uses M+n-1 source copies; n=M gives 2M-1 rather than 5M. It retains the 9/4 exponent.", "version_note": "Manuscript dated October 9, 2026; submitted October 12. Enough distinct field elements are required before extension to an algebraic closure.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "CVZ23", "title": "Universal points in the asymptotic spectrum of tensors", "authors": ["Matthias Christandl", "Peter Vrana", "Jeroen Zuiddam"], "year": 2023, "url": "https://arxiv.org/abs/1709.07851", "category": "spectrum", "inspection": "Primary abstract and OAI26 bibliography", "annotation": "Constructs universal spectral points and relates tensor asymptotics to quantum functionals.", "version_note": "Preprint 2017; JAMS 36 (2023), 31-79; DOI 10.1090/jams/996.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "CU03", "title": "A group-theoretic approach to fast matrix multiplication", "authors": ["Henry Cohn", "Christopher Umans"], "year": 2003, "url": "https://arxiv.org/abs/math/0307321", "category": "group-theoretic", "inspection": "Primary abstract", "annotation": "Embeds matrix multiplication into group algebras. This is an alternative construction framework, not a proof that omega equals two.", "version_note": "", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "AFL15", "title": "Fast Matrix Multiplication: Limitations of the Laser Method", "authors": ["Andris Ambainis", "Yuval Filmus", "Francois Le Gall"], "year": 2015, "url": "https://arxiv.org/abs/1411.5414", "category": "barriers", "inspection": "Primary manuscript and abstract", "annotation": "Proves limitations for specified laser-method analyses. Such limitations are not lower bounds on unrestricted matrix multiplication.", "version_note": "Preprint November 2014; conference publication 2015.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "ALMAN19", "title": "Limits on the Universal Method for Matrix Multiplication", "authors": ["Josh Alman"], "year": 2019, "url": "https://arxiv.org/abs/1812.08731", "category": "barriers", "inspection": "Primary abstract and proceedings metadata", "annotation": "The universal method on Coppersmith-Winograd tensors cannot yield an exponent below 2.16805. The tensor and method restrictions are essential.", "version_note": "Preprint 2018; CCC 2019, DOI 10.4230/LIPIcs.CCC.2019.12.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
+    {
+      "id": "STR69",
+      "title": "Gaussian elimination is not optimal",
+      "authors": [
+        "Volker Strassen"
+      ],
+      "year": 1969,
+      "url": "https://doi.org/10.1007/BF02165411",
+      "category": "foundations",
+      "inspection": "Publisher metadata; cited by OAI26",
+      "annotation": "The seven-product construction starts the subcubic recursion approach. This is a finite algorithm, unlike an existence-only exponent statement.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "BINI80",
+      "title": "Relations between exact and approximate bilinear algorithms. Applications",
+      "authors": [
+        "Dario Bini"
+      ],
+      "year": 1980,
+      "url": "https://doi.org/10.1007/BF02575865",
+      "category": "foundations",
+      "inspection": "Bibliographic entry and use in OAI26",
+      "annotation": "Interpolation connects approximate bilinear constructions to exact asymptotic algorithms. The original article was not reviewed in full during initialization.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "SCH81",
+      "title": "Partial and total matrix multiplication",
+      "authors": [
+        "Arnold Schonhage"
+      ],
+      "year": 1981,
+      "url": "https://doi.org/10.1137/0210032",
+      "category": "foundations",
+      "inspection": "Bibliographic entry and use in OAI26",
+      "annotation": "The asymptotic sum inequality connects simultaneous independent matrix products to exponent bounds.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "STR87",
+      "title": "Relative bilinear complexity and matrix multiplication",
+      "authors": [
+        "Volker Strassen"
+      ],
+      "year": 1987,
+      "url": "https://doi.org/10.1515/crll.1987.375-376.406",
+      "category": "foundations",
+      "inspection": "Bibliographic entry and use in OAI26",
+      "annotation": "A foundational source for the tensor-power and laser-method framework.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "STR88",
+      "title": "The asymptotic spectrum of tensors",
+      "authors": [
+        "Volker Strassen"
+      ],
+      "year": 1988,
+      "url": "https://doi.org/10.1515/crll.1988.384.102",
+      "category": "spectrum",
+      "inspection": "Bibliographic entry and use in OAI26",
+      "annotation": "Spectral points encode asymptotic tensor comparisons through additive, multiplicative, monotone numerical invariants.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "CW90",
+      "title": "Matrix multiplication via arithmetic progressions",
+      "authors": [
+        "Don Coppersmith",
+        "Shmuel Winograd"
+      ],
+      "year": 1990,
+      "url": "https://doi.org/10.1016/S0747-7171(08)80013-2",
+      "category": "laser",
+      "inspection": "Bibliographic entry and use in OAI26",
+      "annotation": "Auxiliary tensors and progression-free sets underpin the later Coppersmith-Winograd tensor analyses.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "STO10",
+      "title": "On the complexity of matrix multiplication",
+      "authors": [
+        "Andrew James Stothers"
+      ],
+      "year": 2010,
+      "url": "https://hdl.handle.net/1842/4734",
+      "category": "laser",
+      "inspection": "Bibliographic entry in OAI26",
+      "annotation": "A doctoral thesis on higher-power analysis. The thesis itself was not reviewed in full during initialization.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "VW12",
+      "title": "Multiplying matrices faster than Coppersmith-Winograd",
+      "authors": [
+        "Virginia Vassilevska Williams"
+      ],
+      "year": 2012,
+      "url": "https://doi.org/10.1145/2213977.2214056",
+      "category": "laser",
+      "inspection": "Bibliographic entry and historical discussion in OAI26",
+      "annotation": "A higher-power analysis in the classical exponent-improvement sequence.",
+      "version_note": "OAI26 also cites the expanded corrected author version, dated July 1, 2014.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "BLASER13",
+      "title": "Fast Matrix Multiplication",
+      "authors": [
+        "Markus Blaser"
+      ],
+      "year": 2013,
+      "url": "https://theoryofcomputing.org/articles/gs005/",
+      "category": "survey",
+      "inspection": "Publisher page and abstract",
+      "annotation": "A self-contained entry point for bilinear algorithms, tensors, and historical methods. It predates the later records.",
+      "version_note": "Theory of Computing Graduate Surveys 5; DOI 10.4086/toc.gs.2013.005.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "LG14",
+      "title": "Powers of Tensors and Fast Matrix Multiplication",
+      "authors": [
+        "Francois Le Gall"
+      ],
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1401.7714",
+      "category": "laser",
+      "inspection": "Primary abstract and OAI26 bibliography",
+      "annotation": "Convex optimization of tensor-power analysis gives omega < 2.3728639.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "AW21",
+      "title": "A Refined Laser Method and Faster Matrix Multiplication",
+      "authors": [
+        "Josh Alman",
+        "Virginia Vassilevska Williams"
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2010.05846",
+      "category": "laser",
+      "inspection": "Primary abstract and publisher metadata",
+      "annotation": "A refined component-extraction analysis gives omega < 2.37286.",
+      "version_note": "Preprint 2020; SODA 2021; TheoretiCS journal version 2024, DOI 10.46298/theoretics.24.21.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "DWZ23",
+      "title": "Faster Matrix Multiplication via Asymmetric Hashing",
+      "authors": [
+        "Ran Duan",
+        "Hongxun Wu",
+        "Renfei Zhou"
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2210.10173v5",
+      "category": "laser",
+      "inspection": "Primary abstract and version history",
+      "annotation": "Combination-loss analysis and asymmetric hashing give omega < 2.371866.",
+      "version_note": "Preprint 2022; v5 November 28, 2023; FOCS 2023.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "VXXZ24",
+      "title": "New Bounds for Matrix Multiplication: from Alpha to Omega",
+      "authors": [
+        "Virginia Vassilevska Williams",
+        "Yinzhan Xu",
+        "Zixuan Xu",
+        "Renfei Zhou"
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2307.07970",
+      "category": "laser",
+      "inspection": "Primary abstract",
+      "annotation": "Further analysis gives omega <= 2.371552 and improvements for rectangular products.",
+      "version_note": "Preprint July 2023; SODA 2024.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "AD25",
+      "title": "More Asymmetry Yields Faster Matrix Multiplication",
+      "authors": [
+        "Josh Alman",
+        "Ran Duan",
+        "Virginia Vassilevska Williams",
+        "Yinzhan Xu",
+        "Zixuan Xu",
+        "Renfei Zhou"
+      ],
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2404.16349v2",
+      "category": "laser",
+      "inspection": "Primary abstracts, version history, and publisher metadata",
+      "annotation": "The pre-Dupont analysis gives omega < 2.371339. Later numerical improvements must be credited separately.",
+      "version_note": "v2 October 20, 2024; SODA 2025. v3 August 19, 2026 incorporates the 2.371177 bound credited to DUP26.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "DUP26",
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "authors": [
+        "Emilien Dupont",
+        "Marvin Eisenberger",
+        "Borislav Kozlovskii",
+        "Abbas Mehrabian",
+        "Francisco J. R. Ruiz",
+        "Abigail See",
+        "Renfei Zhou",
+        "Josh Alman",
+        "Virginia Vassilevska Williams",
+        "Matej Balog"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.16884",
+      "category": "laser",
+      "inspection": "Primary manuscript text and abstract",
+      "annotation": "Optimization within the combination-loss framework yields omega < 2.371177. The paper includes rigorous certification of the numerical bound.",
+      "version_note": "Submitted August 17, 2026. This is the pre-9/4 comparison bound, not the current listed record.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "OAI26",
+      "title": "An Upper Bound of 9/4 for the Matrix Multiplication Exponent",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2026,
+      "url": "https://github.com/openai/math/blob/main/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/build/paper.tex",
+      "category": "shared-leg",
+      "inspection": "Primary TeX inspected; matching PDF pages visually inspected",
+      "annotation": "The complex-field 9/4 theorem uses shared-leg separation, convolution inequalities, and a discrete-growth argument. This is external work.",
+      "version_note": "Paper dated October 2, 2026. Inspected TeX Git blob: 4492e66c707b9329f763c46e7cc113ff21d2edc0. Main-branch links can change.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "UZ26",
+      "title": "Rectangular matrix multiplication from polynomial products",
+      "authors": [
+        "Przemyslaw Uznanski"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.10494v2",
+      "category": "shared-leg",
+      "inspection": "Primary manuscript and version history",
+      "annotation": "The rectangular curve gives alpha >= 1/2 and returns 9/4 at the square shape. It does not lower the square exponent.",
+      "version_note": "v1 October 7, 2026 had the title Rectangular matrix multiplication from shared-leg entropy. v2 October 11. Author discloses GPT-6.1/Codex derivation and his review/responsibility.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "LU26",
+      "title": "Polynomial Separation of a Shared Tensor Leg and Matrix Multiplication in Arbitrary Characteristic",
+      "authors": [
+        "Houxi Lu"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18914",
+      "category": "shared-leg",
+      "inspection": "Primary manuscript text",
+      "annotation": "Polynomial separation uses M+n-1 source copies; n=M gives 2M-1 rather than 5M. It retains the 9/4 exponent.",
+      "version_note": "Manuscript dated October 9, 2026; submitted October 12. Enough distinct field elements are required before extension to an algebraic closure.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "CVZ23",
+      "title": "Universal points in the asymptotic spectrum of tensors",
+      "authors": [
+        "Matthias Christandl",
+        "Peter Vrana",
+        "Jeroen Zuiddam"
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/1709.07851",
+      "category": "spectrum",
+      "inspection": "Primary abstract and OAI26 bibliography",
+      "annotation": "Constructs universal spectral points and relates tensor asymptotics to quantum functionals.",
+      "version_note": "Preprint 2017; JAMS 36 (2023), 31-79; DOI 10.1090/jams/996.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "CU03",
+      "title": "A group-theoretic approach to fast matrix multiplication",
+      "authors": [
+        "Henry Cohn",
+        "Christopher Umans"
+      ],
+      "year": 2003,
+      "url": "https://arxiv.org/abs/math/0307321",
+      "category": "group-theoretic",
+      "inspection": "Primary abstract",
+      "annotation": "Embeds matrix multiplication into group algebras. This is an alternative construction framework, not a proof that omega equals two.",
+      "version_note": "",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "AFL15",
+      "title": "Fast Matrix Multiplication: Limitations of the Laser Method",
+      "authors": [
+        "Andris Ambainis",
+        "Yuval Filmus",
+        "Francois Le Gall"
+      ],
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1411.5414",
+      "category": "barriers",
+      "inspection": "Primary manuscript and abstract",
+      "annotation": "Proves limitations for specified laser-method analyses. Such limitations are not lower bounds on unrestricted matrix multiplication.",
+      "version_note": "Preprint November 2014; conference publication 2015.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "ALMAN19",
+      "title": "Limits on the Universal Method for Matrix Multiplication",
+      "authors": [
+        "Josh Alman"
+      ],
+      "year": 2019,
+      "url": "https://arxiv.org/abs/1812.08731",
+      "category": "barriers",
+      "inspection": "Primary abstract and proceedings metadata",
+      "annotation": "The universal method on Coppersmith-Winograd tensors cannot yield an exponent below 2.16805. The tensor and method restrictions are essential.",
+      "version_note": "Preprint 2018; CCC 2019, DOI 10.4230/LIPIcs.CCC.2019.12.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
     {
       "id": "BCCGNU17",
       "title": "On cap sets and the group-theoretic approach to matrix multiplication",
@@ -44,15 +379,151 @@
       "accessed": "2026-10-21",
       "proof_rebuilt_locally": false
     },
-    {"id": "BCGPU23", "title": "Matrix multiplication via matrix groups", "authors": ["Jonah Blasiak", "Henry Cohn", "Joshua A. Grochow", "Kevin Pratt", "Chris Umans"], "year": 2023, "url": "https://arxiv.org/abs/2204.03826", "category": "group-theoretic", "inspection": "Primary abstract and proceedings metadata", "annotation": "Investigates matrix-group constructions and limitations, including continuous analogues.", "version_note": "Preprint 2022; ITCS 2023, DOI 10.4230/LIPIcs.ITCS.2023.19.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "ALPHATENSOR22", "title": "Discovering faster matrix multiplication algorithms with reinforcement learning", "authors": ["Alhussein Fawzi", "others"], "year": 2022, "url": "https://www.nature.com/articles/s41586-022-05172-4", "category": "finite-algorithms", "inspection": "Primary article", "annotation": "AlphaTensor searches for finite bilinear algorithms. A small-tensor improvement or hardware benchmark is not automatically an asymptotic exponent record.", "version_note": "Nature 610, 47-53. Full author list is available at the source; the bibliography uses et al.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "NAVOT26", "title": "Matrix multiplication over arbitrary fields", "authors": ["Sela Navot (project direction)", "GPT-6 Astra and GPT-6.1 Sol (disclosed proof generation)"], "year": 2026, "url": "https://github.com/selanavot/matrix-multiplication-all-fields", "category": "formalization", "inspection": "Repository README and disclosed verification record", "annotation": "Extends the OpenAI theorem to every field using characteristic-sensitive separation and fixed-overhead descent. External authors report Lean verification.", "version_note": "Upstream baseline adc7f1241b42e322a6451854ab7e4b4c146bf78a. Archived release DOI 10.5281/zenodo.23219128. No local rebuild here.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "RINGS26", "title": "Rectangular matrix multiplication over arbitrary rings: exponent 9/4", "authors": ["Hugin-Hilbert repository maintainers"], "year": 2026, "url": "https://github.com/Hugin-Hilbert/rectangular-matmul-rings", "category": "formalization", "inspection": "Repository README", "annotation": "Extends the rectangular curve to associative rings, including noncommutative and nonunital rings. It explicitly credits UZ26 for the curve.", "version_note": "Inspected README blob f9fc18814ac14dc41cfb5785b439b30f9a910d21. Reported publication check October 14, 2026. No local Lean rebuild.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "FILMUS26", "title": "Matrix multiplication from block identities", "authors": ["Yuval Filmus repository; consult source for contribution details"], "year": 2026, "url": "https://github.com/YuvalFilmus/matrix-multiplication-block-identities", "category": "formalization", "inspection": "Repository README and theorem table", "annotation": "Gives a block-identities route with square and rectangular formalizations over every field. It reuses identified Navot/OpenAI APIs and credits UZ26.", "version_note": "Inspected README blob 06cab6441f44afd899d7e7586f3134abdf20ff71. Formal polynomial and finite-field functional correctness are distinguished. No local Lean rebuild.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "BIGO26", "title": "Big O Speedrun: Matrix Multiplication", "authors": ["Big O Speedrun"], "year": 2026, "url": "https://bigospeedrun.com/matrix-multiplication", "category": "status", "inspection": "Leaderboard and exact problem description", "annotation": "Lists OpenAI at 2.25 with a Lean Verified label. This is a status source, not an independent proof by this repository.", "version_note": "Data updated October 20, 2026 at 9:17 AM PT; site says its proof check was October 10 at 10:45 PM PT.", "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "RA26", "title": "Matrix multiplication: a barrier for symmetrized sector inequalities", "authors": ["Rohan Arun repository; disclosed AI-generated draft"], "url": "https://github.com/rohanarun/matrix-multiplication-sector-barrier/blob/0b09d3616da31d8750366747d7821d70ae6d1b90/proof.tex", "category": "method-barrier", "inspection": "Sections 4 and 5 at the pinned main and PR revisions in docs/external_followups.md", "annotation": "Earlier matching-profile result; no exponent improvement.", "version_note": "Main 0b09d3616da31d8750366747d7821d70ae6d1b90; least-profile commit 5a759558440672e69641547743bde3cf6d6ae50f, October 10. External tests not run.", "year": 2026, "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "SDW26", "title": "Strassen's support functionals coincide with the quantum functionals", "authors": ["Keiya Sakabe", "M. Levent Dogan", "Michael Walter"], "url": "https://arxiv.org/html/2601.21553v1", "category": "spectrum", "inspection": "Theorem 1.1 and its complex-field setting", "annotation": "Equality of the two functional families, not classification of the full spectrum.", "version_note": "arXiv:2601.21553v1.", "year": 2026, "accessed": "2026-10-20", "proof_rebuilt_locally": false},
-    {"id": "ALP26", "title": "The edge of the asymptotic spectrum of tensors", "authors": ["Josh Alman", "Baitian Li", "Kevin Pratt"], "url": "https://arxiv.org/html/2604.01386v2", "category": "spectrum", "inspection": "Theorems 1.6 and 6.2; Corollaries 8.8-8.10", "annotation": "Classifies the boundary with one dot-product exponent one; gives Harder-Narasimhan and matrix-extraction descriptions.", "version_note": "v2, September 27, 2026. The compression theorem assumes an infinite field; the edge classification applies over arbitrary fields.", "year": 2026, "accessed": "2026-10-20", "proof_rebuilt_locally": false},
+    {
+      "id": "BCGPU23",
+      "title": "Matrix multiplication via matrix groups",
+      "authors": [
+        "Jonah Blasiak",
+        "Henry Cohn",
+        "Joshua A. Grochow",
+        "Kevin Pratt",
+        "Chris Umans"
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2204.03826",
+      "category": "group-theoretic",
+      "inspection": "Primary abstract and proceedings metadata",
+      "annotation": "Investigates matrix-group constructions and limitations, including continuous analogues.",
+      "version_note": "Preprint 2022; ITCS 2023, DOI 10.4230/LIPIcs.ITCS.2023.19.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "ALPHATENSOR22",
+      "title": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+      "authors": [
+        "Alhussein Fawzi",
+        "others"
+      ],
+      "year": 2022,
+      "url": "https://www.nature.com/articles/s41586-022-05172-4",
+      "category": "finite-algorithms",
+      "inspection": "Primary article",
+      "annotation": "AlphaTensor searches for finite bilinear algorithms. A small-tensor improvement or hardware benchmark is not automatically an asymptotic exponent record.",
+      "version_note": "Nature 610, 47-53. Full author list is available at the source; the bibliography uses et al.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "NAVOT26",
+      "title": "Matrix multiplication over arbitrary fields",
+      "authors": [
+        "Sela Navot (project direction)",
+        "GPT-6 Astra and GPT-6.1 Sol (disclosed proof generation)"
+      ],
+      "year": 2026,
+      "url": "https://github.com/selanavot/matrix-multiplication-all-fields",
+      "category": "formalization",
+      "inspection": "Repository README and disclosed verification record",
+      "annotation": "Extends the OpenAI theorem to every field using characteristic-sensitive separation and fixed-overhead descent. External authors report Lean verification.",
+      "version_note": "Upstream baseline adc7f1241b42e322a6451854ab7e4b4c146bf78a. Archived release DOI 10.5281/zenodo.23219128. No local rebuild here.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "RINGS26",
+      "title": "Rectangular matrix multiplication over arbitrary rings: exponent 9/4",
+      "authors": [
+        "Hugin-Hilbert repository maintainers"
+      ],
+      "year": 2026,
+      "url": "https://github.com/Hugin-Hilbert/rectangular-matmul-rings",
+      "category": "formalization",
+      "inspection": "Repository README",
+      "annotation": "Extends the rectangular curve to associative rings, including noncommutative and nonunital rings. It explicitly credits UZ26 for the curve.",
+      "version_note": "Inspected README blob f9fc18814ac14dc41cfb5785b439b30f9a910d21. Reported publication check October 14, 2026. No local Lean rebuild.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "FILMUS26",
+      "title": "Matrix multiplication from block identities",
+      "authors": [
+        "Yuval Filmus repository; consult source for contribution details"
+      ],
+      "year": 2026,
+      "url": "https://github.com/YuvalFilmus/matrix-multiplication-block-identities",
+      "category": "formalization",
+      "inspection": "Repository README and theorem table",
+      "annotation": "Gives a block-identities route with square and rectangular formalizations over every field. It reuses identified Navot/OpenAI APIs and credits UZ26.",
+      "version_note": "Inspected README blob 06cab6441f44afd899d7e7586f3134abdf20ff71. Formal polynomial and finite-field functional correctness are distinguished. No local Lean rebuild.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "BIGO26",
+      "title": "Big O Speedrun: Matrix Multiplication",
+      "authors": [
+        "Big O Speedrun"
+      ],
+      "year": 2026,
+      "url": "https://bigospeedrun.com/matrix-multiplication",
+      "category": "status",
+      "inspection": "Leaderboard and exact problem description",
+      "annotation": "Lists OpenAI at 2.25 with a Lean Verified label. This is a status source, not an independent proof by this repository.",
+      "version_note": "Data updated October 20, 2026 at 9:17 AM PT; site says its proof check was October 10 at 10:45 PM PT.",
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "RA26",
+      "title": "Matrix multiplication: a barrier for symmetrized sector inequalities",
+      "authors": [
+        "Rohan Arun repository; disclosed AI-generated draft"
+      ],
+      "url": "https://github.com/rohanarun/matrix-multiplication-sector-barrier/blob/0b09d3616da31d8750366747d7821d70ae6d1b90/proof.tex",
+      "category": "method-barrier",
+      "inspection": "Sections 4 and 5 at the pinned main and PR revisions in docs/external_followups.md",
+      "annotation": "Earlier matching-profile result; no exponent improvement.",
+      "version_note": "Main 0b09d3616da31d8750366747d7821d70ae6d1b90; least-profile commit 5a759558440672e69641547743bde3cf6d6ae50f, October 10. External tests not run.",
+      "year": 2026,
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "SDW26",
+      "title": "Strassen's support functionals coincide with the quantum functionals",
+      "authors": [
+        "Keiya Sakabe",
+        "M. Levent Dogan",
+        "Michael Walter"
+      ],
+      "url": "https://arxiv.org/html/2601.21553v1",
+      "category": "spectrum",
+      "inspection": "Theorem 1.1 and its complex-field setting",
+      "annotation": "Equality of the two functional families, not classification of the full spectrum.",
+      "version_note": "arXiv:2601.21553v1.",
+      "year": 2026,
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "ALP26",
+      "title": "The edge of the asymptotic spectrum of tensors",
+      "authors": [
+        "Josh Alman",
+        "Baitian Li",
+        "Kevin Pratt"
+      ],
+      "url": "https://arxiv.org/html/2604.01386v2",
+      "category": "spectrum",
+      "inspection": "Theorems 1.6 and 6.2; Corollaries 8.8-8.10",
+      "annotation": "Classifies the boundary with one dot-product exponent one; gives Harder-Narasimhan and matrix-extraction descriptions.",
+      "version_note": "v2, September 27, 2026. The compression theorem assumes an infinite field; the edge classification applies over arbitrary fields.",
+      "year": 2026,
+      "accessed": "2026-10-20",
+      "proof_rebuilt_locally": false
+    },
     {
       "id": "TAO-SAWIN-SLICE16",
       "title": "Notes on the slice rank of tensors",
@@ -133,18 +604,296 @@
       "accessed": "2026-10-21",
       "proof_rebuilt_locally": false
     },
-    {"id": "DSP16-FLANDERS", "title": "Large spaces of bounded rank matrices revisited", "authors": ["Clement de Seguins Pazzis"], "year": 2016, "url": "https://arxiv.org/abs/1507.05375v2", "category": "matrix-space-rank", "inspection": "Primary v2 PDF section1.1 and Theorem1.1, pages1-4, inspected October21,2026", "annotation": "Arbitrary-field bounded-rank matrix-space dimension bound dim U <= m r for square matrices. Flanders and Meshulam retain external credit. The finite split-cover note reduces SR(M_m)=m^2 over every field to this dimension theorem.", "version_note": "arXiv:1507.05375v2, April20,2016.", "accessed": "2026-10-21", "proof_rebuilt_locally": false},
-    {"id": "AVZ26", "title": "Multiplying matrices via polynomials: exposition and barriers", "authors": ["Alimzhan Amanov", "Maxim van den Berg", "Jeroen Zuiddam"], "year": 2026, "url": "https://arxiv.org/html/2610.30054v1", "category": "barriers", "inspection": "Primary HTML Definitions 5.1-5.5, Proposition 5.7, Proposition 5.8 and its concavity proof, equations (5.3) and (5.7), Theorem 5.4.", "annotation": "An operational potential obstructs improvements from a specified polynomial degeneration system. The potential is defined on formal expressions, not on all tensors.", "version_note": "arXiv:2610.30054v1, dated October 21, 2026.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "PASS26", "title": "Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of omega <= 9/4", "authors": ["Rafael Pass"], "year": 2026, "url": "https://arxiv.org/html/2610.28627v1", "category": "shared-leg", "inspection": "Primary HTML Lemmas 2.4 and 2.5 with encoding, decoding and transpose conventions.", "annotation": "The primal and dual polynomial packings use c sources to produce c+2 shared-first-leg outputs under c*t >= a+2*b-1.", "version_note": "arXiv:2610.28627v1, dated October 20, 2026.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "DO01", "title": "The Binet-Cauchy Theorem for the Hyperdeterminant of boundary format multidimensional Matrices", "authors": ["Carla Dionisi", "Giorgio Ottaviani"], "year": 2001, "url": "https://arxiv.org/pdf/math/0104281v1", "category": "tensor-degenerations", "inspection": "Primary PDF Sections 2-3, Definition 2.1 and Theorem 3.1, including the exact symmetric-power map and complex field convention.", "version_note": "arXiv:math/0104281v1, April 29, 2001; published in Journal of Algebra 259 (2003), 87-94.", "hypotheses": "Complex spaces dim V_i=k_i+1; boundary format k_0=sum_{i>0}k_i. Nondegenerate means the associated map on nonzero decomposable vectors has no zero. The natural critical map has nonzero determinant exactly in that case.", "local_instantiation": "V_0=C, V_1=B, V_2=A; k_0=a+b-2, k_1=b-1, k_2=a-1; m_1=0, m_2=b-1. Polynomial multiplication is nondegenerate. Cases a=1 or b=1 are proved directly.", "proof_rebuilt_locally": false, "accessed": "2026-10-23"},
-    {"id": "BEKS13", "title": "Tensor complexes: Multilinear free resolutions constructed from higher tensors", "authors": ["Christine Berkesch Zamaere", "Daniel Erman", "Manoj Kummini", "Steven V Sam"], "year": 2013, "url": "https://arxiv.org/abs/1101.4604v5", "category": "tensor-invariant", "inspection": "Primary JEMS PDF: Definition 5.1, Theorem 5.3, Proposition 8.1, and the geometric construction in Section 2.3. The local note records the M by (a,N) specialization and pinching weight.", "annotation": "Standard tensor-complex machinery subsumes the middle output-leg Koszul specialization for zero-free tensors; the mixed-candidate package supplies a separate self-contained quotient-bundle derivation and its application. No local priority claim.", "version_note": "arXiv:1101.4604v5, October 13, 2013; JEMS 15 (2013), 2257-2295; DOI 10.4171/JEMS/421.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "PAR04", "title": "On the maximal dimension of a completely entangled subspace for finite level quantum systems", "authors": ["K. R. Parthasarathy"], "year": 2004, "url": "https://arxiv.org/pdf/quant-ph/0405077", "category": "tensor-invariant", "inspection": "Primary v1 PDF, Proposition1.4 and Theorem1.5, pages5-6; inspected on2026-10-23.", "version_note": "arXiv:quant-ph/0405077v1, May14,2004.", "hypotheses": "Finite-dimensional complex vector spaces; a linear kernel contains no nonzero decomposable vector.", "annotation": "The elementary projective-dimension bound gives rank at least dim X+dim Y-1; the candidate catalecticant block applications and Laurent chart argument are local deductions.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "JLP24", "title": "Concise tensors of minimal border rank", "authors": ["Joachim Jelisiejew", "J. M. Landsberg", "Arpan Pal"], "year": 2024, "url": "https://arxiv.org/html/2205.05713v4", "category": "tensor-invariant", "inspection": "Primary version4, Proposition9.1 and the finite-algebra scheme-span argument.", "version_note": "arXiv:2205.05713v4, August27,2024.", "hypotheses": "The cited proposition treats the equal-dimension concise minimal-rank setting; those hypotheses are not asserted for the rectangular target.", "annotation": "Background for scheme-span algebra. The local curve lemma proves its needed rectangular lower bound directly and does not infer border rank from cactus rank.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "JJ26", "title": "Unrestrictions and concise secant varieties", "authors": ["Jakub Jagiełła", "Joachim Jelisiejew"], "year": 2026, "url": "https://arxiv.org/html/2604.24879v1", "category": "tensor-invariant", "inspection": "Primary version1, Theorem4.10 and Corollary4.11, including the finite-algebra and regular-restriction hypotheses.", "version_note": "arXiv:2604.24879v1, April27,2026; this record pins v1 rather than a later revision.", "hypotheses": "Finite Segre schemes and their linear spans in the stated cactus apolarity setting; no general identification of cactus and border rank.", "annotation": "Background for the local finite-algebra proof. The required functional extension, perfect-pairing quotient and slice-rank inequality are proved in cactus_rank.md.", "accessed": "2026-10-23", "proof_rebuilt_locally": false},
-    {"id": "GROTHENDIECK61-HILBERT", "author": "Alexander Grothendieck", "title": "Techniques de construction et theoremes d'existence en geometrie algebrique IV : les schemas de Hilbert", "publication": "Seminaire Bourbaki, 1960/61, Expose 221, pp. 249-276 (1961)", "url": "https://www.numdam.org/item/SB_1960-1961__6__249_0.pdf", "erratum_url": "https://www.numdam.org/item/SB_1961-1962__7__302_1.pdf", "inspected_scope": "Theorem 3.2; specialization to the Hilbert functor following Proposition 3.8; the 1962 erratum.", "used_scope": "A projective Hilbert scheme for fixed Hilbert polynomial, classifying flat projective families in projective space. Applied to polynomial 4n+1 in P4 over C.", "proof_rebuilt_locally": false, "inspection": "Theorem 3.2; specialization to the Hilbert functor following Proposition 3.8; the 1962 erratum.", "hypotheses_and_local_use": "A projective Hilbert scheme for fixed Hilbert polynomial, classifying flat projective families in projective space. Applied to polynomial 4n+1 in P4 over C.", "category": "algebraic-geometry", "accessed": "2026-10-23", "authors": ["Alexander Grothendieck"]},
-    {"id": "MILNE17-ORBITS", "author": "J. S. Milne", "title": "Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field", "publication": "Cambridge Studies in Advanced Mathematics 170 (2017)", "url": "https://www.jmilne.org/math/Books/iAG2017.pdf", "inspected_scope": "Section 7(c), Propositions 7.4, 7.12, 7.15 and 7.17.", "used_scope": "Locally closed homogeneous orbit and smooth orbit map for PGL5 acting on its rational-normal-quartic orbit, whose stabilizer is smooth PGL2.", "proof_rebuilt_locally": false, "inspection": "Section 7(c), Propositions 7.4, 7.12, 7.15 and 7.17.", "hypotheses_and_local_use": "Locally closed homogeneous orbit and smooth orbit map for PGL5 acting on its rational-normal-quartic orbit, whose stabilizer is smooth PGL2.", "category": "algebraic-geometry", "accessed": "2026-10-23", "authors": ["J. S. Milne"]},
-    {"id": "STACKS-PROPER-INCIDENCE", "author": "The Stacks Project Authors", "urls": ["https://stacks.math.columbia.edu/tag/01WC", "https://stacks.math.columbia.edu/tag/01W0"], "inspected_scope": "A projective morphism is proper; proper morphisms are universally closed.", "used_scope": "The first projection from the closed relative rank-one incidence has closed image.", "proof_rebuilt_locally": false, "url": "https://stacks.math.columbia.edu/tag/01WC", "inspection": "A projective morphism is proper; proper morphisms are universally closed.", "hypotheses_and_local_use": "The first projection from the closed relative rank-one incidence has closed image.", "category": "algebraic-geometry", "accessed": "2026-10-23", "authors": ["The Stacks Project Authors"], "title": "The Stacks Project: projective and proper morphisms"},
-    {"id": "STACKS-DVR-FLATNESS", "author": "The Stacks Project Authors", "urls": ["https://stacks.math.columbia.edu/tag/0539", "https://stacks.math.columbia.edu/tag/0AUW"], "inspected_scope": "Torsion-free modules over a valuation ring are flat; finite torsion-free modules over a PID are free.", "used_scope": "Constructing the flat closure by contracting the generic homogeneous ideal to C[[t]][x0,...,x4].", "proof_rebuilt_locally": false, "url": "https://stacks.math.columbia.edu/tag/0539", "inspection": "Torsion-free modules over a valuation ring are flat; finite torsion-free modules over a PID are free.", "hypotheses_and_local_use": "Constructing the flat closure by contracting the generic homogeneous ideal to C[[t]][x0,...,x4].", "category": "algebraic-geometry", "accessed": "2026-10-23", "authors": ["The Stacks Project Authors"], "title": "The Stacks Project: torsion-free modules over valuation rings and PIDs"},
-    {"id": "STACKS-SMOOTH-LIFTING", "author": "The Stacks Project Authors", "url": "https://stacks.math.columbia.edu/tag/02H6", "inspected_scope": "Infinitesimal lifting criterion: smooth morphisms are formally smooth.", "used_scope": "Successively lift the Hilbert arc over C[[t]]/(t^n) through the smooth PGL5 orbit map, then use completeness.", "proof_rebuilt_locally": false, "inspection": "Infinitesimal lifting criterion: smooth morphisms are formally smooth.", "hypotheses_and_local_use": "Successively lift the Hilbert arc over C[[t]]/(t^n) through the smooth PGL5 orbit map, then use completeness.", "category": "algebraic-geometry", "accessed": "2026-10-23", "authors": ["The Stacks Project Authors"], "title": "The Stacks Project: infinitesimal lifting criterion"}
+    {
+      "id": "DSP16-FLANDERS",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "authors": [
+        "Clement de Seguins Pazzis"
+      ],
+      "year": 2016,
+      "url": "https://arxiv.org/abs/1507.05375v2",
+      "category": "matrix-space-rank",
+      "inspection": "Primary v2 PDF section1.1 and Theorem1.1, pages1-4, inspected October21,2026",
+      "annotation": "Arbitrary-field bounded-rank matrix-space dimension bound dim U <= m r for square matrices. Flanders and Meshulam retain external credit. The finite split-cover note reduces SR(M_m)=m^2 over every field to this dimension theorem.",
+      "version_note": "arXiv:1507.05375v2, April20,2016.",
+      "accessed": "2026-10-21",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "AVZ26",
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": [
+        "Alimzhan Amanov",
+        "Maxim van den Berg",
+        "Jeroen Zuiddam"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "category": "barriers",
+      "inspection": "Primary HTML Definitions 5.1-5.5, Proposition 5.7, Proposition 5.8 and its concavity proof, equations (5.3) and (5.7), Theorem 5.4.",
+      "annotation": "An operational potential obstructs improvements from a specified polynomial degeneration system. The potential is defined on formal expressions, not on all tensors.",
+      "version_note": "arXiv:2610.30054v1, dated October 21, 2026.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "PASS26",
+      "title": "Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of omega <= 9/4",
+      "authors": [
+        "Rafael Pass"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.28627v1",
+      "category": "shared-leg",
+      "inspection": "Primary HTML Lemmas 2.4 and 2.5 with encoding, decoding and transpose conventions.",
+      "annotation": "The primal and dual polynomial packings use c sources to produce c+2 shared-first-leg outputs under c*t >= a+2*b-1.",
+      "version_note": "arXiv:2610.28627v1, dated October 20, 2026.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "DO01",
+      "title": "The Binet-Cauchy Theorem for the Hyperdeterminant of boundary format multidimensional Matrices",
+      "authors": [
+        "Carla Dionisi",
+        "Giorgio Ottaviani"
+      ],
+      "year": 2001,
+      "url": "https://arxiv.org/pdf/math/0104281v1",
+      "category": "tensor-degenerations",
+      "inspection": "Primary PDF Sections 2-3, Definition 2.1 and Theorem 3.1, including the exact symmetric-power map and complex field convention.",
+      "version_note": "arXiv:math/0104281v1, April 29, 2001; published in Journal of Algebra 259 (2003), 87-94.",
+      "hypotheses": "Complex spaces dim V_i=k_i+1; boundary format k_0=sum_{i>0}k_i. Nondegenerate means the associated map on nonzero decomposable vectors has no zero. The natural critical map has nonzero determinant exactly in that case.",
+      "local_instantiation": "V_0=C, V_1=B, V_2=A; k_0=a+b-2, k_1=b-1, k_2=a-1; m_1=0, m_2=b-1. Polynomial multiplication is nondegenerate. Cases a=1 or b=1 are proved directly.",
+      "proof_rebuilt_locally": false,
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "BEKS13",
+      "title": "Tensor complexes: Multilinear free resolutions constructed from higher tensors",
+      "authors": [
+        "Christine Berkesch Zamaere",
+        "Daniel Erman",
+        "Manoj Kummini",
+        "Steven V Sam"
+      ],
+      "year": 2013,
+      "url": "https://arxiv.org/abs/1101.4604v5",
+      "category": "tensor-invariant",
+      "inspection": "Primary JEMS PDF: Definition 5.1, Theorem 5.3, Proposition 8.1, and the geometric construction in Section 2.3. The local note records the M by (a,N) specialization and pinching weight.",
+      "annotation": "Standard tensor-complex machinery subsumes the middle output-leg Koszul specialization for zero-free tensors; the mixed-candidate package supplies a separate self-contained quotient-bundle derivation and its application. No local priority claim.",
+      "version_note": "arXiv:1101.4604v5, October 13, 2013; JEMS 15 (2013), 2257-2295; DOI 10.4171/JEMS/421.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "PAR04",
+      "title": "On the maximal dimension of a completely entangled subspace for finite level quantum systems",
+      "authors": [
+        "K. R. Parthasarathy"
+      ],
+      "year": 2004,
+      "url": "https://arxiv.org/pdf/quant-ph/0405077",
+      "category": "tensor-invariant",
+      "inspection": "Primary v1 PDF, Proposition1.4 and Theorem1.5, pages5-6; inspected on2026-10-23.",
+      "version_note": "arXiv:quant-ph/0405077v1, May14,2004.",
+      "hypotheses": "Finite-dimensional complex vector spaces; a linear kernel contains no nonzero decomposable vector.",
+      "annotation": "The elementary projective-dimension bound gives rank at least dim X+dim Y-1; the candidate catalecticant block applications and Laurent chart argument are local deductions.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "JLP24",
+      "title": "Concise tensors of minimal border rank",
+      "authors": [
+        "Joachim Jelisiejew",
+        "J. M. Landsberg",
+        "Arpan Pal"
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/html/2205.05713v4",
+      "category": "tensor-invariant",
+      "inspection": "Primary version4, Proposition9.1 and the finite-algebra scheme-span argument.",
+      "version_note": "arXiv:2205.05713v4, August27,2024.",
+      "hypotheses": "The cited proposition treats the equal-dimension concise minimal-rank setting; those hypotheses are not asserted for the rectangular target.",
+      "annotation": "Background for scheme-span algebra. The local curve lemma proves its needed rectangular lower bound directly and does not infer border rank from cactus rank.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "JJ26",
+      "title": "Unrestrictions and concise secant varieties",
+      "authors": [
+        "Jakub Jagiełła",
+        "Joachim Jelisiejew"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2604.24879v1",
+      "category": "tensor-invariant",
+      "inspection": "Primary version1, Theorem4.10 and Corollary4.11, including the finite-algebra and regular-restriction hypotheses.",
+      "version_note": "arXiv:2604.24879v1, April27,2026; this record pins v1 rather than a later revision.",
+      "hypotheses": "Finite Segre schemes and their linear spans in the stated cactus apolarity setting; no general identification of cactus and border rank.",
+      "annotation": "Background for the local finite-algebra proof. The required functional extension, perfect-pairing quotient and slice-rank inequality are proved in cactus_rank.md.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "GROTHENDIECK61-HILBERT",
+      "author": "Alexander Grothendieck",
+      "title": "Techniques de construction et theoremes d'existence en geometrie algebrique IV : les schemas de Hilbert",
+      "publication": "Seminaire Bourbaki, 1960/61, Expose 221, pp. 249-276 (1961)",
+      "url": "https://www.numdam.org/item/SB_1960-1961__6__249_0.pdf",
+      "erratum_url": "https://www.numdam.org/item/SB_1961-1962__7__302_1.pdf",
+      "inspected_scope": "Theorem 3.2; specialization to the Hilbert functor following Proposition 3.8; the 1962 erratum.",
+      "used_scope": "A projective Hilbert scheme for fixed Hilbert polynomial, classifying flat projective families in projective space. Applied to polynomial 4n+1 in P4 over C.",
+      "proof_rebuilt_locally": false,
+      "inspection": "Theorem 3.2; specialization to the Hilbert functor following Proposition 3.8; the 1962 erratum.",
+      "hypotheses_and_local_use": "A projective Hilbert scheme for fixed Hilbert polynomial, classifying flat projective families in projective space. Applied to polynomial 4n+1 in P4 over C.",
+      "category": "algebraic-geometry",
+      "accessed": "2026-10-23",
+      "authors": [
+        "Alexander Grothendieck"
+      ]
+    },
+    {
+      "id": "MILNE17-ORBITS",
+      "author": "J. S. Milne",
+      "title": "Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field",
+      "publication": "Cambridge Studies in Advanced Mathematics 170 (2017)",
+      "url": "https://www.jmilne.org/math/Books/iAG2017.pdf",
+      "inspected_scope": "Section 7(c), Propositions 7.4, 7.12, 7.15 and 7.17.",
+      "used_scope": "Locally closed homogeneous orbit and smooth orbit map for PGL5 acting on its rational-normal-quartic orbit, whose stabilizer is smooth PGL2.",
+      "proof_rebuilt_locally": false,
+      "inspection": "Section 7(c), Propositions 7.4, 7.12, 7.15 and 7.17.",
+      "hypotheses_and_local_use": "Locally closed homogeneous orbit and smooth orbit map for PGL5 acting on its rational-normal-quartic orbit, whose stabilizer is smooth PGL2.",
+      "category": "algebraic-geometry",
+      "accessed": "2026-10-23",
+      "authors": [
+        "J. S. Milne"
+      ]
+    },
+    {
+      "id": "STACKS-PROPER-INCIDENCE",
+      "author": "The Stacks Project Authors",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/01WC",
+        "https://stacks.math.columbia.edu/tag/01W0"
+      ],
+      "inspected_scope": "A projective morphism is proper; proper morphisms are universally closed.",
+      "used_scope": "The first projection from the closed relative rank-one incidence has closed image.",
+      "proof_rebuilt_locally": false,
+      "url": "https://stacks.math.columbia.edu/tag/01WC",
+      "inspection": "A projective morphism is proper; proper morphisms are universally closed.",
+      "hypotheses_and_local_use": "The first projection from the closed relative rank-one incidence has closed image.",
+      "category": "algebraic-geometry",
+      "accessed": "2026-10-23",
+      "authors": [
+        "The Stacks Project Authors"
+      ],
+      "title": "The Stacks Project: projective and proper morphisms"
+    },
+    {
+      "id": "STACKS-DVR-FLATNESS",
+      "author": "The Stacks Project Authors",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0539",
+        "https://stacks.math.columbia.edu/tag/0AUW"
+      ],
+      "inspected_scope": "Torsion-free modules over a valuation ring are flat; finite torsion-free modules over a PID are free.",
+      "used_scope": "Constructing the flat closure by contracting the generic homogeneous ideal to C[[t]][x0,...,x4].",
+      "proof_rebuilt_locally": false,
+      "url": "https://stacks.math.columbia.edu/tag/0539",
+      "inspection": "Torsion-free modules over a valuation ring are flat; finite torsion-free modules over a PID are free.",
+      "hypotheses_and_local_use": "Constructing the flat closure by contracting the generic homogeneous ideal to C[[t]][x0,...,x4].",
+      "category": "algebraic-geometry",
+      "accessed": "2026-10-23",
+      "authors": [
+        "The Stacks Project Authors"
+      ],
+      "title": "The Stacks Project: torsion-free modules over valuation rings and PIDs"
+    },
+    {
+      "id": "STACKS-SMOOTH-LIFTING",
+      "author": "The Stacks Project Authors",
+      "url": "https://stacks.math.columbia.edu/tag/02H6",
+      "inspected_scope": "Infinitesimal lifting criterion: smooth morphisms are formally smooth.",
+      "used_scope": "Successively lift the Hilbert arc over C[[t]]/(t^n) through the smooth PGL5 orbit map, then use completeness.",
+      "proof_rebuilt_locally": false,
+      "inspection": "Infinitesimal lifting criterion: smooth morphisms are formally smooth.",
+      "hypotheses_and_local_use": "Successively lift the Hilbert arc over C[[t]]/(t^n) through the smooth PGL5 orbit map, then use completeness.",
+      "category": "algebraic-geometry",
+      "accessed": "2026-10-23",
+      "authors": [
+        "The Stacks Project Authors"
+      ],
+      "title": "The Stacks Project: infinitesimal lifting criterion"
+    },
+    {
+      "id": "ABZ26",
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": [
+        "Alimzhan Amanov",
+        "Maxim van den Berg",
+        "Jeroen Zuiddam"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "category": "barriers",
+      "inspection": "Primary v1 HTML: Theorems 1.1, 1.2 and 5.4, Definitions 5.1-5.5, and Propositions 5.7-5.9. Formal-expression conventions and monotonicity scope inspected.",
+      "annotation": "External operational barrier for the stated polynomial-degeneration calculus. It is not a lower bound for unrestricted matrix multiplication or an invariant of arbitrary tensors. The paired-repair package records a local specialization and its consequences.",
+      "version_note": "arXiv:2610.30054v1, submitted October 21, 2026. External monotonicity theorem imported without a local formalization.",
+      "accessed": "2026-10-23",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "AKM10",
+      "title": "An upper bound on the dimension of the reflexivity closure",
+      "authors": [
+        "Calin Ambrozie",
+        "Bojan Kuzma",
+        "Vladimir Muller"
+      ],
+      "year": 2010,
+      "url": "https://www.imar.ro/~purice/Inst/2013/CAmbrozie/proc10184.pdf",
+      "category": "operator-spaces",
+      "inspection": "Primary publisher offprint Theorem2.7 and its proof equations2.1-2.4 inspected October21,2026",
+      "annotation": "Over an algebraically closed field, dim Ref(S)<=h(h+1)/2. The proof bounds successive evaluation images by h-s+1; keeping the finite codomain bound gives the credited refinement used in the ordinary semisimple application.",
+      "version_note": "Proc. AMS138(5),1721-1731. DOI10.1090/S0002-9939-09-10184-3; electronically published November18,2009.",
+      "accessed": "2026-10-21",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "NAGY21",
+      "title": "Embeddings of Ree unitals in a projective plane over a field",
+      "authors": [
+        "Gabor P. Nagy"
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2007.10464",
+      "category": "finite-group-geometry",
+      "inspection": "Primary v3 PDF Sections1-2 inspected on October21,2026",
+      "annotation": "Classical Ree-unital fixed-involution model and the smallest28-point63-block unital with exceptional PSL(2,8) action. The repository claims no discovery of this incidence.",
+      "version_note": "arXiv:2007.10464v3, January25,2021; Finite Fields and Their Applications74,101875; DOI10.1016/j.ffa.2021.101875.",
+      "accessed": "2026-10-21",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "CKSU05",
+      "title": "Group-theoretic algorithms for matrix multiplication",
+      "authors": [
+        "Henry Cohn",
+        "Robert Kleinberg",
+        "Balazs Szegedy",
+        "Christopher Umans"
+      ],
+      "year": 2005,
+      "url": "https://arxiv.org/abs/math/0511460",
+      "category": "group-theoretic",
+      "inspection": "Primary v1 PDF Theorem5.5 inspected on October21,2026",
+      "annotation": "Theorem5.5 gives the simultaneous rectangular group-algebra comparison via Schonhage asymptotic sum inequality. Border extension needs the separately credited Bini bridge.",
+      "version_note": "arXiv:math/0511460v1, November18,2005; FOCS2005,379-388; DOI10.1109/SFCS.2005.39.",
+      "accessed": "2026-10-21",
+      "proof_rebuilt_locally": false
+    }
   ]
 }

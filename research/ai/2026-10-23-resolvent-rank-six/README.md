@@ -30,3 +30,11 @@ exactly one direction of the 17-dimensional locus.
 is not trusted by acceptance. The universal argument uses polynomial
 identities rather than finite sampling. See `claims.json` and
 `sources.json` for scope and provenance.
+
+## Claim identifier after branch consolidation
+
+The current ledger uses `AI-RESOLVENT-RANK-SEVEN-GAP-001` for this
+package. Its byte-pinned proof retains the original identifier
+`AI-RESOLVENT-RANK-SIX-LOCUS-001`. The new identifier separates this
+record from independent rank-six proofs that used the same name.
+The proof, certificate and evidence status are unchanged.

@@ -1,139 +1,124 @@
-# Full-space Koszul ranks of the fixed oblique repair
+# Complete full-space Koszul atlas for the fixed oblique residual
 
-October 23, 2026. Owner-directed OpenAI Codex continuation.
-Claim `EXP-OBLIQUE-KOSZUL-ATLAS-001` is an exact finite experiment with
-an elementary certificate argument. No independent mathematical review,
-formalization, historical novelty, or exponent improvement is claimed.
+October 23, 2026. Owner-directed Codex research. Claim
+`EXP-OBLIQUE-KOSZUL-ATLAS-001` is a finite exact experiment, without
+independent mathematical review or formalization.
 
-The question is whether any full-space Koszul flattening improves the
-existing border-rank lower bound for the fixed one-dependency residual
-in [PR147](https://github.com/1337isnot1337/matrix-mult-bounds/pull/147).
-The answer is negative for all four sizes checked here. This is useful
-for selecting a stronger necessary condition; it does not determine the
-residual's border rank or exclude other source maps.
+For the actual product-oblique residual `E_(6,4)` in concise format
+`9 x 11 x 11`, **no full-space Koszul flattening improves the existing
+border-rank lower bound of twelve**. Every degree on each of the three
+legs gives a bound at most eleven. This closes that finite screening
+route for these fixed maps. The border-rank interval remains `[12,18]`;
+the ordinary rank remains nineteen.
 
-| r | Source (n,b) | Residual format | Best full-space Koszul lower bound | Earlier equalizer lower bound | Earlier border upper bound |
-|---|---|---|---:|---:|---:|
-| 3 | (4,2) | 5 x 7 x 7 | 8 | 8 | 10 |
-| 4 | (5,3) | 7 x 9 x 9 | 9 | 10 | 14 |
-| 5 | (6,4) | 9 x 11 x 11 | 11 | 12 | 18 |
-| 6 | (7,5) | 11 x 13 x 13 | 13 | 14 | 22 |
+The [construction and adapted residual](../2026-10-23-oblique-border-repair/full_residual_rank.md)
+and the [equalizer bound](../2026-10-23-oblique-border-equalizer/proof.md)
+are inherited from pending PR147, pinned at
+`29a486ac622261c8b4854fc109fb8ab40dcf91a2`. That work already gave
+the first-leg middle-degree analytic ceiling 504. Here its exact rank
+is 503; the new finite computation covers every degree and every leg.
+No new construction, general lower bound, historical priority, or
+matrix multiplication exponent improvement is claimed.
 
-The equalizer and border upper bounds are credited comparisons from
-PR147 at immutable commit `29a486ac622261c8b4854fc109fb8ab40dcf91a2`.
-This package does not re-prove those bounds or import their code. The
-112 new matrix ranks are computed here over the integers. All pivots
-are units, so each reported rank is exact over **every field**, rather
-than just a lower bound inferred from a modular rank.
+## Exact n6 ranks
 
-## Tensor and source identification
+On the first leg, the degree is `p=0,...,8`:
 
-Put q=r-2. Use first coordinates
-`u,v,w,h_1,...,h_q,v_1,...,v_q`, second coordinates
-`X,Z,a,eta,y,x_1,y_1,...,x_q,y_q`, and third coordinates
-`P,Q,R,S,T,p_1,q_1,...,p_q,q_q`. All coordinates within a leg are
-independent; the repeated letters with different subscripts denote
-different vectors. The inherited adapted residual is
+| p | Matrix rank | Rank-one divisor | Rounded border lower bound |
+| --- | ---: | ---: | ---: |
+| 0 | 11 | 1 | 11 |
+| 1 | 74 | 8 | 10 |
+| 2 | 226 | 28 | 9 |
+| 3 | 414 | 56 | 8 |
+| 4 | 503 | 70 | 8 |
+| 5 | 414 | 56 | 8 |
+| 6 | 226 | 28 | 9 |
+| 7 | 74 | 8 | 10 |
+| 8 | 11 | 1 | 11 |
 
-```
-K = u(XP+ZQ) + v(aR+eta S)
-    + w(XQ+ZT+eta R+yS+XR),
-E_r = K + sum_j h_j(Xp_j+Zq_j) + sum_j v_j(x_j R+y_j S).
-```
+Both long legs independently give the following ranks:
 
-The adapted form and its unit support embeddings are inherited from
-the prior ordinary-rank proof, with byte hashes and immutable links in
-[sources.json](sources.json). The new verifier expands those embeddings
-at r=5 and compares the complete tensor with the actual native source
-contraction. Its sparse [native witness](native-witness.json) is an
-exact extraction of the product-oblique case of PR147's credited JSON,
-not a newly discovered map. It has 36,22,22 nonzero map entries.
+| p | Matrix rank | Rank-one divisor | Rounded border lower bound |
+| --- | ---: | ---: | ---: |
+| 0 | 9 | 1 | 9 |
+| 1 | 99 | 10 | 10 |
+| 2 | 471 | 45 | 11 |
+| 3 | 1284 | 120 | 11 |
+| 4 | 2248 | 210 | 11 |
+| 5 | 2675 | 252 | 11 |
+| 6 | 2214 | 210 | 11 |
+| 7 | 1266 | 120 | 11 |
+| 8 | 479 | 45 | 11 |
+| 9 | 108 | 10 | 11 |
+| 10 | 11 | 1 | 11 |
 
-The source convention is
+The [certificate](certificate.json) also contains complete controls at
+`b=2,3`, for the one-dependency family `n=b+2`. The strongest bounds at
+`b=2,3,4` are respectively `8,9,11`, compared with the inherited
+equalizer bounds `8,10,12`. These are three finite sizes, not an
+all-size rank formula.
 
-```
-Q(6,4) = sum_(p,q=0..5; y,v=0..3) A_(p,q) B_(y,q+v) C_(p+y,v).
-M(5,4,5) = sum_(i,j=0..4; h=0..3) a_(i,j) b_(i,h) c_(h,j).
-```
+## Definition, orientation and acceptance
 
-The independent contraction processes all 576 source terms, subtracts
-from M, and compares sparse dictionaries representing every one of the
-10,000 target coordinates, including all off-support coefficients.
-It uses no floating-point arithmetic or parent-package imports.
-The all-size adapted identification is inherited; native source maps
-are re-contracted here only at (6,4).
+Use the standard [Koszul definition and rank-one calculation](../2026-10-20-koszul/research_note.md#1-definition-and-the-degeneration-test).
+For a wedge leg `X` of dimension `d`, the map is
 
-## Why the rank certificates work
-
-For a chosen wedge leg V of dimension d and the other two legs W,U,
-the degree-p matrix is
-
-```
-Lambda^p(V) tensor W* -> Lambda^(p+1)(V) tensor U,
-(xi,beta) -> sum_i (v_i wedge xi) tensor beta(w_i) u_i.
+```text
+K_p(T): Lambda^p(X) tensor Y* -> Lambda^(p+1)(X) tensor Z.
 ```
 
-For a nonzero rank-one tensor, wedge multiplication by its V factor
-has rank `binom(d-1,p)`. To see this, extend that factor to a basis:
-exactly the p-wedges omitting the factor map to independent nonzero
-(p+1)-wedges. Tensoring with the rank-one W-to-U map leaves this rank
-unchanged. Matrix-rank subadditivity and closed minor equations therefore
-give the usual border-rank lower bound
+A simple tensor has map rank `binom(d-1,p)`: wedging by a nonzero
+vector has exactly that rank, while its other two factors contribute
+a rank-one map. Subadditivity bounds this matrix rank for ordinary
+tensor decompositions. Polynomial minors then give the same bound
+for geometric border rank over an algebraic closure and for formal
+degenerations in every characteristic.
 
-```
-ceil(rank(K_p(E_r)) / binom(d-1,p)).
-```
+The verifier contracts the first remaining leg in increasing index
+order. This covers the other contraction choice as well: the perfect
+exterior pairing identifies its degree `p` map with the transpose of
+the recorded degree `d-1-p` map, up to invertible signed basis changes.
+The rank-one divisors agree. Since every degree is present, no leg
+orientation is omitted. Padding the wedge leg cannot improve the
+maximum ratio: exterior decomposition makes the padded rank a
+binomial-weighted sum of the unpadded ranks, and Vandermonde's
+identity gives the same weighted sum of their divisors. Padding the
+other legs only adds zero rows or columns.
 
-The same minor argument applies to formal degenerations and geometric
-border rank over an algebraic closure in every characteristic.
+Acceptance reconstructs all **75 matrices**, including zero-row and
+zero-column dimensions, from exact residual coefficients. Integer
+Gaussian elimination accepts only pivots `+1` or `-1`. Row additions
+and sign changes are invertible over every field. Distinct pivot
+columns give a triangular unit minor, while every remaining row
+reduces to zero. Thus each decision supplies both a lower and an
+upper matrix-rank bound, uniformly in characteristic. A nonunit
+pivot aborts; reduction modulo one prime is not used as an upper
+bound. Pivot hashes bind the deterministic reduction to each saved
+record. They are consistency checks; the full row reduction is rerun
+and is the rank evidence.
 
-For every matrix the verifier uses signed integer coefficients and
-subtracts integer multiples of earlier pivot rows. It rejects a pivot
-unless it equals +1 or -1. Consequently every row operation is invertible
-over every field. The selected rows have distinct pivot columns and a
-unit triangular minor, while every remaining row reduces to zero over Z.
-This proves both the upper and lower matrix-rank bounds in every
-characteristic. The saved rank and SHA-256 of the deterministic pivot
-sequence are checked against a fresh complete reduction.
+Five [source pins](sources.json) retain the original coefficient
+convention and prior credit. Acceptance also calls the pinned native
+source replay: it contracts all 576 `Q(6,4)` terms and compares all
+10,000 target coordinates with the adapted full residual. The
+historical archives and prior construction are unchanged.
 
-All degrees `0 <= p < d` and all three wedge legs are checked, including
-the ordinary-flattening endpoints. There are
-`19+25+31+37=112` matrices. Reversing the roles of the two other legs
-transposes the complementary-degree matrix, up to signed wedge basis
-changes. Its rank-one cost is the same because
-`binom(d-1,p)=binom(d-1,d-1-p)`. Thus the three orientations and full
-degree ranges also cover the three reversed external-leg conventions.
+## Reproduce and limits
 
-For r=5 the ranks in degree order are
-
-```
-first wedge leg: 11,74,226,414,503,414,226,74,11
-second/third:    9,99,471,1284,2248,2675,2214,1266,479,108,11
-```
-
-The best resulting bound is eleven. The complete atlas, not an
-extrapolation from these displayed rows, supports the table above.
-
-## Replay and remaining question
-
-Run from the repository root with Python 3.10 or later. The acceptance
-program and its independent binary-rank controls use only the standard
-library.
+From the repository root:
 
 ```sh
-python research/ai/2026-10-23-oblique-koszul-atlas/verify.py
+python -S research/ai/2026-10-23-oblique-koszul-atlas/verify.py
 python -m unittest discover -s tests -p test_oblique_koszul_atlas.py -v
 ```
 
-The focused tests replay all 112 integer certificates, cross-check all
-112 ranks with a separate bit-packed binary elimination, check the
-native contraction and a deliberately altered map, verify rank-one costs
-and wedge signs, check transpose duality, and reject a nonunit pivot.
+The CLI uses only the Python standard library; the independent small
+matrix test uses the maintained SymPy dependency. Broader repository
+regression, archive replay and final-head hosted CI are separate merge
+gates and must be recorded before integration.
 
-These results concern **unprojected full-space** Koszul flattenings of
-four specified tensors. They do not exclude projected Koszul/Young
-flattenings, stronger secant equations, other sizes, changes to the
-source maps, or better repair constructions. The full r=5 residual
-retains the inherited border-rank interval 12 through 18. A useful next
-step is a stronger secant condition or a construction improving that
-interval; repeating these exact full-space ranks cannot do so.
+This does not exhaust Koszul maps after arbitrary projections, other
+Young flattenings, nonlinear equations for secant varieties, different
+source maps or general degeneration families. The complete matrix
+rank decisions are finite exact results; they do not settle optimal
+border rank. See the original [question](QUESTION.md).
