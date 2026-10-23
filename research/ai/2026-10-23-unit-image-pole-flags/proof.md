@@ -29,7 +29,9 @@ For A4 to M(10,10,11), image rank at least107 is already excluded.
 At image rank106 every remaining degeneration in this regular-long-map,
 regular-unit-lift chart must have F polar, with leading coefficient of
 rank one to four in one of the two rulings in item2. Its leading map
-annihilates I_10. At image ranks102 through105, any polar F must satisfy
+annihilates I_10. The complete first-map principal part has rank at least
+two; in particular a simple first-map pole has leading rank two to four.
+At image ranks102 through105, any polar F must satisfy
 the fixed-Hankel constraint in item3. None of these remaining cases is
 constructed or excluded by this note.
 
@@ -106,7 +108,27 @@ with F_0(x)=0 its regularized correction would give
 The original full-column kernel count then forces B regular, because
 100>112-16+2=98. The resulting ordinary restriction contradicts12>11.
 Thus F must have a pole. Its leading image satisfies16<=3q=18<20,
-so item2 applies. For r=102,...,105 one has q=10,...,7 and3q<32;
+so item2 applies. Moreover B must be polar: otherwise its regular unit
+equation at zero would force the unit image to have full rank110.
+
+Let E_reg be the linear subspace of constant target parameters x for
+which F(x) is regular. The same argument gives injectivity of F_0 on
+E_reg, even though F is polar on other parameters: if F_0(x)=0 then
+rank(Xi(x)H)<=6 contradicts the target lower bound7. A nonzero leading
+row of B' kills M_0(F_0(x))C'_0 for every x in E_reg. Its source kernel
+has dimension at most112-16+2=98. Hence dim E_reg<=98.
+
+The complete principal-part map
+
+    x |-> (F_-h(x),...,F_-1(x))
+
+has kernel E_reg and therefore rank at least100-98=2. This is not a
+lower bound of two for the highest coefficient alone when h>1. If h=1,
+however, it gives rank F_-1>=2; together with item2 its rank is two to
+four. A higher-order pole may have a rank-one highest coefficient and
+additional independent polar parameters at lower orders.
+
+For r=102,...,105 one has q=10,...,7 and3q<32;
 item3 applies whenever F has a pole. No regularity assertion for F at
 those four smaller image ranks is made.
 

@@ -4,7 +4,8 @@ The [written proof](proof.md) narrows the regular-full-long-map,
 regular-identity-lift chart left open by the one-sided unit theorem.
 At A4 unit-image rank106 the first map must have a pole, whose leading
 image has dimension at most four and belongs to one minimum-rank source
-ruling. At image ranks102 through105, any first-map pole has a leading
+ruling. The complete principal part has rank at least two, so a simple
+first-map pole has leading rank two to four. At image ranks102 through105, any first-map pole has a leading
 image of dimension at most sixteen with one fixed rank-one Hankel factor.
 Only the highest coefficient is constrained; lower poles remain open.
 

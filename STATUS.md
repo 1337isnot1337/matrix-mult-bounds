@@ -7,7 +7,9 @@ shows that at unit-image rank106 an A4 to M(10,10,11) degeneration in
 the regular-full-long-map and regular-identity-lift chart must have a
 first-map pole. Its highest coefficient has rank one to four and lies
 in one minimum-rank source ruling, with fixed Hankel and one fixed short
-factor; it annihilates the identity. At image ranks102 through105, any
+factor; it annihilates the identity. Its complete principal part has rank
+at least two, so a simple first-map pole has leading rank two to four.
+At image ranks102 through105, any
 first-map pole has leading image dimension at most16 and a fixed Hankel
 factor. Claim `AI-UNIT-IMAGE-LEADING-POLE-FLAGS-001` is written and unreviewed,
 using the credited source rank-gap and below-twice-minimum classifications.
