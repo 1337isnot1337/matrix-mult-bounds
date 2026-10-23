@@ -150,13 +150,17 @@ putative annihilator to vanish. This supplies a written all-rank sharpness
 family, not just finite evidence. The exact controls replay its small
 members independently.
 
-For the A9 square-sum candidate (32,6,3), a rank-one parameter of the M32
+As a historical arithmetic example, in the A9 square sum (32,6,3), a rank-one parameter of the M32
 block lifts to source rank at most 648=8*81. If its symbol rank is eight,
 the theorem gives a constant length-eight scheme **for that parameter**.
 It does not make that scheme independent of the matrix parameter. A
-family argument is still required; no exclusion of the candidate is
-claimed here. The lower-symbol-rank alternative retains the existing
-pencil-degree analysis and its original hypotheses.
+family argument is still required to turn this pointwise statement into
+a general family constraint. This historical ordinary candidate is
+already excluded by the maintained Wronskian application: rank-three
+M32 parameters lift to rank 712<729, and the credited three-ruling cap
+would inject 1024 parameters into 11*81=891 dimensions. This existing
+exclusion is not attributed to the present lemma. Its source and the
+underlying unreviewed proof status are retained in sources.json.
 
 ## Attribution
 

@@ -11,8 +11,21 @@ Exact controls include saturated ranks one through eight, excess-one
 examples, reduced and nonreduced schemes, and endpoint and full-rank
 warnings. Claim `AI-HANKEL-CONSTANT-SCHEME-STRIP-001` is written and
 unreviewed. Constancy over a whole matrix-parameter family remains
-unproved; the A9 square-sum candidate and smaller exponent remain open.
+unproved; no new matrix-target exclusion or smaller exponent follows. The
+historical ordinary A9 square sums are already excluded by the credited
+Wronskian application.
 
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
 
 ## All-order A4 exclusion with a partial regular unit image
 
@@ -297,8 +310,11 @@ unreviewed. The [exact application](research/ai/2026-10-21-hankel-pencil-degree/
 adds453 exclusions to the5139-format balanced rectangular scan through a12.
 Every improving ordinary single rectangular target through a9 is excluded;
 494 necessary-test survivors remain, first at a10. All improving ordinary
-A8 square direct sums are also excluded. A9's square candidate(32,6,3)
-remains unconstructed. Singular degenerations remain open; omega is9/4.
+A8 square direct sums are also excluded. The later
+[Wronskian application](research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+already excludes every improving ordinary A9 square sum, including
+(32,6,3); the older pencil-degree report is preserved as historical data.
+Singular degenerations remain open; no smaller exponent is established.
 
 ## Uniform mixed-axis closure
 

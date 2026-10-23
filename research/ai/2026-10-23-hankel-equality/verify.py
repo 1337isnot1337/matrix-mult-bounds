@@ -84,7 +84,7 @@ def control(name, sequence, a, b, expected_r, expected_full=None):
 def report():
     saturated = []
     # Origin jets and infinity jets protect the homogeneous endpoint cases,
-    # at every rank through the actual A9 equality rank.
+    # at every rank through eight.
     for r in range(1, 9):
         a = b = r+1
         m = a+b-1

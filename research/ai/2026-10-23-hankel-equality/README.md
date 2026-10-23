@@ -7,9 +7,10 @@ scheme for all coefficient sequences of F. An explicit family has a
 moving scheme at the first excluded rank `ab*r+min(a,b)` for every r>=2.
 
 This is a pointwise source-slice constraint. It does not make the scheme
-constant over an entire matrix-parameter family, exclude the open A9
-square-sum target, or improve the exponent. The [question](QUESTION.md)
-records that remaining family problem.
+constant over an entire matrix-parameter family, supply a new matrix-target
+exclusion, or improve the exponent. The [question](QUESTION.md)
+records that remaining family problem. The historical ordinary A9 square
+sums are already excluded by the credited Wronskian application.
 
 The proof adopts the earlier full-output coefficient-map lemma and
 two-variable injections, then descends the homogeneous kernel gcd from

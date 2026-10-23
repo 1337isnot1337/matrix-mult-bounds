@@ -17,6 +17,10 @@
     {
       "path": "research/ai/2026-10-21-hankel-pencil-degree/application.md",
       "sha256": "b20210874e52d2cd45b88fd95b18cb3dfe8cd872e46a8d970e380d3bff7619e5"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-wronskian-cap/application.md",
+      "sha256": "dfb850bd6faae380a46ee338babd2415dd80af237311cf8de191f26f291cd5bc"
     }
   ],
   "concurrent_prior_work": {
@@ -33,5 +37,6 @@
   "local_continuation": "Integer strip refinement, descent of the supporting kernel gcd from C(x) and C(z) to C, all-rank moving-scheme sharpness family, and exact controls.",
   "independent_review": false,
   "lean_formalized": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "application_status": "The maintained Wronskian application already excludes all improving ordinary A9 square sums using credited higher-input-rank gates. The present pointwise strip does not claim that exclusion."
 }
