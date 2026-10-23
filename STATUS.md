@@ -1,5 +1,21 @@
 # Research status
 
+## Coordinate leading kernels close the mixed high-rank regular pairs
+
+The [coordinate-kernel certificate](research/ai/2026-10-23-coordinate-kernel-cap/proof.md)
+closes all sixteen high-rank mixed pairs of the standalone regular-leg
+screen when both regular constant maps have coordinate kernels. Any such
+regular pair has limiting ranks summing to at most192. The matching
+census covers all8008 ten-cell biform subsets:7744 have25 disjoint source
+edges, and264 have a uniquely forced24-vertex cover entirely on one side.
+These exceed the candidate deletion budgets and force projected source
+rank at least103, above target ceilings102 and101. Higher jets and the
+remaining Laurent map are unrestricted. Claims
+`EXP-COORDINATE-COVER-CENSUS-001` and `AI-A4-COORDINATE-REGULAR-PAIR-002`
+are respectively finite evidence and a written unreviewed deduction.
+Noncoordinate leading kernels and smaller rank pairs remain outside this
+argument. No target or exponent improvement is established.
+
 ## A rank budget for two regular A4 target legs
 
 The [regular-leg frontier](research/ai/2026-10-23-regular-leg-frontier/proof.md)

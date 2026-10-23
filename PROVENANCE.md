@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-23-coordinate-kernel-cap` package is owner-directed OpenAI
+Codex work. The canonical cyclic source, low-rank classification,
+saturated support inequality and regular-leg frontier retain their prior
+credit with exact byte pins. The complete ten-coordinate graph census,
+exported matching witnesses, unique-cover implication checks and their
+coordinate-leading-kernel application are local continuations. No new
+external theorem, historical priority, independent review, formalization,
+target construction or exponent gain is claimed.
+
 The `2026-10-23-regular-leg-frontier` package is owner-directed OpenAI
 Codex work. It adopts the canonical cyclic source, the minimum-rank and
 below-twice-minimum source loci, the saturated target-support inequality

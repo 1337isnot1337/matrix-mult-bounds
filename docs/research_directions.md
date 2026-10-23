@@ -312,3 +312,14 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+
+## Coordinate leading-kernel gate
+
+The [complete matching certificate](../research/ai/2026-10-23-coordinate-kernel-cap/proof.md)
+closes the sixteen mixed high-total-rank pairs from the standalone
+regular-leg screen if both regular constant kernels are coordinate in
+the canonical source bases. Any such pair must have rank sum at most192,
+even with arbitrary later mixing and Laurent poles on the third map.
+Search lower leading ranks or noncoordinate leading kernels; repeating
+higher jets in the closed coordinate charts cannot evade this gate.
