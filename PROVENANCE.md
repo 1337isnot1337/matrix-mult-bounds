@@ -1,5 +1,7 @@
 # Attribution and provenance
 
+The 2026-10-23 three-term resultant-obstruction package is owner-directed AI-assisted research. The literal cyclic-source coefficient convention and general prior gap are credited to the maintained anisotropic construction at blob 04d28c6a05027a7756891f47d28327de850a7501. Superseded PR209 at 4247f42eeb305163d299f908144b5915d1c238c5 retains attribution for its affine recurrence and rank theorem; the extension to three coefficients, symbolic determinant family, resultant-matched exact rank obstruction and independent integer certificates are local additions. The certificate is same-session computation, not external mathematical review or formalization. Consolidation PR214 is concurrent and does not establish the exponent improvement.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
