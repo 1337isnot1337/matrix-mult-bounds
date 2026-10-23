@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "status": "second-pass analytic review; no gap found",
+  "reviewed_commit": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "reviewed_file": "research/ai/2026-10-20/research_note.md",
+  "reviewed_file_sha256": "3f1de5a7c4209a894b39bc95801af6aa5bf65df85e32379de09271f6c7207e63",
+  "review_scope": "Sections 2.1-2.4: admissibility, pointwise minimality, rank envelope, and replication compatibility",
+  "reviewer": "OpenAI Codex under repository-owner direction",
+  "independent_human_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false,
+  "verification": {
+    "command": "python tools/replay.py --timeout 900",
+    "interpreter": "Python 3.14.8",
+    "sympy": "1.14.0",
+    "archive_files_verified_before_and_after": 10,
+    "exact_payloads_replayed": {
+      "profile_grid_checks": 73856,
+      "product_filtration_inequalities": 353664,
+      "binary_candidates": 12976,
+      "ternary_candidates": 209692,
+      "random_candidates": 20000
+    },
+    "result": "passed; all exact payloads match the archive"
+  },
+  "attribution": "The recurrence is credited to OpenAI. The exact least-profile formula and pointwise-minimality proof also occur in the earlier Rohan Arun repository revision pinned in docs/external_followups.md. No priority claim is made."
+}
