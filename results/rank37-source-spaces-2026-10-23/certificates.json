@@ -1,0 +1,262 @@
+{
+  "schema": "rank37-source-minors-v1",
+  "coefficient_domain": "integers 0 and 1",
+  "verification_modulus": 2,
+  "source_coordinate_order": "(i,k,s) lexicographic on range(4) x range(7) x range(4)",
+  "coherent_coordinate_order": "(i,s) lexicographic on range(4) x range(4)",
+  "mask_encoding": "canonical hexadecimal; bit n selects index n",
+  "coherent20_pair": {
+    "coefficient_mask": "0x12",
+    "minor_rows_mask": "0x3e7cf9f",
+    "minor_columns_mask": "0xfffff"
+  },
+  "source17_ideals": [
+    {
+      "shape": [
+        [
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "coefficient_mask": "0x1200000040000017000001b",
+      "minor_rows_mask": "0xf00007ff00007ff00007ff",
+      "minor_columns_mask": "0xf000ff00ff00ff000e000e000e"
+    },
+    {
+      "shape": [
+        [
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x50000001000000100000fb",
+      "minor_rows_mask": "0x7f00000ff00007ff00007ff",
+      "minor_columns_mask": "0xf000f000f008f00cf00ef00ef"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "coefficient_mask": "0x110000002000000f000001b",
+      "minor_rows_mask": "0x8f00007bf00007ff00007ff",
+      "minor_columns_mask": "0xf100ff00ff00ff000e000e000c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x20000004000000900000fb",
+      "minor_rows_mask": "0xf00007ff00007ff00007ff",
+      "minor_columns_mask": "0x7000f000f001f00df00df00df"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x50000002000000f000001b",
+      "minor_rows_mask": "0xbf00003bf00003ff00007ff",
+      "minor_columns_mask": "0xf000f000f00cf00cf00cf00df"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x500000010000003000007b",
+      "minor_rows_mask": "0x7f00003ff00003ff00003ff",
+      "minor_columns_mask": "0xf000f000f00cf00cf00cf00ef"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "coefficient_mask": "0x100000012000000f000001b",
+      "minor_rows_mask": "0xf00007ff00007ff00007ff",
+      "minor_columns_mask": "0xf000ff00ff00ff000e000e000e"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x10000004000000900000fb",
+      "minor_rows_mask": "0xf00007ff00007ff00007ff",
+      "minor_columns_mask": "0xf000f000f000f00ef00ef00ef"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x20000012000000f000001b",
+      "minor_rows_mask": "0x39f000079f000079f00007ff",
+      "minor_columns_mask": "0xf001f00ff00ff00ff000e0008"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x200000090000003000007b",
+      "minor_rows_mask": "0x1f00003ff00007ff00007ff",
+      "minor_columns_mask": "0xf000f000f001f009f00df00df"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x50000002000000f000001b",
+      "minor_rows_mask": "0xbf00003bf00003ff00007ff",
+      "minor_columns_mask": "0xf000f000f00cf00cf00cf00df"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x500000020000007000003b",
+      "minor_rows_mask": "0x1bf00001ff00003ff00003ff",
+      "minor_columns_mask": "0xf000f000f008f00cf00cf00ff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0xa0000004000000f000001b",
+      "minor_rows_mask": "0xf00007ff00007ff00007ff",
+      "minor_columns_mask": "0x7000f000f001f00df00df00df"
+    }
+  ]
+}

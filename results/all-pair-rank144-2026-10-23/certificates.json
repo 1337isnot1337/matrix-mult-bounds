@@ -1,0 +1,1497 @@
+{
+  "schema": "a4-defect12-matching-certificates-v1",
+  "field_of_application": "C",
+  "source_layer": 0,
+  "coherent_coordinate_order": "(i,s), 0<=i,s<4",
+  "row_index": "7*j+L",
+  "column_index": "4*H+r",
+  "row_deletion_budget": 12,
+  "column_deletion_budget": 12,
+  "size10_ideals": [
+    {
+      "shape": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          23,
+          14
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          25,
+          18
+        ],
+        [
+          26,
+          15
+        ]
+      ],
+      "forced_cover": {
+        "side": "rows",
+        "steps": [
+          {
+            "matching_index": 15,
+            "forcing_edge": [
+              17,
+              23
+            ]
+          },
+          {
+            "matching_index": 16,
+            "forcing_edge": [
+              18,
+              23
+            ]
+          },
+          {
+            "matching_index": 19,
+            "forcing_edge": [
+              22,
+              25
+            ]
+          },
+          {
+            "matching_index": 20,
+            "forcing_edge": [
+              23,
+              12
+            ]
+          },
+          {
+            "matching_index": 21,
+            "forcing_edge": [
+              24,
+              14
+            ]
+          },
+          {
+            "matching_index": 22,
+            "forcing_edge": [
+              25,
+              14
+            ]
+          },
+          {
+            "matching_index": 23,
+            "forcing_edge": [
+              26,
+              19
+            ]
+          },
+          {
+            "matching_index": 0,
+            "forcing_edge": [
+              0,
+              12
+            ]
+          },
+          {
+            "matching_index": 1,
+            "forcing_edge": [
+              1,
+              4
+            ]
+          },
+          {
+            "matching_index": 2,
+            "forcing_edge": [
+              2,
+              4
+            ]
+          },
+          {
+            "matching_index": 3,
+            "forcing_edge": [
+              3,
+              14
+            ]
+          },
+          {
+            "matching_index": 4,
+            "forcing_edge": [
+              4,
+              15
+            ]
+          },
+          {
+            "matching_index": 6,
+            "forcing_edge": [
+              7,
+              4
+            ]
+          },
+          {
+            "matching_index": 7,
+            "forcing_edge": [
+              8,
+              4
+            ]
+          },
+          {
+            "matching_index": 8,
+            "forcing_edge": [
+              9,
+              4
+            ]
+          },
+          {
+            "matching_index": 9,
+            "forcing_edge": [
+              10,
+              5
+            ]
+          },
+          {
+            "matching_index": 10,
+            "forcing_edge": [
+              11,
+              6
+            ]
+          },
+          {
+            "matching_index": 12,
+            "forcing_edge": [
+              14,
+              8
+            ]
+          },
+          {
+            "matching_index": 13,
+            "forcing_edge": [
+              15,
+              8
+            ]
+          },
+          {
+            "matching_index": 14,
+            "forcing_edge": [
+              16,
+              8
+            ]
+          },
+          {
+            "matching_index": 17,
+            "forcing_edge": [
+              19,
+              15
+            ]
+          },
+          {
+            "matching_index": 18,
+            "forcing_edge": [
+              21,
+              12
+            ]
+          },
+          {
+            "matching_index": 11,
+            "forcing_edge": [
+              12,
+              11
+            ]
+          },
+          {
+            "matching_index": 5,
+            "forcing_edge": [
+              5,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "shape": [
+        3,
+        3,
+        3,
+        1
+      ],
+      "matching": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          23,
+          14
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          25,
+          18
+        ],
+        [
+          26,
+          15
+        ]
+      ],
+      "forced_cover": {
+        "side": "rows",
+        "steps": [
+          {
+            "matching_index": 14,
+            "forcing_edge": [
+              16,
+              22
+            ]
+          },
+          {
+            "matching_index": 15,
+            "forcing_edge": [
+              17,
+              17
+            ]
+          },
+          {
+            "matching_index": 19,
+            "forcing_edge": [
+              22,
+              17
+            ]
+          },
+          {
+            "matching_index": 20,
+            "forcing_edge": [
+              23,
+              12
+            ]
+          },
+          {
+            "matching_index": 21,
+            "forcing_edge": [
+              24,
+              14
+            ]
+          },
+          {
+            "matching_index": 22,
+            "forcing_edge": [
+              25,
+              14
+            ]
+          },
+          {
+            "matching_index": 23,
+            "forcing_edge": [
+              26,
+              23
+            ]
+          },
+          {
+            "matching_index": 0,
+            "forcing_edge": [
+              0,
+              12
+            ]
+          },
+          {
+            "matching_index": 1,
+            "forcing_edge": [
+              1,
+              8
+            ]
+          },
+          {
+            "matching_index": 2,
+            "forcing_edge": [
+              2,
+              8
+            ]
+          },
+          {
+            "matching_index": 3,
+            "forcing_edge": [
+              3,
+              9
+            ]
+          },
+          {
+            "matching_index": 6,
+            "forcing_edge": [
+              7,
+              8
+            ]
+          },
+          {
+            "matching_index": 7,
+            "forcing_edge": [
+              8,
+              8
+            ]
+          },
+          {
+            "matching_index": 8,
+            "forcing_edge": [
+              9,
+              5
+            ]
+          },
+          {
+            "matching_index": 9,
+            "forcing_edge": [
+              10,
+              5
+            ]
+          },
+          {
+            "matching_index": 10,
+            "forcing_edge": [
+              11,
+              6
+            ]
+          },
+          {
+            "matching_index": 11,
+            "forcing_edge": [
+              12,
+              7
+            ]
+          },
+          {
+            "matching_index": 12,
+            "forcing_edge": [
+              14,
+              8
+            ]
+          },
+          {
+            "matching_index": 13,
+            "forcing_edge": [
+              15,
+              8
+            ]
+          },
+          {
+            "matching_index": 16,
+            "forcing_edge": [
+              18,
+              11
+            ]
+          },
+          {
+            "matching_index": 17,
+            "forcing_edge": [
+              19,
+              11
+            ]
+          },
+          {
+            "matching_index": 18,
+            "forcing_edge": [
+              21,
+              12
+            ]
+          },
+          {
+            "matching_index": 4,
+            "forcing_edge": [
+              4,
+              6
+            ]
+          },
+          {
+            "matching_index": 5,
+            "forcing_edge": [
+              5,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "shape": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "matching": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          26,
+          14
+        ],
+        [
+          27,
+          15
+        ]
+      ],
+      "forced_cover": null
+    },
+    {
+      "shape": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "matching": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          26,
+          14
+        ],
+        [
+          27,
+          15
+        ]
+      ],
+      "forced_cover": null
+    },
+    {
+      "shape": [
+        4,
+        3,
+        3,
+        0
+      ],
+      "matching": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          22,
+          21
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          24,
+          23
+        ]
+      ],
+      "forced_cover": {
+        "side": "columns",
+        "steps": [
+          {
+            "matching_index": 5,
+            "forcing_edge": [
+              20,
+              11
+            ]
+          },
+          {
+            "matching_index": 6,
+            "forcing_edge": [
+              5,
+              3
+            ]
+          },
+          {
+            "matching_index": 8,
+            "forcing_edge": [
+              25,
+              13
+            ]
+          },
+          {
+            "matching_index": 10,
+            "forcing_edge": [
+              8,
+              5
+            ]
+          },
+          {
+            "matching_index": 11,
+            "forcing_edge": [
+              10,
+              14
+            ]
+          },
+          {
+            "matching_index": 12,
+            "forcing_edge": [
+              10,
+              15
+            ]
+          },
+          {
+            "matching_index": 13,
+            "forcing_edge": [
+              5,
+              7
+            ]
+          },
+          {
+            "matching_index": 16,
+            "forcing_edge": [
+              8,
+              9
+            ]
+          },
+          {
+            "matching_index": 17,
+            "forcing_edge": [
+              25,
+              19
+            ]
+          },
+          {
+            "matching_index": 18,
+            "forcing_edge": [
+              16,
+              18
+            ]
+          },
+          {
+            "matching_index": 19,
+            "forcing_edge": [
+              10,
+              10
+            ]
+          },
+          {
+            "matching_index": 22,
+            "forcing_edge": [
+              25,
+              22
+            ]
+          },
+          {
+            "matching_index": 23,
+            "forcing_edge": [
+              25,
+              23
+            ]
+          },
+          {
+            "matching_index": 0,
+            "forcing_edge": [
+              8,
+              8
+            ]
+          },
+          {
+            "matching_index": 1,
+            "forcing_edge": [
+              0,
+              4
+            ]
+          },
+          {
+            "matching_index": 2,
+            "forcing_edge": [
+              0,
+              0
+            ]
+          },
+          {
+            "matching_index": 3,
+            "forcing_edge": [
+              2,
+              2
+            ]
+          },
+          {
+            "matching_index": 4,
+            "forcing_edge": [
+              1,
+              1
+            ]
+          },
+          {
+            "matching_index": 7,
+            "forcing_edge": [
+              8,
+              12
+            ]
+          },
+          {
+            "matching_index": 9,
+            "forcing_edge": [
+              2,
+              6
+            ]
+          },
+          {
+            "matching_index": 14,
+            "forcing_edge": [
+              16,
+              16
+            ]
+          },
+          {
+            "matching_index": 15,
+            "forcing_edge": [
+              16,
+              17
+            ]
+          },
+          {
+            "matching_index": 20,
+            "forcing_edge": [
+              23,
+              20
+            ]
+          },
+          {
+            "matching_index": 21,
+            "forcing_edge": [
+              23,
+              21
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "shape": [
+        4,
+        4,
+        1,
+        1
+      ],
+      "matching": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          14
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          25,
+          17
+        ],
+        [
+          26,
+          18
+        ],
+        [
+          27,
+          15
+        ]
+      ],
+      "forced_cover": null
+    },
+    {
+      "shape": [
+        4,
+        4,
+        2,
+        0
+      ],
+      "matching": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          22,
+          21
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          24,
+          23
+        ]
+      ],
+      "forced_cover": {
+        "side": "columns",
+        "steps": [
+          {
+            "matching_index": 8,
+            "forcing_edge": [
+              25,
+              13
+            ]
+          },
+          {
+            "matching_index": 9,
+            "forcing_edge": [
+              25,
+              14
+            ]
+          },
+          {
+            "matching_index": 10,
+            "forcing_edge": [
+              8,
+              5
+            ]
+          },
+          {
+            "matching_index": 11,
+            "forcing_edge": [
+              10,
+              15
+            ]
+          },
+          {
+            "matching_index": 12,
+            "forcing_edge": [
+              9,
+              6
+            ]
+          },
+          {
+            "matching_index": 13,
+            "forcing_edge": [
+              10,
+              11
+            ]
+          },
+          {
+            "matching_index": 15,
+            "forcing_edge": [
+              25,
+              17
+            ]
+          },
+          {
+            "matching_index": 16,
+            "forcing_edge": [
+              8,
+              9
+            ]
+          },
+          {
+            "matching_index": 17,
+            "forcing_edge": [
+              16,
+              18
+            ]
+          },
+          {
+            "matching_index": 18,
+            "forcing_edge": [
+              17,
+              19
+            ]
+          },
+          {
+            "matching_index": 19,
+            "forcing_edge": [
+              9,
+              10
+            ]
+          },
+          {
+            "matching_index": 23,
+            "forcing_edge": [
+              25,
+              23
+            ]
+          },
+          {
+            "matching_index": 0,
+            "forcing_edge": [
+              8,
+              8
+            ]
+          },
+          {
+            "matching_index": 2,
+            "forcing_edge": [
+              0,
+              0
+            ]
+          },
+          {
+            "matching_index": 3,
+            "forcing_edge": [
+              0,
+              4
+            ]
+          },
+          {
+            "matching_index": 4,
+            "forcing_edge": [
+              2,
+              2
+            ]
+          },
+          {
+            "matching_index": 5,
+            "forcing_edge": [
+              3,
+              3
+            ]
+          },
+          {
+            "matching_index": 6,
+            "forcing_edge": [
+              3,
+              7
+            ]
+          },
+          {
+            "matching_index": 7,
+            "forcing_edge": [
+              8,
+              12
+            ]
+          },
+          {
+            "matching_index": 14,
+            "forcing_edge": [
+              15,
+              16
+            ]
+          },
+          {
+            "matching_index": 22,
+            "forcing_edge": [
+              24,
+              22
+            ]
+          },
+          {
+            "matching_index": 1,
+            "forcing_edge": [
+              2,
+              1
+            ]
+          },
+          {
+            "matching_index": 21,
+            "forcing_edge": [
+              23,
+              21
+            ]
+          },
+          {
+            "matching_index": 20,
+            "forcing_edge": [
+              22,
+              20
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

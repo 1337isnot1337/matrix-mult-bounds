@@ -1,0 +1,313 @@
+{
+  "schema": "rank84-rank88-controls-v1",
+  "source_pins": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-23-source-staircase-spaces/proof.md": "505adc0fef6bef8894af6e75ebb085adbbc81bb5a49553b90d2edc190f5862bb",
+    "research/ai/2026-10-23-torus-order-ideal/proof.md": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+    "research/ai/2026-10-23-torus-rank80/proof.md": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682",
+    "results/torus-rank80-2026-10-23/certificates.json": "78291f6c6e437b5f452ff852398b0b3f5a735a1d6255d0947f7bb8598916223b"
+  },
+  "certificate_sha256": "25e348151eadd720a360970abc5264a069eb41d0d6236fe54657710d5e2a38a6",
+  "source_controls": {
+    "literal_source_terms": 4096,
+    "literal_coherent_terms": 256,
+    "coherent_monomial_ranks_checked": 16,
+    "source_factorizations_checked": 112,
+    "middle_multiplicities": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "disjoint_middle_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  },
+  "coherent_controls": {
+    "credited_integer_minors_replayed": 11,
+    "size9_ideals": 7,
+    "size13_ideals": 3,
+    "all_size5_ideals_contain_the_rank20_pair": true,
+    "coherent_rank_lower_by_nonzero_layer_size": {
+      "1..4": 16,
+      "5..8": 20,
+      "9..12": 24,
+      "13..16": 28
+    }
+  },
+  "profile_controls": {
+    "all_nonincreasing_layer_size_profiles": 245157,
+    "constraints": "strict pure-layer and three disjoint-middle-pair rank lower bounds",
+    "thresholds": {
+      "84": {
+        "admissible_profiles": 51553,
+        "maximum_volume": 56,
+        "profiles_at_maximum": 4,
+        "maximizing_profiles": [
+          [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          [
+            16,
+            12,
+            8,
+            8,
+            4,
+            4,
+            4
+          ],
+          [
+            16,
+            12,
+            12,
+            8,
+            4,
+            4,
+            0
+          ],
+          [
+            16,
+            16,
+            12,
+            8,
+            4,
+            0,
+            0
+          ]
+        ],
+        "volume_histogram": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 5,
+          "5": 7,
+          "6": 11,
+          "7": 15,
+          "8": 21,
+          "9": 28,
+          "10": 38,
+          "11": 49,
+          "12": 65,
+          "13": 82,
+          "14": 105,
+          "15": 131,
+          "16": 164,
+          "17": 200,
+          "18": 246,
+          "19": 296,
+          "20": 357,
+          "21": 424,
+          "22": 503,
+          "23": 588,
+          "24": 689,
+          "25": 796,
+          "26": 919,
+          "27": 1050,
+          "28": 1198,
+          "29": 1351,
+          "30": 1522,
+          "31": 1693,
+          "32": 1876,
+          "33": 2051,
+          "34": 2228,
+          "35": 2384,
+          "36": 2530,
+          "37": 2637,
+          "38": 2718,
+          "39": 2746,
+          "40": 2734,
+          "41": 2657,
+          "42": 2536,
+          "43": 2350,
+          "44": 2125,
+          "45": 1853,
+          "46": 1564,
+          "47": 1258,
+          "48": 969,
+          "49": 700,
+          "50": 475,
+          "51": 295,
+          "52": 169,
+          "53": 84,
+          "54": 37,
+          "55": 13,
+          "56": 4
+        }
+      },
+      "88": {
+        "admissible_profiles": 59809,
+        "maximum_volume": 60,
+        "profiles_at_maximum": 2,
+        "maximizing_profiles": [
+          [
+            12,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          [
+            16,
+            16,
+            16,
+            8,
+            4,
+            0,
+            0
+          ]
+        ],
+        "volume_histogram": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 5,
+          "5": 7,
+          "6": 11,
+          "7": 15,
+          "8": 21,
+          "9": 28,
+          "10": 38,
+          "11": 49,
+          "12": 65,
+          "13": 82,
+          "14": 105,
+          "15": 131,
+          "16": 164,
+          "17": 200,
+          "18": 246,
+          "19": 296,
+          "20": 357,
+          "21": 424,
+          "22": 503,
+          "23": 588,
+          "24": 689,
+          "25": 796,
+          "26": 919,
+          "27": 1050,
+          "28": 1198,
+          "29": 1352,
+          "30": 1525,
+          "31": 1701,
+          "32": 1893,
+          "33": 2084,
+          "34": 2285,
+          "35": 2477,
+          "36": 2670,
+          "37": 2839,
+          "38": 2992,
+          "39": 3105,
+          "40": 3181,
+          "41": 3193,
+          "42": 3149,
+          "43": 3023,
+          "44": 2829,
+          "45": 2557,
+          "46": 2235,
+          "47": 1867,
+          "48": 1496,
+          "49": 1134,
+          "50": 819,
+          "51": 554,
+          "52": 359,
+          "53": 217,
+          "54": 128,
+          "55": 71,
+          "56": 41,
+          "57": 21,
+          "58": 11,
+          "59": 5,
+          "60": 2
+        }
+      }
+    },
+    "enumeration_uses_discovery": false
+  },
+  "sharpness_controls": {
+    "sharp_spaces": [
+      {
+        "d": 2,
+        "m": 0,
+        "dimension": 56,
+        "supported_columns": 80,
+        "uniform_rank_upper": 80,
+        "attained_rank": 80,
+        "strict_threshold": 84
+      },
+      {
+        "d": 2,
+        "m": 1,
+        "dimension": 60,
+        "supported_columns": 84,
+        "uniform_rank_upper": 84,
+        "attained_rank": 84,
+        "strict_threshold": 88
+      }
+    ],
+    "boundary_space": {
+      "dimension": 64,
+      "supported_columns": 88,
+      "uniform_rank_upper": 88,
+      "strict_rank88_not_established": true
+    },
+    "integer_sharpness_minors_replayed": 2,
+    "field_transfer": "Odd integer minors are nonzero over C; support bounds hold over every field."
+  },
+  "long_pair_controls": {
+    "integer_long_rank_pairs": 12321,
+    "credited_prior_long_sum_upper": 144,
+    "new_long_sum_upper": 136,
+    "newly_excluded_pairs": 644,
+    "excluded_by_threshold": {
+      "84": 314,
+      "88": 330
+    },
+    "rank_sum136_boundary_not_excluded": true,
+    "conditional_on_credited_prior_long_sum_and_saturation": true,
+    "target_rank_pair_theorem_claimed": false,
+    "all_target_leg_pairs_claimed": false
+  },
+  "claim_scope": {
+    "field": "C",
+    "strict_source_thresholds": [
+      84,
+      88
+    ],
+    "sharp_maximum_dimensions": [
+      56,
+      60
+    ],
+    "arbitrary_complex_linear_spaces": true,
+    "order_ideal_reduction_characteristic_zero": true,
+    "conditional_long_pair_screen_upper": 136,
+    "target_rank_pair_theorem_claimed": false,
+    "all_target_leg_pairs_claimed": false,
+    "target_constructed": false,
+    "improves_omega": false,
+    "independent_external_review": false,
+    "formalized": false
+  }
+}

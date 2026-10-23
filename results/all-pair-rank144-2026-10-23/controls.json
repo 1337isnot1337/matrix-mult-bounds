@@ -1,0 +1,244 @@
+{
+  "schema": "all-pair-rank144-controls-v1",
+  "source_pins": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-20-graded-quantum-flags/saturation.md": "8d58190fa9995dc040cae9ce8df362639552974533a2c115eecb57694610f19b",
+    "research/ai/2026-10-23-torus-low-rank/proof.md": "36a9b1a2e1e79c342087bd424ad462200154508b2743b2477f5121afd96930ad",
+    "research/ai/2026-10-23-torus-rank-frontier/proof.md": "f1b57540ab043b4c1c130da8a98cd5b1c89895fcd449371a3eb26574b85d8091",
+    "research/ai/2026-10-23-torus-order-ideal/proof.md": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+    "research/ai/2026-10-23-rank37-source-spaces/proof.md": "48e4bc892da828b773673d3102f02e7ac2d82e2b8348309e91621ce7fa4565a9",
+    "research/ai/2026-10-23-rank80-sharp-spaces/proof.md": "50666d9495599397218854e4415caf4763c35679d915071f50aa0b0d2cb81356"
+  },
+  "source_controls": {
+    "literal_coefficients": 4096,
+    "cyclic_symmetry_coefficients": 4096,
+    "monomial_slice_ranks": 112,
+    "middle1_rank": 32,
+    "first_torus_distinct_parameter_weights": 112,
+    "second_torus_distinct_weights": {
+      "parameters": 112,
+      "rows": 112,
+      "columns": 112
+    },
+    "torus_coefficient_identities": 8192
+  },
+  "lowering_controls": {
+    "basis_identities": 336,
+    "identities_per_direction": {
+      "i": 112,
+      "k": 112,
+      "s": 112
+    },
+    "field_for_exponentiation": "C"
+  },
+  "compression_controls": {
+    "complete_size10_ideals": 7,
+    "literal_graph_edges_checked": 1120,
+    "disjoint_matching_edges": 180,
+    "forcing_steps": 96,
+    "matching_sizes": [
+      24,
+      24,
+      28,
+      28,
+      24,
+      28,
+      24
+    ],
+    "categories": {
+      "rows": 2,
+      "large_matching": 3,
+      "columns": 2
+    },
+    "row_and_column_budgets": [
+      12,
+      12
+    ],
+    "compression_kernel_dimension_upper": 9,
+    "acceptance_uses_matching_search": false
+  },
+  "rank_pair_controls": {
+    "mixed_rank_pairs_checked": 10302,
+    "long_rank_pairs_checked": 10404,
+    "mixed_pairs_above144_excluded": 1653,
+    "long_pairs_above144_excluded": 1711,
+    "before_compression_exception": [
+      [
+        100,
+        100
+      ]
+    ],
+    "special_case": {
+      "ranks": [
+        100,
+        100
+      ],
+      "kind": "mixed",
+      "source_rank_ceiling": 24,
+      "kernel_lower": 10,
+      "kernel_upper": 9,
+      "uses_defect12_compression": true,
+      "excluded": true
+    },
+    "interval_margins": [
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          201,
+          202
+        ],
+        "cases": 1,
+        "kernel_lower_minimum": 10,
+        "kernel_upper_maximum": 8
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          201,
+          202
+        ],
+        "cases": 3,
+        "kernel_lower_minimum": 19,
+        "kernel_upper_maximum": 8
+      },
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          188,
+          200
+        ],
+        "cases": 103,
+        "kernel_lower_minimum": 20,
+        "kernel_upper_maximum": 16
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          188,
+          200
+        ],
+        "cases": 117,
+        "kernel_lower_minimum": 19,
+        "kernel_upper_maximum": 16
+      },
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          177,
+          187
+        ],
+        "cases": 220,
+        "kernel_lower_minimum": 29,
+        "kernel_upper_maximum": 24
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          177,
+          187
+        ],
+        "cases": 231,
+        "kernel_lower_minimum": 28,
+        "kernel_upper_maximum": 24
+      },
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          161,
+          176
+        ],
+        "cases": 536,
+        "kernel_lower_minimum": 38,
+        "kernel_upper_maximum": 32
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          161,
+          176
+        ],
+        "cases": 552,
+        "kernel_lower_minimum": 36,
+        "kernel_upper_maximum": 32
+      },
+      {
+        "kind": "mixed",
+        "sum_interval": [
+          145,
+          160
+        ],
+        "cases": 792,
+        "kernel_lower_minimum": 46,
+        "kernel_upper_maximum": 44
+      },
+      {
+        "kind": "long",
+        "sum_interval": [
+          145,
+          160
+        ],
+        "cases": 808,
+        "kernel_lower_minimum": 51,
+        "kernel_upper_maximum": 44
+      }
+    ],
+    "boundary_controls": [
+      {
+        "ranks": [
+          72,
+          72
+        ],
+        "kind": "long",
+        "source_rank_ceiling": 80,
+        "kernel_lower": 64,
+        "kernel_upper": 112,
+        "uses_defect12_compression": false,
+        "excluded": false
+      },
+      {
+        "ranks": [
+          72,
+          72
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 80,
+        "kernel_lower": 61,
+        "kernel_upper": 112,
+        "uses_defect12_compression": false,
+        "excluded": false
+      },
+      {
+        "ranks": [
+          100,
+          44
+        ],
+        "kind": "mixed",
+        "source_rank_ceiling": 80,
+        "kernel_lower": 70,
+        "kernel_upper": 112,
+        "uses_defect12_compression": false,
+        "excluded": false
+      }
+    ],
+    "boundary_controls_are_constructions": false,
+    "every_pair_sum_upper": 144,
+    "all_three_rank_sum_upper": 216,
+    "short_rank100_long_rank_upper": 44
+  },
+  "certificate_sha256": "ad8659fcff2fbbd3e4c35b8bd439c32737841d44d2e0180d1618728d0762cc67",
+  "claim_scope": {
+    "claim_id": "AI-A4-ALL-PAIR-RANK144-001",
+    "field": "C",
+    "arbitrary_complex_leading_kernels": true,
+    "arbitrary_finite_Laurent_poles": true,
+    "every_balanced_pair_sum_upper": 144,
+    "total_balanced_rank_upper": 216,
+    "short_rank100_long_rank_upper": 44,
+    "necessary_conditions_only": true,
+    "leading_rank_bounds_sharp": false,
+    "matrix_target_constructed": false,
+    "smaller_exponent_established": false,
+    "independent_external_review": false,
+    "formalized": false
+  }
+}

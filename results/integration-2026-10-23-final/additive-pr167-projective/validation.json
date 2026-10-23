@@ -1,0 +1,217 @@
+{
+  "schema": "matrix-additive-integration-pr167-projective-v1",
+  "status": "passed",
+  "started_at_utc": "2026-10-23T15:45:56.398002+00:00",
+  "finished_at_utc": "2026-10-23T15:46:43.483895+00:00",
+  "elapsed_wall_seconds": 47.08589392199974,
+  "validated_commit": "19187753696e3f9d86daffdf78c01a168a1cf3b5",
+  "validated_tree": "ee47ff0a53cb2ea186bcd47ecc6187f0a4fc465d",
+  "starting_receipt_commit": "03538eab2f573f72ef8283b24741c785ce86c9ee",
+  "previous_validated_commit": "7cf5d0a04d6fed4fb99f4cba6077294ef3aba860",
+  "components": {
+    "pr167": "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+    "projective": "a7d37918fe19918700a3d5c5d9fad6df69cc7852"
+  },
+  "merge_commits": [
+    "a59b0ae18fda1ee61c537a1ae2f4efc17d99f493",
+    "19187753696e3f9d86daffdf78c01a168a1cf3b5"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "python_optimization": 0
+  },
+  "reused_evidence": {
+    "full_baseline": {
+      "validated_commit": "dabda4091b7ccc7f25cce5c7a5c001cf66a3241e",
+      "validated_tree": "7e1e9dc8a4a0ed8513e4dd14d29e194128c122d5",
+      "receipt_commit": "844857b78fbcf11b1ff636a672dfe31ebf00014b",
+      "receipt_relative_path": "../validation.json",
+      "receipt_sha256": "32ada5f40a20625c4f46f4c0675d5ad71a24479072d4e1ece8f6b4142207380d",
+      "tests_passed_in_that_gate": 924,
+      "combined_discovered_tests": 924,
+      "historical_replays_passed": 5,
+      "metadata_archive_checks_passed": 0,
+      "skips": 0
+    },
+    "current_base_increment": {
+      "validated_commit": "b1f2345829f4982d632f3eb58d4639171ca675a5",
+      "validated_tree": "5441a0c0ed7bf5bedad032844162ce281d1439bc",
+      "receipt_commit": "3cd88ded9aa1990ab1647f9c4afc579f02b67362",
+      "receipt_relative_path": "../current-base/validation.json",
+      "receipt_sha256": "31338af461eae5fdc7d75ad75e8bee9fd69536d0320a24d1edf9b5dfb50b0b18",
+      "tests_passed_in_that_gate": 5,
+      "combined_discovered_tests": 929,
+      "historical_replays_passed": 0,
+      "metadata_archive_checks_passed": 9,
+      "skips": 0
+    },
+    "previous_additive_increment": {
+      "validated_commit": "7cf5d0a04d6fed4fb99f4cba6077294ef3aba860",
+      "validated_tree": "d67869e10e83496ccbfd5d7789efb8c301cab765",
+      "receipt_commit": "03538eab2f573f72ef8283b24741c785ce86c9ee",
+      "receipt_relative_path": "../additive-pr155-pr156/validation.json",
+      "receipt_sha256": "df7f1d198e1f334bdbddc488bb4820d466a37028ab7a84eaa13c56b54f81f01b",
+      "tests_passed_in_that_gate": 25,
+      "combined_discovered_tests": 954,
+      "historical_replays_passed": 0,
+      "metadata_archive_checks_passed": 9,
+      "skips": 0
+    },
+    "all_prior_receipt_artifact_hashes_rechecked": true
+  },
+  "additive_coverage": {
+    "combined_discovered_tests": 980,
+    "combined_discovered_modules": 222,
+    "new_tests_passed": 26,
+    "new_rank_package_tests": 19,
+    "new_projective_tests": 7,
+    "metadata_archive_checks_passed": 9,
+    "test_executions_in_this_gate": 35,
+    "skips": 0,
+    "all_954_previous_test_ids_retained": true,
+    "existing_executable_test_and_research_files_unchanged": true,
+    "full_980_suite_rerun": false,
+    "new_test_ids": [
+      "test_all_pair_rank136.AllPairRank136Tests.test_boundary_pairs_remain_open_and_invalid_ranks_are_rejected",
+      "test_all_pair_rank136.AllPairRank136Tests.test_exact_interval_margins_and_strict_thresholds",
+      "test_all_pair_rank136.AllPairRank136Tests.test_frozen_record_and_complete_integer_coverage",
+      "test_all_pair_rank136.AllPairRank136Tests.test_prior144_is_retained_and_needed",
+      "test_all_pair_rank136.AllPairRank136Tests.test_source_pins_and_scope_corruption_are_rejected",
+      "test_all_pair_rank144.AllPairRank144Tests.test_complete_ideal_inventory_and_two_tori",
+      "test_all_pair_rank144.AllPairRank144Tests.test_exact_pair_screen_and_strict_source_thresholds",
+      "test_all_pair_rank144.AllPairRank144Tests.test_false_and_incomplete_forcing_sequences_are_rejected",
+      "test_all_pair_rank144.AllPairRank144Tests.test_frozen_evidence_replays",
+      "test_all_pair_rank144.AllPairRank144Tests.test_invalid_edges_and_repeated_matching_endpoints_are_rejected",
+      "test_all_pair_rank144.AllPairRank144Tests.test_missing_duplicate_and_wrong_budget_certificates_are_rejected",
+      "test_all_pair_rank144.AllPairRank144Tests.test_source_pins_and_inflated_scope_are_rejected",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_changed_normal_and_incomplete_degree_data_are_rejected",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_complete_projective_tangent_and_curvature_cover",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_exact_curves_cover_the_cubic_and_both_linear_factors",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_late_changes_distinguish_boundary_motion_from_source_residual",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_literal_reversal_transports_normals_without_a_rank_guard",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_missing_stratum_and_wrong_residual_generator_are_rejected",
+      "test_conic_projective_criterion.ConicProjectiveCriterionTests.test_source_pins_and_polynomial_only_parser",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_all_profile_counts_and_strict_thresholds_are_enforced",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_boundary_budget_and_unproved_scope_are_not_inflated",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_coherent_inventory_and_credited_bytes_are_checked",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_complete_saved_acceptance_and_sharpness",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_long_pair_increment_keeps_its_boundary_and_pair_scope",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_sharp_space_support_singularity_and_minor_size_are_checked",
+      "test_rank84_rank88_spaces.Rank84Rank88SpacesTests.test_source_pin_and_source_inventory_are_checked"
+    ]
+  },
+  "coordination": {
+    "unique_claims": 313,
+    "exact_parent_claim_id_union": true,
+    "explicit_existing_claim_field_updates": [
+      {
+        "claim_id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "field": "limitations",
+        "old_value": "Existence of a suitable representative on the affine base chart; does not assert extendability of every full first or second jet or cover other projective base charts. No full M(10,10,11) target, independent mathematical review, formalization or exponent improvement.",
+        "new_value": "Correct affine-chart prerequisite for AI-CONIC-PROJECTIVE-CRITERION-001, which supplies the projective extension in a separate package. This claim concerns existence of a suitable representative on the affine base chart and does not assert extendability of every full first or second jet. No full M(10,10,11) target, independent mathematical review, formalization or exponent improvement.",
+        "source_commit": "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+        "reason": "Preserve the affine prerequisite scope while identifying the separate new projective extension."
+      }
+    ],
+    "distinct_metadata_files_resolved": 5,
+    "conflict_hunks_resolved_across_both_merges": 12,
+    "frozen_research_result_and_test_files_byte_identical": 45,
+    "pinned_research_files_modified_for_resolution": false
+  },
+  "protected_archives_unchanged": true,
+  "jobs": [
+    {
+      "name": "new-package-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_all_pair_rank144",
+        "test_rank84_rank88_spaces",
+        "test_all_pair_rank136",
+        "test_conic_projective_criterion",
+        "-v"
+      ],
+      "pythonpath": "/workspace/scratch/814d3d40fe43/mathdeps:/workspace/scratch/814d3d40fe43/matrix-integration-validation/tests",
+      "started_at_utc": "2026-10-23T15:45:57.692917+00:00",
+      "finished_at_utc": "2026-10-23T15:46:43.294947+00:00",
+      "wall_seconds": 45.60133804599991,
+      "unittest_reported_seconds": 45.14,
+      "tests_run": 26,
+      "expected_tests": 26,
+      "returncode": 0,
+      "unittest_footer": "OK",
+      "log": "new-package-tests.log.gz",
+      "raw_log_sha256": "30ba8d3b5c144dd3c9bc3b997ddfe25dd6e69023eb189d27f442cdf7cd596f60",
+      "raw_log_bytes": 4588,
+      "compressed_log_sha256": "52954a2db8aca95314b775120f24761508ab434c8db5bcc2179a885a7389a97b",
+      "status": "passed"
+    },
+    {
+      "name": "metadata-archive-checks",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_research.RepositoryTests",
+        "test_archive_integrity",
+        "-v"
+      ],
+      "pythonpath": "/workspace/scratch/814d3d40fe43/mathdeps:/workspace/scratch/814d3d40fe43/matrix-integration-validation/tests",
+      "started_at_utc": "2026-10-23T15:46:43.295065+00:00",
+      "finished_at_utc": "2026-10-23T15:46:43.426729+00:00",
+      "wall_seconds": 0.1312992610000947,
+      "unittest_reported_seconds": 0.066,
+      "tests_run": 9,
+      "expected_tests": 9,
+      "returncode": 0,
+      "unittest_footer": "OK",
+      "log": "metadata-archive-checks.log.gz",
+      "raw_log_sha256": "a99c9e8730a936405899794e41979d4c75e9474837c3ec33fba546b89cc884b5",
+      "raw_log_bytes": 1040,
+      "compressed_log_sha256": "56e0dbdccdb2936b4b6d03287ce9b80e9b487562c68e7fcafd4d3e4a97be46bb",
+      "status": "passed"
+    }
+  ],
+  "artifact_sha256": {
+    "README.md": {
+      "bytes": 3532,
+      "sha256": "b7ac6025abb9f8e5298ce10a409a7d8387ce129738afffd5cb99f6727bb049cb"
+    },
+    "archive-integrity.json": {
+      "bytes": 7333,
+      "sha256": "2c8ce04108c986ebe5661bbc6ade52f0b171d62bb0ba141fdf31e1b188c33ede"
+    },
+    "changed-paths.json": {
+      "bytes": 7260,
+      "sha256": "7ac4b75b932db0bdb4f7656db498b91c9d288c22e0284a7276b07fdf1bd8a157"
+    },
+    "claim-union.json": {
+      "bytes": 12160,
+      "sha256": "0639347988f4c68b12973c4829b3353178ccb0d9cc2de0a56381e2fefce0d9ca"
+    },
+    "coverage.json": {
+      "bytes": 108741,
+      "sha256": "07a8f55aa705f4c632bc96611cb2071045ba571c662f9fcbadb47a947c64494d"
+    },
+    "frozen-components.json": {
+      "bytes": 11292,
+      "sha256": "2eee9c4116a71165e1dc236de0fd558dcefbf5d9ed3096e786c52d0ec8ea954e"
+    },
+    "metadata-archive-checks.log.gz": {
+      "bytes": 286,
+      "sha256": "56e0dbdccdb2936b4b6d03287ce9b80e9b487562c68e7fcafd4d3e4a97be46bb"
+    },
+    "new-package-tests.log.gz": {
+      "bytes": 914,
+      "sha256": "52954a2db8aca95314b775120f24761508ab434c8db5bcc2179a885a7389a97b"
+    }
+  },
+  "excluded_ongoing_work": [
+    "rank92/rank96 source-space package",
+    "later target consequences"
+  ],
+  "limits": "Additive validation only: the historical 924-test baseline and five archive replays, the five-test current-base increment, and the previous 25-test increment retain their identified scopes. This snapshot ran only 26 new tests and nine repository/archive checks. All 980 tests were discovered, not rerun together. No hosted CI, independent external mathematical review, formalization, or exponent improvement is claimed."
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "rank80-sharp-spaces-controls-v1",
+  "source_pins": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-23-torus-order-ideal/proof.md": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+    "research/ai/2026-10-23-torus-rank80/proof.md": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682",
+    "results/torus-rank80-2026-10-23/certificates.json": "78291f6c6e437b5f452ff852398b0b3f5a735a1d6255d0947f7bb8598916223b"
+  },
+  "source_controls": {
+    "literal_source_terms": 4096,
+    "literal_coherent_terms": 256,
+    "source_basis_factorizations": 112,
+    "middle_multiplicities": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "disjoint_middle_pair": [
+      1,
+      5
+    ],
+    "weak_rank80_boundary": {
+      "dimension": 56,
+      "supported_columns": 80
+    }
+  },
+  "minor_controls": {
+    "coherent_minors": 11,
+    "source45_ideals": 1709,
+    "source45_layer_profiles": 118,
+    "sharp_space_minors": 1,
+    "integer_minors_checked": 1721,
+    "all_determinants_modulo_two": 1,
+    "replay_uses_discovery": false,
+    "sharpness": {
+      "dimension": 44,
+      "cover_rows": 35,
+      "cover_columns": 44,
+      "uniform_rank_upper": 79,
+      "attained_rank": 79,
+      "literal_coefficients_covered": 1344,
+      "cover_uses_matching_algorithm": false
+    },
+    "field_transfer": "Each odd integer determinant is nonzero over C."
+  },
+  "certificate_sha256": "c0ce413f588bc923b5ec2be64e1ea0f6b65867327c40fe4f84c7c8dc05bd1fb1",
+  "claim_scope": {
+    "claim_id": "AI-A4-RANK80-SHARP-LINEAR-SPACE-001",
+    "field": "C",
+    "rank_strictly_less_than": 80,
+    "maximum_dimension": 44,
+    "dimension_bound_sharp": true,
+    "arbitrary_complex_linear_spaces": true,
+    "order_ideal_reduction_characteristic_zero": true,
+    "target_rank_pair_application": false,
+    "matrix_target_constructed": false,
+    "smaller_exponent_established": false,
+    "independent_external_review": false,
+    "formalized": false
+  }
+}

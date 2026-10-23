@@ -1,0 +1,1305 @@
+{
+  "schema": "torus-rank80-minors-v1",
+  "coefficient_domain": "integers 0 and 1",
+  "verification_modulus": 2,
+  "mask_encoding": "canonical hexadecimal; bit n selects index n",
+  "coherent_coordinate_order": "(i,s) lexicographic on range(4) x range(4)",
+  "source_coordinate_order": "(i,k,s) lexicographic on range(4) x range(7) x range(4)",
+  "coherent20_pair": {
+    "coefficient_mask": "0x12",
+    "minor_rows_mask": "0x3e7cf9f",
+    "minor_columns_mask": "0xfffff"
+  },
+  "coherent9_ideals": [
+    {
+      "shape": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        3,
+        3,
+        2,
+        1
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        3,
+        3,
+        3,
+        0
+      ],
+      "coefficient_mask": "0x401",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        2,
+        2,
+        1
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        3,
+        1,
+        1
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        3,
+        2,
+        0
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        4,
+        1,
+        0
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    }
+  ],
+  "coherent13_ideals": [
+    {
+      "shape": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "coefficient_mask": "0x2018",
+      "minor_rows_mask": "0xfffffff",
+      "minor_columns_mask": "0xfffffff"
+    },
+    {
+      "shape": [
+        4,
+        4,
+        3,
+        2
+      ],
+      "coefficient_mask": "0x1082",
+      "minor_rows_mask": "0xfffffff",
+      "minor_columns_mask": "0xfffffff"
+    },
+    {
+      "shape": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "coefficient_mask": "0x1082",
+      "minor_rows_mask": "0xfffffff",
+      "minor_columns_mask": "0xfffffff"
+    }
+  ],
+  "source51_ideals": [
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x11310000134700016ca00011fb",
+      "minor_rows_mask": "0x7bf1e7ffff1e7ffff1efffff",
+      "minor_columns_mask": "0xff01ffffffffffffffde0ccc008c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1114800005a3001076500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf040ffffffffffffffeeccec088c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x332000005a00001dd00949fb",
+      "minor_rows_mask": "0xffffffffffffffffffff",
+      "minor_columns_mask": "0xfff0fff0fffeefffffffcff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1114800002d1001176500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf040ffffffffffff0fff0fef008e"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          2,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x332000002d00001dd00949fb",
+      "minor_rows_mask": "0xffffffffffffffffffff",
+      "minor_columns_mask": "0xfff0fff0fffeeffefffefff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1106400002d1001176500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf080ffffffffffff0fff0fef008e"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x159000002d00001dd00949fb",
+      "minor_rows_mask": "0xffffffffffffffffffff",
+      "minor_columns_mask": "0xfff0fff0ffffffefeffeffe"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          4,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x6c000082d00001dd00949fb",
+      "minor_rows_mask": "0xf02effffffffffffffffff",
+      "minor_columns_mask": "0x7000ff0dff0fff9fffffffffff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x11190000134700016ca00011fb",
+      "minor_rows_mask": "0xff1efffff1efffff1efffff",
+      "minor_columns_mask": "0xf0e1fffffffffffffffe8c8c008c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1590000134700016ca00011fb",
+      "minor_rows_mask": "0x7fff007ffff06fffff1efffff",
+      "minor_columns_mask": "0xfffcffffffffffff0cff008f008a"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1119000011a3001076500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf020fffffffffffffffe0fae000e"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x364000005a00001dd00949fb",
+      "minor_rows_mask": "0xffffffffffffffffffff",
+      "minor_columns_mask": "0xfff0fff0ffffefffefffcff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x110c800005a3001076500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf040ffffffffffffffff8dae000c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1b2000005a00001dd00949fb",
+      "minor_rows_mask": "0xffffffffffffffffffff",
+      "minor_columns_mask": "0xfff0fff0fffffffffffcefe"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x12c800005a3001076500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf800ffffffffffffceef8eef088c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x36400000b400003bb00149fb",
+      "minor_rows_mask": "0xf3e7ffff3ffffff3ffffff",
+      "minor_columns_mask": "0xf000fff0fff0fffceffcfffceff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x110c800002d1001176500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf040ffffffffffff0fff0fef080e"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          2,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1b2000002d00001dd00949fb",
+      "minor_rows_mask": "0xffffffffffffffffffff",
+      "minor_columns_mask": "0xfff0fff0ffffffffeffceff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x12c800002d1001176500009fb",
+      "minor_rows_mask": "0x1f1ffffff1ffffff1ffffff",
+      "minor_columns_mask": "0xf800ffffffffffff8eefceee0c8c"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          2,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x364000005a00003bb00149fb",
+      "minor_rows_mask": "0x3f3e7ffff3e7ffff3ffffff",
+      "minor_columns_mask": "0xf880fff0fff0fffceff4eff4fff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          3,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0xd9000002d00001dd00949fb",
+      "minor_rows_mask": "0x3f017ffff9fffffffffffff",
+      "minor_columns_mask": "0xfc00ff00ff0effefffffffffff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          3,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x116400002d1001176500009fb",
+      "minor_rows_mask": "0x7f1ffdfff1ffdfff1ffffff",
+      "minor_columns_mask": "0xf0c0ffffffffffff88ef88cf0cef"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0x1b2000005a00003bb00149fb",
+      "minor_rows_mask": "0x33ffffff3ffffff3ffffff",
+      "minor_columns_mask": "0x3000fff0fff0fffeeffeeffeeff"
+    },
+    {
+      "shape": [
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "coefficient_mask": "0xd9000005a00003bb00149fb",
+      "minor_rows_mask": "0x3f14fffff3ffffff3ffffff",
+      "minor_columns_mask": "0xfc00ff00ff0effefffffffffff"
+    }
+  ]
+}

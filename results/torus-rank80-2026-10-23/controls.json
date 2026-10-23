@@ -1,0 +1,135 @@
+{
+  "schema": "torus-rank80-controls-v1",
+  "field": "C",
+  "source_sha256": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-20-graded-quantum-flags/saturation.md": "8d58190fa9995dc040cae9ce8df362639552974533a2c115eecb57694610f19b",
+    "research/ai/2026-10-23-torus-order-ideal/proof.md": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233"
+  },
+  "certificates_sha256": "78291f6c6e437b5f452ff852398b0b3f5a735a1d6255d0947f7bb8598916223b",
+  "source_controls": {
+    "literal_source_terms": 4096,
+    "literal_coherent_terms": 256,
+    "source_basis_factorizations": 112,
+    "middle_multiplicities": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "disjoint_middle_pair": [
+      1,
+      5
+    ],
+    "row_support_sizes": [
+      56,
+      56
+    ],
+    "column_support_sizes": [
+      56,
+      56
+    ]
+  },
+  "minor_controls": {
+    "coherent20_pair_minors": 1,
+    "coherent9_ideals": 7,
+    "coherent13_ideals": 3,
+    "source51_ideals": 24,
+    "integer_minors_checked": 35,
+    "all_determinants_modulo_two": 1,
+    "replay_uses_discovery": false,
+    "field_transfer": "Each odd integer determinant is nonzero over C."
+  },
+  "layer_controls": {
+    "middle3_pair_rank_lower": 80,
+    "middle2_13ideal_rank_lower": 84,
+    "middle1_and_5_obstruction_rank_lower": 80,
+    "middle5_nonempty_dimension_upper": 48,
+    "middle4_empty_dimension_upper": 48,
+    "remaining_dimension_upper_before_minors": 52,
+    "remaining_profiles": [
+      {
+        "layer_sizes": [
+          16,
+          15,
+          12,
+          4,
+          4,
+          0,
+          0
+        ],
+        "ideals": 8
+      },
+      {
+        "layer_sizes": [
+          16,
+          16,
+          11,
+          4,
+          4,
+          0,
+          0
+        ],
+        "ideals": 8
+      },
+      {
+        "layer_sizes": [
+          16,
+          16,
+          12,
+          4,
+          3,
+          0,
+          0
+        ],
+        "ideals": 8
+      }
+    ]
+  },
+  "rank_pair_controls": {
+    "rank_pairs_checked": 12321,
+    "pairs_above_144": 2926,
+    "excluded_pairs_above_144": 2926,
+    "new_pairs_of_sum_145_through_160": 1096,
+    "new_range_maximum_floor_product": 49,
+    "new_range_minimum_kernel_lower": 51,
+    "new_range_kernel_upper": 50,
+    "boundary_control": {
+      "ranks": [
+        72,
+        72
+      ],
+      "source_defect": 80,
+      "kernel_lower": 64,
+      "kernel_upper": 112,
+      "ordinary_regularity_forced": false,
+      "excluded": false
+    },
+    "ordinary_control": {
+      "ranks": [
+        110,
+        110
+      ],
+      "source_defect": 4,
+      "kernel_lower": 0,
+      "kernel_upper": 0,
+      "ordinary_regularity_forced": true,
+      "excluded": true
+    }
+  },
+  "claim_scope": {
+    "source_rank_strict_upper": 80,
+    "source_space_dimension_upper": 50,
+    "dimension_bound_sharp": false,
+    "balanced_long_rank_sum_upper": 144,
+    "long_rank_sum_bound_sharp": false,
+    "target_constructed": false,
+    "improves_omega": false,
+    "formalized_proof": false,
+    "proof_status": "proof-written-unreviewed",
+    "independent_review": false
+  }
+}

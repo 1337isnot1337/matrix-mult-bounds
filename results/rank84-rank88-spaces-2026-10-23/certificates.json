@@ -1,0 +1,150 @@
+{
+  "schema": "rank84-rank88-source-caps-v1",
+  "coefficient_domain": "integers 0 and 1",
+  "verification_modulus": 2,
+  "coherent20_pair": {
+    "coefficient_mask": "0x12",
+    "minor_rows_mask": "0x3e7cf9f",
+    "minor_columns_mask": "0xfffff"
+  },
+  "coherent9_ideals": [
+    {
+      "shape": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        3,
+        3,
+        2,
+        1
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        3,
+        3,
+        3,
+        0
+      ],
+      "coefficient_mask": "0x401",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        2,
+        2,
+        1
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        3,
+        1,
+        1
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        3,
+        2,
+        0
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "shape": [
+        4,
+        4,
+        1,
+        0
+      ],
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    }
+  ],
+  "coherent13_ideals": [
+    {
+      "shape": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "coefficient_mask": "0x2018",
+      "minor_rows_mask": "0xfffffff",
+      "minor_columns_mask": "0xfffffff"
+    },
+    {
+      "shape": [
+        4,
+        4,
+        3,
+        2
+      ],
+      "coefficient_mask": "0x1082",
+      "minor_rows_mask": "0xfffffff",
+      "minor_columns_mask": "0xfffffff"
+    },
+    {
+      "shape": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "coefficient_mask": "0x1082",
+      "minor_rows_mask": "0xfffffff",
+      "minor_columns_mask": "0xfffffff"
+    }
+  ],
+  "sharp_spaces": [
+    {
+      "d": 2,
+      "m": 0,
+      "dimension": 56,
+      "rank_upper": 80,
+      "coefficient_mask": "0xd6c82d1dd949fb",
+      "minor_rows_mask": "0x1bfff001bfff189fffffffffff",
+      "minor_columns_mask": "0xffffffffffffffffffff"
+    },
+    {
+      "d": 2,
+      "m": 1,
+      "dimension": 60,
+      "rank_upper": 84,
+      "coefficient_mask": "0x6d6c82d1dd949fb",
+      "minor_rows_mask": "0xbbe7f00bbe7f95ffffffffffff",
+      "minor_columns_mask": "0xfffffffffffffffffffff"
+    }
+  ],
+  "boundary_space": {
+    "d": 2,
+    "m": 2,
+    "dimension": 64,
+    "rank_upper": 88
+  }
+}

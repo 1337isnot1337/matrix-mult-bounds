@@ -1,0 +1,89 @@
+{
+  "base_commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "used_for": "Canonical A4 source labels and literal six-index coefficients."
+    },
+    {
+      "path": "research/ai/2026-10-23-torus-order-ideal/proof.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+      "used_for": "Characteristic-zero reduction of arbitrary bounded-rank source spaces to coordinate order ideals."
+    },
+    {
+      "path": "research/ai/2026-10-23-torus-rank80/proof.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682",
+      "used_for": "Coherent rank lower bounds, exact middle-layer factorizations and disjoint layer pairs."
+    },
+    {
+      "path": "results/torus-rank80-2026-10-23/certificates.json",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "78291f6c6e437b5f452ff852398b0b3f5a735a1d6255d0947f7bb8598916223b",
+      "used_for": "Eleven coherent certificates copied without change and independently replayed."
+    },
+    {
+      "path": "research/ai/2026-10-23-source-staircase-spaces/proof.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "505adc0fef6bef8894af6e75ebb085adbbc81bb5a49553b90d2edc190f5862bb",
+      "used_for": "Credited all-size staircase dimensions and exact joint column support, specialized to a=4,d=3,m=0..3."
+    },
+    {
+      "path": "research/ai/2026-10-23-rank92-rank96-spaces/proof.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "0ef85dc03d267020570d1236d6bda729388b9babc8c8425a3b2b995cc6509b04",
+      "used_for": "Complete coherent layer-inequality framework and preceding source-cap attribution."
+    },
+    {
+      "path": "research/ai/2026-10-23-rank92-rank96-spaces/verify.py",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "38433e54c801a12edad04ffc1988da707c2bb9a8a6e5a4c15ac4f3a59dee37da",
+      "used_for": "Credited literal-source, factorization, coherent-minor, mask and profile-enumeration acceptance routines, copied and extended in the new verifier."
+    },
+    {
+      "path": "research/ai/2026-10-23-rank92-rank96-spaces/discover.py",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "7100a98c698db7b14ed83c41712db492e3e76be974372d28974bd87f174c5aa9",
+      "used_for": "Credited entry-formula reconstruction, binary witness selection and high-pivot minor extraction, adapted only in the new discovery file."
+    },
+    {
+      "path": "research/ai/2026-10-23-leading-rank202/proof.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "15e5544cfb6dcfa28eadf32644deb1a2ef2a85e7820bbdaa1e69d6870750291c",
+      "used_for": "Frozen full-short long-rank upper bound28 and complete Laurent presentation hypotheses."
+    },
+    {
+      "path": "research/ai/2026-10-23-all-pair-rank136/proof.md",
+      "commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "sha256": "f4725a803802223a69a9bfb1f0d217501be71167ea73410f3ea6537a8cf05581",
+      "used_for": "Retained individual rank bounds, scalar balancing, source-rank compression ceiling and all-order saturated target-support inequality."
+    }
+  ],
+  "ownership_context": {
+    "checked_date": "2026-10-23",
+    "latest_open_pr_number_observed": 177,
+    "prerequisite_pr": {
+      "number": 176,
+      "head": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91"
+    },
+    "context_only_prs": [
+      {
+        "number": 171,
+        "head": "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+        "scope": "Two-monomial coherent-rank formulas; not imported."
+      },
+      {
+        "number": 177,
+        "head": "100146f433cc8a499df59f9015af95048d29c66e",
+        "scope": "Earlier rank84/rank88 source caps; this open branch is not imported."
+      }
+    ],
+    "separate_concurrent_work": "The rank91 source-cap continuation is on another isolated branch and is not imported here."
+  },
+  "attribution": "Owner-directed AI-derived continuation. The canonical source, characteristic-zero lowering, coherent minors, all-size staircase construction, preceding acceptance arithmetic, and all-order target-support proof retain their existing credit and exact byte pins. New: four complete high-threshold layer case proofs, four attained-rank certificates, and the full-short necessary long-rank set1..12 or20. Internal derivations and replays are not independent external review. No target construction, target sharpness, formalization, historical priority or exponent improvement is claimed."
+}
