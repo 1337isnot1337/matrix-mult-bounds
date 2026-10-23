@@ -1,5 +1,16 @@
 # Research status
 
+## Finite boundary for two-equal-leg S5 staircase covers
+
+The [complete staircase census](research/ai/2026-10-23-s5-staircase-covers/proof.md)
+checks 891888 monotone first-leg thresholds with two equal legs and an
+independently minimized third. All eight cube block-word minima agree
+with the preceding weighted S5 covers. Nonlinear thresholds in this
+family therefore cannot strengthen those bounds. Claim
+`EXP-S5-STAIRCASE-COVERS-001` is a finite experiment; three unequal legs,
+nonmonotone covers and other source data remain outside it. No exponent
+improvement or arbitrary cover optimality is claimed.
+
 ## Finite weighted S5 cubes close the selected M19 coordinate target
 
 The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)

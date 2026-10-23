@@ -1,5 +1,11 @@
 # Attribution and provenance
 
+The `2026-10-23-s5-staircase-covers` package is owner-directed Codex work.
+The S5 algebra and weighted cube certificate retain their original credit
+and exact source pin. The minimal-third-leg formula, finite staircase
+census and literal small support controls are local continuations. No new
+external theorem, independent review or general cover optimality is claimed.
+
 The `2026-10-23-s5-finite-covers` package is owner-directed Codex work.
 It adopts the byte-pinned S5 radical/block certificates and finite frontier
 with their existing attribution. Separate integer weights, cube slice

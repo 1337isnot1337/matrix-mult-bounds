@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The S5 staircase continuation is on `research/s5-staircase-cover-boundary-20261023`,
+stacked on PR111. Its `ai/2026-10-23-s5-staircase-covers/` package exhausts
+891888 monotone first-leg thresholds with two equal legs; all eight costs
+match the weighted cube covers. Three unequal legs and finer source support
+are separate next questions. Finite experiment, no exponent improvement.
+
 The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
 (PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
 Separate weights give actual-source cube bounds 6867542 and 42493572 for
