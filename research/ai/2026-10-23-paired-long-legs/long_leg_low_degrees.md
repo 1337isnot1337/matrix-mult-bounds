@@ -164,7 +164,7 @@ nonzero constants to write this as `psi_x(beta_y)=psi_y(gamma_x)`. Each
 then becomes `psi_x(beta_y)=psi_y(beta_x)`, and the adjacent-slice identity gives
 `beta_y=lambda epsilon_y` for one scalar `lambda`.
 
-Fix `I=J\\{j}` and put `U_j=(id tensor u_j)(alpha_I)`. For each coordinate
+Fix `I=J\{j}` and put `U_j=(id tensor u_j)(alpha_I)`. For each coordinate
 `k in I`, apply this pair argument with `j` and `k`, fixing the remaining
 block indices. It says that along coordinate `k`, the coefficient of `U_j`
 in the `epsilon_r` direction is supported at `r=y_k`, with one common value
