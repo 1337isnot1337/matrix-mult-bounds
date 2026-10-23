@@ -806,3 +806,14 @@ tests, all five archive replays and every hosted regression group at e16c7e3
 pass. The local full-suite run was interrupted without a completion receipt;
 final integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,
 with no arbitrary-complex or higher-source-power exclusion or exponent gain.
+
+The full-source Peirce refinement continues on
+`research/s5-peirce-finite-covers-20261023`, in
+`ai/2026-10-23-s5-peirce-covers/`. Replaying all original source
+coefficients validates finer degree assignments and cube bounds 6638912
+and 41159136. Five additional r=2 shapes are excluded; the remaining
+four are (16,16,25), (16,19,21), (14,19,24), and (16,20,20).
+The r=1 M(13,14,14) comparison remains open. All five focused tests pass;
+full integrated-head CI is pending. This result changes the degree input
+and does not contradict PR140's finite boundary for the coarser radical
+majorants. It does not depend on PR140 or establish an exponent gain.
