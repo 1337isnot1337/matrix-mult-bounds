@@ -39,3 +39,10 @@ series. The tests also reject corrupt source pins and overstated scope.
 Use `verify.py --write` only to regenerate the report, then replay without
 that flag. The isolated rank-budget matrices do not claim to satisfy the
 full tensor hypotheses or show optimality of the general theorem.
+
+Concurrent [PR112](https://github.com/1337isnot1337/matrix-mult-bounds/pull/112)
+also uses a regular right-inverse projection in its rank102 unit-image
+argument. Its independent derivation and prior source credit remain
+separate; no independent review is asserted here. This theorem uses
+scalar balancing and spanning low-rank target generators to remove the
+image-rank threshold. PR108's partial frames retain their separate scope.

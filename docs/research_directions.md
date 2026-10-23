@@ -292,3 +292,13 @@ hypotheses. Further A4 constructions must have rank at most109 in both
 long-leg leading coefficients after scalar balancing. Increasing pole
 orders while keeping a full-rank long-leg limit cannot escape this proof.
 The remaining singular-long-leg case is open; no target is constructed.
+
+## Nonsplit finite cube degree-model checkpoint
+
+The [October 23 vector-degree continuation](../research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks source parity and the common principal cover, replays seven bounded
+class-cover searches and evaluates all 3372 specified integer weight
+vectors. It retains 6155844. The outcome closes only that finite weight
+census; numerical class-cover optimality reports are not proof. A further
+attempt should preserve finer Peirce-corner information, change basis or
+change source power, rather than rerun the unchanged degree model.
