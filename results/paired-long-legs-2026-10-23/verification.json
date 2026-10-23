@@ -1,0 +1,255 @@
+{
+  "higher_degree_pilots": [
+    {
+      "a": 2,
+      "domain": 80,
+      "evidence": "exact rational elimination of the original coefficient matrix",
+      "kernel_dimension": 10,
+      "p": 3,
+      "rank_over_q": 70
+    },
+    {
+      "a": 3,
+      "domain": 12285,
+      "full_column_rank": true,
+      "p": 4,
+      "rank_mod_2": 12285
+    }
+  ],
+  "improves_omega": false,
+  "interpolation": [
+    {
+      "a": 2,
+      "full_spark_subsets": 3,
+      "nodes": 3,
+      "product_coefficients": 4
+    },
+    {
+      "a": 3,
+      "full_spark_subsets": 10,
+      "nodes": 5,
+      "product_coefficients": 9
+    },
+    {
+      "a": 4,
+      "full_spark_subsets": 35,
+      "nodes": 7,
+      "product_coefficients": 16
+    },
+    {
+      "a": 5,
+      "full_spark_subsets": 126,
+      "nodes": 9,
+      "product_coefficients": 25
+    },
+    {
+      "a": 6,
+      "full_spark_subsets": 462,
+      "nodes": 11,
+      "product_coefficients": 36
+    }
+  ],
+  "rank_controls": [
+    {
+      "a": 2,
+      "domain": 4,
+      "full_column_rank": true,
+      "p": 0,
+      "rank_mod_2": 4
+    },
+    {
+      "a": 2,
+      "domain": 24,
+      "full_column_rank": true,
+      "p": 1,
+      "rank_mod_2": 24
+    },
+    {
+      "a": 2,
+      "domain": 60,
+      "full_column_rank": true,
+      "p": 2,
+      "rank_mod_2": 60
+    },
+    {
+      "a": 3,
+      "domain": 9,
+      "full_column_rank": true,
+      "p": 0,
+      "rank_mod_2": 9
+    },
+    {
+      "a": 3,
+      "domain": 135,
+      "full_column_rank": true,
+      "p": 1,
+      "rank_mod_2": 135
+    },
+    {
+      "a": 3,
+      "domain": 945,
+      "full_column_rank": true,
+      "p": 2,
+      "rank_mod_2": 945
+    },
+    {
+      "a": 3,
+      "domain": 4095,
+      "full_column_rank": true,
+      "p": 3,
+      "rank_mod_2": 4095
+    }
+  ],
+  "saved_frontier": {
+    "forced_short_leg_strict": 22,
+    "source": "results/paired-sources-2026-10-20/all-power-frontier.json",
+    "source_sha256": "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54",
+    "square_outer_equalities": 6,
+    "survivors": 28,
+    "survivors_by_a": {
+      "14": 5,
+      "15": 11,
+      "16": 12
+    }
+  },
+  "status": "finite exact controls only; the all-size proof is in long_leg_low_degrees.md",
+  "support_dominance_p_a_plus_1": {
+    "improves_omega": false,
+    "method": "all-size interpolation-block support rank floor",
+    "records": [
+      {
+        "a": 14,
+        "p": 15,
+        "source_domain": 51990418471507579613861438400,
+        "source_rank_floor": 47484931398097292686425908160,
+        "survivors": 5,
+        "target_b_rank_not_larger": [],
+        "target_c_rank_not_larger": []
+      },
+      {
+        "a": 15,
+        "p": 16,
+        "source_domain": 13370166211817120086320541599375,
+        "source_rank_floor": 12467506451483906604417465427500,
+        "survivors": 11,
+        "target_b_rank_not_larger": [
+          [
+            12,
+            21,
+            17
+          ],
+          [
+            13,
+            22,
+            15
+          ],
+          [
+            13,
+            21,
+            16
+          ],
+          [
+            14,
+            22,
+            14
+          ]
+        ],
+        "target_c_rank_not_larger": [
+          [
+            12,
+            21,
+            17
+          ],
+          [
+            13,
+            22,
+            15
+          ],
+          [
+            13,
+            21,
+            16
+          ],
+          [
+            14,
+            22,
+            14
+          ]
+        ]
+      },
+      {
+        "a": 16,
+        "p": 17,
+        "source_domain": 3630248572231218504818023600988160,
+        "source_rank_floor": 3439900633910001756747468981903360,
+        "survivors": 12,
+        "target_b_rank_not_larger": [
+          [
+            13,
+            23,
+            17
+          ],
+          [
+            13,
+            22,
+            18
+          ],
+          [
+            14,
+            23,
+            16
+          ],
+          [
+            14,
+            22,
+            17
+          ],
+          [
+            15,
+            23,
+            15
+          ],
+          [
+            15,
+            22,
+            16
+          ]
+        ],
+        "target_c_rank_not_larger": [
+          [
+            13,
+            23,
+            17
+          ],
+          [
+            13,
+            22,
+            18
+          ],
+          [
+            14,
+            23,
+            16
+          ],
+          [
+            14,
+            22,
+            17
+          ],
+          [
+            15,
+            23,
+            15
+          ],
+          [
+            15,
+            22,
+            16
+          ]
+        ]
+      }
+    ],
+    "target_rank_formula": "padded matrix Koszul ranks from pinned all_ranks.py",
+    "target_rank_source_sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
+  }
+}
