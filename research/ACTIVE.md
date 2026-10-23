@@ -1,5 +1,7 @@
 # Integrated research coordination
 
+The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
+
 The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)
 is now complete: all 142,884 outer deletion pairs have dimension at least
 40, with two exact equality witnesses. This excludes all independent
