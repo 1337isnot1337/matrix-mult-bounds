@@ -1,5 +1,23 @@
 # Research status
 
+## Four double-leg split seeds and an exact W35 cover obstruction
+
+The [two-stage mixed-leg package](research/ai/2026-10-23-double-leg-anchor/README.md)
+gives four exact rank-76 Laurent border families from the externally
+credited M(4,5,5) seed. Two extra W splits after the eleven-U/two-W
+mixed seed yield 65/76/54 projective factor directions and fifteen
+strictly vanishing discarded rank-one tensors under one physical
+stabilizer. Every constant and positive Laurent coefficient replays.
+The stronger W-weight total falls from152 to144, meeting nine times
+the rank-four cap16. Yet W35 is in no saturated flat: each of four
+complete 23426-triple modulo101 anchor enumerations has maximum
+weight15. Thus none of these *displayed* W configurations has the
+nine-four-space cover required by the specified termwise Q(6,4)
+alignment. The written implication is unreviewed and does not exclude
+further factor changes or general source maps. No rank or exponent
+improvement is claimed.
+
+
 ## Mixed-leg splits pass both old screens, then meet a stronger W bound
 
 The [mixed U/W witness](research/ai/2026-10-23-mixed-leg-splits/README.md)

@@ -143,3 +143,19 @@ factors. Check the complete tensor identity and source attribution, then
 update the claim ledger and status together. A grid candidate also needs
 simultaneous incidence conditions and actual source maps; passing one
 weighted cover screen is insufficient.
+
+## Double-leg anchor continuation
+
+The focused four-variant follow-up is in
+[2026-10-23-double-leg-anchor](../2026-10-23-double-leg-anchor/README.md).
+It extends the PR162 eleven-U/two-W mixed seed by adding two W
+replacements to already U-modified source terms. All four full Laurent
+identities contract under the same one-parameter physical action,
+with 76 surviving rank-one terms and direction counts 65/76/54.
+The new W total weight is144, so the old 152>144 inequality no longer
+excludes these displays. An exhaustive anchor-plus-three finite-field
+argument nevertheless excludes their nine-flat W covers, since no
+weight16 flat contains the unchanged W35 direction. The precise next
+constructive target is to change this anchor and build an actual
+nine-flat cover, then a simultaneous source map. There is no exponent
+improvement or independent mathematical review.

@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The October23 double-leg anchor continuation is owner-directed
+AI-derived research using the externally attributed Fawzi et al.
+AlphaTensor rank-76 M(4,5,5) factorization, the pinned Perminov
+conversion and the existing mixed-leg and physical-basis certificates
+from PR128, PR154 and PR162. The four two-stage split identities,
+full Laurent contraction and saturated zero-weight W35 exclusion
+are local deductions with exact C99 finite-field checks. Their
+mathematical proofs are written and unreviewed, not independently
+audited. No construction of Q(6,4) maps, priority claim or improved
+matrix multiplication exponent is made.
+
+
 The `2026-10-23-mixed-leg-splits` package is owner-directed OpenAI Codex
 continuation of the credited AlphaTensor factorization and unchanged
 local five-split physical bases. Numerical mixed-integer searches found

@@ -1,5 +1,23 @@
 # Integrated research coordination
 
+## External-seed double-leg follow-up
+
+The [two-stage anchor package](ai/2026-10-23-double-leg-anchor/README.md)
+is based on PR162 (which depends on PR154 and PR128). Four additional
+two-W after eleven-U/two-W split variants each contract all fifteen
+discarded tensor products under the inherited one-parameter physical
+family. The 76 survivors have 65/76/54 factor directions. All variants
+pass the previous U and W weighted inequalities, including equality
+144=9*16 for the stronger W weights. Nevertheless all four fail the
+actual nine-flat W cover: the unchanged zero-weight W35 has maximum
+weight15 among 23426 possible anchor-plus-three finite-field spans.
+This is a complete scoped static-cover exclusion, not a complete
+source-map exclusion. Next: a physical family removing or changing
+W35, an actual nine-cover and simultaneous source maps; do not repeat
+the now-closed four W-substitution variants. Written unreviewed;
+omega remains at its prior bound.
+
+
 The next external-seed checkpoint is on
 `research/mixed-leg-error-20261023`, following PR154 and incorporating
 main `3008d70`. The `ai/2026-10-23-mixed-leg-splits/README.md` package

@@ -1,0 +1,32 @@
+{
+  "claim_id": "AI-EXTERNAL-DOUBLE-LEG-ANCHOR-012",
+  "schema": "two-stage-mixed-W-anchor-v1",
+  "source_sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+  "basis_sha256": "12cedfc73b6de98bb302b93941c05027b8acc41df03e4606b99363cb323e1c91",
+  "previous_mixed_replacements": 13,
+  "physical_weights": [[0,3,22,60],[0,6,22,22,3],[0,0,-13,-13,6]],
+  "new_W_replacement_scalar": 1,
+  "variants": {
+    "24-30": [[24,26],[30,32]],
+    "24-32": [[24,26],[32,30]],
+    "26-30": [[26,24],[30,32]],
+    "26-32": [[26,24],[32,30]]
+  },
+  "surviving_terms": 76,
+  "expanded_exact_terms": 91,
+  "discarded_terms": 15,
+  "direction_counts_U_V_W": [65,76,54],
+  "surviving_positive_coefficient_counts": {
+    "24-30": 527,"24-32": 513,"26-30": 534,"26-32": 533
+  },
+  "W_weight_total": 144,
+  "rank_four_flat_weight_cap": 16,
+  "anchor_source_index": 35,
+  "anchor_triples": 23426,
+  "anchor_independent_triples_mod101": 23352,
+  "anchor_maximum_flat_weight_mod101": 15,
+  "excludes_static_nine_W_space_cover": true,
+  "general_matrix_source_map_claimed": false,
+  "improves_omega": false,
+  "review_status": "written-unreviewed"
+}
