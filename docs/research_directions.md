@@ -38,10 +38,9 @@ The [rank-80 source theorem](../research/ai/2026-10-23-torus-rank80/proof.md)
 now bounds source dimension by 50 below slice rank 80 and the balanced
 long-rank sum by 144. Neither bound is asserted sharp. Seek source-space
 bounds at higher slice ranks, or use additional source structure in the
-saturated support inequality on the surviving region. The same method
-would exclude sums 129 through 144 if one proved a source cap at most 57
-strictly below rank 96; that stronger source statement is currently an
-unproved research target. The separate individual rank-101 cap remains.
+saturated support inequality on the surviving region. Check explicit supported-row and supported-column spaces before
+proposing a numerical cap at a higher threshold. The separate individual
+rank-101 cap remains.
 
 The [order-ideal source theorem](../research/ai/2026-10-23-torus-order-ideal/proof.md)
 now proves a sharp dimension32 cap below slice rank64 and reduces the
@@ -62,6 +61,12 @@ region. Neither the dimension24 bound nor sum176 is asserted sharp.
 The [initial singular-long theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
 retains the credited regular kernel correction and active-ruling argument;
 its former rank105 boundary has been superseded by these extensions.
+
+The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
+now proves rank six sharply over every field. Its open structural question
+is the rank-six locus and the required kernel/image alignment under two
+rank109 compressions. Check the broader long-map exclusions before
+treating such an aligned compression as a possible matrix target.
 
 ## Active paired construction: near-full width four
 
