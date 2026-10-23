@@ -12,6 +12,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Research field and annotated bibliography](docs/literature.md)
 - [The external 9/4 proof and its dependencies](docs/nine_fourths_route.md)
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
+- [A mixed-output candidate that passes every ordinary Koszul degree](research/ai/2026-10-23-mixed-longlegs-candidate/README.md)
 - [Shared-output Koszul obstruction with arbitrary target first identifications](research/ai/2026-10-23-shared-output-koszul/universal_identifications.md)
 - [Research directions and acceptance criteria](docs/research_directions.md)
 - [Attribution and provenance](PROVENANCE.md)

@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The [mixed-output checkpoint](ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md)
+fixes a score-improving canonical target of ten Full(5,10) copies in
+format (5,100,140). Every ordinary Koszul degree on all three legs now
+passes, as do both symmetric-power families, all quantum/upper support
+bounds, and every Schur component of the stated simultaneous contraction
+family. Do not repeat an unchanged ordinary Koszul census. The source's
+zero-free output-leg theorem makes that entire family automatic for any
+target in the format. The concrete next question is existence of an
+arbitrary three-leg degeneration, with target border rank 140 as a
+necessary condition. Any construction must mix source copies or leave
+the whole-block copywise class. Passing screens is not a construction.
+
 The October23 operational-barrier continuation is in
 `ai/2026-10-23-common-input-rank-barrier/proof.md`, on PR131.
 Every actual complex degeneration among Full/Mid partial sums at the

@@ -1,5 +1,35 @@
 # Research status
 
+## A mixed-output candidate survives every ordinary Koszul degree
+
+The [frozen candidate](research/ai/2026-10-23-mixed-longlegs-candidate/README.md)
+compares ten Full(5,10) source blocks with seven Full(5,2), ten Full(5,3),
+four shared-output O(3,3), two O(4,2), and six Mid(5,2) blocks. Both
+canonical tensors have format (5,100,140). An exact rational certificate
+proves a strictly larger symmetric formal operational score for the target.
+Every ordinary Koszul degree on all three legs passes. Both symmetric-power
+families and all quantum and upper support bounds also pass.
+
+The [source B-leg proof](research/ai/2026-10-23-mixed-longlegs-candidate/source_b_koszul.md)
+computes every exterior and simultaneous tensor-power contraction rank
+of a canonical shared-first sum of Full blocks. Exact target computations
+settle the nonautomatic degrees. The
+[Schur-component check](research/ai/2026-10-23-mixed-longlegs-candidate/schur_screen.md)
+also passes every component of that contraction family.
+The [source C-leg theorem](research/ai/2026-10-23-mixed-longlegs-candidate/source_c_koszul.md)
+proves that every zero-free bilinear tensor in the stated format has the
+same output-leg Koszul ranks, which are the largest attainable ranks in
+that format. Thus no target of this format can fail a C-leg comparison
+against this source, even after arbitrary target basis changes.
+
+These results settle necessary tests, not the orbit-closure question.
+The computed B-leg and Schur target ranks use the canonical target first
+bases. A whole-block assignment to individual source copies is impossible;
+any construction must leave that class. The source has border rank 140,
+so a next necessary condition is target border rank 140. No improving
+tensor degeneration or smaller exponent has been established. The written
+proofs and finite experiments remain without external independent review.
+
 ## A shared-output candidate fails for every target first identification
 
 The [exact second-leg Koszul certificate](research/ai/2026-10-23-shared-output-koszul/proof.md)

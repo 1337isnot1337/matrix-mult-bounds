@@ -133,7 +133,7 @@ class RepositoryTests(unittest.TestCase):
 
     def test_source_registry(self):
         sources=json.loads((ROOT/'references/sources.json').read_text())['sources']
-        self.assertEqual(len(sources),41)
+        self.assertEqual(len(sources),42)
         self.assertTrue({'PETROV20','SAWIN18','CVZ19','AVZ20','PASS26','AVZ26','DO01'} <= {s['id'] for s in sources})
         self.assertEqual(len(sources),len({s['id'] for s in sources}))
         for source in sources:

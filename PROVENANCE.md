@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-23-mixed-longlegs-candidate` package is owner-directed Codex
+research. AVZ26 supplies the formal operational potential; DO01 supplies
+the determinant theorem used by the preceding common-input rank proof;
+CVZ23 and SDW26 supply the quantum and support-functional interpretation.
+The repository's earlier exact balancing is credited at its pinned source.
+The frozen mixed-output profile, exact finite rank controls, evaluation
+kernel calculations, exterior quotient resolution, generic maximality
+deduction, Schur-component calculations and copywise dimension exclusion
+are written continuations in this session. The output-leg calculation
+is a local self-contained specialization of standard tensor-complex
+machinery, with explicit credit to Berkesch Zamaere, Erman, Kummini and
+Sam (BEKS13, Theorem 5.3 and Proposition 8.1). Standard vector-bundle
+cohomology and symmetric-group decomposition retain their stated hypotheses. Separate literal controls and same-session cross-agent audits
+do not establish external independent review. No priority claim, tensor
+degeneration, formal verification or improved exponent is asserted.
+
 The `2026-10-23-common-input-rank-barrier` package is owner-directed Codex
 work. The boundary-format determinant theorem is credited to Gelfand,
 Kapranov and Zelevinsky, through the inspected primary proof by Dionisi

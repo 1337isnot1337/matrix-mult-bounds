@@ -1,5 +1,18 @@
 # Research directions
 
+## October 23: construct or exclude the surviving mixed-output target
+
+The [canonical (5,100,140) candidate](../research/ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md)
+strictly improves the symmetric formal score and passes every ordinary
+Koszul degree, both symmetric-power families, all quantum/upper support
+bounds, and every Schur component of the recorded simultaneous
+contractions. Its source C-leg ranks are universal maxima in the format,
+so extending that census cannot exclude this target. Decide whether the
+target has the necessary border rank 140, or produce actual Laurent maps
+from the ten Full(5,10) copies. Whole-block allocation to individual
+copies is excluded. A scalar score or another passing rank screen does
+not supply the tensor construction or its exponent implication.
+
 ## October23: operational barrier includes arbitrary common-input mixtures
 
 The [rank representation](../research/ai/2026-10-23-common-input-rank-barrier/proof.md)

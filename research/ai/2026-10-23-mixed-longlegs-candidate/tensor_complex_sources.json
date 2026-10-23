@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "id": "BEKS13",
+      "authors": [
+        "Christine Berkesch Zamaere",
+        "Daniel Erman",
+        "Manoj Kummini",
+        "Steven V Sam"
+      ],
+      "title": "Tensor complexes: Multilinear free resolutions constructed from higher tensors",
+      "publication": "Journal of the European Mathematical Society 15 (2013), no. 6, 2257–2295",
+      "url": "https://doi.org/10.4171/JEMS/421",
+      "primary_pdf_url": "https://ems.press/content/serial-article-files/31930?nt=1",
+      "fixed_preprint_url": "https://arxiv.org/abs/1101.4604v5",
+      "preprint_version_date": "2013-10-13",
+      "inspected_on": "2026-10-23",
+      "inspection": "Publisher PDF: section 2.3, Definition 5.1, Theorem 5.3, and Proposition 8.1; fixed arXiv v5 metadata. Parent and theory agent inspected these independently in the same session.",
+      "used_scope": "Pinching-weight complex terms and the Segre-incidence support; specialized over C at a zero-free tensor of format (a,N,M).",
+      "local_mapping": {
+        "hypotheses": "a>=2, N>=1, M>=N+a-1; all nonzero A-slices B* -> C are injective",
+        "degree_range_for_pinching_specialization": "a-1 <= p <= M-N",
+        "paper_format": "M x (a,N)",
+        "weight": "(0,p-a,p+1)",
+        "excluded_intervals": "[p-a+1,p-1] and [p+2,p+N]",
+        "central_map": "(K_C^p)*, up to a common determinant twist",
+        "local_note": "tensor_complex_attribution.md"
+      },
+      "proof_rebuilt_locally": false,
+      "proof_scope_note": "The full external theorem is not rebuilt. The companion source_c_koszul.md gives a self-contained proof of the particular rank formula and its stated consequences.",
+      "historical_priority_claimed": false
+    }
+  ]
+}
