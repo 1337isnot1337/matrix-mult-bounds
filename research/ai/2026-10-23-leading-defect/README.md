@@ -11,6 +11,14 @@ between10 and16, and its image has one fixed coherent middle Hankel
 factor. For28<=d<=31, the coherent factor and upper bound16 still hold.
 Defects at least20, the full target and an exponent below9/4 remain open.
 
+The numerical204 corollary is subsumed by the separate written176
+bound in [PR129](https://github.com/1337isnot1337/matrix-mult-bounds/pull/129),
+if that package is accepted. This package retains a general invertible
+leading-kernel lemma for square matrix targets and an alternative A4
+argument;204 is not the strongest proposed frontier. See the comparison
+and exact peer commit in proof.md. No peer replay or independent review
+is claimed here.
+
 The new argument uses an invertible target parameter in the kernel of
 the leading first map. The regular right-inverse correction then forces
 every leading source slice to have rank at most2+min(q_B,q_C). Flanders's
@@ -41,7 +49,10 @@ parameter exposes a correction-rank violation in every example.
 
 Two exact literal source controls check all25088 source coefficients
 and ranks16 and20. Nine dimension controls record the strict Flanders
-margin and singular-kernel equality examples. These finite controls do
+margin and singular-kernel equality examples. Twelve synthetic matrix
+sources verify116 complete Laurent basis identities with an invertible
+leading-kernel parameter. Their minimum source rank is one; they calibrate
+the general lemma without satisfying the A4 source hypotheses. These controls do
 not formalize arbitrary series. Regenerate with `--write`, then replay
 without it. Tests reject false completion, changed rank bounds and
 corrupted source pins or external-source attribution.

@@ -293,11 +293,10 @@ long-leg leading coefficients after scalar balancing. Increasing pole
 orders while keeping a full-rank long-leg limit cannot escape this proof.
 The remaining singular-long-leg case is open; no target is constructed.
 
-The [leading-defect continuation](../research/ai/2026-10-23-leading-defect/proof.md)
-now excludes r_B+r_C>204 after scalar balancing of the two long maps,
-at every finite Laurent pole order. At total defects20..27, the leading
-first-map image has dimension10..16 and one fixed coherent Hankel factor.
-Defects28..31 retain the coherent factor and upper bound16. Increasing
-pole orders does not escape the total-defect20 threshold. The remaining
-coherent leading spaces and their later coefficient equations are open;
-passing a leading test is not a completed degeneration.
+The [invertible leading-kernel continuation](../research/ai/2026-10-23-leading-defect/proof.md)
+provides a general method for square matrix targets. Its A4 sum204
+corollary is weaker than the separate written sum176 proposal in
+[PR129](https://github.com/1337isnot1337/matrix-mult-bounds/pull/129),
+which should govern subsequent A4 frontier selection if accepted. Use
+the general kernel lemma in another source or a remaining chart; do not
+reopen the already covered defect20..27 interval as a new frontier.

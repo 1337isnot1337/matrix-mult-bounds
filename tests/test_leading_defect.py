@@ -21,6 +21,7 @@ class LeadingDefectTests(unittest.TestCase):
         self.assertEqual(v.verify(self.record), {
             "leading_equation_controls": 11, "source_gap_controls": 2,
             "literal_source_coefficients_checked": 25088, "dimension_controls": 9,
+            "general_laurent_examples": 12, "general_basis_identities": 116,
             "complete_target_constructed": False, "improves_omega": False})
 
 
@@ -32,6 +33,7 @@ class LeadingDefectTests(unittest.TestCase):
             lambda x: x["leading_equation_controls"][0].update(complete_target_identity=True),
             lambda x: x["leading_equation_controls"][0].update(compressed_unit_rank=2),
             lambda x: x["source_gap_controls"][1].update(literal_rank=19),
+            lambda x: x["general_kernel_examples"][0].update(source_minimum=16),
         ):
             bad = copy.deepcopy(self.record)
             mutate(bad)

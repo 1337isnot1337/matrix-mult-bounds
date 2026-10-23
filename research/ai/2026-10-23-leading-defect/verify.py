@@ -153,6 +153,42 @@ def invertible_kernel_controls():
             "minimum_source_slice_rank_bound_at_defect27": 2+27//2}
 
 
+def general_kernel_examples():
+    """Full Laurent identities in synthetic matrix sources with minimum rank one."""
+    t = s.Symbol("t", nonzero=True)
+    records = []
+    for m in (2, 3, 4):
+        shift = s.zeros(m)
+        for i in range(m):
+            shift[i, (i+1) % m] = 1
+        require(shift.trace() == 0 and shift.det() != 0,
+                "General leading kernel lost its invertible parameter")
+        for n in (1, 2):
+            for k in (1, 2):
+                r, dimension = m*n, m*n+k
+                c = s.eye(dimension)[:, :r]
+                b = c.T
+                leading = s.zeros(dimension)
+                leading[-1, -1] = 1
+                for i in range(m):
+                    for j in range(m):
+                        unit = s.zeros(m)
+                        unit[i, j] = 1
+                        target = s.kronecker_product(unit, s.eye(n))
+                        lift = s.zeros(dimension)
+                        lift[:r, :r] = target
+                        lift += int(i == j)*leading/t
+                        require(b*lift*c == target, "Synthetic full Laurent identity failed")
+                require(leading.rank() == 1 <= 2*k,
+                        "Synthetic leading slice violates the general bound")
+                records.append({"matrix_parameter_size": m, "multiplicity": n,
+                                "source_matrix_size": dimension, "long_defect": k,
+                                "basis_identities_checked": m*m, "leading_source_rank": 1,
+                                "source_minimum": 1, "general_rank_bound": 2*k,
+                                "a4_source": False})
+    return records
+
+
 def report():
     source = source_module()
     return {"scope": "All-order exclusion below total defect20; no full target or exponent gain.",
@@ -163,7 +199,8 @@ def report():
             "intermediate_defect_interval": [20, 27], "intermediate_first_map_rank_interval": [10, 16],
             "leading_equation_controls": endpoint_controls(source),
             "source_gap_controls": source_gap_controls(source),
-            "invertible_kernel_controls": invertible_kernel_controls()}
+            "invertible_kernel_controls": invertible_kernel_controls(),
+            "general_kernel_examples": general_kernel_examples()}
 
 
 def verify(record):
@@ -173,6 +210,9 @@ def verify(record):
             "literal_source_coefficients_checked": sum(
                 row["literal_coefficients_checked"] for row in record["source_gap_controls"]),
             "dimension_controls": len(record["invertible_kernel_controls"]["dimension_controls"]),
+            "general_laurent_examples": len(record["general_kernel_examples"]),
+            "general_basis_identities": sum(x["basis_identities_checked"]
+                                            for x in record["general_kernel_examples"]),
             "complete_target_constructed": False, "improves_omega": False}
 
 

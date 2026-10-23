@@ -15,6 +15,11 @@ target. Claims `AI-A4-LEADING-DEFECT-001` and
 Larger-defect constructions and the full target remain open; the certified
 upper bound remains9/4.
 
+The numerical204 corollary is weaker than the separate written,
+unreviewed176 bound in [PR129](https://github.com/1337isnot1337/matrix-mult-bounds/pull/129).
+This package retains a general invertible leading-kernel method for square
+matrix targets;204 is not the strongest current proposed A4 frontier.
+
 ## One regular long leg is impossible for the full A4 target
 
 The [unit-kernel argument](research/ai/2026-10-23-one-regular-leg/proof.md)

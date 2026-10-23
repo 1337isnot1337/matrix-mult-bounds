@@ -39,50 +39,56 @@ leading negative coefficient of (1) gives
 
     B_hat(0) M(L(X)) C_hat(0)=0 for every X.                 (3)
 
-## 2. The regular kernel correction with a singular column limit
+## 2. A general invertible leading-kernel bound
 
-The following argument does not require C_hat(0) to have full rank.
-Assume ker L contains an invertible matrix X_0. Replace F_hat by
-F'=t^h F_hat and B_hat by B'=t^(-h) B_hat. Then F' is regular with
-F'_0=L, while C_hat remains regular and (1) is preserved.
+The kernel argument applies beyond A4. Let M:A -> Mat_N(C) be any
+source slice map, and let the target be Xi(X)=X tensor I_n for X in
+Mat_m(C), with R=mn<=N and k=N-R. Balance B,C independently as above;
+write q_B=N-rank B_0 and q_C=N-rank C_0. Let L be the first nonzero
+Laurent coefficient of F. If ker L contains an invertible m-by-m X_0,
+then every f in im L satisfies
 
-For any invertible U in Mat_10, set
+    rank M(f)<=k+min(q_B,q_C).                              (4)
 
-    Y_X=M(F'(X)) C_hat,       D=Y_U,       G=B'D.
+No lower bound on the rank of either limiting long map is assumed.
+Here is the complete argument. Write a for the minimum valuation of F.
+Replace F by F'=t^(-a)F and B by B'=t^a B, so F' is regular with
+F'_0=L while C remains regular. For any invertible U in Mat_m set
 
-Both Y_X and D are regular. The unit output is G=U tensor I_11+O(t),
-so G is regular invertible. Normalize B''=G^(-1)B'. Then B''D=I_110
+    Y_X=M(F'(X)) C,       D=Y_U,       G=B'D.
+
+Both Y_X and D are regular. The unit output is G=U tensor I_n+O(t),
+so G is regular invertible. Normalize B''=G^(-1)B'. Then B''D=I_R
 exactly, and Z_X=B''Y_X is regular with
 
-    Z_X(0)=(U^(-1)X) tensor I_11.
+    Z_X(0)=(U^(-1)X) tensor I_n.
 
-Over C((t)), P=I_112-D B'' projects onto the two-dimensional kernel
-of B''. Consequently W_X=P Y_X=Y_X-D Z_X has rank at most2.
-The latter expression proves W_X is regular before specialization;
-therefore rank W_X(0)<=2. This is the credited regular right-inverse
-correction used in PR113, now applied with a singular column limit.
+Over C((t)), P=I_N-D B'' projects onto the k-dimensional kernel of
+B''. Thus W_X=P Y_X=Y_X-D Z_X has rank at most k. The latter expression
+proves W_X is regular before specialization, so rank W_X(0)<=k. This
+is the credited regular right-inverse mechanism of PR113, now applied
+with a singular column limit and a variable invertible target unit.
 
-Since L(X_0)=0, Y_(X_0)(0)=0, and hence
+Since L(X_0)=0, Y_(X_0)(0)=0, and therefore
 
-    W_(X_0)(0)=-M(L(U)) C_hat(0) ((U^(-1)X_0) tensor I_11).
+    W_(X_0)(0)=-M(L(U)) C_0 ((U^(-1)X_0) tensor I_n).
 
-The last factor is invertible. It follows that
-rank(M(L(U)) C_hat(0))<=2 for every invertible U. Such matrices form
-a dense open subset of Mat_10. The rank-at-most2 condition is closed
-and depends polynomially on U, so it holds for every U. Deleting q_C
-source columns can lose at most q_C in rank. Transpose the same
-argument to obtain the other side as well. For every f in im L,
+The last factor is invertible. Hence rank(M(L(U)) C_0)<=k for every
+invertible U. These U form a dense open subset of Mat_m. The rank-at-
+most-k condition is closed and depends polynomially on U, so it holds
+for every U. Deleting q_C source columns can lose at most q_C in rank.
+Transposing the entire identity and parameter gives the other side;
+X_0 remains invertible and source matrix rank is unchanged. This proves
+(4). The leading coefficient need not be polar for this general lemma.
 
-    rank M(f)<=2+min(q_B,q_C).                              (4)
-
-The target parameter is transposed in that argument, and invertibility
-of X_0 is preserved. Thus an invertible matrix in ker L requires
-min(q_B,q_C)>=14, by the source minimum16. In particular,
+For A4, k=2 and the source minimum is16. A nonzero leading image with
+an invertible target matrix in its kernel therefore requires
+min(q_B,q_C)>=14. In particular,
 
     d<=27 implies ker L contains no invertible matrix.      (5)
 
-No unit-lift regularity or rank condition was imposed on the original
-maps. Regularity of the scalar-balanced F' is automatic.
+The original maps have no unit-lift regularity or image-rank hypothesis.
+Regularity of the scalar-balanced first map F' is automatic.
 
 ## 3. A lower bound for the leading first-map rank
 
@@ -160,6 +166,13 @@ Additional literal source controls calibrate ranks16 and20; dimension
 controls record Flanders's strict margin and its singular-kernel equality
 example, without claiming a target at equality.
 
+Twelve synthetic full matrix sources check116 complete Laurent basis
+identities for m=2,3,4, n=1,2 and k=1,2. Their first lift is the embedded
+target plus t^(-1)tr(X) times a source matrix killed by C. The leading
+kernel contains an invertible cyclic permutation matrix, and its source
+rank one satisfies the general bound. These sources have minimum rank
+one, so the A4 exclusion premise is absent.
+
 Predecessor source minimum, gap, coherent locus and PR113 kernel argument
 retain exact byte pins and original credit. All new proofs and controls
 are owner-directed OpenAI Codex work, written and unreviewed. Finite
@@ -167,3 +180,16 @@ controls do not formalize arbitrary series or provide independent review.
 Defects at least20 remain open, subject to the stated leading-rank bounds.
 There is no full A4 exclusion, constructed matrix target or exponent
 improvement below9/4.
+
+## 6. Concurrent scope comparison
+
+[PR129 at43cd6a](https://github.com/1337isnot1337/matrix-mult-bounds/pull/129)
+has a separate written, unreviewed proof of the stronger A4 rank-sum
+bound176, using a source-space cap below48 and saturated target support.
+That result subsumes this package's numerical204 corollary if accepted.
+The contribution retained here is the general invertible leading-kernel
+lemma and its alternative A4 deduction, not a claim that204 is the
+strongest current proposed frontier. The peer proof was read at its
+pinned commit; its finite replay and independent review are not claimed
+as this package's evidence. Its original source and PR122 credits remain
+separate. PR151 reports a further selected-pair torus continuation.

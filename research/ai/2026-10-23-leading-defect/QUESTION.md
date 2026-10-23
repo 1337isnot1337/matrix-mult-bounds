@@ -22,3 +22,8 @@ Exact controls attain the d=16 leading equation, but its completion is
 now excluded by the all-order result. This is a full-source leading-flag
 question, separate from rank-four conic jets. No full target construction,
 general A4 exclusion, independent review or exponent improvement follows.
+
+After the result was pushed, concurrent PR129's broader176 bound was
+read at43cd6a. The numerical204 corollary is subsumed by that written
+proposal; retain the general kernel lemma and select future work against
+the stronger pending frontier instead of repeating this interval.
