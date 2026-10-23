@@ -1,5 +1,18 @@
 # Research status
 
+## Exact curve on the d=0 cubic-conic fiber
+
+The [d=0 curve](research/ai/2026-10-23-conic-d0-cubic/proof.md)
+specializes PR101's polynomial two-jet at `c=d=0` and extends it to an
+exact polynomial curve for every complex `a,b`, without changing its
+second coefficient. The maps are `B0+t*B1+t^2*B2` and `C0+t*C1`; `B2`
+has eight nonzero entries, `C2=0`, and the source-row correction vanishes.
+Independent replay checks all 4096 source terms, 78,400 kernel
+coefficients, and constant leading minors `1,1,-1`. Claim
+`AI-CONIC-D0-EXACT-CURVE-001` is written and unreviewed. This closes only
+the `d=0` fiber for the specified first jet; it does not construct the full
+matrix target or improve the exponent.
+
 ## Third-order lifts on the mixed cubic conic component
 
 The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)
@@ -12,9 +25,10 @@ leading minor determinants1,1,-1 give map row ranks14 and first-source
 rank12 throughout this chart. An earlier explicit rational point also
 has a separate standard-library replay. Claims
 `AI-CONIC-RATIONAL-THIRD-JET-001` and `AI-CONIC-MIXED-THIRD-JET-002`
-are written and unreviewed. The d=0 cubic fiber, fourth-order
-compatibility, an all-order lift and the full matrix target remain open.
-No smaller exponent is established.
+are written and unreviewed. For `d!=0`, the current family is verified
+through order three; fourth-order compatibility and a uniform all-order
+lift remain open. Other projective base charts and the full matrix target
+also remain open. No smaller exponent is established.
 
 ## All-order A4 exclusion with a partial regular unit image
 
