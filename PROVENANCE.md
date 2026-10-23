@@ -1,5 +1,7 @@
 # Attribution and provenance
 
+The 2026-10-23-geometric-diagonal-ranks package is owner-directed AI-assisted work. Concurrent PR207 at 09041022f0bb8dd2233eee95eec0017ee6998b1e has priority within the repository for the all-degree cyclic-source Toeplitz block decomposition and quadratic rank formula, and these are explicitly credited and independently restated. The geometric coefficient-family rank formula, explicit residue kernel basis, all-characteristic argument, and double-counted total defect are the local additions. Original cyclic coefficient convention and prior arbitrary-biform result retain SHA-256 pins in the proof; PR171 and PR186 retain their distinct scopes. Literal unpermuted source replays and separate rational tests were run offline by the generating session; these are not independent human mathematical review or formalization. No claim of historical priority, tensor-target construction, or exponent improvement is made.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
