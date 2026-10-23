@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-hankel-additive-cost` package is owner-directed Codex
+work. The canonical cyclic source, supporting-degree question and prior
+r=n-1 two-variable family retain their original credit and byte pins.
+The residue/key factorization, feasible-seed minimum, explicit monomial
+weight limit for arbitrary polynomial initial moments and balanced
+closed formula are local continuations. The literal coefficients and
+selected six-index tensor reconstructions are separately generated for
+verification. No external structural theorem, independent review,
+formalization, historical priority or smaller exponent is claimed.
+
+
 The `2026-10-23-hankel-annihilator-degree` package is owner-directed Codex
 work. It adopts the prior elementary scalar Hankel kernel description,
 full-output rank injections and PR115 field-intersection descent with

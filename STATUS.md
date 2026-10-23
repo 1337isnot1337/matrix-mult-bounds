@@ -1,5 +1,20 @@
 # Research status
 
+## Exact rank minimum in the binomial supporting chart
+
+The [binomial-chart proof](research/ai/2026-10-23-hankel-additive-cost/proof.md)
+determines the exact nonzero source-slice minimum for f_(k+r)=xz*f_k,
+over every field and all polynomial initial moments with the source
+bidegree bounds. Residue components give exact basis ranks and identity
+minors; a diagonal monomial limit supplies the general minimum. The
+balanced closed formula sharpens the additive cost by an explicit
+nonnegative cyclic-convolution term. Claim
+`AI-BINOMIAL-SUPPORT-CHART-MINIMUM-001` is written and unreviewed.
+Controls include 426 feasible seeds, 19 full literal certificates and
+1711 balanced formula cases. Arbitrary other degree-one supporting
+forms, matrix-target constructions and the exponent goal remain open.
+
+
 ## Primitive annihilator degrees widen the pointwise strip
 
 The [degree-count proof](research/ai/2026-10-23-hankel-annihilator-degree/proof.md)

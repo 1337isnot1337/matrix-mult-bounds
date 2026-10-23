@@ -298,7 +298,11 @@ family is not proved, and no new target exclusion is claimed. The
 [primitive-degree count](../research/ai/2026-10-23-hankel-annihilator-degree/proof.md)
 widened the pointwise strip to min(a(a-r),b(b-r)), with balanced
 sharpness for every 2<=r<a. Adding the two moving-variable costs
-remains a separate unproved conjecture, with a declared finite pilot. Singular
+remains a separate unproved conjecture, with a declared finite pilot. The
+[binomial-chart minimum](../research/ai/2026-10-23-hankel-additive-cost/proof.md)
+now proves that additive bound for the fixed form V^r-xz U^r and gives
+the exact minimum over all polynomial initial moments in that chart.
+Other primitive-degree-(1,1) supporting forms remain a separate question. Singular
 constructions, including the A4 shear completion, remain separate
 questions; the exponent goal still requires an actual construction or a
 complete alternative implication.

@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The binomial supporting-chart continuation is on
+`research/hankel-additive-cost-20261023`, with the question in
+`ai/2026-10-23-hankel-additive-cost/QUESTION.md`. It supplies a written
+unreviewed exact minimum over all polynomial initial moments of
+f_(k+r)=xz*f_k, using residue-key ranks and a diagonal weight limit.
+The general additive inequality for other primitive-degree-(1,1)
+supporting forms remains open. The source packages of PR134 are frozen
+for their separate required checks. No exponent improvement is claimed.
+
+
 The deficient-symbol kernel-descent continuation is on
 `research/hankel-equality-20261023` (PR115), with its question in
 `ai/2026-10-23-hankel-equality/QUESTION.md`. Its written unreviewed
