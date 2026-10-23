@@ -271,6 +271,14 @@ when merging; integration is not theorem acceptance.
 
 ## Paired-source continuation
 
+The [shift-separation package](ai/2026-10-23-paired-shift-separation/README.md)
+extends the ordinary channel-rank obstruction to a variable-coefficient
+long-leg map with combined shift rank below the middle width, while the
+other long leg remains finite-band Toeplitz. Its all-field flattening
+bound is `g_B*g_C`; the exact finite control passes. The proof is written
+and unreviewed. Arbitrary full shift-rank maps, Laurent cancellations and
+the construction question remain open; no exponent improvement follows.
+
 The current continuation integrates main `b113866`. Checkpoint `27d7a75`
 completed 578 tests, with 577 passes and one optional NumPy skip, and
 all five local archive replays. Five hosted static checks passed; no

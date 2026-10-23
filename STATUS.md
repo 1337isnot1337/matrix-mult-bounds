@@ -2206,3 +2206,18 @@ polynomial-rank-locus note already excluded all four A5 ordinary targets;
 this scan updates the stale minimum-only research queue and retains that
 prior credit. A separate corner-minor note rederives the existing rank
 inequality, without claiming a new general theorem or independent review.
+
+## Paired-source variable-coefficient shift rank
+
+The [shift-separation proof](research/ai/2026-10-23-paired-shift-separation/proof.md)
+shows that an ordinary restriction of `Q(n,m)` to `M(n,m,n)` still has
+residual flattening rank at least `g_B*g_C` when one finite-band long-leg
+map has column dependence expressed by profiles with combined shift-matrix
+rank below `m`, and the other long-leg map is finite-band Toeplitz. The
+first-leg map is arbitrary. For fixed `m` and sublinear bandwidths and
+exception counts, this is `n^2-o(n^2)`, so such maps cannot use a
+subquadratic auxiliary repair. The claim is written and unreviewed; generic
+full shift rank, Laurent cancellations, and the exponent goal remain open.
+An exact `F_101` control at `n=9,m=4` has profile ranks `1,2`, residual
+rank `81`, and the theorem's lower bound `9`. It is finite verification, not
+the all-size proof.

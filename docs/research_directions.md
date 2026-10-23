@@ -32,6 +32,14 @@ questions. The prescribed regular-nilpotent wider quotient and the stated
 tetrahedral scalar-repair models are also excluded; see the exact scope in
 the linked status notes before choosing new parameters.
 
+The [shift-separation barrier](../research/ai/2026-10-23-paired-shift-separation/README.md)
+extends the channel-rank obstruction to one finite-band long-leg map with
+variable column coefficients: a displayed profile decomposition whose
+combined shift rank is below the middle width still forces a quadratic
+ordinary residual. Any next variable-coefficient construction must reach
+shift rank at least the middle width or leave this ordinary finite-band
+model. The written result is unreviewed and gives no exponent improvement.
+
 ## R1: Review the local sharpness theorem
 
 Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.
