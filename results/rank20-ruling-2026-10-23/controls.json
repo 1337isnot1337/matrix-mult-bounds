@@ -1,0 +1,363 @@
+{
+  "a4_long_limit_cases": [
+    {
+      "dimension_eight_bound_applies": true,
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 110,
+      "nonzero_lift_margin": 12,
+      "source_rank_cap": 15,
+      "source_space_dimension_bound": 8,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": true,
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 109,
+      "nonzero_lift_margin": 11,
+      "source_rank_cap": 16,
+      "source_space_dimension_bound": 8,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": true,
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 108,
+      "nonzero_lift_margin": 10,
+      "source_rank_cap": 17,
+      "source_space_dimension_bound": 8,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": true,
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 107,
+      "nonzero_lift_margin": 9,
+      "source_rank_cap": 18,
+      "source_space_dimension_bound": 8,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": true,
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 106,
+      "nonzero_lift_margin": 8,
+      "source_rank_cap": 19,
+      "source_space_dimension_bound": 8,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": true,
+      "excluded_by_this_criterion": true,
+      "long_limit_rank": 105,
+      "nonzero_lift_margin": 7,
+      "source_rank_cap": 20,
+      "source_space_dimension_bound": 8,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": false,
+      "excluded_by_this_criterion": false,
+      "long_limit_rank": 104,
+      "nonzero_lift_margin": 6,
+      "source_rank_cap": 21,
+      "source_space_dimension_bound": null,
+      "target_ruling_dimension": 10
+    },
+    {
+      "dimension_eight_bound_applies": false,
+      "excluded_by_this_criterion": false,
+      "long_limit_rank": 103,
+      "nonzero_lift_margin": 5,
+      "source_rank_cap": 22,
+      "source_space_dimension_bound": null,
+      "target_ruling_dimension": 10
+    }
+  ],
+  "dependent_pencil_negative": {
+    "generic_gcd_degree": 2,
+    "joint_gcd_degree": 0,
+    "rational_function_rank": 1
+  },
+  "fixed_divisor_spaces": [
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "x",
+      "quadratic_coefficients": [
+        1,
+        0,
+        0
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "x",
+      "quadratic_coefficients": [
+        0,
+        0,
+        1
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "x",
+      "quadratic_coefficients": [
+        1,
+        -2,
+        1
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "x",
+      "quadratic_coefficients": [
+        1,
+        0,
+        1
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "z",
+      "quadratic_coefficients": [
+        1,
+        0,
+        0
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "z",
+      "quadratic_coefficients": [
+        0,
+        0,
+        1
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "z",
+      "quadratic_coefficients": [
+        1,
+        -2,
+        1
+      ],
+      "space_dimension": 8
+    },
+    {
+      "actual_source_ranks": [
+        16,
+        20,
+        20
+      ],
+      "divisor_leg": "z",
+      "quadratic_coefficients": [
+        1,
+        0,
+        1
+      ],
+      "space_dimension": 8
+    }
+  ],
+  "improves_omega": false,
+  "independent_divisor_loss": {
+    "generic_gcd_degree": 0,
+    "joint_gcd_degree": 0,
+    "rational_function_rank": 2
+  },
+  "independent_pencils": [
+    {
+      "divisor": "x**2",
+      "generic_gcd_degree": 2,
+      "joint_gcd_degree": 2,
+      "rational_function_rank": 2
+    },
+    {
+      "divisor": "y**2",
+      "generic_gcd_degree": 2,
+      "joint_gcd_degree": 2,
+      "rational_function_rank": 2
+    },
+    {
+      "divisor": "x**2 - 2*x*y + y**2",
+      "generic_gcd_degree": 2,
+      "joint_gcd_degree": 2,
+      "rational_function_rank": 2
+    },
+    {
+      "divisor": "x**2 + y**2",
+      "generic_gcd_degree": 2,
+      "joint_gcd_degree": 2,
+      "rational_function_rank": 2
+    }
+  ],
+  "independent_review": false,
+  "proof_status": "proof-written-unreviewed",
+  "scope": "Finite exact controls; universal rank20 proof is written and unreviewed.",
+  "source_pin_count": 4,
+  "splitting_degrees": [
+    {
+      "admissible_degrees": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "primitive_degree": 0
+    },
+    {
+      "admissible_degrees": [
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "primitive_degree": 1
+    },
+    {
+      "admissible_degrees": [
+        [
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          8,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ]
+      ],
+      "primitive_degree": 2
+    },
+    {
+      "admissible_degrees": [
+        [
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          12,
+          0
+        ],
+        [
+          12,
+          0,
+          0
+        ]
+      ],
+      "primitive_degree": 3
+    }
+  ]
+}

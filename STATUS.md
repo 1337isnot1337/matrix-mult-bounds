@@ -1,5 +1,26 @@
 # Research status
 
+## Sharp rank20 linear spaces and singular long-map rank105
+
+The [rank20 classification](research/ai/2026-10-23-rank20-ruling/proof.md)
+gives a sharp vector linear-space dimension bound eight for A4 source
+slices of rank at most20. After fixing the coherent middle factor, the
+biform has a quadratic divisor in x or in z. A generic-pencil common-factor
+argument controls linear spaces whose divisor may vary; a fixed quadratic
+times the full bidegree(1,3) or(3,1) space attains dimension eight.
+The shared-correction ruling criterion below therefore excludes either
+balanced long-map leading rank at least105 in A4 to M(10,10,11), allowing
+arbitrary finite poles in both other maps and in the original unit lift.
+At c105 the source cap is20 and8<10, with nonzero-lift margin7. Claims
+`AI-A4-RANK20-LINEAR-SPACES-001` and `AI-A4-SINGULAR-LONG105-002` are
+written and unreviewed. The source splitting formula, its Grothendieck
+dependency and the prior correction criterion retain their original credit.
+Exact controls check eight dimension-eight source spaces,24 actual source
+ranks,22 possible splitting-degree triples and generic-pencil hypotheses.
+At c104 the cap is21 and the new dimension bound is not asserted.
+Remaining candidates have both balanced long-map leading ranks at most104.
+No constructed target, independent review or smaller exponent is established.
+
 ## Singular long-leg limits and a shared correction ruling test
 
 The [shared-correction ruling argument](research/ai/2026-10-23-singular-long-ruling/proof.md)

@@ -1,5 +1,14 @@
 # Research directions
 
+The [rank20 source classification](../research/ai/2026-10-23-rank20-ruling/proof.md)
+proves a sharp vector linear-space bound eight and extends the singular
+long-leg exclusion below to balanced leading rank105. Remaining A4 target
+candidates must have leading ranks at most104 on both long maps. The
+next source-geometry cap is21: the rank20 classification is not asserted
+there, and finite sparse examples cannot supply that universal premise.
+All these obstructions remain written and unreviewed, without a target
+construction or exponent improvement.
+
 The [shared-correction ruling criterion](../research/ai/2026-10-23-singular-long-ruling/proof.md)
 now excludes an A4 target whenever either scalar-balanced long-map limit
 has rank at least106, even with arbitrary poles in both other maps and

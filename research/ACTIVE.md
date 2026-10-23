@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+## Rank20 ruling continuation, October23
+
+PR142 on `research/rank20-ruling-20261023` owns
+`ai/2026-10-23-rank20-ruling/QUESTION.md`, continuing PR125. A written
+rank20 quadratic-factor classification gives a sharp source linear-space
+bound eight and extends the singular-long criterion to balanced leading
+rank105. The next cap21 is not covered. Exact controls and focused checks
+are in progress; parent PR125's complete regression is running separately.
+No independent review, formalization, target construction or exponent gain.
+
 ## Singular long-leg ruling continuation, October23
 
 PR125 on `research/singular-long-ruling-20261023` owns

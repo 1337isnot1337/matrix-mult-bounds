@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-rank20-ruling` package is owner-directed OpenAI Codex
+work. The existing source rank formula and coherent-factor theorem retain
+their original credit and exact pins, including Grothendieck's1957
+Theorem2.1 over P^1(C). PR125 retains credit for the shared-correction
+ruling criterion. The rank20 quadratic-factor classification, the
+generic-pencil common-divisor argument, sharp dimension-eight linear-space
+bound and singular rank105 application are local continuations. Written
+proofs and finite exact controls are unreviewed and unformalized; no
+historical priority, target construction or exponent improvement is claimed.
+
 The `2026-10-23-singular-long-ruling` package is owner-directed OpenAI
 Codex work. The canonical source, minimum-rank cone and rank gap retain
 their prior credit and exact pins. The rank gap uses Grothendieck's 1957
