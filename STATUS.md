@@ -14,6 +14,18 @@ the12-by8 target third-rank ceiling. The nonzero rank-four branch and the
 full asymmetric problem remain open. Claims are written and unreviewed;
 no exponent improvement or full target construction is established.
 
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
