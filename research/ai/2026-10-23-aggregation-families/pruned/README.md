@@ -65,6 +65,9 @@ successes with six new tests and the two rerun ledger/link checks,
 covering all 920 discovered IDs. Existing code, witnesses and archives
 are unchanged. The earlier five passed archive replays are retained.
 This is baseline-plus-delta coverage, not a new full-suite run.
+The later [documentation audit receipt](validation/audit_delta.json)
+records the explicit signed-grading formula and a separate same-session
+exact reconstruction; all construction and acceptance code is unchanged.
 
 The [report](report.json) records exact all-n polynomials, target shapes,
 and rational intervals for the critical mass. The

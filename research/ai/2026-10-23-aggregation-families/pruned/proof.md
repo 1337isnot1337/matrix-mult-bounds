@@ -120,6 +120,26 @@ remain identities. The scalar grades are unchanged. Thus these are
 uniform border-rank upper bounds over characteristic zero for every
 integer n>=2, not merely sampled dimension evaluations.
 
+Explicitly, multiply each independent block X_t,Y_t,Z_t by
+`lambda^(a_t),lambda^(b_t),lambda^(c_t)`, using the three signed integers
+saved in the external source. Let A_lambda(P) be the corresponding
+aggregate on the remaining coordinates. Since a_t+b_t+c_t=0 and every
+surviving off-diagonal total grade is positive, the full corrected form is
+
+\[
+ A_\lambda(\varnothing)+
+ \sum_{P\in Q}(-q)^{|P|}A_\lambda(P)
+ =\bigoplus_{t=1}^{22}M(A_t,B_t,C_t)+\lambda R_n(\lambda).
+\]
+
+Here R_n has polynomial tensor coefficients in lambda for each fixed n.
+Individual factor maps may have negative powers; all negative total
+powers cancel in the displayed tensor. The generic expression has at
+most the counted number of rank-one forms, which proves the stated
+border-rank bound. The correction scalar uses the ambient q=n+1:
+a replicated coordinate is absent from all three factors and still
+has q possible grid values, even when a particular target dimension is one.
+
 ### Exact count for every n
 
 Let P be a supplied correction subset, including the empty set for the
