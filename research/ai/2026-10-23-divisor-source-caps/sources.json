@@ -1,5 +1,5 @@
 {
-  "base_commit": "9eca895e3618ad1f560e0565dc30134478e88da8",
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
   "field": "C",
   "local_dependencies": [
     {
@@ -9,16 +9,19 @@
     {
       "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
       "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
-    },
-    {
-      "path": "research/ai/2026-10-23-torus-low-rank/proof.md",
-      "sha256": "36a9b1a2e1e79c342087bd424ad462200154508b2743b2477f5121afd96930ad"
     }
   ],
   "inherited_external_input": "P1 bundle splitting in the pinned biform block lemma; its original credit and review status are retained.",
-  "upstream_credit": {
-    "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
-    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/08ac3e983e270cf3df4e26d960ceb16415f7ef31/research/ai/2026-10-23-one-regular-leg/proof.md",
-    "usage": "Unit-kernel argument, reproduced in the pinned local torus-low-rank proof; no network replay required."
-  }
+  "method_references": [
+    {
+      "commit": "9eca895e3618ad1f560e0565dc30134478e88da8",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/9eca895e3618ad1f560e0565dc30134478e88da8/research/ai/2026-10-23-torus-low-rank/proof.md",
+      "usage": "Credited torus specialization and active-ruling method; completely reconstructed in proof.md."
+    },
+    {
+      "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/08ac3e983e270cf3df4e26d960ceb16415f7ef31/research/ai/2026-10-23-one-regular-leg/proof.md",
+      "usage": "Credited regular unit-kernel correction; completely reconstructed in proof.md."
+    }
+  ]
 }

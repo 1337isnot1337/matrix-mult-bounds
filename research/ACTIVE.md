@@ -2,46 +2,26 @@
 
 The divisor-source-cap continuation studies
 `ai/2026-10-23-divisor-source-caps/QUESTION.md` on
-`research/divisor-source-caps-20261023`, from PR129 at `9eca895`.
+`research/divisor-source-caps-20261023`, isolated on main `3008d70`, retaining PR129 at `9eca895` as method credit.
 It generalizes the torus coordinate method to every proper divisor d
 of every balanced source size a: the proposed sharp dimension cap is
 ad throughout rank ceilings a(a+d-1),...,a(a+d)-1. Divisor cycles and
 a d^2-fold residue decomposition supply the upper bound; a d-row strip
 attains it. All110 exact minors,330 residue identities and60 divisor
-strip controls pass; regression evidence is pending. This is distinct
+strip controls pass. The exact nondivisor pair limit is also recorded; final regression evidence is pending. This is distinct
 from the owned A4 rank24 and joint-rank
 frontiers and claims no new A4 cutoff or smaller exponent.
 
-The rank-48 continuation in `ai/2026-10-23-torus-rank-frontier/proof.md`
-now proves source-space dimension at most24 below slice rank48. The
-credited saturated support inequality then gives balanced long-rank
-sum at most176, retaining PR122's prior sum192 attribution. Combined
-with the individual rank102 exclusion, any candidate has both ranks
-at most101 and sum at most176. Eight new focused tests pass; exact
-controls enumerate all12321 rank pairs and exclude all990 above176.
-No sharpness or construction at the surviving boundary is claimed.
-Next: larger low-rank source spaces or additional support constraints
-within the remaining frontier. Full regression, archive replay and
-current-head CI remain merge gates; all proof claims are unreviewed.
-
-The torus follow-up in `ai/2026-10-23-torus-low-rank/proof.md` strengthens
-the singular-long result: arbitrary complex source subspaces of slice
-rank at most23 have dimension at most8, so remaining scalar-balanced
-long-map ranks are at most101. The rank24 threshold permits a literal
-12-plane and needs a different argument. Eight focused tests pass across
-the two packages. PR129 carries both checkpoints; full regression and
-historical replay remain the merge gates.
-
-The October 23 singular-long-rank continuation is in
-`ai/2026-10-23-singular-long-rank/proof.md` on
-`research/a4-singular-long-rank-20261023`. It excludes a scalar-balanced
-long-map rank of 106 or higher, without restrictions on the other
-Laurent poles or the target-unit lift. The regular kernel correction
-is credited to PR113; the new step combines the source rank gap with
-injectivity on an active target ruling. Four focused tests pass.
-The original rank105 boundary reaches rank20 source slices; the later
-rank23 source-space cap above now excludes it. Full regression and archive replay are required before this
-submission is ready to merge. The claim remains written and unreviewed.
+The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
+is on `research/resolvent-minrank-six-20261023`. Its exact certificate
+settles the minimum matrix rank of the 112-dimensional limiting space
+from PR103 and removes its generic-compression qualification whenever
+the total rank-loss budget is at most five. Five focused tests pass,
+including literal-source reconstruction and certificate tampering.
+The next local question is whether a rank-six direction can satisfy the
+required double-corank-one alignment and the higher Laurent equations.
+Broader long-map results should be checked before using that question
+as a target-construction route. The written proof remains unreviewed.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

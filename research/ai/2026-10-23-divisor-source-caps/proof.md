@@ -47,7 +47,7 @@ are related by invertible row and column scalings:
                                     t^(H+a*c-a*m*r).     (3)
 
 Thus it preserves every slice rank. Apply the credited coordinate-limit
-argument of [PR129](../2026-10-23-torus-low-rank/proof.md), Section3.
+argument of [PR129 at 9eca895](https://github.com/1337isnot1337/matrix-mult-bounds/blob/9eca895e3618ad1f560e0565dc30134478e88da8/research/ai/2026-10-23-torus-low-rank/proof.md), Section3.
 For completeness, order coordinates by these weights and put a basis
 of V in reduced row-echelon form. Divide D(t) times each basis vector
 by its pivot's power of t. The resulting vectors are polynomial and
@@ -146,14 +146,23 @@ then no such degeneration exists. The other two maps may have arbitrary
 finite poles, with no original unit-lift assumption.
 
 This adopts the credited [unit-kernel argument of PR113](https://github.com/1337isnot1337/matrix-mult-bounds/blob/08ac3e983e270cf3df4e26d960ceb16415f7ef31/research/ai/2026-10-23-one-regular-leg/proof.md)
-and active-ruling argument of PR129. The latter's pinned local proof
-includes the complete kernel identity. Scalar-balance F to be regular with
-F_0 nonzero. The target unit gives an exact regular right inverse D of
-the other long map after regular output normalization. The correction
+and active-ruling argument of PR129. We establish the entire kernel
+identity here, so these unmerged packages are method provenance rather
+than additional premises. Scalar-balance F against the other long map B
+to make F regular with F_0 nonzero. Put
 
-    W_X=M(F(X))C-D B M(F(X))C
+    Y_X=M(F(X))C,       D=Y_I,       G=BD=I_R+O(t).
 
-is regular of generic rank at most k. At zero,
+Both Y_X and D are regular. Multiplying B by the regular invertible
+G^(-1) makes BD=I_R exactly and preserves all target constant terms.
+Now Z_X=BY_X is regular with limit Xi(X). The projection I_N-DB has
+image ker B and generic rank k=N-R. The correction
+
+    W_X=Y_X-D Z_X=(I_N-DB)Y_X
+
+is regular, because it is a difference of regular products. Its generic
+rank is at most k, so its(k+1)-minors also vanish after specialization.
+At zero,
 
     M(F_0(X)) C_0=D_0 Xi(X)+W_X(0),       rank W_X(0)<=k.
 
@@ -175,15 +184,29 @@ For a=4,d=2,m=10,n=11,k=2, (8) excludes c<=8. This recovers PR129's
 rank102 cutoff and is not a new A4 frontier claim. No asymptotic target
 family or exponent improvement follows from these source obstructions.
 
-## 7. Verification and provenance
+## 7. A nondivisor limit of the pair argument
 
-The source formula, source minimum and biform block-rank gap retain
-their exact predecessor pins. Torus specialization and active-ruling
-injection retain PR129's credit, and the regular unit-kernel correction
-retains PR113's. The all-size divisor partition, residue-block identity
-and sharp interval are this continuation. The source gap inherits the
-external P1 bundle-splitting dependency stated in its pinned proof.
-All local proof claims remain written and unreviewed.
+The divisor hypothesis is material to the equal-size residue argument.
+For a=5,d=2, the two-coordinate biform1+x^2 z^2 has exact R_5 rank34,
+whereas a(a+d)=35. The finite certificate gives a unimodular34-by34
+minor and a singular35-by35 active matrix containing every nonzero row
+and column. This proves the exact rank without floating point.
+The same pair therefore cannot be forbidden at ceiling34 by(7).
+The maximum source-space dimension at this nondivisor width remains
+unclassified here; the example concerns the proof step rather than
+refuting a dimension-cap formula.
+
+## 8. Verification and provenance
+
+The two local premises, the canonical source minimum and biform block
+gap, retain their exact pins to main3008d70. Torus specialization and
+active-ruling injection retain PR129's immutable upstream credit; the
+regular unit-kernel correction retains PR113's. Their complete arguments
+are supplied here without requiring the parent packages in the checkout.
+The all-size divisor partition, residue-block identity and sharp interval
+are this continuation. The source gap inherits the external P1 bundle-
+splitting dependency stated in its pinned proof. All local proof claims
+remain written and unreviewed.
 
 The finite verifier checks divisor orbits, literal residue-block source
 identities, exact nonseparable biform minors, strip support counts and

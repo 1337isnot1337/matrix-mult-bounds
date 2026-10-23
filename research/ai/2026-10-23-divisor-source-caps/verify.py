@@ -10,11 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 PACKAGE = Path(__file__).resolve().parent
 RESULT = ROOT / "results/divisor-source-caps-2026-10-23/controls.json"
-BASE = "9eca895e3618ad1f560e0565dc30134478e88da8"
+BASE = "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
 DEPENDENCIES = (
     "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
     "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
-    "research/ai/2026-10-23-torus-low-rank/proof.md",
 )
 
 
@@ -191,12 +190,50 @@ def a4_corollary():
              "source_dimension_cap": 8, "excluded": c <= 8} for c in range(10)]
 
 
+def nondivisor_control():
+    values = matrix(5, [(0, 0), (2, 2)])
+    active_rows = [i for i, row in enumerate(values) if any(row)]
+    active_cols = [j for j in range(len(values)) if any(row[j] for row in values)]
+    rows, cols = discover_unit_minor(values, 34)
+    record = {"a": 5, "d": 2, "coordinates": [[0, 0], [2, 2]],
+              "exact_rank": 34, "naive_divisor_threshold": 35,
+              "active_rows": active_rows, "active_columns": active_cols,
+              "active_determinant": bareiss_determinant(
+                  [[values[i][j] for j in active_cols] for i in active_rows]),
+              "minor_rows": rows, "minor_columns": cols,
+              "minor_determinant": bareiss_determinant(
+                  [[values[i][j] for j in cols] for i in rows])}
+    verify_nondivisor_control(record)
+    return record
+
+
+def verify_nondivisor_control(record):
+    require((record["a"], record["d"], record["coordinates"], record["exact_rank"],
+             record["naive_divisor_threshold"]) == (5, 2, [[0, 0], [2, 2]], 34, 35),
+            "Changed nondivisor scope")
+    values = matrix(5, [(0, 0), (2, 2)])
+    active_rows = [i for i, row in enumerate(values) if any(row)]
+    active_cols = [j for j in range(len(values)) if any(row[j] for row in values)]
+    require(record["active_rows"] == active_rows and record["active_columns"] == active_cols
+            and len(active_rows) == len(active_cols) == 35, "Wrong active nondivisor matrix")
+    upper = bareiss_determinant([[values[i][j] for j in active_cols] for i in active_rows])
+    require(upper == record["active_determinant"] == 0, "Wrong exact rank upper bound")
+    rows, cols = record["minor_rows"], record["minor_columns"]
+    require(len(rows) == len(set(rows)) == len(cols) == len(set(cols)) == 34,
+            "Wrong nondivisor lower minor")
+    require(all(type(i) is int and 0 <= i < len(values) for i in rows+cols),
+            "Invalid nondivisor minor index")
+    lower = bareiss_determinant([[values[i][j] for j in cols] for i in rows])
+    require(lower == record["minor_determinant"] and abs(lower) == 1,
+            "Wrong exact rank lower bound")
+
+
 def report():
     return {"scope": "Finite exact controls; the all-size theorem is written and unreviewed.",
             "proof_status": "proof-written-unreviewed", "improves_omega": False,
             "source_pin_count": check_sources(), "base_minors": minor_controls(),
             "residue_blocks": residue_controls(), "divisor_strips": divisor_controls(),
-            "a4_corollary": a4_corollary()}
+            "a4_corollary": a4_corollary(), "nondivisor_boundary": nondivisor_control()}
 
 
 def verify(record):
@@ -222,9 +259,10 @@ def verify(record):
     require(record["residue_blocks"] == residue_controls(), "Changed residue certificate")
     require(record["divisor_strips"] == divisor_controls(), "Changed divisor or strip control")
     require(record["a4_corollary"] == a4_corollary(), "Changed inherited A4 cutoff")
+    verify_nondivisor_control(record["nondivisor_boundary"])
     return {"base_minors": len(formats), "residue_blocks": len(record["residue_blocks"]),
             "divisor_strips": len(record["divisor_strips"]), "a4_cases": 10,
-            "improves_omega": False}
+            "nondivisor_boundaries": 1, "improves_omega": False}
 
 
 def main():

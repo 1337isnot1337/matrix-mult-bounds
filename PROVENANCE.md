@@ -13,36 +13,17 @@ priority, independent review, formalization, target construction or
 exponent improvement is claimed. Exact finite minors support the written
 unreviewed proof; they do not replace its all-integer quantifiers.
 
-The `2026-10-23-torus-rank-frontier` package is owner-directed OpenAI
-Codex work. The source, ordinary restriction obstruction, rank-preserving
-torus, eight-pair minor certificate and saturated target-support condition
-retain their original credit and byte pins. Concurrent PR122 at a2848076
-retains credit for the compression-kernel strategy and sum192 result.
-The new deduction bounds arbitrary source spaces below rank48 by24
-and forces balanced long-rank sum at most176. The proof repeats the
-saturation argument and the below-rank32 case, without a PR122 code
-dependency. Exact source, minor and integer rank-budget controls support
-the written proof; they do not supply independent mathematical review,
-formalization, a sharpness result or an exponent improvement.
-
-The `2026-10-23-torus-low-rank` follow-up is owner-directed OpenAI Codex
-work. It adopts the canonical source coefficient formula and minimum
-rank, PR113's unit-kernel correction, and the active-ruling argument
-above. The new diagonal specialization, sharp dimension-eight bound
-below slice rank24, integer minors, and rank102 exclusion use elementary
-linear algebra and polynomial minors. No new external theorem,
-historical priority, independent review or exponent gain is claimed.
-
-The `2026-10-23-singular-long-rank` package is owner-directed OpenAI Codex
-work. The canonical source minimum, its pure-tensor minimum locus, and
-the next-rank gap retain their original proofs and exact byte pins.
-The gap proof retains its use of Grothendieck's splitting theorem.
-PR113 at `08ac3e9` supplies scalar balancing and the regular unit-kernel
-correction; the new note repeats that argument with credit. The new
-active-ruling injectivity argument handles four singular long-leg
-defects. Exact finite controls do not formalize the all-series proof.
-No historical priority, external independent review, matrix target,
-or improved exponent is claimed.
+The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
+work. PR103 supplies the fixed square-zero resolvent and high/low limiting
+space, with its exact inspected commit and file hash recorded. Earlier
+cyclic-source work supplies the literal source and unimodular unit. The
+31 successive integer minor identities, sharp minimum-rank-six result and
+compression alignment are local continuations. The acceptance program
+reconstructs all 112 source slices and verifies the literal certificate;
+it does not import the discovery process. Elementary finite matrix
+arguments apply over every field; the scoped Laurent application is over
+C. No historical priority, independent mathematical review, formalization
+or exponent improvement is claimed.
 
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice

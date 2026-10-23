@@ -3,6 +3,10 @@
 October23,2026. Branch `research/divisor-source-caps-20261023`.
 Base: PR129 at `9eca895e3618ad1f560e0565dc30134478e88da8`.
 
+The publication branch now isolates the package on main`3008d70`.
+PR129 and PR113 are immutable method references; their arguments are
+reconstructed here. Only two existing source lemmas are local premises.
+
 The A4 torus proof gives the sharp source-space cap8 below slice rank24.
 This investigation generalizes that method across balanced source sizes;
 it does not claim another A4 cutoff. The active A4 rank24, joint-rank,

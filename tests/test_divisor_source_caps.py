@@ -22,7 +22,7 @@ class DivisorSourceCapTests(unittest.TestCase):
     def test_complete_saved_control_replay(self):
         self.assertEqual(v.verify(self.record), {
             "base_minors": 110, "residue_blocks": 330, "divisor_strips": 60,
-            "a4_cases": 10, "improves_omega": False})
+            "a4_cases": 10, "nondivisor_boundaries": 1, "improves_omega": False})
 
     def test_sharp_intervals_at_divisors_of_composite_sizes(self):
         cases = {(r["a"], r["d"]): r for r in self.record["divisor_strips"]}
@@ -55,6 +55,17 @@ class DivisorSourceCapTests(unittest.TestCase):
                                                         entry["orientation"]))
             minor = s.Matrix([[values[i][j] for j in entry["columns"]] for i in entry["rows"]])
             self.assertEqual(minor.to_DM().det(), entry["determinant"])
+
+    def test_nondivisor_pair_does_not_meet_the_divisor_threshold(self):
+        boundary = self.record["nondivisor_boundary"]
+        self.assertNotEqual(boundary["a"] % boundary["d"], 0)
+        literal = s.Matrix(v.matrix(5, [(0, 0), (2, 2)]))
+        self.assertEqual(literal.to_DM().rank(), 34)
+        self.assertLess(boundary["exact_rank"], boundary["naive_divisor_threshold"])
+        bad = copy.deepcopy(boundary)
+        bad["active_determinant"] = 1
+        with self.assertRaises(ValueError):
+            v.verify_nondivisor_control(bad)
 
     def test_corrupt_minor_scope_and_divisor_witness_are_rejected(self):
         for mutate in (

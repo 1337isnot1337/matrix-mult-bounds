@@ -27,9 +27,15 @@ python -m unittest discover -s tests -p 'test_divisor_source_caps.py' -v
 The finite controls contain110 determinant-one minors for every
 nonseparable two-monomial biform at p=2,...,6, all330 residue identities
 for those cases and d=1,2,3, all60 divisor/strip cases for a=2,...,24,
-ten inherited A4 corollary cases and three local source pins. Acceptance
+ten inherited A4 corollary cases and two local source pins. Acceptance
 checks the exported minors using exact integer Bareiss determinants;
 unit-pivot elimination is discovery only. Tests use a separate exact
 backend for determinants and literal dense ranks, including crossed
 and wrapped coordinate pairs. These finite ranges support rather than
 replace the all-integer written argument.
+
+A nondivisor control gives exact rank34 for a=5 and the biform1+x^2 z^2,
+using a unimodular34-minor and a singular35-by35 active matrix. It shows
+where the divisor pair argument stops; the nondivisor cap remains open.
+The proof reconstructs the credited torus, unit-kernel and ruling steps
+and requires no unmerged parent package in the checkout.

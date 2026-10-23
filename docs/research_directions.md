@@ -10,18 +10,11 @@ as a necessary test for other balanced sizes. Nondivisor strips, rank
 ceilings outside the proved intervals and actual target constructions
 remain open to this method; finite grid extensions do not prove them.
 
-
-The [rank-48 source-space theorem](../research/ai/2026-10-23-torus-rank-frontier/proof.md)
-forces the two scalar-balanced long-map ranks to sum to at most176,
-strengthening concurrent PR122's sum192 bound. The separate
-[sharp rank23 cap](../research/ai/2026-10-23-torus-low-rank/proof.md)
-limits each rank to at most101. Do not repeat the excluded region.
-Determine bounds for larger low-rank source spaces, or add source-specific
-constraints to the saturated target-support inequality on the remaining
-region. Neither the dimension24 bound nor sum176 is asserted sharp.
-The [initial singular-long theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
-retains the credited regular kernel correction and active-ruling argument;
-its former rank105 boundary has been superseded by these extensions.
+The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
+now proves rank six sharply over every field. Its open structural question
+is the rank-six locus and the required kernel/image alignment under two
+rank109 compressions. Check the broader long-map exclusions before
+treating such an aligned compression as a possible matrix target.
 
 ## Active paired construction: near-full width four
 
