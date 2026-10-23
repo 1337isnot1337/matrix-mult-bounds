@@ -84,5 +84,5 @@ three optional numerical controls skipped. All five archive replays
 passed, and all 18 protected AI archive files match the base bytes.
 After integrating merged prerequisite PR102, four focused and 18 metadata
 tests passed. The exact counts, code commits and compressed logs are in
-[validation.json](../../../../results/nonsplit-vector-covers-2026-10-23/validation.json).
+[validation.json](../../../results/nonsplit-vector-covers-2026-10-23/validation.json).
 Current-head hosted CI remains the merge gate.
