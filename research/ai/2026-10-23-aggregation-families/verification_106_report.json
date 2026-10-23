@@ -1,0 +1,92 @@
+{
+  "source_integrity": {
+    "source_id": "ex105",
+    "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex105.txt",
+    "sha256": "5be07a72963435bf97922ac990451ee434763b7516e3c588f1743e03daeb81ff",
+    "verified": true
+  },
+  "new_witness": {
+    "accepted": true,
+    "coordinate_count": 12,
+    "part_size": 4,
+    "products": 106,
+    "ordered_mixed_triples": 1191016,
+    "diagonal_triples": 106,
+    "off_diagonal_compatible_triples": 0,
+    "off_diagonal_terms_killed_by_centering": 1166235,
+    "off_diagonal_terms_killed_by_corrections": 24675,
+    "distinct_replicated_coordinate_sets": 220,
+    "correction_counts_by_size": {
+      "1": 12,
+      "2": 66,
+      "3": 139,
+      "4": 5
+    },
+    "rank_polynomial_coefficients": {
+      "12": 1,
+      "11": 12,
+      "10": 66,
+      "9": 139,
+      "8": 5
+    },
+    "independent_mathematical_review": false,
+    "improves_omega": false
+  },
+  "external_baseline": {
+    "accepted": true,
+    "coordinate_count": 12,
+    "part_size": 4,
+    "products": 105,
+    "ordered_mixed_triples": 1157625,
+    "diagonal_triples": 105,
+    "off_diagonal_compatible_triples": 0,
+    "off_diagonal_terms_killed_by_centering": 1133644,
+    "off_diagonal_terms_killed_by_corrections": 23876,
+    "distinct_replicated_coordinate_sets": 204,
+    "correction_counts_by_size": {
+      "1": 12,
+      "2": 66,
+      "3": 124,
+      "4": 3
+    },
+    "rank_polynomial_coefficients": {
+      "12": 1,
+      "11": 12,
+      "10": 66,
+      "9": 124,
+      "8": 3
+    },
+    "independent_mathematical_review": false,
+    "improves_omega": false
+  },
+  "cost_comparison": {
+    "identity": "106*external_rank_bound - 105*new_rank_bound",
+    "difference_coefficients": {
+      "12": 1,
+      "11": 12,
+      "10": 66,
+      "9": -1451,
+      "8": -207
+    },
+    "monomial_factor_exponent": 8,
+    "shift_x": 8,
+    "shifted_polynomial_coefficients": {
+      "4": 1,
+      "3": 44,
+      "2": 738,
+      "1": 3957,
+      "0": 2649
+    },
+    "strictly_lower_cost_per_output_for_integer_n_at_least": 7,
+    "scope": "Comparison of these upper bounds only; not optimal ranks or runtimes",
+    "strictly_positive_for_x_positive": false
+  },
+  "direct_exponent_cost_scope": {
+    "method": "Weighted AM-GM: n+1 >= 4*(n/3)^(3/4) for all real n>0",
+    "left_integer": 79228162514264337593543950336,
+    "right_integer": 18949101888206414740275216,
+    "strict_integer_margin": 79209213412376131178803675120,
+    "displayed_budget_cannot_reach_omega_nine_fourths_by_direct_sum_bound": true,
+    "scope": "The stated rank upper-bound polynomial only; no lower bound on optimal tensor rank or omega"
+  }
+}

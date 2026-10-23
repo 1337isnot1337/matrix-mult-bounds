@@ -999,3 +999,39 @@ class hypergraph and a finite integer-weight census. Optional SciPy
 optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
+
+
+## Exact 29-product independent aggregation family
+
+The family and independent acceptance program in
+`research/ai/2026-10-23-aggregation-families/` are owner-directed Codex
+work. Solomonik and Blaeser, arXiv:2610.26563v2 (2026-10-22), retain
+credit for the centered, corrected aggregation mechanism and the
+28-product external comparison witness. Their paper also records its
+own predecessors; no priority for the underlying mechanism is claimed
+here. The external ancillary witness is included as attributed numerical
+data with its public versioned URL and SHA256 in sources.json.
+The previous local centered-orientations note used version 1 for a
+different shared-input construction. The new contribution is the explicit
+29-product family, its complete combinatorial certificate, and the
+strict uniform comparison of the two stated cost bounds. The rational
+dual-embedding proof rederives the credited construction for this family.
+Separate programs and exact finite-field controls are same-session
+verification, not independent mathematical review or formalization.
+No smaller exponent or historical priority is claimed.
+
+
+The continuation in the same aggregation package adds a 106-product
+family, with the external ex105 witness and source hash retained. The
+coordinate proof is the same credited centered-aggregation mechanism,
+applied to the newly exported tripartitions. The comparison of cost per
+output holds only for n>=7. A byte-packed F2 control checks one full
+assignment to nontrivial 16-by-16 products by evaluating every rank-one
+position exactly; its sampled assignment is not the uniform proof.
+The accompanying size gate is an owner-directed Codex application of
+distinct-part injection, an induced-edge incidence count, and weighted
+AM-GM to the displayed upper-bound certificates. The incidence count
+extends the excluded range from N<=7 to N<=10. It makes no claim about
+optimal tensor rank. No historical
+priority, independent mathematical review, formalization or exponent
+improvement is claimed for these additions.

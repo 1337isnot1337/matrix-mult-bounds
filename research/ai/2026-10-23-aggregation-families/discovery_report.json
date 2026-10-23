@@ -1,0 +1,14 @@
+{
+  "mode": "conflict",
+  "iterations": 300000,
+  "rng_seed": 20261023,
+  "best": 29,
+  "elapsed_seconds": 28.8044,
+  "seed_source": "baseline_ex28.txt",
+  "first_improvement_iteration": 8312,
+  "criterion": "No off-diagonal compatible ordered mixed triple",
+  "command": "c++ -O3 -std=c++17 research/ai/2026-10-23-aggregation-families/search.cpp -o results/local/aggregation-search/search; results/local/aggregation-search/search results/local/aggregation-search/ex28.masks conflict 300000 20261023 results/local/aggregation-search/reproduced-29.masks",
+  "search_source_sha256": "d47c058df22da2fd2ab2b82109706ee733b8fb805cf4a5efdc652f073ad4d5d1",
+  "is_exhaustive": false,
+  "optimality_claim": false
+}
