@@ -1,13 +1,33 @@
 # Integrated research coordination
 
+The projective conic question is closed for normal-class existence by
+`ai/2026-10-23-conic-projective-criterion/proof.md`, on branch
+`research/conic-projective-global-20261023`. Every point of the three
+projective base lines has ranks 14, 14 and 12 and tangent dimensions
+68 plus 2. A nonzero normal class lifts exactly when
+`(a1*r-a0*s)*(b1*r+b0*s)*(s*lambda^3+r*mu^3)=0`, allowing a suitable
+first boundary velocity. Source reversal transports the class by
+`[lambda:mu] -> [mu:lambda]`. The liftable set has exactly three
+irreducible graph components; no extra component comes from infinity.
+This is a set-theoretic statement, not a full incidence-scheme claim.
+All three missing curvature strata and all eight polynomial families
+replay, with seven focused tests passing. The affine criterion remains
+a correct scoped prerequisite. This checkpoint awaits its dedicated PR
+and integration gates; do not repeat the closed chart-coverage task.
+Prescribed boundary velocities, the remaining local moduli and the bridge
+to a full matrix target are distinct questions. Claim
+`AI-CONIC-PROJECTIVE-CRITERION-001` remains written and unreviewed, without
+independent mathematical review, formalization or an exponent gain.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order
 two and Y1=Y2=0. Every complete product coefficient through order17,
 the unit leading minors and exact prior-byte pins pass acceptance; six
-focused tests and a separate sparse reconstruction pass. The next
-precise extension question is PR107's full third jet with its nonzero
-moving-kernel correction, or the missing projective base charts. Do not
+focused tests and a separate sparse reconstruction pass. PR107's full
+third jet with its nonzero moving-kernel correction is tracked in a
+separate checkpoint. The projective criterion above now closes the
+remaining base-chart question. Do not
 mistake this extension of one specified two-jet for extension of every
 representative or a complete matrix target. This round's PR136 package
 is frozen for final integration and current-head CI; subsequent research
@@ -35,7 +55,8 @@ rank-twelve incidence can constrain or support a full matrix target.
 The companion all-order criterion now makes PR101's second-order
 condition necessary and sufficient for existence on the entire affine
 base chart and every projective normal direction, allowing boundary
-velocity to vary. Other projective base charts remain open.
+velocity to vary. The new projective package covers the other base charts
+without changing that correct affine statement.
 Full regression and archived replay are required before merge. Written,
 unreviewed; no full M(10,10,11) target or exponent improvement.
 
@@ -113,8 +134,9 @@ and moving source kernel. A polynomial two-jet on c=-d^3 is exported;
 its uncorrected third coefficient is nonzero. The later polynomial
 curve above establishes all-order existence after changing boundary
 velocity. Keep this14-row local incidence distinct from the full matrix
-target and from fixed lower-jet extension. Other base charts and the12-by8
-case remain open. Written, unreviewed, no smaller exponent.
+target and from fixed lower-jet extension. The projective base coverage is
+now supplied above; the separate 12-by-8 case remains open. Written,
+unreviewed, no smaller exponent.
 
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
