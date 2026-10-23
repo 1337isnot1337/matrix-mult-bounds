@@ -127,9 +127,16 @@ Deliver a dependency map with cited lemmas and a candidate constraint absent fro
 
 ## R6: Make search results stronger and reusable
 
-Status: open. Replace floating best-case ordering in a maintained search copy with exact rational ordering. Add canonical support certificates and replayable witnesses. Preserve the historical code unchanged.
-
-A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
+Status: completed for the three recorded search scopes. The
+[maintained exact search](../research/ai/2026-10-23-exact-monomial-search/README.md)
+orders candidates by rational scores and retains deterministic support and
+sector certificates for its exact leaderboards. It replays 12,976 binary,
+209,692 ternary, and 20,000 seeded random candidates, with no scored
+violation of the profile. A regression test demonstrates that distinct
+rational ratios can map to the same float; another preserves the distinguished
+shared-leg role. The historical code remains unchanged. Broader weight
+families, arbitrary basis changes, stronger unrecognized-block scores, and
+any exponent implication remain open.
 
 ## R7: Whole-filtration entropy beyond the balanced obstruction
 

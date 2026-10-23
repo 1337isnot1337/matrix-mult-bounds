@@ -12,6 +12,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Research field and annotated bibliography](docs/literature.md)
 - [The external 9/4 proof and its dependencies](docs/nine_fourths_route.md)
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
+- [Exact rational monomial support search](research/ai/2026-10-23-exact-monomial-search/README.md)
 - [Research directions and acceptance criteria](docs/research_directions.md)
 - [Attribution and provenance](PROVENANCE.md)
 - [Main integration checkpoint and combined validation](docs/integration_2026-10-20.md)

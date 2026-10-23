@@ -1,5 +1,17 @@
 # Research status
 
+## Exact rational ranking for the monomial support search
+
+The [maintained search](research/ai/2026-10-23-exact-monomial-search/README.md)
+uses exact rational ordering and exports replayable zero-support, sector,
+and block-recognition certificates. It preserves the first input leg as the
+shared sector axis. The binary scope checks 12,976 candidates, the ternary
+scope 209,692, and the seeded random scope 20,000; none has an exact score
+above the source profile. The exact best ratio is 1 in all three scopes;
+the random nontrivial best is 21/22. The historical search files remain
+unchanged. Claim EXP-MONOMIAL-SEARCH-EXACT-001 is a finite experiment;
+this relaxation does not establish an exponent improvement.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

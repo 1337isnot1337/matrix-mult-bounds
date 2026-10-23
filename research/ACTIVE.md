@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+## Exact rational monomial support ranking: October 23
+
+The R6 continuation is on research/exact-rational-score-20261023,
+draft PR118. Its maintained copy orders scores exactly and certifies the
+retained leaderboard supports. All 242,668 candidates across the archived
+binary, ternary, and seeded random scopes replay with zero score violations.
+The archive remains unchanged. Local full regression and hosted CI are
+pending; the result is finite and does not improve the exponent.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument
