@@ -1,6 +1,8 @@
 # Full-right-inverse Laurent regularity
 
-The [written, unreviewed proof](proof.md) excludes the canonical A4 to
+The [written, unreviewed proof](proof.md) gives a general Laurent
+regularity theorem without a low-rank-spanning target hypothesis.
+Its A4 application excludes the canonical A4 to
 M(10,10,11) degeneration whenever one long map C is regular with rank110
 limit, the target identity has a regular source lift, and its limiting
 image S(0) C(0) has rank at least102. It includes source units of corank
@@ -21,6 +23,23 @@ rank101, singular long-leg limits and polar unit lifts remain outside
 the exclusion. First-map regularity alone needs no unit-image rank bound.
 
 See [the question](QUESTION.md) and [predecessor pins](sources.json).
-Exact finite controls and full regression receipts will accompany the
-completed package. They support the linear algebra and keep the formal
-proof's review status separate from executable checks.
+Concurrent [PR113](https://github.com/1337isnot1337/matrix-mult-bounds/pull/113)
+at08ac3e9 uses low-rank target generators with the same right-inverse
+mechanism to exclude every A4 chart with one regular full-rank long map,
+including arbitrary original unit lifts. It subsumes this package's A4
+corollary. The rank101 equality above is a boundary of this general
+criterion, not a remaining A4 frontier. Its proof was inspected after
+this package's first commit c34ffcd; no independent review is claimed.
+PR125 and PR142 separately address singular long-map limits.
+
+Reproduce finite controls and five focused tests:
+
+```sh
+python research/ai/2026-10-23-regular-unit-projector/verify.py
+python -m unittest discover -s tests -p test_regular_unit_projector.py -v
+```
+
+The exact controls and focused tests pass. All five historical archive
+replays pass. Full local regression and final-head hosted CI remain in
+progress. These checks support finite linear algebra and do not formalize
+the universal proof or establish independent mathematical review.

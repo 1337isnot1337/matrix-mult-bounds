@@ -1,15 +1,14 @@
 # Research directions
 
 The [full-right-inverse Laurent criterion](../research/ai/2026-10-23-regular-unit-projector/proof.md)
-now excludes the canonical A4 target whenever one long map is regular
-with full-rank limit, the identity lift is regular, and its unit-image rank
-is at least102. In that setup the first map is regular independently of
-unit-image rank. The remaining unit-image boundary is rank101 and below:
-the target injectivity margin vanishes at101, and an exact control attains
-equality. A continuation must add structure at that boundary, allow a
-singular long-leg limit or use a polar identity lift. Repeating the rank109
-projection argument does not address a new chart. These are written
-unreviewed obstructions, with no constructed matrix target or exponent gain.
+gives a general map-regularity theorem without a low-rank-spanning target
+hypothesis. Its A4 unit-image corollary is subsumed by concurrent PR113's
+written exclusion of every chart with one regular full-rank long map,
+including polar original units. The criterion's rank101 equality is not
+an active A4 gap. PR125 and PR142 separately use shared correction spaces
+and source ruling geometry to address singular balanced long-map limits.
+All these results remain written and unreviewed, with no constructed
+matrix target or exponent improvement.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 

@@ -144,3 +144,15 @@ the source restriction rank budget, the target injectivity boundary and
 source-row dimension margins. They do not enumerate all formal series,
 formalize the proof or establish independent mathematical review. Neither
 the full matrix target nor an exponent below9/4 is constructed.
+
+## 7. Concurrent stronger A4 exclusion
+
+After the first committed version c34ffcd, concurrent PR113 at08ac3e9
+was inspected. Its scalar-balancing and low-rank-spanning argument with
+the same regular unit-kernel correction excludes every A4 chart with
+one regular full-rank long map, even for a polar original unit lift.
+Thus the A4 corollary in Section5 is subsumed by that written unreviewed
+result; its rank101 boundary is not an active A4 gap. The general
+regularity theorem here remains distinct: it does not require a target
+spanning set of low-rank slices and proves regularity of the given maps.
+No independent mathematical review or historical priority is claimed.

@@ -1,6 +1,17 @@
 # Research status
 
-## Full-right-inverse Laurent criterion and the rank102 unit-image chart
+## General full-right-inverse Laurent criterion
+
+Concurrent [PR113](https://github.com/1337isnot1337/matrix-mult-bounds/pull/113)
+at08ac3e9 gives a stronger A4 exclusion with one regular full-rank long map,
+using low-rank target generators and allowing a polar original unit lift.
+It subsumes the A4 rank102 corollary below. This package retains a general
+regularity theorem without the low-rank-spanning target hypothesis; its
+rank101 equality is a boundary of this sufficient criterion, not the
+updated A4 frontier. Both results are written and unreviewed. The separate
+[PR125](https://github.com/1337isnot1337/matrix-mult-bounds/pull/125) and
+[PR142](https://github.com/1337isnot1337/matrix-mult-bounds/pull/142) continue
+to singular balanced long-map limits using source ruling geometry.
 
 The [regular-right-inverse argument](research/ai/2026-10-23-regular-unit-projector/proof.md)
 extends the preceding rank109 A4 chart to unit-image rank at least102.
