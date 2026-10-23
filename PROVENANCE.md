@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-unit-image-pole-flags` package is owner-directed Codex
+continuation of the one-sided unit-image argument. The canonical source,
+minimum-rank gap and full source locus below twice the minimum retain
+prior repository credit and exact byte pins. Grothendieck's1957 splitting
+theorem on P^1_C retains external credit through the source rank-gap proof;
+its primary statement was inspected again. The new highest-coefficient
+flag restrictions and rank106 first-map pole requirement use those written
+source results and elementary tensor pencils. Finite controls do not
+construct a compatible unit trajectory, solve lower poles, provide
+independent mathematical review or improve the exponent.
+
 The `2026-10-23-one-sided-unit-image` package is owner-directed Codex
 continuation. The canonical source, its minimum slice ranks, ordinary A4
 exclusion, regularized Laurent rank argument and independent partial-unit

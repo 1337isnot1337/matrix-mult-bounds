@@ -1,0 +1,251 @@
+{
+  "a4_leading_image_dimension_bounds": [
+    {
+      "first_map_must_be_polar": true,
+      "leading_image_dimension_bound": 4,
+      "source_defect": 6,
+      "source_rank_budget": 18,
+      "unit_image_rank": 106
+    },
+    {
+      "first_map_must_be_polar": false,
+      "leading_image_dimension_bound": 16,
+      "source_defect": 7,
+      "source_rank_budget": 21,
+      "unit_image_rank": 105
+    },
+    {
+      "first_map_must_be_polar": false,
+      "leading_image_dimension_bound": 16,
+      "source_defect": 8,
+      "source_rank_budget": 24,
+      "unit_image_rank": 104
+    },
+    {
+      "first_map_must_be_polar": false,
+      "leading_image_dimension_bound": 16,
+      "source_defect": 9,
+      "source_rank_budget": 27,
+      "unit_image_rank": 103
+    },
+    {
+      "first_map_must_be_polar": false,
+      "leading_image_dimension_bound": 16,
+      "source_defect": 10,
+      "source_rank_budget": 30,
+      "unit_image_rank": 102
+    }
+  ],
+  "improves_omega": false,
+  "proof_status": "proof-written-unreviewed",
+  "ruling_controls": [
+    {
+      "alpha": 1,
+      "beta": 0,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "left"
+    },
+    {
+      "alpha": 1,
+      "beta": 0,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "right"
+    },
+    {
+      "alpha": 0,
+      "beta": 1,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "left"
+    },
+    {
+      "alpha": 0,
+      "beta": 1,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "right"
+    },
+    {
+      "alpha": 1,
+      "beta": 1,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "left"
+    },
+    {
+      "alpha": 1,
+      "beta": 1,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "right"
+    },
+    {
+      "alpha": 1,
+      "beta": 2,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "left"
+    },
+    {
+      "alpha": 1,
+      "beta": 2,
+      "coefficient_parameters": [
+        -1,
+        0,
+        2
+      ],
+      "dimension": 4,
+      "fixed_short_factor": [
+        1,
+        2,
+        0,
+        -1
+      ],
+      "source_ranks": [
+        16,
+        16,
+        16
+      ],
+      "variable_short_factor": "right"
+    }
+  ],
+  "scope": "Necessary highest-pole flags only; no lower-pole or target construction claim.",
+  "source_controls": {
+    "mixed_hankel_profile_source_rank": 32,
+    "mixed_short_factor_source_rank": 20,
+    "rank106_block_budget_survivor": {
+      "block_ranks": [
+        4,
+        10,
+        16
+      ],
+      "deleted_columns": [
+        18,
+        19,
+        32,
+        33,
+        34,
+        35
+      ],
+      "deleted_rows": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29
+      ],
+      "retained_dimension": 106,
+      "target_constructed": false,
+      "unit_frame_compatibility_claimed": false
+    }
+  },
+  "source_pin_count": 4
+}

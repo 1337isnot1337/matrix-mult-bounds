@@ -122,7 +122,11 @@ excludes every Laurent pole order if one long map has a regular rank110
 limit, the identity lift is regular and its image rank is at least107.
 In that regular-long-map chart, continue only at unit-image rank at
 most106 or with a polar identity lift; singular long-leg limits are a
-separate open class.
+separate open class. The [highest-pole flag restrictions](../research/ai/2026-10-23-unit-image-pole-flags/proof.md)
+force a first-map pole at rank106, with leading image in a source ruling
+of dimension at most four. At ranks102 through105 a polar first map has
+one fixed Hankel factor in its highest coefficient. These constrain only
+the highest pole and do not fix the lower Laurent coefficients.
 
 ## R5: Compare external formulations before duplicating work
 

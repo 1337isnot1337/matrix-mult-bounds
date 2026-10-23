@@ -1,0 +1,33 @@
+{
+  "base_commit": "c5aab5b503bb48625ccdf83fec1ab2a4d43cfde0",
+  "field": "C",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-one-sided-unit-image/proof.md",
+      "sha256": "a01e2051fbca5536d1356b9de23e3abb03ba3dae2391398e1bc1f078b22e14e1"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.py",
+      "sha256": "f47226408dc6fbf07e39aa59e16cc035d7691493c7d6720c2f99417a0d10f24d"
+    }
+  ],
+  "external_dependency_retained": {
+    "author": "A. Grothendieck",
+    "year": 1957,
+    "title": "Sur la classification des fibres holomorphes sur la sphere de Riemann",
+    "theorem": "2.1",
+    "printed_page": 126,
+    "hypotheses": "Holomorphic vector bundle on the Riemann sphere; applied to the complex algebraic kernel subbundle in the credited source rank-gap proof.",
+    "url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
+    "inspection": "Primary theorem statement at PDF page7 inspected October23,2026. The external proof was not rebuilt."
+  },
+  "attribution": "The source rank-gap, minimum-rank and below-twice-minimum classifications retain prior repository and external credit. Highest-pole flag consequences, the rank106 first-map pole requirement and exact block-budget controls are owner-directed Codex continuation. No independent mathematical review."
+}

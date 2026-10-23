@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The highest-pole continuation is on `research/pole-ruling-20261023`,
+stacked on PR121, in
+[the pole-flag package](ai/2026-10-23-unit-image-pole-flags/proof.md).
+At regular unit-image rank106 the first map must be polar, with leading
+image in a source ruling of dimension at most four. At ranks102 through105
+any polar first map has a fixed Hankel leading factor. Four focused,
+18 metadata and three archive-integrity tests pass; these are necessary
+highest-coefficient restrictions, not lower-pole or target solutions.
+The underlying all-order source arguments remain written and unreviewed.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over
