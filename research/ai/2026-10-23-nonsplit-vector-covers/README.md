@@ -78,3 +78,11 @@ attempt needs additional basis information, another basis, a different
 source power, or a different construction mechanism. All original source
 and finite-characteristic limitations remain in force. There is no
 independent mathematical review or formalization.
+
+Local validation on Python 3.14.8 completed 854 tests: 851 passed and
+three optional numerical controls skipped. All five archive replays
+passed, and all 18 protected AI archive files match the base bytes.
+After integrating merged prerequisite PR102, four focused and 18 metadata
+tests passed. The exact counts, code commits and compressed logs are in
+[validation.json](../../../../results/nonsplit-vector-covers-2026-10-23/validation.json).
+Current-head hosted CI remains the merge gate.

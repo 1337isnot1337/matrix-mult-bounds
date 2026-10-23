@@ -23,7 +23,12 @@ Completed discovery: all seven vector-degree runs returned the old costs;
 the source parity condition was checked densely against the pinned PR102
 source. The complete 3372-vector integer census combining degree with the
 saved cover also gives 6155844. Four focused tests and exact standalone
-replay pass. Full regression, archive replay and hosted CI are pending.
+replay pass. The complete four-group regression ran 854 tests: 851 passed
+and three optional controls skipped. All five archive replays pass; all
+18 protected archive files match the base byte-for-byte. Prerequisite
+PR102 merged as dcd209a and is integrated here. Four focused and 18
+metadata tests pass after integration. CI passed at 9f177b0; the final
+integration/receipt head still needs its current checks.
 
 No new source-bound gain, class-wide cover optimum or exponent improvement
 is claimed. Next: retain finer Peirce-corner information or change basis/
