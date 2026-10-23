@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "unconstructed candidate; canonical first identifications excluded by the second-leg degree-one Koszul rank",
+  "common_first_dimension": 5,
+  "source": {
+    "blocks": [
+      {
+        "kind": "Full",
+        "a": 5,
+        "b": 4,
+        "copies": 10
+      }
+    ],
+    "first_identification": "one common coefficient basis for all ten source blocks",
+    "term_rule": "x_i y_(r,j) z_(r,i+j), 0<=i<5, 0<=j<4, 0<=r<10",
+    "long_dimensions": [
+      40,
+      80
+    ],
+    "exact_border_rank": 80,
+    "border_rank_reason": "third flattening rank80 and ten polynomial interpolation decompositions of length8"
+  },
+  "target": {
+    "blocks": [
+      {
+        "kind": "Full",
+        "a": 5,
+        "b": 3,
+        "copies": 10,
+        "dimensions": [
+          5,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "Full",
+        "a": 5,
+        "b": 2,
+        "copies": 1,
+        "dimensions": [
+          5,
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "SharedOutput",
+        "input_lengths": [
+          4,
+          2
+        ],
+        "copies": 2,
+        "dimensions": [
+          5,
+          4,
+          2
+        ]
+      }
+    ],
+    "canonical_shared_output_rule": "x_(j+k) y_(r,j) z_(r,k), 0<=j<4, 0<=k<2",
+    "first_identification": "canonical coefficient basis for initial exact screening; independent target GL5 identifications are a distinct question",
+    "long_dimensions": [
+      40,
+      80
+    ],
+    "component_rank_sum": 86
+  },
+  "symmetric_score": {
+    "definition": "G(a,b)=((3*min(a,b)-1)/2)^(1/3)*(max(a,b)+(min(a,b)-1)/2); shared-output blocks use their two polynomial input lengths",
+    "source": "65*cuberoot(11/2)",
+    "target": "60*cuberoot(4)+(29/2)*cuberoot(5/2)",
+    "common_positive_scale": "2^(4/3)",
+    "scaled_source": "130*cuberoot(11)",
+    "scaled_target": "240+29*cuberoot(5)",
+    "exact_comparison": {
+      "cuberoot_5_lower_bound": "17/10",
+      "lower_bound_cube_deficit_numerator": 87,
+      "lower_bound_cube_deficit_denominator": 1000,
+      "scaled_target_lower_bound": "2893/10",
+      "comparison": "(2893/10)^3 - 130^3*11",
+      "positive_numerator": 45815957,
+      "denominator": 1000
+    },
+    "score_improves": true,
+    "exponent_improves": false
+  },
+  "passed_screens": {
+    "common_first_and_long_dimensions": [
+      5,
+      40,
+      80
+    ],
+    "shared_leg_koszul_source_and_target": [
+      40,
+      200,
+      360,
+      280,
+      80
+    ],
+    "generic_first_slice_ranks": {
+      "source": 40,
+      "target": 36
+    },
+    "symmetric_power_all_degrees": "Both source orientations have maximal ambient matrix rank: Phi_q=min(80*H_q,40*H_(q+1)), Psi_q=40*H_q; H_q=binom(q+4,4). Therefore any target of this format passes.",
+    "all_quantum_and_upper_support_functionals": "The canonical source reaches the simultaneous ambient dimension maximum. The conclusion allows arbitrary target first identifications, not independently reidentified source blocks.",
+    "source_balancing_squared_weights": "binom(4,i)*binom(3,j)/binom(7,i+j), on every source block",
+    "balancing_marginals": {
+      "total_mass": 80,
+      "first_each": 16,
+      "second_each": 2,
+      "third_each": 1
+    }
+  },
+  "new_obstruction": {
+    "map": "C* tensor B -> A tensor wedge^2 B",
+    "degree": 1,
+    "source_rank": 2595,
+    "canonical_target_rank": 2616,
+    "gap": 21,
+    "scope": "Covariant under all three global general linear groups; excludes canonical target even with singular or polar first-map charts.",
+    "exact_certificate_owner": "pr_audit agent; package 2026-10-23-shared-output-koszul"
+  },
+  "discovery": {
+    "method": "floating-point linear programming then integer programming; exact integer and rational controls decide all retained claims",
+    "lp_scope": "a=2..9; B in {a,2a,10a,100a}; all admissible target dimensions h<=a, y,z<=2a; ordinary dimensions, shared Koszul and symmetric-power rank screening",
+    "milp_scope": "a=5,B=4,c=1..15; full shared dimension5; target y,z<=10; symmetric-power degrees0..10; five-second per-run limit",
+    "warning": "A provisional Hankel-rank module formula was used for discovery. No retained screen or theorem relies on it; maximal source rank makes both symmetric-power comparisons automatic.",
+    "alternative_unconstructed_profile": "9 Full(5,4) -> 8 Full(5,3) + 2 Full(5,2) + 2 SharedOutput(4,2)"
+  }
+}
+

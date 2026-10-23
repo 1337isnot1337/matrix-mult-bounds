@@ -1,0 +1,40 @@
+{
+  "integration_note": "These records are mirrored in the authoritative research/claims.json ledger.",
+  "claims": [
+    {
+      "id": "AI-PASS-OPERATIONAL-EXTENSION-001",
+      "title": "All Pass primal and dual packings preserve the rectangular operational barrier",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-pass-operational-barrier/proof.md",
+      "section": "1-3",
+      "statement": "For every positive theta triple of sum one and every positive integer a,b,c,t with c*t >= a+2*b-1, both Pass polynomial packing rules preserve the Amanov-van den Berg-Zuiddam operational potential. Adjoining those rules, their leg permutations and their compatible partial-sum insertions to the stated formal preorder preserves its complete rectangular barrier.",
+      "dependencies": [
+        "AVZ26 Definition 5.5, Proposition 5.7, Proposition 5.8(ii), and equation (5.7)",
+        "PASS26 Lemmas 2.4-2.5",
+        "The discrete concave affine-tail lemma proved in this package"
+      ],
+      "limitations": "A formal method barrier, not a degeneration-monotone tensor character or unrestricted lower bound. No independent review, formalization, tensor construction or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-HOMOGENEOUS-PACKING-DIMENSIONS-002",
+      "title": "Both long-leg dimensions force symmetric potential monotonicity for homogeneous polynomial packings",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-pass-operational-barrier/proof.md",
+      "section": "4-5",
+      "statement": "For all positive a,b,c,t and nonnegative u,v with u+v>0, every dimension-compatible format from c shared Full(a,b+t) sources to u shared Full(a,b) and v shared Mid(a,b) targets preserves the symmetric operational potential. This uses a strictly increasing normalized profile below b=a and a constant ratio above it. Pass's condition is exactly the pair of necessary long-leg flattening conditions for u=c+1,v=1.",
+      "dependencies": [
+        "AVZ26 symmetric potential formula (5.3)",
+        "Exact derivative identity and two flattening dimensions proved here"
+      ],
+      "limitations": "Only the stated homogeneous source and target formats. The conclusion concerns the symmetric potential, not every rectangular potential or existence of the degeneration. Heterogeneous targets and different sources remain outside the result.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    }
+  ]
+}

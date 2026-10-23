@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "command": "python -m unittest discover -s tests -p 'test_mixed_longlegs_catalecticant.py' -v",
+  "tests_passed": 4,
+  "reported_seconds": "0.020",
+  "status": "Written universal block bounds with exact finite convention controls; no external independent review",
+  "coverage": {
+    "canonical_block_ranks": 6,
+    "additional_width_and_output_shapes": 25,
+    "invertible_first_frames": 6,
+    "first_frame_block_matrices": 36,
+    "quadratic_contraction_vectors": 26,
+    "long_factor_covariance_cases": 3,
+    "changed_first_transpose_cases": 3
+  },
+  "source_rank": 120,
+  "target_universal_lower_bound": 130,
+  "excluded_chart": "Scalar-normalized first map with invertible nonzero leading limit",
+  "singular_first_charts_excluded": false,
+  "file_sha256": {
+    "research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md": "3f37b22fef1650a8594a98257e3f8e2d6dc2491cdd9260c3ecaf90dea0cd8d06",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_catalecticant.py": "086bf0a53813f4a6d68457b0d37eeb2cb229331b52528c40544e02def8bd4e6c",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_sources.json": "5fb8176cc8a683d9c600beca41ac033cd83a286782b9066348e549277bc3bb1b",
+    "results/mixed-longlegs-candidate-2026-10-23/catalecticant_verification.json": "af531b5d9dcbccb3a2ac783922b6f30a8f44f1134c80c3c81bc111a95c1f9be9",
+    "tests/test_mixed_longlegs_catalecticant.py": "cbaacd1d7362f91389d312cb78be74e990e900c11b7f8e4b5e55653ca7258acb"
+  }
+}

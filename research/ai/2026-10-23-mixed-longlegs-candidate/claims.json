@@ -1,0 +1,55 @@
+{
+  "integration_note": "Proposed additions to research/claims.json; this file is not a second authoritative ledger.",
+  "claims": [
+    {
+      "id": "AI-MIXED-LONGLEGS-CANDIDATE-001",
+      "title": "A fixed mixed-orientation profile improves the formal score and passes exact necessary screens",
+      "origin": "AI research directed by repository owner; coordinated agents in one generating session",
+      "status": "finite-experiment",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/proof.md",
+      "statement": "The canonical (5,100,140) endpoints 10 Full(5,10) and 7 Full(5,2) + 10 Full(5,3) + 4 O(3,3) + 2 O(4,2) + 6 Mid(5,2) have a certified strict symmetric formal-score increase. They pass every ordinary Koszul degree on all three legs, both symmetric-power rank families in every degree, and all quantum and upper support bounds. Exact higher B-degree matrices and written all-degree source formulas complete the initial finite screens.",
+      "dependencies": [
+        "AVZ26 symmetric formal potential",
+        "DO01 through the existing common-input symmetric-power theorem",
+        "CVZ23 entropy definition and SDW26 Theorem1.1",
+        "Literal integer and rational controls in verify.py and verify_higher.py",
+        "Written source_b_koszul.md formula and source_c_koszul.md generic maximality theorem",
+        "Independent sufficient exterior-kernel and slice-cokernel controls in shadow_note.md"
+      ],
+      "limitations": "Canonical target first bases for the computed B-leg ranks; the C-leg source theorem permits arbitrary targets of the same format. No actual tensor degeneration or improved exponent. Projected Koszul maps, other flattenings, and the border-rank condition remain outside this completed ordinary Koszul census. The initial report is retained as a historical checkpoint.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-SHARED-SOURCE-OUTPUT-KOSZUL-WINDOWS-002",
+      "title": "Sharp maximal-rank windows on the output leg of identical convolution sums",
+      "origin": "AI research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/source_koszul_tails.md",
+      "statement": "Over C, for S = c Full(a,b) and N = c(a+b−1), the output-leg Koszul map B* tensor wedge^p C -> A tensor wedge^(p+1) C is injective for p <= a−1 and surjective for p >= c(a−1). Explicit wedge kernels show that neither maximal-rank window extends beyond its stated boundary.",
+      "dependencies": [
+        "Polynomial interpolation and elementary Vandermonde independence; both arguments written locally"
+      ],
+      "limitations": "This elementary proof does not compute intervening ranks; the later source_c_koszul.md theorem does. No target construction. Complex field and positive integers a,b,c; degrees outside 0,...,N−1 omitted.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-MIXED-CANDIDATE-COPYWISE-DIMENSIONS-003",
+      "title": "The frozen target cannot be allocated whole-block-by-whole-block to individual source copies",
+      "origin": "AI research directed by repository owner; coordinating-agent deduction",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/copywise_dimensions.md",
+      "statement": "The only nonnegative integer target-block count fitting the (10,14) long-leg dimensions of one source Full(5,10) is 2 Full(5,2) + Mid(5,2). Therefore the frozen global target cannot arise from a source-copy-preserving whole-block allocation on both long legs.",
+      "dependencies": [
+        "Exact two-dimension equations and finite enumeration of 576 bounded tuples"
+      ],
+      "limitations": "Only the stated copywise allocation class. Arbitrary linear mixing across source copies is not excluded.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    }
+  ]
+}

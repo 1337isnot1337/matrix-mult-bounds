@@ -1,0 +1,39 @@
+{
+  "integration_note": "Scoped additions to the authoritative root claim ledger; this is not a second ledger.",
+  "claims": [
+    {
+      "origin": "Owner-directed Codex research; same-session mathematical audits",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-MIXED-CANDIDATE-CACTUS-RANK-007",
+      "title": "The canonical mixed target has cactus, smoothable and ordinary rank exactly 178",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/cactus_rank.md",
+      "statement": "For a complex tensor concise in B and C, a linearly nondegenerate irreducible first-dual variety whose slices have rank at most s gives cactus rank at least dim B+dim C-s. The canonical mixed target has constant slice rank62 on its evaluation curve, so its cactus, smoothable and ordinary ranks all equal178, by an explicit rational interpolation upper bound. Independent first identifications still give cactus rank at least168. The canonical (2,3,3) control has border rank3 but cactus and ordinary rank4.",
+      "dependencies": [
+        "Finite-algebra description of finite Segre scheme spans; JLP24 and JJ26 provide background with their separate hypotheses",
+        "Local proof using a unit and the quotient by the pairing radical",
+        "Exact interpolation identities, flattenings and slice controls"
+      ],
+      "limitations": "The equality178 requires common canonical first identifications. Cactus and smoothable rank are not substituted for border rank; this theorem does not exclude a border-rank140 realization or the proposed degeneration. No exponent improvement."
+    },
+    {
+      "origin": "Owner-directed Codex research; same-session mathematical audits",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-MIXED-CANDIDATE-CATALECTICANT-008",
+      "title": "A catalecticant excludes every invertible leading first-map chart for the mixed target",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md",
+      "statement": "Over C, the middle first-factor catalecticant has rank120 on 10 Full(5,10), while every target in the frozen block profile has rank at least130, even after arbitrary independent invertible first identifications. Consequently a Laurent degeneration, with unrestricted polar and mixed long maps, cannot have an invertible first-map limit after scalar normalization.",
+      "dependencies": [
+        "PAR04 Proposition1.4 and Theorem1.5: the Segre dimension bound for a kernel containing no nonzero product vector",
+        "Local zero-free Full and Mid applications and the shared-output transpose argument",
+        "Long-factor covariance and specialization of vanishing minors"
+      ],
+      "limitations": "The structured rank is not GL(A)-invariant. This checkpoint excludes only invertible normalized leading first maps; singular leading first maps are outside this note. No full candidate rejection or exponent improvement follows from this note alone."
+    }
+  ]
+}

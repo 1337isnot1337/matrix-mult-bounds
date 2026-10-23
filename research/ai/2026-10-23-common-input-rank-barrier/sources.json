@@ -1,0 +1,54 @@
+{
+  "inspection_date": "2026-10-23",
+  "field_scope": "The all-size symmetric-power rank formula imports a complex boundary-format determinant theorem. The actual degeneration theorem is stated over C. Positive real theta of sum one parameterizes the formal potential.",
+  "attribution": "DO01 provides a primary proof of the boundary-format determinant theorem of Gelfand, Kapranov and Zelevinsky. AVZ26 provides the formal potential, concavity and endpoint bound. The finite curvature/rank representation, heterogeneous dimension dual, and balancing application are owner-directed Codex deductions. No historical priority or independent mathematical review is claimed.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-pass-operational-barrier/proof.md",
+      "sha256": "38b8884c06dff6d6bb50eb01f311ed8e09961390cd069ee6c369cd6d6b0458a8",
+      "role": "Existing Full/Mid conventions and exact AVZ formal-potential formulas; original Pass attribution retained."
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/research_note.md",
+      "sha256": "8b9d94db1a1f5be11ad3f4179c790725be13b612a3382fbc7bf7084afb0c280f",
+      "role": "Existing shared-input Koszul rank formula, used only to show why the balancing control passes that weaker screen."
+    }
+  ],
+  "sources": [
+    {
+      "id": "DO01",
+      "title": "The Binet-Cauchy Theorem for the Hyperdeterminant of boundary format multidimensional Matrices",
+      "authors": [
+        "Carla Dionisi",
+        "Giorgio Ottaviani"
+      ],
+      "year": 2001,
+      "url": "https://arxiv.org/pdf/math/0104281v1",
+      "category": "tensor-degenerations",
+      "inspection": "Primary PDF Sections 2-3, Definition 2.1 and Theorem 3.1, including the exact symmetric-power map and complex field convention.",
+      "version_note": "arXiv:math/0104281v1, April 29, 2001; published in Journal of Algebra 259 (2003), 87-94.",
+      "hypotheses": "Complex spaces dim V_i=k_i+1; boundary format k_0=sum_{i>0}k_i. Nondegenerate means the associated map on nonzero decomposable vectors has no zero. The natural critical map has nonzero determinant exactly in that case.",
+      "local_instantiation": "V_0=C, V_1=B, V_2=A; k_0=a+b-2, k_1=b-1, k_2=a-1; m_1=0, m_2=b-1. Polynomial multiplication is nondegenerate. Cases a=1 or b=1 are proved directly.",
+      "proof_rebuilt_locally": false,
+      "accessed": "2026-10-23"
+    },
+    {
+      "id": "AVZ26",
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": [
+        "Alimzhan Amanov",
+        "Maxim van den Berg",
+        "Jeroen Zuiddam"
+      ],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "category": "barriers",
+      "inspection": "Primary Definition 5.5, equation (5.7), Proposition 5.8(ii),(iv), and the partial-sum rule. The score is the formal operational F_theta^star, not the usual quantum functional.",
+      "version_note": "arXiv:2610.30054v1, October 21, 2026.",
+      "hypotheses": "theta_i>0, sum theta_i=1; p_i=theta_i/((1-theta_j)(1-theta_k)); widths are positive integers. Concavity is on positive widths; extension to zero is justified locally using the stated upper bound.",
+      "proof_rebuilt_locally": false,
+      "accessed": "2026-10-23"
+    }
+  ]
+}
+

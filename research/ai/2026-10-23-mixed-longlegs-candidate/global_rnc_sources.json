@@ -1,0 +1,69 @@
+{
+  "inspected_on": "2026-10-23",
+  "scope": "Standard geometric ingredients for the local rational-normal-curve obstruction; no historical-priority claim for those ingredients.",
+  "sources": [
+    {
+      "id": "GROTHENDIECK61-HILBERT",
+      "author": "Alexander Grothendieck",
+      "title": "Techniques de construction et theoremes d'existence en geometrie algebrique IV : les schemas de Hilbert",
+      "publication": "Seminaire Bourbaki, 1960/61, Expose 221, pp. 249-276 (1961)",
+      "url": "https://www.numdam.org/item/SB_1960-1961__6__249_0.pdf",
+      "erratum_url": "https://www.numdam.org/item/SB_1961-1962__7__302_1.pdf",
+      "inspected_scope": "Theorem 3.2; specialization to the Hilbert functor following Proposition 3.8; the 1962 erratum.",
+      "used_scope": "A projective Hilbert scheme for fixed Hilbert polynomial, classifying flat projective families in projective space. Applied to polynomial 4n+1 in P4 over C.",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "MILNE17-ORBITS",
+      "author": "J. S. Milne",
+      "title": "Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field",
+      "publication": "Cambridge Studies in Advanced Mathematics 170 (2017)",
+      "url": "https://www.jmilne.org/math/Books/iAG2017.pdf",
+      "inspected_scope": "Section 7(c), Propositions 7.4, 7.12, 7.15 and 7.17.",
+      "used_scope": "Locally closed homogeneous orbit and smooth orbit map for PGL5 acting on its rational-normal-quartic orbit, whose stabilizer is smooth PGL2.",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "STACKS-PROPER-INCIDENCE",
+      "author": "The Stacks Project Authors",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/01WC",
+        "https://stacks.math.columbia.edu/tag/01W0"
+      ],
+      "inspected_scope": "A projective morphism is proper; proper morphisms are universally closed.",
+      "used_scope": "The first projection from the closed relative rank-one incidence has closed image.",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "STACKS-DVR-FLATNESS",
+      "author": "The Stacks Project Authors",
+      "urls": [
+        "https://stacks.math.columbia.edu/tag/0539",
+        "https://stacks.math.columbia.edu/tag/0AUW"
+      ],
+      "inspected_scope": "Torsion-free modules over a valuation ring are flat; finite torsion-free modules over a PID are free.",
+      "used_scope": "Constructing the flat closure by contracting the generic homogeneous ideal to C[[t]][x0,...,x4].",
+      "proof_rebuilt_locally": false
+    },
+    {
+      "id": "STACKS-SMOOTH-LIFTING",
+      "author": "The Stacks Project Authors",
+      "url": "https://stacks.math.columbia.edu/tag/02H6",
+      "inspected_scope": "Infinitesimal lifting criterion: smooth morphisms are formally smooth.",
+      "used_scope": "Successively lift the Hilbert arc over C[[t]]/(t^n) through the smooth PGL5 orbit map, then use completeness.",
+      "proof_rebuilt_locally": false
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md",
+      "used_scope": "Source catalecticant rank120 and target lower130 under all independent first identifications. Proof was read and audited in this same session.",
+      "sha256": "3f37b22fef1650a8594a98257e3f8e2d6dc2491cdd9260c3ecaf90dea0cd8d06"
+    },
+    {
+      "path": "research/ai/2026-10-23-mixed-longlegs-candidate/discovery_input.json",
+      "sha256": "c53abefde0cb5d5e2e816f96ae6c257ee843f59e6c28d13a6ae1994de9ab88f3",
+      "used_scope": "Frozen literal source and target block profile; its historical discovery status is preserved."
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "status": "exact necessary screens passed; construction unresolved",
+  "candidate_sha256": "c53abefde0cb5d5e2e816f96ae6c257ee843f59e6c28d13a6ae1994de9ab88f3",
+  "format": [
+    5,
+    100,
+    140
+  ],
+  "degree_one_nonshared_koszul": {
+    "B": {
+      "source_rank": 12735,
+      "target_rank": 12587,
+      "source_minus_target": 148,
+      "intrinsic": {
+        "S": 117,
+        "F2": 5,
+        "F3": 12,
+        "O33": 8,
+        "O42": 8,
+        "M2": 12
+      },
+      "pairs": {
+        "S/S": 257,
+        "F2/F2": 17,
+        "F2/F3": 24,
+        "F2/O33": 22,
+        "F2/O42": 27,
+        "F2/M2": 39,
+        "F3/F3": 33,
+        "F3/O33": 29,
+        "F3/O42": 34,
+        "F3/M2": 48,
+        "O33/O33": 17,
+        "O33/O42": 18,
+        "O33/M2": 24,
+        "O42/O42": 16,
+        "O42/M2": 20,
+        "M2/M2": 24
+      }
+    },
+    "C": {
+      "source_rank": 14000,
+      "target_rank": 13572,
+      "source_minus_target": 428,
+      "intrinsic": {
+        "S": 140,
+        "F2": 12,
+        "F3": 21,
+        "O33": 8,
+        "O42": 5,
+        "M2": 5
+      },
+      "pairs": {
+        "S/S": 280,
+        "F2/F2": 24,
+        "F2/F3": 32,
+        "F2/O33": 24,
+        "F2/O42": 28,
+        "F2/M2": 39,
+        "F3/F3": 42,
+        "F3/O33": 30,
+        "F3/O42": 34,
+        "F3/M2": 46,
+        "O33/O33": 17,
+        "O33/O42": 16,
+        "O33/M2": 22,
+        "O42/O42": 13,
+        "O42/M2": 17,
+        "M2/M2": 17
+      }
+    }
+  },
+  "degree_one_literal_matrix_count": 44,
+  "shared_A_B_star_wedge_convention": {
+    "source": [
+      100,
+      440,
+      720,
+      520,
+      140
+    ],
+    "target": [
+      100,
+      440,
+      720,
+      520,
+      140
+    ],
+    "blocks": {
+      "S": [
+        10,
+        44,
+        72,
+        52,
+        14
+      ],
+      "F2": [
+        2,
+        10,
+        20,
+        20,
+        6
+      ],
+      "F3": [
+        3,
+        15,
+        30,
+        24,
+        7
+      ],
+      "O33": [
+        3,
+        15,
+        30,
+        15,
+        3
+      ],
+      "O42": [
+        4,
+        20,
+        20,
+        10,
+        2
+      ],
+      "M2": [
+        6,
+        20,
+        20,
+        10,
+        2
+      ]
+    },
+    "literal_matrix_count": 30
+  },
+  "first_slice_coefficients": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "generic_first_slice_ranks": {
+    "source": 100,
+    "target": 72
+  },
+  "source_simultaneous_uniform_marginals": {
+    "squared_weight": "binom(4,i)*binom(9,j)/binom(13,i+j)",
+    "total_mass": 140,
+    "first_each": "28",
+    "second_each": "7/5",
+    "third_each": "1",
+    "literal_weights": 500,
+    "marginal_coordinates": 245
+  },
+  "source_output_leg_maximal_windows": {
+    "literal_matrix_count": 32,
+    "controls": [
+      {
+        "a": 1,
+        "b": 2,
+        "copies": 2,
+        "degree": 0,
+        "rows": 4,
+        "columns": 4,
+        "rank": 4
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "copies": 2,
+        "degree": 1,
+        "rows": 6,
+        "columns": 16,
+        "rank": 6
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "copies": 2,
+        "degree": 2,
+        "rows": 4,
+        "columns": 24,
+        "rank": 4
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "copies": 2,
+        "degree": 3,
+        "rows": 1,
+        "columns": 16,
+        "rank": 1
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "copies": 2,
+        "degree": 0,
+        "rows": 8,
+        "columns": 2,
+        "rank": 2
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "copies": 2,
+        "degree": 1,
+        "rows": 12,
+        "columns": 8,
+        "rank": 8
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "copies": 2,
+        "degree": 2,
+        "rows": 8,
+        "columns": 12,
+        "rank": 8
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "copies": 2,
+        "degree": 3,
+        "rows": 2,
+        "columns": 8,
+        "rank": 2
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "copies": 2,
+        "degree": 0,
+        "rows": 12,
+        "columns": 4,
+        "rank": 4
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "copies": 2,
+        "degree": 1,
+        "rows": 30,
+        "columns": 24,
+        "rank": 24
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "copies": 2,
+        "degree": 2,
+        "rows": 40,
+        "columns": 60,
+        "rank": 40
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "copies": 2,
+        "degree": 3,
+        "rows": 30,
+        "columns": 80,
+        "rank": 30
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "copies": 2,
+        "degree": 4,
+        "rows": 12,
+        "columns": 60,
+        "rank": 12
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "copies": 2,
+        "degree": 5,
+        "rows": 2,
+        "columns": 24,
+        "rank": 2
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "copies": 2,
+        "degree": 0,
+        "rows": 18,
+        "columns": 2,
+        "rank": 2
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "copies": 2,
+        "degree": 1,
+        "rows": 45,
+        "columns": 12,
+        "rank": 12
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "copies": 2,
+        "degree": 2,
+        "rows": 60,
+        "columns": 30,
+        "rank": 30
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "copies": 2,
+        "degree": 3,
+        "rows": 45,
+        "columns": 40,
+        "rank": 35
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "copies": 2,
+        "degree": 4,
+        "rows": 18,
+        "columns": 30,
+        "rank": 18
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "copies": 2,
+        "degree": 5,
+        "rows": 3,
+        "columns": 12,
+        "rank": 3
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 1,
+        "degree": 0,
+        "rows": 12,
+        "columns": 2,
+        "rank": 2
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 1,
+        "degree": 1,
+        "rows": 18,
+        "columns": 8,
+        "rank": 8
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 1,
+        "degree": 2,
+        "rows": 12,
+        "columns": 12,
+        "rank": 12
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 1,
+        "degree": 3,
+        "rows": 3,
+        "columns": 8,
+        "rank": 3
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 0,
+        "rows": 24,
+        "columns": 4,
+        "rank": 4
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 1,
+        "rows": 84,
+        "columns": 32,
+        "rank": 32
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 2,
+        "rows": 168,
+        "columns": 112,
+        "rank": 112
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 3,
+        "rows": 210,
+        "columns": 224,
+        "rank": 189
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 4,
+        "rows": 168,
+        "columns": 280,
+        "rank": 168
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 5,
+        "rows": 84,
+        "columns": 224,
+        "rank": 84
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 6,
+        "rows": 24,
+        "columns": 112,
+        "rank": 24
+      },
+      {
+        "a": 3,
+        "b": 2,
+        "copies": 2,
+        "degree": 7,
+        "rows": 3,
+        "columns": 32,
+        "rank": 3
+      }
+    ],
+    "candidate_automatic_C_degrees": [
+      [
+        0,
+        4
+      ],
+      [
+        40,
+        139
+      ]
+    ],
+    "candidate_unresolved_C_degrees": [
+      5,
+      39
+    ]
+  },
+  "copywise_dimension_control": {
+    "bounded_integer_tuples": 576,
+    "per_copy_solutions": [
+      [
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "target_counts": [
+      7,
+      10,
+      4,
+      2,
+      6
+    ],
+    "whole_block_copywise_allocation_possible": false,
+    "arbitrary_mixing_excluded": false
+  },
+  "exact_score_comparison": {
+    "source": "120*cuberoot(7)",
+    "target": "76*cuberoot(4)+(161/2)*cuberoot(5/2)",
+    "positive_scale": "2^(4/3)",
+    "scaled_source": "240*cuberoot(14)",
+    "scaled_target": "304+161*cuberoot(5)",
+    "cuberoot_5_lower_bound": "29/17",
+    "root_bound_cube_deficit": "176/4913",
+    "scaled_target_lower_bound": "9837/17",
+    "strict_cubed_gap": "1050371253/4913"
+  },
+  "all_degree_symmetric_power_scope": "Both source orientations have maximal ambient matrix rank: Phi_q=min(140*H_q,100*H_(q+1)), Psi_q=100*H_q; H_q=binom(q+4,4). Every tensor in the endpoint format therefore passes.",
+  "higher_nonshared_Koszul_degrees": "not established by this verifier",
+  "degeneration_constructed": false,
+  "improved_exponent_established": false
+}

@@ -1,0 +1,55 @@
+{
+  "integration_note": "Source-theorem and Schur additions to the authoritative research/claims.json ledger.",
+  "claims": [
+    {
+      "origin": "Owner-directed Codex research; same-session mathematical audits",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-FULL-SOURCE-EXTERIOR-PROLONGATION-004",
+      "title": "All exterior and simultaneous contraction ranks of canonical Full partial sums",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/source_b_koszul.md",
+      "statement": "For a canonical shared-first partial sum of c Full(a,b_i) blocks, N=sum b_i, every field and p>=0 give rank K_B^p = a binom(N,p+1) - max(a-p-1,0) binom(N-c,p+1). For q>=1 the simultaneous positionwise contraction has rank D_q = a N^q - max(a-q,0)(N-c)^q. The proofs identify the explicit evaluation kernel O(-1)^(N-c) on the projective line and its exterior or tensor powers.",
+      "dependencies": [
+        "Explicit polynomial evaluation syzygies and fiberwise kernel proofs",
+        "Elementary global sections of line bundles on the projective line"
+      ],
+      "limitations": "The source blocks share the same canonical first coefficient basis. Independent source first identifications are not included in this B-leg formula. The maps supply necessary rank conditions, not tensor constructions or exponent bounds."
+    },
+    {
+      "origin": "Owner-directed Codex research; same-session mathematical audits",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-ZERO-FREE-OUTPUT-KOSZUL-005",
+      "title": "Every output-leg Koszul rank of a zero-free bilinear tensor is a universal format maximum",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/source_c_koszul.md",
+      "statement": "Over C, let a>=2, N>=1 and M>=N+a-1. If a tensor of format (a,N,M) has injective B*-to-C slice for every nonzero first covector, then every output-leg Koszul rank equals the explicit alternating-kernel formula, equivalently the positive padded-Full formula. These ranks depend only on (a,N,M) and are the largest attainable ranks among all tensors in that format. Every Full partial sum with arbitrary independent invertible first identifications satisfies the hypothesis. In particular every (5,100,140) target passes every C-leg Koszul comparison against 10 Full(5,10).",
+      "dependencies": [
+        "BEKS13 tensor-complex machinery, with a separate self-contained symmetric/exterior quotient resolution here",
+        "Two-row projective-space cohomology calculation",
+        "Nonempty open zero-free locus and determinantal rank semicontinuity"
+      ],
+      "limitations": "Complex field; a>=2 and the stated zero-free source hypothesis. This is one necessary rank family. It does not imply a degeneration, a general barrier for projected or other Young flattenings, independent review, or exponent improvement."
+    },
+    {
+      "origin": "Owner-directed Codex research; same-session mathematical audits",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-MIXED-CANDIDATE-SCHUR-SCREENS-006",
+      "title": "Every Schur component of the specified simultaneous contractions passes for the canonical mixed candidate",
+      "evidence": "research/ai/2026-10-23-mixed-longlegs-candidate/schur_screen.md",
+      "statement": "The canonical (5,100,140) mixed target has simultaneous D_q ranks 140, 25317, 3432270, 412195367 for q=1,2,3,4, at most source ranks 140, 25700, 3542000, 434390000. Every partition component at q=2,3,4 also passes, by exact rational kernel characters and source Schur dimensions. For q>=5 every source component is injective, so all remaining comparisons in this family are automatic.",
+      "dependencies": [
+        "AI-FULL-SOURCE-EXTERIOR-PROLONGATION-004",
+        "125 exact literal tuple systems over Q and F2",
+        "Symmetric-group isotypic decomposition over C and 30 source-character controls"
+      ],
+      "limitations": "Canonical target first identifications and this specific positionwise contraction family only. Not a census of all Young flattenings. Same-session agreement with the separate exterior calculation is not independent review. No tensor degeneration or exponent improvement."
+    }
+  ]
+}

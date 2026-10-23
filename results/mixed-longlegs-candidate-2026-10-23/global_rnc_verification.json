@@ -1,0 +1,725 @@
+{
+  "status": "Exact convention controls accompanying a written global obstruction",
+  "field": "Q for controls; C for the geometric theorem",
+  "discovery_input_sha256": "c53abefde0cb5d5e2e816f96ae6c257ee843f59e6c28d13a6ae1994de9ab88f3",
+  "arbitrary_arc_theorem_verified_by_finite_controls": false,
+  "theorem_proof": "global_rnc_obstruction.md, Sections 2-5",
+  "binary_covariance": [
+    {
+      "frame": "shear",
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "degrees": [
+        4,
+        9,
+        13
+      ],
+      "flattening_covariance_equalities": 700,
+      "tensor_covariance_equalities": 700,
+      "scalar_compensation_equalities": 700,
+      "third_action": "R13 inverse transpose",
+      "scalar": "7/3"
+    },
+    {
+      "frame": "swap",
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "degrees": [
+        4,
+        9,
+        13
+      ],
+      "flattening_covariance_equalities": 700,
+      "tensor_covariance_equalities": 700,
+      "scalar_compensation_equalities": 700,
+      "third_action": "R13 inverse transpose",
+      "scalar": "7/3"
+    },
+    {
+      "frame": "diagonal",
+      "matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "degrees": [
+        4,
+        9,
+        13
+      ],
+      "flattening_covariance_equalities": 700,
+      "tensor_covariance_equalities": 700,
+      "scalar_compensation_equalities": 700,
+      "third_action": "R13 inverse transpose",
+      "scalar": "7/3"
+    },
+    {
+      "frame": "mixed",
+      "matrix": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "degrees": [
+        4,
+        9,
+        13
+      ],
+      "flattening_covariance_equalities": 700,
+      "tensor_covariance_equalities": 700,
+      "scalar_compensation_equalities": 700,
+      "third_action": "R13 inverse transpose",
+      "scalar": "7/3"
+    }
+  ],
+  "full_rank_one_slices": [
+    {
+      "width": 2,
+      "parameter": [
+        1,
+        0
+      ],
+      "rank": 1
+    },
+    {
+      "width": 2,
+      "parameter": [
+        1,
+        1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 2,
+      "parameter": [
+        1,
+        -1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 2,
+      "parameter": [
+        2,
+        3
+      ],
+      "rank": 1
+    },
+    {
+      "width": 2,
+      "parameter": [
+        0,
+        1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 3,
+      "parameter": [
+        1,
+        0
+      ],
+      "rank": 1
+    },
+    {
+      "width": 3,
+      "parameter": [
+        1,
+        1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 3,
+      "parameter": [
+        1,
+        -1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 3,
+      "parameter": [
+        2,
+        3
+      ],
+      "rank": 1
+    },
+    {
+      "width": 3,
+      "parameter": [
+        0,
+        1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 10,
+      "parameter": [
+        1,
+        0
+      ],
+      "rank": 1
+    },
+    {
+      "width": 10,
+      "parameter": [
+        1,
+        1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 10,
+      "parameter": [
+        1,
+        -1
+      ],
+      "rank": 1
+    },
+    {
+      "width": 10,
+      "parameter": [
+        2,
+        3
+      ],
+      "rank": 1
+    },
+    {
+      "width": 10,
+      "parameter": [
+        0,
+        1
+      ],
+      "rank": 1
+    }
+  ],
+  "full_noncurve_slices": [
+    {
+      "width": 2,
+      "third_covector": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 2
+    },
+    {
+      "width": 2,
+      "third_covector": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 2
+    },
+    {
+      "width": 3,
+      "third_covector": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 2
+    },
+    {
+      "width": 3,
+      "third_covector": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 2
+    },
+    {
+      "width": 10,
+      "third_covector": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 2
+    },
+    {
+      "width": 10,
+      "third_covector": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank": 2
+    }
+  ],
+  "nonfull_slices": [
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        -1,
+        -1
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        -1,
+        0
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        -1,
+        1
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        0,
+        -1
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        0,
+        1
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        1,
+        -1
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        1,
+        0
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Mid(5,2)",
+      "third_covector": [
+        1,
+        1
+      ],
+      "rank": 5
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        -1,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        -1,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        -1,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        0,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        0,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        0,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        1,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        1,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        -1,
+        1,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        -1,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        -1,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        -1,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        0,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        0,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        1,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        1,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        0,
+        1,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        -1,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        -1,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        -1,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        0,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        0,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        0,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        1,
+        -1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        1,
+        0
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(3,3)",
+      "third_covector": [
+        1,
+        1,
+        1
+      ],
+      "rank": 3
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        -1,
+        -1
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        -1,
+        0
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        -1,
+        1
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        0,
+        -1
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        0,
+        1
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        1,
+        -1
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        1,
+        0
+      ],
+      "rank": 4
+    },
+    {
+      "block": "Out(4,2)",
+      "third_covector": [
+        1,
+        1
+      ],
+      "rank": 4
+    }
+  ],
+  "third_conciseness": [
+    {
+      "block": "Full(5,10)",
+      "copies": 10,
+      "third_rank": 14
+    },
+    {
+      "block": "Full(5,2)",
+      "copies": 7,
+      "third_rank": 6
+    },
+    {
+      "block": "Full(5,3)",
+      "copies": 10,
+      "third_rank": 7
+    },
+    {
+      "block": "Out(3,3)",
+      "copies": 4,
+      "third_rank": 3
+    },
+    {
+      "block": "Out(4,2)",
+      "copies": 2,
+      "third_rank": 2
+    },
+    {
+      "block": "Mid(5,2)",
+      "copies": 6,
+      "third_rank": 2
+    }
+  ],
+  "source_third_rank": 140,
+  "target_third_rank": 140,
+  "width_one_boundary_control": {
+    "first_vector": [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    "rank": 1,
+    "rnc_quadratic_value": -4,
+    "meaning": "A Full(5,1) block alone admits rank-one directions outside the RNC"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "commands": [
+    {
+      "command": "python research/ai/2026-10-23-mixed-longlegs-candidate/verify_higher.py --output results/mixed-longlegs-candidate-2026-10-23/higher_verification.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_mixed_longlegs_higher.py -v",
+      "exit_code": 0,
+      "tests": 3,
+      "seconds": 0.906
+    }
+  ],
+  "files": {
+    "research/ai/2026-10-23-mixed-longlegs-candidate/verify_higher.py": "2071ea0b0deb909b6e28e66d63fb9b303a63ce89885f94d5a6f281112b6c878e",
+    "research/ai/2026-10-23-mixed-longlegs-candidate/higher_note.md": "dfb88c1b851d74fa1ff83d7029ef8d07dc0de1e8c95d7b19dd80806ebdac8963",
+    "results/mixed-longlegs-candidate-2026-10-23/higher_verification.json": "f081849cb102dc1fa736bb0034b3d84825cd9d88d3bf476c53a32cca697859e4",
+    "tests/test_mixed_longlegs_higher.py": "35a994b64eb405613f0982602c901fff465bfd872cf4f57c93be7fb48047fc2f"
+  },
+  "coverage": {
+    "target_occupancy_types_by_degree": [
+      20,
+      64,
+      184
+    ],
+    "target_grade_matrices_by_degree": [
+      198,
+      766,
+      2537
+    ],
+    "independent_unsplit_fraction_controls": 7,
+    "domain_codomain_count_controls": 6
+  },
+  "limits": "The all-degree B conclusion imports the separate written source formula; no degeneration or exponent gain is established."
+}

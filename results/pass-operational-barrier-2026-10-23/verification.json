@@ -1,0 +1,262 @@
+{
+  "arithmetic": "Python integers and fractions.Fraction; no floating decisions",
+  "claim_scope": "finite controls for a written, unreviewed proof; no tensor witness or exponent improvement",
+  "derivative_polynomial_identity": "zero residual",
+  "homogeneous_grid": {
+    "a_b_c_t": [
+      1,
+      5
+    ],
+    "count": 21875,
+    "dimension_compatible": 9920,
+    "empty_target_excluded": true,
+    "full_middle_counts": [
+      0,
+      5
+    ]
+  },
+  "named_controls": [
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        0,
+        0
+      ],
+      "equality": true,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 1,
+        "b": 1,
+        "c": 2,
+        "t": 1
+      },
+      "scaled_cubed_margin": 0,
+      "source_long_legs": [
+        4,
+        4
+      ],
+      "target_long_legs": [
+        4,
+        4
+      ]
+    },
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        0,
+        0
+      ],
+      "equality": true,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 2,
+        "b": 2,
+        "c": 5,
+        "t": 1
+      },
+      "scaled_cubed_margin": 0,
+      "source_long_legs": [
+        15,
+        20
+      ],
+      "target_long_legs": [
+        15,
+        20
+      ]
+    },
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        0,
+        0
+      ],
+      "equality": true,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 2,
+        "b": 3,
+        "c": 7,
+        "t": 1
+      },
+      "scaled_cubed_margin": 0,
+      "source_long_legs": [
+        28,
+        35
+      ],
+      "target_long_legs": [
+        28,
+        35
+      ]
+    },
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        0,
+        0
+      ],
+      "equality": false,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 3,
+        "b": 1,
+        "c": 4,
+        "t": 1
+      },
+      "scaled_cubed_margin": 16448,
+      "source_long_legs": [
+        8,
+        16
+      ],
+      "target_long_legs": [
+        8,
+        16
+      ]
+    },
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        0,
+        0
+      ],
+      "equality": false,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 5,
+        "b": 2,
+        "c": 8,
+        "t": 1
+      },
+      "scaled_cubed_margin": 422888,
+      "source_long_legs": [
+        24,
+        56
+      ],
+      "target_long_legs": [
+        24,
+        56
+      ]
+    },
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        0,
+        0
+      ],
+      "equality": false,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 5,
+        "b": 2,
+        "c": 4,
+        "t": 2
+      },
+      "scaled_cubed_margin": 109208,
+      "source_long_legs": [
+        16,
+        32
+      ],
+      "target_long_legs": [
+        16,
+        32
+      ]
+    },
+    {
+      "barrier_preserved": false,
+      "dimension_compatible": false,
+      "dimension_deficits": [
+        -1,
+        -1
+      ],
+      "equality": false,
+      "external_cost_condition": false,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 2,
+        "b": 2,
+        "c": 4,
+        "t": 1
+      },
+      "scaled_cubed_margin": -25240,
+      "source_long_legs": [
+        12,
+        16
+      ],
+      "target_long_legs": [
+        13,
+        17
+      ]
+    },
+    {
+      "barrier_preserved": true,
+      "dimension_compatible": true,
+      "dimension_deficits": [
+        3,
+        3
+      ],
+      "equality": false,
+      "external_cost_condition": true,
+      "margin_scale": 16,
+      "parameters": {
+        "a": 9,
+        "b": 11,
+        "c": 3,
+        "t": 11
+      },
+      "scaled_cubed_margin": 10956816,
+      "source_long_legs": [
+        66,
+        90
+      ],
+      "target_long_legs": [
+        63,
+        87
+      ]
+    }
+  ],
+  "pass_boundary_grid": {
+    "a": [
+      1,
+      24
+    ],
+    "b": [
+      1,
+      24
+    ],
+    "c": [
+      1,
+      24
+    ],
+    "count": 27648,
+    "equalities": 1126,
+    "t": "ceil((a+2*b-1)/c) and the following integer"
+  },
+  "ratio_grid": {
+    "a": [
+      1,
+      24
+    ],
+    "b": [
+      1,
+      24
+    ],
+    "count": 13824,
+    "equalities": 7200,
+    "t": [
+      1,
+      24
+    ]
+  },
+  "schema_version": 1
+}
