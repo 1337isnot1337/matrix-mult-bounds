@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The coordinate matching, concatenation injection and finite-to-infinite
+cover-cost argument in `research/ai/2026-10-23-s5-higher-powers/` are
+owner-directed Codex work. They retain the S5 algebra, separately bounded
+degree model, target inventory and external source credits of PR111 at
+38e3c12553a7c499994b9ccb87946d749d718ad2, with exact source pins. The
+new target comparison needs only expansion along a smallest tensor leg.
+The matching is in a support majorant and is not attributed to the actual
+group tensor. Separate acceptance by the generating session does not
+establish independent mathematical review or formalization. No historical
+priority, target construction or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

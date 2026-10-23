@@ -29,3 +29,14 @@ integrating a continuation.
 No new cover, target exclusion, optimality result, independent mathematical
 review, formalization or exponent improvement is claimed by this initial
 question. Discovery coverage and final scope will be recorded explicitly.
+
+## Written continuation
+
+The first five-weight pilots at powers six and nine gave no new target
+exclusion. The maintained continuation instead proves that every
+coordinate cover of the full separately bounded degree majorant costs
+too much at every power n>=36. The proof uses an explicit majorant
+matching, a concatenation injection and 72 exact seed inequalities.
+It does not assert a lower bound on actual-source slice rank. See
+`proof.md` and the separately verified certificate for the precise scope;
+powers below 36 and finer actual support remain separate questions.

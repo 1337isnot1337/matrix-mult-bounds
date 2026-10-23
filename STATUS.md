@@ -1,5 +1,19 @@
 # Research status
 
+## A uniform high-power boundary for the S5 degree-cover method
+
+The [higher-power argument](research/ai/2026-10-23-s5-higher-powers/proof.md)
+proves that every coordinate cover of the full separately bounded S5
+degree majorant costs too much to exclude any of PR111's eleven remaining
+single targets at every source power n>=36. It permits nonmonotone covers
+and unequal leg choices within that majorant. A coordinate matching gives
+an explicit cover-cost lower bound; a concatenation injection and 72
+exact integer seed inequalities prove the all-power statement. Claim
+`AI-S5-MAJORANT-HIGH-POWER-001` is written and unreviewed. This is not an
+actual-source slice-rank lower bound, target construction or exponent
+improvement. Finer support, other bases, non-coordinate decompositions
+and powers below 36 remain separate questions.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

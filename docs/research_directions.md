@@ -274,6 +274,14 @@ open, along with the two and nine remaining shapes listed in that proof.
 General complex maps and constructions from higher powers are separate
 questions; do not restart the closed one-copy M19 coordinate search.
 
+The [higher-power degree-cover boundary](../research/ai/2026-10-23-s5-higher-powers/proof.md)
+now shows that no coordinate cover of the full separately bounded S5
+degree majorant can exclude any of those eleven remaining targets at any
+power n>=36. This includes nonmonotone and three-unequal-leg covers of
+that majorant. Finer actual support, other bases or decompositions, and
+powers below 36 remain separate questions; the theorem is not a lower
+bound on the actual source's slice rank.
+
 For SL(2,F8), the [modular source bound](../research/ai/2026-10-21-sl2-f8-modular/proof.md)
 now constrains every source power and joint rectangular coordinate target.
 It excludes repeated six-packet-plus-M7 assembly in that class, while all 16

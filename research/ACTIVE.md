@@ -654,11 +654,13 @@ is complementary to 8e0a766, retaining distinct hypotheses.
 ## S5 finite-cover continuation
 
 The separate higher-power investigation is on
-`research/persistent-frontier-01a1697a`, with its question in
-`ai/2026-10-23-s5-higher-powers/QUESTION.md`. It asks whether finite source
-powers beyond the cube exclude any of PR111's remaining single targets.
-It does not duplicate PR140's monotone cube census. No new result is
-claimed at the initial checkpoint; PR111 is an integration prerequisite.
+`research/persistent-frontier-01a1697a` (PR183), with its proof in
+`ai/2026-10-23-s5-higher-powers/proof.md`. It supplies a written,
+unreviewed method boundary: all coordinate covers of the full degree
+majorant cost too much for PR111's eleven remaining targets whenever
+n>=36. The actual source's slice rank is not bounded below. Finer support,
+other bases and powers below 36 remain open. It does not duplicate
+PR140's monotone cube census; PR111 is an integration prerequisite.
 
 The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
 (PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
