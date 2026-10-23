@@ -1,0 +1,34 @@
+{
+  "base_commit": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.py",
+      "sha256": "f47226408dc6fbf07e39aa59e16cc035d7691493c7d6720c2f99417a0d10f24d"
+    },
+    {
+      "path": "research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md",
+      "sha256": "369b4347fb7303bc568aa42cbb029f994c87b3e22028c034d5731498207a8f5d"
+    },
+    {
+      "path": "research/ai/2026-10-23-regular-unit-image/proof.md",
+      "sha256": "ec5ca7aa744d344827d473e8da6dc3a90d4e9e46a8c67a7d2c124d809f5197ab"
+    }
+  ],
+  "concurrent_predecessor": {
+    "pr": 113,
+    "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/113",
+    "claims": [
+      "AI-UNIT-KERNEL-LOW-RANK-001",
+      "AI-A4-ONE-REGULAR-LEG-002"
+    ],
+    "scope": "The regular right-inverse kernel-residual argument and full-rank A4 long-leg exclusion are credited to this concurrent checkpoint. The present continuation treats leading rank109 and the normalized leading-rank sum."
+  },
+  "attribution": "Owner-directed OpenAI Codex continuation. The source minimum, minimum-rank classification and ordinary obstruction retain prior credit. The bounded-rank square-matrix lemma is proved here; no external theorem or historical priority is claimed."
+}

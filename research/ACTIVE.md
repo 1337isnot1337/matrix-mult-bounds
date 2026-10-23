@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The October23 singular-long-leg continuation is in
+`ai/2026-10-23-long-leg-rank-obstruction/README.md`. The written rank109
+exclusion extends concurrent PR113's rank110 result. Every remaining A4
+candidate must have scalar-normalized long-map leading ranks at most108,
+with sum at most208. Search lower-rank singular pairs; retaining a
+rank109 long-map limit cannot work, regardless of other pole orders.
+The source minimum-locus theorem and PR113 retain their credit.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

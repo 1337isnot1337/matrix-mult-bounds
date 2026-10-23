@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-long-leg-rank-obstruction` package is owner-directed Codex
+work. The source minimum-rank theorem, its complete minimum locus and
+ordinary A4 obstruction retain their predecessor credit and byte pins.
+Concurrent PR113 at08ac3e9 supplies the credited regular-kernel argument;
+the package restates it to make the rank109 extension self-contained.
+The common-rowspace equality argument, binary-form divisibility reduction
+and normalized long-rank sum are local continuations. A needed square
+bounded-rank-subspace lemma is proved directly. No historical priority,
+independent mathematical review, formalization or exponent gain is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

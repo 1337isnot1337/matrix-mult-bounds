@@ -1,5 +1,20 @@
 # Research status
 
+## A4 long-map rank109 is also impossible
+
+The [corank-one argument](research/ai/2026-10-23-long-leg-rank-obstruction/corank_one.md)
+excludes every A4 to M(10,10,11) Laurent degeneration with either long
+map regular and of rank at least109 at zero. It allows arbitrary finite
+poles in both other maps. The rank110 regular-kernel argument is credited
+to concurrent PR113. At rank109 its equality conditions force a fixed
+four-dimensional source ruling; an invertible target matrix in the leading
+first-map kernel contradicts the regular residual. Claims
+`AI-A4-CORANK-ONE-LONG-001` and `AI-A4-NORMALIZED-LONG-RANK-SUM-002`
+are written and unreviewed. A separate leading-pole argument requires
+r_B+r_C<=208 after independent scalar normalization of both long maps;
+each rank is at most108. Lower-rank pairs remain open. Exact controls do
+not formalize the arbitrary-series proof, and no exponent is improved.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
