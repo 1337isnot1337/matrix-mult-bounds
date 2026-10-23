@@ -15,7 +15,8 @@ Use the convention 0 log 0 = 0.
 Fix `t > 0` and a finite set of vertices `V`. A scalar assignment is a real
 number `s_v` at each vertex. For each selected matched decomposition `D` of a
 vertex `v` into vertices `u_1,...,u_M`, and each probability vector
-`q=(q_1,...,q_M)`, the scalar model imposes
+`q=(q_1,...,q_M)`, let `L(D)` be its shared leg, which may be any of `X`, `Y`,
+or `Z`. The scalar model imposes
 
 \[
 s_v \ge H(q)+\sum_{h=1}^M q_h s_{u_h},\qquad
@@ -24,11 +25,11 @@ H(q)=-\sum_{h=1}^M q_h\log q_h.
 
 The joint oriented model assigns numbers `ell_{pi,v}` for the six leg
 permutations `pi` and a shared exponent vector `(p_X,p_Y,p_Z)` with
-`p_X+p_Y+p_Z=3t`. The permutation `pi` determines which coordinate is the
-shared-leg exponent `p_{pi,X}`. It imposes
+`p_X+p_Y+p_Z=3t`. For each decomposition `D`, the permutation `pi` determines
+the exponent `p_{pi,L(D)}` of its shared leg. It imposes
 
 \[
-\ell_{\pi,v}\ge p_{\pi,X}H(q)+\sum_{h=1}^M q_h\ell_{\pi,u_h},
+\ell_{\pi,v}\ge p_{\pi,L(D)}H(q)+\sum_{h=1}^M q_h\ell_{\pi,u_h},
 \qquad
 \frac{1}{6}\sum_{\pi\in S_3}\ell_{\pi,v}=t s_v.
 \]
@@ -44,11 +45,11 @@ For any fixed finite list of matched decompositions, a scalar assignment
 joint oriented lift under the constraints above.
 
 **Joint lift implies scalar feasibility.** Average an oriented inequality over
-all six permutations. Each coordinate of `(p_X,p_Y,p_Z)` occurs twice as the
-shared-leg exponent, so
+all six permutations. For any selected shared leg `L(D)`, each coordinate of
+`(p_X,p_Y,p_Z)` occurs twice as `p_{pi,L(D)}`, so
 
 \[
-\frac{1}{6}\sum_{\pi\in S_3}p_{\pi,X}
+\frac{1}{6}\sum_{\pi\in S_3}p_{\pi,L(D)}
 =\frac{p_X+p_Y+p_Z}{3}=t.
 \]
 
@@ -67,14 +68,16 @@ p_X=p_Y=p_Z=t,\qquad \ell_{\pi,v}=t s_v
 \quad\text{for every }\pi,v.
 \]
 
-Every orientation now has `p_{pi,X}=t`, and each oriented inequality is the
-corresponding scalar inequality multiplied by `t`. The mean normalization
-holds with equality. Thus this is a feasible joint lift.
+Every orientation and every selected shared leg now has `p_{pi,L(D)}=t`, and
+each oriented inequality is the corresponding scalar inequality multiplied
+by `t`. The mean normalization holds with equality. Thus this is a feasible
+joint lift, even when the graph mixes decompositions sharing different legs.
 
 ## Consequence and scope
 
 Within this constraint model, requiring one common set of six oriented values
-across multiple decompositions does not strengthen the scalar entropy system:
+across multiple decompositions, even when those decompositions share different
+legs, does not strengthen the scalar entropy system:
 the projection of its feasible assignments onto `(s_v)` is exactly the
 scalar feasible set. In particular, a finite graph encoded only by these
 constraints cannot reject a scalar profile that satisfies the same selected
