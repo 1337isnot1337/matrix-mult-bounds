@@ -1,6 +1,5 @@
 """Exact finite controls for the all-field affine-z biform rank proof."""
 import json
-import random
 from itertools import product
 
 
@@ -70,7 +69,7 @@ def check(a,b,u,v,p):
 
 
 def verify():
-    counts={'exhaustive':0,'seeded':0,'spectrum':0}
+    counts={'exhaustive':0,'seeded':0,'spectrum':0,'a_gt_b':0}
     for p in (2,3):
         for a in (2,3):
             for b in range(a,7):
@@ -78,17 +77,31 @@ def verify():
                 for u in vecs:
                     for v in vecs:
                         if check(a,b,u,v,p):counts['exhaustive']+=1
-    rng=random.Random(20261023)
+    state=20261023
+    def draw(p):
+        nonlocal state
+        state ^= (state << 13) & 0xffffffff
+        state ^= (state >> 17)
+        state ^= (state << 5) & 0xffffffff
+        state &= 0xffffffff
+        return state % p
     for p in (2,3,5,7,101):
         for a in range(2,6):
             for b in range(a,11):
                 for _ in range(20):
-                    u=[rng.randrange(p) for _ in range(a)]
-                    v=[rng.randrange(p) for _ in range(a)]
+                    u=[draw(p) for _ in range(a)]
+                    v=[draw(p) for _ in range(a)]
                     if check(a,b,u,v,p):counts['seeded']+=1
             for b in range(a,12):
                 for d in range(a):
                     if check(a,b,[1],[0]*d+[1],p):counts['spectrum']+=1
+    for p in (2,3,5):
+        for a in range(3,7):
+            for b in range(2,a):
+                for k in range(10):
+                    u=[(k+3*j+1)%p for j in range(a)]
+                    v=[(2*k+5*j+1)%p for j in range(a)]
+                    if check(a,b,u,v,p):counts['a_gt_b']+=1
     return {'status':'pass','seed':20261023,**counts,
             'scope':'finite checks; written proof gives all-field theorem; no exponent claim'}
 

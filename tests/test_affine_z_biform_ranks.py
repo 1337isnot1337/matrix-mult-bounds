@@ -15,9 +15,11 @@ class AffineZBiformRankTests(unittest.TestCase):
         self.assertEqual(report['status'],'pass')
         self.assertEqual(report['seed'],20261023)
         self.assertEqual(report['exhaustive'],3265)
-        self.assertEqual(report['seeded'],2984)
+        self.assertEqual(report['seeded'],2992)
+        self.assertEqual(report['a_gt_b'],300)
         self.assertEqual(report['spectrum'],570)
         self.assertTrue(mod.check(3,7,[1],[0,0,1],101))
         self.assertTrue(mod.check(3,4,[1,1],[1,0,1],101))
+        self.assertTrue(mod.check(5,2,[1],[0,0,0,0,1],101))
 
 if __name__=='__main__':unittest.main()
