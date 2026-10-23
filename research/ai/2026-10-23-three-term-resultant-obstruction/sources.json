@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-23",
+  "origin": "Owner-directed AI-assisted mathematics, same-session exact acceptance, unreviewed",
+  "main_snapshot": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "adopted_main_source": {
+    "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+    "git_blob_sha": "04d28c6a05027a7756891f47d28327de850a7501",
+    "scope": "Literal original cyclic-source coefficient convention and prior general rank gap; proofs are not imported."
+  },
+  "predecessor": {
+    "pr": 209,
+    "head_sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+    "scope": "Affine-in-z recurrence and its separate exact rank formula; subsequently closed as superseded by consolidation PR214; no earlier result reassigned."
+  },
+  "concurrent_inspected": [
+    {
+      "pr": 214,
+      "scope": "Bulk consolidation currently draft; this narrowly scoped result is new and separate."
+    },
+    {
+      "pr": 207,
+      "scope": "Diagonal-polynomial Toeplitz rank family, not imported."
+    },
+    {
+      "pr": 186,
+      "scope": "General biform rank gap, not imported."
+    }
+  ],
+  "local_contribution": "Full three-term recurrence, exact 15x15 determinant pencil, identical-pairwise-resultant rank counterexample, integer kernel and minor, independent integer-grid certificate.",
+  "limitations": "One fixed a=b=3 slice family and finite b=4..9 controls. No source-space caps, tensor degenerations, exponent implication, independent mathematical review, or formalization."
+}
