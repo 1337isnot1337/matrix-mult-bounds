@@ -1,5 +1,24 @@
 # Research status
 
+## Exact binomial biform ranks in every characteristic
+
+The [binomial-rank proof](research/ai/2026-10-23-binomial-biform-ranks/proof.md)
+gives an exact all-size formula for either orientation of a two-monomial
+biform with nonzero coefficients over any field. Its rank is
+`a^2+sum min(n_i,m_j)` for input residue lengths modulo the two offsets.
+At equal offset d and a=q*d+r, this is `a^2+ad-r(d-r)`; unequal residues
+give the selected nondivisor ranks34,38,62,68, with deficits1,2,1,2
+from a(a+d).
+An elementary path-matrix proof imports no splitting or classification
+theorem. Claims `AI-BINOMIAL-BIFORM-RANK-001` and
+`AI-BINOMIAL-ELEMENTARY-GAP-002` are written and unreviewed. Exact controls
+verify114 full minors and entry covers,8555 lower-gap cases and435
+quotient/remainder identities. Weighted rational, symbolic and prime-field
+tests pass. The binomial gap can replace the corresponding PR148 input
+through an explicit dependency amendment; the broader biform theorem
+retains its original credit. No nondivisor dimension cap, target or
+exponent improvement is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

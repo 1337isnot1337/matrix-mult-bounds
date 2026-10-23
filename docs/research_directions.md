@@ -2,6 +2,15 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [exact binomial biform formula](../research/ai/2026-10-23-binomial-biform-ranks/proof.md)
+calibrates all two-monomial coordinate pairs, including nondivisor
+offsets, with no characteristic restriction when both coefficients
+are nonzero. At equal offset d the rank deficit from a(a+d) is
+`r(d-r)`, where r is a modulo d. Use the exact formula before treating a
+nondivisor pair as forbidden. It does not classify larger supports or
+their bounded-rank linear spaces. The elementary binomial gap can also
+replace the specific input in PR148 after an explicit dependency update.
+
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
 now proves rank six sharply over every field. Its open structural question
 is the rank-six locus and the required kernel/image alignment under two

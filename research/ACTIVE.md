@@ -6,8 +6,9 @@ The binomial-rank continuation studies
 The proposed exact rank is a^2+sum min(n_i,m_j) over the unequal residue
 lengths modulo the two coordinate offsets. At equal offset d this is
 a^2+ad-r(d-r), r=a modulo d. A field-independent path proof includes
-both binomial orientations and nonzero coefficients. Exact minors and
-cover controls are pending. This is separate from the running PR148
+both binomial orientations and nonzero coefficients. All114 exact
+minor/cover controls and seven focused tests pass; full regression
+and current-head CI remain pending. This is separate from the running PR148
 validation and supplies no nondivisor dimension cap or exponent gain.
 
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)

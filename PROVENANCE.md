@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-binomial-biform-ranks` package is owner-directed Codex
+work motivated by PR148's divisor and nondivisor controls. The maintained
+cyclic-source and biform notes retain their coefficient-convention credit
+and exact byte pins. The elementary rectangular path proof, unequal
+residue formula and full minor/cover certificates are rederived here
+without importing a classification or bundle-splitting theorem. The
+general earlier biform gap retains its original authorship and external
+input; this package proves only its binomial instances and a sharper
+exact formula there. No historical priority, independent review,
+formalization, matrix target or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
