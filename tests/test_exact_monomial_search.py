@@ -16,22 +16,20 @@ class ExactMonomialSearchTests(unittest.TestCase):
         lower = Fraction(2**60 - 2, 2**60)
         higher = Fraction(2**60 - 1, 2**60)
         self.assertEqual(float(lower), float(higher))
-        self.assertLess(
-            SEARCH.record_key({
-                "support_certificate": {
-                    "dimensions": [2, 2, 3],
-                    "weights": {"x": [0, 0], "y": [0, 0]},
-                },
-                "score": {"ratio_exact": str(higher)},
-            }),
-            SEARCH.record_key({
-                "support_certificate": {
-                    "dimensions": [2, 2, 3],
-                    "weights": {"x": [0, 0], "y": [0, 0]},
-                },
-                "score": {"ratio_exact": str(lower)},
-            }),
-        )
+        lower_record = {
+            "dimensions": [2, 2, 3],
+            "weights": {"x": [0, 0], "y": [0, 0]},
+            "score": {"ratio_exact": str(lower)},
+        }
+        higher_record = {
+            "dimensions": [2, 2, 3],
+            "weights": {"x": [0, 1], "y": [0, 1]},
+            "score": {"ratio_exact": str(higher)},
+        }
+        top = []
+        SEARCH.offer(top, lower_record, limit=1)
+        SEARCH.offer(top, higher_record, limit=1)
+        self.assertEqual(top[0]["score"]["ratio_exact"], str(higher))
 
     def test_nontrivial_support_certificate_replays(self):
         first = SEARCH.make_record((0, 0), (0, 1, 1, 0))

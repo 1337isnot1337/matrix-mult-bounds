@@ -59,7 +59,7 @@ def component_sectors(
     return tuple(sorted(sectors))
 
 
-def make_support_certificate(wx: tuple[int, ...], wy: tuple[int, ...]) -> dict:
+def support_parts(wx: tuple[int, ...], wy: tuple[int, ...]) -> tuple:
     wx, wy = normalize_weights(wx, wy)
     z_size = len(wx) + len(wy) - 1
     minima = []
@@ -73,6 +73,17 @@ def make_support_certificate(wx: tuple[int, ...], wy: tuple[int, ...]) -> dict:
         if wx[i] + wy[j] == minima[i + j]
     )
     sectors = component_sectors(terms, len(wy), z_size)
+    return wx, wy, z_size, minima, terms, sectors
+
+
+def certificate_from_parts(
+    wx: tuple[int, ...],
+    wy: tuple[int, ...],
+    z_size: int,
+    minima: list[int],
+    terms: tuple[tuple[int, int, int], ...],
+    sectors: tuple[tuple[tuple[int, int, int], ...], ...],
+) -> dict:
     return {
         "version": 1,
         "weights": {
@@ -88,6 +99,10 @@ def make_support_certificate(wx: tuple[int, ...], wy: tuple[int, ...]) -> dict:
             for sector in sectors
         ],
     }
+
+
+def make_support_certificate(wx: tuple[int, ...], wy: tuple[int, ...]) -> dict:
+    return certificate_from_parts(*support_parts(wx, wy))
 
 
 def recognize(terms: tuple[tuple[int, int, int], ...]) -> dict:
@@ -128,22 +143,20 @@ def recognize(terms: tuple[tuple[int, int, int], ...]) -> dict:
     }
 
 
-def make_record(wx: tuple[int, ...], wy: tuple[int, ...]) -> dict:
-    certificate = make_support_certificate(wx, wy)
-    sectors = [
-        tuple(tuple(term) for term in sector)
-        for sector in certificate["sectors"]
-    ]
+def score_from_parts(wx: tuple[int, ...], wy: tuple[int, ...], z_size: int,
+                     sectors: tuple[tuple[tuple[int, int, int], ...], ...],
+                     h: list[Fraction]) -> dict:
     blocks = [recognize(sector) for sector in sectors]
-    h = slopes(max(certificate["dimensions"]))
     target = sum(
         (profile(block["a"], block["b"], h) for block in blocks),
         Fraction(0),
     )
-    source = profile(*certificate["dimensions"][:2], h)
+    dimensions = [len(wx), len(wy), z_size]
+    source = profile(*dimensions[:2], h)
     ratio = target / source
     return {
-        "support_certificate": certificate,
+        "dimensions": dimensions,
+        "weights": {"x": list(wx), "y": list(wy)},
         "blocks": blocks,
         "score": {
             "source_exact": str(source),
@@ -154,37 +167,52 @@ def make_record(wx: tuple[int, ...], wy: tuple[int, ...]) -> dict:
     }
 
 
+def score_candidate(wx: tuple[int, ...], wy: tuple[int, ...],
+                    h: list[Fraction]) -> dict:
+    wx, wy, z_size, _, _, sectors = support_parts(wx, wy)
+    return score_from_parts(wx, wy, z_size, sectors, h)
+
+
+def make_record(wx: tuple[int, ...], wy: tuple[int, ...],
+                h: list[Fraction] | None = None) -> dict:
+    parts = support_parts(wx, wy)
+    wx, wy, z_size, minima, terms, sectors = parts
+    if h is None:
+        h = slopes(max(len(wx) + len(wy) - 1, len(wx), len(wy)))
+    record = score_from_parts(wx, wy, z_size, sectors, h)
+    record["support_certificate"] = certificate_from_parts(*parts)
+    return record
+
+
 def replay_record(record: dict) -> None:
     certificate = record["support_certificate"]
-    weights = certificate["weights"]
+    weights = record["weights"]
     expected = make_record(tuple(weights["x"]), tuple(weights["y"]))
     if record != expected:
         raise ValueError("candidate record does not replay from its support certificate")
 
 
 def record_key(record: dict) -> tuple:
-    certificate = record["support_certificate"]
-    weights = certificate["weights"]
     return (
         -Fraction(record["score"]["ratio_exact"]),
-        tuple(certificate["dimensions"]),
-        tuple(weights["x"]),
-        tuple(weights["y"]),
+        tuple(record["dimensions"]),
+        tuple(record["weights"]["x"]),
+        tuple(record["weights"]["y"]),
     )
 
 
 def offer(top: list[dict], record: dict, limit: int) -> None:
-    weights = record["support_certificate"]["weights"]
+    weights = record["weights"]
     identity = (
-        tuple(record["support_certificate"]["dimensions"]),
+        tuple(record["dimensions"]),
         tuple(weights["x"]),
         tuple(weights["y"]),
     )
     if any(
         identity == (
-            tuple(item["support_certificate"]["dimensions"]),
-            tuple(item["support_certificate"]["weights"]["x"]),
-            tuple(item["support_certificate"]["weights"]["y"]),
+            tuple(item["dimensions"]),
+            tuple(item["weights"]["x"]),
+            tuple(item["weights"]["y"]),
         )
         for item in top
     ):
@@ -221,22 +249,37 @@ def run_search(
         raise ValueError("unknown search mode")
     if top_k < 1:
         raise ValueError("top_k must be positive")
-    leaderboard: list[dict] = []
-    nontrivial: list[dict] = []
+    h = slopes(29 if mode == "random" else max(1, max_sum - 1))
+    leaderboard_summaries: list[dict] = []
+    nontrivial_summaries: list[dict] = []
     first_violation = None
     violation_count = 0
     count = 0
     for wx, wy in candidates(mode, max_sum, samples, seed):
-        record = make_record(wx, wy)
+        record = score_candidate(wx, wy, h)
         count += 1
-        offer(leaderboard, record, top_k)
+        offer(leaderboard_summaries, record, top_k)
         if len(record["blocks"]) > 1:
-            offer(nontrivial, record, top_k)
+            offer(nontrivial_summaries, record, top_k)
         if record["score"]["violation_exact"]:
             violation_count += 1
             if first_violation is None:
                 first_violation = record
 
+    leaderboard = [
+        make_record(tuple(record["weights"]["x"]), tuple(record["weights"]["y"]), h)
+        for record in leaderboard_summaries
+    ]
+    nontrivial = [
+        make_record(tuple(record["weights"]["x"]), tuple(record["weights"]["y"]), h)
+        for record in nontrivial_summaries
+    ]
+    if first_violation is not None:
+        first_violation = make_record(
+            tuple(first_violation["weights"]["x"]),
+            tuple(first_violation["weights"]["y"]),
+            h,
+        )
     for record in leaderboard + nontrivial:
         replay_record(record)
     if first_violation is not None:
