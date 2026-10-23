@@ -1,0 +1,49 @@
+{
+  "schema": "a4-low-rank-reduction-validation-v1",
+  "completed_at_utc": "2026-10-23T17:23:01.549780+00:00",
+  "claim": "AI-A4-TWOSIDED-LOWRANK-003",
+  "checks": [
+    {
+      "command": "python research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "exit_code": 0,
+      "exact_coordinate_identities": 112,
+      "exact_transpose_identities": 16
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_conjugation_block_reduction.py -v",
+      "exit_code": 0,
+      "tests_passed": 3,
+      "seconds": 0.202
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "exit_code": 0,
+      "tests_passed": 18
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_conjugation_limit.py -k test_source_pins -v",
+      "exit_code": 0,
+      "tests_passed": 1
+    },
+    {
+      "command": "python research/ai/2026-10-23-conjugation-limit/block_reduction.py --discover --certificate results/local/a4-conjugation/block-regenerated.json",
+      "exit_code": 0,
+      "regenerated_certificate_byte_identical": true
+    }
+  ],
+  "tested_file_sha256": {
+    "research/ai/2026-10-23-conjugation-limit/block_reduction.py": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+    "research/ai/2026-10-23-conjugation-limit/verify.py": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+    "research/ai/2026-10-23-conjugation-limit/sources.json": "a002f254c7fa30b811133941c2901439461b71dcba02f4ab3c811f85890dbed1",
+    "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+    "tests/test_conjugation_block_reduction.py": "4be429838d9a1900cf4145c27989d7e9ba7e3f2132e8a6a0a2dfa9fb1d2a0194",
+    "results/conjugation-limit-2026-10-23/block-certificate.json": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+    "results/conjugation-limit-2026-10-23/block-verification.json": "8a35a2016808f2e294510f040bbb65800a54cb9d976a2797d52bdca21069969b"
+  },
+  "prior_full_regression_tree": "363271b34a2b82dd033b388d7b48d00f1e76d1f9",
+  "prior_full_regression_receipt": "results/conjugation-limit-2026-10-23/validation.json",
+  "full_regression_repeated_after_this_followup": false,
+  "proof_reads": "Root and another subagent checked the deduction in the same generating session; this is not independent mathematical review.",
+  "remaining_dimension_bound_proved": false,
+  "full_target_constructed": false
+}

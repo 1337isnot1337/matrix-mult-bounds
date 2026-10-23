@@ -12,6 +12,13 @@ compressions. Their projected leading ranks are at least 108 modulo 1009,
 so they lose at most four directions and cannot supply the target.
 This is computer-assisted claim `AI-A4-TWOSIDED-COORDINATE-002`.
 
+The [low-rank reduction](LOW_RANK_REDUCTION.md), claim
+`AI-A4-TWOSIDED-LOWRANK-003`, reduces the arbitrary constant-compression
+question to one explicit 46-dimensional space E of 28 by 28 matrices.
+All limiting matrices killed by the original compression lie in that
+single outer block. A full target requires rank-26 maps with
+`dim(Phat E Chat)<=37`; a universal lower bound of 38 remains open.
+
 ## Evidence
 
 The certificate contains 112 polynomial changes of slice basis, all of
@@ -40,6 +47,8 @@ From the repository root, with the standard library only:
 ```sh
 python research/ai/2026-10-23-conjugation-limit/verify.py
 python -m unittest discover -s tests -p 'test_conjugation_limit.py' -v
+python research/ai/2026-10-23-conjugation-limit/block_reduction.py
+python -m unittest discover -s tests -p 'test_conjugation_block_reduction.py' -v
 ```
 
 The certificate and accepted report are in
@@ -58,15 +67,68 @@ modular ranks, the need to recover lost directions, the target evaluation
 formula, and source pins. Source formulas retain their prior attribution
 in [sources.json](sources.json).
 
+The separate block acceptance checks all 112 rational coordinate
+identities against that full limiting basis, proving the displayed
+block form and its 46-dimensional bottom-left space. It also checks
+16 exact transpose-conjugation identities. These transfer the credited
+minimum-rank-six theorem to the needed right-sided mixed space.
+Three additional tests replay this certificate and reject corrupted
+coordinates, omitted rows, false parent pins and a corrupted transpose
+identity. They are follow-up checks after the frozen 905-test checkpoint
+below; they are not counted as part of that earlier tree's coverage.
+
 ## Scope and next question
 
 The result excludes this one fixed conjugation family for all principal
 coordinate compressions. For arbitrary constant compressions, it gives
 the necessary condition dim(PLC) <= 103. It does not exclude that remaining
-determinantal locus or moving compression maps. The next constructive
-experiment composes noncommuting unipotent factors and checks their full
-saturated spaces against the target.
+determinantal locus or moving compression maps. The explicit outer-space
+reduction above is the remaining constant-compression question.
 
 The mathematical status is written and unreviewed. No target construction,
 improved exponent, independent review, or formalization is claimed.
-Repository-wide validation is recorded separately before publication.
+The earlier repository-wide validation checkpoint is recorded below.
+
+## Completed two-sided follow-ups
+
+The [exploration note](EXPLORATION.md) retains two attempted escapes:
+a product of two noncommuting square-zero factors, and conjugation by a
+moving unit built from their nonnilpotent sum. Each experiment screens
+all 6,216 principal coordinate compressions. Neither supplies target maps.
+
+For the nonnilpotent family, 221 pairs survive the initial dimension
+screen. Complete rational re-saturation and exact polynomial replay were
+completed for every one. Each resulting limit has a recorded invariant
+subspace whose dimension is not divisible by ten, excluding the full
+matrix target. The other pairs are excluded by the rank-loss condition.
+The script checks these invariant identities over Q; modular ranks are
+used only to select the pairs requiring full re-saturation.
+
+These finite follow-ups add no separate theorem claim. They also give
+the elementary whole-subspace refinement
+`ell >= 10 ceil((s-2)/11)-1` when the scalar-action subspace has dimension s.
+For the two-factor family, s=29 and the necessary loss becomes 29.
+The retained [script](two_sided_escapes.py) and
+[report](../../../results/conjugation-limit-2026-10-23/escape-exploration.json)
+make the completed scope reproducible.
+The [follow-up receipt](../../../results/conjugation-limit-2026-10-23/escape-validation.json)
+records a byte-identical reproduction of both families from the retained
+script, including all 221 rational re-saturations.
+
+## Frozen validation checkpoint
+
+The [validation receipt](../../../results/conjugation-limit-2026-10-23/validation.json)
+pins tested tree `363271b34a2b82dd033b388d7b48d00f1e76d1f9`.
+All 905 discovered test IDs have passing evidence after one scratch-only
+documentation correction. A successful 288-test prefix was preserved;
+the unfinished tests ran in three disjoint shards of 206, 206, and 205.
+The original monolithic process was interrupted to parallelize that
+remaining work and is not described as a completed run.
+
+The initial union had 904 passes and one failure: the repository link
+test also scanned an untracked exploratory draft whose links assumed its
+future package location. Two corrective retries still encountered a
+transient scratch copy. After repairing those draft references, the same
+link test passed. No tracked source or test changed during this correction.
+The failed receipts, all retry logs, exact coverage IDs, and final pass
+receipt are retained. All five archived replay reports also passed.

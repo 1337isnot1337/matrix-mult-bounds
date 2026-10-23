@@ -1,0 +1,36 @@
+{
+  "schema": "a4-two-sided-escape-validation-v1",
+  "completed_at_utc": "2026-10-23T17:24:51.459379+00:00",
+  "command": "python research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py --output results/local/conjugation-limit/escape-reproduced.json",
+  "exit_code": 0,
+  "report_reproduction_byte_identical": true,
+  "families_completed": 2,
+  "principal_pairs_screened_per_family": [
+    6216,
+    6216
+  ],
+  "complete_rational_resaturations": [
+    0,
+    221
+  ],
+  "invariant_identities_checked_over": "Q",
+  "surviving_coordinate_pairs_per_family": [
+    0,
+    0
+  ],
+  "target_maps_constructed": 0,
+  "additional_theorem_claim": false,
+  "metadata_check": {
+    "command": "python -m unittest discover -s tests -p test_research.py -v",
+    "tests_passed": 18,
+    "exit_code": 0
+  },
+  "file_sha256": {
+    "research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py": "e8c75b58e8fd5b76f799c12787a90aceff85b87c77424a16808501ee2000abda",
+    "research/ai/2026-10-23-conjugation-limit/discovery.py": "fc5c365667cf7f5ff478cf66086bce070ed1f56f81acc9b9d288871e618c6cf8",
+    "research/ai/2026-10-23-conjugation-limit/verify.py": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+    "research/ai/2026-10-23-conjugation-limit/EXPLORATION.md": "bf3a06e987b7f73acd2c95d2c60523cc14d1dc9fba3030a182816edf19d8a846",
+    "results/conjugation-limit-2026-10-23/escape-exploration.json": "cacf2d1f58c19521673ec6638c74c2ae6cfdeb2ee0fa9778064bdf151a3c2e49"
+  },
+  "scope": "Repeated completed finite exploratory coverage with the final retained script. Modular ranks only screen candidates; every accepted re-saturated basis and invariant-subspace identity is replayed over Q. No arbitrary noncoordinate-compression exclusion, target construction, exponent improvement, or independent mathematical review is claimed."
+}
