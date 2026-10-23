@@ -8,7 +8,11 @@ the regular-full-long-map and regular-identity-lift chart must have a
 first-map pole. Its highest coefficient has rank one to four and lies
 in one minimum-rank source ruling, with fixed Hankel and one fixed short
 factor; it annihilates the identity. Its complete principal part has rank
-at least two, so a simple first-map pole has leading rank two to four.
+at least six and its pole order is at least two; every simple first-map
+pole is excluded. Small principal parts give at most four polar long-map
+terms, and the regular unit forces a source slice rank at least eight,
+contradicting a rank-four correction. Complete principal rank6 remains
+outside this method.
 At image ranks102 through105, any
 first-map pole has leading image dimension at most16 and a fixed Hankel
 factor. Claim `AI-UNIT-IMAGE-LEADING-POLE-FLAGS-001` is written and unreviewed,

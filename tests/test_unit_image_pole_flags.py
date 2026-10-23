@@ -36,11 +36,24 @@ class UnitImagePoleFlagTests(unittest.TestCase):
         self.assertEqual(v.verify(self.record), {
             "unit_image_rank_cases": 5, "ruling_families": 8,
             "literal_minimum_source_ranks": 24, "source_countercontrols": 3,
+            "literal_row_factorizations": 4, "principal_rank_cases": 5,
+            "gaussian_polar_controls": 1,
+            "unit_slice_budget_controls": 4,
             "improves_omega": False})
         survivor = self.record["source_controls"]["rank106_block_budget_survivor"]
         self.assertEqual(survivor["block_ranks"], [4, 10, 16])
         self.assertFalse(survivor["target_constructed"])
         self.assertFalse(survivor["unit_frame_compatibility_claimed"])
+        contractions = self.record["contraction_controls"]
+        self.assertEqual(len(contractions["factorizations"]), 4)
+        cases = self.record["small_principal_budgets"]
+        self.assertEqual([c["minimum_rank_forced_by_gap"] for c in cases], [True]*4+[False])
+        self.assertEqual([c["excluded_by_unit_slice_budget"] for c in cases], [True]*4+[False])
+        self.assertIsNone(cases[-1]["polar_long_map_rank_cap"])
+        self.assertEqual([c["strict_rank_margin"] for c in self.record["unit_slice_budget_controls"]],
+                         [10, 8, 6, 4])
+        self.assertEqual(self.record["gaussian_polar_control"]["raw_negative_coefficient_ranks"],
+                         [1, 2, 3])
 
     def test_reject_false_exclusion_and_changed_ruling(self):
         for mutate in (
@@ -48,6 +61,10 @@ class UnitImagePoleFlagTests(unittest.TestCase):
             lambda x: x["ruling_controls"][0].update(dimension=5),
             lambda x: x["source_controls"]["rank106_block_budget_survivor"].update(
                 target_constructed=True),
+            lambda x: x["contraction_controls"]["factorizations"][0].update(rank=17),
+            lambda x: x["gaussian_polar_control"].update(raw_negative_coefficient_ranks=[1, 1, 1]),
+            lambda x: x["small_principal_budgets"][-1].update(minimum_rank_forced_by_gap=True),
+            lambda x: x["unit_slice_budget_controls"][-1].update(compressed_slice_rank=4),
         ):
             bad = copy.deepcopy(self.record)
             mutate(bad)

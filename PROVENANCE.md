@@ -6,8 +6,9 @@ minimum-rank gap and full source locus below twice the minimum retain
 prior repository credit and exact byte pins. Grothendieck's1957 splitting
 theorem on P^1_C retains external credit through the source rank-gap proof;
 its primary statement was inspected again. The new highest-coefficient
-flag restrictions and rank106 first-map pole requirement use those written
-source results and elementary tensor pencils. Finite controls do not
+flag restrictions, rank106 first-map pole requirement and small-principal-part
+exclusion use those written source
+results, elementary tensor pencils and regular Gaussian row operations. Finite controls do not
 construct a compatible unit trajectory, solve lower poles, provide
 independent mathematical review or improve the exponent.
 

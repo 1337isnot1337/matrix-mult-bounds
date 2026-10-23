@@ -30,7 +30,10 @@ At image rank106 every remaining degeneration in this regular-long-map,
 regular-unit-lift chart must have F polar, with leading coefficient of
 rank one to four in one of the two rulings in item2. Its leading map
 annihilates I_10. The complete first-map principal part has rank at least
-two; in particular a simple first-map pole has leading rank two to four.
+six and its pole order is at least two. In particular no simple
+first-map pole is possible. Sections6-7 use at most four polar long-map
+terms and the regular unit equation, with no bound on either map's pole
+orders. Complete principal rank6 is outside this argument.
 At image ranks102 through105, any polar F must satisfy
 the fixed-Hankel constraint in item3. None of these remaining cases is
 constructed or excluded by this note.
@@ -132,7 +135,91 @@ For r=102,...,105 one has q=10,...,7 and3q<32;
 item3 applies whenever F has a pole. No regularity assertion for F at
 those four smaller image ranks is made.
 
-## 6. Sharpness of the remaining block budget and evidence limits
+## 6. Small principal parts give at most four polar long-map terms
+
+Continue at unit-image rank106. Write p for the rank of the complete
+first-map principal part, so dim E_reg=100-p. Section5 gives p>=2.
+For the next argument suppose p<=5. Define W_B to be the source row
+vectors lambda for which some regular row z(t) satisfies
+
+    z(t) B'(t)=t^-1 lambda+O(1).
+
+This is a linear space, including zero, and is nonzero because B' is
+polar. A polar row can be multiplied by a nonnegative power of t to
+have a simple pole. On every x in E_reg the complete identity gives
+
+    delta_lambda(F_0(x))=0,
+    delta_lambda: f |-> lambda M_0(f) C'_0.
+
+F_0(E_reg) has dimension100-p. Therefore rank delta_lambda<=12+p.
+The full source contraction T_lambda:f |-> lambda M_0(f) has rank
+at most14+p after restoring the two deleted column directions. Since
+p<=5, this is at most19. The credited source rank gap on the row leg
+makes every nonzero lambda in W_B a minimum-rank contraction of rank16.
+By cyclic factor symmetry and Section4, the whole W_B lies in one
+minimum-rank short-factor ruling. In particular dim W_B<=4. This
+uses the rank gap on every vector in W_B, not only on its basis.
+
+An elementary regular Gaussian procedure now decomposes
+
+    B'=B_reg(t)+P(t),       B_reg regular,       rank_K P<=4.         (5)
+
+Here is a proof that retains arbitrary pole orders. Put an entry of
+maximum pole order s at position(1,1), by constant row/column permutations.
+Let a be its row, and set c_i=B'_(i,1)/B'_(1,1). Every c_i is regular.
+Subtract c a from B'. The residual has first column zero, and each of
+its rows is a regular row combination of B'. If still polar, pivot
+on one of its entries of maximum pole order, and repeat on the residual.
+Each polar pivot yields a nonzero leading source row vector in W_B after
+multiplication by a nonnegative power of t. These vectors are independent:
+each new vector vanishes at all previous pivot columns and is nonzero
+at its own pivot column. Thus there are at most dim W_B<=4 polar pivots.
+The final residual B_reg is regular. The subtracted terms are regular columns
+times Laurent rows, each of rank at most one, so their sum P has rank at
+most four over K. All row/column permutations can be reversed.
+
+This does not bound the rank of each raw negative coefficient of P.
+Those coefficients may have larger rank as the regular factors vary.
+Only a product first shown regular can use closed rank minors at zero.
+
+## 7. The regular unit equation excludes every principal rank at most five
+
+Keep p<=5 and use(5), with rank_K P<=m<=4. The exact normalized unit
+identity is B' M_t(u) C'=I_R, where u, M_t and C' are regular. Therefore
+
+    P M_t(u) C'=I_R-B_reg M_t(u) C'
+
+is regular of rank at most m. At zero the right-hand side has rank at
+most m. Its complement B_reg,0 M_0(u_0) C'_0 consequently has rank at least
+R-m, so rank B_reg,0>=R-m. No invertibility of the source unit is assumed.
+
+Suppose F has highest pole order h>0, and choose f=F_-h(x) nonzero.
+The source first-leg minimum is16. Since C'_0 has rank R and B_reg,0 has
+rank at least R-m, with k=N-R=2,
+
+    rank(B_reg,0 M_0(f) C'_0) >=16-(k+m)-k=12-m.
+
+The complete target identity is regular. Hence t^h P M_t(F(x)) C' is
+regular with constant coefficient -B_reg,0 M_0(f) C'_0, after subtracting
+its regular B_reg-part. Its rank at zero is at most m by closed minors.
+This contradicts12-m>m for every m<=4. Thus F cannot have a pole.
+But regular F at rank106 was already excluded in Section5.
+
+It follows that p<=5 is impossible, so every remaining rank106
+degeneration has complete first-map principal-part rank at least six.
+At a simple first-map pole that rank equals dim im F_-1, which Section1
+bounds by four. Therefore no simple first-map pole is possible. Every
+remaining first map has pole order at least two, with at least six
+independent polar parameter directions, while its highest coefficient
+still lies in one ruling of dimension at most four.
+
+The argument does not bound the number of lower poles or align their
+source flags. At p=6 the full row-contraction upper bound is20, reaching
+the next source rank stratum. Section6 no longer forces the minimum-rank
+ruling or the four-term polar decomposition. This is an explicit boundary
+of the present method, not a new claim that rank6 is achievable.
+
+## 8. Sharpness of the remaining block budget and evidence limits
 
 A canonical minimum-rank source slice has16 entries in distinct rows
 and columns. Put six of those rows and a disjoint six of those columns
@@ -144,6 +231,9 @@ unit trajectory or solve the full tensor equations.
 
 The finite controls reconstruct literal source coefficients, check two
 four-dimensional rulings, exhibit ranks20 and32 outside them, and check
-this block-budget survivor. They do not prove all formal identities,
+this block-budget survivor. They also compare four full row contractions
+with their Kronecker factorizations and check the strict source-rank-gap
+window at principal ranks2 through5 and four sharp unit/slice rank budgets;
+rank6 stays outside that window. They do not prove all formal identities,
 classify lower poles, or construct a target. The remaining chart and
 the exponent improvement remain open.

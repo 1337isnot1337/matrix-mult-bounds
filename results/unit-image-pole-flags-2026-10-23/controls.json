@@ -36,6 +36,93 @@
       "unit_image_rank": 102
     }
   ],
+  "contraction_controls": {
+    "factorizations": [
+      {
+        "all_entries_match_factorization": true,
+        "alpha": 1,
+        "beta": 0,
+        "left_cubic": [
+          1,
+          2,
+          0,
+          -1
+        ],
+        "rank": 16,
+        "right_cubic": [
+          2,
+          0,
+          -1,
+          1
+        ]
+      },
+      {
+        "all_entries_match_factorization": true,
+        "alpha": 0,
+        "beta": 1,
+        "left_cubic": [
+          1,
+          2,
+          0,
+          -1
+        ],
+        "rank": 16,
+        "right_cubic": [
+          2,
+          0,
+          -1,
+          1
+        ]
+      },
+      {
+        "all_entries_match_factorization": true,
+        "alpha": 1,
+        "beta": 1,
+        "left_cubic": [
+          1,
+          2,
+          0,
+          -1
+        ],
+        "rank": 16,
+        "right_cubic": [
+          2,
+          0,
+          -1,
+          1
+        ]
+      },
+      {
+        "all_entries_match_factorization": true,
+        "alpha": 1,
+        "beta": 2,
+        "left_cubic": [
+          1,
+          2,
+          0,
+          -1
+        ],
+        "rank": 16,
+        "right_cubic": [
+          2,
+          0,
+          -1,
+          1
+        ]
+      }
+    ]
+  },
+  "gaussian_polar_control": {
+    "actual_source_or_target_claimed": false,
+    "gaussian_residual_regular": true,
+    "one_rank_one_polar_term": true,
+    "pole_order": 3,
+    "raw_negative_coefficient_ranks": [
+      1,
+      2,
+      3
+    ]
+  },
   "improves_omega": false,
   "proof_status": "proof-written-unreviewed",
   "ruling_controls": [
@@ -216,7 +303,49 @@
       "variable_short_factor": "right"
     }
   ],
-  "scope": "Necessary highest-pole flags only; no lower-pole or target construction claim.",
+  "scope": "Finite source and pole-factor controls; no full chart closure or target construction.",
+  "small_principal_budgets": [
+    {
+      "excluded_by_unit_slice_budget": true,
+      "full_row_contraction_rank_upper": 16,
+      "minimum_rank_forced_by_gap": true,
+      "polar_long_map_rank_cap": 4,
+      "principal_rank": 2,
+      "regular_parameter_dimension": 98
+    },
+    {
+      "excluded_by_unit_slice_budget": true,
+      "full_row_contraction_rank_upper": 17,
+      "minimum_rank_forced_by_gap": true,
+      "polar_long_map_rank_cap": 4,
+      "principal_rank": 3,
+      "regular_parameter_dimension": 97
+    },
+    {
+      "excluded_by_unit_slice_budget": true,
+      "full_row_contraction_rank_upper": 18,
+      "minimum_rank_forced_by_gap": true,
+      "polar_long_map_rank_cap": 4,
+      "principal_rank": 4,
+      "regular_parameter_dimension": 96
+    },
+    {
+      "excluded_by_unit_slice_budget": true,
+      "full_row_contraction_rank_upper": 19,
+      "minimum_rank_forced_by_gap": true,
+      "polar_long_map_rank_cap": 4,
+      "principal_rank": 5,
+      "regular_parameter_dimension": 95
+    },
+    {
+      "excluded_by_unit_slice_budget": false,
+      "full_row_contraction_rank_upper": 20,
+      "minimum_rank_forced_by_gap": false,
+      "polar_long_map_rank_cap": null,
+      "principal_rank": 6,
+      "regular_parameter_dimension": 94
+    }
+  ],
   "source_controls": {
     "mixed_hankel_profile_source_rank": 32,
     "mixed_short_factor_source_rank": 20,
@@ -247,5 +376,47 @@
       "unit_frame_compatibility_claimed": false
     }
   },
-  "source_pin_count": 4
+  "source_pin_count": 4,
+  "unit_slice_budget_controls": [
+    {
+      "actual_source_unit_trajectory_claimed": false,
+      "compressed_slice_rank": 11,
+      "long_defect": 2,
+      "polar_rank_cap": 1,
+      "regular_unit_rank": 21,
+      "source_slice_rank": 16,
+      "strict_rank_margin": 10,
+      "unit_residue_rank": 1
+    },
+    {
+      "actual_source_unit_trajectory_claimed": false,
+      "compressed_slice_rank": 10,
+      "long_defect": 2,
+      "polar_rank_cap": 2,
+      "regular_unit_rank": 20,
+      "source_slice_rank": 16,
+      "strict_rank_margin": 8,
+      "unit_residue_rank": 2
+    },
+    {
+      "actual_source_unit_trajectory_claimed": false,
+      "compressed_slice_rank": 9,
+      "long_defect": 2,
+      "polar_rank_cap": 3,
+      "regular_unit_rank": 19,
+      "source_slice_rank": 16,
+      "strict_rank_margin": 6,
+      "unit_residue_rank": 3
+    },
+    {
+      "actual_source_unit_trajectory_claimed": false,
+      "compressed_slice_rank": 8,
+      "long_defect": 2,
+      "polar_rank_cap": 4,
+      "regular_unit_rank": 18,
+      "source_slice_rank": 16,
+      "strict_rank_margin": 4,
+      "unit_residue_rank": 4
+    }
+  ]
 }
