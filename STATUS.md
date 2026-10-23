@@ -13,6 +13,18 @@ subset is possible within this move component. Claim
 splits and different decompositions remain outside the result. Three
 focused exact tests pass; this is not a global rank or exponent bound.
 
+The [four-split construction](research/ai/2026-10-23-flip-escape/split_proof.md)
+escapes that move component by increasing the exact term count to 80,
+then deleting four terms with a common physical stabilizer degeneration.
+Unimodular bases and a nine-step joint image flag give an explicit rank-76
+border seed with 72 distinct first-leg directions. Complete rational
+Laurent contraction checks all 10000 constant positions, no negative
+coefficients, and 51 positive remainder coefficients. Claim
+`AI-EXTERNAL-SPLIT-BORDER-SEED-002` is written and unreviewed; five further
+focused tests pass. This seed still fails the stronger termwise grid
+incidence test. New shared-U pairs permit further flips changing its W
+directions, but no Q(6,4) map, rank record, or smaller exponent is supplied.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

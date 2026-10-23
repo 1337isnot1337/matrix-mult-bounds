@@ -7,8 +7,13 @@ et al., arXiv:2610.13905v1, retain credit for the shared-factor-flip and
 stabilizer-null-cone viewpoint. The exact class separation, unit minors,
 scalar trace pairings and scoped component proof are local continuations.
 They use elementary linear algebra and do not require the paper's
-general invariant-theory theorem. No independent review, formalization,
-historical priority, global rank bound or exponent improvement is claimed.
+general invariant-theory theorem. The four selected splits, common
+descending image flag, explicit unimodular physical bases and complete
+Laurent identity are local continuations of that external deletion
+method. The exact original algorithm remains external work; its local
+border variant has the same rank bound and supplies no Q(6,4) maps.
+No independent review, formalization, historical priority, rank record
+or exponent improvement is claimed.
 
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
