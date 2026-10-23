@@ -45,6 +45,11 @@ excluded by [AI-Q64-ARBITRARY-INNER-SHIFTS-001](../research/ai/2026-10-23-q64-ar
 their correction flattening rank is at least `n(n-1)/2` for every n.
 Continue with non-coordinate long-leg maps or a different source family.
 
+Independent permutations of every matched coordinate window are also
+excluded by [AI-Q64-WINDOW-PERMUTATIONS-001](../research/ai/2026-10-23-q64-window-permutations/proof.md),
+with correction flattening rank at least `(n-1)^2`. Broader non-coordinate
+long-leg maps remain open.
+
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
 when both long maps remain regular and full rank. Do not repeat those

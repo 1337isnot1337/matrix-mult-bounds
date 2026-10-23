@@ -33,6 +33,12 @@ of both long legs. For every first-leg map its correction flattening rank
 is at least `n(n-1)/2` for every n. The proof splits on adjacent C-shift
 differences and remains unreviewed; general linear long-leg maps remain open.
 
+The [matched-window permutation result](research/ai/2026-10-23-q64-window-permutations/proof.md)
+allows an independent permutation of every length-n matched coordinate
+window on both long legs. Every first-leg map leaves correction flattening
+rank at least `(n-1)^2`. Its written proof and exact finite replay remain
+unreviewed.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

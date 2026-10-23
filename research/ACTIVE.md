@@ -383,6 +383,12 @@ leg. For any first-leg map the correction flattening rank is at least
 intersection using adjacent C-shift terms; the proof is unreviewed. General
 non-coordinate long-leg maps remain open.
 
+The [matched-window permutation package](ai/2026-10-23-q64-window-permutations/proof.md)
+allows an independent permutation of every matched long-leg coordinate
+window. Its target/source slice-space intersection has dimension at most
+`2n-1`, giving correction flattening rank at least `(n-1)^2` for every
+first-leg map. The proof remains unreviewed.
+
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
 The smaller sparse M1 lead has an all-size first-edge support deficit.

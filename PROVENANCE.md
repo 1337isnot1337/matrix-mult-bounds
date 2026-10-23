@@ -910,6 +910,12 @@ reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
 
+The `2026-10-23-q64-window-permutations` package treats independent
+permutations of every matched long-leg coordinate window. For all first-leg
+maps it proves correction flattening rank at least `(n-1)^2`; the written
+proof remains unreviewed. Its finite exact replay gives no independent
+review, formalization or exponent improvement.
+
 The `2026-10-23-q64-diagonal-shift` package is owner-directed OpenAI Codex
 work. It reuses the maintained paired-source coefficient convention and
 gives an all-size flattening obstruction for one explicit set of maps.
