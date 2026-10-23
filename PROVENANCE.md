@@ -927,7 +927,7 @@ The `2026-10-23-paired-shift-separation` result is owner-directed Codex
 work. It uses the maintained `Q(n,m)` coefficient convention and the
 separate conditional correction-budget question, each pinned in
 `research/ai/2026-10-23-paired-shift-separation/sources.json`. The new
-all-field step factors each variable-column profile through the rank of
-its interior shift matrix, then applies the existing channel-symbol
-flattening argument. No external theorem or new source construction is
-claimed. The proof is unreviewed and gives no exponent improvement.
+all-field step extends the rank-one channel-symbol factorization in PR157
+by factoring each variable-column profile through the rank of its interior
+shift matrix. No external theorem or new source construction is claimed.
+The proof is unreviewed and gives no exponent improvement.

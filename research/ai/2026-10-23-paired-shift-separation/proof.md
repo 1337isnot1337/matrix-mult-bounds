@@ -118,6 +118,10 @@ M(w)=\left(\sum_{i,h=0}^{n-1}w_{i,h}X^hY^i\right)I_m.
 
 If `R(w)=0`, then (8) equals the symbol matrix of `T(w)`. A nonzero Laurent polynomial times `I_m` has rank `m`, contradicting `Delta<m`; hence the Laurent polynomial in parentheses is zero. Distinct monomials imply every `w_{i,h}=0`. Thus contraction by `R` is injective on `V`, proving the flattening bound in (4). Flattening rank is a lower bound for border rank, which gives the second inequality. This proof works over every field.
 
+## Relation to the Toeplitz obstruction
+
+The rank-one channel-symbol factorization for two Toeplitz long-leg maps is recorded in PR #157, pinned in `sources.json`. Here the B coefficients may vary with the source column; the shift-matrix decomposition (5) replaces that single outer product with `Delta` outer products. No result from PR #157 about its finite-band class is claimed as new here.
+
 ## Limits
 
 The hypothesis is on a displayed coefficient presentation (1): the sum of the shift-matrix ranks in (3) must be below `m`. A generic profile can have shift rank `m`, and the proof says nothing then. The other long-leg map must obey (2) outside its specified exceptional columns. The result covers ordinary restrictions only; it does not control arbitrary variable-coefficient maps, arbitrary Laurent degenerations, or cancellations with auxiliary pole terms. The bound is not an exponent improvement.
