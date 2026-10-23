@@ -27,6 +27,18 @@ priority, independent review, matrix construction or exponent gain is
 claimed. Exact coordinate and integer-rank controls support the written
 unreviewed proof without formalizing its arbitrary-map quantifiers.
 
+The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
+work. PR103 supplies the fixed square-zero resolvent and high/low limiting
+space, with its exact inspected commit and file hash recorded. Earlier
+cyclic-source work supplies the literal source and unimodular unit. The
+31 successive integer minor identities, sharp minimum-rank-six result and
+compression alignment are local continuations. The acceptance program
+reconstructs all 112 source slices and verifies the literal certificate;
+it does not import the discovery process. Elementary finite matrix
+arguments apply over every field; the scoped Laurent application is over
+C. No historical priority, independent mathematical review, formalization
+or exponent improvement is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
