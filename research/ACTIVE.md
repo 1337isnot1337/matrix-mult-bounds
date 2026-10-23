@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)
+is now complete: all 142,884 outer deletion pairs have dimension at least
+40, with two exact equality witnesses. This excludes all independent
+coordinate long-leg compressions of the fixed A4 conjugation family;
+their maximum leading loss is six. Continue with arbitrary noncoordinate
+flags in the [algebra question](ai/2026-10-23-a4-compression-algebra/QUESTION.md),
+not another coordinate census. Claim `AI-A4-INDEPENDENT-COORDINATE-004`
+remains written and unreviewed.
+
 The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)
 now has a complete limiting-space certificate and a written necessary
 condition: arbitrary constant 110-coordinate compressions must lose

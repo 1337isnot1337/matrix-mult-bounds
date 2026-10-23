@@ -1,5 +1,11 @@
 # Research directions
 
+The [independent coordinate census](../research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
+now has sharp outer image dimension 40, so every independent coordinate
+compression of the fixed two-sided A4 family is excluded. The remaining
+question concerns arbitrary complex subspaces U and W. A finite choice
+of coordinate basis does not settle their compression dimensions.
+
 ## Full-source singular maps: the compression rank-loss condition
 
 The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)

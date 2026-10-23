@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-23-a4-coordinate-compressions` continuation retains the
+PR213 source, block-space reduction and nine-direction requirement with
+exact published dependency pins. The new additions are the complete
+142,884-pair independent coordinate census and two exact sharpness
+witnesses, followed by the deduction for full long-leg coordinate maps.
+The modular calculation provides only lower bounds; the upper witnesses
+are literal integer zero identities. This is owner-directed Codex work,
+with no independent review, arbitrary-flag exclusion or exponent claim.
+
 The `2026-10-23-conjugation-limit` package is owner-directed OpenAI
 Codex work. Earlier cyclic-source and fixed-resolvent packages retain
 credit for the literal A4 tensor, its unimodular unit and the square-zero

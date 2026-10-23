@@ -1,5 +1,19 @@
 # Research status
 
+## Independent coordinate compressions are excluded with sharp loss six
+
+The [complete independent-coordinate census](research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
+covers all 142,884 independent two-row / two-column deletions of the
+46-dimensional outer space. Every complex projected dimension is at
+least 40. Two exact integer kernel witnesses attain 40, so the maximum
+loss is six. The existing bottom-left kernel reduction transfers this
+bound to every independent coordinate compression of the full fixed
+112-dimensional conjugation family. Its target requires loss at least
+nine, so the entire coordinate class is excluded. Claim
+`AI-A4-INDEPENDENT-COORDINATE-004` is written and unreviewed, with finite
+computer assistance. Arbitrary noncoordinate flags remain a separate
+question; no target or exponent improvement is established.
+
 ## Two-sided singular A4 maps require at least nine lost leading directions
 
 The [full-source conjugation package](research/ai/2026-10-23-conjugation-limit/proof.md)
