@@ -12010,8 +12010,8 @@
   "live_catchup_source_capture": "live_catchup_frozen_heads.json",
   "later_concurrent_integration_capture": "concurrent_434_capture.json",
   "later_concurrent_integration_archive_receipt": "archive_concurrent_434.json",
-  "latest_verified_source_pull_request_snapshot": "concurrent_wave_heads.json",
-  "latest_retirement_plan": "balanced_followup_retirement_plan.json",
+  "latest_verified_source_pull_request_snapshot": "concurrent_wave_source_provenance.json",
+  "latest_retirement_plan": "concurrent_wave_retirement_plan.json",
   "quadratic_followup_capture": "quadratic_c7_capture.json",
   "structural_followup_capture": "quadratic_80bd_capture.json",
   "balanced_followup_capture": "quadratic_f006_capture.json",
@@ -12019,5 +12019,7 @@
   "final_source_retirement": "PR218 independently merged exact captured f006; source branch subsequently absent. Earlier conditional plan remains historical.",
   "concurrent_wave_head_capture": "concurrent_wave_heads.json",
   "concurrent_wave_archive_receipt": "archive_concurrent_wave_tags.json",
-  "concurrent_wave_original_pr_hold_receipt": "concurrent_wave_publication_holds.json"
+  "concurrent_wave_original_pr_hold_receipt": "concurrent_wave_publication_holds.json",
+  "latest_source_capture": "concurrent_wave_heads.json",
+  "source_retirement_scope": "Four captured new source branches/PRs remain conditional on durable176-source publication and fresh exact-head/archive/dependency checks. Earlier172-source retirement outcome remains historical."
 }

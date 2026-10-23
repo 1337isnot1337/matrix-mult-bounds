@@ -1,0 +1,202 @@
+{
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "recorded_at": "2026-10-23T19:12:49.656077+00:00",
+  "replacement_pr": 214,
+  "published_baseline": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "main_at_capture": "a510bec4627043b35bac0ad4b19bb617446e8949",
+  "scope": {
+    "source_snapshots": 176,
+    "topic_names": 142,
+    "claims": 619
+  },
+  "validation": {
+    "content_commit": "eff2efe5c9c668c8d2d570c1d749d2ab32afbe23",
+    "status": "passed",
+    "checks": 21,
+    "passed": 21,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "seconds": 4.264,
+    "inventory_tests": 1980,
+    "test_modules": 441,
+    "new_test_ids": 19,
+    "removed_test_ids": 0,
+    "receipts": [
+      {
+        "path": "test_logs_concurrent_wave/summary.json",
+        "sha256": "ef634f3207d86b174b7648c19a34553b13091961386fc9308169ba97802d6a46"
+      },
+      {
+        "path": "test_logs_concurrent_wave/coverage_union.json",
+        "sha256": "1b9ffb1bc9ff70949aad1dcb36dabdfd31ac444b750d7ed77af60d27c088638d"
+      },
+      {
+        "path": "test_logs_concurrent_wave/discovery.json",
+        "sha256": "d41094789688ac31e25a7a6acc2593b87e28a271211e462cdbb38752450c0678"
+      }
+    ],
+    "equivalence": "All prior test/executable/dependency files, all19 A4 pin declarations,23 archive files and149 prior evidence files remain exact.",
+    "hosted_final_head_ci": "required; not established by local focused checks",
+    "coverage_kind": "Composite revision-specific evidence, not one uninterrupted final local full regression."
+  },
+  "actual_cleanup_before_wave": {
+    "root_deleted_branches": 131,
+    "root_closed_superseded_prs": 102,
+    "independently_merged_prs": [
+      215,
+      217,
+      218
+    ],
+    "previously_absent_topic_names": 4,
+    "this_wave_source_branches_deleted": 0,
+    "this_wave_source_prs_closed": 0
+  },
+  "prospective_totals_if_all_four_exact_sources_retire": {
+    "root_deleted_branches": 135,
+    "root_closed_superseded_prs": 106,
+    "conditional_only": true
+  },
+  "source_provenance": {
+    "path": "concurrent_wave_heads.json",
+    "sha256": "a7b8710d0df847b5681beb1426e738a46fdc8d185cf7b9c7b25c50fd6c9968a6",
+    "bytes": 76387
+  },
+  "pull_request_candidates": [
+    {
+      "number": 219,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/219",
+      "branch": "research/a4-universal-20261023-ab94",
+      "expected_source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/a4-universal-20261023-ab94/beb14b693fc7",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_ref": "main",
+      "original_state": "open",
+      "original_draft": false,
+      "original_auto_merge": null,
+      "original_full_record_location": {
+        "file": "concurrent_wave_source_provenance.json",
+        "source_branch": "research/a4-universal-20261023-ab94",
+        "field": "sources[].original_pull_requests"
+      },
+      "action_if_all_fresh_guards_pass": "Close as superseded by PR214 after exact integrated source ancestry and durable replacement publication are verified; retain original record and link to replacement.",
+      "status": "planned; not performed"
+    },
+    {
+      "number": 220,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/220",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "expected_source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/pruned-aggregation-20261023-ab94/eb95f17da4f5",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_ref": "main",
+      "original_state": "open",
+      "original_draft": false,
+      "original_auto_merge": null,
+      "original_full_record_location": {
+        "file": "concurrent_wave_source_provenance.json",
+        "source_branch": "research/pruned-aggregation-20261023-ab94",
+        "field": "sources[].original_pull_requests"
+      },
+      "action_if_all_fresh_guards_pass": "Close as superseded by PR214 after exact integrated source ancestry and durable replacement publication are verified; retain original record and link to replacement.",
+      "status": "planned; not performed"
+    },
+    {
+      "number": 221,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/221",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "expected_source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-validation-20261023-ab94/7797ad499138",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_ref": "main",
+      "original_state": "open",
+      "original_draft": false,
+      "original_auto_merge": null,
+      "original_full_record_location": {
+        "file": "concurrent_wave_source_provenance.json",
+        "source_branch": "research/column-overlap-validation-20261023-ab94",
+        "field": "sources[].original_pull_requests"
+      },
+      "action_if_all_fresh_guards_pass": "Close as superseded by PR214 after exact integrated source ancestry and durable replacement publication are verified; retain original record and link to replacement.",
+      "status": "planned; not performed"
+    },
+    {
+      "number": 222,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/222",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "expected_source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/quadratic-torsion-attainment-01a1697d/a8da2a3d511d",
+      "head_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_repository": "1337isnot1337/matrix-mult-bounds",
+      "base_ref": "main",
+      "original_state": "open",
+      "original_draft": true,
+      "original_auto_merge": null,
+      "original_full_record_location": {
+        "file": "concurrent_wave_source_provenance.json",
+        "source_branch": "research/quadratic-torsion-attainment-01a1697d",
+        "field": "sources[].original_pull_requests"
+      },
+      "action_if_all_fresh_guards_pass": "Close as superseded by PR214 after exact integrated source ancestry and durable replacement publication are verified; retain original record and link to replacement.",
+      "status": "planned; not performed"
+    }
+  ],
+  "branch_candidates": [
+    {
+      "branch": "research/a4-universal-20261023-ab94",
+      "expected_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/a4-universal-20261023-ab94/beb14b693fc7",
+      "associated_prs": [
+        219
+      ],
+      "status": "planned; not performed"
+    },
+    {
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "expected_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-validation-20261023-ab94/7797ad499138",
+      "associated_prs": [
+        221
+      ],
+      "status": "planned; not performed"
+    },
+    {
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "expected_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/pruned-aggregation-20261023-ab94/eb95f17da4f5",
+      "associated_prs": [
+        220
+      ],
+      "status": "planned; not performed"
+    },
+    {
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "expected_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/quadratic-torsion-attainment-01a1697d/a8da2a3d511d",
+      "associated_prs": [
+        222
+      ],
+      "status": "planned; not performed"
+    }
+  ],
+  "fresh_required_guards": [
+    "Publish and verify the integrated176-snapshot replacement head and its immutable integration tag before retiring any source.",
+    "Verify all183 currently captured archive refs remain exact, including each of the four source tags; the new integration tag must point to the exact replacement head.",
+    "Verify each exact captured source SHA is an ancestor of the published replacement head and its archived SHA equals the current source branch SHA.",
+    "Re-read each PR: same repository for both head and base, expected exact head/ref, open/unmerged state, base main, and current replacement PR214 exact head/base/open state. If a source independently merged, record that outcome separately instead of a superseded closure.",
+    "Skip every moved/recreated/unintegrated source head, new or foreign PR, changed base, protected/default ref, or unexpected dependency; do not close a newer source PR at an older integrated SHA.",
+    "After closures, re-read all open head/base PR dependencies and source/default/protection/replacement state immediately before any deletion; hold branches referenced by any still-open head or base.",
+    "Delete only the four exact eligible source refs with an atomic push and per-ref force-with-lease for the reviewed SHA. Never delete main, consolidation, archive tags or a replacement/new topic head.",
+    "Persist every mutation response before later network reads, then verify branch absence, source-PR final state, archive identities, consolidation/main identities and no lingering open-PR dependencies. Unknown outcomes require fresh reads before retry."
+  ],
+  "stacked_prs_in_captured_sources": [],
+  "protected_or_default_exclusions": [
+    "main",
+    "consolidation/all-branches-20261023"
+  ],
+  "historical_plans_remain_unchanged": true,
+  "remote_mutations_performed_by_this_plan": false
+}

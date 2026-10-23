@@ -1,6 +1,6 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T18:42:48.373413+00:00",
+  "assembled_at": "2026-10-23T19:12:17.605215+00:00",
   "baseline_published_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
   "outputs": [
     {
@@ -38,12 +38,13 @@
     },
     {
       "path": "PROVENANCE.md",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/PROVENANCE.md",
-      "sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
-      "baseline_sha256": "3224988926a87a06209d512b4928eef94ba1f981432274eb75052873de38ccc9",
-      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "sha256": "dcac9d9d60d4adfa8b6d5e7e3cb0853d134268b1134442df5d816a71c4327c0f",
+      "baseline_sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+      "source_commit": null,
       "source_path": "PROVENANCE.md",
-      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution.",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/PROVENANCE.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained.",
+      "report": "concurrent_wave_docs_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -116,9 +117,14 @@
           "source_path": "PROVENANCE.md",
           "report": "structural_followup_integration_resolution.json",
           "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+        },
+        {
+          "source_commit": null,
+          "source_path": "PROVENANCE.md",
+          "report": "concurrent_wave_docs_resolution.json",
+          "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
         }
-      ],
-      "report": "structural_followup_integration_resolution.json"
+      ]
     },
     {
       "path": "README.md",
@@ -144,12 +150,13 @@
     },
     {
       "path": "STATUS.md",
-      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_output/STATUS.md",
-      "sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
-      "baseline_sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
-      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "sha256": "a452d72199e906b9b35303498f67d43ff749f3c95ad2db26f8b9adb593d23406",
+      "baseline_sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "source_commit": null,
       "source_path": "STATUS.md",
-      "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status.",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/STATUS.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained.",
+      "report": "concurrent_wave_docs_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -234,9 +241,14 @@
           "source_path": "STATUS.md",
           "report": "balanced_followup_integration_resolution.json",
           "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
+        },
+        {
+          "source_commit": null,
+          "source_path": "STATUS.md",
+          "report": "concurrent_wave_docs_resolution.json",
+          "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
         }
-      ],
-      "report": "balanced_followup_integration_resolution.json"
+      ]
     },
     {
       "path": "docs/concurrent_research.md",
@@ -382,11 +394,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "sha256": "402d466f79fed9a8b33b6c795a477b74ef063a8f84a93157afe23e9276d25bea",
+      "sha256": "ad046a7af464e38d97fb74475312da68b039791640f81b1e342391c9b8d1f86f",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
-      "report": "main_a510_packaging_resolution.json"
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/README.434178af.md",
@@ -470,11 +482,27 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "sha256": "d15e11729e9bc832864bf224e7f98dd159cd4ad322c6c984d93473136b7487b4",
+      "sha256": "dd0fe752bb8b131c27ac9970419650df7db6dc7a3265cfaa2a48c7f8217b24e6",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
-      "report": "balanced_followup_packaging_resolution.json"
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archive_concurrent_wave_tags.json",
+      "sha256": "f2bc21bb4b9ebd78b65880710eb928f4a37aaf8ddb2895a18b53b353deb2c0ab",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/archive_concurrent_wave_tags.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/archive_concurrent_wave_tags.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/archive_verification_index.159.json",
@@ -542,11 +570,19 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-      "sha256": "3bcf4cd9a6fdc2fb6c7e2747c94647d823d396665b673bcf1728e053aa4b738e",
+      "sha256": "6ad22db2f69c831ff88917a7128055dfecc63afe42ced3cac649012a2281013f",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
-      "report": "balanced_followup_packaging_resolution.json"
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/archives_171_complete_verification.json",
@@ -571,6 +607,22 @@
       "source_path": "docs/consolidation/2026-10-23/archives_172_complete_verification.json",
       "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
       "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archives_concurrent_wave_complete_verification.json",
+      "sha256": "44a040ca9c0abf94265f2106b3d10597229f23dcae95433cb628d88dc2b62da7",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/archives_concurrent_wave_complete_verification.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/archives_concurrent_wave_complete_verification.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/balanced_followup_code_audit.json",
@@ -694,11 +746,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "c887305be4554454e989ef8845b166dd363093e11fa120e508fa629912a1916c",
+      "sha256": "e635aad23acbdf3793e318f586b3edb7e98b18b7ee5344ab2cf765ce79aea7ca",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
-      "report": "main_a510_packaging_resolution.json"
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.0bddc6e8.json",
@@ -867,6 +919,14 @@
           "reason": "Preserve exact historical or revision-bound evidence bytes; deterministic gzip is recorded where used."
         }
       ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.eff2efe5.json.gz",
+      "sha256": "58b21a4fb36fd5080f5c62c1ebf9ddd6ed12e8ebcced6597f80d3528846d1d8d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.eff2efe5.json.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.nextwave-72f5c524.json",
@@ -1046,11 +1106,19 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "sha256": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
+      "sha256": "042c2e886ddc364a4ea20034723ad28383bc3f81edbf0e8897b1c3d2c5185f56",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
-      "report": "balanced_followup_packaging_resolution.json"
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
@@ -1113,6 +1181,262 @@
           "source_path": "docs/consolidation/2026-10-23/concurrent_oblique_claim_review.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_aggregation_static_review.json",
+      "sha256": "a001e3cc4a4899c1e10aa5455b4413c9026f64e5402e2e8cf332bc93bb7dd417",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_aggregation_static_review.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_claim_report.json",
+      "sha256": "34c830ed3d7cf80df3bac0b14ebdb2abfbd6ad32fb3d374bfedc1a092fab33c2",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_claim_report.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_claim_report.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_code_audit.json",
+      "sha256": "77e09c233bf0aa5893c2205fa46161ce38790282edb0a6a718901d46ca46a048",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_code_audit.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_code_audit.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_docs_resolution.json",
+      "sha256": "63e3c64862b4925fe1b70e4e47dadcdf23be5e8c5c485a5dba024171f0fb2457",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_docs_resolution.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_docs_resolution.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_heads.json",
+      "sha256": "a7b8710d0df847b5681beb1426e738a46fdc8d185cf7b9c7b25c50fd6c9968a6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_heads.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_heads.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_history_receipt.json",
+      "sha256": "59f3102e27a6b90aee3e9a398b7d20faaacee7713267396eb002aac2a231d0cf",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_history_receipt.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_initial_inventory.json",
+      "sha256": "3a2b2c84f292405bcca69ae93aefe04595bebfd1da21157781d249449e3cab5e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_initial_inventory.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_initial_inventory.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_merge_log.json",
+      "sha256": "7d1d4eab70e71436e9bb6bb14e8caf64f4f62eb5c061546126cab6e20600b16c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_merge_log.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_merge_log.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_packaging_equivalence.json",
+      "sha256": "5bb75622837b0c77e56d01a34c6712c67d61b51a77106bce7739f0b05480dc1e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_packaging_equivalence.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_plan.json",
+      "sha256": "924dba3b28f569ff69f2630b69c48b064d7d5f5bf0cce2dcacd06161e45456e0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_plan.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_plan.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_preservation_report.json",
+      "sha256": "4ca34e877d8ec47ebdc8469b2fb92ddd74f010b4cccc99f9eee7b1deca46a63f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_preservation_report.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_publication_holds.json",
+      "sha256": "577122c00f96b3685f7f2d211d69ea6016802d1094fcfd532dc16577c49da7b7",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_publication_holds.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_publication_holds.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_retirement_plan.json",
+      "sha256": "e37ecc2f819806dcd2a6ff4f571528751ec10c5d97317c65735cb4b02933eba5",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_retirement_plan.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_scope.json",
+      "sha256": "79ae0fa09d3020fe9d74274c0f3e56a34853f27ad392325f7acb8ffe9dc9f649",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_scope.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_scope.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_source_provenance.json",
+      "sha256": "5818275a427d86335b1615442ece099ef3021be2d8c907c1e463b969d3f5e9dc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_source_provenance.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_source_prs_supplement.json",
+      "sha256": "6a30ac863b47e75b92b340856c0fdca5d25d0e11298ebe251c4a25205a274fe2",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_source_prs_supplement.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_source_prs_supplement.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_source_resolution.json",
+      "sha256": "f96add7092e0808589466893d40f82a0283a1dc2e8d08ad180f9867afcf025c6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_source_resolution.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_source_resolution.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_transport.json",
+      "sha256": "d7e47df17404c1ca3d1502aca62a0dc612e1dbb2395cf47ecd5d9ad0e0cf4b59",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_transport.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_transport.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_wave_validation_plan.json",
+      "sha256": "b0b861e80b2edd8e5e103adbb8d32c8ee274f0872f7e8e2864716fc430cf511f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_wave_validation_plan.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_wave_validation_plan.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
         }
       ]
     },
@@ -1741,6 +2065,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/publication_172_main_a510_verified.json",
+      "sha256": "315474a61135d3ddf9f627059efb42e097c354486359223e71b988dfa61f61d6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/publication_172_main_a510_verified.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/publication_172_main_a510_verified.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/80bd2ae-sources.json",
       "sha256": "3c5f5ee86bb796aeb21329979c09cbb8803964864d37b68cbe10877019b08d93",
       "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
@@ -2237,12 +2577,124 @@
       "report": "balanced_followup_packaging_resolution.json"
     },
     {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-a4-arbitrary-compression.log.gz",
+      "sha256": "a744b5e2d01ec01efb7724d993311d9f6ca68c92cd6fc9ec865ce9f3b26d126d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-a4-arbitrary-compression.log.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-aggregation-pruned-rectangular.log.gz",
+      "sha256": "26bf13385fd243cdb7004de58d025e2b9105dc54c4bdc3e68081674f74728491",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-aggregation-pruned-rectangular.log.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-coverage_union.json",
+      "sha256": "1b9ffb1bc9ff70949aad1dcb36dabdfd31ac444b750d7ed77af60d27c088638d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-coverage_union.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-discovery.json",
+      "sha256": "d41094789688ac31e25a7a6acc2593b87e28a271211e462cdbb38752450c0678",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-discovery.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-discovery.log.gz",
+      "sha256": "aecab756f44399eaf5fc86d04f1b7a9db544b04601c9a4b51f76d671044ccebe",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-discovery.log.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-discovery.stderr.log.gz",
+      "sha256": "f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-discovery.stderr.log.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-inventory_tree_after.json.gz",
+      "sha256": "92c6edc2b6a8774c36d63d835904eaabc0229ac669235fe0d0de3e3bffd2d3ab",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-inventory_tree_after.json.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-inventory_tree_before.json.gz",
+      "sha256": "92c6edc2b6a8774c36d63d835904eaabc0229ac669235fe0d0de3e3bffd2d3ab",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-inventory_tree_before.json.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-plan.json",
+      "sha256": "b0b861e80b2edd8e5e103adbb8d32c8ee274f0872f7e8e2864716fc430cf511f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-plan.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-repository-ledger-links.log.gz",
+      "sha256": "725434bda14c9fa48dbfd5f24696a64376aab1b3f0bc729a02e1b1fe274d25cf",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-repository-ledger-links.log.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-summary.json",
+      "sha256": "ef634f3207d86b174b7648c19a34553b13091961386fc9308169ba97802d6a46",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-summary.json",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-tree_after.json.gz",
+      "sha256": "92c6edc2b6a8774c36d63d835904eaabc0229ac669235fe0d0de3e3bffd2d3ab",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-tree_after.json.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/concurrent-wave-tree_before.json.gz",
+      "sha256": "92c6edc2b6a8774c36d63d835904eaabc0229ac669235fe0d0de3e3bffd2d3ab",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/concurrent-wave-tree_before.json.gz",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
+    },
+    {
       "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_balanced_followup.py",
       "sha256": "b6972341542610e8bd5c1f0bd7d9be0f8da81ee0e6459375c63a9b69e9938ce6",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/validation/harnesses/audit_balanced_followup.py",
       "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
       "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_concurrent_wave.py",
+      "sha256": "e00e4a77ed0f3f9cdf948208b844ee401a16949dc82030b7a60df13b07221874",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/audit_concurrent_wave.py",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_live_catchup.py",
@@ -2395,6 +2847,14 @@
       "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_balanced_followup_coverage.py",
       "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
       "report": "balanced_followup_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_concurrent_wave_coverage.py",
+      "sha256": "d73edddd74830b961697f1c2b688ce76c6d3c9542bc17219a4eda2038b8c5634",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_concurrent_wave_coverage.py",
+      "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes.",
+      "report": "concurrent_wave_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/validation/harnesses/record_live_catchup_coverage.py",
@@ -3416,12 +3876,13 @@
     },
     {
       "path": "docs/research_directions.md",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/docs/research_directions.md",
-      "sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
-      "baseline_sha256": "d9b6bafab4fefc9797ee078dc85222e925059f319ad941c099f0ce146fbcb146",
-      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "sha256": "cab085f0f935139401f4fe14fcd5088537c053b168f984aa4b80188402112efe",
+      "baseline_sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
+      "source_commit": null,
       "source_path": "docs/research_directions.md",
-      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution.",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/docs/research_directions.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained.",
+      "report": "concurrent_wave_docs_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -3488,9 +3949,14 @@
           "source_path": "docs/research_directions.md",
           "report": "structural_followup_integration_resolution.json",
           "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/research_directions.md",
+          "report": "concurrent_wave_docs_resolution.json",
+          "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
         }
-      ],
-      "report": "structural_followup_integration_resolution.json"
+      ]
     },
     {
       "path": "docs/route-synthesis.md",
@@ -3578,12 +4044,13 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/research/ACTIVE.md",
-      "sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
-      "baseline_sha256": "8022ef0ff65e6a1d09620e8b3408ad0b9cbf1965d7b666962cd7e87dad9b7c18",
-      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "sha256": "f201d9a7373e5d461f43f1079ea11360c3e1d7cd865d3096cbf70c934bf13703",
+      "baseline_sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
+      "source_commit": null,
       "source_path": "research/ACTIVE.md",
-      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution.",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_docs_output/research/ACTIVE.md",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained.",
+      "report": "concurrent_wave_docs_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -3650,9 +4117,14 @@
           "source_path": "research/ACTIVE.md",
           "report": "structural_followup_integration_resolution.json",
           "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/ACTIVE.md",
+          "report": "concurrent_wave_docs_resolution.json",
+          "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
         }
-      ],
-      "report": "structural_followup_integration_resolution.json"
+      ]
     },
     {
       "path": "research/ai/2026-10-20-f8-unequal/ACTIVE.md",
@@ -11088,55 +11560,172 @@
     },
     {
       "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
-      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "cc17be7afa9aa8e2b295f73056526f701714d9c23175b3870c1d2963c326325a",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
       "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
-      "source_blob": "6f815f319e5a8ed54b1b3d05b7b0d2dccd70800c",
       "mode": "100644",
-      "sha256": "a68f22da7ae0c30e6d6737fe6a8a0f4eb3dcb06144b92dfebe951c296b12847e",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
       "origins": [
         {
           "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
           "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/README.md",
+      "sha256": "d8b4c4202360f821307f088bab0c120ee64b5f88425436e9a5d408ba99d0037e",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/README.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/VALIDATION.md",
+      "sha256": "47afd9900f8008912598f26a7ff844c59b70151cbee9e96cb6e8049c95857afa",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/VALIDATION.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/VALIDATION.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/discover.py",
+      "sha256": "7621808f0ac0e0f8c306376425a6b063ea53aa6d6879f1bac7ad0f184df1dc1b",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/discover.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/discover.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+      "sha256": "35baffd7d7eaf67038555c68c9496e3c6a199528f843850cf0d31f89085fbc1c",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/sources.json",
+      "sha256": "252dd2e6779c0e7b13ad3e95fb1be3b81974cc121f55f0a6a99a2f691c14594a",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/sources.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/sources.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/verify.py",
+      "sha256": "9340a3a67b709e243175541b11a36e37bef7dde093826565ce47d10a36864bc6",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/verify.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/verify.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
     {
       "path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
-      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "af3de759712aa2aa25bbe62a05ae42df115c31b9d77a9aef955179a321add722",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
       "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
-      "source_blob": "73c0ee7c0fb03ec246c35f2fe488d7e94a1346af",
       "mode": "100644",
-      "sha256": "82a6510cd07eff10e06ebf05c5e1bb76dd73aa31270ddc99a831ffa4499f26f6",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
       "origins": [
         {
           "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
           "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
     {
       "path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
-      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "sha256": "b8991e20409e74deb7d4b4bc8a16cc1b388ba638370355246e86f28ad7645ddf",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
       "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
-      "source_blob": "19d05335c32e496b69e196352b6412f91f5eee81",
       "mode": "100644",
-      "sha256": "6f80132acf524035f1d268346a0253ce530bac8729ebd71cd29033603ea87bcd",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
       "origins": [
         {
           "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
           "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -11288,13 +11877,12 @@
     },
     {
       "path": "research/ai/2026-10-23-aggregation-families/README.md",
-      "source_commit": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "sha256": "fa9d2273e4c16d3287705a98a7d016b912ac75cdc6151e0a173f4ab07521151f",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
       "source_path": "research/ai/2026-10-23-aggregation-families/README.md",
-      "source_blob": "ea7038654b8d8eed6d04b7b39897e99530089adf",
-      "sha256": "c7550a1dc45fccace1ed0c85305ed1f3012191eba737f52925a9cb01d6ef0fcd",
       "mode": "100644",
-      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs.",
-      "report": "postvalidation_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
       "origins": [
         {
           "source_commit": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
@@ -11313,6 +11901,12 @@
           "source_path": "research/ai/2026-10-23-aggregation-families/README.md",
           "report": "postvalidation_source_resolution.json",
           "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+        },
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -11469,6 +12063,465 @@
           "source_path": "research/ai/2026-10-23-aggregation-families/proof.md",
           "report": "postvalidation_source_resolution.json",
           "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/README.md",
+      "sha256": "bfa22b95bfd65fe6ad2bbd1de52a424d779eadde690fb061bccfb359c9bc5c9d",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/README.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/README.md",
+      "sha256": "e340c5da8a136550eb39cd2775b799caabb5b4c52e9a49356a611d2aa097a46c",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/README.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/dimension_profiles.json",
+      "sha256": "e89633196947249336bc23ed63691444773dfc05d44eb6dcd1b651df4731b5c4",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/dimension_profiles.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/dimension_profiles.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/explore.py",
+      "sha256": "fe76c7daef0ec8c7370830a77db85be392a00cb51ee1ec34fd6b22c0b5351723",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/explore.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/explore.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/metadata.json",
+      "sha256": "51e880b4bc514d825696dd366a28c99ee8f5a24a04111dba0f29f8b7f8e9cebb",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/metadata.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/metadata.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.json",
+      "sha256": "70213015457a374cbc0909e56a9ac8f3e87ec0e80eea9f13fc1430e1a064143e",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.py",
+      "sha256": "deff3777f35a90c50b95019616f164f5e5447da9dddb20cb24d0dc149f614f31",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "sha256": "038669127bdfaba79ff5e36eec8aa994573f92ddda3e7ddc4376982bf36268ca",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/report.json",
+      "sha256": "e907495102a42b4cb4f120fcb816a38e64f8658f079efc7dd1489915dc700e24",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/report.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/report.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+      "sha256": "d28aec9f58ba43b066d3552eee5f8748c07585b07e02fac9d48793e3556517c4",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+      "sha256": "1d314e8f246c6455cde622244d0bbae0290a2e58ac635b924f56908767a20de3",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+      "sha256": "486d2c5b6d220046f1571f6364f979c5b2e1cdbab758c6c1c95231c61c21dc84",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+      "sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/validate.py",
+      "sha256": "230e6e2088e530f2ff7145836ff1881eec1398532daa0f1d3426618378513a6b",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validate.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validate.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_delta.json",
+      "sha256": "4d7a530c2b0f04c424748d5a1bf5e5c80787a4fddb5761e2904c74a2d64cc68b",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_delta.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_delta.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log",
+      "sha256": "196101043a603847c7446c00481f431e9200132c1c1c68505d177a82f814301b",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/focused.log",
+      "sha256": "72ce9ede838894171a3730a2bb9c7d618ff846e209c636711efdcfab0b0d0a52",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/focused.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/focused.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/report.json",
+      "sha256": "85049e59100df6a4c86db2db302aabf871ffe23b939525846c9d36170ca11aa5",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/report.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/report.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/verify.py",
+      "sha256": "73258969dff6adfac20b9b585455e9aca9300a5b16eac038ddedf75f6582518a",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/verify.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/verify.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/pruned/witness.json",
+      "sha256": "e0108e34c6a8d1777d3f80a93fb8037cc0e88524ead011d02cd4cd8f62cb4ea7",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/witness.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/pruned/witness.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/README.md",
+      "sha256": "4d987ac856e9e288f9d98b981c7a4888632a86ef295081b2ab3fdfe020b8e892",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/README.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json",
+      "sha256": "121221ed0ab8d3541a35725ad4e348bb34738f1dbfb2910dd0cb8f9063a1d3bb",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "sha256": "6b95ed640a33081e51714b296b7ee2a6a90a1e688836e887d173df71a8e0e32f",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/validate.py",
+      "sha256": "544d6a5873f464f3ee5875221ef5b53fba90cf2eebe4338e87337a8d492421c5",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validate.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validate.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log",
+      "sha256": "b7d62739621f341a80c61e43d1a7012de1f3533b27c8aa8a761a9c8422d18378",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/report.json",
+      "sha256": "8e36c419e12f4859206b111e95869835321d1bd183020a9a6af3c83beef27374",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/report.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/report.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/rectangular/verify.py",
+      "sha256": "e822185a089342b5fcb8231bf17ac9f0bb9c301993481eea802a36179cd16914",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/verify.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/verify.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -12542,19 +13595,41 @@
     },
     {
       "path": "research/ai/2026-10-23-column-overlap/README.md",
-      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "sha256": "2e956dc1ff4fdccd67a487f500e063a4522425eed283ed0417bb1c841343a014",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
       "source_path": "research/ai/2026-10-23-column-overlap/README.md",
-      "source_blob": "727f867758e7348bb8efb0f1342261b22b77da69",
       "mode": "100644",
-      "sha256": "161ba156c3022223c3ebaa934daf7d39ee8fc4bfbbed00a9a74f30415cb8a9d6",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
       "origins": [
         {
           "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
           "source_path": "research/ai/2026-10-23-column-overlap/README.md",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "research/ai/2026-10-23-column-overlap/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/VALIDATION.md",
+      "sha256": "241e9e911a0a67ebf7ba84881025a695a71fd413370bfb551e1a083d1e3e79f0",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "research/ai/2026-10-23-column-overlap/VALIDATION.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "research/ai/2026-10-23-column-overlap/VALIDATION.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -14557,14 +15632,30 @@
       ]
     },
     {
-      "path": "research/ai/2026-10-23-conjugation-limit/README.md",
-      "source_commit": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
-      "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
-      "source_blob": "aa9134ca70247903b0f63402696e587a2c178563",
-      "sha256": "8852896dc536053ee62c78ec2a0a5cc82b9a56df16f9b18956b29d37c245af69",
+      "path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+      "sha256": "c53f8065fde9cedcb83a533afd3b55c1b2bdb4ddfe1b5f0d0ea1a584c9057996",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
       "mode": "100644",
-      "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs.",
-      "report": "postvalidation_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "sha256": "e798992295b3d5461f02712d2d78fe0f844796a3a3dd8ec89c1ffe2d14563334",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
       "origins": [
         {
           "source_commit": "331801579b19b64f2441a7aab8b566f9d6b02666",
@@ -14577,6 +15668,12 @@
           "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
           "report": "postvalidation_source_resolution.json",
           "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+        },
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -15705,6 +16802,23 @@
         }
       ],
       "report": "balanced_followup_source_resolution.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-torsion/QUESTION.md",
+      "sha256": "bb7f1bd4a310d254ab6f77cdf21bfc1ee7a3a08111a664e98fcddf3cb8403a79",
+      "source_commit": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+      "source_path": "research/ai/2026-10-23-quadratic-torsion/QUESTION.md",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+          "source_path": "research/ai/2026-10-23-quadratic-torsion/QUESTION.md",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
     },
     {
       "path": "research/ai/2026-10-23-quadratic-z-middle/CONTINUATION.md",
@@ -17020,10 +18134,11 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+      "sha256": "5d8b3186a8b729e150c929daf8c0da9bc35796e1a549144c2bc1295f996aeea3",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "reason": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged.",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+      "report": "concurrent_wave_integration_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -17066,9 +18181,252 @@
           "source_path": "research/claims.json",
           "report": "balanced_followup_integration_resolution.json",
           "reason": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/claims.json",
+          "report": "concurrent_wave_integration_resolution.json",
+          "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
         }
-      ],
-      "report": "balanced_followup_integration_resolution.json"
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/certificate.json",
+      "sha256": "b242a3a987a4494b77bcfe4485afe62bb270ac5a479bfa74aa8ff4daab727e35",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/certificate.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/certificate.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/current-main-a510-integration-validation.json",
+      "sha256": "d9f692756a55f78f3f7497b411ec55182e844fecd0b9f2a638a64c9955400ee5",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-a510-integration-validation.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/current-main-a510-integration-validation.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/current-main-a510-metadata-tests.log",
+      "sha256": "62f44c6ff41fe32b10644b25a62e0d2d20870a5cac8bafbd629392f3657272d3",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-a510-metadata-tests.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/current-main-a510-metadata-tests.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/current-main-integration-validation.json",
+      "sha256": "7349304d4c05722c6897f3c69e7444e9aaf8a8a00a4b25e3326a19d2779ffdf3",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-integration-validation.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/current-main-integration-validation.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/current-main-metadata-tests.log",
+      "sha256": "5880e3228258c9b40131f4c3c9ee5953c91d10c96c05732c1779df3afce2a145",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-metadata-tests.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/current-main-metadata-tests.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/integration-focused-tests.log",
+      "sha256": "5ade5cd7c552ff0b6a3a7bcafcc9a2ad01ed473e494f838c29bf013bfe644909",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/integration-focused-tests.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/integration-focused-tests.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/integration-metadata-tests.log",
+      "sha256": "62f44c6ff41fe32b10644b25a62e0d2d20870a5cac8bafbd629392f3657272d3",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/integration-metadata-tests.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/integration-metadata-tests.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/integration-validation.json",
+      "sha256": "48d13d331d1bd5a5905f350c78770a0801f46f4aec76003887b3270eacd6f14b",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/integration-validation.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/integration-validation.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/validation.json",
+      "sha256": "795afe084ff179d7af2ea3776af5f8377fba16b0576e0fc3eb67db95540a72aa",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/validation.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/validation/acceptance.log",
+      "sha256": "32b60e8d43981a4ed96e6eea1db3264f98baa6e6ebfbce75326564e98bb73166",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/acceptance.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/validation/acceptance.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/validation/collect.py",
+      "sha256": "a1443ffefd31190581d437efc6e296909dd23e2431c8216e87986aa1eb097eda",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/collect.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/validation/collect.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/validation/focused-tests.log",
+      "sha256": "73084247ad0dedd960f60e24b268354e44c03fb5f0fc17a2fa4c7dfb95db67da",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/focused-tests.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/validation/focused-tests.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/validation/repository-tests.log",
+      "sha256": "8f9eb43c6d879c7959606bb34990541de57bab8bb9e96c9d1f6d7b6552a631b9",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/repository-tests.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/validation/repository-tests.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-compression-algebra-2026-10-23/verification.json",
+      "sha256": "32b60e8d43981a4ed96e6eea1db3264f98baa6e6ebfbce75326564e98bb73166",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "results/a4-compression-algebra-2026-10-23/verification.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "results/a4-compression-algebra-2026-10-23/verification.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
     },
     {
       "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
@@ -19059,6 +20417,244 @@
           "source_path": "results/column-overlap-2026-10-23/controls.json",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-6e11f7c/focused.log",
+      "sha256": "e02f96718307561a27a869023122a58a462e74a53b35d137fcb3a02c07f2ad05",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/focused.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/focused.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-6e11f7c/inventory.json",
+      "sha256": "f3632de7d16378f02354b3009a4c2b7ac5039da294e7c4b6f18b37ecbb3d0a6a",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/inventory.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/inventory.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-6e11f7c/report.json",
+      "sha256": "33dd196c85b1bd388577191f36a4022cd20957af0d9eb2b063bea857908e8e7c",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/report.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/report.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-6e11f7c/shared.log",
+      "sha256": "7e57a3abb88245685c8c3c3ed5b0dac26a8aafe5852b89866a183d5e16ae0838",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/shared.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/shared.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-a510bec/focused.log",
+      "sha256": "8df4df55fa19ada4630463781aee3faaad46c4bb5e8986cb9b8198a09f38de19",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-a510bec/focused.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-a510bec/focused.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-a510bec/report.json",
+      "sha256": "6b0ab68e031e8514a57a739564fd7a006d749fe074a8cba63511717fb8e12cfa",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-a510bec/report.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-a510bec/report.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/integration-a510bec/shared.log",
+      "sha256": "20d8f281abdd6247182ba2570e175681a329ed29ce2ed5a54b6346e2d1a7f109",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/integration-a510bec/shared.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/integration-a510bec/shared.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/coverage.json",
+      "sha256": "978e7900c6247f3a2fb6b441a94d388e1f37c2ec4845a6e3b828697ef61296d2",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/coverage.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/coverage.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/exact-replay.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/exact-replay.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/exact-replay.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/final-links.log",
+      "sha256": "fc72890dd52015e2020ea447732d681cf3205adb7400f5adfeb46ef2f9af6a5d",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/final-links.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/final-links.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/focused.log",
+      "sha256": "6b79a6d05b613658f7061267cb5f22948be970a1cea22c2f418f1b4fa94d8c5c",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/focused.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/focused.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/metadata.log",
+      "sha256": "a09a584c1a7c7ca1d836ab0db27251b2777bb24b707a19fac5995c200554f4e2",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/metadata.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/metadata.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/report.json",
+      "sha256": "0761ddcd0b2775aea2e74f00573a3db84c1bc0a383b9138b73773a696e03d868",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/report.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/report.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/validation/source-identity.json",
+      "sha256": "3d38ce02807117a863343319a4c8d71744fd6604f2d85e31787773fd87884846",
+      "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_path": "results/column-overlap-2026-10-23/validation/source-identity.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+          "source_path": "results/column-overlap-2026-10-23/validation/source-identity.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -27828,6 +29424,91 @@
       ]
     },
     {
+      "path": "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json",
+      "sha256": "bb41b36b2bff3d7aeb8735b17b1f1364deaf456aa942dc3a8e26cb3cb3fe95d9",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log",
+      "sha256": "9cf9d2fa4c32a60d1ad53f39e518ad1e8a5b37f695605909827a02878cc52a3e",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+      "sha256": "6ac379d30430cbb1f1d75a7ff23dc8e3a003adcbf9145611593bf845a11738f0",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+      "sha256": "9cd37d6004f018b7b6f649b61954478531bb44591b1bf6e9242f2a0b30219c91",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "results/pruned-aggregation-publication-2026-10-23/preservation.json",
+      "sha256": "3416ca7dfe129073176c0381bdf884e9eefeeaa0d124f35b1c7b735cb1e5f3d1",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/preservation.json",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "results/pruned-aggregation-publication-2026-10-23/preservation.json",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
       "path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
       "sha256": "ebb7ca391a014275a3ee6398d34002e9d2f7582b8c29c769c11424aa2a383ac5",
       "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
@@ -31077,6 +32758,23 @@
       ]
     },
     {
+      "path": "tests/test_a4_arbitrary_compression.py",
+      "sha256": "e87d1b1aee09e62307d48e752c13e9994c70bfceab9fd47e05c5bd0e1617e015",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_path": "tests/test_a4_arbitrary_compression.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+          "source_path": "tests/test_a4_arbitrary_compression.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
       "path": "tests/test_a4_coordinate_compressions.py",
       "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
       "source_path": "tests/test_a4_coordinate_compressions.py",
@@ -31142,6 +32840,40 @@
           "source_path": "tests/test_aggregation_families.py",
           "report": "postvalidation_source_resolution.json",
           "reason": "Preserve the exact authored source delta over the already incorporated predecessor. Historical validation receipts and their harness remain source-specific evidence, not a claim that the final consolidated tree passed those earlier runs."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_aggregation_pruned.py",
+      "sha256": "35a1aa1feb7aa9af448fe59d73032acef2972ac70aa9242fb53088263a45379f",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "tests/test_aggregation_pruned.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "tests/test_aggregation_pruned.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_aggregation_rectangular.py",
+      "sha256": "56f2dd18aead545d603c1275bcf3a05656b683a102e9e862c4eaa73c13ec1fd9",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_path": "tests/test_aggregation_rectangular.py",
+      "mode": "100644",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline.",
+      "report": "concurrent_wave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+          "source_path": "tests/test_aggregation_rectangular.py",
+          "report": "concurrent_wave_source_resolution.json",
+          "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
         }
       ]
     },
@@ -33314,8 +35046,8 @@
     },
     {
       "path": "PROVENANCE.md",
-      "resolution_report": "structural_followup_integration_resolution.json",
-      "decision": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+      "resolution_report": "concurrent_wave_docs_resolution.json",
+      "decision": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
     },
     {
       "path": "README.md",
@@ -33324,8 +35056,8 @@
     },
     {
       "path": "STATUS.md",
-      "resolution_report": "balanced_followup_integration_resolution.json",
-      "decision": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
+      "resolution_report": "concurrent_wave_docs_resolution.json",
+      "decision": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
@@ -33339,8 +35071,8 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "resolution_report": "structural_followup_packaging_resolution.json",
-      "decision": "Record171 archived source snapshots,138 names,614 unchanged-status claims and exact1957-test coverage transfer; preserve all earlier published artifacts and cleanup provenance."
+      "resolution_report": "concurrent_wave_integration_resolution.json",
+      "decision": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
     },
     {
       "path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
@@ -33354,8 +35086,8 @@
     },
     {
       "path": "docs/research_directions.md",
-      "resolution_report": "structural_followup_integration_resolution.json",
-      "decision": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+      "resolution_report": "concurrent_wave_docs_resolution.json",
+      "decision": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
     },
     {
       "path": "docs/route-synthesis.md",
@@ -33369,8 +35101,8 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "resolution_report": "structural_followup_integration_resolution.json",
-      "decision": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+      "resolution_report": "concurrent_wave_docs_resolution.json",
+      "decision": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
     },
     {
       "path": "research/ai/2026-10-23-conic-d0-cubic/QUESTION.md",
@@ -33494,8 +35226,8 @@
     },
     {
       "path": "research/claims.json",
-      "resolution_report": "balanced_followup_integration_resolution.json",
-      "decision": "Preserve612 complete records and exactly two source-authored field revisions: balanced rank containment in the structural statement and2050 finite controls in the kernel limitations. Every status and evidence flag remains unchanged."
+      "resolution_report": "concurrent_wave_integration_resolution.json",
+      "decision": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
     },
     {
       "path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
@@ -34614,53 +36346,233 @@
         "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts."
       },
       "reason": "Actual-main and completed source-retirement metadata."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "previous_sha256": "a68f22da7ae0c30e6d6737fe6a8a0f4eb3dcb06144b92dfebe951c296b12847e",
+      "previous_report": "nextwave_source_resolution.json",
+      "final_sha256": "cc17be7afa9aa8e2b295f73056526f701714d9c23175b3870c1d2963c326325a",
+      "final_report": "concurrent_wave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "previous_sha256": "82a6510cd07eff10e06ebf05c5e1bb76dd73aa31270ddc99a831ffa4499f26f6",
+      "previous_report": "nextwave_source_resolution.json",
+      "final_sha256": "af3de759712aa2aa25bbe62a05ae42df115c31b9d77a9aef955179a321add722",
+      "final_report": "concurrent_wave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "previous_sha256": "6f80132acf524035f1d268346a0253ce530bac8729ebd71cd29033603ea87bcd",
+      "previous_report": "nextwave_source_resolution.json",
+      "final_sha256": "b8991e20409e74deb7d4b4bc8a16cc1b388ba638370355246e86f28ad7645ddf",
+      "final_report": "concurrent_wave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+    },
+    {
+      "path": "research/ai/2026-10-23-aggregation-families/README.md",
+      "previous_sha256": "c7550a1dc45fccace1ed0c85305ed1f3012191eba737f52925a9cb01d6ef0fcd",
+      "previous_report": "postvalidation_source_resolution.json",
+      "final_sha256": "fa9d2273e4c16d3287705a98a7d016b912ac75cdc6151e0a173f4ab07521151f",
+      "final_report": "concurrent_wave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/README.md",
+      "previous_sha256": "161ba156c3022223c3ebaa934daf7d39ee8fc4bfbbed00a9a74f30415cb8a9d6",
+      "previous_report": "nextwave_source_resolution.json",
+      "final_sha256": "2e956dc1ff4fdccd67a487f500e063a4522425eed283ed0417bb1c841343a014",
+      "final_report": "concurrent_wave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "previous_sha256": "8852896dc536053ee62c78ec2a0a5cc82b9a56df16f9b18956b29d37c245af69",
+      "previous_report": "postvalidation_source_resolution.json",
+      "final_sha256": "e798992295b3d5461f02712d2d78fe0f844796a3a3dd8ec89c1ffe2d14563334",
+      "final_report": "concurrent_wave_source_resolution.json",
+      "reason": "Preserve exact authored source leaf bytes; existing imported content is already retained from the published baseline."
+    },
+    {
+      "path": "STATUS.md",
+      "previous_sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "previous_report": "balanced_followup_integration_resolution.json",
+      "final_sha256": "a452d72199e906b9b35303498f67d43ff749f3c95ad2db26f8b9adb593d23406",
+      "final_report": "concurrent_wave_docs_resolution.json",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "previous_sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+      "previous_report": "structural_followup_integration_resolution.json",
+      "final_sha256": "dcac9d9d60d4adfa8b6d5e7e3cb0853d134268b1134442df5d816a71c4327c0f",
+      "final_report": "concurrent_wave_docs_resolution.json",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "previous_sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
+      "previous_report": "structural_followup_integration_resolution.json",
+      "final_sha256": "cab085f0f935139401f4fe14fcd5088537c053b168f984aa4b80188402112efe",
+      "final_report": "concurrent_wave_docs_resolution.json",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "previous_sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
+      "previous_report": "structural_followup_integration_resolution.json",
+      "final_sha256": "f201d9a7373e5d461f43f1079ea11360c3e1d7cd865d3096cbf70c934bf13703",
+      "final_report": "concurrent_wave_docs_resolution.json",
+      "reason": "Minimal source-attributed prose union over the exact published baseline; superseded constant-compression open questions updated, all unrelated later qualifications retained."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "previous_sha256": "3bcf4cd9a6fdc2fb6c7e2747c94647d823d396665b673bcf1728e053aa4b738e",
+      "previous_report": "balanced_followup_packaging_resolution.json",
+      "final_sha256": "6ad22db2f69c831ff88917a7128055dfecc63afe42ced3cac649012a2281013f",
+      "final_report": "concurrent_wave_integration_resolution.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "c887305be4554454e989ef8845b166dd363093e11fa120e508fa629912a1916c",
+      "previous_report": "main_a510_packaging_resolution.json",
+      "final_sha256": "e4f44b422866d1ea628d3dda888f0336796239e4e090fdf93e93da12dc3690b1",
+      "final_report": "concurrent_wave_integration_resolution.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "previous_sha256": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
+      "previous_report": "balanced_followup_packaging_resolution.json",
+      "final_sha256": "042c2e886ddc364a4ea20034723ad28383bc3f81edbf0e8897b1c3d2c5185f56",
+      "final_report": "concurrent_wave_integration_resolution.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+      "previous_report": "balanced_followup_integration_resolution.json",
+      "final_sha256": "5d8b3186a8b729e150c929daf8c0da9bc35796e1a549144c2bc1295f996aeea3",
+      "final_report": "concurrent_wave_integration_resolution.json",
+      "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "sha256": "402d466f79fed9a8b33b6c795a477b74ef063a8f84a93157afe23e9276d25bea",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+        "report": "main_a510_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "sha256": "ad046a7af464e38d97fb74475312da68b039791640f81b1e342391c9b8d1f86f",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes."
+      },
+      "reason": "Explicit final evidence-only publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/README.md",
+        "sha256": "d15e11729e9bc832864bf224e7f98dd159cd4ad322c6c984d93473136b7487b4",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/README.md",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+        "report": "balanced_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/README.md",
+        "sha256": "dd0fe752bb8b131c27ac9970419650df7db6dc7a3265cfaa2a48c7f8217b24e6",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/README.md",
+        "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes."
+      },
+      "reason": "Explicit final evidence-only publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/branches.json",
+        "sha256": "e4f44b422866d1ea628d3dda888f0336796239e4e090fdf93e93da12dc3690b1",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/branches.json",
+        "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged.",
+        "report": "concurrent_wave_integration_resolution.json",
+        "origins": [
+          {
+            "source_commit": null,
+            "source_path": "docs/consolidation/2026-10-23/branches.json",
+            "report": "concurrent_wave_integration_resolution.json",
+            "reason": "Preserve complete captured source and review metadata; maintain619 records with source-exactfive additions and two scoped limitations revisions, all existing status flags unchanged."
+          }
+        ]
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/branches.json",
+        "sha256": "e635aad23acbdf3793e318f586b3edb7e98b18b7ee5344ab2cf765ce79aea7ca",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/branches.json",
+        "reason": "Final176-source metadata packaging with exact historical revision scopes,21 passing checks and1,980-test composite coverage; no tested active input changes."
+      },
+      "reason": "Explicit final evidence-only publication update."
     }
   ],
   "inputs": {
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_output/prior_manifest.42363c18.json": "1fca39b39e09174e4aee905ee6d3879478e985835c561b5c5de1b04fdba3a202",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/late_merge_log.json": "4809f837cf708b5b82915b5cf7ae7e24337df998af753d05c03686bff9032198",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/receipt_merge_log.json": "4cd11a319dfd6d6ecc623ddcf78466182aff6656312251e5c6cf1eac22c791cf",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/postvalidation_merge_log.json": "9f1020f24f658b6c348bcd3bbe7812dc623fe0876b876effca6201c483c7a277",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/structural_followup_merge_log.json": "a1d0c72b5b1dfda21dedffc9e3b6262546348004fac0fe706882aa279293328a",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_merge_log.json": "597e1ea3142fd42fa449164b7b78640b07b103c5e88b4790b77af5275cdb4191",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_source_resolution.json": "658b6db33414b3c954d1aa473e85b67fc7bbbcd5b5510cc9cec6a0b19f298f0d",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_resolution.json": "dbaab1952d2d5294b65945182e59d15e764d22eb2192a865991930d3480ff557",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_integration_resolution.json": "9d6041e12f4aa6bb7be22a5e0702fb091ba6ae41935863821294758ce07f8d59",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_pin_resolution.json": "32b89bebd77e74e628bca0704110cdaad049cf6b155921f3c3215906b241e28d",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_output/resolution_report.json": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
-    "balanced_followup_packaging_resolution.json": "afe38f082612fe733e29e396a237a4366fb2771d9756ab4ccbcf1be35dba1524",
-    "main_a510_packaging_resolution.json": "3d1c551c766e19d2533b8ac4fadc5bbe21a7debd228723d39a29a71f50b84dae"
+    "git:6b57043164f7d534b858507a37f64fdfda38f29f:docs/consolidation/2026-10-23/central_resolution_manifest.json": "a583ea1cc60b9ff6549bcdfd0c442e5a9860474bc28c53587dd43d787f69f8b5",
+    "merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
+    "catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
+    "final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
+    "late_merge_log.json": "4809f837cf708b5b82915b5cf7ae7e24337df998af753d05c03686bff9032198",
+    "receipt_merge_log.json": "4cd11a319dfd6d6ecc623ddcf78466182aff6656312251e5c6cf1eac22c791cf",
+    "postvalidation_merge_log.json": "9f1020f24f658b6c348bcd3bbe7812dc623fe0876b876effca6201c483c7a277",
+    "closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
+    "nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
+    "nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
+    "main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
+    "concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
+    "live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
+    "main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
+    "quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930",
+    "structural_followup_merge_log.json": "a1d0c72b5b1dfda21dedffc9e3b6262546348004fac0fe706882aa279293328a",
+    "balanced_followup_merge_log.json": "597e1ea3142fd42fa449164b7b78640b07b103c5e88b4790b77af5275cdb4191",
+    "concurrent_wave_merge_log.json": "7d1d4eab70e71436e9bb6bb14e8caf64f4f62eb5c061546126cab6e20600b16c",
+    "concurrent_wave_source_resolution.json": "f96add7092e0808589466893d40f82a0283a1dc2e8d08ad180f9867afcf025c6",
+    "concurrent_wave_docs_resolution.json": "63e3c64862b4925fe1b70e4e47dadcdf23be5e8c5c485a5dba024171f0fb2457",
+    "concurrent_wave_integration_resolution.json": "914a44977643aff5f9baa5536da8fdf6a1e224aaa9525009dc5c1ed9861ca33d",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_claims_output/resolution_report.json": "042c2e886ddc364a4ea20034723ad28383bc3f81edbf0e8897b1c3d2c5185f56",
+    "concurrent_wave_packaging_resolution.json": "218520138e19c4ed69cf389577e22476314ac897b258b826676fa3e43ce84caf"
   },
-  "method": "Preserve every prior reviewed resolution,612 unchanged claim records and all614 status flags. Apply the exact two authored claim fields and source-exact extended verifier/test/control/proof bytes, with one explicit context README digest repair and exact originals retained.",
+  "method": "Preserve every earlier source and resolution; apply78 exact authored leaf paths, four independently reviewed shared narratives, five exact unreviewed claims and two authored limitations revisions. All614 existing status flags remain unchanged; imported older variants do not replace current corrections.",
   "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
   "concurrent_integration_correction": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
-  "topic_source_snapshots": 172,
-  "topic_branch_names": 138,
+  "topic_source_snapshots": 176,
+  "topic_branch_names": 142,
   "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs.",
-  "prior_reviewed_union": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+  "prior_reviewed_union": "6b57043164f7d534b858507a37f64fdfda38f29f",
   "current_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
   "concurrent_remote_history": "434178af88a16a3d13e9db60dd97453207dbf2b2",
   "latest_source": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
   "final_packaging": {
-    "source_audited_head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
-    "tested_active_head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
-    "previous_published_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
-    "prior_metadata_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
-    "only_changed_directory": "docs/consolidation/2026-10-23/",
-    "output_hashes_checked": true,
+    "source_audited_head": "eff2efe5c9c668c8d2d570c1d749d2ab32afbe23",
+    "tested_active_head": "eff2efe5c9c668c8d2d570c1d749d2ab32afbe23",
+    "previous_published_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
     "current_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
-    "prior_candidate": "12249713f5b347fcaff3de333147243615440280"
+    "only_changed_directory": "docs/consolidation/2026-10-23/",
+    "output_hashes_checked": true
   },
-  "current_main_reconciliation": "main_a510_merge_log.json"
+  "current_main_reconciliation": "main_a510_merge_log.json",
+  "latest_sources": [
+    "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+    "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+    "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+    "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+  ]
 }

@@ -1,18 +1,18 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-23T18:43:03.243698+00:00",
-  "head": "98c34d5ca99fc7e50c2e3101e34e579f663b4e2f",
+  "checked_at": "2026-10-23T19:12:35.166121+00:00",
+  "head": "eff2efe5c9c668c8d2d570c1d749d2ab32afbe23",
   "mode": "commit",
-  "source_heads_checked": 173,
-  "distinct_source_heads": 173,
-  "archive_tag_receipts_checked": 172,
+  "source_heads_checked": 177,
+  "distinct_source_heads": 177,
+  "archive_tag_receipts_checked": 176,
   "historical_archive_files": 18,
-  "source_added_paths": 3197,
-  "source_added_blob_variants": 3241,
-  "resolved_outputs_checked": 1538,
+  "source_added_paths": 3268,
+  "source_added_blob_variants": 3330,
+  "resolved_outputs_checked": 1655,
   "provisional_conflicts_covered": 43,
-  "original_unique_claim_ids": 609,
-  "final_claim_ids": 614,
+  "original_unique_claim_ids": 614,
+  "final_claim_ids": 619,
   "source_registry_ids": 54,
   "errors": [],
   "source_addition_representation": [
@@ -22705,12 +22705,635 @@
       "output_paths": [
         "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md"
       ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_blob": "96fbca5b62c03cff0decd46b4d77e7419004b9af",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/README.md",
+      "source_blob": "f80685c2429280c6a563eec7d6bfa2f626ba2451",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/VALIDATION.md",
+      "source_blob": "86fe276bcf9188155b9c6641244bfb2a948a18a2",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/VALIDATION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/discover.py",
+      "source_blob": "0c5e3c9e43f77d64b10070698172f8946b6ee004",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/discover.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+      "source_blob": "197a1595140d9b5f4a524c87b1293755750ff8af",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/sources.json",
+      "source_blob": "985fd28c53ea60404fbbee7ed660e025b63617e0",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/verify.py",
+      "source_blob": "d4fe3642e7cb5e29a28011f5eca3de6fcc622517",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/verify.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_blob": "e886d664ffb3817ab3c98359b2e1478805b094e0",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_blob": "c4205a690f8722d7add055e6d0ab4d6246a67a23",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+      "source_blob": "1e658be0e3aa00eb67297d1098f54ee44a5f2a48",
+      "output_paths": [
+        "research/ai/2026-10-23-conjugation-limit/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-conjugation-limit/README.md",
+      "source_blob": "a4c79ffcfe4b38ec8df74f30625d05686f06ec6b",
+      "output_paths": [
+        "research/ai/2026-10-23-conjugation-limit/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "source_blob": "705fa96b2405266ef2cf265c6d9d6b06ec11e5ff",
+      "output_paths": [
+        "research/ai/2026-10-23-conjugation-limit/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-conjugation-limit/sources.json",
+      "source_blob": "f2ba02fe3afdc265a7071e8bcefa92c15f2c5f13",
+      "output_paths": [
+        "research/ai/2026-10-23-conjugation-limit/sources.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/certificate.json",
+      "source_blob": "acaf4e4cbddd7c9c51163d7cb3fbcb4b00415d8a",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/certificate.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-a510-integration-validation.json",
+      "source_blob": "857ea45dc0e49e16a49fb42e23dfc05a0269970c",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/current-main-a510-integration-validation.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-a510-metadata-tests.log",
+      "source_blob": "e735788bfa89013565c9992d436ff892019ccff3",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/current-main-a510-metadata-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-integration-validation.json",
+      "source_blob": "7d75c6d1a3e81892b0887c404066c73a5b540f31",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/current-main-integration-validation.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/current-main-metadata-tests.log",
+      "source_blob": "625f2103fc1c3c60831f7e9ff13304c244b32617",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/current-main-metadata-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/integration-focused-tests.log",
+      "source_blob": "559d0041436a801d8049bb77dc87187d83b56d72",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/integration-focused-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/integration-metadata-tests.log",
+      "source_blob": "e735788bfa89013565c9992d436ff892019ccff3",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/integration-metadata-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/integration-validation.json",
+      "source_blob": "3dcdff90cc5b5c115d5fd1e34739a79367afe3c5",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/integration-validation.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation.json",
+      "source_blob": "5a469c929079a5187470912a361966a1c3d35b54",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/validation.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/acceptance.log",
+      "source_blob": "194d6965e18c52c2d923bcaa4418d238c4d80cbb",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/validation/acceptance.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/collect.py",
+      "source_blob": "babe440abcde7d0d9f7c316e479d2a8805ba5db3",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/validation/collect.py"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/focused-tests.log",
+      "source_blob": "d4d4f10ca7865b72a836ea7a35209ef0c6355145",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/validation/focused-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/validation/repository-tests.log",
+      "source_blob": "61ecd4b151e1aa40c0113a15458a2b1c33f8304a",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/validation/repository-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-compression-algebra-2026-10-23/verification.json",
+      "source_blob": "194d6965e18c52c2d923bcaa4418d238c4d80cbb",
+      "output_paths": [
+        "results/a4-compression-algebra-2026-10-23/verification.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_a4_arbitrary_compression.py",
+      "source_blob": "ecf45932d59f053fbc06c90d328f199f20cdd078",
+      "output_paths": [
+        "tests/test_a4_arbitrary_compression.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-column-overlap/VALIDATION.md",
+      "source_blob": "374b87c1b27047c54154c792bf6668b8529250cb",
+      "output_paths": [
+        "research/ai/2026-10-23-column-overlap/VALIDATION.md"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/focused.log",
+      "source_blob": "bc17a8e83a9d84eb2d2db56bacf39f14bba17151",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-6e11f7c/focused.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/inventory.json",
+      "source_blob": "f1d4c9efef78ca9eb3b42c699c7fc757dd6c1511",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-6e11f7c/inventory.json"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/report.json",
+      "source_blob": "5b1edd922e8d4d6465e552a5db17507cc0d9c0c9",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-6e11f7c/report.json"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-6e11f7c/shared.log",
+      "source_blob": "5fb3b77001c742c160f2da6917135308324c8438",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-6e11f7c/shared.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-a510bec/focused.log",
+      "source_blob": "50485dedcc7bd880e5014468e1a469766d1810c8",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-a510bec/focused.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-a510bec/report.json",
+      "source_blob": "c20e4a9492f3ef4544a1fb76f0f8e8abcfcc543d",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-a510bec/report.json"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/integration-a510bec/shared.log",
+      "source_blob": "1d311823794aefacc65cfd349714c9ee99b8dfac",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/integration-a510bec/shared.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/coverage.json",
+      "source_blob": "4533a35941c0d866387e1f04629e5ca62844b548",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/coverage.json"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/exact-replay.log",
+      "source_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/exact-replay.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/final-links.log",
+      "source_blob": "eb235eeff5e84d8e595ed560c6e9e87bb2f38e05",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/final-links.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/focused.log",
+      "source_blob": "a12169069bbc5ef06cbd01f35f95038a400eef13",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/focused.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/metadata.log",
+      "source_blob": "0d20e8be59148e3512dda2638b4e3404ca8bc3d3",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/metadata.log"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/report.json",
+      "source_blob": "7c67a440c99117cd5c8261e858604dd71a9ef7a1",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/report.json"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/validation/source-identity.json",
+      "source_blob": "87a11325fc077853649e5ab070c720b418ac4672",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/validation/source-identity.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/QUESTION.md",
+      "source_blob": "04393acf1a0578117bf755f46fa99198d6b80d42",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/README.md",
+      "source_blob": "551396563cca69b1fcc6638b2f1f8e33c4f891a3",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/cost_floor.json",
+      "source_blob": "279bb8c39a91452661a9c2a3406ac51eb544132a",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/cost_floor.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+      "source_blob": "930778a597483f310977bb615bf6146a7b51c744",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/cost_floor.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/proof.md",
+      "source_blob": "8d000283c9e19bf17e4ae92e38c4f434e76e137d",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/README.md",
+      "source_blob": "37f7ac38c18b91868512115fb41fbd14bca5dae2",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/README.md",
+      "source_blob": "5702ef2abd17ff89a6ac1b55759b2201b4dc10c2",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/discovery/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/dimension_profiles.json",
+      "source_blob": "492c4b4983f429d64992dc00cd845662c53437fd",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/discovery/dimension_profiles.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/explore.py",
+      "source_blob": "335d8773fef154fa00144a40d619ef287e424342",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/discovery/explore.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/metadata.json",
+      "source_blob": "46b0ec9099837cc2926cea0fb9bcb141ea87be8d",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/discovery/metadata.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.json",
+      "source_blob": "34a2399e5289a0b6cddeb7e84f67698867f3429a",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.py",
+      "source_blob": "a52cb6912bc8147681d1556c52cdd68292d9e7e0",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "source_blob": "07c5715d4b6278db2e662c7775ed1e82d0776134",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/report.json",
+      "source_blob": "4db1a3e6a01d0092b27ba19dc9e1c1b36a9d72e6",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/report.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+      "source_blob": "3ecb6955e2893cfce854551540fa6a0d6d2d4f09",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+      "source_blob": "12e53f573e006639ea359629bbc8d566d9ffb9a1",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+      "source_blob": "3d812e6fcbee432e452c053ca58ee3bfb9b61686",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+      "source_blob": "f1345503cc3536d7bbadeb8d0f99642845cfc0cc",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validate.py",
+      "source_blob": "b2000ad1499f89804faaeb189c6d8a856588bb8a",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/validate.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_delta.json",
+      "source_blob": "67ab46bb82a408da64c201c322ec34ecdb5a36e3",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_delta.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log",
+      "source_blob": "1c8a5880ceedc9cbc58cf2e4a28947261fba7421",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/focused.log",
+      "source_blob": "a11b337c47448c32962571561b3fd1269b7099cf",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/validation/focused.log"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/validation/report.json",
+      "source_blob": "7867cdee662a65d5011c173f224f9bcddab3baf1",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/validation/report.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/verify.py",
+      "source_blob": "541de396d3d162c22ae4bffe5fbdcfe36010c0d8",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/verify.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/pruned/witness.json",
+      "source_blob": "a8b83aa3399bc1ef3df37e1f906f8797ba02b3b2",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/pruned/witness.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/README.md",
+      "source_blob": "987e9393fab9a17ec899828481556d3edab4636c",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json",
+      "source_blob": "8ff006f1bea97582f5100a629c413c7b6016c940",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "source_blob": "fc1966c7449643e2609852d425f4d975effa66f4",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validate.py",
+      "source_blob": "cbbf9f73c376075fb7e209f9d42b3f3c44c89495",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/validate.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log",
+      "source_blob": "3ca71674bab363816730d392b0f032c47afed608",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/report.json",
+      "source_blob": "568f1380c299ae1438e7100e5c36cc960e98276e",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/validation/report.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/rectangular/verify.py",
+      "source_blob": "88d9ec729eaaf0f18fc1e8ec90d288ccb8ac2bd6",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/rectangular/verify.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "source_blob": "9ce7c64036ab7b69fa45c125f1ab5be4fa180c11",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/validation.json",
+      "source_blob": "54d1f8ec981640e6e65a47c6e37ff7277ce90951",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/validation.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/verification_report.json",
+      "source_blob": "ceaf2503a4beeb6c4d49004e9a1b21a5488957a0",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/verification_report.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/verify.py",
+      "source_blob": "485c17d24c038f3b604b02de7c2d762bd07231d8",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/verify.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-aggregation-families/witness_29.json",
+      "source_blob": "47b35f126e8bd9abfeef0271540d0ff368f2b7b6",
+      "output_paths": [
+        "research/ai/2026-10-23-aggregation-families/witness_29.json"
+      ]
+    },
+    {
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json",
+      "source_blob": "0cce52faaef2b7050b0a23dcf010a5a5be73eef3",
+      "output_paths": [
+        "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json"
+      ]
+    },
+    {
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log",
+      "source_blob": "7ac07b1170a90c15ae2165c8450b9166985d5d3c",
+      "output_paths": [
+        "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log"
+      ]
+    },
+    {
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+      "source_blob": "e4ef551e6c91bd30fda1c3ca161ff175f8beaa1c",
+      "output_paths": [
+        "results/pruned-aggregation-publication-2026-10-23/metadata.json"
+      ]
+    },
+    {
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+      "source_blob": "258e7f023c6dfc88b0584c563df15147c5462fdb",
+      "output_paths": [
+        "results/pruned-aggregation-publication-2026-10-23/metadata.log"
+      ]
+    },
+    {
+      "source_path": "results/pruned-aggregation-publication-2026-10-23/preservation.json",
+      "source_blob": "761506d21c401f994632e3b4a1ceae82553fbe59",
+      "output_paths": [
+        "results/pruned-aggregation-publication-2026-10-23/preservation.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_aggregation_families.py",
+      "source_blob": "5df79aac8a53f3fd09830c0e75d32839bd3f9c99",
+      "output_paths": [
+        "tests/test_aggregation_families.py"
+      ]
+    },
+    {
+      "source_path": "tests/test_aggregation_pruned.py",
+      "source_blob": "213c2b37f5aebc06a424d75e11bd396ee008d8fa",
+      "output_paths": [
+        "tests/test_aggregation_pruned.py"
+      ]
+    },
+    {
+      "source_path": "tests/test_aggregation_rectangular.py",
+      "source_blob": "9929aa5173af02e0aad750675d514c5649cae042",
+      "output_paths": [
+        "tests/test_aggregation_rectangular.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-quadratic-torsion/QUESTION.md",
+      "source_blob": "d716ffb13cc7cfc0752788aa8bd961ab4022cfcc",
+      "output_paths": [
+        "research/ai/2026-10-23-quadratic-torsion/QUESTION.md"
+      ]
     }
   ],
   "inputs": {
     "/workspace/scratch/5e4a124ebf61/consolidation/snapshot.json": "6b5599cb1d2b03f7bdcffc86fea4422c4d225a3021bdabb6f3a256e1dccaccfa",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_output/resolution_report.json": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_resolution_manifest.json": "f358e7732dca01d0edc175e3f6704689a3f753b837b847b758cf5d5be7bdb6f8",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_claims_output/resolution_report.json": "042c2e886ddc364a4ea20034723ad28383bc3f81edbf0e8897b1c3d2c5185f56",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_resolution_manifest.json": "7bc56d21c00bda419ea1ddbafa3e9b21bbdd2900f38dc78199d9e6c8a627cf1a",
     "/workspace/scratch/5e4a124ebf61/consolidation/provisional_conflicts.json": "0a7d4d2f4adbb3aeb5f9aa7f5e9197cfff4f1b41b3c484ac635d4041619c20d5",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_plan.json": "bdedd383c37c9316ca01e7dedd659eee7781e69f2fb9039bf2c6e192f56ec6db",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_plan.json": "cd36220f0b7612db5b20e4a7421415cb9d78e910efb0f815f48005dc33d085a5",
@@ -22724,6 +23347,7 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_plan.json": "ea643baf0c090db0a68a8e5b8e92451f477308ba55a957f88706d096e9802cf7",
     "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_plan.json": "9f0708517ac003d92a6755d0a9f172765c75abd47d62340a3f595be5d0321010",
     "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_plan.json": "7cb3901471981ff4cc268bc19232b9ba261dd09aa17f0d2a323853a1317703a7",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_plan.json": "924dba3b28f569ff69f2630b69c48b064d7d5f5bf0cce2dcacd06161e45456e0",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_tags.json": "85458c71ffcfff40553f108ad2ad39cb5bc8ad0fff0b757e3ada06a5140949b8",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_update_tags.json": "9793046accccb79e9f1180ffbd41b17f9d24ac301cf9ef48d8fc684af4c93e30",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_final_tags.json": "aaa78b21b8423e7330f642c6f19f4a2c355f9bbd1f68e73146539b5b50395815",
@@ -22737,6 +23361,7 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_quadratic_c7.normalized.json": "ba85617cea7c9c6dfe519f74efb2c47f431dbf53d413428c7bcbeb1486ef80ac",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_quadratic_80bd.normalized.json": "16a6a0d329af4f118567d21b7cf2ee790f1eb752935c91367e3ba8f171558532",
     "/dev/shm/matrix-consolidation-5e4a124ebf61/archive_quadratic_f006.normalized.json": "24bc10d23337b7616afc33a65b0383c7dd3563ccd662a089ca5a6fe53847f506",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/archive_concurrent_wave_tags.normalized.json": "a85659f139efaeffaedd9ca129beb333ef4ec7485a888b417beceaaad20918c8",
     "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
@@ -22752,7 +23377,8 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
     "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930",
     "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_merge_log.json": "a1d0c72b5b1dfda21dedffc9e3b6262546348004fac0fe706882aa279293328a",
-    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_merge_log.json": "597e1ea3142fd42fa449164b7b78640b07b103c5e88b4790b77af5275cdb4191"
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_merge_log.json": "597e1ea3142fd42fa449164b7b78640b07b103c5e88b4790b77af5275cdb4191",
+    "/dev/shm/matrix-consolidation-5e4a124ebf61/concurrent_wave_merge_log.json": "7d1d4eab70e71436e9bb6bb14e8caf64f4f62eb5c061546126cab6e20600b16c"
   },
   "limits": [
     "Checks ancestry, exact archived bytes, file representation, declared resolution hashes, and ledger provenance; it does not establish mathematical correctness.",
