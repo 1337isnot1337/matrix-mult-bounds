@@ -1,4 +1,4 @@
-"""Acceptance and tamper controls for the exact 29-product construction."""
+"""Acceptance and tamper controls for the exact aggregation constructions."""
 import copy
 import importlib.util
 import json
@@ -6,6 +6,7 @@ from pathlib import Path
 import unittest
 from tempfile import TemporaryDirectory
 from math import comb
+from itertools import combinations, permutations, product
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "research/ai/2026-10-23-aggregation-families"
@@ -108,17 +109,41 @@ class AggregationFamilyTests(unittest.TestCase):
 
     def test_all_size_cost_floor_integer_receipt(self):
         report = json.loads((PACKAGE / "cost_floor.json").read_text())
-        self.assertEqual([row["N"] for row in report["rows"]], list(range(1, 9)))
+        self.assertEqual([row["N"] for row in report["rows"]], list(range(1, 12)))
         for row in report["rows"]:
             n = row["N"]
-            cap = comb(3*n, n)
+            choices, degree = comb(3*n, n), comb(2*n, n)
+            cap = (2*choices*degree) // (3*degree-1)
             left, right = cap**4 * 3**(9*n), 4**(12*n)
-            self.assertEqual(row["distinct_part_product_cap"], cap)
+            self.assertEqual(row["distinct_part_product_cap"], choices)
+            self.assertEqual(row["full_hypergraph_vertex_degree"], degree)
+            self.assertEqual(row["full_hypergraph_edges"], choices*degree)
+            self.assertEqual(row["induced_matching_product_cap"], cap)
+            self.assertEqual(row["cap_fourth_power_times_3_power_9N"], left)
             self.assertEqual(row["strict_cost_floor_margin"], right-left)
-            self.assertEqual(row["excluded_by_this_cost_floor"], n <= 7)
+            self.assertEqual(row["excluded_by_this_cost_floor"], n <= 10)
             threshold = row["minimum_integer_products_above_cost_floor"]
             self.assertLess((threshold-1)**4 * 3**(9*n), right)
             self.assertGreater(threshold**4 * 3**(9*n), right)
+
+    def test_induced_edge_hypothesis_and_sharp_n1_control(self):
+        # Enumerate the actual six edges on three coordinates. Distinctness
+        # alone allows three products; the full mixed-edge condition does not.
+        edges = list(permutations(range(3)))
+        largest = 0
+        distinct_but_conflicting = 0
+        for size in range(1, 4):
+            for family in combinations(edges, size):
+                parts = [set(edge[axis] for edge in family) for axis in range(3)]
+                if any(len(part) != size for part in parts):
+                    continue
+                induced = {edge for edge in product(*parts) if len(set(edge)) == 3}
+                if induced == set(family):
+                    largest = max(largest, size)
+                elif size == 3:
+                    distinct_but_conflicting += 1
+        self.assertEqual(largest, 2)
+        self.assertGreater(distinct_but_conflicting, 0)
 
 
 if __name__ == "__main__":

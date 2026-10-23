@@ -1,0 +1,24 @@
+{
+  "code_matches_commit": "7636f7a4b1c84032a32ea03cb17b33b50ebeb7e5",
+  "code_tree": "7a0366ec53aa96e44f1c1a3073fd3a04a01a6c88",
+  "tests": 12,
+  "runtime_seconds": 41.322,
+  "test_ids": [
+    "test_aggregation_families.AggregationFamilyTests.test_106_exact_shifted_cost_comparison",
+    "test_aggregation_families.AggregationFamilyTests.test_106_full_rank_one_positions_over_f2",
+    "test_aggregation_families.AggregationFamilyTests.test_106_product_complete_exact_certificate",
+    "test_aggregation_families.AggregationFamilyTests.test_actual_rank_one_realization_over_prime_field",
+    "test_aggregation_families.AggregationFamilyTests.test_all_size_cost_floor_integer_receipt",
+    "test_aggregation_families.AggregationFamilyTests.test_complete_exact_certificate",
+    "test_aggregation_families.AggregationFamilyTests.test_external_baseline_and_uniform_cost_improvement",
+    "test_aggregation_families.AggregationFamilyTests.test_external_source_hash_is_enforced",
+    "test_aggregation_families.AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control",
+    "test_aggregation_families.AggregationFamilyTests.test_missing_required_correction_is_rejected",
+    "test_aggregation_families.AggregationFamilyTests.test_repeated_product_is_rejected",
+    "test_aggregation_families.AggregationFamilyTests.test_understated_cost_is_rejected"
+  ],
+  "test_module_sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
+  "log_sha256": "50451709aa3e7d96212c1823f68815865c183f9db27be2d929417f2bbfe6b037",
+  "log": "costgate-focused.log",
+  "origin": "Root executed the final cost-gate focused module before committing its matching tree; copied complete output without rerunning the tests."
+}

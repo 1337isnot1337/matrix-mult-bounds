@@ -316,8 +316,8 @@ tensor coefficients. The earlier 29-product control instead uses F101
 and 8-by-8 products. The uniform proof remains the coordinate identity.
 
 The separate [size gate](cost_floor.md) applies to **every** balanced
-conflict-free family with N<=7 whose stated budget charges the complete
+conflict-free family with N<=10 whose stated budget charges the complete
 leading aggregate (n+1)^(3N), even if it has no corrections. Thus neither
 small-N construction can cross 9/4 just by increasing its number of
-products within that model. The N>=8 condition is necessary only; it
+products within that model. The N>=11 condition is necessary only; it
 supplies neither a large family nor an improved exponent.

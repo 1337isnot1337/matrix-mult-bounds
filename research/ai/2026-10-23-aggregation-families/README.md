@@ -18,10 +18,10 @@ No optimal rank or historical priority is claimed.
 
 These are positive tensor constructions with complete uniform costs.
 They do not improve omega below 9/4. An exact [size gate](cost_floor.md)
-shows that no balanced conflict-free family with N<=7 can cross that
+shows that no balanced conflict-free family with N<=10 can cross that
 threshold while charging the complete (n+1)^(3N) leading aggregate.
 This concerns a displayed upper-bound certificate; it is not a lower
-bound on tensor rank. N>=8 is necessary for this particular cost model,
+bound on tensor rank. N>=11 is necessary for this particular cost model,
 not sufficient. No polynomial-source restriction, independent
 mathematical review, or formalization is supplied.
 
@@ -56,8 +56,10 @@ combinatorial certificate plus the written all-n coordinate identity.
 All maintained acceptance tools use only the Python standard library.
 Tests enforce the advertised product counts, reject altered source
 bytes, remove a required correction, and understate a cost. Saved reports
-record their exact scopes. `validation.json` distinguishes the final
-focused tests from the older full-suite run launched before these updates.
+record their exact scopes. `validation.json` and the complete
+[validation receipts](validation/README.md) account for all 909 discovered
+tests through the cost-gate refinement. They distinguish the preserved
+baseline successes, final focused tests, and recorded remaining shards.
 
 ## Optional discovery reproduction
 
