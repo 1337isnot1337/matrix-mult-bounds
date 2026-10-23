@@ -2,6 +2,25 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [rank91 core theorem](../research/ai/2026-10-23-rank91-core/proof.md)
+forces mixed balanced pair sums at most 133 and total leading rank at
+most 198. It retains the long-pair bound 136, all frozen202 exclusions,
+and the implication that short rank 100 forces each long rank at most
+28. Arbitrary complex kernels, higher coefficients and finite Laurent
+poles on the remaining map are allowed. The two surviving total-198
+integer triples are (62,66,70) and (62,70,66); neither constructs a
+target presentation. The new source cap is 67 strictly below rank 91,
+without a sharpness claim.
+
+A bounded next question concerns the long pair (66,70). Its cancellation
+kernel must have dimension at least 64 and uniform slice rank at most
+88, with compression defects (46,42). The existing 64-dimensional
+staircase has uniform rank at most 88, so a universal source dimension
+cap below 64 cannot settle this pair. Determine whether a 64-space can
+satisfy the actual split compression condition. An incidence-preserving
+ideal reduction and explicit row/column cover certificates may help;
+no classification or exclusion at this endpoint is claimed here.
+
 The [prescribed third-jet criterion](../research/ai/2026-10-23-conic-fixed-third-obstruction/proof.md)
 now gives order-four and all-order extension exactly on Delta=0, on the
 d-nonzero mixed chart. The [full two-jet curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
@@ -61,15 +80,11 @@ does not construct M(10,10,11). Concurrent PR123 retains its separate
 exact d=0 curve preserving its credited two-jet.
 
 
-The [new leading-rank refinement](../research/ai/2026-10-23-leading-rank202/proof.md)
-forces total balanced rank at most 202, retaining every pair at most
-136. Short rank 100 forces each long rank at most 28. These necessary
-conditions allow arbitrary complex kernels, higher coefficients and
-finite Laurent poles on the remaining map. Their exact floor constraints
-leave the unique numerical total-202 endpoint (70,66,66); this does not
-construct target-compatible kernels or a Laurent presentation. Seek an
-exact target inside the remaining region, or further constraints on
-actual compression kernels and the threshold equality cases.
+The [credited total202 prerequisite](../research/ai/2026-10-23-leading-rank202/proof.md)
+retains its complete all-order support argument and historical arithmetic
+screen. Its former numerical endpoint (70,66,66) is excluded by the
+rank91 continuation above. Neither screen constructs target-compatible
+kernels or a Laurent presentation.
 
 The [sharp source caps below ranks 84 and 88](../research/ai/2026-10-23-rank84-rank88-spaces/proof.md)
 are 56 and 60. The [new sharp caps below ranks 92 and 96](../research/ai/2026-10-23-rank92-rank96-spaces/proof.md)

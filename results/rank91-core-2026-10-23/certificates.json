@@ -1,0 +1,79 @@
+{
+  "schema": "rank91-core-minors-v1",
+  "verification_modulus": 2,
+  "coefficient_domain": "integers 0 and 1",
+  "coherent_pairs": [
+    {
+      "d": 1,
+      "rank_lower": 20,
+      "coefficient_mask": "0x12",
+      "minor_rows_mask": "0x3e7cf9f",
+      "minor_columns_mask": "0xfffff"
+    },
+    {
+      "d": 2,
+      "rank_lower": 24,
+      "coefficient_mask": "0x104",
+      "minor_rows_mask": "0x7efdfbf",
+      "minor_columns_mask": "0xffffff"
+    },
+    {
+      "d": 3,
+      "rank_lower": 26,
+      "coefficient_mask": "0x1008",
+      "minor_rows_mask": "0x9ffffff",
+      "minor_columns_mask": "0xffffeef"
+    }
+  ],
+  "core": {
+    "layers": [
+      [
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "dimension": 56,
+    "rank_lower": 91,
+    "coefficient_mask": "0xd000006c0082d1d0d949fb",
+    "minor_rows_mask": "0x183fff019ffffffffffffffffff",
+    "minor_columns_mask": "0xf00efffffffffffffffffffff"
+  }
+}

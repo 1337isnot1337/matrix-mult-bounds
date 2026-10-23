@@ -1,0 +1,465 @@
+{
+  "schema": "rank91-core-focused-validation-v1",
+  "completed_at_utc": "2026-10-23T16:00:07.779226+00:00",
+  "frozen_mathematical_checkpoint": "36d0eb145ae9e8619e1a03376b367576fb3b7210",
+  "status": "passed",
+  "scope": {
+    "focused_tests": 8,
+    "metadata_archive_tests": 9,
+    "standalone_exact_acceptance": true,
+    "full_repository_suite_run": false,
+    "hosted_ci_run": false,
+    "mathematical_claim_status_changed": false,
+    "independent_external_review_claimed": false
+  },
+  "commands": {
+    "focused": {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_rank91_core.py",
+        "-v"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "elapsed_seconds": 0.788008,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "3a977cda32a65b43edb16e06fc43bebc279b5349a699d38775af1962da9decd0",
+      "tests_run": 8,
+      "skipped": 0,
+      "log": "test_changed_source_version_inventory_or_digest_is_rejected (test_rank91_core.Rank91CoreTests.test_changed_source_version_inventory_or_digest_is_rejected) ... ok\ntest_complete_source_and_target_acceptance (test_rank91_core.Rank91CoreTests.test_complete_source_and_target_acceptance) ... ok\ntest_core_support_shape_and_singular_minor_are_rejected (test_rank91_core.Rank91CoreTests.test_core_support_shape_and_singular_minor_are_rejected) ... ok\ntest_frozen202_census_is_retained_bit_for_bit (test_rank91_core.Rank91CoreTests.test_frozen202_census_is_retained_bit_for_bit) ... ok\ntest_missing_or_changed_coherent_witness_is_rejected (test_rank91_core.Rank91CoreTests.test_missing_or_changed_coherent_witness_is_rejected) ... ok\ntest_prior_exception_and_changed_endpoint_are_preserved (test_rank91_core.Rank91CoreTests.test_prior_exception_and_changed_endpoint_are_preserved) ... ok\ntest_single_census_bit_or_scope_inflation_is_rejected (test_rank91_core.Rank91CoreTests.test_single_census_bit_or_scope_inflation_is_rejected) ... ok\ntest_strict_threshold_and_unproved_sharpness_stay_distinct (test_rank91_core.Rank91CoreTests.test_strict_threshold_and_unproved_sharpness_stay_distinct) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.739s\n\nOK\n"
+    },
+    "metadata_and_archives": {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "test_research.RepositoryTests",
+        "test_archive_integrity",
+        "-v"
+      ],
+      "environment_overrides": {
+        "PYTHONPATH": "tests"
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 0.126995,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "1a5b8af506dbd1493f9d9cd355d85d4c3dd13f40eb45b53ac5aee2960ca0dd11",
+      "tests_run": 9,
+      "skipped": 0,
+      "log": "test_archive_manifest (test_research.RepositoryTests.test_archive_manifest) ... ok\ntest_claim_ledger_status (test_research.RepositoryTests.test_claim_ledger_status) ... ok\ntest_normalization_retains_exact_evidence (test_research.RepositoryTests.test_normalization_retains_exact_evidence) ... ok\ntest_relative_markdown_links (test_research.RepositoryTests.test_relative_markdown_links) ... ok\ntest_replayed_coverage (test_research.RepositoryTests.test_replayed_coverage) ... ok\ntest_source_registry (test_research.RepositoryTests.test_source_registry) ... ok\ntest_session2_archive_hashes (test_archive_integrity.ArchiveIntegrityTests.test_session2_archive_hashes) ... ok\ntest_session2_manifest_covers_all_archived_files (test_archive_integrity.ArchiveIntegrityTests.test_session2_manifest_covers_all_archived_files) ... ok\ntest_session2_manifest_unchanged (test_archive_integrity.ArchiveIntegrityTests.test_session2_manifest_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.072s\n\nOK\n"
+    },
+    "standalone_acceptance": {
+      "command": [
+        "python",
+        "-I",
+        "-S",
+        "research/ai/2026-10-23-rank91-core/verify.py"
+      ],
+      "environment_overrides": {},
+      "exit_code": 0,
+      "elapsed_seconds": 0.723323,
+      "stdout_sha256": "459cb235726c843be6bc90d35326a2701adacbd00965f98b0e563e14ae3f5eb5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "saved_report_matches_stdout": true,
+      "source_pins_checked": 5,
+      "integer_minors_replayed": 4,
+      "equality_ideals": 8,
+      "transpose_basis_identities": 112,
+      "transpose_literal_terms": 4096,
+      "pair_controls": {
+        "mixed": {
+          "checked": 10302,
+          "prior202_retained": 7669,
+          "retained": 7633,
+          "newly_excluded": 36,
+          "new_exclusions_by_sum": {
+            "134": 10,
+            "135": 12,
+            "136": 14
+          },
+          "maximum_pair_sum": 133
+        },
+        "long": {
+          "checked": 10404,
+          "prior202_retained": 7864,
+          "retained": 7840,
+          "newly_excluded": 24,
+          "new_exclusions_by_sum": {
+            "134": 6,
+            "135": 8,
+            "136": 10
+          },
+          "maximum_pair_sum": 136
+        }
+      },
+      "triple_controls": {
+        "checked": 1050804,
+        "prior202_retained": 541407,
+        "retained": 536157,
+        "newly_excluded": 5250,
+        "maximum_total": 198,
+        "maximizers": [
+          [
+            62,
+            66,
+            70
+          ],
+          [
+            62,
+            70,
+            66
+          ]
+        ],
+        "retained_by_total_at_least190": {
+          "190": 83,
+          "191": 64,
+          "192": 52,
+          "193": 41,
+          "194": 27,
+          "195": 11,
+          "196": 4,
+          "197": 2,
+          "198": 2
+        }
+      }
+    }
+  },
+  "byte_comparisons": {
+    "frozen_rank91_checkpoint": {
+      "reference_commit": "36d0eb145ae9e8619e1a03376b367576fb3b7210",
+      "files_compared": 10,
+      "all_byte_identical": true,
+      "files": [
+        {
+          "path": "research/ai/2026-10-23-rank91-core/QUESTION.md",
+          "sha256": "43608d9eee0d822d9f6f24033c221b97de740e1718befddda2a60fb2091bb08b",
+          "bytes": 1111
+        },
+        {
+          "path": "research/ai/2026-10-23-rank91-core/README.md",
+          "sha256": "c6a0eb609db9e5257f9d2248a7930db76ac9455cb04d9ff42d56f8dc861ea01b",
+          "bytes": 2849
+        },
+        {
+          "path": "research/ai/2026-10-23-rank91-core/discover.py",
+          "sha256": "5f83be7146ee67d6e5747b65a4cf085c3a3075e1f62f2aeefff92acd170746fe",
+          "bytes": 3511
+        },
+        {
+          "path": "research/ai/2026-10-23-rank91-core/proof.md",
+          "sha256": "9332d7659814a5fa65bf33a2d2a140d82da42d3f1e56fbbd588389c0c264098b",
+          "bytes": 11954
+        },
+        {
+          "path": "research/ai/2026-10-23-rank91-core/sources.json",
+          "sha256": "70351f14a2b30634783b8b9d8bb9473c412df89ebfe51ba827445a5b62040c36",
+          "bytes": 2354
+        },
+        {
+          "path": "research/ai/2026-10-23-rank91-core/verify.py",
+          "sha256": "7d70325e148666e10f627d7bf507f6e438126cfb41019aedec34c9b3df0c8a12",
+          "bytes": 18699
+        },
+        {
+          "path": "results/rank91-core-2026-10-23/census.json.gz",
+          "sha256": "a23f5dd4fa2f5b299d13dc5c459dbdfb58b01c00e9dd1ce2ffc5f89c1c67058b",
+          "bytes": 6318
+        },
+        {
+          "path": "results/rank91-core-2026-10-23/certificates.json",
+          "sha256": "7a80a9cb043a7877ee527eb4d9579726edccbfc5b54788bd02a4be315c2ab684",
+          "bytes": 1294
+        },
+        {
+          "path": "results/rank91-core-2026-10-23/controls.json",
+          "sha256": "459cb235726c843be6bc90d35326a2701adacbd00965f98b0e563e14ae3f5eb5",
+          "bytes": 11480
+        },
+        {
+          "path": "tests/test_rank91_core.py",
+          "sha256": "fd101000c039502c2413f43784ef555477da270790674bad18e61840b908df0b",
+          "bytes": 7170
+        }
+      ]
+    },
+    "frozen_prerequisites": {
+      "reference_commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "files_compared": 27,
+      "all_byte_identical": true,
+      "files": [
+        {
+          "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+          "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+          "bytes": 10529
+        },
+        {
+          "path": "research/ai/2026-10-23-leading-rank202/QUESTION.md",
+          "sha256": "d839cf51014f351a9b9bc3711991c197ece3fef936ca7da6fd964060eb0c623e",
+          "bytes": 863
+        },
+        {
+          "path": "research/ai/2026-10-23-leading-rank202/README.md",
+          "sha256": "075e7344220813d8d21addd17f65c6d60aa3e0234f627224c44d3edac0a82757",
+          "bytes": 2251
+        },
+        {
+          "path": "research/ai/2026-10-23-leading-rank202/proof.md",
+          "sha256": "15e5544cfb6dcfa28eadf32644deb1a2ef2a85e7820bbdaa1e69d6870750291c",
+          "bytes": 10773
+        },
+        {
+          "path": "research/ai/2026-10-23-leading-rank202/sources.json",
+          "sha256": "ca55294e0892db4868e1a81137c5e6b5c57f09dbd830fceff21ca35ebb626acd",
+          "bytes": 1929
+        },
+        {
+          "path": "research/ai/2026-10-23-leading-rank202/verify.py",
+          "sha256": "8a505f1c3de4e8cede57bab4baf4c3b79466d0f4fc7b202db8812d445c461dd6",
+          "bytes": 12419
+        },
+        {
+          "path": "research/ai/2026-10-23-rank92-rank96-spaces/QUESTION.md",
+          "sha256": "6dc3e2aebbc1cb3aa4065d5547a3e9d5825c11c57237609b6ecf76b6bc2fc83b",
+          "bytes": 928
+        },
+        {
+          "path": "research/ai/2026-10-23-rank92-rank96-spaces/README.md",
+          "sha256": "6be9871cca4d5d15196f9f8156e3d392cc3db3c28d4bc506de299bed2a0e122a",
+          "bytes": 2378
+        },
+        {
+          "path": "research/ai/2026-10-23-rank92-rank96-spaces/discover.py",
+          "sha256": "7100a98c698db7b14ed83c41712db492e3e76be974372d28974bd87f174c5aa9",
+          "bytes": 3730
+        },
+        {
+          "path": "research/ai/2026-10-23-rank92-rank96-spaces/proof.md",
+          "sha256": "0ef85dc03d267020570d1236d6bda729388b9babc8c8425a3b2b995cc6509b04",
+          "bytes": 9276
+        },
+        {
+          "path": "research/ai/2026-10-23-rank92-rank96-spaces/sources.json",
+          "sha256": "14c24a0ed589719bf05d5684deec10b5d1dfb3475208d3fdba688e5b275bf638",
+          "bytes": 2091
+        },
+        {
+          "path": "research/ai/2026-10-23-rank92-rank96-spaces/verify.py",
+          "sha256": "38433e54c801a12edad04ffc1988da707c2bb9a8a6e5a4c15ac4f3a59dee37da",
+          "bytes": 16915
+        },
+        {
+          "path": "research/ai/2026-10-23-torus-order-ideal/proof.md",
+          "sha256": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+          "bytes": 16699
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/byte-comparison.json",
+          "sha256": "451fc694482b9a1c03066725417df9a6cbe9ce0c19f4f7bde973db8a588dfbaf",
+          "bytes": 2187
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/census.json.gz",
+          "sha256": "5b0f6e0a91b8d2bd6e71193bb8e57329ae93b900ebd37a5003b86aefa99a8952",
+          "bytes": 6138
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/controls.json",
+          "sha256": "79421f635d07e1145d6b7eef698e32a49decdf1f66247f6dd9ea588df4a11911",
+          "bytes": 11835
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/focused-test-timing.json",
+          "sha256": "6248e858f4dd6277b12be15fccb5bc709d01948e720863d2eef2420fe319ebdc",
+          "bytes": 381
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/focused-tests.log.gz",
+          "sha256": "dd021dc80170b369114be8f4ca182f23fef2825adde71f2ee9b977d49f706126",
+          "bytes": 323
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/metadata-test-timing.json",
+          "sha256": "d07990244767c22f133131697e27f28a05900dde06494f317a2bbf4fd26fc2d0",
+          "bytes": 460
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/metadata-tests.log.gz",
+          "sha256": "0c320494ff1845818a2b1d75ca8a085cc64a24401365aa8530bd8e475a4dfe11",
+          "bytes": 286
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/source-test-timing.json",
+          "sha256": "13290ebcd5741ecd0e78f37456ad7f002ede5be175388959b9ffbea45c3c4bda",
+          "bytes": 386
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/source-tests.log.gz",
+          "sha256": "d290d528b19653f9c404ab851431c2ef2e950b48ac4638f9a80abdf01d1a15db",
+          "bytes": 294
+        },
+        {
+          "path": "results/leading-rank202-2026-10-23/validation.json",
+          "sha256": "047118cca34fd37ab306120585ff23fa21206855ab62500b54e7a1789a11f7cf",
+          "bytes": 2692
+        },
+        {
+          "path": "results/rank92-rank96-spaces-2026-10-23/certificates.json",
+          "sha256": "de546c07b238a1da0d39f047de2bbc89d3c55515b77754655870810903943d43",
+          "bytes": 2980
+        },
+        {
+          "path": "results/rank92-rank96-spaces-2026-10-23/controls.json",
+          "sha256": "cff561ac703ef23cdf9357c639064cd07257a7a34b0fe2c609746b30ba779916",
+          "bytes": 7669
+        },
+        {
+          "path": "tests/test_leading_rank202.py",
+          "sha256": "735e402603b665c61ede1ce8db5c811ab1aa5919150ddf8ceb7f4f36897d4148",
+          "bytes": 6070
+        },
+        {
+          "path": "tests/test_rank92_rank96_spaces.py",
+          "sha256": "a3ff67a590f6a4949a8d89e20968aeab1d08139ced49093447e6f0a5681c6879",
+          "bytes": 4390
+        }
+      ]
+    },
+    "archives": {
+      "reference_commit": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "files_compared": 23,
+      "all_byte_identical": true,
+      "files": [
+        {
+          "path": "research/ai/2026-10-20-session2/README.md",
+          "sha256": "469c303925ecb2a9ba0c6dbf2c0c7ed87df35ad5c8f156c27186142e0bd0244b",
+          "bytes": 2738
+        },
+        {
+          "path": "research/ai/2026-10-20-session2/claims.json",
+          "sha256": "897ad8e95adab9e4dc4269e9bfbac8c8484f15b0d8de11e0b14eb7d8bb6f9012",
+          "bytes": 1396
+        },
+        {
+          "path": "research/ai/2026-10-20-session2/dimension_search.py",
+          "sha256": "d00720dd8b67d36a7304278affef42438fbf17cd75358649f041425205023166",
+          "bytes": 4008
+        },
+        {
+          "path": "research/ai/2026-10-20-session2/drafts/strong_scoring_fragment.py.txt",
+          "sha256": "89b2ecb2efdac6a817c4a3b86a9c76a31b28e9e7ea5c4b95979569024a39b286",
+          "bytes": 2586
+        },
+        {
+          "path": "research/ai/2026-10-20-session2/manifest.json",
+          "sha256": "bc95c70c4bb3de7e271f52b51902ad4d9d8a77e314af59627f93964ca25e4063",
+          "bytes": 3531
+        },
+        {
+          "path": "research/ai/2026-10-20-session2/research_note.md",
+          "sha256": "9d4387798052750ddfce7fdb6b6173ae1211888903f9c471a85fc1d0330372b9",
+          "bytes": 8420
+        },
+        {
+          "path": "research/ai/2026-10-20-session2/tensor_checks.py",
+          "sha256": "1563a5b2e8345ee424d0e4afb0a23b66dd0790c68dfa855fafe9dd014e44ad14",
+          "bytes": 4510
+        },
+        {
+          "path": "research/ai/2026-10-20/binary_search.json",
+          "sha256": "afbf456edf623aa850b8c3eecbd70da7c27fd48d61680ca22af012080cb74352",
+          "bytes": 1990
+        },
+        {
+          "path": "research/ai/2026-10-20/check_product_filtration.py",
+          "sha256": "44d709ce8bf177a0e6fcaf9bb1902e7d08245098b84f5274467d622993337e9d",
+          "bytes": 2613
+        },
+        {
+          "path": "research/ai/2026-10-20/manifest.json",
+          "sha256": "1c901ab37a35e41f209ba20049f7334f52c6af0e9676535795da3031a833415b",
+          "bytes": 1200
+        },
+        {
+          "path": "research/ai/2026-10-20/product_filtration_checks.json",
+          "sha256": "c8c8b41367fda2a8dd246a3f1047cbbd4f9af7ee3e693bd4e017e3573029e7cb",
+          "bytes": 1195
+        },
+        {
+          "path": "research/ai/2026-10-20/profile_checks.json",
+          "sha256": "53a219a9c3ebb26768bb20fc6d2a7de842e627ecd8c13945746f89ec861b2222",
+          "bytes": 1476
+        },
+        {
+          "path": "research/ai/2026-10-20/random_search.json",
+          "sha256": "5758783542bac374997244ca6d46dc3bc5dc310d2c74481244d24a75c738ec1d",
+          "bytes": 2299
+        },
+        {
+          "path": "research/ai/2026-10-20/requirements.txt",
+          "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+          "bytes": 14
+        },
+        {
+          "path": "research/ai/2026-10-20/research_note.md",
+          "sha256": "3f1de5a7c4209a894b39bc95801af6aa5bf65df85e32379de09271f6c7207e63",
+          "bytes": 15873
+        },
+        {
+          "path": "research/ai/2026-10-20/search_degenerations.py",
+          "sha256": "355c3f10550fd146c1c7d598c5ca36a9b2ce92bce23b1c7f548a680045e64bc2",
+          "bytes": 5694
+        },
+        {
+          "path": "research/ai/2026-10-20/ternary_search.json",
+          "sha256": "f75713b82950604e173e25b96ef80171c0bad101c3cd7da3b932f26fb3ec82a8",
+          "bytes": 1992
+        },
+        {
+          "path": "research/ai/2026-10-20/verify_profile.py",
+          "sha256": "3d96124c6f026c9ab7155f013b51941d7ec32a65586990cef20b6795da604029",
+          "bytes": 2814
+        },
+        {
+          "path": "results/session2-2026-10-20/dimension_search.json.gz",
+          "sha256": "1481900f332555a2bd7971a57cb87a7b80423b0e806b2bd88d5c5333f558f1d5",
+          "bytes": 2618
+        },
+        {
+          "path": "results/session2-2026-10-20/tensor_checks.json",
+          "sha256": "3c5420a43c47c36764b05ec9f7648ba714a80aded117dd2bcf3c10f045629214",
+          "bytes": 3908
+        },
+        {
+          "path": "results/session2-2026-10-20/tests.initial_failure.txt",
+          "sha256": "6c94a4b84046f61a3b1920d060c78e62cad70086205097e595c8ab9d19b64f4a",
+          "bytes": 1578
+        },
+        {
+          "path": "results/session2-2026-10-20/tests.txt",
+          "sha256": "216975d4a9b9244cf005311b4d38aa53c85f0f0c53c06202e6d4f7999bd1d2a2",
+          "bytes": 862
+        },
+        {
+          "path": "results/session2-2026-10-20/verification.json",
+          "sha256": "07795f4becc7750eba74bdb1fc63e5663ae7d86d76c3826538c34639255efa13",
+          "bytes": 840
+        }
+      ]
+    }
+  },
+  "frozen202_census_comparison": {
+    "method": "test_frozen202_census_is_retained_bit_for_bit compares complete mixed, long and triple masks with the frozen202 saved census",
+    "mixed_pairs": 10302,
+    "long_pairs": 10404,
+    "triples": 1050804,
+    "all_prior_masks_identical": true,
+    "all_new_survivor_masks_subsets_of_prior": true
+  },
+  "note": "Follow-up changes only research/ACTIVE.md and this validation receipt; the proof, verifier, certificates and frozen prerequisites are unchanged."
+}
