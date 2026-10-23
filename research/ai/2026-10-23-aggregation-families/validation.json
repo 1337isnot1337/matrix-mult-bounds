@@ -1,40 +1,119 @@
 {
   "focused_tests": {
     "command": "python -m unittest discover -s tests -p test_aggregation_families.py -v",
-    "passed": 7,
-    "failures": 0
+    "passed": 11,
+    "failures": 0,
+    "errors": 0,
+    "runtime_seconds": 26.05,
+    "scope": "Final 29-product and 106-product code, witnesses, source fixtures, and cost-floor table in this commit",
+    "test_module_sha256": "8a7d9c4382f9cf76db0f696207d83f60f83542544a940f77026e8352f1ed9ef2",
+    "verifier_sha256": "0fbc73a6598ea438b8bde1b60d6498d3c57606c4a44e0821b1734c3e2d428003",
+    "binary_evaluator_sha256": "d6d6a00a9c17487d5ccbbbf79f9c7e0298895ccfbd973e83a0f6c0613503a589"
   },
-  "exact_verifier": {
-    "command": "python research/ai/2026-10-23-aggregation-families/verify.py",
-    "accepted": true,
-    "ordered_mixed_triples": 24389
-  },
-  "tensor_control": {
-    "command": "python research/ai/2026-10-23-aggregation-families/evaluate.py",
-    "accepted": true,
-    "scope": "One exact full scalar assignment over F101, not all coefficient positions",
-    "rank_one_terms_enumerated": 159651
-  },
+  "exact_verifiers": [
+    {
+      "witness": "witness_29.json",
+      "accepted": true,
+      "products": 29,
+      "ordered_mixed_triples": 24389,
+      "off_diagonal_compatible_triples": 0,
+      "source_integrity": {
+        "source_id": "ex28",
+        "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex28.txt",
+        "sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+        "verified": true
+      },
+      "report": "verification_report.json"
+    },
+    {
+      "witness": "witness_106.json",
+      "accepted": true,
+      "products": 106,
+      "ordered_mixed_triples": 1191016,
+      "off_diagonal_compatible_triples": 0,
+      "source_integrity": {
+        "source_id": "ex105",
+        "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex105.txt",
+        "sha256": "5be07a72963435bf97922ac990451ee434763b7516e3c588f1743e03daeb81ff",
+        "verified": true
+      },
+      "report": "verification_106_report.json"
+    }
+  ],
+  "tensor_controls": [
+    {
+      "command": "python research/ai/2026-10-23-aggregation-families/evaluate.py",
+      "accepted": true,
+      "products": 29,
+      "field_modulus": 101,
+      "local_dimension": 2,
+      "scope": "One exact scalar assignment, an implementation control rather than all tensor coefficients",
+      "rank_one_positions_enumerated": 159651,
+      "report": "tensor_control_report.json"
+    },
+    {
+      "command": "python research/ai/2026-10-23-aggregation-families/evaluate_binary.py",
+      "accepted": true,
+      "products": 106,
+      "field_modulus": 2,
+      "local_dimension": 2,
+      "scope": "One exact scalar assignment evaluated by byte-packed arithmetic, an implementation control rather than all tensor coefficients",
+      "rank_one_positions_enumerated": 9323181,
+      "nonzero_correction_aggregate_values": 117,
+      "report": "tensor_106_binary_control_report.json"
+    }
+  ],
   "archived_replay": {
     "command": "python tools/replay.py",
     "passed_reports": 5,
-    "success": true
+    "success": true,
+    "coverage": {
+      "profile_exact_grid": 73856,
+      "product_filtration": 353664,
+      "binary": 12976,
+      "ternary": 209692,
+      "random": 20000
+    }
   },
   "full_regression_suite": {
     "command": "python -m unittest discover -s tests -v",
-    "status": "running_at_initial_checkpoint"
+    "status": "running_at_106_checkpoint",
+    "launch_base_commit": "bd03b9d",
+    "launch_aggregation_code_matches_commit": "c40d4b5",
+    "launch_test_files": 210,
+    "aggregation_cases_loaded_at_launch": 6,
+    "launch_aggregation_test_module_sha256": "f1f2da3a2b3d77c61cf58ec8c28551891c22fe1492aade4dc1586d6fa7dcd9bb",
+    "completed_case_lines_at_checkpoint": 415,
+    "failures_or_errors_observed_at_checkpoint": 0,
+    "scope": "Launched before source-hash, cost-scope, and 106 updates. Discovery imported the older six aggregation cases; later files changed while the suite ran. This is not a complete frozen-final-tree regression claim."
   },
   "independent_mathematical_review": false,
-  "source_integrity": {
-    "file": "baseline_ex28.txt",
-    "sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
-    "enforced_by_verifier": true,
-    "tamper_test_passed": true
-  },
   "exact_cost_scope": {
-    "method": "weighted AM-GM",
-    "integer_margin": 4716973042654866123349,
-    "applies_to": "displayed rank upper-bound polynomial, all positive local dimensions",
-    "not_an_optimal_rank_lower_bound": true
+    "method": "Weighted AM-GM followed by integer comparison",
+    "construction_integer_margins": {
+      "29": 4716973042654866123349,
+      "106": 79209213412376131178803675120
+    },
+    "all_family_receipt": "cost_floor.json",
+    "all_family_rows_checked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "all_family_sizes_excluded": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "applies_to": "Displayed upper-bound budgets charging the complete leading aggregate; no lower bound on optimal tensor rank or omega"
   }
 }

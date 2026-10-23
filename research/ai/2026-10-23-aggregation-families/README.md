@@ -1,26 +1,29 @@
-# Exact aggregation of 29 independent products
+# Exact aggregation of 29 and 106 independent products
 
-The [written proof](proof.md) and [exported witness](witness_29.json) give
+The [written proof](proof.md) and exported witnesses give these exact
+rank bounds for every positive integer n over every characteristic-zero
+field. Write x=n+1.
 
-\[
-R\bigl(M(n^3,n^3,n^3)^{\oplus29}\bigr)
-\le (n+1)^9+9(n+1)^8+36(n+1)^7+3(n+1)^6
-\]
+| Independent products | Matrix dimension | Rank upper bound | Improvement over cited external family |
+| ---: | --- | --- | --- |
+| [29](witness_29.json) | n^3 by n^3 | x^9+9x^8+36x^7+3x^6 | Smaller certified cost per output than 28 products, for every n>=1 |
+| [106](witness_106.json) | n^4 by n^4 | x^12+12x^11+66x^10+139x^9+5x^8 | Smaller certified cost per output than 105 products, for every n>=7 |
 
-for every positive integer n over every characteristic-zero field.
-The independent set-based verifier checks all 24,389 ordered triples.
-This raises the attained exact nine-coordinate comparison family from
-28 to 29 products and strictly lowers its bound per output for every n.
-The underlying aggregation method is credited to the external sources
-in [sources.json](sources.json); the new family was found locally.
+A separate set-based verifier checks all 24,389 and 1,191,016 ordered
+mixed triples, respectively, and every required correction subset.
+The source aggregation mechanism and comparison families are credited
+to Solomonik and Blaeser, arXiv:2610.26563v2, in
+[sources.json](sources.json). The new finite families were found locally.
+No optimal rank or historical priority is claimed.
 
-An exact weighted AM-GM certificate shows that the displayed budget
-cannot reach the exponent 9/4 through direct asymptotic-sum substitution
-at any local dimension. This is a statement about that cost formula,
-not a tensor-rank lower bound. It supplies a positive independent-product construction with a
-complete cost, not a restriction from the repository's polynomial
-source. No optimality, historical priority, independent review, or
-formalization is claimed.
+These are positive tensor constructions with complete uniform costs.
+They do not improve omega below 9/4. An exact [size gate](cost_floor.md)
+shows that no balanced conflict-free family with N<=7 can cross that
+threshold while charging the complete (n+1)^(3N) leading aggregate.
+This concerns a displayed upper-bound certificate; it is not a lower
+bound on tensor rank. N>=8 is necessary for this particular cost model,
+not sufficient. No polynomial-source restriction, independent
+mathematical review, or formalization is supplied.
 
 ## Exact acceptance
 
@@ -28,43 +31,60 @@ From the repository root:
 
 ```sh
 python research/ai/2026-10-23-aggregation-families/verify.py
+python research/ai/2026-10-23-aggregation-families/verify.py research/ai/2026-10-23-aggregation-families/witness_106.json
 python research/ai/2026-10-23-aggregation-families/evaluate.py
+python research/ai/2026-10-23-aggregation-families/evaluate_binary.py
 python -m unittest discover -s tests -p test_aggregation_families.py -v
 ```
 
-The verifier enforces the versioned baseline SHA256 and recomputes
-every mixed triple, every correction subset,
-and the exact positive-coefficient comparison with the attributed
-external baseline. The evaluator separately constructs the rational
-centered dual maps modulo 101 and sums all 159,651 rank-one terms at
-n=2 for a full seeded assignment of matrix entries. Its answer equals
-the independently evaluated target. This finite evaluation is a
-control; the uniform proof is the argument in proof.md.
+The verifier enforces the versioned external source SHA256, recomputes
+every mixed triple and correction subset, and verifies exact polynomial
+identities for both cost comparisons. For 106 products it certifies the
+n>=7 threshold by positive coefficients after the integer shift x=8+u.
+It preserves the stronger all-positive-n comparison for 29 products.
 
-The acceptance and control reports are checked in. Dependencies are
-only the Python standard library. Tests deliberately remove a required
-correction, duplicate a product, understate a cost, and alter the external
-source bytes to check rejection. They also require exactly 29 products.
+The evaluators are implementation controls, separate from the uniform
+proof. One F101 assignment to the 29 independent 8-by-8 products checks
+all 159,651 rank-one contributions. One F2 assignment to the 106
+independent 16-by-16 products checks all 9,323,181 rank-one positions by
+exact byte-packed arithmetic; 117 correction aggregates are nonzero.
+Each corrected scalar value equals the independently evaluated target
+under that assignment. Neither evaluation claims to check all possible
+input coefficients. Mathematical acceptance is the complete finite
+combinatorial certificate plus the written all-n coordinate identity.
+
+All maintained acceptance tools use only the Python standard library.
+Tests enforce the advertised product counts, reject altered source
+bytes, remove a required correction, and understate a cost. Saved reports
+record their exact scopes. `validation.json` distinguishes the final
+focused tests from the older full-suite run launched before these updates.
 
 ## Optional discovery reproduction
 
-Discovery uses C++17, with no external libraries. First export the
-credited 28-product seed in the mask format consumed by the search:
+The constructive local search uses C++17 with no external libraries.
+First export the credited external seeds in its mask format:
 
 ```sh
 python research/ai/2026-10-23-aggregation-families/verify.py --export-seed results/local/aggregation-search/ex28.masks
+python research/ai/2026-10-23-aggregation-families/verify.py research/ai/2026-10-23-aggregation-families/witness_106.json --export-seed results/local/aggregation-search/ex105.masks
 c++ -O3 -std=c++17 research/ai/2026-10-23-aggregation-families/search.cpp -o results/local/aggregation-search/search
 results/local/aggregation-search/search results/local/aggregation-search/ex28.masks conflict 300000 20261023 results/local/aggregation-search/reproduced-29.masks
+results/local/aggregation-search/search results/local/aggregation-search/ex105.masks conflict 20000 20261031 results/local/aggregation-search/reproduced-106.masks
 ```
 
-The recorded run found 29 products at iteration 8,312 and completed
-300,000 local destroy-and-rebuild iterations without a larger family.
-`discovery_report.json` records its parameters. This coverage is not
-exhaustive and proves no upper bound. Search need not be repeated to
-verify the construction. C++ standard-library shuffle implementation
-choices can affect the exact search trajectory; acceptance is portable.
+The first run found 29 products at iteration 8,312 and completed 300,000
+iterations. The second found 106 at iteration 17,022 and completed 20,000.
+The discovery reports record the exact inputs, code hash, and seeds.
+C++ standard-library shuffle implementations can change the search
+trajectory; acceptance of the saved witnesses is portable.
 
-`QUESTION.md` preserves the initial investigation and states the gap
-between improving a finite aggregation family and improving omega.
-The earlier local shared-input partial-transpose construction is a
-different investigation and retains its prior credit.
+The unsuccessful 30-product and correction-free 39-product attempts
+are recorded separately in [search_followups](search_followups/README.md).
+Those bounded runs are not nonexistence or optimality proofs. A numerical
+MILP solver proposed candidates only; its statuses are never mathematical
+acceptance premises. No discovery search need be repeated to verify the
+two successful constructions.
+
+`QUESTION.md` preserves the initial research question. The earlier
+shared-input partial-transpose construction is distinct and retains
+its source credit and obstruction scope.

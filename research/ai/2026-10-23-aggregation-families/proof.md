@@ -1,6 +1,11 @@
-# An exact 29-product aggregation construction
+# Exact aggregation of 29 and 106 independent products
 
 ## Result and scope
+
+This note certifies two explicit families: 29 products on nine coordinates
+and 106 products on twelve coordinates. Sections 1--6 give the first
+construction and its full coordinate proof. Section 7 applies that same
+identity to the second independently verified family.
 
 Let `M(a,b,c)` denote the usual matrix multiplication tensor, with first
 matrix `a` by `b`, second matrix `b` by `c`, and output `a` by `c`. Over
@@ -234,3 +239,85 @@ C++ search. See README.md for those commands and the completed search
 coverage. No optimizer result or floating residual is an acceptance
 premise. The imported baseline and its hash are recorded in
 `sources.json`.
+
+
+## 7. Exact 106-product continuation
+
+A second exported witness, `witness_106.json`, proves over every
+characteristic-zero field, for every positive integer n,
+
+\[
+ R\!\left(M(n^4,n^4,n^4)^{\oplus106}\right)
+ \le r_{106}(n)
+ =x^{12}+12x^{11}+66x^{10}+139x^9+5x^8,
+ \qquad x=n+1.                                      \tag{10}
+\]
+
+Here F={0,...,11}, and all three parts of every tripartition have size
+four. The complete set-based check covers 106^3 = 1,191,016 triples:
+
+| Class | Count |
+| --- | ---: |
+| Diagonal matrix products | 106 |
+| Off-diagonal terms killed by centering | 1,166,235 |
+| Off-diagonal terms killed by corrections | 24,675 |
+| Off-diagonal compatible triples | 0 |
+
+The exact nonempty downward closure Q consists of 12 singletons, 66
+pairs, 139 triples and 5 quadruples, for 222 correction subsets in total.
+The rational embeddings (4) work unchanged. In (5), replace the exponent
+9 by 12. Each diagonal now groups four active coordinates per matrix
+index, so it is `M(n^4,n^4,n^4)`. Equation (7) cancels every one of the
+24,675 remaining mixed terms, and summing the verified correction costs
+proves (10). This is the complete all-n implication; the argument does
+not rely on a numerical solver or a sampled tensor evaluation.
+
+The credited external `ex105.txt` construction from the same paper has
+
+\[
+ r_{105}(n)=x^{12}+12x^{11}+66x^{10}+124x^9+3x^8.       \tag{11}
+\]
+
+The verifier enforces the source file's pinned SHA256, checks all of its
+105^3 triples, and independently recomputes these correction counts.
+The new versus external cost comparison is
+
+\[
+ 106r_{105}(n)-105r_{106}(n)
+ =x^8\left(x^4+12x^3+66x^2-1451x-207\right).         \tag{12}
+\]
+
+Put u=x-8. The parenthesized polynomial is exactly
+
+\[
+ u^4+44u^3+738u^2+3957u+2649.                         \tag{13}
+\]
+
+Every coefficient is positive. Thus `r106/106 < r105/105` for every
+integer n>=7, over the same matrix dimensions and bilinear cost model.
+At n=6 the parenthesized polynomial is -613, so the comparison does
+not hold throughout the tail starting at n=6. No uniform improvement
+at every positive n is asserted for this second construction. Its
+additional total budget is `15*x^9+2*x^8` for one additional output.
+
+The same AM-GM argument as Section 5, with the exact inequality
+`4^48 > 106^4*3^36`, proves that (10) itself cannot reach 9/4 through
+direct asymptotic-sum substitution at any local dimension. Again,
+this is a scope statement about the displayed upper-bound polynomial,
+not a lower bound on optimal rank.
+
+An additional finite control evaluates every one of 9,323,181 rank-one
+positions at n=2 over F2, for one complete seeded assignment to all 106
+independent 16-by-16 matrix products. Byte-packed XOR, AND and parity
+perform the field arithmetic exactly. In this assignment 117 correction
+aggregates are nonzero, and the corrected result agrees with the target.
+This control checks actual aggregate positions; it is not a proof of all
+tensor coefficients. The earlier 29-product control instead uses F101
+and 8-by-8 products. The uniform proof remains the coordinate identity.
+
+The separate [size gate](cost_floor.md) applies to **every** balanced
+conflict-free family with N<=7 whose stated budget charges the complete
+leading aggregate (n+1)^(3N), even if it has no corrections. Thus neither
+small-N construction can cross 9/4 just by increasing its number of
+products within that model. The N>=8 condition is necessary only; it
+supplies neither a large family nor an improved exponent.

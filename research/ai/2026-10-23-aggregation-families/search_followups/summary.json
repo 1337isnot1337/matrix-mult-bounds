@@ -1,0 +1,109 @@
+{
+  "scope": "Unsuccessful bounded discovery only; no global nonexistence, optimality, or solver infeasibility theorem",
+  "optional_discovery_dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "experiments": [
+    {
+      "name": "15 correction-free products on 9 coordinates",
+      "mode": "centered",
+      "seed_file": "ex14.masks",
+      "source": "../search.cpp",
+      "iterations": 200000,
+      "rng_seed": 20261023,
+      "best_products": 14,
+      "report": "centered-report.json"
+    },
+    {
+      "name": "broader local search for 30 products",
+      "mode": "conflict",
+      "seed_file": "best-conflict.masks",
+      "source": "search_broad.cpp",
+      "iterations": 1000000,
+      "rng_seed": 20261025,
+      "best_products": 29,
+      "report": "conflict-broad-report.json"
+    },
+    {
+      "name": "reduce correction count for 29 products",
+      "seed_file": "best-conflict.masks",
+      "source": "optimize_corrections.cpp",
+      "iterations": 100000,
+      "rng_seed": 20261024,
+      "best_products": 29,
+      "best_correction_counts": [
+        9,
+        36,
+        3
+      ],
+      "report": "corrections-report.txt"
+    },
+    {
+      "name": "39 correction-free products on 12 coordinates",
+      "mode": "centered",
+      "seed_file": "ex38.masks",
+      "source": "../search.cpp",
+      "iterations": 20000,
+      "rng_seed": 20261026,
+      "best_products": 38,
+      "report": "centered-12-report.json"
+    },
+    {
+      "name": "broader search for 39 correction-free products on 12 coordinates",
+      "mode": "centered",
+      "seed_file": "ex38.masks",
+      "source": "search_broad.cpp",
+      "iterations": 100000,
+      "rng_seed": 20261029,
+      "best_products": 38,
+      "report": "centered-12-broad-report.json"
+    },
+    {
+      "name": "MILP neighborhoods for 30 products",
+      "seed_file": "best-conflict.masks",
+      "source": "milp_search.py",
+      "neighborhood_attempts": 300,
+      "solver_calls": 291,
+      "solver_time_limits": 8,
+      "rng_seed": 20261028,
+      "best_products": 29,
+      "report": "milp-report.json"
+    },
+    {
+      "name": "29 products with no replicated pair {6,7}",
+      "mode": "conflict",
+      "seed_file": "pair67-seed.masks",
+      "source": "search_no_pair.cpp",
+      "iterations": 300000,
+      "rng_seed": 20261030,
+      "best_products": 28,
+      "report": "no-pair-report.json"
+    }
+  ],
+  "file_sha256": {
+    "search_broad.cpp": "6e9c6368b390d8070b360e5d670ca2902e593644113df56a1250d47005ed40fa",
+    "search_no_pair.cpp": "0f7034c664ff98d0e21b2b040a58d756696c144fef93340492549d9e9f815e8d",
+    "optimize_corrections.cpp": "4c749bc8bd69c3899c4254765989aca7a34ee8a1b58d997b7606e568ec3b9f66",
+    "milp_search.py": "5b741d20ba1f8370ef62e9d2f9c40bc0362b26cc4514a131166a5893ace93812",
+    "best-conflict.masks": "a0c5bd05bbb6feb337f6edaa7c2c9d6c5e8b5c97fa872d07bcf6ea7e465ad3b4",
+    "pair67-seed.masks": "596e5c99ec6ba69aa56ad22ed57e8fc0e43f2913e9c95e61ac609aa5af735ffb",
+    "ex14.masks": "ae1324d1ae7de4c24ee43ad7bfe31ea34b1c773d63e2687c513c7b269d479d04",
+    "ex38.masks": "4d97aa32c0053d9acf86bbc3565a0d78d3c3beccefe0e582d3df8ca3b2f90871",
+    "centered-report.json": "0800557017949ab902b94c6fb6954f97735cba3a140780410711ad76a01f4fb9",
+    "conflict-broad-report.json": "faf5bef1015ba52535e86ce456f4ba067d418395a954a5b9f6578fdac1ce022e",
+    "corrections-report.txt": "577a5718cd59e5eeab73427a44ff9cb54d73802f8801607c52c6e786dd382fec",
+    "centered-12-report.json": "fe8133ca01768aa796f08071c4c4b2b3928c69bc1901fa957cb3121bda594b2e",
+    "centered-12-broad-report.json": "feb0b62e8cd02685c73398c35bdd503d1e3a4163d5f66597b55823021b301332",
+    "milp-report.json": "a19e6e3cefa42a79ce6b760142de349b5c23616370e60218bec8c432b58d5672",
+    "no-pair-report.json": "9a39a99df8f2ab5d7ca07a793ba501f4e9f41c9d3290282220f0da5010fd907f",
+    "centered-progress.log": "f22be66597cff280bb3a4a440d7dd03badc4de4c67571bdf552dee3425a0b323",
+    "conflict-broad-progress.log": "c4516ee98c76cc43d9171dbeafe394cd3a1e2ecead058da0ecb68f5575476780",
+    "corrections-progress.log": "1b2ee59c34ccb24df069374a92eb870891d8bdf9a282e1a1bb3f5f4fe143609a",
+    "centered-12-progress.log": "de73c6645a56455e1b91ab582e75f7a56e36945a38f1d196948731677b05ce2f",
+    "centered-12-broad-progress.log": "366fdaad77a6b4bbb630695fc7b6ae62af4c4a51274e52f6fd02dc02985a6481",
+    "milp-progress.log": "04e30757b45ce1cc5efb82f260958bf082a2658d678513bf66bf67b4b54069e4",
+    "no-pair-progress.log": "ab67b5a32190c5d4bca3dfce6125ab2fda9daf033c3a1d716443232e7c2c913b"
+  }
+}
