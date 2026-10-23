@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "status": "passed",
+      "tests": 18,
+      "wall_seconds": 9.288
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_nonsplit_vector_covers.py -v",
+      "scope": "The incoming main module not included in the earlier complete-suite discovery.",
+      "status": "passed",
+      "tests": 4,
+      "wall_seconds": 125.764
+    },
+    {
+      "command": "python tools/replay.py",
+      "coverage": {
+        "binary_candidates": 12976,
+        "product_filtration_inequalities": 353664,
+        "random_candidates": 20000,
+        "scalar_grid": 73856,
+        "ternary_candidates": 209692
+      },
+      "programs": 5,
+      "status": "passed"
+    }
+  ],
+  "improves_omega": false,
+  "integrated_main": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "limits": "The complete baseline regression remains in progress; this receipt asserts only the listed completed checks. No independent review or theorem formalization.",
+  "proof_status": "proof-written-unreviewed",
+  "verified_tree_commit": "c5aab5b503bb48625ccdf83fec1ab2a4d43cfde0"
+}
