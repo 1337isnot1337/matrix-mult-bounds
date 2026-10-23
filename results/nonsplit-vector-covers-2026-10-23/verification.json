@@ -1,0 +1,124 @@
+{
+  "source": {
+    "basis_rank": 120,
+    "coefficients_checked": 1728000,
+    "nonzero_coefficients": 1577,
+    "principal_degree_triples": 95,
+    "principal_total_even": true,
+    "principal_degree_membership_signatures": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        2
+      ]
+    ],
+    "principal_cover_size_per_leg": 22
+  },
+  "degree_class_cover_replays": [
+    {
+      "file": "discovery-0.json",
+      "principal_factors": 0,
+      "even_principal": false,
+      "classes_per_leg": 16,
+      "one_leg_dimension": 262144,
+      "admissible_triples_checked": 400,
+      "per_word_slices": 147456
+    },
+    {
+      "file": "discovery-1.json",
+      "principal_factors": 1,
+      "even_principal": false,
+      "classes_per_leg": 108,
+      "one_leg_dimension": 720896,
+      "admissible_triples_checked": 33000,
+      "per_word_slices": 384768
+    },
+    {
+      "file": "discovery-2.json",
+      "principal_factors": 2,
+      "even_principal": false,
+      "classes_per_leg": 136,
+      "one_leg_dimension": 1982464,
+      "admissible_triples_checked": 77520,
+      "per_word_slices": 898096
+    },
+    {
+      "file": "discovery-3.json",
+      "principal_factors": 3,
+      "even_principal": false,
+      "classes_per_leg": 100,
+      "one_leg_dimension": 5451776,
+      "admissible_triples_checked": 58500,
+      "per_word_slices": 2159796
+    },
+    {
+      "file": "parity-discovery-1.json",
+      "principal_factors": 1,
+      "even_principal": true,
+      "classes_per_leg": 108,
+      "one_leg_dimension": 720896,
+      "admissible_triples_checked": 19000,
+      "per_word_slices": 384768
+    },
+    {
+      "file": "parity-discovery-2.json",
+      "principal_factors": 2,
+      "even_principal": true,
+      "classes_per_leg": 136,
+      "one_leg_dimension": 1982464,
+      "admissible_triples_checked": 42000,
+      "per_word_slices": 898096
+    },
+    {
+      "file": "parity-discovery-3.json",
+      "principal_factors": 3,
+      "even_principal": true,
+      "classes_per_leg": 100,
+      "one_leg_dimension": 5451776,
+      "admissible_triples_checked": 30940,
+      "per_word_slices": 2159796
+    }
+  ],
+  "weight_limit": 6,
+  "weight_vectors_checked": 3372,
+  "best_cube_slice_upper_bound": 6155844,
+  "improves_previous_cube_bound": false,
+  "class_cover_optimality_certified": false,
+  "scope": "Fixed saved basis and cover, finite cube only; no global exclusion.",
+  "exponent_improvement": false
+}
