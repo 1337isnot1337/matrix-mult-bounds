@@ -54,3 +54,11 @@ new witness, proof of its uniform rank consequence, and exact checks. If
 search finds no improvement, report only the actual finite coverage and
 retain the external baseline attribution. No new mathematical claim is
 established by this initial question record.
+
+## Recorded outcome
+
+The secondary nine-coordinate question has a positive answer: the
+exported 29-product family and proof.md establish its exact uniform rank
+identity and strict cost-per-output improvement over the external 28
+comparison. The first correction-free 15 question remains open. No
+smaller matrix multiplication exponent follows.

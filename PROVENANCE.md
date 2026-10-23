@@ -987,3 +987,23 @@ class hypergraph and a finite integer-weight census. Optional SciPy
 optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
+
+
+## Exact 29-product independent aggregation family
+
+The family and independent acceptance program in
+`research/ai/2026-10-23-aggregation-families/` are owner-directed Codex
+work. Solomonik and Blaeser, arXiv:2610.26563v2 (2026-10-22), retain
+credit for the centered, corrected aggregation mechanism and the
+28-product external comparison witness. Their paper also records its
+own predecessors; no priority for the underlying mechanism is claimed
+here. The external ancillary witness is included as attributed numerical
+data with its public versioned URL and SHA256 in sources.json.
+The previous local centered-orientations note used version 1 for a
+different shared-input construction. The new contribution is the explicit
+29-product family, its complete combinatorial certificate, and the
+strict uniform comparison of the two stated cost bounds. The rational
+dual-embedding proof rederives the credited construction for this family.
+Separate programs and exact finite-field controls are same-session
+verification, not independent mathematical review or formalization.
+No smaller exponent or historical priority is claimed.

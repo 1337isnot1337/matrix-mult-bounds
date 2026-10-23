@@ -2297,3 +2297,22 @@ polynomial-rank-locus note already excluded all four A5 ordinary targets;
 this scan updates the stale minimum-only research queue and retains that
 prior credit. A separate corner-minor note rederives the existing rank
 inequality, without claiming a new general theorem or independent review.
+
+
+## October 23: exact independent-product aggregation
+
+The [29-product construction](research/ai/2026-10-23-aggregation-families/proof.md)
+gives, over every characteristic-zero field and every n>=1,
+rank(M(n^3,n^3,n^3)^direct_sum29) <= x^9+9x^8+36x^7+3x^6, x=n+1.
+This improves the attained 28-product comparison family in Solomonik and
+Blaeser arXiv:2610.26563v2. Its cost bound per output is strictly smaller
+for every n: 29*r28-28*r29=x^6*(x^3+9x^2+7x+32)>0.
+All 24,389 ordered mixed triples and all 48 correction subsets are checked
+exactly by a separate set-based verifier. A finite-field control also
+evaluates all 159,651 rank-one terms at n=2 for one exact assignment
+over F101; it is an implementation control.
+The external aggregation mechanism retains credit. This is a positive
+finite construction with a written unreviewed uniform rank proof; it
+does not provide a polynomial-source restriction or an exponent below 9/4.
+No optimality, historical priority, independent review or formalization
+is claimed. Claim: AI-AGGREGATION-29-001.

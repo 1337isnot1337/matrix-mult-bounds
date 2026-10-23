@@ -1,0 +1,28 @@
+{
+  "focused_tests": {
+    "command": "python -m unittest discover -s tests -p test_aggregation_families.py -v",
+    "passed": 6,
+    "failures": 0
+  },
+  "exact_verifier": {
+    "command": "python research/ai/2026-10-23-aggregation-families/verify.py",
+    "accepted": true,
+    "ordered_mixed_triples": 24389
+  },
+  "tensor_control": {
+    "command": "python research/ai/2026-10-23-aggregation-families/evaluate.py",
+    "accepted": true,
+    "scope": "One exact full scalar assignment over F101, not all coefficient positions",
+    "rank_one_terms_enumerated": 159651
+  },
+  "archived_replay": {
+    "command": "python tools/replay.py",
+    "passed_reports": 5,
+    "success": true
+  },
+  "full_regression_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "status": "running_at_initial_checkpoint"
+  },
+  "independent_mathematical_review": false
+}
