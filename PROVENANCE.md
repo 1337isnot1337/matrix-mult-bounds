@@ -10,6 +10,59 @@ rank-open loci and regular Laurent basis arguments are explained in the
 proof without a historical priority claim. No independent mathematical
 review, general singular-unit exclusion or exponent improvement is claimed.
 
+The `2026-10-23-conic-fixed-two-curve` package is owner-directed
+OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
+constant, first and second map and its zero first two kernel corrections;
+those original bytes are pinned. The new construction moves a gauge
+vector and projects two boundary cores onto exact kernel conditions.
+Their projection residuals start at order three, preserving the complete
+two-jet. Acceptance uses its own exact Laurent parser and contracts the
+literal4096-term source without importing the constructor or earlier
+contraction code. A separate standard-library sparse reconstruction
+matches all saved coefficients. These internal checks do not constitute
+independent external mathematical review or formalization. Concurrent
+PR123 retains its separate exact d=0 construction with different lower
+coefficients. No full matrix target, historical priority or exponent gain
+is claimed.
+
+The `2026-10-23-conic-fixed-first-curve` package is owner-directed
+OpenAI Codex work. It retains the original source and PR107's full first
+jet with exact byte pins, and builds on the preceding polynomial-core
+identity. Moving both gauge roots and compensating both boundary cores
+are the local additions; they preserve the prescribed full first jet.
+Acceptance reuses only pinned exact arithmetic and source-contraction
+helpers, with a separate source contraction during the same session.
+These checks are not independent mathematical review. The complete
+polynomial identity proves the local incidence statement; no full matrix
+target, formalization, historical priority or exponent gain is claimed.
+
+The `2026-10-23-conic-polynomial-curve` package is owner-directed OpenAI
+Codex work. PR101 retains credit for the canonical source, affine conic
+base and normal-class interpretation; PR107 at86b5142 retains credit for
+the literal constant maps and specified normal coefficients. The local
+addition is a polynomial rank-one gauge cancellation giving a complete
+all-order incidence curve with changed boundary velocity. Source and
+witness bytes are pinned, and a separate acceptance implementation checks
+the entire finite-degree product. Concurrent PR123 already supplies an
+exact d=0 curve preserving its own lower jet; it is context, not a premise.
+The generating session's cross-checks do not establish independent
+mathematical review or formalization. No full target or exponent gain.
+The all-order criterion retains PR101's credit for the complete
+second-order necessity and exact linear-component curves; its sufficiency
+on the cubic component is a corollary of the new polynomial identity.
+
+The `2026-10-23-conic-higher-jets` package is owner-directed OpenAI Codex
+work. PR101 retains credit for the literal source, conic base, tangent
+fields and operators. PR107 at `86b5142` retains credit for the mixed
+third-order family, its coefficients through order two, and its source
+replay design. The new third correction, fourth coefficients and
+rational continuation through order ten are local additions. Source
+files and predecessor witnesses have exact byte pins. Acceptance uses
+the literal source without importing the tangent solver. The verifiers
+come from the same generating session; their separate implementation
+does not constitute independent mathematical review or formalization.
+No all-order mixed curve, full matrix target or exponent gain is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
@@ -904,6 +957,20 @@ arbitrary-field formulation in arXiv:1507.05375v2, Theorem 1.1. The local
 note derives the required finite matrix-multiplication slice rank from
 that theorem. No historical priority, independent mathematical review,
 Lean formalization or exponent improvement is claimed.
+
+## Conic third-order continuation
+
+The rational point and mixed-component three-jet family in
+`research/ai/2026-10-23-conic-third-jets/` are owner-directed Codex work.
+PR101 and its predecessors retain credit
+for the canonical source, conic base, first jet, and complete tangent
+operators used in discovery. The new standard-library verifier rebuilds
+the literal source and checks the rational point without importing
+those operators or the symbolic solver. A second independent verifier
+uses that literal source contraction with SymPy rational functions to
+check the full d-nonzero family and its constant leading minors. Neither
+implementation constitutes independent mathematical review. No new
+external theorem, all-order construction or exponent improvement is claimed.
 
 ## Actual nonsplit finite covers
 
