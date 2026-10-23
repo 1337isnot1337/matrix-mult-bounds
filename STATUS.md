@@ -1,5 +1,24 @@
 # Research status
 
+## Complete ordered monomial scopes and recognition audit
+
+The [independent monomial audit](research/ai/2026-10-23-ordered-monomial-audit/README.md)
+replays all 60 retained exact PR118 certificates at its pinned head and
+completes both input orientations of the finite exhaustive searches.
+It checks 24,708 binary and 370,252 ternary weight pairs, adding 172,292
+previously omitted a>b cases. Neither scope has a scored violation; both
+exact maxima are 1. Input exchange can change this lower-bound score, so
+the original a<=b restriction must remain explicit. Claim
+`EXP-ORDERED-MONOMIAL-AUDIT-001` is a finite experiment.
+
+The accompanying [recognition proof](research/ai/2026-10-23-ordered-monomial-audit/recognition.md)
+shows that order and reversal tests already detect every complete convolution
+support obtainable by arbitrary coordinate relabeling inside i+j=k, at all
+sizes. Claim `AI-ADDITION-SUPPORT-RECOGNITION-001` is written and unreviewed.
+Brute-force bijections agree on all 511 nonempty subsets of C(3,3).
+Stronger sector bounds, arbitrary weights and general basis changes remain
+open. No tensor character or smaller exponent follows.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

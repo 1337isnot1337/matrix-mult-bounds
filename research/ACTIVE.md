@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The ordered monomial audit on `research/continuation-01a16975` is recorded in
+`ai/2026-10-23-ordered-monomial-audit/QUESTION.md`. Its independent checker
+replays all 60 retained PR118 records and completes 394,960 binary/ternary
+ordered cases, including 172,292 new a>b cases, without a scored violation.
+An elementary recognition proof closes arbitrary coordinate relabeling as
+a way to turn a rejected addition-support sector into one full convolution.
+Eight focused tests pass, including all-bijection checks on 511 supports.
+Full regression and archive replay are pending. Further R6 work needs a
+stronger sector bound or a changed support/basis class. The all-size proof
+is written and unreviewed; no exponent improvement is claimed.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

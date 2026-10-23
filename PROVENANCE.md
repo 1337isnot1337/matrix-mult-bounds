@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-ordered-monomial-audit` package is owner-directed Codex work.
+It retains the historical monomial degeneration, scalar profile and sector
+scoring model's attribution. PR118 at its pinned commit supplies the reviewed
+exact certificates and the input-orientation warning. The local continuation
+implements a separate flood-fill and literal-support replay, completes the
+omitted ordered finite scopes, and proves an elementary all-size recognition
+lemma. All source hashes are recorded; no archive bytes are changed. The
+computational replay is independent of the producer implementation, but is
+not a human mathematical review or a review of the spectral premises. The
+new proof remains unreviewed; no historical priority, formalization or
+exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

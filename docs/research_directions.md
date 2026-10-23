@@ -133,6 +133,17 @@ Deliver a dependency map with cited lemmas and a candidate constraint absent fro
 
 ## R6: Make search results stronger and reusable
 
+The [ordered monomial audit](../research/ai/2026-10-23-ordered-monomial-audit/README.md)
+independently replays the pinned PR118 exact certificates and checks both
+orders of the input dimensions in the existing binary/ternary scopes.
+All 394,960 cases are nonviolating. The first input is distinguished, so
+the historical a<=b scope must not be silently treated as both orders.
+Its [recognition lemma](../research/ai/2026-10-23-ordered-monomial-audit/recognition.md)
+proves that arbitrary coordinate permutations cannot improve exact single
+convolution recognition inside addition supports beyond the current
+ordering/reversal tests. Stronger bounds for rejected sectors or actual
+changes of basis remain possible. This does not prove an all-weight bound.
+
 Status: open. Replace floating best-case ordering in a maintained search copy with exact rational ordering. Add canonical support certificates and replayable witnesses. Preserve the historical code unchanged.
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
