@@ -76,16 +76,24 @@
     }
   },
   "full_regression_suite": {
-    "command": "python -m unittest discover -s tests -v",
-    "status": "running_at_106_checkpoint",
-    "launch_base_commit": "bd03b9d",
-    "launch_aggregation_code_matches_commit": "c40d4b5",
-    "launch_test_files": 210,
-    "aggregation_cases_loaded_at_launch": 6,
-    "launch_aggregation_test_module_sha256": "f1f2da3a2b3d77c61cf58ec8c28551891c22fe1492aade4dc1586d6fa7dcd9bb",
-    "completed_case_lines_at_checkpoint": 415,
-    "failures_or_errors_observed_at_checkpoint": 0,
-    "scope": "Launched before source-hash, cost-scope, and 106 updates. Discovery imported the older six aggregation cases; later files changed while the suite ran. This is not a complete frozen-final-tree regression claim."
+    "status": "passed_combined_exact_coverage",
+    "code_checkpoint": "f802c00d04c3f64c7436b4c9d4da67b81a1834b8",
+    "code_tree": "ca5f7ce98a9f306e71bb5f0270cfd5b39581a695",
+    "command": "python -m unittest discover -s tests -v, followed by two recorded remainder shards",
+    "expected_tests": 908,
+    "covered_tests": 908,
+    "retained_baseline_prefix_tests": 448,
+    "superseded_old_aggregation_tests": 6,
+    "final_focused_aggregation_tests": 11,
+    "remaining_shard_tests": [
+      225,
+      224
+    ],
+    "failures": 0,
+    "errors": 0,
+    "skipped_tests": 0,
+    "receipt": "validation/combined_report.json",
+    "scope": "Combined exact coverage, not one monolithic frozen run. The six old aggregation cases are discarded; the final eleven-case focused pass replaces them. Every other test and implementation source is unchanged from the launch baseline. Both remainder shards ran on frozen f802c00, with HEAD/tree and clean-worktree checks before and after. The three changed files outside the aggregation package/module are documentation and the claim ledger; its reader passed on the frozen checkpoint."
   },
   "independent_mathematical_review": false,
   "exact_cost_scope": {

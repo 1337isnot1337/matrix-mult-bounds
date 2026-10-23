@@ -1,0 +1,60 @@
+{
+  "status": "passed_combined_exact_coverage",
+  "code_checkpoint": "f802c00d04c3f64c7436b4c9d4da67b81a1834b8",
+  "code_tree": "ca5f7ce98a9f306e71bb5f0270cfd5b39581a695",
+  "expected_tests": 908,
+  "covered_tests": 908,
+  "retained_baseline_prefix_tests": 448,
+  "superseded_old_aggregation_tests": 6,
+  "final_focused_aggregation_tests": 11,
+  "remaining_shard_tests": [
+    225,
+    224
+  ],
+  "remaining_shard_seconds": [
+    290.462,
+    349.972
+  ],
+  "failures": 0,
+  "errors": 0,
+  "skipped_tests": 0,
+  "coverage_sets_pairwise_disjoint": true,
+  "coverage_union_equals_final_discovery": true,
+  "full_monolithic_run_claimed": false,
+  "prefix_command": "python -m unittest discover -s tests -v",
+  "prefix_exit_code": 130,
+  "prefix_total_successes_before_replacement": 454,
+  "interrupted_case_completed_in_shards": "test_mixed_two_coordinate_chart.TwoCoordinateTests.test_changed_polynomial_normal_is_rejected",
+  "prefix_successes_with_interleaved_stdout": [
+    "test_graded_quantum_flags.GradedQuantumFlagTests.test_all_number_field_supports_and_modular_minors_replay",
+    "test_higher_jet_quantum_flags.HigherJetQuantumTests.test_all_256_block_certificates_replay"
+  ],
+  "source_comparison": {
+    "launch_code_matches_commit": "c40d4b59ea3658b53e85d525bb5fe7fa71ebeab4",
+    "unchanged_baseline_test_files": 209,
+    "unchanged_baseline_implementation_and_test_sources": 743,
+    "unchanged_tracked_paths": 2979,
+    "direct_comparison_to_baseline_bd03b9d_passed": true,
+    "full_git_object_difference_receipt": "plan.json",
+    "changed_claim_ledger_checked_on_frozen_checkpoint": "test_research.RepositoryTests.test_claim_ledger_status"
+  },
+  "scope": "Combined exact coverage, not one monolithic frozen run. The six old aggregation cases are discarded; the final eleven-case focused pass replaces them. Every other test and implementation source is unchanged from the launch baseline. Both remainder shards ran on frozen f802c00, with HEAD/tree and clean-worktree checks before and after. The three changed files outside the aggregation package/module are documentation and the claim ledger; its reader passed on the frozen checkpoint.",
+  "archived_replay": {
+    "passed_reports": 5,
+    "implementation_unchanged_from_launch": true,
+    "log": "replay-preserved.log"
+  },
+  "file_sha256": {
+    "remaining_tests.py": "71f5a0a7cdb69ec449f60a6577bc14f9313059698b6a69df09158f51101c9e18",
+    "finalize_validation.py": "8fca973d022035d3bd52e51622cc772140ce17a7544bbc6c5206eb4a711415ce",
+    "plan.json": "dac55b94566bd7c8024d223ebb95783bc2e08c10a1fedae88cc63c99e53e090b",
+    "full-tests-prefix.log": "eb2861f60e442fe5986ae45455a1437aa9c9004ef469c0655a2b375eea344126",
+    "focused-tests-frozen.log": "bb77ac4274de5982c80a16857273fc3e5ab818dc8b9c3f41197d2884b30f8a28",
+    "shard-0.log": "1a9b1de71f960d5b0e84188b4ca330cfb8da987c6cd7b16240beaa48ec7977d8",
+    "shard-0.json": "38883b941252acfa59bf5a1f1ccc38fafaeead1c651795f2bb49b54ce561bfbb",
+    "shard-1.log": "206cff8b5fbd2f976f7d65eca3edc8b726e0571236dd249695f0b9cc71d80feb",
+    "shard-1.json": "447903ffcc4b044cc63ace03b2948215a54baa8d184867871c9d3a390732024b",
+    "replay-preserved.log": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "independent_mathematical_review": false
+}
