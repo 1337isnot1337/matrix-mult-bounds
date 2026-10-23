@@ -12,6 +12,15 @@ parameter denominator. Constant minors1,1,-1 certify leading ranks14,14
 and formal first-source rank12 for every parameter specialization.
 No full matrix target or exponent improvement is established.
 
+The [all-order criterion](all_order_criterion.md), claim
+`AI-CONIC-ALL-ORDER-CRITERION-002`, combines this construction with
+PR101's complete two-jet necessity and exact linear-component curves.
+For every affine complex base a,b,c and every nonzero projective normal
+class `[lambda:mu]`, some representative extends to all orders if and
+only if `(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. Every allowed class has a
+polynomial representative of degrees at most one and three. The
+boundary velocity may be chosen; prescribed full jets are not classified.
+
 From the repository root, with the maintained requirements installed:
 
 ```sh

@@ -45,6 +45,13 @@ fourteen-row maps. It does not construct the full matrix target
 \(M(10,10,11)\), a tensor degeneration to that target, or an improved
 matrix multiplication exponent.
 
+Together with PR101's complete two-jet necessity and its exact
+linear-component curves, this gives the
+[complete all-order existence criterion](all_order_criterion.md) for
+normal classes on the affine conic base. That corollary treats every
+projective normal direction and explicitly allows a suitable boundary
+velocity; it does not classify prescribed full jets.
+
 ## Canonical source and paired-row encoding
 
 Write \(\iota(u,v,z)=28u+7v+z\). The canonical integer source has the

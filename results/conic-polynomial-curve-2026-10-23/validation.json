@@ -26,5 +26,20 @@
   "full_repository_regression": "Deferred to integrating branch/CI; not claimed by this focused report",
   "independent_mathematical_review": false,
   "matrix_target_constructed": false,
-  "exponent_improvement": false
+  "exponent_improvement": false,
+  "all_order_criterion_corollary": {
+    "claim_id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+    "status": "written-unreviewed",
+    "imported_claims": [
+      "AI-CONIC-TANGENT-001",
+      "AI-CONIC-SECOND-JET-002",
+      "AI-CONIC-POLYNOMIAL-JET-003"
+    ],
+    "new_computation_required": false,
+    "source_pin_checks": "passed in focused regression",
+    "focused_test_count": 7,
+    "focused_test_seconds": 5.598,
+    "log": "results/conic-polynomial-curve-2026-10-23/corollary-focused-tests.log.gz",
+    "proof_scope": "Complete projective normal-class existence criterion over the affine complex conic base, allowing a suitable boundary velocity; no prescribed full-jet extension claim."
+  }
 }
