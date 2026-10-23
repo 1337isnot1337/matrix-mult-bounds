@@ -1,5 +1,20 @@
 # Integrated research coordination
 
+The next A4 target checkpoint is
+ai/2026-10-23-all-pair-rank136/proof.md: all three individually
+balanced leading-rank pairs sum to at most 136, so the total is at most
+204 and short rank 100 forces both long ranks at most 36. Its retained
+144 prerequisite includes a self-contained seven-ideal proof of the
+needed compression-kernel cap nine at defects (12,12), with explicit
+PR151 credit. The source package
+ai/2026-10-23-rank84-rank88-spaces/proof.md settles sharp dimensions
+56 below rank 84 and 60 below rank 88 by complete layer-volume cases.
+Do not seek smaller universal caps at those same strict thresholds.
+The exact profile, minor, matching and integer-pair controls pass.
+The next source investigation is at strict ranks 92 and 96, checking
+staircase lower bounds before any proposed upper cap. Actual target
+construction remains open; all theorem claims remain unreviewed.
+
 The sharp rank-80 checkpoint is in
 `ai/2026-10-23-rank80-sharp-spaces/proof.md`: the maximum source-space
 dimension is exactly 44 when every slice has rank below 80. All 1,709

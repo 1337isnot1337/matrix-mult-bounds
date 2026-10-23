@@ -1,5 +1,35 @@
 # Research status
 
+## Every balanced A4 leading-rank pair sums to at most 136
+
+The [all-pair theorem](research/ai/2026-10-23-all-pair-rank136/proof.md)
+forces a+b, a+c, and b+c to be at most 136 in every complete complex
+Laurent A4 to M(10,10,11) presentation, where a is the short-leg leading
+rank and each map is individually scalar balanced. Thus a+b+c<=204,
+and a=100 forces both long leading ranks to be at most 36. The combined
+leading rank loss is at least 320-204=116. The unselected map may have
+arbitrary finite Laurent poles; arbitrary leading kernels and higher
+coefficients remain allowed.
+
+Two [sharp source theorems](research/ai/2026-10-23-rank84-rank88-spaces/proof.md)
+give maximum dimensions 56 below slice rank 84 and 60 below slice rank
+88. The sharp examples attain ranks 80 and 84. Three disjoint middle
+block pairs and exhaustive layer-size cases prove the upper bounds.
+The [preceding all-pair 144 theorem](research/ai/2026-10-23-all-pair-rank144/proof.md)
+closes the exceptional mixed rank pair (100,100) with a seven-ideal
+compression certificate, using incidence-preserving lowering and a
+second torus with distinct matrix-leg weights. It credits PR151's
+earlier universal compression result and matching method.
+
+Claims AI-A4-RANK84-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK88-SHARP-LINEAR-SPACE-001, AI-A4-ALL-PAIR-RANK144-001,
+and AI-A4-ALL-PAIR-RANK136-001 remain written and unreviewed.
+Exact acceptance checks the 245,157 layer profiles, all thirteen small
+and sharpness minors, seven matching/forced-cover certificates, and
+20,706 integer target-rank pairs. Source sharpness does not imply
+sharpness or attainability of the necessary target bounds. No full
+matrix target or improved exponent is established.
+
 ## Sharp source dimension 44 below slice rank 80
 
 The [sharp rank-80 source theorem](research/ai/2026-10-23-rank80-sharp-spaces/proof.md)

@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The October 23 all-pair-rank144, rank84-rank88-spaces, and
+all-pair-rank136 packages are owner-directed OpenAI Codex work.
+Canonical source coefficients, the saturated-support argument,
+lowering identities, prior source caps, coherent minors and staircase
+examples retain their original credit and exact byte pins.
+PR151 at f509561d retains credit for its earlier low-defect compression
+bound and matching/forced-cover method. The smaller special-case proof
+here adds an incidence-preserving compactness argument and lowering
+reduction to seven ideals; it does not import PR151's 8,008-subset data.
+The new layer-volume arguments prove sharp source dimensions 56 and 60,
+and the target applications force every balanced pair sum at most 144
+and then 136. Separately implemented exact checks and internal algebra
+audits support these written proofs but are not independent external
+mathematical review or formalization. No target sharpness, historical
+priority, complete target construction or exponent gain is claimed.
+
 The `2026-10-23-rank80-sharp-spaces` package is owner-directed OpenAI
 Codex work. The literal cyclic source, characteristic-zero order-ideal
 reduction and preceding coherent minors retain their original credit
