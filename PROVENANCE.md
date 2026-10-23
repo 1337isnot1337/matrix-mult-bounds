@@ -910,11 +910,11 @@ legs stay fixed. The proof gives an all-size full-rank projected
 flattening, remains unreviewed, and does not cover changes to either
 long-leg map or improve the exponent.
 
-The `2026-10-23-q64-inner-shifted-coordinates` package treats the adjacent
-inner-index translations on both long legs. It proves a first-leg
-flattening rank lower bound `n^2-2` for every first-leg map. The argument
-and exact rational finite replay remain unreviewed and do not improve the
-exponent.
+The `2026-10-23-q64-inner-shifted-coordinates` package treats all four
+choices of zero or inner-index translation on the two long legs. For every
+first-leg map, it proves rank at least `n^2-1-epsilon_B*epsilon_C`. The
+argument and exact rational finite replay remain unreviewed and do not
+improve the exponent.
 
 ## Nonsplit vector-degree finite continuation
 

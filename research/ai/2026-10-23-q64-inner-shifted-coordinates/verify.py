@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact finite controls for the inner-index shifted coordinate chart."""
+"""Exact finite controls for neighboring inner-index shifted charts."""
 
 import argparse
 from collections import defaultdict
@@ -9,6 +9,7 @@ from pathlib import Path
 
 
 MAPS = ("zero", "identity", "transpose", "rank-one", "diagonal-shift", "dense-rational")
+SHIFT_PAIRS = ((0, 0), (1, 0), (0, 1), (1, 1))
 
 
 def first_leg_map(n, name):
@@ -40,14 +41,15 @@ def first_leg_map(n, name):
     return result
 
 
-def correction(n, first_map):
+def correction(n, first_map, epsilon_b, epsilon_c):
     out = defaultdict(Fraction)
     for p in range(n):
         for q in range(n):
             source = p * n + q
             for y in range(4):
                 for v in range(4):
-                    s, z = q + v - y, p + y - v
+                    s = q + v - epsilon_b * y
+                    z = p + y - epsilon_c * v
                     if 0 <= s < n and 0 <= z < n:
                         for first, coefficient in enumerate(first_map[source]):
                             if coefficient:
@@ -71,7 +73,7 @@ def projected_matrix(n, tensor, inner_pair):
     return matrix
 
 
-def formula_matrix(n, first_map, inner_pair):
+def formula_matrix(n, first_map, inner_pair, epsilon_b, epsilon_c):
     y, v = inner_pair
     matrix = [[Fraction(0) for _ in range(n * n)] for _ in range(n * n)]
     for p in range(n):
@@ -80,10 +82,10 @@ def formula_matrix(n, first_map, inner_pair):
             if (y, v) == (0, 0):
                 s, z = q, p
                 matrix[s * n + z][s * n + z] += 1
-            elif (y, v) == (1, 0) and q >= 1 and p <= n - 2:
-                s, z = q - 1, p + 1
-            elif (y, v) == (0, 1) and q <= n - 2 and p >= 1:
-                s, z = q + 1, p - 1
+            elif (y, v) == (1, 0) and q >= epsilon_b and p <= n - 2:
+                s, z = q - epsilon_b, p + 1
+            elif (y, v) == (0, 1) and q <= n - 2 and p >= epsilon_c:
+                s, z = q + 1, p - epsilon_c
             else:
                 continue
             row = s * n + z
@@ -116,33 +118,43 @@ def rank(matrix):
 def verify(max_n):
     if type(max_n) is not int or max_n < 1:
         raise ValueError("max_n must be a positive integer")
-    records = []
-    for name in MAPS:
-        sizes = []
-        for n in range(1, max_n + 1):
-            first_map = first_leg_map(n, name)
-            tensor = correction(n, first_map)
-            blocks = []
-            for pair in ((0, 0), (1, 0), (0, 1)):
-                projected = projected_matrix(n, tensor, pair)
-                formula = formula_matrix(n, first_map, pair)
-                if projected != formula:
-                    raise AssertionError(f"coefficient formula disagrees for {name}, n={n}, pair={pair}")
-                blocks.extend(projected)
-            projected_rank = rank(blocks)
-            if projected_rank < max(n * n - 2, 0):
-                raise AssertionError(
-                    f"stacked projected rank {projected_rank} < {n*n-2} for {name}, n={n}"
-                )
-            sizes.append({"n": n, "stacked_projected_rank_over_Q": projected_rank})
-        records.append({"first_leg_map": name, "sizes": sizes})
+    cases = []
+    for epsilon_b, epsilon_c in SHIFT_PAIRS:
+        for name in MAPS:
+            projected_ranks = []
+            for n in range(1, max_n + 1):
+                first_map = first_leg_map(n, name)
+                tensor = correction(n, first_map, epsilon_b, epsilon_c)
+                blocks = []
+                for pair in ((0, 0), (1, 0), (0, 1)):
+                    projected = projected_matrix(n, tensor, pair)
+                    formula = formula_matrix(n, first_map, pair, epsilon_b, epsilon_c)
+                    if projected != formula:
+                        raise AssertionError(
+                            f"formula disagrees for eps=({epsilon_b},{epsilon_c}), {name}, n={n}, pair={pair}"
+                        )
+                    blocks.extend(projected)
+                projected_rank = rank(blocks)
+                lower_bound = max(n * n - 1 - epsilon_b * epsilon_c, 0)
+                if projected_rank < lower_bound:
+                    raise AssertionError(
+                        f"rank {projected_rank} < {lower_bound} for eps=({epsilon_b},{epsilon_c}), {name}, n={n}"
+                    )
+                projected_ranks.append(projected_rank)
+            cases.append({
+                "epsilon_b": epsilon_b,
+                "epsilon_c": epsilon_c,
+                "first_leg_map": name,
+                "stacked_projected_ranks_over_Q": projected_ranks,
+            })
     return {
         "claim": "AI-Q64-INNER-SHIFTED-COORDINATES-001",
         "exact_rational_replay": True,
+        "sizes": list(range(1, max_n + 1)),
         "projection": "stacked (0,0), (1,0), and (0,1) inner-coordinate blocks",
-        "all_size_argument": "proof.md, two cross-block source-functional exclusions and the matched block",
-        "first_leg_maps_tested": len(MAPS),
-        "cases": records,
+        "shift_pairs_tested": [list(pair) for pair in SHIFT_PAIRS],
+        "first_leg_maps_tested_per_shift_pair": len(MAPS),
+        "cases": cases,
         "general_q_maps_excluded": False,
         "exponent_improvement": False,
     }

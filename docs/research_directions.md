@@ -28,10 +28,11 @@ coordinate maps stay fixed: the correction flattening rank is `n^2`.
 Further work must change at least one long-leg map or use a different
 source family.
 
-The neighboring maps `B_(y,s)->b_(s-y,y)` and
-`C_(z,v)->c_(v,z-v)` are also excluded for arbitrary first-leg maps; their
-correction flattening rank is at least `n^2-2`. Other changes to the
-long-leg maps remain construction questions.
+The four neighboring charts `B_(y,s)->b_(s-epsilon_B*y,y)` and
+`C_(z,v)->c_(v,z-epsilon_C*v)` for `epsilon_B,epsilon_C in {0,1}` are
+also excluded for arbitrary first-leg maps; their correction flattening
+rank is at least `n^2-1-epsilon_B*epsilon_C`. Other changes to the long-leg
+maps remain construction questions.
 
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles

@@ -1,182 +1,345 @@
 {
   "claim": "AI-Q64-INNER-SHIFTED-COORDINATES-001",
   "exact_rational_replay": true,
+  "sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
   "projection": "stacked (0,0), (1,0), and (0,1) inner-coordinate blocks",
-  "all_size_argument": "proof.md, two cross-block source-functional exclusions and the matched block",
-  "first_leg_maps_tested": 6,
+  "shift_pairs_tested": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "first_leg_maps_tested_per_shift_pair": 6,
   "cases": [
     {
+      "epsilon_b": 0,
+      "epsilon_c": 0,
       "first_leg_map": "zero",
-      "sizes": [
-        {
-          "n": 1,
-          "stacked_projected_rank_over_Q": 1
-        },
-        {
-          "n": 2,
-          "stacked_projected_rank_over_Q": 4
-        },
-        {
-          "n": 3,
-          "stacked_projected_rank_over_Q": 9
-        },
-        {
-          "n": 4,
-          "stacked_projected_rank_over_Q": 16
-        },
-        {
-          "n": 5,
-          "stacked_projected_rank_over_Q": 25
-        },
-        {
-          "n": 6,
-          "stacked_projected_rank_over_Q": 36
-        }
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
       ]
     },
     {
+      "epsilon_b": 0,
+      "epsilon_c": 0,
       "first_leg_map": "identity",
-      "sizes": [
-        {
-          "n": 1,
-          "stacked_projected_rank_over_Q": 0
-        },
-        {
-          "n": 2,
-          "stacked_projected_rank_over_Q": 2
-        },
-        {
-          "n": 3,
-          "stacked_projected_rank_over_Q": 7
-        },
-        {
-          "n": 4,
-          "stacked_projected_rank_over_Q": 14
-        },
-        {
-          "n": 5,
-          "stacked_projected_rank_over_Q": 23
-        },
-        {
-          "n": 6,
-          "stacked_projected_rank_over_Q": 34
-        }
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
       ]
     },
     {
+      "epsilon_b": 0,
+      "epsilon_c": 0,
       "first_leg_map": "transpose",
-      "sizes": [
-        {
-          "n": 1,
-          "stacked_projected_rank_over_Q": 0
-        },
-        {
-          "n": 2,
-          "stacked_projected_rank_over_Q": 2
-        },
-        {
-          "n": 3,
-          "stacked_projected_rank_over_Q": 7
-        },
-        {
-          "n": 4,
-          "stacked_projected_rank_over_Q": 14
-        },
-        {
-          "n": 5,
-          "stacked_projected_rank_over_Q": 23
-        },
-        {
-          "n": 6,
-          "stacked_projected_rank_over_Q": 34
-        }
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
       ]
     },
     {
+      "epsilon_b": 0,
+      "epsilon_c": 0,
       "first_leg_map": "rank-one",
-      "sizes": [
-        {
-          "n": 1,
-          "stacked_projected_rank_over_Q": 0
-        },
-        {
-          "n": 2,
-          "stacked_projected_rank_over_Q": 4
-        },
-        {
-          "n": 3,
-          "stacked_projected_rank_over_Q": 9
-        },
-        {
-          "n": 4,
-          "stacked_projected_rank_over_Q": 16
-        },
-        {
-          "n": 5,
-          "stacked_projected_rank_over_Q": 25
-        },
-        {
-          "n": 6,
-          "stacked_projected_rank_over_Q": 36
-        }
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
       ]
     },
     {
+      "epsilon_b": 0,
+      "epsilon_c": 0,
       "first_leg_map": "diagonal-shift",
-      "sizes": [
-        {
-          "n": 1,
-          "stacked_projected_rank_over_Q": 0
-        },
-        {
-          "n": 2,
-          "stacked_projected_rank_over_Q": 3
-        },
-        {
-          "n": 3,
-          "stacked_projected_rank_over_Q": 8
-        },
-        {
-          "n": 4,
-          "stacked_projected_rank_over_Q": 15
-        },
-        {
-          "n": 5,
-          "stacked_projected_rank_over_Q": 24
-        },
-        {
-          "n": 6,
-          "stacked_projected_rank_over_Q": 35
-        }
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
       ]
     },
     {
+      "epsilon_b": 0,
+      "epsilon_c": 0,
       "first_leg_map": "dense-rational",
-      "sizes": [
-        {
-          "n": 1,
-          "stacked_projected_rank_over_Q": 1
-        },
-        {
-          "n": 2,
-          "stacked_projected_rank_over_Q": 4
-        },
-        {
-          "n": 3,
-          "stacked_projected_rank_over_Q": 9
-        },
-        {
-          "n": 4,
-          "stacked_projected_rank_over_Q": 16
-        },
-        {
-          "n": 5,
-          "stacked_projected_rank_over_Q": 25
-        },
-        {
-          "n": 6,
-          "stacked_projected_rank_over_Q": 36
-        }
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 0,
+      "first_leg_map": "zero",
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 0,
+      "first_leg_map": "identity",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 0,
+      "first_leg_map": "transpose",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 0,
+      "first_leg_map": "rank-one",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 0,
+      "first_leg_map": "diagonal-shift",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 0,
+      "first_leg_map": "dense-rational",
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 0,
+      "epsilon_c": 1,
+      "first_leg_map": "zero",
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 0,
+      "epsilon_c": 1,
+      "first_leg_map": "identity",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
+      ]
+    },
+    {
+      "epsilon_b": 0,
+      "epsilon_c": 1,
+      "first_leg_map": "transpose",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
+      ]
+    },
+    {
+      "epsilon_b": 0,
+      "epsilon_c": 1,
+      "first_leg_map": "rank-one",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 0,
+      "epsilon_c": 1,
+      "first_leg_map": "diagonal-shift",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 0,
+      "epsilon_c": 1,
+      "first_leg_map": "dense-rational",
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 1,
+      "first_leg_map": "zero",
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 1,
+      "first_leg_map": "identity",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        2,
+        7,
+        14,
+        23,
+        34
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 1,
+      "first_leg_map": "transpose",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        2,
+        7,
+        14,
+        23,
+        34
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 1,
+      "first_leg_map": "rank-one",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        4,
+        9,
+        16,
+        25,
+        36
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 1,
+      "first_leg_map": "diagonal-shift",
+      "stacked_projected_ranks_over_Q": [
+        0,
+        3,
+        8,
+        15,
+        24,
+        35
+      ]
+    },
+    {
+      "epsilon_b": 1,
+      "epsilon_c": 1,
+      "first_leg_map": "dense-rational",
+      "stacked_projected_ranks_over_Q": [
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
       ]
     }
   ],

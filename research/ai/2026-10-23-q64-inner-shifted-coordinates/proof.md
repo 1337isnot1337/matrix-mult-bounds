@@ -1,4 +1,4 @@
-# The inner-index shifted long-leg chart has a quadratic correction
+# Neighboring inner-index shifted long-leg charts have quadratic corrections
 
 October 23, 2026. Written, unreviewed, owner-directed Codex research.
 
@@ -18,61 +18,71 @@ M(n,4,n)=\sum_{i,h=0}^{n-1}\sum_{j=0}^{3}
  a_{i,h}b_{i,j}c_{j,h}.
 \]
 
-Let `U` be any linear map on the first leg. On the other legs use
+Choose `epsilon_B,epsilon_C` in `{0,1}`. Let `U` be any linear map
+on the first leg, and use
 \[
-B_{y,s}\mapsto b_{s-y,y},\qquad
-C_{z,v}\mapsto c_{v,z-v},
+B_{y,s}\mapsto b_{s-\epsilon_B y,y},\qquad
+C_{z,v}\mapsto c_{v,z-\epsilon_C v},
 \]
-when the displayed target index is between `0` and `n-1`, and zero
-otherwise. Define `ell_(p,q)(x)=<x,U(A_(p,q))>` for a first-leg
-flattening input `x=(x_(i,h))`. Let `D_n` be the target tensor minus
-the source image under these maps.
+when the displayed target index lies in `[0,n-1]`, and zero otherwise.
+For a first-leg flattening input `x`, put
+`ell_(p,q)(x)=<x,U(A_(p,q))>`. Let `D_n` be the target tensor minus
+the source image.
 
-## Two off-diagonal coordinate blocks
+## Off-diagonal source functionals
 
-The coefficient of `b_(q-1,1)c_(0,p+1)` in `D_n(x)` is
-`-ell_(p,q)(x)` whenever `q>=1` and `p<=n-2`. Its only source
-contribution has `(y,v)=(1,0)`, so no target term occurs and no other
-source coordinate contributes to this monomial.
+For inner indices `(y,v)=(1,0)`, the source term indexed by `(p,q)`
+maps to
+\[
+b_{q-\epsilon_B,1}c_{0,p+1}.
+\]
+It is valid when `q>=epsilon_B` and `p<=n-2`. The target has no term
+with unequal inner indices, and the output monomial uniquely identifies
+`(p,q)`. Its correction coefficient is therefore
+`-ell_(p,q)(x)` on this region.
 
-Likewise, the coefficient of `b_(q+1,0)c_(1,p-1)` is
-`-ell_(p,q)(x)` whenever `q<=n-2` and `p>=1`. Its only source
-contribution has `(y,v)=(0,1)`, again with no target term.
+For `(y,v)=(0,1)`, the source term maps to
+\[
+b_{q+1,0}c_{1,p-\epsilon_C}.
+\]
+It is valid when `q<=n-2` and `p>=epsilon_C`. Again it is a unique
+off-diagonal monomial absent from the target, so its correction
+coefficient is `-ell_(p,q)(x)`.
 
-For `n>=2`, these two valid regions cover every source pair `(p,q)`
-except `(0,0)` and `(n-1,n-1)`. Therefore, if `x` lies in the kernel of
-the correction flattening, then
+When `n>=2`, these two regions cover every source pair except
+`(p,q)=(n-1,n-1)` and, when both shifts are active,
+`(p,q)=(0,0)`. Thus if `x` is in the correction-flattening kernel,
 \[
 ell_{p,q}(x)=0
-\quad\text{for all }(p,q)\notin\{(0,0),(n-1,n-1)\}.
+\quad\text{outside a set of size at most }1+\epsilon_B\epsilon_C.
 \tag{1}
 \]
 
 ## Matched block and rank bound
 
-For each `p,q`, the matched source term with `y=v=0` contributes to
-`b_(q,0)c_(0,p)`, whose target coefficient is `x_(q,p)`. Kernel
-membership therefore gives
+The matched term `(y,v)=(0,0)` always maps to
+`b_(q,0)c_(0,p)`. Its target coefficient is `x_(q,p)` and its source
+coefficient is `ell_(p,q)(x)`. Kernel membership yields
 \[
 x_{q,p}=ell_{p,q}(x).
 \tag{2}
 \]
-Together, (1) and (2) show that every kernel vector is supported only
-at the two target coordinates `(0,0)` and `(n-1,n-1)`. Thus the
-first-leg flattening kernel has dimension at most two, and
+By (1) and (2), a kernel vector can be supported only on at most
+`1+epsilon_B*epsilon_C` target coordinates. Hence, for `n>=2`,
 \[
-\operatorname{rank} D_n^{(1)}\ge n^2-2.
+\operatorname{rank}D_n^{(1)}
+\ge n^2-1-\epsilon_B\epsilon_C
+\ge n^2-2.
 \]
-For `n=1` the same numerical lower bound is trivial because the right
-side is negative; the flattening has nonnegative rank. For `n>=2` the
-argument above proves it directly.
+For `n=1`, the final lower bound `n^2-2` is negative and therefore
+holds trivially.
 
-Tensor border rank dominates flattening rank, and restriction cannot
-increase border rank. Any auxiliary tensor restricting to `D_n` must
-have border rank at least `n^2-2`, which is quadratic in `n`.
+Border rank dominates flattening rank, and restriction cannot increase
+border rank. An auxiliary tensor restricting to `D_n` must therefore
+have border rank at least `n^2-2`, which is quadratic as `n` grows.
 
-The proof allows arbitrary `U`, including singular maps. It concerns
-only the stated shifted maps on the two long legs. The accompanying
-finite replay checks six rational first-leg maps at `n=1,...,6`; it is
-not the all-size argument. No independent review, formalization, or
-exponent improvement is claimed.
+The argument permits arbitrary first-leg maps, including singular maps.
+The exact rational replay checks the identities for all four shift pairs,
+six first-leg maps and `n=1,...,6`; those finite cases are indexing
+controls, not the all-size argument. Other long-leg maps, independent
+review, formalization and exponent improvement are not claimed.
