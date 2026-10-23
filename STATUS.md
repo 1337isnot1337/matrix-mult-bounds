@@ -1,5 +1,21 @@
 # Research status
 
+## All-order A4 exclusion with a partial regular unit image
+
+The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
+extends the previous invertible-unit Laurent chart. A4 cannot degenerate
+to M(10,10,11) if one long map C is regular with full-rank limit, the
+source lift of the target identity is regular, and its limiting image
+`S(0) C(0)` has rank at least109. In particular, singular source units
+of corank one are included. Independent source frames and varying
+left inverses first force both other maps to be regular; the existing
+ordinary-map obstruction finishes the argument. Every finite pole order
+is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
+`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
+controls verify the rank budgets and projection recovery, without
+formalizing the proof. Rank108, singular long-leg limits and polar unit
+lifts remain open. No matrix target or smaller exponent is established.
+
 ## Complete affine conic tangents and second jets
 
 The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)
