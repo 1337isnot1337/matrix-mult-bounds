@@ -1,0 +1,271 @@
+{
+  "a4_rank_margins": [
+    {
+      "forces_regularity": true,
+      "retained": 110,
+      "source_defect": 2,
+      "strict_margins": {
+        "first_injectivity": 9,
+        "first_pole": 10,
+        "row_kernel_dimension": 2
+      },
+      "target_defect": 0
+    },
+    {
+      "forces_regularity": true,
+      "retained": 109,
+      "source_defect": 3,
+      "strict_margins": {
+        "first_injectivity": 6,
+        "first_pole": 7,
+        "row_kernel_dimension": 1
+      },
+      "target_defect": 1
+    },
+    {
+      "forces_regularity": false,
+      "retained": 108,
+      "source_defect": 4,
+      "strict_margins": {
+        "first_injectivity": 3,
+        "first_pole": 4,
+        "row_kernel_dimension": 0
+      },
+      "target_defect": 2
+    }
+  ],
+  "improves_omega": false,
+  "ordinary_rank_floor": 12,
+  "projection_recovery": [
+    {
+      "hidden_pole_rows_recovered": 1,
+      "left_inverses": 2,
+      "missing": 1,
+      "retained": 1
+    },
+    {
+      "hidden_pole_rows_recovered": 2,
+      "left_inverses": 3,
+      "missing": 2,
+      "retained": 1
+    },
+    {
+      "hidden_pole_rows_recovered": 3,
+      "left_inverses": 4,
+      "missing": 3,
+      "retained": 1
+    },
+    {
+      "hidden_pole_rows_recovered": 4,
+      "left_inverses": 5,
+      "missing": 4,
+      "retained": 1
+    },
+    {
+      "hidden_pole_rows_recovered": 1,
+      "left_inverses": 2,
+      "missing": 1,
+      "retained": 2
+    },
+    {
+      "hidden_pole_rows_recovered": 2,
+      "left_inverses": 3,
+      "missing": 2,
+      "retained": 2
+    },
+    {
+      "hidden_pole_rows_recovered": 3,
+      "left_inverses": 4,
+      "missing": 3,
+      "retained": 2
+    },
+    {
+      "hidden_pole_rows_recovered": 4,
+      "left_inverses": 5,
+      "missing": 4,
+      "retained": 2
+    },
+    {
+      "hidden_pole_rows_recovered": 1,
+      "left_inverses": 2,
+      "missing": 1,
+      "retained": 3
+    },
+    {
+      "hidden_pole_rows_recovered": 2,
+      "left_inverses": 3,
+      "missing": 2,
+      "retained": 3
+    },
+    {
+      "hidden_pole_rows_recovered": 3,
+      "left_inverses": 4,
+      "missing": 3,
+      "retained": 3
+    },
+    {
+      "hidden_pole_rows_recovered": 4,
+      "left_inverses": 5,
+      "missing": 4,
+      "retained": 3
+    },
+    {
+      "hidden_pole_rows_recovered": 1,
+      "left_inverses": 2,
+      "missing": 1,
+      "retained": 4
+    },
+    {
+      "hidden_pole_rows_recovered": 2,
+      "left_inverses": 3,
+      "missing": 2,
+      "retained": 4
+    },
+    {
+      "hidden_pole_rows_recovered": 3,
+      "left_inverses": 4,
+      "missing": 3,
+      "retained": 4
+    },
+    {
+      "hidden_pole_rows_recovered": 4,
+      "left_inverses": 5,
+      "missing": 4,
+      "retained": 4
+    }
+  ],
+  "proof_status": "proof-written-unreviewed",
+  "rank_budgets": [
+    {
+      "defect": 1,
+      "kind": "leading_slice",
+      "ranks": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "defect": 2,
+      "kind": "leading_slice",
+      "ranks": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "defect": 3,
+      "kind": "leading_slice",
+      "ranks": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "defect": 4,
+      "kind": "leading_slice",
+      "ranks": [
+        4,
+        8,
+        12
+      ]
+    },
+    {
+      "defect": 0,
+      "kind": "two_sided_compression",
+      "loss": 0,
+      "ranks": [
+        1,
+        1
+      ]
+    },
+    {
+      "defect": 1,
+      "kind": "two_sided_compression",
+      "loss": 2,
+      "ranks": [
+        3,
+        1
+      ]
+    },
+    {
+      "defect": 2,
+      "kind": "two_sided_compression",
+      "loss": 4,
+      "ranks": [
+        5,
+        1
+      ]
+    },
+    {
+      "defect": 3,
+      "kind": "two_sided_compression",
+      "loss": 6,
+      "ranks": [
+        7,
+        1
+      ]
+    }
+  ],
+  "regularized_products": [
+    {
+      "inner_dimension": 1,
+      "raw_constant_rank": 2,
+      "regularized_leading_rank": 1
+    },
+    {
+      "inner_dimension": 2,
+      "raw_constant_rank": 4,
+      "regularized_leading_rank": 2
+    },
+    {
+      "inner_dimension": 3,
+      "raw_constant_rank": 6,
+      "regularized_leading_rank": 3
+    },
+    {
+      "inner_dimension": 4,
+      "raw_constant_rank": 8,
+      "regularized_leading_rank": 4
+    }
+  ],
+  "scope": "Finite exact matrix controls; all-order result is written and unreviewed.",
+  "singular_units_without_source_rank_hypotheses": [
+    {
+      "long_dimension": 2,
+      "matrix_dimension": 4,
+      "one_projection_hides_pole": true,
+      "unit_corank": 1,
+      "unit_image_rank": 1,
+      "varied_projection_detects_pole": true
+    },
+    {
+      "long_dimension": 3,
+      "matrix_dimension": 5,
+      "one_projection_hides_pole": true,
+      "unit_corank": 1,
+      "unit_image_rank": 2,
+      "varied_projection_detects_pole": true
+    },
+    {
+      "long_dimension": 4,
+      "matrix_dimension": 6,
+      "one_projection_hides_pole": true,
+      "unit_corank": 1,
+      "unit_image_rank": 3,
+      "varied_projection_detects_pole": true
+    },
+    {
+      "long_dimension": 5,
+      "matrix_dimension": 7,
+      "one_projection_hides_pole": true,
+      "unit_corank": 1,
+      "unit_image_rank": 4,
+      "varied_projection_detects_pole": true
+    }
+  ],
+  "source_pin_count": 3,
+  "target_rank_one_slice": 11
+}
