@@ -47,7 +47,17 @@ at a2,3,5, and check four A4/A5 target thresholds. These finite controls
 are separate from the universal proof and do not establish its quantifiers.
 
 Use `verify.py --write` only to regenerate controls, followed by replay
-without that flag. The package's full validation remains in progress,
-and its parent PR125 is not yet merged. The universal proof has no
-independent mathematical review or formalization. Finite controls do not
+without that flag. The [validation receipt](../../../results/rank20-ruling-2026-10-23/validation.json)
+records all869 tests on each of Python3.10 and3.14 at610f2a9:866 passed
+and3 optional controls skipped per version. All five historical archive
+replays passed. At integrated commit e57e144,34 focused tests passed,
+covering this package, its parent, incoming fixed-resolvent tests and
+repository metadata. The research code and controls are byte-unchanged
+between those full-suite and integration checks. The receipt retains
+compressed hosted/focused logs and exact commit/tree and code hashes.
+
+The earlier local full runs were interrupted by a machine reboot and
+are not counted as passing. PR142 includes the full PR125 package for
+combined integration; final-head hosted CI must pass before merge. The
+universal proofs remain unreviewed and unformalized. These checks do not
 establish the universal classification, a matrix target or a smaller exponent.

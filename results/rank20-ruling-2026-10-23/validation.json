@@ -1,0 +1,70 @@
+{
+  "code_sha256": {
+    "research/ai/2026-10-23-rank20-ruling/verify.py": "878b2e9cc2ed3f87fed11cbcdce310fb23793bdbd177cb8eeed4e547d7216892",
+    "research/ai/2026-10-23-singular-long-ruling/verify.py": "5d697949ff5eac0c8e6793d6532cd914e373dc49d6077e786292587647f1041d",
+    "tests/test_rank20_ruling.py": "2a302fbfed407b162b47a2c77d0d494bb4cfd0f9eeb7d3a2d99d6daf2ea58f36",
+    "tests/test_singular_long_ruling.py": "ae5d805837ce8ff8d4b1f4b34e43c1fc21446da8cf5088102a89bcfface49080"
+  },
+  "environment": {
+    "mpmath": "1.3.0",
+    "python": "3.14.8 (main, Oct  2 2026, 10:23:31) [GCC 16.2.1 20260810]",
+    "sympy": "1.14.0"
+  },
+  "full_hosted_regression": {
+    "aggregate_CI": "queued at receipt capture; final-head CI must pass before merge",
+    "all_test_and_replay_jobs": "SUCCESS",
+    "archive_replays_passed": 5,
+    "commit": "610f2a9f71e33ebdce725430fe6bc0e12bffb368",
+    "receipt": "hosted-ci-610f2a9.json",
+    "test_groups": 8,
+    "version_coverage": {
+      "3.10": {
+        "groups": 4,
+        "passed": 866,
+        "skipped": 3,
+        "tests": 869
+      },
+      "3.14": {
+        "groups": 4,
+        "passed": 866,
+        "skipped": 3,
+        "tests": 869
+      }
+    }
+  },
+  "implementation_commit": "e57e144e602db8cdfe3ec2ec8ecfbd1b9e4c177f",
+  "implementation_tree": "cd116e63aac31af180cf6b06f503ed519447d0c6",
+  "improves_omega": false,
+  "independent_review": false,
+  "integrated_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "interrupted_local_full_runs": {
+    "reason": "Machine reboot terminated process handles and removed /tmp logs. Hosted logs and new focused receipts were recovered separately.",
+    "status": "not counted as passing"
+  },
+  "lean_formalized": false,
+  "post_integration_focused": {
+    "commit": "e57e144e602db8cdfe3ec2ec8ecfbd1b9e4c177f",
+    "duration_seconds": 32.416,
+    "log": "integrated-focused.log.gz",
+    "passed": 34,
+    "patterns": [
+      "test_rank20_ruling.py",
+      "test_singular_long_ruling.py",
+      "test_resolvent_minrank.py",
+      "test_research.py"
+    ],
+    "skipped": 0,
+    "tests": 34,
+    "tree": "cd116e63aac31af180cf6b06f503ed519447d0c6"
+  },
+  "proof_status": "proof-written-unreviewed",
+  "scope": "Finite validation receipts; universal mathematical claims remain written and unreviewed.",
+  "unchanged_research_paths_between_full_CI_and_integration": [
+    "research/ai/2026-10-23-rank20-ruling",
+    "research/ai/2026-10-23-singular-long-ruling",
+    "tests/test_rank20_ruling.py",
+    "tests/test_singular_long_ruling.py",
+    "results/rank20-ruling-2026-10-23/controls.json",
+    "results/singular-long-ruling-2026-10-23/controls.json"
+  ]
+}

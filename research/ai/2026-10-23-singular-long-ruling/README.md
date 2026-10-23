@@ -6,6 +6,13 @@ leading rank at least106. Both other maps, including the identity lift,
 may have arbitrary finite poles. The remaining necessary bound is rank
 at most105 on each balanced long map.
 
+The [rank20 continuation](../2026-10-23-rank20-ruling/proof.md) strengthens
+the long-map threshold to105 and the remaining necessary bound to104.
+Its [all-size version](../2026-10-23-rank20-ruling/all_sizes.md) supplies
+the corresponding first-gap source classification at every square size.
+The present proof's older minimum-cone boundary is retained with its
+original scope and controls.
+
 This continues concurrent PR113's full-rank-long-map exclusion. The
 regular right-inverse projector leaves a single shared correction column
 space of dimension at most two. The prior source gap places each leading
@@ -39,10 +46,15 @@ twelve injective target rulings, six actual rank16 source slices, an actual
 rank20 boundary slice, and seven long-limit rank cases. A negative control
 has two individual rank-one corrections spanning two column dimensions;
 individual rank bounds alone cannot replace the shared-space argument.
-Mutation checks reject false common ranks, a c105 exclusion, changed
-source pins, removed splitting attribution and inflated review status.
+Mutation checks reject false common ranks, an unsupported c105 exclusion
+by this older minimum-cone argument, changed source pins, removed splitting
+attribution and inflated review status.
 
 Run `verify.py --write` only to regenerate controls, followed by replay
-without that flag. Full local regression and all five archive replay
-receipts will be recorded before the package is ready to merge. Finite
-controls do not formalize the proof's all-order quantifiers.
+without that flag. The [combined validation receipt](../../../results/rank20-ruling-2026-10-23/validation.json)
+records the full hosted regression at610f2a9 on Python3.10 and3.14,
+all five archive replays and34 focused integration tests at e57e144.
+PR142 includes this complete package for combined integration. Earlier
+local full runs were interrupted by a reboot and are not counted as
+passing; final-head hosted CI remains required. Finite controls do not
+formalize the proof's all-order quantifiers or establish independent review.

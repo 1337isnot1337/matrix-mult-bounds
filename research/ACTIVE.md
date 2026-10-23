@@ -8,8 +8,12 @@ rank20 quadratic-factor classification gives a sharp source linear-space
 bound eight and extends the singular-long criterion to balanced leading
 rank105. Its all-size continuation gives dimension2a at cap a^2+a for
 every a>=2, with the same stated external dependency and selected controls.
-The next A4 cap21 is not covered. Exact controls and focused checks are
-in progress; parent PR125's complete regression is running separately.
+The next A4 cap21 is not covered. Exact controls and34 integrated focused
+tests pass. Full hosted regression at610f2a9 passes on Python3.10 and3.14,
+with three optional skips per version; all five archive replays pass.
+The receipt is in `results/rank20-ruling-2026-10-23/validation.json`.
+PR142 includes the full PR125 package for combined integration. Earlier
+local full runs were interrupted by reboot; final-head CI remains required.
 No independent review, formalization, target construction or exponent gain.
 
 ## Singular long-leg ruling continuation, October23
