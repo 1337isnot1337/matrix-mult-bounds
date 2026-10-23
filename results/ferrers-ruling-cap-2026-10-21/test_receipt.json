@@ -1,0 +1,20 @@
+{
+  "base_commit": "bd34f22",
+  "focused_tests": {
+    "tests_run": 6,
+    "passes": 6,
+    "seconds": 42.916,
+    "command": "python -m unittest discover -s tests -p test_ferrers_ruling_cap.py -v"
+  },
+  "initial_focused_failure": {
+    "tests_run": 6,
+    "errors": 1,
+    "cause": "The test attempted None<=None on scores of unattainable dimensions.",
+    "fix": "Handle unattainable dimensions explicitly; no production frontier or report changed.",
+    "log": "results/ferrers-ruling-cap-2026-10-21/tests-focused-initial.txt"
+  },
+  "full_regression": "Pending before merge; this is a research checkpoint.",
+  "protected_archives_changed": false,
+  "independent_review": false,
+  "improves_omega": false
+}
