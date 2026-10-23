@@ -1,0 +1,315 @@
+{
+  "schema": "matrix-final-integration-validation-v1",
+  "status": "passed",
+  "started_at_utc": "2026-10-23T15:11:47.273263+00:00",
+  "finished_at_utc": "2026-10-23T15:20:59.629566+00:00",
+  "elapsed_wall_seconds": 552.3563072929996,
+  "validated_commit": "dabda4091b7ccc7f25cce5c7a5c001cf66a3241e",
+  "validated_tree": "7e1e9dc8a4a0ed8513e4dd14d29e194128c122d5",
+  "components": {
+    "baseline_integration": "c3264dec240c25cacae62c48e58141fdd5cfb8bd",
+    "pr136": "f687963f4c69e58a3f39f651874b3b9b4c9f42fb",
+    "pr129": "0e43a999897eb8e003ed9ba7f7b0b9657a73c805",
+    "pr136_local_merge": "53ab61beaa96211dd831e50e3992083868538769"
+  },
+  "merge_resolution": {
+    "conflicted_files": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "docs/research_directions.md",
+      "research/ACTIVE.md",
+      "research/claims.json"
+    ],
+    "method": "Preserved all nonduplicate additive sections and exact claim lines from both sides.",
+    "claim_objects_equal_parent_union": true,
+    "unique_claim_count": 303,
+    "claims_sha256": "ec723eda7860ca315e4db4815bdb126e18cc7e0ae06dac82d33a176572f83ff7",
+    "pinned_research_files_modified_for_resolution": false
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python_optimization": 0,
+    "environment": {
+      "PYTHONPATH": "/workspace/scratch/814d3d40fe43/mathdeps",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "regression": {
+    "discovered_tests": 924,
+    "discovered_modules": 213,
+    "tests_run": 924,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0,
+    "shard_count": 4,
+    "complete_disjoint_coverage": true,
+    "baseline_test_count": 896,
+    "tests_added_since_baseline": 28,
+    "coverage_file": "coverage.json"
+  },
+  "jobs": [
+    {
+      "name": "tests-0",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "started_at_utc": "2026-10-23T15:11:51.179951+00:00",
+      "status": "passed",
+      "log": "results/integration-2026-10-23-final/tests-0.log.gz",
+      "pid": 48,
+      "expected_test_count": 265,
+      "expected_module_count": 54,
+      "returncode": 0,
+      "finished_at_utc": "2026-10-23T15:17:31.447950+00:00",
+      "wall_seconds": 340.26790909500005,
+      "tests_run": 265,
+      "unittest_reported_seconds": 338.393,
+      "unittest_footer": "OK",
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "log_uncompressed_bytes": 37753,
+      "log_uncompressed_sha256": "714ab579e4a8031d55967c058a7b34afc202209fbc792a15a881317a9df098f8",
+      "log_gzip_bytes": 6509,
+      "log_gzip_sha256": "be456bde9cd8ab8f6f143f534d86c1061d50dd0d61dd238c5d8af839102f438d"
+    },
+    {
+      "name": "tests-1",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "started_at_utc": "2026-10-23T15:11:51.183405+00:00",
+      "status": "passed",
+      "log": "results/integration-2026-10-23-final/tests-1.log.gz",
+      "pid": 49,
+      "expected_test_count": 192,
+      "expected_module_count": 53,
+      "returncode": 0,
+      "finished_at_utc": "2026-10-23T15:20:47.532938+00:00",
+      "wall_seconds": 536.3494781700001,
+      "tests_run": 192,
+      "unittest_reported_seconds": 531.864,
+      "unittest_footer": "OK",
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "log_uncompressed_bytes": 31899,
+      "log_uncompressed_sha256": "0f067768b11db1e468817055c7d0e6f8e6fb7b59d5e0ad53ec9502e2adac4613",
+      "log_gzip_bytes": 5762,
+      "log_gzip_sha256": "8dc38d3b2a6abce9a23cdf773db1ea5334f688551a9ecccc6370b77c5a6fe611"
+    },
+    {
+      "name": "tests-2",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "started_at_utc": "2026-10-23T15:11:51.184204+00:00",
+      "status": "passed",
+      "log": "results/integration-2026-10-23-final/tests-2.log.gz",
+      "pid": 50,
+      "expected_test_count": 240,
+      "expected_module_count": 53,
+      "returncode": 0,
+      "finished_at_utc": "2026-10-23T15:20:59.544012+00:00",
+      "wall_seconds": 548.3597520490002,
+      "tests_run": 240,
+      "unittest_reported_seconds": 544.842,
+      "unittest_footer": "OK",
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "log_uncompressed_bytes": 35836,
+      "log_uncompressed_sha256": "fbad4107173acb0cdd9f8f6dfe471e417ee739ce5d0a2e3ae6ed33da66beea4b",
+      "log_gzip_bytes": 6192,
+      "log_gzip_sha256": "e268a6a206a6533f7e95fc216f0488e4d0d4804c2d8ea6805102ce8504cbb67d"
+    },
+    {
+      "name": "tests-3",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "started_at_utc": "2026-10-23T15:11:51.184719+00:00",
+      "status": "passed",
+      "log": "results/integration-2026-10-23-final/tests-3.log.gz",
+      "pid": 51,
+      "expected_test_count": 227,
+      "expected_module_count": 53,
+      "returncode": 0,
+      "finished_at_utc": "2026-10-23T15:20:05.507265+00:00",
+      "wall_seconds": 494.3225066560003,
+      "tests_run": 227,
+      "unittest_reported_seconds": 491.093,
+      "unittest_footer": "OK",
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "log_uncompressed_bytes": 32948,
+      "log_uncompressed_sha256": "5a16875467b10fb0223ea2fd18f2d913c9941154555ab26faccfe4c94cdabbb0",
+      "log_gzip_bytes": 5842,
+      "log_gzip_sha256": "532c63b18019d93bbeb7b3192c97544f5e4ec13d07b4a2dd7050318d1d32ff6e"
+    },
+    {
+      "name": "archive-replay",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "tools/replay.py",
+        "--output",
+        "/workspace/scratch/814d3d40fe43/matrix-integration-validation/results/integration-2026-10-23-final/archive-replay"
+      ],
+      "started_at_utc": "2026-10-23T15:11:51.185160+00:00",
+      "status": "passed",
+      "log": "results/integration-2026-10-23-final/archive-replay.log.gz",
+      "pid": 52,
+      "returncode": 0,
+      "finished_at_utc": "2026-10-23T15:12:13.207831+00:00",
+      "wall_seconds": 22.022629896000126,
+      "log_uncompressed_bytes": 281,
+      "log_uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+      "log_gzip_bytes": 160,
+      "log_gzip_sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba"
+    }
+  ],
+  "archive_replay": {
+    "status": "passed",
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "archive_files_verified": 10,
+    "runs": [
+      {
+        "report": "profile_checks.json",
+        "total_exact_grid_checks": 73856,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 0.6891065109998635
+      },
+      {
+        "report": "product_filtration_checks.json",
+        "exact_inequalities_checked": 353664,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 3.8569515009999122
+      },
+      {
+        "report": "binary_search.json",
+        "cases_tested": 12976,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 0.6866953769999782
+      },
+      {
+        "report": "ternary_search.json",
+        "cases_tested": 209692,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 13.056123673999991
+      },
+      {
+        "report": "random_search.json",
+        "cases_tested": 20000,
+        "exact_payload_matches_archive": true,
+        "elapsed_seconds": 2.534114581999802
+      }
+    ],
+    "limits": "Finite reproduction only. No independent proof review or Lean build.",
+    "elapsed_seconds": 21.334697179999694,
+    "total_weight_candidates": 242668
+  },
+  "protected_archives": {
+    "reference_commit": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+    "both_byte_identical_before_and_after": true,
+    "detail_file": "archive-integrity.json"
+  },
+  "artifact_sha256": {
+    "archive-integrity.json": {
+      "bytes": 7335,
+      "sha256": "dd07497aad6dd652f71b28f0235b6665d4f3b9b7bda33844f724e504bcfbf2d8"
+    },
+    "archive-replay/binary_search.json": {
+      "bytes": 1990,
+      "sha256": "408e32ae91d696ad0045cec211be286cfe1e0a5214f205560dfb1ac629b4c50d"
+    },
+    "archive-replay/product_filtration_checks.json": {
+      "bytes": 1196,
+      "sha256": "f3f4d846cd57c1a018000bcd26dc78cc40d4514c0e94051c829543ea307c0ba7"
+    },
+    "archive-replay/profile_checks.json": {
+      "bytes": 1476,
+      "sha256": "295b4f76f069abc16be9cc0ba57a3aeb242c1521125741956fc0290b8e5adcfb"
+    },
+    "archive-replay/random_search.json": {
+      "bytes": 2298,
+      "sha256": "0e8f34788763a47a9b5ce22772917f4a464c7d1e227dca7d80c7e17eb723e687"
+    },
+    "archive-replay/summary.json": {
+      "bytes": 1217,
+      "sha256": "ad6bd39b526c6dafbe94f465204c04460c8125bc4715eb011aba722b2a6a821d"
+    },
+    "archive-replay/ternary_search.json": {
+      "bytes": 1992,
+      "sha256": "b4cef97f8e567dbc5bbef2b7758cefc55152c5d4bfe9a96b769b3b64492f4daa"
+    },
+    "archive-replay.log.gz": {
+      "bytes": 160,
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba"
+    },
+    "coverage.json": {
+      "bytes": 105117,
+      "sha256": "e064b11fd669729e97633d28e5f23caea0f5b7c387116f28fe5d077319bf8661"
+    },
+    "tests-0.log.gz": {
+      "bytes": 6509,
+      "sha256": "be456bde9cd8ab8f6f143f534d86c1061d50dd0d61dd238c5d8af839102f438d"
+    },
+    "tests-1.log.gz": {
+      "bytes": 5762,
+      "sha256": "8dc38d3b2a6abce9a23cdf773db1ea5334f688551a9ecccc6370b77c5a6fe611"
+    },
+    "tests-2.log.gz": {
+      "bytes": 6192,
+      "sha256": "e268a6a206a6533f7e95fc216f0488e4d0d4804c2d8ea6805102ce8504cbb67d"
+    },
+    "tests-3.log.gz": {
+      "bytes": 5842,
+      "sha256": "532c63b18019d93bbeb7b3192c97544f5e4ec13d07b4a2dd7050318d1d32ff6e"
+    },
+    "README.md": {
+      "bytes": 2684,
+      "sha256": "4fb5111d767819a4731dcc0fe60fa7c43d719c8407d223dc7f6b9febd70d82b0"
+    }
+  },
+  "limits": "Local final integration gate on the exact frozen snapshot. No hosted CI result, external mathematical review, formal proof verification, or new theorem claim is supplied by this validation.",
+  "intermediate_progress_files_removed": true
+}

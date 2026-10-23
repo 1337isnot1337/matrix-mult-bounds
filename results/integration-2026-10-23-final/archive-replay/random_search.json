@@ -1,0 +1,141 @@
+{
+  "mode": "random",
+  "max_sum": 12,
+  "seed": 20261020,
+  "cases_tested": 20000,
+  "elapsed_seconds": 2.534114581999802,
+  "best": {
+    "a": 2,
+    "b": 2,
+    "x_weights": [
+      7,
+      6
+    ],
+    "y_weights": [
+      0,
+      -1
+    ],
+    "z_weights": [
+      -7,
+      -6,
+      -5
+    ],
+    "blocks": [
+      {
+        "kind": "convolution",
+        "a": 2,
+        "b": 2,
+        "output_axis": 2,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          2,
+          3
+        ]
+      }
+    ],
+    "ratio_float": 1.0,
+    "source_exact": "10/3",
+    "target_exact": "10/3",
+    "violation_exact": false
+  },
+  "best_nontrivial": {
+    "a": 2,
+    "b": 5,
+    "x_weights": [
+      8,
+      6
+    ],
+    "y_weights": [
+      -4,
+      0,
+      1,
+      -1,
+      -6
+    ],
+    "z_weights": [
+      -4,
+      -2,
+      -6,
+      -7,
+      -2,
+      0
+    ],
+    "blocks": [
+      {
+        "kind": "convolution",
+        "a": 1,
+        "b": 2,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "convolution",
+        "a": 2,
+        "b": 1,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          true,
+          false
+        ],
+        "dimensions": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "kind": "convolution",
+        "a": 1,
+        "b": 2,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "convolution",
+        "a": 1,
+        "b": 1,
+        "output_axis": 0,
+        "reversals": [
+          false,
+          false,
+          false
+        ],
+        "dimensions": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "ratio_float": 0.9545454545454546,
+    "source_exact": "22/3",
+    "target_exact": "7",
+    "violation_exact": false
+  },
+  "exact_witnesses": [],
+  "scope": "Exact scoring of the specified finite integer-weight arrays only. Unrecognized blocks use a valid slice lower bound."
+}
