@@ -278,9 +278,35 @@ the highest pole and do not fix the lower Laurent coefficients.
 
 ## R5: Compare external formulations before duplicating work
 
-Status: open synthesis task. Compare the spectral route, the block-identities route, and the polynomial-separation improvement. Identify precisely which constraints survive symmetrization and which information the scalar relaxation discards.
+Status: open. The [route map](route-synthesis.md) compares the spectral,
+block-identity, and polynomial-separation interfaces. The
+[entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to
+its scalar matched-decomposition inequalities, even when decompositions share
+different legs. The exact Filmus convolution neighbor, square-tripling, and
+general-tripling shared-leg identities, replication degeneration, and
+componentwise restrictions give concrete graph rows. The `P_*` potential
+bounds every certificate using those rows and input-swap symmetry. From any
+rectangular source `C(u,v)` of border rank `u+v-1` to a thin terminal
+`C(q,1)`, it gives `qL<=P_*(u,v)` and
+`P_*(u,v)^3<=(u+v-1)^4`, with equality only at `C(1,1)`. The general
+`C(q,1)` terminal isomorphism and replication/restriction wrappers are
+written but not locally formalized. A candidate constraint absent from the
+scalar profile must add other exact shared-leg maps or tensor-level data. The
+pinned full oriented profile laws also admit the critical common shape at
+weights `(3/4,3/4,3/4)`, so those rows alone do not exclude the endpoint;
+this screen is tracked as `AI-R5-ORIENTED-PROFILE-SCREEN-001`. A successful
+certificate still needs
+nonnegative weights satisfying every balance and terminal inflow
+`L>1/d` with `(dL)^3>r^4`. No qualifying graph or smaller exponent has been
+established.
+The scoped row-family obstruction is tracked as
+`AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.
 
-Deliver a dependency map with cited lemmas and a candidate constraint absent from the current local model. Do not describe an existing external lemma as a local discovery.
+Continue by finding and certifying additional identities or endpoints that
+escape the scalar potential barrier, or by finding a different tensor-level
+constraint that excludes the critical spectral behavior. The numeric endpoint
+inequality alone is not a certificate. Keep external lemmas attributed to
+their sources.
 
 ## R6: Make search results stronger and reusable
 

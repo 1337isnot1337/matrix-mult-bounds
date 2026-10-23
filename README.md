@@ -14,6 +14,8 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
 - [Exact rational monomial support search](research/ai/2026-10-23-exact-monomial-search/README.md)
 - [Research directions and acceptance criteria](docs/research_directions.md)
+- [R5 route comparison](docs/route-synthesis.md)
+- [Exact projection of the proposed oriented entropy lift](docs/oriented-lift-relaxation.md)
 - [Attribution and provenance](PROVENANCE.md)
 - [Main integration checkpoint and combined validation](docs/integration_2026-10-20.md)
 - [Koszul obstruction and mixed-sector research](research/ai/2026-10-20-koszul/research_note.md)
