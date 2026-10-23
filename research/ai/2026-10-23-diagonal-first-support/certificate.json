@@ -1,0 +1,1145 @@
+{
+  "schema": 1,
+  "scope": "Finite exact controls for the written ordinary diagonal first-map proof. They do not formalize its projective geometry or construct target long maps.",
+  "ordinary_maps_only": true,
+  "diagonal_identity_is_polynomial": true,
+  "independent_mathematical_review": false,
+  "improves_omega": false,
+  "local_source_pins": [
+    {
+      "path": "research/ai/2026-10-23-first-support-capacity/README.md",
+      "sha256": "e9403fbebd1187dfd9a07e6b0e74c1c04fd5b22b9f2e817f29328a872645bbe1"
+    },
+    {
+      "path": "research/ai/2026-10-23-first-support-capacity/sources.json",
+      "sha256": "1885b9a1734da4bcf36daf059947f8a9c678f437ea24705e27169ec57c2fc315"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+      "sha256": "f5d011ed65c17a840fc2bb950d132df1f70db5b13fde42e5f8195b8d06e4116f"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md",
+      "sha256": "2c98769d69116ee69bb9f2d5bd6c9c5fb949c2583b055bc2af9a22133f846312"
+    }
+  ],
+  "shift_transpose": [
+    {
+      "r": 2,
+      "n": 3,
+      "first_map_rank": 4,
+      "unit_minor_determinant": 1,
+      "coordinate_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "fields": [
+        {
+          "field": "Q",
+          "diagonal_monomials": 8,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 3
+        },
+        {
+          "field": "F2",
+          "diagonal_monomials": 8,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 3
+        },
+        {
+          "field": "F3",
+          "diagonal_monomials": 8,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 3
+        }
+      ]
+    },
+    {
+      "r": 3,
+      "n": 4,
+      "first_map_rank": 9,
+      "unit_minor_determinant": 1,
+      "coordinate_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "fields": [
+        {
+          "field": "Q",
+          "diagonal_monomials": 18,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 4
+        },
+        {
+          "field": "F2",
+          "diagonal_monomials": 18,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 4
+        },
+        {
+          "field": "F3",
+          "diagonal_monomials": 18,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 4
+        }
+      ]
+    },
+    {
+      "r": 4,
+      "n": 5,
+      "first_map_rank": 16,
+      "unit_minor_determinant": 1,
+      "coordinate_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "fields": [
+        {
+          "field": "Q",
+          "diagonal_monomials": 32,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 5
+        },
+        {
+          "field": "F2",
+          "diagonal_monomials": 32,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 5
+        },
+        {
+          "field": "F3",
+          "diagonal_monomials": 32,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 5
+        }
+      ]
+    },
+    {
+      "r": 5,
+      "n": 6,
+      "first_map_rank": 25,
+      "unit_minor_determinant": 1,
+      "coordinate_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "fields": [
+        {
+          "field": "Q",
+          "diagonal_monomials": 50,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 6
+        },
+        {
+          "field": "F2",
+          "diagonal_monomials": 50,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 6
+        },
+        {
+          "field": "F3",
+          "diagonal_monomials": 50,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 6
+        }
+      ]
+    },
+    {
+      "r": 6,
+      "n": 7,
+      "first_map_rank": 36,
+      "unit_minor_determinant": 1,
+      "coordinate_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "fields": [
+        {
+          "field": "Q",
+          "diagonal_monomials": 72,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 7
+        },
+        {
+          "field": "F2",
+          "diagonal_monomials": 72,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 7
+        },
+        {
+          "field": "F3",
+          "diagonal_monomials": 72,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 7
+        }
+      ]
+    },
+    {
+      "r": 7,
+      "n": 8,
+      "first_map_rank": 49,
+      "unit_minor_determinant": 1,
+      "coordinate_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "fields": [
+        {
+          "field": "Q",
+          "diagonal_monomials": 98,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 8
+        },
+        {
+          "field": "F2",
+          "diagonal_monomials": 98,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 8
+        },
+        {
+          "field": "F3",
+          "diagonal_monomials": 98,
+          "common_right_kernel_dimension": 0,
+          "common_left_kernel_dimension": 0,
+          "perturbed_off_diagonal_rank": 8
+        }
+      ]
+    }
+  ],
+  "kernel_spaces": {
+    "F_kernel_basis": [
+      [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "G_kernel_basis": [
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "fields": [
+      {
+        "field": "Q",
+        "kernel_dimensions": [
+          2,
+          1
+        ],
+        "joint_square_dimension": 4,
+        "cross_spaces": [
+          {
+            "r": 2,
+            "cross_space_dimension": 2
+          },
+          {
+            "r": 3,
+            "cross_space_dimension": 3
+          },
+          {
+            "r": 4,
+            "cross_space_dimension": 4
+          },
+          {
+            "r": 5,
+            "cross_space_dimension": 5
+          },
+          {
+            "r": 6,
+            "cross_space_dimension": 6
+          },
+          {
+            "r": 7,
+            "cross_space_dimension": 7
+          },
+          {
+            "r": 8,
+            "cross_space_dimension": 8
+          }
+        ]
+      },
+      {
+        "field": "F2",
+        "kernel_dimensions": [
+          2,
+          1
+        ],
+        "joint_square_dimension": 4,
+        "cross_spaces": [
+          {
+            "r": 2,
+            "cross_space_dimension": 2
+          },
+          {
+            "r": 3,
+            "cross_space_dimension": 3
+          },
+          {
+            "r": 4,
+            "cross_space_dimension": 4
+          },
+          {
+            "r": 5,
+            "cross_space_dimension": 5
+          },
+          {
+            "r": 6,
+            "cross_space_dimension": 6
+          },
+          {
+            "r": 7,
+            "cross_space_dimension": 7
+          },
+          {
+            "r": 8,
+            "cross_space_dimension": 8
+          }
+        ]
+      },
+      {
+        "field": "F3",
+        "kernel_dimensions": [
+          2,
+          1
+        ],
+        "joint_square_dimension": 4,
+        "cross_spaces": [
+          {
+            "r": 2,
+            "cross_space_dimension": 2
+          },
+          {
+            "r": 3,
+            "cross_space_dimension": 3
+          },
+          {
+            "r": 4,
+            "cross_space_dimension": 4
+          },
+          {
+            "r": 5,
+            "cross_space_dimension": 5
+          },
+          {
+            "r": 6,
+            "cross_space_dimension": 6
+          },
+          {
+            "r": 7,
+            "cross_space_dimension": 7
+          },
+          {
+            "r": 8,
+            "cross_space_dimension": 8
+          }
+        ]
+      }
+    ]
+  },
+  "native_source": {
+    "n": 5,
+    "r": 4,
+    "u": [
+      1,
+      0,
+      1,
+      -1
+    ],
+    "fields": [
+      {
+        "field": "Q",
+        "coefficient_rank": 2,
+        "native_source_rank": 20,
+        "target_rank": 4,
+        "containing_space_dimensions": [
+          20,
+          20
+        ]
+      },
+      {
+        "field": "F2",
+        "coefficient_rank": 2,
+        "native_source_rank": 20,
+        "target_rank": 4,
+        "containing_space_dimensions": [
+          20,
+          20
+        ]
+      },
+      {
+        "field": "F3",
+        "coefficient_rank": 2,
+        "native_source_rank": 20,
+        "target_rank": 4,
+        "containing_space_dimensions": [
+          20,
+          20
+        ]
+      }
+    ],
+    "actual_target_long_maps_supplied": false
+  },
+  "integer_consequences": {
+    "budget_range": [
+      0,
+      500
+    ],
+    "deficiency_pairs_checked": 197324,
+    "thresholds_per_pair": 12,
+    "selected_budgets": [
+      {
+        "e": 0,
+        "tau": 0,
+        "q": 0,
+        "budget_maximum": 0,
+        "e_plus_allowance": 0
+      },
+      {
+        "e": 1,
+        "tau": 1,
+        "q": 0,
+        "budget_maximum": 0,
+        "e_plus_allowance": 1
+      },
+      {
+        "e": 2,
+        "tau": 1,
+        "q": 1,
+        "budget_maximum": 1,
+        "e_plus_allowance": 3
+      },
+      {
+        "e": 3,
+        "tau": 2,
+        "q": 1,
+        "budget_maximum": 1,
+        "e_plus_allowance": 4
+      },
+      {
+        "e": 6,
+        "tau": 3,
+        "q": 2,
+        "budget_maximum": 2,
+        "e_plus_allowance": 8
+      },
+      {
+        "e": 12,
+        "tau": 4,
+        "q": 3,
+        "budget_maximum": 3,
+        "e_plus_allowance": 15
+      },
+      {
+        "e": 20,
+        "tau": 5,
+        "q": 4,
+        "budget_maximum": 4,
+        "e_plus_allowance": 24
+      },
+      {
+        "e": 21,
+        "tau": 6,
+        "q": 4,
+        "budget_maximum": 4,
+        "e_plus_allowance": 25
+      },
+      {
+        "e": 41,
+        "tau": 8,
+        "q": 5,
+        "budget_maximum": 5,
+        "e_plus_allowance": 46
+      },
+      {
+        "e": 42,
+        "tau": 8,
+        "q": 6,
+        "budget_maximum": 6,
+        "e_plus_allowance": 48
+      },
+      {
+        "e": 175,
+        "tau": 18,
+        "q": 12,
+        "budget_maximum": 12,
+        "e_plus_allowance": 187
+      },
+      {
+        "e": 176,
+        "tau": 18,
+        "q": 12,
+        "budget_maximum": 12,
+        "e_plus_allowance": 188
+      },
+      {
+        "e": 188,
+        "tau": 18,
+        "q": 13,
+        "budget_maximum": 13,
+        "e_plus_allowance": 201
+      },
+      {
+        "e": 199,
+        "tau": 19,
+        "q": 13,
+        "budget_maximum": 13,
+        "e_plus_allowance": 212
+      },
+      {
+        "e": 500,
+        "tau": 31,
+        "q": 21,
+        "budget_maximum": 25,
+        "e_plus_allowance": 525
+      }
+    ],
+    "target_bounds": [
+      {
+        "n": 6,
+        "c": 1,
+        "r": 5,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 0,
+        "general_lower_bound": 0,
+        "general_bound_allowance": 0
+      },
+      {
+        "n": 12,
+        "c": 1,
+        "r": 11,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 0,
+        "general_lower_bound": 0,
+        "general_bound_allowance": 0
+      },
+      {
+        "n": 13,
+        "c": 1,
+        "r": 12,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 1,
+        "general_lower_bound": 1,
+        "general_bound_allowance": 0
+      },
+      {
+        "n": 23,
+        "c": 1,
+        "r": 22,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 11,
+        "general_lower_bound": 9,
+        "general_bound_allowance": 2
+      },
+      {
+        "n": 34,
+        "c": 1,
+        "r": 33,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 22,
+        "general_lower_bound": 19,
+        "general_bound_allowance": 3
+      },
+      {
+        "n": 200,
+        "c": 1,
+        "r": 199,
+        "long_kernel_dimension": 16,
+        "injective_factor_lower_bound": 188,
+        "general_lower_bound": 176,
+        "general_bound_allowance": 12
+      },
+      {
+        "n": 200,
+        "c": 0,
+        "r": 200,
+        "long_kernel_dimension": 12,
+        "injective_factor_lower_bound": 193,
+        "general_lower_bound": 181,
+        "general_bound_allowance": 12
+      },
+      {
+        "n": 200,
+        "c": 4,
+        "r": 196,
+        "long_kernel_dimension": 28,
+        "injective_factor_lower_bound": 173,
+        "general_lower_bound": 161,
+        "general_bound_allowance": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "7690348a792c5734d6f00d7fa7a9e6ce8dc37daa",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-23-first-support-capacity/README.md",
+      "sha256": "e9403fbebd1187dfd9a07e6b0e74c1c04fd5b22b9f2e817f29328a872645bbe1",
+      "scope": "Sections 4\u20136: ordinary long-map surjectivity, native source slice lower bound, polynomial containing spaces, closed higher divisor strata and two-sided rank loss. Its separate Laurent conclusion is not extended here."
+    },
+    {
+      "path": "research/ai/2026-10-23-first-support-capacity/sources.json",
+      "sha256": "1885b9a1734da4bcf36daf059947f8a9c678f437ea24705e27169ec57c2fc315",
+      "scope": "Preserves attribution and exact ancestor pins for the imported source and incidence facts."
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_rank_locus.md",
+      "sha256": "f5d011ed65c17a840fc2bb950d132df1f70db5b13fde42e5f8195b8d06e4116f",
+      "scope": "Section 1 only: literal paired-source coefficients and the field-independent rank(S_X)>=rank(X)+15 proof. Later finite-projective scope is not imported."
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md",
+      "sha256": "2c98769d69116ee69bb9f2d5bd6c9c5fb949c2583b055bc2af9a22133f846312",
+      "scope": "Ancestor finite-divisor incidence argument; no external constant-rank theorem or separate narrow-target exclusion is imported."
+    }
+  ],
+  "external_sources": [
+    {
+      "author": "The Stacks Project Authors",
+      "title": "Lemma 33.20.4: dimensions of a morphism and its fibers",
+      "tag": "0B2L",
+      "url": "https://stacks.math.columbia.edu/tag/0B2L",
+      "accessed": "2026-10-23",
+      "scope": "Retained from the pinned support-capacity proof. Classical fiber dimensions for the projective divisor incidence after algebraic closure."
+    },
+    {
+      "author": "The Stacks Project Authors",
+      "title": "Lemma 33.34.3: projective dimension theorem",
+      "tag": "0B2R",
+      "url": "https://stacks.math.columbia.edu/tag/0B2R",
+      "accessed": "2026-10-23",
+      "scope": "The quadratic Veronese, dimension r-1, intersects the residual-annihilator projective linear space of codimension e whenever e<r; the intersection dimension is at least r-1-e."
+    }
+  ],
+  "context_only_sources": [
+    {
+      "authors": [
+        "Marvin Marcus",
+        "B. N. Moyls"
+      ],
+      "title": "Transformations on tensor product spaces",
+      "year": 1959,
+      "url": "https://msp.org/pjm/1959/9-4/pjm-v9-n4-p17-s.pdf",
+      "scope": "Section 1 and Theorem 1, printed page1218. Over an algebraically closed field of characteristic zero, a linear endomorphism preserving every nonzero rank-one tensor is a product, possibly a flip in equal dimensions. These hypotheses do not follow from the rank-21 section condition. No theorem from this paper is used in the proof."
+    },
+    {
+      "author": "Clement de Seguins Pazzis",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "version": "arXiv:1507.05375v2",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "scope": "Theorems 1.1 and1.7. The characteristic-zero square-space compression conclusion at upper rank21 needs dimension at least21n-40; our ruling spaces have dimension at most n-1. Context only, no imported theorem in the diagonal obstruction."
+    }
+  ],
+  "local_contribution": "Ordinary diagonal-only Veronese obstruction; joint triangular first-map deficiency budget; optimized divisor threshold split; exact all-field shift-transpose and diagonal-vanishing controls.",
+  "review_scope": "The coordinating parent and a separate agent in the same generating session checked the diagonal incidence proof, joint deficiency and exact threshold optimization. This is not independent mathematical review or formalization. Finite controls do not certify universal projective dimension statements.",
+  "claim_ids": [
+    "AI-DIAGONAL-FIRST-SUPPORT-001"
+  ],
+  "historical_novelty_claimed": false,
+  "independent_mathematical_review": false,
+  "formalized": false,
+  "improves_omega": false
+}

@@ -1,0 +1,156 @@
+{
+  "tested_commit": "66c463682c899f3d6cffa5f5f438812bf0981fd4",
+  "tested_tree": "931dfcffdf98fce09201d88569953457ebdd362c",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "tests": 871,
+  "modules": 204,
+  "passed": 871,
+  "skipped": 0,
+  "jobs": [
+    {
+      "group": 0,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 214,
+      "passed": 214,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 405.497,
+      "result": "OK",
+      "log": "results/first-support-capacity-2026-10-23/group-0.log.gz",
+      "status": "results/first-support-capacity-2026-10-23/group-0-status.json.gz"
+    },
+    {
+      "group": 1,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 206,
+      "passed": 206,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 399.78,
+      "result": "OK",
+      "log": "results/first-support-capacity-2026-10-23/group-1.log.gz",
+      "status": "results/first-support-capacity-2026-10-23/group-1-status.json.gz"
+    },
+    {
+      "group": 2,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 224,
+      "passed": 224,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 412.227,
+      "result": "OK",
+      "log": "results/first-support-capacity-2026-10-23/group-2.log.gz",
+      "status": "results/first-support-capacity-2026-10-23/group-2-status.json.gz"
+    },
+    {
+      "group": 3,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 227,
+      "passed": 227,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 282.78,
+      "result": "OK",
+      "log": "results/first-support-capacity-2026-10-23/group-3.log.gz",
+      "status": "results/first-support-capacity-2026-10-23/group-3-status.json.gz"
+    }
+  ],
+  "all_completed_groups_passed": true,
+  "archive_replays": 5,
+  "archive_replay_summary": "results/first-support-capacity-2026-10-23/archive-replay.json",
+  "archive_diff_from_base": [],
+  "coverage": "results/first-support-capacity-2026-10-23/coverage.json.gz",
+  "logs": [
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-0.log.gz",
+      "sha256": "c98ff4ffd9da927d14d1116b3eaebe8ab423e9b1ff00040d6d64381ef39aea0b",
+      "uncompressed_sha256": "24c1d60d9cc5608b8561d491c033608f9fd9f397202e82dd8a47421c3f549929"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-1.log.gz",
+      "sha256": "1f13966268a994b4681a3bd3f26f2d75b0fc36ffd34d979fdf33d827747c05ca",
+      "uncompressed_sha256": "fe11e8c7b9ac501109154364453dd883625a194514d2e52e005357eb4fa1aa04"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-2.log.gz",
+      "sha256": "a6bb8c52fed1b2207c46b2afbb7d1709b27fad9206c307162586aef1a5dd4494",
+      "uncompressed_sha256": "9dc1d5558a32703259f1a1c2b7087a5871e42b5ccc822106661b7065eceaf06d"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-3.log.gz",
+      "sha256": "44a41cfe8b0809c37d963b23528be8792bc89e530b8d1f9dddef01145cb8a74b",
+      "uncompressed_sha256": "9d87d89adac2e57173f07704ad92c82ffa73a61986be0fe65946b2387c43a39e"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba",
+      "uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/coverage.json.gz",
+      "sha256": "d6c59b60810be90c6febc88cd274bad4c33801dd9ee45dc0c5ee4ca601ebf83b",
+      "uncompressed_sha256": "e33fd4a6eedf7034e341ed4a01cbccf657af0b2ad8e58da1e55de774414c121f"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-0-status.json.gz",
+      "sha256": "d5d79959e1f8f915ccfab15a16d35568d3cf53b9e2bfdc14e1599c250001a7ff",
+      "uncompressed_sha256": "be98581e28ff04637c5beb58188ab370c7475e77fce3de79d677b6bc1347f149"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-1-status.json.gz",
+      "sha256": "712d017f0fc90f7cd52afbc2a9a900dc09864e3def41048b4c98fbb8bbd6d551",
+      "uncompressed_sha256": "195d85e57b7178d0409a93ced7e6b15576497022f7d76c7a65acb31caeededa3"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-2-status.json.gz",
+      "sha256": "e76ca1c1cf2603115e011229f5399fd26ea195fbaa237c2fd2d02ec793f6bcd1",
+      "uncompressed_sha256": "b30b2c9444ebd89ab3e77207e298466b6ca53286cc6b459e16d0c60d56bf8276"
+    },
+    {
+      "path": "results/first-support-capacity-2026-10-23/group-3-status.json.gz",
+      "sha256": "147b213ac27a0fb837710d16aa028eaa8403de1850dcc86e45b9d2418b98b794",
+      "uncompressed_sha256": "dae8b4760849bcca6b5cc3914a9d95b80abb57b082b2ba7a05d227a9176daaa5"
+    }
+  ],
+  "incomplete_attempts": [],
+  "scope": "Full exact local regression at the recorded frozen commit, with complete result footers for every disjoint group and no skipped tests. The archive replay matches all five saved reports. This does not establish independent mathematical review or an exponent improvement. Current-head hosted CI remains required.",
+  "archive_comparison_base": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "archive_directories": [
+    "research/ai/2026-10-20/",
+    "research/ai/2026-10-20-session2/"
+  ],
+  "source_run_label": "support-capacity-final",
+  "failures": 0,
+  "errors": 0
+}
