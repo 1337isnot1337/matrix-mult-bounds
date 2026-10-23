@@ -1,26 +1,24 @@
-# Neighboring inner-index shifted charts need quadratic corrections
+# Fixed inner-index shift multipliers still need quadratic correction
 
-**Result.** For either choice `epsilon_B,epsilon_C in {0,1}`, use
-`B_(y,s) -> b_(s-epsilon_B*y,y)` and
-`C_(z,v) -> c_(v,z-epsilon_C*v)`, sending out-of-range coordinates to
-zero. For every linear first-leg map, the target-minus-source correction
-has first-leg flattening rank at least
-`n^2-1-epsilon_B*epsilon_C` for `n>=2`; in particular, the rank is at
-least `n^2-2`. No auxiliary tensor of border rank `O(n)` can repair any
-of these four charts.
+**Result.** Fix nonnegative integers `k_B,k_C` and use
+`B_(y,s) -> b_(s-k_B*y,y)` and
+`C_(z,v) -> c_(v,z-k_C*v)`, with out-of-range target coordinates sent
+to zero. For every linear first-leg map, if `n>max(k_B,k_C)`, the
+target-minus-source correction has first-leg flattening rank at least
+`n^2-1-k_B*k_C`. For fixed `k_B,k_C`, this grows quadratically, so the
+chart cannot use an `O(n)`-border-rank auxiliary correction.
 
-The proof uses cross blocks `(1,0)` and `(0,1)` to kill all but at most
-`1+epsilon_B*epsilon_C` source functionals. The matched `(0,0)` block
-then confines the flattening kernel to the same number of target
-coordinates.
+The proof uses the `(1,0)` and `(0,1)` inner-coordinate blocks to force
+all but at most `1+k_B*k_C` source functionals to vanish. The matched
+`(0,0)` block confines any flattening kernel to those target coordinates.
 
-An exact rational replay checks the coefficient formulas and projected
-ranks for all four shift pairs, six first-leg maps, and `n=1,...,6`.
-This replay checks indexing; the all-size result is proved in
-[`proof.md`](proof.md).
+The exact rational replay checks all four pairs `k_B,k_C in {0,1}`, six
+first-leg maps, and `n=1,...,6`. These finite checks validate indexing;
+the proof in [`proof.md`](proof.md) handles every fixed nonnegative pair.
 
-Other long-leg maps, general `Q(n,4)` restrictions, independent review,
-Lean formalization and exponent improvement are outside this result.
+Other long-leg maps whose shifts are not fixed multiples of the inner
+indices, general `Q(n,4)` restrictions, independent review, Lean
+formalization and exponent improvement remain outside this claim.
 
 Reproduce with:
 

@@ -41,15 +41,15 @@ def first_leg_map(n, name):
     return result
 
 
-def correction(n, first_map, epsilon_b, epsilon_c):
+def correction(n, first_map, k_b, k_c):
     out = defaultdict(Fraction)
     for p in range(n):
         for q in range(n):
             source = p * n + q
             for y in range(4):
                 for v in range(4):
-                    s = q + v - epsilon_b * y
-                    z = p + y - epsilon_c * v
+                    s = q + v - k_b * y
+                    z = p + y - k_c * v
                     if 0 <= s < n and 0 <= z < n:
                         for first, coefficient in enumerate(first_map[source]):
                             if coefficient:
@@ -73,7 +73,7 @@ def projected_matrix(n, tensor, inner_pair):
     return matrix
 
 
-def formula_matrix(n, first_map, inner_pair, epsilon_b, epsilon_c):
+def formula_matrix(n, first_map, inner_pair, k_b, k_c):
     y, v = inner_pair
     matrix = [[Fraction(0) for _ in range(n * n)] for _ in range(n * n)]
     for p in range(n):
@@ -82,10 +82,10 @@ def formula_matrix(n, first_map, inner_pair, epsilon_b, epsilon_c):
             if (y, v) == (0, 0):
                 s, z = q, p
                 matrix[s * n + z][s * n + z] += 1
-            elif (y, v) == (1, 0) and q >= epsilon_b and p <= n - 2:
-                s, z = q - epsilon_b, p + 1
-            elif (y, v) == (0, 1) and q <= n - 2 and p >= epsilon_c:
-                s, z = q + 1, p - epsilon_c
+            elif (y, v) == (1, 0) and q >= k_b and p <= n - 2:
+                s, z = q - k_b, p + 1
+            elif (y, v) == (0, 1) and q <= n - 2 and p >= k_c:
+                s, z = q + 1, p - k_c
             else:
                 continue
             row = s * n + z
@@ -119,31 +119,31 @@ def verify(max_n):
     if type(max_n) is not int or max_n < 1:
         raise ValueError("max_n must be a positive integer")
     cases = []
-    for epsilon_b, epsilon_c in SHIFT_PAIRS:
+    for k_b, k_c in SHIFT_PAIRS:
         for name in MAPS:
             projected_ranks = []
             for n in range(1, max_n + 1):
                 first_map = first_leg_map(n, name)
-                tensor = correction(n, first_map, epsilon_b, epsilon_c)
+                tensor = correction(n, first_map, k_b, k_c)
                 blocks = []
                 for pair in ((0, 0), (1, 0), (0, 1)):
                     projected = projected_matrix(n, tensor, pair)
-                    formula = formula_matrix(n, first_map, pair, epsilon_b, epsilon_c)
+                    formula = formula_matrix(n, first_map, pair, k_b, k_c)
                     if projected != formula:
                         raise AssertionError(
-                            f"formula disagrees for eps=({epsilon_b},{epsilon_c}), {name}, n={n}, pair={pair}"
+                            f"formula disagrees for eps=({k_b},{k_c}), {name}, n={n}, pair={pair}"
                         )
                     blocks.extend(projected)
                 projected_rank = rank(blocks)
-                lower_bound = max(n * n - 1 - epsilon_b * epsilon_c, 0)
+                lower_bound = max(n * n - 1 - k_b * k_c, 0)
                 if projected_rank < lower_bound:
                     raise AssertionError(
-                        f"rank {projected_rank} < {lower_bound} for eps=({epsilon_b},{epsilon_c}), {name}, n={n}"
+                        f"rank {projected_rank} < {lower_bound} for eps=({k_b},{k_c}), {name}, n={n}"
                     )
                 projected_ranks.append(projected_rank)
             cases.append({
-                "epsilon_b": epsilon_b,
-                "epsilon_c": epsilon_c,
+                "k_b": k_b,
+                "k_c": k_c,
                 "first_leg_map": name,
                 "stacked_projected_ranks_over_Q": projected_ranks,
             })
@@ -152,7 +152,7 @@ def verify(max_n):
         "exact_rational_replay": True,
         "sizes": list(range(1, max_n + 1)),
         "projection": "stacked (0,0), (1,0), and (0,1) inner-coordinate blocks",
-        "shift_pairs_tested": [list(pair) for pair in SHIFT_PAIRS],
+        "shift_multiplier_pairs_tested": [list(pair) for pair in SHIFT_PAIRS],
         "first_leg_maps_tested_per_shift_pair": len(MAPS),
         "cases": cases,
         "general_q_maps_excluded": False,

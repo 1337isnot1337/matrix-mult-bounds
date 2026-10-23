@@ -356,12 +356,12 @@ allows an arbitrary linear map on the first leg. The stacked `(0,0)` and
 correction is impossible while both long-leg coordinate maps stay fixed.
 Changing either long-leg map or the source family remains open.
 
-The [neighboring shift continuation](ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
-covers all four choices `epsilon_B,epsilon_C in {0,1}` in
-`B_(y,s)->b_(s-epsilon_B*y,y)` and
-`C_(z,v)->c_(v,z-epsilon_C*v)`. For arbitrary first-leg maps the correction
-flattening rank is at least `n^2-1-epsilon_B*epsilon_C`; these four charts
-therefore all require quadratic correction cost.
+The [inner-index shift continuation](ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
+covers every fixed nonnegative integer pair `k_B,k_C` in
+`B_(y,s)->b_(s-k_B*y,y)` and
+`C_(z,v)->c_(v,z-k_C*v)`. For arbitrary first-leg maps the correction
+flattening rank is at least `n^2-1-k_B*k_C` once `n>max(k_B,k_C)`, so
+each fixed pair has quadratic correction cost.
 
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.

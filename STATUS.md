@@ -20,11 +20,11 @@ kernel vectors to be constant along diagonals, and the boundary rows force
 them to vanish. This proof remains unreviewed and does not cover changes to
 either long-leg map.
 
-The [neighboring shift charts](research/ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
-allow either long leg to shift by its inner index, independently. For all
-four choices and every first-leg map, the correction flattening rank is at
-least `n^2-1-epsilon_B*epsilon_C`, hence at least `n^2-2`. Two
-off-diagonal blocks remove all but at most two source functionals.
+The [inner-index shift family](research/ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
+allows fixed nonnegative integer shift multipliers `k_B,k_C` on the two
+long legs. For every first-leg map and `n>max(k_B,k_C)`, the correction
+flattening rank is at least `n^2-1-k_B*k_C`. For fixed multipliers this is
+quadratic in `n`.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 
