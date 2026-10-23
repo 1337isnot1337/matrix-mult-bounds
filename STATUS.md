@@ -15,6 +15,16 @@ PR103; its narrow target application is superseded by the regular-long-map
 argument. General singular trajectories, all rank-six matrices and an
 improved exponent are not settled.
 
+## A projective three-space inside the rank-six locus
+
+The [rank-six family continuation](research/ai/2026-10-23-resolvent-rank6-family/README.md)
+exhibits a four-dimensional subspace of the fixed-resolvent space whose every
+nonzero element has rank six over every field. This gives a `P^3` inside the
+rank-six locus, not its full classification. For each family member, the
+rank-loss-six compression alignment is realizable by constant rank-109 maps;
+their product is necessarily singular, and this is not a tensor degeneration
+or target. Claim `AI-RESOLVENT-RANK6-FAMILY-001` is written and unreviewed.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

@@ -3,10 +3,13 @@
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
-now proves rank six sharply over every field. Its open structural question
-is the rank-six locus and the required kernel/image alignment under two
-rank109 compressions. Check the broader long-map exclusions before
-treating such an aligned compression as a possible matrix target.
+now proves rank six sharply over every field. A [first rank-six family
+continuation](../research/ai/2026-10-23-resolvent-rank6-family/README.md)
+exhibits a projective three-space in that locus and realizes the equality
+alignment by constant rank-109 maps. This does not classify the full locus or
+lift the maps to a tensor degeneration; their product is singular. Check the
+broader long-map exclusions before treating such an aligned compression as a
+possible matrix target.
 
 ## Active paired construction: near-full width four
 
