@@ -2,12 +2,21 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+now extends PR107's entire prescribed two-jet on d nonzero, with exact
+polynomial maps of degrees eight and nine and no other parameter guards.
+Its kernel stays fixed, whereas PR107's prescribed third kernel
+coefficient is nonzero. Determine whether that full third jet extends
+with a moving kernel, or cover the remaining projective base charts of
+the all-order normal-class criterion. An extension of one specified
+two-jet does not classify all boundary velocities or construct the full
+matrix target.
+
 The [fixed-first conic curve](../research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
 now preserves PR107's entire specified first jet in two exact cubic
 maps, uniformly for all complex a,b,d. Its second coefficients change
-only on the boundary. Determine whether the prescribed full two-jet
-also extends by an exact parameterization or encounters a genuine
-higher-order obstruction. An extension of this one full first jet does
+only on the boundary. The fixed-two package above now supplies an
+exact extension of the prescribed full two-jet on d nonzero. An extension of this one full first jet does
 not classify all possible boundary velocities.
 
 The [polynomial conic curve](../research/ai/2026-10-23-conic-polynomial-curve/proof.md)

@@ -1,5 +1,22 @@
 # Research status
 
+## The prescribed full conic two-jet extends to all orders
+
+The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+preserves every entry of PR107's B0,B1,B2,C0,C1,C2 and the two supplied
+kernel corrections Y1=Y2=0. For every complex a,b,d with d nonzero and
+c=-d^3, it gives exact polynomial maps of degrees eight and nine over
+Q[a,b,d,d^-1], with actual d-pole bounds five and six. There are no
+additional a,b or Delta guards. The complete product stays on the same
+twelve first-source coordinates; constant minors1,1,-1 give formal
+ranks14,14,12. Exact replay checks all18 product orders and all352800
+kernel coefficient positions. Six focused tests and a separate sparse
+Laurent reconstruction pass. Claim `AI-CONIC-FIXED-TWO-CURVE-001` is
+written and unreviewed. This closes the prescribed two-jet question on
+the stated chart. PR107's full third jet, which has a nonzero kernel
+correction, remains a separate question. No full matrix target or
+improved exponent is established.
+
 ## The prescribed full conic first jet extends to all orders
 
 The [fixed-first-jet curve](research/ai/2026-10-23-conic-fixed-first-curve/proof.md)

@@ -1,5 +1,20 @@
 # Attribution and provenance
 
+The `2026-10-23-conic-fixed-two-curve` package is owner-directed
+OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
+constant, first and second map and its zero first two kernel corrections;
+those original bytes are pinned. The new construction moves a gauge
+vector and projects two boundary cores onto exact kernel conditions.
+Their projection residuals start at order three, preserving the complete
+two-jet. Acceptance uses its own exact Laurent parser and contracts the
+literal4096-term source without importing the constructor or earlier
+contraction code. A separate standard-library sparse reconstruction
+matches all saved coefficients. These internal checks do not constitute
+independent external mathematical review or formalization. Concurrent
+PR123 retains its separate exact d=0 construction with different lower
+coefficients. No full matrix target, historical priority or exponent gain
+is claimed.
+
 The `2026-10-23-conic-fixed-first-curve` package is owner-directed
 OpenAI Codex work. It retains the original source and PR107's full first
 jet with exact byte pins, and builds on the preceding polynomial-core
