@@ -11,6 +11,44 @@ quantified extensive leading rank loss. Exact separated-window examples
 retain the narrower positive construction Q(n,m) to M(floor(n/m),m,floor(n/m)).
 Claim `AI-PAIRED-COLUMN-OVERLAP-001` remains written and unreviewed.
 
+The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)
+is now complete: all 142,884 outer deletion pairs have dimension at least
+40, with two exact equality witnesses. This excludes all independent
+coordinate long-leg compressions of the fixed A4 conjugation family;
+their maximum leading loss is six. Continue with arbitrary noncoordinate
+flags in the [algebra question](ai/2026-10-23-a4-compression-algebra/QUESTION.md),
+not another coordinate census. Claim `AI-A4-INDEPENDENT-COORDINATE-004`
+remains written and unreviewed.
+
+The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)
+now has a complete limiting-space certificate and a written necessary
+condition: arbitrary constant 110-coordinate compressions must lose
+at least nine leading directions to permit `M(10,10,11)`. Every one
+of the 6,216 principal coordinate deletions loses at most four, so that
+finite class is closed. Keep the projected leading space distinct from
+the full re-saturated limit; the proof explicitly bounds newly recovered
+directions. The remaining question in this family is the locus
+`dim(P L C)<=103`. Moving compressions and genuinely different singular
+paths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and
+`AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full
+target or exponent improvement is established.
+
+The [low-rank-locus reduction](ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+makes that remaining question explicit: find, or exclude, a 26-dimensional
+U and two-dimensional W for which at least nine matrices in the fixed
+46-dimensional outer space E send U into W. Equivalently a rank-26
+compression of E must have image dimension at most 37. All killed
+112-dimensional limiting matrices are confined to this outer block.
+Claim `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed; a universal
+lower bound of 38 and all successful full-target maps remain unproved.
+
+The two [recorded follow-up families](ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+are complete for principal coordinate compressions: the product of the
+specified noncommuting square-zero factors and the moving unit from their
+nonnilpotent sum both have no surviving pair. All 221 cases requiring
+re-saturation in the latter family were checked over Q. Do not repeat
+that finite coverage; arbitrary noncoordinate compressions remain open.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

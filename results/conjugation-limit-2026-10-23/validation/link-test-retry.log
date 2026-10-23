@@ -1,0 +1,14 @@
+test_relative_markdown_links (test_research.RepositoryTests.test_relative_markdown_links) ... FAIL
+
+======================================================================
+FAIL: test_relative_markdown_links (test_research.RepositoryTests.test_relative_markdown_links)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/ab94ae5e0a2e/matrix-a4/tests/test_research.py", line 163, in test_relative_markdown_links
+    self.assertTrue((path.parent/local).resolve().exists(),f'{path}: {target}')
+AssertionError: False is not true : /workspace/scratch/ab94ae5e0a2e/matrix-a4/results/local/a4-conjugation/.rsync-tmp/EXPLORATION.md: proof.md
+
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+FAILED (failures=1)

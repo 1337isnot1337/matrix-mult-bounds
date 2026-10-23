@@ -12,6 +12,37 @@ checked the argument within the generating session; this does not supply
 independent mathematical review. No full near-capacity matrix family,
 historical priority, formalization, or exponent improvement is claimed.
 
+The `2026-10-23-a4-coordinate-compressions` continuation retains the
+PR213 source, block-space reduction and nine-direction requirement with
+exact published dependency pins. The new additions are the complete
+142,884-pair independent coordinate census and two exact sharpness
+witnesses, followed by the deduction for full long-leg coordinate maps.
+The modular calculation provides only lower bounds; the upper witnesses
+are literal integer zero identities. This is owner-directed Codex work,
+with no independent review, arbitrary-flag exclusion or exponent claim.
+
+The `2026-10-23-conjugation-limit` package is owner-directed OpenAI
+Codex work. Earlier cyclic-source and fixed-resolvent packages retain
+credit for the literal A4 tensor, its unimodular unit and the square-zero
+rank-sixteen slice. The new calculation conjugates all 112 source
+slices on both sides. Its complete limiting space, twelve-dimensional
+scalar-action subspace, compression rank-loss requirement and full
+principal coordinate-compression census are local continuations.
+The acceptance program reconstructs the source and polynomial identities
+without importing the discovery implementation. Its modular ranks are
+used only as lower bounds for complex dimension. Root and subagent
+checks belong to one generating session and are not independent
+mathematical review or formalization. No target, historical priority
+or exponent improvement is claimed.
+
+Its low-rank-locus continuation imports the minimum-rank-six theorem
+for `G+G00 G` from `AI-RESOLVENT-SHARP-MINRANK-001`, with proof,
+verifier and certificate bytes pinned. The explicit complete block
+basis, transpose-conjugation transport to `G+G G00`, and reduction to
+the 46-dimensional bottom-left space are the local additions.
+Both root and another subagent read the deduction within the generating
+session; that does not change its written-and-unreviewed status.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

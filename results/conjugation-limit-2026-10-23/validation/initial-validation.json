@@ -1,0 +1,66 @@
+{
+  "schema": "a4-conjugation-validation-v1",
+  "completed_at_utc": "2026-10-23T17:21:02.331092+00:00",
+  "python": "3.12.14",
+  "tested_local_commit": "6db05f5592b2f252ebc718cfececd5625a44aed5",
+  "tested_tree": "363271b34a2b82dd033b388d7b48d00f1e76d1f9",
+  "tree_and_head_unchanged_during_validation": true,
+  "full_regression": {
+    "discovered_tests": 905,
+    "unique_completed_tests": 905,
+    "passed_tests": 904,
+    "skipped_tests": 0,
+    "missing_test_ids": [],
+    "unexpected_test_ids": [],
+    "duplicate_completed_test_ids": [],
+    "exact_union_coverage": true,
+    "all_passed": false,
+    "monolithic_run_completed": false,
+    "prefix_command": "python -m unittest discover -s tests -v",
+    "prefix_exit_code": 130,
+    "prefix_passed_tests": 288,
+    "interruption_reason": "Parallelize only uncompleted tests",
+    "interrupted_test_resumed": "test_generic_partner_all_graphs.GenericPartnerTests.test_false_cubic_span_is_rejected",
+    "shard_test_counts": [
+      206,
+      206,
+      205
+    ],
+    "shard_commands": [
+      "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python results/local/conjugation-limit/remaining_tests.py --shard 0",
+      "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python results/local/conjugation-limit/remaining_tests.py --shard 1",
+      "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python results/local/conjugation-limit/remaining_tests.py --shard 2"
+    ]
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "exit_code": 0,
+    "all_five_passed": true,
+    "reports": [
+      "profile_checks.json: passed (73856 total_exact_grid_checks)",
+      "product_filtration_checks.json: passed (353664 exact_inequalities_checked)",
+      "binary_search.json: passed (12976 cases_tested)",
+      "ternary_search.json: passed (209692 cases_tested)",
+      "random_search.json: passed (20000 cases_tested)"
+    ]
+  },
+  "focused_verification": {
+    "command": "python -m unittest discover -s tests -p 'test_conjugation_limit.py' -v",
+    "tests_passed": 8,
+    "seconds": 13.283
+  },
+  "certificate_replay": {
+    "command": "python research/ai/2026-10-23-conjugation-limit/verify.py",
+    "exit_code": 0,
+    "regenerated_discovery_equals_retained_certificate": true
+  },
+  "log_sha256": {
+    "full-tests.log": "d2e2633d29113a0c9ff892bbbf653c55e055767f4c8d5d7caa768394bcebfcab",
+    "shard-0.log": "24d5930d5a7a7e2685a4be6bd3c263ed6877025e95b5f604ac3cb38ab989f24f",
+    "shard-1.log": "0d468e4aba3499ce5540b5c3e0adc0aa28be18194848816d3a7b25ff81fea054",
+    "shard-2.log": "1c48737b095b8cfda940271ba078e8ad30c06377a3787da051ca3fed0e10af45",
+    "replay.log": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "all_validation_passed": false,
+  "scope": "The complete frozen tree was covered by a retained successful prefix and three disjoint remaining-test shards. The monolithic run was interrupted solely to parallelize unfinished tests. Same-session checking does not change mathematical review status."
+}

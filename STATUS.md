@@ -20,6 +20,63 @@ more extensively singular leading blocks remain open. Claim
 window restrictions and a full-channel sharp flattening example test its
 scope; no exponent improves.
 
+## Independent coordinate compressions are excluded with sharp loss six
+
+The [complete independent-coordinate census](research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
+covers all 142,884 independent two-row / two-column deletions of the
+46-dimensional outer space. Every complex projected dimension is at
+least 40. Two exact integer kernel witnesses attain 40, so the maximum
+loss is six. The existing bottom-left kernel reduction transfers this
+bound to every independent coordinate compression of the full fixed
+112-dimensional conjugation family. Its target requires loss at least
+nine, so the entire coordinate class is excluded. Claim
+`AI-A4-INDEPENDENT-COORDINATE-004` is written and unreviewed, with finite
+computer assistance. Arbitrary noncoordinate flags remain a separate
+question; no target or exponent improvement is established.
+
+## Two-sided singular A4 maps require at least nine lost leading directions
+
+The [full-source conjugation package](research/ai/2026-10-23-conjugation-limit/proof.md)
+studies every normalized A4 slice under conjugation by `I+t^-1 N`, for
+the specified square-zero source slice N of rank 16. Its complete
+112-dimensional saturated limit acts by scalars on a fixed
+12-dimensional space. After arbitrary constant compression to 110
+coordinates on each long leg, a full `M(10,10,11)` target requires at
+least nine lost leading slice directions: `dim(P L C)<=103`.
+The proof allows every Laurent first map and accounts for directions
+that reappear after compression; it does not replace re-saturation
+with the projected leading space.
+
+Exact replay rebuilds the literal source, its unimodular normalization,
+all polynomial-combination coefficients, 112 independent leading
+matrices and the 12 scalar-action columns. All 6,216 principal
+coordinate compressions have projected rank at least 108 modulo 1009,
+hence dimension at least 108 over C. They lose at most four leading
+directions and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`
+and `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.
+The arbitrary constant-compression locus of dimension at most 103,
+moving compressions and other singular paths remain open. This is a
+scoped obstruction; it supplies no target or exponent improvement.
+
+The [low-rank reduction](research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+now confines every rank-at-most-four limiting matrix to one 28 by 28
+block. That block is the explicit 46-dimensional space
+`E=G+[G,G00]+G00 G G00`. A full target with arbitrary constant compression
+therefore requires rank-26 maps with `dim(Phat E Chat)<=37`.
+Exact replay checks 112 block-coordinate identities and 16
+transpose-conjugation identities; the minimum-rank-six input retains
+the prior resolvent package's credit. Claim
+`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The remaining
+universal lower bound of 38 is not proved.
+
+Two [finite two-sided follow-ups](research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+also screen all 6,216 principal coordinate pairs per family. A product
+of two noncommuting square-zero factors has no surviving pair. For the
+nonnilpotent moving-unit family, all 221 pairs surviving the first rank
+screen were re-saturated over Q and excluded by exact invariant-subspace
+identities. These completed experiments supply no full target and make
+no statement about arbitrary noncoordinate compressions.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

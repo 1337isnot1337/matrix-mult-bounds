@@ -2,6 +2,43 @@
 
 The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
 
+The [independent coordinate census](../research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
+now has sharp outer image dimension 40, so every independent coordinate
+compression of the fixed two-sided A4 family is excluded. The remaining
+question concerns arbitrary complex subspaces U and W. A finite choice
+of coordinate basis does not settle their compression dimensions.
+
+## Full-source singular maps: the compression rank-loss condition
+
+The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)
+computes the complete limiting space for `g=I+t^-1 N`, with the fixed
+rank-sixteen square-zero source slice N. A full matrix target can occur
+after constant long-leg compression only on the locus
+`dim(P L C)<=103`, where at least nine leading directions disappear.
+All principal two-coordinate deletions are excluded by a complete exact
+census. Do not repeat that finite class. The next constructive question
+is whether an arbitrary compression on this rank-loss locus can recover
+the full matrix slice space after re-saturation, or whether a different
+singular path avoids the scalar-action obstruction. A candidate must
+supply every target coefficient; a large limiting-space dimension alone
+does not identify matrix multiplication.
+
+The [exact low-rank reduction](../research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+reduces this fixed family's constant-compression question to the explicit
+46-dimensional outer space `E=G+[G,G00]+G00 G G00` in `Mat28`.
+Determine whether any rank-26 pair has `dim(Phat E Chat)<=37`.
+Equivalently, seek a 26-dimensional U and two-dimensional W with a
+subspace of at least nine E matrices mapping U into W. A universal
+lower bound of 38 would close constant compressions for this family;
+a successful reduced pair would still need complete re-saturation and
+the full target coefficient identities.
+
+The [recorded two-factor and nonnilpotent follow-ups](../research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+already close every principal coordinate compression for those two exact
+families. Their full rational re-saturation coverage is retained. A new
+experiment should change the compression class or singular family and
+still use complete target coefficient identities as its acceptance test.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
