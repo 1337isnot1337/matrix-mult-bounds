@@ -1491,6 +1491,14 @@ B>=k*(2N-floor(m^2/4)-1)-(m-1). These close the recorded dominant-degree
 experiment and two concurrent mixed-weight directions. Intermediate slopes
 and general singular shared maps remain open; no exponent is improved.
 
+The [single-copy pilot](research/ai/2026-10-23-mixed-family-single-copy/RESULT.md)
+computes an exact determinant `1` for the ten shared projective factors in the
+displayed border-rank-10 interpolation of `T_4`. No quadric contains all ten,
+so they cannot be pointwise limits of the ten source evaluation factors under
+a common shared-basis change when all target points stay distinct. This only
+closes that termwise route. It does not exclude `C(4,10) -> T_4`, any path with
+cancellations, or the replicated `k>=53` family, and gives no exponent bound.
+
 Concurrent results are indexed with pinned commits in
 [the collaboration review](docs/concurrent_research.md). They close the old
 fixed-label filtration question and supply additional constructions and

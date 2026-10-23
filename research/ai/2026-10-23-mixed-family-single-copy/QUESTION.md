@@ -52,14 +52,20 @@ a polynomial or geometric obstruction covering every such family.
   general changes on the other legs. A result for `k=1` alone would not prove
   the unbounded `k>=53` premise or improve `omega`.
 
-## First calculation
+## First checkpoint
 
-Construct the four exact source and target slice matrices in a fixed recorded
-coordinate order. Compute the target's exact rank strata in `P^3`, including
-the determinantal ideals, and compare their scheme data with the source
-family after arbitrary three-dimensional quotients of its long leg. Use this
-as a discovery route only: any claimed obstruction must be invariant under
-the full family of allowed changes and must survive orbit closure.
+The ten shared factors in the target's displayed rank-10 interpolation
+certificate have an exact quadratic evaluation determinant of `1`; see
+[`RESULT.md`](RESULT.md) and its replayable JSON certificate. Since the
+source's ten-node evaluation restriction has shared factors on a twisted
+cubic, this rules out termwise matching of those two displayed decompositions
+under a common varying shared-basis change. It does not exclude a general
+degeneration.
+
+Next, determine whether a complete invariant of the four-dimensional slice
+space, or a degeneration using more than ten source terms, can settle this
+single-copy target. Any claimed obstruction must cover all allowed maps and
+survive orbit closure.
 
 Record exact equations, matrix ranks, and failed approaches. Do not promote a
 finite numerical fit or a rank-pattern mismatch to a border-degeneration
