@@ -1,11 +1,13 @@
 # Attribution and provenance
 
 The R5 convolution-graph audit is owner-directed OpenAI Codex work. Filmus's
-exact neighboring and tripling shared-leg identities, source border-rank
-bound, terminal isomorphism, and weighted row certificate are pinned to
-commit `8e38460c2c04617692a64a826b09e8995ac8717d`; their imported Lean proof
-closure was not rebuilt here. The local contribution is the `P_*` potential
-comparison proving that this fixed graph family misses the strict exponent
+neighbor shared-leg identity, raw general-tripling and replication
+degenerations, source border-rank bound, terminal isomorphism, and weighted
+row certificate are pinned to commit
+`8e38460c2c04617692a64a826b09e8995ac8717d`; their imported Lean proof closure
+was not rebuilt here. The local contribution packages the latter two
+degenerations with the pinned supported-sum helper and uses the `P_*`
+potential to prove this fixed graph family misses the strict exponent
 criterion for every size. This is a written, unreviewed conditional no-go; it
 does not exclude other graphs or establish an exponent improvement.
 

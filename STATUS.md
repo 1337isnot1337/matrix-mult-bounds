@@ -2,13 +2,16 @@
 
 ## Exact convolution graph row barrier
 
-The [R5 route map](docs/route-synthesis.md) identifies exact pinned Filmus
-neighbor and tripling `SharedLegIdentity` records, a source border-rank bound
-for `C(a,a)`, and a square-matrix terminal at `C(2,1)`. The existing `P_*`
+The [R5 route map](docs/route-synthesis.md) identifies an exact pinned Filmus
+neighbor identity, general-tripling and replication degenerations packaged as
+shared-leg rows (not locally formalized), a source border-rank bound for
+`C(a,a)`, and a square-matrix terminal at `C(2,1)`. The existing `P_*`
 potential satisfies those graph rows and caps their weighted terminal inflow
-at `L_a`; the exact comparison gives `(2L_a)^3 < (2a-1)^4` for every `a>=2`.
+at `L_a`; the exact comparison gives
+`(2L_a)^3 < (2a-1)^4` for every `a>=2`.
 Claim `AI-R5-CONVOLUTION-GRAPH-BARRIER-001` is written and unreviewed. It
-excludes only this neighbor/tripling/boundary row family with these endpoints.
+excludes only this neighbor/general-tripling/replication/boundary row family
+with these endpoints.
 Additional identities, other endpoints and stronger tensor-level constraints
 remain open. No smaller exponent is established.
 

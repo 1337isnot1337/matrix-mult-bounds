@@ -131,9 +131,10 @@ Status: open. The [route map](route-synthesis.md) compares the spectral,
 block-identity, and polynomial-separation interfaces. The
 [entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to
 its scalar matched-decomposition inequalities, even when decompositions share
-different legs. The exact Filmus convolution neighbor and tripling identities
-give a concrete graph family. The `P_*` potential bounds every certificate
-using only those rows from `C(a,a)` to `C(2,1)` by `L_a`, and
+different legs. The exact Filmus convolution neighbor, general-tripling, and
+replication degenerations give concrete graph rows. The `P_*` potential bounds
+every certificate using only those rows and boundary symmetry from `C(a,a)`
+to `C(2,1)` by `L_a`, and
 `(2L_a)^3 < (2a-1)^4` for every `a>=2`; this family misses the strict
 improvement threshold. A candidate constraint absent from the scalar profile
 must add exact shared-leg maps or other tensor-level data beyond this row
