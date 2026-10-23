@@ -233,7 +233,50 @@
       "source_sha256": "f97fda1582154a7aa20c1baab24a3888357bd4af1ac841a400e44a681f46dd08",
       "sha256": "f97fda1582154a7aa20c1baab24a3888357bd4af1ac841a400e44a681f46dd08",
       "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "sha256": "b7e603c84bc2f4c5a1615d036683e1fb48c36ef4e484147b81027c72a64119ee",
+      "source_sha256": "b7e603c84bc2f4c5a1615d036683e1fb48c36ef4e484147b81027c72a64119ee",
+      "source_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4",
+      "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/preservation_report.json",
+      "sha256": "5b34e727388ff9dc8898e2394524b9b380a33742208b516f5007321da6ea2f87",
+      "source_sha256": "5b34e727388ff9dc8898e2394524b9b380a33742208b516f5007321da6ea2f87",
+      "source_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4",
+      "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/live_catchup_history_receipt.current.json",
+      "sha256": "b128b968608c06000898cabffbcaf56d606149abd788777f60c1dc833a0d23fa",
+      "source_sha256": "b128b968608c06000898cabffbcaf56d606149abd788777f60c1dc833a0d23fa",
+      "source_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4",
+      "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/live_catchup_packaging_commit.json",
+      "sha256": "83fc984decb097780257bafefbd7b54d6a08c331753d96d99fd9e393a17dbec4",
+      "source_sha256": "83fc984decb097780257bafefbd7b54d6a08c331753d96d99fd9e393a17dbec4",
+      "source_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4",
+      "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/live_catchup_packaging_equivalence.json",
+      "sha256": "3d27384c962471303ec15c57f974ca5e396ff5184e84961a417509c66855057e",
+      "source_sha256": "3d27384c962471303ec15c57f974ca5e396ff5184e84961a417509c66855057e",
+      "source_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4",
+      "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archives_169_complete_verification.json",
+      "sha256": "088fe5eea4a84ae394a7a5e43bde26ecec32b9cfea20643e91d7d5a2beb39723",
+      "source_sha256": "088fe5eea4a84ae394a7a5e43bde26ecec32b9cfea20643e91d7d5a2beb39723",
+      "source_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4",
+      "compression": null
     }
   ],
-  "limitations": "Earlier exact indexes survive under revision names. Current audit/index bytes are finalized by the later metadata-only receipt commit."
+  "limitations": "All indexed bytes match this packaging. Historical audits and validation runs retain their exact revision scopes. This last commit changes only metadata receipts, not the inputs covered by validation.",
+  "final_audited_head": "134b73d10035cac30c79720ec465a1a847a970c4"
 }
