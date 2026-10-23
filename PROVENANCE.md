@@ -5,7 +5,10 @@ work. It adopts the prior elementary scalar Hankel kernel description,
 full-output rank injections and PR115 field-intersection descent with
 unchanged source pins. The exact primitive-degree kernel count, wider
 strip and balanced sharpness family for every 2<=r<a are local
-continuations; PR115 retains its r=a-1 subfamily credit. No new external
+continuations; PR115 retains its r=a-1 subfamily credit. The common short
+factor rank identity, separate two-variable boundary family at r=a-1
+and forty-case additive pilot are also local; the additive inequality
+remains unproved. No new external
 structural theorem, independent review, formalization or exponent
 improvement is claimed.
 

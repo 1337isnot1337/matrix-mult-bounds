@@ -18,6 +18,10 @@ extends the preceding [kernel-descent strip](../2026-10-23-hankel-equality/READM
 whose coefficient-map helpers and source credits remain pinned. The new
 proof uses its field-intersection step and the prior elementary Hankel
 kernel description; no pencil index or bundle-splitting theorem is added.
+If all f_k have one fixed nonzero short polynomial factor in z, the full
+slice rank is exactly a*sigma; the symmetric x-factor chart has rank b*rho.
+The proof gives the literal Kronecker factors, with no converse factorization
+assumed for arbitrary one-variable supporting forms.
 
 Twenty-four exact controls cover fifteen balanced sharpness cases, seven
 unbalanced or higher-degree cases, and two cases varying in both variables.
@@ -36,3 +40,9 @@ This remains a pointwise source-slice constraint, with no proved constancy
 over matrix parameters. At A9 and r=8 the strip is still nine units wide.
 No target construction or exclusion, independent review, formalization,
 historical novelty, or smaller exponent is claimed.
+
+The [additive question](additive_question.md) separates an unproved
+two-variable inequality from a written boundary-family rank calculation
+at r=n-1. A forty-case recurrence pilot found no violation; its declared
+scope and compact records are separate from the theorem. Replay it with
+`python research/ai/2026-10-23-hankel-annihilator-degree/additive_pilot.py`.

@@ -14,3 +14,8 @@ The written unreviewed proof now widens the pointwise constant-scheme strip to
 support. The balanced moving-support family is a written sharpness
 control for every 2<=r<min(a,b). No common scheme over a whole lifted
 matrix family is assumed; the A9 square-sum problem remains separate.
+
+Next question: can the two primitive degree costs be added when both
+degrees equal one? The declared forty-case pilot and exact r=n-1
+boundary family are recorded in additive_question.md. The universal
+additive inequality is unproved and is not used by either strip theorem.

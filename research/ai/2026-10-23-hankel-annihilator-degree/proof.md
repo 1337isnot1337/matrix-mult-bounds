@@ -65,7 +65,28 @@ It does not identify the schemes at two different matrix parameters.
 At the A9 equality rank r=8, Delta=9, so this continuation does not
 strengthen that particular width or close its outstanding family problem.
 
-## 3. Sharpness in every balanced deficient rank at least two
+## 3. Exact full ranks with one fixed short factor
+
+If f_k(x,z)=h_k(x)v(z) for one nonzero polynomial v of degree below b,
+with deg h_k<a, the full source matrix is a Kronecker product after
+regrouping its rows and columns:
+
+    M_F = (h_(p+q,H-j))_((j,p),(H,q)) tensor (v_(L-r))_(L,r).
+
+The second factor is full polynomial multiplication by v on polynomials
+of degree below a; it has rank a. The first factor is the transpose of
+the inner x coefficient map, with rank sigma. Consequently
+
+    rank M_F = a sigma = ab r+a(a-r) min(epsilon_x,b).       (3)
+
+Here epsilon_z=0, since multiplying the symbol by v(z) does not change
+its projective supporting form. Thus the bound (2) is exact throughout
+this fixed-short-factor chart, not just in the particular sharpness family.
+The symmetric statement for f_k=u(x)h_k(z) is rank M_F=b rho. This
+calculation does not presume that every slice with a one-variable
+supporting form has the displayed common factor.
+
+## 4. Sharpness in every balanced deficient rank at least two
 
 Fix a=b=n and 2<=r<n. Set
 
@@ -81,7 +102,7 @@ As these f_k are independent of z, the full source matrix splits into
 n copies of the full x coefficient map with input degree below n.
 Equation (1) gives each copy rank nr+(n-r). Consequently
 
-    rank M_F = n^2 r+n(n-r) = ab r+Delta.                  (3)
+    rank M_F = n^2 r+n(n-r) = ab r+Delta.                  (4)
 
 There is no constant degree-r annihilator: the coefficient of x is the
 sequence supported at k=r, whose recurrence shifts force all r+1

@@ -11,7 +11,12 @@ length-r scheme. A balanced family attains the boundary for every
 formats, higher degrees and both-variable motion. Claim
 `AI-HANKEL-ANNIHILATOR-DEGREE-001` is written and unreviewed. This does
 not strengthen the width at A9 rank eight, make schemes constant over
-matrix parameters, or establish a target or smaller exponent.
+matrix parameters, or establish a target or smaller exponent. A separate
+[additive-cost question](research/ai/2026-10-23-hankel-annihilator-degree/additive_question.md)
+retains an unproved sum bound, an exact two-variable boundary family
+at r=n-1, and a forty-case finite recurrence pilot with zero violations.
+Claims `AI-HANKEL-ADDITIVE-BOUNDARY-001` and
+`EXP-HANKEL-ADDITIVE-PILOT-001` retain those distinct evidence tiers.
 
 
 ## A sharp constant-scheme strip at deficient Hankel rank
