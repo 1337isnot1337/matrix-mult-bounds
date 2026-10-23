@@ -1003,6 +1003,18 @@ reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
 
+## Paired long-leg target screen
+
+The `2026-10-23-paired-long-leg-target-screen` package is owner-directed
+Codex work. Its exact target comparisons use the maintained `all_ranks.py`
+and saved paired-source frontier, both pinned by file hash. Its source-rank
+lower bound is attributed to the all-degree filtered-kernel proof in PR
+#169 at commit `a629c557d3ee155cbd1c8c2f97ce3d367a115475`, with the proof
+hash recorded in `sources.json`. That proof remains unreviewed and
+unmerged; the target-screen conclusion is conditional on it. No exact
+intermediate source rank, target degeneration, independent mathematical
+review, formalization or exponent improvement is claimed.
+
 ## Nonsplit vector-degree finite continuation
 
 The October 23 vector-degree package is owner-directed Codex work. It

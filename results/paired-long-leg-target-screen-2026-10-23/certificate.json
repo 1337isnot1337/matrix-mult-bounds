@@ -1,0 +1,466 @@
+{
+  "frontier_sha256": "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54",
+  "improves_omega": false,
+  "independent_review": false,
+  "kernel_sections_upper": "sum_{k=a}^{2a-1} a*(binom(2a-1,k)-binom(2a-1,k+1))*binom((a-1)(2a-1),p-k)*max(p+(a-1)-a*k+1,0)",
+  "proof_status": "conditional-on-unreviewed-upstream-proof",
+  "records": [
+    {
+      "a": 14,
+      "all_targets_both_legs_at_most_source_lower_bound": [
+        [
+          183,
+          209
+        ]
+      ],
+      "intermediate_power_range": [
+        183,
+        363
+      ],
+      "per_target": [
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              183,
+              209
+            ]
+          ],
+          "shape": [
+            12,
+            19,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              183,
+              224
+            ]
+          ],
+          "shape": [
+            13,
+            20,
+            14
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              183,
+              211
+            ]
+          ],
+          "shape": [
+            13,
+            19,
+            15
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              183,
+              228
+            ],
+            [
+              363,
+              363
+            ]
+          ],
+          "shape": [
+            14,
+            18,
+            14
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              183,
+              217
+            ],
+            [
+              363,
+              363
+            ]
+          ],
+          "shape": [
+            14,
+            19,
+            14
+          ]
+        }
+      ],
+      "powers_with_at_least_one_target_not_dominated": 154,
+      "saved_targets": 5
+    },
+    {
+      "a": 15,
+      "all_targets_both_legs_at_most_source_lower_bound": [
+        [
+          211,
+          241
+        ]
+      ],
+      "intermediate_power_range": [
+        211,
+        419
+      ],
+      "per_target": [
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              251
+            ]
+          ],
+          "shape": [
+            12,
+            21,
+            17
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              242
+            ]
+          ],
+          "shape": [
+            12,
+            20,
+            18
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              260
+            ]
+          ],
+          "shape": [
+            13,
+            22,
+            15
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              252
+            ]
+          ],
+          "shape": [
+            13,
+            21,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              241
+            ]
+          ],
+          "shape": [
+            13,
+            20,
+            17
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              263
+            ]
+          ],
+          "shape": [
+            14,
+            22,
+            14
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              256
+            ]
+          ],
+          "shape": [
+            14,
+            21,
+            15
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              253
+            ],
+            [
+              419,
+              419
+            ]
+          ],
+          "shape": [
+            14,
+            19,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              243
+            ]
+          ],
+          "shape": [
+            14,
+            20,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              262
+            ],
+            [
+              419,
+              419
+            ]
+          ],
+          "shape": [
+            15,
+            19,
+            15
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              211,
+              253
+            ],
+            [
+              419,
+              419
+            ]
+          ],
+          "shape": [
+            15,
+            20,
+            15
+          ]
+        }
+      ],
+      "powers_with_at_least_one_target_not_dominated": 178,
+      "saved_targets": 11
+    },
+    {
+      "a": 16,
+      "all_targets_both_legs_at_most_source_lower_bound": [
+        [
+          241,
+          274
+        ]
+      ],
+      "intermediate_power_range": [
+        241,
+        479
+      ],
+      "per_target": [
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              293
+            ]
+          ],
+          "shape": [
+            13,
+            23,
+            17
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              286
+            ]
+          ],
+          "shape": [
+            13,
+            22,
+            18
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              275
+            ]
+          ],
+          "shape": [
+            13,
+            21,
+            19
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              294
+            ]
+          ],
+          "shape": [
+            14,
+            23,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              287
+            ]
+          ],
+          "shape": [
+            14,
+            22,
+            17
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              274
+            ]
+          ],
+          "shape": [
+            14,
+            21,
+            18
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              299
+            ],
+            [
+              479,
+              479
+            ]
+          ],
+          "shape": [
+            15,
+            23,
+            15
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              290
+            ]
+          ],
+          "shape": [
+            15,
+            22,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              289
+            ],
+            [
+              479,
+              479
+            ]
+          ],
+          "shape": [
+            15,
+            20,
+            17
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              277
+            ]
+          ],
+          "shape": [
+            15,
+            21,
+            17
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              298
+            ],
+            [
+              479,
+              479
+            ]
+          ],
+          "shape": [
+            16,
+            20,
+            16
+          ]
+        },
+        {
+          "both_long_leg_target_ranks_at_most_source_lower_bound": [
+            [
+              241,
+              289
+            ],
+            [
+              479,
+              479
+            ]
+          ],
+          "shape": [
+            16,
+            21,
+            16
+          ]
+        }
+      ],
+      "powers_with_at_least_one_target_not_dominated": 205,
+      "saved_targets": 12
+    }
+  ],
+  "schema": "paired-long-leg-filtered-target-screen-v1",
+  "source_bound": "max(0,a^2*binom(N,p)-U(a,p))",
+  "target_rank_method": "exact padded matrix Koszul ranks from pinned all_ranks.py",
+  "target_rank_source_sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff",
+  "upstream_proof_commit": "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+  "upstream_proof_sha256": "c6d00fd0ce8807c4ad6d16beaabb155faa1ed5323552e990a99045104dfebf49"
+}

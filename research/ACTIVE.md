@@ -355,6 +355,13 @@ when merging; integration is not theorem acceptance.
 
 ## Paired-source continuation
 
+The conditional [paired long-leg target screen](ai/2026-10-23-paired-long-leg-target-screen/README.md)
+compares both exact target ranks for all 28 saved survivors in the degrees
+covered by the associated-graded source bound from unmerged PR #169. The
+screen closes only the windows `183–209`, `211–241`, and `241–274` at
+`a=14,15,16`, conditional on that still-unreviewed proof. Other intermediate
+degrees and exact source ranks remain open.
+
 The current continuation integrates main `b113866`. Checkpoint `27d7a75`
 completed 578 tests, with 577 passes and one optional NumPy skip, and
 all five local archive replays. Five hosted static checks passed; no

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-23",
+  "claim_ids": [
+    "EXP-PAIRED-LONG-LEG-TARGET-SCREEN-001"
+  ],
+  "upstream_open_pr": {
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/169",
+    "claim_id": "AI-PAIRED-LONG-LEG-INJECTIVITY-001",
+    "head_commit": "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+    "proof_path": "research/ai/2026-10-23-paired-bundle-injectivity/proof.md",
+    "proof_sha256": "c6d00fd0ce8807c4ad6d16beaabb155faa1ed5323552e990a99045104dfebf49",
+    "used": "The associated-graded H0 upper bound U(a,p) and the resulting all-degree source-rank lower bound. The cited proof is written and unreviewed; all conclusions here are conditional on it."
+  },
+  "local_source_pins": [
+    {
+      "path": "research/ai/2026-10-20-paired-sources/all_ranks.py",
+      "sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
+    },
+    {
+      "path": "results/paired-sources-2026-10-20/all-power-frontier.json",
+      "sha256": "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54"
+    }
+  ],
+  "attribution": "The exact finite comparison and its verifier are owner-directed Codex work. The source-rank inequality is attributed to the pinned, unmerged PR #169 proof. No independent mathematical review or exponent improvement is claimed."
+}
