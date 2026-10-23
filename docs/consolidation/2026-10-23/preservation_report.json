@@ -1,18 +1,18 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-23T17:47:33.101027+00:00",
-  "head": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
+  "checked_at": "2026-10-23T18:04:04.075494+00:00",
+  "head": "33a0f407b2071ed30433b2b1fbd8a577c50ea044",
   "mode": "commit",
-  "source_heads_checked": 160,
-  "distinct_source_heads": 160,
-  "archive_tag_receipts_checked": 159,
+  "source_heads_checked": 165,
+  "distinct_source_heads": 165,
+  "archive_tag_receipts_checked": 164,
   "historical_archive_files": 18,
-  "source_added_paths": 3149,
-  "source_added_blob_variants": 3193,
-  "resolved_outputs_checked": 1317,
+  "source_added_paths": 3189,
+  "source_added_blob_variants": 3233,
+  "resolved_outputs_checked": 1365,
   "provisional_conflicts_covered": 39,
-  "original_unique_claim_ids": 602,
-  "final_claim_ids": 607,
+  "original_unique_claim_ids": 607,
+  "final_claim_ids": 612,
   "source_registry_ids": 54,
   "errors": [],
   "source_addition_representation": [
@@ -22368,12 +22368,292 @@
       "output_paths": [
         "tools/test_shard.py"
       ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-column-overlap/QUESTION.md",
+      "source_blob": "8621349b604966da4b1a83074ff62883e1a7286b",
+      "output_paths": [
+        "research/ai/2026-10-23-column-overlap/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-column-overlap/README.md",
+      "source_blob": "727f867758e7348bb8efb0f1342261b22b77da69",
+      "output_paths": [
+        "research/ai/2026-10-23-column-overlap/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-column-overlap/proof.md",
+      "source_blob": "84bfaab75d277fa12b77d4f24cdfeecee1801c90",
+      "output_paths": [
+        "research/ai/2026-10-23-column-overlap/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-column-overlap/sources.json",
+      "source_blob": "9b393b86161df9cb7fd42f12c6115447233a3936",
+      "output_paths": [
+        "research/ai/2026-10-23-column-overlap/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-column-overlap/verify.py",
+      "source_blob": "90d1608aa890ec4a77bf0f070ab5764a742706ef",
+      "output_paths": [
+        "research/ai/2026-10-23-column-overlap/verify.py"
+      ]
+    },
+    {
+      "source_path": "results/column-overlap-2026-10-23/controls.json",
+      "source_blob": "bcbae292230f243fe4bfaedbbf39a0db359aa9f9",
+      "output_paths": [
+        "results/column-overlap-2026-10-23/controls.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_column_overlap.py",
+      "source_blob": "51cf13de67f69316a5af389e80cf548aa2886aeb",
+      "output_paths": [
+        "tests/test_column_overlap.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_blob": "6f815f319e5a8ed54b1b3d05b7b0d2dccd70800c",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_blob": "73c0ee7c0fb03ec246c35f2fe488d7e94a1346af",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_blob": "19d05335c32e496b69e196352b6412f91f5eee81",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+      "source_blob": "cf4a372b8b79bd67a16804511d679005dfd9263b",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "source_blob": "bac6cb49c934a10864aee07b4d80d25ff4d07b87",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "source_blob": "1d379aeb4a577333ba579682d16359105e6a1875",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+      "source_blob": "6b74c11ada20eaac5bed57c727f9cfb6a8ac7631",
+      "output_paths": [
+        "research/ai/2026-10-23-a4-coordinate-compressions/verify.py"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+      "source_blob": "3d745b6cf668625f20a9f58d2ce830ea52a1ea9e",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/certificate.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+      "source_blob": "7c8e67f573acfdce00e2bec793507e02950b403a",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+      "source_blob": "561baadd9d1867b6f355333810685bcb11f08bf0",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+      "source_blob": "95d2129c42512d9f0f5e00d9524ce9107bd78dd1",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/focused-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+      "source_blob": "03b679f8b231915ca013de4792360a99659cb9ee",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+      "source_blob": "5b9c7513a08f1cf5c0ea83ebacafcaf1ebf6fef5",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/validation.json"
+      ]
+    },
+    {
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+      "source_blob": "e40ab6095d48ded7dde1542bb1ab68d70eccfa06",
+      "output_paths": [
+        "results/a4-coordinate-compressions-2026-10-23/verification.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_a4_coordinate_compressions.py",
+      "source_blob": "25d768e7dbd538ae430e043c752009e52923392d",
+      "output_paths": [
+        "tests/test_a4_coordinate_compressions.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "source_blob": "07744d31fb713b728f4b1069ab620b9f4e48ee67",
+      "output_paths": [
+        "research/ai/2026-10-23-paired-rank-two-gap/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "source_blob": "a5d29d802584d7b1fc27652b0ef4e81bf53cefee",
+      "output_paths": [
+        "research/ai/2026-10-23-paired-rank-two-gap/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+      "source_blob": "1d039b9b286fabf0987c5963165559574dae2d9c",
+      "output_paths": [
+        "research/ai/2026-10-23-paired-rank-two-gap/verify.py"
+      ]
+    },
+    {
+      "source_path": "results/paired-rank-two-gap-2026-10-23/certificate.json",
+      "source_blob": "ff5b9a9d559a9e7da3560c8220050a4eb50fd565",
+      "output_paths": [
+        "results/paired-rank-two-gap-2026-10-23/certificate.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_paired_rank_two_gap.py",
+      "source_blob": "a18bd5184d73ace824164995c0bd502512068a0d",
+      "output_paths": [
+        "tests/test_paired_rank_two_gap.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/README.md",
+      "source_blob": "c435efff104beb938614f33b0598960e94a89606",
+      "output_paths": [
+        "research/ai/2026-10-23-three-term-resultant-obstruction/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "source_blob": "5d2b55ac11ddeadef1d7d271439727a60aaf5231",
+      "output_paths": [
+        "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "source_blob": "e19ea3131f8a744255cbc95df5166cdc10b5aeb1",
+      "output_paths": [
+        "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+      "source_blob": "e5ed21e5afe0ece03a6f4141200fb3e3a2133d4e",
+      "output_paths": [
+        "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py"
+      ]
+    },
+    {
+      "source_path": "results/three-term-resultant-obstruction-2026-10-23/controls.json",
+      "source_blob": "df3581bba5fb27db538e9342da61915d3c9931eb",
+      "output_paths": [
+        "results/three-term-resultant-obstruction-2026-10-23/controls.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_three_term_resultant_obstruction.py",
+      "source_blob": "18bc9d484511e050c7d91cac0839806da806c089",
+      "output_paths": [
+        "tests/test_three_term_resultant_obstruction.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_blob": "1013b8e8196a292ba562df93886badf4c4ed3216",
+      "output_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_blob": "4b04a2c6359631d4ac572d2ea49745e1893417bf",
+      "output_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_blob": "a07e29b5f881983bb5285b5a2bef233fcd50972c",
+      "output_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_blob": "0b67e941456ad25f6902ab709678ed55070ef5d2",
+      "output_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/verify.py"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_blob": "2bb2c641460cb6a111a986e119c7f2ea0b599ee1",
+      "output_paths": [
+        "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py"
+      ]
+    },
+    {
+      "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_blob": "fb8f266a49ef3f81a5d240db3bb7b4490c1094cc",
+      "output_paths": [
+        "results/top-coefficient-biforms-2026-10-23/verification.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_top_coefficient_biforms.py",
+      "source_blob": "8426f8ed541a7c3b24bd58913b3b46293e332dc5",
+      "output_paths": [
+        "tests/test_top_coefficient_biforms.py"
+      ]
     }
   ],
   "inputs": {
     "/workspace/scratch/5e4a124ebf61/consolidation/snapshot.json": "6b5599cb1d2b03f7bdcffc86fea4422c4d225a3021bdabb6f3a256e1dccaccfa",
-    "/workspace/scratch/5e4a124ebf61/consolidation/claims_output/resolution_report.json": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
-    "/workspace/scratch/5e4a124ebf61/consolidation/central_resolution_manifest.json": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_output/resolution_report.json": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_resolution_manifest.json": "efcc1ddeb6a911284f2953ea3be0da246a5b5ce984ae902bc61ae10b82466f01",
     "/workspace/scratch/5e4a124ebf61/consolidation/provisional_conflicts.json": "0a7d4d2f4adbb3aeb5f9aa7f5e9197cfff4f1b41b3c484ac635d4041619c20d5",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_plan.json": "bdedd383c37c9316ca01e7dedd659eee7781e69f2fb9039bf2c6e192f56ec6db",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_plan.json": "cd36220f0b7612db5b20e4a7421415cb9d78e910efb0f815f48005dc33d085a5",
@@ -22382,6 +22662,7 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/receipt_catchup_plan.json": "c6fcac72a57a0b92dbb9fbe1d4393800adf2f3a44bf4fb3a17df416117d848fe",
     "/workspace/scratch/5e4a124ebf61/consolidation/claims_output/postvalidation_plan.json": "2496d5ed89078414baa589b6d6bcfa1abcc743145237e5cc9d0c5b0ac8aa00d2",
     "/workspace/scratch/5e4a124ebf61/consolidation/claims_output/closure_plan.json": "ef111123692620c4e677f57345411ae20283f67f5003687f99d390c538a295dc",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_plan.json": "5ddf1b67bcc2a2587e0761e0011a8afc4bd007b2796dd672b2f1a4b866f4ba0a",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_tags.json": "85458c71ffcfff40553f108ad2ad39cb5bc8ad0fff0b757e3ada06a5140949b8",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_update_tags.json": "9793046accccb79e9f1180ffbd41b17f9d24ac301cf9ef48d8fc684af4c93e30",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_final_tags.json": "aaa78b21b8423e7330f642c6f19f4a2c355f9bbd1f68e73146539b5b50395815",
@@ -22390,13 +22671,16 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_receipt_tags.json": "43ceafb479bb210f8bbceaf8e66bfa6c3d4a3f810f48dee373c198821ae4219a",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_postvalidation_tags.normalized.json": "ce73006590eeb1134c20d8834b86ef8d8acfbc7b3543bc633ee8f866941626bf",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_closure_tags.normalized.json": "4543cee302a28b3efeda35e869a707605c50e290eff0d8f9298081abbb0b32ba",
+    "/workspace/scratch/5e4a124ebf61/consolidation/archive_nextwave_tags.normalized.json": "2f1e488e09325390b7a42e3d86e84872c78caa149cc513c146732d6906c86865",
     "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
     "/workspace/scratch/5e4a124ebf61/consolidation/late_merge_log.json": "4809f837cf708b5b82915b5cf7ae7e24337df998af753d05c03686bff9032198",
     "/workspace/scratch/5e4a124ebf61/consolidation/receipt_merge_log.json": "4cd11a319dfd6d6ecc623ddcf78466182aff6656312251e5c6cf1eac22c791cf",
     "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_merge_log.json": "9f1020f24f658b6c348bcd3bbe7812dc623fe0876b876effca6201c483c7a277",
-    "/workspace/scratch/5e4a124ebf61/consolidation/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070"
+    "/workspace/scratch/5e4a124ebf61/consolidation/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781"
   },
   "limits": [
     "Checks ancestry, exact archived bytes, file representation, declared resolution hashes, and ledger provenance; it does not establish mathematical correctness.",

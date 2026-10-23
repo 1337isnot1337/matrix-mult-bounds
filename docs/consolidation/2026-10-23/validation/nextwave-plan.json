@@ -1,0 +1,66 @@
+{
+  "scope": "Focused validation of the five frozen next-wave source heads against the published a764cf16 baseline: all 17 newly added tests plus 11 repository metadata/archive tests. Preserve every previous validation receipt. No optional discovery or imported historical harness is executed.",
+  "baseline": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "jobs": [
+    {
+      "name": "column-overlap",
+      "kind": "unittest",
+      "targets": [
+        "test_column_overlap"
+      ],
+      "expected_tests": 6,
+      "reason": "Exact rational and integer reconstruction of seven column-overlap, singular-leading, boundary, saturation, and corruption controls; retained report and claim scope checks.",
+      "audit": "nextwave_code_audit.json"
+    },
+    {
+      "name": "a4-coordinate-compressions",
+      "kind": "unittest",
+      "targets": [
+        "test_a4_coordinate_compressions"
+      ],
+      "expected_tests": 4,
+      "reason": "Complete 142884-pair independent coordinate census modulo 1009, two exact six-dimensional integer kernels, independent block-basis cross-check, and damaged certificate rejection.",
+      "audit": "nextwave_code_audit.json"
+    },
+    {
+      "name": "paired-rank-two-gap",
+      "kind": "unittest",
+      "targets": [
+        "test_paired_rank_two_gap"
+      ],
+      "expected_tests": 3,
+      "reason": "128 pencil-pair cases, 16 sharp controls, eight literal factorization equalities, exhaustive small GF2 rank-two matrices, retained report equality and a diagnostic mutation control.",
+      "audit": "nextwave_code_audit.json"
+    },
+    {
+      "name": "three-term-resultant-obstruction",
+      "kind": "unittest",
+      "targets": [
+        "test_three_term_resultant_obstruction"
+      ],
+      "expected_tests": 1,
+      "reason": "Exact 256-point integer determinant identity grid, rank14/15 controls, integral kernel and -4 minor, finite modular checks.",
+      "audit": "nextwave_code_audit.json"
+    },
+    {
+      "name": "top-coefficient-biforms",
+      "kind": "unittest",
+      "targets": [
+        "test_top_coefficient_biforms"
+      ],
+      "expected_tests": 3,
+      "reason": "3372 complete modular coefficient-matrix rank controls, 24 exact rational SymPy controls, saved report equality, and off-by-one mutation control.",
+      "audit": "nextwave_code_audit.json"
+    },
+    {
+      "name": "repository-and-archives",
+      "kind": "unittest",
+      "targets": [
+        "test_research.RepositoryTests",
+        "test_archive_integrity"
+      ],
+      "expected_tests": 11,
+      "reason": "Validate the merged 612-claim ledger, source/link metadata, and protected archive integrity."
+    }
+  ]
+}

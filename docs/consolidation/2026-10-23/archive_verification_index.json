@@ -1,6 +1,6 @@
 {
   "schema": "matrix-consolidation-archive-receipt-index-v1",
-  "snapshot_count": 159,
+  "snapshot_count": 164,
   "basis": "Exact remote GET receipts supplied by the coordinator and checked by the offline preservation gate.",
   "archive_tags": [
     {
@@ -39,6 +39,11 @@
       "source_receipt": "archive_late_tags.json"
     },
     {
+      "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/f8fdcd314d7a",
+      "sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
       "tag": "archive/consolidation-20261023-165523-updates/research/conic-projective-global-20261023/c95b5c3c4ee0",
       "sha": "c95b5c3c4ee0fc46cba9060b8ea280106335bf94",
       "source_receipt": "archive_postvalidation_tags.json"
@@ -62,6 +67,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/331801579b19",
       "sha": "331801579b19b64f2441a7aab8b566f9d6b02666",
       "source_receipt": "archive_final_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/3b2eb05abac5",
+      "sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_receipt": "archive_nextwave_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/f42b9df4caa0",
@@ -92,6 +102,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/operational-repair-20261023/c4b1decc65c5",
       "sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
       "source_receipt": "archive_closure_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/paired-rank-two-gap-20261023-auto2/dd45f0c80030",
+      "sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_receipt": "archive_nextwave_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/product-longmap-residual-20261023/fd1d0fe1e220",
@@ -139,9 +154,19 @@
       "source_receipt": "archive_closure_tags.json"
     },
     {
+      "tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/20a2e40f8f5c",
+      "sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
       "tag": "archive/consolidation-20261023-165523-updates/research/toeplitz-two-long-legs-20261023/d2002a7f3809",
       "sha": "d2002a7f3809c62932d5377d23786f4178f6f3c6",
       "source_receipt": "archive_receipt_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/top-coefficient-biforms-20261023-t2/aed489a672a7",
+      "sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_receipt": "archive_nextwave_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/unbalanced-square-frontier-20261023/227fbe8fc64b",
@@ -798,5 +823,6 @@
       "sha": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
       "source_receipt": "archive_tags.json"
     }
-  ]
+  ],
+  "scope": "Topic-source snapshots only; the concurrent integration correction is recorded separately."
 }

@@ -1,6 +1,7 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T17:47:18.250186+00:00",
+  "assembled_at": "2026-10-23T18:03:48.603190+00:00",
+  "baseline_published_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
   "outputs": [
     {
       "path": ".github/workflows/verify.yml",
@@ -37,13 +38,20 @@
     },
     {
       "path": "PROVENANCE.md",
-      "source_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": null,
+      "source_commits": [
+        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
+      ],
       "source_path": "PROVENANCE.md",
-      "source_blob": "a9455099641cd2a629b7530061933542f1184a52",
-      "mode": "100644",
-      "sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
-      "reason": "No novel authored shared prose. Preserve the complete passing narrative instead of reverting to the smaller imported-main document.",
-      "report": "closure_source_resolution.json",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/PROVENANCE.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
       "origins": [
         {
           "source_commit": null,
@@ -80,8 +88,15 @@
           "source_path": "PROVENANCE.md",
           "report": "closure_source_resolution.json",
           "reason": "No novel authored shared prose. Preserve the complete passing narrative instead of reverting to the smaller imported-main document."
+        },
+        {
+          "source_commit": null,
+          "source_path": "PROVENANCE.md",
+          "report": "nextwave_docs_resolution.json",
+          "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
         }
-      ]
+      ],
+      "report": "nextwave_docs_resolution.json"
     },
     {
       "path": "README.md",
@@ -107,18 +122,20 @@
     },
     {
       "path": "STATUS.md",
+      "sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
       "source_commit": null,
       "source_commits": [
-        "7bd28d2f9574e041d2689cae5cac299f55968f04",
-        "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede"
+        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
       ],
       "source_path": "STATUS.md",
-      "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
-      "input_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
-      "sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/STATUS.md",
-      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications.",
-      "report": "closure_docs_resolution.json",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/STATUS.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
       "origins": [
         {
           "source_commit": null,
@@ -155,8 +172,15 @@
           "source_path": "STATUS.md",
           "report": "closure_docs_resolution.json",
           "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+        },
+        {
+          "source_commit": null,
+          "source_path": "STATUS.md",
+          "report": "nextwave_docs_resolution.json",
+          "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
         }
-      ]
+      ],
+      "report": "nextwave_docs_resolution.json"
     },
     {
       "path": "docs/concurrent_research.md",
@@ -179,6 +203,22 @@
           "source_path": "docs/concurrent_research.md",
           "report": "docs_resolution.json",
           "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+      "sha256": "ec7dd03890d6d273bd0f3e9515d2b197e78e433a7fbe3af224a271a5eafd17cd",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence.",
+      "report": "nextwave_metadata_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+          "report": "nextwave_metadata_resolution.json",
+          "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
         }
       ]
     },
@@ -212,11 +252,10 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
+      "sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates.",
-      "report": "final_packaging_resolution.json",
+      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence.",
       "origins": [
         {
           "source_commit": null,
@@ -235,16 +274,22 @@
           "source_path": "docs/consolidation/2026-10-23/README.md",
           "report": "final_packaging_resolution.json",
           "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "nextwave_metadata_resolution.json",
+          "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
         }
-      ]
+      ],
+      "report": "nextwave_metadata_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "36237bd3618d28ffe83b7d44c215e0fe26235440bc49b0dc024152759dcbdb30",
+      "sha256": "b47309077751a7ddfbd958719e31200fe17c9a0aeac365819a0568f05082d909",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims.",
-      "report": "closure_metadata_resolution.json",
+      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures.",
       "origins": [
         {
           "source_commit": null,
@@ -257,6 +302,125 @@
           "source_path": "docs/consolidation/2026-10-23/branches.json",
           "report": "closure_metadata_resolution.json",
           "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/branches.json",
+          "report": "nextwave_metadata_resolution.json",
+          "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures."
+        }
+      ],
+      "report": "nextwave_metadata_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.5d144109.json",
+      "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.72f5c524.json",
+      "sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.5d144109.json",
+      "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.72f5c524.json",
+      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.5d144109.json",
+      "sha256": "95def6b6e795500d687b03d771758cd2bf007ef0f7afe23b7d3fb21c49c90894",
+      "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+          "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.72f5c524.json",
+      "sha256": "e36c19403d0d3cea5232e20f16ccad810bf63617665e469809a2c22683f25b5a",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata.",
+      "report": "nextwave_concurrent_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
         }
       ]
     },
@@ -464,17 +628,19 @@
     },
     {
       "path": "docs/research_directions.md",
-      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": null,
       "source_commits": [
-        "7bd28d2f9574e041d2689cae5cac299f55968f04"
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
       ],
       "source_path": "docs/research_directions.md",
-      "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
-      "input_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
-      "sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/docs/research_directions.md",
-      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications.",
-      "report": "closure_docs_resolution.json",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/docs/research_directions.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
       "origins": [
         {
           "source_commit": null,
@@ -505,8 +671,15 @@
           "source_path": "docs/research_directions.md",
           "report": "closure_docs_resolution.json",
           "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/research_directions.md",
+          "report": "nextwave_docs_resolution.json",
+          "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
         }
-      ]
+      ],
+      "report": "nextwave_docs_resolution.json"
     },
     {
       "path": "docs/route-synthesis.md",
@@ -594,17 +767,20 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "source_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": null,
       "source_commits": [
-        "7bd28d2f9574e041d2689cae5cac299f55968f04"
+        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
       ],
       "source_path": "research/ACTIVE.md",
-      "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
-      "input_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
-      "sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/research/ACTIVE.md",
-      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications.",
-      "report": "closure_docs_resolution.json",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/research/ACTIVE.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
       "origins": [
         {
           "source_commit": null,
@@ -635,8 +811,15 @@
           "source_path": "research/ACTIVE.md",
           "report": "closure_docs_resolution.json",
           "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/ACTIVE.md",
+          "report": "nextwave_docs_resolution.json",
+          "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
         }
-      ]
+      ],
+      "report": "nextwave_docs_resolution.json"
     },
     {
       "path": "research/ai/2026-10-20-f8-unequal/ACTIVE.md",
@@ -8071,6 +8254,132 @@
       ]
     },
     {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_blob": "6f815f319e5a8ed54b1b3d05b7b0d2dccd70800c",
+      "mode": "100644",
+      "sha256": "a68f22da7ae0c30e6d6737fe6a8a0f4eb3dcb06144b92dfebe951c296b12847e",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_blob": "73c0ee7c0fb03ec246c35f2fe488d7e94a1346af",
+      "mode": "100644",
+      "sha256": "82a6510cd07eff10e06ebf05c5e1bb76dd73aa31270ddc99a831ffa4499f26f6",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_blob": "19d05335c32e496b69e196352b6412f91f5eee81",
+      "mode": "100644",
+      "sha256": "6f80132acf524035f1d268346a0253ce530bac8729ebd71cd29033603ea87bcd",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+      "source_blob": "cf4a372b8b79bd67a16804511d679005dfd9263b",
+      "mode": "100644",
+      "sha256": "5a9887a2574fc8ee9be6330a8bb040b802c017fa1e96943f720a4fe6f644c1d9",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "source_blob": "bac6cb49c934a10864aee07b4d80d25ff4d07b87",
+      "mode": "100644",
+      "sha256": "52b70e41f3ee6244c891136974878f7306bb5eb935d3c8b3d6cff2a7e60932d8",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "source_blob": "1d379aeb4a577333ba579682d16359105e6a1875",
+      "mode": "100644",
+      "sha256": "39cc2ecc19a2116653152a2ddc38d2338750c061eb323a77c8c6bc37c2463d9b",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+      "source_blob": "6b74c11ada20eaac5bed57c727f9cfb6a8ac7631",
+      "mode": "100644",
+      "sha256": "8283038c67babc469d33e460a53e9e10f3e548b3692c19713ccea8f69fa02568",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "research/ai/2026-10-23-affine-z-biform-ranks/README.md",
       "sha256": "573f70dd602b6e8f947609d6aba62584be46330b9a898a72b75e2e23194d8965",
       "source_commit": "4247f42eeb305163d299f908144b5915d1c238c5",
@@ -9377,6 +9686,96 @@
         {
           "report": "requirements_pin_resolution.json",
           "reason": "Refresh only reviewed current dependency or manifest digests; strict pin checks and mathematical artifacts remain intact. This explicitly supersedes the original metadata hash."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/QUESTION.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/QUESTION.md",
+      "source_blob": "8621349b604966da4b1a83074ff62883e1a7286b",
+      "mode": "100644",
+      "sha256": "092cdbd3294e406ed0596689eca627611a0ef5a03f2e9e0f2345259bf0dfbdb7",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "research/ai/2026-10-23-column-overlap/QUESTION.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/README.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/README.md",
+      "source_blob": "727f867758e7348bb8efb0f1342261b22b77da69",
+      "mode": "100644",
+      "sha256": "161ba156c3022223c3ebaa934daf7d39ee8fc4bfbbed00a9a74f30415cb8a9d6",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "research/ai/2026-10-23-column-overlap/README.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/proof.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/proof.md",
+      "source_blob": "84bfaab75d277fa12b77d4f24cdfeecee1801c90",
+      "mode": "100644",
+      "sha256": "e1bfd38872455bc4196798dd8120943f6afb630c1b00e06eaeb2d47fbb9a26d1",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "research/ai/2026-10-23-column-overlap/proof.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/sources.json",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/sources.json",
+      "source_blob": "9b393b86161df9cb7fd42f12c6115447233a3936",
+      "mode": "100644",
+      "sha256": "fde1ed25dd22c8cddcb98c496b80fb0e0d2c0e061abc567bf69efd72a0f6c647",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "research/ai/2026-10-23-column-overlap/sources.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/verify.py",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/verify.py",
+      "source_blob": "90d1608aa890ec4a77bf0f070ab5764a742706ef",
+      "mode": "100644",
+      "sha256": "895f8102778da285f9c07562e57eaed36481599216f1edfd1677b532b0695409",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "research/ai/2026-10-23-column-overlap/verify.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
         }
       ]
     },
@@ -12197,6 +12596,60 @@
       ]
     },
     {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "source_blob": "07744d31fb713b728f4b1069ab620b9f4e48ee67",
+      "mode": "100644",
+      "sha256": "e8672275a97e1da822d53c2dca7c3673aa6b42f7847c6b41501554a8934ff337",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+          "source_path": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "source_blob": "a5d29d802584d7b1fc27652b0ef4e81bf53cefee",
+      "mode": "100644",
+      "sha256": "d2ed0344f28554d881b0501755454abc3df807c389a4fc9920c4c016b6b5ea65",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+          "source_path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+      "source_blob": "1d039b9b286fabf0987c5963165559574dae2d9c",
+      "mode": "100644",
+      "sha256": "562c964f339a0a69fec6d04bf561d9c36510c9c001945469c7ad745494c64821",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+          "source_path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "research/ai/2026-10-23-partial-regular-frames/README.md",
       "sha256": "ce8e72f52852f31a7436d13549f60faa03ed4c4b3259528457f95d373cbcdf88",
       "source_commit": "0eaa4f261955aae9a0f8601229486db3119a7e75",
@@ -13136,6 +13589,168 @@
       ]
     },
     {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/README.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/README.md",
+      "source_blob": "c435efff104beb938614f33b0598960e94a89606",
+      "mode": "100644",
+      "sha256": "300c1fab406a7cb5337ded2196fb255f8e0875ced5395b78334b6c1bba454eeb",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/README.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "source_blob": "5d2b55ac11ddeadef1d7d271439727a60aaf5231",
+      "mode": "100644",
+      "sha256": "b285f83102d59e101e70f857ea261847fcabc639f14e895fa242f9388f84b8ce",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "source_blob": "e19ea3131f8a744255cbc95df5166cdc10b5aeb1",
+      "mode": "100644",
+      "sha256": "f5215c93dc95be5074abbdd44fcb731532c71cdaac6345977a9778aefcb66a2b",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+      "source_blob": "e5ed21e5afe0ece03a6f4141200fb3e3a2133d4e",
+      "mode": "100644",
+      "sha256": "ef526c1d46b606b023f8155c5c1433aca70d65f2f4c67fea07c6d5095053bce9",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_blob": "1013b8e8196a292ba562df93886badf4c4ed3216",
+      "mode": "100644",
+      "sha256": "86ec66ce941f34e796ab0c028b6d1bec810df77138c2c97f18827f06e0f980e2",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_blob": "4b04a2c6359631d4ac572d2ea49745e1893417bf",
+      "mode": "100644",
+      "sha256": "746619a3161c350af395d22040fe22d7ac5f0abc57ee3c9c8cf6a4c99e873138",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_blob": "a07e29b5f881983bb5285b5a2bef233fcd50972c",
+      "mode": "100644",
+      "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_blob": "0b67e941456ad25f6902ab709678ed55070ef5d2",
+      "mode": "100644",
+      "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_blob": "2bb2c641460cb6a111a986e119c7f2ea0b599ee1",
+      "mode": "100644",
+      "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "research/ai/2026-10-23-torus-low-rank/proof.md",
       "sha256": "36a9b1a2e1e79c342087bd424ad462200154508b2743b2477f5121afd96930ad",
       "source_commit": "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
@@ -13323,17 +13938,159 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+      "sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum.",
-      "report": "claims_output/resolution_report.json",
+      "source_commits": [
+        "72f5c524fd72c894d4420067fd10206944bce405",
+        "5d1441090e1c3c804d0ba0797a20ec303b5c08d5"
+      ],
+      "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records.",
       "origins": [
         {
           "source_commit": null,
           "source_path": "research/claims.json",
           "report": "claims_output/resolution_report.json",
           "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/claims.json",
+          "report": "nextwave_output/resolution_report.json",
+          "reason": "Preserve all 607 previously consolidated records exactly and append five distinct source-authored unreviewed claims with unchanged source flags. The 612-record union includes five earlier independent-collision aliases."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/claims.json",
+          "report": "nextwave_concurrent_resolution.json",
+          "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
+        }
+      ],
+      "report": "nextwave_concurrent_resolution.json"
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+      "source_blob": "3d745b6cf668625f20a9f58d2ce830ea52a1ea9e",
+      "mode": "100644",
+      "sha256": "40effffdcbaa37e0d58ed2e3604b9937f9a8bbecdeaa94e60e7e72e12607e881",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+      "source_blob": "7c8e67f573acfdce00e2bec793507e02950b403a",
+      "mode": "100644",
+      "sha256": "cff228628f9fcdab9fd675e12faefc837f390cff1d39ad2dbf0c496e5e7b4323",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+      "source_blob": "561baadd9d1867b6f355333810685bcb11f08bf0",
+      "mode": "100644",
+      "sha256": "0b0ebb0513e0ae1af0ef5b942bb78a2492af1c73a06a3320bceb99140b01b99f",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+      "source_blob": "95d2129c42512d9f0f5e00d9524ce9107bd78dd1",
+      "mode": "100644",
+      "sha256": "ffa5306dc272f243cfc8b133abf42eb2a6fb173ca3db2762c8cf5f1e42a8bce2",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+      "source_blob": "03b679f8b231915ca013de4792360a99659cb9ee",
+      "mode": "100644",
+      "sha256": "ca4c177a0669bf08878e316351a6cae347527c44570162a3a097fb5baaaf754e",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+      "source_blob": "5b9c7513a08f1cf5c0ea83ebacafcaf1ebf6fef5",
+      "mode": "100644",
+      "sha256": "3c976fb864896a4d4439583e620a777dbed9dcb1197662bbcd706c416d96ca58",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+      "source_blob": "e40ab6095d48ded7dde1542bb1ab68d70eccfa06",
+      "mode": "100644",
+      "sha256": "ff989b70728f5994a1223f29ba452891f91d9d3d587f7a52b3bda14685db43b5",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
         }
       ]
     },
@@ -15182,6 +15939,24 @@
           "source_path": "results/central-cover-finite-slices-2026-10-21/verification.json",
           "report": "closure_source_resolution.json",
           "reason": "Retain the exact passing consolidated bytes. The source changes only import original-main content or content already represented; later workflow, S5, semisimple, conic-order, and repaired pin updates must not regress."
+        }
+      ]
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/controls.json",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "results/column-overlap-2026-10-23/controls.json",
+      "source_blob": "bcbae292230f243fe4bfaedbbf39a0db359aa9f9",
+      "mode": "100644",
+      "sha256": "5a1f5e18ec86ce1bb304f5fdb025ba79f89abce8b2d9be889462ad2c1f149efa",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "results/column-overlap-2026-10-23/controls.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
         }
       ]
     },
@@ -23933,6 +24708,24 @@
       ]
     },
     {
+      "path": "results/paired-rank-two-gap-2026-10-23/certificate.json",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "results/paired-rank-two-gap-2026-10-23/certificate.json",
+      "source_blob": "ff5b9a9d559a9e7da3560c8220050a4eb50fd565",
+      "mode": "100644",
+      "sha256": "979ac513c355739723b9060dddc325cf24b787cfa1325da392c5aafd4f696328",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+          "source_path": "results/paired-rank-two-gap-2026-10-23/certificate.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "results/quadratic-z-middle-2026-10-23/validation.json",
       "sha256": "d97b5b380ddb2d66d1b1c02bc5c713b0f1632eb929ebe6ff83891bf1973776b3",
       "source_commit": "0d9781b6774f328d572bb3326383978215d50306",
@@ -27036,6 +27829,42 @@
       ]
     },
     {
+      "path": "results/three-term-resultant-obstruction-2026-10-23/controls.json",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "results/three-term-resultant-obstruction-2026-10-23/controls.json",
+      "source_blob": "df3581bba5fb27db538e9342da61915d3c9931eb",
+      "mode": "100644",
+      "sha256": "d99e4b523c02364e6cc7083abc46b72fb1fd89712c0eb2f3a46d80fd10ec2b8e",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "source_path": "results/three-term-resultant-obstruction-2026-10-23/controls.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_blob": "fb8f266a49ef3f81a5d240db3bb7b4490c1094cc",
+      "mode": "100644",
+      "sha256": "df2a9ae1e737a2dc7db7a000220b6d3b32162978afa7b1d3433ab738e8d49add",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "results/torus-low-rank-2026-10-23/controls.json",
       "sha256": "29fe73a994e77d6f31a05942fd4223faca0e2de621bce3de473cdac87631cab4",
       "source_commit": "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
@@ -27110,6 +27939,24 @@
           "source_path": "results/unequal-entropy-2026-10-20/tests.txt",
           "report": "closure_source_resolution.json",
           "reason": "Retain the exact passing consolidated bytes. The source changes only import original-main content or content already represented; later workflow, S5, semisimple, conic-order, and repaired pin updates must not regress."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_a4_coordinate_compressions.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "tests/test_a4_coordinate_compressions.py",
+      "source_blob": "25d768e7dbd538ae430e043c752009e52923392d",
+      "mode": "100644",
+      "sha256": "2f28fb39935bdee2e5e4d5b8dd2e4799424e583f53024bbbc13266f62c8a11b3",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "source_path": "tests/test_a4_coordinate_compressions.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
         }
       ]
     },
@@ -27308,6 +28155,24 @@
           "source_path": "tests/test_central_cover_finite_slices.py",
           "report": "closure_source_resolution.json",
           "reason": "Retain the exact passing consolidated bytes. The source changes only import original-main content or content already represented; later workflow, S5, semisimple, conic-order, and repaired pin updates must not regress."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_column_overlap.py",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "tests/test_column_overlap.py",
+      "source_blob": "51cf13de67f69316a5af389e80cf548aa2886aeb",
+      "mode": "100644",
+      "sha256": "b4dfc32272af7a05d3a9d0b5e10362fd3b8e0414b10c3ff450c9d1b34f8ae62c",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "source_path": "tests/test_column_overlap.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
         }
       ]
     },
@@ -28416,6 +29281,24 @@
       ]
     },
     {
+      "path": "tests/test_paired_rank_two_gap.py",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "tests/test_paired_rank_two_gap.py",
+      "source_blob": "a18bd5184d73ace824164995c0bd502512068a0d",
+      "mode": "100644",
+      "sha256": "46db5da6dbfb852b276c3e6265bd132a12e15c46933159193b029141b2a89b40",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+          "source_path": "tests/test_paired_rank_two_gap.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "tests/test_paired_tetrahedral.py",
       "source_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
       "source_path": "tests/test_paired_tetrahedral.py",
@@ -29051,6 +29934,42 @@
       ]
     },
     {
+      "path": "tests/test_three_term_resultant_obstruction.py",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "tests/test_three_term_resultant_obstruction.py",
+      "source_blob": "18bc9d484511e050c7d91cac0839806da806c089",
+      "mode": "100644",
+      "sha256": "d0aea75277f4bb191391370efbaf94e433547fc99b4ee587b237b3a1479af293",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "source_path": "tests/test_three_term_resultant_obstruction.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_top_coefficient_biforms.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "tests/test_top_coefficient_biforms.py",
+      "source_blob": "8426f8ed541a7c3b24bd58913b3b46293e332dc5",
+      "mode": "100644",
+      "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
+      "report": "nextwave_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "source_path": "tests/test_top_coefficient_biforms.py",
+          "report": "nextwave_source_resolution.json",
+          "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        }
+      ]
+    },
+    {
       "path": "tests/test_torus_low_rank.py",
       "sha256": "22be99d808aa27d9f6b733174407e46b2afe1ee40318eb2ebf27711770ba0726",
       "source_commit": "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
@@ -29208,8 +30127,8 @@
     },
     {
       "path": "PROVENANCE.md",
-      "resolution_report": "closure_source_resolution.json",
-      "decision": "No novel authored shared prose. Preserve the complete passing narrative instead of reverting to the smaller imported-main document."
+      "resolution_report": "nextwave_docs_resolution.json",
+      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
     },
     {
       "path": "README.md",
@@ -29218,8 +30137,8 @@
     },
     {
       "path": "STATUS.md",
-      "resolution_report": "closure_docs_resolution.json",
-      "decision": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+      "resolution_report": "nextwave_docs_resolution.json",
+      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
     },
     {
       "path": "docs/literature.md",
@@ -29228,8 +30147,8 @@
     },
     {
       "path": "docs/research_directions.md",
-      "resolution_report": "closure_docs_resolution.json",
-      "decision": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+      "resolution_report": "nextwave_docs_resolution.json",
+      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
     },
     {
       "path": "docs/route-synthesis.md",
@@ -29243,8 +30162,8 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "resolution_report": "closure_docs_resolution.json",
-      "decision": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+      "resolution_report": "nextwave_docs_resolution.json",
+      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
     },
     {
       "path": "research/ai/2026-10-23-conic-d0-cubic/QUESTION.md",
@@ -29298,23 +30217,23 @@
     },
     {
       "path": "research/ai/2026-10-23-paired-bundle-injectivity/kernel_module_types.md",
-      "resolution_report": "code_resolution.json",
-      "decision": "Remove the old collision/incorrect-directory-rename path after preserving its independent content at the explicitly mapped destination."
+      "resolution_report": "prior published resolution",
+      "decision": "Retain the prior explicit remapping/deletion decision."
     },
     {
       "path": "research/ai/2026-10-23-paired-bundle-injectivity/kernel_representation.py",
-      "resolution_report": "code_resolution.json",
-      "decision": "Remove the old collision/incorrect-directory-rename path after preserving its independent content at the explicitly mapped destination."
+      "resolution_report": "prior published resolution",
+      "decision": "Retain the prior explicit remapping/deletion decision."
     },
     {
       "path": "research/ai/2026-10-23-paired-bundle-injectivity/long_leg_low_degrees.md",
-      "resolution_report": "code_resolution.json",
-      "decision": "Remove the old collision/incorrect-directory-rename path after preserving its independent content at the explicitly mapped destination."
+      "resolution_report": "prior published resolution",
+      "decision": "Retain the prior explicit remapping/deletion decision."
     },
     {
       "path": "research/ai/2026-10-23-paired-bundle-injectivity/rank_atlas.py",
-      "resolution_report": "code_resolution.json",
-      "decision": "Remove the old collision/incorrect-directory-rename path after preserving its independent content at the explicitly mapped destination."
+      "resolution_report": "prior published resolution",
+      "decision": "Retain the prior explicit remapping/deletion decision."
     },
     {
       "path": "research/ai/2026-10-23-paired-bundle-injectivity/sources.json",
@@ -29368,8 +30287,8 @@
     },
     {
       "path": "research/claims.json",
-      "resolution_report": "claims_output/resolution_report.json",
-      "decision": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum."
+      "resolution_report": "nextwave_concurrent_resolution.json",
+      "decision": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
     },
     {
       "path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
@@ -29661,10 +30580,74 @@
       "final_sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
       "final_report": "final_packaging_resolution.json",
       "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+      "previous_report": "claims_output/resolution_report.json",
+      "final_sha256": "c72e2eb0bb5b8eb5497205d20ad57b1157e6a052d15b3e652013630badf68115",
+      "final_report": "nextwave_output/resolution_report.json",
+      "reason": "Preserve all 607 previously consolidated records exactly and append five distinct source-authored unreviewed claims with unchanged source flags. The 612-record union includes five earlier independent-collision aliases."
+    },
+    {
+      "path": "STATUS.md",
+      "previous_sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+      "previous_report": "closure_docs_resolution.json",
+      "final_sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
+      "final_report": "nextwave_docs_resolution.json",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "previous_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+      "previous_report": "closure_source_resolution.json",
+      "final_sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "final_report": "nextwave_docs_resolution.json",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "previous_sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+      "previous_report": "closure_docs_resolution.json",
+      "final_sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "final_report": "nextwave_docs_resolution.json",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "previous_sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+      "previous_report": "closure_docs_resolution.json",
+      "final_sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "final_report": "nextwave_docs_resolution.json",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "36237bd3618d28ffe83b7d44c215e0fe26235440bc49b0dc024152759dcbdb30",
+      "previous_report": "closure_metadata_resolution.json",
+      "final_sha256": "b47309077751a7ddfbd958719e31200fe17c9a0aeac365819a0568f05082d909",
+      "final_report": "nextwave_metadata_resolution.json",
+      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous_sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
+      "previous_report": "final_packaging_resolution.json",
+      "final_sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
+      "final_report": "nextwave_metadata_resolution.json",
+      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "c72e2eb0bb5b8eb5497205d20ad57b1157e6a052d15b3e652013630badf68115",
+      "previous_report": "nextwave_output/resolution_report.json",
+      "final_sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+      "final_report": "nextwave_concurrent_resolution.json",
+      "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
     }
   ],
   "inputs": {
-    "/workspace/scratch/5e4a124ebf61/consolidation/provisional_conflicts.json": "0a7d4d2f4adbb3aeb5f9aa7f5e9197cfff4f1b41b3c484ac635d4041619c20d5",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_resolution_manifest.json": "b82499bdd6b464d1814ffbf72dfdd9320d4633cb35b45a5c38a0deffa259c1ce",
     "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
@@ -29672,29 +30655,15 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/receipt_merge_log.json": "4cd11a319dfd6d6ecc623ddcf78466182aff6656312251e5c6cf1eac22c791cf",
     "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_merge_log.json": "9f1020f24f658b6c348bcd3bbe7812dc623fe0876b876effca6201c483c7a277",
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
-    "/workspace/scratch/5e4a124ebf61/consolidation/restored_paths.json": "70f414d737c2c626f132ca41805e5f4cc95c8c3e37c63360c01ef8cd78311e21",
-    "/workspace/scratch/5e4a124ebf61/consolidation/claims_output/resolution_report.json": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
-    "/workspace/scratch/5e4a124ebf61/consolidation/references_output/report.json": "e2dd34185709e938c01108f750aa2122d2fc52a715efc765cf80e24f0da5c71b",
-    "/workspace/scratch/5e4a124ebf61/consolidation/code_resolution.json": "5cf49e8fd50bde90e1f7a98c0d76dd267868686548fff13dd8d14cc5dca33b5c",
-    "/workspace/scratch/5e4a124ebf61/consolidation/docs_resolution.json": "ce2715d0eb65057826800add632d6f1c6f8ba5a559a84d13526fe060bcca5fcc",
-    "/workspace/scratch/5e4a124ebf61/consolidation/readme_resolution.json": "2bb65698badd361afb886751b0b62d6e722dcd56c08206d0eef7e13a887a3e1c",
-    "/workspace/scratch/5e4a124ebf61/consolidation/docs_catchup_resolution.json": "8d49848cabcc1a98f31f2a81f083f2ba77869a7f7c8bcbe3dfd36cc478a00f87",
-    "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_resolution.json": "a164dee0fc96a937607775f05166046a25146d6e40c6047e66aead123b5308c2",
-    "/workspace/scratch/5e4a124ebf61/consolidation/catchup_s5_resolution.json": "02b7865e82d26f4e79b95fa9f6934fed0149a94caf1cba55ecbb862bfd105931",
-    "/workspace/scratch/5e4a124ebf61/consolidation/late_source_resolution.json": "74e6ed0e18564edda30bd7a521adf9102667beefcf18f96ad13f973a5e5fb28b",
-    "/workspace/scratch/5e4a124ebf61/consolidation/late_catchup_code_preservation.json": "005e5964793aea33184a2d84d5efc7c263bbdf2b7db3832849e6e0436e34da86",
-    "/workspace/scratch/5e4a124ebf61/consolidation/final_docs_resolution.json": "d378e9c576cda9ba08c33591eaf0d839ce45f5189e8af7bafb67abadbde3ed4a",
-    "/workspace/scratch/5e4a124ebf61/consolidation/docs_late_resolution.json": "5e5189e84c01e3c122e9642abe62f7d6d2fb29d111167e30d01a5bea6c53b444",
-    "/workspace/scratch/5e4a124ebf61/consolidation/requirements_pin_resolution.json": "2f3ef875bd635fa4d9b422b30bb767640552ada07de4f296959555c7471d79cc",
-    "/workspace/scratch/5e4a124ebf61/consolidation/receipt_source_resolution.json": "ba57a76861d1f34ea2a7b3e5cea947a49580a0e24f748eb06aedf555255c4381",
-    "/workspace/scratch/5e4a124ebf61/consolidation/receipt_docs_resolution.json": "beb750acaed45da663a8880358067991f89c6abf127ad84ee5db5ecba009c020",
-    "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_source_resolution.json": "fb73ba941870be2397cbee626f197d3b6cb2df81d4974d9a4d8ba8b24cdd4cd5",
-    "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_docs_resolution.json": "8c9c5eb2a81912ee6220f20ad4caae557222e1ffc45df897deeb1ec289ea22db",
-    "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_metadata_resolution.json": "fb63ea57af098de48ea5d6ca31f54995a65f305d09c74d91234cdc1f025496e0",
-    "/workspace/scratch/5e4a124ebf61/consolidation/closure_source_resolution.json": "81fede328d7e66b7ad972d347f4717ce03d57b2f51229110007f84a80480e4d4",
-    "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_resolution.json": "0da0799bdfff1b79fcf154e4ac04b14d3c9925f514c8c6c97476cd9d23d4163d",
-    "/workspace/scratch/5e4a124ebf61/consolidation/closure_metadata_resolution.json": "a3a5c870eb10de7ab359ed1f56f8d3b3e549398ecfe32d28253f2837ac1d728a",
-    "/workspace/scratch/5e4a124ebf61/consolidation/final_packaging_resolution.json": "ab3014939c72ce276e16bd4716146664b7a62d02f36e896220268099b5b46f6e"
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_output/resolution_report.json": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_resolution.json": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6"
   },
-  "method": "Expected output hashes come from designated implementation artifacts and original Git blobs, never from the final tree being audited. All conflicting expected hashes require an explicit superseding report or follow a restoration-only source copy."
+  "method": "Extend the complete frozen 72f5c524 preservation decisions; apply the exact independently inspected concurrent statement correction and explicit metadata supersessions. Preserve all historical reports under revision names.",
+  "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
+  "concurrent_integration_correction": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+  "topic_source_snapshots": 164,
+  "topic_branch_names": 136,
+  "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs."
 }

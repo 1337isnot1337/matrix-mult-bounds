@@ -1,0 +1,90 @@
+{
+  "schema": "matrix-nextwave-docs-independent-review-v1",
+  "reviewed_at_utc": "2026-10-23T17:59:34.075979+00:00",
+  "reviewer": "consolidate_conflicts",
+  "status": "approved_no_remaining_prose_blocker",
+  "baseline_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "frozen_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+  "reviewed_resolution_report": {
+    "path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_resolution.json",
+    "sha256": "0ed1890aeccc8c9906d583e788bce65616425dcf29bb9d4dd25c58fc589b74a0"
+  },
+  "source_plan": "nextwave_plan.json",
+  "source_heads": [
+    "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+    "3b2eb05abac534da201b4ec411e914182cb46b8a",
+    "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+    "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+    "aed489a672a79e0ec35d33fea15d875fc425c9db"
+  ],
+  "source_delta_review": {
+    "shared_markdown_insertions": 19,
+    "source_revision_or_deletion_hunks": 0,
+    "per_path": {
+      "STATUS.md": 5,
+      "PROVENANCE.md": 5,
+      "research/ACTIVE.md": 5,
+      "docs/research_directions.md": 4
+    },
+    "note": "Source insertions were preserved with two explicitly reviewed scope/current-state corrections. This count describes source insertions, not a claim that every final paragraph is byte-identical to its source."
+  },
+  "heading_placement": [
+    "STATUS, PROVENANCE and ACTIVE continuations remain under their document headings.",
+    "Both biform continuations follow the existing quadratic-z introduction.",
+    "The new paired-rank-two section ends before the existing Full-source singular maps heading.",
+    "The independent-coordinate census appears within the existing Full-source singular maps section."
+  ],
+  "corrections_verified_in_frozen_commit": [
+    {
+      "path": "docs/research_directions.md",
+      "decision": "Replace the solved request for a coefficient-degree counterexample with the existing three-term counterexample, including its characteristic-not-two scope. Keep the general minimal-index and syzygy classification open."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "decision": "Qualify the column-overlap construction implication to fixed-width, near-full outer targets in the stated regular-channel setting."
+    }
+  ],
+  "scope_checks": [
+    "Column overlap retains fixed injective routing, regular channel blocks and fixed-width near-full asymptotic hypotheses; general mixing and extensive leading singularity remain open.",
+    "The 142,884-pair A4 census excludes independent coordinate compressions only; arbitrary noncoordinate flags remain open.",
+    "Paired rank-two raw slice claims apply to the native source coefficient matrix and do not establish arbitrary degenerations or an exponent improvement.",
+    "The three-term rank-14/rank-15 counterexample retains characteristic different from two and one-slice scope.",
+    "The top-coefficient biform formula retains constant lower coefficients and one nonconstant top coefficient; no general quadratic or full-target claim is added.",
+    "All five new claims retain proof-written-unreviewed status and false independent-review, formalization and exponent-improvement flags. Same-session checks are not described as independent mathematical review.",
+    "Current stronger conic prerequisites and previously consolidated limitations are retained."
+  ],
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
+      "matches_frozen_commit": true,
+      "matches_resolution_report": true,
+      "matches_designated_overlay": true
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "matches_frozen_commit": true,
+      "matches_resolution_report": true,
+      "matches_designated_overlay": true
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "matches_frozen_commit": true,
+      "matches_resolution_report": true,
+      "matches_designated_overlay": true
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "matches_frozen_commit": true,
+      "matches_resolution_report": true,
+      "matches_designated_overlay": true
+    }
+  ],
+  "limitations": [
+    "This is a source-preservation, heading-placement and claim-scope review, not independent mathematical peer review or a new execution-test receipt."
+  ],
+  "mutations": "Only this scratch review receipt was written; no worktree, source, overlay, workflow, GitHub ref or remote run was changed."
+}

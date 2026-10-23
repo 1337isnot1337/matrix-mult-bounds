@@ -1,0 +1,76 @@
+{
+  "schema": "matrix-mult-bounds-nextwave-publication-equivalence-v1",
+  "recorded_at": "2026-10-23T18:03:18.950575+00:00",
+  "passing_source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+  "correction_source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+  "validated_final_commit": "33a0f407b2071ed30433b2b1fbd8a577c50ea044",
+  "validated_final_tree": "27dbd42fcf7c4497b016f5d615c43efd3af6bb08",
+  "changed_paths": [
+    "docs/consolidation/2026-10-23/central_resolution_manifest.5d144109.json",
+    "docs/consolidation/2026-10-23/central_resolution_manifest.72f5c524.json",
+    "docs/consolidation/2026-10-23/claim_resolution.5d144109.json",
+    "docs/consolidation/2026-10-23/claim_resolution.72f5c524.json",
+    "docs/consolidation/2026-10-23/concurrent_correction_capture.json",
+    "docs/consolidation/2026-10-23/concurrent_oblique_claim_review.json",
+    "docs/consolidation/2026-10-23/nextwave_concurrent_claim_report.json",
+    "docs/consolidation/2026-10-23/nextwave_concurrent_resolution.json",
+    "docs/consolidation/2026-10-23/nextwave_corrected_claim_resolution.json",
+    "docs/consolidation/2026-10-23/packaged_evidence_index.5d144109.json",
+    "docs/consolidation/2026-10-23/packaged_evidence_index.72f5c524.json",
+    "research/claims.json"
+  ],
+  "unexpected_changes": [],
+  "existing_code_and_config_paths_compared": 1321,
+  "existing_code_and_config_bytes_and_modes_unchanged": true,
+  "test_paths_compared": 438,
+  "test_bytes_and_modes_unchanged": true,
+  "proof_witness_and_dependency_files_unchanged": true,
+  "claims_count": 612,
+  "changed_claim_fields": {
+    "AI-OBLIQUE-PAIRED-REPAIR-001": [
+      "statement"
+    ]
+  },
+  "corrected_claim_matches_source_commit": true,
+  "claim_status_flags_unchanged": true,
+  "ledger_header_fields_unchanged": true,
+  "test_inventory_transferred_by_exact_file_equivalence": {
+    "tests": 1950,
+    "modules": 437,
+    "inventory_path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/nextwave/discovery.json",
+    "inventory_sha256": "5069e1b75ec1a0e10a4eca992dc8ac74c95c2159683dc04ca7cde055a7376d54",
+    "coverage_path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/nextwave/coverage_union.json",
+    "coverage_sha256": "da7a2ced61333676f602cfaea5fb6f683a6abafe8b94a4fb771dde64fc1972f6"
+  },
+  "metadata_gate": {
+    "tests": 2,
+    "passed": true,
+    "elapsed_seconds": 2.257,
+    "summary_sha256": "87de51b7a8e2d677f6ddc94d34cab0cefea746018dc36e9662ea3569792edfe1"
+  },
+  "previous_validation_files_checked": 73,
+  "changed_previous_validation_files": [],
+  "protected_archives_unchanged": true,
+  "protected_archive_files_hashed": 23,
+  "tracked_changes_during_validation": [],
+  "source_receipts": [
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/nextwave/summary.json",
+      "sha256": "eb20d95590b911fc6adbb908770ea6e2b952a3e8f4d91b60c71f88306740bf7f"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/nextwave/coverage_union.json",
+      "sha256": "da7a2ced61333676f602cfaea5fb6f683a6abafe8b94a4fb771dde64fc1972f6"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/nextwave/discovery.json",
+      "sha256": "5069e1b75ec1a0e10a4eca992dc8ac74c95c2159683dc04ca7cde055a7376d54"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_publication_previous_hashes.json",
+      "sha256": "5fe4cd10574b5c7072cf8ae55d6ae995c521e6061701030bdce5af52ecc24ba1"
+    }
+  ],
+  "scope_caveat": "The publication correction changes one written claim statement and provenance metadata. All mathematical executable, proof, witness, dependency, and test bytes remain identical to the passing 72f5c524 tree. Two ledger/link checks passed on this corrected revision. The 1,950-test composite transfers by exact file identity; no fresh uninterrupted full suite or unchanged census was rerun. Hosted final-head CI remains required. Mathematical status and review flags are unchanged.",
+  "passed": true
+}

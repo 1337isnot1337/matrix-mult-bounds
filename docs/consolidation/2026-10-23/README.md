@@ -44,10 +44,13 @@ Passing these checks does not change a claim's mathematical review status. Chang
 to main still require the repository's pull request and CI gates.
 
 The [publication record](PUBLICATION.md) links exact revision-scoped test and
-preservation receipts. The prior published inventory has 1,933 tests across 432 modules;
-its composite coverage and two final metadata checks passed. The separate
-[next-wave record](NEXTWAVE.md) identifies the five later captured heads and
-their pending focused verification. Hosted CI remains required.
+preservation receipts. The current inventory has 1,950 tests across 437 modules.
+The five-head focused gate and final claim/link checks passed; coverage is
+revision-aware composite evidence, not one uninterrupted final-suite run. The
+[next-wave record](NEXTWAVE.md) distinguishes 164 topic-source snapshots from
+the separately archived integration correction. It preserves 611 of 612 tested
+records unchanged and corrects one statement without changing any status flag.
+Current-head hosted CI remains required.
 
 ## Original branch recovery
 

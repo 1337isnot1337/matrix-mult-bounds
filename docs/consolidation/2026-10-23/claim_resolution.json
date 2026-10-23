@@ -3,14 +3,14 @@
   "main_sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
   "branch_count": 130,
   "main_claim_count": 295,
-  "original_unique_ids": 602,
-  "consolidated_claim_count": 607,
+  "original_unique_ids": 607,
+  "consolidated_claim_count": 612,
   "original_ids_preserved": true,
   "independent_collision_extra_ids": 5,
   "evidence_statuses_unchanged": true,
   "all_original_evidence_paths_verified": true,
   "status_counts": {
-    "proof-written-unreviewed": 497,
+    "proof-written-unreviewed": 502,
     "finite-experiment": 83,
     "derivation-unreviewed": 1,
     "conditional-implication": 25,
@@ -7168,14 +7168,17 @@
     {
       "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
       "original_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
-      "record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "record_sha256": "41333ed31f058a3fdfe512b8c3671179bf91311918662216bfcff3643ab7747e",
       "source_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
       "source_branch": "research/oblique-residual-koszul-01a1697a",
       "source_sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
       "original_evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
       "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
       "path_or_id_replacements": [],
-      "original_evidence_verified": true
+      "original_evidence_verified": true,
+      "intentional_correction": "scope_correction_addendum",
+      "correction_source_sha": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "correction_source_record_sha256": "41333ed31f058a3fdfe512b8c3671179bf91311918662216bfcff3643ab7747e"
     },
     {
       "id": "AI-OBLIQUE-SLICE-STRATA-001",
@@ -8908,6 +8911,71 @@
       "path_or_id_replacements": [],
       "original_evidence_verified": true,
       "snapshot": "postvalidation_catchup"
+    },
+    {
+      "id": "AI-PAIRED-COLUMN-OVERLAP-001",
+      "original_id": "AI-PAIRED-COLUMN-OVERLAP-001",
+      "record_sha256": "76f27bc850be49e5af5443c23cb15d9cbb93923bbf62e4094449be62b64b6181",
+      "source_record_sha256": "76f27bc850be49e5af5443c23cb15d9cbb93923bbf62e4094449be62b64b6181",
+      "source_branch": "research/column-overlap-20261023-ab94",
+      "source_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "original_evidence": "research/ai/2026-10-23-column-overlap/proof.md",
+      "evidence": "research/ai/2026-10-23-column-overlap/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "nextwave"
+    },
+    {
+      "id": "AI-A4-INDEPENDENT-COORDINATE-004",
+      "original_id": "AI-A4-INDEPENDENT-COORDINATE-004",
+      "record_sha256": "77a0ad721f4e4bc662386598e9d9ad380ae16f4ddb2f5ee2075272999177c167",
+      "source_record_sha256": "77a0ad721f4e4bc662386598e9d9ad380ae16f4ddb2f5ee2075272999177c167",
+      "source_branch": "research/full-target-reconstruction-20261023-ab94",
+      "source_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "original_evidence": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "evidence": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "nextwave"
+    },
+    {
+      "id": "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+      "original_id": "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+      "record_sha256": "426bee28dc104e9b31aeebd87a233501ce71e7fab257158185f24bc40812299c",
+      "source_record_sha256": "426bee28dc104e9b31aeebd87a233501ce71e7fab257158185f24bc40812299c",
+      "source_branch": "research/paired-rank-two-gap-20261023-auto2",
+      "source_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "original_evidence": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "evidence": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "nextwave"
+    },
+    {
+      "id": "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+      "original_id": "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+      "record_sha256": "ad5c2319ea07aa2898105730f718f469bf2bca7f8673eaaeb675b7dffbd54b77",
+      "source_record_sha256": "ad5c2319ea07aa2898105730f718f469bf2bca7f8673eaaeb675b7dffbd54b77",
+      "source_branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "source_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "original_evidence": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "evidence": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "nextwave"
+    },
+    {
+      "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "original_id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+      "source_record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+      "source_branch": "research/top-coefficient-biforms-20261023-t2",
+      "source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "original_evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "nextwave"
     }
   ],
   "initial_consolidated_claim_count": 599,
@@ -11797,5 +11865,418 @@
     ],
     "previous_report": "resolution_report.pre_closure.json",
     "repository_mutations": false
+  },
+  "nextwave_addendum": {
+    "source": "nextwave_heads.json",
+    "source_capture_sha256": "bceae5f9713e4cb758a02831c8679548abe12951e402a99d0fddc8ace2051691",
+    "prepared_at": "2026-10-23T17:52:46.827219+00:00",
+    "baseline_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+    "previous_claims": 607,
+    "claims_after": 612,
+    "baseline_claims_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+    "result_claims_sha256": "c72e2eb0bb5b8eb5497205d20ad57b1157e6a052d15b3e652013630badf68115",
+    "added_ids": [
+      "AI-PAIRED-COLUMN-OVERLAP-001",
+      "AI-A4-INDEPENDENT-COORDINATE-004",
+      "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+      "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+      "AI-TOP-COEFFICIENT-BIFORM-RANK-001"
+    ],
+    "revised_ids": [],
+    "unchanged_existing_records": 607,
+    "all_607_existing_status_flags_preserved": true,
+    "new_claims_preserve_exact_source_records_and_flags": true,
+    "all_source_ids_represented": true,
+    "same_id_independent_collisions": [],
+    "heads": [
+      {
+        "branch": "research/column-overlap-20261023-ab94",
+        "source_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "37c6cc0c6565b437d02b363a789993c84d0db1e5d82f207abdd3f5be0cc6d128",
+        "authored_ids": [
+          "AI-PAIRED-COLUMN-OVERLAP-001"
+        ],
+        "new_ids": [
+          "AI-PAIRED-COLUMN-OVERLAP-001"
+        ],
+        "revised_existing_ids": []
+      },
+      {
+        "branch": "research/full-target-reconstruction-20261023-ab94",
+        "source_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "delta_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+        "source_claim_count": 299,
+        "source_record_map_sha256": "43ff91728a042e7040f662187e492ad6a4deea51c351ded87e6313ce3cfcd9c7",
+        "authored_ids": [
+          "AI-A4-INDEPENDENT-COORDINATE-004"
+        ],
+        "new_ids": [
+          "AI-A4-INDEPENDENT-COORDINATE-004"
+        ],
+        "revised_existing_ids": []
+      },
+      {
+        "branch": "research/paired-rank-two-gap-20261023-auto2",
+        "source_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "0b434ecae2a287029a06d8ede3ec7ee690fb728a06003cdbdc8d130c32e3ee9a",
+        "authored_ids": [
+          "AI-PAIRED-RANK-TWO-SLICE-GAP-001"
+        ],
+        "new_ids": [
+          "AI-PAIRED-RANK-TWO-SLICE-GAP-001"
+        ],
+        "revised_existing_ids": []
+      },
+      {
+        "branch": "research/three-term-resultant-obstruction-20261023-run2",
+        "source_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "bb3ce36fea52e177474e97dd3176dfece3dd3718ed202223ff52e16d7ff586e5",
+        "authored_ids": [
+          "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001"
+        ],
+        "new_ids": [
+          "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001"
+        ],
+        "revised_existing_ids": []
+      },
+      {
+        "branch": "research/top-coefficient-biforms-20261023-t2",
+        "source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "dac7d320a0842c512fe8de5296bd3bdbae717ab75fef0e453a37c4c05873b568",
+        "authored_ids": [
+          "AI-TOP-COEFFICIENT-BIFORM-RANK-001"
+        ],
+        "new_ids": [
+          "AI-TOP-COEFFICIENT-BIFORM-RANK-001"
+        ],
+        "revised_existing_ids": []
+      }
+    ],
+    "decisions": [
+      {
+        "branch": "research/column-overlap-20261023-ab94",
+        "source_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "id": "AI-PAIRED-COLUMN-OVERLAP-001",
+        "incoming_record_sha256": "76f27bc850be49e5af5443c23cb15d9cbb93923bbf62e4094449be62b64b6181",
+        "after_record": {
+          "id": "AI-PAIRED-COLUMN-OVERLAP-001",
+          "title": "Full-channel overlap forces quadratic repair unless leading column maps collapse",
+          "origin": "Owner-directed OpenAI Codex continuation",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-column-overlap/proof.md",
+          "statement": "For Q(n,m), m>=2, suppose each long map has fixed injective routing of source polynomial columns to target outer coordinates and arbitrary regular m-by-m channel matrices. Let N count the product of covered source first indices, G the corresponding product from invertible leading channel blocks, and c the product of connected-component counts of good full-window source-column positions, with edges at distance<m. Any formal degeneration Q(n,m) direct_sum R to M(l,m,r), with arbitrary Laurent first and auxiliary maps, requires first_flattening_rank(R) and border_rank(R) at least max(0,lr-N+G-c). The contributions may be separately polar. With fixed m and l/n,r/n tending to one, o(n) singular leading channel blocks force n^2-o(n^2) repair cost. Full channel rank is allowed.",
+          "dependencies": [
+            "Maintained Q(n,m) source convention and fixed-width correction criterion, pinned in sources.json",
+            "PR211 auxiliary-kernel normalization, with its original credit and no low-channel-rank hypothesis",
+            "Exact coefficient-window overlap, rational slice-plane reconstruction and a saturated-limit dimension budget"
+          ],
+          "limitations": "Fixed injective routing; distinct polynomial columns do not mix on either long leg. Channel blocks are regular formal series. Extensive leading singularity and general column-mixing maps remain open. The full-channel example is sharp for the first-flattening bound only. No independent review, formalization, historical priority or improved exponent.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "decision": "Add the exact distinct authored record; preserve written-unreviewed status and all false review/formalization/exponent flags."
+      },
+      {
+        "branch": "research/full-target-reconstruction-20261023-ab94",
+        "source_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "delta_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+        "id": "AI-A4-INDEPENDENT-COORDINATE-004",
+        "incoming_record_sha256": "77a0ad721f4e4bc662386598e9d9ad380ae16f4ddb2f5ee2075272999177c167",
+        "after_record": {
+          "id": "AI-A4-INDEPENDENT-COORDINATE-004",
+          "title": "Sharp dimension forty for all independent coordinate compressions of the A4 outer space",
+          "origin": "Owner-directed OpenAI Codex research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+          "section": "1-3",
+          "statement": "Over C, every independent deletion of two output coordinates and two input coordinates from the explicit 46-dimensional outer space E=G+[G,F]+FGF has image dimension at least 40. Complete finite replay covers all 142884 pairs modulo 1009; exact integer six-dimensional kernel witnesses attain dimension 40 at exactly the two stated pairs. The preceding bottom-left kernel reduction then bounds every independent coordinate rank-110 long-leg compression of the complete fixed conjugation limit by a loss of at most six leading directions, below the nine required for M(10,10,11).",
+          "dependencies": [
+            "AI-A4-TWOSIDED-LOWRANK-003 exact block space and compression-kernel reduction",
+            "AI-A4-TWOSIDED-RANKLOSS-001 nine-direction requirement",
+            "Complete finite modular-rank lower-bound census and exact integer kernel identities"
+          ],
+          "limitations": "Finite computer-assisted theorem for independently selected coordinate deletions in the specified normalized basis and one fixed conjugation family. It does not exclude arbitrary noncoordinate flags or other singular paths. Modular ranks are used only as complex lower bounds; exact sharpness is separately proved. No target construction, independent mathematical review, formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "decision": "Add the exact distinct authored record; preserve written-unreviewed status and all false review/formalization/exponent flags."
+      },
+      {
+        "branch": "research/paired-rank-two-gap-20261023-auto2",
+        "source_sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "id": "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+        "incoming_record_sha256": "426bee28dc104e9b31aeebd87a233501ce71e7fab257158185f24bc40812299c",
+        "after_record": {
+          "id": "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+          "title": "Sharp all-field rank-two first-slice gap for paired convolution source",
+          "origin": "Owner-directed AI-derived research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+          "statement": "For any field, integers n>=2 and b>=1, and rank-two n-by-n first parameter Y of Q(n,b), the ordinary first contraction has rank at least b(b+1); this is attained by Y=E00+E11. For two polynomial-multiplication pencils of full projective row/column rank with right/left Kronecker minimal index partitions (e_i) and (d_j), respectively, its exact matrix rank is b^2+sum_ij min(e_i,d_j).",
+          "dependencies": [
+            "Literal paired tensor, previous weaker all-rank inequality: research/ai/2026-10-20-paired-construction/narrow_rank_locus.md, pinned git blob 6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+            "Classical Kronecker strict-equivalence canonical form over algebraic closure, De Teran-Dopico-Landsberg 2016 arXiv:1606.02574; Karathanasi-Karampetakis 2019 DOI 10.1093/imamci/dnz031"
+          ],
+          "limitations": "Rank exactly two only. Does not apply to arbitrary rank-two contraction limits without their source realization, establish a source-to-target map, strengthen general Laurent repair bounds, or improve the omega<=9/4 baseline. Finite controls are not independent external review.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "decision": "Add the exact distinct authored record; preserve written-unreviewed status and all false review/formalization/exponent flags."
+      },
+      {
+        "branch": "research/three-term-resultant-obstruction-20261023-run2",
+        "source_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "id": "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+        "incoming_record_sha256": "ad5c2319ea07aa2898105730f718f469bf2bca7f8673eaaeb675b7dffbd54b77",
+        "after_record": {
+          "id": "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+          "title": "Three-term cyclic-source biform ranks are not determined by primitive degrees and pairwise resultants",
+          "origin": "Owner-directed AI-assisted research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+          "statement": "The literal 15x15 cyclic-source matrix R_(3,3)(x^2+z(1+x^2)+z^2(1+t*x+c*x^2)) has determinant t(2c^3-2ct^2+t^4) in Z[c,t]. Over every field of characteristic not 2, the triples (x^2,1+x^2,1+2x^2) and (x^2,1+x^2,1+x+x^2) each have degree pattern (2,2,2), primitive triple degree 2, and all three pairwise resultants exactly 1, but their ranks are respectively 14 and 15. For the former a nonzero integer row-kernel vector and a -4 minor witness rank14, while the latter has determinant 1.",
+          "dependencies": [
+            "Literal source coefficient convention from research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md at blob 04d28c6a05027a7756891f47d28327de850a7501",
+            "Affine recurrence predecessor PR209 at 4247f42eeb305163d299f908144b5915d1c238c5, now superseded",
+            "Exact integer 12-unit-pivot determinant reduction or independent 256-point degree-bounded interpolation; integral kernel and nonzero minor"
+          ],
+          "limitations": "Refutes only a degree plus pairwise-resultant rank classifier for one (a,b)=(3,3) family. Characteristic two does not preserve both degree patterns. Finite rank replays at b=4,...,9 do not imply a universal result. No bounded-rank source-space theorem, tensor degeneration, improved exponent, independent mathematical review or formalization.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "decision": "Add the exact distinct authored record; preserve written-unreviewed status and all false review/formalization/exponent flags."
+      },
+      {
+        "branch": "research/top-coefficient-biforms-20261023-t2",
+        "source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+        "incoming_record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+        "after_record": {
+          "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+          "title": "All-field exact rank formula for biforms with constant lower coefficients and one polynomial top coefficient",
+          "origin": "Owner-directed AI-assisted continuation",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+          "statement": "For every field K, integers a>=2 and 1<=e<b, constants c_0,...,c_(e-1) with c_0!=0, and nonzero polynomial w(x) of degree d<a, the literal cyclic-source coefficient matrix of f=c_0+...+c_(e-1)z^(e-1)+w(x)z^e has rank ab+sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). A polynomial-kernel basis from the e terminal entries has independent residue-triangular highest-degree vectors, proving the formula over arbitrary characteristic. 3372 finite modular full-matrix controls and 24 rational controls passed.",
+          "dependencies": [
+            "Original cyclic-source biform matrix definition pinned by blob 04d28c6a05027a7756891f47d28327de850a7501",
+            "Affine-z polynomial syzygy precedent in PR209 at 4247f42eeb305163d299f908144b5915d1c238c5 (attributed, not imported)",
+            "Explicit elementary backward polynomial recurrence and leading-degree triangularity"
+          ],
+          "limitations": "Only individual biform source-slice ranks, with every lower z coefficient constant and the coefficient at z^0 nonzero. Multiple variable z coefficients, complete three-leg tensor maps, auxiliary cost, asymptotic exponent implication, independent mathematical review, formalization and historical priority are absent.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "decision": "Add the exact distinct authored record; preserve written-unreviewed status and all false review/formalization/exponent flags."
+      }
+    ],
+    "repository_mutations": false
+  },
+  "scope_correction_addendum": {
+    "prepared_at": "2026-10-23T18:03:07.979305+00:00",
+    "tested_baseline": "72f5c524fd72c894d4420067fd10206944bce405",
+    "concurrent_source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+    "concurrent_source_parent": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+    "concurrent_archive": {
+      "sha": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "archive_tag": "archive/consolidation-20261023-165523/integrated/5d1441090e1c",
+      "created": true,
+      "verified": true,
+      "verified_at": "2026-10-23T18:00:47.238270+00:00"
+    },
+    "claim_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+    "changed_fields": [
+      "statement"
+    ],
+    "reason": "The unchanged proof gives a lower bound for every first map and equality for the supplied attaining map. Preserve the owner's exact concurrent correction through a real merge.",
+    "ledger_before_sha256": "c72e2eb0bb5b8eb5497205d20ad57b1157e6a052d15b3e652013630badf68115",
+    "ledger_after_sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+    "claims_before": 612,
+    "claims_after": 612,
+    "unchanged_claim_records": 611,
+    "before_record": {
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "title": "Integer oblique paired maps with an explicit nineteen-scalar repair",
+      "section": "1-4,6",
+      "statement": "Over every field, explicit integer local maps give Q(n,b) to M(n-1,4,n-1)-E for b>=2 and n>=b+1. With r=n-1 and d=r-b>0, the actual residual has exact flattening ranks (r^2-b^2,2r+d,2r+d) and an explicit scalar decomposition with 4*r*d terms. When d=0 the residual vanishes. When d=1, two binary-convolution cores improve the decomposition to 4*r-1 terms. In particular Q(6,4) direct sum D_19 restricts to M(5,4,5), with residual ranks (9,11,11) and three support-piece ranks (4,2,8),(4,8,2),(1,4,4). The supplied oblique long maps force the first residual rank r^2-b^2 for every first map. Complete rational source contractions, scalar-term replays and support factorizations accompany both finite witnesses and family controls.",
+      "dependencies": [
+        "Existing exact product-injection template and paired polynomial source convention",
+        "Existing equal-weight product projection and mixed-middle construction records, pinned in sources.json",
+        "Explicit integer oblique decoder, coefficient identity, concise-support minors and elementary rank-three binary-convolution identities",
+        "Pinned pending PR130 residual-support-rank envelope used solely for cost comparison"
+      ],
+      "limitations": "No optimal scalar rank, historical priority, independent mathematical review, formalization or achieved exponent improvement is claimed. The fixed-width family has quadratic first support and does not meet the asymptotic repair criterion. The n=6 finite source gate fails even with zero residual. The fixed-map optimum concerns the supplied long maps only. The coordinate-omission count concerns coordinate decoders for the stated polynomial space only."
+    },
+    "after_record": {
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "title": "Integer oblique paired maps with an explicit nineteen-scalar repair",
+      "section": "1-4,6",
+      "statement": "Over every field, explicit integer local maps give Q(n,b) to M(n-1,4,n-1)-E for b>=2 and n>=b+1. With r=n-1 and d=r-b>0, the actual residual has exact flattening ranks (r^2-b^2,2r+d,2r+d) and an explicit scalar decomposition with 4*r*d terms. When d=0 the residual vanishes. When d=1, two binary-convolution cores improve the decomposition to 4*r-1 terms. In particular Q(6,4) direct sum D_19 restricts to M(5,4,5), with residual ranks (9,11,11) and three support-piece ranks (4,2,8),(4,8,2),(1,4,4). The supplied oblique long maps force first residual rank at least r^2-b^2 for every first map, and the supplied first map attains equality. Complete rational source contractions, scalar-term replays and support factorizations accompany both finite witnesses and family controls.",
+      "dependencies": [
+        "Existing exact product-injection template and paired polynomial source convention",
+        "Existing equal-weight product projection and mixed-middle construction records, pinned in sources.json",
+        "Explicit integer oblique decoder, coefficient identity, concise-support minors and elementary rank-three binary-convolution identities",
+        "Pinned pending PR130 residual-support-rank envelope used solely for cost comparison"
+      ],
+      "limitations": "No optimal scalar rank, historical priority, independent mathematical review, formalization or achieved exponent improvement is claimed. The fixed-width family has quadratic first support and does not meet the asymptotic repair criterion. The n=6 finite source gate fails even with zero residual. The fixed-map optimum concerns the supplied long maps only. The coordinate-omission count concerns coordinate decoders for the stated polynomial space only."
+    },
+    "before_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+    "after_record_sha256": "41333ed31f058a3fdfe512b8c3671179bf91311918662216bfcff3643ab7747e",
+    "original_source": {
+      "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "original_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "source_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "source_branch": "research/oblique-residual-koszul-01a1697a",
+      "source_sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "original_evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true
+    },
+    "all_original_source_sha_and_record_hashes_retained": true,
+    "all_evidence_and_status_flags_preserved": true,
+    "five_nextwave_records_preserved_exactly": [
+      "AI-PAIRED-COLUMN-OVERLAP-001",
+      "AI-A4-INDEPENDENT-COORDINATE-004",
+      "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+      "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+      "AI-TOP-COEFFICIENT-BIFORM-RANK-001"
+    ],
+    "source_correction_addendum": {
+      "base_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "base_tree": "2112d3625dd33aae4df4f7c9cfd5af3eb8d764e9",
+      "claim_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "changed_fields": [
+        "statement"
+      ],
+      "reason": "The proof gives a lower bound for every first map and an attaining supplied first map. The old ledger sentence incorrectly asserted equality for every first map.",
+      "before_sentence": "The supplied oblique long maps force the first residual rank r^2-b^2 for every first map.",
+      "after_sentence": "The supplied oblique long maps force first residual rank at least r^2-b^2 for every first map, and the supplied first map attains equality.",
+      "before_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "after_record_sha256": "41333ed31f058a3fdfe512b8c3671179bf91311918662216bfcff3643ab7747e",
+      "before_record": {
+        "origin": "Owner-directed OpenAI Codex continuation",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+        "title": "Integer oblique paired maps with an explicit nineteen-scalar repair",
+        "section": "1-4,6",
+        "statement": "Over every field, explicit integer local maps give Q(n,b) to M(n-1,4,n-1)-E for b>=2 and n>=b+1. With r=n-1 and d=r-b>0, the actual residual has exact flattening ranks (r^2-b^2,2r+d,2r+d) and an explicit scalar decomposition with 4*r*d terms. When d=0 the residual vanishes. When d=1, two binary-convolution cores improve the decomposition to 4*r-1 terms. In particular Q(6,4) direct sum D_19 restricts to M(5,4,5), with residual ranks (9,11,11) and three support-piece ranks (4,2,8),(4,8,2),(1,4,4). The supplied oblique long maps force the first residual rank r^2-b^2 for every first map. Complete rational source contractions, scalar-term replays and support factorizations accompany both finite witnesses and family controls.",
+        "dependencies": [
+          "Existing exact product-injection template and paired polynomial source convention",
+          "Existing equal-weight product projection and mixed-middle construction records, pinned in sources.json",
+          "Explicit integer oblique decoder, coefficient identity, concise-support minors and elementary rank-three binary-convolution identities",
+          "Pinned pending PR130 residual-support-rank envelope used solely for cost comparison"
+        ],
+        "limitations": "No optimal scalar rank, historical priority, independent mathematical review, formalization or achieved exponent improvement is claimed. The fixed-width family has quadratic first support and does not meet the asymptotic repair criterion. The n=6 finite source gate fails even with zero residual. The fixed-map optimum concerns the supplied long maps only. The coordinate-omission count concerns coordinate decoders for the stated polynomial space only."
+      },
+      "after_record": {
+        "origin": "Owner-directed OpenAI Codex continuation",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+        "title": "Integer oblique paired maps with an explicit nineteen-scalar repair",
+        "section": "1-4,6",
+        "statement": "Over every field, explicit integer local maps give Q(n,b) to M(n-1,4,n-1)-E for b>=2 and n>=b+1. With r=n-1 and d=r-b>0, the actual residual has exact flattening ranks (r^2-b^2,2r+d,2r+d) and an explicit scalar decomposition with 4*r*d terms. When d=0 the residual vanishes. When d=1, two binary-convolution cores improve the decomposition to 4*r-1 terms. In particular Q(6,4) direct sum D_19 restricts to M(5,4,5), with residual ranks (9,11,11) and three support-piece ranks (4,2,8),(4,8,2),(1,4,4). The supplied oblique long maps force first residual rank at least r^2-b^2 for every first map, and the supplied first map attains equality. Complete rational source contractions, scalar-term replays and support factorizations accompany both finite witnesses and family controls.",
+        "dependencies": [
+          "Existing exact product-injection template and paired polynomial source convention",
+          "Existing equal-weight product projection and mixed-middle construction records, pinned in sources.json",
+          "Explicit integer oblique decoder, coefficient identity, concise-support minors and elementary rank-three binary-convolution identities",
+          "Pinned pending PR130 residual-support-rank envelope used solely for cost comparison"
+        ],
+        "limitations": "No optimal scalar rank, historical priority, independent mathematical review, formalization or achieved exponent improvement is claimed. The fixed-width family has quadratic first support and does not meet the asymptotic repair criterion. The n=6 finite source gate fails even with zero residual. The fixed-map optimum concerns the supplied long maps only. The coordinate-omission count concerns coordinate decoders for the stated polynomial space only."
+      },
+      "original_source": {
+        "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+        "original_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+        "record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+        "source_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+        "source_branch": "research/oblique-residual-koszul-01a1697a",
+        "source_sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+        "original_evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+        "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true
+      },
+      "ledger_before_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+      "ledger_after_sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
+      "supporting_evidence": {
+        "path": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+        "sha256": "c6e53f6a9d39af372ea5876902983e118626b9969b396153e612865576f51557",
+        "lines_at_base": [
+          322,
+          329
+        ],
+        "scope": "An identity minor of size r^2-b^2 survives every first map; the displayed map attains that lower bound."
+      },
+      "counterexample_to_old_equality": {
+        "field": "Q",
+        "n": 6,
+        "b": 4,
+        "first_map": "zero",
+        "long_maps": "unchanged supplied oblique maps",
+        "residual": "M(5,4,5)",
+        "residual_flattening_ranks": [
+          25,
+          20,
+          20
+        ],
+        "supplied_first_map_minimum_rank": 9
+      },
+      "preservation": {
+        "unchanged_other_claim_records": 606,
+        "original_source_record_hashes_unchanged": 607,
+        "claim_status_evidence_dependencies_and_review_flags_unchanged": true,
+        "proof_code_witness_source_snapshot_and_archive_bytes_unchanged": true
+      },
+      "historical_preservation_receipt": {
+        "path": "docs/consolidation/2026-10-23/preservation_report.json",
+        "head": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
+        "sha256": "b3e2c5af965045760a8f89029cecc1d964feff980b9302a1608a6818dd3c7cb5",
+        "scope": "Preserved unchanged as the audit of its recorded revision. This correction does not represent a new full preservation or regression run."
+      },
+      "limitations": "A same-session correction to one ledger sentence. It does not promote review or formalization status, change any mathematical artifact, or assert an exponent improvement."
+    },
+    "independent_scope_review": "concurrent_oblique_claim_review.json",
+    "scope_review_does_not_promote_mathematical_review_status": true,
+    "topic_source_snapshots": 164,
+    "topic_branch_names": 136,
+    "integration_correction_counted_separately": true
   }
 }

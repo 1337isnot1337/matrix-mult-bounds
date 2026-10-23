@@ -1,0 +1,16 @@
+{
+  "scope": "Two repository metadata checks on the publication tree after incorporating the concurrent one-statement claim correction from 5d144109. Exact file and archive hash equivalence transfers the 1,950-test coverage from frozen 72f5c524. No unchanged acceptance, census, archive replay, or optional discovery is rerun.",
+  "passing_source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+  "jobs": [
+    {
+      "name": "claim-ledger-and-links",
+      "kind": "unittest",
+      "targets": [
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "expected_tests": 2,
+      "reason": "Validate the corrected combined ledger and relative links changed by final metadata packaging; exact byte hashes cover unchanged code and archives."
+    }
+  ]
+}
