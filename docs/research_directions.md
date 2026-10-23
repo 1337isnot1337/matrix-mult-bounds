@@ -116,6 +116,33 @@ repairs remain relevant; repeating these full-space ranks does not narrow
 the inherited border-rank interval 12 through 18. Other projections and
 maps are outside this finite check.
 
+The fixed diagonal-shift maps in
+[AI-Q64-DIAGONAL-SHIFT-CORRECTION-001](../research/ai/2026-10-23-q64-diagonal-shift/proof.md)
+are now excluded: their target-minus-source correction has first-leg
+flattening rank `n^2`. This result does not cover other maps. The entire
+first-leg chart is now excluded by the
+[fixed-long-leg extension](../research/ai/2026-10-23-q64-coordinate-long-legs/proof.md)
+as long as the two long-leg
+coordinate maps stay fixed: the correction flattening rank is `n^2`.
+Further work must change at least one long-leg map or use a different
+source family.
+
+The family `B_(y,s)->b_(s-k_B*y,y)` and
+`C_(z,v)->c_(v,z-k_C*v)` for any size-dependent `0<=k_B,k_C<n` is also
+excluded for arbitrary first-leg maps: the correction flattening rank is
+at least `n^2/2` for `n>=4`, uniformly over both multipliers. Further work
+must use a different long-leg map or a different source family.
+
+Even arbitrary per-index coordinate translations on both long legs are
+excluded by [AI-Q64-ARBITRARY-INNER-SHIFTS-001](../research/ai/2026-10-23-q64-arbitrary-inner-shifts/proof.md):
+their correction flattening rank is at least `n(n-1)/2` for every n.
+Continue with non-coordinate long-leg maps or a different source family.
+
+Independent permutations of every matched coordinate window are also
+excluded by [AI-Q64-WINDOW-PERMUTATIONS-001](../research/ai/2026-10-23-q64-window-permutations/proof.md),
+with correction flattening rank at least `(n-1)^2`. Broader non-coordinate
+long-leg maps remain open.
+
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
 when both long maps remain regular and full rank. Do not repeat those

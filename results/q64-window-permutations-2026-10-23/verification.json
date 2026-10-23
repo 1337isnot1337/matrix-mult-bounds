@@ -1,0 +1,81 @@
+{
+  "claim": "AI-Q64-WINDOW-PERMUTATIONS-001",
+  "exact_rational_replay": true,
+  "sizes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "profiles_tested": 281,
+  "coverage_by_size": {
+    "1": "exhaustive",
+    "2": "exhaustive",
+    "3": "deterministic sampled",
+    "4": "deterministic sampled",
+    "5": "deterministic sampled"
+  },
+  "requested_sampled_profiles_per_sampled_size": 8,
+  "first_leg_scope": "all linear maps via exact quotient/intersection minimum-rank identity",
+  "lower_bound_checked": "(n-1)^2",
+  "general_q_maps_excluded": false,
+  "exponent_improvement": false,
+  "cases": [
+    {
+      "n": 1,
+      "coverage": "exhaustive",
+      "profiles_tested": 1,
+      "profile_sha256": "692f2a3dad3607af97cc77d384aa4a5f9af89432e377d1e7b467dc75734530e6",
+      "minimum_source_subspace_rank": 1,
+      "maximum_intersection_dimension": 1,
+      "minimum_correction_rank": 0,
+      "maximum_correction_rank": 0,
+      "lower_bound": 0
+    },
+    {
+      "n": 2,
+      "coverage": "exhaustive",
+      "profiles_tested": 256,
+      "profile_sha256": "c42f57f959c367c8021e96f7ebb9422d2a18c74c709fbe64861fbc793d032fbb",
+      "minimum_source_subspace_rank": 4,
+      "maximum_intersection_dimension": 2,
+      "minimum_correction_rank": 2,
+      "maximum_correction_rank": 4,
+      "lower_bound": 1
+    },
+    {
+      "n": 3,
+      "coverage": "deterministic sampled",
+      "profiles_tested": 8,
+      "profile_sha256": "d4bf71a89794af375ab588c272a8805d198fc93016f806a009f87e7acbcb8a04",
+      "minimum_source_subspace_rank": 9,
+      "maximum_intersection_dimension": 2,
+      "minimum_correction_rank": 7,
+      "maximum_correction_rank": 9,
+      "lower_bound": 4
+    },
+    {
+      "n": 4,
+      "coverage": "deterministic sampled",
+      "profiles_tested": 8,
+      "profile_sha256": "68f6bfbb0c91b17717253f3ede1237a9d8d08ca3b673b5a6535d73a9eb338b44",
+      "minimum_source_subspace_rank": 16,
+      "maximum_intersection_dimension": 2,
+      "minimum_correction_rank": 14,
+      "maximum_correction_rank": 16,
+      "lower_bound": 9
+    },
+    {
+      "n": 5,
+      "coverage": "deterministic sampled",
+      "profiles_tested": 8,
+      "profile_sha256": "2c31613c284a8d824b2fadd782fecd7bc9a0efaea180c5806b4ee224abee9220",
+      "minimum_source_subspace_rank": 25,
+      "maximum_intersection_dimension": 2,
+      "minimum_correction_rank": 23,
+      "maximum_correction_rank": 25,
+      "lower_bound": 16
+    }
+  ]
+}

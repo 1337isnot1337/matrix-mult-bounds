@@ -446,6 +446,40 @@ kernel slack. The fixed M2-leading monomial first-jet chart is excluded.
 Six complete-flag fits are preserved with exact grading/gauge controls;
 their low residuals do not pass exact Laurent acceptance.
 
+Claim `AI-Q64-DIAGONAL-SHIFT-CORRECTION-001` now excludes one explicit
+shift-diagonal map family: its residual has an `n^2`-rank first-leg
+flattening for every n. This does not close the general paired-source
+question. The next construction search must change a leg map or source
+family and charge the complete auxiliary border rank.
+
+The [fixed-long-leg continuation](ai/2026-10-23-q64-coordinate-long-legs/proof.md)
+allows an arbitrary linear map on the first leg. The stacked `(0,0)` and
+`(1,1)` projected blocks have rank `n^2` for every such map, so a linear-cost
+correction is impossible while both long-leg coordinate maps stay fixed.
+Changing either long-leg map or the source family remains open.
+
+The [inner-index shift continuation](ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
+covers every size-dependent pair `0<=k_B,k_C<n` in
+`B_(y,s)->b_(s-k_B*y,y)` and
+`C_(z,v)->c_(v,z-k_C*v)`. For arbitrary first-leg maps the correction
+flattening rank is at least `n^2/2` for `n>=4`. High multipliers remove
+the entire matched `j=2` source block; the off-diagonal support argument
+handles the remaining low-multiplier range. This closes all such
+size-dependent inner-index shifts.
+
+The [arbitrary inner-shift package](ai/2026-10-23-q64-arbitrary-inner-shifts/proof.md)
+now allows independent translations on all four inner indices of each long
+leg. For any first-leg map the correction flattening rank is at least
+`n(n-1)/2` for every n. It bounds the target/source slice-space
+intersection using adjacent C-shift terms; the proof is unreviewed. General
+non-coordinate long-leg maps remain open.
+
+The [matched-window permutation package](ai/2026-10-23-q64-window-permutations/proof.md)
+allows an independent permutation of every matched long-leg coordinate
+window. Its target/source slice-space intersection has dimension at most
+`2n-1`, giving correction flattening rank at least `(n-1)^2` for every
+first-leg map. The proof remains unreviewed.
+
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
 The smaller sparse M1 lead has an all-size first-edge support deficit.
