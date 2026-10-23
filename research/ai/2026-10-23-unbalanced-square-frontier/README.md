@@ -4,7 +4,7 @@ October 23, 2026. Owner-directed OpenAI Codex continuation. Written finite
 application of prior unreviewed proofs; no independent mathematical review,
 formalization, target construction or smaller exponent is claimed.
 
-The previous Hankel application screened balanced A8 and A9 but left the
+The pinned earlier Hankel application screened balanced A8 and A9 but left the
 unbalanced source formats between dimensions 960 and 1377 undecided. This
 package applies the same necessary conditions to **every** source A(a,b)
 with 2<=a<=b and N=ab(a+b-1)<=1377, every target leg dimension 1<=D<=N,
@@ -14,8 +14,14 @@ target dimensions. Twenty source formats have N>960.
 All 70 source formats with N<1152 are excluded for an improving ordinary
 square direct sum by the accumulated written gate proofs and exact finite
 recurrence. The first necessary-test survivor is **A(8,9), N=1152**.
-Only A(8,9) and A(9,9) survive through N=1377. The earlier balanced
-A9 partition (32,6,3) retains its prior credit and open status.
+Only A(8,9) and A(9,9) survive those adopted gates through N=1377.
+These are results of the historical screen using pinned gates. The later
+[Wronskian application](../2026-10-21-hankel-wronskian-cap/application.md)
+already excludes every improving ordinary A9 square direct sum, including
+(32,6,3). The updated A9 maximum has upper numerator 140053290292,
+below the critical numerator 140608000000.
+That balanced result does not settle the unbalanced A(8,9) question.
+The table preserves this package's original gate results and prior credit.
 
 | Source | N | Relaxed maximizing partition | Exact score upper numerator, denominator 10^6 | Critical score |
 | --- | ---: | --- | ---: | ---: |
@@ -97,7 +103,8 @@ python tools/replay.py
 
 Investigate actual ordinary M30 maps for A(8,9), a stronger obstruction
 valid in that format, or singular constructions outside the ordinary
-screen. The A9 M32 equality question remains distinct. This package
-does not cover a=1, rectangular direct sums, N>1377, source powers,
+screen. The historical A9 survivors above are superseded for improving
+ordinary square direct sums; the unbalanced A(8,9) question remains open.
+This package does not cover a=1, rectangular direct sums, N>1377, source powers,
 general singular degenerations or alternative score inequalities.
 The original proofs, archives and historical frontier reports are unchanged.

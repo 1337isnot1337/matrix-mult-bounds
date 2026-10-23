@@ -1141,10 +1141,14 @@ The [complete unbalanced square-sum application](../research/ai/2026-10-23-unbal
 now fills the source-dimension gap through1377. All70 formats below1152
 are excluded for an improving ordinary square direct sum; the first
 necessary-test survivor is A(8,9), not the balanced A9 source. In
-particular its unconstructed single M30 target passes the current gates
+particular its unconstructed single M30 target passes this package's adopted gates
 and has an exact conditional exponent certificate5621/2500. Construct
 its actual coefficient maps or find a stronger obstruction in this
-unbalanced format. The A9 rank648 equality question remains separate.
+unbalanced format. The
+[Wronskian application](../research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+already excludes all improving ordinary A9 square direct sums, superseding
+the A9 survival under the older adopted gates. The unbalanced A(8,9)
+question remains distinct.
 The earlier balanced single-rectangular enumeration and all singular
 construction questions retain their stated scopes.
 
