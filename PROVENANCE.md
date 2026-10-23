@@ -1,5 +1,25 @@
 # Attribution and provenance
 
+
+The `2026-10-23-quadratic-z-middle` package is owner-directed,
+AI-assisted mathematics. Its exact literal source convention and the
+general biform gap are credited to the pinned
+`2026-10-20-anisotropic-constructions/slice_rank_gap.md` on main.
+Concurrent PR209 at `4247f42` developed the affine-in-z exact
+rank formula, the complete polynomial-row kernel method, and proposed
+the quadratic continuation; all retain their attribution. This new
+proof treats the distinct constant-endpoint quadratic subfamily.
+PR207 owns diagonal-polynomial Toeplitz ranks, PR208 their geometric
+subfamily, and PR171 two-monomial ranks. None of these concurrent
+theorems is imported as an unproved premise. Two implementations
+reconstruct matrices and null vectors within one generating session;
+their agreement is not independent external mathematical review.
+The claim is written and unreviewed, does not classify general quadratic
+biforms, and does not establish a tensor degeneration or exponent gain.
+Source and PR hashes are recorded in
+`research/ai/2026-10-23-quadratic-z-middle/sources.json`.
+
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
