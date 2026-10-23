@@ -1,0 +1,188 @@
+{
+  "status": "exact-bounded-weight-search",
+  "weight_limit": 6,
+  "rows": [
+    {
+      "principal_factors": 0,
+      "word_multiplicity": 1,
+      "weight_vectors_checked": 23,
+      "best": {
+        "weights": {
+          "principal_degree": 0,
+          "principal_unselected": 0,
+          "matrix_central": 1,
+          "extra_C2": 1
+        },
+        "maximum_total_degree": 6,
+        "cutoffs": [
+          1,
+          1,
+          2
+        ],
+        "per_word_slices": 147456,
+        "degree_counts": [
+          4096,
+          24576,
+          61440,
+          81920,
+          61440,
+          24576,
+          4096
+        ]
+      }
+    },
+    {
+      "principal_factors": 1,
+      "word_multiplicity": 3,
+      "weight_vectors_checked": 1561,
+      "best": {
+        "weights": {
+          "principal_degree": 1,
+          "principal_unselected": 0,
+          "matrix_central": 3,
+          "extra_C2": 2
+        },
+        "maximum_total_degree": 20,
+        "cutoffs": [
+          6,
+          6,
+          6
+        ],
+        "per_word_slices": 384768,
+        "degree_counts": [
+          2304,
+          2048,
+          9472,
+          12800,
+          23296,
+          33280,
+          45056,
+          56832,
+          64512,
+          75264,
+          71168,
+          75264,
+          64512,
+          56832,
+          45056,
+          33280,
+          23296,
+          12800,
+          9472,
+          2048,
+          2304
+        ]
+      }
+    },
+    {
+      "principal_factors": 2,
+      "word_multiplicity": 3,
+      "weight_vectors_checked": 1561,
+      "best": {
+        "weights": {
+          "principal_degree": 1,
+          "principal_unselected": 0,
+          "matrix_central": 3,
+          "extra_C2": 3
+        },
+        "maximum_total_degree": 28,
+        "cutoffs": [
+          8,
+          9,
+          9
+        ],
+        "per_word_slices": 898096,
+        "degree_counts": [
+          1296,
+          2304,
+          3904,
+          10048,
+          18048,
+          25088,
+          38944,
+          61184,
+          76384,
+          93248,
+          122048,
+          142208,
+          147984,
+          161536,
+          174016,
+          161536,
+          147984,
+          142208,
+          122048,
+          93248,
+          76384,
+          61184,
+          38944,
+          25088,
+          18048,
+          10048,
+          3904,
+          2304,
+          1296
+        ]
+      }
+    },
+    {
+      "principal_factors": 3,
+      "word_multiplicity": 1,
+      "weight_vectors_checked": 227,
+      "best": {
+        "weights": {
+          "principal_degree": 1,
+          "principal_unselected": 0,
+          "matrix_central": 0,
+          "extra_C2": 3
+        },
+        "maximum_total_degree": 33,
+        "cutoffs": [
+          10,
+          10,
+          11
+        ],
+        "per_word_slices": 2159796,
+        "degree_counts": [
+          729,
+          1944,
+          4158,
+          8963,
+          18282,
+          30450,
+          48145,
+          75654,
+          109641,
+          146987,
+          192810,
+          246507,
+          293822,
+          336870,
+          379905,
+          410898,
+          420123,
+          420123,
+          410898,
+          379905,
+          336870,
+          293822,
+          246507,
+          192810,
+          146987,
+          109641,
+          75654,
+          48145,
+          30450,
+          18282,
+          8963,
+          4158,
+          1944,
+          729
+        ]
+      }
+    }
+  ],
+  "slice_upper_bound": 6155844,
+  "optimality_certified": false,
+  "exponent_improvement": false
+}
