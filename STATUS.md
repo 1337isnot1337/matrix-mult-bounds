@@ -1,5 +1,21 @@
 # Research status
 
+## Full-channel paired maps: overlap and leading rank loss
+
+The [column-overlap proof](research/ai/2026-10-23-column-overlap/proof.md)
+allows arbitrary full channel matrices at each retained polynomial column.
+For fixed injective routing, an overlap graph bounds the leading target
+slice intersection. Saturation accounts for new directions from singular
+leading blocks, even with arbitrary first-map and auxiliary Laurent poles.
+At fixed width and near-full outer dimensions, all but o(n) invertible
+leading blocks force auxiliary border rank n^2-o(n^2). Equal positive
+fractions above 1/m of invertible leading blocks also force quadratic
+cost by the stated quantitative bound. General column-mixing maps and
+more extensively singular leading blocks remain open. Claim
+`AI-PAIRED-COLUMN-OVERLAP-001` is written and unreviewed. Exact separated
+window restrictions and a full-channel sharp flattening example test its
+scope; no exponent improves.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

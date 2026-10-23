@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-column-overlap` package is owner-directed OpenAI Codex
+work. It preserves the paired-source definition, correction criterion,
+and PR211 auxiliary-kernel normalization with their original credit and
+source pins. The overlap-component intersection bound and leading
+rank-loss budget are local continuations. Exact controls reconstruct all
+native source terms over the rationals. Two subagents and the root
+checked the argument within the generating session; this does not supply
+independent mathematical review. No full near-capacity matrix family,
+historical priority, formalization, or exponent improvement is claimed.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
