@@ -813,6 +813,30 @@ copy pinned at `75f453b` in the SL(2,7) package; only the product table and
 normalization adapter are new. A successful finite control is not a target
 construction or an exponent improvement.
 
+## Rectangular direct-sum continuation
+
+The October 21 rectangular direct-sum package was generated in the owner's
+existing dot conversation without spawning another research conversation.
+It extends the already credited polynomial/Hankel tests and external character
+comparison, and provides an exact finite two-block search. The extension and
+conditional arithmetic are AI-derived and unreviewed; no historical priority,
+independent review, actual target maps or smaller exponent is claimed.
+
+The same continuation adds a self-contained low-rank projection density argument
+and a finite Grassmannian/coordinate-space Hankel bound. The proof and its tensor
+application are locally derived with no historical novelty claim. The compact
+finite witnesses use a specified deterministic generator and independent integer
+determinant replay; they are not an independent review of the general proof.
+
+## Rectangular second-boundary continuation
+
+The October 21 rectangular package now includes a local unreviewed second-
+boundary Hankel Segre argument and a stronger projection lemma using image-
+variety dimension. It reuses and credits the maintained apolarity, polynomial
+coefficient injection and first-boundary proofs. Rational residue checks,
+integer determinant certificates and finite enumeration are computational
+controls, not independent reviews or exponent improvements.
+
 ## Boundary third coefficients and arbitrary hyperplanes
 
 The `2026-10-21-third-boundary-trap` and
@@ -834,6 +858,22 @@ are standard. The explicit local basis identification, sharp controls and
 source application are same-session AI-derived written work, with no
 independent review, historical-priority claim or exponent improvement.
 
+The later `bundle_hankel_dimension.md` explicitly imports the classical
+Birkhoff-Grothendieck splitting theorem, line-bundle cohomology, and extension
+classification on P1. The inspected reference for splitting and cohomology is
+MIT18.721, September2020 notes, Theorem8.4.1 and its following formulas.
+The local note supplies the Cech coefficient identification, framed-extension
+parameter count, and integer estimate. It makes no historical-priority claim;
+the written argument remains unreviewed. Exact controls are not a formal or
+independent verification of those geometric inputs.
+
+The asymmetric SL2 seed continuation uses the maintained physical W trace
+model and exact intertwiner method. Numerical ALS and analytic-Jacobian
+least squares suggested rational maps; only exact original-source replay
+supports the A33 to M(5,5,3) identity. The pencil obstruction and small cubic
+cap are same-session written proofs, not independently reviewed. No
+historical priority or exponent improvement is claimed.
+
 The `2026-10-21-integrable-boundary-shears` package adds an exact local
 polynomial family and complete mutual-annihilator calculation. A rational
 third-jet pilot suggested the formula; acceptance checks the full
@@ -850,6 +890,119 @@ gives a corner-minor rederivation of the existing rank inequality. The
 classification is not claimed as new work. Same-session checks and the
 conditional integer certificate supply no target maps, independent review
 or exponent improvement.
+
+The single-target dimension1152 scan reuses the maintained slice, saturation
+and second-boundary lemmas. It closes the balanced size-eight candidate in
+the later main-branch frontier by applying the already written rank-three
+projection result. This is a finite application, with integer certificate
+replay, not a new general theorem or independent proof review.
+
+The two-ruling dimension proof is a self-contained local argument using
+generic bilinear spanning, submodularity and an equality-case common-core
+analysis. It retains a counterexample below its r>=6 range. The three-ruling
+corollary and the dimension1500 scan apply that argument alongside credited
+Hankel bounds. No historical priority, independent review or exponent
+improvement is claimed.
+
+The two-summand ruling refinement is a finite application of the local
+ruling lemma. It reconstructs prior records and verifies their published
+SHA-256 hashes before applying the gate. Four focused tests pass; this is
+not independent review of the general lemmas or an exponent improvement.
+
+The distinct-spectral-atom slice formula is a self-contained factorization
+and polynomial-kernel argument for an explicitly restricted ansatz. Small
+original-source controls and a sharp650 example support the finite checks.
+It does not classify general Hankel slices, invalidate the641 counterexample,
+or establish a smaller exponent. The proof remains written and unreviewed.
+
+The cyclic-state extension uses an explicit source factorization and
+standard Jordan-chain observability, with its needed argument included.
+Its rounding bound imports the credited quantitative crossed-rank lemma.
+Cyclic and noncyclic sharp controls preserve the stated hypotheses; this
+is not a general realization theorem or an improved exponent.
+
+The one-unit polynomial-relation note applies equality in the credited
+source growth bounds and includes the needed elementary PID argument.
+Its finite controls include the actual rank641 source columns. It supplies
+necessary structure only, with no target maps or independent review.
+
+The one-unit pairing criterion develops the preceding relation lemma into
+a polynomial factor criterion, using an explicit kernel-intersection rank
+formula. Its non-Hankel coefficient controls are labeled as such. The
+fixed-pencil pilot uses exact rational tangent elimination and is not an
+integrability claim, global dimension bound or exponent improvement.
+
+The one-unit convolution family is an explicit local construction derived
+from the kernel-pairing criterion. Complete Hankel identities and the
+truncated-unit gauge are replayed exactly. Its dimension argument matches
+a free gauge upper bound with the differential lower bound. This constructs
+source slices, not target tensor maps, and remains written and unreviewed.
+
+The family-span continuation pairs a622-coordinate support upper bound
+with a matching binary rank certificate. Its separate moving-fat-point
+argument uses an elementary Wronskian pencil calculation and uniqueness
+of a root of multiplicity9 in degree16. It closes only this family orbit,
+not general multiple-support slices or the target problem.
+
+The multiple-support continuation separates one double jet and simple
+residues by exact confluent Vandermonde maps. Its dimension proof uses
+unique scalar recurrence recovery and the prior local family dimension.
+It removes the fixed-family span obstruction but does not produce target
+maps. General statements remain written and unreviewed.
+
+The multiple-support linearity note uses an explicit rank-one circuit
+incidence count and vector-valued second jets. Its stationarity controls
+retain a triple-proportional bad example where the conclusion fails. The
+result is a scoped obstruction to the constructed family, not a general
+classification or an improved exponent.
+
+## Outer compression, October 21, 2026
+
+The rectangular consequence in `research/ai/2026-10-21-rectangular-direct-sums/outer_compression.md` imports Gyory's thesis Theorem 2.1 (2003), inspected from the institutional primary PDF, with its finite-dimensional hypotheses. The matrix-padding reduction, dimension arithmetic and finite-realization counterexample are this session's work. No general critical-stratum classification or exponent improvement is claimed. Four focused tests pass; the imported theorem is not re-proved by those tests.
+
+## Finite realization gate and regression, October 21, 2026
+
+`flat_realization.md/.py` supplies a self-contained standard flatness proof and exact rational replay, with three focused tests passing in 6.006 seconds. It explicitly retains both nonflat-but-realizable and nonflat-insufficient-state controls. The missing regular/compression dichotomy remains unproved. Sontag's author-hosted section 6.6, particularly Lemma 6.6.9, was consulted for background, not claimed as new work.
+
+The immutable c14c058 snapshot passed all 667 tests in 1311.666 seconds; its receipt and log hash are in `results/rectangular-direct-sums-20261021/immutable-regression-c14c058.json`. Later additions are outside that snapshot. The newly integrated main PR69 axis controls passed four focused tests in 44.558 seconds. Local test success is not mathematical review.
+
+## Generic flatness outside compressions, October 21, 2026
+
+`generic_flatness.md` derives the low-rank chart reduction from a level apolar module. Standard free-resolution/Koszul facts are credited to Melody Chan's author-hosted graduate notes, section36; the rank-nine plateau and small relation-matrix argument are written explicitly. Exact rational controls include a support point at infinity, a chart change, and all17 reconstructed moments. The general proof is unreviewed, and finite-state target compatibility remains open.
+
+## Critical finite-state strata, October 21, 2026
+
+`critical_finite_states.md` combines the newly written generic-flatness proof with the existing source-rank and kernel-pairing lemmas. It handles arbitrary largest-block partitions of8, the exceptional J_e plus J_1 state, uniform coefficient fibers, and the eight-simple proportional-pair case. Exact controls check all22 partitions, all required Hermite pair determinants, thirteen Jordan examples (including four full original source matrices and nonzero-root, higher-jet controls), and dimension inequalities. The first replay test exposed a tuple/list serialization mismatch, corrected before the passing run; this was not a mathematical failure. The geometric proof remains unreviewed. No smaller exponent is claimed.
+
+The unregularized degree-two Laurent run completed40 evaluations in2116.855 seconds, joint residual6.318344877978216e-5. Its saved dyadic coefficients fail the exact modular gate; it remains numerical evidence only. A continuation from that checkpoint is running separately.
+
+The corollary in `critical_finite_states.md` applies to larger parameter blocks satisfying explicit dimension and source-lift inequalities. `critical_frontier.py` records62 additional two-block exclusions from the hash-identified752 historical survivors, leaving690 (602 at A(8,10),88 at A(9,9)). Historical scans are unchanged. The finite filter depends on the written, unreviewed geometric proof.
+
+## Extended frontier and numerical conditioning, October 21, 2026
+
+The source-size2000 scan checks5741 shapes in110 formats. Five new compressed Hankel certificates add352716 exact minor checks; the full427076 replay and scan tests pass. Seventy-four ordinary candidates remain after the separately written critical-state exclusion. Exact SL2 compatibility graphs exclude only the specified symmetry ansatz for the first two larger targets; they do not close those ordinary candidates.
+
+Target-vertex gauge balancing reduces the stored numerical coefficient norm while preserving the target tensor to floating precision. Its algebraic gauge identity is explained separately; residual norms are gauge-dependent. One optional NumPy test passes. A noisy degree-three restart was interrupted and replaced by zero padding; neither is an exact construction.
+
+## Complete equivariant frontier replay and immutable regression
+
+The expanded fixed-diagonal SL2 screen covers all74 remaining size2000 ordinary candidates and both pure parity sectors when permitted. It finds no compatible triple. Two replay tests pass in341.619 seconds. This is a restricted-ansatz result, not a general target obstruction or a symmetry reduction.
+
+The immutable139b532 snapshot passes688 tests in1595.014 seconds. Its receipt records the tree and log hash. This includes the new critical-state controls but excludes later size2000 and gauge additions, which have separate focused receipts. Test success does not change proof-review status.
+
+## Invariant-slice multiplicity obstruction, October 21, 2026
+
+The bounded physical-subset search first found capacity triangles at A(24,24) to M124. They are not constructions: one is excluded by the existing shared-top-irrep polynomial identity, and three by a newly written ordinary-only multiplicity rank inequality. The unique source invariant is evaluated by exact modular highest/lowest-weight contraction; all47 channels at a24 have full rank. Every channel at a2,a3,a4 is independently checked against the original six-index source sum. Three focused tests pass in2.657 seconds. Singular degenerations are explicitly outside the new rank obstruction.
+
+NumPy is now a maintained dependency for exact bounded-int64 modular verification, with overflow guards. Python3.10 uses2.2.6 and newer lanes use the locally tested2.3.5, following the official PyPI Python requirements at https://pypi.org/project/numpy/2.2.6/ and https://pypi.org/project/numpy/2.3.5/. The installed environment passes pip check; the Python3.10 lane has not been run locally. The test job timeout is raised from20 to60 minutes because an immutable local run already took26.6 minutes before the expanded screen. The required CI job name and permissions are unchanged; no remote CI success is claimed.
+
+## Bounded physical vertices and Laurent normalization
+
+The complete a24..36 physical-subset search finds4070 capacity triples;1211 fail the prior shared-top identity and2859 the new ordinary-only slice inequality. Independent scalar and bounded-int16 graph implementations agree on every witness. The complete fast replay passes in47.922 seconds, compared with1575.604 seconds for discovery. The domain is explicitly limited to at most five distinct physical irreps per vertex.
+
+A Laurent-variable scaling freedom was identified in the numerical objective. The new optional scale-normalized objective includes the analytic derivative of its unique coefficient-norm balancing scale and the matching adjoint. Two unit tests and a one-evaluation smoke check pass; the latter has directional error1.10e-8. This removes one residual-suppression gauge, not all numerical uncertainty. The normalized seed and reports are saved. The preceding unnormalized degree-three run finishes40 evaluations in3712.806 seconds with raw joint residual2.5166378098551043e-5; its supplied coefficients fail the exact modular gate.
+
+The unchanged default solver path also passes a one-evaluation derivative/adjoint regression smoke test. A normalized attempt with floor1e-12 failed the unchanged directional gate and stopped before optimization; its failure record is retained. The new attempt uses the previously tested1e-10 floor rather than relaxing validation.
 
 The `2026-10-21-mixed-axis-incidence` package closes the uniform axis
 family left by claim091. Its auxiliary projection and polynomial relation

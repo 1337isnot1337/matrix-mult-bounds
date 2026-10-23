@@ -1,0 +1,207 @@
+{
+  "status": "exact finite controls, written general proof unreviewed, no target maps",
+  "pairing_controls": [
+    {
+      "a": 2,
+      "b": 3,
+      "delta": 1,
+      "g": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "pairing_rank": 2,
+      "rank_lower_mod_65519": 2,
+      "source_rank_from_factor_formula": 13
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "delta": 1,
+      "g": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "pairing_rank": 2,
+      "rank_lower_mod_65519": 2,
+      "source_rank_from_factor_formula": 13
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "delta": 1,
+      "g": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "pairing_rank": 3,
+      "rank_lower_mod_65519": 3,
+      "source_rank_from_factor_formula": 14
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "delta": 1,
+      "g": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "pairing_rank": 6,
+      "rank_lower_mod_65519": 6,
+      "source_rank_from_factor_formula": 37
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "delta": 1,
+      "g": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "pairing_rank": 6,
+      "rank_lower_mod_65519": 6,
+      "source_rank_from_factor_formula": 37
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "delta": 1,
+      "g": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "pairing_rank": 8,
+      "rank_lower_mod_65519": 8,
+      "source_rank_from_factor_formula": 39
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "delta": 1,
+      "g": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "pairing_rank": 12,
+      "rank_lower_mod_65519": 12,
+      "source_rank_from_factor_formula": 81
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "delta": 1,
+      "g": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "pairing_rank": 12,
+      "rank_lower_mod_65519": 12,
+      "source_rank_from_factor_formula": 81
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "delta": 1,
+      "g": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "pairing_rank": 15,
+      "rank_lower_mod_65519": 15,
+      "source_rank_from_factor_formula": 84
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "delta": 2,
+      "g": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "pairing_rank": 6,
+      "rank_lower_mod_65519": 6,
+      "source_rank_from_factor_formula": 40
+    }
+  ],
+  "coefficient_models": [
+    {
+      "a": 2,
+      "b": 3,
+      "delta": 1,
+      "nonseparable_pairing": false,
+      "hankel_source_claim": false,
+      "full_coefficient_model_rank": 13,
+      "expected_rank": 13,
+      "factorization_entries_checked": 576
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "delta": 1,
+      "nonseparable_pairing": true,
+      "hankel_source_claim": false,
+      "full_coefficient_model_rank": 14,
+      "expected_rank": 14,
+      "factorization_entries_checked": 576
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "delta": 2,
+      "nonseparable_pairing": false,
+      "hankel_source_claim": false,
+      "full_coefficient_model_rank": 38,
+      "expected_rank": 38,
+      "factorization_entries_checked": 5184
+    }
+  ]
+}

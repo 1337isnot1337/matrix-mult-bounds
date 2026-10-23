@@ -1,0 +1,107 @@
+{
+  "status": "finite controls for written unreviewed distinct-atom lemma; no exponent gain",
+  "controls": [
+    {
+      "a": 2,
+      "b": 3,
+      "case": "common",
+      "source_dimension": 24,
+      "lcm_degree": 2,
+      "kernel_per_copy": 2,
+      "predicted_slice_rank": 12,
+      "modular_rank": 12,
+      "exact_small_rank": 4,
+      "original_entries_checked": 576,
+      "factorization_checked": true
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "case": "one_extra",
+      "source_dimension": 24,
+      "lcm_degree": 3,
+      "kernel_per_copy": 1,
+      "predicted_slice_rank": 15,
+      "modular_rank": 15,
+      "exact_small_rank": 5,
+      "original_entries_checked": 576,
+      "factorization_checked": true
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "case": "generic",
+      "source_dimension": 24,
+      "lcm_degree": 6,
+      "kernel_per_copy": 0,
+      "predicted_slice_rank": 18,
+      "modular_rank": 18,
+      "exact_small_rank": 6,
+      "original_entries_checked": 576,
+      "factorization_checked": true
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "case": "common",
+      "source_dimension": 72,
+      "lcm_degree": 3,
+      "kernel_per_copy": 3,
+      "predicted_slice_rank": 36,
+      "modular_rank": 36,
+      "exact_small_rank": 9,
+      "original_entries_checked": 5184,
+      "factorization_checked": true
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "case": "one_extra",
+      "source_dimension": 72,
+      "lcm_degree": 4,
+      "kernel_per_copy": 2,
+      "predicted_slice_rank": 40,
+      "modular_rank": 40,
+      "exact_small_rank": 10,
+      "original_entries_checked": 5184,
+      "factorization_checked": true
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "case": "generic",
+      "source_dimension": 72,
+      "lcm_degree": 12,
+      "kernel_per_copy": 0,
+      "predicted_slice_rank": 48,
+      "modular_rank": 48,
+      "exact_small_rank": 12,
+      "original_entries_checked": 5184,
+      "factorization_checked": true
+    }
+  ],
+  "sharp_large_control": {
+    "a": 8,
+    "b": 10,
+    "nodes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "u_polynomials": "all1",
+    "v_polynomials": "first eight (z+1)^8*(z+2); last (z+1)^8*(z+3)",
+    "small_factor_modular_rank": 65,
+    "crossed_left_factor_modular_rank": 9,
+    "source_rank_from_proved_factorization": 650,
+    "sharp_gap_attained": true
+  },
+  "a8_b10_crossed_rank9_minimum": 650,
+  "ordinary_candidate_ceiling": 641,
+  "general_counterexample_rank641_retained": true
+}

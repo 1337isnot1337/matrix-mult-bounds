@@ -1,0 +1,33 @@
+{
+  "small_control": {
+    "format": [
+      2,
+      3
+    ],
+    "symbol_sequence": [
+      "0",
+      "x",
+      "0",
+      "1"
+    ],
+    "exact_rational_slice_rank": 12,
+    "symbol_rank": 2,
+    "common_quadratic_annihilator_matrix_rank": 3,
+    "conclusion": "No constant length-two scheme; full-row-rank equality does not imply one.",
+    "scope": "Counterexample to a proposed extension, not to the existing a,b>=3 rank-two theorem."
+  },
+  "frontier_format": {
+    "format": [
+      8,
+      9
+    ],
+    "source_leg_dimension": 1152,
+    "sequence": "f_k=sum(t**k for t=1..a)+x*(a+1)**k; k=0..2a-1",
+    "exact_rational_block_rank": 72,
+    "identical_blocks": 8,
+    "exact_rational_slice_rank": 576,
+    "symbol_rank": 8,
+    "common_degree_a_annihilator_rank": 9,
+    "conclusion": "Equality at full symbol rank does not force a constant length-a scheme."
+  }
+}

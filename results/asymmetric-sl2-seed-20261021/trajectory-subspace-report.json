@@ -1,0 +1,20 @@
+{
+  "status": "numerical only",
+  "input_trajectories": [
+    "unrestricted-warm",
+    "unrestricted-als",
+    "balanced-als",
+    "gauss-newton-preconditioned",
+    "sparse-gauss-newton",
+    "sparse-gauss-newton-restart"
+  ],
+  "basis_dimensions": [
+    6,
+    6,
+    6
+  ],
+  "linear_span_residual_floor": 0.0007759453960904555,
+  "optimized_full_relative_error": 0.001353733367597184,
+  "nfev": 28,
+  "message": "`gtol` termination condition is satisfied."
+}

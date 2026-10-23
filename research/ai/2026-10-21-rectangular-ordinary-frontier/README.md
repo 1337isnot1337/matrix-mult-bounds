@@ -3,7 +3,13 @@
 This finite report applies existing polynomial rank-locus and Hankel
 symbol theorems. It establishes no new general rank theorem or exponent.
 
-Every potentially improving ordinary single matrix target is excluded
+A later [rank-three saturation scan](../2026-10-21-rectangular-direct-sums/single_frontier.md)
+closes the size-eight survivor described below. The subsequent two-ruling
+bound also closes A89 to M30. No improving ordinary single-target shape
+survives across balanced and unbalanced sources through leg dimension1152.
+The general proofs remain written and unreviewed; no maps are constructed.
+
+Under the earlier gates alone, every potentially improving ordinary single matrix target is excluded
 for balanced sources A_a through a=7. At a=8, source leg dimension960,
 the sole sorted survivor of these gates is M(27,28,28), with target leg
 dimensions756,784,756. Its maps are unconstructed. If supplied, the

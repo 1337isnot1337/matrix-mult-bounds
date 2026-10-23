@@ -1,0 +1,13 @@
+{
+  "status": "immutable archived-tree local regression passed",
+  "commit": "c14c058af00526de5964d8c0436ed51591bb549a",
+  "tree": "028b1a5a74c7b1bebf1fb2e0d413a22afcc35ce0",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests",
+  "tests": 667,
+  "seconds": 1311.666,
+  "source": "git archive of the named commit into a separate verification directory",
+  "log_sha256": "8e33bfc3d9b4591a1c3569b2e79363b2ac9973e661542c4379986fd4d37efa26",
+  "scope": "Includes the moving-support construction, but not subsequent scoped-linearity, outer-compression, or main PR69 additions; those have separate focused tests.",
+  "independent_review": false,
+  "improves_omega": false
+}

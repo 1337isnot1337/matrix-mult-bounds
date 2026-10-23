@@ -1,0 +1,38 @@
+{
+  "status": "local regression passed; no mathematical review implied",
+  "command": "python -m unittest discover -s tests",
+  "tests": 626,
+  "seconds": 1208.903,
+  "starting_commit": "9b78ea032791eb910175249e800d5ace183b6ebe",
+  "starting_tree": "4e9ef7b879316958a3598fa861d1c94f1a3506a4",
+  "workspace_caveat": "The workspace integrated later main-branch changes during this run. This is not represented as an immutable-tree run. Newly added tests were run separately.",
+  "log_sha256": "4c0ac27fbf8e766350e36a522564c8e780b0ab116a764409a7cdcb6d339f9aa0",
+  "additional_focused_runs": [
+    {
+      "pattern": "test_rectangular_ruling_two_sums.py",
+      "tests": 4,
+      "seconds": 0.925,
+      "passed": true
+    },
+    {
+      "pattern": "test_mixed_five_space_uniform.py",
+      "tests": 3,
+      "seconds": 77.194,
+      "passed": true
+    },
+    {
+      "pattern": "test_laurent_modular_rejection.py",
+      "tests": 3,
+      "seconds": 0.438,
+      "passed": true
+    },
+    {
+      "pattern": "test_pure_mixed_five_spaces.py",
+      "tests": 4,
+      "seconds": 66.366,
+      "passed": true
+    }
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}

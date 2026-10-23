@@ -1,0 +1,12 @@
+{
+  "status": "immutable archived-tree local regression passed",
+  "commit": "a41c9ee7cc0d81caf0555f0c52d4a29b4b9e7a5d",
+  "tree": "d0766bc225a7a3da783b27a086ab2f35000b7497",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests",
+  "tests": 703,
+  "seconds": 2090.419,
+  "log_sha256": "d7b2b00efe5e22b06231bdcb38d23b5dac79ca621668d4a92c6164dee913f39c",
+  "scope": "Entire archived snapshot, including corrected scope guard and claim ledger, bounded physical-subset frontier and Laurent scale unit tests. Does not certify numerical optimization or general mathematical proofs.",
+  "independent_review": false,
+  "improves_omega": false
+}

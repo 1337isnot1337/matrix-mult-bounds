@@ -1,0 +1,129 @@
+{
+  "status": "bounded physical-subset ordinary ansatz only",
+  "a": 24,
+  "source_leg": 27072,
+  "target": 124,
+  "maximum_summands": 5,
+  "restricted_vertex_count": 190,
+  "counts": {
+    "capacity_triangles": 4,
+    "shared_top_irrep": 1,
+    "invariant_slice": 3
+  },
+  "shared_top_triples": [
+    [
+      [
+        1,
+        35,
+        41,
+        47
+      ],
+      [
+        9,
+        23,
+        45,
+        47
+      ],
+      [
+        17,
+        27,
+        33,
+        47
+      ]
+    ]
+  ],
+  "rejections": [
+    {
+      "vertices": [
+        [
+          1,
+          35,
+          41,
+          47
+        ],
+        [
+          9,
+          23,
+          45,
+          47
+        ],
+        [
+          17,
+          29,
+          33,
+          45
+        ]
+      ],
+      "witness": {
+        "leg": 0,
+        "shared_irrep_dimension": 47,
+        "half_weight": 1,
+        "restricted_rank_lower": 2,
+        "target_rank": 1
+      }
+    },
+    {
+      "vertices": [
+        [
+          1,
+          35,
+          41,
+          47
+        ],
+        [
+          15,
+          17,
+          45,
+          47
+        ],
+        [
+          21,
+          25,
+          33,
+          45
+        ]
+      ],
+      "witness": {
+        "leg": 0,
+        "shared_irrep_dimension": 47,
+        "half_weight": 1,
+        "restricted_rank_lower": 2,
+        "target_rank": 1
+      }
+    },
+    {
+      "vertices": [
+        [
+          1,
+          37,
+          39,
+          47
+        ],
+        [
+          15,
+          17,
+          45,
+          47
+        ],
+        [
+          21,
+          25,
+          33,
+          45
+        ]
+      ],
+      "witness": {
+        "leg": 0,
+        "shared_irrep_dimension": 47,
+        "half_weight": 2,
+        "restricted_rank_lower": 2,
+        "target_rank": 1
+      }
+    }
+  ],
+  "survivors": [],
+  "source_certificate_sha256": "a6c8a642afd90cb9c30058bf8bf83346fef693389928e3e83104486e8697bc3e",
+  "does_not_exclude_general_singular_degenerations": true,
+  "improves_omega": false,
+  "independent_review": false
+}
