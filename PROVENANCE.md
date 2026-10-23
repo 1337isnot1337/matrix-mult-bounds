@@ -1,5 +1,22 @@
 # Attribution and provenance
 
+The `2026-10-23-large-gauged-batches` package is owner-directed OpenAI
+Codex continuation of the credited AlphaTensor factorization and the
+local physical bases below. Numerical mixed-integer searches found
+replacement batches and integer weights; exact rational Laurent replay
+verifies the exported ten- and eleven-split witnesses. The span-contact
+identities and necessary weighted-screen comparison are local work.
+Neither an optimum nor an available cross-component move is claimed.
+
+The `2026-10-23-six-split-mobile-obstruction` package extends the local
+fixed-subset cover certificate by an exact saturation and mobile-plane
+argument. Complete finite-field enumeration, explicit integer-minor
+bounds and rational controls give its acceptance evidence. The external
+factorization and the flip/stabilizer viewpoint retain their prior
+credit. These two packages have same-session exact audits, not independent
+mathematical review. No formalization, new matrix rank bound, historical
+priority, or smaller exponent is claimed.
+
 The `2026-10-23-gauged-splits` package is owner-directed OpenAI Codex
 work using the credited external factorization and the unchanged local
 four-split physical bases. The six selected replacements, complete

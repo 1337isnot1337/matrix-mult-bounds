@@ -14,10 +14,21 @@ test now gives an exact six-split seed with 70 U directions in
 even though a mixed trace prevents common contraction of the unscaled
 arrows. The new component has 47 permanent W directions with an exact
 nine-group rational cover and a matching weighted lower bound in
-`ai/2026-10-23-six-split-grid/README.md`. Mobile component factors,
-simultaneous long-leg conditions, larger split batches and actual maps
-remain under investigation. No maximum split-batch theorem, general
-source-map exclusion, new rank record, or smaller exponent is established.
+`ai/2026-10-23-six-split-grid/README.md`. The follow-up branch
+`research/gauged-batches-20261023` proves in
+`ai/2026-10-23-six-split-mobile-obstruction/README.md` that its mobile
+planes cannot fit any saturated nine-space cover. Do not repeat finite
+flip searches on this six-split seed for that grid. The same follow-up
+exports ten- and eleven-split witnesses in
+`ai/2026-10-23-large-gauged-batches/README.md`, with 66 and 65 U directions.
+The eleven-split seed passes the prior weighted U inequality; the ten-split
+seed has exact cross-component span contacts. Neither fact constructs
+cross-component moves or source maps. Next: actual decomposable factors
+in component flattening images, replacements on other legs, and full
+Laurent replay of useful refactorizations. No maximum split-batch theorem,
+general source-map exclusion, new rank record, or smaller exponent is
+established. The follow-up depends on PR128; accepted certificates there
+remain unchanged.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

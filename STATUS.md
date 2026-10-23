@@ -1,5 +1,27 @@
 # Research status
 
+## Larger split batches pass a new screen and change component geometry
+
+The [larger gauged witnesses](research/ai/2026-10-23-large-gauged-batches/README.md)
+give exact ten- and eleven-split Laurent families, each with 76 surviving
+terms and limit M(4,5,5). They have 66 and 65 distinct U directions and
+283 and 414 positive-degree remainder coefficients, respectively. Full
+replay checks all 10000 constant positions, every nonzero coefficient,
+the exact surviving-plus-discarded identity, and positive valuations of
+all discarded tensors. Product-one factor gauges after epsilon=t^3
+make every discarded factor positive.
+
+The eleven-split witness retains original-U weight 214, below the
+earlier nine-group capacity of 216. Passing this necessary inequality
+does not construct a cover. The ten-split witness has four exact
+one-dimensional intersections between factor spans of distinct initial
+sharing components, so the earlier pairwise separation hypothesis does
+not apply. A span intersection does not establish an available flip or
+refactorization. Claim `AI-EXTERNAL-LARGE-GAUGED-SPLIT-SEEDS-008` is
+written and unreviewed. Both seeds still retain the original W directions
+and fail immediate termwise grid reuse. No maximum batch size, rank
+improvement, complete source map, or smaller exponent is established.
+
 ## Six split deletions escape the unscaled-arrow condition
 
 The [gauged split witness](research/ai/2026-10-23-gauged-splits/README.md)
@@ -20,10 +42,19 @@ groups. Integer weights of total 144 and flat cap 16 prove that nine is
 the exact minimum; full replay checks all 178365 four-subsets. Claim
 `AI-EXTERNAL-SIX-SPLIT-FIXED-COVER-007` is written and unreviewed.
 
-This covers only the permanent subset. The unchanged full W set still
-excludes direct termwise grid reuse. Fitting the mobile factors,
-simultaneous incidence and actual Q(6,4) maps remain construction
-requirements. The rank upper bound and exponent status are unchanged.
+The later [mobile-factor obstruction](research/ai/2026-10-23-six-split-mobile-obstruction/README.md)
+closes the full nine-space cover in this component. The fixed weight
+144 forces each of nine spaces to saturate the weight-16 bound and to
+be a rational four-space spanned by fixed directions. Complete replay
+finds 21649 such spaces. Each meets either of two specified mobile
+planes in at most one fixed line, whereas each mobile block retains a
+two-dimensional W flattening image. Thus no finite standard-flip
+continuation, or separate minimum-term refactorization of its initial
+blocks, fits the specified termwise grid. The argument also permits
+Laurent coefficients, product-one gauges, and common invertible physical
+changes. Claim `AI-EXTERNAL-SIX-SPLIT-MOBILE-009` is written and unreviewed.
+The fixed-subset cover remains valid. New splits, arbitrary singular
+limits and general source maps remain outside this obstruction.
 
 ## Fixed post-split components close two further searches
 
