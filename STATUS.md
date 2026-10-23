@@ -1,11 +1,11 @@
 # Research status
 
-## Sharp geometric rank14 dimension bound outside characteristic two
+## Sharp geometric rank14 dimension bound over every field
 
 The [quadratic determinant package](research/ai/2026-10-23-quadratic-determinant/README.md)
 proves that a geometrically rank-at-most-14 linear family of the complete
-nine-coefficient R_(3,3) block has dimension at most six over every field
-of characteristic other than two. A fixed-factor family attains six.
+nine-coefficient R_(3,3) block has dimension at most six over every field.
+A fixed-factor family attains six.
 The universal integer identity
 `2048 det(R)=det(M) det(2 adj(H)-tr(adj(H)) I)`, with
 `H=M^T J M J` and `J=[[0,0,-2],[0,1,0],[-2,0,0]]`, splits the argument.
@@ -15,16 +15,20 @@ a three-dimensional tangent subspace has a nondegenerate quadratic
 second variation. A seven-dimensional linear family would intersect it
 in a two-dimensional totally isotropic space, which is impossible.
 This local algebra argument includes nonsemisimple matrices and all odd
-characteristics; finite examples are separate corroboration.
+characteristics. In characteristic two, an integral form of the invariant
+factors the literal source determinant as D^2 G, with D=det(M). On the
+hyperplane m11=0 it becomes D^5. An elementary classification of singular
+six-spaces and an explicit full-rank extension exclude a seven-space.
+Finite examples are separate corroboration.
 
 An independent rational proof lifts the prior binary full-rank certificate
 by clearing denominators and removing a common power of two. Its full-rank
 three-space is a Q-point assertion, not a geometric full-rank family.
 Claims `AI-QUADRATIC-DETERMINANT-INVARIANT-001`,
 `AI-RATIONAL-QUADRATIC-LINEAR-CAP-002`, and
-`AI-GEOMETRIC-QUADRATIC-LINEAR-CAP-003` remain written and unreviewed.
-The characteristic-two geometric rank14 bound and geometric equality
-classification remain open. No compatible tensor target or exponent
+`AI-GEOMETRIC-QUADRATIC-LINEAR-CAP-003`, and
+`AI-CHAR2-GEOMETRIC-QUADRATIC-CAP-004` remain written and unreviewed.
+Geometric equality classification remains open. No compatible tensor target or exponent
 improvement follows from these block-subspace results.
 
 ## Sharp dimension-six bounds for quadratic slice families

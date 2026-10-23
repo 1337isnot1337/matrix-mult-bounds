@@ -3,8 +3,8 @@
 October 23, 2026. Owner-directed Codex research, written and unreviewed.
 All checking described here belongs to the generating session; it is
 not independent mathematical review or formalization. The result is a
-polynomial identity for one crossed source block and a reduction of a
-linear-space question. It gives no compatible tensor construction or
+polynomial identity for one crossed source block and a sharp geometric
+linear-space dimension bound over every field. It gives no compatible tensor construction or
 matrix-multiplication exponent improvement.
 
 The literal source and prior distinction between pointwise and geometric
@@ -58,7 +58,9 @@ gives the pointwise criterion
 In characteristic two, J has rank one, so H has rank at most one and
 adj(H)=0. Both sides of the cleared identity (3) then vanish
 identically. This specialization gives no rank criterion; division by
-2048 is not allowed.
+2048 is not allowed. Section 9 instead factors out 2048 in the integer
+polynomial ring before reduction, yielding a useful characteristic-two
+identity.
 
 **Theorem B (linear-space reduction, char K not two).** Let W be a
 K-linear subspace of the nine-dimensional coefficient space. The
@@ -97,13 +99,22 @@ any field of characteristic different from two. If W is a K-linear
 coefficient space with rank R(M)<=14 for every M in W tensor_K Kbar,
 then dim_K W<=6. The bound is sharp. For infinite K the same conclusion
 follows from a rank cap on all K-rational members. Over finite K the
-geometric hypothesis is retained. This theorem does not settle the
-geometric problem over arbitrary fields of characteristic two.
+geometric hypothesis is retained.
 
 The new ingredient is a direct quadratic-expansion argument at an
 invertible coefficient matrix in the degree-twelve locus. It uses no
 classification of that locus, no new external structural theorem, and
 no generic diagonalization in positive characteristic.
+
+**Theorem E (sharp geometric bound in characteristic two).** The
+conclusion of Theorem D also holds over every field of characteristic
+two. Thus the sharp geometric dimension bound is six over every field.
+The proof in Section 9 uses an integral refinement of (3), a
+classification of six-dimensional singular coefficient spaces, and
+an explicit source determinant on a two-parameter affine family. It
+does not assert a classification of all source-rank-fourteen spaces
+attaining dimension six. The finite-field geometric hypothesis remains
+unchanged.
 
 ## 2. Invariance and the exact source representation
 
@@ -573,7 +584,146 @@ is not made. Characteristic two remains outside this local argument:
 the discriminant normalization and polarization both require two to
 be invertible.
 
-## 9. Exact checks and remaining scope
+## 9. Characteristic two: integral refinement and a singular hyperplane
+
+Write the original coefficient matrix, in exactly the basis of (1), as
+
+    M=[[a,b,c],[d,e,f],[g,h,i]],        D=det M.
+
+Define the following integer polynomials of degrees two and four:
+
+    A2=2ai+2cg-bh-df,
+    T4=a^2 i^2-abhi-2acgi+ach^2-adfi+af^2 g
+       +b^2 gi-bcgh+bdfh-befg+c^2 g^2+cd^2 i
+       -cdeh-cdfg+ce^2 g.                              (31)
+
+Direct three-by-three multiplication and adjugate expansion give
+
+    s1=e^2+4A2,       s2=8eD+16T4,       s3=16D^2.
+
+These are integer polynomial equalities, including all signs in (31).
+Put B4=eD+2T4. Substituting into (4), and using
+B4^2-e^2 D^2=4eDT4+4T4^2, gives
+
+    Delta=512(B4^3-e^2 B4 D^2-4A2 B4 D^2+4D^4)
+         =2048 P12,
+    P12=D^4+(eD+2T4)(eDT4+T4^2-A2 D^2).                (32)
+
+Cancellation of 2048 in the integral domain Z[a,...,i], using (3),
+therefore proves det R=D P12 as an integer polynomial identity. This
+cancellation precedes specialization. In characteristic two, (32)
+becomes
+
+    P12=D G9,
+    G9=D^3+e^2 D T4+e T4^2+e A2 D^2,
+    det R=D^2 G9.                                      (33)
+
+In particular, restriction to the original-coordinate hyperplane e=0
+gives the decisive polynomial identity
+
+    det R|_(e=0)=D^5|_(e=0).                           (34)
+
+We next supply the equality case of the coefficient-singular bound
+needed here. Let k be algebraically closed of characteristic two and
+let U be a six-dimensional subspace of Mat_3(k) all of whose members
+are singular. Then U is either the full space of matrices killing a
+fixed nonzero vector or the full space whose images lie in a fixed
+hyperplane.
+
+First, a linear space of matrices of rank at most one has dimension
+at most three. Indeed, choose a nonzero member u0 v0^t. A rank-one
+member u v^t must have u proportional to u0 or v proportional to v0:
+otherwise their sum has rank two, as is seen by choosing bases for the
+two independent left and right pairs. Thus the space is contained in
+the union of the two three-dimensional spaces with fixed left or
+fixed right factor. A linear space contained in the union of two
+linear subspaces lies in one of them: if neither containment held,
+the sum of a vector in each difference would lie in neither. This
+proves the bound.
+
+Consequently U contains a matrix of rank two. Temporarily changing
+the domain and codomain bases of coefficient matrices makes this
+member diag(1,1,0). These arbitrary GL3 changes are used only to
+classify singular coefficient spaces, not as asserted symmetries of
+the source R. For B in U the coefficient of t in det(diag(1,1,0)+tB)
+forces b33=0. Write
+
+    B=[[P,u],[v^t,0]],   P in Mat_2(k),   u,v in k^2.
+
+The remaining determinant coefficients are
+
+    det(diag(1,1,0)+tB)=-t^2 v^t u-t^3 v^t adj(P)u.
+
+Let I be the image of U under B -> (u,v). The quadratic form
+q(u,v)=v^t u vanishes on I. Its polar form
+
+    ((u,v),(u',v')) -> v^t u'+v'^t u
+
+is nondegenerate alternating on k^2 direct_sum k^2. It vanishes
+on I times I, so I is contained in I-perp and dim I<=2. The kernel
+of this projection has dimension at most four, because only P can
+vary there. As dim U=6, both bounds are equalities: dim I=2, and
+the kernel contains every P in Mat_2(k).
+
+For a fixed (u,v) in I, P can therefore vary freely. Singularity of
+every corresponding B gives v^t adj(P)u=0 for every P. The adjugate
+map on two-by-two matrices is a linear bijection, so this forces
+u=0 or v=0. The same union-of-two-subspaces argument makes I one
+of the two coordinate planes. Hence U consists of all matrices with
+last column zero or all matrices with last row zero in the temporary
+bases. Undoing those changes proves the asserted common-kernel or
+common-cokernel description in the original coefficient coordinates.
+
+Now extend the field in Theorem E to its algebraic closure k. If a
+geometrically rank-at-most-fourteen space has dimension at least seven,
+restrict to a seven-dimensional W. All source determinants vanish
+as polynomials on W. If e vanishes identically on W, (34) implies
+D|W=0 in its polynomial coordinate ring, contradicting Section 6.
+Thus e|W is nonzero and
+
+    U=W intersection {e=0}
+
+has dimension six. Equation (34) makes every member of U singular.
+Apply the equality description just proved, now in the original
+monomial coefficient coordinates.
+
+Put eta=(0,1,0)^t, so e(M)=eta^t M eta. If U is the full space
+{M:Mv=0}, its annihilator under the entrywise matrix pairing consists
+of the matrices a v^t with a arbitrary. Because e annihilates U,
+eta eta^t belongs to this annihilator; equality of these nonzero
+rank-one matrices forces v proportional to eta. Thus U is exactly
+the space with middle column zero. For a common-cokernel space the
+same argument gives exactly the space with middle row zero. No
+unrestricted coefficient change of basis is being applied to R here.
+
+Consider the middle-column case. Choose M0 in W with e(M0)=1 and
+write its middle column as (b,1,h)^t. Adding arbitrary members of U
+shows that W contains, for every a,i in k,
+
+    M(a,i)=[[a,b,0],[0,1,0],[0,h,i]].
+
+In characteristic two put x=ai and y=bh. On this family the formulas
+in (31) give D=x, A2=y and T4=x(x+y). Substitution into (33) gives
+
+    G9=x^2(x+y)^2,
+    det R(M(a,i))=(ai)^4(ai+bh)^2.                     (35)
+
+Take a=1 and choose i outside {0,bh}. Such an i exists in the
+algebraically closed field k. Equation (35) is nonzero, a contradiction.
+For the middle-row case transpose these matrices: (1) identifies
+R(M^t), up to row and column permutations, with R(M)^t, so its rank
+is unchanged. This proves the upper bound in Theorem E. The same
+six-dimensional family z(A(x)+z B(x)) supplies sharpness in
+characteristic two, completing the geometric bound over every field.
+
+The choice of i above occurs over k, not necessarily the original
+finite field. For example, when b=h=1 the polynomial in (35) vanishes
+at every pair a,i in F2 but is not the zero polynomial. This is why
+the geometric hypothesis is kept throughout. The equality
+classification used here concerns singular coefficient spaces only;
+it does not classify all source-rank-at-most-fourteen six-spaces.
+
+## 10. Exact checks and remaining scope
 
 The maintained verifier rebuilds all literal matrices with the orders
 in (1), rather than importing an earlier verifier. Its bounded report
@@ -591,12 +741,12 @@ vanishes, directly testing the degree-twelve alternative. A characteristic-two e
 has literal rank fifteen while the cleared identity reads 0=0,
 demonstrating the excluded division step.
 
-The symbolic calculation is limited to the two parity blocks in (11),
-in the three variables A,B,C. It checks their determinants, the two
+The parity-block symbolic calculation in (11) uses the three variables
+A,B,C. It checks the two block determinants, the two
 28-inversion permutation signs, and both invariant normalizations.
 No nine-variable symbolic fifteen-by-fifteen determinant is required.
 The rational literal determinant uses exact Fraction elimination; the
-small invariant matrices use symbolic three-by-three arithmetic. Twelve
+small invariant matrices use symbolic three-by-three arithmetic. Fourteen
 focused tests replay the report and source hashes, check contraction
 coordinates and parity signs, reject a corrupted J normalization,
 guard exact rational elimination, and verify the finite-field and
@@ -609,16 +759,37 @@ its Gram matrix, and a corrupted skew sign is rejected. These bounded
 checks corroborate Section 8 without imposing a diagonalizability
 assumption or replacing its universal algebraic proof.
 
+The characteristic-two extension separately checks (31)--(33) over
+the integers and then coefficientwise modulo two: P12 has 776 integer
+terms and its residue has 174 terms. A corrupted integer sign in T4,
+which would be invisible after reduction modulo two, is rejected. One
+specialized four-variable literal fifteen-by-fifteen determinant is
+also computed, for M=[[a,b,0],[0,1,0],[0,h,i]]. Over the integers it is
+
+    (ai)^4(ai-bh)(2(ai-bh)^2-ai-bh),
+
+whose characteristic-two reduction agrees with (35). This specialized
+symbolic source check is additional to the parity blocks; no general
+nine-variable symbolic source determinant is expanded. Eight fresh
+finite source controls comprise the four F2 points with b=h=e=1,
+and two F4 matrices together with their transposes. Their F4 source
+determinants are 3,3,0,0 in the encoding alpha=2,
+alpha^2+alpha+1=0. These tests explicitly distinguish the F2
+pointwise zero example from polynomial vanishing after extension.
+
 The finite controls corroborate conventions and arithmetic. They do
 not prove the dense-open orbit statement, the universal extension, the
-linear-space reduction, the incidence dimension bound, or Theorem D's
-local quadratic obstruction. Those steps are the written arguments
-above. In particular, the full-suite receipt at commit 5ea78f5 predates
-the addition of Theorem D and is retained as a pre-extension baseline,
+linear-space reduction, the incidence dimension bound, Theorem D's
+local quadratic obstruction, or Theorem E's coefficient-space argument.
+Those steps are the written arguments
+above. In particular, the full-suite snapshot at commit 5ea78f5 predates
+the addition of Theorems D and E and is retained as a pre-extension baseline,
 not reported as validation of the extended proof.
 
 The package does not prove that Delta is irreducible, classify the
-spaces attaining dimension six, or supply a characteristic-two
-replacement for the invariant criterion. The geometric dimension bound
-over arbitrary fields of characteristic two remains unresolved here.
-The earlier binary pointwise bound is a separate, inherited result.
+spaces attaining dimension six, or supply a compatible tensor
+construction or an exponent improvement. The geometric dimension bound
+is proved over every field, with separate arguments in odd and even
+characteristic. The earlier binary pointwise bound remains a separate,
+inherited result; finite-field pointwise conditions are not silently
+identified with the geometric hypothesis.

@@ -113,6 +113,24 @@
       "sha256": "26c08ae2b7b9921dddba46633a8a11a1f0dc312be711f69d9d6f5ff00d91b337",
       "runtime_dependency": false,
       "role": "Same-session algebra audit of the local odd-characteristic argument, not independent review or an external theorem."
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/characteristic-two-cap-proof.md",
+      "sha256": "5f97b7bdf2beb100b345315949988c4dd3e12c804820361829329319a1215ea2",
+      "runtime_dependency": false,
+      "role": "Same-session characteristic-two derivation and bounded scratch arithmetic; not independent review or a runtime dependency."
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/characteristic_two_residue.py",
+      "sha256": "7e873863ca120bbc0bfa20c6d4ab3e2d59c0c7ae4cbb575696f5812070d0e7d2",
+      "runtime_dependency": false,
+      "role": "Same-session characteristic-two derivation and bounded scratch arithmetic; not independent review or a runtime dependency."
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/characteristic-two-residue.json",
+      "sha256": "fa3cf9895004d3953a340bebfabd97f4af9f639079dc65ce655aae83a9b35ad5",
+      "runtime_dependency": false,
+      "role": "Same-session characteristic-two derivation and bounded scratch arithmetic; not independent review or a runtime dependency."
     }
   ],
   "credited_prior_work": [
@@ -126,12 +144,12 @@
       "scope": "The exact seven-point binary full-rank certificate and dimension-intersection argument are credited prior work. This package lifts that compact certificate to an everywhere-full-rank rational three-space and deduces the sharp rational rank14 family cap. Prior geometric conventions and dimension-source pins are also retained."
     }
   ],
-  "local_work": "Explicit universal integer determinant identity via an SL2-by-SL2 dense normal form and three-variable parity-block calculation; polynomial factor alternative for geometrically bounded-rank spaces; classical singular 3x3-space bound rederived by incidence; independent rational lifting of the merged binary full-rank three-space; sharp geometric source-rank14 family dimension-six bound in every odd characteristic from an explicit invertible-gradient and nondegenerate ternary quadratic-expansion argument.",
-  "field_and_hypotheses": "The cleared polynomial identity is over Z and specializes in every characteristic. The invariant rank criterion and sharp geometric source-rank14 dimension-six theorem require characteristic different from two. The local proof is valid in characteristic three as well. Geometric means the cap holds after algebraic closure; an infinite ground-field pointwise cap suffices, but that inference is not made over finite fields. The singular-coefficient-space bound holds geometrically in every characteristic. The separate rational full-rank-three-space proof does not use the invariant identity.",
-  "finite_evidence": "29 exact rational coefficient matrices replaying five named and 24 seed-20261023 scratch inputs; three additional rational full-rank-three-space controls with separate denominator clearing and mod-two normalization; 18 reductions of six integer inputs over F3/F5/F7; one F2 full-rank boundary; symbolic Edwards parity-block determinants of sizes eight and seven. Five local curvature certificates (two over Q, one each over F3/F5/F7) check 45 ordinary directional derivatives and 30 skew-direction second derivatives by independent one-variable determinant expansion; the F5 Gram matrix includes a genuine size-two Jordan block. Twelve focused tests. These bounded controls do not prove the universal geometric theorem. No nine-variable symbolic 15x15 determinant, prior-verifier import, or binary census rerun.",
-  "discovery_boundary": "The two scratch proofs and exact controls were produced in the same generating session. Their hashes record provenance, not independent review. The maintained verifier reconstructs the literal source and checks bounded controls. The universal identity and dimension consequence rely on the written proofs, not sampled agreement.",
+  "local_work": "Explicit universal integer determinant identity via an SL2-by-SL2 dense normal form and three-variable parity-block calculation; polynomial factor alternative for geometrically bounded-rank spaces; classical singular 3x3-space bound rederived by incidence; independent rational lifting of the merged binary full-rank three-space; sharp geometric source-rank14 family dimension-six bound over every field. Odd characteristic uses an invertible-gradient and nondegenerate ternary quadratic expansion. Characteristic two uses the integral refinement det R=D^2 G9, its restriction det R|e=0=D^5, the equality case of six-dimensional singular coefficient spaces, and an explicit affine triangular determinant.",
+  "field_and_hypotheses": "The cleared polynomial identity is over Z and specializes in every characteristic. The original invariant rank criterion requires characteristic different from two. Factoring out 2048 over Z before reduction supplies a separate characteristic-two identity det R=D^2 G9. The sharp geometric source-rank14 dimension-six theorem holds over every field, with separate odd-characteristic and characteristic-two proofs. Geometric means the cap holds after algebraic closure; an infinite ground-field pointwise cap suffices, but that inference is not made over finite fields. The separate rational full-rank-three-space proof does not use the invariant identity.",
+  "finite_evidence": "29 exact rational coefficient matrices replaying five named and 24 seed-20261023 scratch inputs; three additional rational full-rank-three-space controls with denominator clearing and mod-two normalization; 18 reductions of six integer inputs over F3/F5/F7; one F2 full-rank boundary; symbolic Edwards parity blocks of sizes eight and seven. Five curvature certificates (two Q, one each F3/F5/F7) check 45 ordinary derivatives and 30 skew second derivatives by independent one-variable determinant expansion, including a size-two Jordan block over F5. The characteristic-two extension checks the explicit 15-term quartic, integral factorization with 776 integer terms and 174 residue terms, and one specialized four-variable symbolic literal 15x15 triangular determinant; it adds eight literal finite source controls (four F2 points and two F4 matrices with their transposes). Fourteen focused tests. These controls do not replace the universal proofs. No generic nine-variable symbolic 15x15 determinant, prior-verifier import, or binary census rerun.",
+  "discovery_boundary": "All scratch derivations, audits and exact controls were produced in the same generating session. Their hashes record provenance, not independent review. The maintained verifier reconstructs the literal source and checks bounded controls. The universal identity and all-field geometric dimension bound rely on the written proofs, not sampled agreement.",
   "prior_credit": "The orthogonal correspondence and dimension facts retain their external attribution. The singular 3x3-space cap is explicitly a classical special-case rederivation. No historical-priority claim is made for the determinant formula or other invariant theory.",
-  "limitations": "No irreducibility assertion for the degree-twelve factor, equality-case classification, geometric source-rank14 dimension bound over arbitrary characteristic-two fields, characteristic-two replacement for the invariant criterion, compatible tensor construction, degeneration or exponent improvement. No torsion/Mazur or unmerged attainment dependency. Finite pointwise caps are not identified with geometric caps without an infinite-field hypothesis.",
+  "limitations": "No irreducibility assertion for the degree-twelve factor or classification of all source-rank14 spaces attaining dimension six; the equality classification used in characteristic two is only for singular coefficient spaces. No compatible tensor construction, degeneration or exponent improvement. No torsion/Mazur or unmerged attainment dependency. Finite pointwise caps are not identified with geometric caps without an infinite-field hypothesis.",
   "ai_assistance": "Owner-directed Codex research with same-session checking. Written and unreviewed; no independent mathematical review.",
   "independent_review": false,
   "lean_formalized": false,
@@ -139,6 +157,7 @@
   "local_differential_inputs": "No additional external structural theorem is imported. The proof writes out the characteristic-polynomial identity 8det(Q)=tr(Q)tr(adj S), the rank-one adjugate square identity, the gradient G and its zero Gram trace, and the formal quadratic coefficient along skew directions. It uses the exact unit factor Delta_0=det(H_N)^3 det S, not exponent two. Characteristic two is excluded throughout this local argument.",
   "validation_baseline": {
     "commit": "5ea78f5cde23f039d2e9be5ba4990156130d6aed",
-    "scope": "Published draft before Theorem D was added. Its full-suite receipt is retained as a pre-extension baseline, not treated as validation of the extended proof."
-  }
+    "scope": "Published draft before Theorems D and E were added. Its full-suite snapshot is retained as a pre-extension baseline, not treated as a completed validation receipt for the extended proof."
+  },
+  "characteristic_two_inputs": "No additional external structural theorem is imported. The proof writes the integral polynomials A2 and T4, derives Delta=2048P12 before reduction and det R=D^2G9 after reduction, then uses det R|e=0=D^5. The six-dimensional singular coefficient-space equality case is proved by a rank-one-space lemma and a rank-two block projection with nondegenerate alternating polar form. Arbitrary GL3 basis changes are undone before applying the original-coordinate functional e=m11. The resulting affine triangular determinant (ai)^4(ai+bh)^2 is nonzero somewhere over the algebraic closure; this does not assert existence over the finite ground field."
 }

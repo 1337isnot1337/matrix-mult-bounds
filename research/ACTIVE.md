@@ -1,20 +1,22 @@
 # Integrated research coordination
 
 The [quadratic determinant package](ai/2026-10-23-quadratic-determinant/README.md)
-now closes the geometric rank14 dimension bound at six in characteristic
-other than two. The coefficient-singular factor has cap six; an explicit
+now closes the geometric rank14 dimension bound at six over every field. The coefficient-singular factor has cap six; an explicit
 nondegenerate ternary second variation at every invertible zero of the
 other factor excludes a seven-space there. The proof covers nonsemisimple
-matrices and arbitrary odd characteristic. It is written and unreviewed.
+matrices and arbitrary odd characteristic. A separate characteristic-two
+argument factors the integer-normalized determinant and reduces a
+hypothetical seven-space to a forbidden extension of a singular six-space.
+Both arguments are written and unreviewed.
 The independent rational certificate transfer remains useful arithmetic
 evidence, but its three-dimensional full-rank family is only a Q-point
 assertion and must not be promoted to geometric full rank.
 
-Next precise questions: the characteristic-two geometric rank14 cap,
-geometric equality cases of dimension six, or compatible three-leg maps.
-The cleared integer identity and its curvature proof do not settle
-characteristic two. Do not repeat the already closed odd-characteristic
-dimension question or the old binary census. Finite-field pointwise
+Next precise questions: geometric equality cases of dimension six or
+compatible three-leg maps. The characteristic-two proof uses the integral
+factor before reduction; the uncleared identity and the curvature proof
+alone do not apply there. Do not repeat the closed dimension question
+or the old binary census. Finite-field pointwise
 vanishing is weaker than a polynomial minor identity.
 
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
@@ -23,8 +25,7 @@ maximum dimension six, with a seven-matrix intersection certificate. The
 geometric rank12 bound is also six over every field. The complete binary
 extremal census is finite evidence, with an explicit F4 rank escape for
 an exceptional rank14 family. Do not infer geometric bounded rank from
-binary point checks. Next: characteristic-two geometric rank14 families,
-classification of geometric equality cases, or compatible three-leg maps.
+binary point checks. Next: classification of geometric equality cases or compatible three-leg maps.
 The block-subspace bounds are written and unreviewed; no target follows.
 
 The [quadratic torsion package](ai/2026-10-23-quadratic-torsion/README.md)

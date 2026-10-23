@@ -11,7 +11,10 @@ The dimension-six result for singular three-by-three coefficient spaces
 is a local rederivation of a classical bounded-rank fact, with no priority
 claim. A local adjugate and second-variation argument closes the other
 factor in every odd characteristic, without a semisimplicity assumption.
-This is a written, unreviewed proof, not a historical-priority assertion.
+A separate characteristic-two proof uses an integral invariant factor,
+a local rederivation of the classical singular-six-space equality cases,
+and an explicit source determinant. These are written, unreviewed proofs,
+not historical-priority assertions.
 A separate rational
 argument lifts the exact binary certificate from the merged linear-space
 package using denominator clearing and parity; that earlier certificate

@@ -1,6 +1,6 @@
 # The quadratic determinant and sharp geometric dimension bound
 
-Over every field of characteristic different from two, a linear
+Over every field, a linear
 family of the complete quadratic biform block with geometric source
 rank at most fourteen has dimension at most six, and six is attainable.
 The geometric hypothesis means that the rank cap holds after extension
@@ -18,10 +18,12 @@ The [proof](proof.md) fixes the literal source ordering, derives a
 dense three-parameter normal form, and verifies its two symbolic
 parity-block determinants. Polynomiality then extends the identity
 to every coefficient matrix and every characteristic. In characteristic
-two the cleared identity becomes vacuous; the rank criterion requires
-characteristic different from two.
+two the cleared identity becomes vacuous. A separate integral
+factorization before reduction gives the usable identity det R=D^2 G9,
+with D=det M and G9 written explicitly in Section 9.
 
-For a linear family with geometric source rank at most fourteen, one
+In odd characteristic, for a linear family with geometric source rank
+at most fourteen, one
 factor must vanish identically on the whole family: either the cubic
 coefficient determinant or the degree-twelve invariant factor. An
 elementary rederivation of the classical singular-matrix-space bound
@@ -34,6 +36,16 @@ which is impossible. [Theorem D and Section 8](proof.md) prove this
 in every odd characteristic, including three, using formal coefficient
 expansions rather than an analytic argument.
 
+In characteristic two, restriction to the hyperplane m11=0 gives
+det R=(det M)^5. A hypothetical seven-dimensional family would
+therefore contain a six-dimensional singular coefficient space.
+The proof classifies those coefficient spaces and uses the prescribed
+hyperplane to force a zero middle row or column. Adding a seventh
+direction then produces an explicit affine family whose source
+determinant is nonzero somewhere over the algebraic closure.
+[Theorem E and Section 9](proof.md) give this separate argument in
+full, including the integer factorization used before reduction.
+
 Over Q, the package also proves the sharp dimension-six bound for
 source-rank-at-most-fourteen linear families. Three explicit integer
 polynomials span a rational three-space all of whose nonzero members
@@ -42,9 +54,8 @@ two brings each to the merged seven-point binary certificate. Dimension
 intersection then gives the bound, and a fixed-factor six-space attains
 it. This rational result does not require a new binary census.
 
-The geometric dimension bound over arbitrary fields of characteristic
-two remains unresolved here. The package also does not establish
-irreducibility of the degree-twelve factor or classify all spaces
+The package does not establish irreducibility of the degree-twelve
+factor or classify all source-rank-at-most-fourteen spaces
 attaining dimension six. The geometric hypothesis cannot be replaced
 by unexamined finite-field point tests.
 No matrix-multiplication exponent improvement is claimed. The proof is
@@ -65,13 +76,21 @@ independently check 45 ordinary directional derivatives and 30
 skew-direction second derivatives. The F5 example has a nontrivial
 Jordan block, so this control also checks the absence of a
 diagonalizability requirement.
+The characteristic-two extension verifies the explicit 15-term quartic
+and integral factorization, the 776-term integer factor and its
+174-term reduction, and one specialized four-variable literal
+fifteen-by-fifteen determinant. This is the sole symbolic source
+determinant beyond the two parity blocks; no generic nine-variable
+source determinant is computed. Eight fresh finite source controls
+use four F2 points and two F4 matrices with their transposes, making
+the finite-point/geometric distinction explicit.
 These arithmetic controls supplement the written proofs. The full-suite
-receipt at commit 5ea78f5 predates the addition of Theorem D and remains
+snapshot at commit 5ea78f5 predates the addition of Theorems D and E and remains
 a pre-extension baseline, not a validation receipt for the extended
 proof.
 
 From the repository root, with the root requirements installed,
-reproduce the report and twelve focused tests:
+reproduce the report and fourteen focused tests:
 
 ```bash
 python research/ai/2026-10-23-quadratic-determinant/verify.py
@@ -82,6 +101,7 @@ python -m unittest discover -s tests -p 'test_quadratic_determinant.py'
 merged geometric-rank conventions and dimension references, the
 classical orthogonal-group background, and the scratch discovery
 records, including the inherited seven-point certificate used for the
-rational bound. The local quadratic argument imports no additional
-structural theorem. The proof does not depend on torsion, Mazur's
+rational bound. The local quadratic argument and the characteristic-two
+coefficient-space proof import no additional structural theorem.
+The proof does not depend on torsion, Mazur's
 theorem, or an unmerged attainment package.

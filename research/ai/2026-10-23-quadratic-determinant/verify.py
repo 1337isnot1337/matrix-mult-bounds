@@ -1,9 +1,9 @@
 """Bounded exact verification of the universal quadratic determinant identity.
 
-The universal assertion uses the written invariant/normal-form proof. Here the
-15x15 determinant is evaluated numerically over Q or finite fields; symbolic
-determinants are limited to three-variable Edwards blocks of sizes eight and
-seven and the three-by-three invariant matrices.
+The universal assertion uses the written invariant/normal-form proof. Generic
+15x15 determinants are evaluated numerically over Q or finite fields. Symbolic
+calculations use three-variable Edwards blocks of sizes eight and seven,
+three-by-three invariant matrices, and one four-variable triangular 15x15 source.
 """
 import argparse
 from fractions import Fraction
@@ -300,6 +300,106 @@ def curvature_controls():
             curvature_control('F7_diagonal', sp.diag(3, 2, 2), 7)]
 
 
+def degree_four_T(entries):
+    a, b, c, d, e, f, g, h, i = entries
+    return (a*a*i*i - a*b*h*i - 2*a*c*g*i + a*c*h*h - a*d*f*i + a*f*f*g
+            + b*b*g*i - b*c*g*h + b*d*f*h - b*e*f*g + c*c*g*g + c*d*d*i
+            - c*d*e*h - c*d*f*g + c*e*e*g)
+
+
+def characteristic_two_symbolic():
+    entries = sp.symbols('a b c d e f g h i')
+    a, b, c, d, e, f, g, h, i = entries
+    poly = lambda value: sp.Poly(value, *entries, domain=sp.ZZ)
+    matrix = sp.Matrix(3, 3, entries)
+    h_matrix = matrix.T * J * matrix * J
+    d_poly = poly(matrix.det())
+    e_poly = poly(e)
+    a_poly = poly(2*a*i + 2*c*g - b*h - d*f)
+    t_poly = poly(degree_four_T(entries))
+    if poly(sp.trace(h_matrix)) != e_poly**2 + 4*a_poly:
+        raise ArithmeticError('degree-two A identity failed')
+    if poly(sp.trace(h_matrix.adjugate())) != 8*e_poly*d_poly + 16*t_poly:
+        raise ArithmeticError('degree-four T identity failed')
+    if poly(h_matrix.det()) != 16*d_poly**2:
+        raise ArithmeticError('Gram determinant identity failed')
+    q = [[poly(value) for value in row] for row in q_matrix(h_matrix).tolist()]
+    delta = (q[0][0]*(q[1][1]*q[2][2]-q[1][2]*q[2][1])
+             - q[0][1]*(q[1][0]*q[2][2]-q[1][2]*q[2][0])
+             + q[0][2]*(q[1][0]*q[2][1]-q[1][1]*q[2][0]))
+    integral = d_poly**4 + (e_poly*d_poly + 2*t_poly)*(e_poly*d_poly*t_poly + t_poly**2 - a_poly*d_poly**2)
+    if delta != 2048*integral:
+        raise ArithmeticError('integral divided determinant identity failed')
+    g_poly = d_poly**3 + e_poly**2*d_poly*t_poly + e_poly*t_poly**2 + e_poly*a_poly*d_poly**2
+    residue = sp.Poly(integral.as_expr(), *entries, modulus=2)
+    if not sp.Poly((integral - d_poly*g_poly).as_expr(), *entries, modulus=2).is_zero:
+        raise ArithmeticError('characteristic-two D squared G factorization failed')
+    if poly((g_poly-d_poly**3).as_expr().subs(e, 0)) != poly(0):
+        raise ArithmeticError('middle-coefficient-zero determinant identity failed')
+    triangular = [[a, b, 0], [0, 1, 0], [0, h, i]]
+    determinant = sp.Matrix(literal_source(triangular)).det(method='domain-ge')
+    expected = (a*i)**4 * (a*i + b*h)**2
+    if not sp.Poly(determinant-expected, a, b, h, i, modulus=2).is_zero:
+        raise ArithmeticError('literal triangular characteristic-two determinant failed')
+    return {'T': str(t_poly.as_expr()), 'T_term_count': len(t_poly.terms()),
+            'integer_factor_term_count': len(integral.terms()),
+            'reduced_factor_term_count': len(residue.terms()),
+            'integral_identity_verified': True, 'mod_two_factorization_verified': True,
+            'middle_coefficient_zero_verified': True,
+            'triangular_variables': ['a', 'b', 'h', 'i'], 'triangular_source_size': 15,
+            'triangular_integer_determinant': str(sp.factor(determinant)),
+            'triangular_mod_two_determinant': str(expected)}
+
+
+GF4_PRODUCT = ((0, 0, 0, 0), (0, 1, 2, 3), (0, 2, 3, 1), (0, 3, 1, 2))
+
+
+def determinant_gf4(matrix):
+    rows = [list(row) for row in matrix]
+    result = 1
+    for column in range(len(rows)):
+        pivot = next((r for r in range(column, len(rows)) if rows[r][column]), None)
+        if pivot is None:
+            return 0
+        rows[pivot], rows[column] = rows[column], rows[pivot]
+        value = rows[column][column]
+        result = GF4_PRODUCT[result][value]
+        inverse = GF4_PRODUCT[value][value]
+        for row in rows[column + 1:]:
+            factor = GF4_PRODUCT[row[column]][inverse]
+            for j in range(column, len(rows)):
+                row[j] ^= GF4_PRODUCT[factor][rows[column][j]]
+    return result
+
+
+def characteristic_two_field_controls():
+    binary = []
+    for a in (0, 1):
+        for i in (0, 1):
+            matrix = [[a, 1, 0], [0, 1, 0], [0, 1, i]]
+            determinant = determinant_modulo(literal_source(matrix), 2)
+            if determinant != 0:
+                raise ArithmeticError('binary affine boundary unexpectedly has full rank')
+            binary.append({'M': matrix, 'det_R': determinant})
+    extension = []
+    for i in (1, 3):
+        matrix = [[2, 1, 0], [0, 1, 0], [0, 1, i]]
+        x = GF4_PRODUCT[2][i]
+        square_sum = GF4_PRODUCT[x ^ 1][x ^ 1]
+        expected = GF4_PRODUCT[x][square_sum]  # x^4=x in F4.
+        for transpose in (False, True):
+            coefficient = [list(row) for row in zip(*matrix)] if transpose else matrix
+            determinant = determinant_gf4(literal_source(coefficient))
+            if determinant != expected:
+                raise ArithmeticError('F4 literal triangular determinant disagrees with formula')
+            extension.append({'M': coefficient, 'transpose': transpose, 'det_R': determinant,
+                              'predicted_det_R': expected})
+    return {'field_encoding': '0,1,alpha,1+alpha encoded 0,1,2,3; alpha^2=alpha+1',
+            'binary_affine_controls': binary, 'gf4_controls': extension,
+            'scope': 'The four binary controls are an affine slice with b=h=e=1; '
+                     'its scalar extension contains a full-rank source.'}
+
+
 def report():
     cases = rational_cases()
     rational = [rational_control(label, matrix) for label, matrix in cases]
@@ -319,6 +419,8 @@ def report():
             'rational_three_space_basis_masks': list(THREE_SPACE_MASKS),
             'rational_three_space_count': len(three_space), 'rational_three_space_controls': three_space,
             'curvature_certificate_count': len(curvature), 'curvature_certificates': curvature,
+            'characteristic_two_integral': characteristic_two_symbolic(),
+            'characteristic_two_field_controls': characteristic_two_field_controls(),
             'independent_review': False, 'improves_omega': False}
 
 

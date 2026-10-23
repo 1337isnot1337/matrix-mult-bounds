@@ -30,6 +30,12 @@ class QuadraticDeterminantTests(unittest.TestCase):
         self.assertEqual(self.saved['rational_three_space_count'], 3)
         self.assertEqual(self.saved['edwards_symbolic']['block_sizes'], [8, 7])
         self.assertEqual(self.saved['edwards_symbolic']['row_column_permutation_inversions'], [28, 28])
+        integral = self.saved['characteristic_two_integral']
+        self.assertEqual(integral['T_term_count'], 15)
+        self.assertEqual(integral['integer_factor_term_count'], 776)
+        self.assertEqual(integral['reduced_factor_term_count'], 174)
+        self.assertEqual(integral['triangular_variables'], ['a', 'b', 'h', 'i'])
+        self.assertEqual(integral['triangular_source_size'], 15)
         self.assertFalse(self.saved['independent_review'])
         self.assertFalse(self.saved['improves_omega'])
 
@@ -168,6 +174,37 @@ class QuadraticDeterminantTests(unittest.TestCase):
         with patch.object(verify, 'cross_matrix', side_effect=corrupt):
             with self.assertRaisesRegex(ArithmeticError, 'vertical (first derivative|Hessian)'):
                 verify.curvature_control('broken_skew_sign', [[1, 0, 1], [1, 0, -1], [0, 1, 1]], 3)
+
+    def test_integer_T_sign_error_is_detected_before_mod_two_reduction(self):
+        original = verify.degree_four_T
+
+        def corrupt(entries):
+            a, b, _, _, _, _, _, h, i = entries
+            return original(entries) + 2*a*b*h*i  # Flip the sign of -abhi.
+
+        entries = sp.symbols('a b c d e f g h i')
+        self.assertTrue(sp.Poly(corrupt(entries)-original(entries), *entries, modulus=2).is_zero)
+        with patch.object(verify, 'degree_four_T', side_effect=corrupt):
+            with self.assertRaisesRegex(ArithmeticError, 'degree-four T identity'):
+                verify.characteristic_two_symbolic()
+
+    def test_characteristic_two_affine_boundary_over_F4(self):
+        # Check the table independently by polynomial multiplication modulo
+        # alpha^2+alpha+1, including elements outside the prime field.
+        for a in range(4):
+            for b in range(4):
+                product = (a if b & 1 else 0) ^ (a << 1 if b & 2 else 0)
+                if product & 4:
+                    product ^= 7
+                self.assertEqual(verify.GF4_PRODUCT[a][b], product)
+        controls = self.saved['characteristic_two_field_controls']
+        self.assertEqual(len(controls['binary_affine_controls']), 4)
+        self.assertEqual([record['det_R'] for record in controls['binary_affine_controls']], [0, 0, 0, 0])
+        self.assertEqual([record['det_R'] for record in controls['gf4_controls']], [3, 3, 0, 0])
+        self.assertEqual([record['transpose'] for record in controls['gf4_controls']], [False, True, False, True])
+        self.assertEqual(controls['gf4_controls'][0]['M'], [[2, 1, 0], [0, 1, 0], [0, 1, 1]])
+        self.assertEqual(verify.determinant_gf4([[2, 1], [1, 3]]), 0)
+        self.assertEqual(verify.determinant_gf4([[2, 1], [0, 3]]), 1)
 
 
 if __name__ == '__main__':

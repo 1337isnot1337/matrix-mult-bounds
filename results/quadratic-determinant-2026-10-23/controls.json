@@ -2166,6 +2166,200 @@
       ]
     }
   ],
+  "characteristic_two_integral": {
+    "T": "a**2*i**2 - a*b*h*i - 2*a*c*g*i + a*c*h**2 - a*d*f*i + a*f**2*g + b**2*g*i - b*c*g*h + b*d*f*h - b*e*f*g + c**2*g**2 + c*d**2*i - c*d*e*h - c*d*f*g + c*e**2*g",
+    "T_term_count": 15,
+    "integer_factor_term_count": 776,
+    "reduced_factor_term_count": 174,
+    "integral_identity_verified": true,
+    "mod_two_factorization_verified": true,
+    "middle_coefficient_zero_verified": true,
+    "triangular_variables": [
+      "a",
+      "b",
+      "h",
+      "i"
+    ],
+    "triangular_source_size": 15,
+    "triangular_integer_determinant": "a**4*i**4*(a*i - b*h)*(2*a**2*i**2 - 4*a*b*h*i - a*i + 2*b**2*h**2 - b*h)",
+    "triangular_mod_two_determinant": "a**4*i**4*(a*i + b*h)**2"
+  },
+  "characteristic_two_field_controls": {
+    "field_encoding": "0,1,alpha,1+alpha encoded 0,1,2,3; alpha^2=alpha+1",
+    "binary_affine_controls": [
+      {
+        "M": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "det_R": 0
+      },
+      {
+        "M": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "det_R": 0
+      },
+      {
+        "M": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "det_R": 0
+      },
+      {
+        "M": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "det_R": 0
+      }
+    ],
+    "gf4_controls": [
+      {
+        "M": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "transpose": false,
+        "det_R": 3,
+        "predicted_det_R": 3
+      },
+      {
+        "M": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "transpose": true,
+        "det_R": 3,
+        "predicted_det_R": 3
+      },
+      {
+        "M": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "transpose": false,
+        "det_R": 0,
+        "predicted_det_R": 0
+      },
+      {
+        "M": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "transpose": true,
+        "det_R": 0,
+        "predicted_det_R": 0
+      }
+    ],
+    "scope": "The four binary controls are an affine slice with b=h=e=1; its scalar extension contains a full-rank source."
+  },
   "independent_review": false,
   "improves_omega": false
 }
