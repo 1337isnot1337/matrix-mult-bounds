@@ -18,6 +18,23 @@ has rank15, demonstrating the scalar-extension boundary. Claims
 These are block-subspace results, with no compatible tensor maps or
 matrix-multiplication exponent improvement.
 
+## Exact binary quadratic attainment from a degree-zero line bundle
+
+The [torsion criterion](research/ai/2026-10-23-quadratic-torsion/proof.md)
+identifies the balanced one-unit defect, for primitive degree two without
+a fixed ground-field root, with triviality of `O_C(a+1,-a-1)` on the
+associated bidegree-(2,2) curve. This works over every field, including
+reduced singular and doubled curves. Over F2 it gives the exact nonzero
+quadratic-in-z rank set for every a>=3:
+`{a^2,a^2+a,a^2+2a}`, with `a^2+2a-1` added exactly when
+`gcd(a+1,30)>1`. The proof uses a geometric order bound and explicit
+order-two, order-three and order-five witnesses; it does not extrapolate
+finite periodicity. Separate exact controls partition264 triples into16
+projective orbits and compare176 literal source ranks. Claims
+`AI-QUADRATIC-TORSION-CRITERION-001` and `AI-BINARY-QUADRATIC-SPECTRUM-002`
+are written and unreviewed. The binary classification is restricted to
+quadratic-in-z blocks, with no full cyclic-source or exponent result.
+
 ## Rational-root heights restrict the quadratic indices
 
 The [structural sequel](research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)

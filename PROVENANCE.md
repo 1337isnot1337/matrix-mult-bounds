@@ -13,6 +13,21 @@ independent mathematical review, formalization or historical priority.
 No full cyclic-source space classification, target maps or exponent
 improvement is claimed.
 
+The `2026-10-23-quadratic-torsion` package is owner-directed OpenAI Codex
+work. It credits the merged quadratic kernel-index and dichotomy package
+for the exact source formula and four-value containment. The Stacks
+Project retains credit for projective cohomology, Kunneth, flat base
+change, degree theory, Riemann--Roch and the normalization/thickening
+Picard sequences; eight inspected primary HTML snapshots and four local
+dependencies are hashed in the package's sources.json. The local additions
+are the explicit Cech coefficient identification, the boundary-complete
+section criterion, and the all-size F2 attainment argument with three
+exact prime-order witnesses. The verifier reuses pinned literal matrix
+constructors but computes binary ranks with a separate packed-row
+implementation. Same-session proof audits and finite checks do not
+constitute independent mathematical review, formalization, historical
+priority or a matrix-multiplication exponent improvement.
+
 The `2026-10-23-quadratic-kernel-indices` package is owner-directed OpenAI
 Codex work. The literal crossed source and its general kernel-bundle rank
 identity retain their prior repository credit. Grothendieck splitting is

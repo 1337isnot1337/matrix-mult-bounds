@@ -10,6 +10,16 @@ binary point checks. Next: geometric rank14 families over other fields,
 classification of geometric equality cases, or compatible three-leg maps.
 The block-subspace bounds are written and unreviewed; no target follows.
 
+The [quadratic torsion package](ai/2026-10-23-quadratic-torsion/README.md)
+settles balanced quadratic-in-z rank attainment over F2 for every a>=3:
+the one-unit defect occurs iff gcd(a+1,30)>1. Its all-field criterion
+uses the specific line bundle O_C(1,-1) and includes singular boundaries.
+Do not repeat the unchanged a6/a10 negative census or infer another
+field's order bound from this binary result. Next: constrain linear
+families using the torsion condition, determine attainment over other
+fields, or impose compatible three-leg maps. One-slice classification
+supplies no matrix target. Both new claims remain written and unreviewed.
+
 The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)
 determines individual slice ranks through two polynomial-kernel indices,
 whose sum is aD and whose first nonzero-kernel degree is computable by a
