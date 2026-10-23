@@ -82,7 +82,7 @@ termwise matches converge to distinct members of the displayed target
 interpolation factor set. It rules out eight or more such matches, improving
 the earlier all-ten quadratic test for this one route.
 
-It does not rule out `C(4,10) \u21e2 T4`. In particular, it says nothing about
+It does not rule out a degeneration `C(4,10) -> T4`. In particular, it says nothing about
 different border-rank decompositions of `T4`, collisions, coefficients that
 cancel between terms, non-termwise limits, or general Laurent-polynomial
 changes on all three legs. It supplies no premise for the unbounded
