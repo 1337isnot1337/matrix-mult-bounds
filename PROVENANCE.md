@@ -899,3 +899,15 @@ The prior finite split-cover note supplies its finite matrix slice-rank
 reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
+
+## Pure conic fiber and third-order classification
+
+The exact c=d=0 polynomial curves certified in
+`research/ai/2026-10-23-conic-pure-criterion/` are a specialization of
+PR101's exported maps, with that credit retained. This owner-directed
+Codex continuation verifies their complete polynomial contraction, then
+combines them with the credited mixed PR107 family and PR101 linear
+components to classify third-order normal-class existence. The literal
+source implementation and all imported statements are pinned. No new
+external theorem, independently invented curve, independent mathematical
+review, formalization or exponent improvement is claimed.

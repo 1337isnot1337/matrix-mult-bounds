@@ -1,0 +1,23 @@
+{
+  "local": [
+    {
+      "commit": "752d51d1b85dff188e012db02fa44249ab52458a",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/107",
+      "use": "Mixed-component three-jets and independently implemented literal-source contraction; PR101 retains credit for the source, pure base and polynomial two-jet."
+    },
+    {
+      "commit": "539b539dc4eac09114899fd76472aee2d78d9f62",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/101",
+      "use": "Complete second-order normal-class criterion, exact linear components and the polynomial family whose d=0 specialization is certified here."
+    }
+  ],
+  "external": [],
+  "sha256": {
+    "research/ai/2026-10-23-conic-third-jets/verify.py": "5a58e1772697a87965cb66aa3bea941a614d1731119d4a33950a1ba2127a8b40",
+    "research/ai/2026-10-23-conic-third-jets/verify_symbolic.py": "0b0648b8d3eaf51d750f45f4634bf0f28164902a1152158c56ca7db2a052989b",
+    "results/conic-second-jets-2026-10-21/witnesses.json.gz": "c6e529e01f0d0f6363642e6baf03ce178188215269009e3d1e0fb5f54a163a67"
+  },
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

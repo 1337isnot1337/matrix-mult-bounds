@@ -1,5 +1,19 @@
 # Research status
 
+## Exact pure-fiber curves and the complete third-order criterion
+
+The [pure-fiber proof](research/ai/2026-10-23-conic-pure-criterion/proof.md)
+certifies PR101's d=0, c=0 specialization as an exact polynomial
+rank-twelve incidence curve for every complex a,b, with map degrees at
+most two and one. All coefficients on the fixed 100-dimensional source
+kernel vanish; the leading minors are1,1,-1. Together with the mixed
+three-jets and earlier exact linear components, this makes the complete
+order-three projective normal-class existence criterion identical to
+the order-two criterion: `(a-c)*(b+c)*(c*lambda^3+mu^3)=0`.
+Claims `AI-CONIC-PURE-CURVE-003` and `AI-CONIC-THIRD-CRITERION-004` are
+written and unreviewed. Mixed fourth-order/all-order lifting and the
+full matrix target remain open. No smaller exponent is established.
+
 ## Third-order lifts on the mixed cubic conic component
 
 The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)
@@ -12,8 +26,9 @@ leading minor determinants1,1,-1 give map row ranks14 and first-source
 rank12 throughout this chart. An earlier explicit rational point also
 has a separate standard-library replay. Claims
 `AI-CONIC-RATIONAL-THIRD-JET-001` and `AI-CONIC-MIXED-THIRD-JET-002`
-are written and unreviewed. The d=0 cubic fiber, fourth-order
-compatibility, an all-order lift and the full matrix target remain open.
+are written and unreviewed. The separate pure-fiber proof above addresses
+d=0. Mixed fourth-order compatibility, an all-order mixed lift and the
+full matrix target remain open.
 No smaller exponent is established.
 
 ## Finite covers close the selected nonsplit coordinate targets

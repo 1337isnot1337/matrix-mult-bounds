@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The pure-fiber continuation on `research/conic-pure-criterion-20261023`
+studies `ai/2026-10-23-conic-pure-criterion/QUESTION.md`, depending on
+mixed-component PR107 at `752d51d`. It certifies an exact polynomial
+curve on c=d=0 for every a,b. Combining that pure fiber with the mixed
+family and old linear components gives the complete third-order
+normal-class criterion, identical to the order-two criterion. Next:
+mixed fourth-order compatibility and a possible all-order mixed lift.
+The 14-row incidence remains distinct from the full matrix target.
+
 The October23 continuation on `research/conic-third-order-20261023`
 studies `ai/2026-10-23-conic-third-jets/QUESTION.md`, following merged
 PR101 at `539b539` and integrating nonsplit main `dcd209a`. It supplies
@@ -7,8 +16,9 @@ an explicit rational third-order family for all complex a,b,d with
 d nonzero and c=-d^3, with the credited first jet and changed second
 coefficient. Independent original-source symbolic replay checks all
 three orders and constant unit leading minors; a separate rational
-point passes standard-library replay. Next: the d=0 cubic fiber and
-fourth-order compatibility allowing lower-jet freedoms. This is local
+point passes standard-library replay. The pure-fiber continuation now
+addresses d=0; next is mixed fourth-order compatibility allowing
+lower-jet freedoms. This is local
 rank-twelve incidence; no all-order lift or matrix-target construction
 follows.
 
