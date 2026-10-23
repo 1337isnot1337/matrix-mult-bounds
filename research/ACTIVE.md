@@ -1,5 +1,9 @@
 # Integrated research coordination
 
+
+The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including non-square a<=b. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established.
+
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

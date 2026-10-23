@@ -1,5 +1,9 @@
 # Attribution and provenance
 
+
+The 2026-10-23 affine-z biform coefficient-rank package is owner-directed AI-assisted research. The literal cyclic-source coefficient convention and the previous general complex biform rank gap retain credit to the exact main source identified in sources.json. The all-characteristic polynomial-syzygy parametrization, exact rank spectrum, and standard-library literal-matrix finite acceptance are local additions. PR171 (binomial), PR186 (arbitrary-biform gap) and PR207 (diagonal Toeplitz) were inspected and are not imported. Same-session computation and proof do not constitute independent mathematical review or formalization; no linear-space bound, target degeneration, historical priority or exponent improvement is claimed.
+
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
