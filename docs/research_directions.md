@@ -390,6 +390,18 @@ must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
 
 
+## Two regular maps: rank-budget gate
+
+The [regular-leg frontier](../research/ai/2026-10-23-regular-leg-frontier/proof.md)
+forces the two regular long A4 maps to have limiting ranks summing to at
+most192. A search with both long maps regular must enter that rank region;
+increasing the remaining Laurent pole order cannot evade the bound. With
+one regular short and one regular long map, the sixteen high-total-rank
+survivors are (100,100..107) and (90..97,110). They pass necessary tests
+only. Individual scalar balancing extends the long-pair budget to every
+Laurent presentation. Smaller rank pairs and exact target construction
+remain open. This gate does not choose or assume a regular target unit.
+
 ## Nonsplit finite cube degree-model checkpoint
 
 The [October 23 vector-degree continuation](../research/ai/2026-10-23-nonsplit-vector-covers/README.md)
@@ -399,3 +411,25 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+
+## Coordinate leading-kernel gate
+
+The [complete matching certificate](../research/ai/2026-10-23-coordinate-kernel-cap/proof.md)
+closes the sixteen mixed high-total-rank pairs from the standalone
+regular-leg screen if both regular constant kernels are coordinate in
+the canonical source bases. Any such pair must have rank sum at most192,
+even with arbitrary later mixing and Laurent poles on the third map.
+Search lower leading ranks or noncoordinate leading kernels; repeating
+higher jets in the closed coordinate charts cannot evade this gate.
+
+
+## Dense balanced leading-rank gate
+
+The [simple source-torus transfer](../research/ai/2026-10-23-coordinate-kernel-cap/torus_reduction.md)
+removes the coordinate hypothesis from the preceding high-rank pair gate.
+Every pair of individually balanced leading target-leg ranks sums to at
+most192. At short leading rank100, both long leading ranks are at most92.
+Search lower rank triples; arbitrary complex mixing of leading kernels
+does not reopen the sixteen closed high-rank mixed pairs. The matrix
+target and exponent goal remain open, and the proof is unreviewed.
