@@ -1,5 +1,19 @@
 # Attribution and provenance
 
+The `2026-10-23-conjugation-limit` package is owner-directed OpenAI
+Codex work. Earlier cyclic-source and fixed-resolvent packages retain
+credit for the literal A4 tensor, its unimodular unit and the square-zero
+rank-sixteen slice. The new calculation conjugates all 112 source
+slices on both sides. Its complete limiting space, twelve-dimensional
+scalar-action subspace, compression rank-loss requirement and full
+principal coordinate-compression census are local continuations.
+The acceptance program reconstructs the source and polynomial identities
+without importing the discovery implementation. Its modular ranks are
+used only as lower bounds for complex dimension. Root and subagent
+checks belong to one generating session and are not independent
+mathematical review or formalization. No target, historical priority
+or exponent improvement is claimed.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

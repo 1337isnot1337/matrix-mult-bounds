@@ -1,5 +1,20 @@
 # Research directions
 
+## Full-source singular maps: the compression rank-loss condition
+
+The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)
+computes the complete limiting space for `g=I+t^-1 N`, with the fixed
+rank-sixteen square-zero source slice N. A full matrix target can occur
+after constant long-leg compression only on the locus
+`dim(P L C)<=103`, where at least nine leading directions disappear.
+All principal two-coordinate deletions are excluded by a complete exact
+census. Do not repeat that finite class. The next constructive question
+is whether an arbitrary compression on this rank-loss locus can recover
+the full matrix slice space after re-saturation, or whether a different
+singular path avoids the scalar-action obstruction. A candidate must
+supply every target coefficient; a large limiting-space dimension alone
+does not identify matrix multiplication.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

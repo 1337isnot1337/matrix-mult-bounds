@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)
+now has a complete limiting-space certificate and a written necessary
+condition: arbitrary constant 110-coordinate compressions must lose
+at least nine leading directions to permit `M(10,10,11)`. Every one
+of the 6,216 principal coordinate deletions loses at most four, so that
+finite class is closed. Keep the projected leading space distinct from
+the full re-saturated limit; the proof explicitly bounds newly recovered
+directions. The remaining question in this family is the locus
+`dim(P L C)<=103`. Moving compressions and genuinely different singular
+paths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and
+`AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full
+target or exponent improvement is established.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

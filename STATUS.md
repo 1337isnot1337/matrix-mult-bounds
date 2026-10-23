@@ -1,5 +1,29 @@
 # Research status
 
+## Two-sided singular A4 maps require at least nine lost leading directions
+
+The [full-source conjugation package](research/ai/2026-10-23-conjugation-limit/proof.md)
+studies every normalized A4 slice under conjugation by `I+t^-1 N`, for
+the specified square-zero source slice N of rank 16. Its complete
+112-dimensional saturated limit acts by scalars on a fixed
+12-dimensional space. After arbitrary constant compression to 110
+coordinates on each long leg, a full `M(10,10,11)` target requires at
+least nine lost leading slice directions: `dim(P L C)<=103`.
+The proof allows every Laurent first map and accounts for directions
+that reappear after compression; it does not replace re-saturation
+with the projected leading space.
+
+Exact replay rebuilds the literal source, its unimodular normalization,
+all polynomial-combination coefficients, 112 independent leading
+matrices and the 12 scalar-action columns. All 6,216 principal
+coordinate compressions have projected rank at least 108 modulo 1009,
+hence dimension at least 108 over C. They lose at most four leading
+directions and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`
+and `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.
+The arbitrary constant-compression locus of dimension at most 103,
+moving compressions and other singular paths remain open. This is a
+scoped obstruction; it supplies no target or exponent improvement.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
