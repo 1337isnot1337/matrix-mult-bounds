@@ -1,5 +1,7 @@
 # Research directions
 
+The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
