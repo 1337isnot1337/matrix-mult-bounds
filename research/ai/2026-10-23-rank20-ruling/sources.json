@@ -1,0 +1,32 @@
+{
+  "base_commit": "fc0a139ef447a4d8640f0fdf1781836ea7fa868a",
+  "field": "C",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-23-singular-long-ruling/proof.md",
+      "sha256": "5524ac796416ccd1485d6002d5e17f6f143974e1206284c5272a0f51b0b6cde5"
+    },
+    {
+      "path": "research/ai/2026-10-23-singular-long-ruling/verify.py",
+      "sha256": "5d697949ff5eac0c8e6793d6532cd914e373dc49d6077e786292587647f1041d"
+    }
+  ],
+  "external_dependency": {
+    "author": "A. Grothendieck",
+    "version": "Sur la classification des fibres holomorphes sur la sphere de Riemann, American Journal of Mathematics79(1),1957,121-138",
+    "theorem": "2.1, printed page126",
+    "doi": "10.2307/2372388",
+    "primary_url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
+    "hypotheses_and_use": "Holomorphic vector bundles on P1(C) split into line bundles. Adopted through the prior exact coefficient-map kernel splitting formula; not asserted over an arbitrary field."
+  },
+  "parent_pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/125",
+  "attribution": "Owner-directed OpenAI Codex continuation. Prior source rank formula, fixed coherent factor and shared-correction ruling argument retain their original credit. Rank20 factor classification, generic-pencil common-divisor lemma, sharp dimension-eight bound and singular rank105 application are local written unreviewed extensions."
+}
