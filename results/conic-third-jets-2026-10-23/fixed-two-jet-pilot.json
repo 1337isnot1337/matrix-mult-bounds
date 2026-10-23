@@ -1,0 +1,45 @@
+{
+  "status": "discovery-only",
+  "parameters": {
+    "a": "1",
+    "b": "2",
+    "d": "1"
+  },
+  "second_coefficient": "fixed exported PR101 two-jet",
+  "sectors": [
+    {
+      "middle": 0,
+      "unknowns": 1176,
+      "unit_pivots": 392,
+      "nonzero_reduced_rhs": [],
+      "soluble": true
+    },
+    {
+      "middle": 1,
+      "unknowns": 784,
+      "unit_pivots": 221,
+      "nonzero_reduced_rhs": [],
+      "soluble": true
+    },
+    {
+      "middle": 2,
+      "unknowns": 784,
+      "unit_pivots": 221,
+      "nonzero_reduced_rhs": [
+        "-12",
+        "-16",
+        "-20",
+        "-4",
+        "-8",
+        "12",
+        "16",
+        "36",
+        "4",
+        "8"
+      ],
+      "soluble": false
+    }
+  ],
+  "third_lift_exists": false,
+  "exponent_improvement": false
+}
