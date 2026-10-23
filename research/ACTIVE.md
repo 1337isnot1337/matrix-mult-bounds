@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The paired-long-leg continuation studies
+`ai/2026-10-23-paired-long-legs/QUESTION.md`, in the isolated worktree
+`/tmp/matrix-paired-other-legs-20261023`, branch
+`research/paired-other-legs-20261023`. It asks for the two long-leg Koszul
+ranks, beyond the maintained short-leg formula, and whether they exclude
+any of the 28 short-leg survivors through a16. Modular source ranks will
+be treated as lower bounds, not complex source upper bounds. This is
+separate from active singular-unit, group-source and boundary work.
+
 The affine-conic continuation studies
 `ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module
 has dimension70:68 independent boundary fields and two conic normals.
