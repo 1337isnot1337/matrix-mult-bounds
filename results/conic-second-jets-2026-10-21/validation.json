@@ -1,0 +1,105 @@
+{
+  "head": "db312b03197d36096808c3b3806b5ac8efbdb88a",
+  "tree": "a31c6e22ebf777923c7f02d800fa1749152ec53f",
+  "python": "3.12.3",
+  "records": [
+    {
+      "name": "group-0",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 437.7144274772145,
+      "log_sha256": "140066c9b93efa25908ff2c31a9694f0adc6b112e235ded8b3a09ff4a661da5c"
+    },
+    {
+      "name": "group-1",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 261.34023649198934,
+      "log_sha256": "bc8c756969afd19da91f90105e54a388b3ec85bd390f56f4c846a9600f0c8de6"
+    },
+    {
+      "name": "group-2",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 342.73622270394117,
+      "log_sha256": "12c8fafc788aa6bcb8e90ce454fa3d371e2bdf1dcc17604b3b569fd2af58274f"
+    },
+    {
+      "name": "group-3",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 461.9206598890014,
+      "log_sha256": "5fbae5fc88247a646c5cde99f5bcbbe823908697fb328b86aef7925d6a02c350"
+    },
+    {
+      "name": "archive-replay",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/replay.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 18.29202569508925,
+      "log_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  ],
+  "end_head": "db312b03197d36096808c3b3806b5ac8efbdb88a",
+  "end_tree": "a31c6e22ebf777923c7f02d800fa1749152ec53f",
+  "scope": "Full regression and archive replay at the recorded exact head; incoming main d833eb0 separately checked. Hosted CI must check the final combined head.",
+  "test_counts": [
+    218,
+    223,
+    194,
+    205
+  ],
+  "optional_skips": [
+    0,
+    2,
+    1,
+    0
+  ],
+  "total_tests": 840,
+  "passed_tests": 837,
+  "archive_replays": 5,
+  "integration_head": "11f47ab3a85c42ba3a01c826b02f3e4ecec66104",
+  "integrated_main": "d833eb0265a3e107636e8a0678c14fc07df812c2",
+  "incoming_checks": {
+    "tests": 5,
+    "metadata": 18,
+    "all_passed": true
+  },
+  "unchanged_paths_after_integration": [
+    "research/ai/2026-10-21-conic-second-jets/",
+    "tests/test_conic_second_jets.py",
+    "requirements.txt",
+    "research/ai/2026-10-20/",
+    "research/ai/2026-10-20-session2/"
+  ]
+}

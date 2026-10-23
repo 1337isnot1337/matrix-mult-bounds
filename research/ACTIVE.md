@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The affine-conic continuation studies
+`ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module
+has dimension70:68 independent boundary fields and two conic normals.
+The full second-order criterion for a nonzero normal class is
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity
+and moving source kernel. A polynomial two-jet on c=-d^3 is exported;
+its uncorrected third coefficient is nonzero. Next: actual higher-order
+lifting on that cubic component, with the14-row local incidence kept
+distinct from the full matrix target. Other base charts and the12-by8
+case remain open. Written, unreviewed, no smaller exponent.
+
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
 boundary obstruction ranks at most two force both complete matrices to
