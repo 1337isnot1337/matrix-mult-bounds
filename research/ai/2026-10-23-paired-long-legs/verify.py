@@ -5,6 +5,7 @@ from itertools import combinations
 from math import comb
 import argparse
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
 
@@ -12,6 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 FRONTIER = ROOT / "results/paired-sources-2026-10-20/all-power-frontier.json"
 FRONTIER_SHA256 = "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54"
+ALL_RANKS = ROOT / "research/ai/2026-10-20-paired-sources/all_ranks.py"
+ALL_RANKS_SHA256 = "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
 
 
 def multiply_polynomials(left, right):
@@ -107,6 +110,80 @@ def verify_saved_frontier():
         "survivors_by_a": by_a,
         "forced_short_leg_strict": strict_short_leg,
         "square_outer_equalities": square_outer,
+    }
+
+
+def support_low_count(a, p):
+    """Count p-wedges using at most a-1 interpolation blocks."""
+    if a < 2 or p < 0:
+        raise ValueError("invalid a or exterior degree")
+    m = 2 * a - 1
+    counts = [[0] * (p + 1) for _ in range(a)]
+    counts[0][0] = 1
+    for _ in range(m):
+        following = [[0] * (p + 1) for _ in range(a)]
+        for support in range(a):
+            for degree, value in enumerate(counts[support]):
+                if not value:
+                    continue
+                following[support][degree] += value
+                if support + 1 == a:
+                    continue
+                for occupancy in range(1, min(a, p - degree) + 1):
+                    following[support + 1][degree + occupancy] += (
+                        value * comb(a, occupancy)
+                    )
+        counts = following
+    return sum(counts[support][p] for support in range(a))
+
+
+def verify_support_dominance():
+    """Compare the all-size support rank floor at p=a+1 to saved targets."""
+    digest = hashlib.sha256(ALL_RANKS.read_bytes()).hexdigest()
+    if digest != ALL_RANKS_SHA256:
+        raise AssertionError(f"matrix-rank source SHA-256 changed: {digest}")
+    spec = importlib.util.spec_from_file_location("paired_source_all_ranks", ALL_RANKS)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+
+    data = json.loads(FRONTIER.read_text())
+    records = []
+    for record in data["records"]:
+        a = record["a"]
+        if a < 14:
+            continue
+        n = a * (2 * a - 1)
+        p = a + 1
+        source_floor = a * a * support_low_count(a, p)
+        b_not_larger = []
+        c_not_larger = []
+        for item in record["remaining_after_this_screen"]:
+            l, b, r = item["shape"]
+            # Cyclically reorient the selected long target leg as the
+            # first matrix leg before padding it to the source dimension.
+            target_b = module.padded_matrix_rank((l, r, b), n, p)
+            target_c = module.padded_matrix_rank((b, l, r), n, p)
+            if target_b <= source_floor:
+                b_not_larger.append(item["shape"])
+            if target_c <= source_floor:
+                c_not_larger.append(item["shape"])
+        records.append({
+            "a": a,
+            "p": p,
+            "survivors": len(record["remaining_after_this_screen"]),
+            "source_rank_floor": source_floor,
+            "source_domain": a * a * comb(n, p),
+            "target_b_rank_not_larger": b_not_larger,
+            "target_c_rank_not_larger": c_not_larger,
+        })
+    if sum(item["survivors"] for item in records) != 28:
+        raise AssertionError("support comparison did not cover all 28 survivors")
+    return {
+        "method": "all-size interpolation-block support rank floor",
+        "target_rank_formula": "padded matrix Koszul ranks from pinned all_ranks.py",
+        "target_rank_source_sha256": ALL_RANKS_SHA256,
+        "records": records,
+        "improves_omega": False,
     }
 
 
@@ -224,6 +301,7 @@ def verify(maximum_a=6, rank_controls=False):
         "status": "finite exact controls only; the all-size proof is in long_leg_low_degrees.md",
         "interpolation": [verify_interpolation(a) for a in range(2, maximum_a + 1)],
         "saved_frontier": verify_saved_frontier(),
+        "support_dominance_p_a_plus_1": verify_support_dominance(),
         "improves_omega": False,
     }
     if rank_controls:
@@ -274,6 +352,9 @@ if __name__ == "__main__":
                 "mod2_rank_controls": len(report["rank_controls"]),
                 "higher_degree_pilots": len(report["higher_degree_pilots"]),
                 "saved_survivors": report["saved_frontier"]["survivors"],
+                "p_a_plus_1_comparisons": len(
+                    report["support_dominance_p_a_plus_1"]["records"]
+                ),
                 "improves_omega": False,
             },
             sort_keys=True,

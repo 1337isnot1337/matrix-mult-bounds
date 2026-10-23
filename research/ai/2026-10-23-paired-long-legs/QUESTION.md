@@ -23,15 +23,23 @@ will not be promoted to a complex obstruction.
 
 The analytic proof now reaches the first support threshold, `p=a`, using a
 full-spark interpolation basis and a two-block compatibility argument. The
-degrees `p>=a+1` remain the main question. No claim of a smaller exponent is
-made.
+same basis gives an all-degree rank floor by forcing kernel coordinates to
+use at least `a` blocks. At `p=a+1` this floor dominates some saved
+matrix-target ranks, but no `b*r`-leg comparison passes. Exact ranks or a
+stronger bound for `p>=a+1` remain the main question. No claim of a smaller
+exponent is made.
 
 ## Checkpoint: through `p=a`
 
 The [proof through the support threshold](long_leg_low_degrees.md) establishes
 full column rank on both long legs for `0<=p<=a`. This range cannot exclude
 any of the 28 saved targets through `a=16`: their target ranks are bounded
-by the same source-domain dimensions. Continue with `p>=a+1`.
+by the same source-domain dimensions. For every `p`, a separate support
+argument proves `rank K_p >= a^2 L_(a,p)`, where `L_(a,p)` counts wedges
+supported on at most `a-1` interpolation blocks. At `p=a+1`, its exact
+comparison closes the `l*b`-leg rank test for four `a=15` and six `a=16`
+survivors, while all `b*r`-leg cases remain open. Next, strengthen the
+all-degree rank floor or determine the `p=a+1` source rank.
 
 Finite first-higher-degree controls show a real distinction by size: the
 original coefficient matrix has rational rank `70<80` for `(a,p)=(2,3)`,

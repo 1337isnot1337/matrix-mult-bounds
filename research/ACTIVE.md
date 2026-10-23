@@ -4,10 +4,12 @@ The paired-long-leg continuation is on
 `research/paired-long-legs-20261023`. Its written, unreviewed result proves
 both long-leg Koszul maps injective for `0<=p<=a`, by exact interpolation,
 the full-spark evaluation basis, and a two-block compatibility argument at
-`p=a`. The 28 saved single-matrix survivors therefore are not excluded in
-that range. Degrees `p>=a+1` remain the selected question. Modular source
-ranks are lower bounds, not complex source upper bounds. This is separate
-from active singular-unit, group-source and boundary work.
+`p=a`. At every degree the same proof gives a rank floor from wedges using
+at most `a-1` interpolation blocks. At `p=a+1`, it dominates the target
+`l*b`-leg rank for four `a=15` and six `a=16` survivors, but none of the
+`b*r`-leg ranks; all higher degrees remain open. Modular source ranks are
+lower bounds, not complex source upper bounds. This is separate from active
+singular-unit, group-source and boundary work.
 
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate

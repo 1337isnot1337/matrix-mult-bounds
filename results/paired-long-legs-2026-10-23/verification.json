@@ -112,5 +112,92 @@
       "16": 12
     }
   },
-  "status": "finite exact controls only; the all-size proof is in long_leg_low_degrees.md"
+  "status": "finite exact controls only; the all-size proof is in long_leg_low_degrees.md",
+  "support_dominance_p_a_plus_1": {
+    "improves_omega": false,
+    "method": "all-size interpolation-block support rank floor",
+    "records": [
+      {
+        "a": 14,
+        "p": 15,
+        "source_domain": 51990418471507579613861438400,
+        "source_rank_floor": 47484931398097292686425908160,
+        "survivors": 5,
+        "target_b_rank_not_larger": [],
+        "target_c_rank_not_larger": []
+      },
+      {
+        "a": 15,
+        "p": 16,
+        "source_domain": 13370166211817120086320541599375,
+        "source_rank_floor": 12467506451483906604417465427500,
+        "survivors": 11,
+        "target_b_rank_not_larger": [
+          [
+            12,
+            21,
+            17
+          ],
+          [
+            13,
+            22,
+            15
+          ],
+          [
+            13,
+            21,
+            16
+          ],
+          [
+            14,
+            22,
+            14
+          ]
+        ],
+        "target_c_rank_not_larger": []
+      },
+      {
+        "a": 16,
+        "p": 17,
+        "source_domain": 3630248572231218504818023600988160,
+        "source_rank_floor": 3439900633910001756747468981903360,
+        "survivors": 12,
+        "target_b_rank_not_larger": [
+          [
+            13,
+            23,
+            17
+          ],
+          [
+            13,
+            22,
+            18
+          ],
+          [
+            14,
+            23,
+            16
+          ],
+          [
+            14,
+            22,
+            17
+          ],
+          [
+            15,
+            23,
+            15
+          ],
+          [
+            15,
+            22,
+            16
+          ]
+        ],
+        "target_c_rank_not_larger": []
+      }
+    ],
+    "target_rank_formula": "padded matrix Koszul ranks from pinned all_ranks.py",
+    "target_rank_source_sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
+  }
 }

@@ -206,6 +206,44 @@ The argument uses exact coefficient identities over `C`; the modular checks
 below are finite controls in the original monomial convention, not premises
 of this proof.
 
+## A rank floor in every exterior degree
+
+The same interpolation decomposition gives a bound for all `p`, even though
+it no longer determines the exact rank. Let `L_(a,p)` be the number of
+degree-`p` exterior basis wedges that use at most `a-1` of the `m=2a-1`
+blocks `W_i`. Its exact count is
+
+```text
+L_(a,p) = sum_(s=0)^(a-1) binom(m,s) [x^p] ((1+x)^a - 1)^s.
+```
+
+Every kernel vector has zero coefficient on each such wedge. Indeed, fix a
+wedge `I` supported on a set `S` with `|S|<=a-1`, and choose `i` outside
+`S`. For any basis vector `w` in `W_i`, consider the output coordinate
+`I wedge w`. Its terms are indexed by the vector deleted from that output
+wedge. The term deleting `w` has `C_2` factor `c_i`; each other term has
+factor `c_j` for some `j` in `S`. Since `|S|+1<=a`, full spark gives a
+functional on `C_2` that is one on `c_i` and zero on all those `c_j`.
+Applying it isolates the contribution from the coefficient `alpha_I`.
+Varying `w` over a basis of `W_i` gives
+`phi((id tensor u_i)(alpha_I))=0`, hence
+`(id tensor u_i)(alpha_I)=0` because `phi` is injective.
+
+There are `m-|S|>=a` evaluation vectors `u_i` outside `S`; any `a` span
+`A_2`. Therefore `alpha_I=0`. This holds for each wedge supported on at
+most `a-1` blocks, regardless of its total degree. A kernel can only use
+wedges supported on at least `a` blocks. Since each coefficient `alpha_I`
+has dimension `a^2`,
+
+```text
+rank K_p(P_a; B) >= a^2 * L_(a,p),   for every p.
+```
+
+The same floor holds on the `C` long leg by the tensor symmetry. For
+`p<=a-1`, `L_(a,p)=binom(N,p)`, recovering the earlier exact result. At
+`p=a`, the separate two-block argument proves the stronger full-rank
+formula.
+
 ## The other long leg and target scope
 
 The coefficient tensor is preserved by the basis permutations
@@ -226,6 +264,17 @@ most `d_A*binom(N,p)`. In the proved range the source rank is
 `a^2*binom(N,p)`, so no such target can have a larger long-leg rank. The
 result therefore closes the range `0<=p<=a` of this screening route; it does
 not screen degrees `p>=a+1` or exclude any of the 28 saved formats by itself.
+
+At `p=a+1`, the all-degree floor has been compared with the exact padded
+matrix-target ranks from the pinned `all_ranks.py`. Reorienting the target's
+`l*b` or `b*r` leg as the first matrix leg gives the two long-leg rank
+comparisons. The floor is at least the target `l*b`-leg rank for four of the
+eleven `a=15` survivors and six of the twelve `a=16` survivors. It is below
+the target `b*r`-leg rank in all 28 cases and below both long-leg target ranks
+for all five `a=14` survivors. These are one-degree dominance checks only;
+they do not determine the paired-source rank at `p=a+1` or close the other
+leg comparisons. Exact values and shape lists are in
+`results/paired-long-legs-2026-10-23/verification.json`.
 
 The exact interpolation and frontier checks are in `verify.py`. Claims
 remain written and unreviewed; no smaller exponent is established.

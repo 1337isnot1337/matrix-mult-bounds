@@ -8,13 +8,15 @@ uses exact interpolation and full-spark evaluation vectors to prove
 `a>=2` and `0<=p<=a`. The maps are injective in this range. All 28 saved
 single-matrix survivors through `a=16` have the short leg uniquely aligned;
 the result shows that their long-leg tests cannot exclude them in these
-degrees. Degrees `p>=a+1` remain open. Claim
+degrees. For all `p`, the proof also gives `rank K_p >= a^2 L_(a,p)`, where
+`L_(a,p)` counts wedges using at most `a-1` interpolation blocks. At
+`p=a+1`, this floor dominates the exact `l*b`-leg target rank for four of
+eleven `a=15` survivors and six of twelve `a=16` survivors; it dominates no
+`b*r`-leg target rank. Higher-degree ranks and comparisons remain open. Claim
 `AI-PAIRED-LONG-KOSZUL-005` is written and unreviewed. Exact interpolation,
-frontier, and original coefficient-matrix rank controls through `p=a` for
-`a=2,3` are recorded in `results/paired-long-legs-2026-10-23/verification.json`.
-Additional finite controls give rank `70/80` over `Q` at `(a,p)=(2,3)` and
-full column rank modulo `2` at `(a,p)=(3,4)`; they do not settle the
-all-size higher-degree range. No exponent improvement is established.
+frontier, support-count, and coefficient-matrix controls are recorded in
+`results/paired-long-legs-2026-10-23/verification.json`. No exponent
+improvement is established.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

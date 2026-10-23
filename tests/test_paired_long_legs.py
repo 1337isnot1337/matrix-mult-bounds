@@ -1,4 +1,5 @@
 import importlib.util
+from itertools import combinations
 import json
 from pathlib import Path
 import unittest
@@ -50,6 +51,28 @@ class PairedLongLegTests(unittest.TestCase):
         self.assertEqual(rational["kernel_dimension"], 10)
         ternary = VERIFY.verify_source_rank_mod2(3, 4)
         self.assertTrue(ternary["full_column_rank"])
+
+    def test_support_count_matches_small_block_enumeration(self):
+        for a in (2, 3, 4):
+            n = a * (2 * a - 1)
+            for p in range(a + 2):
+                with self.subTest(a=a, p=p):
+                    expected = sum(
+                        len({index // a for index in subset}) <= a - 1
+                        for subset in combinations(range(n), p)
+                    )
+                    self.assertEqual(VERIFY.support_low_count(a, p), expected)
+
+    def test_p_a_plus_1_target_rank_floor_scope(self):
+        report = VERIFY.verify_support_dominance()
+        records = {item["a"]: item for item in report["records"]}
+        self.assertEqual(
+            [len(records[a]["target_b_rank_not_larger"]) for a in (14, 15, 16)],
+            [0, 4, 6],
+        )
+        self.assertTrue(
+            all(not item["target_c_rank_not_larger"] for item in records.values())
+        )
 
 
 if __name__ == "__main__":
