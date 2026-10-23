@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-source-singular-space-cap` package is owner-directed OpenAI
+Codex work. The literal cyclic source, prior minimum-rank and unit proofs,
+and partial-frame Laurent exclusion retain their credit and exact pins.
+The sixteen residue-class unit supports, elementary diagonal packing
+lemma, sharp96-dimensional singular-space cap and leading-rank consequence
+are local continuations. Modular determinant checks are independently
+supported by four exact integer determinants and a complete Kronecker
+entry identity. No external theorem is added. Finite witnesses support
+the written unreviewed all-subspace and Laurent arguments; no independent
+review, formalization, target construction or exponent improvement.
+
 The `2026-10-23-asymmetric-regular-frames` package is owner-directed OpenAI
 Codex work. It adopts the prior three-leg contraction minima, ordinary
 A4 obstruction, normalized Laurent argument and finite left-inverse

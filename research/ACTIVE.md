@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The source-cap continuation studies
+`ai/2026-10-23-source-singular-space-cap/QUESTION.md` on
+`research/source-singular-space-cap-20261023`. Its written global argument
+uses sixteen disjoint unimodular unit supports and a rank-preserving
+distinct-weight limit to bound every all-singular complex source subspace
+by96 dimensions, with a sharp zero-row kernel. A regular first lift must
+therefore have leading rank at most96 if a109-column regular long frame
+exists. Exact finite witnesses and focused tests pass; full validation
+is pending. This is no arbitrary degeneration exclusion or exponent gain.
+
 The asymmetric regular-frame continuation studies
 `ai/2026-10-23-asymmetric-regular-frames/QUESTION.md` on
 `research/asymmetric-regular-frames-20261023`. A unital rank upgrade

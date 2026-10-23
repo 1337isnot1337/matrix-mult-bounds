@@ -1,5 +1,22 @@
 # Research status
 
+## Sharp singular-source-space cap and first leading rank
+
+The [source packing proof](research/ai/2026-10-23-source-singular-space-cap/proof.md)
+shows that every complex linear subspace of A4 consisting entirely of
+singular matrix slices has dimension at most96, attained by a zero-row
+kernel. Sixteen disjoint unimodular unit supports and a diagonal action
+with112 distinct source weights prove the all-subspace bound. Exact
+replay checks all200704 entries of a second Kronecker factorization,
+four28-square integer determinants and all4096 source weight identities.
+Consequently, in any A4 to M(10,10,11) Laurent degeneration with a regular
+first lift and109 regular independent selected long-map columns, the
+leading first image must be entirely singular and have rank at most96.
+Claims `AI-SOURCE-SINGULAR-CAP-001` and
+`AI-A4-FIRST-LEADING-RANK-002` are written and unreviewed. No injective
+leading first map is assumed. Polar first maps and cases without the
+partial long frame remain outside the result; no exponent improvement.
+
 ## Unequal partial frames and the rank106 regular unit-image chart
 
 The [asymmetric-frame proof](research/ai/2026-10-23-asymmetric-regular-frames/proof.md)
