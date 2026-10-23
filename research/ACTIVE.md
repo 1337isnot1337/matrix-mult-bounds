@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The nondivisor pairwise-family continuation studies
+`ai/2026-10-23-nondivisor-pairwise-family/QUESTION.md` on
+`research/nondivisor-pairwise-family-20261023`, from main`3008d70`.
+A rederived binomial Toeplitz determinant proves full active rank
+a(a+d) for(1+xz)^d in characteristic zero. At a=2d+1, an ad+1
+coordinate support passes all pairwise entry-cover bounds at ceiling
+a(a+d)-1 yet contains that higher-rank power slice. Exact source-block
+and cover controls are pending. The proof does not require unmerged
+parent packages and claims no nondivisor dimension cap or exponent gain.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
