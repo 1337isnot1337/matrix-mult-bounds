@@ -1,0 +1,1528 @@
+{
+  "status": "complete_with_seven_head_catchup",
+  "snapshot_main": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "snapshot_captured_at": "2026-10-23T16:55:23.296436+00:00",
+  "output_files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "ed4eda2d6b9a41e3bfc74f895dd25d640ed609572b6e1255421d17e781ce0241",
+      "source_commit": null,
+      "source_commits": [
+        "019269fad70d78845627e91eafe10b4063e3890c",
+        "02e214e9c8ef5e88df85e21039a8473fe87fa477",
+        "06cc58635d87114d1d556523e92f9b1c714b2f60",
+        "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+        "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+        "0927e2fdbb0f5d8f69821ea60eca6b7e006bccf5",
+        "0a2c6106b79cca8684d59a11f763aa477388404a",
+        "0b55809ff95dc1dd524cc041e6ea64a70de0eff7",
+        "0d1441085c2284fa32e8756e359ddb2aa57c2c58",
+        "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+        "0eaa4f261955aae9a0f8601229486db3119a7e75",
+        "16025c8148d335ba64a0de8824780f72b9cf5ccc",
+        "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+        "201d32c561c2e69af14e505b8924867fd5ee8ebe",
+        "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+        "283495268e26e2912c1a50ff91baec2a0adc19a2",
+        "2850d0ce63733a4b3f5b9d9c734301a9d9a59495",
+        "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "32b88826cf44745e28db9da1c6c0e400933e7cc3",
+        "3382792295dec8018306920550f571dea560660b",
+        "352cba10af12db716f6529ba13c8626a5d467daa",
+        "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+        "35ac38d72dc42327899da29b1af355e494545356",
+        "3835bedaf764bdd1d2f20c6ce0390ae09d00f5f6",
+        "3837b17c2c05cb509e61b65fc2547c9d34fd0afa",
+        "38e3c12553a7c499994b9ccb87946d749d718ad2",
+        "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d",
+        "3997d9d52119915126e2fab2b1127af78b5165f8",
+        "3a97aa3cb27bd305241fae64b1561d57c157737c",
+        "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+        "3ff54caf229359e6c7bef898b07de8558c92ef10",
+        "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+        "412075531e02a1f7c793c3f7996426fb72633980",
+        "442eef9315d6128d206a083bccbabefa799dc6b6",
+        "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+        "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+        "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+        "4c488b115e2e5ca6efb6dcc48fb88e31d927998f",
+        "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+        "4e8531c90ead5c3088b07a81b8d114c9965475af",
+        "519d682aa64a24a524552388ae44c202f2ce5ada",
+        "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+        "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+        "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb",
+        "5f1a90680ed288d04829428d443c009156df128a",
+        "60b98f0deb67499555c1b5df682eff7c21fe2094",
+        "627ffb0716116685d8877a2842d3f7a484866d68",
+        "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+        "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+        "656ce30bce751d5fe5be204c481a784c1670d4ec",
+        "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+        "6662f3b056a4dc1c2e4a594d3f51abda527daae5",
+        "673710d3a4284d88e4d24350681b26912831bf7a",
+        "68cb1da851a2b8308584fdc2d30e4519bf1a6a92",
+        "6b03d456eb4d81aee9977e67532891485c38aa81",
+        "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+        "7142c7f147e54b2b8a17b2121f69a11f9d6f8550",
+        "72ef0788b6847af5e8105047c806c26c537c18ed",
+        "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+        "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "9028cbcbe52da8491fb608725009f9ef6ef2db82",
+        "91600161075b39c67fd7972a8528eb0d871f562b",
+        "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+        "92403a2c46ae63c7430e427c3cf60dc0f9a28c20",
+        "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+        "9e830aa7af430b74febc93aeb8a975b1e356d744",
+        "9e90a4bc773ba9803bab02e144601acbb700273d",
+        "a0b0bf3715dd921c2a66617239ab896d7531c816",
+        "a25675a2f511f3ebc588dbfebd30ac4eaba2d143",
+        "a292557a1d0c3d2a8c4a8d9f029a49242d2d4614",
+        "a3446c1142d748a53cf7a3642f44e3a7bfc43128",
+        "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135",
+        "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+        "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+        "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+        "a9951f838e3f8218616e76d0c1ee40252160d80d",
+        "ade230bddb1f9cb255ab3a63357db925305755f0",
+        "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70",
+        "aefbf5ef336f42c3d4767719d383ba8d85ffe21d",
+        "b28fc9df87b56377cefc0b449ee70ba447216672",
+        "b407136ffc5abe194c3acf3b64d31517ed6a1e89",
+        "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+        "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+        "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+        "bc2eb78ad31ca2ccb4d9a4d31ad6d671f7a6f962",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+        "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a",
+        "cb130c27a4ebcae6148b9c242eeae9a69b434253",
+        "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712",
+        "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+        "d07d0548b0263323915593120996bf243c2e568d",
+        "d161dacd027ee53919301d5b543c48d497231d67",
+        "d5bc2e15ab099f3948b5cc7c5b9591fb2a619855",
+        "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
+        "db180d63bd345aa559ccca357841a837699a46f2",
+        "e3d3e4164125d636cad16c200eb6f5fe3a859890",
+        "e591067302eb0f26eb4730329ccdec83d7c081a0",
+        "eb02c341d27f5605cff62b8c47a0eec21cc5a270",
+        "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7",
+        "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+        "f71eb3675a28988b1b1a209056514d14585a0076",
+        "f74aa2d5141411e314568040de3670cc8ff7a6de",
+        "f82022bf6477b0e1b17490819d3f4a25fd1a6660",
+        "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+        "fb9707ed65437ed1297ea8276a22384d4691813a",
+        "fc0a139ef447a4d8640f0fdf1781836ea7fa868a",
+        "ffbb0d3f530485413efd5e0cc9b82534ce6f6435"
+      ],
+      "source_path": "PROVENANCE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/PROVENANCE.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping. Catchup finalization is recorded in docs_catchup_resolution.json.",
+      "initial_frozen_sha256": "a901287ab75f1a133f059c878c3fe26394a86b57dbd02aee25567a44ccd03647"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "88ba4fc53991bdbeca0ce578edd96a2cd488470fc268d7e1efae8041b97b6005",
+      "source_commit": null,
+      "source_commits": [
+        "019269fad70d78845627e91eafe10b4063e3890c",
+        "02e214e9c8ef5e88df85e21039a8473fe87fa477",
+        "06cc58635d87114d1d556523e92f9b1c714b2f60",
+        "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+        "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+        "0927e2fdbb0f5d8f69821ea60eca6b7e006bccf5",
+        "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+        "0a2c6106b79cca8684d59a11f763aa477388404a",
+        "0b55809ff95dc1dd524cc041e6ea64a70de0eff7",
+        "0d1441085c2284fa32e8756e359ddb2aa57c2c58",
+        "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+        "0eaa4f261955aae9a0f8601229486db3119a7e75",
+        "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+        "16025c8148d335ba64a0de8824780f72b9cf5ccc",
+        "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+        "1f45313219e70bb18091d99138bd600b3b1e621e",
+        "201d32c561c2e69af14e505b8924867fd5ee8ebe",
+        "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+        "283495268e26e2912c1a50ff91baec2a0adc19a2",
+        "2850d0ce63733a4b3f5b9d9c734301a9d9a59495",
+        "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "32b88826cf44745e28db9da1c6c0e400933e7cc3",
+        "3382792295dec8018306920550f571dea560660b",
+        "352cba10af12db716f6529ba13c8626a5d467daa",
+        "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+        "35ac38d72dc42327899da29b1af355e494545356",
+        "3835bedaf764bdd1d2f20c6ce0390ae09d00f5f6",
+        "3837b17c2c05cb509e61b65fc2547c9d34fd0afa",
+        "38e3c12553a7c499994b9ccb87946d749d718ad2",
+        "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d",
+        "3997d9d52119915126e2fab2b1127af78b5165f8",
+        "3a97aa3cb27bd305241fae64b1561d57c157737c",
+        "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+        "3ff54caf229359e6c7bef898b07de8558c92ef10",
+        "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+        "412075531e02a1f7c793c3f7996426fb72633980",
+        "4247f42eeb305163d299f908144b5915d1c238c5",
+        "442eef9315d6128d206a083bccbabefa799dc6b6",
+        "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+        "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+        "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+        "4c488b115e2e5ca6efb6dcc48fb88e31d927998f",
+        "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+        "4e8531c90ead5c3088b07a81b8d114c9965475af",
+        "519d682aa64a24a524552388ae44c202f2ce5ada",
+        "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+        "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+        "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb",
+        "5f1a90680ed288d04829428d443c009156df128a",
+        "60b98f0deb67499555c1b5df682eff7c21fe2094",
+        "60eef4bf0388aa14f4842981e5543b9f9975507e",
+        "60f49dd41832dc272dc942207cc816a34b6675d9",
+        "627ffb0716116685d8877a2842d3f7a484866d68",
+        "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+        "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+        "656ce30bce751d5fe5be204c481a784c1670d4ec",
+        "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+        "6662f3b056a4dc1c2e4a594d3f51abda527daae5",
+        "673710d3a4284d88e4d24350681b26912831bf7a",
+        "68cb1da851a2b8308584fdc2d30e4519bf1a6a92",
+        "6b03d456eb4d81aee9977e67532891485c38aa81",
+        "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+        "7142c7f147e54b2b8a17b2121f69a11f9d6f8550",
+        "72ef0788b6847af5e8105047c806c26c537c18ed",
+        "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+        "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "9028cbcbe52da8491fb608725009f9ef6ef2db82",
+        "91600161075b39c67fd7972a8528eb0d871f562b",
+        "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+        "92403a2c46ae63c7430e427c3cf60dc0f9a28c20",
+        "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+        "9d85beb176bec494a1c55eab12904072d929afee",
+        "9e830aa7af430b74febc93aeb8a975b1e356d744",
+        "9e90a4bc773ba9803bab02e144601acbb700273d",
+        "a0b0bf3715dd921c2a66617239ab896d7531c816",
+        "a25675a2f511f3ebc588dbfebd30ac4eaba2d143",
+        "a292557a1d0c3d2a8c4a8d9f029a49242d2d4614",
+        "a3446c1142d748a53cf7a3642f44e3a7bfc43128",
+        "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135",
+        "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+        "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+        "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+        "a9951f838e3f8218616e76d0c1ee40252160d80d",
+        "ade230bddb1f9cb255ab3a63357db925305755f0",
+        "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70",
+        "aefbf5ef336f42c3d4767719d383ba8d85ffe21d",
+        "b28fc9df87b56377cefc0b449ee70ba447216672",
+        "b407136ffc5abe194c3acf3b64d31517ed6a1e89",
+        "b67c6a5ed3a38d56e952baaed79bb29f5c00b7a5",
+        "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+        "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+        "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+        "bc2eb78ad31ca2ccb4d9a4d31ad6d671f7a6f962",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+        "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a",
+        "cb130c27a4ebcae6148b9c242eeae9a69b434253",
+        "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712",
+        "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+        "d07d0548b0263323915593120996bf243c2e568d",
+        "d161dacd027ee53919301d5b543c48d497231d67",
+        "d5bc2e15ab099f3948b5cc7c5b9591fb2a619855",
+        "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
+        "db180d63bd345aa559ccca357841a837699a46f2",
+        "e3d3e4164125d636cad16c200eb6f5fe3a859890",
+        "e591067302eb0f26eb4730329ccdec83d7c081a0",
+        "e68573b044ed3aa9719afa91a34904520dfe609e",
+        "e6c44ce7d26834c87fb5736f22197490d30f679f",
+        "eb02c341d27f5605cff62b8c47a0eec21cc5a270",
+        "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7",
+        "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+        "f71eb3675a28988b1b1a209056514d14585a0076",
+        "f74aa2d5141411e314568040de3670cc8ff7a6de",
+        "f82022bf6477b0e1b17490819d3f4a25fd1a6660",
+        "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+        "fb9707ed65437ed1297ea8276a22384d4691813a",
+        "fc0a139ef447a4d8640f0fdf1781836ea7fa868a",
+        "ffbb0d3f530485413efd5e0cc9b82534ce6f6435"
+      ],
+      "source_path": "STATUS.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/STATUS.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping. Catchup finalization is recorded in docs_catchup_resolution.json.",
+      "initial_frozen_sha256": "9df761829629345e85bf518726aabe97b6ae7e29a7aebd7e2117d42e09285603"
+    },
+    {
+      "path": "docs/concurrent_research.md",
+      "sha256": "9a4db3d340d1a207bc63ef9966c8782509586c19f773baab3c38fca6fa3ecf0f",
+      "source_commit": null,
+      "source_commits": [
+        "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "db180d63bd345aa559ccca357841a837699a46f2",
+        "f9bce104af5e50d796488a1c8d5ff4d8d02ba260"
+      ],
+      "source_path": "docs/concurrent_research.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/docs/concurrent_research.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping."
+    },
+    {
+      "path": "docs/literature.md",
+      "sha256": "2fe24b7eb7e3c979db6b93ce8071cc8dd86b27cfc2e7807c3032d26e4a04926e",
+      "source_commit": null,
+      "source_commits": [
+        "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "cb130c27a4ebcae6148b9c242eeae9a69b434253"
+      ],
+      "source_path": "docs/literature.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/docs/literature.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "625c1e99027502b137ce53376965d45f651e6ad5c53d70cf33d347aaa2d03ae7",
+      "source_commit": null,
+      "source_commits": [
+        "019269fad70d78845627e91eafe10b4063e3890c",
+        "02d5a87970813fa746c7e6d977cc7fb449c45f3b",
+        "06cc58635d87114d1d556523e92f9b1c714b2f60",
+        "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+        "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+        "0a2c6106b79cca8684d59a11f763aa477388404a",
+        "0d1441085c2284fa32e8756e359ddb2aa57c2c58",
+        "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+        "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+        "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+        "2850d0ce63733a4b3f5b9d9c734301a9d9a59495",
+        "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "3382792295dec8018306920550f571dea560660b",
+        "352cba10af12db716f6529ba13c8626a5d467daa",
+        "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+        "35ac38d72dc42327899da29b1af355e494545356",
+        "3835bedaf764bdd1d2f20c6ce0390ae09d00f5f6",
+        "3837b17c2c05cb509e61b65fc2547c9d34fd0afa",
+        "38e3c12553a7c499994b9ccb87946d749d718ad2",
+        "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d",
+        "3997d9d52119915126e2fab2b1127af78b5165f8",
+        "3a97aa3cb27bd305241fae64b1561d57c157737c",
+        "3cebcd4b8b45acbe8089cfbe7a61a0aaedc68a98",
+        "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+        "3ff54caf229359e6c7bef898b07de8558c92ef10",
+        "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+        "4247f42eeb305163d299f908144b5915d1c238c5",
+        "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+        "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+        "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+        "4c488b115e2e5ca6efb6dcc48fb88e31d927998f",
+        "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+        "4e8531c90ead5c3088b07a81b8d114c9965475af",
+        "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+        "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb",
+        "5f1a90680ed288d04829428d443c009156df128a",
+        "60b98f0deb67499555c1b5df682eff7c21fe2094",
+        "627ffb0716116685d8877a2842d3f7a484866d68",
+        "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+        "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+        "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+        "6662f3b056a4dc1c2e4a594d3f51abda527daae5",
+        "673710d3a4284d88e4d24350681b26912831bf7a",
+        "68cb1da851a2b8308584fdc2d30e4519bf1a6a92",
+        "7142c7f147e54b2b8a17b2121f69a11f9d6f8550",
+        "72ef0788b6847af5e8105047c806c26c537c18ed",
+        "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "9028cbcbe52da8491fb608725009f9ef6ef2db82",
+        "91600161075b39c67fd7972a8528eb0d871f562b",
+        "92403a2c46ae63c7430e427c3cf60dc0f9a28c20",
+        "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+        "9d85beb176bec494a1c55eab12904072d929afee",
+        "9e90a4bc773ba9803bab02e144601acbb700273d",
+        "a25675a2f511f3ebc588dbfebd30ac4eaba2d143",
+        "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135",
+        "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+        "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+        "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+        "ade230bddb1f9cb255ab3a63357db925305755f0",
+        "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70",
+        "b28fc9df87b56377cefc0b449ee70ba447216672",
+        "b407136ffc5abe194c3acf3b64d31517ed6a1e89",
+        "b67c6a5ed3a38d56e952baaed79bb29f5c00b7a5",
+        "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+        "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+        "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+        "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a",
+        "cb130c27a4ebcae6148b9c242eeae9a69b434253",
+        "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712",
+        "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+        "d161dacd027ee53919301d5b543c48d497231d67",
+        "d5bc2e15ab099f3948b5cc7c5b9591fb2a619855",
+        "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
+        "db180d63bd345aa559ccca357841a837699a46f2",
+        "e3d3e4164125d636cad16c200eb6f5fe3a859890",
+        "e591067302eb0f26eb4730329ccdec83d7c081a0",
+        "eb02c341d27f5605cff62b8c47a0eec21cc5a270",
+        "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7",
+        "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+        "f71eb3675a28988b1b1a209056514d14585a0076",
+        "f74aa2d5141411e314568040de3670cc8ff7a6de",
+        "f82022bf6477b0e1b17490819d3f4a25fd1a6660",
+        "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+        "fb9707ed65437ed1297ea8276a22384d4691813a",
+        "fc0a139ef447a4d8640f0fdf1781836ea7fa868a"
+      ],
+      "source_path": "docs/research_directions.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/docs/research_directions.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping. Catchup finalization is recorded in docs_catchup_resolution.json.",
+      "initial_frozen_sha256": "7de9f2017461b19c59640aa3c430b0c33cbbd9bbd93c774cd0ea01bea649da91"
+    },
+    {
+      "path": "docs/route-synthesis.md",
+      "sha256": "877555d9f91769fa71eb12a1019f599c993c2cb7bcabfd1cf5c0a3c7ca5c98a0",
+      "source_commit": null,
+      "source_commits": [
+        "02d5a87970813fa746c7e6d977cc7fb449c45f3b",
+        "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      ],
+      "source_path": "docs/route-synthesis.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/docs/route-synthesis.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "fb4f4e7550b971e7b8326962f76905ac20731f5c7ad8abff9badb42715660fe6",
+      "source_commit": null,
+      "source_commits": [
+        "019269fad70d78845627e91eafe10b4063e3890c",
+        "06cc58635d87114d1d556523e92f9b1c714b2f60",
+        "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+        "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+        "0927e2fdbb0f5d8f69821ea60eca6b7e006bccf5",
+        "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+        "0a2c6106b79cca8684d59a11f763aa477388404a",
+        "0b55809ff95dc1dd524cc041e6ea64a70de0eff7",
+        "0d1441085c2284fa32e8756e359ddb2aa57c2c58",
+        "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+        "0eaa4f261955aae9a0f8601229486db3119a7e75",
+        "16025c8148d335ba64a0de8824780f72b9cf5ccc",
+        "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+        "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+        "283495268e26e2912c1a50ff91baec2a0adc19a2",
+        "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "32b88826cf44745e28db9da1c6c0e400933e7cc3",
+        "3382792295dec8018306920550f571dea560660b",
+        "352cba10af12db716f6529ba13c8626a5d467daa",
+        "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+        "35ac38d72dc42327899da29b1af355e494545356",
+        "3837b17c2c05cb509e61b65fc2547c9d34fd0afa",
+        "38e3c12553a7c499994b9ccb87946d749d718ad2",
+        "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d",
+        "3997d9d52119915126e2fab2b1127af78b5165f8",
+        "3a97aa3cb27bd305241fae64b1561d57c157737c",
+        "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+        "3ff54caf229359e6c7bef898b07de8558c92ef10",
+        "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+        "4247f42eeb305163d299f908144b5915d1c238c5",
+        "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+        "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+        "4e8531c90ead5c3088b07a81b8d114c9965475af",
+        "519d682aa64a24a524552388ae44c202f2ce5ada",
+        "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+        "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb",
+        "5f1a90680ed288d04829428d443c009156df128a",
+        "60b98f0deb67499555c1b5df682eff7c21fe2094",
+        "627ffb0716116685d8877a2842d3f7a484866d68",
+        "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+        "656ce30bce751d5fe5be204c481a784c1670d4ec",
+        "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+        "6662f3b056a4dc1c2e4a594d3f51abda527daae5",
+        "673710d3a4284d88e4d24350681b26912831bf7a",
+        "6b03d456eb4d81aee9977e67532891485c38aa81",
+        "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+        "7142c7f147e54b2b8a17b2121f69a11f9d6f8550",
+        "72ef0788b6847af5e8105047c806c26c537c18ed",
+        "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+        "8344274819cea5e9fa8304b3bd0b49a455ddb1a1",
+        "83e14d9c2e1247b45c4d47a93ebb2df53cc13fd1",
+        "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "9028cbcbe52da8491fb608725009f9ef6ef2db82",
+        "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+        "92403a2c46ae63c7430e427c3cf60dc0f9a28c20",
+        "9e830aa7af430b74febc93aeb8a975b1e356d744",
+        "a292557a1d0c3d2a8c4a8d9f029a49242d2d4614",
+        "a3446c1142d748a53cf7a3642f44e3a7bfc43128",
+        "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135",
+        "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+        "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+        "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+        "a9951f838e3f8218616e76d0c1ee40252160d80d",
+        "ade230bddb1f9cb255ab3a63357db925305755f0",
+        "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70",
+        "b28fc9df87b56377cefc0b449ee70ba447216672",
+        "b407136ffc5abe194c3acf3b64d31517ed6a1e89",
+        "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+        "bc2eb78ad31ca2ccb4d9a4d31ad6d671f7a6f962",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+        "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a",
+        "cb130c27a4ebcae6148b9c242eeae9a69b434253",
+        "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712",
+        "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+        "d07d0548b0263323915593120996bf243c2e568d",
+        "d161dacd027ee53919301d5b543c48d497231d67",
+        "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
+        "e591067302eb0f26eb4730329ccdec83d7c081a0",
+        "eb02c341d27f5605cff62b8c47a0eec21cc5a270",
+        "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7",
+        "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+        "f71eb3675a28988b1b1a209056514d14585a0076",
+        "f74aa2d5141411e314568040de3670cc8ff7a6de",
+        "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+        "fb9707ed65437ed1297ea8276a22384d4691813a",
+        "fc0a139ef447a4d8640f0fdf1781836ea7fa868a"
+      ],
+      "source_path": "research/ACTIVE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ACTIVE.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping. Catchup finalization is recorded in docs_catchup_resolution.json.",
+      "initial_frozen_sha256": "3d280e11222c84695e6192135205f014436313786f8aec1e8508a6c2a64ded9b"
+    },
+    {
+      "path": "research/ai/2026-10-21-affine-partner-chart/README.md",
+      "sha256": "661cf0dc1efd7baee39a5e51eb1c3f34a67627764d21f46c280a9f4a3df4e1f6",
+      "source_commit": "a9951f838e3f8218616e76d0c1ee40252160d80d",
+      "source_commits": [
+        "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+        "a9951f838e3f8218616e76d0c1ee40252160d80d",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      ],
+      "source_path": "research/ai/2026-10-21-affine-partner-chart/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-21-affine-partner-chart/README.md",
+      "source_blob": "9679f0e015002d8a569b000a4e4ea48174e0b10c",
+      "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+    },
+    {
+      "path": "research/ai/2026-10-21-full-partner-line/README.md",
+      "sha256": "4d8d11bbc65a6bb574e9c1c599aab228c4231f918632a280a7acc0ac23113be0",
+      "source_commit": "a9951f838e3f8218616e76d0c1ee40252160d80d",
+      "source_commits": [
+        "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+        "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+        "a9951f838e3f8218616e76d0c1ee40252160d80d",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      ],
+      "source_path": "research/ai/2026-10-21-full-partner-line/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-21-full-partner-line/README.md",
+      "source_blob": "a019826de9d151db95f419171ed58f9518ee2eeb",
+      "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+    },
+    {
+      "path": "research/ai/2026-10-23-flip-escape/ACTIVE.md",
+      "sha256": "b29d65cf376af8274bea64e2bcd6df4bd73cd1df3dda48509f1724a44f705535",
+      "source_commit": null,
+      "source_commits": [
+        "0b55809ff95dc1dd524cc041e6ea64a70de0eff7",
+        "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+        "32b88826cf44745e28db9da1c6c0e400933e7cc3",
+        "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      ],
+      "source_path": "research/ai/2026-10-23-flip-escape/ACTIVE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-flip-escape/ACTIVE.md",
+      "source_blob": null,
+      "reason": "Base-relative paragraph union of frozen source branches, with explicit semantic conflict resolutions and source-specific package/claim remapping."
+    },
+    {
+      "path": "research/ai/2026-10-23-one-regular-leg/README.md",
+      "sha256": "ebc0de401d3c3974dc50723ba503e28a40cf5d00990b4fa394487ba45f983fad",
+      "source_commit": "db180d63bd345aa559ccca357841a837699a46f2",
+      "source_commits": [
+        "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "db180d63bd345aa559ccca357841a837699a46f2",
+        "f9bce104af5e50d796488a1c8d5ff4d8d02ba260"
+      ],
+      "source_path": "research/ai/2026-10-23-one-regular-leg/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-one-regular-leg/README.md",
+      "source_blob": "a56390560f0d626c414efb6d8eb195d633e329e7",
+      "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+    },
+    {
+      "path": "research/ai/2026-10-23-one-sided-unit-image/README.md",
+      "sha256": "13e1f842e1dc0a2daf280a9d0936fdd09ef55e9e1250ce01b2072fb2a5bcfa6b",
+      "source_commit": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+      "source_commits": [
+        "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+        "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      ],
+      "source_path": "research/ai/2026-10-23-one-sided-unit-image/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-one-sided-unit-image/README.md",
+      "source_blob": "c61e8e1a4570f06b67356bda139805bd1fbe1229",
+      "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+    },
+    {
+      "path": "research/ai/2026-10-23-partial-regular-frames/README.md",
+      "sha256": "ce8e72f52852f31a7436d13549f60faa03ed4c4b3259528457f95d373cbcdf88",
+      "source_commit": "0eaa4f261955aae9a0f8601229486db3119a7e75",
+      "source_commits": [
+        "0927e2fdbb0f5d8f69821ea60eca6b7e006bccf5",
+        "0eaa4f261955aae9a0f8601229486db3119a7e75",
+        "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+        "656ce30bce751d5fe5be204c481a784c1670d4ec",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      ],
+      "source_path": "research/ai/2026-10-23-partial-regular-frames/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-partial-regular-frames/README.md",
+      "source_blob": "a1f1429b2a67421f41840256916df0b0fce55f14",
+      "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+    },
+    {
+      "path": "research/ai/2026-10-23-singular-long-ruling/README.md",
+      "sha256": "249ba415710b2859a4993efe0dd8f0f1ffdeca31dfe032e0e37119af47bc4c11",
+      "source_commit": "f71eb3675a28988b1b1a209056514d14585a0076",
+      "source_commits": [
+        "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+        "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "f71eb3675a28988b1b1a209056514d14585a0076",
+        "fc0a139ef447a4d8640f0fdf1781836ea7fa868a"
+      ],
+      "source_path": "research/ai/2026-10-23-singular-long-ruling/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-singular-long-ruling/README.md",
+      "source_blob": "88c5cf9bd8d10c0f80feb44c376e883c165d6213",
+      "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+    },
+    {
+      "path": "research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+      "sha256": "573f70dd602b6e8f947609d6aba62584be46330b9a898a72b75e2e23194d8965",
+      "source_commit": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "source_path": "research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-affine-z-biform-ranks/README.md",
+      "source_commits": [
+        "4247f42eeb305163d299f908144b5915d1c238c5"
+      ],
+      "reason": "Exact corrected package Markdown from the catchup source head."
+    },
+    {
+      "path": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+      "sha256": "609eb4dd3ff6fe2ca288f4a0244aac77f84961d0c7814203bfbdf3efadfed3bf",
+      "source_commit": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "source_path": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+      "source_commits": [
+        "4247f42eeb305163d299f908144b5915d1c238c5"
+      ],
+      "reason": "Exact corrected package Markdown from the catchup source head."
+    },
+    {
+      "path": "research/ai/2026-10-23-s5-finite-covers/README.md",
+      "sha256": "41b49d90662554371e6888f7976d0d86dcff2a51b072b83b9293bf81e7535de9",
+      "source_commit": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "source_path": "research/ai/2026-10-23-s5-finite-covers/README.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/docs_output/research/ai/2026-10-23-s5-finite-covers/README.md",
+      "source_commits": [
+        "4c119fc9052a8f10b726f6a8caf13adef5831b6b"
+      ],
+      "reason": "Exact corrected package Markdown from the catchup source head."
+    }
+  ],
+  "conflict_decisions": [
+    {
+      "conflict_id": 0,
+      "path": "STATUS.md",
+      "source_commit": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_branch": "research/conic-d0-main-20261023",
+      "reason": "Combine affine tangent/jet result, exact d=0 fixed two-jet curve, and projective normal-class continuation without claiming extension of every prescribed jet or the full matrix target.",
+      "source_before": [
+        "The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)\ncomputes the complete seventy-dimensional tangent module of the rank-twelve\nincidence of two fourteen-row maps of the canonical source. Its boundary\nfamily has dimension68 and uses three independent polynomial planes.\nFor every affine a,b,c and every nonzero normal class[lambda:mu], some\nrepresentative extends through order two exactly when\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;\npure fibers are checked separately from the mixed Laurent chart.\nAn exported polynomial two-jet on c=-d^3 passes direct all-source replay,\nincluding d=0, while its uncorrected third coefficient has184 nonzero\nentries. The other two factors admit exact linear incidence curves.\nClaims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and\n`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. Later lifting,\nother projective base charts, the separate12-by8 problem and the full\nmatrix target remain open. The exponent remains9/4."
+      ],
+      "source_after": [
+        "The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)\ncomputes the complete seventy-dimensional tangent module of the rank-twelve\nincidence of two fourteen-row maps of the canonical source. Its boundary\nfamily has dimension68 and uses three independent polynomial planes.\nFor every affine a,b,c and every nonzero normal class[lambda:mu], some\nrepresentative extends through order two exactly when\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;\npure fibers are checked separately from the mixed Laurent chart.\nAn exported polynomial two-jet on c=-d^3 passes direct all-source replay,\nincluding d=0, while its uncorrected third coefficient has184 nonzero\nentries. The other two factors admit exact linear incidence curves.\nClaims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and\n`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. On the\n`d=0` fiber, PR101's fixed polynomial two-jet now extends to an exact\nincidence curve for every `a,b`; see\n`AI-CONIC-D0-EXACT-CURVE-001`. Higher-order lifting for `d!=0`, other\nprojective base charts, the separate12-by8 problem and the full matrix\ntarget remain open. The exponent remains9/4."
+      ],
+      "resolution": [
+        "The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)\ncomputes the complete seventy-dimensional tangent module of the rank-twelve\nincidence of two fourteen-row maps of the canonical source. Its boundary\nfamily has dimension68 and uses three independent polynomial planes.\nFor every affine a,b,c and every nonzero normal class[lambda:mu], some\nrepresentative extends through order two exactly when\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;\npure fibers are checked separately from the mixed Laurent chart.\nAn exported polynomial two-jet on c=-d^3 passes direct all-source replay,\nincluding d=0, while its uncorrected third coefficient has184 nonzero\nentries. The other two factors admit exact linear incidence curves.\nClaims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and\n`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later\npolynomial-curve package completes affine all-order existence for a suitable\nfirst representative, and the projective criterion above covers every\nbase chart. On d=0, `AI-CONIC-D0-EXACT-CURVE-001` separately preserves\nPR101's fixed polynomial two-jet. Prescribed-jet questions, the separate 12-by-8 problem and the\nfull matrix target retain their separate scopes. The exponent remains 9/4."
+      ]
+    },
+    {
+      "conflict_id": 1,
+      "path": "STATUS.md",
+      "source_commit": "0a2c6106b79cca8684d59a11f763aa477388404a",
+      "source_branch": "research/unit-image-stacked-rank-20261023",
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "source_before": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. Rank108, singular long-leg limits and polar unit\nlifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "source_after": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. This earlier argument stops at rank108; the\ncontinuation above reaches rank107. Singular long-leg limits and polar\nunit lifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "resolution": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. The rank107 and rank105 unit-image results and asymmetric-frame\narguments remain scoped predecessor methods. The\n[singular-long-rank continuation](research/ai/2026-10-23-singular-long-rank/proof.md)\nand subsequent source-space caps further restrict singular leading maps\non both long legs; the general degeneration problem remains open. No matrix target or smaller exponent is established."
+      ]
+    },
+    {
+      "conflict_id": 2,
+      "path": "STATUS.md",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_branch": "research/continuous-01a16975",
+      "reason": "Preserve the scope-pinned first-party audit and update the previously open fixed-space classification, without turning the internal audit into independent review.",
+      "source_before": [
+        "The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)\nproves that its 112-dimensional limiting matrix space has minimum nonzero\nordinary matrix rank exactly six over every field. Thirty-one triangular\nsix-by-six minor identities eliminate every parameter of the difficult\nouter block, and an explicit rank-six witness proves sharpness. Thus every\ntwo-sided compression with total rank loss at most five is injective.\nAt rank109 on both long maps, a lost direction must have rank six and obey\nthe stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`\nis written and unreviewed. This refines the fixed-resolvent space from\nPR103; its narrow target application is superseded by the regular-long-map\nargument. General singular trajectories, all rank-six matrices and an\nimproved exponent are not settled."
+      ],
+      "source_after": [
+        "The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)\nproves that its 112-dimensional limiting matrix space has minimum nonzero\nordinary matrix rank exactly six over every field. Thirty-one triangular\nsix-by-six minor identities eliminate every parameter of the difficult\nouter block, and an explicit rank-six witness proves sharpness. Thus every\ntwo-sided compression with total rank loss at most five is injective.\nAt rank109 on both long maps, a lost direction must have rank six and obey\nthe stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`\nis written and unreviewed. This refines the fixed-resolvent space from\nPR103; its narrow target application is superseded by the regular-long-map\nargument. Its rank-six locus is now classified in the continuation above.\nGeneral singular trajectories and an improved exponent are not settled."
+      ],
+      "resolution": [
+        "The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)\nproves that its 112-dimensional limiting matrix space has minimum nonzero\nordinary matrix rank exactly six over every field. Thirty-one triangular\nsix-by-six minor identities eliminate every parameter of the difficult\nouter block, and an explicit rank-six witness proves sharpness. Thus every\ntwo-sided compression with total rank loss at most five is injective.\nAt rank109 on both long maps, a lost direction must have rank six and obey\nthe stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`\nis written and unreviewed; a first-party Codex audit found no gap in Sections\n1--4, without changing its review status. See the\n[scope-pinned audit](research/reviews/resolvent-minrank-proof-review-2026-10-23.md).\nThis refines the fixed-resolvent space from PR103; its narrow target application\nis superseded by the regular-long-map\nargument. The independently retained rank-six classifications now settle that\nfixed-space locus, with their respective field and compression scopes.\nGeneral singular trajectories and an improved exponent remain unsettled."
+      ]
+    },
+    {
+      "conflict_id": 3,
+      "path": "STATUS.md",
+      "source_commit": "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+      "source_branch": "research/a4-leading-defect-flags-20261023",
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "source_before": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. Rank108, singular long-leg limits and polar unit\nlifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "source_after": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. Singular leading maps on both\nlong legs remain open. No matrix target or smaller exponent is established."
+      ],
+      "resolution": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. The rank107 and rank105 unit-image results and asymmetric-frame\narguments remain scoped predecessor methods. The\n[singular-long-rank continuation](research/ai/2026-10-23-singular-long-rank/proof.md)\nand subsequent source-space caps further restrict singular leading maps\non both long legs; the general degeneration problem remains open. No matrix target or smaller exponent is established."
+      ]
+    },
+    {
+      "conflict_id": 4,
+      "path": "STATUS.md",
+      "source_commit": "e6c44ce7d26834c87fb5736f22197490d30f679f",
+      "source_branch": "research/resolvent-minrank-audit-20261023",
+      "reason": "Preserve the scope-pinned first-party audit and update the previously open fixed-space classification, without turning the internal audit into independent review.",
+      "source_before": [
+        "The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)\nproves that its 112-dimensional limiting matrix space has minimum nonzero\nordinary matrix rank exactly six over every field. Thirty-one triangular\nsix-by-six minor identities eliminate every parameter of the difficult\nouter block, and an explicit rank-six witness proves sharpness. Thus every\ntwo-sided compression with total rank loss at most five is injective.\nAt rank109 on both long maps, a lost direction must have rank six and obey\nthe stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`\nis written and unreviewed. This refines the fixed-resolvent space from\nPR103; its narrow target application is superseded by the regular-long-map\nargument. General singular trajectories, all rank-six matrices and an\nimproved exponent are not settled."
+      ],
+      "source_after": [
+        "The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)\nproves that its 112-dimensional limiting matrix space has minimum nonzero\nordinary matrix rank exactly six over every field. Thirty-one triangular\nsix-by-six minor identities eliminate every parameter of the difficult\nouter block, and an explicit rank-six witness proves sharpness. Thus every\ntwo-sided compression with total rank loss at most five is injective.\nAt rank109 on both long maps, a lost direction must have rank six and obey\nthe stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`\nis written and unreviewed; a first-party Codex audit found no gap in Sections\n1--4, without changing its review status. See the\n[scope-pinned audit](research/reviews/resolvent-minrank-proof-review-2026-10-23.md).\nThis refines the fixed-resolvent space from PR103; its narrow target application\nis superseded by the regular-long-map\nargument. General singular trajectories, all rank-six matrices and an\nimproved exponent are not settled."
+      ],
+      "resolution": [
+        "The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)\nproves that its 112-dimensional limiting matrix space has minimum nonzero\nordinary matrix rank exactly six over every field. Thirty-one triangular\nsix-by-six minor identities eliminate every parameter of the difficult\nouter block, and an explicit rank-six witness proves sharpness. Thus every\ntwo-sided compression with total rank loss at most five is injective.\nAt rank109 on both long maps, a lost direction must have rank six and obey\nthe stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`\nis written and unreviewed; a first-party Codex audit found no gap in Sections\n1--4, without changing its review status. See the\n[scope-pinned audit](research/reviews/resolvent-minrank-proof-review-2026-10-23.md).\nThis refines the fixed-resolvent space from PR103; its narrow target application\nis superseded by the regular-long-map\nargument. The independently retained rank-six classifications now settle that\nfixed-space locus, with their respective field and compression scopes.\nGeneral singular trajectories and an improved exponent remain unsettled."
+      ]
+    },
+    {
+      "conflict_id": 5,
+      "path": "STATUS.md",
+      "source_commit": "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+      "source_branch": "research/singular-long-gap-20261023",
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "source_before": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. Rank108, singular long-leg limits and polar unit\nlifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "source_after": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. Singular leading maps on both\nlong legs remain open. No matrix target or smaller exponent is established."
+      ],
+      "resolution": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. The rank107 and rank105 unit-image results and asymmetric-frame\narguments remain scoped predecessor methods. The\n[singular-long-rank continuation](research/ai/2026-10-23-singular-long-rank/proof.md)\nand subsequent source-space caps further restrict singular leading maps\non both long legs; the general degeneration problem remains open. No matrix target or smaller exponent is established."
+      ]
+    },
+    {
+      "conflict_id": 6,
+      "path": "STATUS.md",
+      "source_commit": "db180d63bd345aa559ccca357841a837699a46f2",
+      "source_branch": "research/a4-one-regular-leg-20261023",
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "source_before": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. Rank108, singular long-leg limits and polar unit\nlifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "source_after": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. Singular leading maps on both\nlong legs remain open. No matrix target or smaller exponent is established."
+      ],
+      "resolution": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. The rank107 and rank105 unit-image results and asymmetric-frame\narguments remain scoped predecessor methods. The\n[singular-long-rank continuation](research/ai/2026-10-23-singular-long-rank/proof.md)\nand subsequent source-space caps further restrict singular leading maps\non both long legs; the general degeneration problem remains open. No matrix target or smaller exponent is established."
+      ]
+    },
+    {
+      "conflict_id": 7,
+      "path": "STATUS.md",
+      "source_commit": "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+      "source_branch": "research/pole-ruling-20261023",
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "source_before": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. Rank108, singular long-leg limits and polar unit\nlifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "source_after": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. That proof left rank108 open; the stronger result\nabove now covers it. Singular long-leg limits and polar unit lifts remain\nopen. No matrix target or smaller exponent is established."
+      ],
+      "resolution": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. The rank107 and rank105 unit-image results and asymmetric-frame\narguments remain scoped predecessor methods. The\n[singular-long-rank continuation](research/ai/2026-10-23-singular-long-rank/proof.md)\nand subsequent source-space caps further restrict singular leading maps\non both long legs; the general degeneration problem remains open. No matrix target or smaller exponent is established."
+      ]
+    },
+    {
+      "conflict_id": 8,
+      "path": "STATUS.md",
+      "source_commit": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+      "source_branch": "research/verified-frontier-20261023",
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "source_before": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. Rank108, singular long-leg limits and polar unit\nlifts remain open. No matrix target or smaller exponent is established."
+      ],
+      "source_after": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. That proof left rank108 open; the stronger result\nabove now covers it. Singular long-leg limits and polar unit lifts remain\nopen. No matrix target or smaller exponent is established."
+      ],
+      "resolution": [
+        "The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)\nextends the previous invertible-unit Laurent chart. A4 cannot degenerate\nto M(10,10,11) if one long map C is regular with full-rank limit, the\nsource lift of the target identity is regular, and its limiting image\n`S(0) C(0)` has rank at least109. In particular, singular source units\nof corank one are included. Independent source frames and varying\nleft inverses first force both other maps to be regular; the existing\nordinary-map obstruction finishes the argument. Every finite pole order\nis covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and\n`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite\ncontrols verify the rank budgets and projection recovery, without\nformalizing the proof. The newer one-regular-leg theorem above removes\nthese unit-image and unit-lift hypotheses. The rank107 and rank105 unit-image results and asymmetric-frame\narguments remain scoped predecessor methods. The\n[singular-long-rank continuation](research/ai/2026-10-23-singular-long-rank/proof.md)\nand subsequent source-space caps further restrict singular leading maps\non both long legs; the general degeneration problem remains open. No matrix target or smaller exponent is established."
+      ]
+    },
+    {
+      "conflict_id": 9,
+      "path": "STATUS.md",
+      "source_commit": "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+      "source_branch": "research/integration-validation-20261023",
+      "reason": "Combine affine tangent/jet result, exact d=0 fixed two-jet curve, and projective normal-class continuation without claiming extension of every prescribed jet or the full matrix target.",
+      "source_before": [
+        "The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)\ncomputes the complete seventy-dimensional tangent module of the rank-twelve\nincidence of two fourteen-row maps of the canonical source. Its boundary\nfamily has dimension68 and uses three independent polynomial planes.\nFor every affine a,b,c and every nonzero normal class[lambda:mu], some\nrepresentative extends through order two exactly when\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;\npure fibers are checked separately from the mixed Laurent chart.\nAn exported polynomial two-jet on c=-d^3 passes direct all-source replay,\nincluding d=0, while its uncorrected third coefficient has184 nonzero\nentries. The other two factors admit exact linear incidence curves.\nClaims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and\n`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. Later lifting,\nother projective base charts, the separate12-by8 problem and the full\nmatrix target remain open. The exponent remains9/4."
+      ],
+      "source_after": [
+        "The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)\ncomputes the complete seventy-dimensional tangent module of the rank-twelve\nincidence of two fourteen-row maps of the canonical source. Its boundary\nfamily has dimension68 and uses three independent polynomial planes.\nFor every affine a,b,c and every nonzero normal class[lambda:mu], some\nrepresentative extends through order two exactly when\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;\npure fibers are checked separately from the mixed Laurent chart.\nAn exported polynomial two-jet on c=-d^3 passes direct all-source replay,\nincluding d=0, while its uncorrected third coefficient has184 nonzero\nentries. The other two factors admit exact linear incidence curves.\nClaims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and\n`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later\npolynomial-curve package completes affine all-order existence for a suitable\nfirst representative, and the projective criterion above covers every\nbase chart. Prescribed-jet questions, the separate 12-by-8 problem and the\nfull matrix target retain their separate scopes. The exponent remains 9/4."
+      ],
+      "resolution": [
+        "The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)\ncomputes the complete seventy-dimensional tangent module of the rank-twelve\nincidence of two fourteen-row maps of the canonical source. Its boundary\nfamily has dimension68 and uses three independent polynomial planes.\nFor every affine a,b,c and every nonzero normal class[lambda:mu], some\nrepresentative extends through order two exactly when\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;\npure fibers are checked separately from the mixed Laurent chart.\nAn exported polynomial two-jet on c=-d^3 passes direct all-source replay,\nincluding d=0, while its uncorrected third coefficient has184 nonzero\nentries. The other two factors admit exact linear incidence curves.\nClaims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and\n`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later\npolynomial-curve package completes affine all-order existence for a suitable\nfirst representative, and the projective criterion above covers every\nbase chart. On d=0, `AI-CONIC-D0-EXACT-CURVE-001` separately preserves\nPR101's fixed polynomial two-jet. Prescribed-jet questions, the separate 12-by-8 problem and the\nfull matrix target retain their separate scopes. The exponent remains 9/4."
+      ]
+    },
+    {
+      "conflict_id": 10,
+      "path": "docs/research_directions.md",
+      "source_commit": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_branch": "research/continuous-01a16975",
+      "reason": "Unite minrank, all distinct rank-six classifications, and the all-field loss-seven bound; advance the structural question to total loss eight while preserving earlier pilots and general singular-scope limits.",
+      "source_before": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. Its open structural question\nis the rank-six locus and the required kernel/image alignment under two\nrank109 compressions. Check the broader long-map exclusions before\ntreating such an aligned compression as a possible matrix target."
+      ],
+      "source_after": [
+        "The [fixed-resolvent rank-six classification](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md)\nnow identifies its rank-six locus as a 17-dimensional linear space with\na common six-dimensional image, with no rank-seven matrices. Over every\nfield, two rank109 compressions lose\nat most one dimension, and that bound is sharp. This closes the previous\nfixed-space classification question. A further structural investigation\nmust change the nilpotent or analyze higher resolvent corrections; check\nthe broader long-map exclusions before treating a new family as a possible\nmatrix target."
+      ],
+      "resolution": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. The\n[complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)\nis a 17-dimensional linear space with common six-dimensional image; rank\nseven is absent. Two rank109 compressions lose at most one direction over\nalgebraically closed fields, sharply. The [loss-seven bound](../research/ai/2026-10-23-resolvent-loss-seven/proof.md)\nnow leaves at most two kernel directions at total loss seven, sharply,\nand extends the bounds to every field. The next structural question is\ntotal loss eight, where rank-eight matrices outside the classified locus\ncan enter the compression kernel. Check broader long-map exclusions\nbefore treating any aligned compression as a possible matrix target.\nThe independently retained [all-field locus](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md),\n[compression-frontier implementation](../research/ai/2026-10-23-resolvent-rank-six-frontier/README.md),\nand [finite-certificate implementation](../research/ai/2026-10-23-resolvent-rank-six-finite/proof.md)\nhave separate evidence records and retain their individual field hypotheses.\nThe earlier [rank-six family pilot](../research/ai/2026-10-23-resolvent-rank6-family/proof.md)\nis a predecessor construction inside this classified locus. Other directions\ninclude a different nilpotent, higher resolvent corrections, or varying singular\ncompressions; none of these classifications constructs the full matrix target."
+      ]
+    },
+    {
+      "conflict_id": 11,
+      "path": "docs/research_directions.md",
+      "source_commit": "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+      "source_branch": "research/resolvent-loss-seven-01a16975",
+      "reason": "Unite minrank, all distinct rank-six classifications, and the all-field loss-seven bound; advance the structural question to total loss eight while preserving earlier pilots and general singular-scope limits.",
+      "source_before": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. Its open structural question\nis the rank-six locus and the required kernel/image alignment under two\nrank109 compressions. Check the broader long-map exclusions before\ntreating such an aligned compression as a possible matrix target."
+      ],
+      "source_after": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. The\n[complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)\nis a 17-dimensional linear space with common six-dimensional image; rank\nseven is absent. Two rank109 compressions lose at most one direction over\nalgebraically closed fields, sharply. The [loss-seven bound](../research/ai/2026-10-23-resolvent-loss-seven/proof.md)\nnow leaves at most two kernel directions at total loss seven, sharply,\nand extends the bounds to every field. The next structural question is\ntotal loss eight, where rank-eight matrices outside the classified locus\ncan enter the compression kernel. Check broader long-map exclusions\nbefore treating any aligned compression as a possible matrix target."
+      ],
+      "resolution": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. The\n[complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)\nis a 17-dimensional linear space with common six-dimensional image; rank\nseven is absent. Two rank109 compressions lose at most one direction over\nalgebraically closed fields, sharply. The [loss-seven bound](../research/ai/2026-10-23-resolvent-loss-seven/proof.md)\nnow leaves at most two kernel directions at total loss seven, sharply,\nand extends the bounds to every field. The next structural question is\ntotal loss eight, where rank-eight matrices outside the classified locus\ncan enter the compression kernel. Check broader long-map exclusions\nbefore treating any aligned compression as a possible matrix target.\nThe independently retained [all-field locus](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md),\n[compression-frontier implementation](../research/ai/2026-10-23-resolvent-rank-six-frontier/README.md),\nand [finite-certificate implementation](../research/ai/2026-10-23-resolvent-rank-six-finite/proof.md)\nhave separate evidence records and retain their individual field hypotheses.\nThe earlier [rank-six family pilot](../research/ai/2026-10-23-resolvent-rank6-family/proof.md)\nis a predecessor construction inside this classified locus. Other directions\ninclude a different nilpotent, higher resolvent corrections, or varying singular\ncompressions; none of these classifications constructs the full matrix target."
+      ]
+    },
+    {
+      "conflict_id": 12,
+      "path": "docs/research_directions.md",
+      "source_commit": "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+      "source_branch": "research/a4-leading-defect-flags-20261023",
+      "reason": "Retain the unit-hypothesis removal and singular-gap extension as historical methods, deferring current frontier selection to the later integrated source-space bounds.",
+      "source_before": [
+        "The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)\nnow closes every Laurent order with one regular full-rank long leg and a\nregular invertible source lift of a target identity. Further A4 searches\nmust escape at least one of those hypotheses; increasing the other map's\npole order alone does not suffice. General singular maps remain open."
+      ],
+      "source_after": [
+        "The [one-regular-long-leg A4 obstruction](../research/ai/2026-10-23-one-regular-leg/proof.md)\nnow closes every Laurent order with either long map regular of rank110 at\nzero, without assumptions on the source lift of the target identity. A\nregular right-inverse kernel correction removes the earlier unit-image\nhypotheses. Further A4 constructions must have rank at most109 in both\nlong-leg leading coefficients after scalar balancing. Increasing pole\norders while keeping a full-rank long-leg limit cannot escape this proof.\nThe remaining singular-long-leg case is open; no target is constructed.",
+        "The [invertible leading-kernel continuation](../research/ai/2026-10-23-leading-defect/proof.md)\nprovides a general method for square matrix targets. Its A4 sum204\ncorollary is weaker than the separate written sum176 proposal in\n[PR129](https://github.com/1337isnot1337/matrix-mult-bounds/pull/129),\nwhich should govern subsequent A4 frontier selection if accepted. Use\nthe general kernel lemma in another source or a remaining chart; do not\nreopen the already covered defect20..27 interval as a new frontier."
+      ],
+      "resolution": [
+        "The [one-regular-long-leg A4 obstruction](../research/ai/2026-10-23-one-regular-leg/proof.md)\nnow closes every Laurent order with either long map regular of rank110 at\nzero, without assumptions on the source lift of the target identity. A\nregular right-inverse kernel correction removes the earlier unit-image\nhypotheses. Further A4 constructions must have rank at most109 in both\nlong-leg leading coefficients after scalar balancing. Increasing pole\norders while keeping a full-rank long-leg limit cannot escape this proof.\nThe [singular-long-gap continuation](../research/ai/2026-10-23-singular-long-gap/proof.md)\nuses the minimum source gap and a polynomial rank-one-preserver argument\nto extend that exclusion to regular limiting long-leg ranks106--109.\nThis method first forced both scalar-balanced leading ranks to at most105.\nAt rank105 its lifted rank budget reaches20, so it no longer forces\nminimum-rank source images. Later singular-long-rank and source-cap results\nlisted here further restrict that historical boundary and govern current\ncandidate selection. The general singular problem remains open; no target\nis constructed."
+      ]
+    },
+    {
+      "conflict_id": 13,
+      "path": "docs/research_directions.md",
+      "source_commit": "68cb1da851a2b8308584fdc2d30e4519bf1a6a92",
+      "source_branch": "research/resolvent-singular-rank109-20261023",
+      "reason": "Unite minrank, all distinct rank-six classifications, and the all-field loss-seven bound; advance the structural question to total loss eight while preserving earlier pilots and general singular-scope limits.",
+      "source_before": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. Its open structural question\nis the rank-six locus and the required kernel/image alignment under two\nrank109 compressions. Check the broader long-map exclusions before\ntreating such an aligned compression as a possible matrix target."
+      ],
+      "source_after": [
+        "The [complete fixed-resolvent rank-six locus](../research/ai/2026-10-23-resolvent-rank-six-frontier/README.md)\nis a 17-dimensional constant-image space over every field. Two rank109\ncompressions lose at most one dimension, with all nontrivial kernel/image\npairs classified. The next structural question is whether this polynomial\nnormal form controls the additional leading coefficients introduced by\nvarying singular compressions or a changed resolvent. Constant compression\nalone does not answer it. Check the broader long-map exclusions before\ntreating any such trajectory as a possible matrix target."
+      ],
+      "resolution": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. The\n[complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)\nis a 17-dimensional linear space with common six-dimensional image; rank\nseven is absent. Two rank109 compressions lose at most one direction over\nalgebraically closed fields, sharply. The [loss-seven bound](../research/ai/2026-10-23-resolvent-loss-seven/proof.md)\nnow leaves at most two kernel directions at total loss seven, sharply,\nand extends the bounds to every field. The next structural question is\ntotal loss eight, where rank-eight matrices outside the classified locus\ncan enter the compression kernel. Check broader long-map exclusions\nbefore treating any aligned compression as a possible matrix target.\nThe independently retained [all-field locus](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md),\n[compression-frontier implementation](../research/ai/2026-10-23-resolvent-rank-six-frontier/README.md),\nand [finite-certificate implementation](../research/ai/2026-10-23-resolvent-rank-six-finite/proof.md)\nhave separate evidence records and retain their individual field hypotheses.\nThe earlier [rank-six family pilot](../research/ai/2026-10-23-resolvent-rank6-family/proof.md)\nis a predecessor construction inside this classified locus. Other directions\ninclude a different nilpotent, higher resolvent corrections, or varying singular\ncompressions; none of these classifications constructs the full matrix target."
+      ]
+    },
+    {
+      "conflict_id": 14,
+      "path": "docs/research_directions.md",
+      "source_commit": "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+      "source_branch": "research/singular-long-gap-20261023",
+      "reason": "Retain the unit-hypothesis removal and singular-gap extension as historical methods, deferring current frontier selection to the later integrated source-space bounds.",
+      "source_before": [
+        "The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)\nnow closes every Laurent order with one regular full-rank long leg and a\nregular invertible source lift of a target identity. Further A4 searches\nmust escape at least one of those hypotheses; increasing the other map's\npole order alone does not suffice. General singular maps remain open."
+      ],
+      "source_after": [
+        "The [one-regular-long-leg A4 obstruction](../research/ai/2026-10-23-one-regular-leg/proof.md)\nnow closes every Laurent order with either long map regular of rank110 at\nzero, without assumptions on the source lift of the target identity. A\nregular right-inverse kernel correction removes the earlier unit-image\nhypotheses. Further A4 constructions must have rank at most109 in both\nlong-leg leading coefficients after scalar balancing. Increasing pole\norders while keeping a full-rank long-leg limit cannot escape this proof.\nThe [singular-long-gap continuation](../research/ai/2026-10-23-singular-long-gap/proof.md)\nuses the minimum source gap and a polynomial rank-one-preserver argument\nto extend that exclusion to regular limiting long-leg ranks106--109.\nEvery remaining candidate must have both scalar-balanced leading ranks\nat most105. At rank105 the lifted rank budget reaches20, and this gap\nargument no longer forces minimum-rank source images. That boundary and\nmore singular long maps remain open; no target is constructed."
+      ],
+      "resolution": [
+        "The [one-regular-long-leg A4 obstruction](../research/ai/2026-10-23-one-regular-leg/proof.md)\nnow closes every Laurent order with either long map regular of rank110 at\nzero, without assumptions on the source lift of the target identity. A\nregular right-inverse kernel correction removes the earlier unit-image\nhypotheses. Further A4 constructions must have rank at most109 in both\nlong-leg leading coefficients after scalar balancing. Increasing pole\norders while keeping a full-rank long-leg limit cannot escape this proof.\nThe [singular-long-gap continuation](../research/ai/2026-10-23-singular-long-gap/proof.md)\nuses the minimum source gap and a polynomial rank-one-preserver argument\nto extend that exclusion to regular limiting long-leg ranks106--109.\nThis method first forced both scalar-balanced leading ranks to at most105.\nAt rank105 its lifted rank budget reaches20, so it no longer forces\nminimum-rank source images. Later singular-long-rank and source-cap results\nlisted here further restrict that historical boundary and govern current\ncandidate selection. The general singular problem remains open; no target\nis constructed."
+      ]
+    },
+    {
+      "conflict_id": 15,
+      "path": "docs/research_directions.md",
+      "source_commit": "4c488b115e2e5ca6efb6dcc48fb88e31d927998f",
+      "source_branch": "research/resolvent-rank6-locus-20261023",
+      "reason": "Unite minrank, all distinct rank-six classifications, and the all-field loss-seven bound; advance the structural question to total loss eight while preserving earlier pilots and general singular-scope limits.",
+      "source_before": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. Its open structural question\nis the rank-six locus and the required kernel/image alignment under two\nrank109 compressions. Check the broader long-map exclusions before\ntreating such an aligned compression as a possible matrix target."
+      ],
+      "source_after": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. A [first rank-six family\ncontinuation](../research/ai/2026-10-23-resolvent-rank6-family/README.md)\nexhibits a projective fifteen-space in that locus and realizes the equality\nalignment by constant rank-109 maps. This does not classify the full locus or\nlift the maps to a tensor degeneration; their product is singular. Check the\nbroader long-map exclusions before treating such an aligned compression as a\npossible matrix target."
+      ],
+      "resolution": [
+        "The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)\nnow proves rank six sharply over every field. The\n[complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)\nis a 17-dimensional linear space with common six-dimensional image; rank\nseven is absent. Two rank109 compressions lose at most one direction over\nalgebraically closed fields, sharply. The [loss-seven bound](../research/ai/2026-10-23-resolvent-loss-seven/proof.md)\nnow leaves at most two kernel directions at total loss seven, sharply,\nand extends the bounds to every field. The next structural question is\ntotal loss eight, where rank-eight matrices outside the classified locus\ncan enter the compression kernel. Check broader long-map exclusions\nbefore treating any aligned compression as a possible matrix target.\nThe independently retained [all-field locus](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md),\n[compression-frontier implementation](../research/ai/2026-10-23-resolvent-rank-six-frontier/README.md),\nand [finite-certificate implementation](../research/ai/2026-10-23-resolvent-rank-six-finite/proof.md)\nhave separate evidence records and retain their individual field hypotheses.\nThe earlier [rank-six family pilot](../research/ai/2026-10-23-resolvent-rank6-family/proof.md)\nis a predecessor construction inside this classified locus. Other directions\ninclude a different nilpotent, higher resolvent corrections, or varying singular\ncompressions; none of these classifications constructs the full matrix target."
+      ]
+    },
+    {
+      "conflict_id": 16,
+      "path": "docs/research_directions.md",
+      "source_commit": "b67c6a5ed3a38d56e952baaed79bb29f5c00b7a5",
+      "source_branch": "research/scalar-proof-audit-20261023",
+      "reason": "Retain the internal scalar-proof audit as first-party evidence and distinguish the auxiliary Lean lemma from the still-unformalized full proof.",
+      "source_before": [
+        "Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.",
+        "Deliver a proof review tied to a commit, a corrected proof, or a counterexample. A finite grid extension alone does not close this task. A Lean formalization is a separate deliverable, not a prerequisite for every discovery."
+      ],
+      "source_after": [
+        "An internal line-by-line [proof audit](../research/reviews/2026-10-23-scalar-profile/PROOF_REVIEW.md)\nat base `dcd209a` found no gap, including positivity of the increments, limiting\nslope, and join at $a=b$. This does not count as independent mathematical\nreview; that review and any Lean formalization remain open.",
+        "The outstanding deliverable is an independent proof review, a correction, or a\ncounterexample. The internal review and finite grids do not close that task.\nDistinguish the earlier recurrence from the local matching construction. A\nLean formalization is separate and is not required for every discovery."
+      ],
+      "resolution": [
+        "## R1: Review the local sharpness theorem",
+        "An internal line-by-line [proof audit](../research/reviews/2026-10-23-scalar-profile/PROOF_REVIEW.md)\nat base `dcd209a` found no gap, including positivity of the increments, limiting\nslope, and join at $a=b$. This does not count as independent mathematical\nreview; that review and formalization of the full pointwise-minimality\nproof remain open. The auxiliary finite slope estimate is separately checked\nin the [scalar-profile Lean project](../formal/scalar-profile/README.md).",
+        "The outstanding deliverable is an independent proof review, a correction, or a\ncounterexample. The internal review and finite grids do not close that task.\nDistinguish the earlier recurrence from the local matching construction. A\nLean formalization is separate and is not required for every discovery."
+      ]
+    },
+    {
+      "conflict_id": 17,
+      "path": "docs/research_directions.md",
+      "source_commit": "ade230bddb1f9cb255ab3a63357db925305755f0",
+      "source_branch": "research/s5-peirce-finite-covers-20261023",
+      "reason": "Retain the finite-cube exclusions as a checkpoint and separate them from the later actual-support Peirce refinement and higher-power degree-majorant barrier.",
+      "source_before": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. M19 and the one-central-factor\nM(13,14,14) remain outside that exclusion; their maps are still missing."
+      ],
+      "source_after": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes the one-copy M19 coordinate target and 38 additional shapes\nfrom the previous frontier. The one-central-factor M(13,14,14) remains\nopen, along with the two and nine remaining shapes listed in that proof.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search.",
+        "The [finer full-source covers](../research/ai/2026-10-23-s5-peirce-covers/proof.md)\nlower the caps to abc<=2576 and abc<=6415. They exclude five additional\ntwo-central-factor shapes, leaving (16,16,25), (16,19,21), (14,19,24),\nand (16,20,20). The one-central-factor frontier is unchanged. Further\nfinite-cover work must use the actual source support: the refined\ndegrees need not be radical indices, and their triple-degree budget\nmust be checked separately from the maximum one-leg degree."
+      ],
+      "resolution": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes the one-copy M19 coordinate target and 38 additional shapes\nfrom the previous frontier. At that checkpoint, the two one-central-factor shapes M(13,13,15)\nand M(13,14,14), together with nine two-central-factor shapes, were\nlisted for further work; use the finer covers below for the later frontier.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search."
+      ]
+    },
+    {
+      "conflict_id": 18,
+      "path": "docs/research_directions.md",
+      "source_commit": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+      "source_branch": "research/verified-frontier-20261023",
+      "reason": "Keep the fuller highest-pole flag restrictions discarded by the competing shorter edit; mark their unit-image thresholds and ordinary survivors as superseded checkpoints.",
+      "source_before": [
+        "A [smaller sufficient target](../research/ai/2026-10-20-koszul/cyclic_finite_target.md)\nis A_4 to M(10,10,11), where A_4 has leg dimension 112. The minimum-slice-rank\nproof excludes all constant linear maps, so a construction needs a singular\nlimit as well as input mixing. The later\n[polynomial rank-locus theorem](../research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)\ncloses all four ordinary A5 targets that passed the old minimum-only\nscreen. The [updated balanced rectangular frontier](../research/ai/2026-10-21-rectangular-ordinary-frontier/proof.md)\nuses the existing higher Hankel gates and excludes every improving ordinary\nsingle matrix shape through a=7. At a=8, M(27,28,28) is the sole sorted\nnecessary-test survivor; its maps remain missing. Singular A4 constructions\nremain open."
+      ],
+      "source_after": [
+        "A [smaller sufficient target](../research/ai/2026-10-20-koszul/cyclic_finite_target.md)\nis A_4 to M(10,10,11), where A_4 has leg dimension 112. The minimum-slice-rank\nproof excludes all constant linear maps, so a construction needs a singular\nlimit as well as input mixing. The later\n[polynomial rank-locus theorem](../research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)\ncloses all four ordinary A5 targets that passed the old minimum-only\nscreen. The [updated balanced rectangular frontier](../research/ai/2026-10-21-rectangular-ordinary-frontier/proof.md)\nuses the existing higher Hankel gates and excludes every improving ordinary\nsingle matrix shape through a=7. At a=8, M(27,28,28) is the sole sorted\nnecessary-test survivor; its maps remain missing. Singular A4 constructions\nremain open. The [one-sided partial-unit theorem](../research/ai/2026-10-23-one-sided-unit-image/proof.md)\nexcludes every Laurent pole order if one long map has a regular rank110\nlimit, the identity lift is regular and its image rank is at least107.\nIn that regular-long-map chart, continue only at unit-image rank at\nmost106 or with a polar identity lift; singular long-leg limits are a\nseparate open class."
+      ],
+      "resolution": [
+        "A [smaller sufficient target](../research/ai/2026-10-20-koszul/cyclic_finite_target.md)\nis A_4 to M(10,10,11), where A_4 has leg dimension 112. The minimum-slice-rank\nproof excludes all constant linear maps, so a construction needs a singular\nlimit as well as input mixing. The later\n[polynomial rank-locus theorem](../research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)\ncloses all four ordinary A5 targets that passed the old minimum-only\nscreen. The [updated balanced rectangular frontier](../research/ai/2026-10-21-rectangular-ordinary-frontier/proof.md)\nuses the existing higher Hankel gates and excludes every improving ordinary\nsingle matrix shape through a=7. The original a=8 M(27,28,28) survivor was later closed by the\nrectangular saturation continuation; further ordinary frontiers are\ntracked by the rectangular direct-sum and finite-state packages. Singular A4 constructions\nremain open. The [one-sided partial-unit theorem](../research/ai/2026-10-23-one-sided-unit-image/proof.md)\nexcludes every Laurent pole order if one long map has a regular rank110\nlimit, the identity lift is regular and its image rank is at least107.\nThis was an intermediate regular-long-map threshold. The later\none-regular-leg theorem removes the unit-image and identity-lift\nhypotheses, and subsequent source-cap results restrict the singular case. The [highest-pole flag restrictions](../research/ai/2026-10-23-unit-image-pole-flags/proof.md)\nforce a first-map pole at rank106, with leading image in a source ruling\nof dimension at most four. Its complete principal part has rank at least\nsix and its pole order is at least two; no simple first-map pole is possible.\nAt ranks102 through105 a polar first map has\none fixed Hankel factor in its highest coefficient. These constrain only\nthe highest pole and do not fix the lower Laurent coefficients.\nThese highest-pole calculations remain scoped predecessor constraints;\nthey do not reopen a regular-long-map case excluded by the broader theorem."
+      ]
+    },
+    {
+      "conflict_id": 19,
+      "path": "docs/research_directions.md",
+      "source_commit": "3997d9d52119915126e2fab2b1127af78b5165f8",
+      "source_branch": "research/persistent-frontier-01a1697a",
+      "reason": "Retain the finite-cube exclusions as a checkpoint and separate them from the later actual-support Peirce refinement and higher-power degree-majorant barrier.",
+      "source_before": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. M19 and the one-central-factor\nM(13,14,14) remain outside that exclusion; their maps are still missing."
+      ],
+      "source_after": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes the one-copy M19 coordinate target and 38 additional shapes\nfrom the previous frontier. The one-central-factor M(13,14,14) remains\nopen, along with the two and nine remaining shapes listed in that proof.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search.",
+        "The [higher-power degree-cover boundary](../research/ai/2026-10-23-s5-higher-powers/proof.md)\nnow shows that no coordinate cover of the full separately bounded S5\ndegree majorant can exclude any of those eleven remaining targets at any\npower n>=36. This includes nonmonotone and three-unequal-leg covers of\nthat majorant. Finer actual support, other bases or decompositions, and\npowers below 36 remain separate questions; the theorem is not a lower\nbound on the actual source's slice rank."
+      ],
+      "resolution": [
+        "The [blockwise modular S5 bound](../research/ai/2026-10-21-s5-block-filtration/proof.md)\nexcludes coordinate/potential constructions of M20 and M(19,20,21) in\nS5 x C2^2, despite their passing the general complex rank-locus and full\nKoszul screens. Apply its all-power joint-rectangular inequality before\nsearching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)\nnow excludes the one-copy M19 coordinate target and 38 additional shapes\nfrom the previous frontier. At that checkpoint, the two one-central-factor shapes M(13,13,15)\nand M(13,14,14), together with nine two-central-factor shapes, were\nlisted for further work; use the finer covers below for the later frontier.\nGeneral complex maps and constructions from higher powers are separate\nquestions; do not restart the closed one-copy M19 coordinate search."
+      ]
+    },
+    {
+      "conflict_id": 20,
+      "path": "docs/research_directions.md",
+      "source_commit": "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+      "source_branch": "research/r5-isotropic-lift-20261023",
+      "reason": "Keep the advanced entropy-lift closure, concrete graph rows, and scoped potential barrier; remove the obsolete proposal to test the already closed lift.",
+      "source_before": [
+        "Status: open synthesis task. Compare the spectral route, the block-identities route, and the polynomial-separation improvement. Identify precisely which constraints survive symmetrization and which information the scalar relaxation discards.",
+        "Deliver a dependency map with cited lemmas and a candidate constraint absent from the current local model. Do not describe an existing external lemma as a local discovery."
+      ],
+      "source_after": [
+        "Status: open. The [route map](route-synthesis.md) compares the spectral,\nblock-identity, and polynomial-separation interfaces. The\n[entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to\nits scalar matched-decomposition inequalities, even when decompositions share\ndifferent legs. The exact Filmus convolution neighbor, square-tripling, and\ngeneral-tripling shared-leg identities, replication degeneration, and\ncomponentwise restrictions give concrete graph rows. The `P_*` potential\nbounds every certificate using those rows and input-swap symmetry. From any\nrectangular source `C(u,v)` of border rank `u+v-1` to a thin terminal\n`C(q,1)`, it gives `qL<=P_*(u,v)` and\n`P_*(u,v)^3<=(u+v-1)^4`, with equality only at `C(1,1)`. The general\n`C(q,1)` terminal isomorphism and replication/restriction wrappers are\nwritten but not locally formalized. A candidate constraint absent from the\nscalar profile must add other exact shared-leg maps or tensor-level data. The\npinned full oriented profile laws also admit the critical common shape at\nweights `(3/4,3/4,3/4)`, so those rows alone do not exclude the endpoint;\nthis screen is tracked as `AI-R5-ORIENTED-PROFILE-SCREEN-001`. A successful\ncertificate still needs\nnonnegative weights satisfying every balance and terminal inflow\n`L>1/d` with `(dL)^3>r^4`. No qualifying graph or smaller exponent has been\nestablished.\nThe scoped row-family obstruction is tracked as\n`AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.",
+        "Continue by finding and certifying additional identities or endpoints that\nescape the scalar potential barrier, or by finding a different tensor-level\nconstraint that excludes the critical spectral behavior. The numeric endpoint\ninequality alone is not a certificate. Keep external lemmas attributed to\ntheir sources."
+      ],
+      "resolution": [
+        "## R5: Compare external formulations before duplicating work",
+        "Status: open. The [route map](route-synthesis.md) compares the spectral,\nblock-identity, and polynomial-separation interfaces. The\n[entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to\nits scalar matched-decomposition inequalities, even when decompositions share\ndifferent legs. The exact Filmus convolution neighbor, square-tripling, and\ngeneral-tripling shared-leg identities, replication degeneration, and\ncomponentwise restrictions give concrete graph rows. The `P_*` potential\nbounds every certificate using those rows and input-swap symmetry. From any\nrectangular source `C(u,v)` of border rank `u+v-1` to a thin terminal\n`C(q,1)`, it gives `qL<=P_*(u,v)` and\n`P_*(u,v)^3<=(u+v-1)^4`, with equality only at `C(1,1)`. The general\n`C(q,1)` terminal isomorphism and replication/restriction wrappers are\nwritten but not locally formalized. A candidate constraint absent from the\nscalar profile must add other exact shared-leg maps or tensor-level data. The\npinned full oriented profile laws also admit the critical common shape at\nweights `(3/4,3/4,3/4)`, so those rows alone do not exclude the endpoint;\nthis screen is tracked as `AI-R5-ORIENTED-PROFILE-SCREEN-001`. A successful\ncertificate still needs\nnonnegative weights satisfying every balance and terminal inflow\n`L>1/d` with `(dL)^3>r^4`. No qualifying graph or smaller exponent has been\nestablished.\nThe scoped row-family obstruction is tracked as\n`AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.",
+        "Continue by finding and certifying additional identities or endpoints that\nescape the scalar potential barrier, or by finding a different tensor-level\nconstraint that excludes the critical spectral behavior. The numeric endpoint\ninequality alone is not a certificate. Keep external lemmas attributed to\ntheir sources."
+      ]
+    },
+    {
+      "conflict_id": 21,
+      "path": "docs/research_directions.md",
+      "source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_branch": "research/oblique-residual-koszul-01a1697a",
+      "reason": "Retain the 19 ordinary/18 border scalar repairs, exact residual-rank bounds and map-family controls; the unbounded small-repair family and zero-auxiliary target remain unconstructed.",
+      "source_before": [
+        "The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)\nreduces one sufficient route to genuine degenerations\n`Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c\nand `border_rank(R_n)=O(n)`. It would imply\n`omega < 30000/13433 < 2.2334`. The family is unconstructed. The active\npaired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)\nand the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,\nso it does not prove the fixed-width premise. The next numerical target\nis `Q(6,4) -> M(5,4,5)`, which lies beyond the recovered product-subspace\ndimension limit. A machine-precision numerical fit is discovery evidence\nonly. Deliver exact coefficient identities, then a proved unbounded\nextension with every auxiliary cost accounted for."
+      ],
+      "source_after": [
+        "The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)\nreduces one sufficient route to genuine degenerations\n`Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c\nand `border_rank(R_n)=O(n)`. It would imply\n`omega < 30000/13433 < 2.2334`. The family is unconstructed. The active\npaired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)\nand the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,\nso it does not prove the fixed-width premise. Changed long maps now give\nan [exact integer repair](../research/ai/2026-10-23-oblique-paired-repair/proof.md)\n`Q(6,4) + D_19 -> M(5,4,5)`, with residual ranks `(9,11,11)`.\nAn explicit [six-term core degeneration](../research/ai/2026-10-23-oblique-border-repair/proof.md)\nreduces the added border correction to eighteen scalars, while retaining\nthe nineteen-scalar ordinary correction. Its full polynomial maps and\ndisjoint-core family are certified; the small core has exact border rank\nsix. The full residual has ordinary rank exactly nineteen, while the\n[equalizer lower bound](../research/ai/2026-10-23-oblique-border-equalizer/proof.md)\nplaces its complex border rank between twelve and eighteen. This fixed\nresidual's optimal border rank remains open; a correction below twelve\nwould require changed source maps.\nThe resulting fixed-width family has quadratic first support and does\nnot meet the small-repair premise. The zero-auxiliary target\n`Q(6,4) -> M(5,4,5)` remains unconstructed. Useful next work includes\nsmaller certified scalar repairs, changed polynomial spaces or long maps,\nand an unbounded family with every auxiliary cost accounted for.\nA machine-precision numerical fit remains discovery evidence only.",
+        "The [surjective long-map benchmark and finite frontier](../research/ai/2026-10-23-oblique-longmap-frontier/README.md)\nmake the next change of map family more precise. The benchmark has both\nlong maps surjective and first residual nine. Arbitrary changes only to\nits four added output rows cannot improve that first rank: the fixed good\nprojection is injective on all thirty-six source first coordinates.\nThe 384 specified shift pairs and 61 valid mixed-middle corners also give\nno lower first residual, within their finite stated scopes. A new attempt\nmust change good output rows beyond these tested controls or use a\ndifferent limiting construction. Unrestricted long maps remain open.",
+        "Optimizing only the first map with the old product long maps is now\nsettled by the [exact residual-rank formula](../research/ai/2026-10-23-product-longmap-residual/README.md).\nFor every `n>=5` in characteristic different from two, the minimum first\nresidual rank is `(n-1)^2-max(9-n,1)^2`, attained by the old first map.\nA low-first-support construction must change at least one long map or\nuse a different limiting construction. The slice-space quotient formula\nin that proof gives an exact screen for new fixed long-map candidates;\nit does not exclude unrestricted long-map families or general degenerations."
+      ],
+      "resolution": [
+        "The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)\nreduces one sufficient route to genuine degenerations\n`Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c\nand `border_rank(R_n)=O(n)`. It would imply\n`omega < 30000/13433 < 2.2334`. The family is unconstructed. The active\npaired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)\nand the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,\nso it does not prove the fixed-width premise. Changed long maps now give\nan [exact integer repair](../research/ai/2026-10-23-oblique-paired-repair/proof.md)\n`Q(6,4) + D_19 -> M(5,4,5)`, with residual ranks `(9,11,11)`.\nAn explicit [six-term core degeneration](../research/ai/2026-10-23-oblique-border-repair/proof.md)\nreduces the added border correction to eighteen scalars, while retaining\nthe nineteen-scalar ordinary correction. Its full polynomial maps and\ndisjoint-core family are certified; the small core has exact border rank\nsix. The full residual has ordinary rank exactly nineteen, while the\n[equalizer lower bound](../research/ai/2026-10-23-oblique-border-equalizer/proof.md)\nplaces its complex border rank between twelve and eighteen. This fixed\nresidual's optimal border rank remains open; a correction below twelve\nwould require changed source maps.\nThe resulting fixed-width family has quadratic first support and does\nnot meet the small-repair premise. The zero-auxiliary target\n`Q(6,4) -> M(5,4,5)` remains unconstructed. Useful next work includes\nsmaller certified scalar repairs, changed polynomial spaces or long maps,\nand an unbounded family with every auxiliary cost accounted for.\nA machine-precision numerical fit remains discovery evidence only."
+      ]
+    },
+    {
+      "conflict_id": 22,
+      "path": "research/ACTIVE.md",
+      "source_commit": "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+      "source_branch": "research/pole-ruling-20261023",
+      "reason": "Preserve completed focused tests and five archive replays, explicitly retain the interrupted full-run limitation, and mark its mathematical frontier as a predecessor.",
+      "source_before": [
+        "The partial-unit-image continuation studies\n`ai/2026-10-23-regular-unit-image/QUESTION.md` on\n`research/regular-unit-image-20261023`. The written all-order argument\ncompresses to 109 independent unit-image directions and recovers the\nentire long map through varying left inverses. It replaces an invertible\nA4 unit by `rank(S(0) C(0))>=109`, including corank-one unit slices.\nExact matrix controls, all849 local tests (three optional skips) and\nall five archive replays pass. Final-head hosted CI is pending;\nthe proof remains unreviewed. Rank108 is an equality boundary of this\nmethod. Singular long-leg limits and polar units remain open; no general\ndegeneration or exponent claim."
+      ],
+      "source_after": [
+        "The one-sided unit-image continuation is published in PR121 on\n`research/verified-frontier-20261023`, from main `1c04903`.\nIts [written proof](ai/2026-10-23-one-sided-unit-image/proof.md) strengthens\nregularity to `rank(S(0) C(0))>=107`, retaining a regular full-rank long\nmap and regular identity lift. All target rows are kept and the final\nkernel count uses the original long map. Five focused and18 metadata\ntests pass; full regression, archive replay and hosted CI are pending.\nThis supersedes the earlier rank108 equality boundary of the partial-unit\nmethod, without changing the prior pinned proof. Unit-image rank at most106,\nsingular long-leg limits and polar lifts remain open. No exponent improvement\nor independent mathematical review is claimed."
+      ],
+      "resolution": [
+        "The one-sided unit-image continuation is published in PR121 on\n`research/verified-frontier-20261023`, from main `1c04903`.\nIts [written proof](ai/2026-10-23-one-sided-unit-image/proof.md) strengthens\nregularity to `rank(S(0) C(0))>=107`, retaining a regular full-rank long\nmap and regular identity lift. All target rows are kept and the final\nkernel count uses the original long map. Five focused and18 metadata\ntests pass, as do all five archive replays. Current-head hosted full\nregression is pending; the prior interrupted local full run is not a\ncompletion claim.\nThis supersedes the earlier rank108 equality boundary of the partial-unit\nmethod, without changing the prior pinned proof. The later one-regular-leg theorem supersedes this unit-image threshold;\nsubsequent singular-long-rank and source-cap results refine the remaining\nsingular case. No exponent improvement\nor independent mathematical review is claimed."
+      ]
+    },
+    {
+      "conflict_id": 23,
+      "path": "research/ACTIVE.md",
+      "source_commit": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+      "source_branch": "research/verified-frontier-20261023",
+      "reason": "Preserve completed focused tests and five archive replays, explicitly retain the interrupted full-run limitation, and mark its mathematical frontier as a predecessor.",
+      "source_before": [
+        "The partial-unit-image continuation studies\n`ai/2026-10-23-regular-unit-image/QUESTION.md` on\n`research/regular-unit-image-20261023`. The written all-order argument\ncompresses to 109 independent unit-image directions and recovers the\nentire long map through varying left inverses. It replaces an invertible\nA4 unit by `rank(S(0) C(0))>=109`, including corank-one unit slices.\nExact matrix controls, all849 local tests (three optional skips) and\nall five archive replays pass. Final-head hosted CI is pending;\nthe proof remains unreviewed. Rank108 is an equality boundary of this\nmethod. Singular long-leg limits and polar units remain open; no general\ndegeneration or exponent claim."
+      ],
+      "source_after": [
+        "The one-sided unit-image continuation is published in PR121 on\n`research/verified-frontier-20261023`, from main `1c04903`.\nIts [written proof](ai/2026-10-23-one-sided-unit-image/proof.md) strengthens\nregularity to `rank(S(0) C(0))>=107`, retaining a regular full-rank long\nmap and regular identity lift. All target rows are kept and the final\nkernel count uses the original long map. Five focused and18 metadata\ntests pass, as do all five archive replays. Current-head hosted full\nregression is pending; the prior interrupted local full run is not a\ncompletion claim.\nThis supersedes the earlier rank108 equality boundary of the partial-unit\nmethod, without changing the prior pinned proof. Unit-image rank at most106,\nsingular long-leg limits and polar lifts remain open. No exponent improvement\nor independent mathematical review is claimed."
+      ],
+      "resolution": [
+        "The one-sided unit-image continuation is published in PR121 on\n`research/verified-frontier-20261023`, from main `1c04903`.\nIts [written proof](ai/2026-10-23-one-sided-unit-image/proof.md) strengthens\nregularity to `rank(S(0) C(0))>=107`, retaining a regular full-rank long\nmap and regular identity lift. All target rows are kept and the final\nkernel count uses the original long map. Five focused and18 metadata\ntests pass, as do all five archive replays. Current-head hosted full\nregression is pending; the prior interrupted local full run is not a\ncompletion claim.\nThis supersedes the earlier rank108 equality boundary of the partial-unit\nmethod, without changing the prior pinned proof. The later one-regular-leg theorem supersedes this unit-image threshold;\nsubsequent singular-long-rank and source-cap results refine the remaining\nsingular case. No exponent improvement\nor independent mathematical review is claimed."
+      ]
+    },
+    {
+      "conflict_id": 24,
+      "path": "research/ACTIVE.md",
+      "source_commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "source_branch": "research/rectangular-sum-frontier-20261021",
+      "reason": "Retain the intermediate ordinary-scan checkpoint and its merge/test receipt while pointing to the later conditional finite-state closure of its last survivor.",
+      "source_before": [
+        "The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)\nnow uses the existing polynomial and higher Hankel gates. Every improving\nsingle ordinary shape through a7 is excluded; a8 has only M(27,28,28)\nleft by these tests. This is an unconstructed candidate for the constructive\nsource campaign. The quantum worker's separate positive question remains\na higher-rank completion of the A4 integrable boundary shear. PR61 merged\nat e24894f after current checks, with exact tested/merged tree equality;\nits completed task branches are removed."
+      ],
+      "source_after": [
+        "The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)\nnow uses the existing polynomial and higher Hankel gates. Every improving\nsingle ordinary shape through source leg dimension1152 is now excluded\nby the later saturation and two-ruling arguments. This closes both the\nformer A88 to M(27,28,28) and A89 to M30 ordinary candidates. Singular\ndegenerations remain open. The only ordinary survivor through dimension1500\nis A(8,10) to M(32,33,33), with no maps supplied; see the two-ruling proof\nand `ai/2026-10-21-rectangular-direct-sums/next_ordinary_target.md`. The quantum worker's separate positive question remains\na higher-rank completion of the A4 integrable boundary shear. PR61 merged\nat e24894f after current checks, with exact tested/merged tree equality;\nits completed task branches are removed."
+      ],
+      "resolution": [
+        "The [balanced ordinary rectangular scan](ai/2026-10-21-rectangular-ordinary-frontier/QUESTION.md)\nnow uses the existing polynomial and higher Hankel gates. Every improving\nsingle ordinary shape through source leg dimension1152 is now excluded\nby the later saturation and two-ruling arguments. This closes both the\nformer A88 to M(27,28,28) and A89 to M30 ordinary candidates. Singular\ndegenerations remain open. At this checkpoint, the only ordinary survivor through dimension1500\nwas A(8,10) to M(32,33,33), with no maps supplied; see the two-ruling proof\nand `ai/2026-10-21-rectangular-direct-sums/next_ordinary_target.md`. The quantum worker's separate positive question remains\na higher-rank completion of the A4 integrable boundary shear. PR61 merged\nat e24894f after current checks, with exact tested/merged tree equality;\nits completed task branches are removed.\nThe later [critical finite-state argument](ai/2026-10-21-rectangular-direct-sums/critical_finite_states.md)\ncloses that last ordinary candidate through dimension1500 under its\nwritten, unreviewed premises. It does not classify singular degenerations."
+      ]
+    },
+    {
+      "conflict_id": 25,
+      "path": "research/ACTIVE.md",
+      "source_commit": "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+      "source_branch": "research/integration-validation-20261023",
+      "reason": "Adopt projective normal-class coverage while preserving the distinction from fixed lower jets, the separate12-by8 incidence, and the full matrix target.",
+      "source_before": [
+        "The affine-conic continuation studies\n`ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module\nhas dimension70:68 independent boundary fields and two conic normals.\nThe full second-order criterion for a nonzero normal class is\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity\nand moving source kernel. A polynomial two-jet on c=-d^3 is exported;\nits uncorrected third coefficient is nonzero. Next: actual higher-order\nlifting on that cubic component, with the14-row local incidence kept\ndistinct from the full matrix target. Other base charts and the12-by8\ncase remain open. Written, unreviewed, no smaller exponent."
+      ],
+      "source_after": [
+        "The affine-conic continuation studies\n`ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module\nhas dimension70:68 independent boundary fields and two conic normals.\nThe full second-order criterion for a nonzero normal class is\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity\nand moving source kernel. A polynomial two-jet on c=-d^3 is exported;\nits uncorrected third coefficient is nonzero. The later polynomial\ncurve above establishes all-order existence after changing boundary\nvelocity. Keep this14-row local incidence distinct from the full matrix\ntarget and from fixed lower-jet extension. The projective base coverage is\nnow supplied above; the separate 12-by-8 case remains open. Written,\nunreviewed, no smaller exponent."
+      ],
+      "resolution": [
+        "The affine-conic continuation studies\n`ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module\nhas dimension70:68 independent boundary fields and two conic normals.\nThe full second-order criterion for a nonzero normal class is\n`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity\nand moving source kernel. A polynomial two-jet on c=-d^3 is exported;\nits uncorrected third coefficient is nonzero. The later polynomial\ncurve above establishes all-order existence after changing boundary\nvelocity. Keep this14-row local incidence distinct from the full matrix\ntarget and from fixed lower-jet extension. The projective base coverage is\nnow supplied above; the separate 12-by-8 case remains open. Written,\nunreviewed, no smaller exponent."
+      ]
+    }
+  ],
+  "same_package_summary_decisions": [
+    {
+      "path": "STATUS.md",
+      "prefix": "The [conic second-jet proof]",
+      "replaced_variants": 1,
+      "reason": "Combine affine tangent/jet result, exact d=0 fixed two-jet curve, and projective normal-class continuation without claiming extension of every prescribed jet or the full matrix target.",
+      "before_sha256": [
+        "4ce6ad84eabe0dc41fd77ebc2406a664d2de940d52daff2baf1a2a8d8a5289af"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [partial-unit-image argument]",
+      "replaced_variants": 2,
+      "reason": "Keep the rank109 proof and all method-specific successors, but supersede its obsolete open unit-image thresholds by the broader one-regular-leg and source-cap continuations.",
+      "before_sha256": [
+        "417e5f4449c8ebb8cd0eb4167dd4c79be7a202dd5da2a745660013f30c95e05c",
+        "5e985516c27341169095c28a25ba19161a21515036ab36434d758f8442cbc036"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [fixed-resolvent certificate]",
+      "replaced_variants": 1,
+      "reason": "Preserve the scope-pinned first-party audit and update the previously open fixed-space classification, without turning the internal audit into independent review.",
+      "before_sha256": [
+        "46a5640f67b1d0d24962ef4595f21c803b2affbf1f9344e455af0092d12c22c8"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [symmetric-power rank argument]",
+      "replaced_variants": 2,
+      "reason": "Keep the corrected partial-sum score statement; the earlier blanket operational-potential wording is superseded.",
+      "before_sha256": [
+        "ead7103e94f209fe8438e1969a32d8b1339e5327ed3aedf9013074eb5bcf6fdd",
+        "42f36c69ce54f381f10527a19d38156cf2007ff23b7d52f5e807065bdce09f88"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [all-order criterion]",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "04ecbe6dac92f281e5097ca732543f28c40af71c28002b12ff10898a23cffa5c",
+        "fc365b4644318fa295a304727fddb94a47839d65afffb1eef1cfbc07dc8e770c"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [higher-jet proof]",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "801a0ab30e9a6cf2ac0ba3c712914a3ac236843018f682800505bb65001745aa",
+        "7fd2e5202ff9ffcc4718b29d0bbd4b317c4befffb11ad7a78e21e873077f8a25"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [third-jet witness]",
+      "replaced_variants": 4,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "6d2de784046a41e76d402fb61cc3757d4fda788d2ea8cc404d75644fd27b5479",
+        "cd7cede937e17d3ea0eedd05c8b1988eb07bb8bb8bbf800f4aef4d004bd91965",
+        "93caf1097ca177e2b3a91919b62b7798e520774de54be1816a9a369ecbc9c917",
+        "b0375b7bdb8be7fe8d0ffa81fbb58135b81b8d7bc47724e3acb6ffa71d791f4c"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [singular-long-rank proof]",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "3f21d3252455d67d89fe16ca8f38d2182e24e217e346f95ecae0fc7a1e1152cf",
+        "19ca29923a06925a9d8ac2e8307df80437be306214c3a59cbf237e0e003eaba1"
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "prefix": "The [rank-80 source-space proof]",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "bf7a64b00ee8b8aad425cb5e2d8691f18001877ccc388dd8dec9ea90642ff758",
+        "ab8065d093acf5caff412817836a34b5ffb5d4e011b36faa9a6669c290570360"
+      ]
+    },
+    {
+      "path": "PROVENANCE.md",
+      "prefix": "The `2026-10-23-conic-higher-jets` package",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "cf260a38c3e50339d625f80e66bf487865551e1d71f41a5f5177f0a071698236",
+        "acab24d73ee2b4a50911a90ae78a071bdb42e2553bf7ea9fafdb2226512cec73"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [fixed-resolvent minimum-rank certificate]",
+      "replaced_variants": 3,
+      "reason": "Unite minrank, all distinct rank-six classifications, and the all-field loss-seven bound; advance the structural question to total loss eight while preserving earlier pilots and general singular-scope limits.",
+      "before_sha256": [
+        "85efb6fdfac0e2753f4c5fb1d0b66d03db0d7318b22ca4ad016bd27ee3659d61",
+        "10fd5045410d1c75381224aa06723bbe46c7857f4224f3826f8c6c90093649fd",
+        "8bfaedd39380c81558cd796b9d68e659649b56eb94dd2a4c67b7cede6793b1e9"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [one-regular-long-leg A4 obstruction]",
+      "replaced_variants": 2,
+      "reason": "Retain the unit-hypothesis removal and singular-gap extension as historical methods, deferring current frontier selection to the later integrated source-space bounds.",
+      "before_sha256": [
+        "e98b2a49559e460d2dfc3dea694dfe7d3f8073bef755ef4455c152b47cd8cc1c",
+        "2ee36fda70fac88123ed32aea1a2f0ce1e5c241d06b877220dc495ac195b75cc"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [invertible leading-kernel continuation]",
+      "replaced_variants": 1,
+      "reason": "Keep the general leading-kernel lemma and record sum204 as a weaker method-specific A4 corollary, rather than reopening a superseded interval.",
+      "before_sha256": [
+        "b17b93c0d240ded95b368c1f408c9ee297e08a8c6b58e303e87b391a96dba5b4"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [blockwise modular S5 bound]",
+      "replaced_variants": 1,
+      "reason": "Retain the finite-cube exclusions as a checkpoint and separate them from the later actual-support Peirce refinement and higher-power degree-majorant barrier.",
+      "before_sha256": [
+        "55ee5ca8a6d968132df7e49aa241d17b7c604c028a5b9b75c0992e03cd8b9806"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [finer full-source covers]",
+      "replaced_variants": 1,
+      "reason": "Keep the five additional actual-support exclusions and the four named surviving two-central-factor shapes, with the triple-degree budget caveat.",
+      "before_sha256": [
+        "8507a1e2e26119d99f35436c014543af7be963707561bcccc003730bc2fae192"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [higher-power degree-cover boundary]",
+      "replaced_variants": 1,
+      "reason": "Preserve the n>=36 theorem for its separately bounded degree majorant and pinned target list, without converting it into a lower bound on actual source slice rank.",
+      "before_sha256": [
+        "240adc3cbc0a17fbc6d41865e4f4ab8d77d0d4b257f7680ef1e1f9208ddeb006"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "A [smaller sufficient target]",
+      "replaced_variants": 1,
+      "reason": "Keep the fuller highest-pole flag restrictions discarded by the competing shorter edit; mark their unit-image thresholds and ordinary survivors as superseded checkpoints.",
+      "before_sha256": [
+        "2068783300599014a131e01092f05341a430e20033ddf1ac7cd0d4fb08fac273"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [linear-correction criterion]",
+      "replaced_variants": 1,
+      "reason": "Retain the 19 ordinary/18 border scalar repairs, exact residual-rank bounds and map-family controls; the unbounded small-repair family and zero-auxiliary target remain unconstructed.",
+      "before_sha256": [
+        "5195f2f2608134baf936d780de49c2ed2dd070b8d28cbaf7c1478beab201bc40"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [surjective long-map benchmark and finite frontier]",
+      "replaced_variants": 1,
+      "reason": "Retain the 19 ordinary/18 border scalar repairs, exact residual-rank bounds and map-family controls; the unbounded small-repair family and zero-auxiliary target remain unconstructed.",
+      "before_sha256": [
+        "7bd1b20b5b5651215f82a274002e91ae73e19780a0ecb6e2983de1979fb3cbe3"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "Optimizing only the first map with the old product long maps",
+      "replaced_variants": 1,
+      "reason": "Retain the 19 ordinary/18 border scalar repairs, exact residual-rank bounds and map-family controls; the unbounded small-repair family and zero-auxiliary target remain unconstructed.",
+      "before_sha256": [
+        "09e489ad4c41d534bb75a4e116453c57ecbc3ed6b8371d5162627dd06df4d57b"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [prescribed third-jet criterion]",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "2f0fab0657add9642395fee9489787edb05c2d66d1dbec50c4df48dcdbfc2020",
+        "f0792d2f18b750779f71b623d23eb5baa3d13d4d3a982a6e30c2464bf299f109"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [fixed-two conic curve]",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "ce4d33c2594e46bd423788f1136379f7e399bb01c3d9ee8a0134961dbf1b2232",
+        "adbb371ea1d5cea722e0c1cb598a4fe5afa9a3d111cad74c717606aeaaa30f70"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [polynomial conic curve]",
+      "replaced_variants": 2,
+      "reason": "Combine the fifteenth-order prescribed-jet continuation with the projective normal-class closure; retain the distinction between fixed jets, variable boundary velocities, and the matrix target.",
+      "before_sha256": [
+        "78d48f9fb668f6ff89c90f5e7be55224aec0b6fbc0c35f7be8d821accfdc04b2",
+        "3160c3b93cb8ecfee5e5a261b08f15e335f3536b15adfb3000bae1e94cfad63c"
+      ]
+    },
+    {
+      "path": "docs/research_directions.md",
+      "prefix": "The [rank-80 source theorem]",
+      "replaced_variants": 2,
+      "reason": "Retain the source-cap correction from50 to44 while preserving the earlier sum144 consequence and individual-rank bound as valid scoped checkpoints.",
+      "before_sha256": [
+        "e638063cf2ddc5ab0df4f4680c5dd27d4bb764fb527371941f3a08ed416c7717",
+        "9ed6088d214ed885af08073e6eef63e30055819209fe6808f85e08cb48632e56"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The one-sided unit-image continuation is published",
+      "replaced_variants": 2,
+      "reason": "Preserve completed focused tests and five archive replays, explicitly retain the interrupted full-run limitation, and mark its mathematical frontier as a predecessor.",
+      "before_sha256": [
+        "6d50c26ab525c719537cfc0d6ac62b8fb1e62c120ce84683d4ac82845b86e423",
+        "7f5e93249a7b06f83a41227fccc4299bd6401680597e437a21f64a36d258b75c"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The [balanced ordinary rectangular scan]",
+      "replaced_variants": 1,
+      "reason": "Retain the intermediate ordinary-scan checkpoint and its merge/test receipt while pointing to the later conditional finite-state closure of its last survivor.",
+      "before_sha256": [
+        "a703ad156d698b03db26843b467ae57d3f56002e8dd45b804b109ace2e8df55a"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The affine-conic continuation studies",
+      "replaced_variants": 1,
+      "reason": "Adopt projective normal-class coverage while preserving the distinction from fixed lower jets, the separate12-by8 incidence, and the full matrix target.",
+      "before_sha256": [
+        "12f9f5839371c1f5686e04712a03cb96d9595e2f0344a904b4bc3c9d558d872a"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The prescribed full third-jet question",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "2e9ca298b2fd136098b4e92d31f65a5d51524badb959960a5522155ccf3f080a",
+        "7ffcd47d6d2f517e96ff66d958940e220bc6c62d3c066fe0f470b9375ef430f7"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The prescribed full two-jet question",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "b1f96e46c5475c5beaea3e5ae870e14793e921e5e3488063729c5b94550e9a39",
+        "7623c6a9f1cd9fc22979bff4b2643acaf0d3147e76dbdb2a7ef9698044bc3431"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The October23 continuation on `research/conic-third-order",
+      "replaced_variants": 3,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "0b5c733b39e36a2821d2980c6ac97eaf9cb3495ba0a6a10ae7d2f7af7125e77b",
+        "537ae8bf284ee1484a1f6a604e1ec10cd87520c03ddcd8de3b99eb28ec68aa88",
+        "35f30a7c2bd7fbbc2a97788e14b7362493ee8ef93c2ff528e6a3d86d82b86b12"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The October23 polynomial-conic continuation",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "2ea717f64ff32957de9a04fefb172a2e70001c6c1dfb2912fb5639358b6f35ed",
+        "c07f34440ac27080aa144cf6933b87347d0e4ee0404a044ee2b5aea01d6d3c89"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The October23 higher-conic continuation",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "a6cc0c21447d1ad2ae2d17a6f429e964ad093c8ed1467e0a9dc1b752a2e03c93",
+        "7df66932b3b4e4c0660b3b56a8f504815afaea7c2bbb6037fe5fa75c14d5b615"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The October 23 singular-long-rank continuation",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "73b7a64a69928be34f5522d22fdad6ef20ad43cde4c315a14638625924382554",
+        "2ea9e47d728fc9b652c8c61bc3903615a71228701ceddb0a16830b45e82cbf7d"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The next source-frontier checkpoint",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "a635439a84a21666b5311d3d05dee207adfde2952ecc762e36e76bcf662154e0",
+        "73bd609d5145fe85e7925e7332d1e6f8ecfb78eb2304a5184cb85d4f95ba73ed"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The next source-frontier checkpoint",
+      "replaced_variants": 1,
+      "reason": "Keep the resolved rank80 source question and mark sum144 as the originating checkpoint rather than the final frontier.",
+      "before_sha256": [
+        "73bd609d5145fe85e7925e7332d1e6f8ecfb78eb2304a5184cb85d4f95ba73ed"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The partial-frame continuation",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "1496dda6e321a5ed5db66279887e4b7b9ee31588e9379f1cc8dede6ac1967bc1",
+        "fed5cfc40f5184906bc58c4338c7c5eedf14c2f7fb5c338f47990abe80d99f58"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The partial-unit-image continuation",
+      "replaced_variants": 2,
+      "reason": "Retain the expanded or corrected same-package summary and remove superseded duplicate wording.",
+      "before_sha256": [
+        "636a74297113a32ce9abd103f3669bc0b9d650f380845c420798ec095d572b61",
+        "d23f4d03ba0b0ec3ce7ffa2ccbeb69bb4573b3706043fc4b94f17d725178421a"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The partial-unit-image continuation",
+      "replaced_variants": 1,
+      "reason": "Keep the completed849-test and archived-replay receipt, with an explicit historical-scope notice.",
+      "before_sha256": [
+        "636a74297113a32ce9abd103f3669bc0b9d650f380845c420798ec095d572b61"
+      ]
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "prefix": "The S5 finite-cover continuation is on",
+      "replaced_variants": 2,
+      "reason": "Retain the completed pinned hosted regressions and archive replays, while keeping the interrupted local full run distinct from final merged-head CI.",
+      "before_sha256": [
+        "f70673bbafbcbf1ec49f7138ae52bcc325a02f21833d5914a3174f7c4665780d",
+        "30824a05bb79bafb8d7e90d8d406d4670b68d0ee76ab4db309c4bb4d85c56f3c"
+      ]
+    }
+  ],
+  "source_specific_replacements": {
+    "573fdf35e7b50695b84071c9688abf9aa2c2513f": {
+      "research/ai/2026-10-23-oblique-koszul-atlas/": "research/ai/2026-10-23-oblique-koszul-atlas-extended/",
+      "ai/2026-10-23-oblique-koszul-atlas/": "ai/2026-10-23-oblique-koszul-atlas-extended/",
+      "2026-10-23-oblique-koszul-atlas": "2026-10-23-oblique-koszul-atlas-extended",
+      "results/oblique-koszul-atlas-2026-10-23/": "results/oblique-koszul-atlas-extended-2026-10-23/",
+      "EXP-OBLIQUE-KOSZUL-ATLAS-001": "EXP-OBLIQUE-KOSZUL-ATLAS-EXTENDED-001"
+    },
+    "4dc3be14fbcacc8c94e16b317026e9205223a6b8": {
+      "research/ai/2026-10-23-resolvent-rank-six-locus/": "research/ai/2026-10-23-resolvent-rank-six-frontier/",
+      "ai/2026-10-23-resolvent-rank-six-locus/": "ai/2026-10-23-resolvent-rank-six-frontier/",
+      "2026-10-23-resolvent-rank-six-locus": "2026-10-23-resolvent-rank-six-frontier",
+      "results/resolvent-rank-six-locus-2026-10-23/": "results/resolvent-rank-six-frontier-2026-10-23/",
+      "AI-RESOLVENT-RANK-SIX-LOCUS-001": "AI-RESOLVENT-RANK-SIX-FRONTIER-001"
+    },
+    "68cb1da851a2b8308584fdc2d30e4519bf1a6a92": {
+      "research/ai/2026-10-23-resolvent-rank-six-locus/": "research/ai/2026-10-23-resolvent-rank-six-frontier/",
+      "ai/2026-10-23-resolvent-rank-six-locus/": "ai/2026-10-23-resolvent-rank-six-frontier/",
+      "2026-10-23-resolvent-rank-six-locus": "2026-10-23-resolvent-rank-six-frontier",
+      "results/resolvent-rank-six-locus-2026-10-23/": "results/resolvent-rank-six-frontier-2026-10-23/",
+      "AI-RESOLVENT-RANK-SIX-LOCUS-001": "AI-RESOLVENT-RANK-SIX-FRONTIER-001"
+    },
+    "91600161075b39c67fd7972a8528eb0d871f562b": {
+      "research/ai/2026-10-23-resolvent-rank-six-locus/": "research/ai/2026-10-23-resolvent-rank-six-finite/",
+      "ai/2026-10-23-resolvent-rank-six-locus/": "ai/2026-10-23-resolvent-rank-six-finite/",
+      "2026-10-23-resolvent-rank-six-locus": "2026-10-23-resolvent-rank-six-finite",
+      "results/resolvent-rank-six-locus-2026-10-23/": "results/resolvent-rank-six-finite-2026-10-23/",
+      "AI-RESOLVENT-RANK-SIX-LOCUS-001": "AI-RESOLVENT-RANK-SIX-FINITE-001"
+    },
+    "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f": {
+      "AI-RESOLVENT-RANK-SIX-LOCUS-001": "AI-RESOLVENT-RANK-SEVEN-GAP-001"
+    },
+    "63809d8e2dc0a13061bf30fbe7788b327fc01692": {
+      "AI-RESOLVENT-RANK-SIX-LOCUS-001": "AI-RESOLVENT-RANK-SEVEN-GAP-001"
+    },
+    "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d": {
+      "EXP-ORDERED-MONOMIAL-CENSUS-001": "EXP-ORDERED-MONOMIAL-SEARCH-CENSUS-001"
+    }
+  },
+  "source_reports": [
+    "change_index.json",
+    "docs_paragraph_conflicts.json",
+    "claims_output/resolution_report.json",
+    "code_resolution.json"
+  ],
+  "unresolved_semantic_conflicts": [],
+  "delegated_final_steps": {
+    "README.md": "Root owns the README union and its separate resolution record."
+  },
+  "excluded_ownership": [
+    "conic-d0-cubic package",
+    "resolvent-rank-six-locus and disambiguated variants",
+    "oblique-koszul-atlas and extended variant",
+    "paired-bundle-injectivity conflict files",
+    "regular-unit-image conflict files"
+  ],
+  "preservation_policy": "No theorem evidence status is promoted. Exact historical versions remain in frozen source commits and archive refs; narrative duplicates are superseded only with recorded source and scope rationale.",
+  "catchup_report": "docs_catchup_resolution.json"
+}

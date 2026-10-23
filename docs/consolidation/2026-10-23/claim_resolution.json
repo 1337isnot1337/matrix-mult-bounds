@@ -9335,6 +9335,27 @@
       }
     ],
     "claims_after": 602,
-    "initial_report": "resolution_report.initial.json"
+    "initial_report": "resolution_report.initial.json",
+    "additional_heads": {
+      "source": "final_catchup_plan.json",
+      "checks": [
+        {
+          "branch": "research/full-target-reconstruction-20261023-ab94",
+          "source_sha": "331801579b19b64f2441a7aab8b566f9d6b02666",
+          "delta_base": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+          "claim_records": 297,
+          "ledger_record_map_sha256": "cdb7b6c9bec98466305217a9bad9624f812e69b570220353c878b0d9afdd4590",
+          "decision": "The actual base-relative claim ledger is unchanged; retain all prior reconciliation decisions and evidence statuses."
+        },
+        {
+          "branch": "research/scalar-finite-slope-lean-20261023",
+          "source_sha": "1e49ea05647939e3bb010404e5d22a1c66d30294",
+          "delta_base": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+          "claim_records": 296,
+          "ledger_record_map_sha256": "c79890634dea54864d0251694bdcf7ba845bc8d9322da3755bc4314459f6c1b2",
+          "decision": "The actual base-relative claim ledger is unchanged; retain all prior reconciliation decisions and evidence statuses."
+        }
+      ]
+    }
   }
 }

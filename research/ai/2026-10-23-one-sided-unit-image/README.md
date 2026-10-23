@@ -1,14 +1,17 @@
 # One-sided partial-unit regularity
 
 **Disposition:** [superseded by stronger concurrent proofs](DISPOSITION.md).
-This scoped derivation is retained on a closed unmerged branch.
+At its originating checkpoint, this scoped derivation was retained on a
+closed unmerged branch. It is included here for provenance alongside the
+stronger concurrent proofs.
 
 The [written proof](proof.md) improves the regular unit-image threshold
 for the canonical A4 to M(10,10,11) degeneration chart from 109 to 107.
 It retains the hypotheses of a regular full-rank long map and a regular
 source lift of the target identity. Every finite Laurent pole order is
-covered. Unit-image rank at most 106, singular long-leg limits and polar
-identity lifts remain open.
+covered. Unit-image rank at most106, singular long-leg limits, and polar identity
+lifts lie outside this proof. Later one-regular-leg and source-cap results
+supersede portions of that earlier open frontier.
 
 The changes are the one-sided target loss `nu-e` and the full-column
 source kernel bound `dim(A)-mu_B+k`. The prior two-sided target loss was

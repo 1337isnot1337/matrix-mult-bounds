@@ -6209,7 +6209,7 @@
       "origin": "Owner-directed AI-assisted research",
       "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
-      "statement": "For every field K, 2<=a<=b and every nonzero f=u(x)+z*v(x) with deg u,deg v<a, the literal coefficient matrix R_(a,b)(f) has rank ab+min(b,a*d), where d is max(deg(u/g),deg(v/g)) for nonzero u,v with g=gcd(u,v), and d=0 when either coefficient is zero. All d=0,...,a-1 occur.",
+      "statement": "For every field K, a,b>=2 and every nonzero f=u(x)+z*v(x) with deg u,deg v<a, the literal coefficient matrix R_(a,b)(f) has rank ab+min(b,a*d), where d is max(deg(u/g),deg(v/g)) for nonzero u,v with g=gcd(u,v), and d=0 when either coefficient is zero. All d=0,...,a-1 occur.",
       "dependencies": [
         "Exact source convention in research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md pinned at git blob 04d28c6a05027a7756891f47d28327de850a7501",
         "Complete all-column polynomial syzygy parametrization in proof.md"
@@ -10566,6 +10566,60 @@
         "Exact finite tensor and symbol replay in verify.py (five cases)"
       ],
       "limitations": "Only ordinary linear restrictions with both long maps locally Toeplitz; no constraint on first map or exceptional-column maps. Does not cover variable-coefficient bulk maps, linear-size exceptional sets, nonlinear cross-leg maps or singular Laurent cancellations. Finite tests do not prove the theorem. No actual omega improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "origin": "Owner-directed OpenAI Codex research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-A4-TWOSIDED-COORDINATE-002",
+      "title": "Complete principal coordinate-compression exclusion for the two-sided A4 family",
+      "section": "5",
+      "statement": "For all 6216 two-element subsets of the 112 normalized coordinates, the principal 110-coordinate projection of the certified two-sided conjugation limit has dimension at least 108 over C. Complete replay gives modular rank histogram 108:3, 109:4, 110:221, 111:211, 112:5777 over F1009. Each modular rank is only used as a complex lower bound. Since at most four leading directions are lost, all these principal compressions are excluded by the nine-direction requirement.",
+      "dependencies": [
+        "AI-A4-TWOSIDED-RANKLOSS-001",
+        "Exact integer limiting-space certificate and exhaustive coverage of every two-coordinate principal deletion",
+        "Modular nonzero-minor lower certificates for complex matrix rank"
+      ],
+      "limitations": "A complete finite computer-assisted exclusion of principal coordinate compressions in the stated normalized basis and fixed conjugation family. It does not exclude arbitrary constant compressions, certify equality of modular and complex ranks, or construct the target. Written and unreviewed; no formalization or exponent improvement."
+    },
+    {
+      "origin": "Owner-directed OpenAI Codex research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+      "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+      "section": "1-4",
+      "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+      "dependencies": [
+        "Credited literal cyclic A4 source and unimodular source-unit normalization",
+        "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+        "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+      ],
+      "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The necessary rank-loss locus is not classified. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+    },
+    {
+      "id": "AI-AGGREGATION-29-001",
+      "title": "Exact aggregation of 29 independent matrix products with a uniform cost gain",
+      "origin": "Owner-directed Codex local combinatorial construction; external aggregation mechanism credited",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+      "statement": "For every positive integer n over every characteristic-zero field, an explicit family of 29 balanced tripartitions proves rank(M(n^3,n^3,n^3)^direct_sum29)<=x^9+9x^8+36x^7+3x^6, x=n+1. Complete set-based enumeration checks all 24389 mixed triples, of which 23072 off-diagonal terms vanish by centering and 1288 by 48 explicit corrections. The bound per output is strictly smaller than the cited external 28-product bound for every n, by the polynomial identity29*r28-28*r29=x^6*(x^3+9*x^2+7*x+32)>0.",
+      "dependencies": [
+        "Solomonik and Blaeser arXiv:2610.26563v2 centering and inclusion-exclusion aggregation; external ex28 comparison witness",
+        "Exported29-product family and full exact mixed-triple certificate",
+        "Written rational dual-embedding tensor identity over characteristic zero",
+        "Weighted AM-GM and exact integer certificate for the displayed cost limitation"
+      ],
+      "limitations": "Weighted AM-GM with exact integer margin proves the stated rank upper-bound polynomial cannot reach 9/4 by direct asymptotic-sum substitution for any local dimension; this is not a lower bound on optimal tensor rank. Improves one attained finite aggregation family and its cost per output. No polynomial-source restriction, historical priority, independent mathematical review or Lean formalization is claimed. The scalar finite-field evaluation is an implementation control, not the uniform proof.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
