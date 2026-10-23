@@ -117,7 +117,12 @@ screen. The [updated balanced rectangular frontier](../research/ai/2026-10-21-re
 uses the existing higher Hankel gates and excludes every improving ordinary
 single matrix shape through a=7. At a=8, M(27,28,28) is the sole sorted
 necessary-test survivor; its maps remain missing. Singular A4 constructions
-remain open.
+remain open. The [one-sided partial-unit theorem](../research/ai/2026-10-23-one-sided-unit-image/proof.md)
+excludes every Laurent pole order if one long map has a regular rank110
+limit, the identity lift is regular and its image rank is at least107.
+In that regular-long-map chart, continue only at unit-image rank at
+most106 or with a polar identity lift; singular long-leg limits are a
+separate open class.
 
 ## R5: Compare external formulations before duplicating work
 

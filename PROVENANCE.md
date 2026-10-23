@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-23-one-sided-unit-image` package is owner-directed Codex
+continuation. The canonical source, its minimum slice ranks, ordinary A4
+exclusion, regularized Laurent rank argument and independent partial-unit
+source frames retain their earlier repository credit and exact byte pins.
+The local improvement keeps all target rows during unit compression and
+uses the original full long map in the source kernel count. Only elementary
+linear algebra and formal Laurent coefficients are added; no new external
+theorem, historical priority, independent review or exponent result is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

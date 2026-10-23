@@ -1,5 +1,21 @@
 # Research status
 
+## One-sided unit compression excludes image ranks107 and108
+
+The [one-sided unit-image proof](research/ai/2026-10-23-one-sided-unit-image/proof.md)
+strengthens the preceding partial-unit regularity theorem. Keeping every
+target row gives the rank margin `nu-e>q`; using the original full long
+map gives the dimension margin `D>dim(A)-mu_B+k`, where `k=N-R` and
+`q=N-r=k+e`. Together with `mu_A>3q`, these force both Laurent maps to
+be regular at every finite pole order. For A4 to M(10,10,11), unit-image
+rank at least107 gives strict margins1,3,2 and reduces to the existing
+ordinary rank contradiction12>11. A regular unit slice of corank at most
+three is included. Claims `AI-ONE-SIDED-UNIT-REGULARITY-001` and
+`AI-A4-UNIT-IMAGE-107-002` are written and unreviewed; exact controls check
+the rank losses and the failed sufficient test at rank106. Unit-image
+rank at most106, singular long-leg limits and polar identity lifts remain
+open. No target construction or exponent improvement is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
@@ -13,8 +29,8 @@ ordinary-map obstruction finishes the argument. Every finite pole order
 is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
 controls verify the rank budgets and projection recovery, without
-formalizing the proof. Rank108, singular long-leg limits and polar unit
-lifts remain open. No matrix target or smaller exponent is established.
+formalizing the proof. That proof left rank108 open; the stronger result above now covers it.
+Singular long-leg limits and polar unit lifts remain open. No matrix target or smaller exponent is established.
 
 ## Finite covers close the selected nonsplit coordinate targets
 

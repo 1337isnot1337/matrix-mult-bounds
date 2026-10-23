@@ -1,0 +1,35 @@
+{
+  "base_commit": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "checks": [
+    {
+      "command": "python research/ai/2026-10-23-one-sided-unit-image/verify.py --write",
+      "coverage": {
+        "a4_rank_cases": 5,
+        "first_pole_controls": 6,
+        "full_column_kernel_controls": 5,
+        "one_sided_target_controls": 5,
+        "regularized_product_controls": 6
+      },
+      "status": "passed"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_one_sided_unit_image.py -v",
+      "status": "passed",
+      "tests": 5,
+      "wall_seconds": 4.363
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "status": "passed",
+      "tests": 18,
+      "wall_seconds": 2.406
+    }
+  ],
+  "environment": {
+    "python": "3.14.8",
+    "sympy": "1.14.0"
+  },
+  "improves_omega": false,
+  "limits": "Focused checks and repository metadata only. Complete regression and five-program archive replay are separate checks; this receipt does not assert their completion or independent mathematical review.",
+  "proof_status": "proof-written-unreviewed"
+}
