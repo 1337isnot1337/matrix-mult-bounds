@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-regular-leg-frontier` package is owner-directed OpenAI
+Codex work. It adopts the canonical cyclic source, the minimum-rank and
+below-twice-minimum source loci, the saturated target-support inequality
+and ordinary A4 obstruction with their prior credit and exact byte pins.
+The compression-kernel dimension deduction and all-order regular-leg rank
+frontiers are local continuations. No new external theorem, historical
+priority, independent review, matrix construction or exponent gain is
+claimed. Exact coordinate and integer-rank controls support the written
+unreviewed proof without formalizing its arbitrary-map quantifiers.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

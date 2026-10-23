@@ -1,5 +1,21 @@
 # Research status
 
+## A rank budget for two regular A4 target legs
+
+The [regular-leg frontier](research/ai/2026-10-23-regular-leg-frontier/proof.md)
+shows that any A4 to M(10,10,11) degeneration with both long maps regular
+must have limiting long-map ranks summing to at most192, a total rank loss
+of at least28. The third map may have arbitrary Laurent poles and both
+regular maps may have arbitrary higher jets and complex mixing. The proof
+combines the prior low-rank source locus with the saturated target-support
+condition, without selecting a unit lift. With one short and one long
+regular map, the same tests leave sixteen explicit rank pairs of total
+rank at least193. Ten coordinate compressions, five strict-threshold
+controls and23532 integer rank pairs replay exactly. Claims
+`AI-REGULAR-COMPRESSION-KERNEL-001` and `AI-A4-REGULAR-LEG-FRONTIER-002`
+are written and unreviewed. Lower-rank pairs and two-polar-map charts remain
+open. No target or smaller exponent is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

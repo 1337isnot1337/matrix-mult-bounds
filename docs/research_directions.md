@@ -289,3 +289,15 @@ now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
+
+
+## Two regular maps: rank-budget gate
+
+The [regular-leg frontier](../research/ai/2026-10-23-regular-leg-frontier/proof.md)
+forces the two regular long A4 maps to have limiting ranks summing to at
+most192. A search with both long maps regular must enter that rank region;
+increasing the remaining Laurent pole order cannot evade the bound. With
+one regular short and one regular long map, the sixteen high-total-rank
+survivors are (100,100..107) and (90..97,110). They pass necessary tests
+only. Smaller rank pairs, two polar maps and exact target construction
+remain open. This gate does not choose or assume a regular target unit.
