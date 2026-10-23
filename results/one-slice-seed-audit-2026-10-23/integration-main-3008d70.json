@@ -1,0 +1,100 @@
+{
+  "full_suite_commit": "42360e9816d5755a07a6da6fa607b92865a0be6b",
+  "integrated_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "tests_executed_incrementally": 23,
+  "incremental_jobs": [
+    {
+      "name": "resolvent-minrank",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "unittest_elapsed_seconds": 0.219,
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_resolvent_minrank.py",
+        "-v"
+      ],
+      "log": "results/one-slice-seed-audit-2026-10-23/integration-resolvent-minrank.log.gz"
+    },
+    {
+      "name": "research",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "unittest_elapsed_seconds": 0.081,
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_research.py",
+        "-v"
+      ],
+      "log": "results/one-slice-seed-audit-2026-10-23/integration-research.log.gz"
+    }
+  ],
+  "combined_inventory_tests": 869,
+  "combined_inventory_modules": 204,
+  "full_rerun_at_integration": false,
+  "prior_python_files_preserved": 719,
+  "changed_prior_python_paths": [],
+  "added_python_paths": [
+    "research/ai/2026-10-23-resolvent-minrank/verify.py",
+    "tests/test_resolvent_minrank.py"
+  ],
+  "added_python_files_match_main": true,
+  "new_test_ids": [
+    "test_resolvent_minrank.ResolventMinrankTests.test_artifact_hashes_and_source_pins",
+    "test_resolvent_minrank.ResolventMinrankTests.test_complete_integer_certificate_and_recorded_report",
+    "test_resolvent_minrank.ResolventMinrankTests.test_corrupted_eliminations_and_omitted_cases_are_rejected",
+    "test_resolvent_minrank.ResolventMinrankTests.test_literal_source_matches_independent_six_index_tensor_expansion",
+    "test_resolvent_minrank.ResolventMinrankTests.test_sharp_mixed_block_has_exact_rational_rank_six"
+  ],
+  "prior_test_ids_removed": [],
+  "archive_diff_from_full_suite_commit": [],
+  "tested_tree": "8f67f59348b5cf99b52dc5eccaa664be680f3f63",
+  "python_tree_sha256": "6037873e4c0845154f3cf870e5d79b774b5603dca3b0bcb71328c1dd621034c3",
+  "tested_commit": "dead3400ae86aa1cd938afd1a7fb21d71bd6e93b",
+  "bundle_baseline": "42360e9816d5755a07a6da6fa607b92865a0be6b",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "full_suite_receipt": "results/one-slice-seed-audit-2026-10-23/validation.json",
+  "logs": [
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/integration-resolvent-minrank.log.gz",
+      "sha256": "5d9fff4110472e59667a92202aeabe026447c09a6d1e92aed0b668279d6d3003",
+      "uncompressed_sha256": "a144514e03ff45d23c53f2b6a3427182aba625999a05fb1af9a27ebb3db1d231"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/integration-research.log.gz",
+      "sha256": "90b780413604f0242cee44726809c60d7f123c38bf31e73b71684849848ec753",
+      "uncompressed_sha256": "9022c0c369c0d47bb822d1f1f844c1f91aa4b111a37d7755b8fcb0774557b0a4"
+    },
+    {
+      "path": "results/one-slice-seed-audit-2026-10-23/integration-discovery.json.gz",
+      "sha256": "c2996f0565faeaa85147e4236d79d918246e9e5a46c45767e7c784d84ad767cf",
+      "uncompressed_sha256": "e19248c2ff9fcc565d1548c980139c37df5331c687d0e0612eb41e85b43db7d6"
+    }
+  ],
+  "combined_discovery": "results/one-slice-seed-audit-2026-10-23/integration-discovery.json.gz",
+  "claims_preserved": "All pre-integration and incoming-main claim records were compared as JSON objects and retained unchanged.",
+  "scope": "The complete 864-test regression and five archive replays remain attributed only to 42360e9816d5755a07a6da6fa607b92865a0be6b. After merging main 3008d70, the five newly introduced resolvent tests and 18 research/repository tests completed. All 719 prior Python files are byte-identical, the two new Python files match incoming main, and both archives are unchanged. The 869-test combined inventory is discovery coverage, not a fresh full-suite run. Hosted current-head CI remains required."
+}

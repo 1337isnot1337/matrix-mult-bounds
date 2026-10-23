@@ -51,3 +51,21 @@ python tools/replay.py
 
 This is execution evidence, not independent mathematical review or an
 exponent improvement. Current-head hosted CI remains a separate gate.
+
+## Main integration: separate incremental evidence
+
+Main commit `3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93` was merged
+with both top-level text additions and both complete claim sets retained.
+The [incremental integration receipt](integration-main-3008d70.json)
+identifies the resulting tested merge commit and tree. All five newly
+introduced resolvent tests and eighteen existing research/repository
+checks passed, with complete result footers.
+
+All 719 pre-existing Python files remain byte-identical to the full-suite
+commit. The only added Python files are the incoming resolvent verifier
+and its five-test module, both identical to main. Both archived research
+directories are unchanged. Discovery confirms 869 tests in 204 modules:
+the prior 864 IDs plus the five new resolvent IDs, with none removed.
+That inventory is not described as a new full-suite execution. The two
+incremental logs and the combined discovery manifest are retained with
+hashes separately from the full regression evidence.
