@@ -25,6 +25,10 @@ finite control gives full rank modulo two, hence over `Q`, at `(a,p)=(4,5)`:
 `1,572,480` columns in 524 bidegree blocks. This single point adds no
 all-size conclusion; see
 `results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json`.
+The first finite kernel defects at `(2,3)` and `(3,7)` have also been
+decomposed into `SL2 x SL2` types. Their degrees fit the conjecture
+`p=a(a-1)+1`, still untested at `a=4`; see
+`research/ai/2026-10-23-paired-long-legs/kernel_module_types.md`.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

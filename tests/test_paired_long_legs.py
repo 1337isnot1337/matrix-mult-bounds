@@ -17,6 +17,10 @@ RANK_ATLAS_PATH = (
     Path(__file__).resolve().parents[1]
     / "research/ai/2026-10-23-paired-long-legs/rank_atlas.py"
 )
+KERNEL_REPRESENTATION_PATH = (
+    Path(__file__).resolve().parents[1]
+    / "research/ai/2026-10-23-paired-long-legs/kernel_representation.py"
+)
 
 
 class PairedLongLegTests(unittest.TestCase):
@@ -106,6 +110,55 @@ class PairedLongLegTests(unittest.TestCase):
         self.assertEqual(record["rank_mod_2"], record["domain"])
         self.assertEqual(record["rank_over_q"], record["domain"])
         self.assertEqual(record["kernel_dimension_over_q"], 0)
+
+    def test_saved_kernel_representation_decompositions_replay(self):
+        atlas_spec = importlib.util.spec_from_file_location(
+            "paired_long_legs_rank_atlas", RANK_ATLAS_PATH
+        )
+        atlas = importlib.util.module_from_spec(atlas_spec)
+        atlas_spec.loader.exec_module(atlas)
+        a2_saved = json.loads((RESULTS / "graded-rank-atlas-a2-p3.json").read_text())
+        self.assertEqual(
+            json.loads(json.dumps(atlas.atlas(2, [3]))),
+            a2_saved,
+        )
+
+        representation_spec = importlib.util.spec_from_file_location(
+            "paired_long_legs_kernel_representation", KERNEL_REPRESENTATION_PATH
+        )
+        representation = importlib.util.module_from_spec(representation_spec)
+        representation_spec.loader.exec_module(representation)
+        inputs = [
+            RESULTS / "graded-rank-atlas-a2-p3.json",
+            RESULTS / "graded-rank-atlas-a3.json",
+        ]
+        actual = json.loads(json.dumps(representation.report(inputs)))
+        saved = json.loads(
+            (RESULTS / "kernel-decomposition-a2-p3-a3-p7.json").read_text()
+        )
+        self.assertEqual(actual, saved)
+        self.assertEqual(
+            [(r["a"], r["p"], r["kernel_dimension"]) for r in saved["records"]],
+            [(2, 3, 10), (3, 7, 730)],
+        )
+        a2_types = [
+            (item["highest_weight"], item["multiplicity"])
+            for item in saved["records"][0]["irreducibles"]
+        ]
+        self.assertEqual(a2_types, [([0, 5], 1), ([0, 3], 1)])
+        a3_types = {
+            (item["highest_weight"][0], item["highest_weight"][1] // 2):
+            item["multiplicity"]
+            for item in saved["records"][1]["irreducibles"]
+        }
+        self.assertEqual(
+            [a3_types[(0, t)] for t in range(11)],
+            [3, 1, 5, 3, 6, 3, 5, 2, 3, 1, 1],
+        )
+        self.assertEqual(
+            [a3_types[(2, t)] for t in range(1, 10)],
+            [2, 1, 2, 1, 2, 1, 2, 1, 1],
+        )
 
 
 if __name__ == "__main__":

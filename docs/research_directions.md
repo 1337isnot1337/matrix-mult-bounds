@@ -38,8 +38,11 @@ rank floor from interpolation-block support. At `p=a+1` that floor dominates
 both long-leg target ranks for four `a=15` and six `a=16` survivors. The exact
 `a=3` atlas is full through `p=6` and has rank `57185/57915` at `p=7`; a
 finite `a=4,p=5` atlas also has full rank modulo two across 524 bidegree
-blocks. General higher-degree ranks remain open. See the [proof and exact
-controls](../research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md).
+blocks. The first kernels at `(a,p)=(2,3)` and `(3,7)` have exact
+`SL2 x SL2` decompositions, consistent with a possible first-defect boundary
+`p=a(a-1)+1`; the `a=4` boundary remains open. General higher-degree ranks
+remain open. See the [proof and exact controls](../research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md)
+and the [finite kernel analysis](../research/ai/2026-10-23-paired-long-legs/kernel_module_types.md).
 
 ## R1: Review the local sharpness theorem
 

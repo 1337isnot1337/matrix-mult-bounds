@@ -59,3 +59,12 @@ boundary or a general formula. The replayed report is
 `results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json` and can be
 recomputed with
 `python research/ai/2026-10-23-paired-long-legs/rank_atlas.py --a 4 --powers 5 --output results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json`.
+
+An equivariant weight analysis resolves the first two finite defects: at
+`(a,p)=(2,3)` the kernel is
+`Sym^0(U) tensor (Sym^3(V) + Sym^5(V))`, of dimension 10; at `(3,7)` it
+decomposes into 20 `SL2 x SL2` irreducible types, of total dimension 730.
+The defect degrees `3` and `7` fit the conjecture `p=a(a-1)+1`, but the
+`a=4` boundary is not checked. See
+`kernel_module_types.md` and
+`results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7.json`.
