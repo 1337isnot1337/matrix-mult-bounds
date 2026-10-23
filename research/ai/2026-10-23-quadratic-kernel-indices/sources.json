@@ -1,0 +1,61 @@
+{
+  "base_main": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "literal_source_blob": "04d28c6a05027a7756891f47d28327de850a7501",
+  "external_sources": [
+    {
+      "authors": "Claudia Schoemann and Stefan Wiedmann",
+      "title": "Another proof of Grothendieck's theorem on the splitting of vector bundles on the projective line",
+      "version": "arXiv:1712.03056v1, December 8, 2017",
+      "url": "https://arxiv.org/pdf/1712.03056v1",
+      "locator": "Theorem 2.1, PDF page 3; arbitrary-field setup on PDF page 2",
+      "imported_statement": "Every algebraic vector bundle on P1 over a field splits into line bundles. Applied to the rank-two kernel of a surjective map O^(a+2) to O(D)^a.",
+      "read": "Primary PDF, field setup and theorem statement re-opened earlier in this generating session; its arbitrary-field scope was checked."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "use": "Section 1 literal crossed biform matrix and the existing general kernel-bundle splitting/rank formula. The present proof specializes the active coefficient space to z-degree two and preserves this attribution."
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "sha256": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+      "use": "Original cyclic-source construction and evidence-tier conventions."
+    }
+  ],
+  "credited_prior_work": [
+    {
+      "pull_request": 209,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/209",
+      "head_sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "scope": "All-field affine-z formula and complete row-polynomial recurrence convention. Its proof is credited; no implementation is imported."
+    },
+    {
+      "branch": "consolidation/all-branches-20261023",
+      "head_sha": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "path": "research/ai/2026-10-23-quadratic-z-middle/proof.md",
+      "scope": "Constant nonzero outer coefficients and arbitrary middle polynomial. Prior predictable degrees are floor(a/2)D and ceil(a/2)D. Referenced for scope and credit, not a runtime or proof dependency."
+    },
+    {
+      "pull_request": 216,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/216",
+      "head_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "scope": "Non-diagonal triples with identical degrees and pairwise resultants but literal ranks14 and15 away from characteristic two. Its stated next question is the general polynomial-kernel indices. The exact example coefficients are reconstructed locally for controls; no implementation is imported."
+    },
+    {
+      "pull_request": 217,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/217",
+      "head_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "scope": "All-field one-polynomial-top coefficient family with arbitrary z-degree. This is a separately solved family; no implementation is imported."
+    }
+  ],
+  "prior_credit": "The original crossed source and general biform kernel-bundle identity retain their prior local attribution. The splitting theorem is external mathematics. Affine, constant-endpoint quadratic, one-polynomial-top and identical-resultant packages retain their specific credits. No historical priority is claimed.",
+  "local_work": "Complete arbitrary-field quadratic specialization, exact finite onset characterization of both polynomial-kernel indices, full endpoint and gcd audit, and the zero-first-index/fixed-linear-factor characterization for positive primitive degree.",
+  "field_and_hypotheses": "Any field K; a>=2, b>=3; u,v,w in K[x], not all zero, each nonzero degree<a. Divide their monic common gcd before setting D. Polynomial identity and exact matrix-kernel computations, not finite sampling assumptions. The fixed-linear-factor equivalence additionally requires D>0.",
+  "limitations": "One-source-slice rank formula and an effective invariant, not a degree-only classification, source-space cap, compatible three-leg target, singular degeneration, formalization or matrix-multiplication exponent improvement. Finite checks are corroboration, not proof of the all-size statement.",
+  "ai_assistance": "Owner-directed Codex research with same-session checking. Written and unreviewed; not independent mathematical review.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
