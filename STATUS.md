@@ -1,5 +1,21 @@
 # Research status
 
+## Rational-root heights restrict the quadratic indices
+
+The [structural sequel](research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)
+shows that a minimum recurrence vector either has degree at least
+`ceil((a-1)D/2)` or comes from a rational root of height h and degree
+`(a+1)h`. It proves this through explicit polynomial Hankel kernel bases
+and the arbitrary-field matrix-polynomial index-sum theorem. An irreducible
+homogeneous quadratic forces the higher range; a sufficiently low rational
+root height determines both indices exactly. As a concrete consequence,
+the complete nonzero fifteen-by-fifteen biform-block rank spectrum at
+a=b=3 is `{9,12,14,15}` over every field. Rank thirteen is impossible,
+and explicit universal witnesses attain all four remaining values.
+Claim `AI-QUADRATIC-INDEX-DICHOTOMY-002` is written and unreviewed.
+This does not classify all slices of the full cyclic tensor or supply
+an exponent improvement.
+
 ## General quadratic biform ranks from two kernel indices
 
 The [quadratic-kernel theorem](research/ai/2026-10-23-quadratic-kernel-indices/proof.md)

@@ -6,9 +6,12 @@ whose sum is aD and whose first nonzero-kernel degree is computable by a
 bounded exact coefficient-matrix test. It explains the distinct indices
 of the earlier equal-resultant examples and characterizes the zero first
 index by a fixed ground-field linear factor. Do not repeat coefficient
-degree or pairwise-resultant-only searches. Further structural work should
-bound the positive first index or impose compatible three-leg maps; the
-single-slice formula does not supply a matrix target. Written, unreviewed.
+degree or pairwise-resultant-only searches. The root-height dichotomy in
+`ai/2026-10-23-quadratic-kernel-indices/dichotomy.md` now bounds the first
+index and proves the a=b=3 biform-block spectrum {9,12,14,15}. Determine
+attainable splitting types in the remaining high interval, constrain linear
+families, or impose compatible three-leg maps. These single-slice results
+do not supply a matrix target. Written, unreviewed.
 
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
