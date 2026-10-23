@@ -1002,3 +1002,13 @@ class hypergraph and a finite integer-weight census. Optional SciPy
 optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
+
+## Exact curve on the d=0 cubic-conic fiber
+
+The October 23 d=0 package is owner-directed Codex work extending PR101's
+credited canonical source and polynomial two-jet at `c=d=0`. It supplies
+an exact polynomial incidence curve for the specified first jet and an
+independent literal-source replay. The tangent elimination is discovery
+evidence only; acceptance uses the explicit maps and source identities.
+The work has no independent mathematical review or Lean formalization and
+does not establish a matrix target or exponent improvement.
