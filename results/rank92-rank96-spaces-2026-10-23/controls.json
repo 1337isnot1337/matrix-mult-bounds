@@ -1,0 +1,342 @@
+{
+  "schema": "rank92-rank96-controls-v1",
+  "source_pins": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-23-source-staircase-spaces/proof.md": "505adc0fef6bef8894af6e75ebb085adbbc81bb5a49553b90d2edc190f5862bb",
+    "research/ai/2026-10-23-torus-order-ideal/proof.md": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+    "research/ai/2026-10-23-torus-rank80/proof.md": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682",
+    "results/torus-rank80-2026-10-23/certificates.json": "78291f6c6e437b5f452ff852398b0b3f5a735a1d6255d0947f7bb8598916223b"
+  },
+  "certificate_sha256": "de546c07b238a1da0d39f047de2bbc89d3c55515b77754655870810903943d43",
+  "source_controls": {
+    "literal_source_terms": 4096,
+    "literal_coherent_terms": 256,
+    "coherent_monomial_ranks_checked": 16,
+    "source_factorizations_checked": 112,
+    "middle_multiplicities": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "disjoint_middle_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  },
+  "coherent_controls": {
+    "credited_integer_minors_replayed": 11,
+    "size9_ideals": 7,
+    "size13_ideals": 3,
+    "all_size5_ideals_contain_the_rank20_pair": true,
+    "rank_lower_by_nonzero_layer_size": {
+      "1..4": 16,
+      "5..8": 20,
+      "9..12": 24,
+      "13..16": 28
+    }
+  },
+  "profile_controls": {
+    "all_nonincreasing_layer_size_profiles": 245157,
+    "constraints": "strict pure-layer and three disjoint-middle-pair lower bounds",
+    "thresholds": {
+      "92": {
+        "admissible_profiles": 119381,
+        "maximum_volume": 68,
+        "profiles_at_maximum": 4,
+        "maximizing_profiles": [
+          [
+            16,
+            12,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          [
+            16,
+            12,
+            12,
+            8,
+            8,
+            8,
+            4
+          ],
+          [
+            16,
+            16,
+            12,
+            8,
+            8,
+            4,
+            4
+          ],
+          [
+            16,
+            16,
+            16,
+            8,
+            8,
+            4,
+            0
+          ]
+        ],
+        "written_case_counts": {
+          "n1<=12,9<=n2<=12": 27600,
+          "n1<=12,n2<=8": 63921,
+          "n2<=12,n1>=13": 24960,
+          "n2>=13": 2900
+        },
+        "volume_histogram": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 5,
+          "5": 7,
+          "6": 11,
+          "7": 15,
+          "8": 21,
+          "9": 28,
+          "10": 38,
+          "11": 49,
+          "12": 65,
+          "13": 82,
+          "14": 105,
+          "15": 131,
+          "16": 164,
+          "17": 200,
+          "18": 246,
+          "19": 296,
+          "20": 357,
+          "21": 424,
+          "22": 503,
+          "23": 588,
+          "24": 689,
+          "25": 796,
+          "26": 919,
+          "27": 1050,
+          "28": 1198,
+          "29": 1352,
+          "30": 1526,
+          "31": 1705,
+          "32": 1902,
+          "33": 2104,
+          "34": 2323,
+          "35": 2544,
+          "36": 2781,
+          "37": 3016,
+          "38": 3262,
+          "39": 3503,
+          "40": 3750,
+          "41": 3983,
+          "42": 4216,
+          "43": 4425,
+          "44": 4623,
+          "45": 4787,
+          "46": 4926,
+          "47": 5016,
+          "48": 5069,
+          "49": 5057,
+          "50": 4992,
+          "51": 4853,
+          "52": 4651,
+          "53": 4368,
+          "54": 4026,
+          "55": 3613,
+          "56": 3157,
+          "57": 2662,
+          "58": 2166,
+          "59": 1679,
+          "60": 1243,
+          "61": 864,
+          "62": 565,
+          "63": 339,
+          "64": 189,
+          "65": 92,
+          "66": 40,
+          "67": 14,
+          "68": 4
+        }
+      },
+      "96": {
+        "admissible_profiles": 121481,
+        "maximum_volume": 72,
+        "profiles_at_maximum": 1,
+        "maximizing_profiles": [
+          [
+            16,
+            12,
+            12,
+            8,
+            8,
+            8,
+            8
+          ]
+        ],
+        "written_case_counts": {
+          "n1<=12": 93621,
+          "n2<=12,n1>=13": 24960,
+          "n2>=13": 2900
+        },
+        "volume_histogram": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 5,
+          "5": 7,
+          "6": 11,
+          "7": 15,
+          "8": 21,
+          "9": 28,
+          "10": 38,
+          "11": 49,
+          "12": 65,
+          "13": 82,
+          "14": 105,
+          "15": 131,
+          "16": 164,
+          "17": 200,
+          "18": 246,
+          "19": 296,
+          "20": 357,
+          "21": 424,
+          "22": 503,
+          "23": 588,
+          "24": 689,
+          "25": 796,
+          "26": 919,
+          "27": 1050,
+          "28": 1198,
+          "29": 1352,
+          "30": 1526,
+          "31": 1705,
+          "32": 1902,
+          "33": 2104,
+          "34": 2323,
+          "35": 2544,
+          "36": 2781,
+          "37": 3016,
+          "38": 3262,
+          "39": 3503,
+          "40": 3750,
+          "41": 3983,
+          "42": 4216,
+          "43": 4425,
+          "44": 4623,
+          "45": 4787,
+          "46": 4926,
+          "47": 5017,
+          "48": 5071,
+          "49": 5062,
+          "50": 5002,
+          "51": 4871,
+          "52": 4680,
+          "53": 4414,
+          "54": 4092,
+          "55": 3704,
+          "56": 3276,
+          "57": 2809,
+          "58": 2338,
+          "59": 1871,
+          "60": 1445,
+          "61": 1065,
+          "62": 755,
+          "63": 507,
+          "64": 329,
+          "65": 201,
+          "66": 119,
+          "67": 66,
+          "68": 36,
+          "69": 17,
+          "70": 8,
+          "71": 3,
+          "72": 1
+        }
+      }
+    },
+    "enumeration_uses_discovery": false,
+    "upper_proof_is_written_case_split": true
+  },
+  "sharpness_controls": {
+    "sharp_spaces": [
+      {
+        "m": 2,
+        "dimension": 68,
+        "cover_rows": 7,
+        "cover_columns": 84,
+        "literal_terms_covered": 2304,
+        "uniform_rank_upper": 91,
+        "attained_rank": 91,
+        "strict_threshold": 92
+      },
+      {
+        "m": 3,
+        "dimension": 72,
+        "cover_rows": 7,
+        "cover_columns": 88,
+        "literal_terms_covered": 2496,
+        "uniform_rank_upper": 95,
+        "attained_rank": 95,
+        "strict_threshold": 96
+      }
+    ],
+    "integer_sharpness_minors_replayed": 2,
+    "rejected_proposed_dimension_caps": {
+      "rank<92": 64,
+      "rank<96": 68
+    },
+    "m1_naive_cover_uncovered_entry": {
+      "coordinate": [
+        3,
+        0,
+        0
+      ],
+      "position": [
+        56,
+        80
+      ]
+    },
+    "field_transfer": "Odd integer minors are nonzero over C; support covers work over every field."
+  },
+  "strict_threshold_controls": {
+    "91": 68,
+    "92": 72,
+    "95": 72,
+    "96": 112
+  },
+  "claim_scope": {
+    "field": "C",
+    "strict_source_thresholds": [
+      92,
+      96
+    ],
+    "sharp_maximum_dimensions": [
+      68,
+      72
+    ],
+    "arbitrary_complex_linear_spaces": true,
+    "order_ideal_reduction_characteristic_zero": true,
+    "all_extremizers_classified": false,
+    "target_rank_pair_theorem_claimed": false,
+    "target_constructed": false,
+    "improves_omega": false,
+    "independent_external_review": false,
+    "formalized": false
+  }
+}
