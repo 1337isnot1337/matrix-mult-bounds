@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+## Laurent channel barrier continuation
+
+`research/laurent-stencil-20261023-ab94` supplies the formal extension of
+pending PR157/173/179 under their common generic channel-rank deficit.
+See `ai/2026-10-23-laurent-channel-barrier/proof.md`. Arbitrary Laurent pole
+orders and arbitrary auxiliary maps cannot reduce the resulting quadratic
+repair bound, even for near-full targets and moving profile bases.
+The remaining constructive task is a full generic channel-rank periodic
+or nonlocal encoding, with complete tensor coefficients and an explicit
+repair cost. No target or improved exponent has been built. Prior ordinary
+branches remain separate and retain credit.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

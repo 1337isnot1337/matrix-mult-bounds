@@ -1,0 +1,52 @@
+{
+  "schema": "laurent-channel-barrier-sources-v1",
+  "research_base_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-20-paired-construction/outer_product_injection.md"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-21-correction-budget/README.md"
+    }
+  ],
+  "concurrent_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-toeplitz-long-legs/proof.md",
+      "tag": "pr157",
+      "commit": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "git_blob_sha": "a242aa4c04343072666f10315dd71d0261b69f2d",
+      "sha256": "d6a7affa2397a0d6ea94ee4e7ab0c1969d42f954e2ed3fa6b7740802263d47fa",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/9e830aa7af430b74febc93aeb8a975b1e356d744/research/ai/2026-10-23-toeplitz-long-legs/proof.md",
+      "runtime_dependency": false,
+      "scope": "Ordinary two-Toeplitz common channel factorization; explicit singular-Laurent exclusion from its scope."
+    },
+    {
+      "path": "research/ai/2026-10-23-shift-window-long-legs/proof.md",
+      "tag": "pr173",
+      "commit": "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+      "git_blob_sha": "fa3bacb281491be10608f1374595500735f58650",
+      "sha256": "9ce3d2552c3c1abb393fb28d5fbd849282aa3205d39fd6524970206fa3fe4d17",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/ce270d3276bd90253d3ba3a1eb5757ff3677ce61/research/ai/2026-10-23-shift-window-long-legs/proof.md",
+      "runtime_dependency": false,
+      "scope": "Common moving-window factorization on one variable leg, originally for ordinary maps."
+    },
+    {
+      "path": "research/ai/2026-10-23-two-variable-long-legs/proof.md",
+      "tag": "pr179",
+      "commit": "f74aa2d5141411e314568040de3670cc8ff7a6de",
+      "git_blob_sha": "ffc5014ca85601213613e70c789698421a885b47",
+      "sha256": "9cc7c2b73ff329f03a47270ed8ae7803c809928b1971a482c28d26e2b5dac3a7",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/f74aa2d5141411e314568040de3670cc8ff7a6de/research/ai/2026-10-23-two-variable-long-legs/proof.md",
+      "runtime_dependency": false,
+      "scope": "Two-variable common-profile channel factorization, originally for ordinary maps."
+    }
+  ],
+  "external_theorems": "No new external theorem. The primitive-kernel argument and specialization are proved in proof.md.",
+  "contribution": "Owner-directed OpenAI Codex work: auxiliary-kernel formal lemma, all-order Laurent extension, and near-full target count. Earlier channel factorizations retain predecessor credits. No historical priority, independent review, formalization or exponent improvement."
+}

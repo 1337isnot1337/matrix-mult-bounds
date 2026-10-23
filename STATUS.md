@@ -1,5 +1,28 @@
 # Research status
 
+## Laurent cancellation cannot remove a common channel-rank deficit
+
+The [formal channel-separation proof](research/ai/2026-10-23-laurent-channel-barrier/proof.md)
+extends the ordinary factorizations in pending PR157, PR173 and PR179
+to arbitrary Laurent poles and arbitrary auxiliary maps. A common kernel
+over K((t)) makes one source contraction regular before its rank equations
+are specialized. The argument permits moving channel bases and genuine
+cancellation between source and auxiliary poles.
+
+For the stated maps to a near-full target M(l,h,r), the auxiliary
+first-flattening rank is at least `(l*r-n^2+g_B*g_C)_+`, with the exact
+bandwidth/exception counts in the note. At fixed widths, outer ratios
+tending to one and sublinear bandwidth/exception counts, this is
+`n^2-o(n^2)`. Thus increasing pole orders cannot supply subquadratic repair
+while the generic common channel rank remains below h. Full generic
+channel rank and general nonlocal maps remain open.
+
+Both claims are written and unreviewed. Seven focused tests pass,
+including a moving-subspace example with genuine pole cancellation,
+five exact native-source Laurent controls and ten complete residual
+rank checks over F3 and F101. No target construction or smaller exponent
+is supplied.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

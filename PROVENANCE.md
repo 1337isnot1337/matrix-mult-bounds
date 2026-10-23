@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-laurent-channel-barrier` package is owner-directed
+OpenAI Codex work. Pending PR157 at9e830aa retains credit for the ordinary
+two-Toeplitz channel factorization, PR173 atce270d3 for the common window
+extension, and PR179 atf74aa2d for the second variable profile expansion.
+Their exact proof files are pinned in the new sources.json and are not
+runtime dependencies. The new contribution is the primitive auxiliary-
+kernel lemma, its all-order Laurent application, and the near-full target
+dimension count. The maintained Q convention and correction criterion
+retain their earlier credits. A separate agent in the generating session
+checked the proof; this is not independent mathematical review. Seven
+focused controls do not establish an improved exponent or formalization.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

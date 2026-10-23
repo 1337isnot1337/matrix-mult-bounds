@@ -1,5 +1,16 @@
 # Research directions
 
+## Paired maps after the Laurent channel obstruction
+
+The [formal channel lemma](../research/ai/2026-10-23-laurent-channel-barrier/proof.md)
+now excludes arbitrary Laurent pole cancellation for the common low
+channel-rank families of pending PR157, PR173 and PR179, including
+near-full outer targets and arbitrary auxiliary maps. Increasing only
+the pole order in these classes cannot meet the subquadratic repair
+criterion. A construction should instead produce full generic channel
+rank, remove the common factorization, or use genuinely nonlocal maps.
+The precise hypotheses concern the full K((t)) family, not just its lead.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
