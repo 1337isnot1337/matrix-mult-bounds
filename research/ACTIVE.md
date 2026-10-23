@@ -13,6 +13,15 @@ paths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and
 `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full
 target or exponent improvement is established.
 
+The [low-rank-locus reduction](ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+makes that remaining question explicit: find, or exclude, a 26-dimensional
+U and two-dimensional W for which at least nine matrices in the fixed
+46-dimensional outer space E send U into W. Equivalently a rank-26
+compression of E must have image dimension at most 37. All killed
+112-dimensional limiting matrices are confined to this outer block.
+Claim `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed; a universal
+lower bound of 38 and all successful full-target maps remain unproved.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

@@ -15,6 +15,16 @@ singular path avoids the scalar-action obstruction. A candidate must
 supply every target coefficient; a large limiting-space dimension alone
 does not identify matrix multiplication.
 
+The [exact low-rank reduction](../research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+reduces this fixed family's constant-compression question to the explicit
+46-dimensional outer space `E=G+[G,G00]+G00 G G00` in `Mat28`.
+Determine whether any rank-26 pair has `dim(Phat E Chat)<=37`.
+Equivalently, seek a 26-dimensional U and two-dimensional W with a
+subspace of at least nine E matrices mapping U into W. A universal
+lower bound of 38 would close constant compressions for this family;
+a successful reduced pair would still need complete re-saturation and
+the full target coefficient identities.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

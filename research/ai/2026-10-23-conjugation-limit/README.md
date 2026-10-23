@@ -12,6 +12,13 @@ compressions. Their projected leading ranks are at least 108 modulo 1009,
 so they lose at most four directions and cannot supply the target.
 This is computer-assisted claim `AI-A4-TWOSIDED-COORDINATE-002`.
 
+The [low-rank reduction](LOW_RANK_REDUCTION.md), claim
+`AI-A4-TWOSIDED-LOWRANK-003`, reduces the arbitrary constant-compression
+question to one explicit 46-dimensional space E of 28 by 28 matrices.
+All limiting matrices killed by the original compression lie in that
+single outer block. A full target requires rank-26 maps with
+`dim(Phat E Chat)<=37`; a universal lower bound of 38 remains open.
+
 ## Evidence
 
 The certificate contains 112 polynomial changes of slice basis, all of
@@ -40,6 +47,8 @@ From the repository root, with the standard library only:
 ```sh
 python research/ai/2026-10-23-conjugation-limit/verify.py
 python -m unittest discover -s tests -p 'test_conjugation_limit.py' -v
+python research/ai/2026-10-23-conjugation-limit/block_reduction.py
+python -m unittest discover -s tests -p 'test_conjugation_block_reduction.py' -v
 ```
 
 The certificate and accepted report are in
@@ -57,6 +66,16 @@ false scalar columns, omitted basis rows or coordinate pairs, incorrect
 modular ranks, the need to recover lost directions, the target evaluation
 formula, and source pins. Source formulas retain their prior attribution
 in [sources.json](sources.json).
+
+The separate block acceptance checks all 112 rational coordinate
+identities against that full limiting basis, proving the displayed
+block form and its 46-dimensional bottom-left space. It also checks
+16 exact transpose-conjugation identities. These transfer the credited
+minimum-rank-six theorem to the needed right-sided mixed space.
+Three additional tests replay this certificate and reject corrupted
+coordinates, omitted rows, false parent pins and a corrupted transpose
+identity. They are follow-up checks after the frozen 905-test checkpoint
+below; they are not counted as part of that earlier tree's coverage.
 
 ## Scope and next question
 

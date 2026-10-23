@@ -24,6 +24,17 @@ The arbitrary constant-compression locus of dimension at most 103,
 moving compressions and other singular paths remain open. This is a
 scoped obstruction; it supplies no target or exponent improvement.
 
+The [low-rank reduction](research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
+now confines every rank-at-most-four limiting matrix to one 28 by 28
+block. That block is the explicit 46-dimensional space
+`E=G+[G,G00]+G00 G G00`. A full target with arbitrary constant compression
+therefore requires rank-26 maps with `dim(Phat E Chat)<=37`.
+Exact replay checks 112 block-coordinate identities and 16
+transpose-conjugation identities; the minimum-rank-six input retains
+the prior resolvent package's credit. Claim
+`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The remaining
+universal lower bound of 38 is not proved.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

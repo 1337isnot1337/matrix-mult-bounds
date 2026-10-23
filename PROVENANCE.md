@@ -14,6 +14,14 @@ checks belong to one generating session and are not independent
 mathematical review or formalization. No target, historical priority
 or exponent improvement is claimed.
 
+Its low-rank-locus continuation imports the minimum-rank-six theorem
+for `G+G00 G` from `AI-RESOLVENT-SHARP-MINRANK-001`, with proof,
+verifier and certificate bytes pinned. The explicit complete block
+basis, transpose-conjugation transport to `G+G G00`, and reduction to
+the 46-dimensional bottom-left space are the local additions.
+Both root and another subagent read the deduction within the generating
+session; that does not change its written-and-unreviewed status.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
