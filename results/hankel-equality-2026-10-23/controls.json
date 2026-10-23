@@ -1,0 +1,790 @@
+{
+  "saturated_controls": [
+    {
+      "name": "origin-rank-1",
+      "a": 2,
+      "b": 2,
+      "sequence": [
+        "x*z",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 1,
+      "full_slice_rank": 4,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-1",
+      "a": 2,
+      "b": 2,
+      "sequence": [
+        "0",
+        "0",
+        "x*z"
+      ],
+      "symbol_rank": 1,
+      "full_slice_rank": 4,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-2",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "0",
+        "x**2*z**2",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 18,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-2",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "x**2*z**2",
+        "0"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 18,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-3",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "0",
+        "0",
+        "x**3*z**3",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 48,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-3",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**3*z**3",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 48,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-4",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "x**4*z**4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 100,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-4",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**4*z**4",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 100,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-5",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**5*z**5",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 5,
+      "full_slice_rank": 180,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-5",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**5*z**5",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 5,
+      "full_slice_rank": 180,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-6",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**6*z**6",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 6,
+      "full_slice_rank": 294,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-6",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**6*z**6",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 6,
+      "full_slice_rank": 294,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-7",
+      "a": 8,
+      "b": 8,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**7*z**7",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 7,
+      "full_slice_rank": 448,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-7",
+      "a": 8,
+      "b": 8,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**7*z**7",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 7,
+      "full_slice_rank": 448,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "origin-rank-8",
+      "a": 9,
+      "b": 9,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**8*z**8",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 8,
+      "full_slice_rank": 648,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "infinity-rank-8",
+      "a": 9,
+      "b": 9,
+      "sequence": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**8*z**8",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 8,
+      "full_slice_rank": 648,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "three-reduced-points",
+      "a": 4,
+      "b": 5,
+      "sequence": [
+        "20*x*z + 6*x + 9*z + 3",
+        "50*x*z + 14*x + 20*z + 6",
+        "134*x*z + 36*x + 50*z + 14",
+        "374*x*z + 98*x + 134*z + 36",
+        "1070*x*z + 276*x + 374*z + 98",
+        "3110*x*z + 794*x + 1070*z + 276",
+        "9134*x*z + 2316*x + 3110*z + 794",
+        "27014*x*z + 6818*x + 9134*z + 2316"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 60,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "-11/6",
+        "1",
+        "-1/6"
+      ]
+    },
+    {
+      "name": "double-point-away-from-origin",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "x*z + x + z + 1",
+        "3*x*z + 3*x + 3*z + 3",
+        "8*x*z + 8*x + 8*z + 8",
+        "20*x*z + 20*x + 20*z + 20",
+        "48*x*z + 48*x + 48*z + 48",
+        "112*x*z + 112*x + 112*z + 112",
+        "256*x*z + 256*x + 256*z + 256"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 32,
+      "saturated": true,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "1",
+        "-1",
+        "1/4"
+      ]
+    }
+  ],
+  "near_equality_controls": [
+    {
+      "name": "fixed-double-point-excess-one-a3",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "x*z",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 19,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "fixed-double-point-excess-one-a4",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "x*z",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 33,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "fixed-double-point-excess-one-a5",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "x*z",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 51,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 1,
+      "normalized_common_annihilator": [
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "nonsaturated_controls": [
+    {
+      "name": "variable-recurrence-rank-2",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "1",
+        "0",
+        "x",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 21,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    },
+    {
+      "name": "variable-recurrence-rank-3",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 52,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    },
+    {
+      "name": "variable-recurrence-rank-4",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 105,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    },
+    {
+      "name": "variable-recurrence-rank-5",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 5,
+      "full_slice_rank": 186,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    },
+    {
+      "name": "variable-recurrence-rank-6",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 6,
+      "full_slice_rank": 301,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    },
+    {
+      "name": "variable-recurrence-rank-7",
+      "a": 8,
+      "b": 8,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 7,
+      "full_slice_rank": 456,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    },
+    {
+      "name": "variable-recurrence-rank-8",
+      "a": 9,
+      "b": 9,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 8,
+      "full_slice_rank": 657,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null
+    }
+  ],
+  "full_symbol_boundary": {
+    "name": "credited-PR76-full-rank-warning",
+    "a": 2,
+    "b": 3,
+    "sequence": [
+      "0",
+      "x",
+      "0",
+      "1"
+    ],
+    "symbol_rank": 2,
+    "full_slice_rank": 12,
+    "saturated": true,
+    "deficient_symbol": false,
+    "common_annihilator_nullity": 0,
+    "normalized_common_annihilator": null
+  },
+  "scope": "Exact finite controls; the all-rank theorem rests on the written proof.",
+  "independent_review": false,
+  "improves_omega": false
+}

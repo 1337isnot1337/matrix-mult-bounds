@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-hankel-equality` package is owner-directed OpenAI Codex
+work. The earlier coefficient-map equality lemma, two polynomial rank
+injections, rank-two equality proof and classical scalar Hankel kernel
+description retain their credit and unchanged source pins. The concurrent
+rectangular PR76 retains its full-symbol-rank counterexamples and
+crossed-flattening results. The deficient-rank kernel-gcd descent, integer
+strip refinement and all-rank sharpness family are local continuations.
+Exact controls do not constitute independent review, formalization or
+an exponent improvement.
+
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

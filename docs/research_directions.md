@@ -280,7 +280,11 @@ now close the former ordinary A8 rectangular and square-sum targets.
 Every improving balanced single rectangular shape through a9 is excluded;
 the first necessary-test survivors are at a10. A9's square partition
 (32,6,3) remains unconstructed, with the M32 lifted rank exactly648.
-The next owned algebraic question is equality at that rank. Singular
+The next owned algebraic question is equality at that rank. The new
+[kernel-descent strip](../research/ai/2026-10-23-hankel-equality/proof.md)
+forces a constant length-eight scheme for each rank-eight saturated
+slice, but constancy over the whole matrix-parameter family is still
+unproved. Its pointwise conclusion alone does not exclude this target. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
 

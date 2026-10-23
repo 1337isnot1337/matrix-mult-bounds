@@ -1,5 +1,19 @@
 # Research status
 
+## A sharp constant-scheme strip at deficient Hankel rank
+
+The [kernel-descent proof](research/ai/2026-10-23-hankel-equality/proof.md)
+extends the earlier rank-two equality containment: for scalar Hankel rank
+r<min(a,b), source slice rank below ab*r+min(a,b) forces one constant
+length-r supporting scheme for every coefficient sequence of that slice.
+A moving-scheme family reaches the strict boundary for every r>=2.
+Exact controls include saturated ranks one through eight, excess-one
+examples, reduced and nonreduced schemes, and endpoint and full-rank
+warnings. Claim `AI-HANKEL-CONSTANT-SCHEME-STRIP-001` is written and
+unreviewed. Constancy over a whole matrix-parameter family remains
+unproved; the A9 square-sum candidate and smaller exponent remain open.
+
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

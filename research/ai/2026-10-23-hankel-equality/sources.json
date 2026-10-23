@@ -1,0 +1,37 @@
+{
+  "base_main": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "field": "Complex numbers; 1<=r<min(a,b); full-output polynomial coefficient maps; ordinary source slices.",
+  "prior_local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_equality.md",
+      "sha256": "8262aab3ebf75790bfa6b02010dda739ded3d27ce2d19aa7335f60ea7cf87c5b"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+      "sha256": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/application.md",
+      "sha256": "b20210874e52d2cd45b88fd95b18cb3dfe8cd872e46a8d970e380d3bff7619e5"
+    }
+  ],
+  "concurrent_prior_work": {
+    "commit": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+    "pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/76",
+    "paths": [
+      "research/ai/2026-10-21-rectangular-direct-sums/equality_next.md",
+      "research/ai/2026-10-21-rectangular-direct-sums/equality_crossed_flattening.md",
+      "research/ai/2026-10-21-rectangular-direct-sums/quantitative_crossed_rank.md"
+    ],
+    "credit": "Full-symbol-rank equality warnings and crossed-flattening equality and quantitative inequalities are prior work. Their stronger application machinery is not adopted as a premise here."
+  },
+  "imported_results": "The prior coefficient-map equality lemma, two polynomial slice-rank injection chains, and elementary scalar Hankel kernel description are adopted with their original credit. The latter local proof credits the classical rational-normal-curve Hankel description. No new external theorem is imported.",
+  "local_continuation": "Integer strip refinement, descent of the supporting kernel gcd from C(x) and C(z) to C, all-rank moving-scheme sharpness family, and exact controls.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
