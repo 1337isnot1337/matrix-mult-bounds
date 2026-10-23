@@ -43,6 +43,18 @@ incidence to the full matrix target. The all-order local curve alone
 does not construct M(10,10,11). Concurrent PR123 retains its separate
 exact d=0 curve preserving its credited two-jet.
 
+The [complete leading-pair frontier](../research/ai/2026-10-23-all-pair-rank136/proof.md)
+now forces every balanced leading-rank pair to sum to at most 136,
+with total at most 204. Short rank 100 forces each long rank at most 36.
+The necessary bounds allow arbitrary complex kernels, higher jets and
+finite Laurent poles on the remaining map. Seek an exact construction
+inside the remaining region, or further source-specific compression
+constraints. The [sharp source caps](../research/ai/2026-10-23-rank84-rank88-spaces/proof.md)
+at strict ranks 84 and 88 are 56 and 60; lowering these universal caps
+is impossible. At ranks 92 and 96, first compare any proposal with the
+explicit 64- and 68-dimensional staircase spaces of ranks at most 88
+and 92.
+
 The [sharp rank-80 source theorem](../research/ai/2026-10-23-rank80-sharp-spaces/proof.md)
 settles that dimension cap at 44. Its explicit 44-space has maximum
 rank 79, so a smaller universal cap at the same threshold is impossible.
