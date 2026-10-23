@@ -13,8 +13,10 @@ or an argument outside that specified calculus.
 
 The [local paired-repair deduction](../research/ai/2026-10-23-operational-repair-barrier/README.md)
 shows that formal near-full fixed-width repairs cannot cost `O(n^alpha)`
-for any fixed `alpha<2`. This barrier does not exclude actual tensor
-degenerations. The paired construction target below remains open.
+for any fixed `alpha<2`. Its finer `n^2/ln n` coefficient is optimal over
+the entire external F_theta family, including the simplex corners.
+Optimizing those parameters cannot strengthen that leading coefficient.
+This barrier does not exclude actual tensor degenerations. The paired construction target below remains open.
 New maps must be verified directly, including their auxiliary costs.
 
 ## Active paired construction: finite maps and concentrated residuals

@@ -20,10 +20,11 @@ defects, a more precise necessary repair bound is
 
 Every logarithm in this note is the natural logarithm. At width four the
 right side lies strictly between `0.304118051531` and `0.304118051532`.
-Section 4 permits outer defects of order `n/ln n` as well. The coefficient
-in (1) is sharp for the one-parameter functional family used here; no
-optimality over all formal monotones or actual tensor constructions is
-asserted.
+Section 4 permits outer defects of order `n/ln n` as well. Section 5
+proves that the coefficient in (1) is optimal over the entire external
+`F_theta` family, including parameters approaching the simplex corners.
+This does not assert optimality over all formal monotones or establish
+that a formal repair construction attains the necessary bound.
 
 ## 1. Imported result and formal-expression conventions
 
@@ -285,45 +286,200 @@ coefficient in (11). For unrestricted `o(n)` losses, Section 3 still
 excludes every fixed subquadratic power; it does not alone provide a
 positive constant at the finer scale `n^2/ln n`.
 
-## 5. Sharpness of this one-parameter bound for fixed defects
+## 5. Sharpness over the entire external parameter family
 
-For fixed nonnegative `c_l,c_r`, let `G_n(p)` be the right side of (7)
-with target `M(n-c_l,b,n-c_r)`. For large `n`, all `p` in `(1,2)` satisfy
-(4), and
-
-\[
-G_n(p)\leq n^pD_b(p).
-\]
-
-Set `epsilon=2-p`. The function in (8) extends smoothly to
-`epsilon in [0,1]`, and its Taylor expansion is
+Let `theta=(u,v,w)` be any positive triple of sum one. Write
+`pi_1=u/[(1-v)(1-w)]`, and define `pi_2,pi_3` cyclically, as in the
+external paper. These exponents lie in `(0,1)`. For `1<=l,r<=n`, put
 
 \[
-D_b(2-\epsilon)=A\epsilon+O_b(\epsilon^2).
+G_\theta(n,l,r)
+=F_\theta(M(l,b,r))-F_\theta(Q(n,b)).
 \]
 
-A uniform upper remainder bound `C_b epsilon^2` therefore exists on this
-compact interval. For `L=ln n`,
+We prove the uniform finite upper bound
 
 \[
-\frac L{n^2}G_n(p)
-\leq A L\epsilon e^{-L\epsilon}
-     +C_b L\epsilon^2e^{-L\epsilon}
-\leq\frac A e+\frac{4C_b}{e^2L}.
+\boxed{\displaystyle
+\sup_\theta G_\theta(n,l,r)
+\leq\frac{A}{e}\frac{n^2}{\ln(n/b^2)}\qquad(n>b^2).}
+\tag{12a}
 \]
 
-The choice `epsilon=1/L` in Section 4 attains the limiting coefficient
-`A/e`. Consequently
+The supremum includes every permitted parameter, without a condition
+such as (4). The symmetric choice from Section 4 attains the resulting
+asymptotic upper bound. Therefore, for fixed nonnegative outer defects,
 
 \[
 \lim_{n\to\infty}\frac{\ln n}{n^2}
-\sup_{1<p<2}G_n(p)=\frac A e.
+\sup_\theta G_\theta(n,n-c_l,n-c_r)=\frac A e.
 \tag{12}
 \]
 
-Thus optimizing this family cannot add an unbounded logarithmic factor
-to (1). This does not prove that `n^2/ln n` repair is sufficient, or that
-other formal monotones have the same limitation.
+This concerns the strength of the imported family of necessary repair
+certificates. It does not prove that `n^2/ln n` formal repair is
+sufficient, or that every formal monotone has this limitation.
+
+### 5.1. A source lower bound valid in both generator branches
+
+Set
+
+\[
+A_n=1+\frac{n-1}{1-u},\qquad
+B_2=1+\frac{b-1}{1-v},\qquad
+B_3=1+\frac{b-1}{1-w}.
+\]
+
+We claim
+
+\[
+F_\theta(P_{n,b,n+b-1})\geq n^{\pi_2}B_2^{1-\pi_2}.
+\]
+
+When `A_n>=B_2`, the generator formula is
+`B_2^(1-pi_2)[n+u(B_2-1)]^pi_2`, which proves the claim.
+When `A_n<B_2`, put `z=B_2/A_n>1`. The generator formula becomes
+`A_n[v+(1-v)z]^pi_1`. Weighted AM-GM and the exponent identity
+
+\[
+v+(1-v)z\geq z^{1-v},\qquad
+\pi_1(1-v)=1-\pi_2+u\pi_2\geq1-\pi_2
+\]
+
+give a lower bound `A_n*z^(1-pi_2)`. This equals
+`A_n^pi_2*B_2^(1-pi_2)` and is at least the claimed bound, since `A_n>=n`.
+Interchanging legs two and three and multiplying gives
+
+\[
+F_\theta(Q(n,b))\geq n^{\pi_2+\pi_3}C,\qquad
+C=B_2^{1-\pi_2}B_3^{1-\pi_3}.
+\tag{12b}
+\]
+
+### 5.2. A uniform entropy-ratio inequality
+
+Define
+
+\[
+\epsilon=2-\pi_2-\pi_3>0,\qquad
+H=\pi_1\ln b-(1-\pi_2)\ln B_2-(1-\pi_3)\ln B_3.
+\]
+
+We will use the two inequalities
+
+\[
+0<H\leq A\epsilon,\qquad \pi_1\leq2\epsilon.
+\tag{12c}
+\]
+
+Put `x=1-v`, `y=1-w`, so `0<x,y<1` and `x+y>1`, and define
+
+\[
+\phi(z)=\frac{\ln b}{z}-\ln\left(1+\frac{b-1}{z}\right).
+\]
+
+Direct substitution gives
+
+\[
+\frac H\epsilon
+=\frac{x(1-y)\phi(x)+y(1-x)\phi(y)}{x(1-y)+y(1-x)}.
+\]
+
+The function `phi` vanishes at one and is strictly decreasing, since
+
+\[
+z^2\phi'(z)=-\ln b+\frac{(b-1)z}{z+b-1}
+\leq-\ln b+\frac{b-1}{b}<0.
+\]
+
+Thus the displayed weighted average is positive. By symmetry, assume
+`x<=y`. If `x>=1/2`, both entries in that average are at most
+`phi(1/2)=A`. If `x<1/2`, fix x and decrease y to its boundary value
+`1-x`. This increases the average: the weight on the larger value
+`phi(x)` has derivative `-x(1-x)/(x+y-2xy)^2<0` with respect to y,
+and `phi(y)` also decreases with y.
+
+At `y=1-x`, the ratio becomes
+
+\[
+\frac{\ln b-f(x)-f(1-x)}{x^2+(1-x)^2},\qquad
+f(z)=z^2\ln\left(1+\frac{b-1}{z}\right).
+\]
+
+The function f is strictly convex. Indeed, with
+`t=(b-1)/(z+b-1)` in `(0,1)`,
+
+\[
+f''(z)=-2\ln(1-t)-2t-t^2
+=2\sum_{k=3}^\infty\frac{t^k}{k}>0.
+\]
+
+Consequently the numerator is at most `A/2`, while the denominator is
+at least `1/2`. This proves `H/epsilon<=A`.
+For the second inequality in (12c), direct substitution gives
+
+\[
+\frac{\pi_1}{\epsilon}=\frac{2-x-y}{x+y-2xy}\leq2.
+\]
+
+To verify the last step, write `s=x+y` in `(1,2)` and use
+`3s-4xy>=3s-s^2>=2`. These arguments cover parameters arbitrarily
+close to the simplex boundary and corners.
+
+### 5.3. Optimizing the uniform upper bound
+
+The target is at most `n^(2-epsilon)*b^pi_1`. Combining (12b)--(12c),
+
+\[
+G_\theta(n,l,r)
+\leq n^{2-\epsilon}b^{\pi_1}(1-e^{-H})
+\leq A\epsilon b^{2\epsilon}n^{2-\epsilon}.
+\]
+
+For `L'=ln(n/b^2)>0`, the right side is
+`A*n^2*epsilon*exp(-epsilon*L')`, whose maximum over all positive
+epsilon is `A*n^2/(e*L')`. This proves (12a). The moving symmetric
+parameter from Section 4 gives the matching lower limit in (12).
+
+### 5.4. Sharpness with logarithmic outer losses
+
+Let `delta=ln[n^2/(lr)]>=0` and
+`Delta=pi_3*ln(n/l)+pi_2*ln(n/r)`. Since each of `pi_2,pi_3` is at
+least `1-epsilon`, we have `Delta>=(1-epsilon)delta`.
+The exact target value and (12b) give
+
+\[
+G_\theta(n,l,r)
+\leq n^{2-\epsilon}b^{\pi_1}(e^{-\Delta}-e^{-H}).
+\]
+
+For nonnegative H and Delta,
+`[exp(-Delta)-exp(-H)]_+ <= [H-Delta]_+`, where `[z]_+=max(z,0)`.
+Applying (12c) and this inequality yields
+
+\[
+\max(G_\theta,0)
+\leq n^2e^{-\epsilon L'}[(A+\delta)\epsilon-\delta]_+.
+\]
+
+The scalar maximum occurs at
+`epsilon=1/L'+delta/(A+delta)`. Allowing all nonnegative epsilon
+enlarges the range of actual parameters, so it gives the valid bound
+
+\[
+\boxed{\displaystyle
+\sup_\theta\max(G_\theta,0)
+\leq\frac{n^2(A+\delta)}{eL'}
+\exp\left(-\frac{\delta L'}{A+\delta}\right).}
+\tag{12d}
+\]
+
+If `delta_n*ln n -> alpha<infinity`, its normalized limit is
+`A*exp(-1-alpha/A)`. Section 4 attains that coefficient with
+`p_n=2-(1+alpha/A)/ln n`. Thus the coefficient is optimal over the
+entire external family whenever this scaled deficit has a limit.
+The necessary lower bound (11) still needs only its stated upper-limit
+hypothesis; convergence is used here for the matching sharpness claim.
 
 ## 6. Exact finite evidence and reproduction
 
@@ -360,10 +516,14 @@ by the displayed control.
 
 The logarithmic coefficient uses a rational enclosure for `ln(x)` from
 its atanh series, with a positive geometric tail bound, and an enclosure
-for `e` from its factorial series. No floating-point value decides an
-acceptance condition. There are 1,395 finite positivity controls: widths
+for `e` from its factorial series. Powers of two reduce logarithm
+arguments to `[1,2]`, so near-corner parameters also receive narrow
+enclosures. No floating-point value decides an acceptance condition.
+There are 1,395 finite positivity controls: widths
 2 through 32 and the 45 reduced parameters in `(1,2)` with denominator
-at most 12.
+at most 12. Six exact generator comparisons cover both branches and a
+width-one equality. Twenty-one entropy controls cover widths 2, 4 and 8
+at seven simplex points, including coordinates of size `10^-12`.
 The all-size convexity and limit arguments are written proofs, not
 consequences of those checks.
 
@@ -394,10 +554,12 @@ python -m unittest discover -s tests -p 'test_operational_repair_barrier.py' -v
 python research/ai/2026-10-23-operational-repair-barrier/barrier.py --output research/ai/2026-10-23-operational-repair-barrier/certificate.json
 ```
 
-The seven focused tests check the leg convention, direct substitution into
+The eleven focused tests check the leg convention, direct substitution into
 the external generator formula, the exact branch, strict finite witnesses,
 nonzero scalar repairs, negative and equality controls, root enclosures,
-and the natural-logarithm constant. The saved certificate records completed
+the natural-logarithm constant, both uniform source branches, the entropy
+inequalities near simplex corners, and the uniform finite envelope against
+an asymmetric generator value. The saved certificate records completed
 coverage. The external monotonicity theorem and the analytic proof are
 not formally verified by this program.
 
@@ -407,9 +569,11 @@ The external functions and their formal monotonicity belong to
 Amanov--van den Berg--Zuiddam. The paired source, target conventions and
 actual correction criteria are prior repository work. The evaluations,
 subquadratic repair deduction, logarithmic coefficient, dimension-loss
-refinement and exact replay were developed in this owner-directed session.
+refinement, all-parameter sharpness and exact replay were developed in
+this owner-directed session.
 A separate agent in the same session checked the formulas and supplied
-the logarithmic-deficit formulation. This is not independent external
+the logarithmic-deficit formulation and uniform sharpness proof; two
+other agents checked that proof in the same session. This is not independent external
 mathematical review, and no historical priority is claimed.
 
 Any successful actual family with the existing useful correction budget

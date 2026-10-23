@@ -97,10 +97,72 @@ class OperationalRepairBarrierTests(unittest.TestCase):
         self.assertTrue(report["formal_preorder_only"])
         self.assertFalse(report["actual_tensor_degeneration_excluded"])
         self.assertFalse(report["improves_omega"])
+        self.assertFalse(report["formal_construction_sufficiency_proved"])
+        self.assertIn("Entire external F_theta family", report["sharpness_scope"])
+        self.assertIn("Not all formal monotones", report["sharpness_scope"])
         lo, hi = module.log_interval(F(7, 16))
         other_lo, other_hi = module.log_interval(F(16, 7))
         self.assertEqual((lo, hi), (-other_hi, -other_lo))
         self.assertEqual(module.logarithmic_constant_interval(1), (0, 0))
+
+
+    def test_general_parameters_and_both_generator_branches(self):
+        theta = (F(1, 10), F(4, 5), F(1, 10))
+        _, exponents = module.external_parameters(theta)
+        self.assertEqual(exponents, (F(5, 9), F(80, 81), F(5, 9)))
+        for invalid in ((0, F(1, 2), F(1, 2)), (F(1, 3),) * 2,
+                        (F(1, 4),) * 3, (0.1, F(4, 5), F(1, 10))):
+            with self.assertRaises(ValueError):
+                module.external_parameters(invalid)
+        rows = module.certificate()["uniform_generator_controls"]
+        self.assertEqual(len(rows), 6)
+        self.assertEqual({row["generator_branch"] for row in rows},
+                         {"A_n < B_2", "A_n >= B_2"})
+        self.assertTrue(all(row["source_lower_bound_verified"] for row in rows))
+        self.assertTrue(rows[-1]["equality"])
+        self.assertFalse(rows[0]["equality"])
+
+    def test_uniform_entropy_bound_near_boundary_and_corners(self):
+        report = module.certificate()
+        self.assertEqual(report["all_theta_entropy_control_count"], 21)
+        rows = report["all_theta_entropy_controls"]
+        for row in rows:
+            self.assertTrue(row["weighted_ratio_identities_verified"])
+            self.assertTrue(row["p1_at_most_two_epsilon_verified"])
+            self.assertTrue(row["positive_entropy_gap_certified"])
+            self.assertTrue(row["entropy_ratio_below_A_certified"])
+            ratio_lo, ratio_hi = map(F, row["entropy_ratio_rational_bracket"])
+            a_lo, _ = map(F, row["A_rational_bracket"])
+            self.assertGreater(ratio_lo, 0)
+            self.assertLess(ratio_hi, a_lo)
+        self.assertTrue(any(F(row["theta"][0]) == F(1, 10 ** 12) for row in rows))
+        with self.assertRaises(ValueError):
+            module.all_theta_control(1, (F(1, 3),) * 3)
+
+    def test_uniform_envelope_against_an_asymmetric_direct_value(self):
+        # Literal theta=(1/10,4/5,1/10) gives powers with denominator 81.
+        # This asymmetric point lies outside the old one-parameter family.
+        target_power = F(64 ** 125 * 4 ** 45)
+        source_power = 16 * F(131, 2) ** 80 * F(13, 3) ** 36 * F(193, 3) ** 45
+        target_lo, target_hi = module.root_interval(target_power, 81)
+        source_lo, source_hi = module.root_interval(source_power, 81)
+        self.assertGreater(target_lo - source_hi, 0)
+        envelope_lo, envelope_hi = module.uniform_full_target_upper_interval(64, 4)
+        self.assertLess(target_hi - source_lo, envelope_lo)
+        self.assertLess(envelope_lo, envelope_hi)
+        self.assertEqual(module.decimal_enclosure((envelope_lo, envelope_hi)),
+                         (F(898559190608527, 10 ** 12), F(898559190608528, 10 ** 12)))
+        for n, b in ((16, 4), (15, 4), (2, 1)):
+            with self.assertRaises(ValueError):
+                module.uniform_full_target_upper_interval(n, b)
+
+    def test_logarithm_range_reduction_keeps_exact_enclosures(self):
+        log_two = module.log_interval(2)
+        self.assertEqual(module.log_interval(1024), tuple(10 * x for x in log_two))
+        small = module.log_interval(F(17, 13))
+        large = module.log_interval(F(17 * 2 ** 40, 13))
+        self.assertEqual(large, tuple(x + 40 * y for x, y in zip(small, log_two)))
+        self.assertEqual(module.log_interval(F(13, 17 * 2 ** 40)), (-large[1], -large[0]))
 
 
 if __name__ == "__main__":

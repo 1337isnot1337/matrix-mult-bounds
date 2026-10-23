@@ -9,7 +9,7 @@ Acceptance decisions use integers and fractions only.
 import argparse
 from fractions import Fraction
 import json
-from math import factorial
+from math import factorial, lcm
 from pathlib import Path
 
 
@@ -35,6 +35,60 @@ def dot_exponents(value):
     theta = ((2 - p) / p, (p - 1) / p, (p - 1) / p)
     exponents = (p * (2 - p), p / 2, p / 2)
     return theta, exponents
+
+
+def external_parameters(theta):
+    """Validate an exact interior simplex point and return its dot exponents."""
+    if not isinstance(theta, (tuple, list)) or len(theta) != 3:
+        raise ValueError("Theta must contain three exact rational entries.")
+    if any(not isinstance(x, (int, str, Fraction)) or isinstance(x, bool)
+           for x in theta):
+        raise ValueError("Theta entries must be exact rational values.")
+    theta = tuple(Fraction(x) for x in theta)
+    if any(x <= 0 for x in theta) or sum(theta) != 1:
+        raise ValueError("Theta entries must be positive and sum to one.")
+    exponents = tuple(
+        theta[i] / ((1 - theta[(i + 1) % 3]) * (1 - theta[(i + 2) % 3]))
+        for i in range(3)
+    )
+    return theta, exponents
+
+
+def generator_lower_bound_control(n, b, theta):
+    """Check the uniform source lower bound with an exact clearing power.
+
+    This evaluates the literal generator in either branch. The finite
+    control is separate from the all-parameter AM-GM proof in README.md.
+    """
+    positive_integer(n, "n")
+    positive_integer(b, "b")
+    theta, (p1, p2, _) = external_parameters(theta)
+    u, v, _ = theta
+    a_n = (n - u) / (1 - u)
+    b2 = (b - v) / (1 - v)
+    if a_n >= b2:
+        exponent = p2
+        first = b2
+        second = u * b2 + (1 - u) * a_n
+        branch = "A_n >= B_2"
+    else:
+        exponent = p1
+        first = a_n
+        second = v * a_n + (1 - v) * b2
+        branch = "A_n < B_2"
+    degree = lcm(exponent.denominator, p2.denominator)
+    actual = first ** int(degree * (1 - exponent))
+    actual *= second ** int(degree * exponent)
+    lower = n ** int(degree * p2) * b2 ** int(degree * (1 - p2))
+    return {
+        "n": n,
+        "b": b,
+        "theta": [str(x) for x in theta],
+        "generator_branch": branch,
+        "power_degree": degree,
+        "source_lower_bound_verified": actual >= lower,
+        "equality": actual == lower,
+    }
 
 
 def source_branch(n, b, value):
@@ -154,7 +208,7 @@ def coefficient_positive(b, value):
 
 
 def log_interval(value, terms=32):
-    """Certified natural logarithm by the atanh series and a geometric tail."""
+    """Certified natural logarithm, with range reduction and an atanh tail."""
     value = Fraction(value)
     if value <= 0:
         raise ValueError("The logarithm argument must be positive.")
@@ -162,11 +216,20 @@ def log_interval(value, terms=32):
     if value < 1:
         lower, upper = log_interval(1 / value, terms)
         return -upper, -lower
+    shifts = 0
+    while value > 2:
+        value /= 2
+        shifts += 1
     z = (value - 1) / (value + 1)
     total = sum((2 * z ** (2 * k + 1) / (2 * k + 1) for k in range(terms)),
                 Fraction(0))
     remainder = 2 * z ** (2 * terms + 1) / ((2 * terms + 1) * (1 - z * z))
-    return total, total + remainder
+    lower, upper = total, total + remainder
+    if shifts:
+        log_two_lower, log_two_upper = log_interval(2, terms)
+        lower += shifts * log_two_lower
+        upper += shifts * log_two_upper
+    return lower, upper
 
 
 def e_interval(terms=32):
@@ -195,6 +258,64 @@ def decimal_enclosure(interval, digits=12):
     return Fraction(lo, scale), Fraction(hi, scale)
 
 
+def all_theta_control(b, theta, terms=32):
+    """Certify the entropy-ratio bound at one rational simplex point.
+
+    Exact coefficient identities check the change of variables. Rational
+    log intervals check strict inequalities, including near-corner cases.
+    These controls do not replace the uniform analytic proof.
+    """
+    positive_integer(b, "b")
+    if b < 2:
+        raise ValueError("The strict all-parameter theorem requires b >= 2.")
+    theta, (p1, p2, p3) = external_parameters(theta)
+    _, v, w = theta
+    epsilon = 2 - p2 - p3
+    x, y = 1 - v, 1 - w
+    denominator = x + y - 2 * x * y
+    weight_x = x * (1 - y) / denominator
+    weight_y = y * (1 - x) / denominator
+    identities = (
+        weight_x + weight_y == 1
+        and p1 / epsilon == weight_x / x + weight_y / y
+        and (1 - p2) / epsilon == weight_x
+        and (1 - p3) / epsilon == weight_y
+    )
+    log_b = log_interval(b, terms)
+    log_b2 = log_interval(1 + Fraction(b - 1, x), terms)
+    log_b3 = log_interval(1 + Fraction(b - 1, y), terms)
+    h_lower = p1 * log_b[0] - (1 - p2) * log_b2[1] - (1 - p3) * log_b3[1]
+    h_upper = p1 * log_b[1] - (1 - p2) * log_b2[0] - (1 - p3) * log_b3[0]
+    a_lower, a_upper = log_interval(Fraction(b * b, 2 * b - 1), terms)
+    ratio_bracket = decimal_enclosure((h_lower / epsilon, h_upper / epsilon), 24)
+    a_bracket = decimal_enclosure((a_lower, a_upper), 24)
+    return {
+        "b": b,
+        "theta": [str(x) for x in theta],
+        "dot_exponents": [str(x) for x in (p1, p2, p3)],
+        "epsilon": str(epsilon),
+        "weighted_ratio_identities_verified": identities,
+        "p1_at_most_two_epsilon_verified": p1 <= 2 * epsilon,
+        "positive_entropy_gap_certified": h_lower > 0,
+        "entropy_ratio_below_A_certified": h_upper < epsilon * a_lower,
+        "entropy_ratio_rational_bracket": [str(z) for z in ratio_bracket],
+        "A_rational_bracket": [str(z) for z in a_bracket],
+    }
+
+
+def uniform_full_target_upper_interval(n, b, terms=32):
+    """Enclose A*n^2/[e*ln(n/b^2)], the upper envelope for every theta."""
+    positive_integer(n, "n")
+    positive_integer(b, "b")
+    if b < 2 or n <= b * b:
+        raise ValueError("The uniform envelope requires b >= 2 and n > b^2.")
+    a_lower, a_upper = log_interval(Fraction(b * b, 2 * b - 1), terms)
+    l_lower, l_upper = log_interval(Fraction(n, b * b), terms)
+    e_lower, e_upper = e_interval(terms)
+    return (n * n * a_lower / (e_upper * l_upper),
+            n * n * a_upper / (e_lower * l_lower))
+
+
 def certificate():
     examples = [
         finite_certificate(8, 4, 8, 4, 8, Fraction(15, 8)),
@@ -218,6 +339,41 @@ def certificate():
     if rounded != (Fraction(304118051531, 10 ** 12),
                    Fraction(304118051532, 10 ** 12)):
         raise ArithmeticError("The width-four natural-logarithm bracket changed.")
+    source_controls = [
+        generator_lower_bound_control(n, b, theta)
+        for n, b, theta in (
+            (2, 4, (Fraction(1, 10), Fraction(4, 5), Fraction(1, 10))),
+            (20, 4, (Fraction(1, 10), Fraction(4, 5), Fraction(1, 10))),
+            (2, 4, (Fraction(1, 10), Fraction(1, 10), Fraction(4, 5))),
+            (20, 4, (Fraction(1, 10), Fraction(1, 10), Fraction(4, 5))),
+            (1, 4, (Fraction(1, 3), Fraction(1, 3), Fraction(1, 3))),
+            (8, 1, (Fraction(1, 3), Fraction(1, 3), Fraction(1, 3))),
+        )
+    ]
+    theta_controls = []
+    parameters_to_check = (
+        (Fraction(1, 3), Fraction(1, 3), Fraction(1, 3)),
+        (Fraction(1, 10), Fraction(4, 5), Fraction(1, 10)),
+        (Fraction(1, 10), Fraction(1, 10), Fraction(4, 5)),
+        (Fraction(4, 5), Fraction(1, 10), Fraction(1, 10)),
+        (Fraction(1, 10 ** 6), Fraction(10 ** 6 - 1, 2 * 10 ** 6),
+         Fraction(10 ** 6 - 1, 2 * 10 ** 6)),
+        (Fraction(1, 10 ** 12), Fraction(1, 10 ** 6),
+         1 - Fraction(1, 10 ** 12) - Fraction(1, 10 ** 6)),
+        (Fraction(1, 10 ** 12),
+         1 - Fraction(1, 10 ** 12) - Fraction(1, 10 ** 6), Fraction(1, 10 ** 6)),
+    )
+    for b in (2, 4, 8):
+        theta_controls.extend(all_theta_control(b, theta) for theta in parameters_to_check)
+    if not all(row["source_lower_bound_verified"] for row in source_controls):
+        raise ArithmeticError("A uniform generator lower-bound control failed.")
+    for row in theta_controls:
+        if not all(row[key] for key in (
+            "weighted_ratio_identities_verified", "p1_at_most_two_epsilon_verified",
+            "positive_entropy_gap_certified", "entropy_ratio_below_A_certified",
+        )):
+            raise ArithmeticError("An all-parameter entropy control failed.")
+    uniform_envelope = decimal_enclosure(uniform_full_target_upper_interval(64, 4))
     return {
         "claim_id": "AI-OPERATIONAL-REPAIR-BARRIER-001",
         "date": "2026-10-23",
@@ -238,7 +394,22 @@ def certificate():
         "width_four_constant_rational_bracket": [str(x) for x in rounded],
         "logarithmic_defect_constant": "A*exp(-1-alpha/A), A=ln(b^2/(2*b-1))",
         "defect_hypothesis": "limsup (ln n)*ln(n^2/(l_n*r_n)) <= alpha, 0<l_n,r_n<=n",
-        "sharpness_scope": "Fixed nonnegative outer defects; this one-parameter family only.",
+        "sharpness_scope": (
+            "Entire external F_theta family; fixed nonnegative outer defects and "
+            "logarithmic product deficits with a finite scaled limit. "
+            "Not all formal monotones or actual tensor constructions."
+        ),
+        "formal_construction_sufficiency_proved": False,
+        "uniform_full_target_upper_bound": "A*n^2/(e*ln(n/b^2)), n>b^2, 0<l,r<=n",
+        "uniform_defect_upper_bound": (
+            "n^2*(A+delta)/(e*L')*exp(-delta*L'/(A+delta)), "
+            "delta=ln(n^2/(l*r)), L'=ln(n/b^2)>0"
+        ),
+        "sharp_defect_limit_hypothesis": "(ln n)*ln(n^2/(l_n*r_n)) -> alpha < infinity",
+        "uniform_generator_controls": source_controls,
+        "all_theta_entropy_controls": theta_controls,
+        "all_theta_entropy_control_count": len(theta_controls),
+        "n64_b4_uniform_upper_envelope_rational_bracket": [str(x) for x in uniform_envelope],
     }
 
 

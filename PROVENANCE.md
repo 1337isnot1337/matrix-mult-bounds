@@ -16,10 +16,12 @@ Codex work. Amanov, van den Berg and Zuiddam supply the formal semiring,
 its asymmetric functions and their monotonicity in arXiv:2610.30054v1.
 The paired source and actual correction-budget criteria retain their
 prior repository credit. The repair-cost exclusion, natural-logarithm
-coefficient, dimension-loss refinement and exact replay are local deductions.
+coefficient, dimension-loss refinement, all-parameter sharpness and exact
+replay are local deductions.
 A separate agent checked the formulas in the same session and supplied
-the logarithmic-deficit formulation. This is not independent mathematical
-review. The result concerns the specified formal calculus and gives no
+the logarithmic-deficit formulation and uniform entropy-ratio proof. Two
+other agents checked the strengthened proof in this session. This is not
+independent mathematical review. The result concerns the specified formal calculus and gives no
 unrestricted degeneration obstruction or improved exponent.
 
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex

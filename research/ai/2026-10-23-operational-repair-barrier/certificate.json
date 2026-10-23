@@ -157,5 +157,642 @@
   ],
   "logarithmic_defect_constant": "A*exp(-1-alpha/A), A=ln(b^2/(2*b-1))",
   "defect_hypothesis": "limsup (ln n)*ln(n^2/(l_n*r_n)) <= alpha, 0<l_n,r_n<=n",
-  "sharpness_scope": "Fixed nonnegative outer defects; this one-parameter family only."
+  "sharpness_scope": "Entire external F_theta family; fixed nonnegative outer defects and logarithmic product deficits with a finite scaled limit. Not all formal monotones or actual tensor constructions.",
+  "formal_construction_sufficiency_proved": false,
+  "uniform_full_target_upper_bound": "A*n^2/(e*ln(n/b^2)), n>b^2, 0<l,r<=n",
+  "uniform_defect_upper_bound": "n^2*(A+delta)/(e*L')*exp(-delta*L'/(A+delta)), delta=ln(n^2/(l*r)), L'=ln(n/b^2)>0",
+  "sharp_defect_limit_hypothesis": "(ln n)*ln(n^2/(l_n*r_n)) -> alpha < infinity",
+  "uniform_generator_controls": [
+    {
+      "n": 2,
+      "b": 4,
+      "theta": [
+        "1/10",
+        "4/5",
+        "1/10"
+      ],
+      "generator_branch": "A_n < B_2",
+      "power_degree": 81,
+      "source_lower_bound_verified": true,
+      "equality": false
+    },
+    {
+      "n": 20,
+      "b": 4,
+      "theta": [
+        "1/10",
+        "4/5",
+        "1/10"
+      ],
+      "generator_branch": "A_n >= B_2",
+      "power_degree": 81,
+      "source_lower_bound_verified": true,
+      "equality": false
+    },
+    {
+      "n": 2,
+      "b": 4,
+      "theta": [
+        "1/10",
+        "1/10",
+        "4/5"
+      ],
+      "generator_branch": "A_n < B_2",
+      "power_degree": 9,
+      "source_lower_bound_verified": true,
+      "equality": false
+    },
+    {
+      "n": 20,
+      "b": 4,
+      "theta": [
+        "1/10",
+        "1/10",
+        "4/5"
+      ],
+      "generator_branch": "A_n >= B_2",
+      "power_degree": 9,
+      "source_lower_bound_verified": true,
+      "equality": false
+    },
+    {
+      "n": 1,
+      "b": 4,
+      "theta": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "generator_branch": "A_n < B_2",
+      "power_degree": 4,
+      "source_lower_bound_verified": true,
+      "equality": false
+    },
+    {
+      "n": 8,
+      "b": 1,
+      "theta": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "generator_branch": "A_n >= B_2",
+      "power_degree": 4,
+      "source_lower_bound_verified": true,
+      "equality": true
+    }
+  ],
+  "all_theta_entropy_controls": [
+    {
+      "b": 2,
+      "theta": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "dot_exponents": [
+        "3/4",
+        "3/4",
+        "3/4"
+      ],
+      "epsilon": "1/2",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "1542875487072036236779/12500000000000000000000",
+        "123430038965762898942321/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 2,
+      "theta": [
+        "1/10",
+        "4/5",
+        "1/10"
+      ],
+      "dot_exponents": [
+        "5/9",
+        "80/81",
+        "5/9"
+      ],
+      "epsilon": "37/81",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "67571491623825003867449/1000000000000000000000000",
+        "1351429832476500077349/20000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 2,
+      "theta": [
+        "1/10",
+        "1/10",
+        "4/5"
+      ],
+      "dot_exponents": [
+        "5/9",
+        "5/9",
+        "80/81"
+      ],
+      "epsilon": "37/81",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "67571491623825003867449/1000000000000000000000000",
+        "1351429832476500077349/20000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 2,
+      "theta": [
+        "4/5",
+        "1/10",
+        "1/10"
+      ],
+      "dot_exponents": [
+        "80/81",
+        "5/9",
+        "5/9"
+      ],
+      "epsilon": "8/9",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "1434320757829606938927/62500000000000000000000",
+        "22949132125273711022833/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 2,
+      "theta": [
+        "1/1000000",
+        "999999/2000000",
+        "999999/2000000"
+      ],
+      "dot_exponents": [
+        "4000000/1000002000001",
+        "1000000/1000001",
+        "1000000/1000001"
+      ],
+      "epsilon": "2/1000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "71920338206257080766659/250000000000000000000000",
+        "287681352825028323066637/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 2,
+      "theta": [
+        "1/1000000000000",
+        "1/1000000",
+        "999998999999/1000000000000"
+      ],
+      "dot_exponents": [
+        "1000000/999999999999",
+        "1000000000000000000/1000000999998999999",
+        "999998999999000000/999998999999000001"
+      ],
+      "epsilon": "999998000001000002/999999999998000000000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "221570562502928877/250000000000000000000000",
+        "886282250011715509/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 2,
+      "theta": [
+        "1/1000000000000",
+        "999998999999/1000000000000",
+        "1/1000000"
+      ],
+      "dot_exponents": [
+        "1000000/999999999999",
+        "999998999999000000/999998999999000001",
+        "1000000000000000000/1000000999998999999"
+      ],
+      "epsilon": "999998000001000002/999999999998000000000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "221570562502928877/250000000000000000000000",
+        "886282250011715509/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "287682072451780927439219/1000000000000000000000000",
+        "14384103622589046371961/50000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "dot_exponents": [
+        "3/4",
+        "3/4",
+        "3/4"
+      ],
+      "epsilon": "1/2",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "46836681180176336700873/125000000000000000000000",
+        "74938689888282138721397/200000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "1/10",
+        "4/5",
+        "1/10"
+      ],
+      "dot_exponents": [
+        "5/9",
+        "80/81",
+        "5/9"
+      ],
+      "epsilon": "37/81",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "184392514907889810869871/1000000000000000000000000",
+        "11524532181743113179367/62500000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "1/10",
+        "1/10",
+        "4/5"
+      ],
+      "dot_exponents": [
+        "5/9",
+        "5/9",
+        "80/81"
+      ],
+      "epsilon": "37/81",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "184392514907889810869871/1000000000000000000000000",
+        "11524532181743113179367/62500000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "4/5",
+        "1/10",
+        "1/10"
+      ],
+      "dot_exponents": [
+        "80/81",
+        "5/9",
+        "5/9"
+      ],
+      "epsilon": "8/9",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "14797999823512506364899/200000000000000000000000",
+        "4624374944847658239031/62500000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "1/1000000",
+        "999999/2000000",
+        "999999/2000000"
+      ],
+      "dot_exponents": [
+        "4000000/1000002000001",
+        "1000000/1000001",
+        "1000000/1000001"
+      ],
+      "epsilon": "2/1000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "103334582217610703250391/125000000000000000000000",
+        "826676657740885626003129/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "1/1000000000000",
+        "1/1000000",
+        "999998999999/1000000000000"
+      ],
+      "dot_exponents": [
+        "1000000/999999999999",
+        "1000000000000000000/1000000999998999999",
+        "999998999999000000/999998999999000001"
+      ],
+      "epsilon": "999998000001000002/999999999998000000000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "505644374552630737/250000000000000000000000",
+        "2022577498210522949/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 4,
+      "theta": [
+        "1/1000000000000",
+        "999998999999/1000000000000",
+        "1/1000000"
+      ],
+      "dot_exponents": [
+        "1000000/999999999999",
+        "999998999999000000/999998999999000001",
+        "1000000000000000000/1000000999998999999"
+      ],
+      "epsilon": "999998000001000002/999999999998000000000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "505644374552630737/250000000000000000000000",
+        "2022577498210522949/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "33067142927378717302543/40000000000000000000000",
+        "103334821648058491570447/125000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "dot_exponents": [
+        "3/4",
+        "3/4",
+        "3/4"
+      ],
+      "epsilon": "1/2",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "676815277150549510988023/1000000000000000000000000",
+        "84601909643818688873503/125000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "1/10",
+        "4/5",
+        "1/10"
+      ],
+      "dot_exponents": [
+        "5/9",
+        "80/81",
+        "5/9"
+      ],
+      "epsilon": "37/81",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "318684122498044074592783/1000000000000000000000000",
+        "19917757656127754662049/62500000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "1/10",
+        "1/10",
+        "4/5"
+      ],
+      "dot_exponents": [
+        "5/9",
+        "5/9",
+        "80/81"
+      ],
+      "epsilon": "37/81",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "318684122498044074592783/1000000000000000000000000",
+        "19917757656127754662049/62500000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "4/5",
+        "1/10",
+        "1/10"
+      ],
+      "dot_exponents": [
+        "80/81",
+        "5/9",
+        "5/9"
+      ],
+      "epsilon": "8/9",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "34566831683920563335413/250000000000000000000000",
+        "138267326735682253341653/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "1/1000000",
+        "999999/2000000",
+        "999999/2000000"
+      ],
+      "dot_exponents": [
+        "4000000/1000002000001",
+        "1000000/1000001",
+        "1000000/1000001"
+      ],
+      "epsilon": "2/1000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "725414828355686432824401/500000000000000000000000",
+        "1450829656711372865648803/1000000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "1/1000000000000",
+        "1/1000000",
+        "999998999999/1000000000000"
+      ],
+      "dot_exponents": [
+        "1000000/999999999999",
+        "1000000000000000000/1000000999998999999",
+        "999998999999000000/999998999999000001"
+      ],
+      "epsilon": "999998000001000002/999999999998000000000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "3283873068036443323/1000000000000000000000000",
+        "820968267009110831/250000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    },
+    {
+      "b": 8,
+      "theta": [
+        "1/1000000000000",
+        "999998999999/1000000000000",
+        "1/1000000"
+      ],
+      "dot_exponents": [
+        "1000000/999999999999",
+        "999998999999000000/999998999999000001",
+        "1000000000000000000/1000000999998999999"
+      ],
+      "epsilon": "999998000001000002/999999999998000000000001",
+      "weighted_ratio_identities_verified": true,
+      "p1_at_most_two_epsilon_verified": true,
+      "positive_entropy_gap_certified": true,
+      "entropy_ratio_below_A_certified": true,
+      "entropy_ratio_rational_bracket": [
+        "3283873068036443323/1000000000000000000000000",
+        "820968267009110831/250000000000000000000000"
+      ],
+      "A_rational_bracket": [
+        "362708220564365447626847/250000000000000000000000",
+        "1450832882257461790507389/1000000000000000000000000"
+      ]
+    }
+  ],
+  "all_theta_entropy_control_count": 21,
+  "n64_b4_uniform_upper_envelope_rational_bracket": [
+    "898559190608527/1000000000000",
+    "56159949413033/62500000000"
+  ]
 }

@@ -31,6 +31,10 @@ For fixed outer defects, the necessary lower bound is
 The proof also permits quantified outer defects of order `n/ln n`.
 At width four, its coefficient lies between
 `0.304118051531` and `0.304118051532`.
+The coefficient is optimal over the entire external F_theta family,
+including parameters approaching simplex boundaries and corners. A uniform
+finite upper envelope also proves sharpness with convergent logarithmic
+outer loss. This concerns certificate strength, not repair attainability.
 
 Claim `AI-OPERATIONAL-REPAIR-BARRIER-001` is written and unreviewed.
 Integer and rational calculations verify finite inequalities and control cases.
