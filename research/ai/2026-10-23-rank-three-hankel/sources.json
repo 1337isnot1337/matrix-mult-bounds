@@ -1,0 +1,38 @@
+{
+  "base_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "external_sources": [
+    {
+      "authors": "J. S. Milne",
+      "title": "Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field",
+      "version": "Corrected October 5, 2021; as published by Cambridge University Press in2022",
+      "url": "https://www.jmilne.org/math/Books/iAG2022.pdf",
+      "locator": "Corollary17.3, printed page353, PDF page364 (zero-based363); standing smooth connected assumptions on printed page352",
+      "imported_statement": "A smooth connected solvable algebraic group acting on a nonempty complete separated algebraic scheme over an algebraically closed field has a fixed point. Applied to two upper-triangular groups acting on a projective orbit closure in a Grassmannian.",
+      "read": "Statement, standing hypotheses, proof, warning about smoothness/completeness, and version cover read in this session."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+      "sha256": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/application.md",
+      "sha256": "b20210874e52d2cd45b88fd95b18cb3dfe8cd872e46a8d970e380d3bff7619e5"
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/proof.md",
+      "sha256": "73d21b803b067c8634d33a6d9ba12945f9abbf02a39b4b38b190dc113ca475c5"
+    }
+  ],
+  "prior_credit": "Classical scalar Hankel annihilators and the maintained source-rank/coefficient-injection arguments retain their prior local and external attribution. The proof supplies the tangent, closed-condition, Ferrers and conormal-incidence deductions without claiming historical priority.",
+  "local_work": "Projection codimension budgets via a Borel-fixed Ferrers limit; proper large sections of the rank-seven Hankel variety; rank-three exclusion of two ordinary A(8,9) targets; exact finite controls.",
+  "field_and_hypotheses": "Algebraically closed characteristic-zero field. Complex ordinary source restrictions, extended to the algebraic closure of C(u,v) using polynomial parameter identities. No singular degeneration claim.",
+  "ai_assistance": "Owner-directed OpenAI Codex generating session; exact controls and written proof are not independent mathematical review or formalization.",
+  "independent_review": false,
+  "improves_omega": false
+}

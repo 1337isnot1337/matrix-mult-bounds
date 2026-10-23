@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-rank-three-hankel` package is owner-directed OpenAI Codex
+continuation of PR138's higher-rank parameter question. Borel's classical
+fixed-point theorem is imported in Milne's corrected October5,2021 text
+published by CUP in2022, Corollary17.3, with its smoothness, connectedness
+and completeness hypotheses retained. The classical scalar Hankel
+kernels and earlier polynomial source-rank/coefficient-injection proofs
+keep their attribution and exact byte pins. The closed-condition Ferrers
+projection budget, conormal dimension argument for large sections,
+two explicit ordinary target exclusions and exact controls are local
+deductions. No historical priority, independent mathematical review,
+formalization, singular exclusion or improved exponent is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

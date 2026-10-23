@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The rank-three input continuation is in
+`ai/2026-10-23-rank-three-hankel/QUESTION.md`, branch
+`research/rank-three-hankel-obstruction-20261023`. Its written argument
+excludes the two nonsquare A(8,9) formats from PR138 through a Borel-fixed
+projection budget and large Hankel sections. The remaining ordinary M30
+rank-two parameter-image question is the next scope. General Hankel
+pencil and constant-scheme-strip workers retain their existing scopes.
+No singular exclusion, independent review or smaller exponent is claimed.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

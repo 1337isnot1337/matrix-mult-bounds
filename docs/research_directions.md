@@ -306,3 +306,15 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+## Rank-three input continuation for unbalanced A(8,9)
+
+The [rank-three proof](../research/ai/2026-10-23-rank-three-hankel/proof.md)
+excludes the ordinary M(28,31,31) and M(29,30,31) formats from PR138's
+unbalanced single-target inventory. A Borel-fixed projection budget
+and a codimension-two result for large rank-seven Hankel sections
+contradict their rank-three parameter images. The proof is written and
+unreviewed. M30 remains open: its rank-two image constraint is compatible
+with a13-through16-dimensional symbol image under the same budget.
+Seek a stronger rank-two image theorem, explicit M30 maps, or singular
+constructions. Do not transfer the rank-three exclusion to that case.

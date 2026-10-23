@@ -1,5 +1,22 @@
 # Research status
 
+## Rank-three inputs exclude the two nonsquare A(8,9) formats
+
+The [rank-three argument](research/ai/2026-10-23-rank-three-hankel/proof.md)
+excludes ordinary complex A(8,9) restrictions to M(28,31,31) and
+M(29,30,31). Every rank-three parameter must map to Hankel rank at most
+seven. Coefficient injection requires a symbol image of dimension13
+through16; its rank-three image then has codimension at least two,
+which the new projection budget permits only from dimension20 onward.
+The proof uses the classical Borel fixed-point theorem and retains all
+prior source/Hankel credit. Six focused tests check22014 Ferrers cases,
+all697 coordinate sections omitting at most three coordinates, exact
+projection differentials, conormals and target rank budgets. Claims
+`AI-DETERMINANTAL-PROJECTION-BUDGET-001`, `AI-HANKEL-LARGE-SECTIONS-001`
+and `AI-A89-NONSQUARE-EXCLUSION-001` are written and unreviewed.
+The ordinary M30 format has only the weaker rank-two input constraint
+and remains open. No singular exclusion or smaller exponent is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
