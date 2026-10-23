@@ -1,13 +1,25 @@
 # Integrated research coordination
 
+The prescribed full third-jet question is now settled on d nonzero in
+`ai/2026-10-23-conic-fixed-third-obstruction/proof.md`: order-four,
+formal and polynomial extension are equivalent to Delta=0. Off that
+locus, the explicit dual obstruction kills all 4336 fourth unknowns;
+on it, two exact linear branches preserve every supplied coefficient.
+Seven focused tests, complete literal-source acceptance and a separate
+internal algebra audit pass. This is a new checkpoint following PR136;
+the latter's full two-jet extension remains valid. Future work should
+address projective base charts or local moduli, not repeat this fixed
+third-jet extension search. The claim remains written and unreviewed.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order
 two and Y1=Y2=0. Every complete product coefficient through order17,
 the unit leading minors and exact prior-byte pins pass acceptance; six
 focused tests and a separate sparse reconstruction pass. The next
-precise extension question is PR107's full third jet with its nonzero
-moving-kernel correction, or the missing projective base charts. Do not
+precise extension question about PR107's full third jet is settled by
+the fixed-third criterion above. The missing projective base charts
+remain open. Do not
 mistake this extension of one specified two-jet for extension of every
 representative or a complete matrix target. This round's PR136 package
 is frozen for final integration and current-head CI; subsequent research

@@ -1,5 +1,21 @@
 # Research status
 
+## Exact extension criterion for the prescribed full conic third jet
+
+The [fixed-third obstruction](research/ai/2026-10-23-conic-fixed-third-obstruction/proof.md)
+settles the next prescribed-jet question on d nonzero. PR107's complete
+B/C coefficients through order three and all three kernel corrections
+extend to order four exactly when Delta=(a+d^3)(b-d^3)=0. That condition
+is also equivalent to formal and polynomial extension. A 28-entry exact
+functional kills every fourth-map and fourth-kernel unknown but has
+residual -d(a+d^3)^4(b-d^3)^3/3. On both exceptional components, exact
+linear maps preserve the entire specified jet and give sufficiency.
+Seven focused tests and complete standard-library acceptance pass.
+Claim `AI-CONIC-FIXED-THIRD-OBSTRUCTION-001` is written and unreviewed.
+The preceding two-jet curve remains valid everywhere on d nonzero: it
+chooses a different third coefficient. No general matrix-target
+obstruction or improved exponent follows from this local classification.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
