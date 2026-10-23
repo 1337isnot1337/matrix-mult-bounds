@@ -365,6 +365,13 @@ the entire matched `j=2` source block; the off-diagonal support argument
 handles the remaining low-multiplier range. This closes all such
 size-dependent inner-index shifts.
 
+The [arbitrary inner-shift package](ai/2026-10-23-q64-arbitrary-inner-shifts/proof.md)
+now allows independent translations on all four inner indices of each long
+leg. For any first-leg map the correction flattening rank is at least
+`n(n-1)/2` for every n. It bounds the target/source slice-space
+intersection using adjacent C-shift terms; the proof is unreviewed. General
+non-coordinate long-leg maps remain open.
+
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
 The smaller sparse M1 lead has an all-size first-edge support deficit.

@@ -916,6 +916,13 @@ legs. For every first-leg map it proves rank at least `n^2/2` for `n>=4`.
 The argument and exact rational finite replay remain unreviewed and do
 not improve the exponent.
 
+The `2026-10-23-q64-arbitrary-inner-shifts` package extends the coordinate
+obstruction to arbitrary per-index integer translations on both long
+legs. Its all-size proof gives correction flattening rank at least
+`n(n-1)/2` for every first-leg map and every size. The exact rational
+replay is finite; the written proof remains unreviewed, with no Lean
+formalization or exponent improvement.
+
 ## Nonsplit vector-degree finite continuation
 
 The October 23 vector-degree package is owner-directed Codex work. It

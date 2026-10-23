@@ -34,6 +34,11 @@ excluded for arbitrary first-leg maps: the correction flattening rank is
 at least `n^2/2` for `n>=4`, uniformly over both multipliers. Further work
 must use a different long-leg map or a different source family.
 
+Even arbitrary per-index coordinate translations on both long legs are
+excluded by [AI-Q64-ARBITRARY-INNER-SHIFTS-001](../research/ai/2026-10-23-q64-arbitrary-inner-shifts/proof.md):
+their correction flattening rank is at least `n(n-1)/2` for every n.
+Continue with non-coordinate long-leg maps or a different source family.
+
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
 when both long maps remain regular and full rank. Do not repeat those

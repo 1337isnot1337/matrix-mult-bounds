@@ -1,0 +1,779 @@
+{
+  "claim": "AI-Q64-ARBITRARY-INNER-SHIFTS-001",
+  "exact_rational_replay": true,
+  "sizes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "profiles_requested_per_size": 8,
+  "profiles_tested": 40,
+  "first_leg_scope": "all linear maps via exact quotient/intersection minimum-rank identity",
+  "lower_bound_checked": "n*(n-1)//2",
+  "general_q_maps_excluded": false,
+  "exponent_improvement": false,
+  "cases": [
+    {
+      "n": 1,
+      "beta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamma": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_subspace_rank": 1,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 1,
+      "beta": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gamma": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_subspace_rank": 1,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 1,
+      "minimum_correction_rank": 0
+    },
+    {
+      "n": 1,
+      "beta": [
+        3,
+        -2,
+        5,
+        -6
+      ],
+      "gamma": [
+        -1,
+        3,
+        -4,
+        7
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 1,
+      "beta": [
+        3,
+        -2,
+        2,
+        -4
+      ],
+      "gamma": [
+        5,
+        1,
+        -3,
+        -3
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 1,
+      "beta": [
+        1,
+        0,
+        -1,
+        -2
+      ],
+      "gamma": [
+        -1,
+        0,
+        1,
+        2
+      ],
+      "source_subspace_rank": 1,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 1,
+      "beta": [
+        4,
+        -3,
+        -4,
+        -1
+      ],
+      "gamma": [
+        5,
+        -5,
+        -2,
+        3
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 1,
+      "beta": [
+        -5,
+        5,
+        3,
+        -4
+      ],
+      "gamma": [
+        0,
+        3,
+        5,
+        3
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 1,
+      "beta": [
+        4,
+        0,
+        1,
+        3
+      ],
+      "gamma": [
+        -3,
+        -3,
+        2,
+        1
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 1,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 1
+    },
+    {
+      "n": 2,
+      "beta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamma": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_subspace_rank": 4,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 2,
+      "beta": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gamma": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_subspace_rank": 4,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 2,
+      "minimum_correction_rank": 2
+    },
+    {
+      "n": 2,
+      "beta": [
+        4,
+        -3,
+        7,
+        -8
+      ],
+      "gamma": [
+        -2,
+        5,
+        -6,
+        10
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 2,
+      "beta": [
+        3,
+        -2,
+        3,
+        -5
+      ],
+      "gamma": [
+        6,
+        1,
+        -3,
+        -4
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 2,
+      "beta": [
+        2,
+        1,
+        0,
+        -1
+      ],
+      "gamma": [
+        -2,
+        -1,
+        0,
+        1
+      ],
+      "source_subspace_rank": 4,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 2,
+      "beta": [
+        -1,
+        -1,
+        5,
+        -4
+      ],
+      "gamma": [
+        -4,
+        3,
+        4,
+        2
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 2,
+      "beta": [
+        7,
+        0,
+        -6,
+        6
+      ],
+      "gamma": [
+        7,
+        -1,
+        -2,
+        -5
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 2,
+      "beta": [
+        5,
+        4,
+        7,
+        -5
+      ],
+      "gamma": [
+        -7,
+        -2,
+        0,
+        -1
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 4,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 4
+    },
+    {
+      "n": 3,
+      "beta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamma": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_subspace_rank": 9,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 3,
+      "beta": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gamma": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_subspace_rank": 9,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 2,
+      "minimum_correction_rank": 7
+    },
+    {
+      "n": 3,
+      "beta": [
+        5,
+        -4,
+        9,
+        -10
+      ],
+      "gamma": [
+        -3,
+        7,
+        -8,
+        13
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 3,
+      "beta": [
+        3,
+        -2,
+        4,
+        -6
+      ],
+      "gamma": [
+        7,
+        1,
+        -3,
+        -5
+      ],
+      "source_subspace_rank": 2,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 3,
+      "beta": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "gamma": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "source_subspace_rank": 9,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 3,
+      "beta": [
+        -6,
+        -2,
+        -5,
+        6
+      ],
+      "gamma": [
+        3,
+        8,
+        -7,
+        -9
+      ],
+      "source_subspace_rank": 1,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 3,
+      "beta": [
+        3,
+        9,
+        2,
+        1
+      ],
+      "gamma": [
+        1,
+        -3,
+        -1,
+        6
+      ],
+      "source_subspace_rank": 4,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 3,
+      "beta": [
+        1,
+        2,
+        -8,
+        -3
+      ],
+      "gamma": [
+        2,
+        6,
+        -3,
+        6
+      ],
+      "source_subspace_rank": 3,
+      "target_subspace_rank": 9,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 9
+    },
+    {
+      "n": 4,
+      "beta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamma": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_subspace_rank": 16,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 4,
+      "beta": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gamma": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_subspace_rank": 16,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 2,
+      "minimum_correction_rank": 14
+    },
+    {
+      "n": 4,
+      "beta": [
+        6,
+        -5,
+        11,
+        -12
+      ],
+      "gamma": [
+        -4,
+        9,
+        -10,
+        16
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 4,
+      "beta": [
+        3,
+        -2,
+        5,
+        -7
+      ],
+      "gamma": [
+        8,
+        1,
+        -3,
+        -6
+      ],
+      "source_subspace_rank": 13,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 4,
+      "beta": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "gamma": [
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "source_subspace_rank": 11,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 4,
+      "beta": [
+        -7,
+        -10,
+        -7,
+        -5
+      ],
+      "gamma": [
+        8,
+        -5,
+        2,
+        -8
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 4,
+      "beta": [
+        -4,
+        -11,
+        -11,
+        4
+      ],
+      "gamma": [
+        2,
+        2,
+        6,
+        -10
+      ],
+      "source_subspace_rank": 5,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 4,
+      "beta": [
+        -9,
+        2,
+        -4,
+        4
+      ],
+      "gamma": [
+        11,
+        -5,
+        -3,
+        1
+      ],
+      "source_subspace_rank": 14,
+      "target_subspace_rank": 16,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 16
+    },
+    {
+      "n": 5,
+      "beta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamma": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_subspace_rank": 25,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    },
+    {
+      "n": 5,
+      "beta": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gamma": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_subspace_rank": 25,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 2,
+      "minimum_correction_rank": 23
+    },
+    {
+      "n": 5,
+      "beta": [
+        7,
+        -6,
+        13,
+        -14
+      ],
+      "gamma": [
+        -5,
+        11,
+        -12,
+        19
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    },
+    {
+      "n": 5,
+      "beta": [
+        3,
+        -2,
+        6,
+        -8
+      ],
+      "gamma": [
+        9,
+        1,
+        -3,
+        -7
+      ],
+      "source_subspace_rank": 25,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    },
+    {
+      "n": 5,
+      "beta": [
+        5,
+        4,
+        3,
+        2
+      ],
+      "gamma": [
+        -5,
+        -4,
+        -3,
+        -2
+      ],
+      "source_subspace_rank": 12,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    },
+    {
+      "n": 5,
+      "beta": [
+        6,
+        4,
+        9,
+        10
+      ],
+      "gamma": [
+        5,
+        -12,
+        5,
+        8
+      ],
+      "source_subspace_rank": 3,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    },
+    {
+      "n": 5,
+      "beta": [
+        -7,
+        -12,
+        2,
+        4
+      ],
+      "gamma": [
+        -9,
+        13,
+        -5,
+        -13
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    },
+    {
+      "n": 5,
+      "beta": [
+        1,
+        -6,
+        6,
+        13
+      ],
+      "gamma": [
+        -7,
+        5,
+        8,
+        11
+      ],
+      "source_subspace_rank": 0,
+      "target_subspace_rank": 25,
+      "intersection_dimension": 0,
+      "minimum_correction_rank": 25
+    }
+  ]
+}

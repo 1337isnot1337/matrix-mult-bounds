@@ -27,6 +27,12 @@ legs. For every first-leg map the correction flattening rank is at least
 unsupported by the source, and low multipliers satisfy the off-diagonal
 support bound. This closes the full inner-index proportional shift family.
 
+The [arbitrary inner-shift continuation](research/ai/2026-10-23-q64-arbitrary-inner-shifts/proof.md)
+allows independent integer coordinate translations on every inner index
+of both long legs. For every first-leg map its correction flattening rank
+is at least `n(n-1)/2` for every n. The proof splits on adjacent C-shift
+differences and remains unreviewed; general linear long-leg maps remain open.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
