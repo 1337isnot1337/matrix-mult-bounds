@@ -39,6 +39,8 @@ def maximum_direct_sum_power_slice_rank(shapes, power):
     orbits = orientation_orbits(power)
     representatives = tuple(sorted(orbits))
     full_count = len(tuple(combinations_with_replacement(range(6), power)))
+    if sum(len(orbit) for orbit in orbits.values()) != full_count:
+        raise ArithmeticError('common-leg symmetry orbits do not partition all orientation multisets')
     if power == 5 and (len(representatives)*6 != full_count
                        or any(len(orbit) != 6 for orbit in orbits.values())):
         raise ArithmeticError('power-five leg-permutation orbits do not all have size six')

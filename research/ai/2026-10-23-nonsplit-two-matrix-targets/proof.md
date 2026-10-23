@@ -1,11 +1,12 @@
-# A fifth-power check of two-matrix targets for the nonsplit source
+# Fifth- and sixth-power checks of two-matrix targets for the nonsplit source
 
 October 23, 2026. This is finite, owner-directed Codex research. The prior
 two-matrix frontier is an input ledger; its earlier screen generators were
-not retained. This note proves only the exact power-five source comparison
-for the 144 candidates in that ledger. No target is constructed, and no
-matrix-multiplication exponent improvement is established. Source hashes
-and inherited proof statuses are in `SOURCES.json`.
+not retained. The exact power-five comparison checks all 144 rows, and the
+power-six comparison checks the 136 rows not excluded at power five. No
+target is constructed, and no matrix-multiplication exponent improvement
+is established. Source hashes and inherited proof statuses are in
+`SOURCES.json`.
 
 ## Exact source upper bound
 
@@ -106,15 +107,69 @@ maximization includes all permutations. The other 136 candidates are only
 not excluded by this power-five comparison. They are not shown to survive
 every possible degeneration or to be constructible.
 
+## Sixth-power source and target comparison
+
+For six source factors, the same weighted block cover uses
+`P(t)^j [16(1+t^h_j)]^(6-j)` with degree ceiling `D_j=8j+h_j(6-j)`.
+The source cover generator searches integer weights `1<=h_j<=48` for each
+row and chooses exact three-cutoff covers. The search range is a discovery
+choice only; the certificate claims validity of the displayed cover, not
+optimality among all weights. Its rows are:
+
+| Principal factors `j` | Words | `h_j` | `D_j` | Cutoffs | Slices per word |
+| ---: | ---: | ---: | ---: | --- | ---: |
+| 0 | 1 | 1 | 6 | 1, 1, 2 | 603,979,776 |
+| 1 | 6 | 2 | 18 | 5, 5, 6 | 1,581,252,608 |
+| 2 | 15 | 3 | 28 | 8, 9, 9 | 3,678,601,216 |
+| 3 | 20 | 3 | 33 | 10, 10, 11 | 8,846,524,416 |
+| 4 | 15 | 3 | 38 | 12, 12, 12 | 21,132,582,912 |
+| 5 | 6 | 3 | 43 | 13, 14, 14 | 51,315,871,232 |
+| 6 | 1 | unused | 48 | 15, 15, 16 | 124,081,743,648 |
+
+As before, each row has cutoff sum `D_j-2`, so every degree triple with
+total at most `D_j` is covered. After applying word multiplicities, the
+verified bound is
+
+    SR_F4(T_SL2F5^tensor(6)) <= 991,166,716,704.
+
+The independent degree-class replay checks all `11^6 = 1,771,561` ordered
+class tuples, all 64 block words, `120^6 = 2,985,984,000,000` coordinate
+tuples with multiplicity, and 333,047 degree triples under the stated
+cutoffs.
+
+The sixth target power has 64 direct-sum matrix multiplication terms for
+each orientation multiset. There are 462 multisets of six orientations from
+the six permutations. Simultaneous reordering of the three output legs
+partitions them into 83 exact orbits: 72 of size six, nine of size three,
+one of size two and one fixed orbit. The verifier checks that these orbits
+partition all 462 cases before scoring their representatives. Of the 136
+power-five non-exclusions, ten now exceed the power-six source bound:
+
+| Ledger row | Two matrix shapes | Target slice rank | Gap |
+| ---: | --- | ---: | ---: |
+| 78 | `M(2,3,5)`, `M(9,10,10)` | 1,000,752,840,000 | 9,586,123,296 |
+| 79 | `M(2,3,5)`, `M(10,9,10)` | 995,858,550,000 | 4,691,833,296 |
+| 83 | `M(2,3,6)`, `M(10,9,10)` | 1,013,406,391,296 | 22,239,674,592 |
+| 86 | `M(2,3,7)`, `M(10,10,9)` | 999,649,773,936 | 8,483,057,232 |
+| 87 | `M(2,3,8)`, `M(10,10,9)` | 1,015,462,086,336 | 24,295,369,632 |
+| 95 | `M(2,4,4)`, `M(11,9,9)` | 1,008,949,613,377 | 17,782,896,673 |
+| 120 | `M(3,4,6)`, `M(9,10,9)` | 1,012,242,942,288 | 21,076,225,584 |
+| 121 | `M(3,4,6)`, `M(10,9,9)` | 1,003,081,686,768 | 11,914,970,064 |
+| 127 | `M(3,6,7)`, `M(10,8,9)` | 1,021,165,849,800 | 29,999,133,096 |
+| 131 | `M(4,4,7)`, `M(9,9,9)` | 1,003,324,305,217 | 12,157,588,513 |
+
+The remaining 126 candidates are not excluded by this sixth-power check.
+They are not shown to survive all degenerations or to be constructible.
+
 ## Limits and reproduction
 
-This is an exact exclusion for eight recorded candidates in the maintained
+These are exact exclusions for 18 recorded candidates in the maintained
 one-copy complex coefficient-one coordinate/potential class when the
-existing characteristic-two good-reduction premise applies. It does not
+existing characteristic-two good-reduction premise applies. They do not
 regenerate the earlier pair orientation, Koszul, profile, or power-three
 frontier; those are pinned discovery inputs. All two-matrix targets outside
-that ledger, arbitrary complex mixing without good reduction, and targets
-that pass the five-power screen remain open. There is no independent
+that ledger, arbitrary complex mixing without good reduction, and the 126
+candidates not excluded here remain open. There is no independent
 mathematical review, formalization, target construction, or exponent gain.
 
 From the repository root, regenerate and replay with Python 3.10 or later:
@@ -124,4 +179,8 @@ python research/ai/2026-10-23-nonsplit-two-matrix-targets/source_power5.py \
   --output results/nonsplit-two-matrix-targets-2026-10-23/power5-source-cover.json
 python research/ai/2026-10-23-nonsplit-two-matrix-targets/verify.py \
   --output results/nonsplit-two-matrix-targets-2026-10-23/verification.json
+python research/ai/2026-10-23-nonsplit-two-matrix-targets/source_power6.py \
+  --output results/nonsplit-two-matrix-targets-2026-10-23/power6-source-cover.json
+python research/ai/2026-10-23-nonsplit-two-matrix-targets/verify_power6.py \
+  --output results/nonsplit-two-matrix-targets-2026-10-23/power6-verification.json
 ```
