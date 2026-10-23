@@ -77,7 +77,7 @@ third as `v`. The zero-weight relation is `u=(a-1-x)+v`, which is `C(a,b_i)`
 after reversing the first-leg basis and exchanging the other two legs. Taking
 the constant term in this nonnegative weight degeneration proves the stated
 matched-sector extraction. The interval argument also covers `a=1`, when
-`d=0` and all weights are zero.
+`d=0` and every supported source term has total weight zero.
 
 ## Character inequality
 
