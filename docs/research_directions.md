@@ -34,9 +34,17 @@ the linked status notes before choosing new parameters.
 
 ## R1: Review the local sharpness theorem
 
-Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.
+Status: a second-pass algebraic review of Sections 2.1–2.4 is recorded in
+[the October 23 review](../research/ai/2026-10-23-scalar-proof-review/README.md).
+It finds no gap in the stated scalar argument. This is not independent human
+review or formalization; those remain separate possible checks. The review
+also confirms that the least-profile construction predates this repository's
+October 20 note, as recorded in the external-source comparison.
 
-Deliver a proof review tied to a commit, a corrected proof, or a counterexample. A finite grid extension alone does not close this task. A Lean formalization is a separate deliverable, not a prerequisite for every discovery.
+The review is tied to the source commit and rederives positivity of increments,
+the limiting slope, the diagonal recurrence, and the join at $a=b$. A finite
+grid extension alone does not close this task. A Lean formalization is a
+separate deliverable, not a prerequisite for every discovery.
 
 ## R2: Decide compatibility with the product-filtration family
 
