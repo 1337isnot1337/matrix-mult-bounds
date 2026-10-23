@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-regular-unit-projector` package is owner-directed OpenAI
+Codex work. The canonical cyclic source, all-size slice and contraction
+rank bounds, ordinary A4 obstruction and PR105 partial-unit theorem retain
+their original credit and exact predecessor pins. The regular-right-inverse
+projection, first-map pole exclusion with defect k and rank102 unit-image
+criterion are local continuations. Only elementary formal linear algebra
+and specialization of regular minors are added; no new external theorem,
+historical priority or independent mathematical review is claimed. Exact
+finite controls support the written unreviewed proof without formalizing
+its all-order quantifiers or constructing an improved exponent.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

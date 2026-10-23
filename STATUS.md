@@ -1,5 +1,24 @@
 # Research status
 
+## Full-right-inverse Laurent criterion and the rank102 unit-image chart
+
+The [regular-right-inverse argument](research/ai/2026-10-23-regular-unit-projector/proof.md)
+extends the preceding rank109 A4 chart to unit-image rank at least102.
+One long map must still be regular with rank110 limit, and the source
+identity lift must be regular. Its product T with the long map is a
+regular right inverse of the normalized other long map B. The projector
+I-T B has rank two over C((t)); regularizing its product with a source
+slice first excludes every pole in F, independently of unit-image rank.
+At image rank102, F(0) is injective and a source-row dimension bound forces
+B to be regular, reducing to the prior ordinary rank contradiction12>11.
+Source units of corank at most eight are included. Every finite pole order
+is covered. Claims `AI-REGULAR-RIGHT-INVERSE-001` and
+`AI-A4-RANK102-UNIT-IMAGE-002` are written and unreviewed. Exact controls
+include polar projectors and the attained rank101 injectivity boundary.
+Image ranks at most101, singular long-leg limits and polar unit lifts
+remain outside this exclusion. No matrix target or smaller exponent is
+established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
@@ -13,8 +32,9 @@ ordinary-map obstruction finishes the argument. Every finite pole order
 is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
 controls verify the rank budgets and projection recovery, without
-formalizing the proof. Rank108, singular long-leg limits and polar unit
-lifts remain open. No matrix target or smaller exponent is established.
+formalizing the proof. Its former rank108 gap is covered by the stronger
+right-inverse criterion above; the earlier proof and controls are retained.
+No matrix target or smaller exponent is established.
 
 ## Finite covers close the selected nonsplit coordinate targets
 
