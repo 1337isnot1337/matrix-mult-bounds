@@ -1,7 +1,7 @@
 # Research directions
 
 
-The [affine-z biform rank theorem](../research/ai/2026-10-23-affine-z-biform-ranks/proof.md) classifies all individual R_(a,b)(u(x)+z*v(x)) ranks as ab+min(b,a*d) over every field. It is a restricted one-slice result and does not imply a matrix target. Its separate next question is the polynomial row-syzygy module for u+z*v+z^2*w, including falsifiable tests of degree-only rank predictions. PR207 owns the diagonal f(xz) Toeplitz defects; do not duplicate that lane.
+The [affine-z biform rank theorem](../research/ai/2026-10-23-affine-z-biform-ranks/proof.md) classifies all individual R_(a,b)(u(x)+z*v(x)) ranks as ab+min(b,a*d) over every field and all a,b>=2. It is a restricted one-slice result and does not imply a matrix target. Its separate next question is the polynomial row-syzygy module for u+z*v+z^2*w, including falsifiable tests of degree-only rank predictions. PR207 owns the diagonal f(xz) Toeplitz defects; do not duplicate that lane.
 
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.

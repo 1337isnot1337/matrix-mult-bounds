@@ -4,7 +4,7 @@ October 23, 2026. Owner-directed AI-assisted research. The theorem below has a c
 
 ## Setup and result
 
-Let K be any field and 2 <= a <= b, with m=a+b-1. For a polynomial f(x,z) of bidegree at most (a-1,b-1), use the cyclic-source coefficient matrix R_(a,b)(f), with rows (j,L), 0<=j<b and 0<=L<m, columns (H,r), 0<=H<m and 0<=r<a, and entry
+Let K be any field and a,b >= 2, with m=a+b-1. For a polynomial f(x,z) of bidegree at most (a-1,b-1), use the cyclic-source coefficient matrix R_(a,b)(f), with rows (j,L), 0<=j<b and 0<=L<m, columns (H,r), 0<=H<m and 0<=r<a, and entry
 
     R[(j,L),(H,r)] = coefficient of x^(H-j) z^(L-r) in f.
 
