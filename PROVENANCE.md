@@ -9,6 +9,9 @@ are local continuations using elementary graph counting. No external
 theorem, historical priority, independent review, formalization or exponent
 improvement is claimed. The finite census supports the written proof;
 it does not supply its universal quantifier.
+PR189 appeared concurrently with an overlapping monomial-only theorem.
+That common conclusion is overlapping evidence; this package's stronger
+arbitrary-support-deletion scope is recorded separately.
 
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting

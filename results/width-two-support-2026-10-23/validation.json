@@ -1,0 +1,34 @@
+{
+  "schema": "width-two-validation-v1",
+  "tested_implementation_commit": "809e465bc88a10b55925e038715547dec3d3e7ae",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "checks": {
+    "exhaustive_supports": {
+      "command": "python -S research/ai/2026-10-23-width-two-support/verify.py --max-b 8 --output results/width-two-support-2026-10-23/exhaustive.json",
+      "exit_code": 0,
+      "cases": 174752
+    },
+    "focused": {
+      "command": "python -m unittest discover -s tests -p test_width_two_support.py -v",
+      "exit_code": 0,
+      "tests": 4,
+      "coverage": "All 2720 support/orientation cases through b=5 compare with the archived recognizer, plus 96 longer cases in both orientations and the proper-support equality example."
+    },
+    "repository": {
+      "command": "/home/cinna/matrix-mult-bounds/.venv/bin/python -m unittest discover -s tests -p test_research.py -v",
+      "exit_code": 0,
+      "tests": 18
+    },
+    "archive_replay": {
+      "command": "/home/cinna/matrix-mult-bounds/.venv/bin/python tools/replay.py",
+      "exit_code": 0,
+      "runs": 5,
+      "log_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  },
+  "full_regression": "running at the frozen implementation commit; not claimed complete",
+  "hosted_ci": "pending",
+  "initial_attempt": "An early focused run before exhaustive.json was written had one missing-artifact error. After the census completed, the complete four-test rerun passed.",
+  "improves_omega": false
+}

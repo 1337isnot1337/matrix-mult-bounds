@@ -39,6 +39,13 @@ This package adds an all-size result, does not modify that branch and
 preserves both historical archives. The next search question needs both
 input dimensions at least three, or a stronger score for the sectors.
 
+Concurrency update: PR189 appeared during this work with an overlapping
+all-size width-two monomial proof, including equality analysis. That common
+conclusion is overlapping evidence, not another frontier advance. This
+package additionally covers every support subset, including deletions
+outside the maximal diagonal-weight model. The proof is not independently
+reviewed by the concurrent agreement.
+
 Exact predecessor pins and attribution are in [sources.json](sources.json).
 This is owner-directed OpenAI Codex research without a priority claim,
 independent mathematical review or Lean formalization.

@@ -18,3 +18,10 @@ certificate replay. This package supplies a separate all-size proof and
 does not change that branch or the historical archives. Main and the open
 PR titles and PR118 description were inspected before selecting this task.
 No subagents are used. No exponent improvement is claimed.
+
+Subsequent concurrency check: PR189 at
+`5f1a90680ed288d04829428d443c009156df128a` independently presents the
+overlapping monomial theorem. PR191's maintained distinction is arbitrary
+support deletions, and its PR description discloses the overlap. The
+next owned question is the width-three weight-coherence argument on
+`research/width-three-support-01a1697b`.
