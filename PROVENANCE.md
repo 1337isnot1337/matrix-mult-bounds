@@ -53,6 +53,30 @@ come from the same generating session; their separate implementation
 does not constitute independent mathematical review or formalization.
 No all-order mixed curve, full matrix target or exponent gain is claimed.
 
+The `2026-10-23-torus-rank80` package is owner-directed OpenAI Codex
+work. It credits the literal cyclic source, saturated target-support
+inequality and preceding characteristic-zero order-ideal reduction with
+exact byte pins. The new additions are the coherent-minor layer bounds,
+complete reduction of size-51 source ideals to 24 cases, their exported
+integer 80-minors, and the necessary balanced rank sum 144.
+Discovery and acceptance use separate ideal enumerations and pivot
+conventions; an additional internal audit enumerates all seven layers
+and checks every saved minor directly from the coefficient formulas.
+These checks do not constitute independent external mathematical review.
+No sharpness, formalization, full target or exponent gain is claimed.
+
+The `2026-10-23-torus-order-ideal` package is owner-directed OpenAI
+Codex work. The source, source torus, earlier low-rank caps, ordinary
+obstruction and saturated target-support inequality retain their prior
+credit and byte pins. New work supplies three explicit infinitesimal
+row/column identities, an elementary lowering lemma on the complex
+Grassmannian, all611 exact rank64 certificates, the sharp dimension32
+bound and its sum160 consequence. The geometric reduction is proved
+directly; it does not import a Borel fixed-point theorem. Modulo-two
+arithmetic only certifies odd integer minors, and is not substituted
+for the characteristic-zero geometric argument. Internal AI checks are
+not independent external review or formalization. No exponent gain.
+
 The `2026-10-23-torus-rank-frontier` package is owner-directed OpenAI
 Codex work. The source, ordinary restriction obstruction, rank-preserving
 torus, eight-pair minor certificate and saturated target-support condition
