@@ -70,3 +70,21 @@ saturated spaces against the target.
 The mathematical status is written and unreviewed. No target construction,
 improved exponent, independent review, or formalization is claimed.
 Repository-wide validation is recorded separately before publication.
+
+## Frozen validation checkpoint
+
+The [validation receipt](../../../results/conjugation-limit-2026-10-23/validation.json)
+pins tested tree `363271b34a2b82dd033b388d7b48d00f1e76d1f9`.
+All 905 discovered test IDs have passing evidence after one scratch-only
+documentation correction. A successful 288-test prefix was preserved;
+the unfinished tests ran in three disjoint shards of 206, 206, and 205.
+The original monolithic process was interrupted to parallelize that
+remaining work and is not described as a completed run.
+
+The initial union had 904 passes and one failure: the repository link
+test also scanned an untracked exploratory draft whose links assumed its
+future package location. Two corrective retries still encountered a
+transient scratch copy. After repairing those draft references, the same
+link test passed. No tracked source or test changed during this correction.
+The failed receipts, all retry logs, exact coverage IDs, and final pass
+receipt are retained. All five archived replay reports also passed.

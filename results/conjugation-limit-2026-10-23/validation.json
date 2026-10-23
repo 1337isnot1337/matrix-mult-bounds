@@ -1,0 +1,112 @@
+{
+  "schema": "a4-conjugation-validation-v2",
+  "completed_at_utc": "2026-10-23T17:21:20.888019+00:00",
+  "python": "3.12.14",
+  "tested_local_commit": "6db05f5592b2f252ebc718cfececd5625a44aed5",
+  "tested_tree": "363271b34a2b82dd033b388d7b48d00f1e76d1f9",
+  "tree_and_head_unchanged_during_validation": true,
+  "full_regression": {
+    "discovered_tests": 905,
+    "unique_completed_tests": 905,
+    "initial_passed_tests": 904,
+    "initial_failed_test_ids": [
+      "test_research.RepositoryTests.test_relative_markdown_links"
+    ],
+    "skipped_tests": 0,
+    "initial_all_passed": false,
+    "missing_test_ids": [],
+    "unexpected_test_ids": [],
+    "duplicate_completed_test_ids": [],
+    "exact_initial_union_coverage": true,
+    "final_passed_tests_after_scratch_correction": 905,
+    "final_unresolved_failed_test_ids": [],
+    "all_passed_after_scratch_correction": true,
+    "monolithic_run_completed": false,
+    "prefix_command": "python -m unittest discover -s tests -v",
+    "prefix_exit_code": 130,
+    "prefix_passed_tests": 288,
+    "interruption_reason": "Parallelize only uncompleted tests",
+    "interrupted_test_resumed": "test_generic_partner_all_graphs.GenericPartnerTests.test_false_cubic_span_is_rejected",
+    "shard_test_counts": [
+      206,
+      206,
+      205
+    ],
+    "shard_exit_codes": [
+      0,
+      1,
+      0
+    ],
+    "shard_commands": [
+      "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python results/local/conjugation-limit/remaining_tests.py --shard 0",
+      "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python results/local/conjugation-limit/remaining_tests.py --shard 1",
+      "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python results/local/conjugation-limit/remaining_tests.py --shard 2"
+    ],
+    "scratch_document_correction": {
+      "failed_test_id": "test_research.RepositoryTests.test_relative_markdown_links",
+      "cause": "The Markdown-link test scans untracked files. A draft EXPLORATION.md under results/local had links intended for its eventual package location, including a nonexistent proof.md sibling.",
+      "correction": "Preserved the draft outside the repository and changed its remaining transient scratch copy to plain-text references. No tracked source, test, or validation gate was changed.",
+      "intermediate_retries": [
+        {
+          "log": "link-test-retry.log",
+          "exit_code": 1,
+          "reason": "A transient scratch copy still contained the same invalid link."
+        },
+        {
+          "log": "link-test-retry-2.log",
+          "exit_code": 1,
+          "reason": "The original scratch copy had reappeared with the same invalid link."
+        }
+      ],
+      "final_retry": {
+        "log": "link-test-retry-3.log",
+        "exit_code": 0,
+        "tests_passed": 1
+      },
+      "retry_command": "python -m unittest discover -s tests -p test_research.py -k test_relative_markdown_links -v"
+    }
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "exit_code": 0,
+    "all_five_passed": true,
+    "reports": [
+      "profile_checks.json: passed (73856 total_exact_grid_checks)",
+      "product_filtration_checks.json: passed (353664 exact_inequalities_checked)",
+      "binary_search.json: passed (12976 cases_tested)",
+      "ternary_search.json: passed (209692 cases_tested)",
+      "random_search.json: passed (20000 cases_tested)"
+    ]
+  },
+  "focused_verification": {
+    "command": "python -m unittest discover -s tests -p 'test_conjugation_limit.py' -v",
+    "tests_passed": 8,
+    "seconds": 13.283,
+    "counted_again_as_new_coverage": false
+  },
+  "certificate_replay": {
+    "command": "python research/ai/2026-10-23-conjugation-limit/verify.py",
+    "exit_code": 0,
+    "regenerated_discovery_equals_retained_certificate": true
+  },
+  "artifact_sha256": {
+    "full-tests.log": "d2e2633d29113a0c9ff892bbbf653c55e055767f4c8d5d7caa768394bcebfcab",
+    "shard-0.log": "24d5930d5a7a7e2685a4be6bd3c263ed6877025e95b5f604ac3cb38ab989f24f",
+    "shard-1.log": "0d468e4aba3499ce5540b5c3e0adc0aa28be18194848816d3a7b25ff81fea054",
+    "shard-2.log": "1c48737b095b8cfda940271ba078e8ad30c06377a3787da051ca3fed0e10af45",
+    "replay.log": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+    "plan.json": "ad74d6749a502994859c9ee6586660d5e720d715488866db694b96b9515f64dd",
+    "shard-0.json": "209af0b3d7719ad67c30e1b5561d2a765c5abaf02edeb901564c59e2570a26dc",
+    "shard-1.json": "cbe5ee73144b53e6cd86068cb0a8cb3e8e5a61beb9d058ffd451937983746616",
+    "shard-2.json": "87f73ef95082c597e1a2f51240e13f4acbf6d5c0bd07059b5f137fbf7f8492c4",
+    "remaining_tests.py": "8fcbb0c8f51d92f5b6f3b188c44bb109575831aebdb1387257ce0d3a2131b810",
+    "collect_validation.py": "ba80c4adaa6e56e6bbc048a27f83fdac43c8583262d879cf43954460af9bb9be",
+    "finalize_validation.py": "bc823111fbcdef696e129b1b6eebc7e8f9bb1a995bd2520fd4c5fe742325ebaa",
+    "initial-validation.json": "87e9f2e0d792512020496727dd73dd1a5b233f133d7d1409a708b43f57c98b85",
+    "link-test-retry.log": "164c0b9555c93d0c3bee1ca9c41f2847956c10b2ec2f692fda701db727ee72bb",
+    "link-test-retry-2.log": "93dfb4b9dcf23e39a2af648b99b395178feb8011f87fc92c7a0ed7be081e6a19",
+    "link-test-retry-3.log": "5ec0ff427c35e522b6690af64784144c564a06373c9cc05861b6d4fe11c6b688"
+  },
+  "all_validation_passed_after_scratch_correction": true,
+  "scope": "The frozen code tree is covered by a retained 288-test successful prefix and three disjoint remaining-test shards. One scratch-document link failed and was corrected, then only that test was rerun. All failed receipts and logs are retained. The interrupted monolithic run is not represented as completed. Same-session checking does not change mathematical review status."
+}
