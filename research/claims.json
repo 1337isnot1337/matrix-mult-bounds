@@ -7527,7 +7527,7 @@
         "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem 2.1",
         "Pinned polynomial source-rank inequality"
       ],
-      "limitations": "Requires geometric decomposable rank bounds or polynomial minor identities; finite-field rational-point checks alone are not substituted. Same numerical cap as characteristic zero. No singular-degeneration exclusion, constructed target, independent review, formalization or exponent improvement. Finite controls cover 911 evaluation fibers and 882 monomial assignment systems over F2,F3,F5 only.",
+      "limitations": "Requires geometric decomposable rank bounds or polynomial minor identities; finite-field rational-point checks alone are not substituted. Over Fq with q>=r+1, exhaustive rational-decomposable testing suffices by the supplied homogeneous interpolation lemma. No field-size sharpness for Hankel minors is claimed. Same numerical cap as characteristic zero. No singular-degeneration exclusion, constructed target, independent review, formalization or exponent improvement. Finite controls cover 911 evaluation fibers and 882 monomial assignment systems over F2,F3,F5 only.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false

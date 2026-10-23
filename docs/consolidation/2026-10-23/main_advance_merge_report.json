@@ -1,0 +1,45 @@
+{
+  "schema": "matrix-consolidation-main-squash-reconciliation-v1",
+  "previous_consolidation_head": "44b917610b64a515122c4fb835f69b7ceefffb08",
+  "previous_main": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "current_main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+  "already_incorporated_topic": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+  "main_tree_equals_captured_topic_tree": true,
+  "source_changed_paths": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+    "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+    "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+    "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+    "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+    "research/claims.json",
+    "results/top-coefficient-biforms-2026-10-23/verification.json",
+    "tests/test_top_coefficient_biforms.py"
+  ],
+  "all_source_path_modes_and_bytes_match_captured_topic": true,
+  "source_topic_already_ancestor": true,
+  "merge_commit": "6dd2e8e52f03caf3660ced1fd72eaa797431f3d5",
+  "tree": "8e4223e1d8e1a9c7a6e84eddefefde3044c2f86a",
+  "full_tree_unchanged_from_previous_consolidation": true,
+  "provisional_conflicts": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/claims.json"
+  ],
+  "automatic_index_changed_paths": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/claims.json"
+  ],
+  "reason": "The exact squash tree is identical to the captured and already merged PR217 source tree. Preserve the reviewed612-claim/prose reconciliation without duplicating additions or regressing later corrections. The real merge adds current-main ancestry only.",
+  "validation": "Exact entire-tree identity transfers all existing validation and content-preservation conclusions; no acceptance rerun is needed for this history-only merge.",
+  "import_receipt": "main_advance_object_import.json",
+  "remote_capture": "main_advance_9bcee612_capture.json"
+}

@@ -1,0 +1,82 @@
+{
+  "baseline": "44b917610b64a515122c4fb835f69b7ceefffb08",
+  "current_main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+  "concurrent_remote_head": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+  "output_files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "PROVENANCE.md",
+      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "docs/research_directions.md",
+      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "research/ACTIVE.md",
+      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+    },
+    {
+      "path": "research/claims.json",
+      "sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
+      "source_commit": null,
+      "source_path": "research/claims.json",
+      "reason": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.434178af.md",
+      "sha256": "18303ddab0e91da5ce16e4ec3de695dc961412e7f10c313cf7c2526c8403510f",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.434178af.md",
+      "sha256": "fa74cbd19893e5d242bb309790acfa6cccba0419e4220c5924c328663f80b069",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/README.md",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.434178af.json",
+      "sha256": "7684529de2d346de341fe1ad9a356ef9ddf0e2a5e2297178ed0ca79459fc115e",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.434178af.json",
+      "sha256": "3c1aa4fa22806fbafed9b0a1450dd5a6c172d8b9570b4da5e65b9ffebd2ab5c7",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.434178af.json",
+      "sha256": "3750982d1271991edc3ff30c010bff90b8fef331a0a03f20273854fb26cc72d2",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "sha256": "c38a77e118b18358580c41c1dae35c17faf438d0f64d66943df58d4a0339da85",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/branches.json",
+      "reason": "Record five additional exact archived heads, two new topic names, the current main ancestry, and immutable original/advanced PR captures. Preserve historical main_at_snapshot and distinguish independently merged PR217 from superseded closures."
+    }
+  ],
+  "source_reports": [
+    "live_catchup_source_resolution.json",
+    "live_catchup_docs_resolution.json",
+    "live_catchup_claim_report.json"
+  ]
+}
