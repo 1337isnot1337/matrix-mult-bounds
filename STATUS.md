@@ -27,7 +27,10 @@ so at most seven displayed target factors can be limits of distinct source
 evaluation factors under one common shared-space change of basis. Claim
 `AI-MIXED-SINGLE-COPY-002` is written and unreviewed. This does not exclude a
 general degeneration, cancellations, collisions or other target
-decompositions, and does not improve the exponent.
+decompositions, and does not improve the exponent. A specified seven-point
+subset lies on a Hilbert-Burch flat-limit curve, so point-set curve
+containment alone cannot strengthen this count; its evaluation-node
+parameters are not aligned by that example.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 

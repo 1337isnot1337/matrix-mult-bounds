@@ -70,9 +70,37 @@ def main() -> None:
         if sum(exponents) == 3
     ]
     cubic_position = {exponents: index for index, exponents in enumerate(cubic_monomials)}
+    quadratic_position = {pair: index for index, pair in enumerate(quadratic_pairs)}
 
     def quadratic_evaluation(point: list[int]) -> list[int]:
         return [point[left] * point[right] for left, right in quadratic_pairs]
+
+    def multiply_quadric_linear(
+        quadric: list[Fraction], linear: list[int]
+    ) -> list[Fraction]:
+        product = [Fraction(0)] * len(cubic_monomials)
+        for coefficient, (left, right) in zip(quadric, quadratic_pairs):
+            for variable, linear_coefficient in enumerate(linear):
+                if linear_coefficient:
+                    exponents = [0, 0, 0, 0]
+                    exponents[left] += 1
+                    exponents[right] += 1
+                    exponents[variable] += 1
+                    product[cubic_position[tuple(exponents)]] += (
+                        coefficient * linear_coefficient
+                    )
+        return product
+
+    def multiply_linear_linear(
+        left: list[int], right: list[int]
+    ) -> list[Fraction]:
+        product = [Fraction(0)] * len(quadratic_pairs)
+        for i, left_coefficient in enumerate(left):
+            for j, right_coefficient in enumerate(right):
+                product[quadratic_position[tuple(sorted((i, j)))]] += (
+                    left_coefficient * right_coefficient
+                )
+        return product
 
     point_quadrics = [quadratic_evaluation(point) for point in points]
 
@@ -99,6 +127,41 @@ def main() -> None:
         evaluation_rank, dimension = syzygy_dimension(indices)
         assert evaluation_rank == 7
         seven_sets[indices] = dimension
+
+    # This particular seven-set reaches the incidence boundary: its three
+    # common quadrics are the maximal minors of a 3-by-2 linear matrix.
+    example_indices = tuple(range(7))
+    example_quadrics, example_evaluation_rank = nullspace(
+        [point_quadrics[index] for index in example_indices], 10
+    )
+    assert example_evaluation_rank == 7 and len(example_quadrics) == 3
+    syzygy_matrix = [
+        [[0, 0, 0, 1], [0, 0, 0, 1]],
+        [[2, -1, -1, 0], [0, 0, -1, -1]],
+        [[-3, 2, 0, 0], [0, 0, 1, 0]],
+    ]
+    for column in range(2):
+        total = [Fraction(0)] * len(cubic_monomials)
+        for row, quadric in enumerate(example_quadrics):
+            product = multiply_quadric_linear(quadric, syzygy_matrix[row][column])
+            total = [left + right for left, right in zip(total, product)]
+        assert not any(total)
+
+    minor_pairs = ((0, 1), (0, 2), (1, 2))
+    example_minors: list[list[Fraction]] = []
+    for row, other_row in minor_pairs:
+        positive = multiply_linear_linear(
+            syzygy_matrix[row][0], syzygy_matrix[other_row][1]
+        )
+        negative = multiply_linear_linear(
+            syzygy_matrix[row][1], syzygy_matrix[other_row][0]
+        )
+        example_minors.append(
+            [left - right for left, right in zip(positive, negative)]
+        )
+    assert rank(example_minors, 10) == 3
+    assert rank(example_quadrics + example_minors, 10) == 3
+    assert rank([points[index] for index in example_indices], 4) == 4
 
     seven_by_dimension: dict[str, list[list[int]]] = {}
     for indices, dimension in seven_sets.items():
@@ -142,6 +205,24 @@ def main() -> None:
         "seven_point_sets_by_linear_syzygy_dimension": {
             key: {"count": len(value), "sets_one_based": value}
             for key, value in sorted(seven_by_dimension.items(), key=lambda item: int(item[0]))
+        },
+        "seven_point_curve_incidence_example": {
+            "indices_one_based": [index + 1 for index in example_indices],
+            "common_quadratic_basis_coefficients": [
+                [str(value) for value in quadric] for quadric in example_quadrics
+            ],
+            "syzygy_matrix_linear_coefficients_by_row_and_column": syzygy_matrix,
+            "maximal_minor_quadratic_coefficients": [
+                [str(value) for value in minor] for minor in example_minors
+            ],
+            "quadratic_evaluation_rank": example_evaluation_rank,
+            "point_coordinate_rank": 4,
+            "minor_span_rank": 3,
+            "minor_span_equals_common_quadratic_space": True,
+            "hilbert_burch_resolution": "0 -> S(-3)^2 -> S(-2)^3 -> I -> 0",
+            "hilbert_series_numerator": [1, 0, -3, 2, 0],
+            "hilbert_polynomial": "3*n+1",
+            "scope": "These seven points lie on a degree-three Hilbert-Burch curve in the closure of the smooth twisted cubics; this is a point-set incidence example, not a termwise tensor degeneration.",
         },
         "larger_sets": larger_sets,
         "necessary_condition": (

@@ -36,6 +36,39 @@ dimension at least two. The complete counts of eight-, nine-, and ten-point
 sets by the minimum syzygy dimension among their seven-point subsets are in
 [`certificate.json`](../../../results/mixed-family-twisted-cubic-screen-2026-10-23/certificate.json).
 
+The seven-point ceiling is sharp for this curve-incidence test. Points 1
+through 7 have common quadrics
+
+\[
+\begin{aligned}
+Q_1&=x_0x_2+3x_0x_3-x_1x_2-2x_1x_3+x_2^2,\\
+Q_2&=3x_0x_3-2x_1x_3+x_2x_3,\\
+Q_3&=2x_0x_3-x_1x_3+x_3^2.
+\end{aligned}
+\]
+
+These are the maximal minors, up to signs and order, of
+
+\[
+\begin{pmatrix}
+x_3 & x_3\\
+2x_0-x_1-x_2 & -x_2-x_3\\
+-3x_0+2x_1 & x_2
+\end{pmatrix}.
+\]
+
+The seven points have coordinate rank 4, so they lie on no common plane.
+Their three quadrics have no common linear factor; since they span a
+three-dimensional space, they have no common quadratic factor either. The
+maximal-minor ideal therefore has height 2. Hilbert-Burch gives resolution
+`0 -> S(-3)^2 -> S(-2)^3 -> I -> 0`, Hilbert numerator
+`1 - 3*t^2 + 2*t^3`, and Hilbert polynomial `3*n + 1`. A generic perturbation
+of the displayed matrix gives smooth twisted-cubic fibers with this
+determinantal curve as flat limit. This is a point-set incidence example;
+it does not align the evaluation-node parameters or establish a tensor
+degeneration. The explicit perturbation and its exact generic/special-fiber
+checks are recorded in [`verify_t4_curve_smoothing.sing`](../../../tools/verify_t4_curve_smoothing.sing).
+
 ## Incidence argument
 
 For a twisted cubic in projective three-space, the three-dimensional space of
@@ -73,6 +106,16 @@ enumerates all 120 seven-point sets, then all 45 eight-point sets, 10
 nine-point sets, and the single ten-point set. It writes the complete exact
 rank and syzygy-dimension certificate to `results/mixed-family-twisted-cubic-screen-2026-10-23/certificate.json`.
 
+The optional Singular 4.4.1 check runs with:
+
+```sh
+Singular -q tools/verify_t4_curve_smoothing.sing
+```
+
+Over `Q(epsilon)` it reports curve-cone dimension 2, degree 3, Hilbert
+numerator `1,0,-3,2,0`, and singular-locus cone dimension 0. At
+`epsilon=0` it reports the same dimension, degree, and Hilbert numerator.
+
 ## Scope
 
 The result applies only when the ten source terms are the standard
@@ -80,11 +123,13 @@ ten-node evaluation restriction of `C(4,10)`, their shared factors move
 together on a projectively transformed twisted cubic, and the proposed
 termwise matches converge to distinct members of the displayed target
 interpolation factor set. It rules out eight or more such matches, improving
-the earlier all-ten quadratic test for this one route.
+the earlier all-ten quadratic test for this one route. The seven-point
+example above shows that curve containment alone cannot lower this threshold.
 
-It does not rule out a degeneration `C(4,10) -> T4`. In particular, it says nothing about
-different border-rank decompositions of `T4`, collisions, coefficients that
-cancel between terms, non-termwise limits, or general Laurent-polynomial
-changes on all three legs. It supplies no premise for the unbounded
-four-sector family and no exponent improvement. The calculation and argument
-have not received independent mathematical review or Lean formalization.
+It does not rule out a degeneration `C(4,10) -> T4`. In particular, it says
+nothing about different border-rank decompositions of `T4`, collisions,
+coefficients that cancel between terms, non-termwise limits, or general
+Laurent-polynomial changes on all three legs. It supplies no premise for the
+unbounded four-sector family and no exponent improvement. The calculation
+and argument have not received independent mathematical review or Lean
+formalization.
