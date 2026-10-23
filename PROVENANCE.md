@@ -10,7 +10,9 @@ Gessel-Viennot; its required special case is reproduced, and the inspected
 primary paper, printed pages300-303, URL and SHA256 are recorded. No
 vector-bundle splitting or other unproved structural theorem is imported
 by this alternative. The earlier proof and every downstream ledger remain
-unchanged. The new rank-power and mixed-factor multiplicity statements
+unchanged. The linear-in-x mixed-factor-power corollary removes arbitrary
+admissible univariate factors by injective multiplication on the actual
+crossed output images. The new rank-power and mixed-factor statements
 are written and unreviewed. Finite controls, self-review and passing CI do
 not establish independent mathematical review, formalization, historical
 priority, a complete target or an improved exponent.

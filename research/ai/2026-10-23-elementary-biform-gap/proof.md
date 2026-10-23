@@ -156,7 +156,10 @@ in z. Indeed h is primitive as a z polynomial over K[x], and clearing
 denominators from a putative factorization contradicts irreducibility
 in K[x,z]. Both h_x and h_z are nonzero in characteristic zero. Neither
 is divisible by h: their total degrees are strictly smaller. The same
-holds for g by hypothesis. Hence h is coprime, in K(x)[z], to
+holds for g by hypothesis. Localization does not change this: clearing
+a rational-function denominator could only add a nonzero polynomial
+in x, which the mixed irreducible h cannot divide. Hence h is coprime,
+in K(x)[z], to
 h_x*h_z*g. The Euclidean algorithm and clearing its denominators give
 
     A(x,z)*h + B(x,z)*h_x*h_z*g = D(x),               (10)

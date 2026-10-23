@@ -13,6 +13,9 @@ form. Explicit binomial minors prove the exact formula
     rank R((alpha*x+beta*z)^e)=a(b+e),  1<=e<a, alpha*beta != 0.
 
 Consequently such a repeated mixed factor forces rank R(f)>=ab+ae.
+The [linear-factor-power corollary](linear_factor_powers.md) gives exact
+rank a(b+e) whenever the remaining mixed part is h^e with h irreducible
+and linear in x, allowing arbitrary admissible univariate factors.
 The nonintersecting-path argument proving the integer minors is classical
 and retains Lindstrom/Gessel-Viennot attribution; its required special
 case is fully reproduced. No vector-bundle theorem is imported here.

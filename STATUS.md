@@ -7,7 +7,10 @@ reproves the existing crossed block gap over every characteristic-zero
 field without the earlier vector-bundle splitting input. For2<=a<=b,
 separable nonzero f has rank ab, and every other f has rank at least ab+a.
 A mixed irreducible factor of multiplicity e gives the stronger bound
-ab+ae. The proof uses exact affine covariance, a lowest-term limit at a
+ab+ae. If its mixed part is a power of one irreducible factor linear in x,
+univariate factors preserve crossed rank and the exact rank is a(b+e);
+see [the corollary](research/ai/2026-10-23-elementary-biform-gap/linear_factor_powers.md).
+The proof uses exact affine covariance, a lowest-term limit at a
 suitable factor zero, and the formula rank R((alpha*x+beta*z)^e)=a(b+e)
 for1<=e<a. Classical path determinants retain their original attribution;
 the required cancellation argument is reproduced. Claims
