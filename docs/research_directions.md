@@ -2,6 +2,38 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+now extends PR107's entire prescribed two-jet on d nonzero, with exact
+polynomial maps of degrees eight and nine and no other parameter guards.
+Its kernel stays fixed, whereas PR107's prescribed third kernel
+coefficient is nonzero. Determine whether that full third jet extends
+with a moving kernel, or cover the remaining projective base charts of
+the all-order normal-class criterion. An extension of one specified
+two-jet does not classify all boundary velocities or construct the full
+matrix target.
+
+The [fixed-first conic curve](../research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
+now preserves PR107's entire specified first jet in two exact cubic
+maps, uniformly for all complex a,b,d. Its second coefficients change
+only on the boundary. The fixed-two package above now supplies an
+exact extension of the prescribed full two-jet on d nonzero. An extension of this one full first jet does
+not classify all possible boundary velocities.
+
+The [polynomial conic curve](../research/ai/2026-10-23-conic-polynomial-curve/proof.md)
+now realizes every cubic-component normal[1:d] for all complex a,b,d,
+including d=0, with complete maps of t-degrees one and three. Combined
+with PR101, its corollary makes the second-order criterion necessary and
+sufficient for all-order normal-class existence on the affine base chart.
+Its boundary
+velocity differs from the credited first jet. The separate
+[higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
+extend specified lower coefficients through order four universally for
+d nonzero and through order ten at a=1,b=2,d=1. Determine fixed-jet
+extendability and the local moduli, then connect this rank-twelve
+incidence to the full matrix target. The all-order local curve alone
+does not construct M(10,10,11). Concurrent PR123 retains its separate
+exact d=0 curve preserving its credited two-jet.
+
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
 now proves rank six sharply over every field. Its open structural question
 is the rank-six locus and the required kernel/image alignment under two
@@ -268,8 +300,8 @@ excludes coordinate/potential constructions of M20 and M(19,20,21) in
 S5 x C2^2, despite their passing the general complex rank-locus and full
 Koszul screens. Apply its all-power joint-rectangular inequality before
 searching further central-source targets. The [finite weighted cube continuation](../research/ai/2026-10-23-s5-finite-covers/proof.md)
-now excludes the one-copy M19 coordinate target and 38 additional shapes
-from the previous frontier. The one-central-factor M(13,14,14) remains
+now excludes 38 additional shapes from the previous frontier, including
+the one-copy M19 coordinate target. The one-central-factor M(13,14,14) remains
 open, along with the two and nine remaining shapes listed in that proof.
 General complex maps and constructions from higher powers are separate
 questions; do not restart the closed one-copy M19 coordinate search.

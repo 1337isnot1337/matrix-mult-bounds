@@ -2,8 +2,8 @@
 
 The [written, unreviewed proof](proof.md) bounds the characteristic-two
 cube slice ranks for S5 x C2 and S5 x C2^2 by 6867542 and 42493572.
-This closes the selected M19 coordinate/potential target in the second
-source and excludes 38 additional shapes from the maintained frontier.
+This excludes 38 additional shapes from the maintained frontier, including
+the selected M19 coordinate/potential target in the second source.
 M(13,14,14) in the first source remains unresolved. General complex
 degenerations and constructions from arbitrary higher powers are outside
 this one-copy exclusion. No smaller exponent is established.
