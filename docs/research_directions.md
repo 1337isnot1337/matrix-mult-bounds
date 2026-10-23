@@ -32,6 +32,15 @@ questions. The prescribed regular-nilpotent wider quotient and the stated
 tetrahedral scalar-repair models are also excluded; see the exact scope in
 the linked status notes before choosing new parameters.
 
+The [two-variable long-leg barrier](../research/ai/2026-10-23-two-variable-long-legs/proof.md)
+closes another ordinary repair family: a common window dimension r on
+one leg and coefficient-profile count s on the other force quadratic
+repair when r*s<m, even though both maps vary by column. Full profile
+spans, a failure of this strict channel gap, or genuinely singular
+cancellation are necessary ways outside this particular proof. They do
+not establish a construction. The credited one-variable predecessors
+remain distinct pending PRs.
+
 ## R1: Review the local sharpness theorem
 
 Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.

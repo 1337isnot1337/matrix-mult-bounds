@@ -24,4 +24,8 @@ retains their common Laurent-symbol idea and adds a profile expansion on
 the second leg. Neither pending PR is treated as merged or independently
 reviewed. Their method credit and immutable commits will be recorded.
 
-Checkpoint: investigation registered; proof and acceptance code pending.
+Checkpoint: written proof and six finite coefficient/flattening controls pass.
+An exact width-four control attains full symbol rank at the strict boundary.
+Focused regression, full regression and required hosted CI are pending.
+Next: carry the contraction argument to near-full target outer dimensions,
+the form used in the maintained linear-correction criterion.

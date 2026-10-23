@@ -1,5 +1,19 @@
 # Research status
 
+## Two variable paired-source long maps with a strict channel gap
+
+The [two-variable argument](research/ai/2026-10-23-two-variable-long-legs/proof.md)
+allows both finite-band long maps to vary by source column. A common
+B window span of dimension r and s fixed C coefficient profiles force
+quadratic auxiliary repair whenever r*s<m. The first map and sparse
+exceptional columns are arbitrary. At fixed width and sublinear bandwidth
+and exceptions the lower bound is n^2-o(n^2). This includes two linear
+polynomial maps at width at least five. The Laurent-symbol method retains
+PR173/172 credit and is reconstructed without an unmerged dependency.
+Claim `AI-TWO-VARIABLE-PAIRED-REPAIR-001` is written and unreviewed.
+Full-profile maps and Laurent cancellation remain open; no improved
+matrix exponent is claimed.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

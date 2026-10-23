@@ -920,3 +920,13 @@ class hypergraph and a finite integer-weight census. Optional SciPy
 optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
+
+The `2026-10-23-two-variable-long-legs` package is owner-directed OpenAI
+Codex research. It credits PR173 at ce270d3276bd90253d3ba3a1eb5757ff3677ce61
+and PR172 at95de5b3a7db04a70ea31230c41d2f15581144882 for the common-symbol
+contraction method, extending it to a second variable long map with bounded
+coefficient-profile dimension. The proof reconstructs that method and adds
+the strict r*s<m criterion. The maintained Q source and correction
+motivation retain their exact local byte pins. No unmerged code is a
+runtime dependency; no new external theorem, independent mathematical
+review, historical priority or exponent improvement is claimed.

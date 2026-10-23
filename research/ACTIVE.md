@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The [two-variable long-leg question](ai/2026-10-23-two-variable-long-legs/QUESTION.md)
+is on `research/frontier-continuation-20261023` (PR179). The written
+ordinary-map proof retains a common B window span and bounds the second
+leg's coefficient-profile dimension, forcing quadratic repair when
+r*s<m. Both long maps may vary. Six exact coefficient/rank controls pass over F2, F3 and F101;
+focused and full regression are being completed; general full-profile maps and Laurent
+cancellation remain outside the result. No exponent improvement.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
