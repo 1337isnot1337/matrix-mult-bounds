@@ -1,0 +1,33 @@
+{
+  "base_commit": "72ef0788b6847af5e8105047c806c26c537c18ed",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "used_for": "Canonical cyclic source coefficients."
+    },
+    {
+      "path": "research/ai/2026-10-23-torus-order-ideal/proof.md",
+      "sha256": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+      "used_for": "Characteristic-zero rank-preserving lowering and order-ideal reduction for arbitrary complex source spaces."
+    },
+    {
+      "path": "research/ai/2026-10-23-torus-rank80/proof.md",
+      "sha256": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682",
+      "used_for": "Coherent rank20,24,28 facts and disjoint middle-layer method."
+    },
+    {
+      "path": "results/torus-rank80-2026-10-23/certificates.json",
+      "sha256": "78291f6c6e437b5f452ff852398b0b3f5a735a1d6255d0947f7bb8598916223b",
+      "used_for": "Eleven credited coherent minors, copied exactly and replayed from literal coefficients."
+    },
+    {
+      "path": "research/ai/2026-10-23-source-staircase-spaces/proof.md",
+      "sha256": "505adc0fef6bef8894af6e75ebb085adbbc81bb5a49553b90d2edc190f5862bb",
+      "used_for": "All-size staircase spaces and exact supported-column count; a=4,d=2,m=0,1,2 supplies sharpness and boundary examples."
+    }
+  ],
+  "attribution": "Owner-directed OpenAI Codex continuation. Prior source, geometric reduction, coherent minors and staircase family retain original credit and exact pins. New exhaustive layer-volume proofs establish sharp source dimensions56 and60 below ranks84 and88; exported exact minors attain ranks80 and84 in the sharp examples. No independent external review, formalization, complete target construction or exponent improvement."
+}
