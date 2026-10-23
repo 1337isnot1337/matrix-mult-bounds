@@ -67,9 +67,11 @@ x_2 & x_3
 \]
 
 The seven points have coordinate rank 4, so they lie on no common plane.
-Their three quadrics have no common linear factor; since they span a
-three-dimensional space, they have no common quadratic factor either. The
-maximal-minor ideal therefore has height 2. Hilbert-Burch gives resolution
+For the height check, `Q2` and `Q3` have gcd `x3`, while `Q1` is not
+divisible by `x3`; thus all three quadrics have no common linear factor.
+They span a three-dimensional space, so they cannot have a common quadratic
+factor. Their maximal-minor ideal has no codimension-one component, and the
+determinantal height bound gives height 2. Hilbert-Burch gives resolution
 `0 -> S(-3)^2 -> S(-2)^3 -> I -> 0`, Hilbert numerator
 `1 - 3*t^2 + 2*t^3`, and Hilbert polynomial `3*n + 1`. The explicit
 one-parameter perturbation above has smooth twisted-cubic fibers generically,
