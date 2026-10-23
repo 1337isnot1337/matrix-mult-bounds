@@ -176,11 +176,11 @@ The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 
 The mixed-frame worker now studies
-`ai/2026-10-21-generic-partner-all-graphs/QUESTION.md`. Every graph is
-excluded at each partner in a nonempty open set containing2 on b=1.
-The remaining partner values are finite. Extract explicit guarded minors
-and close exceptional ratios; the equal nonzero ratio is already covered.
-No improved exponent is established.
+`ai/2026-10-21-all-rankone-seven-five/QUESTION.md`. A complete endpoint
+source closure and physical reversal now cover every projective rank-one
+partner in the canonical seven-by-five class under100. Move to smaller
+first spaces or other flags; repeating this closed class is not a new
+construction route. The written proof is unreviewed and omega is unchanged.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-global-mixed-normal-dichotomy/QUESTION.md`. All six graph
