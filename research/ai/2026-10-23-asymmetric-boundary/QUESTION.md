@@ -23,7 +23,7 @@ State whether any construction integrates at all orders. The full matrix
 target and the exponent improvement remain unproved unless every required
 coefficient identity and dimension implication is supplied.
 
-Source base: main d833eb0b (the full SHA is recorded in sources.json when
+Source base: main d833eb0 (the full SHA is recorded in sources.json when
 the package is completed). Predecessors are the moving-boundary normal
 system and the biform third-core conditioned obstruction calculation.
 Prepared with OpenAI Codex under owner direction; no independent review.

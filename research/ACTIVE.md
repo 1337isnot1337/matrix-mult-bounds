@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The asymmetric-boundary continuation studies
+`ai/2026-10-23-asymmetric-boundary/QUESTION.md`. It owns the separate
+12-by8 case: the full-side obstruction vanishes and the other obstruction
+has rank at most four on a 100-dimensional parameter space. The existing
+minimum-four and balanced-rank-two proofs leave that equality case open.
+The conic-lifting investigation remains with its active worker. No new
+mathematical claim or exponent improvement is asserted at registration.
+
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
 boundary obstruction ranks at most two force both complete matrices to
