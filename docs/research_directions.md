@@ -1,5 +1,22 @@
 # Research directions
 
+The rational rank14 linear-family question is now closed sharply at six
+by the [certificate transfer](../research/ai/2026-10-23-quadratic-determinant/README.md).
+A three-dimensional full-rank family over Q comes from the existing binary
+certificate after clearing rational denominators and using parity. The
+remaining geometric question below concerns arbitrary extensions, where
+that rational full-rank property need not survive.
+
+The [universal quadratic determinant](../research/ai/2026-10-23-quadratic-determinant/README.md)
+now gives a precise form of the geometric rank14 bottleneck outside
+characteristic two. Classify linear spaces contained in
+`det(2 adj(H)-tr(adj(H)) I)=0`, where `H=M^T J M J` and J is the fixed
+discriminant matrix, especially dimension-seven spaces containing an
+invertible M after extension to an algebraic closure. The separate cubic `det(M)=0` branch has dimension cap six.
+The invariant identity follows from a dense-orbit proof; repeated checks
+of the Edwards slice alone will not resolve this remaining linear-space
+question. No characteristic-two replacement is supplied by this formula.
+
 The [quadratic linear-space bounds](../research/ai/2026-10-23-quadratic-linear-spaces/proof.md)
 now make the individual R_(3,3) spectrum constrain a source subspace:
 a binary family avoiding rank15 has dimension at most six, and a

@@ -1,5 +1,23 @@
 # Integrated research coordination
 
+The same [package](ai/2026-10-23-quadratic-determinant/README.md) closes the
+rational rank14 linear-family bound at dimension six, by lifting the prior
+binary full-rank certificate through denominator clearing and parity.
+Its three-dimensional full-rank family is a Q-point assertion and must
+not be promoted to full rank over an algebraic closure. This transfer
+is written and unreviewed; no new binary census is used.
+
+The [quadratic determinant factorization](ai/2026-10-23-quadratic-determinant/README.md)
+reduces the remaining geometric rank14 family question in characteristic
+other than two to a specific degree-twelve invariant hypersurface. The
+other factor, the cubic determinant of the coefficient matrix, has no
+linear subspace of dimension above six. A hypothetical larger bounded-rank
+family must therefore vanish identically on the degree-twelve factor and
+contain an invertible coefficient matrix after extending to the algebraic
+closure. This is the next precise
+bottleneck, not an established rank14 cap. The cleared integer formula
+degenerates in characteristic two; binary pointwise results are separate.
+
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
 closes the dimension question for binary R_(3,3) families avoiding rank15:
 maximum dimension six, with a seven-matrix intersection certificate. The
