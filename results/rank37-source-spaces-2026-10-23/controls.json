@@ -1,0 +1,54 @@
+{
+  "schema": "rank37-source-controls-v1",
+  "field": "C",
+  "source_sha256": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-23-torus-order-ideal/proof.md": "819b1b745940ee0307b11ecdb8b92429b0d526e52e5637856926107f292d3233",
+    "research/ai/2026-10-23-torus-rank80/proof.md": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682"
+  },
+  "certificates_sha256": "3441a0c090eaae061a95699d239c85b9887445931c2977184739891ec2460114",
+  "source_controls": {
+    "literal_source_terms": 4096,
+    "literal_coherent_terms": 256,
+    "monomial_slices_and_factorizations": 112,
+    "middle_multiplicities": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "sharpness_dimension": 16,
+    "sharpness_middle_support": [
+      0
+    ],
+    "sharpness_uniform_rank_upper": 28
+  },
+  "minor_controls": {
+    "coherent20_pair_minors": 1,
+    "source37_minors": 13,
+    "integer_minors_checked": 14,
+    "all_determinants_modulo_two": 1,
+    "axis_length_inventory": {
+      "1": 1,
+      "2": 2,
+      "3": 4,
+      "4": 6
+    },
+    "replay_uses_discovery": false,
+    "field_transfer": "Every odd integer determinant is nonzero over C."
+  },
+  "claim_scope": {
+    "source_rank_strict_upper": 37,
+    "source_space_dimension_upper": 16,
+    "dimension_bound_sharp": true,
+    "mixed_leg_rank_consequence_claimed": false,
+    "target_constructed": false,
+    "improves_omega": false,
+    "formalized_proof": false,
+    "independent_review": false,
+    "proof_status": "proof-written-unreviewed"
+  }
+}
