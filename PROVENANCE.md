@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-monomial-projections` package is owner-directed OpenAI Codex
+work. It depends on PR187's source-pinned additive recognition package and
+through it the archived support, distinguished-first-input components,
+matching profile and slice fallback, retaining their original credits.
+The finite projection recurrence, exhaustive mask control, independent
+mask replay and stronger scores on existing supports are local
+continuations. Elementary finite induction is used; no external theorem,
+historical priority, independent review, formalization or exponent gain
+is claimed.
+
 The `2026-10-23-monomial-recognition` package is owner-directed OpenAI Codex
 work. The archived convolution support, first-input component partition,
 matching profile and sorted-index recognizer retain their original credit

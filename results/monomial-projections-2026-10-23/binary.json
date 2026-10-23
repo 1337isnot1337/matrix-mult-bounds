@@ -1,0 +1,175 @@
+{
+  "best": {
+    "keep_y": [
+      0,
+      1
+    ],
+    "keep_z": [
+      0,
+      1,
+      2
+    ],
+    "old_score_exact": "10/3",
+    "projected_score_exact": "10/3",
+    "projected_terms": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "ratio_exact": "1",
+    "source_exact": "10/3",
+    "weights": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "cases_tested": 1623,
+  "exact_violation_count": 0,
+  "first_improvement": {
+    "keep_y": [
+      0,
+      2,
+      3
+    ],
+    "keep_z": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "old_score_exact": "5",
+    "projected_score_exact": "16/3",
+    "projected_terms": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "ratio_exact": "8/9",
+    "source_exact": "6",
+    "weights": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "parameters": {
+    "alphabet_size": 2,
+    "max_sum": 8
+  },
+  "scope": "Exact optimum of the existing whole-convolution/slice-fallback component score over y/z coordinate projections only, in the specified ordered finite weight census. Scores on old supports; no arbitrary-basis or exponent conclusion.",
+  "strict_score_improvements": 581,
+  "worked_example": {
+    "keep_y": [
+      0,
+      2
+    ],
+    "keep_z": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "old_score_exact": "3",
+    "projected_score_exact": "5",
+    "projected_terms": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "ratio_exact": "45/56",
+    "source_exact": "56/9",
+    "weights": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+}

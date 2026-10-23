@@ -133,6 +133,14 @@ Deliver a dependency map with cited lemmas and a candidate constraint absent fro
 
 ## R6: Make search results stronger and reusable
 
+The [nonshared projection continuation](../research/ai/2026-10-23-monomial-projections/README.md)
+supplies one stronger estimate: optimize the existing component score over
+literal y/z coordinate deletions before splitting components. It improves
+581 of 1,623 scores in the complete small ordered binary census through
+a+b=8, without a source-profile violation. This changes the estimate on an
+old degeneration, rather than discovering a new degeneration. Larger
+projection censuses and stronger per-component estimates remain questions.
+
 The [whole-sector recognition theorem](../research/ai/2026-10-23-monomial-recognition/proof.md)
 closes one possible strengthening: on an additive coefficient-one support,
 arbitrary coordinate permutations reveal no whole convolution block beyond

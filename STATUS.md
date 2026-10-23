@@ -1,5 +1,20 @@
 # Research status
 
+## Coordinate projections strengthen existing monomial scores
+
+The [projection recurrence](research/ai/2026-10-23-monomial-projections/proof.md)
+computes the exact optimum of the existing component score over y/z
+coordinate deletions, retaining the shared x axis. A complete ordered binary
+census through a+b=8 improves 581 of 1,623 scores, while the maximum ratio
+remains one. Literal masks raise one old support's score from 3 to 5,
+below the source 56/9. The acceptance checker replays the support without
+calling the optimizer, and all 64 supports of a 2-by-3 grid agree with
+direct enumeration of every pair of masks. Claims
+`AI-MONOMIAL-PROJECTION-OPT-001` and `EXP-MONOMIAL-PROJECTION-CENSUS-001`
+separate the written, unreviewed finite proof and the finite census.
+This strengthens estimates on existing degenerations; general linear
+restrictions and the exponent goal remain open.
+
 ## Whole-convolution recognition is complete under coordinate permutations
 
 The [additive-support proof](research/ai/2026-10-23-monomial-recognition/proof.md)
