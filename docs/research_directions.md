@@ -1,5 +1,13 @@
 # Research directions
 
+The [rational quadratic attainment result](../research/ai/2026-10-23-quadratic-rational-attainment/README.md)
+closes the Q version of the all-size one-unit-defect question: exactly
+those a>=3 with gcd(a+1,210)>1 attain it. New order-five and order-seven
+integer certificates provide sufficiency, while the smooth Jacobian
+and singular gluing cases give necessity. This narrows future work to
+linear families, other ground fields with genuinely new order bounds,
+and compatibility across tensor legs. Repeating the old sixteen rational
+sign lifts adds no evidence; they do not contain the new witnesses.
 The [explicit split/double family](../research/ai/2026-10-23-quadratic-split-attainment/proof.md)
 settles balanced four-rank attainment over every algebraically closed
 field and computes the corresponding rectangular ranks. The remaining
