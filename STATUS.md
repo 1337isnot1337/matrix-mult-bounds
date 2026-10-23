@@ -34,6 +34,97 @@ unproved; no new matrix-target exclusion or smaller exponent follows. The
 historical ordinary A9 square sums are already excluded by the credited
 Wronskian application.
 
+## The prescribed full conic two-jet extends to all orders
+
+The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+preserves every entry of PR107's B0,B1,B2,C0,C1,C2 and the two supplied
+kernel corrections Y1=Y2=0. For every complex a,b,d with d nonzero and
+c=-d^3, it gives exact polynomial maps of degrees eight and nine over
+Q[a,b,d,d^-1], with actual d-pole bounds five and six. There are no
+additional a,b or Delta guards. The complete product stays on the same
+twelve first-source coordinates; constant minors1,1,-1 give formal
+ranks14,14,12. Exact replay checks all18 product orders and all352800
+kernel coefficient positions. Six focused tests and a separate sparse
+Laurent reconstruction pass. Claim `AI-CONIC-FIXED-TWO-CURVE-001` is
+written and unreviewed. This closes the prescribed two-jet question on
+the stated chart. PR107's full third jet, which has a nonzero kernel
+correction, remains a separate question. No full matrix target or
+improved exponent is established.
+
+## The prescribed full conic first jet extends to all orders
+
+The [fixed-first-jet curve](research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
+strengthens the earlier cubic-component construction: for every complex
+a,b,d with c=-d^3, both full constant and first coefficient maps of
+PR107 extend to exact cubic maps B(t),C(t) over Q[a,b,d]. The supplied
+first source-kernel correction is also preserved. Complete source
+replay checks all seven possible product coefficients; the fixed kernel
+and unit minors give formal ranks14,14,12. The construction includes
+d=0 and the linear-component intersections without parameter inverses.
+Claim `AI-CONIC-FIXED-FIRST-CURVE-001` is written and unreviewed.
+Its second coefficients differ by boundary terms, so preservation of
+PR107's full two-jet is not asserted here. The full matrix target and
+an improved exponent remain unconstructed.
+
+## Polynomial all-order curves on the cubic conic component
+
+The [all-order criterion](research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md)
+completes normal-class existence on the full affine conic base chart:
+for every complex a,b,c and nonzero[lambda:mu], a suitable first tangent
+extends to a formal (indeed polynomial) incidence curve exactly when
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. Necessity is PR101's complete
+second-order obstruction; sufficiency combines its linear-component
+curves with the polynomial cubic-component curve below. Claim
+`AI-CONIC-ALL-ORDER-CRITERION-002` is written and unreviewed. All
+projective normal directions are included; other projective base charts
+and extension of a prescribed full tangent remain distinct questions.
+
+The [polynomial-curve proof](research/ai/2026-10-23-conic-polynomial-curve/proof.md)
+constructs an exact curve for every complex a,b,d with c=-d^3, including
+d=0. The two fourteen-row maps have polynomial t-degrees one and three,
+with coefficients in Q[a,b,d] and no parameter denominators. Their
+complete contraction stays on the same twelve first-source coordinates;
+constant unit minors certify formal ranks14,14,12. Literal replay checks
+all five possible product coefficients against the original4096-term
+source. The first normal class is exactly[1:d] and never vanishes.
+The curve changes the boundary part of the first tangent, so it does not
+settle extension of a prescribed full first or second jet. Claim
+`AI-CONIC-POLYNOMIAL-CURVE-001` is written and unreviewed. The full
+M(10,10,11) target and a smaller exponent remain unconstructed.
+
+## Mixed conic lifts through order four and a rational order-ten witness
+
+The [higher-jet proof](research/ai/2026-10-23-conic-higher-jets/proof.md)
+extends PR107's mixed family through order four for every complex a,b,d
+with d nonzero and c=-d^3. The explicit coefficients lie in
+Q[a,b,d,d^-1], with d-pole order at most three. A separate rational
+witness extends the point a=1,b=2,d=1 through order ten. Both preserve
+PR107's constant, first and second coefficients. The symbolic and
+rational acceptance programs contract the literal 4096-term source
+and check every moving-kernel coefficient, with leading ranks14,14,12.
+Claims `AI-CONIC-MIXED-FOURTH-JET-001` and
+`AI-CONIC-RATIONAL-TENTH-JET-002` are written and unreviewed. These are
+rank-twelve incidence jets with specified lower coefficients. The separate
+polynomial curve above gives all-order existence after allowing boundary
+velocity to change; it does not preserve these specified lower jets.
+
+## Third-order lifts on the mixed cubic conic component
+
+The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)
+extends PR101's first jet through order three for every complex a,b,d
+with d nonzero and c=-d^3, after changing its second coefficient. The
+coefficient ring is Q[a,b,d,d^-1], with poles of order at most two in d.
+Independent symbolic replay rebuilds the 4096-term integer source and
+checks all 19600 moving-kernel coefficients at each positive order;
+leading minor determinants1,1,-1 give map row ranks14 and first-source
+rank12 throughout this chart. An earlier explicit rational point also
+has a separate standard-library replay. Claims
+`AI-CONIC-RATIONAL-THIRD-JET-001` and `AI-CONIC-MIXED-THIRD-JET-002`
+are written and unreviewed. The later packages above supply fourth-order
+lifts and all-order existence for the normal class, with their distinct
+lower-coefficient conditions. The full matrix target remains open.
+No smaller exponent is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
@@ -107,9 +198,9 @@ An exported polynomial two-jet on c=-d^3 passes direct all-source replay,
 including d=0, while its uncorrected third coefficient has184 nonzero
 entries. The other two factors admit exact linear incidence curves.
 Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
-`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. Later lifting,
-other projective base charts, the separate12-by8 problem and the full
-matrix target remain open. The exponent remains9/4.
+`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later polynomial-curve package completes all-order existence on
+the cubic component for a suitable first representative. Other projective
+base charts, the separate12-by8 problem and the full matrix target remain open. The exponent remains9/4.
 
 ## Finite cube bounds split-cover coordinate target volume
 
