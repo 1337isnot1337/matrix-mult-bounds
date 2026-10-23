@@ -1,0 +1,34 @@
+{
+  "catalog_commit": "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+  "sources": [
+    {
+      "path": "research/ai/2026-10-21-semisimple-koszul/sl2_f8_source.py",
+      "sha256": "4acf94d23a6e797f7fe7556d58aad3d16bc24467f261e7ac2acec2a669eef3d6"
+    },
+    {
+      "path": "research/ai/2026-10-20-group-potentials/group_exact.py",
+      "sha256": "fcd93741ba37d7104b6e5abe234e48e8fbf9513aaffd65ddff6b98066628dfb1"
+    },
+    {
+      "path": "research/ai/2026-10-20-group-potentials/stream_potentials.py",
+      "sha256": "f2dae952f2a9b05b1803a201a766761c9b1fbb47b294b0dc2fff3c0cceb7c7be"
+    },
+    {
+      "path": "research/ai/2026-10-20-group-potentials/verify_stream_reports.py",
+      "sha256": "03e8df045458599557816c74174fff8652c10a540b53264d60703f3c2da506df"
+    },
+    {
+      "path": "research/ai/2026-10-23-sl2-f8-subgroup-catalog/verify.py",
+      "sha256": "0b61b050db0c2bc2cbafb2a659bea422e23d8db3c4ffc6b6abe024ec3111d83e"
+    },
+    {
+      "path": "research/ai/2026-10-23-sl2-f8-subgroup-catalog/catalog.py",
+      "sha256": "72e8a347a9ac82aafaa1df8d0060fc8dc28d1e81448f20c4ead66446b5014fe5"
+    },
+    {
+      "path": "results/sl2-f8-subgroup-catalog-2026-10-23/certificate.json.gz",
+      "sha256": "6fa017474e78d607b3243e35ac07015b1101cc70eb6f7f1a117c84cf92d8fe26"
+    }
+  ],
+  "credit": "Adopts the maintained literal SL2 F8 source, PR175 subgroup cuts, existing pair-map verifier, streamed potential discovery and exact Farkas/full-support acceptance. The full-source SAT framing is owner-directed Codex discovery, not a sourcewide theorem."
+}
