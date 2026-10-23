@@ -1,5 +1,15 @@
 # Research directions
 
+The [quadratic linear-space bounds](../research/ai/2026-10-23-quadratic-linear-spaces/proof.md)
+now make the individual R_(3,3) spectrum constrain a source subspace:
+a binary family avoiding rank15 has dimension at most six, and a
+geometrically rank12 family over any field has the same sharp bound.
+The binary extremal-space census and F4 escape distinguish finite-point
+constraints from minor identities. Continue with geometric rank14 bounds
+outside F2, geometric equality cases, or applications imposing compatible
+three-leg maps. Preserve the distinction between this nine-coefficient
+block and the full cyclic source. All proofs remain unreviewed.
+
 The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)
 gives a finite exact procedure for the two kernel indices of arbitrary
 `u(x)+z*v(x)+z^2*w(x)`, and hence the full source rank at every b>=3.

@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
+closes the dimension question for binary R_(3,3) families avoiding rank15:
+maximum dimension six, with a seven-matrix intersection certificate. The
+geometric rank12 bound is also six over every field. The complete binary
+extremal census is finite evidence, with an explicit F4 rank escape for
+an exceptional rank14 family. Do not infer geometric bounded rank from
+binary point checks. Next: geometric rank14 families over other fields,
+classification of geometric equality cases, or compatible three-leg maps.
+The block-subspace bounds are written and unreviewed; no target follows.
+
 The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)
 determines individual slice ranks through two polynomial-kernel indices,
 whose sum is aD and whose first nonzero-kernel degree is computable by a

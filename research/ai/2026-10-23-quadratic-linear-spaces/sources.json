@@ -1,0 +1,95 @@
+{
+  "base_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+  "external_sources": [
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 01W6",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/01W6",
+      "locator": "Lemma 29.42.7",
+      "sha256": "060b8c179f815d59977f8a31057b5f5f9e1f2104351d46c33f1fb6d9ed95a202",
+      "snapshot_bytes": 14844,
+      "imported_statement": "A morphism from a proper scheme to a separated scheme over the same base is proper and has closed image. Applied to the projective multiplication parameter space.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 01W7",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/01W7",
+      "locator": "Lemma 29.44.5; Segre-product discussion in Lemma 29.44.7",
+      "sha256": "5b54ea82a89cf7fe2ea3bf0527ccec5522a48386d983ba7ca06498ecbde59dc6",
+      "snapshot_bytes": 37282,
+      "imported_statement": "Projective morphisms are proper; the product of the projective parameter spaces is projective via the Segre embedding.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0B2L",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0B2L",
+      "locator": "Lemma 33.20.4(2)",
+      "sha256": "0099de5d2b0711a208c3ef85d8b54d310f304038def4f14778dd5a0a301be56d",
+      "snapshot_bytes": 15648,
+      "imported_statement": "For an irreducible algebraic scheme, the dimension of the image closure is at most the dimension of the source.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0B2M",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0B2M",
+      "locator": "Lemma 33.20.5(2)",
+      "sha256": "3d807877ad849941b6c4f4af81ba00d5f9e24ecef76a5ba3131dcb64378511cb",
+      "snapshot_bytes": 14886,
+      "imported_statement": "Dimensions of products of locally algebraic schemes over a field add; used for P1 times P5.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0B2P",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0B2P",
+      "locator": "Lemma 33.34.1",
+      "sha256": "5640a64be598b7e403c557cc0765c3bd37c2b653d713841f3e290a8bf23a82fc",
+      "snapshot_bytes": 13790,
+      "imported_statement": "Projective n-space over a field is a projective variety of dimension n.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+      "sha256": "f5672695904c1f458134abcfc014ec3f86848c26021fa862106fbb942e5bb406",
+      "use": "Merged all-field index/rank formula, literal source convention, common-gcd reduction, and zero-index/fixed-root characterization."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "sha256": "3fbbe8be72254360b7df5e7cfb8ff3aa5d6096bacf9bb91ed9d11290c5d929eb",
+      "use": "Merged all-field structural restriction and a=b=3 source-rank spectrum {9,12,14,15}."
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "use": "Original full crossed biform source; original construction and general bundle identity retain their prior credit."
+    }
+  ],
+  "credited_prior_work": [
+    {
+      "pull_request": 218,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/218",
+      "merged_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "scope": "The complete quadratic two-index formula, fixed-root characterization, structural dichotomy, and small-block individual-rank spectrum are prior results. The present package adds linear-family dimension bounds."
+    }
+  ],
+  "local_work": "A seven-point full-rank binary subspace certificate proving the sharp dimension-six cap for F2-point ranks at most14 or12; an all-field geometric rank12 factor-locus proof with the same sharp bound; complete finite binary dimension-six classification and an explicit F4 scalar-extension counterexample.",
+  "field_and_hypotheses": "The source is exactly R_(3,3) for all biforms of separate degree at most two. The rank14 upper bound concerns F2-linear spaces and all their F2 points. The rank12 geometric upper bound concerns any field and all vectors after extension to an algebraic closure; over infinite fields this follows from a cap on all field-valued points.",
+  "finite_evidence": "Seven exact odd determinants of the literal integer0/1 source matrices; all511 nonzero binary source ranks; all43435 dimension-seven and788035 dimension-six binary spaces; explicit fixed-factor lower certificate; one F4 counterexample checked both over F4 and by binary restriction of scalars. The census is not a premise of either upper-bound proof.",
+  "prior_credit": "Standard projective geometry retains its cited external attribution. The original source and individual-slice rank results retain their prior local credits. No historical-priority claim is made.",
+  "implementation_dependencies": "The verifier reconstructs the literal source independently and imports no previous research implementation. No unmerged torsion package or theorem is required.",
+  "limitations": "Bounds on linear families in one crossed source block, not a cap14 theorem over every field, a classification of geometric equality cases, a classification of all inclusion-maximal smaller binary spaces, compatible three-leg maps, or a matrix-multiplication exponent improvement.",
+  "ai_assistance": "Owner-directed Codex research with same-session checking. Written and unreviewed; not independent mathematical review.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
