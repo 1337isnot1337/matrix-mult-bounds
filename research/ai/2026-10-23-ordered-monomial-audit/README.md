@@ -7,6 +7,15 @@ searches to both orders of the input dimensions. The historical archives and
 PR118's producer are unchanged. This is a finite computational audit, not an
 independent review of the underlying spectral inequalities.
 
+Concurrent overlap: PR187 (opened 16:04 UTC) independently supplies the same
+recognition conclusion and ordered counts, and PR192 (opened 16:08 UTC)
+supplies the same ordered counts plus an all-size asymmetry family. They
+appeared while this package's census was running, after its initial overlap
+check. This package preserves a separate computational confirmation and an
+alternative difference-identity proof; those overlapping conclusions must
+not be counted as additional mathematical discoveries. Its PR118 record
+digests provide a separate audit of all 60 retained certificates.
+
 ## Why the omitted orientation matters
 
 The archived note explicitly restricts exhaustive weights to `2<=a<=b`.
