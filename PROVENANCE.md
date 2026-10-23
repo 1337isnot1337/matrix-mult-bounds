@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-conic-polynomial-curve` package is owner-directed OpenAI
+Codex work. PR101 retains credit for the canonical source, affine conic
+base and normal-class interpretation; PR107 at86b5142 retains credit for
+the literal constant maps and specified normal coefficients. The local
+addition is a polynomial rank-one gauge cancellation giving a complete
+all-order incidence curve with changed boundary velocity. Source and
+witness bytes are pinned, and a separate acceptance implementation checks
+the entire finite-degree product. Concurrent PR123 already supplies an
+exact d=0 curve preserving its own lower jet; it is context, not a premise.
+The generating session's cross-checks do not establish independent
+mathematical review or formalization. No full target or exponent gain.
+
 The `2026-10-23-conic-higher-jets` package is owner-directed OpenAI Codex
 work. PR101 retains credit for the literal source, conic base, tangent
 fields and operators. PR107 at `86b5142` retains credit for the mixed

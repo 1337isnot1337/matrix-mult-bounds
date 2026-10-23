@@ -2,13 +2,17 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
-The [higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
-now give a fourth-order family on c=-d^3, d nonzero, and an exact
-tenth-order jet at a=1,b=2,d=1. Seek an algebraic parameterization that
-explains those finite jets, while keeping the rank-twelve incidence
-problem separate from the full matrix target. The two exported witnesses
-share coefficients through order two; their higher truncations need
-not agree. Concurrent PR123 supplies a separate exact d=0 fiber curve.
+The [polynomial conic curve](../research/ai/2026-10-23-conic-polynomial-curve/proof.md)
+now realizes every cubic-component normal[1:d] for all complex a,b,d,
+including d=0, with complete maps of t-degrees one and three. Its boundary
+velocity differs from the credited first jet. The separate
+[higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
+extend specified lower coefficients through order four universally for
+d nonzero and through order ten at a=1,b=2,d=1. Determine fixed-jet
+extendability and the local moduli, then connect this rank-twelve
+incidence to the full matrix target. The all-order local curve alone
+does not construct M(10,10,11). Concurrent PR123 retains its separate
+exact d=0 curve preserving its credited two-jet.
 
 ## Active paired construction: near-full width four
 

@@ -1,11 +1,24 @@
 # Integrated research coordination
 
+The October23 polynomial-conic continuation is in
+`ai/2026-10-23-conic-polynomial-curve/proof.md`. A complete degree-one /
+degree-three polynomial pair realizes every cubic-component normal[1:d]
+for every complex a,b,d, including d=0. All original-source coefficients
+and unit rank minors replay exactly; the seven focused tests pass. This
+closes existence of an all-order representative for those normal classes,
+while leaving prescribed boundary velocities and lower jets distinct.
+Next: describe the remaining local moduli and determine how this
+rank-twelve incidence can constrain or support a full matrix target.
+Full regression and archived replay are required before merge. Written,
+unreviewed; no full M(10,10,11) target or exponent improvement.
+
 The October23 higher-conic continuation is in
 `ai/2026-10-23-conic-higher-jets/proof.md`, following PR107 at86b5142.
 The explicit mixed fourth-order family and separate rational tenth-order
 witness pass direct source replay and seven focused tests. The next
-question is an exact algebraic parameterization of the mixed component;
-finite jet compatibility is not an all-order proof. Full local regression
+question is extension with the specified lower coefficients. The separate
+polynomial curve above changes boundary velocity and therefore does not
+answer that stronger question. Full local regression
 and historical replay are required before merge. The claims retain
 written, unreviewed status and do not construct the matrix target.
 
@@ -16,10 +29,11 @@ an explicit rational third-order family for all complex a,b,d with
 d nonzero and c=-d^3, with the credited first jet and changed second
 coefficient. Independent original-source symbolic replay checks all
 three orders and constant unit leading minors; a separate rational
-point passes standard-library replay. Next: the d=0 cubic fiber and
-fourth-order compatibility allowing lower-jet freedoms. This is local
-rank-twelve incidence; no all-order lift or matrix-target construction
-follows.
+point passes standard-library replay. The later packages above supply
+fourth-order and all-order results with explicit lower-jet distinctions.
+This remains local rank-twelve incidence; no full matrix-target
+construction follows.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over
@@ -59,9 +73,10 @@ has dimension70:68 independent boundary fields and two conic normals.
 The full second-order criterion for a nonzero normal class is
 `(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity
 and moving source kernel. A polynomial two-jet on c=-d^3 is exported;
-its uncorrected third coefficient is nonzero. Next: actual higher-order
-lifting on that cubic component, with the14-row local incidence kept
-distinct from the full matrix target. Other base charts and the12-by8
+its uncorrected third coefficient is nonzero. The later polynomial
+curve above establishes all-order existence after changing boundary
+velocity. Keep this14-row local incidence distinct from the full matrix
+target and from fixed lower-jet extension. Other base charts and the12-by8
 case remain open. Written, unreviewed, no smaller exponent.
 
 The coupled-boundary continuation studies

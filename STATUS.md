@@ -1,5 +1,20 @@
 # Research status
 
+## Polynomial all-order curves on the cubic conic component
+
+The [polynomial-curve proof](research/ai/2026-10-23-conic-polynomial-curve/proof.md)
+constructs an exact curve for every complex a,b,d with c=-d^3, including
+d=0. The two fourteen-row maps have polynomial t-degrees one and three,
+with coefficients in Q[a,b,d] and no parameter denominators. Their
+complete contraction stays on the same twelve first-source coordinates;
+constant unit minors certify formal ranks14,14,12. Literal replay checks
+all five possible product coefficients against the original4096-term
+source. The first normal class is exactly[1:d] and never vanishes.
+The curve changes the boundary part of the first tangent, so it does not
+settle extension of a prescribed full first or second jet. Claim
+`AI-CONIC-POLYNOMIAL-CURVE-001` is written and unreviewed. The full
+M(10,10,11) target and a smaller exponent remain unconstructed.
+
 ## Mixed conic lifts through order four and a rational order-ten witness
 
 The [higher-jet proof](research/ai/2026-10-23-conic-higher-jets/proof.md)
@@ -12,8 +27,9 @@ rational acceptance programs contract the literal 4096-term source
 and check every moving-kernel coefficient, with leading ranks14,14,12.
 Claims `AI-CONIC-MIXED-FOURTH-JET-001` and
 `AI-CONIC-RATIONAL-TENTH-JET-002` are written and unreviewed. These are
-rank-twelve incidence jets; an all-order mixed curve, the full matrix
-target and a smaller exponent remain unconstructed here.
+rank-twelve incidence jets with specified lower coefficients. The separate
+polynomial curve above gives all-order existence after allowing boundary
+velocity to change; it does not preserve these specified lower jets.
 
 ## Third-order lifts on the mixed cubic conic component
 
@@ -27,9 +43,11 @@ leading minor determinants1,1,-1 give map row ranks14 and first-source
 rank12 throughout this chart. An earlier explicit rational point also
 has a separate standard-library replay. Claims
 `AI-CONIC-RATIONAL-THIRD-JET-001` and `AI-CONIC-MIXED-THIRD-JET-002`
-are written and unreviewed. The d=0 cubic fiber, fourth-order
-compatibility, an all-order lift and the full matrix target remain open.
+are written and unreviewed. The later packages above supply fourth-order
+lifts and all-order existence for the normal class, with their distinct
+lower-coefficient conditions. The full matrix target remains open.
 No smaller exponent is established.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
@@ -88,9 +106,9 @@ An exported polynomial two-jet on c=-d^3 passes direct all-source replay,
 including d=0, while its uncorrected third coefficient has184 nonzero
 entries. The other two factors admit exact linear incidence curves.
 Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
-`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. Later lifting,
-other projective base charts, the separate12-by8 problem and the full
-matrix target remain open. The exponent remains9/4.
+`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later polynomial-curve package completes all-order existence on
+the cubic component for a suitable first representative. Other projective
+base charts, the separate12-by8 problem and the full matrix target remain open. The exponent remains9/4.
 
 ## Finite cube bounds split-cover coordinate target volume
 
