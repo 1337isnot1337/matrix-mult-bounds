@@ -137,6 +137,13 @@ Status: open. Replace floating best-case ordering in a maintained search copy wi
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
 
+The maintained [convolution support recognizer](convolution_support.md) now
+handles arbitrary independent coordinate permutations with replayable
+bijections. Its relabeled C(3,4) control raises the certified block profile
+from the archived slice estimate 4 to 70/9. This is stronger recognition of
+an existing block, not a new degeneration or an improved exponent. The
+unchanged monomial searches and PR118 ranking work remain separate.
+
 ## R7: Whole-filtration entropy beyond the balanced obstruction
 
 Status: settled for the explicit upper certificate `U` by
