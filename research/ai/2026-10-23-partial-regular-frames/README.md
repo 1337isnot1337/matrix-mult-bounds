@@ -40,3 +40,5 @@ identification of the two target frames and a false rank108 exclusion.
 
 Finite controls do not formalize the all-order proof. Claims:
 `AI-PARTIAL-FRAME-REGULARITY-001`, `AI-A4-PARTIAL-FRAME-EXCLUSION-002`.
+
+Local regression at `7abe0c5227aa1c6d3ed4b76a2e0f19ec74f42d84` completed853 tests:850 passed and3 optional controls skipped. All five archive replays passed. Exact commit/tree and compressed logs are in the dated result directory. Final combined-head hosted CI remains separate.

@@ -1,0 +1,57 @@
+{
+  "coefficient_field": "F4",
+  "group": "SL(2,F5)",
+  "basis_rank": 120,
+  "original_group_coefficients_checked": 1728000,
+  "original_group_nonzero_coefficients": 1577,
+  "covers": [
+    {
+      "extra_C2": false,
+      "source_dimension": 120,
+      "slice_upper_bound": 98,
+      "nonzero_terms_covered": 1577
+    },
+    {
+      "extra_C2": true,
+      "source_dimension": 240,
+      "slice_upper_bound": 172,
+      "nonzero_terms_covered": 6308
+    }
+  ],
+  "extra_C2_cube": {
+    "power": 3,
+    "extra_C2": true,
+    "slice_upper_bound": 6155844,
+    "one_leg_coordinate_multiplicity_checked": 13824000,
+    "coordinate_classes": 22,
+    "class_triples_counted": 10648,
+    "blocks": [
+      {
+        "principal_factors": 0,
+        "word_multiplicity": 1,
+        "per_word_slices": 147456
+      },
+      {
+        "principal_factors": 1,
+        "word_multiplicity": 3,
+        "per_word_slices": 384768
+      },
+      {
+        "principal_factors": 2,
+        "word_multiplicity": 3,
+        "per_word_slices": 898096
+      },
+      {
+        "principal_factors": 3,
+        "word_multiplicity": 1,
+        "per_word_slices": 2159796
+      }
+    ],
+    "rectangular_volume_upper_bound": 2481,
+    "selected_target_volume": 2535,
+    "selected_cyclic_target_slice_rank": 6426225,
+    "strict_gap": 270381
+  },
+  "scope": "Explicit finite slice upper bounds only. Target exclusions require the stated field-transfer and finite target lower-bound proof.",
+  "exponent_improvement": false
+}

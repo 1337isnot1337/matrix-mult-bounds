@@ -1,0 +1,98 @@
+{
+  "head": "8168c3813dd7c57ab0b2a78084c19472425f3111",
+  "tree": "fb52e462617e97558616309ce8400d60d322c385",
+  "jobs": [
+    {
+      "name": "group-0",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 463.44274307321757
+    },
+    {
+      "name": "group-1",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 458.4954636991024
+    },
+    {
+      "name": "group-2",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 250.84766564471647
+    },
+    {
+      "name": "group-3",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 351.4013567212969
+    },
+    {
+      "name": "archive-replay",
+      "command": [
+        "/home/cinna/matrix-mult-continuation-20261021/.venv/bin/python",
+        "tools/replay.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 19.440334856975824
+    }
+  ],
+  "all_passed": true,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+  "logs": [
+    {
+      "path": "results/regular-unit-image-2026-10-23/group-0.log.gz",
+      "sha256": "33d2093ef517c03c2c6f8ef55ad731e4f7ec9cabe1b8ad82ef9c26721a8685bf"
+    },
+    {
+      "path": "results/regular-unit-image-2026-10-23/group-1.log.gz",
+      "sha256": "c778bc8e4463e2301c34d956726bc9eefa08eaf5e7e4eacee6cec4c115ff2d34"
+    },
+    {
+      "path": "results/regular-unit-image-2026-10-23/group-2.log.gz",
+      "sha256": "9924daf10899397a4e98923943b332570b8f74b64da445b6b12eff3e8faf104d"
+    },
+    {
+      "path": "results/regular-unit-image-2026-10-23/group-3.log.gz",
+      "sha256": "f8f4a99b7bc9159b6ee29cc62839e395acba3fcb69fdeeb9adfc4ad777bee37b"
+    },
+    {
+      "path": "results/regular-unit-image-2026-10-23/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba"
+    }
+  ],
+  "tests": 849,
+  "optional_skips": 3,
+  "passed": 846,
+  "archive_replay_count": 5,
+  "scope": "Full local regression of exact recorded commit and tree. No independent mathematical review; final metadata/log-only commit requires current hosted CI."
+}
