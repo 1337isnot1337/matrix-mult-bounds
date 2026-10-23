@@ -171,7 +171,7 @@ def verify(maximum_a=6, rank_controls=False):
         report["rank_controls"] = [
             verify_source_rank_mod2(a, p)
             for a in (2, 3)
-            for p in range(a)
+            for p in range(a + 1)
         ]
         if not all(item["full_column_rank"] for item in report["rank_controls"]):
             raise AssertionError(report["rank_controls"])

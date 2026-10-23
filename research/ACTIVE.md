@@ -1,13 +1,13 @@
 # Integrated research coordination
 
 The paired-long-leg continuation is on
-`research/paired-long-legs-20261023`. Its first result proves both long-leg
-Koszul maps injective for `0<=p<=a-1`, by exact interpolation and the
-full-spark evaluation basis. The 28 saved single-matrix survivors therefore
-are not excluded in that low-degree range. Higher exterior degrees remain
-the selected question. Modular source ranks are lower bounds, not complex
-source upper bounds. This is separate from active singular-unit,
-group-source and boundary work.
+`research/paired-long-legs-20261023`. Its written, unreviewed result proves
+both long-leg Koszul maps injective for `0<=p<=a`, by exact interpolation,
+the full-spark evaluation basis, and a two-block compatibility argument at
+`p=a`. The 28 saved single-matrix survivors therefore are not excluded in
+that range. Degrees `p>=a+1` remain the selected question. Modular source
+ranks are lower bounds, not complex source upper bounds. This is separate
+from active singular-unit, group-source and boundary work.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

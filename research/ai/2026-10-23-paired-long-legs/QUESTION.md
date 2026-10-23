@@ -21,14 +21,14 @@ lower bounds on complex source ranks, not usable source upper bounds for
 excluding a complex degeneration. A field-specific rank comparison alone
 will not be promoted to a complex obstruction.
 
-The first analytic step uses a full-spark interpolation basis on one
-convolution factor. Higher exterior degrees remain the main question.
-No claim of a smaller exponent is made.
+The analytic proof now reaches the first support threshold, `p=a`, using a
+full-spark interpolation basis and a two-block compatibility argument. The
+degrees `p>=a+1` remain the main question. No claim of a smaller exponent is
+made.
 
-## Checkpoint: low degrees
+## Checkpoint: through `p=a`
 
-The new [low-degree proof](long_leg_low_degrees.md) establishes full column
-rank on both long legs for `0<=p<=a-1`. This range cannot exclude any of the
-28 saved targets through `a=16`: their target ranks are bounded by the same
-source-domain dimensions. Continue with `p>=a`, starting at the first
-degrees where the interpolation support can contain more than `a` blocks.
+The [proof through the support threshold](long_leg_low_degrees.md) establishes
+full column rank on both long legs for `0<=p<=a`. This range cannot exclude
+any of the 28 saved targets through `a=16`: their target ranks are bounded
+by the same source-domain dimensions. Continue with `p>=a+1`.

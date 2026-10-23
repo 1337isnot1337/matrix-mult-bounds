@@ -38,7 +38,7 @@ class PairedLongLegTests(unittest.TestCase):
 
     def test_independent_source_rank_controls(self):
         for a in (2, 3):
-            for p in range(a):
+            for p in range(a + 1):
                 with self.subTest(a=a, p=p):
                     result = VERIFY.verify_source_rank_mod2(a, p)
                     self.assertTrue(result["full_column_rank"])

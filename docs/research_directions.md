@@ -27,9 +27,9 @@ tetrahedral scalar-repair models are also excluded; see the exact scope in
 the linked status notes before choosing new parameters.
 
 The paired-source long-leg continuation proves that both long-leg Koszul
-maps of `P_a` have full column rank through `p=a-1`. This closes only that
-low-degree part of the saved single-matrix screen; all higher exterior
-degrees remain open. See the [proof and exact controls](../research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md).
+maps of `P_a` have full column rank through `p=a`. This closes only that
+part of the saved single-matrix screen; degrees `p>=a+1` remain open. See
+the [proof and exact controls](../research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md).
 
 ## R1: Review the local sharpness theorem
 
