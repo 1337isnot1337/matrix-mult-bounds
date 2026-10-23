@@ -1,5 +1,19 @@
 # Research directions
 
+## October23: constrain both singular A4 long-map limits
+
+The [current rank-sum continuation](../research/ai/2026-10-23-long-leg-rank-obstruction/torus_rank_sum.md)
+adopts PR129's sharp rank23 source-space cap and continues PR113's
+regular residual. Every A4 to M(10,10,11) candidate needs rank at most101
+in each scalar-normalized long-map leading coefficient, and sum at most200.
+These conditions permit arbitrary finite poles in the other maps.
+They are necessary conditions, not constructions or a general exclusion.
+The remaining problem is lower-rank singular assembly with exact complete
+tensor identities. At sum200 the polar source-rank cap is24 and admits
+a twelve-dimensional source space. New structure is needed at that
+boundary. The exact adopted source and overlapping concurrent work keep
+their attribution. All stated proofs remain written and unreviewed.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

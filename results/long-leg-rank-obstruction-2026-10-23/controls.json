@@ -1,0 +1,513 @@
+{
+  "a4": {
+    "both_singular_long_limits_excluded": false,
+    "column_defect": 2,
+    "one_missing_long_column_margin": 0,
+    "rank_floor_margin": 1,
+    "row_defect": 2,
+    "source_minimum": 16,
+    "spanning_matrix_units": 100,
+    "target_spanning_rank": 11,
+    "target_unit_rank": 110,
+    "unit_image_threshold_required": false
+  },
+  "boundary_controls": {
+    "raw_constant_rank": 2,
+    "raw_laurent_generic_rank": 1,
+    "regularized_limit_rank": 1,
+    "without_full_row_target_slice": {
+      "column_defect": 0,
+      "degeneration_exists": true,
+      "has_full_row_target_slice": false,
+      "row_defect": 0,
+      "source_minimum": 2,
+      "target_spanning_rank": 1
+    }
+  },
+  "bounded_rank_spaces": [
+    {
+      "isotropic_dimension": 1,
+      "matrix_size": 2,
+      "maximum_rank": 1,
+      "sharp_space_dimension": 2,
+      "trace_pairing_dimension": 2
+    },
+    {
+      "isotropic_dimension": 3,
+      "matrix_size": 4,
+      "maximum_rank": 3,
+      "sharp_space_dimension": 12,
+      "trace_pairing_dimension": 6
+    },
+    {
+      "isotropic_dimension": 9,
+      "matrix_size": 10,
+      "maximum_rank": 9,
+      "sharp_space_dimension": 90,
+      "trace_pairing_dimension": 18
+    }
+  ],
+  "corank_one": {
+    "compressed_rank_one_lift_rank": 13,
+    "excludes_leading_rank_108": false,
+    "fixed_column_annihilator_dimension": 3,
+    "long_limit_rank": 109,
+    "maximum_first_map_rank": 4,
+    "maximum_kernel_residual_rank": 2,
+    "maximum_singular_matrix_space_dimension": 90,
+    "minimum_first_kernel_dimension": 96,
+    "minimum_unit_image_rank": 13,
+    "rank_one_source_lift_rank": 16,
+    "source_column_defect": 3
+  },
+  "improves_omega": false,
+  "minimum_slice_factorizations": [
+    {
+      "coherent_point": [
+        2,
+        1
+      ],
+      "common_row_frame_rank": 16,
+      "literal_coefficients_checked": 12544,
+      "source_rank": 16,
+      "u": [
+        1,
+        2,
+        -1,
+        1
+      ],
+      "v": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "coherent_point": [
+        2,
+        1
+      ],
+      "common_row_frame_rank": 16,
+      "literal_coefficients_checked": 12544,
+      "source_rank": 16,
+      "u": [
+        1,
+        2,
+        -1,
+        1
+      ],
+      "v": [
+        1,
+        -1,
+        2,
+        1
+      ]
+    },
+    {
+      "coherent_point": [
+        2,
+        1
+      ],
+      "common_row_frame_rank": 16,
+      "literal_coefficients_checked": 12544,
+      "source_rank": 16,
+      "u": [
+        1,
+        2,
+        -1,
+        1
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "normalized_leading_ranks": {
+    "boundary_is_construction": false,
+    "defect_one_pair_source_budget": 6,
+    "equality_rank_pairs": 13,
+    "excluded_by_strict_leading_pole_budget": 78,
+    "individual_rank_cap_from_corank_one_theorem": 108,
+    "maximum_remaining_rank_sum": 208,
+    "nonzero_leading_rank_pairs_checked": 12100
+  },
+  "proof_status": "proof-written-unreviewed",
+  "rank_losses": [
+    {
+      "column_defect": 0,
+      "residual_rank": 0,
+      "row_defect": 0,
+      "source_rank": 1,
+      "target_slice_rank": 1
+    },
+    {
+      "column_defect": 0,
+      "residual_rank": 1,
+      "row_defect": 1,
+      "source_rank": 2,
+      "target_slice_rank": 1
+    },
+    {
+      "column_defect": 1,
+      "residual_rank": 0,
+      "row_defect": 0,
+      "source_rank": 2,
+      "target_slice_rank": 1
+    },
+    {
+      "column_defect": 1,
+      "residual_rank": 1,
+      "row_defect": 1,
+      "source_rank": 3,
+      "target_slice_rank": 1
+    },
+    {
+      "column_defect": 2,
+      "residual_rank": 2,
+      "row_defect": 2,
+      "source_rank": 5,
+      "target_slice_rank": 1
+    },
+    {
+      "column_defect": 0,
+      "residual_rank": 0,
+      "row_defect": 0,
+      "source_rank": 2,
+      "target_slice_rank": 2
+    },
+    {
+      "column_defect": 0,
+      "residual_rank": 1,
+      "row_defect": 1,
+      "source_rank": 3,
+      "target_slice_rank": 2
+    },
+    {
+      "column_defect": 1,
+      "residual_rank": 0,
+      "row_defect": 0,
+      "source_rank": 3,
+      "target_slice_rank": 2
+    },
+    {
+      "column_defect": 1,
+      "residual_rank": 1,
+      "row_defect": 1,
+      "source_rank": 4,
+      "target_slice_rank": 2
+    },
+    {
+      "column_defect": 2,
+      "residual_rank": 2,
+      "row_defect": 2,
+      "source_rank": 6,
+      "target_slice_rank": 2
+    },
+    {
+      "column_defect": 0,
+      "residual_rank": 0,
+      "row_defect": 0,
+      "source_rank": 3,
+      "target_slice_rank": 3
+    },
+    {
+      "column_defect": 0,
+      "residual_rank": 1,
+      "row_defect": 1,
+      "source_rank": 4,
+      "target_slice_rank": 3
+    },
+    {
+      "column_defect": 1,
+      "residual_rank": 0,
+      "row_defect": 0,
+      "source_rank": 4,
+      "target_slice_rank": 3
+    },
+    {
+      "column_defect": 1,
+      "residual_rank": 1,
+      "row_defect": 1,
+      "source_rank": 5,
+      "target_slice_rank": 3
+    },
+    {
+      "column_defect": 2,
+      "residual_rank": 2,
+      "row_defect": 2,
+      "source_rank": 7,
+      "target_slice_rank": 3
+    }
+  ],
+  "residuals": [
+    {
+      "generic_residual_rank": 0,
+      "limiting_residual_rank": 0,
+      "limiting_unit_image_rank": 1,
+      "maximum_pole_order": 2,
+      "row_defect": 0,
+      "target_rows": 3
+    },
+    {
+      "generic_residual_rank": 0,
+      "limiting_residual_rank": 0,
+      "limiting_unit_image_rank": 0,
+      "maximum_pole_order": 3,
+      "row_defect": 0,
+      "target_rows": 3
+    },
+    {
+      "generic_residual_rank": 1,
+      "limiting_residual_rank": 1,
+      "limiting_unit_image_rank": 1,
+      "maximum_pole_order": 2,
+      "row_defect": 1,
+      "target_rows": 3
+    },
+    {
+      "generic_residual_rank": 1,
+      "limiting_residual_rank": 1,
+      "limiting_unit_image_rank": 0,
+      "maximum_pole_order": 3,
+      "row_defect": 1,
+      "target_rows": 3
+    },
+    {
+      "generic_residual_rank": 2,
+      "limiting_residual_rank": 2,
+      "limiting_unit_image_rank": 1,
+      "maximum_pole_order": 2,
+      "row_defect": 2,
+      "target_rows": 3
+    },
+    {
+      "generic_residual_rank": 2,
+      "limiting_residual_rank": 2,
+      "limiting_unit_image_rank": 0,
+      "maximum_pole_order": 3,
+      "row_defect": 2,
+      "target_rows": 3
+    },
+    {
+      "generic_residual_rank": 0,
+      "limiting_residual_rank": 0,
+      "limiting_unit_image_rank": 1,
+      "maximum_pole_order": 3,
+      "row_defect": 0,
+      "target_rows": 4
+    },
+    {
+      "generic_residual_rank": 0,
+      "limiting_residual_rank": 0,
+      "limiting_unit_image_rank": 0,
+      "maximum_pole_order": 4,
+      "row_defect": 0,
+      "target_rows": 4
+    },
+    {
+      "generic_residual_rank": 1,
+      "limiting_residual_rank": 1,
+      "limiting_unit_image_rank": 1,
+      "maximum_pole_order": 3,
+      "row_defect": 1,
+      "target_rows": 4
+    },
+    {
+      "generic_residual_rank": 1,
+      "limiting_residual_rank": 1,
+      "limiting_unit_image_rank": 0,
+      "maximum_pole_order": 4,
+      "row_defect": 1,
+      "target_rows": 4
+    },
+    {
+      "generic_residual_rank": 2,
+      "limiting_residual_rank": 2,
+      "limiting_unit_image_rank": 1,
+      "maximum_pole_order": 3,
+      "row_defect": 2,
+      "target_rows": 4
+    },
+    {
+      "generic_residual_rank": 2,
+      "limiting_residual_rank": 2,
+      "limiting_unit_image_rank": 0,
+      "maximum_pole_order": 4,
+      "row_defect": 2,
+      "target_rows": 4
+    }
+  ],
+  "row_space_intersections": [
+    {
+      "common_sextic_space_dimension": 1,
+      "cubic_count": 2
+    },
+    {
+      "common_sextic_space_dimension": 0,
+      "cubic_count": 3
+    },
+    {
+      "common_row_space_dimension": 0,
+      "distinct_middle_lines": 2
+    }
+  ],
+  "scalar_normalization": [
+    {
+      "initial_valuation": -7,
+      "normalized_valuation": 0,
+      "product_preserved": true
+    },
+    {
+      "initial_valuation": -1,
+      "normalized_valuation": 0,
+      "product_preserved": true
+    },
+    {
+      "initial_valuation": 0,
+      "normalized_valuation": 0,
+      "product_preserved": true
+    },
+    {
+      "initial_valuation": 3,
+      "normalized_valuation": 0,
+      "product_preserved": true
+    },
+    {
+      "initial_valuation": 11,
+      "normalized_valuation": 0,
+      "product_preserved": true
+    }
+  ],
+  "scope": "Exact finite matrix controls for a written all-order argument.",
+  "sextic_divisors": {
+    "integer_coefficients": [
+      [
+        1,
+        6,
+        11,
+        6
+      ],
+      [
+        1,
+        7,
+        14,
+        8
+      ],
+      [
+        1,
+        8,
+        17,
+        10
+      ],
+      [
+        1,
+        9,
+        20,
+        12
+      ],
+      [
+        1,
+        8,
+        19,
+        12
+      ],
+      [
+        1,
+        9,
+        23,
+        15
+      ],
+      [
+        1,
+        10,
+        27,
+        18
+      ],
+      [
+        1,
+        10,
+        29,
+        20
+      ],
+      [
+        1,
+        11,
+        34,
+        24
+      ],
+      [
+        1,
+        12,
+        41,
+        30
+      ],
+      [
+        1,
+        9,
+        26,
+        24
+      ],
+      [
+        1,
+        10,
+        31,
+        30
+      ],
+      [
+        1,
+        11,
+        36,
+        36
+      ],
+      [
+        1,
+        11,
+        38,
+        40
+      ],
+      [
+        1,
+        12,
+        44,
+        48
+      ],
+      [
+        1,
+        13,
+        52,
+        60
+      ],
+      [
+        1,
+        12,
+        47,
+        60
+      ],
+      [
+        1,
+        13,
+        54,
+        72
+      ],
+      [
+        1,
+        14,
+        63,
+        90
+      ],
+      [
+        1,
+        15,
+        74,
+        120
+      ]
+    ],
+    "linear_factors": 6,
+    "projective_cubic_divisors": 20
+  },
+  "source_pin_count": 4
+}

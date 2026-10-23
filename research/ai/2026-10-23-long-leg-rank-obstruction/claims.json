@@ -1,0 +1,38 @@
+[
+  {
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "status": "proof-written-unreviewed",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "id": "AI-A4-CORANK-ONE-LONG-001",
+    "title": "A4 Laurent exclusion with a regular long-map limit of rank at least109",
+    "evidence": "research/ai/2026-10-23-long-leg-rank-obstruction/corank_one.md",
+    "statement": "There is no complex formal Laurent degeneration A4 to M(10,10,11) with either long map regular and of rank at least109 at zero. Arbitrary finite poles in the other maps are allowed. At rank109, the regular kernel residual forces each nonzero leading lift of a target rank-one matrix to be a source rank16 slice whose kernel lies in the fixed109-dimensional column image. Common row vectors force all those lifts into one four-dimensional source ruling. The leading first-map kernel then contains an invertible10-by10 matrix, contradicting the rank-at-most-two residual.",
+    "dependencies": [
+      "Prior source minimum16 and complete minimum-rank locus classification",
+      "Concurrent PR113 regular kernel residual, rederived with credit in proof.md",
+      "Binary-form divisibility and irreducibility of the rank-one parameter variety",
+      "Self-contained square bounded-rank-subspace dimension proof"
+    ],
+    "limitations": "Leading rank at most108 on both scalar-normalized long maps remains open. No general A4 degeneration exclusion, independent review, formalization or exponent improvement."
+  },
+  {
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "status": "proof-written-unreviewed",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "id": "AI-A4-NORMALIZED-LONG-RANK-SUM-002",
+    "title": "Necessary sum bound for scalar-normalized A4 long-map leading ranks",
+    "evidence": "research/ai/2026-10-23-long-leg-rank-obstruction/proof.md",
+    "section": "Simultaneously normalized long-map ranks",
+    "statement": "For any remaining A4 to M(10,10,11) Laurent degeneration, independently divide each long map by the smallest valuation of its nonzero entries and compensate in the first map. The two nonzero leading ranks r_B,r_C must satisfy r_B+r_C<=208. If their sum is larger, a leading first-map pole would have source slice rank below16; without a first-map pole target conciseness forces an already excluded ordinary restriction. The rank109 theorem also requires each rank to be at most108.",
+    "dependencies": [
+      "Prior all-source minimum rank16 and ordinary A4 exclusion",
+      "Elementary rank loss under two-sided projection",
+      "Independent scalar valuation normalization"
+    ],
+    "limitations": "These are necessary conditions on the stated scalar normalization. Equality at208 and lower-rank pairs are not constructed or generally excluded. Singular basis changes are not treated as rank-preserving gauges. No exponent improvement."
+  }
+]

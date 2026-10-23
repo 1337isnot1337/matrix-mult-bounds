@@ -1,0 +1,53 @@
+{
+  "base_commit": "ccd0d6a94ea3b6dd1309c1ad4b96189a64a1e5e0",
+  "field": "C",
+  "external_theorems_added": false,
+  "adopted_source_cap": {
+    "pr": 129,
+    "commit": "9eca895e3618ad1f560e0565dc30134478e88da8",
+    "path": "research/ai/2026-10-23-torus-low-rank/proof.md",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/9eca895e3618ad1f560e0565dc30134478e88da8/research/ai/2026-10-23-torus-low-rank/proof.md",
+    "local_copy": "research/ai/2026-10-23-long-leg-rank-obstruction/adopted/pr129_torus_low_rank_proof.md.txt",
+    "sha256": "36a9b1a2e1e79c342087bd424ad462200154508b2743b2477f5121afd96930ad",
+    "git_blob_sha": "0143933a0ab7ae4259a5be62653fd1465d7c107e",
+    "claim": "AI-A4-LOW-RANK-SPACE-CAP-001",
+    "scope": "All complex linear source spaces with every A4 slice rank at most23 have dimension at most8. The source proof and matching minors retain PR129 credit."
+  },
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-23-long-leg-rank-obstruction/proof.md",
+      "sha256": "922da9dc81f91b36773e119ee5ccc0a7332bce2cee2951123ae371bf4c491c4b"
+    },
+    {
+      "path": "research/ai/2026-10-23-long-leg-rank-obstruction/corank_one.md",
+      "sha256": "14a6fcca84dec020f11fdceaa0b9185130680976330499744dca46e7e9f02724"
+    }
+  ],
+  "regular_kernel_predecessor": {
+    "pr": 113,
+    "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/113"
+  },
+  "concurrent_work": [
+    {
+      "pr": 125,
+      "commit": "fc0a139ef447a4d8640f0fdf1781836ea7fa868a",
+      "scope": "Rank106 exclusion by shared-correction target rulings."
+    },
+    {
+      "pr": 132,
+      "commit": "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+      "scope": "Rank106 exclusion through rank-one preservers; overlaps this package independent continuation."
+    },
+    {
+      "pr": 142,
+      "commit": "036671f072123569bd764808ff57d18128ff11d0",
+      "scope": "Exact rank20 biform locus, sharp dimension8 cap, and rank105 application."
+    }
+  ],
+  "attribution": "Owner-directed OpenAI Codex continuation. The sole new theorem claim in this additive checkpoint is the normalized rank-sum<=200 deduction from the credited PR129 source cap. Prior source minimum, unit-kernel correction, individual thresholds and source minors remain credited. Written and unreviewed; no independent review or exponent improvement."
+}
