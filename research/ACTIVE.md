@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The October 23 singular-long-rank continuation is in
+`ai/2026-10-23-singular-long-rank/proof.md` on
+`research/a4-singular-long-rank-20261023`. It excludes a scalar-balanced
+long-map rank of 106 or higher, without restrictions on the other
+Laurent poles or the target-unit lift. The regular kernel correction
+is credited to PR113; the new step combines the source rank gap with
+injectivity on an active target ruling. Four focused tests pass.
+The boundary at rank105 reaches actual rank20 source slices and remains
+open. Full regression and archive replay are required before this
+submission is ready to merge. The claim remains written and unreviewed.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

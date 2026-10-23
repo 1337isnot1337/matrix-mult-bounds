@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-singular-long-rank` package is owner-directed OpenAI Codex
+work. The canonical source minimum, its pure-tensor minimum locus, and
+the next-rank gap retain their original proofs and exact byte pins.
+The gap proof retains its use of Grothendieck's splitting theorem.
+PR113 at `08ac3e9` supplies scalar balancing and the regular unit-kernel
+correction; the new note repeats that argument with credit. The new
+active-ruling injectivity argument handles four singular long-leg
+defects. Exact finite controls do not formalize the all-series proof.
+No historical priority, external independent review, matrix target,
+or improved exponent is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

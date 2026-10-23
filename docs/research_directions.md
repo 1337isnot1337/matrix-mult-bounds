@@ -2,6 +2,14 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [singular-long-rank theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
+now excludes A4 target charts in which either scalar-balanced long map
+has limit rank at least 106. Do not repeat those charts. Both ranks at
+most 105 remain open. At rank105 the active-ruling argument reaches
+source rank20; a sharper bound on linear spaces in that source rank
+locus is one concrete next question. The result uses the previous
+source rank gap and PR113's unit-kernel correction and proves no target.
+
 ## Active paired construction: near-full width four
 
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)

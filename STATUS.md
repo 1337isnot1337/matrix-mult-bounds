@@ -1,5 +1,21 @@
 # Research status
 
+## A4 long-map limits must lose at least five ranks
+
+The [singular-long-rank proof](research/ai/2026-10-23-singular-long-rank/proof.md)
+excludes A4 to M(10,10,11) whenever either scalar-balanced long map has
+limiting rank at least 106. Both other maps can have arbitrary finite
+Laurent poles; no hypothesis on the target-unit lift is needed. The
+regular kernel correction credited to PR113 combines with the existing
+source rank gap: an active target ruling would inject ten dimensions
+into the source's minimum-rank cone, which cannot contain that linear
+space. Claim `AI-A4-SINGULAR-LONG-RANK-001` is written and unreviewed.
+Exact controls check eight literal source slices, including a rank-20
+boundary witness, and the strict singular-column and ruling budgets.
+The remaining candidates have both balanced long ranks at most 105.
+This supersedes the regular-unit hypotheses in the earlier scoped
+exclusions below. No matrix target or smaller exponent is established.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
