@@ -59,11 +59,32 @@ def source_report(a, b):
                 rows.append({"shape": shape, "leg_dimensions": [l*h, h*n, n*l],
                              "volume": l*h*n, "excluded": witness is not None,
                              "witness": witness})
+    survivors = [row["shape"] for row in rows if not row["excluded"]]
     return {"source": [a, b], "source_leg_dimension": size,
             "improving_shapes": len(rows),
             "excluded_shapes": sum(row["excluded"] for row in rows),
-            "survivors": [row["shape"] for row in rows if not row["excluded"]],
+            "survivors": survivors,
+            "survivor_higher_rank_constraints": [
+                higher_rank_constraint(a, b, shape) for shape in survivors
+            ],
             "records": rows}
+
+
+def higher_rank_constraint(a, b, shape):
+    """Elementary source-rank bound, without a Segre-image dimension claim."""
+    r = min(a, b)-1
+    orientations = []
+    for x, y, z in [shape, shape[1:]+shape[:1], shape[2:]+shape[:2]]:
+        loss = 2*a*b*(a+b-1)-z*(x+y)
+        k = min(x, y, max(0, ((r+1)*a*b-1-loss)//z))
+        orientations.append({"matrix_parameter_dimensions": [x, y],
+                             "slice_rank_multiplier": z, "long_leg_loss": loss,
+                             "maximum_parameter_rank": k,
+                             "lift_rank_upper_bound": k*z+loss,
+                             "strict_source_rank_threshold": (r+1)*a*b,
+                             "hankel_rank_upper_bound": r})
+    return {"shape": shape, "orientations": orientations,
+            "stronger_global_dimension_bound_proved": False}
 
 
 def report():

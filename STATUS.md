@@ -12,7 +12,10 @@ orientation and rank/dimension witness; independent interval enumeration
 and certificate replay pass. Claim `AI-UNBALANCED-RECTANGULAR-FRONTIER-001`
 is a written, unreviewed finite application of the credited prior proofs.
 Rectangular direct sums and singular degenerations remain outside the
-screen. No target or smaller exponent is established.
+screen. The nonsquare survivors additionally require all rank-three
+first parameters in selected orientations to have Hankel rank at most7;
+M30 has the analogous rank-two constraint. A global symbol-dimension
+consequence remains open. No target or smaller exponent is established.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 

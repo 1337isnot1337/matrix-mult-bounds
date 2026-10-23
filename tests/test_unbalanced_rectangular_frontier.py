@@ -117,6 +117,23 @@ class UnbalancedRectangularFrontierTests(unittest.TestCase):
                 self.assertEqual(hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest(),
                                  row["sha256"], row["path"])
 
+    def test_higher_rank_input_constraints_and_exact_thresholds(self):
+        source = next(row for row in self.saved["sources"] if row["source"] == [8, 9])
+        self.assertEqual([row["orientations"][0]["maximum_parameter_rank"]
+                          for row in source["survivor_higher_rank_constraints"]], [3, 3, 2])
+        for constraint in source["survivor_higher_rank_constraints"]:
+            self.assertFalse(constraint["stronger_global_dimension_bound_proved"])
+            for orientation in constraint["orientations"]:
+                x, y = orientation["matrix_parameter_dimensions"]
+                z = orientation["slice_rank_multiplier"]
+                k = orientation["maximum_parameter_rank"]
+                loss = 2304-z*(x+y)
+                self.assertEqual(loss, orientation["long_leg_loss"])
+                self.assertEqual(orientation["lift_rank_upper_bound"], z*k+loss)
+                self.assertLess(z*k+loss, 576)
+                self.assertGreaterEqual(z*(k+1)+loss, 576)
+                self.assertEqual(orientation["hankel_rank_upper_bound"], 7)
+
 
 if __name__ == "__main__":
     unittest.main()

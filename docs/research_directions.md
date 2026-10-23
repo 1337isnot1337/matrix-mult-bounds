@@ -310,3 +310,9 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+For the three A(8,9) survivors, use the stronger recorded input-rank
+constraints: rank at most three in selected nonsquare first-parameter
+spaces, or rank at most two for M30, must map to Hankel rank at most7.
+Determine the resulting symbol-image dimension using these determinantal
+input varieties. No such stronger dimension theorem is currently proved.

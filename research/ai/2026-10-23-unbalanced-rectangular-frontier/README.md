@@ -102,3 +102,35 @@ less than34. Increasing the rank parameter without a new theorem is
 invalid. This screen leaves a=1, N>1377, rectangular direct sums, source
 powers and general singular degenerations outside its scope. Every
 historical report and both archived research directories are unchanged.
+
+## Stronger input-rank constraints for the surviving formats
+
+The same source-rank inequality gives more information than the rank-one
+Segre screen. A parameter matrix of rank k in M(x,y,z) has slice rank zk:
+up to basis order its slice is the Kronecker product of that matrix with
+the z-by-z identity. Put L=2N-z(x+y). The ordinary lift has rank at most
+zk+L. Consequently
+
+    zk+L < (r+1)ab
+
+forces Hankel symbol rank at most r for **every parameter matrix of rank
+at most k**. This statement uses only the adopted polynomial rank bound,
+not the linear-annihilator Segre theorem. It retains no hypothesis5r<2(a+b).
+No new Hankel image-dimension theorem is inferred from it.
+
+For A(8,9), take r=7, so the strict source threshold is576:
+
+| Target, selected first-parameter format | L | k | zk+L |
+| --- | ---: | ---: | ---: |
+| M(28,31,31), 28-by-31 | 475 | 3 | 568 |
+| M(29,30,31), 29-by-30 | 475 | 3 | 568 |
+| M30, 30-by-30 | 504 | 2 | 564 |
+
+The report retains every orientation and the largest integer k certified
+by this strict inequality, capped by the parameter matrix dimensions.
+An orientation recording k=0 gives only the zero-parameter condition.
+For these targets the displayed k are strictly below the matrix sizes;
+the next parameter rank fails the same rank-seven threshold. This is a
+stronger necessary constraint on the maps. Whether the rank-three or
+rank-two determinantal input variety forces an adequate global symbol
+dimension bound remains open; none of the three formats is excluded here.
