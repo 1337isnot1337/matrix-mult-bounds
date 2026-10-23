@@ -1,0 +1,41 @@
+{
+  "schema": "resolvent-minrank-sources-v1",
+  "research_base_commit": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "commit": "39378de556b9ea1d6e32ae409319de7d6c92d3e0",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+      "scope": "Sections 2-3: literal cyclic source and minimum ordinary slice rank a^2 over every field.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/39378de556b9ea1d6e32ae409319de7d6c92d3e0/research/ai/2026-10-20-koszul/cyclic_finite_target.md"
+    },
+    {
+      "path": "research/ai/2026-10-21-cyclic-slice-determinants/proof.md",
+      "commit": "39378de556b9ea1d6e32ae409319de7d6c92d3e0",
+      "sha256": "4152e85c2ecf9e92da372818336d301e5b7ac634ae1b48ac979fb4430025404c",
+      "scope": "The source unit F*(i,k,s)=1 for i+s=3 and k=3 is unimodular. Its a=4 outer factor is reconstructed here.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/39378de556b9ea1d6e32ae409319de7d6c92d3e0/research/ai/2026-10-21-cyclic-slice-determinants/proof.md"
+    }
+  ],
+  "prior_pull_request": {
+    "number": 103,
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/103",
+    "inspected_commit": "96f3b513acb1bc92a235dd9041ceae18b0fd4c83",
+    "path": "research/ai/2026-10-21-singular-unit-resolvent/proof.md",
+    "git_blob_sha": "fc6635c53c40f2f41f44fbdc45ed0eb3854e1f22",
+    "sha256": "88b9b91dbf4c2d5d29d6e78c3e2e60132b41e0b846fe244fef55b5b33d1ac778",
+    "immutable_url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/96f3b513acb1bc92a235dd9041ceae18b0fd4c83/research/ai/2026-10-21-singular-unit-resolvent/proof.md",
+    "adopted_scope": "The fixed rank-sixteen square-zero source coordinate N, its high/low limiting generators, and the conditional invariant-subspace target obstruction.",
+    "runtime_dependency": false
+  },
+  "source_formulas": {
+    "field": "Every field for the finite matrix-rank result; C for the written Laurent application.",
+    "full_source": "M(F)[(j,p,L),(H,q,r)]=F[H-j,p+q,L-r]; j,p,q,r in 0..3 and H,L in 0..6; unavailable short indices give zero.",
+    "unit": "F*[i,k,s]=1 exactly when i+s=3 and k=3.",
+    "outer_source": "S(f)[(j,L),(H,r)]=f[H-j,L-r], in lexicographic row and column orders.",
+    "normalized_source": "G(f)=S(f*)^-1 S(f), f*[i,s]=1 exactly when i+s=3; H(F)=sum_k J_k tensor G(f_k), J_k[q',q]=1 exactly when q'=q+3-k.",
+    "limiting_space": "W=span({NH(F):f_k=0 for k<3},{H(G):g_k=0 for k>=3},I112), with N=E_(3,0) tensor G(e00)."
+  },
+  "external_theorems": "No new external theorem is imported. The rank-loss and finite block arguments are proved in proof.md. Prior source conventions and the scoped PR103 application retain their original credits.",
+  "contribution": "Owner-directed OpenAI Codex work. The exact thirty-one-minor certificate, sharp matrix-rank result, and compression alignment are local continuations. No historical priority, independent mathematical review, formalization, or exponent improvement is claimed."
+}
