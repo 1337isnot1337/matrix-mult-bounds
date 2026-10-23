@@ -18,6 +18,17 @@ For the stated paired maps and near-full target M(l,h,r), this gives
     g_B = (r-m+1-2D-m*e_B)_+,
     g_C = (l-m+1-2D-m*e_C)_+.
 
+The [border-rank follow-up](rank_margin.md) sharpens the auxiliary tensor
+cost when the good contraction subspace is nonzero. If its dimension is
+d>=1 and its generic channel rank is at most rho<h, then
+
+    border_rank(R) >= d+h-rho-1.
+
+The first-flattening lower bound remains d. In the paired application,
+one may use `d=(l*r-n^2+g_B*g_C)_+` and `rho=a*b`, provided d>=1.
+For d=0 this argument supplies no additional bound. At fixed h the extra
+term is constant, so the asymptotic conclusion below is unchanged.
+
 Here l,r<=n; m is the source width; h>=2 is the target width; D is the
 stencil half-width; and e_B,e_C count exceptional source columns.
 The precise common window/profile hypothesis is in the proof. Ranks
@@ -49,7 +60,26 @@ first flattening has rank two. Removing one auxiliary direction causes
 the required channel-rank condition to fail. Another control exhibits
 the invalid raw-constant-coefficient shortcut explicitly.
 
-Both claims remain written and unreviewed. The generating session's
-separate proof check is not independent mathematical review or a proof
-assistant build. Prior ordinary factorizations retain credit and are
-pinned in [sources.json](sources.json); they are not runtime dependencies.
+The refinement has six additional controls:
+
+```sh
+python -S research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py --output results/laurent-channel-barrier-2026-10-23/rank-margin-controls.json
+python -m unittest discover -s tests -p test_laurent_rank_margin.py -v
+```
+
+They verify a full rank-one channel encoding, sharp one-dimensional
+examples whose source and auxiliary poles cancel, and the strict
+parameter-order choice needed for auxiliary border approximations.
+The paired control separates a first-flattening lower bound 16 from a
+border-rank lower bound 18. The
+[original validation receipt](../../../results/laurent-channel-barrier-2026-10-23/VALIDATION.md)
+records 904 passed tests and all five archive replays at the preceding
+proof tree. The follow-up receipt states its own coverage.
+
+All three claims remain written and unreviewed. The generating session's
+proof checks are not independent mathematical review or a proof assistant
+build. Prior ordinary factorizations retain credit and are pinned in
+[sources.json](sources.json); they are not runtime dependencies. The
+standard substitution method, rank-one-curve description of border rank,
+and exact preceding-file dependencies are attributed in
+[rank-margin-sources.json](rank-margin-sources.json).
