@@ -1,0 +1,53 @@
+{
+  "status": "passed_combined_exact_coverage_with_rectangular_delta",
+  "baseline_commit": "7792abbf2e414b9f7876fa85d95a8b684174a4a9",
+  "baseline_tree": "9d9a6948f114a2f7098921caae84ce0bd63a5d3f",
+  "prior_receipt": "../validation/costgate_delta_report.json",
+  "prior_receipt_sha256": "73c07a6d89c83e557eacc866f5d615b8939e2e32189e0ece95066d6bc425b4df",
+  "prior_discovered_id_hash_verified": "39f0c3190a6c81b79aa540f0586c92c2a03b37f5894484a063006240f7131517",
+  "existing_source_changes": [],
+  "changed_existing_metadata": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "research/ai/2026-10-23-aggregation-families/README.md",
+    "research/claims.json"
+  ],
+  "retained_unchanged_tests": 907,
+  "fresh_test_ids": [
+    "test_aggregation_rectangular.AggregationRectangularTests.test_balanced_specialization_and_boundary",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_complete_saved_shape_certificate",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_full_and_restricted_local_product_spaces",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_incomplete_or_understated_certificate_rejected",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_individual_capacities_are_not_omitted",
+    "test_research.RepositoryTests.test_claim_ledger_status",
+    "test_research.RepositoryTests.test_relative_markdown_links"
+  ],
+  "new_test_ids": [
+    "test_aggregation_rectangular.AggregationRectangularTests.test_balanced_specialization_and_boundary",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_complete_saved_shape_certificate",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_full_and_restricted_local_product_spaces",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_incomplete_or_understated_certificate_rejected",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_individual_capacities_are_not_omitted"
+  ],
+  "expected_tests": 914,
+  "covered_tests": 914,
+  "coverage_union_equals_final_discovery": true,
+  "coverage_sets_pairwise_disjoint": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped_tests": 0,
+  "focused_runtime_seconds": 0.178319,
+  "full_monolithic_run_claimed": false,
+  "archived_replays": "The five passed replays in the prior receipt are retained; no archived or replay source changed",
+  "scope": "907 unchanged prior test IDs plus five new rectangular tests and two rerun metadata tests cover all 914 discovered cases. No baseline implementation, test source, construction witness, or archived file changed. This is combined coverage, not a fresh monolithic run.",
+  "file_sha256": {
+    "research/ai/2026-10-23-aggregation-families/rectangular/README.md": "4d987ac856e9e288f9d98b981c7a4888632a86ef295081b2ab3fdfe020b8e892",
+    "research/ai/2026-10-23-aggregation-families/rectangular/proof.md": "6b95ed640a33081e51714b296b7ee2a6a90a1e688836e887d173df71a8e0e32f",
+    "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json": "121221ed0ab8d3541a35725ad4e348bb34738f1dbfb2910dd0cb8f9063a1d3bb",
+    "research/ai/2026-10-23-aggregation-families/rectangular/verify.py": "e822185a089342b5fcb8231bf17ac9f0bb9c301993481eea802a36179cd16914",
+    "research/ai/2026-10-23-aggregation-families/rectangular/validate.py": "544d6a5873f464f3ee5875221ef5b53fba90cf2eebe4338e87337a8d492421c5",
+    "tests/test_aggregation_rectangular.py": "56f2dd18aead545d603c1275bcf3a05656b683a102e9e862c4eaa73c13ec1fd9",
+    "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log": "b7d62739621f341a80c61e43d1a7012de1f3533b27c8aa8a761a9c8422d18378"
+  },
+  "independent_mathematical_review": false
+}

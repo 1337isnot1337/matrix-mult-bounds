@@ -1035,3 +1035,15 @@ extends the excluded range from N<=7 to N<=10. It makes no claim about
 optimal tensor rank. No historical
 priority, independent mathematical review, formalization or exponent
 improvement is claimed for these additions.
+
+## Rectangular aggregation and fixed-grid rigidity
+
+The continuation in `research/ai/2026-10-23-aggregation-families/rectangular/`
+is owner-directed Codex work. It extends the local induced-edge budget
+argument to fixed unequal ordered part sizes and arbitrary coordinate
+dimensions, and proves independence of the fixed grid forms when one
+target fills the centered spaces. The centering, correction and graded
+unequal-shape framework remains attributed to Solomonik and Blaeser,
+arXiv:2610.26563v2, Sections 5-6 and Appendix D. The finite rational
+checks are implementation and hypothesis controls. No historical
+priority, independent mathematical review or formalization is claimed.

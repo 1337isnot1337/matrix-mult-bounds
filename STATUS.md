@@ -2362,3 +2362,20 @@ model, not sufficient. This is not a lower bound on tensor rank;
 cheaper aggregate decompositions and other
 constructions remain outside its scope. Claim: AI-AGGREGATION-COST-FLOOR-003.
 Both new proofs are written and unreviewed, with no exponent improvement.
+
+## October 23: rectangular complete-grid limits and a pruning escape
+
+The [rectangular continuation](research/ai/2026-10-23-aggregation-families/rectangular/proof.md)
+extends the displayed-budget exclusion to every fixed ordered part shape
+on at most 32 coordinates. Target dimensions can differ between
+coordinates and between products. The exact induced-edge certificate
+checks every shape, with dimension 33 as a non-exclusion control.
+A second proof shows that one target filling all centered coordinate
+spaces of dimensions at least two forces every coefficient of the fixed
+leading grid forms. Reweighting those forms cannot remove a position,
+even in a Laurent degeneration. These results concern the complete-grid
+budget and fixed forms. They do not bound optimal tensor rank. Mixed
+graded shapes, smaller targets with a pruned grid, and new linear forms
+remain separate possibilities. Claims AI-AGGREGATION-RECTANGULAR-GATE-004
+and AI-AGGREGATION-FIXED-GRID-005 are written and unreviewed; no exponent
+improvement is established.
