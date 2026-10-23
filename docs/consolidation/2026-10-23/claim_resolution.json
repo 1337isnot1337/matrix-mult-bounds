@@ -7168,14 +7168,15 @@
     {
       "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
       "original_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
-      "record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "record_sha256": "41333ed31f058a3fdfe512b8c3671179bf91311918662216bfcff3643ab7747e",
       "source_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
       "source_branch": "research/oblique-residual-koszul-01a1697a",
       "source_sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
       "original_evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
       "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
       "path_or_id_replacements": [],
-      "original_evidence_verified": true
+      "original_evidence_verified": true,
+      "intentional_correction": "scope_correction_addendum"
     },
     {
       "id": "AI-OBLIQUE-SLICE-STRATA-001",
@@ -11797,5 +11798,106 @@
     ],
     "previous_report": "resolution_report.pre_closure.json",
     "repository_mutations": false
+  },
+  "scope_correction_addendum": {
+    "base_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+    "base_tree": "2112d3625dd33aae4df4f7c9cfd5af3eb8d764e9",
+    "claim_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+    "changed_fields": [
+      "statement"
+    ],
+    "reason": "The proof gives a lower bound for every first map and an attaining supplied first map. The old ledger sentence incorrectly asserted equality for every first map.",
+    "before_sentence": "The supplied oblique long maps force the first residual rank r^2-b^2 for every first map.",
+    "after_sentence": "The supplied oblique long maps force first residual rank at least r^2-b^2 for every first map, and the supplied first map attains equality.",
+    "before_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+    "after_record_sha256": "41333ed31f058a3fdfe512b8c3671179bf91311918662216bfcff3643ab7747e",
+    "before_record": {
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "title": "Integer oblique paired maps with an explicit nineteen-scalar repair",
+      "section": "1-4,6",
+      "statement": "Over every field, explicit integer local maps give Q(n,b) to M(n-1,4,n-1)-E for b>=2 and n>=b+1. With r=n-1 and d=r-b>0, the actual residual has exact flattening ranks (r^2-b^2,2r+d,2r+d) and an explicit scalar decomposition with 4*r*d terms. When d=0 the residual vanishes. When d=1, two binary-convolution cores improve the decomposition to 4*r-1 terms. In particular Q(6,4) direct sum D_19 restricts to M(5,4,5), with residual ranks (9,11,11) and three support-piece ranks (4,2,8),(4,8,2),(1,4,4). The supplied oblique long maps force the first residual rank r^2-b^2 for every first map. Complete rational source contractions, scalar-term replays and support factorizations accompany both finite witnesses and family controls.",
+      "dependencies": [
+        "Existing exact product-injection template and paired polynomial source convention",
+        "Existing equal-weight product projection and mixed-middle construction records, pinned in sources.json",
+        "Explicit integer oblique decoder, coefficient identity, concise-support minors and elementary rank-three binary-convolution identities",
+        "Pinned pending PR130 residual-support-rank envelope used solely for cost comparison"
+      ],
+      "limitations": "No optimal scalar rank, historical priority, independent mathematical review, formalization or achieved exponent improvement is claimed. The fixed-width family has quadratic first support and does not meet the asymptotic repair criterion. The n=6 finite source gate fails even with zero residual. The fixed-map optimum concerns the supplied long maps only. The coordinate-omission count concerns coordinate decoders for the stated polynomial space only."
+    },
+    "after_record": {
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "title": "Integer oblique paired maps with an explicit nineteen-scalar repair",
+      "section": "1-4,6",
+      "statement": "Over every field, explicit integer local maps give Q(n,b) to M(n-1,4,n-1)-E for b>=2 and n>=b+1. With r=n-1 and d=r-b>0, the actual residual has exact flattening ranks (r^2-b^2,2r+d,2r+d) and an explicit scalar decomposition with 4*r*d terms. When d=0 the residual vanishes. When d=1, two binary-convolution cores improve the decomposition to 4*r-1 terms. In particular Q(6,4) direct sum D_19 restricts to M(5,4,5), with residual ranks (9,11,11) and three support-piece ranks (4,2,8),(4,8,2),(1,4,4). The supplied oblique long maps force first residual rank at least r^2-b^2 for every first map, and the supplied first map attains equality. Complete rational source contractions, scalar-term replays and support factorizations accompany both finite witnesses and family controls.",
+      "dependencies": [
+        "Existing exact product-injection template and paired polynomial source convention",
+        "Existing equal-weight product projection and mixed-middle construction records, pinned in sources.json",
+        "Explicit integer oblique decoder, coefficient identity, concise-support minors and elementary rank-three binary-convolution identities",
+        "Pinned pending PR130 residual-support-rank envelope used solely for cost comparison"
+      ],
+      "limitations": "No optimal scalar rank, historical priority, independent mathematical review, formalization or achieved exponent improvement is claimed. The fixed-width family has quadratic first support and does not meet the asymptotic repair criterion. The n=6 finite source gate fails even with zero residual. The fixed-map optimum concerns the supplied long maps only. The coordinate-omission count concerns coordinate decoders for the stated polynomial space only."
+    },
+    "original_source": {
+      "id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "original_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+      "record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "source_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+      "source_branch": "research/oblique-residual-koszul-01a1697a",
+      "source_sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "original_evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true
+    },
+    "ledger_before_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+    "ledger_after_sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
+    "supporting_evidence": {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "sha256": "c6e53f6a9d39af372ea5876902983e118626b9969b396153e612865576f51557",
+      "lines_at_base": [
+        322,
+        329
+      ],
+      "scope": "An identity minor of size r^2-b^2 survives every first map; the displayed map attains that lower bound."
+    },
+    "counterexample_to_old_equality": {
+      "field": "Q",
+      "n": 6,
+      "b": 4,
+      "first_map": "zero",
+      "long_maps": "unchanged supplied oblique maps",
+      "residual": "M(5,4,5)",
+      "residual_flattening_ranks": [
+        25,
+        20,
+        20
+      ],
+      "supplied_first_map_minimum_rank": 9
+    },
+    "preservation": {
+      "unchanged_other_claim_records": 606,
+      "original_source_record_hashes_unchanged": 607,
+      "claim_status_evidence_dependencies_and_review_flags_unchanged": true,
+      "proof_code_witness_source_snapshot_and_archive_bytes_unchanged": true
+    },
+    "historical_preservation_receipt": {
+      "path": "docs/consolidation/2026-10-23/preservation_report.json",
+      "head": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
+      "sha256": "b3e2c5af965045760a8f89029cecc1d964feff980b9302a1608a6818dd3c7cb5",
+      "scope": "Preserved unchanged as the audit of its recorded revision. This correction does not represent a new full preservation or regression run."
+    },
+    "limitations": "A same-session correction to one ledger sentence. It does not promote review or formalization status, change any mathematical artifact, or assert an exponent improvement."
   }
 }

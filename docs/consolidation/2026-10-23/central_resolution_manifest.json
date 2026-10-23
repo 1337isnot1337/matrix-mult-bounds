@@ -13323,17 +13323,23 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+      "sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum.",
-      "report": "claims_output/resolution_report.json",
+      "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum. Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
           "source_path": "research/claims.json",
           "report": "claims_output/resolution_report.json",
           "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum."
+        },
+        {
+          "source_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+          "source_path": "research/claims.json",
+          "report": "claim_resolution.json",
+          "reason": "Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records. See scope_correction_addendum."
         }
       ]
     },
@@ -29661,6 +29667,14 @@
       "final_sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
       "final_report": "final_packaging_resolution.json",
       "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+      "previous_report": "claim_resolution.json at a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "final_sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
+      "final_report": "claim_resolution.json (scope_correction_addendum)",
+      "reason": "Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records."
     }
   ],
   "inputs": {
@@ -29694,7 +29708,8 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_source_resolution.json": "81fede328d7e66b7ad972d347f4717ce03d57b2f51229110007f84a80480e4d4",
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_resolution.json": "0da0799bdfff1b79fcf154e4ac04b14d3c9925f514c8c6c97476cd9d23d4163d",
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_metadata_resolution.json": "a3a5c870eb10de7ab359ed1f56f8d3b3e549398ecfe32d28253f2837ac1d728a",
-    "/workspace/scratch/5e4a124ebf61/consolidation/final_packaging_resolution.json": "ab3014939c72ce276e16bd4716146664b7a62d02f36e896220268099b5b46f6e"
+    "/workspace/scratch/5e4a124ebf61/consolidation/final_packaging_resolution.json": "ab3014939c72ce276e16bd4716146664b7a62d02f36e896220268099b5b46f6e",
+    "docs/consolidation/2026-10-23/claim_resolution.json": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f"
   },
   "method": "Expected output hashes come from designated implementation artifacts and original Git blobs, never from the final tree being audited. All conflicting expected hashes require an explicit superseding report or follow a restoration-only source copy."
 }

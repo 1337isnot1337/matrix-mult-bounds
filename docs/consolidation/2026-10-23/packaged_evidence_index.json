@@ -42,7 +42,7 @@
       "source_file": "central_resolution_manifest.json",
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
       "source_sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
-      "sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+      "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1",
       "compression": null
     },
     {
@@ -56,7 +56,7 @@
       "source_file": "claims_output/resolution_report.json",
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
       "source_sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
-      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+      "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
       "compression": null
     },
     {
@@ -558,5 +558,26 @@
     }
   ],
   "limitations": "Current report hashes are exact at this packaging. Earlier audit bytes remain under explicit revision suffixes. The resulting publication commit adds receipts only to the audited metadata tree.",
-  "final_audit_head": "a92cbacd770bfa7d0a772677e53d44ab91d2328f"
+  "final_audit_head": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
+  "scope_correction_addendum": {
+    "base_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+    "claim_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+    "report": "docs/consolidation/2026-10-23/claim_resolution.json",
+    "report_section": "scope_correction_addendum",
+    "outputs": [
+      {
+        "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+        "previous_sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+        "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1"
+      },
+      {
+        "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+        "previous_sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+        "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f"
+      }
+    ],
+    "original_source_sha256_values_unchanged": true,
+    "historical_final_audit_head_unchanged": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
+    "scope": "Refresh only the two current report hashes after the recorded single-statement correction. Original packaged-source hashes and historical audit receipts remain unchanged. This is not a new full preservation or regression run."
+  }
 }
