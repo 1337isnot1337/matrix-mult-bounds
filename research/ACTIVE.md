@@ -12,6 +12,20 @@ and tests remain unchanged. Claim `AI-OBLIQUE-FULL-ORDINARY-RANK-004`
 is written and unreviewed. Optimal full-residual border rank and better
 source maps remain open.
 
+The [long-map frontier checkpoint](ai/2026-10-23-oblique-longmap-frontier/README.md)
+is on `research/oblique-longmap-frontier-20261023`, based on `b6c385`, for
+the existing paired-repair PR. A surjective Q(6,4) benchmark attains first
+residual nine. An all-field unit-minor proof gives lower bound nine for
+every first map and arbitrary added-row fillers with the good rows fixed;
+it does not assert equality for every filler choice. Separate finite
+coverage consists of 384 inner-dependent shift controls and 61 exact,
+injective mixed-middle corners, plus 20 singular modular controls.
+Seven focused standard-library tests cover all saved records, five source
+pins and tamper cases. Keep the universal fixed-row scope distinct from
+the finite screens. General changed long maps and Laurent constructions
+remain open. The earlier implementations, scalar costs and review statuses
+are unchanged.
+
 The subsequent [border-repair continuation](ai/2026-10-23-oblique-border-repair/proof.md)
 is on `research/oblique-border-repair-20261023`, based on the ordinary-map
 checkpoint `53fed211`. A six-term polynomial core has leading coefficient

@@ -26,6 +26,16 @@ smaller certified scalar repairs, changed polynomial spaces or long maps,
 and an unbounded family with every auxiliary cost accounted for.
 A machine-precision numerical fit remains discovery evidence only.
 
+The [surjective long-map benchmark and finite frontier](../research/ai/2026-10-23-oblique-longmap-frontier/README.md)
+make the next change of map family more precise. The benchmark has both
+long maps surjective and first residual nine. Arbitrary changes only to
+its four added output rows cannot improve that first rank: the fixed good
+projection is injective on all thirty-six source first coordinates.
+The 384 specified shift pairs and 61 valid mixed-middle corners also give
+no lower first residual, within their finite stated scopes. A new attempt
+must change good output rows beyond these tested controls or use a
+different limiting construction. Unrestricted long maps remain open.
+
 Optimizing only the first map with the old product long maps is now
 settled by the [exact residual-rank formula](../research/ai/2026-10-23-product-longmap-residual/README.md).
 For every `n>=5` in characteristic different from two, the minimum first

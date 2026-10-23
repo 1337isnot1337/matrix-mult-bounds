@@ -16,6 +16,33 @@ minors, the complete exported source contraction and false certificates.
 The middle first-leg Koszul rank has structural ceiling 504, so that
 test cannot certify optimal border rank eighteen.
 
+## A surjective benchmark and the fixed-good-row frontier
+
+The [long-map frontier](research/ai/2026-10-23-oblique-longmap-frontier/README.md)
+gives integer Q(6,4) maps with both long maps surjective and minimum first
+residual rank nine. Its displayed residual has rational ranks `(9,18,18)`;
+this is a search benchmark, not a lower scalar repair cost. A determinant-one
+projected source minor proves that arbitrary fillers in the four added
+output rows cannot reduce first residual below nine when the sixteen good
+rows on each long leg remain fixed. This lower bound holds over every
+field and for every first map. Equality is asserted for the benchmark,
+not for arbitrary fillers. Claim `AI-OBLIQUE-FILLER-SCOPE-001` is written
+and unreviewed.
+
+The separate finite screen checks 384 specified inner-dependent shift
+pairs and 61 nonsingular mixed-middle corners from an 81-point grid.
+All 384 quotient-rank minors give rational first residual lower bound nine.
+Every valid corner retains an injective thirty-six-dimensional source
+first-slice projection; 20 singular modular decoders are skipped.
+Claim `EXP-OBLIQUE-LONGMAP-FRONTIER-002` is a finite experiment.
+Seven standard-library tests replay the complete compact certificate,
+five source hashes and deliberate changes or omissions. These scoped
+results leave unrestricted long maps and general degenerations open.
+The ordinary nineteen-term and border eighteen-term repairs below remain
+unchanged; no smaller exponent follows.
+
+## An eighteen-scalar degeneration from a six-term core
+
 The [polynomial border repair](research/ai/2026-10-23-oblique-border-repair/proof.md)
 keeps the ordinary oblique maps and constructs
 `Q(6,4) + D_18` degenerating to `M(5,4,5)` over every field.
