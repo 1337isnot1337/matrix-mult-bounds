@@ -43,8 +43,16 @@
   "combined_log_uncompressed_sha256": "9c6d738e170b8a324208c7e0271b5bca0e0fbe9494b4408d3bc413a92409eb73",
   "protected_archive_files_equal_to_main": 18,
   "final_test_inventory": {
-    "tests": 858,
-    "modules": 202,
+    "tests": 862,
+    "modules": 203,
     "status": "Hosted full combined-head execution required; local coverage is the baseline plus recorded incoming/new focused checks."
+  },
+  "later_main_integration": {
+    "main": "1c04903",
+    "tested_commit": "cfa023f60221160612cfbee961e09ef81666b5ce",
+    "tested_tree": "25e5ba33b75db7085f64873b8d3796e5423732a3",
+    "combined_checks": 33,
+    "scope": "Incoming regular-unit-image tests, both conic packages, research metadata and archive integrity. All parent claims retained unchanged.",
+    "log_uncompressed_sha256": "e44555cd45cc27728c7107569bb0cf9b4579fa7e00640b75c298c63fbd419b39"
   }
 }
