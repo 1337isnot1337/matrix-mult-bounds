@@ -1,0 +1,23 @@
+{
+  "schema": "width-two-monomial-sources-v1",
+  "research_base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20/research_note.md",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "3f1de5a7c4209a894b39bc95801af6aa5bf65df85e32379de09271f6c7207e63",
+      "scope": "Matching profile and section 5.3 monomial sector score. The recurrence and shared-leg inequality retain their original external attribution."
+    },
+    {
+      "path": "research/ai/2026-10-20/search_degenerations.py",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "355c3f10550fd146c1c7d598c5ca36a9b2ce92bce23b1c7f548a680045e64bc2",
+      "scope": "Frozen literal minimum-support, YZ component, convolution-recognition and exact-rational scoring implementation."
+    }
+  ],
+  "related_unmerged_work": {
+    "pr": 118,
+    "head": "019269fad70d78845627e91eafe10b4063e3890c",
+    "scope": "Exact ranking and replay certificates for bounded weight searches; inspected for overlap only, not a dependency."
+  }
+}

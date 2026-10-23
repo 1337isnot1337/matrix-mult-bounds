@@ -1,0 +1,205 @@
+{
+  "schema": "width-two-monomial-census-v1",
+  "max_b": 10,
+  "orientation_support_checks": 59046,
+  "rows": [
+    {
+      "b": 2,
+      "supports_per_orientation": 3,
+      "source_exact": "10/3",
+      "short_shared_equalities": 1,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 1,
+        "1/3": 2
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "1/3": 2
+      }
+    },
+    {
+      "b": 3,
+      "supports_per_orientation": 9,
+      "source_exact": "14/3",
+      "short_shared_equalities": 1,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 1,
+        "1/3": 2,
+        "2/3": 6
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "2/3": 4,
+        "5/3": 4
+      }
+    },
+    {
+      "b": 4,
+      "supports_per_orientation": 27,
+      "source_exact": "6",
+      "short_shared_equalities": 2,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 2,
+        "1/3": 2,
+        "2/3": 7,
+        "1": 16
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "1": 8,
+        "2": 12,
+        "3": 6
+      }
+    },
+    {
+      "b": 5,
+      "supports_per_orientation": 81,
+      "source_exact": "22/3",
+      "short_shared_equalities": 4,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 4,
+        "1/3": 6,
+        "2/3": 8,
+        "1": 20,
+        "4/3": 43
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "4/3": 16,
+        "7/3": 28,
+        "10/3": 36
+      }
+    },
+    {
+      "b": 6,
+      "supports_per_orientation": 243,
+      "source_exact": "26/3",
+      "short_shared_equalities": 7,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 7,
+        "1/3": 14,
+        "2/3": 25,
+        "1": 24,
+        "4/3": 59,
+        "5/3": 114
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "5/3": 32,
+        "8/3": 60,
+        "11/3": 120,
+        "14/3": 30
+      }
+    },
+    {
+      "b": 7,
+      "supports_per_orientation": 729,
+      "source_exact": "10",
+      "short_shared_equalities": 12,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 12,
+        "1/3": 26,
+        "2/3": 60,
+        "1": 84,
+        "4/3": 76,
+        "5/3": 170,
+        "2": 301
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "2": 64,
+        "3": 124,
+        "4": 330,
+        "5": 210
+      }
+    },
+    {
+      "b": 8,
+      "supports_per_orientation": 2187,
+      "source_exact": "34/3",
+      "short_shared_equalities": 21,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 21,
+        "1/3": 48,
+        "2/3": 115,
+        "1": 212,
+        "4/3": 280,
+        "5/3": 232,
+        "2": 487,
+        "7/3": 792
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "7/3": 128,
+        "10/3": 252,
+        "13/3": 826,
+        "16/3": 840,
+        "19/3": 140
+      }
+    },
+    {
+      "b": 9,
+      "supports_per_orientation": 6561,
+      "source_exact": "38/3",
+      "short_shared_equalities": 37,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 37,
+        "1/3": 92,
+        "2/3": 222,
+        "1": 420,
+        "4/3": 731,
+        "5/3": 892,
+        "2": 703,
+        "7/3": 1384,
+        "8/3": 2080
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "8/3": 256,
+        "11/3": 508,
+        "14/3": 1960,
+        "17/3": 2716,
+        "20/3": 1120
+      }
+    },
+    {
+      "b": 10,
+      "supports_per_orientation": 19683,
+      "source_exact": "14",
+      "short_shared_equalities": 65,
+      "short_second_equalities": 1,
+      "short_shared_deficit_histogram": {
+        "0": 65,
+        "1/3": 176,
+        "2/3": 446,
+        "1": 848,
+        "4/3": 1492,
+        "5/3": 2406,
+        "2": 2780,
+        "7/3": 2104,
+        "8/3": 3910,
+        "3": 5456
+      },
+      "short_second_deficit_histogram": {
+        "0": 1,
+        "3": 512,
+        "4": 1020,
+        "5": 4500,
+        "6": 7812,
+        "7": 5208,
+        "8": 630
+      }
+    }
+  ],
+  "scope": "Every sign word in both orientations for 2<=b<=max_b; no weight cutoff.",
+  "universal_proof_status": "proof-written-unreviewed",
+  "improves_omega": false
+}
