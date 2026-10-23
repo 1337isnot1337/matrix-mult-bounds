@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "GF2_exhaustive": 900,
+    "GF3_exhaustive": 1836,
+    "degree_witnesses": 420,
+    "seeded": 216
+  },
+  "exhaustive_GF2_distinct_ranks": 18,
+  "exhaustive_GF2_shapes": 27,
+  "fields": [
+    2,
+    3,
+    5,
+    7,
+    101
+  ],
+  "formula": "rank = ab + sum_{j=0}^{e-1} min(b, d*floor((a+j)/e))",
+  "result": "PASS",
+  "seed": "0xB1F0A26E",
+  "total": 3372
+}

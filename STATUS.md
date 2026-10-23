@@ -34,6 +34,10 @@ characteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is
 written and unreviewed. No source-space cap, compatible matrix target,
 singular degeneration or exponent improvement is established.
 
+## All-field ranks of single-top-polynomial biforms
+
+The [top-coefficient biform theorem](research/ai/2026-10-23-top-coefficient-biforms/proof.md) computes the literal cyclic-source matrix R_(a,b) for every f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)*z^e with 1<=e<b, nonzero constant c_0, constant lower coefficients, and nonzero polynomial w of x-degree d<a. Over every field, its exact rank is ab + sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). The leading polynomial-kernel vectors form a triangular residue basis, giving a complete all-field proof. The new controls pass 3,372 full-matrix modular comparisons and 24 independent-implementation rational matrix ranks. Claim AI-TOP-COEFFICIENT-BIFORM-RANK-001 is proof-written-unreviewed. It does not classify arbitrary quadratic-in-z coefficients, build a three-leg tensor target, or improve omega below 9/4. The separate [continuation](research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md) records exact scope and provenance.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
