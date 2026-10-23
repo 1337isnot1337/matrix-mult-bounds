@@ -1,5 +1,17 @@
 # Research status
 
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
+
 ## Finite covers close the selected nonsplit coordinate targets
 
 The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)

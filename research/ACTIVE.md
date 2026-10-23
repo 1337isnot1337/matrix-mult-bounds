@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
+
 ## Actual nonsplit finite covers: October 23 continuation
 
 Main and all open PRs checked at `d833eb0`. The owned
