@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The next external-seed checkpoint is on
+`research/mixed-leg-error-20261023`, following PR154. Its
+`ai/2026-10-23-quadratic-error/README.md` supplies complete-error power
+trace tests. Every one-term deletion from a minimum refactorization of
+the named ten-split five-term block is excluded, including Laurent
+coefficients. Two specified V69 families are also excluded. Do not treat
+individual nilpotence or trace zero as a complete deletion certificate:
+the sum with the original error must contract. New factor configurations
+and full source maps remain the construction questions; no smaller
+exponent is established.
+
 The October 23 external-seed continuation is in
 `ai/2026-10-23-flip-escape/ACTIVE.md`, on PR128's
 `research/flip-escape-20261023` branch. Two exact split border seeds have

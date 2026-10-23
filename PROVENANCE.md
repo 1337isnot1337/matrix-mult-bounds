@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-error` package is owner-directed OpenAI Codex
+continuation of the credited external factorization and local split seeds.
+The coefficient reshaping, elementary conjugation identity, exact complete-
+error contractions and named-block application are local derivations;
+no historical priority is claimed. Source factors and predecessor
+certificates retain their exact byte pins and existing credit. The proof
+permits cancellation with every original discarded term. Same-session
+implementations and audits are verification evidence, not independent
+mathematical review, formalization, or an improved matrix rank bound.
+
 The `2026-10-23-large-gauged-batches` package is owner-directed OpenAI
 Codex continuation of the credited AlphaTensor factorization and the
 local physical bases below. Numerical mixed-integer searches found

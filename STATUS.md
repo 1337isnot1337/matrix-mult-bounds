@@ -1,5 +1,26 @@
 # Research status
 
+## Complete-error invariants exclude further one-term deletions
+
+The [quadratic-error certificate](research/ai/2026-10-23-quadratic-error/README.md)
+reshapes the matrix-format tensor into a 100-by-100 matrix. The physical
+action becomes conjugation, and the multiplication target reshapes to
+the identity. Its power traces are therefore exact tests on the complete
+discarded error, allowing cancellation between old and newly removed terms.
+
+For the ten-split block `{36,56,61,62,75}`, every exact minimum five-term
+refactorization obeys `q(D+A)=2-2*tau+tau^2` for any selected term A,
+where D is the full original discarded error and tau is the term trace.
+Contraction would force tau to zero while q tends to two. Thus no such
+one-term deletion works, even with Laurent-dependent refactorizations
+and physical matrices. Two specified shared-V families from the six-split
+seed also have complete-error invariant two, despite trace-zero selected
+terms with square-zero cyclic products. Claim
+`AI-EXTERNAL-QUADRATIC-ERROR-010` is written and unreviewed. Full replay
+checks 10000 source coordinates and 90000 family coefficient positions.
+Arbitrary block mixing, simultaneous deletions and general border-rank
+reductions remain outside these obstructions. No smaller exponent follows.
+
 ## Larger split batches pass a new screen and change component geometry
 
 The [larger gauged witnesses](research/ai/2026-10-23-large-gauged-batches/README.md)
