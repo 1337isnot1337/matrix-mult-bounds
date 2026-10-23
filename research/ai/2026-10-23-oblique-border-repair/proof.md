@@ -34,6 +34,8 @@ The construction replaces a seven-term correction core by a six-term
 degeneration. A unit minor of its Koszul map proves that this core has
 border rank exactly six over C. The same minor proves the corresponding
 formal lower bound in every characteristic.
+The separate [ordinary-rank proof](ordinary_rank.md) establishes rank
+exactly seven for this isolated core over every field.
 
 There is also an all-size family. Write
 
@@ -181,8 +183,10 @@ The verifier reconstructs the map directly from (3) and replays the
 determinant. The minor is nonzero in every characteristic. Hence every
 formal rank bound is at least ceil(11/2)=6, which matches (5).
 
-This proves the core result. It does not prove that the core has ordinary
-tensor rank seven, or that the full n=6 residual has border rank eighteen.
+This proves the core's border-rank result. The separate
+[ordinary-rank argument](ordinary_rank.md) proves that the core has
+ordinary rank seven. Neither argument proves optimal ordinary or border
+rank for the full n=6 residual.
 
 ## 3. Disjoint cores in the general residual
 

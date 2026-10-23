@@ -13,6 +13,16 @@ the whole residual's optimal border rank remains open. Construction of
 changed maps with substantially smaller first support remains the main
 asymptotic question.
 
+The same branch now includes a separate
+[ordinary-rank proof for the core](ai/2026-10-23-oblique-border-repair/ordinary_rank.md).
+Explicit quadratic kernels and their cubic factor identities leave only
+two six-term support patterns, both excluded over every field. Thus the
+isolated core has ordinary rank seven and border rank six. Six additional
+focused tests replay the finite proof inputs and reject false records.
+Claim `AI-OBLIQUE-CORE-RANK-SEVEN-003` remains written and unreviewed.
+This supplies no additive lower bound for embedded cores and no optimum
+for the entire residual. The source maps and four pinned files are unchanged.
+
 The October 23 paired-map continuation is on
 `research/product-longmap-residual-20261023`, based on main `fe602e4`.
 Its [oblique construction](ai/2026-10-23-oblique-paired-repair/proof.md)

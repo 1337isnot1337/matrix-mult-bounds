@@ -12,6 +12,16 @@ three-by-five-by-five core has border rank exactly six: six polynomial
 terms supply the upper bound, and an eleven-by-eleven Koszul minor with
 determinant one supplies the lower bound.
 
+The separate [ordinary-rank proof](research/ai/2026-10-23-oblique-border-repair/ordinary_rank.md)
+shows that this isolated core has ordinary rank exactly seven over every
+field. Its quadratic left and right polynomial kernels reduce every
+hypothetical six-term decomposition to two support patterns. A mixed-block
+functional and a unit slice minor exclude those patterns. Six focused
+tests replay the proof's explicit integer inputs, check agreement with the
+border core, and reject changed products and false certificate entries.
+Claim `AI-OBLIQUE-CORE-RANK-SEVEN-003` is written and unreviewed.
+This rank separation does not prove an optimal rank for the full residual.
+
 Disjoint cores give ordinary correction bound `4rd-m^2` and border
 correction bound `4rd-2m^2`, where `r=n-1`, `d=r-b` and
 `m=min(d,b-1)`. Width-four border costs are eighteen, forty, sixty-six

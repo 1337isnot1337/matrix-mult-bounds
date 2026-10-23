@@ -11,9 +11,16 @@ minor. These coordinated checks are not independent mathematical review.
 The full eighteen-term residual degeneration and all three polynomial
 maps on `Q(6,4) + D_18` are exported. Claims
 `AI-OBLIQUE-CORE-BORDER-SIX-001` and `AI-OBLIQUE-BORDER-REPAIR-FAMILY-002`
-distinguish ordinary rank nineteen from border rank eighteen. Only the
-core has an optimal border-rank conclusion. No historical priority,
-formalization or exponent improvement is claimed.
+distinguish ordinary upper bound nineteen from border upper bound eighteen.
+The separate ordinary-rank proof, claim `AI-OBLIQUE-CORE-RANK-SEVEN-003`,
+was derived and checked by three agents in this same session. It uses
+explicit polynomial kernels, factorization of cubic polynomials, and two
+elementary support contradictions to prove core rank seven over every
+field. Its standalone integer verifier checks the explicit inputs; the
+general exclusion is a written proof, not a finite search. These checks
+are not independent mathematical review. Only the isolated core has
+optimal ordinary and border ranks. No whole-residual optimality,
+historical priority, formalization or exponent improvement is claimed.
 
 The `2026-10-23-oblique-paired-repair` package is owner-directed Codex
 work using the repository's product-injection and mixed-middle templates.
