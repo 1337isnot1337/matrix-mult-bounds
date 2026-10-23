@@ -1,5 +1,20 @@
 # Research status
 
+## Quadratic pencils inside the A10 moment four-space
+
+The [four-space pencil calculation](research/ai/2026-10-23-hankel-fourspace-pencils/proof.md)
+extends the prescribed-seed study to arbitrary lines in moments 3,7,11,15,
+under an explicit nonzero determinant guard chi. The exact polynomial
+identity `det N=-4*Delta*chi^3` gives common tangent dimension four when
+Delta is nonzero and seven when Delta vanishes. In the first case the
+four-space is the unique maximal linear rank-eight Hankel extension.
+For the exceptional seed `A=v,B=0,C=u,D=v`, quadratic Schur coefficients
+and a higher determinant also force the unique maximal extension to have
+dimension four. Other exceptional lines, quadratic pencils outside this
+four-space and the general Segre-image problem remain open. These are
+written unreviewed results, with no changed matrix target frontier or
+exponent below 9/4.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

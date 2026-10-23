@@ -300,3 +300,14 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+## Quadratic Hankel lines inside the saturated four-space
+
+The [four-space line criterion](../research/ai/2026-10-23-hankel-fourspace-pencils/proof.md)
+gives `det N=-4*Delta*chi^3` for arbitrary lines in moments 3,7,11,15.
+Under chi nonzero, Delta nonzero closes every linear extension beyond
+that four-space. Delta zero gives a seven-dimensional common tangent
+space; the displayed exceptional seed is nevertheless closed by quadratic
+and higher rank equations. Continue with other chi-nonzero/Delta-zero
+lines or quadratic pencils outside this four-space. Do not infer that
+seven common tangent directions supply seven linear extension directions.
