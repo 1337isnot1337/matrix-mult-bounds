@@ -1,0 +1,29 @@
+{
+  "integration_parents": [
+    "7a256b390521c0056c163dbc8a77119c54249268",
+    "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+  ],
+  "prior_full_regression": "results/paired-repair-2026-10-23/validation.json",
+  "prior_full_regression_tests": 875,
+  "new_main_tests": 5,
+  "current_discovered_tests": 880,
+  "current_integration_command": [
+    "python",
+    "-m",
+    "unittest",
+    "tests.test_resolvent_minrank",
+    "tests.test_research",
+    "-v"
+  ],
+  "integration_tests_passed": 23,
+  "integration_skipped": 0,
+  "python_paths_changed_from_prior_checkpoint": [
+    "research/ai/2026-10-23-resolvent-minrank/verify.py",
+    "tests/test_resolvent_minrank.py"
+  ],
+  "previous_python_paths_changed": [],
+  "archive_diff": [],
+  "log": "results/paired-repair-2026-10-23/main-integration.log.gz",
+  "log_sha256": "222f2d561b4dcf0eda7382f3c6ed045a5d79d679b01a96549d9f596405c91572",
+  "scope": "The prior 875-test full regression and five archive replays remain pinned to their tested commit. The merge adds five independent resolvent tests and unchanged upstream verification code; all previously tested Python files are byte-identical. All five new tests and eighteen repository/profile/support checks pass on the integrated tree. This is incremental integration evidence, not a claim that 880 tests ran in one current-head process. Current-head hosted CI is still required."
+}

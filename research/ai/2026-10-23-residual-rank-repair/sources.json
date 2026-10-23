@@ -1,0 +1,56 @@
+{
+  "base_commit": "1c04903c215f396150605c0778024e856ec0b0d4",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "sha256": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/critical_coefficient.md",
+      "sha256": "1988a4180bc1a5350f23269665ddf7a35ab4ae0000852af829e8a2240e62342d"
+    },
+    {
+      "path": "research/ai/2026-10-20-critical-character-extension/README.md",
+      "sha256": "0f045927337cb138cc9a2b7704638befa2f7bf13732161e57872134e8033060c"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/finite_amplitude.md",
+      "sha256": "2444db47d4e528eaf76d9fa1f895980150ccd78c6e554534d1560a6450012d7c"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/superlinear_budget.md",
+      "sha256": "6301288344c44f93e18fdaa060c7461755db197beaf2bce039abd4be19f6a6db"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "source": "OpenAI 9/4 paper",
+      "revision": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+      "use": "Complex tensor character axioms and matrix multiplication detection; retained through the pinned correction-budget note."
+    },
+    {
+      "source": "Uznanski, Rectangular matrix multiplication from polynomial products",
+      "version": "arXiv:2610.10494v2",
+      "url": "https://arxiv.org/html/2610.10494v2",
+      "use": "Replication, oriented scaling, and endpoint parameter rigidity; retained through the pinned local proofs."
+    },
+    {
+      "source": "Alman and Li, Asymptotic Rank Speedup Theorems, Revisited",
+      "version": "arXiv:2605.21738v1",
+      "url": "https://arxiv.org/html/2605.21738v1",
+      "statement": "Proposition 4.2",
+      "use": "The matrix-spectrum sum attains maximum omega; the primary text was inspected."
+    }
+  ],
+  "attribution": "The finite source estimate, endpoint rigidity and compact-attainment argument precede this package. This owner-directed Codex continuation combines them with the elementary outer-product envelope for residual multilinear ranks. No historical priority or independent mathematical review is claimed.",
+  "claims": [
+    "AI-RESIDUAL-RANK-FINITE-GATE-001",
+    "AI-RESIDUAL-RANK-ASYMPTOTIC-GATE-002"
+  ]
+}

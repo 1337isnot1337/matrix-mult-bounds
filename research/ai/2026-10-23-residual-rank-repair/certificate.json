@@ -1,0 +1,189 @@
+{
+  "claim_ids": [
+    "AI-RESIDUAL-RANK-FINITE-GATE-001",
+    "AI-RESIDUAL-RANK-ASYMPTOTIC-GATE-002"
+  ],
+  "local_dependency_hashes_checked": 6,
+  "outer_product_controls": [
+    {
+      "shape": [
+        2,
+        3,
+        4
+      ],
+      "ranks": [
+        2,
+        3,
+        4
+      ],
+      "pair_product": 6,
+      "coefficient_positions_per_orientation": 24
+    },
+    {
+      "shape": [
+        3,
+        2,
+        3
+      ],
+      "ranks": [
+        3,
+        2,
+        3
+      ],
+      "pair_product": 6,
+      "coefficient_positions_per_orientation": 18
+    },
+    {
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "ranks": [
+        2,
+        2,
+        2
+      ],
+      "pair_product": 4,
+      "coefficient_positions_per_orientation": 8
+    }
+  ],
+  "first_no_residual_thresholds": [
+    {
+      "outer_deficit": 0,
+      "first_source_n": 38
+    },
+    {
+      "outer_deficit": 1,
+      "first_source_n": 64
+    }
+  ],
+  "single_residual_product_budgets": [
+    {
+      "source_n": 64,
+      "outer_target": 63,
+      "largest_single_residual_pair_product": 0,
+      "largest_first_rank_if_long_ranks_are_4_outer": 0
+    },
+    {
+      "source_n": 100,
+      "outer_target": 99,
+      "largest_single_residual_pair_product": 230,
+      "largest_first_rank_if_long_ranks_are_4_outer": 0
+    },
+    {
+      "source_n": 200,
+      "outer_target": 199,
+      "largest_single_residual_pair_product": 2121,
+      "largest_first_rank_if_long_ranks_are_4_outer": 2
+    },
+    {
+      "source_n": 500,
+      "outer_target": 499,
+      "largest_single_residual_pair_product": 18393,
+      "largest_first_rank_if_long_ranks_are_4_outer": 9
+    },
+    {
+      "source_n": 1000,
+      "outer_target": 999,
+      "largest_single_residual_pair_product": 80775,
+      "largest_first_rank_if_long_ranks_are_4_outer": 20
+    },
+    {
+      "source_n": 10000,
+      "outer_target": 9999,
+      "largest_single_residual_pair_product": 8739465,
+      "largest_first_rank_if_long_ranks_are_4_outer": 218
+    }
+  ],
+  "localization_factorization_controls": 510,
+  "quantitative_examples": [
+    {
+      "first_rank_power": [
+        1,
+        2
+      ],
+      "localization_bound": [
+        35,
+        16
+      ],
+      "below_existing_b4_rational_ceiling": true
+    },
+    {
+      "first_rank_power": [
+        7,
+        10
+      ],
+      "localization_bound": [
+        891,
+        400
+      ],
+      "below_existing_b4_rational_ceiling": true
+    },
+    {
+      "first_rank_power": [
+        3,
+        4
+      ],
+      "localization_bound": [
+        143,
+        64
+      ],
+      "below_existing_b4_rational_ceiling": false
+    },
+    {
+      "first_rank_power": [
+        9,
+        10
+      ],
+      "localization_bound": [
+        899,
+        400
+      ],
+      "below_existing_b4_rational_ceiling": false
+    }
+  ],
+  "recovered_q54_corner_control": {
+    "missing_scalar_products": 36,
+    "residual_ranks": [
+      9,
+      20,
+      20
+    ],
+    "gate": {
+      "source": [
+        5,
+        4
+      ],
+      "target": [
+        5,
+        4,
+        5
+      ],
+      "target_volume": 100,
+      "residual_pair_products": [
+        180
+      ],
+      "source_cost_squared": [
+        17576,
+        9
+      ],
+      "gap_interval": [
+        [
+          -37301951013909193587993973,
+          604462909807314587353088
+        ],
+        [
+          -74603902027818387175987943,
+          1208925819614629174706176
+        ]
+      ],
+      "outcome": "gate-not-satisfied",
+      "construction_certified": false,
+      "improves_omega": false
+    }
+  },
+  "finite_gate_is_only_a_conditional_search_criterion": true,
+  "successful_paired_map_constructed": false,
+  "improves_omega": false
+}

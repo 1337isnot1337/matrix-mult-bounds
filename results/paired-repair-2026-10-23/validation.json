@@ -1,0 +1,137 @@
+{
+  "tested_commit": "121be1c232b117e884defdb74ba4527c55b70172",
+  "tested_tree": "7805c63bf8214182d751918140a996059b711b0a",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "suite_groups": 4,
+  "discovered_tests": 875,
+  "discovered_modules": 204,
+  "archive_diff_from_initial_base": [],
+  "base_main": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONOPTIMIZE": "unset"
+  },
+  "jobs": [
+    {
+      "name": "group-0",
+      "command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 233,
+      "passed": 233,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 778.554,
+      "result": "OK",
+      "log": "results/paired-repair-2026-10-23/group-0.log.gz"
+    },
+    {
+      "name": "group-1",
+      "command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 194,
+      "passed": 194,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 442.591,
+      "result": "OK",
+      "log": "results/paired-repair-2026-10-23/group-1.log.gz"
+    },
+    {
+      "name": "group-2",
+      "command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 233,
+      "passed": 233,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 348.306,
+      "result": "OK",
+      "log": "results/paired-repair-2026-10-23/group-2.log.gz"
+    },
+    {
+      "name": "group-3",
+      "command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 215,
+      "passed": 215,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 520.436,
+      "result": "OK",
+      "log": "results/paired-repair-2026-10-23/group-3.log.gz"
+    }
+  ],
+  "tests": 875,
+  "passed": 875,
+  "skipped": 0,
+  "all_completed_groups_passed": true,
+  "archive_replay_count": 5,
+  "archive_replay_summary": "results/paired-repair-2026-10-23/archive-replay.json",
+  "archive_diff_from_base_main": [],
+  "incomplete_attempts": [
+    {
+      "job": "group-2",
+      "completed_unittest_footer": false,
+      "included_in_successful_coverage": false,
+      "reason": "Initial process ended without a complete unittest result; cause not established. A fresh full group rerun completed successfully.",
+      "retained_log": "results/paired-repair-2026-10-23/group-2-incomplete.log.gz"
+    }
+  ],
+  "logs": [
+    {
+      "path": "results/paired-repair-2026-10-23/group-0.log.gz",
+      "sha256": "96fc89a6818b97d6db918176f298074782c193d6faf3bc827dde1f023bed8622",
+      "uncompressed_sha256": "b8c0fc6efea0cc21b2f8c726e419950610e957ee823776c133eceeeb437c873b"
+    },
+    {
+      "path": "results/paired-repair-2026-10-23/group-1.log.gz",
+      "sha256": "26fe18a61876910457bde5dd280023554d0535d967f83f986d0bdad99c5a4d69",
+      "uncompressed_sha256": "e64cbece976bb8a1648db271014c1c153524cf60e9954ce0cfd680024e22974a"
+    },
+    {
+      "path": "results/paired-repair-2026-10-23/group-2.log.gz",
+      "sha256": "8b8d39ab0b25c1bd54535dbbec664e70f143fed35f7d5fb5d9a42b00189a86aa",
+      "uncompressed_sha256": "537b04bcce555c5e9335a2b40f4b66b4c2162116f026097056dae3d7b3719c84"
+    },
+    {
+      "path": "results/paired-repair-2026-10-23/group-3.log.gz",
+      "sha256": "ce45eb4230b916f9a48747ceee436e4554186ca188bf04a8e5b21d72e495b59b",
+      "uncompressed_sha256": "cfb9c6ddb93ee1d79139c4db7cc1e2c838c2e31eb464d20d535c6ed610ee41e0"
+    },
+    {
+      "path": "results/paired-repair-2026-10-23/group-2-incomplete.log.gz",
+      "sha256": "3eb9a34268528e582a2464a61dc1627d5910255d4b360257e7f12cc2a9af2741",
+      "uncompressed_sha256": "ac17710672a3f7a195e0c4406ff34b218ec3a29ecb45ae8a909409ffdf021349"
+    },
+    {
+      "path": "results/paired-repair-2026-10-23/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba",
+      "uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  ],
+  "scope": "Full local regression of the exact tested commit and tree. The later receipt and status-only commit does not alter tested implementation or proofs. Current-head hosted checks remain required. Same-session tests and audits do not establish independent mathematical review or an improved exponent."
+}
