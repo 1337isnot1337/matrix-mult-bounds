@@ -3,8 +3,10 @@
 The S5 staircase continuation is on `research/s5-staircase-cover-boundary-20261023`,
 stacked on PR111. Its `ai/2026-10-23-s5-staircase-covers/` package exhausts
 891888 monotone first-leg thresholds with two equal legs; all eight costs
-match the weighted cube covers. Three unequal legs and finer source support
-are separate next questions. Finite experiment, no exponent improvement.
+match the weighted cube covers. For r=1, the three-unequal-leg census now
+accounts for all77392758 threshold pairs and retains the same bound; seven
+focused tests pass, including separate compiled replay. Finer source support
+and nonmonotone covers are separate next questions. No exponent improvement.
 
 The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
 (PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.

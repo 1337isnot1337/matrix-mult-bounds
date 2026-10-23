@@ -1,5 +1,17 @@
 # Research status
 
+## Three unequal monotone legs also retain the S5 cube bound
+
+The [three-leg census](research/ai/2026-10-23-s5-staircase-covers/three_leg_boundary.md)
+accounts for all 77392758 unordered first/second threshold pairs in the
+four S5 x C2 cube block words. Exact pruning leaves 5207743 third-leg
+evaluations. Separate Python and C++ implementations agree on all costs
+and witnesses, retaining the bound6867542 above the M(13,14,14) threshold
+6492304. Claim `EXP-S5-THREE-LEG-COVERS-002` is a finite experiment. This
+closes monotone thresholds on these bidegree majorants as an improvement
+route, without claiming optimal covers of the actual source. Finer support,
+nonmonotone covers, other bases/powers and the exponent question remain open.
+
 ## Finite boundary for two-equal-leg S5 staircase covers
 
 The [complete staircase census](research/ai/2026-10-23-s5-staircase-covers/proof.md)
