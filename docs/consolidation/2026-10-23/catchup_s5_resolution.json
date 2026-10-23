@@ -1,0 +1,21 @@
+{
+  "schema": "matrix-catchup-source-pin-resolution-v1",
+  "base_sha": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+  "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+  "output_files": [
+    {
+      "path": "research/ai/2026-10-23-s5-finite-covers/manifest.json",
+      "source_commit": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "source_path": "research/ai/2026-10-23-s5-finite-covers/manifest.json",
+      "sha256": "d98f99c2da2970950cc9dec1de942ca8f38265908e83f9f6f600eb37e9b438fa",
+      "reason": "Adopt the explicit descendant S5 catch-up correction. The manifest changes only the README byte pin to 41b49d90662554371e6888f7976d0d86dcff2a51b072b83b9293bf81e7535de9, preserving all other file pins and the original validation receipt; the corrected README is retained byte-for-byte."
+    },
+    {
+      "path": "research/ai/2026-10-23-s5-finite-covers/README.md",
+      "source_commit": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "source_path": "research/ai/2026-10-23-s5-finite-covers/README.md",
+      "sha256": "41b49d90662554371e6888f7976d0d86dcff2a51b072b83b9293bf81e7535de9",
+      "reason": "Adopt the explicit descendant S5 catch-up correction. The manifest changes only the README byte pin to 41b49d90662554371e6888f7976d0d86dcff2a51b072b83b9293bf81e7535de9, preserving all other file pins and the original validation receipt; the corrected README is retained byte-for-byte."
+    }
+  ]
+}

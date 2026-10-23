@@ -6,7 +6,7 @@ A written proof is an argument for all parameters in its statement. A finite exa
 
 Independent review requires a reviewer who did not generate the argument, an identified commit, and a recorded scope. Lean verification requires a successful build of the relevant statement and its dependencies. A theorem-name match alone is insufficient.
 
-The current local results have written arguments and finite reproduction. They have no independent review and no Lean build. External projects' reported builds are attributed to those projects.
+The initialization results recorded below have written arguments and finite reproduction. Those receipts include no independent review or Lean build. The separately maintained [finite scalar-profile slope lemma](../formal/scalar-profile/README.md) has its own Lean project and verification scope; it does not formalize the full scalar profile theorem or tensor consequences. External projects' reported builds remain attributed to those projects.
 
 ## Recorded run
 
@@ -44,7 +44,7 @@ The Python tests do not validate the full shared-leg theorem, the external spect
 
 ## Regression tests and continuous integration
 
-The regression suite covers archive integrity, independent profile formulas, selected support invariants, exact recorded scores, and ledger consistency. Routine pull requests and main pushes run change-selected tests on both supported Python lanes. Nightly and manual runs execute the full suite and archive replay. Archive, shared-tool, or dependency changes also trigger full verification. Its runtime status is separate from the local run recorded here.
+The regression suite covers archive integrity, independent profile formulas, selected support invariants, exact recorded scores, and ledger consistency. The [active workflow](../.github/workflows/verify.yml) runs on pull requests targeting `main`, pushes to `main`, and manual dispatch. Every run executes the complete discovered suite in four deterministic groups on each of Python 3.10 and 3.14, replays all five archived experiments on Python 3.13, and builds the auxiliary scalar-profile Lean project. The stable required `CI` check succeeds only when the test matrix, archive replay, and Lean job all succeed. The active workflow has no schedule or path filters. A workflow definition describes required execution; completed results remain tied to the tested revision and recorded receipts.
 
 ## Product-filtration proof-chain checks
 
@@ -112,26 +112,19 @@ uses NumPy, SciPy and python-sat 1.9.dev17; accepted group potentials are checke
 by the pinned integer-only verifier. No SAT timeout, floating fit, or source
 cost certificate supplies the missing target degeneration.
 
-## Change-aware CI routing
+## Retained proposal for change-aware CI routing
 
-`tools/ci_select.py` computes a conservative package/import dependency closure
-from the actual Git diff. Each routine run always includes repository metadata,
-archive hash, and Markdown-link checks in `test_research.py`. Changed test files
-run directly. Source-package changes select tests that reach that package,
-including statically identified cross-package imports and path references. Saved
-certificate changes select their known consumers. Unknown executable or data
-changes fall back to the full suite. Deleted or renamed paths are checked as
-deletions and additions rather than silently ignored.
+`tools/ci_select.py` implements a conservative package/import dependency closure
+from a Git diff. It includes repository metadata, archive-hash, and Markdown-link
+checks; follows changed tests, source packages, and saved certificates to known
+consumers; and falls back to the full suite for unknown executable or data
+changes. Deleted and renamed paths are treated as deletions and additions.
 
-Documentation-only changes do not rerun exhaustive mathematical searches.
-Changes to requirements, shared tools, or archived source trigger the full
-suite and historical replay. Workflow changes trigger the full suite. Scheduled
-verification runs daily at 07:23 UTC, and `workflow_dispatch` runs everything.
-The stable required `CI` job fails if planning or selected tests fail. A skipped
-archive job is accepted only when the planner says it is unnecessary.
-
-The plan and reasons appear in job logs. Static routing cannot prove complete
-mathematical dependency coverage, so the daily full run is retained. When a
-package uses a new dynamic cross-package loading pattern, add a routing test or
-use the conservative full fallback. Do not use a successful scoped run as a
-claim that every research experiment was replayed.
+The [affected-test workflow proposal](consolidation/2026-10-23/verify-affected-tests-proposal.yml)
+is retained as an inactive historical artifact. Its selective planning,
+documentation-only shortcuts, conditional replay, and proposed daily schedule
+are not used by the active workflow. The current required check always waits
+for the full test matrix, archive replay, and auxiliary Lean build described
+above. Static dependency routing cannot establish mathematical dependency
+coverage, and a successful scoped local run is not evidence that every research
+experiment was replayed.

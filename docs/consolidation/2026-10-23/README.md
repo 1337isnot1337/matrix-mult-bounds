@@ -1,13 +1,13 @@
 # Branch consolidation
 
-This maintenance branch gathers the work from 131 topic branch names. The initial
-snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated nine
-new or updated heads, including two additional topic branches. The starting main
+This maintenance branch gathers the work from 132 topic branch names. The initial
+snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated fifteen
+new or updated heads, including three additional topic branches. The starting main
 commit was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
 
 The [branch manifest](branches.json) records the exact source heads, their original
 pull requests, and the archive tags that preserve them. There are 129 initial
-tagged heads and nine tagged updates. Source histories are also ancestors of the
+tagged heads and fifteen tagged updates. Source histories are also ancestors of the
 consolidation branch. Original pull request draft status is retained in the
 manifest as provenance; consolidation does not establish mathematical review.
 
@@ -17,7 +17,7 @@ The source packages, tests, result files, and source records are combined in the
 working tree. Shared Markdown sections and JSON records are reconciled explicitly.
 Earlier packages remain available with their stated scope and limitations.
 
-The combined ledger has 602 records. Five additional identifiers distinguish
+The combined ledger has 604 records. Five additional identifiers distinguish
 independent records that previously shared an identifier. The
 [claim decisions](claim_resolution.json) preserve each source record, its evidence
 status, and any identifier or evidence-path change. The two initial historical

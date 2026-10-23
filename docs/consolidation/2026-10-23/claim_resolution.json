@@ -3,14 +3,14 @@
   "main_sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
   "branch_count": 130,
   "main_claim_count": 295,
-  "original_unique_ids": 597,
-  "consolidated_claim_count": 602,
+  "original_unique_ids": 599,
+  "consolidated_claim_count": 604,
   "original_ids_preserved": true,
   "independent_collision_extra_ids": 5,
   "evidence_statuses_unchanged": true,
   "all_original_evidence_paths_verified": true,
   "status_counts": {
-    "proof-written-unreviewed": 492,
+    "proof-written-unreviewed": 494,
     "finite-experiment": 83,
     "derivation-unreviewed": 1,
     "conditional-implication": 25,
@@ -8841,6 +8841,32 @@
       "path_or_id_replacements": [],
       "original_evidence_verified": true,
       "snapshot": "catchup"
+    },
+    {
+      "id": "AI-AGGREGATION-106-002",
+      "original_id": "AI-AGGREGATION-106-002",
+      "record_sha256": "d6faa1fee62790141d483d236d2529b009d8317fd75081bd729fdd2bd5578ad0",
+      "source_record_sha256": "d6faa1fee62790141d483d236d2529b009d8317fd75081bd729fdd2bd5578ad0",
+      "source_branch": "research/aggregation-construction-20261023-ab94",
+      "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "original_evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+      "evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "late_catchup"
+    },
+    {
+      "id": "AI-AGGREGATION-COST-FLOOR-003",
+      "original_id": "AI-AGGREGATION-COST-FLOOR-003",
+      "record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+      "source_record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+      "source_branch": "research/aggregation-construction-20261023-ab94",
+      "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "original_evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+      "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "late_catchup"
     }
   ],
   "initial_consolidated_claim_count": 599,
@@ -9356,6 +9382,381 @@
           "decision": "The actual base-relative claim ledger is unchanged; retain all prior reconciliation decisions and evidence statuses."
         }
       ]
+    },
+    "shift_window_merge": {
+      "source": "shift_window_catchup_analysis.json",
+      "branch": "research/shift-window-variable-long-leg-20261023",
+      "source_sha": "5f98f44563d54ac6c00303ae21980b57ebce012b",
+      "delta_base": "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+      "other_parent": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_claim_records": 296,
+      "source_ledger_record_map_sha256": "3a1b7991f2e505379602b301cd37774c98d10a2e72b4428a5da3f1a50cc981ca",
+      "novel_variants": [],
+      "missing_parent_ids": [],
+      "retained_consolidated_records": [
+        {
+          "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+          "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+          "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        },
+        {
+          "id": "AI-SCALAR-001",
+          "incoming_record_sha256": "ae459c9c378516d4254b741744d6381e0b7fd2d3f44e205f4812d51dffc3fc56",
+          "retained_record_sha256": "91a9cdb6d1a3e098788aa2ce13213b61d1a737a5d225d20a976cf3d4040adf73",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        },
+        {
+          "id": "EXP-S5-COLORED-033",
+          "incoming_record_sha256": "a056832d60d3a0570ad89aa1f52c1ceb98ffa756fc9b0d7c265728461d5ec738",
+          "retained_record_sha256": "f50f704fd7845a715a60a669a16c7a02d07d087dfe7dc1f976f7ac9cf17a3e16",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        },
+        {
+          "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+          "incoming_record_sha256": "474c3c7754ecc0779bb2d484cb8b1eb957bd834ea57e559b06f27a0d0c9b29c2",
+          "retained_record_sha256": "398fe8bce390740142294a4e9693497479e67b8e5d0cb73883072a71694b47fb",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        },
+        {
+          "id": "AI-CONIC-SECOND-JET-002",
+          "incoming_record_sha256": "5056a62906c9d7d157d6ba0a17932560fb3d7bbab2a6ea6045bd212fc3543628",
+          "retained_record_sha256": "59698cbc1a47b0fa98fe97e1ff6500664f03513d596cb65c2869337e67108b50",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        },
+        {
+          "id": "AI-CONIC-POLYNOMIAL-JET-003",
+          "incoming_record_sha256": "3c66b561d4a25582a556212421999b71a0d4b14559b0c7173e14488760958efd",
+          "retained_record_sha256": "e4d549a938b7532e6cc2709b317e716e5f921527bdea61bc3271b1e619b7e002",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        },
+        {
+          "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+          "incoming_record_sha256": "fe57482b213a777e44e1e7bcea02228bf0dacc5c43eb119e1b9775933aa6a4b2",
+          "retained_record_sha256": "9a112af8fbc7a4938db0afb6e6e525f4aa8ce121376a2b2038d460cc2efe282a",
+          "decision": "Incoming record is exactly inherited from an already reconciled parent ledger; preserve the deliberate consolidated limitation and evidence/status metadata."
+        }
+      ],
+      "final_claim_records": 602,
+      "decision": "The two-parent merge imports no new claim variant; keep the full consolidated ledger byte-for-byte."
     }
+  },
+  "late_catchup_addendum": {
+    "source": "late_catchup_plan.json",
+    "heads": [
+      {
+        "branch": "research/aggregation-construction-20261023-ab94",
+        "old": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+        "new": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+        "delta_base": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "old": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "new": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "old": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "new": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2"
+      },
+      {
+        "branch": "research/quadratic-z-middle-exact-20261023",
+        "old": null,
+        "new": "0d9781b6774f328d572bb3326383978215d50306",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "old": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "new": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139"
+      }
+    ],
+    "previous_claims": 602,
+    "all_previous_records_unchanged": true,
+    "added_ids": [
+      "AI-AGGREGATION-106-002",
+      "AI-AGGREGATION-COST-FLOOR-003"
+    ],
+    "decisions": [
+      {
+        "branch": "research/aggregation-construction-20261023-ab94",
+        "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+        "delta_base": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+        "id": "AI-AGGREGATION-106-002",
+        "incoming_record_sha256": "d6faa1fee62790141d483d236d2529b009d8317fd75081bd729fdd2bd5578ad0",
+        "decision": "include the distinct source claim byte-for-byte with its original proof-written-unreviewed status and false review/formalization/exponent flags",
+        "after_record": {
+          "id": "AI-AGGREGATION-106-002",
+          "title": "Exact aggregation of 106 independent matrix products with a certified cost threshold",
+          "origin": "Owner-directed Codex local combinatorial construction; external aggregation mechanism credited",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+          "section": "7",
+          "statement": "For every positive integer n over every characteristic-zero field, an explicit 106-product balanced tripartition family proves rank(M(n^4,n^4,n^4)^direct_sum106)<=x^12+12*x^11+66*x^10+139*x^9+5*x^8, x=n+1. A separate set-based implementation checks all 1191016 mixed triples and 222 corrections. Compared with the credited external 105-product bound, 106*r105-105*r106=x^8*(x^4+12*x^3+66*x^2-1451*x-207). Substituting x=8+u gives coefficients 1,44,738,3957,2649, so the cost bound per output strictly improves for every integer n>=7.",
+          "dependencies": [
+            "Solomonik and Blaeser arXiv:2610.26563v2 centered aggregation and credited ex105 comparison witness",
+            "Exported 106-product family and complete exact mixed-triple certificate",
+            "Written rational dual-embedding and inclusion-exclusion identity over characteristic zero",
+            "AI-AGGREGATION-COST-FLOOR-003 for the exponent scope of the displayed budget"
+          ],
+          "limitations": "Positive finite construction and comparison of stated upper bounds, not optimal tensor rank or a runtime guarantee. The n>=7 threshold is required for this cost comparison. Does not improve omega below 9/4; no polynomial-source restriction, historical priority, independent mathematical review or formalization is claimed. Exact seeded evaluations are controls, not the uniform proof.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-AGGREGATION-106-002",
+          "original_id": "AI-AGGREGATION-106-002",
+          "record_sha256": "d6faa1fee62790141d483d236d2529b009d8317fd75081bd729fdd2bd5578ad0",
+          "source_record_sha256": "d6faa1fee62790141d483d236d2529b009d8317fd75081bd729fdd2bd5578ad0",
+          "source_branch": "research/aggregation-construction-20261023-ab94",
+          "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+          "original_evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+          "evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "late_catchup"
+        }
+      },
+      {
+        "branch": "research/aggregation-construction-20261023-ab94",
+        "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+        "delta_base": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+        "id": "AI-AGGREGATION-COST-FLOOR-003",
+        "incoming_record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+        "decision": "include the distinct source claim byte-for-byte with its original proof-written-unreviewed status and false review/formalization/exponent flags",
+        "after_record": {
+          "id": "AI-AGGREGATION-COST-FLOOR-003",
+          "title": "Exact size gate for complete balanced aggregation cost certificates",
+          "origin": "Owner-directed Codex written argument and exact finite cost certificate",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "statement": "For every conflict-free balanced family on 3N coordinates with N<=7, and every real n>0, each displayed budget B(n)=(n+1)^(3N)+sum_{k>=1}c_k*(n+1)^(3N-k), c_k>=0, satisfies B(n)>p*n^(9N/4). Distinct coordinate parts give p<=binom(3N,N); weighted AM-GM and exact integer comparisons prove the gap. The N=8 row is a non-exclusion control, so N>=8 is necessary only for this displayed budget to pass the direct 9/4 gate.",
+          "dependencies": [
+            "External balanced conflict-free aggregation setup, Solomonik and Blaeser arXiv:2610.26563v2",
+            "Distinct-part injection argument and weighted AM-GM",
+            "Exact integer certificate for N=1 through 8"
+          ],
+          "limitations": "A limitation of the displayed rank upper-bound certificates, never a lower bound on actual tensor rank or omega. Does not exclude cheaper leading aggregates, other source identities, other target shapes, or different rank decompositions. N>=8 is not sufficient. No independent mathematical review or formalization.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source": {
+          "id": "AI-AGGREGATION-COST-FLOOR-003",
+          "original_id": "AI-AGGREGATION-COST-FLOOR-003",
+          "record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+          "source_record_sha256": "791ef16e17825136d8949f5be88b1b206c3865ab674c7d18cc49032b97e1f168",
+          "source_branch": "research/aggregation-construction-20261023-ab94",
+          "source_sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+          "original_evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "evidence": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "late_catchup"
+        }
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "decision": "retain deliberately reconciled current record; the merge imports an already known older parent variant",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/astra-support-search-20261023",
+        "source_sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+        "delta_base": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "decision": "retain deliberately reconciled current record; the merge imports an already known older parent variant",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/product-longmap-residual-20261023",
+        "source_sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+        "delta_base": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "decision": "retain deliberately reconciled current record; the merge imports an already known older parent variant",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "already represented exactly"
+      },
+      {
+        "branch": "research/regular-leg-rank-frontier-01a1691e",
+        "source_sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+        "delta_base": "8410aafc211f4d90311f4f75a66f6244912c2139",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "already represented exactly"
+      }
+    ],
+    "claims_after": 604,
+    "previous_report": "resolution_report.pre_late.json"
   }
 }
