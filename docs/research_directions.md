@@ -329,6 +329,19 @@ M(18,18,25) maps and general complex singular assembly are still missing.
 
 Verification and discovery are separate activities. A new conjecture is useful when it has evidence and a testable consequence. Label it as a conjecture rather than withholding it or promoting it to a theorem.
 
+## Source singular-space caps and the remaining flag bridge
+
+The [all-size disjoint-unit theorem](../research/ai/2026-10-23-all-size-unit-packing/proof.md)
+closes the source packing question: every complex all-singular coefficient
+subspace of A_a has dimension at most a^2(2a-2), with equality attainable.
+The proof covers all sizes; more fixed-size unit searches do not strengthen
+this cap. The A4 consequence forces a regular leading first image to be
+all-singular of dimension at most96 when a109-column regular long frame
+exists. Arbitrary Laurent degenerations need not satisfy those frame or
+regularity hypotheses. The next structural question is to force suitable
+frames or constrain the smaller singular leading images, or construct the
+target in the remaining charts. The exponent improvement remains open.
+
 ## Linear-annihilator frontier update
 
 The [pencil-degree theorem](../research/ai/2026-10-21-hankel-pencil-degree/proof.md)

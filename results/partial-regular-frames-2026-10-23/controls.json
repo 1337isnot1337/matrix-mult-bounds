@@ -1,0 +1,321 @@
+{
+  "a4_rank_cases": [
+    {
+      "forces_all_maps_regular": true,
+      "forces_regularity": true,
+      "retained": 110,
+      "source_defect": 2,
+      "strict_margins": {
+        "column_kernel_dimension": 2,
+        "first_injectivity": 9,
+        "first_pole": 10,
+        "row_kernel_dimension": 2
+      },
+      "target_defect": 0
+    },
+    {
+      "forces_all_maps_regular": true,
+      "forces_regularity": true,
+      "retained": 109,
+      "source_defect": 3,
+      "strict_margins": {
+        "column_kernel_dimension": 1,
+        "first_injectivity": 6,
+        "first_pole": 7,
+        "row_kernel_dimension": 1
+      },
+      "target_defect": 1
+    },
+    {
+      "forces_all_maps_regular": false,
+      "forces_regularity": false,
+      "retained": 108,
+      "source_defect": 4,
+      "strict_margins": {
+        "column_kernel_dimension": 0,
+        "first_injectivity": 3,
+        "first_pole": 4,
+        "row_kernel_dimension": 0
+      },
+      "target_defect": 2
+    }
+  ],
+  "column_kernel_examples": [
+    {
+      "column_minimum_for_this_map": 4,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 3,
+      "projected_rank": 3,
+      "source_parameter_dimension": 6,
+      "source_projection_defect": 1
+    },
+    {
+      "column_minimum_for_this_map": 4,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 4,
+      "projected_rank": 2,
+      "source_parameter_dimension": 6,
+      "source_projection_defect": 2
+    },
+    {
+      "column_minimum_for_this_map": 4,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 5,
+      "projected_rank": 1,
+      "source_parameter_dimension": 6,
+      "source_projection_defect": 3
+    },
+    {
+      "column_minimum_for_this_map": 5,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 3,
+      "projected_rank": 4,
+      "source_parameter_dimension": 7,
+      "source_projection_defect": 1
+    },
+    {
+      "column_minimum_for_this_map": 5,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 4,
+      "projected_rank": 3,
+      "source_parameter_dimension": 7,
+      "source_projection_defect": 2
+    },
+    {
+      "column_minimum_for_this_map": 5,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 5,
+      "projected_rank": 2,
+      "source_parameter_dimension": 7,
+      "source_projection_defect": 3
+    },
+    {
+      "column_minimum_for_this_map": 6,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 3,
+      "projected_rank": 5,
+      "source_parameter_dimension": 8,
+      "source_projection_defect": 1
+    },
+    {
+      "column_minimum_for_this_map": 6,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 4,
+      "projected_rank": 4,
+      "source_parameter_dimension": 8,
+      "source_projection_defect": 2
+    },
+    {
+      "column_minimum_for_this_map": 6,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 5,
+      "projected_rank": 3,
+      "source_parameter_dimension": 8,
+      "source_projection_defect": 3
+    },
+    {
+      "column_minimum_for_this_map": 7,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 3,
+      "projected_rank": 6,
+      "source_parameter_dimension": 9,
+      "source_projection_defect": 1
+    },
+    {
+      "column_minimum_for_this_map": 7,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 4,
+      "projected_rank": 5,
+      "source_parameter_dimension": 9,
+      "source_projection_defect": 2
+    },
+    {
+      "column_minimum_for_this_map": 7,
+      "equality_allows_injective_kernel_map": true,
+      "kernel_dimension": 5,
+      "projected_rank": 4,
+      "source_parameter_dimension": 9,
+      "source_projection_defect": 3
+    }
+  ],
+  "improves_omega": false,
+  "independent_target_frames": [
+    {
+      "compressed_identity_rank": 0,
+      "retained": 1,
+      "source_frame_determinants": [
+        -1,
+        1
+      ],
+      "target_dimension": 2,
+      "target_frames_distinct": true
+    },
+    {
+      "compressed_identity_rank": 1,
+      "retained": 2,
+      "source_frame_determinants": [
+        1,
+        1
+      ],
+      "target_dimension": 3,
+      "target_frames_distinct": true
+    },
+    {
+      "compressed_identity_rank": 2,
+      "retained": 3,
+      "source_frame_determinants": [
+        -1,
+        1
+      ],
+      "target_dimension": 4,
+      "target_frames_distinct": true
+    },
+    {
+      "compressed_identity_rank": 3,
+      "retained": 4,
+      "source_frame_determinants": [
+        1,
+        1
+      ],
+      "target_dimension": 5,
+      "target_frames_distinct": true
+    }
+  ],
+  "polar_unit_and_long_map_examples": [
+    {
+      "partial_frame_ranks": [
+        1,
+        1
+      ],
+      "retained": 1,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 1,
+      "unselected_long_pole_order": 1
+    },
+    {
+      "partial_frame_ranks": [
+        1,
+        1
+      ],
+      "retained": 1,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 2,
+      "unselected_long_pole_order": 2
+    },
+    {
+      "partial_frame_ranks": [
+        1,
+        1
+      ],
+      "retained": 1,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 3,
+      "unselected_long_pole_order": 3
+    },
+    {
+      "partial_frame_ranks": [
+        2,
+        2
+      ],
+      "retained": 2,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 1,
+      "unselected_long_pole_order": 1
+    },
+    {
+      "partial_frame_ranks": [
+        2,
+        2
+      ],
+      "retained": 2,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 2,
+      "unselected_long_pole_order": 2
+    },
+    {
+      "partial_frame_ranks": [
+        2,
+        2
+      ],
+      "retained": 2,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 3,
+      "unselected_long_pole_order": 3
+    },
+    {
+      "partial_frame_ranks": [
+        3,
+        3
+      ],
+      "retained": 3,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 1,
+      "unselected_long_pole_order": 1
+    },
+    {
+      "partial_frame_ranks": [
+        3,
+        3
+      ],
+      "retained": 3,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 2,
+      "unselected_long_pole_order": 2
+    },
+    {
+      "partial_frame_ranks": [
+        3,
+        3
+      ],
+      "retained": 3,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 3,
+      "unselected_long_pole_order": 3
+    },
+    {
+      "partial_frame_ranks": [
+        4,
+        4
+      ],
+      "retained": 4,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 1,
+      "unselected_long_pole_order": 1
+    },
+    {
+      "partial_frame_ranks": [
+        4,
+        4
+      ],
+      "retained": 4,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 2,
+      "unselected_long_pole_order": 2
+    },
+    {
+      "partial_frame_ranks": [
+        4,
+        4
+      ],
+      "retained": 4,
+      "source_rank_hypotheses_asserted": false,
+      "unit_equation_exact": true,
+      "unit_pole_order": 3,
+      "unselected_long_pole_order": 3
+    }
+  ],
+  "proof_status": "proof-written-unreviewed",
+  "scope": "Finite matrix controls for a written all-order theorem; partial frames are hypotheses.",
+  "source_pins": 3
+}
