@@ -1,5 +1,20 @@
 # Research status
 
+## Mixed conic lifts through order four and a rational order-ten witness
+
+The [higher-jet proof](research/ai/2026-10-23-conic-higher-jets/proof.md)
+extends PR107's mixed family through order four for every complex a,b,d
+with d nonzero and c=-d^3. The explicit coefficients lie in
+Q[a,b,d,d^-1], with d-pole order at most three. A separate rational
+witness extends the point a=1,b=2,d=1 through order ten. Both preserve
+PR107's constant, first and second coefficients. The symbolic and
+rational acceptance programs contract the literal 4096-term source
+and check every moving-kernel coefficient, with leading ranks14,14,12.
+Claims `AI-CONIC-MIXED-FOURTH-JET-001` and
+`AI-CONIC-RATIONAL-TENTH-JET-002` are written and unreviewed. These are
+rank-twelve incidence jets; an all-order mixed curve, the full matrix
+target and a smaller exponent remain unconstructed here.
+
 ## Third-order lifts on the mixed cubic conic component
 
 The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)

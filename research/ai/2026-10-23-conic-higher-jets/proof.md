@@ -117,7 +117,10 @@ Both results concern rank-twelve incidence of two fourteen-row maps of
 the canonical 112-cubed source. They do not construct the full
 M(10,10,11) target, prove an all-order formal curve, or improve omega.
 The symbolic statement covers order four; order ten is established
-only at the specified rational point. The d=0 cubic fiber remains open.
+only at the specified rational point. The d=0 cubic fiber is outside
+these witnesses. Concurrent [PR123](https://github.com/1337isnot1337/matrix-mult-bounds/pull/123)
+at16025c8148d335ba64a0de8824780f72b9cf5ccc supplies a separate exact
+curve on that fiber; that result is not claimed here.
 
 The next question is whether a finite algebraic parameterization explains
 these compatible jets. All retained maps have paired rows separated by

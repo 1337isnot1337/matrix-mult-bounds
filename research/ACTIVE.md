@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The October23 higher-conic continuation is in
+`ai/2026-10-23-conic-higher-jets/proof.md`, following PR107 at86b5142.
+The explicit mixed fourth-order family and separate rational tenth-order
+witness pass direct source replay and seven focused tests. The next
+question is an exact algebraic parameterization of the mixed component;
+finite jet compatibility is not an all-order proof. Full local regression
+and historical replay are required before merge. The claims retain
+written, unreviewed status and do not construct the matrix target.
+
 The October23 continuation on `research/conic-third-order-20261023`
 studies `ai/2026-10-23-conic-third-jets/QUESTION.md`, following merged
 PR101 at `539b539` and integrating nonsplit main `dcd209a`. It supplies
