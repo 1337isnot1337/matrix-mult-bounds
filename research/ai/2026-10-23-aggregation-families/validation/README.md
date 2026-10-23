@@ -1,4 +1,13 @@
-# Complete validation coverage for the construction checkpoint
+# Complete validation coverage through the cost-gate refinement
+
+All 909 tests discovered after the N<=10 cost-gate refinement have passed
+with the combined coverage recorded below. The
+[construction receipt](combined_report.json) preserves its earlier
+908-case checkpoint. The [cost-gate delta](costgate_delta_report.json)
+records the replacement of the changed aggregation module and the two
+metadata checks. No uninterrupted full run on the final tree is claimed.
+
+## Construction checkpoint
 
 All 908 tests discovered at construction commit
 `f802c00d04c3f64c7436b4c9d4da67b81a1834b8`, tree
@@ -44,3 +53,29 @@ repository command `python -m unittest discover -s tests -v`.
 
 These checks establish the recorded computational coverage. They do not
 change the mathematical claims' written-and-unreviewed status.
+
+## Cost-gate continuation
+
+The refinement in `7636f7a4b1c84032a32ea03cb17b33b50ebeb7e5`, applied locally
+as `da2dda0b104b2b2ee76a51d1eff352a4687442e0`, changes the cost-floor
+certificate and adds one focused test. The complete twelve-case
+aggregation module passed in 41.322 seconds on the matching cost-gate
+code. Its preserved log and test-module hash appear in the delta receipt.
+The construction algorithms, witnesses, and other test sources are
+unchanged. Their equality is checked against the relevant Git objects.
+
+After the cherry-pick and final documentation edits, the claim-ledger
+reader and relative Markdown links test passed again. The earlier
+instances of those two tests are excluded from the final coverage count.
+
+| Evidence component | Cases counted |
+| --- | ---: |
+| Unchanged cases from the construction receipt | 895 |
+| Final aggregation focused module | 12 |
+| Final claim-ledger and relative-link checks | 2 |
+| Exact union | 909 |
+
+The preserved interrupted prefix ends with unittest's unfinished test
+header and its terminal space. That one raw-log whitespace occurrence is
+intentional: the original bytes and their SHA256 are retained. It is not
+a source-code formatting change.

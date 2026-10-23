@@ -1,14 +1,16 @@
 {
   "focused_tests": {
     "command": "python -m unittest discover -s tests -p test_aggregation_families.py -v",
-    "passed": 11,
+    "passed": 12,
     "failures": 0,
     "errors": 0,
-    "runtime_seconds": 26.05,
-    "scope": "Final 29-product and 106-product code, witnesses, source fixtures, and cost-floor table in this commit",
-    "test_module_sha256": "8a7d9c4382f9cf76db0f696207d83f60f83542544a940f77026e8352f1ed9ef2",
+    "runtime_seconds": 41.322,
+    "scope": "Final 29-product and 106-product constructions, exact N<=10 cost floor, and exhaustive N=1 hypothesis control; source equivalence to the applied cost-gate checkpoint is verified in the delta receipt.",
+    "code_matches_commit": "7636f7a4b1c84032a32ea03cb17b33b50ebeb7e5",
+    "test_module_sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
     "verifier_sha256": "0fbc73a6598ea438b8bde1b60d6498d3c57606c4a44e0821b1734c3e2d428003",
-    "binary_evaluator_sha256": "d6d6a00a9c17487d5ccbbbf79f9c7e0298895ccfbd973e83a0f6c0613503a589"
+    "binary_evaluator_sha256": "d6d6a00a9c17487d5ccbbbf79f9c7e0298895ccfbd973e83a0f6c0613503a589",
+    "log": "validation/costgate-focused.log"
   },
   "exact_verifiers": [
     {
@@ -76,24 +78,20 @@
     }
   },
   "full_regression_suite": {
-    "status": "passed_combined_exact_coverage",
-    "code_checkpoint": "f802c00d04c3f64c7436b4c9d4da67b81a1834b8",
-    "code_tree": "ca5f7ce98a9f306e71bb5f0270cfd5b39581a695",
-    "command": "python -m unittest discover -s tests -v, followed by two recorded remainder shards",
-    "expected_tests": 908,
-    "covered_tests": 908,
-    "retained_baseline_prefix_tests": 448,
-    "superseded_old_aggregation_tests": 6,
-    "final_focused_aggregation_tests": 11,
-    "remaining_shard_tests": [
-      225,
-      224
-    ],
+    "status": "passed_combined_exact_coverage_with_costgate_delta",
+    "expected_tests": 909,
+    "covered_tests": 909,
+    "retained_unchanged_tests": 895,
+    "final_focused_aggregation_tests": 12,
+    "final_metadata_tests": 2,
     "failures": 0,
     "errors": 0,
     "skipped_tests": 0,
-    "receipt": "validation/combined_report.json",
-    "scope": "Combined exact coverage, not one monolithic frozen run. The six old aggregation cases are discarded; the final eleven-case focused pass replaces them. Every other test and implementation source is unchanged from the launch baseline. Both remainder shards ran on frozen f802c00, with HEAD/tree and clean-worktree checks before and after. The three changed files outside the aggregation package/module are documentation and the claim ledger; its reader passed on the frozen checkpoint."
+    "construction_checkpoint": "f802c00d04c3f64c7436b4c9d4da67b81a1834b8",
+    "costgate_checkpoint": "da2dda0b104b2b2ee76a51d1eff352a4687442e0",
+    "construction_receipt": "validation/combined_report.json",
+    "final_receipt": "validation/costgate_delta_report.json",
+    "scope": "The prior 908-case receipt supplies 895 unchanged cases after excluding its eleven aggregation cases and its ledger/link checks. The complete final twelve-case aggregation module and two final metadata tests replace those cases. Their disjoint union equals all 909 currently discovered IDs. The cost-gate focused pass used code matching 7636f7a; all differences in the applied tree are validation evidence and documentation. Final proof and README edits were present for the metadata checks. No other baseline implementation, test source, or construction witness changed."
   },
   "independent_mathematical_review": false,
   "exact_cost_scope": {
@@ -111,7 +109,10 @@
       5,
       6,
       7,
-      8
+      8,
+      9,
+      10,
+      11
     ],
     "all_family_sizes_excluded": [
       1,
@@ -120,7 +121,10 @@
       4,
       5,
       6,
-      7
+      7,
+      8,
+      9,
+      10
     ],
     "applies_to": "Displayed upper-bound budgets charging the complete leading aggregate; no lower bound on optimal tensor rank or omega"
   }

@@ -56,8 +56,10 @@ combinatorial certificate plus the written all-n coordinate identity.
 All maintained acceptance tools use only the Python standard library.
 Tests enforce the advertised product counts, reject altered source
 bytes, remove a required correction, and understate a cost. Saved reports
-record their exact scopes. `validation.json` distinguishes the final
-focused tests from the older full-suite run launched before these updates.
+record their exact scopes. `validation.json` and the complete
+[validation receipts](validation/README.md) account for all 909 discovered
+tests through the cost-gate refinement. They distinguish the preserved
+baseline successes, final focused tests, and recorded remaining shards.
 
 ## Optional discovery reproduction
 
