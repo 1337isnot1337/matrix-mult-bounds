@@ -11,14 +11,27 @@ quantified extensive leading rank loss. Exact separated-window examples
 retain the narrower positive construction Q(n,m) to M(floor(n/m),m,floor(n/m)).
 Claim `AI-PAIRED-COLUMN-OVERLAP-001` remains written and unreviewed.
 
+The [arbitrary constant-compression proof](ai/2026-10-23-a4-compression-algebra/proof.md)
+now closes the fixed two-sided A4 conjugation family: every rank-26
+compression of its 46-dimensional outer space has dimension at least 38,
+so every constant rank-110 compression of the full limit has dimension
+at least 104, above the necessary target maximum 103. Exact acceptance
+covers all 2,809 graded loss-budget pairs and 24 minor identities while
+the proof retains arbitrary within-weight subspaces. Do not repeat
+constant-compression searches for this fixed family. The remaining
+constructive scope is moving long-map compressions or a genuinely
+different singular family, with all target coefficients checked.
+Claim `AI-A4-ARBITRARY-COMPRESSION-001` is written and unreviewed; no
+full target or exponent improvement is established.
+
 The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)
 is now complete: all 142,884 outer deletion pairs have dimension at least
 40, with two exact equality witnesses. This excludes all independent
 coordinate long-leg compressions of the fixed A4 conjugation family;
-their maximum leading loss is six. Continue with arbitrary noncoordinate
-flags in the [algebra question](ai/2026-10-23-a4-compression-algebra/QUESTION.md),
-not another coordinate census. Claim `AI-A4-INDEPENDENT-COORDINATE-004`
-remains written and unreviewed.
+their maximum leading loss is six. The universal proof above now also
+closes arbitrary constant flags. Retain the coordinate census for its
+sharper dimension bound and exact equality witnesses. Claim
+`AI-A4-INDEPENDENT-COORDINATE-004` remains written and unreviewed.
 
 The [two-sided full-source conjugation investigation](ai/2026-10-23-conjugation-limit/README.md)
 now has a complete limiting-space certificate and a written necessary
@@ -27,20 +40,21 @@ at least nine leading directions to permit `M(10,10,11)`. Every one
 of the 6,216 principal coordinate deletions loses at most four, so that
 finite class is closed. Keep the projected leading space distinct from
 the full re-saturated limit; the proof explicitly bounds newly recovered
-directions. The remaining question in this family is the locus
-`dim(P L C)<=103`. Moving compressions and genuinely different singular
-paths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and
+directions. The universal result above now excludes the locus
+`dim(P L C)<=103` for constant compressions. Moving compressions and
+different singular paths remain possible. Claims `AI-A4-TWOSIDED-RANKLOSS-001` and
 `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed. No full
 target or exponent improvement is established.
 
 The [low-rank-locus reduction](ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
-makes that remaining question explicit: find, or exclude, a 26-dimensional
+makes the former question explicit: find, or exclude, a 26-dimensional
 U and two-dimensional W for which at least nine matrices in the fixed
 46-dimensional outer space E send U into W. Equivalently a rank-26
 compression of E must have image dimension at most 37. All killed
 112-dimensional limiting matrices are confined to this outer block.
-Claim `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed; a universal
-lower bound of 38 and all successful full-target maps remain unproved.
+Claim `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed; the new
+proof above supplies the universal lower bound of 38. Successful
+full-target maps remain unconstructed.
 
 The two [recorded follow-up families](ai/2026-10-23-conjugation-limit/EXPLORATION.md)
 are complete for principal coordinate compressions: the product of the
@@ -235,7 +249,7 @@ projection alternative to projection zero. Both families remain open.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-mixed-exceptional-affine/QUESTION.md`. A new affine family
-has at least38 normal directions, exactly38 generically. Its base graph
+has at least 38 normal directions, exactly38 generically. Its base graph
 is fully excluded after recomputing all38 directions. The rest of the
 family and exceptional affine four-planes remain open. Claim095 records
 polynomial family identities separately from finite discovery grids.

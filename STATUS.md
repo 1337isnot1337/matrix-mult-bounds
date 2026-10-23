@@ -20,6 +20,25 @@ more extensively singular leading blocks remain open. Claim
 window restrictions and a full-channel sharp flattening example test its
 scope; no exponent improves.
 
+## Arbitrary constant compressions of the fixed two-sided A4 family are excluded
+
+The [universal compression proof](research/ai/2026-10-23-a4-compression-algebra/proof.md)
+settles the 46-dimensional outer-space question over C. Every rank-26
+pair has `dim(P E C)>=38`, so every constant rank-110 compression of
+the fixed full 112-dimensional conjugation limit has dimension at least
+104. The necessary target bound is 103. This excludes all constant
+compressions in that one family, including arbitrary Laurent first maps.
+
+A torus limit retains arbitrary subspaces within each weight space and
+reduces the proof to 2,809 weight-budget pairs. Exact zero-block equations
+cover 2,781 pairs, quadratic-form bounds cover 25 more, and explicit minor
+identities plus a shared-flag argument close the final three. Acceptance
+reconstructs the literal source and all 24 retained minor identities.
+Claim `AI-A4-ARBITRARY-COMPRESSION-001` is written and unreviewed;
+same-session checks are not independent review. Moving compressions and
+different singular paths remain open. No full target or exponent gain
+is established, and the lower bound 38 is not claimed to be sharp.
+
 ## Independent coordinate compressions are excluded with sharp loss six
 
 The [complete independent-coordinate census](research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
@@ -31,8 +50,9 @@ bound to every independent coordinate compression of the full fixed
 112-dimensional conjugation family. Its target requires loss at least
 nine, so the entire coordinate class is excluded. Claim
 `AI-A4-INDEPENDENT-COORDINATE-004` is written and unreviewed, with finite
-computer assistance. Arbitrary noncoordinate flags remain a separate
-question; no target or exponent improvement is established.
+computer assistance. The separate universal theorem above closes
+arbitrary constant flags; the sharper coordinate bound remains useful.
+No target or exponent improvement is established.
 
 ## Two-sided singular A4 maps require at least nine lost leading directions
 
@@ -54,8 +74,8 @@ coordinate compressions have projected rank at least 108 modulo 1009,
 hence dimension at least 108 over C. They lose at most four leading
 directions and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`
 and `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.
-The arbitrary constant-compression locus of dimension at most 103,
-moving compressions and other singular paths remain open. This is a
+The new universal result above excludes that constant-compression locus.
+Moving compressions and other singular paths remain open. This is a
 scoped obstruction; it supplies no target or exponent improvement.
 
 The [low-rank reduction](research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
@@ -66,8 +86,9 @@ therefore requires rank-26 maps with `dim(Phat E Chat)<=37`.
 Exact replay checks 112 block-coordinate identities and 16
 transpose-conjugation identities; the minimum-rank-six input retains
 the prior resolvent package's credit. Claim
-`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The remaining
-universal lower bound of 38 is not proved.
+`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The new compression
+proof above supplies the universal lower bound of 38 that this reduction
+left open; its original proof and certificates retain their prior scope.
 
 Two [finite two-sided follow-ups](research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
 also screen all 6,216 principal coordinate pairs per family. A product

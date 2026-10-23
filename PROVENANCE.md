@@ -12,6 +12,19 @@ checked the argument within the generating session; this does not supply
 independent mathematical review. No full near-capacity matrix family,
 historical priority, formalization, or exponent improvement is claimed.
 
+The `2026-10-23-a4-compression-algebra` package is owner-directed OpenAI
+Codex work. It imports the full two-sided conjugation limit, scalar-action
+target obstruction and low-rank support reduction with their existing
+credit and exact byte pins. Its new contribution is the universal bound
+38 for arbitrary constant rank-26 compressions of the specified outer
+space. A torus limit, exact homogeneous minor identities and a coupled
+flag argument replace the remaining unrestricted constant-compression
+question. Acceptance reconstructs the literal source separately from
+the discovery script. Root and another subagent checked the argument
+within the generating session; this is not independent mathematical
+review or formalization. No full matrix target, historical priority or
+exponent improvement is claimed.
+
 The `2026-10-23-a4-coordinate-compressions` continuation retains the
 PR213 source, block-space reduction and nine-direction requirement with
 exact published dependency pins. The new additions are the complete
