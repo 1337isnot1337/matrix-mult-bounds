@@ -17,6 +17,18 @@ incidence to the full matrix target. The all-order local curve alone
 does not construct M(10,10,11). Concurrent PR123 retains its separate
 exact d=0 curve preserving its credited two-jet.
 
+The [rank-48 source-space theorem](../research/ai/2026-10-23-torus-rank-frontier/proof.md)
+forces the two scalar-balanced long-map ranks to sum to at most176,
+strengthening concurrent PR122's sum192 bound. The separate
+[sharp rank23 cap](../research/ai/2026-10-23-torus-low-rank/proof.md)
+limits each rank to at most101. Do not repeat the excluded region.
+Determine bounds for larger low-rank source spaces, or add source-specific
+constraints to the saturated target-support inequality on the remaining
+region. Neither the dimension24 bound nor sum176 is asserted sharp.
+The [initial singular-long theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
+retains the credited regular kernel correction and active-ruling argument;
+its former rank105 boundary has been superseded by these extensions.
+
 ## Active paired construction: near-full width four
 
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)

@@ -59,6 +59,57 @@ lifts and all-order existence for the normal class, with their distinct
 lower-coefficient conditions. The full matrix target remains open.
 No smaller exponent is established.
 
+## Balanced A4 long-map rank sum is at most176
+
+The [rank-48 source-space proof](research/ai/2026-10-23-torus-rank-frontier/proof.md)
+shows that every complex linear A4 source space whose slices all have
+rank below48 has dimension at most24. Torus specialization, disjoint
+middle blocks and the earlier rank23 cap prove this for arbitrary
+complex subspaces. Combined with the credited saturated target-support
+inequality, it forces `rank(B0)+rank(C0)<=176` in every complete A4 to
+M(10,10,11) Laurent degeneration after scalar-balancing the two long
+maps. The first map may have arbitrary finite poles, and higher
+coefficients are unrestricted. This strengthens concurrent PR122's
+sum192 bound; the total leading long-rank loss is at least44.
+Claims `AI-A4-RANK48-LINEAR-SPACE-001` and
+`AI-A4-BALANCED-LONG-SUM176-002` are written and unreviewed. The separate
+rank102 exclusion below also applies: both ranks are at most101.
+Neither24 nor176 is asserted sharp; no surviving target or exponent
+gain is constructed.
+
+## Sharp rank-23 source-space cap and long-map rank 102 exclusion
+
+The [torus specialization proof](research/ai/2026-10-23-torus-low-rank/proof.md)
+shows that every complex linear space of A4 slices of rank at most23
+has dimension at most8, with an explicit8-dimensional example. The
+rank-preserving diagonal source action reduces arbitrary subspaces to
+coordinate subspaces; sixteen determinant-one minors give the finite
+coordinate obstruction. Combined with the active-ruling argument, this
+excludes every A4 to M(10,10,11) degeneration with either scalar-balanced
+long-map limit of rank at least102. Both other maps may have arbitrary
+finite poles. Claims `AI-A4-LOW-RANK-SPACE-CAP-001` and
+`AI-A4-SINGULAR-LONG-102-002` are written and unreviewed. All remaining
+candidates have both balanced long ranks at most101. A12-dimensional
+space of rank-at-most24 slices shows why the source-cap argument stops
+there. No full matrix target or improved exponent is established.
+
+## A4 long-map limits must lose at least five ranks
+
+The [singular-long-rank proof](research/ai/2026-10-23-singular-long-rank/proof.md)
+excludes A4 to M(10,10,11) whenever either scalar-balanced long map has
+limiting rank at least 106. Both other maps can have arbitrary finite
+Laurent poles; no hypothesis on the target-unit lift is needed. The
+regular kernel correction credited to PR113 combines with the existing
+source rank gap: an active target ruling would inject ten dimensions
+into the source's minimum-rank cone, which cannot contain that linear
+space. Claim `AI-A4-SINGULAR-LONG-RANK-001` is written and unreviewed.
+Exact controls check eight literal source slices, including a rank-20
+boundary witness, and the strict singular-column and ruling budgets.
+This first checkpoint gave the rank105 boundary; the later rank102
+and sum176 results above further restrict the surviving candidates.
+This supersedes the regular-unit hypotheses in the earlier scoped
+exclusions below. No matrix target or smaller exponent is established.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
