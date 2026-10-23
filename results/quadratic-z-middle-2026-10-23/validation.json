@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "claim": "AI-QUADRATIC-Z-MIDDLE-RANK-001",
+  "status": "pass",
+  "primary": {
+    "status": "pass",
+    "fixed_seed": 20261023,
+    "exhaustive": 580,
+    "seeded": 960,
+    "spectrum": 135,
+    "basis_vectors": 940,
+    "method": "literal full source coefficient matrix, exact prime-field ranks, explicit kernel vectors, all original column identities"
+  },
+  "independent_charzero": {
+    "status": "pass",
+    "field": "Q",
+    "independent_terms": 36,
+    "exact_rational_kernel_vectors": 105,
+    "modular_prime": 1000003,
+    "seed": 292929,
+    "method": "independent term placement, rank lower bound mod prime, rational null-vector upper bound"
+  },
+  "scope": "Finite controls corroborate written all-field proof. Both verifiers from same session; no independent mathematical review, full project regression, hosted CI, degeneration, or exponent gain claimed."
+}
