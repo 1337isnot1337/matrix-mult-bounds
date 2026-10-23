@@ -1,5 +1,15 @@
 # Research directions
 
+The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)
+gives a finite exact procedure for the two kernel indices of arbitrary
+`u(x)+z*v(x)+z^2*w(x)`, and hence the full source rank at every b>=3.
+The constant first-index case is characterized by a fixed linear factor.
+The next structural question is to bound positive first indices in terms
+of additional polynomial-factor geometry, beyond coefficient degrees and
+pairwise resultants. Preserve exact full-output coefficients and distinguish
+these individual-slice constraints from a source-space cap or a full
+matrix target. The claim remains written and unreviewed.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

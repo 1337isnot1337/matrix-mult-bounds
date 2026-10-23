@@ -1,5 +1,23 @@
 # Research status
 
+## General quadratic biform ranks from two kernel indices
+
+The [quadratic-kernel theorem](research/ai/2026-10-23-quadratic-kernel-indices/proof.md)
+makes the rank of every nonzero `u(x)+z*v(x)+z^2*w(x)` slice computable
+over any field, with coefficient degrees below a, a>=2 and b>=3.
+After common-factor normalization, let D be the largest coefficient degree.
+The two polynomial-kernel indices sum to aD; the first is the first degree
+at which the explicit recurrence coefficient matrix has a nonzero kernel,
+which occurs by floor(aD/2). The full source rank is
+`ab+min(b,mu1)+min(b,mu2)`. For positive D, a zero first index is equivalent
+to a fixed ground-field linear factor in the homogeneous z-quadratic.
+This specializes the prior kernel-bundle identity and adds an effective
+two-index procedure. Exact finite controls compare 2010 complete source
+matrices, including the earlier equal-resultant ranks14/15 and their
+characteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is
+written and unreviewed. No source-space cap, compatible matrix target,
+singular degeneration or exponent improvement is established.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
