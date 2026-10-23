@@ -1,0 +1,44 @@
+{
+  "schema": "a4-independent-coordinate-sources-v1",
+  "parent_pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/213",
+  "parent_commit": "1b40c0379931508c7a0b180e2fbb7933317432ce",
+  "field": "Integer source and kernel identities; finite-field rank lower bounds at 1009 imply complex dimensions.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/verify.py",
+      "commit": "1b40c0379931508c7a0b180e2fbb7933317432ce",
+      "sha256": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+      "scope": "Literal normalized source reconstruction; imported with existing credit. The new verifier rebuilds E and its elimination independently of prior discovery.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/1b40c0379931508c7a0b180e2fbb7933317432ce/research/ai/2026-10-23-conjugation-limit/verify.py"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "commit": "1b40c0379931508c7a0b180e2fbb7933317432ce",
+      "sha256": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+      "scope": "AI-A4-TWOSIDED-RANKLOSS-001: a full target requires loss of at least nine leading directions for this fixed conjugation family and arbitrary constant rank-110 compressions.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/1b40c0379931508c7a0b180e2fbb7933317432ce/research/ai/2026-10-23-conjugation-limit/proof.md"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "commit": "1b40c0379931508c7a0b180e2fbb7933317432ce",
+      "sha256": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+      "scope": "AI-A4-TWOSIDED-LOWRANK-003: dim E=46 and every full constant-compression kernel is exactly an induced E compression kernel.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/1b40c0379931508c7a0b180e2fbb7933317432ce/research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "commit": "1b40c0379931508c7a0b180e2fbb7933317432ce",
+      "sha256": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+      "scope": "Exact coefficient acceptance of the complete block form and transpose-conjugation; used only as a test cross-check.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/1b40c0379931508c7a0b180e2fbb7933317432ce/research/ai/2026-10-23-conjugation-limit/block_reduction.py"
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+      "commit": "1b40c0379931508c7a0b180e2fbb7933317432ce",
+      "sha256": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+      "scope": "Exact 112-row block-coordinate certificate supplying independence and the dimension-46 outer space.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/1b40c0379931508c7a0b180e2fbb7933317432ce/results/conjugation-limit-2026-10-23/block-certificate.json"
+    }
+  ],
+  "new_contribution": "Complete finite independent-coordinate census, its two sharpness witnesses, and exclusion of all independent coordinate long-leg deletions via the credited low-rank reduction. No new external theorem, arbitrary-flag exclusion, target, independent review or exponent improvement."
+}
