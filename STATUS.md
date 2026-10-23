@@ -1,5 +1,29 @@
 # Research status
 
+## A shared-output candidate fails for every target first identification
+
+The [exact second-leg Koszul certificate](research/ai/2026-10-23-shared-output-koszul/proof.md)
+rejects the canonical format-preserving candidate from ten Full(5,4)
+blocks to ten Full(5,3), one Full(5,2), and two shared-output P(5,4,2)
+blocks. It has a strictly larger symmetric operational score and passes
+the previously used common-leg screens, but the second-leg degree-one
+Koszul rank increases from2595 to2616. Ten integer minors with determinant
+plus or minus one and56 exact kernel vectors certify the ranks.
+
+The separate [all-identifications proof](research/ai/2026-10-23-shared-output-koszul/universal_identifications.md)
+extends the exclusion to every independent invertible first-leg
+identification of the thirteen target blocks. The target rank is always
+at least2616. A squarefree contraction bounds Full/Full pair kernels;
+constant-rank coefficient pencils bound the shared-output pair kernels.
+All degeneration maps, including singular or polar first-map charts, are
+covered. The source still has one common canonical first coefficient
+basis. Claims `AI-SHARED-OUTPUT-KOSZUL-001` and
+`AI-SHARED-OUTPUT-ALL-IDENTIFICATIONS-002` are written and unreviewed.
+The frozen canonical checkpoint retains its original scope; this separate
+extension removes its target-identification limitation. No general
+mixed-orientation barrier, tensor construction or smaller exponent follows.
+Future mixed-output candidates must be screened on both nonshared legs.
+
 ## Arbitrary common-input Full/Mid mixtures preserve the operational barrier
 
 The [symmetric-power rank argument](research/ai/2026-10-23-common-input-rank-barrier/proof.md)

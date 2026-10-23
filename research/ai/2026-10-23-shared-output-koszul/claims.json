@@ -1,0 +1,18 @@
+{
+  "claims": [
+    {
+      "id": "AI-SHARED-OUTPUT-KOSZUL-001",
+      "status": "proof-written-unreviewed",
+      "statement": "Over C, the canonical shared-first partial sum 10 Full(5,4) does not degenerate to 10 Full(5,3)+Full(5,2)+2 P_(5,4,2), since the second-leg degree-one Koszul rank increases from 2595 to 2616.",
+      "proof": "research/ai/2026-10-23-shared-output-koszul/proof.md",
+      "evidence": [
+        "results/shared-output-koszul-2026-10-23/certificate.json",
+        "results/shared-output-koszul-2026-10-23/verification.json",
+        "tests/test_shared_output_koszul.py"
+      ],
+      "scope": "Literal canonical first coefficient bases at both endpoints, and all global orbit-equivalent endpoints; arbitrary complex degeneration maps on every leg.",
+      "limitations": "Independent first-basis changes in different target blocks are not excluded by this checkpoint. No general mixed-orientation packing obstruction, tensor construction, formalization, independent mathematical review or improved exponent is claimed.",
+      "unproved_premises": []
+    }
+  ]
+}

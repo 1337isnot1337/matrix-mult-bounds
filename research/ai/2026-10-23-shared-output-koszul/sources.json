@@ -1,0 +1,33 @@
+{
+  "inspection_date": "2026-10-23",
+  "field_scope": "Complex tensor orbit closure; every accepted endpoint matrix rank has a rational minor/kernel certificate.",
+  "attribution": "Owner-directed Codex work. The research-frontier agent discovered the mixed-orientation candidate and supplied its exact score comparison. The audit agent developed the second-leg certificate; both agents independently obtained the same rank totals in the same session. Koszul flattenings and rank semicontinuity are classical and already used in prior repository work. No historical priority or independent mathematical review is claimed.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/research_note.md",
+      "commit": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+      "sha256": "8b9d94db1a1f5be11ad3f4179c790725be13b612a3382fbc7bf7084afb0c280f",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/fe602e418743f37a7cfa54d788b64aaf8a9d6095/research/ai/2026-10-20-koszul/research_note.md",
+      "role": "Prior Koszul definition, classical provenance, and shared-first-leg screen. Its closed convolution rank formulas are not needed for the new obstruction."
+    },
+    {
+      "path": "research/ai/2026-10-23-shared-output-koszul/discovery_input.json",
+      "sha256": "31bb3aecab0ac8f332b455b7cf0619998c0ac7c69b297c8c8214b01ef02e4fc5",
+      "role": "Immutable input record supplied by the research-frontier agent, including exact candidate coefficients, score comparison, search scope, and prior screens. Only the literal coefficients and score comparison are used in the new acceptance calculation."
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "AVZ26",
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": ["Alimzhan Amanov", "Maxim van den Berg", "Jeroen Zuiddam"],
+      "version": "arXiv:2610.30054v1, October21,2026",
+      "url": "https://arxiv.org/html/2610.30054v1",
+      "inspection": "Primary Definition5.5 and equation(5.7), already inspected in this session for the common-input theorem.",
+      "role": "Formal operational potential and its symmetric block score, used only to explain candidate discovery. It is not a premise of the rank obstruction.",
+      "hypotheses": "Positive theta with sum1; symmetric specialization theta=(1/3,1/3,1/3). No extension to a global monotone tensor character is assumed.",
+      "proof_rebuilt_locally": false
+    }
+  ],
+  "runtime_dependencies": "Python3.10+ standard library only; no runtime source downloads or imported repository rank formulas."
+}

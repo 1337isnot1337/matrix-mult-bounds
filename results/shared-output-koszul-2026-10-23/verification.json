@@ -1,0 +1,76 @@
+{
+  "status": "exact rational certificates passed",
+  "claim_status": "proof-written-unreviewed",
+  "field": "complex numbers (ranks certified over rational numbers)",
+  "scope": "canonical source and canonical target coefficient bases",
+  "source": {
+    "blocks": {
+      "E4": 10
+    },
+    "dimensions": [
+      5,
+      40,
+      80
+    ],
+    "intrinsic_rank": 210,
+    "pair_counts": {
+      "E4/E4": 45
+    },
+    "cross_rank": 2385,
+    "koszul_rank": 2595
+  },
+  "target": {
+    "blocks": {
+      "E3": 10,
+      "E2": 1,
+      "O": 2
+    },
+    "dimensions": [
+      5,
+      40,
+      80
+    ],
+    "intrinsic_rank": 141,
+    "pair_counts": {
+      "E3/E3": 45,
+      "E3/E2": 10,
+      "E3/O": 20,
+      "E2/O": 2,
+      "O/O": 1
+    },
+    "cross_rank": 2475,
+    "koszul_rank": 2616
+  },
+  "rank_gap": 21,
+  "literal_matrix_count": 10,
+  "intrinsic_ranks": {
+    "E4": 21,
+    "E3": 12,
+    "E2": 5,
+    "O": 8
+  },
+  "cross_ranks": {
+    "E4/E4": 53,
+    "E3/E3": 33,
+    "E3/E2": 24,
+    "E3/O": 34,
+    "E2/O": 27,
+    "O/O": 16
+  },
+  "degeneration_excluded": true,
+  "formal_score_comparison": {
+    "source": "65*cuberoot(11/2)",
+    "target": "60*cuberoot(4)+(29/2)*cuberoot(5/2)",
+    "common_positive_scale": "2^(4/3)",
+    "scaled_source": "130*cuberoot(11)",
+    "scaled_target": "240+29*cuberoot(5)",
+    "cuberoot_five_lower_bound": "17/10",
+    "lower_bound_cube_deficit": "87/1000",
+    "scaled_target_lower_bound": "2893/10",
+    "cubed_strict_comparison_gap": "45815957/1000",
+    "score_increases": true,
+    "degeneration_constructed": false
+  },
+  "independent_target_first_identifications_excluded": false,
+  "new_exponent_established": false
+}

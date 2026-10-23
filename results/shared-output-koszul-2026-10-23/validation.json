@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-23",
+  "checkpoint": "canonical candidate rejection",
+  "commands": [
+    {
+      "command": "python research/ai/2026-10-23-shared-output-koszul/verify.py --write-certificate",
+      "exit_code": 0
+    },
+    {
+      "command": "python research/ai/2026-10-23-shared-output-koszul/verify.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_shared_output_koszul.py -v",
+      "exit_code": 0,
+      "tests": 5,
+      "seconds": 0.219
+    }
+  ],
+  "coverage": {
+    "literal_small_matrices": 10,
+    "nonzero_integer_minors": 10,
+    "independent_kernel_vectors": 56,
+    "unsplit_two_block_controls": 4,
+    "corruption_rejections": 3
+  },
+  "limits": [
+    "Focused controls only; complete repository regression and historical replay are integration gates.",
+    "The proof is written and unreviewed, not a formalization.",
+    "Independent target first identifications are outside this canonical checkpoint."
+  ],
+  "manifest_sha256": "feeca4123f32c654c7853286e5e4fa1e6069b96ca83e1fb2cf9b2c4d68455886",
+  "metadata_repair": {
+    "source_commit": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+    "reason": "Use a public immutable commit for the unchanged prior Koszul note bytes.",
+    "focused_tests_repeated": 5,
+    "exit_code": 0
+  }
+}
