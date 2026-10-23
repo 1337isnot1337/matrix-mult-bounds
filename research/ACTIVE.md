@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The torus follow-up in `ai/2026-10-23-torus-low-rank/proof.md` strengthens
+the singular-long result: arbitrary complex source subspaces of slice
+rank at most23 have dimension at most8, so remaining scalar-balanced
+long-map ranks are at most101. The rank24 threshold permits a literal
+12-plane and needs a different argument. Eight focused tests pass across
+the two packages. PR129 carries both checkpoints; full regression and
+historical replay remain the merge gates.
+
 The October 23 singular-long-rank continuation is in
 `ai/2026-10-23-singular-long-rank/proof.md` on
 `research/a4-singular-long-rank-20261023`. It excludes a scalar-balanced

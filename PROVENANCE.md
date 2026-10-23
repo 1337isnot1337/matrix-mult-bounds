@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The `2026-10-23-torus-low-rank` follow-up is owner-directed OpenAI Codex
+work. It adopts the canonical source coefficient formula and minimum
+rank, PR113's unit-kernel correction, and the active-ruling argument
+above. The new diagonal specialization, sharp dimension-eight bound
+below slice rank24, integer minors, and rank102 exclusion use elementary
+linear algebra and polynomial minors. No new external theorem,
+historical priority, independent review or exponent gain is claimed.
+
 The `2026-10-23-singular-long-rank` package is owner-directed OpenAI Codex
 work. The canonical source minimum, its pure-tensor minimum locus, and
 the next-rank gap retain their original proofs and exact byte pins.

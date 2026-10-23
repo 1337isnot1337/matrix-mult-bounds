@@ -1,5 +1,21 @@
 # Research status
 
+## Sharp rank-23 source-space cap and long-map rank 102 exclusion
+
+The [torus specialization proof](research/ai/2026-10-23-torus-low-rank/proof.md)
+shows that every complex linear space of A4 slices of rank at most23
+has dimension at most8, with an explicit8-dimensional example. The
+rank-preserving diagonal source action reduces arbitrary subspaces to
+coordinate subspaces; sixteen determinant-one minors give the finite
+coordinate obstruction. Combined with the active-ruling argument, this
+excludes every A4 to M(10,10,11) degeneration with either scalar-balanced
+long-map limit of rank at least102. Both other maps may have arbitrary
+finite poles. Claims `AI-A4-LOW-RANK-SPACE-CAP-001` and
+`AI-A4-SINGULAR-LONG-102-002` are written and unreviewed. All remaining
+candidates have both balanced long ranks at most101. A12-dimensional
+space of rank-at-most24 slices shows why the source-cap argument stops
+there. No full matrix target or improved exponent is established.
+
 ## A4 long-map limits must lose at least five ranks
 
 The [singular-long-rank proof](research/ai/2026-10-23-singular-long-rank/proof.md)

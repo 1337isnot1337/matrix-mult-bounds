@@ -2,6 +2,13 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [sharp low-rank-space cap](../research/ai/2026-10-23-torus-low-rank/proof.md)
+further restricts both scalar-balanced A4 long-map ranks to at most101.
+Its rank-preserving torus specialization can also bound larger source
+rank loci. Combine those bounds with the saturated target-support
+constraint, retaining concurrent PR122's attribution. Repeating the
+excluded ranks102 through110 cannot construct the target.
+
 The [singular-long-rank theorem](../research/ai/2026-10-23-singular-long-rank/proof.md)
 now excludes A4 target charts in which either scalar-balanced long map
 has limit rank at least 106. Do not repeat those charts. Both ranks at
