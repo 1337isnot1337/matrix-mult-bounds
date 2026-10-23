@@ -1,5 +1,19 @@
 # Integrated research coordination
 
+The [diagonal first-support follow-up](ai/2026-10-23-diagonal-first-support/README.md)
+is on `research/diagonal-first-support-20261023`, from the validated
+support-capacity checkpoint `7690348`. It assumes only a fixed-polynomial
+product on L(u u^T), allowing arbitrary diagonal-vanishing changes
+off the diagonal and arbitrary ordinary long maps. The n=200,c=1
+example requires first residual rank at least 176, or 188 for injective
+diagonal factors. An exact joint kernel budget supplies the general
+bound. The proof remains written and unreviewed. The
+[question record](ai/2026-10-23-diagonal-first-support/QUESTION.md)
+distinguishes the rank-only counterexample from an actual tensor map.
+Next: a construction outside this diagonal class or a repair that
+accounts for its permitted linear cost. Laurent families remain outside
+the theorem; no smaller exponent is established.
+
 The [repair-support checkpoint](ai/2026-10-23-first-support-capacity/README.md)
 is on `research/repair-support-capacity-20261023`, from main `3008d70`.
 The universal Laurent theorem bounds first-support repair from both

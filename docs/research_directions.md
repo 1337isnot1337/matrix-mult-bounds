@@ -21,6 +21,16 @@ Searches for smaller errors must change that first-map form or use a
 singular construction. These bounds leave linear repair costs open and
 do not classify arbitrary first maps.
 
+The [diagonal continuation](../research/ai/2026-10-23-diagonal-first-support/README.md)
+now allows arbitrary off-diagonal perturbations that vanish on the
+diagonal. If `L(u u^T)=H F(u)G(u)` as a polynomial identity, the
+n=200,c=1 ordinary target requires first residual rank at least 176,
+or 188 with injective F,G. Its shift-transpose example shows that low
+coefficient rank on a Segre section alone does not recover the earlier
+product class. An actual construction must address the two shared
+long-map kernels. This diagonal theorem still permits linear repairs
+and does not apply to Laurent degenerations.
+
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
 reduces one sufficient route to genuine degenerations
 `Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c

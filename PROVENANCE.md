@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-23-diagonal-first-support` package is owner-directed Codex
+work. The preceding support-capacity checkpoint supplies ordinary
+long-map surjectivity, literal source ranks, polynomial containing
+spaces and higher divisor strata, with exact unchanged byte pins.
+The Stacks Project retains credit for fiber dimension and projective
+intersection. The diagonal Veronese argument, disjoint factor-kernel
+square spaces, joint triangular budget and exact threshold optimization
+are local deductions checked by the coordinating parent and a separate
+agent in the same generating session. The shift-transpose map and its
+diagonal-vanishing change are exact first-map controls, not matrix-target
+constructions. Marcus–Moyls and de Seguins Pazzis are cited only to
+explain why their structural theorems do not apply directly to the
+earlier rank-21 condition. Finite controls do not certify the universal
+geometry. No historical priority, independent mathematical review,
+formalization, Laurent extension or exponent improvement is claimed.
+
 The `2026-10-23-first-support-capacity` package is owner-directed Codex
 work. The saturated Laurent union-support argument, rounded long-rank
 consequences, higher divisor-intersection strata and their two Segre

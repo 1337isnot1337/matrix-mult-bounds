@@ -1,5 +1,24 @@
 # Research status
 
+## Ordinary repair from the diagonal of the first map
+
+The [diagonal first-support proof](research/ai/2026-10-23-diagonal-first-support/README.md)
+requires only the polynomial identity
+`L(u u^T)=H(x,y)F(u)(x)G(u)(y)`, with fixed nonzero H and compatible
+linear factors. Arbitrary long maps and arbitrary off-diagonal changes
+that vanish on the diagonal are allowed. For Q(n,4) to M(n-c,4,n-c)
+with residual first rank e, it gives
+`e+max(tau(e)-6,q(e))>=max(0,n-5c-7)`, where tau is the largest
+nonnegative integer d with d(d+1)/2<=e and q is the largest with
+d(d+1)<=e. At n=200,c=1, first rank is at least 176, or 188 when both
+diagonal factor maps are injective. The proof works over every field
+by algebraic-closure descent. Claim `AI-DIAGONAL-FIRST-SUPPORT-001`
+is written and unreviewed. Eight exact-control tests pass.
+The injective shift-transpose control is a
+first-map example, not a source-to-target construction. General first
+maps, Laurent degenerations and linear repair costs remain open; no
+smaller exponent is established.
+
 ## Repair support capacity and polynomial first maps
 
 The [support-capacity proof](research/ai/2026-10-23-first-support-capacity/README.md)
