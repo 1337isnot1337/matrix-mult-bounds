@@ -41,12 +41,18 @@ unreviewed; no full M(10,10,11) target or exponent improvement.
 
 The October23 higher-conic continuation is in
 `ai/2026-10-23-conic-higher-jets/proof.md`, following PR107 at86b5142.
-The explicit mixed fourth-order family and separate rational tenth-order
-witness pass direct source replay and seven focused tests. The fixed-two package above now supplies all-order extension of those
-specified coefficients on d nonzero. The earlier polynomial curve
-changes boundary velocity and has its own broader parameter chart. Full local regression
-and historical replay are required before merge. The claims retain
-written, unreviewed status and do not construct the matrix target.
+The explicit mixed fourth-order family and rational tenth-order witness
+pass direct source replay. A separate checkpoint on
+`research/conic-fourteen-jet-continuation-20261023` extends the rational
+witness through order fourteen, preserving maps through order nine and
+source corrections through Y9; its standard-library literal replay checks
+all 4096 source terms. It is based on the frozen PR136 head pending that
+integration. The fixed-two package above supplies an all-order extension of
+its own specified coefficients on d nonzero. The earlier polynomial curve
+changes boundary velocity and has a broader parameter chart. Full local
+regression and historical replay remain required before integration. The
+claims retain written, unreviewed status and do not construct the matrix
+target.
 
 The October23 continuation on `research/conic-third-order-20261023`
 studies `ai/2026-10-23-conic-third-jets/QUESTION.md`, following merged

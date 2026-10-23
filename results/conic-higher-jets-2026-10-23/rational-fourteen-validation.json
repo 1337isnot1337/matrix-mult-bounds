@@ -1,0 +1,75 @@
+{
+  "base_commit": "14c4da35f059b94d25402a7870d81e05ede307c1",
+  "python": "3.14.8",
+  "sympy": "1.14.0",
+  "discovery": {
+    "commands": [
+      ".venv/bin/python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --order 11 --allow-third --input results/conic-higher-jets-2026-10-23/rational-ten-jet.json --output results/conic-higher-jets-2026-10-23/order-11-discovery.json",
+      ".venv/bin/python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --order 12 --allow-third --input results/conic-higher-jets-2026-10-23/order-11-discovery.json --output results/conic-higher-jets-2026-10-23/order-12-discovery.json",
+      ".venv/bin/python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --order 13 --through-order 14 --allow-third --input results/conic-higher-jets-2026-10-23/order-12-discovery.json --output results/conic-higher-jets-2026-10-23/rational-fourteen-jet-discovery.json"
+    ],
+    "continued_orders": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "final_system_shape": [
+      379,
+      71
+    ],
+    "final_system_rank": 50,
+    "discovery_only": true,
+    "intermediate_outputs_retained": false,
+    "note": "Intermediate exact solver outputs order-11 through order-13 were temporary and removed after the final accepted witness and compact discovery receipt were saved."
+  },
+  "acceptance": {
+    "command": ".venv/bin/python research/ai/2026-10-23-conic-higher-jets/verify.py results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json --output results/conic-higher-jets-2026-10-23/rational-fourteen-verification.json",
+    "implementation": "Python standard library exact Fraction arithmetic",
+    "source_terms": 4096,
+    "leading_ranks": [
+      14,
+      14,
+      12
+    ],
+    "positive_orders_checked": 14,
+    "moving_kernel_coordinates_per_order": 19600,
+    "preserved_map_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "preserved_source_corrections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "result": "passed"
+  },
+  "focused_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -p test_conic_higher_jets.py -v",
+    "completed": 10,
+    "passed": 10,
+    "skipped": 0,
+    "seconds": 822.764,
+    "log": "results/conic-higher-jets-2026-10-23/rational-fourteen-tests.log.gz"
+  },
+  "full_repository_suite": "Not run on this checkpoint; required before merge.",
+  "historical_archive_replay": "Not run on this checkpoint; required before merge.",
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

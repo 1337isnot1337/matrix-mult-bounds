@@ -45,8 +45,10 @@ The `2026-10-23-conic-higher-jets` package is owner-directed OpenAI Codex
 work. PR101 retains credit for the literal source, conic base, tangent
 fields and operators. PR107 at `86b5142` retains credit for the mixed
 third-order family, its coefficients through order two, and its source
-replay design. The new third correction, fourth coefficients and
-rational continuation through order ten are local additions. Source
+replay design. The new third correction, fourth coefficients and rational
+continuations through orders ten and fourteen are local additions. The
+fourteenth-order checkpoint preserves the prior rational witness through
+map and source-correction order nine. Source
 files and predecessor witnesses have exact byte pins. Acceptance uses
 the literal source without importing the tangent solver. The verifiers
 come from the same generating session; their separate implementation

@@ -1,7 +1,7 @@
-# Fourth-order family and a rational tenth-order conic jet
+# Fourth-order family and rational tenth- and fourteenth-order conic jets
 
-October 23, 2026. Owner-directed OpenAI Codex work. Both claims below
-are written and unreviewed.
+October 23, 2026. Owner-directed OpenAI Codex work. The claims below are
+written and unreviewed.
 
 ## Source and incidence equations
 
@@ -111,13 +111,40 @@ uncorrected order-eleven Schur coefficient has 680 nonzero entries.
 Neither those ranks nor that residual count proves an all-order claim
 or an obstruction to order eleven.
 
+## A fourteenth-order extension with later coefficients free
+
+**Claim AI-CONIC-RATIONAL-FOURTEENTH-JET-003.** At the same rational point,
+the PR107 mixed-family maps extend through order fourteen while preserving
+the previous tenth-order witness at map orders zero through nine and source
+corrections Y1 through Y9. The coefficients at order ten and above may
+change. The exported witness is
+`results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json`.
+
+The standard-library verifier rebuilds the 4096 literal source terms,
+checks leading ranks 14,14,12, and verifies all 19,600 moving-kernel
+coordinates at each of orders one through fourteen over Q. Therefore the
+incidence identities hold over Q[t]/(t^15) and remain valid over C after
+extension of scalars. The witness has fifteen B maps, fifteen C maps and
+fourteen source-row corrections. The predecessor coefficients through
+order nine are compared exactly before the source replay.
+
+For discovery, each of steps eleven through fourteen allowed the complete
+seventy-field tangent freedom in the preceding coefficient. The final
+reduced system has 379 rows, 71 columns and rank 50. Its 680 nonzero
+order-fifteen residual entries are for the selected order-fourteen
+coefficient before varying the next tangent; they do not obstruct an
+order-fifteen extension. The reduced rank and residual are discovery data,
+not premises of the finite order-fourteen claim.
+
 ## Scope and next question
 
-Both results concern rank-twelve incidence of two fourteen-row maps of
+All results concern rank-twelve incidence of two fourteen-row maps of
 the canonical 112-cubed source. They do not construct the full
 M(10,10,11) target, prove an all-order formal curve, or improve omega.
-The symbolic statement covers order four; order ten is established
-only at the specified rational point. The d=0 cubic fiber is outside
+The symbolic statement covers order four; orders ten and fourteen are
+established only at the specified rational point. Compatibility at order
+fifteen after varying the full tangent freedom remains open. The d=0 cubic
+fiber is outside
 these witnesses. Concurrent [PR123](https://github.com/1337isnot1337/matrix-mult-bounds/pull/123)
 at16025c8148d335ba64a0de8824780f72b9cf5ccc supplies a separate exact
 curve on that fiber; that result is not claimed here.
@@ -131,6 +158,6 @@ claimed in this package.
 PR101 retains credit for the source, conic base, normal fields and tangent
 operators. PR107 retains credit for the mixed third-order family and
 its acceptance design. This package adds the displayed third correction,
-fourth coefficients and rational continuation through order ten. The
+fourth coefficients and rational continuation through order fourteen. The
 verifiers were prepared in the same generating session; separate source
 replay is not independent mathematical review or formalization.
