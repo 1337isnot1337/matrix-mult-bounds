@@ -1,0 +1,26 @@
+{
+  "repository_dependencies": [
+    {
+      "repository": "1337isnot1337/matrix-mult-bounds",
+      "pull_request": 157,
+      "commit": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "path": "research/ai/2026-10-23-toeplitz-long-legs/proof.md",
+      "sha256": "d6a7affa2397a0d6ea94ee4e7ab0c1969d42f954e2ed3fa6b7740802263d47fa",
+      "use": "Preceding rank-one channel-symbol factorization, extended here to a variable-coefficient B map with combined shift rank Delta."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c",
+      "use": "Maintained coefficient convention for Q(n,m) and M(n,m,n)."
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "sha256": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+      "use": "Context for the conditional subquadratic auxiliary repair question."
+    }
+  ],
+  "external_sources": [],
+  "new_claim": "AI-PAIRED-SHIFT-SEPARATION-001"
+}
