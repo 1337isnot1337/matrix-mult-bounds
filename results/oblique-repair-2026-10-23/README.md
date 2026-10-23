@@ -10,6 +10,7 @@ checks. Every accepted run has a complete unittest result and no skipped tests.
 | `53fed21130a5c46a9c2336a8d196ea0547c2cbfb` | Ordinary maps and nineteen scalar repairs | 871 tests in 204 modules; all five archive replays |
 | `b6c38513b33c4de2b1ddee4b22525adb74dbc291` | Polynomial border repair and exact ordinary core rank seven | 884 tests in 206 modules; all five archive replays |
 | `aeafc7b944425f2f8d0118ea6cf7f520724eb251` | Full-residual rank proof, long-map frontier and main integration | 63 incremental tests; no failures, errors or skips |
+| `2c1e026b5f1a0d86b3515f558b26cf39b667d65f` | Equalizer border-rank lower bound twelve | 35 incremental tests; no failures, errors or skips |
 
 The [ordinary receipt](ordinary-checkpoint/validation.json) and
 [border receipt](border-checkpoint/validation.json) record each disjoint group,
@@ -29,6 +30,16 @@ is not a fresh execution of all 903 tests. Both archives are unchanged
 against the full-suite checkpoint and its original main baseline `fe602e4`.
 All claim objects from both mathematical branches and incoming main were
 retained at integration.
+
+The later [equalizer receipt](equalizer-followup.json) records seven new
+tests, seven existing full-residual tests, eighteen repository checks and
+three archive-integrity checks. Its standalone standard-library certificate
+replay also passed. This follow-up adds only two Python files; all 734
+previous Python files remain byte-identical. The combined inventory is now
+910 tests in 210 modules, without a fresh full-suite execution. Its new
+lower-bound claim and the forward-facing ordinary-rank cross-reference
+update the border interval to twelve through eighteen. Pinned historical
+proofs and certificates retain their earlier, weaker interval.
 
 ## Reproduction
 

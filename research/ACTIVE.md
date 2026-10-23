@@ -1,5 +1,11 @@
 # Integrated research coordination
 
+The equalizer follow-up is integrated into PR147 from `2c1e026`. Its
+[receipt](../results/oblique-repair-2026-10-23/equalizer-followup.json)
+records 35 focused and repository checks, all seven new tests, unchanged
+earlier Python files and standalone certificate replay. The 910-test
+combined inventory does not relabel the earlier full regression.
+
 The [equalizer follow-up](ai/2026-10-23-oblique-border-equalizer/README.md)
 is on `research/oblique-border-equalizer-20261023`, based on the frozen
 `49904d7` integration below. It proves border lower bound `2r+2` for the

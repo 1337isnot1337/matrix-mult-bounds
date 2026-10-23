@@ -18,6 +18,11 @@ source hashes, the full native identity and deliberate false certificates.
 The previous maps, implementations, tests and source pins are unchanged.
 The lower bound concerns the fixed residual; optimal border rank,
 improvements from other maps and a smaller exponent remain open.
+The [follow-up receipt](results/oblique-repair-2026-10-23/equalizer-followup.json)
+records 35 completed incremental checks at `2c1e026`, including all seven
+added tests, plus a standalone certificate replay. All 734 prior Python
+files remain unchanged. The combined 910-test inventory is discovery
+coverage; the complete 884-test regression remains attributed below.
 
 ## Exact ordinary rank nineteen and an eighteen-scalar degeneration
 
