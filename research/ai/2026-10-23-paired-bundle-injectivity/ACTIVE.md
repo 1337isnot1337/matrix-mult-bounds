@@ -6,7 +6,7 @@ target or identify a stronger obstruction. The exponent goal is open.
 
 Completed: the written all-field injectivity interval 0<=p<=a(a-1),
 with the proof in proof.md. Exact coefficient and integer-kernel evidence
-is in results/paired-long-legs-2026-10-23/. Five focused and18 metadata
+is in results/paired-bundle-injectivity-2026-10-23/. Five focused and18 metadata
 tests pass on Python3.12 with the pinned maintained dependencies.
 Full-suite and archive-replay evidence will be recorded when complete.
 
@@ -26,7 +26,7 @@ the injectivity theorem it does not settle any new degree beyond the
 proved interval for the 28 maintained survivors. Do not infer that those
 degrees pass. These pilots are discovery, not additional theorem claims.
 
-Worktree: /tmp/matrix-paired-other-legs-20261023.
-Branch: research/paired-other-legs-20261023.
+Worktree: /tmp/matrix-paired-bundle-01a168f9.
+Branch: research/paired-bundle-01a168f9.
 No independent review or formalization. Preserve the separate active
 central-cover, singular-unit and boundary-incidence investigations.

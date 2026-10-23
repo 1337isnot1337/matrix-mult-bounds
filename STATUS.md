@@ -2,7 +2,7 @@
 
 ## A quadratic full-rank interval on paired long legs
 
-The [paired-long-leg proof](research/ai/2026-10-23-paired-long-legs/proof.md)
+The [paired-long-leg proof](research/ai/2026-10-23-paired-bundle-injectivity/proof.md)
 shows that both long-leg Koszul maps of P_a, with the short leg as input,
 are injective over every field for every a>=2 and 0<=p<=a(a-1).
 Their rank is a^2 binom(a(2a-1),p). A full-rank Hankel calculation and an

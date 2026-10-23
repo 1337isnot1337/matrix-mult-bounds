@@ -21,8 +21,8 @@ consequence of the theorem.
 Run from the repository root:
 
 ```sh
-python research/ai/2026-10-23-paired-long-legs/verify.py --verify results/paired-long-legs-2026-10-23/certificate.json
-python -m unittest discover -s tests -p 'test_paired_long_legs.py' -v
+python research/ai/2026-10-23-paired-bundle-injectivity/verify.py --verify results/paired-bundle-injectivity-2026-10-23/certificate.json
+python -m unittest discover -s tests -p 'test_paired_bundle_injectivity.py' -v
 ```
 
 The verifier uses the standard library. The all-size proof is written and

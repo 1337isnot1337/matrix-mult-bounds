@@ -6,7 +6,7 @@ from pathlib import Path
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGE = ROOT/'research/ai/2026-10-23-paired-long-legs'
+PACKAGE = ROOT/'research/ai/2026-10-23-paired-bundle-injectivity'
 spec = importlib.util.spec_from_file_location('paired_long_leg_verification', PACKAGE/'verify.py')
 verifier = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(verifier)
@@ -15,7 +15,7 @@ spec.loader.exec_module(verifier)
 class PairedLongLegTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.report = json.loads((ROOT/'results/paired-long-legs-2026-10-23/certificate.json').read_text())
+        cls.report = json.loads((ROOT/'results/paired-bundle-injectivity-2026-10-23/certificate.json').read_text())
 
     def test_complete_regeneration_and_inspected_source_pins(self):
         receipt = verifier.verify_report(self.report)

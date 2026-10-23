@@ -1,6 +1,6 @@
 # Attribution and provenance
 
-The `2026-10-23-paired-long-legs` package is owner-directed Codex work.
+The `2026-10-23-paired-bundle-injectivity` package is owner-directed Codex work.
 It adopts the maintained paired-source coefficients and short-leg
 frontier with their original credits and inspected byte pins. The Hankel
 interpolation, explicit projective-line quotient and filtered-kernel

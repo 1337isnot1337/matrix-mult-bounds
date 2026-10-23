@@ -1,9 +1,9 @@
 # Integrated research coordination
 
 The paired-long-leg continuation studies
-`ai/2026-10-23-paired-long-legs/QUESTION.md`, in the isolated worktree
-`/tmp/matrix-paired-other-legs-20261023`, branch
-`research/paired-other-legs-20261023`. A written all-field proof gives
+`ai/2026-10-23-paired-bundle-injectivity/QUESTION.md`, in the isolated worktree
+`/tmp/matrix-paired-bundle-01a168f9`, branch
+`research/paired-bundle-01a168f9`. A written all-field proof gives
 full column rank for 0<=p<=a(a-1) on both long legs with short input.
 Those degrees cannot exclude any padded target. The remaining question
 is p>=a(a-1)+1 and whether it excludes any of the 28 short-leg survivors
