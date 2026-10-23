@@ -1,0 +1,38 @@
+{
+  "external_seed": {
+    "path": "research/ai/2026-10-21-external-grid-seed/factors.json",
+    "sha256": "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3",
+    "attribution": "Fawzi et al., AlphaTensor, Nature (2022), externally attributed integer M(4,5,5) rank-76 algorithm",
+    "conversion_commit": "b4f756b4153e5ac2c2f37d0a9e4dc3e895fdcabe",
+    "license": "The existing external-grid-seed/UPSTREAM_LICENSE.txt applies to the conversion data; no project license is changed."
+  },
+  "physical_bases": [
+    {
+      "variant": "ten",
+      "path": "research/ai/2026-10-23-flip-escape/split_certificate.json",
+      "sha256": "a8f3dc9f8e3cd2ce1ef4a581dee01985e47a52077227260b48a1832e0fe79c08",
+      "attribution": "Prior local four-split physical bases, with new weights."
+    },
+    {
+      "variant": "eleven",
+      "path": "research/ai/2026-10-23-flip-escape/five_split_certificate.json",
+      "sha256": "12cedfc73b6de98bb302b93941c05027b8acc41df03e4606b99363cb323e1c91",
+      "attribution": "Prior local five-split physical bases, with new weights."
+    }
+  ],
+  "prior_local_results": [
+    "research/ai/2026-10-23-gauged-splits/README.md: positive tensor valuations and product-preserving factor gauges",
+    "research/ai/2026-10-23-grid-escape/README.md: exact original-U and original-W weighted obstructions",
+    "research/ai/2026-10-23-fixed-flip-components/README.md: sufficient pairwise span-disjointness condition for component isolation"
+  ],
+  "external_method": {
+    "title": "Fast and Stable Arbitrary Precision Approximate Matrix Multiplication",
+    "version": "arXiv:2610.13905v1, October 9, 2026",
+    "url": "https://arxiv.org/html/2610.13905v1",
+    "parts": "Theorems 2.1 and 2.2 and Section 2.3, physical stabilizer and nilpotent-factor deletion viewpoint",
+    "dependency": "Viewpoint and attribution; all identities and valuation implications used here are checked directly."
+  },
+  "local_work": "Owner-directed AI selection of ten and eleven simultaneous replacements, new integer physical weights, exact rational Laurent witnesses, and four exact cross-component span contacts for the ten-split seed.",
+  "search": "Bounded SciPy 1.17.0 MILP discovery followed by exact rational acceptance. No search optimum or exhaustive mathematical exclusion is claimed.",
+  "improves_omega": false
+}
