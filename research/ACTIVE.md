@@ -1,5 +1,22 @@
 # Integrated research coordination
 
+
+The October 23 quadratic-z middle-polynomial package
+`ai/2026-10-23-quadratic-z-middle/proof.md` gives an all-field exact
+rank formula for the literal `alpha+z*v(x)+gamma*z^2` source slice
+when the two outer coefficients are nonzero constants. It derives the
+full two-generator polynomial-kernel basis and exact degree constraints,
+with 580 exhaustive and 960 seeded modular checks, 135 spectrum checks,
+940 explicit kernel vectors and a separate 36-case rational acceptance.
+This adopts and credits PR209's polynomial-row technique but not its
+theorem, and avoids PR207/208's diagonal-polynomial family. Claim
+`AI-QUADRATIC-Z-MIDDLE-RANK-001` remains written, unreviewed.
+The next question is the minimal polynomial-basis degree filtration
+with nonconstant outer coefficients. No full tensor target or
+improved exponent is claimed. Keep this branch isolated until required
+current-head CI and mathematical review gates have been checked.
+
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order
