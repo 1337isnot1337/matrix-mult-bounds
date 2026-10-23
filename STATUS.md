@@ -1,5 +1,20 @@
 # Research status
 
+## A4 unit-image exclusion down to rank107
+
+The [source rank-locus continuation](research/ai/2026-10-23-unit-image-rank-gap/proof.md)
+extends the previous all-order partial-unit-image exclusion from rank109
+to rank107. It retains one regular long map of limiting rank110 and a
+regular source lift of the target identity. Varying target retractions
+preserve first-map injectivity; the existing classification of source
+slices below rank32 then forces any polar long-map chart's100-dimensional
+first image into16 dimensions. Regular source units of corank at most
+three are included. Claims `AI-CYCLIC-RANK-LOCUS-REGULARITY-001` and
+`AI-A4-UNIT-IMAGE-RANK107-002` are written and unreviewed. Exact controls
+check56 rational retractions, nine literal source matrices and strict
+boundary margins. Rank106, singular long-leg limits and polar unit lifts
+remain open. No target or smaller exponent is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
@@ -13,8 +28,9 @@ ordinary-map obstruction finishes the argument. Every finite pole order
 is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
 controls verify the rank budgets and projection recovery, without
-formalizing the proof. Rank108, singular long-leg limits and polar unit
-lifts remain open. No matrix target or smaller exponent is established.
+formalizing the proof. This earlier argument stops at rank108; the
+continuation above reaches rank107. Singular long-leg limits and polar
+unit lifts remain open. No matrix target or smaller exponent is established.
 
 ## Finite covers close the selected nonsplit coordinate targets
 

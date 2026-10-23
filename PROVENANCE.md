@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-unit-image-rank-gap` package is owner-directed Codex work.
+The canonical cyclic source, minimum rank, complete source locus below
+twice the minimum, partial-unit source frames, Laurent product-rank fact
+and ordinary A4 exclusion retain their existing repository credits and
+exact byte pins. This continuation combines varying-retraction
+injectivity with propagation over target Segre rulings to weaken the
+regular unit-image threshold from109 to107. No new external theorem,
+historical priority, independent review or formalization is claimed.
+The finite exact controls support a written, unreviewed exclusion under
+its stated regularity assumptions; they establish no matrix target or
+exponent improvement.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

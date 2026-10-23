@@ -286,6 +286,10 @@ required before any smaller exponent claim.
 
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a
-regular invertible source lift of a target identity. Further A4 searches
-must escape at least one of those hypotheses; increasing the other map's
+regular invertible source lift of a target identity. The
+[rank-locus continuation](../research/ai/2026-10-23-unit-image-rank-gap/proof.md)
+weakens invertibility to a regular unit image of rank at least107,
+including source unit slices of corank at most three. Retained rank106,
+singular long-leg limits and polar unit lifts remain outside that proof.
+Further A4 searches must escape its hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
