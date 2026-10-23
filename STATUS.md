@@ -1,5 +1,27 @@
 # Research status
 
+## Repair support capacity and polynomial first maps
+
+The [support-capacity proof](research/ai/2026-10-23-first-support-capacity/README.md)
+gives a necessary first-support cost for repairing an actual tensor image
+to M(l,h,r). It holds for arbitrary formal Laurent maps, including poles
+that cancel between the source and the auxiliary image. The two long-map
+annihilators force a union of row and column supports. Consequently an
+auxiliary first rank below min(l,r) forces both source long maps to be
+generically surjective. Fixed source widths below four require quadratic
+first-support repair for M(n-c,4,n-c).
+
+A separate ordinary theorem permits arbitrary long maps but assumes the
+dual first map is H(x,y)F(u)(x)G(v)(y), with a fixed nonzero polynomial H.
+Its residual first rank is at least both
+`min(n-c,max(0,2n-10c-14))` and `max(0,2n-10c-19)`.
+For c=1 it is at least n-1 once n>=23, and at least 371 when n=200.
+Claims `AI-FIRST-SUPPORT-CAPACITY-001` and
+`AI-POLYNOMIAL-FIRST-MAP-OBSTRUCTION-002` are written and unreviewed.
+Eight exact-control tests pass. The ordinary theorem does not cover
+arbitrary first maps or Laurent degenerations, and it leaves linear
+repair costs open. No smaller exponent is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

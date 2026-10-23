@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-23-first-support-capacity` package is owner-directed Codex
+work. The saturated Laurent union-support argument, rounded long-rank
+consequences, higher divisor-intersection strata and their two Segre
+repair bounds are local deductions checked by a separate agent in the
+same generating session. The maintained paired-source convention,
+source-slice matrix-rank bound and earlier finite-divisor incidence
+retain their original repository credit and exact byte pins. Classical
+fiber dimension and projective intersection are cited to the Stacks
+Project with explicit tags and hypotheses. The oblique annihilator
+comparison retains PR147's immutable commit and proof hash; it is not
+required as an unmerged on-disk dependency. Exact coefficient controls
+do not certify the universal geometric dimension statements. All claims
+remain written and unreviewed, with no historical priority, independent
+mathematical review, formalization, unrestricted degeneration exclusion
+or exponent improvement claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

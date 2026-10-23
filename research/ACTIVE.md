@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+The [repair-support checkpoint](ai/2026-10-23-first-support-capacity/README.md)
+is on `research/repair-support-capacity-20261023`, from main `3008d70`.
+The universal Laurent theorem bounds first-support repair from both
+long-map annihilators. The separate ordinary fixed-polynomial first-map
+theorem allows arbitrary long maps and requires at least 371 first
+support for the n=200,c=1 example. Eight focused tests pass; the proofs
+remain unreviewed. The [question and overlap record](ai/2026-10-23-first-support-capacity/QUESTION.md)
+distinguishes PR157's finite-bandwidth Toeplitz long maps and PR142's
+cyclic source loci. Next: an actual construction with a genuinely mixed
+first map, or exact ordinary shared-kernel geometry outside the fixed-H
+class. Generic long-map surjectivity does not extend the ordinary slice
+obstruction to singular families. No smaller exponent is established.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

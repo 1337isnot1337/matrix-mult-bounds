@@ -1,0 +1,892 @@
+{
+  "schema": "first-support-capacity-v1",
+  "scope": "Exact finite controls; written geometric proofs remain unreviewed",
+  "pole_cancellation": {
+    "target_shape": [
+      4,
+      2,
+      2
+    ],
+    "source_first_support": 3,
+    "source_image": [
+      [
+        1,
+        0,
+        0,
+        -1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "auxiliary_image": [
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    "total_target": [
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    "annihilator_contractions": [
+      [
+        [
+          0,
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          -1
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "saturated_first_basis_at_zero": [
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "regular_basis_unit_minor": -1,
+    "negative_powers_cancel": true,
+    "union_support_dimension": 3
+  },
+  "support_unions": [
+    {
+      "label": "noncoordinate_union",
+      "target": [
+        3,
+        2,
+        4
+      ],
+      "annihilator_dimensions": [
+        4,
+        4
+      ],
+      "long_image_ranks": [
+        2,
+        4
+      ],
+      "coefficient_span_dimensions": [
+        2,
+        2
+      ],
+      "native_contraction_support_rank": 10,
+      "union_formula": 10,
+      "rank_only_lower_bound": 10
+    },
+    {
+      "label": "oblique_n5_b4",
+      "target": [
+        4,
+        4,
+        4
+      ],
+      "annihilator_dimensions": [
+        0,
+        0
+      ],
+      "long_image_ranks": [
+        16,
+        16
+      ],
+      "coefficient_span_dimensions": [
+        0,
+        0
+      ],
+      "native_contraction_support_rank": 0,
+      "union_formula": 0,
+      "rank_only_lower_bound": 0
+    },
+    {
+      "label": "oblique_n6_b4",
+      "target": [
+        5,
+        4,
+        5
+      ],
+      "annihilator_dimensions": [
+        2,
+        2
+      ],
+      "long_image_ranks": [
+        18,
+        18
+      ],
+      "coefficient_span_dimensions": [
+        1,
+        1
+      ],
+      "native_contraction_support_rank": 9,
+      "union_formula": 9,
+      "rank_only_lower_bound": 9
+    },
+    {
+      "label": "oblique_n9_b4",
+      "target": [
+        8,
+        4,
+        8
+      ],
+      "annihilator_dimensions": [
+        8,
+        8
+      ],
+      "long_image_ranks": [
+        24,
+        24
+      ],
+      "coefficient_span_dimensions": [
+        4,
+        4
+      ],
+      "native_contraction_support_rank": 48,
+      "union_formula": 48,
+      "rank_only_lower_bound": 28
+    },
+    {
+      "label": "oblique_n7_b5",
+      "target": [
+        6,
+        4,
+        6
+      ],
+      "annihilator_dimensions": [
+        2,
+        2
+      ],
+      "long_image_ranks": [
+        22,
+        22
+      ],
+      "coefficient_span_dimensions": [
+        1,
+        1
+      ],
+      "native_contraction_support_rank": 11,
+      "union_formula": 11,
+      "rank_only_lower_bound": 11
+    }
+  ],
+  "source_slices": {
+    "multiplier_controls": [
+      {
+        "label": "pure_product",
+        "n": 4,
+        "multiplier": [
+          [
+            1
+          ]
+        ],
+        "f": [
+          1,
+          -1,
+          0,
+          1
+        ],
+        "g": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "containing_space_dimensions": [
+          16,
+          16
+        ],
+        "rank_controls": [
+          {
+            "field": "Q",
+            "coefficient_rank": 1,
+            "raw_slice_rank": 16
+          },
+          {
+            "field": "F2",
+            "coefficient_rank": 1,
+            "raw_slice_rank": 16
+          },
+          {
+            "field": "F3",
+            "coefficient_rank": 1,
+            "raw_slice_rank": 16
+          }
+        ]
+      },
+      {
+        "label": "one_plus_xy",
+        "n": 5,
+        "multiplier": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "f": [
+          1,
+          -1,
+          0,
+          1
+        ],
+        "g": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "containing_space_dimensions": [
+          20,
+          20
+        ],
+        "rank_controls": [
+          {
+            "field": "Q",
+            "coefficient_rank": 2,
+            "raw_slice_rank": 20
+          },
+          {
+            "field": "F2",
+            "coefficient_rank": 2,
+            "raw_slice_rank": 20
+          },
+          {
+            "field": "F3",
+            "coefficient_rank": 2,
+            "raw_slice_rank": 20
+          }
+        ]
+      },
+      {
+        "label": "one_plus_xy_plus_x2y2",
+        "n": 5,
+        "multiplier": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "f": [
+          1,
+          1,
+          1
+        ],
+        "g": [
+          1,
+          0,
+          1
+        ],
+        "containing_space_dimensions": [
+          24,
+          24
+        ],
+        "rank_controls": [
+          {
+            "field": "Q",
+            "coefficient_rank": 3,
+            "raw_slice_rank": 24
+          },
+          {
+            "field": "F2",
+            "coefficient_rank": 3,
+            "raw_slice_rank": 24
+          },
+          {
+            "field": "F3",
+            "coefficient_rank": 3,
+            "raw_slice_rank": 24
+          }
+        ]
+      }
+    ],
+    "native_diagonal_controls": [
+      {
+        "n": 2,
+        "field": "Q",
+        "coefficient_rank": 2,
+        "raw_slice_rank": 20
+      },
+      {
+        "n": 2,
+        "field": "F2",
+        "coefficient_rank": 2,
+        "raw_slice_rank": 20
+      },
+      {
+        "n": 2,
+        "field": "F3",
+        "coefficient_rank": 2,
+        "raw_slice_rank": 20
+      },
+      {
+        "n": 3,
+        "field": "Q",
+        "coefficient_rank": 3,
+        "raw_slice_rank": 24
+      },
+      {
+        "n": 3,
+        "field": "F2",
+        "coefficient_rank": 3,
+        "raw_slice_rank": 24
+      },
+      {
+        "n": 3,
+        "field": "F3",
+        "coefficient_rank": 3,
+        "raw_slice_rank": 24
+      },
+      {
+        "n": 5,
+        "field": "Q",
+        "coefficient_rank": 5,
+        "raw_slice_rank": 29
+      },
+      {
+        "n": 5,
+        "field": "F2",
+        "coefficient_rank": 5,
+        "raw_slice_rank": 29
+      },
+      {
+        "n": 5,
+        "field": "F3",
+        "coefficient_rank": 5,
+        "raw_slice_rank": 29
+      },
+      {
+        "n": 8,
+        "field": "Q",
+        "coefficient_rank": 8,
+        "raw_slice_rank": 32
+      },
+      {
+        "n": 8,
+        "field": "F2",
+        "coefficient_rank": 8,
+        "raw_slice_rank": 32
+      },
+      {
+        "n": 8,
+        "field": "F3",
+        "coefficient_rank": 8,
+        "raw_slice_rank": 32
+      }
+    ],
+    "first_map_rank_controls": [
+      {
+        "label": "injective",
+        "field": "Q",
+        "factor_ranks": [
+          3,
+          3
+        ],
+        "first_map_rank": 9
+      },
+      {
+        "label": "injective",
+        "field": "F2",
+        "factor_ranks": [
+          3,
+          3
+        ],
+        "first_map_rank": 9
+      },
+      {
+        "label": "injective",
+        "field": "F3",
+        "factor_ranks": [
+          3,
+          3
+        ],
+        "first_map_rank": 9
+      },
+      {
+        "label": "one_factor_deficient",
+        "field": "Q",
+        "factor_ranks": [
+          2,
+          3
+        ],
+        "first_map_rank": 6
+      },
+      {
+        "label": "one_factor_deficient",
+        "field": "F2",
+        "factor_ranks": [
+          2,
+          3
+        ],
+        "first_map_rank": 6
+      },
+      {
+        "label": "one_factor_deficient",
+        "field": "F3",
+        "factor_ranks": [
+          2,
+          3
+        ],
+        "first_map_rank": 6
+      }
+    ]
+  },
+  "rank_loss": [
+    {
+      "n": 6,
+      "raw_slice_rank": 16,
+      "long_map_ranks": [
+        20,
+        20
+      ],
+      "slice_kernel_intersections": [
+        5,
+        6
+      ],
+      "compressed_slice_rank": 5,
+      "removed_B_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18
+      ],
+      "removed_C_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        24,
+        25
+      ]
+    },
+    {
+      "n": 6,
+      "raw_slice_rank": 16,
+      "long_map_ranks": [
+        20,
+        20
+      ],
+      "slice_kernel_intersections": [
+        5,
+        7
+      ],
+      "compressed_slice_rank": 4,
+      "removed_B_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18
+      ],
+      "removed_C_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        24
+      ]
+    }
+  ],
+  "integer_consequences": {
+    "width_bounds": [
+      {
+        "n": 200,
+        "c": 1,
+        "b": 1,
+        "source_long_dimension": 200,
+        "first_support_lower_bound": 37101
+      },
+      {
+        "n": 200,
+        "c": 1,
+        "b": 2,
+        "source_long_dimension": 402,
+        "first_support_lower_bound": 29601
+      },
+      {
+        "n": 200,
+        "c": 1,
+        "b": 3,
+        "source_long_dimension": 606,
+        "first_support_lower_bound": 16800
+      },
+      {
+        "n": 200,
+        "c": 1,
+        "b": 4,
+        "source_long_dimension": 812,
+        "first_support_lower_bound": 0
+      }
+    ],
+    "polynomial_first_map_bounds": [
+      {
+        "n": 6,
+        "c": 1,
+        "r": 5,
+        "capped": 0,
+        "uncapped": 0,
+        "combined": 0
+      },
+      {
+        "n": 12,
+        "c": 1,
+        "r": 11,
+        "capped": 0,
+        "uncapped": 0,
+        "combined": 0
+      },
+      {
+        "n": 13,
+        "c": 1,
+        "r": 12,
+        "capped": 2,
+        "uncapped": 0,
+        "combined": 2
+      },
+      {
+        "n": 16,
+        "c": 1,
+        "r": 15,
+        "capped": 8,
+        "uncapped": 3,
+        "combined": 8
+      },
+      {
+        "n": 22,
+        "c": 1,
+        "r": 21,
+        "capped": 20,
+        "uncapped": 15,
+        "combined": 20
+      },
+      {
+        "n": 23,
+        "c": 1,
+        "r": 22,
+        "capped": 22,
+        "uncapped": 17,
+        "combined": 22
+      },
+      {
+        "n": 28,
+        "c": 1,
+        "r": 27,
+        "capped": 27,
+        "uncapped": 27,
+        "combined": 27
+      },
+      {
+        "n": 29,
+        "c": 1,
+        "r": 28,
+        "capped": 28,
+        "uncapped": 29,
+        "combined": 29
+      },
+      {
+        "n": 200,
+        "c": 1,
+        "r": 199,
+        "capped": 199,
+        "uncapped": 371,
+        "combined": 371
+      }
+    ],
+    "exact_capped_thresholds": [
+      {
+        "c": 0,
+        "first_n_with_capped_bound_r": 14
+      },
+      {
+        "c": 1,
+        "first_n_with_capped_bound_r": 23
+      },
+      {
+        "c": 2,
+        "first_n_with_capped_bound_r": 32
+      },
+      {
+        "c": 3,
+        "first_n_with_capped_bound_r": 41
+      },
+      {
+        "c": 4,
+        "first_n_with_capped_bound_r": 50
+      },
+      {
+        "c": 5,
+        "first_n_with_capped_bound_r": 59
+      },
+      {
+        "c": 6,
+        "first_n_with_capped_bound_r": 68
+      },
+      {
+        "c": 7,
+        "first_n_with_capped_bound_r": 77
+      },
+      {
+        "c": 8,
+        "first_n_with_capped_bound_r": 86
+      }
+    ],
+    "positive_dimension_choices_checked": 6561,
+    "boundary_dimension_choices": [
+      {
+        "factor_ranks": [
+          13,
+          14
+        ],
+        "kernel_dimensions": [
+          20,
+          16
+        ],
+        "j": 5,
+        "good_dimensions": [
+          1,
+          1
+        ]
+      },
+      {
+        "factor_ranks": [
+          13,
+          14
+        ],
+        "kernel_dimensions": [
+          16,
+          20
+        ],
+        "j": 9,
+        "good_dimensions": [
+          1,
+          1
+        ]
+      },
+      {
+        "factor_ranks": [
+          14,
+          13
+        ],
+        "kernel_dimensions": [
+          20,
+          16
+        ],
+        "j": 4,
+        "good_dimensions": [
+          1,
+          1
+        ]
+      },
+      {
+        "factor_ranks": [
+          14,
+          13
+        ],
+        "kernel_dimensions": [
+          16,
+          20
+        ],
+        "j": 8,
+        "good_dimensions": [
+          1,
+          1
+        ]
+      }
+    ]
+  }
+}
