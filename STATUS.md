@@ -1,5 +1,18 @@
 # Research status
 
+## Exact obstruction for the external seed's standard-flip component
+
+The [component proof](research/ai/2026-10-23-flip-escape/component_proof.md)
+closes finite standard shared-factor flips and term gauges of the pinned
+external rank-76 M(4,5,5) algorithm. Its 58 proportional-W classes have
+pairwise disjoint U spans and V spans, certified by 3306 integer unit
+minors. Scalar trace pairings force every term to retain trace one or two.
+No usual rank reduction or physical-stabilizer deletion of a nonempty
+subset is possible within this move component. Claim
+`AI-EXTERNAL-FLIP-COMPONENT-001` is written and unreviewed. Rank-increasing
+splits and different decompositions remain outside the result. Three
+focused exact tests pass; this is not a global rank or exponent bound.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

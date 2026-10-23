@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-flip-escape` package is owner-directed OpenAI Codex work.
+It reuses the external AlphaTensor rank-76 M(4,5,5) seed and its pinned
+conversion with their existing attribution and license notice. Dumitriu
+et al., arXiv:2610.13905v1, retain credit for the shared-factor-flip and
+stabilizer-null-cone viewpoint. The exact class separation, unit minors,
+scalar trace pairings and scoped component proof are local continuations.
+They use elementary linear algebra and do not require the paper's
+general invariant-theory theorem. No independent review, formalization,
+historical priority, global rank bound or exponent improvement is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
