@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-23-resolvent-rank-six-locus` package is owner-directed OpenAI
+Codex work. PR139 supplies the fixed source conventions, gauge, limiting
+space and previous minimum-rank result, with exact byte pins. PR103 and
+the earlier cyclic-source packages retain their original attribution.
+The 26 integer seven-minor eliminations, exceptional fifth mixed direction,
+complete 17-dimensional rank-six locus, polynomial normal form and sharp
+rank109 compression classification are local continuations. The elementary
+polynomial product-dimension lemma is proved directly without importing an
+external theorem. The acceptance verifier reconstructs the source and
+checks the exported integer identities without discovery-code imports.
+No historical priority, independent review, formalization or exponent
+improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

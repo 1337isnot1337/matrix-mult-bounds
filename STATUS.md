@@ -1,5 +1,23 @@
 # Research status
 
+## Complete rank-six locus and sharp rank109 compression
+
+The [rank-six classification](research/ai/2026-10-23-resolvent-rank-six-locus/proof.md)
+identifies the complete rank-at-most-six locus of the fixed-resolvent space
+as a 17-dimensional linear space with a common six-dimensional image.
+Twenty-six integer seven-minor identities expose a five-dimensional mixed
+block, including an extra cancellation direction, and a four-dimensional
+pure Q block. An elementary polynomial product-dimension argument proves
+that two rank109 compression maps lose at most one dimension: the compressed
+space has dimension at least111, sharply. Every nontrivial compression
+kernel/image pair is parameterized in the proof. Exact controls attain
+dimensions111 and112 over Q, F2, F3 and F1009. Claims
+`AI-RESOLVENT-RANK-SIX-LOCUS-001` and
+`AI-RESOLVENT-RANK109-COMPRESSION-002` are written and unreviewed over every
+field. Varying singular compressions and new Laurent leading coefficients
+remain outside this result; no new matrix-target exclusion or exponent
+improvement is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
