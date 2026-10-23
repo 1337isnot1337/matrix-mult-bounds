@@ -1,0 +1,98 @@
+{
+  "archive_replay": {
+    "all_exact_payloads_match_archive": true,
+    "archive_files_verified": 10,
+    "command": "python tools/replay.py --output results/local/laurent-channel-replay",
+    "completed_before_regression_prefix_interruption": true,
+    "status": "passed",
+    "summary": "archive-replay-summary.json"
+  },
+  "completed_utc": "2026-10-23T17:17:12.436507+00:00",
+  "execution_harness_sha256": "54b0853eaecf619a65d51532bf12c6ee33a194cf10d1522c8ba6dbbc9d5048c0",
+  "head_after": "13dfd91537a99ca9e0315e9181badc50d8cfd98d",
+  "head_after_tree": "799c5b8e07213790aa75db598a5bda0ee448fdcf",
+  "historical_directories_unchanged_from_base": true,
+  "improves_omega": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "logs": [
+    {
+      "path": "full-suite.log.gz",
+      "sha256": "9c8e42fa9d4bc80e74a00ee146485633e6813804e45a140e4d6db6f6781ab9f1",
+      "uncompressed_bytes": 80640,
+      "uncompressed_sha256": "1106e0c41c4b090230730912867d938bb691171f7d415b6a52b189b7396c06a8"
+    },
+    {
+      "path": "shard-0.log.gz",
+      "sha256": "c8635e9dadbe1a146b6ce1aac83c0b5f9b7aa0403469acdf1faf57f073f1b2d5",
+      "uncompressed_bytes": 26023,
+      "uncompressed_sha256": "dd7d87482fb4ca0431c5579c330a1f195203f7f31ea689ac00e952a75077a90c"
+    },
+    {
+      "path": "shard-1.log.gz",
+      "sha256": "445ad42b33dc1594160ec414e9c6c38c850e43a884098992360c5c22e6357b94",
+      "uncompressed_bytes": 28560,
+      "uncompressed_sha256": "ab96a091b2c733ae053d55ee0a34d434d1805876c73ba47373d56d554a4e517f"
+    },
+    {
+      "path": "archive-replay.log.gz",
+      "sha256": "9c017124bd84e3e056b5e459e62cba75f464e6b6ba4eff023e15c95c5425a1bf",
+      "uncompressed_bytes": 281,
+      "uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    }
+  ],
+  "published_equivalence": "The published commit has the identical full Git tree; API-created commit metadata differs.",
+  "published_equivalent_head": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+  "python": "3.12.14",
+  "python_optimization": 0,
+  "regression_suite": {
+    "completed_tests_repeated": 0,
+    "coverage_limit": "One interrupted sequential prefix plus two exact remaining-ID shards; not an uninterrupted all-tests process.",
+    "discovered_tests": 904,
+    "discovery_command": "python -m unittest discover -s tests -v",
+    "errors": 0,
+    "exact_disjoint_coverage": true,
+    "failures": 0,
+    "id_plan": "plan.json",
+    "interleaved_stdout_successes": [
+      "test_graded_quantum_flags.GradedQuantumFlagTests.test_all_number_field_supports_and_modular_minors_replay",
+      "test_higher_jet_quantum_flags.HigherJetQuantumTests.test_all_256_block_certificates_replay"
+    ],
+    "interruption_detail": "Interrupted between reported tests or during class setup after 547 successes; no uncompleted test header was present.",
+    "interruption_reason": "Preserve completed successes and parallelize only uncompleted tests.",
+    "passed_tests": 904,
+    "prefix_exit_code": 130,
+    "prefix_passed_tests": 547,
+    "shard_commands": [
+      "python results/laurent-channel-barrier-2026-10-23/remaining_tests.py --shard 0",
+      "python results/laurent-channel-barrier-2026-10-23/remaining_tests.py --shard 1"
+    ],
+    "shards": [
+      {
+        "exit_code": 0,
+        "number": 0,
+        "receipt": "shard-0.json",
+        "seconds": 160.996,
+        "tests_passed": 179
+      },
+      {
+        "exit_code": 0,
+        "number": 1,
+        "receipt": "shard-1.json",
+        "seconds": 262.929,
+        "tests_passed": 178
+      }
+    ],
+    "skipped_tests": 0
+  },
+  "schema": "laurent-channel-validation-v1",
+  "scope": "Exact finite implementation and archive checks at the pinned tree. They do not prove the quantified mathematics or constitute independent mathematical review.",
+  "status": "passed",
+  "tested_local_head": "13dfd91537a99ca9e0315e9181badc50d8cfd98d",
+  "tested_tree": "799c5b8e07213790aa75db598a5bda0ee448fdcf",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "tracked_tree_unchanged_during_validation": true
+}
