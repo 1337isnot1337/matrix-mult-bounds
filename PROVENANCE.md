@@ -897,3 +897,31 @@ The prior finite split-cover note supplies its finite matrix slice-rank
 reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
+
+## Joint one-matrix-plus-scalars frontier
+
+The October 23 joint frontier is owner-directed Codex research. It adopts
+the complex source degrees, rank-locus profile, full-space Koszul ranks and
+the exact nonsplit SL(2,F5) characteristic-two source certificate from the
+pinned records in `research/ai/2026-10-23-central-cover-joint-frontier/SOURCES.json`.
+The joint rank-profile inequality and complete exact search over one
+rectangular matrix component plus scalar outputs are local work. Gowers's
+direct-sum slice-rank theorem, the arbitrary-field Flanders/Meshulam
+matrix-space bound, and Schönhage's asymptotic sum inequality retain their
+external credit and stated hypotheses. Archived LP outputs are numerical
+discovery only; their generator was not retained. No target degeneration,
+independent review, formalization or exponent improvement is claimed.
+
+## Nonsplit joint matrix-plus-scalars cube
+
+The October 23 joint-target package is owner-directed Codex work. It
+adopts the exact complex group decomposition, maintained Koszul formulas
+and full nonsplit F4 source certificate with immutable byte pins and
+inherited proof statuses. The full target rank-locus profile argument,
+source cube cover, finite family census and conditional numerical
+controls are local continuations, without a historical priority claim.
+Gowers retains credit for direct-sum slice-rank additivity; Flanders,
+Meshulam and de Seguins Pazzis retain the arbitrary-field matrix-space
+credits. Schonhage retains the asymptotic sum inequality credit in the
+conditional controls. The finite exclusion has no independent review,
+formalization, general complex scope or achieved exponent improvement.

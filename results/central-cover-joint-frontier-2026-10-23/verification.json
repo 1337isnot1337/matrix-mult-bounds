@@ -1,0 +1,83 @@
+{
+  "complex_source_dimension": 120,
+  "complex_central_idempotent_products_checked": 81,
+  "modular_source_basis_rank": 120,
+  "modular_source_coefficients_checked": 1728000,
+  "modular_source_slice_upper_bound": 98,
+  "source_cube": {
+    "slice_upper_bound": 1012332,
+    "coordinate_classes": 11,
+    "class_triples_checked": 1331,
+    "one_leg_coordinate_multiplicity_checked": 1728000
+  },
+  "sorted_shapes_checked": 866,
+  "dimension_compatible_family_members": 41132,
+  "improving_survivors": [],
+  "excluded_after_earlier_screens": [
+    {
+      "shape": [
+        9,
+        9,
+        11
+      ],
+      "scalar_outputs": 11,
+      "target_cube_slice_rank": 1089242,
+      "source_cube_slice_upper_bound": 1012332,
+      "strict_gap": 76910
+    },
+    {
+      "shape": [
+        9,
+        9,
+        11
+      ],
+      "scalar_outputs": 12,
+      "target_cube_slice_rank": 1119285,
+      "source_cube_slice_upper_bound": 1012332,
+      "strict_gap": 106953
+    },
+    {
+      "shape": [
+        9,
+        9,
+        11
+      ],
+      "scalar_outputs": 13,
+      "target_cube_slice_rank": 1149886,
+      "source_cube_slice_upper_bound": 1012332,
+      "strict_gap": 137554
+    }
+  ],
+  "conditional_gates": [
+    {
+      "scalar_outputs": 11,
+      "conditional_exponent_upper_bound": "1121/500",
+      "source_cost_upper": "8557272746397/50000000000",
+      "target_cost_lower": "34231105889263/200000000000",
+      "strict_margin_lower": "80596147/8000000000",
+      "prerequisite": "An exact degeneration to M(9,9,11) plus these scalar outputs; unconstructed.",
+      "actual_improvement_established": false
+    },
+    {
+      "scalar_outputs": 12,
+      "conditional_exponent_upper_bound": "2233/1000",
+      "source_cost_upper": "168881464763013/1000000000000",
+      "target_cost_lower": "84462530180123/500000000000",
+      "strict_margin_lower": "43595597233/1000000000000",
+      "prerequisite": "An exact degeneration to M(9,9,11) plus these scalar outputs; unconstructed.",
+      "actual_improvement_established": false
+    },
+    {
+      "scalar_outputs": 13,
+      "conditional_exponent_upper_bound": "2223/1000",
+      "source_cost_upper": "20800335710333/125000000000",
+      "target_cost_lower": "83206008286119/500000000000",
+      "strict_margin_lower": "4665444787/500000000000",
+      "prerequisite": "An exact degeneration to M(9,9,11) plus these scalar outputs; unconstructed.",
+      "actual_improvement_established": false
+    }
+  ],
+  "independent_mathematical_review": false,
+  "all_targets_constructed": false,
+  "improves_omega": false
+}

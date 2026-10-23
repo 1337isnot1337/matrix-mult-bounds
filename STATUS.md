@@ -1,5 +1,37 @@
 # Research status
 
+## A joint cube closes the matrix-plus-scalars coordinate family
+
+The [full nonsplit joint-target certificate](research/ai/2026-10-23-central-cover-joint-frontier/README.md)
+gives SR_F4(T_SL2F5^3)<=1012332. Cyclic tensoring of M(a,b,c) plus r
+scalars has exact finite slice rank V^2+3r V min(a,b,c)+3r^2 min(ab,bc,ca)+r^3,
+where V=abc. The complete stated frontier covers 866 positive shapes and
+41132 dimension-compatible family members. The only three improving
+targets left by the earlier screens, M(9,9,11) plus 11,12,13 scalars,
+exceed the source cube bound by 76910,106953,137554. Thus the improving
+one-matrix-plus-scalars family is closed in the maintained one-copy
+complex coefficient-one coordinate/potential class. General complex
+mixing, other joint sums and higher source powers remain open.
+
+Claims `AI-NONSPLIT-MATRIX-SCALAR-CUBE-002` and
+`AI-SEMISIMPLE-JOINT-RANK-PROFILE-001` are written and unreviewed. The
+latter gives a full profile necessary condition for general complex
+semisimple-source degenerations. No exponent improvement is established.
+
+## One rectangular component plus scalar outputs
+
+The [joint frontier](research/ai/2026-10-23-central-cover-joint-frontier/README.md)
+screens all 866 sorted shapes and 41132 dimension-compatible formats
+`M(a,b,c) direct_sum r M1` for the SL(2,F5) source. The combined
+rank-locus, full-space Koszul, rank-profile and exact cost tests leave only
+`M(9,9,11) direct_sum r M1` for `r=11,12,13`. The finite slice-rank cap
+uses the 98-slice characteristic-two source certificate and transfers only
+under the stated coefficient-one good-reduction hypothesis. These targets
+are unconstructed; their conditional bounds do not improve omega here.
+Arbitrary sums with two or more matrix components remain outside this
+finite frontier. Claim `AI-CENTRAL-COVER-JOINT-FRONTIER-001` is written
+and unreviewed.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

@@ -1,0 +1,103 @@
+{
+  "local": [
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-group-potentials/fourier_certificate.py",
+      "sha256": "0ad4f5cf18507f069b368f776325e3c522083386c01e48df0a30be58f18bc4f9",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-group-potentials/rank_locus_obstruction.py",
+      "sha256": "7b583b03d07f6e884569047bbaf7140045ed41002b1b9665582b2ef3ab34dd48",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-group-potentials/rank_locus_proof.md",
+      "sha256": "081eaa4d9ba479fcdfcb9ed23809bd074495d051ee3c5f44515fda3648a3fef0",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-semisimple-koszul/semisimple_koszul.py",
+      "sha256": "847ee3d269ba4d404060187cef15b8417ab76fd5a8390d78e0a3bbfe56e6908a",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-semisimple-koszul/proof.md",
+      "sha256": "d8c42dbf09d98ac9abef10755d872dbc4fe9b8513497799cfd8e9a86cda9dff6",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-sl2-finite-slices/verify_cover.py",
+      "sha256": "bab1968ffc98275fbc56a3e43fe82e4e98edfbdea63b2f9c0cb2f8c5e571f28d",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-21-sl2-finite-slices/proof.md",
+      "sha256": "91106cd033c2586c4d4cd49dfd975a1eb0457063663f9d96553b0fbf7b266385",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "results/sl2-finite-slices-2026-10-21/cover-certificate.json",
+      "sha256": "1636f89a19fcfc3b7528ac53815315000b0c0a7b98063b01ae19dedba5d8cb49",
+      "use": "Adopted exact source, rank-locus, Koszul and good-reduction statements, preserving their proof status and source attribution."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-group-potentials/group_exact.py",
+      "sha256": "fcd93741ba37d7104b6e5abe234e48e8fbf9513aaffd65ddff6b98066628dfb1",
+      "use": "Underlying maintained group and matrix Koszul formula dependencies, with inherited proof status and credits retained."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-paired-sources/all_ranks.py",
+      "sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff",
+      "use": "Underlying maintained group and matrix Koszul formula dependencies, with inherited proof status and credits retained."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-paired-sources/matrix_koszul.md",
+      "sha256": "61d778358e28a19768c3c69b2db681b31b99dcabb96b5acea1d61c77cd5f7041",
+      "use": "Underlying maintained group and matrix Koszul formula dependencies, with inherited proof status and credits retained."
+    },
+    {
+      "base_commit": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
+      "path": "research/ai/2026-10-20-paired-sources/matrix_euler.md",
+      "sha256": "e8d088dfac2e3d741dc95c824f9c9be6d936bf8b90faad4dea36aba4560164e8",
+      "use": "Underlying maintained group and matrix Koszul formula dependencies, with inherited proof status and credits retained."
+    }
+  ],
+  "external": [
+    {
+      "id": "GOWERS21",
+      "title": "The slice rank of a direct sum",
+      "url": "https://arxiv.org/pdf/2105.08394v2",
+      "version": "arXiv v2, 11 August 2021",
+      "inspected": "Definition of field-valued finite tensors and Theorem 2",
+      "use": "Slice-rank additivity for finite direct sums over every field."
+    },
+    {
+      "id": "DSP16-FLANDERS",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "version": "arXiv v2, 20 April 2016",
+      "inspected": "Arbitrary-field convention and Theorem 1.1",
+      "use": "External Flanders/Meshulam bounded-rank matrix-space dimension inequality; the local argument reduces the finite rectangular target value to it."
+    },
+    {
+      "id": "SCH81",
+      "url": "https://doi.org/10.1137/0210032",
+      "version": "SIAM Journal on Computing 10(3), 1981",
+      "inspected": "Adopted through maintained references/sources.json and the credited group-target criterion, not newly rebuilt here.",
+      "use": "External asymptotic sum inequality and prior border-to-asymptotic conversion in the conditional exponent implication."
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

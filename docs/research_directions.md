@@ -289,3 +289,27 @@ now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
+
+## Joint central-cover target continuation
+
+The exact [one-matrix-plus-scalars frontier](../research/ai/2026-10-23-central-cover-joint-frontier/README.md)
+leaves only `M(9,9,11) direct_sum r M1` for `r=11,12,13` in its stated
+SL(2,F5) one-copy family. All three formats pass the listed necessary
+screens, but no degeneration is known and the conditional exponent bounds
+are not results. The next construction target is the smallest survivor,
+with every cross-component zero coefficient retained. The broader problem
+of arbitrary mixed sums with two or more matrix components remains open;
+the archived floating-point LP reports are discovery data only and have no
+retained generator. A complete broader result needs a new exact certificate
+or an actual source degeneration.
+
+
+## Joint central-cover matrix-plus-scalars checkpoint
+
+The [exact nonsplit cube continuation](../research/ai/2026-10-23-central-cover-joint-frontier/README.md)
+closes every strict improving one-copy coefficient-one coordinate/
+potential target M(a,b,c) plus r scalar tensors from SL(2,F5). Its
+1012332 source cube bound rejects all three earlier-screen survivors.
+Do not continue that complete family in the stated class. Arbitrary
+complex maps without the good reduction, more general joint matrix
+families and higher source powers remain separate open questions.
