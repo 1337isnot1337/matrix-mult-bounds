@@ -1,5 +1,35 @@
 # Research status
 
+## A singular-unit resolvent chart
+
+The [resolvent proof](research/ai/2026-10-21-singular-unit-resolvent/proof.md)
+excludes A4 to M(10,10,11) with constant PC=I110 and
+B(t)=P(tI112+N)^(-1), where N is the specified normalized square-zero
+coordinate slice, whenever the displayed limiting candidate space has
+dimension 112. It allows every finite Laurent pole order in the first
+map and arbitrary constant target bases. An exact integer/modular
+certificate proves the rank hypothesis on a nonempty open dense set of
+compression pairs. A source grading supplies a proper invariant space
+whose dimension is indivisible by 10, contradicting a normalized Mat10
+action. Claim `AI-CYCLIC-SINGULAR-RESOLVENT-001` is written and unreviewed.
+
+This singular unit lift is outside the earlier regular-invertible-unit
+chart. Rank-drop compression pairs, moving compressions and other unit
+trajectories remain open. No general A4 exclusion or exponent gain follows.
+
+## A singular-unit resolvent compression chart
+
+The [singular-unit proof](research/ai/2026-10-21-singular-unit-resolvent/proof.md)
+excludes the fixed A4 ansatz B(t)=P(tI+N)^(-1), constant C, PC=I110,
+with arbitrary finite Laurent first maps whenever its candidate limiting
+space has dimension112. An exact integer minor proves that condition on
+a nonempty open dense set of constant compression pairs. Source grading
+forces an invariant subspace whose dimension is not divisible by10,
+excluding every row/column equivalent Mat10 tensor I11 target space.
+The rank-drop locus, moving compressions and other singular unit lifts
+remain open. Claim `AI-CYCLIC-SINGULAR-RESOLVENT-001` is written and
+unreviewed; no exponent improvement is established.
+
 ## Finite cube bounds split-cover coordinate target volume
 
 The [full-source cube certificate](research/ai/2026-10-21-central-cover-finite-slices/proof.md)

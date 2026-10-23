@@ -280,8 +280,23 @@ The next owned algebraic question is equality at that rank. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
 
+The [singular-unit resolvent obstruction](../research/ai/2026-10-21-singular-unit-resolvent/proof.md)
+also closes the specified square-zero resolvent ansatz on a nonempty open
+dense set of constant codimension-two compression pairs, allowing arbitrary
+first-map Laurent poles. A continuation must address its explicit
+candidate-space rank-drop locus, moving compressions, or a different
+unit trajectory. This is a conditional chart exclusion, not a general
+singular-unit obstruction.
+
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
+
+The [fixed singular-unit resolvent chart](../research/ai/2026-10-21-singular-unit-resolvent/proof.md)
+is now excluded on a nonempty open dense set of constant compression pairs,
+including every finite Laurent first-map order. The remaining question
+within this ansatz is its candidate-rank-drop locus. Moving compressions,
+higher resolvent corrections and other singular unit trajectories remain
+separate construction questions.

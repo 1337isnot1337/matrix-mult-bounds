@@ -1,5 +1,24 @@
 # Attribution and provenance
 
+The `2026-10-21-singular-unit-resolvent` package resumes owner-directed
+Codex work, completed for submission on October 23, 2026. It adopts the
+maintained literal cyclic source, all-source minimum slice ranks and
+unimodular slice, with source pins in its `sources.json`. The fixed
+resolvent chart, limiting-space argument, grading invariant and exact
+nonvanishing minor are local work. Formal Laurent linear algebra,+Zariski openness and elementary matrix-unit module theory are standard
+inputs, with their hypotheses given in the proof. No independent review,
+formalization, historical priority or exponent improvement is claimed.
+
+The `2026-10-21-singular-unit-resolvent` package is owner-directed Codex
+work, resumed from preserved local work on October23. It adopts the
+maintained literal cyclic source, minimum slice rank and explicit integer
+unit with exact hashes in sources.json. The fixed-resolvent flat-space
+argument, grading invariant and integer nonvanishing-minor certificate
+are local continuations. Elementary matrix-unit module divisibility,
+rank-open loci and regular Laurent basis arguments are explained in the
+proof without a historical priority claim. No independent mathematical
+review, general singular-unit exclusion or exponent improvement is claimed.
+
 The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
 work using the maintained literal cyclic convolution source and its open
 singular target. The interval-block proof and finite Krylov/Bezout and

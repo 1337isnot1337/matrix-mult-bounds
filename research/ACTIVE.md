@@ -1,5 +1,25 @@
 # Integrated research coordination
 
+The singular-unit continuation studies
+`ai/2026-10-21-singular-unit-resolvent/ACTIVE.md`. Its written obstruction
+allows arbitrary first-map Laurent poles for the fixed square-zero
+resolvent and constant compression pairs whose candidate limiting-space
+rank is 112. An exact rank minor proves a nonempty open dense chart.
+The remaining scoped question is the rank-drop locus; moving compression
+pairs and other singular-unit trajectories are separate open questions.
+This does not repeat or extend the canonical partner/leading-flag charts.
+No exponent improvement or independent mathematical review is claimed.
+
+The singular-unit continuation studies
+`ai/2026-10-21-singular-unit-resolvent/QUESTION.md`, resumed at main d833eb0.
+The fixed rank-16 square-zero resolvent with constant PC=I110 is excluded
+for every Laurent first map when its candidate limiting-space rank is112.
+An exact minor proves a nonempty open dense locus; a source grading gives
+a common invariant dimension incompatible with Mat10. Next: determine
+the exceptional rank-drop locus or remove that rank hypothesis. Moving
+compressions and other unit trajectories remain outside the result.
+Written and unreviewed; no exponent improvement.
+
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
 boundary obstruction ranks at most two force both complete matrices to
