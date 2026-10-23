@@ -1,0 +1,86 @@
+{
+  "status": "bounded-discovery-only",
+  "power": 3,
+  "rows": [
+    {
+      "principal_factors": 0,
+      "word_multiplicity": 1,
+      "best": {
+        "cost": 147456,
+        "weights": {
+          "principal_scale": 1,
+          "matrix_central": 1,
+          "extra_C2": 1
+        },
+        "cutoffs": [
+          1,
+          1,
+          2
+        ],
+        "max_degree": 6
+      },
+      "tested_weights": 96
+    },
+    {
+      "principal_factors": 1,
+      "word_multiplicity": 3,
+      "best": {
+        "cost": 384768,
+        "weights": {
+          "principal_scale": 1,
+          "matrix_central": 3,
+          "extra_C2": 2
+        },
+        "cutoffs": [
+          6,
+          6,
+          6
+        ],
+        "max_degree": 20
+      },
+      "tested_weights": 256
+    },
+    {
+      "principal_factors": 2,
+      "word_multiplicity": 3,
+      "best": {
+        "cost": 898096,
+        "weights": {
+          "principal_scale": 1,
+          "matrix_central": 3,
+          "extra_C2": 3
+        },
+        "cutoffs": [
+          8,
+          9,
+          9
+        ],
+        "max_degree": 28
+      },
+      "tested_weights": 256
+    },
+    {
+      "principal_factors": 3,
+      "word_multiplicity": 1,
+      "best": {
+        "cost": 2159796,
+        "weights": {
+          "principal_scale": 1,
+          "matrix_central": 1,
+          "extra_C2": 3
+        },
+        "cutoffs": [
+          10,
+          10,
+          11
+        ],
+        "max_degree": 33
+      },
+      "tested_weights": 36
+    }
+  ],
+  "source_slice_upper_candidate": 6155844,
+  "M_13_13_15_cyclic_cube_rank": 6426225,
+  "crosses_target": true,
+  "exponent_improvement": false
+}

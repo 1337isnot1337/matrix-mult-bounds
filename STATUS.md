@@ -17,6 +17,65 @@ An integer kernel and modular rank70 witness certify the exact complex
 rank70 at a2,p3, beyond the proved interval. No target is constructed and
 no exponent is improved.
 
+## Sharp rank six in the fixed-resolvent matrix space
+
+The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
+proves that its 112-dimensional limiting matrix space has minimum nonzero
+ordinary matrix rank exactly six over every field. Thirty-one triangular
+six-by-six minor identities eliminate every parameter of the difficult
+outer block, and an explicit rank-six witness proves sharpness. Thus every
+two-sided compression with total rank loss at most five is injective.
+At rank109 on both long maps, a lost direction must have rank six and obey
+the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
+is written and unreviewed. This refines the fixed-resolvent space from
+PR103; its narrow target application is superseded by the regular-long-map
+argument. General singular trajectories, all rank-six matrices and an
+improved exponent are not settled.
+
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
+
+## All-order A4 exclusion with a partial regular unit image
+
+The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
+extends the previous invertible-unit Laurent chart. A4 cannot degenerate
+to M(10,10,11) if one long map C is regular with full-rank limit, the
+source lift of the target identity is regular, and its limiting image
+`S(0) C(0)` has rank at least109. In particular, singular source units
+of corank one are included. Independent source frames and varying
+left inverses first force both other maps to be regular; the existing
+ordinary-map obstruction finishes the argument. Every finite pole order
+is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
+`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
+controls verify the rank budgets and projection recovery, without
+formalizing the proof. Rank108, singular long-leg limits and polar unit
+lifts remain open. No matrix target or smaller exponent is established.
+
+## Finite covers close the selected nonsplit coordinate targets
+
+The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)
+gives a 98-slice cover for SL(2,F5), excluding M10 in characteristic two
+and in the maintained one-copy coefficient-one coordinate/potential
+class over C. For SL(2,F5) x C2 its cube has a 6155844-slice cover, below
+2535^2=6426225. Cyclic symmetry gives abc<=2481 for any single rectangular
+target, excluding the selected M(13,13,15). Independent replay checks
+rank120, all1728000 original nonsplit coefficients, full block degrees,
+and grouped cube coordinate counts with multiplicity13824000. Claim
+`AI-NONSPLIT-FINITE-COVERS-001` is written and unreviewed. Together with
+the split-cover result, this closes the three selected one-copy
+central-cover coordinate/potential targets. General complex input mixing,
+other targets and arbitrary higher source powers remain open. No smaller
+exponent is established.
+
 ## Complete affine conic tangents and second jets
 
 The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)
@@ -46,8 +105,9 @@ the split cover. The verifier checks all 216000 A5 coefficients and enumerates
 all 1728000 one-leg cube coordinates. A direct argument from the external
 arbitrary-field bounded-rank matrix-space theorem supplies the target
 lower bound. Claim `AI-SPLIT-COVER-CUBE-EXCLUSION-001` is written and
-unreviewed. General complex degenerations, the nonsplit central covers,
-and constructions from arbitrary higher powers remain open. No smaller
+unreviewed. The separate nonsplit note above addresses its selected
+coordinate targets. General complex degenerations and constructions
+from arbitrary higher powers remain open. No smaller
 exponent is established.
 
 ## Regular unit charts and full-source calibrations

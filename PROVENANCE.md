@@ -11,6 +11,30 @@ October23. Exact coefficient and integer-kernel controls are finite
 evidence, without independent mathematical review or formalization.
 No historical priority, target construction or exponent gain is claimed.
 
+The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
+work. PR103 supplies the fixed square-zero resolvent and high/low limiting
+space, with its exact inspected commit and file hash recorded. Earlier
+cyclic-source work supplies the literal source and unimodular unit. The
+31 successive integer minor identities, sharp minimum-rank-six result and
+compression alignment are local continuations. The acceptance program
+reconstructs all 112 source slices and verifies the literal certificate;
+it does not import the discovery process. Elementary finite matrix
+arguments apply over every field; the scoped Laurent application is over
+C. No historical priority, independent mathematical review, formalization
+or exponent improvement is claimed.
+
+The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
+work. The canonical cyclic source, its all-size minimum nonzero slice
+rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
+lemma are prior repository work, retained with exact byte pins and their
+original credit. Independent source frame completions for a partial unit
+image, compressed target rank margins, recovery through varying left
+inverses and the weaker A4 unit-image hypothesis are local continuations.
+Only elementary linear algebra and formal Laurent coefficients are used;
+no new external theorem, historical priority or independent mathematical
+review is claimed. Finite exact controls support the written unreviewed
+proof and do not establish a matrix target or exponent improvement.
+
 The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
 work using the maintained literal cyclic convolution source and its open
 singular target. The interval-block proof and finite Krylov/Bezout and
@@ -881,3 +905,29 @@ arbitrary-field formulation in arXiv:1507.05375v2, Theorem 1.1. The local
 note derives the required finite matrix-multiplication slice rank from
 that theorem. No historical priority, independent mathematical review,
 Lean formalization or exponent improvement is claimed.
+
+## Actual nonsplit finite covers
+
+The explicit lifted F4 basis, integer coordinate covers and separately
+weighted cube certificate in `research/ai/2026-10-21-sl2-finite-slices/`
+are owner-directed Codex work. Discovery reuses the preceding A5 basis
+and idempotents, with their source credit retained. Acceptance uses a
+separate dense-field implementation of the original determinant-one
+group; it does not assume the quotient lift, a radical pilot or a
+numerical optimizer result. Flanders, Meshulam and de Seguins Pazzis retain
+credit for the imported arbitrary-field bounded-rank matrix-space theorem.
+The prior finite split-cover note supplies its finite matrix slice-rank
+reduction and standard proper-incidence/field-transfer argument. These
+finite source certificates do not claim optimality, historical priority,
+independent mathematical review, formalization or exponent improvement.
+
+## Nonsplit vector-degree finite continuation
+
+The October 23 vector-degree package is owner-directed Codex work. It
+adopts the credited nonsplit basis and finite covers from PR102 at
+6cd7f3a1fc90820c135505b882a614cb62a025d5, with exact file hashes. It adds
+full-source parity and cover-membership checks, a separately counted
+class hypergraph and a finite integer-weight census. Optional SciPy
+optimization proposes covers; its numerical bounds are not mathematical
+acceptance premises. The earlier source theorem credits are retained.
+There is no independent review, formalization or exponent improvement.
