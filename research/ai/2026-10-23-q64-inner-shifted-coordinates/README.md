@@ -1,25 +1,26 @@
-# The inner-index shifted long-leg chart has a near-terminal frontier
+# All inner-index proportional long-leg shifts need quadratic correction
 
-**Result.** For each `n`, choose any integers
-`0<=k_B(n),k_C(n)<n` and use
+**Result.** For every `n`, choose any integers
+`0<=k_B(n),k_C(n)<n` and map
 `B_(y,s) -> b_(s-k_B*y,y)` and
-`C_(z,v) -> c_(v,z-k_C*v)`, zeroing out-of-range target coordinates.
-For every linear first-leg map, the target-minus-source correction has
-first-leg flattening rank at least
-`n^2-1-k_B*k_C`.
+`C_(z,v) -> c_(v,z-k_C*v)`, sending out-of-range target coordinates to
+zero. For every linear first-leg map, the target-minus-source correction
+has first-leg flattening rank at least `n^2/2` for every `n>=4`.
+Consequently this entire multiplier family cannot use an auxiliary
+correction of border rank `O(n)`.
 
-Consequently, an `O(n)`-border-rank auxiliary correction in this chart
-requires `k_B*k_C >= n^2-O(n)`. Since both multipliers are at most
-`n-1`, this forces `k_B=n-O(1)` and `k_C=n-O(1)`. The proof therefore
-excludes all shift sequences where either multiplier stays more than a
-bounded distance below `n`; the near-terminal pair remains open.
+The proof has two cases. If either `2*k_B>n+1` or `2*k_C>n+1`, the
+matched inner slice `j=2` receives no source contribution and gives full
+rank `n^2`. Otherwise the two off-diagonal blocks give rank at least
+`n^2-1-k_B*k_C`, which is at least `n^2/2` for `n>=4`.
 
-The exact rational replay checks four pairs `k_B,k_C in {0,1}`, six
-first-leg maps, and `n=1,...,6`. Those cases check indexing; the proof in
-[`proof.md`](proof.md) covers arbitrary size-dependent multipliers.
+The exact rational replay checks every multiplier pair `0<=k_B,k_C<n`
+for `n=1,...,6` and six first-leg maps. It checks coefficient formulas
+and the stated rank bounds; the proof in [`proof.md`](proof.md) supplies
+the all-size argument.
 
 Other long-leg maps, general `Q(n,4)` restrictions, independent review,
-Lean formalization and exponent improvement are outside this claim.
+Lean formalization and exponent improvement remain outside this claim.
 
 Reproduce with:
 

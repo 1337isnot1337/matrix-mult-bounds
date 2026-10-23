@@ -360,9 +360,10 @@ The [inner-index shift continuation](ai/2026-10-23-q64-inner-shifted-coordinates
 covers every size-dependent pair `0<=k_B,k_C<n` in
 `B_(y,s)->b_(s-k_B*y,y)` and
 `C_(z,v)->c_(v,z-k_C*v)`. For arbitrary first-leg maps the correction
-flattening rank is at least `n^2-1-k_B*k_C`. A linear-cost correction
-would force both multipliers to be `n-O(1)`; this near-terminal pair is
-the remaining shift regime in this chart.
+flattening rank is at least `n^2/2` for `n>=4`. High multipliers remove
+the entire matched `j=2` source block; the off-diagonal support argument
+handles the remaining low-multiplier range. This closes all such
+size-dependent inner-index shifts.
 
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
