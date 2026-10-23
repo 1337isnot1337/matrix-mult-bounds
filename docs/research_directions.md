@@ -4,7 +4,8 @@ These are proposed investigations, not claimed results. Each task has a concrete
 
 The [fixed-resolvent rank-six classification](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md)
 now identifies its rank-six locus as a 17-dimensional linear space with
-a common six-dimensional image. Over C, two rank109 compressions lose
+a common six-dimensional image, with no rank-seven matrices. Over every
+field, two rank109 compressions lose
 at most one dimension, and that bound is sharp. This closes the previous
 fixed-space classification question. A further structural investigation
 must change the nilpotent or analyze higher resolvent corrections; check

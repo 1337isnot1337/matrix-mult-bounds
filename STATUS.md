@@ -7,9 +7,14 @@ identifies the entire rank-at-most-six locus of the fixed resolvent space W
 as a 17-dimensional linear space. Every nonzero member has rank six and
 the same six-dimensional image. The mixed outer block has a five-dimensional
 locus, certified over every field by 26 triangular seven-minors and five
-terminal six-minors. Over C, two rank109 compressions can lose at most one
-dimension of W; a displayed compression attains dimension111. Claim
-`AI-RESOLVENT-RANK-SIX-LOCUS-001` is written and unreviewed. This closes the
+terminal six-minors. The [boundary continuation](research/ai/2026-10-23-resolvent-rank-six-locus/boundary.md)
+excludes rank seven using 26 eight-minors and proves the next rank eight
+is attained. Over every field, two rank109 compressions can lose at most
+one dimension of W; a displayed compression attains dimension111. Every
+six-loss allocation with positive input loss has the same sharp bound;
+deleting the entire common output image instead kills 17 dimensions.
+Claims `AI-RESOLVENT-RANK-SIX-LOCUS-001` and `AI-RESOLVENT-RANK-GAP-001`
+are written and unreviewed. This closes the
 fixed-space rank-six classification and sharpens the prior alignment from
 a 28-space to a specific six-space. General singular trajectories and the
 exponent question remain open.

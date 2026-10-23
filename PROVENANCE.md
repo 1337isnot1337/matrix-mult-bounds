@@ -8,8 +8,9 @@ rank-six locus, common six-dimensional image, and sharp corank-three
 compression loss are local continuations. The new verifier reconstructs
 the outer source and replays integer polynomial identities without
 importing the discovery search or predecessor verifier. The rank-locus
-theorem holds over every field; the one-dimensional compression-kernel
-bound uses algebraic closure. No independent review, formalization,
+theorem holds over every field. The continuation proves the rank-seven
+gap and all six-loss compression boundaries; scalar extension makes
+the determinant-pencil bound valid over every field. No independent review, formalization,
 historical priority, or exponent improvement is claimed.
 
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex

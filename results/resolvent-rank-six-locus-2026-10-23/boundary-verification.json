@@ -1,0 +1,115 @@
+{
+  "eight_minor_stages": 26,
+  "full_rank_at_most_seven_locus_dimension": 17,
+  "rank_seven_absent": true,
+  "next_attained_rank": 8,
+  "rank_locus_and_written_boundary_field_scope": "every field",
+  "compression_controls": [
+    {
+      "output_corank": 0,
+      "input_corank": 6,
+      "deleted_output_rows": [],
+      "deleted_input_columns": [
+        28,
+        29,
+        30,
+        31,
+        35,
+        39
+      ],
+      "compressed_dimension_over_Q": 111
+    },
+    {
+      "output_corank": 1,
+      "input_corank": 5,
+      "deleted_output_rows": [
+        107
+      ],
+      "deleted_input_columns": [
+        28,
+        29,
+        31,
+        35,
+        39
+      ],
+      "compressed_dimension_over_Q": 111
+    },
+    {
+      "output_corank": 2,
+      "input_corank": 4,
+      "deleted_output_rows": [
+        106,
+        107
+      ],
+      "deleted_input_columns": [
+        28,
+        31,
+        35,
+        39
+      ],
+      "compressed_dimension_over_Q": 111
+    },
+    {
+      "output_corank": 3,
+      "input_corank": 3,
+      "deleted_output_rows": [
+        105,
+        106,
+        107
+      ],
+      "deleted_input_columns": [
+        31,
+        35,
+        39
+      ],
+      "compressed_dimension_over_Q": 111
+    },
+    {
+      "output_corank": 4,
+      "input_corank": 2,
+      "deleted_output_rows": [
+        98,
+        105,
+        106,
+        107
+      ],
+      "deleted_input_columns": [
+        31,
+        35
+      ],
+      "compressed_dimension_over_Q": 111
+    },
+    {
+      "output_corank": 5,
+      "input_corank": 1,
+      "deleted_output_rows": [
+        91,
+        98,
+        105,
+        106,
+        107
+      ],
+      "deleted_input_columns": [
+        31
+      ],
+      "compressed_dimension_over_Q": 111
+    },
+    {
+      "output_corank": 6,
+      "input_corank": 0,
+      "deleted_output_rows": [
+        84,
+        91,
+        98,
+        105,
+        106,
+        107
+      ],
+      "deleted_input_columns": [],
+      "compressed_dimension_over_Q": 95
+    }
+  ],
+  "independent_review": false,
+  "formalized": false,
+  "exponent_improvement": false
+}

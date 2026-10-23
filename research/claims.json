@@ -1,6 +1,24 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-RESOLVENT-RANK-GAP-001",
+      "title": "Fixed-resolvent rank-seven gap and all-field six-loss compression boundary",
+      "status": "proof-written-unreviewed",
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "evidence": "research/ai/2026-10-23-resolvent-rank-six-locus/boundary.md",
+      "section": "1-3",
+      "statement": "Over every field the rank-at-most-seven locus of W equals its 17-dimensional rank-six space, with no rank-seven matrices; a unit minor witnesses rank eight. If the output and input coranks a,b satisfy a+b=6 and b>=1, the compression kernel has dimension at most one, sharply for all six allocations. If (a,b)=(6,0), the kernel has dimension17 exactly when the output kernel is the common six-dimensional image, and is zero otherwise. Scalar extension proves the one-dimensional bound over every field.",
+      "dependencies": [
+        "AI-RESOLVENT-RANK-SIX-LOCUS-001 and its explicit common-image classification",
+        "Twenty-six triangular eight-minor identities and a unit rank-eight minor",
+        "Written scalar-extension and determinant-pencil argument"
+      ],
+      "limitations": "Only the fixed resolvent matrix space W; total-loss-seven kernel dimensions and general singular Laurent trajectories are not classified. This is ordinary matrix rank, with no tensor target, independent review, formalization, or exponent improvement."
+    },
+    {
       "id": "AI-RESOLVENT-RANK-SIX-LOCUS-001",
       "title": "Complete fixed-resolvent rank-six locus and sharp corank-three compression loss",
       "status": "proof-written-unreviewed",
