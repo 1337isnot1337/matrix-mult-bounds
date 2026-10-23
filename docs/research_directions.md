@@ -17,6 +17,15 @@ dimension limit. A machine-precision numerical fit is discovery evidence
 only. Deliver exact coefficient identities, then a proved unbounded
 extension with every auxiliary cost accounted for.
 
+Optimizing only the first map with the old product long maps is now
+settled by the [exact residual-rank formula](../research/ai/2026-10-23-product-longmap-residual/README.md).
+For every `n>=5` in characteristic different from two, the minimum first
+residual rank is `(n-1)^2-max(9-n,1)^2`, attained by the old first map.
+A low-first-support construction must change at least one long map or
+use a different limiting construction. The slice-space quotient formula
+in that proof gives an exact screen for new fixed long-map candidates;
+it does not exclude unrestricted long-map families or general degenerations.
+
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
 when both long maps remain regular and full rank. Do not repeat those

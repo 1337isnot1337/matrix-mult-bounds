@@ -1,5 +1,21 @@
 # Research status
 
+## The first map cannot repair the fixed product long maps
+
+The [product-longmap residual proof](research/ai/2026-10-23-product-longmap-residual/README.md)
+computes the exact minimum first residual rank when both existing product
+long maps are fixed and the first map is arbitrary. For every `n>=5` in
+characteristic different from two, the minimum is
+`(n-1)^2-max(9-n,1)^2`, attained by the old first map. For `n>=8` this
+equals `(n-1)^2-1`. Thus a new first map alone cannot concentrate this
+construction's error on a small first-leg support.
+
+Claim `AI-PRODUCT-LONGMAP-RESIDUAL-001` is written and unreviewed. Direct
+rational paired ranks replay every `n=5,...,12` and `n=16`. Larger
+one-factor controls and characteristic-three/five checks also pass.
+Other long maps and general tensor degenerations remain open. No matrix
+target or improved exponent is established.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

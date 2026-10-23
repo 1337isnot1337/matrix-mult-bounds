@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-product-longmap-residual` package is owner-directed Codex
+work. It preserves the exact old product long maps and their prior
+construction credit with local byte pins. Quotient-space rank minimization
+and tensor-product subspace intersections are elementary linear algebra,
+with proofs supplied rather than historical novelty claims. The all-size
+intersection calculation, exact residual formula, and independent
+standard-library replay are local deductions. A separate agent derived
+the same formula by a projection argument and checked the proof in this
+session. This is not independent mathematical review. Both long maps
+remain fixed; no new tensor target, general degeneration obstruction or
+exponent improvement is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

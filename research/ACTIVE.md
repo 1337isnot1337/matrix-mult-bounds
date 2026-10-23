@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The October 23 fixed-product continuation is on
+`research/product-longmap-residual-20261023`, based on main `fe602e4`.
+Its [all-size proof](ai/2026-10-23-product-longmap-residual/README.md)
+allows an arbitrary first map while retaining both old product long maps.
+The exact minimum first residual rank is
+`(n-1)^2-max(9-n,1)^2` for every `n>=5` in characteristic different from
+two. Six focused tests pass, including direct rational paired ranks
+through `n=12` and at `n=16`, larger one-factor controls, and finite-field
+checks. The claim remains written and unreviewed. Further constructive
+work must change a long map or leave this fixed-map model. No new matrix
+target or smaller exponent is established.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over
