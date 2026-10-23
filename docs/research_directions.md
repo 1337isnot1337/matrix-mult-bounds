@@ -261,11 +261,16 @@ The [semisimple full-space continuation](../research/ai/2026-10-21-semisimple-ko
 supplies a new exact SL(2,F8) source and screens every improving integer
 format. The selected M(18,18,25) target passes all stated necessary tests
 and would imply2.245 if constructed. Its first full-D18-subgroup pilot
-timed out without a pair model. The next construction must improve that
-search or change its frame; repeating the same bounded run is not new
-mathematical progress. This is distinct from the active SL(2,5) native
-parity work. General complex F8 degenerations also retain21 possible
-formats after the new full-space Koszul exclusions.
+timed out without a pair model. The later
+[subgroup-ideal proof](../research/ai/2026-10-21-sl2-f8-ideals/proof.md)
+excludes that frame by244<450, independently of the timeout. The search
+entry point now replays that exact obstruction before importing SAT
+dependencies. A new construction must change the frame and respect the
+complete-coset cuts; improving that excluded pilot cannot help.
+This is distinct from the active SL(2,5) native
+parity work. The general complex tests retain16 formats for SL(2,F8).
+The separate affine source F8^2:C7 retains21 formats after its full-space
+Koszul exclusions.
 
 Read the current claim ledger, open issues, and active branches before selecting a task. Record the task and mathematical question before a long run. Prefer a question that can change a theorem, remove an assumption, or eliminate a specific search family.
 

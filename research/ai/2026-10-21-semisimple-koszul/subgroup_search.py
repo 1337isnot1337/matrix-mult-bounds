@@ -1,5 +1,7 @@
 """Optional bounded SAT/LP discovery for one SL(2,F8) full-subgroup frame.
 
+The full (18,18,25) frame first replays its exact subgroup-ideal exclusion,
+before any SAT dependency is imported. The positive control still searches.
 Only exact full-support verification accepts a potential. Timeout and
 solver-reported UNSAT without a proof trace establish no nonexistence.
 """
@@ -17,12 +19,28 @@ from stream_potentials import discover
 
 
 def run(seconds,output,control=False,max_models=50):
+    G,H = group(),subgroup()
+    bounds = [1,1] if control else [18,25]
+    from subgroup_preflight import exclusion_for
+    exclusion = exclusion_for([18,*bounds],H)
+    if exclusion is not None:
+        report = {'group':G['name'],'shape':[18,*bounds],'fixed_subgroup':H,
+                  'subgroup_order':18,'right_coset_count':28,
+                  'normalization':'T and U both contain the identity; S is the fixed D18 subgroup.',
+                  'scope':__doc__,'positive_control_only':control,
+                  'models':0,'cuts':[],'witness':None,
+                  'status':'excluded-by-subgroup-ideal','exclusion':exclusion,
+                  'analytic_exclusion_verified':True,'unsat_proof_checked':False,
+                  'seconds_requested':seconds,'model_limit':max_models,
+                  'improves_omega':False}
+        output.parent.mkdir(parents=True,exist_ok=True)
+        output.write_text(json.dumps(report,indent=2)+'\n')
+        print(json.dumps({k:v for k,v in report.items() if k not in ['cuts','witness','fixed_subgroup']},indent=2))
+        return report
     from pysat.card import CardEnc
     from pysat.formula import IDPool
     from pysat.solvers import Glucose4
-    G,H = group(),subgroup()
     started = time.monotonic()
-    bounds = [1,1] if control else [18,25]
     pool = IDPool()
     members = [[pool.id(('member',f,g)) for g in range(504)] for f in range(2)]
     clauses = []
