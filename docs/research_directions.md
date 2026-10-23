@@ -137,6 +137,15 @@ Status: open. Replace floating best-case ordering in a maintained search copy wi
 
 A useful patch demonstrates an incorrect ranking, stronger certified block score, better search coverage, or lower computational cost at identical coverage. Report negative results with parameters and actual counts. Do not report unfinished runs as completed.
 
+The [ordered-input continuation](../research/ai/2026-10-23-ordered-monomial-search/README.md)
+completes both input roles in the historical binary/ternary scopes with
+24,708/370,252 exact candidates and no violation. An all-size alternating
+family shows that the omitted orientation can score strictly better, so
+`a <= b` is not a score-preserving or pointwise-dominating reduction.
+Stronger recognition or another shared-axis class is needed for new work
+at these alphabets and dimension limits; repeating this census is not new
+coverage. PR118 retains its separate exact-ranking contribution.
+
 ## R7: Whole-filtration entropy beyond the balanced obstruction
 
 Status: settled for the explicit upper certificate `U` by

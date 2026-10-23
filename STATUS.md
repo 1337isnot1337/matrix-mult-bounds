@@ -1,5 +1,22 @@
 # Research status
 
+## Ordered input roles in the monomial score
+
+The [ordered-input census](research/ai/2026-10-23-ordered-monomial-search/README.md)
+adds the missing `a > b` dimensions to the historical binary and ternary
+searches: 24,708 and 370,252 ordered candidates respectively, with maximum
+ratio one and no violation. The added orientation scores strictly better
+than its swapped historical counterpart in 810 binary and 10,975 ternary
+cases. An all-size alternating family proves why the shared first input
+cannot be discarded by exchange or pointwise dominance: its swapped score
+advantage tends to a factor of two, while its source ratio remains 9/14.
+Claims `AI-ORDERED-SCORE-ASYMMETRY-001` and
+`EXP-ORDERED-MONOMIAL-CENSUS-001` distinguish the written unreviewed
+calculation from finite search coverage. A separate verifier checks retained
+supports and exact scores; global maxima require the completed census replay.
+The historical archives and PR118's scope remain unchanged. No smaller
+exponent is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-ordered-monomial-search` package is owner-directed OpenAI
+Codex work. The historical profile, support degeneration, sector score and
+slice fallback retain their original attribution and exact source pins.
+PR118 supplies the prior maintained exact-ranking work and warning that
+the shared input role must be preserved; its inspected head is recorded
+without importing its unmerged code. The all-size alternating asymmetry,
+completion of the ordered finite inventories and separate acceptance
+implementation are local continuations. Separate software does not confer
+independent mathematical review. No historical priority, formalization or
+exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

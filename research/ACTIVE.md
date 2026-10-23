@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The [ordered-input monomial census](ai/2026-10-23-ordered-monomial-search/README.md)
+is on `research/exact-search-review-01a16975`. It completes both input
+orientations in the historical binary/ternary scopes and proves an all-size
+failure of pointwise swap dominance. The 24,708/370,252 cases contain no
+profile violation. Do not repeat these inventories. Next work should change
+the scoring bound or shared-axis class. No exponent improvement or independent
+review is claimed; the package has no dependency on unmerged PR118.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
