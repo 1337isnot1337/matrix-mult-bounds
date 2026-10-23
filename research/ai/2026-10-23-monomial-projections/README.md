@@ -18,12 +18,22 @@ From the repository root:
 ```sh
 python -m unittest discover -s tests -p test_monomial_projections.py -v
 python research/ai/2026-10-23-monomial-projections/verify.py --alphabet-size 2 --max-sum 8 --output results/monomial-projections-2026-10-23/binary.json
+python research/ai/2026-10-23-monomial-projections/verify.py --alphabet-size 2 --max-sum 9 --output results/monomial-projections-2026-10-23/binary-sum9.json
+python research/ai/2026-10-23-monomial-projections/verify.py --alphabet-size 3 --max-sum 8 --output results/monomial-projections-2026-10-23/ternary-sum8.json
 ```
 
-The completed ordered binary census at a+b<=8 contains 1,623 candidates.
-Coordinate projection strictly strengthens 581 scores. The maximum ratio
-remains exactly one, with no exact violation. The three retained records
-(best, first improvement, worked example) replay after JSON serialization.
+All three ordered censuses are complete:
+
+| Alphabet | a+b cutoff | Candidates | Strictly strengthened scores | Maximum ratio | Exact violations |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Binary | 8 | 1,623 | 581 | 1 | 0 |
+| Binary | 9 | 4,197 | 1,817 | 1 | 0 |
+| Ternary | 8 | 24,699 | 6,486 | 1 | 0 |
+
+The scopes overlap and must not be added as distinct support counts.
+All nine retained records (best, first improvement, worked example in each
+report) replay after JSON serialization, and each ordered count agrees with
+the independent formula. No strengthened score exceeds the source profile.
 Four focused tests pass, including the exhaustive 64-support mask comparison,
 the 190-candidate small census (35 strict gains), rejection of corrupted
 terms/scores/masks and replay with the optimizer disabled.

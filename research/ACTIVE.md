@@ -3,11 +3,14 @@
 The next R6 continuation is `research/monomial-projections-19de7080`,
 dependent on PR187. Its proof and exact acceptance program are in
 `ai/2026-10-23-monomial-projections/`. Nonshared y/z coordinate projections
-improve 581 of 1,623 binary scores through a+b=8, with maximum ratio one.
+improve 581 of 1,623 binary scores through a+b=8, 1,817 of 4,197 through
+a+b=9, and 6,486 of 24,699 ternary scores through a+b=8. Every maximum
+ratio is one, with no exact violation; the finite scopes overlap.
 Four focused tests pass, including all 64 supports of a 2-by-3 grid against
 all coordinate masks and witness replay with the optimizer disabled.
 This is a stronger estimate on old supports. Full regression and hosted CI
-remain pending. General linear mixing and exponent improvement are open.
+remain pending. Stacked draft PR200 targets PR187 until it merges.
+General linear mixing and exponent improvement are open.
 
 The R6 continuation on `research/monomial-recognition-19de7080` studies
 `ai/2026-10-23-monomial-recognition/proof.md`. Its monotone-path argument

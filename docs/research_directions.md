@@ -137,7 +137,9 @@ The [nonshared projection continuation](../research/ai/2026-10-23-monomial-proje
 supplies one stronger estimate: optimize the existing component score over
 literal y/z coordinate deletions before splitting components. It improves
 581 of 1,623 scores in the complete small ordered binary census through
-a+b=8, without a source-profile violation. This changes the estimate on an
+a+b=8; the a+b=9 binary and a+b=8 ternary continuations improve 1,817 of
+4,197 and 6,486 of 24,699. None has a source-profile violation.
+This changes the estimate on an
 old degeneration, rather than discovering a new degeneration. Larger
 projection censuses and stronger per-component estimates remain questions.
 

@@ -4,9 +4,10 @@
 
 The [projection recurrence](research/ai/2026-10-23-monomial-projections/proof.md)
 computes the exact optimum of the existing component score over y/z
-coordinate deletions, retaining the shared x axis. A complete ordered binary
-census through a+b=8 improves 581 of 1,623 scores, while the maximum ratio
-remains one. Literal masks raise one old support's score from 3 to 5,
+coordinate deletions, retaining the shared x axis. Complete ordered binary
+censuses through a+b=8 and 9 improve 581 of 1,623 and 1,817 of 4,197 scores;
+the ternary census through a+b=8 improves 6,486 of 24,699. Every maximum
+ratio remains one. Literal masks raise one old support's score from 3 to 5,
 below the source 56/9. The acceptance checker replays the support without
 calling the optimizer, and all 64 supports of a 2-by-3 grid agree with
 direct enumeration of every pair of masks. Claims
