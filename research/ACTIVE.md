@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The singular-long-gap continuation studies
+`ai/2026-10-23-singular-long-gap/QUESTION.md` on
+`research/singular-long-gap-20261023`, based on PR113 at `08ac3e9`.
+It extends the regular unit-kernel correction to rank-deficient long-leg
+limits. The proposed minimum-rank-gap and polynomial-preserver proof
+excludes limiting ranks106--109 in addition to110; the polynomial proof
+includes fixed-row/column cases via the credited Flanders bound.
+Exact witness controls are pending. No new accepted claim or exponent
+improvement is registered. The earlier PR110/119 target checkpoints
+were closed as subsumed at the written-proof level by PR113.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument
