@@ -115,6 +115,40 @@ for scalar-profile infeasibility in this entropy-only lift is already decided:
 it cannot exclude a profile that satisfies the same selected scalar
 inequalities.
 
+## The full oriented profile laws still admit the critical shape
+
+The pinned [continuous oriented-profile completion theorem](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Rectangular/OrientedProfileCompletion.lean)
+adds bounds, homogeneity, input-swap symmetry, monotonicity, powered
+concavity, and the powered three-sector row with its side-swapped middle
+orientation. These rows also admit the critical shape. At the symmetric
+weight vector `w_X=w_Y=w_Z=3/4`, set all six profiles equal to
+
+\[
+Q(x,y)^{3/4},\qquad
+Q(x,y)=\min(x,y)^{1/3}\left(\max(x,y)+\frac{\min(x,y)}2\right).
+\]
+
+This profile is positive, symmetric, homogeneous of degree one, and
+coordinatewise increasing. If `m=min(x,y)` and `M=max(x,y)`, then
+`Q(x,y)^(3/4)/m=(M/m+1/2)^(3/4)` lies between `1` and `M/m+1`; hence
+`m<=Q(x,y)^(3/4)<=x+y`. Its powered profile is exactly `Q`. For fixed `x`,
+`Q(x,y)=xy^(1/3)+y^(4/3)/2` when `y<=x`, with
+`d^2Q/dy^2=(2/9)y^(-5/3)(y-x)<=0`; for `y>=x` it is affine, with matching
+first derivatives at `y=x`. Thus the powered concavity row holds. Because all
+orientations agree, the tripling row
+reduces to `3Q(1,s)<=Q(1,3s+1)`. It is equality for `s>=1`; for `0<s<=1`,
+putting `z=s^(1/3)` gives
+`Q(1,3s+1)-3Q(1,s)=(3/2)(1-z)^3(1+z)>=0`.
+
+This is a feasible point of the continuous profile-law system, not a tensor
+character or a supporting-vector construction. It matches the necessary
+critical limiting profile in the
+[endpoint rigidity note](../research/ai/2026-10-20-critical-character-extension/README.md)
+at amplitude one. Therefore adding the pinned powered profile rows alone
+still does not exclude the `9/4` endpoint. A new constraint on actual
+characters or tensor maps is needed; the screen is tracked as
+`AI-R5-ORIENTED-PROFILE-SCREEN-001`.
+
 The candidate absent from the scalar profile model is a qualifying
 block-identity certificate. It needs nonzero vertex tensors, every exact
 `SharedLegIdentity` and matrix shape, a source border-rank bound `r`,

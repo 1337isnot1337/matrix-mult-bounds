@@ -15,6 +15,9 @@ source `C(1,1)`. The strict improvement criterion therefore never holds.
 Claim `AI-R5-CONVOLUTION-GRAPH-BARRIER-001` is written and unreviewed. It
 excludes only this restriction/neighbor/general-tripling/replication/input-swap
 row family from rectangular convolution sources to thin terminals.
+The pinned full oriented profile laws also admit the critical common profile
+at weights `(3/4,3/4,3/4)`; this feasible-relaxation witness is tracked as
+`AI-R5-ORIENTED-PROFILE-SCREEN-001` and does not provide a character.
 Additional identities, other endpoints and stronger tensor-level constraints
 remain open. No smaller exponent is established.
 

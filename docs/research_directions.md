@@ -140,7 +140,11 @@ rectangular source `C(u,v)` of border rank `u+v-1` to a thin terminal
 `P_*(u,v)^3<=(u+v-1)^4`, with equality only at `C(1,1)`. The general
 `C(q,1)` terminal isomorphism and replication/restriction wrappers are
 written but not locally formalized. A candidate constraint absent from the
-scalar profile must add other exact shared-leg maps or tensor-level data, plus
+scalar profile must add other exact shared-leg maps or tensor-level data. The
+pinned full oriented profile laws also admit the critical common shape at
+weights `(3/4,3/4,3/4)`, so those rows alone do not exclude the endpoint;
+this screen is tracked as `AI-R5-ORIENTED-PROFILE-SCREEN-001`. A successful
+certificate still needs
 nonnegative weights satisfying every balance and terminal inflow
 `L>1/d` with `(dL)^3>r^4`. No qualifying graph or smaller exponent has been
 established.

@@ -14,7 +14,9 @@ rectangular source `C(u,v)` with border rank `u+v-1` misses the strict
 criterion for thin terminals `C(q,1)`. The replication and restriction
 wrappers and the direct coordinate proof for general `q` are written but not
 formalized in this repository. This is an unreviewed conditional no-go; other
-terminals and exponent improvements remain open.
+terminals and exponent improvements remain open. The separate oriented-profile
+screen is a local feasibility calculation from the pinned profile laws; its
+critical profile is not claimed to come from a tensor character.
 
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
