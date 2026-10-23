@@ -19,6 +19,16 @@ alone do not apply there. Do not repeat the closed dimension question
 or the old binary census. Finite-field pointwise
 vanishing is weaker than a polynomial minor identity.
 
+The [split/double quadratic package](ai/2026-10-23-quadratic-split-attainment/README.md)
+gives explicit recurrence vectors and the rank-defect criterion for
+(z-x)(z-t*x). It closes four-rank attainment over algebraically closed
+fields at all balanced sizes a>=3. Rectangular clipping hides this defect
+when b differs from a. Other ground fields require their own attainment
+argument; do not repeat the failed sixteen rational sign lifts or infer
+rational attainment from algebraic closure. Geometric rank14 families and
+compatible three-leg maps remain useful next questions. Written and
+unreviewed; no target or exponent improvement is supplied.
+
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
 closes the dimension question for binary R_(3,3) families avoiding rank15:
 maximum dimension six, with a seven-matrix intersection certificate. The

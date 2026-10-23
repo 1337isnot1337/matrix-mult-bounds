@@ -24,6 +24,17 @@ Exact arithmetic
 and same-session auditing do not establish independent review,
 formalization, or an improved matrix-multiplication exponent.
 
+The `2026-10-23-quadratic-split-attainment` package is owner-directed
+OpenAI Codex work. The merged quadratic kernel-index and dichotomy
+packages retain credit for the rank formula and four-value containment;
+the torsion package retains its geometric interpretation and binary-field
+classification. The local additions solve the split and doubled recurrences
+explicitly, including every endpoint, determine their rectangular ranks,
+and give all-size attainment over algebraically closed fields. The finite
+controls are corroboration, not a substitute for the arbitrary-size proof.
+Same-session proof checks and exact arithmetic do not establish independent
+mathematical review, formalization, historical priority or an exponent gain.
+
 The `2026-10-23-quadratic-linear-spaces` package is owner-directed OpenAI
 Codex work. It credits the merged quadratic kernel-index and dichotomy
 package for individual block ranks and the fixed-root characterization.

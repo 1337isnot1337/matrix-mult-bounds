@@ -31,6 +31,21 @@ Claims `AI-QUADRATIC-DETERMINANT-INVARIANT-001`,
 Geometric equality classification remains open. No compatible tensor target or exponent
 improvement follows from these block-subspace results.
 
+## Explicit split and doubled quadratic attainment
+
+The [split-quadratic formula](research/ai/2026-10-23-quadratic-split-attainment/proof.md)
+computes the recurrence kernel for `(z-x)(z-t*x)` over every field with
+`t` nonzero. For `t!=1`, the balanced one-unit defect occurs exactly when
+`t^(a+1)=1`; for the doubled graph `t=1`, it occurs exactly when the
+positive characteristic divides `a+1`. The explicit kernel gives the
+rectangular rank as well; the exceptional index pair affects the rank
+only when b=a. Roots of unity or the doubled graph therefore attain all
+four balanced quadratic ranks over every algebraically closed field,
+for every a>=3. This does not assert universal attainment over the
+rationals or a particular finite field. Claims
+`AI-SPLIT-QUADRATIC-RANK-001` and `AI-ALGEBRAICALLY-CLOSED-QUADRATIC-SPECTRUM-002`
+are written and unreviewed. No tensor target or exponent improvement follows.
+
 ## Sharp dimension-six bounds for quadratic slice families
 
 The [quadratic linear-space package](research/ai/2026-10-23-quadratic-linear-spaces/README.md)
