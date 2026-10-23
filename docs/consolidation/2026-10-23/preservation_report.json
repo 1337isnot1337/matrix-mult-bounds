@@ -1,18 +1,18 @@
 {
   "status": "passed",
-  "checked_at": "2026-10-23T18:19:22.977046+00:00",
-  "head": "134b73d10035cac30c79720ec465a1a847a970c4",
+  "checked_at": "2026-10-23T18:27:37.787138+00:00",
+  "head": "0bddc6e8ff757bc3ef1930f9d75879b7e815b572",
   "mode": "commit",
-  "source_heads_checked": 170,
-  "distinct_source_heads": 170,
-  "archive_tag_receipts_checked": 169,
+  "source_heads_checked": 171,
+  "distinct_source_heads": 171,
+  "archive_tag_receipts_checked": 170,
   "historical_archive_files": 18,
-  "source_added_paths": 3190,
-  "source_added_blob_variants": 3234,
-  "resolved_outputs_checked": 1463,
+  "source_added_paths": 3196,
+  "source_added_blob_variants": 3240,
+  "resolved_outputs_checked": 1471,
   "provisional_conflicts_covered": 43,
-  "original_unique_claim_ids": 607,
-  "final_claim_ids": 612,
+  "original_unique_claim_ids": 608,
+  "final_claim_ids": 613,
   "source_registry_ids": 54,
   "errors": [],
   "source_addition_representation": [
@@ -22655,12 +22655,55 @@
       "output_paths": [
         "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md"
       ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+      "source_blob": "9c9fdec25df5867eaebc49fb59f531e25facde92",
+      "output_paths": [
+        "research/ai/2026-10-23-quadratic-kernel-indices/README.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+      "source_blob": "5b41e8d7a1a014d8b2f818333a656bbd2fa7b00d",
+      "output_paths": [
+        "research/ai/2026-10-23-quadratic-kernel-indices/proof.md"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "source_blob": "61e1a6e66fd091f8ec8a1277946e90565036ad5c",
+      "output_paths": [
+        "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+        "research/ai/2026-10-23-quadratic-kernel-indices/sources.json"
+      ]
+    },
+    {
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+      "source_blob": "f6b262b9a5fd951207c66aaa50049c29e99fac39",
+      "output_paths": [
+        "research/ai/2026-10-23-quadratic-kernel-indices/verify.py"
+      ]
+    },
+    {
+      "source_path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+      "source_blob": "ce7b2d792fcb6fd7c1d7b1169afd46ad449712cd",
+      "output_paths": [
+        "results/quadratic-kernel-indices-2026-10-23/controls.json"
+      ]
+    },
+    {
+      "source_path": "tests/test_quadratic_kernel_indices.py",
+      "source_blob": "735767d8dc11b02f8d6a42606c275391862a174a",
+      "output_paths": [
+        "tests/test_quadratic_kernel_indices.py"
+      ]
     }
   ],
   "inputs": {
     "/workspace/scratch/5e4a124ebf61/consolidation/snapshot.json": "6b5599cb1d2b03f7bdcffc86fea4422c4d225a3021bdabb6f3a256e1dccaccfa",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_output/resolution_report.json": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_resolution_manifest.json": "b7e603c84bc2f4c5a1615d036683e1fb48c36ef4e484147b81027c72a64119ee",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_output/resolution_report.json": "f0b1aa6a701f2abec2ef9db97d9d74e2771175ff40817d5ae6900ad7df21e7fe",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_resolution_manifest.json": "211cc1115efa57aed39d722cded6703d0fdaa81197ae87f7b8c3800962137c9b",
     "/workspace/scratch/5e4a124ebf61/consolidation/provisional_conflicts.json": "0a7d4d2f4adbb3aeb5f9aa7f5e9197cfff4f1b41b3c484ac635d4041619c20d5",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_plan.json": "bdedd383c37c9316ca01e7dedd659eee7781e69f2fb9039bf2c6e192f56ec6db",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_plan.json": "cd36220f0b7612db5b20e4a7421415cb9d78e910efb0f815f48005dc33d085a5",
@@ -22671,6 +22714,7 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/claims_output/closure_plan.json": "ef111123692620c4e677f57345411ae20283f67f5003687f99d390c538a295dc",
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_plan.json": "5ddf1b67bcc2a2587e0761e0011a8afc4bd007b2796dd672b2f1a4b866f4ba0a",
     "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_plan.json": "38f5af2a8165a6a2dc08c2ae399075157497a33db0f5d0dd1770c21fcc489d6d",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_plan.json": "ea643baf0c090db0a68a8e5b8e92451f477308ba55a957f88706d096e9802cf7",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_tags.json": "85458c71ffcfff40553f108ad2ad39cb5bc8ad0fff0b757e3ada06a5140949b8",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_update_tags.json": "9793046accccb79e9f1180ffbd41b17f9d24ac301cf9ef48d8fc684af4c93e30",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_final_tags.json": "aaa78b21b8423e7330f642c6f19f4a2c355f9bbd1f68e73146539b5b50395815",
@@ -22681,6 +22725,7 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_closure_tags.normalized.json": "4543cee302a28b3efeda35e869a707605c50e290eff0d8f9298081abbb0b32ba",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_nextwave_tags.normalized.json": "2f1e488e09325390b7a42e3d86e84872c78caa149cc513c146732d6906c86865",
     "/workspace/scratch/5e4a124ebf61/consolidation/archive_live_catchup_tags.normalized.json": "2bbad9697acb5489249495c7a906b43074bae3300765053621198af437e360d1",
+    "/workspace/scratch/5e4a124ebf61/consolidation/archive_quadratic_c7.normalized.json": "ba85617cea7c9c6dfe519f74efb2c47f431dbf53d413428c7bcbeb1486ef80ac",
     "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
@@ -22692,7 +22737,9 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
     "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
     "/workspace/scratch/5e4a124ebf61/consolidation/concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17"
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
+    "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930"
   },
   "limits": [
     "Checks ancestry, exact archived bytes, file representation, declared resolution hashes, and ledger provenance; it does not establish mathematical correctness.",

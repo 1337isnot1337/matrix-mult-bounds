@@ -1,0 +1,24 @@
+{
+  "scope": "Run the six source-exact quadratic-kernel tests and two repository checks after the narrow context-pin repair on the frozen integration.",
+  "jobs": [
+    {
+      "name": "quadratic-kernel-indices",
+      "kind": "unittest",
+      "targets": [
+        "test_quadratic_kernel_indices"
+      ],
+      "expected_tests": 6,
+      "reason": "Replay all 2,010 finite source-map controls, endpoint/gcd/characteristic cases, complete recurrence nullities, coefficient tampering and both strict source pins."
+    },
+    {
+      "name": "claim-ledger-and-links",
+      "kind": "unittest",
+      "targets": [
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "expected_tests": 2,
+      "reason": "Validate the additive unreviewed claim and maintained documentation links."
+    }
+  ]
+}

@@ -1,55 +1,66 @@
 # Publication and validation record
 
 [Pull request #214](https://github.com/1337isnot1337/matrix-mult-bounds/pull/214)
-consolidates **138 topic branch names, 169 archived topic-source snapshots and 612
-claim records**. The [branch manifest](branches.json) preserves each exact source
-head, earlier head, recovery tag, original PR body and original draft state.
+consolidates **138 topic branch names, 170 archived topic-source snapshots and
+613 claim records**. The [branch manifest](branches.json) preserves each exact
+source head, earlier head, recovery tag, original PR body and draft state.
 Every captured source history is an ancestor of this replacement.
 
+The preceding 169-source replacement was published and archived at
+`e38eb5c21c3e840cd900bfa85c1a4a6808e530fe`.
+Its [remote verification receipt](publication_169_ref_verified_with_main_advance.json)
+distinguishes that successful publication from the concurrent main update.
 Original main was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
-Current main is `9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2`, the independent
-PR217 squash. Its entire tree exactly matches previously captured biform source
-`aed489a672a79e0ec35d33fea15d875fc425c9db`. A real merge preserves that ancestry
-without duplicating the biform summaries. Concurrent integration commits
-`5d1441090e1c3c804d0ba0797a20ec303b5c08d5` and
-`434178af88a16a3d13e9db60dd97453207dbf2b2` are separately archived and retained
-through real merges. They are not counted as additional topic-source snapshots.
+Current main is `6e11f7c1dfd73ae2d460e43f620a7f982920f043`, the independently
+merged PR215 squash. Its entire tree equals already archived column source
+`9b0bb20a6a891d9d352029d7775d650e065a51ea`. The earlier PR217 squash
+`9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2` likewise equals the already captured
+biform source. Real merges retain both main histories without duplicate content.
 
-The prepared 164-source commit `44b917610b64a515122c4fb835f69b7ceefffb08` was not
-published: its guarded update stopped when main advanced. Its exact
-[publication record](PUBLICATION.44b91761.md) and all audit/test receipts remain
-historical. This package includes the five additional frozen source heads and
-the concurrent 434178af reconciliation. The eventual main merge still requires the
-repository's current-head hosted CI and discussion gates.
+Concurrent integration commits `5d1441090e1c3c804d0ba0797a20ec303b5c08d5` and
+`434178af88a16a3d13e9db60dd97453207dbf2b2` remain archived and are ancestors of
+this replacement. Integration histories are separate from the 170 topic-source
+snapshots. The eventual main merge still requires the repository's current-head
+hosted CI and discussion gates.
 
-## Source preservation and scoped changes
+## Source preservation and the latest continuation
 
 The [preservation audit](preservation_report.json) and
 [central resolution manifest](central_resolution_manifest.json) identify the
-exact audited revision. They check every captured topic head and archive
-receipt, source-added paths, explicit conflict resolutions, current output
-hashes, both initial historical research archives, all 612 claim records and all 54
-reference registry IDs. The [archive index](archive_verification_index.json)
-contains 169 topic snapshots. The [history receipt](live_catchup_history_receipt.json)
-records current-main and concurrent integration preservation separately.
+exact audited revision. They verify all captured source ancestry and archive
+receipts, source-added paths, explicit conflict resolutions, declared output
+hashes, historical research archives, all 613 claim records and 54 reference IDs.
+The [archive index](archive_verification_index.json) contains 170 topic snapshots.
+The [history receipt](quadratic_followup_history_receipt.json) records the exact
+main reconciliation and quadratic-source preservation.
 
-The latest five captures add two topic names. Three advanced branches only
-import the already-tested main biform work. A new quadratic-kernel question is
-preserved as an investigation, without a completed-result claim. The Hankel
-continuation adds a homogeneous interpolation lemma: exhaustive rational
-decomposable tests over Fq suffice when q>=r+1. Smaller fields, sampling and
-sharpness for Hankel minors remain unclaimed. Its proof, README, source metadata
-and added test retain exact source bytes; one STATUS sentence is reconciled.
+The latest source is `c7b7257bac3c000543de66a27b3485a29589156c` from PR218.
+It extends the existing quadratic-kernel question with a written proof, exact
+verifier, finite controls and six tests. The two-index procedure determines the
+literal rank of each covered quadratic slice. For D>0 after common-factor
+normalization, a zero first index is equivalent to a fixed ground-field linear
+factor. Shared summaries retain that hypothesis. Structural index bounds,
+source-space caps, compatible matrix targets and exponent improvements remain
+outside the established scope.
 
-Compared with 44b91761, **611 of 612 claim records are unchanged**. Only
-`AI-HANKEL-ALL-CHARACTERISTICS-001.limitations` changes to preserve that precise
-source qualification. The earlier oblique lower-bound/attainment statement
-correction remains intact. Compared with the earlier tested 72f5c524 union, 610
-records are unchanged and those two existing fields are corrected. All 612
-evidence locations, status flags and other claim fields are preserved. No claim
-is promoted to mathematical review, formalization or an exponent improvement.
-The [claim report](claim_resolution.json) keeps exact prior records and source
-hashes. Exact concurrent 434178af audit/guide bytes remain under `.434178af` filenames.
+**All 612 prior claim records are unchanged.** One exact source-authored record,
+`AI-QUADRATIC-KERNEL-INDICES-001`, is added with written-unreviewed status and
+false independent-review, Lean-formalization and exponent-improvement flags.
+The previous oblique lower-bound/attainment correction and precise Hankel
+finite-field limitation remain intact. The [claim report](claim_resolution.json)
+preserves all original source hashes, evidence paths and status fields.
+
+The new package's original context README digest was stale. The
+[pin repair](quadratic_pin_resolution.json) changes exactly one SHA256 field
+after review of 72 additive README lines. Every original README line remains;
+the separately pinned mathematical source and literal Git blob are unchanged.
+The exact original source record and old README bytes are preserved as data.
+Strict dependency checks remain active. Proof, verifier, tests, witness and
+claim bytes match the captured source.
+
+Earlier publication records and audits remain under revision-specific names,
+including the exact [published 169-source record](PUBLICATION.e38eb5c2.md).
+Earlier receipts are historical evidence with their original scope.
 
 ## Local validation by revision
 
@@ -61,39 +72,39 @@ hashes. Exact concurrent 434178af audit/guide bytes remain under `.434178af` fil
 | `9354de63ff9ebb9a0b738d9a8cc88805636fa64d` | Unbalanced package pin and relative-link checks | Both passed in 2.225 seconds |
 | `72f5c524fd72c894d4420067fd10206944bce405` | 28 focused tests, covering all 17 additions | All passed in 79.250 seconds |
 | `33a0f407b2071ed30433b2b1fbd8a577c50ea044` | Corrected ledger and relative links | Both passed in 2.257 seconds |
-| `147db33153ffa3759ac84879008f17e08a332471` | New Hankel interpolation test, its source pins, ledger status and relative links | All four passed in 2.233 seconds |
+| `147db33153ffa3759ac84879008f17e08a332471` | New Hankel interpolation, its source pins, ledger and links | All four passed in 2.233 seconds |
+| `0bddc6e8ff757bc3ef1930f9d75879b7e815b572` | All six new quadratic tests, ledger and relative links | All eight passed in 2.272 seconds |
 
-The [latest execution receipt](validation/live-catchup-summary.json) and
-[additive coverage/equivalence receipt](validation/live-catchup-coverage_union.json)
-establish **1,951 tests across 437 modules**, with one addition and no removals
-relative to the earlier 1,950-test inventory. The added test passed. Existing
-acceptance implementations and earlier test methods are preserved. The four
-Hankel dependency pins match exact maintained source bytes. Protected archives
-and earlier evidence/harness files remain unchanged.
+The [latest execution receipt](validation/quadratic-followup-summary.json) and
+[additive coverage receipt](validation/quadratic-followup-coverage_union.json)
+establish **1,957 tests across 438 modules**, with six additions and no removals
+from the preceding 1,951-test inventory. Every addition passed. All 438 prior test
+files, 612 old claims, 23 protected archive files and 99 prior evidence files remain
+exact. The corrected strict pins and both original backups were verified.
 
 This is revision-aware composite coverage, not an uninterrupted execution of the
-entire final suite. The full inventory was listed and every addition is covered
-by the recorded focused gates. The later metadata package changes only this
-consolidation evidence directory. Original tree hashes, commands, test IDs and
-logs are retained for every checkpoint. The required hosted CI still runs the
-full Python matrix, archive replay and finite scalar-profile Lean build; local
-evidence does not replace current-head hosted CI.
+entire final suite. Each additional test is covered by a recorded focused gate;
+exact unchanged implementations carry forward earlier passing evidence.
+The full inventory was listed. The later packaging changes only this
+consolidation evidence directory. Commands, test IDs, logs and before/after tree
+hashes are retained. Local evidence does not replace the required current-head
+hosted full Python matrix, archive replay and finite scalar-profile Lean build.
 
-## Cleanup provenance and pending final retirement
+## Verified cleanup and the final source
 
-The [completed cleanup receipts](completed_cleanup_summary.json) record 127 source
-branches deleted and verified, and 100 source PRs closed as superseded. Four
-already-absent names were not counted as deletions. PR217 was independently
-merged into main, and its source branch was subsequently observed absent; that
-event is separate from these superseded-closure and deletion totals.
+The [cleanup checkpoint](quadratic_cleanup_checkpoint.json) records **131 source
+branches deleted and 102 source PRs closed as superseded** during consolidation.
+The latest [PR closures](pr_closure_169_partial.json) and
+[branch deletions](branch_retirement_169_partial.json) preserve exact before/after
+records. PR215 and217 were independently merged into main. Their merges and
+subsequently absent branches are separate from these superseded-closure and
+deletion totals. Already-absent refs are not counted as deletions.
 
-The [latest source PR capture](live_catchup_source_prs_169_verified.json) preserves
-all original bodies, ready/draft states and auto-merge metadata before temporary
-publication holds. PR213/215/216/218 are retained for the final reviewed
-replacement. The [remaining retirement plan](live_catchup_retirement_plan_169_verified.json)
-records exact candidates; it does not claim those remote actions have occurred.
-
-Final retirement requires exact live source heads, matching archive tags,
-ancestry in the durable published replacement, no open dependency and explicit
-deletion leases. Concurrent pushes retain their newer work. Integrated-history
-tags preserve all original histories if the eventual main merge uses a squash.
+The final captured source is PR218's quadratic branch. Its
+[source provenance](quadratic_followup_source_provenance.json) preserves the
+original body and draft state. The [remaining retirement plan](quadratic_followup_retirement_plan.json)
+requires a durable replacement containing exact c7, its verified archive tag,
+fresh source/PR comparisons and an exact deletion lease. This checkpoint does
+not claim the final source has already been retired. Concurrent advances retain
+their newer work. Integrated-history tags preserve all original histories even
+if the eventual main merge uses a squash.

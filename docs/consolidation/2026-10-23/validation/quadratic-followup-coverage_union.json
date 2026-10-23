@@ -1,0 +1,135 @@
+{
+  "schema": "matrix-mult-bounds-quadratic-followup-coverage-v1",
+  "recorded_at": "2026-10-23T18:27:11.866985+00:00",
+  "head": "0bddc6e8ff757bc3ef1930f9d75879b7e815b572",
+  "head_tree": "4ef8b327bc4c4fdd0ef151cf65c30c7d7cb16ee5",
+  "passing_comparison_head": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "discovery_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tools/test_shard.py",
+    "--list"
+  ],
+  "discovery_elapsed_seconds": 4.285,
+  "previous_inventory": {
+    "tests": 1951,
+    "modules": 437
+  },
+  "final_inventory": {
+    "tests": 1957,
+    "modules": 438
+  },
+  "tests_added": [
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_common_factor_does_not_change_indices_or_source_rank",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_complete_finite_report",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_literal_source_coefficient_corruption_is_detected",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_missing_endpoints_and_constant_triples",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pinned_source_bytes",
+    "test_quadratic_kernel_indices.QuadraticKernelIndicesTests.test_pr216_splittings_and_full_kernel_dimensions"
+  ],
+  "tests_removed": [],
+  "new_tests_without_focused_coverage": [],
+  "focused_tests_passed": 8,
+  "focused_ids_outside_final_inventory": [],
+  "composite_exactly_covers_final_inventory": true,
+  "changed_paths_since_passing_publication_tree": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/consolidation/2026-10-23/archive_quadratic_c7.json",
+    "docs/consolidation/2026-10-23/archive_quadratic_c7.normalized.json",
+    "docs/consolidation/2026-10-23/branches.json",
+    "docs/consolidation/2026-10-23/main_advance_6e11f7c1_capture.json",
+    "docs/consolidation/2026-10-23/main_advance_6e11f7c1_merge_log.json",
+    "docs/consolidation/2026-10-23/quadratic-pin-originals/bd03b9d-anisotropic-README.md.txt",
+    "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+    "docs/consolidation/2026-10-23/quadratic_c7_capture.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_claim_report.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_docs_resolution.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_import.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_integration_resolution.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_merge_log.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_plan.json",
+    "docs/consolidation/2026-10-23/quadratic_followup_source_resolution.json",
+    "docs/consolidation/2026-10-23/quadratic_pin_resolution.json",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+    "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+    "research/claims.json",
+    "results/quadratic-kernel-indices-2026-10-23/controls.json",
+    "tests/test_quadratic_kernel_indices.py"
+  ],
+  "unexpected_changes": [],
+  "existing_test_files_checked": 438,
+  "all_existing_test_bytes_unchanged": true,
+  "new_source_paths_are_additions": true,
+  "exact_source_file_checks": {
+    "research/ai/2026-10-23-quadratic-kernel-indices/README.md": true,
+    "research/ai/2026-10-23-quadratic-kernel-indices/proof.md": true,
+    "research/ai/2026-10-23-quadratic-kernel-indices/verify.py": true,
+    "tests/test_quadratic_kernel_indices.py": true,
+    "results/quadratic-kernel-indices-2026-10-23/controls.json": true
+  },
+  "original_question_unchanged": true,
+  "only_context_readme_pin_repaired": true,
+  "strict_dependency_pin_checks": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "expected_sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "actual_sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "expected_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6",
+      "actual_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6"
+    }
+  ],
+  "literal_mathematical_blob_pin_exact": true,
+  "pin_repair_outputs_exact": true,
+  "original_pin_and_dependency_bytes_retained": true,
+  "claims_count": 613,
+  "added_claim_ids": [
+    "AI-QUADRATIC-KERNEL-INDICES-001"
+  ],
+  "removed_claim_ids": [],
+  "revised_existing_claim_ids": [],
+  "new_claim_matches_exact_source": true,
+  "new_claim_keeps_unreviewed_status_flags": true,
+  "tracked_files_changed_during_inventory": [],
+  "frozen_head_unchanged": true,
+  "clean_tracked_status_after": true,
+  "archive_unchanged": true,
+  "archive_files_hashed": 23,
+  "previous_evidence_files_checked": 99,
+  "changed_previous_evidence_files": [],
+  "source_receipts": [
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/quadratic_followup/summary.json",
+      "sha256": "a62ba11ab8a3f645458f4cea25ed7e76f05910322c3beb789f1c8e4059cbd862"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/live_catchup/discovery.json",
+      "sha256": "57f63037ef00c0f75246b36298c8b82181391e1ef4fb1611c9c8ea75dc56c940"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/live_catchup/coverage_union.json",
+      "sha256": "8659411a6a2d591c5ae1c6a0b4a1349593c55b03fb5e4f9a63fb3954542f2b79"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_previous_validation_hashes.json",
+      "sha256": "2eb9a236a3894bb7ce1e3e8c56bf64ed0585261ea6bfb15bb5cb489fa4b9c4f7"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_pin_resolution.json",
+      "sha256": "72902a706e6e3ec99e6d8838658ea77ef4041c0ca8929d126a89bd18c2d72408"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_code_audit.json",
+      "sha256": "8d4471d181039053a56a4da323a3ee8cb42d82484fcd9a51edb6e921346f6866"
+    }
+  ],
+  "scope_caveat": "This extends the prior 1,951-test passing composite with six new quadratic-kernel tests and two focused repository checks. All earlier test definitions and unrelated active content are unchanged. The final complete suite was listed, not freshly executed in one local run. Final-head hosted Python matrix, replay and Lean CI remains required. Finite controls do not promote mathematical review or formalization status.",
+  "passed": true
+}

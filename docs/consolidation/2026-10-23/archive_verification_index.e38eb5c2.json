@@ -1,0 +1,853 @@
+{
+  "schema": "matrix-consolidation-archive-receipt-index-v1",
+  "snapshot_count": 169,
+  "basis": "Exact remote GET receipts supplied by the coordinator and checked by the offline preservation gate.",
+  "archive_tags": [
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/a4-one-regular-leg-20261023/07ae2c44abb6",
+      "sha": "07ae2c44abb6733e0458376c4a1b543623cb6b95",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/a4-singular-long-rank-20261023/d75e16b111f2",
+      "sha": "d75e16b111f2a97234bf27d5640cad28a4fdad81",
+      "source_receipt": "archive_receipt_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/affine-z-biform-ranks-20261023/4247f42eeb30",
+      "sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/aggregation-construction-20261023-ab94/804949607dd5",
+      "sha": "804949607dd53c88f3a2e1352ba8bc3c14cc2f98",
+      "source_receipt": "archive_late_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/aggregation-construction-20261023-ab94/a118381b3979",
+      "sha": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/aggregation-construction-20261023-ab94/ffbb0d3f5304",
+      "sha": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/astra-support-search-20261023/bd7e3ce1d837",
+      "sha": "bd7e3ce1d8371dbfa5ac6ed38ddded8850bc51a5",
+      "source_receipt": "archive_late_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/9b0bb20a6a89",
+      "sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_receipt": "archive_live_catchup_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/f8fdcd314d7a",
+      "sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/conic-projective-global-20261023/c95b5c3c4ee0",
+      "sha": "c95b5c3c4ee0fc46cba9060b8ea280106335bf94",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/endpoint-constructions-20261020/f2b23e516e68",
+      "sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+      "source_receipt": "archive_closure_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/flip-escape-20261023/5f75510e14b1",
+      "sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/085076a94f36",
+      "sha": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "source_receipt": "archive_full_target_advanced_tag.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/2e82e9baa5ed",
+      "sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/331801579b19",
+      "sha": "331801579b19b64f2441a7aab8b566f9d6b02666",
+      "source_receipt": "archive_final_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/3b2eb05abac5",
+      "sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/f42b9df4caa0",
+      "sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/hankel-annihilator-degree-20261023/f2430ffeb834",
+      "sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/hankel-finite-field-interpolation-01a1697d/232867536a90",
+      "sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_receipt": "archive_live_catchup_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/laurent-stencil-20261023-ab94/1cce4e64a9bd",
+      "sha": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/laurent-stencil-20261023-ab94/3511513ff790",
+      "sha": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+      "source_receipt": "archive_receipt_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/one-slice-seed-20261023/5b7d08e561be",
+      "sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/operational-repair-20261023/c4b1decc65c5",
+      "sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+      "source_receipt": "archive_closure_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/paired-rank-two-gap-20261023-auto2/dd45f0c80030",
+      "sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/product-longmap-residual-20261023/fd1d0fe1e220",
+      "sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
+      "source_receipt": "archive_late_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/7ecec6ebac9a",
+      "sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_receipt": "archive_live_catchup_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-z-middle-exact-20261023/0d9781b6774f",
+      "sha": "0d9781b6774f328d572bb3326383978215d50306",
+      "source_receipt": "archive_late_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-z-middle-exact-20261023/8e9801f8c087",
+      "sha": "8e9801f8c087eca7babd3110e34ee0371be6a85a",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/regular-leg-rank-frontier-01a1691e/531fef866dec",
+      "sha": "531fef866decc818f816d70718bda36bd2ee2a7d",
+      "source_receipt": "archive_late_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/repair-support-capacity-20261023/c74e6838175f",
+      "sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/s5-finite-power-covers-20261023/4c119fc9052a",
+      "sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/scalar-finite-slope-lean-20261023/1e49ea056479",
+      "sha": "1e49ea05647939e3bb010404e5d22a1c66d30294",
+      "source_receipt": "archive_final_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/shift-window-variable-long-leg-20261023/5f98f44563d5",
+      "sha": "5f98f44563d54ac6c00303ae21980b57ebce012b",
+      "source_receipt": "archive_shift_window_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/singular-unit-resolvent-20261021/69f2de1bfee8",
+      "sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+      "source_receipt": "archive_closure_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/20a2e40f8f5c",
+      "sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/2f8e35980749",
+      "sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "source_receipt": "archive_live_catchup_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/toeplitz-two-long-legs-20261023/d2002a7f3809",
+      "sha": "d2002a7f3809c62932d5377d23786f4178f6f3c6",
+      "source_receipt": "archive_receipt_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/top-coefficient-biforms-20261023-t2/aed489a672a7",
+      "sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/unbalanced-square-frontier-20261023/227fbe8fc64b",
+      "sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/unbalanced-square-frontier-20261023/7bd28d2f9574",
+      "sha": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "source_receipt": "archive_closure_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/fix/f8-subgroup-preflight-20261023",
+      "sha": "9d85beb176bec494a1c55eab12904072d929afee",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/fix/replay-child-assertions-01a1697d",
+      "sha": "320f94e97d77deb6f620b14446f8cdbfea6adb42",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-corank-one-long-legs-20261023",
+      "sha": "ed7b3397a5820f07ba2cc1e576e8598eaa4b0ae7",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-high-rank-source-caps-20261023",
+      "sha": "d161dacd027ee53919301d5b543c48d497231d67",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-leading-defect-flags-20261023",
+      "sha": "ba1803894306f21d3f55a179b8dbb63171dc8c66",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-leading-rank202-20261023",
+      "sha": "658e2d54fa7b506f7d8fd51eeec7788f23a00e91",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-one-regular-leg-20261023",
+      "sha": "db180d63bd345aa559ccca357841a837699a46f2",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-rank88-exploration-20261023",
+      "sha": "16a13196c3ac501e9e80adfdb7dade0041fc6a36",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-rank91-core-20261023",
+      "sha": "0d1441085c2284fa32e8756e359ddb2aa57c2c58",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-singular-long-rank-20261023",
+      "sha": "35ac38d72dc42327899da29b1af355e494545356",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-source-frontier-next-20261023",
+      "sha": "72ef0788b6847af5e8105047c806c26c537c18ed",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a4-torus-rank96-20261023",
+      "sha": "627ffb0716116685d8877a2842d3f7a484866d68",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/a5-nondivisor-cycle-20261023",
+      "sha": "d029a3c18ed4e0dde2da696ddad04d5bce45d339",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/affine-z-biform-ranks-20261023",
+      "sha": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/all-rankone-seven-five-20261021",
+      "sha": "a9951f838e3f8218616e76d0c1ee40252160d80d",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/all-size-unit-packing-20261023",
+      "sha": "202a1150309276bd6879f5ddfec8b6cb48e0c3bd",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/alternating-sector-separation-20261023",
+      "sha": "442eef9315d6128d206a083bccbabefa799dc6b6",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/astra-support-search-20261023",
+      "sha": "507d275e7005f5a7c37fffcfac87b835b8a93510",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/asymmetric-boundary-20261023",
+      "sha": "283495268e26e2912c1a50ff91baec2a0adc19a2",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/asymmetric-regular-frames-20261023",
+      "sha": "656ce30bce751d5fe5be204c481a784c1670d4ec",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/binomial-biform-ranks-20261023",
+      "sha": "0e470a741bf8d6cd9bb0f6ffb19c31e278bf501e",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/boundary-partner-20261021",
+      "sha": "74b8667daa75a1ef93a4ff5e0be7824e2b6a4299",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/central-cover-joint-frontier-20261023",
+      "sha": "352cba10af12db716f6529ba13c8626a5d467daa",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-d0-cubic-20261023",
+      "sha": "16025c8148d335ba64a0de8824780f72b9cf5ccc",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-d0-main-20261023",
+      "sha": "412075531e02a1f7c793c3f7996426fb72633980",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-fourteen-jet-continuation-20261023",
+      "sha": "4e8531c90ead5c3088b07a81b8d114c9965475af",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-laurent-verifier-20261023",
+      "sha": "91f3d37b0cc0e58d990f77432a7ee90fea03c400",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-projective-global-20261023",
+      "sha": "a7d37918fe19918700a3d5c5d9fad6df69cc7852",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-pure-criterion-20261023",
+      "sha": "bc2eb78ad31ca2ccb4d9a4d31ad6d671f7a6f962",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-third-jet-audit-20261023",
+      "sha": "70cc01e7065544e7b86dbe5c7dcf21f24b44e6f5",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-third-obstruction-20261023",
+      "sha": "c25ac0a2e1a3ab7cb4a802f1265f349b3207d32a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/conic-third-order-20261023",
+      "sha": "a292557a1d0c3d2a8c4a8d9f029a49242d2d4614",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/continuation-01a16975",
+      "sha": "9028cbcbe52da8491fb608725009f9ef6ef2db82",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/continuation-01a1697b",
+      "sha": "92403a2c46ae63c7430e427c3cf60dc0f9a28c20",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/continued-verification-01a1697b",
+      "sha": "573fdf35e7b50695b84071c9688abf9aa2c2513f",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/continuous-01a16975",
+      "sha": "490e1baad995f3db9039a42a04ce1bbf25b075ff",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/continuous-20261023-01a16975",
+      "sha": "201d32c561c2e69af14e505b8924867fd5ee8ebe",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/continuous-frontier-20261023",
+      "sha": "4dc3be14fbcacc8c94e16b317026e9205223a6b8",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/coordinate-kernel-cap-01a1691e",
+      "sha": "7142c7f147e54b2b8a17b2121f69a11f9d6f8550",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/diagonal-biform-ranks-20261023",
+      "sha": "09041022f0bb8dd2233eee95eec0017ee6998b1e",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/divisor-source-caps-20261023",
+      "sha": "673710d3a4284d88e4d24350681b26912831bf7a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/double-leg-anchor-20261023",
+      "sha": "54aba1e972312c6e448d7ef8f91f52f296204b3a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/elementary-biform-gap-01a1697a-d83f",
+      "sha": "02e214e9c8ef5e88df85e21039a8473fe87fa477",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/endpoint-constructions-20261020",
+      "sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/exact-rational-score-20261023",
+      "sha": "019269fad70d78845627e91eafe10b4063e3890c",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/exact-search-review-01a16975",
+      "sha": "3959d3c79a2700f9d6f9981840a8fd79fce6ed1d",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/ferrers-ruling-cap-20261021",
+      "sha": "519d682aa64a24a524552388ae44c202f2ce5ada",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/finite-rank-frontier-20261023",
+      "sha": "91600161075b39c67fd7972a8528eb0d871f562b",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/flip-escape-20261023",
+      "sha": "28c90715cb77c19114a4aea0f210c84fb5202ee4",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/frontier-continuation-01a16975",
+      "sha": "5f1a90680ed288d04829428d443c009156df128a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/frontier-continuation-20261023",
+      "sha": "f74aa2d5141411e314568040de3670cc8ff7a6de",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/full-entropy-audit-20261023",
+      "sha": "e68573b044ed3aa9719afa91a34904520dfe609e",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/full-partner-line-20261021",
+      "sha": "075fdd55f6ec5c0af92dbefb556dc11b44d06cda",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/gauged-batches-20261023",
+      "sha": "32b88826cf44745e28db9da1c6c0e400933e7cc3",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/geometric-diagonal-ranks-20261023",
+      "sha": "9e90a4bc773ba9803bab02e144601acbb700273d",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-additive-cost-20261023",
+      "sha": "6662f3b056a4dc1c2e4a594d3f51abda527daae5",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-all-characteristics-01a1697d",
+      "sha": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-annihilator-degree-20261023",
+      "sha": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-equality-20261023",
+      "sha": "3ff54caf229359e6c7bef898b07de8558c92ef10",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-fourspace-pencils-20261023",
+      "sha": "2850d0ce63733a4b3f5b9d9c734301a9d9a59495",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-index-sharpness-20261023",
+      "sha": "a25675a2f511f3ebc588dbfebd30ac4eaba2d143",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/hankel-syzygy-gap-20261023",
+      "sha": "f71eb3675a28988b1b1a209056514d14585a0076",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/integration-validation-20261023",
+      "sha": "358b789234c7f9dc8288e3c7639e5b8077edafd6",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/laurent-stencil-20261023-ab94",
+      "sha": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/mixed-family-single-copy-20261023",
+      "sha": "1f45313219e70bb18091d99138bd600b3b1e621e",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/mixed-family-twisted-cubic-screen-20261023",
+      "sha": "f82022bf6477b0e1b17490819d3f4a25fd1a6660",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/mixed-leg-error-20261023",
+      "sha": "0b55809ff95dc1dd524cc041e6ea64a70de0eff7",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/mixed-longlegs-candidate-20261023",
+      "sha": "cb130c27a4ebcae6148b9c242eeae9a69b434253",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/monomial-projections-19de7080",
+      "sha": "3a97aa3cb27bd305241fae64b1561d57c157737c",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/monomial-recognition-19de7080",
+      "sha": "cbcbe28f4db0b0b717e887a4cc79ea29e3a25712",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/nondivisor-cap-20261023",
+      "sha": "8344274819cea5e9fa8304b3bd0b49a455ddb1a1",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/nondivisor-pairwise-family-20261023",
+      "sha": "83e14d9c2e1247b45c4d47a93ebb2df53cc13fd1",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/nonsplit-two-matrix-targets-20261023",
+      "sha": "3835bedaf764bdd1d2f20c6ce0390ae09d00f5f6",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/oblique-residual-koszul-01a1697a",
+      "sha": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/oblique-slice-strata-20261023-auto1",
+      "sha": "ae6be2b09e17bd0af1ceebda9fca94cc885a7a70",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/one-slice-seed-20261023",
+      "sha": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/operational-repair-20261023",
+      "sha": "494a6cca265de82aa45bd5abee0517a15516abc5",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/paired-bundle-01a168f9",
+      "sha": "a629c557d3ee155cbd1c8c2f97ce3d367a115475",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/paired-kernel-01a168f9",
+      "sha": "4ab81dfdcee01b3a1b5e3b0e89af97187a553ef3",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/paired-longleg-target-screen-20261023",
+      "sha": "60b98f0deb67499555c1b5df682eff7c21fe2094",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/paired-other-legs-20261023",
+      "sha": "0a25f0c9624f4b67d93ea6699804942b2ed8c470",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/partial-regular-frames-20261023",
+      "sha": "0eaa4f261955aae9a0f8601229486db3119a7e75",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/pass-operational-barrier-20261023",
+      "sha": "65520c0fea81c285911e0d6fa0ce9aaae77dfe48",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/persistent-frontier-01a1697a",
+      "sha": "3997d9d52119915126e2fab2b1127af78b5165f8",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/pole-ruling-20261023",
+      "sha": "a6c5e3eb46d159dbacac4105193f667e373df3a8",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/product-longmap-residual-20261023",
+      "sha": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/q64-diagonal-shift-obstruction-20261023",
+      "sha": "5a21f3a543f4bf2de8b442c89d5a5c70659e00fb",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/r5-isotropic-lift-20261023",
+      "sha": "9bb1a69c4a6d7a726285cb1f76a50a4ecf33c7b6",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/rank-three-hankel-obstruction-20261023",
+      "sha": "b28fc9df87b56377cefc0b449ee70ba447216672",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/rank20-ruling-20261023",
+      "sha": "3d24db74b3d2d3093a57ad130f7960b57db9b897",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/rank84-source-cap-01a1691e",
+      "sha": "d9e9621163bcf1d7c3217ee777b47d52b9b65ca4",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/rectangular-divisor-cap-01a16975",
+      "sha": "039a4c76b1390b6dc65b9e71e027af6a12533c26",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/rectangular-sum-frontier-20261021",
+      "sha": "6db658954fe976e3d433991ebf606d1d5d31a9e9",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/regular-leg-rank-frontier-01a1691e",
+      "sha": "8410aafc211f4d90311f4f75a66f6244912c2139",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/repair-support-capacity-20261023",
+      "sha": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/resolvent-all-compressions-20261023",
+      "sha": "fb9707ed65437ed1297ea8276a22384d4691813a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/resolvent-loss-seven-01a16975",
+      "sha": "bb1e969f1257c758c00d09f8ac62d9ec353a3e1f",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/resolvent-minrank-audit-20261023",
+      "sha": "e6c44ce7d26834c87fb5736f22197490d30f679f",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/resolvent-rank-six-locus-01a16975",
+      "sha": "63809d8e2dc0a13061bf30fbe7788b327fc01692",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/resolvent-rank6-locus-20261023",
+      "sha": "4c488b115e2e5ca6efb6dcc48fb88e31d927998f",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/resolvent-singular-rank109-20261023",
+      "sha": "68cb1da851a2b8308584fdc2d30e4519bf1a6a92",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/route-synthesis-20261023",
+      "sha": "02d5a87970813fa746c7e6d977cc7fb449c45f3b",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/s5-finite-power-covers-20261023",
+      "sha": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/s5-peirce-finite-covers-20261023",
+      "sha": "ade230bddb1f9cb255ab3a63357db925305755f0",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/s5-peirce-support-01a1697a",
+      "sha": "44164b54b6198563e789b479e7a8b01f220f16e9",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/s5-scalar-repair-20261021",
+      "sha": "a3446c1142d748a53cf7a3642f44e3a7bfc43128",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/s5-staircase-cover-boundary-20261023",
+      "sha": "a5b6a6e55202fe303e4535c5c4ad6b0c6e3eb135",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/s5-trade-followup-20261021",
+      "sha": "60eef4bf0388aa14f4842981e5543b9f9975507e",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/scalar-finite-slope-lean-20261023",
+      "sha": "1303aa0c4e3a8e00fc98a70a928cd24e7c8e0b5a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/scalar-proof-audit-20261023",
+      "sha": "b67c6a5ed3a38d56e952baaed79bb29f5c00b7a5",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/scalar-proof-review-20261023",
+      "sha": "3cebcd4b8b45acbe8089cfbe7a61a0aaedc68a98",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/shift-window-variable-long-leg-20261023",
+      "sha": "ce270d3276bd90253d3ba3a1eb5757ff3677ce61",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/singular-long-gap-20261023",
+      "sha": "f9bce104af5e50d796488a1c8d5ff4d8d02ba260",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/singular-long-ruling-20261023",
+      "sha": "fc0a139ef447a4d8640f0fdf1781836ea7fa868a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/singular-unit-resolvent-20261021",
+      "sha": "d9abcec0b22a1f90500b766d71bddba05809707a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/sl2-f8-native-all-cuts-20261023",
+      "sha": "3837b17c2c05cb509e61b65fc2547c9d34fd0afa",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/sl2-f8-subgroup-catalog-20261023",
+      "sha": "48cfb3bbf8cb7275ffc33b50318f008d6d5dccee",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/sl2-f8-torus-packets-20261021",
+      "sha": "aefbf5ef336f42c3d4767719d383ba8d85ffe21d",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/source-singular-space-cap-20261023",
+      "sha": "0927e2fdbb0f5d8f69821ea60eca6b7e006bccf5",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/spin-assembly-20261021",
+      "sha": "d07d0548b0263323915593120996bf243c2e568d",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/toeplitz-two-long-legs-20261023",
+      "sha": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/unbalanced-rectangular-frontier-20261023",
+      "sha": "d5bc2e15ab099f3948b5cc7c5b9591fb2a619855",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/unbalanced-square-frontier-20261023",
+      "sha": "3382792295dec8018306920550f571dea560660b",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/unequal-entropy-audit-20261023",
+      "sha": "60f49dd41832dc272dc942207cc816a34b6675d9",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/unit-image-rank-20261023",
+      "sha": "e3d3e4164125d636cad16c200eb6f5fe3a859890",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/unit-image-rank-gap-20261023",
+      "sha": "b407136ffc5abe194c3acf3b64d31517ed6a1e89",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/unit-image-stacked-rank-20261023",
+      "sha": "0a2c6106b79cca8684d59a11f763aa477388404a",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/variable-separation-barrier-20261023",
+      "sha": "eb02c341d27f5605cff62b8c47a0eec21cc5a270",
+      "source_receipt": "archive_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523/research/verified-frontier-20261023",
+      "sha": "4087327f26a8edbdec7dd65b0b1c44fb948bd579",
+      "source_receipt": "archive_tags.json"
+    }
+  ],
+  "scope": "Topic-source snapshots only; integration commits5d/434 and the current-main squash history are separately preserved."
+}

@@ -1,6 +1,6 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T18:19:09.037320+00:00",
+  "assembled_at": "2026-10-23T18:27:19.766697+00:00",
   "baseline_published_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
   "outputs": [
     {
@@ -38,10 +38,13 @@
     },
     {
       "path": "PROVENANCE.md",
-      "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
-      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "sha256": "3224988926a87a06209d512b4928eef94ba1f981432274eb75052873de38ccc9",
+      "input_sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
       "source_path": "PROVENANCE.md",
-      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions.",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/PROVENANCE.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections.",
       "origins": [
         {
           "source_commit": null,
@@ -90,9 +93,21 @@
           "source_path": "PROVENANCE.md",
           "report": "live_catchup_integration_resolution.json",
           "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "PROVENANCE.md",
+          "report": "quadratic_followup_docs_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "PROVENANCE.md",
+          "report": "quadratic_followup_integration_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
         }
       ],
-      "report": "live_catchup_integration_resolution.json"
+      "report": "quadratic_followup_integration_resolution.json"
     },
     {
       "path": "README.md",
@@ -118,12 +133,13 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
-      "input_sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
-      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "sha256": "fcff438f85b57a104936421001205b3d37ee8617e535f9111d623b041fa58306",
+      "input_sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
       "source_path": "STATUS.md",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_docs_output/STATUS.md",
-      "reason": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope.",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/STATUS.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections.",
       "origins": [
         {
           "source_commit": null,
@@ -172,9 +188,21 @@
           "source_path": "STATUS.md",
           "report": "live_catchup_docs_resolution.json",
           "reason": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "STATUS.md",
+          "report": "quadratic_followup_docs_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "STATUS.md",
+          "report": "quadratic_followup_integration_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
         }
       ],
-      "report": "live_catchup_docs_resolution.json"
+      "report": "quadratic_followup_integration_resolution.json"
     },
     {
       "path": "docs/concurrent_research.md",
@@ -504,10 +532,10 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "38ee8142ebb4daeeea90dbc0b9543167566848c8d180050bb671d74574926af7",
+      "sha256": "577ce358e6eacf44d5d50d6b21b5d2ab051b50dd54e43bd9eec8d021550c077c",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints.",
+      "reason": "Record the170th archived topic-source snapshot, preserve both quadratic head/PR captures, and record the exact already-incorporated main6e squash as current ancestry.",
       "origins": [
         {
           "source_commit": null,
@@ -544,9 +572,15 @@
           "source_path": "docs/consolidation/2026-10-23/branches.json",
           "report": "live_catchup_packaging_resolution.json",
           "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/branches.json",
+          "report": "quadratic_followup_integration_resolution.json",
+          "reason": "Record the170th archived topic-source snapshot, preserve both quadratic head/PR captures, and record the exact already-incorporated main6e squash as current ancestry."
         }
       ],
-      "report": "live_catchup_packaging_resolution.json"
+      "report": "quadratic_followup_integration_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.147db331.json",
@@ -1283,6 +1317,38 @@
           "source_path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/bd03b9d-anisotropic-README.md.txt",
+      "sha256": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "reason": "Byte-exact original README at the source record's base_main; .md.txt preserves its bytes without treating historical relative links as maintained navigation.",
+      "report": "quadratic_pin_resolution.json",
+      "origins": [
+        {
+          "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+          "source_path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+          "report": "quadratic_pin_resolution.json",
+          "reason": "Byte-exact original README at the source record's base_main; .md.txt preserves its bytes without treating historical relative links as maintained navigation."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+      "sha256": "3536d7730b94977c14a722ef4576361e5be0c87eede6e29eaa53b4f3ece9a223",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "reason": "Byte-exact original quadratic source record, including the original strict README pin.",
+      "report": "quadratic_pin_resolution.json",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+          "report": "quadratic_pin_resolution.json",
+          "reason": "Byte-exact original quadratic source record, including the original strict README pin."
         }
       ]
     },
@@ -2194,10 +2260,13 @@
     },
     {
       "path": "docs/research_directions.md",
-      "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
-      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "sha256": "d9b6bafab4fefc9797ee078dc85222e925059f319ad941c099f0ce146fbcb146",
+      "input_sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
       "source_path": "docs/research_directions.md",
-      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions.",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/docs/research_directions.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections.",
       "origins": [
         {
           "source_commit": null,
@@ -2240,9 +2309,21 @@
           "source_path": "docs/research_directions.md",
           "report": "live_catchup_integration_resolution.json",
           "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "docs/research_directions.md",
+          "report": "quadratic_followup_docs_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "docs/research_directions.md",
+          "report": "quadratic_followup_integration_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
         }
       ],
-      "report": "live_catchup_integration_resolution.json"
+      "report": "quadratic_followup_integration_resolution.json"
     },
     {
       "path": "docs/route-synthesis.md",
@@ -2330,10 +2411,13 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
-      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "sha256": "8022ef0ff65e6a1d09620e8b3408ad0b9cbf1965d7b666962cd7e87dad9b7c18",
+      "input_sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_parent": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
       "source_path": "research/ACTIVE.md",
-      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions.",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_output/research/ACTIVE.md",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections.",
       "origins": [
         {
           "source_commit": null,
@@ -2376,9 +2460,21 @@
           "source_path": "research/ACTIVE.md",
           "report": "live_catchup_integration_resolution.json",
           "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ACTIVE.md",
+          "report": "quadratic_followup_docs_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+        },
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ACTIVE.md",
+          "report": "quadratic_followup_integration_resolution.json",
+          "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
         }
       ],
-      "report": "live_catchup_integration_resolution.json"
+      "report": "quadratic_followup_integration_resolution.json"
     },
     {
       "path": "research/ai/2026-10-20-f8-unequal/ACTIVE.md",
@@ -14302,6 +14398,79 @@
       ]
     },
     {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+      "sha256": "bbd4326aa139835065bcb548e7d213452efb4fc74d3e4b379717cba83074829a",
+      "mode": "100644",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
+      "report": "quadratic_followup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+          "report": "quadratic_followup_source_resolution.json",
+          "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+      "sha256": "f5672695904c1f458134abcfc014ec3f86848c26021fa862106fbb942e5bb406",
+      "mode": "100644",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
+      "report": "quadratic_followup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+          "report": "quadratic_followup_source_resolution.json",
+          "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "sha256": "29c6e38cd712c77d7f630738e980171363043747fb0c25c1236b657538058b0c",
+      "original_source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "original_source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "original_sha256": "3536d7730b94977c14a722ef4576361e5be0c87eede6e29eaa53b4f3ece9a223",
+      "preserved_original_path": "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+      "reason": "Supersede only the README dependency digest after reviewing its 72 additive lines; keep the strict check and every mathematical, test, witness, proof and claim byte unchanged.",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+          "report": "quadratic_followup_source_resolution.json",
+          "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        },
+        {
+          "report": "quadratic_pin_resolution.json",
+          "reason": "Supersede only the README dependency digest after reviewing its 72 additive lines; keep the strict check and every mathematical, test, witness, proof and claim byte unchanged."
+        }
+      ],
+      "report": "quadratic_pin_resolution.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+      "sha256": "e38466120237d20eb8cecd96ed7dccd858a4bdaa9f93f87f1d1ca02247568db7",
+      "mode": "100644",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
+      "report": "quadratic_followup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+          "report": "quadratic_followup_source_resolution.json",
+          "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        }
+      ]
+    },
+    {
       "path": "research/ai/2026-10-23-quadratic-z-middle/CONTINUATION.md",
       "sha256": "652f13eb575c3b65adf19b548641939c1de49d12324957a7cd556c5c2aa73c4f",
       "source_commit": "0d9781b6774f328d572bb3326383978215d50306",
@@ -15615,10 +15784,10 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
+      "sha256": "920eede68c554939bb25c5e3f7a5a3b991a35124fecaa517eff8994aaa170b28",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "reason": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance.",
+      "reason": "Preserve all612 prior claim records exactly; append the exact source-authored written-unreviewed quadratic claim, with all evidence and status flags unchanged.",
       "origins": [
         {
           "source_commit": null,
@@ -15643,9 +15812,15 @@
           "source_path": "research/claims.json",
           "report": "live_catchup_integration_resolution.json",
           "reason": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/claims.json",
+          "report": "quadratic_followup_integration_resolution.json",
+          "reason": "Preserve all612 prior claim records exactly; append the exact source-authored written-unreviewed quadratic claim, with all evidence and status flags unchanged."
         }
       ],
-      "report": "live_catchup_integration_resolution.json"
+      "report": "quadratic_followup_integration_resolution.json"
     },
     {
       "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
@@ -26405,6 +26580,23 @@
       ]
     },
     {
+      "path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+      "sha256": "327d81248030a8bfd136b5a6e180098f676bebe506e795a7b7e33d3e8cb62b3b",
+      "mode": "100644",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
+      "report": "quadratic_followup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+          "report": "quadratic_followup_source_resolution.json",
+          "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        }
+      ]
+    },
+    {
       "path": "results/quadratic-z-middle-2026-10-23/validation.json",
       "sha256": "d97b5b380ddb2d66d1b1c02bc5c713b0f1632eb929ebe6ff83891bf1973776b3",
       "source_commit": "0d9781b6774f328d572bb3326383978215d50306",
@@ -31131,6 +31323,23 @@
       ]
     },
     {
+      "path": "tests/test_quadratic_kernel_indices.py",
+      "sha256": "aa16812c33477a385db03e078234eda2a45cbadc4c22841c79bbfba360da588e",
+      "mode": "100644",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "tests/test_quadratic_kernel_indices.py",
+      "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes.",
+      "report": "quadratic_followup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+          "source_path": "tests/test_quadratic_kernel_indices.py",
+          "report": "quadratic_followup_source_resolution.json",
+          "reason": "Preserve exact captured quadratic package/test/result bytes; a separately declared source-pin metadata repair may supersede only sources.json while retaining its original bytes."
+        }
+      ]
+    },
+    {
       "path": "tests/test_quadratic_z_middle_ranks.py",
       "sha256": "991e82c4b83e4e0af1239c236dad5f04a172d2810f9d7aeb3543fa809027b6fa",
       "source_commit": "0d9781b6774f328d572bb3326383978215d50306",
@@ -31847,8 +32056,8 @@
     },
     {
       "path": "PROVENANCE.md",
-      "resolution_report": "live_catchup_integration_resolution.json",
-      "decision": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+      "resolution_report": "quadratic_followup_integration_resolution.json",
+      "decision": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
     },
     {
       "path": "README.md",
@@ -31857,8 +32066,8 @@
     },
     {
       "path": "STATUS.md",
-      "resolution_report": "live_catchup_docs_resolution.json",
-      "decision": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope."
+      "resolution_report": "quadratic_followup_integration_resolution.json",
+      "decision": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
@@ -31887,8 +32096,8 @@
     },
     {
       "path": "docs/research_directions.md",
-      "resolution_report": "live_catchup_integration_resolution.json",
-      "decision": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+      "resolution_report": "quadratic_followup_integration_resolution.json",
+      "decision": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
     },
     {
       "path": "docs/route-synthesis.md",
@@ -31902,8 +32111,8 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "resolution_report": "live_catchup_integration_resolution.json",
-      "decision": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
+      "resolution_report": "quadratic_followup_integration_resolution.json",
+      "decision": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
     },
     {
       "path": "research/ai/2026-10-23-conic-d0-cubic/QUESTION.md",
@@ -32027,8 +32236,8 @@
     },
     {
       "path": "research/claims.json",
-      "resolution_report": "live_catchup_integration_resolution.json",
-      "decision": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance."
+      "resolution_report": "quadratic_followup_integration_resolution.json",
+      "decision": "Preserve all612 prior claim records exactly; append the exact source-authored written-unreviewed quadratic claim, with all evidence and status flags unchanged."
     },
     {
       "path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
@@ -32488,10 +32697,66 @@
       "final_sha256": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb",
       "final_report": "live_catchup_packaging_resolution.json",
       "reason": "Record169 topic snapshots,138 names, current-main/concurrent ancestry and exact revision-aware1951-test coverage; preserve original PR metadata and all historical checkpoints."
+    },
+    {
+      "path": "STATUS.md",
+      "previous_sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "previous_report": "live_catchup_docs_resolution.json",
+      "final_sha256": "fcff438f85b57a104936421001205b3d37ee8617e535f9111d623b041fa58306",
+      "final_report": "quadratic_followup_docs_resolution.json",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "previous_sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "previous_report": "live_catchup_integration_resolution.json",
+      "final_sha256": "3224988926a87a06209d512b4928eef94ba1f981432274eb75052873de38ccc9",
+      "final_report": "quadratic_followup_docs_resolution.json",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "previous_sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "previous_report": "live_catchup_integration_resolution.json",
+      "final_sha256": "d9b6bafab4fefc9797ee078dc85222e925059f319ad941c099f0ce146fbcb146",
+      "final_report": "quadratic_followup_docs_resolution.json",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "previous_sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "previous_report": "live_catchup_integration_resolution.json",
+      "final_sha256": "8022ef0ff65e6a1d09620e8b3408ad0b9cbf1965d7b666962cd7e87dad9b7c18",
+      "final_report": "quadratic_followup_docs_resolution.json",
+      "reason": "Add the authored general quadratic continuation, retain D>0 and source-slice scope, and explicitly update earlier open questions without altering unrelated consolidated sections."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
+      "previous_report": "live_catchup_integration_resolution.json",
+      "final_sha256": "920eede68c554939bb25c5e3f7a5a3b991a35124fecaa517eff8994aaa170b28",
+      "final_report": "quadratic_followup_integration_resolution.json",
+      "reason": "Preserve all612 prior claim records exactly; append the exact source-authored written-unreviewed quadratic claim, with all evidence and status flags unchanged."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "38ee8142ebb4daeeea90dbc0b9543167566848c8d180050bb671d74574926af7",
+      "previous_report": "live_catchup_packaging_resolution.json",
+      "final_sha256": "577ce358e6eacf44d5d50d6b21b5d2ab051b50dd54e43bd9eec8d021550c077c",
+      "final_report": "quadratic_followup_integration_resolution.json",
+      "reason": "Record the170th archived topic-source snapshot, preserve both quadratic head/PR captures, and record the exact already-incorporated main6e squash as current ancestry."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "previous_sha256": "3536d7730b94977c14a722ef4576361e5be0c87eede6e29eaa53b4f3ece9a223",
+      "previous_report": "quadratic_followup_source_resolution.json",
+      "final_sha256": "29c6e38cd712c77d7f630738e980171363043747fb0c25c1236b657538058b0c",
+      "final_report": "quadratic_pin_resolution.json",
+      "reason": "Supersede only the README dependency digest after reviewing its 72 additive lines; keep the strict check and every mathematical, test, witness, proof and claim byte unchanged."
     }
   ],
   "inputs": {
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_output/prior_manifest.44b91761.json": "f59f625202cfe848a0abfa9f44c0f95559bd9cb4ffd92330c3af2ab6dbed9c10",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_output/prior_manifest.e38eb5c2.json": "b7e603c84bc2f4c5a1615d036683e1fb48c36ef4e484147b81027c72a64119ee",
     "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
@@ -32504,20 +32769,22 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
     "/workspace/scratch/5e4a124ebf61/consolidation/concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
     "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_source_resolution.json": "92fc202f537125f97ec5eec9375cd02ca9e8335aba04d4d26b014facfebc8b12",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_docs_resolution.json": "b224cf97a20d6669c085d33e4442f0dfa163a9032b823da8a1b2b679bc35d2f0",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_integration_resolution.json": "52b66911eaad53f7943dc64775f1578d716b483d2f4d86784190ff3ec44ad2ab",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_metadata_decisions.json": "d703f3e4795350ae37a686f1d2d5cbb2e22e7bdb70edbe8a42861df8986e2584",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_packaging_resolution.json": "4251145ae6347d21c35416a729758a197e981d1a817895c80214b74346505a69",
-    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_output/resolution_report.json": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb"
+    "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_6e11f7c1_merge_log.json": "21f6d21d5582519506608b18bda955688d0e0db0e2f1e7d4c0c89c2e95eddef8",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_merge_log.json": "e45235f873fcd90d7cb0f3c3825d75edd1df477dabbb288aa19cca6ee2ffb930",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_source_resolution.json": "183eb8a6bb9b84bd10094b21a076f53b50c1a359f28da8b635c5395bedaecb2e",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_docs_resolution.json": "6dec374da2af524785f60c13555f190a91e7e396fdf5a4758aa8004a9bed2f16",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_integration_resolution.json": "6fc922ae4facd4a267a260e37372b4f540b29508d96bf352660ef92164f914db",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_pin_resolution.json": "72902a706e6e3ec99e6d8838658ea77ef4041c0ca8929d126a89bd18c2d72408",
+    "/workspace/scratch/5e4a124ebf61/consolidation/quadratic_followup_output/resolution_report.json": "f0b1aa6a701f2abec2ef9db97d9d74e2771175ff40817d5ae6900ad7df21e7fe"
   },
-  "method": "Preserve all prior reviewed decisions; add exact frozen source expectations, one limitations-only claim revision and one scoped STATUS replacement. Track current-main and concurrent integration ancestry separately from topic snapshots.",
+  "method": "Preserve every prior reviewed resolution and all612 previous claim records. Add the exact captured quadratic proof/verifier/test/witness and one written-unreviewed claim; separately record the reviewed context-README digest repair with byte-exact originals. Current main's tree equals the already integrated column source and its real merge does not alter active content.",
   "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
   "concurrent_integration_correction": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
-  "topic_source_snapshots": 169,
+  "topic_source_snapshots": 170,
   "topic_branch_names": 138,
   "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs.",
-  "prior_reviewed_union": "44b917610b64a515122c4fb835f69b7ceefffb08",
-  "current_main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
-  "concurrent_remote_history": "434178af88a16a3d13e9db60dd97453207dbf2b2"
+  "prior_reviewed_union": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "concurrent_remote_history": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+  "latest_source": "c7b7257bac3c000543de66a27b3485a29589156c"
 }
