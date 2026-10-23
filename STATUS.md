@@ -16,7 +16,10 @@ eleven `a=15` survivors and six of twelve `a=16` survivors; it dominates no
 `AI-PAIRED-LONG-KOSZUL-005` is written and unreviewed. Exact interpolation,
 frontier, support-count, and coefficient-matrix controls are recorded in
 `results/paired-long-legs-2026-10-23/verification.json`. No exponent
-improvement is established.
+improvement is established. A separate exact bidegree atlas gives full
+column rank through `p=6` at `a=3` and rank `57185/57915` at `p=7`, with
+kernel dimension `730`; it is a finite pilot, not an all-size formula. See
+`results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json`.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

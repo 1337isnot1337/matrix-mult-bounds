@@ -7,9 +7,11 @@ the full-spark evaluation basis, and a two-block compatibility argument at
 `p=a`. At every degree the same proof gives a rank floor from wedges using
 at most `a-1` interpolation blocks. At `p=a+1`, it dominates the target
 `l*b`-leg rank for four `a=15` and six `a=16` survivors, but none of the
-`b*r`-leg ranks; all higher degrees remain open. Modular source ranks are
-lower bounds, not complex source upper bounds. This is separate from active
-singular-unit, group-source and boundary work.
+`b*r`-leg ranks. A finite exact atlas for `a=3` is injective through `p=6`
+and has rank `57185/57915` at `p=7`. The general higher-degree ranks remain
+open. Modular source ranks are lower bounds, not complex source upper
+bounds. This is separate from active singular-unit, group-source and
+boundary work.
 
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate

@@ -41,8 +41,13 @@ comparison closes the `l*b`-leg rank test for four `a=15` and six `a=16`
 survivors, while all `b*r`-leg cases remain open. Next, strengthen the
 all-degree rank floor or determine the `p=a+1` source rank.
 
-Finite first-higher-degree controls show a real distinction by size: the
-original coefficient matrix has rational rank `70<80` for `(a,p)=(2,3)`,
-while `(a,p)=(3,4)` is full column rank modulo `2`, hence also over `C`.
-These pilots do not decide the all-size range; the next task is to explain
+The original coefficient matrix has rational rank `70<80` at `(a,p)=(2,3)`.
+An exact bidegree-blocked rank atlas gives full column rank through `p=6`
+when `a=3`, then rank `57185<57915` at `p=7`, with a 730-dimensional
+kernel. The atlas uses the original signed wedge matrix and exact rational
+elimination on the blocks not already certified full modulo `2`. These
+finite ranks do not settle the all-size range; the next task is to explain
 the longer injective range at `a=3` and determine its general boundary.
+The script and replayed report are
+`rank_atlas.py` and
+`results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json`.

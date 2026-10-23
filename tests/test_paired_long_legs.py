@@ -13,6 +13,10 @@ SPEC = importlib.util.spec_from_file_location("paired_long_legs_verify", VERIFY_
 VERIFY = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFY)
 RESULTS = Path(__file__).resolve().parents[1] / "results/paired-long-legs-2026-10-23"
+RANK_ATLAS_PATH = (
+    Path(__file__).resolve().parents[1]
+    / "research/ai/2026-10-23-paired-long-legs/rank_atlas.py"
+)
 
 
 class PairedLongLegTests(unittest.TestCase):
@@ -73,6 +77,17 @@ class PairedLongLegTests(unittest.TestCase):
         self.assertTrue(
             all(not item["target_c_rank_not_larger"] for item in records.values())
         )
+
+    def test_a3_graded_higher_degree_rank_atlas_replays(self):
+        spec = importlib.util.spec_from_file_location(
+            "paired_long_legs_rank_atlas", RANK_ATLAS_PATH
+        )
+        atlas = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(atlas)
+        saved = json.loads((RESULTS / "graded-rank-atlas-a3.json").read_text())
+        actual = json.loads(json.dumps(atlas.atlas(3, [4, 5, 6, 7])))
+        self.assertEqual(actual, saved)
+        self.assertEqual(saved["records"][-1]["kernel_dimension_over_q"], 730)
 
 
 if __name__ == "__main__":
