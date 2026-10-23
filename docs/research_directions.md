@@ -184,6 +184,13 @@ rank above these intervals and an all-degree source rank lower bound.
 These remaining degrees and the actual
 target maps are open. The theorem is written and unreviewed.
 
+The [sharp kernel-onset continuation](../research/ai/2026-10-23-paired-kernel-onset/proof.md)
+also gives an all-degree source rank upper bound from fixed short input
+directions. Its exact screen of the pinned 28-target frontier excludes
+no target. The source lower bound settles 2,970 intermediate comparisons
+beyond the endpoint intervals; the rest remain undecided. A stronger
+route must control coupled short directions or supply target maps.
+
 The [two-block paired frontier](../research/ai/2026-10-20-paired-direct-sums/README.md)
 supplies a smaller source-size construction question. The complete
 one-block/two-block search through `a=10` leaves 19 pairs, all at size ten,

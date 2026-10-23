@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The sharp-kernel continuation is in
+`ai/2026-10-23-paired-kernel-onset/proof.md`, worktree
+`/tmp/matrix-paired-kernel-01a168f9`, branch
+`research/paired-kernel-01a168f9`. It continues PR169 without changing its
+worktree while the full local regression runs. A written all-field proof
+gives a fixed-short-input kernel formula and makes the full-column
+endpoint sharp for every a. Five focused tests pass, including 45
+independent source kernels at a=3 and all 25,254 target-bound comparisons.
+The screen leaves all 28 matrix targets unresolved. Next: coupled short
+directions or sharper intermediate-degree kernel information. Do not
+count the fixed-input lower bound as a complete source kernel formula.
+
 The paired-long-leg continuation studies
 `ai/2026-10-23-paired-bundle-injectivity/QUESTION.md`, in the isolated worktree
 `/tmp/matrix-paired-bundle-01a168f9`, branch

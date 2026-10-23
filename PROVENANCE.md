@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-23-paired-kernel-onset` package continues the explicitly
+pinned PR169 bundle proof and maintained paired-source convention. The
+fixed-input kernel formula, full-source padding, sharp onset and bounded
+target comparison are owner-directed Codex work. The projective-line
+quotient and standard global-section fact retain PR169's source credits;
+the maintained matrix-rank formula retains its separate provenance.
+No independent mathematical review, formalization, historical priority,
+target construction or exponent improvement is claimed.
+
 The `2026-10-23-paired-bundle-injectivity` package is owner-directed Codex work.
 It adopts the maintained paired-source coefficients and short-leg
 frontier with their original credits and inspected byte pins. The Hankel

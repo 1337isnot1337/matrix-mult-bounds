@@ -1,5 +1,25 @@
 # Research status
 
+## Sharp onset of paired long-leg kernels
+
+The [fixed-short-direction proof](research/ai/2026-10-23-paired-kernel-onset/proof.md)
+makes the paired long-leg full-column interval sharp over every field.
+Fixing one short input coordinate gives a complete restricted kernel
+formula. Padding and summing its independent coordinate input spaces
+gives a full-source kernel lower bound and therefore a rank upper bound
+in every degree. At p=a(a-1)+1 the kernel has dimension at least
+a binom(a(a-1),a-1)>0; the restricted construction remains nonzero in
+every later degree. Claim `AI-PAIRED-KERNEL-ONSET-002` is written and
+unreviewed. The full coupled source kernel remains unresolved.
+
+An [exact bound screen](results/paired-kernel-onset-2026-10-23/target-screen.json)
+makes 25,254 rank comparisons on the pinned 28-target frontier through
+a=16. It settles 2,970 intermediate-degree comparisons beyond the two
+full-rank intervals as incapable of excluding a target. No target is
+excluded; remaining comparisons are undecided. Claim
+`EXP-PAIRED-LONG-BOUND-SCREEN-003` is a finite experiment. No target
+construction or smaller exponent follows.
+
 ## A quadratic full-rank interval on paired long legs
 
 The [paired-long-leg proof](research/ai/2026-10-23-paired-bundle-injectivity/proof.md)
