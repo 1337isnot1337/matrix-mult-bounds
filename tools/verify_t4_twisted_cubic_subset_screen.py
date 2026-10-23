@@ -63,6 +63,15 @@ def rank(matrix: list[list[Fraction]], ncols: int) -> int:
 def main() -> None:
     source = json.loads(INPUT.read_text())
     points = source["points"]
+    assert len(points) == 10 and all(len(point) == 4 for point in points)
+    assert all(any(point) for point in points)
+    for left_index, left in enumerate(points):
+        for right in points[left_index + 1 :]:
+            pivot = next(index for index, value in enumerate(left) if value)
+            assert any(
+                left[pivot] * right[index] != right[pivot] * left[index]
+                for index in range(4)
+            ), "the ten target points must be projectively distinct"
     quadratic_pairs = [tuple(pair) for pair in source["quadratic_monomials"]]
     cubic_monomials = [
         exponents
@@ -201,6 +210,7 @@ def main() -> None:
         "input_sha256": hashlib.sha256(INPUT.read_bytes()).hexdigest(),
         "field": "Q; ranks remain the same after extension to C",
         "point_count": len(points),
+        "projective_points_pairwise_distinct": True,
         "quadratic_evaluation_rank_distribution_for_seven_point_sets": {"7": len(seven_sets)},
         "seven_point_sets_by_linear_syzygy_dimension": {
             key: {"count": len(value), "sets_one_based": value}
