@@ -27,6 +27,19 @@ Numerical optimality reports are not accepted as class-wide exclusion
 certificates. No improved bound or exponent follows. A new attempt needs
 additional basis structure or a changed source/basis/power.
 
+## Fifth-power screen for a pinned two-matrix candidate list
+
+The [nonsplit two-matrix continuation](research/ai/2026-10-23-nonsplit-two-matrix-targets/README.md)
+verifies a fifth-power slice-rank upper bound of 9874344844 for the actual
+SL(2,F5) source. Exact target direct-sum ranks over all 252 orientation
+multisets replay the earlier power-three values and exclude eight of the
+144 candidates in the pinned prior ledger. The other 136 are not excluded
+by this comparison. The prior pair census and its rank-profile/Koszul
+screens are not regenerated here, so this does not close the two-matrix
+family. Claim `AI-NONSPLIT-TWOMATRIX-POWER5-001` is written and unreviewed;
+the established one-copy coefficient-one good-reduction limitation
+remains, and no exponent improvement is claimed.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

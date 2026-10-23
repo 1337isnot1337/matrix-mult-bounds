@@ -306,3 +306,14 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+## Fifth-power continuation for two-matrix candidates
+
+The [nonsplit two-matrix screen](../research/ai/2026-10-23-nonsplit-two-matrix-targets/README.md)
+uses a 9874344844 source bound to exclude eight rows from a pinned
+144-candidate two-matrix frontier. Its earlier pair census and complex
+screens are not regenerated, and the other 136 candidates only pass this
+necessary screen. The next finite continuation is to build and replay a
+sixth-power source cover against those 136 candidates. This remains within
+the existing one-copy coefficient-one good-reduction premise and does not
+claim an exponent improvement.

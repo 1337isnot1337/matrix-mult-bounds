@@ -920,3 +920,20 @@ class hypergraph and a finite integer-weight census. Optional SciPy
 optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
+
+## Nonsplit two-matrix power-five screen
+
+The October 23 fifth-power continuation is owner-directed Codex research.
+It adopts the pinned 144-candidate frontier, full nonsplit `F4` source
+certificate and exact dense source verifier recorded in
+`research/ai/2026-10-23-nonsplit-two-matrix-targets/SOURCES.json`. The
+five-power weighted degree cover and exact target orientation census are
+local work. Gowers retains credit for direct-sum slice-rank additivity;
+Flanders, Meshulam and de Seguins Pazzis retain the arbitrary-field
+matrix-space credits inherited for rectangular matrix multiplication
+slice rank. The previous candidate generator was not retained, and the
+earlier screens are not regenerated. Eight recorded candidates are
+excluded under the stated coefficient-one good-reduction premise; 136 are
+not excluded by this power. No complete two-matrix family exclusion,
+target construction, independent review, formalization or exponent
+improvement is claimed.
