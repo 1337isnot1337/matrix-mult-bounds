@@ -1,5 +1,30 @@
 # Research status
 
+## Explicit oblique maps with a nineteen-scalar repair
+
+The [integer oblique construction](research/ai/2026-10-23-oblique-paired-repair/proof.md)
+gives `Q(6,4) -> M(5,4,5)-E` with exact residual ranks `(9,11,11)`
+and nineteen replayed rank-one correction terms. The previous embedded
+M4 comparison has ranks `(9,20,20)` and thirty-six naive scalar terms.
+The product witness's three pieces have ranks `(4,2,8)`, `(4,8,2)`,
+and `(1,4,4)`. A separate nonproduct-middle integer witness has the
+same global ranks and a verified twenty-four-term correction.
+
+The all-size product family has residual ranks `(r^2-b^2,2r+d,2r+d)`
+for `r=n-1`, `d=r-b>0`, with `4rd` scalar terms and a `4r-1` refinement
+when `d=1`. All formulas and scalar identities hold over every field.
+These changed long maps attain their own exact minimum first residual
+rank; at n=6 that minimum is nine, compared with sixteen for the old
+long maps below. Claims `AI-OBLIQUE-PAIRED-REPAIR-001` and
+`AI-OBLIQUE-NONPRODUCT-CONTROL-002` are written and unreviewed.
+Seven focused tests replay the complete identities, saved certificates,
+support factorizations, scalar terms, and distinct variant costs.
+The fixed-width family has quadratic first support and does not supply
+the small asymptotic repair required for an exponent improvement.
+The [pending PR130](https://github.com/1337isnot1337/matrix-mult-bounds/pull/130)
+endpoint criterion is used only for a pinned cost comparison; even its
+zero-residual finite gate fails at this source and target.
+
 ## The first map cannot repair the fixed product long maps
 
 The [product-longmap residual proof](research/ai/2026-10-23-product-longmap-residual/README.md)

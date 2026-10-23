@@ -1,0 +1,1863 @@
+{
+  "cases": [
+    {
+      "variant": "product-oblique",
+      "source": [
+        5,
+        4
+      ],
+      "target": [
+        4,
+        4,
+        4
+      ],
+      "bad_outer_coordinates": [],
+      "verification": {
+        "source": [
+          5,
+          4
+        ],
+        "target": [
+          4,
+          4,
+          4
+        ],
+        "source_format": [
+          25,
+          32,
+          32
+        ],
+        "target_format": [
+          16,
+          16,
+          16
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 400,
+        "expanded_source_contributions": 144,
+        "all_target_coefficient_positions_accounted_for": 4096,
+        "actual_nonzero_coefficients": 64,
+        "residual_nonzero_coefficients": 0,
+        "exact_residual_flattening_ranks": [
+          0,
+          0,
+          0
+        ],
+        "smallest_rank_pair_product": 0,
+        "ordinary_target_identity": true,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "maps_sha256": "2a1324c2baeeea7d542dc6e6aebe3150a03b172bb4e82dbce568822426a95cf0",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            0,
+            0,
+            0
+          ],
+          "pair_product": 0,
+          "nonzero_coefficients": 0
+        },
+        {
+          "name": "column",
+          "ranks": [
+            0,
+            0,
+            0
+          ],
+          "pair_product": 0,
+          "nonzero_coefficients": 0
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            0,
+            0,
+            0
+          ],
+          "pair_product": 0,
+          "nonzero_coefficients": 0
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 0,
+        "slice_matrix_ranks": [],
+        "complete_decomposition_replayed": true
+      },
+      "new_target_identity_without_repair": true,
+      "improves_omega": false,
+      "historical_novelty_claimed": false
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        6,
+        4
+      ],
+      "target": [
+        5,
+        4,
+        5
+      ],
+      "bad_outer_coordinates": [
+        3
+      ],
+      "verification": {
+        "source": [
+          6,
+          4
+        ],
+        "target": [
+          5,
+          4,
+          5
+        ],
+        "source_format": [
+          36,
+          36,
+          36
+        ],
+        "target_format": [
+          25,
+          20,
+          20
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 576,
+        "expanded_source_contributions": 196,
+        "all_target_coefficient_positions_accounted_for": 10000,
+        "actual_nonzero_coefficients": 100,
+        "residual_nonzero_coefficients": 38,
+        "exact_residual_flattening_ranks": [
+          9,
+          11,
+          11
+        ],
+        "smallest_rank_pair_product": 99,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "f729c4bdf8edceb2f2a80c9f134f735740d5e3fc7e8760619ebbc9e6d1e4192a",
+        "maps_sha256": "853350c5635fabf1752e865d985a18f851516f4249d51b843569c088bb78ffe8",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            4,
+            2,
+            8
+          ],
+          "pair_product": 8,
+          "nonzero_coefficients": 16
+        },
+        {
+          "name": "column",
+          "ranks": [
+            4,
+            8,
+            2
+          ],
+          "pair_product": 8,
+          "nonzero_coefficients": 16
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            1,
+            4,
+            4
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 6
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 19,
+        "core_rank_one_terms": 7,
+        "remaining_rank_one_terms": 12,
+        "coefficient_field": "Z (identity remains valid over every field)",
+        "complete_decomposition_replayed": true,
+        "tensor_rank_optimality_claimed": false
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false,
+      "direct_scalar_repair": {
+        "scalar_rank_upper_bound": 20,
+        "slice_matrix_ranks": [
+          [
+            3,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            23,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      },
+      "free_first_map_optimum": {
+        "source_slice_rank": 36,
+        "minimum_first_residual_rank": 9,
+        "target_source_intersection_dimension": 16,
+        "attaining_first_map_constructed": true,
+        "coefficient_field": "Q"
+      }
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        7,
+        4
+      ],
+      "target": [
+        6,
+        4,
+        6
+      ],
+      "bad_outer_coordinates": [
+        3,
+        4
+      ],
+      "verification": {
+        "source": [
+          7,
+          4
+        ],
+        "target": [
+          6,
+          4,
+          6
+        ],
+        "source_format": [
+          49,
+          40,
+          40
+        ],
+        "target_format": [
+          36,
+          24,
+          24
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 784,
+        "expanded_source_contributions": 256,
+        "all_target_coefficient_positions_accounted_for": 20736,
+        "actual_nonzero_coefficients": 144,
+        "residual_nonzero_coefficients": 88,
+        "exact_residual_flattening_ranks": [
+          20,
+          14,
+          14
+        ],
+        "smallest_rank_pair_product": 196,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "c6237b2b13b1ea7d0c99a21053ce751fe27ef93c878e1a86f91038d8f0fa4cfd",
+        "maps_sha256": "2ae168dc291bc1e2500e13613520f5370b93d7217c0c5daab6f259813524afce",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            8,
+            4,
+            8
+          ],
+          "pair_product": 32,
+          "nonzero_coefficients": 32
+        },
+        {
+          "name": "column",
+          "ranks": [
+            8,
+            8,
+            4
+          ],
+          "pair_product": 32,
+          "nonzero_coefficients": 32
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            4,
+            8,
+            8
+          ],
+          "pair_product": 32,
+          "nonzero_coefficients": 24
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 48,
+        "slice_matrix_ranks": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            21,
+            4
+          ],
+          [
+            22,
+            4
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            25,
+            2
+          ],
+          [
+            26,
+            2
+          ],
+          [
+            27,
+            4
+          ],
+          [
+            28,
+            4
+          ],
+          [
+            29,
+            2
+          ],
+          [
+            33,
+            2
+          ],
+          [
+            34,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        8,
+        4
+      ],
+      "target": [
+        7,
+        4,
+        7
+      ],
+      "bad_outer_coordinates": [
+        3,
+        4,
+        5
+      ],
+      "verification": {
+        "source": [
+          8,
+          4
+        ],
+        "target": [
+          7,
+          4,
+          7
+        ],
+        "source_format": [
+          64,
+          44,
+          44
+        ],
+        "target_format": [
+          49,
+          28,
+          28
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 1024,
+        "expanded_source_contributions": 324,
+        "all_target_coefficient_positions_accounted_for": 38416,
+        "actual_nonzero_coefficients": 196,
+        "residual_nonzero_coefficients": 150,
+        "exact_residual_flattening_ranks": [
+          33,
+          17,
+          17
+        ],
+        "smallest_rank_pair_product": 289,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "d0abe1e1233a894b6899bd8766d2638234226405aec55f8097a1500e5cfa321f",
+        "maps_sha256": "8b52ab62fafb666bde5b0a0270807c767b6ef192baaa8ce3fd0f594835f899cc",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            12,
+            6,
+            8
+          ],
+          "pair_product": 48,
+          "nonzero_coefficients": 48
+        },
+        {
+          "name": "column",
+          "ranks": [
+            12,
+            8,
+            6
+          ],
+          "pair_product": 48,
+          "nonzero_coefficients": 48
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            9,
+            12,
+            12
+          ],
+          "pair_product": 108,
+          "nonzero_coefficients": 54
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 84,
+        "slice_matrix_ranks": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            24,
+            4
+          ],
+          [
+            25,
+            4
+          ],
+          [
+            26,
+            4
+          ],
+          [
+            27,
+            2
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            29,
+            2
+          ],
+          [
+            30,
+            2
+          ],
+          [
+            31,
+            4
+          ],
+          [
+            32,
+            4
+          ],
+          [
+            33,
+            4
+          ],
+          [
+            34,
+            2
+          ],
+          [
+            35,
+            2
+          ],
+          [
+            36,
+            2
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            38,
+            4
+          ],
+          [
+            39,
+            4
+          ],
+          [
+            40,
+            4
+          ],
+          [
+            41,
+            2
+          ],
+          [
+            45,
+            2
+          ],
+          [
+            46,
+            2
+          ],
+          [
+            47,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        9,
+        4
+      ],
+      "target": [
+        8,
+        4,
+        8
+      ],
+      "bad_outer_coordinates": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "verification": {
+        "source": [
+          9,
+          4
+        ],
+        "target": [
+          8,
+          4,
+          8
+        ],
+        "source_format": [
+          81,
+          48,
+          48
+        ],
+        "target_format": [
+          64,
+          32,
+          32
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 1296,
+        "expanded_source_contributions": 400,
+        "all_target_coefficient_positions_accounted_for": 65536,
+        "actual_nonzero_coefficients": 256,
+        "residual_nonzero_coefficients": 224,
+        "exact_residual_flattening_ranks": [
+          48,
+          20,
+          20
+        ],
+        "smallest_rank_pair_product": 400,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "de884406551ff51893ffcd117cc1a1e9a9fc322b5aa4efbf1551cafa5377c6f2",
+        "maps_sha256": "e3e70bdec9f5e98233648134fe0ef9724911567d5e014a71822a8c5b89612006",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            16,
+            8,
+            8
+          ],
+          "pair_product": 64,
+          "nonzero_coefficients": 64
+        },
+        {
+          "name": "column",
+          "ranks": [
+            16,
+            8,
+            8
+          ],
+          "pair_product": 64,
+          "nonzero_coefficients": 64
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            16,
+            15,
+            15
+          ],
+          "pair_product": 225,
+          "nonzero_coefficients": 96
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 128,
+        "slice_matrix_ranks": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            25,
+            2
+          ],
+          [
+            26,
+            2
+          ],
+          [
+            27,
+            4
+          ],
+          [
+            28,
+            4
+          ],
+          [
+            29,
+            4
+          ],
+          [
+            30,
+            4
+          ],
+          [
+            31,
+            2
+          ],
+          [
+            32,
+            2
+          ],
+          [
+            33,
+            2
+          ],
+          [
+            34,
+            2
+          ],
+          [
+            35,
+            4
+          ],
+          [
+            36,
+            4
+          ],
+          [
+            37,
+            4
+          ],
+          [
+            38,
+            4
+          ],
+          [
+            39,
+            2
+          ],
+          [
+            40,
+            2
+          ],
+          [
+            41,
+            2
+          ],
+          [
+            42,
+            2
+          ],
+          [
+            43,
+            4
+          ],
+          [
+            44,
+            4
+          ],
+          [
+            45,
+            4
+          ],
+          [
+            46,
+            4
+          ],
+          [
+            47,
+            2
+          ],
+          [
+            48,
+            2
+          ],
+          [
+            49,
+            2
+          ],
+          [
+            50,
+            2
+          ],
+          [
+            51,
+            4
+          ],
+          [
+            52,
+            4
+          ],
+          [
+            53,
+            4
+          ],
+          [
+            54,
+            4
+          ],
+          [
+            55,
+            2
+          ],
+          [
+            59,
+            2
+          ],
+          [
+            60,
+            2
+          ],
+          [
+            61,
+            2
+          ],
+          [
+            62,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        10,
+        4
+      ],
+      "target": [
+        9,
+        4,
+        9
+      ],
+      "bad_outer_coordinates": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verification": {
+        "source": [
+          10,
+          4
+        ],
+        "target": [
+          9,
+          4,
+          9
+        ],
+        "source_format": [
+          100,
+          52,
+          52
+        ],
+        "target_format": [
+          81,
+          36,
+          36
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 1600,
+        "expanded_source_contributions": 484,
+        "all_target_coefficient_positions_accounted_for": 104976,
+        "actual_nonzero_coefficients": 324,
+        "residual_nonzero_coefficients": 310,
+        "exact_residual_flattening_ranks": [
+          65,
+          23,
+          23
+        ],
+        "smallest_rank_pair_product": 529,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "1f1353595908942baf07bb68e4f41adf4404b3825b737361fd2b8993c66bca23",
+        "maps_sha256": "27df1e5c62691421528539351379025c96f7889eef1283fd40d1fad359bb12f9",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            20,
+            10,
+            8
+          ],
+          "pair_product": 80,
+          "nonzero_coefficients": 80
+        },
+        {
+          "name": "column",
+          "ranks": [
+            20,
+            8,
+            10
+          ],
+          "pair_product": 80,
+          "nonzero_coefficients": 80
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            25,
+            18,
+            18
+          ],
+          "pair_product": 324,
+          "nonzero_coefficients": 150
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 180,
+        "slice_matrix_ranks": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            25,
+            2
+          ],
+          [
+            27,
+            2
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            29,
+            2
+          ],
+          [
+            30,
+            4
+          ],
+          [
+            31,
+            4
+          ],
+          [
+            32,
+            4
+          ],
+          [
+            33,
+            4
+          ],
+          [
+            34,
+            4
+          ],
+          [
+            35,
+            2
+          ],
+          [
+            36,
+            2
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            38,
+            2
+          ],
+          [
+            39,
+            4
+          ],
+          [
+            40,
+            4
+          ],
+          [
+            41,
+            4
+          ],
+          [
+            42,
+            4
+          ],
+          [
+            43,
+            4
+          ],
+          [
+            44,
+            2
+          ],
+          [
+            45,
+            2
+          ],
+          [
+            46,
+            2
+          ],
+          [
+            47,
+            2
+          ],
+          [
+            48,
+            4
+          ],
+          [
+            49,
+            4
+          ],
+          [
+            50,
+            4
+          ],
+          [
+            51,
+            4
+          ],
+          [
+            52,
+            4
+          ],
+          [
+            53,
+            2
+          ],
+          [
+            54,
+            2
+          ],
+          [
+            55,
+            2
+          ],
+          [
+            56,
+            2
+          ],
+          [
+            57,
+            4
+          ],
+          [
+            58,
+            4
+          ],
+          [
+            59,
+            4
+          ],
+          [
+            60,
+            4
+          ],
+          [
+            61,
+            4
+          ],
+          [
+            62,
+            2
+          ],
+          [
+            63,
+            2
+          ],
+          [
+            64,
+            2
+          ],
+          [
+            65,
+            2
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            71,
+            2
+          ],
+          [
+            75,
+            2
+          ],
+          [
+            76,
+            2
+          ],
+          [
+            77,
+            2
+          ],
+          [
+            78,
+            2
+          ],
+          [
+            79,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        4,
+        2
+      ],
+      "target": [
+        3,
+        4,
+        3
+      ],
+      "bad_outer_coordinates": [
+        1
+      ],
+      "verification": {
+        "source": [
+          4,
+          2
+        ],
+        "target": [
+          3,
+          4,
+          3
+        ],
+        "source_format": [
+          16,
+          10,
+          10
+        ],
+        "target_format": [
+          9,
+          12,
+          12
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 64,
+        "expanded_source_contributions": 100,
+        "all_target_coefficient_positions_accounted_for": 1296,
+        "actual_nonzero_coefficients": 36,
+        "residual_nonzero_coefficients": 22,
+        "exact_residual_flattening_ranks": [
+          5,
+          7,
+          7
+        ],
+        "smallest_rank_pair_product": 35,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "70839f09f6088aa9782d8e6fd67240257b89971c0b603cbcf1993772afcd578e",
+        "maps_sha256": "070155ec8734890401f3e9d7899979f3a868d7699c2f3a6e694863a22815c44d",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            2,
+            2,
+            4
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 8
+        },
+        {
+          "name": "column",
+          "ranks": [
+            2,
+            4,
+            2
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 8
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            1,
+            4,
+            4
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 6
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 11,
+        "core_rank_one_terms": 7,
+        "remaining_rank_one_terms": 4,
+        "coefficient_field": "Z (identity remains valid over every field)",
+        "complete_decomposition_replayed": true,
+        "tensor_rank_optimality_claimed": false
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false,
+      "direct_scalar_repair": {
+        "scalar_rank_upper_bound": 12,
+        "slice_matrix_ranks": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      }
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        5,
+        3
+      ],
+      "target": [
+        4,
+        4,
+        4
+      ],
+      "bad_outer_coordinates": [
+        2
+      ],
+      "verification": {
+        "source": [
+          5,
+          3
+        ],
+        "target": [
+          4,
+          4,
+          4
+        ],
+        "source_format": [
+          25,
+          21,
+          21
+        ],
+        "target_format": [
+          16,
+          16,
+          16
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 225,
+        "expanded_source_contributions": 144,
+        "all_target_coefficient_positions_accounted_for": 4096,
+        "actual_nonzero_coefficients": 64,
+        "residual_nonzero_coefficients": 30,
+        "exact_residual_flattening_ranks": [
+          7,
+          9,
+          9
+        ],
+        "smallest_rank_pair_product": 63,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "a135e84d79557284ced111827907ce435f36cd02a896c51864b63ecacfda5616",
+        "maps_sha256": "fdf54634e3d65e3f53e2974f3dff61cbb5b737d9d2459989e435efaa720dec43",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            3,
+            2,
+            6
+          ],
+          "pair_product": 6,
+          "nonzero_coefficients": 12
+        },
+        {
+          "name": "column",
+          "ranks": [
+            3,
+            6,
+            2
+          ],
+          "pair_product": 6,
+          "nonzero_coefficients": 12
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            1,
+            4,
+            4
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 6
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 15,
+        "core_rank_one_terms": 7,
+        "remaining_rank_one_terms": 8,
+        "coefficient_field": "Z (identity remains valid over every field)",
+        "complete_decomposition_replayed": true,
+        "tensor_rank_optimality_claimed": false
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false,
+      "direct_scalar_repair": {
+        "scalar_rank_upper_bound": 16,
+        "slice_matrix_ranks": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      }
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        7,
+        5
+      ],
+      "target": [
+        6,
+        4,
+        6
+      ],
+      "bad_outer_coordinates": [
+        4
+      ],
+      "verification": {
+        "source": [
+          7,
+          5
+        ],
+        "target": [
+          6,
+          4,
+          6
+        ],
+        "source_format": [
+          49,
+          55,
+          55
+        ],
+        "target_format": [
+          36,
+          24,
+          24
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 1225,
+        "expanded_source_contributions": 256,
+        "all_target_coefficient_positions_accounted_for": 20736,
+        "actual_nonzero_coefficients": 144,
+        "residual_nonzero_coefficients": 46,
+        "exact_residual_flattening_ranks": [
+          11,
+          13,
+          13
+        ],
+        "smallest_rank_pair_product": 143,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "02e288e623fb8515dcb3265fcd0f6483706264e073f38c80800e99f7459cb6d6",
+        "maps_sha256": "486747f707987336ea986b151e3e0024be02d6a792d5ad17e802e08e50f33861",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            5,
+            2,
+            10
+          ],
+          "pair_product": 10,
+          "nonzero_coefficients": 20
+        },
+        {
+          "name": "column",
+          "ranks": [
+            5,
+            10,
+            2
+          ],
+          "pair_product": 10,
+          "nonzero_coefficients": 20
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            1,
+            4,
+            4
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 6
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 23,
+        "core_rank_one_terms": 7,
+        "remaining_rank_one_terms": 16,
+        "coefficient_field": "Z (identity remains valid over every field)",
+        "complete_decomposition_replayed": true,
+        "tensor_rank_optimality_claimed": false
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false,
+      "direct_scalar_repair": {
+        "scalar_rank_upper_bound": 24,
+        "slice_matrix_ranks": [
+          [
+            4,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            25,
+            2
+          ],
+          [
+            26,
+            2
+          ],
+          [
+            27,
+            2
+          ],
+          [
+            28,
+            4
+          ],
+          [
+            29,
+            2
+          ],
+          [
+            34,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      }
+    },
+    {
+      "variant": "product-oblique",
+      "source": [
+        8,
+        6
+      ],
+      "target": [
+        7,
+        4,
+        7
+      ],
+      "bad_outer_coordinates": [
+        5
+      ],
+      "verification": {
+        "source": [
+          8,
+          6
+        ],
+        "target": [
+          7,
+          4,
+          7
+        ],
+        "source_format": [
+          64,
+          78,
+          78
+        ],
+        "target_format": [
+          49,
+          28,
+          28
+        ],
+        "coefficient_field": "Q",
+        "source_terms_reconstructed": 2304,
+        "expanded_source_contributions": 324,
+        "all_target_coefficient_positions_accounted_for": 38416,
+        "actual_nonzero_coefficients": 196,
+        "residual_nonzero_coefficients": 54,
+        "exact_residual_flattening_ranks": [
+          13,
+          15,
+          15
+        ],
+        "smallest_rank_pair_product": 195,
+        "ordinary_target_identity": false,
+        "repaired_coefficient_identity": true,
+        "rational_or_complex_rank_upper_bound_certified": true,
+        "finite_field_result_lifted_to_characteristic_zero": false,
+        "residual_sha256": "ce3fad860ee15ccbe1e54b3b0749a1f662a477c2f99d5882ffd1aaadb966bcd3",
+        "maps_sha256": "fbbe4e9dfb96b3bad44e9a860365aa5c835268cdfb8e0f433a539f339291091b",
+        "improves_omega": false
+      },
+      "residual_pieces": [
+        {
+          "name": "row",
+          "ranks": [
+            6,
+            2,
+            12
+          ],
+          "pair_product": 12,
+          "nonzero_coefficients": 24
+        },
+        {
+          "name": "column",
+          "ranks": [
+            6,
+            12,
+            2
+          ],
+          "pair_product": 12,
+          "nonzero_coefficients": 24
+        },
+        {
+          "name": "corner",
+          "ranks": [
+            1,
+            4,
+            4
+          ],
+          "pair_product": 4,
+          "nonzero_coefficients": 6
+        }
+      ],
+      "scalar_repair": {
+        "scalar_rank_upper_bound": 27,
+        "core_rank_one_terms": 7,
+        "remaining_rank_one_terms": 20,
+        "coefficient_field": "Z (identity remains valid over every field)",
+        "complete_decomposition_replayed": true,
+        "tensor_rank_optimality_claimed": false
+      },
+      "new_target_identity_without_repair": false,
+      "improves_omega": false,
+      "historical_novelty_claimed": false,
+      "direct_scalar_repair": {
+        "scalar_rank_upper_bound": 28,
+        "slice_matrix_ranks": [
+          [
+            5,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            26,
+            2
+          ],
+          [
+            33,
+            2
+          ],
+          [
+            35,
+            2
+          ],
+          [
+            36,
+            2
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            38,
+            2
+          ],
+          [
+            39,
+            2
+          ],
+          [
+            40,
+            4
+          ],
+          [
+            41,
+            2
+          ],
+          [
+            47,
+            2
+          ]
+        ],
+        "complete_decomposition_replayed": true
+      }
+    }
+  ],
+  "improves_omega": false
+}

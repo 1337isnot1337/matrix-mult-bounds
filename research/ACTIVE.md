@@ -1,16 +1,30 @@
 # Integrated research coordination
 
-The October 23 fixed-product continuation is on
+The October 23 paired-map continuation is on
 `research/product-longmap-residual-20261023`, based on main `fe602e4`.
-Its [all-size proof](ai/2026-10-23-product-longmap-residual/README.md)
+Its [oblique construction](ai/2026-10-23-oblique-paired-repair/proof.md)
+changes the long maps and gives `Q(6,4) + D_19 -> M(5,4,5)` over every
+field. The actual residual has ranks `(9,11,11)`; all nineteen rank-one
+terms and complete coefficients replay exactly. A separate nonproduct
+middle-space control has its own twenty-four-term certificate. Seven
+focused tests cover these constructions, their all-size formulas and
+invalid-input controls. The near-full fixed-width family still has
+quadratic first support; no smaller exponent follows. Pending PR130 is
+pinned only for endpoint cost comparisons and is not a local replay
+dependency. The next constructive questions are smaller scalar repairs
+and changed map families with subquadratic first support.
+
+The companion [all-size proof](ai/2026-10-23-product-longmap-residual/README.md)
 allows an arbitrary first map while retaining both old product long maps.
 The exact minimum first residual rank is
 `(n-1)^2-max(9-n,1)^2` for every `n>=5` in characteristic different from
 two. Six focused tests pass, including direct rational paired ranks
 through `n=12` and at `n=16`, larger one-factor controls, and finite-field
-checks. The claim remains written and unreviewed. Further constructive
-work must change a long map or leave this fixed-map model. No new matrix
-target or smaller exponent is established.
+checks. Both packages remain written and unreviewed. The oblique decoder
+demonstrates the importance of the fixed-long-map hypothesis: at n=6
+the old maps force minimum first residual rank sixteen, while the new
+maps attain nine. No unrestricted tensor obstruction or smaller exponent
+is established.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

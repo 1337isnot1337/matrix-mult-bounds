@@ -11,11 +11,15 @@ and `border_rank(R_n)=O(n)`. It would imply
 `omega < 30000/13433 < 2.2334`. The family is unconstructed. The active
 paired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)
 and the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,
-so it does not prove the fixed-width premise. The next numerical target
-is `Q(6,4) -> M(5,4,5)`, which lies beyond the recovered product-subspace
-dimension limit. A machine-precision numerical fit is discovery evidence
-only. Deliver exact coefficient identities, then a proved unbounded
-extension with every auxiliary cost accounted for.
+so it does not prove the fixed-width premise. Changed long maps now give
+an [exact integer repair](../research/ai/2026-10-23-oblique-paired-repair/proof.md)
+`Q(6,4) + D_19 -> M(5,4,5)`, with residual ranks `(9,11,11)`.
+The resulting fixed-width family has quadratic first support and does
+not meet the small-repair premise. The zero-auxiliary target
+`Q(6,4) -> M(5,4,5)` remains unconstructed. Useful next work includes
+smaller certified scalar repairs, changed polynomial spaces or long maps,
+and an unbounded family with every auxiliary cost accounted for.
+A machine-precision numerical fit remains discovery evidence only.
 
 Optimizing only the first map with the old product long maps is now
 settled by the [exact residual-rank formula](../research/ai/2026-10-23-product-longmap-residual/README.md).

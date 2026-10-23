@@ -1,5 +1,20 @@
 # Attribution and provenance
 
+The `2026-10-23-oblique-paired-repair` package is owner-directed Codex
+work using the repository's product-injection and mixed-middle templates.
+Six local sources have exact byte pins; a seventh source is pinned to
+pending PR130 and used only for endpoint cost comparisons. New integer
+decoders give complete tensor-map identities, explicit support-rank
+factorizations and scalar corrections. A separate agent in this session
+supplied and replayed the seven-term convolution core reducing the product
+n=6 correction from twenty to nineteen terms. Another agent analytically
+checked the all-size concise-support and fixed-map proofs. These
+coordinated checks are not independent mathematical review. The separate
+nonproduct control retains its own twenty-four-term certificate.
+Claims `AI-OBLIQUE-PAIRED-REPAIR-001` and
+`AI-OBLIQUE-NONPRODUCT-CONTROL-002` make no optimality, historical
+priority, formalization or exponent-improvement assertion.
+
 The `2026-10-23-product-longmap-residual` package is owner-directed Codex
 work. It preserves the exact old product long maps and their prior
 construction credit with local byte pins. Quotient-space rank minimization

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-23",
+  "provenance": "Owner-directed Codex research; same-session checks are not independent mathematical review.",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.py",
+      "sha256": "9e38cd59ca14fea97470f281141dd828ac4f36be2bfece5de841a7995dabf702"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-direct-sums/q_product_projection.py",
+      "sha256": "5fafd9b140f04a438ea2b1d3cf34aa71cd7c391a2d7f3ba367586aa07015f156"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-direct-sums/q_metaplectic_history.md",
+      "sha256": "0dea2b0e5d0689b95f382585ffb5058282fcdd1ad03fdb7d036cd3b0a12a1741"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/mixed_middle_boundary.md",
+      "sha256": "f412ef775bbda6d8ff53ffa1358a3b55f75a9c21b2c865598c193a43be54add9"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/mixed_middle_boundary.py",
+      "sha256": "4c77845458366c0aff01200756afa491a7182417b35db6a7a4435867c43114a0"
+    }
+  ],
+  "dependency_scope": {
+    "outer_product_injection": "Inherited exact polynomial map template and baseline.",
+    "q_product_projection": "Inherited paired coefficient formula and equal-weight projection reference; this package changes the decoder.",
+    "mixed_middle_boundary": "Inherited mixed-middle map template; this package uses a distinct oblique deficient-product witness.",
+    "residual_rank_repair": "Pinned pending PR130 supplies the conditional endpoint support-rank envelope used only for repair-cost comparison; no finite improvement gate passes."
+  },
+  "new_claims": [
+    "AI-OBLIQUE-PAIRED-REPAIR-001",
+    "AI-OBLIQUE-NONPRODUCT-CONTROL-002"
+  ],
+  "historical_novelty_claimed": false,
+  "improves_omega": false,
+  "independent_mathematical_review": false,
+  "formalized": false,
+  "pending_pr_sources": [
+    {
+      "pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/130",
+      "commit": "121be1c232b117e884defdb74ba4527c55b70172",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/121be1c232b117e884defdb74ba4527c55b70172/research/ai/2026-10-23-residual-rank-repair/proof.md",
+      "sha256": "e3e2f254a3260e6ba404d8c6ecb38f454e3830b7b801be2d737512560155ffea",
+      "inspection": "Read at the pinned commit; byte hash independently replayed from the local pending-PR checkout. Not required by the standalone coefficient verifier.",
+      "scope": "Endpoint repair-cost comparison only; not needed for the integer tensor maps, rank formulas, or scalar decomposition."
+    }
+  ]
+}
