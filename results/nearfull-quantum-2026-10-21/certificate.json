@@ -1,0 +1,274 @@
+{
+  "status": "Exact finite hypotheses and written all-weight theorem; mathematical review is separate.",
+  "scope": "Two prescribed regular q-families, arbitrary diagonal Laurent weights and further degenerations to the same full matrix target.",
+  "improves_omega": false,
+  "cases": [
+    {
+      "N": 3,
+      "m": 2,
+      "root_order": 8,
+      "target_format": [
+        9,
+        6,
+        6
+      ],
+      "coefficient_count": 47,
+      "valuation_histogram": {
+        "0": 40,
+        "1": 7
+      },
+      "source_initial_k1_ranks": [
+        54,
+        52,
+        52
+      ],
+      "target_k1_ranks": [
+        54,
+        54,
+        54
+      ],
+      "balanced_distribution": {
+        "positive_support_size": 18,
+        "total_probability": "1",
+        "marginals": [
+          [
+            "1/9",
+            "1/9",
+            "1/9",
+            "1/9",
+            "1/9",
+            "1/9",
+            "1/9",
+            "1/9",
+            "1/9"
+          ],
+          [
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6"
+          ],
+          [
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6"
+          ]
+        ]
+      },
+      "all_diagonal_Laurent_weights_excluded_by_written_lemma": true,
+      "improves_omega": false
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "root_order": 12,
+      "target_format": [
+        16,
+        16,
+        16
+      ],
+      "coefficient_count": 409,
+      "valuation_histogram": {
+        "0": 240,
+        "1": 146,
+        "2": 23
+      },
+      "source_initial_k1_ranks": [
+        255,
+        255,
+        255
+      ],
+      "target_k1_ranks": [
+        256,
+        256,
+        256
+      ],
+      "balanced_distribution": {
+        "positive_support_size": 42,
+        "total_probability": "1",
+        "marginals": [
+          [
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16"
+          ],
+          [
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16"
+          ],
+          [
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16",
+            "1/16"
+          ]
+        ]
+      },
+      "all_diagonal_Laurent_weights_excluded_by_written_lemma": true,
+      "improves_omega": false,
+      "explicit_unstable_face": {
+        "denominator": 27,
+        "integer_weights": [
+          0,
+          5,
+          -4,
+          10,
+          1,
+          -8,
+          15,
+          6,
+          -3,
+          -12,
+          11,
+          2,
+          -7,
+          7,
+          -2,
+          3,
+          0,
+          5,
+          -4,
+          10,
+          1,
+          -8,
+          15,
+          6,
+          -3,
+          -12,
+          11,
+          2,
+          -7,
+          7,
+          -2,
+          3,
+          0,
+          5,
+          -4,
+          10,
+          1,
+          -8,
+          15,
+          6,
+          -3,
+          -12,
+          11,
+          2,
+          -7,
+          7,
+          -2,
+          3
+        ],
+        "face_size": 146,
+        "k1_ranks": [
+          256,
+          256,
+          256
+        ],
+        "trace_zero_instability_weights": [
+          [
+            3,
+            1,
+            3,
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            1,
+            -3,
+            -1,
+            -3
+          ],
+          [
+            3,
+            1,
+            3,
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            1,
+            -3,
+            -1,
+            -3
+          ],
+          [
+            3,
+            1,
+            3,
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            1,
+            3,
+            -3,
+            -1,
+            1,
+            -3,
+            -1,
+            -3
+          ]
+        ],
+        "supported_instability_weight_histogram": {
+          "1": 144,
+          "7": 2
+        }
+      }
+    }
+  ]
+}

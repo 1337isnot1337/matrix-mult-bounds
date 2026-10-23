@@ -1,0 +1,29 @@
+{
+  "verified_commit": "274f50cdc861df81ffefffb78ee4aac5b1646546",
+  "verified_tree": "09b27759f9191c1994b6e85d45532f076dddf114",
+  "integrated_main": "fc460bf25fb106ab5de38863d37d1ac4cbfd12dc",
+  "checkout": "isolated detached worktree",
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python -m unittest discover -s tests -v",
+    "PYTHONPATH=/workspace/scratch/42fdf537ec6f/python-deps python tools/replay.py"
+  ],
+  "tests": {
+    "count": 412,
+    "elapsed_seconds": 263.36,
+    "status": "passed",
+    "log": "checkpoint6-tests.txt",
+    "sha256": "612ff145bdf6f0725e5c44cb620ce6a39439c63772854c0176b90e2293ccda20"
+  },
+  "archive": {
+    "runs": 5,
+    "status": "passed",
+    "exact_payloads_match": true,
+    "protected_archive_diff_empty": true,
+    "report": "checkpoint6-archive.json",
+    "sha256": "99f725dab19cae70749718324d0c36389bb699809a90d9be0be7f69a6155de74"
+  },
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "limits": "Exact regression and archived experiment coverage at this commit; no independent mathematical review or exponent improvement."
+}

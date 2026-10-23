@@ -1,5 +1,396 @@
 # Research status
 
+## The prescribed full conic two-jet extends to all orders
+
+The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+preserves every entry of PR107's B0,B1,B2,C0,C1,C2 and the two supplied
+kernel corrections Y1=Y2=0. For every complex a,b,d with d nonzero and
+c=-d^3, it gives exact polynomial maps of degrees eight and nine over
+Q[a,b,d,d^-1], with actual d-pole bounds five and six. There are no
+additional a,b or Delta guards. The complete product stays on the same
+twelve first-source coordinates; constant minors1,1,-1 give formal
+ranks14,14,12. Exact replay checks all18 product orders and all352800
+kernel coefficient positions. Six focused tests and a separate sparse
+Laurent reconstruction pass. Claim `AI-CONIC-FIXED-TWO-CURVE-001` is
+written and unreviewed. This closes the prescribed two-jet question on
+the stated chart. PR107's full third jet, which has a nonzero kernel
+correction, remains a separate question. No full matrix target or
+improved exponent is established.
+
+## The prescribed full conic first jet extends to all orders
+
+The [fixed-first-jet curve](research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
+strengthens the earlier cubic-component construction: for every complex
+a,b,d with c=-d^3, both full constant and first coefficient maps of
+PR107 extend to exact cubic maps B(t),C(t) over Q[a,b,d]. The supplied
+first source-kernel correction is also preserved. Complete source
+replay checks all seven possible product coefficients; the fixed kernel
+and unit minors give formal ranks14,14,12. The construction includes
+d=0 and the linear-component intersections without parameter inverses.
+Claim `AI-CONIC-FIXED-FIRST-CURVE-001` is written and unreviewed.
+Its second coefficients differ by boundary terms, so preservation of
+PR107's full two-jet is not asserted here. The full matrix target and
+an improved exponent remain unconstructed.
+
+## Polynomial all-order curves on the cubic conic component
+
+The [all-order criterion](research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md)
+completes normal-class existence on the full affine conic base chart:
+for every complex a,b,c and nonzero[lambda:mu], a suitable first tangent
+extends to a formal (indeed polynomial) incidence curve exactly when
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. Necessity is PR101's complete
+second-order obstruction; sufficiency combines its linear-component
+curves with the polynomial cubic-component curve below. Claim
+`AI-CONIC-ALL-ORDER-CRITERION-002` is written and unreviewed. All
+projective normal directions are included; other projective base charts
+and extension of a prescribed full tangent remain distinct questions.
+
+The [polynomial-curve proof](research/ai/2026-10-23-conic-polynomial-curve/proof.md)
+constructs an exact curve for every complex a,b,d with c=-d^3, including
+d=0. The two fourteen-row maps have polynomial t-degrees one and three,
+with coefficients in Q[a,b,d] and no parameter denominators. Their
+complete contraction stays on the same twelve first-source coordinates;
+constant unit minors certify formal ranks14,14,12. Literal replay checks
+all five possible product coefficients against the original4096-term
+source. The first normal class is exactly[1:d] and never vanishes.
+The curve changes the boundary part of the first tangent, so it does not
+settle extension of a prescribed full first or second jet. Claim
+`AI-CONIC-POLYNOMIAL-CURVE-001` is written and unreviewed. The full
+M(10,10,11) target and a smaller exponent remain unconstructed.
+
+## Mixed conic lifts through order four and a rational order-ten witness
+
+The [higher-jet proof](research/ai/2026-10-23-conic-higher-jets/proof.md)
+extends PR107's mixed family through order four for every complex a,b,d
+with d nonzero and c=-d^3. The explicit coefficients lie in
+Q[a,b,d,d^-1], with d-pole order at most three. A separate rational
+witness extends the point a=1,b=2,d=1 through order ten. Both preserve
+PR107's constant, first and second coefficients. The symbolic and
+rational acceptance programs contract the literal 4096-term source
+and check every moving-kernel coefficient, with leading ranks14,14,12.
+Claims `AI-CONIC-MIXED-FOURTH-JET-001` and
+`AI-CONIC-RATIONAL-TENTH-JET-002` are written and unreviewed. These are
+rank-twelve incidence jets with specified lower coefficients. The separate
+polynomial curve above gives all-order existence after allowing boundary
+velocity to change; it does not preserve these specified lower jets.
+
+## Third-order lifts on the mixed cubic conic component
+
+The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)
+extends PR101's first jet through order three for every complex a,b,d
+with d nonzero and c=-d^3, after changing its second coefficient. The
+coefficient ring is Q[a,b,d,d^-1], with poles of order at most two in d.
+Independent symbolic replay rebuilds the 4096-term integer source and
+checks all 19600 moving-kernel coefficients at each positive order;
+leading minor determinants1,1,-1 give map row ranks14 and first-source
+rank12 throughout this chart. An earlier explicit rational point also
+has a separate standard-library replay. Claims
+`AI-CONIC-RATIONAL-THIRD-JET-001` and `AI-CONIC-MIXED-THIRD-JET-002`
+are written and unreviewed. The later packages above supply fourth-order
+lifts and all-order existence for the normal class, with their distinct
+lower-coefficient conditions. The full matrix target remains open.
+No smaller exponent is established.
+
+## Sharp rank six in the fixed-resolvent matrix space
+
+The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
+proves that its 112-dimensional limiting matrix space has minimum nonzero
+ordinary matrix rank exactly six over every field. Thirty-one triangular
+six-by-six minor identities eliminate every parameter of the difficult
+outer block, and an explicit rank-six witness proves sharpness. Thus every
+two-sided compression with total rank loss at most five is injective.
+At rank109 on both long maps, a lost direction must have rank six and obey
+the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
+is written and unreviewed. This refines the fixed-resolvent space from
+PR103; its narrow target application is superseded by the regular-long-map
+argument. General singular trajectories, all rank-six matrices and an
+improved exponent are not settled.
+
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
+
+## All-order A4 exclusion with a partial regular unit image
+
+The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
+extends the previous invertible-unit Laurent chart. A4 cannot degenerate
+to M(10,10,11) if one long map C is regular with full-rank limit, the
+source lift of the target identity is regular, and its limiting image
+`S(0) C(0)` has rank at least109. In particular, singular source units
+of corank one are included. Independent source frames and varying
+left inverses first force both other maps to be regular; the existing
+ordinary-map obstruction finishes the argument. Every finite pole order
+is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
+`AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
+controls verify the rank budgets and projection recovery, without
+formalizing the proof. Rank108, singular long-leg limits and polar unit
+lifts remain open. No matrix target or smaller exponent is established.
+
+## Finite covers close the selected nonsplit coordinate targets
+
+The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)
+gives a 98-slice cover for SL(2,F5), excluding M10 in characteristic two
+and in the maintained one-copy coefficient-one coordinate/potential
+class over C. For SL(2,F5) x C2 its cube has a 6155844-slice cover, below
+2535^2=6426225. Cyclic symmetry gives abc<=2481 for any single rectangular
+target, excluding the selected M(13,13,15). Independent replay checks
+rank120, all1728000 original nonsplit coefficients, full block degrees,
+and grouped cube coordinate counts with multiplicity13824000. Claim
+`AI-NONSPLIT-FINITE-COVERS-001` is written and unreviewed. Together with
+the split-cover result, this closes the three selected one-copy
+central-cover coordinate/potential targets. General complex input mixing,
+other targets and arbitrary higher source powers remain open. No smaller
+exponent is established.
+
+## Complete affine conic tangents and second jets
+
+The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)
+computes the complete seventy-dimensional tangent module of the rank-twelve
+incidence of two fourteen-row maps of the canonical source. Its boundary
+family has dimension68 and uses three independent polynomial planes.
+For every affine a,b,c and every nonzero normal class[lambda:mu], some
+representative extends through order two exactly when
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;
+pure fibers are checked separately from the mixed Laurent chart.
+An exported polynomial two-jet on c=-d^3 passes direct all-source replay,
+including d=0, while its uncorrected third coefficient has184 nonzero
+entries. The other two factors admit exact linear incidence curves.
+Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
+`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. The later polynomial-curve package completes all-order existence on
+the cubic component for a suitable first representative. Other projective
+base charts, the separate12-by8 problem and the full matrix target remain open. The exponent remains9/4.
+
+## Finite cube bounds split-cover coordinate target volume
+
+The [full-source cube certificate](research/ai/2026-10-21-central-cover-finite-slices/proof.md)
+gives a characteristic-two slice cover of 973422 for `(A5 x C2)^3`, below
+the exact finite slice rank 1000000 of M1000. Cyclic symmetry gives the
+single-target volume bound abc<=986. It excludes the maintained one-copy
+coefficient-one coordinate/potential M10 and M(9,10,11) constructions in
+the split cover. The verifier checks all 216000 A5 coefficients and enumerates
+all 1728000 one-leg cube coordinates. A direct argument from the external
+arbitrary-field bounded-rank matrix-space theorem supplies the target
+lower bound. Claim `AI-SPLIT-COVER-CUBE-EXCLUSION-001` is written and
+unreviewed. The separate nonsplit note above addresses its selected
+coordinate targets. General complex degenerations and constructions
+from arbitrary higher powers remain open. No smaller
+exponent is established.
+
+## Regular unit charts and full-source calibrations
+
+The [unit-chart proof](research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
+excludes A4 to M(10,10,11) at every Laurent order when one long map is
+regular with full-rank limit and a target identity has a regular source
+lift with invertible limiting slice. The other long map and remaining
+first-map coefficients may have arbitrary finite poles. Regularized
+correction products have rank at most two; the source minimum rank 16
+eliminates first-map poles and then forces 100 dimensions into at most 98.
+Claim `AI-CYCLIC-REGULAR-UNIT-003` is written and unreviewed. Singular
+long-leg limits and singular or polar unit lifts remain outside it.
+
+The [integer slice proof](research/ai/2026-10-21-cyclic-slice-determinants/proof.md)
+gives a literal unimodular full-rank slice of A_a for every a>=1 and every
+field. At a=2,3,4, exact Krylov/Bezout certificates prove the full source
+determinant is reduced over C; its submaximal minors have no nonconstant
+common divisor. Normalized slice commutators also attain full rank in
+those sizes. These calibration facts reject two proposed full-source invariant
+premises. They do not exclude matrix targets or factor arguments after
+compression or leading-flag restriction. Claims `AI-CYCLIC-UNIMODULAR-001`
+and `AI-CYCLIC-REDUCED-DETERMINANTS-002` are written and unreviewed.
+The general singular A4 target and exponent question remain open.
+
+
+## Characteristic-two source-cost barrier for the central covers
+
+The [A5 tight-limit certificate](research/ai/2026-10-21-a5-peirce/README.md)
+checks an explicit basis and all 216,000 source coefficients, giving a
+tight 277-term limit. A rational distribution and integer entropy
+comparison prove a written lower barrier for asymptotic slice-rank costs
+in characteristic two: above 517/5 for A5 x C2 and SL(2,F5), and above
+976613/5000 for SL(2,F5) x C2. An explicit central-cover limit transfers
+the certificate to both covers. These values exceed the selected M10
+and cyclic M(13,13,15) comparison thresholds, so eventual global source
+slice-rank bounds of this kind cannot close those targets. This barrier
+alone leaves finite-power tests and constructions undecided; the separate
+cube result above now closes the one-copy split-cover coordinate class.
+Claim `AI-CENTRAL-COVER-SLICE-BARRIER-001` is written and
+unreviewed; no smaller exponent is established.
+
+## Modular SL(2,F8) bound across source powers
+
+The [modular source proof](research/ai/2026-10-21-sl2-f8-modular/proof.md)
+constructs an exact 125-dimensional semisimple quotient over F2 and F8,
+certifies a 379-dimensional nilpotent kernel, and separates the 64-dimensional
+central summand. The resulting all-power coordinate/potential slice bound
+is 1035637/2304, below 450. It excludes the joint six M(8,9,9) packets plus
+M7 across source powers, extending the prior one-copy coordinate assembly
+obstruction. All 16 general-test single-matrix survivors remain unexcluded,
+including M(18,18,25). Claim `AI-SL2-F8-MODULAR-001` is written and
+unreviewed; arbitrary complex maps and the exponent goal remain open.
+
+## Complete subgroup-ideal catalog
+
+The [complete finite catalog](research/ai/2026-10-21-subgroup-ideal-catalog/README.md)
+certifies all 455 subgroups in 65 conjugacy classes of the three active
+central-cover sources. Integer annihilators and matching modular ranks
+give every averaging-ideal dimension. In PSL(2,5) x C2, noncyclic
+order-four and order-six subgroups add 550 minimal forbidden cosets per
+leg of M10 beyond central pairs and the earlier five-cycle cuts.
+The other two specified targets have no additional minimal subgroup
+coset cuts. This is completeness for a finite necessary-condition method,
+not exclusion of the targets. The weighted 3-by-3 control passes. A new
+600-second search reached 34 model events and 32 replayed parity
+contradictions with no pair-injective lift; it ended at its time limit.
+Claims `EXP-SUBGROUP-IDEAL-CATALOG-001`
+and `AI-SPLIT-NONCYCLIC-COSETS-001` remain finite or written and unreviewed.
+Arbitrary complex maps and the exponent below 9/4 remain open.
+
+## Complete coupled boundary rank-two reduction
+
+The [coupled cubic proof](research/ai/2026-10-21-coupled-boundary-rank-two/proof.md)
+shows that both canonical boundary obstruction matrices have rank at most
+two precisely when both are zero. Its 232 universal determinant identities
+reduce the normal dimensions 228 to 96, 56, 32 and 28. An invertible
+coefficient transformation identifies the final space with the complete
+biform normal family. Combined with the sharp balanced gap and prior
+projective classification, this gives the necessary conic classification
+for non-plane balanced boundary normals under the credited third-gap
+conditions. Four focused tests pass. Later compatibility, an all-order
+10-by-10 conclusion, the separate 12-by-8 case and a matrix target remain
+open. These proofs are written and unreviewed; the exponent remains 9/4.
+
+## A gap for balanced two-dimensional boundary quotients
+
+The [gap proof](research/ai/2026-10-21-balanced-puncture-gap/proof.md)
+shows that a complex rank-one-free matrix space of dimension at least
+two, amplified by Mat2 and quotiented by kernels of size at most two
+on each leg, leaves first dimension zero or at least three. The bound
+is sharp. Its constant-rank-two reduction imports the classical complex
+Kronecker form, with the rank cases and quotient arguments supplied.
+Within the actual 28-dimensional boundary normal family, low first rank
+at most two therefore forces complete cancellation, whose projective
+survivors were already classified. The coupled cubic proof now supplies
+entry into that family from the two rank bounds. Six focused tests and
+the registered 423801-pair finite pilot retain separate scopes. The proofs
+are written and unreviewed; no matrix target or smaller exponent.
+
+## Blockwise modular bounds for S5 central sources
+
+The [central-block proof](research/ai/2026-10-21-s5-block-filtration/proof.md)
+splits F2[S5] into exact 88- and 32-dimensional blocks and counts their
+radical flags separately. It gives an all-power, joint-rectangular bound
+for coordinate/potential constructions in S5 x C2^r. In particular the
+source with two central factors has asymptotic slice rank below 389.
+This excludes M(20,20,20) and M(19,20,21), two formats which pass the
+existing complex rank-locus and every full Koszul test. The M19 and
+one-factor M(13,14,14) targets remain unconstructed and unexcluded by this
+bound. Claim `AI-S5-BLOCK-FILTRATION-001` is written and unreviewed;
+arbitrary complex maps remain open and no smaller exponent is established.
+
+## Balanced punctures of the third biform core
+
+The [balanced-puncture proof](research/ai/2026-10-21-biform-balanced-puncture/proof.md)
+classifies complete cancellation at the 10-by-10 boundary threshold. The
+full auxiliary matrix action forces product quotient kernels; the biform
+syzygy space has dimension at most three. The actual core is now
+classified on every projective chart: non-plane cancellations occur
+exactly for `g=(r*x0+s*x1)*(r*y0-s*y1)`, with arbitrary residual linear
+forms and a two-dimensional normal fiber. Sixteen disjoint cases with
+constant unit minors and exact residual identities cover every complex
+parameter value. Nine focused tests pass. These are written, unreviewed
+structural results. Projected first ranks one/two and later coefficients
+remain open. No matrix target or exponent improvement is established.
+
+## Uniform Hankel caps and dimension refinements
+
+The [Wronskian proof](research/ai/2026-10-21-hankel-wronskian-cap/proof.md)
+gives dim L<=r for every characteristic-zero linear space of a-by-b Hankel
+matrices of rank at most r<min(a,b), with an exact rational witness generator.
+The package also proves [scalar-Hankel saturation at its dimension equality](research/ai/2026-10-21-hankel-wronskian-cap/boundary_saturation.md)
+and [a dimension loss for proper crossed-rank parameter images](research/ai/2026-10-21-hankel-wronskian-cap/proper_sections.md).
+The [exact application](research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+adopts the concurrent rectangular worker's higher-input-rank and bundle
+bounds with source credit. It closes every improving ordinary A9 square
+sum, and a proper-section equality case at A12. Its240 balanced rectangular
+survivors are a pinned comparison, not the full concurrent all-source frontier.
+All proofs remain written and unreviewed. No target maps or exponent gain.
+
+## S5 split-source continuation
+
+The [S5 x C2 package](research/ai/2026-10-21-s5-split/README.md) derives
+an exact conditional2.247 comparison for M(13,14,14), with margin verified
+using integer root intervals. Its actual weighted3-by3 control passes.
+Two SAT runs reached their600-second limits without a projected model;
+the local runs exported32 exact parity contradictions and no lift, all
+replayed. A finite F2 ideal certificate checks the radical
+powers and leaves the target unexcluded by that filtration. Claims
+`AI-S5-SPLIT-028` and `EXP-S5-RADICAL-029` are conditional/finite. The target
+and any smaller exponent remain unconstructed.
+
+The same source investigation now checks S5 x C2 squared and its
+conditional M19 gate at2.247. A600-second native run found no pair model.
+A [central four-point matching lemma](research/ai/2026-10-21-s5-split/central_slice_proof.md)
+adds a written unreviewed necessary cut beyond pair injectivity and the
+existing commuting trades. Its finite control has an exact five-row
+Farkas circuit. The smaller M(18,18,20) projected run exported one such
+cut and no lift; direct colored search reached two collisions. The
+alternative S5 x C4 basis has the same conditional degree cost, with its
+four-matching obstruction following from pair injectivity alone.
+The warm colored continuations reached1,218 and1,427 pair-injective
+models respectively; all have exactly replayed Farkas contradictions.
+The sampler now incorporates the existing commuting-trade condition.
+Claims031/032/033 supply no improving target or smaller bound.
+
+## Subgroup-ideal cuts on the central-cover targets
+
+The [subgroup-ideal proof](research/ai/2026-10-21-subgroup-ideal/proof.md)
+shows that a full subgroup coset in one coordinate vertex set bounds the
+other-pair product by dim C[G]e_HC[G]. Exact five-cycle dimensions80,88,160
+exclude such cosets in all legs of the two M10 targets and the order240
+M(13,13,15) target. Integer annihilator and modular lower-rank certificates
+replay, including a real positive equality control. The revised split-cover
+search uses these necessary cuts. Claim `AI-SUBGROUP-IDEAL-027` is written
+and unreviewed; the targets outside this coset condition remain open and
+the exponent remains9/4.
+
+## Joint central-sign search in SL(2,5)
+
+The [joint sign investigation](research/ai/2026-10-20-sl2-five-native-parity/README.md)
+adds a native encoding and conditional parity learning for the open
+M(10,10,10) target. Two 600-second searches found no pair-injective lift.
+All 506 exported parity contradictions replay exactly, with positive and
+negative encoding controls. This is a finite discovery result
+(`EXP-SL2-NATIVE-024`), not a source exclusion. The source and its conditional
+2.247 comparison retain their existing attribution; no bound was improved.
+
+The same package now derives an exact source certificate for the split
+cover PSL(2,5) x C2, with degrees two copies of1,3,3,4,5. Its M10 target
+passes the conditional2.247 gate and the rank-locus screen, and a genuine
+weighted3-by3 control passes. This is the new conditional lead
+`AI-SPLIT-COVER-SOURCE-026`; the improving target remains unconstructed.
+Complete projected triple-translation classes encode the necessary pair
+capacity without relying on an SL(2,5) cocycle.
+
+## Modular obstruction for small Heisenberg sources
+
+The [modular application](research/ai/2026-10-20-heisenberg-seven/modular_proof.md)
+of Petrov's external filtration excludes coordinate/potential constructions
+passing the ordinary degree gate for every tensor power of H_p, for each
+odd prime p<=47. It covers finite rectangular direct sums through cyclic
+symmetrization and the credited tight-support entropy theorem. Exact rational
+certificates and 1,485 finite group-algebra generator controls accompany
+written, unreviewed claim `AI-HEIS-MODULAR-025`. Arbitrary complex maps remain
+open; no smaller exponent was established. This retires the earlier bounded
+H_7 coordinate searches for this gate.
+
 ## Hankel pencils and the ordinary frontier
 
 The [linear-annihilator proof](research/ai/2026-10-21-hankel-pencil-degree/proof.md)
@@ -24,6 +415,83 @@ then two cubic minors leaves only the four common-plane normals.
 Claim `AI-MIXED-AXIS-CLOSURE-092` is written and unreviewed. It excludes
 this axis under the prior shifted induction; general mixed-row graphs
 remain open. The exponent remains9/4.
+
+## Every graph outside finitely many partner values
+
+The [generic-partner proof](research/ai/2026-10-21-generic-partner-all-graphs/proof.md)
+excludes every mixed graph and boundary four-space at each a in a nonempty
+open subset U of the partner line b=1, containing2. Uniform54/48 enclosures,
+exact source/cubic identities over Q(a), and79 rank guards leave only the
+four common planes. The adopted induction excludes M(10,10,11) there for
+arbitrary later maps; the torus extends to b nonzero with a/b in U.
+Claim `AI-GENERIC-PARTNER-ALL-GRAPHS-098` is written and unreviewed. The
+remaining partner values form a finite set which is not yet classified.
+This excludes every graph at a good partner, rather than only generic
+graphs. Other flags and sources remain open; the exponent remains9/4.
+
+## Every mixed graph at the equal nonzero partner
+
+The [all-graph proof](research/ai/2026-10-21-all-mixed-graphs-a1/proof.md)
+closes the canonical full-B seven-frame against every mixed C five-space
+at a=b=1, including all six graph coefficients and arbitrary boundary
+four-spaces. Uniform source equations, exact cubic identities and an
+exhaustive four-branch split leave only the four common planes. The
+adopted shifted induction excludes M(10,10,11) for arbitrary later maps;
+the source torus extends this to a=b nonzero. Claim
+`AI-ALL-MIXED-GRAPHS-A1-097` is written and unreviewed. Claim098 now covers all but finitely many partner values on b=1;
+exceptional ratios and other flags remain open. The exponent remains9/4.
+
+## A uniform mixed-normal dichotomy
+
+The [all-graph reduction](research/ai/2026-10-21-global-mixed-normal-dichotomy/proof.md)
+at a=b=1 encloses every necessary normal, modulo the four common planes,
+in two fixed linear families of dimensions54 and36. Eight rational square
+identities and four polynomial mixed-row identities force the rank-one
+projection alternative to projection zero for all six graph coefficients,
+including exceptional fibers. Claim `AI-GLOBAL-MIXED-NORMAL-DICHOTOMY-096`
+is written and unreviewed. Claim097 subsequently eliminates both families
+at this partner. The dichotomy itself does not assert an exponent gain.
+
+## An affine family of larger mixed normal spaces
+
+The [exceptional affine-family proof](research/ai/2026-10-21-mixed-exceptional-affine/proof.md)
+gives h=(x-y,1-x-z,1-x,x,y,z), at a=b=1, with necessary normal dimension
+at least38 everywhere and exactly38 generically. Two degree-two polynomial
+left-relation certificates prove the all-parameter rank upper bound.
+At h=(0,1,1,0,0,0), a complete38-dimensional kernel, square minors and
+additional source equations eliminate all34 non-plane directions; the
+adopted induction excludes M(10,10,11) there for arbitrary later maps.
+Claim `AI-MIXED-EXCEPTIONAL-AFFINE-095` is written and unreviewed. Its entire
+affine family is now included in claim097 at the same partner.
+
+## An open set of arbitrary mixed graphs
+
+The [generic graph proof](research/ai/2026-10-21-generic-mixed-graphs/proof.md)
+excludes the canonical seven-by-five target case on an explicitly defined
+nonempty Zariski-open set of all six graph coefficients and a at b=1.
+A rational point certificate uses two fourteen-variable normal blocks:
+559 cubic minors in each generate all2380 quartic forms. Exact rank
+modulo32003 proves the relevant rational minors are nonzero. Symbolic
+source blocks and a fixed normal chart make this an open-set theorem,
+not an extrapolation to all parameters from a finite test. The checked
+torus extends it to an open set for b nonzero. Claim
+`AI-GENERIC-MIXED-GRAPHS-094` is written and unreviewed. A remaining target
+would require its entire affine four-plane of graph representatives to
+lie in the exceptional fiber. Claim097 closes all graphs at a=b nonzero;
+claim098 reduces the remaining partner chart to finitely many values.
+The exponent remains9/4.
+
+## Two-coordinate rank strata and exceptional graph closure
+
+The [two-coordinate chart proof](research/ai/2026-10-21-mixed-two-coordinate-chart/proof.md)
+classifies every complex parameter pair in m+t*d0+h*d1 at a=b=1:
+normal dimensions32 off two points,36 at the origin and34 at (1,1).
+A polynomial frame is complete away from those points, certified by
+matched minors and all complex exceptional-root controls. The full
+exceptional normal system at (1,1) reduces to the four plane directions
+and excludes that graph under the prior shifted induction. Claim
+`AI-MIXED-TWO-COORDINATE-STRATA-093` is written and unreviewed. The subsequent
+claim097 excludes this whole target chart; the exponent remains9/4.
 
 ## Uniform mixed-axis reduction
 
@@ -122,6 +590,293 @@ other first spaces remain construction questions.
 Date: October 21, 2026.
 
 **No improvement below $\omega\le9/4$ is established here.** The external baseline belongs to OpenAI. The initial local work analyzes a scalar relaxation and records finite searches.
+
+## Nonlocal maps, exact projection cost, and source capacity
+
+Three completed [nonlocal operator pilots](research/ai/2026-10-20-paired-direct-sums/q_metaplectic_history.md)
+retain all saved maps, all 123 sampled records, and their actual
+1,000-update stops. The Fourier/chirp/reflection basis depends on the
+source size. Complete replays check 40,736 output positions; none gives
+an exact matrix target. The first two error plateaus agree with a
+separate rational projection construction. That literal projected
+tensor has an error whose A-flattening contains
+`(3/4) I_((n-5)^2)`, so its repair needs quadratic auxiliary border rank.
+The floating-point maps are not exactified by this comparison, and
+other joint maps remain open.
+
+The [source-capacity proof](research/ai/2026-10-21-correction-budget/source_capacity.md)
+gives a necessary condition even when auxiliary summands have singular
+local maps. For fixed-width Q(n,b), a subquadratic border-rank correction
+and positive limiting outer ratios imply
+`rho*sigma<=1`, `rho*h<=b`, and `sigma*h<=b`. The target volume therefore
+obeys `rho*sigma*h<=b`; changing the target shape cannot improve the
+critical coefficient allowance beyond its equal-width, near-full value.
+This is not a construction or a general exponent barrier.
+
+A [source update](research/ai/2026-10-21-pass-packing/README.md)
+records Rafael Pass's arXiv:2610.28627v1 constructive proof of the same
+9/4 bound. Its generalized packing count suggests a scalar rule that
+already follows exactly from the existing concavity and shifted-tripling
+assumptions. This equivalence concerns that scalar rule, not the full
+tensor maps or every possible use of the external construction.
+
+Checkpoint `27d7a75`, integrating main `8a07bed`, completed 578 local
+tests: 577 passed and one optional NumPy discovery control was skipped.
+All five archive replays passed. The complete 638-line transcript and
+machine-readable result are in its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint12-validation.json).
+Five hosted static checks passed; no hosted test or archive job was
+observed for that commit. This continuation incorporates main `b113866`,
+including its sixteen-parameter mixed two-jet family and the fixed-space
+third-coefficient obstruction. That obstruction retains its stated seed
+scope and written, externally unreviewed status. The earlier test count
+does not describe the enlarged tree.
+
+## Critical correction allowance and new construction tests
+
+The [critical-coefficient criterion](research/ai/2026-10-21-correction-budget/critical_coefficient.md)
+allows a nonzero auxiliary border-rank coefficient at growth rate
+`n^(3/2)`. For one unbounded, character-independent family
+`Q(n,b) + R_n -> M(l_n,h,r_n)`, with limiting outer ratios rho and sigma,
+the sufficient condition is
+`limsup border-rank(R_n)/n^(3/2) < (rho*sigma*h)^(3/4) - (4/3)*sqrt(b)`.
+At near-full width four, the coefficient `4/25` is admissible by an exact
+rational comparison. This would imply a qualitative strict improvement
+below 9/4. **The family is unconstructed, and no numerical exponent gap
+is supplied by this conditional argument.**
+
+For the fixed endpoint corner R, the [one-scalar proof](research/ai/2026-10-20-paired-construction/m1_corner_one_scalar.md)
+excludes `R + D1 -> M4` even by degeneration, using a closed Grassmannian
+incidence condition. The [two-scalar proof](research/ai/2026-10-20-paired-construction/m1_corner_two_scalar_ordinary.md)
+excludes ordinary restrictions from `R + D2`; its projection argument
+does not extend to arbitrary degenerations. A separate
+[enriched leading-point gate](research/ai/2026-10-20-paired-direct-sums/r_enriched_lead_obstruction.md)
+excludes every two-scalar placement in one specified Laurent chart.
+The general border-D2 question remains open.
+
+Two [completed additional pilots](research/ai/2026-10-20-paired-direct-sums/q64_m1_free_kernel_and_reduced_corner.md)
+preserve the exact M1 lead while freeing its corner kernel, or seek the
+diagonal-deleted M4 target from R. Both fail their full coefficient
+conditions. Their saved maps, all 62 sampled history records, actual
+1,500-update stops, and complete coefficient replays are retained.
+Numerical small singular values are not exact rank certificates.
+
+The [centered aggregation calculation](research/ai/2026-10-21-centered-orientations/README.md)
+constructs four shared-input partial transposes with twelve corrections
+of size `n^(4/3)`. Its leading source costs `n^2`; a separate six-factor
+source has endpoint coefficient 64. Neither meets the paired-source
+budget. A full-format closed-orbit argument prevents this fixed tensor
+from degenerating to the same-orientation matrix target, and its literal
+orientation repair has quadratic flattening rank. No map from Q is given.
+
+Checkpoint `25600a7`, integrating main `e00622f`, completed 565 local tests:
+564 passed and one optional NumPy discovery control was skipped. All five
+archive replays passed. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint11-validation.json)
+retains the complete transcript and final result. Five hosted static
+checks passed; no hosted test or archive job was observed for that commit.
+This continuation incorporates main `8a07bed` and the packages above.
+The prior count does not describe the enlarged tree.
+
+## Smaller leading maps and partial targets
+
+The [endpoint corner calculation](research/ai/2026-10-20-paired-construction/m1_endpoint_corner.md)
+constructs an exact `16 x 18 x 18` tensor R from Q(6,4). It then excludes
+every degeneration of this R to M4: every restriction to the required
+long-leg dimensions retains a nonzero slice of rank at most three,
+whereas M4 has minimum nonzero slice rank four. The projective incidence
+argument makes this obstruction closed under limits. The result concerns
+the stated inherited corner kernel, not arbitrary Q(6,4) maps.
+
+The [M1 leading-point package](research/ai/2026-10-20-paired-direct-sums/q64_m1_leading_history.md)
+excludes one fixed sparse leading seed by a first-edge support deficit,
+for all source outer sizes at least four. A different endpoint seed passes
+that support test. Its three inherited outer rows leave exactly the
+corner kernel used above. Two completed searches that let the leading
+maps move retain all saved coefficients and sampled histories; neither
+satisfies the Laurent equations or the necessary leading-rank condition.
+
+The [partial-target proof](research/ai/2026-10-21-bulk-partial/README.md)
+excludes another specified first-cross chart without assuming tight
+saturation. A polynomial pencil over `C[u]/(u^4)` forces a required
+rank-four edge to have rank at most two. Twelve bounded partial-target
+probes also retain their maps and actual stops. No all-size bulk
+construction has been found. Restoring the stated omitted diagonals
+would have linear auxiliary rank if such a construction existed.
+
+The [graded correction calculation](research/ai/2026-10-21-quantum-correction/README.md)
+excludes up to four homogeneous scalar corrections for one fixed
+root-of-unity quantum tensor and three specified assignments of six
+corrections. Slice ranks and a nonzero normalized-slice commutator give
+the exact obstructions. Ungraded maps and general Laurent families are
+outside these results.
+
+The [leading-M4 search archive](research/ai/2026-10-21-leading-m4-search/README.md)
+preserves 39 terminal points from seven finite search families, their
+available histories and discovery source snapshots. A standard-library
+replay checks all 576 source terms and 4,096 output positions at every
+point. No exact lead with the needed kernel dimension was found. The
+archive documents a corrected norm-penalty derivative and preserves
+the earlier runs as historical evidence. These points are not 39
+independent restarts, and full intermediate maps were not retained.
+
+A separate [history correction](research/ai/2026-10-20-paired-direct-sums/q64_ridge_metadata_correction.md)
+restores 90 sampled ridge-parameter snapshots in three previously
+published full-flag artifacts from their original emitted records.
+The recorder now copies the mutable parameter list. Saved maps,
+coefficient errors, actual stops, and mathematical statuses are unchanged.
+
+Checkpoint `9d8b240`, integrating main `11aca0f`, completed all 485 local
+tests successfully; all five archive replays and nine hosted checks also
+passed. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint10-validation.json)
+preserves the full machine-readable completion result. The separately
+retained live text stream is incomplete and is identified as such.
+This continuation incorporates main `e00622f` and the packages above;
+the earlier test count does not describe that enlarged tree.
+
+## Paired constructions with boundary and correction budgets
+
+An [exact integer construction](research/ai/2026-10-20-paired-construction/outer_product_injection.md)
+now gives `Q(5,4) -> M(4,4,4)`, and more generally
+`Q(k+1,k) -> M(k,4,k)` for every k at least two. Two unimodular
+polynomial-multiplication maps supply the local tensor maps. The small
+witness has 25, 20, and 20 nonzero entries, all in `0,+1,-1`; all 400
+source terms and 4,096 output coefficients are checked exactly. This
+construction works over every field. It does not improve the exponent.
+The same product-subspace method at fixed source width four requires
+`2k<=n+3`, so it does not supply the needed near-full family at large n.
+
+The [linear-correction criterion](research/ai/2026-10-21-correction-budget/README.md)
+shows that an unbounded family `Q(n,4) + R_n -> M(n,4,n)`, with auxiliary
+border rank at most `Cn` for a fixed C, would imply
+`omega < 30000/13433 < 2.2334`. The same conclusion allows outer dimensions
+`n-c` for any fixed c. The cyclic error terms vanish asymptotically, and
+the strict rational comparison has an integer certificate. **These
+construction premises remain unproved; this is not an achieved exponent.**
+
+The [larger correction budget](research/ai/2026-10-21-correction-budget/superlinear_budget.md)
+allows auxiliary border rank `O(n^alpha)` for any fixed `1<=alpha<3/2`.
+Its conditional bound is `max(B_b,9/4-(3/2-alpha)^2)`, with B_b defined
+by the existing source-profile equation. At width four, `alpha=4/3` or
+`137/100` still gives `omega<30000/13433<2.2334`, if the unbounded
+near-full construction exists. Even `o(n^(3/2))` would give a qualitative
+strict improvement. This relaxes the missing construction premise; it
+does not supply the required tensor maps.
+
+The [ordinary narrow-source proof](research/ai/2026-10-20-paired-construction/narrow_ordinary_all_n.md)
+excludes `Q(n,2) -> M(n,2,n)` for every n at least three. It uses a
+classified two-dimensional kernel and the cited constant-rank matrix-space
+bound. A [minimum-slice theorem](research/ai/2026-10-20-paired-construction/narrow_rank_locus.md)
+gives `rank Q(n,m)(X) >= rank(X)+m^2-1`; the minimum locus consists exactly
+of rank-one X. Full narrow long-leg quotients lose at most one first-leg
+direction. The [regular-long-leg extension](research/ai/2026-10-20-paired-construction/narrow_regular_long_legs_obstruction.md)
+excludes Laurent families of every first-leg pole order when both long
+maps remain regular and surjective at zero. Singular leading long maps
+remain outside that result. A [wider jet obstruction](research/ai/2026-10-20-paired-construction/wider_jet_obstruction.md)
+excludes the specified regular-nilpotent quotient for every `m>=2` and
+`n>=m+1`, while other wider kernels remain open.
+
+The [finite-symmetry package](research/ai/2026-10-20-paired-direct-sums/scalar_and_symmetry.md)
+excludes ordinary tetrahedral-equivariant `P3 + trivial scalars -> M3`
+with the stated physical representations, for any number of scalars.
+All three exact correction phases have nonsingular twelve-by-twelve
+equation matrices. Sixteen complete numerical checkpoints replay to their
+reported failed-search metrics; these failures alone are not exclusions.
+
+These are written, externally unreviewed deductions and finite controls.
+Current constructive work seeks `Q(6,4) -> M(5,4,5)` and scalable formulas
+beyond the injection template's dimension limit. The exact small witness
+does not meet the unbounded fixed-width family premise.
+
+The [sixteen completed extension searches](research/ai/2026-10-20-paired-direct-sums/q64_search_history.md)
+retain all map coefficients and iteration histories. Twelve ordinary fits
+and four prescribed Laurent fits give no exact witness. A separate native
+coefficient replay checks their reported objectives, including every pole
+and every explicit scalar cost. The ordinary product component and the
+Laurent runs' non-nilpotent operator errors explain particular failed
+searches; they are not general obstructions.
+
+The [boundary-column calculation](research/ai/2026-10-20-paired-construction/outer_product_boundary.md)
+excludes an all-order extension that keeps the integer seed's old long-map
+columns fixed. Arbitrary new boundary columns lose at most one first-leg
+direction; a full next-size matrix extension needs at least `2k+1`.
+For Q(6,4), these numbers are one and nine. Changes to the old columns
+remain open and are being searched separately.
+
+The [mixed-middle extension](research/ai/2026-10-20-paired-construction/mixed_middle_boundary.md)
+proves the same leading rank lower bound of 35 when the seed's four middle
+polynomials can mix across the two-dimensional factor. A polynomial syzygy
+argument forces an injective projection, so changing only the new boundary
+columns still cannot supply the required nine-dimensional kernel. Outer
+polynomial spaces in P5 remain outside this argument.
+
+The [balanced-support lemma](research/ai/2026-10-21-nearfull-quantum/README.md)
+closes all diagonal Laurent weights for two specified regular quantum
+families, even followed by arbitrary further degenerations to their full
+matrix targets. Exact rational marginal certificates and Koszul deficits
+supply its hypotheses. It does not exclude different leading families,
+auxiliary corrections, or the separate recovered integer construction.
+
+Checkpoint `cfa12ba`, integrating main `63eecee`, passes all 467 local
+regression tests and all five archive replays on an isolated checkout.
+Site packages are disabled for these runs; maintained verification uses
+the declared dependencies. Its [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint8-validation.json)
+records the exact tree and log hashes. All nine observed hosted checks,
+including CI, also pass. The next integration includes main `fc8207e`;
+this historical test count applies only to `cfa12ba`.
+
+The [external rank-76 seed screen](research/ai/2026-10-21-external-grid-seed/README.md)
+replays all 10,000 coefficients of a known AlphaTensor M(4,5,5) algorithm.
+An exhaustive finite-field calculation excludes a termwise assignment of
+that fixed decomposition to the Q(6,4) evaluation grid in one specified
+leg alignment: nine rank-four groups can hold at most 72 of its 76 vectors.
+Different decompositions and general maps remain open. This is a failed
+reuse attempt, not a new multiplication algorithm or exponent.
+
+The [complete-flag experiments](research/ai/2026-10-20-paired-direct-sums/q64_full_flag_history.md)
+retain six further searches and every coefficient of their best maps.
+None satisfies the exact Laurent equations. The complete grading has
+5,050 required positions; exact shear controls and numerical derivative
+checks verify the implemented gauge conventions. Small residuals and
+three small trace moments still do not establish nilpotent error.
+
+A [smaller leading-seed calculation](research/ai/2026-10-20-paired-construction/small_leading_jet.md)
+excludes the stated first-jet extension of one fixed M(2,4,2) seed inside
+Q(6,4) plus one scalar. Both complete rational first-edge systems have
+rank 52 and zero aligned image. Other leading maps and higher valuation
+patterns remain open.
+
+Checkpoint `1e0e468`, integrating main `fc8207e`, completed 476 tests with
+475 passing and one claim-ledger failure: the external-grid experiment
+used an unsupported status label. The label is corrected to the existing
+`finite-experiment` category in this continuation. Its five archive
+replays passed. The [failed-checkpoint receipt](results/paired-checkpoints-2026-10-21/checkpoint9-validation.json)
+retains the completion record and hosted failures; it does not describe
+the corrected tree as fully verified.
+
+## Audit of a separately claimed exponent improvement
+
+The [bounded Sun audit](research/ai/2026-10-21-sun-audit/README.md) checks
+parts of the external preprint arXiv:2610.13971v1. Its proposed
+`D16 tensor (14 CW3 + 6 CW2 + 7 W + 5 D4) -> M32` degeneration would imply
+`omega<=2.2`. The proposed complete
+three-factor Laurent map has not been reconstructed or verified here.
+
+Exact calculations find 50 normalization discrepancies among 354 literal
+support occurrences; a stated local scaling repairs all of them. All 256
+normalized Walsh equations and the checked five-empty-module identities
+hold. A particular packetwise reading of the chart pullback would require
+a border-rank-five source to contain `M2`; an explicit determinant-one
+Koszul minor gives border rank at least six and excludes that reading.
+The preprint's later assembly retains outer rows and additional records,
+so this packetwise obstruction is not presented as a refutation of its
+global claim. Standard full-space Koszul tests necessarily pass for the
+proposed global source and cannot resolve this gap. No external smaller
+exponent is adopted on the basis of this audit.
+
+Checkpoint `89c0287`, integrating main `8722b36`, passes all 385 local
+regression tests and all five archive replays. Every hosted check also
+passes at that commit. The [validation receipt](results/paired-checkpoints-2026-10-21/checkpoint4-validation.json)
+records the exact tree, commands, environment, and log hashes. These checks
+do not change the mathematical review status of the research.
 
 ## Constructive continuation and source obstructions
 
@@ -464,6 +1219,32 @@ gluing now exclude all three in the stated construction class. This is
 an unreviewed obstruction, not a general degeneration exclusion or an
 improvement of the arithmetic exponent.
 
+## General semisimple Koszul continuation
+
+The [full-space semisimple screen](research/ai/2026-10-21-semisimple-koszul/proof.md)
+applies the existing exact matrix Koszul formulas to general complex
+degenerations of group algebras. It excludes five of the26 remaining F8
+formats, including(16,16,26), while21 still pass, including(19,19,19).
+These exclusions have broader scope than the coordinate-construction
+barriers below. The written derivation and imported rank proofs are unreviewed.
+
+The same package exactly derives the504-element SL(2,F8) source degrees
+1,7,7,7,7,8,9,9,9 by rational central algebra. Its degree/rank-locus/full-Koszul
+frontier leaves16 formats. A genuine M(18,18,25) degeneration would imply
+exponent at most2.245 by the certified conditional comparison; no such
+degeneration is supplied. One fixed-full-D18 subgroup pilot timed out with
+zero pair models in180 seconds. Only its small M(18,1,1) control is verified.
+
+The [SL(2,F8) subgroup-ideal followup](research/ai/2026-10-21-sl2-f8-ideals/proof.md)
+applies a concurrent worker's averaging lemma with new exact central
+projection upper bounds308,440,244 for subgroup orders8,9,18. Complete
+unipotent-eight and dihedral-eighteen cosets are forbidden on every leg of
+all16 remaining coordinate formats. For M(18,18,25), nine-cycle cosets are
+also forbidden in the two size-eighteen families. This now excludes the
+first fixed-full-D18 frame by a written unreviewed proof; its historical
+timeout is not used as proof. Remaining coordinate sets and general tensor
+maps remain open. No exponent improvement follows.
+
 ## Abelian-normal coset Koszul obstruction
 
 The [normal-coset proof](research/ai/2026-10-20-normal-coset-koszul/research_note.md)
@@ -490,6 +1271,26 @@ alignment bytes cover all 505 cyclic count classes. Thus no balanced target
 in this stated F8^2:C7 coordinate-potential source-cost route beats 9/4.
 General tensor degenerations and unequal targets with a side below nineteen
 remain open. This written proof is unreviewed and gives no exponent improvement.
+
+The [higher-slice unequal followup](research/ai/2026-10-20-f8-unequal/research_note.md)
+also excludes every target of side sizes at least (16,16,26), in any order,
+in this construction frame. All32 small integer pencils and520710 count
+pairs are replayed exactly; seven-slice averaging gives8970/7>1280.
+The proof is written and unreviewed. A (16,20,21) count pattern survives
+the stated three-, five- and seven-slice necessary tests. Two restricted
+nonlinear graph searches found no target: one reported untraced UNSAT,
+the other timed out. The separately verified (4,4,3) positive control
+does not pass the exponent gate. The arithmetic exponent remains9/4.
+
+The [complete F8 coordinate closure](research/ai/2026-10-21-f8-coordinate-closure/proof.md)
+now closes every unequal format in this one-source route. New even-slice
+rectangular pencils reject the former(16,20,21) count survivor. Exact replay
+checks64 pencils,9539875 pair tags and90 residual alignments across all12
+minimal formats. Thus no single F8^2:C7 target through injective pair maps
+and strict vertex potentials passes its usual source-degree gate at any
+positive exponent at most9/4. The written proof is unreviewed. Arbitrary
+complex degenerations, joint extraction and tensor powers remain open;
+no arithmetic exponent improvement is established.
 
 ## All-size product-filtration result
 
@@ -921,6 +1722,60 @@ matrix targets, modulo B/C exchange; all are excluded by saved rank
 witnesses. The frontier through a=16 has 28 survivors, first at a=14.
 No surviving target is constructed; joint extraction remains open.
 
+The [two-block frontier](research/ai/2026-10-20-paired-direct-sums/README.md)
+now enumerates every one-block or two-block matrix target through `a=10`.
+After exact score comparisons and every first-leg Koszul degree, none
+survives through `a=9`; at `a=10`, 19 pairs survive modulo B/C exchange
+(EXP-PAIRED-DIRECT-SUM-FRONTIER-001). The selected target is
+`P10 -> M(4,11,10) direct_sum M(10,12,6)`, in formats
+`(100,190,190) -> (100,164,182)`. Its existence would force
+`15840^t+25920^t<=3364`, hence `omega<1121/500=2.242`
+(COND-PAIRED-DIRECT-SUM-002). Exact integer powers certify this implication.
+**The degeneration is unconstructed.** Ordinary constant restrictions are
+excluded; passing 100 first-leg rank comparisons does not supply singular
+maps. These results do not constitute an exponent improvement.
+
+The [boundary-chain construction](research/ai/2026-10-20-paired-construction/README.md)
+now gives explicit restrictions `P_a -> M(a,2,a)` for every integer `a>=2`,
+with coefficients `0,1,-1` (AI-PAIRED-CHAIN-001). A telescoping identity
+proves the family over the integers, and full coefficient and ordinary
+matrix-product checks cover `a=2,...,8`. The first `P2 -> M2` witness
+includes four exact off-support cancellations. This is a positive tensor
+construction, but its finite character gate has strict slack at `t=3/4`
+for every `a`, so it does not improve the exponent. Its specific quotient
+does not extend to square `M(a,a,a)` at `a=3,4,5`.
+
+The [Laurent pilots](research/ai/2026-10-20-paired-direct-sums/laurent_search.md)
+record four first-order alternating fits and two bounded refinements for
+`P3 -> M(1,3,3) direct_sum M(3,3,2)`. Every completed run retains nonzero
+full coefficient error or uncancelled poles. Exact positive and negative
+controls check the coefficient verifier, and six saved coefficient arrays
+replay the reported residuals. These finite failures do not exclude the
+target or establish a degeneration (EXP-PAIRED-LAURENT-003).
+
+The [second-order continuation](research/ai/2026-10-20-paired-direct-sums/higher_jet_search.md)
+retains two completed degree-two Laurent searches with all pole and target
+equations. Both have nonzero pole coefficients (EXP-PAIRED-HIGHER-JET-004).
+The [narrow-source searches](research/ai/2026-10-20-paired-direct-sums/narrow_source_search.md)
+test `Q_(3,2) -> M(3,2,3)` using eight full coefficient fits and ten kernel
+compression runs, including two complex runs. None produces a construction.
+Closure-only fits approach nearly singular normalization matrices; condition,
+commutant, and trace-form checks reject those false leads. An exact algebra
+recognition criterion and positive and negative controls accompany the
+searches (EXP-NARROW-SOURCE-005, LEM-NORMALIZED-SLICE-006). All 24 new saved
+points recontract to their reported metrics. Two lagging intermediate
+checkpoints were recovered by deterministic reruns matching the complete
+original numerical histories. These finite experiments imply neither
+existence nor nonexistence of the proposed target.
+
+The [complete narrow-source Koszul screen](research/ai/2026-10-20-paired-construction/narrow_koszul_exact.md)
+computes all 25 exterior-degree comparisons on all three legs for
+`Q_(3,2) -> M(3,2,3)` (EXP-NARROW-KOSZUL-001). Signed coefficient matrices
+give exact rational ranks, with independent modulo-two eliminations
+matching every value. The long target legs are padded from six to eight
+coordinates before comparison. All tests pass; this supplies neither
+the desired maps nor an exponent improvement.
+
 ## Varying quantum recoupling
 
 The [quantum family](research/ai/2026-10-20-quantum-recoupling/family.md)
@@ -931,6 +1786,38 @@ small basis/root configurations. At q=i, the rowwise-regular cyclic maps
 have ranks 8,32,64 at a=2,3,4 over Q(i). This calibration produces ordinary
 restrictions and does not supply the size-four matrix target. Coupled
 singular normalizations remain open; no exponent improvement is claimed.
+
+The [paired quantum calibration](research/ai/2026-10-21-paired-quantum/README.md)
+checks 64 prescribed local maps and 353 rational-function source identities
+(AI-PAIRED-QUANTUM-001). At size ten and root order fourteen, the specified
+rowwise regular first map has rank 91, below the selected target's 100.
+Two small regular limits have matching matrix-tensor dimensions but fail
+exact slice-algebra closure tests. These calculations concern the stated
+normalization only.
+
+Two [coupled Laurent families](research/ai/2026-10-21-paired-quantum/coupled_faces.md)
+now give exact intermediate tensors `P3 -> F0,F1`, each of format `(9,15,15)`
+(AI-PAIRED-QUANTUM-002). The verifier checks all 288 nonzero rational-function
+coefficients, proves cancellation of every pole, and records 241 and 108
+nonzero rational leading coefficients. Both tensors pass every first-leg
+Koszul test for the small two-block target, but an invertible source slice
+excludes an ordinary restriction. `F1` has a rank-two first slice, and a
+closed projective incidence argument excludes every further degeneration
+to that concise target, whose minimum first-slice rank is three. Further
+singular extraction from `F0` remains a construction question. These are
+actual intermediate degenerations, not matrix direct sums or smaller
+matrix multiplication exponents.
+
+The [unequal quantum extension](research/ai/2026-10-21-narrow-quantum/README.md)
+gives explicit generic local maps for every `Q_(n,m)`, with an all-size
+coefficient identity and 841 finite controls (AI-NARROW-QUANTUM-001).
+Twenty-three specified root-eight Laurent families for `Q_(3,2)` have
+complete exact coefficient and valuation certificates. Nine limits lose
+first-leg concision, ten have rank-one slices that exclude all further
+degenerations to the target, and four fail a Koszul comparison. Two of
+those four pass every first-leg test but fail a long-leg test by one rank
+(`62<63`). These are fixed-family exclusions; other bases, weights, and
+singular maps remain open.
 
 ## Polynomial flags and numerical calibration
 
@@ -978,8 +1865,16 @@ Branch `research/full-filtration-entropy-20261020` studies the whole support
 
 These are unreviewed analytic results and exact finite certificates. The
 optimistic score is not claimed as a proved weighted block-extraction theorem.
-The all-size unequal-source inequality remains open. This rules out one
-proposed escape in the stated scope; the exponent remains `9/4`.
+The all-size unequal-source inequality is now settled by the
+[sharp unequal-source proof](research/ai/2026-10-20-unequal-entropy/research_note.md)
+(AI-UNEQUAL-ENTROPY-001). For every four lengths at least two, the explicit
+upper certificate has ratio at most
+`B=(81/350)*(1+14*sqrt(14)/27)^(4/3)`, with
+`0.974772906<B<0.974772907`, attained only at `(2,2,2,2)`.
+Every other tuple has ratio at most `97/100`. Eight all-size polynomial
+cones, 216 small-minimum tail certificates and 37 proved residual cases
+support the analytic proof. It is written and unreviewed. The sharpness
+statement concerns `U`, not the entropy optimum or the exponent.
 
 ## Exact finite-group construction campaign
 
@@ -1498,8 +2393,8 @@ has not been established. The new claims remain written and unreviewed.
 The [integer Laurent construction](research/ai/2026-10-21-singular-pilots/README.md)
 proves C(4,5) degenerates to 2-by-2 matrix multiplication over every field.
 All 64 coefficient positions are checked exactly: eight target coefficients
-remain at degree zero, every negative coefficient vanishes, and twenty-two
-positive remainder terms have degrees one through seven. Two further
+remain at degree zero, every negative-degree coefficient vanishes, and twenty-two
+positive-degree remainder terms have degrees one through seven. Two further
 same-session source-coefficient replays agree with the displayed witness.
 This is a finite constructive result and a pilot for the larger fat-point
 search. It does not establish a smaller exponent or an unbounded family.

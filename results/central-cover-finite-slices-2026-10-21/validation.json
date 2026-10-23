@@ -1,0 +1,93 @@
+{
+  "source_base": "be66e0f3f14364afde6a56d055ce2c5a90dae754",
+  "full_regression": {
+    "python": "3.14.8",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "tests": 831,
+    "modules": 196,
+    "maintained_successes": 828,
+    "optional_controls_replayed_successfully": 3,
+    "groups": [
+      {
+        "group": 0,
+        "tests": 211,
+        "seconds": 426.816,
+        "terminal_status": "OK (skipped=1)"
+      },
+      {
+        "group": 1,
+        "tests": 198,
+        "seconds": 565.865,
+        "terminal_status": "OK"
+      },
+      {
+        "group": 2,
+        "tests": 209,
+        "seconds": 616.797,
+        "terminal_status": "OK"
+      },
+      {
+        "group": 3,
+        "tests": 213,
+        "seconds": 354.626,
+        "terminal_status": "OK (skipped=2)"
+      }
+    ]
+  },
+  "final_focused_tests": 5,
+  "metadata_tests": 18,
+  "archive_replay": {
+    "profile_checks": 73856,
+    "product_inequalities": 353664,
+    "binary_cases": 12976,
+    "ternary_cases": 209692,
+    "random_cases": 20000,
+    "all_five_passed": true
+  },
+  "protected_archive_files_unchanged": 18,
+  "all_275_prior_claims_preserved": true,
+  "exponent_improvement": false,
+  "optional_control_runtime": {
+    "python": "3.14.8",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "pre_integration_tested_commit": "9013472",
+  "pre_integration_files_sha256": {
+    "STATUS.md": "198274e7bab3156623ece04dd1e7ccaeef5cc9202eefa9c3130fc108f8b1f4e9",
+    "PROVENANCE.md": "88a541fde0aa57098a1a43b16e97fe7a6e9a2f80ba9ba7f9aa2c6864c522d823",
+    "docs/research_directions.md": "19db2431fbe92460531add3a9c9f7bf5a4c03839560cf1a904a6df4da6ba22f3",
+    "references/sources.json": "4d48f3a789ae55b7c84a9a58b49b1d4f88cb494263026b54bd41b95e7cd53b96",
+    "research/claims.json": "d91aacea88c5cd0b317a6a1e47eab5d6c2ca4829b15696772db29c70cebb34ff",
+    "tests/test_research.py": "21ae39d04f8874122a2b1ffd43abc99dc3b7667c542064940cd3466d25b3e272",
+    "tests/test_central_cover_finite_slices.py": "574b6b91c1120e7a9b6d84141f66a39d658076d97ef7ced6cc50aec8a32f65ef",
+    "research/ai/2026-10-21-central-cover-finite-slices/README.md": "dc22f609c4aa399eeb7c1768dbcae8b80946b8cc013dec6443ceadadc2989f2e",
+    "research/ai/2026-10-21-central-cover-finite-slices/export_cover.py": "fde27f945bf5d7ec340c3d838a3fb794d3d4d20c983af37f533ebb837ae716d0",
+    "research/ai/2026-10-21-central-cover-finite-slices/verify_cover.py": "776fcd274e5af8fa8b24cacbcb5fe5a6044a7f5a094b064ed0246026adcb179f",
+    "research/ai/2026-10-21-central-cover-finite-slices/proof.md": "451c6622ea3549d64b73c95d67023b1b3d6d5f3b338738d2cb9327207413cfc9",
+    "research/ai/2026-10-21-central-cover-finite-slices/SOURCES.json": "93902f62814a68d70fb0d3f6866841ca00a47f940df41d740268fa71021798e1",
+    "research/ai/2026-10-21-central-cover-finite-slices/ACTIVE.md": "e639496f28496c2bdd187634bd41e309a21548a873d7e87482a644ae2df75de4"
+  },
+  "integration": {
+    "canonical_base": "39378de",
+    "prior_canonical_claims_preserved": 278,
+    "combined_claims": 279,
+    "focused_checks": 31,
+    "seconds": 5.978,
+    "inventory_tests": 839,
+    "inventory_modules": 198,
+    "all_eight_added_test_ids_passed": [
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_all_exact_pencil_certificates_and_regeneration",
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_corrupted_cyclic_relation_bezout_and_scope_are_rejected",
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_source_frame_matches_existing_literal_source",
+      "test_cyclic_slice_determinants.CyclicSliceDeterminantTests.test_unimodular_interval_controls",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_complete_exact_control_replay",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_false_matrix_rank_and_incomplete_principal_control_are_rejected",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_general_block_bound_is_sharp_on_literal_integer_matrices",
+      "test_cyclic_unital_chart.CyclicUnitalChartTests.test_missing_hypotheses_and_inflated_status_are_rejected"
+    ],
+    "integration_log_sha256": "fa412a22eff63404332bd93b3ea109a60191fd74cffb306fdf8f903e2c940803",
+    "current_head_full_hosted_CI": "required before merge"
+  }
+}

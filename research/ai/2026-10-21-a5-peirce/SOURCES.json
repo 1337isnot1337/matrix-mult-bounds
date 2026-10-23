@@ -1,0 +1,42 @@
+{
+  "external": [
+    {
+      "id": "CVZ19",
+      "title": "Asymptotic tensor rank of graph tensors: beyond matrix multiplication",
+      "url": "https://arxiv.org/pdf/1609.07476v2",
+      "version": "arXiv v2, September 10, 2019",
+      "inspected": "Definition 1.1.27 and Theorem 1.1.31",
+      "use": "Strassen tight three-tensor support entropy theorem, credited as external work.",
+      "field_note": "The local characteristic-two application uses the combinatorial formulation and any-field support-to-tensor comparison in AVZ20. It does not transfer a complex coefficient identity."
+    },
+    {
+      "id": "AVZ20",
+      "title": "The asymptotic induced matching number of hypergraphs: balanced binary strings",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v27i3p12/pdf/",
+      "version": "EJC 27(3), P3.12 (2020), DOI 10.37236/9019",
+      "inspected": "Section 1.4.1 equation (6), section 1.4.2, and section 1.4.3 equation (11)",
+      "use": "Induced matching lower bound for every field, tight-support marginal entropy, and subrank <= liminf of source-power slice-rank roots.",
+      "hypotheses_verified_locally": "Finite nonempty three-partite support, injective integer maps with zero sum on every support term, nonzero field coefficients, and an explicitly normalized rational distribution."
+    }
+  ],
+  "local": [
+    {
+      "base_commit": "b3e36fd4b627a7f00532ce25a21d78da6620c99f",
+      "path": "research/ai/2026-10-21-s5-block-filtration/discovery/",
+      "use": "Credited A5 radical pilot and binary algebra helpers guided discovery. These unreviewed pilots are not acceptance premises."
+    },
+    {
+      "base_commit": "ef76802bcbe47adf3076ddcba6a34e8ff221089c",
+      "path": "research/ai/2026-10-21-s5-split/s5_source.py",
+      "use": "Existing faithful five-coset action supplies the producer's double-cover projection. Acceptance checks all 14,400 products independently from determinant-one matrices and even permutations."
+    },
+    {
+      "base_commit": "ef76802bcbe47adf3076ddcba6a34e8ff221089c",
+      "path": "research/ai/2026-10-20-heisenberg-seven/modular_proof.md",
+      "use": "Prior modular field-transfer, cyclic comparison and proper Grassmannian slice-rank closedness argument, with its earlier external credits retained. The current proof restates the closedness argument."
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "resolvent-minrank-validation-v1",
+  "date": "2026-10-23",
+  "python_version": "3.12.14",
+  "runtime_dependencies": "Python standard library only",
+  "commands": [
+    {
+      "command": "python research/ai/2026-10-23-resolvent-minrank/verify.py results/resolvent-minrank-2026-10-23/certificate.json --output results/resolvent-minrank-2026-10-23/verification.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_resolvent_minrank.py -v",
+      "exit_code": 0,
+      "tests_passed": 5
+    }
+  ],
+  "checks": [
+    "Thirty-one integer triangular six-by-six minors and unit substitutions eliminate all thirty-one mixed-block parameters.",
+    "All 112 normalized coefficient matrices match the literal source.",
+    "An independent six-index tensor expansion matches all 112 literal slices.",
+    "Exact rational elimination confirms the sharp witness rank of six.",
+    "Corrupted pivots, diagonal forms, row or column selections, labels, and omitted stages are rejected.",
+    "Recorded report, finite certificate, and local predecessor sources match their SHA-256 pins."
+  ],
+  "sha256": {
+    "research/ai/2026-10-23-resolvent-minrank/QUESTION.md": "ce8d038af73e065532efdbcaf544837e64acb6e1936715101c876670b4132725",
+    "research/ai/2026-10-23-resolvent-minrank/README.md": "88e2649d6e43c706dcfb646824f8a81c8ff910a032fa49f1f761929b3fc03c79",
+    "research/ai/2026-10-23-resolvent-minrank/claims.json": "56bff7a7d9e2a6433c0830e65208875f0a6132d09acdcf9b9c4272eca0d07802",
+    "research/ai/2026-10-23-resolvent-minrank/manifest.json": "12ad234b4a636a1bd4d6f67d5bfe89fd3bab6decb4f6924ccf27f974c476440e",
+    "research/ai/2026-10-23-resolvent-minrank/proof.md": "6bfc4c59efa33d57f2b2e1d545379fbd99606201e9f288f2e59d58913e08c2cb",
+    "research/ai/2026-10-23-resolvent-minrank/sources.json": "29772df17344f91b0f8fa3f92f7f12da274984dda1161399e489a5a537a857d2",
+    "research/ai/2026-10-23-resolvent-minrank/verify.py": "08da32ffa8622dde7c994aaca0a0be5664a0ac92457cde003b9c3b2b3628a7af",
+    "results/resolvent-minrank-2026-10-23/certificate.json": "dc24bcc3324846fb0976d26bb3506ed68b230680d8586bd9808737b6af70ee03",
+    "results/resolvent-minrank-2026-10-23/verification.json": "257e06cceb998f73d68ed8d580713cd4990ed11c44a39288f713a0c885c97dbe",
+    "tests/test_resolvent_minrank.py": "0f752784a5e9dbd9183318032a484adb98c5ddcd9dace5e3f733b351e490a2d9"
+  },
+  "independent_mathematical_review": false,
+  "formal_proof_assistant_check": false,
+  "full_repository_suite_run_by_this_package": false,
+  "improves_omega": false
+}
