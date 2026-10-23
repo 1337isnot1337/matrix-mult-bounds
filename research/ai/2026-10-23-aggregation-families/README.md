@@ -30,7 +30,8 @@ python research/ai/2026-10-23-aggregation-families/evaluate.py
 python -m unittest discover -s tests -p test_aggregation_families.py -v
 ```
 
-The verifier recomputes every mixed triple, every correction subset,
+The verifier enforces the versioned baseline SHA256 and recomputes
+every mixed triple, every correction subset,
 and the exact positive-coefficient comparison with the attributed
 external baseline. The evaluator separately constructs the rational
 centered dual maps modulo 101 and sums all 159,651 rank-one terms at
@@ -40,7 +41,8 @@ control; the uniform proof is the argument in proof.md.
 
 The acceptance and control reports are checked in. Dependencies are
 only the Python standard library. Tests deliberately remove a required
-correction, duplicate a product, and understate a cost to check rejection.
+correction, duplicate a product, understate a cost, and alter the external
+source bytes to check rejection. They also require exactly 29 products.
 
 ## Optional discovery reproduction
 

@@ -1,7 +1,7 @@
 {
   "focused_tests": {
     "command": "python -m unittest discover -s tests -p test_aggregation_families.py -v",
-    "passed": 6,
+    "passed": 7,
     "failures": 0
   },
   "exact_verifier": {
@@ -24,5 +24,11 @@
     "command": "python -m unittest discover -s tests -v",
     "status": "running_at_initial_checkpoint"
   },
-  "independent_mathematical_review": false
+  "independent_mathematical_review": false,
+  "source_integrity": {
+    "file": "baseline_ex28.txt",
+    "sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+    "enforced_by_verifier": true,
+    "tamper_test_passed": true
+  }
 }

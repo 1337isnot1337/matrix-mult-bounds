@@ -11,6 +11,7 @@ import argparse
 from collections import Counter
 from itertools import product
 import json
+import hashlib
 from pathlib import Path
 import re
 
@@ -110,8 +111,19 @@ def check_family(data: dict) -> dict:
     }
 
 
+def check_source_hash(path: Path) -> dict:
+    """Require exact bytes of the versioned external comparison witness."""
+    sources = json.loads((HERE / "sources.json").read_text())
+    source = next(item for item in sources["ancillary_sources"] if item["id"] == "ex28")
+    actual = hashlib.sha256(path.read_bytes()).hexdigest()
+    if actual != source["sha256"]:
+        raise ValueError("External baseline source SHA256 does not match the pinned version")
+    return {"source_id": source["id"], "url": source["url"], "sha256": actual, "verified": True}
+
+
 def baseline_data(path: Path) -> dict:
-    """Read the attributed external seed only to replay its comparison cost."""
+    """Read the hash-verified external seed only to replay its comparison cost."""
+    check_source_hash(path)
     rows = []
     for line in path.read_text().splitlines():
         if re.match(r"^\d+\s*\|", line):
@@ -158,7 +170,8 @@ def main() -> None:
     args = parser.parse_args()
     data = json.loads(args.witness.read_text())
     old = baseline_data(HERE / "baseline_ex28.txt")
-    report = {"new_witness": check_family(data), "external_baseline": check_family(old),
+    report = {"source_integrity": check_source_hash(HERE / "baseline_ex28.txt"),
+              "new_witness": check_family(data), "external_baseline": check_family(old),
               "cost_comparison": comparison(data, old)}
     if args.export_seed:
         lines = [f"{old['coordinate_count']} {len(old['products'])}"]

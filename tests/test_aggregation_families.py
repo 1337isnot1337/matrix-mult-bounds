@@ -4,6 +4,7 @@ import importlib.util
 import json
 from pathlib import Path
 import unittest
+from tempfile import TemporaryDirectory
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "research/ai/2026-10-23-aggregation-families"
@@ -27,6 +28,7 @@ class AggregationFamilyTests(unittest.TestCase):
 
     def test_complete_exact_certificate(self):
         result = verify.check_family(self.witness)
+        self.assertEqual(result["products"], 29)
         self.assertEqual(result["ordered_mixed_triples"], 24389)
         self.assertEqual(result["off_diagonal_terms_killed_by_centering"], 23072)
         self.assertEqual(result["off_diagonal_terms_killed_by_corrections"], 1288)
@@ -37,6 +39,14 @@ class AggregationFamilyTests(unittest.TestCase):
         self.assertEqual(verify.check_family(old)["products"], 28)
         result = verify.comparison(self.witness, old)
         self.assertEqual(result["positive_coefficients"], {"9": 1, "8": 9, "7": 7, "6": 32})
+
+    def test_external_source_hash_is_enforced(self):
+        self.assertTrue(verify.check_source_hash(PACKAGE / "baseline_ex28.txt")["verified"])
+        with TemporaryDirectory() as directory:
+            altered = Path(directory) / "changed_baseline.txt"
+            altered.write_bytes((PACKAGE / "baseline_ex28.txt").read_bytes() + b"\n# changed\n")
+            with self.assertRaisesRegex(ValueError, "SHA256"):
+                verify.baseline_data(altered)
 
     def test_repeated_product_is_rejected(self):
         malformed = copy.deepcopy(self.witness)
