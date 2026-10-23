@@ -1,5 +1,7 @@
 # Attribution and provenance
 
+The October 23 single-top-polynomial biform rank package is owner-directed AI-assisted mathematics and is proof-written-unreviewed. It credits the literal source indexing to the pinned main blob 04d28c6a05027a7756891f47d28327de850a7501, and the polynomial-kernel and affine-z precedent to PR209 at 4247f42eeb305163d299f908144b5915d1c238c5. PR171 (binomials), PR186 (general gap) and PR207 (diagonal-polynomial Toeplitz) are distinct, cited concurrent lines, not incorporated code. The all-characteristic rank formula for arbitrary single top x coefficient and constant lower z coefficients, the residue-triangular proof and exact controls are local additions. Same-session computation and proof do not constitute independent mathematical review or historical priority; no exponent improvement is claimed. Source heads, test scope and limits are preserved in [the package](research/ai/2026-10-23-top-coefficient-biforms/sources.json).
+
 The `2026-10-23-column-overlap` package is owner-directed OpenAI Codex
 work. It preserves the paired-source definition, correction criterion,
 and PR211 auxiliary-kernel normalization with their original credit and
