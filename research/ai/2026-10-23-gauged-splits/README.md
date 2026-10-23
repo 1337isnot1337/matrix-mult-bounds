@@ -135,8 +135,8 @@ the factors from the pinned source and physical matrices before checking
 their contraction.
 
 It verifies every one of the 10,000 constant tensor positions. Exactly
-100 equal one and the other 9900 equal zero. There are no negative
-coefficients. The 73 nonzero positive coefficients equal the negative
+100 equal one and the other 9900 equal zero. There are no negative-degree
+coefficients. The 73 nonzero positive-degree coefficients equal the negative
 of the complete discarded tensor:
 
 | Degree | Nonzero tensor coefficients |

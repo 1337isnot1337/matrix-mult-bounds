@@ -13,10 +13,10 @@ Rank-increasing splits fall outside this theorem. The
 [split construction](split_proof.md) raises the term count to 80, then
 uses one common physical stabilizer transformation to delete four terms.
 A [five-split continuation](five_split.md) gives a second exact witness.
-Both have rank 76, no negative tensor coefficients, and the complete
+Both use 76 terms, have no negative-degree tensor coefficients, and give the complete
 matrix multiplication tensor at degree zero.
 
-| Witness | Exact intermediate terms | Distinct U directions | Positive remainder coefficients |
+| Witness | Exact intermediate terms | Distinct U directions | Positive-degree remainder coefficients |
 | --- | ---: | ---: | ---: |
 | Four splits | 80 | 72 | 51 |
 | Five splits | 81 | 71 | 172 |

@@ -19,6 +19,66 @@ simultaneous long-leg conditions, larger split batches and actual maps
 remain under investigation. No maximum split-batch theorem, general
 source-map exclusion, new rank record, or smaller exponent is established.
 
+The prescribed full two-jet question is now closed on d nonzero by
+`ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
+eight and nine preserve all six supplied B/C coefficients through order
+two and Y1=Y2=0. Every complete product coefficient through order17,
+the unit leading minors and exact prior-byte pins pass acceptance; six
+focused tests and a separate sparse reconstruction pass. The next
+precise extension question is PR107's full third jet with its nonzero
+moving-kernel correction, or the missing projective base charts. Do not
+mistake this extension of one specified two-jet for extension of every
+representative or a complete matrix target. This round's PR136 package
+is frozen for final integration and current-head CI; subsequent research
+belongs in a separate checkpoint. Written and unreviewed.
+
+The fixed-first continuation in
+`ai/2026-10-23-conic-fixed-first-curve/proof.md` now gives exact cubic
+maps preserving both full first coefficients of PR107, for all complex
+a,b,d including d=0. Six focused tests and a separate literal-source
+contraction pass. The prescribed second coefficients differ only in
+boundary entries; the new fixed-two package above now extends the
+specified full two-jet on d nonzero. The earlier normal-class criterion remains unchanged. Keep
+these local incidence curves distinct from a full matrix target; all
+claims remain written and unreviewed.
+
+The October23 polynomial-conic continuation is in
+`ai/2026-10-23-conic-polynomial-curve/proof.md`. A complete degree-one /
+degree-three polynomial pair realizes every cubic-component normal[1:d]
+for every complex a,b,d, including d=0. All original-source coefficients
+and unit rank minors replay exactly; the seven focused tests pass. This
+closes existence of an all-order representative for those normal classes,
+while leaving prescribed boundary velocities and lower jets distinct.
+Next: describe the remaining local moduli and determine how this
+rank-twelve incidence can constrain or support a full matrix target.
+The companion all-order criterion now makes PR101's second-order
+condition necessary and sufficient for existence on the entire affine
+base chart and every projective normal direction, allowing boundary
+velocity to vary. Other projective base charts remain open.
+Full regression and archived replay are required before merge. Written,
+unreviewed; no full M(10,10,11) target or exponent improvement.
+
+The October23 higher-conic continuation is in
+`ai/2026-10-23-conic-higher-jets/proof.md`, following PR107 at86b5142.
+The explicit mixed fourth-order family and separate rational tenth-order
+witness pass direct source replay and seven focused tests. The fixed-two package above now supplies all-order extension of those
+specified coefficients on d nonzero. The earlier polynomial curve
+changes boundary velocity and has its own broader parameter chart. Full local regression
+and historical replay are required before merge. The claims retain
+written, unreviewed status and do not construct the matrix target.
+
+The October23 continuation on `research/conic-third-order-20261023`
+studies `ai/2026-10-23-conic-third-jets/QUESTION.md`, following merged
+PR101 at `539b539` and integrating nonsplit main `dcd209a`. It supplies
+an explicit rational third-order family for all complex a,b,d with
+d nonzero and c=-d^3, with the credited first jet and changed second
+coefficient. Independent original-source symbolic replay checks all
+three orders and constant unit leading minors; a separate rational
+point passes standard-library replay. The later packages above supply
+fourth-order and all-order results with explicit lower-jet distinctions.
+This remains local rank-twelve incidence; no full matrix-target
+construction follows.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
@@ -69,9 +129,10 @@ has dimension70:68 independent boundary fields and two conic normals.
 The full second-order criterion for a nonzero normal class is
 `(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity
 and moving source kernel. A polynomial two-jet on c=-d^3 is exported;
-its uncorrected third coefficient is nonzero. Next: actual higher-order
-lifting on that cubic component, with the14-row local incidence kept
-distinct from the full matrix target. Other base charts and the12-by8
+its uncorrected third coefficient is nonzero. The later polynomial
+curve above establishes all-order existence after changing boundary
+velocity. Keep this14-row local incidence distinct from the full matrix
+target and from fixed lower-jet extension. Other base charts and the12-by8
 case remain open. Written, unreviewed, no smaller exponent.
 
 The coupled-boundary continuation studies

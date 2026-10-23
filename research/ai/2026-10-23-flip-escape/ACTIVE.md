@@ -27,8 +27,8 @@ the attribution and version pins in `sources.json`.
 - The broader `2026-10-23-gauged-splits` package gives six simultaneous
   deletions and a 76-term border seed with 70 U directions. Positive
   tensor valuations suffice even though two individual factor valuations
-  are negative. Separate gauges after epsilon=t^3 make all discarded
-  factors positive. A mixed trace equal to one proves that the prior
+  are negative. Separate gauges after epsilon=t^3 give all discarded
+  factors positive valuation. A mixed trace equal to one proves that the prior
   common unscaled-arrow condition cannot accept this batch.
 - The `2026-10-23-six-split-grid` package reconstructs its 52 isolated
   components and 47 permanent W directions. Those directions admit an
