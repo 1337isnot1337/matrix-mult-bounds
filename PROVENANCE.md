@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-asymmetric-boundary` package continues the credited
+moving-boundary and biform third-core normal systems. It supplies an exact
+auxiliary splitting, two joint-support cubic certificates and a one-sided
+projection lemma with its stated asymmetric application. The canonical
+source, first-normal system, conditioned minimum four, biform core,
+rank-one exclusion and target third-rank ceiling retain predecessor credit
+and exact source pins. No new external theorem is imported. All proofs,
+code and verification were prepared with OpenAI Codex under owner direction;
+no independent review, formalization, priority or exponent gain is claimed.
+The nonzero rank-four asymmetric branch remains open.
+
 The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
 work using the maintained literal cyclic convolution source and its open
 singular target. The interval-block proof and finite Krylov/Bezout and

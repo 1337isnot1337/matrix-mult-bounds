@@ -23,7 +23,12 @@ State whether any construction integrates at all orders. The full matrix
 target and the exponent improvement remain unproved unless every required
 coefficient identity and dimension implication is supplied.
 
-Source base: main d833eb0 (the full SHA is recorded in sources.json when
-the package is completed). Predecessors are the moving-boundary normal
+Current result: the package proves the auxiliary-product reduction and
+excludes every non-plane normal in the complete joint-zero branch under
+the target third-rank ceiling. The nonzero rank-four branch remains open;
+classify the rank-two locus of the42-by6 matrix M and compute its third
+tensor next. See proof.md for the exact quantifiers and limitations.
+
+Source base: main d833eb0265a3e107636e8a0678c14fc07df812c2. Predecessors are the moving-boundary normal
 system and the biform third-core conditioned obstruction calculation.
 Prepared with OpenAI Codex under owner direction; no independent review.

@@ -1,12 +1,15 @@
 # Integrated research coordination
 
 The asymmetric-boundary continuation studies
-`ai/2026-10-23-asymmetric-boundary/QUESTION.md`. It owns the separate
-12-by8 case: the full-side obstruction vanishes and the other obstruction
-has rank at most four on a 100-dimensional parameter space. The existing
-minimum-four and balanced-rank-two proofs leave that equality case open.
-The conic-lifting investigation remains with its active worker. No new
-mathematical claim or exponent improvement is asserted at registration.
+`ai/2026-10-23-asymmetric-boundary/QUESTION.md`. The nonzero rank-four
+conditioned branch forces the smaller first span to be H tensor C2.
+Both joint supports of every non-plane joint-zero core are at least three;
+a sharp one-sided zero-or-four gap excludes that entire joint-zero branch
+from the12-by8 target third-rank ceiling. Next: classify the rank-two locus
+of the42-by6 conditioned matrix M and construct its actual third tensor.
+The conic-lifting investigation remains with its active worker. These are
+written, unreviewed reductions; the full asymmetric case and exponent
+improvement remain open.
 
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
