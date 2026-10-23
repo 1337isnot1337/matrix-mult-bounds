@@ -1,5 +1,30 @@
 # Integrated research coordination
 
+The [full-channel overlap theorem](ai/2026-10-23-column-overlap/proof.md)
+closes fixed polynomial-column routing when almost all leading channel
+blocks remain invertible, even with arbitrary first/auxiliary Laurent
+poles. Full channel rank alone does not evade this bound. For fixed-width,
+near-full outer targets in the stated regular-channel setting, further
+construction must mix source polynomial columns or use the precisely
+quantified extensive leading rank loss. Exact separated-window examples
+retain the narrower positive construction Q(n,m) to M(floor(n/m),m,floor(n/m)).
+Claim `AI-PAIRED-COLUMN-OVERLAP-001` remains written and unreviewed.
+
+The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)
+is now complete: all 142,884 outer deletion pairs have dimension at least
+40, with two exact equality witnesses. This excludes all independent
+coordinate long-leg compressions of the fixed A4 conjugation family;
+their maximum leading loss is six. Continue with arbitrary noncoordinate
+flags in the [algebra question](ai/2026-10-23-a4-compression-algebra/QUESTION.md),
+not another coordinate census. Claim `AI-A4-INDEPENDENT-COORDINATE-004`
+remains written and unreviewed.
+
+October 23 rank-two paired-source continuation: branch research/paired-rank-two-gap-20261023-auto2 proves a sharp all-field b(b+1) raw first-slice rank for every rank-two coefficient matrix of Q(n,b), with a Kronecker minimal-index formula and exact controls. Scope is independent of current PR147 residual geometry, PR164 diagonal factor hypotheses, and PR211 Laurent auxiliary-channel barrier. This source theorem does not construct a target and does not improve omega. Written, unreviewed; full regression and archive replay are required before merge.
+
+The October 23 three-term biform continuation is in ai/2026-10-23-three-term-resultant-obstruction/proof.md. The exact R_(3,3) determinant t(2c^3-2ct^2+t^4) provides two characteristic-not-two coefficient triples with identical degrees and all pairwise resultants equal to one but ranks 14 and 15. An integral row kernel, determinant-one control, -4 minor, and 256-point exact determinant certificate are retained. The next problem is computing the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 and finding the additional subresultant/syzygy invariants that control rank. This is separate from PR207 diagonal Toeplitz and superseded PR209 affine-in-z work, and is not an exponent improvement.
+
+The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
+
 The October 23 quadratic-z middle-polynomial package
 `ai/2026-10-23-quadratic-z-middle/proof.md` gives an all-field exact
 rank formula for the literal `alpha+z*v(x)+gamma*z^2` source slice

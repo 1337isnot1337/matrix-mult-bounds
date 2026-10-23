@@ -1,0 +1,436 @@
+{
+  "schema": "matrix-nextwave-source-resolution-v1",
+  "baseline_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "source_heads": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "previous_sha": null,
+      "pull_requests": [
+        {
+          "number": 215,
+          "head_sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "title": "Study full-channel paired maps through overlapping coefficient windows",
+          "draft": true,
+          "base": "main",
+          "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/215"
+        }
+      ]
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "previous_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "pull_requests": [
+        {
+          "number": 213,
+          "head_sha": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "title": "Reduce a full-source two-sided A4 construction to a 46-dimensional compression problem",
+          "draft": false,
+          "base": "main",
+          "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/213"
+        }
+      ]
+    },
+    {
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "sha": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "previous_sha": null,
+      "pull_requests": []
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "previous_sha": null,
+      "pull_requests": [
+        {
+          "number": 216,
+          "head_sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "title": "Exhibit identical-resultant three-term cyclic slices of ranks 14 and 15",
+          "draft": true,
+          "base": "main",
+          "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/216"
+        }
+      ]
+    },
+    {
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "previous_sha": null,
+      "pull_requests": []
+    }
+  ],
+  "output_files": [
+    {
+      "path": "research/ai/2026-10-23-column-overlap/QUESTION.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/QUESTION.md",
+      "source_blob": "8621349b604966da4b1a83074ff62883e1a7286b",
+      "mode": "100644",
+      "sha256": "092cdbd3294e406ed0596689eca627611a0ef5a03f2e9e0f2345259bf0dfbdb7",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/README.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/README.md",
+      "source_blob": "727f867758e7348bb8efb0f1342261b22b77da69",
+      "mode": "100644",
+      "sha256": "161ba156c3022223c3ebaa934daf7d39ee8fc4bfbbed00a9a74f30415cb8a9d6",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/proof.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/proof.md",
+      "source_blob": "84bfaab75d277fa12b77d4f24cdfeecee1801c90",
+      "mode": "100644",
+      "sha256": "e1bfd38872455bc4196798dd8120943f6afb630c1b00e06eaeb2d47fbb9a26d1",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/sources.json",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/sources.json",
+      "source_blob": "9b393b86161df9cb7fd42f12c6115447233a3936",
+      "mode": "100644",
+      "sha256": "fde1ed25dd22c8cddcb98c496b80fb0e0d2c0e061abc567bf69efd72a0f6c647",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-column-overlap/verify.py",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "research/ai/2026-10-23-column-overlap/verify.py",
+      "source_blob": "90d1608aa890ec4a77bf0f070ab5764a742706ef",
+      "mode": "100644",
+      "sha256": "895f8102778da285f9c07562e57eaed36481599216f1edfd1677b532b0695409",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/column-overlap-2026-10-23/controls.json",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "results/column-overlap-2026-10-23/controls.json",
+      "source_blob": "bcbae292230f243fe4bfaedbbf39a0db359aa9f9",
+      "mode": "100644",
+      "sha256": "5a1f5e18ec86ce1bb304f5fdb025ba79f89abce8b2d9be889462ad2c1f149efa",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "tests/test_column_overlap.py",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_path": "tests/test_column_overlap.py",
+      "source_blob": "51cf13de67f69316a5af389e80cf548aa2886aeb",
+      "mode": "100644",
+      "sha256": "b4dfc32272af7a05d3a9d0b5e10362fd3b8e0414b10c3ff450c9d1b34f8ae62c",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+      "source_blob": "6f815f319e5a8ed54b1b3d05b7b0d2dccd70800c",
+      "mode": "100644",
+      "sha256": "a68f22da7ae0c30e6d6737fe6a8a0f4eb3dcb06144b92dfebe951c296b12847e",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+      "source_blob": "73c0ee7c0fb03ec246c35f2fe488d7e94a1346af",
+      "mode": "100644",
+      "sha256": "82a6510cd07eff10e06ebf05c5e1bb76dd73aa31270ddc99a831ffa4499f26f6",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+      "source_blob": "19d05335c32e496b69e196352b6412f91f5eee81",
+      "mode": "100644",
+      "sha256": "6f80132acf524035f1d268346a0253ce530bac8729ebd71cd29033603ea87bcd",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+      "source_blob": "cf4a372b8b79bd67a16804511d679005dfd9263b",
+      "mode": "100644",
+      "sha256": "5a9887a2574fc8ee9be6330a8bb040b802c017fa1e96943f720a4fe6f644c1d9",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "source_blob": "bac6cb49c934a10864aee07b4d80d25ff4d07b87",
+      "mode": "100644",
+      "sha256": "52b70e41f3ee6244c891136974878f7306bb5eb935d3c8b3d6cff2a7e60932d8",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+      "source_blob": "1d379aeb4a577333ba579682d16359105e6a1875",
+      "mode": "100644",
+      "sha256": "39cc2ecc19a2116653152a2ddc38d2338750c061eb323a77c8c6bc37c2463d9b",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+      "source_blob": "6b74c11ada20eaac5bed57c727f9cfb6a8ac7631",
+      "mode": "100644",
+      "sha256": "8283038c67babc469d33e460a53e9e10f3e548b3692c19713ccea8f69fa02568",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+      "source_blob": "3d745b6cf668625f20a9f58d2ce830ea52a1ea9e",
+      "mode": "100644",
+      "sha256": "40effffdcbaa37e0d58ed2e3604b9937f9a8bbecdeaa94e60e7e72e12607e881",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+      "source_blob": "7c8e67f573acfdce00e2bec793507e02950b403a",
+      "mode": "100644",
+      "sha256": "cff228628f9fcdab9fd675e12faefc837f390cff1d39ad2dbf0c496e5e7b4323",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+      "source_blob": "561baadd9d1867b6f355333810685bcb11f08bf0",
+      "mode": "100644",
+      "sha256": "0b0ebb0513e0ae1af0ef5b942bb78a2492af1c73a06a3320bceb99140b01b99f",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+      "source_blob": "95d2129c42512d9f0f5e00d9524ce9107bd78dd1",
+      "mode": "100644",
+      "sha256": "ffa5306dc272f243cfc8b133abf42eb2a6fb173ca3db2762c8cf5f1e42a8bce2",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+      "source_blob": "03b679f8b231915ca013de4792360a99659cb9ee",
+      "mode": "100644",
+      "sha256": "ca4c177a0669bf08878e316351a6cae347527c44570162a3a097fb5baaaf754e",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+      "source_blob": "5b9c7513a08f1cf5c0ea83ebacafcaf1ebf6fef5",
+      "mode": "100644",
+      "sha256": "3c976fb864896a4d4439583e620a777dbed9dcb1197662bbcd706c416d96ca58",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+      "source_blob": "e40ab6095d48ded7dde1542bb1ab68d70eccfa06",
+      "mode": "100644",
+      "sha256": "ff989b70728f5994a1223f29ba452891f91d9d3d587f7a52b3bda14685db43b5",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "tests/test_a4_coordinate_compressions.py",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_path": "tests/test_a4_coordinate_compressions.py",
+      "source_blob": "25d768e7dbd538ae430e043c752009e52923392d",
+      "mode": "100644",
+      "sha256": "2f28fb39935bdee2e5e4d5b8dd2e4799424e583f53024bbbc13266f62c8a11b3",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "source_blob": "07744d31fb713b728f4b1069ab620b9f4e48ee67",
+      "mode": "100644",
+      "sha256": "e8672275a97e1da822d53c2dca7c3673aa6b42f7847c6b41501554a8934ff337",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/sources.json",
+      "source_blob": "a5d29d802584d7b1fc27652b0ef4e81bf53cefee",
+      "mode": "100644",
+      "sha256": "d2ed0344f28554d881b0501755454abc3df807c389a4fc9920c4c016b6b5ea65",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "research/ai/2026-10-23-paired-rank-two-gap/verify.py",
+      "source_blob": "1d039b9b286fabf0987c5963165559574dae2d9c",
+      "mode": "100644",
+      "sha256": "562c964f339a0a69fec6d04bf561d9c36510c9c001945469c7ad745494c64821",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/paired-rank-two-gap-2026-10-23/certificate.json",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "results/paired-rank-two-gap-2026-10-23/certificate.json",
+      "source_blob": "ff5b9a9d559a9e7da3560c8220050a4eb50fd565",
+      "mode": "100644",
+      "sha256": "979ac513c355739723b9060dddc325cf24b787cfa1325da392c5aafd4f696328",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "tests/test_paired_rank_two_gap.py",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_path": "tests/test_paired_rank_two_gap.py",
+      "source_blob": "a18bd5184d73ace824164995c0bd502512068a0d",
+      "mode": "100644",
+      "sha256": "46db5da6dbfb852b276c3e6265bd132a12e15c46933159193b029141b2a89b40",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/README.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/README.md",
+      "source_blob": "c435efff104beb938614f33b0598960e94a89606",
+      "mode": "100644",
+      "sha256": "300c1fab406a7cb5337ded2196fb255f8e0875ced5395b78334b6c1bba454eeb",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "source_blob": "5d2b55ac11ddeadef1d7d271439727a60aaf5231",
+      "mode": "100644",
+      "sha256": "b285f83102d59e101e70f857ea261847fcabc639f14e895fa242f9388f84b8ce",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/sources.json",
+      "source_blob": "e19ea3131f8a744255cbc95df5166cdc10b5aeb1",
+      "mode": "100644",
+      "sha256": "f5215c93dc95be5074abbdd44fcb731532c71cdaac6345977a9778aefcb66a2b",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+      "source_blob": "e5ed21e5afe0ece03a6f4141200fb3e3a2133d4e",
+      "mode": "100644",
+      "sha256": "ef526c1d46b606b023f8155c5c1433aca70d65f2f4c67fea07c6d5095053bce9",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/three-term-resultant-obstruction-2026-10-23/controls.json",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "results/three-term-resultant-obstruction-2026-10-23/controls.json",
+      "source_blob": "df3581bba5fb27db538e9342da61915d3c9931eb",
+      "mode": "100644",
+      "sha256": "d99e4b523c02364e6cc7083abc46b72fb1fd89712c0eb2f3a46d80fd10ec2b8e",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "tests/test_three_term_resultant_obstruction.py",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_path": "tests/test_three_term_resultant_obstruction.py",
+      "source_blob": "18bc9d484511e050c7d91cac0839806da806c089",
+      "mode": "100644",
+      "sha256": "d0aea75277f4bb191391370efbaf94e433547fc99b4ee587b237b3a1479af293",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_blob": "1013b8e8196a292ba562df93886badf4c4ed3216",
+      "mode": "100644",
+      "sha256": "86ec66ce941f34e796ab0c028b6d1bec810df77138c2c97f18827f06e0f980e2",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_blob": "4b04a2c6359631d4ac572d2ea49745e1893417bf",
+      "mode": "100644",
+      "sha256": "746619a3161c350af395d22040fe22d7ac5f0abc57ee3c9c8cf6a4c99e873138",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_blob": "a07e29b5f881983bb5285b5a2bef233fcd50972c",
+      "mode": "100644",
+      "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_blob": "0b67e941456ad25f6902ab709678ed55070ef5d2",
+      "mode": "100644",
+      "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_blob": "2bb2c641460cb6a111a986e119c7f2ea0b599ee1",
+      "mode": "100644",
+      "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_blob": "fb8f266a49ef3f81a5d240db3bb7b4490c1094cc",
+      "mode": "100644",
+      "sha256": "df2a9ae1e737a2dc7db7a000220b6d3b32162978afa7b1d3433ab738e8d49add",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    },
+    {
+      "path": "tests/test_top_coefficient_biforms.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "tests/test_top_coefficient_biforms.py",
+      "source_blob": "8426f8ed541a7c3b24bd58913b3b46293e332dc5",
+      "mode": "100644",
+      "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8",
+      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+    }
+  ],
+  "source_capture_sha256": "bceae5f9713e4cb758a02831c8679548abe12951e402a99d0fddc8ace2051691",
+  "source_archive_receipt_sha256": "0fe19ca197382d5bff2b0cea7e578af73faa13e4b6891f99152c1dd4869fbcc6",
+  "delegated_shared_paths": [
+    "PROVENANCE.md",
+    "STATUS.md",
+    "docs/research_directions.md",
+    "research/ACTIVE.md",
+    "research/claims.json"
+  ],
+  "same_path_collisions": [],
+  "method": "All nonshared incoming paths are new and distinct. Expected bytes come directly from frozen source blobs before creating the new integration worktree."
+}

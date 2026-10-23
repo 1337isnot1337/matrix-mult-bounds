@@ -1,5 +1,30 @@
 # Attribution and provenance
 
+The `2026-10-23-column-overlap` package is owner-directed OpenAI Codex
+work. It preserves the paired-source definition, correction criterion,
+and PR211 auxiliary-kernel normalization with their original credit and
+source pins. The overlap-component intersection bound and leading
+rank-loss budget are local continuations. Exact controls reconstruct all
+native source terms over the rationals. Two subagents and the root
+checked the argument within the generating session; this does not supply
+independent mathematical review. No full near-capacity matrix family,
+historical priority, formalization, or exponent improvement is claimed.
+
+The `2026-10-23-a4-coordinate-compressions` continuation retains the
+PR213 source, block-space reduction and nine-direction requirement with
+exact published dependency pins. The new additions are the complete
+142,884-pair independent coordinate census and two exact sharpness
+witnesses, followed by the deduction for full long-leg coordinate maps.
+The modular calculation provides only lower bounds; the upper witnesses
+are literal integer zero identities. This is owner-directed Codex work,
+with no independent review, arbitrary-flag exclusion or exponent claim.
+
+The October 23 rank-two paired-source gap package is owner-directed AI-derived work. The native Q(n,b) tensor and its previous universal source-slice bound remain credited to the exact pinned narrow-rank-locus note. The Kronecker pencil decomposition under strict equivalence is imported classical work credited to De Teran, Dopico and Landsberg (arXiv:1606.02574, 2016), and Karathanasi and Karampetakis (DOI:10.1093/imamci/dnz031, published 2019). The Toeplitz two-pencil factorization, exact paired-block recurrence, rank-two sharpness and scoped source interpretation are local deductions. The finite controls use independently constructed coefficient and Toeplitz-factor matrices, but share the generating research session and are not independent mathematical review or formalization. No historical priority, actual improving degeneration or exponent improvement is claimed.
+
+The 2026-10-23 three-term resultant-obstruction package is owner-directed AI-assisted research. The literal cyclic-source coefficient convention and general prior gap are credited to the maintained anisotropic construction at blob 04d28c6a05027a7756891f47d28327de850a7501. Superseded PR209 at 4247f42eeb305163d299f908144b5915d1c238c5 retains attribution for its affine recurrence and rank theorem; the extension to three coefficients, symbolic determinant family, resultant-matched exact rank obstruction and independent integer certificates are local additions. The certificate is same-session computation, not external mathematical review or formalization. Consolidation PR214 is concurrent and does not establish the exponent improvement.
+
+The October 23 single-top-polynomial biform rank package is owner-directed AI-assisted mathematics and is proof-written-unreviewed. It credits the literal source indexing to the pinned main blob 04d28c6a05027a7756891f47d28327de850a7501, and the polynomial-kernel and affine-z precedent to PR209 at 4247f42eeb305163d299f908144b5915d1c238c5. PR171 (binomials), PR186 (general gap) and PR207 (diagonal-polynomial Toeplitz) are distinct, cited concurrent lines, not incorporated code. The all-characteristic rank formula for arbitrary single top x coefficient and constant lower z coefficients, the residue-triangular proof and exact controls are local additions. Same-session computation and proof do not constitute independent mathematical review or historical priority; no exponent improvement is claimed. Source heads, test scope and limits are preserved in [the package](research/ai/2026-10-23-top-coefficient-biforms/sources.json).
+
 The `2026-10-23-quadratic-z-middle` package is owner-directed,
 AI-assisted mathematics. Its exact literal source convention and the
 general biform gap are credited to the pinned

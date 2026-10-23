@@ -7,13 +7,19 @@ now gives the exact all-field rank
 constant and `d=deg(v)` (zero for v=0). The next unowned question
 is the degree-filtered syzygy module of
 `u(x)+z*v(x)+z^2*w(x)` with nonconstant outer coefficients.
-Identify the two minimal polynomial-basis degrees, determine whether
-coefficient degrees alone can govern rank, or exhibit exact
-counterexamples. Use PR209's row-polynomial convention with full
-degree endpoints, while retaining PR207/208 ownership of diagonal
-Toeplitz cases. One-slice rank information is insufficient to claim
+Identify the two minimal polynomial-basis degrees. The
+[three-term counterexample](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md)
+already separates ranks with identical coefficient degrees and pairwise
+resultants in characteristic different from two. The general minimal-index
+and syzygy classification remains open. Use PR209's row-polynomial
+convention with full degree endpoints, while retaining PR207/208 ownership
+of diagonal Toeplitz cases. One-slice rank information is insufficient to claim
 a better matrix-multiplication exponent: compatible three-leg maps
 and the complete implication remain missing.
+
+The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
+
+The [three-term resultant obstruction](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) disproves classification of individual R_(3,3) ranks from primitive coefficient degree and all three pairwise resultants alone. The exact determinant separates rank 14 and 15 despite identical invariants. The next precise question is to compute two minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients and bounded-degree solutions; seek exact subresultant conditions or higher-rank coefficient pencils, and require a full three-leg source-to-target map before claiming a smaller exponent. Do not repeat PR207's diagonal Toeplitz lane.
 
 These directions combine independent branch checkpoints. Read the cited
 continuations together: later scoped obstructions can close an earlier proposed
@@ -22,7 +28,17 @@ receipts and intermediate frontier values are not current validation claims.
 Written proofs remain unreviewed unless their individual evidence record says
 otherwise.
 
+## Rank-two first-slice gap and mixed first maps (October 23)
+
+The [paired rank-two gap](../research/ai/2026-10-23-paired-rank-two-gap/proof.md) gives rank S_Y >= b(b+1) for every rank-two first coefficient matrix of Q(n,b), sharply. At width four this is 20, strengthening the generic previous 17 for rank two. To apply it to an ordinary corrected target, prove that a sufficiently large residual-annihilator family has source coefficient rank two and then control compression losses through the two actual long kernels. The theorem alone does not imply that arbitrary mixed first maps have rank-two images, nor does it extend to singular Laurent maps. A future construction should provide actual tensor maps or prove a precise rank-two-image implication, not assert an exponent gain from the source rank gap alone.
+
 ## Full-source singular maps: the compression rank-loss condition
+
+The [independent coordinate census](../research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
+now has sharp outer image dimension 40, so every independent coordinate
+compression of the fixed two-sided A4 family is excluded. The remaining
+question concerns arbitrary complex subspaces U and W. A finite choice
+of coordinate basis does not settle their compression dimensions.
 
 The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)
 computes the complete limiting space for `g=I+t^-1 N`, with the fixed

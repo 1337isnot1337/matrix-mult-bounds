@@ -1,0 +1,251 @@
+{
+  "schema": "matrix-nextwave-provisional-docs-v1",
+  "baseline_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "source_plan": "nextwave_plan.json",
+  "status": "prepared_with_two_independent_scope_corrections_for_frozen_gate",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
+      "source_commit": null,
+      "source_commits": [
+        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
+      ],
+      "source_path": "STATUS.md",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/STATUS.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
+      "source_commit": null,
+      "source_commits": [
+        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
+      ],
+      "source_path": "PROVENANCE.md",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/PROVENANCE.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
+      "source_commit": null,
+      "source_commits": [
+        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
+      ],
+      "source_path": "research/ACTIVE.md",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/research/ACTIVE.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
+      "source_commit": null,
+      "source_commits": [
+        "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "aed489a672a79e0ec35d33fea15d875fc425c9db"
+      ],
+      "source_path": "docs/research_directions.md",
+      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+      "input_sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/docs/research_directions.md",
+      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+    }
+  ],
+  "operations": [
+    {
+      "path": "STATUS.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/column-overlap-20261023-ab94",
+      "inserted_text": "## Full-channel paired maps: overlap and leading rank loss\n\nThe [column-overlap proof](research/ai/2026-10-23-column-overlap/proof.md)\nallows arbitrary full channel matrices at each retained polynomial column.\nFor fixed injective routing, an overlap graph bounds the leading target\nslice intersection. Saturation accounts for new directions from singular\nleading blocks, even with arbitrary first-map and auxiliary Laurent poles.\nAt fixed width and near-full outer dimensions, all but o(n) invertible\nleading blocks force auxiliary border rank n^2-o(n^2). Equal positive\nfractions above 1/m of invertible leading blocks also force quadratic\ncost by the stated quantitative bound. General column-mixing maps and\nmore extensively singular leading blocks remain open. Claim\n`AI-PAIRED-COLUMN-OVERLAP-001` is written and unreviewed. Exact separated\nwindow restrictions and a full-channel sharp flattening example test its\nscope; no exponent improves.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/column-overlap-20261023-ab94",
+      "inserted_text": "The `2026-10-23-column-overlap` package is owner-directed OpenAI Codex\nwork. It preserves the paired-source definition, correction criterion,\nand PR211 auxiliary-kernel normalization with their original credit and\nsource pins. The overlap-component intersection bound and leading\nrank-loss budget are local continuations. Exact controls reconstruct all\nnative source terms over the rationals. Two subagents and the root\nchecked the argument within the generating session; this does not supply\nindependent mathematical review. No full near-capacity matrix family,\nhistorical priority, formalization, or exponent improvement is claimed.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/column-overlap-20261023-ab94",
+      "inserted_text": "The [full-channel overlap theorem](ai/2026-10-23-column-overlap/proof.md)\ncloses fixed polynomial-column routing when almost all leading channel\nblocks remain invertible, even with arbitrary first/auxiliary Laurent\npoles. Full channel rank alone does not evade this bound. Further paired\nconstruction must mix source polynomial columns or use the precisely\nquantified extensive leading rank loss. Exact separated-window examples\nretain the narrower positive construction Q(n,m) to M(floor(n/m),m,floor(n/m)).\nClaim `AI-PAIRED-COLUMN-OVERLAP-001` remains written and unreviewed.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "inserted_text": "## Independent coordinate compressions are excluded with sharp loss six\n\nThe [complete independent-coordinate census](research/ai/2026-10-23-a4-coordinate-compressions/proof.md)\ncovers all 142,884 independent two-row / two-column deletions of the\n46-dimensional outer space. Every complex projected dimension is at\nleast 40. Two exact integer kernel witnesses attain 40, so the maximum\nloss is six. The existing bottom-left kernel reduction transfers this\nbound to every independent coordinate compression of the full fixed\n112-dimensional conjugation family. Its target requires loss at least\nnine, so the entire coordinate class is excluded. Claim\n`AI-A4-INDEPENDENT-COORDINATE-004` is written and unreviewed, with finite\ncomputer assistance. Arbitrary noncoordinate flags remain a separate\nquestion; no target or exponent improvement is established.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "inserted_text": "The `2026-10-23-a4-coordinate-compressions` continuation retains the\nPR213 source, block-space reduction and nine-direction requirement with\nexact published dependency pins. The new additions are the complete\n142,884-pair independent coordinate census and two exact sharpness\nwitnesses, followed by the deduction for full long-leg coordinate maps.\nThe modular calculation provides only lower bounds; the upper witnesses\nare literal integer zero identities. This is owner-directed Codex work,\nwith no independent review, arbitrary-flag exclusion or exponent claim.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "inserted_text": "The [independent coordinate class](ai/2026-10-23-a4-coordinate-compressions/README.md)\nis now complete: all 142,884 outer deletion pairs have dimension at least\n40, with two exact equality witnesses. This excludes all independent\ncoordinate long-leg compressions of the fixed A4 conjugation family;\ntheir maximum leading loss is six. Continue with arbitrary noncoordinate\nflags in the [algebra question](ai/2026-10-23-a4-compression-algebra/QUESTION.md),\nnot another coordinate census. Claim `AI-A4-INDEPENDENT-COORDINATE-004`\nremains written and unreviewed.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "source_base": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "inserted_text": "The [independent coordinate census](../research/ai/2026-10-23-a4-coordinate-compressions/proof.md)\nnow has sharp outer image dimension 40, so every independent coordinate\ncompression of the fixed two-sided A4 family is excluded. The remaining\nquestion concerns arbitrary complex subspaces U and W. A finite choice\nof coordinate basis does not settle their compression dimensions.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "inserted_text": "## Sharp rank-two slice gap for the paired source (October 23)\n\nThe [rank-two source theorem](research/ai/2026-10-23-paired-rank-two-gap/proof.md) proves over every field that a rank-two first-leg coefficient matrix Y in Q(n,b) gives source contraction rank at least b(b+1), attained by Y=E00+E11. The proof uses classical Kronecker strict equivalence for full-projective-rank polynomial-multiplication pencils and an elementary all-characteristic block recurrence. It also gives the exact formula b^2+sum min(e_i,d_j) in terms of the two minimal-index partitions. At b=4 the minimum rank is 20 rather than the 17 obtained from the earlier general lower bound. Standalone direct-source finite controls include 128 block checks, 16 sharpness ranks and complete GF2 rank-two censuses in seven small formats. Claim AI-PAIRED-RANK-TWO-SLICE-GAP-001 is written and unreviewed. The theorem does not construct a tensor degeneration or improve the 9/4 exponent bound.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "inserted_text": "The October 23 rank-two paired-source gap package is owner-directed AI-derived work. The native Q(n,b) tensor and its previous universal source-slice bound remain credited to the exact pinned narrow-rank-locus note. The Kronecker pencil decomposition under strict equivalence is imported classical work credited to De Teran, Dopico and Landsberg (arXiv:1606.02574, 2016), and Karathanasi and Karampetakis (DOI:10.1093/imamci/dnz031, published 2019). The Toeplitz two-pencil factorization, exact paired-block recurrence, rank-two sharpness and scoped source interpretation are local deductions. The finite controls use independently constructed coefficient and Toeplitz-factor matrices, but share the generating research session and are not independent mathematical review or formalization. No historical priority, actual improving degeneration or exponent improvement is claimed.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "inserted_text": "October 23 rank-two paired-source continuation: branch research/paired-rank-two-gap-20261023-auto2 proves a sharp all-field b(b+1) raw first-slice rank for every rank-two coefficient matrix of Q(n,b), with a Kronecker minimal-index formula and exact controls. Scope is independent of current PR147 residual geometry, PR164 diagonal factor hypotheses, and PR211 Laurent auxiliary-channel barrier. This source theorem does not construct a target and does not improve omega. Written, unreviewed; full regression and archive replay are required before merge.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/paired-rank-two-gap-20261023-auto2",
+      "inserted_text": "## Rank-two first-slice gap and mixed first maps (October 23)\n\nThe [paired rank-two gap](../research/ai/2026-10-23-paired-rank-two-gap/proof.md) gives rank S_Y >= b(b+1) for every rank-two first coefficient matrix of Q(n,b), sharply. At width four this is 20, strengthening the generic previous 17 for rank two. To apply it to an ordinary corrected target, prove that a sufficiently large residual-annihilator family has source coefficient rank two and then control compression losses through the two actual long kernels. The theorem alone does not imply that arbitrary mixed first maps have rank-two images, nor does it extend to singular Laurent maps. A future construction should provide actual tensor maps or prove a precise rank-two-image implication, not assert an exponent gain from the source rank gap alone.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "inserted_text": "## Exact three-term biform ranks escape pairwise-resultant data\n\nThe [three-term coefficient-rank obstruction](research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) proves over Z that the literal R_(3,3) determinant for u=x^2, v=1+x^2, w=1+t*x+c*x^2 is t(2c^3-2ct^2+t^4). Two specializations have primitive degree two and all three pairwise resultants equal to one, but ranks 14 and 15 over every field of characteristic other than two. The rank-14 case has an integral left-kernel vector and a -4 minor; the rank-15 case has unit determinant. A degree-bounded 256-point exact integer certificate and focused standard-library test pass. Claim AI-THREE-TERM-RESULTANT-OBSTRUCTION-001 is written, unreviewed and strictly one-slice. Next: identify the two polynomial-kernel minimal indices for general three-term coefficient recurrences, not another pairwise-resultant search. No tensor target or exponent gain is established.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "inserted_text": "The 2026-10-23 three-term resultant-obstruction package is owner-directed AI-assisted research. The literal cyclic-source coefficient convention and general prior gap are credited to the maintained anisotropic construction at blob 04d28c6a05027a7756891f47d28327de850a7501. Superseded PR209 at 4247f42eeb305163d299f908144b5915d1c238c5 retains attribution for its affine recurrence and rank theorem; the extension to three coefficients, symbolic determinant family, resultant-matched exact rank obstruction and independent integer certificates are local additions. The certificate is same-session computation, not external mathematical review or formalization. Consolidation PR214 is concurrent and does not establish the exponent improvement.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "inserted_text": "The October 23 three-term biform continuation is in ai/2026-10-23-three-term-resultant-obstruction/proof.md. The exact R_(3,3) determinant t(2c^3-2ct^2+t^4) provides two characteristic-not-two coefficient triples with identical degrees and all pairwise resultants equal to one but ranks 14 and 15. An integral row kernel, determinant-one control, -4 minor, and 256-point exact determinant certificate are retained. The next problem is computing the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 and finding the additional subresultant/syzygy invariants that control rank. This is separate from PR207 diagonal Toeplitz and superseded PR209 affine-in-z work, and is not an exponent improvement.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "inserted_text": "The [three-term resultant obstruction](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) disproves classification of individual R_(3,3) ranks from primitive coefficient degree and all three pairwise resultants alone. The exact determinant separates rank 14 and 15 despite identical invariants. The next precise question is to compute two minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients and bounded-degree solutions; seek exact subresultant conditions or higher-rank coefficient pencils, and require a full three-leg source-to-target map before claiming a smaller exponent. Do not repeat PR207's diagonal Toeplitz lane.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "STATUS.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "inserted_text": "## All-field ranks of single-top-polynomial biforms\n\nThe [top-coefficient biform theorem](research/ai/2026-10-23-top-coefficient-biforms/proof.md) computes the literal cyclic-source matrix R_(a,b) for every f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)*z^e with 1<=e<b, nonzero constant c_0, constant lower coefficients, and nonzero polynomial w of x-degree d<a. Over every field, its exact rank is ab + sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). The leading polynomial-kernel vectors form a triangular residue basis, giving a complete all-field proof. The new controls pass 3,372 full-matrix modular comparisons and 24 independent-implementation rational matrix ranks. Claim AI-TOP-COEFFICIENT-BIFORM-RANK-001 is proof-written-unreviewed. It does not classify arbitrary quadratic-in-z coefficients, build a three-leg tensor target, or improve omega below 9/4. The separate [continuation](research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md) records exact scope and provenance.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "inserted_text": "The October 23 single-top-polynomial biform rank package is owner-directed AI-assisted mathematics and is proof-written-unreviewed. It credits the literal source indexing to the pinned main blob 04d28c6a05027a7756891f47d28327de850a7501, and the polynomial-kernel and affine-z precedent to PR209 at 4247f42eeb305163d299f908144b5915d1c238c5. PR171 (binomials), PR186 (general gap) and PR207 (diagonal-polynomial Toeplitz) are distinct, cited concurrent lines, not incorporated code. The all-characteristic rank formula for arbitrary single top x coefficient and constant lower z coefficients, the residue-triangular proof and exact controls are local additions. Same-session computation and proof do not constitute independent mathematical review or historical priority; no exponent improvement is claimed. Source heads, test scope and limits are preserved in [the package](research/ai/2026-10-23-top-coefficient-biforms/sources.json).",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "inserted_text": "The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "branch": "research/top-coefficient-biforms-20261023-t2",
+      "inserted_text": "The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.",
+      "reason": "Exact authored insertion from the frozen source. Preserve all existing consolidated narrative and scopes."
+    }
+  ],
+  "semantic_corrections": [
+    {
+      "path": "research/ACTIVE.md",
+      "before": "Full channel rank alone does not evade this bound. Further paired\nconstruction must mix source polynomial columns or use the precisely\nquantified extensive leading rank loss.",
+      "after": "Full channel rank alone does not evade this bound. For fixed-width,\nnear-full outer targets in the stated regular-channel setting, further\nconstruction must mix source polynomial columns or use the precisely\nquantified extensive leading rank loss.",
+      "reason": "State the source theorem's fixed-width, near-full, regular-channel hypotheses before its construction-direction conclusion."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "before": "Identify the two minimal polynomial-basis degrees, determine whether\ncoefficient degrees alone can govern rank, or exhibit exact\ncounterexamples. Use PR209's row-polynomial convention with full\ndegree endpoints, while retaining PR207/208 ownership of diagonal\nToeplitz cases.",
+      "after": "Identify the two minimal polynomial-basis degrees. The\n[three-term counterexample](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md)\nalready separates ranks with identical coefficient degrees and pairwise\nresultants in characteristic different from two. The general minimal-index\nand syzygy classification remains open. Use PR209's row-polynomial\nconvention with full degree endpoints, while retaining PR207/208 ownership\nof diagonal Toeplitz cases.",
+      "reason": "The new scoped resultant counterexample answers the prior counterexample request; retain the open general minimal-index/syzygy classification and the characteristic qualification."
+    }
+  ],
+  "validation": {
+    "all_source_changes_are_pure_insertions": true,
+    "all_existing_content_retained_except_scoped_solved_question": true,
+    "missing_relative_markdown_links": [],
+    "conflict_markers": false
+  },
+  "notes": "The five claims remain unreviewed. Source statements of earlier same-session checks are historical until the separate frozen integration gate passes.",
+  "provisional_source_report": "nextwave_provisional_docs_resolution.json"
+}

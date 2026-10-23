@@ -1,13 +1,13 @@
 # Branch consolidation
 
-This maintenance branch gathers the work from 132 topic branch names. The initial
-snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated thirty
-new or updated heads, including three additional topic branches. The starting main
+This maintenance branch gathers the work from 136 topic branch names. The initial
+snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated thirty-five
+new or updated heads, including seven additional topic branches. The starting main
 commit was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
 
 The [branch manifest](branches.json) records the exact source heads, their original
 pull requests, and the archive tags that preserve them. There are 129 initial
-tagged heads and thirty tagged updates. Source histories are also ancestors of the
+tagged heads and thirty-five tagged updates. Source histories are also ancestors of the
 consolidation branch. Original pull request draft status is retained in the
 manifest as provenance; consolidation does not establish mathematical review.
 
@@ -17,7 +17,7 @@ The source packages, tests, result files, and source records are combined in the
 working tree. Shared Markdown sections and JSON records are reconciled explicitly.
 Earlier packages remain available with their stated scope and limitations.
 
-The combined ledger has 607 records. Five additional identifiers distinguish
+The combined ledger has 612 records. Five additional identifiers distinguish
 independent records that previously shared an identifier. The
 [claim decisions](claim_resolution.json) preserve each source record, its evidence
 status, and any identifier or evidence-path change. The two initial historical
@@ -44,9 +44,10 @@ Passing these checks does not change a claim's mathematical review status. Chang
 to main still require the repository's pull request and CI gates.
 
 The [publication record](PUBLICATION.md) links exact revision-scoped test and
-preservation receipts. The final inventory has 1,933 tests across 432 modules;
-composite local coverage and two final metadata checks passed. The full final
-local suite was not rerun as one uninterrupted run. Hosted CI remains required.
+preservation receipts. The prior published inventory has 1,933 tests across 432 modules;
+its composite coverage and two final metadata checks passed. The separate
+[next-wave record](NEXTWAVE.md) identifies the five later captured heads and
+their pending focused verification. Hosted CI remains required.
 
 ## Original branch recovery
 

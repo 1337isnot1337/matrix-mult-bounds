@@ -10712,6 +10712,91 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-PAIRED-COLUMN-OVERLAP-001",
+      "title": "Full-channel overlap forces quadratic repair unless leading column maps collapse",
+      "origin": "Owner-directed OpenAI Codex continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-column-overlap/proof.md",
+      "statement": "For Q(n,m), m>=2, suppose each long map has fixed injective routing of source polynomial columns to target outer coordinates and arbitrary regular m-by-m channel matrices. Let N count the product of covered source first indices, G the corresponding product from invertible leading channel blocks, and c the product of connected-component counts of good full-window source-column positions, with edges at distance<m. Any formal degeneration Q(n,m) direct_sum R to M(l,m,r), with arbitrary Laurent first and auxiliary maps, requires first_flattening_rank(R) and border_rank(R) at least max(0,lr-N+G-c). The contributions may be separately polar. With fixed m and l/n,r/n tending to one, o(n) singular leading channel blocks force n^2-o(n^2) repair cost. Full channel rank is allowed.",
+      "dependencies": [
+        "Maintained Q(n,m) source convention and fixed-width correction criterion, pinned in sources.json",
+        "PR211 auxiliary-kernel normalization, with its original credit and no low-channel-rank hypothesis",
+        "Exact coefficient-window overlap, rational slice-plane reconstruction and a saturated-limit dimension budget"
+      ],
+      "limitations": "Fixed injective routing; distinct polynomial columns do not mix on either long leg. Channel blocks are regular formal series. Extensive leading singularity and general column-mixing maps remain open. The full-channel example is sharp for the first-flattening bound only. No independent review, formalization, historical priority or improved exponent.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-A4-INDEPENDENT-COORDINATE-004",
+      "title": "Sharp dimension forty for all independent coordinate compressions of the A4 outer space",
+      "origin": "Owner-directed OpenAI Codex research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+      "section": "1-3",
+      "statement": "Over C, every independent deletion of two output coordinates and two input coordinates from the explicit 46-dimensional outer space E=G+[G,F]+FGF has image dimension at least 40. Complete finite replay covers all 142884 pairs modulo 1009; exact integer six-dimensional kernel witnesses attain dimension 40 at exactly the two stated pairs. The preceding bottom-left kernel reduction then bounds every independent coordinate rank-110 long-leg compression of the complete fixed conjugation limit by a loss of at most six leading directions, below the nine required for M(10,10,11).",
+      "dependencies": [
+        "AI-A4-TWOSIDED-LOWRANK-003 exact block space and compression-kernel reduction",
+        "AI-A4-TWOSIDED-RANKLOSS-001 nine-direction requirement",
+        "Complete finite modular-rank lower-bound census and exact integer kernel identities"
+      ],
+      "limitations": "Finite computer-assisted theorem for independently selected coordinate deletions in the specified normalized basis and one fixed conjugation family. It does not exclude arbitrary noncoordinate flags or other singular paths. Modular ranks are used only as complex lower bounds; exact sharpness is separately proved. No target construction, independent mathematical review, formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-PAIRED-RANK-TWO-SLICE-GAP-001",
+      "title": "Sharp all-field rank-two first-slice gap for paired convolution source",
+      "origin": "Owner-directed AI-derived research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-paired-rank-two-gap/proof.md",
+      "statement": "For any field, integers n>=2 and b>=1, and rank-two n-by-n first parameter Y of Q(n,b), the ordinary first contraction has rank at least b(b+1); this is attained by Y=E00+E11. For two polynomial-multiplication pencils of full projective row/column rank with right/left Kronecker minimal index partitions (e_i) and (d_j), respectively, its exact matrix rank is b^2+sum_ij min(e_i,d_j).",
+      "dependencies": [
+        "Literal paired tensor, previous weaker all-rank inequality: research/ai/2026-10-20-paired-construction/narrow_rank_locus.md, pinned git blob 6ae22d29bd4db84a6828ebaf3eebb92c12812b16",
+        "Classical Kronecker strict-equivalence canonical form over algebraic closure, De Teran-Dopico-Landsberg 2016 arXiv:1606.02574; Karathanasi-Karampetakis 2019 DOI 10.1093/imamci/dnz031"
+      ],
+      "limitations": "Rank exactly two only. Does not apply to arbitrary rank-two contraction limits without their source realization, establish a source-to-target map, strengthen general Laurent repair bounds, or improve the omega<=9/4 baseline. Finite controls are not independent external review.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-THREE-TERM-RESULTANT-OBSTRUCTION-001",
+      "title": "Three-term cyclic-source biform ranks are not determined by primitive degrees and pairwise resultants",
+      "origin": "Owner-directed AI-assisted research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-three-term-resultant-obstruction/proof.md",
+      "statement": "The literal 15x15 cyclic-source matrix R_(3,3)(x^2+z(1+x^2)+z^2(1+t*x+c*x^2)) has determinant t(2c^3-2ct^2+t^4) in Z[c,t]. Over every field of characteristic not 2, the triples (x^2,1+x^2,1+2x^2) and (x^2,1+x^2,1+x+x^2) each have degree pattern (2,2,2), primitive triple degree 2, and all three pairwise resultants exactly 1, but their ranks are respectively 14 and 15. For the former a nonzero integer row-kernel vector and a -4 minor witness rank14, while the latter has determinant 1.",
+      "dependencies": [
+        "Literal source coefficient convention from research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md at blob 04d28c6a05027a7756891f47d28327de850a7501",
+        "Affine recurrence predecessor PR209 at 4247f42eeb305163d299f908144b5915d1c238c5, now superseded",
+        "Exact integer 12-unit-pivot determinant reduction or independent 256-point degree-bounded interpolation; integral kernel and nonzero minor"
+      ],
+      "limitations": "Refutes only a degree plus pairwise-resultant rank classifier for one (a,b)=(3,3) family. Characteristic two does not preserve both degree patterns. Finite rank replays at b=4,...,9 do not imply a universal result. No bounded-rank source-space theorem, tensor degeneration, improved exponent, independent mathematical review or formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "title": "All-field exact rank formula for biforms with constant lower coefficients and one polynomial top coefficient",
+      "origin": "Owner-directed AI-assisted continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "statement": "For every field K, integers a>=2 and 1<=e<b, constants c_0,...,c_(e-1) with c_0!=0, and nonzero polynomial w(x) of degree d<a, the literal cyclic-source coefficient matrix of f=c_0+...+c_(e-1)z^(e-1)+w(x)z^e has rank ab+sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). A polynomial-kernel basis from the e terminal entries has independent residue-triangular highest-degree vectors, proving the formula over arbitrary characteristic. 3372 finite modular full-matrix controls and 24 rational controls passed.",
+      "dependencies": [
+        "Original cyclic-source biform matrix definition pinned by blob 04d28c6a05027a7756891f47d28327de850a7501",
+        "Affine-z polynomial syzygy precedent in PR209 at 4247f42eeb305163d299f908144b5915d1c238c5 (attributed, not imported)",
+        "Explicit elementary backward polynomial recurrence and leading-degree triangularity"
+      ],
+      "limitations": "Only individual biform source-slice ranks, with every lower z coefficient constant and the coefficient at z^0 nonzero. Multiple variable z coefficients, complete three-leg tensor maps, auxiliary cost, asymptotic exponent implication, independent mathematical review, formalization and historical priority are absent.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

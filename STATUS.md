@@ -1,5 +1,47 @@
 # Research status
 
+## Full-channel paired maps: overlap and leading rank loss
+
+The [column-overlap proof](research/ai/2026-10-23-column-overlap/proof.md)
+allows arbitrary full channel matrices at each retained polynomial column.
+For fixed injective routing, an overlap graph bounds the leading target
+slice intersection. Saturation accounts for new directions from singular
+leading blocks, even with arbitrary first-map and auxiliary Laurent poles.
+At fixed width and near-full outer dimensions, all but o(n) invertible
+leading blocks force auxiliary border rank n^2-o(n^2). Equal positive
+fractions above 1/m of invertible leading blocks also force quadratic
+cost by the stated quantitative bound. General column-mixing maps and
+more extensively singular leading blocks remain open. Claim
+`AI-PAIRED-COLUMN-OVERLAP-001` is written and unreviewed. Exact separated
+window restrictions and a full-channel sharp flattening example test its
+scope; no exponent improves.
+
+## Independent coordinate compressions are excluded with sharp loss six
+
+The [complete independent-coordinate census](research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
+covers all 142,884 independent two-row / two-column deletions of the
+46-dimensional outer space. Every complex projected dimension is at
+least 40. Two exact integer kernel witnesses attain 40, so the maximum
+loss is six. The existing bottom-left kernel reduction transfers this
+bound to every independent coordinate compression of the full fixed
+112-dimensional conjugation family. Its target requires loss at least
+nine, so the entire coordinate class is excluded. Claim
+`AI-A4-INDEPENDENT-COORDINATE-004` is written and unreviewed, with finite
+computer assistance. Arbitrary noncoordinate flags remain a separate
+question; no target or exponent improvement is established.
+
+## Sharp rank-two slice gap for the paired source (October 23)
+
+The [rank-two source theorem](research/ai/2026-10-23-paired-rank-two-gap/proof.md) proves over every field that a rank-two first-leg coefficient matrix Y in Q(n,b) gives source contraction rank at least b(b+1), attained by Y=E00+E11. The proof uses classical Kronecker strict equivalence for full-projective-rank polynomial-multiplication pencils and an elementary all-characteristic block recurrence. It also gives the exact formula b^2+sum min(e_i,d_j) in terms of the two minimal-index partitions. At b=4 the minimum rank is 20 rather than the 17 obtained from the earlier general lower bound. Standalone direct-source finite controls include 128 block checks, 16 sharpness ranks and complete GF2 rank-two censuses in seven small formats. Claim AI-PAIRED-RANK-TWO-SLICE-GAP-001 is written and unreviewed. The theorem does not construct a tensor degeneration or improve the 9/4 exponent bound.
+
+## Exact three-term biform ranks escape pairwise-resultant data
+
+The [three-term coefficient-rank obstruction](research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) proves over Z that the literal R_(3,3) determinant for u=x^2, v=1+x^2, w=1+t*x+c*x^2 is t(2c^3-2ct^2+t^4). Two specializations have primitive degree two and all three pairwise resultants equal to one, but ranks 14 and 15 over every field of characteristic other than two. The rank-14 case has an integral left-kernel vector and a -4 minor; the rank-15 case has unit determinant. A degree-bounded 256-point exact integer certificate and focused standard-library test pass. Claim AI-THREE-TERM-RESULTANT-OBSTRUCTION-001 is written, unreviewed and strictly one-slice. Next: identify the two polynomial-kernel minimal indices for general three-term coefficient recurrences, not another pairwise-resultant search. No tensor target or exponent gain is established.
+
+## All-field ranks of single-top-polynomial biforms
+
+The [top-coefficient biform theorem](research/ai/2026-10-23-top-coefficient-biforms/proof.md) computes the literal cyclic-source matrix R_(a,b) for every f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)*z^e with 1<=e<b, nonzero constant c_0, constant lower coefficients, and nonzero polynomial w of x-degree d<a. Over every field, its exact rank is ab + sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). The leading polynomial-kernel vectors form a triangular residue basis, giving a complete all-field proof. The new controls pass 3,372 full-matrix modular comparisons and 24 independent-implementation rational matrix ranks. Claim AI-TOP-COEFFICIENT-BIFORM-RANK-001 is proof-written-unreviewed. It does not classify arbitrary quadratic-in-z coefficients, build a three-leg tensor target, or improve omega below 9/4. The separate [continuation](research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md) records exact scope and provenance.
+
 ## Exact all-field ranks for quadratic-z slices with constant endpoints
 
 The [quadratic-z middle-polynomial theorem](research/ai/2026-10-23-quadratic-z-middle/proof.md)
