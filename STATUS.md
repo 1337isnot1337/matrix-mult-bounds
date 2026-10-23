@@ -132,6 +132,25 @@ PR103; its narrow target application is superseded by the regular-long-map
 argument. General singular trajectories, all rank-six matrices and an
 improved exponent are not settled.
 
+## Single-copy mixed-sector termwise incidence screen
+
+The [twisted-cubic subset screen](research/ai/2026-10-23-mixed-family-twisted-cubic-screen/RESULT.md)
+computes all 120 seven-point subsets of the ten displayed `T4` interpolation
+factors over the rationals. Their quadratic evaluation matrices all have
+rank 7; 68 subsets have fewer than two linear syzygies among their three
+common quadrics. Every eight-point set contains such a subset. A projective
+limit of the source evaluation curves retains at least two linear syzygies,
+so at most seven displayed target factors can be limits of distinct source
+evaluation factors under one common shared-space change of basis. Claim
+`AI-MIXED-SINGLE-COPY-002` is written and unreviewed. This does not exclude a
+general degeneration, cancellations, collisions or other target
+decompositions, and does not improve the exponent. A specified seven-point
+subset lies on a Hilbert-Burch flat-limit curve, so point-set curve
+containment alone cannot strengthen this count; its evaluation-node
+parameters are not aligned by that example. Every seven-set passing the
+syzygy screen contains a collinear triple, so no such set lies on a smooth
+twisted cubic; seven-point candidates require a singular special fiber.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

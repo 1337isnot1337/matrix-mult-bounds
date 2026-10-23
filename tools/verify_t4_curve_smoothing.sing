@@ -1,0 +1,26 @@
+// Check an explicit smoothing of the seven-point Hilbert-Burch curve.
+ring r=(0,epsilon),(x0,x1,x2,x3),dp;
+poly m1=(x3+epsilon*x0)*(-x2-x3+epsilon*x2)
+     -(x3+epsilon*x1)*(2*x0-x1-x2+epsilon*x1);
+poly m2=(x3+epsilon*x0)*(x2+epsilon*x3)
+     -(x3+epsilon*x1)*(-3*x0+2*x1+epsilon*x2);
+poly m3=(2*x0-x1-x2+epsilon*x1)*(x2+epsilon*x3)
+     -(-x2-x3+epsilon*x2)*(-3*x0+2*x1+epsilon*x2);
+ideal I=m1,m2,m3;
+I=std(I);
+print("generic curve cone dimension"); print(dim(I));
+print("generic curve degree"); print(mult(I));
+print("generic Hilbert numerator"); print(hilb(I,1));
+ideal singular=I+minor(jacob(I),2);
+singular=std(singular);
+print("generic projective singular locus cone dimension"); print(dim(singular));
+
+ring r0=0,(x0,x1,x2,x3),dp;
+ideal I0=x3*(-x2-x3)-x3*(2*x0-x1-x2),
+          x3*x2-x3*(-3*x0+2*x1),
+          (2*x0-x1-x2)*x2-(-x2-x3)*(-3*x0+2*x1);
+I0=std(I0);
+print("special curve cone dimension"); print(dim(I0));
+print("special curve degree"); print(mult(I0));
+print("special Hilbert numerator"); print(hilb(I0,1));
+quit;
