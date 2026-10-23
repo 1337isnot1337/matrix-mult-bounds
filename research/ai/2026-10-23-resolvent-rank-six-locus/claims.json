@@ -1,0 +1,20 @@
+[
+  {
+    "id": "AI-RESOLVENT-RANK-SIX-LOCUS-001",
+    "title": "Complete fixed-resolvent rank-six locus and sharp corank-three compression loss",
+    "status": "proof-written-unreviewed",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-resolvent-rank-six-locus/proof.md",
+    "section": "1-4",
+    "statement": "Over every field, the rank-at-most-six locus of the fixed 112-dimensional resolvent matrix space W is a 17-dimensional linear subspace, and every nonzero member has the same six-dimensional image. Its mixed outer block has a five-dimensional rank-six locus, certified by 26 triangular seven-minors and five terminal six-minors over Z. Over an algebraically closed field, arbitrary rank109 compression factors on both sides have kernel dimension at most one on W, with the left kernel necessarily in the common six-space if loss occurs. A displayed compression attains image dimension111.",
+    "dependencies": [
+      "Pinned fixed-resolvent source and minimum-rank package, AI-RESOLVENT-SHARP-MINRANK-001",
+      "Exact integer minor identities and terminal support certificate",
+      "Written quotient-space and determinant-pencil argument over algebraically closed fields"
+    ],
+    "limitations": "Ordinary matrix rank, not tensor slice rank. The one-dimensional compression-kernel bound assumes an algebraically closed field. Different nilpotents, higher resolvent corrections, arbitrary singular Laurent trajectories, independent mathematical review, formalization, and exponent improvement remain outside scope."
+  }
+]

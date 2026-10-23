@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-resolvent-rank-six-locus` package is owner-directed OpenAI
+Codex work. The predecessor PR139 supplies the fixed limiting space,
+source convention and sharp minimum rank, with its exact main revision
+and file hashes retained in the new source record. The complete
+rank-six locus, common six-dimensional image, and sharp corank-three
+compression loss are local continuations. The new verifier reconstructs
+the outer source and replays integer polynomial identities without
+importing the discovery search or predecessor verifier. The rank-locus
+theorem holds over every field; the one-dimensional compression-kernel
+bound uses algebraic closure. No independent review, formalization,
+historical priority, or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

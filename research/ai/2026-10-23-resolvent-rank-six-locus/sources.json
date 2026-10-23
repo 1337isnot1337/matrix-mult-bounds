@@ -1,0 +1,29 @@
+{
+  "schema": "resolvent-rank-six-locus-sources-v1",
+  "research_base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/proof.md",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "6bfc4c59efa33d57f2b2e1d545379fbd99606201e9f288f2e59d58913e08c2cb",
+      "scope": "Literal source convention, mixed-block gauge, outer-source minimum rank 16, fixed W, and prior corank-three alignment; PR139.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93/research/ai/2026-10-23-resolvent-minrank/proof.md"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/verify.py",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "08da32ffa8622dde7c994aaca0a0be5664a0ac92457cde003b9c3b2b3628a7af",
+      "scope": "Inspected predecessor coordinate reconstruction and six-minor verifier; not imported at runtime.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93/research/ai/2026-10-23-resolvent-minrank/verify.py"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/sources.json",
+      "commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+      "sha256": "29772df17344f91b0f8fa3f92f7f12da274984dda1161399e489a5a537a857d2",
+      "scope": "Retains original source-unit and PR103 credit and immutable predecessor lineage.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93/research/ai/2026-10-23-resolvent-minrank/sources.json"
+    }
+  ],
+  "external_theorems": "No new external theorem is imported. The quotient-map and determinant-pencil arguments are proved in proof.md.",
+  "contribution": "Owner-directed OpenAI Codex continuation. The prior package supplies W and its sharp minimum rank; the complete rank-six classification, common image, and sharp compression loss are new local continuations. No independent review or exponent improvement."
+}

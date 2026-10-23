@@ -1,5 +1,19 @@
 # Research status
 
+## Complete rank-six locus and sharp compression loss
+
+The [rank-six classification](research/ai/2026-10-23-resolvent-rank-six-locus/proof.md)
+identifies the entire rank-at-most-six locus of the fixed resolvent space W
+as a 17-dimensional linear space. Every nonzero member has rank six and
+the same six-dimensional image. The mixed outer block has a five-dimensional
+locus, certified over every field by 26 triangular seven-minors and five
+terminal six-minors. Over C, two rank109 compressions can lose at most one
+dimension of W; a displayed compression attains dimension111. Claim
+`AI-RESOLVENT-RANK-SIX-LOCUS-001` is written and unreviewed. This closes the
+fixed-space rank-six classification and sharpens the prior alignment from
+a 28-space to a specific six-space. General singular trajectories and the
+exponent question remain open.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
@@ -12,8 +26,8 @@ At rank109 on both long maps, a lost direction must have rank six and obey
 the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
 is written and unreviewed. This refines the fixed-resolvent space from
 PR103; its narrow target application is superseded by the regular-long-map
-argument. General singular trajectories, all rank-six matrices and an
-improved exponent are not settled.
+argument. Its rank-six locus is now classified in the continuation above.
+General singular trajectories and an improved exponent are not settled.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 

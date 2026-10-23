@@ -2,11 +2,14 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
-The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
-now proves rank six sharply over every field. Its open structural question
-is the rank-six locus and the required kernel/image alignment under two
-rank109 compressions. Check the broader long-map exclusions before
-treating such an aligned compression as a possible matrix target.
+The [fixed-resolvent rank-six classification](../research/ai/2026-10-23-resolvent-rank-six-locus/README.md)
+now identifies its rank-six locus as a 17-dimensional linear space with
+a common six-dimensional image. Over C, two rank109 compressions lose
+at most one dimension, and that bound is sharp. This closes the previous
+fixed-space classification question. A further structural investigation
+must change the nilpotent or analyze higher resolvent corrections; check
+the broader long-map exclusions before treating a new family as a possible
+matrix target.
 
 ## Active paired construction: near-full width four
 
