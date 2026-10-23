@@ -1,17 +1,19 @@
 # Research status
 
-## Singular leading flags have a defect and pole-order gap
+## Singular A4 leading flags need total defect at least20
 
 The [leading-defect proof](research/ai/2026-10-23-leading-defect/proof.md)
-requires r_B+r_C<=208 for the two scalar-balanced A4 long-map leading
-ranks. With total source defect16, the leading first map has a single
-minimum-rank source direction and pole order at least10. Orders1 through9
-are excluded with arbitrary higher regular long-map coefficients. For
-defects below32, the leading first-map image has dimension at most16
-with one coherent middle factor. Eleven exact leading controls do not
-complete the target. Claims `AI-A4-LEADING-DEFECT-001` and
-`AI-A4-BOUNDARY-POLE-GAP-002` are written and unreviewed. Higher pole
-orders and the full singular target remain open; the exponent is9/4.
+excludes r_B+r_C>204 for the two scalar-balanced A4 long-map leading
+ranks, at every finite Laurent pole order. An invertible target matrix
+in the leading first-map kernel activates the rank-two unit correction;
+Flanders's dimension bound and the prior source gap above16 finish the
+exclusion. For total defects20..27, the leading first-map rank is10..16
+with one coherent middle factor. The same coherent upper bound16 holds
+at defects28..31. Exact defect16 leading controls do not extend to a
+target. Claims `AI-A4-LEADING-DEFECT-001` and
+`AI-A4-INVERTIBLE-LEADING-KERNEL-002` are written and unreviewed.
+Larger-defect constructions and the full target remain open; the certified
+upper bound remains9/4.
 
 ## One regular long leg is impossible for the full A4 target
 

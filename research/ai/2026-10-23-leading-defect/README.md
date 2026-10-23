@@ -1,31 +1,28 @@
-# Leading flags after both long maps become singular
+# An all-order defect gap for the two singular A4 long maps
 
-The [written proof](proof.md) gives necessary full-source A4 conditions
-for the still-unconstructed M(10,10,11) target. Balance each long map by
-its own minimum scalar valuation. Let their leading ranks be r_B,r_C
-and set d=224-r_B-r_C. Then:
+The [written proof](proof.md) excludes every A4 to M(10,10,11) formal
+candidate whose two scalar-balanced long-map leading ranks sum to more
+than204. Equivalently, their total source defect d must be at least20.
+Every finite pole order is covered. No assumption is made on the lift
+of a target identity.
 
-* d>=16. If16<=d<32, the leading first-map image has one fixed
-  coherent middle factor and dimension at most16.
-* At d=16, that image has dimension exactly one and is a minimum-rank
-  source slice. The balanced first map must have pole order at least10.
-  Arbitrary higher regular long-map coefficients are allowed.
-* Exact controls satisfy the leading equation at every rank pair
-  r_B+r_C=208 with99<=r_B,r_C<=109. Their constant outputs have rank12,
-  and supply no target identity or completed degeneration.
+For20<=d<=27 the leading first-map coefficient has linear-map rank
+between10 and16, and its image has one fixed coherent middle Hankel
+factor. For28<=d<=31, the coherent factor and upper bound16 still hold.
+Defects at least20, the full target and an exponent below9/4 remain open.
 
-Claims `AI-A4-LEADING-DEFECT-001` and `AI-A4-BOUNDARY-POLE-GAP-002`
-are **written and unreviewed**. Pole orders at least10 at equality,
-larger defects, the full target and an exponent below9/4 remain open.
-This full-source flag problem is separate from the canonical conic jets.
+The new argument uses an invertible target parameter in the kernel of
+the leading first map. The regular right-inverse correction then forces
+every leading source slice to have rank at most2+min(q_B,q_C). Flanders's
+bounded-rank dimension theorem and the prior source gap above rank16
+supply the contradiction for d<20. Both external inputs and predecessor
+credit are explicit in the [source record](sources.json).
 
-The [registered question](QUESTION.md) records the branch selection.
-The source minimum, minimum-rank classification, coherent-factor theorem
-and PR113 obstruction retain [exact predecessor pins](sources.json) and
-their original credit. The row/column intersection and bounded-pole
-continuation are owner-directed OpenAI Codex work using the two credited
-standard graph-descent facts in Stacks Tags02LS and0AB1. No historical
-priority or independent mathematical review is claimed.
+Claims `AI-A4-LEADING-DEFECT-001` and
+`AI-A4-INVERTIBLE-LEADING-KERNEL-002` are **written and unreviewed**.
+This is a necessary full-source reduction, separate from the conic jets.
+All continuation work is owner-directed OpenAI Codex work, without
+independent mathematical review, formalization or a priority claim.
 
 With the root requirements installed, run from the repository root:
 
@@ -35,13 +32,16 @@ python -m unittest discover -s tests -p test_leading_defect.py -v
 ```
 
 The frozen report is `results/leading-defect-2026-10-23/controls.json`.
-Eleven sparse long-map controls record deleted source coordinates and
-coordinates restored at degree one. Every unspecified retained source
-coordinate has coefficient one; the last two deleted coordinates remain
-absent. The controls also check125440 literal source coefficients on ten
-minimum-rank pencil fibers, two exact annihilator determinants, and ten
-families of bilinear kernels with450 basis-pair intersections, plus
-three coordinate-span controls for the nine-constraint boundary. They do
-not formalize the arbitrary-series proof. Regenerate with `--write`,
-then replay without that flag. Tests reject false completion, altered
-pole bounds and corrupted predecessor pins.
+Eleven sparse long-map examples have total leading defect16 and satisfy
+the leading negative equation. Their constant output has rank12 and
+cannot extend to a target, by the all-order proof. Deleted coordinates
+and those restored at degree one encode the maps exactly; every other
+retained coordinate has coefficient one. The invertible trace-kernel
+parameter exposes a correction-rank violation in every example.
+
+Two exact literal source controls check all25088 source coefficients
+and ranks16 and20. Nine dimension controls record the strict Flanders
+margin and singular-kernel equality examples. These finite controls do
+not formalize arbitrary series. Regenerate with `--write`, then replay
+without it. Tests reject false completion, changed rank bounds and
+corrupted source pins or external-source attribution.

@@ -1,16 +1,17 @@
 # Concurrent research reviewed on October 20, 2026
 
-## October23: leading-defect equality and a bounded-pole exclusion
+## October23: all-order singular leading-defect gap
 
 `research/a4-leading-defect-flags-20261023` continues PR113 at08ac3e9.
 The registered question is `research/ai/2026-10-23-leading-defect/QUESTION.md`.
-Total leading long-map defect is at least16; at equality the leading
-first-map image is one minimum-rank source direction and its pole order
-must be at least10. For defects below32 its image is contained in one
-16-dimensional coherent-factor space. Next: equality pole orders at
-least10 or larger-defect flags. This does not complete a formal target.
+The final invertible-kernel argument excludes all total leading defects
+below20 at every finite Laurent pole order. For defects20..27, the
+leading first-map rank lies in10..16 with one coherent middle factor;
+the upper bound16 still holds through defect31. Next: construct or
+exclude these remaining coherent leading spaces and subsequent jets.
 PR108's partial frames, PR110/112's unit-image extensions and PR107's
-conic lifting retain their separate scope and credit. Written/unreviewed.
+conic lifting retain their separate scope and credit. Written/unreviewed;
+no matrix target or improved exponent.
 
 ## October23: remove the A4 unit-lift hypotheses
 

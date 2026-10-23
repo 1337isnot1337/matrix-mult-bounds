@@ -294,11 +294,10 @@ orders while keeping a full-rank long-leg limit cannot escape this proof.
 The remaining singular-long-leg case is open; no target is constructed.
 
 The [leading-defect continuation](../research/ai/2026-10-23-leading-defect/proof.md)
-requires r_B+r_C<=208 after scalar balancing of both long maps. At
-equality, the first-map leading coefficient is one minimum-rank source
-direction and its pole order is at least10. Increasing only higher regular
-coefficients cannot rescue pole orders1 through9 at this boundary. The
-leading first-map image has one fixed coherent factor and dimension at
-most16 whenever total defect is below32. Larger defects and higher
-pole orders remain construction questions; leading controls alone are
-not completed degenerations.
+now excludes r_B+r_C>204 after scalar balancing of the two long maps,
+at every finite Laurent pole order. At total defects20..27, the leading
+first-map image has dimension10..16 and one fixed coherent Hankel factor.
+Defects28..31 retain the coherent factor and upper bound16. Increasing
+pole orders does not escape the total-defect20 threshold. The remaining
+coherent leading spaces and their later coefficient equations are open;
+passing a leading test is not a completed degeneration.

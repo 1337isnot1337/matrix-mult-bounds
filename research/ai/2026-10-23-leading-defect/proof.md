@@ -1,251 +1,169 @@
-# Leading-defect flags for the singular A4 problem
+# An all-order gap for the two singular A4 leading flags
 
 October23,2026. Written, unreviewed owner-directed OpenAI Codex work.
-No independent review, formalization, complete degeneration or exponent gain.
+No independent review, formalization, full target or exponent improvement.
 
-## 1. Balance both long maps
+## 1. Statement and normalization
 
-Suppose the complete formal identity for A4 and M(10,10,11) is
+Suppose a complete complex formal degeneration satisfies
 
-    B M(F(X)) C = X tensor I_11+O(t),   X in Mat_10(C).       (1)
+    B M(F(X)) C = X tensor I_11+O(t), X in Mat_10(C).          (1)
 
-Every map is Laurent with finite principal part. Let b,c be the minimum
-entry valuations of B,C. Replace the three maps by
+Here M is the literal112-by112 A4 source slice map, F is a Laurent
+linear first map, and B,C have formats110-by112 and112-by110. Balance
+both long maps by their minimum entry valuations b,c:
 
     B_hat=t^(-b)B,  C_hat=t^(-c)C,  F_hat=t^(b+c)F.
 
-Equation (1) is unchanged. The balanced long maps are regular with
-nonzero leading coefficients. Put
+The identity is unchanged and both balanced long maps are regular.
+Let r_B,r_C be their leading ranks, q_B=112-r_B, q_C=112-r_C, and
 
-    r_B=rank B_hat(0),   r_C=rank C_hat(0),
-    q_B=112-r_B,         q_C=112-r_C,       d=q_B+q_C.
+    d=q_B+q_C=224-r_B-r_C.
+
+Then every such degeneration must satisfy
+
+    d>=20, equivalently r_B+r_C<=204.                       (2)
+
+If20<=d<=27, the leading polar coefficient of F_hat has rank between
+10 and16 as a linear map from Mat_10 to the source parameter space.
+Its image has one fixed coherent middle Hankel factor. If28<=d<=31,
+the fixed-factor and upper-rank16 conclusion still hold. No conclusion
+about a completed target follows from passing these necessary tests.
+Every finite pole order is allowed throughout the exclusion (2).
 
 The [one-regular-long-leg theorem](../2026-10-23-one-regular-leg/proof.md)
-requires r_B,r_C<=109 in any remaining candidate. In particular q_B,q_C
-are positive. If F_hat were regular, the target unit at zero would give
-rank(B_hat(0) M(F_hat(I_10)(0)) C_hat(0))=110, impossible with those
-leading ranks. Thus F_hat has a pole of some order h>0. Write
+first gives r_B,r_C<=109. If F_hat were regular, the unit equation at
+zero would instead require both ranks at least110. Thus F_hat has a
+pole of some order h>0. Put L=F_hat_(-h), a nonzero linear map. The
+leading negative coefficient of (1) gives
 
-    L=F_hat_(-h):Mat_10(C) -> A4,       L!=0.
+    B_hat(0) M(L(X)) C_hat(0)=0 for every X.                 (3)
 
-Its first negative coefficient equation is
+## 2. The regular kernel correction with a singular column limit
 
-    B_hat(0) M(L(X)) C_hat(0)=0 for every X.                 (2)
+The following argument does not require C_hat(0) to have full rank.
+Assume ker L contains an invertible matrix X_0. Replace F_hat by
+F'=t^h F_hat and B_hat by B'=t^(-h) B_hat. Then F' is regular with
+F'_0=L, while C_hat remains regular and (1) is preserved.
 
-All statements below are necessary leading conditions. They do not
-solve the subsequent Laurent coefficient equations.
+For any invertible U in Mat_10, set
 
-## 2. Total defect and the coherent-factor bound
+    Y_X=M(F'(X)) C_hat,       D=Y_U,       G=B'D.
 
-For any matrix Z, multiplication by B_hat(0),C_hat(0) loses at most
-q_B+q_C in rank. Hence (2) implies
+Both Y_X and D are regular. The unit output is G=U tensor I_11+O(t),
+so G is regular invertible. Normalize B''=G^(-1)B'. Then B''D=I_110
+exactly, and Z_X=B''Y_X is regular with
 
-    rank M(L(X))<=d for every X.                            (3)
+    Z_X(0)=(U^(-1)X) tensor I_11.
 
-The source minimum16 forces d>=16, or equivalently
+Over C((t)), P=I_112-D B'' projects onto the two-dimensional kernel
+of B''. Consequently W_X=P Y_X=Y_X-D Z_X has rank at most2.
+The latter expression proves W_X is regular before specialization;
+therefore rank W_X(0)<=2. This is the credited regular right-inverse
+correction used in PR113, now applied with a singular column limit.
 
-    r_B+r_C<=208.                                          (4)
+Since L(X_0)=0, Y_(X_0)(0)=0, and hence
 
-If d<32, the entire nonzero linear space im L has source slice ranks
-below32. The prior [polynomial-rank-locus theorem](../2026-10-20-anisotropic-constructions/polynomial_rank_locus.md),
-specialized to a=b=4, gives one fixed rank-one Hankel factor h such that
+    W_(X_0)(0)=-M(L(U)) C_hat(0) ((U^(-1)X_0) tensor I_11).
 
-    im L is contained in {F_(i,k,s)=g_(i,s) h_k}.
+The last factor is invertible. It follows that
+rank(M(L(U)) C_hat(0))<=2 for every invertible U. Such matrices form
+a dense open subset of Mat_10. The rank-at-most2 condition is closed
+and depends polynomially on U, so it holds for every U. Deleting q_C
+source columns can lose at most q_C in rank. Transpose the same
+argument to obtain the other side as well. For every f in im L,
 
-This is a16-dimensional vector space, so rank L<=16 for16<=d<=31.
-The cited source theorem supplies this coherent-factor conclusion for
-arbitrary linear spaces, not just coordinate slices or target rulings.
-Its proof is elementary polynomial multiplication and is byte-pinned.
+    rank M(f)<=2+min(q_B,q_C).                              (4)
 
-## 3. The equality case d=16 has only one leading source direction
+The target parameter is transposed in that argument, and invertibility
+of X_0 is preserved. Thus an invertible matrix in ker L requires
+min(q_B,q_C)>=14, by the source minimum16. In particular,
 
-Every nonzero member of im L now has rank exactly16. The prior complete
-[minimum-rank classification](../2026-10-20-koszul/cyclic_finite_target.md),
-Section4, gives F=u tensor h tensor v, with h on the degree-six rational
-normal curve and u,v in C^4. The coherent-factor theorem above fixes h.
+    d<=27 implies ker L contains no invertible matrix.      (5)
 
-A linear subspace of decomposable tensors u tensor v either has one
-fixed u or one fixed v. Indeed, the sum of u_1 tensor v_1 and u_2 tensor
-v_2 is decomposable only if one pair of factors is proportional. If two
-u factors are independent, their v factors coincide up to scalar, and
-comparison with both tensors forces every other v factor to coincide.
-Otherwise all u factors were already proportional.
+No unit-lift regularity or rank condition was imposed on the original
+maps. Regularity of the scalar-balanced F' is automatic.
 
-Suppose im L had dimension at least two. It would therefore contain a
-pencil with two independent u factors and fixed v, or the exchanged
-case with two independent v factors and fixed u. We exclude both.
+## 3. A lower bound for the leading first-map rank
 
-For each nonzero f in im L, write Z=M(f), W=im C_hat(0), and
-K_B=ker B_hat(0). Equation (2) says Z(W) is contained in K_B. Since
-rank Z=16=q_B+q_C, the projection bounds are equalities:
+A complex linear space of10-by10 singular matrices has dimension at
+most90. We use the dimension inequality of Flanders, with the arbitrary-
+field statement in [de Seguins Pazzis, arXiv:1507.05375v2, Theorem1.1](https://arxiv.org/pdf/1507.05375v2).
+Its hypotheses are a linear matrix space with every rank at most r;
+for n=p=10 and r=9 it gives dim<=10*9. The paper retains Flanders's
+original credit and Meshulam's field extension credit. The theorem
+is external work; no equality classification is used.
 
-    rank Z|_W=q_B,       Z(W)=K_B,       ker Z is contained in W.
+If rank L<=9, then dim ker L>=91, so ker L contains an invertible
+matrix. Combining with (5) proves
 
-Consequently every column space of Z contains the same nonzero K_B,
-and every row space contains the same nonzero annihilator W^perp.
-Here perp denotes the algebraic dual annihilator; no Hermitian structure
-is being assumed. Their dimensions are q_B,q_C respectively.
+    d<=27 implies rank L>=10.                              (6)
 
-Apply a constant source GL2 change on the middle convolution factor
-to move h to the endpoint h=(1,0,...,0). This preserves the source,
-all matrix ranks and the fixed-subspace conclusions. The literal source
-formula then gives, up to fixed coordinate orderings,
+This is a rank of a linear coefficient map, not a matrix slice rank
+or the tensor slice-rank invariant.
 
-    row M(u tensor h tensor v)=(u S_3) tensor C^4,
-    col M(u tensor h tensor v)=C^4 tensor (v S_3),             (5)
+## 4. The source gap excludes all total defects below20
 
-in their fixed28-dimensional coordinate supports. S_3 is the space of
-one-variable polynomials of degree at most3. The factors u,v are viewed
-as polynomials of degree at most3, or homogeneous cubics.
+Equation (3) gives rank M(f)<=q_B+q_C=d for every f in im L. The
+prior source minimum16 excludes d<16. If d<20, the complete prior
+[rank-gap theorem](../2026-10-20-anisotropic-constructions/slice_rank_gap.md)
+for a=b=4 makes every nonzero f in im L a rank16 slice. Its complete
+minimum-rank classification is
 
-For independent u_0,u_1,
+    f_(i,k,s)=u_i h_k v_s,
 
-    intersection_(z in C) (u_0+z u_1) S_3 = {0}.            (6)
+where the4-by4 Hankel matrix of h has rank one. The pinned
+[minimum-rank proof](../2026-10-20-koszul/cyclic_finite_target.md), Section4,
+supplies the same classification by an elementary multiplication argument.
+The gap above16 uses the credited vector-bundle splitting theorem in
+[Grothendieck1957, Theorem2.1, printed page126](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf),
+through the maintained predecessor proof. Its hypothesis is a complex
+vector bundle on P^1; the relevant kernel bundle and its splitting
+degrees are given explicitly there. Neither imported result is claimed
+as a new theorem of this continuation.
 
-To prove this, divide u_0,u_1 by their polynomial gcd g. The remaining
-coprime independent pair yields infinitely many pairwise coprime
-nonconstant factors u_0/g+z u_1/g (at most one is constant). A fixed
-nonzero polynomial cannot be divisible by all of them. Any vector in
-the intersection would have exactly that divisibility, a contradiction.
-All degrees are bounded by6; the homogeneous endpoint version is the
-same argument. Tensoring with C^4 preserves this zero intersection.
+Every linear space in this minimum locus has one fixed h: a line with
+different h factors either ceases to be decomposable or would lie in
+the degree-six rational normal curve, which contains no line. With h
+fixed, a linear space of decomposable u tensor v has either a fixed u
+or a fixed v. To see this, sum two independent tensors. Decomposability
+of their sum requires one pair of factors proportional. If two u
+factors are independent, comparison with both tensors fixes every v;
+otherwise every u was already proportional. Thus
 
-Thus a varying-u pencil has zero common row space, contradicting the
-nonzero W^perp. A varying-v pencil has zero common column space,
-contradicting the nonzero K_B. Hence
+    d<20 implies rank L<=4.                                (7)
 
-    d=16 implies rank L=1.                                 (7)
+Equations (6) and (7) contradict each other. This proves (2), at every
+finite Laurent order, including the formerly open equality d=16.
 
-The sole source direction is a minimum-rank slice u tensor h tensor v.
-The scalar functional X -> L(X)/f remains unrestricted by this argument.
-It is not assumed to be injective or supported at a matrix unit.
+For d<32, the prior [polynomial-rank-locus theorem](../2026-10-20-anisotropic-constructions/polynomial_rank_locus.md)
+makes im L lie in a single space {g_(i,s) h_k} with fixed rank-one
+Hankel h. Its dimension is16. This gives the stated upper bound and,
+together with (6), the interval10<=rank L<=16 for20<=d<=27.
 
-## 4. Equality requires a first-map pole of order at least ten
+## 5. Exact leading controls and the remaining gap
 
-Still assume d=16. Apply the preceding rank-one kernel-space result
-successively to the negative coefficients of F_hat. Initially L has
-rank one. On its kernel, the next negative equation has all earlier
-first-map coefficients zero, so its image is again a linear subspace
-of the kernel in (2), and has dimension at most one. Continue down to
-coefficient -1. If the pole order is h, the common kernel E_0 of all
-negative first-map coefficients therefore has codimension p<=h in
-Mat_10. This does not assume their images or scalar functionals coincide.
+The literal source coordinate f_(0,0,0)=1 has16 distinct row/column
+pivots. For each3<=q_B<=13, kill q_B pivot rows and the remaining
+q_C=16-q_B pivot columns. This gives both leading ranks at most109,
+total defect16 and B_0 M(f) C_0=0. Restore all but two deleted rows
+and columns at degree one to make both long maps have rank110 over
+the Laurent field. The t^(-1)f lift has no negative output coefficient,
+but its constant output is a rank12 partial permutation, not a unit.
+These controls attain only the leading equation, which the all-order
+argument proves cannot extend to the target.
 
-On E_0 the map F_hat is regular, so the constant equation is ordinary:
+For L(X)=tr(X)f, the cyclic permutation matrix is invertible in ker L.
+The prospective unit U=I_10 gives rank(M(L(U)) C_0)=q_B>=3, violating
+the correction bound2. These exact witnesses isolate the new obstruction.
+Additional literal source controls calibrate ranks16 and20; dimension
+controls record Flanders's strict margin and its singular-kernel equality
+example, without claiming a target at equality.
 
-    B_hat(0) M(F_hat_0(X)) C_hat(0)=X tensor I_11, X in E_0. (8)
-
-Thus F_hat_0 is injective on E_0. Suppose h<=9, so p<=9. Describe E_0
-as the common kernel of p bilinear forms ell_j(a,b) on rank-one matrix
-parameters X=a b^T. Let Z be the reduced projective incidence
-
-    Z={([a],[b]) in P^9 x P^9: ell_j(a,b)=0 for all j}.
-
-Every nonzero rank-one X in E_0 has source lift of rank at most
-11+d=27<32 by (8). Projectivized F_hat_0 is a linear embedding on E_0,
-so the credited source locus gives a regular coherent-factor map
-eta:Z -> P^1. This uses the projection of the closed Segre product
-P^15 times the degree-six rational normal curve, which is an isomorphism
-onto its image. No source lift vanishes on Z, by injectivity.
-
-For each nonzero a, put V_a={b:ell_j(a,b)=0 for all j}. Its dimension
-is at least10-p>=1. The entire fiber P(V_a) of Z -> P^9 maps to a
-linear space of source slices below32, so eta is constant on that
-fiber. These fibers are nonempty projective linear spaces at every a,
-including rank-drop points of the bilinear constraints.
-
-We justify descent across those points, rather than using only generic
-fibers. On an open set of maximal constraint rank, choose a rational
-nonzero kernel vector b(a). It defines the rational value eta(a).
-Take the reduced closure Gamma of its graph in P^9 x P^1. Every point
-of Gamma lies in the closed image of (projection,eta):Z -> P^9 x P^1,
-so all fibers of Gamma -> P^9 contain at most one point. Properness
-makes the projection surjective, hence every fiber has one point.
-It is finite by the proper-finite-fibers theorem, and birational because
-it is a graph on a dense open. Since P^9 is normal, it is an isomorphism.
-These two external facts are [Stacks, Tag02LS](https://stacks.math.columbia.edu/tag/02LS)
-and [Tag0AB1](https://stacks.math.columbia.edu/tag/0AB1), respectively.
-Thus eta descends to a regular map P^9 -> P^1 on the whole base.
-
-Every regular map P^9 -> P^1 is constant. For completeness, the pullback
-of O(1) is O(e), and its two generating sections are homogeneous
-polynomials of degree e with no common projective zero. If e>0, two
-hypersurfaces in P^9 have a common zero (equivalently their homogeneous
-ideal has height at most two). Hence e=0 and the map is constant.
-Here the usual Picard description of projective space follows by
-representing Cartier divisors as sums of homogeneous prime divisors;
-the polynomial ring is factorial, so their classes are their degrees.
-This also explains why the argument needs the entire normal base,
-not merely a rational map defined away from a rank-drop locus.
-
-It follows that all rank-one images in E_0 share one fixed h. Let T be
-the span of the rank-one matrices in E_0. Injectivity in (8) gives
-
-    dim T<=16.                                              (9)
-
-We now show dim T>=19 for p<=9. Both projections of Z onto P^9 are
-surjective, since each system of at most9 linear equations in ten
-variables has a nonzero solution. There is an irreducible component Y
-of Z dominating the a-projective space: the finitely many component
-images are closed and cover the irreducible base.
-
-If b is nonconstant on Y, choose two nonproportional coordinate functions
-b_s,b_t. The20 coordinate sections a_i b_s,a_i b_t have at most one
-linear relation. Indeed, any relation is L(a)b_s+M(a)b_t=0 with linear
-forms L,M. In a nonzero relation they are nonzero and nonproportional,
-since Y dominates the a-space and b_s/b_t is nonconstant. A second
-relation gives LM'-L'M=0 as a polynomial in a. The independent linear
-forms L,M are coprime, so L'=cL,M'=cM with c constant. Thus the space
-of relations has dimension at most one. The linear span of Y, and hence
-T, has dimension at least19, contradicting (9).
-
-Otherwise b is constant on Y, so Y=P^9 times one point [b_0]. By the
-same argument applied to a component dominating the b-space, either
-its span already has dimension at least19, or it is one point [a_0]
-times P^9. In the latter case T contains
-
-    (C^10 tensor b_0)+(a_0 tensor C^10),
-
-of dimension19 as well. This proves the contradiction in every case,
-including p=9, where the simpler basis-fiber dimension bound is only10.
-Therefore
-
-    d=16 implies h>=10.                                    (10)
-
-This excludes pole orders1 through9 in the balanced first map, allowing
-arbitrary higher regular coefficients in both long maps. Pole order10
-is not excluded or constructed. The external inputs above are standard
-algebraic geometry, not results of this repository; their exact tags,
-hypotheses and access date are recorded in sources.json.
-
-## 5. Equality leading equations are feasible
-
-The rank-one leading bound is attainable for equation (2). Take the
-literal source coordinate f_(0,0,0)=1, whose slice has16 distinct
-nonzero row/column pivots. For any3<=q_B<=13, partition those pivots into
-q_B killed rows and q_C=16-q_B killed columns. Coordinate long maps
-of ranks112-q_B and112-q_C annihilate the entire slice, and both ranks
-are at most109. Padding their target rows and columns to110 gives the
-stated formats. Adding t times q_B-2 deleted row coordinates and q_C-2
-deleted column coordinates makes both maps have rank110 over K.
-
-With first lift t^(-1)f, every negative output coefficient vanishes;
-the constant output is a partial permutation of rank12. This is not a
-target identity, whose rank would be110. These exact controls show only
-that the leading equation and bound rank L=1 are sharp at this level.
-They do not provide later jets or an A4 target.
-
-## 6. Scope and evidence
-
-The full-source minimum, complete minimum-rank locus, coherent-factor
-locus and PR113 obstruction are predecessor results, retained with exact
-byte pins and their original credit. Section4 imports the two explicitly cited standard graph-descent facts.
-The equality row/column-intersection argument here is elementary and
-has no historical priority claim. All new proofs and finite controls are
-owner-directed OpenAI Codex work, with written-unreviewed status.
-
-Remaining candidates with d>=32 are unrestricted by the coherent-factor
-bound here. For16<d<32, rank L<=16 is only necessary. At d=16, pole
-orders at least10 with a single minimum-rank leading direction remain open.
-Neither this flag reduction nor its exact finite controls construct or
-exclude the general A4 target or improve the matrix exponent below9/4.
+Predecessor source minimum, gap, coherent locus and PR113 kernel argument
+retain exact byte pins and original credit. All new proofs and controls
+are owner-directed OpenAI Codex work, written and unreviewed. Finite
+controls do not formalize arbitrary series or provide independent review.
+Defects at least20 remain open, subject to the stated leading-rank bounds.
+There is no full A4 exclusion, constructed matrix target or exponent
+improvement below9/4.

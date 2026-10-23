@@ -19,19 +19,19 @@ class LeadingDefectTests(unittest.TestCase):
 
     def test_literal_source_and_exact_leading_replay(self):
         self.assertEqual(v.verify(self.record), {
-            "leading_equation_controls": 11, "pencil_controls": 2,
-            "bilinear_kernel_controls": 10, "coordinate_span_controls": 3,
-            "literal_source_coefficients_checked": 125440,
+            "leading_equation_controls": 11, "source_gap_controls": 2,
+            "literal_source_coefficients_checked": 25088, "dimension_controls": 9,
             "complete_target_constructed": False, "improves_omega": False})
 
-    def test_reject_false_completion_and_changed_intersection(self):
+
+    def test_reject_false_completion_and_changed_rank_bounds(self):
         for mutate in (
             lambda x: x.update(improves_omega=True),
-            lambda x: x.update(equality_leading_first_map_rank=4),
-            lambda x: x.update(equality_minimum_balanced_first_map_pole_order=11),
+            lambda x: x.update(necessary_total_defect=21),
+            lambda x: x.update(maximum_total_leading_rank=208),
             lambda x: x["leading_equation_controls"][0].update(complete_target_identity=True),
-            lambda x: x["leading_equation_controls"][0].update(constant_output_rank=110),
-            lambda x: x["minimum_slice_pencils"][0].update(polynomial_intersection_dimension=1),
+            lambda x: x["leading_equation_controls"][0].update(compressed_unit_rank=2),
+            lambda x: x["source_gap_controls"][1].update(literal_rank=19),
         ):
             bad = copy.deepcopy(self.record)
             mutate(bad)
@@ -40,7 +40,7 @@ class LeadingDefectTests(unittest.TestCase):
 
     def test_reject_changed_predecessor_pins(self):
         original = json.loads((PACKAGE / "sources.json").read_text())
-        for i in range(4):
+        for i in range(5):
             bad = copy.deepcopy(original)
             bad["local_dependencies"][i]["sha256"] = "0"*64
             with self.assertRaises(ValueError):

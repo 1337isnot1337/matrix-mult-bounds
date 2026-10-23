@@ -16,27 +16,37 @@
       "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
     },
     {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
       "path": "research/ai/2026-10-23-one-regular-leg/proof.md",
       "sha256": "4fbeb29cc23b26b687c3af0b3b5d69e5c29257da3c5f3f3f411c6c5e682b02d0"
     }
   ],
-  "attribution": "The full-source minimum, complete minimum-rank classification, coherent-factor theorem and PR113 obstruction retain their original credit. Leading-defect equality row/column intersections are owner-directed Codex continuation without independent review.",
+  "attribution": "The source minimum, complete minimum-rank classification, coherent-factor theorem, source rank gap and PR113 correction retain their original credit. The invertible leading-kernel argument and all-order defect gap are owner-directed Codex continuation without independent review.",
   "external_dependencies": [
     {
-      "tag": "02LS",
-      "lemma": "37.44.1",
-      "url": "https://stacks.math.columbia.edu/tag/02LS",
+      "tag": "DSP16-T1.1",
+      "author": "Clement de Seguins Pazzis; dimension bound credited to Flanders and field extension to Meshulam",
+      "title": "Large spaces of bounded rank matrices revisited",
+      "version": "arXiv:1507.05375v2",
+      "theorem": "1.1",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
       "accessed": "2026-10-23",
-      "hypotheses": "A morphism of schemes proper with finite fibers. Applied to the reduced projective closure of the coherent-factor graph over P9.",
-      "conclusion": "The projection is finite."
+      "hypotheses": "A linear space of10-by10 complex matrices, every matrix rank at most9.",
+      "conclusion": "Its dimension is at most90. Only the dimension inequality is used."
     },
     {
-      "tag": "0AB1",
-      "lemma": "29.55.8",
-      "url": "https://stacks.math.columbia.edu/tag/0AB1",
+      "tag": "GRO57-T2.1",
+      "author": "A. Grothendieck",
+      "title": "Sur la classification des fibres holomorphes sur la sphere de Riemann",
+      "version": "American Journal of Mathematics79(1),1957,121-138; DOI10.2307/2372388",
+      "theorem": "2.1, printed page126",
+      "url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/AG/AG-25.pdf",
       "accessed": "2026-10-23",
-      "hypotheses": "A finite birational morphism of integral schemes with normal target. Applied to the graph closure and P9 over C.",
-      "conclusion": "The projection is an isomorphism."
+      "hypotheses": "A complex vector bundle on P1; the maintained slice_rank_gap.md constructs the relevant kernel bundle.",
+      "conclusion": "Splitting into line bundles; imported through the credited source rank-gap proof."
     }
   ]
 }
