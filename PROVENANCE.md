@@ -11,6 +11,9 @@ the entire finite-degree product. Concurrent PR123 already supplies an
 exact d=0 curve preserving its own lower jet; it is context, not a premise.
 The generating session's cross-checks do not establish independent
 mathematical review or formalization. No full target or exponent gain.
+The all-order criterion retains PR101's credit for the complete
+second-order necessity and exact linear-component curves; its sufficiency
+on the cubic component is a corollary of the new polynomial identity.
 
 The `2026-10-23-conic-higher-jets` package is owner-directed OpenAI Codex
 work. PR101 retains credit for the literal source, conic base, tangent

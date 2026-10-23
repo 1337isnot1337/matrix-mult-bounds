@@ -2,6 +2,17 @@
 
 ## Polynomial all-order curves on the cubic conic component
 
+The [all-order criterion](research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md)
+completes normal-class existence on the full affine conic base chart:
+for every complex a,b,c and nonzero[lambda:mu], a suitable first tangent
+extends to a formal (indeed polynomial) incidence curve exactly when
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. Necessity is PR101's complete
+second-order obstruction; sufficiency combines its linear-component
+curves with the polynomial cubic-component curve below. Claim
+`AI-CONIC-ALL-ORDER-CRITERION-002` is written and unreviewed. All
+projective normal directions are included; other projective base charts
+and extension of a prescribed full tangent remain distinct questions.
+
 The [polynomial-curve proof](research/ai/2026-10-23-conic-polynomial-curve/proof.md)
 constructs an exact curve for every complex a,b,d with c=-d^3, including
 d=0. The two fourteen-row maps have polynomial t-degrees one and three,

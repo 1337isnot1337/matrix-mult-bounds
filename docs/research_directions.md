@@ -4,7 +4,10 @@ These are proposed investigations, not claimed results. Each task has a concrete
 
 The [polynomial conic curve](../research/ai/2026-10-23-conic-polynomial-curve/proof.md)
 now realizes every cubic-component normal[1:d] for all complex a,b,d,
-including d=0, with complete maps of t-degrees one and three. Its boundary
+including d=0, with complete maps of t-degrees one and three. Combined
+with PR101, its corollary makes the second-order criterion necessary and
+sufficient for all-order normal-class existence on the affine base chart.
+Its boundary
 velocity differs from the credited first jet. The separate
 [higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
 extend specified lower coefficients through order four universally for

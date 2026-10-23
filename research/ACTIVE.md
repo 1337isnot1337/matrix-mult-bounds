@@ -9,6 +9,10 @@ closes existence of an all-order representative for those normal classes,
 while leaving prescribed boundary velocities and lower jets distinct.
 Next: describe the remaining local moduli and determine how this
 rank-twelve incidence can constrain or support a full matrix target.
+The companion all-order criterion now makes PR101's second-order
+condition necessary and sufficient for existence on the entire affine
+base chart and every projective normal direction, allowing boundary
+velocity to vary. Other projective base charts remain open.
 Full regression and archived replay are required before merge. Written,
 unreviewed; no full M(10,10,11) target or exponent improvement.
 
