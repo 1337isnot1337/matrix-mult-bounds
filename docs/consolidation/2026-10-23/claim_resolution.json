@@ -4,13 +4,13 @@
   "branch_count": 130,
   "main_claim_count": 295,
   "original_unique_ids": 602,
-  "consolidated_claim_count": 607,
+  "consolidated_claim_count": 608,
   "original_ids_preserved": true,
   "independent_collision_extra_ids": 5,
   "evidence_statuses_unchanged": true,
   "all_original_evidence_paths_verified": true,
   "status_counts": {
-    "proof-written-unreviewed": 497,
+    "proof-written-unreviewed": 498,
     "finite-experiment": 83,
     "derivation-unreviewed": 1,
     "conditional-implication": 25,
@@ -8909,6 +8909,20 @@
       "path_or_id_replacements": [],
       "original_evidence_verified": true,
       "snapshot": "postvalidation_catchup"
+    },
+    {
+      "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "original_id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+      "source_record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+      "source_branch": "research/top-coefficient-biforms-20261023-t2",
+      "source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "merged_main_sha": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+      "original_evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "post-consolidation PR217 main import; outside original 159 archived snapshots"
     }
   ],
   "initial_consolidated_claim_count": 599,
@@ -11899,5 +11913,132 @@
       "scope": "Preserved unchanged as the audit of its recorded revision. This correction does not represent a new full preservation or regression run."
     },
     "limitations": "A same-session correction to one ledger sentence. It does not promote review or formalization status, change any mathematical artifact, or assert an exponent improvement."
+  },
+  "post_consolidation_added_ids": [
+    "AI-TOP-COEFFICIENT-BIFORM-RANK-001"
+  ],
+  "post_consolidation_pr217_addendum": {
+    "base_head": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+    "base_tree": "92bce7a7bb088cc89de16020a707630a6b1b21a8",
+    "main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+    "main_tree": "fb70983c565728cf2c6e8ba683ec96f86b8385ea",
+    "source_pr": 217,
+    "source_head": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+    "source_branch": "research/top-coefficient-biforms-20261023-t2",
+    "original_consolidation_claim_count": 607,
+    "current_claim_count": 608,
+    "original_archived_source_snapshots": 159,
+    "original_unique_ids": 602,
+    "new_claim_id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+    "new_record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+    "new_source_record": {
+      "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "original_id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+      "source_record_sha256": "707cad45d781ffee40b204c238280bec3ed9080c527d10b4a34bb6b625d13385",
+      "source_branch": "research/top-coefficient-biforms-20261023-t2",
+      "source_sha": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "merged_main_sha": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+      "original_evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "post-consolidation PR217 main import; outside original 159 archived snapshots"
+    },
+    "ledger_before_sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
+    "ledger_after_sha256": "ddec97aaa0172d08144b378f67b7bc7b8d0e5b925bd3ce56469c5b24d15d5f8a",
+    "narrative_decisions": [
+      {
+        "path": "PROVENANCE.md",
+        "base_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+        "added_text": "\nThe October 23 single-top-polynomial biform rank package is owner-directed AI-assisted mathematics and is proof-written-unreviewed. It credits the literal source indexing to the pinned main blob 04d28c6a05027a7756891f47d28327de850a7501, and the polynomial-kernel and affine-z precedent to PR209 at 4247f42eeb305163d299f908144b5915d1c238c5. PR171 (binomials), PR186 (general gap) and PR207 (diagonal-polynomial Toeplitz) are distinct, cited concurrent lines, not incorporated code. The all-characteristic rank formula for arbitrary single top x coefficient and constant lower z coefficients, the residue-triangular proof and exact controls are local additions. Same-session computation and proof do not constitute independent mathematical review or historical priority; no exponent improvement is claimed. Source heads, test scope and limits are preserved in [the package](research/ai/2026-10-23-top-coefficient-biforms/sources.json).\n",
+        "added_text_sha256": "7ede627651acb6a5d225f00c55743863cdd1b9fbc7bd66cf5bd08b3f43172d14",
+        "result_sha256": "6b91eebdc5c007c5a54b22de9658c15b96cb39a28778a949e2c58d2d6e2b8a94",
+        "decision": "Exact source-authored insertion; every prior consolidated byte retained in order."
+      },
+      {
+        "path": "STATUS.md",
+        "base_sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+        "added_text": "\n## All-field ranks of single-top-polynomial biforms\n\nThe [top-coefficient biform theorem](research/ai/2026-10-23-top-coefficient-biforms/proof.md) computes the literal cyclic-source matrix R_(a,b) for every f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)*z^e with 1<=e<b, nonzero constant c_0, constant lower coefficients, and nonzero polynomial w of x-degree d<a. Over every field, its exact rank is ab + sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). The leading polynomial-kernel vectors form a triangular residue basis, giving a complete all-field proof. The new controls pass 3,372 full-matrix modular comparisons and 24 independent-implementation rational matrix ranks. Claim AI-TOP-COEFFICIENT-BIFORM-RANK-001 is proof-written-unreviewed. It does not classify arbitrary quadratic-in-z coefficients, build a three-leg tensor target, or improve omega below 9/4. The separate [continuation](research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md) records exact scope and provenance.\n",
+        "added_text_sha256": "101c2f7fcd2646a8689a965d0e1595b8e9e6b7fc5d2ae3beab5620dd61e72b3e",
+        "result_sha256": "5b828ed82ec90da143ffcb5c366e823ef14e3d7bbc3c4cb852a1281b094ed21b",
+        "decision": "Exact source-authored insertion; every prior consolidated byte retained in order."
+      },
+      {
+        "path": "docs/research_directions.md",
+        "base_sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+        "added_text": "\nThe [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.\n",
+        "added_text_sha256": "098aaa0b49765df877ec2895e4ee9475db17313a613b494d3beec14f873c8384",
+        "result_sha256": "2bdf94558da7745849ec8b46a4649dc5bef9c2008fdb38da80a0d5829cf45153",
+        "decision": "Exact source-authored insertion; every prior consolidated byte retained in order."
+      },
+      {
+        "path": "research/ACTIVE.md",
+        "base_sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+        "added_text": "\nThe [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.\n",
+        "added_text_sha256": "64fd2c88ac7874b7dafeb1b62a5e21eddeb2affaea9316675d0fba036da1a246",
+        "result_sha256": "6ef64441546fb67d17b55493cad4ae74355bcd8bcfd99617ee6688c31bd32ba8",
+        "decision": "Exact source-authored insertion; every prior consolidated byte retained in order."
+      }
+    ],
+    "new_source_files": [
+      {
+        "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "1013b8e8196a292ba562df93886badf4c4ed3216",
+        "sha256": "86ec66ce941f34e796ab0c028b6d1bec810df77138c2c97f18827f06e0f980e2"
+      },
+      {
+        "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "4b04a2c6359631d4ac572d2ea49745e1893417bf",
+        "sha256": "746619a3161c350af395d22040fe22d7ac5f0abc57ee3c9c8cf6a4c99e873138"
+      },
+      {
+        "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "a07e29b5f881983bb5285b5a2bef233fcd50972c",
+        "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217"
+      },
+      {
+        "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "0b67e941456ad25f6902ab709678ed55070ef5d2",
+        "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496"
+      },
+      {
+        "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "2bb2c641460cb6a111a986e119c7f2ea0b599ee1",
+        "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206"
+      },
+      {
+        "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "fb8f266a49ef3f81a5d240db3bb7b4490c1094cc",
+        "sha256": "df2a9ae1e737a2dc7db7a000220b6d3b32162978afa7b1d3433ab738e8d49add"
+      },
+      {
+        "path": "tests/test_top_coefficient_biforms.py",
+        "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+        "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+        "git_blob_sha": "8426f8ed541a7c3b24bd58913b3b46293e332dc5",
+        "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8"
+      }
+    ],
+    "publication_note": "## Current-main refresh after PR #217\n\nMain commit `9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2` separately merged PR #217 at source head `aed489a672a79e0ec35d33fea15d875fc425c9db`. This refresh preserves the complete original consolidation and adds its one exact `AI-TOP-COEFFICIENT-BIFORM-RANK-001` record, seven package/test/result files, and authored shared summaries. The current ledger therefore has 608 records. The new contribution is outside the original 159 archived source snapshots; their manifest, recovery tags, source records, and historical reports remain unchanged. The original 1,933-test inventory and validation statements below describe their recorded revisions; the new module adds three tests, with fresh focused results recorded separately. This refresh does not claim a new full local regression or extend the historical audit to new work. Current-head required hosted CI, including Lean, remains the merge gate. See `post_consolidation_pr217_addendum` in [the current claim report](claim_resolution.json).",
+    "preservation": {
+      "all_607_previous_current_claim_objects_unchanged": true,
+      "all_607_previous_claim_source_records_unchanged": true,
+      "original_source_snapshot_and_historical_report_bytes_unchanged": true,
+      "original_branch_manifest_and_tag_receipts_unchanged": true
+    },
+    "scope": "Separate direct-PR main import. No new archive tag is claimed. Original snapshot counts and historical coverage remain scoped to their recorded revisions; this addendum is not a full preservation or regression rerun."
   }
 }

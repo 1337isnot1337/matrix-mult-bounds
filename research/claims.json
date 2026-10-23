@@ -10712,6 +10712,23 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-TOP-COEFFICIENT-BIFORM-RANK-001",
+      "title": "All-field exact rank formula for biforms with constant lower coefficients and one polynomial top coefficient",
+      "origin": "Owner-directed AI-assisted continuation",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "statement": "For every field K, integers a>=2 and 1<=e<b, constants c_0,...,c_(e-1) with c_0!=0, and nonzero polynomial w(x) of degree d<a, the literal cyclic-source coefficient matrix of f=c_0+...+c_(e-1)z^(e-1)+w(x)z^e has rank ab+sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). A polynomial-kernel basis from the e terminal entries has independent residue-triangular highest-degree vectors, proving the formula over arbitrary characteristic. 3372 finite modular full-matrix controls and 24 rational controls passed.",
+      "dependencies": [
+        "Original cyclic-source biform matrix definition pinned by blob 04d28c6a05027a7756891f47d28327de850a7501",
+        "Affine-z polynomial syzygy precedent in PR209 at 4247f42eeb305163d299f908144b5915d1c238c5 (attributed, not imported)",
+        "Explicit elementary backward polynomial recurrence and leading-degree triangularity"
+      ],
+      "limitations": "Only individual biform source-slice ranks, with every lower z coefficient constant and the coefficient at z^0 nonzero. Multiple variable z coefficients, complete three-leg tensor maps, auxiliary cost, asymptotic exponent implication, independent mathematical review, formalization and historical priority are absent.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

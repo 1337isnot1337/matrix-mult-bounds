@@ -41,9 +41,9 @@
       "source_path": "PROVENANCE.md",
       "source_blob": "a9455099641cd2a629b7530061933542f1184a52",
       "mode": "100644",
-      "sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
-      "reason": "No novel authored shared prose. Preserve the complete passing narrative instead of reverting to the smaller imported-main document.",
-      "report": "closure_source_resolution.json",
+      "sha256": "6b91eebdc5c007c5a54b22de9658c15b96cb39a28778a949e2c58d2d6e2b8a94",
+      "reason": "No novel authored shared prose. Preserve the complete passing narrative instead of reverting to the smaller imported-main document. Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -80,6 +80,13 @@
           "source_path": "PROVENANCE.md",
           "report": "closure_source_resolution.json",
           "reason": "No novel authored shared prose. Preserve the complete passing narrative instead of reverting to the smaller imported-main document."
+        },
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "PROVENANCE.md",
+          "report": "claim_resolution.json",
+          "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
         }
       ]
     },
@@ -115,10 +122,10 @@
       "source_path": "STATUS.md",
       "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
       "input_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
-      "sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+      "sha256": "5b828ed82ec90da143ffcb5c366e823ef14e3d7bbc3c4cb852a1281b094ed21b",
       "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/STATUS.md",
-      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications.",
-      "report": "closure_docs_resolution.json",
+      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications. Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -155,6 +162,13 @@
           "source_path": "STATUS.md",
           "report": "closure_docs_resolution.json",
           "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+        },
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "STATUS.md",
+          "report": "claim_resolution.json",
+          "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
         }
       ]
     },
@@ -184,11 +198,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "sha256": "18303ddab0e91da5ce16e4ec3de695dc961412e7f10c313cf7c2526c8403510f",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates.",
-      "report": "final_packaging_resolution.json",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates. Add the explicitly scoped current-main refresh note while retaining every original publication paragraph; keep original snapshot and historical coverage scopes unchanged. See post_consolidation_pr217_addendum.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -207,16 +221,23 @@
           "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
           "report": "final_packaging_resolution.json",
           "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+        },
+        {
+          "source_commit": null,
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "claim_resolution.json",
+          "reason": "Add the explicitly scoped current-main refresh note while retaining every original publication paragraph; keep original snapshot and historical coverage scopes unchanged. See post_consolidation_pr217_addendum."
         }
       ]
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
+      "sha256": "fa74cbd19893e5d242bb309790acfa6cccba0419e4220c5924c328663f80b069",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates.",
-      "report": "final_packaging_resolution.json",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates. Add the explicitly scoped current-main refresh note while retaining every original publication paragraph; keep original snapshot and historical coverage scopes unchanged. See post_consolidation_pr217_addendum.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -235,6 +256,13 @@
           "source_path": "docs/consolidation/2026-10-23/README.md",
           "report": "final_packaging_resolution.json",
           "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+        },
+        {
+          "source_commit": null,
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "claim_resolution.json",
+          "reason": "Add the explicitly scoped current-main refresh note while retaining every original publication paragraph; keep original snapshot and historical coverage scopes unchanged. See post_consolidation_pr217_addendum."
         }
       ]
     },
@@ -471,10 +499,10 @@
       "source_path": "docs/research_directions.md",
       "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
       "input_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
-      "sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+      "sha256": "2bdf94558da7745849ec8b46a4649dc5bef9c2008fdb38da80a0d5829cf45153",
       "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/docs/research_directions.md",
-      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications.",
-      "report": "closure_docs_resolution.json",
+      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications. Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -505,6 +533,13 @@
           "source_path": "docs/research_directions.md",
           "report": "closure_docs_resolution.json",
           "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+        },
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "docs/research_directions.md",
+          "report": "claim_resolution.json",
+          "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
         }
       ]
     },
@@ -601,10 +636,10 @@
       "source_path": "research/ACTIVE.md",
       "prepared_against_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
       "input_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
-      "sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+      "sha256": "6ef64441546fb67d17b55493cad4ae74355bcd8bcfd99617ee6688c31bd32ba8",
       "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_output/research/ACTIVE.md",
-      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications.",
-      "report": "closure_docs_resolution.json",
+      "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications. Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum.",
+      "report": "claim_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -635,6 +670,13 @@
           "source_path": "research/ACTIVE.md",
           "report": "closure_docs_resolution.json",
           "reason": "Preserve the passing consolidated narrative and apply only the source-authored degree terminology and unbalanced historical-gate qualifications."
+        },
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "research/ACTIVE.md",
+          "report": "claim_resolution.json",
+          "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
         }
       ]
     },
@@ -13323,10 +13365,10 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
+      "sha256": "ddec97aaa0172d08144b378f67b7bc7b8d0e5b925bd3ce56469c5b24d15d5f8a",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum. Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records.",
+      "reason": "Preserve the union of 602 original IDs plus five independently authored collision aliases; reconcile base-relative revisions with source-record hashes and preserve all evidence/status flags through each explicitly recorded catch-up addendum. Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records. Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum.",
       "report": "claim_resolution.json",
       "origins": [
         {
@@ -13340,6 +13382,13 @@
           "source_path": "research/claims.json",
           "report": "claim_resolution.json",
           "reason": "Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records. See scope_correction_addendum."
+        },
+        {
+          "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+          "merged_main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+          "source_path": "research/claims.json",
+          "report": "claim_resolution.json",
+          "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
         }
       ]
     },
@@ -29154,6 +29203,76 @@
           "reason": "Retain the exact passing consolidated bytes. The source changes only import original-main content or content already represented; later workflow, S5, semisimple, conic-order, and repaired pin updates must not regress."
         }
       ]
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "source_blob": "1013b8e8196a292ba562df93886badf4c4ed3216",
+      "mode": "100644",
+      "sha256": "86ec66ce941f34e796ab0c028b6d1bec810df77138c2c97f18827f06e0f980e2",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "source_blob": "4b04a2c6359631d4ac572d2ea49745e1893417bf",
+      "mode": "100644",
+      "sha256": "746619a3161c350af395d22040fe22d7ac5f0abc57ee3c9c8cf6a4c99e873138",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "source_blob": "a07e29b5f881983bb5285b5a2bef233fcd50972c",
+      "mode": "100644",
+      "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "source_blob": "0b67e941456ad25f6902ab709678ed55070ef5d2",
+      "mode": "100644",
+      "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
+    },
+    {
+      "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "source_blob": "2bb2c641460cb6a111a986e119c7f2ea0b599ee1",
+      "mode": "100644",
+      "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
+    },
+    {
+      "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "source_blob": "fb8f266a49ef3f81a5d240db3bb7b4490c1094cc",
+      "mode": "100644",
+      "sha256": "df2a9ae1e737a2dc7db7a000220b6d3b32162978afa7b1d3433ab738e8d49add",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
+    },
+    {
+      "path": "tests/test_top_coefficient_biforms.py",
+      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
+      "source_path": "tests/test_top_coefficient_biforms.py",
+      "source_blob": "8426f8ed541a7c3b24bd58913b3b46293e332dc5",
+      "mode": "100644",
+      "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8",
+      "reason": "Exact separately reviewed PR217 content imported from current main; outside original archived-source snapshot scope.",
+      "report": "claim_resolution.json"
     }
   ],
   "deletions": [
@@ -29675,6 +29794,62 @@
       "final_sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
       "final_report": "claim_resolution.json (scope_correction_addendum)",
       "reason": "Apply only the recorded lower-bound/attainment correction to AI-OBLIQUE-PAIRED-REPAIR-001.statement; retain every original source hash, all other claim fields and all other records."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "previous_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "6b91eebdc5c007c5a54b22de9658c15b96cb39a28778a949e2c58d2d6e2b8a94",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
+    },
+    {
+      "path": "STATUS.md",
+      "previous_sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "5b828ed82ec90da143ffcb5c366e823ef14e3d7bbc3c4cb852a1281b094ed21b",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "previous_sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "2bdf94558da7745849ec8b46a4649dc5bef9c2008fdb38da80a0d5829cf45153",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "previous_sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "6ef64441546fb67d17b55493cad4ae74355bcd8bcfd99617ee6688c31bd32ba8",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "ddec97aaa0172d08144b378f67b7bc7b8d0e5b925bd3ce56469c5b24d15d5f8a",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Preserve every existing consolidated record or narrative byte and add only the exact authored PR217 main contribution. See post_consolidation_pr217_addendum."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous_sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "fa74cbd19893e5d242bb309790acfa6cccba0419e4220c5924c328663f80b069",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Add the explicitly scoped current-main refresh note while retaining every original publication paragraph; keep original snapshot and historical coverage scopes unchanged. See post_consolidation_pr217_addendum."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous_sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "previous_report": "current output at 5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+      "final_sha256": "18303ddab0e91da5ce16e4ec3de695dc961412e7f10c313cf7c2526c8403510f",
+      "final_report": "claim_resolution.json (post_consolidation_pr217_addendum)",
+      "reason": "Add the explicitly scoped current-main refresh note while retaining every original publication paragraph; keep original snapshot and historical coverage scopes unchanged. See post_consolidation_pr217_addendum."
     }
   ],
   "inputs": {
@@ -29709,7 +29884,7 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_resolution.json": "0da0799bdfff1b79fcf154e4ac04b14d3c9925f514c8c6c97476cd9d23d4163d",
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_metadata_resolution.json": "a3a5c870eb10de7ab359ed1f56f8d3b3e549398ecfe32d28253f2837ac1d728a",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_packaging_resolution.json": "ab3014939c72ce276e16bd4716146664b7a62d02f36e896220268099b5b46f6e",
-    "docs/consolidation/2026-10-23/claim_resolution.json": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f"
+    "docs/consolidation/2026-10-23/claim_resolution.json": "3c1aa4fa22806fbafed9b0a1450dd5a6c172d8b9570b4da5e65b9ffebd2ab5c7"
   },
   "method": "Expected output hashes come from designated implementation artifacts and original Git blobs, never from the final tree being audited. All conflicting expected hashes require an explicit superseding report or follow a restoration-only source copy."
 }

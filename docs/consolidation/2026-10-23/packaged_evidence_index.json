@@ -42,7 +42,7 @@
       "source_file": "central_resolution_manifest.json",
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
       "source_sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
-      "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1",
+      "sha256": "7684529de2d346de341fe1ad9a356ef9ddf0e2a5e2297178ed0ca79459fc115e",
       "compression": null
     },
     {
@@ -56,7 +56,7 @@
       "source_file": "claims_output/resolution_report.json",
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
       "source_sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
-      "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
+      "sha256": "3c1aa4fa22806fbafed9b0a1450dd5a6c172d8b9570b4da5e65b9ffebd2ab5c7",
       "compression": null
     },
     {
@@ -579,5 +579,27 @@
     "original_source_sha256_values_unchanged": true,
     "historical_final_audit_head_unchanged": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
     "scope": "Refresh only the two current report hashes after the recorded single-statement correction. Original packaged-source hashes and historical audit receipts remain unchanged. This is not a new full preservation or regression run."
+  },
+  "post_consolidation_pr217_addendum": {
+    "base_head": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+    "main_commit": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+    "source_pr": 217,
+    "report": "docs/consolidation/2026-10-23/claim_resolution.json",
+    "report_section": "post_consolidation_pr217_addendum",
+    "outputs": [
+      {
+        "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+        "previous_sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
+        "sha256": "3c1aa4fa22806fbafed9b0a1450dd5a6c172d8b9570b4da5e65b9ffebd2ab5c7"
+      },
+      {
+        "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+        "previous_sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1",
+        "sha256": "7684529de2d346de341fe1ad9a356ef9ddf0e2a5e2297178ed0ca79459fc115e"
+      }
+    ],
+    "original_source_sha256_values_unchanged": true,
+    "historical_final_audit_head_unchanged": "a92cbacd770bfa7d0a772677e53d44ab91d2328f",
+    "scope": "Refresh only current report hashes after a separate main import. Preserve every original packaged-source hash and historical receipt; do not extend original snapshot or validation coverage."
   }
 }

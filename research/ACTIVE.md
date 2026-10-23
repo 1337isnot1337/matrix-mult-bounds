@@ -1,5 +1,7 @@
 # Integrated research coordination
 
+The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
+
 The October 23 quadratic-z middle-polynomial package
 `ai/2026-10-23-quadratic-z-middle/proof.md` gives an all-field exact
 rank formula for the literal `alpha+z*v(x)+gamma*z^2` source slice

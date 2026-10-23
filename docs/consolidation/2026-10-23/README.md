@@ -1,5 +1,9 @@
 # Branch consolidation
 
+## Current-main refresh after PR #217
+
+Main commit `9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2` separately merged PR #217 at source head `aed489a672a79e0ec35d33fea15d875fc425c9db`. This refresh preserves the complete original consolidation and adds its one exact `AI-TOP-COEFFICIENT-BIFORM-RANK-001` record, seven package/test/result files, and authored shared summaries. The current ledger therefore has 608 records. The new contribution is outside the original 159 archived source snapshots; their manifest, recovery tags, source records, and historical reports remain unchanged. The original 1,933-test inventory and validation statements below describe their recorded revisions; the new module adds three tests, with fresh focused results recorded separately. This refresh does not claim a new full local regression or extend the historical audit to new work. Current-head required hosted CI, including Lean, remains the merge gate. See `post_consolidation_pr217_addendum` in [the current claim report](claim_resolution.json).
+
 This maintenance branch gathers the work from 132 topic branch names. The initial
 snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated thirty
 new or updated heads, including three additional topic branches. The starting main
