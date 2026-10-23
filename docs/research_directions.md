@@ -16,6 +16,12 @@ or unrestricted lower bound follows from these method obstructions.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
+now proves rank six sharply over every field. Its open structural question
+is the rank-six locus and the required kernel/image alignment under two
+rank109 compressions. Check the broader long-map exclusions before
+treating such an aligned compression as a possible matrix target.
+
 ## Active paired construction: near-full width four
 
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
