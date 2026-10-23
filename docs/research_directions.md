@@ -284,6 +284,16 @@ The next owned algebraic question is equality at that rank. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
 
+The [unbalanced single-rectangular inventory](../research/ai/2026-10-23-unbalanced-rectangular-frontier/README.md)
+now covers every cyclic source2<=a<=b with N<=1377. The adopted written
+gates exclude2110 of2113 improving shapes. Only A(8,9) survives, with
+targets M(28,31,31), M(29,30,31) and M30. Seek actual maps for these
+formats or a stronger valid obstruction. Their rank-seven Hankel case
+fails the strict linear-annihilator hypothesis35<34 and cannot be
+excluded by extending that theorem's numerical range without proof.
+This finite single-target result does not cover rectangular direct sums
+or general singular maps.
+
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches

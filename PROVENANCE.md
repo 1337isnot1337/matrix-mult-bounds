@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-unbalanced-rectangular-frontier` package is owner-directed
+OpenAI Codex continuation. The source minimum-rank, polynomial rank-locus,
+Hankel image and coefficient-injection theorems retain their earlier
+attribution and external source records. The earlier balanced rectangular
+enumeration supplies the model for this finite application. The complete
+unbalanced inventory through1377, individual exclusion witnesses and
+independent full-interval/certificate replay are local continuations.
+No new external theorem, historical priority, independent mathematical
+review, tensor construction or improved exponent is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

@@ -1,5 +1,19 @@
 # Research status
 
+## Three unbalanced single-rectangular survivors through dimension1377
+
+The [complete unbalanced rectangular screen](research/ai/2026-10-23-unbalanced-rectangular-frontier/README.md)
+applies the existing written source-rank and Hankel gates to all82
+cyclic source formats2<=a<=b with N=ab(a+b-1)<=1377. It excludes2110
+of2113 improving sorted single matrix shapes. Exactly three necessary-test
+survivors remain, all from A(8,9), N=1152: M(28,31,31), M(29,30,31)
+and M30. Their maps remain missing. Every exclusion has an exact
+orientation and rank/dimension witness; independent interval enumeration
+and certificate replay pass. Claim `AI-UNBALANCED-RECTANGULAR-FRONTIER-001`
+is a written, unreviewed finite application of the credited prior proofs.
+Rectangular direct sums and singular degenerations remain outside the
+screen. No target or smaller exponent is established.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
