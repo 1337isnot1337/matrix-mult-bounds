@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-unbalanced-square-frontier` package is owner-directed
+OpenAI Codex continuation. Every adopted source-rank, scalar, rank-two
+equality and Hankel gate, including its external inputs, retains the
+attribution in the pinned earlier proof and source records. The integer
+fourth-root intervals and dimension-first square-partition recurrence
+are unchanged prior work. The complete unbalanced application, compact
+per-dimension certificate, A(8,9) finite frontier, conditional M30
+comparison and independent item-first recurrence are local continuations.
+No new external theorem, historical priority, independent mathematical
+review, tensor construction or improved exponent is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

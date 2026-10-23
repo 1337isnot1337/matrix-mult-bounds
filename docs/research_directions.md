@@ -284,6 +284,17 @@ The next owned algebraic question is equality at that rank. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
 
+The [complete unbalanced square-sum application](../research/ai/2026-10-23-unbalanced-square-frontier/README.md)
+now fills the source-dimension gap through1377. All70 formats below1152
+are excluded for an improving ordinary square direct sum; the first
+necessary-test survivor is A(8,9), not the balanced A9 source. In
+particular its unconstructed single M30 target passes the current gates
+and has an exact conditional exponent certificate5621/2500. Construct
+its actual coefficient maps or find a stronger obstruction in this
+unbalanced format. The A9 rank648 equality question remains separate.
+The earlier balanced single-rectangular enumeration and all singular
+construction questions retain their stated scopes.
+
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches

@@ -1,5 +1,21 @@
 # Research status
 
+## Complete unbalanced ordinary square-sum frontier
+
+The [unbalanced frontier](research/ai/2026-10-23-unbalanced-square-frontier/README.md)
+applies the existing written rank gates to all82 cyclic source formats
+2<=a<=b with N=ab(a+b-1)<=1377, all52310 target leg dimensions and
+every square partition. All70 formats with N<1152 are excluded for an
+improving ordinary square direct sum. The first necessary-test survivor
+is A(8,9), N=1152; only it and A(9,9) survive through1377. The simpler
+A(8,9) -> M30 target passes every implemented gate. Its exact integer
+score certificate would imply omega<=5621/2500=2.2484 if the missing maps
+were constructed. An independent item-first recurrence checks every
+saved dimension score. Claims `AI-UNBALANCED-SQUARE-FRONTIER-001` and
+`COND-UNBALANCED-M30-001` retain written-unreviewed and conditional
+status. Singular degenerations and rectangular direct sums are outside
+the exclusion. No target or smaller exponent is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
