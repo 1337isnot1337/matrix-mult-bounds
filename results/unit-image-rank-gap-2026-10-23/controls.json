@@ -1,0 +1,540 @@
+{
+  "a4_rank_margins": [
+    {
+      "excludes_target": true,
+      "forces_regularity": true,
+      "ordinary_rank_floor": 12,
+      "retained": 110,
+      "source_defect": 2,
+      "strict_margins": {
+        "first_pole": 10,
+        "injectivity": 9,
+        "parameter_dimension": 84,
+        "rank_locus": 15
+      },
+      "target_defect": 0,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "forces_regularity": true,
+      "ordinary_rank_floor": 12,
+      "retained": 109,
+      "source_defect": 3,
+      "strict_margins": {
+        "first_pole": 7,
+        "injectivity": 7,
+        "parameter_dimension": 84,
+        "rank_locus": 12
+      },
+      "target_defect": 1,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "forces_regularity": true,
+      "ordinary_rank_floor": 12,
+      "retained": 108,
+      "source_defect": 4,
+      "strict_margins": {
+        "first_pole": 4,
+        "injectivity": 5,
+        "parameter_dimension": 84,
+        "rank_locus": 9
+      },
+      "target_defect": 2,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": true,
+      "forces_regularity": true,
+      "ordinary_rank_floor": 12,
+      "retained": 107,
+      "source_defect": 5,
+      "strict_margins": {
+        "first_pole": 1,
+        "injectivity": 3,
+        "parameter_dimension": 84,
+        "rank_locus": 6
+      },
+      "target_defect": 3,
+      "target_rank_one": 11
+    },
+    {
+      "excludes_target": false,
+      "forces_regularity": false,
+      "ordinary_rank_floor": 12,
+      "retained": 106,
+      "source_defect": 6,
+      "strict_margins": {
+        "first_pole": -2,
+        "injectivity": 1,
+        "parameter_dimension": 84,
+        "rank_locus": 3
+      },
+      "target_defect": 4,
+      "target_rank_one": 11
+    }
+  ],
+  "hidden_rank_control": {
+    "constructed_retraction_rank": 8,
+    "extra": 3,
+    "fixed_projection_rank": 5,
+    "input_rank": 8,
+    "retained": 8
+  },
+  "improves_omega": false,
+  "proof_status": "proof-written-unreviewed",
+  "retraction_controls": [
+    {
+      "extra": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 1
+    },
+    {
+      "extra": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 1,
+      "retained": 1
+    },
+    {
+      "extra": 1,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 1
+    },
+    {
+      "extra": 1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 1
+    },
+    {
+      "extra": 2,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 1
+    },
+    {
+      "extra": 2,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 1
+    },
+    {
+      "extra": 3,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 1
+    },
+    {
+      "extra": 3,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 1
+    },
+    {
+      "extra": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 2
+    },
+    {
+      "extra": 0,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 2
+    },
+    {
+      "extra": 0,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 2,
+      "retained": 2
+    },
+    {
+      "extra": 1,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 2
+    },
+    {
+      "extra": 1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 2
+    },
+    {
+      "extra": 1,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 2
+    },
+    {
+      "extra": 2,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 2
+    },
+    {
+      "extra": 2,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 2
+    },
+    {
+      "extra": 2,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 2
+    },
+    {
+      "extra": 3,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 2
+    },
+    {
+      "extra": 3,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 2
+    },
+    {
+      "extra": 3,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 2
+    },
+    {
+      "extra": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 3
+    },
+    {
+      "extra": 0,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 3
+    },
+    {
+      "extra": 0,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 3
+    },
+    {
+      "extra": 0,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 3
+    },
+    {
+      "extra": 1,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 3
+    },
+    {
+      "extra": 1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 3
+    },
+    {
+      "extra": 1,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 3
+    },
+    {
+      "extra": 1,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 3
+    },
+    {
+      "extra": 2,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 3
+    },
+    {
+      "extra": 2,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 3
+    },
+    {
+      "extra": 2,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 3
+    },
+    {
+      "extra": 2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 3
+    },
+    {
+      "extra": 3,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 3
+    },
+    {
+      "extra": 3,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 3
+    },
+    {
+      "extra": 3,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 3
+    },
+    {
+      "extra": 3,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 3
+    },
+    {
+      "extra": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 4
+    },
+    {
+      "extra": 0,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 4
+    },
+    {
+      "extra": 0,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 4
+    },
+    {
+      "extra": 0,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 4
+    },
+    {
+      "extra": 0,
+      "input_rank": 4,
+      "output_rank": 4,
+      "requested_columns": 4,
+      "retained": 4
+    },
+    {
+      "extra": 1,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 4
+    },
+    {
+      "extra": 1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 4
+    },
+    {
+      "extra": 1,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 4
+    },
+    {
+      "extra": 1,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 4
+    },
+    {
+      "extra": 1,
+      "input_rank": 4,
+      "output_rank": 4,
+      "requested_columns": 4,
+      "retained": 4
+    },
+    {
+      "extra": 2,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 4
+    },
+    {
+      "extra": 2,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 4
+    },
+    {
+      "extra": 2,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 4
+    },
+    {
+      "extra": 2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 4
+    },
+    {
+      "extra": 2,
+      "input_rank": 4,
+      "output_rank": 4,
+      "requested_columns": 4,
+      "retained": 4
+    },
+    {
+      "extra": 3,
+      "input_rank": 0,
+      "output_rank": 0,
+      "requested_columns": 0,
+      "retained": 4
+    },
+    {
+      "extra": 3,
+      "input_rank": 1,
+      "output_rank": 1,
+      "requested_columns": 1,
+      "retained": 4
+    },
+    {
+      "extra": 3,
+      "input_rank": 2,
+      "output_rank": 2,
+      "requested_columns": 2,
+      "retained": 4
+    },
+    {
+      "extra": 3,
+      "input_rank": 3,
+      "output_rank": 3,
+      "requested_columns": 3,
+      "retained": 4
+    },
+    {
+      "extra": 3,
+      "input_rank": 4,
+      "output_rank": 4,
+      "requested_columns": 4,
+      "retained": 4
+    }
+  ],
+  "scope": "Finite exact controls; no formal Laurent proof or exponent gain.",
+  "source_controls": [
+    {
+      "a": 2,
+      "case": "minimum",
+      "exact_rank": 4,
+      "strict_locus_threshold": 8
+    },
+    {
+      "a": 2,
+      "case": "coherent_mixed_outer",
+      "exact_rank": 6,
+      "strict_locus_threshold": 8
+    },
+    {
+      "a": 2,
+      "case": "sharp_two_coherent_factors",
+      "exact_rank": 8,
+      "strict_locus_threshold": 8
+    },
+    {
+      "a": 3,
+      "case": "minimum",
+      "exact_rank": 9,
+      "strict_locus_threshold": 18
+    },
+    {
+      "a": 3,
+      "case": "coherent_mixed_outer",
+      "exact_rank": 15,
+      "strict_locus_threshold": 18
+    },
+    {
+      "a": 3,
+      "case": "sharp_two_coherent_factors",
+      "exact_rank": 18,
+      "strict_locus_threshold": 18
+    },
+    {
+      "a": 4,
+      "case": "minimum",
+      "exact_rank": 16,
+      "strict_locus_threshold": 32
+    },
+    {
+      "a": 4,
+      "case": "coherent_mixed_outer",
+      "exact_rank": 28,
+      "strict_locus_threshold": 32
+    },
+    {
+      "a": 4,
+      "case": "sharp_two_coherent_factors",
+      "exact_rank": 32,
+      "strict_locus_threshold": 32
+    }
+  ],
+  "source_pin_count": 3
+}
