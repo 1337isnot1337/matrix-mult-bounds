@@ -1,6 +1,19 @@
 # Research directions
 
-The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). New work must target its two-or-more nonconstant coefficient polynomial syzygies, preferably with a proved minimal-index classification or a precise same-invariants/different-rank counterexample. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
+The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)
+gives a finite exact procedure for the two kernel indices of arbitrary
+`u(x)+z*v(x)+z^2*w(x)`, and hence the full source rank at every b>=3.
+The constant first-index case is characterized by a fixed linear factor.
+The [root-height dichotomy](../research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)
+now bounds the positive first index and proves the full a=b=3 biform-block
+rank spectrum. The next question is which splitting types in the remaining
+high interval are attainable for each a,D and field, and how factor geometry
+constrains linear families rather than individual slices. Preserve exact
+full-output coefficients and distinguish
+these individual-slice constraints from a source-space cap or a full
+matrix target. The claim remains written and unreviewed.
+
+The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It does not classify arbitrary u(x)+z*v(x)+z^2*w(x). The quadratic package above now supplies the effective minimal-index classification, its root-height restriction and the small-block rank spectrum. Its remaining structural and linear-family questions are the current continuation. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 

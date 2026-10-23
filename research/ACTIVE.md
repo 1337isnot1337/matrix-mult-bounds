@@ -1,6 +1,19 @@
 # Integrated research coordination
 
-The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
+The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)
+determines individual slice ranks through two polynomial-kernel indices,
+whose sum is aD and whose first nonzero-kernel degree is computable by a
+bounded exact coefficient-matrix test. It explains the distinct indices
+of the earlier equal-resultant examples and characterizes the zero first
+index by a fixed ground-field linear factor. Do not repeat coefficient
+degree or pairwise-resultant-only searches. The root-height dichotomy in
+`ai/2026-10-23-quadratic-kernel-indices/dichotomy.md` now bounds the first
+index and proves the a=b=3 biform-block spectrum {9,12,14,15}. Determine
+attainable splitting types in the remaining high interval, constrain linear
+families, or impose compatible three-leg maps. These single-slice results
+do not supply a matrix target. Written, unreviewed.
+
+The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. The quadratic package above now gives the effective two-index procedure and structural root-height restriction; its remaining high-interval and linear-family questions supersede the former next step. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
 
 The [full-channel overlap theorem](ai/2026-10-23-column-overlap/proof.md)
 closes fixed polynomial-column routing when almost all leading channel
