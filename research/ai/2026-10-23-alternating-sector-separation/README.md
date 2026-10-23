@@ -102,6 +102,38 @@ Sections 2–3 (character degeneration and shared-leg entropy). The local
 contribution is the alternating interval construction; it does not claim a
 new entropy theorem.
 
+## Padding optimality within the exact-sector orientation model
+
+Suppose a direct sum consists of exact copies of \(C(a,b_i)\), all retaining
+the common \(a\)-dimensional first leg. For each copy, either keep the other
+two legs in their original order or exchange them. The copies occupy
+pairwise disjoint subspaces on both nonshared legs. Let \(r\) be the number
+of exchanged copies. The second-leg dimension must be at least
+\[
+\sum_i b_i+r(a-1),
+\]
+and the third-leg dimension must be at least
+\[
+\sum_i b_i+(k-r)(a-1).
+\]
+For a source \(C(a,B)\), these ambient dimensions are \(B\) and \(B+a-1\).
+Consequently
+\[
+B-\sum_i b_i\geq
+\max\{r,k-r-1\}(a-1)\geq
+\left\lfloor\frac{k}{2}\right\rfloor(a-1).
+\]
+The alternating construction attains this bound with
+\(r=\lfloor k/2\rfloor\). Thus no direct-sum extraction made from these
+exact oriented copies can use a smaller shared input dimension, even if
+the embeddings of their sector spaces are not coordinate intervals.
+
+This lower bound applies only to exact copies that preserve the common
+first leg and either retain or exchange the other two legs. It does not
+bound decompositions with different sector tensors or auxiliary summands,
+and it does not address the joint multi-fiber constraint from the separate
+formulation comparison.
+
 ## The matching scalar profile survives
 
 The exact pointwise-minimal scalar profile from `AI-SCALAR-001` satisfies
