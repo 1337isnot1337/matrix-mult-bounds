@@ -26,6 +26,10 @@ It also proves the complete nonzero `a=b=3` biform rank spectrum
 `{9,12,14,15}` over every field, excluding rank thirteen, with universal
 witnesses for all four values. This is a biform-block spectrum, not a
 classification of full cyclic-tensor slices.
+For every balanced size `a=b>=3`, quadratic-z biform ranks are contained
+in `{a²,a²+a,a²+2a−1,a²+2a}`; only primitive degree two can yield
+the one-below-full value. This containment does not assert that every
+listed value occurs over each field and size.
 
 The package specializes and makes effective the prior biform
 kernel-bundle formula. It credits the separately solved affine,

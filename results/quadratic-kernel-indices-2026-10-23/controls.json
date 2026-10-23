@@ -14,6 +14,12 @@
     "triples": 574,
     "source_maps": 1722,
     "fixed_root_criterion_cases": 504,
+    "minimum_kernel_hankel_ranks": {
+      "1": 144,
+      "2": 360
+    },
+    "strictly_low_index_cases": 144,
+    "hankel_left_right_nullity_checks": 1440,
     "index_histogram_key": "a,D,mu1,mu2",
     "index_histogram": {
       "2,0,0,0": 21,
@@ -62,6 +68,12 @@
         "triples": 32,
         "source_maps": 96,
         "fixed_root_criterion_cases": 31,
+        "minimum_kernel_hankel_ranks": {
+          "1": 7,
+          "2": 24
+        },
+        "strictly_low_index_cases": 7,
+        "hankel_left_right_nullity_checks": 96,
         "index_histogram_key": "a,D,mu1,mu2",
         "index_histogram": {
           "2,1,0,2": 3,
@@ -114,6 +126,11 @@
         "triples": 32,
         "source_maps": 96,
         "fixed_root_criterion_cases": 32,
+        "minimum_kernel_hankel_ranks": {
+          "2": 32
+        },
+        "strictly_low_index_cases": 0,
+        "hankel_left_right_nullity_checks": 128,
         "index_histogram_key": "a,D,mu1,mu2",
         "index_histogram": {
           "2,1,1,1": 8,
@@ -1122,6 +1139,1076 @@
     }
   ],
   "named_source_maps": 96,
+  "structural_controls": [
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 2,
+      "field": "Q",
+      "coefficients": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 1,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        1,
+        1
+      ],
+      "source_ranks": {
+        "3": 8,
+        "7": 16
+      },
+      "kernel_witness": {
+        "degree": 1,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 1,
+        "sequence": [
+          [
+            "-1"
+          ],
+          [],
+          [
+            "0",
+            "1"
+          ],
+          []
+        ],
+        "left_nullities": {
+          "0": 0,
+          "1": 0
+        },
+        "right_nullities": {
+          "0": 0,
+          "1": 1
+        }
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 5,
+      "field": "Q",
+      "coefficients": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 3,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        9
+      ],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 6,
+        "sequence": [
+          [],
+          [
+            "1"
+          ],
+          [],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          []
+        ],
+        "left_nullities": {
+          "2": 0,
+          "3": 3
+        },
+        "right_nullities": {
+          "2": 0,
+          "3": 1
+        }
+      }
+    },
+    {
+      "name": "nonconstant_rational_root_low_branch",
+      "a": 5,
+      "field": "Q",
+      "coefficients": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "rational_root": {
+        "s": [
+          1
+        ],
+        "t": [
+          0,
+          1
+        ]
+      },
+      "constant_coefficient_span_rank": 3,
+      "primitive_degree": 4,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        14
+      ],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 1,
+        "rank_two_lower_bound": 8,
+        "sequence": [
+          [
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "root_height": 1
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 2,
+      "field": "F2",
+      "coefficients": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 1,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        1,
+        1
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 8,
+        "7": 16
+      },
+      "kernel_witness": {
+        "degree": 1,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 1,
+        "sequence": [
+          [
+            1
+          ],
+          [],
+          [
+            0,
+            1
+          ],
+          []
+        ],
+        "left_nullities": {
+          "0": 0,
+          "1": 0
+        },
+        "right_nullities": {
+          "0": 0,
+          "1": 1
+        }
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 5,
+      "field": "F2",
+      "coefficients": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 3,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        9
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 6,
+        "sequence": [
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          []
+        ],
+        "left_nullities": {
+          "2": 0,
+          "3": 3
+        },
+        "right_nullities": {
+          "2": 0,
+          "3": 1
+        }
+      }
+    },
+    {
+      "name": "nonconstant_rational_root_low_branch",
+      "a": 5,
+      "field": "F2",
+      "coefficients": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "rational_root": {
+        "s": [
+          1
+        ],
+        "t": [
+          0,
+          1
+        ]
+      },
+      "constant_coefficient_span_rank": 3,
+      "primitive_degree": 4,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        14
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 1,
+        "rank_two_lower_bound": 8,
+        "sequence": [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "root_height": 1
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 2,
+      "field": "F3",
+      "coefficients": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 1,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        1,
+        1
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 8,
+        "7": 16
+      },
+      "kernel_witness": {
+        "degree": 1,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 1,
+        "sequence": [
+          [
+            2
+          ],
+          [],
+          [
+            0,
+            1
+          ],
+          []
+        ],
+        "left_nullities": {
+          "0": 0,
+          "1": 0
+        },
+        "right_nullities": {
+          "0": 0,
+          "1": 1
+        }
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 5,
+      "field": "F3",
+      "coefficients": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 3,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        9
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 6,
+        "sequence": [
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          []
+        ],
+        "left_nullities": {
+          "2": 0,
+          "3": 3
+        },
+        "right_nullities": {
+          "2": 0,
+          "3": 1
+        }
+      }
+    },
+    {
+      "name": "nonconstant_rational_root_low_branch",
+      "a": 5,
+      "field": "F3",
+      "coefficients": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "rational_root": {
+        "s": [
+          1
+        ],
+        "t": [
+          0,
+          1
+        ]
+      },
+      "constant_coefficient_span_rank": 3,
+      "primitive_degree": 4,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        14
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 1,
+        "rank_two_lower_bound": 8,
+        "sequence": [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "root_height": 1
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 2,
+      "field": "F5",
+      "coefficients": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 1,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        1,
+        1
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 8,
+        "7": 16
+      },
+      "kernel_witness": {
+        "degree": 1,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 1,
+        "sequence": [
+          [
+            4
+          ],
+          [],
+          [
+            0,
+            1
+          ],
+          []
+        ],
+        "left_nullities": {
+          "0": 0,
+          "1": 0
+        },
+        "right_nullities": {
+          "0": 0,
+          "1": 1
+        }
+      }
+    },
+    {
+      "name": "odd_valuation_irreducible",
+      "a": 5,
+      "field": "F5",
+      "coefficients": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "irreducibility_reason": "A rational root would have square of odd x-adic valuation.",
+      "primitive_degree": 3,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        9
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 2,
+        "rank_two_lower_bound": 6,
+        "sequence": [
+          [],
+          [
+            1
+          ],
+          [],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          []
+        ],
+        "left_nullities": {
+          "2": 0,
+          "3": 3
+        },
+        "right_nullities": {
+          "2": 0,
+          "3": 1
+        }
+      }
+    },
+    {
+      "name": "nonconstant_rational_root_low_branch",
+      "a": 5,
+      "field": "F5",
+      "coefficients": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "rational_root": {
+        "s": [
+          1
+        ],
+        "t": [
+          0,
+          1
+        ]
+      },
+      "constant_coefficient_span_rank": 3,
+      "primitive_degree": 4,
+      "gcd_degree": 0,
+      "minimal_indices": [
+        6,
+        14
+      ],
+      "fixed_roots": [],
+      "source_ranks": {
+        "3": 21,
+        "7": 48
+      },
+      "kernel_witness": {
+        "degree": 6,
+        "hankel_rank": 1,
+        "rank_two_lower_bound": 8,
+        "sequence": [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "root_height": 1
+      }
+    }
+  ],
+  "structural_source_maps": 24,
+  "a3_b3_observed_rank_spectra": {
+    "complete_F2": [
+      9,
+      12,
+      14,
+      15
+    ],
+    "named_Q": [
+      9,
+      12,
+      14,
+      15
+    ],
+    "named_F3": [
+      9,
+      12,
+      14,
+      15
+    ],
+    "named_F5": [
+      9,
+      12,
+      14,
+      15
+    ]
+  },
+  "universal_spectrum_controls": {
+    "witnesses": [
+      {
+        "name": "rank_nine",
+        "coefficients": [
+          [
+            1
+          ],
+          [],
+          []
+        ],
+        "ranks": {
+          "Q": 9,
+          "F2": 9,
+          "F3": 9,
+          "F5": 9
+        }
+      },
+      {
+        "name": "rank_twelve",
+        "coefficients": [
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          []
+        ],
+        "ranks": {
+          "Q": 12,
+          "F2": 12,
+          "F3": 12,
+          "F5": 12
+        }
+      },
+      {
+        "name": "rank_fourteen",
+        "coefficients": [
+          [
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "ranks": {
+          "Q": 14,
+          "F2": 14,
+          "F3": 14,
+          "F5": 14
+        }
+      },
+      {
+        "name": "rank_fifteen",
+        "coefficients": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "ranks": {
+          "Q": 15,
+          "F2": 15,
+          "F3": 15,
+          "F5": 15
+        }
+      }
+    ],
+    "source_maps": 16,
+    "rank_fifteen_integer_certificate": {
+      "zero_off_block": true,
+      "blocks": [
+        {
+          "label": -2,
+          "matrix": [
+            [
+              1
+            ]
+          ],
+          "determinant": 1
+        },
+        {
+          "label": -1,
+          "matrix": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "determinant": 1
+        },
+        {
+          "label": 0,
+          "matrix": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "determinant": 1
+        },
+        {
+          "label": 1,
+          "matrix": [
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "determinant": -1
+        },
+        {
+          "label": 2,
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "determinant": 1
+        },
+        {
+          "label": 3,
+          "matrix": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "determinant": 1
+        },
+        {
+          "label": 4,
+          "matrix": [
+            [
+              1
+            ]
+          ],
+          "determinant": 1
+        }
+      ],
+      "determinant": -1
+    }
+  },
   "independent_review": false,
   "improves_omega": false
 }

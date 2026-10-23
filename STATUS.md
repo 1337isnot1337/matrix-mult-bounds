@@ -12,6 +12,9 @@ root height determines both indices exactly. As a concrete consequence,
 the complete nonzero fifteen-by-fifteen biform-block rank spectrum at
 a=b=3 is `{9,12,14,15}` over every field. Rank thirteen is impossible,
 and explicit universal witnesses attain all four remaining values.
+For every balanced a=b>=3 quadratic-z family, ranks lie in
+`{a^2,a^2+a,a^2+2a-1,a^2+2a}`; universal attainment at larger sizes
+is not asserted. The one-below-full value requires primitive D=2.
 Claim `AI-QUADRATIC-INDEX-DICHOTOMY-002` is written and unreviewed.
 This does not classify all slices of the full cyclic tensor or supply
 an exponent improvement.
@@ -28,7 +31,7 @@ which occurs by floor(aD/2). The full source rank is
 `ab+min(b,mu1)+min(b,mu2)`. For positive D, a zero first index is equivalent
 to a fixed ground-field linear factor in the homogeneous z-quadratic.
 This specializes the prior kernel-bundle identity and adds an effective
-two-index procedure. Exact finite controls compare 2010 complete source
+two-index procedure. Exact finite controls compare 2050 complete source
 matrices, including the earlier equal-resultant ranks14/15 and their
 characteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is
 written and unreviewed. No source-space cap, compatible matrix target,
