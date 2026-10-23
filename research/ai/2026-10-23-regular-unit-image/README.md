@@ -50,3 +50,15 @@ quantifiers. The frozen report is
 
 Claims: `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002`.
+
+Local regression at `8168c3813dd7c57ab0b2a78084c19472425f3111`
+completed849 tests:846 passed and3 optional controls skipped. All five
+historical archive replays passed. The dated result directory contains
+the exact commit/tree receipt and compressed logs. This evidence does
+not change the mathematical review status; hosted CI checks the final
+PR head separately.
+
+Concurrent [PR103](https://github.com/1337isnot1337/matrix-mult-bounds/pull/103)
+studies a fixed square-zero resolvent with a rank16 limiting unit and
+constant compression. Its open-locus obstruction is separate from this
+rank109 unit-image criterion and retains its own credit.

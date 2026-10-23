@@ -6,7 +6,8 @@ The partial-unit-image continuation studies
 compresses to 109 independent unit-image directions and recovers the
 entire long map through varying left inverses. It replaces an invertible
 A4 unit by `rank(S(0) C(0))>=109`, including corank-one unit slices.
-Exact matrix controls pass. Full regression and hosted CI are pending;
+Exact matrix controls, all849 local tests (three optional skips) and
+all five archive replays pass. Final-head hosted CI is pending;
 the proof remains unreviewed. Rank108 is an equality boundary of this
 method. Singular long-leg limits and polar units remain open; no general
 degeneration or exponent claim.
