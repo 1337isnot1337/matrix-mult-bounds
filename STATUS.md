@@ -1,5 +1,20 @@
 # Research status
 
+## The prescribed full conic first jet extends to all orders
+
+The [fixed-first-jet curve](research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
+strengthens the earlier cubic-component construction: for every complex
+a,b,d with c=-d^3, both full constant and first coefficient maps of
+PR107 extend to exact cubic maps B(t),C(t) over Q[a,b,d]. The supplied
+first source-kernel correction is also preserved. Complete source
+replay checks all seven possible product coefficients; the fixed kernel
+and unit minors give formal ranks14,14,12. The construction includes
+d=0 and the linear-component intersections without parameter inverses.
+Claim `AI-CONIC-FIXED-FIRST-CURVE-001` is written and unreviewed.
+Its second coefficients differ by boundary terms, so preservation of
+PR107's full two-jet is not asserted here. The full matrix target and
+an improved exponent remain unconstructed.
+
 ## Polynomial all-order curves on the cubic conic component
 
 The [all-order criterion](research/ai/2026-10-23-conic-polynomial-curve/all_order_criterion.md)

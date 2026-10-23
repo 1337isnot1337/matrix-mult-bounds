@@ -2,6 +2,14 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-first conic curve](../research/ai/2026-10-23-conic-fixed-first-curve/proof.md)
+now preserves PR107's entire specified first jet in two exact cubic
+maps, uniformly for all complex a,b,d. Its second coefficients change
+only on the boundary. Determine whether the prescribed full two-jet
+also extends by an exact parameterization or encounters a genuine
+higher-order obstruction. An extension of this one full first jet does
+not classify all possible boundary velocities.
+
 The [polynomial conic curve](../research/ai/2026-10-23-conic-polynomial-curve/proof.md)
 now realizes every cubic-component normal[1:d] for all complex a,b,d,
 including d=0, with complete maps of t-degrees one and three. Combined

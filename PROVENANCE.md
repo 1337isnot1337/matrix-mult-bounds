@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-conic-fixed-first-curve` package is owner-directed
+OpenAI Codex work. It retains the original source and PR107's full first
+jet with exact byte pins, and builds on the preceding polynomial-core
+identity. Moving both gauge roots and compensating both boundary cores
+are the local additions; they preserve the prescribed full first jet.
+Acceptance reuses only pinned exact arithmetic and source-contraction
+helpers, with a separate source contraction during the same session.
+These checks are not independent mathematical review. The complete
+polynomial identity proves the local incidence statement; no full matrix
+target, formalization, historical priority or exponent gain is claimed.
+
 The `2026-10-23-conic-polynomial-curve` package is owner-directed OpenAI
 Codex work. PR101 retains credit for the canonical source, affine conic
 base and normal-class interpretation; PR107 at86b5142 retains credit for

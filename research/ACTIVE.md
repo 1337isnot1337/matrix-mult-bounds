@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The fixed-first continuation in
+`ai/2026-10-23-conic-fixed-first-curve/proof.md` now gives exact cubic
+maps preserving both full first coefficients of PR107, for all complex
+a,b,d including d=0. Six focused tests and a separate literal-source
+contraction pass. The prescribed second coefficients differ only in
+boundary entries; extending that full two-jet is the next precise
+question. The earlier normal-class criterion remains unchanged. Keep
+these local incidence curves distinct from a full matrix target; all
+claims remain written and unreviewed.
+
 The October23 polynomial-conic continuation is in
 `ai/2026-10-23-conic-polynomial-curve/proof.md`. A complete degree-one /
 degree-three polynomial pair realizes every cubic-component normal[1:d]
