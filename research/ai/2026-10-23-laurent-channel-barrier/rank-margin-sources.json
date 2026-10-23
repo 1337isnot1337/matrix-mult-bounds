@@ -1,0 +1,38 @@
+{
+  "external_sources": [
+    {
+      "authors": "J. M. Landsberg and Mateusz Michalek",
+      "section": "5",
+      "title": "On the geometry of border rank algorithms for matrix multiplication and other tensors with symmetry",
+      "url": "https://arxiv.org/pdf/1601.08229v1",
+      "used_for": "Established rank-one-term substitution method; no historical novelty is claimed for that pattern."
+    },
+    {
+      "authors": "Austin Conner, Alicia Harper and J. M. Landsberg",
+      "section": "2.2",
+      "title": "New lower bounds for matrix multiplication and det3",
+      "url": "https://arxiv.org/pdf/1911.07981v1",
+      "used_for": "Standard description of a complex border-rank decomposition by a curve of rank-one terms."
+    }
+  ],
+  "improves_omega": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "local_addition": "The additional h-rho-1 border-rank margin using regular primitive covectors and a finite-pole diagonal substitution; exact controls and scoped paired application.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+      "role": "Preceding Laurent channel lemma and paired generic channel factorization; retained as a dependency of this follow-up.",
+      "sha256": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b"
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/verify.py",
+      "role": "Preceding exact Laurent arithmetic and native-source coefficient controls; reused without modification.",
+      "sha256": "8113d23cc45ee196ac62a81f545f6847fea45a89c538d38ac04cad8dc59e5311"
+    }
+  ],
+  "preceding_local_commit": "13dfd91537a99ca9e0315e9181badc50d8cfd98d",
+  "preceding_published_commit": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+  "preceding_tree": "799c5b8e07213790aa75db598a5bda0ee448fdcf",
+  "repository_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+}

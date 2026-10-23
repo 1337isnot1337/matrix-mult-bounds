@@ -1,0 +1,123 @@
+{
+  "base_validation_local_head": "795c7cf508c454dc0bb90d604b1a85de1a87c76d",
+  "base_validation_published_head": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+  "base_validation_tree": "bd375478e375ae2a0fa4bff062eb56801a39bed2",
+  "commands": [
+    {
+      "command": "python -S research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py --output results/laurent-channel-barrier-2026-10-23/rank-margin-controls.json",
+      "exit_code": 0,
+      "scope": "Exact complete controls; standard library only"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_laurent*.py' -v",
+      "exit_code": 0,
+      "new_refinement_tests": 6,
+      "original_channel_tests_rechecked": 7,
+      "tests_passed": 13
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "exit_code": 0,
+      "scope": "Updated claims, links, source registry and repository controls",
+      "tests_passed": 18
+    }
+  ],
+  "completed_utc": "2026-10-23T17:19:09.737280+00:00",
+  "coverage_limit": "The preceding904-test frozen snapshot passed separately. This follow-up reran13 Laurent tests, including6 new tests, and18 repository tests. It does not claim a fresh uninterrupted910-test run. Existing Python implementations and tests remain byte-identical.",
+  "improves_omega": false,
+  "independent_review": false,
+  "initial_metadata_check": {
+    "exit_code": 1,
+    "failures": 1,
+    "reason": "The newly linked follow-up validation receipt had not yet been written. The receipt was created, and the entire18-test metadata file then passed. No mathematics or runtime implementation was changed to resolve this link failure."
+  },
+  "lean_formalized": false,
+  "logs": [
+    {
+      "path": "rank-margin-tests.log.gz",
+      "sha256": "9a3f148c17245eb03da2495b42fee18857d12147fa31991d87a2d5a768d66942",
+      "uncompressed_sha256": "5ffd5552bc4d3c951bf546e7bdb4a55fd372bdf5d40feb0c0bcd038b8866e34a"
+    },
+    {
+      "path": "rank-margin-metadata-initial.log.gz",
+      "sha256": "dec8b7819690e4c163e5ddfc4189f610eeec9fcd67798b858e9db5d955d66918",
+      "uncompressed_sha256": "15ea03ed596691b9d0a9e4249f7dcc2263e2d31de991200ae0442a2289357481"
+    },
+    {
+      "path": "rank-margin-metadata-tests.log.gz",
+      "sha256": "1f9e79da33a78f4b824df948d569c3ee8a63ab7271f2eb64cb5bf4e9321f5d90",
+      "uncompressed_sha256": "6fe200c6b574b105b2b267f45cb88729923a21b276eac12d27337d0504eb45c3"
+    }
+  ],
+  "new_python_files": [
+    "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py",
+    "tests/test_laurent_rank_margin.py"
+  ],
+  "preceding_full_suite_passed": 904,
+  "preceding_full_suite_receipt": "validation.json",
+  "preceding_full_suite_tested_tree": "799c5b8e07213790aa75db598a5bda0ee448fdcf",
+  "preceding_proof_and_arithmetic_byte_pins_verified": [
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+      "role": "Preceding Laurent channel lemma and paired generic channel factorization; retained as a dependency of this follow-up.",
+      "sha256": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b"
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/verify.py",
+      "role": "Preceding exact Laurent arithmetic and native-source coefficient controls; reused without modification.",
+      "sha256": "8113d23cc45ee196ac62a81f545f6847fea45a89c538d38ac04cad8dc59e5311"
+    }
+  ],
+  "previous_python_files_unchanged_from_frozen_full_suite": true,
+  "python": "3.12.14",
+  "python_optimization": 0,
+  "same_session_reasoning_checks": 2,
+  "schema": "laurent-rank-margin-validation-v1",
+  "status": "passed",
+  "tested_file_hashes": [
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md",
+      "sha256": "bb647998889a07612c9919461eb90bb8f20f038f44a33491894a6dabde4ca036"
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/rank_margin.py",
+      "sha256": "7dc36c89ca45e2d78f981d058ee10520c844a71124e824cd233b77226ec48652"
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/rank-margin-sources.json",
+      "sha256": "6bbc11095c7f35a34da020301514ff3e342c322eebe2ccb6cab74cf114ca79c9"
+    },
+    {
+      "path": "tests/test_laurent_rank_margin.py",
+      "sha256": "496382816e443034f63f835b5e7e0dd10ea8d25f3222f38221ac878d013b0cfc"
+    },
+    {
+      "path": "results/laurent-channel-barrier-2026-10-23/rank-margin-controls.json",
+      "sha256": "98ad26ef7387e71f9d342b4df23fe12ff9293395fa5af4f5862adbcf0666092a"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "66dda8c66273ece9d869c39604600db0bbb9272faceaf11a8180119355fa9c80"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "e2500cf166ee034692d5bf0b5799959b11cfe1253b50be1926f5a71f87d8292f"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "bee52bc8cd997d9ed26aba9a258a43d4ee7f4995bdb6d1088f62d9b762776711"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "2b4332ecd64895ff44dc3956b224d582304636f11fc0b1cc6f59e2f0afb8fdb5"
+    },
+    {
+      "path": "research/claims.json",
+      "sha256": "c89a6097895e7ba4b418118b18a03e958f75425d90af4d20c8f0c3687b04ca39"
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/README.md",
+      "sha256": "d3afc81aeff5943ab01a1669179c4e4da7d401f0b86c7fb3ffc96be4800c75e6"
+    }
+  ]
+}

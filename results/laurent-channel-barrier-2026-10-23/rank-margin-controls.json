@@ -1,0 +1,143 @@
+{
+  "auxiliary_border_substitution": [
+    {
+      "N": 4,
+      "local_map_pole_budget": 5,
+      "mapped_error_order": -1,
+      "raw_constant_matches_target": true,
+      "regular_with_correct_target": false,
+      "total_has_poles": true
+    },
+    {
+      "N": 5,
+      "local_map_pole_budget": 5,
+      "mapped_error_order": 0,
+      "raw_constant_matches_target": false,
+      "regular_with_correct_target": false,
+      "total_has_poles": false
+    },
+    {
+      "N": 6,
+      "local_map_pole_budget": 5,
+      "mapped_error_order": 1,
+      "raw_constant_matches_target": true,
+      "regular_with_correct_target": true,
+      "total_has_poles": false
+    }
+  ],
+  "improves_omega": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "local_source_pins": [
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+      "role": "Preceding Laurent channel lemma and paired generic channel factorization; retained as a dependency of this follow-up.",
+      "sha256": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b"
+    },
+    {
+      "path": "research/ai/2026-10-23-laurent-channel-barrier/verify.py",
+      "role": "Preceding exact Laurent arithmetic and native-source coefficient controls; reused without modification.",
+      "sha256": "8113d23cc45ee196ac62a81f545f6847fea45a89c538d38ac04cad8dc59e5311"
+    }
+  ],
+  "paired_control": {
+    "D": 0,
+    "exact_laurent_coefficient_checks": 10400,
+    "exception_count_lower_bound": 16,
+    "exceptions_b": [],
+    "exceptions_c": [],
+    "finite_specializations": [
+      {
+        "complete_residual_flattening_rank": 49,
+        "field_prime": 101,
+        "t_value": 2
+      },
+      {
+        "complete_residual_flattening_rank": 49,
+        "field_prime": 3,
+        "t_value": 2
+      }
+    ],
+    "generic_channel_rank_cap": 1,
+    "good_p_count": 4,
+    "good_q_count": 4,
+    "good_source_slices": 16,
+    "h": 4,
+    "kernel_dimension_lower_bound": 16,
+    "l": 7,
+    "m": 4,
+    "n": 7,
+    "name": "paired_rank_margin",
+    "negative_power_coefficients_retained": 2704,
+    "r": 7,
+    "strengthened_auxiliary_border_rank_lower_bound": 18,
+    "variable_b": false,
+    "variable_c": false
+  },
+  "proof_status": "proof-written-unreviewed",
+  "rank_one_channel_encoding": {
+    "channel_size": 3,
+    "complete_laurent_coefficients": 146,
+    "long_dimensions": [
+      9,
+      6
+    ],
+    "native_rank_one_coefficient_positions": 54,
+    "negative_coefficients_retained": 101,
+    "zero_two_by_two_minors": 9
+  },
+  "schema": "laurent-rank-margin-controls-v1",
+  "scope": "Exact finite controls; the general proof is rank_margin.md.",
+  "sharp_projector_cases": [
+    {
+      "auxiliary_border_rank": 3,
+      "auxiliary_first_flattening_rank": 1,
+      "auxiliary_identity_minor_determinant": 1,
+      "each_deleted_auxiliary_term_fails_complete_target": [
+        0,
+        1,
+        2
+      ],
+      "generic_source_channel_rank": 1,
+      "genuine_poles_cancel": true,
+      "good_subspace_dimension": 1,
+      "middle_width": 4,
+      "source_and_auxiliary_are_idempotents": true,
+      "source_identity_minor_determinant": 1,
+      "strengthened_border_rank_lower_bound": 3
+    },
+    {
+      "auxiliary_border_rank": 3,
+      "auxiliary_first_flattening_rank": 1,
+      "auxiliary_identity_minor_determinant": 1,
+      "each_deleted_auxiliary_term_fails_complete_target": [
+        0,
+        1,
+        2
+      ],
+      "generic_source_channel_rank": 2,
+      "genuine_poles_cancel": true,
+      "good_subspace_dimension": 1,
+      "middle_width": 5,
+      "source_and_auxiliary_are_idempotents": true,
+      "source_identity_minor_determinant": 1,
+      "strengthened_border_rank_lower_bound": 3
+    },
+    {
+      "auxiliary_border_rank": 1,
+      "auxiliary_first_flattening_rank": 1,
+      "auxiliary_identity_minor_determinant": 1,
+      "each_deleted_auxiliary_term_fails_complete_target": [
+        0
+      ],
+      "generic_source_channel_rank": 4,
+      "genuine_poles_cancel": true,
+      "good_subspace_dimension": 1,
+      "middle_width": 5,
+      "source_and_auxiliary_are_idempotents": true,
+      "source_identity_minor_determinant": 1,
+      "strengthened_border_rank_lower_bound": 1
+    }
+  ],
+  "zero_good_dimension_supplies_no_bound": 0
+}

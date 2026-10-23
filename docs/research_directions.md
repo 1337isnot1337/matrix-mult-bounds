@@ -10,6 +10,10 @@ the pole order in these classes cannot meet the subquadratic repair
 criterion. A construction should instead produce full generic channel
 rank, remove the common factorization, or use genuinely nonlocal maps.
 The precise hypotheses concern the full K((t)) family, not just its lead.
+The [rank-margin refinement](../research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md)
+strengthens auxiliary border rank to d+h-rho-1 for d>=1 and rho<h,
+while preserving the first-flattening bound d. Its constant improvement
+at fixed width does not change the remaining construction problem.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 

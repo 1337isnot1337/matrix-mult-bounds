@@ -10,7 +10,12 @@ repair bound, even for near-full targets and moving profile bases.
 The remaining constructive task is a full generic channel-rank periodic
 or nonlocal encoding, with complete tensor coefficients and an explicit
 repair cost. No target or improved exponent has been built. Prior ordinary
-branches remain separate and retain credit.
+branches remain separate and retain credit. The rank-margin follow-up
+in `ai/2026-10-23-laurent-channel-barrier/rank_margin.md` raises the
+auxiliary border-rank floor to d+h-rho-1 when d>=1 and rho<h; the first
+flattening floor stays d. At fixed width this sharpens the finite bound
+without changing the constructive task. All three claims remain written
+and unreviewed, with separate frozen-suite and follow-up receipts.
 
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees

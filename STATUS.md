@@ -17,11 +17,24 @@ tending to one and sublinear bandwidth/exception counts, this is
 while the generic common channel rank remains below h. Full generic
 channel rank and general nonlocal maps remain open.
 
-Both claims are written and unreviewed. Seven focused tests pass,
-including a moving-subspace example with genuine pole cancellation,
-five exact native-source Laurent controls and ten complete residual
-rank checks over F3 and F101. No target construction or smaller exponent
-is supplied.
+The [border-rank refinement](research/ai/2026-10-23-laurent-channel-barrier/rank_margin.md)
+adds the channel-rank deficit to the auxiliary cost: if the good subspace
+has dimension d>=1 and generic channel rank at most rho<h, then
+`border_rank(R) >= d+h-rho-1`. Its first-flattening bound remains d.
+The proof uses rank-one-term substitution and a finite-pole parameter
+substitution for auxiliary border approximations. At fixed h this is a
+constant improvement to the finite bound, with the same asymptotic scope.
+
+All three claims are written and unreviewed. Seven original focused tests
+and six refinement tests pass, including genuine pole cancellation,
+moving subspaces, complete Laurent coefficient identities, sharp d=1
+examples and strict parameter-order controls. The preceding proof tree
+passes all 904 regression tests and five archive replays, with exact
+coverage and the interrupted-prefix procedure recorded in its
+[validation receipt](results/laurent-channel-barrier-2026-10-23/VALIDATION.md).
+The refinement has its own
+[focused validation receipt](results/laurent-channel-barrier-2026-10-23/rank-margin-validation.json).
+No target construction or smaller exponent is supplied.
 
 ## The prescribed full conic two-jet extends to all orders
 

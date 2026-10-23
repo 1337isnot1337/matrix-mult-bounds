@@ -12,6 +12,18 @@ retain their earlier credits. A separate agent in the generating session
 checked the proof; this is not independent mathematical review. Seven
 focused controls do not establish an improved exponent or formalization.
 
+The same package's rank-margin follow-up adapts the standard rank-one-term
+substitution method to the regular primitive-vector argument. It retains
+credit to Landsberg and Michalek for the established border substitution
+method and to Conner, Harper and Landsberg for the rank-one-curve
+formulation, with precise sources in rank-margin-sources.json. The local
+addition is the d+h-rho-1 bound under the stated channel-rank hypothesis,
+including the finite-pole diagonal substitution and exact controls.
+Two other agents checked its reasoning during this generating session;
+this is not independent mathematical review. The preceding proof and
+arithmetic files remain byte-identical. No historical priority, exponent
+improvement or formalization is claimed.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;
