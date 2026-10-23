@@ -1,0 +1,69 @@
+{
+  "schema": "a4-compression-integrated-validation-v1",
+  "completed_at_utc": "2026-10-23T17:51:57.071846+00:00",
+  "integrated_checks_local_commit": "7b54fd10045fc85be0dc3ab39311c998a69904e4",
+  "integrated_checks_tree": "ca4d0fc76ca9f7cd13062aca28dd3482e81d9a04",
+  "fresh_checks": [
+    {
+      "command": "python -m unittest discover -s tests -p 'test_a4_arbitrary_compression.py' -v",
+      "tests_passed": 8,
+      "exit_code": 0,
+      "seconds": 3.648,
+      "log": "integration-focused-tests.log",
+      "sha256": "5ade5cd7c552ff0b6a3a7bcafcc9a2ad01ed473e494f838c29bf013bfe644909",
+      "complete_exact_acceptance_included": true
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_research.py' -v",
+      "tests_passed": 18,
+      "exit_code": 0,
+      "seconds": 0.121,
+      "log": "integration-metadata-tests.log",
+      "sha256": "62f44c6ff41fe32b10644b25a62e0d2d20870a5cac8bafbd629392f3657272d3"
+    }
+  ],
+  "retained_theorem_receipt": {
+    "path": "results/a4-compression-algebra-2026-10-23/validation.json",
+    "sha256": "795afe084ff179d7af2ea3776af5f8377fba16b0576e0fc3eb67db95540a72aa",
+    "tested_tree": "bd724a8d4b805a1d7334279289cb5aa181573e19",
+    "test_ids": 916
+  },
+  "retained_coordinate_receipt": {
+    "path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+    "sha256": "3c976fb864896a4d4439583e620a777dbed9dcb1197662bbcd706c416d96ca58",
+    "tests_passed": 4,
+    "all_eight_recorded_hashes_unchanged": true,
+    "reexecuted_during_integration": false
+  },
+  "exact_test_union": {
+    "current_discovered_tests": 920,
+    "previous_theorem_snapshot_tests": 916,
+    "additional_coordinate_test_ids": [
+      "test_a4_coordinate_compressions.IndependentCoordinateTests.test_complete_census_and_exact_sharpness",
+      "test_a4_coordinate_compressions.IndependentCoordinateTests.test_false_exact_kernel_and_repeated_pair_are_rejected",
+      "test_a4_coordinate_compressions.IndependentCoordinateTests.test_rebuilt_outer_space_matches_the_certified_block_basis",
+      "test_a4_coordinate_compressions.IndependentCoordinateTests.test_wrong_scope_and_missing_kernel_direction_are_rejected"
+    ],
+    "current_sorted_ids_sha256": "eb0ac93ad83db36550cd4406d802dbf1f09867120444b7a440fa7d4a96caae31",
+    "no_omissions_or_duplicates": true
+  },
+  "unchanged_prior_python_files_rechecked": 742,
+  "unchanged_archive_replay_inputs_rechecked": 20,
+  "theorem_source_certificate_test_hashes_unchanged": true,
+  "changed_theorem_package_file": {
+    "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+    "reason": "Added a clearly labeled resolution note while preserving the original question; no proof, verifier, certificate or test changes."
+  },
+  "integrated_document_sha256": {
+    "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md": "cc17be7afa9aa8e2b295f73056526f701714d9c23175b3870c1d2963c326325a",
+    "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md": "af3de759712aa2aa25bbe62a05ae42df115c31b9d77a9aef955179a321add722",
+    "research/ai/2026-10-23-a4-coordinate-compressions/README.md": "b8991e20409e74deb7d4b4bc8a16cc1b388ba638370355246e86f28ad7645ddf",
+    "PROVENANCE.md": "efded8e2014e3922ceb52d859ef20d82f742ae9a4c765fc68d430672150e21ec",
+    "STATUS.md": "26003f7a6c9d5874c6c4945b7a2a62f911dd75ee1c285fc29b48a0a6e657547a",
+    "docs/research_directions.md": "76fbad0a048546e0020493d8844fbe35a40e8e4121321735128a77b378567ad1",
+    "research/ACTIVE.md": "8e0c33a7e948eca6cbc35dad6c563412c06716a4d6c6595dc55a099cff2b897f",
+    "research/claims.json": "dad8919d2220f415a48174d79082df9cb1a9a54c165bd6c6b7ac498b33c60693"
+  },
+  "full_regression_repeated": false,
+  "scope": "Retained 905-test full baseline plus prior three-test block reduction, four coordinate tests and eight arbitrary-compression tests. The new eight tests and 18 metadata checks were freshly run on the named integrated tree. The separate theorem validation documentation was added afterward without changing proof, verifier, certificate or test files. No fresh 920-test full run is claimed; same-session proof checks are not independent mathematical review."
+}
