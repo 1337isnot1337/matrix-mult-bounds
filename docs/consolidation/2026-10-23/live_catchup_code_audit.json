@@ -1,0 +1,407 @@
+{
+  "schema": "matrix-mult-bounds-live-catchup-code-audit-v1",
+  "baseline": "44b917610b64a515122c4fb835f69b7ceefffb08",
+  "passing_acceptance_head": "72f5c524fd72c894d4420067fd10206944bce405",
+  "passing_publication_metadata_head": "33a0f407b2071ed30433b2b1fbd8a577c50ea044",
+  "source_heads": [
+    {
+      "branch": "research/column-overlap-20261023-ab94",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "delta_base": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+      "changes": [
+        {
+          "path": "PROVENANCE.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 4c4b2bfa917fa39e4b86e256b5636c4f2edc996f\tPROVENANCE.md"
+        },
+        {
+          "path": "STATUS.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob b264a33de5f32caee7445b958e3173185d64dec9\tSTATUS.md"
+        },
+        {
+          "path": "docs/research_directions.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 7b870e4d88209078656c7b5ad86eaec3a93b61cb\tdocs/research_directions.md"
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob f86e63821fafa66ee1292b75de3db103ac9c3e56\tresearch/ACTIVE.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 1013b8e8196a292ba562df93886badf4c4ed3216\tresearch/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 4b04a2c6359631d4ac572d2ea49745e1893417bf\tresearch/ai/2026-10-23-top-coefficient-biforms/proof.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob a07e29b5f881983bb5285b5a2bef233fcd50972c\tresearch/ai/2026-10-23-top-coefficient-biforms/sources.json"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 0b67e941456ad25f6902ab709678ed55070ef5d2\tresearch/ai/2026-10-23-top-coefficient-biforms/verify.py"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 2bb2c641460cb6a111a986e119c7f2ea0b599ee1\tresearch/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py"
+        },
+        {
+          "path": "research/claims.json",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob a15cf09cd57d923e001be79df8a206ae1a5fd49e\tresearch/claims.json"
+        },
+        {
+          "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob fb8f266a49ef3f81a5d240db3bb7b4490c1094cc\tresults/top-coefficient-biforms-2026-10-23/verification.json"
+        },
+        {
+          "path": "tests/test_top_coefficient_biforms.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 8426f8ed541a7c3b24bd58913b3b46293e332dc5\ttests/test_top_coefficient_biforms.py"
+        }
+      ]
+    },
+    {
+      "branch": "research/hankel-finite-field-interpolation-01a1697d",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "delta_base": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+      "changes": [
+        {
+          "path": "STATUS.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 40ef32646f17230636afbc4e4fe5c7e468ece490\tSTATUS.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-hankel-all-characteristics/README.md",
+          "status": "M",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob f6c2fb669fd955f62bf109b25281829c9e93a8d5\tresearch/ai/2026-10-23-hankel-all-characteristics/README.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+          "status": "M",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 6dffd07c92c338d2bd168dc45e96c3071e186862\tresearch/ai/2026-10-23-hankel-all-characteristics/proof.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-hankel-all-characteristics/sources.json",
+          "status": "M",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 7a447fe4c75e3cd03bf76517efcbd2a237ff62a4\tresearch/ai/2026-10-23-hankel-all-characteristics/sources.json"
+        },
+        {
+          "path": "research/claims.json",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 0aba6712255e6ab5da9fa131a86ce2894f12fc58\tresearch/claims.json"
+        },
+        {
+          "path": "tests/test_hankel_all_characteristics.py",
+          "status": "M",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 2481adba03bbc9a6ffd3f1c8081ea9ef276827c1\ttests/test_hankel_all_characteristics.py"
+        }
+      ]
+    },
+    {
+      "branch": "research/quadratic-kernel-indices-01a1697d",
+      "source_commit": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "changes": [
+        {
+          "path": "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 1598bad299503d0d165bd20c62604ce1f0ec4bc2\tresearch/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md"
+        }
+      ]
+    },
+    {
+      "branch": "research/three-term-resultant-obstruction-20261023-run2",
+      "source_commit": "2f8e359807496f4555f045c173efe10544588f2a",
+      "delta_base": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+      "changes": [
+        {
+          "path": "PROVENANCE.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 81f983a1253dbac8cb7328c5379d4221081f22fa\tPROVENANCE.md"
+        },
+        {
+          "path": "STATUS.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob ad687e00c896802d4b5edf9e61b38a9d355e2cb7\tSTATUS.md"
+        },
+        {
+          "path": "docs/research_directions.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob e36780124a2f5e702253828b1083736f50c6cdda\tdocs/research_directions.md"
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob d3cc0f84ea5f25cbadf1708da3c6447e4bc8df9f\tresearch/ACTIVE.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 1013b8e8196a292ba562df93886badf4c4ed3216\tresearch/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 4b04a2c6359631d4ac572d2ea49745e1893417bf\tresearch/ai/2026-10-23-top-coefficient-biforms/proof.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob a07e29b5f881983bb5285b5a2bef233fcd50972c\tresearch/ai/2026-10-23-top-coefficient-biforms/sources.json"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 0b67e941456ad25f6902ab709678ed55070ef5d2\tresearch/ai/2026-10-23-top-coefficient-biforms/verify.py"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 2bb2c641460cb6a111a986e119c7f2ea0b599ee1\tresearch/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py"
+        },
+        {
+          "path": "research/claims.json",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 02442a4580bde48d5d271cc3f86f32f1e6ab4d5c\tresearch/claims.json"
+        },
+        {
+          "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob fb8f266a49ef3f81a5d240db3bb7b4490c1094cc\tresults/top-coefficient-biforms-2026-10-23/verification.json"
+        },
+        {
+          "path": "tests/test_top_coefficient_biforms.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 8426f8ed541a7c3b24bd58913b3b46293e332dc5\ttests/test_top_coefficient_biforms.py"
+        }
+      ]
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "source_commit": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "delta_base": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+      "changes": [
+        {
+          "path": "PROVENANCE.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 82f63223c8c267b07c20aabd7417cb9eb00f0810\tPROVENANCE.md"
+        },
+        {
+          "path": "STATUS.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 99f3b45117d3301ce3b1663797b22ec9d51d8a70\tSTATUS.md"
+        },
+        {
+          "path": "docs/research_directions.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob ed739a9cb0c1ecd29ef441d0141f5d558887fc81\tdocs/research_directions.md"
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 30623b3250cc9eb33a68b94ea2fecbcb931f460c\tresearch/ACTIVE.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 1013b8e8196a292ba562df93886badf4c4ed3216\tresearch/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 4b04a2c6359631d4ac572d2ea49745e1893417bf\tresearch/ai/2026-10-23-top-coefficient-biforms/proof.md"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob a07e29b5f881983bb5285b5a2bef233fcd50972c\tresearch/ai/2026-10-23-top-coefficient-biforms/sources.json"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 0b67e941456ad25f6902ab709678ed55070ef5d2\tresearch/ai/2026-10-23-top-coefficient-biforms/verify.py"
+        },
+        {
+          "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 2bb2c641460cb6a111a986e119c7f2ea0b599ee1\tresearch/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py"
+        },
+        {
+          "path": "research/claims.json",
+          "status": "M",
+          "shared_metadata": true,
+          "already_identical_to_passing_integration": false,
+          "source_entry": "100644 blob 4eeb04f69a61a59a2048906859c650e406067c05\tresearch/claims.json"
+        },
+        {
+          "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob fb8f266a49ef3f81a5d240db3bb7b4490c1094cc\tresults/top-coefficient-biforms-2026-10-23/verification.json"
+        },
+        {
+          "path": "tests/test_top_coefficient_biforms.py",
+          "status": "A",
+          "shared_metadata": false,
+          "already_identical_to_passing_integration": true,
+          "source_entry": "100644 blob 8426f8ed541a7c3b24bd58913b3b46293e332dc5\ttests/test_top_coefficient_biforms.py"
+        }
+      ]
+    }
+  ],
+  "hankel": {
+    "new_test_id": "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_finite_field_homogeneous_interpolation_and_its_boundary",
+    "existing_test_module_ast_identical_after_removing_new_method": true,
+    "complete_module_tests": 6,
+    "new_test_matrix_count": 32,
+    "largest_matrix_shape": [
+      125,
+      28
+    ],
+    "fields": [
+      2,
+      3,
+      5
+    ],
+    "verifier_bytes_unchanged": true,
+    "saved_report_bytes_unchanged": true,
+    "source_json_changed_fields": [
+      "field_and_hypotheses"
+    ],
+    "pins": [
+      {
+        "path": "research/ai/2026-10-21-hankel-pencil-degree/proof.md",
+        "expected": "73d21b803b067c8634d33a6d9ba12945f9abbf02a39b4b38b190dc113ca475c5",
+        "actual_at_baseline": "73d21b803b067c8634d33a6d9ba12945f9abbf02a39b4b38b190dc113ca475c5",
+        "matches": true
+      },
+      {
+        "path": "research/ai/2026-10-21-hankel-pencil-degree/sources.json",
+        "expected": "67aad09d03d37f841ffa61744a29ca14af1df6d3475962b2460ecdb80e8f05d4",
+        "actual_at_baseline": "67aad09d03d37f841ffa61744a29ca14af1df6d3475962b2460ecdb80e8f05d4",
+        "matches": true
+      },
+      {
+        "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+        "expected": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635",
+        "actual_at_baseline": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635",
+        "matches": true
+      },
+      {
+        "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+        "expected": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487",
+        "actual_at_baseline": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487",
+        "matches": true
+      }
+    ],
+    "execution_review": "New test uses existing stdlib modular rank code and local lists only. No network, subprocess, discovery, writes, or new runtime dependency.",
+    "downstream_dependency_reference_audit": {
+      "baseline": "6dd2e8e52f03caf3660ced1fd72eaa797431f3d5",
+      "searched": "Maintained research/tests/results Python and JSON, excluding the central claim ledger",
+      "result": "Only the Hankel test module references the package name; no downstream source or manifest pins target the changed proof/README/sources metadata."
+    }
+  },
+  "acceptance_changes": {
+    "new_test_count": 1,
+    "new_test_modules": 0,
+    "expected_inventory_tests": 1951,
+    "expected_inventory_modules": 437,
+    "new_verifier_code": false,
+    "changed_dependency_versions": false,
+    "workflow_changes": false
+  },
+  "minimum_gate_tests": 4,
+  "execution_precondition": "Run only on the coordinator-provided clean frozen final merged tree, including the current-main and remote-integration reconciliation."
+}

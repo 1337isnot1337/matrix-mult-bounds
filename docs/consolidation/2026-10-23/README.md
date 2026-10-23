@@ -1,13 +1,13 @@
 # Branch consolidation
 
-This maintenance branch gathers the work from 136 topic branch names. The initial
-snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated thirty-five
-new or updated heads, including seven additional topic branches. The starting main
+This maintenance branch gathers the work from 138 topic branch names. The initial
+snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated forty
+new or updated heads, including nine additional topic branches. The starting main
 commit was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
 
 The [branch manifest](branches.json) records the exact source heads, their original
 pull requests, and the archive tags that preserve them. There are 129 initial
-tagged heads and thirty-five tagged updates. Source histories are also ancestors of the
+tagged heads and forty tagged updates. Source histories are also ancestors of the
 consolidation branch. Original pull request draft status is retained in the
 manifest as provenance; consolidation does not establish mathematical review.
 
@@ -44,13 +44,11 @@ Passing these checks does not change a claim's mathematical review status. Chang
 to main still require the repository's pull request and CI gates.
 
 The [publication record](PUBLICATION.md) links exact revision-scoped test and
-preservation receipts. The current inventory has 1,950 tests across 437 modules.
-The five-head focused gate and final claim/link checks passed; coverage is
-revision-aware composite evidence, not one uninterrupted final-suite run. The
-[next-wave record](NEXTWAVE.md) distinguishes 164 topic-source snapshots from
-the separately archived integration correction. It preserves 611 of 612 tested
-records unchanged and corrects one statement without changing any status flag.
-Current-head hosted CI remains required.
+preservation receipts. The current inventory has 1,951 tests across 437 modules.
+All additions are covered by passing focused gates; the full final suite was not
+rerun as one uninterrupted local execution. The manifest covers 169 topic-source
+snapshots and 138 names, with current main and concurrent integration histories
+recorded separately. Current-head hosted CI remains required.
 
 ## Original branch recovery
 

@@ -1,0 +1,101 @@
+{
+  "started_at": "2026-10-23T18:16:55.174194+00:00",
+  "head": "147db33153ffa3759ac84879008f17e08a332471",
+  "head_tree": "3c7d84bb124152d7048423be1ef89bc0a5d1f325",
+  "tracked_content_sha256": "0f0ba216d2996a89944d282c2a846a596479dfdd9cbdb2f0362e435bd28635f4",
+  "repo": "/workspace/scratch/5e4a124ebf61/consolidation/postmain_repo",
+  "python": "3.12.14",
+  "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "assertions_enabled": true,
+  "plan_sha256": "2303c71959f6e2e40aceacc60d27b441e1f698efdc2ca0f1f3abeaa327c3b6ec",
+  "harness_sha256": "ba1e38e28242b15b9ea2d314c4050ed9c3caf343aa5cae63cd0c35890509036e",
+  "prior_receipt_sha256": {
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/summary.json": "74a942e2b190d089e1ee0f8d6e350f7689228dede388edcb2ba186817323621a",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/tree_before.json": "a54e503343fe0884201c029bc844248705f22383bca81842943ed046b942aa1b",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/tree_after.json": "a54e503343fe0884201c029bc844248705f22383bca81842943ed046b942aa1b",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/coverage_union.json": "2f06e98ee81537f80c5f20c3d6810f5a1d09b2ddea370099a02790cecf872cd2",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/summary.json": "3360f148500a32c623255a967468b9750fbc27c9539ab159fdd65a4b0538e4ea",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/tree_before.json": "d55367589ac57e6ff071d8fbd0c7528dcf4759aff138a4d33e2c0b53dae472cf",
+    "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/tree_after.json": "d55367589ac57e6ff071d8fbd0c7528dcf4759aff138a4d33e2c0b53dae472cf"
+  },
+  "scope": "One new Hankel interpolation/boundary test, its source-pin test, and the merged claim-ledger/relative-link checks. The other four captured heads add only already-tested main imports or a research question. Preserve earlier receipts and run no unchanged census, discovery, or historical harness.",
+  "jobs": [
+    {
+      "name": "hankel-interpolation-and-pins",
+      "kind": "unittest",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_finite_field_homogeneous_interpolation_and_its_boundary",
+        "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_pinned_local_sources",
+        "-v"
+      ],
+      "pid": 19,
+      "started_at": "2026-10-23T18:16:55.175059+00:00",
+      "log": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/live_catchup/hankel-interpolation-and-pins.log",
+      "status": "passed",
+      "returncode": 0,
+      "completed_at": "2026-10-23T18:16:56.175955+00:00",
+      "elapsed_seconds": 1.001,
+      "coverage": null,
+      "tests_run": 2,
+      "unittest_elapsed_seconds": 0.011,
+      "unittest_result": "OK",
+      "printed_test_ids": [
+        "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_finite_field_homogeneous_interpolation_and_its_boundary",
+        "test_hankel_all_characteristics.HankelAllCharacteristicsTests.test_pinned_local_sources"
+      ],
+      "failure_headers": [],
+      "expected_test_count_matches": true,
+      "unique_printed_test_ids": 2,
+      "no_skips": true,
+      "log_sha256": "5ee331b79fe9e4b227bf90b49a12e75efd461ee785b62359e4ff4c65ae20b0ce"
+    },
+    {
+      "name": "claim-ledger-and-links",
+      "kind": "unittest",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links",
+        "-v"
+      ],
+      "pid": 20,
+      "started_at": "2026-10-23T18:16:55.175530+00:00",
+      "log": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/live_catchup/claim-ledger-and-links.log",
+      "status": "passed",
+      "returncode": 0,
+      "completed_at": "2026-10-23T18:16:56.177373+00:00",
+      "elapsed_seconds": 1.002,
+      "coverage": null,
+      "tests_run": 2,
+      "unittest_elapsed_seconds": 0.124,
+      "unittest_result": "OK",
+      "printed_test_ids": [
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ],
+      "failure_headers": [],
+      "expected_test_count_matches": true,
+      "unique_printed_test_ids": 2,
+      "no_skips": true,
+      "log_sha256": "e1d8da9253a6dc11e82f5ba649439c7cb4d47d8c858047983a0d0fd87d020884"
+    }
+  ],
+  "completed_at": "2026-10-23T18:16:57.407395+00:00",
+  "elapsed_seconds": 2.233,
+  "tests_run": 4,
+  "unique_test_ids": 4,
+  "duplicated_test_ids": 0,
+  "direct_verifiers_run": 0,
+  "tracked_files_changed_during_validation": [],
+  "frozen_head_unchanged": true,
+  "clean_tracked_status_after": true,
+  "archive_unchanged": true,
+  "archive_files_hashed": 23,
+  "prior_receipts_unchanged": true,
+  "passed": true
+}

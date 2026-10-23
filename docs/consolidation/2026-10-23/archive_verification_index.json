@@ -1,6 +1,6 @@
 {
   "schema": "matrix-consolidation-archive-receipt-index-v1",
-  "snapshot_count": 164,
+  "snapshot_count": 169,
   "basis": "Exact remote GET receipts supplied by the coordinator and checked by the offline preservation gate.",
   "archive_tags": [
     {
@@ -39,6 +39,11 @@
       "source_receipt": "archive_late_tags.json"
     },
     {
+      "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/9b0bb20a6a89",
+      "sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_receipt": "archive_live_catchup_tags.json"
+    },
+    {
       "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/f8fdcd314d7a",
       "sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
       "source_receipt": "archive_nextwave_tags.json"
@@ -57,6 +62,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/flip-escape-20261023/5f75510e14b1",
       "sha": "5f75510e14b17f490e69032d7f22f1540ad903ba",
       "source_receipt": "archive_postvalidation_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/085076a94f36",
+      "sha": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+      "source_receipt": "archive_full_target_advanced_tag.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/full-target-reconstruction-20261023-ab94/2e82e9baa5ed",
@@ -82,6 +92,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/hankel-annihilator-degree-20261023/f2430ffeb834",
       "sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
       "source_receipt": "archive_update_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/hankel-finite-field-interpolation-01a1697d/232867536a90",
+      "sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_receipt": "archive_live_catchup_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/laurent-stencil-20261023-ab94/1cce4e64a9bd",
@@ -112,6 +127,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/product-longmap-residual-20261023/fd1d0fe1e220",
       "sha": "fd1d0fe1e220849e30cceec4936c2482d55566b3",
       "source_receipt": "archive_late_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/7ecec6ebac9a",
+      "sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_receipt": "archive_live_catchup_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-z-middle-exact-20261023/0d9781b6774f",
@@ -157,6 +177,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/20a2e40f8f5c",
       "sha": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
       "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/three-term-resultant-obstruction-20261023-run2/2f8e35980749",
+      "sha": "2f8e359807496f4555f045c173efe10544588f2a",
+      "source_receipt": "archive_live_catchup_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/toeplitz-two-long-legs-20261023/d2002a7f3809",
@@ -824,5 +849,5 @@
       "source_receipt": "archive_tags.json"
     }
   ],
-  "scope": "Topic-source snapshots only; the concurrent integration correction is recorded separately."
+  "scope": "Topic-source snapshots only; integration commits5d/434 and the current-main squash history are separately preserved."
 }

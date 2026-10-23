@@ -6652,10 +6652,10 @@
     {
       "id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
       "original_id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
-      "record_sha256": "ba6bb543334f8856456dfba7a5b3843001e18198b5327f215bd4397a4a48150f",
-      "source_record_sha256": "ba6bb543334f8856456dfba7a5b3843001e18198b5327f215bd4397a4a48150f",
-      "source_branch": "research/hankel-all-characteristics-01a1697d",
-      "source_sha": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+      "record_sha256": "c11af11bff677d85e192231c6151730c2919cd603d79b7fd0bfe5fd9e3e73e34",
+      "source_record_sha256": "c11af11bff677d85e192231c6151730c2919cd603d79b7fd0bfe5fd9e3e73e34",
+      "source_branch": "research/hankel-finite-field-interpolation-01a1697d",
+      "source_sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
       "original_evidence": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
       "evidence": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
       "path_or_id_replacements": [],
@@ -12278,5 +12278,154 @@
     "topic_source_snapshots": 164,
     "topic_branch_names": 136,
     "integration_correction_counted_separately": true
+  },
+  "live_catchup_addendum": {
+    "baseline_head": "44b917610b64a515122c4fb835f69b7ceefffb08",
+    "current_main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+    "prepared_at": "2026-10-23T18:15:10.965068+00:00",
+    "source_capture": "live_catchup_frozen_heads.json",
+    "topic_source_snapshots": 169,
+    "topic_branch_names": 138,
+    "source_heads": [
+      {
+        "branch": "research/column-overlap-20261023-ab94",
+        "sha": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "delta_base": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+        "parents": [
+          "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
+          "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2"
+        ],
+        "source_claims": 297,
+        "source_authored_claim_ids": [],
+        "new_claim_ids": [],
+        "imported_parent_records_not_treated_as_new_authorship": true
+      },
+      {
+        "branch": "research/hankel-finite-field-interpolation-01a1697d",
+        "sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
+        "delta_base": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+        "parents": [
+          "a0b0bf3715dd921c2a66617239ab896d7531c816"
+        ],
+        "source_claims": 288,
+        "source_authored_claim_ids": [
+          "AI-HANKEL-ALL-CHARACTERISTICS-001"
+        ],
+        "new_claim_ids": [],
+        "imported_parent_records_not_treated_as_new_authorship": true
+      },
+      {
+        "branch": "research/quadratic-kernel-indices-01a1697d",
+        "sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+        "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+        "parents": [
+          "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+        ],
+        "source_claims": 295,
+        "source_authored_claim_ids": [],
+        "new_claim_ids": [],
+        "imported_parent_records_not_treated_as_new_authorship": true
+      },
+      {
+        "branch": "research/three-term-resultant-obstruction-20261023-run2",
+        "sha": "2f8e359807496f4555f045c173efe10544588f2a",
+        "delta_base": "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+        "parents": [
+          "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
+          "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2"
+        ],
+        "source_claims": 297,
+        "source_authored_claim_ids": [],
+        "new_claim_ids": [],
+        "imported_parent_records_not_treated_as_new_authorship": true
+      },
+      {
+        "branch": "research/full-target-reconstruction-20261023-ab94",
+        "sha": "085076a94f36ae26f28a6410ab259b1c8e18a6c2",
+        "delta_base": "3b2eb05abac534da201b4ec411e914182cb46b8a",
+        "parents": [
+          "3b2eb05abac534da201b4ec411e914182cb46b8a",
+          "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2"
+        ],
+        "source_claims": 300,
+        "source_authored_claim_ids": [],
+        "new_claim_ids": [],
+        "imported_parent_records_not_treated_as_new_authorship": true
+      }
+    ],
+    "claims_before": 612,
+    "claims_after": 612,
+    "new_ids": [],
+    "revised_ids": [
+      "AI-HANKEL-ALL-CHARACTERISTICS-001"
+    ],
+    "unchanged_records": 611,
+    "ledger_before_sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+    "ledger_after_sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
+    "all_status_flags_and_evidence_paths_preserved": true,
+    "changes": [
+      {
+        "id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
+        "changed_fields": [
+          "limitations"
+        ],
+        "source_sha": "232867536a9011d45d5014d14aeac1eeb6af0864",
+        "delta_base": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+        "before_record": {
+          "id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
+          "title": "Geometric linear-annihilator Hankel Segre bound in every characteristic",
+          "origin": "Codex research directed by repository owner",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+          "section": "Statement and geometric hypothesis; divided squares; ordinary cyclic-source consequence",
+          "statement": "Over any field K, for 1<=r<min(a,b) and 5r<2(a+b), a linear map Phi:U tensor V -> K^(a+b-1) whose symbolic decomposable Hankel image has all (r+1)-minors identically zero has image dimension at most B=max(r,k^2), k=max(1,floor((3r-a-b+4)/2)). The divided-square evaluation sequence retains diagonal constraints in characteristic two. An ordinary cyclic-source restriction containing M(l,h,n), with opposite-map kernel dimensions kY,kZ, therefore satisfies lh>Bab implies n+kY+kZ>=(r+1)ab.",
+          "dependencies": [
+            "Pinned prior Hankel pencil-degree and scalar annihilator proofs",
+            "De Teran-Dopico-Mackey MIMS 2013.47 Lemma 6.3 over arbitrary fields",
+            "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem 2.1",
+            "Pinned polynomial source-rank inequality"
+          ],
+          "limitations": "Requires geometric decomposable rank bounds or polynomial minor identities; finite-field rational-point checks alone are not substituted. Same numerical cap as characteristic zero. No singular-degeneration exclusion, constructed target, independent review, formalization or exponent improvement. Finite controls cover 911 evaluation fibers and 882 monomial assignment systems over F2,F3,F5 only.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "after_record": {
+          "id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
+          "title": "Geometric linear-annihilator Hankel Segre bound in every characteristic",
+          "origin": "Codex research directed by repository owner",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+          "section": "Statement and geometric hypothesis; divided squares; ordinary cyclic-source consequence",
+          "statement": "Over any field K, for 1<=r<min(a,b) and 5r<2(a+b), a linear map Phi:U tensor V -> K^(a+b-1) whose symbolic decomposable Hankel image has all (r+1)-minors identically zero has image dimension at most B=max(r,k^2), k=max(1,floor((3r-a-b+4)/2)). The divided-square evaluation sequence retains diagonal constraints in characteristic two. An ordinary cyclic-source restriction containing M(l,h,n), with opposite-map kernel dimensions kY,kZ, therefore satisfies lh>Bab implies n+kY+kZ>=(r+1)ab.",
+          "dependencies": [
+            "Pinned prior Hankel pencil-degree and scalar annihilator proofs",
+            "De Teran-Dopico-Mackey MIMS 2013.47 Lemma 6.3 over arbitrary fields",
+            "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem 2.1",
+            "Pinned polynomial source-rank inequality"
+          ],
+          "limitations": "Requires geometric decomposable rank bounds or polynomial minor identities; finite-field rational-point checks alone are not substituted. Over Fq with q>=r+1, exhaustive rational-decomposable testing suffices by the supplied homogeneous interpolation lemma. No field-size sharpness for Hankel minors is claimed. Same numerical cap as characteristic zero. No singular-degeneration exclusion, constructed target, independent review, formalization or exponent improvement. Finite controls cover 911 evaluation fibers and 882 monomial assignment systems over F2,F3,F5 only.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "before_record_sha256": "ba6bb543334f8856456dfba7a5b3843001e18198b5327f215bd4397a4a48150f",
+        "after_record_sha256": "c11af11bff677d85e192231c6151730c2919cd603d79b7fd0bfe5fd9e3e73e34",
+        "prior_source_provenance": {
+          "id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
+          "original_id": "AI-HANKEL-ALL-CHARACTERISTICS-001",
+          "record_sha256": "ba6bb543334f8856456dfba7a5b3843001e18198b5327f215bd4397a4a48150f",
+          "source_record_sha256": "ba6bb543334f8856456dfba7a5b3843001e18198b5327f215bd4397a4a48150f",
+          "source_branch": "research/hankel-all-characteristics-01a1697d",
+          "source_sha": "a0b0bf3715dd921c2a66617239ab896d7531c816",
+          "original_evidence": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+          "evidence": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true
+        },
+        "reason": "Preserve the source-authored finite-field interpolation qualification: exhaustive rational-decomposable testing suffices at q>=r+1. The field-size sharpness and general small-field cases remain unclaimed. All status/evidence fields are unchanged."
+      }
+    ],
+    "concurrent_oblique_statement_correction_preserved": true
   }
 }

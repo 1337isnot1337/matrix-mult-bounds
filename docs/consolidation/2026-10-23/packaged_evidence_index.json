@@ -1,421 +1,239 @@
 {
-  "schema": "matrix-consolidation-nextwave-packaged-evidence-v1",
-  "packaged_after_tested_head": "33a0f407b2071ed30433b2b1fbd8a577c50ea044",
-  "nextwave_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
-  "concurrent_source": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
-  "recorded_at": "2026-10-23T18:04:52.970893+00:00",
+  "schema": "matrix-live-catchup-evidence-v1",
+  "packaged_after_tested_head": "147db33153ffa3759ac84879008f17e08a332471",
+  "recorded_at": "2026-10-23T18:19:03.911016+00:00",
   "files": [
     {
-      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.44b91761.md",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "path": "docs/consolidation/2026-10-23/PUBLICATION.159-a764cf16.md",
-      "source_sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
-      "sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "source_sha256": "8d5db9271075e4ddc4f626bfdc0f9c4845050b68dae1b82089724fac3a462607",
+      "sha256": "8d5db9271075e4ddc4f626bfdc0f9c4845050b68dae1b82089724fac3a462607",
       "compression": null
     },
     {
-      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "path": "docs/consolidation/2026-10-23/README.44b91761.md",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "path": "docs/consolidation/2026-10-23/README.72f5c524.md",
-      "source_sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
-      "sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
+      "source_sha256": "bd12b15ee33133ec5f981f6867912f090635d8a52a551aa9f00e85949bb0c201",
+      "sha256": "bd12b15ee33133ec5f981f6867912f090635d8a52a551aa9f00e85949bb0c201",
       "compression": null
     },
     {
-      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
-      "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
-      "path": "docs/consolidation/2026-10-23/NEXTWAVE.72f5c524.md",
-      "source_sha256": "ec7dd03890d6d273bd0f3e9515d2b197e78e433a7fbe3af224a271a5eafd17cd",
-      "sha256": "ec7dd03890d6d273bd0f3e9515d2b197e78e433a7fbe3af224a271a5eafd17cd",
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.44b91761.json",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "source_sha256": "f59f625202cfe848a0abfa9f44c0f95559bd9cb4ffd92330c3af2ab6dbed9c10",
+      "sha256": "f59f625202cfe848a0abfa9f44c0f95559bd9cb4ffd92330c3af2ab6dbed9c10",
       "compression": null
     },
     {
-      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
-      "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
-      "path": "docs/consolidation/2026-10-23/archive_verification_index.159.json",
-      "source_sha256": "a265bc5450164548e5545758bb463b2a246205216bc7cbc2c197c09a1114ca14",
-      "sha256": "a265bc5450164548e5545758bb463b2a246205216bc7cbc2c197c09a1114ca14",
+      "path": "docs/consolidation/2026-10-23/preservation_report.44b91761.json",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "docs/consolidation/2026-10-23/preservation_report.json",
+      "source_sha256": "3de0cc9f544649dc77004ea0daac7962e2a5f764657a99ca6cca46089729d0d6",
+      "sha256": "3de0cc9f544649dc77004ea0daac7962e2a5f764657a99ca6cca46089729d0d6",
       "compression": null
     },
     {
-      "source_file": "nextwave_resolution_manifest.json",
-      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.nextwave-72f5c524.json",
-      "source_sha256": "b82499bdd6b464d1814ffbf72dfdd9320d4633cb35b45a5c38a0deffa259c1ce",
-      "sha256": "b82499bdd6b464d1814ffbf72dfdd9320d4633cb35b45a5c38a0deffa259c1ce",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_preservation_report.json",
-      "path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
-      "source_sha256": "1fd535252fae91c50e23585fbd9445110e54ceef2eb5650edb116ce9a219c646",
-      "sha256": "1fd535252fae91c50e23585fbd9445110e54ceef2eb5650edb116ce9a219c646",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_concurrent_resolution_manifest.json",
-      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.33a0f407.json",
-      "source_sha256": "efcc1ddeb6a911284f2953ea3be0da246a5b5ce984ae902bc61ae10b82466f01",
-      "sha256": "efcc1ddeb6a911284f2953ea3be0da246a5b5ce984ae902bc61ae10b82466f01",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_concurrent_preservation_report.json",
-      "path": "docs/consolidation/2026-10-23/preservation_report.33a0f407.json",
-      "source_sha256": "6664215c52b0b43dbd99b98d2b9639a0339c4d3962e63707e37694f4ddece08e",
-      "sha256": "6664215c52b0b43dbd99b98d2b9639a0339c4d3962e63707e37694f4ddece08e",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_output/resolution_report.json",
-      "path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
-      "source_sha256": "91799de118a53c285ae38c0895369e3a47fe58ff3405cba58e132d1c30ea415d",
-      "sha256": "91799de118a53c285ae38c0895369e3a47fe58ff3405cba58e132d1c30ea415d",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_concurrent_output/resolution_report.json",
-      "path": "docs/consolidation/2026-10-23/claim_resolution.33a0f407.json",
+      "path": "docs/consolidation/2026-10-23/claim_resolution.44b91761.json",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
       "source_sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
       "sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
       "compression": null
     },
     {
-      "source_file": "nextwave_frozen.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_frozen.json",
-      "source_sha256": "debfd9c078964b5e43da91bad23e1e89f84fe5e074d9695c5f4ea622b722fc5c",
-      "sha256": "debfd9c078964b5e43da91bad23e1e89f84fe5e074d9695c5f4ea622b722fc5c",
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.44b91761.json",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "source_sha256": "e576c570e93005a7f0072759dab43d1cba21b06b0d220a37c57030f766f3bd27",
+      "sha256": "e576c570e93005a7f0072759dab43d1cba21b06b0d220a37c57030f766f3bd27",
       "compression": null
     },
     {
-      "source_file": "nextwave_publication_frozen.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_publication_frozen.json",
-      "source_sha256": "1cc95bd566d0a05adb07ecbef80c270d39dc808165f4b2eadfe2946abf3ccc2c",
-      "sha256": "1cc95bd566d0a05adb07ecbef80c270d39dc808165f4b2eadfe2946abf3ccc2c",
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.44b91761.json",
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+      "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "source_sha256": "bedd1726b885c3d4787f0b6fa70b7b12d30280bc9fb6c4e7fe699163dfefdea6",
+      "sha256": "bedd1726b885c3d4787f0b6fa70b7b12d30280bc9fb6c4e7fe699163dfefdea6",
       "compression": null
     },
     {
-      "source_file": "nextwave_docs_independent_review.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_docs_independent_review.json",
-      "source_sha256": "04cd96340c5726c1d1ef842673c4129e57e6c0f270ae355fd210c03476c06065",
-      "sha256": "04cd96340c5726c1d1ef842673c4129e57e6c0f270ae355fd210c03476c06065",
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.147db331.json",
+      "source_file": "live_catchup_resolution_manifest.json",
+      "source_sha256": "2ae7cd9087dfbaa16ad10af00bd6105b5bdfd265307223625056a82237cbc89c",
+      "sha256": "2ae7cd9087dfbaa16ad10af00bd6105b5bdfd265307223625056a82237cbc89c",
       "compression": null
     },
     {
-      "source_file": "nextwave_concurrent_merge_log.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_merge_log.json",
-      "source_sha256": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
-      "sha256": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
+      "path": "docs/consolidation/2026-10-23/preservation_report.147db331.json",
+      "source_file": "live_catchup_preservation_report.json",
+      "source_sha256": "49912e80df669286bcb23a56e3ccb01beb47d6865a9a2d42d0e17c4769182216",
+      "sha256": "49912e80df669286bcb23a56e3ccb01beb47d6865a9a2d42d0e17c4769182216",
       "compression": null
     },
     {
-      "source_file": "nextwave_concurrent_integration_receipt.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_integration_receipt.json",
-      "source_sha256": "0ce133b8dd4f0301249b7414c074231b0a8f6829e3975a632c3811df2e959ff8",
-      "sha256": "0ce133b8dd4f0301249b7414c074231b0a8f6829e3975a632c3811df2e959ff8",
+      "path": "docs/consolidation/2026-10-23/claim_resolution.147db331.json",
+      "source_file": "live_catchup_output/resolution_report.json",
+      "source_sha256": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb",
+      "sha256": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb",
       "compression": null
     },
     {
-      "source_file": "nextwave_concurrent_claim_report.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_claim_report.json",
-      "source_sha256": "5c1636c328448174ea86a27d6a149eb59ba1f86588284961b4bc7464e550f2a1",
-      "sha256": "5c1636c328448174ea86a27d6a149eb59ba1f86588284961b4bc7464e550f2a1",
+      "path": "docs/consolidation/2026-10-23/live_catchup_frozen.json",
+      "source_file": "live_catchup_frozen.json",
+      "source_sha256": "393354c60cce331929e08fa4e9533500999f25471c25bc6ad90c4a9751b0d135",
+      "sha256": "393354c60cce331929e08fa4e9533500999f25471c25bc6ad90c4a9751b0d135",
       "compression": null
     },
     {
-      "source_file": "nextwave_concurrent_resolution.json",
-      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_resolution.json",
-      "source_sha256": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6",
-      "sha256": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6",
+      "path": "docs/consolidation/2026-10-23/live_catchup_code_audit.json",
+      "source_file": "live_catchup_code_audit.json",
+      "source_sha256": "58a70f834b906b1539cf24a7ea175bf7214b1d1857abcf1531e9517154a54998",
+      "sha256": "58a70f834b906b1539cf24a7ea175bf7214b1d1857abcf1531e9517154a54998",
       "compression": null
     },
     {
-      "source_file": "concurrent_correction_capture.json",
-      "path": "docs/consolidation/2026-10-23/concurrent_correction_capture.json",
-      "source_sha256": "04ba89bb4f2eaf27966dc77b4e82c248f6e2be596b8c36bd4b22581f51b972cb",
-      "sha256": "04ba89bb4f2eaf27966dc77b4e82c248f6e2be596b8c36bd4b22581f51b972cb",
+      "path": "docs/consolidation/2026-10-23/live_catchup_history_receipt.json",
+      "source_file": "live_catchup_history_receipt.json",
+      "source_sha256": "f7bbc9e44487e97e047aeab3fbf16d6543036eeebe2768cded0b123098951710",
+      "sha256": "f7bbc9e44487e97e047aeab3fbf16d6543036eeebe2768cded0b123098951710",
       "compression": null
     },
     {
-      "source_file": "concurrent_oblique_claim_review.json",
-      "path": "docs/consolidation/2026-10-23/concurrent_oblique_claim_review.json",
-      "source_sha256": "328613905f1510778c772e91e4ac16fe2290be93cd1ba82c3268baf210ae6164",
-      "sha256": "328613905f1510778c772e91e4ac16fe2290be93cd1ba82c3268baf210ae6164",
+      "path": "docs/consolidation/2026-10-23/live_catchup_metadata_decisions.json",
+      "source_file": "live_catchup_metadata_decisions.json",
+      "source_sha256": "d703f3e4795350ae37a686f1d2d5cbb2e22e7bdb70edbe8a42861df8986e2584",
+      "sha256": "d703f3e4795350ae37a686f1d2d5cbb2e22e7bdb70edbe8a42861df8986e2584",
       "compression": null
     },
     {
-      "source_file": "branch_retirement_159.json",
-      "path": "docs/consolidation/2026-10-23/branch_retirement_159.json",
-      "source_sha256": "f2f942859f4e879002400b3b2714202394637346c9a37f69195c1510b41c5b32",
-      "sha256": "f2f942859f4e879002400b3b2714202394637346c9a37f69195c1510b41c5b32",
+      "path": "docs/consolidation/2026-10-23/live_catchup_source_prs_169_verified.json",
+      "source_file": "live_catchup_source_prs_169_verified.json",
+      "source_sha256": "d0e51094c24b170ef1a3ad006789aef27a619a8fa5f5a2290ca8709b6eed1ea5",
+      "sha256": "d0e51094c24b170ef1a3ad006789aef27a619a8fa5f5a2290ca8709b6eed1ea5",
       "compression": null
     },
     {
-      "source_file": "pr_closure_159.json",
-      "path": "docs/consolidation/2026-10-23/pr_closure_159.json",
-      "source_sha256": "b7d55e09f5d79559809e26fb454ffc485310534530b2c259eca73caca75eb0a8",
-      "sha256": "b7d55e09f5d79559809e26fb454ffc485310534530b2c259eca73caca75eb0a8",
+      "path": "docs/consolidation/2026-10-23/live_catchup_retirement_plan_169_verified.json",
+      "source_file": "live_catchup_retirement_plan_169_verified.json",
+      "source_sha256": "9cf18a3fd6bdbc6e612168cf17ea6887ee3bd50235e0637622c292cbea69da1c",
+      "sha256": "9cf18a3fd6bdbc6e612168cf17ea6887ee3bd50235e0637622c292cbea69da1c",
       "compression": null
     },
     {
-      "source_file": "final_publication_receipt.json",
-      "path": "docs/consolidation/2026-10-23/final_publication_receipt.json",
-      "source_sha256": "0c135a9d2031fd7609dfb8754b3e36b343dfa968f39fb324f5805f0334f06b98",
-      "sha256": "0c135a9d2031fd7609dfb8754b3e36b343dfa968f39fb324f5805f0334f06b98",
+      "path": "docs/consolidation/2026-10-23/source_213_publication_hold_verified.json",
+      "source_file": "source_213_publication_hold_verified.json",
+      "source_sha256": "bacc20ceed1897ae06c3e72b8867900d6b5764d9026ff53c2a3bf8b4e14f8ff1",
+      "sha256": "bacc20ceed1897ae06c3e72b8867900d6b5764d9026ff53c2a3bf8b4e14f8ff1",
       "compression": null
     },
     {
-      "source_file": "final_five_source_prs.json",
-      "path": "docs/consolidation/2026-10-23/final_five_source_prs.json",
-      "source_sha256": "e7f4ac9cda2aabbbe7c0f4f0a607d8adc14e55ac876b07805e56390a58aaf36f",
-      "sha256": "e7f4ac9cda2aabbbe7c0f4f0a607d8adc14e55ac876b07805e56390a58aaf36f",
-      "compression": null
-    },
-    {
-      "source_file": "final_five_inventory.json",
-      "path": "docs/consolidation/2026-10-23/final_five_inventory.json",
-      "source_sha256": "846b404eee97d21fde5b47425063a0d283f3f7ff64382b8b0740fdc87c6f4c5d",
-      "sha256": "846b404eee97d21fde5b47425063a0d283f3f7ff64382b8b0740fdc87c6f4c5d",
-      "compression": null
-    },
-    {
-      "source_file": "final_five_retirement_plan.json",
-      "path": "docs/consolidation/2026-10-23/final_five_retirement_plan.json",
-      "source_sha256": "d25b4991d0a1226f6b7ff6d13f7b2dad2df1429dc7f1f9d80174eaa71b69aa92",
-      "sha256": "d25b4991d0a1226f6b7ff6d13f7b2dad2df1429dc7f1f9d80174eaa71b69aa92",
-      "compression": null
-    },
-    {
-      "source_file": "test_logs/nextwave/a4-coordinate-compressions.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-a4-coordinate-compressions.log.gz",
-      "source_sha256": "5f23060cb4cdfe2ff97118d69433db39f2a0684c798c899ae7667f74e90daaf5",
-      "sha256": "80d673bafc26b1f93cdf2239affab40905e12cab663b7b14873b287089852d14",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-claim-ledger-and-links.log.gz",
+      "source_file": "test_logs/live_catchup/claim-ledger-and-links.log",
+      "source_sha256": "e1d8da9253a6dc11e82f5ba649439c7cb4d47d8c858047983a0d0fd87d020884",
+      "sha256": "18bd756f1e5c3084ca30b5ee44ec038a8405cf9c660496b81a95659360667434",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/column-overlap.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-column-overlap.log.gz",
-      "source_sha256": "8337b1a46b854539ed01db777b80ec426c04d4b2a1a72b6e34266f13f4e884e6",
-      "sha256": "1aa9df3b44e4f2ff8031b33b2736b8f3712690cae9fe07f7e0194b0371704791",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "test_logs/nextwave/coverage_union.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-coverage_union.json",
-      "source_sha256": "da7a2ced61333676f602cfaea5fb6f683a6abafe8b94a4fb771dde64fc1972f6",
-      "sha256": "da7a2ced61333676f602cfaea5fb6f683a6abafe8b94a4fb771dde64fc1972f6",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-coverage_union.json",
+      "source_file": "test_logs/live_catchup/coverage_union.json",
+      "source_sha256": "8659411a6a2d591c5ae1c6a0b4a1349593c55b03fb5e4f9a63fb3954542f2b79",
+      "sha256": "8659411a6a2d591c5ae1c6a0b4a1349593c55b03fb5e4f9a63fb3954542f2b79",
       "compression": null
     },
     {
-      "source_file": "test_logs/nextwave/discovery.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.json",
-      "source_sha256": "5069e1b75ec1a0e10a4eca992dc8ac74c95c2159683dc04ca7cde055a7376d54",
-      "sha256": "5069e1b75ec1a0e10a4eca992dc8ac74c95c2159683dc04ca7cde055a7376d54",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-discovery.json",
+      "source_file": "test_logs/live_catchup/discovery.json",
+      "source_sha256": "57f63037ef00c0f75246b36298c8b82181391e1ef4fb1611c9c8ea75dc56c940",
+      "sha256": "57f63037ef00c0f75246b36298c8b82181391e1ef4fb1611c9c8ea75dc56c940",
       "compression": null
     },
     {
-      "source_file": "test_logs/nextwave/discovery.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.log.gz",
-      "source_sha256": "5069e1b75ec1a0e10a4eca992dc8ac74c95c2159683dc04ca7cde055a7376d54",
-      "sha256": "e9fa899e70421fc94bc55ee86facf94dfee39ce38082c242755daab7f925156d",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-discovery.log.gz",
+      "source_file": "test_logs/live_catchup/discovery.log",
+      "source_sha256": "57f63037ef00c0f75246b36298c8b82181391e1ef4fb1611c9c8ea75dc56c940",
+      "sha256": "4d0de97228bb94bfcb02724a20254fd728d76d25995537bc89e0b48c3c583b12",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/discovery.stderr.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.stderr.log.gz",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-discovery.stderr.log.gz",
+      "source_file": "test_logs/live_catchup/discovery.stderr.log",
       "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sha256": "f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/inventory_tree_after.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_after.json.gz",
-      "source_sha256": "13d448709a497e2e791561fc8f5c3907e539b7462171e7b054dc9c91bbbca8b5",
-      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-hankel-interpolation-and-pins.log.gz",
+      "source_file": "test_logs/live_catchup/hankel-interpolation-and-pins.log",
+      "source_sha256": "5ee331b79fe9e4b227bf90b49a12e75efd461ee785b62359e4ff4c65ae20b0ce",
+      "sha256": "55753c3630db5e6370098814bf7f0b18c5ab44f6e4c3e401d5d6e33a7b675326",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/inventory_tree_before.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_before.json.gz",
-      "source_sha256": "13d448709a497e2e791561fc8f5c3907e539b7462171e7b054dc9c91bbbca8b5",
-      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-inventory_tree_after.json.gz",
+      "source_file": "test_logs/live_catchup/inventory_tree_after.json",
+      "source_sha256": "91c805bf7931492efc29ffbdacab098b89bd1577f120a65f18d4251c41cbc377",
+      "sha256": "deaff4671c00f5d599cadc3f49ad0c584f32ccfa95f786485fabd5714299347b",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/paired-rank-two-gap.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-paired-rank-two-gap.log.gz",
-      "source_sha256": "ba097eed2a10551a7498e34cb111c8bb89339ca237b57f613cb00ab953c283a2",
-      "sha256": "5d602cfda3ec9a8bd0eef72332a5515deec514ef737ea84e5baef1b88e0c4b62",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-inventory_tree_before.json.gz",
+      "source_file": "test_logs/live_catchup/inventory_tree_before.json",
+      "source_sha256": "91c805bf7931492efc29ffbdacab098b89bd1577f120a65f18d4251c41cbc377",
+      "sha256": "deaff4671c00f5d599cadc3f49ad0c584f32ccfa95f786485fabd5714299347b",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/plan.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-plan.json",
-      "source_sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
-      "sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-plan.json",
+      "source_file": "test_logs/live_catchup/plan.json",
+      "source_sha256": "2303c71959f6e2e40aceacc60d27b441e1f698efdc2ca0f1f3abeaa327c3b6ec",
+      "sha256": "2303c71959f6e2e40aceacc60d27b441e1f698efdc2ca0f1f3abeaa327c3b6ec",
       "compression": null
     },
     {
-      "source_file": "test_logs/nextwave/repository-and-archives.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-repository-and-archives.log.gz",
-      "source_sha256": "29593f5f524430fd5c8d3518d1bccb9ff42525ab7e1054c68b9701ed099e3176",
-      "sha256": "64acfc110fae2709d63555b20781b73314e01525ee184d20b6ab9d086af75d2e",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-summary.json",
+      "source_file": "test_logs/live_catchup/summary.json",
+      "source_sha256": "40b2aa936e5cf343f469fbd24b3c87b9bf76a78d8f80b8e045442babe38636dc",
+      "sha256": "40b2aa936e5cf343f469fbd24b3c87b9bf76a78d8f80b8e045442babe38636dc",
+      "compression": null
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-tree_after.json.gz",
+      "source_file": "test_logs/live_catchup/tree_after.json",
+      "source_sha256": "91c805bf7931492efc29ffbdacab098b89bd1577f120a65f18d4251c41cbc377",
+      "sha256": "deaff4671c00f5d599cadc3f49ad0c584f32ccfa95f786485fabd5714299347b",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/summary.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-summary.json",
-      "source_sha256": "eb20d95590b911fc6adbb908770ea6e2b952a3e8f4d91b60c71f88306740bf7f",
-      "sha256": "eb20d95590b911fc6adbb908770ea6e2b952a3e8f4d91b60c71f88306740bf7f",
-      "compression": null
-    },
-    {
-      "source_file": "test_logs/nextwave/three-term-resultant-obstruction.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-three-term-resultant-obstruction.log.gz",
-      "source_sha256": "e4af74b53a752f3effa7c65d7571bc3db3ffecc7c70f65aab45768e223227139",
-      "sha256": "2dd75203e8ac2012513d13df86b0ff41e0d3d3ab58fb9e459469bf0d6ae4fbf2",
+      "path": "docs/consolidation/2026-10-23/validation/live-catchup-tree_before.json.gz",
+      "source_file": "test_logs/live_catchup/tree_before.json",
+      "source_sha256": "91c805bf7931492efc29ffbdacab098b89bd1577f120a65f18d4251c41cbc377",
+      "sha256": "deaff4671c00f5d599cadc3f49ad0c584f32ccfa95f786485fabd5714299347b",
       "compression": "gzip"
     },
     {
-      "source_file": "test_logs/nextwave/top-coefficient-biforms.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-top-coefficient-biforms.log.gz",
-      "source_sha256": "e825d8246288592dd3151cdbac022f7959ad5a970a2de0da913fc57b85fe48a2",
-      "sha256": "44ea5ea20bc45e49b6321fdbb05c023c6050e4b11daec467d1567afb9acb7164",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "test_logs/nextwave/tree_after.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-tree_after.json.gz",
-      "source_sha256": "13d448709a497e2e791561fc8f5c3907e539b7462171e7b054dc9c91bbbca8b5",
-      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "test_logs/nextwave/tree_before.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-tree_before.json.gz",
-      "source_sha256": "13d448709a497e2e791561fc8f5c3907e539b7462171e7b054dc9c91bbbca8b5",
-      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "test_logs/nextwave_publication/claim-ledger-and-links.log",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-claim-ledger-and-links.log.gz",
-      "source_sha256": "16fa79d86654965dec428f28bd54a97462c2a57fea060a83f348911e989b678c",
-      "sha256": "1cb972db5b74741a129b238701d81e358202c51fb32de505e747c71e225f05ed",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "test_logs/nextwave_publication/equivalence.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-equivalence.json",
-      "source_sha256": "623a7d5ed4ca85b5f19edf7d42dc2dfce30e52f69d3b6b46dba76a1ee00cb5b4",
-      "sha256": "623a7d5ed4ca85b5f19edf7d42dc2dfce30e52f69d3b6b46dba76a1ee00cb5b4",
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/live_catchup_validation_plan.json",
+      "source_file": "live_catchup_validation_plan.json",
+      "source_sha256": "2303c71959f6e2e40aceacc60d27b441e1f698efdc2ca0f1f3abeaa327c3b6ec",
+      "sha256": "2303c71959f6e2e40aceacc60d27b441e1f698efdc2ca0f1f3abeaa327c3b6ec",
       "compression": null
     },
     {
-      "source_file": "test_logs/nextwave_publication/plan.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-plan.json",
-      "source_sha256": "5663c4ca27382b272ea390474ec1fee9834000bc9a279fc4908de735055338f6",
-      "sha256": "5663c4ca27382b272ea390474ec1fee9834000bc9a279fc4908de735055338f6",
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_live_catchup_coverage.py",
+      "source_file": "record_live_catchup_coverage.py",
+      "source_sha256": "b8fa2d2a7706610957c9e5c86182df9b0cc5e6df391d4caba505e733f2ebc3ce",
+      "sha256": "b8fa2d2a7706610957c9e5c86182df9b0cc5e6df391d4caba505e733f2ebc3ce",
       "compression": null
     },
     {
-      "source_file": "test_logs/nextwave_publication/summary.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-summary.json",
-      "source_sha256": "87de51b7a8e2d677f6ddc94d34cab0cefea746018dc36e9662ea3569792edfe1",
-      "sha256": "87de51b7a8e2d677f6ddc94d34cab0cefea746018dc36e9662ea3569792edfe1",
-      "compression": null
-    },
-    {
-      "source_file": "test_logs/nextwave_publication/tree_after.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_after.json.gz",
-      "source_sha256": "579e1597e6550840e662fef9e57235f2cb66eb1657969af4d6e363cc7a1905d5",
-      "sha256": "ad6fb3c90606e6df3e714ae5fabc4dba9b8cdf162471a615901332c9c61d7e68",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "test_logs/nextwave_publication/tree_before.json",
-      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_before.json.gz",
-      "source_sha256": "579e1597e6550840e662fef9e57235f2cb66eb1657969af4d6e363cc7a1905d5",
-      "sha256": "ad6fb3c90606e6df3e714ae5fabc4dba9b8cdf162471a615901332c9c61d7e68",
-      "compression": "gzip"
-    },
-    {
-      "source_file": "record_nextwave_coverage.py",
-      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_coverage.py",
-      "source_sha256": "b14c34162e1c3a05ace6c9bf30a588547b093e5ac6b3dee286cf6207f38169a2",
-      "sha256": "b14c34162e1c3a05ace6c9bf30a588547b093e5ac6b3dee286cf6207f38169a2",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_validation_plan.json",
-      "path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_validation_plan.json",
-      "source_sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
-      "sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
-      "compression": null
-    },
-    {
-      "source_file": "record_nextwave_publication_equivalence.py",
-      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_publication_equivalence.py",
-      "source_sha256": "59809dc9597f629a7624fd771f2bbc3b45dc8a5b3026223dddb67491b19fc746",
-      "sha256": "59809dc9597f629a7624fd771f2bbc3b45dc8a5b3026223dddb67491b19fc746",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_publication_validation_plan.json",
-      "path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_publication_validation_plan.json",
-      "source_sha256": "5663c4ca27382b272ea390474ec1fee9834000bc9a279fc4908de735055338f6",
-      "sha256": "5663c4ca27382b272ea390474ec1fee9834000bc9a279fc4908de735055338f6",
-      "compression": null
-    },
-    {
-      "source_file": "nextwave_concurrent_preservation.py",
-      "path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_concurrent_preservation.py",
-      "source_sha256": "f96f2d4bff186f30a86ff7bd0a9823c85db896d3aa3b19adce3130702dc9ad44",
-      "sha256": "f96f2d4bff186f30a86ff7bd0a9823c85db896d3aa3b19adce3130702dc9ad44",
-      "compression": null
-    },
-    {
-      "source_file": "integrate_nextwave_correction.py",
-      "path": "docs/consolidation/2026-10-23/validation/harnesses/integrate_nextwave_correction.py",
-      "source_sha256": "30ed4675f3b9b66a74f89cb5955c7b9e38c9cf456ad29b77ccbae14fa3c2732f",
-      "sha256": "30ed4675f3b9b66a74f89cb5955c7b9e38c9cf456ad29b77ccbae14fa3c2732f",
-      "compression": null
-    },
-    {
-      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
-      "sha256": "f59f625202cfe848a0abfa9f44c0f95559bd9cb4ffd92330c3af2ab6dbed9c10",
-      "source_sha256": "f59f625202cfe848a0abfa9f44c0f95559bd9cb4ffd92330c3af2ab6dbed9c10",
-      "source_audited_head": "f177c825af8691bbec4eac0302ab93e07a5e5cd8",
-      "compression": null
-    },
-    {
-      "path": "docs/consolidation/2026-10-23/preservation_report.json",
-      "sha256": "3de0cc9f544649dc77004ea0daac7962e2a5f764657a99ca6cca46089729d0d6",
-      "source_sha256": "3de0cc9f544649dc77004ea0daac7962e2a5f764657a99ca6cca46089729d0d6",
-      "source_audited_head": "f177c825af8691bbec4eac0302ab93e07a5e5cd8",
-      "compression": null
-    },
-    {
-      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_integration_receipt.current.json",
-      "sha256": "d95460af34982e5d23122a9eea3b52a514b211e4ba4d05ca6e5f02281b9869fa",
-      "source_sha256": "d95460af34982e5d23122a9eea3b52a514b211e4ba4d05ca6e5f02281b9869fa",
-      "source_audited_head": "f177c825af8691bbec4eac0302ab93e07a5e5cd8",
-      "compression": null
-    },
-    {
-      "path": "docs/consolidation/2026-10-23/nextwave_packaging_commit.json",
-      "sha256": "5aebab25073a0912eb10b88453ffd9daf2fa51edd3c90c6eebb1f0d282b1f8a7",
-      "source_sha256": "5aebab25073a0912eb10b88453ffd9daf2fa51edd3c90c6eebb1f0d282b1f8a7",
-      "source_audited_head": "f177c825af8691bbec4eac0302ab93e07a5e5cd8",
-      "compression": null
-    },
-    {
-      "path": "docs/consolidation/2026-10-23/nextwave_packaging_equivalence.json",
-      "sha256": "74a4b038630a1412a9aaa9f37fa4da4299c006a1360ec4840fd3c5bbb14f61f7",
-      "source_sha256": "74a4b038630a1412a9aaa9f37fa4da4299c006a1360ec4840fd3c5bbb14f61f7",
-      "source_audited_head": "f177c825af8691bbec4eac0302ab93e07a5e5cd8",
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/audit_live_catchup.py",
+      "source_file": "audit_live_catchup.py",
+      "source_sha256": "f97fda1582154a7aa20c1baab24a3888357bd4af1ac841a400e44a681f46dd08",
+      "sha256": "f97fda1582154a7aa20c1baab24a3888357bd4af1ac841a400e44a681f46dd08",
       "compression": null
     }
   ],
-  "limitations": "All indexed bytes match this packaging. Historical audits and validation runs retain their exact revision scopes. This last commit changes only metadata receipts, not the inputs covered by validation.",
-  "final_audited_head": "f177c825af8691bbec4eac0302ab93e07a5e5cd8"
+  "limitations": "Earlier exact indexes survive under revision names. Current audit/index bytes are finalized by the later metadata-only receipt commit."
 }

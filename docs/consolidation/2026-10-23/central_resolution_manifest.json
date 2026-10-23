@@ -1,6 +1,6 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T18:04:55.154882+00:00",
+  "assembled_at": "2026-10-23T18:17:24.042513+00:00",
   "baseline_published_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
   "outputs": [
     {
@@ -39,19 +39,9 @@
     {
       "path": "PROVENANCE.md",
       "sha256": "40e44e3ad9d2bf617c561d4f0c3d1d1b9372f9346ae89d70d3d73b7c2d76a6df",
-      "source_commit": null,
-      "source_commits": [
-        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
-        "3b2eb05abac534da201b4ec411e914182cb46b8a",
-        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
-        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
-        "aed489a672a79e0ec35d33fea15d875fc425c9db"
-      ],
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "PROVENANCE.md",
-      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
-      "input_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/PROVENANCE.md",
-      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
+      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions.",
       "origins": [
         {
           "source_commit": null,
@@ -94,9 +84,15 @@
           "source_path": "PROVENANCE.md",
           "report": "nextwave_docs_resolution.json",
           "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+        },
+        {
+          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+          "source_path": "PROVENANCE.md",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
         }
       ],
-      "report": "nextwave_docs_resolution.json"
+      "report": "live_catchup_integration_resolution.json"
     },
     {
       "path": "README.md",
@@ -122,20 +118,12 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
-      "source_commit": null,
-      "source_commits": [
-        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
-        "3b2eb05abac534da201b4ec411e914182cb46b8a",
-        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
-        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
-        "aed489a672a79e0ec35d33fea15d875fc425c9db"
-      ],
+      "sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "input_sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
       "source_path": "STATUS.md",
-      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
-      "input_sha256": "d39a7546c70f1da949aff3a0e4622a88009926fe51a4f3c2bcbcfdeef9906455",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/STATUS.md",
-      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_docs_output/STATUS.md",
+      "reason": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope.",
       "origins": [
         {
           "source_commit": null,
@@ -178,9 +166,15 @@
           "source_path": "STATUS.md",
           "report": "nextwave_docs_resolution.json",
           "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+        },
+        {
+          "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+          "source_path": "STATUS.md",
+          "report": "live_catchup_docs_resolution.json",
+          "reason": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope."
         }
       ],
-      "report": "nextwave_docs_resolution.json"
+      "report": "live_catchup_docs_resolution.json"
     },
     {
       "path": "docs/concurrent_research.md",
@@ -261,11 +255,27 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.434178af.md",
+      "sha256": "18303ddab0e91da5ce16e4ec3de695dc961412e7f10c313cf7c2526c8403510f",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union.",
+      "report": "live_catchup_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
       "sha256": "8d5db9271075e4ddc4f626bfdc0f9c4845050b68dae1b82089724fac3a462607",
-      "source_commit": null,
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt.",
       "origins": [
         {
           "source_commit": null,
@@ -290,9 +300,31 @@
           "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        },
+        {
+          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "live_catchup_metadata_decisions.json",
+          "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
         }
       ],
-      "report": "nextwave_packaging_resolution.json"
+      "report": "live_catchup_metadata_decisions.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.434178af.md",
+      "sha256": "fa74cbd19893e5d242bb309790acfa6cccba0419e4220c5924c328663f80b069",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/README.md",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union.",
+      "report": "live_catchup_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/README.72f5c524.md",
@@ -313,9 +345,9 @@
     {
       "path": "docs/consolidation/2026-10-23/README.md",
       "sha256": "bd12b15ee33133ec5f981f6867912f090635d8a52a551aa9f00e85949bb0c201",
-      "source_commit": null,
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt.",
       "origins": [
         {
           "source_commit": null,
@@ -346,9 +378,15 @@
           "source_path": "docs/consolidation/2026-10-23/README.md",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        },
+        {
+          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "live_catchup_metadata_decisions.json",
+          "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
         }
       ],
-      "report": "nextwave_packaging_resolution.json"
+      "report": "live_catchup_metadata_decisions.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/archive_verification_index.159.json",
@@ -400,10 +438,10 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "1d9adcde7f29187a13136cc9f874467e14e91b6869c8e61b03f99d29a113c988",
+      "sha256": "c38a77e118b18358580c41c1dae35c17faf438d0f64d66943df58d4a0339da85",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "reason": "Record five additional exact archived heads, two new topic names, the current main ancestry, and immutable original/advanced PR captures. Preserve historical main_at_snapshot and distinguish independently merged PR217 from superseded closures.",
       "origins": [
         {
           "source_commit": null,
@@ -428,9 +466,15 @@
           "source_path": "docs/consolidation/2026-10-23/branches.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/branches.json",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Record five additional exact archived heads, two new topic names, the current main ancestry, and immutable original/advanced PR captures. Preserve historical main_at_snapshot and distinguish independently merged PR217 from superseded closures."
         }
       ],
-      "report": "nextwave_packaging_resolution.json"
+      "report": "live_catchup_integration_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.33a0f407.json",
@@ -445,6 +489,22 @@
           "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.33a0f407.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.434178af.json",
+      "sha256": "7684529de2d346de341fe1ad9a356ef9ddf0e2a5e2297178ed0ca79459fc115e",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union.",
+      "report": "live_catchup_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
         }
       ]
     },
@@ -513,6 +573,22 @@
       ]
     },
     {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.434178af.json",
+      "sha256": "3c1aa4fa22806fbafed9b0a1450dd5a6c172d8b9570b4da5e65b9ffebd2ab5c7",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union.",
+      "report": "live_catchup_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
+        }
+      ]
+    },
+    {
       "path": "docs/consolidation/2026-10-23/claim_resolution.5d144109.json",
       "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f",
       "source_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
@@ -547,9 +623,9 @@
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
       "sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
-      "source_commit": null,
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt.",
       "origins": [
         {
           "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
@@ -562,9 +638,15 @@
           "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        },
+        {
+          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "live_catchup_metadata_decisions.json",
+          "reason": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
         }
       ],
-      "report": "nextwave_packaging_resolution.json"
+      "report": "live_catchup_metadata_decisions.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
@@ -819,6 +901,22 @@
           "source_path": "docs/consolidation/2026-10-23/nextwave_publication_frozen.json",
           "report": "nextwave_packaging_resolution.json",
           "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.434178af.json",
+      "sha256": "3750982d1271991edc3ff30c010bff90b8fef331a0a03f20273854fb26cc72d2",
+      "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+      "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union.",
+      "report": "live_catchup_integration_resolution.json",
+      "origins": [
+        {
+          "source_commit": "434178af88a16a3d13e9db60dd97453207dbf2b2",
+          "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Preserve the exact concurrently authored reconciliation metadata as historical provenance; its608-record/main-squash scope does not replace the larger current union."
         }
       ]
     },
@@ -1555,18 +1653,9 @@
     {
       "path": "docs/research_directions.md",
       "sha256": "98c9c9c58cd9feef0fd8a05f411e3cb3915403d3a05e30b9ddd5ac5f89f69d38",
-      "source_commit": null,
-      "source_commits": [
-        "3b2eb05abac534da201b4ec411e914182cb46b8a",
-        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
-        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
-        "aed489a672a79e0ec35d33fea15d875fc425c9db"
-      ],
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "docs/research_directions.md",
-      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
-      "input_sha256": "e82091efb2652f34807186005aafc9aceaf6eb83b720830a71c209f92e709a8f",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/docs/research_directions.md",
-      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
+      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions.",
       "origins": [
         {
           "source_commit": null,
@@ -1603,9 +1692,15 @@
           "source_path": "docs/research_directions.md",
           "report": "nextwave_docs_resolution.json",
           "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+        },
+        {
+          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+          "source_path": "docs/research_directions.md",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
         }
       ],
-      "report": "nextwave_docs_resolution.json"
+      "report": "live_catchup_integration_resolution.json"
     },
     {
       "path": "docs/route-synthesis.md",
@@ -1694,19 +1789,9 @@
     {
       "path": "research/ACTIVE.md",
       "sha256": "da3e28e717304f06b21248ddcb93c173267fd6c708af3a118b8fc341468fd8a6",
-      "source_commit": null,
-      "source_commits": [
-        "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
-        "3b2eb05abac534da201b4ec411e914182cb46b8a",
-        "dd45f0c80030642f2de6b5a3ae0162b4e129b33f",
-        "20a2e40f8f5cb5f6c7e07bdf39e980162635bd20",
-        "aed489a672a79e0ec35d33fea15d875fc425c9db"
-      ],
+      "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
       "source_path": "research/ACTIVE.md",
-      "prepared_against_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
-      "input_sha256": "554271ef8c05966c6f72a08b3109a6f042c26900134b1c8f34a70cd4b3bcfcb5",
-      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_docs_output/research/ACTIVE.md",
-      "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes.",
+      "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions.",
       "origins": [
         {
           "source_commit": null,
@@ -1743,9 +1828,15 @@
           "source_path": "research/ACTIVE.md",
           "report": "nextwave_docs_resolution.json",
           "reason": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+        },
+        {
+          "source_commit": "44b917610b64a515122c4fb835f69b7ceefffb08",
+          "source_path": "research/ACTIVE.md",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
         }
       ],
-      "report": "nextwave_docs_resolution.json"
+      "report": "live_catchup_integration_resolution.json"
     },
     {
       "path": "research/ai/2026-10-20-f8-unequal/ACTIVE.md",
@@ -12846,6 +12937,57 @@
       ]
     },
     {
+      "path": "research/ai/2026-10-23-hankel-all-characteristics/README.md",
+      "sha256": "dc8ead43ede76468ef5c3c1adc131613b292171993c924e16c753118a511a400",
+      "mode": "100644",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_path": "research/ai/2026-10-23-hankel-all-characteristics/README.md",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "report": "live_catchup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+          "source_path": "research/ai/2026-10-23-hankel-all-characteristics/README.md",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+      "sha256": "59212802201036a18f1f08075248a3d7011ee95d309c0143200b971805fd53b6",
+      "mode": "100644",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_path": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "report": "live_catchup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+          "source_path": "research/ai/2026-10-23-hankel-all-characteristics/proof.md",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-hankel-all-characteristics/sources.json",
+      "sha256": "b2e10c927bae29ab06985faca52721ff2acb0e39352db2e86260393748d2dc96",
+      "mode": "100644",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_path": "research/ai/2026-10-23-hankel-all-characteristics/sources.json",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "report": "live_catchup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+          "source_path": "research/ai/2026-10-23-hankel-all-characteristics/sources.json",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
+        }
+      ]
+    },
+    {
       "path": "research/ai/2026-10-23-laurent-channel-barrier/README.md",
       "source_commit": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
       "source_path": "research/ai/2026-10-23-laurent-channel-barrier/README.md",
@@ -13597,6 +13739,23 @@
           "source_path": "research/ai/2026-10-23-partial-regular-frames/README.md",
           "report": "docs_resolution.json",
           "reason": "Retain the latest additive/corrected package README, including pinned attribution and validation receipts."
+        }
+      ]
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md",
+      "sha256": "48d9fb65e5ba0dcdcbe9365afaeb7ec41477de2087aa3123ff2d8942c54cc7c3",
+      "mode": "100644",
+      "source_commit": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "report": "live_catchup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+          "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/QUESTION.md",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
       ]
     },
@@ -14588,93 +14747,143 @@
     },
     {
       "path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
-      "source_blob": "1013b8e8196a292ba562df93886badf4c4ed3216",
-      "mode": "100644",
       "sha256": "86ec66ce941f34e796ab0c028b6d1bec810df77138c2c97f18827f06e0f980e2",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
-      "source_blob": "4b04a2c6359631d4ac572d2ea49745e1893417bf",
-      "mode": "100644",
       "sha256": "746619a3161c350af395d22040fe22d7ac5f0abc57ee3c9c8cf6a4c99e873138",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/proof.md",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
-      "source_blob": "a07e29b5f881983bb5285b5a2bef233fcd50972c",
-      "mode": "100644",
       "sha256": "1ce651fc53cbb442b49ce7429a9ddd13da139c0be3fe3c79cab839fa149d9217",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/sources.json",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
-      "source_blob": "0b67e941456ad25f6902ab709678ed55070ef5d2",
-      "mode": "100644",
       "sha256": "3d11836334de5079f6298bce0b39a04673dea43d7debec80054a47473a706496",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify.py",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
-      "source_blob": "2bb2c641460cb6a111a986e119c7f2ea0b599ee1",
-      "mode": "100644",
       "sha256": "c1160c7c2dbb50f77087f38e4f00369c69d38497461101efdacf98681a4af206",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "research/ai/2026-10-23-top-coefficient-biforms/verify_charzero.py",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "research/ai/2026-10-23-torus-low-rank/proof.md",
@@ -14864,14 +15073,10 @@
     },
     {
       "path": "research/claims.json",
-      "sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+      "sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
       "source_commit": null,
       "source_path": "research/claims.json",
-      "source_commits": [
-        "72f5c524fd72c894d4420067fd10206944bce405",
-        "5d1441090e1c3c804d0ba0797a20ec303b5c08d5"
-      ],
-      "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records.",
+      "reason": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance.",
       "origins": [
         {
           "source_commit": null,
@@ -14890,9 +15095,15 @@
           "source_path": "research/claims.json",
           "report": "nextwave_concurrent_resolution.json",
           "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
+        },
+        {
+          "source_commit": null,
+          "source_path": "research/claims.json",
+          "report": "live_catchup_integration_resolution.json",
+          "reason": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance."
         }
       ],
-      "report": "nextwave_concurrent_resolution.json"
+      "report": "live_catchup_integration_resolution.json"
     },
     {
       "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
@@ -28774,21 +28985,31 @@
     },
     {
       "path": "results/top-coefficient-biforms-2026-10-23/verification.json",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
-      "source_blob": "fb8f266a49ef3f81a5d240db3bb7b4490c1094cc",
-      "mode": "100644",
       "sha256": "df2a9ae1e737a2dc7db7a000220b6d3b32162978afa7b1d3433ab738e8d49add",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "results/top-coefficient-biforms-2026-10-23/verification.json",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "results/torus-low-rank-2026-10-23/controls.json",
@@ -29659,6 +29880,23 @@
           "source_path": "tests/test_global_mixed_normal_dichotomy.py",
           "report": "closure_source_resolution.json",
           "reason": "Retain the exact passing consolidated bytes. The source changes only import original-main content or content already represented; later workflow, S5, semisimple, conic-order, and repaired pin updates must not regress."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_hankel_all_characteristics.py",
+      "sha256": "138ae61ad568ff4bd0afe5fd0cc6b0da66c2f25dd1fd528762538af0c7c1b9d8",
+      "mode": "100644",
+      "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+      "source_path": "tests/test_hankel_all_characteristics.py",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "report": "live_catchup_source_resolution.json",
+      "origins": [
+        {
+          "source_commit": "232867536a9011d45d5014d14aeac1eeb6af0864",
+          "source_path": "tests/test_hankel_all_characteristics.py",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
       ]
     },
@@ -30879,21 +31117,31 @@
     },
     {
       "path": "tests/test_top_coefficient_biforms.py",
-      "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
-      "source_path": "tests/test_top_coefficient_biforms.py",
-      "source_blob": "8426f8ed541a7c3b24bd58913b3b46293e332dc5",
-      "mode": "100644",
       "sha256": "f8eb40c7e3774e534a4ae7671a9f82ff063c902d1625e49073175186a23792e8",
-      "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results.",
-      "report": "nextwave_source_resolution.json",
+      "mode": "100644",
+      "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+      "source_path": "tests/test_top_coefficient_biforms.py",
+      "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content.",
+      "source_commits": [
+        "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+        "2f8e359807496f4555f045c173efe10544588f2a",
+        "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+      ],
       "origins": [
         {
           "source_commit": "aed489a672a79e0ec35d33fea15d875fc425c9db",
           "source_path": "tests/test_top_coefficient_biforms.py",
           "report": "nextwave_source_resolution.json",
           "reason": "Preserve the exact new source package, proof, acceptance test or historical result. Optional discovery code and source-specific validation receipts are retained as authored, not executed or represented as final integration results."
+        },
+        {
+          "source_commit": "9b0bb20a6a891d9d352029d7775d650e065a51ea",
+          "source_path": "tests/test_top_coefficient_biforms.py",
+          "report": "live_catchup_source_resolution.json",
+          "reason": "Preserve the exact frozen source bytes and mode. Already-tested biform imports remain unchanged; the scoped Hankel continuation and the quadratic research question retain their authored source content."
         }
-      ]
+      ],
+      "report": "live_catchup_source_resolution.json"
     },
     {
       "path": "tests/test_torus_low_rank.py",
@@ -31009,6 +31257,10 @@
     "PROVENANCE.md",
     "README.md",
     "STATUS.md",
+    "docs/consolidation/2026-10-23/README.md",
+    "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+    "docs/consolidation/2026-10-23/claim_resolution.json",
+    "docs/consolidation/2026-10-23/packaged_evidence_index.json",
     "docs/literature.md",
     "docs/research_directions.md",
     "docs/route-synthesis.md",
@@ -31053,8 +31305,8 @@
     },
     {
       "path": "PROVENANCE.md",
-      "resolution_report": "nextwave_docs_resolution.json",
-      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+      "resolution_report": "live_catchup_integration_resolution.json",
+      "decision": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
     },
     {
       "path": "README.md",
@@ -31063,8 +31315,28 @@
     },
     {
       "path": "STATUS.md",
-      "resolution_report": "nextwave_docs_resolution.json",
-      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+      "resolution_report": "live_catchup_docs_resolution.json",
+      "decision": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "resolution_report": "live_catchup_metadata_decisions.json",
+      "decision": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "resolution_report": "live_catchup_metadata_decisions.json",
+      "decision": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "resolution_report": "live_catchup_metadata_decisions.json",
+      "decision": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "resolution_report": "live_catchup_metadata_decisions.json",
+      "decision": "Preserve the larger tested union's current metadata at the content gate; exact concurrent434 metadata survives under revision names. Explicit final packaging installs the169-source audit/guide. Current self-referential audit/index hashes are checked by the external publication evidence index and transfer receipt."
     },
     {
       "path": "docs/literature.md",
@@ -31073,8 +31345,8 @@
     },
     {
       "path": "docs/research_directions.md",
-      "resolution_report": "nextwave_docs_resolution.json",
-      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+      "resolution_report": "live_catchup_integration_resolution.json",
+      "decision": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
     },
     {
       "path": "docs/route-synthesis.md",
@@ -31088,8 +31360,8 @@
     },
     {
       "path": "research/ACTIVE.md",
-      "resolution_report": "nextwave_docs_resolution.json",
-      "decision": "Insert the frozen source-authored continuations without regressing current scopes. Group biform directions with the existing introduction, coordinate compression under its existing heading, and the paired heading before the next section. Replace only the newly solved counterexample request and explicitly state the column theorem's hypotheses. No claim review status changes."
+      "resolution_report": "live_catchup_integration_resolution.json",
+      "decision": "Retain the already reviewed single copies of biform summaries and all later continuations; the three advanced heads and concurrent main merge only reimport those same contributions."
     },
     {
       "path": "research/ai/2026-10-23-conic-d0-cubic/QUESTION.md",
@@ -31213,8 +31485,8 @@
     },
     {
       "path": "research/claims.json",
-      "resolution_report": "nextwave_concurrent_resolution.json",
-      "decision": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
+      "resolution_report": "live_catchup_integration_resolution.json",
+      "decision": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance."
     },
     {
       "path": "results/resolvent-rank-six-locus-2026-10-23/certificate.json",
@@ -31610,10 +31882,34 @@
       "final_sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
       "final_report": "nextwave_packaging_resolution.json",
       "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+    },
+    {
+      "path": "STATUS.md",
+      "previous_sha256": "93d764bcc5db64956d253adb1c812ccc5ad8771d83715ab46304d7295b916279",
+      "previous_report": "nextwave_docs_resolution.json",
+      "final_sha256": "7d18d721c5fa8b3782aa0e759dbb3cd681562e6015a4be3f1b371f69468f6e10",
+      "final_report": "live_catchup_docs_resolution.json",
+      "reason": "Apply only the source-authored finite-field interpolation qualification: exhaustive rational decomposable testing suffices when q>=r+1; no such implication is assumed for smaller fields. Preserve every other consolidated section and scope."
+    },
+    {
+      "path": "research/claims.json",
+      "previous_sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
+      "previous_report": "nextwave_concurrent_resolution.json",
+      "final_sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
+      "final_report": "live_catchup_integration_resolution.json",
+      "reason": "Preserve611 complete records and the concurrent oblique correction; change only the existing Hankel claim's source-authored limitations qualification, retaining every status/evidence field and all prior source provenance."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "1d9adcde7f29187a13136cc9f874467e14e91b6869c8e61b03f99d29a113c988",
+      "previous_report": "nextwave_packaging_resolution.json",
+      "final_sha256": "c38a77e118b18358580c41c1dae35c17faf438d0f64d66943df58d4a0339da85",
+      "final_report": "live_catchup_integration_resolution.json",
+      "reason": "Record five additional exact archived heads, two new topic names, the current main ancestry, and immutable original/advanced PR captures. Preserve historical main_at_snapshot and distinguish independently merged PR217 from superseded closures."
     }
   ],
   "inputs": {
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_resolution_manifest.json": "b82499bdd6b464d1814ffbf72dfdd9320d4633cb35b45a5c38a0deffa259c1ce",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_output/prior_manifest.44b91761.json": "f59f625202cfe848a0abfa9f44c0f95559bd9cb4ffd92330c3af2ab6dbed9c10",
     "/workspace/scratch/5e4a124ebf61/consolidation/merge_log.json": "e20de29b69a8826c57e820a381d7e7c538ddad33cd7e79cf6cc6e18884356ead",
     "/workspace/scratch/5e4a124ebf61/consolidation/catchup_merge_log.json": "dc01b028c447a25fd713fa3983b4b364cb0f5e2b294752ded81bdf0ca7ee4e55",
     "/workspace/scratch/5e4a124ebf61/consolidation/final_catchup_merge_log.json": "f92debdcf1ea440711d28687897a1d0ffc19a008ba69d1f5f051757c086ef152",
@@ -31623,14 +31919,22 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_merge_log.json": "b43ff44db4fbd037b22e58b9b7908154f78c25824b994683a9a53d3806688070",
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_output/resolution_report.json": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_resolution.json": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6",
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_packaging_resolution.json": "86c2169dae26f3a45b521a372dff511c177c2d8a2581b543050afafa51d7feb7"
+    "/workspace/scratch/5e4a124ebf61/consolidation/main_advance_merge_log.json": "2e8d82bf5e5abab7b63d235c735478366ee86cf436aaefae1ad9809afd2c23d0",
+    "/workspace/scratch/5e4a124ebf61/consolidation/concurrent_434_merge_log.json": "c5226c4e77c8d8ea35c4ef971eb718a570a71b45b3adfbfa94b32cb3880f40bc",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_merge_log.json": "e3acd4bb9a4c1c344bec40b6d07a185d8867dc85c3969549be50fdc7fac67b17",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_source_resolution.json": "92fc202f537125f97ec5eec9375cd02ca9e8335aba04d4d26b014facfebc8b12",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_docs_resolution.json": "b224cf97a20d6669c085d33e4442f0dfa163a9032b823da8a1b2b679bc35d2f0",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_integration_resolution.json": "52b66911eaad53f7943dc64775f1578d716b483d2f4d86784190ff3ec44ad2ab",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_metadata_decisions.json": "d703f3e4795350ae37a686f1d2d5cbb2e22e7bdb70edbe8a42861df8986e2584",
+    "/workspace/scratch/5e4a124ebf61/consolidation/live_catchup_output/resolution_report.json": "53157c22bd162d517c88e6ef9a8400ff8369798add41329ed3167e571cd1fbfb"
   },
-  "method": "Extend the complete frozen 72f5c524 preservation decisions; apply the exact independently inspected concurrent statement correction and explicit metadata supersessions. Preserve all historical reports under revision names.",
+  "method": "Preserve all prior reviewed decisions; add exact frozen source expectations, one limitations-only claim revision and one scoped STATUS replacement. Track current-main and concurrent integration ancestry separately from topic snapshots.",
   "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
   "concurrent_integration_correction": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
-  "topic_source_snapshots": 164,
-  "topic_branch_names": 136,
-  "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs."
+  "topic_source_snapshots": 169,
+  "topic_branch_names": 138,
+  "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs.",
+  "prior_reviewed_union": "44b917610b64a515122c4fb835f69b7ceefffb08",
+  "current_main": "9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2",
+  "concurrent_remote_history": "434178af88a16a3d13e9db60dd97453207dbf2b2"
 }

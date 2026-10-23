@@ -1,110 +1,99 @@
 # Publication and validation record
 
-The replacement is [pull request #214](https://github.com/1337isnot1337/matrix-mult-bounds/pull/214).
-It consolidates **136 topic branch names, 164 captured topic-source snapshots,
-and 612 claim records**. The [branch manifest](branches.json) preserves exact
-source heads, archive tags, original PR bodies, and draft states. Every captured
-source history is an ancestor of the replacement. Original main was
-`bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
+[Pull request #214](https://github.com/1337isnot1337/matrix-mult-bounds/pull/214)
+consolidates **138 topic branch names, 169 archived topic-source snapshots and 612
+claim records**. The [branch manifest](branches.json) preserves each exact source
+head, earlier head, recovery tag, original PR body and original draft state.
+Every captured source history is an ancestor of this replacement.
 
-The concurrent integration correction at
-`5d1441090e1c3c804d0ba0797a20ec303b5c08d5` is separately archived and incorporated
-through a real merge. It is **not counted as another topic-source snapshot**.
-The final merge to main remains subject to current hosted CI and discussion
-gates. Consolidation and passing checks do not promote mathematical review or
-establish an exponent improvement.
+Original main was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
+Current main is `9bcee612569b9f56c8a48ed91a5ebd7ebfaef3b2`, the independent
+PR217 squash. Its entire tree exactly matches previously captured biform source
+`aed489a672a79e0ec35d33fea15d875fc425c9db`. A real merge preserves that ancestry
+without duplicating the biform summaries. Concurrent integration commits
+`5d1441090e1c3c804d0ba0797a20ec303b5c08d5` and
+`434178af88a16a3d13e9db60dd97453207dbf2b2` are separately archived and retained
+through real merges. They are not counted as additional topic-source snapshots.
 
-## Current content and preservation
+The prepared 164-source commit `44b917610b64a515122c4fb835f69b7ceefffb08` was not
+published: its guarded update stopped when main advanced. Its exact
+[publication record](PUBLICATION.44b91761.md) and all audit/test receipts remain
+historical. This package includes the five additional frozen source heads and
+the concurrent 434178af reconciliation. The eventual main merge still requires the
+repository's current-head hosted CI and discussion gates.
 
-The [preservation audit](preservation_report.json) records its exact audited
-revision. It checks the original main plus all 164 topic heads, their verified
-archive receipts, both historical research archives, every source-added path,
-declared output hashes, all 39 conflict paths, claim provenance, and the 54
-reference registry IDs. The [central resolution manifest](central_resolution_manifest.json)
-records each deliberate reconciliation. Exact historical source variants remain
-recoverable from their tags even when another version is selected for the active
-tree. The [topic archive index](archive_verification_index.json) covers 164
-snapshots; the [integration correction archive](integration_correction_archive.json)
-has a separate receipt.
+## Source preservation and scoped changes
 
-The [five-head continuation](NEXTWAVE.md) adds 40 package, proof, result and test
-files with exact source bytes, plus five distinct unreviewed claims. Existing
-executables, tests and dependencies were unchanged by those additions. Optional
-discovery programs remain preserved and were not run as acceptance tests.
+The [preservation audit](preservation_report.json) and
+[central resolution manifest](central_resolution_manifest.json) identify the
+exact audited revision. They check every captured topic head and archive
+receipt, source-added paths, explicit conflict resolutions, current output
+hashes, both initial historical research archives, all 612 claim records and all 54
+reference registry IDs. The [archive index](archive_verification_index.json)
+contains 169 topic snapshots. The [history receipt](live_catchup_history_receipt.json)
+records current-main and concurrent integration preservation separately.
 
-At tested commit `72f5c524fd72c894d4420067fd10206944bce405`, all 607 earlier claim
-records were unchanged and five records were added. At corrected commit
-`33a0f407b2071ed30433b2b1fbd8a577c50ea044`, **611 of those 612 records are unchanged**.
-Only `AI-OBLIQUE-PAIRED-REPAIR-001.statement` changes: every first map satisfies
-the residual-rank lower bound, and the supplied first map attains equality.
-The [correction review](concurrent_oblique_claim_review.json) matches the unchanged
-proof. All 612 evidence locations, status flags and other fields remain unchanged.
-The [claim report](claim_resolution.json) retains every original source hash and
-the exact before/after record. This narrow scope review does not change the
-claim's written-unreviewed mathematical status.
+The latest five captures add two topic names. Three advanced branches only
+import the already-tested main biform work. A new quadratic-kernel question is
+preserved as an investigation, without a completed-result claim. The Hankel
+continuation adds a homogeneous interpolation lemma: exhaustive rational
+decomposable tests over Fq suffice when q>=r+1. Smaller fields, sampling and
+sharpness for Hankel minors remain unclaimed. Its proof, README, source metadata
+and added test retain exact source bytes; one STATUS sentence is reconciled.
 
-The exact original concurrent audit files remain under `.5d144109.json` names.
-The frozen next-wave [audit](preservation_report.72f5c524.json),
-[manifest](central_resolution_manifest.nextwave-72f5c524.json), and
-[claim report](claim_resolution.nextwave-72f5c524.json) retain their original
-uncorrected checkpoint. The corrected content gate has its own
-[audit](preservation_report.33a0f407.json),
-[manifest](central_resolution_manifest.33a0f407.json), and
-[claim report](claim_resolution.33a0f407.json). Earlier evidence is preserved in
-the [159-snapshot publication record](PUBLICATION.159-a764cf16.md).
+Compared with 44b91761, **611 of 612 claim records are unchanged**. Only
+`AI-HANKEL-ALL-CHARACTERISTICS-001.limitations` changes to preserve that precise
+source qualification. The earlier oblique lower-bound/attainment statement
+correction remains intact. Compared with the earlier tested 72f5c524 union, 610
+records are unchanged and those two existing fields are corrected. All 612
+evidence locations, status flags and other claim fields are preserved. No claim
+is promoted to mathematical review, formalization or an exponent improvement.
+The [claim report](claim_resolution.json) keeps exact prior records and source
+hashes. Exact concurrent 434178af audit/guide bytes remain under `.434178af` filenames.
 
-## Local validation with exact revision scopes
+## Local validation by revision
 
 | Revision | Execution | Result |
 | --- | --- | --- |
 | `caf51fe67bed960cbe827d81174f914aeff6968c` | Complete 1,916-test baseline in four disjoint shards | 1,914 passed; two stale requirements-pin checks failed; no skips or errors |
-| `e2baf1170cd1e6ce676fad00d4a4b3746148a3a4` | 29 focused checks covering repaired pins, added packages and repository/archive checks | All passed; both previously failing checks passed |
+| `e2baf1170cd1e6ce676fad00d4a4b3746148a3a4` | 29 focused repair/package/repository checks | All passed, including both repaired failures |
 | `8a53354c23921b552703239aa1fdc62155a608fd` | 33 focused tests plus a standalone quadratic verifier | All passed in 28.255 seconds |
-| `9354de63ff9ebb9a0b738d9a8cc88805636fa64d` | Final unbalanced package pin and relative-link checks | Both passed in 2.225 seconds |
-| `72f5c524fd72c894d4420067fd10206944bce405` | 28 focused checks: all 17 added tests plus 11 repository/archive checks | All passed in 79.250 seconds; no failures, errors or skips |
-| `33a0f407b2071ed30433b2b1fbd8a577c50ea044` | Corrected claim-ledger status and relative-link checks | Both passed in 2.257 seconds; no failures, errors or skips |
+| `9354de63ff9ebb9a0b738d9a8cc88805636fa64d` | Unbalanced package pin and relative-link checks | Both passed in 2.225 seconds |
+| `72f5c524fd72c894d4420067fd10206944bce405` | 28 focused tests, covering all 17 additions | All passed in 79.250 seconds |
+| `33a0f407b2071ed30433b2b1fbd8a577c50ea044` | Corrected ledger and relative links | Both passed in 2.257 seconds |
+| `147db33153ffa3759ac84879008f17e08a332471` | New Hankel interpolation test, its source pins, ledger status and relative links | All four passed in 2.233 seconds |
 
-The latest [execution receipt](validation/nextwave-summary.json) and
-[additive coverage receipt](validation/nextwave-coverage_union.json) establish
-**1,950 tests across 437 modules**, with 17 additions and no removals relative to
-the earlier 1,933-test inventory. Every new test passed. This is revision-aware
-composite coverage: the final complete suite was listed, not rerun as one
-uninterrupted local execution. The A4 acceptance includes its complete coordinate
-census; the optional discovery script was not executed.
+The [latest execution receipt](validation/live-catchup-summary.json) and
+[additive coverage/equivalence receipt](validation/live-catchup-coverage_union.json)
+establish **1,951 tests across 437 modules**, with one addition and no removals
+relative to the earlier 1,950-test inventory. The added test passed. Existing
+acceptance implementations and earlier test methods are preserved. The four
+Hankel dependency pins match exact maintained source bytes. Protected archives
+and earlier evidence/harness files remain unchanged.
 
-The [publication checks](validation/nextwave-publication-summary.json) and
-[equivalence receipt](validation/nextwave-publication-equivalence.json) transfer
-that coverage to the corrected tree. They prove exact preservation of 1,321
-active code/configuration paths, 438 test files, every proof, witness and
-dependency, all 23 protected archive files, and 73 earlier evidence/harness
-files. The sole ledger difference is the source-authored statement correction;
-all status flags remain unchanged. No census or inventory rerun was needed.
-All validation checkouts remained unchanged during execution. Subsequent
-packaging changes only this consolidation evidence directory.
+This is revision-aware composite coverage, not an uninterrupted execution of the
+entire final suite. The full inventory was listed and every addition is covered
+by the recorded focused gates. The later metadata package changes only this
+consolidation evidence directory. Original tree hashes, commands, test IDs and
+logs are retained for every checkpoint. The required hosted CI still runs the
+full Python matrix, archive replay and finite scalar-profile Lean build; local
+evidence does not replace current-head hosted CI.
 
-The [strict pin repair](requirements-pin-repair.json) retains exact original
-metadata and all 77 source/manifest checks. The required hosted `CI` gate still
-runs the full Python matrix, archive replay and finite scalar-profile Lean build.
-Local composite evidence does not replace current-head hosted CI.
+## Cleanup provenance and pending final retirement
 
-## Completed cleanup and final captured sources
+The [completed cleanup receipts](completed_cleanup_summary.json) record 127 source
+branches deleted and verified, and 100 source PRs closed as superseded. Four
+already-absent names were not counted as deletions. PR217 was independently
+merged into main, and its source branch was subsequently observed absent; that
+event is separate from these superseded-closure and deletion totals.
 
-The [completed cleanup summary](completed_cleanup_summary.json) records **127
-source branches deleted and verified, and 100 source PRs closed as superseded**.
-The first phase deleted 117 branches and closed 91 PRs; the published159 phase
-deleted ten more branches and closed nine more PRs. Four already-absent source
-names were not counted as deletions. Superseded PR closures are not described as
-individual merges.
+The [latest source PR capture](live_catchup_source_prs_169_verified.json) preserves
+all original bodies, ready/draft states and auto-merge metadata before temporary
+publication holds. PR213/215/216/218 are retained for the final reviewed
+replacement. The [remaining retirement plan](live_catchup_retirement_plan_169_verified.json)
+records exact candidates; it does not claim those remote actions have occurred.
 
-The [final source inventory](final_five_inventory.json) captured five unchanged
-topic heads plus main and consolidation. Their [full PR records](final_five_source_prs.json)
-preserve PR213 and PR217 as ready, PR215 and PR216 as draft, and all original
-bodies. No PR used one of the five topics as its base. The paired-rank-two topic
-had no PR at capture. Publication and retirement of these five topics are
-subsequent remote actions and are not claimed by this package.
-
-Retirement requires the exact current source SHA, matching immutable archive,
-source ancestry in the durable replacement, no open dependency and an explicit
-deletion lease. A concurrent source push keeps the newer branch available.
-Integrated-history tags preserve the full consolidation history even if the
-eventual main merge is a squash.
+Final retirement requires exact live source heads, matching archive tags,
+ancestry in the durable published replacement, no open dependency and explicit
+deletion leases. Concurrent pushes retain their newer work. Integrated-history
+tags preserve all original histories if the eventual main merge uses a squash.
