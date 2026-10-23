@@ -17,6 +17,13 @@ dimension limit. A machine-precision numerical fit is discovery evidence
 only. Deliver exact coefficient identities, then a proved unbounded
 extension with every auxiliary cost accounted for.
 
+The fixed diagonal-shift maps in
+[AI-Q64-DIAGONAL-SHIFT-CORRECTION-001](../research/ai/2026-10-23-q64-diagonal-shift/proof.md)
+are now excluded: their target-minus-source correction has first-leg
+flattening rank `n^2`. This result does not cover other maps. A new search
+must change at least one of the three displayed leg maps or use a different
+source family.
+
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
 when both long maps remain regular and full rank. Do not repeat those

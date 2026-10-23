@@ -897,3 +897,9 @@ The prior finite split-cover note supplies its finite matrix slice-rank
 reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
+
+The `2026-10-23-q64-diagonal-shift` package is owner-directed OpenAI Codex
+work. It reuses the maintained paired-source coefficient convention and
+gives an all-size flattening obstruction for one explicit set of maps.
+The written proof is unreviewed and has no Lean formalization. It neither
+excludes general `Q(n,4)` maps nor establishes an exponent improvement.

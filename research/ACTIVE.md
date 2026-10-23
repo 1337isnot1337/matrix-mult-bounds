@@ -338,6 +338,12 @@ kernel slack. The fixed M2-leading monomial first-jet chart is excluded.
 Six complete-flag fits are preserved with exact grading/gauge controls;
 their low residuals do not pass exact Laurent acceptance.
 
+Claim `AI-Q64-DIAGONAL-SHIFT-CORRECTION-001` now excludes one explicit
+shift-diagonal map family: its residual has an `n^2`-rank first-leg
+flattening for every n. This does not close the general paired-source
+question. The next construction search must change a leg map or source
+family and charge the complete auxiliary border rank.
+
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
 The smaller sparse M1 lead has an all-size first-edge support deficit.

@@ -1,5 +1,17 @@
 # Research status
 
+## A diagonal-shift Q(n,4) map needs a quadratic correction
+
+The [all-size flattening proof](research/ai/2026-10-23-q64-diagonal-shift/proof.md)
+shows that one explicit set of maps from `Q(n,4)` leaves a correction
+whose first-leg flattening rank is `n^2`. The proof projects the
+`(0,0)` and `(1,1)` inner-coordinate blocks; every resulting diagonal
+block is nonsingular modulo two. The standard-library replay reconstructs
+the literal tensors and checks the block formula and rank for `n=1,...,12`.
+Claim `AI-Q64-DIAGONAL-SHIFT-CORRECTION-001` is written and unreviewed.
+This excludes only the displayed maps from an `O(n)` correction route;
+general `Q(n,4)` maps remain open. The exponent remains unchanged.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

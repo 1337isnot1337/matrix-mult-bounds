@@ -1,0 +1,106 @@
+{
+  "claim": "AI-Q64-DIAGONAL-SHIFT-CORRECTION-001",
+  "exact_integer_replay": true,
+  "projection": "sum of inner-coordinate blocks (0,0) and (1,1)",
+  "sizes": [
+    {
+      "n": 1,
+      "correction_nonzero_coefficients": 3,
+      "projected_first_flattening_rank_mod_2": 1,
+      "first_leg_dimension": 1,
+      "diagonal_block_count": 1,
+      "diagonal_block_length_sum": 1
+    },
+    {
+      "n": 2,
+      "correction_nonzero_coefficients": 19,
+      "projected_first_flattening_rank_mod_2": 4,
+      "first_leg_dimension": 4,
+      "diagonal_block_count": 3,
+      "diagonal_block_length_sum": 4
+    },
+    {
+      "n": 3,
+      "correction_nonzero_coefficients": 78,
+      "projected_first_flattening_rank_mod_2": 9,
+      "first_leg_dimension": 9,
+      "diagonal_block_count": 5,
+      "diagonal_block_length_sum": 9
+    },
+    {
+      "n": 4,
+      "correction_nonzero_coefficients": 250,
+      "projected_first_flattening_rank_mod_2": 16,
+      "first_leg_dimension": 16,
+      "diagonal_block_count": 7,
+      "diagonal_block_length_sum": 16
+    },
+    {
+      "n": 5,
+      "correction_nonzero_coefficients": 542,
+      "projected_first_flattening_rank_mod_2": 25,
+      "first_leg_dimension": 25,
+      "diagonal_block_count": 9,
+      "diagonal_block_length_sum": 25
+    },
+    {
+      "n": 6,
+      "correction_nonzero_coefficients": 954,
+      "projected_first_flattening_rank_mod_2": 36,
+      "first_leg_dimension": 36,
+      "diagonal_block_count": 11,
+      "diagonal_block_length_sum": 36
+    },
+    {
+      "n": 7,
+      "correction_nonzero_coefficients": 1486,
+      "projected_first_flattening_rank_mod_2": 49,
+      "first_leg_dimension": 49,
+      "diagonal_block_count": 13,
+      "diagonal_block_length_sum": 49
+    },
+    {
+      "n": 8,
+      "correction_nonzero_coefficients": 2138,
+      "projected_first_flattening_rank_mod_2": 64,
+      "first_leg_dimension": 64,
+      "diagonal_block_count": 15,
+      "diagonal_block_length_sum": 64
+    },
+    {
+      "n": 9,
+      "correction_nonzero_coefficients": 2910,
+      "projected_first_flattening_rank_mod_2": 81,
+      "first_leg_dimension": 81,
+      "diagonal_block_count": 17,
+      "diagonal_block_length_sum": 81
+    },
+    {
+      "n": 10,
+      "correction_nonzero_coefficients": 3802,
+      "projected_first_flattening_rank_mod_2": 100,
+      "first_leg_dimension": 100,
+      "diagonal_block_count": 19,
+      "diagonal_block_length_sum": 100
+    },
+    {
+      "n": 11,
+      "correction_nonzero_coefficients": 4814,
+      "projected_first_flattening_rank_mod_2": 121,
+      "first_leg_dimension": 121,
+      "diagonal_block_count": 21,
+      "diagonal_block_length_sum": 121
+    },
+    {
+      "n": 12,
+      "correction_nonzero_coefficients": 5946,
+      "projected_first_flattening_rank_mod_2": 144,
+      "first_leg_dimension": 144,
+      "diagonal_block_count": 23,
+      "diagonal_block_length_sum": 144
+    }
+  ],
+  "all_size_argument": "proof.md, via the kernel recurrence modulo 2",
+  "general_q_maps_excluded": false,
+  "exponent_improvement": false
+}
