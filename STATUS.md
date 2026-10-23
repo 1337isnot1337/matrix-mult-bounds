@@ -1,5 +1,18 @@
 # Research status
 
+## An explicit rational third-order conic lift
+
+The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)
+extends PR101's first jet at a=1,b=2,c=-1,d=1 through order three after
+changing its second coefficient. An independent standard-library verifier
+rebuilds the 4096-term integer source and checks all 19600 moving-kernel
+coefficients at each positive order. The maps have leading row ranks14
+and first-source rank12, with non-plane first motion. This is one exact
+rational point outside both already-integrable linear components.
+Claim `AI-CONIC-RATIONAL-THIRD-JET-001` is written and unreviewed.
+Universal parameter formulas, fourth-order compatibility and an all-order
+lift remain open; no matrix target or smaller exponent is established.
+
 ## Complete affine conic tangents and second jets
 
 The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)

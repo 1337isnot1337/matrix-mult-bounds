@@ -870,3 +870,14 @@ arbitrary-field formulation in arXiv:1507.05375v2, Theorem 1.1. The local
 note derives the required finite matrix-multiplication slice rank from
 that theorem. No historical priority, independent mathematical review,
 Lean formalization or exponent improvement is claimed.
+
+## Rational conic third-order continuation
+
+The finite rational three-jet in `research/ai/2026-10-23-conic-third-jets/`
+is owner-directed Codex work. PR101 and its predecessors retain credit
+for the canonical source, conic base, first jet, and complete tangent
+operators used in discovery. The new standard-library verifier rebuilds
+the literal source and checks all three positive orders without importing
+those operators or the symbolic solver. Its independent implementation
+does not constitute independent mathematical review. No new external
+theorem, all-order construction or exponent improvement is claimed.

@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The October23 continuation on `research/conic-third-order-20261023`
+studies `ai/2026-10-23-conic-third-jets/QUESTION.md`, following merged
+PR101 at `539b539`. It supplies an explicit third-order jet at
+a=1,b=2,c=-1,d=1 with the credited first jet and changed second
+coefficient. Direct independent rational replay checks all three orders.
+Next: a universal rational third-order formula, then fourth-order
+compatibility allowing lower-jet freedoms. This is local rank-twelve
+incidence; no all-order lift or matrix-target construction follows.
+
 The affine-conic continuation studies
 `ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module
 has dimension70:68 independent boundary fields and two conic normals.
