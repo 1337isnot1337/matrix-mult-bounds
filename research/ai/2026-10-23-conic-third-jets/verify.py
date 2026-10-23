@@ -1,0 +1,130 @@
+"""Independent rational replay of an explicit third-order incidence witness.
+
+Only the Python standard library is used. No tangent solver, predecessor
+operator, symbolic algebra package, or cohomology certificate is imported.
+"""
+import argparse
+from collections import defaultdict
+from fractions import Fraction
+from itertools import product
+import json
+from pathlib import Path
+
+
+def decode(record, shape):
+    if record['shape'] != list(shape):
+        raise ValueError('wrong matrix shape')
+    matrix = {}
+    for i,j,value in record['entries']:
+        if (type(i) is not int or type(j) is not int
+                or not 0<=i<shape[0] or not 0<=j<shape[1] or (i,j) in matrix):
+            raise ValueError('wrong matrix coordinate')
+        value = Fraction(value)
+        if not value:
+            raise ValueError('stored zero matrix entry')
+        matrix[i,j] = value
+    return matrix
+
+
+def add(*matrices):
+    result = defaultdict(Fraction)
+    for matrix in matrices:
+        for index,value in matrix.items(): result[index] += value
+    return {index:value for index,value in result.items() if value}
+
+
+def negative(matrix):
+    return {index:-value for index,value in matrix.items()}
+
+
+def rows(matrix, selected):
+    positions = {old:new for new,old in enumerate(selected)}
+    return {(positions[i],j):value for (i,j),value in matrix.items() if i in positions}
+
+
+def multiply(left, right):
+    byrow = defaultdict(list)
+    for (i,j),value in right.items(): byrow[i].append((j,value))
+    result = defaultdict(Fraction)
+    for (i,k),value in left.items():
+        for j,coefficient in byrow[k]: result[i,j] += value*coefficient
+    return {index:value for index,value in result.items() if value}
+
+
+def rank(matrix):
+    byrow = defaultdict(dict)
+    for (i,j),value in matrix.items(): byrow[i][j] = value
+    pivots = {}
+    for _,original in sorted(byrow.items()):
+        row = dict(original)
+        while row:
+            j = min(row)
+            value = row[j]
+            if j not in pivots:
+                pivots[j] = {k:z/value for k,z in row.items()}
+                break
+            for k,z in pivots[j].items():
+                updated = row.get(k,0)-value*z
+                if updated: row[k] = updated
+                else: row.pop(k,None)
+    return len(pivots)
+
+
+def source_terms():
+    # Coordinate convention (u,v,z) -> 28u+7v+z.
+    # Rebuilt literally from the three cyclic C(4,4) factors.
+    return [(28*i+7*r+6-p-q, 28*p+7*j+6-s-r, 28*s+7*q+6-i-j)
+            for i,j,p,q,s,r in product(range(4),repeat=6)]
+
+
+def contract(left, right, terms):
+    byleft,byright = defaultdict(list),defaultdict(list)
+    for (i,j),value in left.items(): byleft[j].append((i,value))
+    for (i,j),value in right.items(): byright[j].append((i,value))
+    result = defaultdict(Fraction)
+    for a,b,c in terms:
+        for i,x in byleft[b]:
+            for j,y in byright[c]: result[a,14*i+j] += x*y
+    return {index:value for index,value in result.items() if value}
+
+
+def verify(record):
+    if record['parameters'] != {'a':'1','b':'2','d':'1'}:
+        raise ValueError('this witness is for the stated rational point only')
+    jet = record['reconstructed_third_jet']
+    if len(jet['B'])!=4 or len(jet['C'])!=4 or len(jet['source_row_corrections'])!=3:
+        raise ValueError('wrong jet order')
+    bs,cs = [[decode(matrix,(14,112)) for matrix in jet[key]] for key in ('B','C')]
+    ys = [decode(matrix,(100,12)) for matrix in jet['source_row_corrections']]
+    terms = source_terms()
+    first = [28*i+7*j+z for i,j,z in product((1,2),(1,2),(0,3,6))]
+    outside = [i for i in range(112) if i not in first]
+    fs = [add(*(contract(bs[i],cs[k-i],terms) for i in range(k+1))) for k in range(4)]
+    if rows(fs[0],outside): raise ValueError('nonzero constant kernel coefficient')
+    ranks = [rank(bs[0]),rank(cs[0]),rank(rows(fs[0],first))]
+    if ranks != [14,14,12]: raise ValueError('wrong leading ranks')
+    for k in range(1,4):
+        residual = add(rows(fs[k],outside),negative(add(*(
+            multiply(ys[i-1],rows(fs[k-i],first)) for i in range(1,k+1)))))
+        if residual: raise ValueError(f'nonzero order {k} incidence coefficient')
+    nonboundary = (sum(j//28 in (1,2) for i,j in bs[1])
+                   +sum(j//7%4 in (1,2) for i,j in cs[1]))
+    if not nonboundary: raise ValueError('missing first normal motion')
+    return {'field':'Q','parameters':record['parameters'],'source_terms':len(terms),
+            'leading_map_ranks':ranks[:2],'leading_first_source_rank':ranks[2],
+            'jet_order':3,'kernel_coordinates_per_order':100*196,
+            'positive_orders_checked':3,'first_nonboundary_entries':nonboundary,
+            'matrix_target_constructed':False,'all_order_lift_established':False,
+            'exponent_improvement':False}
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('witness',type=Path)
+    parser.add_argument('--output',type=Path)
+    args = parser.parse_args()
+    report = verify(json.loads(args.witness.read_text()))
+    if args.output:
+        args.output.parent.mkdir(parents=True,exist_ok=True)
+        args.output.write_text(json.dumps(report,indent=2)+'\n')
+    print(json.dumps(report))
