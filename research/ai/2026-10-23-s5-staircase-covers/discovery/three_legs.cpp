@@ -30,6 +30,6 @@ int main(){
    }
   }
   cout<<"j "<<j<<" staircases "<<fs.size()<<" evaluated_pairs "<<tested<<" cost "<<best<<"\n";
-  for(auto&v:witness){for(int x:v)cout<<x<<" ";cout<<"\n";}cout.flush();
+  for(auto&v:witness){for(size_t i=0;i<v.size();i++){if(i)cout<<" ";cout<<v[i];}cout<<"\n";}cout.flush();
  }
 }
