@@ -1,5 +1,17 @@
 # Research status
 
+## Complete width-two monomial score barrier
+
+The [width-two proof](research/ai/2026-10-23-width-two-monomial/proof.md)
+shows that the archived monomial sector score never exceeds P_* on
+C(2,b) or C(b,2), for every b>=2 and all integer weights. A path-component
+identity gives the exact deficit, sharp gap and every equality support
+for C(2,b); the transposed orientation has equality only at full support.
+All 59,046 orientation/support cases through b=10 replay against the
+unchanged original scorer. Claim `AI-WIDTH-TWO-MONOMIAL-001` is written
+and unreviewed. This closes that score at minimum input size two, not
+arbitrary degenerations or stronger sector scores. No improved exponent.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

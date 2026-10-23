@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-width-two-monomial` package is owner-directed OpenAI
+Codex work. The matching profile, recurrence, shared-leg interpretation,
+and monomial-support scorer are imported from the frozen October 20
+package with their original credits and exact source hashes. The path
+classification, exact deficit, orientation distinction and equality
+support count are local continuations. PR118's inspected exact-ranking
+work is related but is not a dependency. Only elementary finite graph
+and composition counting is used. No historical priority, independent
+mathematical review, formalization or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

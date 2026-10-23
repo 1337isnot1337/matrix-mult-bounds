@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The width-two continuation on `research/frontier-continuation-01a16975`
+settles its [all-weight score question](ai/2026-10-23-width-two-monomial/QUESTION.md).
+The written path proof closes the original scorer for C(2,b) and C(b,2)
+at every size, with sharp deficits and a complete equality-support count.
+All 59,046 sign-word/orientation controls through b=10 pass. Repeating
+bounded width-two weight searches cannot beat this score. Minimum input
+size three and stronger block scores remain separate questions. The
+proof is unreviewed; no smaller exponent is established.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
