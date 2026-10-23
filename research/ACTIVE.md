@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The asymmetric regular-frame continuation studies
+`ai/2026-10-23-asymmetric-regular-frames/QUESTION.md` on
+`research/asymmetric-regular-frames-20261023`. A unital rank upgrade
+permits unequal frame dimensions106/110 and107/109. For a full regular
+long map and regular unit lift this lowers the unit-image threshold to106,
+including unit corank at most four. The complete strict-budget scan and
+exact controls pass; the written proof remains unreviewed and full
+validation is pending. The required frames are hypotheses. Rank105 and
+general Laurent degenerations remain outside the argument.
+
 The partial-frame continuation studies
 `ai/2026-10-23-partial-regular-frames/QUESTION.md` on
 `research/partial-regular-frames-20261023`. Its written proof allows

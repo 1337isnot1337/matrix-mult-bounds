@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-asymmetric-regular-frames` package is owner-directed OpenAI
+Codex work. It adopts the prior three-leg contraction minima, ordinary
+A4 obstruction, normalized Laurent argument and finite left-inverse
+recovery with exact pins and their original credits. Unequal source
+row/column blocks and the target-unit rank upgrade supply the new
+sufficient frame pairs106/110 and107/109 and the regular rank106
+unit-image exclusion. The finite12100-pair scan concerns only this
+proof's sufficient rank budgets. No new external theorem, historical
+priority, independent review, formalization, target construction or
+exponent improvement is claimed.
+
 The `2026-10-23-partial-regular-frames` package is owner-directed OpenAI
 Codex work. It retains the exact predecessor partial-unit-image Laurent
 and projection lemmas, the original cyclic source minimum contraction

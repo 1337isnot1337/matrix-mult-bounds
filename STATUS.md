@@ -1,5 +1,20 @@
 # Research status
 
+## Unequal partial frames and the rank106 regular unit-image chart
+
+The [asymmetric-frame proof](research/ai/2026-10-23-asymmetric-regular-frames/proof.md)
+weakens the full regular unit-image threshold from109 to106. It excludes
+A4 to M(10,10,11) with one regular full-rank long map and regular unit
+lift whenever `rank(S(0) C(0))>=106`, including every source unit of
+corank at most four. More generally,107/109 and106/110 partial frames
+suffice, allowing poles in unselected coefficients. The target identity
+upgrades the limiting opposite long-map rank after first-map regularity.
+The complete12100-pair strict-budget scan has nine sufficient pairs and
+two minimal pairs. Claims `AI-ASYMMETRIC-FRAME-REGULARITY-001` and
+`AI-A4-UNIT-IMAGE-106-002` are written and unreviewed. Finite controls
+pass; frame existence is a hypothesis, rank105 is outside this argument,
+and no matrix construction or exponent improvement follows.
+
 ## Partial regular frames with polar map coefficients
 
 The [partial-frame proof](research/ai/2026-10-23-partial-regular-frames/proof.md)
@@ -28,8 +43,9 @@ ordinary-map obstruction finishes the argument. Every finite pole order
 is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
 controls verify the rank budgets and projection recovery, without
-formalizing the proof. Rank108, singular long-leg limits and polar unit
-lifts remain open. No matrix target or smaller exponent is established.
+formalizing the proof. Its rank109 threshold is superseded by the
+asymmetric-frame result above. Cases outside the stated partial-frame
+hypotheses remain open. No matrix target or smaller exponent is established.
 
 ## Complete affine conic tangents and second jets
 
