@@ -9,7 +9,9 @@ constant and `d=deg(v)` (zero for v=0). The
 already separates ranks with identical coefficient degrees and pairwise
 resultants in characteristic different from two. The general quadratic
 continuation below now computes both minimal indices for arbitrary outer
-coefficients. Structural bounds from polynomial-factor geometry remain open.
+coefficients. Its root-height dichotomy now restricts the first index;
+attainability within the remaining high interval and constraints on linear
+families remain open.
 Use PR209's row-polynomial
 convention with full degree endpoints, while retaining PR207/208 ownership
 of diagonal Toeplitz cases. One-slice rank information is insufficient to claim
@@ -22,15 +24,18 @@ gives a finite exact procedure for the two kernel indices of arbitrary
 and hence its literal slice-matrix rank. For D>0 after common-factor
 normalization, the zero first-index case is characterized by a fixed
 ground-field linear factor.
-The next structural question is to bound positive first indices in terms
-of additional polynomial-factor geometry, beyond coefficient degrees and
-pairwise resultants. Preserve exact full-output coefficients and distinguish
+The [root-height dichotomy](../research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)
+now bounds the first index and proves the full a=b=3 biform-block
+rank spectrum. The next question is which splitting types in the remaining
+high interval are attainable for each a,D and field, and how factor geometry
+constrains linear families rather than individual slices. Preserve exact
+full-output coefficients and distinguish
 these individual-slice constraints from a source-space cap or a full
 matrix target. The claim remains written and unreviewed.
 
-The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It is a distinct special-family formula. The general quadratic continuation now treats arbitrary u(x)+z*v(x)+z^2*w(x) with a bounded two-index test. Further work can seek structural index bounds or study higher z-degree families with several nonconstant coefficient polynomials. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
+The [single-top-polynomial biform rank theorem](../research/ai/2026-10-23-top-coefficient-biforms/proof.md) settles, over every field, the literal one-slice ranks for f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)z^e with constant lower coefficients, c_0 nonzero, and arbitrary polynomial w of degree d<a. The formula is ab+sum_j min(b,d*floor((a+j)/e)). It is a distinct special-family formula. The general quadratic continuation now treats arbitrary u(x)+z*v(x)+z^2*w(x) with a bounded two-index test and a rational-root-height restriction, including the complete a=b=3 biform-block rank spectrum. Its remaining high-interval attainability and linear-family questions, and higher z-degree families with several nonconstant coefficient polynomials, remain open. Keep this separate from the diagonal Toeplitz lane credited to PR207 and the affine-in-z lane credited to PR209; a single rank formula is not a tensor target.
 
-The [three-term resultant obstruction](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) disproves classification of individual R_(3,3) ranks from primitive coefficient degree and all three pairwise resultants alone. The exact determinant separates rank 14 and 15 despite identical invariants. The general quadratic continuation now computes both minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients by a bounded exact coefficient-matrix test. The remaining structural question is to describe positive-index strata through subresultants or polynomial-factor geometry; require a full three-leg source-to-target map before claiming a smaller exponent. Do not repeat PR207's diagonal Toeplitz lane.
+The [three-term resultant obstruction](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) disproves classification of individual R_(3,3) ranks from primitive coefficient degree and all three pairwise resultants alone. The exact determinant separates rank 14 and 15 despite identical invariants. The general quadratic continuation now computes both minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients by a bounded exact coefficient-matrix test. The root-height dichotomy now restricts those indices; the remaining structural question is to describe attainable positive-index strata and compatible linear families through subresultants or polynomial-factor geometry; require a full three-leg source-to-target map before claiming a smaller exponent. Do not repeat PR207's diagonal Toeplitz lane.
 
 These directions combine independent branch checkpoints. Read the cited
 continuations together: later scoped obstructions can close an earlier proposed

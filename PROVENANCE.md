@@ -7,7 +7,11 @@ external mathematics, used in the arbitrary-field form of Schoemann and
 Wiedmann, arXiv:1712.03056v1, Theorem2.1. The local additions specialize
 the full quadratic recurrence to two indices, recover both by a bounded
 coefficient-matrix test and identify the zero-index fixed-linear-factor
-case. Earlier affine, constant-endpoint, top-coefficient and resultant
+case. The structural sequel uses the arbitrary-field polynomial index-sum
+theorem of De Teran, Dopico and Mackey, MIMS EPrint2013.47 (August22 2013),
+Theorem6.5. Its local Hankel-basis argument gives the rational-root-height
+dichotomy and the complete a=b=3 biform-block spectrum. Earlier affine,
+constant-endpoint, top-coefficient and resultant
 counterexample packages retain their separate credit. Exact source-matrix
 comparisons and same-session checking are not independent mathematical
 review, formalization, historical priority or an exponent improvement.

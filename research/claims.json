@@ -10814,6 +10814,23 @@
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
+    },
+    {
+      "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+      "title": "Rational-root height dichotomy and the complete three-by-three biform rank spectrum",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible.",
+      "dependencies": [
+        "AI-QUADRATIC-KERNEL-INDICES-001",
+        "De Teran-Dopico-Mackey, MIMS EPrint2013.47, August22 2013, Theorem6.5 over arbitrary fields",
+        "Explicit polynomial left and right Hankel kernel bases, primitive Gauss lemma, and coherent rank-one classification"
+      ],
+      "limitations": "These are necessary index restrictions, not a classification of all splitting types. The complete rank spectrum concerns the fifteen-by-fifteen biform block, not every slice of the full cyclic tensor. No source-space cap, three-leg target, degeneration, independent review, formalization, historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
     }
   ]
 }

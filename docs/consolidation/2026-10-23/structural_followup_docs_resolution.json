@@ -1,0 +1,177 @@
+{
+  "schema": "matrix-structural-followup-docs-resolution-v1",
+  "prepared_at_utc": "2026-10-23T18:33:16.707554+00:00",
+  "baseline_commit": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+  "authored_commit": "0bef34c4976cf3c23a7049851438df157b5bfdc5",
+  "previous_source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "input_capture": {
+    "path": "quadratic_80bd_capture.json",
+    "sha256": "7874f1cc5a41ce34af7f38a270bd71ff0cbd5fb9d8e2143c667928d5432b88b7"
+  },
+  "output_directory": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/STATUS.md",
+      "sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
+      "baseline_sha256": "fcff438f85b57a104936421001205b3d37ee8617e535f9111d623b041fa58306",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "source_path": "STATUS.md",
+      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+    },
+    {
+      "path": "PROVENANCE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/PROVENANCE.md",
+      "sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+      "baseline_sha256": "3224988926a87a06209d512b4928eef94ba1f981432274eb75052873de38ccc9",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "source_path": "PROVENANCE.md",
+      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/docs/research_directions.md",
+      "sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
+      "baseline_sha256": "d9b6bafab4fefc9797ee078dc85222e925059f319ad941c099f0ce146fbcb146",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "source_path": "docs/research_directions.md",
+      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/structural_followup_docs_output/research/ACTIVE.md",
+      "sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
+      "baseline_sha256": "8022ef0ff65e6a1d09620e8b3408ad0b9cbf1965d7b666962cd7e87dad9b7c18",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "source_path": "research/ACTIVE.md",
+      "reason": "Minimal semantic union of authored quadratic continuation with preserved current summaries, qualifications and attribution."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "STATUS.md",
+      "reason": "Add the exact authored dichotomy/spectrum section once; retain all later scope corrections in existing status sections.",
+      "old": "# Research status\n\n",
+      "new": "# Research status\n\n## Rational-root heights restrict the quadratic indices\n\nThe [structural sequel](research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)\nshows that a minimum recurrence vector either has degree at least\n`ceil((a-1)D/2)` or comes from a rational root of height h and degree\n`(a+1)h`. It proves this through explicit polynomial Hankel kernel bases\nand the arbitrary-field matrix-polynomial index-sum theorem. An irreducible\nhomogeneous quadratic forces the higher range; a sufficiently low rational\nroot height determines both indices exactly. As a concrete consequence,\nthe complete nonzero fifteen-by-fifteen biform-block rank spectrum at\na=b=3 is `{9,12,14,15}` over every field. Rank thirteen is impossible,\nand explicit universal witnesses attain all four remaining values.\nClaim `AI-QUADRATIC-INDEX-DICHOTOMY-002` is written and unreviewed.\nThis does not classify all slices of the full cyclic tensor or supply\nan exponent improvement.\n\n",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "reason": "Retain the exact new attribution and distinguish the external theorem from the local Hankel argument.",
+      "old": "case. Earlier affine, constant-endpoint, top-coefficient and resultant",
+      "new": "case. The structural sequel uses the arbitrary-field polynomial index-sum\ntheorem of De Teran, Dopico and Mackey, MIMS EPrint2013.47 (August22 2013),\nTheorem6.5. Its local Hankel-basis argument gives the rational-root-height\ndichotomy and the complete a=b=3 biform-block spectrum. Earlier affine,\nconstant-endpoint, top-coefficient and resultant",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "reason": "Apply the new structural continuation beside the maintained a>=2,b>=3 and D>0 fixed-factor qualifications; retain unsolved attainability and linear-family questions.",
+      "old": "The next structural question is to bound positive first indices in terms\nof additional polynomial-factor geometry, beyond coefficient degrees and\npairwise resultants. Preserve exact full-output coefficients and distinguish",
+      "new": "The [root-height dichotomy](../research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)\nnow bounds the first index and proves the full a=b=3 biform-block\nrank spectrum. The next question is which splitting types in the remaining\nhigh interval are attainable for each a,D and field, and how factor geometry\nconstrains linear families rather than individual slices. Preserve exact\nfull-output coefficients and distinguish",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "reason": "Narrow the earlier general open-question notice to reflect the supplied root-height restriction.",
+      "old": "coefficients. Structural bounds from polynomial-factor geometry remain open.",
+      "new": "coefficients. Its root-height dichotomy now restricts the first index;\nattainability within the remaining high interval and constraints on linear\nfamilies remain open.",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "reason": "Reconcile the source head’s top-coefficient continuation without dropping its separately credited formula or the higher-degree research direction.",
+      "old": "The general quadratic continuation now treats arbitrary u(x)+z*v(x)+z^2*w(x) with a bounded two-index test. Further work can seek structural index bounds or study higher z-degree families with several nonconstant coefficient polynomials.",
+      "new": "The general quadratic continuation now treats arbitrary u(x)+z*v(x)+z^2*w(x) with a bounded two-index test and a rational-root-height restriction, including the complete a=b=3 biform-block rank spectrum. Its remaining high-interval attainability and linear-family questions, and higher z-degree families with several nonconstant coefficient polynomials, remain open.",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "docs/research_directions.md",
+      "reason": "Keep the resultant counterexample and its credit while stating the narrower remaining structural problem.",
+      "old": "The remaining structural question is to describe positive-index strata through subresultants or polynomial-factor geometry;",
+      "new": "The root-height dichotomy now restricts those indices; the remaining structural question is to describe attainable positive-index strata and compatible linear families through subresultants or polynomial-factor geometry;",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "reason": "Apply the exact authored active-work continuation after the preserved D>0 fixed-factor guard.",
+      "old": "degree or pairwise-resultant-only searches. Further structural work should\nbound the positive first index or impose compatible three-leg maps; the\nsingle-slice formula does not supply a matrix target. Written, unreviewed.",
+      "new": "degree or pairwise-resultant-only searches. The root-height dichotomy in\n`ai/2026-10-23-quadratic-kernel-indices/dichotomy.md` now bounds the first\nindex and proves the a=b=3 biform-block spectrum {9,12,14,15}. Determine\nattainable splitting types in the remaining high interval, constrain linear\nfamilies, or impose compatible three-leg maps. These single-slice results\ndo not supply a matrix target. Written, unreviewed.",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "reason": "Reconcile the source head’s top-coefficient continuation while preserving its separate attribution and higher-degree questions.",
+      "old": "The general quadratic continuation now supplies an effective two-index test for arbitrary quadratic coefficients. Further structural work can constrain positive indices or study higher z-degree families with several nonconstant coefficient polynomials.",
+      "new": "The general quadratic continuation now supplies an effective two-index test for arbitrary quadratic coefficients, a structural root-height restriction, and the complete a=b=3 biform-block rank spectrum. Remaining work concerns high-interval attainability, compatible linear families, or higher z-degree families with several nonconstant coefficient polynomials.",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "reason": "Retain the older resultant checkpoint but qualify its structural open question by the new necessary restriction.",
+      "old": "Structural descriptions of their positive-index strata through additional subresultant or factor geometry remain open.",
+      "new": "The root-height dichotomy now restricts those indices; attainable positive-index strata and compatible linear families remain open beyond that restriction.",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "reason": "Keep the constant-endpoint package’s distinct theorem and narrow its former positive-index research notice.",
+      "old": "structural descriptions of the positive first index remain open. No full tensor target or",
+      "new": "the root-height dichotomy restricts the first index, while attainable\nsplitting types and compatible linear families remain open. No full tensor target or",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def"
+    }
+  ],
+  "retained_scope": "All unrelated baseline prose, later conic limitations, fixed-width near-full regular-channel qualifications, D>0 fixed-factor guards and earlier attribution remain. Imported main summaries are not duplicated.",
+  "semantic_review": {
+    "outcome": "No concrete mathematical defect found in this bounded same-session review; review status is not promoted.",
+    "source_proof_sha256": "e653c735b7149096f32d8dadfa90a2a5defe608bc874bb9765c0db529173e40a",
+    "source_claim": {
+      "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+      "title": "Rational-root height dichotomy and the complete three-by-three biform rank spectrum",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible.",
+      "dependencies": [
+        "AI-QUADRATIC-KERNEL-INDICES-001",
+        "De Teran-Dopico-Mackey, MIMS EPrint2013.47, August22 2013, Theorem6.5 over arbitrary fields",
+        "Explicit polynomial left and right Hankel kernel bases, primitive Gauss lemma, and coherent rank-one classification"
+      ],
+      "limitations": "These are necessary index restrictions, not a classification of all splitting types. The complete rank spectrum concerns the fifteen-by-fifteen biform block, not every slice of the full cyclic tensor. No source-space cap, three-leg target, degeneration, independent review, formalization, historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    "primary_reference": {
+      "url": "https://eprints.maths.manchester.ac.uk/2017/01/covered/MIMS_ep2013_47.pdf",
+      "title": "Spectral equivalence of matrix polynomials and the index sum theorem",
+      "authors": "Fernando De Teran, Froilan M. Dopico, D. Steven Mackey",
+      "version": "August 22, 2013; MIMS EPrint2013.47",
+      "locator": "Theorem6.5, printed p38 / PDF page39",
+      "verification": "Primary PDF opened and theorem checked. It applies to arbitrary rectangular matrix polynomials over arbitrary fields and equates structural/minimal-index totals with grade times rational-function rank.",
+      "source_reference": "turn10view0"
+    },
+    "checked_arguments": [
+      "A minimum recurrence vector is primitive, and its a-by-three Hankel matrix has normal rank one or two.",
+      "For Hankel rank two, the primitive coefficient triple generates the entire polynomial right kernel with index D. Its a-2 shifted rows generate the polynomial left kernel by primitive Gauss lemma and have independent leading coefficients, all indices D; a=2 has no left indices.",
+      "The external index-sum theorem then gives (a-1)D<=2 delta. The grade is exactly delta because all recurrence-vector coordinates occur in the Hankel matrix.",
+      "For Hankel rank one, primitive geometric sequences are coherent powers of a coprime rational-root pair; degree is (a+1) times its height, including both endpoints. Minimality makes the height minimal among rational roots.",
+      "Combining the root-vector upper bound with the two rank branches gives min(L,(a+1)h)<=mu1<=min(U,(a+1)h); equality at (a+1)h=L is covered.",
+      "D=0 remains a separate zero-index case: a constant irreducible quadratic need not have a ground-field root. Homogeneous irreducibility, endpoint roots, and inseparable characteristic-two cases are treated explicitly.",
+      "For a=b=3, D=0/1/2 and the dichotomy exclude rank13. The degree-two vector for the rank14 witness satisfies all recurrence equations and no degree<=1 vector exists; the rank15 witness has seven displayed blocks with determinant product -1, hence remains invertible over every field."
+    ],
+    "limitations_retained": [
+      "Necessary index restrictions do not classify all attainable splitting types.",
+      "The {9,12,14,15} spectrum is for the fifteen-by-fifteen biform block, not every full cyclic-tensor slice.",
+      "No source-space cap, compatible three-leg map, degeneration, independent review, formalization, historical priority, or exponent improvement."
+    ],
+    "executable_delta": "No novel authored Python, test, or result changes; imported main contributions are already present in dcd.",
+    "recommended_gate": [
+      "Existing quadratic strict source-pin check after preserving/reapplying the contextual README pin repair",
+      "Claim-ledger consistency",
+      "Relative-link check"
+    ]
+  },
+  "unresolved_semantic_conflicts": [],
+  "tests_executed_by_this_review": false,
+  "worktree_or_remote_mutations": false
+}
