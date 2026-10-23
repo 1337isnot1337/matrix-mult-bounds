@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-resolvent-rank-six-locus` package is owner-directed OpenAI
+Codex work. PR139 supplies the fixed space, source coordinates, minimum-rank
+proof and initial compression alignment; PR103 retains the original resolvent
+credit. The new 26 seven-minor and five six-minor identities classify the
+rank-six locus, and the common image yields the sharp compression dimension.
+The acceptance code reconstructs the source independently of discovery and
+checks111 integer unit pivots for a concrete compression. Exact predecessor
+hashes are in `sources.json`. The locus is over every field; the universal
+compression argument uses algebraic closure. No independent review,
+formalization, historical priority or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

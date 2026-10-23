@@ -1,0 +1,20 @@
+[
+  {
+    "id": "AI-RESOLVENT-RANK-SIX-LOCUS-001",
+    "title": "Complete rank-six locus and sharp critical compression dimension for the fixed resolvent",
+    "status": "proof-written-unreviewed",
+    "origin": "Owner-directed OpenAI Codex continuation",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "evidence": "research/ai/2026-10-23-resolvent-rank-six-locus/proof.md",
+    "section": "1-5",
+    "statement": "Over every field, the rank-at-most-six locus of the fixed 112-dimensional resolvent space W is a 17-dimensional linear subspace; every nonzero member has rank six and one common six-dimensional image E. Over an algebraically closed field, every 110-by-112 and 112-by-110 compression pair of ranks 109,109 has image dimension at least111. Equality holds exactly when a nonzero rank-six X satisfies ker(P) contained in E and im(C)=X^-1(ker(P)); this X is unique up to scalar. An explicit integer compression has image dimension111 over every field.",
+    "dependencies": [
+      "PR139 fixed-resolvent W, outer source convention and minimum nonzero outer-source rank16; exact pins in sources.json",
+      "26 seven-by-seven and five six-by-six unit triangular minor identities",
+      "Elementary rank inequalities and the root property of algebraically closed fields"
+    ],
+    "limitations": "Written and unreviewed. The universal compression bound uses algebraic closure. No arbitrary singular-trajectory exclusion, target construction, formalization, independent review, historical priority or smaller exponent."
+  }
+]
