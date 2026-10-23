@@ -13,6 +13,7 @@ A research workspace for the arithmetic exponent of matrix multiplication. The g
 - [The external 9/4 proof and its dependencies](docs/nine_fourths_route.md)
 - [Local findings and claim status](STATUS.md), with a [machine-readable claim ledger](research/claims.json)
 - [Research directions and acceptance criteria](docs/research_directions.md)
+- [R5 route comparison](docs/route-synthesis.md)
 - [Exact projection of the proposed oriented entropy lift](docs/oriented-lift-relaxation.md)
 - [Attribution and provenance](PROVENANCE.md)
 - [Main integration checkpoint and combined validation](docs/integration_2026-10-20.md)

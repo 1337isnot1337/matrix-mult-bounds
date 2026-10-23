@@ -127,9 +127,20 @@ remain open.
 
 ## R5: Compare external formulations before duplicating work
 
-Status: open synthesis task. Compare the spectral route, the block-identities route, and the polynomial-separation improvement. Identify precisely which constraints survive symmetrization and which information the scalar relaxation discards.
+Status: open. The [route map](route-synthesis.md) compares the spectral,
+block-identity, and polynomial-separation interfaces. The
+[entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to
+its scalar matched-decomposition inequalities, even when decompositions share
+different legs. A candidate constraint absent from the scalar profile is an
+actual block-identity graph: exact shared-leg maps and shapes, a source
+border-rank bound, nonnegative weights satisfying every balance, and a
+terminal inflow `L>1/d` with `(dL)^3>r^4`. No qualifying graph has been
+constructed, and no smaller exponent follows.
 
-Deliver a dependency map with cited lemmas and a candidate constraint absent from the current local model. Do not describe an existing external lemma as a local discovery.
+Continue by constructing and certifying such a graph, or by finding a different
+tensor-level constraint that excludes the critical spectral behavior. The
+numeric endpoint inequality alone is not a certificate. Keep external lemmas
+attributed to their sources.
 
 ## R6: Make search results stronger and reusable
 
