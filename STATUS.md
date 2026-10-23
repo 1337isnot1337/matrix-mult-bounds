@@ -12,6 +12,7 @@ Numerical optimality reports are not accepted as class-wide exclusion
 certificates. No improved bound or exponent follows. A new attempt needs
 additional basis structure or a changed source/basis/power.
 
+
 ## Finite covers close the selected nonsplit coordinate targets
 
 The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)

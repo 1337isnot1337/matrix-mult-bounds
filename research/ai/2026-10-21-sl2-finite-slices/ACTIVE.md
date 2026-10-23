@@ -23,6 +23,9 @@ controls. Proof and claim ledger remain written and unreviewed.
 The exact committed package at `6cd7f3a` also passes a fresh full run:
 844 tests, three optional skips, and all five historical replays.
 PR102 integrates conic main `539b539` while preserving both parent claim
-sets unchanged. Incoming conic tests and combined metadata checks are
-required next; hosted CI must pass the final combined head before merge.
+sets unchanged. All 32 combined incoming, nonsplit, metadata and archive
+integrity checks pass at `1349dd3`; all 18 protected archive files equal
+main byte-for-byte. Receipts are in `validation-20261023.json` under the
+package's results directory. Hosted CI must pass the final combined head
+before merge.
 No exponent improvement.
