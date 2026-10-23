@@ -1,0 +1,67 @@
+{
+  "schema": "matrix-concurrent-claim-correction-review-v1",
+  "reviewed_at_utc": "2026-10-23T18:01:05.795989+00:00",
+  "reviewer": "consolidate_conflicts",
+  "status": "approved",
+  "base_commit": "a764cf16c5f453709aa29bfafa1314c103f3d516",
+  "reviewed_commit": "5d1441090e1c3c804d0ba0797a20ec303b5c08d5",
+  "parent_verified": true,
+  "changed_paths": [
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
+      "sha256": "a1b1f2925bedafad6fedd4d845e1894c870d1a1cf5c643d495cc2aa0c6a807c1"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "sha256": "30aa980dcd2a92a3207b5f2bcd3f88f9ef13db4a3e06445dea7676d687688d4f"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
+      "sha256": "95def6b6e795500d687b03d771758cd2bf007ef0f7afe23b7d3fb21c49c90894"
+    },
+    {
+      "path": "research/claims.json",
+      "sha256": "899dcf09674fe9b0d301fb5212754a31c8d85bfc7a6d0d84fda3f3e21f457cad"
+    }
+  ],
+  "claim_id": "AI-OBLIQUE-PAIRED-REPAIR-001",
+  "semantic_finding": "The proof supplies a universal lower bound for fixed long maps and equality for the displayed attaining first map. The corrected ledger sentence states those quantifiers accurately; equality for every first map was too strong.",
+  "supporting_evidence": {
+    "path": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+    "sha256": "c6e53f6a9d39af372ea5876902983e118626b9969b396153e612865576f51557",
+    "line_range_at_reviewed_commit": [
+      322,
+      329
+    ],
+    "excerpt": "For these supplied oblique maps, changing only the first map cannot\nreduce the first residual rank. The B map has zero output coordinates\n`b_(i,0),b_(i,2)` for i in J; the C map has zero coordinates\n`c_(0,j),c_(1,j)` for j in J. Hence the B/C coordinate\n`b_(i,0)c_(0,j)` is absent from the image whenever i or j belongs to J,\nregardless of the first map. Its coefficient in the residual is therefore\nexactly a_ij. These coordinates give an identity minor of size `r^2-b^2`\nfor every first map, and the displayed map attains that lower bound."
+  },
+  "verified_preservation": {
+    "claim_count_at_base_and_reviewed_commit": 607,
+    "unchanged_other_claim_records": 606,
+    "only_changed_claim_field": "statement",
+    "unchanged_claim_order_and_ledger_metadata": true,
+    "status": "proof-written-unreviewed",
+    "evidence": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false,
+    "all_other_claim_fields_including_origin_dependencies_limitations_unchanged": true,
+    "original_source_commit": "06cc58635d87114d1d556523e92f9b1c714b2f60",
+    "original_source_record_sha256": "f7b115618fc74cc7d33d873554e7470c337981a6f7e60468993f62d2c6307ad4",
+    "all_607_source_record_hashes_unchanged": true,
+    "all_packaged_source_hashes_unchanged": true,
+    "original_source_record_verified_from_git_blob": true,
+    "proof_code_tests_witnesses_dependency_inputs_archives_unchanged": true,
+    "current_claim_and_metadata_hashes_match_recorded_bytes": true,
+    "historical_preservation_receipts_and_final_audit_head_unchanged": true
+  },
+  "merge_requirement": "Apply the corrected existing statement and its explicit correction provenance to the 612-claim next-wave ledger; retain all five added claim records, updated next-wave manifests and receipts. The concurrent commit itself is based on the older 607-record stage, so its whole ledger/manifest must not replace the next-wave union.",
+  "minimum_merged_tree_check": {
+    "existing_unittest_target": "test_research.RepositoryTests.test_claim_ledger_status",
+    "command_from_merged_repo_root": "PYTHONPATH=tests python -m unittest test_research.RepositoryTests.test_claim_ledger_status -v",
+    "additional_read_only_audit": "Verify 612 IDs, all 611 other records exact against the frozen next-wave ledger, only this statement changed, and refreshed current report/hash entries with original source hashes and historical receipts preserved.",
+    "no_repeat_census_required": "The concurrent commit changes no executable, test, mathematical witness or dependency input. The passing unchanged coordinate census remains revision-scoped evidence; no new census execution was performed in this review."
+  },
+  "review_scope": "Read-only inspection of fetched Git blobs and JSON/hash consistency. No mathematical independence, formalization or new regression result is claimed.",
+  "mutations": "Only this scratch audit receipt was written; no worktree or remote changes."
+}
