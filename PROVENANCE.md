@@ -871,13 +871,31 @@ note derives the required finite matrix-multiplication slice rank from
 that theorem. No historical priority, independent mathematical review,
 Lean formalization or exponent improvement is claimed.
 
-## Rational conic third-order continuation
+## Conic third-order continuation
 
-The finite rational three-jet in `research/ai/2026-10-23-conic-third-jets/`
-is owner-directed Codex work. PR101 and its predecessors retain credit
+The rational point and mixed-component three-jet family in
+`research/ai/2026-10-23-conic-third-jets/` are owner-directed Codex work.
+PR101 and its predecessors retain credit
 for the canonical source, conic base, first jet, and complete tangent
 operators used in discovery. The new standard-library verifier rebuilds
-the literal source and checks all three positive orders without importing
-those operators or the symbolic solver. Its independent implementation
-does not constitute independent mathematical review. No new external
-theorem, all-order construction or exponent improvement is claimed.
+the literal source and checks the rational point without importing
+those operators or the symbolic solver. A second independent verifier
+uses that literal source contraction with SymPy rational functions to
+check the full d-nonzero family and its constant leading minors. Neither
+implementation constitutes independent mathematical review. No new
+external theorem, all-order construction or exponent improvement is claimed.
+
+## Actual nonsplit finite covers
+
+The explicit lifted F4 basis, integer coordinate covers and separately
+weighted cube certificate in `research/ai/2026-10-21-sl2-finite-slices/`
+are owner-directed Codex work. Discovery reuses the preceding A5 basis
+and idempotents, with their source credit retained. Acceptance uses a
+separate dense-field implementation of the original determinant-one
+group; it does not assume the quotient lift, a radical pilot or a
+numerical optimizer result. Flanders, Meshulam and de Seguins Pazzis retain
+credit for the imported arbitrary-field bounded-rank matrix-space theorem.
+The prior finite split-cover note supplies its finite matrix slice-rank
+reduction and standard proper-incidence/field-transfer argument. These
+finite source certificates do not claim optimality, historical priority,
+independent mathematical review, formalization or exponent improvement.

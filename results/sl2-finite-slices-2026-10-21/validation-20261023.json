@@ -1,0 +1,41 @@
+{
+  "tested_commit": "6cd7f3a1fc90820c135505b882a614cb62a025d5",
+  "tested_tree": "87190f1716b7cb6f259fa2224538b484f37c4f25",
+  "python": "3.14.8",
+  "tests": {
+    "total": 844,
+    "passed": 841,
+    "optional_skips": 3,
+    "groups": [
+      200,
+      209,
+      211,
+      224
+    ]
+  },
+  "archive_replays_passed": 5,
+  "log_uncompressed_sha256": {
+    "results/sl2-finite-slices-2026-10-21/revalidation-20261023-nonsplit-group-0.log.gz": "9391cdb52958a5115afd4b6b370412c6dfab2aaa0255b1ea114c90e1700c5ebf",
+    "results/sl2-finite-slices-2026-10-21/revalidation-20261023-nonsplit-group-1.log.gz": "5c1ed511372b9fbc1252c4736df21ea5493bb16a886eaf387241d7de15127275",
+    "results/sl2-finite-slices-2026-10-21/revalidation-20261023-nonsplit-group-2.log.gz": "457336d32efacb8d26fd6039a326a20d76ffc5ece17d63f41e9efbceaedfbb18",
+    "results/sl2-finite-slices-2026-10-21/revalidation-20261023-nonsplit-group-3.log.gz": "4a9fe4a7133557515eb3095dcec9bb23178f57252da04d6d91e6ca6f45e70cbd",
+    "results/sl2-finite-slices-2026-10-21/revalidation-20261023-nonsplit-archive.log.gz": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+  },
+  "mathematical_files_sha256": {
+    "research/ai/2026-10-21-sl2-finite-slices/export_cover.py": "1647364ab50daff668f04acb8962db5a92703b22e143b4d70a009fcd30dae6ef",
+    "research/ai/2026-10-21-sl2-finite-slices/verify_cover.py": "bab1968ffc98275fbc56a3e43fe82e4e98edfbdea63b2f9c0cb2f8c5e571f28d",
+    "research/ai/2026-10-21-sl2-finite-slices/lift_pilot.py": "fb5ae65fea3844a9d683a2f209cd65a99aa459b1e6d332a724fa48c34550fa4b",
+    "research/ai/2026-10-21-sl2-finite-slices/cover_pilot.py": "3b2f1c139cde41b260f45efebf693427382c119db59891745e6920e3211e34a1",
+    "research/ai/2026-10-21-sl2-finite-slices/characteristic_five_pilot.py": "92ca8ec8632b41d68e0e8bf13f635119c285fd1738f4258219872e5dc8790222",
+    "tests/test_nonsplit_finite_covers.py": "26ae706aa9021121235bbff4f0e3f54a6fc416bbef02d928c386a03aa14a6c31",
+    "results/sl2-finite-slices-2026-10-21/cover-certificate.json": "1636f89a19fcfc3b7528ac53815315000b0c0a7b98063b01ae19dedba5d8cb49"
+  },
+  "integrated_main": "539b539dc4eac09114899fd76472aee2d78d9f62",
+  "integration_status": "Passed: 32 combined tests including all six incoming conic tests, five nonsplit tests, eighteen research metadata tests and three archive-integrity tests.",
+  "independent_mathematical_review": false,
+  "exponent_improvement": false,
+  "integration_tested_commit": "1349dd3272e1b6c4e65145b9e4f034d8a67794f3",
+  "integration_tested_tree": "73a18ffb10dd226bdf292719ddca2c36c5857a9f",
+  "integration_log_uncompressed_sha256": "f838f388d9c909b25e1d22cec4bd81590d6255479b3bf9fe9cc367a38268f35e",
+  "protected_archive_files_equal_to_main": 18
+}

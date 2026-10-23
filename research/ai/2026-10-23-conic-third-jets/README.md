@@ -1,35 +1,43 @@
-# A rational third-order lift on the cubic conic component
+# Third-order lifts on the mixed cubic conic component
 
-At a=1, b=2, c=-1 and d=1, the first jet exported by PR101 admits an
-explicit rational third-order lift after changing its second coefficient.
-The old fixed second coefficient has a nonzero third-order obstruction;
-allowing the complete 70-dimensional tangent freedom removes it. This
-does not establish a universal parameter family or an all-order lift.
+For every complex a,b,d with d nonzero and c=-d^3, PR101's specified
+first jet admits an explicit rational third-order incidence lift after
+changing its second coefficient. All coefficients belong to
+Q[a,b,d,d^-1], with poles of order at most two in d.
 
-The witness gives two 14-by-112 polynomial maps modulo t^4. A separate
-standard-library verifier reconstructs the original 4096-term source,
-checks leading row ranks 14 and first-source rank 12, and checks all
-19600 moving-kernel coefficients at each of orders one, two and three.
-It imports no predecessor operator, tangent solver or symbolic package.
-The first derivative has 128 entries outside the short boundary planes.
-This is local rank-twelve incidence, not the full matrix target or an
-exponent improvement. Claim `AI-CONIC-RATIONAL-THIRD-JET-001` is written
-and unreviewed.
+An independent symbolic verifier reconstructs the original 4096-term
+source and checks all 19600 moving-kernel coefficients at each of
+orders one, two and three. Its leading minor determinants are 1,1,-1,
+so both fourteen-row maps and the rank-twelve source contraction have
+the required leading ranks everywhere on this chart. It imports no
+discovery operator or predecessor tangent solver. The symbolic replay
+uses SymPy from the root requirements.
+
+The earlier single rational point a=1,b=2,c=-1,d=1 retains its separate
+standard-library verifier and corruption controls. These are local
+rank-twelve incidence jets, not all-order curves or the full matrix
+target. Claims `AI-CONIC-RATIONAL-THIRD-JET-001` and
+`AI-CONIC-MIXED-THIRD-JET-002` are written and unreviewed. No exponent
+improvement is established.
 
 Read [proof.md](proof.md), [QUESTION.md](QUESTION.md) and
-[sources.json](sources.json). The discovery script uses the credited
-PR101 tangent operators and SymPy; discovery scores are not acceptance
-premises.
+[sources.json](sources.json). Discovery uses the credited PR101 tangent
+operators. Acceptance uses the explicit maps and original-source
+identities, without assuming completeness of those discovery systems.
 
 From the repository root:
 
 ```sh
+python research/ai/2026-10-23-conic-third-jets/verify_symbolic.py results/conic-third-jets-2026-10-23/mixed-family.json
 python research/ai/2026-10-23-conic-third-jets/verify.py results/conic-third-jets-2026-10-23/third-jet-pilot.json
-python -m unittest discover -s tests -p test_conic_third_jets.py -v
-python research/ai/2026-10-23-conic-third-jets/pilot.py --allow-second --output results/local/conic-third-jet.json
+python -m unittest discover -s tests -p 'test_conic*third_jets.py' -v
 ```
 
-Next: find a universal rational third-order formula on the cubic
-component, then test fourth-order compatibility with all lower-jet
-freedoms. The current truncation has a nonzero fourth Schur coefficient;
-that alone is not an obstruction to adding higher coefficients.
+Optional exact discovery can be repeated with `discover_symbolic.py`,
+which writes to `results/local/mixed-conic-third-discovery.json`. The
+earlier point search is `pilot.py --allow-second --output PATH`.
+
+Next: handle the d=0 cubic fiber, then test fourth-order compatibility
+with lower-jet freedoms. The finite point's current truncation has a
+nonzero fourth Schur coefficient; that alone is not an obstruction to
+adding higher coefficients.

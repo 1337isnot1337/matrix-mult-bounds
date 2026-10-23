@@ -1,4 +1,4 @@
-# Explicit rational three-jet, with its finite scope
+# Explicit third-order lifts on the cubic conic component
 
 October 23, 2026. Written, unreviewed, owner-directed Codex work.
 
@@ -12,7 +12,58 @@ This is the credited source of PR101 and its predecessors. Let A0 be the
 twelve first-source coordinates index(i,j,z) with i,j in {1,2} and
 z in {0,3,6}; let K contain the other 100 first-source coordinates.
 
-The exported witness specifies rational matrices B_i,C_i of size
+## The mixed-component family
+
+For every complex a,b,d with d nonzero, set c=-d^3. The matrices in
+`results/conic-third-jets-2026-10-23/mixed-family.json` give an incidence
+three-jet with exactly PR101's prescribed constant and first coefficients.
+They belong to R=Q[a,b,d,d^-1]; every coefficient has d-pole order at
+most two. The maps have leading row ranks fourteen and first-source
+rank twelve throughout this chart. Claim `AI-CONIC-MIXED-THIRD-JET-002`
+is written and unreviewed.
+
+A useful short description of the new second coefficient is available.
+Let Delta=(a+d^3)*(b-d^3). For r=0,1,2,5, let E_r be the 14-by-112
+matrix whose only entries are one at (2r,1) and (2r+1,2), with indices
+starting at zero. Write N_B1,N_C1 for the credited middle-one normal
+pair in PR101. Add to its old second coefficient the following:
+
+    delta B2 = u0*E_0 + u1*E_1 + u2*E_2 + u3*E_5 + v*N_B1,
+    delta C2 = v*N_C1,
+    u0 = -Delta^2*(b-2*d^3)/(3*d^2),
+    u1 = -d*Delta^2*(b+d^3)/3,
+    u2 = Delta^2*(b-d^3)/(3*d^2),
+    u3 = b*d*Delta^2/3,
+    v  = Delta/3.
+
+The third coefficient is exported explicitly, with 52 nonzero B entries
+and 48 nonzero C entries. Y1=Y2=0; Y3 has 16 nonzero entries. Discovery
+allowed all seventy second-coefficient tangent fields; the resulting
+solution uses only the five displayed field combinations. A four-field
+guess based on the first rational point was insufficient generically.
+Neither discovery-system completeness nor its elimination rank is an
+acceptance premise for the explicit positive family.
+
+Independent replay checks the coefficient identities (1) below over R,
+using the literal source contraction from the rational-point verifier
+and SymPy rational functions. It imports neither the discovery script
+nor PR101's tangent or cohomology operators. An arithmetic-only parser
+checks that every denominator is a rational constant times d^k, k<=2.
+Direct determinant identities give 1 and 1 for the chosen fourteen-row
+minors and -1 for the chosen twelve-row source minor. These are units,
+so there is no additional generic-parameter guard. Substitution into
+R is valid at every complex a,b,d with d nonzero, proving the stated
+universal chart result. Direct comparison also preserves the credited
+constant and first coefficients identically, hence normal class [1:d].
+
+The d=0 cubic fiber is outside this family. The already-integrable
+linear components retain their earlier exact curves. The result does
+not claim that every representative of a normal class extends, or that
+an all-order curve or full matrix target exists.
+
+## The earlier rational-point witness
+
+The earlier point witness specifies rational matrices B_i,C_i of size
 14-by-112 for 0<=i<=3, and Y_i of size 100-by-12 for 1<=i<=3.
 Write F_k=sum_{i+j=k} T(-,B_i,C_j), with each F_k flattened into
 112-by-196, and W_k=F_k[A0,:]. Independent exact replay verifies

@@ -1,17 +1,36 @@
 # Research status
 
-## An explicit rational third-order conic lift
+## Third-order lifts on the mixed cubic conic component
 
 The [third-jet witness](research/ai/2026-10-23-conic-third-jets/proof.md)
-extends PR101's first jet at a=1,b=2,c=-1,d=1 through order three after
-changing its second coefficient. An independent standard-library verifier
-rebuilds the 4096-term integer source and checks all 19600 moving-kernel
-coefficients at each positive order. The maps have leading row ranks14
-and first-source rank12, with non-plane first motion. This is one exact
-rational point outside both already-integrable linear components.
-Claim `AI-CONIC-RATIONAL-THIRD-JET-001` is written and unreviewed.
-Universal parameter formulas, fourth-order compatibility and an all-order
-lift remain open; no matrix target or smaller exponent is established.
+extends PR101's first jet through order three for every complex a,b,d
+with d nonzero and c=-d^3, after changing its second coefficient. The
+coefficient ring is Q[a,b,d,d^-1], with poles of order at most two in d.
+Independent symbolic replay rebuilds the 4096-term integer source and
+checks all 19600 moving-kernel coefficients at each positive order;
+leading minor determinants1,1,-1 give map row ranks14 and first-source
+rank12 throughout this chart. An earlier explicit rational point also
+has a separate standard-library replay. Claims
+`AI-CONIC-RATIONAL-THIRD-JET-001` and `AI-CONIC-MIXED-THIRD-JET-002`
+are written and unreviewed. The d=0 cubic fiber, fourth-order
+compatibility, an all-order lift and the full matrix target remain open.
+No smaller exponent is established.
+
+## Finite covers close the selected nonsplit coordinate targets
+
+The [actual nonsplit source certificate](research/ai/2026-10-21-sl2-finite-slices/proof.md)
+gives a 98-slice cover for SL(2,F5), excluding M10 in characteristic two
+and in the maintained one-copy coefficient-one coordinate/potential
+class over C. For SL(2,F5) x C2 its cube has a 6155844-slice cover, below
+2535^2=6426225. Cyclic symmetry gives abc<=2481 for any single rectangular
+target, excluding the selected M(13,13,15). Independent replay checks
+rank120, all1728000 original nonsplit coefficients, full block degrees,
+and grouped cube coordinate counts with multiplicity13824000. Claim
+`AI-NONSPLIT-FINITE-COVERS-001` is written and unreviewed. Together with
+the split-cover result, this closes the three selected one-copy
+central-cover coordinate/potential targets. General complex input mixing,
+other targets and arbitrary higher source powers remain open. No smaller
+exponent is established.
 
 ## Complete affine conic tangents and second jets
 
@@ -42,8 +61,9 @@ the split cover. The verifier checks all 216000 A5 coefficients and enumerates
 all 1728000 one-leg cube coordinates. A direct argument from the external
 arbitrary-field bounded-rank matrix-space theorem supplies the target
 lower bound. Claim `AI-SPLIT-COVER-CUBE-EXCLUSION-001` is written and
-unreviewed. General complex degenerations, the nonsplit central covers,
-and constructions from arbitrary higher powers remain open. No smaller
+unreviewed. The separate nonsplit note above addresses its selected
+coordinate targets. General complex degenerations and constructions
+from arbitrary higher powers remain open. No smaller
 exponent is established.
 
 ## Regular unit charts and full-source calibrations
