@@ -1,14 +1,13 @@
 # Integrated research coordination
 
-The paired-long-leg continuation studies
-`ai/2026-10-23-paired-long-legs/QUESTION.md`, in the isolated worktree
-`/home/cinna/matrix-mult-paired-long-legs-20261023`, branch
-`research/paired-long-legs-20261023` (remote tracking branch
-`research/paired-other-legs-20261023`). It asks for the two long-leg
-Koszul ranks, beyond the maintained short-leg formula, and whether they
-exclude any of the 28 short-leg survivors through a16. Modular source
-ranks will be treated as lower bounds, not complex source upper bounds.
-This is separate from active singular-unit, group-source and boundary work.
+The paired-long-leg continuation is on
+`research/paired-long-legs-20261023`. Its first result proves both long-leg
+Koszul maps injective for `0<=p<=a-1`, by exact interpolation and the
+full-spark evaluation basis. The 28 saved single-matrix survivors therefore
+are not excluded in that low-degree range. Higher exterior degrees remain
+the selected question. Modular source ranks are lower bounds, not complex
+source upper bounds. This is separate from active singular-unit,
+group-source and boundary work.
 
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on

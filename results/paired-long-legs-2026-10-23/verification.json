@@ -1,0 +1,85 @@
+{
+  "improves_omega": false,
+  "interpolation": [
+    {
+      "a": 2,
+      "full_spark_subsets": 3,
+      "nodes": 3,
+      "product_coefficients": 4
+    },
+    {
+      "a": 3,
+      "full_spark_subsets": 10,
+      "nodes": 5,
+      "product_coefficients": 9
+    },
+    {
+      "a": 4,
+      "full_spark_subsets": 35,
+      "nodes": 7,
+      "product_coefficients": 16
+    },
+    {
+      "a": 5,
+      "full_spark_subsets": 126,
+      "nodes": 9,
+      "product_coefficients": 25
+    },
+    {
+      "a": 6,
+      "full_spark_subsets": 462,
+      "nodes": 11,
+      "product_coefficients": 36
+    }
+  ],
+  "rank_controls": [
+    {
+      "a": 2,
+      "domain": 4,
+      "full_column_rank": true,
+      "p": 0,
+      "rank_mod_2": 4
+    },
+    {
+      "a": 2,
+      "domain": 24,
+      "full_column_rank": true,
+      "p": 1,
+      "rank_mod_2": 24
+    },
+    {
+      "a": 3,
+      "domain": 9,
+      "full_column_rank": true,
+      "p": 0,
+      "rank_mod_2": 9
+    },
+    {
+      "a": 3,
+      "domain": 135,
+      "full_column_rank": true,
+      "p": 1,
+      "rank_mod_2": 135
+    },
+    {
+      "a": 3,
+      "domain": 945,
+      "full_column_rank": true,
+      "p": 2,
+      "rank_mod_2": 945
+    }
+  ],
+  "saved_frontier": {
+    "forced_short_leg_strict": 22,
+    "source": "results/paired-sources-2026-10-20/all-power-frontier.json",
+    "source_sha256": "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54",
+    "square_outer_equalities": 6,
+    "survivors": 28,
+    "survivors_by_a": {
+      "14": 5,
+      "15": 11,
+      "16": 12
+    }
+  },
+  "status": "finite exact controls only; the all-size proof is in long_leg_low_degrees.md"
+}

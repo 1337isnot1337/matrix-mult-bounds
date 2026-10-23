@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "claim_ids": [
+    "AI-PAIRED-LONG-KOSZUL-005"
+  ],
+  "source_commit": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "selected_question_commit": "0fa905acdc0e598d234e25ffd5b9c24849114307",
+  "local_source_pins": [
+    {
+      "path": "research/ai/2026-10-20-paired-sources/all_koszul.md",
+      "sha256": "c744db681cfbd8575ff5719c85b8d0956f9209c8dab5196b735a5130084b6d5a"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-sources/all_ranks.py",
+      "sha256": "1d63dfbcbb7fb34dd3b1d29fe0a41bd90e0db7295597189d1a7154c6e44d7dff"
+    },
+    {
+      "path": "results/paired-sources-2026-10-20/all-power-frontier.json",
+      "sha256": "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54"
+    }
+  ],
+  "external_results": [],
+  "notes": "The interpolation and full-spark arguments are proved directly in long_leg_low_degrees.md. No external lemma is imported. The modular controls are finite lower-rank checks only."
+}

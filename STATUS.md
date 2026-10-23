@@ -1,5 +1,19 @@
 # Research status
 
+## Paired-source long-leg ranks in low degrees
+
+The [low-degree proof](research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md)
+uses exact interpolation and full-spark evaluation vectors to prove
+`rank K_p(P_a; B)=rank K_p(P_a; C)=a^2*binom(a(2a-1),p)` for every
+`a>=2` and `0<=p<=a-1`. The maps are injective in this range. All 28 saved
+single-matrix survivors through `a=16` have the short leg uniquely aligned;
+the result shows that their long-leg tests cannot exclude them in these
+degrees. Higher degrees remain open. Claim
+`AI-PAIRED-LONG-KOSZUL-005` is written and unreviewed. Exact interpolation,
+frontier, and small modular-rank controls are recorded in
+`results/paired-long-legs-2026-10-23/verification.json`. No exponent
+improvement is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

@@ -24,3 +24,11 @@ will not be promoted to a complex obstruction.
 The first analytic step uses a full-spark interpolation basis on one
 convolution factor. Higher exterior degrees remain the main question.
 No claim of a smaller exponent is made.
+
+## Checkpoint: low degrees
+
+The new [low-degree proof](long_leg_low_degrees.md) establishes full column
+rank on both long legs for `0<=p<=a-1`. This range cannot exclude any of the
+28 saved targets through `a=16`: their target ranks are bounded by the same
+source-domain dimensions. Continue with `p>=a`, starting at the first
+degrees where the interpolation support can contain more than `a` blocks.
