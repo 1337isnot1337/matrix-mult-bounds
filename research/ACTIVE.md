@@ -8,10 +8,16 @@ components are now excluded from the specified termwise Q(6,4) grid:
 50 fixed W directions already require ten rank-four groups. The
 five-split component also has a positive trace obstruction to any further
 nonempty-subset stabilizer deletion. Do not repeat standard flip walks
-on these seeds aiming at that grid. The next ansatz allows per-term
-factor gauges in simultaneous deletion tests, or changes the split seed
-or decomposition. No maximum split-batch theorem, general source-map
-exclusion, new rank record, or smaller exponent is established.
+on those two seeds aiming at that grid. A broader per-term factor-gauge
+test now gives an exact six-split seed with 70 U directions in
+`ai/2026-10-23-gauged-splits/README.md`. Its discarded tensors contract
+even though a mixed trace prevents common contraction of the unscaled
+arrows. The new component has 47 permanent W directions with an exact
+nine-group rational cover and a matching weighted lower bound in
+`ai/2026-10-23-six-split-grid/README.md`. Mobile component factors,
+simultaneous long-leg conditions, larger split batches and actual maps
+remain under investigation. No maximum split-batch theorem, general
+source-map exclusion, new rank record, or smaller exponent is established.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

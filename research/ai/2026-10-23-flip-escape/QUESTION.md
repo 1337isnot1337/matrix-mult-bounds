@@ -22,14 +22,16 @@ termwise alignment. The later fixed-component proof preserves that
 exclusion under every finite standard flip of either seed. Counting
 distinct directions alone is insufficient.
 
-The next question is whether another simultaneous deletion can use
+The [six-split continuation](../2026-10-23-gauged-splits/README.md)
+answers positively whether another simultaneous deletion can use
 separate factor gauges on each discarded term. For a common physical
 one-parameter family, it is sufficient that the sum of the three factor
 valuations in each discarded tensor be positive. Requiring every arrow
 to raise one common flag without term-dependent gauges may be stronger.
-This is an open construction ansatz, not a claim that a larger batch
-exists. Any accepted witness must replay the full surviving Laurent
-tensor, including every error coefficient.
+The exact six-term witness separates these two conditions. Larger
+batches, useful factor changes in the new component, and actual source
+maps remain open. Any accepted witness must replay the full surviving
+Laurent tensor, including every error coefficient.
 
 This package separates a finite exact certificate from its written
 mathematical implication. All work is owner-directed AI research, with

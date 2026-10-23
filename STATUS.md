@@ -1,5 +1,30 @@
 # Research status
 
+## Six split deletions escape the unscaled-arrow condition
+
+The [gauged split witness](research/ai/2026-10-23-gauged-splits/README.md)
+uses six replacements and one physical Laurent family to give a 76-term
+border seed with 70 distinct U directions. Two discarded factors have
+poles, but each discarded tensor has positive valuation. Separate factor
+gauges after epsilon=t^3 make every discarded factor positive without
+changing any tensor term. Complete contraction checks all 10000 constant
+positions, no negative coefficients, and 73 positive remainder coefficients.
+A mixed trace equal to one proves that simultaneous contraction of all
+unscaled arrows is impossible for this batch. Claim
+`AI-EXTERNAL-GAUGED-SPLIT-SEED-006` is written and unreviewed.
+
+The [six-split geometry certificate](research/ai/2026-10-23-six-split-grid/README.md)
+shows that only 47 W directions remain fixed throughout this new
+standard-flip component. An explicit rational cover uses nine rank-four
+groups. Integer weights of total 144 and flat cap 16 prove that nine is
+the exact minimum; full replay checks all 178365 four-subsets. Claim
+`AI-EXTERNAL-SIX-SPLIT-FIXED-COVER-007` is written and unreviewed.
+
+This covers only the permanent subset. The unchanged full W set still
+excludes direct termwise grid reuse. Fitting the mobile factors,
+simultaneous incidence and actual Q(6,4) maps remain construction
+requirements. The rank upper bound and exponent status are unchanged.
+
 ## Fixed post-split components close two further searches
 
 The [post-split component proof](research/ai/2026-10-23-fixed-flip-components/README.md)
@@ -19,8 +44,9 @@ to retain trace one or two; the original discarded error has trace zero.
 Thus the total error from any additional deletion cannot tend to zero.
 Claim `AI-EXTERNAL-FIVE-SPLIT-TRACE-005` is written and unreviewed. This
 argument does not exclude all border-rank reductions or the four-split
-seed's nonscalar trace blocks. New split batches, separate factor gauges,
-and constructions outside these components are the next questions.
+seed's nonscalar trace blocks. Separate factor gauges give the new
+six-split witness above; further changes outside the two closed components
+remain open.
 No smaller exponent is established.
 
 ## Weighted grid covers require changes on both long legs

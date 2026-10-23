@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-23-gauged-splits` package is owner-directed OpenAI Codex
+work using the credited external factorization and the unchanged local
+four-split physical bases. The six selected replacements, complete
+tensor-valuation replay and explicit mixed-cycle separation are local
+continuations. Elementary valuation and factor-gauge identities are not
+claimed as historically new. The witness changes a border seed while
+retaining the existing rank upper bound; no smaller exponent or
+independent mathematical review is claimed.
+
+The `2026-10-23-six-split-grid` package supplies local exact component
+geometry and a nine-space rational cover of the new seed's permanent
+third-factor subset. Numerical optimization found the cover and weights;
+integer rank, coverage and exhaustive flat enumeration verify them.
+This does not construct the complete grid or a new matrix algorithm.
+The original source attribution and written-unreviewed status are retained.
+
 The `2026-10-23-fixed-flip-components` package is owner-directed OpenAI
 Codex continuation of the two split witnesses below. The component span
 certificates, permanent-direction weights and five-split scalar trace

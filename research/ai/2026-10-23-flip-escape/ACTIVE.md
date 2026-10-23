@@ -24,6 +24,17 @@ the attribution and version pins in `sources.json`.
   groups. The five-split component additionally has a positive trace
   obstruction to deleting any further nonempty subset, even allowing
   cancellation with the original discarded error.
+- The broader `2026-10-23-gauged-splits` package gives six simultaneous
+  deletions and a 76-term border seed with 70 U directions. Positive
+  tensor valuations suffice even though two individual factor valuations
+  are negative. Separate gauges after epsilon=t^3 make all discarded
+  factors positive. A mixed trace equal to one proves that the prior
+  common unscaled-arrow condition cannot accept this batch.
+- The `2026-10-23-six-split-grid` package reconstructs its 52 isolated
+  components and 47 permanent W directions. Those directions admit an
+  explicit nine-group rational cover. Integer weights of total 144
+  and flat cap 16 prove that nine is the minimum. This covers only the
+  permanent subset, leaving five mobile component W spaces to fit.
 
 These are written, unreviewed implications with finite exact input
 certificates. Same-session audits are not independent mathematical
@@ -46,21 +57,24 @@ evidence by themselves.
 
 ## Next precise question
 
-Can a common physical transformation delete more useful terms when
-separate factor gauges are allowed for each discarded tensor? For term i,
-the sufficient valuation condition is
+The answer to the first gauge-adjusted question is positive: the six-split
+witness contracts six discarded terms under one physical transformation.
+For term i, the sufficient valuation condition is
 
 \[
 \nu(U_i-U'_i)+\nu(V_i)+\nu(W_i)>0.
 \]
 
 The three minima may be redistributed by factor gauges with product one.
-This is more flexible than demanding that all unscaled arrows raise one
-common descending image flag. Search candidate bases and integer physical
-weights, and verify any successful rational witness by full Laurent
-contraction. Larger sets of changed W components should be screened
-before expensive flip searches. Other split legs and other external
-decompositions are additional open routes.
+This is strictly more flexible than demanding that all unscaled arrows
+raise one common descending image flag. The next questions are larger
+batches, useful changes within the new six-split component, and actual
+grid maps. The fixed-subset cover meets one necessary condition; it does
+not cover every displayed factor. Search candidate bases and integer
+physical weights, and verify
+any successful rational witness by full Laurent contraction. Screen the
+fixed W component directions before expensive flip searches. Other split
+legs and other external decompositions are additional open routes.
 
 For any candidate, export the exact replacements, bases, weights and
 factors. Check the complete tensor identity and source attribution, then
