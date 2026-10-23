@@ -1,5 +1,23 @@
 # Research status
 
+## Sharp dimension-six bounds for quadratic slice families
+
+The [quadratic linear-space package](research/ai/2026-10-23-quadratic-linear-spaces/README.md)
+proves a sharp dimension-six bound for F2-linear families of the complete
+nine-coefficient R_(3,3) biform block that avoid rank15. The proof uses
+seven full-rank matrices in a three-dimensional subspace and dimension
+intersection. Independently, over every field, a geometrically rank-at-most-12
+family has dimension at most six, by the vertical/horizontal factor loci.
+A fixed-factor family attains both bounds. Exact finite enumeration finds
+six binary extremal rank12 spaces and twenty rank14 spaces. Six of the
+latter lie outside coefficient compression; an explicit F4 point in one
+has rank15, demonstrating the scalar-extension boundary. Claims
+`AI-BINARY-QUADRATIC-LINEAR-CAP-001` and
+`AI-GEOMETRIC-QUADRATIC-RANK12-CAP-002` are written and unreviewed;
+`AI-BINARY-QUADRATIC-EXTREMAL-CENSUS-003` is finite-experiment evidence.
+These are block-subspace results, with no compatible tensor maps or
+matrix-multiplication exponent improvement.
+
 ## Exact binary quadratic attainment from a degree-zero line bundle
 
 The [torsion criterion](research/ai/2026-10-23-quadratic-torsion/proof.md)

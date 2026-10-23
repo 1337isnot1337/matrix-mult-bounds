@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-linear-spaces` package is owner-directed OpenAI
+Codex work. It credits the merged quadratic kernel-index and dichotomy
+package for individual block ranks and the fixed-root characterization.
+The local additions are the seven-point binary full-rank certificate,
+the geometric factor-incidence dimension bound, the complete finite
+extremal-space census, and an explicit scalar-extension counterexample.
+Standard projective-image and dimension facts retain their cited Stacks
+Project attribution. Literal matrices are rebuilt in a separate small
+verifier; finite enumeration and same-session proof audits are not
+independent mathematical review, formalization or historical priority.
+No full cyclic-source space classification, target maps or exponent
+improvement is claimed.
+
 The `2026-10-23-quadratic-torsion` package is owner-directed OpenAI Codex
 work. It credits the merged quadratic kernel-index and dichotomy package
 for the exact source formula and four-value containment. The Stacks
