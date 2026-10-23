@@ -1,7 +1,7 @@
 # Elementary arbitrary-biform rank gap
 
 October 23, 2026. Base main 3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93.
-Owner-directed Codex work on research/elementary-biform-gap-01a1697a.
+Owner-directed Codex work on research/elementary-biform-gap-01a1697a-d83f.
 
 Question: can the existing block rank gap for every nonseparable complex
 biform be proved without the vector-bundle splitting input used in
@@ -19,5 +19,6 @@ matrix under these affine changes before transferring a rank bound.
 First checks: determine the complete ranks of those power matrices and
 find characteristic-zero lower minors. A failed covariance, rank formula
 or specialization implication must be recorded rather than assumed.
-No theorem, dependency removal, matrix target or exponent gain is claimed
-at this discovery checkpoint. Historical archives remain untouched.
+No theorem, dependency removal, matrix target or exponent gain was claimed
+at the initial discovery checkpoint. The subsequent written argument and
+exact acceptance are linked from README.md. Historical archives remain untouched.

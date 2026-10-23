@@ -1,5 +1,21 @@
 # Research status
 
+## Elementary arbitrary-biform rank gap
+
+The [elementary biform proof](research/ai/2026-10-23-elementary-biform-gap/README.md)
+reproves the existing crossed block gap over every characteristic-zero
+field without the earlier vector-bundle splitting input. For2<=a<=b,
+separable nonzero f has rank ab, and every other f has rank at least ab+a.
+A mixed irreducible factor of multiplicity e gives the stronger bound
+ab+ae. The proof uses exact affine covariance, a lowest-term limit at a
+suitable factor zero, and the formula rank R((alpha*x+beta*z)^e)=a(b+e)
+for1<=e<a. Classical path determinants retain their original attribution;
+the required cancellation argument is reproduced. Claims
+`AI-ELEMENTARY-BIFORM-GAP-001` and `AI-MIXED-POWER-BIFORM-RANK-001` are
+written and unreviewed. Exact acceptance checks45 power cases,525 integer
+minors and20 affine/scaling controls. Prior files and dependency ledgers
+are unchanged; no target degeneration or exponent improvement follows.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

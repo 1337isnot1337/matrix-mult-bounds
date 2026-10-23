@@ -1,5 +1,20 @@
 # Attribution and provenance
 
+The `2026-10-23-elementary-biform-gap` package is owner-directed Codex
+work. The literal cyclic-source convention and earlier biform block-gap
+statement retain their exact main byte pins and original credit. The
+alternative argument uses elementary affine substitutions, polynomial
+factorization, a local lowest-term degeneration and explicit integer
+minors. The determinant cancellation argument is classical Lindstrom /
+Gessel-Viennot; its required special case is reproduced, and the inspected
+primary paper, printed pages300-303, URL and SHA256 are recorded. No
+vector-bundle splitting or other unproved structural theorem is imported
+by this alternative. The earlier proof and every downstream ledger remain
+unchanged. The new rank-power and mixed-factor multiplicity statements
+are written and unreviewed. Finite controls, self-review and passing CI do
+not establish independent mathematical review, formalization, historical
+priority, a complete target or an improved exponent.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
