@@ -13,6 +13,19 @@ the required leading ranks everywhere on this chart. It imports no
 discovery operator or predecessor tangent solver. The symbolic replay
 uses SymPy from the root requirements.
 
+The second universal backend, `verify_laurent.py`, uses only the Python
+standard library. It represents coefficients as sparse Laurent polynomials
+with rational coefficients and expands the three leading determinants
+directly. It imports neither the SymPy verifier nor a discovery operator.
+It checks the same chart, credited initial coefficients, second correction,
+leading minors and incidence equations, and emits the same logical report.
+The predecessor witness is checked against its credited SHA-256 pin.
+The parser accepts bounded rational arithmetic in a,b,d, with division
+only by nonzero rational monomials in d; it does not evaluate Python code.
+Input budgets reject excessive syntax, powers and coefficient expansions.
+This is an additional acceptance implementation, not a new mathematical
+claim or independent mathematical review.
+
 The earlier single rational point a=1,b=2,c=-1,d=1 retains its separate
 standard-library verifier and corruption controls. These are local
 rank-twelve incidence jets, not all-order curves or the full matrix
@@ -34,6 +47,7 @@ From the repository root:
 
 ```sh
 python research/ai/2026-10-23-conic-third-jets/verify_symbolic.py results/conic-third-jets-2026-10-23/mixed-family.json
+python research/ai/2026-10-23-conic-third-jets/verify_laurent.py results/conic-third-jets-2026-10-23/mixed-family.json
 python research/ai/2026-10-23-conic-third-jets/verify.py results/conic-third-jets-2026-10-23/third-jet-pilot.json
 python -m unittest discover -s tests -p 'test_conic*third_jets.py' -v
 ```
