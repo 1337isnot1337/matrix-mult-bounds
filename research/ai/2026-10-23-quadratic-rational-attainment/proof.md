@@ -295,8 +295,8 @@ prior verifier implementation. The bounded report records four exact
 recurrence ranks (2 of 3, 7 of 8, 23 of 24 and 47 of 48), the thirteen
 polynomial equations, and ten full rational source matrices. One separate
 F2 source at a=3 has rank 9 for q7 mod 2, checking the primitive-degree-zero
-boundary excluded above. Each prime
-witness has controls at a multiple and a nonmultiple of its order:
+boundary excluded above. Each prime witness has controls at sizes where
+a+1 is a multiple and a nonmultiple of its order:
 
 | Witness order | Source sizes a checked |
 | --- | --- |
