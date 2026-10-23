@@ -1,0 +1,78 @@
+{
+  "status": "complete_prepared_not_applied",
+  "source_plan": "receipt_catchup_plan.json",
+  "source_plan_sha256": "c6fcac72a57a0b92dbb9fbe1d4393800adf2f3a44bf4fb3a17df416117d848fe",
+  "analysis_report": "docs_receipt_unique_deltas.json",
+  "prepared_against_head": "e2baf1170cd1e6ce676fad00d4a4b3746148a3a4",
+  "output_files": [
+    {
+      "path": "research/ACTIVE.md",
+      "source_commit": "d2002a7f3809c62932d5377d23786f4178f6f3c6",
+      "source_path": "research/ACTIVE.md",
+      "source_blob": "1acee872f08fba3432821621459501c4874e5d43",
+      "source_sha256": "727faca40347975a4ca46aa8c8123face9efa54efab7b0640ea8abf09b44e0c6",
+      "prepared_against_commit": "e2baf1170cd1e6ce676fad00d4a4b3746148a3a4",
+      "input_blob": "776cea687db0511cefa1e403e4ff2b826f7bb1f9",
+      "input_sha256": "fb4f4e7550b971e7b8326962f76905ac20731f5c7ad8abff9badb42715660fe6",
+      "sha256": "91cdafa9fdd2495325deebdc03d575764c0d2fd41b97c385f05a63c3e3fd77d4",
+      "output_path": "/workspace/scratch/5e4a124ebf61/consolidation/receipt_docs_output/research/ACTIVE.md",
+      "reason": "Apply the source-explicit fixed m>=2 and target M(n,m,n) qualification to the two-Toeplitz-long-leg summary. All other current narrative bytes remain unchanged."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "research/ACTIVE.md",
+      "branch": "research/toeplitz-two-long-legs-20261023",
+      "source_commit": "d2002a7f3809c62932d5377d23786f4178f6f3c6",
+      "source_base": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "before": "The independent [two-Toeplitz-long-leg question](ai/2026-10-23-toeplitz-long-legs/QUESTION.md)\nexcludes every ordinary Q(n,m) map with both bulk long-leg filters of\nsublinear bandwidth and sublinearly many exceptional columns from the\nsubquadratic correction budget, even with arbitrary first-leg mixing.\nThe written polynomial-symbol proof is unreviewed. Five exact tests pass.\nNext target is genuinely variable-coefficient long-leg maps or singular\nLaurent cancellation; PR #145's shift chart and PR #147's product\nresidual are separate active work. No smaller exponent established.",
+      "after": "For fixed m>=2 and target M(n,m,n), the independent\n[two-Toeplitz-long-leg question](ai/2026-10-23-toeplitz-long-legs/QUESTION.md)\nexcludes every ordinary Q(n,m) map with both bulk long-leg filters of\nsublinear bandwidth and sublinearly many exceptional columns from the\nsubquadratic correction budget, even with arbitrary first-leg mixing.\nThe written polynomial-symbol proof is unreviewed. Five exact tests pass.\nNext target is genuinely variable-coefficient long-leg maps or singular\nLaurent cancellation; PR #145's shift chart and PR #147's product\nresidual are separate active work. No smaller exponent established.",
+      "reason": "The old summary did not state the fixed-middle-dimension and rectangular-target assumptions. The advanced source makes these assumptions explicit, while retaining the polynomial-symbol proof as unreviewed and five tests as its historical receipt."
+    }
+  ],
+  "source_branch_dispositions": [
+    {
+      "branch": "research/laurent-stencil-20261023-ab94",
+      "source_base": "b6cddb16c3ea03515d1708d6f651d14f8bb6994f",
+      "source_commit": "3511513ff790b1d00ebcb01a2cf5a3c9fbab0797",
+      "shared_paths_examined": [],
+      "decision": "No shared narrative changes. Eleven historical results/harness paths are left to the exact source merge; no active proof, ledger, or executable claim is introduced by this overlay."
+    },
+    {
+      "branch": "research/toeplitz-two-long-legs-20261023",
+      "source_base": "9e830aa7af430b74febc93aeb8a975b1e356d744",
+      "source_commit": "d2002a7f3809c62932d5377d23786f4178f6f3c6",
+      "shared_paths_examined": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md"
+      ],
+      "decision": "Apply only the explicit fixed m>=2 and M(n,m,n) target qualification in research/ACTIVE.md. Remaining shared prose is imported known main/conic content; preserve current later scope corrections."
+    },
+    {
+      "branch": "research/a4-singular-long-rank-20261023",
+      "source_base": "35ac38d72dc42327899da29b1af355e494545356",
+      "source_commit": "d75e16b111f2a97234bf27d5640cad28a4fdad81",
+      "shared_paths_examined": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md"
+      ],
+      "decision": "No novel shared paragraphs after comparison with incorporated sources. Imported main/conic paragraphs and known singular-long-rank summaries are already represented; keep the current stronger rank limits and later conic qualifications."
+    }
+  ],
+  "comparison_method": "Compare old-to-new shared-document paragraph changes against all frozen initial source variants, initial main, the previous catch-up and late source heads, the supplemental shift-window source, and the current consolidated document. Normalize whitespace for comparison; separately recognize exact concatenations of already-known paragraphs. Apply only a genuinely new scope correction. Preserve current later conic and rank-limit corrections over older paragraphs imported from main.",
+  "validation": {
+    "exactly_one_source_paragraph_replaced": true,
+    "all_other_baseline_bytes_preserved": true,
+    "replacement_present_verbatim_in_source": true,
+    "no_conflict_markers": true,
+    "target_question_exists": true,
+    "all_reported_output_hashes_match": true,
+    "repo_working_trees_not_modified": true
+  },
+  "historical_archive_policy": "Laurent source receipts and harness files are handled by the exact source-head merge; this overlay neither edits nor interprets their reported run status as a new consolidated-tree validation.",
+  "unresolved_semantic_conflicts": []
+}

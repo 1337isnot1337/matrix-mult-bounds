@@ -192,7 +192,8 @@ rank-two parameter-image question is the next scope. General Hankel
 pencil and constant-scheme-strip workers retain their existing scopes.
 No singular exclusion, independent review or smaller exponent is claimed.
 
-The independent [two-Toeplitz-long-leg question](ai/2026-10-23-toeplitz-long-legs/QUESTION.md)
+For fixed m>=2 and target M(n,m,n), the independent
+[two-Toeplitz-long-leg question](ai/2026-10-23-toeplitz-long-legs/QUESTION.md)
 excludes every ordinary Q(n,m) map with both bulk long-leg filters of
 sublinear bandwidth and sublinearly many exceptional columns from the
 subquadratic correction budget, even with arbitrary first-leg mixing.

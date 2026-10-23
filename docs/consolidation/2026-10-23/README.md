@@ -1,13 +1,13 @@
 # Branch consolidation
 
 This maintenance branch gathers the work from 132 topic branch names. The initial
-snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated fifteen
+snapshot was taken at 2026-10-23 16:55:23 UTC. A subsequent pass incorporated eighteen
 new or updated heads, including three additional topic branches. The starting main
 commit was `bd03b9dadba03b1089595f03ff7a091ee9e7ddbc`.
 
 The [branch manifest](branches.json) records the exact source heads, their original
 pull requests, and the archive tags that preserve them. There are 129 initial
-tagged heads and fifteen tagged updates. Source histories are also ancestors of the
+tagged heads and eighteen tagged updates. Source histories are also ancestors of the
 consolidation branch. Original pull request draft status is retained in the
 manifest as provenance; consolidation does not establish mathematical review.
 
