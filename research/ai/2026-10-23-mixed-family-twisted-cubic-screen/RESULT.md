@@ -57,17 +57,26 @@ x_3 & x_3\\
 \end{pmatrix}.
 \]
 
+For the smoothing check, perturb this matrix by
+\[
+\epsilon\begin{pmatrix}
+x_0 & x_1\\
+x_1 & x_2\\
+x_2 & x_3
+\end{pmatrix}.
+\]
+
 The seven points have coordinate rank 4, so they lie on no common plane.
 Their three quadrics have no common linear factor; since they span a
 three-dimensional space, they have no common quadratic factor either. The
 maximal-minor ideal therefore has height 2. Hilbert-Burch gives resolution
 `0 -> S(-3)^2 -> S(-2)^3 -> I -> 0`, Hilbert numerator
-`1 - 3*t^2 + 2*t^3`, and Hilbert polynomial `3*n + 1`. A generic perturbation
-of the displayed matrix gives smooth twisted-cubic fibers with this
-determinantal curve as flat limit. This is a point-set incidence example;
-it does not align the evaluation-node parameters or establish a tensor
-degeneration. The explicit perturbation and its exact generic/special-fiber
-checks are recorded in [`verify_t4_curve_smoothing.sing`](../../../tools/verify_t4_curve_smoothing.sing).
+`1 - 3*t^2 + 2*t^3`, and Hilbert polynomial `3*n + 1`. The explicit
+one-parameter perturbation above has smooth twisted-cubic fibers generically,
+with this determinantal curve as flat limit. This is a point-set incidence
+example; it does not align the evaluation-node parameters or establish a
+tensor degeneration. The exact generic/special-fiber checks are recorded in
+[`verify_t4_curve_smoothing.sing`](../../../tools/verify_t4_curve_smoothing.sing).
 
 ## Incidence argument
 
