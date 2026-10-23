@@ -159,10 +159,10 @@ def verify_support_dominance():
         c_not_larger = []
         for item in record["remaining_after_this_screen"]:
             l, b, r = item["shape"]
-            # Cyclically reorient the selected long target leg as the
-            # first matrix leg before padding it to the source dimension.
+            # Reorient each selected long target leg first, keeping the
+            # source short leg second and the other source long leg third.
             target_b = module.padded_matrix_rank((l, r, b), n, p)
-            target_c = module.padded_matrix_rank((b, l, r), n, p)
+            target_c = module.padded_matrix_rank((r, l, b), n, p)
             if target_b <= source_floor:
                 b_not_larger.append(item["shape"])
             if target_c <= source_floor:

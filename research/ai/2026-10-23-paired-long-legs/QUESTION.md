@@ -24,10 +24,10 @@ will not be promoted to a complex obstruction.
 The analytic proof now reaches the first support threshold, `p=a`, using a
 full-spark interpolation basis and a two-block compatibility argument. The
 same basis gives an all-degree rank floor by forcing kernel coordinates to
-use at least `a` blocks. At `p=a+1` this floor dominates some saved
-matrix-target ranks, but no `b*r`-leg comparison passes. Exact ranks or a
-stronger bound for `p>=a+1` remain the main question. No claim of a smaller
-exponent is made.
+use at least `a` blocks. At `p=a+1` this floor dominates both long-leg target
+ranks for four `a=15` and six `a=16` survivors. Exact ranks or a stronger
+bound for `p>=a+1` remain the main question. No claim of a smaller exponent
+is made.
 
 ## Checkpoint: through `p=a`
 
@@ -37,8 +37,8 @@ any of the 28 saved targets through `a=16`: their target ranks are bounded
 by the same source-domain dimensions. For every `p`, a separate support
 argument proves `rank K_p >= a^2 L_(a,p)`, where `L_(a,p)` counts wedges
 supported on at most `a-1` interpolation blocks. At `p=a+1`, its exact
-comparison closes the `l*b`-leg rank test for four `a=15` and six `a=16`
-survivors, while all `b*r`-leg cases remain open. Next, strengthen the
+comparison closes both long-leg rank tests for four `a=15` and six `a=16`
+survivors. The other target shapes remain open. Next, strengthen the
 all-degree rank floor or determine the `p=a+1` source rank.
 
 The original coefficient matrix has rational rank `70<80` at `(a,p)=(2,3)`.

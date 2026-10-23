@@ -268,12 +268,12 @@ not screen degrees `p>=a+1` or exclude any of the 28 saved formats by itself.
 At `p=a+1`, the all-degree floor has been compared with the exact padded
 matrix-target ranks from the pinned `all_ranks.py`. Reorienting the target's
 `l*b` or `b*r` leg as the first matrix leg gives the two long-leg rank
-comparisons. The floor is at least the target `l*b`-leg rank for four of the
-eleven `a=15` survivors and six of the twelve `a=16` survivors. It is below
-the target `b*r`-leg rank in all 28 cases and below both long-leg target ranks
-for all five `a=14` survivors. These are one-degree dominance checks only;
-they do not determine the paired-source rank at `p=a+1` or close the other
-leg comparisons. Exact values and shape lists are in
+comparisons. The floor is at least both target long-leg ranks for four of the
+eleven `a=15` survivors and six of the twelve `a=16` survivors. It dominates
+neither long-leg rank for the five `a=14` survivors or for the other
+`a=15,16` survivors. These are one-degree dominance checks only; they do not
+determine the paired-source rank at `p=a+1` or close the remaining
+comparisons. Exact values and shape lists are in
 `results/paired-long-legs-2026-10-23/verification.json`.
 
 The exact interpolation and frontier checks are in `verify.py`. Claims

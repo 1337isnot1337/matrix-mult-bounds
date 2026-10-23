@@ -35,7 +35,7 @@ the linked status notes before choosing new parameters.
 The paired-source long-leg continuation proves that both long-leg Koszul
 maps of `P_a` have full column rank through `p=a` and gives an all-degree
 rank floor from interpolation-block support. At `p=a+1` that floor dominates
-some `l*b`-leg target ranks but no `b*r`-leg ranks. The exact `a=3` atlas
+both long-leg target ranks for four `a=15` and six `a=16` survivors. The exact `a=3` atlas
 is full through `p=6` and has rank `57185/57915` at `p=7`; general higher-
 degree ranks remain open. See the [proof and exact controls](../research/ai/2026-10-23-paired-long-legs/long_leg_low_degrees.md).
 

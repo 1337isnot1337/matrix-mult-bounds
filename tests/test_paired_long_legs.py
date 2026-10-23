@@ -74,9 +74,15 @@ class PairedLongLegTests(unittest.TestCase):
             [len(records[a]["target_b_rank_not_larger"]) for a in (14, 15, 16)],
             [0, 4, 6],
         )
-        self.assertTrue(
-            all(not item["target_c_rank_not_larger"] for item in records.values())
+        self.assertEqual(
+            [len(records[a]["target_c_rank_not_larger"]) for a in (14, 15, 16)],
+            [0, 4, 6],
         )
+        for record in records.values():
+            self.assertEqual(
+                record["target_b_rank_not_larger"],
+                record["target_c_rank_not_larger"],
+            )
 
     def test_a3_graded_higher_degree_rank_atlas_replays(self):
         spec = importlib.util.spec_from_file_location(

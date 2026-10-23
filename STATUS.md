@@ -10,9 +10,10 @@ single-matrix survivors through `a=16` have the short leg uniquely aligned;
 the result shows that their long-leg tests cannot exclude them in these
 degrees. For all `p`, the proof also gives `rank K_p >= a^2 L_(a,p)`, where
 `L_(a,p)` counts wedges using at most `a-1` interpolation blocks. At
-`p=a+1`, this floor dominates the exact `l*b`-leg target rank for four of
-eleven `a=15` survivors and six of twelve `a=16` survivors; it dominates no
-`b*r`-leg target rank. Higher-degree ranks and comparisons remain open. Claim
+`p=a+1`, this floor dominates both long-leg target ranks for four of eleven
+`a=15` survivors and six of twelve `a=16` survivors. It dominates neither
+long-leg rank for the `a=14` survivors or for the other `a=15,16` survivors.
+Higher-degree ranks and comparisons remain open. Claim
 `AI-PAIRED-LONG-KOSZUL-005` is written and unreviewed. Exact interpolation,
 frontier, support-count, and coefficient-matrix controls are recorded in
 `results/paired-long-legs-2026-10-23/verification.json`. No exponent
