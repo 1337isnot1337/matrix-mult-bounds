@@ -22,6 +22,8 @@ class ConicHigherJetTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.rational = json.loads((RESULTS/'rational-ten-jet.json').read_text())
+        cls.fourteen = json.loads((RESULTS/'rational-fourteen-jet.json').read_text())
+        cls.fifteen = json.loads((RESULTS/'rational-fifteen-jet.json').read_text())
         cls.symbolic = json.loads((RESULTS/'mixed-fourth-family.json').read_text())
         cls.r = load('verify')
         cls.s = load('verify_symbolic')
@@ -31,6 +33,48 @@ class ConicHigherJetTests(unittest.TestCase):
         self.assertEqual(report, json.loads((RESULTS/'rational-verification.json').read_text()))
         self.assertEqual(report['jet_order'], 10)
         self.assertEqual(report['first_nonboundary_entries'], 128)
+
+    def test_rational_fourteen_jet_replays_all_coefficients(self):
+        report = self.r.verify(self.fourteen)
+        self.assertEqual(report, json.loads((RESULTS/'rational-fourteen-verification.json').read_text()))
+        self.assertEqual(report['jet_order'], 14)
+        self.assertEqual(report['positive_orders_checked'], 14)
+
+    def test_fourteen_jet_terminal_map_and_kernel_corruptions_are_rejected(self):
+        for key in ('B', 'source_row_corrections'):
+            bad = copy.deepcopy(self.fourteen)
+            entry = bad['witness'][key][-1]['entries'][0]
+            entry[2] = str(Fraction(entry[2])+1)
+            with self.assertRaisesRegex(ValueError, 'order 14'):
+                self.r.verify(bad)
+
+    def test_fourteen_jet_preserves_fixed_prefix(self):
+        bad = copy.deepcopy(self.fourteen)
+        entry = bad['witness']['B'][9]['entries'][0]
+        entry[2] = str(Fraction(entry[2])+1)
+        with self.assertRaisesRegex(ValueError, 'fixed prefix'):
+            self.r.verify(bad)
+
+    def test_rational_fifteen_jet_extends_the_fourteenth_jet(self):
+        report = self.r.verify(self.fifteen, self.fourteen)
+        self.assertEqual(report, json.loads((RESULTS/'rational-fifteen-verification.json').read_text()))
+        self.assertEqual(report['jet_order'], 15)
+        self.assertEqual(report['positive_orders_checked'], 15)
+
+    def test_fifteen_jet_terminal_maps_and_kernel_are_checked(self):
+        for key in ('B', 'source_row_corrections'):
+            bad = copy.deepcopy(self.fifteen)
+            entry = bad['witness'][key][-1]['entries'][0]
+            entry[2] = str(Fraction(entry[2])+1)
+            with self.assertRaisesRegex(ValueError, 'order 15'):
+                self.r.verify(bad, self.fourteen)
+
+    def test_fifteen_jet_must_preserve_the_fourteenth_prefix(self):
+        bad = copy.deepcopy(self.fifteen)
+        entry = bad['witness']['B'][13]['entries'][0]
+        entry[2] = str(Fraction(entry[2])+1)
+        with self.assertRaisesRegex(ValueError, 'previous B prefix'):
+            self.r.verify(bad, self.fourteen)
 
     def test_symbolic_four_jet_replays_every_parameter(self):
         report = self.s.verify(self.symbolic)

@@ -1,4 +1,4 @@
-"""Independent rational replay of an explicit tenth-order incidence witness.
+"""Independent rational replay of explicit finite-order incidence witnesses.
 
 Only the Python standard library is used. No tangent solver, predecessor
 operator, symbolic algebra package, or cohomology certificate is imported.
@@ -89,11 +89,12 @@ def contract(left, right, terms):
     return {index:value for index,value in result.items() if value}
 
 
-def verify(record):
+def verify(record, previous=None):
     if record['parameters'] != {'a':'1','b':'2','d':'1'}:
         raise ValueError('this witness is for the stated rational point only')
     jet = record['witness']
-    if len(jet['B'])!=11 or len(jet['C'])!=11 or len(jet['source_row_corrections'])!=10:
+    order = len(jet['source_row_corrections'])
+    if len(jet['B'])!=order+1 or len(jet['C'])!=order+1:
         raise ValueError('wrong jet order')
     bs,cs = [[decode(matrix,(14,112)) for matrix in jet[key]] for key in ('B','C')]
     ys = [decode(matrix,(100,12)) for matrix in jet['source_row_corrections']]
@@ -125,14 +126,42 @@ def verify(record):
             expected = {index:value for index,value in expected.items() if value}
             if maps[k] != expected:
                 raise ValueError('changed credited coefficient through order two')
+    baseline = json.loads((root/'results/conic-higher-jets-2026-10-23/rational-ten-jet.json').read_text())['witness']
+    baseline_b,baseline_c = [[decode(matrix,(14,112)) for matrix in baseline[key]]
+                             for key in ('B','C')]
+    baseline_y = [decode(matrix,(100,12)) for matrix in baseline['source_row_corrections']]
+    for key,maps,expected in (('B',bs,baseline_b),('C',cs,baseline_c)):
+        for k in range(len(expected)-1):
+            if maps[k] != expected[k]:
+                raise ValueError(f'changed fixed prefix in {key} at order {k}')
+    for k in range(len(baseline_y)-1):
+        if ys[k] != baseline_y[k]:
+            raise ValueError(f'changed fixed prefix in source correction Y{k+1}')
+    if previous is not None:
+        if previous['parameters'] != record['parameters']:
+            raise ValueError('previous witness has a different parameter point')
+        parent = previous['witness']
+        parent_order = len(parent['source_row_corrections'])
+        if order != parent_order+1:
+            raise ValueError('previous witness must have one lower order')
+        for key,maps in (('B',bs),('C',cs)):
+            parent_maps = [decode(matrix,(14,112)) for matrix in parent[key]]
+            for k in range(len(parent_maps)-1):
+                if maps[k] != parent_maps[k]:
+                    raise ValueError(f'changed previous {key} prefix at order {k}')
+        parent_y = [decode(matrix,(100,12)) for matrix in parent['source_row_corrections']]
+        for k in range(len(parent_y)-1):
+            if ys[k] != parent_y[k]:
+                raise ValueError(f'changed previous source correction Y{k+1}')
     terms = source_terms()
     first = [28*i+7*j+z for i,j,z in product((1,2),(1,2),(0,3,6))]
     outside = [i for i in range(112) if i not in first]
-    fs = [add(*(contract(bs[i],cs[k-i],terms) for i in range(k+1))) for k in range(11)]
+    fs = [add(*(contract(bs[i],cs[k-i],terms) for i in range(k+1)))
+          for k in range(order+1)]
     if rows(fs[0],outside): raise ValueError('nonzero constant kernel coefficient')
     ranks = [rank(bs[0]),rank(cs[0]),rank(rows(fs[0],first))]
     if ranks != [14,14,12]: raise ValueError('wrong leading ranks')
-    for k in range(1,11):
+    for k in range(1,order+1):
         residual = add(rows(fs[k],outside),negative(add(*(
             multiply(ys[i-1],rows(fs[k-i],first)) for i in range(1,k+1)))))
         if residual: raise ValueError(f'nonzero order {k} incidence coefficient')
@@ -141,8 +170,8 @@ def verify(record):
     if not nonboundary: raise ValueError('missing first normal motion')
     return {'field':'Q','parameters':record['parameters'],'source_terms':len(terms),
             'leading_map_ranks':ranks[:2],'leading_first_source_rank':ranks[2],
-            'jet_order':10,'kernel_coordinates_per_order':100*196,
-            'positive_orders_checked':10,'first_nonboundary_entries':nonboundary,
+            'jet_order':order,'kernel_coordinates_per_order':100*196,
+            'positive_orders_checked':order,'first_nonboundary_entries':nonboundary,
             'matrix_target_constructed':False,'all_order_lift_established':False,
             'exponent_improvement':False}
 
@@ -150,9 +179,12 @@ def verify(record):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('witness',type=Path)
+    parser.add_argument('--previous',type=Path,
+                        help='optional immediately preceding exact jet to extend')
     parser.add_argument('--output',type=Path)
     args = parser.parse_args()
-    report = verify(json.loads(args.witness.read_text()))
+    previous = json.loads(args.previous.read_text()) if args.previous else None
+    report = verify(json.loads(args.witness.read_text()),previous)
     if args.output:
         args.output.parent.mkdir(parents=True,exist_ok=True)
         args.output.write_text(json.dumps(report,indent=2)+'\n')

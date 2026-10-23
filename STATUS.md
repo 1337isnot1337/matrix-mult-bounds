@@ -64,18 +64,24 @@ settle extension of a prescribed full first or second jet. Claim
 `AI-CONIC-POLYNOMIAL-CURVE-001` is written and unreviewed. The full
 M(10,10,11) target and a smaller exponent remain unconstructed.
 
-## Mixed conic lifts through order four and a rational order-ten witness
+## Mixed conic lifts through order four and rational order-ten, fourteen and fifteen witnesses
 
 The [higher-jet proof](research/ai/2026-10-23-conic-higher-jets/proof.md)
 extends PR107's mixed family through order four for every complex a,b,d
 with d nonzero and c=-d^3. The explicit coefficients lie in
 Q[a,b,d,d^-1], with d-pole order at most three. A separate rational
-witness extends the point a=1,b=2,d=1 through order ten. Both preserve
-PR107's constant, first and second coefficients. The symbolic and
+witness extends the point a=1,b=2,d=1 through order ten. A separate
+fourteenth-order witness at that point preserves its coefficients through
+map order nine and source corrections Y1 through Y9, then varies later
+coefficients. A fifteenth-order continuation preserves that witness through
+map order thirteen and source corrections Y1 through Y13. All rational
+witnesses preserve PR107's constant, first and second coefficients. The symbolic and
 rational acceptance programs contract the literal 4096-term source
 and check every moving-kernel coefficient, with leading ranks14,14,12.
 Claims `AI-CONIC-MIXED-FOURTH-JET-001` and
-`AI-CONIC-RATIONAL-TENTH-JET-002` are written and unreviewed. These are
+`AI-CONIC-RATIONAL-TENTH-JET-002` and
+`AI-CONIC-RATIONAL-FOURTEENTH-JET-003` and
+`AI-CONIC-RATIONAL-FIFTEENTH-JET-004` are written and unreviewed. These are
 rank-twelve incidence jets with specified lower coefficients. The separate
 polynomial curve above gives all-order existence after allowing boundary
 velocity to change; it does not preserve these specified lower jets.
