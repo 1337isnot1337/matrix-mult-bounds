@@ -1933,6 +1933,10 @@ Branch `research/full-filtration-entropy-20261020` studies the whole support
 
 These are unreviewed analytic results and exact finite certificates. The
 optimistic score is not claimed as a proved weighted block-extraction theorem.
+A first-party [Codex audit](research/reviews/full-filtration-entropy-proof-review-2026-10-23.md)
+found no gap in the all-distribution certificate or its balanced all-size
+bound. The claims remain unreviewed pending independent human review; the
+audit does not change their scope or exponent status.
 The all-size unequal-source inequality is now settled by the
 [sharp unequal-source proof](research/ai/2026-10-20-unequal-entropy/research_note.md)
 (AI-UNEQUAL-ENTROPY-001). For every four lengths at least two, the explicit
