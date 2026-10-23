@@ -6,8 +6,11 @@ at least ten rank-four groups. The Q(6,4) evaluation grid supplies only
 nine. Therefore a construction based on this seed
 must change the third-factor direction set; merging first-factor
 directions alone cannot make the termwise assignment work. Shared-first-
-factor flips after a split can change the third factors and remain an
-active construction route.
+factor flips after a split can change some third factors. The later
+[fixed-component certificate](../2026-10-23-fixed-flip-components/README.md)
+closes that continuation for the two explicit split seeds: 50 permanent
+third-factor directions still require ten groups. Other split seeds
+and operations outside those components remain open.
 
 The four simultaneous split replacements found in the companion
 `2026-10-23-flip-escape` investigation leave 72 distinct first-factor

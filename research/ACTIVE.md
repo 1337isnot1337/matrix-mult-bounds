@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+The October 23 external-seed continuation is in
+`ai/2026-10-23-flip-escape/ACTIVE.md`, on PR128's
+`research/flip-escape-20261023` branch. Two exact split border seeds have
+76 terms and 72 or 71 distinct U directions. Their finite standard-flip
+components are now excluded from the specified termwise Q(6,4) grid:
+50 fixed W directions already require ten rank-four groups. The
+five-split component also has a positive trace obstruction to any further
+nonempty-subset stabilizer deletion. Do not repeat standard flip walks
+on these seeds aiming at that grid. The next ansatz allows per-term
+factor gauges in simultaneous deletion tests, or changes the split seed
+or decomposition. No maximum split-batch theorem, general source-map
+exclusion, new rank record, or smaller exponent is established.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

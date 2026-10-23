@@ -17,8 +17,19 @@ The selected questions are precise:
 The first question has a negative answer for this exact seed. The second
 has an explicit positive answer. Neither answer constructs maps from
 Q(6,4), proves a new rank record, or improves the exponent. The third
-question requires a separate simultaneous incidence test; counting
+question has a negative answer for these two witnesses in the specified
+termwise alignment. The later fixed-component proof preserves that
+exclusion under every finite standard flip of either seed. Counting
 distinct directions alone is insufficient.
+
+The next question is whether another simultaneous deletion can use
+separate factor gauges on each discarded term. For a common physical
+one-parameter family, it is sufficient that the sum of the three factor
+valuations in each discarded tensor be positive. Requiring every arrow
+to raise one common flag without term-dependent gauges may be stronger.
+This is an open construction ansatz, not a claim that a larger batch
+exists. Any accepted witness must replay the full surviving Laurent
+tensor, including every error coefficient.
 
 This package separates a finite exact certificate from its written
 mathematical implication. All work is owner-directed AI research, with

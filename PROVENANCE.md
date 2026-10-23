@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-fixed-flip-components` package is owner-directed OpenAI
+Codex continuation of the two split witnesses below. The component span
+certificates, permanent-direction weights and five-split scalar trace
+argument are local work. Numerical optimization only suggested the
+weights; complete finite-field enumeration and integer rank transfer
+provide their acceptance evidence. The original AlphaTensor algorithm
+and Dumitriu et al.'s flip and stabilizer-deletion viewpoint retain their
+existing attribution. Same-session checks do not constitute independent
+mathematical review. No formalization, global lower bound, rank record,
+historical priority, or exponent improvement is claimed.
+
 The `2026-10-23-grid-escape` package is owner-directed OpenAI Codex work.
 It retains the AlphaTensor factorization, conversion and original grid
 argument's credit. Numerical linear programming suggested the W weights;

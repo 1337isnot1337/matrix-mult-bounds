@@ -23,8 +23,13 @@ matrix multiplication tensor at degree zero.
 
 Both changed seeds remain subject to stronger incidence conditions;
 neither fits the proposed termwise Q(6,4) grid. Their new shared-U pairs
-permit further flips that can change W directions. This is the next
-construction question. No rank record or smaller exponent is established.
+permit further flips that can change some W directions. The later
+[fixed-component certificate](../2026-10-23-fixed-flip-components/README.md)
+shows that every such finite continuation still retains 50 W directions
+requiring ten rank-four groups. Its separate trace argument also closes
+further subset deletion in the five-split component. See
+[the continuation checkpoint](ACTIVE.md) for the remaining questions.
+No rank record or smaller exponent is established.
 
 ## Reproduce the component certificate
 

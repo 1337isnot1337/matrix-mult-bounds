@@ -1,5 +1,28 @@
 # Research status
 
+## Fixed post-split components close two further searches
+
+The [post-split component proof](research/ai/2026-10-23-fixed-flip-components/README.md)
+shows that every finite standard-flip continuation of either explicit
+split seed retains 50 fixed W directions. Exact rank certificates keep
+the components isolated on all three legs. Their weighted rank-four
+cover bounds are 148>9*16 and 74>9*8, excluding the specified termwise
+Q(6,4) grid assignment throughout both components, including over
+characteristic-zero Laurent fields. Each bound replays all 230300
+four-subsets. Claim `AI-EXTERNAL-FIXED-FLIP-GRID-004` is written and
+unreviewed; singular limits that change incidences remain outside it.
+
+For the five-split seed, a [scalar trace pairing](research/ai/2026-10-23-fixed-flip-components/TRACE_PROOF.md)
+also excludes further nonempty-subset deletion by the physical stabilizer
+after finite standard flips. Minimum V-flattening ranks force every term
+to retain trace one or two; the original discarded error has trace zero.
+Thus the total error from any additional deletion cannot tend to zero.
+Claim `AI-EXTERNAL-FIVE-SPLIT-TRACE-005` is written and unreviewed. This
+argument does not exclude all border-rank reductions or the four-split
+seed's nonscalar trace blocks. New split batches, separate factor gauges,
+and constructions outside these components are the next questions.
+No smaller exponent is established.
+
 ## Weighted grid covers require changes on both long legs
 
 The [weighted-flat certificate](research/ai/2026-10-23-grid-escape/README.md)
@@ -12,9 +35,9 @@ total 251 and flat cap 24, requiring 3r+e>=35 for a subset replacement; the
 four-split seed still has weight 238>216. Exact replay enumerates all
 1282975 U and 424270 W four-subsets over F101, with integer-minor transfer
 to characteristic zero. Claim `AI-EXTERNAL-WEIGHTED-GRID-003` is written
-and unreviewed. Shared-U flips changing W, new U directions and general
-source maps remain open. The positive border seed and exponent status
-are unchanged.
+and unreviewed. The later fixed-component proof above closes standard
+flips of the two explicit seeds; different seeds and general source maps
+remain open. The positive border seeds and exponent status are unchanged.
 
 ## Exact obstruction for the external seed's standard-flip component
 
@@ -42,9 +65,10 @@ instead splits and deletes five terms. Its seed has 71 distinct U
 directions, an eight-step common image flag,
 and 172 positive remainder coefficients. Seven split tests pass for both
 variants, including schema/scope and coefficient mutations. Both seeds
-still fail the stronger termwise grid incidence test. New shared-U pairs
-permit further flips changing W directions, but no Q(6,4) map, rank record,
-or smaller exponent is supplied.
+still fail the stronger termwise grid incidence test. Their new shared-U
+pairs permit changes to some W directions, but the fixed-component proof
+above shows those changes cannot repair the specified termwise grid.
+No Q(6,4) map, rank record, or smaller exponent is supplied.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 
