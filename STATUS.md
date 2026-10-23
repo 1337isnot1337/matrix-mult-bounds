@@ -5124,8 +5124,8 @@ has not been established. The new claims remain written and unreviewed.
 The [integer Laurent construction](research/ai/2026-10-21-singular-pilots/README.md)
 proves C(4,5) degenerates to 2-by-2 matrix multiplication over every field.
 All 64 coefficient positions are checked exactly: eight target coefficients
-remain at degree zero, every negative coefficient vanishes, and twenty-two
-positive remainder terms have degrees one through seven. Two further
+remain at degree zero, every negative-degree coefficient vanishes, and twenty-two
+positive-degree remainder terms have degrees one through seven. Two further
 same-session source-coefficient replays agree with the displayed witness.
 This is a finite constructive result and a pilot for the larger fat-point
 search. It does not establish a smaller exponent or an unbounded family.
