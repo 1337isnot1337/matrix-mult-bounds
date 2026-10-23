@@ -21,4 +21,4 @@ improvement.
 
 The equality intersection argument yields one leading source direction.
 Successive negative-coefficient kernels then exclude balanced first-map
-pole orders1 through8 at d=16. Pole orders at least9 remain open.
+pole orders1 through9 at d=16. Pole orders at least10 remain open.

@@ -5,7 +5,7 @@
 The [leading-defect proof](research/ai/2026-10-23-leading-defect/proof.md)
 requires r_B+r_C<=208 for the two scalar-balanced A4 long-map leading
 ranks. With total source defect16, the leading first map has a single
-minimum-rank source direction and pole order at least9. Orders1 through8
+minimum-rank source direction and pole order at least10. Orders1 through9
 are excluded with arbitrary higher regular long-map coefficients. For
 defects below32, the leading first-map image has dimension at most16
 with one coherent middle factor. Eleven exact leading controls do not

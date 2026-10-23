@@ -170,12 +170,47 @@
       ],
       "minimum_shared_fiber_dimension": 0,
       "pairwise_intersection_argument_suffices": false
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 9,
+      "direct_sum_rankone_span_dimension": 10,
+      "individual_fiber_dimensions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "minimum_shared_fiber_dimension": 0,
+      "pairwise_intersection_argument_suffices": false
     }
   ],
   "coherent_defect_upper_exclusive": 32,
   "coherent_leading_rank_bound": 16,
+  "coordinate_span_controls": [
+    {
+      "b_coordinate_degree": 1,
+      "coordinate_sections": 20,
+      "section_span_dimension": 19
+    },
+    {
+      "b_coordinate_degree": 2,
+      "coordinate_sections": 20,
+      "section_span_dimension": 20
+    },
+    {
+      "span_dimension": 19,
+      "two_constant_opposite_fibers": true
+    }
+  ],
   "equality_leading_first_map_rank": 1,
-  "equality_minimum_balanced_first_map_pole_order": 9,
+  "equality_minimum_balanced_first_map_pole_order": 10,
   "improves_omega": false,
   "independent_review": false,
   "leading_equation_controls": [

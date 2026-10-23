@@ -20,7 +20,7 @@ class LeadingDefectTests(unittest.TestCase):
     def test_literal_source_and_exact_leading_replay(self):
         self.assertEqual(v.verify(self.record), {
             "leading_equation_controls": 11, "pencil_controls": 2,
-            "bilinear_kernel_controls": 9,
+            "bilinear_kernel_controls": 10, "coordinate_span_controls": 3,
             "literal_source_coefficients_checked": 125440,
             "complete_target_constructed": False, "improves_omega": False})
 
@@ -28,7 +28,7 @@ class LeadingDefectTests(unittest.TestCase):
         for mutate in (
             lambda x: x.update(improves_omega=True),
             lambda x: x.update(equality_leading_first_map_rank=4),
-            lambda x: x.update(equality_minimum_balanced_first_map_pole_order=10),
+            lambda x: x.update(equality_minimum_balanced_first_map_pole_order=11),
             lambda x: x["leading_equation_controls"][0].update(complete_target_identity=True),
             lambda x: x["leading_equation_controls"][0].update(constant_output_rank=110),
             lambda x: x["minimum_slice_pencils"][0].update(polynomial_intersection_dimension=1),
@@ -45,6 +45,10 @@ class LeadingDefectTests(unittest.TestCase):
             bad["local_dependencies"][i]["sha256"] = "0"*64
             with self.assertRaises(ValueError):
                 v.check_sources(bad)
+        bad = copy.deepcopy(original)
+        bad["external_dependencies"].pop()
+        with self.assertRaises(ValueError):
+            v.check_sources(bad)
 
 
 if __name__ == "__main__":

@@ -143,7 +143,7 @@ def pencil_controls(source):
 
 def bilinear_kernel_controls():
     records = []
-    for p in range(9):
+    for p in range(10):
         # Independent cyclic bilinear forms, evaluated on ten separate a-fibers.
         constraints = [s.Matrix(p, 10, lambda j, b: int(b == (a+j) % 10))
                        for a in range(10)]
@@ -152,7 +152,7 @@ def bilinear_kernel_controls():
                              for a in range(10) for b in range(a+1, 10)]
         require(dimensions == [10-p]*10 and min(shared_dimensions) >= 10-2*p,
                 "Bilinear common-kernel dimensions failed")
-        require(sum(dimensions) > 16 and min(dimensions) >= 2,
+        require(min(dimensions) >= 1 and (p == 9 or sum(dimensions) > 16),
                 "The small-codimension ruling argument lost a strict margin")
         records.append({"constraint_count": p, "individual_fiber_dimensions": dimensions,
                         "basis_pairs_checked": len(shared_dimensions),
@@ -162,17 +162,38 @@ def bilinear_kernel_controls():
     return records
 
 
+def coordinate_span_controls():
+    # Products of ten a-coordinates with two independent b-coordinates.
+    counts = []
+    for degree, expected in ((1, 19), (2, 20)):
+        monomials = []
+        for b in (0, 1):
+            for a in range(10):
+                powers = [0]*10
+                powers[b] += degree
+                powers[a] += 1
+                monomials.append(tuple(powers))
+        require(len(set(monomials)) == expected, "Two-coordinate section rank failed")
+        counts.append({"b_coordinate_degree": degree, "coordinate_sections": 20,
+                       "section_span_dimension": expected})
+    cross = {(a, 0) for a in range(10)} | {(0, b) for b in range(10)}
+    require(len(cross) == 19, "Cross-fiber span is not nineteen-dimensional")
+    counts.append({"two_constant_opposite_fibers": True, "span_dimension": len(cross)})
+    return counts
+
+
 def report():
     source = source_module()
     return {"scope": "Necessary leading flags only; no complete target or exponent gain.",
             "proof_status": "proof-written-unreviewed", "independent_review": False,
             "improves_omega": False, "source_pin_count": check_sources(),
             "necessary_total_defect": 16, "equality_leading_first_map_rank": 1,
-            "equality_minimum_balanced_first_map_pole_order": 9,
+            "equality_minimum_balanced_first_map_pole_order": 10,
             "coherent_leading_rank_bound": 16, "coherent_defect_upper_exclusive": 32,
             "leading_equation_controls": endpoint_controls(source),
             "minimum_slice_pencils": pencil_controls(source),
-            "bilinear_kernel_controls": bilinear_kernel_controls()}
+            "bilinear_kernel_controls": bilinear_kernel_controls(),
+            "coordinate_span_controls": coordinate_span_controls()}
 
 
 def verify(record):
@@ -180,6 +201,7 @@ def verify(record):
     return {"leading_equation_controls": len(record["leading_equation_controls"]),
             "pencil_controls": len(record["minimum_slice_pencils"]),
             "bilinear_kernel_controls": len(record["bilinear_kernel_controls"]),
+            "coordinate_span_controls": len(record["coordinate_span_controls"]),
             "literal_source_coefficients_checked": sum(
                 row["literal_source_coefficients_checked"] for row in record["minimum_slice_pencils"]),
             "complete_target_constructed": False, "improves_omega": False}

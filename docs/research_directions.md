@@ -296,8 +296,8 @@ The remaining singular-long-leg case is open; no target is constructed.
 The [leading-defect continuation](../research/ai/2026-10-23-leading-defect/proof.md)
 requires r_B+r_C<=208 after scalar balancing of both long maps. At
 equality, the first-map leading coefficient is one minimum-rank source
-direction and its pole order is at least9. Increasing only higher regular
-coefficients cannot rescue pole orders1 through8 at this boundary. The
+direction and its pole order is at least10. Increasing only higher regular
+coefficients cannot rescue pole orders1 through9 at this boundary. The
 leading first-map image has one fixed coherent factor and dimension at
 most16 whenever total defect is below32. Larger defects and higher
 pole orders remain construction questions; leading controls alone are

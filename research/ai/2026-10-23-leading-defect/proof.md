@@ -120,7 +120,7 @@ The sole source direction is a minimum-rank slice u tensor h tensor v.
 The scalar functional X -> L(X)/f remains unrestricted by this argument.
 It is not assumed to be injective or supported at a matrix unit.
 
-## 4. Equality requires a first-map pole of order at least nine
+## 4. Equality requires a first-map pole of order at least ten
 
 Still assume d=16. Apply the preceding rank-one kernel-space result
 successively to the negative coefficients of F_hat. Initially L has
@@ -135,7 +135,7 @@ On E_0 the map F_hat is regular, so the constant equation is ordinary:
 
     B_hat(0) M(F_hat_0(X)) C_hat(0)=X tensor I_11, X in E_0. (8)
 
-Thus F_hat_0 is injective on E_0. Suppose h<=8, so p<=8. Describe E_0
+Thus F_hat_0 is injective on E_0. Suppose h<=9, so p<=9. Describe E_0
 as the common kernel of p bilinear forms ell_j(a,b) on rank-one matrix
 parameters X=a b^T. Let Z be the reduced projective incidence
 
@@ -149,7 +149,7 @@ P^15 times the degree-six rational normal curve, which is an isomorphism
 onto its image. No source lift vanishes on Z, by injectivity.
 
 For each nonzero a, put V_a={b:ell_j(a,b)=0 for all j}. Its dimension
-is at least10-p>=2. The entire fiber P(V_a) of Z -> P^9 maps to a
+is at least10-p>=1. The entire fiber P(V_a) of Z -> P^9 maps to a
 linear space of source slices below32, so eta is constant on that
 fiber. These fibers are nonempty projective linear spaces at every a,
 including rank-drop points of the bilinear constraints.
@@ -178,15 +178,42 @@ the polynomial ring is factorial, so their classes are their degrees.
 This also explains why the argument needs the entire normal base,
 not merely a rational map defined away from a rank-drop locus.
 
-It follows that all rank-one images in E_0 share one fixed h. For ten
-independent a_i, the spaces a_i tensor V_(a_i) form a direct sum of
-dimension at least10(10-p)>=20. Their injective image in (8) would lie
-in a16-dimensional fixed-h source space, a contradiction. Therefore
+It follows that all rank-one images in E_0 share one fixed h. Let T be
+the span of the rank-one matrices in E_0. Injectivity in (8) gives
 
-    d=16 implies h>=9.                                     (9)
+    dim T<=16.                                              (9)
 
-This excludes pole orders1 through8 in the balanced first map, allowing
-arbitrary higher regular coefficients in both long maps. Pole order9
+We now show dim T>=19 for p<=9. Both projections of Z onto P^9 are
+surjective, since each system of at most9 linear equations in ten
+variables has a nonzero solution. There is an irreducible component Y
+of Z dominating the a-projective space: the finitely many component
+images are closed and cover the irreducible base.
+
+If b is nonconstant on Y, choose two nonproportional coordinate functions
+b_s,b_t. The20 coordinate sections a_i b_s,a_i b_t have at most one
+linear relation. Indeed, any relation is L(a)b_s+M(a)b_t=0 with linear
+forms L,M. In a nonzero relation they are nonzero and nonproportional,
+since Y dominates the a-space and b_s/b_t is nonconstant. A second
+relation gives LM'-L'M=0 as a polynomial in a. The independent linear
+forms L,M are coprime, so L'=cL,M'=cM with c constant. Thus the space
+of relations has dimension at most one. The linear span of Y, and hence
+T, has dimension at least19, contradicting (9).
+
+Otherwise b is constant on Y, so Y=P^9 times one point [b_0]. By the
+same argument applied to a component dominating the b-space, either
+its span already has dimension at least19, or it is one point [a_0]
+times P^9. In the latter case T contains
+
+    (C^10 tensor b_0)+(a_0 tensor C^10),
+
+of dimension19 as well. This proves the contradiction in every case,
+including p=9, where the simpler basis-fiber dimension bound is only10.
+Therefore
+
+    d=16 implies h>=10.                                    (10)
+
+This excludes pole orders1 through9 in the balanced first map, allowing
+arbitrary higher regular coefficients in both long maps. Pole order10
 is not excluded or constructed. The external inputs above are standard
 algebraic geometry, not results of this repository; their exact tags,
 hypotheses and access date are recorded in sources.json.
@@ -219,6 +246,6 @@ owner-directed OpenAI Codex work, with written-unreviewed status.
 
 Remaining candidates with d>=32 are unrestricted by the coherent-factor
 bound here. For16<d<32, rank L<=16 is only necessary. At d=16, pole
-orders at least9 with a single minimum-rank leading direction remain open.
+orders at least10 with a single minimum-rank leading direction remain open.
 Neither this flag reduction nor its exact finite controls construct or
 exclude the general A4 target or improve the matrix exponent below9/4.

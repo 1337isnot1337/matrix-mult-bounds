@@ -6,9 +6,9 @@
 The registered question is `research/ai/2026-10-23-leading-defect/QUESTION.md`.
 Total leading long-map defect is at least16; at equality the leading
 first-map image is one minimum-rank source direction and its pole order
-must be at least9. For defects below32 its image is contained in one
+must be at least10. For defects below32 its image is contained in one
 16-dimensional coherent-factor space. Next: equality pole orders at
-least9 or larger-defect flags. This does not complete a formal target.
+least10 or larger-defect flags. This does not complete a formal target.
 PR108's partial frames, PR110/112's unit-image extensions and PR107's
 conic lifting retain their separate scope and credit. Written/unreviewed.
 
