@@ -1,5 +1,24 @@
 # Research directions
 
+The [quadratic determinant package](../research/ai/2026-10-23-quadratic-determinant/README.md)
+now proves the sharp geometric rank14 linear-family dimension bound of
+six over every field. The cubic coefficient-singular
+branch has cap six, and the degree-twelve factor has a nondegenerate
+ternary second variation at each invertible zero, excluding a seven-space.
+A separate integral-factor and singular-space argument handles
+characteristic two. The rational arithmetic certificate gives an
+independent proof over Q.
+These results are written and unreviewed; the rational full-rank witness
+itself need not stay full rank after scalar extension.
+
+Continue by classifying geometric six-dimensional equality families or
+constructing compatible three-leg maps. The characteristic-two proof uses
+an integer-normalized factor before reduction; neither division by 2048
+after reduction nor the odd-characteristic second variation applies there.
+Finite binary point checks are not a replacement for geometric vanishing.
+A later application also needs
+compatible three-leg maps; the present block cap constructs no target.
+
 The [explicit split/double family](../research/ai/2026-10-23-quadratic-split-attainment/proof.md)
 settles balanced four-rank attainment over every algebraically closed
 field and computes the corresponding rectangular ranks. The remaining
@@ -15,8 +34,8 @@ now make the individual R_(3,3) spectrum constrain a source subspace:
 a binary family avoiding rank15 has dimension at most six, and a
 geometrically rank12 family over any field has the same sharp bound.
 The binary extremal-space census and F4 escape distinguish finite-point
-constraints from minor identities. Continue with geometric rank14 bounds
-outside F2, geometric equality cases, or applications imposing compatible
+constraints from minor identities. Continue with geometric equality
+cases or applications imposing compatible
 three-leg maps. Preserve the distinction between this nine-coefficient
 block and the full cyclic source. All proofs remain unreviewed.
 
