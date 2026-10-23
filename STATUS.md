@@ -48,7 +48,25 @@ five exact archive replays. One incomplete test-process attempt was
 excluded from coverage and replaced by a complete successful rerun.
 Both research archives remain unchanged. Current-head hosted checks are
 still required before merging PR130; these checks do not change the
-mathematical review status.
+mathematical review status. Main `3008d70` is integrated with the prior
+Python implementation unchanged. Its five new tests and eighteen metadata,
+profile and support checks pass; the integration receipt preserves the
+distinction between this check and the earlier full regression.
+
+## Sharp rank six in the fixed-resolvent matrix space
+
+The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
+proves that its 112-dimensional limiting matrix space has minimum nonzero
+ordinary matrix rank exactly six over every field. Thirty-one triangular
+six-by-six minor identities eliminate every parameter of the difficult
+outer block, and an explicit rank-six witness proves sharpness. Thus every
+two-sided compression with total rank loss at most five is injective.
+At rank109 on both long maps, a lost direction must have rank six and obey
+the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
+is written and unreviewed. This refines the fixed-resolvent space from
+PR103; its narrow target application is superseded by the regular-long-map
+argument. General singular trajectories, all rank-six matrices and an
+improved exponent are not settled.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 

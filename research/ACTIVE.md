@@ -13,13 +13,29 @@ The coordinated agents in this session are not independent reviewers.
 
 All 875 local tests and all five archive replays passed at `121be1c`, with
 no optional skips. See `../results/paired-repair-2026-10-23/validation.json`.
-Current-head hosted checks are pending. The separate
+Main commit `3008d70` is integrated with all earlier Python files unchanged;
+its five new tests and eighteen repository/profile/support checks pass. See
+`../results/paired-repair-2026-10-23/main-integration.json`. Current-head
+hosted checks are pending. The separate
 [PR147](https://github.com/1337isnot1337/matrix-mult-bounds/pull/147)
-records the fixed-product-map residual minimum and is adding a changed
-decoder with an exact nineteen-scalar repair of Q(6,4) to M(5,4,5).
+records the fixed-product-map residual minimum and an exact changed
+decoder with a nineteen-scalar ordinary repair and an eighteen-scalar
+formal degeneration from Q(6,4) to M(5,4,5). Its small correction core has
+ordinary rank seven and border rank six; full-residual optimality is open.
 That small construction does not pass the finite exponent gate. Continue
 with new long-map geometry or certified residual structure; do not repeat
 the unchanged formal-parameter optimization or fixed-map rank census.
+
+The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
+is on `research/resolvent-minrank-six-20261023`. Its exact certificate
+settles the minimum matrix rank of the 112-dimensional limiting space
+from PR103 and removes its generic-compression qualification whenever
+the total rank-loss budget is at most five. Five focused tests pass,
+including literal-source reconstruction and certificate tampering.
+The next local question is whether a rank-six direction can satisfy the
+required double-corank-one alignment and the higher Laurent equations.
+Broader long-map results should be checked before using that question
+as a target-construction route. The written proof remains unreviewed.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

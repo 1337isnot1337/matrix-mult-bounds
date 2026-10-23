@@ -2,6 +2,12 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
+now proves rank six sharply over every field. Its open structural question
+is the rank-six locus and the required kernel/image alignment under two
+rank109 compressions. Check the broader long-map exclusions before
+treating such an aligned compression as a possible matrix target.
+
 ## The existing polynomial operations have an external barrier
 
 Amanov, van den Berg and Zuiddam, [arXiv:2610.30054v1](https://arxiv.org/html/2610.30054v1),
