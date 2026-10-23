@@ -98,6 +98,8 @@ cost exclusion to every fixed ordered part shape on at most 32
 coordinates, including coordinate-dependent and product-dependent
 dimensions. A separate fixed-form independence proof explains why a
 full retained target prevents simple pruning of the leading grid.
-Smaller targets with product-dependent supports remove that hypothesis
-and are the next constructive question. Neither result bounds actual
-tensor rank.
+The [smaller-support continuation](pruned/README.md) removes that
+hypothesis and counts genuinely pruned leading and correction grids.
+It gives an explicit 22-product rectangular border-rank budget and a
+broader common-support cost limitation, including mixed graded shapes.
+None of these results bounds actual tensor rank or improves omega.

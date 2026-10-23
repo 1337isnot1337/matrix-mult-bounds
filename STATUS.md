@@ -2379,3 +2379,28 @@ graded shapes, smaller targets with a pruned grid, and new linear forms
 remain separate possibilities. Claims AI-AGGREGATION-RECTANGULAR-GATE-004
 and AI-AGGREGATION-FIXED-GRID-005 are written and unreviewed; no exponent
 improvement is established.
+
+## October 23: genuinely pruned grids and their common-support limit
+
+The [smaller-support continuation](research/ai/2026-10-23-aggregation-families/pruned/proof.md)
+permits mixed graded shapes and deletes zero aggregate forms. If a target
+coordinate of dimension m has at least m+1 common nonzero rows in its
+active pair, the largest-volume diagonal block alone forces a budget
+of at least (4/3^(3/4))^d times its volume to the power 3/4. The exact
+product-count gate excludes every such pruned budget for the external
+10/13/22 families and local 29/106 families, for arbitrary product-dependent
+dimensions and supports. It concerns counting the surviving positions;
+reweighting and new decompositions remain outside it.
+
+One explicit restricted profile gives 22 independent unequal matrix
+products of volume n^5 with border-rank upper bound
+4n^5+32n^4+102n^3+158n^2+118n+34 for every integer n>=2. Every leading
+and correction position is counted. The displayed border-rank budget
+is below the classical upper bound 22n^5 for n>=4, but cannot reach its
+9/4 critical mass 22n^(15/4). All 13,845 external mixed triples, signed
+grades and corrections are checked exactly. A separate centering-row
+embedding escapes the common-support premise; six bounded modular
+experiments in that class gave no competitive candidate and are not
+characteristic-zero exclusion proofs. Claims AI-AGGREGATION-PRUNED-SUPPORT-006
+and AI-AGGREGATION-PRUNED-RECTANGLES-007 are written and unreviewed.
+No actual tensor-rank lower bound or exponent improvement is claimed.

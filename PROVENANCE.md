@@ -1047,3 +1047,19 @@ unequal-shape framework remains attributed to Solomonik and Blaeser,
 arXiv:2610.26563v2, Sections 5-6 and Appendix D. The finite rational
 checks are implementation and hypothesis controls. No historical
 priority, independent mathematical review or formalization is claimed.
+
+## Smaller-support aggregation and exact position budgets
+
+The files under `research/ai/2026-10-23-aggregation-families/pruned/`
+extend the local cost analysis to smaller targets and mixed graded
+shapes. The common-support proof, finite dimension profiles and exact
+position counter are owner-directed Codex deductions. The general10,
+general13 and general22 families, their scalar gradings and the
+aggregation mechanism remain external work of Solomonik and Blaeser,
+arXiv:2610.26563v2. Public raw ancillary bytes are retained with versioned
+URLs and SHA256 checks. The explicit 22-product bound is a restriction
+and recounting of that credited mechanism, not a new family of
+tripartitions. The separate centering-row searches are finite modular
+experiments; they do not supply characteristic-zero impossibility
+certificates. No historical priority, independent review or formalization
+is claimed for this continuation.
