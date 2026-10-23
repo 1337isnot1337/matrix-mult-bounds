@@ -1,0 +1,394 @@
+{
+  "verified": true,
+  "claim_id": "AI-CONIC-PROJECTIVE-CRITERION-001",
+  "criterion": "(a1*r-a0*s)*(b1*r+b0*s)*(s*lambda**3+r*mu**3)=0",
+  "source_byte_pins": 11,
+  "source_terms": 4096,
+  "missing_strata": [
+    {
+      "stratum": "a_infinity",
+      "tangent_dimensions": [
+        64,
+        3,
+        3
+      ],
+      "tangent_basis_determinants": [
+        "-4",
+        "1",
+        "1"
+      ],
+      "mixed_unit_pivots": 49,
+      "mixed_residual_generator": "b*c + b*d**3 + c**2 + c*d**3"
+    },
+    {
+      "stratum": "b_infinity",
+      "tangent_dimensions": [
+        64,
+        3,
+        3
+      ],
+      "tangent_basis_determinants": [
+        "-4",
+        "1",
+        "1"
+      ],
+      "mixed_unit_pivots": 49,
+      "mixed_residual_generator": "a*c + a*d**3 - c**2 - c*d**3"
+    },
+    {
+      "stratum": "both_infinity",
+      "tangent_dimensions": [
+        64,
+        3,
+        3
+      ],
+      "tangent_basis_determinants": [
+        "-4",
+        "-1",
+        "-1"
+      ],
+      "mixed_unit_pivots": 49,
+      "mixed_residual_generator": "c + d**3"
+    }
+  ],
+  "affine_transition": {
+    "row_change_determinants": [
+      "1",
+      "1"
+    ],
+    "normal_classes_identical": true
+  },
+  "reversal": {
+    "source_terms_permuted": 4096,
+    "projective_normal_transition": "[lambda:mu] -> [mu:lambda]",
+    "strata": [
+      {
+        "stratum": "finite",
+        "row_change_determinants": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "stratum": "a_infinity",
+        "row_change_determinants": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "stratum": "b_infinity",
+        "row_change_determinants": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "stratum": "both_infinity",
+        "row_change_determinants": [
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  "curves": [
+    {
+      "kind": "finite_mixed",
+      "stratum": "finite",
+      "degrees": [
+        1,
+        2
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_output_entry_counts": [
+        160,
+        288,
+        288,
+        288
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "1",
+        "d"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "finite_mixed",
+      "stratum": "a_infinity",
+      "degrees": [
+        1,
+        2
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_output_entry_counts": [
+        140,
+        144,
+        144,
+        144
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "1",
+        "d"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "finite_mixed",
+      "stratum": "b_infinity",
+      "degrees": [
+        1,
+        2
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_output_entry_counts": [
+        140,
+        144,
+        144,
+        144
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "1",
+        "d"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "finite_mixed",
+      "stratum": "both_infinity",
+      "degrees": [
+        1,
+        2
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_output_entry_counts": [
+        124,
+        72,
+        72,
+        72
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "1",
+        "d"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "conic_infinity",
+      "stratum": "finite",
+      "degrees": [
+        1,
+        2
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_output_entry_counts": [
+        100,
+        0,
+        0,
+        16
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "0",
+        "1"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "conic_infinity",
+      "stratum": "a_infinity",
+      "degrees": [
+        1,
+        1
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2
+      ],
+      "allowed_output_entry_counts": [
+        88,
+        0,
+        0
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "0",
+        "1"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "conic_infinity",
+      "stratum": "b_infinity",
+      "degrees": [
+        1,
+        1
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2
+      ],
+      "allowed_output_entry_counts": [
+        88,
+        0,
+        0
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "0",
+        "1"
+      ],
+      "fixed_kernel": true
+    },
+    {
+      "kind": "conic_infinity",
+      "stratum": "both_infinity",
+      "degrees": [
+        1,
+        1
+      ],
+      "checked_product_orders": [
+        0,
+        1,
+        2
+      ],
+      "allowed_output_entry_counts": [
+        76,
+        0,
+        0
+      ],
+      "leading_minor_determinants": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "normal_class": [
+        "0",
+        "1"
+      ],
+      "fixed_kernel": true
+    }
+  ],
+  "exact_linear_components": [
+    {
+      "conic_chart": "finite",
+      "stratum": "finite",
+      "substitution": {
+        "a": "c"
+      },
+      "all_normal_classes": true,
+      "full_product_constant": true
+    },
+    {
+      "conic_chart": "finite",
+      "stratum": "finite",
+      "substitution": {
+        "b": "-c"
+      },
+      "all_normal_classes": true,
+      "full_product_constant": true
+    },
+    {
+      "conic_chart": "finite",
+      "stratum": "a_infinity",
+      "substitution": {
+        "b": "-c"
+      },
+      "all_normal_classes": true,
+      "full_product_constant": true
+    },
+    {
+      "conic_chart": "finite",
+      "stratum": "b_infinity",
+      "substitution": {
+        "a": "c"
+      },
+      "all_normal_classes": true,
+      "full_product_constant": true
+    },
+    {
+      "conic_chart": "infinity",
+      "stratum": "a_infinity",
+      "substitution": {},
+      "all_normal_classes": true,
+      "full_product_constant": true
+    },
+    {
+      "conic_chart": "infinity",
+      "stratum": "b_infinity",
+      "substitution": {},
+      "all_normal_classes": true,
+      "full_product_constant": true
+    },
+    {
+      "conic_chart": "infinity",
+      "stratum": "both_infinity",
+      "substitution": {},
+      "all_normal_classes": true,
+      "full_product_constant": true
+    }
+  ],
+  "all_projective_base_points": true,
+  "boundary_velocity_free": true,
+  "prescribed_full_first_jet_claimed": false,
+  "target_tensor_constructed": false
+}
