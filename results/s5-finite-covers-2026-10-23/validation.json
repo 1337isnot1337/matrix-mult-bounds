@@ -1,0 +1,96 @@
+{
+  "source_commit": "9c2b6d3d8cbb95fab09259dbe9a0a53362bb2ab2",
+  "hosted_verified_head": "e16c7e3a4094d78b247877a012497cc16787dc91",
+  "hosted_run_url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39972511019",
+  "hosted_jobs": [
+    {
+      "id": 120484146830,
+      "name": "Archive replay (Python 3.13)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484146981,
+      "name": "Tests (Python 3.10, group 1)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147007,
+      "name": "Tests (Python 3.14, group 0)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147018,
+      "name": "Tests (Python 3.10, group 2)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147022,
+      "name": "Tests (Python 3.14, group 1)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147057,
+      "name": "Tests (Python 3.14, group 2)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147111,
+      "name": "Tests (Python 3.14, group 3)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147142,
+      "name": "Tests (Python 3.10, group 3)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120484147216,
+      "name": "Tests (Python 3.10, group 0)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120498189055,
+      "name": "CI",
+      "status": "queued",
+      "conclusion": null
+    }
+  ],
+  "hosted_regression_groups_passed": 8,
+  "hosted_archive_replay_passed": true,
+  "hosted_tests_per_python_version": 863,
+  "local_focused_tests": {
+    "passed": 5,
+    "seconds": 32.802
+  },
+  "local_archive_programs_passed": 5,
+  "local_full_suite": {
+    "status": "interrupted; no completion receipt",
+    "discovered_tests": 855,
+    "accepted_as_passed": false
+  },
+  "integrated_main": "3008d70",
+  "integrated_resolvent_tests": {
+    "passed": 5,
+    "seconds": 0.575
+  },
+  "integrated_metadata_and_archive_integrity_tests": {
+    "passed": 9,
+    "seconds": 0.599
+  },
+  "integrated_discovery": {
+    "tests": 868,
+    "modules": 204
+  },
+  "final_head_hosted_ci": "required before merge",
+  "independent_mathematical_review": false,
+  "improves_omega": false
+}

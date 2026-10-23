@@ -1,13 +1,16 @@
 # Attribution and provenance
 
-The `2026-10-23-s5-finite-covers` package is owner-directed Codex work.
-It adopts the byte-pinned S5 radical/block certificates and finite frontier
-with their existing attribution. Separate integer weights, cube slice
-covers, grouped-coordinate replay and the new finite exclusions are local
-continuations. The matrix target argument retains its external
-Flanders/Meshulam/de Seguins Pazzis credit through the preceding split-cover
-proof. No independent review, optimality, general complex exclusion,
-historical priority or exponent improvement is claimed.
+The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
+work. PR103 supplies the fixed square-zero resolvent and high/low limiting
+space, with its exact inspected commit and file hash recorded. Earlier
+cyclic-source work supplies the literal source and unimodular unit. The
+31 successive integer minor identities, sharp minimum-rank-six result and
+compression alignment are local continuations. The acceptance program
+reconstructs all 112 source slices and verifies the literal certificate;
+it does not import the discovery process. Elementary finite matrix
+arguments apply over every field; the scoped Laurent application is over
+C. No historical priority, independent mathematical review, formalization
+or exponent improvement is claimed.
 
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
@@ -65,6 +68,15 @@ the canonical source and previous conic classification retain their
 credits. The registered binary pilot is finite discovery evidence and
 does not prove the arbitrary-complex-subspace theorem. No independent
 review, formalization, historical priority or exponent gain is claimed.
+
+The `2026-10-23-s5-finite-covers` package is owner-directed Codex work.
+It adopts the byte-pinned S5 radical/block certificates and finite frontier
+with their existing attribution. Separate integer weights, cube slice
+covers, grouped-coordinate replay and the new finite exclusions are local
+continuations. The matrix target argument retains its external
+Flanders/Meshulam/de Seguins Pazzis credit through the preceding split-cover
+proof. No independent review, optimality, general complex exclusion,
+historical priority or exponent improvement is claimed.
 
 The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
 It adopts the prior exact S5 modules, radical certificate and its independent

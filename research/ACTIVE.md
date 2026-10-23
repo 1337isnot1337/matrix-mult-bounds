@@ -1,13 +1,15 @@
 # Integrated research coordination
 
-The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
-(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
-Separate weights give actual-source cube bounds 6867542 and 42493572 for
-S5 x C2 and S5 x C2^2, closing the selected one-copy M19 coordinate target
-and 38 additional frontier shapes. M(13,14,14) remains open. Five focused
-tests and all five archive replays pass; full regression and current-head
-hosted CI are the remaining integration checks. All claims are written and unreviewed,
-with no arbitrary-complex or higher-source-power exclusion or exponent gain.
+The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
+is on `research/resolvent-minrank-six-20261023`. Its exact certificate
+settles the minimum matrix rank of the 112-dimensional limiting space
+from PR103 and removes its generic-compression qualification whenever
+the total rank-loss budget is at most five. Five focused tests pass,
+including literal-source reconstruction and certificate tampering.
+The next local question is whether a rank-six direction can satisfy the
+required double-corank-one alignment and the higher Laurent equations.
+Broader long-map results should be checked before using that question
+as a target-construction route. The written proof remains unreviewed.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
@@ -648,3 +650,15 @@ Concurrent overlaps are credited in package notes and sources.json. In
 particular, canonical exact-restriction and equivariant-flattening arguments
 independently overlapped d2d505c and 6bdab15. The quantitative capacity bound
 is complementary to 8e0a766, retaining distinct hypotheses.
+
+## S5 finite-cover continuation
+
+The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
+(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
+Separate weights give actual-source cube bounds 6867542 and 42493572 for
+S5 x C2 and S5 x C2^2, closing the selected one-copy M19 coordinate target
+and 38 additional frontier shapes. M(13,14,14) remains open. Five focused
+tests, all five archive replays and every hosted regression group at e16c7e3
+pass. The local full-suite run was interrupted without a completion receipt;
+final integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,
+with no arbitrary-complex or higher-source-power exclusion or exponent gain.

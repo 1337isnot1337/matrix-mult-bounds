@@ -1,17 +1,19 @@
 # Research status
 
-## Finite weighted S5 cubes close the selected M19 coordinate target
+## Sharp rank six in the fixed-resolvent matrix space
 
-The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)
-gives characteristic-two slice covers of 6867542 and 42493572 for the cubes
-of S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then
-has abc<=2620 or abc<=6518 respectively. This excludes M19 in the second
-source and 38 additional shapes from the maintained coordinate/potential
-frontier, leaving two and nine general-test survivors. M(13,14,14) in the
-first source remains open. The exact verifier replays the prior radical
-and block certificates and all 227713 allowed bidegree triples. Claim
-`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,
-arbitrary higher-source constructions, and the exponent question remain open.
+The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)
+proves that its 112-dimensional limiting matrix space has minimum nonzero
+ordinary matrix rank exactly six over every field. Thirty-one triangular
+six-by-six minor identities eliminate every parameter of the difficult
+outer block, and an explicit rank-six witness proves sharpness. Thus every
+two-sided compression with total rank loss at most five is injective.
+At rank109 on both long maps, a lost direction must have rank six and obey
+the stated kernel/image alignment. Claim `AI-RESOLVENT-SHARP-MINRANK-001`
+is written and unreviewed. This refines the fixed-resolvent space from
+PR103; its narrow target application is superseded by the regular-long-map
+argument. General singular trajectories, all rank-six matrices and an
+improved exponent are not settled.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 
@@ -188,6 +190,19 @@ survivors were already classified. The coupled cubic proof now supplies
 entry into that family from the two rank bounds. Six focused tests and
 the registered 423801-pair finite pilot retain separate scopes. The proofs
 are written and unreviewed; no matrix target or smaller exponent.
+
+## Finite weighted S5 cubes close the selected M19 coordinate target
+
+The [weighted cube proof](research/ai/2026-10-23-s5-finite-covers/proof.md)
+gives characteristic-two slice covers of 6867542 and 42493572 for the cubes
+of S5 x C2 and S5 x C2^2. Every one-copy single rectangular target then
+has abc<=2620 or abc<=6518 respectively. This excludes M19 in the second
+source and 38 additional shapes from the maintained coordinate/potential
+frontier, leaving two and nine general-test survivors. M(13,14,14) in the
+first source remains open. The exact verifier replays the prior radical
+and block certificates and all 227713 allowed bidegree triples. Claim
+`AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,
+arbitrary higher-source constructions, and the exponent question remain open.
 
 ## Blockwise modular bounds for S5 central sources
 
