@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-hankel-all-characteristics` package is owner-directed OpenAI
+Codex work. The pinned characteristic-zero Hankel cap, scalar annihilator
+argument and polynomial source-rank inequality retain their prior credit.
+The same two primary sources supply the arbitrary-field pencil index sum
+and splitting of vector bundles on the projective line. The divided-square
+evaluation sequence, retained characteristic-two diagonal equations and
+explicit geometric hypothesis over finite fields are the local extension.
+Prime-field controls and checking within this generating session do not
+constitute independent mathematical review or formalization. No historical
+priority, stronger characteristic-zero cap or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

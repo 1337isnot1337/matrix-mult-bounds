@@ -1,5 +1,21 @@
 # Research status
 
+## The geometric Hankel bound in every characteristic
+
+The [divided-square extension](research/ai/2026-10-23-hankel-all-characteristics/proof.md)
+extends the linear-annihilator Hankel Segre bound to every field, including
+characteristic two, with the same numerical cap. It retains the diagonal
+assignment equations that would disappear under ordinary polarization.
+Over finite fields the hypothesis is a polynomial identity on decomposable
+inputs, equivalently a rank bound over an algebraic closure; rational-point
+testing alone is insufficient as a substitute. The ordinary cyclic-source
+consequence likewise extends to every field. Exact controls check 911
+evaluation fibers and 882 monomial assignment systems over F2, F3 and F5;
+a negative control detects the lost diagonals. Claim
+`AI-HANKEL-ALL-CHARACTERISTICS-001` is written and unreviewed. No stronger
+characteristic-zero cap, singular-degeneration exclusion, constructed
+target or smaller exponent follows.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

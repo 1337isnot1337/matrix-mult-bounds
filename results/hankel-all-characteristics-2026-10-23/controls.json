@@ -1,0 +1,41 @@
+{
+  "scope": "Finite exact prime-field controls; the all-field claim rests on the written proof.",
+  "primes": [
+    2,
+    3,
+    5
+  ],
+  "evaluation_dimensions": [
+    2,
+    3,
+    4
+  ],
+  "nonzero_evaluation_fibers": {
+    "2": 25,
+    "3": 114,
+    "5": 772
+  },
+  "assignment_rank_range": [
+    2,
+    6
+  ],
+  "assignment_degree_range": "2r <= d <= 3r with 5r < 2(d+2)",
+  "monomial_assignment_cases": {
+    "2": 294,
+    "3": 294,
+    "5": 294
+  },
+  "diagonal_negative_control": {
+    "prime": 2,
+    "r": 2,
+    "d": 4,
+    "exponents": [
+      0,
+      2
+    ],
+    "correct_dimension": 1,
+    "incorrect_doubled_diagonal_dimension": 7
+  },
+  "independent_review": false,
+  "improves_omega": false
+}

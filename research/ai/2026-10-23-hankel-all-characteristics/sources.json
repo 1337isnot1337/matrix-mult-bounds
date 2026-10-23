@@ -1,0 +1,53 @@
+{
+  "base_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "external_sources": [
+    {
+      "authors": "Fernando De Teran, Froilan M. Dopico, D. Steven Mackey",
+      "title": "Spectral equivalence of matrix polynomials and the index sum theorem",
+      "version": "August 22, 2013; MIMS EPrint 2013.47",
+      "url": "https://eprints.maths.manchester.ac.uk/2017/01/covered/MIMS_ep2013_47.pdf",
+      "locator": "Lemma 6.3, printed page 37 (PDF page 38 including cover); Remark 6.4",
+      "imported_statement": "For any square or rectangular matrix pencil over an arbitrary field, finite and infinite structural indices together with left and right minimal indices sum to its rational-function rank. Dropping the nonnegative structural indices gives the inequality used here.",
+      "read": "Primary PDF and the arbitrary-field statement and proof re-opened in this generating session."
+    },
+    {
+      "authors": "Claudia Schoemann and Stefan Wiedmann",
+      "title": "Another proof of Grothendieck's theorem on the splitting of vector bundles on the projective line",
+      "version": "arXiv:1712.03056v1, December 8, 2017",
+      "url": "https://arxiv.org/pdf/1712.03056v1",
+      "locator": "Theorem 2.1, PDF page 3; arbitrary-field setup on PDF page 2",
+      "imported_statement": "Every algebraic vector bundle on P1 over a field splits into line bundles. Applied to the basepoint-free evaluation kernel; H0(E)=0 forces its splitting degrees to be negative.",
+      "read": "Primary PDF, field setup and theorem statement re-opened in this generating session."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/proof.md",
+      "sha256": "73d21b803b067c8634d33a6d9ba12945f9abbf02a39b4b38b190dc113ca475c5",
+      "use": "Prior characteristic-zero cap, pencil degree, linear-space and Segre dimension arguments; Sections 2-5 are restated with the changed assignment sequence."
+    },
+    {
+      "path": "research/ai/2026-10-21-hankel-pencil-degree/sources.json",
+      "sha256": "67aad09d03d37f841ffa61744a29ca14af1df6d3475962b2460ecdb80e8f05d4",
+      "use": "Prior source versions and attribution, including the same two external arbitrary-field results."
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+      "sha256": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635",
+      "use": "Section 1 elementary scalar Hankel annihilator proof over an algebraically closed field; polynomial remainders give the characteristic-free interpretation of jets."
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487",
+      "use": "Two polynomial-multiplication injections establish rank M_F >= ab times the symbol rank over any field; ordinary compression rank inequality."
+    }
+  ],
+  "prior_credit": "The cap, scalar Hankel description, pencil minimal-index argument, fixed-scheme reductions, Segre dimension estimates, polynomial source-rank inequality and ordinary-map application retain the credit of the pinned local and external sources. No historical-priority claim is made.",
+  "local_work": "Extension to arbitrary characteristic by the divided-square (swap-invariant tensor) evaluation sequence, retaining separate diagonal equations in characteristic two; explicit geometric hypothesis over finite fields and audit of inherited field assumptions.",
+  "field_and_hypotheses": "Any field K; 1<=r<min(a,b), 5r<2(a+b). Every (r+1)-minor of the Hankel image of the symbolic decomposable input must vanish identically, equivalently the rank bound holds on decomposable inputs over an algebraic closure. Rational-point rank testing alone over finite K is not assumed sufficient. Ordinary-map consequence uses actual tensor restriction identities over K.",
+  "limitations": "No improved characteristic-zero numerical cap, target construction, general singular-degeneration exclusion, formalization or exponent improvement. Finite controls are not a proof of the all-size statement.",
+  "ai_assistance": "Owner-directed Codex research with same-session checking; written and unreviewed, not independent mathematical review.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
