@@ -1,0 +1,20 @@
+{
+  "base_commit": "86b514225414662933f88c6ed8270250b40a287d",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "focused_tests": {
+    "command": "python -m unittest discover -s tests -p test_conic_higher_jets.py -v",
+    "completed": 7,
+    "passed": 7,
+    "skipped": 0,
+    "seconds": 75.185,
+    "log": "results/conic-higher-jets-2026-10-23/focused-tests.log.gz"
+  },
+  "standalone_acceptance": [
+    "verify.py rational-ten-jet.json",
+    "verify_symbolic.py mixed-fourth-family.json"
+  ],
+  "full_regression": "Not run by this child worker; root integration owns the complete suite.",
+  "independent_mathematical_review": false,
+  "exponent_improvement": false
+}
