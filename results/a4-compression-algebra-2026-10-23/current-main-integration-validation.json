@@ -1,0 +1,65 @@
+{
+  "schema": "a4-current-main-integration-validation-v1",
+  "completed_at_utc": "2026-10-23T18:59:40.098064+00:00",
+  "tested_commit": "77b734f6920d716a0d747c771b43c05fa64cc472",
+  "tested_tree": "7d49b8c82f3ee7a13a5ea89e33bf5eb7b9b15d7a",
+  "integration_merge": "7580344a58f98bba99caacb6a3775b9302b04489",
+  "integration_merge_parents": [
+    "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+    "085076a94f36ae26f28a6410ab259b1c8e18a6c2"
+  ],
+  "fresh_checks": {
+    "command": "python -m unittest discover -s tests -p test_research.py -v",
+    "started_at_utc": "2026-10-23T18:59:39.945846+00:00",
+    "tests_passed": 18,
+    "exit_code": 0,
+    "reported_test_seconds": 0.09,
+    "log": "current-main-metadata-tests.log",
+    "sha256": "5880e3228258c9b40131f4c3c9ee5953c91d10c96c05732c1779df3afce2a145"
+  },
+  "preservation_audit": {
+    "method": "Compare git ls-tree modes and blob IDs; compare parsed claim objects by unique ID; hash declared source inputs with SHA-256.",
+    "main_commit": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+    "unchanged_main_files": 2986,
+    "shared_files": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "docs/research_directions.md",
+      "research/ACTIVE.md",
+      "research/claims.json"
+    ],
+    "original_a4_commit": "592b37ab2640d2d857ed43ca915347c3f3a3a756",
+    "identical_a4_files": 69,
+    "tracked_files": 3060,
+    "unexpected_or_missing_paths": 0,
+    "all_compared_modes_and_blobs_identical": true,
+    "claim_union": {
+      "unique_ids": 302,
+      "main_objects_preserved": 297,
+      "original_a4_objects_preserved": 300,
+      "all_compared_objects_identical": true
+    },
+    "source_pins": {
+      "source_files": [
+        "research/ai/2026-10-23-a4-compression-algebra/sources.json",
+        "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+        "research/ai/2026-10-23-conjugation-limit/sources.json"
+      ],
+      "declarations": 19,
+      "unique_input_files": 12,
+      "all_sha256_match": true
+    },
+    "separate_agent_audit": "The same-session read-only preservation audit confirmed these counts and identities before this receipt. It is not independent mathematical review."
+  },
+  "historical_920_evidence": {
+    "receipt": "integration-validation.json",
+    "sha256": "48d13d331d1bd5a5905f350c78770a0801f46f4aec76003887b3270eacd6f14b",
+    "integrated_checks_local_commit": "7b54fd10045fc85be0dc3ab39311c998a69904e4",
+    "integrated_checks_tree": "ca4d0fc76ca9f7cd13062aca28dd3482e81d9a04",
+    "unique_test_ids": 920,
+    "scope": "Historical union: 905 baseline + 3 block-reduction + 4 coordinate + 8 universal-compression tests. It remains evidence for its named earlier checkpoint, not a fresh full-suite run or a complete current-main coverage claim."
+  },
+  "full_regression_repeated": false,
+  "mathematical_computation_repeated": false,
+  "limitations": "Only the 18 fast test_research checks were rerun on the named current-main integration. Hosted CI is separate. No mathematical claim or review status changes; all prior research evidence bytes are retained."
+}
