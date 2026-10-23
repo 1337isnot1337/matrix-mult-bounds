@@ -1,0 +1,132 @@
+{
+  "baseline_head": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+  "previous_published_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "source_sha": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "previous_source_sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "prepared_at": "2026-10-23T18:41:35.169799+00:00",
+  "claims_before": 614,
+  "claims_after": 614,
+  "unchanged_existing_records": 612,
+  "added_ids": [],
+  "revised_existing_ids": [
+    "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+    "AI-QUADRATIC-KERNEL-INDICES-001"
+  ],
+  "authored_revisions": [
+    {
+      "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+      "changed_fields": [
+        "limitations"
+      ],
+      "previous_record": {
+        "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+        "title": "Effective two-index rank formula for arbitrary quadratic biform slices",
+        "origin": "Codex research directed by repository owner",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+        "statement": "Over any field, for a>=2,b>=3 and nonzero u+zv+z^2w with coefficient degrees below a, divide the common polynomial factor and let D be the maximum remaining degree. Its recurrence kernel has minimal degrees 0<=mu1<=mu2 summing to aD; mu1 is the first nonzero-kernel degree of the explicit coefficient matrix C_ell, found by floor(aD/2). The literal full source rank is ab+min(b,mu1)+min(b,mu2). For D>0, mu1=0 iff the primitive homogeneous z-quadratic has a fixed ground-field linear factor; when aD>b this is equivalent to rank ab+b.",
+        "dependencies": [
+          "Pinned literal crossed source and prior general biform kernel-bundle rank identity",
+          "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem2.1 over arbitrary fields",
+          "Exact full-output polynomial recurrence with common-factor cancellation"
+        ],
+        "limitations": "Individual-source-slice classification and an effective invariant, not a coefficient-degree-only classification, source-space cap, compatible three-leg maps, degeneration or exponent result. Finite controls compare 2010 complete source matrices over Q and the stated finite fields; this corroborates rather than proves the all-size argument. No independent review or formalization.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_record": {
+        "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+        "title": "Effective two-index rank formula for arbitrary quadratic biform slices",
+        "origin": "Codex research directed by repository owner",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+        "statement": "Over any field, for a>=2,b>=3 and nonzero u+zv+z^2w with coefficient degrees below a, divide the common polynomial factor and let D be the maximum remaining degree. Its recurrence kernel has minimal degrees 0<=mu1<=mu2 summing to aD; mu1 is the first nonzero-kernel degree of the explicit coefficient matrix C_ell, found by floor(aD/2). The literal full source rank is ab+min(b,mu1)+min(b,mu2). For D>0, mu1=0 iff the primitive homogeneous z-quadratic has a fixed ground-field linear factor; when aD>b this is equivalent to rank ab+b.",
+        "dependencies": [
+          "Pinned literal crossed source and prior general biform kernel-bundle rank identity",
+          "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem2.1 over arbitrary fields",
+          "Exact full-output polynomial recurrence with common-factor cancellation"
+        ],
+        "limitations": "Individual-source-slice classification and an effective invariant, not a coefficient-degree-only classification, source-space cap, compatible three-leg maps, degeneration or exponent result. Finite controls compare 2050 complete source matrices over Q and the stated finite fields; this corroborates rather than proves the all-size argument. No independent review or formalization.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "previous_source_provenance": {
+        "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+        "original_id": "AI-QUADRATIC-KERNEL-INDICES-001",
+        "record_sha256": "60181b9040e77ccdd740974fc9f74e2033940c2034ae6c5b7a7a484acaa253c3",
+        "source_record_sha256": "60181b9040e77ccdd740974fc9f74e2033940c2034ae6c5b7a7a484acaa253c3",
+        "source_branch": "research/quadratic-kernel-indices-01a1697d",
+        "source_sha": "c7b7257bac3c000543de66a27b3485a29589156c",
+        "original_evidence": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+        "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true
+      },
+      "previous_record_sha256": "60181b9040e77ccdd740974fc9f74e2033940c2034ae6c5b7a7a484acaa253c3",
+      "source_record_sha256": "595a9616f472b9ed4de5cb7f981f15eaf9f9156121e7417491d9296e65c376b3"
+    },
+    {
+      "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+      "changed_fields": [
+        "statement"
+      ],
+      "previous_record": {
+        "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+        "title": "Rational-root height dichotomy and the complete three-by-three biform rank spectrum",
+        "origin": "Codex research directed by repository owner",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+        "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible.",
+        "dependencies": [
+          "AI-QUADRATIC-KERNEL-INDICES-001",
+          "De Teran-Dopico-Mackey, MIMS EPrint2013.47, August22 2013, Theorem6.5 over arbitrary fields",
+          "Explicit polynomial left and right Hankel kernel bases, primitive Gauss lemma, and coherent rank-one classification"
+        ],
+        "limitations": "These are necessary index restrictions, not a classification of all splitting types. The complete rank spectrum concerns the fifteen-by-fifteen biform block, not every slice of the full cyclic tensor. No source-space cap, three-leg target, degeneration, independent review, formalization, historical priority or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_record": {
+        "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+        "title": "Rational-root height dichotomy and the complete three-by-three biform rank spectrum",
+        "origin": "Codex research directed by repository owner",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+        "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible. More generally for balanced a=b>=3 quadratic-z biforms, every nonzero rank lies in {a^2,a^2+a,a^2+2a-1,a^2+2a}; the third value requires primitive D=2 and indices(a-1,a+1), without universal attainment asserted.",
+        "dependencies": [
+          "AI-QUADRATIC-KERNEL-INDICES-001",
+          "De Teran-Dopico-Mackey, MIMS EPrint2013.47, August22 2013, Theorem6.5 over arbitrary fields",
+          "Explicit polynomial left and right Hankel kernel bases, primitive Gauss lemma, and coherent rank-one classification"
+        ],
+        "limitations": "These are necessary index restrictions, not a classification of all splitting types. The complete rank spectrum concerns the fifteen-by-fifteen biform block, not every slice of the full cyclic tensor. No source-space cap, three-leg target, degeneration, independent review, formalization, historical priority or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "previous_source_provenance": {
+        "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+        "original_id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+        "record_sha256": "9807ff61f21afa0644643c8d324d66f1c0e2c530019696f164e7884212a8756b",
+        "source_record_sha256": "9807ff61f21afa0644643c8d324d66f1c0e2c530019696f164e7884212a8756b",
+        "source_branch": "research/quadratic-kernel-indices-01a1697d",
+        "source_sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+        "original_evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+        "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true
+      },
+      "previous_record_sha256": "9807ff61f21afa0644643c8d324d66f1c0e2c530019696f164e7884212a8756b",
+      "source_record_sha256": "13584c8f4220dc76036fa70834bea25240abffe27c2ae977be6fd893a39ece04"
+    }
+  ],
+  "all_source_status_flags_preserved": true,
+  "ledger_before_sha256": "b0ae047d5bdda32dc0acb218facaad809d7576be47ae8e8a0a0011596d8097cc",
+  "ledger_after_sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+  "topic_source_snapshots": 172,
+  "topic_branch_names": 138,
+  "scope": "Retain the exact authored balanced rank containment statement and updated2050 finite-control count; no universal attainment claim or status promotion."
+}

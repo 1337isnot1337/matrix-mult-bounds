@@ -1,0 +1,67 @@
+{
+  "schema": "consolidation-balanced-followup-context-pin-v1",
+  "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "integration_baseline": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+  "previous_pin_review": "structural_followup_pin_resolution.json",
+  "changed_active_files": [
+    "research/ai/2026-10-23-quadratic-kernel-indices/sources.json"
+  ],
+  "changed_json_fields": [
+    "local_dependencies[1].sha256"
+  ],
+  "original_pin": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+  "maintained_pin": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6",
+  "strict_dependency_pin_checks": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "expected_sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "actual_sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "expected_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6",
+      "actual_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6"
+    }
+  ],
+  "earlier_exact_originals_retained": [
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/80bd2ae-sources.json",
+      "sha256": "3c5f5ee86bb796aeb21329979c09cbb8803964864d37b68cbe10877019b08d93",
+      "source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "reason": "Preserve the exact structural source record before refreshing its inherited context README pin; keep the earlier c7 record and historical README alongside it."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+      "sha256": "3536d7730b94977c14a722ef4576361e5be0c87eede6e29eaa53b4f3ece9a223",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "reason": "Byte-exact original quadratic source record, including the original strict README pin."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/bd03b9d-anisotropic-README.md.txt",
+      "sha256": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "reason": "Byte-exact original README at the source record's base_main; .md.txt preserves its bytes without treating historical relative links as maintained navigation."
+    }
+  ],
+  "output_files": [
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/f00613b-sources.json",
+      "sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "reason": "Preserve exact f006 source metadata before refreshing its inherited context README pin, alongside both prior source records and the historical README."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "sha256": "2aef4e3ad99772f4f6317a54fe40fe7c1a1adae860ed03436469707bebe09209",
+      "original_source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "original_source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "original_sha256": "2ebdf6c7d40a2172eba78e9b75afb5917e982cb512ec59a459d805c72dc9e9b4",
+      "preserved_original_path": "docs/consolidation/2026-10-23/quadratic-pin-originals/f00613b-sources.json",
+      "reason": "Retain the source-exact updated local-work scope and both external citations; refresh only the already reviewed README digest without weakening the strict test."
+    }
+  ]
+}

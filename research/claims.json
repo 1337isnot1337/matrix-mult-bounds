@@ -10810,7 +10810,7 @@
         "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem2.1 over arbitrary fields",
         "Exact full-output polynomial recurrence with common-factor cancellation"
       ],
-      "limitations": "Individual-source-slice classification and an effective invariant, not a coefficient-degree-only classification, source-space cap, compatible three-leg maps, degeneration or exponent result. Finite controls compare 2010 complete source matrices over Q and the stated finite fields; this corroborates rather than proves the all-size argument. No independent review or formalization.",
+      "limitations": "Individual-source-slice classification and an effective invariant, not a coefficient-degree-only classification, source-space cap, compatible three-leg maps, degeneration or exponent result. Finite controls compare 2050 complete source matrices over Q and the stated finite fields; this corroborates rather than proves the all-size argument. No independent review or formalization.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
@@ -10821,7 +10821,7 @@
       "origin": "Codex research directed by repository owner",
       "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
-      "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible.",
+      "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible. More generally for balanced a=b>=3 quadratic-z biforms, every nonzero rank lies in {a^2,a^2+a,a^2+2a-1,a^2+2a}; the third value requires primitive D=2 and indices(a-1,a+1), without universal attainment asserted.",
       "dependencies": [
         "AI-QUADRATIC-KERNEL-INDICES-001",
         "De Teran-Dopico-Mackey, MIMS EPrint2013.47, August22 2013, Theorem6.5 over arbitrary fields",

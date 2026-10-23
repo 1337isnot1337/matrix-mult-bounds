@@ -1,0 +1,170 @@
+{
+  "schema": "matrix-balanced-followup-docs-resolution-v1",
+  "prepared_at_utc": "2026-10-23T18:41:17.948556+00:00",
+  "baseline_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+  "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+  "previous_source_commit": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+  "output_directory": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_output",
+  "output_files": [
+    {
+      "path": "STATUS.md",
+      "output_path": "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_docs_output/STATUS.md",
+      "sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+      "baseline_sha256": "c98b6ddf955421ec09b22450285a814595192f5c4dc8df5668d782180915bba8",
+      "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+      "source_path": "STATUS.md",
+      "reason": "Apply only the exact source containment addition and2050-control update to the maintained baseline status."
+    }
+  ],
+  "retained_shared_files": [
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+      "source_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+      "reason": "No authored source delta; retain the maintained narrative and scope corrections byte-exact."
+    },
+    {
+      "path": "docs/research_directions.md",
+      "sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
+      "source_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+      "reason": "No authored source delta; retain the maintained narrative and scope corrections byte-exact."
+    },
+    {
+      "path": "research/ACTIVE.md",
+      "sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
+      "source_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
+      "reason": "No authored source delta; retain the maintained narrative and scope corrections byte-exact."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "STATUS.md",
+      "old": "and explicit universal witnesses attain all four remaining values.\n",
+      "new": "and explicit universal witnesses attain all four remaining values.\nFor every balanced a=b>=3 quadratic-z family, ranks lie in\n`{a^2,a^2+a,a^2+2a-1,a^2+2a}`; universal attainment at larger sizes\nis not asserted. The one-below-full value requires primitive D=2.\n",
+      "reason": "Balanced quadratic-z containment only; universal attainment at larger sizes is expressly absent, and one-below-full requires primitive D=2."
+    },
+    {
+      "path": "STATUS.md",
+      "old": "two-index procedure. Exact finite controls compare 2010 complete source",
+      "new": "two-index procedure. Exact finite controls compare 2050 complete source",
+      "reason": "2050 comparisons equals prior2010 plus24 structural and16 spectrum source maps."
+    }
+  ],
+  "semantic_review": {
+    "schema": "matrix-balanced-quadratic-followup-semantic-review-v1",
+    "baseline_source": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+    "source_commit": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+    "integrated_content_baseline": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+    "repository": "1337isnot1337/matrix-mult-bounds",
+    "outcome": "No concrete defect found in the bounded same-session proof and executable-assertion review; no review-status promotion.",
+    "proof_checks": [
+      "For a=b>=3 and primitive D=0, both indices vanish and the rank is a^2.",
+      "For D=1, the two indices sum to a and each is at most a, giving rank a^2+a.",
+      "For D=2, mu1<=a. Rank-one minimum vectors have degree(a+1)h, so h=0; the rank-two lower bound is a-1. Thus mu1 belongs to{0,a-1,a}.",
+      "For D>=3, mu1=0 gives rank a^2+a. Positive rank-one mu1 is at least a+1; rank-two mu1 is at least ceil(3(a-1)/2)>=a. Both positive indices therefore give full retained row rank a^2+2a.",
+      "Consequently a^2+2a-1 requires exactly D=2 and indices(a-1,a+1). Common-factor normalization remains essential.",
+      "Containment is restricted to quadratic-or-lower z-degree for a>3. Universal attainment is asserted only for a=b=3, with its existing proof."
+    ],
+    "code_checks": [
+      "Exact sparse echelon elimination preserves the previous rank API. Descending pivot substitution constructs one coefficient-kernel vector.",
+      "Inspection verifies the full recurrence residual and exact minimum degree before computing Hankel rank from polynomial two-by-two minors.",
+      "The verified nonzero coefficient triple supplies a right kernel, so the Hankel rank is at most two; nonzero recurrence vectors make it at least one.",
+      "Polynomial coefficient maps retain all output coefficients. Degree D-1 and D nullity tests check the asserted left/right minimal-index totals.",
+      "New structural controls cover a=2 with no left indices, odd-valuation irreducibility including characteristic two, and a nonconstant height-one root below the rank-two threshold.",
+      "Universal a=3 controls use literal full source ranks plus exact off-block checks and Bareiss determinants; they do not assert larger-size attainment.",
+      "2050 source comparisons equals prior2010 plus24 structural source maps and16 spectrum source maps."
+    ],
+    "claim_revisions": [
+      {
+        "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+        "changed_fields": [
+          "statement"
+        ],
+        "status": "proof-written-unreviewed",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      {
+        "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+        "changed_fields": [
+          "limitations"
+        ],
+        "status": "proof-written-unreviewed",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      }
+    ],
+    "test_changes": {
+      "existing_module": "tests/test_quadratic_kernel_indices.py",
+      "added_methods": [
+        "test_hankel_left_and_right_kernel_indices",
+        "test_irreducible_saturation_and_nonconstant_low_branch",
+        "test_corrupt_minimum_kernel_witness_is_rejected",
+        "test_universal_three_by_three_spectrum_and_integer_blocks"
+      ],
+      "package_test_count_expected": 10,
+      "global_inventory_expected": {
+        "tests": 1961,
+        "modules": 438
+      },
+      "tests_executed_by_this_review": false
+    },
+    "shared_prose_resolution": {
+      "files_changed": [
+        "STATUS.md"
+      ],
+      "exact_source_patch": "@@ -12,6 +12,9 @@ root height determines both indices exactly. As a concrete consequence,\n the complete nonzero fifteen-by-fifteen biform-block rank spectrum at\n a=b=3 is `{9,12,14,15}` over every field. Rank thirteen is impossible,\n and explicit universal witnesses attain all four remaining values.\n+For every balanced a=b>=3 quadratic-z family, ranks lie in\n+`{a^2,a^2+a,a^2+2a-1,a^2+2a}`; universal attainment at larger sizes\n+is not asserted. The one-below-full value requires primitive D=2.\n Claim `AI-QUADRATIC-INDEX-DICHOTOMY-002` is written and unreviewed.\n This does not classify all slices of the full cyclic tensor or supply\n an exponent improvement.\n@@ -28,7 +31,7 @@ which occurs by floor(aD/2). The full source rank is\n `ab+min(b,mu1)+min(b,mu2)`. For positive D, a zero first index is equivalent\n to a fixed ground-field linear factor in the homogeneous z-quadratic.\n This specializes the prior kernel-bundle identity and adds an effective\n-two-index procedure. Exact finite controls compare 2010 complete source\n+two-index procedure. Exact finite controls compare 2050 complete source\n matrices, including the earlier equal-resultant ranks14/15 and their\n characteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is\n written and unreviewed. No source-space cap, compatible matrix target,",
+      "retain_other_shared_narratives_from": "45b082d12e2d0e36a1c542899000b192cdcc1bb7",
+      "preserve": "Both D>0 fixed-factor guards, current attribution, stronger conic/channel limitations and all existing unreviewed/no-target/no-exponent qualifications."
+    },
+    "source_paths": [
+      {
+        "path": "STATUS.md",
+        "git_blob": "d226a1c50763e5ff622f6fece092c72c2c3f797d",
+        "changes": 5
+      },
+      {
+        "path": "research/ai/2026-10-23-quadratic-kernel-indices/README.md",
+        "git_blob": "1967df118d9e843c16e4d5fde18f672662d50919",
+        "changes": 4
+      },
+      {
+        "path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+        "git_blob": "59528b6501d23c2375ca84a0810cd9fef58573ea",
+        "changes": 36
+      },
+      {
+        "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+        "git_blob": "667ac5c60b3b726b38a5440a2ea6d9aa33bdc7af",
+        "changes": 2
+      },
+      {
+        "path": "research/ai/2026-10-23-quadratic-kernel-indices/verify.py",
+        "git_blob": "d8a378d847a9f4b622c939a251cb0b6bae43fdc7",
+        "changes": 219
+      },
+      {
+        "path": "research/claims.json",
+        "git_blob": "21715972a6c3df9b3a75cd6326a8e94986e58ac4",
+        "changes": 4
+      },
+      {
+        "path": "results/quadratic-kernel-indices-2026-10-23/controls.json",
+        "git_blob": "6feb54c58d72c4fbc8568dcccf488ce627a4cb9d",
+        "changes": 1087
+      },
+      {
+        "path": "tests/test_quadratic_kernel_indices.py",
+        "git_blob": "daaeaacc69de3f91c7d9f4153cb476eefa2f0c42",
+        "changes": 63
+      }
+    ],
+    "local_artifact_write": "Approved private RAM scratch namespace; no worktree changes.",
+    "network_actions": "Read-only exact GitHub compare GET; no remote mutation."
+  },
+  "unresolved_semantic_conflicts": [],
+  "tests_executed_by_this_review": false,
+  "worktree_or_remote_mutations": false
+}
