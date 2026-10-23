@@ -16,8 +16,11 @@ spec.loader.exec_module(verify)
 class ResolventRank6FamilyTests(unittest.TestCase):
     def test_exact_common_six_row_support_and_inherited_lower_bound(self):
         report = verify.verify()
-        self.assertEqual(report['family_dimension'], 4)
+        self.assertEqual(report['family_dimension'], 16)
+        self.assertEqual(report['block_positions'], [[3, column] for column in range(4)])
         self.assertEqual(report['common_row_support'], [0, 7, 14, 21, 22, 23])
+        self.assertEqual(len(report['generator_supports']), 16)
+        self.assertEqual(report['full_source_embeddings_checked'], 16)
         self.assertEqual(report['minimum_nonzero_rank'], 6)
         self.assertFalse(report['full_rank_six_locus_classified'])
         self.assertFalse(report['tensor_degeneration_constructed'])

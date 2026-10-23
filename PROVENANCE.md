@@ -14,9 +14,10 @@ or exponent improvement is claimed.
 
 The `2026-10-23-resolvent-rank6-family` package is an owner-directed
 OpenAI Codex continuation of that certificate. It selects four independent
-outer generators whose normalized matrices share a six-row support, giving
-a projective three-space in the rank-six locus and realizing its compression
-alignment at rank loss six. This uses the predecessor's all-field minimum
+four independent outer generators in each of four distinct block positions;
+their normalized matrices share a six-row support, giving a projective
+fifteen-space in the rank-six locus and realizing its compression alignment
+at rank loss six. This uses the predecessor's all-field minimum
 rank theorem; the constructed compression maps have singular product and
 are not a tensor degeneration. The full rank-six locus, independent review,
 formalization and exponent improvement remain open.
