@@ -2,6 +2,8 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [three-term resultant obstruction](../research/ai/2026-10-23-three-term-resultant-obstruction/proof.md) disproves classification of individual R_(3,3) ranks from primitive coefficient degree and all three pairwise resultants alone. The exact determinant separates rank 14 and 15 despite identical invariants. The next precise question is to compute two minimal indices of the recurrence u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 for arbitrary degree-<a coefficients and bounded-degree solutions; seek exact subresultant conditions or higher-rank coefficient pencils, and require a full three-leg source-to-target map before claiming a smaller exponent. Do not repeat PR207's diagonal Toeplitz lane.
+
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
 now extends PR107's entire prescribed two-jet on d nonzero, with exact
 polynomial maps of degrees eight and nine and no other parameter guards.
