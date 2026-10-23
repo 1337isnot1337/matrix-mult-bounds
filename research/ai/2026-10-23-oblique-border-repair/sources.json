@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-23",
+  "source_commit": "53fed21130a5c46a9c2336a8d196ea0547c2cbfb",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/exact.py",
+      "sha256": "eec6ca2ada6ff74a7e196b8a37d7ec6c25548f76cd0ae05c00b3dba36dc5107a"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/verify.py",
+      "sha256": "e59f0bddb98809d2a5ca4141367cd51550664b861a5d0e2750fa7a6676b45698"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/karatsuba_repair.py",
+      "sha256": "5a58c83c753066ef747867ec0196f2041d36a54077855445246befaa04962426"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/proof.md",
+      "sha256": "c6e53f6a9d39af372ea5876902983e118626b9969b396153e612865576f51557"
+    }
+  ],
+  "dependency_scope": "The earlier ordinary integer maps, actual residual formula, direct scalar repair and one-dependency seven-term core are inherited. This package changes only the correction tensor decomposition; the paired-source maps stay fixed.",
+  "new_claims": [
+    "AI-OBLIQUE-CORE-BORDER-SIX-001",
+    "AI-OBLIQUE-BORDER-REPAIR-FAMILY-002"
+  ],
+  "provenance": "Owner-directed Codex research. Same-session separate coefficient and proof checks are not independent mathematical review.",
+  "historical_novelty_claimed": false,
+  "independent_mathematical_review": false,
+  "formalized": false,
+  "improves_omega": false
+}

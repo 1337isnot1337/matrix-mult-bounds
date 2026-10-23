@@ -1,5 +1,28 @@
 # Research status
 
+## An eighteen-scalar degeneration from a six-term core
+
+The [polynomial border repair](research/ai/2026-10-23-oblique-border-repair/proof.md)
+keeps the ordinary oblique maps and constructs
+`Q(6,4) + D_18` degenerating to `M(5,4,5)` over every field.
+All three polynomial local maps replay the complete identity
+`t^2(1-t)(M+tH)`. The complex residual has border rank at most eighteen,
+alongside the earlier ordinary rank bound of nineteen. Its small
+three-by-five-by-five core has border rank exactly six: six polynomial
+terms supply the upper bound, and an eleven-by-eleven Koszul minor with
+determinant one supplies the lower bound.
+
+Disjoint cores give ordinary correction bound `4rd-m^2` and border
+correction bound `4rd-2m^2`, where `r=n-1`, `d=r-b` and
+`m=min(d,b-1)`. Width-four border costs are eighteen, forty, sixty-six
+and one hundred ten at n=6,7,8,9. Seven focused tests replay the core,
+complete source maps, all seventy-two saved family records, four source
+hashes and deliberate false certificates. Claims
+`AI-OBLIQUE-CORE-BORDER-SIX-001` and `AI-OBLIQUE-BORDER-REPAIR-FAMILY-002`
+are written and unreviewed. No optimal border rank for the whole residual
+or eighteen-term ordinary decomposition is asserted. The fixed-width
+repair remains quadratic and no smaller exponent follows.
+
 ## Explicit oblique maps with a nineteen-scalar repair
 
 The [integer oblique construction](research/ai/2026-10-23-oblique-paired-repair/proof.md)

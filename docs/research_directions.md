@@ -14,6 +14,11 @@ and the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,
 so it does not prove the fixed-width premise. Changed long maps now give
 an [exact integer repair](../research/ai/2026-10-23-oblique-paired-repair/proof.md)
 `Q(6,4) + D_19 -> M(5,4,5)`, with residual ranks `(9,11,11)`.
+An explicit [six-term core degeneration](../research/ai/2026-10-23-oblique-border-repair/proof.md)
+reduces the added border correction to eighteen scalars, while retaining
+the nineteen-scalar ordinary correction. Its full polynomial maps and
+disjoint-core family are certified; the small core has exact border rank
+six. The whole residual's optimal border rank remains open.
 The resulting fixed-width family has quadratic first support and does
 not meet the small-repair premise. The zero-auxiliary target
 `Q(6,4) -> M(5,4,5)` remains unconstructed. Useful next work includes

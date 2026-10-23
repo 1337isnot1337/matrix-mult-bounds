@@ -1,5 +1,18 @@
 # Integrated research coordination
 
+The subsequent [border-repair continuation](ai/2026-10-23-oblique-border-repair/proof.md)
+is on `research/oblique-border-repair-20261023`, based on the ordinary-map
+checkpoint `53fed211`. A six-term polynomial core has leading coefficient
+exactly K and a matching unit Koszul minor. It supplies the complete
+degeneration `Q(6,4) + D_18` to `M(5,4,5)`, while the nineteen-term
+ordinary correction below remains unchanged. Disjoint cores give border
+cost `4rd-2min(d,b-1)^2`. Seven focused tests cover all seventy-two saved
+family controls, all four source hashes, full native polynomial maps and
+negative certificate controls. The result is written and unreviewed;
+the whole residual's optimal border rank remains open. Construction of
+changed maps with substantially smaller first support remains the main
+asymptotic question.
+
 The October 23 paired-map continuation is on
 `research/product-longmap-residual-20261023`, based on main `fe602e4`.
 Its [oblique construction](ai/2026-10-23-oblique-paired-repair/proof.md)

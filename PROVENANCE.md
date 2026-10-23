@@ -1,5 +1,20 @@
 # Attribution and provenance
 
+The `2026-10-23-oblique-border-repair` package is owner-directed Codex
+continuation. Four SHA-pinned local sources at `53fed211` supply the
+unchanged ordinary maps, actual residual and seven-term core. New work
+uses a triangular mixed-block deformation and exact denominator clearing
+to construct six polynomial rank-one terms with leading coefficient the
+core. Separate same-session implementations checked all 375 core
+coordinate-degree entries, native source contractions and a unit Koszul
+minor. These coordinated checks are not independent mathematical review.
+The full eighteen-term residual degeneration and all three polynomial
+maps on `Q(6,4) + D_18` are exported. Claims
+`AI-OBLIQUE-CORE-BORDER-SIX-001` and `AI-OBLIQUE-BORDER-REPAIR-FAMILY-002`
+distinguish ordinary rank nineteen from border rank eighteen. Only the
+core has an optimal border-rank conclusion. No historical priority,
+formalization or exponent improvement is claimed.
+
 The `2026-10-23-oblique-paired-repair` package is owner-directed Codex
 work using the repository's product-injection and mixed-middle templates.
 Six local sources have exact byte pins; a seventh source is pinned to
