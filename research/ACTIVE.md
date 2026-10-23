@@ -1,5 +1,19 @@
 # Integrated research coordination
 
+## Singular long-leg ruling continuation, October23
+
+PR125 on `research/singular-long-ruling-20261023` owns
+`ai/2026-10-23-singular-long-ruling/QUESTION.md`. The shared rank-two
+correction column space and prior source gap give a written exclusion
+whenever either balanced long-map limit has rank at least106, with
+arbitrary poles in the other maps. It adopts and credits concurrent
+PR113's regular correction mechanism, extending its full-rank premise.
+Exact controls and complete validation are in progress. The next bound
+would require linear-space geometry at source rank20; the minimum-cone
+argument is not asserted there. No exponent improvement or independent
+review. Older unit-image rank thresholds below are historical method
+boundaries, not the frontier after these continuations.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument

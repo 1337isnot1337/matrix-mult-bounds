@@ -1,5 +1,25 @@
 # Research status
 
+## Singular long-leg limits and a shared correction ruling test
+
+The [shared-correction ruling argument](research/ai/2026-10-23-singular-long-ruling/proof.md)
+excludes the canonical A4 to M(10,10,11) degeneration if either
+scalar-balanced long map has leading rank at least106. Both other maps,
+including the original identity lift, may have arbitrary finite poles.
+This extends concurrent PR113's regular full-rank long-leg premise to
+singular limits. Its rank-two regular kernel corrections share one
+constant column space. After quotienting by that space, a nonzero unit
+image would make a ten-dimensional target ruling inject into a source
+minimum-cone linear space of dimension at most four. The prior source
+rank gap16 to20 applies because the c106 source cap is19. Claims
+`AI-SHARED-KERNEL-RULING-001` and `AI-A4-SINGULAR-LONG106-002` are written
+and unreviewed. The gap's Grothendieck splitting dependency and all prior
+source credits are retained. Exact finite controls check shared corrections,
+target rulings and actual source ranks16/20. At c105 the cap reaches20,
+so the adopted minimum-cone argument stops. Both balanced long limits
+must have rank at most105 in any remaining candidate; existence and the
+full target remain open. No smaller exponent is established.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

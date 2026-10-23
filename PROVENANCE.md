@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-singular-long-ruling` package is owner-directed OpenAI
+Codex work. The canonical source, minimum-rank cone and rank gap retain
+their prior credit and exact pins. The rank gap uses Grothendieck's 1957
+Theorem2.1 for holomorphic vector bundles on P^1(C), with its primary
+source and hypotheses recorded explicitly. Concurrent PR113 at08ac3e9
+retains credit for scalar balancing and the regular right-inverse kernel
+correction; PR112 separately develops general projector regularity. The
+shared constant correction column space and complete target-ruling test
+with singular long-leg limit are the local continuation. Written proof
+and finite exact controls have no independent mathematical review or
+formalization and do not establish a matrix target or exponent gain.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

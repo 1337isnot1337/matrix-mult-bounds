@@ -1,5 +1,18 @@
 # Research directions
 
+The [shared-correction ruling criterion](../research/ai/2026-10-23-singular-long-ruling/proof.md)
+now excludes an A4 target whenever either scalar-balanced long-map limit
+has rank at least106, even with arbitrary poles in both other maps and
+the original identity lift. Every remaining candidate must have rank at
+most105 in both balanced long-map limits. The next source-geometry
+question is a dimension bound for linear spaces of slices of rank at
+most20: at c105 the existing gap no longer places the whole ruling image
+in the minimum cone. No such sharper bound or target construction is
+assumed. This written unreviewed continuation credits PR113's correction
+mechanism and the existing source gap, including its external splitting
+dependency. It is separate from local conic incidence and does not lower
+the exponent.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 ## Active paired construction: near-full width four
