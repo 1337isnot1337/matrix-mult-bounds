@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 import unittest
 
@@ -10,9 +11,15 @@ VERIFY_PATH = (
 SPEC = importlib.util.spec_from_file_location("paired_long_legs_verify", VERIFY_PATH)
 VERIFY = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFY)
+RESULTS = Path(__file__).resolve().parents[1] / "results/paired-long-legs-2026-10-23"
 
 
 class PairedLongLegTests(unittest.TestCase):
+    def test_saved_verification_report_replays(self):
+        saved = json.loads((RESULTS / "verification.json").read_text())
+        actual = json.loads(json.dumps(VERIFY.verify(rank_controls=True)))
+        self.assertEqual(actual, saved)
+
     def test_exact_interpolation_and_full_spark_controls(self):
         for a in range(2, 7):
             with self.subTest(a=a):
