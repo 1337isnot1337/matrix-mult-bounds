@@ -1,5 +1,7 @@
 # Research directions
 
+The [geometric diagonal-source theorem](../research/ai/2026-10-23-geometric-diagonal-ranks/proof.md) gives a closed formula and explicit kernel bases for all central Toeplitz rank defects of geometric-coefficient diagonal slices. It builds on concurrent PR207's broader all-degree decomposition. Remaining work must go beyond this coefficient family, or use the exact defect spaces in a *compatible three-leg* tensor construction. Low rank in a single source slice is not a degeneration. Claim AI-GEOMETRIC-DIAGONAL-RANKS-001 is written and unreviewed, and there is no exponent gain.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
