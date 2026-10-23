@@ -390,11 +390,28 @@ The [pencil-degree theorem](../research/ai/2026-10-21-hankel-pencil-degree/proof
 and its [complete application](../research/ai/2026-10-21-hankel-pencil-degree/application.md)
 now close the former ordinary A8 rectangular and square-sum targets.
 Every improving balanced single rectangular shape through a9 is excluded;
-the first necessary-test survivors are at a10. A9's square partition
-(32,6,3) remains unconstructed, with the M32 lifted rank exactly648.
-The next owned algebraic question is equality at that rank. Singular
-constructions, including the A4 shear completion, remain open and are
-required before any smaller exponent claim.
+the first necessary-test survivors of that screen are at a10. The later
+[Wronskian application](../research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+already excludes every improving ordinary A9 square sum, including the
+historical partition (32,6,3), using its credited higher-input-rank gates.
+Do not treat that historical candidate as an open ordinary-map target.
+
+The new [kernel-descent strip](../research/ai/2026-10-23-hankel-equality/proof.md)
+is a separate pointwise source-structure result: source rank below
+ab*r+min(a,b), at deficient scalar symbol rank r, forces a constant
+length-r scheme for that slice. Constancy over a whole matrix-parameter
+family is not proved, and no new target exclusion is claimed. The
+[primitive-degree count](../research/ai/2026-10-23-hankel-annihilator-degree/proof.md)
+widened the pointwise strip to min(a(a-r),b(b-r)), with balanced
+sharpness for every 2<=r<a. Adding the two moving-variable costs
+remains a separate unproved conjecture, with a declared finite pilot. The
+[binomial-chart minimum](../research/ai/2026-10-23-hankel-additive-cost/proof.md)
+now proves that additive bound for the fixed form V^r-xz U^r and gives
+the exact minimum over all polynomial initial moments in that chart.
+Other primitive-degree-(1,1) supporting forms remain a separate question. Singular
+constructions, including the A4 shear completion, remain separate
+questions; the exponent goal still requires an actual construction or a
+complete alternative implication.
 
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a

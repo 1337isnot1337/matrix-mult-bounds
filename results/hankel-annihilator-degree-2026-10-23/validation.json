@@ -1,0 +1,46 @@
+{
+  "status": "focused-and-metadata-passed-full-hosted-CI-pending",
+  "merge_parents": [
+    "90b5030249aa5b6a3d678a47620e81d1b4f52c43",
+    "3ff54caf229359e6c7bef898b07de8558c92ef10"
+  ],
+  "focused_tests": 7,
+  "metadata_tests": 18,
+  "literal_degree_controls": 24,
+  "additive_boundary_controls": 3,
+  "additive_recurrence_pilot_cases": 40,
+  "general_additive_inequality_proved": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false,
+  "mathematical_limits": "Pointwise supporting schemes; no constancy over all matrix parameters, new target exclusion or exponent claim. Historical ordinary A9 sums retain the credited Wronskian exclusion.",
+  "dependency_pins_checked": 9,
+  "claim_id_union_preserved": true,
+  "prior_full_hosted_verification": "results/hankel-equality-2026-10-23/validation.json; exact b9006da only, not a full check of this combined head.",
+  "archive_note": "Current metadata check passes both archive manifests; original five-experiment replay at the unchanged archive bytes is recorded in the parent receipt.",
+  "source_sha256": {
+    "proof.md": "2749b5936289daf814e0276f33ad644fa5228d41bac6d598311e81c59851bf0c",
+    "verify.py": "0f6cd0823c99aabd99197d49ec9f33904e71bfd80135af0ca9864e725e86b281",
+    "additive_question.md": "0bcb5e6d0fdd95276544b347433294e27dea23bc85952ce21641b61eecefe794",
+    "additive_pilot.py": "25cd7c2b5ba878a4739591809ce21e783feddf40814265db3be3af6d650bd1d8",
+    "sources.json": "ea20ce40a5c1138f35ada01f38dce9b0c859a8f3504130be6c67dd2cb8948673"
+  },
+  "log_sha256": {
+    "tests-focused.txt": "41a35c8da23b5a5c010121d3c348a5e2a44bb0aa74005893c3a2ce4a4410e2db",
+    "tests-metadata.txt": "896f27692cb4e66aee95374fcfed3a6977858e2e13e4c0515df1854ba8e278fb",
+    "tests-integrated-focused.txt": "bd13cd1f8e12ae6d5b3479269ea62a671ea602f284283db8e1313b17ed2a18c1",
+    "tests-integrated-metadata.txt": "d866d0c315b71afb5d95898d24f2577c3980c1314d755c6773c263871bb46b92"
+  },
+  "final_main_integration": {
+    "parents": [
+      "7e00ebfd3b8f7a9a730837cbba1b3b4370b17f2c",
+      "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93"
+    ],
+    "all_prior_math_source_bytes_unchanged": true,
+    "dependency_pins_checked": 9,
+    "metadata_tests": 18,
+    "claim_id_union_preserved": true,
+    "metadata_log_sha256": "c9a6f8e96b5d74c102a79575c3403686d9bfce0e8146348b08a9a5747929ebaa",
+    "full_hosted_CI": "required on final pushed head"
+  }
+}
