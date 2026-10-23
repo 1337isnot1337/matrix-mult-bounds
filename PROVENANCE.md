@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
+work. PR103 supplies the fixed square-zero resolvent and high/low limiting
+space, with its exact inspected commit and file hash recorded. Earlier
+cyclic-source work supplies the literal source and unimodular unit. The
+31 successive integer minor identities, sharp minimum-rank-six result and
+compression alignment are local continuations. The acceptance program
+reconstructs all 112 source slices and verifies the literal certificate;
+it does not import the discovery process. Elementary finite matrix
+arguments apply over every field; the scoped Laurent application is over
+C. No historical priority, independent mathematical review, formalization
+or exponent improvement is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
@@ -897,3 +909,14 @@ The prior finite split-cover note supplies its finite matrix slice-rank
 reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
+
+## Nonsplit vector-degree finite continuation
+
+The October 23 vector-degree package is owner-directed Codex work. It
+adopts the credited nonsplit basis and finite covers from PR102 at
+6cd7f3a1fc90820c135505b882a614cb62a025d5, with exact file hashes. It adds
+full-source parity and cover-membership checks, a separately counted
+class hypergraph and a finite integer-weight census. Optional SciPy
+optimization proposes covers; its numerical bounds are not mathematical
+acceptance premises. The earlier source theorem credits are retained.
+There is no independent review, formalization or exponent improvement.

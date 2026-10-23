@@ -1,0 +1,87 @@
+{
+  "status": "bounded-discovery-only",
+  "principal_factors": 0,
+  "seconds_limit": 120.0,
+  "elapsed_seconds": 0.22521768999285996,
+  "solver_status": 0,
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective_float": 147455.99999999994,
+  "dual_bound_float": 147455.99999999994,
+  "selected_classes": [
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ]
+  ],
+  "exact_cover_replay": {
+    "principal_factors": 0,
+    "classes_per_leg": 16,
+    "one_leg_dimension": 262144,
+    "admissible_triples_checked": 400,
+    "per_word_slices": 147456
+  },
+  "optimality_certified": false,
+  "exponent_improvement": false
+}

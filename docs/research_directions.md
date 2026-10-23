@@ -2,6 +2,12 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
+now proves rank six sharply over every field. Its open structural question
+is the rank-six locus and the required kernel/image alignment under two
+rank109 compressions. Check the broader long-map exclusions before
+treating such an aligned compression as a possible matrix target.
+
 ## Active paired construction: near-full width four
 
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
@@ -289,3 +295,14 @@ now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
+
+
+## Nonsplit finite cube degree-model checkpoint
+
+The [October 23 vector-degree continuation](../research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks source parity and the common principal cover, replays seven bounded
+class-cover searches and evaluates all 3372 specified integer weight
+vectors. It retains 6155844. The outcome closes only that finite weight
+census; numerical class-cover optimality reports are not proof. A further
+attempt should preserve finer Peirce-corner information, change basis or
+change source power, rather than rerun the unchanged degree model.
