@@ -79,6 +79,8 @@ with this determinantal curve as flat limit. This is a point-set incidence
 example; it does not align the evaluation-node parameters or establish a
 tensor degeneration. The exact generic/special-fiber checks are recorded in
 [`verify_t4_curve_smoothing.sing`](../../../tools/verify_t4_curve_smoothing.sing).
+The matching Hilbert numerators give the same Hilbert function in every
+degree, which certifies flatness at the special fiber.
 
 ## Incidence argument
 
