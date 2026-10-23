@@ -17,20 +17,39 @@ for any fixed `alpha<2`. This barrier does not exclude actual tensor
 degenerations. The paired construction target below remains open.
 New maps must be verified directly, including their auxiliary costs.
 
-## Active paired construction: near-full width four
+## Active paired construction: finite maps and concentrated residuals
 
-The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
-reduces one sufficient route to genuine degenerations
-`Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c
-and `border_rank(R_n)=O(n)`. It would imply
-`omega < 30000/13433 < 2.2334`. The family is unconstructed. The active
-paired branch has recovered an [exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)
+The [residual-rank criterion](../research/ai/2026-10-23-residual-rank-repair/proof.md)
+gives a finite stopping condition. For an actual complex degeneration
+`Q(n,b) + E -> M(l,h,r)`, let D be the smallest product of two certified
+residual flattening ranks. The strict comparison
+`(lhr)^(3/4)>D^(3/4)+sqrt(2b(2n+b-1)^3)/3` would imply `omega<9/4`.
+No unbounded extension is needed for this qualitative finite implication.
+No map passing it is known here. The smallest full-target source formats
+under this paired criterion have largest leg 441, at Q(21,8) and Q(21,9).
+For width four, Q(200,4) to M(199,4,199) with residual ranks at most
+(2,796,796) is another sufficient, unconstructed finite target.
+
+For a numerical exponent bound, the earlier
+[linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
+asks for genuine `Q(n,4) + E_n -> M(n-c,4,n-c)` along an unbounded sequence,
+with fixed c and `border_rank(E_n)=O(n)`. It would imply
+`omega < 30000/13433 < 2.2334`. The new residual-rank proof also accepts
+first residual rank `O(n^(7/10))` and both long ranks `O(n)` for the same
+conditional rational ceiling. More generally, sublinear first-rank growth
+has the quantified gamma-dependent bound in that proof. These families
+remain unconstructed.
+
+The active paired branch has an
+[exact integer Q(5,4) to M4 witness](../research/ai/2026-10-20-paired-construction/outer_product_injection.md)
 and the family `Q(k+1,k) -> M(k,4,k)`. Its source width grows with k,
-so it does not prove the fixed-width premise. The next numerical target
-is `Q(6,4) -> M(5,4,5)`, which lies beyond the recovered product-subspace
-dimension limit. A machine-precision numerical fit is discovery evidence
-only. Deliver exact coefficient identities, then a proved unbounded
-extension with every auxiliary cost accounted for.
+so it does not prove the fixed-width premise. The small target
+`Q(6,4) -> M(5,4,5)` remains a discovery problem beyond the recovered
+product-subspace dimension limit; it does not pass the finite improvement
+criterion by itself. Search for nonproduct long maps, singular limits,
+or identities whose residual is concentrated in a small first-leg space.
+Deliver exact coefficient identities and rank certificates. A small
+floating residual norm does not establish any of these premises.
 
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles

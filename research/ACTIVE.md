@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+## Paired repair continuation: October 23
+
+The active branch `research/operational-repair-20261023` and PR130 contain
+the external formal-calculus repair barrier and the conditional finite and
+asymptotic residual-rank criteria. The actual tensor-map question remains
+open. Construction searches focus on nonproduct long maps and small
+first-leg residual support; neither finite arithmetic nor the formal
+monotones provide an improving tensor map. See
+`ai/2026-10-23-residual-rank-repair/proof.md` for exact stopping criteria.
+The coordinated agents in this session are not independent reviewers.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

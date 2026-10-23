@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-residual-rank-repair` package is owner-directed Codex work.
+It reuses the paired cyclic product, thin slope, endpoint rigidity,
+character detection and compact attainment with exact local source pins
+and unchanged external credits. The elementary outer-product envelope is
+not claimed as a historical novelty. Its shifted-tripling refinement,
+finite repair criterion and gamma localization formula are local deductions.
+A separate agent derived the shifted refinement, checked the arguments,
+and implemented a separate arithmetic replay in this session. This is not
+independent mathematical review. No successful new tensor maps or exponent
+improvement are claimed.
+
 The `2026-10-23-operational-repair-barrier` package is owner-directed
 Codex work. Amanov, van den Berg and Zuiddam supply the formal semiring,
 its asymmetric functions and their monotonicity in arXiv:2610.30054v1.

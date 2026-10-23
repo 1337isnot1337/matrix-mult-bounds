@@ -1,5 +1,25 @@
 # Research status
 
+## Finite and quantified repair criteria from residual ranks
+
+The [residual-rank proof](research/ai/2026-10-23-residual-rank-repair/proof.md)
+gives a finite paired-source criterion and a larger quantified repair class.
+One genuine degeneration from Q(n,b) plus residual E to M(l,h,r) would suffice
+when `(lhr)^(3/4)>D(E)^(3/4)+sqrt(2b(2n+b-1)^3)/3`, where D is the smallest
+product of two residual flattening ranks. The minimum largest source leg
+among full targets passing this paired criterion is 441, at Q(21,8) and
+Q(21,9). Width four first passes without error at n=38 for full outer
+dimensions, and at n=64 for outer deficit one.
+
+An unbounded near-full family with first residual rank O(n^gamma), long
+ranks O(n), and gamma<1 implies
+`omega<=max(B_b,9/4-(1-gamma)^2/4)`. At gamma=7/10 and b=4 this retains
+the previous conditional bound below 2.2334, despite a crude scalar-rank
+cost O(n^1.7). All needed maps remain missing. Claims
+`AI-RESIDUAL-RANK-FINITE-GATE-001` and
+`AI-RESIDUAL-RANK-ASYMPTOTIC-GATE-002` are conditional and unreviewed.
+Exact arithmetic certifies these search criteria, not tensor constructions.
+
 ## A repair-cost barrier for the existing formal calculus
 
 The [operational-repair proof](research/ai/2026-10-23-operational-repair-barrier/README.md)
