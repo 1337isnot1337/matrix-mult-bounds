@@ -4,7 +4,10 @@ The unbalanced ordinary frontier continuation is in
 `ai/2026-10-23-unbalanced-square-frontier/README.md`, branch
 `research/unbalanced-square-frontier-20261023` (PR117). The complete
 N<=1377 square-sum screen covers82 source formats and52310 dimensions;
-only A(8,9) and A(9,9) survive the adopted gates. The separate
+only A(8,9) and A(9,9) survive the adopted gates. The later
+[Wronskian application](ai/2026-10-21-hankel-wronskian-cap/application.md)
+already excludes all improving ordinary A9 square direct sums. The saved
+A9 survival is historical; the A(8,9) question remains distinct. The separate
 single-rectangular continuation (PR138) leaves only three A(8,9) formats
 and owns their stronger rank-two/rank-three parameter-image question.
 The existing general Hankel pencil and constant-scheme workers retain
