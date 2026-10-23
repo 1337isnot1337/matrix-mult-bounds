@@ -1081,7 +1081,7 @@ unproved. Active worker branches continue to carry new experiments.
 
 [Claim ledger](research/claims.json) | [Full original note](research/ai/2026-10-20/research_note.md) | [Replay report](results/bootstrap-2026-10-20/summary.json)
 
-The commit-pinned [Codex proof audit](research/reviews/scalar-profile-proof-review-2026-10-23.md)
+The commit-pinned [Codex proof audit](research/reviews/2026-10-23-scalar-profile/PROOF_REVIEW.md)
 found no gap in the all-integer argument. The claim remains unreviewed pending
 independent human review; the audit does not change its theorem or exponent
 status.
