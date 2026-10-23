@@ -3,6 +3,11 @@
 October 23, 2026. Owner-directed Codex work. Written and unreviewed.
 This is a scoped obstruction, not an improved matrix exponent.
 
+Claims: `AI-A4-TWOSIDED-RANKLOSS-001` and
+`AI-A4-TWOSIDED-COORDINATE-002`. The second claim is computer-assisted.
+Exact source versions and prior attribution are recorded in
+[sources.json](sources.json).
+
 ## 1. The complete source family
 
 Use the canonical A4 matrix slices and the existing invertible source unit.
