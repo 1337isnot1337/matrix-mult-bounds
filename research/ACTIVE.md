@@ -139,6 +139,16 @@ velocity. Keep this14-row local incidence distinct from the full matrix
 target and from fixed lower-jet extension. Other base charts and the12-by8
 case remain open. Written, unreviewed, no smaller exponent.
 
+The singular-unit continuation studies
+`ai/2026-10-21-singular-unit-resolvent/QUESTION.md`, resumed at main d833eb0.
+The fixed rank-16 square-zero resolvent with constant PC=I110 is excluded
+for every Laurent first map when its candidate limiting-space rank is112.
+An exact minor proves a nonempty open dense locus; a source grading gives
+a common invariant dimension incompatible with Mat10. Next: determine
+the exceptional rank-drop locus or remove that rank hypothesis. Moving
+compressions and other unit trajectories remain outside the result.
+Written and unreviewed; no exponent improvement.
+
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
 boundary obstruction ranks at most two force both complete matrices to

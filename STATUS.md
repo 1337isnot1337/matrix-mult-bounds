@@ -230,6 +230,23 @@ Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
 the cubic component for a suitable first representative. Other projective
 base charts, the separate12-by8 problem and the full matrix target remain open. The exponent remains9/4.
 
+## A singular-unit resolvent chart
+
+The [resolvent proof](research/ai/2026-10-21-singular-unit-resolvent/proof.md)
+excludes A4 to M(10,10,11) with constant PC=I110 and
+B(t)=P(tI112+N)^(-1), where N is the specified normalized square-zero
+coordinate slice, whenever the displayed limiting candidate space has
+dimension 112. It allows every finite Laurent pole order in the first
+map and arbitrary constant target bases. An exact integer/modular
+certificate proves the rank hypothesis on a nonempty open dense set of
+compression pairs. A source grading supplies a proper invariant space
+whose dimension is indivisible by 10, contradicting a normalized Mat10
+action. Claim `AI-CYCLIC-SINGULAR-RESOLVENT-001` is written and unreviewed.
+
+This singular unit lift is outside the earlier regular-invertible-unit
+chart. Rank-drop compression pairs, moving compressions and other unit
+trajectories remain open. No general A4 exclusion or exponent gain follows.
+
 ## Finite cube bounds split-cover coordinate target volume
 
 The [full-source cube certificate](research/ai/2026-10-21-central-cover-finite-slices/proof.md)

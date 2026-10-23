@@ -574,6 +574,14 @@ constructions, including the A4 shear completion, remain separate
 questions; the exponent goal still requires an actual construction or a
 complete alternative implication.
 
+The [singular-unit resolvent obstruction](../research/ai/2026-10-21-singular-unit-resolvent/proof.md)
+also closes the specified square-zero resolvent ansatz on a nonempty open
+dense set of constant codimension-two compression pairs, allowing arbitrary
+first-map Laurent poles. A continuation must address its explicit
+candidate-space rank-drop locus, moving compressions, or a different
+unit trajectory. This is a conditional chart exclusion, not a general
+singular-unit obstruction.
+
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
