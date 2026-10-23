@@ -20,8 +20,12 @@ extension with every auxiliary cost accounted for.
 The fixed diagonal-shift maps in
 [AI-Q64-DIAGONAL-SHIFT-CORRECTION-001](../research/ai/2026-10-23-q64-diagonal-shift/proof.md)
 are now excluded: their target-minus-source correction has first-leg
-flattening rank `n^2`. This result does not cover other maps. A new search
-must change at least one of the three displayed leg maps or use a different
+flattening rank `n^2`. This result does not cover other maps. The entire
+first-leg chart is now excluded by the
+[fixed-long-leg extension](../research/ai/2026-10-23-q64-coordinate-long-legs/proof.md)
+as long as the two long-leg
+coordinate maps stay fixed: the correction flattening rank is `n^2`.
+Further work must change at least one long-leg map or use a different
 source family.
 
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary

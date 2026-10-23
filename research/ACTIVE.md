@@ -350,6 +350,12 @@ flattening for every n. This does not close the general paired-source
 question. The next construction search must change a leg map or source
 family and charge the complete auxiliary border rank.
 
+The [fixed-long-leg continuation](ai/2026-10-23-q64-coordinate-long-legs/proof.md)
+allows an arbitrary linear map on the first leg. The stacked `(0,0)` and
+`(1,1)` projected blocks have rank `n^2` for every such map, so a linear-cost
+correction is impossible while both long-leg coordinate maps stay fixed.
+Changing either long-leg map or the source family remains open.
+
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
 The smaller sparse M1 lead has an all-size first-edge support deficit.

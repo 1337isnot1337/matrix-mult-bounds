@@ -904,6 +904,12 @@ gives an all-size flattening obstruction for one explicit set of maps.
 The written proof is unreviewed and has no Lean formalization. It neither
 excludes general `Q(n,4)` maps nor establishes an exponent improvement.
 
+The `2026-10-23-q64-coordinate-long-legs` package extends that obstruction
+to every linear first-leg map while the two coordinate maps on the long
+legs stay fixed. The proof gives an all-size full-rank projected
+flattening, remains unreviewed, and does not cover changes to either
+long-leg map or improve the exponent.
+
 ## Nonsplit vector-degree finite continuation
 
 The October 23 vector-degree package is owner-directed Codex work. It

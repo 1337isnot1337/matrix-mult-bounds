@@ -1,6 +1,6 @@
 # Research status
 
-## A diagonal-shift Q(n,4) map needs a quadratic correction
+## Fixed long-leg coordinates force a quadratic Q(n,4) correction
 
 The [all-size flattening proof](research/ai/2026-10-23-q64-diagonal-shift/proof.md)
 shows that one explicit set of maps from `Q(n,4)` leaves a correction
@@ -11,6 +11,14 @@ the literal tensors and checks the block formula and rank for `n=1,...,12`.
 Claim `AI-Q64-DIAGONAL-SHIFT-CORRECTION-001` is written and unreviewed.
 This excludes only the displayed maps from an `O(n)` correction route;
 general `Q(n,4)` maps remain open. The exponent remains unchanged.
+
+The [fixed-long-leg extension](research/ai/2026-10-23-q64-coordinate-long-legs/proof.md)
+allows an arbitrary linear map on the first leg. With the two coordinate
+long-leg maps fixed, the correction's first-leg flattening rank is exactly
+`n^2` for every such map. Two projected inner-coordinate blocks force
+kernel vectors to be constant along diagonals, and the boundary rows force
+them to vanish. This proof remains unreviewed and does not cover changes to
+either long-leg map.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 
