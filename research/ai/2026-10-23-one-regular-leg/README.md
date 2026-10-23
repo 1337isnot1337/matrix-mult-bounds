@@ -46,3 +46,13 @@ argument. Its independent derivation and prior source credit remain
 separate; no independent review is asserted here. This theorem uses
 scalar balancing and spanning low-rank target generators to remove the
 image-rank threshold. PR108's partial frames retain their separate scope.
+
+At integration `5f72fedea54be72d86285688a0590ef1d861fcb7`, all33 focused,
+incoming-package, metadata and archive-integrity tests pass. The original
+`08ac3e9` hosted workflow passes every regression group on Python3.10
+and3.14 and all five archive replays on Python3.13. Its Python3.14 groups
+cover857 tests, with3 optional skips. Proof, verifier, focused test,
+requirements and both historical archives are unchanged by integration.
+The dated result directory records exact commit/tree and compressed local
+output. Required hosted CI must also pass the final integrated PR head.
+These checks do not change the mathematical review status.

@@ -1,0 +1,44 @@
+{
+  "tested_integration_commit": "5f72fedea54be72d86285688a0590ef1d861fcb7",
+  "tested_tree": "4d931cfb641d092af13df1eda1fac3d5e3f32f3e",
+  "python": "3.14.8",
+  "local_focused_and_metadata_tests": 33,
+  "local_result": "passed",
+  "local_log": "integrated-focused.log.gz",
+  "local_log_sha256": "55711efb2428aba5547a2e638ed97266ef75312b93ecdc8ff0178af2ee960c74",
+  "mathematical_and_archive_paths_unchanged_from": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+  "unchanged_paths": [
+    "research/ai/2026-10-23-one-regular-leg/proof.md",
+    "research/ai/2026-10-23-one-regular-leg/verify.py",
+    "tests/test_one_regular_leg.py",
+    "requirements.txt",
+    "tools/replay.py",
+    "research/ai/2026-10-20",
+    "research/ai/2026-10-20-session2"
+  ],
+  "hosted_prerequisite_full_suite": {
+    "commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+    "run_id": 39969747738,
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/actions/runs/39969747738",
+    "required_CI": "success",
+    "all_eight_regression_groups": "success",
+    "python_versions": [
+      "3.10",
+      "3.14"
+    ],
+    "verified_python_3_14_group_test_counts": [
+      240,
+      220,
+      220,
+      177
+    ],
+    "verified_python_3_14_total": 857,
+    "verified_python_3_14_optional_skips": 3,
+    "archive_replay_python_3_13": "success"
+  },
+  "final_head_hosted_CI": "required separately after this receipt is committed",
+  "proof_status": "proof-written-unreviewed",
+  "independent_review": false,
+  "improves_omega": false,
+  "local_full_suite": "Prior duplicate local run did not complete; not used as complete coverage."
+}
