@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The partial-unit-image continuation studies
+`ai/2026-10-23-regular-unit-image/QUESTION.md` on
+`research/regular-unit-image-20261023`. The proposed all-order argument
+compresses to 109 independent unit-image directions and recovers the
+entire long map through varying left inverses. It aims to replace an
+invertible A4 unit by `rank(S(0) C(0))>=109`. Exact controls and the written
+proof are being checked; no general degeneration or exponent claim.
+
 The affine-conic continuation studies
 `ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module
 has dimension70:68 independent boundary fields and two conic normals.
