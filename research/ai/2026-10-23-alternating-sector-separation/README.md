@@ -22,6 +22,17 @@ second and third legs exchanged and the first-leg basis reversed. The sectors
 have disjoint coordinates on their second and third legs and share the
 first leg.
 
+Here a character has oriented dot-product exponents `p_X,p_Y,p_Z`, with
+`t=(p_X+p_Y+p_Z)/3>0`; its symmetrized profile is
+
+\[
+\mathcal P(T)=\left(\prod_{\pi\in S_3}\lambda_\pi(T)\right)^{1/(6t)},
+\qquad P(a,b)=\mathcal P(C(a,b)),
+\]
+
+where `lambda_pi` denotes the character value with tensor legs permuted by
+`pi`.
+
 Consequently every actual complex tensor character profile satisfies
 
 \[
