@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-leading-defect` package continues the pinned cyclic
+source minimum, complete minimum-rank classification, coherent-factor
+locus and PR113 one-regular-long-leg obstruction. The equality common
+row/column intersection and small-codimension bilinear-kernel argument
+are owner-directed OpenAI Codex continuations. The descent across
+rank-drop fibers imports the standard proper-finite-fibers and finite-
+birational-normal theorems, Stacks Tags02LS and0AB1, with hypotheses
+and exact citations in the proof and sources.json. No historical priority,
+independent review, formalization or exponent gain is claimed. Exact leading controls do not construct a full target.
+
 The `2026-10-23-one-regular-leg` package is owner-directed OpenAI Codex
 work continuing the credited cyclic source minimum and earlier regular-
 unit Laurent arguments. Exact predecessor bytes are pinned in sources.json.

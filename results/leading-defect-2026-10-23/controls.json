@@ -1,0 +1,764 @@
+{
+  "bilinear_kernel_controls": [
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 0,
+      "direct_sum_rankone_span_dimension": 100,
+      "individual_fiber_dimensions": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "minimum_shared_fiber_dimension": 10,
+      "pairwise_intersection_argument_suffices": true
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 1,
+      "direct_sum_rankone_span_dimension": 90,
+      "individual_fiber_dimensions": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "minimum_shared_fiber_dimension": 8,
+      "pairwise_intersection_argument_suffices": true
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 2,
+      "direct_sum_rankone_span_dimension": 80,
+      "individual_fiber_dimensions": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "minimum_shared_fiber_dimension": 6,
+      "pairwise_intersection_argument_suffices": true
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 3,
+      "direct_sum_rankone_span_dimension": 70,
+      "individual_fiber_dimensions": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "minimum_shared_fiber_dimension": 4,
+      "pairwise_intersection_argument_suffices": true
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 4,
+      "direct_sum_rankone_span_dimension": 60,
+      "individual_fiber_dimensions": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "minimum_shared_fiber_dimension": 2,
+      "pairwise_intersection_argument_suffices": true
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 5,
+      "direct_sum_rankone_span_dimension": 50,
+      "individual_fiber_dimensions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "minimum_shared_fiber_dimension": 0,
+      "pairwise_intersection_argument_suffices": false
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 6,
+      "direct_sum_rankone_span_dimension": 40,
+      "individual_fiber_dimensions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_shared_fiber_dimension": 0,
+      "pairwise_intersection_argument_suffices": false
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 7,
+      "direct_sum_rankone_span_dimension": 30,
+      "individual_fiber_dimensions": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "minimum_shared_fiber_dimension": 0,
+      "pairwise_intersection_argument_suffices": false
+    },
+    {
+      "basis_pairs_checked": 45,
+      "constraint_count": 8,
+      "direct_sum_rankone_span_dimension": 20,
+      "individual_fiber_dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "minimum_shared_fiber_dimension": 0,
+      "pairwise_intersection_argument_suffices": false
+    }
+  ],
+  "coherent_defect_upper_exclusive": 32,
+  "coherent_leading_rank_bound": 16,
+  "equality_leading_first_map_rank": 1,
+  "equality_minimum_balanced_first_map_pole_order": 9,
+  "improves_omega": false,
+  "independent_review": false,
+  "leading_equation_controls": [
+    {
+      "column_defect": 13,
+      "column_deleted_coordinates": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        109,
+        99
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 3,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "row_restored_at_degree_one": [
+        0
+      ]
+    },
+    {
+      "column_defect": 12,
+      "column_deleted_coordinates": [
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        16,
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        108,
+        100
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 4,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1
+      ]
+    },
+    {
+      "column_defect": 11,
+      "column_deleted_coordinates": [
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        17,
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        107,
+        101
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 5,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "column_defect": 10,
+      "column_deleted_coordinates": [
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        18,
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        106,
+        102
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 6,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "column_defect": 9,
+      "column_deleted_coordinates": [
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        19,
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        105,
+        103
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 7,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28
+      ]
+    },
+    {
+      "column_defect": 8,
+      "column_deleted_coordinates": [
+        32,
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        32,
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        104,
+        104
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 8,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29
+      ]
+    },
+    {
+      "column_defect": 7,
+      "column_deleted_coordinates": [
+        33,
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        33,
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        103,
+        105
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 9,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "column_defect": 6,
+      "column_deleted_coordinates": [
+        34,
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        34,
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        102,
+        106
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 10,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "column_defect": 5,
+      "column_deleted_coordinates": [
+        35,
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        35,
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        101,
+        107
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 11,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56
+      ]
+    },
+    {
+      "column_defect": 4,
+      "column_deleted_coordinates": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        48,
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        100,
+        108
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 12,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58,
+        59
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57
+      ]
+    },
+    {
+      "column_defect": 3,
+      "column_deleted_coordinates": [
+        49,
+        50,
+        51
+      ],
+      "column_restored_at_degree_one": [
+        49
+      ],
+      "complete_target_identity": false,
+      "constant_output_rank": 12,
+      "leading_ranks": [
+        99,
+        109
+      ],
+      "negative_output_entries": 0,
+      "row_defect": 13,
+      "row_deleted_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58,
+        59,
+        84
+      ],
+      "row_restored_at_degree_one": [
+        0,
+        1,
+        2,
+        3,
+        28,
+        29,
+        30,
+        31,
+        56,
+        57,
+        58
+      ]
+    }
+  ],
+  "minimum_slice_pencils": [
+    {
+      "annihilator_minor_determinant": "288",
+      "annihilator_pivot_rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9,
+        12
+      ],
+      "literal_source_coefficients_checked": 62720,
+      "parameters": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "polynomial_intersection_dimension": 0,
+      "source_slice_ranks_from_factorization": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "varying_factor": "u"
+    },
+    {
+      "annihilator_minor_determinant": "288",
+      "annihilator_pivot_rows": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9,
+        12
+      ],
+      "literal_source_coefficients_checked": 62720,
+      "parameters": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "polynomial_intersection_dimension": 0,
+      "source_slice_ranks_from_factorization": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "varying_factor": "v"
+    }
+  ],
+  "necessary_total_defect": 16,
+  "proof_status": "proof-written-unreviewed",
+  "scope": "Necessary leading flags only; no complete target or exponent gain.",
+  "source_pin_count": 4
+}
