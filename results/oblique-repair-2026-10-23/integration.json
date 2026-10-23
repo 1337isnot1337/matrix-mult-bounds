@@ -1,0 +1,139 @@
+{
+  "full_suite_commit": "b6c38513b33c4de2b1ddee4b22525adb74dbc291",
+  "full_suite_receipt": "results/oblique-repair-2026-10-23/border-checkpoint/validation.json",
+  "earlier_full_suite_commit": "53fed21130a5c46a9c2336a8d196ea0547c2cbfb",
+  "earlier_full_suite_receipt": "results/oblique-repair-2026-10-23/ordinary-checkpoint/validation.json",
+  "integrated_main": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "integrated_followups": [
+    "489be8a0567bc6a69137e9fc2eecb5a8a17f9837",
+    "e958730a332c10e25c9cf7ac682187a20621ce3e"
+  ],
+  "tested_commit": "aeafc7b944425f2f8d0118ea6cf7f520724eb251",
+  "tested_tree": "04a77e87abb7917e00d592860b84401d733f0bd1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONOPTIMIZE": "unset"
+  },
+  "tests_executed_incrementally": 63,
+  "new_tests_executed": 19,
+  "existing_related_tests_reexecuted": 26,
+  "metadata_tests_reexecuted": 18,
+  "incremental_failures": 0,
+  "incremental_errors": 0,
+  "incremental_skips": 0,
+  "incremental_elapsed_seconds": 5.3432055849998505,
+  "command": [
+    "python",
+    "-m",
+    "unittest",
+    "-v",
+    "tests.test_oblique_full_residual_rank",
+    "tests.test_oblique_longmap_frontier",
+    "tests.test_resolvent_minrank",
+    "tests.test_oblique_paired_repair",
+    "tests.test_oblique_border_repair",
+    "tests.test_oblique_core_ordinary_rank",
+    "tests.test_product_longmap_residual",
+    "tests.test_research"
+  ],
+  "log": "results/oblique-repair-2026-10-23/integration.log.gz",
+  "status": "results/oblique-repair-2026-10-23/integration-status.json.gz",
+  "combined_inventory_tests": 903,
+  "combined_inventory_modules": 209,
+  "full_rerun_at_integration": false,
+  "prior_python_files_preserved": 728,
+  "changed_prior_python_paths": [],
+  "added_python_paths": [
+    "research/ai/2026-10-23-oblique-border-repair/full_residual_rank.py",
+    "research/ai/2026-10-23-oblique-longmap-frontier/frontier.py",
+    "research/ai/2026-10-23-resolvent-minrank/verify.py",
+    "tests/test_oblique_full_residual_rank.py",
+    "tests/test_oblique_longmap_frontier.py",
+    "tests/test_resolvent_minrank.py"
+  ],
+  "added_python_files_match_source_commits": true,
+  "new_test_ids": [
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_actual_exported_source_maps_replay",
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_border_scope_and_koszul_ceiling",
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_changed_residual_or_source_map_is_rejected",
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_complete_saved_certificate_and_sources",
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_family_basis_splittings_and_rank_costs",
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_invalid_family_parameters",
+    "test_oblique_full_residual_rank.ObliqueFullResidualRankTests.test_wrong_saved_support_dimension_is_rejected",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_changed_unit_minor_and_scope_are_rejected",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_complete_saved_certificate_and_all_source_pins",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_false_source_pin_is_rejected",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_last_shift_minor_and_missing_grid_control_are_rejected",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_last_valid_corner_and_false_singular_status_are_rejected",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_sparse_native_contraction_and_full_first_map_controls",
+    "test_oblique_longmap_frontier.ObliqueLongmapFrontierTests.test_surjective_benchmark_and_all_field_minor",
+    "test_resolvent_minrank.ResolventMinrankTests.test_artifact_hashes_and_source_pins",
+    "test_resolvent_minrank.ResolventMinrankTests.test_complete_integer_certificate_and_recorded_report",
+    "test_resolvent_minrank.ResolventMinrankTests.test_corrupted_eliminations_and_omitted_cases_are_rejected",
+    "test_resolvent_minrank.ResolventMinrankTests.test_literal_source_matches_independent_six_index_tensor_expansion",
+    "test_resolvent_minrank.ResolventMinrankTests.test_sharp_mixed_block_has_exact_rational_rank_six"
+  ],
+  "prior_test_ids_removed": [],
+  "archive_diff_from_full_suite_commit": [],
+  "archive_diff_from_fe602e4": [],
+  "combined_discovery": "results/oblique-repair-2026-10-23/integration-discovery.json.gz",
+  "logs": [
+    {
+      "path": "results/oblique-repair-2026-10-23/integration.log.gz",
+      "sha256": "36199165234b93c7a0913c0db26c46368940685e85d298361b0b228aa0feba02",
+      "uncompressed_sha256": "21e160b13f19c3c6d35631564a7aef6654a45b1d896525f11ff4613b7ad41712"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/integration-status.json.gz",
+      "sha256": "c188638dd24c4e9a070cb68ff0da079b6c3335a1809ba0da86df8407ab8e6f0f",
+      "uncompressed_sha256": "d7702cacbf6484e76b1c6e209e8149ef77ece3442e0c6c8b486b422e6c6c46b5"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/integration-discovery.json.gz",
+      "sha256": "d3babdbdbc9bcc0b8a68d3290334f4c7b9bb6f972263398264cdd857f1714d73",
+      "uncompressed_sha256": "1f24bb0142ae87fa19bb7268ceea669a6f4ba938f4b3b071c4fd68bbde6658ae"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/incomplete-log-attempt.log.gz",
+      "sha256": "bad5c29a5adce532b99fadb326241d8dd75102d3dc279d1605162859f3e1e2b5",
+      "uncompressed_sha256": "406ad13d47e5ea0f833398e712fb1cbac4b59ed5bf127cca91805fb1f4d1bc26"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/incomplete-log-attempt-status.json.gz",
+      "sha256": "3813c2ab25e0464060215e581c2f78b7829756ddc48b3889e179ce7061a9ea83",
+      "uncompressed_sha256": "69692a2d6a6312d07bdacda54ef79b641ef7e70bdb83b7a16eedbeedf08b1190"
+    }
+  ],
+  "incomplete_attempts": [
+    {
+      "included_in_accepted_coverage": false,
+      "retained_files": [
+        "results/oblique-repair-2026-10-23/incomplete-log-attempt.log.gz",
+        "results/oblique-repair-2026-10-23/incomplete-log-attempt-status.json.gz"
+      ],
+      "reason": "An initial 63-test run produced a successful completion record but its persisted log stopped during the first research test and had no final footer. The cause is unknown. A fresh full 63-test run wrote the complete in-memory unittest log after execution, with a matching SHA and complete footer. Only that fresh run is accepted."
+    }
+  ],
+  "claims_preserved": "Both source-branch and incoming-main claim sets were compared as JSON objects at each merge. Each unique claim object is retained unchanged.",
+  "scope": "The complete 884-test regression and five archive replays are attributed only to b6c38513. The earlier ordinary checkpoint separately passed 871 tests and five replays at 53fed211. The integrated tree adds only six Python files; every previous Python file remains byte-identical. All 19 added tests, 26 related previous tests and 18 repository tests passed. The 903-test discovery inventory is not a fresh full-suite execution. Incomplete attempts are retained and excluded from accepted coverage. Current-head hosted CI remains required.",
+  "post_receipt_metadata_check": {
+    "tests": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "result": "OK",
+    "unittest_elapsed_seconds": 0.077,
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "tests.test_research",
+      "-v"
+    ],
+    "scope": "Completed after writing the validation README and STATUS/ACTIVE documentation; this record was written afterward. No Python files changed."
+  }
+}

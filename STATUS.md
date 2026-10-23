@@ -16,6 +16,14 @@ minors, the complete exported source contraction and false certificates.
 The middle first-leg Koszul rank has structural ceiling 504, so that
 test cannot certify optimal border rank eighteen.
 
+The [validation receipts](results/oblique-repair-2026-10-23/README.md)
+record complete 871-test and 884-test regressions at the ordinary and border
+checkpoints, each with all five archive replays and no skips. After integrating
+the full-rank proof, long-map frontier and main `3008d70`, all nineteen added
+tests and forty-four related or repository checks pass. All 728 prior Python
+files are unchanged. The combined 903-test inventory is not a fresh full run;
+current-head hosted CI remains required.
+
 ## A surjective benchmark and the fixed-good-row frontier
 
 The [long-map frontier](research/ai/2026-10-23-oblique-longmap-frontier/README.md)

@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+PR147 now combines the paired ordinary and border constructions, the exact
+full-residual ordinary-rank proof and the scoped long-map frontier on
+`research/oblique-border-repair-20261023`. Main `3008d70` is integrated.
+The [validation record](../results/oblique-repair-2026-10-23/README.md)
+retains complete frozen runs of 871 and 884 tests, all five archive replays
+at each checkpoint, and 63 integration checks at `aeafc7b`. All nineteen
+added tests pass; the 903-test combined inventory is not a new full-suite run.
+Incomplete attempts are retained and excluded. Current-head hosted CI is
+still required. The following branch notes retain their original scope.
+
 The [full-residual ordinary-rank follow-up](ai/2026-10-23-oblique-border-repair/full_residual_rank.md)
 is on `research/oblique-full-ordinary-rank-20261023`, based on `b6c38513`.
 It proves ordinary rank `4r-1` for the fixed residual when `n=b+2`,
