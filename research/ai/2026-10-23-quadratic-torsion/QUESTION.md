@@ -1,5 +1,8 @@
 # When is the balanced quadratic rank defect attained?
 
+Historical question checkpoint; the resulting written, unreviewed argument
+and finite controls are in [README.md](README.md) and [proof.md](proof.md).
+
 Started October 23, 2026 from main a510bec after PR218 merged. This
 investigation is owner-directed Codex research. No new theorem or exponent
 improvement is claimed by this question checkpoint.
