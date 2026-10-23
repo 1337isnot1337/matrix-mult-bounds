@@ -1,6 +1,6 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T17:45:08.854340+00:00",
+  "assembled_at": "2026-10-23T17:47:18.250186+00:00",
   "outputs": [
     {
       "path": ".github/workflows/verify.yml",
@@ -184,11 +184,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "sha256": "da30a38aecbfc242ce915cde24107935efcb9c0773d9e65f550561c38e597090",
+      "sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims.",
-      "report": "closure_metadata_resolution.json",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates.",
+      "report": "final_packaging_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -201,16 +201,22 @@
           "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
           "report": "closure_metadata_resolution.json",
           "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "final_packaging_resolution.json",
+          "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
         }
       ]
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "sha256": "6256ae7a3c8e7637c23b1ab2ece183d952d0780cd7e1432ecaae45e5729dc585",
+      "sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims.",
-      "report": "closure_metadata_resolution.json",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates.",
+      "report": "final_packaging_resolution.json",
       "origins": [
         {
           "source_commit": null,
@@ -223,6 +229,12 @@
           "source_path": "docs/consolidation/2026-10-23/README.md",
           "report": "closure_metadata_resolution.json",
           "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "final_packaging_resolution.json",
+          "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
         }
       ]
     },
@@ -29633,6 +29645,22 @@
       "final_sha256": "da30a38aecbfc242ce915cde24107935efcb9c0773d9e65f550561c38e597090",
       "final_report": "closure_metadata_resolution.json",
       "reason": "Record four exact verified closure captures, preserving original source PR provenance and historical test receipts; report 159 snapshots, 132 topics and unchanged 607 claims."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous_sha256": "da30a38aecbfc242ce915cde24107935efcb9c0773d9e65f550561c38e597090",
+      "previous_report": "closure_metadata_resolution.json",
+      "final_sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "final_report": "final_packaging_resolution.json",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous_sha256": "6256ae7a3c8e7637c23b1ab2ece183d952d0780cd7e1432ecaae45e5729dc585",
+      "previous_report": "closure_metadata_resolution.json",
+      "final_sha256": "5e72826f6720a09b0c5aa6443fb35a068830664571f3a31dd72720a03917330d",
+      "final_report": "final_packaging_resolution.json",
+      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
     }
   ],
   "inputs": {
@@ -29665,7 +29693,8 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/postvalidation_metadata_resolution.json": "fb63ea57af098de48ea5d6ca31f54995a65f305d09c74d91234cdc1f025496e0",
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_source_resolution.json": "81fede328d7e66b7ad972d347f4717ce03d57b2f51229110007f84a80480e4d4",
     "/workspace/scratch/5e4a124ebf61/consolidation/closure_docs_resolution.json": "0da0799bdfff1b79fcf154e4ac04b14d3c9925f514c8c6c97476cd9d23d4163d",
-    "/workspace/scratch/5e4a124ebf61/consolidation/closure_metadata_resolution.json": "a3a5c870eb10de7ab359ed1f56f8d3b3e549398ecfe32d28253f2837ac1d728a"
+    "/workspace/scratch/5e4a124ebf61/consolidation/closure_metadata_resolution.json": "a3a5c870eb10de7ab359ed1f56f8d3b3e549398ecfe32d28253f2837ac1d728a",
+    "/workspace/scratch/5e4a124ebf61/consolidation/final_packaging_resolution.json": "ab3014939c72ce276e16bd4716146664b7a62d02f36e896220268099b5b46f6e"
   },
   "method": "Expected output hashes come from designated implementation artifacts and original Git blobs, never from the final tree being audited. All conflicting expected hashes require an explicit superseding report or follow a restoration-only source copy."
 }

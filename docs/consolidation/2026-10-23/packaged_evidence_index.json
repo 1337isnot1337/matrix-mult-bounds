@@ -20,8 +20,8 @@
     {
       "source_file": "preservation_report.json",
       "path": "docs/consolidation/2026-10-23/preservation_report.json",
-      "source_sha256": "fe4b30ecd38ef13f247ffeb89cb00c762b94cb606f4c79cf4851ed3f8861e71f",
-      "sha256": "fe4b30ecd38ef13f247ffeb89cb00c762b94cb606f4c79cf4851ed3f8861e71f",
+      "source_sha256": "b3e2c5af965045760a8f89029cecc1d964feff980b9302a1608a6818dd3c7cb5",
+      "sha256": "b3e2c5af965045760a8f89029cecc1d964feff980b9302a1608a6818dd3c7cb5",
       "compression": null
     },
     {
@@ -41,8 +41,8 @@
     {
       "source_file": "central_resolution_manifest.json",
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
-      "source_sha256": "02e27ad67f5ad66df615783075607eb04af69171b8ce288b5631b50338df1f04",
-      "sha256": "02e27ad67f5ad66df615783075607eb04af69171b8ce288b5631b50338df1f04",
+      "source_sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
+      "sha256": "ca2186d530bba0ed56bf2ac2da8e48339d850ac1a2f52e50bc71dfa434aaf02a",
       "compression": null
     },
     {
@@ -557,5 +557,6 @@
       "compression": null
     }
   ],
-  "limitations": "The current central manifest and preservation receipt may be refreshed after this metadata commit; their separately preserved revision-suffixed copies retain the exact earlier bytes."
+  "limitations": "Current report hashes are exact at this packaging. Earlier audit bytes remain under explicit revision suffixes. The resulting publication commit adds receipts only to the audited metadata tree.",
+  "final_audit_head": "a92cbacd770bfa7d0a772677e53d44ab91d2328f"
 }
