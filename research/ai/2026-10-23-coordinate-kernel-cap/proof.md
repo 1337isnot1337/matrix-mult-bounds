@@ -137,3 +137,8 @@ written and unreviewed, and the finite certificate is not a formalization
 or independent mathematical review. Arbitrary noncoordinate leading
 kernels, smaller rank pairs and the full target remain open to this
 argument. The exponent remains9/4.
+
+The subsequent [torus reduction](torus_reduction.md) transfers the
+coordinate compression bound to arbitrary complex kernels. It supplies
+a separate written dense continuation; the finite graph census itself
+retains precisely its coordinate scope.

@@ -69,6 +69,74 @@ def source_control():
             "coefficient_graphs": 16, "endpoint_reversal": True}
 
 
+def torus_control(coefficients=(1, 16, 256)):
+    alpha, beta, gamma = coefficients
+    weights = [
+        {i*alpha-k*beta+z*gamma for i, k, z in product(range(4), range(7), range(4))},
+        {j*alpha+p*beta-l*gamma for j, p, l in product(range(4), range(4), range(7))},
+        {-h*alpha+q*beta+r*gamma for h, q, r in product(range(7), range(4), range(4))},
+    ]
+    require([len(w) for w in weights] == [112]*3, "Source torus weights are not simple")
+    count = 0
+    for i, j, p, q, r, z in product(range(4), repeat=6):
+        total = (i*alpha-(p+q)*beta+z*gamma
+                 + j*alpha+p*beta-(r+z)*gamma
+                 - (i+j)*alpha+q*beta+r*gamma)
+        require(total == 0, "Source torus does not preserve a coefficient")
+        count += 1
+    return {"coefficients": list(coefficients), "distinct_weights": [112]*3,
+            "source_coefficients_checked": count, "all_total_weights_zero": True}
+
+
+def initial_kernel_control():
+    """An exact noncoordinate quotient whose projected rank drops at its torus limit."""
+    import sympy as s
+
+    first = list(product(range(2), range(3), range(2)))
+    rows = list(product(range(2), range(2), range(3)))
+    columns = list(product(range(3), range(2), range(2)))
+    ai, bi, ci = ({x: i for i, x in enumerate(basis)}
+                  for basis in (first, rows, columns))
+    b_pivots = [bi[0, 0, 0], bi[0, 0, 1]]
+    c_pivots = [ci[1, 0, 0], ci[1, 0, 1]]
+    b_extra, c_extra = bi[0, 1, 0], ci[2, 1, 1]
+    b_weights = [j+16*p-256*l for j, p, l in rows]
+    c_weights = [-h+16*q+256*r for h, q, r in columns]
+    b_orders = [b_weights[b_extra]-b_weights[p] for p in b_pivots]
+    c_orders = [c_weights[c_extra]-c_weights[p] for p in c_pivots]
+    require(b_orders == [16, 272] and c_orders == [271, 15], "Wrong torus quotient orders")
+
+    def quotient(pivots, extra, value):
+        keep = [i for i in range(12) if i not in pivots]
+        matrix = s.zeros(10, 12)
+        for j, k in enumerate(keep):
+            matrix[j, k] = 1
+        for k in pivots:
+            matrix[keep.index(extra), k] = -value
+        return matrix
+
+    projected_ranks = []
+    for value in (0, 1):
+        left = quotient(b_pivots, b_extra, value)
+        right = quotient(c_pivots, c_extra, value)
+        require(left.rank() == right.rank() == 10, "Quotient dimension changed")
+        flat = s.zeros(100, 12)
+        for i, j, p, q, r, z in product(range(2), repeat=6):
+            av, bv, cv = ai[i, p+q, z], bi[j, p, r+z], ci[i+j, q, r]
+            for u in range(10):
+                if left[u, bv]:
+                    for v in range(10):
+                        flat[10*u+v, av] += left[u, bv]*right[v, cv]
+        projected_ranks.append(flat.rank())
+    require(projected_ranks == [11, 12], "Torus specialization rank-drop control failed")
+    return {"source_a": 2, "quotient_ranks": [10, 10],
+            "left_kernel_pivots": b_pivots, "left_extra_coordinate": b_extra,
+            "right_kernel_pivots": c_pivots, "right_extra_coordinate": c_extra,
+            "left_positive_orders": b_orders, "right_positive_orders": c_orders,
+            "projected_rank_at_zero": 11, "projected_rank_at_one": 12,
+            "kernel_dimension_at_zero": 1, "kernel_dimension_at_one": 0}
+
+
 def check_witness(subset, witness):
     adjacency = graph(subset)
     require(isinstance(witness, list) and len(witness) in (24, 25),
@@ -141,8 +209,10 @@ def verify(record=None):
     summary = {"proof_status": "proof-written-unreviewed", "independent_review": False,
                "improves_omega": False, "target_constructed": False,
                "source_control": source_control(), "matching_census": check_certificate(),
+               "source_torus": torus_control(), "torus_limit_control": initial_kernel_control(),
                "ten_coordinate_subspaces": 8008,
-               "mixed_pairs_closed_with_coordinate_kernels": 16}
+               "mixed_pairs_closed_with_coordinate_kernels": 16,
+               "mixed_pairs_closed_by_written_torus_transfer": 16}
     if record is None:
         record = json.loads((RESULT / "verification.json").read_text())
     require(record == summary, "Changed verification summary or inflated scope")

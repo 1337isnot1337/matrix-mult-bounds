@@ -12,3 +12,8 @@ below-twice-minimum classification. Discover finite bipartite matching
 witnesses for every ten-coordinate biform subspace. Verify the exported
 witnesses independently of the matching search. Do not generalize this
 coordinate-kernel condition to arbitrary complex limiting kernels.
+
+Follow-up: the literal source has a simple diagonal torus on every leg.
+Check whether simultaneous fixed-dimension kernel specialization transfers
+the coordinate cap to arbitrary kernels. The written proof and exact
+weight/rank-drop controls are now in torus_reduction.md and verify.py.

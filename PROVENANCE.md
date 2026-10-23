@@ -1,5 +1,13 @@
 # Attribution and provenance
 
+The dense continuation in `2026-10-23-coordinate-kernel-cap/torus_reduction.md`
+is owner-directed Codex work. A self-contained diagonal-kernel limit argument
+transfers the finite coordinate cap to arbitrary complex kernels. Source
+weights, a noncoordinate rank-drop control and the pairwise balanced-rank
+consequences are local deductions. Standard torus specialization is not
+claimed as historically new. Prior source, saturation and coordinate
+certificate credits are retained; no independent review or exponent gain.
+
 The `2026-10-23-coordinate-kernel-cap` package is owner-directed OpenAI
 Codex work. The canonical cyclic source, low-rank classification,
 saturated support inequality and regular-leg frontier retain their prior

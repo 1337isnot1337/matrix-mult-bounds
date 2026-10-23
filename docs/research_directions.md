@@ -323,3 +323,14 @@ the canonical source bases. Any such pair must have rank sum at most192,
 even with arbitrary later mixing and Laurent poles on the third map.
 Search lower leading ranks or noncoordinate leading kernels; repeating
 higher jets in the closed coordinate charts cannot evade this gate.
+
+
+## Dense balanced leading-rank gate
+
+The [simple source-torus transfer](../research/ai/2026-10-23-coordinate-kernel-cap/torus_reduction.md)
+removes the coordinate hypothesis from the preceding high-rank pair gate.
+Every pair of individually balanced leading target-leg ranks sums to at
+most192. At short leading rank100, both long leading ranks are at most92.
+Search lower rank triples; arbitrary complex mixing of leading kernels
+does not reopen the sixteen closed high-rank mixed pairs. The matrix
+target and exponent goal remain open, and the proof is unreviewed.

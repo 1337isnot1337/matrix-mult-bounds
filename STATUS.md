@@ -1,5 +1,23 @@
 # Research status
 
+## Every pair of balanced A4 leading ranks has total at most192
+
+The [simple-source-torus argument](research/ai/2026-10-23-coordinate-kernel-cap/torus_reduction.md)
+transfers the complete coordinate matching cap to arbitrary complex
+compression kernels. Simultaneous kernel limits retain their dimensions
+and can only lower the projected first rank. The literal source torus has
+112 distinct weights on every leg and preserves all4096 source terms.
+Together with the prior dense regular-leg screen, this closes all sixteen
+mixed high-rank pairs: every two regular target-leg maps have rank sum at
+most192, allowing arbitrary later jets and a Laurent third map. Individual
+scalar balancing gives the same bound on every pair of leading ranks in
+any Laurent presentation. Their total is at most288; short leading rank100
+forces both long leading ranks at most92. Claim
+`AI-A4-DENSE-REGULAR-PAIR-003` is written and unreviewed. Finite source-weight,
+matching and noncoordinate rank-drop controls support the proof without
+formalizing it. Lower rank triples and the target remain unconstructed;
+no exponent improvement is established.
+
 ## Coordinate leading kernels close the mixed high-rank regular pairs
 
 The [coordinate-kernel certificate](research/ai/2026-10-23-coordinate-kernel-cap/proof.md)

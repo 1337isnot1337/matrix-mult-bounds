@@ -55,6 +55,14 @@ class CoordinateKernelCapTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 v.check_sources(bad)
 
+    def test_source_torus_has_simple_weights_and_rank_drops_in_the_right_direction(self):
+        self.assertEqual(v.torus_control()["distinct_weights"], [112]*3)
+        with self.assertRaises(ValueError):
+            v.torus_control((1, 1, 1))
+        control = v.initial_kernel_control()
+        self.assertEqual(control["projected_rank_at_zero"], 11)
+        self.assertEqual(control["projected_rank_at_one"], 12)
+
     def test_reject_inflated_review_or_exponent_claim(self):
         for field in ("independent_review", "improves_omega", "target_constructed"):
             bad = copy.deepcopy(self.summary)

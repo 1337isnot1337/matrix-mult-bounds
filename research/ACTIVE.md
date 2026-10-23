@@ -6,7 +6,9 @@ The coordinate-kernel continuation is in
 matching certificate closes the sixteen mixed high-rank pairs when both
 regular constant kernels are coordinate. The third Laurent map and all
 higher regular jets remain arbitrary. Written and unreviewed; arbitrary
-complex leading kernels and lower ranks are not closed.
+complex leading kernels are now covered by the separate written source-torus
+transfer. Every pair of balanced leading ranks has sum at most192; lower
+rank triples and the target remain open.
 
 The two-regular-leg continuation is in
 `ai/2026-10-23-regular-leg-frontier/QUESTION.md`, branch
