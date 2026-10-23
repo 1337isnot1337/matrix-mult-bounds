@@ -52,10 +52,14 @@ does not construct M(10,10,11). Concurrent PR123 retains its separate
 exact d=0 curve preserving its credited two-jet.
 
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
-now proves rank six sharply over every field. Its open structural question
-is the rank-six locus and the required kernel/image alignment under two
-rank109 compressions. Check the broader long-map exclusions before
-treating such an aligned compression as a possible matrix target.
+proves rank six sharply over every field. The
+[rank-six classification](../research/ai/2026-10-23-resolvent-rank-six-locus/proof.md)
+now determines its 17-dimensional linear locus and common six-dimensional
+image. Over an algebraically closed field, two rank-109 compressions lose
+at most one direction; an explicit integer pair attains the bound. The next
+structural questions concern larger rank-loss budgets and other resolvent
+limits. Check the broader long-map exclusions before treating any aligned
+compression as a possible matrix target.
 
 ## Active paired construction: near-full width four
 
