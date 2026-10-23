@@ -13,7 +13,12 @@ nonnegative integer d with d(d+1)/2<=e and q is the largest with
 d(d+1)<=e. At n=200,c=1, first rank is at least 176, or 188 when both
 diagonal factor maps are injective. The proof works over every field
 by algebraic-closure descent. Claim `AI-DIAGONAL-FIRST-SUPPORT-001`
-is written and unreviewed. Eight exact-control tests pass.
+is written and unreviewed. The [follow-up receipt](results/first-support-capacity-2026-10-23/diagonal-followup.json)
+records 37 passing checks at `26f4fb8`, including all eight new tests,
+eight prior support-capacity tests, eighteen repository checks and three
+archive-integrity checks. All 721 prior Python files are unchanged.
+The combined 879-test inventory is discovery coverage; the complete
+871-test run below remains attributed to its earlier checkpoint.
 The injective shift-transpose control is a
 first-map example, not a source-to-target construction. General first
 maps, Laurent degenerations and linear repair costs remain open; no

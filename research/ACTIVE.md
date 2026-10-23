@@ -1,13 +1,16 @@
 # Integrated research coordination
 
 The [diagonal first-support follow-up](ai/2026-10-23-diagonal-first-support/README.md)
-is on `research/diagonal-first-support-20261023`, from the validated
-support-capacity checkpoint `7690348`. It assumes only a fixed-polynomial
+is integrated into `research/repair-support-capacity-20261023` and PR164,
+from the validated support-capacity checkpoint `7690348`. It assumes only a fixed-polynomial
 product on L(u u^T), allowing arbitrary diagonal-vanishing changes
 off the diagonal and arbitrary ordinary long maps. The n=200,c=1
 example requires first residual rank at least 176, or 188 for injective
 diagonal factors. An exact joint kernel budget supplies the general
-bound. The proof remains written and unreviewed. The
+bound. All 37 [integration checks](../results/first-support-capacity-2026-10-23/diagonal-followup.json)
+pass at `26f4fb8`; all 721 prior Python files are unchanged. The 879-test
+combined inventory is not a fresh full-suite run. The proof remains
+written and unreviewed. The
 [question record](ai/2026-10-23-diagonal-first-support/QUESTION.md)
 distinguishes the rank-only counterexample from an actual tensor map.
 Next: a construction outside this diagonal class or a repair that

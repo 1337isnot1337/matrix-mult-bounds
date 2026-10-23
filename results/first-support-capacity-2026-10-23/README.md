@@ -53,6 +53,43 @@ after the full regression. No newer main-branch changes were merged
 during this receipt checkpoint.
 
 The tests do not establish independent mathematical review or an
-improved matrix multiplication exponent. The two new claims remain
+improved matrix multiplication exponent. The two claims at that checkpoint remain
 `proof-written-unreviewed`. Hosted CI at the final commit is a separate
 gate.
+
+## Diagonal-only first-map follow-up
+
+The later diagonal theorem has its own
+[validation record](diagonal-followup.json), at implementation commit
+`26f4fb8fdababf5eb7ae4d3dcad74996a5b7c0af`, tree
+`38f1b72bec3f31ebbd1f3c0a0e7631762c442733`.
+All **37 focused and repository checks** passed with a complete result
+footer and no failures, errors or skips:
+
+- Eight new diagonal first-support tests.
+- Eight existing support-capacity tests.
+- Eighteen repository metadata and source checks.
+- Three archive-integrity checks.
+
+The standard-library certificate replay also passed independently of
+the test runner. It checks four source pins, six shift-transpose maps,
+complete diagonal identities and 197,324 feasible deficiency pairs
+over budgets zero through 500. These finite controls accompany the
+written proof; they do not formalize its projective geometry.
+
+All **721 prior Python files** are byte-identical to receipt checkpoint
+`7690348`. Only the new verifier and its test module were added. No old
+test identifiers were removed, and all eight added identifiers were
+executed in the focused run. Both historical archive directories are
+unchanged. The combined discovery contains **879 tests in 205 modules**;
+this is an inventory, not a fresh complete 879-test execution. The full
+871-test run and five archive replays remain credited to `66c4636`.
+
+The complete [focused log](diagonal-followup.log.gz),
+[status](diagonal-followup-status.json.gz),
+[discovery](diagonal-followup-discovery.json.gz) and
+[standalone log](diagonal-standalone.log.gz) are retained. Compressed and
+uncompressed hashes are in the validation record. Eighteen metadata
+checks were repeated after these receipt and status edits. The new
+claim also remains `proof-written-unreviewed`; current-head hosted CI
+is still required before merge.
