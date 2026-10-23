@@ -1,5 +1,19 @@
 # Attribution and provenance
 
+The `2026-10-23-oblique-longmap-frontier` package is owner-directed Codex
+continuation from `b6c385`. Five byte-pinned local sources retain credit
+for the exact Q(5,4) corner, integer oblique map template, mixed-middle
+construction and elementary first-map quotient formula. New work gives
+a surjective integer benchmark, an explicit determinant-one projection
+minor, the fixed-good-row residual lower bound and finite shift/corner
+screens. The universal proof and finite coverage have separate claim
+types. Modular minors are used only for rational lower bounds; modular
+singular controls supply no rational upper-bound claim. The standard-library
+verifier reconstructs the native coefficients and rejects changed or
+missing records. Coordinated generating-session checks are not independent
+mathematical review. No historical priority, formalization, unrestricted
+long-map exclusion or exponent improvement is claimed.
+
 The `2026-10-23-oblique-border-repair` package is owner-directed Codex
 continuation. Four SHA-pinned local sources at `53fed211` supply the
 unchanged ordinary maps, actual residual and seven-term core. New work
