@@ -1,0 +1,35 @@
+{
+  "base_commit": "539b539dc4eac09114899fd76472aee2d78d9f62",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-20-paired-sources/paired.py",
+      "sha256": "0821abba6db03b033ee90d66afc5115eb1960f078ffad7c0a1ff95b5f4f473aa"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-sources/research_note.md",
+      "sha256": "2ac3a99512cf055058e824d1fcd461c3cf65d84f1d5ad92769caba304866d1dd"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-sources/all_koszul.md",
+      "sha256": "c744db681cfbd8575ff5719c85b8d0956f9209c8dab5196b735a5130084b6d5a"
+    },
+    {
+      "path": "results/paired-sources-2026-10-20/all-power-frontier.json",
+      "sha256": "3166e032019c24b0f3f4ba21ad2b23a62fdb357154169b91305ca7f0cb045d54"
+    }
+  ],
+  "external_sources": [
+    {
+      "title": "Stacks Project, Lemma 30.8.1",
+      "url": "https://stacks.math.columbia.edu/tag/01XT",
+      "inspected": "2026-10-23",
+      "used": "H^0(P^1_K,O(d))=0 for d<0 and H^1(P^1_K,O(d))=0 for d>=-1, over every field K. No vector-bundle splitting theorem is assumed."
+    }
+  ],
+  "attribution": "Maintained paired-source convention and previous short-leg frontier retain their original credits. The Hankel interpolation and long-leg filtered-bundle argument are owner-directed OpenAI Codex continuation. No independent review or historical priority claim.",
+  "concurrent_work": {
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/143",
+    "inspected_head": "707bec88f9dc01c59715c19fe44e0a84a44027a0",
+    "credit": "Concurrent interpolation bounds through p=a, an all-degree support floor and an exact a3 rank atlas are separate work. The common a2,p3 rank70 is reproduced as a control here. This bundle proof treats a longer interval and the full-row endpoint."
+  }
+}
