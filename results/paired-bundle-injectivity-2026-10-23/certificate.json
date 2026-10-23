@@ -1,15 +1,18 @@
 {
-  "schema": "paired-long-leg-injectivity-v1",
+  "schema": "paired-long-leg-injectivity-v2",
   "proof_status": "proof-written-unreviewed",
   "written_theorem": {
     "fields": "every field",
     "sizes": "every integer a>=2",
     "interval": "0<=p<=a*(a-1)",
+    "surjective_interval": "a*(2*a-1)-a<=p<=a*(2*a-1)",
     "long_legs": [
       "B with input A*",
       "C with input A*"
     ],
-    "rank": "a^2*binom(a*(2*a-1),p)"
+    "rank": "a^2*binom(a*(2*a-1),p)",
+    "surjective_rank": "a*(2*a-1)*binom(a*(2*a-1),p+1)",
+    "kernel_section_sum_is_only_an_upper_bound": true
   },
   "source_identity_controls": [
     {
@@ -258,6 +261,57 @@
       "exact_over_C_by_dimension_bound": true
     }
   ],
+  "paired_surjective_controls": [
+    {
+      "a": 2,
+      "power": 4,
+      "rows": 36,
+      "mod2_rank": 36,
+      "exact_over_C_by_dimension_bound": true
+    },
+    {
+      "a": 2,
+      "power": 5,
+      "rows": 6,
+      "mod2_rank": 6,
+      "exact_over_C_by_dimension_bound": true
+    },
+    {
+      "a": 2,
+      "power": 6,
+      "rows": 0,
+      "mod2_rank": 0,
+      "exact_over_C_by_dimension_bound": true
+    },
+    {
+      "a": 3,
+      "power": 12,
+      "rows": 1575,
+      "mod2_rank": 1575,
+      "exact_over_C_by_dimension_bound": true
+    },
+    {
+      "a": 3,
+      "power": 13,
+      "rows": 225,
+      "mod2_rank": 225,
+      "exact_over_C_by_dimension_bound": true
+    },
+    {
+      "a": 3,
+      "power": 14,
+      "rows": 15,
+      "mod2_rank": 15,
+      "exact_over_C_by_dimension_bound": true
+    },
+    {
+      "a": 3,
+      "power": 15,
+      "rows": 0,
+      "mod2_rank": 0,
+      "exact_over_C_by_dimension_bound": true
+    }
+  ],
   "beyond_interval_countercontrol": {
     "a": 2,
     "power": 3,
@@ -465,7 +519,8 @@
         ]
       ]
     ],
-    "exact_rank_over_C": 70
+    "exact_rank_over_C": 70,
+    "associated_graded_kernel_section_sum": 12
   },
   "no_new_target_exclusion_in_proved_interval": true,
   "higher_degrees_decided": false,

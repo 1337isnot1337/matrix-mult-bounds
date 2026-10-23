@@ -20,6 +20,7 @@ class PairedLongLegTests(unittest.TestCase):
     def test_complete_regeneration_and_inspected_source_pins(self):
         receipt = verifier.verify_report(self.report)
         self.assertEqual(receipt['paired_full_column_controls'], 18)
+        self.assertEqual(receipt['paired_full_row_controls'], 7)
         self.assertEqual(receipt['hankel_all_degree_controls'], 40)
         self.assertEqual(receipt['beyond_interval_exact_complex_rank'], 70)
         self.assertEqual(receipt['new_target_exclusions'], 0)
@@ -38,9 +39,18 @@ class PairedLongLegTests(unittest.TestCase):
                                               for p in range(2*a)])
         self.assertEqual([verifier.injectivity_endpoint(a) for a in [14, 15, 16]],
                          [182, 210, 240])
+        self.assertEqual([verifier.surjectivity_start(a) for a in [14, 15, 16]],
+                         [364, 420, 480])
         for a in [-1, 0, 1]:
             with self.assertRaises(ValueError):
                 verifier.injectivity_endpoint(a)
+
+    def test_kernel_section_count_is_a_bound_rather_than_an_equality(self):
+        self.assertEqual(verifier.kernel_sections_upper(2, 3), 12)
+        exact = [4, 24, 60, 70, 36, 6, 0]
+        for p, rank in enumerate(exact):
+            self.assertLessEqual(verifier.source_rank_lower(2, p), rank)
+        self.assertLess(verifier.source_rank_lower(2, 3), exact[3])
 
     def test_integer_kernel_rejects_corruption_and_dependent_vectors(self):
         witness = self.report['beyond_interval_countercontrol']

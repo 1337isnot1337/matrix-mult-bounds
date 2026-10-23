@@ -23,8 +23,13 @@
       "title": "Stacks Project, Lemma 30.8.1",
       "url": "https://stacks.math.columbia.edu/tag/01XT",
       "inspected": "2026-10-23",
-      "used": "H^0(P^1_K,O(d))=0 for d<0 over every field K. The proof uses no higher cohomology or splitting theorem."
+      "used": "H^0(P^1_K,O(d))=0 for d<0 and H^1(P^1_K,O(d))=0 for d>=-1, over every field K. No vector-bundle splitting theorem is assumed."
     }
   ],
-  "attribution": "Maintained paired-source convention and previous short-leg frontier retain their original credits. The Hankel interpolation and long-leg filtered-bundle argument are owner-directed OpenAI Codex continuation. No independent review or historical priority claim."
+  "attribution": "Maintained paired-source convention and previous short-leg frontier retain their original credits. The Hankel interpolation and long-leg filtered-bundle argument are owner-directed OpenAI Codex continuation. No independent review or historical priority claim.",
+  "concurrent_work": {
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/143",
+    "inspected_head": "707bec88f9dc01c59715c19fe44e0a84a44027a0",
+    "credit": "Concurrent interpolation bounds through p=a, an all-degree support floor and an exact a3 rank atlas are separate work. The common a2,p3 rank70 is reproduced as a control here. This bundle proof treats a longer interval and the full-row endpoint."
+  }
 }

@@ -5,12 +5,14 @@ paired single-matrix formats through a16, then construct a surviving
 target or identify a stronger obstruction. The exponent goal is open.
 
 Completed: the written all-field injectivity interval 0<=p<=a(a-1),
-with the proof in proof.md. Exact coefficient and integer-kernel evidence
-is in results/paired-bundle-injectivity-2026-10-23/. Five focused and18 metadata
+and full row rank for N-a<=p<=N, with the proof in proof.md. Exact coefficient and integer-kernel evidence
+is in results/paired-bundle-injectivity-2026-10-23/. Six focused and18 metadata
 tests pass on Python3.12 with the pinned maintained dependencies.
-Full-suite and archive-replay evidence will be recorded when complete.
+All five archive replays passed on the pre-isolation proof head. The first
+full-suite run was stopped during branch isolation; it is not a complete
+validation. Final integrated regression evidence will be recorded separately.
 
-Next mathematical step: the higher-degree kernel bundle R_p(D). Its
+Next mathematical step: the intermediate-degree kernel bundle R_p(D). Its
 successive line-bundle degrees are p+a-1-a*k for k>=a, with multiplicities
 from the Hankel kernel and wedge^(p-k)Q. At p=a(a-1)+1 the largest degree
 is zero. Filtration extension maps can obstruct lifting those sections;

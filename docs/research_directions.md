@@ -178,8 +178,10 @@ The [paired-long-leg theorem](../research/ai/2026-10-23-paired-bundle-injectivit
 now gives full column rank for both long-leg Koszul maps, with short
 input, for every a>=2 and 0<=p<=a(a-1), over every field. Those degrees
 cannot exclude a padded target. A further long-leg screen of the 28
-short-leg survivors through a16 must use higher degrees: at least183,
-211 or241 for a14,15 or16. These remaining degrees and the actual
+short-leg survivors through a16 must use intermediate degrees: [183,363],
+[211,419] or[241,479] for a14,15 or16. The same proof gives full row
+rank above these intervals and an all-degree source rank lower bound.
+These remaining degrees and the actual
 target maps are open. The theorem is written and unreviewed.
 
 The [two-block paired frontier](../research/ai/2026-10-20-paired-direct-sums/README.md)

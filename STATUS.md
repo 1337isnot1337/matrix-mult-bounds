@@ -9,10 +9,14 @@ Their rank is a^2 binom(a(2a-1),p). A full-rank Hankel calculation and an
 explicit filtered bundle on the projective line prove the all-size
 statement; finite coefficient controls are retained separately.
 Claim `AI-PAIRED-LONG-LEG-INJECTIVITY-001` is written and unreviewed.
+The same bundle argument gives full row rank for N-a<=p<=N, N=a(2a-1),
+and an explicit all-degree upper bound on the kernel dimension.
 
 These degrees cannot exclude any dimension-compatible padded target.
 For the 28 short-leg survivors through a16, a new long-leg exclusion
-requires p>=183,211,241 at a14,15,16. Higher degrees remain open.
+requires p in [183,363], [211,419], [241,479] at a14,15,16.
+Those intermediate degrees remain open; the kernel bound gives a source
+rank lower bound and cannot itself exclude a degeneration.
 An integer kernel and modular rank70 witness certify the exact complex
 rank70 at a2,p3, beyond the proved interval. No target is constructed and
 no exponent is improved.

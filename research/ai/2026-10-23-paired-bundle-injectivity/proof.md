@@ -23,6 +23,10 @@ this map is injective. Consequently its rank is
 
     a^2 binom(N,p).                                      (1)
 
+The map is also surjective for N-a<=p<=N, with rank
+
+    N binom(N,p+1).                                      (1b)
+
 The same holds on the C leg, with the short A leg as the input.
 This is not an all-power rank formula. For a=2, the first degree beyond
 this interval already has a kernel: K_3^B has rank 70, with domain
@@ -145,12 +149,57 @@ it is also the n=1,q=0 case of the cited Stacks lemma.
 By (5), a kernel vector x would give a section X of R_p(D). Hence
 X=0, and injectivity of x -> X gives x=0. This proves (1).
 
-## 4. The other long leg and the screening consequence
+## 4. The upper exterior degrees are surjective
+
+The fiber cokernel of (5) has a parallel filtration. At output S-degree
+k+1 its graded piece uses coker J_k and wedge^(p-k)Q. Include k=-1
+for the output part of S-degree zero. By (2), these cokernels are zero
+for k>=a-1. The remaining k<=a-2 require p-k<=Dh. If p>=N-a, however,
+
+    p-k >= N-a-(a-2) = Dh+1.
+
+Every such exterior power of Q is zero. Therefore the evaluated bundle
+map is surjective in every fiber, and there is an exact sequence
+
+    0 -> R_p(D) -> wedge^p B tensor e* tensor O(D)
+      -> wedge^(p+1) B tensor f tensor O(2D) -> 0.
+
+Every nonzero quotient of R_p(D) in (7) has k<=h, so its degree is at
+least p+D-ah=p-(N-a+1), which is at least -1 in this interval.
+The projective-line identity H^1(O(d))=0 for d>=-1 then gives
+H^1(R_p(D))=0 by induction through the filtration. The long exact
+sequence of global sections proves (1b). The global section map is
+exactly K_p^B, by (5) and the independence of the degree-2D monomials.
+No global splitting of the kernel bundle is assumed here either.
+
+## 5. An all-degree lower bound on source rank
+
+The same filtration bounds the dimension of global sections in every
+degree. Define
+
+    U(a,p) = sum_(k=a)^h a*(binom(h,k)-binom(h,k+1))
+                    *binom(Dh,p-k)*max(p+D-ak+1,0).
+
+The kernel of K_p^B is H^0(R_p(D)), not just a subspace of it: both
+directions follow from the homogeneous coefficient identity (5).
+Left exactness through the filtration gives
+
+    dim ker K_p^B <= U(a,p),
+    rank K_p^B >= max(0,a^2*binom(N,p)-U(a,p)).          (8)
+
+This is a source **lower** bound. It can certify that a proposed target
+rank is no larger than the source, but cannot exclude a degeneration.
+Counting the associated graded sections as an equality would be wrong:
+extension maps can prevent sections from lifting. At a2,p3, U=12
+while the exact kernel dimension is10. The integer countercontrol
+therefore also tests this distinction.
+
+## 6. The other long leg and the screening consequence
 
 Exchange B and C, replace A_(u,q) by A_(q,u), and reorder the long
 coordinates B_(y,j) <-> C_(j,y). The source formula is preserved
 (rename the remaining short indices y and v). This proves the C-leg
-assertion with exactly the same interval.
+assertions with the same intervals and bound.
 
 Any dimension-compatible padded target has its short input dimension
 at most a^2. Its long-leg exterior rank is at most
@@ -158,10 +207,17 @@ a^2 binom(N,p), the source's full column rank in (1). Therefore neither
 long-leg test in this interval can exclude **any** such target.
 In particular, the 28 maintained short-leg survivors through a=16
 require long-leg degrees at least 183, 211 and 241 at a=14,15 and16,
-respectively, for a new exclusion. This conclusion needs no target
-rank formula and does not claim that those higher degrees pass.
+respectively, for a new exclusion. The full-row interval is also
+incapable of excluding a padded target. Thus the only remaining degrees
+for a new long-leg rank exclusion are
 
-The exact ranks in higher degrees, the target degenerations and the
+    a(a-1)+1 <= p <= a(2a-1)-a-1.
+
+At a14,15,16 these intervals are [183,363], [211,419], [241,479].
+These conclusions need no target rank formula and do not claim that
+those intermediate degrees pass.
+
+The exact ranks in the intermediate degrees, the target degenerations and the
 exponent question remain open. Finite-field source ranks outside the
 proved interval are only lower bounds for characteristic-zero ranks.
 
@@ -171,8 +227,13 @@ The tensor, spectral interpretation and previous frontier retain the
 maintained paired-source package's credits. The interpolation, explicit
 quotient sequence, filtered-kernel argument and application here are
 owner-directed Codex work. No historical priority is claimed.
+Concurrent [PR143](https://github.com/1337isnot1337/matrix-mult-bounds/pull/143)
+records interpolation bounds through p=a, an all-degree support floor,
+and an exact a3 rank atlas. Its common a2,p3 rank70 is reproduced here
+as a control. That package remains separate; the present filtered-bundle
+argument supplies the longer injective interval and the surjective end.
 Basic exterior algebra, Vandermonde interpolation and vector-bundle
-filtrations are standard tools. The line-bundle global-section fact is
+filtrations are standard tools. The line-bundle cohomology facts are
 credited to [Stacks, Lemma 30.8.1](https://stacks.math.columbia.edu/tag/01XT),
 inspected October 23, 2026, with its arbitrary-field hypotheses.
 

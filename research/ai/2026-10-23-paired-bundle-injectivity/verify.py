@@ -36,6 +36,31 @@ def injectivity_endpoint(a):
     return a*(a-1)
 
 
+def surjectivity_start(a):
+    if a < 2:
+        raise ValueError('a>=2 required')
+    return a*(2*a-1)-a
+
+
+def kernel_sections_upper(a, p):
+    """Associated-graded H^0 sum: an upper bound, not an exact kernel."""
+    if a < 2 or not 0 <= p <= a*(2*a-1):
+        raise ValueError('a>=2 and valid exterior degree required')
+    D, h = a-1, 2*a-1
+    return sum(a*(choose(h, k)-choose(h, k+1))*choose(D*h, p-k)
+               *max(p+D-a*k+1, 0) for k in range(a, h+1))
+
+
+def source_rank_lower(a, p):
+    N = a*(2*a-1)
+    upper = kernel_sections_upper(a, p)
+    if p <= injectivity_endpoint(a):
+        return a*a*choose(N, p)
+    if p >= surjectivity_start(a):
+        return N*choose(N, p+1)
+    return max(0, a*a*choose(N, p)-upper)
+
+
 def long_terms(a):
     """First coordinate is B, second is A, third is C."""
     h = 2*a-1
@@ -241,6 +266,16 @@ def build_report():
                 raise ValueError('finite injectivity control fails')
             paired.append({'a': a, 'power': p, 'columns': columns, 'mod2_rank': rank,
                            'exact_over_C_by_dimension_bound': True})
+    surjective = []
+    for a in [2, 3]:
+        N = a*(2*a-1)
+        for p in range(surjectivity_start(a), N+1):
+            rank = source_rank_mod2(a, p)
+            rows = N*choose(N, p+1)
+            if rank != rows:
+                raise ValueError('finite surjectivity control fails')
+            surjective.append({'a': a, 'power': p, 'rows': rows, 'mod2_rank': rank,
+                               'exact_over_C_by_dimension_bound': True})
     columns = generic_koszul_columns((6, 4, 6), long_terms(2), 3)
     free, witnesses = integer_kernel(columns)
     lower = generic_rank_mod2(columns)
@@ -248,19 +283,24 @@ def build_report():
     if len(columns)-nullity != lower or lower != 70:
         raise ValueError('beyond-interval rank bounds do not match')
     return {
-        'schema': 'paired-long-leg-injectivity-v1',
+        'schema': 'paired-long-leg-injectivity-v2',
         'proof_status': 'proof-written-unreviewed',
         'written_theorem': {'fields': 'every field', 'sizes': 'every integer a>=2',
                            'interval': '0<=p<=a*(a-1)',
+                           'surjective_interval': 'a*(2*a-1)-a<=p<=a*(2*a-1)',
                            'long_legs': ['B with input A*', 'C with input A*'],
-                           'rank': 'a^2*binom(a*(2*a-1),p)'},
+                           'rank': 'a^2*binom(a*(2*a-1),p)',
+                           'surjective_rank': 'a*(2*a-1)*binom(a*(2*a-1),p+1)',
+                           'kernel_section_sum_is_only_an_upper_bound': True},
         'source_identity_controls': source_identity_controls(),
         'hankel_coefficient_controls': hankel,
         'paired_coefficient_controls': paired,
+        'paired_surjective_controls': surjective,
         'beyond_interval_countercontrol': {
             'a': 2, 'power': 3, 'columns': len(columns), 'mod2_rank': lower,
             'free_columns': free, 'integer_kernel_vectors': witnesses,
             'exact_rank_over_C': lower,
+            'associated_graded_kernel_section_sum': kernel_sections_upper(2, 3),
         },
         'no_new_target_exclusion_in_proved_interval': True,
         'higher_degrees_decided': False,
@@ -271,7 +311,7 @@ def build_report():
 
 
 def verify_report(report):
-    scope = {'schema': 'paired-long-leg-injectivity-v1',
+    scope = {'schema': 'paired-long-leg-injectivity-v2',
              'proof_status': 'proof-written-unreviewed',
              'no_new_target_exclusion_in_proved_interval': True,
              'higher_degrees_decided': False, 'independent_review': False,
@@ -288,6 +328,7 @@ def verify_report(report):
     if report != build_report():
         raise ValueError('coefficient report or proof scope differs from exact regeneration')
     return {'verified': True, 'paired_full_column_controls': len(report['paired_coefficient_controls']),
+            'paired_full_row_controls': len(report['paired_surjective_controls']),
             'hankel_all_degree_controls': sum(len(c['ranks']) for c in report['hankel_coefficient_controls']),
             'beyond_interval_exact_complex_rank': 70,
             'formalized_all_size_theorem': False, 'new_target_exclusions': 0,
