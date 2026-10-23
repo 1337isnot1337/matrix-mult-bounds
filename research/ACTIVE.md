@@ -1,5 +1,19 @@
 # Integrated research coordination
 
+## Actual nonsplit finite covers: October 23 continuation
+
+Main and all open PRs checked at `d833eb0`. The owned
+`research/sl2-finite-slices-20261021` branch finishes the actual nonsplit
+source question in `ai/2026-10-21-sl2-finite-slices/ACTIVE.md`.
+The independent dense-field certificate gives a 98-slice cover for
+SL(2,F5) and a 6155844-slice cube cover for SL(2,F5) x C2, excluding
+the selected M10 and M(13,13,15) targets in the stated characteristic-two
+and one-copy coefficient-one coordinate/potential class. The retained
+844-test regression and archive replay passed; current-head revalidation
+is being recorded. Claim `AI-NONSPLIT-FINITE-COVERS-001` remains written
+and unreviewed. Higher source powers and general complex input mixing
+remain open. No smaller exponent is established.
+
 The coupled-boundary continuation studies
 `ai/2026-10-21-coupled-boundary-rank-two/QUESTION.md`. Simultaneous
 boundary obstruction ranks at most two force both complete matrices to
