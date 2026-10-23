@@ -15,7 +15,9 @@ coefficients handle nonreduced support.
 Over a finite field, the theorem assumes polynomial minor identities,
 or equivalently the rank bound on decomposable inputs over an algebraic
 closure. A finite rational-point check is not substituted for that
-hypothesis. Actual ordinary tensor restriction identities survive field
+hypothesis without a field-size condition: the supplied elementary
+interpolation lemma shows that checking every rational decomposable input
+does suffice over F_q when q>=r+1. Actual ordinary tensor restriction identities survive field
 extension, giving the stated cyclic-source obstruction in every
 characteristic.
 

@@ -36,12 +36,30 @@ Equivalently, the rank is at most r for every decomposable input after
 extension to an algebraic closure of K. Over an infinite K it suffices
 to check all K-rational decomposable inputs, by polynomial identity.
 Over a finite K that implication is not assumed: a finite pointwise
-rank check alone is not the hypothesis of this theorem.
+rank check alone is not the hypothesis of this theorem without a field-size
+condition. If K=F_q with q>=r+1, checking every K-rational decomposable
+input does suffice, by the elementary interpolation argument below.
 
 Matrix rank, and hence dim im Phi, is unchanged by extending the field.
 The polynomial-minor hypothesis also survives extension. We therefore
 prove the result over an algebraically closed field F, of arbitrary
 characteristic. In particular F is infinite.
+
+**Finite-field interpolation.** A homogeneous polynomial of degree e<=q
+over F_q is determined by its values on all rational vectors. For e<q,
+every individual variable degree is below q, and successive univariate
+interpolation proves the assertion. For e=q, a polynomial vanishing at
+all vectors has zero coefficient on each pure power x_i^q, by evaluation
+at the coordinate unit vectors. All remaining individual degrees are
+below q, so the same interpolation applies. The degree-zero case is
+immediate. Each Hankel minor is bihomogeneous of degree r+1 in each of
+the two inputs. Fixing one input and applying the lemma to the other,
+then applying it to the resulting coefficient polynomials, proves the
+claimed implication when q>=r+1. All rational decomposable inputs must
+be checked; sampling is not sufficient. The polynomial x^q*y-x*y^q
+shows that degree q+1 is too large for this general interpolation lemma.
+It is not claimed to be a counterexample to the Hankel rank bound or
+to prove that the field-size threshold for that bound is sharp.
 
 ## 2. Scalar annihilators and pencil degree
 
