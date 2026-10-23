@@ -34,7 +34,7 @@ the linked status notes before choosing new parameters.
 
 ## R1: Review the local sharpness theorem
 
-Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.
+Status: open for independent review. A commit-pinned Codex audit found no gap in the positivity-of-increments, limiting-slope, or $a=b$ join arguments; it is not independent human review or Lean formalization. See the [audit record](../research/reviews/scalar-profile-proof-review-2026-10-23.md). The task remains open until an independent review, corrected proof, or counterexample is recorded. Distinguish the earlier recurrence from the local matching construction.
 
 Deliver a proof review tied to a commit, a corrected proof, or a counterexample. A finite grid extension alone does not close this task. A Lean formalization is a separate deliverable, not a prerequisite for every discovery.
 

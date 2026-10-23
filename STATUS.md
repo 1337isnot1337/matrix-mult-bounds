@@ -1069,7 +1069,7 @@ unproved. Active worker branches continue to carry new experiments.
 
 | ID | Local statement | Evidence status |
 | --- | --- | --- |
-| AI-SCALAR-001 | Exact pointwise-minimal profile for S1-S3 | Written proof; unreviewed |
+| AI-SCALAR-001 | Exact pointwise-minimal profile for S1-S3 | Written proof; Codex audit found no gap; independent review open |
 | AI-RANK-002 | Matching profile satisfies the rank upper bound at $t=3/4$ | Written proof; unreviewed |
 | AI-REPLICATION-003 | Matching profile satisfies replication at $t=3/4$ | Written proof; unreviewed |
 | AI-PACKING-004 | Flattening obstruction for shorter identical-sector packing | Written proof; unreviewed |
@@ -1080,6 +1080,11 @@ unproved. Active worker branches continue to carry new experiments.
 | EXP-WEIGHTS-003 | 242,668 specified weight candidates | Reproduced; no scored violation |
 
 [Claim ledger](research/claims.json) | [Full original note](research/ai/2026-10-20/research_note.md) | [Replay report](results/bootstrap-2026-10-20/summary.json)
+
+The commit-pinned [Codex proof audit](research/reviews/scalar-profile-proof-review-2026-10-23.md)
+found no gap in the all-integer argument. The claim remains unreviewed pending
+independent human review; the audit does not change its theorem or exponent
+status.
 
 The general proofs, rather than their finite checks, support the all-integer statements. No independent review or Lean formalization of these local arguments is recorded.
 
