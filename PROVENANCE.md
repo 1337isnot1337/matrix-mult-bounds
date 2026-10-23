@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The 2026-10-23-toeplitz-long-legs package is owner-directed AI-derived
+research. It uses the preexisting Q(n,m) coefficient convention and the
+previous conditional paired-source correction criterion, with source file
+SHA-256 pins. Its polynomial-symbol obstruction for two finite-stencil
+long-leg maps, arbitrary first-leg mixing, sparse nonlocal exceptions and
+quadratic residual rank bound is a local deduction. Five finite exact
+checks are not independent review of the all-size proof. No external
+theorem is claimed as novel, and no exponent improvement follows.
+
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

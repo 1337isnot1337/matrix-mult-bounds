@@ -1,5 +1,22 @@
 # Research status
 
+## Locally Toeplitz two-long-leg obstruction: quadratic repair cost
+
+The [October 23 proof](research/ai/2026-10-23-toeplitz-long-legs/proof.md)
+shows that ordinary restrictions of Q(n,m), m>=2, with both long-leg maps
+Toeplitz in the bulk of half-bandwidth D and e_B,e_C arbitrary exceptional
+source columns require correction border rank at least
+(n-2(m-1+D)-m*e_B)_+*(n-2(m-1+D)-m*e_C)_+.
+The first-leg map is completely unrestricted; exceptional maps may be
+nonlocal. Fixed m and sublinear D,e_B,e_C force n^2-o(n^2) repair,
+excluding this map class from the existing O(n^alpha), alpha<3/2,
+paired-source conditional route. Five exact finite tensor/symbol controls
+pass, including arbitrary first-leg mixing and nonlocal exceptions.
+Written and unreviewed; no general degeneration exclusion and no
+improved exponent. Next: variable-coefficient bulk maps and singular
+Laurent cancellations.
+
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

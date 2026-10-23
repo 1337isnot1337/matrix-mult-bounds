@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The independent [two-Toeplitz-long-leg question](ai/2026-10-23-toeplitz-long-legs/QUESTION.md)
+excludes every ordinary Q(n,m) map with both bulk long-leg filters of
+sublinear bandwidth and sublinearly many exceptional columns from the
+subquadratic correction budget, even with arbitrary first-leg mixing.
+The written polynomial-symbol proof is unreviewed. Five exact tests pass.
+Next target is genuinely variable-coefficient long-leg maps or singular
+Laurent cancellation; PR #145's shift chart and PR #147's product
+residual are separate active work. No smaller exponent established.
+
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

@@ -1,0 +1,88 @@
+{
+  "arithmetic": "exact integer / finite field",
+  "cases": [
+    {
+      "arbitrary_first_leg_mixing": false,
+      "exceptional_b_columns": [],
+      "exceptional_c_columns": [],
+      "good_first_leg_pairs": 16,
+      "half_bandwidth": 0,
+      "interior_slices_checked": 16,
+      "interior_square": 4,
+      "middle_width": 2,
+      "n": 6,
+      "observed_flattening_rank_mod_101": 36,
+      "predicted_lower_bound": 16,
+      "symbol_coefficient_identity_checked": true,
+      "symbol_middle_pairs_checked": 4
+    },
+    {
+      "arbitrary_first_leg_mixing": true,
+      "exceptional_b_columns": [],
+      "exceptional_c_columns": [],
+      "good_first_leg_pairs": 16,
+      "half_bandwidth": 0,
+      "interior_slices_checked": 16,
+      "interior_square": 4,
+      "middle_width": 2,
+      "n": 6,
+      "observed_flattening_rank_mod_101": 36,
+      "predicted_lower_bound": 16,
+      "symbol_coefficient_identity_checked": true,
+      "symbol_middle_pairs_checked": 4
+    },
+    {
+      "arbitrary_first_leg_mixing": true,
+      "exceptional_b_columns": [],
+      "exceptional_c_columns": [],
+      "good_first_leg_pairs": 16,
+      "half_bandwidth": 1,
+      "interior_slices_checked": 16,
+      "interior_square": 4,
+      "middle_width": 2,
+      "n": 8,
+      "observed_flattening_rank_mod_101": 64,
+      "predicted_lower_bound": 16,
+      "symbol_coefficient_identity_checked": true,
+      "symbol_middle_pairs_checked": 4
+    },
+    {
+      "arbitrary_first_leg_mixing": true,
+      "exceptional_b_columns": [],
+      "exceptional_c_columns": [],
+      "good_first_leg_pairs": 9,
+      "half_bandwidth": 1,
+      "interior_slices_checked": 9,
+      "interior_square": 3,
+      "middle_width": 3,
+      "n": 9,
+      "observed_flattening_rank_mod_101": 81,
+      "predicted_lower_bound": 9,
+      "symbol_coefficient_identity_checked": true,
+      "symbol_middle_pairs_checked": 9
+    },
+    {
+      "arbitrary_first_leg_mixing": true,
+      "exceptional_b_columns": [
+        4
+      ],
+      "exceptional_c_columns": [
+        5
+      ],
+      "good_first_leg_pairs": 36,
+      "half_bandwidth": 0,
+      "interior_slices_checked": 36,
+      "interior_square": 8,
+      "middle_width": 2,
+      "n": 10,
+      "observed_flattening_rank_mod_101": 100,
+      "predicted_lower_bound": 36,
+      "symbol_coefficient_identity_checked": true,
+      "symbol_middle_pairs_checked": 4
+    }
+  ],
+  "field_for_rank": "F_101",
+  "m_equals_one_sharpness_control": true,
+  "scope": "Finite coefficient identities and exact ranks; general theorem relies on proof.md.",
+  "status": "pass"
+}
