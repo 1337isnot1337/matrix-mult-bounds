@@ -1,5 +1,16 @@
 # Research directions
 
+The [quadratic torsion criterion](../research/ai/2026-10-23-quadratic-torsion/proof.md)
+now closes binary-field balanced quadratic attainment: the exceptional
+rank a^2+2a-1 occurs precisely when gcd(a+1,30)>1. Over other fields its
+occurrence is equivalent to triviality of the particular O_C(a+1,-a-1),
+with singular and nonreduced boundaries included. The next structural
+question is how this constraint behaves in a linear family of biforms,
+or which orders are attainable over a specified other field. Preserve the
+literal coefficient endpoints and distinguish a single-slice spectrum
+from a linear source-space cap and compatible tensor maps. The results
+are written and unreviewed; the old a6/a10 finite negatives need no rerun.
+
 The [quadratic-kernel classification](../research/ai/2026-10-23-quadratic-kernel-indices/proof.md)
 gives a finite exact procedure for the two kernel indices of arbitrary
 `u(x)+z*v(x)+z^2*w(x)`, and hence the full source rank at every b>=3.
