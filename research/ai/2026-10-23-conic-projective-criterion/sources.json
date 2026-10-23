@@ -23,12 +23,26 @@
       "use": "Credited affine all-order normal-class criterion and rank-one polynomial gauge. The new theorem supplies the missing projective base strata and proves the normal transition.",
       "sha256": {
         "research/ai/2026-10-23-conic-polynomial-curve/proof.md": "5f13a24905eb3f1321d9d48addf254ccdaed0598e31b2bed3231c925e532b4ff",
-        "research/ai/2026-10-23-conic-polynomial-curve/sources.json": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507"
+        "research/ai/2026-10-23-conic-polynomial-curve/sources.json": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637"
       }
     }
   ],
   "independent_mathematical_review": false,
   "lean_formalized": false,
   "matrix_target_constructed": false,
-  "exponent_improvement": false
+  "exponent_improvement": false,
+  "consolidation_pin_updates": {
+    "date": "2026-10-23",
+    "reason": "The maintained environment adds version-pinned NumPy for the rectangular invariant-slice verifier. SymPy and mpmath versions are unchanged. Transitive pins track this metadata update; mathematical sources, proofs, witnesses, tests, and claim statuses are unchanged.",
+    "requirements_change_commit": "a72fb7b26c1158881d0ec177e75cac691b4a7ed2",
+    "original_record": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-projective-criterion/sources.json",
+    "original_record_sha256": "21c448544537fb92a8aac2de95b9cb57c70a98ffefd6d184fbb8cf365e364231",
+    "updates": [
+      {
+        "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+        "original_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+        "current_sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637"
+      }
+    ]
+  }
 }

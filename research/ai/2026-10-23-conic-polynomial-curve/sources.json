@@ -18,7 +18,7 @@
         "research/ai/2026-10-21-conic-second-jets/model.py": "ff545ef274ba03127356cc2f08de5ec4aa51a07b53642fe5339a268411d535b0",
         "research/ai/2026-10-21-conic-second-jets/proof.md": "3fd3dbdeac15c7325cf61c14c75629d9b431ae33bda62572aee585653df17007",
         "research/ai/2026-10-21-conic-second-jets/verify.py": "ebfaca7a5a6f3030a363f778aeda86bad443c5137b113bff8754bfd7c4f117ee",
-        "research/ai/2026-10-21-conic-second-jets/sources.json": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+        "research/ai/2026-10-21-conic-second-jets/sources.json": "60af4cc901d804f187074f4f65ce98d97a61da87d9a7aa61284fe77fffa22ff2",
         "results/conic-second-jets-2026-10-21/witnesses.json.gz": "c6e529e01f0d0f6363642e6baf03ce178188215269009e3d1e0fb5f54a163a67"
       }
     }
@@ -34,5 +34,19 @@
   "independent_mathematical_review": false,
   "lean_formalized": false,
   "matrix_target_constructed": false,
-  "exponent_improvement": false
+  "exponent_improvement": false,
+  "consolidation_pin_updates": {
+    "date": "2026-10-23",
+    "reason": "The maintained environment adds version-pinned NumPy for the rectangular invariant-slice verifier. SymPy and mpmath versions are unchanged. Transitive pins track this metadata update; mathematical sources, proofs, witnesses, tests, and claim statuses are unchanged.",
+    "requirements_change_commit": "a72fb7b26c1158881d0ec177e75cac691b4a7ed2",
+    "original_record": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+    "original_record_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+    "updates": [
+      {
+        "path": "research/ai/2026-10-21-conic-second-jets/sources.json",
+        "original_sha256": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+        "current_sha256": "60af4cc901d804f187074f4f65ce98d97a61da87d9a7aa61284fe77fffa22ff2"
+      }
+    ]
+  }
 }

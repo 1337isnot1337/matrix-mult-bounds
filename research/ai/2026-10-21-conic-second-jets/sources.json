@@ -6,7 +6,7 @@
   "local_dependencies": [
     {
       "path": "requirements.txt",
-      "sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58"
+      "sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38"
     },
     {
       "path": "research/ai/2026-10-21-quantum-extension-spaces/extensions.py",
@@ -33,5 +33,19 @@
       "sha256": "6f28e12f58421e539268fc8ec5e237ac9f5dfb7678bbd3df31409d4d9ce2e156"
     }
   ],
-  "credit": "Canonical source, root flags, normal basis, and biform conic classification are predecessor local work; PR94 is credited. This continuation and all verification were prepared with OpenAI Codex under owner direction, without independent review."
+  "credit": "Canonical source, root flags, normal basis, and biform conic classification are predecessor local work; PR94 is credited. This continuation and all verification were prepared with OpenAI Codex under owner direction, without independent review.",
+  "consolidation_pin_updates": {
+    "date": "2026-10-23",
+    "reason": "The maintained environment adds version-pinned NumPy for the rectangular invariant-slice verifier. SymPy and mpmath versions are unchanged. Transitive pins track this metadata update; mathematical sources, proofs, witnesses, tests, and claim statuses are unchanged.",
+    "requirements_change_commit": "a72fb7b26c1158881d0ec177e75cac691b4a7ed2",
+    "original_record": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-21-conic-second-jets/sources.json",
+    "original_record_sha256": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+    "updates": [
+      {
+        "path": "requirements.txt",
+        "original_sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58",
+        "current_sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38"
+      }
+    ]
+  }
 }

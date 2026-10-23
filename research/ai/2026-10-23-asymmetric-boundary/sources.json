@@ -5,7 +5,7 @@
   "local_dependencies": [
     {
       "path": "requirements.txt",
-      "sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58"
+      "sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38"
     },
     {
       "path": "research/ai/2026-10-21-biform-third-core/proof.md",
@@ -65,5 +65,19 @@
     }
   ],
   "credit": "The canonical source and complete first-normal system are inherited from the moving-boundary and third-boundary-trap packages. The biform core, rank-one exclusion, core minimum first rank two, conditioned minimum four and target first-rank ceiling two retain their predecessor credit. This continuation supplies the auxiliary split, joint support certificates and one-sided projection lemma. Prepared with OpenAI Codex under owner direction; no independent review or exponent improvement.",
-  "discovery_controls": "The original fifth-order repeated triangular-minor pilot on the 100-parameter conditioned matrix found no usable repeated-form minors. A full rank-four classification is not claimed. An exploratory Groebner run was superseded by the exact degree-three coefficient span; acceptance does not use it."
+  "discovery_controls": "The original fifth-order repeated triangular-minor pilot on the 100-parameter conditioned matrix found no usable repeated-form minors. A full rank-four classification is not claimed. An exploratory Groebner run was superseded by the exact degree-three coefficient span; acceptance does not use it.",
+  "consolidation_pin_updates": {
+    "date": "2026-10-23",
+    "reason": "The maintained environment adds version-pinned NumPy for the rectangular invariant-slice verifier. SymPy and mpmath versions are unchanged. Transitive pins track this metadata update; mathematical sources, proofs, witnesses, tests, and claim statuses are unchanged.",
+    "requirements_change_commit": "a72fb7b26c1158881d0ec177e75cac691b4a7ed2",
+    "original_record": "docs/consolidation/2026-10-23/requirements-pin-originals/research/ai/2026-10-23-asymmetric-boundary/sources.json",
+    "original_record_sha256": "a3438800bdf5037be76a6b13e66b427238a4b28573d5dac338b2266672301db0",
+    "updates": [
+      {
+        "path": "requirements.txt",
+        "original_sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58",
+        "current_sha256": "2b43006cfe6b4216c356e3fddcfcbfbd74ca663533d3f8d68e69779339d8df38"
+      }
+    ]
+  }
 }
