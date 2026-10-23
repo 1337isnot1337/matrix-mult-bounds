@@ -1,0 +1,729 @@
+{
+  "arithmetic": "exact rational Laurent polynomials",
+  "case_count": 7,
+  "cases": [
+    {
+      "complete_residual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "complete_source_sha256": "976862391e939f7ba86bfe31f1a37e23018480be5ccf2c90bdc1ad5294c36e1d",
+      "exact_target": true,
+      "expanded_native_terms": 18,
+      "geometry": {
+        "D": 9,
+        "G": 36,
+        "N": 36,
+        "all_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 0,
+        "c": 9,
+        "components": [
+          [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ]
+          ],
+          [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "good_source_columns": [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ]
+        ]
+      },
+      "leading_source_rank": 36,
+      "leading_target_intersection_dimension": 9,
+      "m": 2,
+      "n": 6,
+      "name": "separated-n6-m2",
+      "residual_rank_at_t2": 0,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        1,
+        3,
+        5
+      ],
+      "routing_C": [
+        1,
+        3,
+        5
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 2,
+      "source_negative_coefficients": 0,
+      "source_rank_at_t2": 36,
+      "source_slice_coefficient_positions_per_evaluation": 1296,
+      "source_terms": 144,
+      "target_coefficient_positions": 324,
+      "target_shape": [
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "complete_residual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "complete_source_sha256": "716a6bffdb243c26ea9d9663634db892bbfbf7e1051c1b218b191e5dfb0211a1",
+      "exact_target": true,
+      "expanded_native_terms": 16,
+      "geometry": {
+        "D": 4,
+        "G": 64,
+        "N": 64,
+        "all_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 0,
+        "c": 4,
+        "components": [
+          [
+            [
+              3
+            ],
+            [
+              7
+            ]
+          ],
+          [
+            [
+              3
+            ],
+            [
+              7
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "good_source_columns": [
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ]
+      },
+      "leading_source_rank": 64,
+      "leading_target_intersection_dimension": 4,
+      "m": 4,
+      "n": 8,
+      "name": "separated-n8-m4",
+      "residual_rank_at_t2": 0,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        3,
+        7
+      ],
+      "routing_C": [
+        3,
+        7
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 4,
+      "source_negative_coefficients": 0,
+      "source_rank_at_t2": 64,
+      "source_slice_coefficient_positions_per_evaluation": 4096,
+      "source_terms": 1024,
+      "target_coefficient_positions": 256,
+      "target_shape": [
+        2,
+        4,
+        2
+      ]
+    },
+    {
+      "complete_residual_sha256": "c02c4d872266d6bfd7b231415837611d82a34ebf3d1609b7b89a91a152dea540",
+      "complete_source_sha256": "7d27eb6f8357967ce0ce336405c347eb8113ba1146521b0528b58d114290ac64",
+      "exact_target": false,
+      "expanded_native_terms": 729,
+      "geometry": {
+        "D": 9,
+        "G": 25,
+        "N": 25,
+        "all_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 8,
+        "c": 1,
+        "components": [
+          [
+            [
+              2,
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              2,
+              3,
+              4
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "good_source_columns": [
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ]
+        ]
+      },
+      "leading_source_rank": 25,
+      "leading_target_intersection_dimension": 1,
+      "m": 3,
+      "n": 5,
+      "name": "connected-full-channel-sharp",
+      "residual_rank_at_t2": 8,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        2,
+        3,
+        4
+      ],
+      "routing_C": [
+        2,
+        3,
+        4
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 3,
+      "source_negative_coefficients": 0,
+      "source_rank_at_t2": 25,
+      "source_slice_coefficient_positions_per_evaluation": 2025,
+      "source_terms": 225,
+      "target_coefficient_positions": 729,
+      "target_shape": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "complete_residual_sha256": "965b704a8dbabfe4d3a5047ab16082c6760736ee95470abdf05768a19abf9fe2",
+      "complete_source_sha256": "95f243065ec562d2d5d3c5f125ec47def30ef78b2f2f78509c103eeb8140ede8",
+      "exact_target": false,
+      "expanded_native_terms": 64,
+      "geometry": {
+        "D": 16,
+        "G": 25,
+        "N": 25,
+        "all_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 14,
+        "c": 2,
+        "components": [
+          [
+            [
+              1
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "good_source_columns": [
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      },
+      "leading_source_rank": 25,
+      "leading_target_intersection_dimension": 0,
+      "m": 2,
+      "n": 5,
+      "name": "singular-leading-block-with-pole-cancellation",
+      "residual_rank_at_t2": 16,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "routing_C": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 2,
+      "source_negative_coefficients": 56,
+      "source_rank_at_t2": 25,
+      "source_slice_coefficient_positions_per_evaluation": 1600,
+      "source_terms": 100,
+      "target_coefficient_positions": 1024,
+      "target_shape": [
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "complete_residual_sha256": "96b937f74eecb89f29898f86c028324b79fdab8b0fb68dae524b9efb183d33d2",
+      "complete_source_sha256": "a3d56c07699d57d209555e4ecc6c64e5ff214d40292d036637ded8ae5afa712d",
+      "exact_target": false,
+      "expanded_native_terms": 30,
+      "geometry": {
+        "D": 12,
+        "G": 9,
+        "N": 9,
+        "all_covered": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 12,
+        "c": 0,
+        "components": [
+          [],
+          [
+            [
+              2
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "good_source_columns": [
+          [
+            0,
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            4
+          ]
+        ]
+      },
+      "leading_source_rank": 9,
+      "leading_target_intersection_dimension": 0,
+      "m": 3,
+      "n": 3,
+      "name": "zero-extension-boundary-columns",
+      "residual_rank_at_t2": 12,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "routing_C": [
+        0,
+        2,
+        4
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 1,
+      "source_negative_coefficients": 0,
+      "source_rank_at_t2": 9,
+      "source_slice_coefficient_positions_per_evaluation": 972,
+      "source_terms": 81,
+      "target_coefficient_positions": 1296,
+      "target_shape": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "complete_residual_sha256": "60482ebff82a3932459504af109a00a97344c417ec8d3becd170451d20386720",
+      "complete_source_sha256": "210f22aa8cf2dcd966d711ae473e5a0362f17a84d8a13af060db5ba02860e1cf",
+      "exact_target": false,
+      "expanded_native_terms": 36,
+      "geometry": {
+        "D": 9,
+        "G": 8,
+        "N": 16,
+        "all_covered": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 0,
+        "c": 1,
+        "components": [
+          [
+            [
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "good_source_columns": [
+          [
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "leading_source_rank": 8,
+      "leading_target_intersection_dimension": 0,
+      "m": 2,
+      "n": 4,
+      "name": "actual-leading-slice-rank-loss",
+      "residual_rank_at_t2": 9,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        1,
+        2,
+        3
+      ],
+      "routing_C": [
+        1,
+        2,
+        3
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 2,
+      "source_negative_coefficients": 12,
+      "source_rank_at_t2": 16,
+      "source_slice_coefficient_positions_per_evaluation": 576,
+      "source_terms": 64,
+      "target_coefficient_positions": 324,
+      "target_shape": [
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "complete_residual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "complete_source_sha256": "976862391e939f7ba86bfe31f1a37e23018480be5ccf2c90bdc1ad5294c36e1d",
+      "exact_target": true,
+      "expanded_native_terms": 18,
+      "geometry": {
+        "D": 9,
+        "G": 24,
+        "N": 36,
+        "all_covered": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "auxiliary_flattening_lower_bound": 0,
+        "c": 6,
+        "components": [
+          [
+            [
+              1
+            ],
+            [
+              5
+            ]
+          ],
+          [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ]
+          ]
+        ],
+        "good_covered": [
+          [
+            0,
+            1,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "good_source_columns": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ]
+        ]
+      },
+      "leading_source_rank": 24,
+      "leading_target_intersection_dimension": 6,
+      "m": 2,
+      "n": 6,
+      "name": "exact-moving-target-requires-saturation-budget",
+      "residual_rank_at_t2": 0,
+      "residual_rank_is_exact_over_Qt": true,
+      "routing_B": [
+        1,
+        3,
+        5
+      ],
+      "routing_C": [
+        1,
+        3,
+        5
+      ],
+      "source_A0_channel_rank_at_t2_X2_Y3": 2,
+      "source_negative_coefficients": 0,
+      "source_rank_at_t2": 36,
+      "source_slice_coefficient_positions_per_evaluation": 1296,
+      "source_terms": 144,
+      "target_coefficient_positions": 324,
+      "target_shape": [
+        3,
+        2,
+        3
+      ]
+    }
+  ],
+  "complete_source_slice_positions": 23722,
+  "complete_target_positions": 4277,
+  "improves_omega": false,
+  "proof_status": "written-unreviewed",
+  "schema": "paired-column-overlap-controls-v1",
+  "scope": "Finite controls support proof.md; they do not establish the uniform theorem by extrapolation."
+}

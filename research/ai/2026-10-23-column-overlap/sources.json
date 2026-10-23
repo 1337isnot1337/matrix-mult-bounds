@@ -1,0 +1,32 @@
+{
+  "schema": "paired-column-overlap-sources-v1",
+  "research_base_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-paired-sources/research_note.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "2ac3a99512cf055058e824d1fcd461c3cf65d84f1d5ad92769caba304866d1dd",
+      "scope": "Literal paired-convolution source; earlier paired construction context.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-20-paired-sources/research_note.md"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "sha256": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968",
+      "scope": "The conditional near-full fixed-width construction criterion; no premise is supplied here.",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/blob/bd03b9dadba03b1089595f03ff7a091ee9e7ddbc/research/ai/2026-10-21-correction-budget/README.md"
+    }
+  ],
+  "prior_work": {
+    "pr": 211,
+    "head": "1cce4e64a9bdf280e76fe03546abad8074bc0a14",
+    "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/211",
+    "path": "research/ai/2026-10-23-laurent-channel-barrier/proof.md",
+    "sha256": "3b26762b526e56c90700417ac415221f460d6517c1ce76331eca4c628e10ab8b",
+    "adopted_scope": "Normalize the saturated auxiliary-kernel lattice before specializing a polar source contribution. The earlier low-channel-rank assumption is not imported.",
+    "runtime_dependency": false
+  },
+  "field": "Every field for the formal flattening statement; C for ordinary algebraic border rank; rational and integer finite controls.",
+  "external_theorems": "No new external theorem. The saturation dimension statement is proved by elementary discrete-valuation-ring linear algebra in proof.md.",
+  "contribution": "Owner-directed OpenAI Codex continuation. The overlap graph and leading rank-loss budget are local work. No historical priority, independent review, formalization, or exponent improvement."
+}
