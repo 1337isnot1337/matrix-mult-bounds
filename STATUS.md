@@ -16,6 +16,18 @@ the rank losses and the failed sufficient test at rank106. Unit-image
 rank at most106, singular long-leg limits and polar identity lifts remain
 open. No target construction or exponent improvement is established.
 
+## Nonsplit vector-degree continuation: no finite bound gain
+
+The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks every original nonsplit coefficient, finding the 95 principal
+degree triples of even total at most eight. Seven bounded class-cover
+runs replay exactly, and a complete 3372-vector integer weight census
+combining degree and the saved principal cover retains the cube bound
+6155844. Claim `EXP-NONSPLIT-VECTOR-COVERS-001` is a finite experiment.
+Numerical optimality reports are not accepted as class-wide exclusion
+certificates. No improved bound or exponent follows. A new attempt needs
+additional basis structure or a changed source/basis/power.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
@@ -29,8 +41,9 @@ ordinary-map obstruction finishes the argument. Every finite pole order
 is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
 controls verify the rank budgets and projection recovery, without
-formalizing the proof. That proof left rank108 open; the stronger result above now covers it.
-Singular long-leg limits and polar unit lifts remain open. No matrix target or smaller exponent is established.
+formalizing the proof. That proof left rank108 open; the stronger result
+above now covers it. Singular long-leg limits and polar unit lifts remain
+open. No matrix target or smaller exponent is established.
 
 ## Finite covers close the selected nonsplit coordinate targets
 

@@ -1,16 +1,22 @@
 # Integrated research coordination
 
-The partial-unit-image continuation studies
-`ai/2026-10-23-regular-unit-image/QUESTION.md` on
-`research/regular-unit-image-20261023`. The written all-order argument
-compresses to 109 independent unit-image directions and recovers the
-entire long map through varying left inverses. It replaces an invertible
-A4 unit by `rank(S(0) C(0))>=109`, including corank-one unit slices.
-Exact matrix controls, all849 local tests (three optional skips) and
-all five archive replays pass. Final-head hosted CI is pending;
-the proof remains unreviewed. Rank108 is an equality boundary of this
-method. Singular long-leg limits and polar units remain open; no general
-degeneration or exponent claim.
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
+
+The one-sided unit-image continuation is published in PR121 on
+`research/verified-frontier-20261023`, from main `1c04903`.
+Its [written proof](ai/2026-10-23-one-sided-unit-image/proof.md) strengthens
+regularity to `rank(S(0) C(0))>=107`, retaining a regular full-rank long
+map and regular identity lift. All target rows are kept and the final
+kernel count uses the original long map. Five focused and18 metadata
+tests pass; full regression, archive replay and hosted CI are pending.
+This supersedes the earlier rank108 equality boundary of the partial-unit
+method, without changing the prior pinned proof. Unit-image rank at most106,
+singular long-leg limits and polar lifts remain open. No exponent improvement
+or independent mathematical review is claimed.
 
 ## Actual nonsplit finite covers: October 23 continuation
 

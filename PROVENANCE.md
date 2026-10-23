@@ -906,3 +906,14 @@ The prior finite split-cover note supplies its finite matrix slice-rank
 reduction and standard proper-incidence/field-transfer argument. These
 finite source certificates do not claim optimality, historical priority,
 independent mathematical review, formalization or exponent improvement.
+
+## Nonsplit vector-degree finite continuation
+
+The October 23 vector-degree package is owner-directed Codex work. It
+adopts the credited nonsplit basis and finite covers from PR102 at
+6cd7f3a1fc90820c135505b882a614cb62a025d5, with exact file hashes. It adds
+full-source parity and cover-membership checks, a separately counted
+class hypergraph and a finite integer-weight census. Optional SciPy
+optimization proposes covers; its numerical bounds are not mathematical
+acceptance premises. The earlier source theorem credits are retained.
+There is no independent review, formalization or exponent improvement.
