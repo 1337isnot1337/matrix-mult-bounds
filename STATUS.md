@@ -1,5 +1,42 @@
 # Research status
 
+## Rational-root heights restrict the quadratic indices
+
+The [structural sequel](research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md)
+shows that a minimum recurrence vector either has degree at least
+`ceil((a-1)D/2)` or comes from a rational root of height h and degree
+`(a+1)h`. It proves this through explicit polynomial Hankel kernel bases
+and the arbitrary-field matrix-polynomial index-sum theorem. An irreducible
+homogeneous quadratic forces the higher range; a sufficiently low rational
+root height determines both indices exactly. As a concrete consequence,
+the complete nonzero fifteen-by-fifteen biform-block rank spectrum at
+a=b=3 is `{9,12,14,15}` over every field. Rank thirteen is impossible,
+and explicit universal witnesses attain all four remaining values.
+For every balanced a=b>=3 quadratic-z family, ranks lie in
+`{a^2,a^2+a,a^2+2a-1,a^2+2a}`; universal attainment at larger sizes
+is not asserted. The one-below-full value requires primitive D=2.
+Claim `AI-QUADRATIC-INDEX-DICHOTOMY-002` is written and unreviewed.
+This does not classify all slices of the full cyclic tensor or supply
+an exponent improvement.
+
+## General quadratic biform ranks from two kernel indices
+
+The [quadratic-kernel theorem](research/ai/2026-10-23-quadratic-kernel-indices/proof.md)
+makes the rank of every nonzero `u(x)+z*v(x)+z^2*w(x)` slice computable
+over any field, with coefficient degrees below a, a>=2 and b>=3.
+After common-factor normalization, let D be the largest coefficient degree.
+The two polynomial-kernel indices sum to aD; the first is the first degree
+at which the explicit recurrence coefficient matrix has a nonzero kernel,
+which occurs by floor(aD/2). The full source rank is
+`ab+min(b,mu1)+min(b,mu2)`. For positive D, a zero first index is equivalent
+to a fixed ground-field linear factor in the homogeneous z-quadratic.
+This specializes the prior kernel-bundle identity and adds an effective
+two-index procedure. Exact finite controls compare 2050 complete source
+matrices, including the earlier equal-resultant ranks14/15 and their
+characteristic-two behavior. Claim `AI-QUADRATIC-KERNEL-INDICES-001` is
+written and unreviewed. No source-space cap, compatible matrix target,
+singular degeneration or exponent improvement is established.
+
 ## All-field ranks of single-top-polynomial biforms
 
 The [top-coefficient biform theorem](research/ai/2026-10-23-top-coefficient-biforms/proof.md) computes the literal cyclic-source matrix R_(a,b) for every f(x,z)=c_0+...+c_(e-1)*z^(e-1)+w(x)*z^e with 1<=e<b, nonzero constant c_0, constant lower coefficients, and nonzero polynomial w of x-degree d<a. Over every field, its exact rank is ab + sum_(j=0)^(e-1) min(b,d*floor((a+j)/e)). The leading polynomial-kernel vectors form a triangular residue basis, giving a complete all-field proof. The new controls pass 3,372 full-matrix modular comparisons and 24 independent-implementation rational matrix ranks. Claim AI-TOP-COEFFICIENT-BIFORM-RANK-001 is proof-written-unreviewed. It does not classify arbitrary quadratic-in-z coefficients, build a three-leg tensor target, or improve omega below 9/4. The separate [continuation](research/ai/2026-10-23-top-coefficient-biforms/CONTINUATION.md) records exact scope and provenance.
