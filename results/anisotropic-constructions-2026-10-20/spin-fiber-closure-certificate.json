@@ -1,0 +1,321 @@
+{
+  "claim": "AI-SPIN-FIBER-CLOSURE-124",
+  "field": "Every characteristic-zero field",
+  "family": "The independent raw-column weighted fixed spin/radix family of118",
+  "all_power_statement": "For every k>=2 the complete output lies in a fixed linear hyperplane violated by M_(3^k)",
+  "finite_induction_controls": [
+    {
+      "power": 2,
+      "target_hyperplane_value": -1,
+      "source_hyperplane_value": 0,
+      "first_row_minima": [
+        {
+          "row": 0,
+          "minimum_middle": 3
+        },
+        {
+          "row": 30,
+          "minimum_middle": 1
+        }
+      ],
+      "equations": [
+        {
+          "target_rows": [
+            0,
+            1,
+            39
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                96,
+                239,
+                372
+              ],
+              "coefficient": 64
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            30,
+            31,
+            39
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                14,
+                157,
+                290
+              ],
+              "coefficient": 64
+            },
+            {
+              "variables": [
+                96,
+                239,
+                372
+              ],
+              "coefficient": 64
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            30,
+            31,
+            69
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                14,
+                157,
+                290
+              ],
+              "coefficient": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "power": 3,
+      "target_hyperplane_value": -1,
+      "source_hyperplane_value": 0,
+      "first_row_minima": [
+        {
+          "row": 18,
+          "minimum_middle": 11
+        },
+        {
+          "row": 102,
+          "minimum_middle": 9
+        }
+      ],
+      "equations": [
+        {
+          "target_rows": [
+            18,
+            487,
+            111
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                572,
+                3151,
+                3952
+              ],
+              "coefficient": 512
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            102,
+            571,
+            111
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                90,
+                2669,
+                3470
+              ],
+              "coefficient": 512
+            },
+            {
+              "variables": [
+                572,
+                3151,
+                3952
+              ],
+              "coefficient": 512
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            102,
+            571,
+            195
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                90,
+                2669,
+                3470
+              ],
+              "coefficient": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "power": 4,
+      "target_hyperplane_value": -1,
+      "source_hyperplane_value": 0,
+      "first_row_minima": [
+        {
+          "row": 18,
+          "minimum_middle": 19
+        },
+        {
+          "row": 264,
+          "minimum_middle": 17
+        }
+      ],
+      "equations": [
+        {
+          "target_rows": [
+            18,
+            1513,
+            4701
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                3436,
+                29271,
+                54784
+              ],
+              "coefficient": 4096
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            264,
+            1759,
+            4701
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                554,
+                26389,
+                51902
+              ],
+              "coefficient": 4096
+            },
+            {
+              "variables": [
+                3436,
+                29271,
+                54784
+              ],
+              "coefficient": 4096
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            264,
+            1759,
+            4947
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                554,
+                26389,
+                51902
+              ],
+              "coefficient": 4096
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "power": 5,
+      "target_hyperplane_value": -1,
+      "source_hyperplane_value": 0,
+      "first_row_minima": [
+        {
+          "row": 18,
+          "minimum_middle": 35
+        },
+        {
+          "row": 750,
+          "minimum_middle": 33
+        }
+      ],
+      "equations": [
+        {
+          "target_rows": [
+            18,
+            4591,
+            53463
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                20604,
+                300071,
+                701888
+              ],
+              "coefficient": 32768
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            750,
+            5323,
+            53463
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                3322,
+                282789,
+                684606
+              ],
+              "coefficient": 32768
+            },
+            {
+              "variables": [
+                20604,
+                300071,
+                701888
+              ],
+              "coefficient": 32768
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            750,
+            5323,
+            54195
+          ],
+          "output_polynomial": [
+            {
+              "variables": [
+                3322,
+                282789,
+                684606
+              ],
+              "coefficient": 32768
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "linear_combination": [
+    1,
+    -1,
+    1
+  ],
+  "ordinary_maps_excluded": true,
+  "laurent_limiting_degenerations_excluded": true,
+  "arbitrary_source_maps_excluded": false,
+  "new_exponent_established": false
+}

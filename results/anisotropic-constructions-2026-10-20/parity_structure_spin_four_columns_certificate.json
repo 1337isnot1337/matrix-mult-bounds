@@ -1,0 +1,63 @@
+{
+  "source": "A(8,8)",
+  "target": "M(3,7,27)",
+  "field": "Q",
+  "map_denominators": [
+    2,
+    48,
+    24
+  ],
+  "integer_coefficient_scale": 2304,
+  "map_nonzero_counts": [
+    32,
+    3854,
+    1362
+  ],
+  "source_terms_checked": 262144,
+  "target_coefficients_checked": 321489,
+  "nonzero_target_coefficients": 567,
+  "response_source_coordinate_upper_bound": 576,
+  "response_blocks": [
+    {
+      "long_source_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "source_coordinate_upper_bound": 192,
+      "minor_dimension": 192,
+      "determinant_mod65521": 12738,
+      "rank_exact": 192
+    },
+    {
+      "long_source_coordinates": [
+        3,
+        4,
+        5
+      ],
+      "source_coordinate_upper_bound": 192,
+      "minor_dimension": 192,
+      "determinant_mod65521": 45481,
+      "rank_exact": 192
+    },
+    {
+      "long_source_coordinates": [
+        6,
+        7,
+        8
+      ],
+      "source_coordinate_upper_bound": 192,
+      "minor_dimension": 192,
+      "determinant_mod65521": 45481,
+      "rank_exact": 192
+    }
+  ],
+  "full_first_response_rank_exact": 576,
+  "first_target_dimension": 21,
+  "first_response_preimage_dimension": 405,
+  "fixed_map_extension_bound_only": true,
+  "full_square_target_constructed": false,
+  "new_exponent_established": false,
+  "maps_sha256": "dc62a028fa41fda76a031081b91cdd22cc7141a3c8a5da2e4b6a397c33b195f7",
+  "response_minors_sha256": "6409470616aca33dcf7c1321de7c77802e51894aa5f378e6268eece6fda95bfd"
+}

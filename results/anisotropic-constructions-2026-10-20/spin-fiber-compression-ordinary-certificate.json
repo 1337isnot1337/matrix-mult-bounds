@@ -1,0 +1,399 @@
+{
+  "field": "Every characteristic-zero field",
+  "claim": "AI-SPIN-FIBER-COMPRESSION-118",
+  "family": "Independent scalar on every raw column of each fixed spin tensor-power map, followed by its prescribed binary-radix convolution fiber projection",
+  "target": "M_(3^k) from A(2^k,2^k), for every integer k>=2",
+  "finite_induction_controls": [
+    {
+      "power": 2,
+      "all_raw_column_variables": 432,
+      "equations": [
+        {
+          "target_rows": [
+            0,
+            5,
+            45
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -64
+            },
+            {
+              "variables": [
+                20,
+                173,
+                328
+              ],
+              "coefficient": 64
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            0,
+            7,
+            63
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -64
+            },
+            {
+              "variables": [
+                20,
+                165,
+                364
+              ],
+              "coefficient": 64
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            5,
+            63
+          ],
+          "residual": [
+            {
+              "variables": [
+                19,
+                173,
+                364
+              ],
+              "coefficient": 32
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            9,
+            0
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -64
+            },
+            {
+              "variables": [
+                19,
+                152,
+                308
+              ],
+              "coefficient": 64
+            },
+            {
+              "variables": [
+                95,
+                228,
+                384
+              ],
+              "coefficient": 64
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            9,
+            30
+          ],
+          "residual": [
+            {
+              "variables": [
+                95,
+                228,
+                384
+              ],
+              "coefficient": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "power": 3,
+      "all_raw_column_variables": 5184,
+      "equations": [
+        {
+          "target_rows": [
+            0,
+            23,
+            621
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -512
+            },
+            {
+              "variables": [
+                112,
+                1913,
+                4544
+              ],
+              "coefficient": 512
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            0,
+            25,
+            675
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -512
+            },
+            {
+              "variables": [
+                112,
+                1865,
+                4760
+              ],
+              "coefficient": 512
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            23,
+            675
+          ],
+          "residual": [
+            {
+              "variables": [
+                111,
+                1913,
+                4760
+              ],
+              "coefficient": 256
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            45,
+            486
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -512
+            },
+            {
+              "variables": [
+                111,
+                1772,
+                4424
+              ],
+              "coefficient": 512
+            },
+            {
+              "variables": [
+                567,
+                2228,
+                4880
+              ],
+              "coefficient": 512
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            45,
+            570
+          ],
+          "residual": [
+            {
+              "variables": [
+                567,
+                2228,
+                4880
+              ],
+              "coefficient": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "power": 4,
+      "all_raw_column_variables": 62208,
+      "equations": [
+        {
+          "target_rows": [
+            0,
+            77,
+            6237
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -4096
+            },
+            {
+              "variables": [
+                656,
+                21873,
+                58336
+              ],
+              "coefficient": 4096
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            0,
+            79,
+            6399
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -4096
+            },
+            {
+              "variables": [
+                656,
+                21585,
+                59632
+              ],
+              "coefficient": 4096
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            77,
+            6399
+          ],
+          "residual": [
+            {
+              "variables": [
+                655,
+                21873,
+                59632
+              ],
+              "coefficient": 2048
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            153,
+            5832
+          ],
+          "residual": [
+            {
+              "variables": [],
+              "coefficient": -4096
+            },
+            {
+              "variables": [
+                655,
+                21012,
+                57616
+              ],
+              "coefficient": 4096
+            },
+            {
+              "variables": [
+                3391,
+                23748,
+                60352
+              ],
+              "coefficient": 4096
+            }
+          ]
+        },
+        {
+          "target_rows": [
+            1,
+            153,
+            6078
+          ],
+          "residual": [
+            {
+              "variables": [
+                3391,
+                23748,
+                60352
+              ],
+              "coefficient": 4096
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "base_equation_divisors": [
+    64,
+    64,
+    32,
+    64,
+    64
+  ],
+  "normalized_bezout_identity_for_one": [
+    {
+      "equation": 1,
+      "coefficient": -1,
+      "variables": [
+        19,
+        152,
+        308
+      ]
+    },
+    {
+      "equation": 2,
+      "coefficient": -1,
+      "variables": [
+        19,
+        20,
+        152,
+        173,
+        308,
+        328
+      ]
+    },
+    {
+      "equation": 3,
+      "coefficient": 1,
+      "variables": [
+        20,
+        20,
+        152,
+        165,
+        308,
+        328
+      ]
+    },
+    {
+      "equation": 4,
+      "coefficient": -1,
+      "variables": []
+    },
+    {
+      "equation": 5,
+      "coefficient": 1,
+      "variables": []
+    }
+  ],
+  "all_power_argument": "Written induction in spin_fiber_compression.md; finite controls are not a substitute for the induction",
+  "ordinary_family_excluded": true,
+  "arbitrary_source_maps_excluded": false,
+  "laurent_limits_addressed_by_this_certificate": false,
+  "laurent_followup": "spin_fiber_closure.md",
+  "new_exponent_established": false
+}

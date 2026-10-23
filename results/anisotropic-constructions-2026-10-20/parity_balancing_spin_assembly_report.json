@@ -1,0 +1,75 @@
+{
+  "arithmetic": "Python integers; exact rank minors modulo 65521",
+  "independent_reduced_replay": {
+    "source_terms_checked": 512,
+    "target_coefficients_checked": 15876,
+    "nonzero_target_coefficients": 126,
+    "all_other_target_coefficients_zero": true
+  },
+  "independent_full_source_replays": [
+    {
+      "source_terms_checked": 32768,
+      "target_coefficients_checked": 15876,
+      "nonzero_target_coefficients": 126,
+      "all_other_target_coefficients_zero": true
+    },
+    {
+      "source_terms_checked": 262144,
+      "target_coefficients_checked": 63504,
+      "nonzero_target_coefficients": 252,
+      "all_other_target_coefficients_zero": true
+    }
+  ],
+  "trimmed_middle_coordinate": 27,
+  "trimmed_complete_replay": {
+    "source_terms_checked": 262144,
+    "target_coefficients_checked": 59049,
+    "nonzero_target_coefficients": 243,
+    "all_other_target_coefficients_zero": true
+  },
+  "first_response_source_coordinate_pairs": 8298,
+  "first_response_exact_rank": 192,
+  "first_response_kernel_dimension": 768,
+  "first_kernel_is_exactly_all_long_indices_at_least_three": true,
+  "all_28_single_coordinate_deletions_keep_rank_192": true,
+  "first_preimage_dimension_of_nine_target_matrices": 777,
+  "first_preimages_are_saved_maps_plus_high_long_index_kernel": true,
+  "added_Y_rows_with_saved_X_Z": {
+    "response_support_size": 240,
+    "exact_rational_response_rank": 233,
+    "zero_coordinate_basis_vectors": 720,
+    "additional_integral_basis_vectors": 7,
+    "exact_kernel_dimension": 727
+  },
+  "added_Z_rows_with_saved_X_Y": {
+    "response_support_size": 216,
+    "exact_rational_response_rank": 213,
+    "zero_coordinate_basis_vectors": 744,
+    "additional_integral_basis_vectors": 3,
+    "exact_kernel_dimension": 747
+  },
+  "source_terms_checked_for_each_added_row_system": [
+    262144,
+    262144
+  ],
+  "candidate_target_blocks": [
+    27,
+    6,
+    3
+  ],
+  "candidate_target_common_leg_dimension": 774,
+  "remaining_target_rows": {
+    "X": 765,
+    "Y": 693,
+    "Z": 693
+  },
+  "saved_X_rows_required_for_added_Y_Z_kernel_claims": true,
+  "full_square_assembly_constructed": false,
+  "new_exponent_established": false,
+  "external_independent_review": false,
+  "actual_input_sha256": {
+    "spin-module14-witness.json": "e77563263d1161cd0f74d571a1b133605cd294748531a181883d5da06c76fae1",
+    "spin-module14-full-maps.json": "8f4c00bddee31fcbf527185351b96d2a638acdae29d68f019a617a2e4382c58a",
+    "parity_balancing_spin_assembly_certificate.json": "1adac851bbc710f25f608a0a340dacad3fe1caa64fffdbdeaba96ac406d5ad02"
+  }
+}

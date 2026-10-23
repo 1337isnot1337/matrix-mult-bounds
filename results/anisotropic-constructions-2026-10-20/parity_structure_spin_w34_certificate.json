@@ -1,0 +1,99 @@
+{
+  "source": "A(8,8)",
+  "target": "M(3,3,28)",
+  "construction": {
+    "U_dimension": 13,
+    "ignored_space_dimension": 34,
+    "pair_space_dimension": 15,
+    "selected_channels": 14,
+    "join_rank": 76,
+    "join_minor_determinant": "1/73728",
+    "exact_endpoint_pair_relations": true,
+    "exact_join_duality": true
+  },
+  "map_denominators": [
+    2,
+    48,
+    24
+  ],
+  "integer_coefficient_scale": 2304,
+  "reduced_replay": {
+    "source_terms_checked": 512,
+    "active_source_terms": 496,
+    "target_coefficients_checked": 15876,
+    "nonzero_target_coefficients": 126
+  },
+  "full_source_replays": [
+    {
+      "source_terms_checked": 32768,
+      "active_source_terms": 496,
+      "target_coefficients_checked": 15876,
+      "nonzero_target_coefficients": 126,
+      "source": [
+        4,
+        8
+      ],
+      "target": [
+        3,
+        3,
+        14
+      ],
+      "mixed_copy_coefficients_checked": false
+    },
+    {
+      "source_terms_checked": 262144,
+      "active_source_terms": 992,
+      "target_coefficients_checked": 63504,
+      "nonzero_target_coefficients": 252,
+      "source": [
+        8,
+        8
+      ],
+      "target": [
+        3,
+        3,
+        28
+      ],
+      "mixed_copy_coefficients_checked": true
+    }
+  ],
+  "full_first_response_rank_exact": 192,
+  "response_minor_determinant_mod65521": 29618,
+  "G1_delete0_exclude1": {
+    "matrix_shape": [
+      4992,
+      120
+    ],
+    "rank_exact": 117,
+    "kernel_dimension_exact": 3,
+    "kernel_vectors": [
+      [
+        [
+          5,
+          1
+        ]
+      ],
+      [
+        [
+          6,
+          1
+        ]
+      ],
+      [
+        [
+          7,
+          1
+        ]
+      ]
+    ],
+    "minor_determinant_mod65521": 24747,
+    "deleted_original_middle_channel": 0,
+    "excluded_original_middle_channel": 1
+  },
+  "full_square_target_constructed": false,
+  "new_exponent_established": false,
+  "witness_sha256": "e507288c92301bc18d1887f7cab2de540a5ffbc64afea6a53e9f4e1465a7aace",
+  "full_maps_sha256": "e1f1f05e311574a254680e49fa74f9ade1cf07ef2ab6e582be9ea4f2f3e7e684",
+  "response_minor_sha256": "04403a699e818679240dcb3ce182a07c94d98b15f32a8473d5f853c2d045c7b6",
+  "G1_kernel_sha256": "12a5812ee0908806109cefdc96a31bd0d45612215265bea52b4db35f47aa2332"
+}

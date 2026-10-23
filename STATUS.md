@@ -1002,11 +1002,142 @@ do not change the mathematical review status of the research.
 
 ## Constructive continuation and source obstructions
 
-The constructive continuation records fifty-six local claims,
-AI-ORIENTED-ENDPOINT-052 through AI-CHANGED-CORNER-MODULE-107,
-in [the claim ledger](research/claims.json). All general arguments are
+The constructive continuation records seventy-four local claims
+in [the claim ledger](research/claims.json). This checkpoint adds
+claims 118 through 122 and 124 through 126 to the earlier sixty-six claims. All general arguments are
 written and unreviewed. Same-session agent checks and exact finite replays
 do not constitute independent mathematical review.
+
+The [auxiliary corner](research/ai/2026-10-20-anisotropic-constructions/spin_scalar_corner.md)
+now gives exact M(1,1,9) with full response ranks (15,9,9) and six
+vanishing mixed responses against the reduced search's ambient spaces.
+It would cancel nine copies of a shared-first-factor scalar defect;
+the reduced maps with that defect remain missing. A second agent
+independently reconstructed the source and all compatibility checks.
+
+An [exact source-basis control](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_basis_escape.md)
+escapes claim124's fixed compression hyperplane: its three selected
+coefficients are (1,2,7), with alternating combination6. This enlarged
+family still has no M9 witness. The failed finite numerical pilots and
+their actual residuals are saved separately from exact acceptance.
+
+The [25-test ordinary-frontier integration receipt](results/anisotropic-constructions-2026-10-20/spin-hankel-integration-validation.json)
+passes the seven incoming Hankel-pencil controls and eighteen repository
+checks after incorporating main4695298. It preserves that proof's
+unreviewed status and its exclusion of ordinary A8 targets. Singular
+matrix constructions remain the active positive question.
+
+The [27-test integration receipt](results/anisotropic-constructions-2026-10-20/spin-scalar-basis-focused-validation.json)
+passes all seven new mathematical tests, both tests from main's external
+preprint audit, and all18 repository checks. Main bf3b7d8 is preserved.
+Earlier complete regression and archive receipts remain linked below;
+this receipt does not count a second complete-suite run.
+
+The concurrent [ordinary Hankel–Segre application](https://github.com/1337isnot1337/matrix-mult-bounds/blob/1721a4e9d7ac3eb0762075c235be3afa99a3e8fa/research/ai/2026-10-21-hankel-pencil-degree/application.md),
+pinned at1721a4e9 in PR75, supplies a written unreviewed exclusion of
+the former ordinary A8 rectangle M(27,28,28), and all improving ordinary
+A8 square sums. Its argument leaves singular degenerations outside its
+scope. The current construction effort therefore targets singular maps;
+the earlier response budgets remain exact necessary tests for their
+fixed cores, without asserting that the larger ordinary target exists.
+
+A [complete fourth vertex](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin22_fourth_vertex.md)
+now gives exact rational A(8,8) restrictions to M(3,4,32) and its
+common-channel section M(3,4,28). The section has response ranks
+(192,252,252) and preimage dimensions (780,820,792), leaving allowances
+(24,36,36) for the proposed M(27,28,28) rectangle. All 112,896
+section coefficients are checked. The tiny target alone was already
+known by cyclic rotation; the new evidence concerns the specified spin
+chart, residue lift and response spaces. A singular larger rectangle remains
+unconstructed; the ordinary case is excluded by the concurrent proof above.
+
+An [exact two-endpoint repair](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint.md) changes both retained maps of the balanced module while preserving M(3,3,27). Its complete first response vanishes at two specified endpoint coordinates. The remaining response rank is exactly190, giving a first preimage of dimension779. The current rational coefficients were freshly reconstructed; they are explicitly distinguished from the lost original implementation. Every original-source and target coefficient passes, and a second agent separately replays both endpoint responses. The remaining matrix-unit extension equations are unsolved.
+
+Its [22-test follow-up receipt](results/anisotropic-constructions-2026-10-20/spin-double-endpoint-focused-validation.json) passes with no skips, including all four substantive construction tests and repository checks. The four unchanged tests introduced by main20fa49b also pass in their [separate integration receipt](results/anisotropic-constructions-2026-10-20/spin-main20fa-incidence-validation.json).
+
+The [three-leg budget calculation](research/ai/2026-10-20-anisotropic-constructions/spin_rectangle_budget.md)
+also certifies ranks (192,236,216) for the original full 28 spin core.
+It credits the concurrent ordinary frontier for the same rectangular
+candidate. Its exact numerical comparison would imply omega<2.247
+only after the missing full maps are constructed. The retained core
+dimension must increase when a vertex is completed; a fixed old
+dimension would give the wrong extension budget.
+
+The [balanced-core freedom theorem](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44_freedoms.md)
+gives the complete low-coordinate kernels after five channels are
+removed. Simultaneous individually neutral changes preserve the core
+exactly when their deleted-channel graph spaces are orthogonal.
+A full rational example changes all 81 retained rows on both legs and
+passes every original-source coefficient check.
+
+A separate [ordinary compression proof](research/ai/2026-10-20-anisotropic-constructions/spin_fiber_compression.md)
+and its [Laurent-limit extension](research/ai/2026-10-20-anisotropic-constructions/spin_fiber_closure.md)
+close the fixed local-spin/raw-column/radix family at every power k>=2.
+Three actual output coefficients satisfy a linear identity that the
+matrix tensor violates. The three-bit induction base has an independent
+full source enumeration. Changed local maps and additional output
+transformations remain open.
+
+The [recovery checkpoint receipt](results/anisotropic-constructions-2026-10-20/spin-recovered-focused-validation.json) records all 34 focused tests passing. Its initial metadata-assertion error and correction are retained separately. The [complete regression](results/anisotropic-constructions-2026-10-20/spin-current-main-full-validation.json) through main 48bd72d completed 609 tests, with 606 passes and three optional skips; the later recovered packages have the separate focused coverage. All five [archive replays](results/anisotropic-constructions-2026-10-20/spin-current-archive-validation.json) also pass. Concurrent branch head f1ffc57, which integrates main 20fa49b, is preserved beneath this checkpoint.
+
+A [balanced spin module](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin44.md)
+now constructs M(3,3,8) from A(4,4), and M(3,3,32) from A(8,8).
+Its four parity sectors use the same nine first images. The full-source
+replay checks all 82,944 target coefficients of the larger tensor.
+Retaining 27 of its 32 channels leaves five channels available for
+coupled changes; compatible larger matrix maps remain unconstructed.
+
+A separate [four-vertex extension](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_four_columns.md)
+constructs the complete rectangular tensor M(3,7,27) from A(8,8),
+with all 321,489 target coefficients checked. Its other-leg maps
+have first response rank 576, leaving a first preimage of dimension
+405. Therefore this specific pair cannot be retained in an ordinary
+extension with first dimension greater than 405, even if the first
+map changes. Other maps and singular degenerations remain open.
+
+An [exact Laurent repair](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34_laurent.md)
+preserves M(3,3,27) at every nonzero parameter while canceling one
+endpoint response. It also constructs a two-channel M(3,4,2) attachment,
+sharing six third-leg variables with the core. Complete Laurent
+coefficient replays include unwanted terms and negative powers.
+The [ordinary core-freedom certificate](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin_w34_freedoms.md)
+separately describes an 891-parameter family preserving the same core
+and proves that this specified family cannot cancel either stated
+endpoint. Neither result completes an improving target.
+
+A [new four-chain spin module](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_w34.md)
+changes both retained maps and constructs M(3,3,28) exactly. Deleting
+one channel leaves three explicit boundary directions that support
+[eight simultaneous attachments](research/ai/2026-10-20-anisotropic-constructions/spin_channel_extension.md).
+The resulting tensor has leg dimensions (33,89,81): it glues
+M(3,3,27) and M(3,8,1) along three third-leg variables. All 237,897
+target coefficients are checked exactly. Each new second vertex still
+lacks 26 channels; this is not a complete M(3,11,27) tensor or a square
+target. Its first response has rank 216 and first preimage dimension 777.
+
+The [boundary-discovery record](research/ai/2026-10-20-anisotropic-constructions/spin_private_boundary_discovery.md)
+also preserves 108 finite-field undoubled-module trials and a separate
+private-boundary repair attempt. Neither supplies accepted rational maps.
+Their rank calculations apply to the recorded charts over F65521 and
+do not establish a characteristic-zero obstruction.
+
+An [exact endpoint repair](research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin_endpoint.md)
+changes the retained Y map and gives A(8,8) to M(3,3,27) with response
+rank 191. Its first preimage has dimension 778, meeting the necessary
+dimension allowance for M27 plus M7. A separate
+[coefficient argument](research/ai/2026-10-20-anisotropic-constructions/spin_endpoint_extension.md)
+nevertheless excludes an ordinary extension that keeps those repaired
+Y and Z rows: a new matrix unit would have response rank at most one
+where the target requires three. This proof permits arbitrary kernel
+changes to the nine first images. Changed retained maps and the
+dimension-774 target M27 plus M6 plus M3 remain open.
+
+The [original spin-core preimages](research/ai/2026-10-20-anisotropic-constructions/parity_balancing_spin_assembly.md)
+are also determined exactly. All 28 single-coordinate middle deletions
+keep response rank 192 and first preimage dimension 777. With the
+actual first map fixed, explicit bases give dimensions 727 and 747
+for adding second- and third-leg rows. The remaining coupled equations
+are not implied by those linear spaces.
 
 The [spin-one module construction](research/ai/2026-10-20-anisotropic-constructions/spin_module14.md)
 now gives exact rational maps from A(4,8) to M(3,3,14) and from A(8,8)
@@ -1075,10 +1206,22 @@ checks all four new packages, main's mixed second-order family through
 skips or failures.
 The [full spin-and-corner regression receipt](results/anisotropic-constructions-2026-10-20/spin-corner-full-validation.json)
 pins checkpoint `4ed2b52`: 513 tests completed, with 510 passed and
-three optional skips. The later integration of main's mixed third-order
-proof at `b113866` has a separate
+three optional skips. The later preimage, endpoint-repair and extension
+packages are not included in that count.
+The integration of main at `b113866` also has a separate
 [27-test focused receipt](results/anisotropic-constructions-2026-10-20/spin-corner-main-integration-validation.json),
 with no skips or failures.
+The [assembly checkpoint receipt](results/anisotropic-constructions-2026-10-20/spin-assembly-focused-validation.json)
+checks the exact preimages, endpoint repair, fixed-map extension proof,
+four-chain module, simultaneous attachments and repository invariants:
+31 tests pass with no skips. The finite-field discovery files are
+preserved separately from the rational construction certificates.
+All hosted checks pass for assembly head `1b94457`; Python 3.10
+completes 530 tests with three optional skips. A subsequent
+[36-test growth receipt](results/anisotropic-constructions-2026-10-20/spin-growth-focused-validation.json)
+checks the four new packages above, the incoming third-boundary theorem
+at `18a06b3`, and repository invariants. These new packages are not
+included in the earlier 530-test count.
 
 The [support-peeling proof](research/ai/2026-10-20-anisotropic-constructions/torus_support_peeling.md)
 now excludes **every ordinary A88 to M27 plus M7 restriction whose matrix-unit

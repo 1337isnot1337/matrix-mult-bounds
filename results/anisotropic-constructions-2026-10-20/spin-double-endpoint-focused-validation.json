@@ -1,0 +1,69 @@
+{
+  "scope": "Fresh coupled two-endpoint maps, exact response190, all source coefficients, and repository invariants on current checkpoint73dd68e",
+  "baseline_commit": "73dd68e83d3c5ddfc4c1fe9242c911838a6b3915",
+  "included_main": "20fa49bb9bbc8908935bec508158a76757044505",
+  "started_utc": "2026-10-21T15:08:24.315420+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "PYTHONPATH=/workspace/scratch/996c9957b079/maintained-deps python -S: unittest discover for the two listed patterns",
+  "patterns": [
+    "test_parity_structure_spin44_double_endpoint.py",
+    "test_research.py"
+  ],
+  "frozen_artifacts": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint.py",
+      "bytes": 8530,
+      "sha256": "b3d11c83b1617abef66aa53d2fb43e20db84ca6dc02fd0c95e333bd0696ba23e"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint_generate.py",
+      "bytes": 5140,
+      "sha256": "d8c74ff17f88d32352d13a64e7c193ecb630d4ace8bd02702c2b2c464416dff0"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/parity_structure_spin44_double_endpoint.md",
+      "bytes": 7834,
+      "sha256": "fe456d2cb06a0af021ddf90c7d170bd0ab0f3801edcb72e6750d3fc6e63026d6"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin44_double_endpoint_maps.json",
+      "bytes": 207490,
+      "sha256": "cd21a881b4d21098a7156b9c65d1b1a6e888854be21c0f2346e76c8351b8fdb2"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin44_double_endpoint_witness.json",
+      "bytes": 7347,
+      "sha256": "a3826655cc8251605ab170ffea4e6d8b24695b6efe032b98ab630e4e4e07ce73"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin44_double_endpoint_response_minor.json",
+      "bytes": 1466,
+      "sha256": "ba66aafd5fffb0fc8a70ba3809ec85e13b81965857bff0a857b89f5ea2f1b775"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_structure_spin44_double_endpoint_certificate.json",
+      "bytes": 1425,
+      "sha256": "c49779a50838aceef3e8100d7acb36a97956f49c11ed0f3edcaf3714d1c5182f"
+    },
+    {
+      "path": "tests/test_parity_structure_spin44_double_endpoint.py",
+      "bytes": 1605,
+      "sha256": "babc2ccff9896ce24528e59071e2811568a469695286f6b253a4ccd2ac69735b"
+    },
+    {
+      "path": "results/anisotropic-constructions-2026-10-20/parity_balancing_recovered121_audit.json",
+      "bytes": 468,
+      "sha256": "20ba181425c2afe1a91685d5da6f1febbf503282c6f999a4d8baf01359259b12"
+    }
+  ],
+  "running": false,
+  "external_independent_review": false,
+  "improves_omega": false,
+  "finished_utc": "2026-10-21T15:08:38.965825+00:00",
+  "tests_run": 22,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "log_sha256": "c18cfbfb26730b1112ad51d3b1a3fdae6896a08fc33b8efbe423dfe5dd9cd0f1"
+}
