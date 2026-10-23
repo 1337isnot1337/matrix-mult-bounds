@@ -1,0 +1,40 @@
+{
+  "coverage": {
+    "gaussian_polar_controls": 1,
+    "literal_minimum_source_ranks": 24,
+    "literal_row_factorizations": 4,
+    "principal_rank_cases": 5,
+    "ruling_families": 8,
+    "source_countercontrols": 3,
+    "unit_image_rank_cases": 5,
+    "unit_slice_budget_controls": 4
+  },
+  "disposition": "superseded-for-A4-frontier",
+  "improves_omega": false,
+  "independent_review": false,
+  "own_checks": [
+    {
+      "command": "python -m unittest discover -s tests -p test_unit_image_pole_flags.py -v",
+      "status": "passed",
+      "tests": 4,
+      "wall_seconds": 63.927
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "status": "passed",
+      "tests": 18,
+      "wall_seconds": 0.305
+    }
+  ],
+  "proof_status": "proof-written-unreviewed",
+  "reopening_trigger": "A demonstrated gap in the stronger one-regular-leg argument, or a new target/model outside its hypotheses.",
+  "superseding_head": "db180d63bd345aa559ccca357841a837699a46f2",
+  "superseding_package_replay": {
+    "command": "python -m unittest discover -s tests -p test_one_regular_leg.py -v",
+    "status": "passed",
+    "tests": 3,
+    "wall_seconds": 4.917
+  },
+  "superseding_pr": 113,
+  "superseding_proof_sha256": "4fbeb29cc23b26b687c3af0b3b5d69e5c29257da3c5f3f3f411c6c5e682b02d0"
+}

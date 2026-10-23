@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "command": "python research/ai/2026-10-23-unit-image-pole-flags/verify.py --write",
+      "coverage": {
+        "literal_minimum_source_ranks": 24,
+        "ruling_families": 8,
+        "source_countercontrols": 3,
+        "unit_image_rank_cases": 5
+      },
+      "status": "passed"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_unit_image_pole_flags.py -v",
+      "status": "passed",
+      "tests": 4,
+      "wall_seconds": 5.837
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research.py -v",
+      "status": "passed",
+      "tests": 18,
+      "wall_seconds": 2.485
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_archive_integrity.py -v",
+      "status": "passed",
+      "tests": 3,
+      "wall_seconds": 0.097
+    }
+  ],
+  "improves_omega": false,
+  "limits": "Focused and metadata checks only. The parent complete regression and archive replay are tracked in PR121. This receipt makes no independent review, complete lower-pole classification or exponent claim.",
+  "parent_commit": "c5aab5b503bb48625ccdf83fec1ab2a4d43cfde0",
+  "parent_pr": 121,
+  "proof_status": "proof-written-unreviewed"
+}
