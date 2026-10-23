@@ -1294,7 +1294,7 @@ projection alternative to projection zero. Both families remain open.
 
 The mixed-frame worker now studies
 `ai/2026-10-21-mixed-exceptional-affine/QUESTION.md`. A new affine family
-has at least 38 normal directions, exactly38 generically. Its base graph
+has at least38 normal directions, exactly38 generically. Its base graph
 is fully excluded after recomputing all38 directions. The rest of the
 family and exceptional affine four-planes remain open. Claim095 records
 polynomial family identities separately from finite discovery grids.

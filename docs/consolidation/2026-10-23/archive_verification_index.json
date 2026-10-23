@@ -1,6 +1,6 @@
 {
   "schema": "matrix-consolidation-archive-receipt-index-v1",
-  "snapshot_count": 172,
+  "snapshot_count": 176,
   "basis": "Exact remote GET receipts supplied by the coordinator and checked by the offline preservation gate.",
   "archive_tags": [
     {
@@ -12,6 +12,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/a4-singular-long-rank-20261023/d75e16b111f2",
       "sha": "d75e16b111f2a97234bf27d5640cad28a4fdad81",
       "source_receipt": "archive_receipt_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/a4-universal-20261023-ab94/beb14b693fc7",
+      "sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_receipt": "archive_concurrent_wave_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/affine-z-biform-ranks-20261023/4247f42eeb30",
@@ -47,6 +52,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-20261023-ab94/f8fdcd314d7a",
       "sha": "f8fdcd314d7a0740ebc36e70e76b348b8fa33935",
       "source_receipt": "archive_nextwave_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/column-overlap-validation-20261023-ab94/7797ad499138",
+      "sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "source_receipt": "archive_concurrent_wave_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/conic-projective-global-20261023/c95b5c3c4ee0",
@@ -129,6 +139,11 @@
       "source_receipt": "archive_late_tags.json"
     },
     {
+      "tag": "archive/consolidation-20261023-165523-updates/research/pruned-aggregation-20261023-ab94/eb95f17da4f5",
+      "sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_receipt": "archive_concurrent_wave_tags.json"
+    },
+    {
       "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/7ecec6ebac9a",
       "sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
       "source_receipt": "archive_live_catchup_tags.json"
@@ -147,6 +162,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/f00613b057cc",
       "sha": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
       "source_receipt": "archive_quadratic_f006.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-torsion-attainment-01a1697d/a8da2a3d511d",
+      "sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+      "source_receipt": "archive_concurrent_wave_tags.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-z-middle-exact-20261023/0d9781b6774f",

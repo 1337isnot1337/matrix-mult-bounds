@@ -26,6 +26,19 @@ checked the argument within the generating session; this does not supply
 independent mathematical review. No full near-capacity matrix family,
 historical priority, formalization, or exponent improvement is claimed.
 
+The `2026-10-23-a4-compression-algebra` package is owner-directed OpenAI
+Codex work. It imports the full two-sided conjugation limit, scalar-action
+target obstruction and low-rank support reduction with their existing
+credit and exact byte pins. Its new contribution is the universal bound
+38 for arbitrary constant rank-26 compressions of the specified outer
+space. A torus limit, exact homogeneous minor identities and a coupled
+flag argument replace the remaining unrestricted constant-compression
+question. Acceptance reconstructs the literal source separately from
+the discovery script. Root and another subagent checked the argument
+within the generating session; this is not independent mathematical
+review or formalization. No full matrix target, historical priority or
+exponent improvement is claimed.
+
 The `2026-10-23-a4-coordinate-compressions` continuation retains the
 PR213 source, block-space reduction and nine-direction requirement with
 exact published dependency pins. The new additions are the complete
@@ -169,6 +182,34 @@ Two other agents checked its reasoning during this generating session;
 this is not independent mathematical review. The preceding proof and
 arithmetic files remain byte-identical. No historical priority, exponent
 improvement or formalization is claimed.
+
+## Rectangular aggregation and fixed-grid rigidity
+
+The continuation in `research/ai/2026-10-23-aggregation-families/rectangular/`
+is owner-directed Codex work. It extends the local induced-edge budget
+argument to fixed unequal ordered part sizes and arbitrary coordinate
+dimensions, and proves independence of the fixed grid forms when one
+target fills the centered spaces. The centering, correction and graded
+unequal-shape framework remains attributed to Solomonik and Blaeser,
+arXiv:2610.26563v2, Sections 5-6 and Appendix D. The finite rational
+checks are implementation and hypothesis controls. No historical
+priority, independent mathematical review or formalization is claimed.
+
+## Smaller-support aggregation and exact position budgets
+
+The files under `research/ai/2026-10-23-aggregation-families/pruned/`
+extend the local cost analysis to smaller targets and mixed graded
+shapes. The common-support proof, finite dimension profiles and exact
+position counter are owner-directed Codex deductions. The general10,
+general13 and general22 families, their scalar gradings and the
+aggregation mechanism remain external work of Solomonik and Blaeser,
+arXiv:2610.26563v2. Public raw ancillary bytes are retained with versioned
+URLs and SHA256 checks. The explicit 22-product bound is a restriction
+and recounting of that credited mechanism, not a new family of
+tripartitions. The separate centering-row searches are finite modular
+experiments; they do not supply characteristic-zero impossibility
+certificates. No historical priority, independent review or formalization
+is claimed for this continuation.
 
 ## Alternating matched-sector separations
 

@@ -48,13 +48,14 @@ otherwise.
 
 The [paired rank-two gap](../research/ai/2026-10-23-paired-rank-two-gap/proof.md) gives rank S_Y >= b(b+1) for every rank-two first coefficient matrix of Q(n,b), sharply. At width four this is 20, strengthening the generic previous 17 for rank two. To apply it to an ordinary corrected target, prove that a sufficiently large residual-annihilator family has source coefficient rank two and then control compression losses through the two actual long kernels. The theorem alone does not imply that arbitrary mixed first maps have rank-two images, nor does it extend to singular Laurent maps. A future construction should provide actual tensor maps or prove a precise rank-two-image implication, not assert an exponent gain from the source rank gap alone.
 
-## Full-source singular maps: the compression rank-loss condition
+## Full-source singular maps: escape the closed constant-compression family
 
 The [independent coordinate census](../research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
 now has sharp outer image dimension 40, so every independent coordinate
-compression of the fixed two-sided A4 family is excluded. The remaining
-question concerns arbitrary complex subspaces U and W. A finite choice
-of coordinate basis does not settle their compression dimensions.
+compression of the fixed two-sided A4 family is excluded. Its exact
+equality witnesses retain a sharper bound for that finite class. The
+separate universal theorem below closes arbitrary complex subspaces U
+and W through graded flags and exact minor identities.
 
 The [two-sided A4 conjugation result](../research/ai/2026-10-23-conjugation-limit/proof.md)
 computes the complete limiting space for `g=I+t^-1 N`, with the fixed
@@ -62,22 +63,23 @@ rank-sixteen square-zero source slice N. A full matrix target can occur
 after constant long-leg compression only on the locus
 `dim(P L C)<=103`, where at least nine leading directions disappear.
 All principal two-coordinate deletions are excluded by a complete exact
-census. Do not repeat that finite class. The next constructive question
-is whether an arbitrary compression on this rank-loss locus can recover
-the full matrix slice space after re-saturation, or whether a different
-singular path avoids the scalar-action obstruction. A candidate must
+census. The [universal compression proof](../research/ai/2026-10-23-a4-compression-algebra/proof.md)
+now excludes every constant compression in this fixed family. Do not
+repeat those searches. The next constructive question is whether moving
+compressions or a different singular path avoid the obstruction. A candidate must
 supply every target coefficient; a large limiting-space dimension alone
 does not identify matrix multiplication.
 
 The [exact low-rank reduction](../research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
 reduces this fixed family's constant-compression question to the explicit
 46-dimensional outer space `E=G+[G,G00]+G00 G G00` in `Mat28`.
-Determine whether any rank-26 pair has `dim(Phat E Chat)<=37`.
-Equivalently, seek a 26-dimensional U and two-dimensional W with a
-subspace of at least nine E matrices mapping U into W. A universal
-lower bound of 38 would close constant compressions for this family;
-a successful reduced pair would still need complete re-saturation and
-the full target coefficient identities.
+The new theorem proves that no rank-26 pair has
+`dim(Phat E Chat)<=37`: every such image has dimension at least 38.
+It retains arbitrary complex input/output subspaces through a torus
+limit and exact minor arguments. This closes the constant-compression
+question for the specified path. A new positive trajectory must leave
+that class and still supply complete re-saturation and all target
+coefficient identities. The theorem does not claim the bound 38 is sharp.
 
 The [recorded two-factor and nonnilpotent follow-ups](../research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
 already close every principal coordinate compression for those two exact

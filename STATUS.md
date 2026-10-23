@@ -53,6 +53,25 @@ more extensively singular leading blocks remain open. Claim
 window restrictions and a full-channel sharp flattening example test its
 scope; no exponent improves.
 
+## Arbitrary constant compressions of the fixed two-sided A4 family are excluded
+
+The [universal compression proof](research/ai/2026-10-23-a4-compression-algebra/proof.md)
+settles the 46-dimensional outer-space question over C. Every rank-26
+pair has `dim(P E C)>=38`, so every constant rank-110 compression of
+the fixed full 112-dimensional conjugation limit has dimension at least
+104. The necessary target bound is 103. This excludes all constant
+compressions in that one family, including arbitrary Laurent first maps.
+
+A torus limit retains arbitrary subspaces within each weight space and
+reduces the proof to 2,809 weight-budget pairs. Exact zero-block equations
+cover 2,781 pairs, quadratic-form bounds cover 25 more, and explicit minor
+identities plus a shared-flag argument close the final three. Acceptance
+reconstructs the literal source and all 24 retained minor identities.
+Claim `AI-A4-ARBITRARY-COMPRESSION-001` is written and unreviewed;
+same-session checks are not independent review. Moving compressions and
+different singular paths remain open. No full target or exponent gain
+is established, and the lower bound 38 is not claimed to be sharp.
+
 ## Independent coordinate compressions are excluded with sharp loss six
 
 The [complete independent-coordinate census](research/ai/2026-10-23-a4-coordinate-compressions/proof.md)
@@ -64,8 +83,9 @@ bound to every independent coordinate compression of the full fixed
 112-dimensional conjugation family. Its target requires loss at least
 nine, so the entire coordinate class is excluded. Claim
 `AI-A4-INDEPENDENT-COORDINATE-004` is written and unreviewed, with finite
-computer assistance. Arbitrary noncoordinate flags remain a separate
-question; no target or exponent improvement is established.
+computer assistance. The separate universal theorem above closes
+arbitrary constant flags; the sharper coordinate bound remains useful.
+No target or exponent improvement is established.
 
 ## Sharp rank-two slice gap for the paired source (October 23)
 
@@ -125,8 +145,8 @@ coordinate compressions have projected rank at least 108 modulo 1009,
 hence dimension at least 108 over C. They lose at most four leading
 directions and are all excluded. Claims `AI-A4-TWOSIDED-RANKLOSS-001`
 and `AI-A4-TWOSIDED-COORDINATE-002` are written and unreviewed.
-The arbitrary constant-compression locus of dimension at most 103,
-moving compressions and other singular paths remain open. This is a
+The new universal result above excludes that constant-compression locus.
+Moving compressions and other singular paths remain open. This is a
 scoped obstruction; it supplies no target or exponent improvement.
 
 The [low-rank reduction](research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md)
@@ -137,8 +157,9 @@ therefore requires rank-26 maps with `dim(Phat E Chat)<=37`.
 Exact replay checks 112 block-coordinate identities and 16
 transpose-conjugation identities; the minimum-rank-six input retains
 the prior resolvent package's credit. Claim
-`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The remaining
-universal lower bound of 38 is not proved.
+`AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The new compression
+proof above supplies the universal lower bound of 38 that this reduction
+left open; its original proof and certificates retain their prior scope.
 
 Two [finite two-sided follow-ups](research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
 also screen all 6,216 principal coordinate pairs per family. A product
@@ -190,6 +211,48 @@ model, not sufficient. This is not a lower bound on tensor rank;
 cheaper aggregate decompositions and other
 constructions remain outside its scope. Claim: AI-AGGREGATION-COST-FLOOR-003.
 Both new proofs are written and unreviewed, with no exponent improvement.
+
+## October 23: rectangular complete-grid limits and a pruning escape
+
+The [rectangular continuation](research/ai/2026-10-23-aggregation-families/rectangular/proof.md)
+extends the displayed-budget exclusion to every fixed ordered part shape
+on at most 32 coordinates. Target dimensions can differ between
+coordinates and between products. The exact induced-edge certificate
+checks every shape, with dimension 33 as a non-exclusion control.
+A second proof shows that one target filling all centered coordinate
+spaces of dimensions at least two forces every coefficient of the fixed
+leading grid forms. Reweighting those forms cannot remove a position,
+even in a Laurent degeneration. These results concern the complete-grid
+budget and fixed forms. They do not bound optimal tensor rank. Mixed
+graded shapes, smaller targets with a pruned grid, and new linear forms
+remain separate possibilities. Claims AI-AGGREGATION-RECTANGULAR-GATE-004
+and AI-AGGREGATION-FIXED-GRID-005 are written and unreviewed; no exponent
+improvement is established.
+
+## October 23: genuinely pruned grids and their common-support limit
+
+The [smaller-support continuation](research/ai/2026-10-23-aggregation-families/pruned/proof.md)
+permits mixed graded shapes and deletes zero aggregate forms. If a target
+coordinate of dimension m has at least m+1 common nonzero rows in its
+active pair, the largest-volume diagonal block alone forces a budget
+of at least (4/3^(3/4))^d times its volume to the power 3/4. The exact
+product-count gate excludes every such pruned budget for the external
+10/13/22 families and local 29/106 families, for arbitrary product-dependent
+dimensions and supports. It concerns counting the surviving positions;
+reweighting and new decompositions remain outside it.
+
+One explicit restricted profile gives 22 independent unequal matrix
+products of volume n^5 with border-rank upper bound
+4n^5+32n^4+102n^3+158n^2+118n+34 for every integer n>=2. Every leading
+and correction position is counted. The displayed border-rank budget
+is below the classical upper bound 22n^5 for n>=4, but cannot reach its
+9/4 critical mass 22n^(15/4). All 13,845 external mixed triples, signed
+grades and corrections are checked exactly. A separate centering-row
+embedding escapes the common-support premise; six bounded modular
+experiments in that class gave no competitive candidate and are not
+characteristic-zero exclusion proofs. Claims AI-AGGREGATION-PRUNED-SUPPORT-006
+and AI-AGGREGATION-PRUNED-RECTANGLES-007 are written and unreviewed.
+No actual tensor-rank lower bound or exponent improvement is claimed.
 
 ## Exact diagonal biform block reduction and quadratic ranks
 

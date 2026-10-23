@@ -3,14 +3,14 @@
   "main_sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
   "branch_count": 130,
   "main_claim_count": 295,
-  "original_unique_ids": 609,
-  "consolidated_claim_count": 614,
+  "original_unique_ids": 614,
+  "consolidated_claim_count": 619,
   "original_ids_preserved": true,
   "independent_collision_extra_ids": 5,
   "evidence_statuses_unchanged": true,
   "all_original_evidence_paths_verified": true,
   "status_counts": {
-    "proof-written-unreviewed": 504,
+    "proof-written-unreviewed": 509,
     "finite-experiment": 83,
     "derivation-unreviewed": 1,
     "conditional-implication": 25,
@@ -8824,15 +8824,15 @@
     {
       "id": "AI-A4-TWOSIDED-RANKLOSS-001",
       "original_id": "AI-A4-TWOSIDED-RANKLOSS-001",
-      "record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
-      "source_record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
-      "source_branch": "research/full-target-reconstruction-20261023-ab94",
-      "source_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "record_sha256": "f2a5f5bd43e364104cdda33fff67238c8a421d03c92afe4aed65bf95f08d55db",
+      "source_record_sha256": "f2a5f5bd43e364104cdda33fff67238c8a421d03c92afe4aed65bf95f08d55db",
+      "source_branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
       "original_evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
       "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
       "path_or_id_replacements": [],
       "original_evidence_verified": true,
-      "snapshot": "catchup"
+      "snapshot": "concurrent_wave"
     },
     {
       "id": "AI-AGGREGATION-29-001",
@@ -8876,15 +8876,15 @@
     {
       "id": "AI-A4-TWOSIDED-LOWRANK-003",
       "original_id": "AI-A4-TWOSIDED-LOWRANK-003",
-      "record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
-      "source_record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
-      "source_branch": "research/full-target-reconstruction-20261023-ab94",
-      "source_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "record_sha256": "94334f493fb3f5f72f9a318152bf556e4f3820c20148eef2a07dfb75491cdf95",
+      "source_record_sha256": "94334f493fb3f5f72f9a318152bf556e4f3820c20148eef2a07dfb75491cdf95",
+      "source_branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
       "original_evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
       "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
       "path_or_id_replacements": [],
       "original_evidence_verified": true,
-      "snapshot": "postvalidation_catchup"
+      "snapshot": "concurrent_wave"
     },
     {
       "id": "AI-LAURENT-BORDER-MARGIN-003",
@@ -9000,6 +9000,71 @@
       "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
       "path_or_id_replacements": [],
       "original_evidence_verified": true
+    },
+    {
+      "id": "AI-A4-ARBITRARY-COMPRESSION-001",
+      "original_id": "AI-A4-ARBITRARY-COMPRESSION-001",
+      "record_sha256": "10ad0135d5f99de608f943778ffeadfd509e10ed14763fe16c31bad0b5ecb51c",
+      "source_record_sha256": "10ad0135d5f99de608f943778ffeadfd509e10ed14763fe16c31bad0b5ecb51c",
+      "source_branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "original_evidence": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+      "evidence": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "concurrent_wave"
+    },
+    {
+      "id": "AI-AGGREGATION-RECTANGULAR-GATE-004",
+      "original_id": "AI-AGGREGATION-RECTANGULAR-GATE-004",
+      "record_sha256": "0828c478943a332fc3763690b7e4918378acb18330a4a91213e9bfae46915a1d",
+      "source_record_sha256": "0828c478943a332fc3763690b7e4918378acb18330a4a91213e9bfae46915a1d",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "original_evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "concurrent_wave"
+    },
+    {
+      "id": "AI-AGGREGATION-FIXED-GRID-005",
+      "original_id": "AI-AGGREGATION-FIXED-GRID-005",
+      "record_sha256": "840e4519e60e63bbbc2803450533a819c50aa18fe319e5d2b7946d4a2d1f3a30",
+      "source_record_sha256": "840e4519e60e63bbbc2803450533a819c50aa18fe319e5d2b7946d4a2d1f3a30",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "original_evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "concurrent_wave"
+    },
+    {
+      "id": "AI-AGGREGATION-PRUNED-SUPPORT-006",
+      "original_id": "AI-AGGREGATION-PRUNED-SUPPORT-006",
+      "record_sha256": "2839589cf5ba518c05bfd69661d7339ab115d23b6e69db980af5b83476f1ecbd",
+      "source_record_sha256": "2839589cf5ba518c05bfd69661d7339ab115d23b6e69db980af5b83476f1ecbd",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "original_evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "concurrent_wave"
+    },
+    {
+      "id": "AI-AGGREGATION-PRUNED-RECTANGLES-007",
+      "original_id": "AI-AGGREGATION-PRUNED-RECTANGLES-007",
+      "record_sha256": "e172252e57c0377b540b69d4ffdb68e5576fc63975be21f56a54b1f72dedf746",
+      "source_record_sha256": "e172252e57c0377b540b69d4ffdb68e5576fc63975be21f56a54b1f72dedf746",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "original_evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true,
+      "snapshot": "concurrent_wave"
     }
   ],
   "initial_consolidated_claim_count": 599,
@@ -12732,5 +12797,304 @@
     "topic_source_snapshots": 172,
     "topic_branch_names": 138,
     "scope": "Retain the exact authored balanced rank containment statement and updated2050 finite-control count; no universal attainment claim or status promotion."
+  },
+  "concurrent_wave_addendum": {
+    "baseline_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+    "prepared_at": "2026-10-23T19:09:01.372948+00:00",
+    "source_heads": [
+      {
+        "branch": "research/a4-universal-20261023-ab94",
+        "sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      }
+    ],
+    "claims_before": 614,
+    "claims_after": 619,
+    "unchanged_existing_records": 612,
+    "all614_existing_status_flags_unchanged": true,
+    "new_ids": [
+      "AI-A4-ARBITRARY-COMPRESSION-001",
+      "AI-AGGREGATION-RECTANGULAR-GATE-004",
+      "AI-AGGREGATION-FIXED-GRID-005",
+      "AI-AGGREGATION-PRUNED-SUPPORT-006",
+      "AI-AGGREGATION-PRUNED-RECTANGLES-007"
+    ],
+    "new_records_source_exact_and_unreviewed": true,
+    "authored_revisions": [
+      {
+        "id": "AI-A4-TWOSIDED-LOWRANK-003",
+        "changed_fields": [
+          "limitations"
+        ],
+        "previous_record": {
+          "id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+          "origin": "Owner-directed OpenAI Codex research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "section": "1-4",
+          "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+          "dependencies": [
+            "AI-A4-TWOSIDED-RANKLOSS-001",
+            "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+            "Credited minimum nonzero source rank sixteen",
+            "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+          ],
+          "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. The universal reduced lower bound 38 is not proved, arbitrary constant compressions are not excluded, and satisfying the reduced condition is not sufficient for a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "source_record": {
+          "id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+          "origin": "Owner-directed OpenAI Codex research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "section": "1-4",
+          "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+          "dependencies": [
+            "AI-A4-TWOSIDED-RANKLOSS-001",
+            "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+            "Credited minimum nonzero source rank sixteen",
+            "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+          ],
+          "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. This reduction alone is necessary; the later AI-A4-ARBITRARY-COMPRESSION-001 proves the universal lower bound 38 and excludes constant compressions in this family. It does not construct a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false
+        },
+        "previous_provenance": {
+          "id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "original_id": "AI-A4-TWOSIDED-LOWRANK-003",
+          "record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+          "source_record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+          "source_branch": "research/full-target-reconstruction-20261023-ab94",
+          "source_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+          "original_evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "postvalidation_catchup"
+        },
+        "source_branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+        "previous_record_sha256": "658b35d626dab4a4d72c36fa2a62170d545f53207576390f6d5148b6a60bde86",
+        "source_record_sha256": "94334f493fb3f5f72f9a318152bf556e4f3820c20148eef2a07dfb75491cdf95"
+      },
+      {
+        "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "changed_fields": [
+          "limitations"
+        ],
+        "previous_record": {
+          "origin": "Owner-directed OpenAI Codex research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false,
+          "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+          "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+          "section": "1-4",
+          "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+          "dependencies": [
+            "Credited literal cyclic A4 source and unimodular source-unit normalization",
+            "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+            "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+          ],
+          "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The necessary rank-loss locus is not classified. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+        },
+        "source_record": {
+          "origin": "Owner-directed OpenAI Codex research",
+          "status": "proof-written-unreviewed",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+          "independent_review": false,
+          "lean_formalized": false,
+          "improves_omega": false,
+          "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+          "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+          "section": "1-4",
+          "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+          "dependencies": [
+            "Credited literal cyclic A4 source and unimodular source-unit normalization",
+            "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+            "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+          ],
+          "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The later AI-A4-ARBITRARY-COMPRESSION-001 excludes the necessary locus for constant compressions. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+        },
+        "previous_provenance": {
+          "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+          "original_id": "AI-A4-TWOSIDED-RANKLOSS-001",
+          "record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
+          "source_record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
+          "source_branch": "research/full-target-reconstruction-20261023-ab94",
+          "source_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+          "original_evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+          "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+          "path_or_id_replacements": [],
+          "original_evidence_verified": true,
+          "snapshot": "catchup"
+        },
+        "source_branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+        "previous_record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
+        "source_record_sha256": "f2a5f5bd43e364104cdda33fff67238c8a421d03c92afe4aed65bf95f08d55db"
+      }
+    ],
+    "inherited_old_variants_retained_from_current": [
+      {
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "AI-SCALAR-001",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "EXP-S5-COLORED-033",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "AI-CONIC-SECOND-JET-002",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "AI-CONIC-POLYNOMIAL-JET-003",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+        "branch": "research/a4-universal-20261023-ab94",
+        "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+      },
+      {
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "AI-SCALAR-001",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "EXP-S5-COLORED-033",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "AI-CONIC-SECOND-JET-002",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "AI-CONIC-POLYNOMIAL-JET-003",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+        "branch": "research/column-overlap-validation-20261023-ab94",
+        "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+      },
+      {
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "AI-SCALAR-001",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "EXP-S5-COLORED-033",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "AI-CONIC-SECOND-JET-002",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "AI-CONIC-POLYNOMIAL-JET-003",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+        "branch": "research/pruned-aggregation-20261023-ab94",
+        "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+      },
+      {
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      },
+      {
+        "id": "AI-SCALAR-001",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      },
+      {
+        "id": "EXP-S5-COLORED-033",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      },
+      {
+        "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      },
+      {
+        "id": "AI-CONIC-SECOND-JET-002",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      },
+      {
+        "id": "AI-CONIC-POLYNOMIAL-JET-003",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      },
+      {
+        "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+        "branch": "research/quadratic-torsion-attainment-01a1697d",
+        "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+      }
+    ],
+    "new_id_collisions": []
   }
 }

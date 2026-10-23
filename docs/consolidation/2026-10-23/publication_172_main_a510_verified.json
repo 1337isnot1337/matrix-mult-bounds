@@ -1,0 +1,84 @@
+{
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "branch": "consolidation/all-branches-20261023",
+  "replacement_pr": 214,
+  "expected_old_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+  "new_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+  "bundle_blob": "d229e84801c388597aa0f3600ec49aff3a5d98da",
+  "bundle_sha256": "ca76aecf8ff385616a5f4cb99fb92896331d9783d6c661a6da47b563a9549596",
+  "integration_archive_tag": "archive/consolidation-20261023-165523/integrated/6b57043164f7",
+  "previous_integration_archive_tag": "archive/consolidation-20261023-165523/integrated/dcd18b0cb9cc",
+  "started_at": "2026-10-23T19:02:33.613516+00:00",
+  "push_attempted": true,
+  "initial_refs": {
+    "refs/heads/consolidation/all-branches-20261023": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+    "refs/heads/main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "refs/tags/archive/consolidation-20261023-165523/integrated/dcd18b0cb9cc": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82"
+  },
+  "bootstrap_transport_fragments": [
+    {
+      "blob": "4f169fb07a2cac197f267cc0ac38abe40da74f8f",
+      "sha256": "f4ca2e1376fdfaa2c45b316fa7facf54dd1c93bfcfde51192b8ec23f6f82a306",
+      "bytes": 240000
+    },
+    {
+      "blob": "7b2c6130241887cfdf4c588f527f4f1a48380559",
+      "sha256": "cae61125aff08a8a75d4c7798c65da01f2417e39c3f30757e2ff5b91da5d1de9",
+      "bytes": 240000
+    },
+    {
+      "blob": "dcc0245cc3150998a12fd8b56140e649a5219668",
+      "sha256": "890917ba043fe819f9393aeb5909702ecd7ab7030a09929a7dd13a00fe3b57c5",
+      "bytes": 240000
+    },
+    {
+      "blob": "6f4196c21d974e2886f9e838f4edfc9c2638b359",
+      "sha256": "4c817d56fd6073305622a5c3da52354f5168317d1bf44cd05f9df36476d37280",
+      "bytes": 240000
+    },
+    {
+      "blob": "ad860cce64fee73fee0115ed3850f410622e646d",
+      "sha256": "d7961668aaf2836d45044dcadd1a20bb3f4ce4f30bacf6e382bb2f4f2cbb9b04",
+      "bytes": 240000
+    },
+    {
+      "blob": "3dae2c64c610ba21f9e02ba90eb23f24b2c15385",
+      "sha256": "61c9c8a13fb1fc9c95d322e0a2859c89d44654ab48197032dd4ff0a4ea4922b9",
+      "bytes": 240000
+    },
+    {
+      "blob": "660ddd1c90e00d4302202f4aa78ea85b6ef67cf8",
+      "sha256": "f13871ee0b40413bd91bbbb3e395892aa8a2ef192a22ba4f84bee9096dbdeadd",
+      "bytes": 144112
+    }
+  ],
+  "bootstrap_head": "12249713f5b347fcaff3de333147243615440280",
+  "bootstrap_blob": "77f9678855d0e21df8ed63a180216c99312b332e",
+  "bootstrap_sha256": "b22fcbf2e2605088f37bb13e13b29b66333b3e5ff65e65b48df91474b83d7afa",
+  "prepush_refs": {
+    "refs/heads/consolidation/all-branches-20261023": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+    "refs/heads/main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "refs/tags/archive/consolidation-20261023-165523/integrated/dcd18b0cb9cc": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82"
+  },
+  "fast_forward_verified": true,
+  "push_returncode": 0,
+  "push_stdout": "To https://github.com/1337isnot1337/matrix-mult-bounds.git\n \trefs/heads/consolidation/all-branches-20261023:refs/heads/consolidation/all-branches-20261023\tdcd18b0..6b57043\n*\trefs/tags/archive/consolidation-20261023-165523/integrated/6b57043164f7:refs/tags/archive/consolidation-20261023-165523/integrated/6b57043164f7\t[new tag]\nDone\n",
+  "push_stderr": "",
+  "verified_refs": {
+    "refs/heads/consolidation/all-branches-20261023": "6b57043164f7d534b858507a37f64fdfda38f29f",
+    "refs/heads/main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "refs/tags/archive/consolidation-20261023-165523/integrated/6b57043164f7": "6b57043164f7d534b858507a37f64fdfda38f29f",
+    "refs/tags/archive/consolidation-20261023-165523/integrated/dcd18b0cb9cc": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82"
+  },
+  "postverification_error": "Replacement PR does not match the expected consolidation head",
+  "verified": true,
+  "postverification_reconciled": true,
+  "pr": {
+    "number": 214,
+    "head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+    "base": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "state": "open"
+  },
+  "final_tree": "a2a4ef9752fd7ec673d37c66f656f9435afca0d7"
+}

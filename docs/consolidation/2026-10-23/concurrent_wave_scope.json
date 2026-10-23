@@ -1,0 +1,2016 @@
+{
+  "baseline_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "captured_at": "2026-10-23T19:08:07.692842+00:00",
+  "heads": [
+    {
+      "branch": "research/a4-universal-20261023-ab94",
+      "sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "base": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "parents": [
+        "68b25794d947b69f79029e64a5e0872416f26066"
+      ],
+      "local_ref": "refs/remotes/consolidation-concurrent-wave/head-0",
+      "changed_paths": [
+        {
+          "status": "M",
+          "path": "PROVENANCE.md",
+          "source_sha256": "8922c2fcc637144dd5fc8e0a5b51fd353bf4730a1ab17a6294c13dd6157a15e7",
+          "current_sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "M",
+          "path": "STATUS.md",
+          "source_sha256": "a4bf877426ffee1aa1587de9ce2f58b51f3b2dd4a9b8196f7f8280e515c18140",
+          "current_sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "M",
+          "path": "docs/research_directions.md",
+          "source_sha256": "fc45345ba521b467804c4382ec02918b9d10b0389c77cc79a0069a85f6e72d35",
+          "current_sha256": "0bb8dfa9d971039d70d193c0ab1e5d8a5b4f4423a92df8d9898a15ac619e2aef",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "M",
+          "path": "research/ACTIVE.md",
+          "source_sha256": "ec6e53ef9df15e876cefc2a0480762bb513b31d842d3e8959e2b9405bd6930bd",
+          "current_sha256": "fa0a80d287bde48fdae354d21bd9f125cbdc485290e6c1cc80eb235466bf6a9e",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/QUESTION.md",
+          "source_sha256": "cc17be7afa9aa8e2b295f73056526f701714d9c23175b3870c1d2963c326325a",
+          "current_sha256": "a68f22da7ae0c30e6d6737fe6a8a0f4eb3dcb06144b92dfebe951c296b12847e",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/README.md",
+          "source_sha256": "d8b4c4202360f821307f088bab0c120ee64b5f88425436e9a5d408ba99d0037e",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/VALIDATION.md",
+          "source_sha256": "47afd9900f8008912598f26a7ff844c59b70151cbee9e96cb6e8049c95857afa",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/discover.py",
+          "source_sha256": "7621808f0ac0e0f8c306376425a6b063ea53aa6d6879f1bac7ad0f184df1dc1b",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+          "source_sha256": "35baffd7d7eaf67038555c68c9496e3c6a199528f843850cf0d31f89085fbc1c",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/sources.json",
+          "source_sha256": "252dd2e6779c0e7b13ad3e95fb1be3b81974cc121f55f0a6a99a2f691c14594a",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-compression-algebra/verify.py",
+          "source_sha256": "9340a3a67b709e243175541b11a36e37bef7dde093826565ce47d10a36864bc6",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-coordinate-compressions/QUESTION.md",
+          "source_sha256": "af3de759712aa2aa25bbe62a05ae42df115c31b9d77a9aef955179a321add722",
+          "current_sha256": "82a6510cd07eff10e06ebf05c5e1bb76dd73aa31270ddc99a831ffa4499f26f6",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-coordinate-compressions/README.md",
+          "source_sha256": "b8991e20409e74deb7d4b4bc8a16cc1b388ba638370355246e86f28ad7645ddf",
+          "current_sha256": "6f80132acf524035f1d268346a0253ce530bac8729ebd71cd29033603ea87bcd",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-coordinate-compressions/discovery.py",
+          "source_sha256": "5a9887a2574fc8ee9be6330a8bb040b802c017fa1e96943f720a4fe6f644c1d9",
+          "current_sha256": "5a9887a2574fc8ee9be6330a8bb040b802c017fa1e96943f720a4fe6f644c1d9",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-coordinate-compressions/proof.md",
+          "source_sha256": "52b70e41f3ee6244c891136974878f7306bb5eb935d3c8b3d6cff2a7e60932d8",
+          "current_sha256": "52b70e41f3ee6244c891136974878f7306bb5eb935d3c8b3d6cff2a7e60932d8",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-coordinate-compressions/sources.json",
+          "source_sha256": "39cc2ecc19a2116653152a2ddc38d2338750c061eb323a77c8c6bc37c2463d9b",
+          "current_sha256": "39cc2ecc19a2116653152a2ddc38d2338750c061eb323a77c8c6bc37c2463d9b",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-a4-coordinate-compressions/verify.py",
+          "source_sha256": "8283038c67babc469d33e460a53e9e10f3e548b3692c19713ccea8f69fa02568",
+          "current_sha256": "8283038c67babc469d33e460a53e9e10f3e548b3692c19713ccea8f69fa02568",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/EXPLORATION.md",
+          "source_sha256": "bf3a06e987b7f73acd2c95d2c60523cc14d1dc9fba3030a182816edf19d8a846",
+          "current_sha256": "bf3a06e987b7f73acd2c95d2c60523cc14d1dc9fba3030a182816edf19d8a846",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+          "source_sha256": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+          "current_sha256": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/QUESTION.md",
+          "source_sha256": "c53f8065fde9cedcb83a533afd3b55c1b2bdb4ddfe1b5f0d0ea1a584c9057996",
+          "current_sha256": "f71964101c0ccad16694e7170a68ee5a4246a213a1eac8eafb5ab2899db2052a",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/README.md",
+          "source_sha256": "e798992295b3d5461f02712d2d78fe0f844796a3a3dd8ec89c1ffe2d14563334",
+          "current_sha256": "8852896dc536053ee62c78ec2a0a5cc82b9a56df16f9b18956b29d37c245af69",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+          "source_sha256": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+          "current_sha256": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/discovery.py",
+          "source_sha256": "fc5c365667cf7f5ff478cf66086bce070ed1f56f81acc9b9d288871e618c6cf8",
+          "current_sha256": "fc5c365667cf7f5ff478cf66086bce070ed1f56f81acc9b9d288871e618c6cf8",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/proof.md",
+          "source_sha256": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+          "current_sha256": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/sources.json",
+          "source_sha256": "a002f254c7fa30b811133941c2901439461b71dcba02f4ab3c811f85890dbed1",
+          "current_sha256": "a002f254c7fa30b811133941c2901439461b71dcba02f4ab3c811f85890dbed1",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/two_sided_escapes.py",
+          "source_sha256": "e8c75b58e8fd5b76f799c12787a90aceff85b87c77424a16808501ee2000abda",
+          "current_sha256": "e8c75b58e8fd5b76f799c12787a90aceff85b87c77424a16808501ee2000abda",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-conjugation-limit/verify.py",
+          "source_sha256": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+          "current_sha256": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "M",
+          "path": "research/claims.json",
+          "source_sha256": "a60446db06fd8452ba2d43e3ce44a88134a85592b4d9edf09bf8d837679c2a42",
+          "current_sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/certificate.json",
+          "source_sha256": "b242a3a987a4494b77bcfe4485afe62bb270ac5a479bfa74aa8ff4daab727e35",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/current-main-a510-integration-validation.json",
+          "source_sha256": "d9f692756a55f78f3f7497b411ec55182e844fecd0b9f2a638a64c9955400ee5",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/current-main-a510-metadata-tests.log",
+          "source_sha256": "62f44c6ff41fe32b10644b25a62e0d2d20870a5cac8bafbd629392f3657272d3",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/current-main-integration-validation.json",
+          "source_sha256": "7349304d4c05722c6897f3c69e7444e9aaf8a8a00a4b25e3326a19d2779ffdf3",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/current-main-metadata-tests.log",
+          "source_sha256": "5880e3228258c9b40131f4c3c9ee5953c91d10c96c05732c1779df3afce2a145",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/integration-focused-tests.log",
+          "source_sha256": "5ade5cd7c552ff0b6a3a7bcafcc9a2ad01ed473e494f838c29bf013bfe644909",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/integration-metadata-tests.log",
+          "source_sha256": "62f44c6ff41fe32b10644b25a62e0d2d20870a5cac8bafbd629392f3657272d3",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/integration-validation.json",
+          "source_sha256": "48d13d331d1bd5a5905f350c78770a0801f46f4aec76003887b3270eacd6f14b",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/validation.json",
+          "source_sha256": "795afe084ff179d7af2ea3776af5f8377fba16b0576e0fc3eb67db95540a72aa",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/validation/acceptance.log",
+          "source_sha256": "32b60e8d43981a4ed96e6eea1db3264f98baa6e6ebfbce75326564e98bb73166",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/validation/collect.py",
+          "source_sha256": "a1443ffefd31190581d437efc6e296909dd23e2431c8216e87986aa1eb097eda",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/validation/focused-tests.log",
+          "source_sha256": "73084247ad0dedd960f60e24b268354e44c03fb5f0fc17a2fa4c7dfb95db67da",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/validation/repository-tests.log",
+          "source_sha256": "8f9eb43c6d879c7959606bb34990541de57bab8bb9e96c9d1f6d7b6552a631b9",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-compression-algebra-2026-10-23/verification.json",
+          "source_sha256": "32b60e8d43981a4ed96e6eea1db3264f98baa6e6ebfbce75326564e98bb73166",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/certificate.json",
+          "source_sha256": "40effffdcbaa37e0d58ed2e3604b9937f9a8bbecdeaa94e60e7e72e12607e881",
+          "current_sha256": "40effffdcbaa37e0d58ed2e3604b9937f9a8bbecdeaa94e60e7e72e12607e881",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-0.json",
+          "source_sha256": "cff228628f9fcdab9fd675e12faefc837f390cff1d39ad2dbf0c496e5e7b4323",
+          "current_sha256": "cff228628f9fcdab9fd675e12faefc837f390cff1d39ad2dbf0c496e5e7b4323",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/discovery-shard-1.json",
+          "source_sha256": "0b0ebb0513e0ae1af0ef5b942bb78a2492af1c73a06a3320bceb99140b01b99f",
+          "current_sha256": "0b0ebb0513e0ae1af0ef5b942bb78a2492af1c73a06a3320bceb99140b01b99f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/focused-tests.log",
+          "source_sha256": "ffa5306dc272f243cfc8b133abf42eb2a6fb173ca3db2762c8cf5f1e42a8bce2",
+          "current_sha256": "ffa5306dc272f243cfc8b133abf42eb2a6fb173ca3db2762c8cf5f1e42a8bce2",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/metadata-tests.log",
+          "source_sha256": "ca4c177a0669bf08878e316351a6cae347527c44570162a3a097fb5baaaf754e",
+          "current_sha256": "ca4c177a0669bf08878e316351a6cae347527c44570162a3a097fb5baaaf754e",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/validation.json",
+          "source_sha256": "3c976fb864896a4d4439583e620a777dbed9dcb1197662bbcd706c416d96ca58",
+          "current_sha256": "3c976fb864896a4d4439583e620a777dbed9dcb1197662bbcd706c416d96ca58",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/a4-coordinate-compressions-2026-10-23/verification.json",
+          "source_sha256": "ff989b70728f5994a1223f29ba452891f91d9d3d587f7a52b3bda14685db43b5",
+          "current_sha256": "ff989b70728f5994a1223f29ba452891f91d9d3d587f7a52b3bda14685db43b5",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+          "source_sha256": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+          "current_sha256": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/block-validation.json",
+          "source_sha256": "1b2ad56082e8f6312cde917d3c8e3e43a91b9f05290b49011dcf3687128da9ba",
+          "current_sha256": "1b2ad56082e8f6312cde917d3c8e3e43a91b9f05290b49011dcf3687128da9ba",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/block-verification.json",
+          "source_sha256": "8a35a2016808f2e294510f040bbb65800a54cb9d976a2797d52bdca21069969b",
+          "current_sha256": "8a35a2016808f2e294510f040bbb65800a54cb9d976a2797d52bdca21069969b",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/certificate.json",
+          "source_sha256": "0b5d607e184be5454e745f07c2cfcd0d2a7029feecb00ea80fd33ff61d692c22",
+          "current_sha256": "0b5d607e184be5454e745f07c2cfcd0d2a7029feecb00ea80fd33ff61d692c22",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/escape-exploration.json",
+          "source_sha256": "cacf2d1f58c19521673ec6638c74c2ae6cfdeb2ee0fa9778064bdf151a3c2e49",
+          "current_sha256": "cacf2d1f58c19521673ec6638c74c2ae6cfdeb2ee0fa9778064bdf151a3c2e49",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/escape-replay.log",
+          "source_sha256": "d61a7af18b3a35aa4844b87a340e871b4f241548a19d29c835bf9dd7d7f02223",
+          "current_sha256": "d61a7af18b3a35aa4844b87a340e871b4f241548a19d29c835bf9dd7d7f02223",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/escape-validation.json",
+          "source_sha256": "41964a92ece7e0180b868d09f1843949decc471b6771697777f3014e44a62d94",
+          "current_sha256": "41964a92ece7e0180b868d09f1843949decc471b6771697777f3014e44a62d94",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation.json",
+          "source_sha256": "fc42529714947d3db15ac8a9265a31ebddd13a08df5d9b6a96364be51b7452ff",
+          "current_sha256": "fc42529714947d3db15ac8a9265a31ebddd13a08df5d9b6a96364be51b7452ff",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/collect_validation.py",
+          "source_sha256": "ba80c4adaa6e56e6bbc048a27f83fdac43c8583262d879cf43954460af9bb9be",
+          "current_sha256": "ba80c4adaa6e56e6bbc048a27f83fdac43c8583262d879cf43954460af9bb9be",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/finalize_validation.py",
+          "source_sha256": "bc823111fbcdef696e129b1b6eebc7e8f9bb1a995bd2520fd4c5fe742325ebaa",
+          "current_sha256": "bc823111fbcdef696e129b1b6eebc7e8f9bb1a995bd2520fd4c5fe742325ebaa",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/full-tests.log",
+          "source_sha256": "d2e2633d29113a0c9ff892bbbf653c55e055767f4c8d5d7caa768394bcebfcab",
+          "current_sha256": "d2e2633d29113a0c9ff892bbbf653c55e055767f4c8d5d7caa768394bcebfcab",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/initial-validation.json",
+          "source_sha256": "87e9f2e0d792512020496727dd73dd1a5b233f133d7d1409a708b43f57c98b85",
+          "current_sha256": "87e9f2e0d792512020496727dd73dd1a5b233f133d7d1409a708b43f57c98b85",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/link-test-retry-2.log",
+          "source_sha256": "93dfb4b9dcf23e39a2af648b99b395178feb8011f87fc92c7a0ed7be081e6a19",
+          "current_sha256": "93dfb4b9dcf23e39a2af648b99b395178feb8011f87fc92c7a0ed7be081e6a19",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/link-test-retry-3.log",
+          "source_sha256": "5ec0ff427c35e522b6690af64784144c564a06373c9cc05861b6d4fe11c6b688",
+          "current_sha256": "5ec0ff427c35e522b6690af64784144c564a06373c9cc05861b6d4fe11c6b688",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/link-test-retry.log",
+          "source_sha256": "164c0b9555c93d0c3bee1ca9c41f2847956c10b2ec2f692fda701db727ee72bb",
+          "current_sha256": "164c0b9555c93d0c3bee1ca9c41f2847956c10b2ec2f692fda701db727ee72bb",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/plan.json",
+          "source_sha256": "ad74d6749a502994859c9ee6586660d5e720d715488866db694b96b9515f64dd",
+          "current_sha256": "ad74d6749a502994859c9ee6586660d5e720d715488866db694b96b9515f64dd",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/remaining_tests.py",
+          "source_sha256": "8fcbb0c8f51d92f5b6f3b188c44bb109575831aebdb1387257ce0d3a2131b810",
+          "current_sha256": "8fcbb0c8f51d92f5b6f3b188c44bb109575831aebdb1387257ce0d3a2131b810",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/replay.log",
+          "source_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+          "current_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/shard-0.json",
+          "source_sha256": "209af0b3d7719ad67c30e1b5561d2a765c5abaf02edeb901564c59e2570a26dc",
+          "current_sha256": "209af0b3d7719ad67c30e1b5561d2a765c5abaf02edeb901564c59e2570a26dc",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/shard-0.log",
+          "source_sha256": "24d5930d5a7a7e2685a4be6bd3c263ed6877025e95b5f604ac3cb38ab989f24f",
+          "current_sha256": "24d5930d5a7a7e2685a4be6bd3c263ed6877025e95b5f604ac3cb38ab989f24f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/shard-1.json",
+          "source_sha256": "cbe5ee73144b53e6cd86068cb0a8cb3e8e5a61beb9d058ffd451937983746616",
+          "current_sha256": "cbe5ee73144b53e6cd86068cb0a8cb3e8e5a61beb9d058ffd451937983746616",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/shard-1.log",
+          "source_sha256": "0d468e4aba3499ce5540b5c3e0adc0aa28be18194848816d3a7b25ff81fea054",
+          "current_sha256": "0d468e4aba3499ce5540b5c3e0adc0aa28be18194848816d3a7b25ff81fea054",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/shard-2.json",
+          "source_sha256": "87f73ef95082c597e1a2f51240e13f4acbf6d5c0bd07059b5f137fbf7f8492c4",
+          "current_sha256": "87f73ef95082c597e1a2f51240e13f4acbf6d5c0bd07059b5f137fbf7f8492c4",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/validation/shard-2.log",
+          "source_sha256": "1c48737b095b8cfda940271ba078e8ad30c06377a3787da051ca3fed0e10af45",
+          "current_sha256": "1c48737b095b8cfda940271ba078e8ad30c06377a3787da051ca3fed0e10af45",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/conjugation-limit-2026-10-23/verification.json",
+          "source_sha256": "fe1475306f05e3a7edd32bcb0acbed8dd5ce6069adae9f492fa71eab6a82743a",
+          "current_sha256": "fe1475306f05e3a7edd32bcb0acbed8dd5ce6069adae9f492fa71eab6a82743a",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "tests/test_a4_arbitrary_compression.py",
+          "source_sha256": "e87d1b1aee09e62307d48e752c13e9994c70bfceab9fd47e05c5bd0e1617e015",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "tests/test_a4_coordinate_compressions.py",
+          "source_sha256": "2f28fb39935bdee2e5e4d5b8dd2e4799424e583f53024bbbc13266f62c8a11b3",
+          "current_sha256": "2f28fb39935bdee2e5e4d5b8dd2e4799424e583f53024bbbc13266f62c8a11b3",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "tests/test_conjugation_block_reduction.py",
+          "source_sha256": "4be429838d9a1900cf4145c27989d7e9ba7e3f2132e8a6a0a2dfa9fb1d2a0194",
+          "current_sha256": "4be429838d9a1900cf4145c27989d7e9ba7e3f2132e8a6a0a2dfa9fb1d2a0194",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "tests/test_conjugation_limit.py",
+          "source_sha256": "bd6f6b0fa04750803d543ce65160cd13a6f0e2d816b1f0387a815d8e31a10538",
+          "current_sha256": "bd6f6b0fa04750803d543ce65160cd13a6f0e2d816b1f0387a815d8e31a10538",
+          "already_identical": true,
+          "current_exists": true
+        }
+      ],
+      "authored_existing_claim_ids": [
+        "AI-A4-TWOSIDED-LOWRANK-003",
+        "AI-A4-TWOSIDED-RANKLOSS-001"
+      ]
+    },
+    {
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb",
+      "base": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "parents": [
+        "99e24efaed8db763f6e6571d8d2b2307b35d83c9"
+      ],
+      "local_ref": "refs/remotes/consolidation-concurrent-wave/head-1",
+      "changed_paths": [
+        {
+          "status": "M",
+          "path": "research/ai/2026-10-23-column-overlap/README.md",
+          "source_sha256": "2e956dc1ff4fdccd67a487f500e063a4522425eed283ed0417bb1c841343a014",
+          "current_sha256": "161ba156c3022223c3ebaa934daf7d39ee8fc4bfbbed00a9a74f30415cb8a9d6",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-column-overlap/VALIDATION.md",
+          "source_sha256": "241e9e911a0a67ebf7ba84881025a695a71fd413370bfb551e1a083d1e3e79f0",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-6e11f7c/focused.log",
+          "source_sha256": "e02f96718307561a27a869023122a58a462e74a53b35d137fcb3a02c07f2ad05",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-6e11f7c/inventory.json",
+          "source_sha256": "f3632de7d16378f02354b3009a4c2b7ac5039da294e7c4b6f18b37ecbb3d0a6a",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-6e11f7c/report.json",
+          "source_sha256": "33dd196c85b1bd388577191f36a4022cd20957af0d9eb2b063bea857908e8e7c",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-6e11f7c/shared.log",
+          "source_sha256": "7e57a3abb88245685c8c3c3ed5b0dac26a8aafe5852b89866a183d5e16ae0838",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-a510bec/focused.log",
+          "source_sha256": "8df4df55fa19ada4630463781aee3faaad46c4bb5e8986cb9b8198a09f38de19",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-a510bec/report.json",
+          "source_sha256": "6b0ab68e031e8514a57a739564fd7a006d749fe074a8cba63511717fb8e12cfa",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/integration-a510bec/shared.log",
+          "source_sha256": "20d8f281abdd6247182ba2570e175681a329ed29ce2ed5a54b6346e2d1a7f109",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/coverage.json",
+          "source_sha256": "978e7900c6247f3a2fb6b441a94d388e1f37c2ec4845a6e3b828697ef61296d2",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/exact-replay.log",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/final-links.log",
+          "source_sha256": "fc72890dd52015e2020ea447732d681cf3205adb7400f5adfeb46ef2f9af6a5d",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/focused.log",
+          "source_sha256": "6b79a6d05b613658f7061267cb5f22948be970a1cea22c2f418f1b4fa94d8c5c",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/metadata.log",
+          "source_sha256": "a09a584c1a7c7ca1d836ab0db27251b2777bb24b707a19fac5995c200554f4e2",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/report.json",
+          "source_sha256": "0761ddcd0b2775aea2e74f00573a3db84c1bc0a383b9138b73773a696e03d868",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/column-overlap-2026-10-23/validation/source-identity.json",
+          "source_sha256": "3d38ce02807117a863343319a4c8d71744fd6604f2d85e31787773fd87884846",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        }
+      ],
+      "authored_existing_claim_ids": []
+    },
+    {
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "base": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "parents": [
+        "9228a8fefbf5942565af678d1502f440aa76088d"
+      ],
+      "local_ref": "refs/remotes/consolidation-concurrent-wave/head-2",
+      "changed_paths": [
+        {
+          "status": "M",
+          "path": "PROVENANCE.md",
+          "source_sha256": "4d6b5d9a90f2df6d1736ce650747a056478b2e08d4095e8c29f8e558502c7669",
+          "current_sha256": "8fcaa1a25cd0bd191a13b1fa861060149682bd8d9ca3ea5aa25fc4ce9ad9c949",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "M",
+          "path": "STATUS.md",
+          "source_sha256": "226b2c279f890a87db93f41b55c875ba23e6e609da624fb9d319b329d977fee6",
+          "current_sha256": "ec3d6f99f9a8c972bb05ab1260b049b3bbe23e6a9c24e54cf8a5151cc6d825f3",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/QUESTION.md",
+          "source_sha256": "b423c6d9415a99f225981ee1e94df29204bb04acc74d9f324314ff3e98eb8bed",
+          "current_sha256": "b423c6d9415a99f225981ee1e94df29204bb04acc74d9f324314ff3e98eb8bed",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/README.md",
+          "source_sha256": "fa9d2273e4c16d3287705a98a7d016b912ac75cdc6151e0a173f4ab07521151f",
+          "current_sha256": "c7550a1dc45fccace1ed0c85305ed1f3012191eba737f52925a9cb01d6ef0fcd",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/baseline_ex105.txt",
+          "source_sha256": "5be07a72963435bf97922ac990451ee434763b7516e3c588f1743e03daeb81ff",
+          "current_sha256": "5be07a72963435bf97922ac990451ee434763b7516e3c588f1743e03daeb81ff",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/baseline_ex28.txt",
+          "source_sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+          "current_sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/cost_floor.json",
+          "source_sha256": "53e790d03cb44faf4d70656134ec4ffd8769a1c51a5880f19fd0ec04e71dd2f7",
+          "current_sha256": "53e790d03cb44faf4d70656134ec4ffd8769a1c51a5880f19fd0ec04e71dd2f7",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/cost_floor.md",
+          "source_sha256": "2f1dda0a808e516dec635f195e8ebc552204e24e60dd6a69a9493fd40bf52e2c",
+          "current_sha256": "2f1dda0a808e516dec635f195e8ebc552204e24e60dd6a69a9493fd40bf52e2c",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/discovery_106_report.json",
+          "source_sha256": "5c398ee42652b39c2789e0b484217eae15fe1531caac6d42cf63c23cfccb8dbd",
+          "current_sha256": "5c398ee42652b39c2789e0b484217eae15fe1531caac6d42cf63c23cfccb8dbd",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/discovery_report.json",
+          "source_sha256": "4bc0bd79d57dcfc743bc9361dcf560cb70e680a6c28616bc416be1dc0e209bf4",
+          "current_sha256": "4bc0bd79d57dcfc743bc9361dcf560cb70e680a6c28616bc416be1dc0e209bf4",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/evaluate.py",
+          "source_sha256": "803d58c9009685105588a4ace95805403c991e6bab33a5ede0cf31a97d0ce3e9",
+          "current_sha256": "803d58c9009685105588a4ace95805403c991e6bab33a5ede0cf31a97d0ce3e9",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/evaluate_binary.py",
+          "source_sha256": "d6d6a00a9c17487d5ccbbbf79f9c7e0298895ccfbd973e83a0f6c0613503a589",
+          "current_sha256": "d6d6a00a9c17487d5ccbbbf79f9c7e0298895ccfbd973e83a0f6c0613503a589",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/proof.md",
+          "source_sha256": "a2e6237342cfdb604e848a8fd48db9ed9a41eac140e4cbb1166bdc4fd5757ac1",
+          "current_sha256": "a2e6237342cfdb604e848a8fd48db9ed9a41eac140e4cbb1166bdc4fd5757ac1",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/README.md",
+          "source_sha256": "bfa22b95bfd65fe6ad2bbd1de52a424d779eadde690fb061bccfb359c9bc5c9d",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/README.md",
+          "source_sha256": "e340c5da8a136550eb39cd2775b799caabb5b4c52e9a49356a611d2aa097a46c",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/dimension_profiles.json",
+          "source_sha256": "e89633196947249336bc23ed63691444773dfc05d44eb6dcd1b651df4731b5c4",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/explore.py",
+          "source_sha256": "fe76c7daef0ec8c7370830a77db85be392a00cb51ee1ec34fd6b22c0b5351723",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/metadata.json",
+          "source_sha256": "51e880b4bc514d825696dd366a28c99ee8f5a24a04111dba0f29f8b7f8e9cebb",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.json",
+          "source_sha256": "70213015457a374cbc0909e56a9ac8f3e87ec0e80eea9f13fc1430e1a064143e",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/discovery/split_auxiliary.py",
+          "source_sha256": "deff3777f35a90c50b95019616f164f5e5447da9dddb20cb24d0dc149f614f31",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+          "source_sha256": "038669127bdfaba79ff5e36eec8aa994573f92ddda3e7ddc4376982bf36268ca",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/report.json",
+          "source_sha256": "e907495102a42b4cb4f120fcb816a38e64f8658f079efc7dd1489915dc700e24",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+          "source_sha256": "d28aec9f58ba43b066d3552eee5f8748c07585b07e02fac9d48793e3556517c4",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+          "source_sha256": "1d314e8f246c6455cde622244d0bbae0290a2e58ac635b924f56908767a20de3",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+          "source_sha256": "486d2c5b6d220046f1571f6364f979c5b2e1cdbab758c6c1c95231c61c21dc84",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+          "source_sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/validate.py",
+          "source_sha256": "230e6e2088e530f2ff7145836ff1881eec1398532daa0f1d3426618378513a6b",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_delta.json",
+          "source_sha256": "4d7a530c2b0f04c424748d5a1bf5e5c80787a4fddb5761e2904c74a2d64cc68b",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/audit_metadata.log",
+          "source_sha256": "196101043a603847c7446c00481f431e9200132c1c1c68505d177a82f814301b",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/focused.log",
+          "source_sha256": "72ce9ede838894171a3730a2bb9c7d618ff846e209c636711efdcfab0b0d0a52",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/validation/report.json",
+          "source_sha256": "85049e59100df6a4c86db2db302aabf871ffe23b939525846c9d36170ca11aa5",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/verify.py",
+          "source_sha256": "73258969dff6adfac20b9b585455e9aca9300a5b16eac038ddedf75f6582518a",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/pruned/witness.json",
+          "source_sha256": "e0108e34c6a8d1777d3f80a93fb8037cc0e88524ead011d02cd4cd8f62cb4ea7",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/README.md",
+          "source_sha256": "4d987ac856e9e288f9d98b981c7a4888632a86ef295081b2ab3fdfe020b8e892",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/certificate.json",
+          "source_sha256": "121221ed0ab8d3541a35725ad4e348bb34738f1dbfb2910dd0cb8f9063a1d3bb",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+          "source_sha256": "6b95ed640a33081e51714b296b7ee2a6a90a1e688836e887d173df71a8e0e32f",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/validate.py",
+          "source_sha256": "544d6a5873f464f3ee5875221ef5b53fba90cf2eebe4338e87337a8d492421c5",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/focused.log",
+          "source_sha256": "b7d62739621f341a80c61e43d1a7012de1f3533b27c8aa8a761a9c8422d18378",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/validation/report.json",
+          "source_sha256": "8e36c419e12f4859206b111e95869835321d1bd183020a9a6af3c83beef27374",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/rectangular/verify.py",
+          "source_sha256": "e822185a089342b5fcb8231bf17ac9f0bb9c301993481eea802a36179cd16914",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search.cpp",
+          "source_sha256": "d47c058df22da2fd2ab2b82109706ee733b8fb805cf4a5efdc652f073ad4d5d1",
+          "current_sha256": "d47c058df22da2fd2ab2b82109706ee733b8fb805cf4a5efdc652f073ad4d5d1",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/README.md",
+          "source_sha256": "60f39c23aefcef1488f4d8590bf4d0c29c64cc61278b6928fe7c59b9a45ae761",
+          "current_sha256": "60f39c23aefcef1488f4d8590bf4d0c29c64cc61278b6928fe7c59b9a45ae761",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/best-conflict.masks",
+          "source_sha256": "a0c5bd05bbb6feb337f6edaa7c2c9d6c5e8b5c97fa872d07bcf6ea7e465ad3b4",
+          "current_sha256": "a0c5bd05bbb6feb337f6edaa7c2c9d6c5e8b5c97fa872d07bcf6ea7e465ad3b4",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/centered-12-broad-progress.log",
+          "source_sha256": "366fdaad77a6b4bbb630695fc7b6ae62af4c4a51274e52f6fd02dc02985a6481",
+          "current_sha256": "366fdaad77a6b4bbb630695fc7b6ae62af4c4a51274e52f6fd02dc02985a6481",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/centered-12-broad-report.json",
+          "source_sha256": "feb0b62e8cd02685c73398c35bdd503d1e3a4163d5f66597b55823021b301332",
+          "current_sha256": "feb0b62e8cd02685c73398c35bdd503d1e3a4163d5f66597b55823021b301332",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/centered-12-progress.log",
+          "source_sha256": "de73c6645a56455e1b91ab582e75f7a56e36945a38f1d196948731677b05ce2f",
+          "current_sha256": "de73c6645a56455e1b91ab582e75f7a56e36945a38f1d196948731677b05ce2f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/centered-12-report.json",
+          "source_sha256": "fe8133ca01768aa796f08071c4c4b2b3928c69bc1901fa957cb3121bda594b2e",
+          "current_sha256": "fe8133ca01768aa796f08071c4c4b2b3928c69bc1901fa957cb3121bda594b2e",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/centered-progress.log",
+          "source_sha256": "f22be66597cff280bb3a4a440d7dd03badc4de4c67571bdf552dee3425a0b323",
+          "current_sha256": "f22be66597cff280bb3a4a440d7dd03badc4de4c67571bdf552dee3425a0b323",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/centered-report.json",
+          "source_sha256": "0800557017949ab902b94c6fb6954f97735cba3a140780410711ad76a01f4fb9",
+          "current_sha256": "0800557017949ab902b94c6fb6954f97735cba3a140780410711ad76a01f4fb9",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/conflict-broad-progress.log",
+          "source_sha256": "c4516ee98c76cc43d9171dbeafe394cd3a1e2ecead058da0ecb68f5575476780",
+          "current_sha256": "c4516ee98c76cc43d9171dbeafe394cd3a1e2ecead058da0ecb68f5575476780",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/conflict-broad-report.json",
+          "source_sha256": "faf5bef1015ba52535e86ce456f4ba067d418395a954a5b9f6578fdac1ce022e",
+          "current_sha256": "faf5bef1015ba52535e86ce456f4ba067d418395a954a5b9f6578fdac1ce022e",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/corrections-progress.log",
+          "source_sha256": "1b2ee59c34ccb24df069374a92eb870891d8bdf9a282e1a1bb3f5f4fe143609a",
+          "current_sha256": "1b2ee59c34ccb24df069374a92eb870891d8bdf9a282e1a1bb3f5f4fe143609a",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/corrections-report.txt",
+          "source_sha256": "577a5718cd59e5eeab73427a44ff9cb54d73802f8801607c52c6e786dd382fec",
+          "current_sha256": "577a5718cd59e5eeab73427a44ff9cb54d73802f8801607c52c6e786dd382fec",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/ex14.masks",
+          "source_sha256": "ae1324d1ae7de4c24ee43ad7bfe31ea34b1c773d63e2687c513c7b269d479d04",
+          "current_sha256": "ae1324d1ae7de4c24ee43ad7bfe31ea34b1c773d63e2687c513c7b269d479d04",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/ex38.masks",
+          "source_sha256": "4d97aa32c0053d9acf86bbc3565a0d78d3c3beccefe0e582d3df8ca3b2f90871",
+          "current_sha256": "4d97aa32c0053d9acf86bbc3565a0d78d3c3beccefe0e582d3df8ca3b2f90871",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/milp-progress.log",
+          "source_sha256": "04e30757b45ce1cc5efb82f260958bf082a2658d678513bf66bf67b4b54069e4",
+          "current_sha256": "04e30757b45ce1cc5efb82f260958bf082a2658d678513bf66bf67b4b54069e4",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/milp-report.json",
+          "source_sha256": "a19e6e3cefa42a79ce6b760142de349b5c23616370e60218bec8c432b58d5672",
+          "current_sha256": "a19e6e3cefa42a79ce6b760142de349b5c23616370e60218bec8c432b58d5672",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/milp_search.py",
+          "source_sha256": "5b741d20ba1f8370ef62e9d2f9c40bc0362b26cc4514a131166a5893ace93812",
+          "current_sha256": "5b741d20ba1f8370ef62e9d2f9c40bc0362b26cc4514a131166a5893ace93812",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/no-pair-progress.log",
+          "source_sha256": "ab67b5a32190c5d4bca3dfce6125ab2fda9daf033c3a1d716443232e7c2c913b",
+          "current_sha256": "ab67b5a32190c5d4bca3dfce6125ab2fda9daf033c3a1d716443232e7c2c913b",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/no-pair-report.json",
+          "source_sha256": "9a39a99df8f2ab5d7ca07a793ba501f4e9f41c9d3290282220f0da5010fd907f",
+          "current_sha256": "9a39a99df8f2ab5d7ca07a793ba501f4e9f41c9d3290282220f0da5010fd907f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/optimize_corrections.cpp",
+          "source_sha256": "4c749bc8bd69c3899c4254765989aca7a34ee8a1b58d997b7606e568ec3b9f66",
+          "current_sha256": "4c749bc8bd69c3899c4254765989aca7a34ee8a1b58d997b7606e568ec3b9f66",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/pair67-seed.masks",
+          "source_sha256": "596e5c99ec6ba69aa56ad22ed57e8fc0e43f2913e9c95e61ac609aa5af735ffb",
+          "current_sha256": "596e5c99ec6ba69aa56ad22ed57e8fc0e43f2913e9c95e61ac609aa5af735ffb",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/search_broad.cpp",
+          "source_sha256": "6e9c6368b390d8070b360e5d670ca2902e593644113df56a1250d47005ed40fa",
+          "current_sha256": "6e9c6368b390d8070b360e5d670ca2902e593644113df56a1250d47005ed40fa",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/search_no_pair.cpp",
+          "source_sha256": "0f7034c664ff98d0e21b2b040a58d756696c144fef93340492549d9e9f815e8d",
+          "current_sha256": "0f7034c664ff98d0e21b2b040a58d756696c144fef93340492549d9e9f815e8d",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/search_followups/summary.json",
+          "source_sha256": "5071b03d3114ac84b590f78b72233e92191b5fee8c1b69ca79e789c20b4daf24",
+          "current_sha256": "5071b03d3114ac84b590f78b72233e92191b5fee8c1b69ca79e789c20b4daf24",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/sources.json",
+          "source_sha256": "3cd7e353eb4b86771e2aef6f6e6aa84b602054a500609e1ef559aa2a3d16179d",
+          "current_sha256": "3cd7e353eb4b86771e2aef6f6e6aa84b602054a500609e1ef559aa2a3d16179d",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/tensor_106_binary_control_report.json",
+          "source_sha256": "b242269badad9638f41817f095031f251ec9e7cf49b1f94bb57c47539ccdf038",
+          "current_sha256": "b242269badad9638f41817f095031f251ec9e7cf49b1f94bb57c47539ccdf038",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/tensor_control_report.json",
+          "source_sha256": "eae06d2bbc51fa4ee28b98b86a1a52b14a8dd94ce9a8006874eb1d71a97d938d",
+          "current_sha256": "eae06d2bbc51fa4ee28b98b86a1a52b14a8dd94ce9a8006874eb1d71a97d938d",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation.json",
+          "source_sha256": "8dcb869082732bae06417b99e1fa44619f5d92e51498fb8fe7f63d0573ae291f",
+          "current_sha256": "8dcb869082732bae06417b99e1fa44619f5d92e51498fb8fe7f63d0573ae291f",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/README.md",
+          "source_sha256": "7a71aca5c787b5956a22479dbf440019b40d5773680cea6d511e3772754d5015",
+          "current_sha256": "7a71aca5c787b5956a22479dbf440019b40d5773680cea6d511e3772754d5015",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/combined_report.json",
+          "source_sha256": "3ff5dee5b78f36eacd530ea10c0237b670500d5924c66925990e01a986fc5bb0",
+          "current_sha256": "3ff5dee5b78f36eacd530ea10c0237b670500d5924c66925990e01a986fc5bb0",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused-receipt.json",
+          "source_sha256": "4fcb1d81339416c18a12d3b0d7d3a02bd1b8a51a338732c15c56ed3800fd172c",
+          "current_sha256": "4fcb1d81339416c18a12d3b0d7d3a02bd1b8a51a338732c15c56ed3800fd172c",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-focused.log",
+          "source_sha256": "50451709aa3e7d96212c1823f68815865c183f9db27be2d929417f2bbfe6b037",
+          "current_sha256": "50451709aa3e7d96212c1823f68815865c183f9db27be2d929417f2bbfe6b037",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate-metadata.log",
+          "source_sha256": "b8681784ac7f5f60ba53f45cded3a52ab7bb4334e848ddb65db793c3f4fe1bd5",
+          "current_sha256": "b8681784ac7f5f60ba53f45cded3a52ab7bb4334e848ddb65db793c3f4fe1bd5",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/costgate_delta_report.json",
+          "source_sha256": "73c07a6d89c83e557eacc866f5d615b8939e2e32189e0ece95066d6bc425b4df",
+          "current_sha256": "73c07a6d89c83e557eacc866f5d615b8939e2e32189e0ece95066d6bc425b4df",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/finalize_costgate_delta.py",
+          "source_sha256": "b7d7ddece9459e4d3e0a654a6ecdab0d3909535933638ebf4f8372783f9d00c4",
+          "current_sha256": "b7d7ddece9459e4d3e0a654a6ecdab0d3909535933638ebf4f8372783f9d00c4",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/finalize_validation.py",
+          "source_sha256": "8fca973d022035d3bd52e51622cc772140ce17a7544bbc6c5206eb4a711415ce",
+          "current_sha256": "8fca973d022035d3bd52e51622cc772140ce17a7544bbc6c5206eb4a711415ce",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/focused-tests-frozen.log",
+          "source_sha256": "bb77ac4274de5982c80a16857273fc3e5ab818dc8b9c3f41197d2884b30f8a28",
+          "current_sha256": "bb77ac4274de5982c80a16857273fc3e5ab818dc8b9c3f41197d2884b30f8a28",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/full-tests-prefix.log",
+          "source_sha256": "eb2861f60e442fe5986ae45455a1437aa9c9004ef469c0655a2b375eea344126",
+          "current_sha256": "eb2861f60e442fe5986ae45455a1437aa9c9004ef469c0655a2b375eea344126",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/plan.json",
+          "source_sha256": "dac55b94566bd7c8024d223ebb95783bc2e08c10a1fedae88cc63c99e53e090b",
+          "current_sha256": "dac55b94566bd7c8024d223ebb95783bc2e08c10a1fedae88cc63c99e53e090b",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/remaining_tests.py",
+          "source_sha256": "71f5a0a7cdb69ec449f60a6577bc14f9313059698b6a69df09158f51101c9e18",
+          "current_sha256": "71f5a0a7cdb69ec449f60a6577bc14f9313059698b6a69df09158f51101c9e18",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/replay-preserved.log",
+          "source_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+          "current_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.json",
+          "source_sha256": "38883b941252acfa59bf5a1f1ccc38fafaeead1c651795f2bb49b54ce561bfbb",
+          "current_sha256": "38883b941252acfa59bf5a1f1ccc38fafaeead1c651795f2bb49b54ce561bfbb",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-0.log",
+          "source_sha256": "1a9b1de71f960d5b0e84188b4ca330cfb8da987c6cd7b16240beaa48ec7977d8",
+          "current_sha256": "1a9b1de71f960d5b0e84188b4ca330cfb8da987c6cd7b16240beaa48ec7977d8",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.json",
+          "source_sha256": "447903ffcc4b044cc63ace03b2948215a54baa8d184867871c9d3a390732024b",
+          "current_sha256": "447903ffcc4b044cc63ace03b2948215a54baa8d184867871c9d3a390732024b",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/validation/shard-1.log",
+          "source_sha256": "206cff8b5fbd2f976f7d65eca3edc8b726e0571236dd249695f0b9cc71d80feb",
+          "current_sha256": "206cff8b5fbd2f976f7d65eca3edc8b726e0571236dd249695f0b9cc71d80feb",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/verification_106_report.json",
+          "source_sha256": "8abff80847a1be9fed95f67509091670e3d884a0e5a12a2866ea696d1af15886",
+          "current_sha256": "8abff80847a1be9fed95f67509091670e3d884a0e5a12a2866ea696d1af15886",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/verification_report.json",
+          "source_sha256": "ff4e6a24a4ced29de2a169e379a711b3115094cc77170edd5bedaa57b901e0ee",
+          "current_sha256": "ff4e6a24a4ced29de2a169e379a711b3115094cc77170edd5bedaa57b901e0ee",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/verify.py",
+          "source_sha256": "0fbc73a6598ea438b8bde1b60d6498d3c57606c4a44e0821b1734c3e2d428003",
+          "current_sha256": "0fbc73a6598ea438b8bde1b60d6498d3c57606c4a44e0821b1734c3e2d428003",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/witness_106.json",
+          "source_sha256": "c4cd53cfa84bb27b918b22d2cd17a154caae6e524ad6840a2306a489ac533d49",
+          "current_sha256": "c4cd53cfa84bb27b918b22d2cd17a154caae6e524ad6840a2306a489ac533d49",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-aggregation-families/witness_29.json",
+          "source_sha256": "e7ac2f8e500b881f0e7f89a0ba55e86a33bd3e43187dd7067d8b29f5a8ef44ff",
+          "current_sha256": "e7ac2f8e500b881f0e7f89a0ba55e86a33bd3e43187dd7067d8b29f5a8ef44ff",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "M",
+          "path": "research/claims.json",
+          "source_sha256": "564d02f2e65c7b0e46843502e4717e1c1b4d25375160ff7a9a478a75ec456f63",
+          "current_sha256": "42c716700960902ad7d4104a6331e11d107befba50fb65fbe6dc7147be643053",
+          "already_identical": false,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json",
+          "source_sha256": "bb41b36b2bff3d7aeb8735b17b1f1364deaf456aa942dc3a8e26cb3cb3fe95d9",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log",
+          "source_sha256": "9cf9d2fa4c32a60d1ad53f39e518ad1e8a5b37f695605909827a02878cc52a3e",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+          "source_sha256": "6ac379d30430cbb1f1d75a7ff23dc8e3a003adcbf9145611593bf845a11738f0",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+          "source_sha256": "9cd37d6004f018b7b6f649b61954478531bb44591b1bf6e9242f2a0b30219c91",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "results/pruned-aggregation-publication-2026-10-23/preservation.json",
+          "source_sha256": "3416ca7dfe129073176c0381bdf884e9eefeeaa0d124f35b1c7b735cb1e5f3d1",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "tests/test_aggregation_families.py",
+          "source_sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
+          "current_sha256": "1843a8f7b44ec00e7eb55a8ab62dcb780f62e829d06ce028db33fec8b19fe291",
+          "already_identical": true,
+          "current_exists": true
+        },
+        {
+          "status": "A",
+          "path": "tests/test_aggregation_pruned.py",
+          "source_sha256": "35a1aa1feb7aa9af448fe59d73032acef2972ac70aa9242fb53088263a45379f",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        },
+        {
+          "status": "A",
+          "path": "tests/test_aggregation_rectangular.py",
+          "source_sha256": "56f2dd18aead545d603c1275bcf3a05656b683a102e9e862c4eaa73c13ec1fd9",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        }
+      ],
+      "authored_existing_claim_ids": []
+    },
+    {
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca",
+      "base": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "parents": [
+        "a510bec4627043b35bac0ad4b19bb617446e8949"
+      ],
+      "local_ref": "refs/remotes/consolidation-concurrent-wave/head-3",
+      "changed_paths": [
+        {
+          "status": "A",
+          "path": "research/ai/2026-10-23-quadratic-torsion/QUESTION.md",
+          "source_sha256": "bb7f1bd4a310d254ab6f77cdf21bfc1ee7a3a08111a664e98fcddf3cb8403a79",
+          "current_sha256": null,
+          "already_identical": false,
+          "current_exists": false
+        }
+      ],
+      "authored_existing_claim_ids": []
+    }
+  ],
+  "baseline_claims": 614,
+  "new_claims": {
+    "AI-A4-ARBITRARY-COMPRESSION-001": {
+      "record": {
+        "id": "AI-A4-ARBITRARY-COMPRESSION-001",
+        "title": "Universal constant-compression exclusion for the fixed two-sided A4 family",
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+        "section": "1-6",
+        "statement": "Over C, every rank-26 compression of the specified 46-dimensional space E=G+[G,G00]+G00 G G00 in Mat28 has image dimension at least 38. Equivalently, for all 26-dimensional U and two-dimensional W, the space of E matrices sending U into W has dimension at most 8. The prior low-rank reduction then gives dimension at least 104 for every constant rank-110 compression of the specified 112-dimensional conjugation limit, exceeding the necessary target maximum 103. Thus all constant long-map compressions of this fixed family are excluded, even with arbitrary Laurent first maps.",
+        "dependencies": [
+          "AI-A4-TWOSIDED-RANKLOSS-001",
+          "AI-A4-TWOSIDED-LOWRANK-003",
+          "Literal source and unimodular normalization, with prior proof and certificate bytes pinned",
+          "Torus degeneration of Grassmannian flags, exact coverage of all 2,809 graded budget pairs, 24 rational minor identities, and a shared-flag argument"
+        ],
+        "limitations": "Only the one specified two-sided conjugation family with constant full-rank long-map compressions over C. Moving compressions, other singular paths and a full matrix target remain outside the theorem. The lower bound 38 is not claimed sharp. Same-session checks are not independent mathematical review. No formalization or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "source_branch": "research/a4-universal-20261023-ab94",
+      "evidence_exists": true
+    },
+    "AI-AGGREGATION-RECTANGULAR-GATE-004": {
+      "record": {
+        "id": "AI-AGGREGATION-RECTANGULAR-GATE-004",
+        "title": "Complete-grid cost gate for every fixed ordered part shape through 32 coordinates",
+        "origin": "Owner-directed Codex extension of the credited aggregation setup",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+        "section": "1",
+        "statement": "For every conflict-free family of p complete ordered tripartitions with one fixed cardinality shape (a,b,c), d=a+b+c<=32, every complete-grid budget B>=product_r q_r strictly exceeds sum_t(product_r n_t,r)^(3/4), for all integer q_r>=2 and 1<=n_t,r<=q_r-1. An induced-edge count gives p<=min(C_U,C_V,C_W,floor(2E/(D_U+D_V+D_W-1))); coordinatewise weighted AM-GM and exact enumeration of all shapes certify the strict gap. The d=33 balanced row is a non-exclusion control. The centered corrected identity extends to these anisotropic rectangular targets over characteristic-zero fields.",
+        "dependencies": [
+          "Solomonik and Blaeser arXiv:2610.26563v2 centered aggregation and asymptotic sum framework",
+          "AI-AGGREGATION-COST-FLOOR-003 induced-edge argument, extended to unequal fixed part sizes",
+          "Complete exact integer shape certificate and coordinatewise AM-GM"
+        ],
+        "limitations": "Limits the displayed complete-grid upper-bound budget, not actual tensor rank. Requires one fixed ordered part-size triple across products. Mixed graded shapes, pruned grids and new rank decompositions are outside this result. Dimension 33 is not a sufficient construction. No independent review or formalization.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "evidence_exists": true
+    },
+    "AI-AGGREGATION-FIXED-GRID-005": {
+      "record": {
+        "id": "AI-AGGREGATION-FIXED-GRID-005",
+        "title": "Full centered target forces every fixed leading-grid coefficient",
+        "origin": "Owner-directed Codex linear independence argument",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+        "section": "2",
+        "statement": "Over characteristic zero, if one retained diagonal product fills every centered coordinate space of dimension q_r-1>=2, the product_r q_r main grid forms project to a linearly independent family on that product. Every nonempty standard correction projects to zero. Therefore an exact representation using those fixed forms forces every leading coefficient to be one; a Laurent degeneration forces each to be 1+O(lambda). The proof uses H_q pointwise-multiplied by H_q spanning K^q for q>=3 and tensor products of independent local row tensors.",
+        "dependencies": [
+          "Credited centered aggregation forms and correction eligibility",
+          "Exact local spanning identity (e_i-e_j) times (e_i-e_k)=e_i for three distinct indices"
+        ],
+        "limitations": "Fixed forms only; does not exclude new linear forms, other decompositions, or pruning after all full targets are removed. The hypotheses q_r>=3 and a full target are essential, with exact small controls. No lower bound on actual tensor rank, independent review, formalization or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "evidence_exists": true
+    },
+    "AI-AGGREGATION-PRUNED-SUPPORT-006": {
+      "record": {
+        "id": "AI-AGGREGATION-PRUNED-SUPPORT-006",
+        "title": "Common-support cost floor after deleting zero aggregate forms",
+        "origin": "Owner-directed Codex extension to smaller targets and mixed graded shapes",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+        "section": "1",
+        "statement": "For p independent matrix targets expressed as complete d-coordinate tripartitions, suppose the active coordinate pair of target dimension n_t,r has at least n_t,r+1 common nonzero row positions. A budget that retains nonzero main coefficients, deletes only identically zero rank-one forms, and then charges every surviving main and correction position satisfies B_prune>=(4/3^(3/4))^d*max_t(volume_t^(3/4)). Therefore p^4*3^(3d)<4^(4d) implies B_prune>sum_t(volume_t^(3/4)) for all positive integer dimensions and all support positions. Mixed ordered part sizes, product-dependent dimensions, and scalar gradings are allowed. Exact comparisons include the external 10/13/22 and local 29/106 families.",
+        "dependencies": [
+          "Projection to the largest-volume independent target block",
+          "Coordinatewise weighted AM-GM",
+          "External asymptotic-sum framework credited to Solomonik and Blaeser arXiv:2610.26563v2"
+        ],
+        "limitations": "A position-budget limitation after zero-form pruning, not an actual tensor-rank lower bound. Requires the stated common-row-support size and nonzero main coefficients. Reweighting, cancellation among nonzero positions, other decompositions and separated centering rows are outside the result. Same-session audit only; no independent review, formalization or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "evidence_exists": true
+    },
+    "AI-AGGREGATION-PRUNED-RECTANGLES-007": {
+      "record": {
+        "id": "AI-AGGREGATION-PRUNED-RECTANGLES-007",
+        "title": "An explicit smaller-support border-rank budget for 22 unequal matrix products",
+        "origin": "Owner-directed Codex restriction and exact count of a credited external graded family",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+        "section": "3",
+        "statement": "For every integer n>=2 over characteristic zero, the exported product-dependent dimension profile applied to the pinned general22 graded construction gives 22 independent matrix products, each of volume n^5, with border rank at most 4n^5+32n^4+102n^3+158n^2+118n+34. The main grid costs 4n(n+1)^4; every nonzero correction position is counted exactly. The difference from the classical rank upper bound 22n^5 has strictly positive coefficients 678,8570,7066,2266,328,18 after n=4+u, so the displayed border-rank cost is smaller for all n>=4. Ordered matrix shapes, profiles and exact all-n polynomials are exported.",
+        "dependencies": [
+          "Solomonik and Blaeser arXiv:2610.26563v2 general22 tripartitions, signed grades and correction sets, with raw ancillary SHA256 enforced",
+          "Complete exact check of every external mixed triple, including nonpositive scalar grades",
+          "Centered dual maps on product-dependent smaller supports and complete nonzero-position count",
+          "AI-AGGREGATION-PRUNED-SUPPORT-006 for the direct 9/4 cost limitation"
+        ],
+        "limitations": "Border-rank upper bound and comparison with the stated classical rank upper bound only. No optimality, stable finite-precision runtime or improved exponent. The critical 9/4 mass is 22n^(15/4), and the common-support theorem excludes this displayed pruned budget for every allowed n. External family and mechanism retain credit. No historical priority, independent review or formalization.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "source_branch": "research/pruned-aggregation-20261023-ab94",
+      "evidence_exists": true
+    }
+  },
+  "authored_claim_revisions": [
+    {
+      "id": "AI-A4-TWOSIDED-LOWRANK-003",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "base_sha": "f42b9df4caa0ed88c6363ffbdf73482905b75779",
+      "changed_fields": [
+        "limitations"
+      ],
+      "source_record": {
+        "id": "AI-A4-TWOSIDED-LOWRANK-003",
+        "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+        "section": "1-4",
+        "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+        "dependencies": [
+          "AI-A4-TWOSIDED-RANKLOSS-001",
+          "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+          "Credited minimum nonzero source rank sixteen",
+          "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+        ],
+        "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. This reduction alone is necessary; the later AI-A4-ARBITRARY-COMPRESSION-001 proves the universal lower bound 38 and excludes constant compressions in this family. It does not construct a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "previous_source_record": {
+        "id": "AI-A4-TWOSIDED-LOWRANK-003",
+        "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+        "section": "1-4",
+        "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+        "dependencies": [
+          "AI-A4-TWOSIDED-RANKLOSS-001",
+          "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+          "Credited minimum nonzero source rank sixteen",
+          "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+        ],
+        "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. The universal reduced lower bound 38 is not proved, arbitrary constant compressions are not excluded, and satisfying the reduced condition is not sufficient for a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "current_record": {
+        "id": "AI-A4-TWOSIDED-LOWRANK-003",
+        "title": "Reduction of arbitrary constant compression to a 46-dimensional outer space",
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+        "section": "1-4",
+        "statement": "Over C, the certified 112-dimensional limiting space L of the specified two-sided A4 conjugation has the stated exact four-by-four outer block form. Every element of ordinary rank at most four is confined to block (3,0), whose matrix space E=G+[G,G00]+G00 G G00 has dimension 46 in Mat28. The kernel of any constant rank-110 long-leg compression is therefore exactly a compression kernel of E. A full M(10,10,11) target requires a rank-26 pair Phat, Chat with dim(Phat E Chat)<=37, equivalently a 26-dimensional U and two-dimensional W with dim{E in E:E(U) subset W}>=9.",
+        "dependencies": [
+          "AI-A4-TWOSIDED-RANKLOSS-001",
+          "AI-RESOLVENT-SHARP-MINRANK-001 Section 2: every nonzero matrix in G+G00 G has rank at least six",
+          "Credited minimum nonzero source rank sixteen",
+          "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
+        ],
+        "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. The universal reduced lower bound 38 is not proved, arbitrary constant compressions are not excluded, and satisfying the reduced condition is not sufficient for a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "common_base_sha": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "branch_merge_base_record_absent": true,
+      "previous_source_is_ancestor": true
+    },
+    {
+      "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "base_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "changed_fields": [
+        "limitations"
+      ],
+      "source_record": {
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+        "section": "1-4",
+        "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+        "dependencies": [
+          "Credited literal cyclic A4 source and unimodular source-unit normalization",
+          "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+          "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+        ],
+        "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The later AI-A4-ARBITRARY-COMPRESSION-001 excludes the necessary locus for constant compressions. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+      },
+      "previous_source_record": {
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+        "section": "1-4",
+        "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+        "dependencies": [
+          "Credited literal cyclic A4 source and unimodular source-unit normalization",
+          "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+          "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+        ],
+        "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The necessary rank-loss locus is not classified. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+      },
+      "current_record": {
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+        "section": "1-4",
+        "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+        "dependencies": [
+          "Credited literal cyclic A4 source and unimodular source-unit normalization",
+          "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+          "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+        ],
+        "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The necessary rank-loss locus is not classified. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+      },
+      "common_base_sha": "a510bec4627043b35bac0ad4b19bb617446e8949",
+      "branch_merge_base_record_absent": true,
+      "previous_source_is_ancestor": true
+    }
+  ],
+  "inherited_claim_variants_retained_from_current": [
+    {
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "AI-SCALAR-001",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "EXP-S5-COLORED-033",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "AI-CONIC-SECOND-JET-002",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "AI-CONIC-POLYNOMIAL-JET-003",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+      "branch": "research/a4-universal-20261023-ab94",
+      "source_sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "AI-SCALAR-001",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "EXP-S5-COLORED-033",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "AI-CONIC-SECOND-JET-002",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "AI-CONIC-POLYNOMIAL-JET-003",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "source_sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "AI-SCALAR-001",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "EXP-S5-COLORED-033",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "AI-CONIC-SECOND-JET-002",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "AI-CONIC-POLYNOMIAL-JET-003",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "source_sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    },
+    {
+      "id": "AI-SCALAR-001",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    },
+    {
+      "id": "EXP-S5-COLORED-033",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    },
+    {
+      "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    },
+    {
+      "id": "AI-CONIC-SECOND-JET-002",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    },
+    {
+      "id": "AI-CONIC-POLYNOMIAL-JET-003",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    },
+    {
+      "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "source_sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    }
+  ],
+  "new_id_collisions": []
+}

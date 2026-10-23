@@ -1,0 +1,128 @@
+{
+  "baseline_head": "6b57043164f7d534b858507a37f64fdfda38f29f",
+  "expected_inventory": {
+    "modules": 441,
+    "tests": 1980
+  },
+  "expected_tests": 21,
+  "jobs": [
+    {
+      "expected_tests": 8,
+      "kind": "unittest",
+      "name": "a4-arbitrary-compression",
+      "targets": [
+        "test_a4_arbitrary_compression"
+      ]
+    },
+    {
+      "expected_tests": 11,
+      "kind": "unittest",
+      "name": "aggregation-pruned-rectangular",
+      "targets": [
+        "test_aggregation_pruned",
+        "test_aggregation_rectangular"
+      ]
+    },
+    {
+      "expected_tests": 2,
+      "kind": "unittest",
+      "name": "repository-ledger-links",
+      "targets": [
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_relative_markdown_links"
+      ]
+    }
+  ],
+  "new_test_ids": [
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_changed_prior_source_pin_is_rejected",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_complete_source_and_all_flag_budgets",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_duplicate_budget_pair_is_rejected",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_false_hessian_rank_is_rejected",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_false_minor_combination_is_rejected",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_invalid_rational_coefficient_is_rejected",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_missing_identity_case_is_rejected",
+    "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_omitted_budget_pair_is_rejected",
+    "test_aggregation_pruned.AggregationPrunedTests.test_common_support_floor_and_integer_boundary",
+    "test_aggregation_pruned.AggregationPrunedTests.test_complete_saved_exact_acceptance",
+    "test_aggregation_pruned.AggregationPrunedTests.test_external_source_hash_and_scalar_grades_are_enforced",
+    "test_aggregation_pruned.AggregationPrunedTests.test_featured_all_n_budget_and_classical_threshold",
+    "test_aggregation_pruned.AggregationPrunedTests.test_independent_direct_grid_count",
+    "test_aggregation_pruned.AggregationPrunedTests.test_separate_centering_rows_really_escape_the_support_premise",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_balanced_specialization_and_boundary",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_complete_saved_shape_certificate",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_full_and_restricted_local_product_spaces",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_incomplete_or_understated_certificate_rejected",
+    "test_aggregation_rectangular.AggregationRectangularTests.test_individual_capacities_are_not_omitted"
+  ],
+  "schema": "matrix-mult-bounds-concurrent-wave-validation-plan-v1",
+  "scope": "Complete new A4 arbitrary-compression, pruned aggregation and rectangular aggregation acceptance/rejection modules, plus maintained ledger and link checks. No optional discovery or historical receipt harnesses.",
+  "source_heads": [
+    {
+      "branch": "research/a4-universal-20261023-ab94",
+      "sha": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9"
+    },
+    {
+      "branch": "research/column-overlap-validation-20261023-ab94",
+      "sha": "7797ad49913864e6da4bcbbb3fdc399e05dd11cb"
+    },
+    {
+      "branch": "research/pruned-aggregation-20261023-ab94",
+      "sha": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce"
+    },
+    {
+      "branch": "research/quadratic-torsion-attainment-01a1697d",
+      "sha": "a8da2a3d511d2365a839f4ddd42a51816844a2ca"
+    }
+  ],
+  "test_modules": [
+    {
+      "class_name": "ArbitraryCompressionTests",
+      "expected_tests": 8,
+      "module": "test_a4_arbitrary_compression",
+      "path": "tests/test_a4_arbitrary_compression.py",
+      "sha256": "e87d1b1aee09e62307d48e752c13e9994c70bfceab9fd47e05c5bd0e1617e015",
+      "source_commit": "beb14b693fc7c3283d33a87ac93e4e35afe4e6b9",
+      "test_ids": [
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_changed_prior_source_pin_is_rejected",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_complete_source_and_all_flag_budgets",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_duplicate_budget_pair_is_rejected",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_false_hessian_rank_is_rejected",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_false_minor_combination_is_rejected",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_invalid_rational_coefficient_is_rejected",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_missing_identity_case_is_rejected",
+        "test_a4_arbitrary_compression.ArbitraryCompressionTests.test_omitted_budget_pair_is_rejected"
+      ]
+    },
+    {
+      "class_name": "AggregationPrunedTests",
+      "expected_tests": 6,
+      "module": "test_aggregation_pruned",
+      "path": "tests/test_aggregation_pruned.py",
+      "sha256": "35a1aa1feb7aa9af448fe59d73032acef2972ac70aa9242fb53088263a45379f",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "test_ids": [
+        "test_aggregation_pruned.AggregationPrunedTests.test_common_support_floor_and_integer_boundary",
+        "test_aggregation_pruned.AggregationPrunedTests.test_complete_saved_exact_acceptance",
+        "test_aggregation_pruned.AggregationPrunedTests.test_external_source_hash_and_scalar_grades_are_enforced",
+        "test_aggregation_pruned.AggregationPrunedTests.test_featured_all_n_budget_and_classical_threshold",
+        "test_aggregation_pruned.AggregationPrunedTests.test_independent_direct_grid_count",
+        "test_aggregation_pruned.AggregationPrunedTests.test_separate_centering_rows_really_escape_the_support_premise"
+      ]
+    },
+    {
+      "class_name": "AggregationRectangularTests",
+      "expected_tests": 5,
+      "module": "test_aggregation_rectangular",
+      "path": "tests/test_aggregation_rectangular.py",
+      "sha256": "56f2dd18aead545d603c1275bcf3a05656b683a102e9e862c4eaa73c13ec1fd9",
+      "source_commit": "eb95f17da4f5c22ed0fd5bff6dfdcb1c749537ce",
+      "test_ids": [
+        "test_aggregation_rectangular.AggregationRectangularTests.test_balanced_specialization_and_boundary",
+        "test_aggregation_rectangular.AggregationRectangularTests.test_complete_saved_shape_certificate",
+        "test_aggregation_rectangular.AggregationRectangularTests.test_full_and_restricted_local_product_spaces",
+        "test_aggregation_rectangular.AggregationRectangularTests.test_incomplete_or_understated_certificate_rejected",
+        "test_aggregation_rectangular.AggregationRectangularTests.test_individual_capacities_are_not_omitted"
+      ]
+    }
+  ]
+}

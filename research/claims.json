@@ -10604,7 +10604,7 @@
         "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
         "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
       ],
-      "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The necessary rank-loss locus is not classified. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+      "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The later AI-A4-ARBITRARY-COMPRESSION-001 excludes the necessary locus for constant compressions. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
     },
     {
       "id": "AI-AGGREGATION-29-001",
@@ -10674,7 +10674,7 @@
         "Credited minimum nonzero source rank sixteen",
         "112 exact block-coordinate identities, 16 exact transpose-conjugation identities, and elementary two-sided projection rank inequality"
       ],
-      "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. The universal reduced lower bound 38 is not proved, arbitrary constant compressions are not excluded, and satisfying the reduced condition is not sufficient for a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
+      "limitations": "Necessary reduction for the one specified fixed conjugation family with constant full-rank long-map compressions. This reduction alone is necessary; the later AI-A4-ARBITRARY-COMPRESSION-001 proves the universal lower bound 38 and excludes constant compressions in this family. It does not construct a full target. Same-session reasoning checks are not independent review. No formalization or exponent improvement.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
@@ -10828,6 +10828,97 @@
         "Explicit polynomial left and right Hankel kernel bases, primitive Gauss lemma, and coherent rank-one classification"
       ],
       "limitations": "These are necessary index restrictions, not a classification of all splitting types. The complete rank spectrum concerns the fifteen-by-fifteen biform block, not every slice of the full cyclic tensor. No source-space cap, three-leg target, degeneration, independent review, formalization, historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-A4-ARBITRARY-COMPRESSION-001",
+      "title": "Universal constant-compression exclusion for the fixed two-sided A4 family",
+      "origin": "Owner-directed OpenAI Codex research",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-a4-compression-algebra/proof.md",
+      "section": "1-6",
+      "statement": "Over C, every rank-26 compression of the specified 46-dimensional space E=G+[G,G00]+G00 G G00 in Mat28 has image dimension at least 38. Equivalently, for all 26-dimensional U and two-dimensional W, the space of E matrices sending U into W has dimension at most 8. The prior low-rank reduction then gives dimension at least 104 for every constant rank-110 compression of the specified 112-dimensional conjugation limit, exceeding the necessary target maximum 103. Thus all constant long-map compressions of this fixed family are excluded, even with arbitrary Laurent first maps.",
+      "dependencies": [
+        "AI-A4-TWOSIDED-RANKLOSS-001",
+        "AI-A4-TWOSIDED-LOWRANK-003",
+        "Literal source and unimodular normalization, with prior proof and certificate bytes pinned",
+        "Torus degeneration of Grassmannian flags, exact coverage of all 2,809 graded budget pairs, 24 rational minor identities, and a shared-flag argument"
+      ],
+      "limitations": "Only the one specified two-sided conjugation family with constant full-rank long-map compressions over C. Moving compressions, other singular paths and a full matrix target remain outside the theorem. The lower bound 38 is not claimed sharp. Same-session checks are not independent mathematical review. No formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-AGGREGATION-RECTANGULAR-GATE-004",
+      "title": "Complete-grid cost gate for every fixed ordered part shape through 32 coordinates",
+      "origin": "Owner-directed Codex extension of the credited aggregation setup",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "section": "1",
+      "statement": "For every conflict-free family of p complete ordered tripartitions with one fixed cardinality shape (a,b,c), d=a+b+c<=32, every complete-grid budget B>=product_r q_r strictly exceeds sum_t(product_r n_t,r)^(3/4), for all integer q_r>=2 and 1<=n_t,r<=q_r-1. An induced-edge count gives p<=min(C_U,C_V,C_W,floor(2E/(D_U+D_V+D_W-1))); coordinatewise weighted AM-GM and exact enumeration of all shapes certify the strict gap. The d=33 balanced row is a non-exclusion control. The centered corrected identity extends to these anisotropic rectangular targets over characteristic-zero fields.",
+      "dependencies": [
+        "Solomonik and Blaeser arXiv:2610.26563v2 centered aggregation and asymptotic sum framework",
+        "AI-AGGREGATION-COST-FLOOR-003 induced-edge argument, extended to unequal fixed part sizes",
+        "Complete exact integer shape certificate and coordinatewise AM-GM"
+      ],
+      "limitations": "Limits the displayed complete-grid upper-bound budget, not actual tensor rank. Requires one fixed ordered part-size triple across products. Mixed graded shapes, pruned grids and new rank decompositions are outside this result. Dimension 33 is not a sufficient construction. No independent review or formalization.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-AGGREGATION-FIXED-GRID-005",
+      "title": "Full centered target forces every fixed leading-grid coefficient",
+      "origin": "Owner-directed Codex linear independence argument",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-aggregation-families/rectangular/proof.md",
+      "section": "2",
+      "statement": "Over characteristic zero, if one retained diagonal product fills every centered coordinate space of dimension q_r-1>=2, the product_r q_r main grid forms project to a linearly independent family on that product. Every nonempty standard correction projects to zero. Therefore an exact representation using those fixed forms forces every leading coefficient to be one; a Laurent degeneration forces each to be 1+O(lambda). The proof uses H_q pointwise-multiplied by H_q spanning K^q for q>=3 and tensor products of independent local row tensors.",
+      "dependencies": [
+        "Credited centered aggregation forms and correction eligibility",
+        "Exact local spanning identity (e_i-e_j) times (e_i-e_k)=e_i for three distinct indices"
+      ],
+      "limitations": "Fixed forms only; does not exclude new linear forms, other decompositions, or pruning after all full targets are removed. The hypotheses q_r>=3 and a full target are essential, with exact small controls. No lower bound on actual tensor rank, independent review, formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-AGGREGATION-PRUNED-SUPPORT-006",
+      "title": "Common-support cost floor after deleting zero aggregate forms",
+      "origin": "Owner-directed Codex extension to smaller targets and mixed graded shapes",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "section": "1",
+      "statement": "For p independent matrix targets expressed as complete d-coordinate tripartitions, suppose the active coordinate pair of target dimension n_t,r has at least n_t,r+1 common nonzero row positions. A budget that retains nonzero main coefficients, deletes only identically zero rank-one forms, and then charges every surviving main and correction position satisfies B_prune>=(4/3^(3/4))^d*max_t(volume_t^(3/4)). Therefore p^4*3^(3d)<4^(4d) implies B_prune>sum_t(volume_t^(3/4)) for all positive integer dimensions and all support positions. Mixed ordered part sizes, product-dependent dimensions, and scalar gradings are allowed. Exact comparisons include the external 10/13/22 and local 29/106 families.",
+      "dependencies": [
+        "Projection to the largest-volume independent target block",
+        "Coordinatewise weighted AM-GM",
+        "External asymptotic-sum framework credited to Solomonik and Blaeser arXiv:2610.26563v2"
+      ],
+      "limitations": "A position-budget limitation after zero-form pruning, not an actual tensor-rank lower bound. Requires the stated common-row-support size and nonzero main coefficients. Reweighting, cancellation among nonzero positions, other decompositions and separated centering rows are outside the result. Same-session audit only; no independent review, formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-AGGREGATION-PRUNED-RECTANGLES-007",
+      "title": "An explicit smaller-support border-rank budget for 22 unequal matrix products",
+      "origin": "Owner-directed Codex restriction and exact count of a credited external graded family",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-aggregation-families/pruned/proof.md",
+      "section": "3",
+      "statement": "For every integer n>=2 over characteristic zero, the exported product-dependent dimension profile applied to the pinned general22 graded construction gives 22 independent matrix products, each of volume n^5, with border rank at most 4n^5+32n^4+102n^3+158n^2+118n+34. The main grid costs 4n(n+1)^4; every nonzero correction position is counted exactly. The difference from the classical rank upper bound 22n^5 has strictly positive coefficients 678,8570,7066,2266,328,18 after n=4+u, so the displayed border-rank cost is smaller for all n>=4. Ordered matrix shapes, profiles and exact all-n polynomials are exported.",
+      "dependencies": [
+        "Solomonik and Blaeser arXiv:2610.26563v2 general22 tripartitions, signed grades and correction sets, with raw ancillary SHA256 enforced",
+        "Complete exact check of every external mixed triple, including nonpositive scalar grades",
+        "Centered dual maps on product-dependent smaller supports and complete nonzero-position count",
+        "AI-AGGREGATION-PRUNED-SUPPORT-006 for the direct 9/4 cost limitation"
+      ],
+      "limitations": "Border-rank upper bound and comparison with the stated classical rank upper bound only. No optimality, stable finite-precision runtime or improved exponent. The critical 9/4 mass is 22n^(15/4), and the common-support theorem excludes this displayed pruned budget for every allowed n. External family and mechanism retain credit. No historical priority, independent review or formalization.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
