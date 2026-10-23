@@ -15,3 +15,9 @@ The intended output is a parameter-polynomial certificate and a scoped
 linear-extension theorem. Arbitrary quadratic Hankel pencils outside this
 four-space, general Segre-image bounds and matrix degenerations are not
 assumed settled. Check current PRs before enlarging that scope.
+
+Continuation: decide the entire paired exceptional family
+`A=v,B=beta*u,C=u,D=v` for `beta^3!=1`. Export the common normal vector,
+a unit eight-minor, explicit Schur coefficient identities, guarded
+nilpotence identities and the higher determinant. Avoid generic-kernel
+specializations that introduce unrecorded factors of beta or beta+1.

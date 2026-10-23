@@ -180,15 +180,96 @@ The seven tangent directions thus do not give a seven-dimensional linear
 rank-bounded extension. The specific direction y=1,A=B=C=D=x=z=0 has
 rank eight by itself, but adding H(0,1) gives determinant -1 and rank ten.
 
-## 5. Scope and evidence
+## 5. The entire paired exceptional family
+
+The preceding exceptional seed extends to the complete family
+
+    A=v, B=beta*u, C=u, D=v,   chi=beta^3-1!=0.               (8)
+
+Every member has Delta=0 and common tangent dimension seven. **For every
+complex beta satisfying the guard in (8), S remains the unique maximal
+linear rank-at-most-eight Hankel extension of the entire line.**
+
+To prove this, the five coefficient rows of P squared have moment kernel
+
+    (-2beta,-1,0,beta,2).                                    (9)
+
+This follows directly by multiplying N transposed by (9). Its nullspace
+is one-dimensional by Section 2. Accordingly a general common tangent
+direction J has the four free S coordinates A,B,C,D and three transverse
+coordinates x,y,z. For delta=0,1,2 put e_delta=x,y,z and set
+
+    (w_delta,w_(delta+4),w_(delta+8),w_(delta+12),w_(delta+16))
+             =(-2beta,-1,0,beta,2)*e_delta.                 (10)
+
+Here A,B,C,D again denote direction coordinates. Write E=A-D,
+F=B-beta*C. The necessary quadratic equations are
+
+    g1=Ex-3beta*yz,        g2=2Ey-3beta*z^2-3x^2,
+    g3=Ez-3xy,            g4=Fx-yz,
+    g5=2Fy-beta^2*x^2-z^2, g6=Fz-beta^2*xy.                 (11)
+
+No extra exceptional parameter guard is hidden in (11). Here is an
+explicit certificate of necessity valid at every beta in (8). At the seed
+endpoint H(0,1), the Schur quadratic matrix in its two kernel coordinates
+is
+
+    Q_infinity=[[2g4,g5],[g5,2g6]].
+
+Around the seed H(1,t), take the eight-minor on rows and columns 2,...,9.
+At t=0 its determinant is the integer one for every beta. Normalize the
+two kernel columns to the first two coordinate vectors and differentiate
+the quadratic Schur coefficient with respect to the seed parameter t at
+zero. The resulting matrix is
+
+    Q_prime=[[-2chi*g1+2beta*(2beta^3-1)*g4,
+                         -chi*g2+beta*(2beta^3-1)*g5],
+             [-chi*g2+beta*(2beta^3-1)*g5,
+                         -2chi*g3+2beta*(2beta^3-1)*g6]].
+
+The verifier reconstructs both matrices from literal source entries and
+checks these identities over C[beta,A,B,C,D,x,y,z]. Since the whole seed
+line is contained in the proposed extension, both quadratic matrices
+vanish. The only division used to recover all six g_i is by the stated
+nonzero chi and nonzero integer constants.
+
+Two elementary polynomial identities now give the needed nilpotence:
+
+    3chi*x^3 = x*g2-2y*g1-3beta*x*g5+6beta*y*g4,
+    3chi*z^3 = 3z*g5-6y*g6-beta^2*z*g2+2beta^2*y*g3.         (12)
+
+Thus x=z=0 over C. If y were nonzero, (11) would give E=F=0. On that
+remaining branch, J has only odd moments. Its even/odd off-diagonal
+5-by-5 block has moments
+
+    (-2beta*y,A,-y,beta*C,0,C,beta*y,A,2y).
+
+Its exact determinant is
+
+    chi*y^3*(A^2-beta*C^2-2beta*y^2).                        (13)
+
+The full 10-by-10 determinant is the negative square of (13). Adding
+lambda H(0,1) replaces A by A+lambda. The coefficient of lambda^4 in
+that full determinant is `-chi^2*y^6`, so vanishing for every lambda
+forces y=0. This proves the asserted uniqueness, since S itself supplies
+the extension. At beta=0 this agrees with Section 4 after reversing the
+sign of its transverse coordinates.
+
+The conclusion is universal over the guarded complex parameter family,
+not a finite parameter sweep. At beta^3=1 the guard really fails: chi is
+zero and at `[u:v]=[1:beta^2]` all three minors in (1) vanish, giving
+source rank four. The constant-rank proof cannot silently specialize
+there. No extension classification is claimed for those lines.
+
+## 6. Scope and evidence
 
 The determinant identity is a universal polynomial identity, not an
 empirical grid claim. Exact point controls and independent tangent-kernel
 reconstruction provide additional checks. All algebra is local elementary
 work; the prior prescribed-pencil construction retains its explicit credit.
 
-For chi!=0 and Delta=0, only the displayed exceptional line's maximal
-extension is decided here. Other exceptional lines, other quadratic
+For chi!=0 and Delta=0, the complete paired family (8) is decided here.
+Other exceptional lines, other quadratic
 pencils outside S, arbitrary Segre images and singular source degenerations
 remain open. A ruling containing any of the lines covered by the extension
 theorems has dimension at most four. No ordinary target frontier or matrix

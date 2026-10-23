@@ -108,6 +108,37 @@ class HankelFourspacePencilTests(unittest.TestCase):
         self.assertEqual(ideal.reduce(x**3)[1],0)
         self.assertEqual(ideal.reduce(z**3)[1],0)
 
+    def test_paired_family_tangents_and_guard_from_literal_matrices(self):
+        family=self.report['paired_exceptional_family']
+        self.assertEqual(family['additional_parameter_guards'],[])
+        self.assertEqual(family['seed_eight_minor_at_zero'],1)
+        for beta in [-1,0,2,sp.Rational(1,2)]:
+            operator=reconstructed_tangent([(0,1),(beta,0),(1,0),(0,1)])
+            self.assertEqual(19-rank(operator),7)
+            for vector in operator.nullspace():
+                for shift in range(3):
+                    value=vector[shift+4]
+                    self.assertEqual(vector[shift],2*beta*value)
+                    self.assertEqual(vector[shift+8],0)
+                    self.assertEqual(vector[shift+12],-beta*value)
+                    self.assertEqual(vector[shift+16],-2*value)
+        M,_,_=verify.matrices([(0,1),(1,0),(1,0),(0,1)])
+        self.assertEqual(M.det(),0)
+        self.assertEqual(rank(literal_matrix([1,1,1,1])),4)
+
+    def test_paired_family_determinant_from_complete_source(self):
+        parameters=[(-1,1,2,3),(0,1,2,3),(2,1,2,1),
+                    (sp.Rational(1,2),3,-1,2),(sp.I,2,1,1),
+                    (2,0,1,1),(2,1,0,0)]
+        for beta,A,C,y in parameters:
+            with self.subTest(beta=beta,A=A,C=C,y=y):
+                h=[0]*19
+                for i,value in {1:-2*beta*y,3:A,5:-y,7:beta*C,
+                                11:C,13:beta*y,15:A,17:2*y}.items():h[i]=value
+                H=sp.Matrix(10,10,lambda i,j:h[i+j])
+                expected=-(beta**3-1)**2*y**6*(A*A-beta*C*C-2*beta*y*y)**2
+                self.assertEqual(sp.expand(H.det()-expected),0)
+
     def test_local_source_and_package_pins(self):
         sources=json.loads((PACKAGE/'sources.json').read_text())
         for path,digest in sources['local_source_sha256'].items():

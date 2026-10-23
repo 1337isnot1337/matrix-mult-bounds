@@ -268,6 +268,47 @@
     "transverse_direction_rank": 8,
     "direction_plus_seed_endpoint_determinant": -1
   },
+  "paired_exceptional_family": {
+    "line": "A=v,B=beta*u,C=u,D=v",
+    "guard": "chi=beta^3-1 != 0",
+    "common_tangent_dimension": 7,
+    "maximal_linear_extension_dimension": 4,
+    "normal_moment_vector": [
+      "-2*beta",
+      "-1",
+      "0",
+      "beta",
+      "2"
+    ],
+    "seed_eight_minor_at_zero": 1,
+    "quadratic_generators": [
+      "-3*beta*y*z + x*(A - D)",
+      "-3*beta*z**2 - 3*x**2 + y*(2*A - 2*D)",
+      "-3*x*y + z*(A - D)",
+      "x*(B - C*beta) - y*z",
+      "-beta**2*x**2 + y*(2*B - 2*C*beta) - z**2",
+      "-beta**2*x*y + z*(B - C*beta)"
+    ],
+    "endpoint_quadratic": [
+      "2*B*x - 2*C*beta*x - 2*y*z",
+      "2*B*y - 2*C*beta*y - beta**2*x**2 - z**2",
+      "2*B*y - 2*C*beta*y - beta**2*x**2 - z**2",
+      "2*B*z - 2*C*beta*z - 2*beta**2*x*y"
+    ],
+    "seed_derivative_quadratic": [
+      "-2*A*beta**3*x + 2*A*x + 4*B*beta**4*x - 2*B*beta*x - 4*C*beta**5*x + 2*C*beta**2*x + 2*D*beta**3*x - 2*D*x + 2*beta**4*y*z - 4*beta*y*z",
+      "-2*A*beta**3*y + 2*A*y + 4*B*beta**4*y - 2*B*beta*y - 4*C*beta**5*y + 2*C*beta**2*y + 2*D*beta**3*y - 2*D*y - 2*beta**6*x**2 + beta**4*z**2 + 4*beta**3*x**2 - 2*beta*z**2 - 3*x**2",
+      "-2*A*beta**3*y + 2*A*y + 4*B*beta**4*y - 2*B*beta*y - 4*C*beta**5*y + 2*C*beta**2*y + 2*D*beta**3*y - 2*D*y - 2*beta**6*x**2 + beta**4*z**2 + 4*beta**3*x**2 - 2*beta*z**2 - 3*x**2",
+      "-2*A*beta**3*z + 2*A*z + 4*B*beta**4*z - 2*B*beta*z - 4*C*beta**5*z + 2*C*beta**2*z + 2*D*beta**3*z - 2*D*z - 4*beta**6*x*y + 8*beta**3*x*y - 6*x*y"
+    ],
+    "nilpotent_consequences": [
+      "3*chi*x^3",
+      "3*chi*z^3"
+    ],
+    "half_block_determinant": "y**3*(beta**3 - 1)*(A**2 - C**2*beta - 2*beta*y**2)",
+    "shifted_full_determinant_lambda_four_coefficient": "-chi^2*y^6",
+    "additional_parameter_guards": []
+  },
   "other_exceptional_extensions_classified": false,
   "arbitrary_quadratic_hankel_pencils_classified": false,
   "independent_review": false,

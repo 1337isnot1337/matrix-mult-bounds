@@ -8,7 +8,8 @@ under an explicit nonzero determinant guard chi. The exact polynomial
 identity `det N=-4*Delta*chi^3` gives common tangent dimension four when
 Delta is nonzero and seven when Delta vanishes. In the first case the
 four-space is the unique maximal linear rank-eight Hankel extension.
-For the exceptional seed `A=v,B=0,C=u,D=v`, quadratic Schur coefficients
+For the full exceptional family `A=v,B=beta*u,C=u,D=v`, with beta cubed
+different from one, a constant-unit pivot, quadratic Schur coefficients
 and a higher determinant also force the unique maximal extension to have
 dimension four. Other exceptional lines, quadratic pencils outside this
 four-space and the general Segre-image problem remain open. These are

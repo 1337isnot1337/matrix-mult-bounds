@@ -313,7 +313,8 @@ The [four-space line criterion](../research/ai/2026-10-23-hankel-fourspace-penci
 gives `det N=-4*Delta*chi^3` for arbitrary lines in moments 3,7,11,15.
 Under chi nonzero, Delta nonzero closes every linear extension beyond
 that four-space. Delta zero gives a seven-dimensional common tangent
-space; the displayed exceptional seed is nevertheless closed by quadratic
-and higher rank equations. Continue with other chi-nonzero/Delta-zero
+space; the full displayed paired exceptional family, beta cubed different
+from one, is nevertheless closed by quadratic and higher rank equations.
+Continue with other chi-nonzero/Delta-zero
 lines or quadratic pencils outside this four-space. Do not infer that
 seven common tangent directions supply seven linear extension directions.

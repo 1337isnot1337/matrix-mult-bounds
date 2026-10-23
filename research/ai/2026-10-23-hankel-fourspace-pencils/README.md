@@ -6,9 +6,11 @@ An exact coefficient identity `det N=-4*Delta*chi^3` separates common
 tangent dimension four from dimension seven. For the former, the
 four-space is the unique maximal linear Hankel extension.
 
-For one exceptional seed, `A=v,B=0,C=u,D=v`, quadratic Schur equations
-and a higher determinant still prove that its unique maximal extension
-has dimension four. An explicit rank-eight tangent direction becomes
+For the entire exceptional family `A=v,B=beta*u,C=u,D=v`, with
+`beta^3!=1`, quadratic Schur equations and a higher determinant still
+prove that the unique maximal extension has dimension four. The argument
+uses a constant-unit pivot and explicit identities with only that guard.
+At beta zero, an explicit rank-eight tangent direction becomes
 rank ten after adding a seed endpoint. First-order dimension alone
 therefore cannot solve the exceptional extension problem.
 

@@ -5,7 +5,8 @@ Codex work. It credits the prescribed saturated pencil and maximal
 extension of PR120 with an immutable source snapshot, and the prior
 scalar Hankel annihilator description with its original sources and
 current-tree byte pin. The universal line determinant, guarded tangent
-jump, generic extension theorem and exceptional higher-minor closure are
+jump, generic extension theorem and guarded one-parameter exceptional
+higher-minor closure are
 local continuations. Only elementary polynomial coefficients, recurrence
 charts, determinantal derivatives and block permutations are used. No new
 external structural theorem, historical priority, independent mathematical

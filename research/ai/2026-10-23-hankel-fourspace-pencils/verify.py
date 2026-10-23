@@ -102,6 +102,67 @@ def exceptional_certificate():
             'transverse_direction_rank':8,'direction_plus_seed_endpoint_determinant':-1}
 
 
+def paired_family_certificate():
+    beta=sp.symbols('beta')
+    A,B,C,D,x,y,z=sp.symbols('A B C D x y z')
+    chi=beta**3-1; E=A-D; F=B-beta*C
+    M,N,delta=matrices([(0,1),(beta,0),(1,0),(0,1)])
+    normal=sp.Matrix([-2*beta,-1,0,beta,2])
+    if sp.expand(M.det())!=chi or delta or (N.T*normal).applyfunc(sp.expand)!=sp.zeros(5,1):
+        raise ArithmeticError('paired family tangent certificate failed')
+    w=[0]*19
+    for i,value in {3:A,7:B,11:C,15:D}.items():w[i]=value
+    for shift,e in enumerate([x,y,z]):
+        for k,value in enumerate(normal):w[shift+4*k]=value*e
+    J=hankel(w)
+    h0=[0]*19;h0[7]=beta;h0[11]=1
+    h1=[0]*19;h1[3]=h1[15]=1
+    H0=hankel(h0);H1=hankel(h1)
+    K0=H0[2:,2:];K1=H1[2:,2:]
+    if sp.expand(K0.det())!=1:
+        raise ArithmeticError('paired family unit pivot failed')
+    inverse=K0.inv()
+    R0=sp.eye(10)[:,:2];R0[2:,:]=-inverse*H0[2:,:2]
+    R1=sp.zeros(10,2);R1[2:,:]=-inverse*H1[2:,:]*R0
+    U=J[:,2:];V=J[2:,:]
+    derivative=(-R1.T*U*inverse*V*R0
+                +R0.T*U*inverse*K1*inverse*V*R0
+                -R0.T*U*inverse*V*R1).applyfunc(sp.expand)
+    g1=E*x-3*beta*y*z;g2=2*E*y-3*beta*z*z-3*x*x
+    g3=E*z-3*x*y;g4=F*x-y*z
+    g5=2*F*y-beta**2*x*x-z*z;g6=F*z-beta**2*x*y
+    coefficient=beta*(2*beta**3-1)
+    expected=sp.Matrix([[-2*chi*g1+2*coefficient*g4,-chi*g2+coefficient*g5],
+                        [-chi*g2+coefficient*g5,-2*chi*g3+2*coefficient*g6]])
+    if (derivative-expected).applyfunc(sp.expand)!=sp.zeros(2,2):
+        raise ArithmeticError('paired family seed derivative failed')
+    kept=[0,1,2,3,6,7,8,9]
+    Rinf=sp.eye(10)[:,[4,5]]
+    endpoint=(-Rinf.T*J[:,kept]*H1.extract(kept,kept).inv()*J[kept,:]*Rinf).applyfunc(sp.expand)
+    if (endpoint-sp.Matrix([[2*g4,g5],[g5,2*g6]])).applyfunc(sp.expand)!=sp.zeros(2,2):
+        raise ArithmeticError('paired family endpoint quadratic failed')
+    first=x*g2-2*y*g1-3*beta*x*g5+6*beta*y*g4
+    second=3*z*g5-6*y*g6-beta**2*z*g2+2*beta**2*y*g3
+    if sp.expand(first-3*chi*x**3) or sp.expand(second-3*chi*z**3):
+        raise ArithmeticError('paired family guarded nilpotence failed')
+    f=[-2*beta*y,A,-y,beta*C,0,C,beta*y,A,2*y]
+    T=sp.Matrix(5,5,lambda i,j:f[i+j])
+    determinant=chi*y**3*(A*A-beta*C*C-2*beta*y*y)
+    if sp.expand(T.det(method='domain-ge')-determinant):
+        raise ArithmeticError('paired family higher determinant failed')
+    return {'line':'A=v,B=beta*u,C=u,D=v','guard':'chi=beta^3-1 != 0',
+            'common_tangent_dimension':7,'maximal_linear_extension_dimension':4,
+            'normal_moment_vector':[str(v) for v in normal],
+            'seed_eight_minor_at_zero':1,
+            'quadratic_generators':[str(g) for g in [g1,g2,g3,g4,g5,g6]],
+            'endpoint_quadratic':[str(sp.expand(v)) for v in endpoint],
+            'seed_derivative_quadratic':[str(v) for v in derivative],
+            'nilpotent_consequences':['3*chi*x^3','3*chi*z^3'],
+            'half_block_determinant':str(determinant),
+            'shifted_full_determinant_lambda_four_coefficient':'-chi^2*y^6',
+            'additional_parameter_guards':[]}
+
+
 def report():
     lines=[[(0,0),(1,0),(0,1),(0,0)],
            [(0,1),(0,0),(1,0),(0,1)],
@@ -113,6 +174,7 @@ def report():
             'chart_identity':chart_identity(),
             'lines':[line_certificate(line) for line in lines],
             'exceptional_seed':exceptional_certificate(),
+            'paired_exceptional_family':paired_family_certificate(),
             'other_exceptional_extensions_classified':False,
             'arbitrary_quadratic_hankel_pencils_classified':False,
             'independent_review':False,'improves_omega':False}
