@@ -1,5 +1,23 @@
 # Research status
 
+## Complete affine conic tangents and second jets
+
+The [conic second-jet proof](research/ai/2026-10-21-conic-second-jets/proof.md)
+computes the complete seventy-dimensional tangent module of the rank-twelve
+incidence of two fourteen-row maps of the canonical source. Its boundary
+family has dimension68 and uses three independent polynomial planes.
+For every affine a,b,c and every nonzero normal class[lambda:mu], some
+representative extends through order two exactly when
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`. All68 boundary motions are included;
+pure fibers are checked separately from the mixed Laurent chart.
+An exported polynomial two-jet on c=-d^3 passes direct all-source replay,
+including d=0, while its uncorrected third coefficient has184 nonzero
+entries. The other two factors admit exact linear incidence curves.
+Claims `AI-CONIC-TANGENT-001`, `AI-CONIC-SECOND-JET-002` and
+`AI-CONIC-POLYNOMIAL-JET-003` are written and unreviewed. Later lifting,
+other projective base charts, the separate12-by8 problem and the full
+matrix target remain open. The exponent remains9/4.
+
 ## A singular-unit resolvent chart
 
 The [resolvent proof](research/ai/2026-10-21-singular-unit-resolvent/proof.md)
@@ -16,19 +34,6 @@ action. Claim `AI-CYCLIC-SINGULAR-RESOLVENT-001` is written and unreviewed.
 This singular unit lift is outside the earlier regular-invertible-unit
 chart. Rank-drop compression pairs, moving compressions and other unit
 trajectories remain open. No general A4 exclusion or exponent gain follows.
-
-## A singular-unit resolvent compression chart
-
-The [singular-unit proof](research/ai/2026-10-21-singular-unit-resolvent/proof.md)
-excludes the fixed A4 ansatz B(t)=P(tI+N)^(-1), constant C, PC=I110,
-with arbitrary finite Laurent first maps whenever its candidate limiting
-space has dimension112. An exact integer minor proves that condition on
-a nonempty open dense set of constant compression pairs. Source grading
-forces an invariant subspace whose dimension is not divisible by10,
-excluding every row/column equivalent Mat10 tensor I11 target space.
-The rank-drop locus, moving compressions and other singular unit lifts
-remain open. Claim `AI-CYCLIC-SINGULAR-RESOLVENT-001` is written and
-unreviewed; no exponent improvement is established.
 
 ## Finite cube bounds split-cover coordinate target volume
 

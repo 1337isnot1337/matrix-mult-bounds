@@ -293,10 +293,3 @@ now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
-
-The [fixed singular-unit resolvent chart](../research/ai/2026-10-21-singular-unit-resolvent/proof.md)
-is now excluded on a nonempty open dense set of constant compression pairs,
-including every finite Laurent first-map order. The remaining question
-within this ansatz is its candidate-rank-drop locus. Moving compressions,
-higher resolvent corrections and other singular unit trajectories remain
-separate construction questions.

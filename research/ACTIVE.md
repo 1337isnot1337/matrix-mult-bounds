@@ -1,14 +1,15 @@
 # Integrated research coordination
 
-The singular-unit continuation studies
-`ai/2026-10-21-singular-unit-resolvent/ACTIVE.md`. Its written obstruction
-allows arbitrary first-map Laurent poles for the fixed square-zero
-resolvent and constant compression pairs whose candidate limiting-space
-rank is 112. An exact rank minor proves a nonempty open dense chart.
-The remaining scoped question is the rank-drop locus; moving compression
-pairs and other singular-unit trajectories are separate open questions.
-This does not repeat or extend the canonical partner/leading-flag charts.
-No exponent improvement or independent mathematical review is claimed.
+The affine-conic continuation studies
+`ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module
+has dimension70:68 independent boundary fields and two conic normals.
+The full second-order criterion for a nonzero normal class is
+`(a-c)*(b+c)*(c*lambda^3+mu^3)=0`, allowing a suitable boundary velocity
+and moving source kernel. A polynomial two-jet on c=-d^3 is exported;
+its uncorrected third coefficient is nonzero. Next: actual higher-order
+lifting on that cubic component, with the14-row local incidence kept
+distinct from the full matrix target. Other base charts and the12-by8
+case remain open. Written, unreviewed, no smaller exponent.
 
 The singular-unit continuation studies
 `ai/2026-10-21-singular-unit-resolvent/QUESTION.md`, resumed at main d833eb0.
