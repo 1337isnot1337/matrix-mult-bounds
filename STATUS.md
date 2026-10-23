@@ -1081,7 +1081,7 @@ unproved. Active worker branches continue to carry new experiments.
 
 [Claim ledger](research/claims.json) | [Full original note](research/ai/2026-10-20/research_note.md) | [Replay report](results/bootstrap-2026-10-20/summary.json)
 
-The general proofs, rather than their finite checks, support the all-integer statements. No independent review or Lean formalization of these local arguments is recorded.
+The all-integer statements rely on written proofs, not finite checks. The pointwise-minimality argument has no independent mathematical review or full Lean formalization; only its auxiliary finite slope estimate is checked in [the scalar-profile Lean project](formal/scalar-profile/README.md).
 
 The matching-profile result rules out improving the exponent from only its listed scalar assumptions. It neither proves $\omega\ge9/4$ nor excludes the full tensor spectrum.
 

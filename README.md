@@ -4,7 +4,7 @@
 
 A research workspace for the arithmetic exponent of matrix multiplication. The goal is a rigorously supported improvement below $\omega\le9/4$.
 
-**This repository does not establish a smaller exponent.** Its initial contribution is an AI-derived analysis of a scalar relaxation, with exact finite experiments. The written proofs have no independent review or local Lean formalization.
+**This repository does not establish a smaller exponent.** Its initial contribution is an AI-derived analysis of a scalar relaxation, with exact finite experiments. The pointwise-minimality proof has no independent mathematical review or full Lean formalization; its auxiliary finite slope estimate is checked in [the scalar-profile Lean project](formal/scalar-profile/README.md).
 
 ## Start here
 
