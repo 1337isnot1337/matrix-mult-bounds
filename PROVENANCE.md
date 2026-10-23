@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-conic-fixed-third-obstruction` package is owner-directed
+OpenAI Codex work. PR107 retains credit for the complete prescribed mixed
+third jet and its literal source, pinned at86b5142. The new addition is
+a 28-entry dual functional with a complete fourth-variable annihilation
+identity and a factored nonzero residual, together with exact linear
+sufficiency on both exceptional components. A separate standard-library
+acceptance rebuilds all 4096 source terms and checks every fourth map and
+kernel variable without a solver or constructor import. Internal algebra
+review and replay are not independent external mathematical review or
+formalization. The earlier two-jet extension keeps its distinct scope;
+no full matrix target, historical priority or exponent gain is claimed.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

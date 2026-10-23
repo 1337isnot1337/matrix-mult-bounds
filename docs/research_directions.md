@@ -2,13 +2,22 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [prescribed third-jet criterion](../research/ai/2026-10-23-conic-fixed-third-obstruction/proof.md)
+now gives order-four and all-order extension exactly on Delta=0, on the
+d-nonzero mixed chart. The [full two-jet curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
+uses a different third coefficient and still extends at every point of
+that chart. Investigate the remaining projective base charts with their
+actual rank and normal-coordinate transitions, or describe which other
+third coefficients extend. Mere homogenization of an affine criterion
+does not establish its boundary rank hypotheses.
+
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
 now extends PR107's entire prescribed two-jet on d nonzero, with exact
 polynomial maps of degrees eight and nine and no other parameter guards.
 Its kernel stays fixed, whereas PR107's prescribed third kernel
-coefficient is nonzero. Determine whether that full third jet extends
-with a moving kernel, or cover the remaining projective base charts of
-the all-order normal-class criterion. An extension of one specified
+coefficient is nonzero. The new fixed-third criterion above now settles its extension locus.
+The remaining projective base charts of the all-order normal-class
+criterion are still open. An extension of one specified
 two-jet does not classify all boundary velocities or construct the full
 matrix target.
 
