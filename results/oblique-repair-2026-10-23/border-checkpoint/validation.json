@@ -1,0 +1,180 @@
+{
+  "tested_commit": "b6c38513b33c4de2b1ddee4b22525adb74dbc291",
+  "tested_tree": "a3752690cd4f07137e9df0478eb4ae21c73ded80",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONOPTIMIZE": "unset"
+  },
+  "tests": 884,
+  "modules": 206,
+  "passed": 884,
+  "skipped": 0,
+  "jobs": [
+    {
+      "group": 0,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 243,
+      "passed": 243,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 407.697,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/border-checkpoint/group-0.log.gz"
+    },
+    {
+      "group": 1,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 220,
+      "passed": 220,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 432.252,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/border-checkpoint/group-1.log.gz"
+    },
+    {
+      "group": 2,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 234,
+      "passed": 234,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 254.267,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/border-checkpoint/group-2.log.gz"
+    },
+    {
+      "group": 3,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 187,
+      "passed": 187,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 282.435,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/border-checkpoint/group-3.log.gz"
+    }
+  ],
+  "all_completed_groups_passed": true,
+  "archive_replays": 5,
+  "archive_replay_summary": "results/oblique-repair-2026-10-23/border-checkpoint/archive-replay.json",
+  "archive_diff_from_base": [],
+  "coverage": "results/oblique-repair-2026-10-23/border-checkpoint/coverage.json.gz",
+  "logs": [
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-0.log.gz",
+      "sha256": "2f65b27d4e693a0dbe2797adeed3f76250546cbda26da5077ef02b78085cb542",
+      "uncompressed_sha256": "be5a66801ceec1a81cbc1b4e28f2640c2b45365e11a7221c8d0110b4269afb33"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-1.log.gz",
+      "sha256": "b20dbb5204006966a6257ad1ea21f86963eb163c8f7b802d286114167bc72b91",
+      "uncompressed_sha256": "b17c8500d2923f8d2197ee0b0b2037f0413b93706d5329d17c0ddeec11afe595"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-2.log.gz",
+      "sha256": "59f620f2ff60bb1edc3f0eaf34ae9c68bd4ddab3c377879f80edab8e596d7e76",
+      "uncompressed_sha256": "b3153928213d8e7f171d09be99234ddb03b75c62c3fdb01ffce3616a4ea8cbc5"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-3.log.gz",
+      "sha256": "bf5618da5a890be5e110560871517b1e7723f065041784bcef1379523f26b224",
+      "uncompressed_sha256": "0216b49eddced830b31e9756f5403e94cf2261453a8d1dc2ecf2512c2b75a8ac"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba",
+      "uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/coverage.json.gz",
+      "sha256": "9050126cbad843d3348f4f03bc0021a128369e25e7299ff2deeaea98c0380a0e",
+      "uncompressed_sha256": "d7bd95a4401eaaddd07617d44615c20bfd5eff535d17001c78b32e7cf6f1ef6d"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-0-incomplete.log.gz",
+      "sha256": "946846295e490d4af1848b516d67cb5658615e186a4ed153309d4593c6e672f8",
+      "uncompressed_sha256": "785961fe0b1aa8a7c58c437c0f5ae1d38cd006743f3bd151efc394cd3d784572"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-0-incomplete-diagnostics.log.gz",
+      "sha256": "a8e112bfe59bc185142882b055be0660defb5dbef00f369823e91ccde281a631",
+      "uncompressed_sha256": "f31cb32cb8d590e1a67158b20e3e6fdd13faff22f0965cf8db1120c00cb6b5eb"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-0-incomplete-status.json.gz",
+      "sha256": "e3f2ad51973286601b5aa5e00a8b1920ddc7ca5375748723989cd281b8ecf18e",
+      "uncompressed_sha256": "2e82478313faac5631d8e122bc59af63fa028c63abf9d0e4258d06b230e6d42a"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-1-incomplete.log.gz",
+      "sha256": "3bcdc4c0167dc039efe8a43e01c40b6281d8484cfebdc0292ab14dd797bc49f3",
+      "uncompressed_sha256": "a5a82ea4035ddc55a51b595bed3702ecc13cd44187a30b3aca7d6526e81d9a9f"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-1-incomplete-diagnostics.log.gz",
+      "sha256": "5e8f42dfb26727a24ef5af84f76ff9a3934e618d4117bd777d4d5b1cc2af1bbc",
+      "uncompressed_sha256": "5dcc5584f197bbf2678fe38a32af4759ae88f5571c8a3a8c83f0bb211665c737"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/border-checkpoint/group-1-incomplete-status.json.gz",
+      "sha256": "389105d8a434ad164b0d802547f198227f4f198248b882e52b68595177da63ef",
+      "uncompressed_sha256": "3761c515830fd5f7f08ac4a8c966fa31a63655d3862c3eca93437a9758e645b9"
+    }
+  ],
+  "incomplete_attempts": [
+    {
+      "group": 0,
+      "observed_exit_code": 139,
+      "complete_unittest_result": false,
+      "included_in_successful_coverage": false,
+      "reason": "An initial diagnostic run with periodic asynchronous stack dumping terminated without a unittest result. Cause is not established. A fresh complete run without periodic dumping passed the entire group.",
+      "retained_files": [
+        "results/oblique-repair-2026-10-23/border-checkpoint/group-0-incomplete.log.gz",
+        "results/oblique-repair-2026-10-23/border-checkpoint/group-0-incomplete-diagnostics.log.gz",
+        "results/oblique-repair-2026-10-23/border-checkpoint/group-0-incomplete-status.json.gz"
+      ]
+    },
+    {
+      "group": 1,
+      "observed_exit_code": 139,
+      "complete_unittest_result": false,
+      "included_in_successful_coverage": false,
+      "reason": "An initial diagnostic run with periodic asynchronous stack dumping terminated without a unittest result. Cause is not established. A fresh complete run without periodic dumping passed the entire group.",
+      "retained_files": [
+        "results/oblique-repair-2026-10-23/border-checkpoint/group-1-incomplete.log.gz",
+        "results/oblique-repair-2026-10-23/border-checkpoint/group-1-incomplete-diagnostics.log.gz",
+        "results/oblique-repair-2026-10-23/border-checkpoint/group-1-incomplete-status.json.gz"
+      ]
+    }
+  ],
+  "scope": "Full exact local regression at the recorded frozen commit, with complete result footers for every disjoint group and no skipped tests. The archive replay matches all five saved reports. This does not establish independent mathematical review or an exponent improvement. Current-head hosted CI remains required."
+}

@@ -1,0 +1,540 @@
+{
+  "A_basis": [
+    "u",
+    "v",
+    "w"
+  ],
+  "B_basis": [
+    "X",
+    "Z",
+    "a",
+    "eta",
+    "y"
+  ],
+  "C_basis": [
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T"
+  ],
+  "terms": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      4
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      2,
+      4,
+      3
+    ],
+    [
+      2,
+      0,
+      2
+    ]
+  ],
+  "koszul_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "rank_over_Q": 11,
+  "minor_rows": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13
+  ],
+  "minor_columns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "minor_row_labels": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "minor_column_labels": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "minor_determinant": 1,
+  "minor_size": 11,
+  "rank_one_koszul_rank": 2,
+  "border_rank_lower_bound": 6,
+  "integer_laplace_peeling": [
+    {
+      "original_row": 0,
+      "original_column": 5,
+      "singleton": "row",
+      "entry": 1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 1,
+      "original_column": 6,
+      "singleton": "row",
+      "entry": 1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 2,
+      "original_column": 2,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 3,
+      "original_column": 3,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 5,
+      "original_column": 10,
+      "singleton": "row",
+      "entry": 1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 7,
+      "original_column": 0,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": 1
+    },
+    {
+      "original_row": 6,
+      "original_column": 11,
+      "singleton": "row",
+      "entry": 1,
+      "cofactor_factor": 1
+    },
+    {
+      "original_row": 8,
+      "original_column": 4,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": 1
+    },
+    {
+      "original_row": 9,
+      "original_column": 1,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 12,
+      "original_column": 8,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": -1
+    },
+    {
+      "original_row": 13,
+      "original_column": 9,
+      "singleton": "row",
+      "entry": -1,
+      "cofactor_factor": -1
+    }
+  ],
+  "remaining_minor_after_peeling": [],
+  "peeling_determinant": 1
+}

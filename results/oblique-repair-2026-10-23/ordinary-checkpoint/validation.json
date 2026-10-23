@@ -1,0 +1,124 @@
+{
+  "tested_commit": "53fed21130a5c46a9c2336a8d196ea0547c2cbfb",
+  "tested_tree": "25196a2aacce52a1430dfdd58d56ea7970494a32",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "tests": 871,
+  "modules": 204,
+  "passed": 871,
+  "skipped": 0,
+  "jobs": [
+    {
+      "group": 0,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "0",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 252,
+      "passed": 252,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 465.149,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-0.log.gz"
+    },
+    {
+      "group": 1,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "1",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 199,
+      "passed": 199,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 404.899,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-1.log.gz"
+    },
+    {
+      "group": 2,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "2",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 218,
+      "passed": 218,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 263.808,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-2.log.gz"
+    },
+    {
+      "group": 3,
+      "reproduction_command": [
+        "python",
+        "tools/test_shard.py",
+        "--shard-index",
+        "3",
+        "--shard-count",
+        "4"
+      ],
+      "tests": 202,
+      "passed": 202,
+      "skipped": 0,
+      "unittest_elapsed_seconds": 406.94,
+      "result": "OK",
+      "log": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-3.log.gz"
+    }
+  ],
+  "all_completed_groups_passed": true,
+  "archive_replays": 5,
+  "archive_replay_summary": "results/oblique-repair-2026-10-23/ordinary-checkpoint/archive-replay.json",
+  "archive_diff_from_base": [],
+  "coverage": "results/oblique-repair-2026-10-23/ordinary-checkpoint/coverage.json.gz",
+  "logs": [
+    {
+      "path": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-0.log.gz",
+      "sha256": "0f27190602027ca5f2840e7f5036aca998325c4d82c929be672d7f9b8f75a955",
+      "uncompressed_sha256": "333d437806caff5f3e2355379dae6c779c7f1c1aafb01ade0b8a698667be65ef"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-1.log.gz",
+      "sha256": "bedda1439251c9af999ead4522b0c5680be8e1e0795c66bf262ee2bcb16b1426",
+      "uncompressed_sha256": "5bb5a235914a465252601e1458690c5d8aa982479e03cc2e4d22bd223ff7718a"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-2.log.gz",
+      "sha256": "221eb1ac5ef0ed30de8e4bbf348a5731c9fdfcf73691941b085de4db749ed909",
+      "uncompressed_sha256": "ab78af407675a9140e971f9d707ed5dcf5d58f5fc47a5c684ad4375cd1d6bb0f"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/ordinary-checkpoint/group-3.log.gz",
+      "sha256": "e4a9e99e6dd918c58268397aa13d2e11c0a4695a754e411ca9682dcd14a0135e",
+      "uncompressed_sha256": "26e1994a68ccf0f910832342d2ca8e1e207858eff74be923865e7e2266e4c86f"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/ordinary-checkpoint/archive-replay.log.gz",
+      "sha256": "f64e6221478639f6fe64dd9071ea48c6d4bd4dff2230a2176d61d638fcda30ba",
+      "uncompressed_sha256": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/ordinary-checkpoint/coverage.json.gz",
+      "sha256": "58632ce9e0b2e097f016166654fd93f3bf3395b47ba0c8bef956f3e8f233bd9f",
+      "uncompressed_sha256": "6ee6dad814955426c00369b367a5f78b614ea2ecabf31780e84743a866a9c877"
+    }
+  ],
+  "incomplete_attempts": [],
+  "scope": "Full exact local regression at the recorded frozen commit, with complete result footers for every disjoint group and no skipped tests. The archive replay matches all five saved reports. This does not establish independent mathematical review or an exponent improvement. Current-head hosted CI remains required."
+}

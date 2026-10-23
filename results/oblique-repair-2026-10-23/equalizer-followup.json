@@ -1,0 +1,99 @@
+{
+  "tested_commit": "2c1e026b5f1a0d86b3515f558b26cf39b667d65f",
+  "tested_tree": "862b548abedf6f5b7e031c6ee7f1b9db3b4a9d31",
+  "predecessor_commit": "49904d734a0309b3ec466a9316a57a6cc2ae2e3d",
+  "full_regression_receipt": "results/oblique-repair-2026-10-23/border-checkpoint/validation.json",
+  "earlier_integration_receipt": "results/oblique-repair-2026-10-23/integration.json",
+  "incremental_tests_executed": 35,
+  "new_tests_executed": 7,
+  "existing_full_residual_tests": 7,
+  "repository_checks": 18,
+  "archive_integrity_checks": 3,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "complete_result_footer": true,
+  "elapsed_seconds": 0.27067567399990367,
+  "command": [
+    "python",
+    "-m",
+    "unittest",
+    "-v",
+    "tests.test_oblique_border_equalizer",
+    "tests.test_oblique_full_residual_rank",
+    "tests.test_research",
+    "tests.test_archive_integrity"
+  ],
+  "standalone_certificate_replay": {
+    "command": [
+      "python",
+      "-S",
+      "research/ai/2026-10-23-oblique-border-equalizer/verify.py"
+    ],
+    "passed": true,
+    "controls": 8,
+    "source_pins": 4,
+    "n6_border_rank_interval": [
+      12,
+      18
+    ]
+  },
+  "prior_python_files_preserved": 734,
+  "changed_prior_python_paths": [],
+  "added_python_paths": [
+    "research/ai/2026-10-23-oblique-border-equalizer/verify.py",
+    "tests/test_oblique_border_equalizer.py"
+  ],
+  "combined_inventory_tests": 910,
+  "combined_inventory_modules": 210,
+  "full_rerun_at_followup": false,
+  "new_test_ids": [
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_all_family_controls_and_scope",
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_changed_family_record_source_hash_and_native_map_are_rejected",
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_complete_saved_certificate_and_native_identity",
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_invalid_parameters_and_noninteger_coefficients",
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_known_minimal_rank_tensors_pass_the_equalizer_condition",
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_n6_unit_minor_and_two_kernel_generators",
+    "test_oblique_border_equalizer.ObliqueBorderEqualizerTests.test_removed_core_coupling_and_false_minor_are_rejected"
+  ],
+  "prior_test_ids_removed": [],
+  "archive_diff_from_predecessor": [],
+  "log": "results/oblique-repair-2026-10-23/equalizer-followup.log.gz",
+  "status": "results/oblique-repair-2026-10-23/equalizer-followup-status.json.gz",
+  "combined_discovery": "results/oblique-repair-2026-10-23/equalizer-followup-discovery.json.gz",
+  "logs": [
+    {
+      "path": "results/oblique-repair-2026-10-23/equalizer-followup.log.gz",
+      "sha256": "21361d7ac4548404efc23ff7ab006fe2dfd67046ae401607cf889791044632fb",
+      "uncompressed_sha256": "fecfc3fc26e5399dee10384a37c8a189941bfc1a6d19fc553a9dff46069f28f6"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/equalizer-followup-status.json.gz",
+      "sha256": "9097010c34621fce3cee29e521e3c86c6ba0c477f6bd8b48faba829c4d50b3ac",
+      "uncompressed_sha256": "dd96d017e9a2af54e5bca0224c2aa7e4569f5c41adcb8f463ac41e5053c8c9d1"
+    },
+    {
+      "path": "results/oblique-repair-2026-10-23/equalizer-followup-discovery.json.gz",
+      "sha256": "723dcff8c29688b5c385de55330d5cac91c7db6bde0a3a874a425e7dc7ac0436",
+      "uncompressed_sha256": "7436627dd99cda0b68df2b1feb450028d578a8d138a01f3f1d718a5e3e763537"
+    }
+  ],
+  "scope": "The full884-test regression and all five archive replays remain attributed to b6c38513. The subsequent903-test inventory and63 incremental checks remain attributed to the prior integration tree. This equalizer follow-up adds only two Python files and seven tests; all734 prior Python files remain byte-identical. All35 focused and repository checks passed at the recorded head, including all seven new tests. The910-test inventory is discovery coverage, not a fresh full-suite execution. All proof review remains same-session and current-head hosted CI is still required.",
+  "post_receipt_metadata_check": {
+    "tests": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "result": "OK",
+    "unittest_elapsed_seconds": 0.086,
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "tests.test_research",
+      "-v"
+    ],
+    "scope": "Completed after validation README and STATUS/ACTIVE documentation edits; this record was written afterward. No Python files changed."
+  }
+}
