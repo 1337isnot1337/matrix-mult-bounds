@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The complete F8 subgroup continuation studies
+`ai/2026-10-23-sl2-f8-subgroup-catalog/QUESTION.md`. Its exact386-subgroup,
+12-class certificate closes the subgroup-averaging full-coset catalog for
+the sixteen saved SL(2,F8) coordinate targets. New order14 cuts occur on
+all48 target legs; order6 cuts also occur on ten. Further subgroup
+enumeration in this source cannot add a minimal cut for these formats.
+Next work needs stronger necessary conditions or actual constructions
+outside the surviving filters. PR84 retains packet-assembly ownership.
+Written and unreviewed; no general complex exclusion or smaller exponent.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

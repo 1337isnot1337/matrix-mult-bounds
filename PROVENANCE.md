@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-sl2-f8-subgroup-catalog` package is owner-directed Codex
+work. It adopts the maintained literal SL(2,F8) source, the exact central
+projection verifier and the imported subgroup-averaging lemma with their
+existing credit and byte pins. Lattice discovery and independent extension
+closure follow the credited central-cover catalog. The386-subgroup F8
+application, matching lower minors, complete target-cut census and new
+order6/order14 controls are local continuations. Character data are used
+only in discovery; acceptance replays integer projection identities and
+actual coset minors. No independent review, historical priority,
+formalization, complete target exclusion or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

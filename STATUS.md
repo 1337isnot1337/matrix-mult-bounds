@@ -1,5 +1,20 @@
 # Research status
 
+## Complete SL(2,F8) subgroup cuts
+
+The [complete F8 catalog](research/ai/2026-10-23-sl2-f8-subgroup-catalog/README.md)
+certifies every averaging-ideal dimension for all386 subgroups in12
+conjugacy classes. Order14 dihedral normalizers have dimension308 and
+add1296 minimal forbidden cosets on every leg of all sixteen saved
+coordinate/potential targets. Order6 subgroups have dimension455 and
+add7056 cosets on ten of those48 legs. For M(18,18,25), the complete
+minimal counts are3431,3431,2647. A control vertex set passes the prior
+8,9,18 filters and fails the new14 filter. Independent extension closure,
+integer projection identities, actual modular minors, and minimality/
+coverage checks support claim `AI-SL2-F8-SUBGROUP-CUTS-001`, written and
+unreviewed. These are necessary conditions; surviving constructions,
+general complex maps and the exponent question remain open.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

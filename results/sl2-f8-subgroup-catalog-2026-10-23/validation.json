@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-23",
+  "python": "3.12.3",
+  "focused_tests": {
+    "count": 4,
+    "passed": true,
+    "log": "focused-tests.log.gz",
+    "receipt": "verification.json",
+    "coverage": "Complete386-subgroup extension closure,12 exact ideals,16 target formats, minimality/coverage, new-filter control, dihedral14 structure, and rejection controls."
+  },
+  "metadata_tests": {
+    "command": "python -m unittest discover -s tests -p test_research.py -v",
+    "count": 18,
+    "passed": true,
+    "log": "metadata-tests.log.gz"
+  },
+  "archive_replay": {
+    "command": "python tools/replay.py",
+    "runs": 5,
+    "passed": true,
+    "log": "archive-replay.log.gz"
+  },
+  "focused_execution": "The test_sl2_f8_subgroup_catalog.py unittest module was loaded via importlib.util.spec_from_file_location and run with unittest.defaultTestLoader.loadTestsFromModule. Its successful class receipt was then written to verification.json.",
+  "current_head_full_regression": "Hosted CI pending; not claimed passed.",
+  "proof_status": "written-unreviewed",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

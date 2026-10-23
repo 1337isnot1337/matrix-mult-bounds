@@ -270,6 +270,13 @@ Koszul screens. Apply its all-power joint-rectangular inequality before
 searching further central-source targets. M19 and the one-central-factor
 M(13,14,14) remain outside that exclusion; their maps are still missing.
 
+The [complete SL(2,F8) subgroup catalog](../research/ai/2026-10-23-sl2-f8-subgroup-catalog/README.md)
+now supplies every inclusion-minimal averaging-ideal coset cut for the
+sixteen saved formats. Use its new order14 cuts on every target leg and
+order6 cuts where the other-pair product exceeds455. More subgroup
+enumeration in this source cannot add a minimal cut for these formats;
+change the necessary condition, construction frame, source or power.
+
 For SL(2,F8), the [modular source bound](../research/ai/2026-10-21-sl2-f8-modular/proof.md)
 now constrains every source power and joint rectangular coordinate target.
 It excludes repeated six-packet-plus-M7 assembly in that class, while all 16
