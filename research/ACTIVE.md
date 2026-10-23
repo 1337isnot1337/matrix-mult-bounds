@@ -741,3 +741,24 @@ Concurrent overlaps are credited in package notes and sources.json. In
 particular, canonical exact-restriction and equivariant-flattening arguments
 independently overlapped d2d505c and 6bdab15. The quantitative capacity bound
 is complementary to 8e0a766, retaining distinct hypotheses.
+
+## S5 finite-cover continuation
+
+The separate higher-power investigation is on
+`research/persistent-frontier-01a1697a` (PR183), with its proof in
+`ai/2026-10-23-s5-higher-powers/proof.md`. It supplies a written,
+unreviewed method boundary: all coordinate covers of the full degree
+majorant cost too much for PR111's eleven remaining targets whenever
+n>=36. The actual source's slice rank is not bounded below. Finer support,
+other bases and powers below 36 remain open. It does not duplicate
+PR140's monotone cube census; PR111 is an integration prerequisite.
+
+The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
+(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
+Separate weights give actual-source cube bounds 6867542 and 42493572 for
+S5 x C2 and S5 x C2^2, closing the selected one-copy M19 coordinate target
+and 38 additional frontier shapes. M(13,14,14) remains open. Five focused
+tests, all five archive replays and every hosted regression group at e16c7e3
+pass. The local full-suite run was interrupted without a completion receipt;
+final integrated-head hosted CI remains the merge gate. All claims are written and unreviewed,
+with no arbitrary-complex or higher-source-power exclusion or exponent gain.
