@@ -126,6 +126,49 @@ class QuadraticDeterminantTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'must be nonzero'):
             verify.rational_three_space_control((0, 0, 0))
 
+    def test_curvature_certificates_cover_gradient_and_ternary_hessian(self):
+        certificates = self.saved['curvature_certificates']
+        self.assertEqual(self.saved['curvature_certificate_count'], 5)
+        self.assertEqual([item['prime'] for item in certificates], [None, None, 3, 5, 7])
+        self.assertEqual(sum(item['gradient_direction_count'] for item in certificates), 45)
+        self.assertEqual(sum(item['vertical_direction_count'] for item in certificates), 30)
+        for item in certificates:
+            prime = item['prime']
+            scalar = (lambda value: verify.rational_modulo(value, prime)) if prime else sp.cancel
+            a = sp.Matrix(item['A'])
+            hessian = sp.Matrix(item['vertical_Hessian'])
+            self.assertEqual(hessian, (-2 * a).applyfunc(scalar))
+            self.assertNotEqual(hessian, (2 * a).applyfunc(scalar))
+            self.assertNotEqual(scalar(hessian.det()), 0)
+            self.assertEqual(scalar(sp.trace(a)), 0)
+        with self.assertRaisesRegex(ValueError, 'characteristic different from two'):
+            verify.curvature_control('excluded_characteristic', sp.eye(3), 2)
+
+    def test_curvature_nonsemisimple_gram_requires_no_diagonalization(self):
+        item = next(record for record in self.saved['curvature_certificates'] if record['prime'] == 5)
+        h = sp.Matrix(item['H'])
+        reduce = lambda matrix: matrix.applyfunc(lambda value: value % 5)
+        # Characteristic polynomial (t-1)(t-2)^2; the eigenvalue two has
+        # a one-dimensional eigenspace and a genuine size-two Jordan block.
+        self.assertEqual([value % 5 for value in h.charpoly().all_coeffs()], [1, 0, 3, 1])
+        repeated = h - 2 * sp.eye(3)
+        self.assertEqual(repeated.det() % 5, 0)
+        self.assertNotEqual(reduce(repeated.adjugate()), sp.zeros(3))
+        self.assertNotEqual(reduce((h - sp.eye(3)) * repeated), sp.zeros(3))
+        self.assertEqual(reduce((h - sp.eye(3)) * repeated ** 2), sp.zeros(3))
+
+    def test_corrupt_skew_direction_is_rejected(self):
+        original = verify.cross_matrix
+
+        def corrupt(vector):
+            matrix = original(vector)
+            matrix[1, 0] = -matrix[1, 0]
+            return matrix
+
+        with patch.object(verify, 'cross_matrix', side_effect=corrupt):
+            with self.assertRaisesRegex(ArithmeticError, 'vertical (first derivative|Hessian)'):
+                verify.curvature_control('broken_skew_sign', [[1, 0, 1], [1, 0, -1], [0, 1, 1]], 3)
+
 
 if __name__ == '__main__':
     unittest.main()

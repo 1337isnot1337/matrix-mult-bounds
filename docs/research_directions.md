@@ -1,29 +1,28 @@
 # Research directions
 
-The rational rank14 linear-family question is now closed sharply at six
-by the [certificate transfer](../research/ai/2026-10-23-quadratic-determinant/README.md).
-A three-dimensional full-rank family over Q comes from the existing binary
-certificate after clearing rational denominators and using parity. The
-remaining geometric question below concerns arbitrary extensions, where
-that rational full-rank property need not survive.
+The [quadratic determinant package](../research/ai/2026-10-23-quadratic-determinant/README.md)
+now proves the sharp geometric rank14 linear-family dimension bound of
+six in every characteristic other than two. The cubic coefficient-singular
+branch has cap six, and the degree-twelve factor has a nondegenerate
+ternary second variation at each invertible zero, excluding a seven-space.
+The rational arithmetic certificate gives an independent proof over Q.
+These results are written and unreviewed; the rational full-rank witness
+itself need not stay full rank after scalar extension.
 
-The [universal quadratic determinant](../research/ai/2026-10-23-quadratic-determinant/README.md)
-now gives a precise form of the geometric rank14 bottleneck outside
-characteristic two. Classify linear spaces contained in
-`det(2 adj(H)-tr(adj(H)) I)=0`, where `H=M^T J M J` and J is the fixed
-discriminant matrix, especially dimension-seven spaces containing an
-invertible M after extension to an algebraic closure. The separate cubic `det(M)=0` branch has dimension cap six.
-The invariant identity follows from a dense-orbit proof; repeated checks
-of the Edwards slice alone will not resolve this remaining linear-space
-question. No characteristic-two replacement is supplied by this formula.
+Continue with the characteristic-two geometric rank14 cap or classify
+geometric six-dimensional equality families. A characteristic-two proof
+needs another argument: both division by 2048 and the nondegenerate
+second-variation construction fail there. Finite binary point checks are
+not a replacement for geometric vanishing. A later application also needs
+compatible three-leg maps; the present block cap constructs no target.
 
 The [quadratic linear-space bounds](../research/ai/2026-10-23-quadratic-linear-spaces/proof.md)
 now make the individual R_(3,3) spectrum constrain a source subspace:
 a binary family avoiding rank15 has dimension at most six, and a
 geometrically rank12 family over any field has the same sharp bound.
 The binary extremal-space census and F4 escape distinguish finite-point
-constraints from minor identities. Continue with geometric rank14 bounds
-outside F2, geometric equality cases, or applications imposing compatible
+constraints from minor identities. Continue with characteristic-two
+geometric rank14 bounds, geometric equality cases, or applications imposing compatible
 three-leg maps. Preserve the distinction between this nine-coefficient
 block and the full cyclic source. All proofs remain unreviewed.
 

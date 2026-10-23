@@ -9,7 +9,10 @@ group identification is credited to Conrad/Lichtenstein, Linear Algebraic
 Groups I, February8,2020, ExampleA.5.2, with an exact primary PDF pin.
 The dimension-six result for singular three-by-three coefficient spaces
 is a local rederivation of a classical bounded-rank fact, with no priority
-claim. It handles only one factor of the rank14 locus. A separate rational
+claim. A local adjugate and second-variation argument closes the other
+factor in every odd characteristic, without a semisimplicity assumption.
+This is a written, unreviewed proof, not a historical-priority assertion.
+A separate rational
 argument lifts the exact binary certificate from the merged linear-space
 package using denominator clearing and parity; that earlier certificate
 retains its original credit. This proves the rational cap, without

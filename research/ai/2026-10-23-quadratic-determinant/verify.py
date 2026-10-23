@@ -213,6 +213,93 @@ def rational_three_space_control(parameters):
             'normalized_det_R_mod_two': modular_determinant, 'reduction_mask': mask}
 
 
+def cross_matrix(vector):
+    x, y, z = vector
+    return sp.Matrix([[0, -z, y], [z, 0, -x], [-y, x, 0]])
+
+
+def determinant_jet(coefficient, direction):
+    """Direct numerator expansion of det(2H^-1-tr(H^-1)I), H=N^tN.
+
+    Only a one-variable three-by-three determinant is expanded. No gradient
+    or curvature formula is used to obtain these coefficients.
+    """
+    t = sp.Symbol('t')
+    varied = coefficient + t * direction
+    h = varied.T * varied
+    numerator = sp.Poly(q_matrix(h).det(method='domain-ge'), t)
+    return [numerator.nth(degree) for degree in range(3)]
+
+
+def curvature_control(label, coefficient, prime=None):
+    if prime == 2:
+        raise ValueError('curvature certificate requires characteristic different from two')
+    scalar = (lambda value: rational_modulo(value, prime)) if prime else sp.cancel
+    reduce = lambda matrix: matrix.applyfunc(scalar)
+    n = reduce(sp.Matrix(coefficient))
+    h = reduce(n.T * n)
+    q = h.inv_mod(prime) if prime else h.inv()
+    s = reduce(2 * q - sp.trace(q) * sp.eye(3))
+    u = reduce(s.adjugate())
+    tau = scalar(sp.trace(u))
+    if scalar(s.det()) != 0 or u == sp.zeros(3) or tau == 0:
+        raise ArithmeticError('curvature point must have rank-two S with nonzero adjugate trace')
+    if scalar(8 * q.det() - sp.trace(q) * tau) != 0 or reduce(s * u) != sp.zeros(3):
+        raise ArithmeticError('rank-two adjugate identity failed')
+    g = reduce(-q * (2 * u - tau * sp.eye(3)) * q)
+    a = reduce(n * g * n.T)
+    if scalar(g.det()) == 0 or scalar(a.det()) == 0 or scalar(sp.trace(h * g)) != 0:
+        raise ArithmeticError('curvature gradient must be invertible and trace-orthogonal to H')
+    if scalar(sp.trace(a)) != 0:
+        raise ArithmeticError('ternary curvature matrix must have trace zero')
+    denominator = scalar(h.det() ** 3)
+    divide = lambda value: scalar(value / denominator) if prime is None else scalar(value * pow(int(denominator), -1, prime))
+    gradient = sp.zeros(3)
+    for i in range(3):
+        for j in range(3):
+            direction = sp.zeros(3)
+            direction[i, j] = 1
+            constant, first, _ = determinant_jet(n, direction)
+            if scalar(constant) != 0:
+                raise ArithmeticError('direct determinant numerator is nonzero at curvature point')
+            gradient[i, j] = divide(first)
+    if gradient != reduce(2 * n * g):
+        raise ArithmeticError('direct determinant gradient disagrees with adjugate formula')
+    directions = [(1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 0), (1, 0, 1), (0, 1, 1)]
+    second = []
+    for vector in directions:
+        _, first, quadratic = determinant_jet(n, cross_matrix(vector) * n)
+        if scalar(first) != 0:
+            raise ArithmeticError('vertical first derivative must vanish')
+        second.append(divide(2 * quadratic))
+    hessian = sp.diag(*second[:3])
+    half = sp.Rational(1, 2) if prime is None else pow(2, -1, prime)
+    for value, (i, j) in zip(second[3:], ((0, 1), (0, 2), (1, 2))):
+        hessian[i, j] = hessian[j, i] = scalar((value - second[i] - second[j]) * half)
+    if hessian != reduce(-2 * a) or scalar(hessian.det()) == 0:
+        raise ArithmeticError('direct vertical Hessian disagrees with nondegenerate negative-two A')
+    matrices = {'N': n, 'H': h, 'Q': q, 'S': s, 'adjugate_S': u,
+                'gradient_H': g, 'gradient_N': gradient, 'A': a, 'vertical_Hessian': hessian}
+    return {'label': label, 'prime': prime, 'adjugate_trace': str(tau),
+            'gradient_direction_count': 9, 'vertical_direction_count': 6,
+            'det_vertical_Hessian': str(scalar(hessian.det())),
+            **{key: [[str(value) for value in row] for row in matrix.tolist()]
+               for key, matrix in matrices.items()}}
+
+
+def curvature_controls():
+    diagonal = sp.diag(12, 15, 20)
+    left = sp.Matrix([[sp.Rational(3, 5), -sp.Rational(4, 5), 0],
+                      [sp.Rational(4, 5), sp.Rational(3, 5), 0], [0, 0, 1]])
+    right = sp.Matrix([[1, 0, 0], [0, sp.Rational(3, 5), -sp.Rational(4, 5)],
+                       [0, sp.Rational(4, 5), sp.Rational(3, 5)]])
+    return [curvature_control('rational_diagonal', diagonal),
+            curvature_control('rational_orthogonal_changes', left * diagonal * right),
+            curvature_control('F3_irreducible_complement', [[1, 0, 1], [1, 0, -1], [0, 1, 1]], 3),
+            curvature_control('F5_nondiagonalizable_Gram', [[1, 0, 0], [0, 1, 0], [0, 2, -2]], 5),
+            curvature_control('F7_diagonal', sp.diag(3, 2, 2), 7)]
+
+
 def report():
     cases = rational_cases()
     rational = [rational_control(label, matrix) for label, matrix in cases]
@@ -220,6 +307,7 @@ def report():
     primes = [prime_control(label, matrix, prime) for prime in (3, 5, 7) for label, matrix in prime_cases]
     three_space = [rational_three_space_control(parameters) for parameters in
                    ((1, 1, 0), (Fraction(1, 2), Fraction(1, 3), Fraction(1, 5)), (2, 4, 6))]
+    curvature = curvature_controls()
     return {'scope': 'Finite exact controls plus a three-variable symbolic Edwards computation. '
                      'The universal integer identity uses the written invariant/normal-form proof.',
             'coefficient_convention': 'M[i,s] is the coefficient of x^i*z^s',
@@ -230,6 +318,7 @@ def report():
             'characteristic_two_boundary': characteristic_two_control(),
             'rational_three_space_basis_masks': list(THREE_SPACE_MASKS),
             'rational_three_space_count': len(three_space), 'rational_three_space_controls': three_space,
+            'curvature_certificate_count': len(curvature), 'curvature_certificates': curvature,
             'independent_review': False, 'improves_omega': False}
 
 

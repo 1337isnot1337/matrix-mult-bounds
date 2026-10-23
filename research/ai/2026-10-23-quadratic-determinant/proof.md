@@ -82,7 +82,8 @@ characteristic different from two, any geometrically rank-at-most-14
 space W of dimension at least seven must satisfy Delta|W=0 and contain
 an invertible coefficient matrix over Kbar. If K is infinite, such a
 member already exists over K. This does not bound the dimensions of
-linear spaces in the degree-twelve locus.
+linear spaces in the degree-twelve locus by itself; Section 8 supplies
+the additional local argument.
 
 **Theorem C (sharp rational rank-fourteen bound).** If W is a Q-linear
 subspace with rank R(M)<=14 for every M in W, then dim W<=6, and
@@ -90,6 +91,19 @@ this is sharp. In fact the three explicit integer coefficient matrices
 in Section 7 span a rational three-space whose every nonzero member
 has source rank fifteen. The proof lifts the merged seven-point binary
 certificate; it does not use the determinant identity or a new census.
+
+**Theorem D (sharp geometric bound in odd characteristic).** Let K be
+any field of characteristic different from two. If W is a K-linear
+coefficient space with rank R(M)<=14 for every M in W tensor_K Kbar,
+then dim_K W<=6. The bound is sharp. For infinite K the same conclusion
+follows from a rank cap on all K-rational members. Over finite K the
+geometric hypothesis is retained. This theorem does not settle the
+geometric problem over arbitrary fields of characteristic two.
+
+The new ingredient is a direct quadratic-expansion argument at an
+invertible coefficient matrix in the degree-twelve locus. It uses no
+classification of that locus, no new external structural theorem, and
+no generic diagonalization in positive characteristic.
 
 ## 2. Invariance and the exact source representation
 
@@ -356,9 +370,9 @@ determinant is not identically zero. Thus Delta vanishes identically
 on the family, and some coefficient matrix is invertible over Kbar.
 For infinite K, the nonzero determinant polynomial also has a nonzero
 value over K. Existence of such a K-rational member is not inferred
-for finite fields. The degree-twelve locus remains the unresolved
-linear-space question; this is not a geometric source-rank-14
-dimension-six theorem.
+for finite fields. This reduces a hypothetical larger source-rank-14
+space to the invertible part of the degree-twelve locus. Section 8
+rules out that remaining alternative in every odd characteristic.
 
 ## 7. An explicit rational full-rank three-space
 
@@ -415,12 +429,151 @@ Theorem C without a denominator-dependent choice of a reduced basis
 for W, and without inferring polynomial vanishing from finite points.
 
 Since Q is infinite, its pointwise and geometric rank-cap hypotheses
-are equivalent. Thus the rational linear-space question is closed by
-this bound. No corresponding source-rank-fourteen dimension bound over
-all algebraically closed fields is proved here; the degree-twelve
-alternative from Sections 5--6 still isolates that remaining question.
+are equivalent. This closes the rational question independently of the
+determinant identity and of the odd-characteristic argument that follows.
 
-## 8. Exact checks and remaining scope
+## 8. The geometric bound in every odd characteristic
+
+Extend scalars to k=Kbar; this preserves the dimension and the geometric
+hypothesis. By Sections 5--6, a putative space W of dimension at least
+seven must have Delta identically zero and contain an invertible
+coefficient matrix. We will obtain a contradiction locally at any such
+member, without imposing a generic eigenvalue condition.
+
+First use the invertible matrix P from Section 3, now over k, and write
+M=P N P^t. Its construction uses only iota^2=-1, a square root of two,
+and division by two, all available over this algebraically closed field
+of odd characteristic. It is simply an invertible linear coordinate
+change on coefficient matrices. Write
+
+    H_N=N^t N,
+    Delta_0(N)=det(2 adj(H_N)-tr(adj(H_N)) I).
+
+The matrix H_M=M^t J M J from Section 1 is similar to 4H_N, so
+
+    Delta(M)=4096 Delta_0(N).                            (20)
+
+Thus the transformed linear space, still denoted W, is contained in
+Delta_0=0 and has an invertible member N. The factor 4096 is nonzero;
+no positive-characteristic orthogonal diagonalization is being used.
+
+On the open set of invertible N define the regular rational function
+
+    Q=H_N^-1,       t=tr(Q),       S=2Q-t I,
+    Phi(N)=det(S).
+
+The adjugate formula gives the exact unit relation
+
+    Delta_0(N)=det(H_N)^3 Phi(N).                        (21)
+
+The exponent is three. Since det(H_N)=det(N)^2 is nonzero here,
+Phi vanishes identically on the open part of W. We work directly
+with Phi, so no assertion about a Hessian under an unspecified change
+of defining equation is needed.
+
+At the chosen point, put U=adj(S) and tau=tr(U). We first prove that
+
+    rank S=2,        tau!=0,
+    G=-Q(2U-tau I)Q is invertible and symmetric,
+    tr(H_N G)=0.                                        (22)
+
+Indeed det S=0 and tr S=-t. For any three-by-three matrix with trace
+s, adjugate trace tau and determinant zero, its characteristic
+polynomial gives det(S-sI)=-s tau. Here S-(tr S)I=2Q, hence
+
+    8 det(Q)=t tau.                                     (23)
+
+Q is invertible and the characteristic is not two, so tau is nonzero.
+Thus U is nonzero; det S=0 implies rank S=2 and rank U=1. For a
+rank-one matrix U, writing U=ab^t shows U^2=(tr U)U=tau U. Therefore
+
+    (2U-tau I)^2=tau^2 I.                               (24)
+
+This matrix, and consequently G, is invertible. Q and U are symmetric,
+so G is symmetric. Finally SU=0 gives QU=(t/2)U. Cyclicity of trace
+then yields
+
+    tr(H_N G)=-tr((2U-tau I)Q)
+              =-2(t/2)tau+tau t=0.
+
+All identities (22)--(24) hold in every odd characteristic, including
+three. In particular, none divides by three, by an eigenvalue
+discriminant, or by a potentially zero trace other than the nonzero
+quantity established in (23).
+
+The matrix G is exactly the gradient with respect to the symmetric
+Gram matrix H_N: for a symmetric first variation B, the identities
+dQ=-Q B Q and d(det S)=tr(adj(S) dS) give
+
+    dPhi_H(B)=tr(U(2dQ-tr(dQ)I))=tr(G B).                (25)
+
+For a first variation B of N, rather than of H_N, the chain rule gives
+
+    dPhi_N(B)=2 tr((N G)^t B).                           (26)
+
+Since 2NG is invertible, this is a nonzero linear functional. Its
+kernel T is an eight-dimensional tangent hyperplane in Mat_3(k).
+Because Phi vanishes on W near N, the linear space W, viewed as the
+directions at N, lies in T.
+
+Consider the three-dimensional subspace of tangent directions
+
+    V={K N : K^t=-K}.
+
+It is contained in T, because the first variation of H_N along these
+directions is zero. More precisely,
+
+    (N+z K N)^t(N+z K N)=H_N+z^2 N^t K^t K N.           (27)
+
+Here z is a formal expansion parameter, separate from the original
+biform variable. All denominators are invertible at z=0, so (27)
+and the following coefficient calculation are valid in k[[z]], with
+no analytic or characteristic-zero assumption. Put A=N G N^t.
+It is symmetric and invertible, and tr A=tr(H_N G)=0. By (25),
+
+    [z^2] Phi(N+z K N)=tr(A K^t K).                     (28)
+
+Parametrize skew matrices by kappa=(k1,k2,k3)^t using
+
+    K(kappa)=[[0,-k3,k2],[k3,0,-k1],[-k2,k1,0]].
+
+The direct integer matrix identity
+K(kappa)^t K(kappa)=(kappa^t kappa)I-kappa kappa^t,
+together with tr A=0, turns (28) into
+
+    [z^2] Phi(N+z K(kappa)N)=-kappa^t A kappa.           (29)
+
+Equivalently, the second directional derivative is
+-2 kappa^t A kappa. Thus the quadratic coefficient on V is a
+nondegenerate ternary quadratic form, since A is invertible and the
+characteristic is odd.
+
+Both W and V lie in the eight-dimensional space T, so
+
+    dim(W intersection V)>=dim W+3-8>=2.                (30)
+
+For every direction B in that intersection, the entire line N+zB
+lies in W. Relation (21) therefore makes Phi(N+zB) identically zero
+as a rational function, and its quadratic coefficient vanishes. The
+form (29) vanishes on a linear subspace of dimension at least two.
+Polarization in odd characteristic makes that subspace totally
+isotropic for the associated nondegenerate bilinear form on V.
+But if E is such a subspace, E is contained in E-perp and
+dim(E-perp)=3-dim E, so 2 dim E<=3. This contradicts (30).
+
+The hypothetical dimension-at-least-seven W cannot exist. Together
+with the coefficient-singular case in Section 6, this proves the
+upper bound in Theorem D. The same six-dimensional family
+z(A(x)+z B(x)) used in Section 7 has three zero source rows over every
+field and supplies sharpness. No equality-case classification is
+asserted. Over an infinite original field, pointwise vanishing of the
+source determinant is a polynomial identity, so it also implies this
+geometric bound. Over finite fields that replacement of the hypothesis
+is not made. Characteristic two remains outside this local argument:
+the discriminant normalization and polarization both require two to
+be invertible.
+
+## 9. Exact checks and remaining scope
 
 The maintained verifier rebuilds all literal matrices with the orders
 in (1), rather than importing an earlier verifier. Its bounded report
@@ -443,18 +596,29 @@ in the three variables A,B,C. It checks their determinants, the two
 28-inversion permutation signs, and both invariant normalizations.
 No nine-variable symbolic fifteen-by-fifteen determinant is required.
 The rational literal determinant uses exact Fraction elimination; the
-small invariant matrices use symbolic three-by-three arithmetic. Nine
+small invariant matrices use symbolic three-by-three arithmetic. Twelve
 focused tests replay the report and source hashes, check contraction
 coordinates and parity signs, reject a corrupted J normalization,
 guard exact rational elimination, and verify the finite-field and
-rational-lifting boundaries.
+rational-lifting boundaries. Five additional local curvature
+certificates use two rational points and one point over each of
+F3,F5,F7. Independent one-variable determinant expansions check 45
+ordinary directional derivatives and 30 skew-direction second
+derivatives. The F5 control has a genuine size-two Jordan block in
+its Gram matrix, and a corrupted skew sign is rejected. These bounded
+checks corroborate Section 8 without imposing a diagonalizability
+assumption or replacing its universal algebraic proof.
 
 The finite controls corroborate conventions and arithmetic. They do
 not prove the dense-open orbit statement, the universal extension, the
-linear-space reduction, or the incidence dimension bound. Those steps
-are the written arguments above. The package does not prove that Delta
-is irreducible, classify its linear spaces, supply a characteristic-two
-replacement for the invariant criterion, or prove a geometric
-source-rank-14 cap of six over arbitrary fields. The remaining precise
-question outside the rational case is whether the degree-twelve locus
-contains such a linear space of dimension at least seven.
+linear-space reduction, the incidence dimension bound, or Theorem D's
+local quadratic obstruction. Those steps are the written arguments
+above. In particular, the full-suite receipt at commit 5ea78f5 predates
+the addition of Theorem D and is retained as a pre-extension baseline,
+not reported as validation of the extended proof.
+
+The package does not prove that Delta is irreducible, classify the
+spaces attaining dimension six, or supply a characteristic-two
+replacement for the invariant criterion. The geometric dimension bound
+over arbitrary fields of characteristic two remains unresolved here.
+The earlier binary pointwise bound is a separate, inherited result.

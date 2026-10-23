@@ -1,28 +1,31 @@
 # Research status
 
-## Universal determinant and the remaining geometric rank14 branch
+## Sharp geometric rank14 dimension bound outside characteristic two
 
 The [quadratic determinant package](research/ai/2026-10-23-quadratic-determinant/README.md)
-reduces the full fifteen-by-fifteen source determinant to two small
-coefficient invariants. For the nine-coefficient matrix M, put
-`J=[[0,0,-2],[0,1,0],[-2,0,0]]` and `H=M^T J M J`. Then
-`2048 det(R_(3,3))=det(M) det(2 adj(H)-tr(adj(H)) I)` as an integer
-polynomial identity. A dense-orbit normal-form argument promotes an exact
-three-parameter calculation; finite checks are separate corroboration.
-In characteristic other than two, a geometrically rank-at-most-14 linear
-family lies in either the cubic coefficient-determinant locus or the
-degree-twelve invariant locus. An elementary rederivation of the classical
-singular three-by-three matrix-space bound caps the cubic branch at six.
-Thus any larger such family must lie in the degree-twelve branch and
-contain an invertible coefficient matrix after extending to the algebraic
-closure. That remaining dimension question is open over arbitrary fields. Over Q, the same package closes
-the rank14 linear-family bound sharply at six: the prior binary full-rank
-certificate lifts to a three-dimensional rational full-rank family by
-clearing denominators and removing a common power of two. Dimension
-intersection then proves the cap, attained by a fixed-factor family. Claims
-`AI-QUADRATIC-DETERMINANT-INVARIANT-001` and
-`AI-RATIONAL-QUADRATIC-LINEAR-CAP-002` are written and unreviewed; the cleared
-formula gives no characteristic-two rank test and no tensor target or exponent improvement.
+proves that a geometrically rank-at-most-14 linear family of the complete
+nine-coefficient R_(3,3) block has dimension at most six over every field
+of characteristic other than two. A fixed-factor family attains six.
+The universal integer identity
+`2048 det(R)=det(M) det(2 adj(H)-tr(adj(H)) I)`, with
+`H=M^T J M J` and `J=[[0,0,-2],[0,1,0],[-2,0,0]]`, splits the argument.
+The coefficient-singular branch has dimension at most six by an elementary
+incidence proof. At every invertible zero of the degree-twelve factor,
+a three-dimensional tangent subspace has a nondegenerate quadratic
+second variation. A seven-dimensional linear family would intersect it
+in a two-dimensional totally isotropic space, which is impossible.
+This local algebra argument includes nonsemisimple matrices and all odd
+characteristics; finite examples are separate corroboration.
+
+An independent rational proof lifts the prior binary full-rank certificate
+by clearing denominators and removing a common power of two. Its full-rank
+three-space is a Q-point assertion, not a geometric full-rank family.
+Claims `AI-QUADRATIC-DETERMINANT-INVARIANT-001`,
+`AI-RATIONAL-QUADRATIC-LINEAR-CAP-002`, and
+`AI-GEOMETRIC-QUADRATIC-LINEAR-CAP-003` remain written and unreviewed.
+The characteristic-two geometric rank14 bound and geometric equality
+classification remain open. No compatible tensor target or exponent
+improvement follows from these block-subspace results.
 
 ## Sharp dimension-six bounds for quadratic slice families
 

@@ -1,22 +1,21 @@
 # Integrated research coordination
 
-The same [package](ai/2026-10-23-quadratic-determinant/README.md) closes the
-rational rank14 linear-family bound at dimension six, by lifting the prior
-binary full-rank certificate through denominator clearing and parity.
-Its three-dimensional full-rank family is a Q-point assertion and must
-not be promoted to full rank over an algebraic closure. This transfer
-is written and unreviewed; no new binary census is used.
+The [quadratic determinant package](ai/2026-10-23-quadratic-determinant/README.md)
+now closes the geometric rank14 dimension bound at six in characteristic
+other than two. The coefficient-singular factor has cap six; an explicit
+nondegenerate ternary second variation at every invertible zero of the
+other factor excludes a seven-space there. The proof covers nonsemisimple
+matrices and arbitrary odd characteristic. It is written and unreviewed.
+The independent rational certificate transfer remains useful arithmetic
+evidence, but its three-dimensional full-rank family is only a Q-point
+assertion and must not be promoted to geometric full rank.
 
-The [quadratic determinant factorization](ai/2026-10-23-quadratic-determinant/README.md)
-reduces the remaining geometric rank14 family question in characteristic
-other than two to a specific degree-twelve invariant hypersurface. The
-other factor, the cubic determinant of the coefficient matrix, has no
-linear subspace of dimension above six. A hypothetical larger bounded-rank
-family must therefore vanish identically on the degree-twelve factor and
-contain an invertible coefficient matrix after extending to the algebraic
-closure. This is the next precise
-bottleneck, not an established rank14 cap. The cleared integer formula
-degenerates in characteristic two; binary pointwise results are separate.
+Next precise questions: the characteristic-two geometric rank14 cap,
+geometric equality cases of dimension six, or compatible three-leg maps.
+The cleared integer identity and its curvature proof do not settle
+characteristic two. Do not repeat the already closed odd-characteristic
+dimension question or the old binary census. Finite-field pointwise
+vanishing is weaker than a polynomial minor identity.
 
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
 closes the dimension question for binary R_(3,3) families avoiding rank15:
@@ -24,7 +23,7 @@ maximum dimension six, with a seven-matrix intersection certificate. The
 geometric rank12 bound is also six over every field. The complete binary
 extremal census is finite evidence, with an explicit F4 rank escape for
 an exceptional rank14 family. Do not infer geometric bounded rank from
-binary point checks. Next: geometric rank14 families over other fields,
+binary point checks. Next: characteristic-two geometric rank14 families,
 classification of geometric equality cases, or compatible three-leg maps.
 The block-subspace bounds are written and unreviewed; no target follows.
 
