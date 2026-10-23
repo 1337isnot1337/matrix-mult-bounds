@@ -163,7 +163,11 @@ python research/ai/2026-10-21-semisimple-koszul/sl2_f8_source.py --output result
 python -m unittest discover -s tests -p test_semisimple_koszul.py -v
 ```
 
-With optional discovery dependencies installed:
+The default full-D18 command now replays the subsequent exact subgroup-ideal
+exclusion244<450 before importing optional discovery dependencies. Its
+report has status `excluded-by-subgroup-ideal`; it does not repeat the
+historical180-second pilot. The positive control still requires the
+optional discovery dependencies:
 
 ```sh
 python research/ai/2026-10-21-semisimple-koszul/subgroup_search.py --seconds 180 --output results/local/sl2-f8-subgroup.json

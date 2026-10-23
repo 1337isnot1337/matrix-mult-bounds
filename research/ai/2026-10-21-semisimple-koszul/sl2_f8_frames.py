@@ -66,6 +66,18 @@ def verify_search(report):
             pair_map(G,unresolved[f],unresolved[g])
     if report['models']!=len(report['cuts'])+int(bool(witness))+int(bool(unresolved)):
         raise ValueError('incorrect model count')
+    exclusion_verified = False
+    if 'exclusion' in report:
+        from subgroup_preflight import verify_exclusion
+        receipt = verify_exclusion(report['exclusion'],shape,subgroup())
+        if (report['status']!='excluded-by-subgroup-ideal' or report['models']!=0
+                or not report.get('analytic_exclusion_verified')
+                or receipt!=report['exclusion'].get('verification')):
+            raise ValueError('incorrect analytic exclusion report')
+        exclusion_verified = True
+    elif report.get('analytic_exclusion_verified') or report['status']=='excluded-by-subgroup-ideal':
+        raise ValueError('missing subgroup-ideal exclusion proof')
     return {'group':G['name'],'shape':shape,'exact_cuts_replayed':len(report['cuts']),
             'exact_witness_replayed':bool(witness),'unsat_proof_checked':False,
-            'reported_status':report['status'],'improves_omega':False}
+            'reported_status':report['status'],'improves_omega':False,
+            **({'analytic_exclusion_verified':True} if exclusion_verified else {})}

@@ -1153,6 +1153,10 @@ also forbidden in the two size-eighteen families. This now excludes the
 first fixed-full-D18 frame by a written unreviewed proof; its historical
 timeout is not used as proof. Remaining coordinate sets and general tensor
 maps remain open. No exponent improvement follows.
+The full-D18 search command now replays the exact244<450 projection
+obstruction before importing optional SAT dependencies. Its analytic
+exclusion report is checked separately from the historical timeout and
+the positive control, which remain unchanged.
 
 ## Abelian-normal coset Koszul obstruction
 
