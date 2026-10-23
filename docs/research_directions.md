@@ -1,5 +1,14 @@
 # Research directions
 
+The [rational quadratic attainment result](../research/ai/2026-10-23-quadratic-rational-attainment/README.md)
+closes the Q version of the all-size one-unit-defect question: exactly
+those a>=3 with gcd(a+1,210)>1 attain it. New order-five and order-seven
+integer certificates provide sufficiency, while the smooth Jacobian
+and singular gluing cases give necessity. This narrows future work to
+linear families, other ground fields with genuinely new order bounds,
+and compatibility across tensor legs. Repeating the old sixteen rational
+sign lifts adds no evidence; they do not contain the new witnesses.
+
 The [quadratic linear-space bounds](../research/ai/2026-10-23-quadratic-linear-spaces/proof.md)
 now make the individual R_(3,3) spectrum constrain a source subspace:
 a binary family avoiding rank15 has dimension at most six, and a

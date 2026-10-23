@@ -1,5 +1,22 @@
 # Research status
 
+## Exact rational quadratic attainment
+
+The [rational quadratic package](research/ai/2026-10-23-quadratic-rational-attainment/README.md)
+gives the exact nonzero balanced rank set over Q for every a>=3:
+`{a^2,a^2+a,a^2+2a}`, with `a^2+2a-1` added precisely when
+`gcd(a+1,210)>1`. It applies the merged line-bundle criterion to the
+Jacobian in the smooth case, importing Mazur's rational torsion theorem
+with its original credit. A separate gluing argument handles all singular
+and doubled boundaries without assuming a rational point on the curve.
+Explicit integer recurrence witnesses supply orders two, three, five,
+and seven. The integer identities give orders two, three and five over
+every field, and seven outside characteristic two. The new order-five
+model is outside the previously failed
+sixteen sign lifts. Claim `AI-RATIONAL-QUADRATIC-SPECTRUM-001` is written
+and unreviewed. This is an individual quadratic-block classification,
+with no source-space bound, compatible tensor target or exponent gain.
+
 ## Sharp dimension-six bounds for quadratic slice families
 
 The [quadratic linear-space package](research/ai/2026-10-23-quadratic-linear-spaces/README.md)

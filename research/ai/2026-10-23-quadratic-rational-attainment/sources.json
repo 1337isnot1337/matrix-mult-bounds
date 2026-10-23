@@ -1,0 +1,134 @@
+{
+  "base_main": "d60e367baf040013757cd48428b8de506d5e2b51",
+  "external_sources": [
+    {
+      "authors": "J. S. Milne",
+      "title": "Jacobian Varieties",
+      "version": "June 12, 2021 revision of the 1986 chapter; original numbering retained",
+      "url": "https://www.jmilne.org/math/xnotes/JVs.pdf",
+      "locator": "Theorem 1.1, Remark 1.5 and Proposition 2.1, PDF/printed pages 2, 4 and 5",
+      "sha256": "36c3f09c7462dbbd4ae1f8b81a02bd9ff84f03c5a346351d7d5d78fc3f173486",
+      "snapshot_bytes": 532382,
+      "imported_statement": "A smooth proper geometrically integral curve has a Jacobian over its field; actual degree-zero line bundles inject into rational Jacobian points even without a rational point on the curve; Jacobian dimension equals genus.",
+      "read": "Exact primary PDF statements inspected in this generating session; Proposition 2.1 is the dimension statement."
+    },
+    {
+      "authors": "Barry Mazur",
+      "title": "Modular curves and the Eisenstein ideal",
+      "version": "Publications mathematiques de l IHES 47 (1977), pages 33-186",
+      "url": "https://www.numdam.org/item/PMIHES_1977__47__33_0.pdf",
+      "locator": "Chapter III, Section 5, Theorem 5.1 and Corollary 5.2, printed page 156 / PDF page 125 (one-based)",
+      "sha256": "c20c7e73be20d6cc961127504b6be019f7707e0ee6154ba1fac0bbfd5973be8a",
+      "snapshot_bytes": 16309727,
+      "imported_statement": "A rational torsion point of an elliptic curve over Q has order at most 10 or equal to 12. Only the resulting prime-divisor set {2,3,5,7} is used.",
+      "read": "Pinned original PDF text and a rendering of printed page 156 inspected in this generating session. The browser PDF tool rejected the large response, so the exact local PDF was inspected."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 02KH",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/02KH",
+      "locator": "Lemma 30.5.2",
+      "sha256": "9da5d88e9ba6915ffdea0b6191750eb65dcc108799c35dc54f4f9bad1fc29777",
+      "snapshot_bytes": 23224,
+      "imported_statement": "Flat base change for cohomology; used for extension from a field to its algebraic closure.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact earlier-session snapshot pin retained from the merged quadratic-torsion sources.json; not a new retrieval."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0C6Q",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0C6Q",
+      "locator": "Lemma 37.4.1",
+      "sha256": "d5f0a5f8d95550ee3bb50341cc9bb3f8bf9677f5bcb0e4b5b42b57df3ebbd966",
+      "snapshot_bytes": 17719,
+      "imported_statement": "Picard exact sequence for a first-order thickening with square-zero ideal; applied to a doubled smooth (1,1) divisor with ideal O_P1(-2).",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact earlier-session snapshot pin retained from the merged quadratic-torsion sources.json; not a new retrieval."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0C1H",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0C1H",
+      "locator": "Lemmas 53.15.4, 53.15.5, 53.15.6; individual tags 0C1L, 0C1M, 0C1N",
+      "sha256": "503e38ba813eed4c581c34ace6cc4e9d6e7877f4511cceea921bd1c89c1cb00d",
+      "snapshot_bytes": 23896,
+      "imported_statement": "Over an algebraically closed field, normalization factors into point gluings and tangent contractions, with multiplicative or additive Picard kernels from the exact unit sequences.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact earlier-session snapshot pin retained from the merged quadratic-torsion sources.json; not a new retrieval."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0C20",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0C20",
+      "locator": "Proof of Proposition 53.17.3",
+      "sha256": "8c7b6a34f1de9e56a8ec8c921a0227f098ad0e5afe9c70b04a942a8ead8c5d74",
+      "snapshot_bytes": 17689,
+      "imported_statement": "The proof tracks h0 and h1 through those normalization steps. Only that genus bookkeeping is imported, not the proposition about prime-to-characteristic torsion.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact earlier-session snapshot pin retained from the merged quadratic-torsion sources.json; not a new retrieval."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+      "sha256": "f5672695904c1f458134abcfc014ec3f86848c26021fa862106fbb942e5bb406",
+      "use": "Merged two-index formula, common-gcd reduction and full source recurrence; credited prior theorem, not verifier code."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "sha256": "3fbbe8be72254360b7df5e7cfb8ff3aa5d6096bacf9bb91ed9d11290c5d929eb",
+      "use": "Merged balanced four-value containment and necessary primitive-degree-two/no-fixed-root condition for a one-unit defect."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-torsion/proof.md",
+      "sha256": "cd6e83dec5395e7b6a66b069c1710cd7daa4d29949cb5a81d7b3cf4506d4f73f",
+      "use": "Merged all-field Theorem A: exact T_n/H0 correspondence, section/triviality criterion including all singular boundaries, and nontriviality of L."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-torsion/sources.json",
+      "sha256": "0677e4ae327ccaae4964e9275667d275548e1955162b2bafedb6f54dc3662cec",
+      "use": "Exact inherited primary-source snapshot pins for normalization, square-zero Picard sequences and cohomology base change."
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "use": "Original literal crossed source and attribution; not an imported runtime implementation."
+    },
+    {
+      "path": "results/quadratic-rational-attainment-2026-10-23/discovery-prime-witnesses.json",
+      "sha256": "e841020ef6e0f8bdd413218173409aacf77df13ed5f29a3e31c4611761bda3e5",
+      "use": "Byte-for-byte supplied discovery receipt containing the order-five vector. Discovery input, not independent verification or a source for the all-size theorem."
+    },
+    {
+      "path": "results/quadratic-rational-attainment-2026-10-23/discovery-order7-small.json",
+      "sha256": "d104bb1eac82dde04069e435371770e719f1dab060f0533aa65855fd41e64868",
+      "use": "Byte-for-byte supplied discovery receipt for the reduced integer order-seven vector. The maintained verifier checks this supplied tuple exactly."
+    }
+  ],
+  "credited_prior_work": [
+    {
+      "pull_request": 218,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/218",
+      "scope": "Exact quadratic two-index formula, structural dichotomy and balanced four-value containment."
+    },
+    {
+      "pull_request": 222,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/222",
+      "scope": "All-field recurrence/line-bundle criterion including singular and doubled boundaries, plus prior binary-field attainment. The rational package uses the already merged all-field theorem."
+    }
+  ],
+  "local_work": "Exact all-size rational attainment criterion gcd(a+1,210)>1; smooth necessity via actual Picard-class injection and Mazur; singular necessity via a two-element Galois orbit of a multiplicative gluing parameter; four explicit prime-order integer recurrence certificates and a direct characteristic-zero full-rank witness.",
+  "field_and_hypotheses": "Exact classification over Q, balanced crossed source a>=3, nonzero quadratic-in-z slices with coefficient degrees below a. Integer prime-order identities separately give orders 2,3,5 over every field and order 7 in characteristic other than 2. No exact classification outside Q is asserted.",
+  "finite_evidence": "Four exact rational recurrence ranks, four supplied/nonzero integer tuples, thirteen polynomial equations and ten full rational source matrices. One separate F2 a=3 source verifies that the order-seven polynomial collapses to primitive degree zero in characteristic two. No discovery search is rerun.",
+  "discovery_boundary": "The order-five and order-seven vectors were supplied by the parent discovery run. Their exact receipts are preserved and pinned; the maintained verifier reconstructs matrices and checks vectors without importing a prior verifier. This is same-session checking, not independent review.",
+  "prior_credit": "The construction and all inherited local results retain their earlier credits. Jacobian existence and injection are credited to Milne; rational elliptic torsion classification is Mazur's theorem; singular unit-sequence facts are credited to the Stacks Project. No historical-priority claim is made.",
+  "limitations": "A single crossed biform source family, not the full cyclic source for a>3, a compatible target construction, degeneration, or matrix-multiplication exponent improvement. No unmerged split-family dependency and no assertion that every relevant torsion order divides 210.",
+  "ai_assistance": "Owner-directed Codex research with same-session checking. Written and unreviewed; not independent mathematical review.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

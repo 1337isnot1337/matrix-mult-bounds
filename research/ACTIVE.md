@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The [rational quadratic package](ai/2026-10-23-quadratic-rational-attainment/README.md)
+settles the all-size one-block attainment question over Q: the defect
+occurs iff gcd(a+1,210)>1. The proof uses Mazur only for the smooth
+Jacobian, handles nonsplit singular boundaries separately, and supplies
+exact order-five and order-seven witnesses outside the old sign-lift
+negative. Do not rerun that unchanged negative or infer a new exponent.
+Next: constrain linear families, establish the geometric rank14 cap,
+or impose compatible three-leg maps. Claim status remains written and
+unreviewed; a torsion classification supplies no tensor target.
+
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
 closes the dimension question for binary R_(3,3) families avoiding rank15:
 maximum dimension six, with a seven-matrix intersection certificate. The

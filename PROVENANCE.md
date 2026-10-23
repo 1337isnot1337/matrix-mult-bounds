@@ -1,5 +1,20 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-rational-attainment` package is owner-directed
+OpenAI Codex work. It credits the merged kernel-index, dichotomy and
+line-bundle torsion packages. Mazur retains credit for the rational
+elliptic-curve torsion theorem (1977, Chapter III, Theorem5.1); Milne's
+Jacobian Varieties (June12,2021), Theorem1.1, Remark1.5 and Proposition2.1,
+supply the Jacobian and the injection of actual degree-zero line bundles,
+without a rational-point assumption. Exact primary PDF hashes and local
+prerequisites are pinned in sources.json. The local contributions are the
+singular descent argument, explicit rational order-five and order-seven
+recurrence certificates, and their combination into the all-size rational
+rank criterion. Discovery used elliptic-curve translation as a search aid;
+acceptance checks the displayed coefficient identities directly and does
+not import a Tate-normal-form assertion. No independent review,
+formalization, historical-priority claim or exponent improvement follows.
+
 The `2026-10-23-quadratic-linear-spaces` package is owner-directed OpenAI
 Codex work. It credits the merged quadratic kernel-index and dichotomy
 package for individual block ranks and the fixed-root characterization.
