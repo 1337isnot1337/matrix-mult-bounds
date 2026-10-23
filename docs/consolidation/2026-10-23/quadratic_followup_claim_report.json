@@ -1,0 +1,38 @@
+{
+  "baseline_head": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "source_sha": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "previous_source_sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
+  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "prepared_at": "2026-10-23T18:23:26.546400+00:00",
+  "claims_before": 612,
+  "claims_after": 613,
+  "unchanged_existing_records": 612,
+  "added_ids": [
+    "AI-QUADRATIC-KERNEL-INDICES-001"
+  ],
+  "revised_existing_ids": [],
+  "exact_added_source_record": {
+    "id": "AI-QUADRATIC-KERNEL-INDICES-001",
+    "title": "Effective two-index rank formula for arbitrary quadratic biform slices",
+    "origin": "Codex research directed by repository owner",
+    "status": "proof-written-unreviewed",
+    "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
+    "statement": "Over any field, for a>=2,b>=3 and nonzero u+zv+z^2w with coefficient degrees below a, divide the common polynomial factor and let D be the maximum remaining degree. Its recurrence kernel has minimal degrees 0<=mu1<=mu2 summing to aD; mu1 is the first nonzero-kernel degree of the explicit coefficient matrix C_ell, found by floor(aD/2). The literal full source rank is ab+min(b,mu1)+min(b,mu2). For D>0, mu1=0 iff the primitive homogeneous z-quadratic has a fixed ground-field linear factor; when aD>b this is equivalent to rank ab+b.",
+    "dependencies": [
+      "Pinned literal crossed source and prior general biform kernel-bundle rank identity",
+      "Schoemann-Wiedmann arXiv:1712.03056v1 Theorem2.1 over arbitrary fields",
+      "Exact full-output polynomial recurrence with common-factor cancellation"
+    ],
+    "limitations": "Individual-source-slice classification and an effective invariant, not a coefficient-degree-only classification, source-space cap, compatible three-leg maps, degeneration or exponent result. Finite controls compare 2010 complete source matrices over Q and the stated finite fields; this corroborates rather than proves the all-size argument. No independent review or formalization.",
+    "independent_review": false,
+    "lean_formalized": false,
+    "improves_omega": false
+  },
+  "source_record_sha256": "60181b9040e77ccdd740974fc9f74e2033940c2034ae6c5b7a7a484acaa253c3",
+  "all_source_status_flags_preserved": true,
+  "ledger_before_sha256": "b37a30f76a45bd6b83471d09458949370204567c65a64e1f2b7d331a2be0d949",
+  "ledger_after_sha256": "920eede68c554939bb25c5e3f7a5a3b991a35124fecaa517eff8994aaa170b28",
+  "topic_source_snapshots": 170,
+  "topic_branch_names": 138,
+  "source_pin_repair_has_no_claim_or_proof_changes": true
+}

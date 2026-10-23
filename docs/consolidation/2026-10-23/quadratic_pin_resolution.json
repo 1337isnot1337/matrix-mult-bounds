@@ -1,0 +1,64 @@
+{
+  "schema": "consolidation-quadratic-context-pin-repair-v1",
+  "prepared_at": "2026-10-23T18:25:14.251629+00:00",
+  "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+  "source_base_main": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "maintained_dependency_commit": "e38eb5c21c3e840cd900bfa85c1a4a6808e530fe",
+  "changed_active_files": [
+    "research/ai/2026-10-23-quadratic-kernel-indices/sources.json"
+  ],
+  "changed_json_fields": [
+    "local_dependencies[1].sha256"
+  ],
+  "dependency_path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+  "original_sha256": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+  "current_sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6",
+  "original_blob": "c2f2b3a156345cfcf97bc301aa9c14f89c6c207b",
+  "current_blob": "9e8d17261d5c6ba728978d81dcd2a87483262de4",
+  "original_dependency_preserved_at": "docs/consolidation/2026-10-23/quadratic-pin-originals/bd03b9d-anisotropic-README.md.txt",
+  "readme_diff": {
+    "added_lines": 72,
+    "removed_lines": 0,
+    "original_lines_preserved_in_order": true
+  },
+  "semantic_review": "The README supplies original cyclic-source attribution and evidence-tier context. All original wording remains; additions summarize previously consolidated spin, scalar and Hankel work. The mathematical dependency is the separately pinned, unchanged slice_rank_gap.md. No theorem step depends on the added README summaries.",
+  "strict_dependency_pins_after_repair": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "exact": true
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "sha256": "6a8a681affcb6aa1ecccae5f0a6eb922bcbb5199cfd6ac874cdd91bf169b45b6",
+      "exact": true
+    }
+  ],
+  "literal_source_blob_unchanged_and_exact": true,
+  "proof_verifier_test_witness_claim_changes": [],
+  "output_files": [
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+      "sha256": "3536d7730b94977c14a722ef4576361e5be0c87eede6e29eaa53b4f3ece9a223",
+      "source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "reason": "Byte-exact original quadratic source record, including the original strict README pin."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/quadratic-pin-originals/bd03b9d-anisotropic-README.md.txt",
+      "sha256": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+      "source_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "source_path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+      "reason": "Byte-exact original README at the source record's base_main; .md.txt preserves its bytes without treating historical relative links as maintained navigation."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "sha256": "29c6e38cd712c77d7f630738e980171363043747fb0c25c1236b657538058b0c",
+      "original_source_commit": "c7b7257bac3c000543de66a27b3485a29589156c",
+      "original_source_path": "research/ai/2026-10-23-quadratic-kernel-indices/sources.json",
+      "original_sha256": "3536d7730b94977c14a722ef4576361e5be0c87eede6e29eaa53b4f3ece9a223",
+      "preserved_original_path": "docs/consolidation/2026-10-23/quadratic-pin-originals/c7b7257-sources.json",
+      "reason": "Supersede only the README dependency digest after reviewing its 72 additive lines; keep the strict check and every mathematical, test, witness, proof and claim byte unchanged."
+    }
+  ]
+}

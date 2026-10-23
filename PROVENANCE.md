@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-kernel-indices` package is owner-directed OpenAI
+Codex work. The literal crossed source and its general kernel-bundle rank
+identity retain their prior repository credit. Grothendieck splitting is
+external mathematics, used in the arbitrary-field form of Schoemann and
+Wiedmann, arXiv:1712.03056v1, Theorem2.1. The local additions specialize
+the full quadratic recurrence to two indices, recover both by a bounded
+coefficient-matrix test and identify the zero-index fixed-linear-factor
+case. Earlier affine, constant-endpoint, top-coefficient and resultant
+counterexample packages retain their separate credit. Exact source-matrix
+comparisons and same-session checking are not independent mathematical
+review, formalization, historical priority or an exponent improvement.
+
 The `2026-10-23-column-overlap` package is owner-directed OpenAI Codex
 work. It preserves the paired-source definition, correction criterion,
 and PR211 auxiliary-kernel normalization with their original credit and

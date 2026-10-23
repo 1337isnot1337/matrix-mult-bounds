@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The [general quadratic kernel package](ai/2026-10-23-quadratic-kernel-indices/proof.md)
+determines individual slice ranks through two polynomial-kernel indices,
+whose sum is aD and whose first nonzero-kernel degree is computable by a
+bounded exact coefficient-matrix test. It explains the distinct indices
+of the earlier equal-resultant examples. For D>0 after common-factor
+normalization, it characterizes the zero first index by a fixed ground-field
+linear factor. Do not repeat coefficient
+degree or pairwise-resultant-only searches. Further structural work should
+bound the positive first index or impose compatible three-leg maps; the
+single-slice formula does not supply a matrix target. Written, unreviewed.
+
 The [full-channel overlap theorem](ai/2026-10-23-column-overlap/proof.md)
 closes fixed polynomial-column routing when almost all leading channel
 blocks remain invertible, even with arbitrary first/auxiliary Laurent
@@ -21,9 +32,9 @@ remains written and unreviewed.
 
 October 23 rank-two paired-source continuation: branch research/paired-rank-two-gap-20261023-auto2 proves a sharp all-field b(b+1) raw first-slice rank for every rank-two coefficient matrix of Q(n,b), with a Kronecker minimal-index formula and exact controls. Scope is independent of current PR147 residual geometry, PR164 diagonal factor hypotheses, and PR211 Laurent auxiliary-channel barrier. This source theorem does not construct a target and does not improve omega. Written, unreviewed; full regression and archive replay are required before merge.
 
-The October 23 three-term biform continuation is in ai/2026-10-23-three-term-resultant-obstruction/proof.md. The exact R_(3,3) determinant t(2c^3-2ct^2+t^4) provides two characteristic-not-two coefficient triples with identical degrees and all pairwise resultants equal to one but ranks 14 and 15. An integral row kernel, determinant-one control, -4 minor, and 256-point exact determinant certificate are retained. The next problem is computing the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 and finding the additional subresultant/syzygy invariants that control rank. This is separate from PR207 diagonal Toeplitz and superseded PR209 affine-in-z work, and is not an exponent improvement.
+The October 23 three-term biform continuation is in ai/2026-10-23-three-term-resultant-obstruction/proof.md. The exact R_(3,3) determinant t(2c^3-2ct^2+t^4) provides two characteristic-not-two coefficient triples with identical degrees and all pairwise resultants equal to one but ranks 14 and 15. An integral row kernel, determinant-one control, -4 minor, and 256-point exact determinant certificate are retained. The general quadratic continuation now computes the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 by a bounded exact test. Structural descriptions of their positive-index strata through additional subresultant or factor geometry remain open. This is separate from PR207 diagonal Toeplitz and superseded PR209 affine-in-z work, and is not an exponent improvement.
 
-The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. Next: determine polynomial kernel minimal indices when at least two z coefficients depend nontrivially on x. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
+The [single-top-polynomial biform theorem](ai/2026-10-23-top-coefficient-biforms/proof.md) now gives exact R_(a,b) ranks over every field for constant lower z coefficients and an arbitrary polynomial top x coefficient, with a residue-triangular polynomial-kernel proof. It is a strict one-slice statement and remains proof-written-unreviewed. The reproducible 3,372 modular and 24 rational rank controls passed. PR209's affine-z work and PR207's diagonal-polynomial work retain their own attribution. The general quadratic continuation now supplies an effective two-index test for arbitrary quadratic coefficients. Further structural work can constrain positive indices or study higher z-degree families with several nonconstant coefficient polynomials. No three-leg degeneration or improvement below 9/4 follows. Concurrent PR214 branch consolidation must be reconciled before merge.
 
 The October 23 quadratic-z middle-polynomial package
 `ai/2026-10-23-quadratic-z-middle/proof.md` gives an all-field exact
@@ -35,8 +46,9 @@ with 580 exhaustive and 960 seeded modular checks, 135 spectrum checks,
 This adopts and credits PR209's polynomial-row technique but not its
 theorem, and avoids PR207/208's diagonal-polynomial family. Claim
 `AI-QUADRATIC-Z-MIDDLE-RANK-001` remains written, unreviewed.
-The next question is the minimal polynomial-basis degree filtration
-with nonconstant outer coefficients. No full tensor target or
+The [general quadratic continuation](ai/2026-10-23-quadratic-kernel-indices/proof.md)
+now computes both minimal degrees for nonconstant outer coefficients;
+structural descriptions of the positive first index remain open. No full tensor target or
 improved exponent is claimed. Keep this branch isolated until required
 current-head CI and mathematical review gates have been checked.
 
@@ -96,7 +108,7 @@ and third slice ranks are proved via disjoint support decompositions.
 The next separate question is whether this intrinsic rank geometry can
 sharpen an actual border-rank invariant; no such sharpening is claimed.
 
-The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including both orderings of a,b>=2. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. Next: identify exact invariants or counterexamples for three-term u+z*v+z^2*w recurrence; PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established.
+The October 23 affine-z biform checkpoint is at research/ai/2026-10-23-affine-z-biform-ranks/QUESTION.md. A written all-field syzygy proof yields exact one-slice rank ab+min(b,a*d) for arbitrary long-affine coefficients u(x)+z*v(x), including both orderings of a,b>=2. Exhaustive and seeded finite controls have passed; claim AI-AFFINE-Z-BIFORM-RANK-001 remains written and unreviewed. The [general quadratic continuation](ai/2026-10-23-quadratic-kernel-indices/proof.md) now supplies an exact two-index procedure, while PR216 retains credit for the counterexample to degree/resultant-only data. PR207 owns the diagonal Toeplitz problem. Neither a full target nor a bound below 9/4 is established.
 
 ## Laurent channel barrier continuation
 
