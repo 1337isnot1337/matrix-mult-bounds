@@ -1,0 +1,23 @@
+{
+  "status": "standalone acceptance passed; focused tests pending at this checkpoint",
+  "environment": {
+    "python": "3.12.14",
+    "acceptance_dependencies": "Python standard library only; run with -I -S"
+  },
+  "commands": [
+    "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps python research/ai/2026-10-23-conic-fixed-third-obstruction/construct.py results/conic-fixed-third-obstruction-2026-10-23/dual-and-linear-branches.json",
+    "python -I -S research/ai/2026-10-23-conic-fixed-third-obstruction/verify.py results/conic-fixed-third-obstruction-2026-10-23/dual-and-linear-branches.json --output results/conic-fixed-third-obstruction-2026-10-23/verification.json"
+  ],
+  "coverage": [
+    "Complete literal4096-term source",
+    "Prescribed third-jet incidence through order3, with all constant unit minors",
+    "All3136 fourth-map variables and1200 fourth-kernel variables annihilated",
+    "Exact fourth residual and all four separate known terms",
+    "Both exceptional branches: every prescribed coefficient matches and all complete source orders0..2 pass",
+    "Separate Fraction-only full-source control at a1,b2,d1 with zero and nonzero fourth corrections"
+  ],
+  "full_repository_regression": "Separate integration gate, not claimed here",
+  "independent_mathematical_review": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}
