@@ -43,6 +43,14 @@ class PairedLongLegTests(unittest.TestCase):
                     result = VERIFY.verify_source_rank_mod2(a, p)
                     self.assertTrue(result["full_column_rank"])
 
+    def test_first_higher_degree_pilots(self):
+        rational = VERIFY.verify_small_source_rank_over_q(2, 3)
+        self.assertEqual(rational["rank_over_q"], 70)
+        self.assertEqual(rational["domain"], 80)
+        self.assertEqual(rational["kernel_dimension"], 10)
+        ternary = VERIFY.verify_source_rank_mod2(3, 4)
+        self.assertTrue(ternary["full_column_rank"])
+
 
 if __name__ == "__main__":
     unittest.main()

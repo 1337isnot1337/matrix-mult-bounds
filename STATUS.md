@@ -12,7 +12,9 @@ degrees. Degrees `p>=a+1` remain open. Claim
 `AI-PAIRED-LONG-KOSZUL-005` is written and unreviewed. Exact interpolation,
 frontier, and original coefficient-matrix rank controls through `p=a` for
 `a=2,3` are recorded in `results/paired-long-legs-2026-10-23/verification.json`.
-No exponent improvement is established.
+Additional finite controls give rank `70/80` over `Q` at `(a,p)=(2,3)` and
+full column rank modulo `2` at `(a,p)=(3,4)`; they do not settle the
+all-size higher-degree range. No exponent improvement is established.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

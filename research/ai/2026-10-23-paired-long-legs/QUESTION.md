@@ -32,3 +32,9 @@ The [proof through the support threshold](long_leg_low_degrees.md) establishes
 full column rank on both long legs for `0<=p<=a`. This range cannot exclude
 any of the 28 saved targets through `a=16`: their target ranks are bounded
 by the same source-domain dimensions. Continue with `p>=a+1`.
+
+Finite first-higher-degree controls show a real distinction by size: the
+original coefficient matrix has rational rank `70<80` for `(a,p)=(2,3)`,
+while `(a,p)=(3,4)` is full column rank modulo `2`, hence also over `C`.
+These pilots do not decide the all-size range; the next task is to explain
+the longer injective range at `a=3` and determine its general boundary.

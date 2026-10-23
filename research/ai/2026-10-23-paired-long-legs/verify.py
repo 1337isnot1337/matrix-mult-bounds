@@ -158,6 +158,65 @@ def verify_source_rank_mod2(a, p):
     return {"a": a, "p": p, "rank_mod_2": rank, "domain": domain, "full_column_rank": rank == domain}
 
 
+def verify_small_source_rank_over_q(a, p):
+    """Exact rational rank for the small first-unproved-degree control."""
+    if (a, p) != (2, 3):
+        raise ValueError("the dense rational control is pinned to a=2, p=3")
+    d = a - 1
+    b_leg = [(y, j) for y in range(a) for j in range(2 * a - 1)]
+    a_leg = [(x, q) for x in range(a) for q in range(a)]
+    c_leg = [(z, v) for z in range(2 * a - 1) for v in range(a)]
+    c_index = {value: i for i, value in enumerate(c_leg)}
+    inputs = list(combinations(range(len(b_leg)), p))
+    outputs = list(combinations(range(len(b_leg)), p + 1))
+    output_index = {value: i for i, value in enumerate(outputs)}
+    row_width = len(c_leg)
+    columns = len(inputs) * len(a_leg)
+    matrix = [[0] * columns for _ in range(len(outputs) * row_width)]
+    for input_index, subset in enumerate(inputs):
+        occupied = set(subset)
+        for a_index, (x, q) in enumerate(a_leg):
+            column = input_index * len(a_leg) + a_index
+            for b_index, (y, j) in enumerate(b_leg):
+                if b_index in occupied:
+                    continue
+                z, v = x + y, j - q
+                if not (0 <= z <= 2 * d and 0 <= v <= d):
+                    continue
+                output_wedge = tuple(sorted((*subset, b_index)))
+                sign = -1 if sum(index < b_index for index in subset) % 2 else 1
+                row = output_index[output_wedge] * row_width + c_index[(z, v)]
+                matrix[row][column] += sign
+
+    rank = 0
+    for column in range(columns):
+        pivot = next(
+            (row for row in range(rank, len(matrix)) if matrix[row][column]),
+            None,
+        )
+        if pivot is None:
+            continue
+        matrix[rank], matrix[pivot] = matrix[pivot], matrix[rank]
+        pivot_value = matrix[rank][column]
+        for row in range(rank + 1, len(matrix)):
+            entry = matrix[row][column]
+            if not entry:
+                continue
+            factor = Fraction(entry, pivot_value)
+            matrix[row][column] = 0
+            for other in range(column + 1, columns):
+                matrix[row][other] -= factor * matrix[rank][other]
+        rank += 1
+    return {
+        "a": a,
+        "p": p,
+        "rank_over_q": rank,
+        "domain": columns,
+        "kernel_dimension": columns - rank,
+        "evidence": "exact rational elimination of the original coefficient matrix",
+    }
+
+
 def verify(maximum_a=6, rank_controls=False):
     if maximum_a < 2:
         raise ValueError("maximum_a must be at least 2")
@@ -173,8 +232,16 @@ def verify(maximum_a=6, rank_controls=False):
             for a in (2, 3)
             for p in range(a + 1)
         ]
+        report["higher_degree_pilots"] = [
+            verify_small_source_rank_over_q(2, 3),
+            verify_source_rank_mod2(3, 4),
+        ]
         if not all(item["full_column_rank"] for item in report["rank_controls"]):
             raise AssertionError(report["rank_controls"])
+        if report["higher_degree_pilots"][0]["rank_over_q"] != 70:
+            raise AssertionError(report["higher_degree_pilots"][0])
+        if not report["higher_degree_pilots"][1]["full_column_rank"]:
+            raise AssertionError(report["higher_degree_pilots"][1])
     return report
 
 
@@ -205,6 +272,7 @@ if __name__ == "__main__":
                     item["full_spark_subsets"] for item in report["interpolation"]
                 ),
                 "mod2_rank_controls": len(report["rank_controls"]),
+                "higher_degree_pilots": len(report["higher_degree_pilots"]),
                 "saved_survivors": report["saved_frontier"]["survivors"],
                 "improves_omega": False,
             },
