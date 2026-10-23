@@ -45,9 +45,11 @@ The explicit mixed fourth-order family and rational tenth-order witness
 pass direct source replay. A separate checkpoint on
 `research/conic-fourteen-jet-continuation-20261023` extends the rational
 witness through order fourteen, preserving maps through order nine and
-source corrections through Y9; its standard-library literal replay checks
-all 4096 source terms. It is based on the frozen PR136 head pending that
-integration. The fixed-two package above supplies an all-order extension of
+source corrections through Y9. It then extends that witness through order
+fifteen, preserving maps and source corrections through order thirteen.
+Standard-library literal replays check all 4096 source terms at each order.
+The checkpoint is based on the frozen PR136 head pending that integration.
+The fixed-two package above supplies an all-order extension of
 its own specified coefficients on d nonzero. The earlier polynomial curve
 changes boundary velocity and has a broader parameter chart. Full local
 regression and historical replay remain required before integration. The

@@ -23,6 +23,7 @@ class ConicHigherJetTests(unittest.TestCase):
     def setUpClass(cls):
         cls.rational = json.loads((RESULTS/'rational-ten-jet.json').read_text())
         cls.fourteen = json.loads((RESULTS/'rational-fourteen-jet.json').read_text())
+        cls.fifteen = json.loads((RESULTS/'rational-fifteen-jet.json').read_text())
         cls.symbolic = json.loads((RESULTS/'mixed-fourth-family.json').read_text())
         cls.r = load('verify')
         cls.s = load('verify_symbolic')
@@ -53,6 +54,27 @@ class ConicHigherJetTests(unittest.TestCase):
         entry[2] = str(Fraction(entry[2])+1)
         with self.assertRaisesRegex(ValueError, 'fixed prefix'):
             self.r.verify(bad)
+
+    def test_rational_fifteen_jet_extends_the_fourteenth_jet(self):
+        report = self.r.verify(self.fifteen, self.fourteen)
+        self.assertEqual(report, json.loads((RESULTS/'rational-fifteen-verification.json').read_text()))
+        self.assertEqual(report['jet_order'], 15)
+        self.assertEqual(report['positive_orders_checked'], 15)
+
+    def test_fifteen_jet_terminal_maps_and_kernel_are_checked(self):
+        for key in ('B', 'source_row_corrections'):
+            bad = copy.deepcopy(self.fifteen)
+            entry = bad['witness'][key][-1]['entries'][0]
+            entry[2] = str(Fraction(entry[2])+1)
+            with self.assertRaisesRegex(ValueError, 'order 15'):
+                self.r.verify(bad, self.fourteen)
+
+    def test_fifteen_jet_must_preserve_the_fourteenth_prefix(self):
+        bad = copy.deepcopy(self.fifteen)
+        entry = bad['witness']['B'][13]['entries'][0]
+        entry[2] = str(Fraction(entry[2])+1)
+        with self.assertRaisesRegex(ValueError, 'previous B prefix'):
+            self.r.verify(bad, self.fourteen)
 
     def test_symbolic_four_jet_replays_every_parameter(self):
         report = self.s.verify(self.symbolic)

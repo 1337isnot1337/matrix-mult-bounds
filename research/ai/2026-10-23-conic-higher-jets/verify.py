@@ -89,7 +89,7 @@ def contract(left, right, terms):
     return {index:value for index,value in result.items() if value}
 
 
-def verify(record):
+def verify(record, previous=None):
     if record['parameters'] != {'a':'1','b':'2','d':'1'}:
         raise ValueError('this witness is for the stated rational point only')
     jet = record['witness']
@@ -137,6 +137,22 @@ def verify(record):
     for k in range(len(baseline_y)-1):
         if ys[k] != baseline_y[k]:
             raise ValueError(f'changed fixed prefix in source correction Y{k+1}')
+    if previous is not None:
+        if previous['parameters'] != record['parameters']:
+            raise ValueError('previous witness has a different parameter point')
+        parent = previous['witness']
+        parent_order = len(parent['source_row_corrections'])
+        if order != parent_order+1:
+            raise ValueError('previous witness must have one lower order')
+        for key,maps in (('B',bs),('C',cs)):
+            parent_maps = [decode(matrix,(14,112)) for matrix in parent[key]]
+            for k in range(len(parent_maps)-1):
+                if maps[k] != parent_maps[k]:
+                    raise ValueError(f'changed previous {key} prefix at order {k}')
+        parent_y = [decode(matrix,(100,12)) for matrix in parent['source_row_corrections']]
+        for k in range(len(parent_y)-1):
+            if ys[k] != parent_y[k]:
+                raise ValueError(f'changed previous source correction Y{k+1}')
     terms = source_terms()
     first = [28*i+7*j+z for i,j,z in product((1,2),(1,2),(0,3,6))]
     outside = [i for i in range(112) if i not in first]
@@ -163,9 +179,12 @@ def verify(record):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('witness',type=Path)
+    parser.add_argument('--previous',type=Path,
+                        help='optional immediately preceding exact jet to extend')
     parser.add_argument('--output',type=Path)
     args = parser.parse_args()
-    report = verify(json.loads(args.witness.read_text()))
+    previous = json.loads(args.previous.read_text()) if args.previous else None
+    report = verify(json.loads(args.witness.read_text()),previous)
     if args.output:
         args.output.parent.mkdir(parents=True,exist_ok=True)
         args.output.write_text(json.dumps(report,indent=2)+'\n')

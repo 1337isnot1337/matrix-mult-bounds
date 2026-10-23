@@ -28,12 +28,12 @@ Its boundary
 velocity differs from the credited first jet. The separate
 [higher-conic witnesses](../research/ai/2026-10-23-conic-higher-jets/proof.md)
 extend specified lower coefficients through order four universally for
-d nonzero and through order fourteen at a=1,b=2,d=1. The order-fourteen
-jet fixes the ten-jet coefficients through order nine, then varies later
-ones. Determine whether this repeated finite continuation has an exact
-algebraic description or a genuine next-order obstruction under the full
-tangent freedom, then connect this rank-twelve incidence to the full matrix
-target. The all-order local curve alone
+d nonzero and through order fifteen at a=1,b=2,d=1. The order-fourteen jet
+fixes the ten-jet coefficients through order nine; the order-fifteen jet
+continues it through order thirteen. Determine whether this repeated finite
+continuation has an exact algebraic description or a genuine next-order
+obstruction under the full tangent freedom, then connect this rank-twelve
+incidence to the full matrix target. The all-order local curve alone
 does not construct M(10,10,11). Concurrent PR123 retains its separate
 exact d=0 curve preserving its credited two-jet.
 

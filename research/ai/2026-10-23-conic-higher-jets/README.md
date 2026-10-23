@@ -1,6 +1,6 @@
 # Higher conic jets
 
-The [proof](proof.md) supplies three explicit finite incidence constructions:
+The [proof](proof.md) supplies four explicit finite incidence constructions:
 
 - A fourth-order family for every complex a,b,d with d nonzero and c=-d^3.
   Its coefficients through order two equal PR107's mixed family.
@@ -9,6 +9,8 @@ The [proof](proof.md) supplies three explicit finite incidence constructions:
 - A fourteenth-order rational jet at the same point. It retains the ten-jet
   witness through map order nine and source-correction order nine, then varies
   later coefficients.
+- A fifteenth-order rational jet extending the fourteen-jet through map order
+  thirteen and source corrections through Y13.
 
 These are rank-twelve incidence jets of two fourteen-row maps. They
 do not give an all-order curve, the full matrix target, or a smaller
@@ -19,6 +21,7 @@ Run acceptance from the repository root with the maintained requirements:
 ```sh
 python research/ai/2026-10-23-conic-higher-jets/verify.py results/conic-higher-jets-2026-10-23/rational-ten-jet.json
 python research/ai/2026-10-23-conic-higher-jets/verify.py results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json
+python research/ai/2026-10-23-conic-higher-jets/verify.py results/conic-higher-jets-2026-10-23/rational-fifteen-jet.json --previous results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json
 python research/ai/2026-10-23-conic-higher-jets/verify_symbolic.py results/conic-higher-jets-2026-10-23/mixed-fourth-family.json
 python -m unittest discover -s tests -p test_conic_higher_jets.py -v
 ```
@@ -33,6 +36,7 @@ Discovery can be rerun separately:
 python research/ai/2026-10-23-conic-higher-jets/discover_fourth.py --allow-third --symbolic --output results/local/conic-fourth-discovery.json
 python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --allow-third --through-order 10 --output results/local/conic-ten-discovery.json
 python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --allow-third --through-order 14 --input results/conic-higher-jets-2026-10-23/rational-ten-jet.json --output results/local/conic-fourteen-discovery.json
+python research/ai/2026-10-23-conic-higher-jets/discover_higher.py --allow-third --order 15 --input results/conic-higher-jets-2026-10-23/rational-fourteen-jet.json --output results/local/conic-fifteen-discovery.json
 ```
 
 The `--allow-third` flag in the generic continuation permits tangent

@@ -1,4 +1,4 @@
-# Fourth-order family and rational tenth- and fourteenth-order conic jets
+# Fourth-order family and rational tenth-, fourteenth- and fifteenth-order conic jets
 
 October 23, 2026. Owner-directed OpenAI Codex work. The claims below are
 written and unreviewed.
@@ -136,15 +136,39 @@ coefficient before varying the next tangent; they do not obstruct an
 order-fifteen extension. The reduced rank and residual are discovery data,
 not premises of the finite order-fourteen claim.
 
+## A fifteenth-order continuation
+
+**Claim AI-CONIC-RATIONAL-FIFTEENTH-JET-004.** At the same rational point,
+the accepted order-fourteen witness extends through order fifteen. The new
+jet preserves its map coefficients at orders zero through thirteen and its
+source corrections Y1 through Y13, while allowing the order-fourteen
+coefficient to change. The witness is
+`results/conic-higher-jets-2026-10-23/rational-fifteen-jet.json`.
+
+The standard-library verifier checks the preserved prefix, rebuilds all
+4096 literal source terms, and verifies the leading ranks and all 19,600
+moving-kernel coordinates at each of orders one through fifteen over Q.
+The identities hold over Q[t]/(t^16) and after extending scalars to C.
+
+At this step discovery again allowed all seventy tangent fields and reduced
+to a 379-by-71 system of rank 50. The selected order-fifteen coefficient
+has 680 nonzero order-sixteen residual entries before the next tangent is
+varied. This is not an order-sixteen obstruction; that full compatibility
+question remains open.
+
 ## Scope and next question
 
 All results concern rank-twelve incidence of two fourteen-row maps of
 the canonical 112-cubed source. They do not construct the full
-M(10,10,11) target, prove an all-order formal curve, or improve omega.
-The symbolic statement covers order four; orders ten and fourteen are
-established only at the specified rational point. Compatibility at order
-fifteen after varying the full tangent freedom remains open. The d=0 cubic
-fiber is outside
+M(10,10,11) target or continue the selected order-ten/fourteen/fifteen
+coefficients to all orders. The separate fixed-two-jet construction
+`research/ai/2026-10-23-conic-fixed-two-curve/proof.md` preserves PR107's
+supplied coefficients through order two, but is not claimed to preserve
+these selected later coefficients. No exponent improvement is established.
+The symbolic statement covers order four; orders ten, fourteen and fifteen
+are established only at the specified rational point. Compatibility at
+order sixteen after varying the full tangent freedom remains open. The d=0
+cubic fiber is outside
 these witnesses. Concurrent [PR123](https://github.com/1337isnot1337/matrix-mult-bounds/pull/123)
 at16025c8148d335ba64a0de8824780f72b9cf5ccc supplies a separate exact
 curve on that fiber; that result is not claimed here.
@@ -158,6 +182,6 @@ claimed in this package.
 PR101 retains credit for the source, conic base, normal fields and tangent
 operators. PR107 retains credit for the mixed third-order family and
 its acceptance design. This package adds the displayed third correction,
-fourth coefficients and rational continuation through order fourteen. The
+fourth coefficients and rational continuation through order fifteen. The
 verifiers were prepared in the same generating session; separate source
 replay is not independent mathematical review or formalization.
