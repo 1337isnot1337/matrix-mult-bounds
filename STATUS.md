@@ -13,6 +13,15 @@ condition `5r<2(a+b)` to equality. This written unreviewed sharpness result
 does not decide the Segre-image bound at equality, change the ordinary
 matrix-target frontier or improve the exponent below 9/4.
 
+The same package [classifies all linear extensions of this seed](research/ai/2026-10-23-hankel-index-sharpness/extensions.md)
+in characteristic zero. The unique maximal space has dimension 2epsilon,
+and every common tangent direction integrates inside that exact linear
+space. At A10 it is the four-space supported at moments 3,7,11,15, with
+ranks zero, four or eight. A linear Segre ruling containing the prescribed
+pencil therefore has dimension at most four. Arbitrary quadratic pencils
+and the general boundary Segre-image problem remain unclassified; these
+are written unreviewed results.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)

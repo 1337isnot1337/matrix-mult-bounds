@@ -17,3 +17,9 @@ It does not seek or assert a matrix tensor restriction or degeneration.
 The existing rank-seven 8-by-8 quadratic-pencil control retains credit.
 The new question concerns equality in the degree budget, including the
 10-by-10 rank-eight boundary, and arbitrary degree and rectangular size.
+
+Follow-up: classify every linear Hankel space of rank at most r that
+contains the complete constructed pencil. Can the common tangent
+equations be both necessary and sufficient for this extension problem?
+The answer should bound a Segre ruling anchored to this exact seed,
+without assuming that other quadratic pencils are equivalent to it.

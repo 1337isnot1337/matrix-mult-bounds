@@ -294,7 +294,10 @@ The [sharp pencil family](../research/ai/2026-10-23-hankel-index-sharpness/proof
 now realizes every integer equality in the Hankel annihilator degree
 budget. At `(a,b,r)=(10,10,8)` it has constant projective rank and
 quadratic annihilator, so a weak-inequality extension of the prior
-pencil-linearity argument is false. Investigate genuinely bilinear
-Segre images with quadratic annihilators if continuing that boundary.
-The family alone neither changes the ordinary target frontier nor
-decides the separate A9 square-sum equality question.
+pencil-linearity argument is false. Every linear Hankel extension of this
+prescribed seed is now classified: the unique maximal one has dimension
+2epsilon, equal to four at A10. Do not try to grow a larger linear ruling
+while retaining this entire pencil. Other quadratic pencils and genuinely
+bilinear Segre images remain open. These results neither change the
+ordinary target frontier nor decide the separate A9 square-sum equality
+question.
