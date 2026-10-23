@@ -84,6 +84,28 @@ def main() -> None:
     def quadratic_evaluation(point: list[int]) -> list[int]:
         return [point[left] * point[right] for left, right in quadratic_pairs]
 
+    def determinant_3x3(matrix: list[list[int]]) -> int:
+        return (
+            matrix[0][0]
+            * (matrix[1][1] * matrix[2][2] - matrix[1][2] * matrix[2][1])
+            - matrix[0][1]
+            * (matrix[1][0] * matrix[2][2] - matrix[1][2] * matrix[2][0])
+            + matrix[0][2]
+            * (matrix[1][0] * matrix[2][1] - matrix[1][1] * matrix[2][0])
+        )
+
+    def collinear_triple(indices: tuple[int, ...]) -> tuple[int, int, int] | None:
+        for triple in itertools.combinations(indices, 3):
+            if all(
+                determinant_3x3(
+                    [[points[index][coordinate] for coordinate in columns] for index in triple]
+                )
+                == 0
+                for columns in itertools.combinations(range(4), 3)
+            ):
+                return triple
+        return None
+
     def multiply_quadric_linear(
         quadric: list[Fraction], linear: list[int]
     ) -> list[Fraction]:
@@ -173,10 +195,23 @@ def main() -> None:
     assert rank([points[index] for index in example_indices], 4) == 4
 
     seven_by_dimension: dict[str, list[list[int]]] = {}
+    collinear_counts: dict[str, Counter[str]] = {}
+    syzygy_candidates_with_collinear_witnesses: list[dict[str, list[int]]] = []
     for indices, dimension in seven_sets.items():
         seven_by_dimension.setdefault(str(dimension), []).append(
             [index + 1 for index in indices]
         )
+        triple = collinear_triple(indices)
+        counts = collinear_counts.setdefault(str(dimension), Counter())
+        counts["with_collinear_triple" if triple is not None else "without_collinear_triple"] += 1
+        if dimension >= 2:
+            assert triple is not None
+            syzygy_candidates_with_collinear_witnesses.append(
+                {
+                    "indices_one_based": [index + 1 for index in indices],
+                    "collinear_triple_one_based": [index + 1 for index in triple],
+                }
+            )
 
     larger_sets: dict[str, dict[str, object]] = {}
     for size in (8, 9, 10):
@@ -216,6 +251,13 @@ def main() -> None:
             key: {"count": len(value), "sets_one_based": value}
             for key, value in sorted(seven_by_dimension.items(), key=lambda item: int(item[0]))
         },
+        "seven_point_sets_by_syzygy_dimension_and_collinearity": {
+            key: dict(sorted(counts.items(), key=lambda item: item[0]))
+            for key, counts in sorted(collinear_counts.items(), key=lambda item: int(item[0]))
+        },
+        "all_seven_point_sets_passing_syzygy_necessary_condition_have_collinear_triple": True,
+        "candidate_sets_and_collinear_triple_witnesses": syzygy_candidates_with_collinear_witnesses,
+        "no_seven_target_points_lie_on_a_smooth_twisted_cubic": True,
         "seven_point_curve_incidence_example": {
             "indices_one_based": [index + 1 for index in example_indices],
             "common_quadratic_basis_coefficients": [

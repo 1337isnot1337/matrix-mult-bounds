@@ -67,8 +67,9 @@ common varying shared-space change of basis. This narrows one decomposition
 route. General Laurent-polynomial degenerations, cancellations, collisions,
 and other target decompositions remain open. A seven-point Hilbert-Burch
 flat-limit example shows that point-set curve containment alone cannot
-improve the bound; a stronger test needs node alignment or information from
-other factor spaces.
+improve the bound. Every seven-set passing the necessary syzygy screen has a
+collinear triple, so any seven-point limit must be singular. A stronger test
+needs node alignment or information from other factor spaces.
 
 Update, October 20: [closed Koszul rank formulas](../research/ai/2026-10-20-koszul/research_note.md)
 reject all 85 saved second-pass packings, including the former optimum. Use

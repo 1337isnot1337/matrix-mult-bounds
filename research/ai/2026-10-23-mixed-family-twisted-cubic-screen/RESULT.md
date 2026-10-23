@@ -82,6 +82,16 @@ tensor degeneration. The exact generic/special-fiber checks are recorded in
 The matching Hilbert numerators give the same Hilbert function in every
 degree, which certifies flatness at the special fiber.
 
+There is also a boundary requirement for any seven-point match. The
+certificate checks every three-by-three minor of the coordinate matrix for
+each seven-set. All 52 sets whose syzygy dimension is at least two contain a
+collinear triple; witness triples are recorded in the certificate. Three
+distinct points on a smooth twisted cubic are linearly independent (for
+finite parameters this is the Vandermonde determinant, with the point at
+infinity handled directly). Thus no seven of these target points lie on a
+smooth twisted cubic. Any seven-point incidence limit must use a singular
+special fiber, as in the explicit Hilbert-Burch example above.
+
 ## Incidence argument
 
 For a twisted cubic in projective three-space, the three-dimensional space of

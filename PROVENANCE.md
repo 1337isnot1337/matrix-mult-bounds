@@ -929,7 +929,9 @@ ten projective points are copied from `rank10-shared-points.json` at commit
 recorded in the new input file. A standard-library verifier uses exact
 rational row reduction to classify all 120 seven-point subsets and every
 larger subset, plus an explicit seven-point Hilbert-Burch example showing
-the point-set incidence cap is tight. The Grassmannian and flat-limit
-arguments are written locally and are not external-source claims. This
-result is route-specific, unreviewed, and does not imply a general
-degeneration obstruction or exponent improvement.
+the point-set incidence cap is tight. An exact collinearity screen shows
+that every seven-point set passing the syzygy condition requires a singular
+limit curve. The Grassmannian and flat-limit arguments are written locally
+and are not external-source claims. This result is route-specific,
+unreviewed, and does not imply a general degeneration obstruction or
+exponent improvement.

@@ -30,7 +30,9 @@ general degeneration, cancellations, collisions or other target
 decompositions, and does not improve the exponent. A specified seven-point
 subset lies on a Hilbert-Burch flat-limit curve, so point-set curve
 containment alone cannot strengthen this count; its evaluation-node
-parameters are not aligned by that example.
+parameters are not aligned by that example. Every seven-set passing the
+syzygy screen contains a collinear triple, so no such set lies on a smooth
+twisted cubic; seven-point candidates require a singular special fiber.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 
