@@ -64,6 +64,17 @@ fourth-order and all-order results with explicit lower-jet distinctions.
 This remains local rank-twelve incidence; no full matrix-target
 construction follows.
 
+The asymmetric-boundary continuation studies
+`ai/2026-10-23-asymmetric-boundary/QUESTION.md`. The nonzero rank-four
+conditioned branch forces the smaller first span to be H tensor C2.
+Both joint supports of every non-plane joint-zero core are at least three;
+a sharp one-sided zero-or-four gap excludes that entire joint-zero branch
+from the12-by8 target third-rank ceiling. Next: classify the rank-two locus
+of the42-by6 conditioned matrix M and construct its actual third tensor.
+The conic-lifting investigation remains with its active worker. These are
+written, unreviewed reductions; the full asymmetric case and exponent
+improvement remain open.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

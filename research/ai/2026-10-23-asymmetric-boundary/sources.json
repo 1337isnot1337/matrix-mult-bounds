@@ -1,0 +1,69 @@
+{
+  "base_main": "d833eb0265a3e107636e8a0678c14fc07df812c2",
+  "field": "C",
+  "external_theorems": [],
+  "local_dependencies": [
+    {
+      "path": "requirements.txt",
+      "sha256": "59d34eb05abc6781b15b5f959632b781f3f8fdcb7c349fc4e25a1e11cffecd58"
+    },
+    {
+      "path": "research/ai/2026-10-21-biform-third-core/proof.md",
+      "sha256": "7234fce9e82a02dc8b372950fc4ab915e161bcd169449bd46058a1eecc9a9dbb"
+    },
+    {
+      "path": "research/ai/2026-10-21-biform-third-core/verify.py",
+      "sha256": "a406eace1c8eb4422feb37bf4d37f24d394dcec72f4204bfcc780ce8644fc7e6"
+    },
+    {
+      "path": "research/ai/2026-10-21-boundary-hyperplanes/proof.md",
+      "sha256": "995243d695620507e0d1b62db194d358e7c6e0eab0aca174cfe239f59155971d"
+    },
+    {
+      "path": "research/ai/2026-10-21-mixed-first-jets/pencil_frontier.md",
+      "sha256": "0ccd62ee2f1155705ea2f93123ca45b493968e566914c6e1c59bbec27ec81efe"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/minimum_rank.py",
+      "sha256": "3e06a8915eb016a239bfd2701d990bd5ee1e9c81e7c1d09b8a9f551565b6e60e"
+    },
+    {
+      "path": "research/ai/2026-10-21-moving-boundary-flags/normal_directions.py",
+      "sha256": "443d82bf94901e210b694966dbf4d0d69fdb35f0c715bd9f75b088223818f689"
+    },
+    {
+      "path": "research/ai/2026-10-21-quantum-extension-spaces/extensions.py",
+      "sha256": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c"
+    },
+    {
+      "path": "research/ai/2026-10-21-second-jet-rank-one/rank_deficit.md",
+      "sha256": "1ad4aff7826d82ad83a3cffaa004231b46027be6e1ecddd8642f37bca4bd83c8"
+    },
+    {
+      "path": "research/ai/2026-10-21-third-boundary-trap/proof.md",
+      "sha256": "5d893f86451174fb27f0206b788218a837be460499ad4ab661c83eb9a84d35b9"
+    },
+    {
+      "path": "results/biform-third-core-2026-10-21/conditioned_obstructions.json",
+      "sha256": "3cccf831260376667e0fefa3651325d734503039451db8ac7c2e263291a8a5f9"
+    },
+    {
+      "path": "results/biform-third-core-2026-10-21/structure.json",
+      "sha256": "96a0d4ebf1f4f309324e850a58a9e0d8b25713658d5be6e97fbb27bc9bce7149"
+    },
+    {
+      "path": "results/boundary-hyperplanes-2026-10-21/matrix_space.json",
+      "sha256": "7106cb2595abe0ea85d4cec1f58e53be4791131cc99a4fa3edbcc82f349fccb3"
+    },
+    {
+      "path": "results/third-boundary-trap-2026-10-21/block.json",
+      "sha256": "22c83e333cdd3f33b9865d912a1906b8af8eabeb2493dd5892da4706d837033f"
+    },
+    {
+      "path": "results/third-boundary-trap-2026-10-21/normal.json",
+      "sha256": "ab8cd86fe7df43b075011cfa00da73d6cdb03ff66d053192382c9a5ee6bc71a4"
+    }
+  ],
+  "credit": "The canonical source and complete first-normal system are inherited from the moving-boundary and third-boundary-trap packages. The biform core, rank-one exclusion, core minimum first rank two, conditioned minimum four and target first-rank ceiling two retain their predecessor credit. This continuation supplies the auxiliary split, joint support certificates and one-sided projection lemma. Prepared with OpenAI Codex under owner direction; no independent review or exponent improvement.",
+  "discovery_controls": "The original fifth-order repeated triangular-minor pilot on the 100-parameter conditioned matrix found no usable repeated-form minors. A full rank-four classification is not claimed. An exploratory Groebner run was superseded by the exact degree-three coefficient span; acceptance does not use it."
+}

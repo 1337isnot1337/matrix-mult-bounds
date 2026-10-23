@@ -97,6 +97,20 @@ lifts and all-order existence for the normal class, with their distinct
 lower-coefficient conditions. The full matrix target remains open.
 No smaller exponent is established.
 
+## Asymmetric boundary support and auxiliary product reductions
+
+The [asymmetric reduction](research/ai/2026-10-23-asymmetric-boundary/proof.md)
+proves a universal auxiliary split on the complete100-dimensional
+full-side normal kernel. A nonzero rank-four obstruction forces the
+smaller eight-dimensional first span to be H tensor C2 for a four-plane H.
+Separately, both joint supports of every non-plane core in the preceding
+28-dimensional joint-zero family have dimension at least three, certified
+by two complete cubic coefficient determinants. A sharp one-sided
+zero-or-four projection gap then excludes this joint-zero branch from
+the12-by8 target third-rank ceiling. The nonzero rank-four branch and the
+full asymmetric problem remain open. Claims are written and unreviewed;
+no exponent improvement or full target construction is established.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

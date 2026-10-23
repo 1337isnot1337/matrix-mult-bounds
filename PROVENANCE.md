@@ -57,6 +57,17 @@ come from the same generating session; their separate implementation
 does not constitute independent mathematical review or formalization.
 No all-order mixed curve, full matrix target or exponent gain is claimed.
 
+The `2026-10-23-asymmetric-boundary` package continues the credited
+moving-boundary and biform third-core normal systems. It supplies an exact
+auxiliary splitting, two joint-support cubic certificates and a one-sided
+projection lemma with its stated asymmetric application. The canonical
+source, first-normal system, conditioned minimum four, biform core,
+rank-one exclusion and target third-rank ceiling retain predecessor credit
+and exact source pins. No new external theorem is imported. All proofs,
+code and verification were prepared with OpenAI Codex under owner direction;
+no independent review, formalization, priority or exponent gain is claimed.
+The nonzero rank-four asymmetric branch remains open.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
