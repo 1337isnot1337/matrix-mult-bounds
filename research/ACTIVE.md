@@ -1,5 +1,26 @@
 # Integrated research coordination
 
+The S5 finite-cover continuation is on `research/s5-finite-power-covers-20261023`
+(PR111), with its question and exact proof in `ai/2026-10-23-s5-finite-covers/`.
+Separate weights give actual-source cube bounds 6867542 and 42493572 for
+S5 x C2 and S5 x C2^2, closing the selected one-copy M19 coordinate target
+and 38 additional frontier shapes. M(13,14,14) remains open. Five focused
+tests pass; full regression, archive replay and current-head hosted CI are
+the remaining integration checks. All claims are written and unreviewed,
+with no arbitrary-complex or higher-source-power exclusion or exponent gain.
+
+The partial-unit-image continuation studies
+`ai/2026-10-23-regular-unit-image/QUESTION.md` on
+`research/regular-unit-image-20261023`. The written all-order argument
+compresses to 109 independent unit-image directions and recovers the
+entire long map through varying left inverses. It replaces an invertible
+A4 unit by `rank(S(0) C(0))>=109`, including corank-one unit slices.
+Exact matrix controls, all849 local tests (three optional skips) and
+all five archive replays pass. Final-head hosted CI is pending;
+the proof remains unreviewed. Rank108 is an equality boundary of this
+method. Singular long-leg limits and polar units remain open; no general
+degeneration or exponent claim.
+
 ## Actual nonsplit finite covers: October 23 continuation
 
 Main and all open PRs checked at `d833eb0`. The owned

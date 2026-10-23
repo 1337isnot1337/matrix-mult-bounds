@@ -9,6 +9,18 @@ Flanders/Meshulam/de Seguins Pazzis credit through the preceding split-cover
 proof. No independent review, optimality, general complex exclusion,
 historical priority or exponent improvement is claimed.
 
+The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
+work. The canonical cyclic source, its all-size minimum nonzero slice
+rank, the ordinary A4 exclusion and the earlier normalized Laurent rank
+lemma are prior repository work, retained with exact byte pins and their
+original credit. Independent source frame completions for a partial unit
+image, compressed target rank margins, recovery through varying left
+inverses and the weaker A4 unit-image hypothesis are local continuations.
+Only elementary linear algebra and formal Laurent coefficients are used;
+no new external theorem, historical priority or independent mathematical
+review is claimed. Finite exact controls support the written unreviewed
+proof and do not establish a matrix target or exponent improvement.
+
 The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
 work using the maintained literal cyclic convolution source and its open
 singular target. The interval-block proof and finite Krylov/Bezout and
