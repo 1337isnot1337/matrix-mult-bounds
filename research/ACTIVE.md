@@ -20,6 +20,11 @@ point passes standard-library replay. Next: the d=0 cubic fiber and
 fourth-order compatibility allowing lower-jet freedoms. This is local
 rank-twelve incidence; no all-order lift or matrix-target construction
 follows.
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
 
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
