@@ -8,6 +8,13 @@ dimension lower bound. Combined with PR169, this gives both upper and
 lower bounds on the source ranks. Neither bound is asserted to be exact
 in the remaining intermediate degrees.
 
+The [cokernel calculation](cokernel.md) gives a second all-degree source
+upper bound. In the intermediate interval it identifies the exact
+missing term as the first cohomology of the kernel bundle. Matching
+literal modular lower ranks and this upper bound certify complex
+ranks 70, 18819 and 6660 at (a,p)=(2,3),(3,10),(3,11). The upper bound
+need not be exact at other degrees.
+
 Exact controls check every exterior degree of the restricted source at
 a2 and a3, with modular lower ranks and independent integer kernels.
 The first-kernel witnesses embed into 4 and 45 independent full-source

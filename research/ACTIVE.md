@@ -6,10 +6,11 @@ The sharp-kernel continuation is in
 `research/paired-kernel-01a168f9`. It continues PR169 without changing its
 worktree while the full local regression runs. A written all-field proof
 gives a fixed-short-input kernel formula and makes the full-column
-endpoint sharp for every a. Five focused tests pass, including 45
+endpoint sharp for every a. A cokernel Euler formula isolates the exact
+intermediate-rank gap as H^1 of the kernel bundle. Six focused tests pass, including 45
 independent source kernels at a=3 and all 25,254 target-bound comparisons.
 The screen leaves all 28 matrix targets unresolved. Next: coupled short
-directions or sharper intermediate-degree kernel information. Do not
+directions and bounds on this H^1, including the extension maps. Do not
 count the fixed-input lower bound as a complete source kernel formula.
 
 The paired-long-leg continuation studies

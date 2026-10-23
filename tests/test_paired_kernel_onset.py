@@ -23,6 +23,8 @@ class PairedKernelOnsetTests(unittest.TestCase):
         receipt = verifier.verify_certificate(self.certificate)
         self.assertEqual(receipt['restricted_exact_complex_ranks'], 15)
         self.assertEqual(receipt['critical_full_source_integer_kernels'], [4, 45])
+        self.assertEqual(receipt['cokernel_exact_complex_ranks'], [70, 18819, 6660])
+        self.assertEqual(receipt['euler_characteristic_controls'], 378)
         self.assertFalse(receipt['all_size_proof_formalized'])
 
     def test_complete_pinned_target_comparison_replay(self):
@@ -44,6 +46,13 @@ class PairedKernelOnsetTests(unittest.TestCase):
             lower, upper = verifier.rank_bounds(2, p)
             self.assertLessEqual(lower, rank)
             self.assertGreaterEqual(upper, rank)
+
+    def test_cokernel_bound_and_remaining_extension_gap(self):
+        self.assertEqual(verifier.cokernel_rank_upper(2, 3), 70)
+        self.assertEqual(verifier.cokernel_rank_upper(3, 10), 18819)
+        self.assertEqual(verifier.cokernel_rank_upper(3, 11), 6660)
+        self.assertEqual(verifier.cokernel_rank_upper(3, 7), 57915)
+        self.assertLess(verifier.rank_bounds(3, 7)[1], 57915)
 
     def test_corrupt_integer_kernel_and_independence_are_rejected(self):
         witness = next(c for c in self.certificate['finite_exact_controls']

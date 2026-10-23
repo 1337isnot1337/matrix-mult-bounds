@@ -190,6 +190,10 @@ directions. Its exact screen of the pinned 28-target frontier excludes
 no target. The source lower bound settles 2,970 intermediate comparisons
 beyond the endpoint intervals; the rest remain undecided. A stronger
 route must control coupled short directions or supply target maps.
+The [cokernel identity](../research/ai/2026-10-23-paired-kernel-onset/cokernel.md)
+makes the intermediate source-rank gap exactly H^1 of the kernel bundle,
+with the other rank terms explicit. Controlling its connecting maps is
+the next precise obstruction question; the Euler bound alone is insufficient.
 
 The [two-block paired frontier](../research/ai/2026-10-20-paired-direct-sums/README.md)
 supplies a smaller source-size construction question. The complete

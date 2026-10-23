@@ -1,9 +1,9 @@
 {
-  "schema": "paired-fixed-short-kernels-v1",
+  "schema": "paired-fixed-short-kernels-v2",
   "proof_status": "proof-written-unreviewed",
   "restricted_kernel_formula": "binom(a*(a-1),r-a)*max(r-a*(a-1),0)",
   "full_column_range_is_sharp_over_every_field": true,
-  "all_degree_source_upper_bound": "short-domain dimension minus padded fixed-input kernels, capped by row dimension",
+  "all_degree_source_upper_bound": "minimum of the fixed-input kernel, cokernel Euler and row/domain dimension bounds",
   "finite_exact_controls": [
     {
       "a": 2,
@@ -615,6 +615,27 @@
       ]
     }
   ],
+  "cokernel_exact_controls": [
+    {
+      "a": 2,
+      "degree": 3,
+      "mod2_rank": 70,
+      "exact_complex_rank": 70
+    },
+    {
+      "a": 3,
+      "degree": 10,
+      "mod2_rank": 18819,
+      "exact_complex_rank": 18819
+    },
+    {
+      "a": 3,
+      "degree": 11,
+      "mod2_rank": 6660,
+      "exact_complex_rank": 6660
+    }
+  ],
+  "euler_characteristic_controls": 378,
   "complete_source_kernel_formula": false,
   "independent_review": false,
   "lean_formalized": false,

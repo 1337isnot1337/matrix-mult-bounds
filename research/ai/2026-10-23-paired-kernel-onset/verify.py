@@ -40,10 +40,22 @@ def kernel_lower(a, p):
 
 
 @lru_cache(None)
+def cokernel_euler(a, p):
+    D, h = a-1, 2*a-1
+    return sum(a*(choose(h, k+1)-choose(h, k))*choose(D*h, p-k)
+               *(p+D-a*k+1) for k in range(-1, a-1))
+
+
+def cokernel_rank_upper(a, p):
+    N = a*(2*a-1)
+    return min(a*a*choose(N, p), N*choose(N, p+1)-max(cokernel_euler(a, p), 0))
+
+
+@lru_cache(None)
 def rank_bounds(a, p):
     N = a*(2*a-1)
     lower = bundle.source_rank_lower(a, p)
-    upper = min(a*a*choose(N, p)-kernel_lower(a, p), N*choose(N, p+1))
+    upper = min(a*a*choose(N, p)-kernel_lower(a, p), cokernel_rank_upper(a, p))
     if not 0 <= lower <= upper:
         raise ValueError('the proved source bounds are inconsistent')
     return lower, upper
@@ -108,12 +120,32 @@ def build_certificate():
                 if record['independent_full_source_kernels'] != a*choose(a*(a-1), a-1):
                     raise ValueError('critical global kernel count is wrong')
             controls.append(record)
-    return {'schema': 'paired-fixed-short-kernels-v1',
+    cokernel_controls = []
+    for a, p in [(2, 3), (3, 10), (3, 11)]:
+        lower = bundle.source_rank_mod2(a, p)
+        upper = cokernel_rank_upper(a, p)
+        if lower != upper:
+            raise ValueError('literal source rank does not attain the cokernel bound')
+        cokernel_controls.append({'a': a, 'degree': p, 'mod2_rank': lower,
+                                  'exact_complex_rank': upper})
+    euler_controls = 0
+    for a in range(2, 9):
+        D, h = a-1, 2*a-1
+        N = a*h
+        for p in range(N+1):
+            kernel_euler = sum(a*(choose(h, k)-choose(h, k+1))*choose(D*h, p-k)
+                               *(p+D-a*k+1) for k in range(a, h+1))
+            if kernel_euler-cokernel_euler(a, p) != a*a*choose(N, p)-N*choose(N, p+1):
+                raise ValueError('kernel and cokernel Euler characteristics do not conserve dimensions')
+            euler_controls += 1
+    return {'schema': 'paired-fixed-short-kernels-v2',
             'proof_status': 'proof-written-unreviewed',
             'restricted_kernel_formula': 'binom(a*(a-1),r-a)*max(r-a*(a-1),0)',
             'full_column_range_is_sharp_over_every_field': True,
-            'all_degree_source_upper_bound': 'short-domain dimension minus padded fixed-input kernels, capped by row dimension',
+            'all_degree_source_upper_bound': 'minimum of the fixed-input kernel, cokernel Euler and row/domain dimension bounds',
             'finite_exact_controls': controls,
+            'cokernel_exact_controls': cokernel_controls,
+            'euler_characteristic_controls': euler_controls,
             'complete_source_kernel_formula': False,
             'independent_review': False, 'lean_formalized': False, 'improves_omega': False}
 
@@ -137,6 +169,8 @@ def verify_certificate(certificate):
         raise ValueError('certificate differs from exact source regeneration')
     return {'verified': True, 'restricted_exact_complex_ranks': 15,
             'critical_full_source_integer_kernels': [4, 45],
+            'cokernel_exact_complex_ranks': [70, 18819, 6660],
+            'euler_characteristic_controls': 378,
             'all_size_proof_formalized': False, 'improves_omega': False}
 
 

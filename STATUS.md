@@ -12,6 +12,14 @@ a binom(a(a-1),a-1)>0; the restricted construction remains nonzero in
 every later degree. Claim `AI-PAIRED-KERNEL-ONSET-002` is written and
 unreviewed. The full coupled source kernel remains unresolved.
 
+The [cokernel Euler calculation](research/ai/2026-10-23-paired-kernel-onset/cokernel.md)
+gives a second all-degree source rank upper bound. Throughout the remaining
+intermediate interval, the exact missing term is h^1 of the filtered
+kernel bundle, with every other term explicit. Three matching literal
+modular ranks certify exact complex ranks 70,18819,6660 at
+(a,p)=(2,3),(3,10),(3,11). Claim `AI-PAIRED-COKERNEL-EULER-004` is
+written and unreviewed; the extension maps remain unresolved.
+
 An [exact bound screen](results/paired-kernel-onset-2026-10-23/target-screen.json)
 makes 25,254 rank comparisons on the pinned 28-target frontier through
 a=16. It settles 2,970 intermediate-degree comparisons beyond the two

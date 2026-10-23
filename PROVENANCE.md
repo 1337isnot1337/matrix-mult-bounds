@@ -3,7 +3,9 @@
 The `2026-10-23-paired-kernel-onset` package continues the explicitly
 pinned PR169 bundle proof and maintained paired-source convention. The
 fixed-input kernel formula, full-source padding, sharp onset and bounded
-target comparison are owner-directed Codex work. The projective-line
+target comparison are owner-directed Codex work. Its cokernel Euler
+formula isolates the remaining first-cohomology term without assuming
+maximal-rank extension maps. The projective-line
 quotient and standard global-section fact retain PR169's source credits;
 the maintained matrix-rank formula retains its separate provenance.
 No independent mathematical review, formalization, historical priority,
