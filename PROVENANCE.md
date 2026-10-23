@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-kernel-indices` package is owner-directed OpenAI
+Codex work. The literal crossed source and its general kernel-bundle rank
+identity retain their prior repository credit. Grothendieck splitting is
+external mathematics, used in the arbitrary-field form of Schoemann and
+Wiedmann, arXiv:1712.03056v1, Theorem2.1. The local additions specialize
+the full quadratic recurrence to two indices, recover both by a bounded
+coefficient-matrix test and identify the zero-index fixed-linear-factor
+case. The structural sequel uses the arbitrary-field polynomial index-sum
+theorem of De Teran, Dopico and Mackey, MIMS EPrint2013.47 (August22 2013),
+Theorem6.5. Its local Hankel-basis argument gives the rational-root-height
+dichotomy and the complete a=b=3 biform-block spectrum. Earlier affine,
+constant-endpoint, top-coefficient and resultant
+counterexample packages retain their separate credit. Exact source-matrix
+comparisons and same-session checking are not independent mathematical
+review, formalization, historical priority or an exponent improvement.
+
 The October 23 single-top-polynomial biform rank package is owner-directed AI-assisted mathematics and is proof-written-unreviewed. It credits the literal source indexing to the pinned main blob 04d28c6a05027a7756891f47d28327de850a7501, and the polynomial-kernel and affine-z precedent to PR209 at 4247f42eeb305163d299f908144b5915d1c238c5. PR171 (binomials), PR186 (general gap) and PR207 (diagonal-polynomial Toeplitz) are distinct, cited concurrent lines, not incorporated code. The all-characteristic rank formula for arbitrary single top x coefficient and constant lower z coefficients, the residue-triangular proof and exact controls are local additions. Same-session computation and proof do not constitute independent mathematical review or historical priority; no exponent improvement is claimed. Source heads, test scope and limits are preserved in [the package](research/ai/2026-10-23-top-coefficient-biforms/sources.json).
 
 The `2026-10-23-column-overlap` package is owner-directed OpenAI Codex
