@@ -1,5 +1,19 @@
 # Research status
 
+## Primitive annihilator degrees widen the pointwise strip
+
+The [degree-count proof](research/ai/2026-10-23-hankel-annihilator-degree/proof.md)
+gives the exact two inner polynomial coefficient-map ranks from the
+primitive x and z degrees of the supporting form. For scalar symbol rank
+r<min(a,b), source rank below ab*r+min(a(a-r),b(b-r)) forces one constant
+length-r scheme. A balanced family attains the boundary for every
+2<=r<a. Twenty-four exact controls cover wider deficiencies, unbalanced
+formats, higher degrees and both-variable motion. Claim
+`AI-HANKEL-ANNIHILATOR-DEGREE-001` is written and unreviewed. This does
+not strengthen the width at A9 rank eight, make schemes constant over
+matrix parameters, or establish a target or smaller exponent.
+
+
 ## A sharp constant-scheme strip at deficient Hankel rank
 
 The [kernel-descent proof](research/ai/2026-10-23-hankel-equality/proof.md)

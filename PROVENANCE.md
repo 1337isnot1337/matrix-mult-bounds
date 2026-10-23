@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-hankel-annihilator-degree` package is owner-directed Codex
+work. It adopts the prior elementary scalar Hankel kernel description,
+full-output rank injections and PR115 field-intersection descent with
+unchanged source pins. The exact primitive-degree kernel count, wider
+strip and balanced sharpness family for every 2<=r<a are local
+continuations; PR115 retains its r=a-1 subfamily credit. No new external
+structural theorem, independent review, formalization or exponent
+improvement is claimed.
+
+
 The `2026-10-23-hankel-equality` package is owner-directed OpenAI Codex
 work. The earlier coefficient-map equality lemma, two polynomial rank
 injections, rank-two equality proof and classical scalar Hankel kernel

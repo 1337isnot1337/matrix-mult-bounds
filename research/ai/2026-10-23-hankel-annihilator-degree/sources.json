@@ -1,0 +1,29 @@
+{
+  "base_commit": "b9006daccc09e6ff1a2a61d06f49e3a025ac697d",
+  "preceding_pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/115",
+  "field_and_hypotheses": "Complex numbers; scalar symbol rank 1<=r<min(a,b); primitive degree computed after clearing denominators and coefficient gcd; every polynomial output coefficient retained.",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-hankel-equality/proof.md",
+      "sha256": "5683bc3d2e64738cb200ea21e4927c3b724b26af98c9a8fa610f0a5f6fe2ad13"
+    },
+    {
+      "path": "research/ai/2026-10-23-hankel-equality/verify.py",
+      "sha256": "7318c874414683cb22442ecae5e7dd140569f00e8e7a2d0a31c49805c788e631"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
+      "sha256": "eae8662d1cc0b27ee99af94a1b7ae3422089bb1470cd474c4c0d276c34b09635"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    }
+  ],
+  "prior_credit": "The homogeneous Hankel kernel description is classical and has an elementary proof in the prior local note. The full-output injection chains and the field-intersection descent are prior repository work. The r=n-1 sharpness subfamily belongs to PR115. No claim is made to the concurrent rectangular worker's crossed-flattening or quantitative bounds.",
+  "local_continuation": "Exact inner ranks from the two primitive supporting degrees, the stronger constant-scheme strip and its balanced sharpness family at every 2<=r<n.",
+  "external_dependencies": "No new external theorem: Gauss lemma and polynomial degree additivity are explained in the proof.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

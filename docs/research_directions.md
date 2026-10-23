@@ -284,7 +284,10 @@ The next owned algebraic question is equality at that rank. The new
 [kernel-descent strip](../research/ai/2026-10-23-hankel-equality/proof.md)
 forces a constant length-eight scheme for each rank-eight saturated
 slice, but constancy over the whole matrix-parameter family is still
-unproved. Its pointwise conclusion alone does not exclude this target. Singular
+unproved. Its pointwise conclusion alone does not exclude this target. The
+[primitive-degree continuation](../research/ai/2026-10-23-hankel-annihilator-degree/proof.md)
+widened the strip to min(a(a-r),b(b-r)), with balanced sharpness at
+every 2<=r<a; the width at A9 rank eight remains nine. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
 

@@ -1,0 +1,893 @@
+{
+  "balanced_sharpness_controls": [
+    {
+      "name": "balanced-n3-r2",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "1",
+        "0",
+        "x",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 21,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        6,
+        7
+      ],
+      "predicted_inner_ranks": [
+        6,
+        7
+      ],
+      "degree_lower_bound": 21,
+      "constant_scheme_strip_width": 3
+    },
+    {
+      "name": "balanced-n4-r2",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "1",
+        "0",
+        "x",
+        "0",
+        "x**2",
+        "0",
+        "x**3"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 40,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        8,
+        10
+      ],
+      "predicted_inner_ranks": [
+        8,
+        10
+      ],
+      "degree_lower_bound": 40,
+      "constant_scheme_strip_width": 8
+    },
+    {
+      "name": "balanced-n4-r3",
+      "a": 4,
+      "b": 4,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 52,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        12,
+        13
+      ],
+      "predicted_inner_ranks": [
+        12,
+        13
+      ],
+      "degree_lower_bound": 52,
+      "constant_scheme_strip_width": 4
+    },
+    {
+      "name": "balanced-n5-r2",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "1",
+        "0",
+        "x",
+        "0",
+        "x**2",
+        "0",
+        "x**3",
+        "0",
+        "x**4"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 65,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        10,
+        13
+      ],
+      "predicted_inner_ranks": [
+        10,
+        13
+      ],
+      "degree_lower_bound": 65,
+      "constant_scheme_strip_width": 15
+    },
+    {
+      "name": "balanced-n5-r3",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 85,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        15,
+        17
+      ],
+      "predicted_inner_ranks": [
+        15,
+        17
+      ],
+      "degree_lower_bound": 85,
+      "constant_scheme_strip_width": 10
+    },
+    {
+      "name": "balanced-n5-r4",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 105,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        20,
+        21
+      ],
+      "predicted_inner_ranks": [
+        20,
+        21
+      ],
+      "degree_lower_bound": 105,
+      "constant_scheme_strip_width": 5
+    },
+    {
+      "name": "balanced-n6-r2",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "x",
+        "0",
+        "x**2",
+        "0",
+        "x**3",
+        "0",
+        "x**4",
+        "0",
+        "x**5"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 96,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        12,
+        16
+      ],
+      "predicted_inner_ranks": [
+        12,
+        16
+      ],
+      "degree_lower_bound": 96,
+      "constant_scheme_strip_width": 24
+    },
+    {
+      "name": "balanced-n6-r3",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0",
+        "x**3",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 126,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        18,
+        21
+      ],
+      "predicted_inner_ranks": [
+        18,
+        21
+      ],
+      "degree_lower_bound": 126,
+      "constant_scheme_strip_width": 18
+    },
+    {
+      "name": "balanced-n6-r4",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 156,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        24,
+        26
+      ],
+      "predicted_inner_ranks": [
+        24,
+        26
+      ],
+      "degree_lower_bound": 156,
+      "constant_scheme_strip_width": 12
+    },
+    {
+      "name": "balanced-n6-r5",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 5,
+      "full_slice_rank": 186,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        30,
+        31
+      ],
+      "predicted_inner_ranks": [
+        30,
+        31
+      ],
+      "degree_lower_bound": 186,
+      "constant_scheme_strip_width": 6
+    },
+    {
+      "name": "balanced-n7-r2",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "x",
+        "0",
+        "x**2",
+        "0",
+        "x**3",
+        "0",
+        "x**4",
+        "0",
+        "x**5",
+        "0",
+        "x**6"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 133,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        14,
+        19
+      ],
+      "predicted_inner_ranks": [
+        14,
+        19
+      ],
+      "degree_lower_bound": 133,
+      "constant_scheme_strip_width": 35
+    },
+    {
+      "name": "balanced-n7-r3",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0",
+        "x**3",
+        "0",
+        "0",
+        "x**4"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 175,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        21,
+        25
+      ],
+      "predicted_inner_ranks": [
+        21,
+        25
+      ],
+      "degree_lower_bound": 175,
+      "constant_scheme_strip_width": 28
+    },
+    {
+      "name": "balanced-n7-r4",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0",
+        "0",
+        "x**3"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 217,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        28,
+        31
+      ],
+      "predicted_inner_ranks": [
+        28,
+        31
+      ],
+      "degree_lower_bound": 217,
+      "constant_scheme_strip_width": 21
+    },
+    {
+      "name": "balanced-n7-r5",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 5,
+      "full_slice_rank": 259,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        35,
+        37
+      ],
+      "predicted_inner_ranks": [
+        35,
+        37
+      ],
+      "degree_lower_bound": 259,
+      "constant_scheme_strip_width": 14
+    },
+    {
+      "name": "balanced-n7-r6",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2"
+      ],
+      "symbol_rank": 6,
+      "full_slice_rank": 301,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        42,
+        43
+      ],
+      "predicted_inner_ranks": [
+        42,
+        43
+      ],
+      "degree_lower_bound": 301,
+      "constant_scheme_strip_width": 7
+    }
+  ],
+  "unbalanced_and_higher_degree_controls": [
+    {
+      "name": "rectangular-4-6-x",
+      "a": 4,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 76,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        12,
+        19
+      ],
+      "predicted_inner_ranks": [
+        12,
+        19
+      ],
+      "degree_lower_bound": 76,
+      "constant_scheme_strip_width": 4
+    },
+    {
+      "name": "rectangular-4-6-z",
+      "a": 4,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "z",
+        "0",
+        "0",
+        "z**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 90,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        0,
+        1
+      ],
+      "literal_inner_ranks": [
+        15,
+        18
+      ],
+      "predicted_inner_ranks": [
+        15,
+        18
+      ],
+      "degree_lower_bound": 90,
+      "constant_scheme_strip_width": 4
+    },
+    {
+      "name": "rectangular-6-4-x",
+      "a": 6,
+      "b": 4,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 90,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        0
+      ],
+      "literal_inner_ranks": [
+        18,
+        15
+      ],
+      "predicted_inner_ranks": [
+        18,
+        15
+      ],
+      "degree_lower_bound": 90,
+      "constant_scheme_strip_width": 4
+    },
+    {
+      "name": "rectangular-6-4-z",
+      "a": 6,
+      "b": 4,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "z",
+        "0",
+        "0",
+        "z**2",
+        "0",
+        "0"
+      ],
+      "symbol_rank": 3,
+      "full_slice_rank": 76,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        0,
+        1
+      ],
+      "literal_inner_ranks": [
+        19,
+        12
+      ],
+      "predicted_inner_ranks": [
+        19,
+        12
+      ],
+      "degree_lower_bound": 76,
+      "constant_scheme_strip_width": 4
+    },
+    {
+      "name": "higher-degree-n5-r4-e2",
+      "a": 5,
+      "b": 5,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0",
+        "0",
+        "x**4"
+      ],
+      "symbol_rank": 4,
+      "full_slice_rank": 110,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        2,
+        0
+      ],
+      "literal_inner_ranks": [
+        20,
+        22
+      ],
+      "predicted_inner_ranks": [
+        20,
+        22
+      ],
+      "degree_lower_bound": 110,
+      "constant_scheme_strip_width": 5
+    },
+    {
+      "name": "higher-degree-n6-r5-e2",
+      "a": 6,
+      "b": 6,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**4"
+      ],
+      "symbol_rank": 5,
+      "full_slice_rank": 192,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        2,
+        0
+      ],
+      "literal_inner_ranks": [
+        30,
+        32
+      ],
+      "predicted_inner_ranks": [
+        30,
+        32
+      ],
+      "degree_lower_bound": 192,
+      "constant_scheme_strip_width": 6
+    },
+    {
+      "name": "higher-degree-n7-r6-e3",
+      "a": 7,
+      "b": 7,
+      "sequence": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "x**6"
+      ],
+      "symbol_rank": 6,
+      "full_slice_rank": 315,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        3,
+        0
+      ],
+      "literal_inner_ranks": [
+        42,
+        45
+      ],
+      "predicted_inner_ranks": [
+        42,
+        45
+      ],
+      "degree_lower_bound": 315,
+      "constant_scheme_strip_width": 7
+    }
+  ],
+  "two_variable_controls": [
+    {
+      "name": "both-variables",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "1",
+        "0",
+        "x*z",
+        "0",
+        "x**2*z**2"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 25,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        1
+      ],
+      "literal_inner_ranks": [
+        7,
+        7
+      ],
+      "predicted_inner_ranks": [
+        7,
+        7
+      ],
+      "degree_lower_bound": 21,
+      "constant_scheme_strip_width": 3
+    },
+    {
+      "name": "rational-moving-support",
+      "a": 3,
+      "b": 3,
+      "sequence": [
+        "x**2 + 2*x + 1",
+        "0",
+        "x*z + x + z + 1",
+        "0",
+        "z**2 + 2*z + 1"
+      ],
+      "symbol_rank": 2,
+      "full_slice_rank": 25,
+      "saturated": false,
+      "deficient_symbol": true,
+      "common_annihilator_nullity": 0,
+      "normalized_common_annihilator": null,
+      "primitive_degrees": [
+        1,
+        1
+      ],
+      "literal_inner_ranks": [
+        7,
+        7
+      ],
+      "predicted_inner_ranks": [
+        7,
+        7
+      ],
+      "degree_lower_bound": 21,
+      "constant_scheme_strip_width": 3
+    }
+  ],
+  "scope": "Exact finite controls of a written unreviewed general argument.",
+  "independent_review": false,
+  "improves_omega": false
+}
