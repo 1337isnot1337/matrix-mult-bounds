@@ -1,5 +1,24 @@
 # Research status
 
+## Singular leading long-leg ranks106--109 are excluded by the source gap
+
+The [singular-long-gap proof](research/ai/2026-10-23-singular-long-gap/proof.md)
+extends the regular unit-kernel correction to long maps whose regular
+limiting rank is at least106. The other two maps may have arbitrary
+finite poles, with no original unit-lift hypothesis. A target rank-one
+parameter lifts to source rank at most19; the existing16-or-at-least20
+source gap forces minimum-rank leading images. Coherent-factor
+propagation and a polynomial rank-one-preserver factorization, including
+degenerate images, force an invertible matrix in the first-map kernel,
+contradicting the unit-image rank budget. Claims
+`AI-SINGULAR-LONG-GAP-001` and `AI-A4-LONG-RANK106-002` are written and
+unreviewed. Exact controls export53 compression-kernel units and three
+degenerate-kernel units, and check literal source ranks16 and20.
+Flanders's complex matrix-space dimension bound is external and cited
+with its exact version. Both scalar-balanced leading long-leg ranks
+must be at most105 in any remaining candidate. No target, independent
+review, formalization or exponent improvement is established.
+
 ## One regular long leg is impossible for the full A4 target
 
 The [unit-kernel argument](research/ai/2026-10-23-one-regular-leg/proof.md)

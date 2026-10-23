@@ -291,4 +291,10 @@ regular right-inverse kernel correction removes the earlier unit-image
 hypotheses. Further A4 constructions must have rank at most109 in both
 long-leg leading coefficients after scalar balancing. Increasing pole
 orders while keeping a full-rank long-leg limit cannot escape this proof.
-The remaining singular-long-leg case is open; no target is constructed.
+The [singular-long-gap continuation](../research/ai/2026-10-23-singular-long-gap/proof.md)
+uses the minimum source gap and a polynomial rank-one-preserver argument
+to extend that exclusion to regular limiting long-leg ranks106--109.
+Every remaining candidate must have both scalar-balanced leading ranks
+at most105. At rank105 the lifted rank budget reaches20, and this gap
+argument no longer forces minimum-rank source images. That boundary and
+more singular long maps remain open; no target is constructed.

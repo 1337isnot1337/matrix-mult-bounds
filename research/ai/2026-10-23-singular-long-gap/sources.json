@@ -1,0 +1,26 @@
+{
+  "base_commit": "08ac3e983e270cf3df4e26d960ceb16415f7ef31",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-one-regular-leg/proof.md",
+      "sha256": "4fbeb29cc23b26b687c3af0b3b5d69e5c29257da3c5f3f3f411c6c5e682b02d0"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71"
+    },
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/polynomial_rank_locus.md",
+      "sha256": "edc025352383b6176bae39777a33da7ff89579d8ccce86501352cefbd1d4d487"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "name": "Flanders bounded-rank dimension inequality",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "location": "Theorem 1.1, page 3",
+      "field": "C",
+      "application": "A singular linear subspace of Mat_m has dimension at most m(m-1)."
+    }
+  ]
+}

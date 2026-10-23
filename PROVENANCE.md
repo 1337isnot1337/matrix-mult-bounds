@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-23-singular-long-gap` package is owner-directed Codex work.
+It retains the exact source minimum, minimum-rank gap and locus,
+coherent-factor locus and PR113's regular unit-kernel correction with
+their prior credits and byte pins. Propagation through zero ruling
+images continues the preserved PR119 checkpoint. The polynomial
+rank-one-preserver factorization and application to singular leading
+long-leg limits are supplied with all degenerate cases. The external
+input in those cases is Flanders's complex bounded-rank matrix-space
+dimension inequality, stated in de Seguins Pazzis arXiv:1507.05375v2,
+Theorem1.1; no equality classification is imported. No historical
+priority, independent review, formalization, matrix target or exponent
+improvement is claimed. Exact kernel units are finite controls.
+
 The `2026-10-23-one-regular-leg` package is owner-directed OpenAI Codex
 work continuing the credited cyclic source minimum and earlier regular-
 unit Laurent arguments. Exact predecessor bytes are pinned in sources.json.

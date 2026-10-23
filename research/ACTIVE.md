@@ -7,8 +7,9 @@ It extends the regular unit-kernel correction to rank-deficient long-leg
 limits. The proposed minimum-rank-gap and polynomial-preserver proof
 excludes limiting ranks106--109 in addition to110; the polynomial proof
 includes fixed-row/column cases via the credited Flanders bound.
-Exact witness controls are pending. No new accepted claim or exponent
-improvement is registered. The earlier PR110/119 target checkpoints
+Exact witness controls and focused tests are being recorded before
+full regression and integration. Claims remain written and unreviewed;
+no exponent improvement is registered. The earlier PR110/119 target checkpoints
 were closed as subsumed at the written-proof level by PR113.
 
 The partial-unit-image continuation studies
