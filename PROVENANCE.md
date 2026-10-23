@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-grid-escape` package is owner-directed OpenAI Codex work.
+It retains the AlphaTensor factorization, conversion and original grid
+argument's credit. Numerical linear programming suggested the W weights;
+exact integer-weight enumeration is the acceptance evidence. The two
+weighted flat-cover certificates, deletion threshold and application to
+the companion split seed are local continuations. The implication uses
+integer minors and elementary weighted covers. No independent review,
+formalization, optimality, target construction or exponent improvement
+is claimed.
+
 The `2026-10-23-flip-escape` package is owner-directed OpenAI Codex work.
 It reuses the external AlphaTensor rank-76 M(4,5,5) seed and its pinned
 conversion with their existing attribution and license notice. Dumitriu
@@ -7,11 +17,12 @@ et al., arXiv:2610.13905v1, retain credit for the shared-factor-flip and
 stabilizer-null-cone viewpoint. The exact class separation, unit minors,
 scalar trace pairings and scoped component proof are local continuations.
 They use elementary linear algebra and do not require the paper's
-general invariant-theory theorem. The four selected splits, common
-descending image flag, explicit unimodular physical bases and complete
-Laurent identity are local continuations of that external deletion
-method. The exact original algorithm remains external work; its local
-border variant has the same rank bound and supplies no Q(6,4) maps.
+general invariant-theory theorem. The selected four- and five-split
+witnesses, common descending image flags, explicit unimodular physical
+bases and complete Laurent identities are local continuations of that
+external deletion method. The exact original algorithm remains external
+work; its local border variants have the same rank bound and supply no
+Q(6,4) maps.
 No independent review, formalization, historical priority, rank record
 or exponent improvement is claimed.
 

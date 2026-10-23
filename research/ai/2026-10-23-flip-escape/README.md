@@ -12,13 +12,17 @@ and the scalar trace pairing of every proportional-W class.
 Rank-increasing splits fall outside this theorem. The
 [split construction](split_proof.md) raises the term count to 80, then
 uses one common physical stabilizer transformation to delete four terms.
-It gives an explicit rank-76 border seed with 72 distinct first-leg
-directions. The exact certificate has no negative-degree coefficients,
-the complete matrix multiplication tensor at degree zero, and 51 nonzero
-positive-degree remainder coefficients.
+A [five-split continuation](five_split.md) gives a second exact witness.
+Both have rank 76, no negative tensor coefficients, and the complete
+matrix multiplication tensor at degree zero.
 
-The changed seed remains subject to stronger incidence conditions; it
-does not fit the proposed termwise Q(6,4) grid. Its new shared-U pairs
+| Witness | Exact intermediate terms | Distinct U directions | Positive remainder coefficients |
+| --- | ---: | ---: | ---: |
+| Four splits | 80 | 72 | 51 |
+| Five splits | 81 | 71 | 172 |
+
+Both changed seeds remain subject to stronger incidence conditions;
+neither fits the proposed termwise Q(6,4) grid. Their new shared-U pairs
 permit further flips that can change W directions. This is the next
 construction question. No rank record or smaller exponent is established.
 
@@ -27,20 +31,23 @@ construction question. No rank record or smaller exponent is established.
 ```sh
 python research/ai/2026-10-23-flip-escape/verify_component.py
 python research/ai/2026-10-23-flip-escape/verify_split.py
+python research/ai/2026-10-23-flip-escape/verify_split.py --variant five
 python -m unittest discover -s tests -p test_flip_component.py -v
 python -m unittest discover -s tests -p test_split_border_seed.py -v
 ```
 
-These commands replay both stored certificates and run eight focused
+These commands replay all three stored certificates and run ten focused
 tests. They use only the Python standard library. The tests include
 changed and missing witnesses, a rational shared-factor flip, complete
 split identities at two nonzero rational parameters, and a negative
 control where individual nilpotence fails to imply joint nilpotence.
+Changed schema, scope and variant metadata are rejected as well.
 To regenerate the certificates separately:
 
 ```sh
 python research/ai/2026-10-23-flip-escape/verify_component.py --write-certificate /tmp/component_certificate.json
 python research/ai/2026-10-23-flip-escape/verify_split.py --write-certificate /tmp/split_certificate.json
+python research/ai/2026-10-23-flip-escape/verify_split.py --variant five --write-certificate /tmp/five_split_certificate.json
 ```
 
 The external algorithm, conversion commit, and source theorem versions

@@ -1,4 +1,4 @@
-"""Replay the full exact Laurent identity for the four-split border seed.
+"""Replay the full exact Laurent identities for two split-derived border seeds.
 
 All arithmetic uses Fraction and the Python standard library.  The verifier
 checks the exported factors directly, as well as their physical construction.
@@ -17,6 +17,17 @@ SEED = PACKAGE.parent / "2026-10-21-external-grid-seed/factors.json"
 SEED_SHA256 = "bc4bc0eb93b6074ec57aa420322b506a39f7958bd88f2b9897995006c4bc00c3"
 SHAPES = ((4, 5), (5, 5), (5, 4))
 REPLACEMENTS = [[0, 18, -1], [17, 8, 1], [48, 2, -1], [56, 22, -1]]
+FIVE_REPLACEMENTS = [[16, 57, 1], [47, 52, -1], [31, 48, -1],
+                     [26, 32, 1], [54, 60, -1]]
+SCHEMA = "exact-split-border-seed-v1"
+SCOPE = ("Explicit rank-76 border seed from an external exact rank-76 algorithm. "
+         "No rank record, exponent improvement, or Q(6,4) map.")
+VARIANTS = {
+    "four": {"replacements": REPLACEMENTS, "determinants": [1, -1, 1],
+             "certificate": "split_certificate.json"},
+    "five": {"replacements": FIVE_REPLACEMENTS, "determinants": [1, 1, -1],
+             "certificate": "five_split_certificate.json"},
+}
 
 
 def require(condition, message):
@@ -220,9 +231,23 @@ def target_tensor():
             for i in range(4) for j in range(5) for k in range(5)}
 
 
+def specification(certificate):
+    """Accept only the two named, scope-limited witness formats."""
+    require(certificate.get("schema") == SCHEMA, "Unknown certificate schema")
+    require(certificate.get("scope") == SCOPE, "Certificate scope differs")
+    require(certificate.get("seed_sha256") == SEED_SHA256, "Certificate seed pin differs")
+    require(certificate.get("dimensions") == [4, 5, 5]
+            and certificate.get("rank") == 76, "Certificate dimensions or rank differ")
+    for name, variant in VARIANTS.items():
+        if certificate.get("replacements") == variant["replacements"]:
+            return name, variant
+    raise ValueError("Unregistered split specification")
+
+
 def verify_laurent_identity(certificate):
+    _, variant = specification(certificate)
     surviving = parse_factors(certificate["surviving_factors"], 76)
-    discarded = parse_factors(certificate["discarded_factors"], 4)
+    discarded = parse_factors(certificate["discarded_factors"], len(variant["replacements"]))
     require(all(exponent >= 1 for term in discarded for factor in term
                 for _, _, exponent in factor), "Discarded factor has a nonpositive valuation")
     output = contract(surviving)
@@ -244,15 +269,14 @@ def verify_laurent_identity(certificate):
     return degrees
 
 
-def verify(certificate=None):
+def verify(certificate=None, variant="four"):
+    require(variant in VARIANTS, "Unknown split variant")
     if certificate is None:
-        certificate = json.loads((PACKAGE / "split_certificate.json").read_text())
-    require(certificate["seed_sha256"] == SEED_SHA256, "Certificate seed pin differs")
-    require(certificate["dimensions"] == [4, 5, 5] and certificate["rank"] == 76,
-            "Certificate dimensions or rank differ")
-    require(certificate["replacements"] == REPLACEMENTS, "Unexpected split specification")
+        certificate = json.loads((PACKAGE / VARIANTS[variant]["certificate"]).read_text())
+    name, selected = specification(certificate)
+    require(name == variant, "Certificate differs from the selected split variant")
     seed = load_seed()
-    surviving, discarded = split_seed(seed)
+    surviving, discarded = split_seed(seed, selected["replacements"])
     flags = image_flags(discarded)
     dimensions = [[len(matrix[0]) for matrix in flag] for flag in flags]
     require(dimensions == certificate["rational_image_flag_dimensions"],
@@ -268,7 +292,8 @@ def verify(certificate=None):
                 "Physical weights have incorrect shape or type")
     require((bases, weights) == adapted_bases(flags), "Recorded adapted bases differ")
     determinants = [determinant(matrix) for matrix in bases]
-    require(determinants == [1, -1, 1], "Physical bases are not the recorded unimodular bases")
+    require(determinants == selected["determinants"],
+            "Physical bases are not the recorded unimodular bases")
     require(transformed_factors(surviving, bases, weights)
             == certificate["surviving_factors"], "Surviving factors differ from physical construction")
     require(transformed_factors(discarded, bases, weights)
@@ -279,11 +304,13 @@ def verify(certificate=None):
         flat = [x for row in term[0] for x in row]
         first = next(x for x in flat if x)
         directions.add(tuple(x / first for x in flat))
-    require(len(directions) == 72, "Unexpected first-leg direction count")
+    require(len(directions) == 76 - len(selected["replacements"]),
+            "Unexpected first-leg direction count")
     return {
+        "variant": name,
         "seed_sha256": SEED_SHA256,
         "border_rank_upper_bound": 76,
-        "intermediate_exact_term_count": 80,
+        "intermediate_exact_term_count": 76 + len(selected["replacements"]),
         "distinct_first_leg_directions": len(directions),
         "rational_image_flag_dimensions": dimensions,
         "physical_basis_determinants": [int(value) for value in determinants],
@@ -299,19 +326,21 @@ def verify(certificate=None):
     }
 
 
-def build_certificate():
+def build_certificate(variant="four"):
+    require(variant in VARIANTS, "Unknown split variant")
+    selected = VARIANTS[variant]
     seed = load_seed()
-    surviving, discarded = split_seed(seed)
+    surviving, discarded = split_seed(seed, selected["replacements"])
     flags = image_flags(discarded)
     bases, weights = adapted_bases(flags)
     saved_surviving = transformed_factors(surviving, bases, weights)
     saved_discarded = transformed_factors(discarded, bases, weights)
     output = contract(parse_factors(saved_surviving, 76))
     certificate = {
-        "schema": "exact-split-border-seed-v1",
+        "schema": SCHEMA,
         "seed_sha256": SEED_SHA256,
         "dimensions": [4, 5, 5], "rank": 76,
-        "replacements": REPLACEMENTS,
+        "replacements": selected["replacements"],
         "basis_matrices": [[[str(value) for value in row] for row in matrix]
                            for matrix in bases],
         "weights": weights,
@@ -322,22 +351,23 @@ def build_certificate():
                                            sorted(Counter(key[0] for key in output).items())},
         "negative_coefficients": sum(key[0] < 0 for key in output),
         "constant_coefficients": sum(key[0] == 0 for key in output),
-        "scope": "Explicit rank-76 border seed from an external exact rank-76 algorithm. No rank record, exponent improvement, or Q(6,4) map."
+        "scope": SCOPE,
     }
-    verify(certificate)
+    verify(certificate, variant)
     return certificate
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--write-certificate", type=Path)
+    parser.add_argument("--variant", choices=sorted(VARIANTS), default="four")
     args = parser.parse_args()
     if args.write_certificate:
-        certificate = build_certificate()
+        certificate = build_certificate(args.variant)
         args.write_certificate.write_text(json.dumps(certificate, indent=2) + "\n")
     else:
         certificate = None
-    print(json.dumps(verify(certificate), indent=2))
+    print(json.dumps(verify(certificate, args.variant), indent=2))
 
 
 if __name__ == "__main__":

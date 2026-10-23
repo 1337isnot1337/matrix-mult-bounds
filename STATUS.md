@@ -1,5 +1,21 @@
 # Research status
 
+## Weighted grid covers require changes on both long legs
+
+The [weighted-flat certificate](research/ai/2026-10-23-grid-escape/README.md)
+assigns integer weight 149 to the 58 original W directions, with at most 16
+in every rank-four span. Nine groups have capacity 144, so a termwise
+Q(6,4) assignment preserving those directions on a long leg in the specified
+alignment is excluded. U-only splits
+cannot repair it. On the original76 U directions a second weighting gives
+total 251 and flat cap 24, requiring 3r+e>=35 for a subset replacement; the
+four-split seed still has weight 238>216. Exact replay enumerates all
+1282975 U and 424270 W four-subsets over F101, with integer-minor transfer
+to characteristic zero. Claim `AI-EXTERNAL-WEIGHTED-GRID-003` is written
+and unreviewed. Shared-U flips changing W, new U directions and general
+source maps remain open. The positive border seed and exponent status
+are unchanged.
+
 ## Exact obstruction for the external seed's standard-flip component
 
 The [component proof](research/ai/2026-10-23-flip-escape/component_proof.md)
@@ -20,10 +36,15 @@ Unimodular bases and a nine-step joint image flag give an explicit rank-76
 border seed with 72 distinct first-leg directions. Complete rational
 Laurent contraction checks all 10000 constant positions, no negative
 coefficients, and 51 positive remainder coefficients. Claim
-`AI-EXTERNAL-SPLIT-BORDER-SEED-002` is written and unreviewed; five further
-focused tests pass. This seed still fails the stronger termwise grid
-incidence test. New shared-U pairs permit further flips changing its W
-directions, but no Q(6,4) map, rank record, or smaller exponent is supplied.
+`AI-EXTERNAL-SPLIT-BORDER-SEED-002` is written and unreviewed. A
+[second exact witness](research/ai/2026-10-23-flip-escape/five_split.md)
+instead splits and deletes five terms. Its seed has 71 distinct U
+directions, an eight-step common image flag,
+and 172 positive remainder coefficients. Seven split tests pass for both
+variants, including schema/scope and coefficient mutations. Both seeds
+still fail the stronger termwise grid incidence test. New shared-U pairs
+permit further flips changing W directions, but no Q(6,4) map, rank record,
+or smaller exponent is supplied.
 
 ## All-order A4 exclusion with a partial regular unit image
 

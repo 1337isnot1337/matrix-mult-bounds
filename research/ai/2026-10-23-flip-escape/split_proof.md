@@ -2,6 +2,9 @@
 
 **Claim `AI-EXTERNAL-SPLIT-BORDER-SEED-002`. Written proof, unreviewed.**
 
+The [five-split continuation](five_split.md) supplies a second witness
+by the same argument. This note preserves the original four-split data.
+
 There is an explicit rank-76 border decomposition of M(4,5,5) with 72
 distinct first-leg factor directions over the rational Laurent field.
 It comes from four splits of the pinned external exact rank-76 algorithm,
