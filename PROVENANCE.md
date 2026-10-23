@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-all-size-unit-packing` package is owner-directed OpenAI
+Codex work. It retains the canonical cyclic source, earlier unimodular
+slice and A4 disjoint-unit and diagonal-limit proofs with exact pins and
+their original credit. The short polynomial kernel recurrence proves
+all residue-class units unimodular over every field; the prior elementary
+packing lemma then gives the sharp all-size complex singular-space cap.
+The finite controls are supporting evidence, not an extrapolation or
+formal proof of the universal quantifiers. No new external theorem,
+historical priority, independent review, formalization, target map or
+exponent improvement is claimed.
+
 The `2026-10-23-source-singular-space-cap` package is owner-directed OpenAI
 Codex work. The literal cyclic source, prior minimum-rank and unit proofs,
 and partial-frame Laurent exclusion retain their credit and exact pins.

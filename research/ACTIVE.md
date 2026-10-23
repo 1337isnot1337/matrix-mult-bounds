@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The all-size packing continuation studies
+`ai/2026-10-23-all-size-unit-packing/QUESTION.md` on
+`research/all-size-unit-packing-20261023`. Its written all-field recurrence
+proves a^2 disjoint unimodular units at every size and the sharp complex
+all-singular source-space cap a^2(2a-2). Exact finite controls and focused
+tests pass; full validation is pending. Further unit-packing searches in
+this family are closed by the all-size argument. The remaining bridge is
+to leading images and partial frames of arbitrary singular target maps,
+or an actual construction outside those charts. No exponent gain.
+
 The source-cap continuation studies
 `ai/2026-10-23-source-singular-space-cap/QUESTION.md` on
 `research/source-singular-space-cap-20261023`. Its written global argument

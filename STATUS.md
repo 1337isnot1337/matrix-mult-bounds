@@ -1,5 +1,21 @@
 # Research status
 
+## Disjoint unimodular units and the all-size singular-space cap
+
+The [all-size packing proof](research/ai/2026-10-23-all-size-unit-packing/proof.md)
+constructs a^2 disjoint unimodular source slices for every balanced size
+a>=1. A short polynomial recurrence proves their invertibility over
+every field, including characteristics dividing a. Consequently every
+complex linear source subspace consisting entirely of singular matrices
+has dimension at most a^2(2a-2), attained by a zero-row kernel. The proof
+uses the earlier elementary distinct-weight limit for arbitrary dense
+subspaces. Claims `AI-ALL-SIZE-RESIDUE-UNITS-001` and
+`AI-ALL-SIZE-SINGULAR-CAP-002` are written and unreviewed. Finite exact
+controls check21 integer determinants,63 independent modular determinants
+and70 recurrence identities, without supplying the universal quantifiers.
+The theorem does not establish regular target maps or the needed partial
+frames. No matrix construction or exponent improvement follows.
+
 ## Sharp singular-source-space cap and first leading rank
 
 The [source packing proof](research/ai/2026-10-23-source-singular-space-cap/proof.md)
