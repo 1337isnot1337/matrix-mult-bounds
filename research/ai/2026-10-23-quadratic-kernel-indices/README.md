@@ -17,6 +17,16 @@ characteristic, and every original output endpoint are included. For
 `D>0`, the first index is zero exactly when the primitive homogeneous
 quadratic in `z` has a fixed linear factor over the ground field.
 
+The [structural sequel](dichotomy.md) narrows the possible first index:
+it either equals `(a+1)` times a rational-root height or lies between
+`ceil((a-1)D/2)` and `floor(aD/2)`. Homogeneous irreducibility forces
+the latter interval; a sufficiently small rational-root height fixes
+both indices exactly. Endpoints and inseparable quadratics are included.
+It also proves the complete nonzero `a=b=3` biform rank spectrum
+`{9,12,14,15}` over every field, excluding rank thirteen, with universal
+witnesses for all four values. This is a biform-block spectrum, not a
+classification of full cyclic-tensor slices.
+
 The package specializes and makes effective the prior biform
 kernel-bundle formula. It credits the separately solved affine,
 constant-endpoint quadratic, and one-polynomial-top families, and the
