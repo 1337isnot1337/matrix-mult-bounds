@@ -297,12 +297,15 @@ Deliver exact coefficient identities and rank certificates. A small
 floating residual norm does not establish any of these premises.
 
 The [variable-coefficient shift-window theorem](../research/ai/2026-10-23-shift-window-long-legs/QUESTION.md)
-now rules out ordinary fixes with B bulk polynomial coefficients of degree
-at most m-2, shared recurrence order below m or, more generally, a common
-proper m-shift span, while C is Toeplitz and the exceptional sets are
-sublinear. For Q(6,4), investigate exact full-rank-window B coefficient
-maps outside the existing diagonal-shift and product charts. A full span is
-only a necessary condition; no matrix target or exponent bound is proved.
+rules out subquadratic ordinary corrections to M(n,m,n) for fixed m when
+B bulk coefficients have polynomial degree at most m-2, shared recurrence
+order below m or, more generally, a common proper m-shift span, while C is
+Toeplitz and both bandwidth and exceptional-column counts are sublinear.
+For Q(6,4), investigate exact full-rank-window B coefficient maps outside
+the existing diagonal-shift and product charts. This is an exploratory
+finite target: the theorem's bound is zero at n=6,m=4 and does not establish
+that full span is necessary for M(5,4,5). No matrix target or exponent bound
+is proved.
 
 The [first-support capacity theorem](../research/ai/2026-10-23-first-support-capacity/README.md)
 requires generic long-map surjectivity whenever auxiliary first rank is
