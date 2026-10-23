@@ -12,7 +12,9 @@ and has rank `57185/57915` at `p=7`. The general higher-degree ranks remain
 open. A further exact bidegree control has full rank modulo two at `(a,p)=(4,5)`
 across 524 blocks; it is a finite check only. The first kernel defects at
 `(a,p)=(2,3)` and `(3,7)` have exact `SL2 x SL2` decompositions that fit the
-conjectural boundary `p=a(a-1)+1`; `a=4` at that boundary remains untested.
+conjectural boundary `p=a(a-1)+1`; the `(3,8)` kernel has dimension 3,780.
+The exact `a=3` atlas is complete through `p=14`; the `a=4` boundary remains
+untested.
 Modular source ranks are lower bounds, not complex source upper
 bounds. This is separate from active singular-unit, group-source and
 boundary work.

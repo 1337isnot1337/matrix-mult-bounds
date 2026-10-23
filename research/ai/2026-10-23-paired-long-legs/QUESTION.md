@@ -64,7 +64,11 @@ An equivariant weight analysis resolves the first two finite defects: at
 `(a,p)=(2,3)` the kernel is
 `Sym^0(U) tensor (Sym^3(V) + Sym^5(V))`, of dimension 10; at `(3,7)` it
 decomposes into 20 `SL2 x SL2` irreducible types, of total dimension 730.
+At `(3,8)` the kernel dimension is 3,780 and its decomposition has 30 types.
 The defect degrees `3` and `7` fit the conjecture `p=a(a-1)+1`, but the
-`a=4` boundary is not checked. See
+`a=4` boundary is not checked; the nonzero `p=8` kernel is a larger
+post-boundary defect. The exact `a=3` atlas now extends through `p=14`:
+the ranks at `p=9,...,14` are `37464, 18819, 6660, 1575, 225, 15`, with
+kernel dimensions `7581, 8208, 5625, 2520, 720, 120`. See
 `kernel_module_types.md` and
-`results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7.json`.
+`results/paired-long-legs-2026-10-23/kernel-decomposition-a2-p3-a3-p7-p14.json`.

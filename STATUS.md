@@ -26,8 +26,11 @@ finite control gives full rank modulo two, hence over `Q`, at `(a,p)=(4,5)`:
 all-size conclusion; see
 `results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json`.
 The first finite kernel defects at `(2,3)` and `(3,7)` have also been
-decomposed into `SL2 x SL2` types. Their degrees fit the conjecture
-`p=a(a-1)+1`, still untested at `a=4`; see
+decomposed into `SL2 x SL2` types; the `(3,8)` kernel has dimension 3,780.
+The exact `a=3` atlas is now complete through `p=14`, with ranks
+`37464,18819,6660,1575,225,15` at `p=9,...,14` respectively.
+The first-defect degrees fit the conjecture `p=a(a-1)+1`, still untested at
+`a=4`; see
 `research/ai/2026-10-23-paired-long-legs/kernel_module_types.md`.
 
 ## Sharp rank six in the fixed-resolvent matrix space

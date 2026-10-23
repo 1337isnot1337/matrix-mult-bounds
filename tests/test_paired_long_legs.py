@@ -122,6 +122,20 @@ class PairedLongLegTests(unittest.TestCase):
             json.loads(json.dumps(atlas.atlas(2, [3]))),
             a2_saved,
         )
+        a3_p8_saved = json.loads(
+            (RESULTS / "graded-rank-atlas-a3-p8.json").read_text()
+        )
+        self.assertEqual(
+            json.loads(json.dumps(atlas.atlas(3, [8]))),
+            a3_p8_saved,
+        )
+        a3_p9_p14_saved = json.loads(
+            (RESULTS / "graded-rank-atlas-a3-p9-p14.json").read_text()
+        )
+        self.assertEqual(
+            json.loads(json.dumps(atlas.atlas(3, list(range(9, 15))))),
+            a3_p9_p14_saved,
+        )
 
         representation_spec = importlib.util.spec_from_file_location(
             "paired_long_legs_kernel_representation", KERNEL_REPRESENTATION_PATH
@@ -131,15 +145,46 @@ class PairedLongLegTests(unittest.TestCase):
         inputs = [
             RESULTS / "graded-rank-atlas-a2-p3.json",
             RESULTS / "graded-rank-atlas-a3.json",
+            RESULTS / "graded-rank-atlas-a3-p8.json",
+            RESULTS / "graded-rank-atlas-a3-p9-p14.json",
         ]
         actual = json.loads(json.dumps(representation.report(inputs)))
         saved = json.loads(
-            (RESULTS / "kernel-decomposition-a2-p3-a3-p7.json").read_text()
+            (RESULTS / "kernel-decomposition-a2-p3-a3-p7-p14.json").read_text()
         )
         self.assertEqual(actual, saved)
         self.assertEqual(
             [(r["a"], r["p"], r["kernel_dimension"]) for r in saved["records"]],
-            [(2, 3, 10), (3, 7, 730)],
+            [
+                (2, 3, 10),
+                (3, 7, 730),
+                (3, 8, 3780),
+                (3, 9, 7581),
+                (3, 10, 8208),
+                (3, 11, 5625),
+                (3, 12, 2520),
+                (3, 13, 720),
+                (3, 14, 120),
+            ],
+        )
+        self.assertEqual(
+            [
+                (
+                    r["p"],
+                    r["rank_over_q"],
+                    r["domain"],
+                    r["kernel_dimension_over_q"],
+                )
+                for r in a3_p9_p14_saved["records"]
+            ],
+            [
+                (9, 37464, 45045, 7581),
+                (10, 18819, 27027, 8208),
+                (11, 6660, 12285, 5625),
+                (12, 1575, 4095, 2520),
+                (13, 225, 945, 720),
+                (14, 15, 135, 120),
+            ],
         )
         a2_types = [
             (item["highest_weight"], item["multiplicity"])
@@ -158,6 +203,23 @@ class PairedLongLegTests(unittest.TestCase):
         self.assertEqual(
             [a3_types[(2, t)] for t in range(1, 10)],
             [2, 1, 2, 1, 2, 1, 2, 1, 1],
+        )
+        a3_p8_types = {
+            (item["highest_weight"][0], item["highest_weight"][1] // 2):
+            item["multiplicity"]
+            for item in saved["records"][2]["irreducibles"]
+        }
+        self.assertEqual(
+            [a3_p8_types[(0, t)] for t in range(11)],
+            [2, 3, 7, 7, 9, 7, 7, 4, 3, 1, 1],
+        )
+        self.assertEqual(
+            [a3_p8_types[(2, t)] for t in range(11)],
+            [3, 5, 10, 11, 14, 12, 11, 7, 5, 2, 1],
+        )
+        self.assertEqual(
+            [a3_p8_types.get((4, t), 0) for t in range(11)],
+            [0, 1, 2, 3, 3, 3, 3, 2, 1, 0, 0],
         )
 
 
