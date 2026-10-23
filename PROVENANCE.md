@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-23-common-input-rank-barrier` package is owner-directed Codex
+work. The boundary-format determinant theorem is credited to Gelfand,
+Kapranov and Zelevinsky, through the inspected primary proof by Dionisi
+and Ottaviani (DO01, Theorem3.1). Amanov, van den Berg and Zuiddam supply
+the formal operational potential, concavity, endpoint bound and affine
+tails. The graded rank propagation, finite nonnegative curvature/rank
+representation, heterogeneous dimension dual and balancing rejection
+are local deductions. The maintained shared-leg Koszul formula is used
+only for the comparison example. Exact versions, hypotheses and local
+source hashes are recorded. Same-session audits and finite controls do
+not provide independent mathematical review or formalization. No
+historical priority, universal tensor character or exponent gain is claimed.
+
 The `2026-10-23-pass-operational-barrier` package is owner-directed Codex
 work. Pass retains credit for the primal and dual polynomial packings;
 his preprint was already discussed in the earlier generalized-packing

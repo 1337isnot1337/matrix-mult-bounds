@@ -1,16 +1,18 @@
 # Research directions
 
-## October23: operational barrier includes all Pass packings
+## October23: operational barrier includes arbitrary common-input mixtures
 
-The [new synthesis](../research/ai/2026-10-23-pass-operational-barrier/proof.md)
-extends the external polynomial operational barrier to every primal and
-dual packing of Pass, including compatible partial sums, tensor products
-and compositions. Optimizing those rules cannot lower the square bound
-below9/4 or beat the credited rectangular curve. Both long-leg flattening
-dimensions already force symmetric-potential monotonicity for the stated
-homogeneous Full/Mid target mixtures. New work must introduce an ingredient
-outside these proved classes. Heterogeneous shapes and different source
-blocks require separate analysis before any construction claim.
+The [rank representation](../research/ai/2026-10-23-common-input-rank-barrier/proof.md)
+extends the polynomial operational barrier to every actual complex
+degeneration among finite Full/Mid partial sums at the same full first
+dimension, with arbitrary widths, multiplicities and first-leg bases.
+Two long-leg dimension inequalities already settle heterogeneous targets
+from identical source blocks. The prior Pass-packing argument remains
+available with fewer structural dependencies. New construction work must
+leave the stated Full/Mid class, for example through shared-output blocks
+or smaller first subspaces. Supply complete tensor identities for a
+candidate that survives the necessary rank screens. No smaller exponent
+or unrestricted lower bound follows from these method obstructions.
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 

@@ -1,12 +1,15 @@
 # Integrated research coordination
 
 The October23 operational-barrier continuation is in
-`ai/2026-10-23-pass-operational-barrier/proof.md`. Every Pass primal/dual
-packing preserves the complete rectangular operational barrier. The two
-long-leg dimensions also close the stated homogeneous Full/Mid formats
-as a way to violate the symmetric potential. Do not search for a gain by
-shortening those same-shaped gadgets. Different sources and genuinely
-new tensor rules remain questions; no such construction is supplied.
+`ai/2026-10-23-common-input-rank-barrier/proof.md`, on PR131.
+Every actual complex degeneration among Full/Mid partial sums at the
+same full first dimension preserves the rectangular operational
+potential, even with mixed widths and independent first-leg bases.
+For identical source blocks the two long dimensions already force that
+comparison. The first Pass-packing checkpoint is retained separately.
+New construction work must leave this fixed-dimension Full/Mid class;
+shared-output blocks are one concrete question. Passing necessary rank
+screens does not supply a tensor map. The proofs remain unreviewed.
 
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and

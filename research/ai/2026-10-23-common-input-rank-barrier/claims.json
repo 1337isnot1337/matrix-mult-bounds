@@ -1,0 +1,41 @@
+{
+  "integration_note": "Proposed additions to research/claims.json; this file is not a second authoritative claim ledger.",
+  "claims": [
+    {
+      "id": "AI-COMMON-INPUT-RANK-BARRIER-001",
+      "title": "Arbitrary fixed-dimension Full/Mid mixtures preserve the rectangular operational potential",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-common-input-rank-barrier/proof.md",
+      "section": "1-5",
+      "statement": "For each fixed positive common first dimension a, every actual complex degeneration between finite shared-first-leg sums of Full(a,b) and Mid(a,b), with arbitrary positive widths, multiplicities and independent invertible first-leg identifications, preserves every AVZ26 operational potential for positive theta of sum one. The partial-sum score has a finite nonnegative expansion in two oriented symmetric-power flattening rank families.",
+      "dependencies": [
+        "DO01 Definition 2.1 and Theorem 3.1 over C",
+        "AVZ26 Definition 5.5, Proposition 5.8(ii),(iv), and equation (5.7)",
+        "Local graded propagation and finite discrete curvature identities"
+      ],
+      "limitations": "Fixed full shared first dimension at both endpoints; smaller first subspaces and shared-output blocks are outside the theorem. Not a universal tensor character or exponent lower bound. Same-session mathematical audit is not independent review. No tensor construction or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
+      "id": "AI-HETEROGENEOUS-PACKING-DIMENSIONS-002",
+      "title": "Two dimensions bound heterogeneous Full/Mid target scores from identical source blocks",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-common-input-rank-barrier/proof.md",
+      "section": "6",
+      "statement": "For all positive common first dimensions a, widths B and source counts c, the two long-leg dimension inequalities alone imply every positive-theta rectangular operational score inequality from c identical Full(a,B) blocks to arbitrary shared Full(a,b_i) and Mid(a,d_j) targets. The identical-Mid-source version follows by transposition.",
+      "dependencies": [
+        "AVZ26 positive-width concavity, endpoint upper bound, and exact affine tails",
+        "Local supporting-slope dual with nonnegative endpoint intercept"
+      ],
+      "limitations": "Only identical source blocks and full shared first dimension; does not construct a degeneration. The dimension statement is scalar and does not use the complex determinant theorem. No independent review, formalization or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    }
+  ]
+}
+

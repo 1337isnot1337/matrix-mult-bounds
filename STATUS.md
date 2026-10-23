@@ -1,5 +1,23 @@
 # Research status
 
+## Arbitrary common-input Full/Mid mixtures preserve the operational barrier
+
+The [symmetric-power rank argument](research/ai/2026-10-23-common-input-rank-barrier/proof.md)
+extends the result to every actual complex degeneration between finite
+shared-first-leg sums of Full and Mid blocks with the same full first
+dimension. Widths, multiplicities, orientations and independent invertible
+first-leg identifications may all vary. Every rectangular operational
+potential is a finite nonnegative combination of two families of
+symmetric-power flattening ranks on this block class. For identical
+source blocks, the two long-leg dimensions alone give the same potential
+comparison for heterogeneous targets. Claims
+`AI-COMMON-INPUT-RANK-BARRIER-001` and
+`AI-HETEROGENEOUS-PACKING-DIMENSIONS-002` are written and unreviewed.
+The critical determinant theorem retains its GKZ and Dionisi–Ottaviani
+credit; the potential and concavity retain their AVZ26 credit. Shared-output
+blocks and smaller first subspaces remain outside this theorem. No actual
+improving tensor map or smaller exponent has been found.
+
 ## Pass packings preserve the complete polynomial operational barrier
 
 The [operational extension](research/ai/2026-10-23-pass-operational-barrier/proof.md)
