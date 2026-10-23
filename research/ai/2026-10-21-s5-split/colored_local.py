@@ -14,7 +14,7 @@ from verify_projected_reports import verify_farkas_record
 
 
 def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
-        warm_path=None, amplitude=0.6, use_trades=False):
+        warm_path=None, amplitude=0.6, use_trades=False, trade_multiplicity=False):
     G, Q, receipt = data_provider(shape)
     if receipt['conditional_gate']['strict_positive_margin_numerator'] <= 0:
         raise ValueError('target must pass the improving conditional gate')
@@ -48,6 +48,8 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         owners = owner_histogram()
 
     def trade_energy(hist):
+        if trade_multiplicity:
+            return int(np.prod(hist[np.arange(3), trades], axis=1).sum())
         return int(np.all(hist[np.arange(3), trades] > 0, axis=1).sum())
 
     counts = histogram()
@@ -65,7 +67,8 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         'scope': 'Bounded floating-guided discovery; actual witnesses and Farkas circuits use exact integers.'}
     if use_trades:
         report['objective'] = {'pair_collision_weight': 20, 'commuting_trade_weight': 1,
-                               'actual_group_templates': len(trades)}
+                               'actual_group_templates': len(trades),
+                               'owner_edge_multiplicities': trade_multiplicity}
     if warm_path is not None:
         report['warm_start'] = {'path': str(warm_path),
             'sha256': hashlib.sha256(warm_path.read_bytes()).hexdigest(),
@@ -112,19 +115,28 @@ def run(output, seconds, seed, shape=(18, 18, 20), data_provider=data,
         labels_in = table[inverse[sets[k]][None, :], candidates[:, None]]
         scores = counts[f, labels_out].sum(axis=1)+counts[k, labels_in].sum(axis=1)
         if use_trades:
-            other_active = np.ones(len(trades), dtype=bool)
-            for family in (h, k):
-                other_active &= owners[family, trades[:, family]] > 0
-            penalties = np.bincount(trades[other_active, f], minlength=480)
+            if trade_multiplicity:
+                products = owners[h, trades[:, h]]*owners[k, trades[:, k]]
+                penalties = np.bincount(trades[:, f], weights=products, minlength=480).astype(np.int64)
+            else:
+                other_active = np.ones(len(trades), dtype=bool)
+                for family in (h, k):
+                    other_active &= owners[family, trades[:, family]] > 0
+                penalties = np.bincount(trades[other_active, f], minlength=480)
             neighbors = np.delete(sets[f], i)
             old_labels = table[old, inverse[neighbors]]
             removed = np.bincount(np.minimum(old_labels, inverse[old_labels]), minlength=480)
-            trade_removal = int(penalties[(owners[f] > 0) & (owners[f] == removed)].sum())
+            trade_removal = (int(penalties @ removed) if trade_multiplicity else
+                            int(penalties[(owners[f] > 0) & (owners[f] == removed)].sum()))
             owners[f] -= removed
             labels = table[candidates[:, None], inverse[neighbors][None, :]]
-            labels = np.sort(np.minimum(labels, inverse[labels]), axis=1)
-            unique = np.c_[np.ones(480, dtype=bool), labels[:, 1:] != labels[:, :-1]]
-            additions = (penalties[labels]*unique*(owners[f, labels] == 0)).sum(axis=1)
+            labels = np.minimum(labels, inverse[labels])
+            if trade_multiplicity:
+                additions = penalties[labels].sum(axis=1)
+            else:
+                labels = np.sort(labels, axis=1)
+                unique = np.c_[np.ones(480, dtype=bool), labels[:, 1:] != labels[:, :-1]]
+                additions = (penalties[labels]*unique*(owners[f, labels] == 0)).sum(axis=1)
             scores = 20*scores+additions
             removal = 20*removal+trade_removal
         occupied = set((sets[f]//4).tolist())-{old//4}
@@ -205,11 +217,13 @@ if __name__ == '__main__':
     parser.add_argument('--warm', type=Path)
     parser.add_argument('--temperature-amplitude', type=float, default=0.6)
     parser.add_argument('--commuting-trades', action='store_true')
+    parser.add_argument('--trade-multiplicity', action='store_true')
     args = parser.parse_args()
     if args.cyclic_center:
         from cyclic_four import data as provider
     else:
         provider = data
     result = run(args.output, args.seconds, args.seed, args.shape, provider,
-                 args.warm, args.temperature_amplitude, args.commuting_trades)
+                 args.warm, args.temperature_amplitude, args.commuting_trades,
+                 args.trade_multiplicity)
     print(json.dumps({k: v for k, v in result.items() if k not in ('source_and_normalization', 'witness')}))
