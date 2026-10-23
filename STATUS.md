@@ -2,6 +2,17 @@
 
 ## Sharp rank20 linear spaces and singular long-map rank105
 
+The [all-size extension](research/ai/2026-10-23-rank20-ruling/all_sizes.md)
+proves the analogous classification for every square source A_a, a>=2:
+rank at most a^2+a means a coherent middle factor and an outer biform
+with a divisor of degree a-2 in x or z. The sharp vector linear-space
+bound is2a. This gives a uniform Laurent ruling obstruction; selected A5
+target long-rank thresholds are216,212,210 for M(13,13,17), M(14,14,16),
+M(15,15,15), respectively. Claim `AI-FIRST-GAP-LINEAR-SPACES-003` is
+written and unreviewed. Selected-size exact controls cover331 possible
+splitting triples/tuples, sharp source spaces at a2,3,5 and four target
+margin examples. They do not prove the all-size quantifiers.
+
 The [rank20 classification](research/ai/2026-10-23-rank20-ruling/proof.md)
 gives a sharp vector linear-space dimension bound eight for A4 source
 slices of rank at most20. After fixing the coherent middle factor, the

@@ -6,8 +6,10 @@ PR142 on `research/rank20-ruling-20261023` owns
 `ai/2026-10-23-rank20-ruling/QUESTION.md`, continuing PR125. A written
 rank20 quadratic-factor classification gives a sharp source linear-space
 bound eight and extends the singular-long criterion to balanced leading
-rank105. The next cap21 is not covered. Exact controls and focused checks
-are in progress; parent PR125's complete regression is running separately.
+rank105. Its all-size continuation gives dimension2a at cap a^2+a for
+every a>=2, with the same stated external dependency and selected controls.
+The next A4 cap21 is not covered. Exact controls and focused checks are
+in progress; parent PR125's complete regression is running separately.
 No independent review, formalization, target construction or exponent gain.
 
 ## Singular long-leg ruling continuation, October23

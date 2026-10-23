@@ -23,6 +23,8 @@ class Rank20RulingTests(unittest.TestCase):
             "independent_pencils": 4, "splitting_degree_cases": 22,
             "a4_long_limit_cases": 8, "sharp_linear_space_dimension": 8,
             "minimum_excluded_long_limit_rank": 105, "improves_omega": False,
+            "selected_size_splitting_cases": 331, "additional_source_sizes": 3,
+            "all_size_target_examples": 4,
         })
 
     def test_rank105_is_included_but_rank104_is_not(self):
@@ -55,6 +57,19 @@ class Rank20RulingTests(unittest.TestCase):
             for degrees in record["admissible_degrees"]:
                 self.assertEqual(degrees.count(0), 2)
                 self.assertEqual(sum(degrees), 4*record["primitive_degree"])
+
+    def test_all_size_source_bounds_and_target_thresholds(self):
+        controls = self.record["all_size_controls"]
+        self.assertEqual([c["total_cases"] for c in controls["splitting_degrees"]],
+                         [2, 7, 22, 69, 231])
+        for space in controls["fixed_divisor_spaces"]:
+            a = space["source_size"]
+            self.assertEqual(space["space_dimension"], 2*a)
+            self.assertEqual(space["actual_source_ranks"], [a*a, a*a+a])
+        self.assertEqual([c["long_rank_threshold"] for c in controls["target_examples"]],
+                         [105, 216, 212, 210])
+        with self.assertRaises(ValueError):
+            v.general_threshold(4, 8, 11)
 
     def test_reject_false_next_boundary_and_changed_source_pins(self):
         bad = copy.deepcopy(self.record)

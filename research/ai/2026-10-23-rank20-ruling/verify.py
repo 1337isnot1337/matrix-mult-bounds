@@ -113,11 +113,12 @@ def pencil_controls():
 
 
 def divisor_coefficients(h, coefficient_matrix, transpose=False):
+    a = coefficient_matrix.cols
     result = {}
-    for i in range(4):
-        for j in range(4):
+    for i in range(a):
+        for j in range(a):
             value = sum(h[i-p]*coefficient_matrix[p, j]
-                        for p in range(2) if 0 <= i-p < 3)
+                        for p in range(2) if 0 <= i-p < len(h))
             if value:
                 result[(j, 0, i) if transpose else (i, 0, j)] = value
     return result
@@ -165,6 +166,80 @@ def a4_criterion(rank):
             "excluded_by_this_criterion": applicable and margin > 0}
 
 
+def compositions(total, length):
+    if length == 1:
+        yield (total,)
+        return
+    for first in range(total+1):
+        for rest in compositions(total-first, length-1):
+            yield (first,)+rest
+
+
+def general_threshold(a, m, n):
+    require(all(type(x) is int and x > 0 for x in (a, m, n)) and a >= 2,
+            "Invalid source/target size")
+    size = a*a*(2*a-1)
+    target = m*n
+    require(m > 2*a and target <= size, "Ruling width or target size hypothesis fails")
+    k = size-target
+    threshold = max(size+n+k-a*a-a, size+k-a*a+1)
+    return {"source_size": a, "target_shape": [m, m, n],
+            "source_dimension": size, "long_dimension": target, "long_defect": k,
+            "long_rank_threshold": threshold, "source_dimension_bound": 2*a,
+            "target_ruling_dimension": m,
+            "rank_cap_at_threshold": n+k+size-threshold,
+            "nonzero_lift_margin": a*a-(size-threshold)-k}
+
+
+def all_size_controls():
+    splitting = []
+    for a in range(2, 7):
+        counts = []
+        for d in range(a):
+            allowed = [mu for mu in compositions(a*d, a-1)
+                       if sum(min(a, degree) for degree in mu) <= a]
+            if d >= 2:
+                require(all(sorted(mu) == [0]*(a-2)+[a*d] for mu in allowed),
+                        "Unexpected all-size splitting pattern")
+                require(len(allowed) == a-1, "Missing all-size splitting order")
+            counts.append(len(allowed))
+        splitting.append({"source_size": a, "case_counts_by_primitive_degree": counts,
+                          "total_cases": sum(counts)})
+    require([c["total_cases"] for c in splitting] == [2, 7, 22, 69, 231],
+            "Changed selected-size splitting coverage")
+    source = predecessor()
+    spaces = []
+    for a in (2, 3, 5):
+        h = [int((-1)**i*s.binomial(a-2, i)) for i in range(a-1)]
+        vectors = []
+        for p, q in product(range(2), range(a)):
+            basis = s.zeros(2, a)
+            basis[p, q] = 1
+            coefficients = divisor_coefficients(h, basis)
+            vectors.append(s.Matrix([coefficients.get((i, 0, j), 0)
+                                      for i, j in product(range(a), repeat=2)]))
+        dimension = s.Matrix.hstack(*vectors).rank()
+        require(dimension == 2*a, "All-size sharp source space dimension failed")
+        basis = s.zeros(2, a)
+        basis[0, 0] = 1
+        mixed = s.Matrix([[1]*a, list(range(a))])
+        ranks = [source.exact_rank(source.source_matrix(a, divisor_coefficients(h, small)))
+                 for small in (basis, mixed)]
+        require(ranks == [a*a, a*a+a], "All-size source rank controls failed")
+        spaces.append({"source_size": a, "divisor_coefficients": h,
+                       "space_dimension": dimension, "actual_source_ranks": ranks})
+    examples = [general_threshold(*args) for args in
+                ((4, 10, 11), (5, 13, 17), (5, 14, 16), (5, 15, 15))]
+    require([c["long_rank_threshold"] for c in examples] == [105, 216, 212, 210],
+            "Changed all-size target examples")
+    require(all(c["rank_cap_at_threshold"] <= c["source_size"]**2+c["source_size"]
+                and c["nonzero_lift_margin"] > 0
+                and c["long_rank_threshold"] <= c["long_dimension"] for c in examples),
+            "A selected all-size target fails its sufficient hypotheses")
+    return {"splitting_degrees": splitting, "fixed_divisor_spaces": spaces,
+            "target_examples": examples}
+
+
 def report():
     pencils, independent, dependent = pencil_controls()
     cases = [a4_criterion(c) for c in range(110, 102, -1)]
@@ -175,7 +250,8 @@ def report():
             "improves_omega": False, "source_pin_count": check_sources(),
             "splitting_degrees": splitting_controls(), "independent_pencils": pencils,
             "independent_divisor_loss": independent, "dependent_pencil_negative": dependent,
-            "fixed_divisor_spaces": fixed_divisor_controls(), "a4_long_limit_cases": cases}
+            "fixed_divisor_spaces": fixed_divisor_controls(), "a4_long_limit_cases": cases,
+            "all_size_controls": all_size_controls()}
 
 
 def verify(record):
@@ -188,6 +264,10 @@ def verify(record):
                                            for c in record["splitting_degrees"]),
             "a4_long_limit_cases": len(record["a4_long_limit_cases"]),
             "sharp_linear_space_dimension": 8, "minimum_excluded_long_limit_rank": 105,
+            "selected_size_splitting_cases": sum(c["total_cases"] for c in
+                                                 record["all_size_controls"]["splitting_degrees"]),
+            "additional_source_sizes": len(record["all_size_controls"]["fixed_divisor_spaces"]),
+            "all_size_target_examples": len(record["all_size_controls"]["target_examples"]),
             "improves_omega": False}
 
 

@@ -22,3 +22,9 @@ correction mechanism retain their credit and hypotheses. This is a new
 written proof question with exact controls in progress, not independent
 review, a matrix construction or an exponent improvement. Rank caps
 above20 are not covered by the proposed dimension-eight bound.
+
+Continuation: the argument extends to every a>=2, with source rank cap
+a^2+a, binary divisor degree a-2 and sharp linear-space dimension2a.
+The proof and the resulting uniform Laurent criterion are in all_sizes.md.
+This is a justified extension of the same coefficient-map and generic-pencil
+mechanism, not an assumption about higher A4 rank caps.

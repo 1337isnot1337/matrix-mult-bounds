@@ -7,6 +7,12 @@ the biform has a quadratic divisor in x or in z. A generic-pencil argument
 controls linear spaces whose divisor initially appears able to vary.
 The dimension-eight bound is attained by fixing either quadratic divisor.
 
+The [all-size continuation](all_sizes.md) proves the corresponding source
+classification at rank cap a^2+a for every integer a>=2, with a binary
+divisor of degree a-2 and sharp vector linear-space dimension2a. It also
+gives a uniform Laurent ruling criterion and explicit A5 target margins.
+Claim `AI-FIRST-GAP-LINEAR-SPACES-003` remains written and unreviewed.
+
 PR125's shared-correction ruling criterion then excludes an A4 to
 M(10,10,11) formal degeneration if either scalar-balanced long-map limit
 has rank at least105. Both other maps, including the original unit lift,
@@ -34,6 +40,11 @@ repeated quadratic roots, roots at infinity and conjugate nonreal roots.
 An independent pencil loses the quadratic divisor when the joint gcd is
 zero; a dependent pencil retains degree two despite joint gcd zero. The
 latter checks the independence hypothesis in the proof's pencil lemma.
+
+Additional selected-size controls enumerate331 admissible splitting tuples
+at a2 through6, exhibit sharp fixed-divisor spaces with actual source ranks
+at a2,3,5, and check four A4/A5 target thresholds. These finite controls
+are separate from the universal proof and do not establish its quantifiers.
 
 Use `verify.py --write` only to regenerate controls, followed by replay
 without that flag. The package's full validation remains in progress,

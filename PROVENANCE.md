@@ -10,6 +10,11 @@ bound and singular rank105 application are local continuations. Written
 proofs and finite exact controls are unreviewed and unformalized; no
 historical priority, target construction or exponent improvement is claimed.
 
+The same package's all-size continuation retains those dependencies and
+credits. The degree-(a-2) divisor classification, sharp dimension2a bound
+for every a>=2 and uniform Laurent corollary are local written unreviewed
+extensions, with selected-size controls kept separate from universal proof.
+
 The `2026-10-23-singular-long-ruling` package is owner-directed OpenAI
 Codex work. The canonical source, minimum-rank cone and rank gap retain
 their prior credit and exact pins. The rank gap uses Grothendieck's 1957

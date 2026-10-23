@@ -1,5 +1,11 @@
 # Research directions
 
+The [all-size first-gap classification](../research/ai/2026-10-23-rank20-ruling/all_sizes.md)
+now gives a sharp source linear-space dimension2a at rank cap a^2+a for
+all a>=2, with a uniform Laurent ruling obstruction. This is written and
+unreviewed; selected-size source and margin controls are finite evidence.
+Higher rank caps still require additional geometry.
+
 The [rank20 source classification](../research/ai/2026-10-23-rank20-ruling/proof.md)
 proves a sharp vector linear-space bound eight and extends the singular
 long-leg exclusion below to balanced leading rank105. Remaining A4 target
