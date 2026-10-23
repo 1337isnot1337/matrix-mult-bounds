@@ -356,6 +356,12 @@ allows an arbitrary linear map on the first leg. The stacked `(0,0)` and
 correction is impossible while both long-leg coordinate maps stay fixed.
 Changing either long-leg map or the source family remains open.
 
+The [inner-index shifted continuation](ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
+also gives a quadratic correction lower bound for every first-leg map:
+`rank >= n^2-2`. Two off-diagonal coordinate blocks kill all but two
+source functionals; a matched block confines any remaining kernel to two
+target coordinates. This closes that shifted chart only.
+
 The inherited M1 endpoint corner has now been constructed exactly and
 excluded from degenerating to M4 by a closed low-slice-rank obstruction.
 The smaller sparse M1 lead has an all-size first-edge support deficit.

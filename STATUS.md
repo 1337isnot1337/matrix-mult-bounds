@@ -20,6 +20,12 @@ kernel vectors to be constant along diagonals, and the boundary rows force
 them to vanish. This proof remains unreviewed and does not cover changes to
 either long-leg map.
 
+The [inner-index shifted chart](research/ai/2026-10-23-q64-inner-shifted-coordinates/proof.md)
+is also excluded for every first-leg map: its correction flattening rank
+is at least `n^2-2`. Two off-diagonal blocks remove every source functional
+except two corners, and the matched block confines the kernel to those two
+target coordinates.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
