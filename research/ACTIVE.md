@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The [variable shift-window proof](ai/2026-10-23-shift-window-long-legs/proof.md)
+excludes ordinary fixed-width Q(n,m) repairs when one long leg has a
+common coefficient-window span of rank below m and the other is Toeplitz:
+its residual requires n^2-o(n^2) border rank under sublinear bandwidth and
+exceptions. Arbitrary first-leg mixing is allowed. Exact finite controls
+pass; the written proof is unreviewed. Full-rank B shift windows in Q(6,4)
+with exact correction identities are the next constructive target. PRs
+#145, #147 and #157 have separate scopes. No exponent improvement.
+
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space

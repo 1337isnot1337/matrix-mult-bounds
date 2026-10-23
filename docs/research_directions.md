@@ -10,6 +10,15 @@ treating such an aligned compression as a possible matrix target.
 
 ## Active paired construction: near-full width four
 
+The [variable-coefficient shift-window theorem](../research/ai/2026-10-23-shift-window-long-legs/QUESTION.md)
+now rules out ordinary fixes with B bulk polynomial coefficients of degree
+at most m-2, shared recurrence order below m or, more generally, a common
+proper m-shift span, while C is Toeplitz and the exceptional sets are
+sublinear. For Q(6,4), investigate exact full-rank-window B coefficient
+maps outside the existing diagonal-shift and product charts. A full span is
+only a necessary condition; no matrix target or exponent bound is proved.
+
+
 The [linear-correction criterion](../research/ai/2026-10-21-correction-budget/README.md)
 reduces one sufficient route to genuine degenerations
 `Q(n,4) + R_n -> M(n-c,4,n-c)` along an unbounded sequence, with fixed c

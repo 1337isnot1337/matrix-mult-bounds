@@ -1,5 +1,24 @@
 # Research status
 
+## Variable-coefficient shift-window obstruction for paired sources
+
+The [October 23 shift-window proof](research/ai/2026-10-23-shift-window-long-legs/proof.md)
+extends the independently open two-Toeplitz argument (PR #157) to ordinary
+paired-source maps with one genuinely variable-coefficient long leg and
+one Toeplitz long leg. If all interior m-shift coefficient windows of the
+variable leg span one common proper subspace of K^m, of rank r<m, and both
+legs have half-bandwidth D outside e_B,e_C arbitrary exceptional columns,
+the correction border rank is at least
+`(n-2(m-1+D)-m e_B)_+ (n-2(m-1+D)-m e_C)_+`, even with arbitrary
+first-leg mixing. For fixed m, D=o(n), e_B+e_C=o(n), this is n^2-o(n^2).
+This excludes polynomial B bulk degrees <=m-2 and shared-recurrence
+sequences of order <m in the stated ordinary construction class; mirrored
+C-side statements also hold. Five finite exact cases and four focused tests
+pass. Claim `THM-PAIRED-SHIFT-WINDOW-001` is written and unreviewed.
+Moving or full-rank window spaces, two variable long legs, and singular
+Laurent cancellations remain open. No improved exponent.
+
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

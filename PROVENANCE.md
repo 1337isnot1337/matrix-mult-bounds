@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-shift-window-long-legs` package is owner-directed AI-derived
+research based on the maintained Q(n,m) coefficient convention and the
+conditional correction budget, with exact local file SHA-256 pins in its
+sources.json. The concurrent open two-Toeplitz proof in PR157 is recorded
+separately and not represented as merged; the common proper shift-window
+subspace factorization and its application to variable B bulk coefficients
+are the local continuation. Five finite F101 controls do not constitute
+independent review of the all-field proof. No general Laurent degeneration
+exclusion, priority claim, or exponent gain follows.
+
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
