@@ -168,6 +168,14 @@ now closes several prescribed root flags even with arbitrary higher jets.
 Changing the first-leg jet cutoff does not escape those proofs. Different
 leading flags and weight-breaking projections remain construction questions.
 
+The [paired-long-leg theorem](../research/ai/2026-10-23-paired-long-legs/proof.md)
+now gives full column rank for both long-leg Koszul maps, with short
+input, for every a>=2 and 0<=p<=a(a-1), over every field. Those degrees
+cannot exclude a padded target. A further long-leg screen of the 28
+short-leg survivors through a16 must use higher degrees: at least183,
+211 or241 for a14,15 or16. These remaining degrees and the actual
+target maps are open. The theorem is written and unreviewed.
+
 The [two-block paired frontier](../research/ai/2026-10-20-paired-direct-sums/README.md)
 supplies a smaller source-size construction question. The complete
 one-block/two-block search through `a=10` leaves 19 pairs, all at size ten,

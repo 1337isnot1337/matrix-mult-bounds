@@ -3,11 +3,14 @@
 The paired-long-leg continuation studies
 `ai/2026-10-23-paired-long-legs/QUESTION.md`, in the isolated worktree
 `/tmp/matrix-paired-other-legs-20261023`, branch
-`research/paired-other-legs-20261023`. It asks for the two long-leg Koszul
-ranks, beyond the maintained short-leg formula, and whether they exclude
-any of the 28 short-leg survivors through a16. Modular source ranks will
-be treated as lower bounds, not complex source upper bounds. This is
-separate from active singular-unit, group-source and boundary work.
+`research/paired-other-legs-20261023`. A written all-field proof gives
+full column rank for 0<=p<=a(a-1) on both long legs with short input.
+Those degrees cannot exclude any padded target. The remaining question
+is p>=a(a-1)+1 and whether it excludes any of the 28 short-leg survivors
+through a16. The explicit a2,p3 integer kernel rules out extending full
+column rank to every degree. Modular source ranks remain lower bounds,
+not complex source upper bounds. This is separate from active singular-
+unit, group-source and boundary work. No smaller exponent is established.
 
 The affine-conic continuation studies
 `ai/2026-10-21-conic-second-jets/QUESTION.md`. The complete tangent module

@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-paired-long-legs` package is owner-directed Codex work.
+It adopts the maintained paired-source coefficients and short-leg
+frontier with their original credits and inspected byte pins. The Hankel
+interpolation, explicit projective-line quotient and filtered-kernel
+argument are local deductions using standard exterior algebra and
+Vandermonde interpolation. The arbitrary-field global-section fact for
+negative line bundles is credited to Stacks Lemma30.8.1, inspected on
+October23. Exact coefficient and integer-kernel controls are finite
+evidence, without independent mathematical review or formalization.
+No historical priority, target construction or exponent gain is claimed.
+
 The `2026-10-21-cyclic-slice-determinants` package is owner-directed Codex
 work using the maintained literal cyclic convolution source and its open
 singular target. The interval-block proof and finite Krylov/Bezout and
