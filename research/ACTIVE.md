@@ -23,7 +23,9 @@ Its [written proof](ai/2026-10-23-one-sided-unit-image/proof.md) strengthens
 regularity to `rank(S(0) C(0))>=107`, retaining a regular full-rank long
 map and regular identity lift. All target rows are kept and the final
 kernel count uses the original long map. Five focused and18 metadata
-tests pass; full regression, archive replay and hosted CI are pending.
+tests pass, as do all five archive replays. Current-head hosted full
+regression is pending; the prior interrupted local full run is not a
+completion claim.
 This supersedes the earlier rank108 equality boundary of the partial-unit
 method, without changing the prior pinned proof. Unit-image rank at most106,
 singular long-leg limits and polar lifts remain open. No exponent improvement
