@@ -11,6 +11,16 @@ monotones provide an improving tensor map. See
 `ai/2026-10-23-residual-rank-repair/proof.md` for exact stopping criteria.
 The coordinated agents in this session are not independent reviewers.
 
+All 875 local tests and all five archive replays passed at `121be1c`, with
+no optional skips. See `../results/paired-repair-2026-10-23/validation.json`.
+Current-head hosted checks are pending. The separate
+[PR147](https://github.com/1337isnot1337/matrix-mult-bounds/pull/147)
+records the fixed-product-map residual minimum and is adding a changed
+decoder with an exact nineteen-scalar repair of Q(6,4) to M(5,4,5).
+That small construction does not pass the finite exponent gate. Continue
+with new long-map geometry or certified residual structure; do not repeat
+the unchanged formal-parameter optimization or fixed-map rank census.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

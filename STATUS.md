@@ -42,6 +42,14 @@ They do not verify tensor maps. The imported functions need not be actual
 tensor invariants, so this result does not exclude arbitrary degenerations.
 The actual construction target remains open, and no smaller exponent is established.
 
+The [validation receipt](results/paired-repair-2026-10-23/validation.json)
+records all 875 tests passing with no skips at commit `121be1c`, plus all
+five exact archive replays. One incomplete test-process attempt was
+excluded from coverage and replaced by a complete successful rerun.
+Both research archives remain unchanged. Current-head hosted checks are
+still required before merging PR130; these checks do not change the
+mathematical review status.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)
