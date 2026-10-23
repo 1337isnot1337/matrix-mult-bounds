@@ -20,3 +20,9 @@ third coefficient alone proves neither failure nor existence of a lift.
 This concerns rank-twelve incidence of two fourteen-row maps of the
 canonical 112-cubed source. A higher jet does not construct the full
 matrix target or establish a smaller exponent.
+
+Checkpoint: the mixed chart d!=0 now has an explicit rational three-jet
+for all a,b,d with c=-d^3, with independent symbolic source replay and
+constant leading unit minors. The d=0 cubic fiber and order four remain
+the next questions. The earlier rational-point witness is retained;
+neither result is an all-order construction.

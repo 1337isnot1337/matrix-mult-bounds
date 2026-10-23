@@ -34,7 +34,17 @@
     "results/conic-third-jets-2026-10-23/third-jet-archive.log.gz": "aaf4afa21ac7e1c811c6c9e6d957410a2c2211bc149f0063466d13ab112438b5"
   },
   "integrated_main": "dcd209a82e3bf97a64f8e747dd29f3a3242d8e0b",
-  "new_symbolic_family_status": "Independent symbolic replay and initial three focused tests passed; combined focused revalidation pending.",
+  "new_symbolic_family_status": "Independent original-source rational-function replay and all 34 combined focused checks passed.",
   "independent_mathematical_review": false,
-  "exponent_improvement": false
+  "exponent_improvement": false,
+  "combined_tested_commit": "5ab79e54fe8f86792608b98901af76af200f30da",
+  "combined_tested_tree": "4a8c878eae7a19cd2783db6edabefb96c5d732bb",
+  "combined_checks": 34,
+  "combined_log_uncompressed_sha256": "9c6d738e170b8a324208c7e0271b5bca0e0fbe9494b4408d3bc413a92409eb73",
+  "protected_archive_files_equal_to_main": 18,
+  "final_test_inventory": {
+    "tests": 858,
+    "modules": 202,
+    "status": "Hosted full combined-head execution required; local coverage is the baseline plus recorded incoming/new focused checks."
+  }
 }

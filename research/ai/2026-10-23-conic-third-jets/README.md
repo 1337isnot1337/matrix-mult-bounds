@@ -20,6 +20,11 @@ target. Claims `AI-CONIC-RATIONAL-THIRD-JET-001` and
 `AI-CONIC-MIXED-THIRD-JET-002` are written and unreviewed. No exponent
 improvement is established.
 
+The [validation receipt](../../../results/conic-third-jets-2026-10-23/validation.json)
+records the 850-test baseline, five historical replays and 34 combined
+focused checks after integration of nonsplit main. Hosted CI must pass
+the final combined head before merge.
+
 Read [proof.md](proof.md), [QUESTION.md](QUESTION.md) and
 [sources.json](sources.json). Discovery uses the credited PR101 tangent
 operators. Acceptance uses the explicit maps and original-source
