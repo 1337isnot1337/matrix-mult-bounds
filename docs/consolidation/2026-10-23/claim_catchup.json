@@ -1,0 +1,492 @@
+{
+  "source": "catchup_plan.json",
+  "heads": [
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "before": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+      "now": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "delta_base": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8"
+    },
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "before": null,
+      "now": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "before": null,
+      "now": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "before": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "now": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "before": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "now": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "before": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "now": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "before": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "now": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2"
+    }
+  ],
+  "added_ids": [
+    "AI-AGGREGATION-29-001",
+    "AI-A4-TWOSIDED-RANKLOSS-001",
+    "AI-A4-TWOSIDED-COORDINATE-002"
+  ],
+  "revised_ids": [
+    "AI-AFFINE-Z-BIFORM-RANK-001"
+  ],
+  "decisions": [
+    {
+      "branch": "research/affine-z-biform-ranks-20261023",
+      "source_sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+      "delta_base": "ef6e60a307420ed877e8b1ecd65bfeb0e6847de8",
+      "id": "AI-AFFINE-Z-BIFORM-RANK-001",
+      "incoming_record_sha256": "3ce550b6025ec2139f87e2bde31dc536b4e4ce3f9cfcc82825bad2aaf945ade6",
+      "decision": "adopt explicit descendant affine-z correction extending the dimension order; evidence status unchanged",
+      "before_record": {
+        "id": "AI-AFFINE-Z-BIFORM-RANK-001",
+        "title": "Exact all-field rank spectrum of cyclic-source biforms affine in z",
+        "origin": "Owner-directed AI-assisted research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+        "statement": "For every field K, 2<=a<=b and every nonzero f=u(x)+z*v(x) with deg u,deg v<a, the literal coefficient matrix R_(a,b)(f) has rank ab+min(b,a*d), where d is max(deg(u/g),deg(v/g)) for nonzero u,v with g=gcd(u,v), and d=0 when either coefficient is zero. All d=0,...,a-1 occur.",
+        "dependencies": [
+          "Exact source convention in research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md pinned at git blob 04d28c6a05027a7756891f47d28327de850a7501",
+          "Complete all-column polynomial syzygy parametrization in proof.md"
+        ],
+        "limitations": "Individual biform coefficient matrices affine in z only; not a classification of arbitrary biforms, linear spaces of slices, tensor degenerations, or exponents. Same-session exact computations support but do not replace the written proof; no independent review, formalization or historical priority.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "after_record": {
+        "id": "AI-AFFINE-Z-BIFORM-RANK-001",
+        "title": "Exact all-field rank spectrum of cyclic-source biforms affine in z",
+        "origin": "Owner-directed AI-assisted research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+        "statement": "For every field K, a,b>=2 and every nonzero f=u(x)+z*v(x) with deg u,deg v<a, the literal coefficient matrix R_(a,b)(f) has rank ab+min(b,a*d), where d is max(deg(u/g),deg(v/g)) for nonzero u,v with g=gcd(u,v), and d=0 when either coefficient is zero. All d=0,...,a-1 occur.",
+        "dependencies": [
+          "Exact source convention in research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md pinned at git blob 04d28c6a05027a7756891f47d28327de850a7501",
+          "Complete all-column polynomial syzygy parametrization in proof.md"
+        ],
+        "limitations": "Individual biform coefficient matrices affine in z only; not a classification of arbitrary biforms, linear spaces of slices, tensor degenerations, or exponents. Same-session exact computations support but do not replace the written proof; no independent review, formalization or historical priority.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source": {
+        "id": "AI-AFFINE-Z-BIFORM-RANK-001",
+        "original_id": "AI-AFFINE-Z-BIFORM-RANK-001",
+        "record_sha256": "3ce550b6025ec2139f87e2bde31dc536b4e4ce3f9cfcc82825bad2aaf945ade6",
+        "source_record_sha256": "3ce550b6025ec2139f87e2bde31dc536b4e4ce3f9cfcc82825bad2aaf945ade6",
+        "source_branch": "research/affine-z-biform-ranks-20261023",
+        "source_sha": "4247f42eeb305163d299f908144b5915d1c238c5",
+        "original_evidence": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+        "evidence": "research/ai/2026-10-23-affine-z-biform-ranks/proof.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true,
+        "snapshot": "catchup"
+      }
+    },
+    {
+      "branch": "research/aggregation-construction-20261023-ab94",
+      "source_sha": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "id": "AI-AGGREGATION-29-001",
+      "incoming_record_sha256": "ad454e7e1398997686a275bddbee7c3ae43fc2dbc10677187793ce14ef74f09e",
+      "decision": "include new source claim with its original evidence status and limitations",
+      "before_record": null,
+      "after_record": {
+        "id": "AI-AGGREGATION-29-001",
+        "title": "Exact aggregation of 29 independent matrix products with a uniform cost gain",
+        "origin": "Owner-directed Codex local combinatorial construction; external aggregation mechanism credited",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+        "statement": "For every positive integer n over every characteristic-zero field, an explicit family of 29 balanced tripartitions proves rank(M(n^3,n^3,n^3)^direct_sum29)<=x^9+9x^8+36x^7+3x^6, x=n+1. Complete set-based enumeration checks all 24389 mixed triples, of which 23072 off-diagonal terms vanish by centering and 1288 by 48 explicit corrections. The bound per output is strictly smaller than the cited external 28-product bound for every n, by the polynomial identity29*r28-28*r29=x^6*(x^3+9*x^2+7*x+32)>0.",
+        "dependencies": [
+          "Solomonik and Blaeser arXiv:2610.26563v2 centering and inclusion-exclusion aggregation; external ex28 comparison witness",
+          "Exported29-product family and full exact mixed-triple certificate",
+          "Written rational dual-embedding tensor identity over characteristic zero",
+          "Weighted AM-GM and exact integer certificate for the displayed cost limitation"
+        ],
+        "limitations": "Weighted AM-GM with exact integer margin proves the stated rank upper-bound polynomial cannot reach 9/4 by direct asymptotic-sum substitution for any local dimension; this is not a lower bound on optimal tensor rank. Improves one attained finite aggregation family and its cost per output. No polynomial-source restriction, historical priority, independent mathematical review or Lean formalization is claimed. The scalar finite-field evaluation is an implementation control, not the uniform proof.",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false
+      },
+      "source": {
+        "id": "AI-AGGREGATION-29-001",
+        "original_id": "AI-AGGREGATION-29-001",
+        "record_sha256": "ad454e7e1398997686a275bddbee7c3ae43fc2dbc10677187793ce14ef74f09e",
+        "source_record_sha256": "ad454e7e1398997686a275bddbee7c3ae43fc2dbc10677187793ce14ef74f09e",
+        "source_branch": "research/aggregation-construction-20261023-ab94",
+        "source_sha": "ffbb0d3f530485413efd5e0cc9b82534ce6f6435",
+        "original_evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+        "evidence": "research/ai/2026-10-23-aggregation-families/proof.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true,
+        "snapshot": "catchup"
+      }
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "source_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+      "incoming_record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
+      "decision": "include new source claim with its original evidence status and limitations",
+      "before_record": null,
+      "after_record": {
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "title": "Nine-direction rank-loss requirement for a full-source two-sided A4 conjugation",
+        "section": "1-4",
+        "statement": "Over C, conjugate the complete 112-dimensional normalized A4 slice space by I+t^-1 N, with the specified square-zero rank-sixteen source slice N=H_(0,0,0). Its complete saturated limit L acts by scalars on the stated twelve-dimensional subspace. For arbitrary constant full-rank maps P:C^112->C^110 and C:C^110->C^112, and an arbitrary Laurent first map, a degeneration to M(10,10,11) requires dim(P L C)<=103. Re-saturation recovers at most the number of lost leading directions, while the target has nonzero evaluation rank at least ten.",
+        "dependencies": [
+          "Credited literal cyclic A4 source and unimodular source-unit normalization",
+          "Exact complete polynomial-combination certificate with 112 independent leading matrices and twelve scalar-action columns",
+          "Elementary saturated-lattice specialization, Grassmann dimension inequality and target evaluation rank"
+        ],
+        "limitations": "One specified two-sided conjugation family with constant long-leg compressions. The necessary rank-loss locus is not classified. Moving compressions, other source paths and other nilpotent factors remain outside the result. Exact coefficient replay and same-session proof checks are not independent mathematical review. No full target, formalization or exponent improvement."
+      },
+      "source": {
+        "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "original_id": "AI-A4-TWOSIDED-RANKLOSS-001",
+        "record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
+        "source_record_sha256": "e26842bc7357d943f0480903b3558a64820bd4bca2f4afbfc8d445d5c2d2e71e",
+        "source_branch": "research/full-target-reconstruction-20261023-ab94",
+        "source_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "original_evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true,
+        "snapshot": "catchup"
+      }
+    },
+    {
+      "branch": "research/full-target-reconstruction-20261023-ab94",
+      "source_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+      "delta_base": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+      "id": "AI-A4-TWOSIDED-COORDINATE-002",
+      "incoming_record_sha256": "b9b5b04ca4fe634df65e9dfb02737c8f185b26d886c79069f6a395cc85b2251b",
+      "decision": "include new source claim with its original evidence status and limitations",
+      "before_record": null,
+      "after_record": {
+        "origin": "Owner-directed OpenAI Codex research",
+        "status": "proof-written-unreviewed",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "independent_review": false,
+        "lean_formalized": false,
+        "improves_omega": false,
+        "id": "AI-A4-TWOSIDED-COORDINATE-002",
+        "title": "Complete principal coordinate-compression exclusion for the two-sided A4 family",
+        "section": "5",
+        "statement": "For all 6216 two-element subsets of the 112 normalized coordinates, the principal 110-coordinate projection of the certified two-sided conjugation limit has dimension at least 108 over C. Complete replay gives modular rank histogram 108:3, 109:4, 110:221, 111:211, 112:5777 over F1009. Each modular rank is only used as a complex lower bound. Since at most four leading directions are lost, all these principal compressions are excluded by the nine-direction requirement.",
+        "dependencies": [
+          "AI-A4-TWOSIDED-RANKLOSS-001",
+          "Exact integer limiting-space certificate and exhaustive coverage of every two-coordinate principal deletion",
+          "Modular nonzero-minor lower certificates for complex matrix rank"
+        ],
+        "limitations": "A complete finite computer-assisted exclusion of principal coordinate compressions in the stated normalized basis and fixed conjugation family. It does not exclude arbitrary constant compressions, certify equality of modular and complex ranks, or construct the target. Written and unreviewed; no formalization or exponent improvement."
+      },
+      "source": {
+        "id": "AI-A4-TWOSIDED-COORDINATE-002",
+        "original_id": "AI-A4-TWOSIDED-COORDINATE-002",
+        "record_sha256": "b9b5b04ca4fe634df65e9dfb02737c8f185b26d886c79069f6a395cc85b2251b",
+        "source_record_sha256": "b9b5b04ca4fe634df65e9dfb02737c8f185b26d886c79069f6a395cc85b2251b",
+        "source_branch": "research/full-target-reconstruction-20261023-ab94",
+        "source_sha": "2e82e9baa5ed52d62a7b0f143d416dafc7c18f2a",
+        "original_evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "evidence": "research/ai/2026-10-23-conjugation-limit/proof.md",
+        "path_or_id_replacements": [],
+        "original_evidence_verified": true,
+        "snapshot": "catchup"
+      }
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+      "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+      "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+      "decision": "retain deliberately reconciled current record; incoming merge imports an already known older variant",
+      "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+      "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+      "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+      "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+      "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/hankel-annihilator-degree-20261023",
+      "source_sha": "f2430ffeb834f814dd7b2ed548816421d3f46a05",
+      "delta_base": "c0bf4630d22621d64b79e1802429755f5d26c7a5",
+      "id": "AI-CONIC-MIXED-THIRD-JET-002",
+      "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+      "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+      "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+      "decision": "retain deliberately reconciled current record; incoming merge imports an already known older variant",
+      "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+      "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+      "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+      "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+      "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/one-slice-seed-20261023",
+      "source_sha": "5b7d08e561be8f079d1a8b090f6d261b6c1390ce",
+      "delta_base": "6b03d456eb4d81aee9977e67532891485c38aa81",
+      "id": "AI-CONIC-MIXED-THIRD-JET-002",
+      "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+      "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+      "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+      "decision": "retain deliberately reconciled current record; incoming merge imports an already known older variant",
+      "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+      "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+      "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+      "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+      "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/repair-support-capacity-20261023",
+      "source_sha": "c74e6838175f0b42c1723c480b93e4ce74a6248c",
+      "delta_base": "e591067302eb0f26eb4730329ccdec83d7c081a0",
+      "id": "AI-CONIC-MIXED-THIRD-JET-002",
+      "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+      "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+      "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+      "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+      "decision": "retain deliberately reconciled current record; incoming merge imports an already known older variant",
+      "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+      "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+      "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+      "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+      "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+      "decision": "already represented exactly"
+    },
+    {
+      "branch": "research/s5-finite-power-covers-20261023",
+      "source_sha": "4c119fc9052a8f10b726f6a8caf13adef5831b6b",
+      "delta_base": "38e3c12553a7c499994b9ccb87946d749d718ad2",
+      "id": "AI-CONIC-MIXED-THIRD-JET-002",
+      "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+      "decision": "already represented exactly"
+    }
+  ],
+  "claims_after": 602,
+  "initial_report": "resolution_report.initial.json"
+}
