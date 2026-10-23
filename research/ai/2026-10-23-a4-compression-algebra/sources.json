@@ -1,0 +1,60 @@
+{
+  "schema": "a4-compression-algebra-sources-v1",
+  "field": "complex numbers",
+  "repository_snapshot_local_commit": "5bce59fa4fcdc52ddcd21a98f841a156885793d9",
+  "prior_source_pull_request": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/213",
+  "imported_claims": [
+    {
+      "id": "AI-A4-TWOSIDED-RANKLOSS-001",
+      "use": "Full 112-dimensional saturated conjugation limit and the necessary image-dimension upper bound103 for a full matrix target."
+    },
+    {
+      "id": "AI-A4-TWOSIDED-LOWRANK-003",
+      "use": "Rank-at-most-four support reduction, the 46-dimensional outer space, and equivalence to arbitrary rank26 outer compressions."
+    },
+    {
+      "id": "AI-RESOLVENT-SHARP-MINRANK-001",
+      "use": "Prior minimum-rank-six theorem used by the imported low-rank reduction; no new credit is claimed."
+    }
+  ],
+  "new_contribution": "Universal dimension at least38 for arbitrary constant rank26 compressions of the specified outer space, proved by a torus limit and exact graded minor certificates.",
+  "review_status": "Written proof; checks within the generating session are not independent mathematical review.",
+  "repository_inputs": [
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/proof.md",
+      "sha256": "fb29b294aa1ccac92ee2e684a1a69e940890a1e24a783f957055592c743404af"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/LOW_RANK_REDUCTION.md",
+      "sha256": "ec0f85dc74dce5739a648c3f79a9df96f3e448cbb2b3d32a5c5d79fb3a73892f"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/verify.py",
+      "sha256": "c6d97f9280715bb164b3e0e8907bea9345413d3aac5f9d9f73cb2da1027b9014"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/block_reduction.py",
+      "sha256": "f30c9f1e450674c64b39781a9fdef5c216ab621bedf05c006f0d242c66cf8c4b"
+    },
+    {
+      "path": "research/ai/2026-10-23-conjugation-limit/sources.json",
+      "sha256": "a002f254c7fa30b811133941c2901439461b71dcba02f4ab3c811f85890dbed1"
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/certificate.json",
+      "sha256": "0b5d607e184be5454e745f07c2cfcd0d2a7029feecb00ea80fd33ff61d692c22"
+    },
+    {
+      "path": "results/conjugation-limit-2026-10-23/block-certificate.json",
+      "sha256": "7dc48c9954b5809a21a7f26ed4ab3493d21b2ff43409292c3448ad52b408f53e"
+    },
+    {
+      "path": "research/ai/2026-10-23-resolvent-minrank/proof.md",
+      "sha256": "6bfc4c59efa33d57f2b2e1d545379fbd99606201e9f288f2e59d58913e08c2cb"
+    },
+    {
+      "path": "results/resolvent-minrank-2026-10-23/certificate.json",
+      "sha256": "dc24bcc3324846fb0976d26bb3506ed68b230680d8586bd9808737b6af70ee03"
+    }
+  ]
+}

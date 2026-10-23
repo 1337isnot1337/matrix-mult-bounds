@@ -1,5 +1,18 @@
 # Independent coordinate compressions of the reduced outer space
 
+## Resolution
+
+The [completed finite proof](proof.md) gives minimum image dimension
+40 across all 142,884 independent deletion pairs, with two exact
+equality witnesses. The subsequent
+[universal theorem](../2026-10-23-a4-compression-algebra/proof.md)
+gives dimension at least 38 for arbitrary constant rank-26 maps and
+closes that larger class separately. Moving compressions and different
+singular paths remain construction questions. The original finite
+question below records the starting point.
+
+## Original question
+
 October 23, 2026. Continuation of PR213.
 
 The preceding low-rank-locus reduction identifies the full constant

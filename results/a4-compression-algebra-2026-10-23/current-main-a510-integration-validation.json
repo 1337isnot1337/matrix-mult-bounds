@@ -1,0 +1,63 @@
+{
+  "schema": "a4-concurrent-main-integration-validation-v1",
+  "completed_at_utc": "2026-10-23T19:01:37.346195+00:00",
+  "tested_merge_commit": "ef4b83b17c9d12637cd44d86c2a1c93321bce67a",
+  "tested_merge_tree": "697aebb25fc0a5c9a56e5d8eaa48ebce8399ad4f",
+  "ordered_merge_parents": [
+    "fb6c926debbe747f35cc11596ac6979e056524cf",
+    "a510bec4627043b35bac0ad4b19bb617446e8949"
+  ],
+  "fresh_checks": {
+    "command": "python -m unittest discover -s tests -p test_research.py -v",
+    "started_at_utc": "2026-10-23T19:01:37.154933+00:00",
+    "tests_passed": 18,
+    "exit_code": 0,
+    "reported_test_seconds": 0.121,
+    "log": "current-main-a510-metadata-tests.log",
+    "sha256": "62f44c6ff41fe32b10644b25a62e0d2d20870a5cac8bafbd629392f3657272d3"
+  },
+  "preservation_audit": {
+    "method": "Exact git ls-tree modes and blob IDs for both parents; exact parsed claim objects by unique ID; SHA-256 for declared A4 input pins.",
+    "prior_continuation_files_preserved_outside_shared": 3057,
+    "current_main_files_preserved_outside_shared": 2994,
+    "shared_files": [
+      "PROVENANCE.md",
+      "STATUS.md",
+      "docs/research_directions.md",
+      "research/ACTIVE.md",
+      "research/claims.json"
+    ],
+    "all_compared_modes_and_blobs_identical": true,
+    "a4_artifacts_and_receipts_matching_prior": 71,
+    "new_quadratic_artifacts_matching_main": 8,
+    "tracked_files": 3070,
+    "exact_parent_path_union": true,
+    "claim_union": {
+      "unique_ids": 304,
+      "prior_objects_preserved": 302,
+      "current_main_objects_preserved": 299,
+      "all_objects_identical": true,
+      "duplicates_missing_or_extra": 0
+    },
+    "a4_source_pins": {
+      "declarations": 19,
+      "unique_input_files": 12,
+      "all_sha256_match": true
+    },
+    "shared_summary_resolution": "Automatic three-way merge; all A4 summaries retained, with new quadratic results and current-main updates to their earlier research questions."
+  },
+  "retained_historical_receipts": [
+    {
+      "path": "integration-validation.json",
+      "sha256": "48d13d331d1bd5a5905f350c78770a0801f46f4aec76003887b3270eacd6f14b"
+    },
+    {
+      "path": "current-main-integration-validation.json",
+      "sha256": "7349304d4c05722c6897f3c69e7444e9aaf8a8a00a4b25e3326a19d2779ffdf3"
+    }
+  ],
+  "historical_scope": "The 920-test union remains tied to its earlier checkpoint. The prior current-main receipt remains tied to 77b734f and main6e11. Neither is a fresh full-suite or complete coverage claim for this merged tree.",
+  "full_regression_repeated": false,
+  "mathematical_computation_repeated": false,
+  "limitations": "Only the 18 fast test_research checks were rerun on the named merge. Hosted CI remains separate. Existing evidence bytes and mathematical review statuses are unchanged."
+}
