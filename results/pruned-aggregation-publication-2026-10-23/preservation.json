@@ -1,0 +1,277 @@
+{
+  "scope": "Current-main integration and byte-preservation audit; no mathematical payload was changed, no full regression suite or archive replay was repeated.",
+  "references": {
+    "main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+    "completed_aggregation": "767afafb3e461116f252dfeec8d9ce869357654c",
+    "retired_pr212": "a118381b3979f27f5b0915ceacbb69b30f2325fa",
+    "target": "f60d29c6de6ee3a64d99c06d24df0ebf7acaf031"
+  },
+  "audited_tree": "61aab6c33ad56bb5d66b77d48de6d8b8a5dd8d09",
+  "target_tracked_files": 3083,
+  "target_path_set_is_exact_main_completed_union": true,
+  "comparisons": {
+    "main": {
+      "baseline_files": 2991,
+      "exact_blob_type_mode_matches": 2988,
+      "modified_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "research/claims.json"
+      ],
+      "added_paths_count": 92,
+      "missing_paths": [],
+      "mode_changes": []
+    },
+    "completed_aggregation": {
+      "baseline_files": 3069,
+      "exact_blob_type_mode_matches": 3064,
+      "modified_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/claims.json"
+      ],
+      "added_paths_count": 14,
+      "missing_paths": [],
+      "mode_changes": []
+    },
+    "retired_pr212": {
+      "baseline_files": 3040,
+      "exact_blob_type_mode_matches": 3034,
+      "modified_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/ai/2026-10-23-aggregation-families/README.md",
+        "research/claims.json"
+      ],
+      "added_paths_count": 43,
+      "missing_paths": [],
+      "mode_changes": []
+    }
+  },
+  "aggregation_package": {
+    "files": 89,
+    "tree": "a928cf10097f82bc26982c20018c9be615b5fe5e",
+    "all_bytes_and_modes_match_completed": true
+  },
+  "aggregation_tests": {
+    "tests/test_aggregation_families.py": {
+      "blob": "5df79aac8a53f3fd09830c0e75d32839bd3f9c99",
+      "mode": "100644",
+      "matches_completed": true
+    },
+    "tests/test_aggregation_rectangular.py": {
+      "blob": "9929aa5173af02e0aad750675d514c5649cae042",
+      "mode": "100644",
+      "matches_completed": true
+    },
+    "tests/test_aggregation_pruned.py": {
+      "blob": "213c2b37f5aebc06a424d75e11bd396ee008d8fa",
+      "mode": "100644",
+      "matches_completed": true
+    }
+  },
+  "claim_union": {
+    "main": 297,
+    "completed": 302,
+    "common_identical_objects": 295,
+    "target": 304,
+    "exact_object_union": true,
+    "duplicate_ids": 0,
+    "changed_common_objects": 0
+  },
+  "shared_text_summaries": {
+    "only_insertions_no_deleted_or_replaced_lines": true,
+    "added_lines": {
+      "PROVENANCE.md": {
+        "main_added_lines": 64,
+        "completed_aggregation_added_lines": 12
+      },
+      "STATUS.md": {
+        "main_added_lines": 87,
+        "completed_aggregation_added_lines": 20
+      },
+      "docs/research_directions.md": {
+        "main_added_lines": 0,
+        "completed_aggregation_added_lines": 2
+      },
+      "research/ACTIVE.md": {
+        "main_added_lines": 0,
+        "completed_aggregation_added_lines": 11
+      }
+    }
+  },
+  "protected_archives": [
+    {
+      "path": "research/ai/2026-10-20",
+      "files": 11,
+      "tree": "f9b82c5d620837ec8a7673b31fc763e17f29dac8",
+      "same_in_all_four_refs": true
+    },
+    {
+      "path": "research/ai/2026-10-20-session2",
+      "files": 7,
+      "tree": "053937f74645027d54b1bbfd88956cf38bfc8c73",
+      "same_in_all_four_refs": true
+    }
+  ],
+  "source_pin_checks": [
+    {
+      "id": "ex14",
+      "manifest": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex14.txt",
+      "declared_bytes": 1004,
+      "declared_sha256": "35e33373f15ff7f24a6777685136bd8444611bff6f40bd13da153a30353b0756",
+      "declaration_preserved": true,
+      "retained_path": null,
+      "bytes_and_sha256_recomputed": false,
+      "limit": "Metadata-only historical pin; original raw bytes are not retained in this aggregation package."
+    },
+    {
+      "id": "ex28",
+      "manifest": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex28.txt",
+      "declared_bytes": 1718,
+      "declared_sha256": "f99a39d40e0504062ad413508ebb8773d58b3015d3f1abf8bc99fdb08738a22f",
+      "declaration_preserved": true,
+      "retained_path": "research/ai/2026-10-23-aggregation-families/baseline_ex28.txt",
+      "bytes_and_sha256_recomputed": true
+    },
+    {
+      "id": "ex105",
+      "manifest": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex105.txt",
+      "declared_bytes": 6807,
+      "declared_sha256": "5be07a72963435bf97922ac990451ee434763b7516e3c588f1743e03daeb81ff",
+      "declaration_preserved": true,
+      "retained_path": "research/ai/2026-10-23-aggregation-families/baseline_ex105.txt",
+      "bytes_and_sha256_recomputed": true
+    },
+    {
+      "id": "w3e",
+      "manifest": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/w3e.txt",
+      "declared_bytes": 1711,
+      "declared_sha256": "9e69a270a5a13337252fc88ff6565c2d4f55b13467bb2e83749ee47090681da5",
+      "declaration_preserved": true,
+      "retained_path": null,
+      "bytes_and_sha256_recomputed": false,
+      "limit": "Metadata-only historical pin; original raw bytes are not retained in this aggregation package."
+    },
+    {
+      "id": "w4e",
+      "manifest": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/w4e.txt",
+      "declared_bytes": 6800,
+      "declared_sha256": "c282269dfbc65f6d0076df036c2825622f92285052af501a429d92318d24a178",
+      "declaration_preserved": true,
+      "retained_path": null,
+      "bytes_and_sha256_recomputed": false,
+      "limit": "Metadata-only historical pin; original raw bytes are not retained in this aggregation package."
+    },
+    {
+      "id": "ex38",
+      "manifest": "research/ai/2026-10-23-aggregation-families/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/ex38.txt",
+      "declared_bytes": 2647,
+      "declared_sha256": "5b3ba56d4cb7afd0b4d58b4c93076cbe95caa0dd29b72c5927fdcc0c1bf53768",
+      "declaration_preserved": true,
+      "retained_path": null,
+      "bytes_and_sha256_recomputed": false,
+      "limit": "Metadata-only historical pin; original raw bytes are not retained in this aggregation package."
+    },
+    {
+      "id": "general10",
+      "manifest": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/general10.txt",
+      "declared_bytes": 852,
+      "declared_sha256": "1d314e8f246c6455cde622244d0bbae0290a2e58ac635b924f56908767a20de3",
+      "declaration_preserved": true,
+      "retained_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general10.txt",
+      "bytes_and_sha256_recomputed": true
+    },
+    {
+      "id": "general13",
+      "manifest": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/general13.txt",
+      "declared_bytes": 1001,
+      "declared_sha256": "486d2c5b6d220046f1571f6364f979c5b2e1cdbab758c6c1c95231c61c21dc84",
+      "declaration_preserved": true,
+      "retained_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general13.txt",
+      "bytes_and_sha256_recomputed": true
+    },
+    {
+      "id": "general22",
+      "manifest": "research/ai/2026-10-23-aggregation-families/pruned/sources.json",
+      "url": "https://arxiv.org/src/2610.26563v2/anc/constructions/general22.txt",
+      "declared_bytes": 1523,
+      "declared_sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+      "declaration_preserved": true,
+      "retained_path": "research/ai/2026-10-23-aggregation-families/pruned/sources/general22.txt",
+      "bytes_and_sha256_recomputed": true
+    }
+  ],
+  "source_coverage": {
+    "preserved_declarations": 9,
+    "retained_raw_files_rehashed": 5,
+    "metadata_only_pins": [
+      "ex14",
+      "w3e",
+      "w4e",
+      "ex38"
+    ]
+  },
+  "commit_chain": [
+    {
+      "commit": "bd4366ffa4b5d2efb315073e4cdf911f6177b1ca",
+      "tree": "70d67979e17a0092dfde2bafc6d6d5ecdda3d53b",
+      "parents": [
+        "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+        "a118381b3979f27f5b0915ceacbb69b30f2325fa"
+      ],
+      "subject": "integrate preserved aggregation research with current main"
+    },
+    {
+      "commit": "2357d413e9fa8e81608e61c2c0f94339acac4fcf",
+      "tree": "c70d27fce51049e4ac4bc7e5c5737a2ad439290b",
+      "parents": [
+        "bd4366ffa4b5d2efb315073e4cdf911f6177b1ca"
+      ],
+      "subject": "research: bound rectangular complete grids and fixed-form pruning"
+    },
+    {
+      "commit": "93d45f74240ae042c4efba8434823052c02846cc",
+      "tree": "76d8154c533b402a7b24008df626d744aeea800c",
+      "parents": [
+        "2357d413e9fa8e81608e61c2c0f94339acac4fcf"
+      ],
+      "subject": "research: cost pruned rectangular aggregation and bound shared supports"
+    },
+    {
+      "commit": "f60d29c6de6ee3a64d99c06d24df0ebf7acaf031",
+      "tree": "61aab6c33ad56bb5d66b77d48de6d8b8a5dd8d09",
+      "parents": [
+        "93d45f74240ae042c4efba8434823052c02846cc"
+      ],
+      "subject": "docs: make the pruned border degeneration explicit and record audit"
+    }
+  ],
+  "shared_checks_receipt": "metadata.json",
+  "shared_checks_log": "metadata.log",
+  "separate_agent_audit": {
+    "role": "Read-only same-session preservation auditor",
+    "target": "f60d29c6de6ee3a64d99c06d24df0ebf7acaf031",
+    "findings_agree": true,
+    "independent_mathematical_review": false
+  },
+  "historical_validation_limit": "The retained 920-test and archive replay receipts concern their explicitly named earlier trees. They are historical evidence, not a fresh full-suite run on this merged branch.",
+  "whitespace_note": "A whole-delta whitespace check reports the preserved historical validation/full-tests-prefix.log line 480. That log is byte-identical to the completed aggregation baseline. The three intentionally combined main summary files pass git diff --check.",
+  "receipt_only_paths": [
+    "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+    "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+    "results/pruned-aggregation-publication-2026-10-23/preservation.json"
+  ]
+}

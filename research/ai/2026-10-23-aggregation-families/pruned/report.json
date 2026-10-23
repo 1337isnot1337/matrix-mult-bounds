@@ -1,0 +1,1711 @@
+{
+  "source_acceptance": {
+    "general10": {
+      "sha256": "1d314e8f246c6455cde622244d0bbae0290a2e58ac635b924f56908767a20de3",
+      "accepted": true,
+      "products": 10,
+      "ordered_mixed_triples": 1000,
+      "class_counts": {
+        "centered": 862,
+        "corrected": 92,
+        "diagonal": 10,
+        "positive_grade": 36
+      },
+      "minimum_remaining_grade": 1,
+      "correction_counts_by_size": {
+        "1": 6,
+        "2": 3
+      }
+    },
+    "general13": {
+      "sha256": "486d2c5b6d220046f1571f6364f979c5b2e1cdbab758c6c1c95231c61c21dc84",
+      "accepted": true,
+      "products": 13,
+      "ordered_mixed_triples": 2197,
+      "class_counts": {
+        "centered": 1836,
+        "corrected": 187,
+        "diagonal": 13,
+        "positive_grade": 161
+      },
+      "minimum_remaining_grade": 1,
+      "correction_counts_by_size": {
+        "1": 6,
+        "2": 6
+      }
+    },
+    "general22": {
+      "sha256": "ae2045f46053627d5c30effdfc7d8d7e47d7d0e9c3ac118595cb3582bd60d87f",
+      "accepted": true,
+      "products": 22,
+      "ordered_mixed_triples": 10648,
+      "class_counts": {
+        "centered": 8770,
+        "corrected": 884,
+        "diagonal": 22,
+        "positive_grade": 972
+      },
+      "minimum_remaining_grade": 1,
+      "correction_counts_by_size": {
+        "1": 6,
+        "2": 12
+      }
+    }
+  },
+  "featured_22_product_construction": {
+    "rank_polynomial_coefficients_n": {
+      "5": 4,
+      "4": 32,
+      "3": 102,
+      "2": 158,
+      "1": 118,
+      "0": 34
+    },
+    "main_polynomial_coefficients_n": {
+      "5": 4,
+      "4": 16,
+      "3": 24,
+      "2": 16,
+      "1": 4
+    },
+    "matrix_shape_exponent_counts": [
+      {
+        "A_B_C_exponents": [
+          0,
+          1,
+          4
+        ],
+        "products": 1
+      },
+      {
+        "A_B_C_exponents": [
+          0,
+          3,
+          2
+        ],
+        "products": 1
+      },
+      {
+        "A_B_C_exponents": [
+          1,
+          2,
+          2
+        ],
+        "products": 7
+      },
+      {
+        "A_B_C_exponents": [
+          1,
+          3,
+          1
+        ],
+        "products": 2
+      },
+      {
+        "A_B_C_exponents": [
+          1,
+          4,
+          0
+        ],
+        "products": 1
+      },
+      {
+        "A_B_C_exponents": [
+          2,
+          1,
+          2
+        ],
+        "products": 1
+      },
+      {
+        "A_B_C_exponents": [
+          2,
+          2,
+          1
+        ],
+        "products": 4
+      },
+      {
+        "A_B_C_exponents": [
+          2,
+          3,
+          0
+        ],
+        "products": 1
+      },
+      {
+        "A_B_C_exponents": [
+          3,
+          1,
+          1
+        ],
+        "products": 4
+      }
+    ],
+    "classical_minus_pruned_coefficients_after_n_equals_4_plus_u": {
+      "5": 18,
+      "4": 328,
+      "3": 2266,
+      "2": 7066,
+      "1": 8570,
+      "0": 678
+    },
+    "all_n_scope": "Border-rank upper bound over characteristic zero for every integer n>=2",
+    "classical_comparison_scope": "Smaller border-rank budget than the 22*n^5 classical rank upper bound for n>=4; no finite-precision runtime claim",
+    "critical_mass": "22*n^(15/4)",
+    "improves_omega": false
+  },
+  "all_dimension_common_support_cost_floors": [
+    {
+      "products": 10,
+      "coordinates": 6,
+      "p_fourth_times_3_power_3d": 3874204890000,
+      "4_power_4d": 281474976710656,
+      "strict_integer_margin": 277600771820656,
+      "excluded_for_all_dimensions_with_common_support_condition": true
+    },
+    {
+      "products": 13,
+      "coordinates": 6,
+      "p_fourth_times_3_power_3d": 11065116586329,
+      "4_power_4d": 281474976710656,
+      "strict_integer_margin": 270409860124327,
+      "excluded_for_all_dimensions_with_common_support_condition": true
+    },
+    {
+      "products": 22,
+      "coordinates": 6,
+      "p_fourth_times_3_power_3d": 90755574071184,
+      "4_power_4d": 281474976710656,
+      "strict_integer_margin": 190719402639472,
+      "excluded_for_all_dimensions_with_common_support_condition": true
+    },
+    {
+      "products": 29,
+      "coordinates": 9,
+      "p_fourth_times_3_power_3d": 5393440214779090347,
+      "4_power_4d": 4722366482869645213696,
+      "strict_integer_margin": 4716973042654866123349,
+      "excluded_for_all_dimensions_with_common_support_condition": true
+    },
+    {
+      "products": 106,
+      "coordinates": 12,
+      "p_fourth_times_3_power_3d": 18949101888206414740275216,
+      "4_power_4d": 79228162514264337593543950336,
+      "strict_integer_margin": 79209213412376131178803675120,
+      "excluded_for_all_dimensions_with_common_support_condition": true
+    }
+  ],
+  "six_coordinate_product_count_boundary": {
+    "p29_excluded": {
+      "products": 29,
+      "coordinates": 6,
+      "p_fourth_times_3_power_3d": 274015150880409,
+      "4_power_4d": 281474976710656,
+      "strict_integer_margin": 7459825830247,
+      "excluded_for_all_dimensions_with_common_support_condition": true
+    },
+    "p30_not_excluded_by_this_test": {
+      "products": 30,
+      "coordinates": 6,
+      "p_fourth_times_3_power_3d": 313810596090000,
+      "4_power_4d": 281474976710656,
+      "strict_integer_margin": -32335619379344,
+      "excluded_for_all_dimensions_with_common_support_condition": false
+    }
+  },
+  "restricted_profile_samples": [
+    {
+      "n": 2,
+      "profiles": [
+        47,
+        61,
+        55,
+        55,
+        61,
+        61,
+        61,
+        31,
+        61,
+        61,
+        59,
+        59,
+        47,
+        31,
+        62,
+        59,
+        61,
+        61,
+        55,
+        61,
+        59,
+        61
+      ],
+      "all_n_position_polynomials": {
+        "total_coefficients_in_n_minus_one": {
+          "6": 1,
+          "5": 16,
+          "4": 106,
+          "3": 376,
+          "2": 788,
+          "1": 920,
+          "0": 448
+        },
+        "main_coefficients_in_n_minus_one": {
+          "6": 1,
+          "5": 12,
+          "4": 60,
+          "3": 160,
+          "2": 240,
+          "1": 192,
+          "0": 64
+        },
+        "corrections": [
+          {
+            "P": [
+              0
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              1
+            ],
+            "surviving_high_coordinate_types": 32,
+            "coefficients_in_n_minus_one": {
+              "5": 1,
+              "4": 10,
+              "3": 40,
+              "2": 80,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              2
+            ],
+            "surviving_high_coordinate_types": 32,
+            "coefficients_in_n_minus_one": {
+              "5": 1,
+              "4": 10,
+              "3": 40,
+              "2": 80,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              3
+            ],
+            "surviving_high_coordinate_types": 32,
+            "coefficients_in_n_minus_one": {
+              "5": 1,
+              "4": 10,
+              "3": 40,
+              "2": 80,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              4
+            ],
+            "surviving_high_coordinate_types": 32,
+            "coefficients_in_n_minus_one": {
+              "5": 1,
+              "4": 10,
+              "3": 40,
+              "2": 80,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              5
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              0,
+              2
+            ],
+            "surviving_high_coordinate_types": 6,
+            "coefficients_in_n_minus_one": {
+              "2": 8,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              3
+            ],
+            "surviving_high_coordinate_types": 2,
+            "coefficients_in_n_minus_one": {
+              "1": 8,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              5
+            ],
+            "surviving_high_coordinate_types": 6,
+            "coefficients_in_n_minus_one": {
+              "2": 8,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              2
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 1,
+              "3": 8,
+              "2": 24,
+              "1": 32,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              3
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 1,
+              "3": 8,
+              "2": 24,
+              "1": 32,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              3
+            ],
+            "surviving_high_coordinate_types": 6,
+            "coefficients_in_n_minus_one": {
+              "2": 8,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              5
+            ],
+            "surviving_high_coordinate_types": 6,
+            "coefficients_in_n_minus_one": {
+              "2": 8,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              4
+            ],
+            "surviving_high_coordinate_types": 4,
+            "coefficients_in_n_minus_one": {
+              "2": 4,
+              "1": 16,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              4,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          }
+        ],
+        "target_volume_exponent_counts": {
+          "5": 22
+        }
+      },
+      "main_positions_at_n": 729,
+      "total_positions_at_n": 2655,
+      "target_mass_interval": {
+        "lower": [
+          147997769084653721706087664731820589461741075197035695476096929006075786889639,
+          500000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "upper": [
+          14799776908465376570608766473181681553902449476474002852929449365865399996362776961,
+          50000000000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "method": "Exact integer fourth-root interval for n^(3/4), then positive integer powers"
+      },
+      "budget_strictly_above_critical_mass": true,
+      "no_full_ambient_centered_target": true
+    },
+    {
+      "n": 3,
+      "profiles": [
+        61,
+        61,
+        47,
+        47,
+        61,
+        61,
+        61,
+        61,
+        61,
+        61,
+        61,
+        47,
+        47,
+        47,
+        47,
+        47,
+        61,
+        61,
+        47,
+        61,
+        61,
+        61
+      ],
+      "all_n_position_polynomials": {
+        "total_coefficients_in_n_minus_one": {
+          "5": 4,
+          "4": 52,
+          "3": 270,
+          "2": 696,
+          "1": 888,
+          "0": 448
+        },
+        "main_coefficients_in_n_minus_one": {
+          "5": 4,
+          "4": 36,
+          "3": 128,
+          "2": 224,
+          "1": 192,
+          "0": 64
+        },
+        "corrections": [
+          {
+            "P": [
+              0
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              1
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              2
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              3
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              4
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              5
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              0,
+              2
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              3
+            ],
+            "surviving_high_coordinate_types": 4,
+            "coefficients_in_n_minus_one": {
+              "2": 4,
+              "1": 16,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              2
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              4,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          }
+        ],
+        "target_volume_exponent_counts": {
+          "5": 22
+        }
+      },
+      "main_positions_at_n": 3072,
+      "total_positions_at_n": 8128,
+      "target_mass_interval": {
+        "lower": [
+          1879090205424341068240054066404994610130215248999398590069893816027,
+          1387778780781445675529539585113525390625000000000000000000000000
+        ],
+        "upper": [
+          67701359591556904581164685666720480861904002281923261721457606291728773518922889227,
+          50000000000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "method": "Exact integer fourth-root interval for n^(3/4), then positive integer powers"
+      },
+      "budget_strictly_above_critical_mass": true,
+      "no_full_ambient_centered_target": true
+    },
+    {
+      "n": 4,
+      "profiles": [
+        62,
+        59,
+        62,
+        62,
+        59,
+        59,
+        5,
+        62,
+        62,
+        62,
+        59,
+        62,
+        62,
+        62,
+        62,
+        62,
+        62,
+        62,
+        62,
+        59,
+        62,
+        59
+      ],
+      "all_n_position_polynomials": {
+        "total_coefficients_in_n_minus_one": {
+          "5": 4,
+          "4": 54,
+          "3": 280,
+          "2": 724,
+          "1": 912,
+          "0": 448
+        },
+        "main_coefficients_in_n_minus_one": {
+          "5": 4,
+          "4": 36,
+          "3": 128,
+          "2": 240,
+          "1": 192,
+          "0": 64
+        },
+        "corrections": [
+          {
+            "P": [
+              0
+            ],
+            "surviving_high_coordinate_types": 17,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              1
+            ],
+            "surviving_high_coordinate_types": 16,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 64,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              2
+            ],
+            "surviving_high_coordinate_types": 17,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              3
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              4
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              5
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              0,
+              2
+            ],
+            "surviving_high_coordinate_types": 1,
+            "coefficients_in_n_minus_one": {
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              2
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              4
+            ],
+            "surviving_high_coordinate_types": 4,
+            "coefficients_in_n_minus_one": {
+              "2": 4,
+              "1": 16,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              4,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          }
+        ],
+        "target_volume_exponent_counts": {
+          "5": 21,
+          "2": 1
+        }
+      },
+      "main_positions_at_n": 10144,
+      "total_positions_at_n": 22606,
+      "target_mass_interval": {
+        "lower": [
+          38094060556588788347321147568134715264538570427009224005490956344470791079,
+          10000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "upper": [
+          380940605565887950729780018176266429651203148349452380394804652035831361669711599521,
+          100000000000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "method": "Exact integer fourth-root interval for n^(3/4), then positive integer powers"
+      },
+      "budget_strictly_above_critical_mass": true,
+      "no_full_ambient_centered_target": true
+    },
+    {
+      "n": 7,
+      "profiles": [
+        61,
+        59,
+        59,
+        59,
+        6,
+        61,
+        59,
+        59,
+        61,
+        61,
+        59,
+        59,
+        61,
+        59,
+        59,
+        59,
+        59,
+        59,
+        61,
+        59,
+        61,
+        61
+      ],
+      "all_n_position_polynomials": {
+        "total_coefficients_in_n_minus_one": {
+          "5": 4,
+          "4": 56,
+          "3": 294,
+          "2": 752,
+          "1": 928,
+          "0": 448
+        },
+        "main_coefficients_in_n_minus_one": {
+          "5": 4,
+          "4": 36,
+          "3": 128,
+          "2": 240,
+          "1": 192,
+          "0": 64
+        },
+        "corrections": [
+          {
+            "P": [
+              0
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              1
+            ],
+            "surviving_high_coordinate_types": 17,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              2
+            ],
+            "surviving_high_coordinate_types": 17,
+            "coefficients_in_n_minus_one": {
+              "4": 2,
+              "3": 16,
+              "2": 48,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              3
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              4
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              5
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              0,
+              2
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              2
+            ],
+            "surviving_high_coordinate_types": 1,
+            "coefficients_in_n_minus_one": {
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              4
+            ],
+            "surviving_high_coordinate_types": 2,
+            "coefficients_in_n_minus_one": {
+              "1": 8,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              4,
+              5
+            ],
+            "surviving_high_coordinate_types": 12,
+            "coefficients_in_n_minus_one": {
+              "3": 4,
+              "2": 20,
+              "1": 32,
+              "0": 16
+            }
+          }
+        ],
+        "target_volume_exponent_counts": {
+          "5": 21,
+          "2": 1
+        }
+      },
+      "main_positions_at_n": 115264,
+      "total_positions_at_n": 200272,
+      "target_mass_interval": {
+        "lower": [
+          992536119012260821019357237037792154385091899227893836388711013546318484259258521,
+          32000000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "upper": [
+          96927355372291107060048803348633603524058616647168930665795891263285569422294476353,
+          3125000000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "method": "Exact integer fourth-root interval for n^(3/4), then positive integer powers"
+      },
+      "budget_strictly_above_critical_mass": true,
+      "no_full_ambient_centered_target": true
+    },
+    {
+      "n": 11,
+      "profiles": [
+        61,
+        55,
+        61,
+        59,
+        55,
+        61,
+        59,
+        55,
+        61,
+        61,
+        59,
+        59,
+        61,
+        61,
+        61,
+        59,
+        59,
+        55,
+        61,
+        55,
+        61,
+        61
+      ],
+      "all_n_position_polynomials": {
+        "total_coefficients_in_n_minus_one": {
+          "5": 6,
+          "4": 74,
+          "3": 354,
+          "2": 832,
+          "1": 968,
+          "0": 448
+        },
+        "main_coefficients_in_n_minus_one": {
+          "5": 6,
+          "4": 48,
+          "3": 152,
+          "2": 240,
+          "1": 192,
+          "0": 64
+        },
+        "corrections": [
+          {
+            "P": [
+              0
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              1
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              2
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              3
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              4
+            ],
+            "surviving_high_coordinate_types": 28,
+            "coefficients_in_n_minus_one": {
+              "4": 6,
+              "3": 36,
+              "2": 80,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              5
+            ],
+            "surviving_high_coordinate_types": 24,
+            "coefficients_in_n_minus_one": {
+              "4": 4,
+              "3": 28,
+              "2": 72,
+              "1": 80,
+              "0": 32
+            }
+          },
+          {
+            "P": [
+              0,
+              2
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              0,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              2
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              1,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              3
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              2,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              4
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              3,
+              5
+            ],
+            "surviving_high_coordinate_types": 8,
+            "coefficients_in_n_minus_one": {
+              "3": 2,
+              "2": 12,
+              "1": 24,
+              "0": 16
+            }
+          },
+          {
+            "P": [
+              4,
+              5
+            ],
+            "surviving_high_coordinate_types": 12,
+            "coefficients_in_n_minus_one": {
+              "3": 4,
+              "2": 20,
+              "1": 32,
+              "0": 16
+            }
+          }
+        ],
+        "target_volume_exponent_counts": {
+          "5": 22
+        }
+      },
+      "main_positions_at_n": 1257984,
+      "total_positions_at_n": 1787328,
+      "target_mass_interval": {
+        "lower": [
+          8843318249577968015937109758371861194869404615482314248265673077948121617178535232677,
+          50000000000000000000000000000000000000000000000000000000000000000000000000000000
+        ],
+        "upper": [
+          8433645486429184673297033079501977781598171510344561820273827760682556736541023,
+          47683715820312500000000000000000000000000000000000000000000000000000000000
+        ],
+        "method": "Exact integer fourth-root interval for n^(3/4), then positive integer powers"
+      },
+      "budget_strictly_above_critical_mass": true,
+      "no_full_ambient_centered_target": true
+    }
+  ],
+  "independent_review": false,
+  "improves_omega": false,
+  "scope": "Exact graded source acceptance, all-n nonzero position polynomials, and written common-support budget barrier; no actual rank lower bound"
+}

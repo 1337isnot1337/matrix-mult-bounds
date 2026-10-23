@@ -1,0 +1,115 @@
+{
+  "scope": "Integrate main PR218 into the completed aggregation continuation; preserve mathematical payload and prior evidence.",
+  "references": {
+    "previous_publication": "eedf8e2ba59fcd8d3c55343f8ebd0f7315cf1c28",
+    "new_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "merge": "6cdf813de421e4bc400c0f6566d4ef839459c16f"
+  },
+  "merge_tree": "39b6a230cb0656cb33ae25bc0fde67ea2416747b",
+  "ordered_merge_parents": [
+    "eedf8e2ba59fcd8d3c55343f8ebd0f7315cf1c28",
+    "a510bec4627043b35bac0ad4b19bb617446e8949"
+  ],
+  "tracked_files_at_merge": 3094,
+  "path_set_is_exact_parent_union": true,
+  "comparisons": {
+    "previous_publication": {
+      "files": 3086,
+      "exact_blob_type_mode_matches": 3081,
+      "modified_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "docs/research_directions.md",
+        "research/ACTIVE.md",
+        "research/claims.json"
+      ],
+      "added_paths": 8,
+      "missing_paths": [],
+      "mode_changes": []
+    },
+    "new_main": {
+      "files": 2999,
+      "exact_blob_type_mode_matches": 2996,
+      "modified_paths": [
+        "PROVENANCE.md",
+        "STATUS.md",
+        "research/claims.json"
+      ],
+      "added_paths": 95,
+      "missing_paths": [],
+      "mode_changes": []
+    }
+  },
+  "aggregation": {
+    "package_files": 89,
+    "package_tree": "a928cf10097f82bc26982c20018c9be615b5fe5e",
+    "test_modules": 3,
+    "all_bytes_and_modes_preserved": true,
+    "source_manifests_and_retained_source_bytes_unchanged": true
+  },
+  "quadratic_main": {
+    "package_result_and_test_files": 8,
+    "all_bytes_and_modes_match_new_main": true,
+    "local_dependency_hash_checks": [
+      {
+        "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+        "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+        "matches": true
+      },
+      {
+        "path": "research/ai/2026-10-20-anisotropic-constructions/README.md",
+        "sha256": "b538615fa67cdab96b72d1d67ebfd4c2619236372aaa20a36eabdd174b8ba6f0",
+        "matches": true
+      }
+    ]
+  },
+  "claims": {
+    "previous_publication": 304,
+    "new_main": 299,
+    "common_identical_objects": 297,
+    "merged": 306,
+    "exact_object_union": true,
+    "duplicate_ids": 0
+  },
+  "navigation": "docs/research_directions.md and research/ACTIVE.md exactly adopt new main, including replacement of two superseded research-question lines. Provenance and status retain both branches contributions.",
+  "protected_archives": [
+    {
+      "path": "research/ai/2026-10-20",
+      "tree": "f9b82c5d620837ec8a7673b31fc763e17f29dac8",
+      "files": 11
+    },
+    {
+      "path": "research/ai/2026-10-20-session2",
+      "tree": "053937f74645027d54b1bbfd88956cf38bfc8c73",
+      "files": 7
+    }
+  ],
+  "older_publication_receipts": {
+    "files": [
+      "results/pruned-aggregation-publication-2026-10-23/metadata.json",
+      "results/pruned-aggregation-publication-2026-10-23/metadata.log",
+      "results/pruned-aggregation-publication-2026-10-23/preservation.json"
+    ],
+    "all_bytes_and_modes_preserved": true,
+    "status": "Historical evidence for their explicitly pinned earlier trees; not current full-suite evidence."
+  },
+  "fresh_checks": {
+    "command": "python -m unittest discover -s tests -p test_research.py -v",
+    "tested_commit": "6cdf813de421e4bc400c0f6566d4ef839459c16f",
+    "tests_run": 18,
+    "reported_seconds": 0.087,
+    "exit_code": 0,
+    "success": true,
+    "log": "metadata.log"
+  },
+  "limits": [
+    "No full regression suite or archive replay was rerun.",
+    "The prior 920-test receipt remains historical; this merge has 18 fresh shared checks plus byte-preservation evidence.",
+    "The four metadata-only external aggregation source pins retain their prior offline verification limit.",
+    "These integration checks do not establish independent mathematical review or an exponent improvement."
+  ],
+  "receipt_additions_only": [
+    "results/pruned-aggregation-publication-2026-10-23/main-a510/integration.json",
+    "results/pruned-aggregation-publication-2026-10-23/main-a510/metadata.log"
+  ]
+}

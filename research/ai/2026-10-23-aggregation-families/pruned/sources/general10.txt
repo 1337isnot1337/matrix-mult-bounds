@@ -1,0 +1,33 @@
+STC construction 1
+kind: centered
+d: 6
+corrections: explicit
+minimum_accuracy: 1/2
+evaluation_n: 17
+
+# Coordinate labels are zero-based; product numbers are one-based.
+# U,V,W are omitted-coordinate sets. Exponents are signed, before gap normalization.
+# t | U | V | W | a_t | b_t | c_t
+[products]
+1 | {1, 2} | {0, 3} | {4, 5} | 0 | 1 | -1
+2 | {2, 5} | {0, 1, 3} | {4} | 0 | 0 | 0
+3 | {0, 1} | {3, 5} | {2, 4} | 0 | 1 | -1
+4 | {2, 3} | {0, 4} | {1, 5} | 0 | 1 | -1
+5 | {0, 5} | {2, 3, 4} | {1} | 0 | 0 | 0
+6 | {1} | {3, 4, 5} | {0, 2} | 1 | 0 | -1
+7 | {4, 5} | {1, 2} | {0, 3} | 0 | 1 | -1
+8 | {3} | {0, 1, 4} | {2, 5} | 1 | 0 | -1
+9 | {0, 4} | {1, 5} | {2, 3} | 0 | 1 | -1
+10 | {3, 5} | {2, 4} | {0, 1} | 0 | 1 | -1
+
+# Coefficient for P is (-1)^|P| (n+1)^|P|; the main aggregate is separate.
+[corrections]
+{0}
+{1}
+{2}
+{3}
+{4}
+{5}
+{0, 1}
+{2, 3}
+{4, 5}

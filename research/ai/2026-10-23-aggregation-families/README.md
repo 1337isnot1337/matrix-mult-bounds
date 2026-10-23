@@ -90,3 +90,16 @@ two successful constructions.
 `QUESTION.md` preserves the initial research question. The earlier
 shared-input partial-transpose construction is distinct and retains
 its source credit and obstruction scope.
+
+## Rectangular continuation
+
+The [rectangular note](rectangular/README.md) extends the complete-grid
+cost exclusion to every fixed ordered part shape on at most 32
+coordinates, including coordinate-dependent and product-dependent
+dimensions. A separate fixed-form independence proof explains why a
+full retained target prevents simple pruning of the leading grid.
+The [smaller-support continuation](pruned/README.md) removes that
+hypothesis and counts genuinely pruned leading and correction grids.
+It gives an explicit 22-product rectangular border-rank budget and a
+broader common-support cost limitation, including mixed graded shapes.
+None of these results bounds actual tensor rank or improves omega.
