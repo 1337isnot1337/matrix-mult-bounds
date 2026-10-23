@@ -1,0 +1,25 @@
+{
+  "external": [],
+  "local": [
+    {
+      "commit": "539b539dc4eac09114899fd76472aee2d78d9f62",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/101",
+      "use": "Credited canonical source, cubic-conic base and first jet; the pinned two-jet is specialized at c=d=0.",
+      "sha256": {
+        "research/ai/2026-10-21-conic-second-jets/verify.py": "ebfaca7a5a6f3030a363f778aeda86bad443c5137b113bff8754bfd7c4f117ee",
+        "results/conic-second-jets-2026-10-21/witnesses.json.gz": "c6e529e01f0d0f6363642e6baf03ce178188215269009e3d1e0fb5f54a163a67"
+      }
+    },
+    {
+      "commit": "752d51d1b85dff188e012db02fa44249ab52458a",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/107",
+      "use": "Parent mixed-chart package and separate literal-source term reconstruction used by the independent acceptance verifier.",
+      "sha256": {
+        "research/ai/2026-10-23-conic-third-jets/verify.py": "5a58e1772697a87965cb66aa3bea941a614d1731119d4a33950a1ba2127a8b40"
+      }
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}
