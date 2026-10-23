@@ -2,17 +2,22 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
-The [complete leading-pair frontier](../research/ai/2026-10-23-all-pair-rank136/proof.md)
-now forces every balanced leading-rank pair to sum to at most 136,
-with total at most 204. Short rank 100 forces each long rank at most 36.
-The necessary bounds allow arbitrary complex kernels, higher jets and
-finite Laurent poles on the remaining map. Seek an exact construction
-inside the remaining region, or further source-specific compression
-constraints. The [sharp source caps](../research/ai/2026-10-23-rank84-rank88-spaces/proof.md)
-at strict ranks 84 and 88 are 56 and 60; lowering these universal caps
-is impossible. At ranks 92 and 96, first compare any proposal with the
-explicit 64- and 68-dimensional staircase spaces of ranks at most 88
-and 92.
+The [new leading-rank refinement](../research/ai/2026-10-23-leading-rank202/proof.md)
+forces total balanced rank at most 202, retaining every pair at most
+136. Short rank 100 forces each long rank at most 28. These necessary
+conditions allow arbitrary complex kernels, higher coefficients and
+finite Laurent poles on the remaining map. Their exact floor constraints
+leave the unique numerical total-202 endpoint (70,66,66); this does not
+construct target-compatible kernels or a Laurent presentation. Seek an
+exact target inside the remaining region, or further constraints on
+actual compression kernels and the threshold equality cases.
+
+The [sharp source caps below ranks 84 and 88](../research/ai/2026-10-23-rank84-rank88-spaces/proof.md)
+are 56 and 60. The [new sharp caps below ranks 92 and 96](../research/ai/2026-10-23-rank92-rank96-spaces/proof.md)
+are 68 and 72, attained by spaces with maximum slice ranks 91 and 95.
+Smaller universal dimension caps at those same strict thresholds are
+impossible. Different thresholds and the special structure of actual
+cancellation kernels remain distinct questions.
 
 The [sharp rank-80 source theorem](../research/ai/2026-10-23-rank80-sharp-spaces/proof.md)
 settles that dimension cap at 44. Its explicit 44-space has maximum
