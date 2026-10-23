@@ -1,5 +1,21 @@
 # Research status
 
+## Sharp source caps84/88 force balanced long leading sum136
+
+The [finer source-cap proof](research/ai/2026-10-23-rank84-88-source-caps/proof.md)
+proves sharp complex A4 source dimensions56 below matrix rank84 and60
+below rank88. Complete independent acceptance checks1404 size57 ideals
+and118 size61 ideals, each with an odd84/88 minor, after the credited
+characteristic-zero order-ideal reduction. The prior staircase examples
+attain both dimension caps. With the prior saturated support condition,
+these exclude644 more balanced long-rank pairs and improve the necessary
+sum from144 to136, at every Laurent order. Claims
+`AI-A4-RANK84-SOURCE-CAP-001`, `AI-A4-RANK88-SOURCE-CAP-002` and
+`AI-A4-BALANCED-LONG-SUM136-003` are written and unreviewed. At68,68 the
+prior64-dimensional rank-at-most88 staircase meets the two numerical
+kernel conditions; it is not shown to be a compression kernel. Lower
+rank pairs and a matrix target remain open. No smaller exponent follows.
+
 ## A sharp source cap below rank 37 and a counterexample below rank 96
 
 The [rank-37 source theorem](research/ai/2026-10-23-rank37-source-spaces/proof.md)

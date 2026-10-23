@@ -342,3 +342,16 @@ vectors. It retains 6155844. The outcome closes only that finite weight
 census; numerical class-cover optimality reports are not proof. A further
 attempt should preserve finer Peirce-corner information, change basis or
 change source power, rather than rerun the unchanged degree model.
+
+
+## Rank84/88 interval refinement and the sum136 boundary
+
+The [sharp source-cap continuation](../research/ai/2026-10-23-rank84-88-source-caps/proof.md)
+closes balanced long leading sums137..144 and forces sum at most136.
+Source dimensions below matrix ranks84 and88 are exactly bounded by56
+and60, with the prior staircase examples attaining those dimensions.
+At balanced ranks68,68 a prior64-dimensional source space of rank at
+most88 already meets the two dimension/rank cancellation-kernel conditions.
+A universal cap smaller than64 at rank at most88 is therefore impossible;
+examine actual two-sided compression incidence or compatible higher maps.
+No such kernel or target has been constructed, and the proofs are unreviewed.

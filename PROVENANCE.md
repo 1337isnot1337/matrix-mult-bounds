@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-rank84-88-source-caps` package is owner-directed OpenAI
+Codex work. The canonical source, characteristic-zero order-ideal reduction,
+saturated target-support argument, prior sum144 theorem and staircase
+lower examples retain their exact byte pins and original credit. The
+sharp upper caps56/60 below ranks84/88, new1404/118-ideal minor inventories
+and balanced long-rank sum136 are local continuations. Discovery and
+acceptance enumerate inventories differently; acceptance imports no
+discovery code. No new external theorem, historical priority, independent
+review, formalization, matrix construction or exponent gain is claimed.
+
 The `2026-10-23-rank37-source-spaces` and
 `2026-10-23-source-staircase-spaces` packages are owner-directed OpenAI
 Codex work. The canonical cyclic source, characteristic-zero order-ideal

@@ -1,0 +1,64 @@
+{
+  "proof_status": "proof-written-unreviewed",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false,
+  "target_constructed": false,
+  "literal_source_terms": 4096,
+  "basis_factorizations": 112,
+  "source_caps": [
+    {
+      "threshold": 84,
+      "dimension_cap": 56,
+      "coherent_shapes": 70,
+      "source_ideals": 1404
+    },
+    {
+      "threshold": 88,
+      "dimension_cap": 60,
+      "coherent_shapes": 70,
+      "source_ideals": 118
+    }
+  ],
+  "staircase_controls": [
+    {
+      "extra_middle_layers": 0,
+      "dimension": 56,
+      "joint_column_count": 80,
+      "uniform_rank_upper": 80
+    },
+    {
+      "extra_middle_layers": 1,
+      "dimension": 60,
+      "joint_column_count": 84,
+      "uniform_rank_upper": 84
+    },
+    {
+      "extra_middle_layers": 2,
+      "dimension": 64,
+      "joint_column_count": 88,
+      "uniform_rank_upper": 88
+    }
+  ],
+  "target_controls": {
+    "previous_long_sum_upper": 144,
+    "new_long_sum_upper": 136,
+    "excluded_pairs": 644,
+    "rank84_interval_pairs": 314,
+    "rank88_interval_pairs": 330,
+    "minimum_rank84_margin": 2,
+    "minimum_rank88_margin": 4,
+    "boundary_control": {
+      "balanced_ranks": [
+        68,
+        68
+      ],
+      "kernel_dimension": 64,
+      "rank_upper": 88,
+      "rank_budget": 88,
+      "required_kernel_dimension": 64,
+      "realized_compression_kernel": false,
+      "target_constructed": false
+    }
+  }
+}

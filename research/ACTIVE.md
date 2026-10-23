@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The rank84/88 source-cap continuation is in
+`ai/2026-10-23-rank84-88-source-caps/QUESTION.md`, branch
+`research/rank84-source-cap-01a1691e`. Exact acceptance verifies all1404/118
+remaining ideals and sharp caps56/60, improving the balanced long sum144
+to136. This follows PR129 and PR155 with retained credit. The next gap is
+actual two-sided kernel incidence: the prior64-dimensional rank88 source
+space meets the two numerical conditions at68,68 but is not a kernel
+construction. Written and unreviewed; no target or exponent gain.
+
 The next source-frontier checkpoint is in
 `ai/2026-10-23-rank37-source-spaces/proof.md` and
 `ai/2026-10-23-source-staircase-spaces/proof.md`. A sharp cap of 16 now
