@@ -1,0 +1,82 @@
+{
+  "schema": "source-staircase-spaces-v1",
+  "field": "C",
+  "source_sha256": {
+    "research/ai/2026-10-20-koszul/cyclic_finite_target.md": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63",
+    "research/ai/2026-10-23-torus-rank80/proof.md": "6e68d425b7117f7df2aa659eb87b711b8c90a91c195eddae0be9d6e6622d9682"
+  },
+  "coverage": {
+    "source_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "parameter_triples": 140,
+    "literal_terms_reconstructed": 67170,
+    "all_dimensions_and_exact_column_supports_checked": true,
+    "records_sha256": "057f0c54eb5b7215fa402d5f82d9e5c92b62fa494d82e8294ad16be4378c40b3"
+  },
+  "a4_table": [
+    {
+      "a": 4,
+      "d": 2,
+      "m": 0,
+      "dimension": 56,
+      "supported_columns": 80,
+      "uniform_rank_upper": 80
+    },
+    {
+      "a": 4,
+      "d": 2,
+      "m": 1,
+      "dimension": 60,
+      "supported_columns": 84,
+      "uniform_rank_upper": 84
+    },
+    {
+      "a": 4,
+      "d": 2,
+      "m": 2,
+      "dimension": 64,
+      "supported_columns": 88,
+      "uniform_rank_upper": 88
+    },
+    {
+      "a": 4,
+      "d": 2,
+      "m": 3,
+      "dimension": 68,
+      "supported_columns": 92,
+      "uniform_rank_upper": 92
+    }
+  ],
+  "a4_counterexample": {
+    "coordinate_mask": "0xfffffffffffffffff",
+    "dimension": 68,
+    "uniform_rank_upper": 92,
+    "strict_rank_threshold": 96,
+    "disproved_dimension_upper": 57
+  },
+  "boundary_control": {
+    "a": 4,
+    "d": 2,
+    "m": 4,
+    "dimension": 72,
+    "supported_columns": 96,
+    "uniform_rank_upper": 96,
+    "column_count_proves_rank_below_96": false
+  },
+  "claim_scope": {
+    "all_size_supported_column_construction": true,
+    "rank96_dimension57_cap_disproved": true,
+    "blocks_every_source_cap_refinement": false,
+    "rank_upper_attainment_claimed": false,
+    "target_kernel_realization_claimed": false,
+    "target_constructed": false,
+    "improves_omega": false,
+    "independent_review": false,
+    "proof_status": "proof-written-unreviewed"
+  }
+}

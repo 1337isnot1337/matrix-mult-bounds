@@ -91,6 +91,42 @@ lifts and all-order existence for the normal class, with their distinct
 lower-coefficient conditions. The full matrix target remains open.
 No smaller exponent is established.
 
+## Sharp source dimension 44 below slice rank 80
+
+The [sharp rank-80 source theorem](research/ai/2026-10-23-rank80-sharp-spaces/proof.md)
+determines the maximum dimension of a complex A4 source space whose
+slices all have rank strictly below 80: it is exactly 44. The complete
+inventory of 1,709 remaining size-45 ideals has an exported odd integer
+80-minor for every ideal. An explicit 44-dimensional space has its matrix
+support covered by 35 rows and 44 columns, so all ranks are at most 79;
+a saved 79-minor attains that rank. This sharpens the earlier cap 50.
+Claim `AI-A4-RANK80-SHARP-LINEAR-SPACE-001` is written and unreviewed.
+Six focused tests replay all 1,721 minors, the source pins, exhaustive
+coverage and the sharpness construction. Its strict threshold matters:
+a 56-dimensional source space has rank at most 80. No new target rank
+sum is asserted in this package, and no matrix target or exponent gain
+is constructed.
+
+## A sharp source cap below rank 37 and a counterexample below rank 96
+
+The [rank-37 source theorem](research/ai/2026-10-23-rank37-source-spaces/proof.md)
+proves a sharp dimension-16 cap for complex A4 source spaces whose slices
+all have rank strictly below 37. The order-ideal reduction leaves exactly
+13 size-17 ideals; each has an exported odd integer 37-minor. The full
+middle-zero plane attains dimension 16 with only 28 supported rows.
+
+The [staircase source construction](research/ai/2026-10-23-source-staircase-spaces/proof.md)
+gives an explicit 68-dimensional A4 space whose matrices use only 92
+columns. It disproves the proposed dimension-57 cap below rank 96, which
+would have been sufficient for a further target obstruction. The general
+all-size family has a proved dimension and exact joint column support.
+This closes that proposed premise, while more specific compression-kernel
+constraints and smaller threshold refinements remain available. Claims
+`AI-A4-RANK37-LINEAR-SPACE-001` and
+`AI-CYCLIC-SOURCE-STAIRCASE-SPACES-001` are written and unreviewed.
+Twelve focused tests pass. These results leave the necessary balanced
+long-rank sum 144 unchanged and do not construct a target or improve omega.
+
 ## Balanced A4 long-rank sum is at most 144
 
 The [rank-80 source-space proof](research/ai/2026-10-23-torus-rank80/proof.md)
@@ -106,8 +142,9 @@ each rank is also at most 101. Arbitrary first-map poles and all higher
 coefficients remain allowed. Claims `AI-A4-RANK80-LINEAR-SPACE-001` and
 `AI-A4-BALANCED-LONG-SUM144-002` are written and unreviewed. Exact replay
 verifies all 35 minors and all 24 remaining ideals; eight focused tests
-pass. Neither 50 nor 144 is asserted sharp, and no full matrix target or
-improved exponent is constructed.
+pass. The source cap 50 is sharpened to 44 above. The target sum 144
+is not asserted sharp, and no full matrix target or improved exponent
+is constructed.
 
 ## Sharp source dimension32 below rank64; balanced long-rank sum at most160
 

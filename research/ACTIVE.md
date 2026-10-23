@@ -60,6 +60,29 @@ fourth-order and all-order results with explicit lower-jet distinctions.
 This remains local rank-twelve incidence; no full matrix-target
 construction follows.
 
+The sharp rank-80 checkpoint is in
+`ai/2026-10-23-rank80-sharp-spaces/proof.md`: the maximum source-space
+dimension is exactly 44 when every slice has rank below 80. All 1,709
+size-45 ideals are excluded by saved integer minors, and the explicit
+44-space has maximum rank 79. Six focused tests pass, including all
+1,721 minors and the fixed support cover. Do not seek a smaller universal
+dimension cap at this threshold. The separate target-leg application
+must prove its own saturated support inequality and exceptional endpoint
+case before claiming a stronger target frontier. This package follows
+PR129 and remains written and unreviewed.
+
+The next source-frontier checkpoint is in
+`ai/2026-10-23-rank37-source-spaces/proof.md` and
+`ai/2026-10-23-source-staircase-spaces/proof.md`. A sharp cap of 16 now
+holds strictly below rank 37. An explicit 68-space of rank at most 92
+rules out the proposed cap 57 below rank 96. Do not repeat that premise.
+Twelve focused tests cover all thirteen size-17 minors, the coherent
+rank-20 witness, and all 140 finite staircase controls. The all-size
+staircase statement has a separate counting proof. This checkpoint
+follows PR129; its target sum 144 remains the current bound. The sharp
+rank-80 cap above resolves that source question. Further work may use
+actual compression-kernel structure. Claims remain written and unreviewed.
+
 The rank-80 continuation in `ai/2026-10-23-torus-rank80/proof.md`
 now proves source-space dimension at most 50 below slice rank 80 and the
 necessary balanced long-rank sum 144. All 35 integer minors, the complete

@@ -53,6 +53,29 @@ come from the same generating session; their separate implementation
 does not constitute independent mathematical review or formalization.
 No all-order mixed curve, full matrix target or exponent gain is claimed.
 
+The `2026-10-23-rank80-sharp-spaces` package is owner-directed OpenAI
+Codex work. The literal cyclic source, characteristic-zero order-ideal
+reduction and preceding coherent minors retain their original credit
+and exact byte pins. New contributions are the complete size-45 ideal
+certificate and the 44-dimensional rank-at-most-79 space with an exact
+rank-79 witness. Separate discovery, acceptance and internal audit
+enumerations agree on all 1,709 ideals; these checks are not independent
+external mathematical review or formalization. The theorem is sharp
+for source-space dimension at the strict rank-80 threshold. It claims
+no target-map consequence, historical priority or exponent gain.
+
+The `2026-10-23-rank37-source-spaces` and
+`2026-10-23-source-staircase-spaces` packages are owner-directed OpenAI
+Codex work. The canonical cyclic source, characteristic-zero order-ideal
+reduction and coherent rank-20 fact retain exact prior-byte pins and
+credit. New additions are the complete thirteen-ideal rank-37 certificate
+and the all-size supported-column family. The dimension-68 example
+refutes a research premise proposed during this session. Finite acceptance
+reconstructs literal source terms; separate geometry and support-counting
+arguments supply the universal claims. Internal checks are not independent
+external mathematical review or formalization. No target construction,
+new balanced rank bound, historical priority or exponent gain is claimed.
+
 The `2026-10-23-torus-rank80` package is owner-directed OpenAI Codex
 work. It credits the literal cyclic source, saturated target-support
 inequality and preceding characteristic-zero order-ideal reduction with
