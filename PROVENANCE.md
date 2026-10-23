@@ -1,5 +1,8 @@
 # Attribution and provenance
 
+The October 23 rank-two paired-source gap package is owner-directed AI-derived work. The native Q(n,b) tensor and its previous universal source-slice bound remain credited to the exact pinned narrow-rank-locus note. The Kronecker pencil decomposition under strict equivalence is imported classical work credited to De Teran, Dopico and Landsberg (arXiv:1606.02574, 2016), and Karathanasi and Karampetakis (DOI:10.1093/imamci/dnz031, published 2019). The Toeplitz two-pencil factorization, exact paired-block recurrence, rank-two sharpness and scoped source interpretation are local deductions. The finite controls use independently constructed coefficient and Toeplitz-factor matrices, but share the generating research session and are not independent mathematical review or formalization. No historical priority, actual improving degeneration or exponent improvement is claimed.
+
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

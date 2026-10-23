@@ -1,5 +1,10 @@
 # Research status
 
+## Sharp rank-two slice gap for the paired source (October 23)
+
+The [rank-two source theorem](research/ai/2026-10-23-paired-rank-two-gap/proof.md) proves over every field that a rank-two first-leg coefficient matrix Y in Q(n,b) gives source contraction rank at least b(b+1), attained by Y=E00+E11. The proof uses classical Kronecker strict equivalence for full-projective-rank polynomial-multiplication pencils and an elementary all-characteristic block recurrence. It also gives the exact formula b^2+sum min(e_i,d_j) in terms of the two minimal-index partitions. At b=4 the minimum rank is 20 rather than the 17 obtained from the earlier general lower bound. Standalone direct-source finite controls include 128 block checks, 16 sharpness ranks and complete GF2 rank-two censuses in seven small formats. Claim AI-PAIRED-RANK-TWO-SLICE-GAP-001 is written and unreviewed. The theorem does not construct a tensor degeneration or improve the 9/4 exponent bound.
+
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

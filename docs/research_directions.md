@@ -1,5 +1,10 @@
 # Research directions
 
+## Rank-two first-slice gap and mixed first maps (October 23)
+
+The [paired rank-two gap](../research/ai/2026-10-23-paired-rank-two-gap/proof.md) gives rank S_Y >= b(b+1) for every rank-two first coefficient matrix of Q(n,b), sharply. At width four this is 20, strengthening the generic previous 17 for rank two. To apply it to an ordinary corrected target, prove that a sufficiently large residual-annihilator family has source coefficient rank two and then control compression losses through the two actual long kernels. The theorem alone does not imply that arbitrary mixed first maps have rank-two images, nor does it extend to singular Laurent maps. A future construction should provide actual tensor maps or prove a precise rank-two-image implication, not assert an exponent gain from the source rank gap alone.
+
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

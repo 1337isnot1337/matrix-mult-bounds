@@ -1,5 +1,8 @@
 # Integrated research coordination
 
+October 23 rank-two paired-source continuation: branch research/paired-rank-two-gap-20261023-auto2 proves a sharp all-field b(b+1) raw first-slice rank for every rank-two coefficient matrix of Q(n,b), with a Kronecker minimal-index formula and exact controls. Scope is independent of current PR147 residual geometry, PR164 diagonal factor hypotheses, and PR211 Laurent auxiliary-channel barrier. This source theorem does not construct a target and does not improve omega. Written, unreviewed; full regression and archive replay are required before merge.
+
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order
