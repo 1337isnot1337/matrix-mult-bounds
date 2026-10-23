@@ -1,12 +1,14 @@
 {
-  "status": "standalone acceptance passed; focused tests pending at this checkpoint",
+  "status": "passed",
   "environment": {
     "python": "3.12.14",
     "acceptance_dependencies": "Python standard library only; run with -I -S"
   },
   "commands": [
     "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps python research/ai/2026-10-23-conic-fixed-third-obstruction/construct.py results/conic-fixed-third-obstruction-2026-10-23/dual-and-linear-branches.json",
-    "python -I -S research/ai/2026-10-23-conic-fixed-third-obstruction/verify.py results/conic-fixed-third-obstruction-2026-10-23/dual-and-linear-branches.json --output results/conic-fixed-third-obstruction-2026-10-23/verification.json"
+    "python -I -S research/ai/2026-10-23-conic-fixed-third-obstruction/verify.py results/conic-fixed-third-obstruction-2026-10-23/dual-and-linear-branches.json --output results/conic-fixed-third-obstruction-2026-10-23/verification.json",
+    "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps python -m unittest discover -s tests -p test_conic_fixed_third_obstruction.py -v",
+    "git diff --check"
   ],
   "coverage": [
     "Complete literal4096-term source",
@@ -14,10 +16,21 @@
     "All3136 fourth-map variables and1200 fourth-kernel variables annihilated",
     "Exact fourth residual and all four separate known terms",
     "Both exceptional branches: every prescribed coefficient matches and all complete source orders0..2 pass",
-    "Separate Fraction-only full-source control at a1,b2,d1 with zero and nonzero fourth corrections"
+    "Separate Fraction-only full-source control at a1,b2,d1 with zero and nonzero fourth corrections",
+    "Seven focused tests, with changed dual and exceptional-branch coefficients rejected",
+    "Chart, claimed residual, source pin and Laurent coefficient ring controls",
+    "Exact third-core factor and16-entry kernel pairing from the written proof",
+    "Formula regeneration and isolated standard-library import outside the working directory"
   ],
   "full_repository_regression": "Separate integration gate, not claimed here",
   "independent_mathematical_review": false,
   "matrix_target_constructed": false,
-  "exponent_improvement": false
+  "exponent_improvement": false,
+  "focused_test_count": 7,
+  "focused_test_seconds": 1.061587,
+  "complete_acceptance_seconds": 0.518245,
+  "focused_run": "Producer run of the unchanged unittest module suite with an external timing wrapper; setUpClass caches one complete acceptance.",
+  "timing_method": "time.monotonic around TextTestRunner.run; complete acceptance timed inside the test class setUpClass.",
+  "log": "results/conic-fixed-third-obstruction-2026-10-23/focused-tests.log.gz",
+  "timing_receipt": "results/conic-fixed-third-obstruction-2026-10-23/timing.json"
 }
