@@ -1,5 +1,23 @@
 # Research status
 
+## Sharp source dimension32 below rank64; balanced long-rank sum at most160
+
+The [order-ideal proof](research/ai/2026-10-23-torus-order-ideal/proof.md)
+uses three literal rank-preserving lowering actions and the source torus
+to reduce arbitrary complex bounded-rank spaces to downward coordinate
+ideals. All611 size33 ideals in the relevant4-by3-by4 box have exported
+integer64-minors that are odd. Thus every source space whose slices have
+rank below64 has dimension at most32. A full32-plane supported at middle
+coordinates0,1 attains this dimension with only56 supported matrix rows.
+The credited target-support inequality then forces balanced long-rank
+sum at most160 in every complete Laurent A4 to M(10,10,11) candidate,
+allowing arbitrary first-map poles and higher coefficients. This is a
+leading rank loss of at least60; each individual rank is also at most101.
+Claims `AI-A4-RANK64-LINEAR-SPACE-001` and
+`AI-A4-BALANCED-LONG-SUM160-002` are written and unreviewed. The source
+dimension bound is sharp; sharpness of the target rank-sum bound is not
+asserted. No full target or exponent improvement is constructed.
+
 ## Balanced A4 long-map rank sum is at most176
 
 The [rank-48 source-space proof](research/ai/2026-10-23-torus-rank-frontier/proof.md)

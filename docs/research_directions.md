@@ -2,6 +2,14 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [order-ideal source theorem](../research/ai/2026-10-23-torus-order-ideal/proof.md)
+now proves a sharp dimension32 cap below slice rank64 and reduces the
+balanced long-rank sum to at most160. The three exact lowering actions
+and elementary Grassmannian argument apply to other source rank
+thresholds. Seek new complete ideal/minor certificates there, while
+keeping the target bound necessary and the surviving region unconstructed.
+The individual rank101 cap also remains in force.
+
 The [rank-48 source-space theorem](../research/ai/2026-10-23-torus-rank-frontier/proof.md)
 forces the two scalar-balanced long-map ranks to sum to at most176,
 strengthening concurrent PR122's sum192 bound. The separate

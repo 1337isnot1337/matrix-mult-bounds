@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The order-ideal continuation in
+`ai/2026-10-23-torus-order-ideal/proof.md` proves the sharp source-space
+cap32 below slice rank64 and the necessary balanced long-rank sum160.
+Its reusable lowering lemma permits finite order-ideal certificates at
+other rank thresholds. Eight focused tests pass; acceptance independently
+enumerates all611 size33 ideals, rebuilds all4096 source terms and checks
+all336 integer lowering identities and611 odd64-minors. All1830 integer
+rank pairs above160 are excluded, including840 newly removed pairs in
+sums161 through176. Next: larger-rank source spaces and constraints inside
+the remaining target frontier. Full regression and current-head CI are
+still gates; mathematical claims remain written and unreviewed.
+
 The rank-48 continuation in `ai/2026-10-23-torus-rank-frontier/proof.md`
 now proves source-space dimension at most24 below slice rank48. The
 credited saturated support inequality then gives balanced long-rank
