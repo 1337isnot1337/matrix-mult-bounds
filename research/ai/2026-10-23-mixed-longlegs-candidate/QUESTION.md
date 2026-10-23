@@ -1,55 +1,46 @@
-# Precise next question
+# Closed candidate and precise next question
 
-Over the complex numbers, is the canonical tensor
-
-\[
-T=7\,\mathrm{Full}_{5,2}+10\,\mathrm{Full}_{5,3}
-+4\,O_{3,3}+2\,O_{4,2}+6\,\mathrm{Mid}_{5,2}
-\]
-
-in the product-general-linear orbit closure of
+Over the complex numbers, the canonical source
 
 \[
 S=10\,\mathrm{Full}_{5,10}
 \]
 
-inside A tensor B tensor C of dimensions (5,100,140)?
+cannot degenerate to
 
-All coefficient conventions and block offsets are fixed by
-discovery_input.json and verify.py. A positive answer requires actual
-Laurent-matrix maps, a proved degeneration construction, or another
-complete orbit-closure certificate. Numerical score improvement and
-passing necessary ranks are not such a certificate.
+\[
+T=7\,\mathrm{Full}_{5,2}+10\,\mathrm{Full}_{5,3}
++4\,O_{3,3}+2\,O_{4,2}+6\,\mathrm{Mid}_{5,2}.
+\]
 
-A negative answer requires a degeneration-monotone invariant, a valid
-orbit-closure equation, or another proof that applies to arbitrary maps
-on all three legs. Restricting only regular first-map charts does not
-answer the stated question.
+The [global RNC proof](global_rnc_obstruction.md) covers arbitrary
+independent invertible first identifications of every target block,
+arbitrary poles and singular leading maps, and arbitrary long-leg mixing.
+The source copies must share their canonical first identification.
+Both endpoints have format(5,100,140). Their literal coefficients remain
+fixed by discovery_input.json and verify.py.
 
-The target has shared-output blocks, so it is outside the fixed common
-input Full/Mid theorem. Its strict score increase would test extending
-the formal operational potential to this larger class. A degeneration
-alone would not establish a matrix multiplication exponent improvement;
-the complete algorithmic implication would still have to be supplied.
+Every ordinary Koszul degree on all three legs, both symmetric-power
+families, the quantum/upper support bounds and the stated Schur family
+pass. They do not detect the geometric obstruction. The canonical target
+has ordinary, smoothable and cactus rank178, as proved in cactus_rank.md.
+Its border rank remains unresolved: excluding this particular rank140
+source orbit does not exclude the whole border-rank140 locus.
 
-Every ordinary Koszul degree on A, B, and C now passes, as do both
-symmetric-power families and the quantum and upper support bounds.
-The C-leg conclusion follows from a universal source theorem, so no
-further ordinary Koszul census is needed for this canonical candidate.
+## Next question
 
-The source has border rank exactly 140. A necessary next condition is
-therefore border rank at most 140 for the target; output conciseness
-would force equality. The [cactus-rank proof](cactus_rank.md) establishes ordinary, smoothable
-and cactus rank exactly178 in the canonical basis, using a low-rank
-curve and explicit interpolation rather than a rank-additivity theorem.
-These ranks do not decide the border-rank condition.
+Find a score-improving source-target proposal that escapes the finite
+union of quartics in the first projection of rank-one third slices.
+A width-one Full block has the whole first projective space as its
+projection. Determine how many such blocks are required, then certify
+whether a target with those blocks can satisfy dimension balance, the
+shared-A Koszul inequalities and strict formal-score improvement.
+Consider changing the source width or target structure if this format
+cannot meet those requirements. Independent first identifications in
+the source are also outside the current theorem and need separate work.
 
-The elementary dimension lemma in copywise_dimensions.md excludes
-whole-block assignments to individual source copies on both long legs.
-A successful construction must mix source copies or otherwise leave
-that restricted class. The [catalecticant chart theorem](catalecticant_chart.md) additionally
-excludes every scalar-normalized first map with invertible leading
-coefficient, including arbitrary poles and mixing on the long factors.
-A proposed construction therefore needs a singular leading first map.
-The arbitrary orbit-closure question remains open at this checkpoint.
-
+A surviving profile still requires actual Laurent maps or a complete
+orbit-closure construction. A degeneration by itself would require a
+further full algorithmic implication before any improved exponent claim.
+The historical candidate question and its initial validation are pinned
+at public commit79b23815c68cef6c013d4ba54ae37d4d068ae712.

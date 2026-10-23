@@ -1,28 +1,22 @@
 # Research directions
 
-## October 23: decide the singular first-map case geometrically
+## October 23: escape the rational-normal-curve obstruction
 
-For the [mixed candidate](../research/ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md),
-the exact rank178 theorem concerns cactus, smoothable and ordinary rank.
-It is not a border-rank obstruction. The separate catalecticant
-comparison120<130 excludes all invertible normalized first limits.
-Investigate the moving rational normal curve in the first projection
-of the source's rank-one third slices. A geometric normalization of
-that curve would reach the excluded chart; a construction must evade
-such a normalization. Do not repeat the completed Koszul census.
+The [mixed candidate](../research/ai/2026-10-23-mixed-longlegs-candidate/global_rnc_obstruction.md)
+is excluded for every independent target first identification, despite
+passing every ordinary Koszul degree and the stated Schur screens. Its
+rank-one third-slice first projection is a finite union of smooth
+quartics; proper incidence and Hilbert polynomial rigidity normalize any
+proposed first map and reach the120<130 catalecticant contradiction.
 
-## October 23: construct or exclude the surviving mixed-output target
-
-The [canonical (5,100,140) candidate](../research/ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md)
-strictly improves the symmetric formal score and passes every ordinary
-Koszul degree, both symmetric-power families, all quantum/upper support
-bounds, and every Schur component of the recorded simultaneous
-contractions. Its source C-leg ranks are universal maxima in the format,
-so extending that census cannot exclude this target. Decide whether the
-target has the necessary border rank 140, or produce actual Laurent maps
-from the ten Full(5,10) copies. Whole-block allocation to individual
-copies is excluded. A scalar score or another passing rank screen does
-not supply the tensor construction or its exponent implication.
+Find a score-improving target whose rank-one projection permits a singular
+quartic limit. Width-one Full blocks are one concrete mechanism because
+their projection is all of the first projective space. Check the required
+multiplicity, dimension balance and A-leg Koszul inequalities before
+more expensive rank computations. Then supply actual Laurent maps or a
+complete orbit-closure proof. Passing these requirements is still not a
+construction. Source copies with independent first identifications are
+outside the current canonical-source theorem and form a separate question.
 
 ## October23: operational barrier includes arbitrary common-input mixtures
 

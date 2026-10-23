@@ -1,25 +1,20 @@
 # Integrated research coordination
 
-The [geometric checkpoint](ai/2026-10-23-mixed-longlegs-candidate/catalecticant_chart.md)
-for the mixed candidate now proves canonical cactus, smoothable and
-ordinary rank178, and excludes every invertible normalized first-map
-limit through source/target catalecticant ranks120<130. The next target
-construction must use a singular leading first map; alternatively, prove
-that the source's moving rational normal curve forces a regular first
-chart. Preserve the distinction between border rank and finite-scheme
-ranks. Earlier ordinary Koszul and Schur screens remain correct.
+The [mixed-output candidate is excluded](ai/2026-10-23-mixed-longlegs-candidate/global_rnc_obstruction.md)
+by a written global RNC argument, including arbitrary singular first maps,
+polar or mixed long maps, and independent target first identifications.
+All ordinary Koszul degrees and the stated Schur family still pass; do
+not repeat them. Third conciseness and the finite union of target quartics
+force a smooth source-curve limit, allowing first-map normalization and
+the120<130 catalecticant contradiction. The canonical target also has
+ordinary, smoothable and cactus rank178; its border rank is unresolved.
 
-The [mixed-output checkpoint](ai/2026-10-23-mixed-longlegs-candidate/QUESTION.md)
-fixes a score-improving canonical target of ten Full(5,10) copies in
-format (5,100,140). Every ordinary Koszul degree on all three legs now
-passes, as do both symmetric-power families, all quantum/upper support
-bounds, and every Schur component of the stated simultaneous contraction
-family. Do not repeat an unchanged ordinary Koszul census. The source's
-zero-free output-leg theorem makes that entire family automatic for any
-target in the format. The concrete next question is existence of an
-arbitrary three-leg degeneration, with target border rank 140 as a
-necessary condition. Any construction must mix source copies or leave
-the whole-block copywise class. Passing screens is not a construction.
+The next question is to escape the finite-quartic projection condition.
+Width-one Full blocks or a different target structure can change that
+geometry, but they must still satisfy the exact score, dimension and rank
+conditions. Current work checks how many such blocks are needed and
+whether the present source format has enough score capacity. Keep the
+candidate exclusion separate from any broader unproved class barrier.
 
 The October23 operational-barrier continuation is in
 `ai/2026-10-23-common-input-rank-barrier/proof.md`, on PR131.

@@ -1,4 +1,19 @@
-# Mixed-orientation candidate with exact necessary screens
+# Mixed-orientation candidate excluded by a geometric obstruction
+
+## Current result: no degeneration from the stated source
+
+The [global RNC proof](global_rnc_obstruction.md) excludes the source-target
+degeneration below, even with independent target first identifications
+and arbitrary poles, singular leading maps and mixing on all tensor legs.
+It forces the source's moving rational normal quartic to have a smooth
+limit, uses binary substitution symmetry to normalize the first map,
+and applies the catalecticant contradiction120<130. All ordinary Koszul
+screens below remain passing tests. This proof does not determine target
+border rank or improve the matrix multiplication exponent.
+
+The following geometric checkpoint and original rank census record the
+steps leading to this exclusion. The new controls and source records are
+separate files; the discovery tensor and earlier proofs retain their bytes.
 
 ## Geometric checkpoint
 
@@ -9,13 +24,14 @@ source rank120 with target rank at least130 after every independent
 invertible first identification. It excludes any degeneration whose
 scalar-normalized first map has an invertible leading limit, allowing
 arbitrary poles and mixing on the long maps. Singular leading first maps
-remain the construction question at this checkpoint.
+were the remaining construction question at that checkpoint and are
+now covered by the global proof above.
 
 The exact controls are additive; the discovery input and prior rank
 reports retain their bytes. The original validation manifest refers to
 public checkpoint `79b23815c68cef6c013d4ba54ae37d4d068ae712`.
 
-This package records the unresolved complex degeneration
+This package records the now-excluded proposed complex degeneration
 
 \[
 10\,\mathrm{Full}_{5,10}\ \dashrightarrow\
@@ -39,7 +55,7 @@ do not construct a degeneration.
 The original discovery input is byte-frozen in discovery_input.json.
 Later results belong in separate notes and result files. See proof.md for
 the literal endpoints, score certificate, the scope of each screen, and
-the exact unresolved construction question. The source proofs are
+the current construction frontier and the excluded frozen question. The source proofs are
 source_b_koszul.md and source_c_koszul.md. The earlier interpolation
 windows and exterior-kernel controls are retained in
 source_koszul_tails.md and shadow_note.md as independent evidence.

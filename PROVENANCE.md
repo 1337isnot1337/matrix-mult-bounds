@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The mixed candidate's global exclusion combines a local rank-one Hankel
+classification with standard projective properness, the projective Hilbert
+scheme, smooth homogeneous orbits and formal smooth lifting. The source
+records credit Grothendieck's Expose221, Milne's Propositions7.4,7.12,7.15
+and7.17, and the cited Stacks tags with their precise scopes. The curve
+specialization, stabilizer absorption and use of the existing120<130
+catalecticant bound were developed and checked by agents in this same
+owner-directed session. Exact binary substitution controls verify the
+literal inverse-transpose convention; they do not verify arbitrary arcs.
+The result remains a written, externally unreviewed proof. It excludes
+one source orbit closure and does not settle target border rank.
+
 The mixed candidate's additive cactus-rank and catalecticant checkpoint
 uses the finite-algebra scheme-span viewpoint discussed in JLP24 and
 JJ26, with their different hypotheses explicitly retained. The local

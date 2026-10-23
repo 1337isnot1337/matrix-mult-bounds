@@ -1,5 +1,29 @@
 # Research status
 
+## The mixed candidate is excluded by rational-normal-curve rigidity
+
+The [global geometric proof](research/ai/2026-10-23-mixed-longlegs-candidate/global_rnc_obstruction.md)
+excludes every complex degeneration from the canonical ten Full(5,10)
+source to the frozen mixed target, even with arbitrary independent first
+identifications of its blocks. All three maps may initially have poles
+or singular leading terms, and the long maps may mix source copies.
+
+Third conciseness gives a regular family of third-slice spaces. Proper
+rank-one incidence forces the moving source rational normal quartic to
+limit inside the target's finite union of smooth quartics. Its degree and
+Hilbert polynomial force one reduced smooth quartic. Smooth orbit lifting
+and the source's binary substitution symmetry then produce an equivalent
+degeneration with an invertible regular first map. The already proved
+catalecticant comparison120<130 contradicts that normalized degeneration.
+
+The earlier Koszul and Schur screens still pass; the new proof uses
+additional geometry. It excludes this source orbit closure, not every
+border-rank140 realization of the target. The next construction must
+escape the finite-quartic projection hypothesis, for example through
+width-one Full blocks or a different target structure. This is a written
+proof with same-session audits and exact convention checks, without
+external independent review, formalization or an improved exponent.
+
 ## Mixed target: exact rank178 and a first-map chart obstruction
 
 The [canonical mixed target](research/ai/2026-10-23-mixed-longlegs-candidate/cactus_rank.md)
@@ -15,8 +39,8 @@ has source rank120 and target rank at least130 after every independent
 invertible first identification. Its covariance on the two long factors
 excludes every degeneration with an invertible scalar-normalized first
 limit, even when the long maps have poles and mix source copies. The
-remaining orbit-closure question requires singular first limits. These
-written proofs and exact controls have same-session audits, without
+singular first limits are now settled for the frozen target by the global
+rational-normal-curve proof above. These written proofs and exact controls have same-session audits, without
 external independent review or any matrix multiplication exponent gain.
 
 ## A mixed-output candidate survives every ordinary Koszul degree
@@ -41,12 +65,12 @@ same output-leg Koszul ranks, which are the largest attainable ranks in
 that format. Thus no target of this format can fail a C-leg comparison
 against this source, even after arbitrary target basis changes.
 
-These results settle necessary tests, not the orbit-closure question.
-The computed B-leg and Schur target ranks use the canonical target first
-bases. A whole-block assignment to individual source copies is impossible;
-any construction must leave that class. The source has border rank 140,
-so a next necessary condition is target border rank 140. No improving
-tensor degeneration or smaller exponent has been established. The written
+These results settle the stated necessary tests. The computed B-leg and
+Schur target ranks use the canonical target first bases. The global RNC
+proof above now excludes the proposed source-target degeneration under
+all independent target first identifications. It does not determine
+target border rank. No improving tensor degeneration or smaller exponent
+has been established. The written
 proofs and finite experiments remain without external independent review.
 
 ## A shared-output candidate fails for every target first identification

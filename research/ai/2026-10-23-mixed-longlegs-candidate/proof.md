@@ -4,13 +4,12 @@ Date: 2026-10-23. Owner-directed AI research. Exact finite experiments
 and written deductions, with same-session cross-agent audits; no
 external independent mathematical review.
 
-The current conclusion is that every ordinary Koszul degree on all
-three legs passes for the frozen canonical endpoints. The singular-first-map construction
-question remains unresolved at this checkpoint. The separate
-[catalecticant note](catalecticant_chart.md) excludes every invertible
-normalized leading first-map chart by the universal comparison120<130. Earlier verifier outputs are preserved as
-checkpoint records; the higher-rank and source-theorem files complete
-their initial necessary-condition coverage.
+Every ordinary Koszul degree on all three legs passes for the frozen
+canonical endpoints. The separate [global RNC proof](global_rnc_obstruction.md)
+now excludes the proposed degeneration, including singular leading first
+maps and independent target first identifications. Earlier rank reports
+remain preserved as checkpoints. The geometric obstruction uses a smooth
+curve limit, source symmetry and the catalecticant comparison120<130.
 
 ## 1. Literal endpoints
 
@@ -320,38 +319,35 @@ degree-one kernel vectors and five evaluation first slices of rank 62.
 Those bounds alone did not decide degrees 7,...,10. The general source
 theorem now closes them, and every other C degree, as passing.
 
-## 8. Unresolved construction and evidence status
+## 8. Construction excluded and evidence status
 
-The precise question is whether T lies in the product-general-linear
-orbit closure of S. Passing the reported tests is necessary and does
-not decide this question. A positive result must supply actual maps
-or a complete orbit-closure construction. A negative result must
-apply to arbitrary degeneration maps, including singular first-map
-limits.
+The separate [global RNC theorem](global_rnc_obstruction.md) proves that
+T is outside the product-general-linear orbit closure of S, including
+every independent target first identification. It first uses third
+conciseness and proper rank-one incidence to constrain the flat limit
+of the source's rational normal quartic. Degree and Hilbert polynomial
+force a smooth quartic, so smooth orbit lifting and binary substitution
+covariance replace any proposed first map by a regular invertible one.
+The [catalecticant chart theorem](catalecticant_chart.md), with source
+rank120 and universal target lower bound130, then gives a contradiction.
 
-The narrow [copywise dimension lemma](copywise_dimensions.md) rules out
-assigning whole target blocks to individual source copies on both long
-legs. Its only per-copy dimension solution is 2 Full(5,2)+Mid(5,2),
-which cannot produce the frozen target. It does not exclude maps that
-mix source copies. A separate necessary condition is target border
-rank 140, because the source has border rank 140 and the target is
-output-concise. No target border-rank proof is supplied here. The separate
-[catalecticant note](catalecticant_chart.md) forces the first map to have
-a singular nonzero leading matrix after scalar normalization.
+The earlier [copywise dimension lemma](copywise_dimensions.md) and the
+completed rank tests retain their stated narrower scopes. The B-leg and
+Schur target calculations use canonical first identifications; the global
+exclusion permits independent target identifications. Source copies with
+independent first identifications remain outside that global theorem.
 
-The completed Koszul statements concern the unprojected tensors and
-the usual exterior flattenings in every degree on each leg. They do
-not settle every projected Koszul map, every Young flattening, or
-other orbit-closure invariants.
+The source has border rank140. The [cactus proof](cactus_rank.md) gives
+canonical ordinary, smoothable and cactus rank178 for T. Neither that
+finite-scheme result nor the single-orbit exclusion determines T's border
+rank. In particular, no lower bound greater than140 for border rank is
+asserted here.
 
-The target includes shared-output blocks and therefore lies outside
-the fixed common-input Full/Mid barrier proved earlier. This is why
-it is a relevant next search. Even a positive degeneration would
-require a further complete algorithmic argument before an exponent
-improvement could be claimed.
-
-Discovery used floating-point optimization. All retained acceptance
-comparisons use integer or rational certificates. The proof and
-experiment were produced in the owner's directed AI session and have
-not received independent mathematical review.
-
+The next construction must escape the finite-quartic projection hypothesis,
+for example through enough width-one Full blocks or a different target
+structure; see [the current question](QUESTION.md). Discovery used
+floating-point optimization, while retained acceptance comparisons use
+integer or rational certificates. The arbitrary-arc argument is a written
+geometric proof with attributed external ingredients and same-session
+audits, not a numerical verification. No external independent review,
+formalization, improving degeneration or smaller exponent is claimed.
