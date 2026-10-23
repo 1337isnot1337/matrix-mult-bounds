@@ -3,14 +3,14 @@
   "main_sha": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
   "branch_count": 130,
   "main_claim_count": 295,
-  "original_unique_ids": 608,
-  "consolidated_claim_count": 613,
+  "original_unique_ids": 609,
+  "consolidated_claim_count": 614,
   "original_ids_preserved": true,
   "independent_collision_extra_ids": 5,
   "evidence_statuses_unchanged": true,
   "all_original_evidence_paths_verified": true,
   "status_counts": {
-    "proof-written-unreviewed": 503,
+    "proof-written-unreviewed": 504,
     "finite-experiment": 83,
     "derivation-unreviewed": 1,
     "conditional-implication": 25,
@@ -8988,6 +8988,18 @@
       "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/proof.md",
       "path_or_id_replacements": [],
       "original_evidence_verified": true
+    },
+    {
+      "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+      "original_id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+      "record_sha256": "9807ff61f21afa0644643c8d324d66f1c0e2c530019696f164e7884212a8756b",
+      "source_record_sha256": "9807ff61f21afa0644643c8d324d66f1c0e2c530019696f164e7884212a8756b",
+      "source_branch": "research/quadratic-kernel-indices-01a1697d",
+      "source_sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "original_evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "path_or_id_replacements": [],
+      "original_evidence_verified": true
     }
   ],
   "initial_consolidated_claim_count": 599,
@@ -12477,5 +12489,116 @@
     "topic_source_snapshots": 170,
     "topic_branch_names": 138,
     "source_pin_repair_has_no_claim_or_proof_changes": true
+  },
+  "structural_followup_addendum": {
+    "baseline_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+    "source_sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+    "previous_source_sha": "c7b7257bac3c000543de66a27b3485a29589156c",
+    "authored_commit": "0bef34c4976cf3c23a7049851438df157b5bfdc5",
+    "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+    "prepared_at": "2026-10-23T18:33:23.406777+00:00",
+    "claims_before": 613,
+    "claims_after": 614,
+    "unchanged_existing_records": 613,
+    "added_ids": [
+      "AI-QUADRATIC-INDEX-DICHOTOMY-002"
+    ],
+    "revised_existing_ids": [],
+    "exact_added_source_record": {
+      "id": "AI-QUADRATIC-INDEX-DICHOTOMY-002",
+      "title": "Rational-root height dichotomy and the complete three-by-three biform rank spectrum",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-23-quadratic-kernel-indices/dichotomy.md",
+      "statement": "Under AI-QUADRATIC-KERNEL-INDICES-001, let D be the primitive coefficient degree, L=ceil((a-1)D/2), U=floor(aD/2), and h the smallest K(x)-rational root height of the homogeneous z-quadratic, or infinity. Then min(L,(a+1)h)<=mu1<=min(U,(a+1)h). A minimum recurrence vector has Hankel rank two and degree at least L, or rank one and is a primitive coherent root vector of degree (a+1)h. Thus homogeneous irreducibility forces mu1 in [L,U], and (a+1)h<=L fixes both indices. For a=b=3, the nonzero biform-block rank spectrum is exactly {9,12,14,15} over every field, with universal witnesses; rank thirteen is impossible.",
+      "dependencies": [
+        "AI-QUADRATIC-KERNEL-INDICES-001",
+        "De Teran-Dopico-Mackey, MIMS EPrint2013.47, August22 2013, Theorem6.5 over arbitrary fields",
+        "Explicit polynomial left and right Hankel kernel bases, primitive Gauss lemma, and coherent rank-one classification"
+      ],
+      "limitations": "These are necessary index restrictions, not a classification of all splitting types. The complete rank spectrum concerns the fifteen-by-fifteen biform block, not every slice of the full cyclic tensor. No source-space cap, three-leg target, degeneration, independent review, formalization, historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    "source_record_sha256": "9807ff61f21afa0644643c8d324d66f1c0e2c530019696f164e7884212a8756b",
+    "all_source_status_flags_preserved": true,
+    "ledger_before_sha256": "920eede68c554939bb25c5e3f7a5a3b991a35124fecaa517eff8994aaa170b28",
+    "ledger_after_sha256": "b0ae047d5bdda32dc0acb218facaad809d7576be47ae8e8a0a0011596d8097cc",
+    "inherited_older_existing_variants": [
+      {
+        "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+        "changed_fields": [
+          "limitations"
+        ],
+        "current_record_sha256": "9a112af8fbc7a4938db0afb6e6e525f4aa8ce121376a2b2038d460cc2efe282a",
+        "incoming_record_sha256": "fe57482b213a777e44e1e7bcea02228bf0dacc5c43eb119e1b9775933aa6a4b2",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      },
+      {
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "changed_fields": [
+          "limitations"
+        ],
+        "current_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      },
+      {
+        "id": "AI-CONIC-POLYNOMIAL-JET-003",
+        "changed_fields": [
+          "statement"
+        ],
+        "current_record_sha256": "e4d549a938b7532e6cc2709b317e716e5f921527bdea61bc3271b1e619b7e002",
+        "incoming_record_sha256": "3c66b561d4a25582a556212421999b71a0d4b14559b0c7173e14488760958efd",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      },
+      {
+        "id": "AI-CONIC-SECOND-JET-002",
+        "changed_fields": [
+          "statement"
+        ],
+        "current_record_sha256": "59698cbc1a47b0fa98fe97e1ff6500664f03513d596cb65c2869337e67108b50",
+        "incoming_record_sha256": "5056a62906c9d7d157d6ba0a17932560fb3d7bbab2a6ea6045bd212fc3543628",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      },
+      {
+        "id": "AI-SCALAR-001",
+        "changed_fields": [
+          "limitations"
+        ],
+        "current_record_sha256": "91a9cdb6d1a3e098788aa2ce13213b61d1a737a5d225d20a976cf3d4040adf73",
+        "incoming_record_sha256": "ae459c9c378516d4254b741744d6381e0b7fd2d3f44e205f4812d51dffc3fc56",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      },
+      {
+        "id": "EXP-ORDINARY-RECTANGULAR-FRONTIER-001",
+        "changed_fields": [
+          "limitations"
+        ],
+        "current_record_sha256": "398fe8bce390740142294a4e9693497479e67b8e5d0cb73883072a71694b47fb",
+        "incoming_record_sha256": "474c3c7754ecc0779bb2d484cb8b1eb957bd834ea57e559b06f27a0d0c9b29c2",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      },
+      {
+        "id": "EXP-S5-COLORED-033",
+        "changed_fields": [
+          "statement",
+          "title"
+        ],
+        "current_record_sha256": "f50f704fd7845a715a60a669a16c7a02d07d087dfe7dc1f976f7ac9cf17a3e16",
+        "incoming_record_sha256": "a056832d60d3a0570ad89aa1f52c1ceb98ffa756fc9b0d7c265728461d5ec738",
+        "incoming_equals_previous_c7_record": true,
+        "decision": "Preserve the current reviewed consolidated record; this is inherited older content, not an authored structural revision."
+      }
+    ],
+    "topic_source_snapshots": 171,
+    "topic_branch_names": 138
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "matrix-consolidation-archive-receipt-index-v1",
-  "snapshot_count": 170,
+  "snapshot_count": 171,
   "basis": "Exact remote GET receipts supplied by the coordinator and checked by the offline preservation gate.",
   "archive_tags": [
     {
@@ -132,6 +132,11 @@
       "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/7ecec6ebac9a",
       "sha": "7ecec6ebac9a6bb0dbeec2bf337fc4cadb23a1bb",
       "source_receipt": "archive_live_catchup_tags.json"
+    },
+    {
+      "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/80bd2ae6e123",
+      "sha": "80bd2ae6e1231c5fcd6ea1b01684d49e4b496def",
+      "source_receipt": "archive_quadratic_80bd.json"
     },
     {
       "tag": "archive/consolidation-20261023-165523-updates/research/quadratic-kernel-indices-01a1697d/c7b7257bac3c",
@@ -854,5 +859,5 @@
       "source_receipt": "archive_tags.json"
     }
   ],
-  "scope": "Topic-source snapshots only; integration archives and both independently merged current-main squashes are recorded separately."
+  "scope": "Topic-source snapshots only; six current integration archives and main squashes are recorded separately."
 }
