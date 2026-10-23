@@ -2,12 +2,15 @@
 from __future__ import annotations
 
 from fractions import Fraction
+import hashlib
 import importlib.util
 from itertools import product
 import json
 from pathlib import Path
 import re
+import tempfile
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT / 'research' / 'ai' / '2026-10-20'
@@ -146,6 +149,29 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(summary['status'],'passed')
         self.assertEqual(summary['total_weight_candidates'],242668)
         self.assertEqual(len(summary['runs']),5)
+
+    def test_replay_child_keeps_assertions_with_inherited_optimization(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive=Path(directory)/'archive'
+            archive.mkdir()
+            report=json.dumps({'checks':1,'elapsed_seconds':0})
+            (archive/'checks.json').write_text(report)
+            (archive/'check.py').write_text(
+                "from pathlib import Path\n"
+                "assert False, 'archived assertion must run'\n"
+                f"Path('checks.json').write_text({report!r})\n")
+            manifest={name:hashlib.sha256((archive/name).read_bytes()).hexdigest()
+                      for name in ('check.py','checks.json')}
+            (archive/'manifest.json').write_text(json.dumps({'sha256':manifest}))
+            output=Path(directory)/'output'
+            # An unoptimized parent can inherit this value when started with -E.
+            with patch.dict('os.environ',{'PYTHONOPTIMIZE':'1'}), patch.multiple(
+                    replay,ARCHIVE=archive,
+                    RUNS=[('checks.json',['check.py'],'checks',1)]):
+                with self.assertRaisesRegex(
+                        RuntimeError,'AssertionError: archived assertion must run'):
+                    replay.run(output,30)
+            self.assertFalse((output/'summary.json').exists())
 
     def test_normalization_retains_exact_evidence(self):
         value={'ratio_float':1.0,'elapsed_seconds':2,'exact':'4/3','violation_exact':False}
