@@ -17,7 +17,10 @@ The [low-rank reduction](LOW_RANK_REDUCTION.md), claim
 question to one explicit 46-dimensional space E of 28 by 28 matrices.
 All limiting matrices killed by the original compression lie in that
 single outer block. A full target requires rank-26 maps with
-`dim(Phat E Chat)<=37`; a universal lower bound of 38 remains open.
+`dim(Phat E Chat)<=37`. The completed
+[universal compression theorem](../2026-10-23-a4-compression-algebra/proof.md),
+claim `AI-A4-ARBITRARY-COMPRESSION-001`, proves
+`dim(Phat E Chat)>=38` over the complex numbers for every such pair of maps.
 
 ## Evidence
 
@@ -79,11 +82,13 @@ below; they are not counted as part of that earlier tree's coverage.
 
 ## Scope and next question
 
-The result excludes this one fixed conjugation family for all principal
-coordinate compressions. For arbitrary constant compressions, it gives
-the necessary condition dim(PLC) <= 103. It does not exclude that remaining
-determinantal locus or moving compression maps. The explicit outer-space
-reduction above is the remaining constant-compression question.
+The original reduction gives the necessary target condition
+`dim(PLC)<=103`. The universal compression theorem now proves
+`dim(PLC)>=104` for every constant rank-110 compression of this fixed
+112-dimensional conjugation limit. This excludes all constant compressions
+in this family, including arbitrary Laurent first maps and subsequent
+re-saturation. Moving compression maps and different singular paths remain
+open research questions.
 
 The mathematical status is written and unreviewed. No target construction,
 improved exponent, independent review, or formalization is claimed.
@@ -114,6 +119,17 @@ make the completed scope reproducible.
 The [follow-up receipt](../../../results/conjugation-limit-2026-10-23/escape-validation.json)
 records a byte-identical reproduction of both families from the retained
 script, including all 221 rational re-saturations.
+
+## Integrated validation checkpoint
+
+The [integrated receipt](../../../results/a4-compression-algebra-2026-10-23/integration-validation.json)
+records passing evidence for 920 distinct test IDs: the 905-test baseline,
+three block-reduction tests, four coordinate-compression tests, and eight
+universal-compression tests. The eight universal-compression tests and
+18 repository metadata checks were rerun on the integrated tree. The
+receipt combines retained passing evidence with these focused checks;
+it records no fresh full-suite run. The original checkpoint below remains
+the historical record of the earlier baseline.
 
 ## Frozen validation checkpoint
 
