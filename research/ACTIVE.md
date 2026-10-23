@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The independent one-dependency residual rank-strata continuation is in
+`ai/2026-10-23-oblique-slice-strata/proof.md`. It uses PR147's pinned
+adapted formula and does not edit or subsume the active border-rank
+package. Over all fields the first-leg slice ranks are exactly 0,2,4,
+with a two-component projective rank-two locus. Formulas for all second
+and third slice ranks are proved via disjoint support decompositions.
+The next separate question is whether this intrinsic rank geometry can
+sharpen an actual border-rank invariant; no such sharpening is claimed.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

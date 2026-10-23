@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "python_version": "3.12.13",
+  "dependencies": {"sympy": "1.14.0", "mpmath": "1.3.0"},
+  "focused_tests": {
+    "command": "python -S -m unittest discover -s tests -p test_oblique_slice_strata.py -v",
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  },
+  "finite_checks": {
+    "exhaustive_GF2_contractions": 6120,
+    "seeded_odd_prime_contractions": 2160,
+    "seeded_rational_contractions": 480,
+    "output": "certificate.json"
+  },
+  "regression": {
+    "command": "python tools/test_shard.py --shard-index 0 --shard-count 4",
+    "group": 0,
+    "tests": 239,
+    "passed": 238,
+    "skipped": 1,
+    "errors": 0,
+    "failures": 0,
+    "scope": "Only shard zero was completed locally; not a complete regression receipt. Hosted CI must run all four groups at the final pull-request head."
+  },
+  "historical_archive_replay": {
+    "command": "python tools/replay.py",
+    "passed": 5,
+    "failed": 0,
+    "experiments": [
+      "profile_checks.json",
+      "product_filtration_checks.json",
+      "binary_search.json",
+      "ternary_search.json",
+      "random_search.json"
+    ]
+  },
+  "historical_archives_modified": false,
+  "same_session_checks_not_independent_mathematical_review": true,
+  "exponent_improvement": false
+}

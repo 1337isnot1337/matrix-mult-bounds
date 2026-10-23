@@ -1,5 +1,16 @@
 # Research directions
 
+## One-dependency residual slice geometry (October 23)
+
+The [exact rank strata](../research/ai/2026-10-23-oblique-slice-strata/proof.md)
+settle the ordinary one-leg contraction ranks of PR147's fixed
+one-dependency residual, including both first-leg rank-two components.
+They do not determine the residual's border rank or a nonlinear orbit
+closure. A useful next step would be a rigorous border-rank condition
+using these projective contraction strata that beats the prior equalizer
+lower bound; ordinary decomposition-specific peeling does not suffice.
+Do not re-run this completed rank-strata census without a new invariant.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

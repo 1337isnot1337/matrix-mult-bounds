@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-oblique-slice-strata` work is owner-directed OpenAI
+research. PR147 at `29a486ac622261c8b4854fc109fb8ab40dcf91a2`
+retains credit for the actual paired-source integer maps, native
+contraction, adapted bases and ordinary/border repair. The additional
+all-field linear-subspace rank classification and three exact contraction
+formulas are local. The finite-field verifier constructs the displayed
+adapted tensor afresh but relies on the credited source PR for its
+identification with the native residual. Same-session exact testing is
+not independent mathematical review. There is no external theorem input,
+historical priority claim, formalization, optimal border rank or exponent
+improvement.
+
 The `2026-10-23-conic-fixed-two-curve` package is owner-directed
 OpenAI Codex work. PR107 at86b5142 retains credit for every prescribed
 constant, first and second map and its zero first two kernel corrections;

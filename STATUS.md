@@ -1,5 +1,19 @@
 # Research status
 
+## Exact three-leg contraction strata of the one-dependency oblique residual
+
+The [slice-strata proof](research/ai/2026-10-23-oblique-slice-strata/proof.md)
+classifies ordinary one-leg matrix ranks of the fixed adapted residual
+over every field. Every nonzero first slice has rank two or four; its
+projective rank-two locus is two disjoint projective `(r-2)`-spaces.
+Exact two-column rank formulas determine the entire second- and
+third-leg strata. Exhaustive binary checks cover all three legs at
+`r=2,3,4,5` (6120 contractions); 2160 seeded odd-prime checks are
+separate finite evidence. Claim `AI-OBLIQUE-SLICE-STRATA-001` is a
+written, unreviewed proof, using PR147's pinned native residual
+identification. It changes neither the 12..18 border-rank interval at
+`r=5` nor the verified 9/4 exponent baseline.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
