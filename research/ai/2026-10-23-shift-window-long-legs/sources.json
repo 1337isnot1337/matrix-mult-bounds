@@ -1,0 +1,38 @@
+{
+  "attribution": "Owner-directed AI-derived written proof extending the common-symbol technique to one genuinely variable long leg via a fixed low-dimensional shift-window span; five exact finite controls. No external theorem, priority, independent review, general Laurent construction exclusion, or exponent gain claimed.",
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "concurrent_related_work": [
+    {
+      "branch": "research/toeplitz-two-long-legs-20261023",
+      "pr": 157,
+      "proof_sha256": "d6a7affa2397a0d6ea94ee4e7ab0c1969d42f954e2ed3fa6b7740802263d47fa",
+      "scope": "Ordinary Toeplitz maps on both long legs, with sparse exceptional columns; unreviewed predecessor. This result is standalone and does not treat this open PR as merged."
+    },
+    {
+      "pr": 145,
+      "scope": "Single diagonal-shift chart, not revisited here."
+    },
+    {
+      "pr": 147,
+      "scope": "Product-long-map residual chart, not revisited here."
+    }
+  ],
+  "external_theorems_added": false,
+  "field": "arbitrary field for ordinary maps and flattening rank; algebraic closure for border rank; complex for exponent motivation",
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/README.md",
+      "sha256": "1b7454252fb697b129263b69766c3cdf33aad3f0099cc8c5272cc1eed068f968"
+    }
+  ],
+  "tests": {
+    "finite_cases": 5,
+    "focused_unittests": 4,
+    "rank_field": "F_101",
+    "report": "results/shift-window-long-legs-2026-10-23/verification.json"
+  }
+}

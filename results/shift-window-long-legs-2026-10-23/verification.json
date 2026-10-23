@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "D": 0,
+      "arbitrary_a_mixing": true,
+      "b_exceptional_columns": [],
+      "c_exceptional_columns": [],
+      "degree": 1,
+      "good_p": 4,
+      "good_q": 4,
+      "m": 3,
+      "n": 8,
+      "observed_residual_flattening_rank_F101": 64,
+      "predicted_lower_bound": 16,
+      "source_symbol_slices_checked": 16,
+      "variable_mode": "polynomial",
+      "window_coefficients_checked": 108,
+      "window_rank_bound": 2
+    },
+    {
+      "D": 0,
+      "arbitrary_a_mixing": true,
+      "b_exceptional_columns": [],
+      "c_exceptional_columns": [],
+      "degree": 2,
+      "good_p": 4,
+      "good_q": 4,
+      "m": 4,
+      "n": 10,
+      "observed_residual_flattening_rank_F101": 100,
+      "predicted_lower_bound": 16,
+      "source_symbol_slices_checked": 16,
+      "variable_mode": "polynomial",
+      "window_coefficients_checked": 256,
+      "window_rank_bound": 3
+    },
+    {
+      "D": 0,
+      "arbitrary_a_mixing": true,
+      "b_exceptional_columns": [],
+      "c_exceptional_columns": [],
+      "degree": 0,
+      "good_p": 4,
+      "good_q": 4,
+      "m": 4,
+      "n": 10,
+      "observed_residual_flattening_rank_F101": 100,
+      "predicted_lower_bound": 16,
+      "source_symbol_slices_checked": 16,
+      "variable_mode": "two_exponentials",
+      "window_coefficients_checked": 256,
+      "window_rank_bound": 2
+    },
+    {
+      "D": 0,
+      "arbitrary_a_mixing": true,
+      "b_exceptional_columns": [
+        4
+      ],
+      "c_exceptional_columns": [
+        5
+      ],
+      "degree": 0,
+      "good_p": 5,
+      "good_q": 5,
+      "m": 3,
+      "n": 12,
+      "observed_residual_flattening_rank_F101": 144,
+      "predicted_lower_bound": 25,
+      "source_symbol_slices_checked": 25,
+      "variable_mode": "exp_linear",
+      "window_coefficients_checked": 135,
+      "window_rank_bound": 2
+    },
+    {
+      "D": 1,
+      "arbitrary_a_mixing": true,
+      "b_exceptional_columns": [],
+      "c_exceptional_columns": [],
+      "degree": 1,
+      "good_p": 6,
+      "good_q": 6,
+      "m": 3,
+      "n": 12,
+      "observed_residual_flattening_rank_F101": 144,
+      "predicted_lower_bound": 36,
+      "source_symbol_slices_checked": 36,
+      "variable_mode": "polynomial",
+      "window_coefficients_checked": 486,
+      "window_rank_bound": 2
+    }
+  ],
+  "field": "F_101",
+  "full_window_rank_countercontrol": true,
+  "methods": "exact modular arithmetic",
+  "scope": "Five finite controls only; the all-size statement depends on proof.md.",
+  "status": "pass"
+}
