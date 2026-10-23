@@ -32,18 +32,48 @@ For n>1 the direct asymptotic-sum substitution gives the exponent bound
 To certify a value at most 9/4 through this particular budget, one needs
 `B(n) <= p*n^(9N/4)`.
 
-## Two elementary bounds
+## A counting bound for the number of products
 
 First, no two selected products can have the same U part. If `U_i=U_j`
 with i different from j, the mixed choice `(U_i,V_j,W_j)` is an
 off-diagonal complete tripartition. That contradicts conflict-freeness.
-Thus
+The same argument applies to the V and W parts. Write
 
 \[
- p\le {3N\choose N}.                                      \tag{1}
+ C={3N\choose N},\qquad D={2N\choose N}.
 \]
 
-Second, weighted arithmetic–geometric mean, applied to
+Consider the tripartite hypergraph whose three vertex classes are copies
+of all N-subsets of the coordinate set. An edge is a complete ordered
+tripartition. The hypergraph has CD edges, and every vertex belongs to
+exactly D edges: after fixing one part, either remaining part may be any
+N-subset of its 2N-coordinate complement.
+
+The selected U, V and W parts give p vertices in each class. They induce
+exactly p edges. There are p diagonal edges, and conflict-freeness excludes
+every other edge among the selected vertices. Deleting the other
+3(C-p) vertices removes exactly CD-p edges. Counting incidences at deleted
+vertices can count a removed edge more than once, so
+
+\[
+ CD-p\le 3(C-p)D.
+\]
+
+Rearranging gives the stronger product bound
+
+\[
+ p\le P_N:=\left\lfloor\frac{2CD}{3D-1}\right\rfloor.       \tag{1}
+\]
+
+This argument needs the induced-edge condition, not just distinct parts.
+For example, on three coordinates the three cyclic tripartitions have
+distinct parts in every class but have unwanted mixed edges. The bound
+is sharp at N=1: two suitable tripartitions form a conflict-free family.
+No sharpness is claimed for larger N.
+
+## The leading cost floor
+
+Weighted arithmetic–geometric mean, applied to
 `n/3, n/3, n/3, 1`, gives
 
 \[
@@ -64,36 +94,43 @@ it while the leading aggregate is charged as above.
 
 ## Exact finite comparison
 
-For each N from 1 through 7 the following strict integer inequality holds:
+For each N from 1 through 10 the following strict integer inequality holds:
 
 \[
- {3N\choose N}^{4}\,3^{9N}<4^{12N}.                        \tag{3}
+ P_N^{4}\,3^{9N}<4^{12N}.                                 \tag{3}
 \]
 
 Combining (1)–(3) proves `B(n) > p*n^(9N/4)` for every n>0.
-Hence **no balanced conflict-free family with N<=7 can certify an
+Hence **no balanced conflict-free family with N<=10 can certify an
 exponent at most 9/4 by this displayed aggregation budget**.
 
 The last column below is the smallest integer exceeding the real cost
 floor in (2); it is computed using integer comparisons, not rounded logs.
 
-| N | Maximum products from distinct parts | Necessary products to exceed the leading cost floor |
+| N | Product cap from the induced-edge count | Necessary products to exceed the leading cost floor |
 | ---: | ---: | ---: |
-| 1 | 3 | 6 |
-| 2 | 15 | 30 |
-| 3 | 84 | 158 |
-| 4 | 495 | 853 |
-| 5 | 3,003 | 4,606 |
-| 6 | 18,564 | 24,886 |
-| 7 | 116,280 | 134,463 |
-| 8 | 735,471 | 726,537 |
+| 1 | 2 | 6 |
+| 2 | 10 | 30 |
+| 3 | 56 | 158 |
+| 4 | 331 | 853 |
+| 5 | 2,004 | 4,606 |
+| 6 | 12,380 | 24,886 |
+| 7 | 77,527 | 134,463 |
+| 8 | 490,326 | 726,537 |
+| 9 | 3,124,571 | 3,925,676 |
+| 10 | 20,030,046 | 21,211,507 |
+| 11 | 129,024,540 | 114,611,623 |
 
-The N=8 row is included to show the limit of this particular argument.
+The N=11 row is included to show the limit of this particular argument.
 It does not construct a family of that size or account for its corrections.
-It proves only that N>=8 is necessary for this budget to pass the gate;
+It proves only that N>=11 is necessary for this budget to pass the gate;
 it does not prove sufficiency. In particular, both the N=3 and N=4
 constructions in this package are below the gate regardless of the
 remaining local search budget.
+
+The earlier version used only p<=C and excluded N<=7. The induced-edge
+count extends the certified range without a numerical optimization or an
+assumption about the minimum correction cost.
 
 ## Reproduction and scope
 
@@ -104,9 +141,10 @@ standard library:
 ```python
 from math import comb
 
-for N in range(1, 8):
-    assert comb(3*N, N)**4 * 3**(9*N) < 4**(12*N)
-assert comb(24, 8)**4 * 3**72 > 4**96
+for N in range(1, 12):
+    C, D = comb(3*N, N), comb(2*N, N)
+    cap = (2*C*D) // (3*D-1)
+    assert (cap**4 * 3**(9*N) < 4**(12*N)) == (N <= 10)
 ```
 
 This leaves open algorithms that lower the main-aggregate cost, exploit

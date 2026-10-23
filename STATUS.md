@@ -2334,9 +2334,11 @@ rank-one positions; it is an implementation control, not the uniform proof.
 Claim: AI-AGGREGATION-106-002.
 
 The [size gate for these displayed budgets](research/ai/2026-10-23-aggregation-families/cost_floor.md)
-also shows that every balanced conflict-free family with N<=7 fails the
+also shows that every balanced conflict-free family with N<=10 fails the
 direct 9/4 cost comparison when the whole (n+1)^(3N) aggregate is charged.
-N>=8 is necessary for this budget model, not sufficient. This is not a
-lower bound on tensor rank; cheaper aggregate decompositions and other
+The induced-edge count gives p<=floor(2CD/(3D-1)), where
+C=binom(3N,N) and D=binom(2N,N). N>=11 is necessary for this budget
+model, not sufficient. This is not a lower bound on tensor rank;
+cheaper aggregate decompositions and other
 constructions remain outside its scope. Claim: AI-AGGREGATION-COST-FLOOR-003.
 Both new proofs are written and unreviewed, with no exponent improvement.

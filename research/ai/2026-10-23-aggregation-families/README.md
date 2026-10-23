@@ -18,10 +18,10 @@ No optimal rank or historical priority is claimed.
 
 These are positive tensor constructions with complete uniform costs.
 They do not improve omega below 9/4. An exact [size gate](cost_floor.md)
-shows that no balanced conflict-free family with N<=7 can cross that
+shows that no balanced conflict-free family with N<=10 can cross that
 threshold while charging the complete (n+1)^(3N) leading aggregate.
 This concerns a displayed upper-bound certificate; it is not a lower
-bound on tensor rank. N>=8 is necessary for this particular cost model,
+bound on tensor rank. N>=11 is necessary for this particular cost model,
 not sufficient. No polynomial-source restriction, independent
 mathematical review, or formalization is supplied.
 

@@ -1017,7 +1017,9 @@ output holds only for n>=7. A byte-packed F2 control checks one full
 assignment to nontrivial 16-by-16 products by evaluating every rank-one
 position exactly; its sampled assignment is not the uniform proof.
 The accompanying size gate is an owner-directed Codex application of
-distinct-part injection and weighted AM-GM to the displayed upper-bound
-certificates. It makes no claim about optimal tensor rank. No historical
+distinct-part injection, an induced-edge incidence count, and weighted
+AM-GM to the displayed upper-bound certificates. The incidence count
+extends the excluded range from N<=7 to N<=10. It makes no claim about
+optimal tensor rank. No historical
 priority, independent mathematical review, formalization or exponent
 improvement is claimed for these additions.
