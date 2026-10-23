@@ -1,0 +1,50 @@
+{
+  "external": [],
+  "local": [
+    {
+      "commit": "86b514225414662933f88c6ed8270250b40a287d",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/107",
+      "use": "All prescribed constant, first and second map coefficients, plus kernel corrections Y1=Y2=0. Only the d-nonzero chart is adopted.",
+      "sha256": {
+        "results/conic-third-jets-2026-10-23/mixed-family.json": "0571cd47916d19c60a0f9493a6ddccaecb8053aea8a139137c05b3def9df1d5e",
+        "research/ai/2026-10-23-conic-third-jets/proof.md": "5000cfb4f5e90e513b122553e0a727859939e4278c3f4346b20d364fd27f4072"
+      }
+    },
+    {
+      "local_source_commit": "5028a0d95e4e7a4a531bbfaa124bf85e72216e50",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/136",
+      "use": "Credited exact constant cores, source encoding and polynomial rank-one gauge cancellation. The constructor reuses only the constant-core and encoding helpers; acceptance is a separate literal-source implementation.",
+      "sha256": {
+        "research/ai/2026-10-23-conic-polynomial-curve/construct.py": "b4e4dfa3c1d75d1428da7a6b219f49186e4f99ec838f555501b5649de9c00c4b",
+        "research/ai/2026-10-23-conic-polynomial-curve/proof.md": "5f13a24905eb3f1321d9d48addf254ccdaed0598e31b2bed3231c925e532b4ff"
+      }
+    },
+    {
+      "local_source_commit": "25900c2",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/136",
+      "use": "Moving both roots to fix the full first jet motivates the new second-order vector change and exact kernel projections. The proof does not depend on its second or third coefficients.",
+      "sha256": {
+        "research/ai/2026-10-23-conic-fixed-first-curve/proof.md": "5a67e947db1453cc0a58d38f69fdbfa187b4f3c5f3b5c613e8176ae446ac0129"
+      }
+    },
+    {
+      "commit": "539b539dc4eac09114899fd76472aee2d78d9f62",
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/101",
+      "use": "Original canonical 4096-term source and conic setup, retaining their attribution.",
+      "sha256": {
+        "research/ai/2026-10-21-quantum-extension-spaces/extensions.py": "08550443cfc8d7232964fcfb7912bfdbcdeab40295826738e21fcf308c27505c",
+        "research/ai/2026-10-21-conic-second-jets/proof.md": "3fd3dbdeac15c7325cf61c14c75629d9b431ae33bda62572aee585653df17007"
+      }
+    }
+  ],
+  "concurrent_context": [
+    {
+      "pr": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/123",
+      "use": "Separate exact d=0 curve preserving the earlier polynomial two-jet; no priority claim or acceptance dependency."
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}

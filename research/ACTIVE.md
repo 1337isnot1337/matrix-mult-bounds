@@ -1,5 +1,28 @@
 # Integrated research coordination
 
+The prescribed full two-jet question is now closed on d nonzero by
+`ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
+eight and nine preserve all six supplied B/C coefficients through order
+two and Y1=Y2=0. Every complete product coefficient through order17,
+the unit leading minors and exact prior-byte pins pass acceptance; six
+focused tests and a separate sparse reconstruction pass. The next
+precise extension question is PR107's full third jet with its nonzero
+moving-kernel correction, or the missing projective base charts. Do not
+mistake this extension of one specified two-jet for extension of every
+representative or a complete matrix target. This round's PR136 package
+is frozen for final integration and current-head CI; subsequent research
+belongs in a separate checkpoint. Written and unreviewed.
+
+The fixed-first continuation in
+`ai/2026-10-23-conic-fixed-first-curve/proof.md` now gives exact cubic
+maps preserving both full first coefficients of PR107, for all complex
+a,b,d including d=0. Six focused tests and a separate literal-source
+contraction pass. The prescribed second coefficients differ only in
+boundary entries; the new fixed-two package above now extends the
+specified full two-jet on d nonzero. The earlier normal-class criterion remains unchanged. Keep
+these local incidence curves distinct from a full matrix target; all
+claims remain written and unreviewed.
+
 The October23 polynomial-conic continuation is in
 `ai/2026-10-23-conic-polynomial-curve/proof.md`. A complete degree-one /
 degree-three polynomial pair realizes every cubic-component normal[1:d]
@@ -19,10 +42,9 @@ unreviewed; no full M(10,10,11) target or exponent improvement.
 The October23 higher-conic continuation is in
 `ai/2026-10-23-conic-higher-jets/proof.md`, following PR107 at86b5142.
 The explicit mixed fourth-order family and separate rational tenth-order
-witness pass direct source replay and seven focused tests. The next
-question is extension with the specified lower coefficients. The separate
-polynomial curve above changes boundary velocity and therefore does not
-answer that stronger question. Full local regression
+witness pass direct source replay and seven focused tests. The fixed-two package above now supplies all-order extension of those
+specified coefficients on d nonzero. The earlier polynomial curve
+changes boundary velocity and has its own broader parameter chart. Full local regression
 and historical replay are required before merge. The claims retain
 written, unreviewed status and do not construct the matrix target.
 
