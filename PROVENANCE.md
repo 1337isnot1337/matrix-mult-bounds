@@ -920,3 +920,14 @@ class hypergraph and a finite integer-weight census. Optional SciPy
 optimization proposes covers; its numerical bounds are not mathematical
 acceptance premises. The earlier source theorem credits are retained.
 There is no independent review, formalization or exponent improvement.
+
+## Single-copy mixed-sector incidence screen
+
+The October 23 twisted-cubic subset screen is owner-directed Codex work. Its
+ten projective points are copied from `rank10-shared-points.json` at commit
+`347ca5343a77bb6a2b747769e2f1d408113435a3`, with the source path and SHA-256
+recorded in the new input file. A standard-library verifier uses exact
+rational row reduction to classify all 120 seven-point subsets and every
+larger subset. The Grassmannian limit argument is written locally and is not
+an external-source claim. This result is route-specific, unreviewed, and
+does not imply a general degeneration obstruction or exponent improvement.

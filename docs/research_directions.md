@@ -60,6 +60,13 @@ Extending the completed fixed-label grid cannot produce a smaller exponent.
 
 Status: open. The flattening obstruction closes only shorter single-convolution sources with identical targets and the stated shared leg.
 
+Update, October 23: [AI-MIXED-SINGLE-COPY-002](../research/ai/2026-10-23-mixed-family-twisted-cubic-screen/RESULT.md)
+shows that at most seven of the ten displayed `T4` interpolation factors
+can be termwise limits of the standard source evaluation factors under one
+common varying shared-space change of basis. This narrows one decomposition
+route. General Laurent-polynomial degenerations, cancellations, collisions,
+and other target decompositions remain open.
+
 Update, October 20: [closed Koszul rank formulas](../research/ai/2026-10-20-koszul/research_note.md)
 reject all 85 saved second-pass packings, including the former optimum. Use
 these necessary tests before trying to realize another packing. They do not
