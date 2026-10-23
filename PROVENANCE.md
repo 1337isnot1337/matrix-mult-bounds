@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-23-pass-operational-barrier` package is owner-directed Codex
+work. Pass retains credit for the primal and dual polynomial packings;
+his preprint was already discussed in the earlier generalized-packing
+notes. Amanov, van den Berg and Zuiddam retain credit for the operational
+potential, discrete concavity and rectangular barrier. The concave-tail
+extension to all Pass parameters, exact symmetric ratio and homogeneous
+flattening deduction are local written arguments. Primary versions and
+inspection scope are recorded in the package. No historical priority,
+independent review, formalization or improved exponent is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

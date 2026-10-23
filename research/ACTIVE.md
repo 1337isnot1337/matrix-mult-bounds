@@ -1,5 +1,13 @@
 # Integrated research coordination
 
+The October23 operational-barrier continuation is in
+`ai/2026-10-23-pass-operational-barrier/proof.md`. Every Pass primal/dual
+packing preserves the complete rectangular operational barrier. The two
+long-leg dimensions also close the stated homogeneous Full/Mid formats
+as a way to violate the symmetric potential. Do not search for a gain by
+shortening those same-shaped gadgets. Different sources and genuinely
+new tensor rules remain questions; no such construction is supplied.
+
 The October 23 nonsplit continuation is in
 `ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
 seven cover replays pass; 3372 primitive weight vectors give no gain over

@@ -1,5 +1,17 @@
 # Research directions
 
+## October23: operational barrier includes all Pass packings
+
+The [new synthesis](../research/ai/2026-10-23-pass-operational-barrier/proof.md)
+extends the external polynomial operational barrier to every primal and
+dual packing of Pass, including compatible partial sums, tensor products
+and compositions. Optimizing those rules cannot lower the square bound
+below9/4 or beat the credited rectangular curve. Both long-leg flattening
+dimensions already force symmetric-potential monotonicity for the stated
+homogeneous Full/Mid target mixtures. New work must introduce an ingredient
+outside these proved classes. Heterogeneous shapes and different source
+blocks require separate analysis before any construction claim.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 ## Active paired construction: near-full width four

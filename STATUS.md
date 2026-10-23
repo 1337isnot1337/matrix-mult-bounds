@@ -1,5 +1,21 @@
 # Research status
 
+## Pass packings preserve the complete polynomial operational barrier
+
+The [operational extension](research/ai/2026-10-23-pass-operational-barrier/proof.md)
+shows that every primal and dual packing in Pass's October20 preprint
+preserves the full rectangular family of operational potentials in
+Amanov, van den Berg and Zuiddam's October21 preprint. Adjoining those
+packings and their compatible compositions therefore leaves the published
+square9/4 and rectangular method barriers unchanged. A separate exact
+ratio argument shows that both long-leg dimensions already enforce the
+symmetric barrier for every stated homogeneous Full/Mid target mixture.
+Claims `AI-PASS-OPERATIONAL-EXTENSION-001` and
+`AI-HOMOGENEOUS-PACKING-DIMENSIONS-002` are written and unreviewed.
+The authors retain credit for the imported constructions and barrier.
+The local contribution is their stated extension and dimension comparison.
+No unrestricted lower bound, new tensor map or smaller exponent is claimed.
+
 ## Nonsplit vector-degree continuation: no finite bound gain
 
 The [vector-degree experiment](research/ai/2026-10-23-nonsplit-vector-covers/README.md)

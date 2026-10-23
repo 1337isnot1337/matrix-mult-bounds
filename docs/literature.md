@@ -1,5 +1,21 @@
 # Research field
 
+## October23 source update: polynomial constructions and operational limits
+
+[PASS26](https://arxiv.org/html/2610.28627v1), Rafael Pass, gives explicit
+primal and dual polynomial packings and a constructive proof of the
+existing9/4 exponent. The source is version1, dated October20,2026.
+[AVZ26](https://arxiv.org/html/2610.30054v1), Alimzhan Amanov, Maxim van den
+Berg and Jeroen Zuiddam, gives an all-field exposition and an operational
+barrier for the specified polynomial ingredients and combination rules.
+The source is version1, dated October21,2026. Its formal potentials are
+not asserted to be monotone under arbitrary tensor degeneration.
+
+The [local extension](../research/ai/2026-10-23-pass-operational-barrier/proof.md)
+proves that adding every Pass primal/dual packing preserves all those
+rectangular potentials. The external results and local consequence retain
+separate attribution and evidence status.
+
 Snapshot: October 20, 2026. This map is selective. Each source record states what was inspected and what was not rebuilt.
 
 ## Main lines of work
