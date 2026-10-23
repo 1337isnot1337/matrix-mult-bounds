@@ -2354,3 +2354,18 @@ polynomial-rank-locus note already excluded all four A5 ordinary targets;
 this scan updates the stale minimum-only research queue and retains that
 prior credit. A separate corner-minor note rederives the existing rank
 inequality, without claiming a new general theorem or independent review.
+
+
+## Complete fixed-residual Koszul screening
+
+The [all-leg, all-degree atlas](research/ai/2026-10-23-oblique-koszul-atlas/README.md)
+computes 75 exact matrix ranks for the fixed product-oblique residuals at
+`b=2,3,4`, using integer unit elimination over every field. At `Q(6,4)`,
+the strongest full-space Koszul bound is eleven, below the inherited
+equalizer lower bound twelve. Standard full-space Koszul maps therefore
+do not narrow the border-rank interval `[12,18]` for these fixed maps.
+Arbitrary projections, other flattenings and other maps remain open.
+Claim `EXP-OBLIQUE-KOSZUL-ATLAS-001` is a finite exact experiment; no
+independent review, optimal border rank or exponent improvement follows.
+The construction and equalizer claims retain their original attribution
+and pinned pending-PR147 dependency.

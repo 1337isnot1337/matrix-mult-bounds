@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-23",
+  "prerequisite_pr": 147,
+  "prerequisite_commit": "29a486ac622261c8b4854fc109fb8ab40dcf91a2",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-23-oblique-border-equalizer/verify.py",
+      "sha256": "3d1939941428d7c1bbcf862d2106d4b816b1c4ac328fe4ecbb31e0f3c6577897"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-border-equalizer/proof.md",
+      "sha256": "11f0176c0cc77160ac75a9b928db101ebc56341296352bb1d2eb773548b68872"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-border-repair/full_residual_rank.md",
+      "sha256": "f426d15cfece69fc8063407414a89f36367f5ff04f0d984861bd18c408067db1"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/witness.json",
+      "sha256": "6a5d9ea86903527231b98631557d0cae5cae911812a07b67def83aa844457e95"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/research_note.md",
+      "sha256": "8b9d94db1a1f5be11ad3f4179c790725be13b612a3382fbc7bf7084afb0c280f"
+    }
+  ],
+  "dependency_scope": "The existing product-oblique maps, adapted coefficient convention, equalizer lower bound and standard Koszul definition retain their original attribution. This package computes complete finite ranks without changing those inputs. No external classification or new imported theorem is used.",
+  "historical_priority_claimed": false,
+  "independent_mathematical_review": false,
+  "improves_omega": false
+}
