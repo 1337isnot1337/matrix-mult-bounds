@@ -12,7 +12,8 @@ core with an odd 91-minor, or its transpose.
 For every complete complex Laurent A4 to M(10,10,11) presentation, the
 individually scalar-balanced leading ranks now satisfy a+b,a+c<=133,
 b+c<=136, and a+b+c<=198, where a is the short rank. All earlier
-screens and the implication a=100 => b,c<=28 remain in force. Arbitrary
+screens remain in force. At a=100, the high-threshold result below
+restricts each positive long leading rank to 1 through 12 or 20. Arbitrary
 complex leading kernels, higher coefficients and finite Laurent poles
 remain allowed. The necessary total leading-rank loss is at least 122.
 
@@ -29,6 +30,41 @@ Claims AI-A4-RANK91-LINEAR-SPACE-001 and AI-A4-LEADING-RANK-SUM198-001
 remain written and unreviewed. Internal mathematical audits and exact
 replays are not independent external review or formalization. No
 matrix target or improved exponent is established.
+
+## Sharp source caps through rank 112 and the full-short long-rank gap
+
+The [high-threshold source proof](research/ai/2026-10-23-high-rank-source-caps/proof.md)
+determines maximum complex source-space dimensions 84, 88, 92 and 96
+when every A4 slice has rank strictly below 100, 104, 108 and 112,
+respectively. Complete layer-size cases prove the upper bounds after
+the credited order-ideal reduction. The credited d=3 staircase spaces
+attain all four dimensions; exact new minors show maximum slice ranks
+96, 100, 104 and 108. These strict thresholds cannot be replaced by
+weak inequalities at the same dimension caps.
+
+For every complete complex Laurent A4-to-M(10,10,11) presentation
+with individually balanced short leading rank 100, each long leading
+rank is at most 20. More precisely, each positive long rank belongs
+to {1,...,12,20}. The proof retains arbitrary complex leading kernels,
+higher coefficients and finite poles. The arithmetic endpoint
+(100,20,20) is not a target construction or a sharp-target assertion.
+
+Exact acceptance checks 245,157 nested layer-size profiles at all four
+thresholds, eleven credited coherent minors and four new source minors,
+all 112 literal-source factorizations, all 102 one-leg target decisions,
+and 10,404 full-short pairs. It retains 196 of the preceding 841 full-short
+triples, excluding 645 additional numerical possibilities. Eight focused
+tests cover source and target boundaries, support and minor corruption,
+source pins, retained prerequisites, and claim scope.
+
+Claims AI-A4-RANK100-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK104-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK108-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK112-SHARP-LINEAR-SPACE-001, and
+AI-A4-FULL-SHORT-LONG20-001 remain written and unreviewed. No external
+independent review, formalization, matrix target or improved exponent
+is established. This source package has separate frozen prerequisites;
+the rank91 result above supplies the current global bound.
 
 ## Exact extension criterion for the prescribed full conic third jet
 
@@ -173,8 +209,10 @@ No smaller exponent is established.
 The [new target refinement](research/ai/2026-10-23-leading-rank202/proof.md)
 proves a+b+c<=202 for every complete complex Laurent A4 to M(10,10,11)
 presentation, with a on the short target leg and all three leading ranks
-individually scalar balanced. If a=100, then b,c<=28. The total leading
-target-rank loss is at least 118. Arbitrary complex leading kernels,
+individually scalar balanced. Its earlier conclusion b,c<=28 at a=100
+is refined above. This historical checkpoint gave total leading-rank
+loss at least 118; the current rank91 result strengthens it to 122.
+Arbitrary complex leading kernels,
 higher coefficients and finite Laurent poles remain allowed.
 
 Two [sharp source theorems](research/ai/2026-10-23-rank92-rank96-spaces/proof.md)
@@ -183,13 +221,14 @@ give maximum dimensions 68 below slice rank 92 and 72 below slice rank
 use complete layer-volume cases, the credited order-ideal reduction,
 and exact coherent minors and support covers. Combined with the retained
 every-pair bound of 136 and its all-order support inequalities, these
-caps give the total and full-short refinements above.
+caps give the historical total-202 and full-short-28 refinements.
 
 Exact additional floor constraints exclude 817 further integer pairs
 and 62,478 further triples. Complete exported censuses cover all 20,706
 pairs and 1,050,804 triples in the established rank ranges. The unique
-screened total-202 endpoint is (70,66,66); it is not a target construction
-or a proof that the necessary target bound is sharp. Seven target tests
+endpoint of that historical total-202 screen was (70,66,66), now excluded
+by the rank91 refinement. It was not a target construction or a proof
+that the necessary target bound was sharp. Seven target tests
 and six source tests cover the censuses, strict thresholds, source pins,
 source minors, and scope controls.
 
@@ -205,8 +244,10 @@ The [all-pair theorem](research/ai/2026-10-23-all-pair-rank136/proof.md)
 forces a+b, a+c, and b+c to be at most 136 in every complete complex
 Laurent A4 to M(10,10,11) presentation, where a is the short-leg leading
 rank and each map is individually scalar balanced. Its earlier numerical
-consequences were a+b+c<=204 and, if a=100, b,c<=36; the refinement
-above strengthens them to 202 and 28. The unselected map may have
+consequences were a+b+c<=204 and, if a=100, b,c<=36. The credited202
+checkpoint first strengthened these to 202 and 28. The current bounds
+are total198 and, at short rank100, positive long ranks1 through12 or20.
+The unselected map may have
 arbitrary finite Laurent poles; arbitrary leading kernels and higher
 coefficients remain allowed.
 

@@ -4,10 +4,11 @@ These are proposed investigations, not claimed results. Each task has a concrete
 
 The [rank91 core theorem](../research/ai/2026-10-23-rank91-core/proof.md)
 forces mixed balanced pair sums at most 133 and total leading rank at
-most 198. It retains the long-pair bound 136, all frozen202 exclusions,
-and the implication that short rank 100 forces each long rank at most
-28. Arbitrary complex kernels, higher coefficients and finite Laurent
-poles on the remaining map are allowed. The two surviving total-198
+most 198. It retains the long-pair bound 136 and all frozen202 exclusions.
+The high-threshold continuation below restricts each positive long rank
+to 1 through 12 or 20 when the short rank is 100. Arbitrary complex
+kernels, higher coefficients and finite Laurent poles on the remaining
+map are allowed. The two surviving total-198
 integer triples are (62,66,70) and (62,70,66); neither constructs a
 target presentation. The new source cap is 67 strictly below rank 91,
 without a sharpness claim.
@@ -20,6 +21,18 @@ cap below 64 cannot settle this pair. Determine whether a 64-space can
 satisfy the actual split compression condition. An incidence-preserving
 ideal reduction and explicit row/column cover certificates may help;
 no classification or exclusion at this endpoint is claimed here.
+
+The [high-threshold source maxima](../research/ai/2026-10-23-high-rank-source-caps/proof.md)
+are now 84, 88, 92 and 96 at strict slice-rank thresholds 100, 104,
+108 and 112. Their staircase witnesses rule out smaller universal
+caps at those same thresholds. The complete Laurent target consequence
+at full short leading rank 100 is the necessary long-rank set
+{1,...,12,20}, including the gap 13 through 19. Determine whether any
+surviving ranks admit target-compatible cancellation kernels and the
+complete target equations. The numerical endpoint (100,20,20) is only
+a screen endpoint. This full-short result and the rank91 global
+refinement have separate source proofs; both necessary conditions apply
+in this checkpoint.
 
 The [prescribed third-jet criterion](../research/ai/2026-10-23-conic-fixed-third-obstruction/proof.md)
 now gives order-four and all-order extension exactly on Delta=0, on the

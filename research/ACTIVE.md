@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The current general A4 leading-rank bounds are total at most 198,
+mixed pair sums at most 133, and long-pair sum at most 136, from
+`ai/2026-10-23-rank91-core/proof.md`. If the short leading rank is
+100, `ai/2026-10-23-high-rank-source-caps/proof.md` further restricts
+each positive long rank to 1 through 12 or 20. These are necessary
+conditions for complete Laurent presentations, with no target
+construction or sharp-target assertion. The total-202 package is a
+credited historical screen; its former endpoint is excluded. The
+source cap 67 strictly below rank 91 is not claimed sharp; the
+distinct cap 68 strictly below rank 92 is sharp. All claims remain
+written and unreviewed.
+
 The prescribed full third-jet question is now settled on d nonzero in
 `ai/2026-10-23-conic-fixed-third-obstruction/proof.md`: order-four,
 formal and polynomial extension are equivalent to Delta=0. Off that
@@ -94,13 +106,31 @@ This remains local rank-twelve incidence; no full matrix-target
 construction follows.
 
 
+The high-threshold source continuation is
+`ai/2026-10-23-high-rank-source-caps/proof.md`, on isolated branch
+`research/a4-high-rank-source-caps-20261023`, based on frozen PR176
+at 658e2d5. It proves sharp caps 84/88/92/96 strictly below source
+ranks 100/104/108/112, with exact staircase ranks 96/100/104/108.
+At full short leading rank 100, each positive long leading rank must
+lie in {1,...,12,20}. The numerical endpoint (100,20,20) is not a
+target construction. Complete literal-source, profile, minor and
+full-short integer controls are exported in the new result directory.
+All five claims remain written and unreviewed.
+
+This work preserves every file in the total-202 and rank-92/rank-96
+packages. The rank91 source proof has separate prerequisites and is also
+integrated here; its global198/mixed133/long136 bounds remain current.
+The current source maxima cannot be lowered at the same strict
+thresholds; future work must use other thresholds or extra structure
+of actual cancellation kernels. Entries below retain earlier checkpoints.
+
 The current A4 target refinement is
 `ai/2026-10-23-rank91-core/proof.md`, frozen at
 `36d0eb145ae9e8619e1a03376b367576fb3b7210` on isolated branch
 `research/a4-rank91-core-20261023`. It proves mixed balanced pair sums
 at most 133, retains the long-pair bound 136, and bounds total balanced
-leading rank by 198. Short rank 100 still forces both long leading
-ranks at most 28. The source theorem gives dimension at most 67 when
+leading rank by 198. At short rank 100, the high-threshold continuation restricts
+each positive long leading rank to 1 through 12 or 20. The source theorem gives dimension at most 67 when
 every slice has rank strictly below 91; this cap is not claimed sharp.
 Four equality profiles reduce to eight strip ideals, each containing
 one common 56-coordinate rank91 core or its transpose.
