@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "date": "2026-10-23",
+  "integer_grid_points": 256,
+  "exact_identity": "det R_3,3(x^2+z*(1+x^2)+z^2*(1+t*x+c*x^2))=t*(2*c^3-2*c*t^2+t^4)",
+  "rank_A": 14,
+  "rank_B": 15,
+  "rank_B_determinant": 1,
+  "rank_A_deleted_row": 3,
+  "rank_A_deleted_col": 1,
+  "rank_A_minor_determinant": -4,
+  "characteristics_checked": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    101
+  ],
+  "finite_rectangles_checked": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "command": "python -I research/ai/2026-10-23-three-term-resultant-obstruction/verify.py",
+  "limitation": "All-field determinant identity follows by degree-bounded interpolation; theorem is only same-degree/resultant counterexample in characteristic !=2. No exponent improvement."
+}
