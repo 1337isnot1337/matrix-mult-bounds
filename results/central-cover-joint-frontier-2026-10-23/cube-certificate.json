@@ -1,0 +1,128 @@
+{
+  "group": "SL(2,F5)",
+  "coefficient_field": "F4",
+  "power": 3,
+  "extra_C2": false,
+  "rows": [
+    {
+      "principal_factors": 0,
+      "matrix_weight": 1,
+      "maximum_total_degree": 3,
+      "cutoffs": [
+        0,
+        0,
+        1
+      ],
+      "degree_counts": [
+        4096,
+        12288,
+        12288,
+        4096
+      ],
+      "word_multiplicity": 1,
+      "per_word_slices": 24576
+    },
+    {
+      "principal_factors": 1,
+      "matrix_weight": 2,
+      "maximum_total_degree": 12,
+      "cutoffs": [
+        3,
+        3,
+        4
+      ],
+      "degree_counts": [
+        2304,
+        2048,
+        7168,
+        6144,
+        12032,
+        8192,
+        14336,
+        8192,
+        12032,
+        6144,
+        7168,
+        2048,
+        2304
+      ],
+      "word_multiplicity": 3,
+      "per_word_slices": 65024
+    },
+    {
+      "principal_factors": 2,
+      "matrix_weight": 3,
+      "maximum_total_degree": 19,
+      "cutoffs": [
+        5,
+        6,
+        6
+      ],
+      "degree_counts": [
+        1296,
+        2304,
+        3904,
+        6160,
+        11136,
+        13376,
+        16576,
+        20864,
+        24544,
+        23744,
+        23744,
+        24544,
+        20864,
+        16576,
+        13376,
+        11136,
+        6160,
+        3904,
+        2304,
+        1296
+      ],
+      "word_multiplicity": 3,
+      "per_word_slices": 147680
+    },
+    {
+      "principal_factors": 3,
+      "matrix_weight": 0,
+      "maximum_total_degree": 24,
+      "cutoffs": [
+        7,
+        7,
+        8
+      ],
+      "degree_counts": [
+        729,
+        1944,
+        4158,
+        6776,
+        12450,
+        17976,
+        25630,
+        32472,
+        43239,
+        49040,
+        56100,
+        58704,
+        63036,
+        58704,
+        56100,
+        49040,
+        43239,
+        32472,
+        25630,
+        17976,
+        12450,
+        6776,
+        4158,
+        1944,
+        729
+      ],
+      "word_multiplicity": 1,
+      "per_word_slices": 349644
+    }
+  ],
+  "slice_upper_bound": 1012332,
+  "improves_omega": false
+}
