@@ -24,7 +24,11 @@ An explicit [six-term core degeneration](../research/ai/2026-10-23-oblique-borde
 reduces the added border correction to eighteen scalars, while retaining
 the nineteen-scalar ordinary correction. Its full polynomial maps and
 disjoint-core family are certified; the small core has exact border rank
-six. The whole residual's optimal border rank remains open.
+six. The full residual has ordinary rank exactly nineteen, while the
+[equalizer lower bound](../research/ai/2026-10-23-oblique-border-equalizer/proof.md)
+places its complex border rank between twelve and eighteen. This fixed
+residual's optimal border rank remains open; a correction below twelve
+would require changed source maps.
 The resulting fixed-width family has quadratic first support and does
 not meet the small-repair premise. The zero-auxiliary target
 `Q(6,4) -> M(5,4,5)` remains unconstructed. Useful next work includes

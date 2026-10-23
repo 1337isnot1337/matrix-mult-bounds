@@ -1,5 +1,16 @@
 # Integrated research coordination
 
+The [equalizer follow-up](ai/2026-10-23-oblique-border-equalizer/README.md)
+is on `research/oblique-border-equalizer-20261023`, based on the frozen
+`49904d7` integration below. It proves border lower bound `2r+2` for the
+fixed one-dependency residual and improves the n=6 interval to twelve
+through eighteen. Seven new standard-library tests check all eight
+controls, four source hashes, the unit240 minor and full native identity.
+The earlier implementation and test files remain byte-identical. This
+is an incremental check, not a new complete-suite run. Claim
+`AI-OBLIQUE-BORDER-EQUALIZER-001` is written and unreviewed; optimal
+border rank and better source maps remain open.
+
 PR147 now combines the paired ordinary and border constructions, the exact
 full-residual ordinary-rank proof and the scoped long-map frontier on
 `research/oblique-border-repair-20261023`. Main `3008d70` is integrated.

@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-23-oblique-border-equalizer` package is owner-directed Codex
+continuation from `49904d7`. Four byte-pinned inputs supply the existing
+integer maps, native residual, adapted support bases and border upper
+bound. The method is the established pairwise symmetry Lie-algebra
+condition, equivalently the two-factor 111 test, as described by
+J. M. Landsberg in arXiv:2208.00857v1, Sections 5.4 and 6.1. A complete
+elementary proof states the rectangular-first-leg and all-characteristic
+scope. The local application computes the equalizer dimension exactly
+two for the one-dependency residual family, giving border lower bound
+`2r+2` and the n=6 interval twelve through eighteen. An integer unit
+minor and native coefficient replay certify the finite input. The
+ordinary rank nineteen and all earlier files remain unchanged.
+Same-session checks are not independent mathematical review. Neither
+method novelty, optimal border rank, arbitrary-map optimality,
+formalization nor exponent improvement is claimed.
+
 The `2026-10-23-oblique-longmap-frontier` package is owner-directed Codex
 continuation from `b6c385`. Five byte-pinned local sources retain credit
 for the exact Q(5,4) corner, integer oblique map template, mixed-middle

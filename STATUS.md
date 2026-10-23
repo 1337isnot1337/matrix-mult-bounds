@@ -1,5 +1,24 @@
 # Research status
 
+## Border rank at least twelve for the fixed oblique residual
+
+The [long-leg equalizer proof](research/ai/2026-10-23-oblique-border-equalizer/proof.md)
+raises the full n=6,b=4 residual's border-rank lower bound from eleven
+to twelve. The current complex interval is `12 <= border_rank(E) <= 18`,
+alongside exact ordinary rank nineteen. For the one-dependency family
+`b>=2,n=b+2,r=b+1`, the same coefficient argument gives lower bound
+`2r+2` over every characteristic. The established pairwise symmetry
+condition requires at least `m` equalizing endomorphism pairs at border
+rank at most `m=2r+1`; this residual has exactly two. A unit minor of
+order 240 certifies the n=6 calculation for the actual exported tensor.
+
+Claim `AI-OBLIQUE-BORDER-EQUALIZER-001` is written and unreviewed.
+Seven focused standard-library tests check eight family controls, four
+source hashes, the full native identity and deliberate false certificates.
+The previous maps, implementations, tests and source pins are unchanged.
+The lower bound concerns the fixed residual; optimal border rank,
+improvements from other maps and a smaller exponent remain open.
+
 ## Exact ordinary rank nineteen and an eighteen-scalar degeneration
 
 The [full-residual rank proof](research/ai/2026-10-23-oblique-border-repair/full_residual_rank.md)
@@ -8,8 +27,9 @@ shows that the existing product-oblique residual has ordinary rank exactly
 `2(r-2)` terms each from every proposed decomposition, leaving the core
 of rank seven. The inherited ordinary construction attains this bound
 over every field. Thus the full n=6,b=4 residual has ordinary rank
-exactly nineteen; its complex border rank remains between eleven and
-eighteen. This optimality concerns the fixed residual, not arbitrary
+exactly nineteen; the separate equalizer follow-up above places its
+complex border rank between twelve and eighteen. This ordinary optimality
+concerns the fixed residual, not arbitrary
 source maps. Claim `AI-OBLIQUE-FULL-ORDINARY-RANK-004` is written and
 unreviewed. Seven focused tests check eight family controls, unit support
 minors, the complete exported source contraction and false certificates.

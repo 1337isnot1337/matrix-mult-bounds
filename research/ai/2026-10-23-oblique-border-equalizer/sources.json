@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "49904d734a0309b3ec466a9316a57a6cc2ae2e3d",
+  "local_sources": [
+    {
+      "path": "research/ai/2026-10-23-oblique-paired-repair/witness.json",
+      "sha256": "6a5d9ea86903527231b98631557d0cae5cae911812a07b67def83aa844457e95"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-border-repair/full_residual_rank.md",
+      "sha256": "f426d15cfece69fc8063407414a89f36367f5ff04f0d984861bd18c408067db1"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-border-repair/full-residual-rank-certificate.json",
+      "sha256": "7841a5667014a00d78327231168f73399edb3e7b3bc2c48db762bc1fbc1fb81a"
+    },
+    {
+      "path": "research/ai/2026-10-23-oblique-border-repair/proof.md",
+      "sha256": "6a374fc9a578ac0af407446c5c890eb22fcbbb657b22e104f6b17387db7d3a11"
+    }
+  ],
+  "dependency_scope": "The existing integer source maps, actual residual, adapted unit bases, ordinary rank 19 and formal border upper 18 are inherited unchanged. This package gives only a new lower bound via an explicitly proved closed equalizer condition.",
+  "external_proof_dependencies": [
+    {
+      "author": "J. M. Landsberg",
+      "title": "Secant varieties and the complexity of matrix multiplication",
+      "version": "arXiv:2208.00857v1, 2022-08-01",
+      "url": "https://arxiv.org/pdf/2208.00857.pdf",
+      "location": "Sections 5.4 and 6.1, printed page 9",
+      "original_field": "complex numbers",
+      "scope": "Established pairwise symmetry Lie-algebra condition, equivalently the two-factor 111 test, for minimal border rank. The package supplies the elementary dense-parameter proof for arbitrary first dimension and every characteristic; the method is not claimed as new."
+    }
+  ],
+  "consulted_primary_source": {
+    "authors": [
+      "J. M. Landsberg",
+      "Mateusz Michalek"
+    ],
+    "title": "On the geometry of border rank algorithms for matrix multiplication and other tensors with symmetry",
+    "version": "arXiv:1601.08229v1, 2016-01-29",
+    "url": "https://arxiv.org/abs/1601.08229v1",
+    "location": "Lemma 5.2, page 12",
+    "scope": "Consulted to distinguish valid border substitution from ordinary decomposition-dependent peeling; not used in the equalizer proof."
+  },
+  "new_claim": "AI-OBLIQUE-BORDER-EQUALIZER-001",
+  "historical_novelty_claimed": false,
+  "independent_mathematical_review": false,
+  "formalized": false,
+  "improves_omega": false
+}
