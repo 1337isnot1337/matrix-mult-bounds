@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-resolvent-rank-six` continuation is owner-directed Codex
+work. It retains the fixed-resolvent, cyclic-source and source-unit credits
+of `AI-RESOLVENT-SHARP-MINRANK-001`, with immutable file hashes. The 26
+eight-minor elimination identities, complete low-rank locus, rank-seven
+gap and critical-compression dimension bound are local continuations.
+A separate acceptance program reconstructs the literal source and its
+integral inverse without importing the discovery program. No new external
+theorem is imported. The algebraically closed determinant-pencil argument
+is proved in the note. No independent review, formalization, historical
+priority or exponent improvement is claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

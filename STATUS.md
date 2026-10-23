@@ -1,5 +1,20 @@
 # Research status
 
+## Complete fixed-resolvent rank-six locus and sharp critical compression
+
+The [rank-six continuation](research/ai/2026-10-23-resolvent-rank-six/proof.md)
+classifies the complete rank-at-most-seven locus of the fixed-resolvent W.
+It is a 17-dimensional linear space whose every nonzero matrix has rank six
+and the same six-dimensional image. In particular there is no rank-seven
+matrix. Twenty-six triangular eight-minor identities give an all-field
+certificate. Over algebraically closed fields, two rank109 compression
+factors kill at most one direction, so dim PWC>=111 sharply. The exact
+image condition refines the predecessor's final-layer alignment.
+Claims `AI-RESOLVENT-RANK-SIX-LOCUS-001` and
+`AI-RESOLVENT-CRITICAL-COMPRESSION-002` remain written and unreviewed.
+This classifies the predecessor's open locus; arbitrary singular trajectories,
+larger compression losses and a smaller exponent remain unresolved.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

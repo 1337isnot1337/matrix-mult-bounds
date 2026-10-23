@@ -3,10 +3,14 @@
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-resolvent minimum-rank certificate](../research/ai/2026-10-23-resolvent-minrank/README.md)
-now proves rank six sharply over every field. Its open structural question
-is the rank-six locus and the required kernel/image alignment under two
-rank109 compressions. Check the broader long-map exclusions before
-treating such an aligned compression as a possible matrix target.
+now proves rank six sharply over every field. The
+[complete low-rank locus](../research/ai/2026-10-23-resolvent-rank-six/proof.md)
+is a 17-dimensional linear space with common six-dimensional image; rank
+seven is absent. Two rank109 compressions lose at most one direction over
+algebraically closed fields, sharply. The next structural question is the
+compression-kernel dimension at total rank-loss seven, where the same locus
+still controls every lost direction. Check broader long-map exclusions
+before treating any aligned compression as a possible matrix target.
 
 ## Active paired construction: near-full width four
 
