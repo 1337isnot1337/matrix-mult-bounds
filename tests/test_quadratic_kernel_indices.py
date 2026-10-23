@@ -23,9 +23,16 @@ class QuadraticKernelIndicesTests(unittest.TestCase):
         self.assertEqual(binary['source_maps'], 1722)
         self.assertEqual(binary['fixed_root_criterion_cases'], 504)
         self.assertEqual(sum(binary['index_histogram'].values()), 574)
+        self.assertEqual(binary['minimum_kernel_hankel_ranks'], {'1': 144, '2': 360})
+        self.assertEqual(binary['strictly_low_index_cases'], 144)
+        self.assertEqual(binary['hankel_left_right_nullity_checks'], 1440)
         for field in ('F3', 'F5'):
             self.assertEqual(saved['deterministic_samples']['fields'][field]['source_maps'], 96)
         self.assertEqual(saved['named_source_maps'], 96)
+        self.assertEqual(saved['structural_source_maps'], 24)
+        self.assertEqual(saved['universal_spectrum_controls']['source_maps'], 16)
+        for spectrum in saved['a3_b3_observed_rank_spectra'].values():
+            self.assertEqual(spectrum, [9, 12, 14, 15])
         self.assertFalse(saved['independent_review'])
         self.assertFalse(saved['improves_omega'])
 
@@ -92,6 +99,62 @@ class QuadraticKernelIndicesTests(unittest.TestCase):
         with patch.object(verify, 'source_matrix', return_value=matrix):
             with self.assertRaisesRegex(ArithmeticError, 'source rank mismatch'):
                 verify.check_triple(2, triple, 2, b_values=(3,))
+
+    def test_hankel_left_and_right_kernel_indices(self):
+        # An explicit rank-two minimum vector for x^3 + z^2 at a=5.
+        sequence = [[], [1], [], [0, 0, 0, -1], [], [0] * 6 + [1], []]
+        hankel = [sequence[r:r + 3] for r in range(5)]
+        transpose = [list(row) for row in zip(*hankel)]
+        for prime in (None, 2, 3, 5):
+            for bound, left_expected, right_expected in ((2, 0, 0), (3, 3, 1), (4, 6, 2)):
+                with self.subTest(prime=prime, bound=bound):
+                    left = 5 * (bound + 1) - verify.rank(
+                        verify.polynomial_matrix_coefficients(transpose, bound), prime)
+                    right = 3 * (bound + 1) - verify.rank(
+                        verify.polynomial_matrix_coefficients(hankel, bound), prime)
+                    self.assertEqual(left, left_expected)
+                    self.assertEqual(right, right_expected)
+
+    def test_irreducible_saturation_and_nonconstant_low_branch(self):
+        records = verify.structural_controls()
+        self.assertEqual(len(records), 12)
+        for record in records:
+            witness = record['kernel_witness']
+            if record['name'] == 'odd_valuation_irreducible':
+                self.assertEqual(witness['hankel_rank'], 2)
+                self.assertEqual(witness['degree'], witness['rank_two_lower_bound'])
+                if record['a'] == 2:
+                    self.assertEqual(witness['left_nullities'], {'0': 0, '1': 0})
+            else:
+                self.assertEqual(record['minimal_indices'], [6, 14])
+                self.assertEqual(witness['hankel_rank'], 1)
+                self.assertEqual(witness['root_height'], 1)
+                self.assertEqual(witness['rank_two_lower_bound'], 8)
+                self.assertEqual(record['constant_coefficient_span_rank'], 3)
+                self.assertEqual(record['source_ranks'], {'3': 21, '7': 48})
+
+    def test_corrupt_minimum_kernel_witness_is_rejected(self):
+        triple = [[0, 0, 0, 1], [], [1]]
+        matrix = verify.recurrence_matrix(5, triple, 6)
+        vector = verify.kernel_vector(matrix, 2)
+        vector[0] ^= 1
+        with patch.object(verify, 'kernel_vector', return_value=vector):
+            with self.assertRaisesRegex(ArithmeticError, 'fails the recurrence'):
+                verify.inspect_kernel(5, triple, 2)
+
+    def test_universal_three_by_three_spectrum_and_integer_blocks(self):
+        controls = verify.spectrum_controls()
+        self.assertEqual(controls['source_maps'], 16)
+        for field in ('Q', 'F2', 'F3', 'F5'):
+            self.assertEqual([row['ranks'][field] for row in controls['witnesses']],
+                             [9, 12, 14, 15])
+        certificate = controls['rank_fifteen_integer_certificate']
+        self.assertTrue(certificate['zero_off_block'])
+        self.assertEqual(certificate['determinant'], -1)
+        self.assertEqual([block['determinant'] for block in certificate['blocks']],
+                         [1, 1, 1, -1, 1, 1, 1])
+        self.assertEqual([len(block['matrix']) for block in certificate['blocks']],
+                         [1, 2, 3, 3, 3, 2, 1])
 
     def test_pinned_source_bytes(self):
         sources = json.loads((PACKAGE / 'sources.json').read_text())

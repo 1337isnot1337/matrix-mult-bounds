@@ -269,6 +269,42 @@ in every characteristic. This is also the a=3 biform interval block
 in the prior cyclic-slice unimodularity construction; the displayed
 blocks give a direct check without importing that implementation.
 
+## 7. Four-value containment for balanced quadratic-z sources
+
+For every a=b>=3, every field K, and every nonzero
+f=u(x)+zv(x)+z^2w(x) with coefficient degrees below a, one has
+
+    rank R_(a,a)(f) in
+      {a^2, a^2+a, a^2+2a-1, a^2+2a}.                    (11)
+
+This is a containment statement. It does not assert that all four
+values are attained for every size and field. For a>3 its scope is
+quadratic or lower in z, not all biforms permitted in the source.
+
+To prove (11), normalize the gcd as before. If D=0, the rank is a^2.
+If D=1, the indices sum to a; both are at most a, so the rank is
+ a^2+a. If D=2, then mu1<=a. A rank-one minimum vector would have
+mu1=(a+1)h, forcing h=0 and mu1=0. The rank-two branch forces
+mu1>=a-1. Thus the only possible first indices are 0,a-1,a,
+yielding the last three rank values in (11).
+
+Finally let D>=3. If mu1=0, the other index is aD and the rank is
+ a^2+a. If mu1>0 and the minimum vector has rank one, its positive
+integer root height gives mu1>=a+1. In the rank-two branch,
+
+    mu1>=ceil((a-1)D/2)>=ceil(3(a-1)/2)>=a.
+
+Both indices are then at least a, and the rank is the full retained
+row dimension a^2+2a. This proves the containment in all cases.
+In particular the one-unit-below-full value a^2+2a-1 requires
+primitive degree exactly two and indices (a-1,a+1). Neither a
+higher primitive degree nor a different common factor can supply it.
+
+Determining which listed values actually occur over each field and size
+remains a separate question. No general torsion or curve criterion is
+claimed here; finite attainment probes are kept outside this package's
+acceptance evidence.
+
 The existing source-rank formula still supplies the implications for
 individual biform matrices. No new source-space cap, three-leg tensor
 map, singular degeneration, or exponent estimate follows merely
