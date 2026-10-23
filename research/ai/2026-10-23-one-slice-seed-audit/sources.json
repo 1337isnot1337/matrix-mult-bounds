@@ -1,0 +1,55 @@
+{
+  "snapshot_date": "2026-10-23",
+  "base_commit": "fe602e418743f37a7cfa54d788b64aaf8a9d6095",
+  "external_sources": [
+    {
+      "id": "AL26-SPEEDUP",
+      "authors": [
+        "Josh Alman",
+        "Baitian Li"
+      ],
+      "title": "Asymptotic Rank Speedup Theorems, Revisited",
+      "version": "arXiv:2605.21738v1",
+      "url": "https://arxiv.org/html/2605.21738v1",
+      "inspected": "Theorem 5.1; Propositions 5.3 and 5.4; the distinction from the diagonal-source hypotheses of Theorems 6.1 and 6.2.",
+      "imported_result": "An arbitrary restriction T<=S with a slice of raw rank q and compressed rank s can be augmented by one J_s; the resulting kernel slice yields a direct-sum J_t with t>=q+s-n-m, where n,m are the other target dimensions.",
+      "hypotheses_checked": "Work over C. The starting seed is an ordinary restriction, including its powers. The slice has raw rank 32 and compressed rank 8. The augmented kernel identity is checked entrywise. The other target dimensions are 16 and both become 16^k under powers.",
+      "prior_attribution": "The general one-slice mechanism is external. Proposition 5.4 credits Strassen; the paper relates it to Coppersmith-Winograd speedups.",
+      "scope": "The general-source propositions are used directly; no diagonal-source theorem is applied to Q(5,4). A complete Laurent map is not supplied by this package."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/q54-exact.json",
+      "sha256": "c276a60e4378e02987d153b7a6ac89bd33f4c7a69f25db42a0cb194cbd393248",
+      "use": "Complete prior integer restriction maps; all coefficients are replayed."
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c",
+      "use": "Prior seed proof, polynomial dual, and source/target orientations."
+    },
+    {
+      "path": "research/ai/2026-10-20/research_note.md",
+      "sha256": "3f1de5a7c4209a894b39bc95801af6aa5bf65df85e32379de09271f6c7207e63",
+      "use": "Sections 1-2: scalar axioms for actual symmetrized character profiles and the pointwise minimum P_*."
+    },
+    {
+      "path": "docs/nine_fourths_route.md",
+      "sha256": "f034c9e61a55bdea5f3b4fc5458d3df01489958de7ec5de86a819188aa3a2953",
+      "use": "External attribution and bridge from actual characters to the scalar axioms."
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/critical_coefficient.md",
+      "sha256": "1988a4180bc1a5350f23269665ddf7a35ab4ae0000852af829e8a2240e62342d",
+      "use": "Endpoint exponents and the cyclic source-product identity; no equality of individual oriented source values assumed."
+    }
+  ],
+  "local_contribution": "Apply the attributed one-slice theorem to an explicit corner functional of the prior exact Q(5,4) seed, yielding the all-power actual degeneration with appended J_(8^k) and extracted J_(8^k(2^k-1)^2). Prove a uniform endpoint ceiling for one appended one-slice tensor to a seed power and one-slice extraction. Compare only cyclic products or a feasible equal cyclic scalar assignment, never assume actual oriented character values coincide.",
+  "limits": "No smaller matrix multiplication exponent, actual endpoint character, optimality over broader constructions, or new general speedup theorem is claimed. Multiple slices, successive extractions, other seeds, and additional tensor information remain outside the route ceiling.",
+  "review_status": "Written and unreviewed. Same-session checks are not independent mathematical review.",
+  "complete_laurent_map_supplied": false,
+  "actual_degeneration_via_imported_theorem": true,
+  "formalized": false,
+  "improves_omega": false
+}

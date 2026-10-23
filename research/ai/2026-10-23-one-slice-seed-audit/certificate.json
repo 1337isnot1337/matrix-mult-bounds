@@ -1,0 +1,179 @@
+{
+  "source": "Q(5,4)",
+  "target": "M(4,4,4)",
+  "source_dimensions": [
+    25,
+    32,
+    32
+  ],
+  "target_dimensions": [
+    16,
+    16,
+    16
+  ],
+  "coefficient_ring": "Z",
+  "elimination_field": "Q",
+  "seed_identity": {
+    "source_terms_checked": 400,
+    "target_positions_checked": 4096,
+    "target_nonzero_coefficients": 64,
+    "coefficient_failures": 0
+  },
+  "fixed_seed_initial_slice_kernels": [
+    {
+      "leg": "A",
+      "source_dimension": 25,
+      "two_map_slice_space_rank_over_Q": 25,
+      "kernel_dimension_over_Q": 0
+    },
+    {
+      "leg": "B",
+      "source_dimension": 32,
+      "two_map_slice_space_rank_over_Q": 32,
+      "kernel_dimension_over_Q": 0
+    },
+    {
+      "leg": "C",
+      "source_dimension": 32,
+      "two_map_slice_space_rank_over_Q": 32,
+      "kernel_dimension_over_Q": 0
+    }
+  ],
+  "corner_slice": {
+    "functional_nonzero_coordinates_A_pq": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "raw_permutation_size": 32,
+    "raw_rank_q": 32,
+    "left_compressed_rank": 16,
+    "right_compressed_rank": 16,
+    "both_compressed_rank_s": 8,
+    "factor_column_pairs_B_C": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        27,
+        15
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        31,
+        31
+      ]
+    ],
+    "factor_column_ranks": [
+      8,
+      8
+    ],
+    "selected_long_map_determinants": [
+      1,
+      1
+    ],
+    "factorization_entries_checked": 256,
+    "augmented_raw_slice_rank": 40,
+    "augmented_cancellation_entries_checked": 256,
+    "augmented_cancellation_failures": 0
+  },
+  "powered_formula_controls": [
+    {
+      "k": 1,
+      "raw_rank_q": 32,
+      "appended_slice_s": 8,
+      "target_other_leg_dimension": 16,
+      "guaranteed_extracted_slice_t": 8,
+      "square_matrix_dimension": 4
+    },
+    {
+      "k": 2,
+      "raw_rank_q": 1024,
+      "appended_slice_s": 64,
+      "target_other_leg_dimension": 256,
+      "guaranteed_extracted_slice_t": 576,
+      "square_matrix_dimension": 16
+    }
+  ],
+  "all_power_formula": "M(4^k,4^k,4^k) + J_(32^k+8^k-2*16^k) <=deg Q(5,4)^k + J_(8^k)",
+  "all_power_proof": "README.md, Section 3; Alman-Li v1, Propositions 5.3 and 5.4",
+  "endpoint_comparison": {
+    "h_4": "140/81",
+    "P_star_5_4": "910/81",
+    "integer_separator": 37,
+    "strict_integer_comparisons": [
+      {
+        "claim": "16*sqrt(2) < 23",
+        "left": 512,
+        "right": 529,
+        "relation": "<"
+      },
+      {
+        "claim": "32^(3/4) < 14",
+        "left": 32768,
+        "right": 38416,
+        "relation": "<"
+      },
+      {
+        "claim": "37 < (910/81)^(3/2)",
+        "left": 727542729,
+        "right": 753571000,
+        "relation": "<"
+      }
+    ],
+    "individual_character_values_assumed_equal": false,
+    "equal_cyclic_assignment_survives": true,
+    "actual_endpoint_character_exists_claimed": false
+  },
+  "source_pins_checked": [
+    {
+      "path": "research/ai/2026-10-20-paired-construction/q54-exact.json",
+      "sha256": "c276a60e4378e02987d153b7a6ac89bd33f4c7a69f25db42a0cb194cbd393248"
+    },
+    {
+      "path": "research/ai/2026-10-20-paired-construction/outer_product_injection.md",
+      "sha256": "fb706fb346a0b2540848694f794a86d951d959169eb5aeba2d8ede082ad1c64c"
+    },
+    {
+      "path": "research/ai/2026-10-20/research_note.md",
+      "sha256": "3f1de5a7c4209a894b39bc95801af6aa5bf65df85e32379de09271f6c7207e63"
+    },
+    {
+      "path": "docs/nine_fourths_route.md",
+      "sha256": "f034c9e61a55bdea5f3b4fc5458d3df01489958de7ec5de86a819188aa3a2953"
+    },
+    {
+      "path": "research/ai/2026-10-21-correction-budget/critical_coefficient.md",
+      "sha256": "1988a4180bc1a5350f23269665ddf7a35ab4ae0000852af829e8a2240e62342d"
+    }
+  ],
+  "complete_laurent_map_supplied": false,
+  "actual_degeneration_via_imported_theorem": true,
+  "improves_omega": false,
+  "independent_mathematical_review": false
+}
