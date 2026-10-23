@@ -62,8 +62,10 @@ one constant length-r supporting scheme.
 This strengthens the earlier min(a,b)-wide strip when the symbol rank
 is farther below both format sizes. It remains a pointwise conclusion.
 It does not identify the schemes at two different matrix parameters.
-At the A9 equality rank r=8, Delta=9, so this continuation does not
-strengthen that particular width or close its outstanding family problem.
+At the historical A9 equality rank r=8, Delta=9, so this continuation
+does not strengthen that particular width. Ordinary A9 square sums are
+already excluded by the credited Wronskian application; the generic
+matrix-parameter family problem is separate.
 
 ## 3. Exact full ranks with one fixed short factor
 

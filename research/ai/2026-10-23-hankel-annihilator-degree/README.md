@@ -37,7 +37,8 @@ python -m unittest discover -s tests -p test_hankel_annihilator_degree.py -v
 ```
 
 This remains a pointwise source-slice constraint, with no proved constancy
-over matrix parameters. At A9 and r=8 the strip is still nine units wide.
+over matrix parameters. At the historical A9 and r=8 example the strip is still nine units wide;
+ordinary A9 square sums were already excluded by the Wronskian application.
 No target construction or exclusion, independent review, formalization,
 historical novelty, or smaller exponent is claimed.
 

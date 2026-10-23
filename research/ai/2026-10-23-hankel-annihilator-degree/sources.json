@@ -5,11 +5,15 @@
   "local_dependencies": [
     {
       "path": "research/ai/2026-10-23-hankel-equality/proof.md",
-      "sha256": "5683bc3d2e64738cb200ea21e4927c3b724b26af98c9a8fa610f0a5f6fe2ad13"
+      "sha256": "7016423872ce375504b889675092ed5f94878aa28947416ea235abc656d8135e",
+      "commit": "3ff54caf229359e6c7bef898b07de8558c92ef10",
+      "pin_refresh_reason": "Inspected diff: historical A9 context and a comment corrected; the supporting-scheme theorem and verifier behavior are unchanged."
     },
     {
       "path": "research/ai/2026-10-23-hankel-equality/verify.py",
-      "sha256": "7318c874414683cb22442ecae5e7dd140569f00e8e7a2d0a31c49805c788e631"
+      "sha256": "0627e933037b547735f50ae9fde2fb34a1f113fdd91df676870dacda0a8dc457",
+      "commit": "3ff54caf229359e6c7bef898b07de8558c92ef10",
+      "pin_refresh_reason": "Inspected diff: historical A9 context and a comment corrected; the supporting-scheme theorem and verifier behavior are unchanged."
     },
     {
       "path": "research/ai/2026-10-20-anisotropic-constructions/hankel_symbol_dimension.md",
@@ -25,5 +29,6 @@
   "external_dependencies": "No new external theorem: Gauss lemma and polynomial degree additivity are explained in the proof.",
   "independent_review": false,
   "lean_formalized": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "application_status": "The historical ordinary A9 square sums are already excluded by the credited Wronskian application. No new matrix-target exclusion is claimed by this structural package."
 }

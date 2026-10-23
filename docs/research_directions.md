@@ -278,21 +278,38 @@ The [pencil-degree theorem](../research/ai/2026-10-21-hankel-pencil-degree/proof
 and its [complete application](../research/ai/2026-10-21-hankel-pencil-degree/application.md)
 now close the former ordinary A8 rectangular and square-sum targets.
 Every improving balanced single rectangular shape through a9 is excluded;
-the first necessary-test survivors are at a10. A9's square partition
-(32,6,3) remains unconstructed, with the M32 lifted rank exactly648.
-The next owned algebraic question is equality at that rank. The new
-[kernel-descent strip](../research/ai/2026-10-23-hankel-equality/proof.md)
-forces a constant length-eight scheme for each rank-eight saturated
-slice, but constancy over the whole matrix-parameter family is still
-unproved. Its pointwise conclusion alone does not exclude this target. The
-[primitive-degree continuation](../research/ai/2026-10-23-hankel-annihilator-degree/proof.md)
-widened the strip to min(a(a-r),b(b-r)), with balanced sharpness at
-every 2<=r<a; the width at A9 rank eight remains nine. Singular
-constructions, including the A4 shear completion, remain open and are
-required before any smaller exponent claim.
+the first necessary-test survivors of that screen are at a10. The later
+[Wronskian application](../research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+already excludes every improving ordinary A9 square sum, including the
+historical partition (32,6,3), using its credited higher-input-rank gates.
+Do not treat that historical candidate as an open ordinary-map target.
+
+The new [kernel-descent strip](../research/ai/2026-10-23-hankel-equality/proof.md)
+is a separate pointwise source-structure result: source rank below
+ab*r+min(a,b), at deficient scalar symbol rank r, forces a constant
+length-r scheme for that slice. Constancy over a whole matrix-parameter
+family is not proved, and no new target exclusion is claimed. The
+[primitive-degree count](../research/ai/2026-10-23-hankel-annihilator-degree/proof.md)
+widened the pointwise strip to min(a(a-r),b(b-r)), with balanced
+sharpness for every 2<=r<a. Adding the two moving-variable costs
+remains a separate unproved conjecture, with a declared finite pilot. Singular
+constructions, including the A4 shear completion, remain separate
+questions; the exponent goal still requires an actual construction or a
+complete alternative implication.
 
 The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
 now closes every Laurent order with one regular full-rank long leg and a
 regular invertible source lift of a target identity. Further A4 searches
 must escape at least one of those hypotheses; increasing the other map's
 pole order alone does not suffice. General singular maps remain open.
+
+
+## Nonsplit finite cube degree-model checkpoint
+
+The [October 23 vector-degree continuation](../research/ai/2026-10-23-nonsplit-vector-covers/README.md)
+checks source parity and the common principal cover, replays seven bounded
+class-cover searches and evaluates all 3372 specified integer weight
+vectors. It retains 6155844. The outcome closes only that finite weight
+census; numerical class-cover optimality reports are not proof. A further
+attempt should preserve finer Peirce-corner information, change basis or
+change source power, rather than rerun the unchanged degree model.

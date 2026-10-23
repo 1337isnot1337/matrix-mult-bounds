@@ -1,5 +1,23 @@
 # Integrated research coordination
 
+The deficient-symbol kernel-descent continuation is on
+`research/hankel-equality-20261023` (PR115), with its question in
+`ai/2026-10-23-hankel-equality/QUESTION.md`. Its written unreviewed
+pointwise strip is separate from all matrix-parameter family claims.
+The supporting-degree follow-up is on
+`research/hankel-annihilator-degree-20261023` (PR134). It counts both
+inner ranks exactly, widens the pointwise strip, and separates its
+unproved additive-cost question from the proved maximum bound.
+Ordinary A9 square sums were already excluded by the Wronskian
+application; those exclusions retain their prior credit.
+
+
+The October 23 nonsplit continuation is in
+`ai/2026-10-23-nonsplit-vector-covers/ACTIVE.md`. Exact source parity and
+seven cover replays pass; 3372 primitive weight vectors give no gain over
+6155844. This is a bounded finite outcome, not a class-optimality proof.
+Do not repeat the unchanged census.
+
 The partial-unit-image continuation studies
 `ai/2026-10-23-regular-unit-image/QUESTION.md` on
 `research/regular-unit-image-20261023`. The written all-order argument
@@ -87,9 +105,10 @@ The pencil-degree worker now studies
 bound in the strict5r<2(a+b) range closes the former ordinary A8 targets,
 all balanced single rectangular formats through a9, and every improving
 ordinary A8 square direct sum. The new exact frontier has494 survivors
-through a12, first at a10. A9's square partition(32,6,3) remains a score-
-passing necessary-test candidate at a strict-rank boundary. Its equality
-case and the A4 higher-rank shear completion are the next owned questions.
+through a12, first at a10. The later Wronskian application already
+excludes all improving ordinary A9 square sums, including (32,6,3).
+Pointwise source-gap structure and the A4 higher-rank shear completion
+are separate questions; do not reopen that historical ordinary target.
 The smaller exponent is unproved. PR64 merged at e5bc0bb with equal tested
 and merged trees; its completed local and remote branches are removed.
 

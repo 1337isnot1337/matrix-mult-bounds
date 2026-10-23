@@ -13,7 +13,8 @@ The written unreviewed proof now widens the pointwise constant-scheme strip to
 `min(a(a-r),b(b-r))` and provides quantitative restrictions on moving
 support. The balanced moving-support family is a written sharpness
 control for every 2<=r<min(a,b). No common scheme over a whole lifted
-matrix family is assumed; the A9 square-sum problem remains separate.
+matrix family is assumed. The historical ordinary A9 square sums are
+already excluded by the credited Wronskian application.
 
 Next question: can the two primitive degree costs be added when both
 degrees equal one? The declared forty-case pilot and exact r=n-1
