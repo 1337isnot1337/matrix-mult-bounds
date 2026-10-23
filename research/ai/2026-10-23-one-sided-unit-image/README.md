@@ -1,5 +1,8 @@
 # One-sided partial-unit regularity
 
+**Disposition:** [superseded by stronger concurrent proofs](DISPOSITION.md).
+This scoped derivation is retained on a closed unmerged branch.
+
 The [written proof](proof.md) improves the regular unit-image threshold
 for the canonical A4 to M(10,10,11) degeneration chart from 109 to 107.
 It retains the hypotheses of a regular full-rank long map and a regular
