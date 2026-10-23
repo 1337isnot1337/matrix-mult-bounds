@@ -9,9 +9,14 @@ lattice path proves that the output cardinality and term count force the
 sorted-index sum rule. Claim `AI-ADDITIVE-SUPPORT-RECOGNITION-001` is written
 and unreviewed. Stronger proper restrictions, additional degenerations and
 general linear bases remain separate questions. The score shares its first
-input: already at dimensions2,3, swapping inputs changes13/14 to9/14.
-The accompanying ordered finite census is recorded only after completion.
-No all-weight obstruction or exponent improvement follows.
+input: already at dimensions (2,3), swapping inputs changes 13/14 to 9/14.
+The [complete ordered census](research/ai/2026-10-23-monomial-recognition/README.md)
+checks 24,708 binary and 370,252 ternary candidates at the archived dimension
+cutoffs, including a>b. Both maximum ratios are exactly one, with no exact
+violation; 8,742 and 118,604 unequal-dimension pairs have different orientation
+scores. Claim `EXP-ORDERED-MONOMIAL-CENSUS-001` is a finite experiment with
+the archived whole-convolution/slice-fallback score. No all-weight obstruction
+or exponent improvement follows.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

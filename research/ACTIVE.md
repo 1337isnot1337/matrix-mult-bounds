@@ -3,12 +3,15 @@
 The R6 continuation on `research/monomial-recognition-19de7080` studies
 `ai/2026-10-23-monomial-recognition/proof.md`. Its monotone-path argument
 proves complete whole-convolution recognition under coordinate permutations
-for additive coefficient-one supports. Six focused tests include all63
-nonempty2-by3 supports against brute-force coordinate permutations, all511
-nonempty3-by3 supports against the archived recognizer, and an exact
-input-orientation counterexample. Both ordered finite alphabet censuses and
-the full regression/replay are being recorded. PR118's maintained exact
-ranking retains its separate ownership and credit. No exponent improvement.
+for additive coefficient-one supports. Six focused tests include all 63
+nonempty 2-by-3 supports against brute-force coordinate permutations, all 511
+nonempty 3-by-3 supports against the archived recognizer, and an exact
+input-orientation counterexample. Complete ordered censuses check 24,708
+binary and 370,252 ternary candidates with no score above the source profile.
+All five archive replays pass; the full regression is running. PR187 is a
+draft until validation is complete. PR118's maintained exact ranking retains
+its separate ownership and credit. Stronger proper restrictions and general
+linear bases remain separate questions. No exponent improvement.
 
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
