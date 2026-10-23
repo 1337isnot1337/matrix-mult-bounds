@@ -1,0 +1,347 @@
+{
+  "schema": "s5-peirce-finite-covers-v1",
+  "source_sha256": "40dcecd05a27e473847abedf1c9118969a01e0012bb7bf142747af21f8f11606",
+  "prior_pins": {
+    "results/s5-finite-covers-2026-10-23/certificate.json": "00532eeecd3d28032f829c26cb430f3e842ed91b8f6f152d2fceddb875fd9652",
+    "results/s5-block-filtration-2026-10-21/frontier.json": "6c58e78da9cb70dfcbe5047899c10de16d3524341d26e1424d16df571f103a4f"
+  },
+  "sources": [
+    {
+      "central_rank": 1,
+      "power": 3,
+      "rows": [
+        {
+          "principal_factors": 0,
+          "principal_degrees": [
+            12,
+            8,
+            10,
+            6,
+            6,
+            2,
+            4,
+            0,
+            11,
+            7,
+            5,
+            1,
+            11,
+            7,
+            5,
+            1,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 1,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            1,
+            1,
+            2
+          ],
+          "selected_slices": 147456
+        },
+        {
+          "principal_factors": 1,
+          "principal_degrees": [
+            12,
+            8,
+            10,
+            6,
+            6,
+            2,
+            4,
+            0,
+            11,
+            7,
+            5,
+            1,
+            11,
+            7,
+            5,
+            1,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 5,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            9,
+            13,
+            13
+          ],
+          "selected_slices": 387328
+        },
+        {
+          "principal_factors": 2,
+          "principal_degrees": [
+            12,
+            8,
+            10,
+            6,
+            6,
+            2,
+            4,
+            0,
+            11,
+            7,
+            5,
+            1,
+            11,
+            7,
+            5,
+            1,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 5,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            14,
+            14,
+            14
+          ],
+          "selected_slices": 945264
+        },
+        {
+          "principal_factors": 3,
+          "principal_degrees": [
+            12,
+            12,
+            6,
+            6,
+            6,
+            6,
+            0,
+            0,
+            9,
+            9,
+            3,
+            3,
+            9,
+            9,
+            3,
+            3,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 6,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            17,
+            17,
+            18
+          ],
+          "selected_slices": 2493680
+        }
+      ],
+      "slice_upper_bound": 6638912,
+      "single_target_volume_upper_bound": 2576,
+      "additional_coordinate_exclusions": [],
+      "remaining_shapes": [
+        [
+          13,
+          13,
+          15
+        ],
+        [
+          13,
+          14,
+          14
+        ]
+      ]
+    },
+    {
+      "central_rank": 2,
+      "power": 3,
+      "rows": [
+        {
+          "principal_factors": 0,
+          "principal_degrees": [
+            12,
+            8,
+            10,
+            6,
+            6,
+            2,
+            4,
+            0,
+            11,
+            7,
+            5,
+            1,
+            11,
+            7,
+            5,
+            1,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 1,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            2,
+            2,
+            3
+          ],
+          "selected_slices": 909312
+        },
+        {
+          "principal_factors": 1,
+          "principal_degrees": [
+            12,
+            8,
+            10,
+            6,
+            6,
+            2,
+            4,
+            0,
+            11,
+            7,
+            5,
+            1,
+            11,
+            7,
+            5,
+            1,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 5,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            14,
+            18,
+            18
+          ],
+          "selected_slices": 2382848
+        },
+        {
+          "principal_factors": 2,
+          "principal_degrees": [
+            12,
+            8,
+            10,
+            6,
+            6,
+            2,
+            4,
+            0,
+            11,
+            7,
+            5,
+            1,
+            11,
+            7,
+            5,
+            1,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 5,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            19,
+            19,
+            19
+          ],
+          "selected_slices": 5854752
+        },
+        {
+          "principal_factors": 3,
+          "principal_degrees": [
+            12,
+            12,
+            6,
+            6,
+            6,
+            6,
+            0,
+            0,
+            9,
+            9,
+            3,
+            3,
+            9,
+            9,
+            3,
+            3,
+            12,
+            6,
+            0
+          ],
+          "central_weight": 6,
+          "source_degree_bound": 12,
+          "cutoffs": [
+            23,
+            23,
+            24
+          ],
+          "selected_slices": 15537024
+        }
+      ],
+      "slice_upper_bound": 41159136,
+      "single_target_volume_upper_bound": 6415,
+      "additional_coordinate_exclusions": [
+        [
+          18,
+          18,
+          20
+        ],
+        [
+          17,
+          18,
+          21
+        ],
+        [
+          15,
+          18,
+          24
+        ],
+        [
+          18,
+          19,
+          19
+        ],
+        [
+          17,
+          19,
+          20
+        ]
+      ],
+      "remaining_shapes": [
+        [
+          16,
+          16,
+          25
+        ],
+        [
+          16,
+          19,
+          21
+        ],
+        [
+          14,
+          19,
+          24
+        ],
+        [
+          16,
+          20,
+          20
+        ]
+      ]
+    }
+  ],
+  "source_coefficients_checked": 1728000,
+  "improves_omega": false,
+  "arbitrary_complex_exclusion": false
+}

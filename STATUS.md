@@ -204,6 +204,19 @@ and block certificates and all 227713 allowed bidegree triples. Claim
 `AI-S5-FINITE-COVERS-001` is written and unreviewed. General complex mixing,
 arbitrary higher-source constructions, and the exponent question remain open.
 
+## Finer full-source S5 covers exclude five further coordinate targets
+
+The [full-source refinement](research/ai/2026-10-23-s5-peirce-covers/proof.md)
+lowers the two cube bounds to 6638912 and 41159136, giving one-copy
+single-target volume caps 2576 and 6415. It excludes five more shapes
+for S5 x C2^2, leaving four in the pinned frontier; the two S5 x C2
+shapes, including M(13,14,14), remain open. The verifier checks an
+invertible 120-vector binary basis, all 1728000 original group-trace
+coefficients, and eight explicit covers using finer principal-block
+degrees. Claim `AI-S5-PEIRCE-COVERS-003` is written and unreviewed.
+The complex implication is restricted to the maintained coefficient-one
+coordinate/potential model; no exponent improvement is established.
+
 ## Blockwise modular bounds for S5 central sources
 
 The [central-block proof](research/ai/2026-10-21-s5-block-filtration/proof.md)

@@ -274,6 +274,14 @@ open, along with the two and nine remaining shapes listed in that proof.
 General complex maps and constructions from higher powers are separate
 questions; do not restart the closed one-copy M19 coordinate search.
 
+The [finer full-source covers](../research/ai/2026-10-23-s5-peirce-covers/proof.md)
+lower the caps to abc<=2576 and abc<=6415. They exclude five additional
+two-central-factor shapes, leaving (16,16,25), (16,19,21), (14,19,24),
+and (16,20,20). The one-central-factor frontier is unchanged. Further
+finite-cover work must use the actual source support: the refined
+degrees need not be radical indices, and their triple-degree budget
+must be checked separately from the maximum one-leg degree.
+
 For SL(2,F8), the [modular source bound](../research/ai/2026-10-21-sl2-f8-modular/proof.md)
 now constrains every source power and joint rectangular coordinate target.
 It excludes repeated six-packet-plus-M7 assembly in that class, while all 16

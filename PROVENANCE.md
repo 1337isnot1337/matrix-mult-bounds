@@ -78,6 +78,15 @@ Flanders/Meshulam/de Seguins Pazzis credit through the preceding split-cover
 proof. No independent review, optimality, general complex exclusion,
 historical priority or exponent improvement is claimed.
 
+The `2026-10-23-s5-peirce-covers` package is owner-directed Codex work.
+It treats the prior Peirce basis vectors as candidates and freshly replays
+the entire original S5 trace over F2. The finer degree assignments,
+explicit covers and five additional exclusions are local continuations.
+The finite target argument and external Flanders/Meshulam/de Seguins
+Pazzis input retain their preceding credits. Optional discovery and exact
+acceptance are separate. No independent review, global optimality,
+general complex exclusion or exponent improvement is claimed.
+
 The `2026-10-21-s5-block-filtration` package is owner-directed Codex work.
 It adopts the prior exact S5 modules, radical certificate and its independent
 convolution verifier with their original credit. The central idempotent,
