@@ -118,6 +118,16 @@ total relative to their target dimensions. This covers every finite
 Laurent pole order and every higher regular jet. It is a necessary
 condition, not an existence result for pairs satisfying (4).
 
+The rank budget also applies to the individually scalar-balanced leading
+coefficients of any Laurent presentation. If the two nonzero long maps
+have minimum entry valuations v_B,v_C, replace them by t^(-v_B)B and
+t^(-v_C)C and multiply the third map by t^(v_B+v_C). The complete tensor
+identity is unchanged, both long maps are regular, and (4) applies.
+Thus every formal candidate has balanced long leading ranks summing to
+at most192, in particular at least one is at most96. This normalization
+is elementary and also used in concurrent PR113; no new balancing
+principle or independent credit for it is claimed.
+
 ## 4. A mixed short/long frontier
 
 Now suppose the maps to target legs 100 and 110 are regular, of ranks
@@ -161,5 +171,5 @@ rank-2m endpoint controls. It exhausts the 12321 long/long and 11211
 short/long integer rank pairs, using only certified bounds. The symbolic
 proof establishes the arbitrary-complex-map and all-order quantifiers;
 the finite controls do not formalize those statements or review them
-independently. Lower-rank regular pairs, two polar maps, and the full
-matrix construction remain open. The exponent remains9/4.
+independently. Lower balanced-rank pairs and the full matrix construction
+remain open. The exponent remains9/4.

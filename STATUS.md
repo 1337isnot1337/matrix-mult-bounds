@@ -13,8 +13,9 @@ regular map, the same tests leave sixteen explicit rank pairs of total
 rank at least193. Ten coordinate compressions, five strict-threshold
 controls and23532 integer rank pairs replay exactly. Claims
 `AI-REGULAR-COMPRESSION-KERNEL-001` and `AI-A4-REGULAR-LEG-FRONTIER-002`
-are written and unreviewed. Lower-rank pairs and two-polar-map charts remain
-open. No target or smaller exponent is established.
+are written and unreviewed. Scalar balancing extends the long-pair budget
+to every Laurent presentation, forcing at least one balanced long leading
+rank to be at most96. Lower-rank pairs remain open. No target or smaller exponent is established.
 
 ## Nonsplit vector-degree continuation: no finite bound gain
 

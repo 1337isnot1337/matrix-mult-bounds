@@ -6,6 +6,9 @@ the canonical A4 source to reach M(10,10,11). If both maps to the two
 most192. Their total rank loss is therefore at least28. The remaining
 map may have arbitrary Laurent poles, and both regular maps may have
 arbitrary higher jets and complex input mixing. No target unit is chosen.
+Individually balancing both long maps by scalar powers of t extends the
+rank budget to their leading coefficients in every Laurent presentation;
+at least one balanced long leading rank is therefore at most96.
 
 The argument combines the prior source locus below twice minimum matrix
 rank with the prior saturated target-support inequality. These older

@@ -299,7 +299,8 @@ most192. A search with both long maps regular must enter that rank region;
 increasing the remaining Laurent pole order cannot evade the bound. With
 one regular short and one regular long map, the sixteen high-total-rank
 survivors are (100,100..107) and (90..97,110). They pass necessary tests
-only. Smaller rank pairs, two polar maps and exact target construction
+only. Individual scalar balancing extends the long-pair budget to every
+Laurent presentation. Smaller rank pairs and exact target construction
 remain open. This gate does not choose or assume a regular target unit.
 
 ## Nonsplit finite cube degree-model checkpoint
