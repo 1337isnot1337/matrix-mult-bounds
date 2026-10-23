@@ -1,0 +1,48 @@
+{
+  "focused_test_count": 6,
+  "focused_test_seconds": 22.931736,
+  "complete_acceptance_seconds": 5.057812,
+  "status": "passed",
+  "focused_run": "Producer run; same unittest module suite with an external timing wrapper, one complete acceptance cached in setUpClass.",
+  "environment": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "local_environment": "PYTHONPATH=/workspace/scratch/814d3d40fe43/mathdeps"
+  },
+  "reproduction_commands": [
+    "python research/ai/2026-10-23-conic-fixed-two-curve/construct.py results/local/conic-fixed-two-curve.json",
+    "python research/ai/2026-10-23-conic-fixed-two-curve/verify.py results/conic-fixed-two-curve-2026-10-23/polynomial-curve.json --output results/local/conic-fixed-two-verification.json",
+    "python -m unittest discover -s tests -p test_conic_fixed_two_curve.py -v",
+    "git diff --check"
+  ],
+  "timing_method": "time.monotonic around TextTestRunner.run(defaultTestLoader.loadTestsFromModule); complete acceptance measured inside the unchanged test class setUpClass.",
+  "coverage": [
+    "Complete literal 4096-term source; every required kernel coefficient at all product orders t^0 through t^17",
+    "352800 kernel coefficient positions; leading full source contraction and unit minors 1,1,-1",
+    "Exact equality of every full B0,B1,B2,C0,C1,C2 entry and Y1=Y2=0 to pinned PR107 witness",
+    "Complete degrees 8 and 9; Laurent parameter pole bounds 5 and 6, with d nonzero",
+    "Exact regeneration of every full coefficient from the polynomial projection formulas",
+    "Changed prescribed second coefficient and kernel parametrization rejected before complete source replay",
+    "Changed last C9 coefficient is invisible at order9 and has a nonzero kernel residual at order10",
+    "Invalid coefficient rings, chart and degree metadata rejected",
+    "Exact source term equality and credited source byte pins"
+  ],
+  "same_session_audit": {
+    "review_status": "Internal algebra and implementation audit only, not independent mathematical review",
+    "focused_test_count": 6,
+    "focused_test_seconds": 20.968,
+    "separate_reconstruction_seconds": 2.381,
+    "checks": [
+      "Separately written standard-library sparse Laurent arithmetic reconstructed projection residuals, both kernel factorizations and gauge cancellation without constructor, verifier or SymPy imports",
+      "Every coefficient of B0..B8 and C0..C9 matched the saved witness; exact minimum d powers were -5 and -6",
+      "Full first and second maps and zero kernel corrections matched; residuals vanish through order2",
+      "Written proof, source pins and focused test scope read with no material issue found"
+    ]
+  },
+  "log": "results/conic-fixed-two-curve-2026-10-23/focused-tests.log.gz",
+  "timing_receipt": "results/conic-fixed-two-curve-2026-10-23/timing.json",
+  "full_repository_regression": "Separate integration gate, not claimed in this focused report",
+  "independent_mathematical_review": false,
+  "matrix_target_constructed": false,
+  "exponent_improvement": false
+}
