@@ -8,6 +8,15 @@ and singular gluing cases give necessity. This narrows future work to
 linear families, other ground fields with genuinely new order bounds,
 and compatibility across tensor legs. Repeating the old sixteen rational
 sign lifts adds no evidence; they do not contain the new witnesses.
+The [explicit split/double family](../research/ai/2026-10-23-quadratic-split-attainment/proof.md)
+settles balanced four-rank attainment over every algebraically closed
+field and computes the corresponding rectangular ranks. The remaining
+arithmetic question concerns specified ground fields, especially cases
+not supplied by a ground-field root of unity or positive characteristic.
+The prior sixteen rational sign lifts did not provide an order-five model;
+reopening that route requires a different support or construction. Keep
+geometric rank14 linear-family bounds and compatible tensor maps distinct
+from this one-slice attainment result. Claims remain written and unreviewed.
 
 The [quadratic linear-space bounds](../research/ai/2026-10-23-quadratic-linear-spaces/proof.md)
 now make the individual R_(3,3) spectrum constrain a source subspace:

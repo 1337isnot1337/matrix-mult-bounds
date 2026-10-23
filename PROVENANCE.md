@@ -14,6 +14,16 @@ rank criterion. Discovery used elliptic-curve translation as a search aid;
 acceptance checks the displayed coefficient identities directly and does
 not import a Tate-normal-form assertion. No independent review,
 formalization, historical-priority claim or exponent improvement follows.
+The `2026-10-23-quadratic-split-attainment` package is owner-directed
+OpenAI Codex work. The merged quadratic kernel-index and dichotomy
+packages retain credit for the rank formula and four-value containment;
+the torsion package retains its geometric interpretation and binary-field
+classification. The local additions solve the split and doubled recurrences
+explicitly, including every endpoint, determine their rectangular ranks,
+and give all-size attainment over algebraically closed fields. The finite
+controls are corroboration, not a substitute for the arbitrary-size proof.
+Same-session proof checks and exact arithmetic do not establish independent
+mathematical review, formalization, historical priority or an exponent gain.
 
 The `2026-10-23-quadratic-linear-spaces` package is owner-directed OpenAI
 Codex work. It credits the merged quadratic kernel-index and dichotomy
