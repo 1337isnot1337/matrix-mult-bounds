@@ -20,7 +20,11 @@ frontier, support-count, and coefficient-matrix controls are recorded in
 improvement is established. A separate exact bidegree atlas gives full
 column rank through `p=6` at `a=3` and rank `57185/57915` at `p=7`, with
 kernel dimension `730`; it is a finite pilot, not an all-size formula. See
-`results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json`.
+`results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json`. A further
+finite control gives full rank modulo two, hence over `Q`, at `(a,p)=(4,5)`:
+`1,572,480` columns in 524 bidegree blocks. This single point adds no
+all-size conclusion; see
+`results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json`.
 
 ## Sharp rank six in the fixed-resolvent matrix space
 

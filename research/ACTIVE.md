@@ -9,7 +9,8 @@ at most `a-1` interpolation blocks. At `p=a+1`, it dominates both target
 long-leg ranks for four `a=15` and six `a=16` survivors, but neither rank for
 the other survivors. A finite exact atlas for `a=3` is injective through `p=6`
 and has rank `57185/57915` at `p=7`. The general higher-degree ranks remain
-open. Modular source ranks are lower bounds, not complex source upper
+open. A further exact bidegree control has full rank modulo two at `(a,p)=(4,5)`
+across 524 blocks; it is a finite check only. Modular source ranks are lower bounds, not complex source upper
 bounds. This is separate from active singular-unit, group-source and
 boundary work.
 

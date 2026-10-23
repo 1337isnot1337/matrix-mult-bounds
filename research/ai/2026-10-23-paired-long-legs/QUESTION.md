@@ -51,3 +51,11 @@ the longer injective range at `a=3` and determine its general boundary.
 The script and replayed report are
 `rank_atlas.py` and
 `results/paired-long-legs-2026-10-23/graded-rank-atlas-a3.json`.
+
+A further finite control at `(a,p)=(4,5)` has full rank `1,572,480` modulo
+two across 524 original bidegree blocks, certifying full rational rank. This
+is one more finite injectivity point; it does not establish an all-size
+boundary or a general formula. The replayed report is
+`results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json` and can be
+recomputed with
+`python research/ai/2026-10-23-paired-long-legs/rank_atlas.py --a 4 --powers 5 --output results/paired-long-legs-2026-10-23/graded-rank-atlas-a4-p5.json`.

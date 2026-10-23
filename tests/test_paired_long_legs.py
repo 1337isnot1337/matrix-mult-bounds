@@ -95,6 +95,18 @@ class PairedLongLegTests(unittest.TestCase):
         self.assertEqual(actual, saved)
         self.assertEqual(saved["records"][-1]["kernel_dimension_over_q"], 730)
 
+    def test_saved_a4_p5_full_rank_control(self):
+        saved = json.loads(
+            (RESULTS / "graded-rank-atlas-a4-p5.json").read_text()
+        )
+        record = saved["records"][0]
+        self.assertEqual((record["a"], record["p"]), (4, 5))
+        self.assertEqual(record["bigrade_blocks"], 524)
+        self.assertEqual(record["domain"], 1_572_480)
+        self.assertEqual(record["rank_mod_2"], record["domain"])
+        self.assertEqual(record["rank_over_q"], record["domain"])
+        self.assertEqual(record["kernel_dimension_over_q"], 0)
+
 
 if __name__ == "__main__":
     unittest.main()
