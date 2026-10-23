@@ -1,5 +1,27 @@
 # Research status
 
+
+## Exact all-field ranks for quadratic-z slices with constant endpoints
+
+The [quadratic-z middle-polynomial theorem](research/ai/2026-10-23-quadratic-z-middle/proof.md)
+classifies every literal cyclic-source slice
+`f(x,z)=alpha+v(x)z+gamma z^2` for nonzero constant alpha,gamma, any
+polynomial v of degree below a, any field, a>=2 and b>=3. Writing
+d=deg(v), with d=0 for v=0, its exact rank is
+`ab+min(b,ceil(a/2)*d)+min(b,floor(a/2)*d)`.
+The proof identifies the entire left kernel with two central polynomial
+seeds satisfying separate degree bounds, and exports an explicit basis.
+A literal-matrix finite-field verifier passes 580 exhaustive and
+960 seeded cases, 135 spectrum checks and 940 kernel vectors; an
+independent term-placement rational verifier passes 36 cases and
+105 exact rational kernel vectors. Claim `AI-QUADRATIC-Z-MIDDLE-RANK-001`
+is proof-written-unreviewed. PR209's row-polynomial method and the
+broader quadratic question remain credited; this constant-endpoint
+subfamily is distinct from PR207's diagonal-polynomial family.
+Nonconstant outer coefficients, three-leg target maps and any exponent
+improvement remain open.
+
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)
