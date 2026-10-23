@@ -1,5 +1,7 @@
 # Integrated research coordination
 
+The October 23 three-term biform continuation is in ai/2026-10-23-three-term-resultant-obstruction/proof.md. The exact R_(3,3) determinant t(2c^3-2ct^2+t^4) provides two characteristic-not-two coefficient triples with identical degrees and all pairwise resultants equal to one but ranks 14 and 15. An integral row kernel, determinant-one control, -4 minor, and 256-point exact determinant certificate are retained. The next problem is computing the two polynomial-kernel minimal indices for u*lambda_r+v*lambda_(r+1)+w*lambda_(r+2)=0 and finding the additional subresultant/syzygy invariants that control rank. This is separate from PR207 diagonal Toeplitz and superseded PR209 affine-in-z work, and is not an exponent improvement.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order
