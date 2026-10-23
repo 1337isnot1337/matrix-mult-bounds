@@ -9,11 +9,23 @@ histories, current main and previous integration corrections remain ancestors.
 The previous durable publication is
 `dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82`; its
 [publication receipt](publication_170_verified.json) remains unchanged. Main is
-`6e11f7c1dfd73ae2d460e43f620a7f982920f043`. The intermediate 171-source
+`a510bec4627043b35bac0ad4b19bb617446e8949`. The intermediate 171-source
 metadata commit `42363c18136a75a1a1e35b65b21c243a764a23ba` was prepared but
 never published. Its [exact guide and prior audit history](https://github.com/1337isnot1337/matrix-mult-bounds/blob/42363c18136a75a1a1e35b65b21c243a764a23ba/docs/consolidation/2026-10-23/PUBLICATION.md)
 remain available by immutable commit reference. Earlier revision-named receipts
 also remain in this directory; their original revision scopes are unchanged.
+
+## Current-main reconciliation
+
+PR218 independently merged exact captured f006 at 2026-10-23 18:50:16 UTC.
+Its squash `a510bec4627043b35bac0ad4b19bb617446e8949` has the same entire tree as
+the archived source and parent `6e11f7c1dfd73ae2d460e43f620a7f982920f043`.
+The [merge receipt](main_a510_merge_log.json) verifies both identities. A real
+two-parent merge retains all resolved content while adding actual-main ancestry.
+The complete active tree remains identical to the passing 172-source candidate;
+no source, claim, test or dependency changes were needed and no tests were rerun.
+The [current provenance](main_a510_source_provenance.json) preserves the actual
+merged PR record; prior conditional retirement plans remain historical.
 
 ## Captured work and preservation
 
@@ -86,13 +98,17 @@ Current-head hosted CI must still run the full Python matrix, archive replay and
 finite scalar-profile Lean build. Main merging remains subject to these checks
 and repository discussion gates.
 
-## Cleanup checkpoint
+## Cleanup outcome
 
-The completed checkpoint remains **131 source branches deleted and 102 source
-PRs closed as superseded**. PR215 and PR217 independently merged into main and
-are counted separately. Previous closure/deletion receipts remain unchanged.
-The [final retirement plan](balanced_followup_retirement_plan.json) concerns
-PR218 and its one remaining source branch. Closure and exact-lease deletion
-require a durable replacement containing exact f006, its recovery tag, and fresh
-source, PR and dependency checks. This record does not claim that the final
-closure or deletion has occurred. A concurrent advance retains its newer work.
+The completed maintenance checkpoint is **131 source branches deleted and 102
+source PRs closed as superseded**. PR215, PR217 and PR218 independently merged
+into main and are counted separately. Four source names were already absent
+when checked and are not counted as our deletions. The [verified final source
+outcome](main_a510_retirement_outcome.json) records PR218's actual merge and its
+source branch's absence. The final captured remote inventory contains only
+`main` and `consolidation/all-branches-20261023`.
+
+All 172 source snapshots remain recoverable from exact archive tags. The previous
+conditional PR218 retirement plan remains unchanged as a historical checkpoint;
+no further source closure or deletion is pending in this captured scope. Merging
+PR214 remains subject to current-head hosted CI and repository discussion gates.

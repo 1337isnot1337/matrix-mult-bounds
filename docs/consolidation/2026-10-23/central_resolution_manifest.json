@@ -382,11 +382,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "sha256": "bb51c3c9d63b0871a6c12e4bdfb8e5f6fbee5d95f62007843bbba6bbf56b473f",
+      "sha256": "402d466f79fed9a8b33b6c795a477b74ef063a8f84a93157afe23e9276d25bea",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
-      "report": "balanced_followup_packaging_resolution.json"
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/README.434178af.md",
@@ -694,11 +694,11 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "19013ac2048cf2918c181623108f7a3924d4659d9347d48452926aa70020b9e5",
+      "sha256": "c887305be4554454e989ef8845b166dd363093e11fa120e508fa629912a1916c",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
-      "report": "balanced_followup_packaging_resolution.json"
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.0bddc6e8.json",
@@ -1291,6 +1291,54 @@
           "reason": "Preserve exact historical or revision-bound evidence bytes; deterministic gzip is recorded where used."
         }
       ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/main_a510_merge_log.json",
+      "sha256": "89232811380cae50406a93a23f885f82132bed52a392c826ee06be5bc85d5976",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/main_a510_merge_log.json",
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/main_a510_publication_equivalence.json",
+      "sha256": "691a2e52324079a0fc5248fe3f16c24719fb7dc6281f142de4cffcbb0bd2da56",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/main_a510_publication_equivalence.json",
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/main_a510_retirement_outcome.json",
+      "sha256": "ad0a972db246a8a08cfeed2384b130abb67123ab9ea219fb74cc820213bd55fa",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/main_a510_retirement_outcome.json",
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/main_a510_source_provenance.json",
+      "sha256": "506fe370845f95622ce0a06122f6b715056da372bb5fea93d3991ac6d788c0df",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/main_a510_source_provenance.json",
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/main_a510_transport.json",
+      "sha256": "aae04d0508b6a07016187814fb5ee034f522bae786f9bfeb52b865f0df8d91bd",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/main_a510_transport.json",
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/main_advance_a510_capture.json",
+      "sha256": "268f7a261c8cbb1337cc7e6f033a2cccc304a03fcd39b782a3a801e57f342dc4",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/main_advance_a510_capture.json",
+      "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts.",
+      "report": "main_a510_packaging_resolution.json"
     },
     {
       "path": "docs/consolidation/2026-10-23/nextwave_concurrent_claim_report.json",
@@ -34528,6 +34576,44 @@
         "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts."
       },
       "reason": "Explicit metadata-only final publication update."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "sha256": "bb51c3c9d63b0871a6c12e4bdfb8e5f6fbee5d95f62007843bbba6bbf56b473f",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+        "report": "balanced_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "sha256": "402d466f79fed9a8b33b6c795a477b74ef063a8f84a93157afe23e9276d25bea",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+        "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts."
+      },
+      "reason": "Actual-main and completed source-retirement metadata."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous": {
+        "path": "docs/consolidation/2026-10-23/branches.json",
+        "sha256": "19013ac2048cf2918c181623108f7a3924d4659d9347d48452926aa70020b9e5",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/branches.json",
+        "reason": "Final172-source evidence packaging; source audit and tests remain bound to98c34d5c. Earlier metadata remains exact in ancestor42363c18 and revision-named receipts.",
+        "report": "balanced_followup_packaging_resolution.json"
+      },
+      "replacement": {
+        "path": "docs/consolidation/2026-10-23/branches.json",
+        "sha256": "c887305be4554454e989ef8845b166dd363093e11fa120e508fa629912a1916c",
+        "source_commit": null,
+        "source_path": "docs/consolidation/2026-10-23/branches.json",
+        "reason": "Record independently merged PR218, verified absent source branch and actual-main ancestry; preserve all tested active bytes and earlier receipts."
+      },
+      "reason": "Actual-main and completed source-retirement metadata."
     }
   ],
   "inputs": {
@@ -34553,7 +34639,8 @@
     "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_integration_resolution.json": "9d6041e12f4aa6bb7be22a5e0702fb091ba6ae41935863821294758ce07f8d59",
     "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_pin_resolution.json": "32b89bebd77e74e628bca0704110cdaad049cf6b155921f3c3215906b241e28d",
     "/dev/shm/matrix-consolidation-5e4a124ebf61/balanced_followup_output/resolution_report.json": "caeedcfee10d18b1e745823a8f1682bc9f63bbd480d0ba586320c3d9655a5d8b",
-    "balanced_followup_packaging_resolution.json": "afe38f082612fe733e29e396a237a4366fb2771d9756ab4ccbcf1be35dba1524"
+    "balanced_followup_packaging_resolution.json": "afe38f082612fe733e29e396a237a4366fb2771d9756ab4ccbcf1be35dba1524",
+    "main_a510_packaging_resolution.json": "3d1c551c766e19d2533b8ac4fadc5bbe21a7debd228723d39a29a71f50b84dae"
   },
   "method": "Preserve every prior reviewed resolution,612 unchanged claim records and all614 status flags. Apply the exact two authored claim fields and source-exact extended verifier/test/control/proof bytes, with one explicit context README digest repair and exact originals retained.",
   "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
@@ -34562,7 +34649,7 @@
   "topic_branch_names": 138,
   "receipt_hash_scope": "The current central manifest, preservation receipt and evidence index cannot contain their own hashes. Their exact bytes and metadata-only publication transitions are verified by the external transfer/equivalence receipt and evidence index; historical copies remain hash-checked outputs.",
   "prior_reviewed_union": "42363c18136a75a1a1e35b65b21c243a764a23ba",
-  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "current_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
   "concurrent_remote_history": "434178af88a16a3d13e9db60dd97453207dbf2b2",
   "latest_source": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
   "final_packaging": {
@@ -34571,6 +34658,9 @@
     "previous_published_head": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
     "prior_metadata_commit": "42363c18136a75a1a1e35b65b21c243a764a23ba",
     "only_changed_directory": "docs/consolidation/2026-10-23/",
-    "output_hashes_checked": true
-  }
+    "output_hashes_checked": true,
+    "current_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "prior_candidate": "12249713f5b347fcaff3de333147243615440280"
+  },
+  "current_main_reconciliation": "main_a510_merge_log.json"
 }

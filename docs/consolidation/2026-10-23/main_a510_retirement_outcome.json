@@ -1,0 +1,85 @@
+{
+  "schema": "matrix-main-a510-retirement-outcome-v1",
+  "prepared_at_utc": "2026-10-23T18:58:32.909354+00:00",
+  "repository": "1337isnot1337/matrix-mult-bounds",
+  "scope": {
+    "topic_names": 138,
+    "source_snapshots": 172,
+    "claims": 614,
+    "concurrent_5d_and_434_histories_counted_separately": true
+  },
+  "input_hashes": {
+    "main_advance_a510_capture.json": "268f7a261c8cbb1337cc7e6f033a2cccc304a03fcd39b782a3a801e57f342dc4",
+    "main_a510_transport.json": "aae04d0508b6a07016187814fb5ee034f522bae786f9bfeb52b865f0df8d91bd",
+    "balanced_followup_source_provenance.json": "d349fee2bb32c7f66b5e5f8e14ef88043795399216e1e7a99895e513c40b5866",
+    "balanced_followup_retirement_plan.json": "7eb8f0fe61a802d033c99e992920edc982bcc96757a526b1d364dc6e16227846",
+    "publication_170_verified.json": "021e7f1c000aa6b349974c0b912136118689b5a48b57d6b59ffd58c18f41a2a0",
+    "archives_172_complete_verification.json": "0ccba83627ba97a724903baf07088b4d97ca5efeb92f5b918ef943119767b3fc"
+  },
+  "source_provenance_file": "main_a510_source_provenance.json",
+  "source_provenance_sha256": "506fe370845f95622ce0a06122f6b715056da372bb5fea93d3991ac6d788c0df",
+  "superseded_conditional_plan": "balanced_followup_retirement_plan.json",
+  "prior_conditional_plans_preserved_unchanged": true,
+  "PR218_actual_outcome": {
+    "disposition": "independently_merged_into_main",
+    "merged_at": "2026-10-23T18:50:16Z",
+    "source_head": "f00613b057cc4437fad4d10e22f1b6c8cc891872",
+    "merge_commit": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "state": "closed",
+    "draft_at_merged_capture": false,
+    "not_closed_as_superseded_by_this_consolidation": true,
+    "original_full_record_file": "main_a510_source_provenance.json"
+  },
+  "source_branch_actual_observation": {
+    "branch": "research/quadratic-kernel-indices-01a1697d",
+    "absent": true,
+    "recorded_at": "2026-10-23 18:57:34 UTC",
+    "absence_does_not_identify_deletion_actor": true,
+    "root_deletion_requested_or_claimed_in_this_addendum": false
+  },
+  "cleanup_accounting": {
+    "source_branches_deleted_by_this_consolidation": 131,
+    "source_PRs_closed_as_superseded_by_this_consolidation": 102,
+    "independently_merged_PRs": [
+      215,
+      217,
+      218
+    ],
+    "previously_absent_topic_names": 4,
+    "PR218_counted_as_root_superseded_closure": false,
+    "quadratic_branch_absence_counted_as_root_deletion": false,
+    "counts_source": "Root verified retirement accounting; latest independent merge/absence evidenced in main_advance_a510_capture.json."
+  },
+  "remaining_branches_at_capture": [
+    {
+      "name": "consolidation/all-branches-20261023",
+      "commit": {
+        "sha": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+        "url": "https://api.github.com/repos/1337isnot1337/matrix-mult-bounds/commits/dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "a510bec4627043b35bac0ad4b19bb617446e8949",
+        "url": "https://api.github.com/repos/1337isnot1337/matrix-mult-bounds/commits/a510bec4627043b35bac0ad4b19bb617446e8949"
+      },
+      "protected": true
+    }
+  ],
+  "pending_source_PR_closures": [],
+  "pending_source_branch_deletions": [],
+  "remaining_work": "Publish the reviewed172-source consolidation with real a510 main ancestry, verify all178 prior archives plus the new integration tag, then satisfy final-head hosted CI and current-main/review gates before merging PR214.",
+  "audit_expectations": {
+    "current_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+    "current_public_consolidation_before_final_publication": "dcd18b0cb9cc00b8a7394f78b36d53c7e35d6b82",
+    "expected_final_publication_head": null,
+    "expected_source_PR218_state": "closed_and_merged",
+    "expected_source_branch_absent": true,
+    "prior_archive_refs": 178,
+    "expected_after_new_integration_archive": 179,
+    "fresh_final_inventory_required": true
+  },
+  "remote_mutations_performed": false
+}

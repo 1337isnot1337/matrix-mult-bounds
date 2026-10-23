@@ -10952,15 +10952,17 @@
     }
   ],
   "concurrent_integration_corrections_are_separate_from_topic_counts": true,
-  "current_main": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
-  "current_main_reconciliation": "main_advance_6e11f7c1_merge_log.json",
+  "current_main": "a510bec4627043b35bac0ad4b19bb617446e8949",
+  "current_main_reconciliation": "main_a510_merge_log.json",
   "main_at_snapshot_is_historical": true,
   "live_catchup_source_capture": "live_catchup_frozen_heads.json",
   "later_concurrent_integration_capture": "concurrent_434_capture.json",
   "later_concurrent_integration_archive_receipt": "archive_concurrent_434.json",
-  "latest_verified_source_pull_request_snapshot": "balanced_followup_source_provenance.json",
+  "latest_verified_source_pull_request_snapshot": "main_a510_source_provenance.json",
   "latest_retirement_plan": "balanced_followup_retirement_plan.json",
   "quadratic_followup_capture": "quadratic_c7_capture.json",
   "structural_followup_capture": "quadratic_80bd_capture.json",
-  "balanced_followup_capture": "quadratic_f006_capture.json"
+  "balanced_followup_capture": "quadratic_f006_capture.json",
+  "latest_retirement_outcome": "main_a510_retirement_outcome.json",
+  "final_source_retirement": "PR218 independently merged exact captured f006; source branch subsequently absent. Earlier conditional plan remains historical."
 }
