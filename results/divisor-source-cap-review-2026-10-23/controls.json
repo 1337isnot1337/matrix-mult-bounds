@@ -1,0 +1,116 @@
+{
+  "boundaries": {
+    "a4_excluded_coranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "nondivisor_pair_rank": 34
+  },
+  "divisor_pairs": [
+    {
+      "a": 2,
+      "d": 1,
+      "minimum_pair_rank": 6,
+      "orbits": 2,
+      "pairs": 2,
+      "required_rank": 6
+    },
+    {
+      "a": 3,
+      "d": 1,
+      "minimum_pair_rank": 12,
+      "orbits": 3,
+      "pairs": 9,
+      "required_rank": 12
+    },
+    {
+      "a": 4,
+      "d": 1,
+      "minimum_pair_rank": 20,
+      "orbits": 4,
+      "pairs": 24,
+      "required_rank": 20
+    },
+    {
+      "a": 4,
+      "d": 2,
+      "minimum_pair_rank": 24,
+      "orbits": 8,
+      "pairs": 8,
+      "required_rank": 24
+    },
+    {
+      "a": 5,
+      "d": 1,
+      "minimum_pair_rank": 30,
+      "orbits": 5,
+      "pairs": 50,
+      "required_rank": 30
+    },
+    {
+      "a": 6,
+      "d": 1,
+      "minimum_pair_rank": 42,
+      "orbits": 6,
+      "pairs": 90,
+      "required_rank": 42
+    },
+    {
+      "a": 6,
+      "d": 2,
+      "minimum_pair_rank": 48,
+      "orbits": 12,
+      "pairs": 36,
+      "required_rank": 48
+    },
+    {
+      "a": 6,
+      "d": 3,
+      "minimum_pair_rank": 54,
+      "orbits": 18,
+      "pairs": 18,
+      "required_rank": 54
+    }
+  ],
+  "laurent": {
+    "polar_projection_case": true,
+    "regular_correction_rank_at_zero": 1,
+    "regular_projection_case": true,
+    "scope": "Linear-algebra controls, not source degenerations"
+  },
+  "scope": "Finite internal audit; no independent review or exponent gain",
+  "torus": [
+    {
+      "a": 2,
+      "coefficient_identities": 64,
+      "source_weights": 12
+    },
+    {
+      "a": 3,
+      "coefficient_identities": 729,
+      "source_weights": 45
+    },
+    {
+      "a": 4,
+      "coefficient_identities": 4096,
+      "source_weights": 112
+    },
+    {
+      "a": 5,
+      "coefficient_identities": 15625,
+      "source_weights": 225
+    },
+    {
+      "a": 6,
+      "coefficient_identities": 46656,
+      "source_weights": 396
+    }
+  ]
+}

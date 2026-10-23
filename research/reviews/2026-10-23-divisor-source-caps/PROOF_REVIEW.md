@@ -137,6 +137,34 @@ PR171 separately proposes an elementary binomial rank formula. This
 audit does not adopt it, remove the pinned splitting dependency, or
 extend the field of the reviewed theorem.
 
-Finite audit controls and repository validation are recorded separately.
-They check implementation and algebraic examples; the all-size review
-above is a mathematical argument, not an inference from their range.
+## Independent finite controls
+
+The adjacent `audit.py` imports no implementation from PR148. It builds
+the literal padded biform matrices and uses SymPy's exact rational-domain
+rank backend. It checks every pair within every divisor orbit for
+`2<=a<=6`, using unequal nonzero coefficients `1,-2`: 237 pairs across
+eight `(a,d)` cases. This includes different wraparound directions and
+nonzero common monomial factors, rather than only normalized pairs.
+All meet the required rank threshold. There are also 67,170 literal
+row-plus-column weight identities for `2<=a<=6`.
+
+Two explicit rational Laurent examples check regular corrections at a
+regular and a polar kernel projection. These examples are linear-algebra
+controls, not source degenerations. Boundary controls recover rank 34
+for the stated nondivisor pair and exclude exactly `c=0,...,8` in the
+inherited A4 inequalities. The frozen
+[control record](../../../results/divisor-source-cap-review-2026-10-23/controls.json)
+is replayed by `tests/test_divisor_cap_review.py`, which also verifies
+the bytes of the two local proof dependencies.
+
+From the repository root, with the maintained requirements installed:
+
+```sh
+python research/reviews/2026-10-23-divisor-source-caps/audit.py
+python -m unittest discover -s tests -p 'test_divisor_cap_review.py' -v
+```
+
+These checks support the audit but do not prove its all-size statement.
+The proof target, Git blob and SHA256, and inherited source hashes are
+in `sources.json`. Repository-wide validation is recorded separately;
+no full-suite pass is inferred from these focused controls.

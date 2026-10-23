@@ -1,5 +1,19 @@
 # Research status
 
+## Pinned internal audit of the divisor source-space cap
+
+The [internal proof audit](research/reviews/2026-10-23-divisor-source-caps/PROOF_REVIEW.md)
+checks PR148 at `673710d3a4284d88e4d24350681b26912831bf7a` without
+incorporating that unmerged package. No gap was found in its stated
+complex divisor-cap and regular-long-leg arguments. The review checks
+the arbitrary-subspace specialization, wrapped residue blocks, sharp
+strip, and regular correction despite a polar projection. A separate
+implementation checks 237 literal weighted pair ranks and 67,170 coefficient
+weight identities, plus Laurent and boundary controls. Its exact scope
+and inherited bundle-splitting input are explicit. This is internal Codex
+review; both cited claim IDs retain their original written-unreviewed
+status. No nondivisor cap, new A4 cutoff, or exponent improvement follows.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

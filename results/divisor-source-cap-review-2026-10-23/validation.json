@@ -1,0 +1,41 @@
+{
+  "archive_replay": {
+    "checks": {
+      "binary_candidates": 12976,
+      "product_filtration_inequalities": 353664,
+      "profile_exact_grid": 73856,
+      "seeded_random_candidates": 20000,
+      "ternary_candidates": 209692
+    },
+    "status": "passed"
+  },
+  "base_commit": "3008d704d1797da02f7bf3f29cc1dbd4c0e7fa93",
+  "files": {
+    "research/reviews/2026-10-23-divisor-source-caps/audit.py": "7858afef2fe8ef8aebd215f36e63ab3a52244fda59ab4ef8d71332b19bddbc05",
+    "research/reviews/2026-10-23-divisor-source-caps/sources.json": "0a915bc54399ebaa3b7d3c054b06b5fba82c8ce0fcef86db6dd34f5323e48d32",
+    "results/divisor-source-cap-review-2026-10-23/controls.json": "983f86b19e23461256608699c38f44fbfb4543a9b85705814d70d03ad8957413"
+  },
+  "focused_tests": {
+    "count": 2,
+    "seconds": 8.303,
+    "status": "passed"
+  },
+  "full_regression": {
+    "base_tests": 863,
+    "new_tests_separately_passed": 2,
+    "scope": "Base suite started before the two audit tests were added. All base implementation and tests remain unchanged; the two new tests pass separately. No full-suite success is claimed yet.",
+    "status": "running",
+    "total_current_modules": 204,
+    "total_current_tests": 865
+  },
+  "improves_omega": false,
+  "independent_review": false,
+  "python": "3.14.8",
+  "research_metadata_and_regression_tests": {
+    "count": 18,
+    "seconds": 1.955,
+    "status": "passed"
+  },
+  "reviewed_commit": "673710d3a4284d88e4d24350681b26912831bf7a",
+  "sympy": "1.14.0"
+}

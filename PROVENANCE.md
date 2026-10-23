@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The internal review in `research/reviews/2026-10-23-divisor-source-caps/`
+was performed in a separate owner-directed OpenAI Codex session against
+PR148 at `673710d3a4284d88e4d24350681b26912831bf7a`. The divisor theorem
+and its earlier torus, unit-kernel and active-ruling methods retain the
+reviewed package's credits. The review adds a detailed consistency audit
+and a separate literal-matrix checker; it does not import that unmerged
+package, adopt PR171, or promote any mathematical claim's evidence status.
+Grothendieck's splitting theorem remains the inherited external input.
+No independent mathematical review, formalization or exponent gain is
+claimed.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier
