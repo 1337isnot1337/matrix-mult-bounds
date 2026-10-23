@@ -1,6 +1,6 @@
 {
   "schema": "matrix-branch-consolidation-resolution-v1",
-  "assembled_at": "2026-10-23T18:03:48.603190+00:00",
+  "assembled_at": "2026-10-23T18:04:55.154882+00:00",
   "baseline_published_head": "a764cf16c5f453709aa29bfafa1314c103f3d516",
   "outputs": [
     {
@@ -207,28 +207,65 @@
       ]
     },
     {
-      "path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+      "path": "docs/consolidation/2026-10-23/NEXTWAVE.72f5c524.md",
       "sha256": "ec7dd03890d6d273bd0f3e9515d2b197e78e433a7fbe3af224a271a5eafd17cd",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+      "sha256": "c6ccb3d1f3e8888fe950652b76860e7403f39e2985d429c5dac8254999409813",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
-      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence.",
-      "report": "nextwave_metadata_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
       "origins": [
         {
           "source_commit": null,
           "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
           "report": "nextwave_metadata_resolution.json",
           "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        }
+      ],
+      "report": "nextwave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.159-a764cf16.md",
+      "sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
         }
       ]
     },
     {
       "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "sha256": "8d5db9271075e4ddc4f626bfdc0f9c4845050b68dae1b82089724fac3a462607",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
-      "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates.",
-      "report": "final_packaging_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
       "origins": [
         {
           "source_commit": null,
@@ -247,15 +284,38 @@
           "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
           "report": "final_packaging_resolution.json",
           "reason": "Package exact revision-scoped final validation and preservation evidence, preserve historical receipts, and distinguish completed initial cleanup from pending final remote publication and main CI gates."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        }
+      ],
+      "report": "nextwave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.72f5c524.md",
+      "sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/README.md",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
         }
       ]
     },
     {
       "path": "docs/consolidation/2026-10-23/README.md",
-      "sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
+      "sha256": "bd12b15ee33133ec5f981f6867912f090635d8a52a551aa9f00e85949bb0c201",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/README.md",
-      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence.",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
       "origins": [
         {
           "source_commit": null,
@@ -280,16 +340,70 @@
           "source_path": "docs/consolidation/2026-10-23/README.md",
           "report": "nextwave_metadata_resolution.json",
           "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/README.md",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
         }
       ],
-      "report": "nextwave_metadata_resolution.json"
+      "report": "nextwave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.159.json",
+      "sha256": "a265bc5450164548e5545758bb463b2a246205216bc7cbc2c197c09a1114ca14",
+      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "sha256": "bedd1726b885c3d4787f0b6fa70b7b12d30280bc9fb6c4e7fe699163dfefdea6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/archive_verification_index.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branch_retirement_159.json",
+      "sha256": "f2f942859f4e879002400b3b2714202394637346c9a37f69195c1510b41c5b32",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/branch_retirement_159.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/branch_retirement_159.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/branches.json",
-      "sha256": "b47309077751a7ddfbd958719e31200fe17c9a0aeac365819a0568f05082d909",
+      "sha256": "1d9adcde7f29187a13136cc9f874467e14e91b6869c8e61b03f99d29a113c988",
       "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/branches.json",
-      "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures.",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
       "origins": [
         {
           "source_commit": null,
@@ -308,9 +422,31 @@
           "source_path": "docs/consolidation/2026-10-23/branches.json",
           "report": "nextwave_metadata_resolution.json",
           "reason": "Record exactly five newly archived source heads, four new topic names and five unreviewed claims while preserving the earlier publication as historical evidence. Preserve the exact source PR bodies and draft flags from the supplied original and later same-head captures."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/branches.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
         }
       ],
-      "report": "nextwave_metadata_resolution.json"
+      "report": "nextwave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.33a0f407.json",
+      "sha256": "efcc1ddeb6a911284f2953ea3be0da246a5b5ce984ae902bc61ae10b82466f01",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.33a0f407.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.33a0f407.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
     },
     {
       "path": "docs/consolidation/2026-10-23/central_resolution_manifest.5d144109.json",
@@ -341,6 +477,38 @@
           "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.json",
           "report": "nextwave_concurrent_resolution.json",
           "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/central_resolution_manifest.nextwave-72f5c524.json",
+      "sha256": "b82499bdd6b464d1814ffbf72dfdd9320d4633cb35b45a5c38a0deffa259c1ce",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.nextwave-72f5c524.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/central_resolution_manifest.nextwave-72f5c524.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.33a0f407.json",
+      "sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.33a0f407.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.33a0f407.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
         }
       ]
     },
@@ -378,17 +546,279 @@
     },
     {
       "path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
-      "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
+      "sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
+      "source_commit": null,
       "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
-      "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit.",
-      "report": "nextwave_concurrent_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
       "origins": [
         {
           "source_commit": "72f5c524fd72c894d4420067fd10206944bce405",
           "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
           "report": "nextwave_concurrent_resolution.json",
           "reason": "Retain the tested checkpoint's historical current-report bytes for the content gate; the source correction's exact reports are separately preserved. A later explicit metadata report will install the full 612-record current audit."
+        },
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        }
+      ],
+      "report": "nextwave_packaging_resolution.json"
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
+      "sha256": "91799de118a53c285ae38c0895369e3a47fe58ff3405cba58e132d1c30ea415d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/claim_resolution.nextwave-72f5c524.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/completed_cleanup_summary.json",
+      "sha256": "22972f767d2daae095108a509b218aa08799d12815b976dcbf055c49a68916b2",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/completed_cleanup_summary.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/completed_cleanup_summary.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_correction_capture.json",
+      "sha256": "04ba89bb4f2eaf27966dc77b4e82c248f6e2be596b8c36bd4b22581f51b972cb",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_correction_capture.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_correction_capture.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/concurrent_oblique_claim_review.json",
+      "sha256": "328613905f1510778c772e91e4ac16fe2290be93cd1ba82c3268baf210ae6164",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/concurrent_oblique_claim_review.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/concurrent_oblique_claim_review.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/final_five_inventory.json",
+      "sha256": "846b404eee97d21fde5b47425063a0d283f3f7ff64382b8b0740fdc87c6f4c5d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/final_five_inventory.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/final_five_inventory.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/final_five_retirement_plan.json",
+      "sha256": "d25b4991d0a1226f6b7ff6d13f7b2dad2df1429dc7f1f9d80174eaa71b69aa92",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/final_five_retirement_plan.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/final_five_retirement_plan.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/final_five_source_prs.json",
+      "sha256": "e7f4ac9cda2aabbbe7c0f4f0a607d8adc14e55ac876b07805e56390a58aaf36f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/final_five_source_prs.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/final_five_source_prs.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/final_publication_receipt.json",
+      "sha256": "0c135a9d2031fd7609dfb8754b3e36b343dfa968f39fb324f5805f0334f06b98",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/final_publication_receipt.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/final_publication_receipt.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/integration_correction_archive.json",
+      "sha256": "70a1fdd869a9ad18f5650f0d3ff552fd3dfaca84c4c11c57e2cd205bcd4158a0",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/integration_correction_archive.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/integration_correction_archive.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_claim_report.json",
+      "sha256": "5c1636c328448174ea86a27d6a149eb59ba1f86588284961b4bc7464e550f2a1",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_claim_report.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_claim_report.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_integration_receipt.json",
+      "sha256": "0ce133b8dd4f0301249b7414c074231b0a8f6829e3975a632c3811df2e959ff8",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_integration_receipt.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_integration_receipt.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_merge_log.json",
+      "sha256": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_merge_log.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_merge_log.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_concurrent_resolution.json",
+      "sha256": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_resolution.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_concurrent_resolution.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_docs_independent_review.json",
+      "sha256": "04cd96340c5726c1d1ef842673c4129e57e6c0f270ae355fd210c03476c06065",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_docs_independent_review.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_docs_independent_review.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_frozen.json",
+      "sha256": "debfd9c078964b5e43da91bad23e1e89f84fe5e074d9695c5f4ea622b722fc5c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_frozen.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_frozen.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/nextwave_publication_frozen.json",
+      "sha256": "1cc95bd566d0a05adb07ecbef80c270d39dc808165f4b2eadfe2946abf3ccc2c",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/nextwave_publication_frozen.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/nextwave_publication_frozen.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
         }
       ]
     },
@@ -421,6 +851,54 @@
           "source_path": "docs/consolidation/2026-10-23/packaged_evidence_index.json",
           "report": "nextwave_concurrent_resolution.json",
           "reason": "Preserve the exact historical audit bytes before reconciling the current 612-record audit metadata."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/pr_closure_159.json",
+      "sha256": "b7d55e09f5d79559809e26fb454ffc485310534530b2c259eca73caca75eb0a8",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/pr_closure_159.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/pr_closure_159.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/preservation_report.33a0f407.json",
+      "sha256": "6664215c52b0b43dbd99b98d2b9639a0339c4d3962e63707e37694f4ddece08e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/preservation_report.33a0f407.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/preservation_report.33a0f407.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
+      "sha256": "1fd535252fae91c50e23585fbd9445110e54ceef2eb5650edb116ce9a219c646",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/preservation_report.72f5c524.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
         }
       ]
     },
@@ -565,6 +1043,454 @@
           "source_path": "research/ai/2026-10-23-conic-projective-criterion/sources.json",
           "report": "requirements_pin_resolution.json",
           "reason": "Byte-exact original source or manifest retained before its current dependency pin is refreshed."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/integrate_nextwave_correction.py",
+      "sha256": "30ed4675f3b9b66a74f89cb5955c7b9e38c9cf456ad29b77ccbae14fa3c2732f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/integrate_nextwave_correction.py",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/integrate_nextwave_correction.py",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_concurrent_preservation.py",
+      "sha256": "f96f2d4bff186f30a86ff7bd0a9823c85db896d3aa3b19adce3130702dc9ad44",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_concurrent_preservation.py",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_concurrent_preservation.py",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_publication_validation_plan.json",
+      "sha256": "5663c4ca27382b272ea390474ec1fee9834000bc9a279fc4908de735055338f6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_publication_validation_plan.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_publication_validation_plan.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_validation_plan.json",
+      "sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_validation_plan.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/nextwave_validation_plan.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_coverage.py",
+      "sha256": "b14c34162e1c3a05ace6c9bf30a588547b093e5ac6b3dee286cf6207f38169a2",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_coverage.py",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_coverage.py",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_publication_equivalence.py",
+      "sha256": "59809dc9597f629a7624fd771f2bbc3b45dc8a5b3026223dddb67491b19fc746",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_publication_equivalence.py",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/harnesses/record_nextwave_publication_equivalence.py",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-a4-coordinate-compressions.log.gz",
+      "sha256": "80d673bafc26b1f93cdf2239affab40905e12cab663b7b14873b287089852d14",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-a4-coordinate-compressions.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-a4-coordinate-compressions.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-column-overlap.log.gz",
+      "sha256": "1aa9df3b44e4f2ff8031b33b2736b8f3712690cae9fe07f7e0194b0371704791",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-column-overlap.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-column-overlap.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-coverage_union.json",
+      "sha256": "da7a2ced61333676f602cfaea5fb6f683a6abafe8b94a4fb771dde64fc1972f6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-coverage_union.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-coverage_union.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.json",
+      "sha256": "5069e1b75ec1a0e10a4eca992dc8ac74c95c2159683dc04ca7cde055a7376d54",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.log.gz",
+      "sha256": "e9fa899e70421fc94bc55ee86facf94dfee39ce38082c242755daab7f925156d",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.stderr.log.gz",
+      "sha256": "f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.stderr.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-discovery.stderr.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_after.json.gz",
+      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_after.json.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_after.json.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_before.json.gz",
+      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_before.json.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-inventory_tree_before.json.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-paired-rank-two-gap.log.gz",
+      "sha256": "5d602cfda3ec9a8bd0eef72332a5515deec514ef737ea84e5baef1b88e0c4b62",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-paired-rank-two-gap.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-paired-rank-two-gap.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-plan.json",
+      "sha256": "8ecae1946e911d7a4198dec5f47fe682cecba9cb510f9de80176ba7d650349ad",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-plan.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-plan.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-claim-ledger-and-links.log.gz",
+      "sha256": "1cb972db5b74741a129b238701d81e358202c51fb32de505e747c71e225f05ed",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-claim-ledger-and-links.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-claim-ledger-and-links.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-equivalence.json",
+      "sha256": "623a7d5ed4ca85b5f19edf7d42dc2dfce30e52f69d3b6b46dba76a1ee00cb5b4",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-equivalence.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-equivalence.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-plan.json",
+      "sha256": "5663c4ca27382b272ea390474ec1fee9834000bc9a279fc4908de735055338f6",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-plan.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-plan.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-summary.json",
+      "sha256": "87de51b7a8e2d677f6ddc94d34cab0cefea746018dc36e9662ea3569792edfe1",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-summary.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-summary.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_after.json.gz",
+      "sha256": "ad6fb3c90606e6df3e714ae5fabc4dba9b8cdf162471a615901332c9c61d7e68",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_after.json.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_after.json.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_before.json.gz",
+      "sha256": "ad6fb3c90606e6df3e714ae5fabc4dba9b8cdf162471a615901332c9c61d7e68",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_before.json.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-publication-tree_before.json.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-repository-and-archives.log.gz",
+      "sha256": "64acfc110fae2709d63555b20781b73314e01525ee184d20b6ab9d086af75d2e",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-repository-and-archives.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-repository-and-archives.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-summary.json",
+      "sha256": "eb20d95590b911fc6adbb908770ea6e2b952a3e8f4d91b60c71f88306740bf7f",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-summary.json",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-summary.json",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-three-term-resultant-obstruction.log.gz",
+      "sha256": "2dd75203e8ac2012513d13df86b0ff41e0d3d3ab58fb9e459469bf0d6ae4fbf2",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-three-term-resultant-obstruction.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-three-term-resultant-obstruction.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-top-coefficient-biforms.log.gz",
+      "sha256": "44ea5ea20bc45e49b6321fdbb05c023c6050e4b11daec467d1567afb9acb7164",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-top-coefficient-biforms.log.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-top-coefficient-biforms.log.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-tree_after.json.gz",
+      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-tree_after.json.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-tree_after.json.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
+        }
+      ]
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/validation/nextwave-tree_before.json.gz",
+      "sha256": "a77ed41584c2dbec2b9196ebfe5cc645d3089c530e8708539d85812d73a44fbc",
+      "source_commit": null,
+      "source_path": "docs/consolidation/2026-10-23/validation/nextwave-tree_before.json.gz",
+      "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded.",
+      "report": "nextwave_packaging_resolution.json",
+      "origins": [
+        {
+          "source_commit": null,
+          "source_path": "docs/consolidation/2026-10-23/validation/nextwave-tree_before.json.gz",
+          "report": "nextwave_packaging_resolution.json",
+          "reason": "Preserve the exact historical source or revision-bound validation/provenance receipt, with deterministic gzip where recorded."
         }
       ]
     },
@@ -30644,6 +31570,46 @@
       "final_sha256": "5520143314c92b86ada4ccec57cefabae506f1163d36ef5546c061adda371153",
       "final_report": "nextwave_concurrent_resolution.json",
       "reason": "Retain 611 complete records and all 612 evidence/status fields from the tested union; apply only the exact source-authored lower-bound/attainment statement correction from 5d144109. Preserve every original provenance hash and all five added records."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/PUBLICATION.md",
+      "previous_sha256": "15e7b713479bd728b53e51dd38bad47f2671e93bbd247dc5e3b972b0f35ca7ad",
+      "previous_report": "final_packaging_resolution.json",
+      "final_sha256": "8d5db9271075e4ddc4f626bfdc0f9c4845050b68dae1b82089724fac3a462607",
+      "final_report": "nextwave_packaging_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/NEXTWAVE.md",
+      "previous_sha256": "ec7dd03890d6d273bd0f3e9515d2b197e78e433a7fbe3af224a271a5eafd17cd",
+      "previous_report": "nextwave_metadata_resolution.json",
+      "final_sha256": "c6ccb3d1f3e8888fe950652b76860e7403f39e2985d429c5dac8254999409813",
+      "final_report": "nextwave_packaging_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/README.md",
+      "previous_sha256": "01cf972fbf2293aa6c898b2651c1118f457786017863d65984e30b744667a5da",
+      "previous_report": "nextwave_metadata_resolution.json",
+      "final_sha256": "bd12b15ee33133ec5f981f6867912f090635d8a52a551aa9f00e85949bb0c201",
+      "final_report": "nextwave_packaging_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/branches.json",
+      "previous_sha256": "b47309077751a7ddfbd958719e31200fe17c9a0aeac365819a0568f05082d909",
+      "previous_report": "nextwave_metadata_resolution.json",
+      "final_sha256": "1d9adcde7f29187a13136cc9f874467e14e91b6869c8e61b03f99d29a113c988",
+      "final_report": "nextwave_packaging_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
+    },
+    {
+      "path": "docs/consolidation/2026-10-23/claim_resolution.json",
+      "previous_sha256": "5d84c8f58ecfed20a7758bf781ac0af6774d4c73e79c1946974de6791aa51ef8",
+      "previous_report": "nextwave_concurrent_resolution.json",
+      "final_sha256": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
+      "final_report": "nextwave_packaging_resolution.json",
+      "reason": "Install exact revision-scoped validation and correction evidence, final source-PR provenance, verified cleanup receipts and explicit164-topic/136-name counts while preserving historical report bytes."
     }
   ],
   "inputs": {
@@ -30658,7 +31624,8 @@
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_merge_log.json": "1482f1732d89d208373fda4928bb1edb7c5f9a5fa8598e22cf0e4c0903a43c5f",
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_merge_log.json": "2922fcc750e3cbc9839d88cbf9d1ebbfe966980bce613782961d54350ccd9781",
     "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_output/resolution_report.json": "9e371cafd063e0ac9913342af89925250566344ad3af393b382f0779c8660182",
-    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_resolution.json": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6"
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_concurrent_resolution.json": "c395990090f4f65ffac9f3140e326852ddb7e71a4d9baa9e2c7b3853b211c2a6",
+    "/workspace/scratch/5e4a124ebf61/consolidation/nextwave_packaging_resolution.json": "86c2169dae26f3a45b521a372dff511c177c2d8a2581b543050afafa51d7feb7"
   },
   "method": "Extend the complete frozen 72f5c524 preservation decisions; apply the exact independently inspected concurrent statement correction and explicit metadata supersessions. Preserve all historical reports under revision names.",
   "baseline_tested_head": "72f5c524fd72c894d4420067fd10206944bce405",
