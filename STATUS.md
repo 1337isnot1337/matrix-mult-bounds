@@ -1,5 +1,19 @@
 # Research status
 
+## Fixed oblique-repair Koszul boundary
+
+The [complete full-space Koszul atlas](research/ai/2026-10-23-oblique-koszul-atlas/README.md)
+checks all 112 maps for four fixed residuals, r=3,4,5,6. Integer unit
+pivots certify every matrix rank over every field; a separate binary
+elimination checks the ranks again. The best border lower bounds are
+8,9,11,13, respectively, never above the earlier equalizer bounds in
+[PR147](https://github.com/1337isnot1337/matrix-mult-bounds/pull/147).
+All 576 native Q(6,4) terms are re-contracted locally. This finite
+method boundary leaves the inherited r=5 border interval 12 through 18
+unchanged. Projected flattenings, stronger secant conditions and improved
+maps remain open. Claim `EXP-OBLIQUE-KOSZUL-ATLAS-001` has no independent
+review or formalization and supplies no exponent improvement.
+
 ## Sharp rank six in the fixed-resolvent matrix space
 
 The [fixed-resolvent certificate](research/ai/2026-10-23-resolvent-minrank/README.md)

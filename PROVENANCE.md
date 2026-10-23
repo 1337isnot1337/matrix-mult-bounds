@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-23-oblique-koszul-atlas` package is owner-directed OpenAI
+Codex work. PR147 at immutable commit `29a486a` supplies the adapted
+one-dependency residual, its integer native maps and earlier rank bounds;
+full commit IDs, file hashes and attribution are recorded locally. The
+copied sparse maps retain that credit. All 112 full-space Koszul matrix
+ranks and their unit-pivot and independent binary replays are computed
+here. The elementary rank-one wedge cost and integer row-operation
+argument are supplied explicitly; no external theorem is newly imported.
+This finite method boundary is neither independent mathematical review
+nor a new target construction or exponent improvement.
+
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
 space, with its exact inspected commit and file hash recorded. Earlier

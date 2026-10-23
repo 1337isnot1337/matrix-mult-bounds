@@ -23,6 +23,14 @@ dimension limit. A machine-precision numerical fit is discovery evidence
 only. Deliver exact coefficient identities, then a proved unbounded
 extension with every auxiliary cost accounted for.
 
+The [fixed oblique-repair atlas](../research/ai/2026-10-23-oblique-koszul-atlas/README.md)
+checks every unprojected full-space Koszul map of the one-dependency
+residuals at r=3,4,5,6. None improves the earlier equalizer lower bound.
+For the fixed Q(6,4) maps, stronger secant conditions or better border
+repairs remain relevant; repeating these full-space ranks does not narrow
+the inherited border-rank interval 12 through 18. Other projections and
+maps are outside this finite check.
+
 The full narrow target `Q(n,2) -> M(n,2,n)` is now excluded for ordinary
 maps when n is at least three, and for arbitrary first-leg Laurent poles
 when both long maps remain regular and full rank. Do not repeat those
