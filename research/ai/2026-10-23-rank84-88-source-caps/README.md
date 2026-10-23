@@ -11,7 +11,7 @@ The exact acceptance replay checks70 coherent lower-bound witnesses in
 each certificate, all1404 remaining size57 ideals and118 remaining size61
 ideals, with exported odd84/88 minors. It independently rebuilds4096
 source terms,112 block factorizations, both complete inventories, three
-sharpness/boundary spaces and644 newly excluded target rank pairs.
+sharpness/boundary spaces and all644 target rank pairs in the two sum intervals.
 Discovery uses a different inventory algorithm and is never imported by
 acceptance.
 

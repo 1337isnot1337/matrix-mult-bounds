@@ -8,7 +8,7 @@ below rank88. Complete independent acceptance checks1404 size57 ideals
 and118 size61 ideals, each with an odd84/88 minor, after the credited
 characteristic-zero order-ideal reduction. The prior staircase examples
 attain both dimension caps. With the prior saturated support condition,
-these exclude644 more balanced long-rank pairs and improve the necessary
+the finite comparison covers644 rank pairs and improves the necessary
 sum from144 to136, at every Laurent order. Claims
 `AI-A4-RANK84-SOURCE-CAP-001`, `AI-A4-RANK88-SOURCE-CAP-002` and
 `AI-A4-BALANCED-LONG-SUM136-003` are written and unreviewed. At68,68 the
