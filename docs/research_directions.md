@@ -2,6 +2,15 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [rank-80 source theorem](../research/ai/2026-10-23-torus-rank80/proof.md)
+now bounds source dimension by 50 below slice rank 80 and the balanced
+long-rank sum by 144. Neither bound is asserted sharp. Seek source-space
+bounds at higher slice ranks, or use additional source structure in the
+saturated support inequality on the surviving region. The same method
+would exclude sums 129 through 144 if one proved a source cap at most 57
+strictly below rank 96; that stronger source statement is currently an
+unproved research target. The separate individual rank-101 cap remains.
+
 The [order-ideal source theorem](../research/ai/2026-10-23-torus-order-ideal/proof.md)
 now proves a sharp dimension32 cap below slice rank64 and reduces the
 balanced long-rank sum to at most160. The three exact lowering actions

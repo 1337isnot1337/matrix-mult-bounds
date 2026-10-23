@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The rank-80 continuation in `ai/2026-10-23-torus-rank80/proof.md`
+now proves source-space dimension at most 50 below slice rank 80 and the
+necessary balanced long-rank sum 144. All 35 integer minors, the complete
+24-ideal size-51 inventory, 112 literal block factorizations and 12321
+rank-pair controls pass; all 2926 pairs above 144 are excluded, including
+1096 newly excluded pairs in sums 145 through 160. Eight focused tests
+and a separate internal exhaustive audit pass. Neither bound is claimed
+sharp. Freeze PR129 at this checkpoint for final integration and current
+CI. Subsequent work may seek a cap at rank 96 or stronger support bounds
+inside the remaining region, in a separate investigation. All claims
+remain written and unreviewed, with no constructed matrix target.
+
 The order-ideal continuation in
 `ai/2026-10-23-torus-order-ideal/proof.md` proves the sharp source-space
 cap32 below slice rank64 and the necessary balanced long-rank sum160.

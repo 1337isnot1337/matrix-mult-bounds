@@ -1,5 +1,23 @@
 # Research status
 
+## Balanced A4 long-rank sum is at most 144
+
+The [rank-80 source-space proof](research/ai/2026-10-23-torus-rank80/proof.md)
+shows that every complex A4 source space whose slices have rank strictly
+below 80 has dimension at most 50. The earlier order-ideal reduction,
+small coherent minors and disjoint middle blocks leave exactly 24
+size-51 ideals; each has an exported integer 80-minor with odd determinant.
+Together with the credited saturated target-support inequality and the
+preceding sum-160 exclusion, this forces balanced leading long ranks
+b+c<=144 in every complete Laurent A4 to M(10,10,11) candidate. Thus
+the two target long maps must lose at least 76 leading ranks in total;
+each rank is also at most 101. Arbitrary first-map poles and all higher
+coefficients remain allowed. Claims `AI-A4-RANK80-LINEAR-SPACE-001` and
+`AI-A4-BALANCED-LONG-SUM144-002` are written and unreviewed. Exact replay
+verifies all 35 minors and all 24 remaining ideals; eight focused tests
+pass. Neither 50 nor 144 is asserted sharp, and no full matrix target or
+improved exponent is constructed.
+
 ## Sharp source dimension32 below rank64; balanced long-rank sum at most160
 
 The [order-ideal proof](research/ai/2026-10-23-torus-order-ideal/proof.md)

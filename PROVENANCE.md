@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-23-torus-rank80` package is owner-directed OpenAI Codex
+work. It credits the literal cyclic source, saturated target-support
+inequality and preceding characteristic-zero order-ideal reduction with
+exact byte pins. The new additions are the coherent-minor layer bounds,
+complete reduction of size-51 source ideals to 24 cases, their exported
+integer 80-minors, and the necessary balanced rank sum 144.
+Discovery and acceptance use separate ideal enumerations and pivot
+conventions; an additional internal audit enumerates all seven layers
+and checks every saved minor directly from the coefficient formulas.
+These checks do not constitute independent external mathematical review.
+No sharpness, formalization, full target or exponent gain is claimed.
+
 The `2026-10-23-torus-order-ideal` package is owner-directed OpenAI
 Codex work. The source, source torus, earlier low-rank caps, ordinary
 obstruction and saturated target-support inequality retain their prior
