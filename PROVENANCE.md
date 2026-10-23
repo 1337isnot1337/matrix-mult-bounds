@@ -18,9 +18,17 @@ explicit polynomial kernels, factorization of cubic polynomials, and two
 elementary support contradictions to prove core rank seven over every
 field. Its standalone integer verifier checks the explicit inputs; the
 general exclusion is a written proof, not a finite search. These checks
-are not independent mathematical review. Only the isolated core has
-optimal ordinary and border ranks. No whole-residual optimality,
-historical priority, formalization or exponent improvement is claimed.
+are not independent mathematical review. The subsequent claim
+`AI-OBLIQUE-FULL-ORDINARY-RANK-004` applies a two-leg projection lemma
+twice to prove ordinary rank `4r-1` for the full one-dependency residual,
+including exact rank nineteen at n=6,b=4. Its adapted support bases and
+inherited upper products replay over the integers; a separate native
+contraction checks the actual exported n=6 source maps. The core proof
+and ordinary-map witness retain additional byte pins at `b6c38513`.
+The projection proof was derived and checked in the same session and
+remains unreviewed. Optimal border rank for the full residual, optimal
+repairs over arbitrary source maps, historical priority, formalization
+and exponent improvement are not claimed.
 
 The `2026-10-23-oblique-paired-repair` package is owner-directed Codex
 work using the repository's product-injection and mixed-middle templates.

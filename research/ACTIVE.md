@@ -1,5 +1,17 @@
 # Integrated research coordination
 
+The [full-residual ordinary-rank follow-up](ai/2026-10-23-oblique-border-repair/full_residual_rank.md)
+is on `research/oblique-full-ordinary-rank-20261023`, based on `b6c38513`.
+It proves ordinary rank `4r-1` for the fixed residual when `n=b+2`,
+so the full n=6 residual has ordinary rank nineteen. Horizontal and
+vertical support projections each force `2(r-2)` terms, leaving the
+core of rank seven. Seven focused tests cover eight exact family
+controls, unit support minors, the native exported source maps, unchanged
+source hashes and negative certificates. The previous implementations
+and tests remain unchanged. Claim `AI-OBLIQUE-FULL-ORDINARY-RANK-004`
+is written and unreviewed. Optimal full-residual border rank and better
+source maps remain open.
+
 The subsequent [border-repair continuation](ai/2026-10-23-oblique-border-repair/proof.md)
 is on `research/oblique-border-repair-20261023`, based on the ordinary-map
 checkpoint `53fed211`. A six-term polynomial core has leading coefficient
@@ -20,8 +32,10 @@ two six-term support patterns, both excluded over every field. Thus the
 isolated core has ordinary rank seven and border rank six. Six additional
 focused tests replay the finite proof inputs and reject false records.
 Claim `AI-OBLIQUE-CORE-RANK-SEVEN-003` remains written and unreviewed.
-This supplies no additive lower bound for embedded cores and no optimum
-for the entire residual. The source maps and four pinned files are unchanged.
+The separate follow-up above uses two specific support splittings to
+prove full-residual ordinary optimality in the one-dependency family.
+No general additivity for embedded cores is asserted. The source maps
+and four pinned files are unchanged.
 
 The October 23 paired-map continuation is on
 `research/product-longmap-residual-20261023`, based on main `fe602e4`.

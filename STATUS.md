@@ -1,13 +1,27 @@
 # Research status
 
-## An eighteen-scalar degeneration from a six-term core
+## Exact ordinary rank nineteen and an eighteen-scalar degeneration
+
+The [full-residual rank proof](research/ai/2026-10-23-oblique-border-repair/full_residual_rank.md)
+shows that the existing product-oblique residual has ordinary rank exactly
+`4r-1` whenever `b>=2,n=b+2,r=b+1`. Two support projections remove
+`2(r-2)` terms each from every proposed decomposition, leaving the core
+of rank seven. The inherited ordinary construction attains this bound
+over every field. Thus the full n=6,b=4 residual has ordinary rank
+exactly nineteen; its complex border rank remains between eleven and
+eighteen. This optimality concerns the fixed residual, not arbitrary
+source maps. Claim `AI-OBLIQUE-FULL-ORDINARY-RANK-004` is written and
+unreviewed. Seven focused tests check eight family controls, unit support
+minors, the complete exported source contraction and false certificates.
+The middle first-leg Koszul rank has structural ceiling 504, so that
+test cannot certify optimal border rank eighteen.
 
 The [polynomial border repair](research/ai/2026-10-23-oblique-border-repair/proof.md)
 keeps the ordinary oblique maps and constructs
 `Q(6,4) + D_18` degenerating to `M(5,4,5)` over every field.
 All three polynomial local maps replay the complete identity
 `t^2(1-t)(M+tH)`. The complex residual has border rank at most eighteen,
-alongside the earlier ordinary rank bound of nineteen. Its small
+alongside the exact ordinary rank nineteen above. Its small
 three-by-five-by-five core has border rank exactly six: six polynomial
 terms supply the upper bound, and an eleven-by-eleven Koszul minor with
 determinant one supplies the lower bound.
@@ -20,7 +34,7 @@ functional and a unit slice minor exclude those patterns. Six focused
 tests replay the proof's explicit integer inputs, check agreement with the
 border core, and reject changed products and false certificate entries.
 Claim `AI-OBLIQUE-CORE-RANK-SEVEN-003` is written and unreviewed.
-This rank separation does not prove an optimal rank for the full residual.
+The full-residual result above additionally uses two support projections.
 
 Disjoint cores give ordinary correction bound `4rd-m^2` and border
 correction bound `4rd-2m^2`, where `r=n-1`, `d=r-b` and

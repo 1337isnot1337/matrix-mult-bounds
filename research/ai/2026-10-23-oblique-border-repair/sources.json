@@ -23,11 +23,34 @@
   "new_claims": [
     "AI-OBLIQUE-CORE-BORDER-SIX-001",
     "AI-OBLIQUE-BORDER-REPAIR-FAMILY-002",
-    "AI-OBLIQUE-CORE-RANK-SEVEN-003"
+    "AI-OBLIQUE-CORE-RANK-SEVEN-003",
+    "AI-OBLIQUE-FULL-ORDINARY-RANK-004"
   ],
   "provenance": "Owner-directed Codex research. Same-session separate coefficient and proof checks are not independent mathematical review.",
   "historical_novelty_claimed": false,
   "independent_mathematical_review": false,
   "formalized": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "full_ordinary_rank_followup": {
+    "base_commit": "b6c38513b33c4de2b1ddee4b22525adb74dbc291",
+    "local_sources": [
+      {
+        "path": "research/ai/2026-10-23-oblique-border-repair/ordinary_rank.md",
+        "sha256": "0a85e7e422df7cfbe134d398f5d88ff36b4482253021fb288ee45a3a5e73afe6"
+      },
+      {
+        "path": "research/ai/2026-10-23-oblique-border-repair/ordinary_rank.py",
+        "sha256": "c8779075bf91483592cbcd4ea1b91d2c39a83bbff4a2776cce136b4042207b40"
+      },
+      {
+        "path": "research/ai/2026-10-23-oblique-border-repair/ordinary-rank-certificate.json",
+        "sha256": "63b55ca900974396658d7226cbab61aedc1c357d6685adc7a40da4ac89296b99"
+      },
+      {
+        "path": "research/ai/2026-10-23-oblique-paired-repair/witness.json",
+        "sha256": "6a5d9ea86903527231b98631557d0cae5cae911812a07b67def83aa844457e95"
+      }
+    ],
+    "dependency_scope": "The existing core rank-seven proof and actual ordinary-map witness supply the inputs. The two-leg projection lemma and its repeated application prove ordinary rank 4r-1 for the one-dependency residual. These additional pins do not change the four preceding pins or imported files."
+  }
 }

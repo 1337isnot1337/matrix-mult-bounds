@@ -36,6 +36,10 @@ border rank exactly six over C. The same minor proves the corresponding
 formal lower bound in every characteristic.
 The separate [ordinary-rank proof](ordinary_rank.md) establishes rank
 exactly seven for this isolated core over every field.
+The subsequent [full-residual proof](full_residual_rank.md) combines that
+core theorem with two support projections and proves ordinary rank
+exactly nineteen for E. More generally, it proves ordinary rank `4r-1`
+when `n=b+2`. These results concern the same fixed integer source maps.
 
 There is also an all-size family. Write
 
@@ -54,7 +58,9 @@ R(E_{n,b})\le4rd-m^2,\qquad
 
 The second inequality is realized by the same type of integer polynomial
 degeneration as (1). When d=0, the residual is zero. These are upper
-bounds, not optimality assertions about E_(n,b).
+bounds for the general family. The separate
+[full-residual proof](full_residual_rank.md) establishes ordinary
+optimality in the one-dependency case d=1; border optimality remains open.
 
 | Source | Target | Direct scalar terms | Ordinary grid bound | Border grid bound |
 |---|---|---:|---:|---:|
@@ -185,8 +191,9 @@ formal rank bound is at least ceil(11/2)=6, which matches (5).
 
 This proves the core's border-rank result. The separate
 [ordinary-rank argument](ordinary_rank.md) proves that the core has
-ordinary rank seven. Neither argument proves optimal ordinary or border
-rank for the full n=6 residual.
+ordinary rank seven. The later [full-residual argument](full_residual_rank.md)
+adds the support projections needed for ordinary rank nineteen. Optimal
+border rank for the full n=6 residual remains open.
 
 ## 3. Disjoint cores in the general residual
 
