@@ -14,6 +14,26 @@ at the last complete inventory, including their original bodies and draft flags,
 are preserved in [source-prs-before-retirement.json](source-prs-before-retirement.json).
 That inventory contained 61 draft and 41 ready pull requests.
 
+## Final closure capture and tested coverage
+
+Four additional source heads advanced during source retirement. Their exact
+histories and recovery tags bring the manifest to 159 captured snapshots from
+the same 132 topic names. The ledger remains unchanged at 607 records. The
+[closure source decisions](closure_source_resolution.json) retain all executable,
+test, workflow and dependency inputs at the passing eight-head revision. The
+authored changes clarify Laurent degrees and historical A9 gate scope; the
+unbalanced package manifest updates only the corrected README digest.
+
+The [eight-head focused receipt](validation/postvalidation-summary.json) records
+33 passing unit tests plus the standalone quadratic verifier on
+`8a53354c23921b552703239aa1fdc62155a608fd`, with no skips, failures, errors or
+tracked changes. The [coverage receipt](validation/postvalidation-coverage.json)
+lists 1,933 tests across 432 modules. It records ten additions, no removals, and
+passing coverage of every addition. The prior 1,923-test composite and the new
+focused run cover that inventory. This is revision-aware composite evidence,
+not an uninterrupted rerun of the complete final suite. All 23 checked archive
+files and earlier validation receipts remained unchanged.
+
 ## Preservation of the publication baseline
 
 The [preservation audit](preservation_report.json) passed with zero errors on

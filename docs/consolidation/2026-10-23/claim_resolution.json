@@ -10610,5 +10610,1192 @@
     ],
     "previous_report": "resolution_report.pre_postvalidation.json",
     "repository_mutations": false
+  },
+  "closure_catchup_addendum": {
+    "source": "closure_catchup_heads.json",
+    "prepared_at": "2026-10-23T17:44:27.606255+00:00",
+    "baseline_head": "8a53354c23921b552703239aa1fdc62155a608fd",
+    "previous_claims": 607,
+    "claims_after": 607,
+    "baseline_claims_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+    "result_claims_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+    "added_ids": [],
+    "revised_ids": [],
+    "unchanged_existing_records": 607,
+    "all_607_existing_status_flags_preserved": true,
+    "all_source_ids_represented": true,
+    "same_id_independent_collisions": [],
+    "heads": [
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "source_claim_count": 330,
+        "source_record_map_sha256": "16efedd0f9a12527bda4d2877be3a86c9f1a67e8dc5299b5d49380b04ca6f452",
+        "new_ids": [],
+        "novel_authored_revisions": [],
+        "older_main_variants_retained_current": [
+          "AI-CONIC-ALL-ORDER-CRITERION-002",
+          "EXP-S5-COLORED-033",
+          "AI-CONIC-SECOND-JET-002",
+          "AI-CONIC-POLYNOMIAL-JET-003",
+          "AI-A4-UNIT-IMAGE-EXCLUSION-002"
+        ]
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "source_claim_count": 298,
+        "source_record_map_sha256": "3df6c20fadcf383871244cf304d422b01c0b88a80f0dcc96490d4b4c0745b200",
+        "new_ids": [],
+        "novel_authored_revisions": [],
+        "older_main_variants_retained_current": [
+          "AI-CONIC-ALL-ORDER-CRITERION-002"
+        ]
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "source_claim_count": 296,
+        "source_record_map_sha256": "3ba78bf621510abb765657d24b3906ff8bd370e5136c6ef716413e2e3bc3e7f9",
+        "new_ids": [],
+        "novel_authored_revisions": [],
+        "older_main_variants_retained_current": [
+          "AI-CONIC-ALL-ORDER-CRITERION-002"
+        ]
+      },
+      {
+        "branch": "research/unbalanced-square-frontier-20261023",
+        "source_sha": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+        "delta_base": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+        "source_claim_count": 297,
+        "source_record_map_sha256": "99b3c6039861e33edefa13f5fd59662ed8d2b20fc05a807500421b0914b0491b",
+        "new_ids": [],
+        "novel_authored_revisions": [],
+        "older_main_variants_retained_current": []
+      }
+    ],
+    "decisions": [
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "retained_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "retained_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "retained_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "retained_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "retained_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-NONSPLIT-VECTOR-COVERS-001",
+        "incoming_record_sha256": "6d36676df3afc9cae4412b4ba3b2795fd87e044de7d47be6314b4cbb25866a55",
+        "retained_record_sha256": "6d36676df3afc9cae4412b4ba3b2795fd87e044de7d47be6314b4cbb25866a55",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-GENERIC-MIXED-GRAPHS-094",
+        "incoming_record_sha256": "d65131d38f61615e34fcef468a2b53e895126fa93e7e7944f3b0ecb1723d68b8",
+        "retained_record_sha256": "d65131d38f61615e34fcef468a2b53e895126fa93e7e7944f3b0ecb1723d68b8",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-MIXED-TWO-COORDINATE-STRATA-093",
+        "incoming_record_sha256": "41f8d963404f4f826fdd8acf32908aa23a32018d836c2737210b230d7202e1bb",
+        "retained_record_sha256": "41f8d963404f4f826fdd8acf32908aa23a32018d836c2737210b230d7202e1bb",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-SL2-NATIVE-024",
+        "incoming_record_sha256": "d13cb9fed473faca1c438266663937b6726b7a03aa75a71446f7bca8626530b4",
+        "retained_record_sha256": "d13cb9fed473faca1c438266663937b6726b7a03aa75a71446f7bca8626530b4",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SPLIT-COVER-SOURCE-026",
+        "incoming_record_sha256": "bb94457c78dbdeb85d313760ab1b8fc5c1b200bb3dd31d459d4f1a2a7ae13fbd",
+        "retained_record_sha256": "bb94457c78dbdeb85d313760ab1b8fc5c1b200bb3dd31d459d4f1a2a7ae13fbd",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-S5-SPLIT-028",
+        "incoming_record_sha256": "15c4af88405026e4ef990bfa7e4c46e5a47733ee465b367cec6164298a2f7e61",
+        "retained_record_sha256": "15c4af88405026e4ef990bfa7e4c46e5a47733ee465b367cec6164298a2f7e61",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-S5-RADICAL-029",
+        "incoming_record_sha256": "c6d2cfc44d33783d70fb5a3d42b5853c5ff908d7857b57240faa49f7a5218715",
+        "retained_record_sha256": "c6d2cfc44d33783d70fb5a3d42b5853c5ff908d7857b57240faa49f7a5218715",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-S5-PARITY-030",
+        "incoming_record_sha256": "b2af16e86e6f3f0a192983142a8cf19f0ec446b3c731ce62bf673f31151165bc",
+        "retained_record_sha256": "b2af16e86e6f3f0a192983142a8cf19f0ec446b3c731ce62bf673f31151165bc",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-S5-FOUR-SOURCE-031",
+        "incoming_record_sha256": "97bc9b6ed15d27a0321ebed776e841ea214799cf904bcf01771f4bc9f73bcce9",
+        "retained_record_sha256": "97bc9b6ed15d27a0321ebed776e841ea214799cf904bcf01771f4bc9f73bcce9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CENTRAL-FOUR-MATCHING-032",
+        "incoming_record_sha256": "11a3261eb4d2f1b275e3a6b43e1fd01075541007ac29aebe670756e4f2f734f0",
+        "retained_record_sha256": "11a3261eb4d2f1b275e3a6b43e1fd01075541007ac29aebe670756e4f2f734f0",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-S5-COLORED-033",
+        "incoming_record_sha256": "a056832d60d3a0570ad89aa1f52c1ceb98ffa756fc9b0d7c265728461d5ec738",
+        "retained_record_sha256": "f50f704fd7845a715a60a669a16c7a02d07d087dfe7dc1f976f7ac9cf17a3e16",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SUBGROUP-IDEAL-027",
+        "incoming_record_sha256": "54878a476c8fe4f91d51715d0feb42cc07434783501f08712f7edadc3739e5a1",
+        "retained_record_sha256": "54878a476c8fe4f91d51715d0feb42cc07434783501f08712f7edadc3739e5a1",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SEMISIMPLE-KOSZUL-017",
+        "incoming_record_sha256": "eb98b7b4b0c1f343edf2c06e27d981b46fe32c72199d098dfd3f5296afaeb2f4",
+        "retained_record_sha256": "eb98b7b4b0c1f343edf2c06e27d981b46fe32c72199d098dfd3f5296afaeb2f4",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SL2-F8-SOURCE-018",
+        "incoming_record_sha256": "ce6e9b6f15969c32dc9dc16acde4f5f0026818faafccb5733d7865ef6147b5c9",
+        "retained_record_sha256": "ce6e9b6f15969c32dc9dc16acde4f5f0026818faafccb5733d7865ef6147b5c9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-SL2-F8-SUBGROUP-019",
+        "incoming_record_sha256": "3d9b4fdf4c4d5b7a6519d648c62e7c2c92926a1cde49584ceedbd4f9455db94e",
+        "retained_record_sha256": "3d9b4fdf4c4d5b7a6519d648c62e7c2c92926a1cde49584ceedbd4f9455db94e",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SL2-F8-IDEALS-020",
+        "incoming_record_sha256": "fae828af1352e22dba9dc07a73e392105d8479d3b8cc0d4b63ad7389fc03df49",
+        "retained_record_sha256": "fae828af1352e22dba9dc07a73e392105d8479d3b8cc0d4b63ad7389fc03df49",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-GROUP-F8-UNEQUAL-014",
+        "incoming_record_sha256": "f971544eeea33fc8c168a5ac561003bc0efc69223ebe217b87524cb0571b9b54",
+        "retained_record_sha256": "f971544eeea33fc8c168a5ac561003bc0efc69223ebe217b87524cb0571b9b54",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-GROUP-F8-GRAPHS-015",
+        "incoming_record_sha256": "e4cae06c479575b71b686b3717e25b393030d322ab99a70c603c3b147e1a95e0",
+        "retained_record_sha256": "e4cae06c479575b71b686b3717e25b393030d322ab99a70c603c3b147e1a95e0",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-GROUP-F8-CLOSURE-016",
+        "incoming_record_sha256": "dfe31363d3b528780416128e9bb263f58239aa6f558dd415fc615d73e790a571",
+        "retained_record_sha256": "dfe31363d3b528780416128e9bb263f58239aa6f558dd415fc615d73e790a571",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-HEIS-MODULAR-025",
+        "incoming_record_sha256": "1f33e1a437bf0d7c34f10fb5fd6292782e7c9b1b1df28c6c093ce37fbf76218d",
+        "retained_record_sha256": "1f33e1a437bf0d7c34f10fb5fd6292782e7c9b1b1df28c6c093ce37fbf76218d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-UNEQUAL-ENTROPY-001",
+        "incoming_record_sha256": "fec5caf60003ec119c968ddbbb2086a8fc35e7adc876fbdcf02d70fddf1c9b38",
+        "retained_record_sha256": "fec5caf60003ec119c968ddbbb2086a8fc35e7adc876fbdcf02d70fddf1c9b38",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-DIRECT-SUM-FRONTIER-001",
+        "incoming_record_sha256": "5d8d378c84e00ab08b443990faea0e4b26b8bb2d3b2bac96aaabd886c397e30b",
+        "retained_record_sha256": "5d8d378c84e00ab08b443990faea0e4b26b8bb2d3b2bac96aaabd886c397e30b",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "COND-PAIRED-DIRECT-SUM-002",
+        "incoming_record_sha256": "f077802c069165547795f2c908ce0467281c7d5865b232040103be3fb3dbb55c",
+        "retained_record_sha256": "f077802c069165547795f2c908ce0467281c7d5865b232040103be3fb3dbb55c",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-PAIRED-CHAIN-001",
+        "incoming_record_sha256": "eeaf1fb75102bc47166b6f4cdde35a3d9ead967e675d5f971b09362d303e08af",
+        "retained_record_sha256": "eeaf1fb75102bc47166b6f4cdde35a3d9ead967e675d5f971b09362d303e08af",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-LAURENT-003",
+        "incoming_record_sha256": "91f4a2a629e3eebcf5a2ab3b8c99d9b86af1b542bdad45e5755bcc9638fb29cd",
+        "retained_record_sha256": "91f4a2a629e3eebcf5a2ab3b8c99d9b86af1b542bdad45e5755bcc9638fb29cd",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-PAIRED-QUANTUM-001",
+        "incoming_record_sha256": "f2501e91bfde6080f5c5ff0bd48b275bec8722c489c61af1df06fbfe5767e1c5",
+        "retained_record_sha256": "f2501e91bfde6080f5c5ff0bd48b275bec8722c489c61af1df06fbfe5767e1c5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-HIGHER-JET-004",
+        "incoming_record_sha256": "59cf41b8cab48d492b1af89d3c624882ded9bad0f897fa3821ce3f0c4a1e28f0",
+        "retained_record_sha256": "59cf41b8cab48d492b1af89d3c624882ded9bad0f897fa3821ce3f0c4a1e28f0",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-NARROW-SOURCE-005",
+        "incoming_record_sha256": "cf154a2b35cd45e84439a2065c3d2c50d64ea87cc57cec9edb41e1833d23b219",
+        "retained_record_sha256": "cf154a2b35cd45e84439a2065c3d2c50d64ea87cc57cec9edb41e1833d23b219",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "LEM-NORMALIZED-SLICE-006",
+        "incoming_record_sha256": "459caa2a28da9f28f710a18ff390cff5d2544f84c3b86ed4cab77f95a62596d4",
+        "retained_record_sha256": "459caa2a28da9f28f710a18ff390cff5d2544f84c3b86ed4cab77f95a62596d4",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-PAIRED-QUANTUM-002",
+        "incoming_record_sha256": "b1eba56ed305cb837a1e286c3f1a3e6e4e2dfe45b5b4e4df2b0d2b692942d5d3",
+        "retained_record_sha256": "b1eba56ed305cb837a1e286c3f1a3e6e4e2dfe45b5b4e4df2b0d2b692942d5d3",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SUN-AUDIT-001",
+        "incoming_record_sha256": "4bd36b72ac8c6214ffc4e3f457aeb4db766f69e35c192d845e24b35d75acfce7",
+        "retained_record_sha256": "4bd36b72ac8c6214ffc4e3f457aeb4db766f69e35c192d845e24b35d75acfce7",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-NARROW-KOSZUL-001",
+        "incoming_record_sha256": "c575fdb667c787c9a238382cbd16757642f08d10e4ff33a9dd243ca4e695188f",
+        "retained_record_sha256": "c575fdb667c787c9a238382cbd16757642f08d10e4ff33a9dd243ca4e695188f",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-NARROW-QUANTUM-001",
+        "incoming_record_sha256": "f55e08996ded6277f5399413ef024821a1cf3b958a39e89f46aefadeecd81c5c",
+        "retained_record_sha256": "f55e08996ded6277f5399413ef024821a1cf3b958a39e89f46aefadeecd81c5c",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-NARROW-ORDINARY-002",
+        "incoming_record_sha256": "fbafad99e585b74ae17a86b5bb80d91f1e797ae89217a632e0825d0d5e57338e",
+        "retained_record_sha256": "fbafad99e585b74ae17a86b5bb80d91f1e797ae89217a632e0825d0d5e57338e",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-WIDER-JET-003",
+        "incoming_record_sha256": "b72f0af050dbfa288b413095bdfb0585e13ad3e8deeb70891a53ed540188e0e2",
+        "retained_record_sha256": "b72f0af050dbfa288b413095bdfb0585e13ad3e8deeb70891a53ed540188e0e2",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-MINIMUM-SLICE-004",
+        "incoming_record_sha256": "20298128f717195379690f08726922a7ea5168e0be4d54ecb9d1ce3997803b14",
+        "retained_record_sha256": "20298128f717195379690f08726922a7ea5168e0be4d54ecb9d1ce3997803b14",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-NARROW-REGULAR-LONG-LEGS-005",
+        "incoming_record_sha256": "d4958d160a460f28a6f4da0799515e30c850fc96a99730f21cf5e9d58d6789d0",
+        "retained_record_sha256": "d4958d160a460f28a6f4da0799515e30c850fc96a99730f21cf5e9d58d6789d0",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-A4-TRIVIAL-SCALAR-007",
+        "incoming_record_sha256": "d552c7a8c46e6dc32c44e82a9577c65702cc4d4067bcc205edf4324462f64083",
+        "retained_record_sha256": "d552c7a8c46e6dc32c44e82a9577c65702cc4d4067bcc205edf4324462f64083",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "OBS-PAIRED-KLEIN-KERNEL-008",
+        "incoming_record_sha256": "52f0a8ac9d0908d4d687ec47035c9e0df442d1e69fab9497c8670479f24e1dcd",
+        "retained_record_sha256": "52f0a8ac9d0908d4d687ec47035c9e0df442d1e69fab9497c8670479f24e1dcd",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-SCALAR-PILOTS-009",
+        "incoming_record_sha256": "940fd6441c6285d166ca89cef5d6594e30dc29312a2e71d781d69cb8a68deede",
+        "retained_record_sha256": "940fd6441c6285d166ca89cef5d6594e30dc29312a2e71d781d69cb8a68deede",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "COND-PAIRED-LINEAR-CORRECTION-001",
+        "incoming_record_sha256": "cbe413f3393b67bc89756a45928b55abd8a58ed8ca2cb2dc28ad4aad816536d2",
+        "retained_record_sha256": "cbe413f3393b67bc89756a45928b55abd8a58ed8ca2cb2dc28ad4aad816536d2",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-OUTER-INJECTION-006",
+        "incoming_record_sha256": "623b9809710839368e3a792320cbac48f6d152600ecd129603b9a026a8e50fea",
+        "retained_record_sha256": "623b9809710839368e3a792320cbac48f6d152600ecd129603b9a026a8e50fea",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-BOUNDARY-CHART-010",
+        "incoming_record_sha256": "915a18cc23cf051b925a30e511ad310f68a1e8be592d17935db422647b34fad5",
+        "retained_record_sha256": "915a18cc23cf051b925a30e511ad310f68a1e8be592d17935db422647b34fad5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-QUANTUM-BALANCED-WEIGHTS-011",
+        "incoming_record_sha256": "e64c6d3298d08bd62215397f2bd27584e376fceca42966f835da852abb4d0bec",
+        "retained_record_sha256": "e64c6d3298d08bd62215397f2bd27584e376fceca42966f835da852abb4d0bec",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-Q64-PILOTS-012",
+        "incoming_record_sha256": "0454f9850687551d6bfe010b51544b8fc3ac5b82777628e4af18aee063af57ba",
+        "retained_record_sha256": "0454f9850687551d6bfe010b51544b8fc3ac5b82777628e4af18aee063af57ba",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-EXTERNAL-GRID-SEED-013",
+        "incoming_record_sha256": "5736e6607b1456151c165213f100682a93d5f9eb33b27f17ad3073ab6c1b870d",
+        "retained_record_sha256": "5736e6607b1456151c165213f100682a93d5f9eb33b27f17ad3073ab6c1b870d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-MIXED-MIDDLE-BOUNDARY-014",
+        "incoming_record_sha256": "d6f5d2ca55e52bf6501194eb70ef23f1b8ab02c4a72767c362f8818811a6a060",
+        "retained_record_sha256": "d6f5d2ca55e52bf6501194eb70ef23f1b8ab02c4a72767c362f8818811a6a060",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "COND-PAIRED-SUPERLINEAR-CORRECTION-015",
+        "incoming_record_sha256": "acfeb82a9181ac30ebf3cce006da9d7afc3825e9c718b9362fbc33c6edfc2ee9",
+        "retained_record_sha256": "acfeb82a9181ac30ebf3cce006da9d7afc3825e9c718b9362fbc33c6edfc2ee9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-FULL-FLAGS-016",
+        "incoming_record_sha256": "f0324cb5892d1a517b0f1ea2ff6644976aba3af70cdad7bb3803abf301a18800",
+        "retained_record_sha256": "f0324cb5892d1a517b0f1ea2ff6644976aba3af70cdad7bb3803abf301a18800",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-SMALL-LEADING-JET-017",
+        "incoming_record_sha256": "790fb9e6e79ec698d7a61917076e8d7c1a6c68c8f23b89b20fa3e979f8800e09",
+        "retained_record_sha256": "790fb9e6e79ec698d7a61917076e8d7c1a6c68c8f23b89b20fa3e979f8800e09",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-M4-LEADING-018",
+        "incoming_record_sha256": "414d776fe4f3189d76eecaa5762488a102e406fc2fb0732e6047826acd1148d9",
+        "retained_record_sha256": "414d776fe4f3189d76eecaa5762488a102e406fc2fb0732e6047826acd1148d9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-QUANTUM-GRADED-CORRECTIONS-019",
+        "incoming_record_sha256": "1dae40c703c53a105dce8c5f484a4143dbc29b25b8a29060445b8e8c7a6e5f9b",
+        "retained_record_sha256": "1dae40c703c53a105dce8c5f484a4143dbc29b25b8a29060445b8e8c7a6e5f9b",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-ENDPOINT-CORNER-020",
+        "incoming_record_sha256": "3d342cefda1876233306a209539595666777aa42ed7a488d9d2a4dd6ec29d8cc",
+        "retained_record_sha256": "3d342cefda1876233306a209539595666777aa42ed7a488d9d2a4dd6ec29d8cc",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-M1-LEADING-GATES-021",
+        "incoming_record_sha256": "dfaaae2f3077e0949e87ba0847ba8f2bd3d556800018fd41fa50f6bf7e8b61e7",
+        "retained_record_sha256": "dfaaae2f3077e0949e87ba0847ba8f2bd3d556800018fd41fa50f6bf7e8b61e7",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-M1-PILOTS-022",
+        "incoming_record_sha256": "6687e095983df31d1e7a9a62c9acf6f4d3fab7f4892f83f54a8327896745b1a2",
+        "retained_record_sha256": "6687e095983df31d1e7a9a62c9acf6f4d3fab7f4892f83f54a8327896745b1a2",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-BULK-FIRST-CROSS-023",
+        "incoming_record_sha256": "76209b791e3969e60919e03326748d3418d73d885e5f0f485519a1f548da79d9",
+        "retained_record_sha256": "76209b791e3969e60919e03326748d3418d73d885e5f0f485519a1f548da79d9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-BULK-PILOTS-024",
+        "incoming_record_sha256": "b26ac4301b5ec80a8467da6ef85f91ac2c8d0364aea6588c9fd17d4c03b12325",
+        "retained_record_sha256": "b26ac4301b5ec80a8467da6ef85f91ac2c8d0364aea6588c9fd17d4c03b12325",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "COND-PAIRED-CRITICAL-CORRECTION-025",
+        "incoming_record_sha256": "c6d623063f37d27608ce1ca729f30ff83301a5b6bbfb296bc098a89421fdd600",
+        "retained_record_sha256": "c6d623063f37d27608ce1ca729f30ff83301a5b6bbfb296bc098a89421fdd600",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-CORNER-ONE-SCALAR-026",
+        "incoming_record_sha256": "f3fac29bf6ec96d6334c9752400ced978cd7aa3ec1f54a173e86496c2c07120f",
+        "retained_record_sha256": "f3fac29bf6ec96d6334c9752400ced978cd7aa3ec1f54a173e86496c2c07120f",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-CORNER-TWO-SCALAR-027",
+        "incoming_record_sha256": "3532cd7b00d485c446f61099b8d7a28e24d1101bd988f055bc1863a7dc99e139",
+        "retained_record_sha256": "3532cd7b00d485c446f61099b8d7a28e24d1101bd988f055bc1863a7dc99e139",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-FREE-KERNEL-CORNER-028",
+        "incoming_record_sha256": "273a62f32d15fe89c2a7979669d956fa0364264d21381dfc19454f93d619068a",
+        "retained_record_sha256": "273a62f32d15fe89c2a7979669d956fa0364264d21381dfc19454f93d619068a",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-ENRICHED-LEAD-029",
+        "incoming_record_sha256": "62b317b0ca2463e44c485b3564fedd74d3a739859e58b2fa07c925f99f969429",
+        "retained_record_sha256": "62b317b0ca2463e44c485b3564fedd74d3a739859e58b2fa07c925f99f969429",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-CONTROLLED-TRANSPOSE-AGGREGATION-030",
+        "incoming_record_sha256": "e93b337cbbe22c3e6cb0a978a1efd1f07077ad423923c33966c3dc616b318e2f",
+        "retained_record_sha256": "e93b337cbbe22c3e6cb0a978a1efd1f07077ad423923c33966c3dc616b318e2f",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PASS-SCALAR-PACKING-031",
+        "incoming_record_sha256": "34cd5938bb1796cd1f1ac58b5343b4901cf4d25059c93eb1a93083d2408a9e9d",
+        "retained_record_sha256": "34cd5938bb1796cd1f1ac58b5343b4901cf4d25059c93eb1a93083d2408a9e9d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-PRODUCT-PROJECTION-032",
+        "incoming_record_sha256": "b44971facf70fcdd09eddf3cb6cad6e11c1490cfc54927f49232d3ae13b1f83b",
+        "retained_record_sha256": "b44971facf70fcdd09eddf3cb6cad6e11c1490cfc54927f49232d3ae13b1f83b",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-PAIRED-NONLOCAL-PILOTS-033",
+        "incoming_record_sha256": "8f6e8a416a077f3f81f0e4af1381b59367cb47098030db41af07b4a3fc062ab4",
+        "retained_record_sha256": "8f6e8a416a077f3f81f0e4af1381b59367cb47098030db41af07b4a3fc062ab4",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "THM-PAIRED-SOURCE-CAPACITY-034",
+        "incoming_record_sha256": "fd1a376b80c9f212144f8e216a6d796a440ef47ffd3bba0eec5fa915a5f2a085",
+        "retained_record_sha256": "fd1a376b80c9f212144f8e216a6d796a440ef47ffd3bba0eec5fa915a5f2a085",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-MIXED-EXCEPTIONAL-AFFINE-095",
+        "incoming_record_sha256": "ac49c223e48ee0c4fb86cd45ef293e7717376e1640a59b85998e578bd89a1df1",
+        "retained_record_sha256": "ac49c223e48ee0c4fb86cd45ef293e7717376e1640a59b85998e578bd89a1df1",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-HANKEL-WRONSKIAN-CAP-001",
+        "incoming_record_sha256": "629a0c7914af583f873bfe494d6259dfa71a860adc378c787372a5e1ccbbc081",
+        "retained_record_sha256": "629a0c7914af583f873bfe494d6259dfa71a860adc378c787372a5e1ccbbc081",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-HANKEL-SPACE-WITNESS-002",
+        "incoming_record_sha256": "2233c5bff5e2985d9f10c13ccd8560193481f43bd30f469cac60f77f435fddca",
+        "retained_record_sha256": "2233c5bff5e2985d9f10c13ccd8560193481f43bd30f469cac60f77f435fddca",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-HANKEL-DIMENSION-SATURATION-003",
+        "incoming_record_sha256": "c257ee2190ff0a7e0b98b936835386858adf720baf6942786795a3de1da35a81",
+        "retained_record_sha256": "c257ee2190ff0a7e0b98b936835386858adf720baf6942786795a3de1da35a81",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CROSSED-PROPER-SECTION-004",
+        "incoming_record_sha256": "e867c98984b8c5781488b5219d0a10fb1e4166ee96ed97419972c6ba7bc7618c",
+        "retained_record_sha256": "e867c98984b8c5781488b5219d0a10fb1e4166ee96ed97419972c6ba7bc7618c",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-UNIFORM-HANKEL-APPLICATION-005",
+        "incoming_record_sha256": "acfbb9f0a3a2e6810a158dd8dba0ae5865058630fec9856b486df9502418db84",
+        "retained_record_sha256": "acfbb9f0a3a2e6810a158dd8dba0ae5865058630fec9856b486df9502418db84",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-GLOBAL-MIXED-NORMAL-DICHOTOMY-096",
+        "incoming_record_sha256": "b197d38e8bf2f00a47b713e1b0145dce17d84ec8320e5e9b10322cccc52feaed",
+        "retained_record_sha256": "b197d38e8bf2f00a47b713e1b0145dce17d84ec8320e5e9b10322cccc52feaed",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-ALL-MIXED-GRAPHS-A1-097",
+        "incoming_record_sha256": "4e07dd246b797eb487789d7431583f2535e44e999cec3863efc35137000a7a4d",
+        "retained_record_sha256": "4e07dd246b797eb487789d7431583f2535e44e999cec3863efc35137000a7a4d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-GENERIC-PARTNER-ALL-GRAPHS-098",
+        "incoming_record_sha256": "52423626a40e74d073a2d231fa81a0c715fc6ef694e46e58632d166b31d59bb0",
+        "retained_record_sha256": "52423626a40e74d073a2d231fa81a0c715fc6ef694e46e58632d166b31d59bb0",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-BIFORM-BALANCED-KERNEL-001",
+        "incoming_record_sha256": "4415d62b05215aa2985bde6ae2a47cf7f7d003ebc226006b9a92f2bbe86cb414",
+        "retained_record_sha256": "4415d62b05215aa2985bde6ae2a47cf7f7d003ebc226006b9a92f2bbe86cb414",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-BIFORM-AFFINE-INCIDENCE-002",
+        "incoming_record_sha256": "732f3f25dd37c39e1e354e29632e54698c4d4bdcaea7d5f0bd1d3855f8e443c5",
+        "retained_record_sha256": "732f3f25dd37c39e1e354e29632e54698c4d4bdcaea7d5f0bd1d3855f8e443c5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-BIFORM-BALANCED-CONTROLS-003",
+        "incoming_record_sha256": "2d245cba8357efe173fe17d5c54750113a631b4cc88d62670358a77820b7a0c7",
+        "retained_record_sha256": "2d245cba8357efe173fe17d5c54750113a631b4cc88d62670358a77820b7a0c7",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-BIFORM-PROJECTIVE-INCIDENCE-004",
+        "incoming_record_sha256": "bf02a3cc4433f677d99c8d0fdc6e8f262898b0c9821e69c00a11f96037b99453",
+        "retained_record_sha256": "bf02a3cc4433f677d99c8d0fdc6e8f262898b0c9821e69c00a11f96037b99453",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-S5-BLOCK-FILTRATION-001",
+        "incoming_record_sha256": "d1b9afeec4c5ed4b9570351a1216264fd6902b1c8a3a0445af0e1d8f78b9e7be",
+        "retained_record_sha256": "d1b9afeec4c5ed4b9570351a1216264fd6902b1c8a3a0445af0e1d8f78b9e7be",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-BALANCED-PUNCTURE-GAP-001",
+        "incoming_record_sha256": "ff97897920da44c7ff79864c2f5bf6625c0ddf53433d1924eaf61a10d8fef5c0",
+        "retained_record_sha256": "ff97897920da44c7ff79864c2f5bf6625c0ddf53433d1924eaf61a10d8fef5c0",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-BALANCED-GAP-CONTROLS-002",
+        "incoming_record_sha256": "9a7c7d1495c0d52ab72ace4f197484928e637582abd2a61cf0ed9fae67ff05d9",
+        "retained_record_sha256": "9a7c7d1495c0d52ab72ace4f197484928e637582abd2a61cf0ed9fae67ff05d9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-COUPLED-BOUNDARY-RANK-TWO-001",
+        "incoming_record_sha256": "ebbce4ded694a317b1030068a43fe4a9dd95380bd386cc6017efe3c19d3073a5",
+        "retained_record_sha256": "ebbce4ded694a317b1030068a43fe4a9dd95380bd386cc6017efe3c19d3073a5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-BALANCED-BOUNDARY-NORMAL-002",
+        "incoming_record_sha256": "813c5a335ad4980b53828f1cd6dd3c2e7135fa1ffe9987d72ef7e2759074fabd",
+        "retained_record_sha256": "813c5a335ad4980b53828f1cd6dd3c2e7135fa1ffe9987d72ef7e2759074fabd",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "EXP-SUBGROUP-IDEAL-CATALOG-001",
+        "incoming_record_sha256": "3f713558bdd9025537a560b22971f9cf2ff59da1fd445db7b07e3ee6a4db4ee7",
+        "retained_record_sha256": "3f713558bdd9025537a560b22971f9cf2ff59da1fd445db7b07e3ee6a4db4ee7",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SPLIT-NONCYCLIC-COSETS-001",
+        "incoming_record_sha256": "dc3ff3613bea0b26cbf4e94d973617490301626026189373f5e773d9413b0ccf",
+        "retained_record_sha256": "dc3ff3613bea0b26cbf4e94d973617490301626026189373f5e773d9413b0ccf",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SL2-F8-MODULAR-001",
+        "incoming_record_sha256": "e2a32c33e83c43ee0d541ad4174cf25457439aec3a8b1a9bd3904c1d7da96c0e",
+        "retained_record_sha256": "e2a32c33e83c43ee0d541ad4174cf25457439aec3a8b1a9bd3904c1d7da96c0e",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CENTRAL-COVER-SLICE-BARRIER-001",
+        "incoming_record_sha256": "0b1cac2f5aaf5dfef3ebbf9a048168381c4a2ed959d3460bce81dfbcb72441b6",
+        "retained_record_sha256": "0b1cac2f5aaf5dfef3ebbf9a048168381c4a2ed959d3460bce81dfbcb72441b6",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CYCLIC-UNIMODULAR-001",
+        "incoming_record_sha256": "10a1b31367a9b00699553573a20997cff1db51fe16874f26a7b4811a4c6ec3f9",
+        "retained_record_sha256": "10a1b31367a9b00699553573a20997cff1db51fe16874f26a7b4811a4c6ec3f9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CYCLIC-REDUCED-DETERMINANTS-002",
+        "incoming_record_sha256": "9698eba62809e4f6d994140787f8add71d313b4be5148108c3fab698369147ec",
+        "retained_record_sha256": "9698eba62809e4f6d994140787f8add71d313b4be5148108c3fab698369147ec",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CYCLIC-REGULAR-UNIT-003",
+        "incoming_record_sha256": "b631fc013c199c7775cd5c6f4cf53881602f3ffee8ef745fa836bc73fa99eff4",
+        "retained_record_sha256": "b631fc013c199c7775cd5c6f4cf53881602f3ffee8ef745fa836bc73fa99eff4",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-SPLIT-COVER-CUBE-EXCLUSION-001",
+        "incoming_record_sha256": "4548b6701e811e0c25a8ba76af6562eb7290b4cafc603e18cb10f9f29117f3a4",
+        "retained_record_sha256": "4548b6701e811e0c25a8ba76af6562eb7290b4cafc603e18cb10f9f29117f3a4",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-NONSPLIT-FINITE-COVERS-001",
+        "incoming_record_sha256": "be0b696f73a4379caf0d2cc0c97baa29f14f3b98e434827bd848b3e324e97626",
+        "retained_record_sha256": "be0b696f73a4379caf0d2cc0c97baa29f14f3b98e434827bd848b3e324e97626",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-TANGENT-001",
+        "incoming_record_sha256": "10a674b4df265dbb5c50e34b759e700b9c3b194d6e75d02ca8d4a8039a074c2a",
+        "retained_record_sha256": "10a674b4df265dbb5c50e34b759e700b9c3b194d6e75d02ca8d4a8039a074c2a",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-SECOND-JET-002",
+        "incoming_record_sha256": "5056a62906c9d7d157d6ba0a17932560fb3d7bbab2a6ea6045bd212fc3543628",
+        "retained_record_sha256": "59698cbc1a47b0fa98fe97e1ff6500664f03513d596cb65c2869337e67108b50",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-POLYNOMIAL-JET-003",
+        "incoming_record_sha256": "3c66b561d4a25582a556212421999b71a0d4b14559b0c7173e14488760958efd",
+        "retained_record_sha256": "e4d549a938b7532e6cc2709b317e716e5f921527bdea61bc3271b1e619b7e002",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "retained_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "retained_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-PARTIAL-UNIT-REGULARITY-001",
+        "incoming_record_sha256": "0e53a619267fd1ba61c8f66eda4b33a05672f4d23af3e81fd3e3041d09984104",
+        "retained_record_sha256": "0e53a619267fd1ba61c8f66eda4b33a05672f4d23af3e81fd3e3041d09984104",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-A4-UNIT-IMAGE-EXCLUSION-002",
+        "incoming_record_sha256": "fe57482b213a777e44e1e7bcea02228bf0dacc5c43eb119e1b9775933aa6a4b2",
+        "retained_record_sha256": "9a112af8fbc7a4938db0afb6e6e525f4aa8ce121376a2b2038d460cc2efe282a",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/endpoint-constructions-20261020",
+        "source_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+        "delta_base": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+        "id": "AI-RESOLVENT-SHARP-MINRANK-001",
+        "incoming_record_sha256": "e22c7730bf9e4c0862c0787291a8380a219ec05d031831223c6e9f9885b5e2d2",
+        "retained_record_sha256": "e22c7730bf9e4c0862c0787291a8380a219ec05d031831223c6e9f9885b5e2d2",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "retained_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "retained_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "retained_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "retained_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "retained_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "retained_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/operational-repair-20261023",
+        "source_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+        "delta_base": "494a6cca265de82aa45bd5abee0517a15516abc5",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "retained_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-FIXED-TWO-CURVE-001",
+        "incoming_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "retained_record_sha256": "affd969746d66ac83abe3e2a1a7c90ef6f24316918c4d3c4ac87010c7a468a32",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-FIXED-FIRST-CURVE-001",
+        "incoming_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "retained_record_sha256": "ca3d18a97a72b835758aa88016c749ee03d9566431492c057acf0a48c82aceee",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-ALL-ORDER-CRITERION-002",
+        "incoming_record_sha256": "118a50b778f1a7d8a8d8261e3dbfd7d337159477219b04f5d3275e454b66c409",
+        "retained_record_sha256": "9b7c82abc1ecdc98d1e894432e5002e9a41c5066e22990e49001028ce4d5f467",
+        "decision": "Retain the later deliberately reconciled record; incoming merge imports the exact older main variant."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-POLYNOMIAL-CURVE-001",
+        "incoming_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "retained_record_sha256": "6efcb97bf161aa1c58bf4a82291ff03915e73b5f42f87c0094e998b14d209fd9",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-MIXED-FOURTH-JET-001",
+        "incoming_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "retained_record_sha256": "6ba1639aba44383ee8155535de76cf25b31e15ddded787f7b7fea8aa9232d49d",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-RATIONAL-TENTH-JET-002",
+        "incoming_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "retained_record_sha256": "7548e41bd49275e97a506d52ab7bde4790e266c0b6202b5c3f930981488481db",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-RATIONAL-THIRD-JET-001",
+        "incoming_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "retained_record_sha256": "aaf4dcdbdaad7890599105be4d1dc1a195a938b33b357ab5fe5dba4ce16e9532",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      },
+      {
+        "branch": "research/singular-unit-resolvent-20261021",
+        "source_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+        "delta_base": "d9abcec0b22a1f90500b766d71bddba05809707a",
+        "id": "AI-CONIC-MIXED-THIRD-JET-002",
+        "incoming_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "retained_record_sha256": "557fffd587b30e3c3e4d867f001d0e5914a69f37f68c0e3740bb2cf52e39f4b5",
+        "decision": "Already represented exactly in the tested consolidated ledger."
+      }
+    ],
+    "previous_report": "resolution_report.pre_closure.json",
+    "repository_mutations": false
   }
 }

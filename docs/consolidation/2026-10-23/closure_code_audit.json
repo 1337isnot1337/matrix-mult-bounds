@@ -1,0 +1,879 @@
+{
+  "tested_base": "8a53354c23921b552703239aa1fdc62155a608fd",
+  "imported_main": "bd03b9dadba03b1089595f03ff7a091ee9e7ddbc",
+  "heads": [
+    {
+      "branch": "research/endpoint-constructions-20261020",
+      "sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+      "previous_sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+      "changed_paths": 1055,
+      "equal_to_tested_paths": 1022,
+      "changed_executable_or_config_paths": 266,
+      "novel_executable_or_config_paths": [],
+      "paths_missing_from_tested_tree": [],
+      "differing_from_tested": [
+        {
+          "path": ".github/workflows/verify.yml",
+          "old_blob": "ae72ed0f1f855f9a98f74165ef4bce8598b9ea1e",
+          "source_blob": "6785d54ee7223bd68bf243140dbf3e12a229866e",
+          "tested_blob": "73d72a2fe786247c350f6c7628e674c72e466797",
+          "source_sha256": "8867409736ec22595f282d6cbcc5e24fb896d7e59a6c442c210f5a9f87c9aa42",
+          "tested_sha256": "db9d86ec67205354a7b8bc9e5cd426addda463c2b1baf6fda65e170bde37c679",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "PROVENANCE.md",
+          "old_blob": "89b77e9093253f7db8459d81f79cc9ace4bf63d9",
+          "source_blob": "2f31b5eaa05245041b06dc294af94d0e59fda4b2",
+          "tested_blob": "a9455099641cd2a629b7530061933542f1184a52",
+          "source_sha256": "8a5afdd4b85f2a817790657c3adf64904068c0693e6504301f322e9449905d02",
+          "tested_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "README.md",
+          "old_blob": "f7a39b4dd78cf18fd0f07abcdf938fbb68adb81c",
+          "source_blob": "3ad99eaaed209cdc19ef00d4a3aa65bf3b072bca",
+          "tested_blob": "3a37058f47b3d26563ec2d796532f5f40985e7e0",
+          "source_sha256": "5d397f595b649d1ddb17549e80629b2100be71e09c53ccd920c944547b3d5fbd",
+          "tested_sha256": "5c4abd33e7b4e59eb9c152a65a042008f30ffd85a622bbdeec1d280e4a251371",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "STATUS.md",
+          "old_blob": "ddf0cd2989feb5be8bac6d7598cc90a476f08252",
+          "source_blob": "cddf78f949855f781f78a93a29db9c7227fb4b7f",
+          "tested_blob": "10448fe531d800176249c0f1c0da045b5debab71",
+          "source_sha256": "31be46e6690e9f284cd04a7ebffee1a982b4204ea4b09a79dc1e9ef00831ad55",
+          "tested_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "docs/research_directions.md",
+          "old_blob": "2bc527b95f747d86a23119434744a72a197c963d",
+          "source_blob": "3b77a17861b221fac1e4d38c4c5d743e3a158601",
+          "tested_blob": "8a608a11718f8cfd11b38c188497009932a87809",
+          "source_sha256": "77778d49b6671579a62b0a66be30eabca0f3df1691ffc71393c267a89f66e2eb",
+          "tested_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "references/sources.json",
+          "old_blob": "523cc5e4d52b200d7c1a05a8b6da5e5dd9ec444d",
+          "source_blob": "b8835c0eed4de965cd904c24ac5fc65a3ebff33f",
+          "tested_blob": "3ccf7d1ea6b3cbe45eeb3dcbfdd0ebd0e9e89daa",
+          "source_sha256": "4d48f3a789ae55b7c84a9a58b49b1d4f88cb494263026b54bd41b95e7cd53b96",
+          "tested_sha256": "e447c6707c6e3b59fb36e487768457fd81fa6a8ed40bbee17b08d7fc973e6add",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "old_blob": "e0ac32b312f2f89eacbfcb98e949c44f54b34c86",
+          "source_blob": "b02973090d3b6685bbe5072d0985029b3601c9f7",
+          "tested_blob": "76c3e1f6f738dfe73786e9b015699c45de9e5714",
+          "source_sha256": "1f11ee279cce632041b531d4b9e50eb5c38b3ab5ded2c09302a7b7afb9253052",
+          "tested_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-conic-second-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "82c5e63b285cfe025b1f936d9a1e43229b1d1eba",
+          "tested_blob": "76761d1358e45df889485bbd32e0312c5380d23f",
+          "source_sha256": "bade094816bdf019d21bd54d560f4e2dbbf6c8fb7fbb18b3e288fbac9dc0b463",
+          "tested_sha256": "b0f57c760d008600b7883c7aaa2e1284146a058dd2326698e6acdeb1f9ccae94",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-conic-second-jets/sources.json",
+          "old_blob": null,
+          "source_blob": "0e3d8df117485c2778f875bbc8801484351a9cbb",
+          "tested_blob": "93afdc795f9408fb1d715a1f188448cd5664640d",
+          "source_sha256": "71ea98fc5336a95f7b04931de7503928a1e45e8001a4df2d99d6e68ce9c2f5f4",
+          "tested_sha256": "60af4cc901d804f187074f4f65ce98d97a61da87d9a7aa61284fe77fffa22ff2",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-external-grid-seed/sources.json",
+          "old_blob": null,
+          "source_blob": "a1aea21b8ca681967ed87521930db87351504ec5",
+          "tested_blob": "7339472078bba007d76d0fd1fe5204be687ea0d2",
+          "source_sha256": "ea3341bbe016d73cacd1859f4c5f1e7487480458b442816325e1de51bea2708b",
+          "tested_sha256": "2ffbbcfd750b994ee1d4ff731a16e3620b174e60a1fa1155db9024810863b517",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-generic-partner-all-graphs/README.md",
+          "old_blob": null,
+          "source_blob": "fc3d7086b7533fff0445160ced008aa14fd32617",
+          "tested_blob": "3c6d363c743d9f0ffa4a03b364ec947561cc9c50",
+          "source_sha256": "3ca6c0bdec33aec4b814aa1c9c088dcb26fb7b59e6d55ab6f4b46159bf73a015",
+          "tested_sha256": "1e93ea85034fbd98f7e369a27ee0bdf9382b33291edae7141ad7ef4490b853f6",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-s5-split/README.md",
+          "old_blob": null,
+          "source_blob": "6c7c59a186cef9804ffb2b17d8d0353ddb0c8714",
+          "tested_blob": "87f0255ad53c2cd83b23be195bef9745a88fbfcb",
+          "source_sha256": "80f42825b6f21db1859ebb11b0dbd4268a17e0ceb35303ec9038b5d78ba1ed5e",
+          "tested_sha256": "1be5c64ed330651fd2b9b97fe379aba8850e7fa34c21fec5852df842957051aa",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-s5-split/colored_local.py",
+          "old_blob": null,
+          "source_blob": "3155f399234d4e6bda42e0b4f36e7c0a22b569f8",
+          "tested_blob": "139aef55a4a5a4aba1ff0c46cd77f4231b158077",
+          "source_sha256": "a636952eb637fc9c1e3f09ed2863ad1b48e04a5f1f493660c7946b5531e70def",
+          "tested_sha256": "403e46e688d5c6625e56a4aa6023b49e7084b720c0630da1bfb3856801c21fda",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-semisimple-koszul/ACTIVE.md",
+          "old_blob": null,
+          "source_blob": "c7a4c3261d300bfe0e075c50846b1b24d3da79d4",
+          "tested_blob": "b81b145eeb9d07e64c1eca542a173d431fdabd13",
+          "source_sha256": "88c4d82ef9be8e2505f98a44be65e0e325ac0546c83e0907989013f3b10d01b1",
+          "tested_sha256": "dda4e6c1870d6d4a178a82d9dc4a024477e72326da8c687feeb21edf5c5a7773",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-semisimple-koszul/proof.md",
+          "old_blob": null,
+          "source_blob": "a358c48037b1cf2ec8ae20c447e5691fa538fd3b",
+          "tested_blob": "15007d3cf835d56a6accdbd3e9676c0507b3c343",
+          "source_sha256": "d8c42dbf09d98ac9abef10755d872dbc4fe9b8513497799cfd8e9a86cda9dff6",
+          "tested_sha256": "81290e6d7db5504ca1723ff96a7cfc15b40322506b0837823043104bfc3f2a11",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-semisimple-koszul/sl2_f8_frames.py",
+          "old_blob": null,
+          "source_blob": "9a63f1980e7ae7bfb3b04e11651096f998807023",
+          "tested_blob": "e2d1b2dddc160bccbe44995fb6fd244340b63582",
+          "source_sha256": "a882b467fcea9654b715c6366df49500683a68de9be52d9a57276193f745821b",
+          "tested_sha256": "5fa7e441144eee3ad656584c1d214f045e27e40f515ef9c6331a165007766bf8",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-semisimple-koszul/subgroup_search.py",
+          "old_blob": null,
+          "source_blob": "682b38850307db95b9c1a5ccfcdde8a20dbf2447",
+          "tested_blob": "2ae5546bed3b7b48d588351e44d9a1245dc0f129",
+          "source_sha256": "cd24cb4d5608421335ab1d1edabc6d5d7ee2bef565351402067e8e3ab85d71cf",
+          "tested_sha256": "904752702e28a2e232414e4e7add43c1d4b491810c1e15f5e5286338be4201a1",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-21-sl2-f8-ideals/ACTIVE.md",
+          "old_blob": null,
+          "source_blob": "babfbb0f67a49be6dc5ded7fd3b25025d5f59d05",
+          "tested_blob": "1b632409f1b019fa52a231cf61b033d55c4493e0",
+          "source_sha256": "5840b70c905f6bdb3017843429a7aa285c28113453ae3ba231f3c69a46f19965",
+          "tested_sha256": "126271c4bb9c686ffb220f95da04bbe4869b0356102c8f77558d12229cafa057",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+          "old_blob": null,
+          "source_blob": "324a7c9de228ef6deda7b3d859668ab06a4be377",
+          "tested_blob": "91d0872d695a6abc495f2c5f1861b397b87298cc",
+          "source_sha256": "a25795d2d66e99aafb8bd9ea0c8aa9e5853a766844c6bae616157af0aadaf2d3",
+          "tested_sha256": "5510ed6816842f42c8b5018cc2abc0bdeb6046e72a645ae25053248014173a2d",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+          "old_blob": null,
+          "source_blob": "72f704244009bb29c0644a57cb5ccc723453f91c",
+          "tested_blob": "b788a0adbd40a4ded044332e76c82f98e6d6f2b1",
+          "source_sha256": "7ed13abed6f74e0badbd4e1b2ac460c77bb5122fda75ac42cb3ee1419a06b9a4",
+          "tested_sha256": "566f5329a5193260db27278b86d64369cf7c35ae303b7f906583badea91ecf59",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "c8409840e6a288d6e0428ee7daa3d2068716661a",
+          "tested_blob": "a73b4d42bfe6d218036f46dd1439f1bda52b3113",
+          "source_sha256": "3130b9b1c3623013ae8b4b52ce4308f1f8937830bf2b39f8438f1926bfea2e28",
+          "tested_sha256": "40f163ef47b126b887db501c7df17b36e0f3e4a8ff7221695e71d062a035aed6",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+          "old_blob": null,
+          "source_blob": "7af24fd8fae226786996b148c5accc5e29ac1759",
+          "tested_blob": "ffe630e9de131e55e5277f435ff304e83ea3d37b",
+          "source_sha256": "32a008543afd706fdc6b6d598d47da135463f1d3ec849e939b8a70947dc9a827",
+          "tested_sha256": "f62691ec0a41ce6c8a61f8ea725e7f3e39961db040fbe4d2bb19218d2fb685c0",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+          "old_blob": null,
+          "source_blob": "3a0a25f20baad289c314467358bb8a3addc8c0ff",
+          "tested_blob": "5608f4e880406f8231ffcd86448870ac16f6a8ea",
+          "source_sha256": "cc53ebe5e25b29eec14d20e7a984de733c2401595a8f150bcf7262b018975397",
+          "tested_sha256": "25952c4de6f05948695b93c3e9631868735592b6f4a28c20930f0ccd1e4b87bc",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+          "old_blob": null,
+          "source_blob": "906b8ab77079863362246e902150f19cfa96a35b",
+          "tested_blob": "a79e14baf0339e56877ec8c9a1d48b083e693609",
+          "source_sha256": "03b00691c350b931a551f1314eeaf8909052dcf1996008ecb4e5b8efedbaacbf",
+          "tested_sha256": "141836e34022f3701c0459e8a5b503ab8f47c2a4dc8a827712528ae19ebc94ba",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+          "old_blob": null,
+          "source_blob": "c2378dc9ef65d8ceebfabc7c167b133b9f9e2d58",
+          "tested_blob": "2729ac78e7534f7c8140af938dcc6df85f5079e9",
+          "source_sha256": "a5233ca8ec2b4abb3edc169ef20c4c85e7723648b469d93a31ce56c465ae2f2b",
+          "tested_sha256": "774bdc89bcdb151fb68b0dad38e26448be8623eba1f914ce8b084f85a9bfaf83",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+          "old_blob": null,
+          "source_blob": "02d77b91022baf83fedee2f86b33f4a8ecf5a891",
+          "tested_blob": "a5751786923e40dc6be54a0d39124fc774d0b92e",
+          "source_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+          "tested_sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-third-jets/README.md",
+          "old_blob": null,
+          "source_blob": "4d0ebad65c3d02453a81ec47fe5c0b00d1824bbd",
+          "tested_blob": "26c901160267ba4b0b7c3ee26d9a8fd11280a0fa",
+          "source_sha256": "90cd849b552c091e4f4826b534ab4d4e56e37013571fdd128597aea33f6b053d",
+          "tested_sha256": "e23ab9ca0b8948e2f6bae5abec2d1cc84b315b94176c150ca735b3e61768658d",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "a813b411fd114a5edfd6663a066090e157c28016",
+          "tested_blob": "8c193401b23b47d74d552ecd3cb44423105d804a",
+          "source_sha256": "fddef536bd5d7fe3614d9b4ded31e78916a3c2408d20798fa2d98c33e11ea995",
+          "tested_sha256": "27ed07a573e8003e9475bdb07f99a3158d016e528c50453f79b7f61be11d8733",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/claims.json",
+          "old_blob": "07bbcc97dd7d852b4b3254be29388f51b0452a67",
+          "source_blob": "0335d4a4f0567ad1272d3a7e7aa92857ac5cc99b",
+          "tested_blob": "248417ae7755f5b9f7223f2d4270e0d83b826f09",
+          "source_sha256": "65f1bb88fae9845e14098e35ff9ce2d627bab1243f057837a2cae59a638911e5",
+          "tested_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "results/s5-split-2026-10-21/validation.json",
+          "old_blob": null,
+          "source_blob": "04615e7bd05e819b66d636d239ce7519bf454166",
+          "tested_blob": "06fb21943f7fc2d5e11a900ba2732261454bfc44",
+          "source_sha256": "953fb4828dbaca0b9df1e17e1565e090727d11dc879cc9f7d4fca9a883695953",
+          "tested_sha256": "be98dd79b5faaeb86f3cd8b8617bbbd7beb8109cb03d2e5336e4b484236abcf2",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "tests/test_conic_higher_jets.py",
+          "old_blob": null,
+          "source_blob": "b5132d516beb0a3c58ee32851eee8f78719d5650",
+          "tested_blob": "59a56666b33069802294bb1fdb32ed66f276725f",
+          "source_sha256": "b7c9d1113367744e8ac92c58de5e88380afb2c0d426f19c8a1f6db46dfa506bc",
+          "tested_sha256": "0ff19748ea8d0bd19f42f6cd9dd927264ebcb90bd6b047918e055b26f1e16e4e",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "tests/test_research.py",
+          "old_blob": "8b64cdebff007624a9a59723bfca0991c1d7902c",
+          "source_blob": "e082e33e950f18ba47ac47f1776ed98a0bb4d042",
+          "tested_blob": "c89ea60081c5ba6b405672c8e584a93d24b8db86",
+          "source_sha256": "21ae39d04f8874122a2b1ffd43abc99dc3b7667c542064940cd3466d25b3e272",
+          "tested_sha256": "5a69504e316cd4f9d74a28e275a9635e540a69bdfe52aa8d6113c2b684d13b18",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "tests/test_s5_split.py",
+          "old_blob": null,
+          "source_blob": "90cf8fda432645f14739f7fe3492ad4be2ab3f78",
+          "tested_blob": "5dd824e1fc275de5d9ea5caf354a6c297017de8d",
+          "source_sha256": "66506b749780192962ca6d86d90ab496e3e0e2ae93d4228c02cfcefe9b5b3f29",
+          "tested_sha256": "528b94de20ae2209b61fd83e87bd60ee13d92f3c414b3c8eba536a0c52b39d57",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        }
+      ]
+    },
+    {
+      "branch": "research/operational-repair-20261023",
+      "sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+      "previous_sha": "494a6cca265de82aa45bd5abee0517a15516abc5",
+      "changed_paths": 94,
+      "equal_to_tested_paths": 78,
+      "changed_executable_or_config_paths": 20,
+      "novel_executable_or_config_paths": [],
+      "paths_missing_from_tested_tree": [],
+      "differing_from_tested": [
+        {
+          "path": "PROVENANCE.md",
+          "old_blob": "8385994763ebd652317d9c6174e1aac347298a7c",
+          "source_blob": "e1d2d2a618807e14c5bf499646fd236383252c32",
+          "tested_blob": "a9455099641cd2a629b7530061933542f1184a52",
+          "source_sha256": "74695a7487ef61c20acb0c5a296491c9506026bcdd07831cfb2d7a4b4dba2508",
+          "tested_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "STATUS.md",
+          "old_blob": "04d1256784c82044e0dccf0746e3f7fe813f56af",
+          "source_blob": "45415f6efdb61f97b6f9eb018a3095013021fcde",
+          "tested_blob": "10448fe531d800176249c0f1c0da045b5debab71",
+          "source_sha256": "09e5cf3e2d72a17742d801cd0a662c9f98aae8f08a1e305abe16a446b52ade98",
+          "tested_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "docs/research_directions.md",
+          "old_blob": "355ad7d46475b702cacf17bcf5812d334d496fa6",
+          "source_blob": "ddf3833e559e1dec01dcf411747af3dfbfd035dd",
+          "tested_blob": "8a608a11718f8cfd11b38c188497009932a87809",
+          "source_sha256": "a520626e789fafd17994feecdd9ec4b0045fb5462c503a64d73be40d71d3ed09",
+          "tested_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "old_blob": "cdd9cefe53c8b2f268b5fa507609ad1d4e2113d9",
+          "source_blob": "bcf60ce2d0d09a24c11a74ea8df9eb008acd0b34",
+          "tested_blob": "76c3e1f6f738dfe73786e9b015699c45de9e5714",
+          "source_sha256": "c2297ca7a17b67d234f6a0caae28b81f8d59f6453f1600ae23ef5deae930edf4",
+          "tested_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+          "old_blob": null,
+          "source_blob": "324a7c9de228ef6deda7b3d859668ab06a4be377",
+          "tested_blob": "91d0872d695a6abc495f2c5f1861b397b87298cc",
+          "source_sha256": "a25795d2d66e99aafb8bd9ea0c8aa9e5853a766844c6bae616157af0aadaf2d3",
+          "tested_sha256": "5510ed6816842f42c8b5018cc2abc0bdeb6046e72a645ae25053248014173a2d",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+          "old_blob": null,
+          "source_blob": "72f704244009bb29c0644a57cb5ccc723453f91c",
+          "tested_blob": "b788a0adbd40a4ded044332e76c82f98e6d6f2b1",
+          "source_sha256": "7ed13abed6f74e0badbd4e1b2ac460c77bb5122fda75ac42cb3ee1419a06b9a4",
+          "tested_sha256": "566f5329a5193260db27278b86d64369cf7c35ae303b7f906583badea91ecf59",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "c8409840e6a288d6e0428ee7daa3d2068716661a",
+          "tested_blob": "a73b4d42bfe6d218036f46dd1439f1bda52b3113",
+          "source_sha256": "3130b9b1c3623013ae8b4b52ce4308f1f8937830bf2b39f8438f1926bfea2e28",
+          "tested_sha256": "40f163ef47b126b887db501c7df17b36e0f3e4a8ff7221695e71d062a035aed6",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+          "old_blob": null,
+          "source_blob": "7af24fd8fae226786996b148c5accc5e29ac1759",
+          "tested_blob": "ffe630e9de131e55e5277f435ff304e83ea3d37b",
+          "source_sha256": "32a008543afd706fdc6b6d598d47da135463f1d3ec849e939b8a70947dc9a827",
+          "tested_sha256": "f62691ec0a41ce6c8a61f8ea725e7f3e39961db040fbe4d2bb19218d2fb685c0",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+          "old_blob": null,
+          "source_blob": "3a0a25f20baad289c314467358bb8a3addc8c0ff",
+          "tested_blob": "5608f4e880406f8231ffcd86448870ac16f6a8ea",
+          "source_sha256": "cc53ebe5e25b29eec14d20e7a984de733c2401595a8f150bcf7262b018975397",
+          "tested_sha256": "25952c4de6f05948695b93c3e9631868735592b6f4a28c20930f0ccd1e4b87bc",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+          "old_blob": null,
+          "source_blob": "906b8ab77079863362246e902150f19cfa96a35b",
+          "tested_blob": "a79e14baf0339e56877ec8c9a1d48b083e693609",
+          "source_sha256": "03b00691c350b931a551f1314eeaf8909052dcf1996008ecb4e5b8efedbaacbf",
+          "tested_sha256": "141836e34022f3701c0459e8a5b503ab8f47c2a4dc8a827712528ae19ebc94ba",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+          "old_blob": null,
+          "source_blob": "c2378dc9ef65d8ceebfabc7c167b133b9f9e2d58",
+          "tested_blob": "2729ac78e7534f7c8140af938dcc6df85f5079e9",
+          "source_sha256": "a5233ca8ec2b4abb3edc169ef20c4c85e7723648b469d93a31ce56c465ae2f2b",
+          "tested_sha256": "774bdc89bcdb151fb68b0dad38e26448be8623eba1f914ce8b084f85a9bfaf83",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+          "old_blob": null,
+          "source_blob": "02d77b91022baf83fedee2f86b33f4a8ecf5a891",
+          "tested_blob": "a5751786923e40dc6be54a0d39124fc774d0b92e",
+          "source_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+          "tested_sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-third-jets/README.md",
+          "old_blob": null,
+          "source_blob": "4d0ebad65c3d02453a81ec47fe5c0b00d1824bbd",
+          "tested_blob": "26c901160267ba4b0b7c3ee26d9a8fd11280a0fa",
+          "source_sha256": "90cd849b552c091e4f4826b534ab4d4e56e37013571fdd128597aea33f6b053d",
+          "tested_sha256": "e23ab9ca0b8948e2f6bae5abec2d1cc84b315b94176c150ca735b3e61768658d",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "a813b411fd114a5edfd6663a066090e157c28016",
+          "tested_blob": "8c193401b23b47d74d552ecd3cb44423105d804a",
+          "source_sha256": "fddef536bd5d7fe3614d9b4ded31e78916a3c2408d20798fa2d98c33e11ea995",
+          "tested_sha256": "27ed07a573e8003e9475bdb07f99a3158d016e528c50453f79b7f61be11d8733",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/claims.json",
+          "old_blob": "90a1fff7ea997a8e04013d55f35ad163fb95eb7d",
+          "source_blob": "6413b49f15327d81dbc5b9aab21543f28ac1ddff",
+          "tested_blob": "248417ae7755f5b9f7223f2d4270e0d83b826f09",
+          "source_sha256": "6b7be3eb46e95a29a578b176a4022eff34638925ec9e20ef8a42b17d128bb74e",
+          "tested_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "tests/test_conic_higher_jets.py",
+          "old_blob": null,
+          "source_blob": "b5132d516beb0a3c58ee32851eee8f78719d5650",
+          "tested_blob": "59a56666b33069802294bb1fdb32ed66f276725f",
+          "source_sha256": "b7c9d1113367744e8ac92c58de5e88380afb2c0d426f19c8a1f6db46dfa506bc",
+          "tested_sha256": "0ff19748ea8d0bd19f42f6cd9dd927264ebcb90bd6b047918e055b26f1e16e4e",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        }
+      ]
+    },
+    {
+      "branch": "research/singular-unit-resolvent-20261021",
+      "sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+      "previous_sha": "d9abcec0b22a1f90500b766d71bddba05809707a",
+      "changed_paths": 94,
+      "equal_to_tested_paths": 78,
+      "changed_executable_or_config_paths": 20,
+      "novel_executable_or_config_paths": [],
+      "paths_missing_from_tested_tree": [],
+      "differing_from_tested": [
+        {
+          "path": "PROVENANCE.md",
+          "old_blob": "0cc1d90311e22b96ee136a4ec4c157ab6145e989",
+          "source_blob": "6f40b75b26447b54bfd733371e4bbc8e3c2a8234",
+          "tested_blob": "a9455099641cd2a629b7530061933542f1184a52",
+          "source_sha256": "da253dffc60c5f14800c57a3c826424b87e0fe98a7bcbc1d8fe7b718fd2968a4",
+          "tested_sha256": "ce02135d541632dec02e8133e22bbcb2b60347ec14814ffb43922caf8db4c49c",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "STATUS.md",
+          "old_blob": "08b9888794051c1955b6eb40d47fadf54ec0c9c8",
+          "source_blob": "fda32a5fe4f7d121a2e149a9f8170e39fb74f906",
+          "tested_blob": "10448fe531d800176249c0f1c0da045b5debab71",
+          "source_sha256": "bcd80df2b61b3f08ced12787e62dcc55cccf906a946a15ee98bf2760813d789b",
+          "tested_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "docs/research_directions.md",
+          "old_blob": "a571fd80c813a61ac8428d0fbebc150a6330565b",
+          "source_blob": "396d3e222ab5756f65096e72a3e44a914577df63",
+          "tested_blob": "8a608a11718f8cfd11b38c188497009932a87809",
+          "source_sha256": "68f71d65f15b794af9c0f494f019c4b3ec95164c4bf4c75e50d6bb632664eb43",
+          "tested_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "old_blob": "f005b103af60de2bbf32084d10893fc7bd1e4c52",
+          "source_blob": "26eeb5b6bf4a868681e7542d5a9a100c1a9453dd",
+          "tested_blob": "76c3e1f6f738dfe73786e9b015699c45de9e5714",
+          "source_sha256": "28e4bf1c18427807ba1361454c2621407ed4e4e3561664beba7e1a1165e20f25",
+          "tested_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/QUESTION.md",
+          "old_blob": null,
+          "source_blob": "324a7c9de228ef6deda7b3d859668ab06a4be377",
+          "tested_blob": "91d0872d695a6abc495f2c5f1861b397b87298cc",
+          "source_sha256": "a25795d2d66e99aafb8bd9ea0c8aa9e5853a766844c6bae616157af0aadaf2d3",
+          "tested_sha256": "5510ed6816842f42c8b5018cc2abc0bdeb6046e72a645ae25053248014173a2d",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/README.md",
+          "old_blob": null,
+          "source_blob": "72f704244009bb29c0644a57cb5ccc723453f91c",
+          "tested_blob": "b788a0adbd40a4ded044332e76c82f98e6d6f2b1",
+          "source_sha256": "7ed13abed6f74e0badbd4e1b2ac460c77bb5122fda75ac42cb3ee1419a06b9a4",
+          "tested_sha256": "566f5329a5193260db27278b86d64369cf7c35ae303b7f906583badea91ecf59",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "c8409840e6a288d6e0428ee7daa3d2068716661a",
+          "tested_blob": "a73b4d42bfe6d218036f46dd1439f1bda52b3113",
+          "source_sha256": "3130b9b1c3623013ae8b4b52ce4308f1f8937830bf2b39f8438f1926bfea2e28",
+          "tested_sha256": "40f163ef47b126b887db501c7df17b36e0f3e4a8ff7221695e71d062a035aed6",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/proof.md",
+          "old_blob": null,
+          "source_blob": "7af24fd8fae226786996b148c5accc5e29ac1759",
+          "tested_blob": "ffe630e9de131e55e5277f435ff304e83ea3d37b",
+          "source_sha256": "32a008543afd706fdc6b6d598d47da135463f1d3ec849e939b8a70947dc9a827",
+          "tested_sha256": "f62691ec0a41ce6c8a61f8ea725e7f3e39961db040fbe4d2bb19218d2fb685c0",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/sources.json",
+          "old_blob": null,
+          "source_blob": "3a0a25f20baad289c314467358bb8a3addc8c0ff",
+          "tested_blob": "5608f4e880406f8231ffcd86448870ac16f6a8ea",
+          "source_sha256": "cc53ebe5e25b29eec14d20e7a984de733c2401595a8f150bcf7262b018975397",
+          "tested_sha256": "25952c4de6f05948695b93c3e9631868735592b6f4a28c20930f0ccd1e4b87bc",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-higher-jets/verify.py",
+          "old_blob": null,
+          "source_blob": "906b8ab77079863362246e902150f19cfa96a35b",
+          "tested_blob": "a79e14baf0339e56877ec8c9a1d48b083e693609",
+          "source_sha256": "03b00691c350b931a551f1314eeaf8909052dcf1996008ecb4e5b8efedbaacbf",
+          "tested_sha256": "141836e34022f3701c0459e8a5b503ab8f47c2a4dc8a827712528ae19ebc94ba",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/manifest.json",
+          "old_blob": null,
+          "source_blob": "c2378dc9ef65d8ceebfabc7c167b133b9f9e2d58",
+          "tested_blob": "2729ac78e7534f7c8140af938dcc6df85f5079e9",
+          "source_sha256": "a5233ca8ec2b4abb3edc169ef20c4c85e7723648b469d93a31ce56c465ae2f2b",
+          "tested_sha256": "774bdc89bcdb151fb68b0dad38e26448be8623eba1f914ce8b084f85a9bfaf83",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-polynomial-curve/sources.json",
+          "old_blob": null,
+          "source_blob": "02d77b91022baf83fedee2f86b33f4a8ecf5a891",
+          "tested_blob": "a5751786923e40dc6be54a0d39124fc774d0b92e",
+          "source_sha256": "faf15756009298de40b8abae9baa7eee38079462b644020ce30204b97a791507",
+          "tested_sha256": "9e16e51f4c76144fefe7e8eac3e0af91dff72cd8b4c6d79c8c13308180013637",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-third-jets/README.md",
+          "old_blob": null,
+          "source_blob": "4d0ebad65c3d02453a81ec47fe5c0b00d1824bbd",
+          "tested_blob": "26c901160267ba4b0b7c3ee26d9a8fd11280a0fa",
+          "source_sha256": "90cd849b552c091e4f4826b534ab4d4e56e37013571fdd128597aea33f6b053d",
+          "tested_sha256": "e23ab9ca0b8948e2f6bae5abec2d1cc84b315b94176c150ca735b3e61768658d",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/ai/2026-10-23-conic-third-jets/manifest.json",
+          "old_blob": null,
+          "source_blob": "a813b411fd114a5edfd6663a066090e157c28016",
+          "tested_blob": "8c193401b23b47d74d552ecd3cb44423105d804a",
+          "source_sha256": "fddef536bd5d7fe3614d9b4ded31e78916a3c2408d20798fa2d98c33e11ea995",
+          "tested_sha256": "27ed07a573e8003e9475bdb07f99a3158d016e528c50453f79b7f61be11d8733",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": false,
+          "source_matches_imported_main": true
+        },
+        {
+          "path": "research/claims.json",
+          "old_blob": "e05e1c0153beb8651efeb0810730c2650938b16c",
+          "source_blob": "f2abb839725f1f5493b77a5fb6eb31654e66b344",
+          "tested_blob": "248417ae7755f5b9f7223f2d4270e0d83b826f09",
+          "source_sha256": "103c8b40c2f021503876c259a67d0c18936eec6403f5407ec127c1b62d7e2670",
+          "tested_sha256": "25a52dd24b237276e898f2f47fb33e14afed1440c1b972c8774167991b4edbcd",
+          "classification": "shared or package narrative needing merged wording",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "tests/test_conic_higher_jets.py",
+          "old_blob": null,
+          "source_blob": "b5132d516beb0a3c58ee32851eee8f78719d5650",
+          "tested_blob": "59a56666b33069802294bb1fdb32ed66f276725f",
+          "source_sha256": "b7c9d1113367744e8ac92c58de5e88380afb2c0d426f19c8a1f6db46dfa506bc",
+          "tested_sha256": "0ff19748ea8d0bd19f42f6cd9dd927264ebcb90bd6b047918e055b26f1e16e4e",
+          "classification": "inherited main version; retain tested later union or fixes",
+          "executable_or_config": true,
+          "source_matches_imported_main": true
+        }
+      ]
+    },
+    {
+      "branch": "research/unbalanced-square-frontier-20261023",
+      "sha": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "previous_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+      "changed_paths": 5,
+      "equal_to_tested_paths": 0,
+      "changed_executable_or_config_paths": 0,
+      "novel_executable_or_config_paths": [],
+      "paths_missing_from_tested_tree": [],
+      "differing_from_tested": [
+        {
+          "path": "STATUS.md",
+          "old_blob": "434601186e7b58a333439258c4d7b53190defd1f",
+          "source_blob": "db2b9481bba1e4f6a4111b8a604a4ff2167382e5",
+          "tested_blob": "10448fe531d800176249c0f1c0da045b5debab71",
+          "source_sha256": "5567434bcb277cb12598a9d83fe60eef91522854224c65b76bdf7d447ebf5e98",
+          "tested_sha256": "83af98cfb4253fdf5455005dbb7ed02019d3a500136869494a1eab25c6578adf",
+          "classification": "narrative correction",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "docs/research_directions.md",
+          "old_blob": "7d7c7e948c117d887cb38a4cc9d40f941b0713b9",
+          "source_blob": "66b6ba90573c20b6013b15c71810f103d0b67ef6",
+          "tested_blob": "8a608a11718f8cfd11b38c188497009932a87809",
+          "source_sha256": "cdb45a89895f92ac89f0c9adeb727bd478aaf84c98993ec727616b436e9fbb46",
+          "tested_sha256": "574ceaa23ceff5a38ec9ea26e0062ad483094d12e5880fc787096873533db08b",
+          "classification": "narrative correction",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ACTIVE.md",
+          "old_blob": "7144a80ba385f10f90b82eac8b224d08884ef43e",
+          "source_blob": "950cb52064e92b888134fa755b1387688a94fda2",
+          "tested_blob": "76c3e1f6f738dfe73786e9b015699c45de9e5714",
+          "source_sha256": "c17493913e9652645c8d23be8c4043cf5a847caeb1b8572b1f217deddff50b13",
+          "tested_sha256": "56e75b07a2d1bbd9417adf9ffb38b66c3a2b46c5c73db3229c856c56abf56daa",
+          "classification": "narrative correction",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ai/2026-10-23-unbalanced-square-frontier/README.md",
+          "old_blob": "be674063a42a9443e5b601e5415c9925830751c3",
+          "source_blob": "8c11992aa48ea92c367d2494902a71b47b370ce0",
+          "tested_blob": "be674063a42a9443e5b601e5415c9925830751c3",
+          "source_sha256": "617bf7ba3189d838cd8ad3143040277500f15332e115af10c3fd1158a7e628b5",
+          "tested_sha256": "375f269c4f3ac30e71f7087e1c679a1766629f9f6bb71a486b6633fe50b0344b",
+          "classification": "narrative correction",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        },
+        {
+          "path": "research/ai/2026-10-23-unbalanced-square-frontier/manifest.json",
+          "old_blob": "b7618cbd6e2cc8cc8f4795b29604d266c413d3fe",
+          "source_blob": "5d6d999123694f8a9c11d53274beae6e820cd6f8",
+          "tested_blob": "b7618cbd6e2cc8cc8f4795b29604d266c413d3fe",
+          "source_sha256": "6836be57fee47b2e62ff1a774f23c1f49d403fc68d7de1e4afedfaca02873efc",
+          "tested_sha256": "62543a38a7f86a473c996aefaf4b5348ab7610a8c2f272acbc20ae50caf00f74",
+          "classification": "README digest update only; no mathematical inputs changed",
+          "executable_or_config": false,
+          "source_matches_imported_main": false
+        }
+      ]
+    }
+  ],
+  "novel_executable_files": [],
+  "new_unittest_ids": [],
+  "expected_inventory_tests": 1933,
+  "expected_inventory_modules": 432,
+  "unbalanced_manifest_check": [
+    {
+      "path": "research/ai/2026-10-23-unbalanced-square-frontier/README.md",
+      "expected_sha256": "617bf7ba3189d838cd8ad3143040277500f15332e115af10c3fd1158a7e628b5",
+      "actual_sha256": "617bf7ba3189d838cd8ad3143040277500f15332e115af10c3fd1158a7e628b5",
+      "input_commit": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "matches": true
+    },
+    {
+      "path": "research/ai/2026-10-23-unbalanced-square-frontier/sources.json",
+      "expected_sha256": "68a90a01c5872920c0d9dc729a8b339af0d33d00e1bf6f79c9c2283a4d865be8",
+      "actual_sha256": "68a90a01c5872920c0d9dc729a8b339af0d33d00e1bf6f79c9c2283a4d865be8",
+      "input_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "matches": true
+    },
+    {
+      "path": "research/ai/2026-10-23-unbalanced-square-frontier/verify.py",
+      "expected_sha256": "58ddb9a1e291aa9820d74441d366de86f875610dc0f83decbac09c3fbe589d92",
+      "actual_sha256": "58ddb9a1e291aa9820d74441d366de86f875610dc0f83decbac09c3fbe589d92",
+      "input_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "matches": true
+    },
+    {
+      "path": "results/unbalanced-square-frontier-2026-10-23/frontier.json",
+      "expected_sha256": "ab4609dc02e1ebf9a557c1218ac1b3ede6b2b9d2ba55ba6c8d43c2140d155ca8",
+      "actual_sha256": "ab4609dc02e1ebf9a557c1218ac1b3ede6b2b9d2ba55ba6c8d43c2140d155ca8",
+      "input_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "matches": true
+    },
+    {
+      "path": "tests/test_unbalanced_square_frontier.py",
+      "expected_sha256": "3426756dad91c5fafe2b43d5096d3433bc3bc502dc50190adbb682e8a485b634",
+      "actual_sha256": "3426756dad91c5fafe2b43d5096d3433bc3bc502dc50190adbb682e8a485b634",
+      "input_commit": "8a53354c23921b552703239aa1fdc62155a608fd",
+      "matches": true
+    }
+  ],
+  "minimal_gate_targets": [
+    "test_unbalanced_square_frontier.UnbalancedSquareFrontierTests.test_source_pins_and_package_manifest",
+    "test_research.RepositoryTests.test_relative_markdown_links"
+  ],
+  "gate_reason": "The only adopted active metadata input change is the unbalanced package manifest README digest. A strict pin test and final Markdown link test suffice after final integration; no mathematical replay changed.",
+  "merge_requirements": [
+    "Retain tested Lean CI and test_research union.",
+    "Retain tested conic order-fourteen/fifteen verifiers, tests, witnesses, and repaired transitive requirements pins.",
+    "Retain tested S5 trade multiplicity and full Farkas-stream test.",
+    "Retain tested semisimple subgroup-ideal exclusion and updated external-grid provenance."
+  ],
+  "source_execution_performed": false,
+  "worktrees_modified": false,
+  "prior_receipts_modified": false
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "matrix-mult-bounds-additive-validation-coverage-v1",
+  "recorded_at": "2026-10-23T17:40:34.963772+00:00",
+  "head": "8a53354c23921b552703239aa1fdc62155a608fd",
+  "head_tree": "3762190af04c507b183d78ef60e1931fa705b9a7",
+  "discovery_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "tools/test_shard.py",
+    "--list"
+  ],
+  "discovery_elapsed_seconds": 5.237,
+  "previous_inventory": {
+    "tests": 1923,
+    "modules": 430
+  },
+  "final_inventory": {
+    "tests": 1933,
+    "modules": 432
+  },
+  "tests_added": [
+    "test_aggregation_families.AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control",
+    "test_conjugation_block_reduction.ConjugationBlockTests.test_complete_exact_block_identities_and_saved_report",
+    "test_conjugation_block_reduction.ConjugationBlockTests.test_transpose_transport_detects_corrupted_outer_matrix",
+    "test_conjugation_block_reduction.ConjugationBlockTests.test_wrong_coordinate_omitted_row_and_parent_pin_are_rejected",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_auxiliary_border_rank_really_exceeds_its_first_flattening",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_complete_saved_control_replay",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_paired_corollary_keeps_the_two_rank_statements_separate",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_rank_one_channel_encoding_retains_every_pole",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_substitution_must_exceed_the_full_local_pole_budget",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_zero_good_subspace_does_not_create_a_spurious_bound"
+  ],
+  "tests_removed": [],
+  "focused_tests_passed": 33,
+  "new_tests_covered": [
+    "test_aggregation_families.AggregationFamilyTests.test_induced_edge_hypothesis_and_sharp_n1_control",
+    "test_conjugation_block_reduction.ConjugationBlockTests.test_complete_exact_block_identities_and_saved_report",
+    "test_conjugation_block_reduction.ConjugationBlockTests.test_transpose_transport_detects_corrupted_outer_matrix",
+    "test_conjugation_block_reduction.ConjugationBlockTests.test_wrong_coordinate_omitted_row_and_parent_pin_are_rejected",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_auxiliary_border_rank_really_exceeds_its_first_flattening",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_complete_saved_control_replay",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_paired_corollary_keeps_the_two_rank_statements_separate",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_rank_one_channel_encoding_retains_every_pole",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_substitution_must_exceed_the_full_local_pole_budget",
+    "test_laurent_rank_margin.LaurentRankMarginTests.test_zero_good_subspace_does_not_create_a_spurious_bound"
+  ],
+  "new_tests_without_focused_coverage": [],
+  "focused_ids_outside_final_inventory": [],
+  "composite_passing_ids": 1933,
+  "composite_exactly_covers_final_inventory": true,
+  "direct_verifiers_passed": [
+    "quadratic-equal-degrees"
+  ],
+  "tracked_files_changed_during_inventory": [],
+  "frozen_head_unchanged": true,
+  "clean_tracked_status_after": true,
+  "archive_unchanged": true,
+  "source_receipts": [
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/coverage_union.json",
+      "sha256": "2f06e98ee81537f80c5f20c3d6810f5a1d09b2ddea370099a02790cecf872cd2"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/final_focused/discovery.json",
+      "sha256": "2ee5ef170bda2319555b39c35adf9b5435f4c58387aaccf9680e53400b760924"
+    },
+    {
+      "path": "/workspace/scratch/5e4a124ebf61/consolidation/test_logs/postvalidation_catchup/summary.json",
+      "sha256": "9d470e8969f49c18f14e87bd46853b14df3b2029989b3957fdc3dd353ca4121d"
+    }
+  ],
+  "scope_caveat": "This receipt extends the earlier composite of a full 1,916-test baseline at caf51fe and 29 focused tests at e2baf117 with the reviewed catch-up acceptance checks. The final complete suite was listed but not freshly executed locally at this commit. Hosted full CI, including the Python matrix, replay lane, and Lean build, remains the merge gate. Finite computational checks do not promote mathematical claim status.",
+  "passed": true
+}

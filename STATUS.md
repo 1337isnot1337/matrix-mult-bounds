@@ -733,7 +733,11 @@ applies the existing written rank gates to all82 cyclic source formats
 2<=a<=b with N=ab(a+b-1)<=1377, all52310 target leg dimensions and
 every square partition. All70 formats with N<1152 are excluded for an
 improving ordinary square direct sum. The first necessary-test survivor
-is A(8,9), N=1152; only it and A(9,9) survive through1377. The simpler
+is A(8,9), N=1152; only it and A(9,9) survive the adopted gates
+through1377. The later
+[Wronskian application](research/ai/2026-10-21-hankel-wronskian-cap/application.md)
+already excludes all improving ordinary A9 square direct sums; this
+package preserves the earlier gate screen. The unbalanced
 A(8,9) -> M30 target passes every adopted square-block gate. Its exact integer
 score certificate would imply omega<=5621/2500=2.2484 if the missing maps
 were constructed. An independent item-first recurrence checks every

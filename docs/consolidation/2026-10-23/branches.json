@@ -1323,8 +1323,8 @@
     },
     {
       "branch": "research/endpoint-constructions-20261020",
-      "head_sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
-      "archive_tag": "archive/consolidation-20261023-165523/research/endpoint-constructions-20261020",
+      "head_sha": "f2b23e516e6839cec4e7e62e4ffe1b2c1e531ede",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/endpoint-constructions-20261020/f2b23e516e68",
       "pull_requests": [
         {
           "number": 37,
@@ -1354,7 +1354,14 @@
           "base_repo": "1337isnot1337/matrix-mult-bounds",
           "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/37"
         }
-      ]
+      ],
+      "earlier_heads": [
+        {
+          "head_sha": "91869fc7f5d3c0ddb5c8d2b55704886a71928adf",
+          "archive_tag": "archive/consolidation-20261023-165523/research/endpoint-constructions-20261020"
+        }
+      ],
+      "latest_capture": "closure_catchup_heads.json"
     },
     {
       "branch": "research/exact-rational-score-20261023",
@@ -2445,8 +2452,8 @@
     },
     {
       "branch": "research/operational-repair-20261023",
-      "head_sha": "494a6cca265de82aa45bd5abee0517a15516abc5",
-      "archive_tag": "archive/consolidation-20261023-165523/research/operational-repair-20261023",
+      "head_sha": "c4b1decc65c528c137b6077833e521d57a4b38c6",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/operational-repair-20261023/c4b1decc65c5",
       "pull_requests": [
         {
           "number": 130,
@@ -2476,7 +2483,14 @@
           "base_repo": "1337isnot1337/matrix-mult-bounds",
           "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/130"
         }
-      ]
+      ],
+      "earlier_heads": [
+        {
+          "head_sha": "494a6cca265de82aa45bd5abee0517a15516abc5",
+          "archive_tag": "archive/consolidation-20261023-165523/research/operational-repair-20261023"
+        }
+      ],
+      "latest_capture": "closure_catchup_heads.json"
     },
     {
       "branch": "research/paired-bundle-01a168f9",
@@ -3605,8 +3619,8 @@
     },
     {
       "branch": "research/singular-unit-resolvent-20261021",
-      "head_sha": "d9abcec0b22a1f90500b766d71bddba05809707a",
-      "archive_tag": "archive/consolidation-20261023-165523/research/singular-unit-resolvent-20261021",
+      "head_sha": "69f2de1bfee8c6c996bd153ea8207d5198209d27",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/singular-unit-resolvent-20261021/69f2de1bfee8",
       "pull_requests": [
         {
           "number": 103,
@@ -3636,7 +3650,14 @@
           "base_repo": "1337isnot1337/matrix-mult-bounds",
           "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/103"
         }
-      ]
+      ],
+      "earlier_heads": [
+        {
+          "head_sha": "d9abcec0b22a1f90500b766d71bddba05809707a",
+          "archive_tag": "archive/consolidation-20261023-165523/research/singular-unit-resolvent-20261021"
+        }
+      ],
+      "latest_capture": "closure_catchup_heads.json"
     },
     {
       "branch": "research/sl2-f8-native-all-cuts-20261023",
@@ -3835,8 +3856,8 @@
     },
     {
       "branch": "research/unbalanced-square-frontier-20261023",
-      "head_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
-      "archive_tag": "archive/consolidation-20261023-165523-updates/research/unbalanced-square-frontier-20261023/227fbe8fc64b",
+      "head_sha": "7bd28d2f9574e041d2689cae5cac299f55968f04",
+      "archive_tag": "archive/consolidation-20261023-165523-updates/research/unbalanced-square-frontier-20261023/7bd28d2f9574",
       "pull_requests": [
         {
           "number": 117,
@@ -3871,9 +3892,13 @@
         {
           "head_sha": "3382792295dec8018306920550f571dea560660b",
           "archive_tag": "archive/consolidation-20261023-165523/research/unbalanced-square-frontier-20261023"
+        },
+        {
+          "head_sha": "227fbe8fc64bcbd90d0ce82cbcbbee426afb2e83",
+          "archive_tag": "archive/consolidation-20261023-165523-updates/research/unbalanced-square-frontier-20261023/227fbe8fc64b"
         }
       ],
-      "latest_capture": "postvalidation_heads.json"
+      "latest_capture": "closure_catchup_heads.json"
     },
     {
       "branch": "research/unequal-entropy-audit-20261023",
@@ -4042,12 +4067,13 @@
       "pull_requests_at_prepublish": []
     }
   ],
-  "catchup_heads": 26,
-  "archived_head_snapshots": 155,
+  "catchup_heads": 30,
+  "archived_head_snapshots": 159,
   "prepublish_inventory_at": "2026-10-23T17:06:58.865959+00:00",
   "postvalidation_head_capture": "postvalidation_heads.json",
   "replacement_pull_request": {
     "number": 214,
     "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/214"
-  }
+  },
+  "closure_head_capture": "closure_catchup_heads.json"
 }
