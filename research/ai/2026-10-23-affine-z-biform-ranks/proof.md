@@ -37,7 +37,7 @@ each of degree <b. For a fixed column (H,r), the contraction of this row depende
 
     u(x)*lambda_r(x) + v(x)*lambda_(r+1)(x).             (3)
 
-Both products have degree at most (a-1)+(b-1)=m-2, and every H=0,...,m-1 occurs among the columns. Thus the active-row dependence is in the left kernel precisely when the following are complete polynomial identities:
+Both products have degree at most (a-1)+(b-1)=m-1, and every H=0,...,m-1 occurs among the columns. Thus the active-row dependence is in the left kernel precisely when the following are complete polynomial identities:
 
     u*lambda_r + v*lambda_(r+1) = 0, for r=0,...,a-1. (4)
 
