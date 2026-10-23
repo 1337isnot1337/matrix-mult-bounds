@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The nondivisor width-two source-cap continuation is on
+`research/nondivisor-cap-20261023`, in
+[the registered question](ai/2026-10-23-nondivisor-cap/QUESTION.md).
+Its bounded A5 discovery finds rank-at-least35 witnesses in every one
+of19 size11 order ideals. Acceptance minors and an all-size width-two
+proof are being developed; no complex source-space cap is claimed from
+that screen alone. PR129 retains the order-ideal method and PR171 the
+separate binomial rank calculation. No exponent improvement is claimed.
+
 The [fixed-resolvent rank-six checkpoint](ai/2026-10-23-resolvent-minrank/README.md)
 is on `research/resolvent-minrank-six-20261023`. Its exact certificate
 settles the minimum matrix rank of the 112-dimensional limiting space
