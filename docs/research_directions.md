@@ -284,8 +284,11 @@ The next owned algebraic question is equality at that rank. Singular
 constructions, including the A4 shear completion, remain open and are
 required before any smaller exponent claim.
 
-The [regular-unit A4 obstruction](../research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md)
-now closes every Laurent order with one regular full-rank long leg and a
-regular invertible source lift of a target identity. Further A4 searches
-must escape at least one of those hypotheses; increasing the other map's
-pole order alone does not suffice. General singular maps remain open.
+The [one-regular-long-leg A4 obstruction](../research/ai/2026-10-23-one-regular-leg/proof.md)
+now closes every Laurent order with either long map regular of rank110 at
+zero, without assumptions on the source lift of the target identity. A
+regular right-inverse kernel correction removes the earlier unit-image
+hypotheses. Further A4 constructions must have rank at most109 in both
+long-leg leading coefficients after scalar balancing. Increasing pole
+orders while keeping a full-rank long-leg limit cannot escape this proof.
+The remaining singular-long-leg case is open; no target is constructed.

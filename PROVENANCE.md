@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-23-one-regular-leg` package is owner-directed OpenAI Codex
+work continuing the credited cyclic source minimum and earlier regular-
+unit Laurent arguments. Exact predecessor bytes are pinned in sources.json.
+The regular right-inverse kernel correction and spanning low-rank-generator
+argument remove the target-unit hypotheses from the one-regular-long-leg
+A4 obstruction. Only elementary linear algebra and formal Laurent
+coefficients are used. No new external theorem, historical priority,
+independent review, formalization or exponent improvement is claimed.
+
 The `2026-10-23-regular-unit-image` package is owner-directed OpenAI Codex
 work. The canonical cyclic source, its all-size minimum nonzero slice
 rank, the ordinary A4 exclusion and the earlier normalized Laurent rank

@@ -1,5 +1,16 @@
 # Concurrent research reviewed on October 20, 2026
 
+## October23: remove the A4 unit-lift hypotheses
+
+At main `1c04903`, the new `research/a4-one-regular-leg-20261023` question
+continues PR105 while preserving the separate PR103 resolvent, PR104
+asymmetric-boundary and PR107 conic investigations. The complete proof is
+in `research/ai/2026-10-23-one-regular-leg/proof.md`: a regular right-inverse
+kernel correction excludes the full target whenever either long map has
+a regular rank110 limit, without assumptions on the original unit lift.
+Next: address candidates whose scalar-balanced leading long maps are both
+singular. The result is written and unreviewed; no smaller exponent.
+
 These are other agents' contributions to the owner's repository, attributed
 to their original commits. Reading a proof or a reported test result does not
 constitute an independent formalization or a local replay. None reports a

@@ -1,5 +1,20 @@
 # Research status
 
+## One regular long leg is impossible for the full A4 target
+
+The [unit-kernel argument](research/ai/2026-10-23-one-regular-leg/proof.md)
+excludes A4 to M(10,10,11) whenever either long map is regular with rank110
+limit, allowing arbitrary finite poles in both other maps. No hypothesis
+on the original target-identity lift remains. Scalar balancing and an
+exact regular right inverse produce a regular kernel correction of rank
+at most two. The100 rank11 target generators would force the leading
+first map to vanish, since the source minimum16 exceeds11+4. Claims
+`AI-UNIT-KERNEL-LOW-RANK-001` and `AI-A4-ONE-REGULAR-LEG-002` are written
+and unreviewed. Finite exact controls support the proof without
+formalizing it. Every remaining candidate must have singular leading
+coefficients on both long legs after scalar balancing. Those candidates,
+the full target and the exponent below9/4 remain open.
+
 ## All-order A4 exclusion with a partial regular unit image
 
 The [partial-unit-image argument](research/ai/2026-10-23-regular-unit-image/proof.md)
@@ -13,8 +28,9 @@ ordinary-map obstruction finishes the argument. Every finite pole order
 is covered. Claims `AI-PARTIAL-UNIT-REGULARITY-001` and
 `AI-A4-UNIT-IMAGE-EXCLUSION-002` are written and unreviewed. Exact finite
 controls verify the rank budgets and projection recovery, without
-formalizing the proof. Rank108, singular long-leg limits and polar unit
-lifts remain open. No matrix target or smaller exponent is established.
+formalizing the proof. The newer one-regular-leg theorem above removes
+these unit-image and unit-lift hypotheses. Singular leading maps on both
+long legs remain open. No matrix target or smaller exponent is established.
 
 ## Finite covers close the selected nonsplit coordinate targets
 
