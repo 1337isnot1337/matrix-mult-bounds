@@ -131,16 +131,19 @@ Status: open. The [route map](route-synthesis.md) compares the spectral,
 block-identity, and polynomial-separation interfaces. The
 [entropy-only oriented lift](oriented-lift-relaxation.md) projects exactly to
 its scalar matched-decomposition inequalities, even when decompositions share
-different legs. The exact Filmus convolution neighbor, general-tripling, and
-replication degenerations and componentwise restrictions give concrete graph
-rows. The `P_*` potential bounds every certificate using only those rows and
-input-swap symmetry from `C(a,a)` to `C(2,1)` by `L_a`, and
-`(2L_a)^3 < (2a-1)^4` for every `a>=2`; this family misses the strict
-improvement threshold. A candidate constraint absent from the scalar profile
-must add exact shared-leg maps or other tensor-level data beyond this row
-family, along with a source border-rank bound, nonnegative weights satisfying
-every balance, and terminal inflow `L>1/d` with `(dL)^3>r^4`. No qualifying
-graph or smaller exponent has been established.
+different legs. The exact Filmus convolution neighbor, square-tripling, and
+general-tripling shared-leg identities, replication degeneration, and
+componentwise restrictions give concrete graph rows. The `P_*` potential
+bounds every certificate using those rows and input-swap symmetry. From any
+rectangular source `C(u,v)` of border rank `u+v-1` to a thin terminal
+`C(q,1)`, it gives `qL<=P_*(u,v)` and
+`P_*(u,v)^3<=(u+v-1)^4`, with equality only at `C(1,1)`. The general
+`C(q,1)` terminal isomorphism and replication/restriction wrappers are
+written but not locally formalized. A candidate constraint absent from the
+scalar profile must add other exact shared-leg maps or tensor-level data, plus
+nonnegative weights satisfying every balance and terminal inflow
+`L>1/d` with `(dL)^3>r^4`. No qualifying graph or smaller exponent has been
+established.
 The scoped row-family obstruction is tracked as
 `AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.
 

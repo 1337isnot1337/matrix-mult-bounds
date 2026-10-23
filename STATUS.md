@@ -2,18 +2,19 @@
 
 ## Exact convolution graph row barrier
 
-The [R5 route map](docs/route-synthesis.md) identifies an exact pinned Filmus
-neighbor identity, general-tripling and replication degenerations packaged as
-shared-leg rows, componentwise restrictions, input-swap symmetry, a source
-border-rank bound for `C(a,a)`, and a square-matrix terminal at `C(2,1)`.
-The componentwise restriction, general-tripling and replication wrappers are
-not locally formalized. The
-existing `P_*` potential satisfies those graph rows and caps their weighted
-terminal inflow at `L_a`; the exact comparison gives
-`(2L_a)^3 < (2a-1)^4` for every `a>=2`.
+The [R5 route map](docs/route-synthesis.md) identifies pinned Filmus neighbor,
+square-tripling, and general-tripling shared-leg identities, a replication
+degeneration packaged as a shared-leg row, componentwise restrictions,
+input-swap symmetry, and border rank `u+v-1` for each rectangular source
+`C(u,v)`. A direct coordinate check extends the terminal `C(2,1)` to `C(q,1)`
+for every `q>=2`; that extension is written but not locally formalized.
+The replication and componentwise-restriction wrappers are not locally
+formalized. For source `C(u,v)` and terminal `C(q,1)`, the `P_*` potential
+gives `qL<=P_*(u,v)` and `P_*(u,v)^3<=(u+v-1)^4`; equality can occur only for
+source `C(1,1)`. The strict improvement criterion therefore never holds.
 Claim `AI-R5-CONVOLUTION-GRAPH-BARRIER-001` is written and unreviewed. It
 excludes only this restriction/neighbor/general-tripling/replication/input-swap
-row family with these endpoints.
+row family from rectangular convolution sources to thin terminals.
 Additional identities, other endpoints and stronger tensor-level constraints
 remain open. No smaller exponent is established.
 

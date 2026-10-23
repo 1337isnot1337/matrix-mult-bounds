@@ -136,8 +136,9 @@ excludes the critical spectral behavior. No exponent improvement is claimed.
 
 ## Exact Filmus convolution graph and its scalar barrier
 
-At Filmus's pinned commit, the neighboring-length and tripling providers do
-instantiate actual `SharedLegIdentity` records. Write `C(r,b)` for the
+At Filmus's pinned commit, neighboring-length, square-tripling, and
+general-tripling modules provide actual `SharedLegIdentity` records. Write
+`C(r,b)` for the
 convolution tensor, and write `x(C(r,b))` for a positive value assignment
 satisfying their induced inequalities. In the exponent theorem,
 `x(A)=normalizedValueAtOmega(A)`. For `r>=1` and `b>=2`, the neighbor identity
@@ -158,18 +159,18 @@ source declaration. It gives
 x(C(r,4r-1))\geq 3x(C(r,r)).
 \]
 
-Two more pinned degenerations can be packaged in the same shared-leg graph
-interface. The
-rectangular provider gives the general split
+The rectangular provider gives the general split
 `C(r,3s+r-1) -> 3 C(r,s)` for positive `r,s`; its supported three-sector sum
-has the same shared first leg and reversed, permuted middle block. The generic
-supported-sum helper packages it with source and output shapes of volume `1`.
+has the same shared first leg and reversed, permuted middle block. The pinned
+`generalTriplingSharedIdentity` theorem packages it with source and output
+shapes of volume `1`.
 The replication provider gives `C(mr,ms) -> m C(r,s)` for positive `m,r,s`
 over an infinite field. Its direct-sum sectors can be labeled on the two
 private legs and zero-padded on the common first-leg space, again with scalar
 shapes. The algebraic closure used by the exponent theorem is infinite, so
-this field hypothesis is available there. These wrappers are written here but
-were not locally formalized. The resulting rows are
+this field hypothesis is available there. The generic supported-sum helper
+packages replication as a shared-leg row; this wrapper is written here but
+was not formalized in this repository. The resulting rows are
 
 \[
 x(C(r,3s+r-1))\geq3x(C(r,s)),\qquad
@@ -191,12 +192,21 @@ The same pinned module gives an input-swap isomorphism \(C(r,s) \cong C(s,r)\),
 so their scalar vertex values are equal. The boundary symmetry used by the row
 certificate is a special case.
 
-The neighbor and square-tripling rows are not just formal sector sums: the
-pinned provider proves the source degenerations and the independent block
-identifications needed by `SharedLegIdentity`. The same pinned source gives
-the source border-rank bound `2a-1` for `C(a,a)` over an infinite field, and
-`symmetrize(C(2,1)) \cong M(2,2,2)`. Thus the family supplies an explicit
-graph from `C(a,a)` to the terminal `C(2,1)`.
+The pinned source proves the neighbor and square-tripling degenerations and
+the independent block identifications needed by `SharedLegIdentity`. It also
+gives source border-rank at most `u+v-1` for every `C(u,v)` over an infinite
+field, and formalizes `symmetrize(C(2,1)) \cong M(2,2,2)`. More generally,
+`C(q,1)` has coefficient `1` exactly when its two `Fin q` indices agree.
+After identifying each symmetrized leg with a pair of `Fin q` indices, its
+coefficient is
+
+\[
+\delta_{x_1,z_2}\delta_{z_1,y_2}\delta_{y_1,x_2},
+\]
+
+the matrix multiplication tensor `M(q,q,q)`. This extends the terminal
+isomorphism to every `q>=2` by a direct coordinate check; the pinned Lean
+source formalizes only `q=2`, and this general check is not formalized here.
 
 It still cannot meet the strict graph threshold using only these convolution
 edge rows: componentwise restriction, neighbor, general tripling, replication,
@@ -228,8 +238,9 @@ monotone in each coordinate: for fixed `a` and `b<a`,
 `P_*(a,b+1)-P_*(a,b)=h_b(a+2b)/(3b)>0`; for `b>=a`, the increment is
 `h_a>0`. By symmetry it is monotone in the first argument. Consequently, for
 any nonnegative edge weights satisfying the certificate balances with source
-`C(a,a)` and terminal `C(2,1)`, summing each row against this positive
-potential gives `L P_*(2,1)<=P_*(a,a)`. Thus the inflow cap is
+`C(u,v)` and terminal `C(q,1)`, summing each row against this positive
+potential gives `qL<=P_*(u,v)`, since `P_*(q,1)=q`. For the diagonal source
+`C(a,a)` and terminal `C(2,1)`, this specializes to the inflow cap
 
 \[
 \frac{P_*(a,a)}{P_*(2,1)}
@@ -253,8 +264,26 @@ For \(a\geq4\), \(h_a^3\leq \mathrm e(a-1)\) follows from
 then bounds the ratio by \(864\mathrm e/2401\). The elementary
 \(\mathrm e<11/4\) gives \(864\mathrm e/2401<2376/2401<1\). At `a=2,3`
 the ratios are respectively `1000/2187` and `175616/455625`.
+
+This diagonal estimate also controls every rectangular source `C(u,v)`.
+Let `m=min(u,v)` and `n=max(u,v)`. When `m=1`, `P_*(u,v)=n=u+v-1`,
+so `P_*(u,v)^3/(u+v-1)^4=1/n<=1`. When `m>=2`, regard `n` as real and set
+
+\[
+F(n)=\frac{h_m^3(n+(m-1)/2)^3}{(n+m-1)^4}.
+\]
+
+For `n>=m`,
+`d(log F)/dn=(m-1-n)/((n+(m-1)/2)(n+m-1))<0`. Hence
+`F(n)<=F(m)=(2L_m)^3/(2m-1)^4<1` by the diagonal estimate above. Therefore
+`P_*(u,v)^3<=(u+v-1)^4` for all positive `u,v`, with equality only when
+`u=v=1`. For any thin terminal `C(q,1)` with `q>=2`,
+`(qL)^3<=P_*(u,v)^3<=(u+v-1)^4`, so these graph rows never pass the strict
+improvement criterion for any rectangular source.
+
 The pinned row certificate attains `L_a`, so this is the optimal inflow for
-this fixed edge system. The product has the asymptotic
+the diagonal source `C(a,a)` and terminal `C(2,1)`. The product has the
+asymptotic
 
 \[
 h_a=\frac{\Gamma(a+1/3)}{\Gamma(4/3)\Gamma(a)}
@@ -262,13 +291,14 @@ h_a=\frac{\Gamma(a+1/3)}{\Gamma(4/3)\Gamma(a)}
 L_a\sim\frac{3}{4\Gamma(4/3)}a^{4/3}.
 \]
 
-Thus the resulting exponent bounds tend to `9/4` but do not pass the strict
-criterion. This rules out the current
-restriction/neighbor/general-tripling/replication/input-swap row family as a
-strict-improvement certificate with these endpoints. It does not rule out
-additional exact identities,
-different endpoints, or a constraint beyond this scalar edge system. This
-written, unreviewed conditional result is tracked as
+Thus the diagonal-source exponent bounds tend to `9/4` but do not pass the
+strict criterion. More generally, the current restriction/neighbor/general-
+tripling/replication/input-swap row family cannot give a strict improvement
+from any rectangular source `C(u,v)` to a thin terminal `C(q,1)` with `q>=2`.
+The input-swap isomorphism gives the same barrier for `C(1,q)`. Other terminal
+families, additional exact identities, and constraints beyond this scalar
+edge system remain open. This written, unreviewed conditional result is
+tracked as
 `AI-R5-CONVOLUTION-GRAPH-BARRIER-001`.
 
 ## Pinned sources and local interfaces
@@ -278,7 +308,7 @@ written, unreviewed conditional result is tracked as
 - Yuval Filmus, *Matrix multiplication from block identities*, commit
   [`8e38460`](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/tree/8e38460c2c04617692a64a826b09e8995ac8717d), frozen declaration [`identities_to_exponent_v2.lean`](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Frozen/identities_to_exponent_v2.lean). The source-level interface was inspected; its imported proof closure was not rebuilt here.
 - The same pinned Filmus commit's [shared convolution identities](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/ConvolutionSharedIdentities.lean), [neighbor degeneration](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Providers/ConvolutionNeighbor.lean), [tripling degeneration](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Providers/ConvolutionTripling.lean), [convolution potential](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Square/ConvolutionPotentialBound.lean), [yield formula](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Square/Yield.lean), [border-rank bound](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/ConvolutionRankBound.lean), and [terminal isomorphism](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/ConvolutionTerminal.lean). Provider hypotheses include `b>=2` or `r>=2`; the border-rank result assumes an infinite field.
-- The same commit's [generic supported-sum identity](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/SharedSumIdentity.lean), [general tripling provider](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Rectangular/Providers/ConvolutionGeneralTripling.lean), and [replication provider](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Rectangular/Providers/ConvolutionReplication.lean) supply the additional degenerations and packaging interface. Replication assumes an infinite field, satisfied after passage to the algebraic closure. The wrappers for these two edge families are written here from the pinned degenerations and generic helper; they were not added to or checked in the external Lean project.
+- The same commit's [general-tripling shared-leg identity](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/OrientedConvolutionIdentities.lean), [generic supported-sum identity](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Tensor/SharedSumIdentity.lean), [general tripling provider](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Rectangular/Providers/ConvolutionGeneralTripling.lean), and [replication provider](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Rectangular/Providers/ConvolutionReplication.lean) supply these rows and their source degenerations. Replication assumes an infinite field, satisfied after passage to the algebraic closure. The replication and restriction wrappers described above are written here from the pinned source results but were not formalized in this repository.
 - The same commit's [shared-leg value inequality](https://github.com/YuvalFilmus/matrix-multiplication-block-identities/blob/8e38460c2c04617692a64a826b09e8995ac8717d/BlockIdentities/Providers/SharedLegValue.lean) converts each exact identity and its matrix volumes into the value rows above.
 - Houxi Lü, *Polynomial Separation of a Shared Tensor Leg and Matrix Multiplication in Arbitrary Characteristic*, [arXiv:2610.18914v1](https://arxiv.org/html/2610.18914v1), Proposition 2.1 and equations (3.1)-(3.3). Its field-size requirement and degeneration hypotheses are part of the statement.
 - Local comparison points: [scalar profile and filtration note](../research/ai/2026-10-20/research_note.md), [direct-sum extraction](../research/ai/2026-10-20-affine-direct-sums/direct_sums.md), [fixed-label equivalence](../research/ai/2026-10-20-concavity-equivalence/research_note.md), and claims `AI-SCALAR-001` and `AI-REPLICATION-003` in [`research/claims.json`](../research/claims.json).

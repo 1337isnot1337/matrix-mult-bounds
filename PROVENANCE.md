@@ -1,18 +1,20 @@
 # Attribution and provenance
 
 The R5 convolution-graph audit is owner-directed OpenAI Codex work. Filmus's
-neighbor shared-leg identity, raw general-tripling and replication
-degenerations, componentwise restriction map, input-swap isomorphism, source
-border-rank bound, terminal isomorphism, and weighted row certificate are
-pinned to commit
+neighbor and square-tripling shared-leg identities, general-tripling and
+replication degenerations, componentwise restriction map, input-swap
+isomorphism, source border-rank bound, terminal isomorphism, and weighted row
+certificate are pinned to commit
 `8e38460c2c04617692a64a826b09e8995ac8717d`; their imported Lean proof closure
-was not rebuilt here. The local contribution packages the general-tripling
-and replication degenerations with the pinned supported-sum helper, packages
-the restriction as a one-child row, and uses the `P_*` potential to prove this
-fixed graph family misses the strict exponent criterion for every size. These
-local wrapper steps were not formalized here. This is a written, unreviewed
-conditional no-go; it does not exclude other graphs or establish an exponent
-improvement.
+was not rebuilt here. The pinned source already contains the general-tripling
+`SharedLegIdentity`. The local contribution packages the replication
+degeneration with the pinned supported-sum helper, packages the restriction
+as a one-child row, and uses the `P_*` potential to prove that every
+rectangular source `C(u,v)` with border rank `u+v-1` misses the strict
+criterion for thin terminals `C(q,1)`. The replication and restriction
+wrappers and the direct coordinate proof for general `q` are written but not
+formalized in this repository. This is an unreviewed conditional no-go; other
+terminals and exponent improvements remain open.
 
 The `2026-10-23-resolvent-minrank` package is owner-directed OpenAI Codex
 work. PR103 supplies the fixed square-zero resolvent and high/low limiting
