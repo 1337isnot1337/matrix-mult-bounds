@@ -1,6 +1,7 @@
 """Exact controls for the geometric Hankel bound in all characteristics."""
 import hashlib
 import importlib.util
+from itertools import product
 import json
 from pathlib import Path
 import unittest
@@ -36,6 +37,17 @@ class HankelAllCharacteristicsTests(unittest.TestCase):
         matrix = [[1, 1], [1, -1]]
         self.assertEqual(verify.rank_mod(matrix, 2), 1)
         self.assertEqual(verify.rank_mod(matrix, 3), 2)
+
+    def test_smallest_assignment_by_direct_polynomial_evaluation(self):
+        accepted = []
+        for coefficients in product(range(2), repeat=10):
+            h0, h1 = coefficients[:5], coefficients[5:]
+            # Evaluate h(w)(w*f) directly for w=s*x^2+t*y^2.
+            if all(sum((s*h0[k]+t*h1[k]) * (s*int(k == j)+t*int(k == j+2))
+                       for k in range(5)) % 2 == 0
+                   for s, t in product(range(2), repeat=2) for j in range(3)):
+                accepted.append(coefficients)
+        self.assertEqual(accepted, [(0,)*10, (0,0,0,1,0,0,1,0,0,0)])
 
     def test_pinned_local_sources(self):
         sources = json.loads((PACKAGE / 'sources.json').read_text())
