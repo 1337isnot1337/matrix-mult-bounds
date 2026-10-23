@@ -14,8 +14,10 @@ This raises the attained exact nine-coordinate comparison family from
 The underlying aggregation method is credited to the external sources
 in [sources.json](sources.json); the new family was found locally.
 
-This result does not improve the matrix multiplication exponent below
-9/4. It supplies a positive independent-product construction with a
+An exact weighted AM-GM certificate shows that the displayed budget
+cannot reach the exponent 9/4 through direct asymptotic-sum substitution
+at any local dimension. This is a statement about that cost formula,
+not a tensor-rank lower bound. It supplies a positive independent-product construction with a
 complete cost, not a restriction from the repository's polynomial
 source. No optimality, historical priority, independent review, or
 formalization is claimed.

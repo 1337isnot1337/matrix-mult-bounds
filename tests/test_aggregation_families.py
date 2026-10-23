@@ -39,6 +39,9 @@ class AggregationFamilyTests(unittest.TestCase):
         self.assertEqual(verify.check_family(old)["products"], 28)
         result = verify.comparison(self.witness, old)
         self.assertEqual(result["positive_coefficients"], {"9": 1, "8": 9, "7": 7, "6": 32})
+        scope = verify.direct_exponent_cost_scope(self.witness)
+        self.assertEqual(scope["strict_integer_margin"], 4716973042654866123349)
+        self.assertTrue(scope["displayed_budget_cannot_reach_omega_nine_fourths_by_direct_sum_bound"])
 
     def test_external_source_hash_is_enforced(self):
         self.assertTrue(verify.check_source_hash(PACKAGE / "baseline_ex28.txt")["verified"])

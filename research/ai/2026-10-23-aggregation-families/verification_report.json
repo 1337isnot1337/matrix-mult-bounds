@@ -64,5 +64,13 @@
       "6": 32
     },
     "strictly_positive_for_x_positive": true
+  },
+  "direct_exponent_cost_scope": {
+    "method": "Weighted AM-GM: n+1 >= 4*(n/3)^(3/4) for all real n>0",
+    "left_integer": 4722366482869645213696,
+    "right_integer": 5393440214779090347,
+    "strict_integer_margin": 4716973042654866123349,
+    "displayed_budget_cannot_reach_omega_nine_fourths_by_direct_sum_bound": true,
+    "scope": "The stated rank upper-bound polynomial only; no lower bound on optimal tensor rank or omega"
   }
 }

@@ -184,6 +184,27 @@ The external asymptotic sum inequality turns (1) into
  \quad(n\ge2).
 \]
 
+There is an exact all-n reason that this displayed budget cannot reach
+9/4 by this substitution. Weighted AM-GM gives
+
+\[
+ n+1=\frac n3+\frac n3+\frac n3+1
+ \ge 4\left(\frac n3\right)^{3/4}.
+\]
+
+Therefore `r29(n) >= (n+1)^9 > 29*n^(27/4)` for every real n>0.
+The strict step is certified by the integer identity
+
+\[
+ 4^{36}-29^4\,3^{27}
+ =4{,}716{,}973{,}042{,}654{,}866{,}123{,}349>0.
+\]
+
+This is a lower bound on the value of the **stated upper-bound
+polynomial**, not a lower bound on the true tensor rank or on omega.
+It rules out extracting an improved exponent from this cost formula
+alone, at every local dimension.
+
 For example, the floating evaluation at n=19 is about 2.719966, far
 above the current 9/4 baseline. This decimal is only an illustration
 of the distance to the target; the exact tensor identity and cost

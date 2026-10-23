@@ -2314,5 +2314,8 @@ over F101; it is an implementation control.
 The external aggregation mechanism retains credit. This is a positive
 finite construction with a written unreviewed uniform rank proof; it
 does not provide a polynomial-source restriction or an exponent below 9/4.
-No optimality, historical priority, independent review or formalization
-is claimed. Claim: AI-AGGREGATION-29-001.
+An exact weighted AM-GM certificate shows that this displayed cost
+formula cannot reach 9/4 by direct asymptotic-sum substitution at any n.
+This is not a lower bound on optimal tensor rank. No optimality,
+historical priority, independent review or formalization is claimed.
+Claim: AI-AGGREGATION-29-001.

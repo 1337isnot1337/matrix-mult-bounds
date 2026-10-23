@@ -162,6 +162,19 @@ def comparison(new: dict, old: dict) -> dict:
             "strictly_positive_for_x_positive": True}
 
 
+def direct_exponent_cost_scope(data: dict) -> dict:
+    """Exact AM-GM check of the displayed budget, not a tensor-rank lower bound."""
+    n_parts = data["part_size"]
+    outputs = len(data["products"])
+    left = 4 ** (12 * n_parts)
+    right = outputs ** 4 * 3 ** (9 * n_parts)
+    return {"method": "Weighted AM-GM: n+1 >= 4*(n/3)^(3/4) for all real n>0",
+            "left_integer": left, "right_integer": right,
+            "strict_integer_margin": left - right,
+            "displayed_budget_cannot_reach_omega_nine_fourths_by_direct_sum_bound": left > right,
+            "scope": "The stated rank upper-bound polynomial only; no lower bound on optimal tensor rank or omega"}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("witness", nargs="?", type=Path, default=HERE / "witness_29.json")
@@ -172,7 +185,8 @@ def main() -> None:
     old = baseline_data(HERE / "baseline_ex28.txt")
     report = {"source_integrity": check_source_hash(HERE / "baseline_ex28.txt"),
               "new_witness": check_family(data), "external_baseline": check_family(old),
-              "cost_comparison": comparison(data, old)}
+              "cost_comparison": comparison(data, old),
+              "direct_exponent_cost_scope": direct_exponent_cost_scope(data)}
     if args.export_seed:
         lines = [f"{old['coordinate_count']} {len(old['products'])}"]
         lines.extend(" ".join(str(sum(1 << value for value in row[key])) for key in ("U", "V", "W"))
