@@ -1,5 +1,23 @@
 # Attribution and provenance
 
+The October 23 `rank91-core` continuation is owner-directed AI-derived
+work. The canonical source, characteristic-zero order-ideal reduction,
+sharp source92/96 proof and complete target202 support argument retain
+their original credit and exact byte pins. The new source argument
+classifies the four dimension-68 equality profiles into eight nested
+strip ideals. Two credited coherent minors, a new coherent 26-minor
+and one new common-core 91-minor prove dimension at most 67 strictly
+below slice rank 91. No sharpness at dimension 67 is asserted.
+
+Its separate target implication preserves every earlier screen, proves
+mixed pair sums at most 133 and total balanced leading rank at most
+198, and identifies the two surviving integer endpoints. The complete
+pair and triple censuses are checked against the frozen202 censuses
+bit for bit. Internal structural audits and independently implemented
+minor replays support the written proof; they do not establish
+independent external review, formalization, historical priority,
+target existence, target sharpness or an exponent gain.
+
 The October 23 `rank92-rank96-spaces` and `leading-rank202` packages
 are owner-directed AI-derived work. The new source contribution proves
 sharp dimensions 68 and 72 at the strict slice-rank thresholds 92 and

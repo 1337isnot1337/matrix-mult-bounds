@@ -1,6 +1,36 @@
 # Research status
 
-## Total balanced A4 leading rank is at most 202
+## Total balanced A4 leading rank is at most 198
+
+The [rank91 core continuation](research/ai/2026-10-23-rank91-core/proof.md)
+proves that every complex A4 source space whose slices have rank strictly
+below 91 has dimension at most 67. This source cap is not claimed sharp.
+The four dimension-68 equality profiles from the preceding theorem
+reduce to eight strip ideals. Each contains one fixed 56-coordinate
+core with an odd 91-minor, or its transpose.
+
+For every complete complex Laurent A4 to M(10,10,11) presentation, the
+individually scalar-balanced leading ranks now satisfy a+b,a+c<=133,
+b+c<=136, and a+b+c<=198, where a is the short rank. All earlier
+screens and the implication a=100 => b,c<=28 remain in force. Arbitrary
+complex leading kernels, higher coefficients and finite Laurent poles
+remain allowed. The necessary total leading-rank loss is at least 122.
+
+The exact census retains every frozen202 exclusion and removes 60
+additional pairs and 5,250 additional triples. Its only total-198
+endpoints are (62,66,70) and (62,70,66). These numerical survivors do
+not construct target-compatible maps or establish target sharpness.
+Four exact minors, all eight ideals, 112 source-transposition identities,
+20,706 integer pairs and 1,050,804 triples are replayed. Eight focused
+tests cover corrupt witnesses, strict thresholds, complete retained
+censuses, source pins and scope.
+
+Claims AI-A4-RANK91-LINEAR-SPACE-001 and AI-A4-LEADING-RANK-SUM198-001
+remain written and unreviewed. Internal mathematical audits and exact
+replays are not independent external review or formalization. No
+matrix target or improved exponent is established.
+
+## Retained total202 prerequisite
 
 The [new target refinement](research/ai/2026-10-23-leading-rank202/proof.md)
 proves a+b+c<=202 for every complete complex Laurent A4 to M(10,10,11)
