@@ -22,6 +22,13 @@ compression of E must have image dimension at most 37. All killed
 Claim `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed; a universal
 lower bound of 38 and all successful full-target maps remain unproved.
 
+The two [recorded follow-up families](ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+are complete for principal coordinate compressions: the product of the
+specified noncommuting square-zero factors and the moving unit from their
+nonnilpotent sum both have no surviving pair. All 221 cases requiring
+re-saturation in the latter family were checked over Q. Do not repeat
+that finite coverage; arbitrary noncoordinate compressions remain open.
+
 The prescribed full two-jet question is now closed on d nonzero by
 `ai/2026-10-23-conic-fixed-two-curve/proof.md`. Exact maps of degrees
 eight and nine preserve all six supplied B/C coefficients through order

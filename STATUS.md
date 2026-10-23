@@ -35,6 +35,14 @@ the prior resolvent package's credit. Claim
 `AI-A4-TWOSIDED-LOWRANK-003` is written and unreviewed. The remaining
 universal lower bound of 38 is not proved.
 
+Two [finite two-sided follow-ups](research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+also screen all 6,216 principal coordinate pairs per family. A product
+of two noncommuting square-zero factors has no surviving pair. For the
+nonnilpotent moving-unit family, all 221 pairs surviving the first rank
+screen were re-saturated over Q and excluded by exact invariant-subspace
+identities. These completed experiments supply no full target and make
+no statement about arbitrary noncoordinate compressions.
+
 ## The prescribed full conic two-jet extends to all orders
 
 The [fixed-two-jet curve](research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

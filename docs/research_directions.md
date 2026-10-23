@@ -25,6 +25,12 @@ lower bound of 38 would close constant compressions for this family;
 a successful reduced pair would still need complete re-saturation and
 the full target coefficient identities.
 
+The [recorded two-factor and nonnilpotent follow-ups](../research/ai/2026-10-23-conjugation-limit/EXPLORATION.md)
+already close every principal coordinate compression for those two exact
+families. Their full rational re-saturation coverage is retained. A new
+experiment should change the compression class or singular family and
+still use complete target coefficient identities as its acceptance test.
+
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
 The [fixed-two conic curve](../research/ai/2026-10-23-conic-fixed-two-curve/proof.md)

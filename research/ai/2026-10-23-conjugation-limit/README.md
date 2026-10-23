@@ -82,13 +82,38 @@ below; they are not counted as part of that earlier tree's coverage.
 The result excludes this one fixed conjugation family for all principal
 coordinate compressions. For arbitrary constant compressions, it gives
 the necessary condition dim(PLC) <= 103. It does not exclude that remaining
-determinantal locus or moving compression maps. The next constructive
-experiment composes noncommuting unipotent factors and checks their full
-saturated spaces against the target.
+determinantal locus or moving compression maps. The explicit outer-space
+reduction above is the remaining constant-compression question.
 
 The mathematical status is written and unreviewed. No target construction,
 improved exponent, independent review, or formalization is claimed.
-Repository-wide validation is recorded separately before publication.
+The earlier repository-wide validation checkpoint is recorded below.
+
+## Completed two-sided follow-ups
+
+The [exploration note](EXPLORATION.md) retains two attempted escapes:
+a product of two noncommuting square-zero factors, and conjugation by a
+moving unit built from their nonnilpotent sum. Each experiment screens
+all 6,216 principal coordinate compressions. Neither supplies target maps.
+
+For the nonnilpotent family, 221 pairs survive the initial dimension
+screen. Complete rational re-saturation and exact polynomial replay were
+completed for every one. Each resulting limit has a recorded invariant
+subspace whose dimension is not divisible by ten, excluding the full
+matrix target. The other pairs are excluded by the rank-loss condition.
+The script checks these invariant identities over Q; modular ranks are
+used only to select the pairs requiring full re-saturation.
+
+These finite follow-ups add no separate theorem claim. They also give
+the elementary whole-subspace refinement
+`ell >= 10 ceil((s-2)/11)-1` when the scalar-action subspace has dimension s.
+For the two-factor family, s=29 and the necessary loss becomes 29.
+The retained [script](two_sided_escapes.py) and
+[report](../../../results/conjugation-limit-2026-10-23/escape-exploration.json)
+make the completed scope reproducible.
+The [follow-up receipt](../../../results/conjugation-limit-2026-10-23/escape-validation.json)
+records a byte-identical reproduction of both families from the retained
+script, including all 221 rational re-saturations.
 
 ## Frozen validation checkpoint
 
