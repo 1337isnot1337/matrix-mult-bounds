@@ -57,9 +57,24 @@ These are same-session checks, not independent mathematical review.
 Finite exact tests do not establish the universal algebraic-geometric
 dimension statements. Both claim records remain
 `proof-written-unreviewed`; neither is formalized or improves the
-matrix multiplication exponent. The full repository suite and archive
-replays were not rerun for this local handoff; integration validation is
-handled by the coordinating parent.
+matrix multiplication exponent.
+
+## Later full regression
+
+The coordinating parent subsequently completed the full local suite at
+commit `66c463682c899f3d6cffa5f5f438812bf0981fd4`, tree
+`931dfcffdf98fce09201d88569953457ebdd362c`. All 871 tests across 204
+modules passed, with no failures, errors or skips. The four disjoint
+groups contain 214, 206, 224 and 227 tests. All five archived reports
+replayed with identical exact payloads; both archive directories remain
+unchanged from `fe602e418743f37a7cfa54d788b64aaf8a9d6095`.
+
+The [full receipt](../../../results/first-support-capacity-2026-10-23/README.md)
+retains complete logs, status records, coverage identifiers and hashes.
+The Python files were not changed while packaging that evidence. The
+eighteen repository checks were rerun after the receipt and status text
+were added. These documentation checks are separate from the full
+871-test run; hosted CI at the final commit remains a separate gate.
 
 ## Artifact hashes
 

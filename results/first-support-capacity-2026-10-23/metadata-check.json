@@ -1,0 +1,32 @@
+{
+  "base_commit": "66c463682c899f3d6cffa5f5f438812bf0981fd4",
+  "scope": "Eighteen repository checks on the receipt working tree, after its documentation edits. This completion record and compressed log were written afterward. Separate from the full frozen 871-test suite; no Python edits or main-branch integration.",
+  "reproduction_command": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_research.py",
+    "-v"
+  ],
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "stage": "complete",
+  "tests": 18,
+  "passed": 18,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "result": "OK",
+  "exit_status": 0,
+  "unittest_elapsed_seconds": 0.119,
+  "log": "results/first-support-capacity-2026-10-23/metadata-check.log.gz",
+  "log_sha256": "6cb52ea9f1ea9c195d95e2c529d5c7a6397d850316b97c42c8edb968c762e6c1",
+  "uncompressed_log_sha256": "658ca7904dd402c4b66f26e7d0c91403e7670467799f935c8a56e8937269bd45"
+}

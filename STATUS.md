@@ -18,7 +18,9 @@ Its residual first rank is at least both
 For c=1 it is at least n-1 once n>=23, and at least 371 when n=200.
 Claims `AI-FIRST-SUPPORT-CAPACITY-001` and
 `AI-POLYNOMIAL-FIRST-MAP-OBSTRUCTION-002` are written and unreviewed.
-Eight exact-control tests pass. The ordinary theorem does not cover
+Eight exact-control tests pass. The [full regression receipt](results/first-support-capacity-2026-10-23/README.md)
+records 871 passing tests across 204 modules at `66c4636`, with no skips,
+and all five exact archive replays. The ordinary theorem does not cover
 arbitrary first maps or Laurent degenerations, and it leaves linear
 repair costs open. No smaller exponent is established.
 
