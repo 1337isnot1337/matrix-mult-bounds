@@ -184,9 +184,15 @@ remain distinct pending PRs.
 
 ## R1: Review the local sharpness theorem
 
-Status: open. Review the full all-integer proof, especially positivity of increments, the limiting slope, and the join at $a=b$. Distinguish the earlier recurrence from the local matching construction.
+An internal line-by-line [proof audit](../research/reviews/2026-10-23-scalar-profile/PROOF_REVIEW.md)
+at base `dcd209a` found no gap, including positivity of the increments, limiting
+slope, and join at $a=b$. This does not count as independent mathematical
+review; that review and any Lean formalization remain open.
 
-Deliver a proof review tied to a commit, a corrected proof, or a counterexample. A finite grid extension alone does not close this task. A Lean formalization is a separate deliverable, not a prerequisite for every discovery.
+The outstanding deliverable is an independent proof review, a correction, or a
+counterexample. The internal review and finite grids do not close that task.
+Distinguish the earlier recurrence from the local matching construction. A
+Lean formalization is separate and is not required for every discovery.
 
 ## R2: Decide compatibility with the product-filtration family
 
