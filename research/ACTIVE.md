@@ -1,5 +1,23 @@
 # Integrated research coordination
 
+The high-threshold source continuation is
+`ai/2026-10-23-high-rank-source-caps/proof.md`, on isolated branch
+`research/a4-high-rank-source-caps-20261023`, based on frozen PR176
+at 658e2d5. It proves sharp caps 84/88/92/96 strictly below source
+ranks 100/104/108/112, with exact staircase ranks 96/100/104/108.
+At full short leading rank 100, each positive long leading rank must
+lie in {1,...,12,20}. The numerical endpoint (100,20,20) is not a
+target construction. Complete literal-source, profile, minor and
+full-short integer controls are exported in the new result directory.
+All five claims remain written and unreviewed.
+
+This work preserves every file in the total-202 and rank-92/rank-96
+packages. The separate rank-91 investigation and its stronger global
+rank consequences belong to another branch and are not prerequisites.
+The current source maxima cannot be lowered at the same strict
+thresholds; future work must use other thresholds or extra structure
+of actual cancellation kernels. Entries below retain earlier checkpoints.
+
 The current A4 target refinement is
 `ai/2026-10-23-leading-rank202/proof.md`, on isolated branch
 `research/a4-leading-rank202-20261023`, following PR167. It retains

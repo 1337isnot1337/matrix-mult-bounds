@@ -1,11 +1,46 @@
 # Research status
 
-## Total balanced A4 leading rank is at most 202
+## Sharp source caps through rank 112 and the full-short long-rank gap
+
+The [high-threshold source proof](research/ai/2026-10-23-high-rank-source-caps/proof.md)
+determines maximum complex source-space dimensions 84, 88, 92 and 96
+when every A4 slice has rank strictly below 100, 104, 108 and 112,
+respectively. Complete layer-size cases prove the upper bounds after
+the credited order-ideal reduction. The credited d=3 staircase spaces
+attain all four dimensions; exact new minors show maximum slice ranks
+96, 100, 104 and 108. These strict thresholds cannot be replaced by
+weak inequalities at the same dimension caps.
+
+For every complete complex Laurent A4-to-M(10,10,11) presentation
+with individually balanced short leading rank 100, each long leading
+rank is at most 20. More precisely, each positive long rank belongs
+to {1,...,12,20}. The proof retains arbitrary complex leading kernels,
+higher coefficients and finite poles. The arithmetic endpoint
+(100,20,20) is not a target construction or a sharp-target assertion.
+
+Exact acceptance checks 245,157 nested layer-size profiles at all four
+thresholds, eleven credited coherent minors and four new source minors,
+all 112 literal-source factorizations, all 102 one-leg target decisions,
+and 10,404 full-short pairs. It retains 196 of the preceding 841 full-short
+triples, excluding 645 additional numerical possibilities. Eight focused
+tests cover source and target boundaries, support and minor corruption,
+source pins, retained prerequisites, and claim scope.
+
+Claims AI-A4-RANK100-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK104-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK108-SHARP-LINEAR-SPACE-001,
+AI-A4-RANK112-SHARP-LINEAR-SPACE-001, and
+AI-A4-FULL-SHORT-LONG20-001 remain written and unreviewed. No external
+independent review, formalization, matrix target or improved exponent
+is established. The separate rank-91 continuation is not imported here.
+
+## Retained total-202 and full-short-28 checkpoint
 
 The [new target refinement](research/ai/2026-10-23-leading-rank202/proof.md)
 proves a+b+c<=202 for every complete complex Laurent A4 to M(10,10,11)
 presentation, with a on the short target leg and all three leading ranks
-individually scalar balanced. If a=100, then b,c<=28. The total leading
+individually scalar balanced. Its earlier conclusion b,c<=28 at a=100
+is refined above. The total leading
 target-rank loss is at least 118. Arbitrary complex leading kernels,
 higher coefficients and finite Laurent poles remain allowed.
 

@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The October 23 `high-rank-source-caps` package is owner-directed
+AI-derived work. It preserves the canonical source, characteristic-zero
+order-ideal reduction, coherent minors, and all-size staircase credit.
+Its literal-source and minor acceptance routines are copied with exact
+attribution from the frozen rank-92/rank-96 package, then extended only
+in the new file. Discovery and acceptance retain distinct source
+reconstructions and pivot conventions. New results are the four complete
+layer-case bounds at strict ranks 100, 104, 108 and 112, four attained-rank
+minor certificates, and the necessary full-short long-rank set {1,...,12,20}.
+The target argument credits the unchanged full-short-28 and all-order
+saturated-support proofs. Internal separate derivations and exact
+replays do not constitute independent external mathematical review.
+The numerical endpoint (100,20,20) does not construct a target or prove
+target sharpness. No formalization, historical priority or exponent gain
+is claimed.
+
 The October 23 `rank92-rank96-spaces` and `leading-rank202` packages
 are owner-directed AI-derived work. The new source contribution proves
 sharp dimensions 68 and 72 at the strict slice-rank thresholds 92 and

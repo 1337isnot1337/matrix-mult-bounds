@@ -2,9 +2,21 @@
 
 These are proposed investigations, not claimed results. Each task has a concrete output and an explicit path to a downstream claim.
 
+The [high-threshold source maxima](../research/ai/2026-10-23-high-rank-source-caps/proof.md)
+are now 84, 88, 92 and 96 at strict slice-rank thresholds 100, 104,
+108 and 112. Their staircase witnesses rule out smaller universal
+caps at those same thresholds. The complete Laurent target consequence
+at full short leading rank 100 is the necessary long-rank set
+{1,...,12,20}, including the gap 13 through 19. Determine whether any
+surviving ranks admit target-compatible cancellation kernels and the
+complete target equations. The numerical endpoint (100,20,20) is only
+a screen endpoint. The separate rank-91/global-rank continuation remains
+independent of this full-short result.
+
 The [new leading-rank refinement](../research/ai/2026-10-23-leading-rank202/proof.md)
 forces total balanced rank at most 202, retaining every pair at most
-136. Short rank 100 forces each long rank at most 28. These necessary
+136. Its earlier full-short bound 28 is refined by the result above.
+These necessary
 conditions allow arbitrary complex kernels, higher coefficients and
 finite Laurent poles on the remaining map. Their exact floor constraints
 leave the unique numerical total-202 endpoint (70,66,66); this does not
