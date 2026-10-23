@@ -1,4 +1,4 @@
-# Validation of the column-overlap checkpoint
+# Historical validation of the column-overlap checkpoint
 
 The mathematical checkpoint is local commit
 `b0ccaa3fbacf86f9a330cd8bb25149fd748ad36e`, tree
@@ -6,9 +6,21 @@ The mathematical checkpoint is local commit
 `f8fdcd314d7a0740ebc36e70e76b348b8fa33935` in PR 215.
 
 The [machine-readable receipt](../../../results/column-overlap-2026-10-23/validation/report.json)
-records an exact union of passing evidence for all **903** tests in this
-tree. This is retained baseline coverage plus fresh affected checks.
+records an exact union of passing evidence for all **903** tests in that
+historical `b0ccaa3` tree. This is retained baseline coverage plus fresh affected checks.
 It is not a fresh complete regression run.
+
+After PR 215 merged, integrated main `6e11f7c1dfd73ae2d460e43f620a7f982920f043`
+contains **906** discovered tests. Its additional three tests belong to the
+top-coefficient biform package. The separate
+[integration receipt](../../../results/column-overlap-2026-10-23/integration-6e11f7c/report.json)
+records fresh passes for the six column-overlap tests and 18 shared checks
+on that integrated baseline, plus its exact inventory. These 24 passes
+are the fresh acceptance scope; no complete 906-test run is claimed.
+
+The historical JSON receipts and logs below remain byte-identical to the
+original validation commit. Their documentation hashes identify the
+original note and README before this integration clarification.
 
 ## Fresh acceptance
 
@@ -49,30 +61,30 @@ retained raw logs, including three tests whose progress messages split the
 test header from its final `ok`. The raw-log results agree with the saved
 shard results.
 
-The current evidence is therefore a disjoint union:
+The historical checkpoint's evidence is therefore a disjoint union:
 
 | Evidence | Unique test IDs |
 | --- | ---: |
 | Unchanged baseline tests with retained passing logs | 879 |
 | Fresh repository, profile, and support checks | 18 |
 | Fresh column-overlap tests | 6 |
-| Complete current inventory | **903** |
+| Complete historical `b0ccaa3` inventory | **903** |
 
 The [coverage record](../../../results/column-overlap-2026-10-23/validation/coverage.json)
-lists every contributing ID and the eight excluded A4 IDs. There are no
+lists every historical contributing ID and the eight excluded A4 IDs. There are no
 missing IDs or overlaps among the three contributing parts. Repeated
 focused checks and the final link check do not increase the count.
 
 ## Byte identity and historical replays
 
 The [source audit](../../../results/column-overlap-2026-10-23/validation/source-identity.json)
-compares main `bd03b9d`, the tested A4 baseline, and this checkpoint.
+compares main `bd03b9d`, the tested A4 baseline, and historical checkpoint `b0ccaa3`.
 All 739 original Python files and all 209 original test modules have
 identical Git blob identities. The same holds for 2,972 common files
 after excluding five shared documentation/claim paths. This branch
 changes four of those paths; the older baseline also changed the
-research-directions document. Fresh metadata tests cover the current
-documentation and ledger.
+research-directions document. The historical fresh metadata tests cover
+that checkpoint's documentation and ledger.
 
 Both protected archive trees, the dependency file, the replay runner,
 and the sharding runner are unchanged. The prior receipt records all

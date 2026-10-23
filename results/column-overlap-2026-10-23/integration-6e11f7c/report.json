@@ -1,0 +1,100 @@
+{
+  "artifact_sha256": {
+    "focused.log": "e02f96718307561a27a869023122a58a462e74a53b35d137fcb3a02c07f2ad05",
+    "inventory.json": "f3632de7d16378f02354b3009a4c2b7ac5039da294e7c4b6f18b37ecbb3d0a6a",
+    "shared.log": "7e57a3abb88245685c8c3c3ed5b0dac26a8aafe5852b89866a183d5e16ae0838"
+  },
+  "base_main_commit": "6e11f7c1dfd73ae2d460e43f620a7f982920f043",
+  "base_main_tree": "e23c60d866f32b350c211ee74de1a959f11d8038",
+  "completed_at_utc": "2026-10-23T18:50:50.913922+00:00",
+  "current_inventory_count": 906,
+  "current_inventory_module_count": 211,
+  "documentation_changes_present_during_tests": [
+    "research/ai/2026-10-23-column-overlap/README.md",
+    "research/ai/2026-10-23-column-overlap/VALIDATION.md"
+  ],
+  "documentation_sha256": {
+    "research/ai/2026-10-23-column-overlap/README.md": "2e956dc1ff4fdccd67a487f500e063a4522425eed283ed0417bb1c841343a014",
+    "research/ai/2026-10-23-column-overlap/VALIDATION.md": "241e9e911a0a67ebf7ba84881025a695a71fd413370bfb551e1a083d1e3e79f0"
+  },
+  "fresh_archive_replays_performed": false,
+  "fresh_checks": [
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -m unittest discover -s tests -p test_column_overlap.py -v",
+      "exit_code": 0,
+      "log": "focused.log",
+      "log_sha256": "e02f96718307561a27a869023122a58a462e74a53b35d137fcb3a02c07f2ad05",
+      "passed_test_ids": [
+        "test_column_overlap.ColumnOverlapTests.test_boundary_rank_loss_and_separately_polar_control",
+        "test_column_overlap.ColumnOverlapTests.test_complete_native_replay_matches_retained_report",
+        "test_column_overlap.ColumnOverlapTests.test_component_count_and_saturation_are_both_necessary",
+        "test_column_overlap.ColumnOverlapTests.test_damaged_integer_construction_is_rejected",
+        "test_column_overlap.ColumnOverlapTests.test_full_channel_sharp_bound",
+        "test_column_overlap.ColumnOverlapTests.test_source_pins_and_written_claim_scope"
+      ],
+      "seconds": 0.100936
+    },
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -m unittest discover -s tests -p test_research.py -v",
+      "exit_code": 0,
+      "log": "shared.log",
+      "log_sha256": "7e57a3abb88245685c8c3c3ed5b0dac26a8aafe5852b89866a183d5e16ae0838",
+      "passed_test_ids": [
+        "test_research.ProfileTests.test_closed_product_matches_recurrence",
+        "test_research.ProfileTests.test_concavity_identity",
+        "test_research.ProfileTests.test_conditional_numeric_example",
+        "test_research.ProfileTests.test_diagonal_join",
+        "test_research.ProfileTests.test_exact_rank_bound",
+        "test_research.ProfileTests.test_normalization",
+        "test_research.ProfileTests.test_replication",
+        "test_research.ProfileTests.test_tripling_equality_above_diagonal",
+        "test_research.RepositoryTests.test_archive_manifest",
+        "test_research.RepositoryTests.test_claim_ledger_status",
+        "test_research.RepositoryTests.test_normalization_retains_exact_evidence",
+        "test_research.RepositoryTests.test_relative_markdown_links",
+        "test_research.RepositoryTests.test_replayed_coverage",
+        "test_research.RepositoryTests.test_source_registry",
+        "test_research.SupportTests.test_full_convolution_recognition",
+        "test_research.SupportTests.test_nonnegative_weights_and_exact_zero_support",
+        "test_research.SupportTests.test_nonshared_legs_are_disjoint",
+        "test_research.SupportTests.test_recorded_witness_scores_are_exact"
+      ],
+      "seconds": 0.123459
+    }
+  ],
+  "fresh_full_suite_completed": false,
+  "fresh_passed_unique_test_count": 24,
+  "historical_artifact_sha256": {
+    "results/column-overlap-2026-10-23/validation/coverage.json": "978e7900c6247f3a2fb6b441a94d388e1f37c2ec4845a6e3b828697ef61296d2",
+    "results/column-overlap-2026-10-23/validation/exact-replay.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/column-overlap-2026-10-23/validation/final-links.log": "fc72890dd52015e2020ea447732d681cf3205adb7400f5adfeb46ef2f9af6a5d",
+    "results/column-overlap-2026-10-23/validation/focused.log": "6b79a6d05b613658f7061267cb5f22948be970a1cea22c2f418f1b4fa94d8c5c",
+    "results/column-overlap-2026-10-23/validation/metadata.log": "a09a584c1a7c7ca1d836ab0db27251b2777bb24b707a19fac5995c200554f4e2",
+    "results/column-overlap-2026-10-23/validation/report.json": "0761ddcd0b2775aea2e74f00573a3db84c1bc0a383b9138b73773a696e03d868",
+    "results/column-overlap-2026-10-23/validation/source-identity.json": "3d38ce02807117a863343319a4c8d71744fd6604f2d85e31787773fd87884846"
+  },
+  "historical_json_and_logs_unchanged": true,
+  "historical_snapshot_commit": "b0ccaa3fbacf86f9a330cd8bb25149fd748ad36e",
+  "historical_snapshot_inventory_count": 903,
+  "historical_validation_cherry_pick_commit": "635a3e8f44231c29b6290901ee06aebd40ccf975",
+  "historical_validation_source_commit": "2b2f760d1968499f27be062b3d575e2e7bf0b6e0",
+  "mathematical_file_sha256": {
+    "research/ai/2026-10-23-column-overlap/QUESTION.md": "092cdbd3294e406ed0596689eca627611a0ef5a03f2e9e0f2345259bf0dfbdb7",
+    "research/ai/2026-10-23-column-overlap/proof.md": "e1bfd38872455bc4196798dd8120943f6afb630c1b00e06eaeb2d47fbb9a26d1",
+    "research/ai/2026-10-23-column-overlap/sources.json": "fde1ed25dd22c8cddcb98c496b80fb0e0d2c0e061abc567bf69efd72a0f6c647",
+    "research/ai/2026-10-23-column-overlap/verify.py": "895f8102778da285f9c07562e57eaed36481599216f1edfd1677b532b0695409",
+    "results/column-overlap-2026-10-23/controls.json": "5a1f5e18ec86ce1bb304f5fdb025ba79f89abce8b2d9be889462ad2c1f149efa",
+    "tests/test_column_overlap.py": "b4dfc32272af7a05d3a9d0b5e10362fd3b8e0414b10c3ff450c9d1b34f8ae62c"
+  },
+  "mathematical_files_identical_to_historical_and_integrated_main": true,
+  "newly_discovered_tests_not_executed_in_this_followup": [
+    "test_top_coefficient_biforms.TopCoefficientBiformTests.test_exact_rational_backend",
+    "test_top_coefficient_biforms.TopCoefficientBiformTests.test_modular_acceptance_and_frozen_receipt",
+    "test_top_coefficient_biforms.TopCoefficientBiformTests.test_off_by_one_mutation_control"
+  ],
+  "python": "3.12.14",
+  "schema": "column-overlap-current-main-validation-v1",
+  "scope": "Documentation and historical-evidence publication on the integrated main baseline. The 906-test count is discovery only; the fresh passing scope is six focused tests plus 18 shared tests. No fresh full regression or archived replay was performed. Hosted CI remains a separate merge gate.",
+  "tested_checkout_commit": "635a3e8f44231c29b6290901ee06aebd40ccf975",
+  "tested_checkout_tree": "328f570a83e2656627dcd5f90aea89f4ba070b40"
+}
