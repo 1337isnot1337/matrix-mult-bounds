@@ -657,6 +657,14 @@ The historical note uses the word "proved" for its written arguments. The reposi
 
 The original monomial search uses exact rational arithmetic for witness acceptance. Its displayed best-case ordering uses floating-point ratios. Those displayed rankings are not exact optimization certificates. The replay ignores display-only floats when comparing reports.
 
+The owner-directed Codex continuation in
+research/ai/2026-10-23-exact-monomial-search/ adds a maintained exact-rational
+leaderboard and replayable support certificates for the same three finite
+search scopes. It preserves the historical files and the distinguished
+shared-leg orientation. The candidate maxima match the recorded ratios; the
+new result does not extend the mathematical search class or establish an
+exponent improvement. No independent review or Lean formalization is claimed.
+
 The historical note's mention of a possible $t=0$ case is unnecessary for the external character setup, which has $t>0$. Its scalar theorem does not depend on that aside. The immutable note retains its original wording.
 
 ## Licenses and review claims
