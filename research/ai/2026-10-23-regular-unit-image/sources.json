@@ -1,0 +1,28 @@
+{
+  "base_commit": "539b539dc4eac09114899fd76472aee2d78d9f62",
+  "field": "C",
+  "external_theorems_added": false,
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.md",
+      "sha256": "4ca101d6e82faca9ddf0c8a5852f57c4857b088bcc2eb9ba201c0e8b39c8fa63"
+    },
+    {
+      "path": "research/ai/2026-10-20-koszul/cyclic_finite_target.py",
+      "sha256": "f47226408dc6fbf07e39aa59e16cc035d7691493c7d6720c2f99417a0d10f24d"
+    },
+    {
+      "path": "research/ai/2026-10-21-cyclic-slice-determinants/unital_chart.md",
+      "sha256": "369b4347fb7303bc568aa42cbb029f994c87b3e22028c034d5731498207a8f5d"
+    }
+  ],
+  "attribution": "Prior source minimum-rank proof, ordinary-map exclusion and normalized Laurent rank lemma retain their original credit. Partial-unit-image completion and varying-left-inverse recovery are owner-directed Codex continuation.",
+  "concurrent_related_work": [
+    {
+      "pr": 103,
+      "head_at_inspection": "96f3b513acb1bc92a235dd9041ceae18b0fd4c83",
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/103",
+      "scope": "Fixed square-zero resolvent with rank16 limiting unit and constant compression. Separate from the rank109 regular-unit-image hypothesis; no result or review credit transferred."
+    }
+  ]
+}

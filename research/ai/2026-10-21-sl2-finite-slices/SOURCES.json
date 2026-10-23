@@ -1,0 +1,26 @@
+{
+  "external": [
+    {
+      "id": "DSP16-FLANDERS",
+      "url": "https://arxiv.org/pdf/1507.05375v2",
+      "version": "arXiv v2, April 20, 2016",
+      "inspected": "Section 1.1 arbitrary-field convention and Theorem 1.1",
+      "use": "Flanders/Meshulam bounded-rank matrix-space dimension theorem over every field. The finite SR(M_m)=m^2 reduction is restated in the prior split-cover proof. This theorem is external work."
+    }
+  ],
+  "local": [
+    {
+      "base_commit": "d833eb0265a3e107636e8a0678c14fc07df812c2",
+      "path": "research/ai/2026-10-21-a5-peirce/",
+      "use": "Explicit A5 F4 basis and idempotents guided the discovery lift to the actual nonsplit group. Acceptance independently reconstructs the full SL(2,F5) tensor and does not assume the lift, radical or entropy pilot."
+    },
+    {
+      "base_commit": "d833eb0265a3e107636e8a0678c14fc07df812c2",
+      "path": "research/ai/2026-10-21-central-cover-finite-slices/proof.md",
+      "use": "Credited finite matrix-multiplication slice-rank lower-bound reduction, proper-incidence closedness, cyclic cube comparison and coefficient-one field transfer. The new source certificates are for the actual nonsplit tensors."
+    }
+  ],
+  "independent_mathematical_review": false,
+  "lean_formalized": false,
+  "exponent_improvement": false
+}

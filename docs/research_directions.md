@@ -240,8 +240,12 @@ now forces abc<=986 for every one-copy coefficient-one coordinate/potential
 single target in the split cover A5 x C2, excluding M10 and M(9,10,11).
 Do not continue those split-cover searches in that class. A construction
 with general complex input mixing or a different source/power remains a
-separate question. The nonsplit covers
-still need a construction or a stronger obstruction.
+separate question. The [actual nonsplit finite covers](../research/ai/2026-10-21-sl2-finite-slices/proof.md)
+now exclude M10 in SL(2,F5) and every single target with abc>=2482 in
+SL(2,F5) x C2, including M(13,13,15), in the same one-copy coordinate/
+potential class. These three selected coordinate searches are closed.
+Further work must address a different target, higher source powers or
+general complex input mixing; do not infer exclusion of those cases.
 
 The [characteristic-two cost barrier](../research/ai/2026-10-21-a5-peirce/proof.md)
 now limits the global asymptotic slice-rank approach for these same three
