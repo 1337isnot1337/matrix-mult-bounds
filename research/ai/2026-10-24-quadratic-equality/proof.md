@@ -266,8 +266,8 @@ all-odd-characteristic argument without reducing a rational identity through
 an excluded denominator. The verifier also checks the differential and the
 scalar radical of the C-block.
 
-The unresolved boundary is characteristic-two equality classification. The
-current char2 cap argument gives a five-dimensional singular intersection
-with e=0 for a hypothetical noncompression equality space, and the
-six-dimensional singular-space equality lemma does not classify that
-intersection. No characteristic-two equality claim follows from this file.
+The companion [characteristic-two proof](characteristic-two.md) now closes
+the remaining equality case by classifying singular five-spaces and excluding
+their noncompression extensions. Its proof uses the integer-normalized factor,
+not the odd-characteristic Hessian formulas above. Compatible tensor maps,
+submaximal families and larger blocks remain separate questions.

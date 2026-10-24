@@ -1,0 +1,74 @@
+{
+  "literal_symbolic_controls": [
+    {
+      "label": "row_column_extension",
+      "source_size": 15,
+      "variables": [
+        "f",
+        "h",
+        "i"
+      ],
+      "determinant_mod_two": "1",
+      "literal_source_matches": true
+    },
+    {
+      "label": "kernel_first_coordinate",
+      "source_size": 15,
+      "variables": [
+        "a",
+        "d",
+        "g"
+      ],
+      "determinant_mod_two": "a**6",
+      "literal_source_matches": true
+    },
+    {
+      "label": "kernel_last_coordinate",
+      "source_size": 15,
+      "variables": [
+        "a",
+        "d",
+        "g"
+      ],
+      "determinant_mod_two": "g**6",
+      "literal_source_matches": true
+    },
+    {
+      "label": "kernel_middle_escape",
+      "source_size": 15,
+      "variables": [
+        "d"
+      ],
+      "determinant_mod_two": "d**5",
+      "literal_source_matches": true
+    },
+    {
+      "label": "off_conic_escape",
+      "source_size": 15,
+      "variables": [
+        "d",
+        "t"
+      ],
+      "determinant_mod_two": "d**5*t**5 + d**3*t**5 + d**2*t**6",
+      "literal_source_matches": true
+    }
+  ],
+  "literal_control_count": 5,
+  "middle_column_quartic_includes_adfi": true,
+  "middle_column_highest_degree": 12,
+  "highest_part": "(ai+cg)^2*T_top^2",
+  "left_coefficient_gcd_certificate": [
+    "a^2",
+    "g^2",
+    "d^2"
+  ],
+  "right_coefficient_gcd_certificate": [
+    "i^2",
+    "c^2",
+    "f^2"
+  ],
+  "binary_action_and_middle_coefficient_identities": true,
+  "scope": "Polynomial identities over F2; no finite-point census or exhaustive family search",
+  "independent_review": false,
+  "improves_omega": false
+}

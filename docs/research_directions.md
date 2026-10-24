@@ -1,15 +1,14 @@
 # Research directions
 
-The [odd-characteristic equality package](../research/ai/2026-10-24-quadratic-equality/README.md)
+The [quadratic equality package](../research/ai/2026-10-24-quadratic-equality/README.md)
 now classifies geometric rank14 six-spaces as the two coefficient compression
-types in every characteristic other than two. Its full tangent quadratic has
-rank at least five, including nonsemisimple blocks. Characteristics three and
-seven attain five, so a uniform rank-six or rank-seven strengthening is false.
-The precise remaining equality question is characteristic two: the intersection
-with the middle-coefficient hyperplane has dimension five, which the singular
-six-space lemma does not classify. Larger blocks and compatible three-leg maps
-are separate questions. Do not repeat the closed odd-characteristic equality
-route or count retained finite Hessian controls as new discovery.
+types over every field. Odd characteristic uses a full tangent quadratic;
+characteristic two uses singular five-spaces and affine-extension obstructions.
+The next questions concern submaximal noncompression families, larger blocks,
+or compatible three-leg maps constrained by the classified maximal families.
+A one-block classification still supplies no tensor target. Do not repeat
+maximal equality searches or the false uniform Hessian rank>=6/7 route:
+characteristics three and seven have exact rank-five controls.
 
 The [quadratic determinant package](../research/ai/2026-10-23-quadratic-determinant/README.md)
 now proves the sharp geometric rank14 linear-family dimension bound of
@@ -22,8 +21,8 @@ independent proof over Q.
 These results are written and unreviewed; the rational full-rank witness
 itself need not stay full rank after scalar extension.
 
-Continue by classifying geometric six-dimensional equality families or
-constructing compatible three-leg maps. The characteristic-two proof uses
+Use the classified maximal families when constructing compatible
+three-leg maps, or study submaximal families and larger blocks. The characteristic-two proof uses
 an integer-normalized factor before reduction; neither division by 2048
 after reduction nor the odd-characteristic second variation applies there.
 Finite binary point checks are not a replacement for geometric vanishing.
@@ -35,7 +34,7 @@ closes the Q version of the all-size one-unit-defect question: exactly
 those a>=3 with gcd(a+1,210)>1 attain it. New order-five and order-seven
 integer certificates provide sufficiency, while the smooth Jacobian
 and singular gluing cases give necessity. This narrows future work to
-larger blocks or geometric equality families, other ground fields with new order bounds,
+larger blocks or submaximal families, other ground fields with new order bounds,
 and compatibility across tensor legs. Repeating the old sixteen rational
 sign lifts adds no evidence; they do not contain the new witnesses.
 
@@ -54,9 +53,8 @@ now make the individual R_(3,3) spectrum constrain a source subspace:
 a binary family avoiding rank15 has dimension at most six, and a
 geometrically rank12 family over any field has the same sharp bound.
 The binary extremal-space census and F4 escape distinguish finite-point
-constraints from minor identities. Continue with geometric equality
-cases or applications imposing compatible
-three-leg maps. Preserve the distinction between this nine-coefficient
+constraints from minor identities. Use the new maximal classification
+above for applications imposing compatible three-leg maps. Preserve the distinction between this nine-coefficient
 block and the full cyclic source. All proofs remain unreviewed.
 
 The [quadratic torsion criterion](../research/ai/2026-10-23-quadratic-torsion/proof.md)

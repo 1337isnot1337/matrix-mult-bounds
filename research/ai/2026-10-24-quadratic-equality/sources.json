@@ -6,7 +6,7 @@
     {
       "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
       "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
-      "use": "Sections 1 and 8: literal source, universal determinant identity, odd-characteristic normalization and invertible-point identities. Section 9: singular six-space argument, re-proved here over every characteristic."
+      "use": "Sections 1 and 8: literal source, universal determinant identity, odd-characteristic normalization and invertible-point identities. Section 9: singular six-space argument, re-proved here over every characteristic. Section 9 also supplies the integer-normalized characteristic-two factor and middle-coefficient restriction. The five-space classification and extension exclusions are proved locally in the new note."
     },
     {
       "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
@@ -31,7 +31,15 @@
       "runtime_dependency": false
     }
   ],
-  "contribution": "Owner-directed Codex derivation and same-session audit. The Oct24 note adds the explicit differential, all-characteristic singular-space lemma and ground-field descent to the Oct23 scratch.",
+  "contribution": "Owner-directed Codex derivation and same-session audit. The Oct24 note adds the explicit differential, all-characteristic singular-space lemma and ground-field descent to the Oct23 scratch. The Oct24 characteristic-two continuation classifies singular five-spaces, derives the permitted binary normalizations, and excludes noncompression extensions by polynomial source determinants and a homogeneous-factor argument.",
   "independent_review": false,
-  "improves_omega": false
+  "improves_omega": false,
+  "integrated_main_commit": "c23340cc3e39a8fcac74da2dad4efa4dc72dc25d",
+  "correction_history": [
+    {
+      "stage": "Unpublished same-session draft",
+      "error": "The first middle-column quartic omitted a*d*f*i.",
+      "resolution": "Audit restored the term from the pinned T4 identity; the no-linear-factor proof is unchanged, and test_original_missing_adfi_term_is_rejected catches the omission."
+    }
+  ]
 }

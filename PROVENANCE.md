@@ -9,7 +9,12 @@ The October 23 scratch and its five finite controls are credited by hash;
 they are retained evidence, not new discovery cases. A separate same-session
 algebra audit checked the argument and requested the displayed differential
 and the complete singular-space lemma. This is not independent review.
-No new external theorem, formalization or exponent improvement is claimed.
+The characteristic-two continuation is a new same-session derivation of the
+singular five-space classification and its affine-extension exclusions.
+The audit corrected a missing adfi term before publication; the correction
+and exact mutation test are preserved. Five polynomial source determinants
+were checked directly in characteristic two. No new external theorem,
+formalization or exponent improvement is claimed.
 
 The `2026-10-23-quadratic-determinant` package is owner-directed OpenAI
 Codex work. It retains the literal crossed-source attribution and derives
