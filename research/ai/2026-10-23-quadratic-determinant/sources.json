@@ -1,0 +1,163 @@
+{
+  "base_main": "d60e367baf040013757cd48428b8de506d5e2b51",
+  "external_sources": [
+    {
+      "authors": "Brian Conrad (lectures and editing); Sam Lichtenstein (typed notes)",
+      "title": "Linear Algebraic Groups I (Stanford, Winter 2010)",
+      "version": "February 8, 2020 revision",
+      "url": "https://math.stanford.edu/~conrad/252Page/handouts/alggroups.pdf",
+      "locator": "Example A.5.2, printed/PDF page 77 (one-based)",
+      "sha256": "02eeb6fbad5145f99f137e49e234bec98063c9e92959fe979fbcd97b4924de45",
+      "snapshot_bytes": 946961,
+      "role": "Classical background, not a normalization imported without proof",
+      "imported_statement": "The classical isomorphism PGL2 ~= SO3 via conjugation on traceless two-by-two matrices. The package supplies a complete binary-conic proof of the pointwise lifting needed over Qbar and fixes its own coefficient convention.",
+      "read": "Primary cover and Example A.5.2 inspected in the generating session; the exact previously downloaded PDF is pinned."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0B2L",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0B2L",
+      "locator": "Lemma 33.20.4(2)",
+      "sha256": "0099de5d2b0711a208c3ef85d8b54d310f304038def4f14778dd5a0a301be56d",
+      "snapshot_bytes": 15648,
+      "imported_statement": "For an irreducible algebraic scheme, the dimension of the image closure is at most the dimension of the source.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact snapshot pin inherited from the merged quadratic-linear-spaces sources.json; not a newly downloaded snapshot."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0B2M",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0B2M",
+      "locator": "Lemma 33.20.5(2)",
+      "sha256": "3d807877ad849941b6c4f4af81ba00d5f9e24ecef76a5ba3131dcb64378511cb",
+      "snapshot_bytes": 14886,
+      "imported_statement": "Dimensions of products over a field add; applied to constant-rank incidence strata locally isomorphic to a base stratum times an affine space.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact snapshot pin inherited from the merged quadratic-linear-spaces sources.json; not a newly downloaded snapshot."
+    },
+    {
+      "authors": "The Stacks Project Authors",
+      "title": "The Stacks Project, tag 0B2P",
+      "version": "HTML snapshot retrieved October 23, 2026; exact response SHA-256 pinned below",
+      "url": "https://stacks.math.columbia.edu/tag/0B2P",
+      "locator": "Lemma 33.34.1",
+      "sha256": "5640a64be598b7e403c557cc0765c3bd37c2b653d713841f3e290a8bf23a82fc",
+      "snapshot_bytes": 13790,
+      "imported_statement": "Projective n-space over a field is a projective variety of dimension n.",
+      "read": "Primary statement and relevant proof inspected in this generating session. The content hash pins the retrieved HTML; live URLs can change.",
+      "snapshot_provenance": "Exact snapshot pin inherited from the merged quadratic-linear-spaces sources.json; not a newly downloaded snapshot."
+    }
+  ],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "sha256": "43c90e01de6d87ee56b733eb332829b0cbec839ea331f7063fc5f5a5515eea71",
+      "use": "Original literal crossed biform source, including every coefficient endpoint; construction credit only, not the source of this determinant identity."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-linear-spaces/proof.md",
+      "sha256": "70435c8b9f1197f3ab45f90149c283895b1f4d686883bfa4d47806ba4b3d5bb5",
+      "use": "Merged seven-point binary full-source-rank certificate and dimension-intersection theorem; its exact certificate is lifted to a rational full-rank three-space. Also supplies the geometric/pointwise rank distinction. No binary census is rerun."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-linear-spaces/sources.json",
+      "sha256": "d1aa54795b2d863fd94c9f20f9be3af16d62bc230104e55d1cad8d07bd0bcdf6",
+      "use": "Exact prior primary snapshot pins for the three elementary dimension inputs."
+    },
+    {
+      "path": "results/quadratic-linear-spaces-2026-10-23/controls.json",
+      "sha256": "cbba3efdb766f0697e0c5971285ea134c3896b73825758ee2014f84904b3a51b",
+      "use": "Merged upper_certificate field: basis masks 84,174,311 and seven odd integer source determinants. Only this compact certificate is inherited for the rational lift; the old exhaustive census is not new acceptance work."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/universal-identity-proof.md",
+      "sha256": "f65d41e5ad8aa141ef9941bf0dbb5b5c4a240e47bcc8d63d51e2c70eabc7d304",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/universal_identity_check.py",
+      "sha256": "eb0627a31b78de284f401f0bac184699c86ba73f750b5c373ac00f8d6a7d5a0a",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/universal-identity-checks.json",
+      "sha256": "d947416e90bf8f6c24b4cdb7cc7ff3a9cac55fa854272c489c886f19779eca66",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/coefficient-singular-cap-proof.md",
+      "sha256": "5e23eddeb95ba9165c49f7adc354526de219f2b1c83f5d9373a75477e7710279",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/edwards_determinant.py",
+      "sha256": "d6c090f66f2fcc1bb2f6a1b3cb753391ced7d2c84201a9966b260262f71e6627",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/edwards-determinant.json",
+      "sha256": "5d2a15c15179421d3e33e2adf871135f639ccd201ab145f9effbdebb4d9e9649",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/rational-rank14-cap-proof.md",
+      "sha256": "908a2405d9c3f17cce94b02b2ba481a4724a16ea48054bd6e85b08bd7484e5fb",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/curvature-audit.md",
+      "sha256": "26c08ae2b7b9921dddba46633a8a11a1f0dc312be711f69d9d6f5ff00d91b337",
+      "runtime_dependency": false,
+      "role": "Same-session algebra audit of the local odd-characteristic argument, not independent review or an external theorem."
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/characteristic-two-cap-proof.md",
+      "sha256": "5f97b7bdf2beb100b345315949988c4dd3e12c804820361829329319a1215ea2",
+      "runtime_dependency": false,
+      "role": "Same-session characteristic-two derivation and bounded scratch arithmetic; not independent review or a runtime dependency."
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/characteristic_two_residue.py",
+      "sha256": "7e873863ca120bbc0bfa20c6d4ab3e2d59c0c7ae4cbb575696f5812070d0e7d2",
+      "runtime_dependency": false,
+      "role": "Same-session characteristic-two derivation and bounded scratch arithmetic; not independent review or a runtime dependency."
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/characteristic-two-residue.json",
+      "sha256": "fa3cf9895004d3953a340bebfabd97f4af9f639079dc65ce655aae83a9b35ad5",
+      "runtime_dependency": false,
+      "role": "Same-session characteristic-two derivation and bounded scratch arithmetic; not independent review or a runtime dependency."
+    }
+  ],
+  "credited_prior_work": [
+    {
+      "path": "research/ai/2026-10-20-anisotropic-constructions/slice_rank_gap.md",
+      "scope": "Original crossed biform coefficient construction; retained attribution."
+    },
+    {
+      "pull_request": 223,
+      "url": "https://github.com/1337isnot1337/matrix-mult-bounds/pull/223",
+      "scope": "The exact seven-point binary full-rank certificate and dimension-intersection argument are credited prior work. This package lifts that compact certificate to an everywhere-full-rank rational three-space and deduces the sharp rational rank14 family cap. Prior geometric conventions and dimension-source pins are also retained."
+    }
+  ],
+  "local_work": "Explicit universal integer determinant identity via an SL2-by-SL2 dense normal form and three-variable parity-block calculation; polynomial factor alternative for geometrically bounded-rank spaces; classical singular 3x3-space bound rederived by incidence; independent rational lifting of the merged binary full-rank three-space; sharp geometric source-rank14 family dimension-six bound over every field. Odd characteristic uses an invertible-gradient and nondegenerate ternary quadratic expansion. Characteristic two uses the integral refinement det R=D^2 G9, its restriction det R|e=0=D^5, the equality case of six-dimensional singular coefficient spaces, and an explicit affine triangular determinant.",
+  "field_and_hypotheses": "The cleared polynomial identity is over Z and specializes in every characteristic. The original invariant rank criterion requires characteristic different from two. Factoring out 2048 over Z before reduction supplies a separate characteristic-two identity det R=D^2 G9. The sharp geometric source-rank14 dimension-six theorem holds over every field, with separate odd-characteristic and characteristic-two proofs. Geometric means the cap holds after algebraic closure; an infinite ground-field pointwise cap suffices, but that inference is not made over finite fields. The separate rational full-rank-three-space proof does not use the invariant identity.",
+  "finite_evidence": "29 exact rational coefficient matrices replaying five named and 24 seed-20261023 scratch inputs; three additional rational full-rank-three-space controls with denominator clearing and mod-two normalization; 18 reductions of six integer inputs over F3/F5/F7; one F2 full-rank boundary; symbolic Edwards parity blocks of sizes eight and seven. Five curvature certificates (two Q, one each F3/F5/F7) check 45 ordinary derivatives and 30 skew second derivatives by independent one-variable determinant expansion, including a size-two Jordan block over F5. The characteristic-two extension checks the explicit 15-term quartic, integral factorization with 776 integer terms and 174 residue terms, and one specialized four-variable symbolic literal 15x15 triangular determinant; it adds eight literal finite source controls (four F2 points and two F4 matrices with their transposes). Fourteen focused tests. These controls do not replace the universal proofs. No generic nine-variable symbolic 15x15 determinant, prior-verifier import, or binary census rerun.",
+  "discovery_boundary": "All scratch derivations, audits and exact controls were produced in the same generating session. Their hashes record provenance, not independent review. The maintained verifier reconstructs the literal source and checks bounded controls. The universal identity and all-field geometric dimension bound rely on the written proofs, not sampled agreement.",
+  "prior_credit": "The orthogonal correspondence and dimension facts retain their external attribution. The singular 3x3-space cap is explicitly a classical special-case rederivation. No historical-priority claim is made for the determinant formula or other invariant theory.",
+  "limitations": "No irreducibility assertion for the degree-twelve factor or classification of all source-rank14 spaces attaining dimension six; the equality classification used in characteristic two is only for singular coefficient spaces. No compatible tensor construction, degeneration or exponent improvement. No torsion/Mazur or unmerged attainment dependency. Finite pointwise caps are not identified with geometric caps without an infinite-field hypothesis.",
+  "ai_assistance": "Owner-directed Codex research with same-session checking. Written and unreviewed; no independent mathematical review.",
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false,
+  "local_differential_inputs": "No additional external structural theorem is imported. The proof writes out the characteristic-polynomial identity 8det(Q)=tr(Q)tr(adj S), the rank-one adjugate square identity, the gradient G and its zero Gram trace, and the formal quadratic coefficient along skew directions. It uses the exact unit factor Delta_0=det(H_N)^3 det S, not exponent two. Characteristic two is excluded throughout this local argument.",
+  "validation_baseline": {
+    "commit": "5ea78f5cde23f039d2e9be5ba4990156130d6aed",
+    "scope": "Published draft before Theorems D and E were added. Its full-suite snapshot is retained as a pre-extension baseline, not treated as a completed validation receipt for the extended proof."
+  },
+  "characteristic_two_inputs": "No additional external structural theorem is imported. The proof writes the integral polynomials A2 and T4, derives Delta=2048P12 before reduction and det R=D^2G9 after reduction, then uses det R|e=0=D^5. The six-dimensional singular coefficient-space equality case is proved by a rank-one-space lemma and a rank-two block projection with nondegenerate alternating polar form. Arbitrary GL3 basis changes are undone before applying the original-coordinate functional e=m11. The resulting affine triangular determinant (ai)^4(ai+bh)^2 is nonzero somewhere over the algebraic closure; this does not assert existence over the finite ground field."
+}

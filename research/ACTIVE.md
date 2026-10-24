@@ -1,22 +1,43 @@
 # Integrated research coordination
 
+The [quadratic determinant package](ai/2026-10-23-quadratic-determinant/README.md)
+now closes the geometric rank14 dimension bound at six over every field. The coefficient-singular factor has cap six; an explicit
+nondegenerate ternary second variation at every invertible zero of the
+other factor excludes a seven-space there. The proof covers nonsemisimple
+matrices and arbitrary odd characteristic. A separate characteristic-two
+argument factors the integer-normalized determinant and reduces a
+hypothetical seven-space to a forbidden extension of a singular six-space.
+Both arguments are written and unreviewed.
+The independent rational certificate transfer remains useful arithmetic
+evidence, but its three-dimensional full-rank family is only a Q-point
+assertion and must not be promoted to geometric full rank.
+
+Next precise questions: geometric equality cases of dimension six or
+compatible three-leg maps. The characteristic-two proof uses the integral
+factor before reduction; the uncleared identity and the curvature proof
+alone do not apply there. Do not repeat the closed dimension question
+or the old binary census. Finite-field pointwise
+vanishing is weaker than a polynomial minor identity.
+
 The [rational quadratic package](ai/2026-10-23-quadratic-rational-attainment/README.md)
 settles the all-size one-block attainment question over Q: the defect
 occurs iff gcd(a+1,210)>1. The proof uses Mazur only for the smooth
 Jacobian, handles nonsplit singular boundaries separately, and supplies
 exact order-five and order-seven witnesses outside the old sign-lift
 negative. Do not rerun that unchanged negative or infer a new exponent.
-Next: constrain linear families, establish the geometric rank14 cap,
+Next: classify geometric equality families, study larger blocks,
 or impose compatible three-leg maps. Claim status remains written and
 unreviewed; a torsion classification supplies no tensor target.
+
 The [split/double quadratic package](ai/2026-10-23-quadratic-split-attainment/README.md)
 gives explicit recurrence vectors and the rank-defect criterion for
 (z-x)(z-t*x). It closes four-rank attainment over algebraically closed
 fields at all balanced sizes a>=3. Rectangular clipping hides this defect
 when b differs from a. Other ground fields require their own attainment
 argument; do not repeat the failed sixteen rational sign lifts or infer
-rational attainment from algebraic closure. Geometric rank14 families and
-compatible three-leg maps remain useful next questions. Written and
+rational attainment from algebraic closure. Geometric equality families,
+larger blocks and compatible three-leg maps remain useful next questions.
+Written and
 unreviewed; no target or exponent improvement is supplied.
 
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
@@ -25,8 +46,7 @@ maximum dimension six, with a seven-matrix intersection certificate. The
 geometric rank12 bound is also six over every field. The complete binary
 extremal census is finite evidence, with an explicit F4 rank escape for
 an exceptional rank14 family. Do not infer geometric bounded rank from
-binary point checks. Next: geometric rank14 families over other fields,
-classification of geometric equality cases, or compatible three-leg maps.
+binary point checks. Next: classification of geometric equality cases or compatible three-leg maps.
 The block-subspace bounds are written and unreviewed; no target follows.
 
 The [quadratic torsion package](ai/2026-10-23-quadratic-torsion/README.md)

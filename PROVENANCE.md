@@ -1,5 +1,29 @@
 # Attribution and provenance
 
+The `2026-10-23-quadratic-determinant` package is owner-directed OpenAI
+Codex work. It retains the literal crossed-source attribution and derives
+its invariant factorization through the binary-quadratic orthogonal action,
+generic diagonalization and an exact Edwards-family determinant. The
+normal-form proof is written locally; the compatible classical orthogonal
+group identification is credited to Conrad/Lichtenstein, Linear Algebraic
+Groups I, February8,2020, ExampleA.5.2, with an exact primary PDF pin.
+The dimension-six result for singular three-by-three coefficient spaces
+is a local rederivation of a classical bounded-rank fact, with no priority
+claim. A local adjugate and second-variation argument closes the other
+factor in every odd characteristic, without a semisimplicity assumption.
+A separate characteristic-two proof uses an integral invariant factor,
+a local rederivation of the classical singular-six-space equality cases,
+and an explicit source determinant. These are written, unreviewed proofs,
+not historical-priority assertions.
+A separate rational
+argument lifts the exact binary certificate from the merged linear-space
+package using denominator clearing and parity; that earlier certificate
+retains its original credit. This proves the rational cap, without
+claiming that its full-rank witness family survives arbitrary extensions.
+Exact arithmetic
+and same-session auditing do not establish independent review,
+formalization, or an improved matrix-multiplication exponent.
+
 The `2026-10-23-quadratic-rational-attainment` package is owner-directed
 OpenAI Codex work. It credits the merged kernel-index, dichotomy and
 line-bundle torsion packages. Mazur retains credit for the rational
@@ -14,6 +38,7 @@ rank criterion. Discovery used elliptic-curve translation as a search aid;
 acceptance checks the displayed coefficient identities directly and does
 not import a Tate-normal-form assertion. No independent review,
 formalization, historical-priority claim or exponent improvement follows.
+
 The `2026-10-23-quadratic-split-attainment` package is owner-directed
 OpenAI Codex work. The merged quadratic kernel-index and dichotomy
 packages retain credit for the rank formula and four-value containment;
