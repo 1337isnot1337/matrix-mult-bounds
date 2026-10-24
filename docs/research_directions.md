@@ -1,5 +1,16 @@
 # Research directions
 
+The [odd-characteristic equality package](../research/ai/2026-10-24-quadratic-equality/README.md)
+now classifies geometric rank14 six-spaces as the two coefficient compression
+types in every characteristic other than two. Its full tangent quadratic has
+rank at least five, including nonsemisimple blocks. Characteristics three and
+seven attain five, so a uniform rank-six or rank-seven strengthening is false.
+The precise remaining equality question is characteristic two: the intersection
+with the middle-coefficient hyperplane has dimension five, which the singular
+six-space lemma does not classify. Larger blocks and compatible three-leg maps
+are separate questions. Do not repeat the closed odd-characteristic equality
+route or count retained finite Hessian controls as new discovery.
+
 The [quadratic determinant package](../research/ai/2026-10-23-quadratic-determinant/README.md)
 now proves the sharp geometric rank14 linear-family dimension bound of
 six over every field. The cubic coefficient-singular

@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-24-quadratic-equality` package is owner-directed Codex work.
+It retains the exact proof and source pins from the determinant package for
+the invariant factorization, normalization and invertible-point identities.
+It derives the full tangent quadratic, handles its exceptional characteristics,
+re-proves the singular six-space lemma and supplies ground-field descent.
+The October 23 scratch and its five finite controls are credited by hash;
+they are retained evidence, not new discovery cases. A separate same-session
+algebra audit checked the argument and requested the displayed differential
+and the complete singular-space lemma. This is not independent review.
+No new external theorem, formalization or exponent improvement is claimed.
+
 The `2026-10-23-quadratic-determinant` package is owner-directed OpenAI
 Codex work. It retains the literal crossed-source attribution and derives
 its invariant factorization through the binary-quadratic orthogonal action,

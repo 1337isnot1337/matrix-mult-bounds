@@ -1,5 +1,14 @@
 # Integrated research coordination
 
+The [odd-characteristic equality package](ai/2026-10-24-quadratic-equality/README.md)
+settles geometric rank14 equality families in dimension six outside
+characteristic two: exactly the common-kernel and common-left-kernel spaces.
+The full tangent quadratic excludes any invertible coefficient member; the
+singular-space lemma and descent finish the classification. The proof remains
+written and unreviewed. Next: characteristic-two equality cases, larger blocks
+or compatible three-leg maps. Do not repeat the uniform Hessian rank>=6/7
+route, refuted by the characteristic-three/seven rank-five controls.
+
 The [quadratic determinant package](ai/2026-10-23-quadratic-determinant/README.md)
 now closes the geometric rank14 dimension bound at six over every field. The coefficient-singular factor has cap six; an explicit
 nondegenerate ternary second variation at every invertible zero of the
@@ -12,7 +21,7 @@ The independent rational certificate transfer remains useful arithmetic
 evidence, but its three-dimensional full-rank family is only a Q-point
 assertion and must not be promoted to geometric full rank.
 
-Next precise questions: geometric equality cases of dimension six or
+Next precise questions: characteristic-two geometric equality cases or
 compatible three-leg maps. The characteristic-two proof uses the integral
 factor before reduction; the uncleared identity and the curvature proof
 alone do not apply there. Do not repeat the closed dimension question

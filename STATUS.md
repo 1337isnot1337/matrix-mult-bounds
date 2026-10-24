@@ -1,5 +1,20 @@
 # Research status
 
+## Odd-characteristic geometric equality classification
+
+The [quadratic equality proof](research/ai/2026-10-24-quadratic-equality/README.md)
+classifies every six-dimensional geometric rank-at-most-fourteen family in the
+nine-coefficient R_(3,3) block over fields of characteristic different from two:
+it is the full space with a common nonzero kernel vector or a common nonzero
+left-kernel vector. The tangent quadratic form at every invertible coefficient
+point has rank at least five, excluding a six-space through such a point.
+The proof includes nonsemisimple blocks, characteristics three and seven,
+the singular-space equality lemma and descent to the original field.
+Claim `AI-ODD-QUADRATIC-EQUALITY-001` is written and unreviewed. Five retained
+modular controls corroborate exact symbolic identities; they are not a census.
+Characteristic-two equality families and compatible tensor maps remain open.
+No exponent improvement is established.
+
 ## Sharp geometric rank14 dimension bound over every field
 
 The [quadratic determinant package](research/ai/2026-10-23-quadratic-determinant/README.md)
@@ -28,7 +43,7 @@ Claims `AI-QUADRATIC-DETERMINANT-INVARIANT-001`,
 `AI-RATIONAL-QUADRATIC-LINEAR-CAP-002`, and
 `AI-GEOMETRIC-QUADRATIC-LINEAR-CAP-003`, and
 `AI-CHAR2-GEOMETRIC-QUADRATIC-CAP-004` remain written and unreviewed.
-Geometric equality classification remains open. No compatible tensor target or exponent
+Characteristic-two geometric equality classification remains open. No compatible tensor target or exponent
 improvement follows from these block-subspace results.
 
 ## Exact rational quadratic attainment

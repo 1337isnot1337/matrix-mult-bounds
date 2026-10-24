@@ -1,0 +1,37 @@
+{
+  "base_commit": "4c34716c94c52d8bc2886d49ea8edab4fab91463",
+  "base_pr": 226,
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Sections 1 and 8: literal source, universal determinant identity, odd-characteristic normalization and invertible-point identities. Section 9: singular six-space argument, re-proved here over every characteristic."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Preserves prior external attribution and exact source versions; no new external result imported."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/equality-hessian-proof.md",
+      "sha256": "b26abe6b264f33902f9c991e5dcb512aadc06917e94ec6379fa830200be2e662",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/equality_hessian_check.py",
+      "sha256": "a8037ae73b28038eaf938240a7e5bafb087117daf09c76ebcb4a56a63a7615ad",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-geometric-rank14/continuation-2040/equality-hessian-checks.json",
+      "sha256": "02883b47dd9b219bdec3bb37a0846f685fa84c46b7151a23dc45a4ca8a1695fd",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex derivation and same-session audit. The Oct24 note adds the explicit differential, all-characteristic singular-space lemma and ground-field descent to the Oct23 scratch.",
+  "independent_review": false,
+  "improves_omega": false
+}
