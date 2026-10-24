@@ -1,0 +1,309 @@
+{
+  "scope": "Four exact rational prime-order recurrence certificates and bounded balanced source controls. All-size conclusions use the written geometric criterion.",
+  "discovery_boundary": "The order-five and order-seven integer vectors were supplied by the discovery run; this package verifies them without rerunning discovery.",
+  "integer_identity_scope": "The convolution identities hold over Z and reduce over every field. Each vector has a unit coefficient, so remains nonzero; the geometric order conclusion additionally needs the stated hypotheses.",
+  "coefficient_order": "triple u,v,w for u+z*v+z^2*w; polynomial coefficients ascending in x",
+  "recurrence_matrices_checked": 4,
+  "polynomial_equations_checked": 13,
+  "literal_source_matrices_checked": 10,
+  "small_auxiliary_scope": "Orders2 and3 use T2 andT3 only; no literal source claim at a=1,2",
+  "order_seven_characteristic_two_boundary": {
+    "reduced_triple": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "common_factor": [
+      1,
+      1
+    ],
+    "primitive_degree": 0,
+    "order_claim": false
+  },
+  "records": [
+    {
+      "order": 2,
+      "triple": [
+        [
+          0,
+          0,
+          1
+        ],
+        [],
+        [
+          -1
+        ]
+      ],
+      "kernel_polynomials": [
+        [],
+        [
+          1
+        ],
+        []
+      ],
+      "geometric_order_scope": "every field",
+      "recurrence_size": 3,
+      "recurrence_rank": 2,
+      "polynomial_equations_checked": 1,
+      "source_controls": [
+        {
+          "a": 3,
+          "matrix_size": 15,
+          "literal_rank": 14,
+          "multiple_of_order": true
+        },
+        {
+          "a": 4,
+          "matrix_size": 28,
+          "literal_rank": 24,
+          "multiple_of_order": false
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "triple": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "kernel_polynomials": [
+        [],
+        [
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        []
+      ],
+      "geometric_order_scope": "every field",
+      "recurrence_size": 8,
+      "recurrence_rank": 7,
+      "polynomial_equations_checked": 2,
+      "source_controls": [
+        {
+          "a": 4,
+          "matrix_size": 28,
+          "literal_rank": 24,
+          "multiple_of_order": false
+        },
+        {
+          "a": 5,
+          "matrix_size": 45,
+          "literal_rank": 34,
+          "multiple_of_order": true
+        },
+        {
+          "a": 8,
+          "matrix_size": 120,
+          "literal_rank": 79,
+          "multiple_of_order": true
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "triple": [
+        [
+          1,
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "kernel_polynomials": [
+        [
+          -1,
+          -2,
+          1,
+          2
+        ],
+        [
+          -1,
+          -1,
+          2,
+          1
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "geometric_order_scope": "every field",
+      "recurrence_size": 24,
+      "recurrence_rank": 23,
+      "polynomial_equations_checked": 4,
+      "source_controls": [
+        {
+          "a": 4,
+          "matrix_size": 28,
+          "literal_rank": 23,
+          "multiple_of_order": true
+        },
+        {
+          "a": 5,
+          "matrix_size": 45,
+          "literal_rank": 35,
+          "multiple_of_order": false
+        },
+        {
+          "a": 9,
+          "matrix_size": 153,
+          "literal_rank": 98,
+          "multiple_of_order": true
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "triple": [
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          4
+        ]
+      ],
+      "kernel_polynomials": [
+        [
+          -4,
+          -44,
+          -140,
+          -36,
+          384,
+          320
+        ],
+        [
+          -4,
+          -36,
+          -76,
+          68,
+          240,
+          64
+        ],
+        [
+          -4,
+          -28,
+          -28,
+          92,
+          96,
+          0
+        ],
+        [
+          -4,
+          -20,
+          4,
+          68,
+          16,
+          0
+        ],
+        [
+          -4,
+          -12,
+          20,
+          28,
+          0,
+          0
+        ],
+        [
+          -4,
+          -4,
+          20,
+          4,
+          0,
+          0
+        ],
+        [
+          -4,
+          4,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          -3,
+          6,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "geometric_order_scope": "characteristic different from two",
+      "recurrence_size": 48,
+      "recurrence_rank": 47,
+      "polynomial_equations_checked": 6,
+      "source_controls": [
+        {
+          "a": 6,
+          "matrix_size": 66,
+          "literal_rank": 47,
+          "multiple_of_order": true
+        },
+        {
+          "a": 7,
+          "matrix_size": 91,
+          "literal_rank": 63,
+          "multiple_of_order": false
+        }
+      ]
+    }
+  ],
+  "independent_review": false,
+  "improves_omega": false
+}

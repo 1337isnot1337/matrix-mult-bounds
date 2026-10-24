@@ -19,14 +19,25 @@ alone do not apply there. Do not repeat the closed dimension question
 or the old binary census. Finite-field pointwise
 vanishing is weaker than a polynomial minor identity.
 
+The [rational quadratic package](ai/2026-10-23-quadratic-rational-attainment/README.md)
+settles the all-size one-block attainment question over Q: the defect
+occurs iff gcd(a+1,210)>1. The proof uses Mazur only for the smooth
+Jacobian, handles nonsplit singular boundaries separately, and supplies
+exact order-five and order-seven witnesses outside the old sign-lift
+negative. Do not rerun that unchanged negative or infer a new exponent.
+Next: classify geometric equality families, study larger blocks,
+or impose compatible three-leg maps. Claim status remains written and
+unreviewed; a torsion classification supplies no tensor target.
+
 The [split/double quadratic package](ai/2026-10-23-quadratic-split-attainment/README.md)
 gives explicit recurrence vectors and the rank-defect criterion for
 (z-x)(z-t*x). It closes four-rank attainment over algebraically closed
 fields at all balanced sizes a>=3. Rectangular clipping hides this defect
 when b differs from a. Other ground fields require their own attainment
 argument; do not repeat the failed sixteen rational sign lifts or infer
-rational attainment from algebraic closure. Geometric rank14 families and
-compatible three-leg maps remain useful next questions. Written and
+rational attainment from algebraic closure. Geometric equality families,
+larger blocks and compatible three-leg maps remain useful next questions.
+Written and
 unreviewed; no target or exponent improvement is supplied.
 
 The [quadratic linear-space package](ai/2026-10-23-quadratic-linear-spaces/README.md)
