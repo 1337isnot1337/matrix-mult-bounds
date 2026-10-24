@@ -1,0 +1,99 @@
+{
+  "scope": "Exact tangent identities and five inherited finite controls",
+  "symbolic": {
+    "tangent_linear_coefficient": "8*d*(tr(B*C)-mu*x)",
+    "tangent_quadratic_coefficient": "4*d*(qC+q4)",
+    "four_block_substitution_and_Schur_complement": true,
+    "Schur_numerator_determinant": "d*(d^2+3*mu^4)",
+    "scalar_C_radical": true,
+    "displayed_tracefree_matrix": true,
+    "scaled_C_block_determinant": "12*mu^2*d*(mu^2-d)",
+    "C_skew_value": "mu",
+    "coefficient_ring": "Z[1/(2*mu*d)]"
+  },
+  "odd_prime_controls": [
+    {
+      "prime": 3,
+      "B": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "four_block_rank": 4,
+      "C_block_rank": 1,
+      "tangent_rank": 5
+    },
+    {
+      "prime": 5,
+      "B": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "four_block_rank": 4,
+      "C_block_rank": 3,
+      "tangent_rank": 7
+    },
+    {
+      "prime": 5,
+      "B": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "four_block_rank": 4,
+      "C_block_rank": 3,
+      "tangent_rank": 7
+    },
+    {
+      "prime": 7,
+      "B": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "four_block_rank": 2,
+      "C_block_rank": 3,
+      "tangent_rank": 5
+    },
+    {
+      "prime": 13,
+      "B": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "four_block_rank": 3,
+      "C_block_rank": 3,
+      "tangent_rank": 6
+    }
+  ],
+  "finite_control_count": 5,
+  "independent_review": false,
+  "improves_omega": false
+}

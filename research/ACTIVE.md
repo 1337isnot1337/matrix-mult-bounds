@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The [quadratic equality package](ai/2026-10-24-quadratic-equality/README.md)
+settles geometric rank14 equality families in dimension six over every field:
+exactly the common-kernel and common-left-kernel spaces. Odd characteristic
+uses a full tangent quadratic; characteristic two uses singular five-spaces
+and explicit extension obstructions. Both proofs remain written and unreviewed.
+Next: submaximal noncompression families, larger blocks, or compatible
+three-leg maps constrained by these maximal families. Do not repeat the
+closed equality question or the uniform Hessian rank>=6/7 route refuted by
+characteristic-three/seven rank-five controls.
+
 The [quadratic determinant package](ai/2026-10-23-quadratic-determinant/README.md)
 now closes the geometric rank14 dimension bound at six over every field. The coefficient-singular factor has cap six; an explicit
 nondegenerate ternary second variation at every invertible zero of the
@@ -12,8 +22,8 @@ The independent rational certificate transfer remains useful arithmetic
 evidence, but its three-dimensional full-rank family is only a Q-point
 assertion and must not be promoted to geometric full rank.
 
-Next precise questions: geometric equality cases of dimension six or
-compatible three-leg maps. The characteristic-two proof uses the integral
+Next precise questions: submaximal noncompression families, larger blocks
+or compatible three-leg maps. The characteristic-two proof uses the integral
 factor before reduction; the uncleared identity and the curvature proof
 alone do not apply there. Do not repeat the closed dimension question
 or the old binary census. Finite-field pointwise
@@ -25,7 +35,7 @@ occurs iff gcd(a+1,210)>1. The proof uses Mazur only for the smooth
 Jacobian, handles nonsplit singular boundaries separately, and supplies
 exact order-five and order-seven witnesses outside the old sign-lift
 negative. Do not rerun that unchanged negative or infer a new exponent.
-Next: classify geometric equality families, study larger blocks,
+Next: study submaximal families or larger blocks,
 or impose compatible three-leg maps. Claim status remains written and
 unreviewed; a torsion classification supplies no tensor target.
 
@@ -35,7 +45,7 @@ gives explicit recurrence vectors and the rank-defect criterion for
 fields at all balanced sizes a>=3. Rectangular clipping hides this defect
 when b differs from a. Other ground fields require their own attainment
 argument; do not repeat the failed sixteen rational sign lifts or infer
-rational attainment from algebraic closure. Geometric equality families,
+rational attainment from algebraic closure. Submaximal families,
 larger blocks and compatible three-leg maps remain useful next questions.
 Written and
 unreviewed; no target or exponent improvement is supplied.
@@ -46,7 +56,7 @@ maximum dimension six, with a seven-matrix intersection certificate. The
 geometric rank12 bound is also six over every field. The complete binary
 extremal census is finite evidence, with an explicit F4 rank escape for
 an exceptional rank14 family. Do not infer geometric bounded rank from
-binary point checks. Next: classification of geometric equality cases or compatible three-leg maps.
+binary point checks. The maximal classification above is now available for compatible three-leg maps.
 The block-subspace bounds are written and unreviewed; no target follows.
 
 The [quadratic torsion package](ai/2026-10-23-quadratic-torsion/README.md)

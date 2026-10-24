@@ -1,5 +1,23 @@
 # Research status
 
+## Geometric quadratic equality classification over every field
+
+The [quadratic equality package](research/ai/2026-10-24-quadratic-equality/README.md)
+classifies every six-dimensional geometric rank-at-most-fourteen family in the
+nine-coefficient R_(3,3) block over every field: it is the full space with a
+common nonzero kernel vector or a common nonzero left-kernel vector.
+In odd characteristic, the tangent quadratic at an invertible coefficient
+point has rank at least five, excluding a six-space through such a point.
+In characteristic two, the proof classifies the singular five-dimensional
+middle-coefficient section and excludes noncompression extensions using
+polynomial source determinants and a highest-degree factor argument.
+Both proofs descend to the original field. Claims
+`AI-ODD-QUADRATIC-EQUALITY-001` and `AI-CHAR2-QUADRATIC-EQUALITY-002` remain
+written and unreviewed. The retained five odd-prime controls and five symbolic
+characteristic-two source identities are corroboration, not independent review.
+Compatible tensor maps, submaximal families and larger blocks remain open.
+No exponent improvement is established.
+
 ## Sharp geometric rank14 dimension bound over every field
 
 The [quadratic determinant package](research/ai/2026-10-23-quadratic-determinant/README.md)
@@ -28,7 +46,7 @@ Claims `AI-QUADRATIC-DETERMINANT-INVARIANT-001`,
 `AI-RATIONAL-QUADRATIC-LINEAR-CAP-002`, and
 `AI-GEOMETRIC-QUADRATIC-LINEAR-CAP-003`, and
 `AI-CHAR2-GEOMETRIC-QUADRATIC-CAP-004` remain written and unreviewed.
-Geometric equality classification remains open. No compatible tensor target or exponent
+The separate equality package above now classifies maximal families over every field. No compatible tensor target or exponent
 improvement follows from these block-subspace results.
 
 ## Exact rational quadratic attainment
