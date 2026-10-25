@@ -1,5 +1,19 @@
 # Research status
 
+## Every characteristic-two singular two-section has a common kernel
+
+The [singular-pencil lemma](research/ai/2026-10-25-char2-singular-pencil/README.md)
+proves that any two-dimensional coefficient pencil with polynomial D=T4=0
+in characteristic two has a common right or left kernel over its ground
+field. Consequently every attaining three-space has such a kernel in its
+intrinsic singular two-section. The proof uses homogeneous adjugate factors
+and Plucker identities, without algebraic closure. A census of all43,435
+GF2 two-spaces supports the result, while an explicit pointwise counterexample
+shows why polynomial vanishing is essential. Claim
+`AI-CHAR2-SINGULAR-PENCIL-KERNEL-001` is written and unreviewed. Remaining
+non-evaluation kernel cases, ground-field forms and tensor maps remain open;
+no exponent improvement follows.
+
 ## A third universal maximal three-plane, outside the evaluation-kernel locus
 
 The [non-evaluation-kernel construction](research/ai/2026-10-25-quadratic-nonevaluation-three/README.md)

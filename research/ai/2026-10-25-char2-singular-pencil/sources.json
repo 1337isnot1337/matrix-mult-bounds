@@ -1,0 +1,78 @@
+{
+  "base_commit": "065c1472c18da17cb51561b414f3dd5a1a66de72",
+  "base_pr": 237,
+  "parent_source_commit": "5a3e9efe7e3f4c4617e6fabbd75cb2f996123a5e",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Literal coefficient quartic and complete quadratic source conventions."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Literal coefficient quartic and complete quadratic source conventions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/proof.md",
+      "sha256": "b3f3a4e841de033d8c87dab315fea736d6575a81f61cc3c74946e8e0e17abe3e",
+      "use": "Integral-linear-form lemma and permitted kernel-vector orbits."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/sources.json",
+      "sha256": "2118b562d7c075033040789298e6f6e446a820e65b060b35e644c492e5e4447c",
+      "use": "Integral-linear-form lemma and permitted kernel-vector orbits."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Original-coordinate adjugate conic identities."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Original-coordinate adjugate conic identities."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-evaluation-kernel/proof.md",
+      "sha256": "71415485c724e7c3366acfd52640d19f7ec318859665bc6d6664a9eb5c3b2cbd",
+      "use": "Scope of the already classified evaluation-kernel locus."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-evaluation-kernel/sources.json",
+      "sha256": "c58d5d4361bb41be4a5cc6e27b6df23151a50e3984fcd6e66f4fdbe2da2bf132",
+      "use": "Scope of the already classified evaluation-kernel locus."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/char2-singular-pencil-continuation-20261025/controls.json",
+      "sha256": "bf2d9b291a4f438eaf4083521ff53609ae63a394b583a47b6cfe87915ed5ddf5",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-singular-pencil-continuation-20261025/controls.py",
+      "sha256": "56401ccb6531fbacbd37a11daa714378853b4c3f59e6d1253a6c67804c7844bb",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-singular-pencil-continuation-20261025/ground-field-audit.md",
+      "sha256": "7e51e2e522ef075b33ccb4b58af014fd23d0a6b1dc8d176e1a4362c223c0655e",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-singular-pencil-continuation-20261025/pins.json",
+      "sha256": "69e33fbde76df503a14ea195370929cf557141b66bddedf1a885ee2e468d37a3",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-singular-pencil-continuation-20261025/proof-original.md",
+      "sha256": "ccdc98de06fb24f0ec1409d5dca1425d09dc0d3f6f02ae5671cf46683ce33c1f",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex primitive-adjugate pencil argument, ground-field Plucker refinement, complete GF2 pencil census and explicit pointwise counterexample. Original algebraic-closure assumption removed with a coefficient proof. Earlier packages retain adjugate, invariant, integral-form and orbit credit. Same-session audit is not independent review.",
+  "independent_review": false,
+  "improves_omega": false
+}

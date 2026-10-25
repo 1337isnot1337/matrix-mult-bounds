@@ -1,5 +1,15 @@
 # Attribution and provenance
 
+The `2026-10-25-char2-singular-pencil` package is owner-directed Codex
+work. It supplies the primitive-adjugate degree argument, ground-field
+Plucker refinement, section-kernel consequence, complete GF2 pencil census
+and explicit counterexample to pointwise vanishing. Earlier packages retain
+quartic, adjugate, integral-form and orbit attribution. The discovery's
+algebraic-closure assumption is removed by a coefficient proof, with exact
+source/discovery pins preserved. Same-session auditing and finite evidence
+are not independent review or formalization. No full attainer classification,
+historical priority or exponent improvement is claimed.
+
 The `2026-10-25-quadratic-nonevaluation-three` package is owner-directed
 Codex work. It supplies a third universal family, integer left/right source
 kernels, a unit-coefficient minor and a conic-type distinction. Prior packages

@@ -1,0 +1,43 @@
+{
+  "claim": "AI-CHAR2-SINGULAR-PENCIL-KERNEL-001",
+  "proof_scope": "every field of characteristic two, polynomial hypotheses",
+  "adjugate_identities": 2,
+  "conic_line_plucker_identities": 2,
+  "literal_polynomial_comparisons": 16,
+  "census": {
+    "scope": "all GF2 2D coefficient spaces, polynomial D=T4=0",
+    "all_two_spaces": 43435,
+    "singular_two_spaces": 8575,
+    "singular_T4_zero": 3623,
+    "eligible_generic_rank_at_most_one": 98,
+    "common_kernel_dimensions": {
+      "1,2": 49,
+      "2,1": 49,
+      "1,1": 957,
+      "0,1": 1284,
+      "1,0": 1284
+    },
+    "violations": []
+  },
+  "pointwise_trap": {
+    "basis_bits": [
+      10,
+      162
+    ],
+    "D_polynomial_bits": 0,
+    "T4_polynomial_bits": 12,
+    "T4_homogeneous": "s*t**2*(s+t)",
+    "common_kernel_dimensions": [
+      0,
+      0
+    ],
+    "vanishes_at_all_GF2_projective_points": true,
+    "polynomial_T4_zero": false
+  },
+  "finite_census_is_arbitrary_field_proof": false,
+  "computer_certifies_UFD_factorization_or_degree_argument": false,
+  "complete_char2_attainer_classification": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

@@ -1,6 +1,24 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR2-SINGULAR-PENCIL-KERNEL-001",
+      "title": "A common ground-field kernel for singular characteristic-two pencils and attainer sections",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-char2-singular-pencil/proof.md",
+      "statement": "Over every characteristic-two field K, a two-dimensional coefficient pencil with polynomial D=T4=0 has a common right or left kernel defined over K. The proof factors its homogeneous rank-one adjugate and uses Plucker identities to exclude two primitive moving linear kernel vectors; generic rank at most one is handled separately. Therefore the intrinsic singular two-section of every coefficient-invertible geometric rank-at-most-fourteen three-space has such a common kernel. A complete GF2 census finds 3623 qualifying pencils among43435 two-spaces, all with a common kernel. The explicit pencil [[0,s+t,0],[s,0,t],[0,t,0]] has D=0,T4=st\u00b2(s+t) and no common kernels, disproving the weaker GF2 pointwise formulation.",
+      "dependencies": [
+        "AI-CHAR2-QUADRATIC-SHARP-THREE-001 original-coordinate adjugate conic identities",
+        "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001 integral linear form and permitted kernel orbits",
+        "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001 prior evaluation-kernel classification scope",
+        "Local homogeneous UFD factorization, primitive-degree argument, Plucker identities and rank-one pencil lemma"
+      ],
+      "limitations": "Polynomial identities are essential; finite-field pointwise vanishing is insufficient. The finite GF2 census is not an arbitrary-field proof or computational certification of UFD factorization. Does not classify the remaining non-evaluation kernel cases or ground-field forms. Same-session auditing is not independent review or formalization. No historical priority, compatible tensor map or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-QUADRATIC-NONEVALUATION-THREE-001",
       "title": "Third universal maximal three-plane distinguished by a non-evaluation kernel",
       "origin": "Codex research directed by repository owner",
