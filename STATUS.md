@@ -1,5 +1,18 @@
 # Research status
 
+## Sharp invertible quadratic dimensions in every characteristic
+
+The [odd-characteristic four-space](research/ai/2026-10-25-quadratic-odd-sharp-four/README.md)
+attains the existing cap four over every field of characteristic different from
+two, including zero. It is M(t,b,c,f)=[[8t,b,c],[0,4t,f],[0,0,t]], with coefficient
+determinant 32t^3. Its polynomial kernel and literal 14-minor -2^18*t^14 prove exact
+source rank fourteen whenever t is nonzero. Combined with the separate
+characteristic-two result below, the maximum dimension of a geometric rank-at-most-fourteen
+family with coefficient determinant not identically zero is **three in
+characteristic two and four otherwise**. Claim `AI-ODD-QUADRATIC-SHARP-FOUR-001`
+is written and unreviewed. Attainer classification and compatible tensor maps
+remain open; no exponent improvement is established.
+
 ## Sharp invertible quadratic bound in characteristic two
 
 The [sharp characteristic-two package](research/ai/2026-10-25-quadratic-char2-sharp-three/README.md)
@@ -10,7 +23,7 @@ A singular-three-space classification and adjugate factorization exclude
 the alternating case; explicit extension obstructions close every kernel
 and compression case, including rank-one middle sections.
 Claim `AI-CHAR2-QUADRATIC-SHARP-THREE-001` is written and unreviewed.
-Outside characteristic two the maximum remains in [3,4]. Classification
+Outside characteristic two the new four-space above attains the cap four. Classification
 of all attaining three-spaces and compatible tensor maps remain open;
 no exponent improvement is established.
 
@@ -23,11 +36,11 @@ coefficient determinant not identically zero has dimension at most four in
 characteristic two. The proof supplies an integral linear form, classifies singular
 four-spaces, and excludes every permitted kernel or compression extension. Together
 with the preceding odd-characteristic cap and universal three-plane, the maximum
-invertible-family dimension lies in [3,4]; the sharp continuation above now gives exactly three in characteristic two. Singular six-spaces
+invertible-family dimension was bounded in [3,4]; the sharp continuations above now give three in characteristic two and four otherwise. Singular six-spaces
 remain possible. Claim `AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001` is written and
 unreviewed. Exact identities and same-session auditing provide corroboration, not
-independent review. Dimension-four sharpness outside characteristic two remains open; the existing three-plane
-has no larger extension. No exponent improvement follows.
+independent review. The new four-space above settles sharpness outside characteristic two; the existing three-plane
+still has no larger extension. No exponent improvement follows.
 
 ## A universal invertible quadratic three-plane
 
@@ -41,10 +54,10 @@ square root or exceptional-prime restriction is needed. This particular three-pl
 admits no fourth direction preserving the geometric rank cap, although other
 four-spaces are not excluded. Together with the preceding upper-bound packages, the
 maximum dimension among geometric rank-at-most-fourteen families containing an
-invertible coefficient point now lies in [3,4] over every field, using the
-characteristic-two continuation above. Singular six-spaces continue to exist. Claim
+invertible coefficient point is now three in characteristic two and four otherwise, using the
+sharp continuations above. Singular six-spaces continue to exist. Claim
 `AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001` remains written and unreviewed.
-Dimension-four sharpness outside characteristic two remains open; no compatible tensor map or exponent
+The new four-space above supplies dimension-four sharpness outside characteristic two; no compatible tensor map or exponent
 improvement is established.
 
 ## Invertible quadratic families: cap four outside characteristic two
@@ -58,7 +71,7 @@ uses the rank-six tangent radical and a cubic line coefficient, not a generic
 rank-seven assertion. An explicit two-plane over fields containing a square root of
 -1 has coefficient determinant4*x^3 and a source14-minor equal to16 at its integer
 basepoint. This earlier lower bound two is strengthened by the universal three-plane
-above. Sharpness of the upper bound four remains open; the continuation above closes
+above. Sharpness of the upper bound four is supplied above; the separate continuation closes
 characteristic two. Claims `AI-CHAR3-QUADRATIC-INVERTIBLE-001` and
 `AI-QUADRATIC-INVERTIBLE-TWO-PLANE-002` remain written and unreviewed; no compatible
 tensor map or exponent improvement is established.
@@ -72,10 +85,10 @@ matrix has dimension at most four in characteristic different from two and three
 Hence every family of dimension at least five has identically singular coefficients
 in these characteristics. A constant Gram ratio forces a rank-one Frobenius norm; a
 determinant-gradient line then contradicts the first two determinant coefficients.
-The upper bound is not asserted sharp. Claim `AI-QUADRATIC-INVERTIBLE-STRATUM-001`
+The new four-space above attains this upper bound. Claim `AI-QUADRATIC-INVERTIBLE-STRATUM-001`
 remains written and unreviewed. The continuation above closes characteristic three;
-the package above closes characteristic two. Sharpness and compatible tensor maps
-remain open. No exponent improvement is established.
+the package above closes characteristic two. Compatible tensor maps
+remain open; sharpness is supplied above. No exponent improvement is established.
 
 ## Geometric quadratic equality classification over every field
 

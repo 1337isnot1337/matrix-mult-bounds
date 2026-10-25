@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-odd-sharp-four` package is owner-directed Codex
+work. It supplies the integral four-space, polynomial source kernel and uniform
+power-of-two 14-minor, with a small-block hand derivation. The prior packages retain
+source-convention, invariant and upper-bound credit. Exact dependency/discovery
+pins and a separate same-session audit are preserved. A failed mixed-compression
+T4 assertion was corrected in scratch and is not a premise of the result.
+Same-session computation is not independent review; no historical priority,
+formalization, complete attainer classification or exponent improvement is claimed.
+
 The `2026-10-25-quadratic-char2-sharp-three` package is owner-directed
 Codex work. It derives a singular-three-space classification, an adjugate
 conic factorization and extension obstructions for every kernel orbit and

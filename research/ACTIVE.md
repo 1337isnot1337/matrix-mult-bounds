@@ -1,12 +1,20 @@
 # Integrated research coordination
 
+The [odd-characteristic four-space](ai/2026-10-25-quadratic-odd-sharp-four/README.md)
+now closes the invertible-family dimension question: the maximum is three in
+characteristic two and four otherwise. Its integer kernel and minor -2^18*t^14
+work over every field of characteristic different from two, without adjoining
+roots. Do not repeat a global odd-characteristic cap-three search or the closed
+sharpness question. Next: classify attaining families or construct compatible
+three-leg tensor maps. The proof remains written and unreviewed; no exponent gain.
+
 The [sharp characteristic-two proof](ai/2026-10-25-quadratic-char2-sharp-three/README.md)
 now gives maximum invertible-family dimension exactly three in
 characteristic two, attained by the universal three-plane. Every
 four-space is excluded, including rank-one middle-section and primitive
 alternating cases. Do not repeat this closed dimension question.
-Next precise questions: the three-versus-four gap outside characteristic
-two, classification of attaining three-spaces, or compatible tensor maps.
+Next precise questions: classification of attaining families or compatible tensor maps.
+The four-space above closes the former three-versus-four gap.
 The proof is written and unreviewed; no exponent gain follows.
 
 The [characteristic-two cap-four
@@ -14,8 +22,8 @@ proof](ai/2026-10-25-quadratic-char2-cap-four/README.md) now completes the
 invertible-family cap four over every field. Its integral linear form and
 singular-four-space cases exclude a five-space in characteristic two. The maximum
 dimension was bounded in [3,4] over every field; the continuation above
-now gives exactly three in characteristic two. Next: outside characteristic
-two, construct a different four-space or exclude all four-spaces. The universal three-plane admits no fourth
+now gives exactly three in characteristic two. The new four-space above settles sharpness outside characteristic
+two. The universal three-plane admits no fourth
 direction. Do not repeat the closed five-space question. Evidence remains written and
 unreviewed, with exact algebraic corroboration and no exponent improvement.
 
@@ -25,7 +33,7 @@ containing an invertible coefficient point. A polynomial source kernel and the
 monomial14-minor -x^6*y^3*z^5 give exact rank14 whenever xyz is nonzero. The
 basepoint minor is a unit; no field extension is needed. This particular three-plane
 has no larger linear extension; do not retry its already excluded fourth directions.
-Next precise question: dimension-four sharpness outside characteristic two. The earlier
+Dimension-four sharpness outside characteristic two is now supplied above. The earlier
 [characteristic-three continuation](ai/2026-10-25-quadratic-char3-stratum/README.md)
 already completes the odd-characteristic cap four; do not reopen it. Claims remain
 written and unreviewed; no tensor map or exponent gain follows.
@@ -34,8 +42,8 @@ The [invertible-stratum
 package](ai/2026-10-25-quadratic-invertible-stratum/README.md) settles the next
 submaximal obstruction: outside characteristics two and three, a geometric rank14
 family containing an invertible coefficient point has dimension at most four. The
-claim remains written and unreviewed. Next precise question is sharpness of the upper
-bound; the new continuation closes characteristic two. The odd-characteristic
+claim remains written and unreviewed. The new construction supplies sharpness of the upper
+bound; the separate continuation closes characteristic two. The odd-characteristic
 integral linear form now supplies the characteristic-three continuation described
 above. No new coordinate-support census or trace-only five/151 exception search is
 needed; the recorded obstructions already settle those routes.
