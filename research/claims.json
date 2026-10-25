@@ -1,6 +1,26 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR2-QUADRATIC-ATTAINERS-001",
+      "title": "Exactly three geometric characteristic-two quadratic attainers",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-char2-attainer-classification/proof.md",
+      "statement": "Over an algebraically closed field of characteristic two, every three-dimensional coefficient family for the literal complete quadratic source with geometric source rank at most fourteen and coefficient determinant not identically zero is equivalent under permitted independent binary changes and optional transpose to exactly one of P=[[x,x,0],[0,t,0],[0,y,y]], N=[[t,x,0],[0,t,x],[0,y,0]], and V=[[x,0,0],[y,t,x],[0,0,y]]. The common-kernel theorem reduces to three dual kernel orbits. The prior evaluation locus gives P,N; a primitive quadratic adjugate, linear syzygies and permitted stabilizer give V for the moving eta case; the mixed case is excluded. The GF2 family [[x,t,t],[y,t,x],[t,t,y]] has three invertible matrices versus one for V, hence is a distinct ground-field form of its geometric orbit.",
+      "dependencies": [
+        "AI-CHAR2-SINGULAR-PENCIL-KERNEL-001 common section kernel over the ground field",
+        "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001 complete geometric evaluation locus",
+        "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001 integral linear form and permitted dual kernel orbits",
+        "AI-CHAR2-QUADRATIC-SHARP-THREE-001 sharp cap and adjugate conic identities",
+        "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001, AI-QUADRATIC-CHAIN-THREE-001, AI-QUADRATIC-NONEVALUATION-THREE-001 representative source certificates and inequivalence",
+        "Local primitive quadratic parametrization, syzygy classification, extension coefficient exhaustion, stabilizer scalar and mixed-kernel exclusion"
+      ],
+      "limitations": "Algebraically closed characteristic-two field and geometric polynomial rank condition. Does not classify arbitrary ground-field forms, descend all normalizations, or supply a compatible three-leg tensor map. Exact coefficient checks and same-session auditing do not certify geometric exhaustion, independent mathematical review or formalization. No historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-CHAR2-SINGULAR-PENCIL-KERNEL-001",
       "title": "A common ground-field kernel for singular characteristic-two pencils and attainer sections",
       "origin": "Codex research directed by repository owner",

@@ -1,0 +1,163 @@
+{
+  "base_commit": "355bdb8293efe24e999ef1d4e99aebf3e09683d1",
+  "base_pr": 238,
+  "parent_source_commit": "7ac06839b1a55ea65cfa58790ee17f3f6f1ea20a",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Literal full source and integer invariant conventions."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Literal full source and integer invariant conventions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/proof.md",
+      "sha256": "b3f3a4e841de033d8c87dab315fea736d6575a81f61cc3c74946e8e0e17abe3e",
+      "use": "Integral-linear-form lemma, source actions and kernel-vector orbit representatives."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/sources.json",
+      "sha256": "2118b562d7c075033040789298e6f6e446a820e65b060b35e644c492e5e4447c",
+      "use": "Integral-linear-form lemma, source actions and kernel-vector orbit representatives."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Sharp dimension three and original adjugate conic identities."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Sharp dimension three and original adjugate conic identities."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "P representative and universal source certificate."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "P representative and universal source certificate."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-chain-three/proof.md",
+      "sha256": "c2f7ce04ce02c2f38aaaa3721a73bc351a6bc1124a56c0e652eafbf5246403aa",
+      "use": "N representative and intrinsic section-kernel invariant."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-chain-three/sources.json",
+      "sha256": "5876335347618eb40345a7c8157d41ee191e7396ee2b84a9154491c16238d10c",
+      "use": "N representative and intrinsic section-kernel invariant."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-nonevaluation-three/proof.md",
+      "sha256": "9a49b847ef7f9dc16de6304b5ff41575d9b7f5968fd399cd82164e2ccb3a0f7b",
+      "use": "V representative, source certificate and conic-type inequivalence."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-nonevaluation-three/sources.json",
+      "sha256": "10fa8a3b76c9ce88ff76104c3259314e748b901a9ddaa1304e9c140ac9cb9826",
+      "use": "V representative, source certificate and conic-type inequivalence."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-evaluation-kernel/proof.md",
+      "sha256": "71415485c724e7c3366acfd52640d19f7ec318859665bc6d6664a9eb5c3b2cbd",
+      "use": "Complete prior classification of the evaluation-kernel locus."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-evaluation-kernel/sources.json",
+      "sha256": "c58d5d4361bb41be4a5cc6e27b6df23151a50e3984fcd6e66f4fdbe2da2bf132",
+      "use": "Complete prior classification of the evaluation-kernel locus."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-singular-pencil/proof.md",
+      "sha256": "fece88fdda6e03a9f749f0385a508f2d897d34966ba7e2471ea7516f7ffbbb98",
+      "use": "Common section-kernel theorem, homogeneous factorization and primitive-linear-conic exclusion."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-singular-pencil/sources.json",
+      "sha256": "5a7dbbb1b1b2ca2c3274d126d8a13629f4bc819e8b9b31f0a557d9cb6a54a967",
+      "use": "Common section-kernel theorem, homogeneous factorization and primitive-linear-conic exclusion."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/char2_eta_chart_checkpoint.md",
+      "sha256": "5ead0cbd579554e6ebfd8e6b399c266ba51e7c2f7bd9864d2848414548e6e90f",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/char2_eta_extension.json",
+      "sha256": "c1117a165eb8488b90c4d0bd2aab6e1680fbc6353bf3494b76f69ee97a7bba3b",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/char2_eta_normalization_controls.json",
+      "sha256": "126c866c9338a605533e7975743996ec3e992a5bc556bc2b0b69d12db39d2fee",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/char2_eta_normalization_controls.py",
+      "sha256": "5d7e0a830076151dd0ec71df1f063ce38b65646dc7c8b4791905c5cbd987c193",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/char2_mixed_kernel_exclusion.md",
+      "sha256": "303a5608a7df7a77e48c023996772e6e8efafd7e4735d89d2f2cade2a5a9028b",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/check_char2_eta_extension.py",
+      "sha256": "ccc4e3b128545ba2ba5203f24c1e920865fd4fb95b126f253a4b78a8aa8dc7ed",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/eta_fixed_candidate_verify.py",
+      "sha256": "579977fb619137942cabd13428c1cf88e04afdfa2d227890225ef0c95276dce3",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/eta_fixed_generic.py",
+      "sha256": "70ffe3911edfd954e53bfb4bd5858e1a7252281f659f2eab8e9bc4b64e214270",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/eta_orbit_search.py",
+      "sha256": "93433f088764070ffcae8df5a7b4a7b1bd50f2eb43cdba41ac7b560a3f36af11",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/eta_orbit_search_corrected.log",
+      "sha256": "f6e50979e135e176f40951dbe5e2eb1ab83c90a9e2716908ddd622a084a184b2",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/eta_orbit_search_corrected.py",
+      "sha256": "badd2e2b59a3d8ca0db9ab7972849435b73ca0dfe5b26a9a49e89ae34da27d89",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/final-audit.md",
+      "sha256": "f39b6c3813413d943bb87d66d0ee75bf24ccbf7ad7233a9185e9d8154194411b",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/notes.md",
+      "sha256": "8a6a02d926f84f56c2dd879114014e69a3a32427f3787d89a14de247fd8e20ee",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-attainer-classification-continuation-20261025/pins.json",
+      "sha256": "67d478c5789fbc4eaf79d6162d84e98ca4c7477c225ff71167632f1a6bc6a7a9",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex geometric eta and mixed-kernel exhaustion, primitive quadratic parametrization and syzygies, permitted stabilizer with scalar normalization, and GF2 ground-field boundary. Existing source, cap, pencil, evaluation classification and representative packages retain attribution. The fixed eta branch was correctly retained as P-transpose; a finite orbit script with two bugs was repaired and is not a proof premise. Same-session auditing is not independent review.",
+  "independent_review": false,
+  "improves_omega": false
+}

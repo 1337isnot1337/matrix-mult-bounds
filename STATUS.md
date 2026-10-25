@@ -1,5 +1,20 @@
 # Research status
 
+## Exactly three geometric characteristic-two quadratic attainers
+
+The [complete geometric classification](research/ai/2026-10-25-char2-attainer-classification/README.md)
+proves that every three-dimensional coefficient family with nonzero coefficient
+determinant and geometric full-source rank at most fourteen, over an
+algebraically closed field of characteristic two, is equivalent to exactly
+one of the previously published P, N and V families. The proof normalizes
+the remaining moving eta section by permitted binary actions and excludes
+the mixed kernel case; the eta locus also retains P up to transpose.
+Claim `AI-CHAR2-QUADRATIC-ATTAINERS-001` is written and unreviewed.
+Exact coefficient controls and a same-session audit support the proof.
+A GF2 pair with one versus three invertible matrices shows why ground-field
+forms remain a separate question. No independent review, formalization,
+compatible tensor map or exponent improvement is claimed.
+
 ## Every characteristic-two singular two-section has a common kernel
 
 The [singular-pencil lemma](research/ai/2026-10-25-char2-singular-pencil/README.md)
@@ -10,8 +25,8 @@ intrinsic singular two-section. The proof uses homogeneous adjugate factors
 and Plucker identities, without algebraic closure. A census of all43,435
 GF2 two-spaces supports the result, while an explicit pointwise counterexample
 shows why polynomial vanishing is essential. Claim
-`AI-CHAR2-SINGULAR-PENCIL-KERNEL-001` is written and unreviewed. Remaining
-non-evaluation kernel cases, ground-field forms and tensor maps remain open;
+`AI-CHAR2-SINGULAR-PENCIL-KERNEL-001` is written and unreviewed. The classification above closes the remaining
+geometric kernel cases; ground-field forms and tensor maps remain open;
 no exponent improvement follows.
 
 ## A third universal maximal three-plane, outside the evaluation-kernel locus
@@ -25,7 +40,8 @@ conic, separating it from the chain plane; kernel dimensions separate it
 from the first universal plane. All three are inclusion maximal. Thus
 characteristic two has at least three inequivalent dimension-three attainers.
 Claim `AI-QUADRATIC-NONEVALUATION-THREE-001` is written and unreviewed.
-The remaining non-evaluation cases, descent and tensor maps remain open;
+The classification above closes the remaining geometric cases;
+ground-field forms and tensor maps remain open;
 no exponent improvement follows.
 
 ## Characteristic-two attainers with a common evaluation kernel
@@ -38,8 +54,8 @@ below. Both normalized first-column charts are exhausted by explicit
 coefficient arguments and shears. Their normalized forms are classified
 over the field of definition; arbitrary ground-field forms are not yet
 classified. Claim `AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001` is written and
-unreviewed. Attainers outside this evaluation-kernel locus, descent and
-compatible tensor maps remain open. No exponent improvement follows.
+unreviewed. The classification above now includes the other geometric
+attainers; ground-field forms and compatible tensor maps remain open. No exponent improvement follows.
 
 ## Two inequivalent universal maximal three-planes
 
@@ -53,8 +69,8 @@ inequivalent under permitted binary changes and optional transpose.
 Both are inclusion maximal. In characteristic two this supplies at least
 two inequivalent dimension-three attainers; outside characteristic two,
 the global maximum remains four. Claim `AI-QUADRATIC-CHAIN-THREE-001`
-is written and unreviewed. Complete characteristic-two classification and
-compatible tensor maps remain open; no exponent improvement follows.
+is written and unreviewed. The geometric characteristic-two classification
+is now given above; ground-field forms and compatible tensor maps remain open; no exponent improvement follows.
 
 ## All odd-characteristic four-dimensional attainers have one normal form
 
@@ -69,8 +85,8 @@ and gives explicit descent and normalization. Every attainer satisfies
 16D=m^3 and 4(e^2+4A2)=5m^2, where m=e+2T4/D is linear.
 Claim `AI-ODD-QUADRATIC-ATTAINERS-001` is written and unreviewed;
 exact identities and same-session audits do not certify the geometric proof.
-Characteristic-two attainer classification and compatible tensor maps remain
-open. No matrix-multiplication exponent improvement follows.
+The geometric characteristic-two classification is now given above;
+ground-field forms and compatible tensor maps remain open. No matrix-multiplication exponent improvement follows.
 
 ## Sharp invertible quadratic dimensions in every characteristic
 

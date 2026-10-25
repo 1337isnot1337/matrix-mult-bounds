@@ -1,11 +1,21 @@
 # Integrated research coordination
 
+The [complete geometric characteristic-two classification](ai/2026-10-25-char2-attainer-classification/README.md)
+now exhausts the attaining three-spaces over the algebraic closure: exactly
+P, N and V under permitted binary actions and optional transpose. The moving
+eta case outside the evaluation locus is V; the eta evaluation branch is P
+up to transpose; the mixed kernel case is excluded. Do not repeat these
+closed geometric searches. Precise next questions: classify ground-field
+forms of these three orbits (the nonsplit GF2 form of V is already distinct),
+or construct compatible three-leg tensor maps from the classified families.
+Keep the written unreviewed proof separate from exact coefficient controls
+and any future independent review. No exponent gain follows.
+
 The [singular-pencil lemma](ai/2026-10-25-char2-singular-pencil/README.md)
 closes the no-common-kernel possibility for characteristic-two singular
 two-sections with polynomial D=T4=0, over every ground field. Do not repeat
-that exclusion search. Combined with the evaluation-kernel classification,
-the remaining geometric attainer problem is the eta and e0+eta kernel
-cases; arbitrary ground-field forms also remain open. The finite GF2 census
+that exclusion search. The complete classification above now handles the
+eta and e0+eta kernel cases; arbitrary ground-field forms remain open. The finite GF2 census
 is supporting evidence only. Pointwise vanishing is too weak, as the explicit
 counterexample shows. The proof is written and unreviewed, with no exponent gain.
 
@@ -13,8 +23,8 @@ The [non-evaluation-kernel three-plane](ai/2026-10-25-quadratic-nonevaluation-th
 answers existence outside the evaluation-kernel locus: its singular section
 has right kernel K*(0,1,0) and no common left kernel. It gives a third
 inequivalent universal maximal family. Do not repeat a global exclusion of
-non-evaluation-kernel attainers. Remaining precise questions: classify these
-non-evaluation cases and ground-field forms. The pencil lemma above now
+non-evaluation-kernel attainers. The classification above closes these
+geometric cases; classify their ground-field forms next. The pencil lemma above now
 excludes a singular two-section with no common kernel. This construction
 remains written and unreviewed, with no exponent gain.
 
@@ -22,9 +32,8 @@ The [evaluation-kernel classification](ai/2026-10-25-char2-evaluation-kernel/REA
 closes the two normalized first-column charts in characteristic two. Over
 the algebraic closure this locus has exactly the two known universal
 orbits. Do not repeat the chart search or the false square-direction
-exclusion. Remaining precise questions: classify possible ground-field
-forms, or classify the remaining attainers outside the evaluation-kernel
-locus. The construction above establishes existence with a non-evaluation
+exclusion. The complete classification above also handles the remaining
+geometric attainers; possible ground-field forms remain open. The construction above establishes existence with a non-evaluation
 kernel; the pencil lemma above excludes sections without a common kernel. This is
 a written unreviewed result, with no exponent gain.
 
@@ -34,14 +43,15 @@ universal plane. Their intrinsic sections have different common-kernel
 dimensions, (1,0) and (1,1). A square first-column direction is possible;
 do not repeat its falsified exclusion. The finite GF2 chart census is only
 discovery evidence. The classification above exhausts this evaluation-kernel locus geometrically;
-ground-field forms and the remaining singular pencils are still open.
+the complete classification above handles the other geometric cases,
+while ground-field forms remain open.
 The result remains written and unreviewed, with no exponent gain.
 
 The [odd-characteristic attainer classification](ai/2026-10-25-quadratic-odd-attainers/README.md)
 now gives a single normal form for every invertible quadratic four-space,
 using permitted changes over the original field. Do not repeat that closed
 classification route or the sharp-dimension search. Precise remaining lanes:
-classify the attaining three-spaces in characteristic two, or construct a
+classify ground-field forms in characteristic two, or construct a
 compatible three-leg tensor map for the explicit odd four-space. The intrinsic
 identities 16D=m^3 and 4(e^2+4A2)=5m^2 are necessary for every odd attainer.
 The proof is written and unreviewed; exact algebra does not establish a tensor
@@ -53,15 +63,15 @@ characteristic two and four otherwise. Its integer kernel and minor -2^18*t^14
 work over every field of characteristic different from two, without adjoining
 roots. Do not repeat a global odd-characteristic cap-three search or the closed
 sharpness question. The classification above closes the odd-characteristic
-attainer question. Next: characteristic-two attainers or compatible three-leg
-tensor maps. The proof remains written and unreviewed; no exponent gain.
+attainer question. Next: characteristic-two ground-field forms or
+compatible three-leg tensor maps. The proof remains written and unreviewed; no exponent gain.
 
 The [sharp characteristic-two proof](ai/2026-10-25-quadratic-char2-sharp-three/README.md)
 now gives maximum invertible-family dimension exactly three in
 characteristic two, attained by the universal three-plane. Every
 four-space is excluded, including rank-one middle-section and primitive
 alternating cases. Do not repeat this closed dimension question.
-Next precise questions: classification of attaining families or compatible tensor maps.
+Next precise questions: ground-field forms or compatible tensor maps.
 The four-space above closes the former three-versus-four gap.
 The proof is written and unreviewed; no exponent gain follows.
 

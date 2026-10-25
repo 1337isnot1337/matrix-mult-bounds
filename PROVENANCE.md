@@ -1,5 +1,18 @@
 # Attribution and provenance
 
+The `2026-10-25-char2-attainer-classification` package is owner-directed
+Codex work. It supplies the remaining geometric eta and mixed-kernel case
+proofs, primitive quadratic parametrization, linear syzygies, permitted
+stabilizer with its scalar normalization, and a GF2 ground-field boundary.
+Eight earlier packages retain the source, integral-form, pencil-lemma,
+evaluation-classification and representative attribution. Source and discovery
+pins preserve the fixed-eta P-transpose correction and two finite orbit-search
+bugs; no discarded search result is a proof premise. Exact polynomial controls
+and same-session proof auditing are not independent review or formalization.
+The claim is geometric over the algebraic closure; arbitrary ground-field
+forms, compatible tensor maps, historical priority and exponent improvement
+are not claimed.
+
 The `2026-10-25-char2-singular-pencil` package is owner-directed Codex
 work. It supplies the primitive-adjugate degree argument, ground-field
 Plucker refinement, section-kernel consequence, complete GF2 pencil census

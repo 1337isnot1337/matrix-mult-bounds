@@ -1,0 +1,87 @@
+{
+  "claim": "AI-CHAR2-QUADRATIC-ATTAINERS-001",
+  "proof_scope": "algebraically closed characteristic two; dim W=3; D not identically zero; geometric full-source rank <=14",
+  "written_geometric_representatives": [
+    "P",
+    "N",
+    "V"
+  ],
+  "linear_syzygy_equations": [
+    "a2=0",
+    "b0=0",
+    "a1=b2",
+    "a0=b1"
+  ],
+  "extension": {
+    "quadratic_coefficients": {
+      "x**2": "L**2 + h",
+      "y**2": "J**2 + b",
+      "t*x": "L + b*g + f*h + i",
+      "t*y": "J + b*i + c*h + f",
+      "t**2": "B**2 + B + b*f*g + b*h + c*g"
+    },
+    "forced_parameters": {
+      "b": "J**2",
+      "h": "L**2",
+      "g": "L**3",
+      "c": "J**3",
+      "f": "J+L*J**2",
+      "i": "L+L**2*J",
+      "B": "L**2*J**2"
+    },
+    "family": [
+      [
+        "x",
+        "J**2*t",
+        "J**3*t"
+      ],
+      [
+        "y",
+        "t",
+        "t*(J**2*L + J) + x"
+      ],
+      [
+        "L**3*t",
+        "L**2*t",
+        "t*(J*L**2 + L) + y"
+      ]
+    ],
+    "ell": "J**2*L**2*t + J*y + L*x",
+    "D": "J**4*L**4*t**3 + J**2*L*t**2*y + J**2*t*y**2 + L**2*t*x**2 + L*t**2*x + t*x*y",
+    "q_U": "J**2*y**2 + L**2*x**2 + x*y",
+    "shifted_q_equals_q_U": true
+  },
+  "stabilizer": {
+    "stabilizer_identity": true,
+    "right_outer_action": "(G.T)^-1",
+    "delta_squared": "det(G)",
+    "q_transform": "det(G)*q_U((G.T)^-1*z)",
+    "transformed_polar_coefficient": 1
+  },
+  "mixed_quartic": "(a*i+c*g)**2+a*g*f**2",
+  "fixed_eta_witness_is_P_transpose": true,
+  "section_kernel_dimensions_right_left": {
+    "P": [
+      1,
+      1
+    ],
+    "N": [
+      1,
+      0
+    ],
+    "V": [
+      1,
+      0
+    ]
+  },
+  "GF2_invertible_matrix_counts": {
+    "0,0": 1,
+    "1,1": 3
+  },
+  "GF2_x2_xy_y2_has_no_projective_root": true,
+  "computer_certifies_geometric_exhaustion": false,
+  "arbitrary_ground_field_forms_classified": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
