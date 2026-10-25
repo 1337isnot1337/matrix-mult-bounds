@@ -1,16 +1,21 @@
 # Research directions
 
+The [universal three-plane](../research/ai/2026-10-25-quadratic-universal-three-plane/README.md)
+raises the invertible quadratic stratum's lower bound to three over every
+field. Its polynomial kernel and source14-minor -x^6*y^3*z^5 prove exact
+rank fourteen at all invertible coefficient points. Combined with the prior
+cap/equality results, the maximum dimension is in [3,4] outside characteristic
+two and [3,5] in characteristic two. This particular three-plane has no
+fourth-direction extension in any characteristic; a four-space search must
+therefore use another family. Next: determine dimension-four
+sharpness or improve the characteristic-two upper bound. No square-root
+extension or finite-point census is required for the new construction.
+
 The [characteristic-three continuation](../research/ai/2026-10-25-quadratic-char3-stratum/README.md)
-now proves cap four for the invertible quadratic coefficient stratum over
-every field of characteristic different from two. An explicit two-plane
-shows the algebraically closed maximum within this invertible stratum lies
-between two and four. Next:
-resolve dimensions three/four or the characteristic-two upper bound. Do
-not repeat the closed characteristic-three question: it uses a rank-six
-radical and cubic line coefficient, not the false generic rank-seven route.
-The two-plane needs a square root of -1 in the ground field; its integer
-minor16 certifies the basepoint over every odd characteristic. Neither
-result supplies compatible three-leg maps or an exponent improvement.
+completes cap four outside characteristic two. Do not repeat that closed
+question or the false generic rank-seven route: its proof uses the rank-six
+radical and a cubic line coefficient. These claims remain written and
+unreviewed and supply no compatible tensor map or exponent improvement.
 
 The [invertible-stratum package](../research/ai/2026-10-25-quadratic-invertible-stratum/README.md)
 now bounds geometric rank14 families containing an invertible coefficient

@@ -1,5 +1,21 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-universal-three-plane` package is owner-directed
+Codex work. A finite characteristic-two discovery pilot led to a universal
+three-dimensional construction. The separate same-session audit corrected
+an omitted2ai term in the initial integer invariant calculation before
+publication. A direct polynomial source kernel and a symbolic monomial
+minor now certify the family over every field. The report exports a unit
+integer minor; independent pair-indexed reconstruction and mutation checks
+corroborate it. First/second-order polynomial conditions exclude extensions
+of this particular three-plane; a dropped off-diagonal differential term was
+corrected before publication and is covered by a mutation check.
+The determinant package retains credit for source conventions
+and invariants; cap/equality packages retain credit for the upper bounds.
+Exact dependency and discovery hashes are pinned. These are written proofs
+and exact certificates, not independent mathematical review, formalization,
+historical-priority claims or exponent improvements.
+
 The `2026-10-25-quadratic-char3-stratum` package is owner-directed Codex
 work. It retains the exact source pins for the full tangent form, residual
 normalization and integral linear form. The new characteristic-three

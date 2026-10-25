@@ -1,13 +1,16 @@
 # Integrated research coordination
 
-The [characteristic-three continuation](ai/2026-10-25-quadratic-char3-stratum/README.md)
-closes cap four for geometric quadratic rank14 families containing an
-invertible coefficient point in every characteristic other than two. Its
-rank-six radical argument supersedes the earlier characteristic-three gap.
-The explicit two-plane and integer minor16 give lower bound two over fields
-containing a square root of -1. Next precise questions: sharp dimensions
-three/four or characteristic two. Both new claims remain written and
-unreviewed; no compatible tensor construction or exponent gain is claimed.
+The [universal three-plane](ai/2026-10-25-quadratic-universal-three-plane/README.md)
+provides lower bound three over every field for geometric quadratic rank14
+families containing an invertible coefficient point. A polynomial source
+kernel and the monomial14-minor -x^6*y^3*z^5 give exact rank14 whenever
+xyz is nonzero. The basepoint minor is a unit; no field extension is needed.
+This particular three-plane has no larger linear extension; do not retry
+its already excluded fourth directions. Next precise questions: dimension-four sharpness outside characteristic two,
+or improving the characteristic-two upper bound five. The earlier
+[characteristic-three continuation](ai/2026-10-25-quadratic-char3-stratum/README.md)
+already completes the odd-characteristic cap four; do not reopen it.
+Claims remain written and unreviewed; no tensor map or exponent gain follows.
 
 The [invertible-stratum package](ai/2026-10-25-quadratic-invertible-stratum/README.md)
 settles the next submaximal obstruction: outside characteristics two and
