@@ -1,5 +1,18 @@
 # Research status
 
+## Characteristic-two attainers with a common evaluation kernel
+
+The [evaluation-kernel classification](research/ai/2026-10-25-char2-evaluation-kernel/README.md)
+proves that, over an algebraically closed field of characteristic two,
+every attaining three-space whose singular section has a common evaluation
+kernel or left kernel is equivalent to one of the two universal planes
+below. Both normalized first-column charts are exhausted by explicit
+coefficient arguments and shears. Their normalized forms are classified
+over the field of definition; arbitrary ground-field forms are not yet
+classified. Claim `AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001` is written and
+unreviewed. Attainers outside this evaluation-kernel locus, descent and
+compatible tensor maps remain open. No exponent improvement follows.
+
 ## Two inequivalent universal maximal three-planes
 
 The [second universal three-plane](research/ai/2026-10-25-quadratic-chain-three/README.md)

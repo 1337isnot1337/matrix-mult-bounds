@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-char2-evaluation-kernel` package is owner-directed Codex
+work. It exhausts both normalized first-column charts and supplies explicit
+binary shears to the previously published representatives. Prior packages
+retain integral-form, source-action, sharp-cap and representative credit.
+An omitted mixed term in the first square-chart exclusion was caught;
+both resulting branches are now proved and regression checked. The row
+reversal is explicitly verified as a permitted binary action. Exact source
+and discovery pins preserve the corrections. Same-session auditing and
+polynomial checks are not independent review or geometric formalization.
+No arbitrary ground-field descent, full characteristic-two classification,
+historical priority or exponent improvement is claimed.
+
 The `2026-10-25-quadratic-chain-three` package is owner-directed Codex
 work. A finite GF2 census in two normalized evaluation-kernel charts found
 a second witness and falsified a tentative square-direction exclusion.

@@ -1,6 +1,25 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001",
+      "title": "Two geometric orbits of characteristic-two attainers with a common evaluation kernel",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-char2-evaluation-kernel/proof.md",
+      "statement": "Over an algebraically closed field of characteristic two, every three-dimensional coefficient family for the complete quadratic source with geometric source rank at most fourteen, nonzero coefficient determinant and a common evaluation-conic right or left kernel in its e=0 section is equivalent under permitted binary changes and optional transpose to exactly one of N=[[t,x,0],[0,t,x],[0,y,0]] and P=[[x,x,0],[0,y,0],[0,z,z]]. Each normalized first-column chart is classified over any ground field of characteristic two by explicit shears, without adjoining roots after normalization.",
+      "dependencies": [
+        "Characteristic-two integral-linear-form equivalence and permitted binary actions",
+        "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001 first representative and certificate",
+        "AI-QUADRATIC-CHAIN-THREE-001 second representative, certificate and section-kernel distinction",
+        "AI-CHAR2-QUADRATIC-SHARP-THREE-001 sharp dimension three",
+        "Local exhaustive coefficient arguments for both normalized charts and explicit binary shears"
+      ],
+      "limitations": "Evaluation-kernel locus only, with geometric polynomial vanishing. Does not show every attainer has the stated kernel, classify arbitrary ground-field forms, or descend first-column normalizations over nonclosed fields. Exact algebra and same-session auditing do not certify geometric exhaustion or provide independent review/formalization. No historical priority, compatible tensor map or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-QUADRATIC-CHAIN-THREE-001",
       "title": "Second inequivalent universal inclusion-maximal invertible quadratic three-plane",
       "origin": "Codex research directed by repository owner",

@@ -1,13 +1,22 @@
 # Integrated research coordination
 
+The [evaluation-kernel classification](ai/2026-10-25-char2-evaluation-kernel/README.md)
+closes the two normalized first-column charts in characteristic two. Over
+the algebraic closure this locus has exactly the two known universal
+orbits. Do not repeat the chart search or the false square-direction
+exclusion. Remaining precise questions: classify possible ground-field
+forms, or find/exclude an attainer whose singular section has no common
+evaluation-conic right or left kernel. A common non-evaluation kernel and
+singular pencils without a common kernel need separate treatment. This is
+a written unreviewed result, with no exponent gain.
+
 The [second universal maximal three-plane](ai/2026-10-25-quadratic-chain-three/README.md)
 shows that characteristic-two attainers are not exhausted by the earlier
 universal plane. Their intrinsic sections have different common-kernel
 dimensions, (1,0) and (1,1). A square first-column direction is possible;
 do not repeat its falsified exclusion. The finite GF2 chart census is only
-discovery evidence. A precise next classification task is to exhaust
-attaining three-spaces whose e=0 section has a common evaluation kernel,
-including both first-column orbits and possible ground-field forms.
+discovery evidence. The classification above exhausts this evaluation-kernel locus geometrically;
+ground-field forms and the remaining singular pencils are still open.
 The result remains written and unreviewed, with no exponent gain.
 
 The [odd-characteristic attainer classification](ai/2026-10-25-quadratic-odd-attainers/README.md)

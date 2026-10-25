@@ -1,0 +1,103 @@
+{
+  "base_commit": "f04c433a51df3cb9b766a34a275945d6ed77aa64",
+  "base_pr": 235,
+  "parent_source_commit": "96d89b75e88f0c5c8a6b11fa8d71c92870f8bc3f",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Complete source and integer invariants."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Complete source and integer invariants."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/proof.md",
+      "sha256": "b3f3a4e841de033d8c87dab315fea736d6575a81f61cc3c74946e8e0e17abe3e",
+      "use": "Characteristic-two integral-linear-form equivalence over the ground field."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/sources.json",
+      "sha256": "2118b562d7c075033040789298e6f6e446a820e65b060b35e644c492e5e4447c",
+      "use": "Characteristic-two integral-linear-form equivalence over the ground field."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/characteristic-two.md",
+      "sha256": "37169eff5f29fd43293a37bf8786fce2a5a96cd503ac75b13a2c8da63bfebd2d",
+      "use": "Permitted ordinary binary coefficient actions and evaluation-kernel orbit."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/sources.json",
+      "sha256": "01085f7724dbc50f08fa38042bf9c3568cc5281cc620376d7fe9bf20c1e3d07b",
+      "use": "Permitted ordinary binary coefficient actions and evaluation-kernel orbit."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "Previous universal representative, exact source certificate and attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "Previous universal representative, exact source certificate and attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-chain-three/proof.md",
+      "sha256": "c2f7ce04ce02c2f38aaaa3721a73bc351a6bc1124a56c0e652eafbf5246403aa",
+      "use": "Second representative, exact certificate and inequivalence by intrinsic section kernels."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-chain-three/sources.json",
+      "sha256": "5876335347618eb40345a7c8157d41ee191e7396ee2b84a9154491c16238d10c",
+      "use": "Second representative, exact certificate and inequivalence by intrinsic section kernels."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Sharp maximum three in characteristic two, identifying these as attainers."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Sharp maximum three in characteristic two, identifying these as attainers."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/char2-evaluation-kernel-discovery-20261025/audit.md",
+      "sha256": "17f8ce27cf6f8b23830cc0a0be6f6da80ee48172a590d8c8e452ba3bcfb5ad08",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-evaluation-kernel-discovery-20261025/char2_chart_controls.py",
+      "sha256": "ae9821c49a12d5ab53addd7622c7c97addd4d11f897f1d9b6cdc5c07201a9b8d",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-evaluation-kernel-discovery-20261025/char2_kernel_chart_audit.py",
+      "sha256": "4a3096dc2eeb77040b4cd0f1c4fb6759d86ec339fff0c72f43d4b9acf9d840b0",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-evaluation-kernel-discovery-20261025/notes.md",
+      "sha256": "c478fca3d9d2af94237c402dea35919a3d1f2309cc65bc94ee89e59d945f61e3",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-evaluation-kernel-discovery-20261025/pins.json",
+      "sha256": "165cfbc55af6ce79b253c6a53263af1e39700727f4b2f67aeb6a0042f6cbb6ea",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/char2-evaluation-kernel-discovery-20261025/proof.md",
+      "sha256": "71415485c724e7c3366acfd52640d19f7ec318859665bc6d6664a9eb5c3b2cbd",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex classification of the two evaluation-kernel charts, with separate same-session auditing. Prior packages retain full-source, invariant, sharp-cap and representative credit. The omitted mixed term in an initial square-chart branch was corrected and both factors are retained; the permitted row reversal is checked explicitly. No historical-priority claim.",
+  "independent_review": false,
+  "improves_omega": false
+}
