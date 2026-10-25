@@ -1,5 +1,19 @@
 # Research status
 
+## A third universal maximal three-plane, outside the evaluation-kernel locus
+
+The [non-evaluation-kernel construction](research/ai/2026-10-25-quadratic-nonevaluation-three/README.md)
+V(t,x,y)=[[x,0,0],[y,t,x],[0,0,y]] has D=txy and exact full source rank
+fourteen at every invertible coefficient point over every field. Integer
+left/right kernels and a literal minor t^2*x^4*y^8 certify it. Its intrinsic
+singular section has a unique common kernel line outside the evaluation
+conic, separating it from the chain plane; kernel dimensions separate it
+from the first universal plane. All three are inclusion maximal. Thus
+characteristic two has at least three inequivalent dimension-three attainers.
+Claim `AI-QUADRATIC-NONEVALUATION-THREE-001` is written and unreviewed.
+The remaining non-evaluation cases, descent and tensor maps remain open;
+no exponent improvement follows.
+
 ## Characteristic-two attainers with a common evaluation kernel
 
 The [evaluation-kernel classification](research/ai/2026-10-25-char2-evaluation-kernel/README.md)

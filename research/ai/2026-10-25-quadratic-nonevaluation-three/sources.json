@@ -1,0 +1,98 @@
+{
+  "base_commit": "21a1222fd8a0e90c4c0a3d6d5c8ad40a37e61d0f",
+  "base_pr": 236,
+  "parent_source_commit": "639753bff1cfc50a98aa3d6d8f307685949b66cc",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Literal source and integer determinant/invariant identities."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Literal source and integer determinant/invariant identities."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "Earlier universal family and its original rank certificate; comparison family attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "Earlier universal family and its original rank certificate; comparison family attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Characteristic-two sharp cap three and covariance of e under permitted binary actions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Characteristic-two sharp cap three and covariance of e under permitted binary actions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-odd-attainers/proof.md",
+      "sha256": "7f37ea83f744fd8cca13d0502d5340c30cec4f877ae876e0047307f091e15630",
+      "use": "Intrinsic m covariance and necessary identity16D=m^3 for any odd-characteristic four-space."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-odd-attainers/sources.json",
+      "sha256": "b1fbf2a8b8139fead1457cd51d999c0657900049941157129beb764e5cd92f53",
+      "use": "Intrinsic m covariance and necessary identity16D=m^3 for any odd-characteristic four-space."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-chain-three/proof.md",
+      "sha256": "c2f7ce04ce02c2f38aaaa3721a73bc351a6bc1124a56c0e652eafbf5246403aa",
+      "use": "Second representative, intrinsic section kernels and maximality precedent."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-chain-three/sources.json",
+      "sha256": "5876335347618eb40345a7c8157d41ee191e7396ee2b84a9154491c16238d10c",
+      "use": "Second representative, intrinsic section kernels and maximality precedent."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-evaluation-kernel/proof.md",
+      "sha256": "71415485c724e7c3366acfd52640d19f7ec318859665bc6d6664a9eb5c3b2cbd",
+      "use": "Scope of the preceding evaluation-kernel classification, not an exhaustiveness premise here."
+    },
+    {
+      "path": "research/ai/2026-10-25-char2-evaluation-kernel/sources.json",
+      "sha256": "c58d5d4361bb41be4a5cc6e27b6df23151a50e3984fcd6e66f4fdbe2da2bf132",
+      "use": "Scope of the preceding evaluation-kernel classification, not an exhaustiveness premise here."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-nonevaluation-three-continuation-20261025/audit.md",
+      "sha256": "815b48c1178733952b5baea8527fd57e8a44401a2f1d89fa9bb326a29995ff74",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-nonevaluation-three-continuation-20261025/char2_noneval_certificate.log",
+      "sha256": "187a552358fbf45dd0134487ba76e71d62e8fabce3a7b464da3b059e2ef2a3b8",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-nonevaluation-three-continuation-20261025/char2_noneval_certificate.py",
+      "sha256": "3798d1945fe65002c1f245ff78f774bc70db5ed12c78799d5af538022dcc00d3",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-nonevaluation-three-continuation-20261025/notes.md",
+      "sha256": "c053ede393c4fb56ee0e111058da546b7d4c24fbcdc3b2ddb993b2f1b9ad9f3d",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-nonevaluation-three-continuation-20261025/pins.json",
+      "sha256": "65e9bf8bdb53e1f637bf37faec17b4cb659725b6a6b9b651338ceb9ae3764fca",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex construction, integer left/right source kernels, minor, conic-type distinction and maximality. Separate same-session audit is not independent review. Structural symbolic equality failed before residual expansion; corrected checks and original attribution are preserved. No historical priority claim.",
+  "independent_review": false,
+  "improves_omega": false
+}

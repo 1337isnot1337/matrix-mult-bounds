@@ -1,5 +1,14 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-nonevaluation-three` package is owner-directed
+Codex work. It supplies a third universal family, integer left/right source
+kernels, a unit-coefficient minor and a conic-type distinction. Prior packages
+retain source, invariant, cap and classification credit. Structural symbolic
+equality initially failed before residual expansion; the corrected checks
+and discovery records are pinned. Separate same-session auditing is not
+independent review or formalization. No complete attainer classification,
+historical priority, compatible tensor map or exponent gain is claimed.
+
 The `2026-10-25-char2-evaluation-kernel` package is owner-directed Codex
 work. It exhausts both normalized first-column charts and supplies explicit
 binary shears to the previously published representatives. Prior packages

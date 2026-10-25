@@ -1,6 +1,26 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-QUADRATIC-NONEVALUATION-THREE-001",
+      "title": "Third universal maximal three-plane distinguished by a non-evaluation kernel",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-quadratic-nonevaluation-three/proof.md",
+      "statement": "Over every field K, V(t,x,y)=[[x,0,0],[y,t,x],[0,0,y]] is a dimension-three geometric rank-at-most-fourteen family for the complete quadratic source, with D=txy, polynomial left/right kernels and literal row3/column0 minor t^2*x^4*y^8. Every coefficient-invertible point has exact source rank14. The family is inclusion maximal and inequivalent under permitted binary actions and optional transpose to both previously published universal planes, even after scalar extension. Its intrinsic section has common right kernel K*(0,1,0), outside the evaluation conic, and zero common left kernel. Characteristic two therefore has at least three inequivalent dimension-three attainers; the odd-characteristic maximum remains four.",
+      "dependencies": [
+        "Pinned literal source and integer invariants",
+        "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001 first representative",
+        "AI-QUADRATIC-CHAIN-THREE-001 second representative and section invariant",
+        "AI-CHAR2-QUADRATIC-SHARP-THREE-001 sharp cap3",
+        "AI-ODD-QUADRATIC-ATTAINERS-001 intrinsic m and odd identity16D=m^3",
+        "Exact polynomial kernels, unit-coefficient minor and dual conic covariance"
+      ],
+      "limitations": "Geometric polynomial vanishing rather than finite-field pointwise rank. Does not classify all non-evaluation-kernel attainers or ground-field forms, exhaust all characteristic-two attainers, or provide a compatible three-leg tensor map. Exact certificates and same-session auditing are not independent mathematical review or formalization. No historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001",
       "title": "Two geometric orbits of characteristic-two attainers with a common evaluation kernel",
       "origin": "Codex research directed by repository owner",

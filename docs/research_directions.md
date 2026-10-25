@@ -1,13 +1,22 @@
 # Research directions
 
+The [non-evaluation-kernel three-plane](../research/ai/2026-10-25-quadratic-nonevaluation-three/README.md)
+answers existence outside the evaluation-kernel locus: its singular section
+has right kernel K*(0,1,0) and no common left kernel. It gives a third
+inequivalent universal maximal family. Do not repeat a global exclusion of
+non-evaluation-kernel attainers. Remaining precise questions: classify these
+non-evaluation cases and ground-field forms, or prove/exclude a singular
+two-section with no common kernel. The proposed pencil lemma is not yet a
+premise. This construction remains written and unreviewed, with no exponent gain.
+
 The [evaluation-kernel classification](../research/ai/2026-10-25-char2-evaluation-kernel/README.md)
 closes the two normalized first-column charts in characteristic two. Over
 the algebraic closure this locus has exactly the two known universal
 orbits. Do not repeat the chart search or the false square-direction
 exclusion. Remaining precise questions: classify possible ground-field
-forms, or find/exclude an attainer whose singular section has no common
-evaluation-conic right or left kernel. A common non-evaluation kernel and
-singular pencils without a common kernel need separate treatment. This is
+forms, or classify the remaining attainers outside the evaluation-kernel
+locus. The construction above establishes existence with a non-evaluation
+kernel; singular pencils without a common kernel need separate treatment. This is
 a written unreviewed result, with no exponent gain.
 
 The [second universal maximal three-plane](../research/ai/2026-10-25-quadratic-chain-three/README.md)
