@@ -1,5 +1,15 @@
 # Research directions
 
+The [invertible-stratum package](../research/ai/2026-10-25-quadratic-invertible-stratum/README.md)
+now bounds geometric rank14 families containing an invertible coefficient
+point by dimension four outside characteristics two and three. Next: decide
+sharpness of this upper bound or handle the excluded characteristics. The
+necessary identities `p=q*h-h^3` and `s2(N^tN)=2*p*h` hold in every odd
+characteristic and may help in characteristic three, where the generic
+rank-seven tangent step fails. Do not reopen the trace-only five/151
+candidates: the second determinant coefficient already excludes them.
+The proof is written and unreviewed and supplies no compatible tensor map.
+
 The [quadratic equality package](../research/ai/2026-10-24-quadratic-equality/README.md)
 now classifies geometric rank14 six-spaces as the two coefficient compression
 types over every field. Odd characteristic uses a full tangent quadratic;

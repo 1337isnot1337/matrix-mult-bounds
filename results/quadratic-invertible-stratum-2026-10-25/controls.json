@@ -1,0 +1,45 @@
+{
+  "claim": "AI-QUADRATIC-INVERTIBLE-STRATUM-001",
+  "status": "Exact corroboration of a written unreviewed proof",
+  "proof_sha256": "ff77c32fe17ff63a12a56e3133e36f9f031effdc097dc5aa2cee4493df8b2a52",
+  "sources_sha256": "09e2b138bf82116b950799a22647d3bae250a0eca81f239aed29e7683c07ebd2",
+  "parent_tangent_identities": {
+    "Schur_numerator_determinant": "d*(d^2+3*mu^4)",
+    "scaled_C_block_determinant": "12*mu^2*d*(mu^2-d)"
+  },
+  "scalar_identities": {
+    "det_square_norm_cube_ratio": "rho^2/(1+rho)^3",
+    "trace_C": "p*mu*(2-7*rho)/(1+rho)",
+    "second_C_at_rho_2_over_7": "-p^2*mu^2/21",
+    "characteristic_seven_trace_numerator": 2,
+    "odd_characteristic_integral_linear_form": true
+  },
+  "matrix_identities": {
+    "general_symmetric_Q_determinant_coefficients": true,
+    "nine_symbolic_determinant_gradient_entries": true
+  },
+  "trace_only_boundary_controls": [
+    {
+      "prime": 5,
+      "rho": 1,
+      "critical_ratio_polynomial": 0,
+      "trace_numerator": 0,
+      "second_coefficient_at_p_mu_one": 4
+    },
+    {
+      "prime": 151,
+      "rho": 65,
+      "critical_ratio_polynomial": 0,
+      "trace_numerator": 0,
+      "second_coefficient_at_p_mu_one": 115
+    }
+  ],
+  "dimension_upper_bound": 4,
+  "excluded_characteristics": [
+    2,
+    3
+  ],
+  "sharpness_supplied": false,
+  "independent_review": false,
+  "improves_omega": false
+}
