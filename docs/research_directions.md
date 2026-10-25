@@ -1,12 +1,20 @@
 # Research directions
 
+The [odd-characteristic four-space](../research/ai/2026-10-25-quadratic-odd-sharp-four/README.md)
+now closes the invertible-family dimension question: the maximum is three in
+characteristic two and four otherwise. Its integer kernel and minor -2^18*t^14
+work over every field of characteristic different from two, without adjoining
+roots. Do not repeat a global odd-characteristic cap-three search or the closed
+sharpness question. Next: classify attaining families or construct compatible
+three-leg tensor maps. The proof remains written and unreviewed; no exponent gain.
+
 The [sharp characteristic-two proof](../research/ai/2026-10-25-quadratic-char2-sharp-three/README.md)
 now gives maximum invertible-family dimension exactly three in
 characteristic two, attained by the universal three-plane. Every
 four-space is excluded, including rank-one middle-section and primitive
 alternating cases. Do not repeat this closed dimension question.
-Next precise questions: the three-versus-four gap outside characteristic
-two, classification of attaining three-spaces, or compatible tensor maps.
+Next precise questions: classification of attaining families or compatible tensor maps.
+The four-space above closes the former three-versus-four gap.
 The proof is written and unreviewed; no exponent gain follows.
 
 The [characteristic-two cap-four
@@ -14,8 +22,8 @@ proof](../research/ai/2026-10-25-quadratic-char2-cap-four/README.md) now complet
 the invertible-family cap four over every field. Its integral linear form and
 singular-four-space cases exclude a five-space in characteristic two. The maximum
 dimension was bounded in [3,4] over every field; the continuation above
-now gives exactly three in characteristic two. Next: outside characteristic
-two, construct a different four-space or exclude all four-spaces. The universal three-plane admits no fourth
+now gives exactly three in characteristic two. The new four-space above settles sharpness outside characteristic
+two. The universal three-plane admits no fourth
 direction. Do not repeat the closed five-space question. Evidence remains written and
 unreviewed, with exact algebraic corroboration and no exponent improvement.
 
@@ -24,10 +32,10 @@ three-plane](../research/ai/2026-10-25-quadratic-universal-three-plane/README.md
 raises the invertible quadratic stratum's lower bound to three over every field. Its
 polynomial kernel and source14-minor -x^6*y^3*z^5 prove exact rank fourteen at all
 invertible coefficient points. Combined with the prior cap/equality results, the
-maximum dimension is now exactly three in characteristic two and in [3,4]
-outside characteristic two. This particular three-plane has
-no fourth-direction extension in any characteristic; a four-space search must
-therefore use another family. Next: determine dimension-four sharpness outside characteristic
+maximum dimension is now exactly three in characteristic two and four
+outside characteristic two, by the new construction above. This particular three-plane has
+no fourth-direction extension in any characteristic; the new four-space
+therefore uses another family and settles sharpness outside characteristic
 two. No square-root extension or finite-point census is required for the new
 construction.
 
@@ -40,8 +48,8 @@ unreviewed and supply no compatible tensor map or exponent improvement.
 The [invertible-stratum
 package](../research/ai/2026-10-25-quadratic-invertible-stratum/README.md) now bounds
 geometric rank14 families containing an invertible coefficient point by dimension
-four outside characteristics two and three. Next: decide sharpness of this upper
-bound; characteristic two is now closed above. The necessary identities `p=q*h-h^3`
+four outside characteristics two and three. The new construction attains this upper
+bound; characteristic two is separately closed above. The necessary identities `p=q*h-h^3`
 and `s2(N^tN)=2*p*h` hold in every odd characteristic and now supply the
 characteristic-three continuation, where the generic rank-seven tangent step fails.
 Do not reopen the trace-only five/151 candidates: the second determinant coefficient

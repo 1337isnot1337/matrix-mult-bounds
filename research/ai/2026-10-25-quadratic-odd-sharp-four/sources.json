@@ -1,0 +1,113 @@
+{
+  "base_commit": "ccf1b8ba09d5fcb3fe5b7c6f4162839ede3056de",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-25-quadratic-char3-stratum/proof.md",
+      "sha256": "7b12774a2cf64f9e3dfe885298acca9c8ab9c7838ad587520ecf2af2684c912c",
+      "use": "Odd-characteristic cap4, including characteristic3, with exact hypotheses."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char3-stratum/sources.json",
+      "sha256": "5f369fc3ac244d38b942249a9e205f6368c07382f249e2035357bc6303bbb88b",
+      "use": "Odd-characteristic cap4, including characteristic3, with exact hypotheses."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-invertible-stratum/proof.md",
+      "sha256": "ff77c32fe17ff63a12a56e3133e36f9f031effdc097dc5aa2cee4493df8b2a52",
+      "use": "Cap4 in characteristics other than2and3."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-invertible-stratum/sources.json",
+      "sha256": "09e2b138bf82116b950799a22647d3bae250a0eca81f239aed29e7683c07ebd2",
+      "use": "Cap4 in characteristics other than2and3."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "Literal source convention, original integer invariants and separate inclusion maximality."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "Literal source convention, original integer invariants and separate inclusion maximality."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/verify.py",
+      "sha256": "2b29d3fb83ded0114703fd1b9bc1cff35e1ef76653dee3c1d510a557e3cc0fe6",
+      "use": "Literal source convention, original integer invariants and separate inclusion maximality."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Separate sharp3 theorem used only for the combined all-characteristic consequence."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Separate sharp3 theorem used only for the combined all-characteristic consequence."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/controls.json",
+      "sha256": "3cf437deddd053f61207a2f8d4296b8df4a526e4561b968cdb933bf72d28b4c7",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/controls.py",
+      "sha256": "a8b1165f826c1feee47275cc85fa6a001ca28e5df78e7b2d6f16912a3586a9c5",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/pins.json",
+      "sha256": "2307192651a8ff1b5d4fcc420d0829c845be6e21d9315af275009c2e3faf89b6",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/proof.md",
+      "sha256": "d6bf2c7b42d7637731bd37fa417bb43221f21be81f2aa1e079ed6dd239aa4073",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/audit.md",
+      "sha256": "0a16e955ff7a823c8dc5ae4dddc066536bbaa5d75fcfae57f2d5cbbe4205dd9d",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/certificate.json",
+      "sha256": "6a1b5cdb2dd0ba1f16c11d84634b0cf4b71d81373b72ecb29c46ca12e5cd1049",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/certificate.py",
+      "sha256": "84d1ae143059baad5179a0201b7ddb86406145b771ee6bc053592f1b25c7e2b2",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/discovery-notes.md",
+      "sha256": "e6987f71309c3e873728dfe10cc5d9ea43ebe7d4f549e21cb97b2bdfeee68d09",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/discovery.py",
+      "sha256": "ff4352e52f149a13aaa1c9693ddef9cfb07d8d9d9eb10a8ddf453e98355f60fe",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/pins.json",
+      "sha256": "9232840fbd16c91a76a6b3648ddc88980eefe0ae5b6f0ee930e02471f2fa6b16",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-witness-20261025/proof.md",
+      "sha256": "ae671649bc6897e5f046eb30104e0f77d261eb376b763df5239f8ca1a6a4a4fd",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex construction and polynomial certificates, with a separate same-session read-only audit. Prior packages retain source-convention, invariant and upper-bound credit. Discovery corrected a mixed-compression T4 mistake before publication; that failed route is not a proof premise. No historical-priority claim.",
+  "independent_review": false,
+  "improves_omega": false,
+  "base_pr": 232,
+  "parent_source_commit": "3a8992a0b9348a9d68ce16fcf973030ff4a6ba05"
+}
