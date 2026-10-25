@@ -1,5 +1,22 @@
 # Research status
 
+## Invertible quadratic families: cap four outside characteristic two
+
+The [characteristic-three package](research/ai/2026-10-25-quadratic-char3-stratum/README.md)
+closes the remaining odd-characteristic case: a geometric quadratic
+rank-at-most-fourteen family containing an invertible coefficient point has
+dimension at most four over every field of characteristic different from
+two, including characteristic zero. The proof uses the rank-six tangent
+radical and a cubic line coefficient, not a generic rank-seven assertion.
+An explicit two-plane over fields containing a square root of -1 has
+coefficient determinant4*x^3 and a source14-minor equal to16 at its integer
+basepoint. Thus the maximum dimension among families containing an invertible
+coefficient matrix over an algebraically closed field of characteristic
+different from two lies between two and four. Sharpness and
+characteristic two remain open. Claims `AI-CHAR3-QUADRATIC-INVERTIBLE-001` and
+`AI-QUADRATIC-INVERTIBLE-TWO-PLANE-002` remain written and unreviewed; no
+compatible tensor map or exponent improvement is established.
+
 ## Dimension-four bound on the invertible quadratic coefficient stratum
 
 The [invertible-stratum package](research/ai/2026-10-25-quadratic-invertible-stratum/README.md)
@@ -10,8 +27,8 @@ has identically singular coefficients in these characteristics. A constant
 Gram ratio forces a rank-one Frobenius norm; a determinant-gradient line then
 contradicts the first two determinant coefficients. The upper bound is not
 asserted sharp. Claim `AI-QUADRATIC-INVERTIBLE-STRATUM-001` remains written
-and unreviewed. Characteristics two and three, sharpness, and compatible
-tensor maps remain open. No exponent improvement is established.
+and unreviewed. The continuation above closes characteristic three;
+characteristic two, sharpness and compatible tensor maps remain open. No exponent improvement is established.
 
 ## Geometric quadratic equality classification over every field
 

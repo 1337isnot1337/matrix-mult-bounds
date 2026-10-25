@@ -1,12 +1,24 @@
 # Research directions
 
+The [characteristic-three continuation](../research/ai/2026-10-25-quadratic-char3-stratum/README.md)
+now proves cap four for the invertible quadratic coefficient stratum over
+every field of characteristic different from two. An explicit two-plane
+shows the algebraically closed maximum within this invertible stratum lies
+between two and four. Next:
+resolve dimensions three/four or the characteristic-two upper bound. Do
+not repeat the closed characteristic-three question: it uses a rank-six
+radical and cubic line coefficient, not the false generic rank-seven route.
+The two-plane needs a square root of -1 in the ground field; its integer
+minor16 certifies the basepoint over every odd characteristic. Neither
+result supplies compatible three-leg maps or an exponent improvement.
+
 The [invertible-stratum package](../research/ai/2026-10-25-quadratic-invertible-stratum/README.md)
 now bounds geometric rank14 families containing an invertible coefficient
 point by dimension four outside characteristics two and three. Next: decide
-sharpness of this upper bound or handle the excluded characteristics. The
+sharpness of this upper bound or handle characteristic two. The
 necessary identities `p=q*h-h^3` and `s2(N^tN)=2*p*h` hold in every odd
-characteristic and may help in characteristic three, where the generic
-rank-seven tangent step fails. Do not reopen the trace-only five/151
+characteristic and now supply the characteristic-three continuation, where
+the generic rank-seven tangent step fails. Do not reopen the trace-only five/151
 candidates: the second determinant coefficient already excludes them.
 The proof is written and unreviewed and supplies no compatible tensor map.
 

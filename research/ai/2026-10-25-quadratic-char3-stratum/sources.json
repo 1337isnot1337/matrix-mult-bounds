@@ -1,0 +1,83 @@
+{
+  "base_commit": "2c7854ac8a2e8b65b70c40d0ca16411072916542",
+  "base_pr": 228,
+  "parent_source_commit": "ff48fdb01f0fff3fc8296b4063487893a2efa96e",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-25-quadratic-invertible-stratum/proof.md",
+      "sha256": "ff77c32fe17ff63a12a56e3133e36f9f031effdc097dc5aa2cee4493df8b2a52",
+      "use": "Integral linear form p=q*h-h^3 and A=2*p*h in every characteristic other than two; upper bound four outside characteristics two and three; normalized coefficient conventions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-invertible-stratum/sources.json",
+      "sha256": "09e2b138bf82116b950799a22647d3bae250a0eca81f239aed29e7683c07ebd2",
+      "use": "Exact earlier normalization, tangent and discovery provenance; no new external result imported."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/proof.md",
+      "sha256": "6d5c3825a62356fda703e3b495c3a970161d95e61ae00018696997b1f7b0427c",
+      "use": "Full tangent quadratic and nonsemisimple normal form; left/right Gram equivalence."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/verify.py",
+      "sha256": "052dad904e6dd86c035064154a75baad3dec5b6f00a108c36b7cd68331a891d9",
+      "use": "Exact tangent differential, quadratic and block-determinant identities replayed by the new verifier."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/sources.json",
+      "sha256": "01085f7724dbc50f08fa38042bf9c3568cc5281cc620376d7fe9bf20c1e3d07b",
+      "use": "Preserves original tangent discovery and determinant attribution."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Universal integer source identity, monomial-to-Gram change and invertible residual normal form; sections 1, 3 and 8."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Preserves earlier external attribution and exact versions."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/characteristic-three.md",
+      "sha256": "9970754b283e409672562cb489a099798d3867b2b9ca0af45df0c5c19c22849e",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/char3-radical.py",
+      "sha256": "a973805870f0658156e7bdf183e202dec6d1c2317c9141ca269cdc42cac6ff3d",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/char3-radical.json",
+      "sha256": "ba60fc7c8811582957996de2acebe16f726f7377367819fa59b46867e02e28bc",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/two-plane.md",
+      "sha256": "7bbaba870fe681cb3900e6d5b1c2dc9303791b9b99d79c2255aad6e04913b28e",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/invertible-two-plane-20261025.py",
+      "sha256": "4931d5ff2a96dfe51766abbdc0fc88efb84c853813618aa83b651e113b2f5deb",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/two-plane-check.txt",
+      "sha256": "c1f09a69bc7f2ad7092d630a949faa2143018720782589e90b99cce015c1deb9",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-invertible-continuation-20261025/pins.json",
+      "sha256": "50cfe046840a99db2f39d840bbff4e36e306c0e40e63cd7ee9397b9dbff60bdd",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex derivation and separate same-session algebra audit. The new characteristic-three proof uses the rank-six radical and a cubic line coefficient. The two-plane was derived separately from the skew-matrix normal form; exact replay replaced reliance on the scratch Smith form with one explicit integer minor16. Prior packages retain credit for normalization, residual identity, tangent form and integral linear form. No historical-priority claim.",
+  "independent_review": false,
+  "improves_omega": false
+}

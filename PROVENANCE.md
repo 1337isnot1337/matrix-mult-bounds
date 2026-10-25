@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-char3-stratum` package is owner-directed Codex
+work. It retains the exact source pins for the full tangent form, residual
+normalization and integral linear form. The new characteristic-three
+argument uses the tangent radical to force NQ² into a putative five-space,
+then its cubic line coefficient forces a constant ratio. A separate
+same-session algebra audit found no remaining gap. The explicit two-plane
+was derived from a skew-matrix normal form; exact replay supplied a single
+integer14-minor equal to16, replacing reliance on the earlier Smith-form
+calculation. The scratch notes and original receipts are pinned. These are
+local written proofs and exact corroboration, not independent review,
+formalization, historical-priority claims or exponent improvements.
+
 The `2026-10-25-quadratic-invertible-stratum` package is owner-directed
 Codex work. It retains the determinant and equality packages' exact source
 pins for normalization, the residual factor and the full tangent quadratic.

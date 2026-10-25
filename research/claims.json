@@ -1,6 +1,41 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR3-QUADRATIC-INVERTIBLE-001",
+      "title": "Characteristic-three dimension-four bound for invertible quadratic families",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "evidence": "research/ai/2026-10-25-quadratic-char3-stratum/proof.md",
+      "statement": "Over every field of characteristic three, a K-linear coefficient family in the complete quadratic R_(3,3) block whose source rank is at most14 after algebraic closure and which contains an invertible coefficient point after algebraic closure has dimension at most4. Combined with AI-QUADRATIC-INVERTIBLE-STRATUM-001, this covers every field of characteristic different from two, including characteristic zero.",
+      "dependencies": [
+        "AI-QUADRATIC-INVERTIBLE-STRATUM-001",
+        "AI-ODD-QUADRATIC-EQUALITY-001",
+        "AI-QUADRATIC-DETERMINANT-INVARIANT-001",
+        "Pinned integral linear form and full tangent split; locally derived radical containment and cubic line coefficient"
+      ],
+      "limitations": "Geometric polynomial vanishing, not finite-field point checks. Characteristic two remains open here. The upper bound is not asserted sharp. Same-session audit, symbolic checks and two tangent controls are not independent review or formalization. No compatible tensor map or exponent improvement."
+    },
+    {
+      "id": "AI-QUADRATIC-INVERTIBLE-TWO-PLANE-002",
+      "title": "Explicit invertible quadratic two-plane over fields containing a square root of minus one",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "evidence": "research/ai/2026-10-25-quadratic-char3-stratum/two-plane.md",
+      "statement": "For any field K of characteristic different from two containing i with i^2=-1, the two-dimensional family M(x,y)=[[0,x+i*y,x-y],[-x-i*y,-2*x,x-i*y],[x+y,-x+i*y,0]] has detM=4*x^3 and geometric literal R_(3,3) rank at most14. At (1,0), deleting source row(0,1) and column(1,0) gives an integer14-minor of determinant16, hence source rank exactly14 in every such field. Over algebraically closed fields of characteristic different from two this gives lower bound2 against upper bound4 for the maximum dimension among families containing an invertible coefficient matrix.",
+      "dependencies": [
+        "AI-QUADRATIC-DETERMINANT-INVARIANT-001",
+        "Pinned monomial-to-Gram change and a locally derived skew-matrix construction",
+        "Exact integer minor16 certificate"
+      ],
+      "limitations": "The family is defined over K only when K contains a square root of minus one; otherwise it is a family over K(i). This is lower bound2, not sharpness of cap4 and not a rational-ground-field two-plane. Characteristic two is excluded. Same-session replay is not independent review. No formalization, compatible tensor map or exponent improvement."
+    },
+    {
       "id": "AI-QUADRATIC-INVERTIBLE-STRATUM-001",
       "title": "Dimension-four upper bound for the invertible quadratic coefficient stratum",
       "origin": "Codex research directed by repository owner",
