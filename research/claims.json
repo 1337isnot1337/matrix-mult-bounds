@@ -1,6 +1,24 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR2-QUADRATIC-SHARP-THREE-001",
+      "title": "Sharp characteristic-two dimension three for invertible quadratic families",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "statement": "Over every field K of characteristic two, a K-linear coefficient family for the complete quadratic R_(3,3) source with geometric source rank at most fourteen and coefficient determinant not identically zero has dimension at most three. The pinned universal three-plane attains three over K, so the maximum is exactly three. A singular-three-space classification, adjugate conic factorization, all kernel orbits including the rank-one middle section, and compression reductions exclude a four-space. Outside characteristic two the existing maximum remains in [3,4].",
+      "dependencies": [
+        "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001 integral linear form and quartic formulas",
+        "AI-CHAR2-QUADRATIC-EQUALITY-002 permitted binary actions and kernel-vector orbits",
+        "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001 sharpness witness",
+        "Local singular-three-space classification, adjugate factorization and extension obstructions"
+      ],
+      "limitations": "Geometric polynomial vanishing, not merely finite-field pointwise vanishing. Does not classify all attaining three-spaces or settle sharpness outside characteristic two. Exact controls and same-session auditing are not independent review, formalization, or a computational certification of the geometric proof. No historical-priority claim, compatible tensor map, or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001",
       "title": "Characteristic-two cap four for invertible quadratic coefficient families",
       "origin": "Codex research directed by repository owner",
@@ -13,7 +31,7 @@
         "Local integral-linear-form proof and singular-four-space classification",
         "AI-CHAR3-QUADRATIC-INVERTIBLE-001 and AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001 for the all-field interval"
       ],
-      "limitations": "Written geometric proof with exact polynomial corroboration and separate same-session audit only. Geometric vanishing is stronger than finite-field pointwise vanishing. No dimension-four construction, independent mathematical review, formalization, historical-priority claim, compatible tensor target, or exponent improvement.",
+      "limitations": "Written geometric proof with exact polynomial corroboration and separate same-session audit only. Geometric vanishing is stronger than finite-field pointwise vanishing. Superseded in characteristic two by the sharp bound three in AI-CHAR2-QUADRATIC-SHARP-THREE-001. No independent mathematical review, formalization, historical-priority claim, compatible tensor target, or exponent improvement.",
       "independent_review": false,
       "lean_formalized": false,
       "improves_omega": false
@@ -34,7 +52,7 @@
         "AI-CHAR2-QUADRATIC-EQUALITY-002",
         "Locally derived integer polynomial kernel, monomial minor certificate and first/second-order nonextension obstruction"
       ],
-      "limitations": "No dimension-four example or exclusion and no classification of all three-spaces. The characteristic-two upper bound is improved separately to four in AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001. Singular six-spaces still exist. Exact identities and same-session audit are not independent review or formalization. No compatible tensor map, historical-priority claim or exponent improvement."
+      "limitations": "No dimension-four example or exclusion and no classification of all three-spaces. The characteristic-two maximum is sharpened separately to three in AI-CHAR2-QUADRATIC-SHARP-THREE-001. Singular six-spaces still exist. Exact identities and same-session audit are not independent review or formalization. No compatible tensor map, historical-priority claim or exponent improvement."
     },
     {
       "id": "AI-CHAR3-QUADRATIC-INVERTIBLE-001",

@@ -1,0 +1,93 @@
+{
+  "base_commit": "0290bdc043b028f58b638c70183dfa52fc82fe2f",
+  "base_pr": 231,
+  "parent_source_commit": "100d25a4c077040b15872eefef07bc15365cf408",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/proof.md",
+      "sha256": "b3f3a4e841de033d8c87dab315fea736d6575a81f61cc3c74946e8e0e17abe3e",
+      "use": "Integral linear form, permitted actions and quartic rank-two calculation."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/sources.json",
+      "sha256": "2118b562d7c075033040789298e6f6e446a820e65b060b35e644c492e5e4447c",
+      "use": "Prior exact attribution and source pins."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-cap-four/verify.py",
+      "sha256": "c51331c338c5ba918d1cd1f7bf8cef94700d4c866e767d3721c14691868f490c",
+      "use": "Integer invariant and eta Taylor formulas used by the exact verifier."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/characteristic-two.md",
+      "sha256": "37169eff5f29fd43293a37bf8786fce2a5a96cd503ac75b13a2c8da63bfebd2d",
+      "use": "Permitted binary actions, kernel orbits, and transposition."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/sources.json",
+      "sha256": "01085f7724dbc50f08fa38042bf9c3568cc5281cc620376d7fe9bf20c1e3d07b",
+      "use": "Exact dependencies and retained attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "Universal sharpness witness, polynomial kernel and monomial14-minor."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "Construction source and discovery pins."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-fourspace-middle-kernel-20261025/proof.md",
+      "sha256": "220cdd3ceb9555cc199f69a232378055c4f6f8eb565b8dba7a0e09822c050390",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-fourspace-middle-kernel-20261025/controls.py",
+      "sha256": "16dbc87e2ddc63409f18f5d4b507ae9b3b7823983a42ccf6d7866f5b5a7be2e2",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-fourspace-middle-kernel-20261025/controls.json",
+      "sha256": "84b06a5cb8b2da171ac1c3a3b592b00e0b466696e4e0f7af5ad7e07f408d8fdb",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-fourspace-middle-kernel-20261025/pins.json",
+      "sha256": "7829cd2a1eda1467bc42769a935ba9b244bdd6aab5686061dce181055f68366b",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap3-continuation-20261025/proof.md",
+      "sha256": "4ab0afe13f76e428dae718d4937a8f1915f68b84c984ef572cc349badab8c1f8",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap3-continuation-20261025/controls.py",
+      "sha256": "7d302b746c5add53860e83c9118b4e7fe42cc8afd885193a3eda58b4ad9c3603",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap3-continuation-20261025/controls.json",
+      "sha256": "bb6e2adc7ab41878c0e2e50612eb81f649bab44a25964d6f7159dfb048a8c13f",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap3-continuation-20261025/audit.md",
+      "sha256": "e81ead51f52d671484b00165f81465d3406943e56b51a705fbd18221b344e058",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap3-continuation-20261025/pins.json",
+      "sha256": "56eaaa26ea40d25f4cdb985dcac36a5301f6fc5a01a13586d9d43811331ab8d2",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex proof with separate same-session read-only algebra audit, not independent review. The earlier cap-four package retains integral-form and binary-action credit, and the universal three-plane retains sharpness-construction credit. The singular-three-space classification and adjugate exclusion are local derivations without a historical-priority claim. The discovery identified and closed the rank-one three-section gap before publication.",
+  "independent_review": false,
+  "improves_omega": false
+}
