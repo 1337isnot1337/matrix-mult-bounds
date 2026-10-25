@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-odd-attainers` package is owner-directed Codex
+work. It supplies the signed singular-three-space lemma, all section and
+compression exclusions, ground-field descent and triangular normalization.
+The determinant package retains the literal source and invariant credit;
+the sharp-four package retains the converse and exact-rank certificate.
+The characteristic-two proof supplied case-organization precedent, not an
+imported odd-characteristic lemma. Source and discovery hashes preserve
+the corrected mixed-compression quartic and normalization-orientation errors.
+Seven focused regression controls and separate same-session audits support
+the algebra; the geometric exhaustion and descent remain written proofs.
+No independent review, formalization, historical priority or exponent gain.
+
 The `2026-10-25-quadratic-odd-sharp-four` package is owner-directed Codex
 work. It supplies the integral four-space, polynomial source kernel and uniform
 power-of-two 14-minor, with a small-block hand derivation. The prior packages retain
