@@ -1,6 +1,24 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001",
+      "title": "Characteristic-two cap four for invertible quadratic coefficient families",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-quadratic-char2-cap-four/proof.md",
+      "statement": "Over any field of characteristic two, a linear coefficient family for the complete quadratic R_(3,3) source with geometric source rank at most fourteen and coefficient determinant not identically zero has dimension at most four. An integral linear form reduces any hypothetical five-space to a singular four-space in e=0 with T4=0; the elementary singular-four-space classification and permitted binary normalizations exclude every kernel and compression container. Together with the pinned odd-characteristic cap and universal three-plane, the maximum dimension of an invertible family lies in [3,4] over every field.",
+      "dependencies": [
+        "AI-GEOMETRIC-QUADRATIC-LINEAR-CAP-003 integer determinant identity",
+        "AI-CHAR2-QUADRATIC-EQUALITY-002 permitted binary action and kernel orbits",
+        "Local integral-linear-form proof and singular-four-space classification",
+        "AI-CHAR3-QUADRATIC-INVERTIBLE-001 and AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001 for the all-field interval"
+      ],
+      "limitations": "Written geometric proof with exact polynomial corroboration and separate same-session audit only. Geometric vanishing is stronger than finite-field pointwise vanishing. No dimension-four construction, independent mathematical review, formalization, historical-priority claim, compatible tensor target, or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001",
       "title": "Universal inclusion-maximal invertible quadratic three-plane",
       "origin": "Codex research directed by repository owner",
@@ -16,7 +34,7 @@
         "AI-CHAR2-QUADRATIC-EQUALITY-002",
         "Locally derived integer polynomial kernel, monomial minor certificate and first/second-order nonextension obstruction"
       ],
-      "limitations": "No dimension-four example or exclusion, no improvement of the characteristic-two upper bound, and no classification of all three-spaces. Singular six-spaces still exist. Exact identities and same-session audit are not independent review or formalization. No compatible tensor map, historical-priority claim or exponent improvement."
+      "limitations": "No dimension-four example or exclusion and no classification of all three-spaces. The characteristic-two upper bound is improved separately to four in AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001. Singular six-spaces still exist. Exact identities and same-session audit are not independent review or formalization. No compatible tensor map, historical-priority claim or exponent improvement."
     },
     {
       "id": "AI-CHAR3-QUADRATIC-INVERTIBLE-001",
@@ -34,7 +52,7 @@
         "AI-QUADRATIC-DETERMINANT-INVARIANT-001",
         "Pinned integral linear form and full tangent split; locally derived radical containment and cubic line coefficient"
       ],
-      "limitations": "Geometric polynomial vanishing, not finite-field point checks. Characteristic two remains open here. The upper bound is not asserted sharp. Same-session audit, symbolic checks and two tangent controls are not independent review or formalization. No compatible tensor map or exponent improvement."
+      "limitations": "Geometric polynomial vanishing, not finite-field point checks. Characteristic two is handled separately by AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001. The upper bound is not asserted sharp. Same-session audit, symbolic checks and two tangent controls are not independent review or formalization. No compatible tensor map or exponent improvement."
     },
     {
       "id": "AI-QUADRATIC-INVERTIBLE-TWO-PLANE-002",

@@ -1,0 +1,28 @@
+{
+  "claim": "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001",
+  "scope": "exact polynomial corroboration; geometric proof is written separately",
+  "characteristic": 2,
+  "integral_linear_form_identities_checked": true,
+  "orbit_and_compression_T4": {
+    "e0_plus_eta": "a**2*i**2 + a*f**2*g + c**2*g**2",
+    "compression_in_middle_section": "c**2*g**2",
+    "transverse_compression": "b*d*f*h",
+    "eta_minors": "a**2*i**2 + a*d*f*i + a*f**2*g + c**2*g**2 + c*d**2*i + c*d*f*g"
+  },
+  "e0_polar_minor": "D0**4",
+  "eta_taylor_coefficients": [
+    "u",
+    "p*u + r*v + v**2",
+    "p*r*v + q*r*u + r*s*v + s**2*u",
+    "p**2*v**2 + p*r*s*v + p*s**2*u + q**2*u**2 + q*r**2*v + q*r*s*u"
+  ],
+  "eta_complement_obstruction": "a*f*h0 + c*d*h0 + d*f",
+  "integer_rank_two_block_identity_checked": true,
+  "lower_bound_all_fields_from_pinned_construction": 3,
+  "upper_bound_all_fields_with_pinned_odd_proof": 4,
+  "computer_certifies_geometric_classification": false,
+  "sharpness_supplied": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

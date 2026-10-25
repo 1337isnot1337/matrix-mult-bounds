@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-char2-cap-four` package is owner-directed Codex
+work. It publishes the integral-linear-form and singular-four-space
+prerequisites and excludes all three characteristic-two kernel orbits and
+remaining compression cases. The determinant/equality packages retain
+credit for integer invariants and permitted binary actions. Exact source
+and scratch pins are recorded. Same-session algebra auditing checked the
+classification and normalization; this is not independent review. Exact
+replay corrected a cubic Taylor coefficient before publication and a
+mutation test rejects the original formula. Polynomial controls do not
+computationally certify the geometric classification. No sharpness witness,
+historical-priority claim, formalization, or exponent improvement is made.
+
 The `2026-10-25-quadratic-universal-three-plane` package is owner-directed
 Codex work. A finite characteristic-two discovery pilot led to a universal
 three-dimensional construction. The separate same-session audit corrected
