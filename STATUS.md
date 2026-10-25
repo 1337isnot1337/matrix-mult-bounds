@@ -1,5 +1,17 @@
 # Research status
 
+## Complete characteristic-two classification over every field
+
+The [all-fields package](research/ai/2026-10-25-char2-all-fields/README.md)
+removes the perfection assumption: over every characteristic-two field K,
+all attainers have classes (K/AS(K))_P, one N class and (K/AS(K))_V. The
+N equations force the needed square root into K; a left binary action and
+explicit stabilizers normalize and classify V without extracting roots.
+Claim `AI-CHAR2-ALL-FIELD-ATTAINERS-001` is written and unreviewed. Exact
+identities and mutation controls support the proof; geometric descent and
+exhaustion remain written arguments. The finite-field count stays exactly
+five. Compatible tensor maps remain open; no exponent gain follows.
+
 ## Complete perfect-field characteristic-two classification
 
 The [perfect-field package](research/ai/2026-10-25-char2-perfect-classification/README.md)
@@ -10,8 +22,8 @@ P classification works over arbitrary characteristic-two fields; N/V in
 this result require perfection. Claims `AI-CHAR2-P-FORMS-001` and
 `AI-CHAR2-PERFECT-ATTAINERS-001` remain written and unreviewed. Exact
 coefficient, normalization and mutation controls support the proof; they
-do not certify descent or replace independent review. Remaining lanes are
-nonperfect N/V forms and compatible tensor maps. No exponent gain follows.
+do not certify descent or replace independent review. The package above now handles nonperfect N/V forms; compatible tensor maps
+remain open. No exponent gain follows.
 
 ## Ground-field forms: moving eta classified over perfect fields
 
@@ -26,7 +38,8 @@ Claims `AI-CHAR2-PERFECT-ETA-FORMS-001` and `AI-CHAR2-NONSPLIT-P-FORMS-001`
 are written and unreviewed. Exact scalar and extension identities, complete
 normalized action checks over GF2/GF4/GF8, and forty literal source ranks
 support the proofs. The package above now exhausts P forms and all perfect-field attainers;
-nonperfect N/V forms and compatible tensor maps remain open. No exponent improvement follows.
+the all-fields extension above closes nonperfect N/V forms; compatible
+tensor maps remain open. No exponent improvement follows.
 
 ## Exactly three geometric characteristic-two quadratic attainers
 

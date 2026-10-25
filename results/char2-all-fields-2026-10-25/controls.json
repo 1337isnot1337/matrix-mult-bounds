@@ -1,0 +1,71 @@
+{
+  "N": {
+    "forced_A": "1+C*mu^2",
+    "forced_B": "mu^2",
+    "forced_root_C": "C*mu + lam",
+    "geometric_middle_column_rank_transfer_is_written_argument": true,
+    "left_outer_determinant": "det(G)^2",
+    "middle_column_covariance": true,
+    "restricted_Q": "A*C*b**2 + A*b*h + B*C*b*h + B*h**2 + b**2*lam**2 + b*h + h**2*mu**2",
+    "root_normalizer": true
+  },
+  "V_class_representative": "M_(1,c)",
+  "V_section": {
+    "F2(s)_example_verified": true,
+    "left_normalizer": "adj(C)^transpose",
+    "new_parameters": "det(C)*adj(C)*(x,y)^transpose",
+    "no_square_roots_extracted": true,
+    "parameter_determinant": "det(C)^3",
+    "primitive_conic_parametrization": true
+  },
+  "V_stabilizers": {
+    "arbitrary_field_AS_scalar_identity": true,
+    "diagonal_requires_a_nonzero": true,
+    "generators": [
+      {
+        "J_new": "J*a",
+        "L_new": "L/a",
+        "generator": "diagonal",
+        "parameter_determinant": "a**3",
+        "parameters_t_x_y": [
+          "a*t",
+          "a**2*x",
+          "y"
+        ]
+      },
+      {
+        "J_new": "J + L*z**2 + z",
+        "L_new": "L",
+        "generator": "lower",
+        "parameter_determinant": "1",
+        "parameters_t_x_y": [
+          "t",
+          "L**3*t*z**4 + x + y*z**2",
+          "y"
+        ]
+      },
+      {
+        "J_new": "J",
+        "L_new": "J*z**2 + L + z",
+        "generator": "upper",
+        "parameter_determinant": "1",
+        "parameters_t_x_y": [
+          "t",
+          "t*(J**3*z**2 + J**2*z) + x",
+          "t*(J**2*L*z**2 + J*z**2 + z) + x*z**2 + y"
+        ]
+      }
+    ],
+    "no_square_roots_extracted": true
+  },
+  "compatible_tensor_map": false,
+  "computer_certifies_field_descent": false,
+  "computer_certifies_geometric_exhaustion": false,
+  "improves_omega": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "new_finite_census": false,
+  "source_pins_checked": 22,
+  "written_classes": "(K/AS(K))_P disjoint-union {N} disjoint-union (K/AS(K))_V",
+  "written_classification_field": "every characteristic-two field"
+}
