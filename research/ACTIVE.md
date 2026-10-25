@@ -1,12 +1,21 @@
 # Integrated research coordination
 
+The [characteristic-three continuation](ai/2026-10-25-quadratic-char3-stratum/README.md)
+closes cap four for geometric quadratic rank14 families containing an
+invertible coefficient point in every characteristic other than two. Its
+rank-six radical argument supersedes the earlier characteristic-three gap.
+The explicit two-plane and integer minor16 give lower bound two over fields
+containing a square root of -1. Next precise questions: sharp dimensions
+three/four or characteristic two. Both new claims remain written and
+unreviewed; no compatible tensor construction or exponent gain is claimed.
+
 The [invertible-stratum package](ai/2026-10-25-quadratic-invertible-stratum/README.md)
 settles the next submaximal obstruction: outside characteristics two and
 three, a geometric rank14 family containing an invertible coefficient point
 has dimension at most four. The claim remains written and unreviewed.
-Next precise questions are sharpness of the upper bound and the two excluded
-characteristics. The odd-characteristic integral linear form is recorded
-for a possible characteristic-three continuation, with no dimension claim.
+Next precise questions are sharpness of the upper bound and characteristic
+two. The odd-characteristic integral linear form now supplies the
+characteristic-three continuation described above.
 No new coordinate-support census or trace-only five/151 exception search is
 needed; the recorded obstructions already settle those routes.
 

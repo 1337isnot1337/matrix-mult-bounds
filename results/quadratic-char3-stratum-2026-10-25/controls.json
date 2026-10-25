@@ -1,0 +1,298 @@
+{
+  "status": "Exact corroboration of written unreviewed proofs",
+  "claims": [
+    "AI-CHAR3-QUADRATIC-INVERTIBLE-001",
+    "AI-QUADRATIC-INVERTIBLE-TWO-PLANE-002"
+  ],
+  "proof_sha256": "7b12774a2cf64f9e3dfe885298acca9c8ab9c7838ad587520ecf2af2684c912c",
+  "two_plane_sha256": "534be59c60e768b1e697cdfab52fe2618c4e47f87f884b74b8a77cd5e0309a22",
+  "sources_sha256": "5f369fc3ac244d38b942249a9e205f6368c07382f249e2035357bc6303bbb88b",
+  "radical_and_directional_identities_mod3": true,
+  "characteristic_three_tangent_controls": [
+    {
+      "B_entries": [
+        1,
+        0,
+        1
+      ],
+      "C_rank": 1,
+      "four_block_rank": 4,
+      "tangent_rank": 5
+    },
+    {
+      "B_entries": [
+        1,
+        1,
+        0
+      ],
+      "C_rank": 2,
+      "four_block_rank": 4,
+      "tangent_rank": 6
+    }
+  ],
+  "cubic_line_coefficient": "2*p*mu^2*d*(d-mu^2), modulo p^2*mu*d=1",
+  "two_plane": {
+    "coefficient_ring": "Z[i,x,y]/(i^2+1)",
+    "coefficient_determinant": "4*x^3",
+    "Delta_zero": true,
+    "base_coefficient_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        -1,
+        -2,
+        1
+      ],
+      [
+        1,
+        -1,
+        0
+      ]
+    ],
+    "deleted_row_pair": [
+      0,
+      1
+    ],
+    "deleted_column_pair": [
+      1,
+      0
+    ],
+    "base_minor_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        -2,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        -2,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -2,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        -2,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        -2,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -2,
+        -1,
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        -2,
+        -1,
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        -2,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "base_minor_determinant": 16,
+    "field_requires_sqrt_minus_one": true
+  },
+  "odd_characteristic_upper_bound": 4,
+  "algebraically_closed_odd_characteristic_lower_bound": 2,
+  "characteristic_two_resolved": false,
+  "sharpness_supplied": false,
+  "independent_review": false,
+  "improves_omega": false
+}
