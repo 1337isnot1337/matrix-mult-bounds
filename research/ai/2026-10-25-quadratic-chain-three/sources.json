@@ -1,0 +1,88 @@
+{
+  "base_commit": "949559c10de366319a055a67a297aa16055d0558",
+  "base_pr": 234,
+  "parent_source_commit": "6e65509921f6b6a753632bdaac8973005fda6b5a",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Literal source and integer determinant/invariant identities."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Literal source and integer determinant/invariant identities."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "Earlier universal family and its original rank certificate; comparison family attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "Earlier universal family and its original rank certificate; comparison family attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Characteristic-two sharp cap three and covariance of e under permitted binary actions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Characteristic-two sharp cap three and covariance of e under permitted binary actions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-odd-attainers/proof.md",
+      "sha256": "7f37ea83f744fd8cca13d0502d5340c30cec4f877ae876e0047307f091e15630",
+      "use": "Intrinsic m covariance and necessary identity16D=m^3 for any odd-characteristic four-space."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-odd-attainers/sources.json",
+      "sha256": "b1fbf2a8b8139fead1457cd51d999c0657900049941157129beb764e5cd92f53",
+      "use": "Intrinsic m covariance and necessary identity16D=m^3 for any odd-characteristic four-space."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/audit.md",
+      "sha256": "3726a8b794126e0e1299e168a1e55714a65dda6d6eb04358293aa79faa9d1b55",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/chain_three_certificate.log",
+      "sha256": "3f02df9f3bb6babf72141ec22e7dfdb3940063b33e0fd5f4c06f1f1c5d2f7337",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/chain_three_certificate.py",
+      "sha256": "6069d8ca2ad04451085abd70142de8719e233afff429a2c6880fc9404a5e4803",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/char2_eval_pilot.json",
+      "sha256": "534f6e5e30eb01aa79254406d12970d3a4f6abfab73da86cf9ec8c79898d739b",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/char2_eval_pilot.py",
+      "sha256": "8e09a1b708a3e75786c27fe4bcc8ff34af47d3a49ecc92bc6a2aad518d1ec34f",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/notes.md",
+      "sha256": "cffb924e78a2a8797bd43a73f12ed806c36e2b2c9a4b7bedc825d75a7d61a705",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-chain-three-discovery-20261025/pins.json",
+      "sha256": "bd8acd015361f51fdade0292faf147c266725a4e65347b392d94ce37aa812c69",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex universal construction, polynomial source certificate and section-kernel distinction, with separate same-session read-only reconstruction. Existing source/invariant, upper-bound and odd-attainer classification packages retain credit. A finite GF2 chart pilot falsified a tentative square-direction exclusion and led to a witness whose scope was then established integrally. No historical-priority claim.",
+  "independent_review": false,
+  "improves_omega": false
+}

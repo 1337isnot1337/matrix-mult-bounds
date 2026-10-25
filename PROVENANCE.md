@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-chain-three` package is owner-directed Codex
+work. A finite GF2 census in two normalized evaluation-kernel charts found
+a second witness and falsified a tentative square-direction exclusion.
+Integer certificates then established the witness over every field.
+The new contribution is the family, kernel/minor, section-kernel distinction
+and inclusion-maximality consequence. Prior packages retain literal-source,
+invariant, sharp-cap and odd-attainer classification credit. Exact source
+and discovery hashes, including the finite scope, are recorded. A separate
+same-session reconstruction is not independent review or formalization.
+No complete characteristic-two classification, historical priority or
+exponent improvement is claimed.
+
 The `2026-10-25-quadratic-odd-attainers` package is owner-directed Codex
 work. It supplies the signed singular-three-space lemma, all section and
 compression exclusions, ground-field descent and triangular normalization.

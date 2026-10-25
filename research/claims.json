@@ -1,6 +1,25 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-QUADRATIC-CHAIN-THREE-001",
+      "title": "Second inequivalent universal inclusion-maximal invertible quadratic three-plane",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-quadratic-chain-three/proof.md",
+      "statement": "Over every field K, N(t,x,y)=[[t,x,0],[0,t,x],[0,y,0]] is a dimension-three geometric rank-at-most-fourteen family for the complete quadratic source, with D=-txy and literal row0/column2 minor -t^2*x^7*y^5. Source rank is exactly14 at every coefficient-invertible point. It is inclusion maximal and inequivalent under permitted binary actions and optional transpose to the earlier universal three-plane: intrinsic section common right/left kernel dimensions are (1,0), versus (1,1). Thus characteristic two has at least two inequivalent attaining three-spaces over every ground field; outside characteristic two the global maximum remains four.",
+      "dependencies": [
+        "Pinned literal source and integer determinant identities",
+        "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001 comparison family",
+        "AI-CHAR2-QUADRATIC-SHARP-THREE-001 cap3 and intrinsic e section",
+        "AI-ODD-QUADRATIC-ATTAINERS-001 intrinsic m covariance and16D=m^3 on every four-space",
+        "Explicit integer source kernel, unit-coefficient minor and common-kernel equations"
+      ],
+      "limitations": "Geometric polynomial vanishing, not finite-field pointwise rank. The GF2 normalized-chart census is discovery evidence only; no complete characteristic-two attainer classification or ground-field orbit classification. Same-session exact reconstruction does not establish independent review or formalization. No compatible tensor map, historical-priority claim or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-ODD-QUADRATIC-ATTAINERS-001",
       "title": "Classification of invertible quadratic four-dimensional attainers outside characteristic two",
       "origin": "Codex research directed by repository owner",
