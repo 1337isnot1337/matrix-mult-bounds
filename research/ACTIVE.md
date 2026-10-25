@@ -1,25 +1,24 @@
 # Integrated research coordination
 
-The [perfect-field classification package](ai/2026-10-25-char2-perfect-classification/README.md)
-closes all ground-field forms over perfect characteristic-two fields:
-(K/AS(K))_P, one N class, and (K/AS(K))_V. There are exactly five classes
-over every finite characteristic-two field. P forms are classified over
-arbitrary characteristic-two fields as well. Do not repeat these closed
-normalizations or treat the former five-GF2-example lower bound as the
-current frontier. Precise remaining questions are nonperfect N/V forms
-and compatible three-leg tensor maps. The new claims remain written and
-unreviewed; exact checks do not certify field descent or improve omega.
-The earlier ground-field package retains the V classification, P_c
-construction, scalar AS identity and finite-count attribution.
+The [all-fields classification package](ai/2026-10-25-char2-all-fields/README.md)
+closes every characteristic-two ground-field form: (K/AS(K))_P, one N
+class and (K/AS(K))_V, without a perfection assumption. The N equations
+force the needed square root into K, while the V section and stabilizers
+have root-free normalizations. Do not repeat the perfect/nonperfect
+classification searches. The next precise lane is compatible three-leg
+tensor maps for the classified spaces. The exact-five finite-field
+consequence is unchanged. All claims remain written and unreviewed;
+exact identities do not certify geometric descent or improve omega.
+Earlier packages retain their source, geometric classification, P-form,
+representative and AS-invariant attribution.
 
 The [complete geometric characteristic-two classification](ai/2026-10-25-char2-attainer-classification/README.md)
 now exhausts the attaining three-spaces over the algebraic closure: exactly
 P, N and V under permitted binary actions and optional transpose. The moving
 eta case outside the evaluation locus is V; the eta evaluation branch is P
 up to transpose; the mixed kernel case is excluded. Do not repeat these
-closed geometric searches. The package above now classifies the moving-eta
-forms over perfect fields and constructs nonsplit P forms. Remaining
-ground-field and tensor-map questions are stated there.
+closed geometric searches. The package above now classifies every ground-field form. Compatible
+tensor maps remain open.
 Keep the written unreviewed proof separate from exact coefficient controls
 and any future independent review. No exponent gain follows.
 

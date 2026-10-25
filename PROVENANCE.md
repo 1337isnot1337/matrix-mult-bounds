@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-char2-all-fields` package is owner-directed Codex work.
+It supplies the N forced-root argument, root-free left-factor V normalization,
+whole-family stabilizer generators and arbitrary-field exhaustion. Earlier
+packages retain source, integral-form, geometric and P classification,
+representative, extension-chart, primitive-conic and scalar AS attribution.
+The exact source/discovery pins preserve the earlier sufficient perfection
+hypothesis and the unpublished continuation. All prior claims remain valid
+within their stated scopes. The new claim is written and unreviewed; direct
+author audit and polynomial checks are not independent review or a formal
+certification of descent. No new finite census, tensor map, historical
+priority or exponent improvement is asserted.
+
 The `2026-10-25-char2-perfect-classification` package is owner-directed Codex
 work. It supplies root-free P normalization over arbitrary characteristic-two
 fields, the middle-column rank-transfer argument, complete P chart and AS

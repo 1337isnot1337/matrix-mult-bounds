@@ -1,6 +1,27 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-CHAR2-ALL-FIELD-ATTAINERS-001",
+      "title": "Complete characteristic-two quadratic attainer classification over every field",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-char2-all-fields/proof.md",
+      "statement": "Over every field K of characteristic two, all three-dimensional K-linear coefficient spaces for the literal complete quadratic source with coefficient determinant polynomial nonzero and geometric source rank at most fourteen have equivalence classes (K/AS(K))_P disjoint-union {N} disjoint-union (K/AS(K))_V, where AS(K)={z^2+z}, under independent permitted binary actions and optional transpose. Representatives are the pinned P_c, N and M_(1,c). For N, the restricted integral equation forces a square root in K after geometric middle-column rank transfer. For V, a left adjugate binary action normalizes the section over K and explicit squared-binary stabilizers realize all AS shifts. No perfection assumption is needed.",
+      "dependencies": [
+        "AI-CHAR2-P-FORMS-001 arbitrary-field P classification and geometric rank-transfer method",
+        "AI-CHAR2-QUADRATIC-ATTAINERS-001 geometric orbit exhaustion and complete moving-section extension chart",
+        "AI-CHAR2-PERFECT-ETA-FORMS-001 ground-field primitive-conic argument and arbitrary-field scalar AS identity",
+        "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001 normalized square chart and N shears",
+        "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001 integral form and source covariance",
+        "AI-CHAR2-QUADRATIC-SHARP-THREE-001 sharp maximum dimension",
+        "Local N forced-root argument, root-free V section normalizer and whole-family stabilizer identities"
+      ],
+      "limitations": "Polynomial geometric rank condition, not merely vanishing at ground-field points. The geometric descent and exhaustion are written arguments, not computer-certified by the exact identities. No new finite census, independent review, formalization, compatible three-leg tensor map, historical priority or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "origin": "Codex research directed by repository owner",
       "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-25-char2-perfect-classification/proof.md",
