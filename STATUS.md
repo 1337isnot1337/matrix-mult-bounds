@@ -1,5 +1,18 @@
 # Research status
 
+## Dimension-four bound on the invertible quadratic coefficient stratum
+
+The [invertible-stratum package](research/ai/2026-10-25-quadratic-invertible-stratum/README.md)
+shows that a geometric quadratic rank-at-most-fourteen family containing an
+invertible coefficient matrix has dimension at most four in characteristic
+different from two and three. Hence every family of dimension at least five
+has identically singular coefficients in these characteristics. A constant
+Gram ratio forces a rank-one Frobenius norm; a determinant-gradient line then
+contradicts the first two determinant coefficients. The upper bound is not
+asserted sharp. Claim `AI-QUADRATIC-INVERTIBLE-STRATUM-001` remains written
+and unreviewed. Characteristics two and three, sharpness, and compatible
+tensor maps remain open. No exponent improvement is established.
+
 ## Geometric quadratic equality classification over every field
 
 The [quadratic equality package](research/ai/2026-10-24-quadratic-equality/README.md)

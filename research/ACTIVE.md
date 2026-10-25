@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The [invertible-stratum package](ai/2026-10-25-quadratic-invertible-stratum/README.md)
+settles the next submaximal obstruction: outside characteristics two and
+three, a geometric rank14 family containing an invertible coefficient point
+has dimension at most four. The claim remains written and unreviewed.
+Next precise questions are sharpness of the upper bound and the two excluded
+characteristics. The odd-characteristic integral linear form is recorded
+for a possible characteristic-three continuation, with no dimension claim.
+No new coordinate-support census or trace-only five/151 exception search is
+needed; the recorded obstructions already settle those routes.
+
 The [quadratic equality package](ai/2026-10-24-quadratic-equality/README.md)
 settles geometric rank14 equality families in dimension six over every field:
 exactly the common-kernel and common-left-kernel spaces. Odd characteristic

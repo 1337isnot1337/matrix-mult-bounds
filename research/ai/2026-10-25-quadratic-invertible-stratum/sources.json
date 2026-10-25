@@ -1,0 +1,53 @@
+{
+  "base_commit": "07bfe52b8df3112ec3f0762d6ed4e60d4100b7fc",
+  "base_pr": 227,
+  "parent_source_commit": "11483d0a5346705ab0668643a75286346a7fb882",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Sections 1 and 8: literal source identity, monomial-to-Gram change, residual equation and invertible-point normal form."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Preserves exact prior external sources and attribution; no new external theorem imported."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/proof.md",
+      "sha256": "6d5c3825a62356fda703e3b495c3a970161d95e61ae00018696997b1f7b0427c",
+      "use": "Full tangent decomposition, the two block determinants and their exceptional-characteristic boundaries."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/verify.py",
+      "sha256": "052dad904e6dd86c035064154a75baad3dec5b6f00a108c36b7cd68331a891d9",
+      "use": "Replayed exact symbolic differential, tangent quadratic and block determinant checks."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/sources.json",
+      "sha256": "01085f7724dbc50f08fa38042bf9c3568cc5281cc620376d7fe9bf20c1e3d07b",
+      "use": "Pins inherited determinant package and original scratch provenance."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-equality-continuation-20261024/invertible-stratum.md",
+      "sha256": "ce7001da98dddd3eed79eed01b00a5044ff72d3f088ff7c3428a1f5e2c668daa",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-equality-continuation-20261024/scalar_check.py",
+      "sha256": "792df33f555038c3e0539992a779c24eb48bb26bcc43895f80f92f3d3cea708d",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-equality-continuation-20261024/scalar-check.json",
+      "sha256": "36f47a064e177445b6a3d5e3a1c355df0e28e459ba15eb2059af6630836535b2",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex derivation on October24, packaged October25. A separate same-session audit checked the constant-ratio, UFD, Frobenius-gradient and determinant-coefficient argument. The parent packages retain credit for normalization and tangent identities. No historical-priority claim.",
+  "independent_review": false,
+  "improves_omega": false
+}

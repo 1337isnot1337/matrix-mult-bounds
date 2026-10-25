@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-invertible-stratum` package is owner-directed
+Codex work. It retains the determinant and equality packages' exact source
+pins for normalization, the residual factor and the full tangent quadratic.
+The new argument makes the critical Gram ratio constant, applies unique
+factorization, and places a determinant-gradient direction inside a putative
+five-space. Its second determinant coefficient closes the trace-only
+characteristic-five/151 candidates; characteristic seven is handled before
+division. The October24 unpublished derivation and scalar checks are pinned
+as discovery inputs. A separate same-session algebra audit found no gap;
+this is not independent mathematical review. No sharpness witness, new
+external theorem, formalization or exponent improvement is claimed.
+
 The `2026-10-24-quadratic-equality` package is owner-directed Codex work.
 It retains the exact proof and source pins from the determinant package for
 the invariant factorization, normalization and invertible-point identities.
