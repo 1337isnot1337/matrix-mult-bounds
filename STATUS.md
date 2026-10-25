@@ -1,5 +1,20 @@
 # Research status
 
+## Ground-field forms: moving eta classified over perfect fields
+
+The [ground-field package](research/ai/2026-10-25-char2-ground-field-forms/README.md)
+classifies the moving-eta/no-left-kernel locus over every perfect field K of
+characteristic two by K/{r^2+r}. Over GF(q) its two forms have (q-1)^3 and
+(q-1)^2(q+1) invertible coefficient matrices. A separate explicit P_c
+construction works over every characteristic-two field and gives a nonsplit
+form when c is outside {r^2+r}. Together the examples prove at least five
+inequivalent GF2 attainers. This is not a complete GF2 or P-form classification.
+Claims `AI-CHAR2-PERFECT-ETA-FORMS-001` and `AI-CHAR2-NONSPLIT-P-FORMS-001`
+are written and unreviewed. Exact scalar and extension identities, complete
+normalized action checks over GF2/GF4/GF8, and forty literal source ranks
+support the proofs. Remaining lanes are P/N ground-field forms, nonperfect
+fields and compatible tensor maps. No exponent improvement follows.
+
 ## Exactly three geometric characteristic-two quadratic attainers
 
 The [complete geometric classification](research/ai/2026-10-25-char2-attainer-classification/README.md)

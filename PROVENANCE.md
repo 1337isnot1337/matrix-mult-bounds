@@ -1,5 +1,17 @@
 # Attribution and provenance
 
+The `2026-10-25-char2-ground-field-forms` package is owner-directed Codex
+work. It supplies perfect-field descent of the moving section, its
+Artin-Schreier classification and direct scalar identity, finite determinant
+counts, and an explicit separable P twist. Earlier packages retain the source,
+integral lemma, geometric classification, extension formulas, stabilizer and
+representative attribution. The exact source and frozen discovery pins retain
+the earlier geometric/ground-field boundary. The finite controls cover only
+GF2/GF4/GF8 and five displayed GF2 witnesses. Direct self-audit and computation
+are not independent review or formalization. No exhaustion of P-forms, complete
+GF2 classification, nonperfect-field classification, historical priority or
+exponent improvement is claimed.
+
 The `2026-10-25-char2-attainer-classification` package is owner-directed
 Codex work. It supplies the remaining geometric eta and mixed-kernel case
 proofs, primitive quadratic parametrization, linear syzygies, permitted
