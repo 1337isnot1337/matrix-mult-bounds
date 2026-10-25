@@ -1,5 +1,15 @@
 # Integrated research coordination
 
+The [second universal maximal three-plane](ai/2026-10-25-quadratic-chain-three/README.md)
+shows that characteristic-two attainers are not exhausted by the earlier
+universal plane. Their intrinsic sections have different common-kernel
+dimensions, (1,0) and (1,1). A square first-column direction is possible;
+do not repeat its falsified exclusion. The finite GF2 chart census is only
+discovery evidence. A precise next classification task is to exhaust
+attaining three-spaces whose e=0 section has a common evaluation kernel,
+including both first-column orbits and possible ground-field forms.
+The result remains written and unreviewed, with no exponent gain.
+
 The [odd-characteristic attainer classification](ai/2026-10-25-quadratic-odd-attainers/README.md)
 now gives a single normal form for every invertible quadratic four-space,
 using permitted changes over the original field. Do not repeat that closed

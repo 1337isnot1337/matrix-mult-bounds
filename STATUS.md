@@ -1,5 +1,20 @@
 # Research status
 
+## Two inequivalent universal maximal three-planes
+
+The [second universal three-plane](research/ai/2026-10-25-quadratic-chain-three/README.md)
+N(t,x,y)=[[t,x,0],[0,t,x],[0,y,0]] has coefficient determinant -txy and
+exact source rank fourteen at every invertible coefficient point over every
+field. Its integer kernel and minor -t^2*x^7*y^5 certify this directly.
+Its intrinsic singular section has common right/left kernel dimensions
+(1,0), whereas the earlier universal plane has (1,1). Thus they remain
+inequivalent under permitted binary changes and optional transpose.
+Both are inclusion maximal. In characteristic two this supplies at least
+two inequivalent dimension-three attainers; outside characteristic two,
+the global maximum remains four. Claim `AI-QUADRATIC-CHAIN-THREE-001`
+is written and unreviewed. Complete characteristic-two classification and
+compatible tensor maps remain open; no exponent improvement follows.
+
 ## All odd-characteristic four-dimensional attainers have one normal form
 
 The [attainer classification](research/ai/2026-10-25-quadratic-odd-attainers/README.md)
