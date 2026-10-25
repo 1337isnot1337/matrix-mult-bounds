@@ -1,6 +1,24 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001",
+      "title": "Universal inclusion-maximal invertible quadratic three-plane",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "evidence": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "statement": "Over every field K, M(x,y,z)=[[x,x,0],[0,y,0],[0,z,z]] is a three-dimensional K-linear family with detM=xyz and geometric full quadratic source rank at most14. A polynomial source kernel proves integer determinant vanishing; the literal14-minor omitting row(2,4) and column(4,0) equals -x^6*y^3*z^5, so source rank is exactly14 whenever xyz is nonzero. The unit basepoint minor has no exceptional characteristic. This particular three-plane is inclusion maximal among geometric rank-at-most14 linear coefficient families in every characteristic; first-order conditions and a second-order obstruction exclude every fourth direction. This does not exclude other four-spaces. With the pinned prior upper bounds, the maximum dimension among geometric families containing an invertible coefficient point lies in [3,4] outside characteristic two and [3,5] in characteristic two.",
+      "dependencies": [
+        "AI-QUADRATIC-DETERMINANT-INVARIANT-001",
+        "AI-CHAR3-QUADRATIC-INVERTIBLE-001",
+        "AI-CHAR2-QUADRATIC-EQUALITY-002",
+        "Locally derived integer polynomial kernel, monomial minor certificate and first/second-order nonextension obstruction"
+      ],
+      "limitations": "No dimension-four example or exclusion, no improvement of the characteristic-two upper bound, and no classification of all three-spaces. Singular six-spaces still exist. Exact identities and same-session audit are not independent review or formalization. No compatible tensor map, historical-priority claim or exponent improvement."
+    },
+    {
       "id": "AI-CHAR3-QUADRATIC-INVERTIBLE-001",
       "title": "Characteristic-three dimension-four bound for invertible quadratic families",
       "origin": "Codex research directed by repository owner",

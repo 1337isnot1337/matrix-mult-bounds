@@ -1,0 +1,83 @@
+{
+  "base_commit": "34b794c6f49e212a975397cde1fa916a318d4507",
+  "base_pr": 229,
+  "parent_source_commit": "ea6073db00fc3fa3147c58f9fee8aef60b010faf",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Literal source convention and integer invariant identity, sections1 and9."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Retains external attribution and earlier exact source versions."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char3-stratum/proof.md",
+      "sha256": "7b12774a2cf64f9e3dfe885298acca9c8ab9c7838ad587520ecf2af2684c912c",
+      "use": "Dimension-four cap outside characteristic two, combined with its pinned predecessor."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char3-stratum/sources.json",
+      "sha256": "5f369fc3ac244d38b942249a9e205f6368c07382f249e2035357bc6303bbb88b",
+      "use": "Pins the characteristic-zero/odd-characteristic upper-bound dependencies."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/characteristic-two.md",
+      "sha256": "37169eff5f29fd43293a37bf8786fce2a5a96cd503ac75b13a2c8da63bfebd2d",
+      "use": "Six-space equality classification implies upper five for the invertible stratum in characteristic two."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/sources.json",
+      "sha256": "01085f7724dbc50f08fa38042bf9c3568cc5281cc620376d7fe9bf20c1e3d07b",
+      "use": "Exact dependencies for the characteristic-two equality statement."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/three-plane.md",
+      "sha256": "8dd46f828d76f067ce0803e5a346b658d70943c481b000b46df5fe345be43029",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/three-plane.py",
+      "sha256": "3f4f585e362f8b2c58d5b3d8fd72047e9805ad3f8644803efbc92b569502b6bc",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/three-plane.json",
+      "sha256": "70f7c9ba80f3b3c5384a01de532e81cb1876603b7d24c1b216b2d016787501de",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/plane-pilot.py",
+      "sha256": "788feaa78ea97b73b7340b168a2f624f06f71764f5b3ce6e4f1d2bad9b83436f",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/plane-pilot.json",
+      "sha256": "84f23b9c7b8bd10ca883747fc7b3ac9310fbee884bf31fbd664db4fa07bfd606",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/pins.json",
+      "sha256": "0e1e9eecd5684efbf25e61a12aa5a3cdd9e17fc9963c3d223b57ab48f0adae89",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/universal-three-plane-audit-20261025/char2_threeplane_extension_audit.py",
+      "sha256": "5e0f525ecea5d410fdbe834f47bb2cf69f9a1b37ce0dc248bfbe0960dcfbafa4",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/universal-three-plane-audit-20261025/char2_threeplane_extension_audit.json",
+      "sha256": "b7d00b58ac5359ccfe3c22ff7c05d2a98a2316240a1117c41503ef1b6ab70773",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex construction with separate same-session algebra audit. The earlier determinant package retains source/invariant credit; prior cap/equality packages retain upper-bound credit. The audit corrected an omitted 2ai term before publication, extending the example from the initially suggested characteristic-two scope to every field. New exact polynomial kernel and monomial minor verify it directly. No historical-priority claim. A further same-session first-order extension calculation initially omitted the f contribution to the coefficient determinant differential; root inspection corrected the candidate direction before publication. The corrected first/second-order polynomial conditions exclude every extension of this particular three-plane, without excluding other four-spaces.",
+  "independent_review": false,
+  "improves_omega": false
+}

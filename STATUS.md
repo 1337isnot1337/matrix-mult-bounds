@@ -1,5 +1,22 @@
 # Research status
 
+## A universal invertible quadratic three-plane
+
+The [universal three-plane](research/ai/2026-10-25-quadratic-universal-three-plane/README.md)
+gives M(x,y,z)=[[x,x,0],[0,y,0],[0,z,z]], with coefficient determinant xyz
+and source determinant identically zero over the integers. Its symbolic
+14-minor is -x^6*y^3*z^5, so every invertible coefficient point has source
+rank exactly fourteen over every field, including Q and characteristic two.
+The basepoint minor is -1; no square root or exceptional-prime restriction
+is needed. This particular three-plane admits no fourth direction preserving
+the geometric rank cap, although other four-spaces are not excluded. Together with the preceding upper-bound packages, the maximum
+dimension among geometric rank-at-most-fourteen families containing an
+invertible coefficient point lies in [3,4] outside characteristic two and
+[3,5] in characteristic two. Singular six-spaces continue to exist.
+Claim `AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001` remains written and unreviewed.
+Dimension-four sharpness and the characteristic-two upper bound remain open;
+no compatible tensor map or exponent improvement is established.
+
 ## Invertible quadratic families: cap four outside characteristic two
 
 The [characteristic-three package](research/ai/2026-10-25-quadratic-char3-stratum/README.md)
@@ -10,10 +27,9 @@ two, including characteristic zero. The proof uses the rank-six tangent
 radical and a cubic line coefficient, not a generic rank-seven assertion.
 An explicit two-plane over fields containing a square root of -1 has
 coefficient determinant4*x^3 and a source14-minor equal to16 at its integer
-basepoint. Thus the maximum dimension among families containing an invertible
-coefficient matrix over an algebraically closed field of characteristic
-different from two lies between two and four. Sharpness and
-characteristic two remain open. Claims `AI-CHAR3-QUADRATIC-INVERTIBLE-001` and
+basepoint. This earlier lower bound two is strengthened by the universal
+three-plane above. Sharpness of the upper bound four and the
+characteristic-two upper bound remain open. Claims `AI-CHAR3-QUADRATIC-INVERTIBLE-001` and
 `AI-QUADRATIC-INVERTIBLE-TWO-PLANE-002` remain written and unreviewed; no
 compatible tensor map or exponent improvement is established.
 
