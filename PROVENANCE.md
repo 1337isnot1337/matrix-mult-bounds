@@ -1,5 +1,19 @@
 # Attribution and provenance
 
+The `2026-10-25-char2-perfect-classification` package is owner-directed Codex
+work. It supplies root-free P normalization over arbitrary characteristic-two
+fields, the middle-column rank-transfer argument, complete P chart and AS
+shift, perfect-field N descent, and full perfect-field exhaustion. Earlier
+packages retain source, integral-form, geometric classification, representative,
+scalar AS identity, V classification and finite-count attribution. Exact
+source/discovery pins preserve the incorrect k substitution and its corrected
+coefficient. The new report checks polynomial identities, not a new finite
+attainer census or computer-certified descent. Both claims remain written
+and unreviewed; self-audit, CI and merging are not independent review.
+Nonperfect N/V forms, formalization, tensor maps, historical priority and
+exponent improvements are not claimed. Earlier scope statements below
+describe those packages individually; the new claims supply the stated extension.
+
 The `2026-10-25-char2-ground-field-forms` package is owner-directed Codex
 work. It supplies perfect-field descent of the moving section, its
 Artin-Schreier classification and direct scalar identity, finite determinant

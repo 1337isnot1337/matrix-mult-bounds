@@ -1,14 +1,16 @@
 # Research directions
 
-The [ground-field forms package](../research/ai/2026-10-25-char2-ground-field-forms/README.md)
-closes the moving-eta/no-left-kernel classification over perfect
-characteristic-two fields: classes are K/{r^2+r}, with two over every finite
-field. Do not repeat that classification or infer all ground-field forms
-are now known. The explicit P_c twist shows that P also has nonsplit forms;
-the five GF2 examples give a lower bound, not an exhaustive census. Precise
-next questions: exhaust P-forms and N-forms, handle nonperfect normalization,
-or construct compatible three-leg tensor maps. Both new claims remain
-written and unreviewed; finite checks supply no exponent gain.
+The [perfect-field classification package](../research/ai/2026-10-25-char2-perfect-classification/README.md)
+closes all ground-field forms over perfect characteristic-two fields:
+(K/AS(K))_P, one N class, and (K/AS(K))_V. There are exactly five classes
+over every finite characteristic-two field. P forms are classified over
+arbitrary characteristic-two fields as well. Do not repeat these closed
+normalizations or treat the former five-GF2-example lower bound as the
+current frontier. Precise remaining questions are nonperfect N/V forms
+and compatible three-leg tensor maps. The new claims remain written and
+unreviewed; exact checks do not certify field descent or improve omega.
+The earlier ground-field package retains the V classification, P_c
+construction, scalar AS identity and finite-count attribution.
 
 The [complete geometric characteristic-two classification](../research/ai/2026-10-25-char2-attainer-classification/README.md)
 now exhausts the attaining three-spaces over the algebraic closure: exactly

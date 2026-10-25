@@ -1,0 +1,54 @@
+{
+  "chart": {
+    "AS_shift": true,
+    "canonical_P_match": true,
+    "complete_residuals": true,
+    "forced_v_coefficient": "(c+r+v)^2",
+    "full_Q_coefficient_comparison": true,
+    "initial_solution": {
+      "k": "F + c + r",
+      "u": "F*c + c**2 + c*r + c"
+    },
+    "normal_family": [
+      [
+        "t",
+        "b",
+        "b*r + h + t*(c**2 + c + r**2)"
+      ],
+      [
+        "t",
+        "t",
+        "t*(c**2 + r**2 + r)"
+      ],
+      [
+        "c*t",
+        "h",
+        "b*c**2 + h*(r + 1) + t*(c**3 + c**2 + c*r**2 + c)"
+      ]
+    ],
+    "raw_restrictions": true,
+    "right_shear": true,
+    "section_quadratic": "c^2*b^2+b*h+h^2"
+  },
+  "compatible_tensor_map": false,
+  "computer_certifies_field_descent": false,
+  "computer_certifies_geometric_exhaustion": false,
+  "finite_field_class_count_written_corollary": 5,
+  "improves_omega": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "new_finite_attainer_census": false,
+  "nonperfect_N_and_V_classified": false,
+  "normalization": {
+    "arbitrary_field_AS_scalar_identity": true,
+    "eta_fixed_dually": true,
+    "evaluation_normalizer": true,
+    "left_outer_determinant": "det(G)^2",
+    "middle_column_rank_covariance": true,
+    "root_free_P_normalizers": true,
+    "square_chart_N_shear": true
+  },
+  "source_pins_checked": 20,
+  "written_P_classification_field": "every characteristic-two field",
+  "written_full_classification_field": "perfect characteristic-two fields"
+}

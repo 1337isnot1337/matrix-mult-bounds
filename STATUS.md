@@ -1,5 +1,18 @@
 # Research status
 
+## Complete perfect-field characteristic-two classification
+
+The [perfect-field package](research/ai/2026-10-25-char2-perfect-classification/README.md)
+classifies all attainers over perfect characteristic-two fields by the
+disjoint union of two copies of K/{z^2+z} and the single N class. Thus
+every finite field of characteristic two has exactly five classes. The
+P classification works over arbitrary characteristic-two fields; N/V in
+this result require perfection. Claims `AI-CHAR2-P-FORMS-001` and
+`AI-CHAR2-PERFECT-ATTAINERS-001` remain written and unreviewed. Exact
+coefficient, normalization and mutation controls support the proof; they
+do not certify descent or replace independent review. Remaining lanes are
+nonperfect N/V forms and compatible tensor maps. No exponent gain follows.
+
 ## Ground-field forms: moving eta classified over perfect fields
 
 The [ground-field package](research/ai/2026-10-25-char2-ground-field-forms/README.md)
@@ -12,8 +25,8 @@ inequivalent GF2 attainers. This is not a complete GF2 or P-form classification.
 Claims `AI-CHAR2-PERFECT-ETA-FORMS-001` and `AI-CHAR2-NONSPLIT-P-FORMS-001`
 are written and unreviewed. Exact scalar and extension identities, complete
 normalized action checks over GF2/GF4/GF8, and forty literal source ranks
-support the proofs. Remaining lanes are P/N ground-field forms, nonperfect
-fields and compatible tensor maps. No exponent improvement follows.
+support the proofs. The package above now exhausts P forms and all perfect-field attainers;
+nonperfect N/V forms and compatible tensor maps remain open. No exponent improvement follows.
 
 ## Exactly three geometric characteristic-two quadratic attainers
 
