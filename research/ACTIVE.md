@@ -1,13 +1,23 @@
 # Integrated research coordination
 
+The [ground-field forms package](ai/2026-10-25-char2-ground-field-forms/README.md)
+closes the moving-eta/no-left-kernel classification over perfect
+characteristic-two fields: classes are K/{r^2+r}, with two over every finite
+field. Do not repeat that classification or infer all ground-field forms
+are now known. The explicit P_c twist shows that P also has nonsplit forms;
+the five GF2 examples give a lower bound, not an exhaustive census. Precise
+next questions: exhaust P-forms and N-forms, handle nonperfect normalization,
+or construct compatible three-leg tensor maps. Both new claims remain
+written and unreviewed; finite checks supply no exponent gain.
+
 The [complete geometric characteristic-two classification](ai/2026-10-25-char2-attainer-classification/README.md)
 now exhausts the attaining three-spaces over the algebraic closure: exactly
 P, N and V under permitted binary actions and optional transpose. The moving
 eta case outside the evaluation locus is V; the eta evaluation branch is P
 up to transpose; the mixed kernel case is excluded. Do not repeat these
-closed geometric searches. Precise next questions: classify ground-field
-forms of these three orbits (the nonsplit GF2 form of V is already distinct),
-or construct compatible three-leg tensor maps from the classified families.
+closed geometric searches. The package above now classifies the moving-eta
+forms over perfect fields and constructs nonsplit P forms. Remaining
+ground-field and tensor-map questions are stated there.
 Keep the written unreviewed proof separate from exact coefficient controls
 and any future independent review. No exponent gain follows.
 

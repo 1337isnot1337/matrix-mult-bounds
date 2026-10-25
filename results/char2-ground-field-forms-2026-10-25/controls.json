@@ -1,0 +1,207 @@
+{
+  "claims": [
+    "AI-CHAR2-PERFECT-ETA-FORMS-001",
+    "AI-CHAR2-NONSPLIT-P-FORMS-001"
+  ],
+  "eta_proof_scope": "perfect characteristic-two fields; common right eta kernel and no common left kernel",
+  "P_twist_proof_scope": "all characteristic-two fields; explicit construction, not exhaustion",
+  "symbolic": {
+    "cleared_AS_identity": true,
+    "weighted_polar_numerator": "a*d+b*cc",
+    "AS_r_numerator": "A*cc*d + B*a*b + b*cc",
+    "P_twist": [
+      [
+        "c*t + x + y",
+        "t + y",
+        "t"
+      ],
+      [
+        "c*t",
+        "t",
+        "t"
+      ],
+      [
+        "c**2*t + x*(c + 1) + y",
+        "c*t + x + y*(c + 1)",
+        "c*t"
+      ]
+    ],
+    "P_twist_D": "c*t*y**2 + t*x**2 + t*x*y",
+    "P_twist_ell": "t + x + y",
+    "separable_P_action_verified": true,
+    "eta_determinant_translation_verified": true
+  },
+  "finite_fields": [
+    {
+      "q": 2,
+      "modulus_bits": 3,
+      "GL2_order": 6,
+      "all_quadratics": 4,
+      "weighted_orbit_sizes": [
+        3,
+        1
+      ],
+      "all_action_invariance_checks": 24,
+      "nonsplit_c": 1,
+      "invertible_counts_by_trace": {
+        "0": [
+          1
+        ],
+        "1": [
+          3
+        ]
+      },
+      "all_family_matrix_determinants": 32
+    },
+    {
+      "q": 4,
+      "modulus_bits": 7,
+      "GL2_order": 180,
+      "all_quadratics": 16,
+      "weighted_orbit_sizes": [
+        10,
+        6
+      ],
+      "all_action_invariance_checks": 2880,
+      "nonsplit_c": 2,
+      "invertible_counts_by_trace": {
+        "0": [
+          27
+        ],
+        "1": [
+          45
+        ]
+      },
+      "all_family_matrix_determinants": 1024
+    },
+    {
+      "q": 8,
+      "modulus_bits": 11,
+      "GL2_order": 3528,
+      "all_quadratics": 64,
+      "weighted_orbit_sizes": [
+        36,
+        28
+      ],
+      "all_action_invariance_checks": 225792,
+      "nonsplit_c": 1,
+      "invertible_counts_by_trace": {
+        "0": [
+          343
+        ],
+        "1": [
+          441
+        ]
+      },
+      "all_family_matrix_determinants": 32768
+    }
+  ],
+  "forms": {
+    "P_split": {
+      "invertible_matrices": 1,
+      "source_rank_counts": {
+        "0": 1,
+        "9": 3,
+        "12": 3,
+        "14": 1
+      },
+      "common_right_nonzero_vectors": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "common_left_nonzero_vectors": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "P_nonsplit": {
+      "invertible_matrices": 3,
+      "source_rank_counts": {
+        "0": 1,
+        "9": 1,
+        "12": 3,
+        "14": 3
+      },
+      "common_right_nonzero_vectors": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "common_left_nonzero_vectors": [
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "N": {
+      "invertible_matrices": 1,
+      "source_rank_counts": {
+        "0": 1,
+        "12": 5,
+        "9": 1,
+        "14": 1
+      },
+      "common_right_nonzero_vectors": [
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "common_left_nonzero_vectors": []
+    },
+    "V_split": {
+      "invertible_matrices": 1,
+      "source_rank_counts": {
+        "0": 1,
+        "9": 1,
+        "12": 5,
+        "14": 1
+      },
+      "common_right_nonzero_vectors": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "common_left_nonzero_vectors": []
+    },
+    "V_nonsplit": {
+      "invertible_matrices": 3,
+      "source_rank_counts": {
+        "0": 1,
+        "14": 3,
+        "12": 3,
+        "9": 1
+      },
+      "common_right_nonzero_vectors": [
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "common_left_nonzero_vectors": []
+    }
+  },
+  "literal_GF2_source_rank_checks": 40,
+  "pairwise_inequivalent_GF2_forms_lower_bound": 5,
+  "computer_certifies_perfect_field_classification": false,
+  "all_P_forms_classified": false,
+  "complete_GF2_attainer_classification": false,
+  "nonperfect_field_forms_classified": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
