@@ -1,0 +1,98 @@
+{
+  "base_commit": "badc9ff77698a34d651594051145f2def46e8c4e",
+  "base_pr": 230,
+  "parent_source_commit": "6021035781878fcbc00275a2b98dced775008f99",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Literal source and integer determinant identity, Section 9."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Retains prior attribution and exact external versions."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/proof.md",
+      "sha256": "6d5c3825a62356fda703e3b495c3a970161d95e61ae00018696997b1f7b0427c",
+      "use": "Singular-space precedent, transposition and descent conventions."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/characteristic-two.md",
+      "sha256": "37169eff5f29fd43293a37bf8786fce2a5a96cd503ac75b13a2c8da63bfebd2d",
+      "use": "Permitted binary action and kernel orbits, Sections 1-2."
+    },
+    {
+      "path": "research/ai/2026-10-24-quadratic-equality/sources.json",
+      "sha256": "01085f7724dbc50f08fa38042bf9c3568cc5281cc620376d7fe9bf20c1e3d07b",
+      "use": "Pins the equality dependencies and attribution."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char3-stratum/proof.md",
+      "sha256": "7b12774a2cf64f9e3dfe885298acca9c8ab9c7838ad587520ecf2af2684c912c",
+      "use": "Cap four in every characteristic other than two."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char3-stratum/sources.json",
+      "sha256": "5f369fc3ac244d38b942249a9e205f6368c07382f249e2035357bc6303bbb88b",
+      "use": "Pins the earlier odd-characteristic cap dependencies."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/proof.md",
+      "sha256": "f960d04873e9904a610e43ca122fe2a3204c2d4451e8a178eabb680c63b98486",
+      "use": "Lower bound three over every field; this plane has no extension."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-universal-three-plane/sources.json",
+      "sha256": "60a102c487f2c7b3d46f6fa0893e355a5a48409b07af9c7b5a0b23d737aab5c2",
+      "use": "Pins construction dependencies and discovery provenance."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/reduction.md",
+      "sha256": "6e175abb3dffcd3fba16ec75b6eff067b9f874c74b63f1e06308ee5794598f74",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/controls.py",
+      "sha256": "7fca7f64409b3bff549d2dd5a1b1c578719ecf8dbc3afb7308ae591c5c407665",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/controls.json",
+      "sha256": "0bd6dce0037477de2ffeba7eaa2775d034e957dcfbddba61b0a894c3fefbde6a",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-continuation-20261025/pins.json",
+      "sha256": "0e1e9eecd5684efbf25e61a12aa5a3cdd9e17fc9963c3d223b57ab48f0adae89",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap4-continuation-20261025/proof.md",
+      "sha256": "e5ab7e3f895af9ce8a2fe1a8939ce4710b39139df162c4870a4099101283b912",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap4-continuation-20261025/controls.py",
+      "sha256": "6f98cc92c98f8a0485c0d3cb3fe8539f1848a8bffd12cbb5c4b0173f46c8632e",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap4-continuation-20261025/controls.json",
+      "sha256": "25a3db738ae69ad299f4b543d1cbcd4bd9a6018806b7365f878677ab6f2dd1b1",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-char2-cap4-continuation-20261025/pins.json",
+      "sha256": "b47957d8823af2e83108ef49ab636b217f2ebf7323e70fd40f9df7a3176d4fe6",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex proof, with separate same-session read-only algebra audit; not independent mathematical review. The singular-four-space argument extends the pinned local singular-five-space rederivation, with no historical-priority claim. Integer invariant and binary-action credit remains with the pinned packages. Exact replay caught and corrected the eta Taylor cubic u coefficient before publication.",
+  "independent_review": false,
+  "improves_omega": false
+}

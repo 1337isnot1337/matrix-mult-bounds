@@ -1,15 +1,24 @@
 # Research directions
 
-The [universal three-plane](../research/ai/2026-10-25-quadratic-universal-three-plane/README.md)
-raises the invertible quadratic stratum's lower bound to three over every
-field. Its polynomial kernel and source14-minor -x^6*y^3*z^5 prove exact
-rank fourteen at all invertible coefficient points. Combined with the prior
-cap/equality results, the maximum dimension is in [3,4] outside characteristic
-two and [3,5] in characteristic two. This particular three-plane has no
-fourth-direction extension in any characteristic; a four-space search must
-therefore use another family. Next: determine dimension-four
-sharpness or improve the characteristic-two upper bound. No square-root
-extension or finite-point census is required for the new construction.
+The [characteristic-two cap-four
+proof](../research/ai/2026-10-25-quadratic-char2-cap-four/README.md) now completes
+the invertible-family cap four over every field. Its integral linear form and
+singular-four-space cases exclude a five-space in characteristic two. The maximum
+dimension is in [3,4] over every field. Next precise question: construct a different
+four-space or exclude all four-spaces. The universal three-plane admits no fourth
+direction. Do not repeat the closed five-space question. Evidence remains written and
+unreviewed, with exact algebraic corroboration and no exponent improvement.
+
+The [universal
+three-plane](../research/ai/2026-10-25-quadratic-universal-three-plane/README.md)
+raises the invertible quadratic stratum's lower bound to three over every field. Its
+polynomial kernel and source14-minor -x^6*y^3*z^5 prove exact rank fourteen at all
+invertible coefficient points. Combined with the prior cap/equality results, the
+maximum dimension is now in [3,4] over every field. This particular three-plane has
+no fourth-direction extension in any characteristic; a four-space search must
+therefore use another family. Next: determine dimension-four sharpness over each
+field. No square-root extension or finite-point census is required for the new
+construction.
 
 The [characteristic-three continuation](../research/ai/2026-10-25-quadratic-char3-stratum/README.md)
 completes cap four outside characteristic two. Do not repeat that closed
@@ -17,15 +26,16 @@ question or the false generic rank-seven route: its proof uses the rank-six
 radical and a cubic line coefficient. These claims remain written and
 unreviewed and supply no compatible tensor map or exponent improvement.
 
-The [invertible-stratum package](../research/ai/2026-10-25-quadratic-invertible-stratum/README.md)
-now bounds geometric rank14 families containing an invertible coefficient
-point by dimension four outside characteristics two and three. Next: decide
-sharpness of this upper bound or handle characteristic two. The
-necessary identities `p=q*h-h^3` and `s2(N^tN)=2*p*h` hold in every odd
-characteristic and now supply the characteristic-three continuation, where
-the generic rank-seven tangent step fails. Do not reopen the trace-only five/151
-candidates: the second determinant coefficient already excludes them.
-The proof is written and unreviewed and supplies no compatible tensor map.
+The [invertible-stratum
+package](../research/ai/2026-10-25-quadratic-invertible-stratum/README.md) now bounds
+geometric rank14 families containing an invertible coefficient point by dimension
+four outside characteristics two and three. Next: decide sharpness of this upper
+bound; characteristic two is now closed above. The necessary identities `p=q*h-h^3`
+and `s2(N^tN)=2*p*h` hold in every odd characteristic and now supply the
+characteristic-three continuation, where the generic rank-seven tangent step fails.
+Do not reopen the trace-only five/151 candidates: the second determinant coefficient
+already excludes them. The proof is written and unreviewed and supplies no compatible
+tensor map.
 
 The [quadratic equality package](../research/ai/2026-10-24-quadratic-equality/README.md)
 now classifies geometric rank14 six-spaces as the two coefficient compression
