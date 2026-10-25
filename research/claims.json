@@ -3,6 +3,46 @@
     {
       "origin": "Codex research directed by repository owner",
       "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-char2-perfect-classification/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-CHAR2-P-FORMS-001",
+      "title": "All characteristic-two ground-field forms of the geometric P orbit",
+      "statement": "Over every field K of characteristic two, K-forms of the geometric P orbit among coefficient-invertible three-dimensional geometric rank-at-most-fourteen families for the literal complete quadratic source are classified under permitted binary actions and optional transpose by K/AS(K), AS(K)={z^2+z}. Representatives are the pinned P_c. Ground-field kernel descent and root-free normalization give the complete chart B_(c,r); explicit right shears remove r and a left shear realizes every AS shift. The intrinsic determinant quadratic gives necessity through the arbitrary-field scalar AS identity.",
+      "dependencies": [
+        "AI-CHAR2-QUADRATIC-ATTAINERS-001 geometric types and section kernel invariants",
+        "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001 normalized charts and square-chart exclusion",
+        "AI-CHAR2-NONSPLIT-P-FORMS-001 P_c representatives and exact-rank certificates",
+        "AI-CHAR2-PERFECT-ETA-FORMS-001 scalar AS identity, whose coefficient proof has no perfection hypothesis",
+        "AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001 integral form and source actions",
+        "Local arbitrary-field normalization, geometric middle-column rank transfer and full chart exhaustion"
+      ],
+      "limitations": "Classifies K-forms of geometric P only. The written geometric rank-transfer and descent arguments are not computer-certified. No classification of nonperfect N/V forms, independent review, formalization, compatible tensor map, historical priority or exponent improvement."
+    },
+    {
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-char2-perfect-classification/proof.md",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false,
+      "id": "AI-CHAR2-PERFECT-ATTAINERS-001",
+      "title": "Complete perfect-field characteristic-two attainer classification and exactly five finite-field classes",
+      "statement": "Over every perfect field K of characteristic two, all three-dimensional coefficient spaces for the literal complete quadratic source with determinant polynomial nonzero and geometric source rank at most fourteen have equivalence classes (K/AS(K))_P disjoint-union {N} disjoint-union (K/AS(K))_V under independent permitted binary actions and optional transpose. The N orbit has one K-form by perfect-field square normalization and explicit square-chart shears. Every finite characteristic-two field therefore has exactly five classes; every algebraically closed one has three. Over GF(q), each split P/V and N class has (q-1)^3 invertible matrices, and each nonsplit P/V class has (q-1)^2(q+1).",
+      "dependencies": [
+        "AI-CHAR2-P-FORMS-001 arbitrary-field P classification",
+        "AI-CHAR2-PERFECT-ETA-FORMS-001 perfect-field V classification and finite counts",
+        "AI-CHAR2-QUADRATIC-ATTAINERS-001 three geometric orbits",
+        "AI-CHAR2-EVALUATION-KERNEL-ATTAINERS-001 explicit square-chart N classification",
+        "AI-QUADRATIC-CHAIN-THREE-001 N representative and determinant",
+        "Local perfect-field N descent and exhaustion; elementary finite-field AS quotient count"
+      ],
+      "limitations": "Perfect characteristic-two fields and polynomial geometric rank condition. Not a pointwise finite rank assertion or new exhaustive finite census. Nonperfect N/V forms remain open. Direct author self-audit and exact polynomial controls are not independent review or formalization. No compatible tensor map, historical priority or exponent improvement."
+    },
+    {
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
       "evidence": "research/ai/2026-10-25-char2-ground-field-forms/proof.md",
       "independent_review": false,
       "lean_formalized": false,
