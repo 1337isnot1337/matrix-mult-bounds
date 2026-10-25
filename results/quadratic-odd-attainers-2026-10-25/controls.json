@@ -1,0 +1,29 @@
+{
+  "claim": "AI-ODD-QUADRATIC-ATTAINERS-001",
+  "scope": "dimension-four geometric families with nonzero coefficient determinant over every field of characteristic different from two",
+  "normal_form": "[[8t,b,c],[0,4t,f],[0,0,t]]",
+  "equivalence": "binary coefficient actions over K and optional transposition",
+  "signed_singular_three_cubic": "a*x**2*y + b*x*y**2 + c*x*y**2 + d*y**3 - f*x**3 - g*x**2*y - h*x**2*y - j*x*y**2",
+  "compression_quartics": [
+    "c**2*g**2",
+    "a*c*h**2",
+    "a*f**2*g",
+    "b*d*f*h"
+  ],
+  "integral_and_covariance_identities_checked": true,
+  "adjugate_and_rank_one_exclusions_checked": true,
+  "eta_coefficients_and_polar_minor_checked": true,
+  "normalization_orientation_checked": true,
+  "final_diagonal_equation": "-t*(e0 - 1)**2*(2*e0 - 1)/4",
+  "rank_five_polar_minor": "-d**4/2",
+  "characteristic_three_cleared_equation": "e0**3*t - e0**2*t - e0*t + t",
+  "intrinsic_consequences": [
+    "16D=m^3",
+    "4(e^2+4A2)=5m^2"
+  ],
+  "intrinsic_consequence_verification": "normal-form identities and binary-action identities; transport follows written algebra",
+  "computer_certifies_geometric_classification": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}

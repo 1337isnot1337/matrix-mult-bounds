@@ -1,12 +1,23 @@
 # Integrated research coordination
 
+The [odd-characteristic attainer classification](ai/2026-10-25-quadratic-odd-attainers/README.md)
+now gives a single normal form for every invertible quadratic four-space,
+using permitted changes over the original field. Do not repeat that closed
+classification route or the sharp-dimension search. Precise remaining lanes:
+classify the attaining three-spaces in characteristic two, or construct a
+compatible three-leg tensor map for the explicit odd four-space. The intrinsic
+identities 16D=m^3 and 4(e^2+4A2)=5m^2 are necessary for every odd attainer.
+The proof is written and unreviewed; exact algebra does not establish a tensor
+map or exponent gain.
+
 The [odd-characteristic four-space](ai/2026-10-25-quadratic-odd-sharp-four/README.md)
 now closes the invertible-family dimension question: the maximum is three in
 characteristic two and four otherwise. Its integer kernel and minor -2^18*t^14
 work over every field of characteristic different from two, without adjoining
 roots. Do not repeat a global odd-characteristic cap-three search or the closed
-sharpness question. Next: classify attaining families or construct compatible
-three-leg tensor maps. The proof remains written and unreviewed; no exponent gain.
+sharpness question. The classification above closes the odd-characteristic
+attainer question. Next: characteristic-two attainers or compatible three-leg
+tensor maps. The proof remains written and unreviewed; no exponent gain.
 
 The [sharp characteristic-two proof](ai/2026-10-25-quadratic-char2-sharp-three/README.md)
 now gives maximum invertible-family dimension exactly three in

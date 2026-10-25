@@ -1,6 +1,23 @@
 {"snapshot_date": "2026-10-21",
   "claims": [
     {
+      "id": "AI-ODD-QUADRATIC-ATTAINERS-001",
+      "title": "Classification of invertible quadratic four-dimensional attainers outside characteristic two",
+      "origin": "Codex research directed by repository owner",
+      "status": "proof-written-unreviewed",
+      "evidence": "research/ai/2026-10-25-quadratic-odd-attainers/proof.md",
+      "statement": "Over every field K of characteristic different from two, including zero, every four-dimensional K-linear coefficient family for the complete quadratic R_(3,3) source with geometric source rank at most fourteen and coefficient determinant not identically zero is equivalent to {[[8t,b,c],[0,4t,f],[0,0,t]]} by permitted binary coefficient actions over K and optional transposition. This includes finite and nonperfect K. Every such attainer satisfies 16D=m^3 and 4(e^2+4A2)=5m^2 for the intrinsic linear form m=e+2T4/D.",
+      "dependencies": [
+        "Pinned quadratic-determinant full source, integer invariant identity and permitted binary actions",
+        "AI-ODD-QUADRATIC-SHARP-FOUR-001 normal-form converse and exact source-rank certificate",
+        "Local signed singular-three-space classification, all exclusions, covariance and descent; characteristic-two package used only as case-organization precedent"
+      ],
+      "limitations": "Geometric polynomial vanishing is essential; pointwise finite-field rank is insufficient. Does not classify characteristic-two attainers or singular coefficient families, or supply a compatible three-leg tensor map. Exact algebraic identities and same-session audits do not computationally certify geometric exhaustion, integral closedness or descent, and do not constitute independent review or formalization. No historical-priority claim or exponent improvement.",
+      "independent_review": false,
+      "lean_formalized": false,
+      "improves_omega": false
+    },
+    {
       "id": "AI-ODD-QUADRATIC-SHARP-FOUR-001",
       "title": "Sharp dimension four for invertible quadratic families outside characteristic two",
       "origin": "Codex research directed by repository owner",

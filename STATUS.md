@@ -1,5 +1,21 @@
 # Research status
 
+## All odd-characteristic four-dimensional attainers have one normal form
+
+The [attainer classification](research/ai/2026-10-25-quadratic-odd-attainers/README.md)
+proves that every four-dimensional geometric rank-at-most-fourteen family
+with coefficient determinant not identically zero is equivalent to
+M(t,b,c,f)=[[8t,b,c],[0,4t,f],[0,0,t]] over every field of characteristic
+different from two. The permitted binary changes and optional transpose
+are defined over the original field, including finite and nonperfect fields.
+The proof derives an intrinsic singular three-section, exhausts its cases,
+and gives explicit descent and normalization. Every attainer satisfies
+16D=m^3 and 4(e^2+4A2)=5m^2, where m=e+2T4/D is linear.
+Claim `AI-ODD-QUADRATIC-ATTAINERS-001` is written and unreviewed;
+exact identities and same-session audits do not certify the geometric proof.
+Characteristic-two attainer classification and compatible tensor maps remain
+open. No matrix-multiplication exponent improvement follows.
+
 ## Sharp invertible quadratic dimensions in every characteristic
 
 The [odd-characteristic four-space](research/ai/2026-10-25-quadratic-odd-sharp-four/README.md)
@@ -10,8 +26,9 @@ source rank fourteen whenever t is nonzero. Combined with the separate
 characteristic-two result below, the maximum dimension of a geometric rank-at-most-fourteen
 family with coefficient determinant not identically zero is **three in
 characteristic two and four otherwise**. Claim `AI-ODD-QUADRATIC-SHARP-FOUR-001`
-is written and unreviewed. Attainer classification and compatible tensor maps
-remain open; no exponent improvement is established.
+is written and unreviewed. The classification above now treats its odd-characteristic
+attainers; characteristic-two attainers and compatible tensor maps remain open.
+No exponent improvement is established.
 
 ## Sharp invertible quadratic bound in characteristic two
 

@@ -1,0 +1,133 @@
+{
+  "base_commit": "608e4069e57c21dba6ce1c5551c585ceb84b735d",
+  "external_sources": [],
+  "local_dependencies": [
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/proof.md",
+      "sha256": "7cd11f95312fe7bd606102fb87f7311b2e89c1ef5b671a74f1168023a0c1b66f",
+      "use": "Full literal source, permitted binary actions and integer determinant identity."
+    },
+    {
+      "path": "research/ai/2026-10-23-quadratic-determinant/sources.json",
+      "sha256": "8628ef07e76cb87879f8e72d9ad8467c904ec5a05a96668d11ee2acbb6158c07",
+      "use": "Full literal source, permitted binary actions and integer determinant identity."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/proof.md",
+      "sha256": "1e3932d29cdcd9e4989127a0e2843f12996a0bb0390a3defff14440ef85eed5f",
+      "use": "Precedent for singular-space case organization; odd signed lemma is re-proved, not imported from characteristic two."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-char2-sharp-three/sources.json",
+      "sha256": "21b9d50e701f2969f63131c34afe1d6f5737b64bc0c83c8e4467588b75d496a3",
+      "use": "Precedent for singular-space case organization; odd signed lemma is re-proved, not imported from characteristic two."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-odd-sharp-four/proof.md",
+      "sha256": "8622bb17683b145ec5ac8cac3e274dcf257457028f041ccc894f9274beb3087b",
+      "use": "Normal-form converse, polynomial source kernel and uniform exact-rank14 certificate."
+    },
+    {
+      "path": "research/ai/2026-10-25-quadratic-odd-sharp-four/sources.json",
+      "sha256": "90111012b535337c46e34487de1af317b3dc7bedc1c35ad8aa264bb1555863d3",
+      "use": "Normal-form converse, polynomial source kernel and uniform exact-rank14 certificate."
+    }
+  ],
+  "discovery_inputs": [
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/controls.json",
+      "sha256": "3cf437deddd053f61207a2f8d4296b8df4a526e4561b968cdb933bf72d28b4c7",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/controls.py",
+      "sha256": "a8b1165f826c1feee47275cc85fa6a001ca28e5df78e7b2d6f16912a3586a9c5",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/pins.json",
+      "sha256": "2307192651a8ff1b5d4fcc420d0829c845be6e21d9315af275009c2e3faf89b6",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-fourspace-reduction-20261025/proof.md",
+      "sha256": "d6bf2c7b42d7637731bd37fa417bb43221f21be81f2aa1e079ed6dd239aa4073",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/audit.md",
+      "sha256": "07d6d9157bd6c829df4d970f8e41be122fdb01aa50b2e46860b988aa5786c86f",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/bridge-controls.py",
+      "sha256": "664f929dc9e71aa754f9e41e0b3d46ac6104065fe995cbbd1b4b150a938221c8",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/controls.json",
+      "sha256": "ab039c07bece86cd74013bc9fbdb93204b9c3beadc118e764db649fcf320bc12",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/controls.py",
+      "sha256": "a7cd6b52b86c7909c3f6beea3cd04800dd73b9b4443dac7ed8ca3347ffabf48c",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/normalization-controls.py",
+      "sha256": "2cf12d5e023655821acc61bfe2c150438eb97b0c3d3287fca654818b16d845da",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/pins.json",
+      "sha256": "704e4c99298c3ac80b5016cfa6012e955bf8ff87528a4f9c9c1ee13b10e452f9",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/proof.md",
+      "sha256": "6bf538d484a950dd246e5fe07a4430c65b21a9e176f09887976fbe505ed1a6c4",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-continuation-20261025/triangular-control.py",
+      "sha256": "34d401cbeb56166c5d1f5ea5a3cad53eb585e2a832af9525b57d533ed1dc48f2",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-publication-20261025/README.md",
+      "sha256": "438e9bb0b4f8addd2600b998cdce7a46b20d214e0fa1b129732ac13c01e75c8e",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-publication-20261025/audit.md",
+      "sha256": "ec4664640439b9574d2fd38f84ea72d86d1d1a94d40c54ef5889cb02526d5279",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-publication-20261025/pins.json",
+      "sha256": "a88d87ab2ebe2c65b5f4007b069b77b7f1953f7834e8e303f769a2b5eb68aa6a",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-publication-20261025/proof.md",
+      "sha256": "7f37ea83f744fd8cca13d0502d5340c30cec4f877ae876e0047307f091e15630",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-publication-20261025/test_quadratic_odd_attainers.py",
+      "sha256": "1a40e9eed3fdac9c1bcb75d13c3f8dba607d783caca8812dfa61a148d9ceaccc",
+      "runtime_dependency": false
+    },
+    {
+      "path_from_campaign_root": "work/quadratic-odd-attainer-publication-20261025/verify.py",
+      "sha256": "40d6874983282e9372fdf27437835f832089baf72c602ef05cfac4c2fc7dd1a1",
+      "runtime_dependency": false
+    }
+  ],
+  "contribution": "Owner-directed Codex proof of odd-characteristic attainer classification with separate same-session read-only audits. Existing source, invariant and sharpness packages retain attribution. The signed singular-three-space lemma and all exclusions and descent are written in full. Corrected mixed-compression and explicit normalization-orientation errors are retained as provenance and regression controls. No historical-priority claim.",
+  "independent_review": false,
+  "improves_omega": false,
+  "base_pr": 233,
+  "parent_source_commit": "c65af0186702172af0ff3bd3c08abeb8ccf02862"
+}
