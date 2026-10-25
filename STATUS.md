@@ -1,5 +1,19 @@
 # Research status
 
+## Sharp invertible quadratic bound in characteristic two
+
+The [sharp characteristic-two package](research/ai/2026-10-25-quadratic-char2-sharp-three/README.md)
+proves that the maximum dimension of a geometric rank-at-most-fourteen
+coefficient family with determinant not identically zero is **three** over
+every field of characteristic two. The universal three-plane attains it.
+A singular-three-space classification and adjugate factorization exclude
+the alternating case; explicit extension obstructions close every kernel
+and compression case, including rank-one middle sections.
+Claim `AI-CHAR2-QUADRATIC-SHARP-THREE-001` is written and unreviewed.
+Outside characteristic two the maximum remains in [3,4]. Classification
+of all attaining three-spaces and compatible tensor maps remain open;
+no exponent improvement is established.
+
 ## Invertible quadratic families: cap four over every field
 
 The [characteristic-two cap-four
@@ -9,10 +23,10 @@ coefficient determinant not identically zero has dimension at most four in
 characteristic two. The proof supplies an integral linear form, classifies singular
 four-spaces, and excludes every permitted kernel or compression extension. Together
 with the preceding odd-characteristic cap and universal three-plane, the maximum
-invertible-family dimension lies in **[3,4] over every field**. Singular six-spaces
+invertible-family dimension lies in [3,4]; the sharp continuation above now gives exactly three in characteristic two. Singular six-spaces
 remain possible. Claim `AI-CHAR2-QUADRATIC-INVERTIBLE-CAP-001` is written and
 unreviewed. Exact identities and same-session auditing provide corroboration, not
-independent review. Dimension-four sharpness remains open; the existing three-plane
+independent review. Dimension-four sharpness outside characteristic two remains open; the existing three-plane
 has no larger extension. No exponent improvement follows.
 
 ## A universal invertible quadratic three-plane
@@ -30,7 +44,7 @@ maximum dimension among geometric rank-at-most-fourteen families containing an
 invertible coefficient point now lies in [3,4] over every field, using the
 characteristic-two continuation above. Singular six-spaces continue to exist. Claim
 `AI-QUADRATIC-UNIVERSAL-THREE-PLANE-001` remains written and unreviewed.
-Dimension-four sharpness remains open; no compatible tensor map or exponent
+Dimension-four sharpness outside characteristic two remains open; no compatible tensor map or exponent
 improvement is established.
 
 ## Invertible quadratic families: cap four outside characteristic two

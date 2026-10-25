@@ -1,11 +1,21 @@
 # Integrated research coordination
 
+The [sharp characteristic-two proof](ai/2026-10-25-quadratic-char2-sharp-three/README.md)
+now gives maximum invertible-family dimension exactly three in
+characteristic two, attained by the universal three-plane. Every
+four-space is excluded, including rank-one middle-section and primitive
+alternating cases. Do not repeat this closed dimension question.
+Next precise questions: the three-versus-four gap outside characteristic
+two, classification of attaining three-spaces, or compatible tensor maps.
+The proof is written and unreviewed; no exponent gain follows.
+
 The [characteristic-two cap-four
 proof](ai/2026-10-25-quadratic-char2-cap-four/README.md) now completes the
 invertible-family cap four over every field. Its integral linear form and
 singular-four-space cases exclude a five-space in characteristic two. The maximum
-dimension is in [3,4] over every field. Next precise question: construct a different
-four-space or exclude all four-spaces. The universal three-plane admits no fourth
+dimension was bounded in [3,4] over every field; the continuation above
+now gives exactly three in characteristic two. Next: outside characteristic
+two, construct a different four-space or exclude all four-spaces. The universal three-plane admits no fourth
 direction. Do not repeat the closed five-space question. Evidence remains written and
 unreviewed, with exact algebraic corroboration and no exponent improvement.
 
@@ -15,7 +25,7 @@ containing an invertible coefficient point. A polynomial source kernel and the
 monomial14-minor -x^6*y^3*z^5 give exact rank14 whenever xyz is nonzero. The
 basepoint minor is a unit; no field extension is needed. This particular three-plane
 has no larger linear extension; do not retry its already excluded fourth directions.
-Next precise question: dimension-four sharpness over each field. The earlier
+Next precise question: dimension-four sharpness outside characteristic two. The earlier
 [characteristic-three continuation](ai/2026-10-25-quadratic-char3-stratum/README.md)
 already completes the odd-characteristic cap four; do not reopen it. Claims remain
 written and unreviewed; no tensor map or exponent gain follows.

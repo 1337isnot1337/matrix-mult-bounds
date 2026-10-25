@@ -1,5 +1,16 @@
 # Attribution and provenance
 
+The `2026-10-25-quadratic-char2-sharp-three` package is owner-directed
+Codex work. It derives a singular-three-space classification, an adjugate
+conic factorization and extension obstructions for every kernel orbit and
+compression case. The cap-four package retains the integral-form and
+binary-action credit; the universal three-plane retains sharpness credit.
+The discovery identified a rank-one three-section gap and closed it with
+a separate argument before publication. Exact source/discovery hashes,
+regression controls, and a separate same-session audit are retained.
+These do not establish independent mathematical review, formalization,
+historical priority, or an exponent improvement.
+
 The `2026-10-25-quadratic-char2-cap-four` package is owner-directed Codex
 work. It publishes the integral-linear-form and singular-four-space
 prerequisites and excludes all three characteristic-two kernel orbits and

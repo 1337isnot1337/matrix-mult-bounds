@@ -1,0 +1,29 @@
+{
+  "claim": "AI-CHAR2-QUADRATIC-SHARP-THREE-001",
+  "scope": "exact algebraic corroboration; the geometric proof is separate",
+  "characteristic": 2,
+  "adjugate_identity": "S(adj M)=T4+eD",
+  "rank_one_adjugate_factor": "S(u v^t)=Q(u)Q(v)",
+  "primitive_section_cubic": "aa*x**2*y + bb*x*y**2 + cc*x*y**2 + dd*y**3 + ff*x**3 + gg*x**2*y + hh*x**2*y + jj*x*y**2",
+  "primitive_shear_checked": true,
+  "middle_rank_two_polar_determinant": "h0**4",
+  "middle_rank_two_q": "a*i0*t + b0*d*i0*t + b0*f0*g0*t**2 + c*g0*t",
+  "middle_rank_one_residuals": [
+    "f0*h0 + i0",
+    "b0*i0 + c0*h0 + f0",
+    "b0*f0 + c0"
+  ],
+  "middle_rank_one_case_checked": true,
+  "evaluation_kernel_polar_minor": "d0**4",
+  "evaluation_kernel_free_c_coefficient": "h**2*t",
+  "mixed_kernel_full_q": "a*d0*i0*t + a*i0*t + b0*d0*i0*t**2 + b0*f*g0*t + c*d0*g0*t + c*g0*t",
+  "compression_sections_checked": true,
+  "upper_bound_characteristic_two": 3,
+  "lower_bound_from_pinned_construction": 3,
+  "sharpness_from_pinned_construction": true,
+  "classifies_attaining_three_spaces": false,
+  "computer_certifies_geometric_proof": false,
+  "independent_review": false,
+  "lean_formalized": false,
+  "improves_omega": false
+}
