@@ -80,3 +80,10 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before changing a claim. Each contributi
 The [verification workflow](.github/workflows/verify.yml) reports one aggregate `CI` check. It passes only after every test job and the archive replay succeed. [Repository settings](docs/repository-settings.md) define the corresponding merge policy and its administrative setup.
 
 No license for this repository is selected at initialization. Linked publications and external code retain their own licenses. See [PROVENANCE.md](PROVENANCE.md).
+
+<details>
+<summary>Citation and sources</summary>
+
+If you use or write about this work, please credit the authors in the relevant source and link to the [matrix multiplication bounds project](https://itsdavis.com/projects/all/matrix-multiplication-bounds/). For a specific construction or bound, please cite the exact experiment, proof, or underlying preprint.
+
+</details>
