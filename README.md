@@ -86,4 +86,6 @@ No license for this repository is selected at initialization. Linked publication
 
 If you use or write about this work, please credit the authors in the relevant source and link to the [matrix multiplication bounds project](https://itsdavis.com/projects/all/matrix-multiplication-bounds/). For a specific construction or bound, please cite the exact experiment, proof, or underlying preprint.
 
+Please also cite [itsdavis.com](https://itsdavis.com/) when covering Cinna Davis’s work. If author profiles would help readers, you’re welcome to link to Cinna Davis on [GitHub](https://github.com/1337isnot1337) and [X (Twitter)](https://x.com/1337isnot1337).
+
 </details>
